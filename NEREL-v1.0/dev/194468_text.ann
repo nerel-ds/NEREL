@@ -1,0 +1,71 @@
+T1	PROFESSION 0 7	Сенатор
+T2	PERSON 8 25	Вячеслав Тимченко
+T3	PERSON 85 113	Вячеслав Степанович Тимченко
+T4	DATE 114 123	16 ноября
+T5	ORGANIZATION 139 146	Госдумы
+T11	COUNTRY 280 300	Российской Федерации
+T13	ORGANIZATION 387 394	Совфеда
+T14	ORGANIZATION 398 423	Законодательного собрания
+T15	STATE_OR_PROVINCE 424 441	Кировской области
+T16	PERSON 442 474	Вячеславом Степановичем Тимченко
+T17	ORGANIZATION 491 498	Госдумы
+T18	ORGANIZATION 532 539	Госдумы
+T19	DATE 561 581	несколько дней назад
+T23	NUMBER 816 821	одной
+T24	NUMBER 825 829	пяти
+T26	PERSON 868 885	Вячеслав Тимченко
+T29	ORGANIZATION 973 986	Единой России
+T30	PROFESSION 997 1021	заместителя председателя
+T31	ORGANIZATION 1022 1073	комитета Совета Федерации по экономической политике
+R1	WORKS_AS Arg1:T2 Arg2:T1
+T32	LAW 57 83	уголовной статьи о клевете
+T6	EVENT 26 43	внес законопроект
+T7	LAW 225 300	О внесении изменения в статью 128.1 Уголовного кодекса Российской Федерации
+T8	LAW 248 300	статью 128.1 Уголовного кодекса Российской Федерации
+T9	LAW 261 279	Уголовного кодекса
+T10	LAW 261 300	Уголовного кодекса Российской Федерации
+T33	ORDINAL 255 260	128.1
+T34	ORDINAL 215 223	589658-7
+T12	ORGANIZATION 398 441	Законодательного собрания Кировской области
+T20	PRODUCT 585 600	Яндекс.Новостях
+T21	PERSON 613 621	Тимченко
+T22	LAW 837 865	статьи 128.1 УК РФ «Клевета»
+T25	ORDINAL 844 849	128.1
+T35	LAW 850 855	УК РФ
+T36	LAW 850 852	УК
+T37	COUNTRY 853 855	РФ
+T27	LOCATION 918 930	Приволжского
+T38	ORGANIZATION 918 987	Приволжского межрегионального координационного совета «Единой России»
+T28	ORGANIZATION 1031 1047	Совета Федерации
+T39	PROFESSION 997 1073	заместителя председателя комитета Совета Федерации по экономической политике
+R2	AGENT Arg1:T2 Arg2:T6	
+R3	PRODUCES Arg1:T2 Arg2:T32	
+T40	PROFESSION 380 394	членом Совфеда
+R4	WORKPLACE Arg1:T40 Arg2:T13	
+R5	HEADQUARTERED_IN Arg1:T12 Arg2:T15	
+R6	WORKPLACE Arg1:T16 Arg2:T15	
+R7	WORKPLACE Arg1:T16 Arg2:T12	
+R8	WORKS_AS Arg1:T16 Arg2:T40	
+R9	WORKPLACE Arg1:T16 Arg2:T13	
+R10	ALTERNATIVE_NAME Arg1:T32 Arg2:T22	
+T41	PROFESSION 905 987	руководителя Приволжского межрегионального координационного совета «Единой России»
+R11	WORKS_AS Arg1:T26 Arg2:T41	
+R12	WORKPLACE Arg1:T26 Arg2:T38	
+R13	WORKPLACE Arg1:T41 Arg2:T27	
+R14	HEADQUARTERED_IN Arg1:T38 Arg2:T27	
+R15	WORKS_AS Arg1:T26 Arg2:T39	
+R16	WORKPLACE Arg1:T26 Arg2:T31	
+R17	WORKPLACE Arg1:T39 Arg2:T31	
+R18	ORIGINS_FROM Arg1:T10 Arg2:T11	
+R19	PART_OF Arg1:T31 Arg2:T28	
+R20	INANIMATE_INVOLVED Arg1:T32 Arg2:T6	
+R21	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+R22	PART_OF Arg1:T7 Arg2:T8	
+R23	PART_OF Arg1:T8 Arg2:T10	
+R24	PART_OF Arg1:T22 Arg2:T35	
+R25	ORIGINS_FROM Arg1:T35 Arg2:T37	
+T42	CRIME 76 83	клевете
+T43	ORGANIZATION 585 591	Яндекс
+R26	ABBREVIATION Arg1:T43 Arg2:T20	
+T44	COUNTRY 980 986	России
+R27	HEADQUARTERED_IN Arg1:T29 Arg2:T44	

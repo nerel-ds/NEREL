@@ -1,0 +1,39 @@
+T1	ORGANIZATION 0 7	Госдума
+T2	DATE 98 125	В среду, 30 марта 2016 года
+T3	ORGANIZATION 129 136	Госдуме
+T4	COUNTRY 137 143	России
+T5	COUNTRY 232 234	РФ
+T6	LAW 281 285	КоАП
+T7	LAW 287 313	Правила дорожного движения
+T8	LAW 315 331	Уголовный кодекс
+T9	LAW 334 352	Гражданский кодекс
+T10	COUNTRY 353 355	РФ
+T13	ORGANIZATION 402 452	Комитета Госдумы по науке и наукоемким технологиям
+T14	PERSON 453 468	Дмитрий Новиков
+T15	COUNTRY 483 493	российском
+T16	EVENT 643 657	круглого стола
+T20	LAW 1410 1413	ПДД
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4
+T21	ORGANIZATION 129 143	Госдуме России
+T22	LAW 334 355	Гражданский кодекс РФ
+T23	ORGANIZATION 411 418	Госдумы
+T24	PROFESSION 389 452	председателя Комитета Госдумы по науке и наукоемким технологиям
+T25	PROFESSION 370 452	первый заместитель председателя Комитета Госдумы по науке и наукоемким технологиям
+T17	EVENT 151 163	круглый стол
+R3	TAKES_PLACE_IN Arg1:T17 Arg2:T3	
+R4	WORKS_AS Arg1:T14 Arg2:T25	
+R5	WORKPLACE Arg1:T14 Arg2:T13	
+R6	SUBORDINATE_OF Arg1:T14 Arg2:T24	
+R2	ORIGINS_FROM Arg1:T22 Arg2:T10	
+R7	POINT_IN_TIME Arg1:T17 Arg2:T2	
+R8	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R10	PART_OF Arg1:T13 Arg2:T23	
+T11	PROFESSION 1246 1259	водителя БПТС
+T12	PROFESSION 1348 1356	Водитель
+R11	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R12	ABBREVIATION Arg1:T7 Arg2:T20	
+T18	PROFESSION 60 72	программиста
+R13	ORIGINS_FROM Arg1:T8 Arg2:T10	
+R14	ORIGINS_FROM Arg1:T7 Arg2:T10	
+R15	ORIGINS_FROM Arg1:T6 Arg2:T10	

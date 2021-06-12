@@ -1,0 +1,90 @@
+T1	ORGANIZATION 0 18	Исторический музей
+T2	FACILITY 66 100	Государственный исторический музей
+T3	FACILITY 102 117	Красная площадь
+T4	DATE 119 128	июнь 2010
+T5	CITY 130 136	Москва
+T6	DATE 138 158	28 октября 2019 года
+T7	ORGANIZATION 159 193	Государственный исторический музей
+T8	ORGANIZATION 195 198	ГИМ
+T9	EVENT 209 228	Дилетантские чтения
+T10	DATE 275 285	30 октября
+T11	PROFESSION 404 413	журналист
+T12	PROFESSION 432 440	спикером
+T14	PERSON 470 484	Олег Будницкий
+T15	ORGANIZATION 486 504	Исторический музей
+T16	EVENT 561 583	Дня народного единения
+T17	AGE 586 594	75-летия
+T18	EVENT 595 605	Дня победы
+T19	NUMBER 667 675	менее 30
+T20	MONEY 698 708	700 рублей
+T21	DATE 721 731	26 октября
+T22	CITY 733 743	московский
+T23	ORGANIZATION 761 776	Молодая гвардия
+T24	WORK_OF_ART 813 821	Дилетант
+T25	PERSON 871 890	Клиффорда Берримена
+T26	DATE 894 911	октября 1939 года
+T27	PERSON 926 940	Иосифа Сталина
+T28	PERSON 943 958	Адольфа Гитлера
+T29	LAW 1211 1307	КоАП РФ ст. 20.3 «Пропаганда либо публичное демонстрирование нацистской атрибутики или символики
+T32	ORGANIZATION 1342 1358	ИА Красная Весна
+T33	DATE 1381 1391	ноябрьском
+T34	DATE 1466 1476	30 октября
+T35	ORGANIZATION 1508 1518	Эхо Москвы
+T36	PERSON 1520 1538	Алексей Венедиктов
+T37	CITY 1702 1708	Москве
+T38	CITY 1756 1762	Москве
+T39	CITY 1771 1777	Москве
+T40	EVENT 1803 1822	Дилетантские чтения
+T41	CITY 1951 1957	Москве
+T45	PERSON 414 428	Сергей Бунтман
+T46	PROFESSION 443 450	историк
+T47	PROFESSION 452 461	профессор
+T48	ORGANIZATION 462 469	НИУ ВШЭ
+T49	PROFESSION 452 469	профессор НИУ ВШЭ
+T51	LAW 1169 1209	закона о пропаганде нацистской символики
+T30	LAW 1229 1307	Пропаганда либо публичное демонстрирование нацистской атрибутики или символики
+T31	ORGANIZATION 1326 1329	ГИМ
+T52	PROFESSION 1330 1341	журналистам
+T53	TIME 1458 1476	Вечером 30 октября
+T54	PROFESSION 1485 1493	редактор
+T55	PROFESSION 1477 1493	главный редактор
+T56	PRODUCT 1555 1563	твиттере
+T57	DATE 1709 1721	до 22 ноября
+T58	LAW 1826 1831	пакту
+T61	ORGANIZATION 1313 1329	пресс-службе ГИМ
+T62	LAW 319 344	Пакт Молотова-Риббентропа
+T42	LAW 39 65	пакте Молотова-Риббентропа
+T59	PERSON 45 53	Молотова
+T63	PERSON 324 332	Молотова
+T64	PERSON 333 344	Риббентропа
+T65	PERSON 54 65	Риббентропа
+R1	WORKS_AS Arg1:T14 Arg2:T49	
+R2	WORKPLACE Arg1:T14 Arg2:T48	
+R3	WORKS_AS Arg1:T14 Arg2:T46	
+R4	WORKS_AS Arg1:T14 Arg2:T12	
+R5	WORKS_AS Arg1:T45 Arg2:T11	
+R6	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R7	WORKPLACE Arg1:T36 Arg2:T35	
+R8	AGE_IS Arg1:T18 Arg2:T17	
+T13	LAW 1211 1218	КоАП РФ
+R9	ABBREVIATION Arg1:T7 Arg2:T8	
+R10	WORKPLACE Arg1:T52 Arg2:T32	
+R11	WORKS_AS Arg1:T36 Arg2:T60	
+R12	LOCATED_IN Arg1:T2 Arg2:T3	
+R13	LOCATED_IN Arg1:T3 Arg2:T5	
+R14	WORKPLACE Arg1:T49 Arg2:T48	
+T43	CRIME 1178 1209	пропаганде нацистской символики
+T44	COUNTRY 1216 1218	РФ
+T50	LAW 1211 1215	КоАП
+T60	PROFESSION 1477 1518	главный редактор радиостанции «Эхо Москвы
+R15	WORKPLACE Arg1:T60 Arg2:T35	
+R16	PRODUCES Arg1:T65 Arg2:T42	
+R17	PRODUCES Arg1:T59 Arg2:T42	
+R18	PRODUCES Arg1:T63 Arg2:T62	
+R19	PRODUCES Arg1:T64 Arg2:T62	
+R20	ORIGINS_FROM Arg1:T13 Arg2:T44	
+T66	ORDINAL 1223 1225	20
+T67	ORDINAL 1226 1227	3
+R21	PART_OF Arg1:T61 Arg2:T31	
+R22	WORKPLACE Arg1:T60 Arg2:T35	
+R23	PART_OF Arg1:T29 Arg2:T13	
