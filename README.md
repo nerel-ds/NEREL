@@ -21,13 +21,23 @@ NEREL features 29 entity and 49 relation types.
 |9. | EVENT | 19. | ORDINAL | 29. | WORK_OF_ART
 |10. | FACILITY | 20. | ORGANIZATION |  | 
 
-### Baselines for Nested NER
+### Baselines for nested NER
 
  - [Biaffine model](https://arxiv.org/pdf/2005.07150.pdf)
  - [Pyramid model](https://www.aclweb.org/anthology/2020.acl-main.525.pdf)
  - [MRC model](https://arxiv.org/pdf/1910.11476.pdf) (Machine Reading Comprehension)
 
-Word representations used with all models are [fastText](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz) and pre-trained [RuBERT-cased](http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v2.tar.gz) embeddings. 
+Word representations used with all models are [fastText](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz) (fT) and pre-trained [RuBERT-cased](http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v2.tar.gz) embeddings. 
+
+### Results of nested NER for NEREL
+
+|Method | P | R | F1 
+|---|---|---|---
+|Biaffine, fT | 78.84 | 71.80 | 75.13
+|Biaffine, RuBERT | **81.92** | 71.54 | 76.38
+|Pyramid, fT | 72.70 | 63.01 | 67.51
+|Pyramid, RuBERT | 77.73 | 70.97 | 74.19
+|MRC | 78.70 | **80.24** | **79.64**
 
 
 ### List of relation types
@@ -53,19 +63,39 @@ Word representations used with all models are [fastText](https://dl.fbaipublicfi
 |17. | HAS_CAUSE | 34. | PLACE_OF_DEATH |  | 
 
 
-### Baselines for In-sentence RE
+### Baselines for In-sentence relation extraction
 
  - [OpenNRE model](https://arxiv.org/pdf/1909.13078.pdf)
  - [SpanBERT model](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00300/43539/SpanBERT-Improving-Pre-training-by-Representing) 
  - [TRE model](https://arxiv.org/pdf/1906.03088.pdf) 
 
-### Baselines for Nested RE
+### Baselines for nested relation extraction
 
  - [OpenNRE model](https://arxiv.org/pdf/1909.13078.pdf)
  - IntModel
 
-### Baseline for Document-level RE
+### Baseline for Document-level relation extraction
 
  - [OpenNRE model](https://arxiv.org/pdf/1909.13078.pdf)
 
 The encoders used with SpanBERT and OpenNRE are multilingual BERT and RuBERT.
+
+### Results of relation extraction for NEREL
+
+|Method | P | R | F1 
+|---|---|---|---
+|**In-sentence relations**|
+|OpenNRE, mBERT | 81.7 | 81.6 | 81.7
+|OpenNRE, RuBERT | **85.3** | **84.6** | **84.9**
+|SpanBERT, mBERT | 76.8 | 75.4 | 76.1
+|SpanBERT, RuBERT | 77.4 | 78.6 | 78.0
+|TRE | 66.4 | 68.1 | 67.2
+|**In-sentence nested relations**|
+|OpenNRE, mBERT | 74.3 | 77.7 | 76.0
+|OpenNRE, RuBERT | **77.8** | **79.6** | **78.7**
+|IntModel | 76.3 | 72.4 | 74.3
+|**Document-level relations**|
+|OpenNRE, mBERT | 35.7 | 51.2 | 42.1
+|OpenNRE, RuBERT | **52.1** | **51.3** | **51.7**
+
+
