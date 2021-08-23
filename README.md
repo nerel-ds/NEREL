@@ -27,7 +27,9 @@ NEREL features 29 entity and 49 relation types.
  - [Pyramid model](https://www.aclweb.org/anthology/2020.acl-main.525.pdf)
  - [MRC model](https://arxiv.org/pdf/1910.11476.pdf) (Machine Reading Comprehension)
 
-Word representations used with all models are [fastText](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz) (fT) and pre-trained [RuBERT-cased](http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v2.tar.gz) embeddings. 
+Word representations used with all models are [fastText](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz) (fT) and pre-trained [RuBERT-cased](http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v2.tar.gz) embeddings.
+
+For more details, please see [here](https://github.com/nerel-ds/nested-ner-benchmarks). 
 
 ### Results of nested NER for NEREL
 
