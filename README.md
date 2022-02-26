@@ -25,6 +25,7 @@ NEREL features 29 entity and 49 relation types.
 
  - [Biaffine model](https://arxiv.org/pdf/2005.07150.pdf)
  - [Pyramid model](https://www.aclweb.org/anthology/2020.acl-main.525.pdf)
+ - [SpERT](https://arxiv.org/pdf/1909.07755.pdf)
  - [MRC model](https://arxiv.org/pdf/1910.11476.pdf) (Machine Reading Comprehension)
 
 Word representations used with all models are [fastText](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ru.300.vec.gz) (fT) and pre-trained [RuBERT-cased](http://files.deeppavlov.ai/deeppavlov_data/bert/rubert_cased_L-12_H-768_A-12_v2.tar.gz) embeddings.
@@ -35,11 +36,12 @@ For more details, please see [here](https://github.com/nerel-ds/nested-ner-bench
 
 |Method | P | R | F1 
 |---|---|---|---
-|Biaffine, fT | 78.84 | 71.80 | 75.13
-|Biaffine, RuBERT | **81.92** | 71.54 | 76.38
-|Pyramid, fT | 72.70 | 63.01 | 67.51
-|Pyramid, RuBERT | 77.73 | 70.97 | 74.19
-|MRC | 78.70 | **80.24** | **79.64**
+|Biaffine, fT | 81.64 | 77.69 | 79.62
+|Biaffine, RuBERT, ft | 80.71 | 77.84 | 79.25
+|Pyramid, fT | 75.87 | 72.40 | 74.09
+|Pyramid, RuBERT, ft | 79.54 | 79.91 | 79.73
+|SpERT, RuBERT | 82.90 | 82.14 | 82.52
+|MRC | **85.04** | **84.95** | **84.99**
 
 
 ### List of relation types
