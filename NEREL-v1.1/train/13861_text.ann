@@ -1,0 +1,48 @@
+T1	PERSON 0 11	Герман Кейн
+T2	PROFESSION 16 26	президенты
+T3	PERSON 36 48	Барака Обамы
+T4	DATE 107 118	в 2012 году
+T5	PERSON 123 127	Кейн
+T6	ORGANIZATION 191 208	Godfather’s pizza
+T7	DATE 244 253	В субботу
+T8	CITY 278 285	Атланте
+T9	PERSON 313 326	Герману Кейну
+T10	AGE 327 333	65 лет
+T11	ORGANIZATION 410 427	Движения чаепития
+T12	COUNTRY 550 553	США
+T13	PERSON 660 664	Кейн
+T14	ORGANIZATION 747 752	Сенат
+T15	STATE_OR_PROVINCE 756 764	Джорджии
+T16	ORGANIZATION 864 886	Республиканской партии
+T17	PERSON 888 901	Германа Кейна
+T18	EVENT 85 106	президентских выборах
+T19	PROFESSION 264 275	журналистам
+T20	IDEOLOGY 394 409	консервативного
+T21	DATE 765 776	в 2004 году
+T22	IDEOLOGY 989 1007	анти-президентской
+R1	POINT_IN_TIME Arg1:T18 Arg2:T4	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R3	WORKPLACE Arg1:T5 Arg2:T6	
+R4	AGE_IS Arg1:T9 Arg2:T10	
+R5	IDEOLOGY_OF Arg1:T11 Arg2:T20	
+R6	ALTERNATIVE_NAME Arg1:T17 Arg2:T22	
+T23	IDEOLOGY 864 879	Республиканской
+R7	IDEOLOGY_OF Arg1:T16 Arg2:T23	
+R8	TAKES_PLACE_IN Arg1:T18 Arg2:T12	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R10	IDEOLOGY_OF Arg1:T17 Arg2:T23	
+N1	Reference T2 Wikidata:Q30461	президент
+N2	Reference T3 Wikidata:Q76	Барак Обама
+N5	Reference T8 Wikidata:Q23556	Атланта
+N6	Reference T11 Wikidata:Q19042	Движение чаепития
+N7	Reference T12 Wikidata:Q30	США
+N9	Reference T15 Wikidata:Q1428	Джорджия
+N11	Reference T17 Wikidata:Q491019	Кейн, Херман
+N12	Reference T19 Wikidata:Q1930187	журналист
+N3	Reference T5 Wikidata:Q491019	Кейн, Херман
+N4	Reference T6 Wikidata:Q5576353	
+N8	Reference T14 Wikidata:Q66096	Сенат США
+N10	Reference T16 Wikidata:Q29468	Республиканская партия
+N13	Reference T13 Wikidata:Q491019	Кейн, Херман
+N14	Reference T9 Wikidata:Q491019	Кейн, Херман
+N15	Reference T1 Wikidata:Q491019	Кейн, Херман

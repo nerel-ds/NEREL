@@ -1,0 +1,85 @@
+T1	WORK_OF_ART 6 19	Gangnam style
+T2	NATIONALITY 20 34	южнокорейского
+T3	PERSON 42 45	PSY
+T4	PRODUCT 77 84	YouTube
+T5	PERSON 94 109	Джастина Бибера
+T6	DATE 115 134	24 ноября 2012 года
+T7	NATIONALITY 140 154	Южнокорейского
+T8	PERSON 162 165	PSY
+T9	PERSON 167 177	Пак Чэ Сан
+T10	WORK_OF_ART 188 201	Gangnam Style
+T11	PRODUCT 263 270	YouTube
+T12	NATIONALITY 306 316	канадского
+T13	PERSON 333 348	Джастина Бибера
+T14	WORK_OF_ART 358 362	Baby
+T15	WORK_OF_ART 399 412	Gangnam Style
+T16	NUMBER 418 425	815 млн
+T17	WORK_OF_ART 442 446	Baby
+T18	NUMBER 449 456	804 млн
+T20	AGE 465 475	34-летнего
+T21	NATIONALITY 476 490	южнокорейского
+T22	PERSON 497 509	Пака Чэ Сана
+T24	DATE 555 572	15 июля 2012 года
+T26	NUMBER 654 672	около 6,1 миллиона
+T27	PERSON 711 714	PSY
+T28	DATE 751 767	в прошлом месяце
+T29	NUMBER 802 811	5 421 275
+T30	NUMBER 854 861	331 502
+T31	WORK_OF_ART 898 911	Gangnam Style
+T33	ORGANIZATION 960 963	MTV
+T34	EVENT 964 983	Europe Music Awards
+T35	PROFESSION 35 41	рэпера
+T36	PERSON 110 113	PSY
+T37	PROFESSION 155 161	рэпера
+T39	PROFESSION 317 332	поп-исполнителя
+T19	PROFESSION 491 496	певца
+T23	WORK_OF_ART 510 523	Gangnam Style
+T25	NUMBER 630 633	132
+T40	AWARD 929 946	лучший видеоролик
+R1	WORKS_AS Arg1:T3 Arg2:T35	
+R2	ORIGINS_FROM Arg1:T3 Arg2:T2	
+R3	PRODUCES Arg1:T3 Arg2:T1	
+R4	PRODUCES Arg1:T8 Arg2:T10	
+R5	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R6	WORKS_AS Arg1:T8 Arg2:T37	
+R7	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R8	PRODUCES Arg1:T13 Arg2:T14	
+R9	WORKS_AS Arg1:T13 Arg2:T39	
+R10	ORIGINS_FROM Arg1:T13 Arg2:T12	
+R11	WORKS_AS Arg1:T22 Arg2:T19	
+R12	AGE_IS Arg1:T22 Arg2:T20	
+R13	ORIGINS_FROM Arg1:T22 Arg2:T21	
+R14	PRODUCES Arg1:T22 Arg2:T23	
+R15	AWARDED_WITH Arg1:T31 Arg2:T40	
+T38	LOCATION 964 970	Europe
+R16	TAKES_PLACE_IN Arg1:T34 Arg2:T38	
+R17	ORGANIZES Arg1:T33 Arg2:T34	
+R18	ORIGINS_FROM Arg1:T40 Arg2:T34	
+N1	Reference T5 Wikidata:Q34086	Джастин Бибер
+N3	Reference T9 Wikidata:Q20150	PSY
+N4	Reference T10 Wikidata:Q890	Gangnam Style
+N5	Reference T11 Wikidata:Q866	YouTube
+N8	Reference T33 Wikidata:Q43359	MTV
+N9	Reference T37 Wikidata:Q2252262	рэпер
+N10	Reference T39 Wikidata:Q37073	поп-музыка
+N11	Reference T19 Wikidata:Q177220	певец
+N13	Reference T38 Wikidata:Q46	Европа
+N12	Reference T40 Wikidata:Q86660430	
+N7	Reference T17 Wikidata:Q1647391	
+N6	Reference T12 Wikidata:Q1196645	канадцы
+N2	Reference T7 Wikidata:Q61361124	
+N14	Reference T13 Wikidata:Q34086	Джастин Бибер
+N15	Reference T22 Wikidata:Q20150	PSY
+N16	Reference T8 Wikidata:Q20150	PSY
+N17	Reference T3 Wikidata:Q20150	PSY
+N18	Reference T36 Wikidata:Q20150	PSY
+N19	Reference T27 Wikidata:Q20150	PSY
+N20	Reference T15 Wikidata:Q890	Gangnam Style
+N21	Reference T23 Wikidata:Q890	Gangnam Style
+N22	Reference T31 Wikidata:Q890	Gangnam Style
+N23	Reference T1 Wikidata:Q890	Gangnam Style
+N24	Reference T4 Wikidata:Q866	YouTube
+N25	Reference T35 Wikidata:Q2252262	рэпер
+N26	Reference T14 Wikidata:Q1647391	
+N27	Reference T2 Wikidata:Q61361124	
+N28	Reference T21 Wikidata:Q61361124	

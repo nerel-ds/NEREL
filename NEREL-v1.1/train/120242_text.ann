@@ -1,0 +1,142 @@
+T1	NUMBER 0 2	12
+T2	EVENT 14 17	ДТП
+T3	STATE_OR_PROVINCE 20 30	Забайкалье
+T4	FACILITY 43 49	Байкал
+T5	FACILITY 85 91	Байкал
+T6	EVENT 107 110	ДТП
+T7	STATE_OR_PROVINCE 141 159	Забайкальском крае
+T8	NUMBER 168 170	12
+T9	NUMBER 180 188	Более 40
+T13	TIME 270 310	В ночь на понедельник, 12 июня 2017 года
+T14	NUMBER 315 330	702-м километре
+T15	FACILITY 351 357	Байкал
+T16	CITY 366 373	Хохотуй
+T17	NUMBER 403 405	51
+T18	NUMBER 446 448	12
+T19	NUMBER 480 486	десять
+T20	NUMBER 495 503	Около 40
+T21	NUMBER 532 536	трое
+T22	LOCATION 610 619	Читинской
+T23	ORGANIZATION 610 627	Читинской епархии
+T24	FACILITY 698 727	обители преподобного Варлаама
+T25	PERSON 719 727	Варлаама
+T26	LOCATION 740 750	Чикойского
+T27	FACILITY 756 796	Чикойский Иоанно-Предтеченский монастырь
+T29	CITY 806 811	Урлук
+T30	DISTRICT 812 835	Красночикойского района
+T31	EVENT 889 892	ДТП
+T32	DATE 968 982	в прошлом году
+T33	LAW 1146 1164	ч. 5 ст. 264 УК РФ
+T34	LAW 1159 1164	УК РФ
+T35	ORGANIZATION 1244 1264	следственный комитет
+T36	COUNTRY 1265 1271	России
+T37	LAW 1308 1321	ст. 238 УК РФ
+T38	LAW 1316 1321	УК РФ
+T39	PROFESSION 1383 1393	Губернатор
+T40	STATE_OR_PROVINCE 1394 1413	Забайкальского края
+T41	PERSON 1414 1429	Наталья Жданова
+T42	MONEY 1473 1485	1 млн рублей
+R8	LOCATED_IN Arg1:T29 Arg2:T30
+R10	WORKS_AS Arg1:T41 Arg2:T10
+T10	PROFESSION 1383 1413	Губернатор Забайкальского края
+T11	ORGANIZATION 1244 1271	следственный комитет России
+T12	DATE 277 310	на понедельник, 12 июня 2017 года
+T28	EVENT 51 71	перевернулся автобус
+T43	EVENT 107 138	ДТП с перевернувшимся автобусом
+R2	LOCATED_IN Arg1:T24 Arg2:T29	
+R1	ALTERNATIVE_NAME Arg1:T24 Arg2:T27	
+T44	LAW 1151 1164	ст. 264 УК РФ
+R3	WORKPLACE Arg1:T41 Arg2:T40	
+R4	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R5	TAKES_PLACE_IN Arg1:T28 Arg2:T4	
+R6	TAKES_PLACE_IN Arg1:T43 Arg2:T7	
+T45	EVENT 415 429	съехал в кювет
+T46	LOCATION 315 358	702-м километре федеральной трассы «Байкал»
+R7	TAKES_PLACE_IN Arg1:T45 Arg2:T46	
+R9	POINT_IN_TIME Arg1:T45 Arg2:T12	
+T47	PROFESSION 1006 1023	Водитель автобуса
+T48	PROFESSION 1006 1014	Водитель
+T49	COUNTRY 1162 1164	РФ
+T50	COUNTRY 1319 1321	РФ
+R11	ALTERNATIVE_NAME Arg1:T2 Arg2:T28	
+R12	LOCATED_IN Arg1:T4 Arg2:T3	
+R13	POINT_IN_TIME Arg1:T43 Arg2:T12	
+R14	SUBEVENT_OF Arg1:T45 Arg2:T43	
+T51	LAW 1159 1161	УК
+T52	LAW 1316 1318	УК
+T53	EVENT 160 167	погибли
+R16	TAKES_PLACE_IN Arg1:T53 Arg2:T7	
+R17	SUBEVENT_OF Arg1:T53 Arg2:T6	
+T54	EVENT 197 214	госпитализированы
+R19	SUBEVENT_OF Arg1:T54 Arg2:T43	
+T55	EVENT 457 464	погибли
+T56	EVENT 495 514	Около 40 пострадали
+T57	PROFESSION 654 664	паломников
+T58	PROFESSION 706 718	преподобного
+T59	PROFESSION 729 739	пустынника
+T60	LOCATION 756 765	Чикойский
+R20	LOCATED_IN Arg1:T27 Arg2:T60	
+T61	PERSON 766 786	Иоанно-Предтеченский
+T62	EVENT 1060 1085	возбуждено уголовное дело
+T63	EVENT 1118 1142	возбудила уголовное дело
+R21	ALTERNATIVE_NAME Arg1:T62 Arg2:T63	
+T64	ORDINAL 1149 1150	5
+T65	ORDINAL 1155 1158	264
+T66	LAW 1167 1238	Нарушение правил дорожного движения и эксплуатации транспортных средств
+T67	ORDINAL 1312 1315	238
+R22	ALTERNATIVE_NAME Arg1:T49 Arg2:T36	
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T50	
+T68	LAW 1324 1378	Оказание услуг, не отвечающих требованиям безопасности
+R18	ALTERNATIVE_NAME Arg1:T28 Arg2:T43	
+R24	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R25	ORIGINS_FROM Arg1:T34 Arg2:T49	
+R26	ORIGINS_FROM Arg1:T38 Arg2:T50	
+R27	HEADQUARTERED_IN Arg1:T11 Arg2:T36	
+R28	WORKPLACE Arg1:T10 Arg2:T40	
+R15	WORKS_AS Arg1:T25 Arg2:T58	
+R29	WORKS_AS Arg1:T25 Arg2:T59	
+R30	LOCATED_IN Arg1:T25 Arg2:T26	
+R31	PARTICIPANT_IN Arg1:T47 Arg2:T62	
+R32	PART_OF Arg1:T33 Arg2:T44	
+R33	PART_OF Arg1:T44 Arg2:T34	
+R34	PART_OF Arg1:T37 Arg2:T38	
+N1	Reference T3 Wikidata:Q6838	Забайкальский край
+N3	Reference T7 Wikidata:Q6838	Забайкальский край
+N4	Reference T16 Wikidata:Q4500579	Хохотуй
+N5	Reference T22 Wikidata:Q1655251	Читинский район
+N6	Reference T23 Wikidata:Q4516667	Читинская епархия
+N10	Reference T29 Wikidata:Q16710337	Урлук
+N11	Reference T30 Wikidata:Q1655260	Красночикойский район
+N13	Reference T34 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N15	Reference T39 Wikidata:Q132050	губернатор
+N16	Reference T41 Wikidata:Q22918665	Наталья Николаевна Жданова
+N17	Reference T10 Wikidata:Q20982653	Губернатор Забайкальского края
+N18	Reference T11 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N22	Reference T48 Wikidata:Q216541	водитель
+N23	Reference T49 Wikidata:Q159	Россия
+N26	Reference T58 Wikidata:Q12774503	преподобный
+N27	Reference T59 Wikidata:Q1146843	анахорет
+N29	Reference T66 Wikidata:Q3074	правила дорожного движения
+N24	Reference T51 Wikidata:Q19705	уголовное законодательство
+N19	Reference T44 Wikidata:NULL	нет данных
+N12	Reference T33 Wikidata:NULL	нет данных
+N14	Reference T37 Wikidata:NULL	нет данных
+N30	Reference T68 Wikidata:NULL	нет данных
+N21	Reference T47 Wikidata:Q829020	
+N31	Reference T35 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N25	Reference T57 Wikidata:Q542704	
+N8	Reference T25 Wikidata:Q4103883	Варлаам Чикойский
+N7	Reference T24 Wikidata:Q4515899	Чикойский монастырь
+N28	Reference T61 Wikidata:Q40662	
+N20	Reference T46 Wikidata:NULL	нет данных
+N9	Reference T26 Wikidata:Q1970589	
+N2	Reference T5 Wikidata:Q1881018	Байкал
+N32	Reference T40 Wikidata:Q6838	Забайкальский край
+N33	Reference T38 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N34	Reference T50 Wikidata:Q159	Россия
+N35	Reference T36 Wikidata:Q159	Россия
+N36	Reference T52 Wikidata:Q19705	уголовное законодательство
+N37	Reference T27 Wikidata:Q4515899	Чикойский монастырь
+N38	Reference T60 Wikidata:Q1970589	
+N39	Reference T4 Wikidata:Q1881018	Байкал
+N40	Reference T15 Wikidata:Q1881018	Байкал

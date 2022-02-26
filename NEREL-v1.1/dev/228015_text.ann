@@ -1,0 +1,115 @@
+T1	PERSON 0 13	Глеб Панфилов
+T2	WORK_OF_ART 38 64	Один день Ивана Денисовича
+T3	PROFESSION 66 74	Режиссёр
+T4	PERSON 75 88	Глеб Панфилов
+T5	ORDINAL 125 127	21
+T6	EVENT 143 151	Кинотавр
+T7	DATE 153 169	21 мая 2019 года
+T8	PERSON 179 192	Глеб Панфилов
+T9	AGE 201 210	85-летний
+T10	WORK_OF_ART 292 318	Один день Ивана Денисовича
+T11	PERSON 371 393	Александра Солженицына
+T12	PERSON 396 404	Панфилов
+T13	PERSON 428 439	Солженицына
+T14	DATE 471 482	в 2006 году
+T15	WORK_OF_ART 501 515	В круге первом
+T16	PERSON 588 598	Солженицын
+T17	WORK_OF_ART 640 666	Один день Ивана Денисовича
+T18	PERSON 675 684	Панфилову
+T19	DATE 714 731	в конце 2017 года
+T20	PERSON 783 791	Панфилов
+T21	PERSON 902 925	Ивана Денисовича Шухова
+T22	PERSON 980 986	Шухова
+T24	PERSON 1062 1080	Наталья Дмитриевна
+T25	PERSON 1170 1186	Филипп Янковский
+T26	PERSON 1210 1226	Михаил Агранович
+T27	PERSON 1229 1241	Михаил Хасая
+T28	ORDINAL 1243 1249	Первый
+T29	DATE 1277 1290	на 11 декабря
+T30	DATE 1350 1365	в следующем мае
+T31	EVENT 1375 1385	Дня Победы
+T32	WORK_OF_ART 1397 1423	Один день Ивана Денисовича
+T33	DATE 1441 1452	в 1962 году
+T34	PERSON 1471 1482	Солженицыну
+T35	ORDINAL 1534 1540	первое
+T37	DATE 1680 1691	в 1970 году
+T38	COUNTRY 1708 1717	норвежско
+T39	COUNTRY 1718 1729	британского
+T40	EVENT 125 151	21 кинофестивале «Кинотавр
+T42	PROFESSION 170 178	режиссёр
+T44	PROFESSION 461 469	писателя
+T23	PERSON 1049 1060	Солженицына
+T45	PROFESSION 1126 1135	режиссера
+T46	PROFESSION 1188 1199	Операторами
+T47	EVENT 1294 1307	день рождения
+T48	PERSON 1308 1319	Солженицына
+T49	EVENT 1329 1337	премьера
+R1	PRODUCES Arg1:T1 Arg2:T2	
+R2	WORKS_AS Arg1:T4 Arg2:T3	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T40	
+R4	AGE_IS Arg1:T8 Arg2:T9	
+R6	WORKS_AS Arg1:T8 Arg2:T42	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R10	PRODUCES Arg1:T11 Arg2:T10	
+R11	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R12	WORKS_AS Arg1:T13 Arg2:T44	
+R13	PRODUCES Arg1:T12 Arg2:T15	
+R14	PRODUCES Arg1:T13 Arg2:T15	
+R15	PRODUCES Arg1:T16 Arg2:T17	
+R16	PRODUCES Arg1:T18 Arg2:T17	
+T50	PERSON 48 64	Ивана Денисовича
+R17	ORIGINS_FROM Arg1:T2 Arg2:T50	
+T51	PERSON 302 318	Ивана Денисовича
+R18	ORIGINS_FROM Arg1:T10 Arg2:T51	
+T52	ORDINAL 509 515	первом
+T53	PERSON 650 666	Ивана Денисовича
+R19	ORIGINS_FROM Arg1:T17 Arg2:T53	
+R20	ALTERNATIVE_NAME Arg1:T53 Arg2:T21	
+R21	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R22	SPOUSE Arg1:T23 Arg2:T24	
+R23	PARTICIPANT_IN Arg1:T25 Arg2:T17	
+R24	WORKS_AS Arg1:T26 Arg2:T46	
+R25	WORKS_AS Arg1:T27 Arg2:T46	
+R26	PARTICIPANT_IN Arg1:T26 Arg2:T17	
+R27	PARTICIPANT_IN Arg1:T27 Arg2:T17	
+R28	PARTICIPANT_IN Arg1:T48 Arg2:T47	
+R29	POINT_IN_TIME Arg1:T47 Arg2:T29	
+R30	POINT_IN_TIME Arg1:T49 Arg2:T30	
+R31	DATE_OF_CREATION Arg1:T32 Arg2:T33	
+R32	PRODUCES Arg1:T34 Arg2:T32	
+T54	PERSON 1610 1620	сталинских
+R5	INANIMATE_INVOLVED Arg1:T17 Arg2:T49	
+N1	Reference T1 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N2	Reference T10 Wikidata:Q60833617	Один день Ивана Денисовича
+N3	Reference T15 Wikidata:Q4101717	В круге первом
+N5	Reference T24 Wikidata:Q4427694	Солженицына, Наталия Дмитриевна
+N6	Reference T25 Wikidata:Q1342340	Филипп Олегович Янковский
+N7	Reference T26 Wikidata:Q4057026	Михаил Леонидович Агранович
+N11	Reference T42 Wikidata:Q3455803	режиссёр
+N12	Reference T44 Wikidata:Q36180	писатель
+N14	Reference T48 Wikidata:Q34474	Александр Исаевич Солженицын
+N4	Reference T18 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N13	Reference T46 Wikidata:Q1208175	кинооператор
+N8	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T54 Wikidata:Q855	Иосиф Виссарионович Сталин
+N9	Reference T38 Wikidata:Q20	Норвегия
+N10	Reference T39 Wikidata:Q145	Великобритания
+N15	Reference T50 Wikidata:NULL	нет данных
+N17	Reference T8 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N18	Reference T20 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N19	Reference T12 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N20	Reference T4 Wikidata:Q977918	Глеб Анатольевич Панфилов
+N21	Reference T17 Wikidata:Q60833617	Один день Ивана Денисовича
+N22	Reference T2 Wikidata:Q60833617	Один день Ивана Денисовича
+N23	Reference T32 Wikidata:Q60833617	Один день Ивана Денисовича
+N24	Reference T45 Wikidata:Q3455803	режиссёр
+N25	Reference T3 Wikidata:Q3455803	режиссёр
+N26	Reference T13 Wikidata:Q34474	Александр Исаевич Солженицын
+N27	Reference T23 Wikidata:Q34474	Александр Исаевич Солженицын
+N28	Reference T16 Wikidata:Q34474	Александр Исаевич Солженицын
+N29	Reference T34 Wikidata:Q34474	Александр Исаевич Солженицын
+N30	Reference T11 Wikidata:Q34474	Александр Исаевич Солженицын
+N31	Reference T22 Wikidata:NULL	нет данных
+N32	Reference T51 Wikidata:NULL	нет данных
+N33	Reference T53 Wikidata:NULL	нет данных
+N34	Reference T21 Wikidata:NULL	нет данных

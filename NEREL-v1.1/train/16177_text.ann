@@ -1,0 +1,120 @@
+T1	PROFESSION 0 15	Премьер-министр
+T2	PERSON 23 41	Сильвио Берлускони
+T3	PERSON 80 91	Марио Монти
+T4	PERSON 92 103	Марио Монти
+T5	PERSON 147 165	Сильвио Берлускони
+T6	PROFESSION 192 201	Президент
+T7	PERSON 209 228	Джорджио Наполитано
+T8	PROFESSION 248 258	экономисту
+T9	PERSON 259 270	Марио Монти
+T10	PROFESSION 326 342	премьер-министра
+T11	DATE 358 376	13 ноября 211 года
+T12	PERSON 410 420	Наполитано
+T13	AGE 428 438	68-летнего
+T14	PERSON 487 492	Монти
+T15	ORGANIZATION 609 622	Народ свободы
+T16	ORGANIZATION 625 627	НС
+T17	PERSON 640 645	Монти
+T18	COUNTRY 732 738	Италии
+T19	PERSON 753 758	Монти
+T20	ORDINAL 884 891	третьей
+T21	PERSON 971 982	Марио Монти
+T23	PROFESSION 1053 1063	президенту
+T24	PERSON 1071 1081	Наполитано
+T25	PROFESSION 1122 1138	премьер-министра
+T26	ORGANIZATION 1204 1217	правительство
+T27	DATE 1225 1237	до 2013 года
+T28	PROFESSION 0 22	Премьер-министр Италии
+T29	PROFESSION 124 146	премьер-министр Италии
+T30	PROFESSION 124 139	премьер-министр
+T31	PROFESSION 192 208	Президент Италии
+T32	PROFESSION 452 465	президентский
+T33	COUNTRY 16 22	Италии
+T34	COUNTRY 202 208	Италии
+T35	COUNTRY 140 146	Италии
+T36	EVENT 54 62	отставку
+T37	DATE 104 123	12 ноября 2011 года
+T38	ORGANIZATION 290 303	правительство
+T39	TIME 358 385	13 ноября 211 года, вечером
+T40	IDEOLOGY 518 532	оппозиционными
+T41	IDEOLOGY 572 589	правоцентристской
+T42	PERSON 597 607	Берлускони
+T43	TIME 761 780	воскресенье вечером
+T44	DATE 761 772	воскресенье
+T45	ORGANIZATION 834 847	правительство
+T46	LOCATION 904 915	европейской
+T47	PROFESSION 1043 1052	министров
+T22	EVENT 1278 1284	выборы
+R1	WORKPLACE Arg1:T28 Arg2:T33	
+R2	WORKS_AS Arg1:T2 Arg2:T28	
+R3	WORKPLACE Arg1:T2 Arg2:T33	
+R4	WORKS_AS Arg1:T3 Arg2:T28	
+R5	WORKPLACE Arg1:T3 Arg2:T33	
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T36	
+T48	EVENT 182 190	отставку
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T48	
+R8	WORKPLACE Arg1:T29 Arg2:T35	
+R9	WORKS_AS Arg1:T5 Arg2:T29	
+R10	WORKPLACE Arg1:T5 Arg2:T35	
+R11	POINT_IN_TIME Arg1:T48 Arg2:T37	
+R12	WORKPLACE Arg1:T31 Arg2:T34	
+R13	WORKS_AS Arg1:T7 Arg2:T31	
+R14	WORKPLACE Arg1:T7 Arg2:T34	
+R15	WORKS_AS Arg1:T9 Arg2:T8	
+R16	AGE_IS Arg1:T9 Arg2:T13	
+T49	EVENT 308 342	назначении нового премьер-министра
+R17	POINT_IN_TIME Arg1:T49 Arg2:T39	
+R18	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R19	PARTICIPANT_IN Arg1:T9 Arg2:T49	
+R20	ABBREVIATION Arg1:T15 Arg2:T16	
+R21	FOUNDED_BY Arg1:T15 Arg2:T42	
+R22	IDEOLOGY_OF Arg1:T15 Arg2:T41	
+R23	IDEOLOGY_OF Arg1:T42 Arg2:T41	
+R24	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R25	LOCATED_IN Arg1:T18 Arg2:T46	
+T50	ORGANIZATION 1034 1052	кабинета министров
+T51	PROFESSION 1053 1070	президенту страны
+R26	WORKS_AS Arg1:T24 Arg2:T51	
+T52	ORGANIZATION 1204 1224	правительство страны
+R27	ALTERNATIVE_NAME Arg1:T50 Arg2:T52	
+R28	HEADQUARTERED_IN Arg1:T50 Arg2:T18	
+R29	AGENT Arg1:T7 Arg2:T49	
+R30	POINT_IN_TIME Arg1:T22 Arg2:T27	
+N1	Reference T5 Wikidata:Q11860	Сильвио Берлускони
+N2	Reference T8 Wikidata:Q188094	экономист
+N3	Reference T9 Wikidata:Q47904	Марио Монти
+N4	Reference T15 Wikidata:Q47720	Народ свободы
+N5	Reference T18 Wikidata:Q38	Италия
+N6	Reference T23 Wikidata:Q30461	президент
+N7	Reference T26 Wikidata:Q7188	правительство
+N8	Reference T29 Wikidata:Q796897	председатель Совета министров Италии
+N9	Reference T30 Wikidata:Q14212	премьер-министр
+N10	Reference T31 Wikidata:Q332711	президент Италии
+N12	Reference T42 Wikidata:Q11860	Сильвио Берлускони
+N14	Reference T47 Wikidata:Q83307	министр
+N15	Reference T50 Wikidata:Q640506	кабинет министров
+N11	Reference T32 Wikidata:Q30461	президент
+N13	Reference T46 Wikidata:Q46	Европа
+N16	Reference T51 Wikidata:Q332711	президент Италии
+N17	Reference T24 Wikidata:Q1220	Джорджо Наполитано
+N18	Reference T2 Wikidata:Q11860	Сильвио Берлускони
+N19	Reference T19 Wikidata:Q47904	Марио Монти
+N20	Reference T17 Wikidata:Q47904	Марио Монти
+N21	Reference T14 Wikidata:Q47904	Марио Монти
+N22	Reference T4 Wikidata:Q47904	Марио Монти
+N23	Reference T3 Wikidata:Q47904	Марио Монти
+N24	Reference T21 Wikidata:Q47904	Марио Монти
+N25	Reference T16 Wikidata:Q47720	Народ свободы
+N26	Reference T34 Wikidata:Q38	Италия
+N27	Reference T33 Wikidata:Q38	Италия
+N28	Reference T35 Wikidata:Q38	Италия
+N29	Reference T6 Wikidata:Q30461	президент
+N30	Reference T45 Wikidata:Q7188	правительство
+N31	Reference T38 Wikidata:Q7188	правительство
+N32	Reference T28 Wikidata:Q796897	председатель Совета министров Италии
+N33	Reference T10 Wikidata:Q14212	премьер-министр
+N34	Reference T25 Wikidata:Q14212	премьер-министр
+N35	Reference T1 Wikidata:Q14212	премьер-министр
+N36	Reference T52 Wikidata:Q640506	кабинет министров
+N37	Reference T7 Wikidata:Q1220	Джорджо Наполитано
+N38	Reference T12 Wikidata:Q1220	Джорджо Наполитано

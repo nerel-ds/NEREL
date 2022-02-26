@@ -1,0 +1,162 @@
+T1	PERSON 5 16	Кирк Дуглас
+T2	COUNTRY 59 72	американского
+T3	PERSON 87 98	Кирк Дуглас
+T4	PERSON 111 122	Кирк Дуглас
+T5	AGE 134 142	103 года
+T6	CITY 168 181	Беверли-Хиллз
+T7	STATE_OR_PROVINCE 183 193	Калифорния
+T8	COUNTRY 195 198	США
+T9	DATE 200 228	в среду, 5 февраля 2020 года
+T10	PRODUCT 272 280	Facebook
+T11	PERSON 295 307	Майкл Дуглас
+T12	DATE 310 321	В 1996 году
+T13	PERSON 322 333	Кирк Дуглас
+T14	DATE 425 436	В 2011 году
+T15	EVENT 482 500	церемонии вручения
+T16	AWARD 509 514	Оскар
+T17	PERSON 535 540	Гершл
+T18	PERSON 543 560	Брайна Даниелович
+T19	COUNTRY 573 580	Америку
+T20	DATE 581 592	в 1910 году
+T21	COUNTRY 596 608	белорусского
+T22	CITY 617 622	Чаусы
+T23	STATE_OR_PROVINCE 624 644	Могилёвская губерния
+T24	COUNTRY 646 664	Российская империя
+T25	CITY 688 697	Амстердам
+T27	STATE_OR_PROVINCE 699 707	Нью-Йорк
+T28	PERSON 710 721	Кирк Дуглас
+T29	DATE 730 741	в 1916 году
+T30	PERSON 769 773	Исер
+T31	PERSON 775 778	Изя
+T32	ORGANIZATION 798 842	Американской академии драматических искусств
+T33	PERSON 872 883	Кирк Дуглас
+T34	EVENT 919 939	Второй мировой войне
+T35	DATE 960 971	в 1944 году
+T36	DATE 984 995	В 1946 году
+T37	ORDINAL 1014 1020	первом
+T38	PERSON 1080 1087	Дугласу
+T39	DATE 1111 1120	1949 года
+T40	WORK_OF_ART 1122 1129	Чемпион
+T41	AWARD 1178 1183	Оскар
+T42	PERSON 1210 1221	Кирк Дуглас
+T43	NUMBER 1238 1242	трёх
+T44	DATE 1251 1256	в год
+T45	DATE 1260 1276	за первые 11 лет
+T46	PERSON 1377 1383	Дуглас
+T47	NUMBER 1393 1395	80
+T48	DATE 1435 1446	в 1996 году
+T49	DATE 1487 1498	В 1984 году
+T50	PRODUCT 1508 1517	The Times
+T51	DATE 1543 1554	В 1994 году
+T52	AGE 1632 1639	94 года
+T53	PRODUCT 1670 1677	Myspace
+T54	EVENT 0 4	Умер
+T55	ORDINAL 19 28	последний
+T56	DATE 99 110	в 1963 году
+T57	EVENT 143 152	скончался
+T58	EVENT 232 238	смерти
+T59	PROFESSION 289 294	актёр
+T60	DISEASE 350 357	инсульт
+T26	PROFESSION 893 898	актёр
+T61	WORK_OF_ART 1029 1057	Странная любовь Марты Айверс
+T62	ORDINAL 1263 1269	первые
+T63	NUMBER 1298 1304	трижды
+T64	AWARD 1335 1340	Оскар
+T65	AWARD 1355 1374	Лучшая мужская роль
+T66	AWARD 1415 1421	Оскара
+T67	PERSON 1518 1529	Кирк Дуглас
+T68	PERSON 1555 1566	Кирк Дуглас
+T69	PROFESSION 1593 1601	блогером
+R1	LOCATED_IN Arg1:T6 Arg2:T7	
+R2	LOCATED_IN Arg1:T7 Arg2:T8	
+R3	WORKS_AS Arg1:T11 Arg2:T59	
+R4	MEDICAL_CONDITION Arg1:T13 Arg2:T60	
+T70	PERSON 527 534	Дугласа
+R5	DATE_OF_BIRTH Arg1:T28 Arg2:T29	
+R6	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R8	AGE_DIED_AT Arg1:T4 Arg2:T5	
+R9	PARTICIPANT_IN Arg1:T1 Arg2:T54	
+R10	ORIGINS_FROM Arg1:T1 Arg2:T2	
+R11	PARTICIPANT_IN Arg1:T4 Arg2:T57	
+R12	TAKES_PLACE_IN Arg1:T57 Arg2:T6	
+R13	DATE_OF_DEATH Arg1:T4 Arg2:T9	
+R14	PLACE_OF_DEATH Arg1:T4 Arg2:T6	
+R15	PARENT_OF Arg1:T4 Arg2:T11	
+R16	POINT_IN_TIME Arg1:T15 Arg2:T14	
+R17	PARTICIPANT_IN Arg1:T13 Arg2:T15	
+R18	SPOUSE Arg1:T17 Arg2:T18	
+R19	PARENT_OF Arg1:T17 Arg2:T70	
+R20	PARENT_OF Arg1:T18 Arg2:T70	
+R21	LOCATED_IN Arg1:T22 Arg2:T23	
+R22	LOCATED_IN Arg1:T22 Arg2:T21	
+R23	LOCATED_IN Arg1:T23 Arg2:T24	
+R7	SCHOOLS_ATTENDED Arg1:T33 Arg2:T32	
+R24	WORKS_AS Arg1:T33 Arg2:T26	
+R25	PARTICIPANT_IN Arg1:T33 Arg2:T34	
+T71	DISEASE 945 956	легко ранен
+R26	MEDICAL_CONDITION Arg1:T33 Arg2:T71	
+T72	DISEASE 951 956	ранен
+R27	PARTICIPANT_IN Arg1:T26 Arg2:T34	
+R28	MEDICAL_CONDITION Arg1:T26 Arg2:T71	
+R29	PARTICIPANT_IN Arg1:T33 Arg2:T61	
+R30	DATE_OF_CREATION Arg1:T61 Arg2:T36	
+R31	DATE_OF_CREATION Arg1:T40 Arg2:T39	
+R32	PARTICIPANT_IN Arg1:T38 Arg2:T40	
+R33	AWARDED_WITH Arg1:T46 Arg2:T66	
+R34	AGE_IS Arg1:T68 Arg2:T52	
+R35	ALTERNATIVE_NAME Arg1:T54 Arg2:T57	
+R36	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R37	ORIGINS_FROM Arg1:T18 Arg2:T22	
+R38	ORIGINS_FROM Arg1:T17 Arg2:T22	
+R39	LOCATED_IN Arg1:T25 Arg2:T27	
+T73	PERSON 1045 1057	Марты Айверс
+R40	WORKS_AS Arg1:T68 Arg2:T69	
+R41	POINT_IN_TIME Arg1:T66 Arg2:T48	
+R42	INANIMATE_INVOLVED Arg1:T16 Arg2:T15	
+T74	ORDINAL 919 925	Второй
+N2	Reference T6 Wikidata:Q127856	Беверли-Хиллз
+N3	Reference T7 Wikidata:Q99	Калифорния
+N4	Reference T8 Wikidata:Q30	США
+N5	Reference T10 Wikidata:Q355	Facebook
+N6	Reference T11 Wikidata:Q119798	Майкл Дуглас
+N9	Reference T21 Wikidata:Q184	Белоруссия
+N10	Reference T22 Wikidata:Q955113	Чаусы
+N11	Reference T23 Wikidata:Q586369	Могилёвская губерния
+N12	Reference T24 Wikidata:Q34266	Российская империя
+N14	Reference T27 Wikidata:Q1384	Нью-Йорк
+N16	Reference T32 Wikidata:Q389336	Американская академия драматического искусства
+N17	Reference T40 Wikidata:Q244865	Чемпион
+N19	Reference T50 Wikidata:Q50008	Таймс
+N20	Reference T53 Wikidata:Q40629	Myspace
+N21	Reference T59 Wikidata:Q33999	актёр
+N22	Reference T61 Wikidata:Q971265	Странная любовь Марты Айверс
+N23	Reference T64 Wikidata:Q1178739	Оскар (значения)
+N25	Reference T67 Wikidata:Q104027	Кирк Дуглас
+N1	Reference T2 Wikidata:Q30	США
+N8	Reference T18 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N28	Reference T19 Wikidata:Q30	США
+N13	Reference T25 Wikidata:Q478456	
+N15	Reference T30 Wikidata:Q52657780	
+N24	Reference T65 Wikidata:Q103916	премия «Оскар» за лучшую мужскую роль
+N18	Reference T46 Wikidata:Q104027	Кирк Дуглас
+N26	Reference T69 Wikidata:Q8246794	
+N27	Reference T73 Wikidata:NULL	нет данных
+N29	Reference T26 Wikidata:Q33999	актёр
+N30	Reference T66 Wikidata:Q1178739	Оскар (значения)
+N31	Reference T41 Wikidata:Q1178739	Оскар (значения)
+N32	Reference T16 Wikidata:Q1178739	Оскар (значения)
+N33	Reference T68 Wikidata:Q104027	Кирк Дуглас
+N34	Reference T4 Wikidata:Q104027	Кирк Дуглас
+N35	Reference T13 Wikidata:Q104027	Кирк Дуглас
+N36	Reference T33 Wikidata:Q104027	Кирк Дуглас
+N37	Reference T42 Wikidata:Q104027	Кирк Дуглас
+N38	Reference T3 Wikidata:Q104027	Кирк Дуглас
+N39	Reference T28 Wikidata:Q104027	Кирк Дуглас
+N40	Reference T1 Wikidata:Q104027	Кирк Дуглас
+N41	Reference T31 Wikidata:Q52657780	
+N42	Reference T38 Wikidata:Q104027	Кирк Дуглас
+N43	Reference T70 Wikidata:Q104027	Кирк Дуглас
+T75	EVENT 722 729	родился
+R43	PARTICIPANT_IN Arg1:T28 Arg2:T75	
+R44	POINT_IN_TIME Arg1:T75 Arg2:T29	

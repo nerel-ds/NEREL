@@ -1,0 +1,112 @@
+T2	LOCATION 18 34	Средиземном море
+T3	COUNTRY 45 51	Туниса
+T4	DATE 53 77	В среду 1 июня 2011 года
+T5	LOCATION 80 96	Средиземном море
+T7	COUNTRY 121 127	Туниса
+T9	LOCATION 224 235	африканских
+T10	ORGANIZATION 344 374	Организации Объединённых наций
+T11	DATE 383 396	с конца марта
+T13	LOCATION 399 415	Средиземном море
+T15	COUNTRY 524 530	Мальты
+T16	LOCATION 543 552	Лампедуза
+T17	COUNTRY 582 588	Италии
+T19	ORGANIZATION 666 724	Агентства Организации Объединённых наций по делам беженцев
+T20	PERSON 725 743	Адрианом Эдвардсом
+T21	LOCATION 823 840	средиземноморских
+T22	DATE 841 860	в текущем 2011 году
+T23	NUMBER 967 976	более 150
+T24	NUMBER 991 998	Десятки
+T25	DATE 1059 1082	в конце марта 2011 года
+T26	EVENT 1083 1093	инциндента
+T27	ORDINAL 1111 1118	шестого
+T28	ORGANIZATION 1125 1129	НАТО
+T29	COUNTRY 1204 1209	Ливии
+T30	LOCATION 1220 1226	Европы
+T31	ORGANIZATION 1228 1231	ООН
+T32	LAW 1344 1360	морскому кодексу
+T1	EVENT 0 15	Кораблекрушение
+T6	LOCATION 111 127	побережья Туниса
+T8	NUMBER 182 191	около 850
+T14	NUMBER 446 461	около восьмисот
+T34	EVENT 138 146	крушение
+T12	EVENT 416 423	погибли
+T35	EVENT 428 445	пропали без вести
+T36	PROFESSION 639 650	журналистам
+T18	ORGANIZATION 676 706	Организации Объединённых наций
+T37	EVENT 749 759	катастрофа
+T39	EVENT 950 966	выловили из моря
+T40	PROFESSION 936 945	спасатели
+T41	EVENT 1016 1036	пропавшими без вести
+T42	EVENT 1130 1160	проигнорировал тонущий корабль
+T43	ORGANIZATION 1111 1129	шестого флота НАТО
+T33	LOCATION 35 51	у берегов Туниса
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T1 Arg2:T33	
+R3	LOCATED_IN Arg1:T33 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T34 Arg2:T6	
+R5	TAKES_PLACE_IN Arg1:T34 Arg2:T5	
+R6	POINT_IN_TIME Arg1:T34 Arg2:T4	
+R7	LOCATED_IN Arg1:T6 Arg2:T7	
+R8	DATE_FOUNDED_IN Arg1:T12 Arg2:T11	
+R9	DATE_FOUNDED_IN Arg1:T35 Arg2:T11	
+R10	TAKES_PLACE_IN Arg1:T12 Arg2:T13	
+R11	TAKES_PLACE_IN Arg1:T35 Arg2:T13	
+R12	LOCATED_IN Arg1:T16 Arg2:T17	
+T44	PROFESSION 651 724	представителем Агентства Организации Объединённых наций по делам беженцев
+R13	WORKPLACE Arg1:T44 Arg2:T19	
+R14	WORKPLACE Arg1:T20 Arg2:T19	
+R15	WORKS_AS Arg1:T20 Arg2:T44	
+T45	EVENT 630 638	интервью
+R16	PARTICIPANT_IN Arg1:T36 Arg2:T45	
+R17	AGENT Arg1:T20 Arg2:T45	
+R18	ALTERNATIVE_NAME Arg1:T1 Arg2:T34	
+R19	ALTERNATIVE_NAME Arg1:T34 Arg2:T37	
+R20	TAKES_PLACE_IN Arg1:T37 Arg2:T21	
+R21	POINT_IN_TIME Arg1:T37 Arg2:T22	
+T38	EVENT 909 927	морской катастрофы
+R22	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+T46	EVENT 893 899	выжить
+R23	PARTICIPANT_IN Arg1:T40 Arg2:T39	
+T47	PROFESSION 874 884	пассажиров
+R24	PARTICIPANT_IN Arg1:T47 Arg2:T38	
+R25	PARTICIPANT_IN Arg1:T47 Arg2:T46	
+R26	POINT_IN_TIME Arg1:T26 Arg2:T25	
+R27	PARTICIPANT_IN Arg1:T43 Arg2:T42	
+T48	PROFESSION 213 220	беженцы
+R28	ORIGINS_FROM Arg1:T48 Arg2:T9	
+R29	PARTICIPANT_IN Arg1:T48 Arg2:T34	
+T49	PROFESSION 1163 1172	беженцами
+R30	PARTICIPANT_IN Arg1:T49 Arg2:T42	
+R31	SUBEVENT_OF Arg1:T42 Arg2:T26	
+R32	PART_OF Arg1:T19 Arg2:T18	
+R33	HAS_CAUSE Arg1:T41 Arg2:T38	
+R34	FOUNDED_BY Arg1:T43 Arg2:T28	
+R35	HAS_CAUSE Arg1:T46 Arg2:T38	
+N1	Reference T3 Wikidata:Q948	Тунис
+N2	Reference T5 Wikidata:Q4918	Средиземное море
+N3	Reference T15 Wikidata:Q233	Мальта
+N4	Reference T16 Wikidata:Q107338	Лампедуза
+N5	Reference T17 Wikidata:Q38	Италия
+N6	Reference T19 Wikidata:Q132551	Управление Верховного комиссара ООН по делам беженцев
+N8	Reference T28 Wikidata:Q7184	Организация Североатлантического договора
+N9	Reference T29 Wikidata:Q1016	Ливия
+N10	Reference T30 Wikidata:Q46	Европа
+N11	Reference T31 Wikidata:Q1065	Организация Объединённых Наций
+N14	Reference T36 Wikidata:Q1930187	журналист
+N15	Reference T18 Wikidata:Q1065	Организация Объединённых Наций
+N21	Reference T49 Wikidata:Q131572	беженцы
+N18	Reference T33 Wikidata:NULL	нет данных
+N13	Reference T6 Wikidata:NULL	нет данных
+N22	Reference T9 Wikidata:Q15	Африка
+N19	Reference T44 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:NULL	нет данных
+N23	Reference T21 Wikidata:Q4918	Средиземное море
+N20	Reference T47 Wikidata:Q319604	пассажир
+N16	Reference T40 Wikidata:NULL	нет данных
+N17	Reference T43 Wikidata:Q2381805	Шестой флот ВМС США
+N12	Reference T32 Wikidata:NULL	нет данных
+N24	Reference T7 Wikidata:Q948	Тунис
+N25	Reference T13 Wikidata:Q4918	Средиземное море
+N26	Reference T2 Wikidata:Q4918	Средиземное море
+N27	Reference T10 Wikidata:Q1065	Организация Объединённых Наций
+N28	Reference T48 Wikidata:Q131572	беженцы

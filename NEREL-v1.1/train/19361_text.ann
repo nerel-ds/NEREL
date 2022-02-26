@@ -1,0 +1,182 @@
+T1	COUNTRY 18 28	Белоруссии
+T2	NATIONALITY 58 69	Белорусская
+T3	PERSON 89 105	Надежда Остапчук
+T4	EVENT 137 146	Олимпиаде
+T5	CITY 149 156	Лондоне
+T6	ORGANIZATION 167 203	Международного олимпийского комитета
+T7	ORGANIZATION 287 290	МОК
+T8	DATE 300 324	в понедельник 13 августа
+T9	AGE 337 346	31-летняя
+T10	NATIONALITY 347 356	белоруска
+T11	DATE 383 400	на прошлой неделе
+T12	ORDINAL 410 417	третьей
+T13	NUMBER 444 466	21 метр 36 сантиметров
+T14	DATE 678 687	5 августа
+T15	DATE 689 706	На следующий день
+T16	ORDINAL 751 757	первое
+T17	ORGANIZATION 973 976	МОК
+T18	ORGANIZATION 1003 1011	Би-би-си
+T19	NATIONALITY 1015 1027	Новозеландка
+T20	PERSON 1028 1040	Валери Адамс
+T21	NUMBER 1076 1100	20 метров 70 сантиметров
+T22	NATIONALITY 1137 1146	Россиянка
+T23	PERSON 1147 1163	Евгения Колодько
+T24	NUMBER 1165 1172	20,48 м
+T25	ORDINAL 1176 1183	третьей
+T26	ORDINAL 1208 1214	вторую
+T27	COUNTRY 1242 1248	России
+T28	PERSON 1307 1315	Остапчук
+T29	EVENT 1319 1328	Олимпиаде
+T30	CITY 1331 1338	Лондоне
+T31	PROFESSION 1339 1348	президент
+T32	COUNTRY 1349 1357	Беларуси
+T33	PERSON 1475 1483	Остапчук
+T34	ORDINAL 1490 1497	третьим
+T35	EVENT 1558 1567	Олимпиады
+T36	CITY 1570 1577	Лондоне
+T37	PROFESSION 1637 1644	стрелок
+T38	PERSON 1645 1660	Сергей Мартынов
+T39	PERSON 1692 1713	Александра Герасименя
+T40	ORGANIZATION 1725 1734	Интерфакс
+T41	PERSON 1773 1781	Остапчук
+T42	CITY 1829 1836	Лондоне
+T43	NUMBER 1849 1850	2
+T44	NUMBER 1860 1861	5
+T45	NUMBER 1875 1876	5
+T47	ORDINAL 1919 1921	26
+T48	AWARD 36 55	олимпийского золота
+T49	PROFESSION 70 88	толкательница ядра
+T50	AWARD 119 133	золотую медаль
+T51	EVENT 137 156	Олимпиаде в Лондоне
+T52	AWARD 367 382	золотую награду
+T53	PROFESSION 606 617	Спортсменка
+T54	AWARD 1054 1061	серебро
+T55	AWARD 1116 1135	золотой медалисткой
+T56	ORGANIZATION 1234 1248	сборной России
+T57	AWARD 1258 1265	серебро
+T58	EVENT 1319 1338	Олимпиаде в Лондоне
+T59	PROFESSION 1339 1357	президент Беларуси
+T60	PERSON 1358 1377	Александр Лукашенко
+T61	AWARD 1428 1457	орденом Отечества III степени
+T62	ORDINAL 1446 1449	III
+T63	NATIONALITY 1498 1509	белорусским
+T64	PROFESSION 1510 1517	атлетом
+T66	EVENT 1558 1577	Олимпиады в Лондоне
+T67	AWARD 1619 1635	золотой медалист
+T68	AWARD 1675 1682	серебро
+T69	PROFESSION 1683 1691	пловчиха
+T70	EVENT 1744 1757	аннулирования
+T71	AWARD 1758 1772	золотой медали
+T72	COUNTRY 1782 1793	белорусская
+T73	ORGANIZATION 1782 1813	белорусская олимпийская сборная
+T74	NUMBER 1837 1839	12
+T46	ORDINAL 1909 1915	23-его
+R1	AWARDED_WITH Arg1:T3 Arg2:T50	
+R2	TAKES_PLACE_IN Arg1:T51 Arg2:T5	
+R3	ORIGINS_FROM Arg1:T50 Arg2:T51	
+R4	ORIGINS_FROM Arg1:T3 Arg2:T2	
+R5	WORKS_AS Arg1:T3 Arg2:T49	
+R6	ORIGINS_FROM Arg1:T49 Arg2:T2	
+T65	EVENT 204 218	лишена награды
+R7	PARTICIPANT_IN Arg1:T6 Arg2:T65	
+R8	PARTICIPANT_IN Arg1:T3 Arg2:T65	
+R9	ABBREVIATION Arg1:T6 Arg2:T7	
+R10	ORIGINS_FROM Arg1:T3 Arg2:T10	
+R11	AGE_IS Arg1:T10 Arg2:T9	
+R12	AGE_IS Arg1:T3 Arg2:T9	
+R13	WORKS_AS Arg1:T3 Arg2:T53	
+R14	ORIGINS_FROM Arg1:T20 Arg2:T19	
+R15	AWARDED_WITH Arg1:T20 Arg2:T54	
+R16	AWARDED_WITH Arg1:T20 Arg2:T55	
+R17	ORIGINS_FROM Arg1:T23 Arg2:T22	
+R18	HEADQUARTERED_IN Arg1:T56 Arg2:T27	
+R19	ORIGINS_FROM Arg1:T22 Arg2:T27	
+R20	ORIGINS_FROM Arg1:T23 Arg2:T27	
+R21	WORKPLACE Arg1:T23 Arg2:T56	
+R22	AWARDED_WITH Arg1:T23 Arg2:T57	
+R23	ORIGINS_FROM Arg1:T57 Arg2:T58	
+R24	WORKPLACE Arg1:T59 Arg2:T32	
+R25	ALTERNATIVE_NAME Arg1:T3 Arg2:T28	
+R26	TAKES_PLACE_IN Arg1:T58 Arg2:T30	
+R27	PARTICIPANT_IN Arg1:T28 Arg2:T58	
+R28	WORKS_AS Arg1:T60 Arg2:T59	
+R29	WORKPLACE Arg1:T60 Arg2:T32	
+R30	AWARDED_WITH Arg1:T28 Arg2:T61	
+R31	TAKES_PLACE_IN Arg1:T66 Arg2:T36	
+R32	WORKS_AS Arg1:T33 Arg2:T64	
+R33	ORIGINS_FROM Arg1:T64 Arg2:T63	
+R34	ORIGINS_FROM Arg1:T33 Arg2:T63	
+R35	WORKS_AS Arg1:T38 Arg2:T37	
+R36	AWARDED_WITH Arg1:T38 Arg2:T67	
+R37	AWARDED_WITH Arg1:T38 Arg2:T61	
+R38	WORKS_AS Arg1:T39 Arg2:T69	
+R39	AWARDED_WITH Arg1:T39 Arg2:T68	
+R40	AWARDED_WITH Arg1:T39 Arg2:T61	
+R41	ALTERNATIVE_NAME Arg1:T65 Arg2:T70	
+R42	PARTICIPANT_IN Arg1:T41 Arg2:T70	
+R43	HEADQUARTERED_IN Arg1:T73 Arg2:T72	
+R44	PARTICIPANT_IN Arg1:T73 Arg2:T66	
+T75	AWARD 1840 1847	медалей
+R45	AWARDED_WITH Arg1:T73 Arg2:T75	
+T76	EVENT 1949 1960	олимпийских
+R46	ALTERNATIVE_NAME Arg1:T66 Arg2:T76	
+T77	EVENT 29 35	лишили
+R47	INANIMATE_INVOLVED Arg1:T48 Arg2:T77	
+R48	PARTICIPANT_IN Arg1:T1 Arg2:T77	
+R49	ALTERNATIVE_NAME Arg1:T77 Arg2:T65	
+T78	CRIME 225 263	положительного результата допинг-теста
+R50	HAS_CAUSE Arg1:T65 Arg2:T78	
+R51	AWARDED_WITH Arg1:T10 Arg2:T52	
+T79	COUNTRY 991 1001	британская
+R52	HEADQUARTERED_IN Arg1:T18 Arg2:T79	
+R53	AWARDED_WITH Arg1:T56 Arg2:T57	
+R54	ORIGINS_FROM Arg1:T61 Arg2:T32	
+R55	INANIMATE_INVOLVED Arg1:T71 Arg2:T70	
+N1	Reference T1 Wikidata:Q184	Белоруссия
+N2	Reference T10 Wikidata:Q483569	белорусы
+N3	Reference T17 Wikidata:Q40970	Международный олимпийский комитет
+N4	Reference T18 Wikidata:Q9531	Би-би-си
+N5	Reference T20 Wikidata:Q6357	Валери Адамс
+N6	Reference T22 Wikidata:Q492468	россияне
+N7	Reference T23 Wikidata:Q6363	Колодко, Евгения Николаевна
+N8	Reference T27 Wikidata:Q159	Россия
+N9	Reference T31 Wikidata:Q30461	президент
+N10	Reference T32 Wikidata:Q184	Белоруссия
+N14	Reference T39 Wikidata:Q210879	Александра Викторовна Герасименя
+N15	Reference T40 Wikidata:Q379271	Интерфакс
+N16	Reference T42 Wikidata:Q84	Лондон
+N20	Reference T59 Wikidata:Q1049659	президент Республики Беларусь
+N21	Reference T60 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N24	Reference T64 Wikidata:Q2066131	спортсмен
+N27	Reference T69 Wikidata:Q10843402	пловец
+N32	Reference T48 Wikidata:Q15243387	
+N17	Reference T49 Wikidata:Q18534714	
+N33	Reference T52 Wikidata:Q15243387	
+N34	Reference T53 Wikidata:Q2066131	спортсмен
+N31	Reference T79 Wikidata:Q145	Великобритания
+N18	Reference T55 Wikidata:Q15243387	
+N35	Reference T19 Wikidata:Q871904	
+N22	Reference T61 Wikidata:Q42307908	
+N11	Reference T33 Wikidata:Q232780	
+N23	Reference T63 Wikidata:Q483569	белорусы
+N25	Reference T67 Wikidata:Q15243387	
+N28	Reference T71 Wikidata:Q15243387	
+N12	Reference T37 Wikidata:Q17486376	
+N13	Reference T38 Wikidata:Q767153	
+N26	Reference T68 Wikidata:Q847956	серебряная медаль
+N29	Reference T72 Wikidata:Q184	Белоруссия
+N36	Reference T73 Wikidata:NULL	нет данных
+N30	Reference T75 Wikidata:Q131647	медаль
+N19	Reference T56 Wikidata:NULL	нет данных
+N37	Reference T7 Wikidata:Q40970	Международный олимпийский комитет
+N38	Reference T6 Wikidata:Q40970	Международный олимпийский комитет
+N39	Reference T36 Wikidata:Q84	Лондон
+N40	Reference T5 Wikidata:Q84	Лондон
+N41	Reference T30 Wikidata:Q84	Лондон
+N42	Reference T28 Wikidata:Q232780	
+N43	Reference T41 Wikidata:Q232780	
+N44	Reference T3 Wikidata:Q232780	
+N45	Reference T2 Wikidata:Q483569	белорусы
+N46	Reference T50 Wikidata:Q15243387	
+N47	Reference T57 Wikidata:Q847956	серебряная медаль
+N48	Reference T54 Wikidata:Q847956	серебряная медаль

@@ -1,0 +1,155 @@
+T1	COUNTRY 49 58	Австралии
+T2	COUNTRY 62 71	Австралии
+T3	NUMBER 121 126	шесть
+T4	PROFESSION 166 179	главный комик
+T5	NUMBER 289 294	шесть
+T6	PROFESSION 334 347	главный комик
+T7	DATE 413 422	в пятницу
+T8	ORGANIZATION 430 451	Sydney Morning Herald
+T9	NUMBER 480 494	более 40 тысяч
+T10	NUMBER 509 512	196
+T11	DATE 564 577	шестимесячный
+T12	MONEY 598 616	100 тысяч долларов
+T13	NATIONALITY 758 768	американцу
+T14	PERSON 769 780	Эндрю Смиту
+T15	PERSON 782 794	Andrew Smith
+T16	NATIONALITY 797 805	Бразилец
+T17	PERSON 806 818	Роберто Себа
+T18	PROFESSION 826 836	фотографом
+T19	ORGANIZATION 847 865	Time Out Melbourne
+T20	PERSON 867 879	Roberto Seba
+T21	NATIONALITY 884 892	ирландец
+T22	PERSON 893 905	Аллан Диксон
+T23	PERSON 907 918	Allan Dixon
+T24	NATIONALITY 1093 1104	француженка
+T25	PERSON 1105 1117	Элиза Детрец
+T26	PERSON 1119 1131	Elisa Detrez
+T27	NATIONALITY 1180 1190	Англичанин
+T28	PERSON 1191 1198	Рич Ким
+T29	PERSON 1200 1209	Rich Keam
+T30	NATIONALITY 1295 1302	Канадец
+T31	PERSON 1303 1313	Грег Снелл
+T32	PERSON 1315 1325	Greg Snell
+T33	LOCATION 1360 1367	Кенгуру
+T34	ORGANIZATION 1370 1390	Министерство туризма
+T35	DATE 1446 1457	В 2009 году
+T36	AGE 1523 1532	34-летний
+T37	PERSON 1542 1554	Бен Саутхолл
+T38	COUNTRY 93 107	австралийского
+T39	PROFESSION 227 237	дегустатор
+T40	PROFESSION 188 224	исследователь малонаселенных районов
+T42	PROFESSION 356 392	исследователь малонаселенных районов
+T44	PROFESSION 395 405	дегустатор
+T45	PROFESSION 647 662	главного комика
+T46	PROFESSION 1149 1159	рейнджером
+T47	PROFESSION 1237 1248	дегустатора
+T48	PROFESSION 1342 1367	хранителя острова Кенгуру
+T49	COUNTRY 1391 1400	Австралии
+T50	ORDINAL 1408 1414	первый
+T51	PROFESSION 1569 1601	смотрителем тропического острова
+T52	EVENT 1472 1514	состязании на "самую лучшую работу в мире"
+T53	STATE_OR_PROVINCE 1168 1178	Квинсленда
+R1	ORIGINS_FROM Arg1:T17 Arg2:T16	
+R2	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R3	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R4	WORKS_AS Arg1:T17 Arg2:T18	
+R5	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R6	ORIGINS_FROM Arg1:T25 Arg2:T24	
+R7	WORKS_AS Arg1:T25 Arg2:T46	
+R8	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R9	ORIGINS_FROM Arg1:T28 Arg2:T27	
+R10	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R11	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R12	WORKS_AS Arg1:T32 Arg2:T48	
+R13	WORKPLACE Arg1:T32 Arg2:T33	
+T54	NATIONALITY 1533 1541	британец
+R14	ORIGINS_FROM Arg1:T37 Arg2:T54	
+R15	WORKS_AS Arg1:T37 Arg2:T51	
+R16	AGE_IS Arg1:T37 Arg2:T36	
+R17	WORKS_AS Arg1:T28 Arg2:T47	
+R18	WORKPLACE Arg1:T25 Arg2:T53	
+R19	WORKPLACE Arg1:T17 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T17 Arg2:T20	
+R21	ORIGINS_FROM Arg1:T22 Arg2:T21	
+R22	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+T55	EVENT 11 36	конкурса на лучшую работу
+R23	TAKES_PLACE_IN Arg1:T55 Arg2:T1	
+T56	ORGANIZATION 1370 1400	Министерство туризма Австралии
+R24	HEADQUARTERED_IN Arg1:T56 Arg2:T49	
+R25	ALTERNATIVE_NAME Arg1:T38 Arg2:T2	
+T57	EVENT 93 116	австралийского конкурса
+R26	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+T58	EVENT 261 318	австралийского конкурса на "шесть лучших вакансий в мире"
+T59	COUNTRY 261 275	австралийского
+R27	TAKES_PLACE_IN Arg1:T58 Arg2:T59	
+R28	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R29	PARTICIPANT_IN Arg1:T14 Arg2:T58	
+R30	PARTICIPANT_IN Arg1:T17 Arg2:T58	
+R31	PARTICIPANT_IN Arg1:T22 Arg2:T58	
+R32	PARTICIPANT_IN Arg1:T26 Arg2:T58	
+R33	WORKPLACE Arg1:T46 Arg2:T53	
+R34	PARTICIPANT_IN Arg1:T28 Arg2:T58	
+R35	PARTICIPANT_IN Arg1:T31 Arg2:T58	
+R36	POINT_IN_TIME Arg1:T52 Arg2:T35	
+R37	PARTICIPANT_IN Arg1:T37 Arg2:T52	
+R38	ORGANIZES Arg1:T56 Arg2:T52	
+R39	ORGANIZES Arg1:T56 Arg2:T58	
+R40	TAKES_PLACE_IN Arg1:T57 Arg2:T38	
+T41	CITY 430 436	Sydney
+R41	HEADQUARTERED_IN Arg1:T8 Arg2:T41	
+R42	WORKS_AS Arg1:T14 Arg2:T45	
+T43	CITY 856 865	Melbourne
+R43	HEADQUARTERED_IN Arg1:T19 Arg2:T43	
+R44	INCOME Arg1:T14 Arg2:T12	
+R45	INCOME Arg1:T17 Arg2:T12	
+R46	INCOME Arg1:T20 Arg2:T12	
+R47	INCOME Arg1:T22 Arg2:T12	
+R48	INCOME Arg1:T25 Arg2:T12	
+R49	INCOME Arg1:T28 Arg2:T12	
+R50	WORKPLACE Arg1:T48 Arg2:T33	
+R51	INCOME Arg1:T31 Arg2:T12	
+N1	Reference T1 Wikidata:Q408	Австралия
+N3	Reference T8 Wikidata:Q390216	The Sydney Morning Herald
+N6	Reference T16 Wikidata:Q873625	Бразильцы
+N8	Reference T18 Wikidata:Q33231	фотограф
+N11	Reference T22 Wikidata:Q678299	Диксон
+N12	Reference T24 Wikidata:Q121842	французы
+N14	Reference T27 Wikidata:Q42406	англичане
+N16	Reference T30 Wikidata:Q1196645	канадцы
+N18	Reference T33 Wikidata:Q210371	Кенгуру
+N19	Reference T34 Wikidata:Q2565132	Министерство туризма Израиля
+N20	Reference T37 Wikidata:Q451929	Фриман, Дуглас Саутхолл
+N24	Reference T47 Wikidata:Q1932115	Дегустация
+N26	Reference T51 Wikidata:Q1022401	Смотритель
+N27	Reference T53 Wikidata:Q36074	Квинсленд
+N28	Reference T54 Wikidata:Q842438	британцы
+N29	Reference T56 Wikidata:Q168314	Министерство природных ресурсов, энергетики и туризма Австралии
+N2	Reference T6 Wikidata:NULL	нет данных
+N21	Reference T42 Wikidata:NULL	нет данных
+N30	Reference T41 Wikidata:Q3130	Сидней
+N22	Reference T45 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:Q846570	
+N5	Reference T15 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N31	Reference T43 Wikidata:Q3141	Мельбурн
+N9	Reference T19 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:Q170826	ирландцы
+N13	Reference T26 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:Q1479935	
+N15	Reference T29 Wikidata:NULL	нет данных
+N17	Reference T31 Wikidata:NULL	нет данных
+N25	Reference T48 Wikidata:NULL	нет данных
+N32	Reference T49 Wikidata:Q408	Австралия
+N33	Reference T59 Wikidata:Q408	Австралия
+N34	Reference T38 Wikidata:Q408	Австралия
+N35	Reference T2 Wikidata:Q408	Австралия
+N36	Reference T23 Wikidata:Q678299	Диксон
+N37	Reference T39 Wikidata:Q1932115	Дегустация
+N38	Reference T44 Wikidata:Q1932115	Дегустация
+N39	Reference T4 Wikidata:NULL	нет данных
+N40	Reference T40 Wikidata:NULL	нет данных
+N41	Reference T14 Wikidata:NULL	нет данных
+N42	Reference T20 Wikidata:NULL	нет данных
+N43	Reference T25 Wikidata:NULL	нет данных
+N44	Reference T28 Wikidata:NULL	нет данных
+N45	Reference T32 Wikidata:NULL	нет данных

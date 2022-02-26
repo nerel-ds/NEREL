@@ -1,0 +1,90 @@
+T1	PROFESSION 0 6	Король
+T2	PROFESSION 50 56	Король
+T3	PERSON 65 76	Мухаммед VI
+T4	PERSON 92 103	Мухаммед VI
+T5	COUNTRY 166 173	Франции
+T6	AGE 176 185	54-летний
+T7	CITY 217 226	парижской
+T8	DATE 251 270	20 января 2018 года
+T9	ORGANIZATION 356 359	MAP
+T10	ORGANIZATION 546 549	MAP
+T11	DATE 638 649	в 1999 году
+T12	PERSON 676 684	Хасан II
+T13	COUNTRY 761 768	Марокко
+T14	LOCATION 848 863	Северной Африке
+T15	COUNTRY 7 14	Марокко
+T16	PROFESSION 0 14	Король Марокко
+T17	COUNTRY 57 64	Марокко
+T18	PROFESSION 50 64	Король Марокко
+T19	PROFESSION 77 91	Король Марокко
+T20	PROFESSION 77 83	Король
+T21	COUNTRY 84 91	Марокко
+T22	PROFESSION 186 192	король
+T23	DISEASE 403 424	трепетание предсердий
+T24	DISEASE 280 303	сердечным расстройством
+T25	PROFESSION 469 475	король
+T26	PROFESSION 552 558	Король
+T27	RELIGION 597 611	мусульманского
+T28	DISEASE 694 713	сердечного приступа
+T29	IDEOLOGY 869 882	джихадистские
+T30	RELIGION 965 975	исламского
+T31	IDEOLOGY 965 987	исламского экстремизма
+T32	EVENT 31 49	операцию на сердце
+T33	EVENT 120 138	операцию на сердце
+R1	WORKPLACE Arg1:T16 Arg2:T15	
+R2	PARTICIPANT_IN Arg1:T16 Arg2:T32	
+R3	WORKPLACE Arg1:T18 Arg2:T17	
+R4	WORKS_AS Arg1:T3 Arg2:T18	
+R5	WORKPLACE Arg1:T3 Arg2:T17	
+T34	ORDINAL 74 76	VI
+T35	ORDINAL 101 103	VI
+R6	WORKPLACE Arg1:T19 Arg2:T21	
+R7	WORKS_AS Arg1:T4 Arg2:T19	
+R8	WORKPLACE Arg1:T4 Arg2:T21	
+R9	PARTICIPANT_IN Arg1:T4 Arg2:T33	
+R10	TAKES_PLACE_IN Arg1:T33 Arg2:T5	
+R11	AGE_IS Arg1:T22 Arg2:T6	
+R12	AGE_IS Arg1:T4 Arg2:T6	
+R13	WORKS_AS Arg1:T4 Arg2:T22	
+R14	MEDICAL_CONDITION Arg1:T22 Arg2:T24	
+R15	HAS_CAUSE Arg1:T33 Arg2:T24	
+R16	LOCATED_IN Arg1:T7 Arg2:T5	
+R17	MEDICAL_CONDITION Arg1:T4 Arg2:T24	
+R18	MEDICAL_CONDITION Arg1:T22 Arg2:T23	
+R19	MEDICAL_CONDITION Arg1:T4 Arg2:T23	
+R20	RELIGION_OF Arg1:T26 Arg2:T27	
+R21	WORKS_AS Arg1:T4 Arg2:T26	
+R22	RELIGION_OF Arg1:T4 Arg2:T27	
+R23	PARENT_OF Arg1:T12 Arg2:T26	
+T36	EVENT 618 637	вступил в должность
+R24	PARTICIPANT_IN Arg1:T26 Arg2:T36	
+R25	POINT_IN_TIME Arg1:T36 Arg2:T11	
+R26	CAUSE_OF_DEATH Arg1:T12 Arg2:T28	
+R27	LOCATED_IN Arg1:T13 Arg2:T14	
+R28	PARENT_OF Arg1:T12 Arg2:T4	
+T37	EVENT 686 690	умер
+R29	PARTICIPANT_IN Arg1:T12 Arg2:T37	
+R30	HAS_CAUSE Arg1:T37 Arg2:T28	
+N1	Reference T4 Wikidata:Q57553	Мухаммед VI
+N2	Reference T5 Wikidata:Q142	Франция
+N5	Reference T12 Wikidata:Q69103	Хасан II
+N6	Reference T13 Wikidata:Q1028	Марокко
+N7	Reference T14 Wikidata:Q27381	Северная Африка
+N11	Reference T18 Wikidata:Q14566719	
+N3	Reference T7 Wikidata:Q90	Париж
+N4	Reference T10 Wikidata:Q2401659	
+N8	Reference T26 Wikidata:Q12097	король
+N9	Reference T27 Wikidata:Q432	ислам
+N10	Reference T30 Wikidata:Q432	ислам
+N12	Reference T3 Wikidata:Q57553	Мухаммед VI
+N13	Reference T17 Wikidata:Q1028	Марокко
+N14	Reference T21 Wikidata:Q1028	Марокко
+N15	Reference T15 Wikidata:Q1028	Марокко
+N16	Reference T19 Wikidata:Q14566719	
+N17	Reference T16 Wikidata:Q14566719	
+N18	Reference T9 Wikidata:Q2401659	
+N19	Reference T22 Wikidata:Q12097	король
+N20	Reference T20 Wikidata:Q12097	король
+N21	Reference T25 Wikidata:Q12097	король
+N22	Reference T2 Wikidata:Q12097	король
+N23	Reference T1 Wikidata:Q12097	король

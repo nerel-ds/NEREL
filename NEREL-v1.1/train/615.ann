@@ -1,0 +1,141 @@
+T2	PERSON 0 6	Б.Асад
+T4	PERSON 17 25	Х.Рухани
+T5	PROFESSION 46 62	президента Ирана
+T6	PROFESSION 65 80	Президент Сирии
+T7	PERSON 81 91	Башар Асад
+T8	PERSON 128 141	Хасану Рухани
+T9	PROFESSION 173 209	президента Исламской Республики Иран
+T10	COUNTRY 205 209	Иран
+T11	ORGANIZATION 220 224	САНА
+T12	PROFESSION 289 305	президента Ирана
+T13	PROFESSION 348 361	Президент САР
+T14	COUNTRY 457 463	Сирией
+T15	COUNTRY 466 472	Ираном
+T16	PROFESSION 646 663	президентом Ирана
+T17	DATE 696 703	14 июня
+T18	AGE 712 721	64-летний
+T20	PERSON 722 730	Х.Рухани
+T21	PERSON 732 751	Махмуд Ахмадинеджад
+T22	DATE 770 779	два срока
+T23	LAW 785 796	Конституции
+T24	ORDINAL 833 839	третий
+T26	PERSON 845 853	Х.Рухани
+T27	COUNTRY 900 904	Иран
+T28	EVENT 908 939	переговорах по ядерной проблеме
+T30	PERSON 973 988	М.Ахмадинежадом
+T31	COUNTRY 990 993	США
+T32	PROFESSION 1021 1037	президента Ирана
+T33	CITY 1074 1083	Тегераном
+T1	COUNTRY 57 62	Ирана
+T3	COUNTRY 75 80	Сирии
+T34	COUNTRY 184 209	Исламской Республики Иран
+T35	COUNTRY 236 246	сирийского
+T36	COUNTRY 300 305	Ирана
+T37	COUNTRY 358 361	САР
+T38	COUNTRY 658 663	Ирана
+T39	EVENT 677 684	выборов
+T19	IDEOLOGY 874 883	либералом
+T25	COUNTRY 1032 1037	Ирана
+R1	WORKS_AS Arg1:T4 Arg2:T5	
+R2	WORKPLACE Arg1:T4 Arg2:T1	
+T29	EVENT 28 37	избранием
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T29	
+R4	TAKES_PLACE_IN Arg1:T29 Arg2:T1	
+T40	PROFESSION 65 74	Президент
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	WORKPLACE Arg1:T7 Arg2:T3	
+T41	PROFESSION 46 56	президента
+R7	WORKPLACE Arg1:T5 Arg2:T1	
+R8	WORKPLACE Arg1:T6 Arg2:T3	
+T42	EVENT 156 164	избрания
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T42	
+R10	ALTERNATIVE_NAME Arg1:T34 Arg2:T10	
+T43	PROFESSION 173 183	президента
+R11	WORKPLACE Arg1:T9 Arg2:T34	
+R12	TAKES_PLACE_IN Arg1:T42 Arg2:T34	
+R13	WORKS_AS Arg1:T8 Arg2:T9	
+R14	WORKPLACE Arg1:T8 Arg2:T34	
+T44	PROFESSION 254 271	глава государства
+R15	ALTERNATIVE_NAME Arg1:T6 Arg2:T44	
+T45	PROFESSION 289 299	президента
+R16	WORKPLACE Arg1:T12 Arg2:T36	
+R17	ABBREVIATION Arg1:T3 Arg2:T37	
+T46	PROFESSION 348 357	Президент
+R18	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+T47	PROFESSION 646 657	президентом
+T48	PROFESSION 1021 1031	президента
+R19	WORKPLACE Arg1:T32 Arg2:T25	
+T49	IDEOLOGY 864 883	умеренным либералом
+R20	IDEOLOGY_OF Arg1:T26 Arg2:T49	
+R21	PARTICIPANT_IN Arg1:T26 Arg2:T28	
+T50	EVENT 908 919	переговорах
+R22	WORKPLACE Arg1:T26 Arg2:T27	
+R23	AGE_IS Arg1:T20 Arg2:T18	
+R24	PARTICIPANT_IN Arg1:T20 Arg2:T39	
+R25	POINT_IN_TIME Arg1:T39 Arg2:T17	
+R26	WORKS_AS Arg1:T20 Arg2:T16	
+R27	WORKPLACE Arg1:T20 Arg2:T38	
+R28	WORKPLACE Arg1:T16 Arg2:T38	
+R29	WORKS_AS Arg1:T21 Arg2:T16	
+R30	WORKPLACE Arg1:T21 Arg2:T38	
+R31	ALTERNATIVE_NAME Arg1:T21 Arg2:T30	
+R32	LOCATED_IN Arg1:T33 Arg2:T25	
+T51	EVENT 7 16	поздравил
+R33	AGENT Arg1:T2 Arg2:T51	
+R34	PARTICIPANT_IN Arg1:T4 Arg2:T51	
+R35	HAS_CAUSE Arg1:T51 Arg2:T29	
+T52	EVENT 92 127	направил поздравительную телеграмму
+R36	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R37	AGENT Arg1:T7 Arg2:T52	
+R38	PARTICIPANT_IN Arg1:T8 Arg2:T52	
+R39	WORKPLACE Arg1:T44 Arg2:T35	
+T53	EVENT 272 281	поздравил
+R40	AGENT Arg1:T44 Arg2:T53	
+R41	PARTICIPANT_IN Arg1:T12 Arg2:T53	
+R42	WORKPLACE Arg1:T13 Arg2:T37	
+R43	ABBREVIATION Arg1:T14 Arg2:T37	
+R44	TAKES_PLACE_IN Arg1:T39 Arg2:T38	
+R45	ALTERNATIVE_NAME Arg1:T4 Arg2:T8	
+R46	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R47	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R48	ALTERNATIVE_NAME Arg1:T3 Arg2:T35	
+R49	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+N1	Reference T2 Wikidata:Q44329	Башар Асад
+N2	Reference T5 Wikidata:Q838380	президент Ирана
+N3	Reference T7 Wikidata:Q44329	Башар Асад
+N4	Reference T8 Wikidata:Q348144	Хасан Рухани
+N7	Reference T20 Wikidata:Q348144	Хасан Рухани
+N8	Reference T23 Wikidata:Q7755	конституция
+N9	Reference T30 Wikidata:Q34448	Махмуд Ахмадинежад
+N10	Reference T31 Wikidata:Q30	США
+N11	Reference T33 Wikidata:Q3616	Тегеран
+N12	Reference T1 Wikidata:Q794	Иран
+N15	Reference T46 Wikidata:Q30461	президент
+N5	Reference T9 Wikidata:Q838380	президент Ирана
+N16	Reference T11 Wikidata:Q63392	
+N14	Reference T37 Wikidata:Q858	Сирия
+N13	Reference T35 Wikidata:Q858	Сирия
+N6	Reference T13 Wikidata:NULL	нет данных
+N17	Reference T32 Wikidata:Q838380	президент Ирана
+N18	Reference T12 Wikidata:Q838380	президент Ирана
+N19	Reference T16 Wikidata:Q838380	президент Ирана
+N20	Reference T26 Wikidata:Q348144	Хасан Рухани
+N21	Reference T4 Wikidata:Q348144	Хасан Рухани
+N22	Reference T21 Wikidata:Q34448	Махмуд Ахмадинежад
+N23	Reference T36 Wikidata:Q794	Иран
+N24	Reference T15 Wikidata:Q794	Иран
+N25	Reference T10 Wikidata:Q794	Иран
+N26	Reference T34 Wikidata:Q794	Иран
+N27	Reference T25 Wikidata:Q794	Иран
+N28	Reference T38 Wikidata:Q794	Иран
+N29	Reference T27 Wikidata:Q794	Иран
+N30	Reference T40 Wikidata:Q30461	президент
+N31	Reference T45 Wikidata:Q30461	президент
+N32	Reference T47 Wikidata:Q30461	президент
+N33	Reference T41 Wikidata:Q30461	президент
+N34	Reference T48 Wikidata:Q30461	президент
+N35	Reference T43 Wikidata:Q30461	президент
+N36	Reference T14 Wikidata:Q858	Сирия
+N37	Reference T3 Wikidata:Q858	Сирия
+N38	Reference T44 Wikidata:NULL	нет данных
+N39	Reference T6 Wikidata:NULL	нет данных

@@ -1,0 +1,312 @@
+T1	STATE_OR_PROVINCE 19 39	Свердловской области
+T2	DATE 60 79	16 ноября 2018 года
+T3	PERSON 132 145	Алексей Орлов
+T5	PERSON 213 230	Аркадий Чернецкий
+T6	NUMBER 256 258	10
+T7	ORGANIZATION 385 411	Российский союз спасателей
+T8	AGE 587 596	16-летний
+T9	PERSON 597 613	Владимир Терехин
+T10	CITY 625 629	Илим
+T11	DISTRICT 630 647	Шалинского района
+T12	DATE 657 673	в июле 2018 года
+T13	PERSON 769 777	Владимир
+T14	PERSON 859 879	Александр Овчинников
+T15	PERSON 881 900	Кирилл Новокрещенов
+T16	PERSON 902 921	Даниил Новокрещенов
+T17	PERSON 923 937	Никита Кузьмин
+T18	PERSON 939 951	Никита Панов
+T19	PERSON 953 969	Владислав Смелов
+T20	PERSON 971 981	Егор Кашин
+T21	CITY 993 1003	Бобровский
+T23	DATE 1024 1039	В мае 2018 года
+T25	PERSON 1406 1421	Владимир Хитрин
+T26	DATE 1422 1437	в мае 2018 года
+T27	NUMBER 1453 1457	двух
+T28	PERSON 1552 1560	Владимир
+T29	PROFESSION 1644 1655	следователю
+T30	AGE 1658 1667	16-летний
+T31	PERSON 1668 1686	Владислав Крапивин
+T32	CITY 1690 1709	Каменска-Уральского
+T33	PERSON 1792 1801	Владислав
+T34	PROFESSION 2014 2029	Вице-губернатор
+T35	PERSON 2051 2064	Алексей Орлов
+T36	PROFESSION 2808 2815	Сенатор
+T37	PERSON 2837 2854	Аркадий Чернецкий
+T42	DATE 3204 3215	в 2014 году
+T43	ORGANIZATION 3230 3246	Совета Федерации
+T46	ORGANIZATION 3344 3370	Российский союз спасателей
+T47	ORGANIZATION 3417 3437	Министерство обороны
+T49	ORGANIZATION 3460 3470	МЧС России
+T50	ORGANIZATION 3472 3482	МВД России
+T52	ORGANIZATION 3678 3688	Дети-герои
+T54	EVENT 40 59	награждены медалями
+T55	ORDINAL 80 86	первый
+T56	PROFESSION 80 131	первый заместитель губернатора Свердловской области
+T57	PROFESSION 87 131	заместитель губернатора Свердловской области
+T58	PROFESSION 99 131	губернатора Свердловской области
+T59	PROFESSION 99 110	губернатора
+T62	PROFESSION 148 212	член Совета Федерации Федерального Собрания Российской Федерации
+T65	PROFESSION 1223 1232	пожарными
+T68	PROFESSION 1594 1613	сотрудникам полиции
+T69	PROFESSION 1918 1932	сотрудники МЧС
+T70	PROFESSION 2014 2050	Вице-губернатор Свердловской области
+T73	PROFESSION 2808 2836	Сенатор Российской Федерации
+T74	STATE_OR_PROVINCE 111 131	Свердловской области
+T4	ORGANIZATION 153 212	Совета Федерации Федерального Собрания Российской Федерации
+T75	ORGANIZATION 170 212	Федерального Собрания Российской Федерации
+T76	ORGANIZATION 170 191	Федерального Собрания
+T77	COUNTRY 192 212	Российской Федерации
+T78	AWARD 414 431	За спасение жизни
+T79	AWARD 436 458	За мужество в спасении
+T80	AWARD 469 560	Благодарность «за мужество и самоотверженность, проявленные при спасении человеческой жизни
+T81	EVENT 577 586	награждён
+T82	DATE 565 572	Сегодня
+T83	EVENT 674 697	спас собственную сестру
+T84	EVENT 848 858	Награждены
+T22	DISTRICT 1004 1022	Сысертского района
+T85	EVENT 1067 1089	возгорание сухой травы
+T87	ORGANIZATION 1360 1369	школы № 6
+T89	NUMBER 1366 1369	№ 6
+T90	DISTRICT 1370 1405	Верхнесалдинского городского округа
+T91	ORGANIZATION 1521 1528	полицию
+T92	ORGANIZATION 1606 1613	полиции
+T93	DATE 1710 1725	летом 2018 года
+T94	NUMBER 1741 1746	одном
+T95	EVENT 1817 1827	возгорание
+T96	EVENT 1785 1790	пожар
+T97	EVENT 1110 1115	пожар
+T98	EVENT 1240 1252	тушили пожар
+T99	ORGANIZATION 1929 1932	МЧС
+T100	STATE_OR_PROVINCE 2030 2050	Свердловской области
+T101	DATE 2074 2081	Сегодня
+T102	PROFESSION 2627 2636	педагогам
+T103	CITY 2536 2548	свердловчане
+T104	COUNTRY 2816 2836	Российской Федерации
+T105	EVENT 3083 3104	Церемония награждения
+T106	EVENT 3093 3104	награждения
+T39	EVENT 3172 3182	Дети-герои
+T40	EVENT 3121 3182	Всероссийского гражданско-патриотического проекта «Дети-герои
+T41	ORGANIZATION 3230 3289	Совета Федерации Федерального Собрания Российской Федерации
+T107	ORGANIZATION 3247 3289	Федерального Собрания Российской Федерации
+T108	ORGANIZATION 3247 3268	Федерального Собрания
+T110	ORGANIZATION 3302 3370	Общероссийской общественной организацией «Российский союз спасателей
+T111	ORGANIZATION 3417 3458	Министерство обороны Российской Федерации
+T112	ORGANIZATION 3460 3463	МЧС
+T113	ORGANIZATION 3472 3475	МВД
+T114	ORGANIZATION 3484 3549	Государственная корпорация по космической деятельности «Роскосмос
+T115	ORGANIZATION 3540 3549	Роскосмос
+T44	COUNTRY 3269 3289	Российской Федерации
+T45	COUNTRY 3344 3354	Российский
+T48	COUNTRY 3438 3458	Российской Федерации
+T116	COUNTRY 3464 3470	России
+T117	COUNTRY 3476 3482	России
+T51	COUNTRY 3607 3613	России
+R1	WORKPLACE Arg1:T58 Arg2:T74	
+R2	WORKS_AS Arg1:T3 Arg2:T56	
+R3	SUBORDINATE_OF Arg1:T56 Arg2:T58	
+R4	WORKPLACE Arg1:T56 Arg2:T74	
+R5	WORKS_AS Arg1:T3 Arg2:T56	
+R6	WORKS_AS Arg1:T5 Arg2:T62	
+R7	PART_OF Arg1:T4 Arg2:T75	
+R8	HEADQUARTERED_IN Arg1:T75 Arg2:T77	
+R9	WORKPLACE Arg1:T5 Arg2:T75	
+T60	COUNTRY 385 395	Российский
+R10	ORIGINS_FROM Arg1:T7 Arg2:T60	
+R11	TAKES_PLACE_IN Arg1:T54 Arg2:T1	
+T53	EVENT 231 255	вручили медали и награды
+R12	ALTERNATIVE_NAME Arg1:T54 Arg2:T53	
+R13	PARTICIPANT_IN Arg1:T5 Arg2:T53	
+R14	AGENT Arg1:T3 Arg2:T53	
+T61	STATE_OR_PROVINCE 259 271	свердловским
+R15	ALTERNATIVE_NAME Arg1:T74 Arg2:T61	
+R16	PLACE_RESIDES_IN Arg1:T9 Arg2:T10	
+R17	AGENT Arg1:T9 Arg2:T83	
+R18	AGE_IS Arg1:T9 Arg2:T8	
+R19	PARTICIPANT_IN Arg1:T9 Arg2:T53	
+R20	SUBEVENT_OF Arg1:T81 Arg2:T53	
+R21	AGE_IS Arg1:T31 Arg2:T30	
+R22	WORKPLACE Arg1:T68 Arg2:T92	
+R23	SUBEVENT_OF Arg1:T84 Arg2:T53	
+R24	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+T63	EVENT 1067 1077	возгорание
+R25	ALTERNATIVE_NAME Arg1:T85 Arg2:T97	
+R26	LOCATED_IN Arg1:T21 Arg2:T22	
+R27	PARTICIPANT_IN Arg1:T14 Arg2:T84	
+R28	PARTICIPANT_IN Arg1:T15 Arg2:T84	
+R29	PARTICIPANT_IN Arg1:T16 Arg2:T84	
+R30	PARTICIPANT_IN Arg1:T17 Arg2:T84	
+R31	PARTICIPANT_IN Arg1:T18 Arg2:T84	
+R32	PARTICIPANT_IN Arg1:T19 Arg2:T84	
+R33	PARTICIPANT_IN Arg1:T20 Arg2:T84	
+R34	PLACE_RESIDES_IN Arg1:T31 Arg2:T32	
+R35	POINT_IN_TIME Arg1:T96 Arg2:T93	
+R36	ALTERNATIVE_NAME Arg1:T31 Arg2:T33	
+R37	WORKPLACE Arg1:T69 Arg2:T99	
+R38	ALTERNATIVE_NAME Arg1:T110 Arg2:T46	
+R39	HEADQUARTERED_IN Arg1:T46 Arg2:T45	
+R40	HEADQUARTERED_IN Arg1:T49 Arg2:T116	
+R41	HEADQUARTERED_IN Arg1:T111 Arg2:T48	
+R42	HEADQUARTERED_IN Arg1:T50 Arg2:T117	
+R43	ALTERNATIVE_NAME Arg1:T114 Arg2:T115	
+R44	HEADQUARTERED_IN Arg1:T115 Arg2:T48	
+T66	EVENT 344 358	вручили медали
+R45	ALTERNATIVE_NAME Arg1:T53 Arg2:T66	
+R46	POINT_IN_TIME Arg1:T81 Arg2:T82	
+R47	PARTICIPANT_IN Arg1:T9 Arg2:T81	
+R48	LOCATED_IN Arg1:T10 Arg2:T11	
+T64	EVENT 761 767	тонуть
+R49	HAS_CAUSE Arg1:T83 Arg2:T64	
+T67	EVENT 787 802	бросился в воду
+T86	EVENT 804 823	вытащил её на берег
+R50	AGENT Arg1:T13 Arg2:T67	
+R51	AGENT Arg1:T13 Arg2:T86	
+R52	SUBEVENT_OF Arg1:T67 Arg2:T83	
+R53	SUBEVENT_OF Arg1:T86 Arg2:T83	
+R54	POINT_IN_TIME Arg1:T67 Arg2:T12	
+R55	POINT_IN_TIME Arg1:T86 Arg2:T12	
+R56	PLACE_RESIDES_IN Arg1:T20 Arg2:T21	
+R57	PLACE_RESIDES_IN Arg1:T19 Arg2:T21	
+R58	PLACE_RESIDES_IN Arg1:T18 Arg2:T21	
+R59	PLACE_RESIDES_IN Arg1:T17 Arg2:T21	
+R60	PLACE_RESIDES_IN Arg1:T16 Arg2:T21	
+R61	PLACE_RESIDES_IN Arg1:T15 Arg2:T21	
+R62	PLACE_RESIDES_IN Arg1:T14 Arg2:T21	
+T118	COUNTRY 3121 3135	Всероссийского
+R63	ALTERNATIVE_NAME Arg1:T40 Arg2:T39	
+R64	START_TIME Arg1:T40 Arg2:T42	
+R65	WORKPLACE Arg1:T73 Arg2:T104	
+R66	WORKS_AS Arg1:T37 Arg2:T73	
+R67	WORKPLACE Arg1:T37 Arg2:T104	
+R68	ALTERNATIVE_NAME Arg1:T25 Arg2:T28	
+R69	ALTERNATIVE_NAME Arg1:T96 Arg2:T95	
+T119	EVENT 1836 1842	тушить
+R70	AGENT Arg1:T33 Arg2:T119	
+R71	POINT_IN_TIME Arg1:T119 Arg2:T93	
+R72	HAS_CAUSE Arg1:T119 Arg2:T95	
+R73	PARTICIPANT_IN Arg1:T69 Arg2:T119	
+R74	WORKPLACE Arg1:T70 Arg2:T100	
+R75	WORKS_AS Arg1:T35 Arg2:T70	
+R76	WORKPLACE Arg1:T35 Arg2:T100	
+R77	TAKES_PLACE_IN Arg1:T85 Arg2:T21	
+R78	POINT_IN_TIME Arg1:T85 Arg2:T23	
+R79	ALTERNATIVE_NAME Arg1:T85 Arg2:T97	
+T71	EVENT 1139 1151	тушить огонь
+R80	HAS_CAUSE Arg1:T71 Arg2:T97	
+R81	POINT_IN_TIME Arg1:T71 Arg2:T23	
+R82	ALTERNATIVE_NAME Arg1:T71 Arg2:T98	
+R83	AGENT Arg1:T65 Arg2:T98	
+R84	HAS_CAUSE Arg1:T84 Arg2:T71	
+R85	AGENT Arg1:T14 Arg2:T71	
+R86	AGENT Arg1:T15 Arg2:T71	
+R87	AGENT Arg1:T16 Arg2:T71	
+R88	AGENT Arg1:T17 Arg2:T71	
+R89	AGENT Arg1:T18 Arg2:T71	
+R90	AGENT Arg1:T19 Arg2:T71	
+R91	AGENT Arg1:T19 Arg2:T71	
+R92	AGENT Arg1:T20 Arg2:T71	
+R93	HEADQUARTERED_IN Arg1:T87 Arg2:T90	
+R94	LOCATED_IN Arg1:T90 Arg2:T61	
+R95	SCHOOLS_ATTENDED Arg1:T25 Arg2:T87	
+T24	EVENT 1447 1452	драку
+T72	EVENT 1447 1452;1479 1485	драку мужчин
+R96	POINT_IN_TIME Arg1:T24 Arg2:T26	
+T88	EVENT 1514 1528	вызвал полицию
+R97	HAS_CAUSE Arg1:T88 Arg2:T24	
+R98	POINT_IN_TIME Arg1:T88 Arg2:T26	
+R99	AGENT Arg1:T25 Arg2:T88	
+R100	WORKPLACE Arg1:T29 Arg2:T92	
+R101	SUBEVENT_OF Arg1:T106 Arg2:T40	
+R102	ALTERNATIVE_NAME Arg1:T66 Arg2:T105	
+R103	PART_OF Arg1:T41 Arg2:T107	
+R104	HEADQUARTERED_IN Arg1:T107 Arg2:T44	
+R105	ORGANIZES Arg1:T41 Arg2:T40	
+R106	ORGANIZES Arg1:T110 Arg2:T40	
+R107	ORIGINS_FROM Arg1:T66 Arg2:T7	
+R108	INANIMATE_INVOLVED Arg1:T78 Arg2:T66	
+R109	INANIMATE_INVOLVED Arg1:T79 Arg2:T66	
+R110	PRODUCES Arg1:T7 Arg2:T78	
+R111	PRODUCES Arg1:T7 Arg2:T79	
+R112	INANIMATE_INVOLVED Arg1:T80 Arg2:T66	
+R113	PARTICIPANT_IN Arg1:T91 Arg2:T88	
+R114	ALTERNATIVE_NAME Arg1:T118 Arg2:T45	
+R115	ALTERNATIVE_NAME Arg1:T118 Arg2:T44	
+R116	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R117	ALTERNATIVE_NAME Arg1:T48 Arg2:T116	
+N1	Reference T10 Wikidata:Q4199259	Илим
+N2	Reference T11 Wikidata:Q28065375	Шалинский район (Свердловская область)
+N11	Reference T21 Wikidata:Q4088840	Бобровский
+N15	Reference T32 Wikidata:Q105444	Каменск-Уральский
+N19	Reference T37 Wikidata:Q2182618	Чернецкий, Аркадий Михайлович
+N20	Reference T43 Wikidata:Q186473	Совет Федерации
+N23	Reference T49 Wikidata:Q2624171	МЧС России
+N24	Reference T50 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N28	Reference T58 Wikidata:Q4151343	Губернатор Свердловской области
+N29	Reference T59 Wikidata:Q132050	губернатор
+N31	Reference T65 Wikidata:Q107711	пожарный
+N36	Reference T75 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N39	Reference T22 Wikidata:Q28589900	Сысертский район
+N41	Reference T90 Wikidata:Q4108489	Верхнесалдинский городской округ
+N42	Reference T91 Wikidata:Q35535	полиция
+N43	Reference T99 Wikidata:Q2624171	МЧС России
+N44	Reference T102 Wikidata:Q37226	учитель
+N45	Reference T41 Wikidata:Q186473	Совет Федерации
+N46	Reference T108 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N47	Reference T111 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N48	Reference T113 Wikidata:Q6589202	министерство внутренних дел
+N49	Reference T115 Wikidata:Q190795	Роскосмос
+N50	Reference T48 Wikidata:Q159	Россия
+N35	Reference T74 Wikidata:Q5462	Свердловская область
+N27	Reference T57 Wikidata:NULL	нет данных
+N26	Reference T56 Wikidata:NULL	нет данных
+N30	Reference T62 Wikidata:Q19399742	
+N51	Reference T60 Wikidata:Q159	Россия
+N37	Reference T78 Wikidata:NULL	нет данных
+N38	Reference T79 Wikidata:NULL	нет данных
+N52	Reference T80 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:NULL	нет данных
+N9	Reference T19 Wikidata:NULL	нет данных
+N10	Reference T20 Wikidata:NULL	нет данных
+N12	Reference T25 Wikidata:NULL	нет данных
+N40	Reference T87 Wikidata:NULL	нет данных
+N53	Reference T68 Wikidata:Q384593	
+N13	Reference T29 Wikidata:Q30093123	
+N14	Reference T31 Wikidata:NULL	нет данных
+N32	Reference T69 Wikidata:NULL	нет данных
+N17	Reference T35 Wikidata:Q59136778	
+N16	Reference T34 Wikidata:Q66716743	
+N33	Reference T70 Wikidata:NULL	нет данных
+N54	Reference T103 Wikidata:NULL	нет данных
+N18	Reference T36 Wikidata:Q15686806	
+N34	Reference T73 Wikidata:NULL	нет данных
+N25	Reference T52 Wikidata:NULL	нет данных
+N21	Reference T46 Wikidata:NULL	нет данных
+N22	Reference T47 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N55	Reference T5 Wikidata:Q2182618	Чернецкий, Аркадий Михайлович
+N56	Reference T107 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N57	Reference T92 Wikidata:Q35535	полиция
+N58	Reference T112 Wikidata:Q2624171	МЧС России
+N59	Reference T4 Wikidata:Q186473	Совет Федерации
+N60	Reference T76 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N61	Reference T114 Wikidata:Q190795	Роскосмос
+N62	Reference T116 Wikidata:Q159	Россия
+N63	Reference T51 Wikidata:Q159	Россия
+N64	Reference T117 Wikidata:Q159	Россия
+N65	Reference T104 Wikidata:Q159	Россия
+N66	Reference T77 Wikidata:Q159	Россия
+N67	Reference T100 Wikidata:Q5462	Свердловская область
+N68	Reference T61 Wikidata:Q5462	Свердловская область
+N69	Reference T1 Wikidata:Q5462	Свердловская область
+N70	Reference T44 Wikidata:Q159	Россия
+N71	Reference T118 Wikidata:Q159	Россия
+N72	Reference T45 Wikidata:Q159	Россия
+N73	Reference T9 Wikidata:NULL	нет данных
+N74	Reference T28 Wikidata:NULL	нет данных
+N75	Reference T33 Wikidata:NULL	нет данных
+N76	Reference T3 Wikidata:Q59136778	
+N77	Reference T7 Wikidata:NULL	нет данных
+N78	Reference T110 Wikidata:NULL	нет данных

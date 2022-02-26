@@ -1,0 +1,171 @@
+T1	PERSON 0 5	Путин
+T3	ORGANIZATION 24 31	Госдуме
+T5	PROFESSION 64 73	Президент
+T6	COUNTRY 74 80	России
+T7	PERSON 81 95	Владимир Путин
+T12	DATE 174 197	от 25 октября 2016 года
+T13	ORGANIZATION 235 242	Госдумы
+T14	NUMBER 243 257	в полтора раза
+T15	NUMBER 258 261	с 8
+T16	NUMBER 265 267	12
+T17	ORGANIZATION 326 333	Госдуму
+T18	PROFESSION 345 357	председателя
+T19	PERSON 358 376	Вячеслава Володина
+T20	PROFESSION 379 405	Пресс-секретарь президента
+T21	PERSON 406 420	Дмитрий Песков
+T22	ORGANIZATION 713 720	Госдумы
+T23	ORGANIZATION 843 847	Думе
+T25	PROFESSION 868 880	председателю
+T26	PERSON 881 899	Вячеславу Володину
+T27	PROFESSION 901 917	первым зампредам
+T28	PERSON 918 935	Александру Жукову
+T29	PERSON 938 954	Ивану Мельникову
+T30	NUMBER 956 961	шести
+T31	PROFESSION 962 971	зампредам
+T32	NUMBER 982 989	четырёх
+T33	PERSON 1012 1029	Владимир Васильев
+T34	PROFESSION 1050 1062	вице-спикера
+T35	PROFESSION 1065 1085	руководителя фракции
+T36	ORGANIZATION 1087 1100	Единой России
+T37	NUMBER 1148 1150	12
+T38	PERSON 1177 1182	Путин
+T39	DATE 1213 1225	от 2012 года
+T40	NUMBER 1329 1344	с тысячи до 569
+T42	ORGANIZATION 1451 1464	Центризбирком
+T43	DATE 1505 1532	В начале сентября 2012 года
+T44	PERSON 1533 1538	Путин
+T46	ORGANIZATION 1640 1650	Росгвардии
+T47	NUMBER 1652 1654	35
+T48	COUNTRY 1695 1701	России
+T49	ORGANIZATION 1727 1730	ФСБ
+T50	NUMBER 1732 1735	207
+T51	ORGANIZATION 1738 1775	Государственная фельдъегерская служба
+T52	ORGANIZATION 1782 1785	МВД
+T53	ORGANIZATION 1792 1806	Генпрокуратура
+T54	ORGANIZATION 1813 1826	Правительство
+T56	ORGANIZATION 1847 1853	Кремля
+T57	NUMBER 1855 1857	22
+T58	ORGANIZATION 1860 1870	Минобороны
+T59	NUMBER 1872 1874	20
+T60	ORGANIZATION 1877 1882	СК РФ
+T61	NUMBER 1884 1886	12
+T62	ORGANIZATION 1889 1904	Совет Федерации
+T63	NUMBER 1906 1907	5
+T64	ORGANIZATION 1910 1913	МИД
+T65	ORGANIZATION 1919 1933	Счётная палата
+T66	ORGANIZATION 1935 1938	СВР
+T67	ORGANIZATION 1940 1979	Главное управление специальных проектов
+T68	ORGANIZATION 1981 2009	Управление делами президента
+T69	ORGANIZATION 2011 2027	Росфинмониторинг
+T70	ORGANIZATION 2029 2032	РАН
+T73	NUMBER 2067 2076	по одному
+T76	ORGANIZATION 2280 2300	Следственный комитет
+T77	COUNTRY 2301 2303	РФ
+R2	WORKS_AS Arg1:T29 Arg2:T27
+R4	WORKS_AS Arg1:T33 Arg2:T34
+T2	PROFESSION 2035 2060	главы субъектов Федерации
+T4	ORGANIZATION 1833 1853	Администрация Кремля
+R7	WORKPLACE Arg1:T7 Arg2:T6	
+R8	WORKS_AS Arg1:T19 Arg2:T18	
+R9	WORKPLACE Arg1:T19 Arg2:T17	
+T8	PROFESSION 395 405	президента
+R10	WORKS_AS Arg1:T21 Arg2:T20	
+R11	SUBORDINATE_OF Arg1:T21 Arg2:T8	
+R12	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R13	WORKS_AS Arg1:T26 Arg2:T25	
+R14	WORKPLACE Arg1:T26 Arg2:T23	
+R15	WORKS_AS Arg1:T28 Arg2:T27	
+R3	WORKS_AS Arg1:T29 Arg2:T27	
+R16	WORKPLACE Arg1:T28 Arg2:T23	
+R17	WORKPLACE Arg1:T29 Arg2:T23	
+T9	PROFESSION 1065 1101	руководителя фракции «Единой России»
+R18	WORKPLACE Arg1:T33 Arg2:T23	
+R19	WORKS_AS Arg1:T33 Arg2:T9	
+R20	WORKPLACE Arg1:T33 Arg2:T36	
+T10	LAW 1208 1225	указ от 2012 года
+T11	COUNTRY 2051 2060	Федерации
+T24	ORGANIZATION 2280 2303	Следственный комитет РФ
+R5	HEADQUARTERED_IN Arg1:T24 Arg2:T77	
+R21	DATE_OF_CREATION Arg1:T10 Arg2:T39	
+T41	PROFESSION 64 80	Президент России
+R1	WORKPLACE Arg1:T41 Arg2:T6	
+R6	WORKS_AS Arg1:T7 Arg2:T41	
+T45	PROFESSION 739 747	депутаты
+R22	WORKPLACE Arg1:T9 Arg2:T36	
+T55	ORGANIZATION 1383 1396	правительства
+T71	EVENT 1539 1580	наделил правом на использование «мигалок»
+R23	AGENT Arg1:T44 Arg2:T71	
+R24	POINT_IN_TIME Arg1:T71 Arg2:T43	
+R25	PARTICIPANT_IN Arg1:T46 Arg2:T71	
+R26	ALTERNATIVE_NAME Arg1:T48 Arg2:T77	
+T72	COUNTRY 1880 1882	РФ
+R27	HEADQUARTERED_IN Arg1:T60 Arg2:T72	
+T74	PROFESSION 1999 2009	президента
+R28	ALTERNATIVE_NAME Arg1:T72 Arg2:T11	
+R29	WORKPLACE Arg1:T2 Arg2:T11	
+R30	SUBORDINATE_OF Arg1:T20 Arg2:T8	
+T75	PROFESSION 2206 2214	пожарные
+R31	HEADQUARTERED_IN Arg1:T13 Arg2:T6	
+R32	WORKPLACE Arg1:T31 Arg2:T23	
+T78	EVENT 1183 1197	внес изменения
+R33	AGENT Arg1:T38 Arg2:T78	
+R34	INANIMATE_INVOLVED Arg1:T10 Arg2:T78	
+N1	Reference T3 Wikidata:Q715641	Государственная дума
+N2	Reference T5 Wikidata:Q30461	президент
+N3	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T18 Wikidata:Q140686	председатель
+N5	Reference T20 Wikidata:Q19607392	пресс-секретарь президента России
+N6	Reference T21 Wikidata:Q4359679	Песков, Дмитрий
+N7	Reference T26 Wikidata:Q982461	Вячеслав Викторович Володин
+N11	Reference T33 Wikidata:Q1038491	Владимир Николаевич Васильев
+N13	Reference T35 Wikidata:Q848197	парламентская фракция
+N14	Reference T36 Wikidata:Q151469	Единая Россия
+N15	Reference T44 Wikidata:Q7747	Владимир Владимирович Путин
+N16	Reference T46 Wikidata:Q23764150	Росгвардия
+N17	Reference T48 Wikidata:Q159	Россия
+N18	Reference T49 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N19	Reference T51 Wikidata:Q7603179	Государственная фельдъегерская служба Российской Федерации
+N20	Reference T52 Wikidata:Q6589202	министерство внутренних дел
+N21	Reference T53 Wikidata:Q2387440	Прокуратура Российской Федерации
+N22	Reference T54 Wikidata:Q7188	правительство
+N24	Reference T58 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N25	Reference T60 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N26	Reference T62 Wikidata:Q186473	Совет Федерации
+N28	Reference T65 Wikidata:Q1968051	Счётная палата Российской Федерации
+N29	Reference T66 Wikidata:Q863254	Служба внешней разведки Российской Федерации
+N30	Reference T67 Wikidata:Q4139170	Главное управление специальных программ Президента Российской Федерации
+N31	Reference T68 Wikidata:Q4476368	Управление делами Президента Российской Федерации
+N32	Reference T69 Wikidata:Q660497	Федеральная служба по финансовому мониторингу
+N33	Reference T70 Wikidata:Q83172	Российская академия наук
+N39	Reference T24 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N40	Reference T41 Wikidata:Q218295	президент Российской Федерации
+N41	Reference T45 Wikidata:Q486839	член парламента
+N42	Reference T75 Wikidata:Q107711	пожарный
+N8	Reference T27 Wikidata:NULL	нет данных
+N9	Reference T28 Wikidata:Q57735	Александр Дмитриевич Жуков
+N10	Reference T29 Wikidata:Q4289876	Иван Иванович Мельников
+N43	Reference T31 Wikidata:NULL	нет данных
+N36	Reference T9 Wikidata:NULL	нет данных
+N12	Reference T34 Wikidata:NULL	нет данных
+N37	Reference T10 Wikidata:NULL	нет данных
+N44	Reference T42 Wikidata:Q190362	
+N35	Reference T4 Wikidata:Q2060629	Администрация президента России
+N23	Reference T56 Wikidata:Q2060629	Администрация президента России
+N27	Reference T64 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N34	Reference T2 Wikidata:NULL	нет данных
+N38	Reference T11 Wikidata:Q159	Россия
+N45	Reference T76 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N46	Reference T13 Wikidata:Q715641	Государственная дума
+N47	Reference T22 Wikidata:Q715641	Государственная дума
+N48	Reference T23 Wikidata:Q715641	Государственная дума
+N49	Reference T17 Wikidata:Q715641	Государственная дума
+N50	Reference T8 Wikidata:Q30461	президент
+N51	Reference T74 Wikidata:Q30461	президент
+N52	Reference T25 Wikidata:Q140686	председатель
+N53	Reference T19 Wikidata:Q982461	Вячеслав Викторович Володин
+N54	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N55	Reference T38 Wikidata:Q7747	Владимир Владимирович Путин
+N56	Reference T6 Wikidata:Q159	Россия
+N57	Reference T77 Wikidata:Q159	Россия
+N58	Reference T55 Wikidata:Q7188	правительство
+N59	Reference T72 Wikidata:Q159	Россия

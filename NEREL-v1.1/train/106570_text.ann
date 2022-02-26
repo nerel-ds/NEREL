@@ -1,0 +1,51 @@
+T1	PERSON 0 11	Юрий Лужков
+T2	PERSON 29 40	Юрий Лужков
+T3	PROFESSION 45 48	мэр
+T4	PERSON 56 67	Юрий Лужков
+T6	CITY 188 201	Калининградом
+T7	PERSON 218 224	Лужков
+T8	ORGANIZATION 246 250	ТАСС
+T9	AGE 267 277	80-летнего
+T10	PROFESSION 459 462	мэр
+T11	NUMBER 629 637	около 70
+T13	PERSON 728 734	Лужков
+T14	ORGANIZATION 744 751	Веедерн
+T15	COUNTRY 777 783	России
+T16	PERSON 898 904	Лужков
+T17	STATE_OR_PROVINCE 1153 1176	Калининградской области
+T18	NUMBER 1178 1192	8-10 тыс. тонн
+T19	STATE_OR_PROVINCE 1326 1349	Калининградской области
+T20	CITY 1358 1365	Озёрске
+T21	PERSON 1377 1383	Лужков
+T22	CITY 49 55	Москвы
+T23	PROFESSION 45 55	мэр Москвы
+R1	WORKPLACE Arg1:T23 Arg2:T22	
+R2	WORKPLACE Arg1:T4 Arg2:T22	
+T5	ORGANIZATION 152 181	Частный конный завод „Веедерн
+R3	OWNER_OF Arg1:T4 Arg2:T5	
+R4	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+R5	AGE_IS Arg1:T7 Arg2:T9	
+R6	ALTERNATIVE_NAME Arg1:T5 Arg2:T14	
+R7	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+R8	HEADQUARTERED_IN Arg1:T14 Arg2:T17	
+R9	LOCATED_IN Arg1:T20 Arg2:T19	
+R10	LOCATED_IN Arg1:T17 Arg2:T15	
+N1	Reference T3 Wikidata:Q30185	мэр
+N2	Reference T6 Wikidata:Q1829	Калининград
+N3	Reference T8 Wikidata:Q223799	ТАСС
+N4	Reference T15 Wikidata:Q159	Россия
+N5	Reference T16 Wikidata:Q156379	Юрий Михайлович Лужков
+N6	Reference T19 Wikidata:Q1749	Калининградская область
+N8	Reference T22 Wikidata:Q649	Москва
+N9	Reference T23 Wikidata:Q1837906	мэр Москвы
+N10	Reference T5 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:Q175795	Озёрск
+N11	Reference T10 Wikidata:Q30185	мэр
+N12	Reference T13 Wikidata:Q156379	Юрий Михайлович Лужков
+N13	Reference T4 Wikidata:Q156379	Юрий Михайлович Лужков
+N14	Reference T7 Wikidata:Q156379	Юрий Михайлович Лужков
+N15	Reference T2 Wikidata:Q156379	Юрий Михайлович Лужков
+N16	Reference T1 Wikidata:Q156379	Юрий Михайлович Лужков
+N17	Reference T21 Wikidata:Q156379	Юрий Михайлович Лужков
+N18	Reference T17 Wikidata:Q1749	Калининградская область
+N19	Reference T14 Wikidata:NULL	нет данных

@@ -1,0 +1,112 @@
+T1	CITY 2 10	Стамбуле
+T2	COUNTRY 16 26	таджикский
+T3	PERSON 40 56	Умарали Кувватов
+T4	CITY 72 80	Стамбула
+T5	PERSON 125 140	Эмомали Рахмона
+T6	CITY 174 182	Стамбуле
+T7	DATE 193 221	в пятницу, 5 марта 2015 года
+T8	COUNTRY 223 231	турецкие
+T10	ORGANIZATION 269 278	Группа 24
+T11	PERSON 280 296	Умарали Кувватов
+T12	COUNTRY 323 329	Турции
+T13	DATE 359 368	в четверг
+T14	TIME 359 405	в четверг примерно в 22:30 по местному времени
+T15	CITY 408 420	стамбульском
+T16	DISTRICT 428 433	Фатих
+T17	ORGANIZATION 460 465	Dogan
+T18	CITY 509 521	Стамбульская
+T19	PERSON 559 567	Кувватов
+T20	PROFESSION 576 586	президента
+T21	AGE 597 607	62-летнего
+T22	PROFESSION 616 633	директора совхоза
+T23	DATE 695 706	с 1992 года
+T24	DATE 749 772	В октябре прошлого года
+T25	ORGANIZATION 773 799	Верховный суд Таджикистана
+T26	ORGANIZATION 809 818	Группу 24
+T27	COUNTRY 106 117	таджикского
+T28	PROFESSION 106 124	таджикского лидера
+T29	DISTRICT 57 62	Фатих
+T30	ORGANIZATION 522 529	полиция
+T31	PERSON 587 594	Рахмона
+T33	LOCATION 664 683	центральноазиатской
+T34	COUNTRY 787 799	Таджикистана
+T35	IDEOLOGY 820 834	экстремистской
+T36	IDEOLOGY 27 39	оппозиционер
+T37	IDEOLOGY 244 258	оппозиционного
+R1	IDEOLOGY_OF Arg1:T3 Arg2:T36	
+R2	LOCATED_IN Arg1:T29 Arg2:T4	
+T38	EVENT 11 15	убит
+R3	TAKES_PLACE_IN Arg1:T38 Arg2:T1	
+R4	ORIGINS_FROM Arg1:T3 Arg2:T2	
+R5	PARTICIPANT_IN Arg1:T3 Arg2:T38	
+T39	EVENT 141 150	застрелен
+R6	TAKES_PLACE_IN Arg1:T39 Arg2:T6	
+R7	POINT_IN_TIME Arg1:T39 Arg2:T7	
+R8	PARTICIPANT_IN Arg1:T3 Arg2:T39	
+R9	WORKS_AS Arg1:T5 Arg2:T28	
+R10	WORKPLACE Arg1:T5 Arg2:T27	
+R11	IDEOLOGY_OF Arg1:T10 Arg2:T37	
+R12	WORKPLACE Arg1:T11 Arg2:T10	
+R13	PLACE_RESIDES_IN Arg1:T11 Arg2:T12	
+T9	EVENT 335 358	убит выстрелом в голову
+T40	EVENT 335 339	убит
+R14	LOCATED_IN Arg1:T16 Arg2:T15	
+R15	POINT_IN_TIME Arg1:T9 Arg2:T13	
+R16	PARTICIPANT_IN Arg1:T11 Arg2:T9	
+R17	TAKES_PLACE_IN Arg1:T9 Arg2:T16	
+R18	WORKS_AS Arg1:T31 Arg2:T20	
+R19	AGE_IS Arg1:T31 Arg2:T21	
+R20	PLACE_OF_DEATH Arg1:T3 Arg2:T1	
+R21	DATE_OF_DEATH Arg1:T11 Arg2:T13	
+R22	PLACE_OF_DEATH Arg1:T11 Arg2:T16	
+T41	CRIME 725 734	коррупции
+T42	CRIME 737 746	непотизме
+T43	EVENT 800 807;820 847	объявил экстремистской организацией
+R23	AGENT Arg1:T25 Arg2:T43	
+T44	EVENT 850 858	запретил
+R24	AGENT Arg1:T25 Arg2:T44	
+R25	ORIGINS_FROM Arg1:T36 Arg2:T2	
+R26	WORKPLACE Arg1:T28 Arg2:T27	
+R27	IDEOLOGY_OF Arg1:T11 Arg2:T37	
+T45	ORGANIZATION 509 529	Стамбульская полиция
+R28	HEADQUARTERED_IN Arg1:T45 Arg2:T18	
+R29	ALTERNATIVE_NAME Arg1:T11 Arg2:T19	
+R30	ALTERNATIVE_NAME Arg1:T5 Arg2:T31	
+R31	ALTERNATIVE_NAME Arg1:T28 Arg2:T20	
+R32	WORKS_AS Arg1:T31 Arg2:T22	
+R33	LOCATED_IN Arg1:T27 Arg2:T33	
+R34	ALTERNATIVE_NAME Arg1:T27 Arg2:T34	
+R35	PARTICIPANT_IN Arg1:T26 Arg2:T43	
+R36	PARTICIPANT_IN Arg1:T26 Arg2:T44	
+R37	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R38	ALTERNATIVE_NAME Arg1:T6 Arg2:T15	
+N1	Reference T5 Wikidata:Q57366	Эмомали Рахмон
+N2	Reference T6 Wikidata:Q406	Стамбул
+N4	Reference T10 Wikidata:Q30891882	Группа 24
+N5	Reference T11 Wikidata:Q19463536	Кувватов, Умарали
+N6	Reference T12 Wikidata:Q43	Турция
+N8	Reference T16 Wikidata:Q732923	Фатих
+N9	Reference T20 Wikidata:Q30461	президент
+N12	Reference T27 Wikidata:Q863	Таджикистан
+N13	Reference T30 Wikidata:Q35535	полиция
+N3	Reference T8 Wikidata:Q43	Турецкая, Марина Валерьяновна
+N7	Reference T15 Wikidata:Q406	Стамбул
+N16	Reference T17 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	
+N10	Reference T22 Wikidata:NULL	нет данных
+N14	Reference T33 Wikidata:Q27275	Центральная Азия
+N11	Reference T25 Wikidata:Q21662238	
+N17	Reference T31 Wikidata:Q57366	Эмомали Рахмон
+N18	Reference T4 Wikidata:Q406	Стамбул
+N19	Reference T1 Wikidata:Q406	Стамбул
+N20	Reference T26 Wikidata:Q30891882	Группа 24
+N21	Reference T3 Wikidata:Q19463536	Кувватов, Умарали
+N22	Reference T19 Wikidata:Q19463536	Кувватов, Умарали
+N23	Reference T29 Wikidata:Q732923	Фатих
+N24	Reference T28 Wikidata:Q30461	президент
+N25	Reference T2 Wikidata:Q863	Таджикистан
+N26	Reference T34 Wikidata:Q863	Таджикистан
+N27	Reference T18 Wikidata:Q406	Стамбул
+T32	NUMBER 816 818	24
+R39	CONVICTED_OF Arg1:T31 Arg2:T41	
+R40	CONVICTED_OF Arg1:T31 Arg2:T42	

@@ -1,0 +1,150 @@
+T1	PERSON 0 11	Мать Тереза
+T2	PERSON 18 45	Святой Терезой Калькуттской
+T3	PERSON 47 58	Мать Тереза
+T4	PROFESSION 59 71	Папа римский
+T5	PERSON 72 80	Франциск
+T6	PROFESSION 123 131	монахини
+T7	PROFESSION 184 196	Папа римский
+T8	PERSON 197 205	Франциск
+T9	PERSON 214 225	мать Терезу
+T10	EVENT 234 255	Церемония канонизации
+T11	FACILITY 266 287	площади Святого Петра
+T12	CITY 290 298	Ватикане
+T13	NUMBER 313 327	десятков тысяч
+T14	EVENT 387 402	Года милосердия
+T15	LANGUAGE 420 426	латыни
+T17	AWARD 439 462	Нобелевской премии мира
+T18	PERSON 464 475	мать Терезу
+T19	COUNTRY 558 563	Индии
+T20	DATE 577 597	26 августа 1910 года
+T21	COUNTRY 600 611	македонском
+T22	CITY 619 625	Скопье
+T23	NATIONALITY 634 643	косовских
+T24	NATIONALITY 644 652	албанцев
+T25	PERSON 653 673	Агнес Гондже Бояджиу
+T26	CITY 685 694	Калькутту
+T27	DATE 695 713	6 января 1929 года
+T28	NATIONALITY 716 725	Албанская
+T29	PROFESSION 726 734	монахиня
+T30	NUMBER 797 800	120
+T31	NUMBER 822 837	несколько тысяч
+T32	NUMBER 849 863	более миллиона
+T33	DATE 943 963	5 сентября 1997 года
+T35	ORGANIZATION 1184 1211	Римско-католическая церковь
+T36	NUMBER 1224 1238	более 10 тысяч
+T37	DATE 1391 1399	пять лет
+T39	PROFESSION 1427 1431	папа
+T40	PERSON 1432 1446	Иоанн Павел II
+T41	PERSON 1474 1487	матери Терезы
+R1	WORKS_AS Arg1:T5 Arg2:T4
+R2	WORKS_AS Arg1:T8 Arg2:T7
+R7	ORIGINS_FROM Arg1:T25 Arg2:T23
+R3	DATE_OF_BIRTH Arg1:T25 Arg2:T20	
+R4	PLACE_OF_BIRTH Arg1:T25 Arg2:T22	
+T34	DATE 1300 1315	несколько веков
+T38	EVENT 88 109	церемонию канонизации
+T42	RELIGION 110 122	католической
+T43	PERSON 274 287	Святого Петра
+T44	PROFESSION 376 386	понтификом
+T45	PROFESSION 405 409	Папа
+T46	PROFESSION 838 846	монахинь
+T47	PROFESSION 864 874	волонтеров
+T48	WORK_OF_ART 994 1000	Библии
+T49	RELIGION 1191 1203	католическая
+T50	EVENT 1512 1523	канонизацию
+T51	PERSON 25 32	Терезой
+T52	PERSON 5 11	Тереза
+T54	PERSON 469 475	Терезу
+T55	PERSON 1481 1487	Терезы
+T56	PERSON 52 58	Тереза
+R5	AGENT Arg1:T5 Arg2:T38	
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T11	
+R8	ORIGINS_FROM Arg1:T25 Arg2:T24	
+R9	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R10	DATE_OF_DEATH Arg1:T41 Arg2:T33	
+R11	LOCATED_IN Arg1:T11 Arg2:T12	
+R12	LOCATED_IN Arg1:T22 Arg2:T21	
+R13	RELIGION_OF Arg1:T40 Arg2:T49	
+R14	RELIGION_OF Arg1:T41 Arg2:T49	
+R15	AGENT Arg1:T40 Arg2:T50	
+T53	CITY 33 45	Калькуттской
+R16	RELIGION_OF Arg1:T3 Arg2:T42	
+R17	RELIGION_OF Arg1:T5 Arg2:T42	
+T57	PERSON 219 225	Терезу
+R18	AWARDED_WITH Arg1:T18 Arg2:T17	
+R19	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+T16	PROFESSION 110 131	католической монахини
+T58	AWARD 439 457	Нобелевской премии
+R20	WORKS_AS Arg1:T8 Arg2:T44	
+R21	ALTERNATIVE_NAME Arg1:T7 Arg2:T45	
+R22	ALTERNATIVE_NAME Arg1:T18 Arg2:T25	
+T59	CITY 64 71	римский
+T60	CITY 189 196	римский
+R23	PARTICIPANT_IN Arg1:T8 Arg2:T10	
+R24	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+R25	RELIGION_OF Arg1:T35 Arg2:T49	
+R26	WORKS_AS Arg1:T40 Arg2:T39	
+R27	RELIGION_OF Arg1:T16 Arg2:T42	
+R28	RELIGION_OF Arg1:T3 Arg2:T42	
+R29	ALTERNATIVE_NAME Arg1:T7 Arg2:T44	
+R30	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R31	ALTERNATIVE_NAME Arg1:T24 Arg2:T28	
+R32	ALTERNATIVE_NAME Arg1:T53 Arg2:T26	
+R33	INANIMATE_INVOLVED Arg1:T3 Arg2:T38	
+R34	AGENT Arg1:T44 Arg2:T14	
+T61	PERSON 439 450	Нобелевской
+R35	PRODUCES Arg1:T61 Arg2:T58	
+N1	Reference T1 Wikidata:Q30547	мать Тереза
+N3	Reference T9 Wikidata:Q30547	мать Тереза
+N4	Reference T11 Wikidata:Q83425	Площадь Святого Петра
+N5	Reference T12 Wikidata:Q237	Ватикан
+N6	Reference T15 Wikidata:Q397	латинский язык
+N7	Reference T17 Wikidata:Q35637	Нобелевская премия мира
+N8	Reference T19 Wikidata:Q668	Индия
+N9	Reference T21 Wikidata:Q221	Северная Македония
+N10	Reference T22 Wikidata:Q384	Скопье
+N12	Reference T24 Wikidata:Q179248	албанцы
+N13	Reference T35 Wikidata:Q9592	католическая церковь
+N14	Reference T40 Wikidata:Q989	Иоанн Павел II
+N15	Reference T43 Wikidata:Q33923	Апостол Пётр
+N18	Reference T48 Wikidata:Q1845	Библия
+N23	Reference T58 Wikidata:Q7191	Нобелевская премия
+N24	Reference T59 Wikidata:Q220	Рим
+N2	Reference T5 Wikidata:Q450675	Франциск
+N26	Reference T45 Wikidata:Q19546	Папа Римский
+N25	Reference T61 Wikidata:Q23810	Альфред Нобель
+N11	Reference T23 Wikidata:Q1785086	
+N16	Reference T46 Wikidata:Q733786	монах
+N22	Reference T16 Wikidata:Q97722145	
+N21	Reference T53 Wikidata:Q1348	
+N20	Reference T56 Wikidata:Q30547	мать Тереза
+N17	Reference T47 Wikidata:Q24716636	
+N19	Reference T49 Wikidata:Q1841	католичество
+N27	Reference T2 Wikidata:Q30547	мать Тереза
+N28	Reference T3 Wikidata:Q30547	мать Тереза
+N29	Reference T18 Wikidata:Q30547	мать Тереза
+N30	Reference T41 Wikidata:Q30547	мать Тереза
+N31	Reference T25 Wikidata:Q30547	мать Тереза
+N32	Reference T28 Wikidata:Q179248	албанцы
+N33	Reference T60 Wikidata:Q220	Рим
+N34	Reference T8 Wikidata:Q450675	Франциск
+N35	Reference T4 Wikidata:Q19546	Папа Римский
+N36	Reference T7 Wikidata:Q19546	Папа Римский
+N37	Reference T44 Wikidata:Q19546	Папа Римский
+N38	Reference T39 Wikidata:Q19546	Папа Римский
+N39	Reference T6 Wikidata:Q733786	монах
+N40	Reference T29 Wikidata:Q733786	монах
+N41	Reference T26 Wikidata:Q1348	
+N42	Reference T55 Wikidata:Q30547	мать Тереза
+N43	Reference T52 Wikidata:Q30547	мать Тереза
+N44	Reference T54 Wikidata:Q30547	мать Тереза
+N45	Reference T57 Wikidata:Q30547	мать Тереза
+N46	Reference T51 Wikidata:Q30547	мать Тереза
+N47	Reference T42 Wikidata:Q1841	католичество
+T62	EVENT 674 682	приехала
+R36	AGENT Arg1:T25 Arg2:T62	
+R37	TAKES_PLACE_IN Arg1:T62 Arg2:T26	
+R38	POINT_IN_TIME Arg1:T62 Arg2:T27	
+T63	EVENT 936 942	умерла
+R39	POINT_IN_TIME Arg1:T63 Arg2:T33	
+R40	PARTICIPANT_IN Arg1:T25 Arg2:T63	

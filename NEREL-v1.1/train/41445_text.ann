@@ -1,0 +1,222 @@
+T1	PERSON 0 17	Геннадий Онищенко
+T2	PERSON 39 56	Геннадий Онищенко
+T3	ORGANIZATION 91 107	Роспотребнадзора
+T4	PERSON 108 125	Геннадий Онищенко
+T5	PROFESSION 194 228	помощником премьер-министра России
+T6	PROFESSION 205 221	премьер-министра
+T7	PERSON 229 246	Дмитрия Медведева
+T8	PROFESSION 248 294	Исполняющим обязанности главы Роспотребнадзора
+T9	PERSON 305 316	Анна Попова
+T11	PROFESSION 352 367	Пресс-секретарь
+T12	PERSON 388 404	Наталья Тимакова
+T13	PERSON 458 468	Медведевым
+T14	PERSON 481 490	Тимаковой
+T15	PERSON 554 562	Онищенко
+T16	PERSON 565 575	Медведевым
+T17	DATE 580 589	год назад
+T18	ORGANIZATION 649 660	Коммерсантъ
+T19	PERSON 683 691	Онищенко
+T20	ORGANIZATION 719 737	Россельхознадзором
+T21	ORGANIZATION 786 802	Роспотребнадзора
+T22	PROFESSION 836 858	главы Роспотребнадзора
+T23	PROFESSION 891 905	вице-премьером
+T24	PERSON 906 920	Ольгой Голодец
+T25	PERSON 930 943	Ольга Голодец
+T26	PERSON 980 997	Геннадий Онищенко
+T27	PERSON 1025 1033	Онищенко
+T28	PERSON 1067 1083	Наталья Тимакова
+T29	AGE 1223 1232	63-летний
+T30	AWARD 1233 1256	заслуженный врач России
+T31	COUNTRY 1259 1267	Киргизии
+T32	PROFESSION 1269 1277	академик
+T33	PROFESSION 1302 1325	доктор медицинских наук
+T34	PERSON 1337 1354	Геннадий Онищенко
+T36	DATE 1412 1423	с 1996 года
+T37	DATE 1427 1438	с 2004 года
+T38	ORGANIZATION 1449 1466	Роспотребнадзором
+T39	PERSON 1586 1594	Онищенко
+T40	COUNTRY 1597 1607	российских
+T41	COUNTRY 1637 1647	грузинское
+T42	PRODUCT 1655 1662	Боржоми
+T43	COUNTRY 1666 1676	латвийские
+T44	LAW 1695 1745	закону о гражданской службе в Российской Федерации
+T45	AGE 1772 1791	60-летнего возраста
+T46	PERSON 1871 1879	Онищенко
+T47	DATE 1913 1933	21 октября 2013 года
+T48	ORGANIZATION 2039 2054	Роспотребнадзор
+T49	ORGANIZATION 2096 2109	правительства
+T51	DATE 57 72	23 октября 2013
+T52	PROFESSION 78 107	руководитель Роспотребнадзора
+T54	PROFESSION 205 228	премьер-министра России
+T56	PROFESSION 272 294	главы Роспотребнадзора
+T57	ORGANIZATION 278 294	Роспотребнадзора
+T58	PERSON 342 350	Онищенко
+T59	PROFESSION 329 350	заместителем Онищенко
+T60	PROFESSION 352 387	Пресс-секретарь главы правительства
+T61	PROFESSION 368 387	главы правительства
+T62	ORGANIZATION 374 387	правительства
+T63	EVENT 627 635	отставки
+T64	EVENT 674 682	отставка
+T65	EVENT 827 835	отставки
+T66	ORGANIZATION 842 858	Роспотребнадзора
+T68	DATE 944 959	22 октября 2013
+T69	EVENT 1117 1125	отставке
+T70	COUNTRY 1250 1256	России
+T72	PROFESSION 1245 1249	врач
+T74	ORGANIZATION 1296 1300	РАМН
+T75	ORGANIZATION 1285 1300	Президиума РАМН
+T76	PROFESSION 1327 1336	профессор
+T77	PROFESSION 1398 1404	врачом
+T78	PROFESSION 1387 1404	санитарным врачом
+T80	PROFESSION 1363 1411	главным государственным санитарным врачом России
+T81	COUNTRY 1405 1411	России
+T82	COUNTRY 1725 1745	Российской Федерации
+T83	EVENT 1999 2007	отставки
+R3	WORKPLACE Arg1:T52 Arg2:T3	
+R4	WORKPLACE Arg1:T4 Arg2:T3	
+R5	WORKS_AS Arg1:T4 Arg2:T52	
+T84	COUNTRY 222 228	России
+R6	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R8	WORKPLACE Arg1:T5 Arg2:T84	
+R9	WORKS_AS Arg1:T7 Arg2:T6	
+R10	WORKPLACE Arg1:T54 Arg2:T84	
+R11	WORKS_AS Arg1:T4 Arg2:T6	
+R12	WORKPLACE Arg1:T4 Arg2:T84	
+R13	WORKPLACE Arg1:T7 Arg2:T84	
+R15	SUBORDINATE_OF Arg1:T9 Arg2:T58	
+R16	SUBORDINATE_OF Arg1:T4 Arg2:T7	
+R17	WORKS_AS Arg1:T9 Arg2:T59	
+R18	WORKPLACE Arg1:T9 Arg2:T57	
+R19	WORKS_AS Arg1:T9 Arg2:T8	
+R20	ALTERNATIVE_NAME Arg1:T12 Arg2:T14	
+R21	SUBORDINATE_OF Arg1:T12 Arg2:T13	
+R22	WORKPLACE Arg1:T60 Arg2:T62	
+R23	WORKPLACE Arg1:T12 Arg2:T62	
+R24	WORKS_AS Arg1:T12 Arg2:T60	
+R25	PARTICIPANT_IN Arg1:T19 Arg2:T64	
+T85	EVENT 706 716	конфликтом
+R26	AGENT Arg1:T19 Arg2:T85	
+R27	AGENT Arg1:T20 Arg2:T85	
+R28	PARTICIPANT_IN Arg1:T22 Arg2:T65	
+R29	WORKPLACE Arg1:T22 Arg2:T66	
+R32	ORIGINS_FROM Arg1:T44 Arg2:T82	
+R34	WORKS_AS Arg1:T24 Arg2:T23	
+R35	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R36	KNOWS Arg1:T25 Arg2:T26	
+R37	PART_OF Arg1:T75 Arg2:T74	
+T50	EVENT 30 38	отставку
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T50	
+T53	EVENT 138 146	отставку
+R2	PARTICIPANT_IN Arg1:T4 Arg2:T53	
+R39	POINT_IN_TIME Arg1:T53 Arg2:T51	
+R40	SUBORDINATE_OF Arg1:T5 Arg2:T54	
+R42	SUBORDINATE_OF Arg1:T4 Arg2:T7	
+R14	WORKPLACE Arg1:T8 Arg2:T57	
+R7	ALTERNATIVE_NAME Arg1:T4 Arg2:T58	
+T67	EVENT 880 888	конфликт
+R43	AGENT Arg1:T22 Arg2:T67	
+R44	AGENT Arg1:T24 Arg2:T67	
+T71	AWARD 1233 1249;1259 1267	заслуженный врач Киргизии
+R45	WORKPLACE Arg1:T72 Arg2:T70	
+R46	WORKPLACE Arg1:T72 Arg2:T31	
+R47	WORKPLACE Arg1:T80 Arg2:T81	
+R48	WORKPLACE Arg1:T80 Arg2:T38	
+R50	ORIGINS_FROM Arg1:T42 Arg2:T41	
+T79	DATE 1880 1888	ежегодно
+R51	AWARDED_WITH Arg1:T34 Arg2:T30	
+R52	AWARDED_WITH Arg1:T34 Arg2:T71	
+R53	WORKS_AS Arg1:T34 Arg2:T76	
+R54	WORKS_AS Arg1:T34 Arg2:T33	
+R56	WORKPLACE Arg1:T34 Arg2:T75	
+R57	WORKS_AS Arg1:T34 Arg2:T32	
+R58	WORKS_AS Arg1:T34 Arg2:T72	
+R59	AGE_IS Arg1:T34 Arg2:T29	
+R33	WORKS_AS Arg1:T34 Arg2:T80	
+R60	WORKPLACE Arg1:T34 Arg2:T38	
+R30	ALTERNATIVE_NAME Arg1:T81 Arg2:T40	
+R31	ALTERNATIVE_NAME Arg1:T40 Arg2:T82	
+R49	SUBORDINATE_OF Arg1:T59 Arg2:T58	
+R38	MEMBER_OF Arg1:T34 Arg2:T75	
+R41	SUBORDINATE_OF Arg1:T5 Arg2:T54	
+T10	EVENT 185 193	назначен
+R55	AGENT Arg1:T4 Arg2:T10	
+R61	PARTICIPANT_IN Arg1:T6 Arg2:T10	
+T35	EVENT 295 304	назначена
+R62	PARTICIPANT_IN Arg1:T9 Arg2:T35	
+R63	PARTICIPANT_IN Arg1:T57 Arg2:T35	
+R64	AGENT Arg1:T13 Arg2:T35	
+T55	EVENT 492 506	договорённость
+R65	AGENT Arg1:T15 Arg2:T55	
+R66	AGENT Arg1:T16 Arg2:T55	
+R67	POINT_IN_TIME Arg1:T55 Arg2:T17	
+R68	HAS_CAUSE Arg1:T64 Arg2:T85	
+R69	ALTERNATIVE_NAME Arg1:T64 Arg2:T65	
+R70	HAS_CAUSE Arg1:T65 Arg2:T67	
+T73	EVENT 998 1016	покинет свой пост,
+R71	PARTICIPANT_IN Arg1:T26 Arg2:T73	
+R72	ALTERNATIVE_NAME Arg1:T64 Arg2:T73	
+R73	HEADQUARTERED_IN Arg1:T49 Arg2:T82	
+R74	ALTERNATIVE_NAME Arg1:T73 Arg2:T69	
+N1	Reference T3 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N3	Reference T6 Wikidata:Q14212	премьер-министр
+N5	Reference T12 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N7	Reference T18 Wikidata:Q1780189	Коммерсантъ
+N8	Reference T20 Wikidata:Q4481679	Федеральная служба по ветеринарному и фитосанитарному надзору
+N10	Reference T23 Wikidata:Q877955	вице-премьер
+N11	Reference T24 Wikidata:Q3350421	Голодец, Ольга Юрьевна
+N12	Reference T26 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N13	Reference T30 Wikidata:Q4187967	Заслуженный врач Российской Федерации
+N14	Reference T31 Wikidata:Q813	Киргизия
+N15	Reference T33 Wikidata:Q17281165	доктор медицинских наук
+N17	Reference T42 Wikidata:Q890385	Боржоми
+N18	Reference T43 Wikidata:Q211	Латвия
+N20	Reference T49 Wikidata:Q7188	правительство
+N24	Reference T61 Wikidata:Q2285706	глава правительства
+N25	Reference T72 Wikidata:Q39631	врач
+N26	Reference T74 Wikidata:Q4397935	Российская академия медицинских наук
+N28	Reference T76 Wikidata:Q121594	профессор
+N31	Reference T81 Wikidata:Q159	Россия
+N21	Reference T52 Wikidata:NULL	нет данных
+N22	Reference T54 Wikidata:Q842386	председатель Правительства Российской Федерации
+N2	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T8 Wikidata:NULL	нет данных
+N33	Reference T9 Wikidata:NULL	нет данных
+N34	Reference T58 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N35	Reference T59 Wikidata:NULL	нет данных
+N23	Reference T60 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N9	Reference T22 Wikidata:NULL	нет данных
+N32	Reference T71 Wikidata:NULL	нет данных
+N19	Reference T44 Wikidata:NULL	нет данных
+N16	Reference T41 Wikidata:Q230	Грузия
+N29	Reference T78 Wikidata:NULL	нет данных
+N30	Reference T80 Wikidata:NULL	нет данных
+N27	Reference T75 Wikidata:NULL	нет данных
+N36	Reference T11 Wikidata:Q17221	
+N37	Reference T32 Wikidata:Q414528	академик
+N38	Reference T57 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N39	Reference T38 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N40	Reference T66 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N41	Reference T48 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N42	Reference T21 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N43	Reference T28 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N44	Reference T14 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N45	Reference T25 Wikidata:Q3350421	Голодец, Ольга Юрьевна
+N46	Reference T15 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N47	Reference T19 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N48	Reference T46 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N49	Reference T34 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N50	Reference T39 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N51	Reference T2 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N52	Reference T1 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N53	Reference T27 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N54	Reference T62 Wikidata:Q7188	правительство
+N55	Reference T77 Wikidata:Q39631	врач
+N56	Reference T40 Wikidata:Q159	Россия
+N57	Reference T84 Wikidata:Q159	Россия
+N58	Reference T70 Wikidata:Q159	Россия
+N59	Reference T82 Wikidata:Q159	Россия
+N60	Reference T4 Wikidata:Q2384738	Геннадий Григорьевич Онищенко
+N61	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N62	Reference T16 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N63	Reference T56 Wikidata:NULL	нет данных

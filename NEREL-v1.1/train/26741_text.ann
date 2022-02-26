@@ -1,0 +1,164 @@
+T1	PERSON 11 28	Павел Дмитриченко
+T2	PERSON 57 70	Сергея Филина
+T3	PERSON 71 83	Сергей Филин
+T4	PROFESSION 152 180	художественного руководителя
+T5	PERSON 197 210	Сергея Филина
+T6	DATE 232 239	сегодня
+T7	PROFESSION 240 263	ведущий солист Большого
+T8	PERSON 264 281	Павел Дмитриченко
+T9	AGE 377 387	35-летнего
+T10	PERSON 388 402	Юрия Заруцкого
+T11	PROFESSION 405 413	водителя
+T12	PERSON 472 487	Андрея Липатова
+T13	TIME 546 559	в течение дня
+T14	ORGANIZATION 647 686	пресс-центре ГУ МВД России по г. Москве
+T15	PERSON 701 714	Юрий Заруцкий
+T17	DISTRICT 822 840	Ромашовском районе
+T18	PERSON 914 920	Филина
+T19	CITY 955 961	Москву
+T20	PERSON 1127 1138	Дмитриченко
+T21	ORGANIZATION 1161 1169	Известия
+T22	PERSON 1185 1193	Заруцкий
+T23	PERSON 1196 1203	Липатов
+T24	STATE_OR_PROVINCE 1213 1226	подмосковного
+T25	CITY 1227 1234	Ступина
+T27	ORGANIZATION 1277 1292	Большого театра
+T28	PROFESSION 1316 1324	водитель
+T29	PERSON 1327 1341	Андрей Липатов
+T30	PROFESSION 1411 1426	Пресс-секретарь
+T31	PERSON 1432 1449	Катерина Новикова
+T32	ORGANIZATION 1544 1559	Большого театра
+T33	EVENT 44 53	покушения
+T34	EVENT 139 148	нападения
+T35	PROFESSION 152 196	художественного руководителя Большого театра
+T38	ORGANIZATION 181 196	Большого театра
+T39	ORGANIZATION 255 263	Большого
+T40	PROFESSION 240 254	ведущий солист
+T42	EVENT 365 374	покушения
+T44	EVENT 633 642	покушения
+T45	ORGANIZATION 660 686	ГУ МВД России по г. Москве
+T46	ORGANIZATION 660 673	ГУ МВД России
+T48	ORGANIZATION 663 666	МВД
+T49	CITY 680 686	Москве
+T50	COUNTRY 667 673	России
+T51	EVENT 719 727	задержан
+T52	PROFESSION 728 766	сотрудниками уголовного розыска МВД РФ
+T53	ORGANIZATION 741 766	уголовного розыска МВД РФ
+T54	ORGANIZATION 760 766	МВД РФ
+T55	ORGANIZATION 760 763	МВД
+T56	COUNTRY 764 766	РФ
+T57	STATE_OR_PROVINCE 841 857	Тверской области
+T58	EVENT 901 910	нападения
+T59	EVENT 1103 1112	нападение
+T26	PROFESSION 1268 1292	артистов Большого театра
+T60	PROFESSION 1268 1276	артистов
+T61	EVENT 1396 1408	преступлении
+T62	PROFESSION 1411 1431	Пресс-секретарь ГАБТ
+T63	ORGANIZATION 1427 1431	ГАБТ
+R1	ORGANIZES Arg1:T1 Arg2:T33	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T33	
+R3	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R4	WORKPLACE Arg1:T35 Arg2:T38	
+R5	WORKPLACE Arg1:T5 Arg2:T38	
+R6	WORKS_AS Arg1:T5 Arg2:T35	
+R7	WORKPLACE Arg1:T7 Arg2:T39	
+R8	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R9	WORKS_AS Arg1:T8 Arg2:T7	
+R10	WORKPLACE Arg1:T8 Arg2:T39	
+T16	EVENT 220 231	задержанный
+R11	PARTICIPANT_IN Arg1:T8 Arg2:T16	
+R12	POINT_IN_TIME Arg1:T16 Arg2:T6	
+R13	HAS_CAUSE Arg1:T16 Arg2:T34	
+R14	AGENT Arg1:T10 Arg2:T42	
+R15	AGE_IS Arg1:T10 Arg2:T9	
+R16	WORKS_AS Arg1:T12 Arg2:T11	
+R17	PARTICIPANT_IN Arg1:T12 Arg2:T42	
+T36	EVENT 623 642	заказного покушения
+R18	HEADQUARTERED_IN Arg1:T46 Arg2:T50	
+R19	PART_OF Arg1:T14 Arg2:T46	
+R20	HEADQUARTERED_IN Arg1:T14 Arg2:T49	
+R21	LOCATED_IN Arg1:T49 Arg2:T50	
+R22	PARTICIPANT_IN Arg1:T15 Arg2:T51	
+R23	ALTERNATIVE_NAME Arg1:T50 Arg2:T56	
+R24	HEADQUARTERED_IN Arg1:T54 Arg2:T56	
+R25	PART_OF Arg1:T53 Arg2:T54	
+R26	WORKPLACE Arg1:T52 Arg2:T53	
+T37	ORGANIZATION 647 659	пресс-центре
+R27	PART_OF Arg1:T14 Arg2:T45	
+R28	PART_OF Arg1:T45 Arg2:T46	
+T65	ORGANIZATION 663 673	МВД России
+R29	PART_OF Arg1:T46 Arg2:T65	
+R30	LOCATED_IN Arg1:T17 Arg2:T57	
+R31	LOCATED_IN Arg1:T57 Arg2:T56	
+R32	ALTERNATIVE_NAME Arg1:T3 Arg2:T18	
+R33	PARTICIPANT_IN Arg1:T18 Arg2:T58	
+R34	PARTICIPANT_IN Arg1:T15 Arg2:T58	
+R35	ORGANIZES Arg1:T20 Arg2:T59	
+R36	ALTERNATIVE_NAME Arg1:T8 Arg2:T20	
+R37	LOCATED_IN Arg1:T25 Arg2:T24	
+R38	LOCATED_IN Arg1:T24 Arg2:T56	
+R39	PLACE_RESIDES_IN Arg1:T22 Arg2:T25	
+R40	PLACE_RESIDES_IN Arg1:T23 Arg2:T25	
+R41	ALTERNATIVE_NAME Arg1:T15 Arg2:T22	
+R42	ALTERNATIVE_NAME Arg1:T12 Arg2:T23	
+R43	WORKS_AS Arg1:T29 Arg2:T28	
+R44	ALTERNATIVE_NAME Arg1:T23 Arg2:T29	
+R45	WORKPLACE Arg1:T26 Arg2:T27	
+R46	WORKPLACE Arg1:T62 Arg2:T63	
+R47	ALTERNATIVE_NAME Arg1:T27 Arg2:T63	
+R48	WORKS_AS Arg1:T31 Arg2:T62	
+T47	PROFESSION 248 254	солист
+R49	ALTERNATIVE_NAME Arg1:T34 Arg2:T42	
+R50	ALTERNATIVE_NAME Arg1:T42 Arg2:T36	
+R51	AGENT Arg1:T52 Arg2:T51	
+R52	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+R53	ABBREVIATION Arg1:T32 Arg2:T63	
+N2	Reference T8 Wikidata:Q6595378	Дмитриченко, Павел Витальевич
+N4	Reference T11 Wikidata:Q216541	водитель
+N8	Reference T21 Wikidata:Q753932	Известия
+N11	Reference T25 Wikidata:Q196498	Ступино
+N12	Reference T27 Wikidata:Q138908	Большой театр
+N17	Reference T45 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N18	Reference T46 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N19	Reference T49 Wikidata:Q649	Москва
+N22	Reference T54 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N23	Reference T55 Wikidata:Q6589202	министерство внутренних дел
+N24	Reference T56 Wikidata:Q159	Россия
+N25	Reference T57 Wikidata:Q2292	Тверская область
+N27	Reference T60 Wikidata:Q483501	деятель искусств
+N30	Reference T65 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N31	Reference T47 Wikidata:Q1371914	солист
+N32	Reference T30 Wikidata:Q17221	
+N28	Reference T62 Wikidata:NULL	нет данных
+N13	Reference T31 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:Q1697	Московская область
+N26	Reference T26 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:Q927058	
+N21	Reference T53 Wikidata:NULL	нет данных
+N20	Reference T52 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N33	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N16	Reference T40 Wikidata:NULL	нет данных
+N15	Reference T39 Wikidata:Q138908	Большой театр
+N1	Reference T7 Wikidata:NULL	нет данных
+N34	Reference T4 Wikidata:Q1797162	
+N14	Reference T35 Wikidata:NULL	нет данных
+N29	Reference T37 Wikidata:Q2108946	
+N35	Reference T1 Wikidata:Q6595378	Дмитриченко, Павел Витальевич
+N36	Reference T20 Wikidata:Q6595378	Дмитриченко, Павел Витальевич
+N37	Reference T28 Wikidata:Q216541	водитель
+N38	Reference T63 Wikidata:Q138908	Большой театр
+N39	Reference T32 Wikidata:Q138908	Большой театр
+N40	Reference T19 Wikidata:Q649	Москва
+N41	Reference T48 Wikidata:Q6589202	министерство внутренних дел
+N42	Reference T50 Wikidata:Q159	Россия
+N43	Reference T15 Wikidata:NULL	нет данных
+N44	Reference T2 Wikidata:Q927058	
+N45	Reference T5 Wikidata:Q927058	
+N46	Reference T3 Wikidata:Q927058	
+N47	Reference T29 Wikidata:NULL	нет данных
+N48	Reference T23 Wikidata:NULL	нет данных
+N49	Reference T38 Wikidata:Q138908	Большой театр

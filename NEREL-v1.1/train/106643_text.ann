@@ -1,0 +1,106 @@
+T1	CITY 37 46	Нью-Йорке
+T2	PERSON 110 122	Ахмад Рахами
+T3	DATE 173 214	в минувшую субботу, 17 сентября 2016 года
+T4	CITY 218 227	Нью-Йорке
+T5	STATE_OR_PROVINCE 230 240	Нью-Джерси
+T6	PRODUCT 293 297	eBay
+T7	NUMBER 389 401	в 500 метрах
+T8	DATE 473 483	во вторник
+T9	AGE 567 577	28-летнего
+T10	PERSON 578 591	Ахмада Рахами
+T11	PERSON 673 679	Рахами
+T12	DATE 694 707	в понедельник
+T13	NUMBER 758 762	двое
+T14	PERSON 844 850	Рахами
+T15	PERSON 879 891	Ahmad Rahami
+T16	DATE 909 929	20 июня и 10 августа
+T17	CITY 1074 1084	Перт Амбой
+T18	PERSON 1090 1096	Рахами
+T19	DATE 1112 1126	до 12 сентября
+T20	NUMBER 1165 1169	двух
+T21	DATE 1243 1252	в субботу
+T22	CITY 1289 1301	нью-йоркском
+T23	DISTRICT 1309 1314	Челси
+T24	NUMBER 1359 1361	29
+T25	ORDINAL 1416 1422	вторая
+T26	NUMBER 1619 1621	12
+T27	PERSON 1641 1647	Рахами
+T28	DATE 1752 1765	в воскресенье
+T29	CITY 1794 1802	Элизабет
+T30	STATE_OR_PROVINCE 1809 1819	Нью-Джерси
+T31	CITY 1833 1842	Нью-Йорка
+T32	PERSON 2012 2018	Рахами
+T33	CITY 2078 2089	Сисайд Парк
+T34	STATE_OR_PROVINCE 2091 2106	штат Нью-Джерси
+T35	PRODUCT 73 82	Интернету
+T36	EVENT 151 158	взрывов
+T37	EVENT 27 34	взрывов
+T38	DATE 2107 2116	в субботу
+T39	TIME 2107 2122	в субботу утром
+T40	EVENT 2022 2054	взрывом бомбы в мусорной корзине
+T41	TIME 1752 1773	в воскресенье вечером
+T42	PRODUCT 865 869	eBay
+T43	EVENT 271 278	теракта
+T44	NUMBER 1255 1262	четырёх
+T45	CRIME 140 158	подготовке взрывов
+T46	PENALTY 648 670	пожизненное заключение
+R1	TAKES_PLACE_IN Arg1:T37 Arg2:T1	
+R2	CONVICTED_OF Arg1:T2 Arg2:T45	
+R3	POINT_IN_TIME Arg1:T36 Arg2:T3	
+R4	AGE_IS Arg1:T10 Arg2:T9	
+R5	PENALIZED_AS Arg1:T10 Arg2:T46	
+R6	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R7	WORKPLACE Arg1:T18 Arg2:T17	
+R8	LOCATED_IN Arg1:T29 Arg2:T30	
+R9	TAKES_PLACE_IN Arg1:T40 Arg2:T33	
+T47	EVENT 2022 2035	взрывом бомбы
+R10	LOCATED_IN Arg1:T33 Arg2:T34	
+R11	POINT_IN_TIME Arg1:T40 Arg2:T39	
+R12	LOCATED_IN Arg1:T23 Arg2:T22	
+R13	ORGANIZES Arg1:T2 Arg2:T36	
+R14	TAKES_PLACE_IN Arg1:T36 Arg2:T4	
+R15	TAKES_PLACE_IN Arg1:T36 Arg2:T5	
+R16	ALTERNATIVE_NAME Arg1:T36 Arg2:T43	
+T48	EVENT 496 523	возбуждении уголовного дела
+R17	PARTICIPANT_IN Arg1:T10 Arg2:T48	
+R18	HAS_CAUSE Arg1:T48 Arg2:T36	
+R19	POINT_IN_TIME Arg1:T48 Arg2:T8	
+T49	EVENT 684 693	арестован
+R20	PARTICIPANT_IN Arg1:T11 Arg2:T49	
+R21	POINT_IN_TIME Arg1:T49 Arg2:T12	
+R22	PARTICIPANT_IN Arg1:T32 Arg2:T40	
+T50	EVENT 1324 1351	самодельных бомб взорвалась
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T50	
+T51	EVENT 1353 1369	ранив 29 человек
+R24	SUBEVENT_OF Arg1:T51 Arg2:T50	
+T52	DATE 909 916	20 июня
+T53	DATE 919 929	10 августа
+T54	EVENT 714 725	перестрелки
+R25	AGENT Arg1:T11 Arg2:T54	
+T55	PROFESSION 728 736	полицией
+R26	AGENT Arg1:T55 Arg2:T54	
+R27	POINT_IN_TIME Arg1:T54 Arg2:T12	
+R28	TAKES_PLACE_IN Arg1:T50 Arg2:T23	
+N1	Reference T5 Wikidata:Q1408	Нью-Джерси
+N5	Reference T29 Wikidata:Q138311	Элизабет
+N9	Reference T35 Wikidata:Q75	Интернет
+N10	Reference T42 Wikidata:Q58024	eBay
+N11	Reference T55 Wikidata:Q35535	полиция
+N2	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T15 Wikidata:NULL	нет данных
+N12	Reference T17 Wikidata:Q985592	
+N4	Reference T22 Wikidata:Q60	Нью-Йорк
+N13	Reference T23 Wikidata:Q1069129	
+N6	Reference T31 Wikidata:Q60	Нью-Йорк
+N7	Reference T33 Wikidata:Q1089470	
+N8	Reference T34 Wikidata:Q1408	Нью-Джерси
+N14	Reference T30 Wikidata:Q1408	Нью-Джерси
+N15	Reference T6 Wikidata:Q58024	eBay
+N16	Reference T14 Wikidata:NULL	нет данных
+N17	Reference T11 Wikidata:NULL	нет данных
+N18	Reference T18 Wikidata:NULL	нет данных
+N19	Reference T2 Wikidata:NULL	нет данных
+N20	Reference T32 Wikidata:NULL	нет данных
+N21	Reference T27 Wikidata:NULL	нет данных
+N22	Reference T1 Wikidata:Q60	Нью-Йорк
+N23	Reference T4 Wikidata:Q60	Нью-Йорк

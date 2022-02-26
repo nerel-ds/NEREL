@@ -1,0 +1,218 @@
+T1	PERSON 0 15	Валерий Гергиев
+T2	PROFESSION 23 40	главным дирижёром
+T3	ORGANIZATION 41 78	Мюнхенского филармонического оркестра
+T4	PERSON 79 94	Валерий Гергиев
+T6	ORGANIZATION 113 131	Мариинского театра
+T7	PERSON 132 145	Лорин Маазель
+T8	NATIONALITY 165 175	российский
+T9	PERSON 184 199	Валерий Гергиев
+T10	PROFESSION 209 226	главным дирижёром
+T11	PERSON 284 291	Гергиев
+T12	PROFESSION 326 339	артдиректором
+T13	DATE 369 382	четырёхлетний
+T14	DATE 392 423	в пятницу — 1 февраля 2013 года
+T15	NATIONALITY 453 463	американца
+T16	PERSON 464 477	Лорин Маазель
+T17	PERSON 480 487	Гергиев
+T18	ORGANIZATION 524 541	Мариинском театре
+T19	DATE 550 561	в 2015 году
+T20	ORGANIZATION 570 602	Лондонский симфонический оркестр
+T21	PERSON 620 628	Гергиева
+T22	DATE 652 668	в прошлом месяце
+T24	PERSON 792 810	Ханс-Георг Кюпперс
+T25	PERSON 823 838	Валерий Гергиев
+T26	ORGANIZATION 942 978	Мюнхенским филармоническим оркестром
+T27	PERSON 991 1000	Георгиеву
+T28	DATE 1005 1014	год назад
+T29	CITY 1063 1073	мюнхенские
+T30	ORGANIZATION 1140 1160	Мариинского оркестра
+T31	PROFESSION 1168 1175	маэстро
+T32	ORDINAL 1361 1366	Пятая
+T34	NUMBER 1394 1396	15
+T35	PERSON 1406 1414	Гергиева
+T36	ORDINAL 1443 1450	третьим
+T38	PROFESSION 1535 1566	главного приглашённого дирижера
+T39	DATE 1609 1629	с 1 января 2007 года
+T40	PERSON 1630 1637	Гергиев
+T41	PROFESSION 1640 1655	главный дирижер
+T42	ORGANIZATION 1656 1691	Лондонского симфонического оркестра
+T43	DATE 1694 1712	В начале 2012 года
+T44	PERSON 1739 1747	Георгиев
+T45	DATE 1771 1786	летом 2013 года
+T46	CITY 1815 1828	нью-йоркского
+T47	ORGANIZATION 1829 1842	Карнеги-Холла
+T48	ORGANIZATION 1843 1878	Национальный молодежный оркестр США
+T49	NUMBER 1897 1900	120
+T51	PROFESSION 31 40	дирижёром
+T52	CITY 41 52	Мюнхенского
+T54	PROFESSION 23 78	главным дирижёром Мюнхенского филармонического оркестра
+T55	PROFESSION 176 183	дирижер
+T57	PROFESSION 209 264	главным дирижёром Мюнхенского филармонического оркестра
+T58	PROFESSION 326 358	артдиректором Мариинского театра
+T59	PROFESSION 741 791	Глава городского Департамента искусства и культуры
+T60	PROFESSION 894 903	дирижеров
+T61	PROFESSION 1535 1607	главного приглашённого дирижера Роттердамского филармонического оркестра
+T64	PROFESSION 1558 1566	дирижера
+T66	PROFESSION 1640 1691	главный дирижер Лондонского симфонического оркестра
+T68	PROFESSION 1648 1655	дирижер
+T69	PROFESSION 217 226	дирижёром
+T5	DATE 272 281	2015—2016
+T70	ORGANIZATION 340 358	Мариинского театра
+T71	CITY 570 580	Лондонский
+T73	ORGANIZATION 669 675	мэрией
+T74	CITY 731 738	Мюнхена
+T75	ORGANIZATION 758 791	Департамента искусства и культуры
+T76	CITY 942 952	Мюнхенским
+T77	PROFESSION 1074 1083	музыканты
+T78	PERSON 1103 1114	Шостаковича
+T79	PERSON 1315 1326	Шостаковича
+T33	WORK_OF_ART 1361 1375	Пятая симфония
+T80	ORGANIZATION 1567 1607	Роттердамского филармонического оркестра
+T81	CITY 1567 1581	Роттердамского
+T82	CITY 1656 1667	Лондонского
+T83	COUNTRY 1875 1878	США
+T84	ORGANIZATION 1843 1874	Национальный молодежный оркестр
+T85	PROFESSION 1901 1911	музыкантов
+T53	ORGANIZATION 227 264	Мюнхенского филармонического оркестра
+T56	CITY 227 238	Мюнхенского
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T52	
+R2	WORKS_AS Arg1:T1 Arg2:T54	
+R3	WORKPLACE Arg1:T54 Arg2:T3	
+R4	WORKPLACE Arg1:T1 Arg2:T3	
+T86	PERSON 113 124	Мариинского
+R5	ORIGINS_FROM Arg1:T6 Arg2:T86	
+R6	WORKS_AS Arg1:T9 Arg2:T55	
+R7	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R8	HEADQUARTERED_IN Arg1:T53 Arg2:T56	
+R9	WORKS_AS Arg1:T9 Arg2:T57	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+T87	PERSON 340 351	Мариинского
+R11	ORIGINS_FROM Arg1:T70 Arg2:T87	
+R12	WORKS_AS Arg1:T11 Arg2:T58	
+R13	WORKPLACE Arg1:T11 Arg2:T70	
+R14	WORKPLACE Arg1:T58 Arg2:T70	
+R15	ORIGINS_FROM Arg1:T16 Arg2:T15	
+T88	PERSON 524 534	Мариинском
+R16	ORIGINS_FROM Arg1:T18 Arg2:T88	
+R17	HEADQUARTERED_IN Arg1:T20 Arg2:T71	
+R18	WORKPLACE Arg1:T17 Arg2:T18	
+R19	WORKPLACE Arg1:T17 Arg2:T20	
+T72	ORGANIZATION 713 738	городского совета Мюнхена
+R20	HEADQUARTERED_IN Arg1:T72 Arg2:T74	
+R21	ALTERNATIVE_NAME Arg1:T56 Arg2:T74	
+T89	EVENT 690 712	анонимного голосования
+R22	PARTICIPANT_IN Arg1:T73 Arg2:T89	
+R23	PARTICIPANT_IN Arg1:T72 Arg2:T89	
+R24	POINT_IN_TIME Arg1:T89 Arg2:T22	
+R25	WORKPLACE Arg1:T59 Arg2:T75	
+R26	WORKS_AS Arg1:T24 Arg2:T59	
+R27	WORKPLACE Arg1:T24 Arg2:T75	
+R28	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R29	WORKS_AS Arg1:T25 Arg2:T60	
+R30	HEADQUARTERED_IN Arg1:T26 Arg2:T76	
+R31	ORIGINS_FROM Arg1:T77 Arg2:T29	
+T23	PERSON 1140 1151	Мариинского
+R32	ORIGINS_FROM Arg1:T30 Arg2:T23	
+R33	WORKS_AS Arg1:T27 Arg2:T31	
+R34	PRODUCES Arg1:T79 Arg2:T33	
+T37	DATE 1498 1504;1513 1517	с 1995 годы
+T90	DATE 1505 1517	по 2008 годы
+R35	HEADQUARTERED_IN Arg1:T80 Arg2:T81	
+R36	WORKPLACE Arg1:T61 Arg2:T80	
+R37	WORKS_AS Arg1:T35 Arg2:T61	
+R38	HEADQUARTERED_IN Arg1:T42 Arg2:T82	
+R39	WORKS_AS Arg1:T40 Arg2:T66	
+R40	WORKPLACE Arg1:T40 Arg2:T42	
+R41	WORKPLACE Arg1:T66 Arg2:T42	
+R42	HEADQUARTERED_IN Arg1:T47 Arg2:T46	
+R43	HEADQUARTERED_IN Arg1:T48 Arg2:T83	
+R44	LOCATED_IN Arg1:T46 Arg2:T83	
+T62	AGE 1912 1927	от 16 до 19 лет
+R47	MEMBER_OF Arg1:T85 Arg2:T48	
+T63	EVENT 360 391	подписал четырёхлетний контракт
+R48	AGENT Arg1:T11 Arg2:T63	
+R49	PARTICIPANT_IN Arg1:T53 Arg2:T63	
+R50	POINT_IN_TIME Arg1:T63 Arg2:T14	
+R51	WORKS_AS Arg1:T16 Arg2:T57	
+R52	WORKPLACE Arg1:T16 Arg2:T53	
+T65	EVENT 562 569	оставит
+R53	AGENT Arg1:T17 Arg2:T65	
+R54	PARTICIPANT_IN Arg1:T20 Arg2:T65	
+R45	AGE_IS Arg1:T85 Arg2:T62	
+R46	ALTERNATIVE_NAME Arg1:T35 Arg2:T44	
+R55	WORKPLACE Arg1:T44 Arg2:T48	
+T50	EVENT 1748 1757	возглавит
+R56	AGENT Arg1:T44 Arg2:T50	
+R57	POINT_IN_TIME Arg1:T50 Arg2:T45	
+R58	PARTICIPANT_IN Arg1:T48 Arg2:T50	
+T67	PERSON 1829 1836	Карнеги
+N1	Reference T4 Wikidata:Q165693	Валерий Абисалович Гергиев
+N3	Reference T11 Wikidata:Q165693	Валерий Абисалович Гергиев
+N5	Reference T16 Wikidata:Q117710	Маазель, Лорин
+N6	Reference T18 Wikidata:Q207028	Мариинский театр
+N8	Reference T30 Wikidata:Q4419936	Симфонический оркестр Мариинского театра
+N10	Reference T35 Wikidata:Q165693	Валерий Абисалович Гергиев
+N13	Reference T42 Wikidata:Q155805	Лондонский симфонический оркестр
+N14	Reference T46 Wikidata:Q60	Нью-Йорк
+N15	Reference T47 Wikidata:Q200959	Карнеги-холл
+N20	Reference T64 Wikidata:Q158852	дирижёр
+N23	Reference T73 Wikidata:Q543654	ратуша
+N25	Reference T78 Wikidata:Q80135	Дмитрий Шостакович
+N27	Reference T80 Wikidata:Q2270779	Роттердамский филармонический оркестр
+N29	Reference T83 Wikidata:Q30	США
+N31	Reference T85 Wikidata:Q639669	музыкант
+N32	Reference T53 Wikidata:Q693453	Мюнхенский филармонический оркестр
+N2	Reference T8 Wikidata:Q492468	россияне
+N17	Reference T57 Wikidata:NULL	нет данных
+N36	Reference T12 Wikidata:Q706364	арт-директор
+N18	Reference T58 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:Q846570	
+N22	Reference T71 Wikidata:Q84	Лондон
+N33	Reference T72 Wikidata:Q1145473	
+N37	Reference T75 Wikidata:Q1540396	
+N38	Reference T59 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:Q15116285	
+N24	Reference T76 Wikidata:Q1726	Мюнхен
+N34	Reference T23 Wikidata:Q155585	
+N9	Reference T31 Wikidata:Q1836630	
+N26	Reference T33 Wikidata:Q240279	
+N11	Reference T38 Wikidata:NULL	нет данных
+N28	Reference T81 Wikidata:Q34370	Роттердам
+N19	Reference T61 Wikidata:NULL	нет данных
+N12	Reference T41 Wikidata:Q61908373	
+N21	Reference T66 Wikidata:NULL	нет данных
+N35	Reference T67 Wikidata:Q484265	
+N16	Reference T48 Wikidata:Q15052711	
+N30	Reference T84 Wikidata:Q15052711	
+N39	Reference T25 Wikidata:Q165693	Валерий Абисалович Гергиев
+N40	Reference T1 Wikidata:Q165693	Валерий Абисалович Гергиев
+N41	Reference T21 Wikidata:Q165693	Валерий Абисалович Гергиев
+N42	Reference T9 Wikidata:Q165693	Валерий Абисалович Гергиев
+N43	Reference T7 Wikidata:Q117710	Маазель, Лорин
+N44	Reference T6 Wikidata:Q207028	Мариинский театр
+N45	Reference T70 Wikidata:Q207028	Мариинский театр
+N46	Reference T44 Wikidata:Q165693	Валерий Абисалович Гергиев
+N47	Reference T40 Wikidata:Q165693	Валерий Абисалович Гергиев
+N48	Reference T17 Wikidata:Q165693	Валерий Абисалович Гергиев
+N49	Reference T27 Wikidata:Q165693	Валерий Абисалович Гергиев
+N50	Reference T20 Wikidata:Q155805	Лондонский симфонический оркестр
+N51	Reference T55 Wikidata:Q158852	дирижёр
+N52	Reference T69 Wikidata:Q158852	дирижёр
+N53	Reference T51 Wikidata:Q158852	дирижёр
+N54	Reference T60 Wikidata:Q158852	дирижёр
+N55	Reference T68 Wikidata:Q158852	дирижёр
+N56	Reference T79 Wikidata:Q80135	Дмитрий Шостакович
+N57	Reference T77 Wikidata:Q639669	музыкант
+N58	Reference T26 Wikidata:Q693453	Мюнхенский филармонический оркестр
+N59	Reference T3 Wikidata:Q693453	Мюнхенский филармонический оркестр
+N60	Reference T54 Wikidata:NULL	нет данных
+N61	Reference T82 Wikidata:Q84	Лондон
+N62	Reference T56 Wikidata:Q1726	Мюнхен
+N63	Reference T52 Wikidata:Q1726	Мюнхен
+N64	Reference T29 Wikidata:Q1726	Мюнхен
+N65	Reference T74 Wikidata:Q1726	Мюнхен
+N66	Reference T88 Wikidata:Q155585	
+N67	Reference T87 Wikidata:Q155585	
+N68	Reference T86 Wikidata:Q155585	
+N69	Reference T2 Wikidata:Q61908373	
+N70	Reference T10 Wikidata:Q61908373	

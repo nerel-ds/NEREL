@@ -1,0 +1,184 @@
+T1	PERSON 0 12	Махмуд Аббас
+T2	COUNTRY 45 53	Израилем
+T3	PERSON 131 143	Махмуд Аббас
+T4	COUNTRY 176 184	Израилем
+T5	FACILITY 270 283	Храмовой горе
+T6	PERSON 321 326	Аббас
+T7	COUNTRY 362 370	Израилем
+T8	FACILITY 472 480	Эль-Акса
+T9	FACILITY 484 497	Храмовой горе
+T10	DISTRICT 500 513	Старом городе
+T12	COUNTRY 537 544	Израиль
+T13	COUNTRY 629 636	Израиль
+T14	DATE 705 717	неделю назад
+T15	FACILITY 724 737	Храмовой горы
+T16	NUMBER 749 753	двое
+T17	COUNTRY 791 802	израильские
+T18	AGE 840 849	до 50 лет
+T20	DISTRICT 861 873	Старый город
+T21	DATE 887 896	В пятницу
+T22	LOCATION 899 919	Восточном Иерусалиме
+T23	FACILITY 928 942	Храмовой горой
+T24	NUMBER 954 958	трое
+T25	NUMBER 973 977	трое
+T26	NATIONALITY 978 988	израильтян
+T27	FACILITY 1014 1027	Храмовую гору
+T28	LOCATION 1083 1103	Восточном Иерусалиме
+T29	CITY 1093 1103	Иерусалиме
+T30	LOCATION 1106 1124	на Западном берегу
+T31	COUNTRY 1185 1197	израильскими
+T32	NUMBER 1219 1222	Три
+T33	NUMBER 1246 1251	сотни
+T34	CITY 1328 1337	Иерусалим
+T35	FACILITY 1463 1476	Храмовую гору
+T36	COUNTRY 1639 1646	Израиля
+T37	TIME 1649 1666	Вечером в пятницу
+T38	DATE 1657 1666	в пятницу
+T39	LOCATION 1740 1755	Западном берегу
+T40	NUMBER 1793 1797	трое
+T41	NUMBER 1856 1860	двух
+T42	COUNTRY 1888 1899	израильские
+T43	DATE 1953 1970	С конца 2015 года
+T44	COUNTRY 1973 1980	Израиле
+T45	NATIONALITY 2015 2025	израильтян
+T46	COUNTRY 2051 2062	израильских
+T47	DATE 2077 2088	за два года
+T48	NUMBER 2126 2128	42
+T49	NUMBER 2170 2179	более 240
+T51	COUNTRY 112 124	Палестинский
+T52	PROFESSION 125 130	лидер
+T53	RELIGION 260 269	мусульман
+T11	CITY 514 524	Иерусалима
+T55	RELIGION 599 608	мусульман
+T56	RELIGION 620 626	иудеев
+T57	COUNTRY 754 765	израильских
+T58	PROFESSION 766 777	полицейских
+T59	CITY 874 884	Иерусалима
+T60	NATIONALITY 959 970	палестинцев
+T61	COUNTRY 909 919	Иерусалиме
+T62	NATIONALITY 1154 1167	палестинскими
+T63	NATIONALITY 1223 1233	палестинца
+T64	NATIONALITY 2180 2191	палестинцев
+T65	NATIONALITY 2129 2142	израильтянина
+T66	NATIONALITY 2037 2048	палестинцев
+T67	NATIONALITY 2051 2069	израильских арабов
+T68	NATIONALITY 1697 1706	еврейское
+T69	CITY 1729 1736	Рамаллы
+T70	LOCATION 1717 1736	к северу от Рамаллы
+T71	LOCATION 1761 1767	Иордан
+T72	NATIONALITY 1798 1808	израильтян
+T73	NATIONALITY 1828 1838	палестинец
+T74	ORGANIZATION 1619 1646	силами безопасности Израиля
+T75	ORGANIZATION 1198 1217	силами безопасности
+R1	LOCATED_IN Arg1:T20 Arg2:T59	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+T76	PROFESSION 112 130	Палестинский лидер
+R3	WORKS_AS Arg1:T3 Arg2:T76	
+R4	WORKPLACE Arg1:T3 Arg2:T51	
+R5	WORKPLACE Arg1:T76 Arg2:T51	
+R6	LOCATED_IN Arg1:T8 Arg2:T9	
+R7	LOCATED_IN Arg1:T9 Arg2:T10	
+R8	LOCATED_IN Arg1:T10 Arg2:T11	
+R9	LOCATED_IN Arg1:T11 Arg2:T7	
+R10	LOCATED_IN Arg1:T70 Arg2:T39	
+R11	RELIGION_OF Arg1:T3 Arg2:T53	
+R12	ORIGINS_FROM Arg1:T58 Arg2:T57	
+R13	ALTERNATIVE_NAME Arg1:T13 Arg2:T57	
+T19	EVENT 743 748	убиты
+R14	PARTICIPANT_IN Arg1:T58 Arg2:T19	
+R15	TAKES_PLACE_IN Arg1:T19 Arg2:T15	
+T50	EVENT 948 953	убиты
+R16	PARTICIPANT_IN Arg1:T60 Arg2:T50	
+R17	PARTICIPANT_IN Arg1:T26 Arg2:T50	
+R18	POINT_IN_TIME Arg1:T50 Arg2:T21	
+R19	TAKES_PLACE_IN Arg1:T50 Arg2:T22	
+R20	LOCATED_IN Arg1:T22 Arg2:T61	
+R21	POINT_IN_TIME Arg1:T19 Arg2:T14	
+R22	LOCATED_IN Arg1:T28 Arg2:T29	
+T54	EVENT 1135 1147	столкновения
+R23	TAKES_PLACE_IN Arg1:T54 Arg2:T30	
+R24	TAKES_PLACE_IN Arg1:T54 Arg2:T28	
+T77	ORGANIZATION 1185 1217	израильскими силами безопасности
+R25	PARTICIPANT_IN Arg1:T62 Arg2:T54	
+R26	PARTICIPANT_IN Arg1:T77 Arg2:T54	
+T78	EVENT 1290 1302	столкновений
+R27	LOCATED_IN Arg1:T35 Arg2:T34	
+T79	EVENT 1684 1716	нападении на еврейское поселение
+R28	POINT_IN_TIME Arg1:T79 Arg2:T37	
+R29	TAKES_PLACE_IN Arg1:T79 Arg2:T70	
+R30	PARTICIPANT_IN Arg1:T73 Arg2:T79	
+R31	PLACE_RESIDES_IN Arg1:T67 Arg2:T46	
+T80	EVENT 1839 1855	смертельно ранил
+R32	PARTICIPANT_IN Arg1:T73 Arg2:T80	
+R33	SUBEVENT_OF Arg1:T80 Arg2:T79	
+T81	EVENT 216 242	установка металлоискателей
+R34	AGENT Arg1:T4 Arg2:T81	
+R35	TAKES_PLACE_IN Arg1:T81 Arg2:T5	
+T82	EVENT 646 661	установку рамок
+R36	ALTERNATIVE_NAME Arg1:T81 Arg2:T82	
+R37	AGENT Arg1:T13 Arg2:T82	
+R38	TAKES_PLACE_IN Arg1:T82 Arg2:T15	
+R39	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+T83	ORGANIZATION 791 809	израильские власти
+R40	HEADQUARTERED_IN Arg1:T83 Arg2:T17	
+R41	HEADQUARTERED_IN Arg1:T77 Arg2:T31	
+R42	HEADQUARTERED_IN Arg1:T74 Arg2:T36	
+N2	Reference T8 Wikidata:Q425281	Мечеть Аль-Акса
+N3	Reference T10 Wikidata:Q213274	Старый город
+N4	Reference T22 Wikidata:Q212938	Восточный Иерусалим
+N5	Reference T29 Wikidata:Q1218	Иерусалим
+N6	Reference T30 Wikidata:Q582706	Израильские поселения на Западном берегу реки Иордан и в секторе Газа
+N7	Reference T35 Wikidata:Q193163	Храмовая гора
+N8	Reference T39 Wikidata:Q36678	Западный берег реки Иордан
+N10	Reference T51 Wikidata:Q219060	Государство Палестина
+N12	Reference T53 Wikidata:Q47740	мусульманин
+N13	Reference T56 Wikidata:Q9268	иудаизм
+N15	Reference T61 Wikidata:Q1218	Иерусалим
+N16	Reference T62 Wikidata:Q219060	Государство Палестина
+N17	Reference T65 Wikidata:Q875556	Израильтяне
+N19	Reference T68 Wikidata:Q9268	иудаизм
+N20	Reference T69 Wikidata:Q158119	Рамалла
+N22	Reference T71 Wikidata:Q40059	Иордан
+N23	Reference T73 Wikidata:Q201190	Палестинцы
+N24	Reference T74 Wikidata:Q58967	Армия обороны Израиля
+N27	Reference T77 Wikidata:Q58967	Армия обороны Израиля
+N26	Reference T76 Wikidata:Q2336111	
+N11	Reference T52 Wikidata:Q1251441	лидер
+N1	Reference T6 Wikidata:Q127998	Махмуд Аббас
+N14	Reference T58 Wikidata:Q384593	
+N28	Reference T83 Wikidata:NULL	нет данных
+N25	Reference T75 Wikidata:Q772547	вооружённые силы
+N21	Reference T70 Wikidata:NULL	нет данных
+N9	Reference T46 Wikidata:Q801	Израиль
+N18	Reference T67 Wikidata:NULL	нет данных
+N29	Reference T20 Wikidata:Q213274	Старый город
+N30	Reference T28 Wikidata:Q212938	Восточный Иерусалим
+N31	Reference T34 Wikidata:Q1218	Иерусалим
+N32	Reference T59 Wikidata:Q1218	Иерусалим
+N33	Reference T11 Wikidata:Q1218	Иерусалим
+N34	Reference T5 Wikidata:Q193163	Храмовая гора
+N35	Reference T23 Wikidata:Q193163	Храмовая гора
+N36	Reference T15 Wikidata:Q193163	Храмовая гора
+N37	Reference T9 Wikidata:Q193163	Храмовая гора
+N38	Reference T27 Wikidata:Q193163	Храмовая гора
+N39	Reference T55 Wikidata:Q47740	мусульманин
+N40	Reference T72 Wikidata:Q875556	Израильтяне
+N41	Reference T45 Wikidata:Q875556	Израильтяне
+N42	Reference T26 Wikidata:Q875556	Израильтяне
+N43	Reference T64 Wikidata:Q201190	Палестинцы
+N44	Reference T66 Wikidata:Q201190	Палестинцы
+N45	Reference T63 Wikidata:Q201190	Палестинцы
+N46	Reference T60 Wikidata:Q201190	Палестинцы
+N47	Reference T1 Wikidata:Q127998	Махмуд Аббас
+N48	Reference T3 Wikidata:Q127998	Махмуд Аббас
+N49	Reference T13 Wikidata:Q801	Израиль
+N50	Reference T44 Wikidata:Q801	Израиль
+N51	Reference T57 Wikidata:Q801	Израиль
+N52	Reference T12 Wikidata:Q801	Израиль
+N53	Reference T17 Wikidata:Q801	Израиль
+N54	Reference T31 Wikidata:Q801	Израиль
+N55	Reference T4 Wikidata:Q801	Израиль
+N56	Reference T7 Wikidata:Q801	Израиль
+N57	Reference T42 Wikidata:Q801	Израиль
+N58	Reference T36 Wikidata:Q801	Израиль
+N59	Reference T2 Wikidata:Q801	Израиль

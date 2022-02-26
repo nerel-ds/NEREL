@@ -1,0 +1,130 @@
+T1	PRODUCT 1 5	Союз
+T2	FACILITY 31 34	МКС
+T3	TIME 35 45	за 6 часов
+T4	DATE 48 66	29 марта 2013 года
+T5	TIME 48 77	29 марта 2013 года в 0:43 мск
+T6	PRODUCT 100 112	Союз ТМА-08М
+T7	FACILITY 137 145	Байконур
+T8	FACILITY 148 181	Международной космической станции
+T9	FACILITY 183 186	МКС
+T10	TIME 212 225	через 6 часов
+T11	FACILITY 287 292	Поиск
+T12	COUNTRY 294 305	российского
+T13	NUMBER 356 360	двое
+T14	NATIONALITY 361 368	россиян
+T15	PERSON 371 387	Павел Виноградов
+T16	PERSON 390 408	Александр Мисуркин
+T17	NUMBER 411 415	одни
+T18	NATIONALITY 416 426	американец
+T19	PERSON 429 446	Кристофер Кэссиди
+T20	DATE 492 508	больше 4 месяцев
+T22	PERSON 527 543	Павел Виноградов
+T23	DATE 544 559	31 августа 2013
+T24	AGE 589 597	60-летие
+T25	ORDINAL 618 624	третий
+T26	PRODUCT 708 720	Союз ТМА-07М
+T28	NATIONALITY 740 747	канадец
+T29	PERSON 748 765	Кристофер Хэдфилд
+T30	NATIONALITY 767 776	россиянин
+T31	PERSON 777 792	Роман Романенко
+T32	NATIONALITY 795 805	американец
+T33	PERSON 806 820	Томас Маршбёрн
+T34	NUMBER 862 864	50
+T35	NUMBER 880 882	48
+T36	NUMBER 930 931	2
+T37	ORDINAL 1018 1024	первый
+T39	TIME 1079 1088	6-часовой
+T40	DATE 1140 1158	порядка двух суток
+T41	TIME 1200 1212	шестичасовой
+T42	TIME 1370 1395	примерно после пяти часов
+T44	PRODUCT 1436 1448	Союз ТМА-08М
+T45	PERSON 1450 1467	Павла Виноградова
+T46	DATE 1508 1517	в пятницу
+T47	ORGANIZATION 1518 1527	ИТАР-ТАСС
+T51	FACILITY 315 318	МКС
+T52	PROFESSION 510 526	Командир экипажа
+T53	FACILITY 654 657	МКС
+T54	PROFESSION 668 679	космонавтов
+T55	PROFESSION 723 739	командир экипажа
+T56	FACILITY 1008 1011	МКС
+T59	PROFESSION 1417 1434	командира корабля
+T60	PROFESSION 1417 1448	командира корабля «Союз ТМА-08М
+T38	EVENT 114 123	стартовал
+R2	TAKES_PLACE_IN Arg1:T38 Arg2:T7	
+R3	POINT_IN_TIME Arg1:T38 Arg2:T5	
+R4	ABBREVIATION Arg1:T8 Arg2:T9	
+T48	TIME 226 236	в 06:28:22
+T49	TIME 212 236	через 6 часов в 06:28:22
+R5	ORIGINS_FROM Arg1:T11 Arg2:T12	
+R6	PART_OF Arg1:T11 Arg2:T51	
+T50	EVENT 237 250	пристыковался
+R7	TAKES_PLACE_IN Arg1:T50 Arg2:T11	
+R8	POINT_IN_TIME Arg1:T50 Arg2:T49	
+R9	ORIGINS_FROM Arg1:T14 Arg2:T12	
+R10	ORIGINS_FROM Arg1:T15 Arg2:T14	
+R11	ORIGINS_FROM Arg1:T16 Arg2:T14	
+R12	ORIGINS_FROM Arg1:T19 Arg2:T18	
+R13	WORKS_AS Arg1:T22 Arg2:T52	
+R14	KNOWS Arg1:T15 Arg2:T16	
+R15	KNOWS Arg1:T16 Arg2:T19	
+R16	KNOWS Arg1:T15 Arg2:T19	
+R17	AGE_IS Arg1:T22 Arg2:T24	
+R18	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+T21	EVENT 625 642	космический полёт
+R19	PARTICIPANT_IN Arg1:T22 Arg2:T21	
+R20	WORKS_AS Arg1:T22 Arg2:T54	
+R21	WORKS_AS Arg1:T15 Arg2:T54	
+R22	WORKS_AS Arg1:T16 Arg2:T54	
+R23	WORKS_AS Arg1:T19 Arg2:T54	
+R1	WORKS_AS Arg1:T29 Arg2:T55	
+R24	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R25	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R26	ORIGINS_FROM Arg1:T33 Arg2:T32	
+R27	KNOWS Arg1:T29 Arg2:T31	
+R28	KNOWS Arg1:T31 Arg2:T33	
+R29	KNOWS Arg1:T29 Arg2:T33	
+T27	ORGANIZATION 696 720	экспедиции «Союз ТМА-07М
+R30	MEMBER_OF Arg1:T29 Arg2:T27	
+R31	MEMBER_OF Arg1:T31 Arg2:T27	
+R32	MEMBER_OF Arg1:T33 Arg2:T27	
+R33	WORKS_AS Arg1:T45 Arg2:T60	
+T43	EVENT 15 28	пристыковался
+R34	INANIMATE_INVOLVED Arg1:T1 Arg2:T43	
+R35	TAKES_PLACE_IN Arg1:T43 Arg2:T2	
+R36	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R37	INANIMATE_INVOLVED Arg1:T6 Arg2:T38	
+R38	INANIMATE_INVOLVED Arg1:T8 Arg2:T38	
+R39	ALTERNATIVE_NAME Arg1:T39 Arg2:T41	
+N1	Reference T7 Wikidata:Q177477	Байконур
+N2	Reference T9 Wikidata:Q25271	Международная космическая станция
+N5	Reference T16 Wikidata:Q2655329	Александр Александрович Мисуркин
+N7	Reference T19 Wikidata:Q52046	Кристофер Джон Кэссиди
+N8	Reference T22 Wikidata:Q466075	Павел Владимирович Виноградов
+N9	Reference T26 Wikidata:Q968429	Союз ТМА-07М
+N10	Reference T28 Wikidata:Q1196645	канадцы
+N11	Reference T29 Wikidata:Q1076962	Крис Хэдфилд
+N12	Reference T30 Wikidata:Q492468	россияне
+N13	Reference T31 Wikidata:Q457064	Романенко, Роман Юрьевич
+N14	Reference T33 Wikidata:Q520384	Маршбёрн, Томас
+N15	Reference T44 Wikidata:Q1773494	Союз ТМА-08М
+N16	Reference T47 Wikidata:Q223799	ТАСС
+N17	Reference T54 Wikidata:Q11631	космонавт
+N4	Reference T12 Wikidata:Q159	Россия
+N3	Reference T11 Wikidata:Q899013	Поиск
+N6	Reference T18 Wikidata:Q846570	
+N20	Reference T27 Wikidata:NULL	нет данных
+N19	Reference T60 Wikidata:NULL	нет данных
+N21	Reference T52 Wikidata:Q5184784	
+N18	Reference T59 Wikidata:NULL	нет данных
+N22	Reference T8 Wikidata:Q25271	Международная космическая станция
+N23	Reference T56 Wikidata:Q25271	Международная космическая станция
+N24	Reference T51 Wikidata:Q25271	Международная космическая станция
+N25	Reference T53 Wikidata:Q25271	Международная космическая станция
+N26	Reference T2 Wikidata:Q25271	Международная космическая станция
+N27	Reference T45 Wikidata:Q466075	Павел Владимирович Виноградов
+N28	Reference T15 Wikidata:Q466075	Павел Владимирович Виноградов
+N29	Reference T14 Wikidata:Q492468	россияне
+N30	Reference T6 Wikidata:Q1773494	Союз ТМА-08М
+N31	Reference T1 Wikidata:Q1773494	Союз ТМА-08М
+N32	Reference T32 Wikidata:Q846570	
+N33	Reference T55 Wikidata:Q5184784	

@@ -1,0 +1,208 @@
+T1	PERSON 10 22	Рэй Манзарек
+T3	ORGANIZATION 51 60	The Doors
+T4	PERSON 61 73	Рэй Манзарек
+T5	DATE 74 105	В понедельник, 20 мая 2013 года
+T6	COUNTRY 109 117	Германии
+T7	AGE 129 135	74 лет
+T9	PROFESSION 168 177	клавишник
+T10	ORGANIZATION 189 198	The Doors
+T11	PERSON 199 211	Рэй Манзарек
+T12	PERSON 214 222	Манзарек
+T13	COUNTRY 230 240	германском
+T14	CITY 248 258	Розенхайме
+T15	STATE_OR_PROVINCE 260 267	Бавария
+T16	COUNTRY 269 277	Германия
+T17	PROFESSION 303 312	публицист
+T18	PERSON 313 339	Хейди Робинсон-Фицджеральд
+T19	PROFESSION 398 406	менеджер
+T20	PERSON 417 429	Том Виторино
+T21	PERSON 453 462	Манзарека
+T22	ORGANIZATION 525 534	The Doors
+T23	DATE 545 556	в 1965 году
+T24	PERSON 558 570	Рэй Манзарек
+T25	PERSON 615 632	Джимом Моррисоном
+T26	DATE 633 644	в 1965 году
+T27	CITY 677 690	Лос-Анджелесе
+T28	PERSON 698 707	Манзарека
+T29	PERSON 710 719	Моррисона
+T30	PROFESSION 757 767	барабанщик
+T31	PERSON 768 780	Джон Денсмор
+T32	PROFESSION 782 790	гитарист
+T34	NUMBER 877 882	шесть
+T35	ORGANIZATION 917 926	The Doors
+T36	DATE 935 948	в 1960-е годы
+T37	WORK_OF_ART 966 973	The End
+T38	WORK_OF_ART 975 991	Break On Through
+T39	WORK_OF_ART 993 1010	To the Other Side
+T40	WORK_OF_ART 1013 1030	Hello, I Love You
+T41	ORGANIZATION 1033 1042	The Doors
+T43	NUMBER 1051 1064	более 100 млн
+T44	PERSON 1092 1104	Рэй Манзарек
+T45	PERSON 1193 1205	Рэй Манзарек
+T47	WORK_OF_ART 1264 1283	Riders on the Storm
+T48	WORK_OF_ART 1286 1299	Light My Fire
+T49	PERSON 1303 1316	Джим Моррисон
+T50	PERSON 1333 1341	Манзарек
+T51	PRODUCT 1484 1499	Vox Continental
+T52	PRODUCT 1528 1552	Fender Rhodes Piano Bass
+T53	ORGANIZATION 1576 1585	The Doors
+T54	PROFESSION 1601 1614	бас-гитаристе
+T55	PERSON 1638 1647	Моррисона
+T56	DATE 1648 1659	в 1971 году
+T57	CITY 1662 1668	Париже
+T58	DATE 1706 1727	несколько десятилетий
+T59	ORGANIZATION 1751 1760	The Doors
+T60	NUMBER 1771 1784	100 миллионов
+T61	WORK_OF_ART 1816 1829	Light My Fire
+T62	WORK_OF_ART 1832 1851	Riders on the Storm
+T63	PERSON 1903 1912	Моррисона
+T64	PERSON 1953 1963	Игги Попом
+T65	PROFESSION 1969 1979	продюсером
+T66	ORGANIZATION 1988 2009	Echo And The Bunnymen
+T68	ORGANIZATION 2012 2013	X
+T69	DATE 2016 2027	В 1998 году
+T70	WORK_OF_ART 2080 2117	Light My Fire: My Life with The Doors
+T71	ORGANIZATION 2171 2180	The Doors
+T72	EVENT 0 9	Скончался
+T73	EVENT 136 145	скончался
+T74	EVENT 223 227	умер
+T75	PROFESSION 407 416	музыканта
+T76	PROFESSION 398 416	менеджер музыканта
+T77	EVENT 446 452	смерти
+T78	DISEASE 501 522	рака желчных протоков
+T79	PERSON 791 803	Робби Кригер
+T80	DATE 845 858	несколько лет
+T42	PROFESSION 1136 1147	клавишников
+T83	EVENT 1631 1637	смерти
+T85	EVENT 1896 1902	смерти
+T86	PERSON 1913 1921	Манзарек
+T67	PERSON 2028 2036	Манзарек
+R1	FOUNDED_BY Arg1:T3 Arg2:T1	
+R2	FOUNDED_BY Arg1:T10 Arg2:T11	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T72	
+R4	AGE_DIED_AT Arg1:T11 Arg2:T7	
+R5	WORKS_AS Arg1:T11 Arg2:T9	
+R6	PARTICIPANT_IN Arg1:T11 Arg2:T73	
+R8	POINT_IN_TIME Arg1:T73 Arg2:T5	
+R9	TAKES_PLACE_IN Arg1:T73 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R11	ALTERNATIVE_NAME Arg1:T73 Arg2:T74	
+R12	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+R13	LOCATED_IN Arg1:T14 Arg2:T15	
+R14	LOCATED_IN Arg1:T15 Arg2:T16	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T16	
+R16	TAKES_PLACE_IN Arg1:T74 Arg2:T14	
+R17	PARTICIPANT_IN Arg1:T12 Arg2:T74	
+R18	WORKS_AS Arg1:T18 Arg2:T17	
+R19	SUBORDINATE_OF Arg1:T76 Arg2:T75	
+R20	WORKS_AS Arg1:T20 Arg2:T76	
+R21	ALTERNATIVE_NAME Arg1:T74 Arg2:T77	
+R22	PARTICIPANT_IN Arg1:T21 Arg2:T77	
+R23	MEDICAL_CONDITION Arg1:T21 Arg2:T78	
+R24	HAS_CAUSE Arg1:T77 Arg2:T78	
+R25	DATE_FOUNDED_IN Arg1:T22 Arg2:T23	
+R26	KNOWS Arg1:T24 Arg2:T25	
+T2	EVENT 571 578	основал
+R27	PARTICIPANT_IN Arg1:T24 Arg2:T2	
+R28	PARTICIPANT_IN Arg1:T25 Arg2:T2	
+R29	POINT_IN_TIME Arg1:T2 Arg2:T26	
+R30	ALTERNATIVE_NAME Arg1:T25 Arg2:T29	
+R31	FOUNDED_BY Arg1:T22 Arg2:T25	
+R32	WORKS_AS Arg1:T31 Arg2:T30	
+R33	MEMBER_OF Arg1:T31 Arg2:T22	
+R34	WORKS_AS Arg1:T79 Arg2:T32	
+R35	MEMBER_OF Arg1:T79 Arg2:T22	
+R36	PRODUCES Arg1:T35 Arg2:T37	
+R37	PRODUCES Arg1:T35 Arg2:T38	
+R38	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R39	PRODUCES Arg1:T35 Arg2:T40	
+R40	WORKS_AS Arg1:T44 Arg2:T42	
+R42	PRODUCES Arg1:T45 Arg2:T47	
+R43	PRODUCES Arg1:T45 Arg2:T48	
+R44	ALTERNATIVE_NAME Arg1:T45 Arg2:T50	
+R46	KNOWS Arg1:T28 Arg2:T29	
+R47	KNOWS Arg1:T29 Arg2:T31	
+R48	KNOWS Arg1:T31 Arg2:T79	
+R49	KNOWS Arg1:T79 Arg2:T29	
+R50	KNOWS Arg1:T79 Arg2:T28	
+R51	KNOWS Arg1:T28 Arg2:T31	
+R52	PARTICIPANT_IN Arg1:T55 Arg2:T83	
+R53	DATE_OF_DEATH Arg1:T55 Arg2:T56	
+R54	POINT_IN_TIME Arg1:T83 Arg2:T56	
+R55	TAKES_PLACE_IN Arg1:T83 Arg2:T57	
+R56	PRODUCES Arg1:T59 Arg2:T61	
+R57	PRODUCES Arg1:T59 Arg2:T62	
+R58	PARTICIPANT_IN Arg1:T63 Arg2:T85	
+R59	KNOWS Arg1:T86 Arg2:T64	
+R61	WORKPLACE Arg1:T65 Arg2:T66	
+R62	WORKPLACE Arg1:T65 Arg2:T68	
+T8	EVENT 2037 2044	написал
+R63	PARTICIPANT_IN Arg1:T67 Arg2:T8	
+R64	POINT_IN_TIME Arg1:T8 Arg2:T69	
+R65	PARTICIPANT_IN Arg1:T70 Arg2:T8	
+R66	PRODUCES Arg1:T67 Arg2:T70	
+R67	MEMBER_OF Arg1:T67 Arg2:T71	
+R68	DATE_OF_DEATH Arg1:T11 Arg2:T5	
+R7	WORKS_AS Arg1:T86 Arg2:T65	
+R41	WORKPLACE Arg1:T86 Arg2:T66	
+R45	WORKPLACE Arg1:T86 Arg2:T68	
+N1	Reference T11 Wikidata:Q108912	Манзарек, Рэй
+N3	Reference T14 Wikidata:Q4007	Розенхайм
+N4	Reference T15 Wikidata:Q980	Бавария
+N5	Reference T17 Wikidata:Q16287483	публицист
+N7	Reference T19 Wikidata:Q2462658	менеджер
+N9	Reference T27 Wikidata:Q65	Лос-Анджелес
+N11	Reference T30 Wikidata:Q386854	барабанщик
+N12	Reference T31 Wikidata:Q310113	Денсмор, Джон
+N13	Reference T32 Wikidata:Q855091	гитарист
+N14	Reference T35 Wikidata:Q45354	The Doors
+N15	Reference T37 Wikidata:Q154187	The End
+N17	Reference T40 Wikidata:Q1780088	Hello, I Love You
+N18	Reference T47 Wikidata:Q510066	Riders on the Storm
+N19	Reference T48 Wikidata:Q580010	Light My Fire
+N21	Reference T52 Wikidata:Q743659	родес-пиано
+N22	Reference T54 Wikidata:Q20521670	бас-гитарист
+N24	Reference T64 Wikidata:Q182665	Игги Поп
+N26	Reference T66 Wikidata:Q925641	Echo & the Bunnymen
+N29	Reference T75 Wikidata:Q639669	музыкант
+N31	Reference T79 Wikidata:Q311900	Кригер, Роберт Алан
+N32	Reference T42 Wikidata:Q1075651	клавишник
+N33	Reference T67 Wikidata:Q108912	Манзарек, Рэй
+N2	Reference T13 Wikidata:Q183	Германия
+N6	Reference T18 Wikidata:NULL	нет данных
+N30	Reference T76 Wikidata:Q1320883	
+N8	Reference T20 Wikidata:NULL	нет данных
+N10	Reference T29 Wikidata:Q44301	
+N16	Reference T39 Wikidata:NULL	нет данных
+N20	Reference T51 Wikidata:Q584508	
+N23	Reference T57 Wikidata:Q90	Париж
+N25	Reference T65 Wikidata:Q183945	музыкальный продюсер
+N27	Reference T68 Wikidata:Q1570087	
+N28	Reference T70 Wikidata:NULL	нет данных
+N34	Reference T12 Wikidata:Q108912	Манзарек, Рэй
+N35	Reference T41 Wikidata:Q45354	The Doors
+N36	Reference T22 Wikidata:Q45354	The Doors
+N37	Reference T10 Wikidata:Q45354	The Doors
+N38	Reference T53 Wikidata:Q45354	The Doors
+N39	Reference T59 Wikidata:Q45354	The Doors
+N40	Reference T3 Wikidata:Q45354	The Doors
+N41	Reference T71 Wikidata:Q45354	The Doors
+N42	Reference T62 Wikidata:Q510066	Riders on the Storm
+N43	Reference T61 Wikidata:Q580010	Light My Fire
+N44	Reference T9 Wikidata:Q1075651	клавишник
+N45	Reference T44 Wikidata:Q108912	Манзарек, Рэй
+N46	Reference T24 Wikidata:Q108912	Манзарек, Рэй
+N47	Reference T4 Wikidata:Q108912	Манзарек, Рэй
+N48	Reference T50 Wikidata:Q108912	Манзарек, Рэй
+N49	Reference T28 Wikidata:Q108912	Манзарек, Рэй
+N50	Reference T45 Wikidata:Q108912	Манзарек, Рэй
+N51	Reference T1 Wikidata:Q108912	Манзарек, Рэй
+N52	Reference T21 Wikidata:Q108912	Манзарек, Рэй
+N53	Reference T86 Wikidata:Q108912	Манзарек, Рэй
+N54	Reference T6 Wikidata:Q183	Германия
+N55	Reference T16 Wikidata:Q183	Германия
+N56	Reference T55 Wikidata:Q44301	
+N57	Reference T25 Wikidata:Q44301	
+N58	Reference T49 Wikidata:Q44301	
+N59	Reference T63 Wikidata:Q44301	
+N60	Reference T38 Wikidata:NULL	нет данных

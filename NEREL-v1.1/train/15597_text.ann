@@ -1,0 +1,87 @@
+T1	PERSON 0 10	Мел Гибсон
+T2	PERSON 13 30	Оксана Григорьева
+T3	PERSON 87 97	Мел Гибсон
+T5	PERSON 144 163	Оксаной Григорьевой
+T6	ORGANIZATION 244 271	городской суд Лос-Анджелеса
+T7	CITY 258 271	Лос-Анджелеса
+T8	DATE 280 302	в конце прошлой недели
+T9	DATE 404 411	в среду
+T10	PERSON 471 481	Григорьева
+T11	PERSON 493 500	Гибсону
+T12	PROFESSION 566 577	Пресс-агент
+T13	PROFESSION 626 640	актер-режиссер
+T14	PROFESSION 695 720	Представитель Григорьевой
+T15	PERSON 797 805	Гибсоном
+T16	PERSON 808 819	Григорьевой
+T17	DATE 833 844	больше года
+T18	DATE 945 961	В июне 2010 года
+T19	PROFESSION 962 969	адвокат
+T20	PERSON 978 992	Стивен Колодни
+T21	NUMBER 1054 1055	4
+T23	MONEY 1083 1102	несколько миллионов
+T24	MONEY 1152 1176	несколько тысяч долларов
+T25	DATE 1179 1198	За полгода до этого
+T26	PERSON 1199 1209	Григорьева
+T27	PERSON 1219 1226	Гибсона
+T28	AGE 1407 1416	55-летний
+T29	COUNTRY 1452 1461	Гватемале
+T30	PERSON 578 585	Гибсона
+T31	PERSON 709 720	Григорьевой
+T32	PERSON 970 977	Гибсона
+T22	PROFESSION 1261 1271	кинозвезду
+T33	PROFESSION 1248 1253	Судья
+T34	PROFESSION 1307 1321	психотерапевта
+T35	PERSON 1417 1423	Гибсон
+T36	EVENT 31 50	пришли к соглашению
+T37	PROFESSION 665 670	судьи
+T38	EVENT 114 125	договорился
+T39	CRIME 1229 1246	причинении побоев
+R1	AGENT Arg1:T2 Arg2:T36	
+R2	AGENT Arg1:T1 Arg2:T36	
+R3	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R4	AGENT Arg1:T3 Arg2:T38	
+R5	AGENT Arg1:T5 Arg2:T38	
+R6	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R7	ALTERNATIVE_NAME Arg1:T3 Arg2:T11	
+R8	SUBORDINATE_OF Arg1:T12 Arg2:T30	
+R9	WORKS_AS Arg1:T30 Arg2:T13	
+T4	EVENT 785 790	тяжба
+R10	AGENT Arg1:T15 Arg2:T4	
+R11	AGENT Arg1:T16 Arg2:T4	
+R12	WORKS_AS Arg1:T20 Arg2:T19	
+R13	SUBORDINATE_OF Arg1:T20 Arg2:T32	
+R14	EXPENDITURE Arg1:T32 Arg2:T23	
+R15	EXPENDITURE Arg1:T32 Arg2:T24	
+R16	CONVICTED_OF Arg1:T27 Arg2:T39	
+R17	PARTICIPANT_IN Arg1:T26 Arg2:T39	
+R18	AGE_IS Arg1:T35 Arg2:T28	
+R19	HEADQUARTERED_IN Arg1:T6 Arg2:T7	
+R20	INCOME Arg1:T16 Arg2:T23	
+R21	INCOME Arg1:T16 Arg2:T24	
+R22	WORKS_AS Arg1:T27 Arg2:T22	
+N2	Reference T7 Wikidata:Q65	Лос-Анджелес
+N6	Reference T19 Wikidata:Q40348	адвокат
+N9	Reference T29 Wikidata:Q774	Гватемала
+N11	Reference T34 Wikidata:Q1900167	психотерапевт
+N13	Reference T37 Wikidata:Q16533	судья
+N1	Reference T6 Wikidata:Q6682102	
+N3	Reference T12 Wikidata:Q1388151	
+N14	Reference T13 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:Q42229	
+N7	Reference T20 Wikidata:NULL	нет данных
+N8	Reference T26 Wikidata:NULL	нет данных
+N10	Reference T22 Wikidata:NULL	нет данных
+N12	Reference T35 Wikidata:Q42229	
+N15	Reference T33 Wikidata:Q16533	судья
+N16	Reference T10 Wikidata:NULL	нет данных
+N17	Reference T5 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T16 Wikidata:NULL	нет данных
+N20	Reference T2 Wikidata:NULL	нет данных
+N21	Reference T32 Wikidata:Q42229	
+N22	Reference T30 Wikidata:Q42229	
+N23	Reference T11 Wikidata:Q42229	
+N24	Reference T3 Wikidata:Q42229	
+N25	Reference T1 Wikidata:Q42229	
+N26	Reference T27 Wikidata:Q42229	

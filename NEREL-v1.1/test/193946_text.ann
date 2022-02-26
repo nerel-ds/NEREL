@@ -1,0 +1,231 @@
+T1	PERSON 4 22	Виктор Альфредович
+T2	PERSON 36 54	Иваном Фёдоровичем
+T3	PERSON 55 79	Виктор Альфредович Куллэ
+T4	DATE 80 94	14 ноября 2018
+T5	PROFESSION 111 124	преподавателя
+T6	PERSON 138 164	Виктора Альфредовича Куллэ
+T7	PROFESSION 211 217	поэтом
+T8	PERSON 218 245	Иваном Фёдоровичем Ждановым
+T9	PERSON 258 272	Иван Фёдорович
+T10	PERSON 386 406	Виктора Альфредовича
+T11	PERSON 455 473	Виктор Альфредович
+T12	PERSON 528 544	Ивана Фёдоровича
+T13	PERSON 619 645	Виктора Альфредовича Куллэ
+T14	PERSON 687 705	Виктор Альфредович
+T15	ORGANIZATION 764 773	Газета.Ru
+T16	PROFESSION 775 779	поэт
+T17	PERSON 780 801	Иван Фёдорович Жданов
+T18	FACILITY 821 837	20-ю горбольницу
+T19	FACILITY 841 864	ГКБ им. А. Ерамишанцева
+T20	PERSON 910 931	Иван Фёдорович Жданов
+T21	ORGANIZATION 980 984	ТАСС
+T22	PROFESSION 1030 1034	поэт
+T23	PERSON 1035 1056	Иван Фёдорович Жданов
+T24	PROFESSION 1081 1089	критиком
+T25	PERSON 1090 1118	Виктором Альфредовичем Куллэ
+T28	PERSON 1264 1270	Жданов
+T29	CITY 1300 1308	Барнаула
+T30	PERSON 1320 1336	Ивана Фёдоровича
+T31	PERSON 1350 1376	Виктору Альфредовичу Куллэ
+T32	PERSON 1417 1437	Виктора Альфредовича
+T33	AGE 1441 1450	70-летний
+T34	PERSON 1451 1472	Иван Фёдорович Жданов
+T35	PERSON 1499 1512	Андрея Белого
+T36	PERSON 1514 1533	Аполлона Григорьева
+T37	PERSON 1535 1542	Арсения
+T38	PERSON 1545 1562	Андрея Тарковских
+T40	DATE 1592 1600	2017 год
+T41	AGE 1612 1622	56-летнего
+T42	PERSON 1623 1649	Виктора Альфредовича Куллэ
+T43	ORGANIZATION 1666 1675	Новый мир
+T46	DATE 1760 1768	2016 год
+T47	DATE 1772 1787	марте 2018 года
+T48	PERSON 1788 1806	Виктор Альфредович
+T49	PERSON 1850 1866	Ивана Фёдоровича
+T50	PROFESSION 111 137	преподавателя Литинститута
+T51	ORGANIZATION 125 137	Литинститута
+T52	EVENT 175 183	конфликт
+T53	EVENT 277 293	госпитализирован
+T54	CITY 331 337	Москвы
+T55	ORGANIZATION 360 377	полицейский наряд
+T56	ORGANIZATION 442 449	полиции
+T57	PRODUCT 678 686	Facebook
+T59	EVENT 802 818	госпитализирован
+T60	ORDINAL 821 825	20-ю
+T61	PERSON 849 864	А. Ерамишанцева
+T62	PROFESSION 870 874	поэт
+T63	EVENT 879 892	прооперирован
+T65	PROFESSION 1003 1008	поэта
+T64	EVENT 1069 1078	конфликте
+T26	FACILITY 1233 1250	Юрловском проезде
+T69	AWARD 1565 1588	Новой Пушкинской премии
+T39	PERSON 1571 1581	Пушкинской
+T71	AWARD 1650 1675	премия журнала «Новый мир
+T73	AWARD 1692 1708	Lerici Pea Mosca
+T74	AWARD 1718 1723	Венец
+T77	AWARD 1733 1756	Новая Пушкинская премия
+T78	COUNTRY 1685 1691	Италии
+T44	PERSON 1739 1749	Пушкинская
+T45	WORK_OF_ART 1870 1893	Приглашение к пониманию
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R2	WORKS_AS Arg1:T8 Arg2:T7	
+R3	WORKPLACE Arg1:T50 Arg2:T51	
+R4	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R6	AGENT Arg1:T6 Arg2:T52	
+R7	AGENT Arg1:T8 Arg2:T52	
+R8	WORKS_AS Arg1:T6 Arg2:T50	
+R9	WORKPLACE Arg1:T6 Arg2:T51	
+R10	POINT_IN_TIME Arg1:T52 Arg2:T4	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T53	
+R12	TAKES_PLACE_IN Arg1:T53 Arg2:T54	
+R13	ABBREVIATION Arg1:T52 Arg2:T54	
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R16	WORKS_AS Arg1:T17 Arg2:T16	
+R17	PARTICIPANT_IN Arg1:T17 Arg2:T59	
+R18	TAKES_PLACE_IN Arg1:T59 Arg2:T18	
+R19	LOCATED_IN Arg1:T18 Arg2:T54	
+R20	PARTICIPANT_IN Arg1:T17 Arg2:T63	
+R21	PARTICIPANT_IN Arg1:T62 Arg2:T63	
+R22	WORKS_AS Arg1:T17 Arg2:T62	
+R23	WORKS_AS Arg1:T23 Arg2:T22	
+R24	WORKS_AS Arg1:T25 Arg2:T24	
+R25	AGENT Arg1:T25 Arg2:T64	
+R26	AGENT Arg1:T23 Arg2:T64	
+T58	EVENT 1165 1174	перепалка
+T79	EVENT 1189 1200	поножовщину
+R27	SUBEVENT_OF Arg1:T58 Arg2:T64	
+R28	SUBEVENT_OF Arg1:T79 Arg2:T64	
+R29	AGENT Arg1:T23 Arg2:T58	
+R30	AGENT Arg1:T23 Arg2:T79	
+R31	AGENT Arg1:T25 Arg2:T58	
+R32	AGENT Arg1:T25 Arg2:T79	
+R33	KNOWS Arg1:T1 Arg2:T2	
+R34	KNOWS Arg1:T2 Arg2:T1	
+R35	KNOWS Arg1:T6 Arg2:T8	
+R36	KNOWS Arg1:T8 Arg2:T6	
+R37	KNOWS Arg1:T23 Arg2:T25	
+R38	KNOWS Arg1:T25 Arg2:T23	
+R39	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+R40	LOCATED_IN Arg1:T26 Arg2:T54	
+R41	TAKES_PLACE_IN Arg1:T64 Arg2:T26	
+R42	TAKES_PLACE_IN Arg1:T58 Arg2:T26	
+R43	TAKES_PLACE_IN Arg1:T79 Arg2:T26	
+R44	KNOWS Arg1:T30 Arg2:T31	
+R45	KNOWS Arg1:T31 Arg2:T30	
+R46	ALTERNATIVE_NAME Arg1:T23 Arg2:T28	
+R47	ALTERNATIVE_NAME Arg1:T28 Arg2:T30	
+R48	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R49	AGE_IS Arg1:T34 Arg2:T33	
+R50	AGE_IS Arg1:T42 Arg2:T41	
+R51	PRODUCES Arg1:T48 Arg2:T45	
+R52	POINT_IN_TIME Arg1:T45 Arg2:T47	
+R53	AWARDED_WITH Arg1:T42 Arg2:T71	
+R54	PRODUCES Arg1:T43 Arg2:T71	
+R55	ORIGINS_FROM Arg1:T73 Arg2:T78	
+R56	AWARDED_WITH Arg1:T42 Arg2:T73	
+R57	AWARDED_WITH Arg1:T42 Arg2:T74	
+R58	POINT_IN_TIME Arg1:T77 Arg2:T46	
+R59	AWARDED_WITH Arg1:T42 Arg2:T77	
+R60	POINT_IN_TIME Arg1:T69 Arg2:T40	
+R61	AWARDED_WITH Arg1:T34 Arg2:T69	
+T27	AWARD 1492 1512	премий Андрея Белого
+R62	AWARDED_WITH Arg1:T34 Arg2:T27	
+T66	AWARD 1492 1498;1514 1533	премий Аполлона Григорьева
+T67	AWARD 1492 1498;1535 1562	премий Арсения и Андрея Тарковских
+R63	AWARDED_WITH Arg1:T34 Arg2:T67	
+R64	AWARDED_WITH Arg1:T34 Arg2:T67	
+R65	AWARDED_WITH Arg1:T34 Arg2:T66	
+T68	EVENT 23 33	поссорился
+R66	AGENT Arg1:T1 Arg2:T68	
+R67	AGENT Arg1:T2 Arg2:T68	
+T70	EVENT 378 385;407 418	заковал в наручники
+R68	AGENT Arg1:T55 Arg2:T70	
+R69	PARTICIPANT_IN Arg1:T10 Arg2:T70	
+T72	DISEASE 296 312	ножевым ранением
+R70	MEDICAL_CONDITION Arg1:T9 Arg2:T72	
+R71	HAS_CAUSE Arg1:T53 Arg2:T72	
+R72	HAS_CAUSE Arg1:T70 Arg2:T72	
+T75	EVENT 421 449	доставил в отделение полиции
+R73	AGENT Arg1:T55 Arg2:T75	
+R74	PARTICIPANT_IN Arg1:T10 Arg2:T75	
+R75	HAS_CAUSE Arg1:T75 Arg2:T72	
+T76	EVENT 478 486	допрошен
+R76	PARTICIPANT_IN Arg1:T11 Arg2:T76	
+R77	AGENT Arg1:T55 Arg2:T76	
+R78	HAS_CAUSE Arg1:T76 Arg2:T72	
+T80	EVENT 646 655	отпустили
+R79	PARTICIPANT_IN Arg1:T13 Arg2:T80	
+R80	AGENT Arg1:T56 Arg2:T80	
+R81	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R82	WORKS_AS Arg1:T20 Arg2:T62	
+T81	DISEASE 940 968	колото-резанную рану ягодицы
+T82	DISEASE 940 960	колото-резанную рану
+R83	MEDICAL_CONDITION Arg1:T20 Arg2:T81	
+T83	DISEASE 1009 1023	ранение живота
+R84	MEDICAL_CONDITION Arg1:T65 Arg2:T83	
+N1	Reference T1 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N3	Reference T8 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N4	Reference T11 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N5	Reference T13 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N6	Reference T15 Wikidata:Q595181	Газета.Ru
+N8	Reference T20 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N9	Reference T21 Wikidata:Q223799	ТАСС
+N10	Reference T24 Wikidata:Q6430706	критик
+N11	Reference T29 Wikidata:Q6014	Барнаул
+N12	Reference T35 Wikidata:Q212632	Андрей Белый
+N15	Reference T38 Wikidata:Q853	Андрей Арсеньевич Тарковский
+N16	Reference T43 Wikidata:Q2469587	Новый мир
+N17	Reference T48 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N19	Reference T51 Wikidata:Q1250779	Литературный институт
+N20	Reference T54 Wikidata:Q649	Москва
+N22	Reference T56 Wikidata:Q35535	полиция
+N23	Reference T57 Wikidata:Q355	Facebook
+N25	Reference T65 Wikidata:Q49757	поэт
+N26	Reference T26 Wikidata:Q4535034	Юрловский проезд
+N27	Reference T69 Wikidata:Q60851486	Новая Пушкинская премия
+N30	Reference T74 Wikidata:Q4107278	Венцы
+N31	Reference T78 Wikidata:Q38	Италия
+N33	Reference T27 Wikidata:Q2364347	Премия Андрея Белого
+N2	Reference T5 Wikidata:Q1569495	преподаватель
+N18	Reference T50 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N24	Reference T61 Wikidata:Q24844878	Ерамишанцев, Александр Константинович
+N32	Reference T45 Wikidata:NULL	нет данных
+N29	Reference T71 Wikidata:NULL	нет данных
+N36	Reference T73 Wikidata:NULL	нет данных
+N21	Reference T55 Wikidata:NULL	нет данных
+N13	Reference T36 Wikidata:Q2362334	Аполлон Александрович Григорьев
+N34	Reference T66 Wikidata:NULL	нет данных
+N14	Reference T37 Wikidata:Q777997	
+N35	Reference T67 Wikidata:NULL	нет данных
+N28	Reference T39 Wikidata:Q7200	Александр Сергеевич Пушкин
+N37	Reference T3 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N38	Reference T9 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N39	Reference T6 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N40	Reference T10 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N41	Reference T14 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N42	Reference T12 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N43	Reference T23 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N44	Reference T17 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N45	Reference T49 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N46	Reference T34 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N47	Reference T28 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N48	Reference T2 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N49	Reference T30 Wikidata:Q4178481	Жданов, Иван Фёдорович
+N50	Reference T31 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N51	Reference T25 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N52	Reference T42 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N53	Reference T32 Wikidata:Q4246401	Куллэ, Виктор Альфредович
+N54	Reference T22 Wikidata:Q49757	поэт
+N55	Reference T62 Wikidata:Q49757	поэт
+N56	Reference T16 Wikidata:Q49757	поэт
+N57	Reference T7 Wikidata:Q49757	поэт
+N58	Reference T77 Wikidata:Q60851486	Новая Пушкинская премия
+N59	Reference T19 Wikidata:NULL	нет данных
+N60	Reference T44 Wikidata:Q7200	Александр Сергеевич Пушкин
+R85	ORIGINS_FROM Arg1:T45 Arg2:T49	
+T84	DISEASE 1153 1159	травму
+R86	MEDICAL_CONDITION Arg1:T23 Arg2:T84	
+R87	HAS_CAUSE Arg1:T84 Arg2:T64	

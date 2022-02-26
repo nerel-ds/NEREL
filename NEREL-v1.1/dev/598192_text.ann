@@ -1,0 +1,182 @@
+T1	PROFESSION 10 18	писатель
+T2	PERSON 19 32	Юрий Бондарев
+T3	PERSON 33 46	Юрий Бондарев
+T4	CITY 49 55	Москве
+T6	PROFESSION 80 88	писатель
+T7	PERSON 89 102	Юрий Бондарев
+T8	PERSON 126 146	Валентины Бондаревой
+T9	ORGANIZATION 179 192	правительства
+T10	PROFESSION 195 206	губернатора
+T11	DATE 239 246	Сегодня
+T13	PROFESSION 305 325	общественный деятель
+T14	CITY 343 348	Орска
+T15	PERSON 349 373	Юрий Васильевич Бондарев
+T16	PERSON 376 389	Юрий Бондарев
+T17	DATE 398 409	в 1924 году
+T18	CITY 412 417	Орске
+T19	EVENT 441 468	Великой Отечественной войны
+T20	DATE 470 481	В 1941 году
+T21	CITY 548 558	Смоленском
+T22	DATE 560 571	В 1942 году
+T23	CITY 658 670	Сталинградом
+T24	ORGANIZATION 681 702	2-й гвардейской армии
+T25	CITY 788 793	Киева
+T26	COUNTRY 797 806	советских
+T27	COUNTRY 824 836	Чехословакии
+T28	DATE 839 850	В 1946 году
+T29	ORGANIZATION 862 904	Литературный институт имени А. М. Горького
+T32	PERSON 932 956	Константина Паустовского
+T35	ORGANIZATION 1184 1204	Союза писателей СССР
+T36	NUMBER 1307 1311	двух
+T37	AWARD 1341 1370	Герой Социалистического Труда
+T38	DATE 1418 1429	В 1988 году
+T39	EVENT 1433 1465	Всесоюзной партийной конференции
+T40	IDEOLOGY 1480 1491	перестройку
+T41	DATE 1493 1504	В 1994 году
+T42	PROFESSION 1526 1536	президента
+T43	PERSON 1544 1558	Бориса Ельцина
+T44	AGE 1595 1603	70-летия
+T45	EVENT 0 9	Скончался
+T5	AGE 59 68	97-м году
+T46	EVENT 75 79	умер
+T47	EVENT 150 159	скончался
+T48	STATE_OR_PROVINCE 207 227	Оренбургской области
+T49	PROFESSION 195 227	губернатора Оренбургской области
+T12	AGE 250 259	97-м году
+T50	EVENT 260 273	ушел из жизни
+T51	PROFESSION 284 302	писатель-фронтовик
+T52	PROFESSION 284 292	писатель
+T53	DATE 419 427	В юности
+T55	ORDINAL 681 684	2-й
+T56	EVENT 753 772	форсировании Днепра
+T57	LOCATION 766 772	Днепра
+T58	EVENT 775 793	освобождении Киева
+T30	PERSON 890 904	А. М. Горького
+T31	WORK_OF_ART 1038 1059	Батальоны просят огня
+T33	WORK_OF_ART 1063 1085	Бермудский треугольник
+T59	WORK_OF_ART 1089 1104	Последние залпы
+T60	WORK_OF_ART 1108 1120	Горячий снег
+T61	WORK_OF_ART 1125 1131	Тишина
+T62	COUNTRY 1200 1204	СССР
+T63	AWARD 1211 1246	орден Отечественной войны I степени
+T65	ORDINAL 1237 1238	I
+T66	AWARD 1249 1278	медаль за оборону Сталинграда
+T67	CITY 1267 1278	Сталинграда
+T68	AWARD 1288 1304	Ленинской премии
+T70	AWARD 1312 1339	Государственных премий СССР
+T71	COUNTRY 1335 1339	СССР
+T72	DATE 1372 1376	1984
+T73	COUNTRY 1537 1543	России
+T74	PROFESSION 1526 1543	президента России
+T75	AWARD 1559 1579	орден Дружбы народов
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T45	
+R3	TAKES_PLACE_IN Arg1:T46 Arg2:T4	
+R4	WORKS_AS Arg1:T7 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T7 Arg2:T46	
+R6	SPOUSE Arg1:T8 Arg2:T7	
+R7	AGE_DIED_AT Arg1:T7 Arg2:T5	
+R8	PLACE_OF_DEATH Arg1:T7 Arg2:T4	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T47	
+R10	PLACE_OF_BIRTH Arg1:T15 Arg2:T14	
+R11	WORKS_AS Arg1:T15 Arg2:T13	
+R12	WORKS_AS Arg1:T15 Arg2:T51	
+R13	PARTICIPANT_IN Arg1:T15 Arg2:T50	
+R14	AGE_DIED_AT Arg1:T15 Arg2:T12	
+R15	DATE_OF_DEATH Arg1:T15 Arg2:T11	
+R16	POINT_IN_TIME Arg1:T50 Arg2:T11	
+R17	DATE_OF_BIRTH Arg1:T16 Arg2:T17	
+R18	PLACE_OF_BIRTH Arg1:T16 Arg2:T18	
+R19	PARTICIPANT_IN Arg1:T16 Arg2:T19	
+R20	WORKPLACE Arg1:T16 Arg2:T24	
+R21	PARTICIPANT_IN Arg1:T16 Arg2:T56	
+R22	PARTICIPANT_IN Arg1:T16 Arg2:T58	
+R23	SCHOOLS_ATTENDED Arg1:T16 Arg2:T29	
+R24	WORKS_AS Arg1:T43 Arg2:T74	
+R25	WORKPLACE Arg1:T43 Arg2:T73	
+R26	KNOWS Arg1:T16 Arg2:T32	
+R27	PRODUCES Arg1:T16 Arg2:T33	
+R28	PRODUCES Arg1:T16 Arg2:T31	
+R29	PRODUCES Arg1:T16 Arg2:T59	
+R30	PRODUCES Arg1:T16 Arg2:T60	
+R31	PRODUCES Arg1:T16 Arg2:T61	
+R32	MEMBER_OF Arg1:T16 Arg2:T35	
+R33	AWARDED_WITH Arg1:T16 Arg2:T63	
+R34	AWARDED_WITH Arg1:T16 Arg2:T66	
+R35	AWARDED_WITH Arg1:T16 Arg2:T68	
+R36	AWARDED_WITH Arg1:T16 Arg2:T70	
+R37	PARTICIPANT_IN Arg1:T16 Arg2:T39	
+R38	AWARDED_WITH Arg1:T16 Arg2:T37	
+R39	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R40	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R41	WORKPLACE Arg1:T49 Arg2:T48	
+R42	ALTERNATIVE_NAME Arg1:T46 Arg2:T50	
+T34	AWARD 1312 1334	Государственных премий
+T54	PERSON 1288 1297	Ленинской
+T64	ORGANIZATION 1184 1199	Союза писателей
+R43	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R44	HEADQUARTERED_IN Arg1:T35 Arg2:T62	
+R45	ORIGINS_FROM Arg1:T70 Arg2:T71	
+R46	WORKPLACE Arg1:T74 Arg2:T73	
+R47	TAKES_PLACE_IN Arg1:T58 Arg2:T25	
+R48	TAKES_PLACE_IN Arg1:T56 Arg2:T57	
+T69	ORGANIZATION 797 814	советских войсках
+R49	HEADQUARTERED_IN Arg1:T69 Arg2:T26	
+T76	EVENT 1217 1236	Отечественной войны
+R50	POINT_IN_TIME Arg1:T37 Arg2:T72	
+R51	POINT_IN_TIME Arg1:T39 Arg2:T38	
+N1	Reference T4 Wikidata:Q649	Москва
+N2	Reference T6 Wikidata:Q36180	писатель
+N4	Reference T9 Wikidata:Q7188	правительство
+N5	Reference T10 Wikidata:Q132050	губернатор
+N6	Reference T13 Wikidata:Q662729	общественный деятель
+N7	Reference T16 Wikidata:Q700555	Юрий Васильевич Бондарев
+N8	Reference T18 Wikidata:Q47166	Орск
+N9	Reference T21 Wikidata:Q2337	Смоленск
+N11	Reference T25 Wikidata:Q1899	Киев
+N13	Reference T27 Wikidata:Q33946	Чехословакия
+N14	Reference T29 Wikidata:Q1250779	Литературный институт
+N15	Reference T32 Wikidata:Q368812	Константин Георгиевич Паустовский
+N16	Reference T35 Wikidata:Q1425328	Союз писателей СССР
+N17	Reference T37 Wikidata:Q208167	Герой Социалистического Труда
+N18	Reference T42 Wikidata:Q30461	президент
+N19	Reference T43 Wikidata:Q34453	Борис Николаевич Ельцин
+N20	Reference T48 Wikidata:Q5338	Оренбургская область
+N25	Reference T31 Wikidata:Q18400189	Батальоны просят огня
+N28	Reference T60 Wikidata:Q4146331	Горячий снег
+N30	Reference T63 Wikidata:Q18080149	орден Отечественной войны I степени
+N31	Reference T66 Wikidata:Q241821	медаль «За оборону Сталинграда»
+N32	Reference T67 Wikidata:Q914	Волгоград
+N33	Reference T68 Wikidata:Q51067	Ленинская премия
+N34	Reference T70 Wikidata:Q758861	Государственная премия СССР
+N35	Reference T71 Wikidata:Q15180	СССР
+N36	Reference T73 Wikidata:Q159	Россия
+N37	Reference T74 Wikidata:Q218295	президент Российской Федерации
+N38	Reference T75 Wikidata:Q583881	орден Дружбы народов
+N42	Reference T69 Wikidata:Q7915590	Вооружённые Силы СССР
+N3	Reference T8 Wikidata:NULL	нет данных
+N21	Reference T49 Wikidata:Q4151338	
+N22	Reference T51 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:Q2027057	2-я гвардейская армия
+N23	Reference T57 Wikidata:Q40855	Днепр
+N12	Reference T26 Wikidata:Q414864	
+N24	Reference T30 Wikidata:Q12706	
+N26	Reference T33 Wikidata:NULL	нет данных
+N27	Reference T59 Wikidata:NULL	нет данных
+N29	Reference T61 Wikidata:NULL	нет данных
+N41	Reference T64 Wikidata:Q15994170	
+N40	Reference T54 Wikidata:Q1394	Владимир Ильич Ленин
+N39	Reference T34 Wikidata:Q758861	Государственная премия СССР
+N43	Reference T52 Wikidata:Q36180	писатель
+N44	Reference T1 Wikidata:Q36180	писатель
+N45	Reference T7 Wikidata:Q700555	Юрий Васильевич Бондарев
+N46	Reference T15 Wikidata:Q700555	Юрий Васильевич Бондарев
+N47	Reference T3 Wikidata:Q700555	Юрий Васильевич Бондарев
+N48	Reference T2 Wikidata:Q700555	Юрий Васильевич Бондарев
+N49	Reference T14 Wikidata:Q47166	Орск
+N50	Reference T23 Wikidata:Q914	Волгоград
+N51	Reference T62 Wikidata:Q15180	СССР
+T77	EVENT 390 397	родился
+R52	PARTICIPANT_IN Arg1:T16 Arg2:T77	
+R53	POINT_IN_TIME Arg1:T77 Arg2:T17	
+R54	TAKES_PLACE_IN Arg1:T77 Arg2:T18	

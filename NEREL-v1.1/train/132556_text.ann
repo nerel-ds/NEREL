@@ -1,0 +1,144 @@
+T1	MONEY 0 20	3,3 миллиарда рублей
+T2	FACILITY 48 52	ВДНХ
+T4	CITY 84 90	Москвы
+T5	FACILITY 127 131	ВДНХ
+T6	MONEY 132 158	более 3,3 миллиарда рублей
+T9	CITY 180 186	Москвы
+T10	NUMBER 196 199	два
+T11	FACILITY 232 245	Золотой колос
+T12	NUMBER 249 251	14
+T15	FACILITY 278 282	ВДНХ
+T16	MONEY 306 324	702 миллиона рубля
+T17	ORGANIZATION 430 434	ВДНХ
+T18	DATE 436 453	в 2018—2019 годах
+T19	MONEY 474 494	2,8 миллиарда рублей
+T20	MONEY 515 535	1,3 миллиарда рублей
+T21	DATE 536 547	в 2018 году
+T22	MONEY 550 563	1,5 миллиарда
+T23	DATE 564 575	в 2019 году
+T24	ORGANIZATION 579 602	Ренессанс — Реставрация
+T25	FACILITY 647 660	Золотой колос
+T26	NUMBER 712 714	14
+T30	ORGANIZATION 890 893	РБК
+T31	ORGANIZATION 896 919	Ренессанс — Реставрация
+T32	MONEY 949 975	более 4,5 миллиарда рублей
+T33	DATE 976 994	с 2014 по 2017 год
+T34	CITY 1031 1042	московского
+T35	FACILITY 1051 1062	Современник
+T36	FACILITY 1065 1082	дворцовых конюшен
+T37	PROFESSION 1083 1094	архитектора
+T38	PERSON 1095 1108	Николая Бенуа
+T39	CITY 1111 1120	Петергофе
+T41	STATE_OR_PROVINCE 1142 1154	подмосковной
+T42	FACILITY 1163 1176	Архангельское
+T43	DATE 1179 1199	В сентябре 2017 года
+T44	ORGANIZATION 1201 1211	Коммерсант
+T45	LAW 1260 1273	Мошенничество
+T46	LAW 1276 1285	159 УК РФ
+T47	FACILITY 1319 1326	Копорье
+T48	STATE_OR_PROVINCE 1330 1351	Ленинградской области
+T49	ORGANIZATION 1376 1399	Ренессанс — Реставрация
+R4	WORKS_AS Arg1:T38 Arg2:T37
+T3	FACILITY 62 75	Золотой колос
+T7	DATE 161 172	В 2017 году
+T8	EVENT 211 230	реставрацию фонтана
+T13	FACILITY 264 282	главной аллее ВДНХ
+T14	EVENT 353 373	капитального ремонта
+T50	EVENT 376 406	ремонтно-реставрационных работ
+T51	EVENT 465 473	выделить
+T28	FACILITY 741 749	выставки
+T27	FACILITY 727 749	главной аллее выставки
+T29	EVENT 921 939	получила госзаказы
+T40	EVENT 1221 1248	возбуждении уголовного дела
+T52	ORDINAL 1276 1279	159
+T53	COUNTRY 1283 1285	РФ
+T54	LAW 1280 1282	УК
+T55	EVENT 1297 1308	реставрации
+T56	LAW 1280 1285	УК РФ
+R1	LOCATED_IN Arg1:T3 Arg2:T2	
+T57	EVENT 24 44	реставрацию фонтанов
+R2	TAKES_PLACE_IN Arg1:T57 Arg2:T2	
+R3	PRICE_OF Arg1:T57 Arg2:T1	
+T58	ORGANIZATION 77 90	Власти Москвы
+R5	HEADQUARTERED_IN Arg1:T58 Arg2:T4	
+T59	EVENT 103 123	реставрацию фонтанов
+R6	PRICE_OF Arg1:T59 Arg2:T6	
+R7	TAKES_PLACE_IN Arg1:T59 Arg2:T5	
+R8	LOCATED_IN Arg1:T5 Arg2:T4	
+T60	EVENT 200 207	тендера
+R9	POINT_IN_TIME Arg1:T60 Arg2:T7	
+T61	ORGANIZATION 173 186	власти Москвы
+R10	HEADQUARTERED_IN Arg1:T61 Arg2:T9	
+R11	LOCATED_IN Arg1:T11 Arg2:T15	
+R12	TAKES_PLACE_IN Arg1:T8 Arg2:T15	
+R13	PARTICIPANT_IN Arg1:T61 Arg2:T60	
+R14	PRICE_OF Arg1:T8 Arg2:T16	
+R15	TAKES_PLACE_IN Arg1:T14 Arg2:T17	
+R16	TAKES_PLACE_IN Arg1:T50 Arg2:T17	
+R17	POINT_IN_TIME Arg1:T51 Arg2:T18	
+R18	PRICE_OF Arg1:T51 Arg2:T19	
+R19	PRICE_OF Arg1:T51 Arg2:T20	
+R20	POINT_IN_TIME Arg1:T51 Arg2:T21	
+R21	POINT_IN_TIME Arg1:T51 Arg2:T23	
+R22	PRICE_OF Arg1:T51 Arg2:T22	
+T62	EVENT 626 637	реставрации
+R23	PARTICIPANT_IN Arg1:T24 Arg2:T62	
+R24	PARTICIPANT_IN Arg1:T25 Arg2:T62	
+T63	EVENT 699 711	реставрацией
+R25	PARTICIPANT_IN Arg1:T24 Arg2:T63	
+R26	INANIMATE_INVOLVED Arg1:T11 Arg2:T8	
+R27	TAKES_PLACE_IN Arg1:T63 Arg2:T27	
+R28	PRICE_OF Arg1:T29 Arg2:T32	
+R29	POINT_IN_TIME Arg1:T29 Arg2:T33	
+R30	PARTICIPANT_IN Arg1:T31 Arg2:T29	
+R31	LOCATED_IN Arg1:T35 Arg2:T34	
+R32	LOCATED_IN Arg1:T36 Arg2:T39	
+R33	PRODUCES Arg1:T38 Arg2:T36	
+R34	LOCATED_IN Arg1:T42 Arg2:T41	
+R35	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R36	PARTICIPANT_IN Arg1:T47 Arg2:T55	
+R37	LOCATED_IN Arg1:T47 Arg2:T48	
+R38	PARTICIPANT_IN Arg1:T49 Arg2:T55	
+R39	ORGANIZES Arg1:T58 Arg2:T59	
+R40	EXPENDITURE Arg1:T58 Arg2:T6	
+R41	HAS_CAUSE Arg1:T60 Arg2:T8	
+R42	EXPENDITURE Arg1:T61 Arg2:T16	
+R43	INCOME Arg1:T31 Arg2:T32	
+R44	HAS_CAUSE Arg1:T40 Arg2:T45	
+R45	HAS_CAUSE Arg1:T40 Arg2:T55	
+R46	PART_OF Arg1:T46 Arg2:T56	
+R47	ORIGINS_FROM Arg1:T56 Arg2:T53	
+N1	Reference T4 Wikidata:Q649	Москва
+N2	Reference T5 Wikidata:Q855493	Выставка достижений народного хозяйства
+N4	Reference T17 Wikidata:Q855493	Выставка достижений народного хозяйства
+N5	Reference T30 Wikidata:Q629733	РосБизнесКонсалтинг
+N7	Reference T35 Wikidata:Q1979285	Современник
+N8	Reference T36 Wikidata:Q55344956	Дворцовые конюшни (Петергоф)
+N9	Reference T37 Wikidata:Q42973	архитектор
+N10	Reference T38 Wikidata:Q1727224	Николай Леонтьевич Бенуа
+N11	Reference T39 Wikidata:Q178310	Петергоф
+N14	Reference T44 Wikidata:Q1780189	Коммерсантъ
+N17	Reference T48 Wikidata:Q2191	Ленинградская область
+N20	Reference T28 Wikidata:Q288514	ярмарка
+N22	Reference T53 Wikidata:Q159	Россия
+N24	Reference T56 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N25	Reference T58 Wikidata:Q3339281	Правительство Москвы
+N3	Reference T11 Wikidata:Q4228493	
+N19	Reference T13 Wikidata:NULL	нет данных
+N21	Reference T27 Wikidata:NULL	нет данных
+N6	Reference T34 Wikidata:Q649	Москва
+N12	Reference T41 Wikidata:Q1697	Московская область
+N13	Reference T42 Wikidata:Q2861586	
+N23	Reference T54 Wikidata:Q19705	уголовное законодательство
+N15	Reference T46 Wikidata:NULL	нет данных
+N16	Reference T47 Wikidata:Q1402157	
+N18	Reference T49 Wikidata:NULL	нет данных
+N26	Reference T9 Wikidata:Q649	Москва
+N27	Reference T2 Wikidata:Q855493	Выставка достижений народного хозяйства
+N28	Reference T15 Wikidata:Q855493	Выставка достижений народного хозяйства
+N29	Reference T61 Wikidata:Q3339281	Правительство Москвы
+N30	Reference T25 Wikidata:Q4228493	
+N31	Reference T3 Wikidata:Q4228493	
+N32	Reference T45 Wikidata:NULL	нет данных
+N33	Reference T31 Wikidata:NULL	нет данных
+N34	Reference T24 Wikidata:NULL	нет данных

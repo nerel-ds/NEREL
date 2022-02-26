@@ -1,0 +1,94 @@
+T1	NATIONALITY 0 11	Египетского
+T3	COUNTRY 118 130	американской
+T4	DATE 145 173	в пятницу, 4 марта 2016 года
+T6	PROFESSION 370 392	кандидата в президенты
+T7	ORGANIZATION 396 418	Республиканской партии
+T8	PERSON 419 434	Дональда Трампа
+T9	PERSON 437 455	Эмадельдин Эльсаед
+T10	AGE 457 466	23-летний
+T11	CITY 478 483	Каира
+T12	ORGANIZATION 500 520	иммиграционным судом
+T13	CITY 523 536	Лос-Анджелесе
+T14	PRODUCT 584 592	Facebook
+T15	PERSON 642 648	Трампа
+T16	PERSON 744 752	Эльсаеда
+T17	DISTRICT 784 790	Ориндж
+T18	DATE 810 822	с 12 февраля
+T19	PROFESSION 848 855	адвокат
+T20	DATE 950 966	в начале февраля
+T21	ORGANIZATION 1026 1042	Секретной службы
+T22	PERSON 1298 1306	Эльсаеда
+T23	PERSON 1389 1397	Эльсаеда
+T24	PERSON 1459 1466	Эльсаед
+T25	COUNTRY 1580 1597	Соединенные Штаты
+T26	PERSON 1599 1606	Эльсаед
+T27	PERSON 1653 1659	Трампа
+T28	PERSON 63 69	Трампе
+T29	PERSON 70 83	Дональд Трамп
+T30	NATIONALITY 84 94	Египетский
+T5	ORGANIZATION 198 216	иммиграционный суд
+T31	IDEOLOGY 396 411	Республиканской
+T32	PROFESSION 467 474	студент
+T33	PROFESSION 95 102	студент
+T34	PROFESSION 12 20	студента
+T35	PENALTY 613 629	пожизненный срок
+T37	PERSON 856 864	Эльсаеда
+T38	PROFESSION 1019 1042	агенты Секретной службы
+T39	PERSON 967 974	Эльсаед
+T40	RELIGION 1568 1577	мусульман
+R1	ORIGINS_FROM Arg1:T34 Arg2:T1	
+R2	ORIGINS_FROM Arg1:T33 Arg2:T30	
+R3	IDEOLOGY_OF Arg1:T8 Arg2:T31	
+R4	MEMBER_OF Arg1:T8 Arg2:T7	
+R5	WORKS_AS Arg1:T8 Arg2:T6	
+R6	AGE_IS Arg1:T9 Arg2:T10	
+R7	ORIGINS_FROM Arg1:T9 Arg2:T11	
+R8	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+R9	SUBORDINATE_OF Arg1:T19 Arg2:T37	
+R10	RELIGION_OF Arg1:T24 Arg2:T40	
+T41	PROFESSION 382 392	президенты
+T42	FACILITY 755 790	следственный изолятор округа Ориндж
+R11	LOCATED_IN Arg1:T16 Arg2:T42	
+T43	PENALTY 27 44	выслать из страны
+T44	PENALTY 254 264	депортации
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T16	
+R14	WORKPLACE Arg1:T38 Arg2:T21	
+R15	IDEOLOGY_OF Arg1:T7 Arg2:T31	
+R16	ORIGINS_FROM Arg1:T32 Arg2:T11	
+R18	ALTERNATIVE_NAME Arg1:T43 Arg2:T44	
+R19	AGE_IS Arg1:T32 Arg2:T10	
+R12	LOCATED_IN Arg1:T42 Arg2:T17	
+N1	Reference T3 Wikidata:Q30	США
+N3	Reference T7 Wikidata:Q29468	Республиканская партия
+N4	Reference T8 Wikidata:Q22686	Дональд Трамп
+N5	Reference T11 Wikidata:Q85	Каир
+N6	Reference T13 Wikidata:Q65	Лос-Анджелес
+N7	Reference T14 Wikidata:Q355	Facebook
+N9	Reference T19 Wikidata:Q40348	адвокат
+N10	Reference T25 Wikidata:Q30	США
+N12	Reference T27 Wikidata:Q22686	Дональд Трамп
+N15	Reference T34 Wikidata:Q3205563	Студент
+N17	Reference T40 Wikidata:Q47740	мусульманин
+N18	Reference T41 Wikidata:Q30461	президент
+N13	Reference T30 Wikidata:Q1061510	египтянин
+N14	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:NULL	нет данных
+N19	Reference T42 Wikidata:NULL	нет данных
+N8	Reference T17 Wikidata:Q5925	Ориндж
+N16	Reference T38 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N20	Reference T21 Wikidata:Q503224	
+N21	Reference T29 Wikidata:Q22686	Дональд Трамп
+N22	Reference T28 Wikidata:Q22686	Дональд Трамп
+N23	Reference T15 Wikidata:Q22686	Дональд Трамп
+N24	Reference T32 Wikidata:Q3205563	Студент
+N25	Reference T33 Wikidata:Q3205563	Студент
+N26	Reference T1 Wikidata:Q1061510	египтянин
+N27	Reference T12 Wikidata:NULL	нет данных
+N28	Reference T22 Wikidata:NULL	нет данных
+N29	Reference T37 Wikidata:NULL	нет данных
+N30	Reference T9 Wikidata:NULL	нет данных
+N31	Reference T23 Wikidata:NULL	нет данных
+N32	Reference T24 Wikidata:NULL	нет данных
+N33	Reference T39 Wikidata:NULL	нет данных
+N34	Reference T16 Wikidata:NULL	нет данных

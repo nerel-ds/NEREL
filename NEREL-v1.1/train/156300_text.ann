@@ -1,0 +1,229 @@
+T1	FAMILY 5 14	Скрипалей
+T2	PERSON 23 29	Гордон
+T3	FAMILY 47 56	Скрипалей
+T4	PERSON 70 76;84 92	Сергея Скрипаль
+T6	AGE 107 116	54-летний
+T7	PROFESSION 117 122	шпион
+T8	ORGANIZATION 123 126	ФСБ
+T9	ORGANIZATION 128 131	КГБ
+T10	PERSON 145 151	Гордон
+T11	PERSON 154 160	Gordon
+T12	ORGANIZATION 172 184	Daily Mirror
+T13	ORGANIZATION 199 216	The Sunday People
+T14	PERSON 256 271	Михаилс Савикис
+T15	PERSON 273 281	Савицкис
+T16	PERSON 293 309	Mihails Savickis
+T17	NUMBER 317 320	два
+T18	ORGANIZATION 476 489	Скотланд-Ярде
+T19	PERSON 509 523	Гордон-Савикис
+T20	COUNTRY 540 546	Россию
+T21	NATIONALITY 563 571	британцы
+T22	PERSON 639 654	Сергея Скрипаля
+T23	PERSON 666 670	Юлию
+T24	NUMBER 694 699	шести
+T25	COUNTRY 753 763	российским
+T26	PERSON 917 924	Гордона
+T27	TIME 943 955	пятичасового
+T28	CITY 966 973	Лондоне
+T29	PERSON 993 1010	Бориса Карпичкова
+T30	PERSON 1019 1024	Борис
+T31	PERSON 1044 1050	Гордон
+T32	DATE 1075 1096	в начале 1990-х годов
+T33	PROFESSION 1118 1125	майором
+T34	COUNTRY 1132 1138	Латвии
+T35	PERSON 1301 1310	Карпичков
+T36	PERSON 1331 1337	Бориса
+T37	PERSON 1339 1345	Гордон
+T38	PROFESSION 1461 1467	юриста
+T39	PERSON 1470 1479	Капричков
+T40	DATE 1503 1517	в 1990-х годах
+T41	PERSON 1524 1530	Гордон
+T43	COUNTRY 1577 1583	Латвии
+T44	PERSON 1622 1628	Гордон
+T45	ORGANIZATION 1655 1658	ФСБ
+T46	PROFESSION 1752 1765	сотрудник ГРУ
+T47	PERSON 1766 1772	Сергей
+T48	PERSON 1784 1797	Юлия Скрипаль
+T49	DATE 1830 1847	4 марта 2018 года
+T50	CITY 1850 1858	Солсбери
+T51	COUNTRY 1939 1953	Великобритания
+T52	COUNTRY 2010 2014	СССР
+T53	PRODUCT 2026 2033	Новичок
+T54	ORGANIZATION 2065 2109	Организация по запрещению химического оружия
+T55	ORGANIZATION 2111 2115	ОЗХО
+T56	COUNTRY 2118 2124	Россия
+T57	PERSON 2168 2181	Юлия Скрипаль
+T58	COUNTRY 2274 2284	британских
+T59	PERSON 2294 2309	Сергей Скрипаль
+T60	EVENT 15 22	отравил
+T62	FAMILY 70 92	Сергея и Юлии Скрипаль
+T63	PROFESSION 117 126	шпион ФСБ
+T64	PERSON 283 291	Савискис
+T65	ORGANIZATION 602 609	полиции
+T66	COUNTRY 719 729	российская
+T67	ORGANIZATION 753 778	российским правительством
+T68	PROFESSION 974 980	шпиона
+T69	PROFESSION 1118 1129	майором ФСБ
+T70	ORGANIZATION 1126 1129	ФСБ
+T71	ORGANIZATION 1423 1440	университете Риги
+T72	CITY 1436 1440	Риги
+T73	ORGANIZATION 1762 1765	ГРУ
+T74	PROFESSION 1967 1973	шпиона
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T60	
+R2	AGENT Arg1:T2 Arg2:T60	
+T42	PERSON 79 92	Юлии Скрипаль
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T62	
+R4	MEMBER_OF Arg1:T4 Arg2:T62	
+R5	MEMBER_OF Arg1:T42 Arg2:T62	
+R6	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R7	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R8	WORKPLACE Arg1:T63 Arg2:T8	
+R9	AGE_IS Arg1:T10 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R11	ALTERNATIVE_NAME Arg1:T15 Arg2:T64	
+R12	ALTERNATIVE_NAME Arg1:T64 Arg2:T16	
+R13	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R14	ALTERNATIVE_NAME Arg1:T14 Arg2:T64	
+R15	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R16	ALTERNATIVE_NAME Arg1:T10 Arg2:T14	
+R17	ALTERNATIVE_NAME Arg1:T14 Arg2:T19	
+R18	ALTERNATIVE_NAME Arg1:T4 Arg2:T22	
+R19	ALTERNATIVE_NAME Arg1:T42 Arg2:T23	
+R20	WORKS_AS Arg1:T29 Arg2:T68	
+T5	EVENT 956 963	допроса
+R21	PARTICIPANT_IN Arg1:T29 Arg2:T5	
+R22	TAKES_PLACE_IN Arg1:T5 Arg2:T28	
+R23	ALTERNATIVE_NAME Arg1:T19 Arg2:T26	
+R24	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R25	SUBORDINATE_OF Arg1:T31 Arg2:T30	
+R26	WORKPLACE Arg1:T69 Arg2:T70	
+R27	WORKPLACE Arg1:T30 Arg2:T70	
+R28	WORKPLACE Arg1:T30 Arg2:T34	
+R29	WORKS_AS Arg1:T30 Arg2:T69	
+R30	WORKPLACE Arg1:T31 Arg2:T70	
+R31	ALTERNATIVE_NAME Arg1:T30 Arg2:T35	
+R32	KNOWS Arg1:T36 Arg2:T37	
+R33	KNOWS Arg1:T37 Arg2:T36	
+R34	HEADQUARTERED_IN Arg1:T71 Arg2:T72	
+R35	SCHOOLS_ATTENDED Arg1:T37 Arg2:T71	
+T75	PROFESSION 1541 1574	босса организованной преступности
+T61	EVENT 1531 1540	застрелил
+R36	POINT_IN_TIME Arg1:T61 Arg2:T40	
+R37	AGENT Arg1:T41 Arg2:T61	
+R38	PARTICIPANT_IN Arg1:T75 Arg2:T61	
+R39	TAKES_PLACE_IN Arg1:T61 Arg2:T43	
+R40	ALTERNATIVE_NAME Arg1:T36 Arg2:T39	
+R41	WORKPLACE Arg1:T44 Arg2:T45	
+R42	WORKPLACE Arg1:T46 Arg2:T73	
+R43	WORKS_AS Arg1:T47 Arg2:T46	
+R44	WORKPLACE Arg1:T47 Arg2:T73	
+R45	WORKS_AS Arg1:T48 Arg2:T46	
+R46	WORKPLACE Arg1:T48 Arg2:T73	
+T76	DISEASE 1819 1829	отравления
+R47	MEDICAL_CONDITION Arg1:T48 Arg2:T76	
+R48	MEDICAL_CONDITION Arg1:T47 Arg2:T76	
+T77	EVENT 1798 1805	найдены
+R49	PARTICIPANT_IN Arg1:T48 Arg2:T77	
+R50	PARTICIPANT_IN Arg1:T47 Arg2:T77	
+R51	POINT_IN_TIME Arg1:T77 Arg2:T49	
+R52	TAKES_PLACE_IN Arg1:T77 Arg2:T50	
+T78	PROFESSION 1887 1898	полицейский
+T79	EVENT 1860 1876	Госпитализирован
+R53	PARTICIPANT_IN Arg1:T78 Arg2:T79	
+R54	TAKES_PLACE_IN Arg1:T79 Arg2:T50	
+R55	POINT_IN_TIME Arg1:T79 Arg2:T49	
+R56	ORIGINS_FROM Arg1:T53 Arg2:T52	
+R57	ABBREVIATION Arg1:T54 Arg2:T55	
+T80	ORGANIZATION 2274 2292	британских властей
+R58	HEADQUARTERED_IN Arg1:T80 Arg2:T58	
+R59	ALTERNATIVE_NAME Arg1:T51 Arg2:T58	
+T81	EVENT 2195 2215	выписана из больницы
+R60	PARTICIPANT_IN Arg1:T57 Arg2:T81	
+T82	DATE 2182 2189	на днях
+R61	POINT_IN_TIME Arg1:T81 Arg2:T82	
+R62	PARENT_OF Arg1:T22 Arg2:T23	
+R63	PARENT_OF Arg1:T47 Arg2:T48	
+R64	WORKS_AS Arg1:T47 Arg2:T74	
+T83	EVENT 36 46	отравления
+R65	ALTERNATIVE_NAME Arg1:T60 Arg2:T83	
+R66	PARTICIPANT_IN Arg1:T3 Arg2:T83	
+T84	EVENT 59 69	отравлении
+R67	ALTERNATIVE_NAME Arg1:T83 Arg2:T84	
+R68	PARTICIPANT_IN Arg1:T62 Arg2:T84	
+R69	PARTICIPANT_IN Arg1:T10 Arg2:T84	
+R70	ALTERNATIVE_NAME Arg1:T20 Arg2:T66	
+R71	HEADQUARTERED_IN Arg1:T67 Arg2:T25	
+T85	EVENT 619 635	химической атаке
+R72	PARTICIPANT_IN Arg1:T22 Arg2:T85	
+R73	PARTICIPANT_IN Arg1:T23 Arg2:T85	
+R74	ALTERNATIVE_NAME Arg1:T84 Arg2:T85	
+R75	WORKS_AS Arg1:T37 Arg2:T38	
+T86	EVENT 1985 1993	отравили
+R76	PARTICIPANT_IN Arg1:T47 Arg2:T86	
+R77	PARTICIPANT_IN Arg1:T48 Arg2:T86	
+R78	INANIMATE_INVOLVED Arg1:T53 Arg2:T86	
+R79	PARTICIPANT_IN Arg1:T74 Arg2:T86	
+N1	Reference T12 Wikidata:Q217623	The Daily Mirror
+N3	Reference T18 Wikidata:Q184619	Скотланд-Ярд
+N5	Reference T22 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N6	Reference T28 Wikidata:Q84	Лондон
+N8	Reference T33 Wikidata:Q983927	майор
+N9	Reference T38 Wikidata:Q185351	юрист
+N11	Reference T43 Wikidata:Q211	Латвия
+N12	Reference T45 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N15	Reference T50 Wikidata:Q160642	Солсбери
+N16	Reference T52 Wikidata:Q15180	СССР
+N17	Reference T53 Wikidata:Q826629	Новичок
+N18	Reference T54 Wikidata:Q842490	ОЗХО
+N20	Reference T59 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N22	Reference T65 Wikidata:Q35535	полиция
+N24	Reference T67 Wikidata:Q1140115	Правительство Российской Федерации
+N25	Reference T68 Wikidata:Q2314719	разведчик
+N28	Reference T72 Wikidata:Q1773	Рига
+N29	Reference T73 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N33	Reference T42 Wikidata:Q50559234	
+N21	Reference T63 Wikidata:Q7008742	
+N2	Reference T13 Wikidata:Q1253247	
+N4	Reference T21 Wikidata:Q145	Великобритания
+N23	Reference T66 Wikidata:Q159	Россия
+N34	Reference T26 Wikidata:NULL	нет данных
+N7	Reference T30 Wikidata:NULL	нет данных
+N26	Reference T69 Wikidata:NULL	нет данных
+N27	Reference T71 Wikidata:Q498407	
+N10	Reference T39 Wikidata:NULL	нет данных
+N30	Reference T75 Wikidata:NULL	нет данных
+N13	Reference T46 Wikidata:NULL	нет данных
+N14	Reference T47 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N31	Reference T78 Wikidata:Q384593	
+N19	Reference T58 Wikidata:Q145	Великобритания
+N32	Reference T80 Wikidata:NULL	нет данных
+N35	Reference T4 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N36	Reference T34 Wikidata:Q211	Латвия
+N37	Reference T70 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N38	Reference T9 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N39	Reference T8 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N40	Reference T55 Wikidata:Q842490	ОЗХО
+N41	Reference T7 Wikidata:Q2314719	разведчик
+N42	Reference T74 Wikidata:Q2314719	разведчик
+N43	Reference T48 Wikidata:Q50559234	
+N44	Reference T57 Wikidata:Q50559234	
+N45	Reference T23 Wikidata:Q50559234	
+N46	Reference T25 Wikidata:Q159	Россия
+N47	Reference T56 Wikidata:Q159	Россия
+N48	Reference T20 Wikidata:Q159	Россия
+N49	Reference T44 Wikidata:NULL	нет данных
+N50	Reference T10 Wikidata:NULL	нет данных
+N51	Reference T15 Wikidata:NULL	нет данных
+N52	Reference T19 Wikidata:NULL	нет данных
+N53	Reference T31 Wikidata:NULL	нет данных
+N54	Reference T14 Wikidata:NULL	нет данных
+N55	Reference T64 Wikidata:NULL	нет данных
+N56	Reference T16 Wikidata:NULL	нет данных
+N57	Reference T37 Wikidata:NULL	нет данных
+N58	Reference T11 Wikidata:NULL	нет данных
+N59	Reference T2 Wikidata:NULL	нет данных
+N60	Reference T41 Wikidata:NULL	нет данных
+N61	Reference T29 Wikidata:NULL	нет данных
+N62	Reference T35 Wikidata:NULL	нет данных
+N63	Reference T36 Wikidata:NULL	нет данных
+N64	Reference T51 Wikidata:Q145	Великобритания

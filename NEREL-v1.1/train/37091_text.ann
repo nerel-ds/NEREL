@@ -1,0 +1,69 @@
+T1	COUNTRY 0 3	США
+T2	COUNTRY 11 18	Украину
+T3	DATE 76 91	1 мая 2013 года
+T5	COUNTRY 127 130	США
+T6	COUNTRY 138 145	Украину
+T8	DATE 313 323	ежегодному
+T9	COUNTRY 403 415	американских
+T10	COUNTRY 449 456	Украина
+T11	COUNTRY 668 675	Украине
+T12	PROFESSION 796 843	Исполняющий обязанности торгового представителя
+T13	COUNTRY 844 847	США
+T14	PERSON 848 866	Деметриос Марантис
+T15	COUNTRY 890 897	Украина
+T16	ORDINAL 904 910	первой
+T17	DATE 911 920	за 11 лет
+T18	COUNTRY 970 973	США
+T19	ORGANIZATION 1117 1130	правительство
+T20	COUNTRY 1244 1247	США
+T21	COUNTRY 1268 1275	Украина
+T22	COUNTRY 1427 1434	Украины
+T23	COUNTRY 1471 1476	Алжир
+T24	COUNTRY 1478 1487	Аргентина
+T25	COUNTRY 1489 1493	Чили
+T26	COUNTRY 1495 1500	Китай
+T27	COUNTRY 1502 1507	Индия
+T28	COUNTRY 1509 1518	Индонезия
+T29	COUNTRY 1520 1528	Пакистан
+T30	COUNTRY 1530 1536	Россия
+T31	COUNTRY 1539 1548	Венесуэла
+T32	ORGANIZATION 92 130	управление торгового представителя США
+T7	COUNTRY 281 301	Соединенными Штатами
+T34	PROFESSION 796 847	Исполняющий обязанности торгового представителя США
+R1	HEADQUARTERED_IN Arg1:T32 Arg2:T5	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+R4	WORKPLACE Arg1:T34 Arg2:T13	
+R5	WORKPLACE Arg1:T14 Arg2:T13	
+R6	WORKS_AS Arg1:T14 Arg2:T34	
+T4	EVENT 4 38	внесли Украину в «надзорный список
+R7	AGENT Arg1:T1 Arg2:T4	
+R8	PARTICIPANT_IN Arg1:T2 Arg2:T4	
+N1	Reference T5 Wikidata:Q30	США
+N2	Reference T10 Wikidata:Q212	Украина
+N4	Reference T14 Wikidata:Q16200159	Димитриос Марантис
+N5	Reference T19 Wikidata:Q7188	правительство
+N6	Reference T23 Wikidata:Q262	Алжир
+N7	Reference T24 Wikidata:Q414	Аргентина
+N8	Reference T25 Wikidata:Q298	Чили
+N9	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N10	Reference T27 Wikidata:Q668	Индия
+N11	Reference T28 Wikidata:Q252	Индонезия
+N12	Reference T29 Wikidata:Q843	Пакистан
+N13	Reference T30 Wikidata:Q159	Россия
+N14	Reference T31 Wikidata:Q717	Венесуэла
+N15	Reference T32 Wikidata:Q1574977	USTR
+N3	Reference T12 Wikidata:NULL	нет данных
+N16	Reference T34 Wikidata:NULL	нет данных
+N17	Reference T13 Wikidata:Q30	США
+N18	Reference T20 Wikidata:Q30	США
+N19	Reference T7 Wikidata:Q30	США
+N20	Reference T9 Wikidata:Q30	США
+N21	Reference T18 Wikidata:Q30	США
+N22	Reference T1 Wikidata:Q30	США
+N23	Reference T22 Wikidata:Q212	Украина
+N24	Reference T15 Wikidata:Q212	Украина
+N25	Reference T6 Wikidata:Q212	Украина
+N26	Reference T11 Wikidata:Q212	Украина
+N27	Reference T2 Wikidata:Q212	Украина
+N28	Reference T21 Wikidata:Q212	Украина

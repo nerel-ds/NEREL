@@ -1,0 +1,148 @@
+T1	PROFESSION 5 11	муфтий
+T2	STATE_OR_PROVINCE 12 30	Кабардино-Балкарии
+T3	ORGANIZATION 46 70	следственного управления
+T6	TIME 111 129	вечером 15 декабря
+T7	PROFESSION 139 151	председатель
+T8	ORGANIZATION 152 182	Духовного управления мусульман
+T9	ORGANIZATION 184 187	ДУМ
+T10	PERSON 200 213	Анас Пшихачев
+T11	PROFESSION 215 221	Муфтий
+T12	NUMBER 236 241	двумя
+T13	ORGANIZATION 266 274	Лента.ру
+T16	ORGANIZATION 336 339	ДУМ
+T17	PROFESSION 381 387	муфтия
+T18	NUMBER 388 404	не менее четырёх
+T19	NUMBER 438 442	9 мм
+T20	AGE 444 453	47-летний
+T21	PERSON 454 462	Пшихачев
+T23	ORGANIZATION 532 556	следственного управления
+T24	NUMBER 609 613	двум
+T25	ORDINAL 623 628	105-й
+T27	ORDINAL 655 660	222-й
+T29	ORGANIZATION 729 731	СК
+T30	PERSON 732 749	Владимира Маркина
+T31	PERSON 775 790	Анаса Пшихачева
+T32	ORGANIZATION 808 869	Главное следственное управление по Южному федеральному округу
+T33	PERSON 901 914	Анас Пшихачев
+T34	EVENT 932 945	круглом столе
+T37	STATE_OR_PROVINCE 997 1015	Кабардино-Балкарии
+T38	CITY 1062 1068	Москве
+T40	DISTRICT 1128 1132	СКФО
+T41	PERSON 1133 1155	Александром Хлопониным
+T42	PERSON 1156 1164	Пшихачев
+T35	EVENT 0 4	Убит
+T36	PROFESSION 5 30	муфтий Кабардино-Балкарии
+T43	STATE_OR_PROVINCE 80 98	Кабардино-Балкарии
+T44	ORGANIZATION 71 73	СК
+T45	ORGANIZATION 71 76	СК РФ
+T5	CITY 102 110	Нальчике
+T46	RELIGION 173 182	мусульман
+T47	EVENT 134 138	убит
+T48	PROFESSION 139 182	председатель Духовного управления мусульман
+T49	EVENT 226 235	застрелен
+T51	EVENT 463 472	скончался
+T52	DISEASE 496 503	ранений
+T54	CRIME 567 575	убийства
+T55	EVENT 580 605	возбуждено уголовное дело
+T26	CRIME 632 651	Умышленное убийство
+T56	CRIME 664 702	Незаконный оборот оружия и боеприпасов
+T22	DISTRICT 843 869	Южному федеральному округу
+T39	PROFESSION 1116 1125	полпредом
+T53	PROFESSION 1116 1132	полпредом в СКФО
+T57	DATE 892 900	накануне
+T59	EVENT 1047 1059	беспорядками
+T61	ORGANIZATION 46 98	следственного управления СК РФ по Кабардино-Балкарии
+T62	ORGANIZATION 46 76	следственного управления СК РФ
+T63	COUNTRY 74 76	РФ
+T60	DATE 119 129	15 декабря
+T14	EVENT 388 414	не менее четырёх выстрелов
+T64	ORGANIZATION 808 839	Главное следственное управление
+T28	CRIME 766 774	убийства
+R1	PARTICIPANT_IN Arg1:T36 Arg2:T35	
+R2	WORKPLACE Arg1:T36 Arg2:T2	
+R3	HEADQUARTERED_IN Arg1:T61 Arg2:T43	
+R4	HEADQUARTERED_IN Arg1:T45 Arg2:T63	
+R5	LOCATED_IN Arg1:T43 Arg2:T63	
+R6	POINT_IN_TIME Arg1:T47 Arg2:T60	
+R7	LOCATED_IN Arg1:T5 Arg2:T43	
+R8	TAKES_PLACE_IN Arg1:T47 Arg2:T5	
+R9	ABBREVIATION Arg1:T8 Arg2:T9	
+R10	WORKPLACE Arg1:T10 Arg2:T8	
+R11	WORKS_AS Arg1:T10 Arg2:T48	
+R12	WORKPLACE Arg1:T48 Arg2:T8	
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T47	
+R14	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+T15	PROFESSION 330 339	главы ДУМ
+R15	ALTERNATIVE_NAME Arg1:T48 Arg2:T15	
+R16	WORKPLACE Arg1:T15 Arg2:T16	
+R17	PARTICIPANT_IN Arg1:T17 Arg2:T14	
+R18	ALTERNATIVE_NAME Arg1:T49 Arg2:T14	
+R19	AGE_IS Arg1:T21 Arg2:T20	
+R20	ALTERNATIVE_NAME Arg1:T10 Arg2:T21	
+R21	PARTICIPANT_IN Arg1:T21 Arg2:T51	
+T4	EVENT 751 765	расследованием
+R22	HEADQUARTERED_IN Arg1:T32 Arg2:T22	
+R24	AGENT Arg1:T32 Arg2:T4	
+R25	WORKPLACE Arg1:T30 Arg2:T29	
+R26	PARTICIPANT_IN Arg1:T33 Arg2:T34	
+R27	POINT_IN_TIME Arg1:T34 Arg2:T57	
+R28	TAKES_PLACE_IN Arg1:T59 Arg2:T38	
+R23	WORKPLACE Arg1:T53 Arg2:T40	
+R29	WORKPLACE Arg1:T41 Arg2:T40	
+R30	WORKS_AS Arg1:T41 Arg2:T53	
+T50	EVENT 1106 1113	встречи
+R31	AGENT Arg1:T41 Arg2:T50	
+R32	AGENT Arg1:T42 Arg2:T50	
+R33	KNOWS Arg1:T41 Arg2:T42	
+R34	PARTICIPANT_IN Arg1:T31 Arg2:T28	
+R35	ALTERNATIVE_NAME Arg1:T33 Arg2:T42	
+R36	HAS_CAUSE Arg1:T55 Arg2:T54	
+R37	CAUSE_OF_DEATH Arg1:T21 Arg2:T52	
+R38	RELIGION_OF Arg1:T10 Arg2:T46	
+R39	PARTICIPANT_IN Arg1:T11 Arg2:T49	
+R40	HAS_CAUSE Arg1:T51 Arg2:T52	
+R41	PARTICIPANT_IN Arg1:T21 Arg2:T54	
+R42	ALTERNATIVE_NAME Arg1:T21 Arg2:T31	
+R43	HAS_CAUSE Arg1:T4 Arg2:T28	
+R44	TAKES_PLACE_IN Arg1:T34 Arg2:T37	
+R45	HAS_CAUSE Arg1:T34 Arg2:T59	
+N2	Reference T7 Wikidata:Q140686	председатель
+N4	Reference T10 Wikidata:Q486464	Пшихачев, Анас Мусаевич
+N5	Reference T11 Wikidata:Q185992	муфтий
+N6	Reference T13 Wikidata:Q658909	Lenta.ru
+N9	Reference T38 Wikidata:Q649	Москва
+N10	Reference T40 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N11	Reference T41 Wikidata:Q737860	Александр Геннадиевич Хлопонин
+N12	Reference T42 Wikidata:Q486464	Пшихачев, Анас Мусаевич
+N14	Reference T43 Wikidata:Q5267	Кабардино-Балкария
+N15	Reference T44 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N16	Reference T45 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N17	Reference T5 Wikidata:Q5265	Нальчик
+N18	Reference T46 Wikidata:Q47740	мусульманин
+N20	Reference T22 Wikidata:Q483599	Южный федеральный округ
+N24	Reference T63 Wikidata:Q159	Россия
+N13	Reference T36 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:NULL	нет данных
+N22	Reference T61 Wikidata:NULL	нет данных
+N23	Reference T62 Wikidata:NULL	нет данных
+N19	Reference T48 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q30890115	
+N26	Reference T26 Wikidata:NULL	нет данных
+N27	Reference T56 Wikidata:NULL	нет данных
+N7	Reference T30 Wikidata:Q4281950	
+N25	Reference T64 Wikidata:NULL	нет данных
+N8	Reference T32 Wikidata:NULL	нет данных
+N28	Reference T39 Wikidata:Q4370371	
+N21	Reference T53 Wikidata:NULL	нет данных
+N29	Reference T31 Wikidata:Q486464	Пшихачев, Анас Мусаевич
+N30	Reference T21 Wikidata:Q486464	Пшихачев, Анас Мусаевич
+N31	Reference T17 Wikidata:Q185992	муфтий
+N32	Reference T1 Wikidata:Q185992	муфтий
+N33	Reference T33 Wikidata:Q486464	Пшихачев, Анас Мусаевич
+N34	Reference T2 Wikidata:Q5267	Кабардино-Балкария
+N35	Reference T37 Wikidata:Q5267	Кабардино-Балкария
+N36	Reference T29 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N37	Reference T23 Wikidata:NULL	нет данных
+N38	Reference T15 Wikidata:NULL	нет данных
+N39	Reference T9 Wikidata:Q30890115	
+N40	Reference T16 Wikidata:Q30890115	

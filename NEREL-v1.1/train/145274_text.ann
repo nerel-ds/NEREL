@@ -1,0 +1,106 @@
+T1	AGE 2 10	75-летию
+T2	CITY 27 37	Ленинграда
+T4	EVENT 58 74	Операция «Искра»
+T5	EVENT 68 73	Искра
+T6	DATE 78 87	18 января
+T7	ORGANIZATION 90 158	Военно-историческом музее артиллерии, инженерных войск и войск связи
+T8	EVENT 188 204	Операция «Искра»
+T10	AGE 220 228	75-летию
+T11	CITY 300 310	Ленинграда
+T12	LOCATION 447 451	Неве
+T13	COUNTRY 477 485	немецких
+T14	PRODUCT 504 511	Опытный
+T15	DATE 515 531	январе 1943 года
+T16	CITY 554 567	Шлиссельбурга
+T17	ORGANIZATION 601 620	Волховского фронтов
+T18	CITY 623 643	Рабочего поселка № 1
+T20	ORDINAL 682 688	первый
+T21	CITY 724 730	Поляны
+T22	CITY 733 745	Шлиссельбург
+T23	DATE 748 772	начале февраля 1943 года
+T24	PERSON 883 894	Н. Никитина
+T25	PROFESSION 948 977	командиру пулемётного расчета
+T26	AWARD 978 1000	Герою Советского Союза
+T27	PERSON 1001 1019	Михаилу Козомазову
+T3	EVENT 169 204	открытие выставки "Операция «Искра»
+T9	EVENT 198 203	Искра
+T30	COUNTRY 984 1000	Советского Союза
+T31	CITY 841 851	Ленинграда
+T32	PROFESSION 874 882	сержанта
+T33	ORGANIZATION 1105 1113	вермахта
+T34	PROFESSION 1098 1113	солдат вермахта
+T28	ORGANIZATION 584 598;613 620	Ленинградского фронтов
+T29	ORGANIZATION 1123 1137;1152 1159	Ленинградского фронтов
+T35	ORGANIZATION 1140 1159	Волховского фронтов
+T36	EVENT 469 476	обстрел
+T37	ORDINAL 642 643	1
+T38	EVENT 11 37	прорыва блокады Ленинграда
+R1	TAKES_PLACE_IN Arg1:T38 Arg2:T2	
+R2	AGE_IS Arg1:T38 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T38	
+R4	SUBEVENT_OF Arg1:T3 Arg2:T8	
+T39	EVENT 283 310	прорывом блокады Ленинграда
+R5	TAKES_PLACE_IN Arg1:T39 Arg2:T11	
+R6	AGE_IS Arg1:T39 Arg2:T10	
+T40	CITY 437 451	города на Неве
+R7	LOCATED_IN Arg1:T40 Arg2:T12	
+R8	ALTERNATIVE_NAME Arg1:T11 Arg2:T40	
+R9	WORKS_AS Arg1:T24 Arg2:T32	
+R10	WORKS_AS Arg1:T27 Arg2:T25	
+R11	WORKPLACE Arg1:T34 Arg2:T33	
+R12	AWARDED_WITH Arg1:T27 Arg2:T26	
+R13	ORIGINS_FROM Arg1:T26 Arg2:T30	
+R14	POINT_IN_TIME Arg1:T3 Arg2:T6	
+R15	TAKES_PLACE_IN Arg1:T3 Arg2:T7	
+R16	TAKES_PLACE_IN Arg1:T8 Arg2:T7	
+R17	START_TIME Arg1:T8 Arg2:T6	
+R18	HEADQUARTERED_IN Arg1:T7 Arg2:T2	
+T41	EVENT 424 451	освобождению города на Неве
+R19	ALTERNATIVE_NAME Arg1:T39 Arg2:T41	
+T42	EVENT 645 651	митинг
+R20	POINT_IN_TIME Arg1:T42 Arg2:T15	
+R21	POINT_IN_TIME Arg1:T36 Arg2:T15	
+T44	EVENT 665 680	прорыву блокады
+R22	ALTERNATIVE_NAME Arg1:T39 Arg2:T44	
+R23	SUBEVENT_OF Arg1:T36 Arg2:T39	
+R24	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R25	INANIMATE_INVOLVED Arg1:T14 Arg2:T36	
+R26	PARTICIPANT_IN Arg1:T13 Arg2:T36	
+T43	EVENT 569 576	встреча
+R27	TAKES_PLACE_IN Arg1:T43 Arg2:T18	
+R28	HAS_CAUSE Arg1:T42 Arg2:T44	
+T19	PROFESSION 577 583	бойцов
+R29	AGENT Arg1:T19 Arg2:T43	
+R30	WORKPLACE Arg1:T19 Arg2:T28	
+R31	WORKPLACE Arg1:T19 Arg2:T17	
+T45	LOCATION 601 612	Волховского
+T46	CITY 584 598	Ленинградского
+T47	CITY 1123 1137	Ленинградского
+N1	Reference T7 Wikidata:Q2388030	Военно-исторический музей артиллерии, инженерных войск и войск связи
+N2	Reference T12 Wikidata:Q645	Нева
+N6	Reference T21 Wikidata:Q19805451	Поляна
+N7	Reference T22 Wikidata:Q15339	Шлиссельбург
+N10	Reference T26 Wikidata:Q178473	Герой Советского Союза
+N11	Reference T27 Wikidata:Q15069057	Козомазов, Михаил Иванович
+N12	Reference T30 Wikidata:Q15180	СССР
+N13	Reference T32 Wikidata:Q157696	сержант
+N14	Reference T33 Wikidata:Q128781	Вермахт
+N16	Reference T28 Wikidata:Q1635580	Ленинградский фронт
+N17	Reference T29 Wikidata:Q1635580	Ленинградский фронт
+N18	Reference T35 Wikidata:Q684080	Волховский фронт
+N19	Reference T40 Wikidata:Q656	Санкт-Петербург
+N3	Reference T13 Wikidata:Q7318	Третий рейх
+N4	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T19 Wikidata:Q47064	военнослужащий
+N21	Reference T46 Wikidata:Q656	Санкт-Петербург
+N20	Reference T45 Wikidata:Q15245	
+N5	Reference T18 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:NULL	нет данных
+N9	Reference T25 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:NULL	нет данных
+N23	Reference T16 Wikidata:Q15339	Шлиссельбург
+N24	Reference T17 Wikidata:Q684080	Волховский фронт
+N25	Reference T31 Wikidata:Q656	Санкт-Петербург
+N26	Reference T11 Wikidata:Q656	Санкт-Петербург
+N27	Reference T2 Wikidata:Q656	Санкт-Петербург
+N28	Reference T47 Wikidata:Q656	Санкт-Петербург

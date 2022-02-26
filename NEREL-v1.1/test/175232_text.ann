@@ -1,0 +1,179 @@
+T1	NATIONALITY 0 8	Украинец
+T2	PERSON 9 23	Александр Усик
+T3	PERSON 55 69	Александр Усик
+T4	DATE 70 98	В субботу, 21 июля 2018 года
+T5	FACILITY 113 124	Олимпийский
+T6	CITY 128 134	Москве
+T7	PERSON 144 158	Александр Усик
+T8	STATE_OR_PROVINCE 176 191	Северной Осетии
+T10	PERSON 203 218	Мурата Гассиева
+T11	EVENT 228 259	Всемирной боксерской суперсерии
+T13	EVENT 261 265	WBSS
+T14	PERSON 340 353	Мохаммеда Али
+T15	ORGANIZATION 387 396	WBA super
+T16	ORGANIZATION 398 401	WBC
+T17	ORGANIZATION 403 406	IBF
+T18	ORGANIZATION 408 411	WBO
+T19	ORGANIZATION 436 444	The Ring
+T20	PERSON 447 451	Усик
+T21	NUMBER 497 500	120
+T22	NUMBER 515 518	119
+T23	AGE 525 534	24-летний
+T24	ORDINAL 552 558	первое
+T25	NUMBER 580 582	26
+T26	NUMBER 597 599	19
+T27	AGE 616 626	31-летнего
+T28	PERSON 627 643	Александра Усика
+T29	NUMBER 644 646	15
+T30	NUMBER 654 656	11
+T31	NUMBER 671 673	15
+T32	ORDINAL 731 737	первый
+T33	ORDINAL 787 793	втором
+T34	PERSON 835 840	Усику
+T35	PERSON 922 927	Усика
+T36	NATIONALITY 955 963	Украинец
+T37	PERSON 1152 1166	Александр Усик
+T38	ORDINAL 1172 1179	третьим
+T39	ORDINAL 1218 1224	первом
+T40	NATIONALITY 1269 1279	американец
+T41	PERSON 1280 1296	Эвандер Холифилд
+T42	PERSON 1299 1309	О’Нил Белл
+T43	COUNTRY 1312 1318	Ямайки
+T44	ORGANIZATION 1380 1383	WBC
+T45	ORGANIZATION 1385 1388	WBA
+T46	ORGANIZATION 1391 1394	IBF
+T47	DATE 1396 1407	В 2007 году
+T48	ORGANIZATION 1454 1457	WBO
+T49	PERSON 1476 1490	Александр Усик
+T50	PERSON 1841 1852	Тони Беллью
+T51	PERSON 1999 2012	Мурат Гассиев
+T52	PERSON 2047 2052	Усика
+T53	PERSON 2069 2078	Александр
+T54	PERSON 2188 2198	Александра
+T55	AWARD 29 54	абсолютным чемпионом мира
+T56	AWARD 40 54	чемпионом мира
+T57	NATIONALITY 135 143	украинец
+T58	FACILITY 109 124	СК «Олимпийский
+T9	NATIONALITY 192 202	россиянина
+T12	AWARD 273 320	абсолютным чемпионом мира в первом тяжёлом весе
+T60	AWARD 284 298	чемпионом мира
+T61	AWARD 334 353	кубка Мохаммеда Али
+T62	NUMBER 501 504	108
+T63	NUMBER 506 509	119
+T64	NUMBER 510 513	109
+T65	NUMBER 519 522	109
+T66	PERSON 535 542	Гассиев
+T67	PROFESSION 698 705	Боксёры
+T68	PERSON 801 808	Гасиеву
+T69	NUMBER 809 815	дважды
+T70	PROFESSION 877 884	боксёра
+T71	PERSON 1012 1020	Гассиева
+T72	PROFESSION 1138 1149	спортсменов
+T73	AWARD 1190 1215	абсолютным чемпионом мира
+T74	AWARD 1201 1215	чемпионом мира
+T75	PROFESSION 1419 1429	боксёрским
+T76	PROFESSION 1498 1509	журналистам
+T77	PERSON 2327 2332	Усика
+T78	DATE 2310 2317	Сегодня
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	AWARDED_WITH Arg1:T2 Arg2:T55	
+R3	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R4	PLACE_OF_BIRTH Arg1:T10 Arg2:T8	
+R5	ORIGINS_FROM Arg1:T7 Arg2:T57	
+T59	EVENT 221 259	финале Всемирной боксерской суперсерии
+R6	SUBEVENT_OF Arg1:T59 Arg2:T11	
+R8	AWARDED_WITH Arg1:T7 Arg2:T12	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T20	
+R10	AGE_IS Arg1:T66 Arg2:T23	
+R11	ALTERNATIVE_NAME Arg1:T10 Arg2:T66	
+R12	AGE_IS Arg1:T28 Arg2:T27	
+R13	ORIGINS_FROM Arg1:T41 Arg2:T40	
+R14	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+R15	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R16	ALTERNATIVE_NAME Arg1:T54 Arg2:T77	
+R17	TAKES_PLACE_IN Arg1:T59 Arg2:T58	
+R18	POINT_IN_TIME Arg1:T59 Arg2:T4	
+R19	LOCATED_IN Arg1:T58 Arg2:T6	
+T79	AWARD 273 298	абсолютным чемпионом мира
+R20	AWARDED_WITH Arg1:T7 Arg2:T61	
+T80	AWARD 355 375	поясов чемпиона мира
+T81	AWARD 355 396	поясов чемпиона мира по версиям WBA super
+R21	AWARDED_WITH Arg1:T7 Arg2:T81	
+R22	WORKS_AS Arg1:T28 Arg2:T67	
+R23	WORKS_AS Arg1:T66 Arg2:T67	
+T82	EVENT 731 747	первый раунд боя
+R24	SUBEVENT_OF Arg1:T59 Arg2:T82	
+T83	EVENT 787 800	втором раунде
+R25	SUBEVENT_OF Arg1:T59 Arg2:T83	
+R26	ORIGINS_FROM Arg1:T35 Arg2:T36	
+R27	WORKS_AS Arg1:T35 Arg2:T70	
+R28	WORKS_AS Arg1:T68 Arg2:T70	
+R29	PARTICIPANT_IN Arg1:T68 Arg2:T83	
+R30	PARTICIPANT_IN Arg1:T34 Arg2:T83	
+R31	PARTICIPANT_IN Arg1:T67 Arg2:T82	
+R32	WORKS_AS Arg1:T71 Arg2:T72	
+R33	WORKS_AS Arg1:T35 Arg2:T72	
+T84	AWARD 1190 1237	абсолютным чемпионом мира в первом тяжелом весе
+R34	AWARDED_WITH Arg1:T37 Arg2:T84	
+R35	AWARDED_WITH Arg1:T41 Arg2:T84	
+R36	ORIGINS_FROM Arg1:T42 Arg2:T43	
+R37	AWARDED_WITH Arg1:T42 Arg2:T84	
+R7	ABBREVIATION Arg1:T11 Arg2:T13	
+R38	ORIGINS_FROM Arg1:T12 Arg2:T59	
+N1	Reference T3 Wikidata:Q938027	Александр Александрович Усик
+N3	Reference T6 Wikidata:Q649	Москва
+N4	Reference T8 Wikidata:Q5237	Республика Северная Осетия-Алания
+N5	Reference T10 Wikidata:Q24175433	Мурат Гассиев
+N6	Reference T14 Wikidata:Q36107	Мухаммед Али
+N7	Reference T15 Wikidata:Q725676	Всемирная боксёрская ассоциация
+N8	Reference T16 Wikidata:Q724450	Всемирный боксёрский совет
+N9	Reference T18 Wikidata:Q830940	Всемирная боксёрская организация
+N10	Reference T19 Wikidata:Q1140774	The Ring
+N13	Reference T41 Wikidata:Q313451	Холифилд, Эвандер
+N14	Reference T42 Wikidata:Q221849	Белл, О`Нил
+N15	Reference T43 Wikidata:Q766	Ямайка
+N16	Reference T45 Wikidata:Q725676	Всемирная боксёрская ассоциация
+N17	Reference T46 Wikidata:Q742944	Международная боксёрская федерация
+N18	Reference T50 Wikidata:Q4083370	Тони Белью
+N19	Reference T51 Wikidata:Q24175433	Мурат Гассиев
+N22	Reference T58 Wikidata:Q32960	Олимпийский (спортивный комплекс, Москва)
+N23	Reference T9 Wikidata:Q492468	россияне
+N28	Reference T72 Wikidata:Q2066131	спортсмен
+N30	Reference T76 Wikidata:Q1930187	журналист
+N20	Reference T56 Wikidata:Q2948691	
+N2	Reference T5 Wikidata:Q32960	Олимпийский (спортивный комплекс, Москва)
+N21	Reference T57 Wikidata:Q44806	украинцы
+N31	Reference T79 Wikidata:Q2948691	
+N24	Reference T12 Wikidata:NULL	нет данных
+N25	Reference T61 Wikidata:NULL	нет данных
+N33	Reference T81 Wikidata:NULL	нет данных
+N32	Reference T80 Wikidata:NULL	нет данных
+N26	Reference T67 Wikidata:Q11338576	боксёр
+N27	Reference T68 Wikidata:Q24175433	Мурат Гассиев
+N11	Reference T35 Wikidata:Q938027	Александр Александрович Усик
+N34	Reference T71 Wikidata:Q24175433	Мурат Гассиев
+N12	Reference T40 Wikidata:Q846570	
+N29	Reference T75 Wikidata:Q32112	
+N35	Reference T20 Wikidata:Q938027	Александр Александрович Усик
+N36	Reference T49 Wikidata:Q938027	Александр Александрович Усик
+N37	Reference T7 Wikidata:Q938027	Александр Александрович Усик
+N38	Reference T28 Wikidata:Q938027	Александр Александрович Усик
+N39	Reference T2 Wikidata:Q938027	Александр Александрович Усик
+N40	Reference T37 Wikidata:Q938027	Александр Александрович Усик
+N41	Reference T66 Wikidata:Q24175433	Мурат Гассиев
+N42	Reference T44 Wikidata:Q724450	Всемирный боксёрский совет
+N43	Reference T48 Wikidata:Q830940	Всемирная боксёрская организация
+N44	Reference T17 Wikidata:Q742944	Международная боксёрская федерация
+N45	Reference T60 Wikidata:Q2948691	
+N46	Reference T74 Wikidata:Q2948691	
+N47	Reference T36 Wikidata:Q44806	украинцы
+N48	Reference T1 Wikidata:Q44806	украинцы
+N49	Reference T55 Wikidata:Q2948691	
+N50	Reference T73 Wikidata:Q2948691	
+N51	Reference T84 Wikidata:NULL	нет данных
+N52	Reference T70 Wikidata:Q11338576	боксёр
+N53	Reference T53 Wikidata:Q938027	Александр Александрович Усик
+N54	Reference T52 Wikidata:Q938027	Александр Александрович Усик
+N55	Reference T34 Wikidata:Q938027	Александр Александрович Усик
+N56	Reference T77 Wikidata:Q938027	Александр Александрович Усик
+N57	Reference T54 Wikidata:Q938027	Александр Александрович Усик

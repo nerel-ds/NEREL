@@ -1,0 +1,310 @@
+T1	PERSON 17 27	Эрик Шмидт
+T2	PROFESSION 41 60	гендиректора Google
+T3	PERSON 62 72	Эрик Шмидт
+T4	DATE 88 114	в течение последних 10 лет
+T5	PROFESSION 180 199	гендиректора Google
+T6	PERSON 201 206	Шмидт
+T7	PROFESSION 253 283	председателя совета директоров
+T8	PERSON 365 377	Ларри Пейджу
+T9	PERSON 380 385	Шмидт
+T10	ORGANIZATION 397 403	Google
+T11	DATE 404 428	на протяжении десяти лет
+T12	ORGANIZATION 495 498	Sun
+T13	ORGANIZATION 501 507	Novell
+T14	PROFESSION 558 577	руководителя Google
+T15	ORGANIZATION 624 630	Google
+T16	PRODUCT 740 747	YouTube
+T17	AGE 894 903	55-летний
+T18	DATE 917 929	за это время
+T19	ORGANIZATION 934 940	Google
+T21	PERSON 992 1003	Ларри Пейдж
+T22	PERSON 1006 1017	Сергей Брин
+T23	PERSON 1035 1039	Эрик
+T24	PERSON 1150 1156	Пейджу
+T25	PERSON 1159 1164	Брину
+T26	AGE 1172 1178	37 лет
+T28	PROFESSION 1285 1300	главой компании
+T29	PERSON 1315 1320	Пейдж
+T30	PERSON 1331 1336	Шмидт
+T31	PERSON 1454 1459	Брину
+T32	ORGANIZATION 1543 1549	Google
+T33	PERSON 1690 1695	Пейдж
+T34	ORGANIZATION 1717 1723	Google
+T35	PERSON 1741 1745	Брин
+T36	PERSON 1797 1803	Шмидта
+T37	PERSON 1877 1882	Шмидт
+T38	PERSON 2048 2053	Пейдж
+T39	PERSON 2054 2058	Брин
+T40	PERSON 2150 2155	Шмидт
+T41	DATE 2221 2232	прошлых лет
+T42	PERSON 2283 2287	Брин
+T43	PERSON 2290 2295	Пейдж
+T44	PROFESSION 2332 2344	гендиректора
+T46	PRODUCT 2359 2371	Google Earth
+T47	ORGANIZATION 2413 2420	Keyhole
+T48	PERSON 2443 2449	Шмидта
+T49	ORGANIZATION 2509 2515	Google
+T50	PRODUCT 2539 2546	Android
+T51	PERSON 2565 2569	Брин
+T52	PERSON 2572 2579	Пейджем
+T53	ORGANIZATION 2592 2598	Google
+T54	ORDINAL 2617 2625	третьего
+T55	PERSON 2679 2685	Шмидту
+T56	PERSON 2807 2811	Эрик
+T57	ORGANIZATION 2904 2910	Google
+T58	DATE 2911 2937	в течение последних 10 лет
+T59	ORGANIZATION 2993 2999	Google
+T60	MONEY 3020 3049	более 200 миллиардов долларов
+T61	PRODUCT 3167 3174	YouTube
+T62	PRODUCT 3176 3182	Picasa
+T63	PRODUCT 3184 3195	Google Mail
+T64	PERSON 3251 3256	Шмидт
+T65	PERCENT 3344 3361	около 3 процентов
+T66	ORGANIZATION 3368 3374	Google
+T67	MONEY 3412 3442	почти семи миллиардам долларов
+T68	PERSON 3450 3455	Шмидт
+T69	PERCENT 3462 3480	почти 10 процентов
+T70	DATE 3587 3590	год
+T71	ORGANIZATION 3673 3679	Google
+T72	DATE 3696 3711	в начале недели
+T73	ORGANIZATION 3718 3723	Apple
+T74	PERCENT 3738 3749	6 процентов
+T75	PERSON 3783 3793	Стив Джобс
+T76	PERSON 3895 3901	Пейджа
+T77	PERSON 3904 3910	Шмидта
+T78	DATE 3971 3975	года
+T80	DATE 4021 4027	За год
+T81	MONEY 4063 4085	8,5 миллиарда долларов
+T82	ORGANIZATION 4129 4134	Apple
+T83	MONEY 4158 4170	6 миллиардов
+T84	DATE 4180 4196	за последний год
+T85	PERCENT 4226 4238	30 процентов
+T86	PERSON 4385 4390	Шмидт
+T87	DATE 4505 4513	2010 год
+T88	ORGANIZATION 4532 4538	Google
+T89	ORGANIZATION 4622 4630	Facebook
+T91	PERSON 4651 4665	Марк Цукерберг
+T92	COUNTRY 4709 4722	американского
+T93	ORGANIZATION 4731 4735	Time
+T94	ORGANIZATION 4738 4746	Facebook
+T95	ORGANIZATION 4758 4764	Google
+T96	ORGANIZATION 4856 4864	Facebook
+T97	ORGANIZATION 4954 4960	Google
+T98	PERSON 5044 5050	Шмидта
+T99	PERSON 5064 5069	Шмидт
+T100	ORGANIZATION 5099 5122	Harvard Business Review
+T101	DATE 5124 5135	в 2011 году
+T103	ORDINAL 5292 5302	четвертого
+T104	COUNTRY 5378 5381	США
+T105	ORGANIZATION 5577 5583	Google
+T106	ORGANIZATION 5943 5949	Google
+T107	ORGANIZATION 6086 6092	Google
+T108	ORGANIZATION 6300 6308	Facebook
+T109	DATE 6345 6354	20 января
+T110	ORGANIZATION 6388 6394	Google
+T111	PERCENT 6403 6412	1 процент
+T112	AGE 6621 6630	37-летним
+T113	ORGANIZATION 6645 6651	Google
+T114	PERSON 6764 6769	Шмидт
+T115	DATE 6786 6800	с понедельника
+T116	LOCATION 6828 6839	европейское
+T117	ORGANIZATION 54 60	Google
+T118	ORGANIZATION 193 199	Google
+T119	ORGANIZATION 266 283	совета директоров
+T120	ORGANIZATION 571 577	Google
+T121	PRODUCT 772 779	Android
+T27	PERSON 2059 2064	Шмидт
+T45	PERSON 2650 2654	Эрик
+T122	ORGANIZATION 3911 3917	Google
+T79	ORGANIZATION 4995 5003	Facebook
+T90	ORGANIZATION 5136 5142	Google
+T102	PRODUCT 5584 5591	Android
+T123	EVENT 28 40	ушел с поста
+R1	AGENT Arg1:T1 Arg2:T123	
+R2	WORKS_AS Arg1:T1 Arg2:T2	
+T124	PROFESSION 41 53	гендиректора
+R3	WORKPLACE Arg1:T1 Arg2:T117	
+T125	EVENT 166 179	уходе с поста
+R4	AGENT Arg1:T3 Arg2:T125	
+R5	WORKS_AS Arg1:T3 Arg2:T5	
+T126	PROFESSION 180 192	гендиректора
+R6	WORKPLACE Arg1:T3 Arg2:T118	
+R7	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R8	WORKS_AS Arg1:T6 Arg2:T7	
+R9	WORKPLACE Arg1:T6 Arg2:T119	
+R10	FOUNDED_BY Arg1:T118 Arg2:T8	
+R11	WORKPLACE Arg1:T9 Arg2:T10	
+R12	WORKPLACE Arg1:T9 Arg2:T12	
+R13	WORKPLACE Arg1:T9 Arg2:T13	
+R14	WORKS_AS Arg1:T9 Arg2:T14	
+R15	WORKPLACE Arg1:T9 Arg2:T120	
+T127	PERSON 904 909	Шмидт
+R16	AGE_IS Arg1:T127 Arg2:T17	
+R17	WORKPLACE Arg1:T127 Arg2:T19	
+R18	ALTERNATIVE_NAME Arg1:T127 Arg2:T23	
+R19	FOUNDED_BY Arg1:T19 Arg2:T21	
+R20	FOUNDED_BY Arg1:T19 Arg2:T22	
+R21	AGE_IS Arg1:T24 Arg2:T26	
+R22	AGE_IS Arg1:T25 Arg2:T26	
+R23	KNOWS Arg1:T21 Arg2:T22	
+R24	KNOWS Arg1:T24 Arg2:T25	
+R25	WORKS_AS Arg1:T29 Arg2:T28	
+R26	FOUNDED_BY Arg1:T32 Arg2:T31	
+R27	ALTERNATIVE_NAME Arg1:T21 Arg2:T24	
+R28	ALTERNATIVE_NAME Arg1:T22 Arg2:T25	
+R29	WORKS_AS Arg1:T40 Arg2:T44	
+R30	KNOWS Arg1:T42 Arg2:T43	
+T20	ORGANIZATION 2359 2365	Google
+R31	OWNER_OF Arg1:T20 Arg2:T47	
+R32	PRODUCES Arg1:T20 Arg2:T46	
+R33	PRODUCES Arg1:T49 Arg2:T50	
+R34	KNOWS Arg1:T51 Arg2:T52	
+R35	WORKPLACE Arg1:T51 Arg2:T53	
+R36	WORKPLACE Arg1:T52 Arg2:T53	
+R37	ALTERNATIVE_NAME Arg1:T45 Arg2:T55	
+R38	ALTERNATIVE_NAME Arg1:T55 Arg2:T56	
+R39	WORKPLACE Arg1:T56 Arg2:T57	
+R40	PRICE_OF Arg1:T59 Arg2:T60	
+R41	PRODUCES Arg1:T59 Arg2:T61	
+R42	PRODUCES Arg1:T59 Arg2:T62	
+R43	PRODUCES Arg1:T59 Arg2:T63	
+R44	OWNER_OF Arg1:T64 Arg2:T67	
+R45	WORKPLACE Arg1:T75 Arg2:T73	
+R46	WORKPLACE Arg1:T76 Arg2:T122	
+R47	WORKPLACE Arg1:T77 Arg2:T122	
+R48	FOUNDED_BY Arg1:T89 Arg2:T91	
+R49	HEADQUARTERED_IN Arg1:T93 Arg2:T92	
+R50	PRODUCES Arg1:T105 Arg2:T102	
+T128	PRODUCT 5912 5916	Сеть
+T129	PERSON 6355 6366	Сергей Брин
+R51	AGE_IS Arg1:T129 Arg2:T112	
+T130	PROFESSION 6631 6651	руководителям Google
+R52	WORKS_AS Arg1:T129 Arg2:T130	
+R53	WORKPLACE Arg1:T2 Arg2:T117	
+R54	WORKPLACE Arg1:T5 Arg2:T118	
+R55	PARTICIPANT_IN Arg1:T117 Arg2:T123	
+R56	PARTICIPANT_IN Arg1:T118 Arg2:T125	
+R57	WORKPLACE Arg1:T14 Arg2:T120	
+R58	KNOWS Arg1:T38 Arg2:T39	
+R59	KNOWS Arg1:T39 Arg2:T27	
+R60	KNOWS Arg1:T38 Arg2:T27	
+R61	PART_OF Arg1:T119 Arg2:T118	
+R62	WORKPLACE Arg1:T7 Arg2:T119	
+R63	PRODUCES Arg1:T15 Arg2:T16	
+R64	PRODUCES Arg1:T15 Arg2:T121	
+R65	WORKPLACE Arg1:T28 Arg2:T19	
+T131	ORGANIZATION 3184 3190	Google
+R66	PRODUCES Arg1:T131 Arg2:T63	
+T132	EVENT 3794 3833	ушел в неограниченный по времени отпуск
+R67	AGENT Arg1:T75 Arg2:T132	
+R68	POINT_IN_TIME Arg1:T132 Arg2:T72	
+R69	PARTICIPANT_IN Arg1:T73 Arg2:T132	
+R70	INCOME Arg1:T122 Arg2:T81	
+R71	INCOME Arg1:T82 Arg2:T83	
+R72	WORKPLACE Arg1:T130 Arg2:T113	
+T133	DATE 1724 1732	в апреле
+T134	EVENT 1707 1716	возглавит
+R73	AGENT Arg1:T33 Arg2:T134	
+R74	PARTICIPANT_IN Arg1:T34 Arg2:T134	
+R75	POINT_IN_TIME Arg1:T134 Arg2:T133	
+N4	Reference T8 Wikidata:Q4934	Ларри Пейдж
+N6	Reference T13 Wikidata:Q223407	«Но­велл»
+N7	Reference T16 Wikidata:Q866	YouTube
+N11	Reference T44 Wikidata:Q1501800	генеральный директор
+N12	Reference T46 Wikidata:Q42274	Google Планета Земля
+N14	Reference T52 Wikidata:Q513818	Пейдж
+N15	Reference T62 Wikidata:Q9349	Picasa
+N16	Reference T63 Wikidata:Q9334	Gmail
+N17	Reference T75 Wikidata:Q19837	Стив Джобс
+N18	Reference T82 Wikidata:Q312	Apple
+N19	Reference T88 Wikidata:Q95	Google
+N20	Reference T89 Wikidata:Q355	Facebook
+N21	Reference T91 Wikidata:Q36215	Марк Цукерберг
+N24	Reference T100 Wikidata:Q277351	Harvard Business Review
+N25	Reference T104 Wikidata:Q30	США
+N27	Reference T119 Wikidata:Q188628	совет директоров
+N28	Reference T102 Wikidata:Q94	Android
+N3	Reference T7 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:Q92747	
+N5	Reference T12 Wikidata:Q14647	
+N29	Reference T127 Wikidata:Q92747	
+N8	Reference T24 Wikidata:Q4934	Ларри Пейдж
+N32	Reference T28 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:Q4934	Ларри Пейдж
+N10	Reference T35 Wikidata:Q92764	Сергей Брин
+N13	Reference T48 Wikidata:Q92747	
+N33	Reference T47 Wikidata:NULL	нет данных
+N22	Reference T92 Wikidata:Q30	США
+N23	Reference T93 Wikidata:Q43297	Тайм
+N31	Reference T130 Wikidata:NULL	нет данных
+N26	Reference T116 Wikidata:Q46	Европа
+N30	Reference T128 Wikidata:Q75	Интернет
+N34	Reference T61 Wikidata:Q866	YouTube
+N35	Reference T124 Wikidata:Q1501800	генеральный директор
+N36	Reference T126 Wikidata:Q1501800	генеральный директор
+N37	Reference T73 Wikidata:Q312	Apple
+N38	Reference T110 Wikidata:Q95	Google
+N39	Reference T57 Wikidata:Q95	Google
+N40	Reference T113 Wikidata:Q95	Google
+N41	Reference T59 Wikidata:Q95	Google
+N42	Reference T105 Wikidata:Q95	Google
+N43	Reference T118 Wikidata:Q95	Google
+N44	Reference T120 Wikidata:Q95	Google
+N45	Reference T66 Wikidata:Q95	Google
+N46	Reference T53 Wikidata:Q95	Google
+N47	Reference T71 Wikidata:Q95	Google
+N48	Reference T122 Wikidata:Q95	Google
+N49	Reference T131 Wikidata:Q95	Google
+N50	Reference T117 Wikidata:Q95	Google
+N51	Reference T106 Wikidata:Q95	Google
+N52	Reference T95 Wikidata:Q95	Google
+N53	Reference T90 Wikidata:Q95	Google
+N54	Reference T97 Wikidata:Q95	Google
+N55	Reference T107 Wikidata:Q95	Google
+N56	Reference T49 Wikidata:Q95	Google
+N57	Reference T15 Wikidata:Q95	Google
+N58	Reference T10 Wikidata:Q95	Google
+N59	Reference T20 Wikidata:Q95	Google
+N60	Reference T34 Wikidata:Q95	Google
+N61	Reference T32 Wikidata:Q95	Google
+N62	Reference T19 Wikidata:Q95	Google
+N63	Reference T79 Wikidata:Q355	Facebook
+N64	Reference T96 Wikidata:Q355	Facebook
+N65	Reference T94 Wikidata:Q355	Facebook
+N66	Reference T108 Wikidata:Q355	Facebook
+N67	Reference T50 Wikidata:Q94	Android
+N68	Reference T121 Wikidata:Q94	Android
+N69	Reference T2 Wikidata:NULL	нет данных
+N70	Reference T1 Wikidata:Q92747	
+N71	Reference T3 Wikidata:Q92747	
+N72	Reference T23 Wikidata:Q92747	
+N73	Reference T21 Wikidata:Q4934	Ларри Пейдж
+N74	Reference T43 Wikidata:Q4934	Ларри Пейдж
+N75	Reference T76 Wikidata:Q4934	Ларри Пейдж
+N76	Reference T33 Wikidata:Q4934	Ларри Пейдж
+N77	Reference T38 Wikidata:Q4934	Ларри Пейдж
+N78	Reference T51 Wikidata:Q92764	Сергей Брин
+N79	Reference T129 Wikidata:Q92764	Сергей Брин
+N80	Reference T31 Wikidata:Q92764	Сергей Брин
+N81	Reference T42 Wikidata:Q92764	Сергей Брин
+N82	Reference T25 Wikidata:Q92764	Сергей Брин
+N83	Reference T39 Wikidata:Q92764	Сергей Брин
+N84	Reference T22 Wikidata:Q92764	Сергей Брин
+N85	Reference T40 Wikidata:Q92747	
+N86	Reference T9 Wikidata:Q92747	
+N87	Reference T45 Wikidata:Q92747	
+N88	Reference T56 Wikidata:Q92747	
+N89	Reference T68 Wikidata:Q92747	
+N90	Reference T37 Wikidata:Q92747	
+N91	Reference T77 Wikidata:Q92747	
+N92	Reference T98 Wikidata:Q92747	
+N93	Reference T36 Wikidata:Q92747	
+N94	Reference T86 Wikidata:Q92747	
+N95	Reference T30 Wikidata:Q92747	
+N96	Reference T27 Wikidata:Q92747	
+N97	Reference T55 Wikidata:Q92747	
+N98	Reference T64 Wikidata:Q92747	
+N99	Reference T99 Wikidata:Q92747	
+N100	Reference T114 Wikidata:Q92747	
+N101	Reference T14 Wikidata:NULL	нет данных

@@ -1,0 +1,234 @@
+T1	PERSON 5 19	Эдуард Назаров
+T2	WORK_OF_ART 45 56	Жил-был пёс
+T3	PERSON 59 73	Эдуард Назаров
+T4	DATE 74 95	11 сентября 2016 года
+T6	AGE 96 106	на 75 году
+T7	CITY 115 121	Москве
+T8	NATIONALITY 132 141	советский
+T9	NATIONALITY 144 154	российский
+T11	AWARD 192 207	народный артист
+T12	COUNTRY 208 228	Российской Федерации
+T14	WORK_OF_ART 260 271	Жил-был пёс
+T15	PERSON 273 287	Эдуард Назаров
+T16	PERSON 290 307	Эдуард Васильевич
+T17	PERSON 392 406	Эдуард Назаров
+T18	DATE 415 434	23 ноября 1941 года
+T19	CITY 437 443	Москве
+T20	ORGANIZATION 454 502	Строгановское художественно-промышленное училище
+T21	DATE 529 540	с 1959 года
+T22	PROFESSION 570 604	ассистентом художника-постановщика
+T23	PERSON 607 627	Михаила Цехановского
+T24	PROFESSION 629 653	художником-постановщиком
+T25	PERSON 656 670	Фёдора Хитрука
+T26	PROFESSION 672 682	режиссёром
+T27	WORK_OF_ART 725 730	Квант
+T28	WORK_OF_ART 734 750	Весёлые картинки
+T29	WORK_OF_ART 754 762	Мурзилка
+T30	WORK_OF_ART 766 779	Химия и жизнь
+T31	WORK_OF_ART 783 796	Знание — сила
+T32	WORK_OF_ART 800 804	Миша
+T33	DATE 817 835	C 1979 по 2000 год
+T34	ORGANIZATION 850 888	Высших курсах сценаристов и режиссёров
+T35	ORGANIZATION 850 863	Высших курсах
+T36	DATE 891 902	В 1993 году
+T38	ORGANIZATION 957 960	ШАР
+T39	PERSON 974 993	Андреем Хржановским
+T40	PERSON 995 1011	Фёдором Хитруком
+T41	PERSON 1013 1029	Юрием Норштейном
+T42	WORK_OF_ART 1064 1082	Анимация от А до Я
+T43	DATE 1085 1089	1996
+T44	WORK_OF_ART 1096 1126	Мир анимации или анимации мира
+T45	DATE 1129 1133	1999
+T46	ORGANIZATION 1177 1191	Союзмультфильм
+T47	WORK_OF_ART 1177 1207	Союзмультфильм — сказки и были
+T48	WORK_OF_ART 1217 1242	Весёлые сказки о грустном
+T49	WORK_OF_ART 1253 1266	Фабрика чудес
+T50	WORK_OF_ART 1276 1296	Художник-постановщик
+T51	WORK_OF_ART 1307 1322	Невесомая жизнь
+T52	DATE 1325 1329	2006
+T53	WORK_OF_ART 1355 1368	Русская магия
+T54	DATE 1379 1390	С 1991 года
+T55	PROFESSION 1393 1402	президент
+T56	PERSON 1406 1424	Давидом Черкасским
+T57	EVENT 1426 1484	Международного Фестиваля Мультипликационных фильмов «КРОК»
+T58	PERSON 1496 1512	Юрием Норштейном
+T59	PERSON 1534 1547	Юрия Красного
+T60	PERSON 1637 1658	Александра Татарского
+T61	DATE 1659 1678	в августе 2007 года
+T62	PROFESSION 1690 1715	художественного директора
+T63	ORGANIZATION 1724 1729	Пилот
+R3	ORIGINS_FROM Arg1:T15 Arg2:T8
+R12	WORKPLACE Arg1:T56 Arg2:T57
+R13	WORKPLACE Arg1:T60 Arg2:T63
+T5	PROFESSION 582 604	художника-постановщика
+R1	DATE_OF_BIRTH Arg1:T17 Arg2:T18	
+R6	PLACE_OF_BIRTH Arg1:T17 Arg2:T19	
+T37	PROFESSION 1042 1062	ведущий телепрограмм
+T64	EVENT 1479 1483	КРОК
+T65	PROFESSION 549 562	прорисовщиком
+T66	PROFESSION 864 875	сценаристов
+T67	PROFESSION 878 888	режиссёров
+T69	PROFESSION 1706 1715	директора
+T70	DISEASE 317 322	болел
+T71	DISEASE 330 349	проблемы с сосудами
+R2	PRODUCES Arg1:T1 Arg2:T2	
+R4	AGE_DIED_AT Arg1:T15 Arg2:T6	
+R7	DATE_OF_DEATH Arg1:T15 Arg2:T4	
+R8	MEDICAL_CONDITION Arg1:T16 Arg2:T71	
+R9	SCHOOLS_ATTENDED Arg1:T17 Arg2:T20	
+R10	WORKS_AS Arg1:T17 Arg2:T65	
+R14	SUBORDINATE_OF Arg1:T17 Arg2:T23	
+R15	WORKS_AS Arg1:T17 Arg2:T22	
+R16	SUBORDINATE_OF Arg1:T17 Arg2:T25	
+R17	WORKS_AS Arg1:T17 Arg2:T24	
+R18	WORKS_AS Arg1:T17 Arg2:T26	
+T73	PROFESSION 155 169	мультипликатор
+T10	PROFESSION 171 179	режиссёр
+T74	PROFESSION 182 190	художник
+R5	WORKS_AS Arg1:T15 Arg2:T10	
+R19	WORKS_AS Arg1:T15 Arg2:T74	
+T13	DATE 1245 1249	2003
+T72	DATE 1299 1303	2006
+T75	DATE 1371 1375	2004
+R11	PRODUCES Arg1:T15 Arg2:T14	
+R20	PLACE_OF_DEATH Arg1:T15 Arg2:T7	
+R21	MEDICAL_CONDITION Arg1:T16 Arg2:T70	
+R22	WORKPLACE Arg1:T17 Arg2:T34	
+R23	PARTICIPANT_IN Arg1:T17 Arg2:T27	
+R24	PARTICIPANT_IN Arg1:T17 Arg2:T28	
+R25	PARTICIPANT_IN Arg1:T17 Arg2:T29	
+R26	PARTICIPANT_IN Arg1:T17 Arg2:T30	
+R27	PARTICIPANT_IN Arg1:T17 Arg2:T31	
+R28	PARTICIPANT_IN Arg1:T17 Arg2:T32	
+R29	FOUNDED_BY Arg1:T38 Arg2:T39	
+R30	FOUNDED_BY Arg1:T38 Arg2:T40	
+R31	FOUNDED_BY Arg1:T38 Arg2:T41	
+R32	KNOWS Arg1:T39 Arg2:T40	
+R33	KNOWS Arg1:T40 Arg2:T41	
+T76	PROFESSION 928 955	мультипликаторов-режиссёров
+T77	PROFESSION 928 944	мультипликаторов
+T78	PROFESSION 945 955	режиссёров
+R34	DATE_FOUNDED_IN Arg1:T38 Arg2:T36	
+R35	WORKS_AS Arg1:T56 Arg2:T55	
+R36	FOUNDED_BY Arg1:T38 Arg2:T17	
+T68	PROFESSION 1042 1049	ведущий
+R37	ALTERNATIVE_NAME Arg1:T3 Arg2:T16	
+R38	WORKS_AS Arg1:T17 Arg2:T37	
+R39	PRODUCES Arg1:T17 Arg2:T42	
+R40	PRODUCES Arg1:T17 Arg2:T44	
+T79	DATE 1090 1092	98
+R41	DATE_FOUNDED_IN Arg1:T42 Arg2:T43	
+R42	KNOWS Arg1:T58 Arg2:T59	
+T80	EVENT 0 4	Умер
+R43	PARTICIPANT_IN Arg1:T1 Arg2:T80	
+T81	EVENT 122 131	скончался
+R45	ORIGINS_FROM Arg1:T15 Arg2:T9	
+R46	PARTICIPANT_IN Arg1:T15 Arg2:T81	
+R47	TAKES_PLACE_IN Arg1:T81 Arg2:T7	
+R48	ORIGINS_FROM Arg1:T73 Arg2:T9	
+R49	ORIGINS_FROM Arg1:T73 Arg2:T8	
+R50	ALTERNATIVE_NAME Arg1:T12 Arg2:T9	
+R51	ORIGINS_FROM Arg1:T74 Arg2:T9	
+R52	ORIGINS_FROM Arg1:T74 Arg2:T8	
+R53	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R54	ORIGINS_FROM Arg1:T10 Arg2:T8	
+R55	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R56	SUBORDINATE_OF Arg1:T22 Arg2:T5	
+R57	SUBORDINATE_OF Arg1:T22 Arg2:T23	
+R58	SUBORDINATE_OF Arg1:T24 Arg2:T25	
+R59	SUBORDINATE_OF Arg1:T65 Arg2:T23	
+R60	PARTICIPANT_IN Arg1:T37 Arg2:T42	
+R61	PARTICIPANT_IN Arg1:T37 Arg2:T44	
+R62	START_TIME Arg1:T42 Arg2:T43	
+R63	END_TIME Arg1:T42 Arg2:T79	
+T82	DATE 1134 1138	2001
+R64	START_TIME Arg1:T44 Arg2:T45	
+R65	END_TIME Arg1:T44 Arg2:T82	
+R68	DATE_OF_CREATION Arg1:T51 Arg2:T52	
+R69	DATE_OF_CREATION Arg1:T53 Arg2:T75	
+R70	WORKPLACE Arg1:T62 Arg2:T63	
+R71	WORKS_AS Arg1:T17 Arg2:T55	
+R72	KNOWS Arg1:T17 Arg2:T56	
+R73	ALTERNATIVE_NAME Arg1:T57 Arg2:T64	
+R74	WORKPLACE Arg1:T17 Arg2:T57	
+R75	KNOWS Arg1:T17 Arg2:T58	
+T83	AWARD 192 228	народный артист Российской Федерации
+R76	AWARDED_WITH Arg1:T15 Arg2:T83	
+R77	ORIGINS_FROM Arg1:T83 Arg2:T12	
+T84	PROFESSION 201 207	артист
+R66	DATE_OF_CREATION Arg1:T48 Arg2:T13	
+R67	DATE_OF_CREATION Arg1:T50 Arg2:T72	
+T85	NATIONALITY 1355 1362	Русская
+R44	ALTERNATIVE_NAME Arg1:T80 Arg2:T81	
+N1	Reference T2 Wikidata:Q2682217	Жил-был пёс
+N4	Reference T11 Wikidata:Q1208997	народный артист
+N5	Reference T12 Wikidata:Q159	Россия
+N7	Reference T19 Wikidata:Q649	Москва
+N8	Reference T20 Wikidata:Q2360835	Строгановское училище
+N10	Reference T23 Wikidata:Q4505390	Михаил Михайлович Цехановский
+N11	Reference T24 Wikidata:Q2962070	художник-постановщик
+N12	Reference T25 Wikidata:Q732039	Фёдор Савельевич Хитрук
+N13	Reference T26 Wikidata:Q3455803	режиссёр
+N14	Reference T27 Wikidata:Q2421092	Квант
+N15	Reference T28 Wikidata:Q4109862	Весёлые картинки
+N16	Reference T29 Wikidata:Q2382250	Мурзилка
+N17	Reference T30 Wikidata:Q4497743	Химия и жизнь — XXI век
+N18	Reference T31 Wikidata:Q4192926	Знание — сила
+N20	Reference T34 Wikidata:Q4129798	Высшие курсы сценаристов и режиссёров
+N23	Reference T39 Wikidata:Q3791296	Хржановский, Андрей Юрьевич
+N26	Reference T46 Wikidata:Q679912	Союзмультфильм
+N33	Reference T55 Wikidata:Q30461	президент
+N34	Reference T56 Wikidata:Q1174863	Давид Янович Черкасский
+N35	Reference T58 Wikidata:Q371337	Норштейн, Юрий Борисович
+N36	Reference T59 Wikidata:Q4239366	Красный, Юрий Ешуанович
+N37	Reference T60 Wikidata:Q2627503	Александр Михайлович Татарский
+N40	Reference T37 Wikidata:Q947873	телеведущий
+N41	Reference T66 Wikidata:Q28389	сценарист
+N42	Reference T69 Wikidata:Q484876	главный управляющий
+N43	Reference T74 Wikidata:Q1028181	художник
+N44	Reference T77 Wikidata:Q266569	художник-мультипликатор
+N46	Reference T83 Wikidata:Q1857712	Народный артист Российской Федерации
+N47	Reference T84 Wikidata:Q483501	деятель искусств
+N6	Reference T16 Wikidata:Q4312193	Эдуард Васильевич Назаров
+N19	Reference T32 Wikidata:Q973841	
+N21	Reference T35 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q1633149	
+N3	Reference T9 Wikidata:Q492468	россияне
+N49	Reference T65 Wikidata:Q3153626	
+N9	Reference T22 Wikidata:Q28798045	
+N50	Reference T76 Wikidata:Q779815	
+N22	Reference T38 Wikidata:Q4525026	
+N51	Reference T1 Wikidata:Q371337	Норштейн, Юрий Борисович
+N39	Reference T63 Wikidata:Q4362796	Пилот
+N38	Reference T62 Wikidata:Q706364	арт-директор
+N48	Reference T85 Wikidata:Q49542	русские
+N45	Reference T68 Wikidata:Q13590141	ведущий
+N24	Reference T42 Wikidata:NULL	нет данных
+N25	Reference T44 Wikidata:NULL	нет данных
+N27	Reference T47 Wikidata:NULL	нет данных
+N28	Reference T48 Wikidata:NULL	нет данных
+N29	Reference T49 Wikidata:Q4480324	
+N30	Reference T50 Wikidata:NULL	нет данных
+N31	Reference T51 Wikidata:NULL	нет данных
+N32	Reference T53 Wikidata:NULL	нет данных
+N52	Reference T14 Wikidata:Q2682217	Жил-был пёс
+N53	Reference T7 Wikidata:Q649	Москва
+N54	Reference T5 Wikidata:Q2962070	художник-постановщик
+N55	Reference T40 Wikidata:Q732039	Фёдор Савельевич Хитрук
+N56	Reference T78 Wikidata:Q3455803	режиссёр
+N57	Reference T10 Wikidata:Q3455803	режиссёр
+N58	Reference T67 Wikidata:Q3455803	режиссёр
+N59	Reference T41 Wikidata:Q371337	Норштейн, Юрий Борисович
+N60	Reference T73 Wikidata:Q266569	художник-мультипликатор
+N61	Reference T1 Wikidata:Q4312193	Эдуард Васильевич Назаров
+N62	Reference T3 Wikidata:Q4312193	Эдуард Васильевич Назаров
+N63	Reference T15 Wikidata:Q4312193	Эдуард Васильевич Назаров
+N64	Reference T17 Wikidata:Q4312193	Эдуард Васильевич Назаров
+N65	Reference T3 Wikidata:Q371337	Норштейн, Юрий Борисович
+N66	Reference T15 Wikidata:Q371337	Норштейн, Юрий Борисович
+N67	Reference T16 Wikidata:Q371337	Норштейн, Юрий Борисович
+N68	Reference T17 Wikidata:Q371337	Норштейн, Юрий Борисович
+T86	EVENT 407 414	родился
+R78	PARTICIPANT_IN Arg1:T17 Arg2:T86	
+R79	POINT_IN_TIME Arg1:T86 Arg2:T18	
+R80	TAKES_PLACE_IN Arg1:T86 Arg2:T19	

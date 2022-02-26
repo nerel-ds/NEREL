@@ -1,0 +1,184 @@
+T1	ORGANIZATION 0 8	Пентагон
+T2	PROFESSION 27 35	генерала
+T3	PERSON 43 53	Джон Аллен
+T4	ORGANIZATION 80 89	Пентагона
+T6	COUNTRY 139 150	Афганистане
+T7	PERSON 160 172	Джона Аллена
+T8	PERSON 228 241	Дэвид Петрэус
+T9	PERSON 245 251	Аллена
+T10	PERSON 363 368	Аллен
+T11	PERSON 417 428	Джилл Келли
+T12	NUMBER 440 444	двух
+T13	PERSON 514 522	Петреуса
+T15	NUMBER 592 609	от 20 до 30 тысяч
+T16	PERSON 624 630	Аллена
+T17	AGE 668 678	59-летнего
+T18	ORGANIZATION 689 697	Пентагон
+T19	PERSON 769 775	Аллена
+T20	PERSON 778 783	Келли
+T21	PROFESSION 859 866	Генерал
+T22	PROFESSION 912 921	Президент
+T23	PROFESSION 956 964	генерала
+T25	LOCATION 1007 1013	Европе
+T26	ORGANIZATION 1026 1032	Сенате
+T27	PROFESSION 1107 1116	президент
+T28	PERSON 1142 1148	Аллена
+T29	PROFESSION 1151 1158	Генерал
+T31	COUNTRY 1198 1209	Афганистане
+T32	PROFESSION 1213 1221	генерала
+T33	DATE 1231 1242	в 2011 году
+T35	PERSON 1284 1291	Петреус
+T36	PROFESSION 1364 1373	биографом
+T37	PERSON 1374 1388	Полой Бродвелл
+T38	PERSON 36 42	Аллена
+T39	PERSON 54 67	Дэвид Петрэус
+T40	PROFESSION 68 79	Следователи
+T41	PROFESSION 68 89	Следователи Пентагона
+T42	PROFESSION 113 136	командующего силами США
+T43	PROFESSION 151 159	генерала
+T44	PROFESSION 849 857	офицеров
+T45	PROFESSION 841 857	военных офицеров
+T46	PROFESSION 980 1013	командующего силами НАТО в Европе
+T47	PROFESSION 980 1004	командующего силами НАТО
+T48	PROFESSION 1267 1281	директором ЦРУ
+T49	PROFESSION 113 150	командующего силами США в Афганистане
+T50	COUNTRY 133 136	США
+T52	CRIME 299 360	отправке сообщений электронной почты ненадлежащего содержания
+T53	CRIME 274 296	ненадлежащем поведении
+T56	PROFESSION 549 562	директора ЦРУ
+T57	ORGANIZATION 559 562	ЦРУ
+T58	PERSON 679 687	Петреуса
+T59	PERSON 922 933	Барак Обама
+T60	PERSON 965 971	Аллена
+T61	ORGANIZATION 1000 1004	НАТО
+T62	PERSON 1159 1164	Аллен
+T63	COUNTRY 1192 1195	США
+T64	PERSON 1222 1230	Петреуса
+T65	ORGANIZATION 1278 1281	ЦРУ
+R1	WORKS_AS Arg1:T38 Arg2:T2	
+T67	EVENT 9 24	снял подозрения
+R2	AGENT Arg1:T1 Arg2:T67	
+R3	PARTICIPANT_IN Arg1:T38 Arg2:T67	
+R4	ALTERNATIVE_NAME Arg1:T38 Arg2:T3	
+R5	WORKPLACE Arg1:T41 Arg2:T4	
+T68	EVENT 90 110	сняли все подозрения
+R6	ALTERNATIVE_NAME Arg1:T67 Arg2:T68	
+R7	AGENT Arg1:T41 Arg2:T68	
+R8	WORKS_AS Arg1:T7 Arg2:T43	
+R9	WORKS_AS Arg1:T7 Arg2:T49	
+T51	ORGANIZATION 126 150	силами США в Афганистане
+R10	HEADQUARTERED_IN Arg1:T51 Arg2:T50	
+R11	LOCATED_IN Arg1:T51 Arg2:T6	
+R12	WORKPLACE Arg1:T49 Arg2:T51	
+R13	WORKPLACE Arg1:T7 Arg2:T51	
+R14	PARTICIPANT_IN Arg1:T7 Arg2:T68	
+T69	EVENT 183 204	сексуальным скандалом
+R15	PARTICIPANT_IN Arg1:T8 Arg2:T69	
+R16	HAS_CAUSE Arg1:T68 Arg2:T69	
+T5	EVENT 252 271	сняты все обвинения
+R17	PARTICIPANT_IN Arg1:T9 Arg2:T5	
+R18	CONVICTED_OF Arg1:T9 Arg2:T53	
+R19	CONVICTED_OF Arg1:T9 Arg2:T52	
+R20	HAS_CAUSE Arg1:T5 Arg2:T53	
+R21	HAS_CAUSE Arg1:T5 Arg2:T52	
+T54	DATE 376 388	по 2012 годы
+T70	DATE 369 375;384 388	с 2010 годы
+R22	KNOWS Arg1:T10 Arg2:T11	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+T55	EVENT 532 540	отставку
+R24	AGENT Arg1:T13 Arg2:T55	
+R25	WORKPLACE Arg1:T56 Arg2:T57	
+R26	WORKS_AS Arg1:T13 Arg2:T56	
+R27	PARTICIPANT_IN Arg1:T56 Arg2:T55	
+R28	AGE_IS Arg1:T58 Arg2:T17	
+R29	ALTERNATIVE_NAME Arg1:T11 Arg2:T20	
+R30	WORKS_AS Arg1:T19 Arg2:T45	
+R31	WORKS_AS Arg1:T59 Arg2:T22	
+R32	WORKS_AS Arg1:T60 Arg2:T23	
+T14	ORGANIZATION 993 1013	силами НАТО в Европе
+R33	LOCATED_IN Arg1:T14 Arg2:T25	
+R34	PART_OF Arg1:T14 Arg2:T61	
+R35	WORKS_AS Arg1:T60 Arg2:T46	
+R36	WORKS_AS Arg1:T62 Arg2:T29	
+T24	ORGANIZATION 1185 1209	силами США в Афганистане
+R37	HEADQUARTERED_IN Arg1:T24 Arg2:T63	
+R38	LOCATED_IN Arg1:T24 Arg2:T31	
+R39	WORKS_AS Arg1:T64 Arg2:T32	
+R40	WORKPLACE Arg1:T48 Arg2:T65	
+R41	WORKS_AS Arg1:T64 Arg2:T48	
+T30	EVENT 1300 1308	отставку
+R42	AGENT Arg1:T35 Arg2:T30	
+R43	WORKS_AS Arg1:T37 Arg2:T36	
+R45	ALTERNATIVE_NAME Arg1:T68 Arg2:T5	
+T34	EVENT 488 496	скандала
+T66	DATE 474 487	прошлогоднего
+R46	ALTERNATIVE_NAME Arg1:T69 Arg2:T34	
+R47	POINT_IN_TIME Arg1:T34 Arg2:T66	
+R48	HAS_CAUSE Arg1:T55 Arg2:T34	
+R49	PARTICIPANT_IN Arg1:T11 Arg2:T34	
+R50	PARTICIPANT_IN Arg1:T13 Arg2:T34	
+T71	EVENT 646 659	расследования
+R51	PARTICIPANT_IN Arg1:T58 Arg2:T71	
+R52	HAS_CAUSE Arg1:T71 Arg2:T34	
+R53	WORKS_AS Arg1:T19 Arg2:T21	
+R54	WORKPLACE Arg1:T62 Arg2:T24	
+R55	WORKPLACE Arg1:T64 Arg2:T24	
+T72	CRIME 1337 1354	внебрачных связей
+R56	PARTICIPANT_IN Arg1:T37 Arg2:T72	
+R57	CONVICTED_OF Arg1:T35 Arg2:T72	
+R58	HAS_CAUSE Arg1:T30 Arg2:T72	
+R44	SUBORDINATE_OF Arg1:T37 Arg2:T35	
+N1	Reference T6 Wikidata:Q889	Афганистан
+N3	Reference T18 Wikidata:Q11208	Пентагон
+N4	Reference T22 Wikidata:Q30461	президент
+N5	Reference T25 Wikidata:Q46	Европа
+N7	Reference T29 Wikidata:Q83460	генерал
+N8	Reference T35 Wikidata:Q28591	Петрэус, Дэвид
+N13	Reference T44 Wikidata:Q189290	офицер
+N14	Reference T46 Wikidata:Q1640949	главнокомандующий Объединёнными Вооружёнными силами НАТО в Европе
+N17	Reference T50 Wikidata:Q30	США
+N18	Reference T56 Wikidata:Q27656	директор Центрального разведывательного управления
+N19	Reference T58 Wikidata:Q28591	Петрэус, Дэвид
+N20	Reference T59 Wikidata:Q76	Барак Обама
+N21	Reference T61 Wikidata:Q7184	Организация Североатлантического договора
+N23	Reference T65 Wikidata:Q37230	Центральное разведывательное управление
+N24	Reference T51 Wikidata:Q664743	Африканское командование вооружённых сил США
+N10	Reference T40 Wikidata:Q1971388	
+N11	Reference T41 Wikidata:NULL	нет данных
+N26	Reference T36 Wikidata:Q864380	
+N9	Reference T37 Wikidata:Q24225	
+N22	Reference T62 Wikidata:Q615356	
+N6	Reference T26 Wikidata:Q66096	Сенат США
+N12	Reference T42 Wikidata:NULL	нет данных
+N16	Reference T49 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:NULL	нет данных
+N27	Reference T45 Wikidata:Q189290	офицер
+N15	Reference T47 Wikidata:Q1640949	главнокомандующий Объединёнными Вооружёнными силами НАТО в Европе
+N25	Reference T14 Wikidata:NULL	нет данных
+N28	Reference T31 Wikidata:Q889	Афганистан
+N29	Reference T1 Wikidata:Q11208	Пентагон
+N30	Reference T4 Wikidata:Q11208	Пентагон
+N31	Reference T27 Wikidata:Q30461	президент
+N32	Reference T23 Wikidata:Q83460	генерал
+N33	Reference T43 Wikidata:Q83460	генерал
+N34	Reference T2 Wikidata:Q83460	генерал
+N35	Reference T32 Wikidata:Q83460	генерал
+N36	Reference T21 Wikidata:Q83460	генерал
+N37	Reference T63 Wikidata:Q30	США
+N38	Reference T48 Wikidata:Q27656	директор Центрального разведывательного управления
+N39	Reference T13 Wikidata:Q28591	Петрэус, Дэвид
+N40	Reference T8 Wikidata:Q28591	Петрэус, Дэвид
+N41	Reference T64 Wikidata:Q28591	Петрэус, Дэвид
+N42	Reference T39 Wikidata:Q28591	Петрэус, Дэвид
+N43	Reference T57 Wikidata:Q37230	Центральное разведывательное управление
+N44	Reference T24 Wikidata:Q664743	Африканское командование вооружённых сил США
+N45	Reference T10 Wikidata:Q615356	
+N46	Reference T38 Wikidata:Q615356	
+N47	Reference T19 Wikidata:Q615356	
+N48	Reference T16 Wikidata:Q615356	
+N49	Reference T7 Wikidata:Q615356	
+N50	Reference T60 Wikidata:Q615356	
+N51	Reference T9 Wikidata:Q615356	
+N52	Reference T3 Wikidata:Q615356	
+N53	Reference T28 Wikidata:Q615356	
+N54	Reference T20 Wikidata:NULL	нет данных

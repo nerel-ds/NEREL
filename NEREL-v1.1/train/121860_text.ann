@@ -1,0 +1,67 @@
+T1	PERSON 0 14	Владимир Путин
+T2	PERSON 70 84	Владимир Путин
+T3	COUNTRY 87 95	Иордании
+T4	DATE 96 112	1 июля 2017 года
+T5	PERSON 113 127	Владимир Путин
+T8	PROFESSION 256 266	президента
+T9	COUNTRY 267 273	России
+T10	LAW 297 360	Об информации, информационных технологиях и о защите информации
+T11	ORGANIZATION 375 383	Госдумой
+T12	DATE 384 391	23 июня
+T13	ORGANIZATION 403 420	Советом Федерации
+T14	DATE 421 428	28 июня
+T15	PROFESSION 480 490	президента
+T16	COUNTRY 491 493	РФ
+T17	DATE 524 548	1 октября нынешнего года
+T18	ORGANIZATION 775 796	Министерство культуры
+T20	ORGANIZATION 863 870	Госдумы
+T21	ORGANIZATION 955 963	Минкульт
+T22	ORDINAL 1118 1124	первую
+T23	COUNTRY 1208 1218	российских
+T24	EVENT 128 142	подписал закон
+T6	PROFESSION 256 273	президента России
+T25	EVENT 394 402	одобрены
+T26	PROFESSION 480 493	президента РФ
+T27	PRODUCT 692 700	интернет
+T28	ORGANIZATION 844 870	Профильный комитет Госдумы
+T19	ORGANIZATION 1301 1312	Фондом Кино
+T29	EVENT 509 523	вступят в силу
+R1	LOCATED_IN Arg1:T2 Arg2:T3	
+R2	AGENT Arg1:T5 Arg2:T24	
+R3	POINT_IN_TIME Arg1:T24 Arg2:T4	
+R4	WORKPLACE Arg1:T6 Arg2:T9	
+R5	POINT_IN_TIME Arg1:T29 Arg2:T17	
+T7	EVENT 276 293;367 374	Изменения в закон приняты
+R6	AGENT Arg1:T11 Arg2:T7	
+R7	POINT_IN_TIME Arg1:T7 Arg2:T12	
+R8	AGENT Arg1:T13 Arg2:T25	
+R9	POINT_IN_TIME Arg1:T25 Arg2:T14	
+R10	WORKPLACE Arg1:T26 Arg2:T16	
+R11	ALTERNATIVE_NAME Arg1:T18 Arg2:T21	
+R12	ALTERNATIVE_NAME Arg1:T16 Arg2:T23	
+R13	PART_OF Arg1:T28 Arg2:T20	
+T30	EVENT 15 29	подписал закон
+R14	AGENT Arg1:T1 Arg2:T30	
+R15	INANIMATE_INVOLVED Arg1:T10 Arg2:T7	
+R16	INANIMATE_INVOLVED Arg1:T10 Arg2:T25	
+R17	INANIMATE_INVOLVED Arg1:T10 Arg2:T30	
+N1	Reference T3 Wikidata:Q810	Иордания
+N2	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T9 Wikidata:Q159	Россия
+N5	Reference T11 Wikidata:Q715641	Государственная дума
+N6	Reference T13 Wikidata:Q186473	Совет Федерации
+N7	Reference T15 Wikidata:Q30461	президент
+N8	Reference T16 Wikidata:Q159	Россия
+N10	Reference T6 Wikidata:Q218295	президент Российской Федерации
+N11	Reference T26 Wikidata:Q218295	президент Российской Федерации
+N12	Reference T27 Wikidata:Q75	Интернет
+N14	Reference T19 Wikidata:Q16711321	Федеральный фонд социальной и экономической поддержки отечественной кинематографии
+N4	Reference T10 Wikidata:Q4481770	
+N9	Reference T18 Wikidata:Q19973770	
+N13	Reference T28 Wikidata:NULL	нет данных
+N15	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N16	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T20 Wikidata:Q715641	Государственная дума
+N18	Reference T8 Wikidata:Q30461	президент
+N19	Reference T23 Wikidata:Q159	Россия
+N20	Reference T21 Wikidata:Q19973770	

@@ -1,0 +1,88 @@
+T1	PERSON 0 11	Барак Обама
+T2	PERSON 46 57	Барак Обама
+T3	PROFESSION 67 74	доктора
+T4	PERSON 75 89	Томаса Фридена
+T5	PERSON 91 105	Thomas Frieden
+T6	PROFESSION 115 124	директора
+T7	ORGANIZATION 175 178	CDC
+T8	ORGANIZATION 200 207	Reuters
+T9	ORGANIZATION 256 284	министерству здравоохранения
+T11	AGE 373 382	48-летний
+T12	DATE 390 401	с 2002 года
+T13	ORGANIZATION 414 461	городской департамент здравоохранения Нью-Йорка
+T14	CITY 452 461	Нью-Йорка
+T15	DATE 700 711	в 2006 году
+T16	CITY 714 723	Нью-Йорке
+T17	PERSON 798 804	Фриден
+T18	DATE 805 823	в течение пяти лет
+T19	COUNTRY 834 839	Индии
+T21	DATE 946 954	с января
+T22	PROFESSION 995 1003	директор
+T23	PERSON 1013 1029	Джули Гербердинг
+T24	PERSON 1031 1047	Julie Gerberding
+T26	MONEY 1127 1148	9 миллиардов долларов
+T27	DATE 1149 1154	в год
+T28	DISEASE 337 348	гриппа H1N1
+T10	DISEASE 337 343	гриппа
+T29	DISEASE 355 369	свиного гриппа
+T31	ORGANIZATION 125 173	Центров по контролю и предотвращению заболеваний
+T32	PROFESSION 115 173	директора Центров по контролю и предотвращению заболеваний
+T34	COUNTRY 285 288	США
+T35	ORGANIZATION 256 288	министерству здравоохранения США
+T36	PERSON 383 389	Фриден
+T37	ORGANIZATION 424 451	департамент здравоохранения
+T38	DISEASE 608 616	диабетом
+T39	DISEASE 882 893	туберкулеза
+T20	ORGANIZATION 896 945	Центрами по контролю и предотвращению заболеваний
+T40	STATE_OR_PROVINCE 1088 1096	Джорджия
+T41	PROFESSION 1006 1012	доктор
+T42	DISEASE 344 348	H1N1
+R1	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+T43	EVENT 58 66	назначит
+R2	AGENT Arg1:T2 Arg2:T43	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T43	
+R4	WORKS_AS Arg1:T4 Arg2:T3	
+R5	WORKS_AS Arg1:T4 Arg2:T32	
+R6	ABBREVIATION Arg1:T31 Arg2:T7	
+R7	WORKPLACE Arg1:T4 Arg2:T31	
+R8	OWNER_OF Arg1:T35 Arg2:T31	
+R9	AGE_IS Arg1:T36 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R11	OWNER_OF Arg1:T40 Arg2:T26	
+R12	WORKS_AS Arg1:T23 Arg2:T41	
+R13	WORKS_AS Arg1:T23 Arg2:T22	
+R14	WORKPLACE Arg1:T23 Arg2:T20	
+R15	WORKPLACE Arg1:T32 Arg2:T31	
+R16	HEADQUARTERED_IN Arg1:T35 Arg2:T34	
+R17	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R18	WORKPLACE Arg1:T36 Arg2:T13	
+R19	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+R20	ALTERNATIVE_NAME Arg1:T4 Arg2:T36	
+R21	WORKPLACE Arg1:T17 Arg2:T19	
+R22	HEADQUARTERED_IN Arg1:T20 Arg2:T40	
+N1	Reference T1 Wikidata:Q76	Барак Обама
+N2	Reference T8 Wikidata:Q130879	Рейтер
+N7	Reference T19 Wikidata:Q668	Индия
+N8	Reference T22 Wikidata:Q484876	главный управляющий
+N10	Reference T34 Wikidata:Q30	США
+N11	Reference T35 Wikidata:Q942326	Министерство здравоохранения и социальных служб США
+N13	Reference T20 Wikidata:Q583725	Центры по контролю и профилактике заболеваний США
+N14	Reference T40 Wikidata:Q1428	Джорджия
+N9	Reference T32 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:Q1519799	
+N12	Reference T37 Wikidata:Q1312371	
+N5	Reference T16 Wikidata:Q60	Нью-Йорк
+N6	Reference T17 Wikidata:Q100303883	
+N4	Reference T13 Wikidata:Q16995038	
+N15	Reference T41 Wikidata:Q39631	врач
+N16	Reference T24 Wikidata:Q3811106	
+N17	Reference T2 Wikidata:Q76	Барак Обама
+N18	Reference T6 Wikidata:Q484876	главный управляющий
+N19	Reference T31 Wikidata:Q583725	Центры по контролю и профилактике заболеваний США
+N20	Reference T7 Wikidata:Q583725	Центры по контролю и профилактике заболеваний США
+N21	Reference T14 Wikidata:Q60	Нью-Йорк
+N22	Reference T5 Wikidata:Q100303883	
+N23	Reference T36 Wikidata:Q100303883	
+N24	Reference T4 Wikidata:Q100303883	
+N25	Reference T3 Wikidata:Q39631	врач
+N26	Reference T23 Wikidata:Q3811106	

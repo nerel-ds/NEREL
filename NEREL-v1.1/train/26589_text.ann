@@ -1,0 +1,95 @@
+T1	PROFESSION 0 8	Королеву
+T2	PERSON 24 36	Елизавету II
+T3	PROFESSION 61 69	Королева
+T4	DATE 84 92	2012 год
+T5	DATE 94 101	3 марта
+T6	PERSON 126 138	Елизавета II
+T7	FACILITY 164 190	больницу имени Эдуарда VII
+T8	CITY 193 200	Лондоне
+T9	PERSON 293 305	Елизавета II
+T10	DATE 315 324	субботнюю
+T11	COUNTRY 335 340	Уэльс
+T12	EVENT 357 375	Дня святого Давида
+T13	DATE 423 440	на будущую неделю
+T14	PERSON 443 455	Елизавету II
+T16	AGE 622 628	86 лет
+T17	PERSON 722 734	Елизавета II
+T18	PERSON 800 807	Чарльза
+T20	PROFESSION 0 23	Королеву Великобритании
+T21	COUNTRY 9 23	Великобритании
+T22	ORDINAL 34 36	II
+T23	EVENT 37 54	госпитализировали
+T24	PERSON 70 82	Елизавета II
+T25	ORDINAL 80 82	II
+T26	PROFESSION 102 125	королева Великобритании
+T27	PROFESSION 102 110	королева
+T28	PROFESSION 503 511	королева
+T29	PROFESSION 576 601	главе британской монархии
+T30	PROFESSION 659 667	королева
+T31	PROFESSION 826 834	королева
+T15	COUNTRY 111 125	Великобритании
+T32	ORDINAL 136 138	II
+T33	EVENT 144 161	госпитализирована
+T34	PERSON 179 190	Эдуарда VII
+T35	ORDINAL 187 190	VII
+T36	DISEASE 253 267	гастроэнтерита
+T37	DISEASE 275 292	кишечной инфекции
+T38	ORDINAL 303 305	II
+T39	PERSON 361 375	святого Давида
+T40	PERSON 369 375	Давида
+T41	ORDINAL 453 455	II
+T43	COUNTRY 582 592	британской
+T44	ORDINAL 732 734	II
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T23	
+R2	WORKPLACE Arg1:T20 Arg2:T21	
+R3	WORKS_AS Arg1:T2 Arg2:T20	
+R4	WORKPLACE Arg1:T2 Arg2:T21	
+R5	WORKPLACE Arg1:T26 Arg2:T15	
+R6	WORKPLACE Arg1:T6 Arg2:T15	
+R7	WORKS_AS Arg1:T6 Arg2:T26	
+R8	PARTICIPANT_IN Arg1:T6 Arg2:T33	
+R9	ORIGINS_FROM Arg1:T7 Arg2:T34	
+R10	LOCATED_IN Arg1:T7 Arg2:T8	
+R11	LOCATED_IN Arg1:T8 Arg2:T15	
+R12	TAKES_PLACE_IN Arg1:T33 Arg2:T7	
+R13	MEDICAL_CONDITION Arg1:T6 Arg2:T36	
+R14	HAS_CAUSE Arg1:T33 Arg2:T36	
+R15	MEDICAL_CONDITION Arg1:T9 Arg2:T37	
+R16	ORIGINS_FROM Arg1:T12 Arg2:T39	
+T46	EVENT 344 375	празднование Дня святого Давида
+R17	TAKES_PLACE_IN Arg1:T46 Arg2:T11	
+T47	EVENT 325 332	поездку
+R23	WORKS_AS Arg1:T14 Arg2:T28	
+R24	ALTERNATIVE_NAME Arg1:T15 Arg2:T43	
+R25	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+R26	WORKS_AS Arg1:T14 Arg2:T29	
+R27	AGE_IS Arg1:T14 Arg2:T16	
+R28	PARENT_OF Arg1:T17 Arg2:T18	
+T19	DATE 869 888	в октябре 2012 года
+R29	POINT_IN_TIME Arg1:T33 Arg2:T5	
+R18	AGE_IS Arg1:T29 Arg2:T16	
+N1	Reference T8 Wikidata:Q84	Лондон
+N2	Reference T9 Wikidata:Q9682	Елизавета II
+N3	Reference T11 Wikidata:Q25	Уэльс
+N4	Reference T18 Wikidata:Q43274	Чарльз, принц Уэльский
+N7	Reference T15 Wikidata:Q145	Великобритания
+N8	Reference T34 Wikidata:Q20875	Эдуард VII
+N5	Reference T26 Wikidata:Q9682	Елизавета II
+N6	Reference T30 Wikidata:Q16511993	
+N10	Reference T7 Wikidata:Q580652	
+N9	Reference T39 Wikidata:Q331697	Давид Валлийский
+N11	Reference T40 Wikidata:Q331697	Давид Валлийский
+N12	Reference T17 Wikidata:Q9682	Елизавета II
+N13	Reference T14 Wikidata:Q9682	Елизавета II
+N14	Reference T24 Wikidata:Q9682	Елизавета II
+N15	Reference T2 Wikidata:Q9682	Елизавета II
+N16	Reference T6 Wikidata:Q9682	Елизавета II
+N17	Reference T43 Wikidata:Q145	Великобритания
+N18	Reference T21 Wikidata:Q145	Великобритания
+N19	Reference T29 Wikidata:Q9682	Елизавета II
+N20	Reference T20 Wikidata:Q9682	Елизавета II
+N21	Reference T31 Wikidata:Q16511993	
+N22	Reference T3 Wikidata:Q16511993	
+N23	Reference T28 Wikidata:Q16511993	
+N24	Reference T1 Wikidata:Q16511993	
+N25	Reference T27 Wikidata:Q16511993	

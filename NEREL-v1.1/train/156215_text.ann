@@ -1,0 +1,185 @@
+T1	EVENT 10 29	телефонный разговор
+T2	PERSON 30 36	Путина
+T3	PROFESSION 45 56	главой Кубы
+T4	PERSON 57 71	Владимир Путин
+T5	PERSON 74 92	Мигель Диас-Канель
+T6	DATE 94 102	2016 год
+T7	PERSON 120 134	Владимир Путин
+T8	EVENT 137 157	телефонном разговоре
+T9	DATE 158 177	20 апреля 2018 года
+T10	PERSON 188 206	Мигеля Диас-Канеля
+T12	PERSON 255 260	Путин
+T13	PERSON 279 292	Раулем Кастро
+T14	ORGANIZATION 319 325	Кремля
+T15	DATE 359 371	18-19 апреля
+T16	COUNTRY 418 422	Кубы
+T17	COUNTRY 425 435	российской
+T18	COUNTRY 489 499	кубинскому
+T19	PROFESSION 580 589	Президент
+T20	PERSON 613 631	Мигеля Диас-Канеля
+T21	COUNTRY 675 679	Кубы
+T22	PERSON 699 704	Путин
+T23	COUNTRY 877 884	Россией
+T24	PERSON 1036 1041	Путин
+T26	PERSON 1142 1154	Раулю Кастро
+T27	DATE 1269 1278	19 апреля
+T28	COUNTRY 1289 1293	Кубы
+T29	PERSON 1303 1322	Мигеля Диаса-Канеля
+T31	ORGANIZATION 1363 1379	Совета министров
+T32	AGE 1387 1397	86-летнего
+T33	PERSON 1398 1410	Рауля Кастро
+T34	DATE 1412 1422	В тот день
+T35	PERSON 1423 1428	Путин
+T36	DATE 1466 1475	20 апреля
+T37	AGE 1513 1519	58 лет
+T38	COUNTRY 52 56	Кубы
+T39	PROFESSION 103 119	Президент России
+T40	PROFESSION 103 112	Президент
+T41	PROFESSION 227 237	главы Кубы
+T42	PROFESSION 580 596	Президент России
+T43	PROFESSION 782 797	кубинский лидер
+T45	PROFESSION 1073 1141	первому секретарю Центрального комитета Коммунистической партии Кубы
+T47	PROFESSION 1323 1336;1363 1379	председателем Совета министров
+T48	PROFESSION 1323 1360	председателем Государственного совета
+T49	PROFESSION 1483 1500	руководителю Кубы
+T50	PROFESSION 1483 1495	руководителю
+T51	COUNTRY 113 119	России
+T52	COUNTRY 233 237	Кубы
+T53	EVENT 372 378	сессии
+T54	ORGANIZATION 379 422	Национальной ассамблеи народной власти Кубы
+T55	ORGANIZATION 379 417	Национальной ассамблеи народной власти
+T56	ORGANIZATION 489 511	кубинскому руководству
+T57	COUNTRY 590 596	России
+T59	COUNTRY 782 791	кубинский
+T25	ORDINAL 1073 1080	первому
+T60	PROFESSION 1073 1090	первому секретарю
+T61	ORGANIZATION 1091 1141	Центрального комитета Коммунистической партии Кубы
+T62	ORGANIZATION 1113 1141	Коммунистической партии Кубы
+T63	COUNTRY 1137 1141	Кубы
+T64	ORGANIZATION 1279 1293	парламент Кубы
+T65	ORGANIZATION 1337 1360	Государственного совета
+T66	COUNTRY 1496 1500	Кубы
+T67	ORGANIZATION 1113 1136	Коммунистической партии
+R1	WORKPLACE Arg1:T3 Arg2:T38	
+R2	AGENT Arg1:T2 Arg2:T1	
+R3	AGENT Arg1:T3 Arg2:T1	
+R4	KNOWS Arg1:T2 Arg2:T3	
+R5	KNOWS Arg1:T3 Arg2:T2	
+R6	WORKS_AS Arg1:T5 Arg2:T3	
+R7	WORKPLACE Arg1:T39 Arg2:T51	
+R8	WORKS_AS Arg1:T7 Arg2:T39	
+R9	WORKPLACE Arg1:T7 Arg2:T51	
+R10	AGENT Arg1:T7 Arg2:T8	
+R11	POINT_IN_TIME Arg1:T8 Arg2:T9	
+T68	EVENT 209 218	избранием
+R12	TAKES_PLACE_IN Arg1:T68 Arg2:T52	
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T68	
+R14	WORKPLACE Arg1:T10 Arg2:T52	
+R15	WORKS_AS Arg1:T10 Arg2:T41	
+T11	EVENT 178 187	поздравил
+R16	SUBEVENT_OF Arg1:T11 Arg2:T8	
+R17	AGENT Arg1:T7 Arg2:T11	
+R18	PARTICIPANT_IN Arg1:T10 Arg2:T11	
+R19	KNOWS Arg1:T12 Arg2:T13	
+R20	KNOWS Arg1:T13 Arg2:T12	
+R21	ORGANIZES Arg1:T54 Arg2:T53	
+R22	HEADQUARTERED_IN Arg1:T54 Arg2:T16	
+R23	TAKES_PLACE_IN Arg1:T53 Arg2:T16	
+R24	POINT_IN_TIME Arg1:T53 Arg2:T15	
+R25	ALTERNATIVE_NAME Arg1:T18 Arg2:T16	
+R26	ALTERNATIVE_NAME Arg1:T51 Arg2:T17	
+R27	HEADQUARTERED_IN Arg1:T56 Arg2:T18	
+R28	WORKPLACE Arg1:T42 Arg2:T57	
+T69	EVENT 603 612	поздравил
+R29	AGENT Arg1:T42 Arg2:T69	
+R30	WORKS_AS Arg1:T7 Arg2:T42	
+R31	WORKPLACE Arg1:T20 Arg2:T21	
+R32	WORKS_AS Arg1:T22 Arg2:T42	
+R33	AGENT Arg1:T20 Arg2:T69	
+R34	ALTERNATIVE_NAME Arg1:T41 Arg2:T43	
+R35	WORKPLACE Arg1:T43 Arg2:T59	
+R36	WORKPLACE Arg1:T45 Arg2:T61	
+R37	PART_OF Arg1:T61 Arg2:T62	
+T44	IDEOLOGY 1113 1129	Коммунистической
+R38	IDEOLOGY_OF Arg1:T62 Arg2:T44	
+R39	HEADQUARTERED_IN Arg1:T62 Arg2:T63	
+R40	IDEOLOGY_OF Arg1:T26 Arg2:T44	
+R41	WORKPLACE Arg1:T26 Arg2:T61	
+R42	MEMBER_OF Arg1:T26 Arg2:T62	
+T46	ORGANIZATION 1279 1288	парламент
+R43	HEADQUARTERED_IN Arg1:T64 Arg2:T28	
+R44	AGE_IS Arg1:T33 Arg2:T32	
+R45	WORKPLACE Arg1:T49 Arg2:T66	
+R46	AGE_IS Arg1:T49 Arg2:T37	
+T58	EVENT 1429 1464	направил поздравительную телеграмму
+R47	AGENT Arg1:T35 Arg2:T58	
+R48	PARTICIPANT_IN Arg1:T29 Arg2:T58	
+R49	ALTERNATIVE_NAME Arg1:T34 Arg2:T27	
+R50	POINT_IN_TIME Arg1:T58 Arg2:T34	
+T70	EVENT 1294 1302	утвердил
+R51	AGENT Arg1:T64 Arg2:T70	
+R52	PARTICIPANT_IN Arg1:T29 Arg2:T70	
+R53	HEADQUARTERED_IN Arg1:T65 Arg2:T28	
+R54	HEADQUARTERED_IN Arg1:T31 Arg2:T28	
+R55	WORKPLACE Arg1:T48 Arg2:T65	
+R56	WORKPLACE Arg1:T47 Arg2:T31	
+R57	WORKS_AS Arg1:T33 Arg2:T47	
+R58	WORKS_AS Arg1:T33 Arg2:T48	
+R59	WORKPLACE Arg1:T33 Arg2:T31	
+R60	WORKPLACE Arg1:T33 Arg2:T65	
+R61	AGENT Arg1:T10 Arg2:T8	
+T30	EVENT 267 276	поговорил
+R62	AGENT Arg1:T12 Arg2:T30	
+R63	AGENT Arg1:T13 Arg2:T30	
+R64	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+N1	Reference T5 Wikidata:Q1932603	Мигель Диас-Канель
+N2	Reference T10 Wikidata:Q1932603	Мигель Диас-Канель
+N5	Reference T23 Wikidata:Q159	Россия
+N6	Reference T26 Wikidata:Q46809	Рауль Кастро
+N7	Reference T31 Wikidata:Q834304	Совет министров Кубы
+N8	Reference T35 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T40 Wikidata:Q30461	президент
+N11	Reference T42 Wikidata:Q218295	президент Российской Федерации
+N15	Reference T50 Wikidata:Q2462658	менеджер
+N16	Reference T54 Wikidata:Q720753	Национальная ассамблея народной власти
+N17	Reference T55 Wikidata:Q720753	Национальная ассамблея народной власти
+N19	Reference T60 Wikidata:Q6501749	генеральный секретарь
+N21	Reference T62 Wikidata:Q371402	Коммунистическая партия Кубы
+N22	Reference T64 Wikidata:Q720753	Национальная ассамблея народной власти
+N23	Reference T65 Wikidata:Q1516390	Государственный совет Кубы
+N24	Reference T67 Wikidata:Q233591	коммунистическая партия
+N25	Reference T46 Wikidata:Q35749	парламент
+N10	Reference T41 Wikidata:Q89188209	
+N3	Reference T14 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:Q241	Куба
+N18	Reference T56 Wikidata:NULL	нет данных
+N12	Reference T45 Wikidata:Q5453787	
+N20	Reference T61 Wikidata:NULL	нет данных
+N13	Reference T48 Wikidata:Q89188209	
+N26	Reference T47 Wikidata:Q6502015	председатель Совета Министров Кубы
+N14	Reference T49 Wikidata:Q89188209	
+N27	Reference T29 Wikidata:Q1932603	Мигель Диас-Канель
+N28	Reference T20 Wikidata:Q1932603	Мигель Диас-Канель
+N29	Reference T17 Wikidata:Q159	Россия
+N30	Reference T51 Wikidata:Q159	Россия
+N31	Reference T57 Wikidata:Q159	Россия
+N32	Reference T13 Wikidata:Q46809	Рауль Кастро
+N33	Reference T33 Wikidata:Q46809	Рауль Кастро
+N34	Reference T22 Wikidata:Q7747	Владимир Владимирович Путин
+N35	Reference T12 Wikidata:Q7747	Владимир Владимирович Путин
+N36	Reference T24 Wikidata:Q7747	Владимир Владимирович Путин
+N37	Reference T4 Wikidata:Q7747	Владимир Владимирович Путин
+N38	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N39	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N40	Reference T19 Wikidata:Q30461	президент
+N41	Reference T39 Wikidata:Q218295	президент Российской Федерации
+N42	Reference T3 Wikidata:Q89188209	
+N43	Reference T43 Wikidata:Q89188209	
+N44	Reference T38 Wikidata:Q241	Куба
+N45	Reference T59 Wikidata:Q241	Куба
+N46	Reference T16 Wikidata:Q241	Куба
+N47	Reference T52 Wikidata:Q241	Куба
+N48	Reference T66 Wikidata:Q241	Куба
+N49	Reference T28 Wikidata:Q241	Куба
+N50	Reference T63 Wikidata:Q241	Куба
+N51	Reference T21 Wikidata:Q241	Куба

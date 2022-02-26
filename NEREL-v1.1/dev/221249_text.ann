@@ -1,0 +1,89 @@
+T2	COUNTRY 24 33	Индонезии
+T3	PERSON 44 59	Михаил Горбачёв
+T4	ORGANIZATION 60 103	Народный консультативный конгресс Индонезии
+T6	COUNTRY 131 140	Индонезии
+T7	PERSON 167 182	Михаил Горбачёв
+T9	AGE 256 266	32-летнего
+T10	PERSON 277 296	Михаил Горбачёв Дом
+T11	NATIONALITY 298 308	Индонезиец
+T12	DATE 513 528	примерно неделю
+T13	PERSON 617 634	Михаиле Горбачёве
+T14	PERSON 843 848	Горба
+T15	DATE 947 961	нескольких лет
+T16	PERSON 1112 1120	Горбачёв
+T17	NUMBER 1135 1144	245 тысяч
+T18	EVENT 1159 1175	всеобщих выборах
+T19	COUNTRY 1195 1204	Индонезии
+T20	ORDINAL 1226 1232	первое
+T21	PROFESSION 1307 1317	президента
+T22	PROFESSION 1319 1334	вице-президента
+T23	EVENT 16 23	выборах
+T24	EVENT 2 23	парламентских выборах
+T26	EVENT 107 128	парламентских выборах
+T28	EVENT 121 128	выборах
+T29	ORGANIZATION 60 93	Народный консультативный конгресс
+T30	COUNTRY 94 103	Индонезии
+T32	COUNTRY 238 242	СССР
+T33	PROFESSION 227 242	президента СССР
+T34	PROFESSION 227 237	президента
+T36	PROFESSION 691 704	лидера страны
+T37	PERSON 749 752	Дом
+T38	PERSON 1006 1009	Дом
+T39	EVENT 1168 1175	выборах
+T40	DATE 1205 1214	17 апреля
+T42	PROFESSION 1336 1370	депутатов национального парламента
+T43	PROFESSION 1336 1345	депутатов
+T44	PROFESSION 1373 1394	местных законодателей
+T45	PROFESSION 1381 1394	законодателей
+T46	ORGANIZATION 1346 1370	национального парламента
+T47	ORGANIZATION 1360 1370	парламента
+R1	WORKPLACE Arg1:T33 Arg2:T32	
+R2	AGE_IS Arg1:T10 Arg2:T9	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T30	
+R4	TAKES_PLACE_IN Arg1:T24 Arg2:T2	
+R5	PARTICIPANT_IN Arg1:T3 Arg2:T24	
+R6	TAKES_PLACE_IN Arg1:T26 Arg2:T6	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T26	
+R8	PLACE_RESIDES_IN Arg1:T7 Arg2:T6	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R10	ORIGINS_FROM Arg1:T10 Arg2:T11	
+R11	WORKS_AS Arg1:T13 Arg2:T36	
+R12	ALTERNATIVE_NAME Arg1:T10 Arg2:T37	
+R13	ALTERNATIVE_NAME Arg1:T37 Arg2:T14	
+R14	ALTERNATIVE_NAME Arg1:T38 Arg2:T16	
+R15	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R16	POINT_IN_TIME Arg1:T18 Arg2:T40	
+R17	PARTICIPANT_IN Arg1:T16 Arg2:T18	
+R18	ALTERNATIVE_NAME Arg1:T24 Arg2:T18	
+R19	WORKPLACE Arg1:T42 Arg2:T46	
+R20	WORKPLACE Arg1:T21 Arg2:T19	
+R21	WORKPLACE Arg1:T22 Arg2:T19	
+R22	HEADQUARTERED_IN Arg1:T47 Arg2:T19	
+R23	WORKPLACE Arg1:T44 Arg2:T19	
+N1	Reference T4 Wikidata:Q818711	Народный консультативный конгресс
+N6	Reference T29 Wikidata:Q818711	Народный консультативный конгресс
+N7	Reference T30 Wikidata:Q252	Индонезия
+N8	Reference T32 Wikidata:Q15180	СССР
+N9	Reference T33 Wikidata:Q1255261	президент СССР
+N16	Reference T47 Wikidata:Q35749	парламент
+N2	Reference T10 Wikidata:NULL	нет данных
+N17	Reference T11 Wikidata:Q4200853	
+N10	Reference T36 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:NULL	нет данных
+N4	Reference T21 Wikidata:Q30461	президент
+N5	Reference T22 Wikidata:Q42178	вице-президент
+N14	Reference T45 Wikidata:Q4175034	законодатель
+N13	Reference T44 Wikidata:NULL	нет данных
+N15	Reference T46 Wikidata:NULL	нет данных
+N11	Reference T42 Wikidata:NULL	нет данных
+N12	Reference T43 Wikidata:Q1055894	
+N18	Reference T19 Wikidata:Q252	Индонезия
+N19	Reference T6 Wikidata:Q252	Индонезия
+N20	Reference T2 Wikidata:Q252	Индонезия
+N22	Reference T14 Wikidata:NULL	нет данных
+N23	Reference T7 Wikidata:NULL	нет данных
+N24	Reference T3 Wikidata:NULL	нет данных
+N25	Reference T37 Wikidata:NULL	нет данных
+N26	Reference T38 Wikidata:NULL	нет данных
+N27	Reference T34 Wikidata:Q30461	президент
+N21	Reference T13 Wikidata:Q30487	Михаил Сергеевич Горбачёв

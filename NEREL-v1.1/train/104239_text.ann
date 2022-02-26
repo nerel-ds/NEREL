@@ -1,0 +1,230 @@
+T1	COUNTRY 2 8	Турции
+T2	PERSON 85 105	Реджеп Тайип Эрдоган
+T3	DATE 154 169	в середине июля
+T4	PROFESSION 178 187	президент
+T5	COUNTRY 198 206	Турецкие
+T6	DATE 216 229	в понедельник
+T7	NUMBER 240 242	11
+T8	DATE 326 341	в середине июля
+T9	PROFESSION 352 361	президент
+T10	CITY 433 442	Мармариса
+T11	CITY 555 564	Мармарисе
+T12	DATE 839 852	В воскресенье
+T13	NUMBER 875 885	около 1400
+T14	PROFESSION 903 929	высшего военного советника
+T15	PROFESSION 940 949	Президент
+T16	NUMBER 1014 1028	Более 50 тысяч
+T17	PERSON 1163 1178	Фетхуллу Гюлена
+T18	NUMBER 1180 1194	Более 18 тысяч
+T19	PERSON 1221 1226	Гюлен
+T20	PERSON 1247 1255	Эрдогана
+T21	DATE 1265 1277	около 20 лет
+T22	COUNTRY 1290 1293	США
+T23	COUNTRY 1332 1338	Турция
+T24	COUNTRY 1358 1361	США
+T25	AGE 1377 1387	75-летнего
+T26	COUNTRY 1408 1420	американским
+T27	PROFESSION 1493 1547	Глава Объединенного комитета начальников штабов ВС США
+T28	COUNTRY 1544 1547	США
+T29	PERSON 1556 1570	Джозеф Данфорд
+T30	COUNTRY 1597 1603	Турцию
+T31	ORGANIZATION 1665 1686	Исламское государство
+T32	COUNTRY 1703 1706	США
+T33	DATE 1746 1762	около года назад
+T34	PERSON 1775 1783	Эрдогана
+T36	FACILITY 1822 1831	Инджирлик
+T37	LOCATION 1836 1846	юге Турции
+T38	COUNTRY 1849 1857	Турецкие
+T39	DATE 1865 1878	в понедельник
+T40	PROFESSION 1887 1917	временного поверенного в делах
+T41	COUNTRY 1943 1953	германский
+T42	PERSON 1994 2002	Эрдогана
+T43	EVENT 2016 2023	митинга
+T44	CITY 2026 2032	Кельне
+T45	NUMBER 2059 2072	десятки тысяч
+T46	PROFESSION 2090 2112	Представитель Эрдогана
+T47	PROFESSION 27 34	военных
+T48	PERSON 188 195	Эрдоган
+T49	PROFESSION 207 215	силовики
+T50	EVENT 230 239	задержали
+T51	CRIME 274 292	нападении на отель
+T52	PERSON 362 382	Реджеп Тайип Эрдоган
+T53	PROFESSION 243 257	военнослужащих
+T54	PROFESSION 487 493	солдат
+T55	CRIME 508 533	попытке сместить Эрдогана
+T56	PERSON 525 533	Эрдогана
+T57	PROFESSION 535 544	Президент
+T58	DATE 565 572	15 июля
+T59	PROFESSION 704 710	солдат
+T60	EVENT 590 625	попытка свержения его правительства
+T61	PERSON 930 938	Эрдогана
+T62	PROFESSION 903 938	высшего военного советника Эрдогана
+T63	PROFESSION 886 893	военных
+T64	COUNTRY 1029 1037	турецких
+T65	RELIGION 1139 1149	исламского
+T66	PROFESSION 1150 1162	проповедника
+T67	IDEOLOGY 1236 1246	оппонентом
+T68	PERSON 1388 1394	Гюлена
+T69	PERSON 2104 2112	Эрдогана
+T70	COUNTRY 1918 1926	Германии
+T71	PROFESSION 1887 1926	временного поверенного в делах Германии
+T72	DATE 2033 2046	в воскресенье
+T73	PROFESSION 1736 1744	боевикам
+T74	ORGANIZATION 1499 1547	Объединенного комитета начальников штабов ВС США
+T75	PROFESSION 1522 1547	начальников штабов ВС США
+T76	ORGANIZATION 1541 1547	ВС США
+T77	PROFESSION 1548 1555	генерал
+T78	DATE 1571 1584	в понедельник
+T35	COUNTRY 1840 1846	Турции
+R1	WORKS_AS Arg1:T48 Arg2:T4	
+R2	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+R3	WORKS_AS Arg1:T52 Arg2:T9	
+T79	CRIME 51 84	причастности к попытке переворота
+R4	TAKES_PLACE_IN Arg1:T43 Arg2:T44	
+R5	POINT_IN_TIME Arg1:T43 Arg2:T72	
+R6	LOCATED_IN Arg1:T37 Arg2:T35	
+R7	LOCATED_IN Arg1:T36 Arg2:T37	
+T80	EVENT 9 19	арестована
+R8	CONVICTED_OF Arg1:T47 Arg2:T79	
+R9	TAKES_PLACE_IN Arg1:T80 Arg2:T1	
+R10	PARTICIPANT_IN Arg1:T47 Arg2:T80	
+T81	EVENT 130 148	нападении на отель
+R11	POINT_IN_TIME Arg1:T81 Arg2:T3	
+R12	PARTICIPANT_IN Arg1:T47 Arg2:T81	
+T82	PROFESSION 198 215	Турецкие силовики
+R13	WORKPLACE Arg1:T82 Arg2:T5	
+R14	ALTERNATIVE_NAME Arg1:T80 Arg2:T50	
+R15	AGENT Arg1:T82 Arg2:T50	
+R16	PARTICIPANT_IN Arg1:T53 Arg2:T50	
+R17	ALTERNATIVE_NAME Arg1:T47 Arg2:T53	
+T83	EVENT 307 325	попытки переворота
+R18	POINT_IN_TIME Arg1:T83 Arg2:T8	
+R19	CONVICTED_OF Arg1:T53 Arg2:T51	
+R20	ALTERNATIVE_NAME Arg1:T79 Arg2:T83	
+T84	EVENT 385 395	Задержания
+R21	ALTERNATIVE_NAME Arg1:T50 Arg2:T84	
+R22	TAKES_PLACE_IN Arg1:T84 Arg2:T10	
+R23	ALTERNATIVE_NAME Arg1:T79 Arg2:T55	
+T85	EVENT 462 468	аресты
+R24	PARTICIPANT_IN Arg1:T54 Arg2:T85	
+R25	ALTERNATIVE_NAME Arg1:T83 Arg2:T60	
+R26	LOCATED_IN Arg1:T57 Arg2:T11	
+R27	POINT_IN_TIME Arg1:T60 Arg2:T58	
+R28	PARTICIPANT_IN Arg1:T52 Arg2:T83	
+T86	ORGANIZATION 853 866	правительство
+T87	EVENT 867 874	уволило
+R29	SUBORDINATE_OF Arg1:T62 Arg2:T61	
+R30	RELIGION_OF Arg1:T17 Arg2:T65	
+R31	WORKS_AS Arg1:T17 Arg2:T66	
+R32	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+R33	WORKS_AS Arg1:T29 Arg2:T77	
+R34	WORKS_AS Arg1:T29 Arg2:T27	
+R35	WORKPLACE Arg1:T27 Arg2:T74	
+R36	HEADQUARTERED_IN Arg1:T76 Arg2:T28	
+T88	EVENT 1585 1594	прибывает
+R37	PARTICIPANT_IN Arg1:T29 Arg2:T88	
+R38	TAKES_PLACE_IN Arg1:T88 Arg2:T30	
+R39	POINT_IN_TIME Arg1:T88 Arg2:T78	
+R40	AGENT Arg1:T86 Arg2:T87	
+R41	PARTICIPANT_IN Arg1:T63 Arg2:T87	
+R42	PARTICIPANT_IN Arg1:T62 Arg2:T87	
+R43	POINT_IN_TIME Arg1:T87 Arg2:T12	
+T89	EVENT 1072 1091	попыткой переворота
+R44	ALTERNATIVE_NAME Arg1:T60 Arg2:T89	
+R45	ORGANIZES Arg1:T17 Arg2:T89	
+R46	PLACE_RESIDES_IN Arg1:T19 Arg2:T22	
+R47	AGE_IS Arg1:T68 Arg2:T25	
+R48	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+R49	ALTERNATIVE_NAME Arg1:T64 Arg2:T23	
+R50	SUBORDINATE_OF Arg1:T46 Arg2:T69	
+R51	ALTERNATIVE_NAME Arg1:T70 Arg2:T41	
+R52	WORKPLACE Arg1:T4 Arg2:T1	
+R53	WORKPLACE Arg1:T48 Arg2:T1	
+R54	WORKPLACE Arg1:T9 Arg2:T5	
+R55	WORKPLACE Arg1:T52 Arg2:T5	
+T90	EVENT 1046 1061	потеряли работу
+R56	HAS_CAUSE Arg1:T90 Arg2:T89	
+T91	NATIONALITY 1029 1045	турецких граждан
+R57	PARTICIPANT_IN Arg1:T91 Arg2:T90	
+R58	WORKPLACE Arg1:T71 Arg2:T70	
+R59	HAS_CAUSE Arg1:T80 Arg2:T79	
+R60	PARTICIPANT_IN Arg1:T48 Arg2:T81	
+R61	HAS_CAUSE Arg1:T50 Arg2:T51	
+R62	CONVICTED_OF Arg1:T54 Arg2:T55	
+R63	HAS_CAUSE Arg1:T85 Arg2:T55	
+R64	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+R65	WORKS_AS Arg1:T56 Arg2:T57	
+T92	ORGANIZATION 1116 1129	правительство
+R66	WORKS_AS Arg1:T61 Arg2:T15	
+R67	WORKPLACE Arg1:T29 Arg2:T74	
+R68	MEMBER_OF Arg1:T75 Arg2:T74	
+T93	ORGANIZATION 1849 1864	Турецкие власти
+R69	HEADQUARTERED_IN Arg1:T93 Arg2:T38	
+T94	EVENT 1879 1886	вызвали
+R70	AGENT Arg1:T93 Arg2:T94	
+R71	PARTICIPANT_IN Arg1:T71 Arg2:T94	
+R72	HAS_CAUSE Arg1:T94 Arg2:T43	
+N2	Reference T11 Wikidata:Q209908	Мармарис
+N4	Reference T15 Wikidata:Q30461	президент
+N7	Reference T29 Wikidata:Q6282969	Данфорд, Джозеф
+N8	Reference T31 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N9	Reference T36 Wikidata:Q1083424	База ВВС США Инджирлик
+N13	Reference T44 Wikidata:Q365	Кёльн
+N15	Reference T47 Wikidata:Q47064	военнослужащий
+N16	Reference T48 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N24	Reference T74 Wikidata:Q609474	Объединённый комитет начальников штабов
+N26	Reference T76 Wikidata:Q11211	Вооружённые силы США
+N27	Reference T77 Wikidata:Q83460	генерал
+N29	Reference T86 Wikidata:Q7188	правительство
+N1	Reference T5 Wikidata:Q43	Турция
+N28	Reference T82 Wikidata:NULL	нет данных
+N17	Reference T49 Wikidata:NULL	нет данных
+N18	Reference T59 Wikidata:Q4991371	солдат
+N19	Reference T62 Wikidata:NULL	нет данных
+N3	Reference T14 Wikidata:NULL	нет данных
+N30	Reference T91 Wikidata:NULL	нет данных
+N20	Reference T65 Wikidata:Q432	ислам
+N21	Reference T66 Wikidata:Q60797	проповедь
+N32	Reference T68 Wikidata:Q488200	
+N5	Reference T26 Wikidata:Q30	США
+N6	Reference T27 Wikidata:NULL	нет данных
+N25	Reference T75 Wikidata:NULL	нет данных
+N23	Reference T73 Wikidata:Q208187	штурмовик
+N10	Reference T37 Wikidata:NULL	нет данных
+N31	Reference T93 Wikidata:NULL	нет данных
+N11	Reference T40 Wikidata:NULL	нет данных
+N22	Reference T71 Wikidata:NULL	нет данных
+N12	Reference T41 Wikidata:Q183	Германия
+N14	Reference T46 Wikidata:NULL	нет данных
+N33	Reference T10 Wikidata:Q209908	Мармарис
+N34	Reference T4 Wikidata:Q30461	президент
+N35	Reference T9 Wikidata:Q30461	президент
+N36	Reference T57 Wikidata:Q30461	президент
+N37	Reference T63 Wikidata:Q47064	военнослужащий
+N38	Reference T53 Wikidata:Q47064	военнослужащий
+N39	Reference T69 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N40	Reference T56 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N41	Reference T20 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N42	Reference T52 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N43	Reference T34 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N44	Reference T42 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N45	Reference T2 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N46	Reference T61 Wikidata:Q1770357	Реджеп Тайип Эрдоган
+N47	Reference T92 Wikidata:Q7188	правительство
+N48	Reference T38 Wikidata:Q43	Турция
+N49	Reference T23 Wikidata:Q43	Турция
+N50	Reference T64 Wikidata:Q43	Турция
+N51	Reference T1 Wikidata:Q43	Турция
+N52	Reference T35 Wikidata:Q43	Турция
+N53	Reference T30 Wikidata:Q43	Турция
+N54	Reference T54 Wikidata:Q4991371	солдат
+N55	Reference T19 Wikidata:Q488200	
+N56	Reference T17 Wikidata:Q488200	
+N57	Reference T22 Wikidata:Q30	США
+N58	Reference T24 Wikidata:Q30	США
+N59	Reference T28 Wikidata:Q30	США
+N60	Reference T32 Wikidata:Q30	США
+N61	Reference T70 Wikidata:Q183	Германия
+T95	EVENT 1325 1330	бунту
+R73	PARTICIPANT_IN Arg1:T56 Arg2:T55	
+R74	ALTERNATIVE_NAME Arg1:T89 Arg2:T95	

@@ -1,0 +1,197 @@
+T2	PERSON 0 7	Б.Обама
+T4	PERSON 78 89	Барак Обама
+T5	PERSON 122 135	Тома Донилона
+T6	PROFESSION 142 181	советником по национальной безопасности
+T7	PROFESSION 218 245	генерала морской пехоты США
+T8	COUNTRY 242 245	США
+T9	PERSON 246 260	Джеймса Джонса
+T10	ORGANIZATION 320 344	администрации президента
+T12	PERSON 407 416	Дж.Джонса
+T13	COUNTRY 493 505	американские
+T14	AGE 511 520	55-летний
+T16	PERSON 521 530	Т.Донилон
+T17	PROFESSION 548 562	юрисконсультом
+T18	COUNTRY 591 603	американским
+T19	PROFESSION 643 658	вице-президенту
+T20	PERSON 663 674	Джо Байдену
+T21	PERSON 681 691	Т.Донилона
+T22	PROFESSION 707 717	советником
+T23	DATE 734 755	Некоторое время назад
+T25	PERSON 756 766	Т.Донилона
+T26	COUNTRY 814 825	Афганистане
+T27	PROFESSION 900 907	Генерал
+T28	PERSON 908 916	Дж.Джонс
+T29	ORGANIZATION 936 958	корпуса морской пехоты
+T30	DATE 959 974	1 февраля 2007г
+T32	DATE 982 991	40-летней
+T33	PROFESSION 1111 1135	советника президента США
+T34	DATE 1136 1154	в течение двух лет
+T35	DATE 1167 1182	1 октября 2010г
+T36	PROFESSION 1212 1243	главы администрации Белого дома
+T37	PERSON 1244 1254	Р.Эмануэль
+T38	PROFESSION 1298 1309	мэра Чикаго
+T39	PROFESSION 1352 1363	мэра Чикаго
+T40	PROFESSION 1380 1413	глава президентской администрации
+T41	PROFESSION 1479 1483	мэра
+T42	PERSON 1491 1504	Ричарда Дэйли
+T43	PROFESSION 1547 1560	Президент США
+T44	PROFESSION 1570 1600	старшего советника Белого дома
+T45	PERSON 1601 1611	Пита Рауса
+T46	PROFESSION 1622 1656	главой президентской администрации
+T1	PROFESSION 24 62	советника по национальной безопасности
+T47	PROFESSION 64 77	Президент США
+T48	PROFESSION 64 73	Президент
+T49	COUNTRY 74 77	США
+T50	ORGANIZATION 227 245	морской пехоты США
+T11	PROFESSION 643 662	вице-президенту США
+T15	COUNTRY 659 662	США
+T51	PERSON 692 697	Майкл
+T52	PROFESSION 724 732	политика
+T24	PROFESSION 1121 1135	президента США
+T31	COUNTRY 1132 1135	США
+T53	ORGANIZATION 1218 1243	администрации Белого дома
+T54	ORGANIZATION 1232 1243	Белого дома
+T55	CITY 1303 1309	Чикаго
+T56	CITY 1357 1363	Чикаго
+T57	ORGANIZATION 1386 1413	президентской администрации
+T58	PROFESSION 1547 1556	Президент
+T59	COUNTRY 1557 1560	США
+T60	PROFESSION 1579 1600	советника Белого дома
+T61	ORGANIZATION 1589 1600	Белого дома
+T62	ORGANIZATION 1629 1656	президентской администрации
+T63	EVENT 8 16	назначил
+R1	AGENT Arg1:T2 Arg2:T63	
+R2	WORKS_AS Arg1:T4 Arg2:T47	
+R3	WORKPLACE Arg1:T4 Arg2:T49	
+R4	SUBORDINATE_OF Arg1:T5 Arg2:T4	
+R5	WORKS_AS Arg1:T5 Arg2:T6	
+R6	WORKS_AS Arg1:T9 Arg2:T7	
+R7	WORKPLACE Arg1:T9 Arg2:T50	
+R8	WORKS_AS Arg1:T9 Arg2:T6	
+R9	AGE_IS Arg1:T16 Arg2:T14	
+R10	WORKS_AS Arg1:T16 Arg2:T17	
+R11	KNOWS Arg1:T16 Arg2:T20	
+R12	WORKS_AS Arg1:T20 Arg2:T11	
+R13	WORKPLACE Arg1:T20 Arg2:T15	
+R14	SIBLING Arg1:T21 Arg2:T51	
+R15	WORKS_AS Arg1:T20 Arg2:T52	
+R16	WORKS_AS Arg1:T21 Arg2:T22	
+R17	WORKS_AS Arg1:T28 Arg2:T27	
+R18	WORKPLACE Arg1:T28 Arg2:T29	
+R20	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+T64	EVENT 1191 1199	отставку
+R21	PARTICIPANT_IN Arg1:T37 Arg2:T64	
+R22	POINT_IN_TIME Arg1:T64 Arg2:T35	
+R24	WORKPLACE Arg1:T37 Arg2:T53	
+R23	WORKS_AS Arg1:T37 Arg2:T36	
+R25	WORKS_AS Arg1:T42 Arg2:T39	
+T65	EVENT 1561 1569	назначил
+R26	AGENT Arg1:T43 Arg2:T65	
+R27	PARTICIPANT_IN Arg1:T45 Arg2:T65	
+R28	WORKS_AS Arg1:T45 Arg2:T44	
+R29	WORKPLACE Arg1:T45 Arg2:T61	
+T66	PROFESSION 1612 1656	временным главой президентской администрации
+R30	WORKS_AS Arg1:T45 Arg2:T66	
+T67	PROFESSION 24 33	советника
+R31	WORKPLACE Arg1:T47 Arg2:T49	
+T68	EVENT 111 121	назначении
+R32	AGENT Arg1:T4 Arg2:T68	
+R33	PARTICIPANT_IN Arg1:T5 Arg2:T68	
+T69	PROFESSION 142 152	советником
+R34	WORKPLACE Arg1:T7 Arg2:T50	
+R35	HEADQUARTERED_IN Arg1:T50 Arg2:T8	
+T70	ORGANIZATION 227 241	морской пехоты
+R36	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+T71	EVENT 398 406	отставке
+R37	PARTICIPANT_IN Arg1:T12 Arg2:T71	
+R39	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+R19	WORKPLACE Arg1:T11 Arg2:T15	
+R38	SUBORDINATE_OF Arg1:T22 Arg2:T52	
+R40	SUBORDINATE_OF Arg1:T51 Arg2:T20	
+T72	PROFESSION 850 858	эксперты
+T73	EVENT 924 932	отставку
+R41	AGENT Arg1:T28 Arg2:T73	
+R42	PARTICIPANT_IN Arg1:T29 Arg2:T73	
+R43	POINT_IN_TIME Arg1:T73 Arg2:T30	
+R44	SUBORDINATE_OF Arg1:T33 Arg2:T24	
+R45	WORKPLACE Arg1:T24 Arg2:T31	
+T74	PROFESSION 1111 1120	советника
+R46	WORKPLACE Arg1:T38 Arg2:T55	
+R47	WORKPLACE Arg1:T36 Arg2:T53	
+R48	WORKPLACE Arg1:T39 Arg2:T56	
+T75	PROFESSION 1321 1330	экспертов
+R49	WORKPLACE Arg1:T40 Arg2:T57	
+T76	PROFESSION 1386 1399	президентской
+R50	WORKPLACE Arg1:T43 Arg2:T59	
+R51	WORKPLACE Arg1:T44 Arg2:T61	
+R52	WORKPLACE Arg1:T66 Arg2:T62	
+R53	PARTICIPANT_IN Arg1:T1 Arg2:T63	
+R54	TAKES_PLACE_IN Arg1:T68 Arg2:T49	
+R55	HEADQUARTERED_IN Arg1:T10 Arg2:T8	
+R56	WORKS_AS Arg1:T28 Arg2:T33	
+R57	ALTERNATIVE_NAME Arg1:T5 Arg2:T16	
+R58	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+R59	ALTERNATIVE_NAME Arg1:T9 Arg2:T28	
+N1	Reference T4 Wikidata:Q76	Барак Обама
+N3	Reference T6 Wikidata:Q1414246	советник президента США по национальной безопасности
+N8	Reference T17 Wikidata:Q2664701	юрисконсульт
+N10	Reference T20 Wikidata:Q6279	Джо Байден
+N12	Reference T26 Wikidata:Q889	Афганистан
+N13	Reference T27 Wikidata:Q83460	генерал
+N14	Reference T29 Wikidata:Q11218	Корпус морской пехоты США
+N15	Reference T33 Wikidata:Q732029	Советник президента США
+N16	Reference T36 Wikidata:Q786242	глава администрации президента США
+N19	Reference T41 Wikidata:Q30185	мэр
+N21	Reference T45 Wikidata:Q211340	пита
+N23	Reference T47 Wikidata:Q11696	президент США
+N24	Reference T50 Wikidata:Q11218	Корпус морской пехоты США
+N25	Reference T11 Wikidata:Q11699	вице-президент США
+N27	Reference T52 Wikidata:Q82955	политик
+N29	Reference T55 Wikidata:Q1297	Чикаго
+N30	Reference T58 Wikidata:Q30461	президент
+N31	Reference T59 Wikidata:Q30	США
+N35	Reference T70 Wikidata:Q1898583	морская пехота
+N36	Reference T72 Wikidata:Q381160	эксперт
+N2	Reference T5 Wikidata:Q618727	Донилон, Томас
+N4	Reference T7 Wikidata:NULL	нет данных
+N5	Reference T10 Wikidata:Q1355327	Исполнительный офис Президента США
+N6	Reference T12 Wikidata:Q467451	
+N7	Reference T16 Wikidata:Q618727	Донилон, Томас
+N9	Reference T19 Wikidata:Q42178	вице-президент
+N26	Reference T51 Wikidata:Q6846591	
+N11	Reference T22 Wikidata:Q2994387	
+N28	Reference T53 Wikidata:Q1355327	Исполнительный офис Президента США
+N17	Reference T37 Wikidata:Q298443	
+N18	Reference T39 Wikidata:NULL	нет данных
+N37	Reference T76 Wikidata:Q30461	президент
+N38	Reference T42 Wikidata:Q539814	Дэйли, Ричард Майкл
+N20	Reference T44 Wikidata:NULL	нет данных
+N32	Reference T60 Wikidata:NULL	нет данных
+N34	Reference T62 Wikidata:Q1355327	Исполнительный офис Президента США
+N33	Reference T61 Wikidata:Q1355327	Исполнительный офис Президента США
+N39	Reference T66 Wikidata:NULL	нет данных
+N22	Reference T46 Wikidata:Q786242	глава администрации президента США
+N40	Reference T2 Wikidata:Q76	Барак Обама
+N41	Reference T1 Wikidata:Q1414246	советник президента США по национальной безопасности
+N42	Reference T43 Wikidata:Q11696	президент США
+N43	Reference T24 Wikidata:Q11696	президент США
+N44	Reference T56 Wikidata:Q1297	Чикаго
+N45	Reference T48 Wikidata:Q30461	президент
+N46	Reference T49 Wikidata:Q30	США
+N47	Reference T15 Wikidata:Q30	США
+N48	Reference T13 Wikidata:Q30	США
+N49	Reference T31 Wikidata:Q30	США
+N50	Reference T8 Wikidata:Q30	США
+N51	Reference T18 Wikidata:Q30	США
+N52	Reference T75 Wikidata:Q381160	эксперт
+N53	Reference T28 Wikidata:Q467451	
+N54	Reference T9 Wikidata:Q467451	
+N55	Reference T25 Wikidata:Q618727	Донилон, Томас
+N56	Reference T21 Wikidata:Q618727	Донилон, Томас
+N57	Reference T67 Wikidata:Q2994387	
+N58	Reference T69 Wikidata:Q2994387	
+N59	Reference T74 Wikidata:Q2994387	
+N60	Reference T38 Wikidata:NULL	нет данных
+N61	Reference T57 Wikidata:Q1355327	Исполнительный офис Президента США
+N62	Reference T54 Wikidata:Q1355327	Исполнительный офис Президента США
+N63	Reference T40 Wikidata:Q786242	глава администрации президента США

@@ -1,0 +1,120 @@
+T1	NATIONALITY 0 10	Российский
+T2	PROFESSION 21 29	депутата
+T3	COUNTRY 87 93	России
+T4	PERSON 94 108	Роман Селезнёв
+T5	COUNTRY 111 114	США
+T6	AGE 176 186	33-летнего
+T7	PROFESSION 203 211	депутата
+T8	PERSON 233 250	Валерия Селезнёва
+T9	MONEY 456 471	50 млн долларов
+T10	PERSON 474 482	Селезнёв
+T11	NUMBER 508 512	двум
+T12	PERSON 634 643	Селезнёва
+T13	NUMBER 661 665	двух
+T14	STATE_OR_PROVINCE 695 701	Невада
+T15	STATE_OR_PROVINCE 704 712	Джорджия
+T16	DATE 742 760	В апреле 2017 года
+T18	DATE 791 799	27 годам
+T19	CITY 824 834	Вашингтоне
+T20	PERSON 888 896	Селезнёв
+T21	COUNTRY 914 923	Мальдивах
+T22	COUNTRY 942 945	США
+T23	COUNTRY 954 960	России
+T24	PROFESSION 11 16	хакер
+T25	ORGANIZATION 30 37	Госдумы
+T26	PROFESSION 21 37	депутата Госдумы
+T27	PERSON 70 76	Фемида
+T28	PERSON 187 196	Селезнёва
+T29	ORGANIZATION 212 232	Государственной Думы
+T30	PROFESSION 203 232	депутата Государственной Думы
+T31	CRIME 263 324	хищении информации о кредитных карточках и иных личных данных
+T32	CRIME 334 400	проведении незаконных операций по обналичиванию похищенных средств
+T33	CRIME 532 558	соучастии в вымогательстве
+T34	CRIME 561 614	заговоре с целью совершения банковского мошенничества
+T35	PERSON 761 769	Селезнёв
+T17	PENALTY 791 815	27 годам лишения свободы
+T36	EVENT 38 69	признался в новых преступлениях
+T37	EVENT 115 136	признал себя виновным
+T38	EVENT 483 504	признал себя виновным
+T39	CRIME 849 885	хищении данных о кредитных карточках
+T40	NATIONALITY 77 93	Гражданин России
+R1	ORIGINS_FROM Arg1:T40 Arg2:T3	
+R2	ORIGINS_FROM Arg1:T4 Arg2:T40	
+R3	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R4	TAKES_PLACE_IN Arg1:T37 Arg2:T5	
+R5	WORKPLACE Arg1:T30 Arg2:T29	
+R6	WORKS_AS Arg1:T8 Arg2:T30	
+R7	WORKPLACE Arg1:T8 Arg2:T29	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T28	
+R11	AGE_IS Arg1:T28 Arg2:T6	
+R12	PARENT_OF Arg1:T8 Arg2:T28	
+R8	CONVICTED_OF Arg1:T28 Arg2:T31	
+R9	CONVICTED_OF Arg1:T28 Arg2:T32	
+R13	INCOME Arg1:T28 Arg2:T9	
+R14	CONVICTED_OF Arg1:T10 Arg2:T33	
+R15	CONVICTED_OF Arg1:T10 Arg2:T34	
+R16	WORKPLACE Arg1:T26 Arg2:T25	
+R17	ALTERNATIVE_NAME Arg1:T26 Arg2:T30	
+R18	WORKS_AS Arg1:T4 Arg2:T24	
+R19	ORIGINS_FROM Arg1:T4 Arg2:T1	
+R20	ORIGINS_FROM Arg1:T24 Arg2:T1	
+R21	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R22	AGENT Arg1:T10 Arg2:T38	
+T41	EVENT 778 788	приговорён
+R23	PARTICIPANT_IN Arg1:T35 Arg2:T41	
+R24	POINT_IN_TIME Arg1:T41 Arg2:T16	
+T42	PENALTY 800 815	лишения свободы
+R25	PENALIZED_AS Arg1:T35 Arg2:T17	
+R26	TAKES_PLACE_IN Arg1:T41 Arg2:T19	
+R27	CONVICTED_OF Arg1:T35 Arg2:T39	
+R28	HAS_CAUSE Arg1:T17 Arg2:T39	
+T43	EVENT 901 910	арестован
+T44	EVENT 926 939	экстрадирован
+R29	PARTICIPANT_IN Arg1:T20 Arg2:T43	
+R30	TAKES_PLACE_IN Arg1:T43 Arg2:T21	
+R31	PARTICIPANT_IN Arg1:T20 Arg2:T44	
+R32	TAKES_PLACE_IN Arg1:T44 Arg2:T21	
+R33	AGENT Arg1:T24 Arg2:T36	
+R34	AGENT Arg1:T4 Arg2:T37	
+T45	CRIME 156 173	киберпреступлений
+R35	CONVICTED_OF Arg1:T4 Arg2:T45	
+R36	HAS_CAUSE Arg1:T37 Arg2:T45	
+T46	CRIME 263 281	хищении информации
+R37	HAS_CAUSE Arg1:T38 Arg2:T33	
+R38	HAS_CAUSE Arg1:T38 Arg2:T34	
+R39	HAS_CAUSE Arg1:T41 Arg2:T39	
+R40	TAKES_PLACE_IN Arg1:T44 Arg2:T22	
+T47	EVENT 978 983	арест
+R41	ALTERNATIVE_NAME Arg1:T43 Arg2:T47	
+T48	ORGANIZATION 947 960	Власти России
+R42	HEADQUARTERED_IN Arg1:T48 Arg2:T23	
+T49	CRIME 849 863	хищении данных
+N2	Reference T3 Wikidata:Q159	Россия
+N3	Reference T5 Wikidata:Q30	США
+N4	Reference T7 Wikidata:Q486839	член парламента
+N5	Reference T8 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N6	Reference T14 Wikidata:Q1227	Невада
+N7	Reference T15 Wikidata:Q1428	Джорджия
+N8	Reference T19 Wikidata:Q61	Вашингтон
+N9	Reference T21 Wikidata:Q826	Мальдивы
+N10	Reference T24 Wikidata:Q1487	хакер
+N11	Reference T25 Wikidata:Q715641	Государственная дума
+N12	Reference T27 Wikidata:Q159168	Фемида
+N13	Reference T29 Wikidata:Q715641	Государственная дума
+N1	Reference T1 Wikidata:Q492468	россияне
+N17	Reference T26 Wikidata:Q17276321	
+N15	Reference T40 Wikidata:Q492468	россияне
+N14	Reference T35 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N16	Reference T48 Wikidata:NULL	нет данных
+N18	Reference T23 Wikidata:Q159	Россия
+N19	Reference T22 Wikidata:Q30	США
+N20	Reference T2 Wikidata:Q486839	член парламента
+N21	Reference T30 Wikidata:Q17276321	
+N22	Reference T10 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N23	Reference T20 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N24	Reference T12 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N25	Reference T4 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+N26	Reference T28 Wikidata:Q18277467	Селезнёв, Валерий Сергеевич
+T50	CRIME 544 558	вымогательстве
+T51	CRIME 589 614	банковского мошенничества
+T52	CRIME 601 614	мошенничества

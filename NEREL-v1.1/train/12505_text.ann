@@ -1,0 +1,42 @@
+T1	ORGANIZATION 103 110	Госдума
+T2	LAW 130 271	ст. 16 Федерального закона «О государственном регулировании производства и оборота этилового спирта, алкогольной и спиртосодержащей продукции
+T3	ORGANIZATION 283 286	РБК
+T4	ORGANIZATION 520 527	Госдума
+T5	ORDINAL 539 546	второму
+T6	DATE 684 695	до трёх лет
+T7	DATE 747 755	один год
+T8	LAW 866 891	административным кодексом
+T9	PERSON 919 937	Владимиром Путиным
+T11	LAW 137 271	Федерального закона «О государственном регулировании производства и оборота этилового спирта, алкогольной и спиртосодержащей продукции
+T10	LAW 2 83	федеральный закон о государственном регулировании производства и оборота алкоголя
+T12	LAW 793 852	федерального закона о реализации спиртосодержащей продукции
+T14	ORDINAL 134 136	16
+T15	CRIME 969 1004	продажу алкоголя несовершеннолетним
+T16	EVENT 111 127	внесла изменения
+R1	AGENT Arg1:T1 Arg2:T16	
+R2	PRODUCES Arg1:T1 Arg2:T2	
+T13	PROFESSION 316 347	продавцам алкогольной продукции
+T17	CRIME 599 634	продажу алкоголя детям и подросткам
+T18	PENALTY 642 695	лишения прав на работу в торговле на срок до трёх лет
+T19	PENALTY 715 755	исправительные работы сроком на один год
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T12	
+R4	ALTERNATIVE_NAME Arg1:T17 Arg2:T15	
+R5	HAS_CAUSE Arg1:T18 Arg2:T17	
+R6	HAS_CAUSE Arg1:T19 Arg2:T17	
+R7	PART_OF Arg1:T2 Arg2:T11	
+T20	PROFESSION 316 325	продавцам
+T21	PENALTY 642 675	лишения прав на работу в торговле
+T22	PENALTY 715 736	исправительные работы
+R8	INANIMATE_INVOLVED Arg1:T2 Arg2:T16	
+T23	PENALTY 642 664	лишения прав на работу
+N1	Reference T3 Wikidata:Q629733	РосБизнесКонсалтинг
+N2	Reference T4 Wikidata:Q715641	Государственная дума
+N4	Reference T9 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T20 Wikidata:Q685433	продавец
+N6	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N8	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N10	Reference T1 Wikidata:Q715641	Государственная дума
+N11	Reference T2 Wikidata:NULL	нет данных

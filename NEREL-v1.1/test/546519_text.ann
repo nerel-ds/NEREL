@@ -1,0 +1,250 @@
+T1	PERSON 7 21	Мария Антонова
+T2	PROFESSION 36 44	артистка
+T3	STATE_OR_PROVINCE 54 62	Мордовии
+T4	DATE 94 111	1 марта 2020 года
+T5	AGE 123 129	93 лет
+T6	PROFESSION 150 158	артистка
+T7	STATE_OR_PROVINCE 168 176	Мордовии
+T8	PERSON 177 202	Мария Николаевна Антонова
+T9	DATE 230 237	3 марта
+T10	FACILITY 240 268	Русском драматическом театре
+T11	CITY 271 279	Саранске
+T12	PERSON 320 334	Мария Антонова
+T13	PROFESSION 340 387	солисткой Мордовской государственной филармонии
+T14	ORGANIZATION 350 387	Мордовской государственной филармонии
+T15	ORGANIZATION 400 407	Умарина
+T16	STATE_OR_PROVINCE 463 471	Мордовия
+T17	WORK_OF_ART 497 504	Умарина
+T18	STATE_OR_PROVINCE 549 557	Мордовии
+T19	PERSON 714 720	Кудаву
+T20	DATE 882 895	в [1957 год]у
+T21	EVENT 899 939	Всемирном фестивале молодёжи и студентов
+T22	CITY 942 948	Москве
+T23	PERSON 951 976	Мария Николаевна Антонова
+T24	DATE 986 1006	24 августа 1926 года
+T25	CITY 1028 1033	Левжа
+T26	CITY 1051 1059	Рузаевка
+T27	STATE_OR_PROVINCE 1063 1071	Мордовии
+T28	DATE 1098 1109	В 1945 году
+T29	PERSON 1110 1126	Мария Николаевна
+T30	ORGANIZATION 1144 1161	Мордовской студии
+T31	ORGANIZATION 1166 1191	Саратовской консерватории
+T32	STATE_OR_PROVINCE 1204 1212	Мордовию
+T33	PROFESSION 1219 1228	хористкой
+T34	PROFESSION 1273 1292	солисткой «Умарины»
+T35	ORGANIZATION 1284 1291	Умарины
+T36	DATE 1295 1306	В 1957 году
+T37	PROFESSION 1340 1349	артисткой
+T38	DATE 1367 1373	в 1960
+T39	PROFESSION 1388 1397	артисткой
+T40	DATE 1405 1411	в 1969
+T41	PROFESSION 1423 1432	артисткой
+T42	DATE 1450 1456	в 1981
+T43	PROFESSION 1468 1477	артисткой
+T44	DATE 1486 1497	В 1971 году
+T45	PERSON 1498 1512	Мария Антонова
+T46	DATE 1563 1569	в 2002
+T48	DATE 1676 1687	С 2000 года
+T51	EVENT 1755 1806	конкурс исполнителей народной песни имени Антоновой
+T52	EVENT 0 6	Умерла
+T53	COUNTRY 45 51	России
+T54	AWARD 24 62	заслуженная артистка России и Мордовии
+T55	FACILITY 64 93	Собор Святого Феодора Ушакова
+T56	PERSON 70 93	Святого Феодора Ушакова
+T57	EVENT 130 140	скончалась
+T58	COUNTRY 159 165	России
+T59	AWARD 141 176	Народная артистка России и Мордовии
+T60	EVENT 204 212	Прощание
+T61	EVENT 281 290	отпевание
+T62	FACILITY 295 317	соборе Феодора Ушакова
+T63	PERSON 302 317	Феодора Ушакова
+T65	WORK_OF_ART 536 544	яблонька
+T66	PERSON 875 881	Марией
+T67	NATIONALITY 1009 1019	мокшанской
+T68	CITY 1166 1177	Саратовской
+T69	ORGANIZATION 1144 1191	Мордовской студии при Саратовской консерватории
+T70	ORGANIZATION 1229 1257	музыкального театра Мордовии
+T71	PROFESSION 1219 1257	хористкой музыкального театра Мордовии
+T72	STATE_OR_PROVINCE 1249 1257	Мордовии
+T73	PERSON 1307 1321	Мария Антонова
+T74	STATE_OR_PROVINCE 1350 1365	Мордовской АССР
+T75	AWARD 1328 1365	заслуженной артисткой Мордовской АССР
+T76	STATE_OR_PROVINCE 1398 1403	РСФСР
+T77	AWARD 1376 1403	заслуженной артисткой РСФСР
+T78	STATE_OR_PROVINCE 1433 1448	Мордовской АССР
+T79	AWARD 1414 1448	народной артисткой Мордовской АССР
+T80	AWARD 1459 1483	народной артисткой РСФСР
+T81	STATE_OR_PROVINCE 1478 1483	РСФСР
+T82	AWARD 1521 1559	Государственной премии Мордовской АССР
+T83	STATE_OR_PROVINCE 1544 1559	Мордовской АССР
+T85	AWARD 1572 1615	Государственной премией Республики Мордовия
+T47	STATE_OR_PROVINCE 1596 1615	Республики Мордовия
+T87	AWARD 1637 1648	Знка Почёта
+T88	AWARD 1652 1674	орденом Дружбы народов
+T89	AWARD 1660 1674	Дружбы народов
+T91	STATE_OR_PROVINCE 1711 1730	Республики Мордовия
+T49	AWARD 1692 1730	Почётный гражданин Республики Мордовия
+T92	PERSON 1797 1806	Антоновой
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T52	
+T93	PERSON 78 93	Феодора Ушакова
+R2	AGE_DIED_AT Arg1:T8 Arg2:T5	
+R3	POINT_IN_TIME Arg1:T57 Arg2:T4	
+R4	DATE_OF_DEATH Arg1:T8 Arg2:T4	
+R7	PARTICIPANT_IN Arg1:T8 Arg2:T57	
+R8	POINT_IN_TIME Arg1:T60 Arg2:T9	
+R9	TAKES_PLACE_IN Arg1:T60 Arg2:T10	
+R10	ORIGINS_FROM Arg1:T10 Arg2:T11	
+R11	TAKES_PLACE_IN Arg1:T61 Arg2:T62	
+T94	PROFESSION 340 349	солисткой
+R12	WORKS_AS Arg1:T12 Arg2:T13	
+R13	WORKPLACE Arg1:T12 Arg2:T14	
+R14	WORKPLACE Arg1:T12 Arg2:T15	
+R15	PRODUCES Arg1:T12 Arg2:T17	
+T95	PROFESSION 429 435	певицы
+R16	WORKS_AS Arg1:T12 Arg2:T95	
+R17	PRODUCES Arg1:T95 Arg2:T17	
+R18	POINT_IN_TIME Arg1:T21 Arg2:T20	
+R19	TAKES_PLACE_IN Arg1:T21 Arg2:T22	
+R20	PARTICIPANT_IN Arg1:T66 Arg2:T21	
+R21	DATE_OF_BIRTH Arg1:T23 Arg2:T24	
+R22	PLACE_OF_BIRTH Arg1:T23 Arg2:T25	
+R23	LOCATED_IN Arg1:T25 Arg2:T27	
+R24	LOCATED_IN Arg1:T26 Arg2:T27	
+R25	SCHOOLS_ATTENDED Arg1:T29 Arg2:T69	
+R26	WORKS_AS Arg1:T29 Arg2:T71	
+T96	PROFESSION 1273 1282	солисткой
+R27	WORKPLACE Arg1:T29 Arg2:T70	
+R28	WORKS_AS Arg1:T29 Arg2:T34	
+R29	WORKPLACE Arg1:T29 Arg2:T35	
+R30	AWARDED_WITH Arg1:T73 Arg2:T75	
+R31	AWARDED_WITH Arg1:T73 Arg2:T77	
+R32	AWARDED_WITH Arg1:T73 Arg2:T79	
+R33	AWARDED_WITH Arg1:T73 Arg2:T80	
+R34	AWARDED_WITH Arg1:T45 Arg2:T82	
+R35	AWARDED_WITH Arg1:T45 Arg2:T85	
+R36	AWARDED_WITH Arg1:T45 Arg2:T87	
+R37	AWARDED_WITH Arg1:T45 Arg2:T88	
+R38	AWARDED_WITH Arg1:T73 Arg2:T49	
+T84	NATIONALITY 240 247	Русском
+R39	LOCATED_IN Arg1:T62 Arg2:T11	
+T90	STATE_OR_PROVINCE 350 360	Мордовской
+R40	HEADQUARTERED_IN Arg1:T14 Arg2:T90	
+R41	ALTERNATIVE_NAME Arg1:T7 Arg2:T90	
+R42	ALTERNATIVE_NAME Arg1:T17 Arg2:T65	
+R43	DATE_OF_CREATION Arg1:T17 Arg2:T20	
+R44	HEADQUARTERED_IN Arg1:T31 Arg2:T68	
+T64	STATE_OR_PROVINCE 1144 1154	Мордовской
+R45	HEADQUARTERED_IN Arg1:T69 Arg2:T64	
+R46	ALTERNATIVE_NAME Arg1:T23 Arg2:T29	
+R47	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+T97	EVENT 1755 1790	конкурс исполнителей народной песни
+R48	OWNER_OF Arg1:T31 Arg2:T30	
+R49	HEADQUARTERED_IN Arg1:T70 Arg2:T72	
+R50	ORIGINS_FROM Arg1:T82 Arg2:T83	
+R51	ORIGINS_FROM Arg1:T85 Arg2:T47	
+R52	ORIGINS_FROM Arg1:T49 Arg2:T91	
+R53	ORIGINS_FROM Arg1:T80 Arg2:T81	
+R54	ORIGINS_FROM Arg1:T79 Arg2:T78	
+R55	ORIGINS_FROM Arg1:T75 Arg2:T74	
+R56	PLACE_RESIDES_IN Arg1:T67 Arg2:T25	
+R6	AWARDED_WITH Arg1:T1 Arg2:T54	
+R57	ORIGINS_FROM Arg1:T54 Arg2:T53	
+R58	ORIGINS_FROM Arg1:T54 Arg2:T3	
+R59	WORKS_AS Arg1:T1 Arg2:T2	
+T98	AWARD 24 44	заслуженная артистка
+T99	AWARD 141 158	Народная артистка
+R5	ORIGINS_FROM Arg1:T59 Arg2:T58	
+R60	ORIGINS_FROM Arg1:T59 Arg2:T7	
+R61	AWARDED_WITH Arg1:T8 Arg2:T59	
+R62	WORKS_AS Arg1:T73 Arg2:T37	
+R63	ORIGINS_FROM Arg1:T77 Arg2:T76	
+R64	POINT_IN_TIME Arg1:T75 Arg2:T36	
+R65	POINT_IN_TIME Arg1:T77 Arg2:T38	
+R66	POINT_IN_TIME Arg1:T79 Arg2:T40	
+R67	POINT_IN_TIME Arg1:T80 Arg2:T42	
+R68	POINT_IN_TIME Arg1:T82 Arg2:T44	
+R69	POINT_IN_TIME Arg1:T85 Arg2:T46	
+R70	POINT_IN_TIME Arg1:T49 Arg2:T48	
+R71	INANIMATE_INVOLVED Arg1:T8 Arg2:T60	
+R72	INANIMATE_INVOLVED Arg1:T8 Arg2:T61	
+N2	Reference T11 Wikidata:Q5343	Саранск
+N5	Reference T16 Wikidata:Q5340	Мордовия
+N6	Reference T19 Wikidata:Q32361104	Кудава
+N7	Reference T22 Wikidata:Q649	Москва
+N8	Reference T25 Wikidata:Q4256396	Левжа
+N9	Reference T26 Wikidata:Q193403	Рузаевка
+N12	Reference T31 Wikidata:Q2022998	Саратовская государственная консерватория имени Л. В. Собинова
+N17	Reference T45 Wikidata:Q4067419	Мария Николаевна Антонова
+N18	Reference T53 Wikidata:Q159	Россия
+N20	Reference T55 Wikidata:Q2328333	Собор Святого Феодора Ушакова
+N21	Reference T56 Wikidata:Q314339	Фёдор Фёдорович Ушаков
+N22	Reference T59 Wikidata:Q1857712	Народный артист Российской Федерации
+N23	Reference T62 Wikidata:Q2328333	Собор Святого Феодора Ушакова
+N25	Reference T67 Wikidata:Q1943269	Мокшане
+N28	Reference T70 Wikidata:Q4146895	Государственный музыкальный театр имени И. М. Яушева Республики Мордовия
+N31	Reference T76 Wikidata:Q2184	РСФСР
+N32	Reference T77 Wikidata:Q46919	Заслуженный артист РСФСР
+N34	Reference T80 Wikidata:Q47024	Народный артист РСФСР
+N36	Reference T83 Wikidata:Q970217	Мордовская Автономная Советская Социалистическая Республика
+N38	Reference T47 Wikidata:Q5340	Мордовия
+N40	Reference T88 Wikidata:Q583881	орден Дружбы народов
+N42	Reference T49 Wikidata:Q4375546	Почётный гражданин Республики Мордовия
+N44	Reference T93 Wikidata:Q314339	Фёдор Фёдорович Ушаков
+N45	Reference T94 Wikidata:Q1371914	солист
+N46	Reference T95 Wikidata:Q177220	певец
+N48	Reference T98 Wikidata:Q4187924	Заслуженный артист
+N49	Reference T99 Wikidata:Q1208997	народный артист
+N47	Reference T84 Wikidata:Q49542	русские
+N1	Reference T10 Wikidata:Q4146924	
+N4	Reference T14 Wikidata:Q56051806	
+N3	Reference T13 Wikidata:NULL	нет данных
+N24	Reference T65 Wikidata:NULL	нет данных
+N50	Reference T66 Wikidata:Q4067419	Мария Николаевна Антонова
+N10	Reference T29 Wikidata:Q4067419	Мария Николаевна Антонова
+N43	Reference T92 Wikidata:Q4067419	Мария Николаевна Антонова
+N26	Reference T68 Wikidata:Q5332	
+N11	Reference T30 Wikidata:NULL	нет данных
+N27	Reference T69 Wikidata:NULL	нет данных
+N13	Reference T33 Wikidata:Q106625143	
+N29	Reference T71 Wikidata:NULL	нет данных
+N15	Reference T35 Wikidata:NULL	нет данных
+N14	Reference T34 Wikidata:NULL	нет данных
+N41	Reference T89 Wikidata:Q1139733	
+N39	Reference T87 Wikidata:Q960966	
+N37	Reference T85 Wikidata:NULL	нет данных
+N35	Reference T82 Wikidata:NULL	нет данных
+N33	Reference T79 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:Q483501	деятель искусств
+N30	Reference T75 Wikidata:NULL	нет данных
+N19	Reference T54 Wikidata:NULL	нет данных
+N51	Reference T90 Wikidata:Q5340	Мордовия
+N52	Reference T72 Wikidata:Q5340	Мордовия
+N53	Reference T18 Wikidata:Q5340	Мордовия
+N54	Reference T7 Wikidata:Q5340	Мордовия
+N55	Reference T3 Wikidata:Q5340	Мордовия
+N56	Reference T32 Wikidata:Q5340	Мордовия
+N57	Reference T27 Wikidata:Q5340	Мордовия
+N58	Reference T64 Wikidata:Q5340	Мордовия
+N59	Reference T8 Wikidata:Q4067419	Мария Николаевна Антонова
+N60	Reference T73 Wikidata:Q4067419	Мария Николаевна Антонова
+N61	Reference T12 Wikidata:Q4067419	Мария Николаевна Антонова
+N62	Reference T1 Wikidata:Q4067419	Мария Николаевна Антонова
+N63	Reference T58 Wikidata:Q159	Россия
+N64	Reference T81 Wikidata:Q2184	РСФСР
+N65	Reference T78 Wikidata:Q970217	Мордовская Автономная Советская Социалистическая Республика
+N66	Reference T74 Wikidata:Q970217	Мордовская Автономная Советская Социалистическая Республика
+N67	Reference T91 Wikidata:Q5340	Мордовия
+N68	Reference T63 Wikidata:Q314339	Фёдор Фёдорович Ушаков
+N69	Reference T96 Wikidata:Q1371914	солист
+N70	Reference T17 Wikidata:NULL	нет данных
+N71	Reference T23 Wikidata:Q4067419	Мария Николаевна Антонова
+N72	Reference T15 Wikidata:NULL	нет данных
+N73	Reference T41 Wikidata:Q483501	деятель искусств
+N74	Reference T43 Wikidata:Q483501	деятель искусств
+N75	Reference T2 Wikidata:Q483501	деятель искусств
+N76	Reference T6 Wikidata:Q483501	деятель искусств
+N77	Reference T39 Wikidata:Q483501	деятель искусств
+R73	WORKPLACE Arg1:T34 Arg2:T35	
+T50	EVENT 977 985	родилась
+R74	PARTICIPANT_IN Arg1:T23 Arg2:T50	
+R75	POINT_IN_TIME Arg1:T50 Arg2:T24	

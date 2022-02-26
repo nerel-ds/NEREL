@@ -1,0 +1,174 @@
+T1	PERSON 5 12	Топалов
+T2	PERSON 15 22	Крамник
+T3	DATE 24 35	23 сентября
+T4	CITY 47 53	Элисте
+T5	EVENT 78 82	матч
+T6	AWARD 86 113	первенство мира по шахматам
+T7	DATE 115 121	С 1993
+T8	PERSON 138 152	Гарри Каспаров
+T9	PERSON 155 167	Найджел Шорт
+T10	EVENT 181 185	матч
+T12	ORGANIZATION 215 219	ФИДЕ
+T13	ORGANIZATION 223 227	ФИДЕ
+T14	PERSON 264 282	Анатолием Карповым
+T15	PERSON 285 298	Яном Тимманом
+T16	DATE 484 494	13 октября
+T17	PERSON 548 564	Владимир Крамник
+T18	PERSON 608 623	Гарри Каспарова
+T19	AWARD 638 651	Чемпиону мира
+T20	PERSON 657 674	Веселину Топалову
+T21	PERSON 678 691	Гари Каспаров
+T22	PERSON 699 706	Топалов
+T23	ORDINAL 729 733	15-м
+T24	PERSON 781 795	Гарри Каспаров
+T25	PERSON 886 893	Топалов
+T26	PERSON 896 903	Крамник
+T27	PERSON 917 924	Топалов
+T28	PERSON 964 971	Крамник
+T29	PERSON 1013 1020	Топалов
+T30	PERSON 1083 1089	Краник
+T33	PERSON 1139 1146	Топалов
+T34	PERSON 1156 1163	Крамник
+T35	PERSON 1181 1189	Каспаров
+T36	NUMBER 1228 1241	не менее трёх
+T37	PERSON 1307 1315	Каспаров
+T38	PERSON 1365 1372	Топалов
+T39	ORDINAL 1411 1415	15-й
+T40	PERSON 1552 1567	Веселин Топалов
+T41	AGE 1569 1575	31 год
+T42	DATE 1585 1603	15 марта 1975 года
+T43	ORDINAL 1633 1636	№ 1
+T44	PERSON 1645 1661	Владимир Крамник
+T45	AGE 1663 1669	31 год
+T46	DATE 1679 1696	25 июня 1975 года
+T47	ORDINAL 1714 1717	№ 4
+T49	PERSON 1756 1763	Топалов
+T50	PERSON 1766 1773	Крамник
+T51	NUMBER 1794 1796	39
+T52	NUMBER 1838 1840	10
+T53	PERSON 1855 1862	Крамник
+T54	NUMBER 1864 1865	5
+T55	PERSON 1868 1875	Топалов
+T56	PERSON 1902 1909	Крамник
+T57	CITY 1912 1921	Дортмунде
+T58	EVENT 0 4	Матч
+T59	EVENT 253 257	матч
+T60	AWARD 328 352	чемпион мира по шахматам
+T61	PROFESSION 395 406	шахматистов
+T62	PRODUCT 430 439	Интернете
+T63	AWARD 535 547	чемпион мира
+T64	EVENT 595 600	матче
+T65	AWARD 638 656	Чемпиону мира ФИДЕ
+T66	ORGANIZATION 652 656	ФИДЕ
+T67	AWARD 734 748	чемпионом мира
+T68	PROFESSION 839 849	шахматиста
+T31	EVENT 1113 1121	Сан Луис
+T32	EVENT 1151 1155	матч
+T69	EVENT 1101 1107	турнир
+T70	EVENT 1216 1221	матче
+T71	AWARD 1416 1428	чемпион мира
+T72	EVENT 1544 1549	матча
+T73	NUMBER 1626 1630	2813
+T74	NUMBER 1707 1711	2743
+T75	DATE 1922 1933	в 2005 году
+T76	EVENT 62 82	объединительный матч
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T58	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T58	
+R4	TAKES_PLACE_IN Arg1:T76 Arg2:T4	
+R5	KNOWS Arg1:T1 Arg2:T2	
+R6	KNOWS Arg1:T8 Arg2:T9	
+T11	AWARD 189 204	первенство мира
+R7	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R8	ALTERNATIVE_NAME Arg1:T11 Arg2:T60	
+R9	PARTICIPANT_IN Arg1:T9 Arg2:T10	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T10	
+R12	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R13	KNOWS Arg1:T14 Arg2:T15	
+R14	PARTICIPANT_IN Arg1:T14 Arg2:T59	
+R15	PARTICIPANT_IN Arg1:T15 Arg2:T59	
+R16	AWARDED_WITH Arg1:T17 Arg2:T63	
+R17	PARTICIPANT_IN Arg1:T17 Arg2:T64	
+R18	PARTICIPANT_IN Arg1:T18 Arg2:T64	
+R19	KNOWS Arg1:T17 Arg2:T18	
+R20	ORIGINS_FROM Arg1:T65 Arg2:T66	
+R21	AWARDED_WITH Arg1:T20 Arg2:T65	
+R22	ALTERNATIVE_NAME Arg1:T2 Arg2:T17	
+R23	ALTERNATIVE_NAME Arg1:T1 Arg2:T20	
+R24	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+R25	AWARDED_WITH Arg1:T22 Arg2:T67	
+T77	AWARD 761 780	единый чемпион мира
+T78	AWARD 768 780	чемпион мира
+R26	AWARDED_WITH Arg1:T24 Arg2:T77	
+R27	WORKS_AS Arg1:T24 Arg2:T68	
+T79	EVENT 880 885	матче
+R28	PARTICIPANT_IN Arg1:T25 Arg2:T79	
+R29	PARTICIPANT_IN Arg1:T26 Arg2:T79	
+R30	KNOWS Arg1:T25 Arg2:T26	
+R31	WORKS_AS Arg1:T25 Arg2:T68	
+R32	WORKS_AS Arg1:T26 Arg2:T68	
+R33	PARTICIPANT_IN Arg1:T34 Arg2:T32	
+R34	PARTICIPANT_IN Arg1:T33 Arg2:T31	
+R35	ALTERNATIVE_NAME Arg1:T24 Arg2:T35	
+R37	AGE_IS Arg1:T40 Arg2:T41	
+R38	DATE_OF_BIRTH Arg1:T40 Arg2:T42	
+R40	AGE_IS Arg1:T44 Arg2:T45	
+R43	DATE_OF_BIRTH Arg1:T44 Arg2:T46	
+T48	DATE 1735 1741;1750 1754	с 1994 годы
+T82	DATE 1742 1754	по 2005 годы
+T83	EVENT 1887 1893	партию
+R44	PARTICIPANT_IN Arg1:T56 Arg2:T83	
+R45	TAKES_PLACE_IN Arg1:T83 Arg2:T57	
+R46	POINT_IN_TIME Arg1:T83 Arg2:T75	
+R47	PARTICIPANT_IN Arg1:T55 Arg2:T83	
+R48	POINT_IN_TIME Arg1:T58 Arg2:T3	
+R1	ORIGINS_FROM Arg1:T6 Arg2:T76	
+R11	POINT_IN_TIME Arg1:T10 Arg2:T7	
+R49	ORGANIZES Arg1:T13 Arg2:T59	
+N2	Reference T4 Wikidata:Q3977	Элиста
+N3	Reference T9 Wikidata:Q313778	Шорт, Найджел
+N4	Reference T13 Wikidata:Q102178	Международная шахматная федерация
+N5	Reference T14 Wikidata:Q131674	Анатолий Евгеньевич Карпов
+N6	Reference T15 Wikidata:Q139438	Тимман, Ян
+N7	Reference T21 Wikidata:Q28614	Гарри Каспаров
+N8	Reference T26 Wikidata:Q161092	Владимир Крамник
+N9	Reference T30 Wikidata:Q161092	Владимир Крамник
+N10	Reference T35 Wikidata:Q28614	Гарри Каспаров
+N11	Reference T57 Wikidata:Q1295	Дортмунд
+N12	Reference T62 Wikidata:Q75	Интернет
+N1	Reference T1 Wikidata:Q172798	Веселин Топалов
+N13	Reference T65 Wikidata:Q10290970	
+N14	Reference T67 Wikidata:Q2948691	
+N15	Reference T68 Wikidata:Q10873124	
+N17	Reference T11 Wikidata:Q190042	Чемпионы мира по шахматам
+N16	Reference T77 Wikidata:Q10290970	
+N18	Reference T66 Wikidata:Q102178	Международная шахматная федерация
+N19	Reference T12 Wikidata:Q102178	Международная шахматная федерация
+N20	Reference T44 Wikidata:Q161092	Владимир Крамник
+N21	Reference T56 Wikidata:Q161092	Владимир Крамник
+N22	Reference T53 Wikidata:Q161092	Владимир Крамник
+N23	Reference T17 Wikidata:Q161092	Владимир Крамник
+N24	Reference T34 Wikidata:Q161092	Владимир Крамник
+N25	Reference T50 Wikidata:Q161092	Владимир Крамник
+N26	Reference T28 Wikidata:Q161092	Владимир Крамник
+N27	Reference T2 Wikidata:Q161092	Владимир Крамник
+N28	Reference T8 Wikidata:Q28614	Гарри Каспаров
+N29	Reference T24 Wikidata:Q28614	Гарри Каспаров
+N30	Reference T18 Wikidata:Q28614	Гарри Каспаров
+N31	Reference T37 Wikidata:Q28614	Гарри Каспаров
+N32	Reference T55 Wikidata:Q172798	Веселин Топалов
+N33	Reference T40 Wikidata:Q172798	Веселин Топалов
+N34	Reference T22 Wikidata:Q172798	Веселин Топалов
+N35	Reference T20 Wikidata:Q172798	Веселин Топалов
+N36	Reference T38 Wikidata:Q172798	Веселин Топалов
+N37	Reference T25 Wikidata:Q172798	Веселин Топалов
+N38	Reference T49 Wikidata:Q172798	Веселин Топалов
+N39	Reference T33 Wikidata:Q172798	Веселин Топалов
+N40	Reference T29 Wikidata:Q172798	Веселин Топалов
+N41	Reference T27 Wikidata:Q172798	Веселин Топалов
+N42	Reference T19 Wikidata:Q2948691	
+N43	Reference T63 Wikidata:Q2948691	
+N44	Reference T78 Wikidata:Q2948691	
+N45	Reference T71 Wikidata:Q2948691	
+N46	Reference T61 Wikidata:Q10873124	
+N47	Reference T6 Wikidata:Q190042	Чемпионы мира по шахматам
+N48	Reference T60 Wikidata:Q190042	Чемпионы мира по шахматам

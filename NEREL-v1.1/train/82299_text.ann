@@ -1,0 +1,90 @@
+T1	PROFESSION 0 9	Игрок НФЛ
+T2	PERSON 10 24	Аарон Эрнандес
+T3	COUNTRY 88 100	американский
+T4	ORGANIZATION 136 164	Национальной футбольной лиги
+T6	STATE_OR_PROVINCE 261 272	Массачусетс
+T7	ORDINAL 305 311	первой
+T8	DATE 341 358	17 июня 2013 года
+T9	DATE 361 368	В среду
+T10	PERSON 397 413	Аарона Эрнандеса
+T11	AGE 434 444	27‑летнего
+T12	PERSON 445 457	Одина Ллойда
+T13	NUMBER 470 476	шестью
+T15	STATE_OR_PROVINCE 538 549	Массачусетс
+T18	PERSON 595 604	Эрнандеса
+T19	PERSON 658 667	Эрнандеса
+T20	PERSON 737 745	Эрнандес
+T21	PROFESSION 812 819	Адвокат
+T22	NUMBER 948 951	два
+T23	PERSON 985 994	Эрнандеса
+T24	ORGANIZATION 1023 1043	Нью-Ингленд Пэтриотс
+T25	MONEY 1048 1073	40 миллионов долларов США
+T26	ORGANIZATION 6 9	НФЛ
+T27	PENALTY 44 67	пожизненному заключению
+T28	PROFESSION 80 107	игрок в американский футбол
+T29	PENALTY 179 246	пожизненному тюремному заключению без права досрочного освобождения
+T30	CRIME 296 319	убийстве первой степени
+T31	CRIME 425 433	убийстве
+T14	CRIME 765 809	хранении огнестрельного оружия и боеприпасов
+T16	PROFESSION 820 830	футболиста
+T17	EVENT 25 35	приговорён
+R1	WORKPLACE Arg1:T2 Arg2:T26	
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T17	
+T32	PENALTY 179 212	пожизненному тюремному заключению
+T5	ORGANIZATION 249 272	Суд в штате Массачусетс
+R4	AGE_IS Arg1:T12 Arg2:T11	
+R5	SUBORDINATE_OF Arg1:T16 Arg2:T21	
+T33	COUNTRY 1070 1073	США
+R6	WORKPLACE Arg1:T23 Arg2:T24	
+T34	EVENT 273 280;285 293	признал виновным
+R7	AGENT Arg1:T5 Arg2:T34	
+R8	PARTICIPANT_IN Arg1:T2 Arg2:T34	
+T35	EVENT 388 396;414 422	признала виновным
+R9	POINT_IN_TIME Arg1:T35 Arg2:T9	
+R10	PARTICIPANT_IN Arg1:T10 Arg2:T35	
+T36	EVENT 746 762	признан виновным
+R11	PARTICIPANT_IN Arg1:T20 Arg2:T36	
+R12	WORKS_AS Arg1:T2 Arg2:T28	
+T37	EVENT 166 176	приговорен
+R13	PARTICIPANT_IN Arg1:T28 Arg2:T37	
+R14	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R15	ALTERNATIVE_NAME Arg1:T10 Arg2:T18	
+R16	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R17	WORKS_AS Arg1:T20 Arg2:T16	
+R18	PENALIZED_AS Arg1:T2 Arg2:T27	
+R19	ALTERNATIVE_NAME Arg1:T27 Arg2:T32	
+R20	CONVICTED_OF Arg1:T2 Arg2:T30	
+R21	HAS_CAUSE Arg1:T29 Arg2:T30	
+R22	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R23	PARTICIPANT_IN Arg1:T12 Arg2:T31	
+R24	TAKES_PLACE_IN Arg1:T31 Arg2:T15	
+R25	CONVICTED_OF Arg1:T20 Arg2:T14	
+R26	ORIGINS_FROM Arg1:T28 Arg2:T3	
+R27	PENALIZED_AS Arg1:T2 Arg2:T29	
+R28	WORKPLACE Arg1:T1 Arg2:T26	
+R29	INCOME Arg1:T23 Arg2:T25	
+R30	HAS_CAUSE Arg1:T34 Arg2:T30	
+R31	POINT_IN_TIME Arg1:T30 Arg2:T8	
+R32	CONVICTED_OF Arg1:T10 Arg2:T31	
+R33	HAS_CAUSE Arg1:T36 Arg2:T14	
+R34	ABBREVIATION Arg1:T4 Arg2:T26	
+N3	Reference T4 Wikidata:Q1215884	Национальная футбольная лига
+N5	Reference T15 Wikidata:Q771	Массачусетс
+N6	Reference T21 Wikidata:Q40348	адвокат
+N7	Reference T24 Wikidata:Q193390	Нью-Ингленд Пэтриотс
+N8	Reference T26 Wikidata:Q1215884	Национальная футбольная лига
+N9	Reference T16 Wikidata:Q937857	футболист
+N11	Reference T33 Wikidata:Q30	США
+N1	Reference T1 Wikidata:NULL	нет данных
+N2	Reference T3 Wikidata:Q30	США
+N12	Reference T28 Wikidata:NULL	нет данных
+N10	Reference T5 Wikidata:NULL	нет данных
+N13	Reference T20 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N14	Reference T6 Wikidata:Q771	Массачусетс
+N15	Reference T10 Wikidata:NULL	нет данных
+N16	Reference T18 Wikidata:NULL	нет данных
+N17	Reference T19 Wikidata:NULL	нет данных
+N18	Reference T2 Wikidata:NULL	нет данных
+N19	Reference T23 Wikidata:NULL	нет данных

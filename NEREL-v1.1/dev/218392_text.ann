@@ -1,0 +1,134 @@
+T1	COUNTRY 0 12	Американский
+T2	MONEY 28 43	80 млн долларов
+T3	ORGANIZATION 46 54	Monsanto
+T4	ORGANIZATION 71 79	Monsanto
+T5	DATE 80 107	В среду, 27 марта 2019 года
+T6	ORGANIZATION 109 124	федеральный суд
+T7	CITY 125 138	Сан-Франциско
+T8	COUNTRY 140 143	США
+T9	COUNTRY 152 164	американскую
+T10	ORGANIZATION 174 182	Monsanto
+T11	MONEY 193 210	80,3 млн долларов
+T12	AGE 211 221	70-летнему
+T13	PRODUCT 301 308	Roundup
+T14	AGE 336 346	70-летнего
+T15	STATE_OR_PROVINCE 354 364	Калифорнии
+T16	PERSON 365 378	Эдвин Хардман
+T17	DATE 396 421	в течение примерно 26 лет
+T18	DATE 515 526	в 2019 году
+T19	CITY 540 553	Сан-Франциско
+T20	MONEY 580 587	$78 млн
+T21	NATIONALITY 596 606	американцу
+T22	AGE 609 619	46-летнему
+T23	ORGANIZATION 662 670	Monsanto
+T24	NUMBER 749 757	11 тысяч
+T25	ORGANIZATION 792 800	Monsanto
+T26	COUNTRY 811 819	немецкий
+T27	ORGANIZATION 828 833	Bayer
+T28	ORGANIZATION 852 860	Monsanto
+T29	DATE 861 872	в 2018 году
+T30	NUMBER 956 968	десятилетних
+T31	DATE 1215 1226	В 2015 году
+T32	ORGANIZATION 1290 1327	Всемирной организации здравоохранения
+T33	DATE 1450 1468	сентябре 2018 года
+T34	ORGANIZATION 1469 1509	Агентство по охране окружающей среды США
+T36	COUNTRY 1574 1586	Американская
+T37	ORGANIZATION 1596 1604	Monsanto
+T38	ORGANIZATION 1708 1716	Monsanto
+T39	ORGANIZATION 1723 1728	Bayer
+T40	PERCENT 1735 1752	более чем на 40 %
+T41	COUNTRY 1842 1848	России
+T42	PRODUCT 1884 1891	Раундап
+T43	PRODUCT 1895 1901	Глифор
+T44	PRODUCT 1905 1912	Торнадо
+T45	PRODUCT 1916 1922	Ураган
+T46	PROFESSION 13 19	фермер
+T47	PROFESSION 265 274	присяжных
+T48	ORGANIZATION 109 138	федеральный суд Сан-Франциско
+T49	PENALTY 183 210	выплатить 80,3 млн долларов
+T50	DISEASE 232 259	онкологическим заболеванием
+T51	ORGANIZATION 261 274	Суд присяжных
+T52	DISEASE 329 333	рака
+T53	PERSON 620 636	Деуэйну Джонсону
+T54	DISEASE 1150 1177	онкологическим заболеваниям
+T55	ORGANIZATION 1227 1267	Международное агентство по изучению рака
+T56	DISEASE 1263 1267	рака
+T35	COUNTRY 1506 1509	США
+T57	ORGANIZATION 1469 1505	Агентство по охране окружающей среды
+T58	DISEASE 1552 1571	раковых заболеваний
+T59	NUMBER 1607 1611	один
+R1	PLACE_RESIDES_IN Arg1:T16 Arg2:T15	
+R2	AGE_IS Arg1:T16 Arg2:T14	
+R3	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R4	OWNER_OF Arg1:T27 Arg2:T28	
+T60	EVENT 843 851	приобрёл
+R5	AGENT Arg1:T27 Arg2:T60	
+R6	PARTICIPANT_IN Arg1:T28 Arg2:T60	
+R7	POINT_IN_TIME Arg1:T60 Arg2:T29	
+R8	PART_OF Arg1:T55 Arg2:T32	
+R9	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R10	HEADQUARTERED_IN Arg1:T37 Arg2:T36	
+R11	PLACE_RESIDES_IN Arg1:T46 Arg2:T1	
+T61	EVENT 20 27	отсудил
+R12	AGENT Arg1:T46 Arg2:T61	
+R13	PARTICIPANT_IN Arg1:T3 Arg2:T61	
+R14	EXPENDITURE Arg1:T3 Arg2:T2	
+R15	INCOME Arg1:T46 Arg2:T2	
+R16	HEADQUARTERED_IN Arg1:T48 Arg2:T7	
+R17	LOCATED_IN Arg1:T7 Arg2:T8	
+R18	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+R19	MEDICAL_CONDITION Arg1:T16 Arg2:T50	
+R20	PENALIZED_AS Arg1:T10 Arg2:T49	
+R21	PRODUCES Arg1:T10 Arg2:T13	
+R22	AGE_IS Arg1:T53 Arg2:T22	
+R23	ORIGINS_FROM Arg1:T53 Arg2:T21	
+T62	PENALTY 570 587	выплатить $78 млн
+R24	PENALIZED_AS Arg1:T23 Arg2:T62	
+R25	HEADQUARTERED_IN Arg1:T34 Arg2:T35	
+T63	EVENT 1700 1707	покупки
+R26	PARTICIPANT_IN Arg1:T38 Arg2:T63	
+R27	PARTICIPANT_IN Arg1:T39 Arg2:T63	
+R28	ALTERNATIVE_NAME Arg1:T60 Arg2:T63	
+R29	ALTERNATIVE_NAME Arg1:T13 Arg2:T42	
+R30	HAS_CAUSE Arg1:T49 Arg2:T50	
+R31	INCOME Arg1:T16 Arg2:T11	
+R32	INCOME Arg1:T53 Arg2:T20	
+N1	Reference T6 Wikidata:Q194907	Федеральная судебная система США
+N2	Reference T10 Wikidata:Q207983	Monsanto Company
+N3	Reference T15 Wikidata:Q99	Калифорния
+N5	Reference T19 Wikidata:Q62	Сан-Франциско
+N7	Reference T26 Wikidata:Q183	Германия
+N8	Reference T27 Wikidata:Q152051	Байер
+N9	Reference T32 Wikidata:Q7817	Всемирная организация здравоохранения
+N10	Reference T34 Wikidata:Q460173	Агентство по охране окружающей среды США
+N11	Reference T41 Wikidata:Q159	Россия
+N12	Reference T42 Wikidata:Q407232	глифосат
+N16	Reference T46 Wikidata:Q131512	фермер
+N21	Reference T55 Wikidata:Q552168	Международное агентство по изучению рака
+N22	Reference T35 Wikidata:Q30	США
+N23	Reference T57 Wikidata:Q460173	Агентство по охране окружающей среды США
+N13	Reference T43 Wikidata:NULL	нет данных
+N14	Reference T44 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	нет данных
+N6	Reference T21 Wikidata:Q846570	
+N20	Reference T53 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:NULL	нет данных
+N19	Reference T51 Wikidata:Q13368786	
+N17	Reference T47 Wikidata:Q837675	
+N18	Reference T48 Wikidata:Q7889830	
+N24	Reference T38 Wikidata:Q207983	Monsanto Company
+N25	Reference T23 Wikidata:Q207983	Monsanto Company
+N26	Reference T25 Wikidata:Q207983	Monsanto Company
+N27	Reference T4 Wikidata:Q207983	Monsanto Company
+N28	Reference T3 Wikidata:Q207983	Monsanto Company
+N29	Reference T28 Wikidata:Q207983	Monsanto Company
+N30	Reference T37 Wikidata:Q207983	Monsanto Company
+N31	Reference T7 Wikidata:Q62	Сан-Франциско
+N32	Reference T39 Wikidata:Q152051	Байер
+N33	Reference T13 Wikidata:Q407232	глифосат
+N34	Reference T8 Wikidata:Q30	США
+N35	Reference T9 Wikidata:Q30	США
+N36	Reference T36 Wikidata:Q30	США
+N37	Reference T1 Wikidata:Q30	США
+R33	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R34	LOCATED_IN Arg1:T15 Arg2:T8	

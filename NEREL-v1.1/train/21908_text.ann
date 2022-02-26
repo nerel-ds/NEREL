@@ -1,0 +1,103 @@
+T1	PERSON 0 5	Чавес
+T2	COUNTRY 41 45	Кубу
+T3	PERSON 57 66	Уго Чавес
+T4	PERSON 68 82	Николас Мадуро
+T5	DATE 84 97	В воскресенье
+T6	COUNTRY 108 117	Венесуэлы
+T7	PERSON 118 127	Уго Чавес
+T8	COUNTRY 142 146	Кубу
+T10	PERSON 236 241	Чавес
+T11	PROFESSION 311 321	президента
+T12	DATE 338 347	в октябре
+T13	DATE 370 379	в субботу
+T14	PROFESSION 496 511	вице-президенту
+T15	AGE 724 734	58-летнего
+T16	PERSON 792 798	Мадуро
+T17	PERSON 811 817	Чавеса
+T19	PROFESSION 951 973	профсоюзному активисту
+T20	AGE 981 987	50 лет
+T21	DATE 989 1000	С 2006 года
+T22	PROFESSION 1022 1046	министра иностранных дел
+T23	DATE 1050 1070	в октябре этого года
+T24	PROFESSION 1076 1092	вице-президентом
+T25	DISEASE 53 56	рак
+T26	PROFESSION 98 117	президент Венесуэлы
+T27	PROFESSION 98 107	президент
+T29	PROFESSION 735 745	президента
+T30	PROFESSION 865 875	президента
+T31	PROFESSION 931 939	водителю
+T33	PROFESSION 931 948	водителю автобуса
+T34	PROFESSION 1022 1030	министра
+T9	PERSON 348 353	Чавес
+T36	TIME 370 387	в субботу вечером
+T37	PERSON 512 527	Николасу Мадуро
+T40	PROFESSION 600 613	президентские
+T41	PERSON 631 637	Чавеса
+T42	COUNTRY 638 647	кубинские
+T43	PROFESSION 648 653	врачи
+T45	PERSON 974 980	Мадуро
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T25	
+R2	WORKS_AS Arg1:T7 Arg2:T26	
+R3	WORKPLACE Arg1:T7 Arg2:T6	
+R4	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R5	WORKS_AS Arg1:T37 Arg2:T14	
+R6	AGE_IS Arg1:T29 Arg2:T15	
+R7	WORKPLACE Arg1:T43 Arg2:T42	
+R8	WORKS_AS Arg1:T17 Arg2:T30	
+R9	AGE_IS Arg1:T45 Arg2:T20	
+R10	WORKS_AS Arg1:T45 Arg2:T19	
+R11	WORKS_AS Arg1:T45 Arg2:T33	
+R12	WORKS_AS Arg1:T45 Arg2:T24	
+R13	WORKS_AS Arg1:T45 Arg2:T22	
+T18	EVENT 128 138	направился
+R14	WORKPLACE Arg1:T26 Arg2:T6	
+R15	AGENT Arg1:T7 Arg2:T18	
+R16	TAKES_PLACE_IN Arg1:T18 Arg2:T8	
+T28	DISEASE 195 222	онкологического заболевания
+R17	MEDICAL_CONDITION Arg1:T7 Arg2:T28	
+R18	ALTERNATIVE_NAME Arg1:T25 Arg2:T28	
+T32	EVENT 27 37	направился
+R19	AGENT Arg1:T1 Arg2:T32	
+R20	TAKES_PLACE_IN Arg1:T32 Arg2:T2	
+R21	HAS_CAUSE Arg1:T32 Arg2:T25	
+R22	HAS_CAUSE Arg1:T18 Arg2:T28	
+R23	POINT_IN_TIME Arg1:T18 Arg2:T5	
+T35	EVENT 356 369	телеобращении
+R24	PARTICIPANT_IN Arg1:T9 Arg2:T35	
+R25	POINT_IN_TIME Arg1:T35 Arg2:T36	
+T38	EVENT 324 337	Переизбранный
+R26	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+R27	POINT_IN_TIME Arg1:T38 Arg2:T12	
+R28	TAKES_PLACE_IN Arg1:T38 Arg2:T6	
+R29	WORKPLACE Arg1:T37 Arg2:T6	
+R30	AGE_IS Arg1:T9 Arg2:T15	
+R31	WORKS_AS Arg1:T9 Arg2:T29	
+N1	Reference T6 Wikidata:Q717	Венесуэла
+N2	Reference T8 Wikidata:Q241	Куба
+N6	Reference T22 Wikidata:Q7330070	министр иностранных дел
+N8	Reference T30 Wikidata:Q30461	президент
+N9	Reference T31 Wikidata:Q216541	водитель
+N11	Reference T34 Wikidata:Q83307	министр
+N12	Reference T37 Wikidata:Q58132	Николас Мадуро
+N15	Reference T43 Wikidata:Q39631	врач
+N16	Reference T26 Wikidata:Q11942698	
+N3	Reference T10 Wikidata:Q8440	Уго Чавес
+N13	Reference T40 Wikidata:Q30461	президент
+N14	Reference T42 Wikidata:Q241	Куба
+N4	Reference T16 Wikidata:Q58132	Николас Мадуро
+N10	Reference T33 Wikidata:Q829020	
+N7	Reference T24 Wikidata:Q42178	вице-президент
+N5	Reference T19 Wikidata:NULL	нет данных
+N17	Reference T2 Wikidata:Q241	Куба
+N18	Reference T27 Wikidata:Q30461	президент
+N19	Reference T11 Wikidata:Q30461	президент
+N20	Reference T29 Wikidata:Q30461	президент
+N21	Reference T4 Wikidata:Q58132	Николас Мадуро
+N22	Reference T17 Wikidata:Q8440	Уго Чавес
+N23	Reference T7 Wikidata:Q8440	Уго Чавес
+N24	Reference T9 Wikidata:Q8440	Уго Чавес
+N25	Reference T3 Wikidata:Q8440	Уго Чавес
+N26	Reference T41 Wikidata:Q8440	Уго Чавес
+N27	Reference T1 Wikidata:Q8440	Уго Чавес
+N28	Reference T45 Wikidata:Q58132	Николас Мадуро
+N29	Reference T14 Wikidata:Q42178	вице-президент

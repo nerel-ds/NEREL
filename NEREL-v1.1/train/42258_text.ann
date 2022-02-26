@@ -1,0 +1,199 @@
+T1	PERSON 0 6	Машков
+T2	PERSON 46 63	Владимира Машкова
+T3	EVENT 73 90	пресс-конференции
+T4	EVENT 94 130	Одесском международном кинофестивале
+T5	NATIONALITY 154 164	российский
+T6	NATIONALITY 167 176	советский
+T7	PERSON 183 198	Владимир Машков
+T8	AGE 207 215	50-летие
+T9	CITY 246 256	московском
+T10	PERSON 298 307	Владимиру
+T11	NUMBER 336 347	примерно 40
+T13	WORK_OF_ART 410 414	Папа
+T14	PROFESSION 440 450	режиссёром
+T15	PERSON 453 461	Владимир
+T16	CITY 472 476	Туле
+T17	PROFESSION 485 491	актера
+T18	PERSON 510 524	Льва Петровича
+T19	PROFESSION 527 536	режиссёра
+T20	PERSON 537 553	Натальи Ивановны
+T21	DATE 555 566	В 1970 году
+T22	CITY 585 596	Новосибирск
+T23	PERSON 602 610	Владимир
+T25	DATE 661 670	через год
+T26	CITY 683 696	Новосибирское
+T27	ORGANIZATION 683 716	Новосибирское театральное училище
+T28	PERSON 719 742	Владимир Львович Машков
+T29	NATIONALITY 745 754	советский
+T30	NATIONALITY 757 767	российский
+T31	DATE 789 800	С 1990 года
+T32	DATE 811 822	с 1992 года
+T33	PROFESSION 825 833	режиссёр
+T34	PERSON 877 891	Олега Табакова
+T35	DATE 912 923	в 1989 году
+T36	AWARD 955 970	Народный артист
+T37	DATE 992 1003	c 2010 года
+T39	ORGANIZATION 1068 1081	Единая Россия
+T41	EVENT 1092 1102	XII Съезда
+T42	PERSON 1112 1120	Владимир
+T43	PERSON 1139 1153	Олега Табакова
+T44	DATE 1155 1171	после многих лет
+T45	ORGANIZATION 1243 1267	Театр п/р Олега Табакова
+T46	PROFESSION 1280 1288	режиссёр
+T47	PERSON 1487 1493	Машков
+T48	NUMBER 1523 1526	раз
+T49	DATE 1643 1651	в 1990-х
+T50	PERSON 1653 1662	Владимира
+T51	PERSON 1701 1713	Павла Чухрая
+T52	PERSON 1778 1786	Владимир
+T53	PERSON 1817 1823	Чухраю
+T54	LOCATION 1860 1866	Западе
+T55	AWARD 1893 1898	Оскар
+T56	PERSON 1903 1920	Владимира Машкова
+T57	ORGANIZATION 1944 1952	Голливуд
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T4	
+T58	DATE 131 142	в 2010 году
+R3	POINT_IN_TIME Arg1:T4 Arg2:T58	
+R4	POINT_IN_TIME Arg1:T3 Arg2:T58	
+T59	PROFESSION 177 182	актёр
+R5	AGE_IS Arg1:T7 Arg2:T8	
+R6	WORKS_AS Arg1:T7 Arg2:T59	
+R7	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R8	ORIGINS_FROM Arg1:T7 Arg2:T5	
+T12	WORK_OF_ART 389 405	Сирота казанская
+R9	WORKS_AS Arg1:T10 Arg2:T14	
+R10	PLACE_OF_BIRTH Arg1:T15 Arg2:T16	
+R11	PARENT_OF Arg1:T18 Arg2:T15	
+R12	WORKS_AS Arg1:T20 Arg2:T19	
+T60	PROFESSION 485 509	актера кукольного театра
+R13	WORKS_AS Arg1:T18 Arg2:T60	
+R14	SCHOOLS_ATTENDED Arg1:T23 Arg2:T27	
+T61	PROFESSION 768 787	актёр театра и кино
+R15	WORKS_AS Arg1:T28 Arg2:T61	
+R16	ORIGINS_FROM Arg1:T28 Arg2:T29	
+R17	ORIGINS_FROM Arg1:T28 Arg2:T30	
+T62	ORGANIZATION 834 891	Московского театра-студии под руководством Олега Табакова
+T63	WORK_OF_ART 934 952	Зеленый огонь козы
+T64	WORK_OF_ART 1696 1699	Вор
+T65	PROFESSION 1748 1754	актёра
+R18	WORKPLACE Arg1:T56 Arg2:T57	
+R19	KNOWS Arg1:T52 Arg2:T53	
+T66	PERSON 1253 1267	Олега Табакова
+T67	PROFESSION 1272 1277	актёр
+R20	KNOWS Arg1:T42 Arg2:T43	
+R21	WORKPLACE Arg1:T42 Arg2:T45	
+R22	WORKS_AS Arg1:T42 Arg2:T67	
+R23	WORKS_AS Arg1:T42 Arg2:T46	
+T68	PROFESSION 803 808	актёр
+R24	WORKS_AS Arg1:T28 Arg2:T68	
+R25	WORKS_AS Arg1:T28 Arg2:T33	
+R26	WORKPLACE Arg1:T28 Arg2:T62	
+T69	COUNTRY 971 991	Российской Федерации
+T70	AWARD 955 991	Народный артист Российской Федерации
+R29	PARTICIPANT_IN Arg1:T10 Arg2:T12	
+R30	PARTICIPANT_IN Arg1:T10 Arg2:T13	
+R31	SPOUSE Arg1:T18 Arg2:T20	
+R32	PARENT_OF Arg1:T20 Arg2:T15	
+R33	PLACE_RESIDES_IN Arg1:T23 Arg2:T22	
+R34	PARTICIPANT_IN Arg1:T28 Arg2:T63	
+R35	DATE_OF_CREATION Arg1:T63 Arg2:T35	
+R36	MEMBER_OF Arg1:T28 Arg2:T39	
+R37	PARTICIPANT_IN Arg1:T28 Arg2:T41	
+R27	PRODUCES Arg1:T51 Arg2:T64	
+R28	WORKS_AS Arg1:T50 Arg2:T65	
+T24	CITY 94 102	Одесском
+R38	TAKES_PLACE_IN Arg1:T4 Arg2:T24	
+R39	SUBEVENT_OF Arg1:T3 Arg2:T4	
+T38	EVENT 199 215	отметил 50-летие
+R40	AGENT Arg1:T7 Arg2:T38	
+T40	FACILITY 246 266	московском ресторане
+R41	TAKES_PLACE_IN Arg1:T38 Arg2:T40	
+R42	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+T71	PROFESSION 768 773	актёр
+T72	CITY 834 845	Московского
+R43	HEADQUARTERED_IN Arg1:T62 Arg2:T72	
+R44	WORKPLACE Arg1:T34 Arg2:T62	
+R45	ORGANIZES Arg1:T39 Arg2:T41	
+R46	WORKPLACE Arg1:T67 Arg2:T45	
+R47	WORKPLACE Arg1:T46 Arg2:T45	
+R48	WORKPLACE Arg1:T66 Arg2:T45	
+R49	PARTICIPANT_IN Arg1:T50 Arg2:T64	
+R50	ALTERNATIVE_NAME Arg1:T47 Arg2:T50	
+R51	ALTERNATIVE_NAME Arg1:T51 Arg2:T53	
+R52	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+T73	PROFESSION 1367 1373	артист
+R53	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R54	LOCATED_IN Arg1:T40 Arg2:T9	
+R55	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R56	ORIGINS_FROM Arg1:T61 Arg2:T30	
+R57	ORIGINS_FROM Arg1:T61 Arg2:T29	
+R58	WORKPLACE Arg1:T33 Arg2:T62	
+T74	PROFESSION 964 970	артист
+R59	ORIGINS_FROM Arg1:T70 Arg2:T69	
+R60	POINT_IN_TIME Arg1:T70 Arg2:T37	
+N5	Reference T16 Wikidata:Q2770	Тула
+N8	Reference T22 Wikidata:Q883	Новосибирск
+N9	Reference T26 Wikidata:Q4325491	Новосибирское
+N11	Reference T28 Wikidata:Q1081714	Владимир Львович Машков
+N12	Reference T33 Wikidata:Q3455803	режиссёр
+N13	Reference T36 Wikidata:Q1208997	народный артист
+N14	Reference T39 Wikidata:Q151469	Единая Россия
+N15	Reference T43 Wikidata:Q466139	Олег Павлович Табаков
+N16	Reference T45 Wikidata:Q4304284	Московский театр Олега Табакова
+N20	Reference T55 Wikidata:Q19020	Оскар
+N24	Reference T62 Wikidata:Q4304284	Московский театр Олега Табакова
+N26	Reference T64 Wikidata:Q1678442	Вор
+N27	Reference T65 Wikidata:Q33999	актёр
+N28	Reference T69 Wikidata:Q159	Россия
+N29	Reference T70 Wikidata:Q1857712	Народный артист Российской Федерации
+N33	Reference T74 Wikidata:Q483501	деятель искусств
+N1	Reference T1 Wikidata:Q1081714	Владимир Львович Машков
+N30	Reference T24 Wikidata:Q1874	Одесса
+N31	Reference T40 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:NULL	нет данных
+N23	Reference T60 Wikidata:NULL	нет данных
+N32	Reference T72 Wikidata:Q649	Москва
+N21	Reference T57 Wikidata:Q34006	Голливуд
+N19	Reference T54 Wikidata:Q160381	Западный мир
+N2	Reference T5 Wikidata:Q492468	россияне
+N3	Reference T6 Wikidata:Q1633149	
+N4	Reference T10 Wikidata:Q1081714	Владимир Львович Машков
+N22	Reference T12 Wikidata:Q4420811	Сирота казанская
+N34	Reference T61 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N25	Reference T63 Wikidata:NULL	нет данных
+N17	Reference T47 Wikidata:Q1081714	Владимир Львович Машков
+N18	Reference T52 Wikidata:Q1081714	Владимир Львович Машков
+N35	Reference T53 Wikidata:Q466155	
+N36	Reference T19 Wikidata:Q3455803	режиссёр
+N37	Reference T46 Wikidata:Q3455803	режиссёр
+N38	Reference T14 Wikidata:Q3455803	режиссёр
+N39	Reference T34 Wikidata:Q466139	Олег Павлович Табаков
+N40	Reference T66 Wikidata:Q466139	Олег Павлович Табаков
+N41	Reference T71 Wikidata:Q33999	актёр
+N42	Reference T68 Wikidata:Q33999	актёр
+N43	Reference T17 Wikidata:Q33999	актёр
+N44	Reference T59 Wikidata:Q33999	актёр
+N45	Reference T67 Wikidata:Q33999	актёр
+N46	Reference T73 Wikidata:Q483501	деятель искусств
+N47	Reference T2 Wikidata:Q1081714	Владимир Львович Машков
+N48	Reference T9 Wikidata:Q649	Москва
+N49	Reference T30 Wikidata:Q492468	россияне
+N50	Reference T29 Wikidata:Q1633149	
+N51	Reference T7 Wikidata:Q1081714	Владимир Львович Машков
+N52	Reference T50 Wikidata:Q1081714	Владимир Львович Машков
+N53	Reference T56 Wikidata:Q1081714	Владимир Львович Машков
+N54	Reference T42 Wikidata:Q1081714	Владимир Львович Машков
+N55	Reference T15 Wikidata:Q1081714	Владимир Львович Машков
+N56	Reference T23 Wikidata:Q1081714	Владимир Львович Машков
+N57	Reference T51 Wikidata:Q466155	
+T75	EVENT 573 582	переехала
+T76	EVENT 462 469	родился
+R61	PARTICIPANT_IN Arg1:T15 Arg2:T76	
+R62	TAKES_PLACE_IN Arg1:T76 Arg2:T16	
+R64	TAKES_PLACE_IN Arg1:T75 Arg2:T22	
+R65	PARTICIPANT_IN Arg1:T23 Arg2:T75	
+R63	POINT_IN_TIME Arg1:T75 Arg2:T21	
+R66	ALTERNATIVE_NAME Arg1:T22 Arg2:T26	

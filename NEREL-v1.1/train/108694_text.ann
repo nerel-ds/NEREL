@@ -1,0 +1,304 @@
+T1	PERSON 11 22	Джанет Рено
+T2	ORDINAL 25 31	первая
+T3	COUNTRY 52 55	США
+T4	PERSON 57 68	Джэнет Рино
+T5	COUNTRY 71 74	США
+T6	PERSON 86 97	Джанет Рено
+T7	ORDINAL 100 106	первая
+T8	PROFESSION 124 146	генеральным прокурором
+T9	ORGANIZATION 235 274	администрации президента Билла Клинтона
+T10	PERSON 260 274	Билла Клинтона
+T11	PERSON 277 281	Рено
+T15	AGE 343 349	78 лет
+T17	PERSON 424 442	Габриэль Даламберт
+T18	PERSON 454 463	Даламберт
+T19	PERSON 465 469	Рено
+T20	DATE 478 491	последние дни
+T22	CITY 513 519	Майами
+T24	CITY 575 581	Майами
+T25	PERSON 583 587	Рено
+T26	PROFESSION 612 634	генерального прокурора
+T27	DATE 635 651	почти восемь лет
+T28	DATE 675 696	за последнее столетие
+T29	ORGANIZATION 749 771	администрации Клинтона
+T30	PERSON 763 771	Клинтона
+T31	PERSON 773 777	Рено
+T32	PROFESSION 815 827	генпрокурора
+T33	FACILITY 870 886	поместья в Уэйко
+T34	CITY 881 886	Уэйко
+T35	STATE_OR_PROVINCE 893 898	Техас
+T36	ORGANIZATION 928 942	Ветвь Давидова
+T37	PERSON 966 981	Дэвидом Корешом
+T38	PERSON 999 1004	Кореш
+T39	NUMBER 1007 1015	около 80
+T40	PERSON 1132 1136	Рено
+T41	PROFESSION 1199 1209	президента
+T42	PERSON 1210 1223	Гарри Трумэна
+T43	EVENT 1232 1237	Уэйко
+T44	PERSON 1238 1242	Рено
+T45	ORGANIZATION 1314 1336	администрацию Клинтона
+T46	PERSON 1328 1336	Клинтона
+T48	PERSON 1374 1389	Монику Левински
+T49	COUNTRY 1433 1438	Китая
+T50	PERSON 1491 1499	Клинтона
+T51	PERSON 1502 1506	Гора
+T52	DATE 1507 1518	в 1996 году
+T53	DATE 1521 1537	Весной 2000 года
+T54	PERSON 1538 1542	Рено
+T55	PERSON 1599 1605	Элиана
+T56	NATIONALITY 1621 1632	американцев
+T57	COUNTRY 1633 1643	кубинского
+T58	CITY 1714 1720	Майами
+T59	COUNTRY 1778 1782	Кубе
+T60	CITY 1793 1802	Вашингтон
+T61	PERSON 1804 1808	Рено
+T62	STATE_OR_PROVINCE 1822 1829	Флориду
+T63	PROFESSION 1874 1891	губернатора штата
+T65	PERSON 2063 2078	Джанет Вуд Рено
+T66	DATE 2088 2105	21 июля 1938 года
+T67	NUMBER 2155 2162	четырёх
+T68	CITY 2207 2217	Эверглейдс
+T70	CITY 2313 2323	Вашингтона
+T71	PERSON 2342 2353	Роберт Рено
+T72	ORGANIZATION 2385 2393	'Newsday
+T73	STATE_OR_PROVINCE 2399 2411	Лонг-Айленде
+T75	ORGANIZATION 2440 2464	Корнельском университете
+T76	PERSON 2466 2470	Рено
+T78	ORGANIZATION 2484 2531	юридический факультет Гарвардского университета
+T79	DATE 2551 2562	в 1963 году
+T80	PERSON 2572 2576	Рено
+T81	NUMBER 2591 2613	больше 180 сантиметров
+T82	DATE 2708 2719	В 1993 году
+T83	PROFESSION 2720 2729	президент
+T84	PERSON 2730 2737	Клинтон
+T85	PROFESSION 2763 2785	генерального прокурора
+T86	ORDINAL 2802 2808	первые
+T87	NUMBER 2809 2812	два
+T88	PERSON 2923 2927	Рено
+T89	AGE 2933 2940	54 года
+T90	COUNTRY 2992 2999	Америки
+T91	PERSON 3057 3064	Клинтон
+T92	PERSON 3094 3098	Рено
+T93	DATE 3128 3139	в этом году
+T94	NUMBER 3157 3159	98
+T95	NUMBER 3178 3184	одного
+T96	DATE 3204 3222	чуть больше месяца
+T97	PERSON 3258 3262	Рено
+T98	ORGANIZATION 3335 3349	Ветвь Давидова
+T99	CITY 3366 3371	Уэйко
+T100	PROFESSION 3440 3462	генерального прокурора
+T101	DATE 3464 3484	28 февраля 1993 года
+T102	ORGANIZATION 3485 3564	Бюро по контролю за оборотом алкоголя, табачных изделий и огнестрельного оружия
+T103	NUMBER 3698 3705	четверо
+T104	PROFESSION 3706 3713	агентов
+T105	NUMBER 3716 3721	шесть
+T106	DATE 3795 3802	51 день
+T107	DATE 3817 3836	19 апреля 1993 года
+T108	ORGANIZATION 3889 3902	Правительство
+T109	PERSON 4155 4159	Рено
+T110	ORGANIZATION 4372 4390	Университете Дьюка
+T112	DATE 4391 4402	в 2005 году
+T113	DATE 4509 4520	В 1995 году
+T114	PERSON 4523 4527	Рено
+R4	WORKS_AS Arg1:T25 Arg2:T121
+R5	WORKS_AS Arg1:T25 Arg2:T26
+R7	WORKS_AS Arg1:T31 Arg2:T32
+R14	HEADQUARTERED_IN Arg1:T72 Arg2:T73
+T116	PROFESSION 40 55	генпрокурор США
+T117	AGE 1578 1589	пятилетнего
+R1	DATE_OF_BIRTH Arg1:T65 Arg2:T66	
+T74	PROFESSION 2908 2915	нянечек
+T111	EVENT 4487 4492	Уэйко
+T119	IDEOLOGY 4741 4755	республиканцев
+T120	IDEOLOGY 4763 4773	демократов
+T12	DATE 312 330	7 ноября 2016 года
+T13	TIME 289 330	в ночь на понедельник, 7 ноября 2016 года
+T14	EVENT 1346 1362	дело «Уайтуотер»
+T16	PROFESSION 2123 2133	репортёров
+T21	PROFESSION 2641 2648	юристом
+T47	EVENT 3303 3317	штурмом здания
+R2	AGE_DIED_AT Arg1:T11 Arg2:T15	
+T69	EVENT 862 869	штурмом
+R3	MEMBER_OF Arg1:T37 Arg2:T36	
+R6	AGE_IS Arg1:T55 Arg2:T117	
+R8	WORKS_AS Arg1:T84 Arg2:T83	
+R9	AGE_IS Arg1:T88 Arg2:T89	
+T64	DISEASE 374 392	болезни Паркинсона
+T115	DISEASE 4549 4567	болезнь Паркинсона
+T121	PROFESSION 563 571	прокурор
+T122	PROFESSION 2114 2133	газетных репортёров
+T77	EVENT 3595 3608	штурма здания
+T123	EVENT 3861 3866	пожар
+T124	EVENT 3977 3982	пожар
+T125	EVENT 3938 3950	самоубийство
+T126	EVENT 4035 4041	пожара
+R10	WORKS_AS Arg1:T1 Arg2:T116	
+R11	WORKPLACE Arg1:T1 Arg2:T3	
+R12	WORKS_AS Arg1:T6 Arg2:T8	
+R13	PLACE_OF_DEATH Arg1:T6 Arg2:T5	
+R15	DATE_OF_DEATH Arg1:T11 Arg2:T12	
+R16	CAUSE_OF_DEATH Arg1:T11 Arg2:T64	
+R17	KNOWS Arg1:T11 Arg2:T17	
+R18	PLACE_RESIDES_IN Arg1:T19 Arg2:T22	
+R19	WORKPLACE Arg1:T25 Arg2:T24	
+R20	WORKPLACE Arg1:T31 Arg2:T29	
+R21	LOCATED_IN Arg1:T34 Arg2:T35	
+R22	WORKS_AS Arg1:T42 Arg2:T41	
+T118	EVENT 1559 1577	вооруженный захват
+R23	PARTICIPANT_IN Arg1:T55 Arg2:T118	
+R24	ORGANIZES Arg1:T54 Arg2:T118	
+R25	POINT_IN_TIME Arg1:T118 Arg2:T53	
+R26	TAKES_PLACE_IN Arg1:T118 Arg2:T58	
+R27	PLACE_RESIDES_IN Arg1:T65 Arg2:T68	
+R28	SIBLING Arg1:T65 Arg2:T71	
+R29	WORKPLACE Arg1:T71 Arg2:T72	
+R30	SCHOOLS_ATTENDED Arg1:T76 Arg2:T75	
+R31	SCHOOLS_ATTENDED Arg1:T76 Arg2:T78	
+T127	EVENT 2738 2746;2750 2762	выдвинул на должность
+R32	AGENT Arg1:T84 Arg2:T127	
+R33	PARTICIPANT_IN Arg1:T80 Arg2:T127	
+R34	POINT_IN_TIME Arg1:T127 Arg2:T82	
+R35	TAKES_PLACE_IN Arg1:T47 Arg2:T99	
+R36	PARTICIPANT_IN Arg1:T97 Arg2:T47	
+R37	ORGANIZES Arg1:T102 Arg2:T77	
+R38	POINT_IN_TIME Arg1:T123 Arg2:T107	
+R39	MEDICAL_CONDITION Arg1:T114 Arg2:T115	
+R40	SUBORDINATE_OF Arg1:T31 Arg2:T30	
+R41	TAKES_PLACE_IN Arg1:T69 Arg2:T34	
+R42	ORGANIZES Arg1:T31 Arg2:T69	
+R43	ORIGINS_FROM Arg1:T65 Arg2:T122	
+R44	PARTICIPANT_IN Arg1:T98 Arg2:T47	
+R45	WORKS_AS Arg1:T97 Arg2:T100	
+T128	PROFESSION 40 51	генпрокурор
+T129	PROFESSION 1874 1885	губернатора
+R46	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R47	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R48	ALTERNATIVE_NAME Arg1:T69 Arg2:T43	
+R49	WORKPLACE Arg1:T116 Arg2:T3	
+T130	EVENT 0 10	Скончалась
+R50	PARTICIPANT_IN Arg1:T1 Arg2:T130	
+T131	EVENT 75 85	скончалась
+R51	PARTICIPANT_IN Arg1:T6 Arg2:T131	
+R52	TAKES_PLACE_IN Arg1:T131 Arg2:T5	
+T132	EVENT 282 288	умерла
+R53	ALTERNATIVE_NAME Arg1:T131 Arg2:T132	
+R54	PARTICIPANT_IN Arg1:T11 Arg2:T132	
+R55	POINT_IN_TIME Arg1:T132 Arg2:T13	
+R56	WORKPLACE Arg1:T121 Arg2:T24	
+R57	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+T133	EVENT 992 998	штурма
+T134	EVENT 1035 1042	погибли
+R58	SUBEVENT_OF Arg1:T134 Arg2:T133	
+R59	PARTICIPANT_IN Arg1:T38 Arg2:T134	
+R60	PLACE_RESIDES_IN Arg1:T61 Arg2:T62	
+R61	TAKES_PLACE_IN Arg1:T134 Arg2:T34	
+R62	ORIGINS_FROM Arg1:T56 Arg2:T57	
+R63	WORKPLACE Arg1:T63 Arg2:T62	
+R64	PLACE_RESIDES_IN Arg1:T61 Arg2:T60	
+T135	ORGANIZATION 2506 2531	Гарвардского университета
+R65	PART_OF Arg1:T78 Arg2:T135	
+R66	FOUNDED_BY Arg1:T29 Arg2:T30	
+R67	FOUNDED_BY Arg1:T45 Arg2:T46	
+R68	ALTERNATIVE_NAME Arg1:T61 Arg2:T65	
+R69	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+T136	PROFESSION 249 259	президента
+R70	WORKS_AS Arg1:T10 Arg2:T136	
+R71	ALTERNATIVE_NAME Arg1:T10 Arg2:T30	
+R72	ALTERNATIVE_NAME Arg1:T9 Arg2:T29	
+R73	ALTERNATIVE_NAME Arg1:T57 Arg2:T59	
+R74	ALTERNATIVE_NAME Arg1:T26 Arg2:T32	
+R75	PARTICIPANT_IN Arg1:T44 Arg2:T14	
+R76	PARTICIPANT_IN Arg1:T45 Arg2:T14	
+T23	EVENT 1469 1490	предвыборной кампании
+R77	PARTICIPANT_IN Arg1:T50 Arg2:T23	
+R78	PARTICIPANT_IN Arg1:T51 Arg2:T23	
+R79	POINT_IN_TIME Arg1:T23 Arg2:T52	
+N1	Reference T4 Wikidata:Q236421	Рино, Джэнет Вуд
+N2	Reference T5 Wikidata:Q30	США
+N6	Reference T22 Wikidata:Q8652	Майами
+N7	Reference T30 Wikidata:Q1124	Билл Клинтон
+N9	Reference T35 Wikidata:Q1439	Техас
+N10	Reference T37 Wikidata:Q431015	Дэвид Кореш
+N11	Reference T42 Wikidata:Q11613	Гарри Трумэн
+N12	Reference T48 Wikidata:Q212659	Моника Левински
+N13	Reference T49 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T51 Wikidata:Q19673	Альберт Гор
+N17	Reference T59 Wikidata:Q241	Куба
+N18	Reference T60 Wikidata:Q61	Вашингтон
+N19	Reference T62 Wikidata:Q812	Флорида
+N23	Reference T72 Wikidata:Q1140593	Newsday
+N24	Reference T73 Wikidata:Q18438	Лонг-Айленд
+N25	Reference T75 Wikidata:Q49115	Корнеллский университет
+N27	Reference T83 Wikidata:Q30461	президент
+N28	Reference T98 Wikidata:Q3322742	Branch Davidians
+N29	Reference T99 Wikidata:Q128244	Уэйко
+N31	Reference T104 Wikidata:Q392651	специальный агент
+N32	Reference T108 Wikidata:Q7188	правительство
+N33	Reference T110 Wikidata:Q168751	Университет Дьюка
+N35	Reference T74 Wikidata:Q936969	няня
+N36	Reference T16 Wikidata:Q42909	репортёр
+N37	Reference T21 Wikidata:Q185351	юрист
+N38	Reference T121 Wikidata:Q600751	прокурор
+N40	Reference T129 Wikidata:Q132050	губернатор
+N41	Reference T135 Wikidata:Q13371	Гарвардский университет
+N34	Reference T116 Wikidata:Q636207	
+N4	Reference T11 Wikidata:Q236421	Рино, Джэнет Вуд
+N5	Reference T18 Wikidata:NULL	нет данных
+N42	Reference T26 Wikidata:Q1501926	
+N3	Reference T9 Wikidata:NULL	нет данных
+N8	Reference T33 Wikidata:NULL	нет данных
+N16	Reference T56 Wikidata:Q846570	
+N20	Reference T65 Wikidata:Q236421	Рино, Джэнет Вуд
+N43	Reference T90 Wikidata:Q30	США
+N26	Reference T78 Wikidata:Q49122	
+N21	Reference T68 Wikidata:Q597281	Эверглейдс
+N39	Reference T122 Wikidata:NULL	нет данных
+N15	Reference T55 Wikidata:Q551503	
+N22	Reference T71 Wikidata:NULL	нет данных
+N30	Reference T102 Wikidata:Q434371	
+N44	Reference T1 Wikidata:Q236421	Рино, Джэнет Вуд
+N45	Reference T3 Wikidata:Q30	США
+N46	Reference T58 Wikidata:Q8652	Майами
+N47	Reference T24 Wikidata:Q8652	Майами
+N48	Reference T50 Wikidata:Q1124	Билл Клинтон
+N49	Reference T46 Wikidata:Q1124	Билл Клинтон
+N50	Reference T10 Wikidata:Q1124	Билл Клинтон
+N51	Reference T84 Wikidata:Q1124	Билл Клинтон
+N52	Reference T91 Wikidata:Q1124	Билл Клинтон
+N53	Reference T38 Wikidata:Q431015	Дэвид Кореш
+N54	Reference T57 Wikidata:Q241	Куба
+N55	Reference T70 Wikidata:Q61	Вашингтон
+N56	Reference T41 Wikidata:Q30461	президент
+N57	Reference T136 Wikidata:Q30461	президент
+N58	Reference T36 Wikidata:Q3322742	Branch Davidians
+N59	Reference T34 Wikidata:Q128244	Уэйко
+N60	Reference T6 Wikidata:Q236421	Рино, Джэнет Вуд
+N61	Reference T17 Wikidata:NULL	нет данных
+N62	Reference T8 Wikidata:Q1501926	
+N63	Reference T32 Wikidata:Q1501926	
+N64	Reference T85 Wikidata:Q1501926	
+N65	Reference T128 Wikidata:Q1501926	
+N66	Reference T100 Wikidata:Q1501926	
+N67	Reference T45 Wikidata:NULL	нет данных
+N68	Reference T29 Wikidata:NULL	нет данных
+N69	Reference T88 Wikidata:Q236421	Рино, Джэнет Вуд
+N70	Reference T19 Wikidata:Q236421	Рино, Джэнет Вуд
+N71	Reference T61 Wikidata:Q236421	Рино, Джэнет Вуд
+N72	Reference T80 Wikidata:Q236421	Рино, Джэнет Вуд
+N73	Reference T31 Wikidata:Q236421	Рино, Джэнет Вуд
+N74	Reference T40 Wikidata:Q236421	Рино, Джэнет Вуд
+N75	Reference T76 Wikidata:Q236421	Рино, Джэнет Вуд
+N76	Reference T54 Wikidata:Q236421	Рино, Джэнет Вуд
+N77	Reference T114 Wikidata:Q236421	Рино, Джэнет Вуд
+N78	Reference T92 Wikidata:Q236421	Рино, Джэнет Вуд
+N79	Reference T109 Wikidata:Q236421	Рино, Джэнет Вуд
+N80	Reference T44 Wikidata:Q236421	Рино, Джэнет Вуд
+N81	Reference T97 Wikidata:Q236421	Рино, Джэнет Вуд
+N82	Reference T25 Wikidata:Q236421	Рино, Джэнет Вуд
+R80	WORKPLACE Arg1:T8 Arg2:T5	
+T137	EVENT 2079 2087	родилась
+R81	PARTICIPANT_IN Arg1:T65 Arg2:T137	
+R82	POINT_IN_TIME Arg1:T137 Arg2:T66	
+T138	EVENT 1809 1818	вернулась
+R83	AGENT Arg1:T61 Arg2:T138	
+R84	TAKES_PLACE_IN Arg1:T138 Arg2:T62	

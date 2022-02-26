@@ -1,0 +1,97 @@
+T1	PROFESSION 0 12	Генерал НАТО
+T2	EVENT 21 24	ДТП
+T3	COUNTRY 27 33	Италии
+T4	ORGANIZATION 68 72	НАТО
+T5	COUNTRY 129 135	Италии
+T6	ORGANIZATION 169 185	Blitz Quotidiano
+T7	TIME 202 226	утром в среду, 20 января
+T9	COUNTRY 252 263	итальянской
+T10	STATE_OR_PROVINCE 274 281	Феррара
+T11	PROFESSION 306 313	генерал
+T12	PERSON 314 325	Эдриен Поне
+T13	PERSON 327 338	Adrian Pone
+T14	PRODUCT 374 381	BMW 320
+T15	PRODUCT 401 407	Ниссан
+T16	NUMBER 509 522	не менее пяти
+T17	NUMBER 536 540	Один
+T18	STATE_OR_PROVINCE 619 627	Нью-Йорк
+T19	AGE 629 638	46-летний
+T20	ORGANIZATION 726 730	НАТО
+T21	PROFESSION 765 772	генерал
+T22	NUMBER 818 822	двое
+T23	ORGANIZATION 8 12	НАТО
+T24	PROFESSION 53 72	военнослужащий НАТО
+T25	PROFESSION 53 67	военнослужащий
+T26	PROFESSION 0 7	Генерал
+T27	EVENT 92 126	дорожно-транспортного происшествия
+T8	EVENT 188 191	ДТП
+T28	PROFESSION 455 462	военный
+T29	DISEASE 557 578	незначительные травмы
+T30	PERSON 639 643	Поне
+T31	ORDINAL 684 689	пятом
+T32	ORGANIZATION 684 730	пятом оперативном военно-воздушном центре НАТО
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R3	PARTICIPANT_IN Arg1:T24 Arg2:T27	
+R4	TAKES_PLACE_IN Arg1:T27 Arg2:T5	
+T33	DATE 208 226	в среду, 20 января
+R5	LOCATED_IN Arg1:T10 Arg2:T9	
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T10	
+R7	POINT_IN_TIME Arg1:T8 Arg2:T33	
+R8	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R9	WORKS_AS Arg1:T12 Arg2:T11	
+T34	EVENT 383 391	врезался
+R10	PARTICIPANT_IN Arg1:T12 Arg2:T34	
+R11	WORKS_AS Arg1:T12 Arg2:T28	
+R12	AGE_IS Arg1:T30 Arg2:T19	
+R13	PLACE_OF_BIRTH Arg1:T30 Arg2:T18	
+R14	WORKS_AS Arg1:T12 Arg2:T24	
+R15	WORKPLACE Arg1:T12 Arg2:T4	
+R16	WORKPLACE Arg1:T30 Arg2:T32	
+R17	WORKPLACE Arg1:T1 Arg2:T23	
+T35	EVENT 13 18	погиб
+R18	PARTICIPANT_IN Arg1:T1 Arg2:T35	
+R19	SUBEVENT_OF Arg1:T35 Arg2:T2	
+R20	TAKES_PLACE_IN Arg1:T35 Arg2:T3	
+R21	WORKPLACE Arg1:T24 Arg2:T4	
+T36	EVENT 73 78	погиб
+R22	ALTERNATIVE_NAME Arg1:T2 Arg2:T27	
+R23	PARTICIPANT_IN Arg1:T24 Arg2:T36	
+R24	SUBEVENT_OF Arg1:T36 Arg2:T27	
+R25	TAKES_PLACE_IN Arg1:T36 Arg2:T5	
+R26	ALTERNATIVE_NAME Arg1:T27 Arg2:T8	
+R27	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R28	ALTERNATIVE_NAME Arg1:T8 Arg2:T34	
+T37	EVENT 463 468	погиб
+R29	ALTERNATIVE_NAME Arg1:T24 Arg2:T11	
+R30	PARTICIPANT_IN Arg1:T28 Arg2:T37	
+T38	EVENT 492 498	аварии
+R31	ALTERNATIVE_NAME Arg1:T34 Arg2:T38	
+R32	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R33	WORKS_AS Arg1:T30 Arg2:T21	
+R34	INANIMATE_INVOLVED Arg1:T14 Arg2:T34	
+R35	INANIMATE_INVOLVED Arg1:T15 Arg2:T34	
+R36	HAS_CAUSE Arg1:T37 Arg2:T34	
+R37	OWNER_OF Arg1:T20 Arg2:T32	
+N2	Reference T5 Wikidata:Q38	Италия
+N3	Reference T10 Wikidata:Q13362	Феррара
+N7	Reference T20 Wikidata:Q7184	Организация Североатлантического договора
+N9	Reference T25 Wikidata:Q47064	военнослужащий
+N10	Reference T28 Wikidata:Q47064	военнослужащий
+N1	Reference T1 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:NULL	нет данных
+N13	Reference T6 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q60	Нью-Йорк
+N11	Reference T30 Wikidata:NULL	нет данных
+N14	Reference T9 Wikidata:Q38	Италия
+N15	Reference T3 Wikidata:Q38	Италия
+N16	Reference T23 Wikidata:Q7184	Организация Североатлантического договора
+N17	Reference T4 Wikidata:Q7184	Организация Североатлантического договора
+N18	Reference T21 Wikidata:NULL	нет данных
+N19	Reference T11 Wikidata:NULL	нет данных
+N20	Reference T26 Wikidata:NULL	нет данных
+N21	Reference T12 Wikidata:NULL	нет данных
+N22	Reference T13 Wikidata:NULL	нет данных

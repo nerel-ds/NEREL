@@ -1,0 +1,99 @@
+T1	STATE_OR_PROVINCE 2 12	Татарстане
+T2	PROFESSION 68 78	президента
+T3	PROFESSION 86 109	госсоветника Татарстана
+T4	PERSON 110 128	Минтимера Шаймиева
+T5	PERSON 129 142	Тимур Шаймиев
+T6	PROFESSION 154 176	генерального директора
+T7	ORGANIZATION 204 214	ООО "МНКТ"
+T8	DATE 253 260	16 июля
+T9	CITY 273 282	казанская
+T10	ORGANIZATION 284 296	Газета Daily
+T11	ORGANIZATION 299 303	МНКТ
+T12	LOCATION 321 357	Актанышского нефтяного месторождения
+T13	ORGANIZATION 544 548	МНКТ
+T14	ORGANIZATION 559 569	ООО "ТНГК"
+T15	NUMBER 584 588	двух
+T16	NUMBER 609 632	примерно 370 тысяч тонн
+T17	DATE 639 644	в год
+T18	PERSON 650 656	Тимура
+T19	PROFESSION 662 684	генерального директора
+T20	PERSON 705 718	Раис Ханнанов
+T21	PERSON 775 793	Минтимера Шаймиева
+T22	PERSON 796 801	Радик
+T23	PERCENT 803 806	51%
+T24	PERSON 816 821	Айрат
+T25	PERCENT 823 826	49%
+T26	DATE 848 856	в апреле
+T27	PERSON 873 879	Камиля
+T28	STATE_OR_PROVINCE 932 942	Татарстана
+T29	ORGANIZATION 945 955	ОАО "ТАИФ"
+T30	PERCENT 991 993	2%
+T31	DATE 1068 1084	весной 2002 года
+T32	PERSON 1094 1107	Тимур Шаймиев
+T33	PERSON 1171 1181	Чингисхана
+T34	CITY 1255 1261	Москву
+T35	ORDINAL 1322 1330	седьмого
+T36	FAMILY 13 27	клан Шаймиевых
+T37	STATE_OR_PROVINCE 99 109	Татарстана
+T38	LOCATION 321 333	Актанышского
+T39	PERSON 864 872	Шаймиева
+T40	PROFESSION 1217 1228	политологов
+R1	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+R2	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R3	RELATIVE Arg1:T4 Arg2:T5	
+R4	OWNER_OF Arg1:T13 Arg2:T14	
+R5	WORKS_AS Arg1:T4 Arg2:T3	
+T41	PROFESSION 86 98	госсоветника
+R6	WORKPLACE Arg1:T4 Arg2:T37	
+R7	WORKPLACE Arg1:T6 Arg2:T7	
+R8	WORKS_AS Arg1:T5 Arg2:T6	
+R9	WORKPLACE Arg1:T5 Arg2:T7	
+R10	ALTERNATIVE_NAME Arg1:T5 Arg2:T18	
+T42	EVENT 229 239	назначении
+R11	POINT_IN_TIME Arg1:T42 Arg2:T8	
+R12	PARTICIPANT_IN Arg1:T5 Arg2:T42	
+R13	WORKS_AS Arg1:T20 Arg2:T19	
+R14	WORKPLACE Arg1:T20 Arg2:T11	
+R15	PARENT_OF Arg1:T21 Arg2:T22	
+R16	PARENT_OF Arg1:T21 Arg2:T24	
+R17	SIBLING Arg1:T22 Arg2:T24	
+R18	RELATIVE Arg1:T39 Arg2:T27	
+R19	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+R20	WORKPLACE Arg1:T27 Arg2:T29	
+R21	OWNER_OF Arg1:T22 Arg2:T13	
+R22	OWNER_OF Arg1:T24 Arg2:T13	
+R23	WORKPLACE Arg1:T3 Arg2:T37	
+R24	PARTICIPANT_IN Arg1:T7 Arg2:T42	
+R25	LOCATED_IN Arg1:T12 Arg2:T38	
+R26	MEMBER_OF Arg1:T4 Arg2:T36	
+R27	ALTERNATIVE_NAME Arg1:T21 Arg2:T39	
+N1	Reference T2 Wikidata:Q30461	президент
+N3	Reference T6 Wikidata:Q1501800	генеральный директор
+N9	Reference T21 Wikidata:Q368896	Минтимер Шарипович Шаймиев
+N14	Reference T33 Wikidata:Q720	Чингисхан
+N15	Reference T34 Wikidata:Q649	Москва
+N16	Reference T37 Wikidata:Q5481	Татарстан
+N17	Reference T38 Wikidata:Q621068	Актанышский район
+N18	Reference T39 Wikidata:Q368896	Минтимер Шарипович Шаймиев
+N19	Reference T40 Wikidata:Q1238570	политолог
+N2	Reference T3 Wikidata:NULL	нет данных
+N20	Reference T41 Wikidata:NULL	
+N4	Reference T9 Wikidata:Q900	Казань
+N5	Reference T10 Wikidata:NULL	нет данных
+N21	Reference T11 Wikidata:NULL	
+N6	Reference T12 Wikidata:NULL	
+N7	Reference T14 Wikidata:NULL	нет данных
+N13	Reference T29 Wikidata:Q4448860	публичное акционерное общество
+N10	Reference T22 Wikidata:Q30177550	Радика
+N11	Reference T24 Wikidata:NULL	нет данных
+N12	Reference T27 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:NULL	
+N22	Reference T20 Wikidata:NULL	
+N23	Reference T19 Wikidata:Q1501800	генеральный директор
+N24	Reference T4 Wikidata:Q368896	Минтимер Шарипович Шаймиев
+N25	Reference T28 Wikidata:Q5481	Татарстан
+N26	Reference T1 Wikidata:Q5481	Татарстан
+N27	Reference T7 Wikidata:NULL	
+N28	Reference T13 Wikidata:NULL	
+N29	Reference T32 Wikidata:NULL	
+N30	Reference T5 Wikidata:NULL	

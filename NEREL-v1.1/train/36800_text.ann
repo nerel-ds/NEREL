@@ -1,0 +1,62 @@
+T1	PERSON 5 14	Михалкова
+T2	PERSON 31 46	Никита Михалков
+T3	PERSON 49 63	Владимир Путин
+T4	PROFESSION 64 72	Депутаты
+T5	ORGANIZATION 81 85	ЛДПР
+T6	ORGANIZATION 109 116	Госдумы
+T7	COUNTRY 159 169	российских
+T8	ORGANIZATION 193 227	Российского союза правообладателей
+T9	ORGANIZATION 229 232	РСП
+T11	LAW 351 359;375 377	ст. 1245 ГК
+T12	LAW 361 377	ст. 1273 ч. 4 ГК
+T13	COUNTRY 378 380	РФ
+T14	PERCENT 512 514	1%
+T15	ORGANIZATION 544 578	Российского Союза Правообладателей
+T16	PERSON 607 623	Никиты Михалкова
+T17	ORGANIZATION 627 631	ЛДПР
+T18	ORGANIZATION 1064 1068	ЛДПР
+T19	NATIONALITY 1248 1255	россиян
+T20	MONEY 1324 1341	1 миллиард рублей
+T21	DATE 1342 1347	в год
+T22	ORGANIZATION 1357 1360	РСП
+R1	ABBREVIATION Arg1:T8 Arg2:T9
+T23	PROFESSION 64 85	Депутаты фракции ЛДПР
+T24	ORDINAL 345 349	1244
+T25	ORDINAL 355 359	1245
+T26	LAW 375 380	ГК РФ
+T27	ORDINAL 365 369	1273
+T28	ORDINAL 373 374	4
+R2	WORKPLACE Arg1:T23 Arg2:T5	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+T29	COUNTRY 544 555	Российского
+R4	HEADQUARTERED_IN Arg1:T15 Arg2:T29	
+T30	COUNTRY 193 204	Российского
+R5	HEADQUARTERED_IN Arg1:T8 Arg2:T30	
+R6	WORKPLACE Arg1:T16 Arg2:T29	
+R7	WORKPLACE Arg1:T16 Arg2:T15	
+R9	ORIGINS_FROM Arg1:T26 Arg2:T13	
+R8	PART_OF Arg1:T12 Arg2:T26	
+R10	PART_OF Arg1:T11 Arg2:T26	
+R11	INCOME Arg1:T22 Arg2:T20	
+N2	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T4 Wikidata:Q486839	член парламента
+N4	Reference T6 Wikidata:Q715641	Государственная дума
+N7	Reference T16 Wikidata:Q55207	Никита Михалков
+N8	Reference T18 Wikidata:Q212115	ЛДПР
+N9	Reference T19 Wikidata:Q492468	россияне
+N1	Reference T1 Wikidata:Q55207	Никита Михалков
+N10	Reference T23 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:Q206851	
+N5	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T12 Wikidata:NULL	нет данных
+N12	Reference T29 Wikidata:Q159	Россия
+N13	Reference T22 Wikidata:Q4398128	
+N14	Reference T2 Wikidata:Q55207	Никита Михалков
+N15	Reference T17 Wikidata:Q212115	ЛДПР
+N16	Reference T5 Wikidata:Q212115	ЛДПР
+N17	Reference T13 Wikidata:Q159	Россия
+N18	Reference T7 Wikidata:Q159	Россия
+N19	Reference T30 Wikidata:Q159	Россия
+N20	Reference T9 Wikidata:Q4398128	
+N21	Reference T8 Wikidata:Q4398128	
+N22	Reference T15 Wikidata:Q4398128	

@@ -1,0 +1,108 @@
+T1	COUNTRY 0 9	Китайский
+T2	PRODUCT 21 26	Варяг
+T3	DATE 48 72	В среду 6 июля 2011 года
+T4	COUNTRY 82 91	китайской
+T5	ORGANIZATION 99 111	Global Times
+T6	PRODUCT 155 160	Варяг
+T7	DATE 195 201	1 июля
+T8	AGE 272 286	90-й годовщине
+T10	DATE 418 437	до минувшего месяца
+T11	PROFESSION 445 475	начальник генштаба армии Китая
+T12	COUNTRY 470 475	Китая
+T13	PERSON 476 486	Чэнь Биндэ
+T14	ORGANIZATION 542 554	Global Times
+T15	DATE 567 578	с 2005 года
+T16	CITY 620 626	Далянь
+T17	COUNTRY 684 693	китайские
+T18	ORDINAL 724 731	первого
+T19	COUNTRY 734 737	КНР
+T20	COUNTRY 929 935	Китаем
+T21	COUNTRY 938 945	Украины
+T22	DATE 961 967	в 2002
+T23	CITY 998 1004	Далянь
+T24	COUNTRY 1048 1058	российское
+T25	PRODUCT 1069 1074	Варяг
+T26	COUNTRY 1135 1140	Китае
+T27	COUNTRY 1207 1210	КНР
+T28	LOCATION 1259 1264;1286 1291	Южном морях
+T29	LOCATION 1267 1291	Восточно-Китайском морях
+T30	DATE 1294 1312	На нынешней неделе
+T31	ORGANIZATION 1313 1322	МИД Китая
+T32	COUNTRY 1337 1343	Японии
+T33	LOCATION 1413 1436	Восточно-Китайском море
+T34	COUNTRY 1461 1466	Китае
+T35	LOCATION 1477 1485	Дяоюйдао
+T36	COUNTRY 1491 1497	Японии
+T37	LOCATION 1500 1507	Сенкаку
+T38	COUNTRY 1537 1545	японским
+T39	ORGANIZATION 287 310	Коммунистической партии
+T40	IDEOLOGY 287 303	Коммунистической
+T41	STATE_OR_PROVINCE 512 523	гонконгской
+T42	ORGANIZATION 455 475	генштаба армии Китая
+T43	DATE 946 957	в 1998 году
+T44	COUNTRY 1317 1322	Китая
+R1	IDEOLOGY_OF Arg1:T39 Arg2:T40	
+R2	AGE_IS Arg1:T39 Arg2:T8	
+R3	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+T9	ORGANIZATION 1313 1316	МИД
+R4	HEADQUARTERED_IN Arg1:T31 Arg2:T44	
+R5	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R6	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R7	OWNER_OF Arg1:T1 Arg2:T2	
+R8	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+T45	ORGANIZATION 464 475	армии Китая
+R9	WORKPLACE Arg1:T11 Arg2:T42	
+R10	PART_OF Arg1:T42 Arg2:T45	
+R11	HEADQUARTERED_IN Arg1:T45 Arg2:T12	
+R12	WORKS_AS Arg1:T13 Arg2:T11	
+R13	WORKPLACE Arg1:T13 Arg2:T42	
+R14	ORIGINS_FROM Arg1:T13 Arg2:T12	
+T46	EVENT 918 928	приобретен
+R15	PARTICIPANT_IN Arg1:T20 Arg2:T46	
+R16	PARTICIPANT_IN Arg1:T21 Arg2:T46	
+R17	POINT_IN_TIME Arg1:T46 Arg2:T43	
+R18	LOCATED_IN Arg1:T23 Arg2:T20	
+R19	LOCATED_IN Arg1:T2 Arg2:T16	
+R20	ALTERNATIVE_NAME Arg1:T12 Arg2:T17	
+R21	INANIMATE_INVOLVED Arg1:T2 Arg2:T46	
+T47	EVENT 975 989	встал на якорь
+R22	POINT_IN_TIME Arg1:T47 Arg2:T22	
+R23	TAKES_PLACE_IN Arg1:T47 Arg2:T23	
+R24	INANIMATE_INVOLVED Arg1:T2 Arg2:T47	
+R25	INANIMATE_INVOLVED Arg1:T25 Arg2:T47	
+R26	ABBREVIATION Arg1:T26 Arg2:T27	
+N1	Reference T5 Wikidata:Q970443	Хуаньцю шибао
+N3	Reference T13 Wikidata:Q701017	Чэнь Биндэ
+N4	Reference T16 Wikidata:Q74881	Далянь
+N5	Reference T21 Wikidata:Q212	Украина
+N8	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N9	Reference T28 Wikidata:Q333819	Море Южное
+N10	Reference T29 Wikidata:Q45341	Восточно-Китайское море
+N11	Reference T31 Wikidata:Q1155502	Министерство иностранных дел Китайской Народной Республики
+N12	Reference T36 Wikidata:Q17	Япония
+N13	Reference T37 Wikidata:Q29460	Сенкаку
+N17	Reference T9 Wikidata:Q654515	Мид
+N18	Reference T45 Wikidata:Q200106	Народно-освободительная армия Китая
+N19	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T39 Wikidata:Q17427	Коммунистическая партия Китая
+N16	Reference T42 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:NULL	
+N15	Reference T41 Wikidata:Q8646	Гонконг
+N6	Reference T24 Wikidata:Q7737	русский язык
+N7	Reference T25 Wikidata:NULL	нет данных
+N20	Reference T14 Wikidata:Q970443	Хуаньцю шибао
+N21	Reference T23 Wikidata:Q74881	Далянь
+N22	Reference T44 Wikidata:Q148	Китайская Народная Республика
+N23	Reference T20 Wikidata:Q148	Китайская Народная Республика
+N24	Reference T34 Wikidata:Q148	Китайская Народная Республика
+N25	Reference T27 Wikidata:Q148	Китайская Народная Республика
+N26	Reference T33 Wikidata:Q45341	Восточно-Китайское море
+N27	Reference T32 Wikidata:Q17	Япония
+N28	Reference T38 Wikidata:Q17	Япония
+N29	Reference T35 Wikidata:Q29460	Сенкаку
+N30	Reference T12 Wikidata:Q148	Китайская Народная Республика
+N31	Reference T19 Wikidata:Q148	Китайская Народная Республика
+N32	Reference T17 Wikidata:Q148	Китайская Народная Республика
+N33	Reference T4 Wikidata:Q148	Китайская Народная Республика
+N34	Reference T6 Wikidata:NULL	нет данных
+N35	Reference T2 Wikidata:NULL	нет данных

@@ -1,0 +1,71 @@
+T1	PROFESSION 0 4	Эмир
+T2	PERSON 53 78	Хамад бин Халифа Аль Тани
+T3	PERSON 97 122	Хамад бен Халифа Аль Тани
+T4	DATE 134 163	во вторник, 25 июня 2013 года
+T5	PROFESSION 220 237	наследного принца
+T6	AGE 254 264	33-летнего
+T7	PERSON 271 297	Тамима бен Хамада Аль Тани
+T9	PROFESSION 407 411	Шейх
+T10	COUNTRY 553 559	Катара
+T11	DATE 704 711	Вторник
+T12	COUNTRY 723 729	Катаре
+T13	PROFESSION 92 96	шейх
+T14	PROFESSION 231 237	принца
+T15	PROFESSION 265 270	шейха
+T16	PROFESSION 306 310	эмир
+T17	PERSON 412 417	Хамад
+T18	COUNTRY 5 11	Катара
+T19	PROFESSION 0 11	Эмир Катара
+T20	PROFESSION 80 91	Эмир Катара
+T21	COUNTRY 85 91	Катара
+T22	PROFESSION 600 605	эмиру
+T23	PROFESSION 689 694	шейха
+T24	PERSON 695 701	Тамима
+R1	WORKPLACE Arg1:T19 Arg2:T18	
+T25	EVENT 12 31	отрёкся от престола
+R2	AGENT Arg1:T19 Arg2:T25	
+T26	PROFESSION 80 84	Эмир
+R3	WORKPLACE Arg1:T20 Arg2:T21	
+R4	WORKS_AS Arg1:T3 Arg2:T13	
+R5	WORKS_AS Arg1:T3 Arg2:T20	
+T27	EVENT 193 210	отрёкся от власти
+R6	POINT_IN_TIME Arg1:T27 Arg2:T4	
+R7	ALTERNATIVE_NAME Arg1:T25 Arg2:T27	
+R8	AGENT Arg1:T3 Arg2:T27	
+R9	AGE_IS Arg1:T7 Arg2:T6	
+R10	WORKS_AS Arg1:T7 Arg2:T15	
+R11	WORKS_AS Arg1:T7 Arg2:T5	
+R12	SUBORDINATE_OF Arg1:T5 Arg2:T20	
+R13	PARENT_OF Arg1:T3 Arg2:T7	
+T8	DATE 311 318	в среду
+T28	DATE 321 328	четверг
+R14	ALTERNATIVE_NAME Arg1:T3 Arg2:T17	
+R15	WORKS_AS Arg1:T17 Arg2:T9	
+R16	WORKPLACE Arg1:T22 Arg2:T10	
+R17	WORKS_AS Arg1:T24 Arg2:T23	
+R18	ALTERNATIVE_NAME Arg1:T7 Arg2:T24	
+R19	TAKES_PLACE_IN Arg1:T25 Arg2:T18	
+R20	TAKES_PLACE_IN Arg1:T27 Arg2:T21	
+R21	PARTICIPANT_IN Arg1:T7 Arg2:T27	
+R22	WORKS_AS Arg1:T7 Arg2:T16	
+N1	Reference T2 Wikidata:Q57360	Хамад бин Халифа Аль Тани
+N3	Reference T13 Wikidata:Q185166	шейх
+N4	Reference T14 Wikidata:Q2747456	принц
+N6	Reference T18 Wikidata:Q846	Катар
+N8	Reference T22 Wikidata:Q166382	эмир
+N7	Reference T19 Wikidata:Q25711499	
+N2	Reference T5 Wikidata:Q207293	кронпринц
+N5	Reference T17 Wikidata:Q57360	Хамад бин Халифа Аль Тани
+N9	Reference T24 Wikidata:Q1855372	Тамим бин Хамад Аль Тани
+N10	Reference T9 Wikidata:Q185166	шейх
+N11	Reference T23 Wikidata:Q185166	шейх
+N12	Reference T15 Wikidata:Q185166	шейх
+N13	Reference T10 Wikidata:Q846	Катар
+N14	Reference T21 Wikidata:Q846	Катар
+N15	Reference T12 Wikidata:Q846	Катар
+N16	Reference T1 Wikidata:Q166382	эмир
+N17	Reference T16 Wikidata:Q166382	эмир
+N18	Reference T26 Wikidata:Q166382	эмир
+N19	Reference T20 Wikidata:Q25711499	
+N20	Reference T3 Wikidata:Q57360	Хамад бин Халифа Аль Тани
+N21	Reference T7 Wikidata:Q1855372	Тамим бин Хамад Аль Тани

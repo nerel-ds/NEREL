@@ -1,0 +1,124 @@
+T1	PROFESSION 15 23	археолог
+T2	PERSON 24 37	Валентин Янин
+T3	AGE 61 70	91-м году
+T5	PROFESSION 87 100	исследователь
+T6	PERSON 119 132	Валентин Янин
+T7	PRODUCT 144 152	Facebook
+T9	PERSON 173 185	Елена Рыбина
+T10	PROFESSION 187 196	профессор
+T11	PROFESSION 267 301	сотрудник Института археологии РАН
+T12	PERSON 302 316	Владимир Седов
+T13	PERSON 319 345	Валентин Лаврентьевич Янин
+T14	DATE 354 373	7 февраля 1929 года
+T15	CITY 376 381	Вятке
+T16	DATE 383 394	в 1951 году
+T18	DATE 510 521	В 1962 году
+T19	PERSON 543 563	Артемия Арциховского
+T20	ORGANIZATION 611 650	Новгородскую археологическую экспедицию
+T21	DATE 656 667	В 1966 году
+T22	PROFESSION 680 702	членом-корреспондентом
+T23	DATE 706 717	в 1990 году
+T24	PROFESSION 720 741	действительным членом
+T25	ORGANIZATION 742 744	АН
+T26	CITY 1012 1021	Новгорода
+T27	EVENT 0 4	Умер
+T28	PROFESSION 5 12	историк
+T29	CITY 38 50	Новгородский
+T4	EVENT 77 86	скончался
+T30	PROFESSION 87 118	исследователь берестяных грамот
+T8	ORGANIZATION 216 242	МГУ имени М. В. Ломоносова
+T31	PERSON 226 242	М. В. Ломоносова
+T32	PROFESSION 187 215	профессор кафедры археологии
+T33	PROFESSION 187 242	профессор кафедры археологии МГУ имени М. В. Ломоносова
+T34	EVENT 249 255	смерть
+T35	ORGANIZATION 298 301	РАН
+T36	ORGANIZATION 277 301	Института археологии РАН
+T38	ORGANIZATION 427 430	МГУ
+T39	ORGANIZATION 404 430	исторический факультет МГУ
+T41	ORGANIZATION 651 654	МГУ
+T42	ORGANIZATION 611 654	Новгородскую археологическую экспедицию МГУ
+T43	COUNTRY 745 749	СССР
+T44	ORGANIZATION 742 749	АН СССР
+T45	COUNTRY 915 919	Руси
+T46	COUNTRY 1093 1105	Древней Руси
+T47	WORK_OF_ART 38 57	Новгородский кодекс
+T48	ORDINAL 764 770	первых
+T49	ORDINAL 755 770	одним из первых
+R1	WORKS_AS Arg1:T6 Arg2:T30	
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T2 Arg2:T28	
+R4	AGE_DIED_AT Arg1:T6 Arg2:T3	
+R5	SPOUSE Arg1:T6 Arg2:T9	
+R6	WORKS_AS Arg1:T9 Arg2:T33	
+T37	ORGANIZATION 197 242	кафедры археологии МГУ имени М. В. Ломоносова
+R7	WORKPLACE Arg1:T9 Arg2:T37	
+R8	WORKS_AS Arg1:T12 Arg2:T11	
+R9	WORKPLACE Arg1:T12 Arg2:T35	
+R10	DATE_OF_BIRTH Arg1:T13 Arg2:T14	
+R11	WORKPLACE Arg1:T13 Arg2:T15	
+R12	SCHOOLS_ATTENDED Arg1:T13 Arg2:T39	
+R13	KNOWS Arg1:T13 Arg2:T19	
+R14	WORKPLACE Arg1:T13 Arg2:T42	
+T40	PROFESSION 720 749	действительным членом АН СССР
+R15	WORKS_AS Arg1:T13 Arg2:T40	
+R16	WORKS_AS Arg1:T13 Arg2:T22	
+R17	PARTICIPANT_IN Arg1:T2 Arg2:T27	
+R18	ALTERNATIVE_NAME Arg1:T27 Arg2:T4	
+R19	WORKPLACE Arg1:T33 Arg2:T37	
+R20	ALTERNATIVE_NAME Arg1:T4 Arg2:T34	
+R21	WORKPLACE Arg1:T11 Arg2:T36	
+R22	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+R23	WORKPLACE Arg1:T19 Arg2:T42	
+R24	ORIGINS_FROM Arg1:T47 Arg2:T29	
+R25	PART_OF Arg1:T37 Arg2:T8	
+R26	PART_OF Arg1:T39 Arg2:T38	
+R28	HEADQUARTERED_IN Arg1:T44 Arg2:T43	
+R29	OWNER_OF Arg1:T35 Arg2:T36	
+R30	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R27	FOUNDED_BY Arg1:T42 Arg2:T41	
+T17	EVENT 601 610	возглавил
+R31	PARTICIPANT_IN Arg1:T42 Arg2:T17	
+T50	CITY 611 623	Новгородскую
+R32	AGENT Arg1:T13 Arg2:T17	
+N1	Reference T1 Wikidata:Q3621491	археолог
+N2	Reference T5 Wikidata:Q1650915	исследователь
+N3	Reference T7 Wikidata:Q355	Facebook
+N5	Reference T10 Wikidata:Q121594	профессор
+N8	Reference T13 Wikidata:Q1980377	Валентин Лаврентьевич Янин
+N9	Reference T15 Wikidata:Q5384	Киров
+N10	Reference T19 Wikidata:Q2637042	Артемий Владимирович Арциховский
+N15	Reference T26 Wikidata:Q2235	Великий Новгород
+N16	Reference T28 Wikidata:Q201788	историк
+N20	Reference T31 Wikidata:Q58720	Михаил Васильевич Ломоносов
+N23	Reference T35 Wikidata:Q83172	Российская академия наук
+N24	Reference T36 Wikidata:Q4201410	Институт археологии РАН
+N25	Reference T39 Wikidata:Q4204528	Исторический факультет МГУ
+N26	Reference T41 Wikidata:Q13164	Московский государственный университет
+N28	Reference T43 Wikidata:Q15180	СССР
+N29	Reference T44 Wikidata:Q2370801	Академия наук СССР
+N30	Reference T46 Wikidata:Q1108445	Киевская Русь
+N31	Reference T47 Wikidata:Q2003578	Новгородский кодекс
+N17	Reference T29 Wikidata:Q2235	Великий Новгород
+N18	Reference T30 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:NULL	нет данных
+N21	Reference T32 Wikidata:NULL	нет данных
+N22	Reference T33 Wikidata:NULL	нет данных
+N19	Reference T8 Wikidata:Q13164	Московский государственный университет
+N32	Reference T37 Wikidata:NULL	нет данных
+N6	Reference T11 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:NULL	нет данных
+N11	Reference T20 Wikidata:NULL	нет данных
+N27	Reference T42 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:Q2625729	
+N14	Reference T25 Wikidata:Q414147	академия наук
+N33	Reference T40 Wikidata:NULL	нет данных
+N13	Reference T24 Wikidata:Q1404101	
+N34	Reference T2 Wikidata:Q1980377	Валентин Лаврентьевич Янин
+N35	Reference T6 Wikidata:Q1980377	Валентин Лаврентьевич Янин
+N36	Reference T38 Wikidata:Q13164	Московский государственный университет
+N37	Reference T45 Wikidata:Q1108445	Киевская Русь
+N38	Reference T50 Wikidata:Q2235	Великий Новгород
+T51	EVENT 346 353	родился
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T51	
+R34	POINT_IN_TIME Arg1:T51 Arg2:T14	
+R35	TAKES_PLACE_IN Arg1:T51 Arg2:T15	

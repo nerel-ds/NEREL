@@ -1,0 +1,88 @@
+T1	COUNTRY 39 44	Индии
+T2	EVENT 63 75	Демонстрация
+T3	CITY 78 82	Дели
+T4	DATE 127 147	22 декабря 2012 года
+T5	DATE 186 204	11 марта 2013 года
+T6	DATE 226 237	декабрьском
+T7	PROFESSION 321 348	Представитель тюрьмы «Тихар
+T8	ORGANIZATION 343 348	Тихар
+T9	PERSON 363 372	Рам Сингх
+T10	DATE 411 424	в понедельник
+T11	PROFESSION 445 452	адвокат
+T13	PERSON 717 723	Сингха
+T14	AGE 781 790	23-летнюю
+T15	TIME 812 828	более двух часов
+T16	DATE 906 922	через две недели
+T17	COUNTRY 945 954	Сингапура
+T18	PERSON 957 962	Сингх
+T19	NUMBER 1000 1006	пятеро
+T20	NUMBER 1025 1029	один
+T21	DATE 1090 1109	в феврале 2013 года
+T22	DATE 1138 1155	на прошлой неделе
+T23	CRIME 13 36	групповом изнасиловании
+T24	CRIME 102 126	группового изнасилования
+T25	CRIME 113 126	изнасилования
+T26	CRIME 23 36	изнасиловании
+T27	COUNTRY 148 157	Индийские
+T28	PROFESSION 158 169	полицейские
+T29	CRIME 238 261	групповом изнасиловании
+T30	CRIME 248 261	изнасиловании
+T32	CITY 274 283	делийском
+T33	EVENT 293 309	покончил с собой
+T34	EVENT 373 382	повесился
+T35	TIME 405 424	утром в понедельник
+T36	PERSON 453 459	Сингха
+T37	EVENT 490 494	убит
+T12	PERSON 595 601	Сингха
+T38	EVENT 641 652	изнасилован
+T40	EVENT 927 933	умерла
+T43	EVENT 45 62	найден повешенным
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R2	LOCATED_IN Arg1:T3 Arg2:T1	
+R4	HAS_CAUSE Arg1:T2 Arg2:T24	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T27	
+T44	PROFESSION 148 169	Индийские полицейские
+R6	WORKPLACE Arg1:T44 Arg2:T27	
+R3	POINT_IN_TIME Arg1:T24 Arg2:T4	
+R7	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R8	POINT_IN_TIME Arg1:T29 Arg2:T6	
+R9	ALTERNATIVE_NAME Arg1:T43 Arg2:T33	
+R10	POINT_IN_TIME Arg1:T33 Arg2:T5	
+R11	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R12	AGENT Arg1:T9 Arg2:T34	
+R13	POINT_IN_TIME Arg1:T34 Arg2:T35	
+R14	CONVICTED_OF Arg1:T9 Arg2:T29	
+R15	SUBORDINATE_OF Arg1:T11 Arg2:T36	
+R16	ALTERNATIVE_NAME Arg1:T9 Arg2:T36	
+R17	PARTICIPANT_IN Arg1:T36 Arg2:T37	
+R18	PARTICIPANT_IN Arg1:T12 Arg2:T38	
+T31	PROFESSION 751 769	водителем автобуса
+R19	WORKS_AS Arg1:T13 Arg2:T31	
+T39	EVENT 801 811	насиловали
+R20	PARTICIPANT_IN Arg1:T13 Arg2:T39	
+R21	POINT_IN_TIME Arg1:T40 Arg2:T16	
+R22	TAKES_PLACE_IN Arg1:T40 Arg2:T17	
+T45	DISEASE 844 874	повреждения внутренних органов
+R23	HAS_CAUSE Arg1:T40 Arg2:T45	
+T41	EVENT 1050 1053	Суд
+R24	START_TIME Arg1:T41 Arg2:T21	
+R25	START_TIME Arg1:T41 Arg2:T22	
+R26	TAKES_PLACE_IN Arg1:T23 Arg2:T1	
+R27	ALTERNATIVE_NAME Arg1:T3 Arg2:T32	
+R28	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+N1	Reference T3 Wikidata:Q1353	Дели
+N3	Reference T8 Wikidata:Q1593538	Тихар
+N4	Reference T11 Wikidata:Q40348	адвокат
+N5	Reference T17 Wikidata:Q334	Сингапур
+N7	Reference T27 Wikidata:Q668	Индия
+N8	Reference T28 Wikidata:Q384593	
+N10	Reference T44 Wikidata:Q3348002	
+N2	Reference T7 Wikidata:NULL	нет данных
+N9	Reference T36 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:Q829020	
+N6	Reference T18 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:Q1353	Дели
+N13	Reference T1 Wikidata:Q668	Индия
+N14	Reference T9 Wikidata:NULL	нет данных
+N15	Reference T13 Wikidata:NULL	нет данных
+N16	Reference T12 Wikidata:NULL	нет данных

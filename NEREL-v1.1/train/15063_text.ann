@@ -1,0 +1,110 @@
+T1	PRODUCT 22 30	Булгарии
+T2	PRODUCT 89 97	Булгария
+T3	NUMBER 114 117	117
+T4	ORGANIZATION 127 159	Управление информации МЧС России
+T5	NUMBER 183 187	трех
+T6	PRODUCT 291 299	Булгария
+T7	DATE 307 316	2010 года
+T8	NUMBER 397 401	трех
+T9	NUMBER 443 444	5
+T10	ORGANIZATION 476 479	РБК
+T11	FACILITY 623 650	Куйбышевского водохранилища
+T13	DATE 663 676	10 июля 2011г
+T14	STATE_OR_PROVINCE 692 702	Татарстана
+T15	NUMBER 705 709	3 км
+T16	PRODUCT 751 759	Булгария
+T17	DATE 774 781	в 1955г
+T18	DATE 804 815	двухдневный
+T19	CITY 834 840	Казань
+T20	CITY 841 847	Болгар
+T21	CITY 848 854	Казань
+T22	NUMBER 905 908	201
+T23	NUMBER 938 940	79
+T24	ORGANIZATION 943 1018	Главное следственное управление Следственного комитета Российской Федерации
+T25	ORGANIZATION 975 1018	Следственного комитета Российской Федерации
+T27	PROFESSION 1052 1100	генеральному директору компании ООО «АргоРечТур»
+T28	ORGANIZATION 1089 1099	АргоРечТур
+T29	PRODUCT 1124 1132	Булгария
+T30	AGE 1135 1144	40-летней
+T31	PERSON 1145 1162	Светлане Инякиной
+T32	PROFESSION 1165 1228	старшему эксперту Камского филиала Российского речного регистра
+T33	AGE 1230 1240	62-летнему
+T34	PERSON 1241 1254	Якову Ивашову
+T35	ORGANIZATION 1183 1228	Камского филиала Российского речного регистра
+T36	ORGANIZATION 1200 1228	Российского речного регистра
+T37	COUNTRY 1200 1211	Российского
+T26	COUNTRY 998 1018	Российской Федерации
+T12	CITY 623 636	Куйбышевского
+T41	COUNTRY 153 159	России
+T42	ORGANIZATION 149 159	МЧС России
+T43	EVENT 535 541	гибели
+R1	AGE_IS Arg1:T34 Arg2:T33	
+R2	AGE_IS Arg1:T31 Arg2:T30	
+R3	PART_OF Arg1:T24 Arg2:T25	
+T44	ORGANIZATION 943 974	Главное следственное управление
+R4	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+T45	PROFESSION 1052 1074	генеральному директору
+R5	WORKPLACE Arg1:T27 Arg2:T28	
+R6	WORKS_AS Arg1:T31 Arg2:T27	
+R7	HEADQUARTERED_IN Arg1:T36 Arg2:T37	
+R8	PART_OF Arg1:T35 Arg2:T36	
+T46	PROFESSION 1165 1182	старшему эксперту
+R9	WORKS_AS Arg1:T34 Arg2:T32	
+R10	WORKPLACE Arg1:T34 Arg2:T35	
+T47	LOCATION 1183 1191	Камского
+R11	PART_OF Arg1:T4 Arg2:T42	
+R12	HEADQUARTERED_IN Arg1:T42 Arg2:T41	
+T48	EVENT 12 20	крушения
+T49	EVENT 69 87	крушения теплохода
+R13	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+T50	EVENT 385 405	обнаружения трех тел
+T51	EVENT 535 549	гибели корабля
+R14	ALTERNATIVE_NAME Arg1:T49 Arg2:T51	
+R15	TAKES_PLACE_IN Arg1:T51 Arg2:T11	
+T52	EVENT 720 727	затонул
+R16	TAKES_PLACE_IN Arg1:T52 Arg2:T14	
+R17	TAKES_PLACE_IN Arg1:T52 Arg2:T11	
+R18	POINT_IN_TIME Arg1:T52 Arg2:T13	
+T53	EVENT 1019 1051	предъявило официальные обвинения
+R19	PARTICIPANT_IN Arg1:T24 Arg2:T53	
+R20	PARTICIPANT_IN Arg1:T31 Arg2:T53	
+R21	PARTICIPANT_IN Arg1:T34 Arg2:T53	
+R22	INANIMATE_INVOLVED Arg1:T1 Arg2:T48	
+R23	INANIMATE_INVOLVED Arg1:T2 Arg2:T49	
+R24	HAS_CAUSE Arg1:T50 Arg2:T49	
+R25	INANIMATE_INVOLVED Arg1:T16 Arg2:T52	
+R26	DATE_OF_CREATION Arg1:T16 Arg2:T17	
+T38	EVENT 816 821	круиз
+R27	INANIMATE_INVOLVED Arg1:T16 Arg2:T38	
+R28	TAKES_PLACE_IN Arg1:T38 Arg2:T19	
+R29	TAKES_PLACE_IN Arg1:T38 Arg2:T20	
+N2	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N4	Reference T14 Wikidata:Q5481	Татарстан
+N5	Reference T16 Wikidata:Q1265953	Булгария
+N6	Reference T19 Wikidata:Q900	Казань
+N7	Reference T20 Wikidata:Q105284	Болгар
+N9	Reference T25 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N17	Reference T26 Wikidata:Q159	Россия
+N19	Reference T41 Wikidata:Q159	Россия
+N20	Reference T42 Wikidata:Q2624171	МЧС России
+N22	Reference T45 Wikidata:Q1501800	генеральный директор
+N1	Reference T4 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q745937	Куйбышевское водохранилище
+N18	Reference T12 Wikidata:Q894	Самара
+N8	Reference T24 Wikidata:NULL	нет данных
+N21	Reference T44 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N25	Reference T28 Wikidata:NULL	
+N11	Reference T31 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:Q4398047	
+N16	Reference T37 Wikidata:Q159	Россия
+N12	Reference T32 Wikidata:NULL	нет данных
+N24	Reference T47 Wikidata:Q79082	
+N14	Reference T35 Wikidata:NULL	нет данных
+N13	Reference T34 Wikidata:NULL	нет данных
+N26	Reference T29 Wikidata:Q1265953	Булгария
+N27	Reference T2 Wikidata:Q1265953	Булгария
+N28	Reference T6 Wikidata:Q1265953	Булгария
+N29	Reference T1 Wikidata:Q1265953	Булгария
+N30	Reference T21 Wikidata:Q900	Казань

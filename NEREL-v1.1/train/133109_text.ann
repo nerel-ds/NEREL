@@ -1,0 +1,119 @@
+T1	PERSON 20 32	Джигарханяна
+T3	ORGANIZATION 56 86	Московский драматический театр
+T4	PERSON 104 123	Армена Джигарханяна
+T5	PERSON 171 188	Армен Джигарханян
+T6	DATE 189 203	несколько дней
+T7	NUMBER 266 279	трёхкомнатную
+T8	LOCATION 292 315	Ломоносовском проспекте
+T9	DATE 319 329	30 октября
+T11	LOCATION 368 391	Молодогвардейской улице
+T12	PERSON 484 501	Армена Борисовича
+T13	PERSON 518 530	Джигарханяна
+T14	PERSON 580 599	Артуром Согомоняном
+T16	PERSON 834 863	Виталины Цымбалюк-Романовской
+T17	PERSON 892 912	Цымбалюк-Романовская
+T18	COUNTRY 924 930	России
+T20	PERSON 956 971	Андрея Малахова
+T22	WORK_OF_ART 973 984	Прямой эфир
+T23	DATE 986 996	30 октября
+T25	PERSON 1022 1033	Элина Мазур
+T26	PERSON 1051 1071	Цымбалюк-Романовская
+T28	CITY 1191 1199	Нью-Йорк
+T29	CITY 1201 1210	Тель-Авив
+T30	CITY 1215 1219	Киев
+T31	DATE 1222 1232	26 октября
+T32	ORGANIZATION 1235 1266	Московском драматическом театре
+T33	AGE 1332 1342	82-летнего
+T34	AGE 1485 1491	50 лет
+T35	ORGANIZATION 0 7	Полиция
+T2	PROFESSION 1343 1349	актера
+T36	CRIME 1393 1424	краже общегражданского паспорта
+T37	PERSON 1267 1286	Армена Джигарханяна
+T38	EVENT 1294 1300	обыски
+T21	PROFESSION 710 716	актёра
+T15	PERSON 821 833	Джигарханяна
+T27	ORGANIZATION 694 701	полиции
+T39	CITY 392 398	Москвы
+T40	PROFESSION 330 335	актёр
+T41	ORGANIZATION 436 443	полиция
+T42	EVENT 448 457	задержала
+T43	PROFESSION 159 165	артист
+T44	COUNTRY 166 170	СССР
+T45	CITY 56 66	Московский
+T46	CITY 1235 1245	Московском
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T45	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+R3	LOCATED_IN Arg1:T8 Arg2:T39	
+R4	LOCATED_IN Arg1:T11 Arg2:T39	
+R5	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R6	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R7	KNOWS Arg1:T12 Arg2:T14	
+R8	SPOUSE Arg1:T15 Arg2:T16	
+R9	TAKES_PLACE_IN Arg1:T38 Arg2:T32	
+R10	POINT_IN_TIME Arg1:T38 Arg2:T31	
+R11	HEADQUARTERED_IN Arg1:T32 Arg2:T46	
+R12	WORKPLACE Arg1:T37 Arg2:T32	
+R13	AGE_IS Arg1:T37 Arg2:T33	
+R14	WORKS_AS Arg1:T37 Arg2:T2	
+R15	AGE_IS Arg1:T2 Arg2:T33	
+T47	EVENT 913 920	сбежала
+R16	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R17	PARTICIPANT_IN Arg1:T17 Arg2:T47	
+R18	TAKES_PLACE_IN Arg1:T47 Arg2:T18	
+R19	PRODUCES Arg1:T20 Arg2:T22	
+R20	DATE_OF_CREATION Arg1:T22 Arg2:T23	
+R21	PARTICIPANT_IN Arg1:T25 Arg2:T22	
+R22	KNOWS Arg1:T17 Arg2:T25	
+T19	EVENT 1072 1087	покинула страну
+R23	ALTERNATIVE_NAME Arg1:T47 Arg2:T19	
+R24	PARTICIPANT_IN Arg1:T26 Arg2:T19	
+R25	WORKS_AS Arg1:T5 Arg2:T43	
+R26	WORKS_AS Arg1:T5 Arg2:T40	
+R27	POINT_IN_TIME Arg1:T42 Arg2:T9	
+R28	AGENT Arg1:T41 Arg2:T42	
+R29	PARTICIPANT_IN Arg1:T40 Arg2:T42	
+R30	PARTICIPANT_IN Arg1:T5 Arg2:T42	
+T24	AWARD 150 170	народный артист СССР
+R31	AWARDED_WITH Arg1:T5 Arg2:T24	
+R32	ORIGINS_FROM Arg1:T24 Arg2:T44	
+T48	AWARD 150 165	народный артист
+T10	EVENT 702 709	схватил
+R33	AGENT Arg1:T27 Arg2:T10	
+R34	PARTICIPANT_IN Arg1:T21 Arg2:T10	
+R35	WORKS_AS Arg1:T12 Arg2:T21	
+R36	PARTICIPANT_IN Arg1:T12 Arg2:T10	
+N1	Reference T1 Wikidata:Q471740	Армен Борисович Джигарханян
+N3	Reference T8 Wikidata:Q4266348	Ломоносовский проспект
+N4	Reference T11 Wikidata:Q4300660	Молодогвардейская улица
+N6	Reference T18 Wikidata:Q159	Россия
+N7	Reference T20 Wikidata:Q502325	Андрей Николаевич Малахов
+N8	Reference T22 Wikidata:Q4382767	Прямой эфир
+N10	Reference T26 Wikidata:Q4505689	Цимбалюк, Инна Анатольевна
+N11	Reference T28 Wikidata:Q60	Нью-Йорк
+N12	Reference T29 Wikidata:Q33935	Тель-Авив
+N13	Reference T30 Wikidata:Q1899	Киев
+N14	Reference T35 Wikidata:Q35535	полиция
+N15	Reference T21 Wikidata:Q33999	актёр
+N16	Reference T39 Wikidata:Q649	Москва
+N17	Reference T43 Wikidata:Q483501	деятель искусств
+N18	Reference T44 Wikidata:Q15180	СССР
+N20	Reference T24 Wikidata:Q403569	народный артист СССР
+N21	Reference T48 Wikidata:Q1208997	народный артист
+N2	Reference T3 Wikidata:Q4304135	
+N5	Reference T14 Wikidata:NULL	нет данных
+N9	Reference T25 Wikidata:NULL	нет данных
+N19	Reference T46 Wikidata:Q649	Москва
+N22	Reference T13 Wikidata:Q471740	Армен Борисович Джигарханян
+N23	Reference T5 Wikidata:Q471740	Армен Борисович Джигарханян
+N24	Reference T12 Wikidata:Q471740	Армен Борисович Джигарханян
+N25	Reference T15 Wikidata:Q471740	Армен Борисович Джигарханян
+N26	Reference T4 Wikidata:Q471740	Армен Борисович Джигарханян
+N27	Reference T37 Wikidata:Q471740	Армен Борисович Джигарханян
+N28	Reference T17 Wikidata:Q4505689	Цимбалюк, Инна Анатольевна
+N29	Reference T16 Wikidata:Q4505689	Цимбалюк, Инна Анатольевна
+N30	Reference T41 Wikidata:Q35535	полиция
+N31	Reference T27 Wikidata:Q35535	полиция
+N32	Reference T40 Wikidata:Q33999	актёр
+N33	Reference T2 Wikidata:Q33999	актёр
+N34	Reference T32 Wikidata:Q4304135	
+N35	Reference T45 Wikidata:Q649	Москва

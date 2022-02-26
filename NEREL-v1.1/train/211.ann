@@ -1,0 +1,132 @@
+T1	PROFESSION 0 36	Главный воспитатель российской армии
+T2	DATE 45 53	семь лет
+T3	CITY 67 73	Москве
+T4	DATE 76 86	семи годам
+T5	PROFESSION 121 195	начальник Главного управления воспитательной работы Вооруженных сил России
+T6	PROFESSION 196 213	генерал-лейтенант
+T7	PERSON 214 231	Анатолий Башлаков
+T8	ORGANIZATION 233 244	Военный суд
+T9	MONEY 295 311	700 тысяч рублей
+T10	ORGANIZATION 333 342	Интерфакс
+T11	ORGANIZATION 378 402	военной прокуратуре РВСН
+T12	PROFESSION 404 411	генерал
+T13	PROFESSION 450 482	начальником космодрома "Плесецк"
+T14	FACILITY 474 481	Плесецк
+T15	DATE 483 500	в 2003-2007 годах
+T16	PERSON 525 533	Башлаков
+T17	PERSON 687 696	Башлакова
+T18	DATE 713 732	в октябре 2010 года
+T19	PROFESSION 800 807	генерал
+T20	ORGANIZATION 904 912	Право.Ru
+T21	PERSON 915 924	Башлакову
+T22	AGE 925 932	53 года
+T23	ORGANIZATION 945 987	Рижское высшее военно-политическое училище
+T24	ORGANIZATION 990 1037	ракетный факультет Военно-политической академии
+T25	ORGANIZATION 1009 1037	Военно-политической академии
+T26	NUMBER 1100 1108	четырьмя
+T27	ORGANIZATION 1133 1144	РИА Новости
+T28	PERSON 1146 1154	Башлаков
+T29	DATE 1155 1174	в феврале 2010 года
+T30	COUNTRY 20 30	российской
+T31	ORGANIZATION 131 195	Главного управления воспитательной работы Вооруженных сил России
+T32	COUNTRY 189 195	России
+T33	ORGANIZATION 31 36	армии
+T34	ORGANIZATION 398 402	РВСН
+T35	AWARD 1078 1096	За военные заслуги
+T36	CRIME 57 63	взятку
+T37	CRIME 268 311	получении взятки в размере 700 тысяч рублей
+T38	CRIME 268 284	получении взятки
+T39	PENALTY 76 102	семи годам лишения свободы
+T40	PENALTY 87 102	лишения свободы
+T41	EVENT 103 113	приговорен
+R1	WORKS_AS Arg1:T7 Arg2:T5	
+R2	WORKS_AS Arg1:T7 Arg2:T6	
+R3	WORKPLACE Arg1:T7 Arg2:T31	
+R4	PARTICIPANT_IN Arg1:T7 Arg2:T41	
+R5	TAKES_PLACE_IN Arg1:T41 Arg2:T3	
+R6	PARTICIPANT_IN Arg1:T8 Arg2:T41	
+T42	EVENT 245 265	признал его виновным
+R7	AGENT Arg1:T8 Arg2:T42	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T42	
+R9	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+T43	PROFESSION 450 472	начальником космодрома
+R11	WORKS_AS Arg1:T7 Arg2:T13	
+R12	WORKPLACE Arg1:T7 Arg2:T14	
+R13	ALTERNATIVE_NAME Arg1:T7 Arg2:T16	
+T44	PENALTY 548 568	подпиской о невыезде
+T45	PENALTY 575 602	взят под стражу в зале суда
+T46	PENALTY 575 590	взят под стражу
+T47	CRIME 831 847	получении взятки
+T48	CRIME 854 879	должностных преступлениях
+R14	AGE_IS Arg1:T21 Arg2:T22	
+R15	SCHOOLS_ATTENDED Arg1:T21 Arg2:T23	
+T49	CITY 945 952	Рижское
+R16	SCHOOLS_ATTENDED Arg1:T21 Arg2:T24	
+T50	EVENT 1175 1190	ушел в отставку
+R17	AGENT Arg1:T28 Arg2:T50	
+R18	POINT_IN_TIME Arg1:T50 Arg2:T29	
+R19	PENALIZED_AS Arg1:T7 Arg2:T39	
+R20	CONVICTED_OF Arg1:T7 Arg2:T37	
+R21	HAS_CAUSE Arg1:T39 Arg2:T37	
+T51	ORGANIZATION 20 36	российской армии
+R22	HEADQUARTERED_IN Arg1:T51 Arg2:T30	
+R23	PENALIZED_AS Arg1:T16 Arg2:T44	
+R24	PENALIZED_AS Arg1:T16 Arg2:T45	
+R25	CONVICTED_OF Arg1:T17 Arg2:T47	
+R26	CONVICTED_OF Arg1:T17 Arg2:T48	
+R27	PENALIZED_AS Arg1:T7 Arg2:T39	
+R28	WORKS_AS Arg1:T17 Arg2:T19	
+R29	CONVICTED_OF Arg1:T19 Arg2:T47	
+R30	CONVICTED_OF Arg1:T19 Arg2:T48	
+R31	HEADQUARTERED_IN Arg1:T23 Arg2:T49	
+R32	PART_OF Arg1:T24 Arg2:T25	
+R33	CONVICTED_OF Arg1:T1 Arg2:T36	
+R34	WORKPLACE Arg1:T13 Arg2:T14	
+R35	PART_OF Arg1:T24 Arg2:T25	
+R36	AWARDED_WITH Arg1:T21 Arg2:T35	
+R37	PART_OF Arg1:T11 Arg2:T34	
+R38	WORKPLACE Arg1:T5 Arg2:T31	
+T52	ORGANIZATION 173 195	Вооруженных сил России
+R39	PART_OF Arg1:T31 Arg2:T52	
+T53	PENALTY 37 53	получил семь лет
+R40	PENALIZED_AS Arg1:T1 Arg2:T53	
+R41	HAS_CAUSE Arg1:T53 Arg2:T36	
+R42	ALTERNATIVE_NAME Arg1:T53 Arg2:T39	
+R43	HEADQUARTERED_IN Arg1:T52 Arg2:T32	
+R44	HAS_CAUSE Arg1:T42 Arg2:T37	
+R45	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R46	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R47	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R48	ALTERNATIVE_NAME Arg1:T17 Arg2:T21	
+N1	Reference T3 Wikidata:Q649	Москва
+N3	Reference T10 Wikidata:Q379271	Интерфакс
+N6	Reference T14 Wikidata:Q15778	Плесецк
+N8	Reference T19 Wikidata:Q83460	генерал
+N9	Reference T20 Wikidata:Q7748	закон
+N11	Reference T23 Wikidata:Q4271124	Львовское высшее военно-политическое училище
+N13	Reference T25 Wikidata:Q1935120	Военно-политическая академия имени В. И. Ленина
+N14	Reference T27 Wikidata:Q821172	РИА Новости
+N17	Reference T32 Wikidata:Q159	Россия
+N18	Reference T33 Wikidata:Q1114493	Древнеримская армия
+N19	Reference T34 Wikidata:Q855933	Ракетные войска стратегического назначения СССР
+N20	Reference T35 Wikidata:Q94136	орден «За военные заслуги»
+N23	Reference T51 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N24	Reference T52 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N25	Reference T1 Wikidata:NULL	нет данных
+N15	Reference T30 Wikidata:Q159	Россия
+N2	Reference T5 Wikidata:NULL	нет данных
+N16	Reference T31 Wikidata:NULL	нет данных
+N26	Reference T8 Wikidata:Q21651900	
+N4	Reference T11 Wikidata:NULL	нет данных
+N21	Reference T43 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q4080198	
+N27	Reference T17 Wikidata:Q4080198	
+N10	Reference T21 Wikidata:Q4080198	
+N22	Reference T49 Wikidata:Q1773	Рига
+N12	Reference T24 Wikidata:NULL	нет данных
+N28	Reference T12 Wikidata:Q83460	генерал
+N29	Reference T6 Wikidata:Q83460	генерал
+N30	Reference T28 Wikidata:Q4080198	
+N31	Reference T7 Wikidata:Q4080198	

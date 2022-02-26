@@ -1,0 +1,260 @@
+T1	COUNTRY 0 11	Итальянский
+T2	COUNTRY 27 38	украинского
+T4	CITY 71 76	Павия
+T5	COUNTRY 107 117	украинский
+T6	COUNTRY 145 156	итальянский
+T7	COUNTRY 173 179	Италии
+T8	COUNTRY 191 202	украинского
+T9	PERSON 209 224	Виталия Маркива
+T11	NATIONALITY 267 279	итальянского
+T12	LOCATION 311 319	Донбассе
+T13	DATE 320 331	в 2014 году
+T14	DATE 350 367	12 июля 2019 года
+T15	PROFESSION 370 379	Журналист
+T16	PERSON 380 394	Андреа Рокелли
+T17	NATIONALITY 401 411	российский
+T18	PERSON 420 434	Андрей Миронов
+T19	CITY 484 493	Славянска
+T20	COUNTRY 514 524	Украинская
+T21	COUNTRY 633 643	украинских
+T22	COUNTRY 671 682	Итальянская
+T23	CITY 702 707	Павия
+T24	PERSON 717 724	Маркива
+T25	NATIONALITY 776 784	украинца
+T26	PROFESSION 851 859	Прокурор
+T27	PERSON 891 897	Маркив
+T28	NATIONALITY 977 988	французский
+T29	PERSON 999 1013	Уильям Рогулен
+T30	PROFESSION 1052 1059	Адвокат
+T31	AGE 1147 1156	29-летний
+T32	COUNTRY 1218 1230	итальянскому
+T33	COUNTRY 1289 1296	Украине
+T34	NATIONALITY 1325 1333	украинцы
+T35	NATIONALITY 1388 1397	итальянца
+T36	PERSON 1461 1467	Андреа
+T37	PERSON 1536 1542	Маркив
+T38	COUNTRY 1549 1555	Италии
+T39	DATE 1556 1567	с 2003 года
+T40	COUNTRY 1575 1586	итальянское
+T41	COUNTRY 1612 1619	Украину
+T42	EVENT 1646 1657	Евромайдане
+T43	CITY 1712 1720	Славянск
+T44	DATE 1723 1734	В 2017 году
+T45	COUNTRY 1748 1754	Италию
+T46	DATE 1826 1837	в 2018 году
+T47	NUMBER 1857 1860	две
+T49	ORGANIZATION 0 15	Итальянский суд
+T50	PROFESSION 39 46	солдата
+T3	PENALTY 49 64	24 годам тюрьмы
+T53	PROFESSION 118 122	боец
+T55	PROFESSION 157 166	журналист
+T10	PENALTY 227 242	24 годам тюрьмы
+T54	CRIME 246 266	соучастие в убийстве
+T58	PROFESSION 280 289	фотографа
+T59	EVENT 303 308	войну
+T61	EVENT 342 349	оглашён
+T62	EVENT 435 442	погибли
+T63	EVENT 468 476	обстрела
+T64	LOCATION 497 512	востоке Украины
+T65	COUNTRY 505 512	Украины
+T66	EVENT 562 568	гибель
+T67	PROFESSION 569 580	журналистов
+T68	IDEOLOGY 598 610	сепаратистов
+T71	ORGANIZATION 671 707	Итальянская прокуратура города Павия
+T73	ORGANIZATION 683 707	прокуратура города Павия
+T74	CRIME 727 750	причастности к убийству
+T75	PENALTY 785 798	17 лет тюрьмы
+T77	ORGANIZATION 803 816	суд присяжных
+T79	PERSON 860 877	Андреа Занончелли
+T80	PROFESSION 917 923	бойцов
+T81	EVENT 938 945	обстрел
+T82	PROFESSION 989 998	журналист
+T83	EVENT 1042 1050	обстреле
+T84	PERSON 1060 1067	Маркива
+T85	PROFESSION 1114 1122	солдатом
+T86	PERSON 1157 1163	Маркив
+T88	PROFESSION 1475 1486	журналистам
+T89	DATE 1620 1631	в 2013 году
+T90	EVENT 1704 1708	боёв
+T92	CITY 1771 1778	Болоньи
+T93	FACILITY 1761 1778	аэропорту Болоньи
+T94	EVENT 1783 1793	арестовали
+T95	PROFESSION 1794 1804	карабинеры
+R1	HEADQUARTERED_IN Arg1:T49 Arg2:T1	
+T48	DATE 49 57	24 годам
+T52	EVENT 16 26	приговорил
+R4	AGENT Arg1:T49 Arg2:T52	
+R7	ALTERNATIVE_NAME Arg1:T50 Arg2:T53	
+R8	ORIGINS_FROM Arg1:T55 Arg2:T6	
+R6	LOCATED_IN Arg1:T4 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+T56	ORGANIZATION 167 179	Суд в Италии
+T51	DATE 227 235	24 годам
+R11	ALTERNATIVE_NAME Arg1:T55 Arg2:T58	
+T96	PROFESSION 27 46	украинского солдата
+R2	WORKPLACE Arg1:T96 Arg2:T2	
+T97	PROFESSION 107 122	украинский боец
+R5	PARTICIPANT_IN Arg1:T96 Arg2:T52	
+R3	PENALIZED_AS Arg1:T96 Arg2:T3	
+R9	WORKPLACE Arg1:T97 Arg2:T5	
+R12	ALTERNATIVE_NAME Arg1:T96 Arg2:T97	
+T98	PROFESSION 191 208	украинского бойца
+R13	WORKPLACE Arg1:T98 Arg2:T8	
+R14	WORKS_AS Arg1:T9 Arg2:T98	
+T99	EVENT 180 190	приговорил
+R15	AGENT Arg1:T56 Arg2:T99	
+R16	ALTERNATIVE_NAME Arg1:T49 Arg2:T56	
+R17	PARTICIPANT_IN Arg1:T9 Arg2:T99	
+R18	PENALIZED_AS Arg1:T9 Arg2:T10	
+R19	HAS_CAUSE Arg1:T99 Arg2:T54	
+R20	HAS_CAUSE Arg1:T10 Arg2:T54	
+R21	CONVICTED_OF Arg1:T9 Arg2:T54	
+R22	PARTICIPANT_IN Arg1:T58 Arg2:T54	
+R23	ORIGINS_FROM Arg1:T58 Arg2:T11	
+R24	POINT_IN_TIME Arg1:T59 Arg2:T13	
+R25	TAKES_PLACE_IN Arg1:T59 Arg2:T12	
+R26	PARTICIPANT_IN Arg1:T58 Arg2:T59	
+R27	POINT_IN_TIME Arg1:T61 Arg2:T14	
+R28	WORKS_AS Arg1:T16 Arg2:T15	
+R29	ORIGINS_FROM Arg1:T18 Arg2:T17	
+R30	PARTICIPANT_IN Arg1:T16 Arg2:T62	
+R31	PARTICIPANT_IN Arg1:T18 Arg2:T62	
+R32	LOCATED_IN Arg1:T19 Arg2:T64	
+T100	LOCATION 477 493	вблизи Славянска
+T101	EVENT 456 476	миномётного обстрела
+R33	TAKES_PLACE_IN Arg1:T101 Arg2:T100	
+R34	HAS_CAUSE Arg1:T62 Arg2:T101	
+R35	ALTERNATIVE_NAME Arg1:T8 Arg2:T65	
+R36	ALTERNATIVE_NAME Arg1:T65 Arg2:T20	
+R37	ALTERNATIVE_NAME Arg1:T62 Arg2:T66	
+R38	PARTICIPANT_IN Arg1:T67 Arg2:T66	
+T102	IDEOLOGY 584 610	пророссийских сепаратистов
+T103	PROFESSION 633 650	украинских бойцов
+R39	WORKPLACE Arg1:T103 Arg2:T21	
+R40	ALTERNATIVE_NAME Arg1:T9 Arg2:T24	
+T70	EVENT 708 716	обвинила
+R41	HEADQUARTERED_IN Arg1:T73 Arg2:T23	
+R42	HEADQUARTERED_IN Arg1:T71 Arg2:T22	
+R43	AGENT Arg1:T71 Arg2:T70	
+R44	PARTICIPANT_IN Arg1:T24 Arg2:T70	
+R45	CONVICTED_OF Arg1:T24 Arg2:T74	
+R46	ALTERNATIVE_NAME Arg1:T54 Arg2:T74	
+R47	HAS_CAUSE Arg1:T70 Arg2:T74	
+R48	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R49	ORIGINS_FROM Arg1:T25 Arg2:T21	
+T72	DATE 785 791	17 лет
+T76	PROFESSION 807 816	присяжных
+R50	PENALIZED_AS Arg1:T24 Arg2:T75	
+R51	HAS_CAUSE Arg1:T75 Arg2:T74	
+R52	MEMBER_OF Arg1:T76 Arg2:T77	
+T78	PROFESSION 752 762	Обвинитель
+R53	ALTERNATIVE_NAME Arg1:T78 Arg2:T26	
+R54	MEMBER_OF Arg1:T78 Arg2:T71	
+R55	WORKS_AS Arg1:T79 Arg2:T26	
+R56	AGENT Arg1:T80 Arg2:T81	
+R57	PARTICIPANT_IN Arg1:T27 Arg2:T81	
+R58	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R59	WORKS_AS Arg1:T29 Arg2:T82	
+T104	EVENT 1021 1028	ранений
+R60	PARTICIPANT_IN Arg1:T29 Arg2:T104	
+R61	HAS_CAUSE Arg1:T104 Arg2:T83	
+R62	PARTICIPANT_IN Arg1:T29 Arg2:T83	
+R63	SUBORDINATE_OF Arg1:T30 Arg2:T84	
+R64	AGE_IS Arg1:T86 Arg2:T31	
+R65	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R66	ORIGINS_FROM Arg1:T35 Arg2:T22	
+R67	ORIGINS_FROM Arg1:T79 Arg2:T35	
+R68	ALTERNATIVE_NAME Arg1:T79 Arg2:T36	
+R69	PLACE_RESIDES_IN Arg1:T37 Arg2:T38	
+R70	LOCATED_IN Arg1:T37 Arg2:T41	
+R71	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R72	PARTICIPANT_IN Arg1:T37 Arg2:T42	
+R73	PARTICIPANT_IN Arg1:T37 Arg2:T90	
+R74	TAKES_PLACE_IN Arg1:T90 Arg2:T43	
+R75	LOCATED_IN Arg1:T93 Arg2:T92	
+R76	LOCATED_IN Arg1:T92 Arg2:T45	
+R77	PARTICIPANT_IN Arg1:T95 Arg2:T94	
+R78	POINT_IN_TIME Arg1:T94 Arg2:T44	
+R79	TAKES_PLACE_IN Arg1:T94 Arg2:T93	
+R80	PARTICIPANT_IN Arg1:T37 Arg2:T94	
+R81	AGENT Arg1:T56 Arg2:T61	
+R82	LOCATED_IN Arg1:T64 Arg2:T65	
+R83	WORKS_AS Arg1:T84 Arg2:T85	
+R84	ALTERNATIVE_NAME Arg1:T84 Arg2:T86	
+R85	LOCATED_IN Arg1:T43 Arg2:T41	
+T57	EVENT 1806 1809	Суд
+R86	PARTICIPANT_IN Arg1:T37 Arg2:T57	
+R87	START_TIME Arg1:T57 Arg2:T46	
+T69	PENALTY 236 242	тюрьмы
+T60	PENALTY 792 798	тюрьмы
+T87	EVENT 1600 1608	вернулся
+R88	PARTICIPANT_IN Arg1:T37 Arg2:T87	
+R89	TAKES_PLACE_IN Arg1:T87 Arg2:T41	
+R90	POINT_IN_TIME Arg1:T87 Arg2:T89	
+R91	TAKES_PLACE_IN Arg1:T42 Arg2:T41	
+N4	Reference T12 Wikidata:Q605714	Донбасс
+N5	Reference T16 Wikidata:Q17338724	Андреа Роккелли
+N9	Reference T23 Wikidata:Q6259	Павия
+N10	Reference T25 Wikidata:Q44806	украинцы
+N11	Reference T26 Wikidata:Q600751	прокурор
+N13	Reference T30 Wikidata:Q40348	адвокат
+N14	Reference T35 Wikidata:Q50001	итальянцы
+N17	Reference T43 Wikidata:Q33581	Славянск
+N18	Reference T49 Wikidata:Q652	итальянский язык
+N19	Reference T53 Wikidata:Q1250916	воин
+N21	Reference T67 Wikidata:Q1930187	журналист
+N25	Reference T92 Wikidata:Q1891	Болонья
+N27	Reference T95 Wikidata:Q54852	Карабинеры Италии
+N26	Reference T93 Wikidata:Q389241	
+N16	Reference T37 Wikidata:NULL	нет данных
+N30	Reference T24 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:Q17338724	Андреа Роккелли
+N12	Reference T28 Wikidata:Q121842	французы
+N31	Reference T29 Wikidata:NULL	нет данных
+N29	Reference T76 Wikidata:Q837675	
+N24	Reference T77 Wikidata:Q13368786	
+N8	Reference T22 Wikidata:Q38	Италия
+N23	Reference T73 Wikidata:NULL	нет данных
+N22	Reference T71 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:Q492468	россияне
+N7	Reference T18 Wikidata:NULL	нет данных
+N28	Reference T100 Wikidata:NULL	нет данных
+N20	Reference T64 Wikidata:Q181386	
+N32	Reference T98 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q50001	итальянцы
+N1	Reference T5 Wikidata:Q212	Украина
+N2	Reference T6 Wikidata:Q38	Италия
+N33	Reference T4 Wikidata:Q6259	Павия
+N34	Reference T34 Wikidata:Q44806	украинцы
+N35	Reference T78 Wikidata:Q600751	прокурор
+N36	Reference T19 Wikidata:Q33581	Славянск
+N37	Reference T56 Wikidata:Q652	итальянский язык
+N38	Reference T50 Wikidata:Q1250916	воин
+N39	Reference T80 Wikidata:Q1250916	воин
+N40	Reference T85 Wikidata:Q1250916	воин
+N41	Reference T55 Wikidata:Q1930187	журналист
+N42	Reference T15 Wikidata:Q1930187	журналист
+N43	Reference T88 Wikidata:Q1930187	журналист
+N44	Reference T58 Wikidata:Q1930187	журналист
+N45	Reference T82 Wikidata:Q1930187	журналист
+N46	Reference T27 Wikidata:NULL	нет данных
+N47	Reference T84 Wikidata:NULL	нет данных
+N48	Reference T86 Wikidata:NULL	нет данных
+N49	Reference T9 Wikidata:NULL	нет данных
+N50	Reference T79 Wikidata:Q17338724	Андреа Роккелли
+N51	Reference T40 Wikidata:Q38	Италия
+N52	Reference T38 Wikidata:Q38	Италия
+N53	Reference T32 Wikidata:Q38	Италия
+N54	Reference T45 Wikidata:Q38	Италия
+N55	Reference T1 Wikidata:Q38	Италия
+N56	Reference T103 Wikidata:NULL	нет данных
+N57	Reference T97 Wikidata:NULL	нет данных
+N58	Reference T96 Wikidata:NULL	нет данных
+N59	Reference T8 Wikidata:Q212	Украина
+N60	Reference T20 Wikidata:Q212	Украина
+N61	Reference T65 Wikidata:Q212	Украина
+N62	Reference T33 Wikidata:Q212	Украина
+N63	Reference T2 Wikidata:Q212	Украина
+N64	Reference T41 Wikidata:Q212	Украина
+N65	Reference T21 Wikidata:Q212	Украина
+N66	Reference T7 Wikidata:Q38	Италия

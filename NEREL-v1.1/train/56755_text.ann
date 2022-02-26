@@ -1,0 +1,142 @@
+T1	PROFESSION 0 10	Экономисты
+T2	ORGANIZATION 68 89	Университет Барселоны
+T3	COUNTRY 101 110	испанских
+T4	ORGANIZATION 136 156	Правительству страны
+T5	MONEY 241 249	625 евро
+T6	COUNTRY 288 295	Испании
+T7	PERSON 426 441	Джорди Аркаронс
+T8	PERSON 443 457	Jordi Arcarons
+T9	PROFESSION 459 509	профессор Кафедры экономики Университета Барселоны
+T10	ORGANIZATION 487 509	Университета Барселоны
+T11	ORGANIZATION 511 535	Universidad de Barcelona
+T12	PROFESSION 538 580	профессор экономики и социального развития
+T13	PERSON 603 617	Антони Доменеч
+T14	PERSON 619 634	Antoni Domènech
+T15	PROFESSION 637 678	профессор экономики и предпринимательства
+T16	PROFESSION 680 708	Президент Сети базовой ренты
+T17	ORGANIZATION 710 726	Red Renta Básica
+T18	PERSON 728 743	Даньел Равентос
+T19	PERSON 745 760	Daniel Raventós
+T20	PERSON 764 777	Льюис Торренс
+T21	PROFESSION 780 793	преподаватель
+T22	ORGANIZATION 820 847	Университета Помпеу и Фабра
+T23	ORGANIZATION 849 873	Universidad Pompeu Fabra
+T24	ORGANIZATION 876 879	UPF
+T25	PROFESSION 883 919	глава исследовательского центра IESE
+T26	ORGANIZATION 915 919	IESE
+T27	MONEY 1117 1131	7.5 тысяч евро
+T28	COUNTRY 1212 1219	Испании
+T29	AGE 1220 1233	старше 18 лет
+T30	PERCENT 1454 1457	10%
+T31	ORGANIZATION 1507 1531	Министерства образования
+T32	ORGANIZATION 1692 1734	Министерства здравоохранения и образования
+T34	DATE 1861 1875	ежегодно в мае
+T35	COUNTRY 11 18	Испании
+T36	PROFESSION 57 66	студентов
+T37	PROFESSION 0 18	Экономисты Испании
+T38	CITY 80 89	Барселоны
+T39	PROFESSION 111 122	экономистов
+T40	PROFESSION 101 122	испанских экономистов
+T41	PROFESSION 184 193	студентам
+T42	ORGANIZATION 469 509	Кафедры экономики Университета Барселоны
+T43	PROFESSION 459 468	профессор
+T44	CITY 500 509	Барселоны
+T45	PROFESSION 538 547	профессор
+T46	PROFESSION 637 646	профессор
+T47	ORGANIZATION 690 708	Сети базовой ренты
+T48	ORGANIZATION 794 847	Школы Предпринимательства Университета Помпеу и Фабра
+T49	PROFESSION 780 847	преподаватель Школы Предпринимательства Университета Помпеу и Фабра
+T50	PROFESSION 1202 1211	студентов
+T51	PROFESSION 1032 1041	студентов
+T53	ORGANIZATION 1507 1539	Министерства образования Испании
+T54	COUNTRY 1532 1539	Испании
+T55	ORGANIZATION 1692 1742	Министерства здравоохранения и образования Испании
+T56	COUNTRY 1735 1742	Испании
+T57	LAW 1813 1833	Декларации о доходах
+T58	LAW 1835 1839	IRPF
+T59	DATE 1870 1875	в мае
+R1	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R2	ABBREVIATION Arg1:T23 Arg2:T24	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R4	WORKS_AS Arg1:T7 Arg2:T9	
+R5	WORKPLACE Arg1:T7 Arg2:T42	
+R6	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R7	ALTERNATIVE_NAME Arg1:T47 Arg2:T17	
+R8	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R9	WORKS_AS Arg1:T20 Arg2:T49	
+R10	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R11	WORKS_AS Arg1:T13 Arg2:T12	
+R12	WORKS_AS Arg1:T18 Arg2:T15	
+R13	WORKS_AS Arg1:T18 Arg2:T16	
+R14	WORKPLACE Arg1:T20 Arg2:T48	
+R15	ABBREVIATION Arg1:T57 Arg2:T58	
+R16	ORIGINS_FROM Arg1:T37 Arg2:T35	
+R17	ABBREVIATION Arg1:T2 Arg2:T38	
+R18	ORIGINS_FROM Arg1:T40 Arg2:T3	
+R19	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R20	WORKPLACE Arg1:T9 Arg2:T42	
+R21	HEADQUARTERED_IN Arg1:T10 Arg2:T44	
+T33	CITY 526 535	Barcelona
+R22	ALTERNATIVE_NAME Arg1:T44 Arg2:T33	
+R23	HEADQUARTERED_IN Arg1:T11 Arg2:T33	
+R24	WORKPLACE Arg1:T13 Arg2:T10	
+R25	WORKPLACE Arg1:T49 Arg2:T48	
+R26	PLACE_RESIDES_IN Arg1:T50 Arg2:T28	
+R27	AGE_IS Arg1:T50 Arg2:T29	
+R28	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R29	HEADQUARTERED_IN Arg1:T55 Arg2:T56	
+R30	PART_OF Arg1:T42 Arg2:T10	
+R31	PART_OF Arg1:T48 Arg2:T22	
+R32	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+N12	Reference T38 Wikidata:Q1492	Барселона
+N13	Reference T39 Wikidata:Q188094	экономист
+N15	Reference T41 Wikidata:Q3205563	Студент
+N17	Reference T46 Wikidata:Q121594	профессор
+N11	Reference T37 Wikidata:Q6504188	
+N14	Reference T40 Wikidata:Q6504188	
+N22	Reference T3 Wikidata:Q29	Испания
+N23	Reference T7 Wikidata:NULL	нет данных
+N16	Reference T42 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:NULL	нет данных
+N24	Reference T58 Wikidata:Q179222	
+N10	Reference T32 Wikidata:NULL	
+N21	Reference T55 Wikidata:NULL	нет данных
+N9	Reference T31 Wikidata:Q2269756	министерство образования
+N25	Reference T53 Wikidata:Q10906245	
+N26	Reference T26 Wikidata:Q705316	
+N27	Reference T25 Wikidata:NULL	нет данных
+N28	Reference T24 Wikidata:Q24543	
+N19	Reference T48 Wikidata:NULL	нет данных
+N20	Reference T49 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q8353655	
+N18	Reference T47 Wikidata:Q10509128	
+N5	Reference T16 Wikidata:NULL	нет данных
+N29	Reference T15 Wikidata:NULL	нет данных
+N30	Reference T13 Wikidata:Q5697535	
+N4	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q219615	
+N1	Reference T4 Wikidata:Q1194749	
+N8	Reference T21 Wikidata:Q1569495	преподаватель
+N31	Reference T44 Wikidata:Q1492	Барселона
+N32	Reference T33 Wikidata:Q1492	Барселона
+N33	Reference T1 Wikidata:Q188094	экономист
+N34	Reference T36 Wikidata:Q3205563	Студент
+N35	Reference T50 Wikidata:Q3205563	Студент
+N36	Reference T51 Wikidata:Q3205563	Студент
+N37	Reference T45 Wikidata:Q121594	профессор
+N38	Reference T43 Wikidata:Q121594	профессор
+N39	Reference T56 Wikidata:Q29	Испания
+N40	Reference T35 Wikidata:Q29	Испания
+N41	Reference T54 Wikidata:Q29	Испания
+N42	Reference T28 Wikidata:Q29	Испания
+N43	Reference T6 Wikidata:Q29	Испания
+N44	Reference T8 Wikidata:NULL	нет данных
+N45	Reference T57 Wikidata:Q179222	
+N46	Reference T22 Wikidata:Q24543	
+N47	Reference T23 Wikidata:Q24543	
+N48	Reference T19 Wikidata:Q8353655	
+N49	Reference T17 Wikidata:Q10509128	
+N50	Reference T14 Wikidata:Q5697535	
+N51	Reference T10 Wikidata:Q219615	
+N52	Reference T2 Wikidata:Q219615	

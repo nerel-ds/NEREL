@@ -1,0 +1,78 @@
+T1	CITY 2 11	Кливленде
+T2	NUMBER 23 26	три
+T3	DATE 56 72	десять лет назад
+T4	CITY 73 81	Кливленд
+T5	NUMBER 82 85	Три
+T6	DATE 95 120	на протяжении десятилетия
+T7	CITY 168 177	Кливленде
+T8	NUMBER 226 230	трех
+T9	PERSON 240 252	Аманды Берри
+T10	PERSON 254 268	Джины Деджезус
+T11	PERSON 271 282	Мишель Найт
+T12	NUMBER 352 356	трёх
+T14	AGE 557 566	52-летний
+T15	PERSON 567 580	Ариэль Кастро
+T16	PERSON 721 733	Аманда Берри
+T17	PERSON 778 783	Берри
+T18	DATE 792 803	в 2003 году
+T19	AGE 806 815	16-летнем
+T20	PERSON 864 872	Деджезус
+T21	AGE 888 894	14 лет
+T22	DATE 914 925	годом позже
+T23	AGE 958 967	20-летнюю
+T25	ORGANIZATION 193 200	полиции
+T26	ORGANIZATION 333 340	Полиция
+T27	PERSON 590 596	Кастро
+T28	ORGANIZATION 768 775	полицию
+T29	PERSON 968 972	Найт
+T30	EVENT 36 55	пропавшие без вести
+R1	POINT_IN_TIME Arg1:T30 Arg2:T3	
+T31	EVENT 133 153	пропавшими без вести
+T32	EVENT 12 34	обнаружены три женщины
+R2	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+T33	EVENT 155 165	обнаружены
+R3	TAKES_PLACE_IN Arg1:T33 Arg2:T7	
+R4	PARTICIPANT_IN Arg1:T9 Arg2:T31	
+R5	PARTICIPANT_IN Arg1:T10 Arg2:T31	
+R6	PARTICIPANT_IN Arg1:T11 Arg2:T31	
+R7	PARTICIPANT_IN Arg1:T9 Arg2:T33	
+R8	PARTICIPANT_IN Arg1:T10 Arg2:T33	
+R9	PARTICIPANT_IN Arg1:T11 Arg2:T33	
+R10	AGE_IS Arg1:T15 Arg2:T14	
+R11	ALTERNATIVE_NAME Arg1:T15 Arg2:T27	
+T34	EVENT 526 546	обнаружены пропавшие
+R13	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+T35	EVENT 784 791	пропала
+R14	ABBREVIATION Arg1:T31 Arg2:T35	
+R15	PARTICIPANT_IN Arg1:T17 Arg2:T35	
+R16	POINT_IN_TIME Arg1:T35 Arg2:T18	
+R17	AGE_IS Arg1:T17 Arg2:T19	
+R18	AGE_IS Arg1:T20 Arg2:T21	
+T36	EVENT 896 913	пропала без вести
+R19	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R20	POINT_IN_TIME Arg1:T36 Arg2:T22	
+R21	PARTICIPANT_IN Arg1:T20 Arg2:T36	
+R22	ALTERNATIVE_NAME Arg1:T10 Arg2:T20	
+R23	AGE_IS Arg1:T29 Arg2:T23	
+T24	DATE 1001 1012	в 2002 году
+R24	ALTERNATIVE_NAME Arg1:T11 Arg2:T29	
+R12	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+T13	EVENT 341 351	арестовала
+R25	AGENT Arg1:T26 Arg2:T13	
+R26	HAS_CAUSE Arg1:T13 Arg2:T33	
+R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+N1	Reference T7 Wikidata:Q37320	Кливленд
+N5	Reference T26 Wikidata:Q35535	полиция
+N2	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q94518902	
+N4	Reference T16 Wikidata:NULL	нет данных
+N6	Reference T27 Wikidata:Q24054499	
+N7	Reference T1 Wikidata:Q37320	Кливленд
+N8	Reference T4 Wikidata:Q37320	Кливленд
+N9	Reference T28 Wikidata:Q35535	полиция
+N10	Reference T25 Wikidata:Q35535	полиция
+N11	Reference T20 Wikidata:NULL	нет данных
+N12	Reference T29 Wikidata:Q94518902	
+N13	Reference T17 Wikidata:NULL	нет данных
+N14	Reference T9 Wikidata:NULL	нет данных
+N15	Reference T15 Wikidata:Q24054499	

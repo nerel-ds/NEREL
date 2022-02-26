@@ -1,0 +1,135 @@
+T1	EVENT 0 7	Концерт
+T2	ORGANIZATION 8 22	Rolling Stones
+T3	CITY 25 31	Гаване
+T4	NUMBER 39 48	500 тысяч
+T5	ORGANIZATION 58 76	The Rolling Stones
+T6	ORGANIZATION 113 131	The Rolling Stones
+T7	CITY 136 142	Гавене
+T8	NUMBER 150 162	до 500 тысяч
+T9	COUNTRY 206 210	Кубе
+T10	EVENT 221 230	революции
+T11	DATE 249 260	в 1959 году
+T12	ORGANIZATION 387 401	Rolling Stones
+T13	COUNTRY 438 442	Куба
+T14	ORGANIZATION 516 530	Rolling Stones
+T17	CITY 708 714	Гаване
+T18	NUMBER 742 757	до полумиллиона
+T19	PERSON 860 871	Мик Джаггер
+T20	NUMBER 1009 1013	один
+T21	AGE 1027 1036	62-летний
+T22	PERSON 1037 1049	Хоакин Ортис
+T23	DATE 1067 1080	в 1960-е годы
+T24	COUNTRY 1154 1158	Кубы
+T25	NATIONALITY 1194 1206	американским
+T26	NATIONALITY 1209 1219	британским
+T27	ORGANIZATION 1272 1283	The Beatles
+T28	ORGANIZATION 1290 1308	The Rolling Stones
+T29	NATIONALITY 1350 1359	кубинских
+T30	ORGANIZATION 1415 1429	Rolling Stones
+T31	PERSON 1439 1445	Хоакин
+T32	NATIONALITY 1458 1465	кубинцы
+T33	ORGANIZATION 1527 1541	Rolling Stones
+T34	CITY 1554 1560	Гавану
+T35	DATE 1578 1591	через два дня
+T36	PERSON 1630 1635	Обамы
+T37	DATE 1655 1682	более чем пяти десятилетиям
+T38	COUNTRY 1705 1708	США
+T39	COUNTRY 1711 1716	Кубой
+T40	PERSON 1758 1765	Джаггер
+T42	CITY 2029 2035	Гаване
+T43	COUNTRY 2102 2111	кубинских
+T44	COUNTRY 2211 2215	Кубу
+T45	DATE 77 95	25 марта 2016 года
+T46	WORK_OF_ART 321 339	Time Is On My Side
+T47	WORK_OF_ART 343 365	Время работает на меня
+T15	TIME 639 656	в пятницу вечером
+T16	WORK_OF_ART 906 924	Jumpin’ Jack Flash
+T48	EVENT 946 953	концерт
+T49	PROFESSION 1360 1372	исполнителей
+T41	DATE 1801 1827	за последние несколько лет
+T50	EVENT 1928 1935	концерт
+T51	PROFESSION 2197 2207	музыкантов
+T52	EVENT 2023 2026	шоу
+T53	EVENT 1623 1629	визита
+T54	EVENT 698 705	концерт
+T55	IDEOLOGY 551 567	коммунистическом
+T56	IDEOLOGY 620 630	социализма
+T57	IDEOLOGY 1123 1139	коммунистическое
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T3	
+T58	EVENT 96 103	концерт
+R2	POINT_IN_TIME Arg1:T58 Arg2:T45	
+R3	ORGANIZES Arg1:T2 Arg2:T1	
+R4	ORGANIZES Arg1:T6 Arg2:T58	
+R5	TAKES_PLACE_IN Arg1:T58 Arg2:T7	
+R6	LOCATED_IN Arg1:T7 Arg2:T9	
+R7	POINT_IN_TIME Arg1:T10 Arg2:T11	
+R8	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+R9	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R10	TAKES_PLACE_IN Arg1:T54 Arg2:T17	
+R11	PARTICIPANT_IN Arg1:T19 Arg2:T48	
+R12	AGE_IS Arg1:T22 Arg2:T21	
+R13	TAKES_PLACE_IN Arg1:T52 Arg2:T42	
+R14	ORGANIZES Arg1:T14 Arg2:T54	
+R15	AGENT Arg1:T36 Arg2:T53	
+R16	LOCATED_IN Arg1:T42 Arg2:T44	
+R17	PRODUCES Arg1:T12 Arg2:T46	
+R18	IDEOLOGY_OF Arg1:T13 Arg2:T55	
+R19	IDEOLOGY_OF Arg1:T13 Arg2:T56	
+T59	DATE 641 648	пятницу
+R20	POINT_IN_TIME Arg1:T54 Arg2:T59	
+R21	WORKPLACE Arg1:T19 Arg2:T14	
+R22	PRODUCES Arg1:T14 Arg2:T16	
+R23	IDEOLOGY_OF Arg1:T24 Arg2:T57	
+R24	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R25	ALTERNATIVE_NAME Arg1:T22 Arg2:T31	
+R26	LOCATED_IN Arg1:T34 Arg2:T24	
+R27	TAKES_PLACE_IN Arg1:T53 Arg2:T34	
+R28	POINT_IN_TIME Arg1:T53 Arg2:T35	
+T60	DATE 1561 1570	в четверг
+T61	EVENT 1544 1551	прибыли
+R29	AGENT Arg1:T33 Arg2:T61	
+R30	TAKES_PLACE_IN Arg1:T61 Arg2:T34	
+R31	POINT_IN_TIME Arg1:T61 Arg2:T60	
+R32	ALTERNATIVE_NAME Arg1:T19 Arg2:T40	
+R33	ALTERNATIVE_NAME Arg1:T50 Arg2:T52	
+R34	ALTERNATIVE_NAME Arg1:T43 Arg2:T44	
+R35	ORIGINS_FROM Arg1:T49 Arg2:T29	
+R36	ALTERNATIVE_NAME Arg1:T29 Arg2:T32	
+T62	ORGANIZATION 1140 1158	правительство Кубы
+R37	IDEOLOGY_OF Arg1:T62 Arg2:T57	
+R38	HEADQUARTERED_IN Arg1:T62 Arg2:T24	
+N1	Reference T5 Wikidata:Q11036	The Rolling Stones
+N2	Reference T7 Wikidata:Q1563	Гавана
+N3	Reference T9 Wikidata:Q241	Куба
+N4	Reference T19 Wikidata:Q128121	Мик Джаггер
+N7	Reference T27 Wikidata:Q1299	The Beatles
+N9	Reference T36 Wikidata:Q76	Барак Обама
+N10	Reference T38 Wikidata:Q30	США
+N11	Reference T42 Wikidata:Q1563	Гавана
+N12	Reference T46 Wikidata:Q1941467	Stay On My Side Tonight
+N13	Reference T16 Wikidata:Q1477141	Jumpin’ Jack Flash
+N14	Reference T49 Wikidata:Q713200	исполнитель
+N15	Reference T51 Wikidata:Q639669	музыкант
+N16	Reference T22 Wikidata:NULL	нет данных
+N8	Reference T29 Wikidata:Q1195125	
+N5	Reference T25 Wikidata:Q846570	
+N6	Reference T26 Wikidata:Q842438	британцы
+N17	Reference T14 Wikidata:Q11036	The Rolling Stones
+N18	Reference T33 Wikidata:Q11036	The Rolling Stones
+N19	Reference T12 Wikidata:Q11036	The Rolling Stones
+N20	Reference T2 Wikidata:Q11036	The Rolling Stones
+N21	Reference T28 Wikidata:Q11036	The Rolling Stones
+N22	Reference T30 Wikidata:Q11036	The Rolling Stones
+N23	Reference T6 Wikidata:Q11036	The Rolling Stones
+N24	Reference T43 Wikidata:Q241	Куба
+N25	Reference T44 Wikidata:Q241	Куба
+N26	Reference T13 Wikidata:Q241	Куба
+N27	Reference T39 Wikidata:Q241	Куба
+N28	Reference T24 Wikidata:Q241	Куба
+N29	Reference T40 Wikidata:Q128121	Мик Джаггер
+N30	Reference T3 Wikidata:Q1563	Гавана
+N31	Reference T34 Wikidata:Q1563	Гавана
+N32	Reference T17 Wikidata:Q1563	Гавана
+N33	Reference T47 Wikidata:Q1941467	Stay On My Side Tonight
+N34	Reference T31 Wikidata:NULL	нет данных
+N35	Reference T32 Wikidata:Q1195125	

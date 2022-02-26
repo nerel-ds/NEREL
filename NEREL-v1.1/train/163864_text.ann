@@ -1,0 +1,115 @@
+T1	COUNTRY 0 6	Сербия
+T2	COUNTRY 27 38	Коста-Рикой
+T3	EVENT 42 44	ЧМ
+T4	COUNTRY 50 60	Коста-Рика
+T5	COUNTRY 63 69	Сербия
+T6	COUNTRY 96 102	Сербии
+T7	COUNTRY 122 132	Коста-Рики
+T8	NUMBER 143 144	1
+T9	EVENT 151 153	ЧМ
+T10	FACILITY 172 184	Самара Арена
+T11	COUNTRY 199 205	Сербии
+T12	PROFESSION 212 220	защитник
+T13	ORGANIZATION 222 228	Зенита
+T14	AGE 230 239	34-летний
+T15	PERSON 240 258	Бранислав Иванович
+T16	ORDINAL 329 334	104-й
+T18	PERSON 369 385	Деяну Станковичу
+T21	PERSON 431 449	Александар Коларов
+T22	ORDINAL 479 485	первым
+T24	EVENT 543 545	ЧМ
+T25	COUNTRY 554 563	Югославию
+T26	PERSON 573 590	Синиша Михайлович
+T27	EVENT 610 612	ЧМ
+T28	COUNTRY 635 641	Сербия
+T29	ORDINAL 651 657	первую
+T30	COUNTRY 702 712	Коста-Рики
+T31	COUNTRY 732 740	Бразилии
+T32	FACILITY 762 773	Крестовский
+T33	COUNTRY 778 784	Сербия
+T34	FACILITY 799 810	Калининград
+T35	COUNTRY 818 827	Швейцарии
+T37	EVENT 42 49	ЧМ-2018
+T38	EVENT 151 158	ЧМ-2018
+T39	EVENT 610 617	ЧМ-1998
+T40	DATE 45 49	2018
+T41	DATE 154 158	2018
+T42	DATE 613 617	1998
+T43	DATE 741 748	22 июня
+T44	DATE 70 87	17 июня 2018 года
+T46	NUMBER 145 146	0
+T47	CITY 172 178	Самара
+T17	NUMBER 388 400	Единственный
+T20	TIME 411 425	на 57-й минуте
+T48	NATIONALITY 426 430	серб
+T49	NATIONALITY 496 504	сербским
+T50	PROFESSION 505 516	футболистом
+R1	POINT_IN_TIME Arg1:T37 Arg2:T40	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T37	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T37	
+T36	ORGANIZATION 88 102	сборная Сербии
+R4	HEADQUARTERED_IN Arg1:T36 Arg2:T6	
+T51	ORGANIZATION 114 132	сборной Коста-Рики
+R5	HEADQUARTERED_IN Arg1:T51 Arg2:T7	
+R6	POINT_IN_TIME Arg1:T38 Arg2:T41	
+R7	PARTICIPANT_IN Arg1:T51 Arg2:T38	
+R8	PARTICIPANT_IN Arg1:T36 Arg2:T38	
+R9	LOCATED_IN Arg1:T10 Arg2:T47	
+R10	TAKES_PLACE_IN Arg1:T38 Arg2:T10	
+R11	AGE_IS Arg1:T15 Arg2:T14	
+T45	PROFESSION 212 228	защитник «Зенита
+R12	WORKS_AS Arg1:T15 Arg2:T45	
+R13	WORKPLACE Arg1:T15 Arg2:T13	
+R14	ORIGINS_FROM Arg1:T15 Arg2:T11	
+R15	ORIGINS_FROM Arg1:T18 Arg2:T11	
+R16	ORIGINS_FROM Arg1:T21 Arg2:T48	
+T19	DATE 486 495	за 20 лет
+R17	POINT_IN_TIME Arg1:T39 Arg2:T42	
+T23	ORGANIZATION 694 712	сборная Коста-Рики
+R18	HEADQUARTERED_IN Arg1:T23 Arg2:T30	
+T52	ORGANIZATION 724 740	сборной Бразилии
+R19	HEADQUARTERED_IN Arg1:T52 Arg2:T31	
+T53	EVENT 689 693	матч
+R20	PARTICIPANT_IN Arg1:T23 Arg2:T53	
+R21	PARTICIPANT_IN Arg1:T52 Arg2:T53	
+R22	POINT_IN_TIME Arg1:T53 Arg2:T43	
+R23	TAKES_PLACE_IN Arg1:T53 Arg2:T32	
+R24	PARTICIPANT_IN Arg1:T26 Arg2:T39	
+R25	ORIGINS_FROM Arg1:T26 Arg2:T49	
+R26	WORKS_AS Arg1:T26 Arg2:T50	
+R27	PARTICIPANT_IN Arg1:T15 Arg2:T38	
+T54	EVENT 401 410	гол забил
+R28	AGENT Arg1:T21 Arg2:T54	
+R29	POINT_IN_TIME Arg1:T54 Arg2:T20	
+R30	ORIGINS_FROM Arg1:T50 Arg2:T49	
+N2	Reference T10 Wikidata:Q4439099	Самара Арена
+N4	Reference T13 Wikidata:Q29108	Зенит
+N5	Reference T15 Wikidata:Q181921	Бранислав Иванович
+N6	Reference T18 Wikidata:Q192640	Станкович, Деян
+N7	Reference T21 Wikidata:Q211451	Александар Коларов
+N9	Reference T26 Wikidata:Q294351	Михайлович, Синиша
+N10	Reference T30 Wikidata:Q800	Коста-Рика
+N11	Reference T31 Wikidata:Q155	Бразилия
+N12	Reference T32 Wikidata:Q722970	Газпром Арена
+N14	Reference T35 Wikidata:Q165141	сборная Швейцарии по футболу
+N15	Reference T47 Wikidata:Q894	Самара
+N16	Reference T48 Wikidata:Q127885	сербы
+N18	Reference T50 Wikidata:Q937857	футболист
+N19	Reference T36 Wikidata:Q182740	сборная Сербии по футболу
+N21	Reference T23 Wikidata:Q194387	сборная Коста-Рики по футболу
+N22	Reference T52 Wikidata:Q83459	сборная Бразилии по футболу
+N20	Reference T45 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q336286	защитник
+N17	Reference T49 Wikidata:Q127885	сербы
+N13	Reference T34 Wikidata:Q4439098	
+N1	Reference T1 Wikidata:Q182740	сборная Сербии по футболу
+N8	Reference T25 Wikidata:Q188363	
+N23	Reference T7 Wikidata:Q800	Коста-Рика
+N24	Reference T2 Wikidata:Q800	Коста-Рика
+N25	Reference T4 Wikidata:Q800	Коста-Рика
+N26	Reference T51 Wikidata:Q194387	сборная Коста-Рики по футболу
+N27	Reference T5 Wikidata:Q182740	сборная Сербии по футболу
+N28	Reference T33 Wikidata:Q182740	сборная Сербии по футболу
+N29	Reference T11 Wikidata:Q182740	сборная Сербии по футболу
+N30	Reference T28 Wikidata:Q182740	сборная Сербии по футболу
+N31	Reference T6 Wikidata:Q182740	сборная Сербии по футболу

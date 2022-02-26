@@ -1,0 +1,83 @@
+T1	ORGANIZATION 0 14	Комитет Сената
+T2	COUNTRY 31 41	Черногории
+T3	ORGANIZATION 44 48	НАТО
+T4	ORGANIZATION 50 66	Вооружённые силы
+T5	COUNTRY 67 77	Черногории
+T6	ORGANIZATION 78 124	Комитет Сената США по международным отношениям
+T7	COUNTRY 164 174	Черногории
+T8	ORGANIZATION 177 181	НАТО
+T9	ORDINAL 192 198	вторая
+T11	COUNTRY 246 268	югославской республики
+T12	ORGANIZATION 271 278	Комитет
+T13	DATE 301 312	в 2016 году
+T14	ORGANIZATION 317 322	Сенат
+T15	DATE 386 392	на год
+T16	LAW 420 431	Конституции
+T17	COUNTRY 432 435	США
+T18	ORGANIZATION 455 459	НАТО
+T19	NUMBER 499 510	двух третей
+T20	NUMBER 514 517	100
+T21	ORGANIZATION 525 531	Сената
+T22	COUNTRY 579 589	Черногории
+T23	ORGANIZATION 592 596	НАТО
+T24	COUNTRY 644 651	Албании
+T25	COUNTRY 654 662	Хорватии
+T26	DATE 663 674	в 2009 году
+T27	ORGANIZATION 8 14	Сената
+T28	ORGANIZATION 50 77	Вооружённые силы Черногории
+T29	ORGANIZATION 86 96	Сената США
+T30	COUNTRY 93 96	США
+T10	LAW 420 435	Конституции США
+T31	EVENT 15 30	поддержал прием
+R1	AGENT Arg1:T1 Arg2:T31	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T31	
+R3	PARTICIPANT_IN Arg1:T3 Arg2:T31	
+T32	EVENT 125 142	одобрил резолюцию
+R4	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R5	AGENT Arg1:T6 Arg2:T32	
+R6	PARTICIPANT_IN Arg1:T7 Arg2:T32	
+R7	PARTICIPANT_IN Arg1:T8 Arg2:T32	
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+T33	EVENT 283 300	одобрял резолюцию
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R11	POINT_IN_TIME Arg1:T33 Arg2:T13	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T33	
+R13	PARTICIPANT_IN Arg1:T8 Arg2:T33	
+R14	HEADQUARTERED_IN Arg1:T21 Arg2:T17	
+T34	EVENT 637 643	приёма
+R15	PARTICIPANT_IN Arg1:T24 Arg2:T34	
+R16	PARTICIPANT_IN Arg1:T25 Arg2:T34	
+R17	POINT_IN_TIME Arg1:T34 Arg2:T26	
+R9	HEADQUARTERED_IN Arg1:T28 Arg2:T5	
+R18	HEADQUARTERED_IN Arg1:T29 Arg2:T30	
+T35	PROFESSION 207 220	законодателей
+R19	ORIGINS_FROM Arg1:T10 Arg2:T17	
+R20	PART_OF Arg1:T1 Arg2:T27	
+R21	MEMBER_OF Arg1:T24 Arg2:T23	
+R22	MEMBER_OF Arg1:T25 Arg2:T23	
+R23	AGENT Arg1:T12 Arg2:T33	
+N2	Reference T4 Wikidata:Q772547	вооружённые силы
+N3	Reference T5 Wikidata:Q236	Черногория
+N4	Reference T6 Wikidata:Q1806257	Комитет Сената США по международным отношениям
+N5	Reference T16 Wikidata:Q7755	конституция
+N6	Reference T18 Wikidata:Q7184	Организация Североатлантического договора
+N7	Reference T24 Wikidata:Q222	Албания
+N8	Reference T25 Wikidata:Q224	Хорватия
+N10	Reference T28 Wikidata:Q349304	Вооружённые силы Черногории
+N11	Reference T29 Wikidata:Q66096	Сенат США
+N12	Reference T30 Wikidata:Q30	США
+N13	Reference T10 Wikidata:Q11698	конституция США
+N14	Reference T35 Wikidata:Q486839	член парламента
+N1	Reference T1 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:Q66096	Сенат США
+N15	Reference T22 Wikidata:Q236	Черногория
+N16	Reference T7 Wikidata:Q236	Черногория
+N17	Reference T11 Wikidata:Q236	Черногория
+N18	Reference T2 Wikidata:Q236	Черногория
+N19	Reference T12 Wikidata:Q1806257	Комитет Сената США по международным отношениям
+N20	Reference T8 Wikidata:Q7184	Организация Североатлантического договора
+N21	Reference T3 Wikidata:Q7184	Организация Североатлантического договора
+N22	Reference T23 Wikidata:Q7184	Организация Североатлантического договора
+N23	Reference T17 Wikidata:Q30	США
+N24	Reference T14 Wikidata:Q66096	Сенат США
+N25	Reference T21 Wikidata:Q66096	Сенат США

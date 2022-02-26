@@ -1,0 +1,100 @@
+T1	PERSON 0 5	Кисин
+T2	PROFESSION 103 110	пианист
+T3	PERSON 111 124	Евгений Кисин
+T4	EVENT 135 149	Геноциде армян
+T5	EVENT 421 435	Геноциде армян
+T6	EVENT 463 471	брифинга
+T7	PROFESSION 474 555	главным менеджером Международного музыкального фестиваля «Ереванские перспективы»
+T8	EVENT 532 554	Ереванские перспективы
+T9	PERSON 556 571	Соной Ованнисян
+T10	PERSON 584 590	Кисина
+T11	COUNTRY 592 599	Армения
+T12	PERSON 719 728	Ованнисян
+T13	DATE 743 762	в октябре 2021 года
+T14	EVENT 780 789	концертом
+T15	COUNTRY 792 799	Армении
+T16	PERSON 802 815	Евгений Кисин
+T17	DATE 816 827	в 2015 году
+T18	CITY 830 839	Нью-Йорке
+T19	EVENT 857 865	концерте
+T20	AGE 879 888	100-летию
+T21	EVENT 889 903	Геноцида армян
+T22	PERSON 928 936	Комитаса
+T23	WORK_OF_ART 938 945	Журавль
+T25	ORGANIZATION 959 973	New York Times
+T26	DATE 974 987	в том же году
+T27	COUNTRY 1029 1035	Турции
+T28	COUNTRY 1042 1048	Турция
+T29	EVENT 68 82	Геноциде армян
+T30	NATIONALITY 77 82	армян
+T31	NATIONALITY 144 149	армян
+T32	PROFESSION 93 101	музыкант
+T24	PROFESSION 988 995	пианист
+T33	EVENT 1061 1074	Геноцид армян
+T34	NATIONALITY 1069 1074	армян
+T35	NATIONALITY 898 903	армян
+T36	PERSON 763 768	Кисин
+T37	CITY 532 542	Ереванские
+T38	NATIONALITY 430 435	армян
+T39	PROFESSION 447 455	музыкант
+R1	PARTICIPANT_IN Arg1:T30 Arg2:T29	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R3	PARTICIPANT_IN Arg1:T31 Arg2:T4	
+R4	WORKS_AS Arg1:T3 Arg2:T2	
+R5	WORKS_AS Arg1:T3 Arg2:T32	
+R6	PARTICIPANT_IN Arg1:T38 Arg2:T5	
+T40	EVENT 493 554	Международного музыкального фестиваля «Ереванские перспективы
+R7	TAKES_PLACE_IN Arg1:T8 Arg2:T37	
+R8	ALTERNATIVE_NAME Arg1:T40 Arg2:T8	
+R9	WORKPLACE Arg1:T7 Arg2:T40	
+T41	PROFESSION 474 492	главным менеджером
+R10	WORKS_AS Arg1:T9 Arg2:T41	
+R11	WORKPLACE Arg1:T9 Arg2:T40	
+R12	ORIGINS_FROM Arg1:T38 Arg2:T11	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R14	SUBEVENT_OF Arg1:T6 Arg2:T40	
+R15	PARTICIPANT_IN Arg1:T39 Arg2:T6	
+R16	WORKS_AS Arg1:T3 Arg2:T39	
+R17	PARTICIPANT_IN Arg1:T3 Arg2:T6	
+R18	PARTICIPANT_IN Arg1:T39 Arg2:T40	
+R19	PARTICIPANT_IN Arg1:T3 Arg2:T40	
+R20	TAKES_PLACE_IN Arg1:T14 Arg2:T15	
+R21	AGENT Arg1:T36 Arg2:T14	
+R22	POINT_IN_TIME Arg1:T14 Arg2:T13	
+R23	PARTICIPANT_IN Arg1:T35 Arg2:T21	
+R24	AGE_IS Arg1:T21 Arg2:T20	
+R25	PRODUCES Arg1:T22 Arg2:T23	
+R26	PARTICIPANT_IN Arg1:T34 Arg2:T33	
+R27	HAS_CAUSE Arg1:T19 Arg2:T21	
+R28	TAKES_PLACE_IN Arg1:T19 Arg2:T18	
+R29	POINT_IN_TIME Arg1:T19 Arg2:T17	
+R30	PARTICIPANT_IN Arg1:T16 Arg2:T19	
+R31	WORKS_AS Arg1:T16 Arg2:T24	
+R32	PRODUCES Arg1:T16 Arg2:T23	
+N1	Reference T7 Wikidata:Q1776937	Пражская весна
+N2	Reference T11 Wikidata:Q399	Армения
+N4	Reference T16 Wikidata:Q160154	Кисин, Евгений Игоревич
+N6	Reference T22 Wikidata:Q351670	Комитас
+N8	Reference T25 Wikidata:Q9684	The New York Times
+N9	Reference T27 Wikidata:Q43	Турция
+N10	Reference T30 Wikidata:Q79797	армяне
+N11	Reference T24 Wikidata:Q486748	пианист
+N13	Reference T39 Wikidata:Q639669	музыкант
+N12	Reference T37 Wikidata:Q1953	Ереван
+N14	Reference T41 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q60	Нью-Йорк
+N7	Reference T23 Wikidata:NULL	нет данных
+N15	Reference T15 Wikidata:Q399	Армения
+N16	Reference T10 Wikidata:Q160154	Кисин, Евгений Игоревич
+N17	Reference T3 Wikidata:Q160154	Кисин, Евгений Игоревич
+N18	Reference T36 Wikidata:Q160154	Кисин, Евгений Игоревич
+N19	Reference T1 Wikidata:Q160154	Кисин, Евгений Игоревич
+N20	Reference T28 Wikidata:Q43	Турция
+N21	Reference T38 Wikidata:Q79797	армяне
+N22	Reference T31 Wikidata:Q79797	армяне
+N23	Reference T34 Wikidata:Q79797	армяне
+N24	Reference T35 Wikidata:Q79797	армяне
+N25	Reference T2 Wikidata:Q486748	пианист
+N26	Reference T32 Wikidata:Q639669	музыкант
+N27	Reference T9 Wikidata:NULL	нет данных

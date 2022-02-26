@@ -1,0 +1,104 @@
+T1	PROFESSION 0 3	Мэр
+T2	PERSON 12 27	Николай Булакин
+T3	PERSON 40 55	Николай Булакин
+T5	PERSON 88 103	Николай Булакин
+T6	EVENT 112 126	автокатастрофе
+T7	DATE 127 162	в понедельник, 14 октября 2019 года
+T8	AGE 173 179	66 лет
+T9	PERSON 182 189	Булакин
+T10	ORDINAL 208 213	433-м
+T12	FACILITY 231 236	Р-257
+T13	CITY 254 262	Топольки
+T14	DISTRICT 263 282	Минусинского района
+T15	STATE_OR_PROVINCE 285 302	Красноярском крае
+T16	PERSON 305 323	Николай Генрихович
+T17	PRODUCT 365 378	Ford Explorer
+T18	TIME 520 539	Утром в понедельник
+T19	CITY 553 560	Абакане
+T20	NUMBER 570 576	тысячу
+T21	PERSON 587 602	Николай Булакин
+T22	CITY 614 620	Абакан
+T24	NUMBER 662 666	пять
+T25	DATE 721 730	1989 году
+T26	DATE 732 751	В октябре 2018 года
+T27	PROFESSION 810 826	врио губернатора
+T28	NUMBER 860 864	двое
+T29	CITY 4 11	Абакана
+T30	PROFESSION 0 11	Мэр Абакана
+T32	CITY 62 69	Абакана
+T33	PROFESSION 56 69	Глава Абакана
+T34	STATE_OR_PROVINCE 79 86	Хакасии
+T37	EVENT 198 204	аварию
+T11	PROFESSION 448 456	Чиновник
+T39	PROFESSION 540 543	мэр
+T23	DATE 621 632	с 1995 года
+T41	PERSON 752 759	Булакин
+T42	STATE_OR_PROVINCE 827 834	Хакасии
+T31	EVENT 36 39	ДТП
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T31	
+R2	WORKS_AS Arg1:T2 Arg2:T30	
+R3	WORKPLACE Arg1:T2 Arg2:T29	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T6	
+R5	POINT_IN_TIME Arg1:T6 Arg2:T7	
+R6	LOCATED_IN Arg1:T32 Arg2:T34	
+R7	WORKS_AS Arg1:T5 Arg2:T33	
+R8	WORKPLACE Arg1:T5 Arg2:T32	
+R9	AGE_DIED_AT Arg1:T5 Arg2:T8	
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T37	
+R11	TAKES_PLACE_IN Arg1:T37 Arg2:T12	
+R12	LOCATED_IN Arg1:T13 Arg2:T14	
+R13	LOCATED_IN Arg1:T14 Arg2:T15	
+R14	DATE_OF_DEATH Arg1:T5 Arg2:T7	
+R15	PLACE_OF_DEATH Arg1:T5 Arg2:T14	
+T35	DATE 526 539	в понедельник
+R16	WORKPLACE Arg1:T21 Arg2:T22	
+T36	EVENT 544 550;561 566	открыл лицей
+R17	TAKES_PLACE_IN Arg1:T36 Arg2:T19	
+R18	AGENT Arg1:T39 Arg2:T36	
+R19	POINT_IN_TIME Arg1:T36 Arg2:T35	
+T4	PROFESSION 815 826	губернатора
+R20	WORKPLACE Arg1:T30 Arg2:T29	
+R21	WORKPLACE Arg1:T33 Arg2:T32	
+R22	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R23	ALTERNATIVE_NAME Arg1:T6 Arg2:T37	
+R24	ALTERNATIVE_NAME Arg1:T9 Arg2:T16	
+R25	WORKS_AS Arg1:T16 Arg2:T11	
+R26	WORKS_AS Arg1:T16 Arg2:T39	
+R27	ALTERNATIVE_NAME Arg1:T21 Arg2:T41	
+T38	PROFESSION 810 834	врио губернатора Хакасии
+R28	WORKPLACE Arg1:T38 Arg2:T42	
+T40	EVENT 28 33	погиб
+R29	PARTICIPANT_IN Arg1:T2 Arg2:T40	
+R30	SUBEVENT_OF Arg1:T40 Arg2:T31	
+T43	EVENT 104 109	погиб
+R31	PARTICIPANT_IN Arg1:T5 Arg2:T43	
+R32	SUBEVENT_OF Arg1:T43 Arg2:T6	
+R33	POINT_IN_TIME Arg1:T43 Arg2:T7	
+R34	TAKES_PLACE_IN Arg1:T43 Arg2:T12	
+R35	INANIMATE_INVOLVED Arg1:T17 Arg2:T37	
+N1	Reference T5 Wikidata:Q4098713	Николай Генрихович Булакин
+N3	Reference T13 Wikidata:Q27469135	Топольки
+N4	Reference T14 Wikidata:Q2157152	Минусинский район
+N5	Reference T15 Wikidata:Q6563	Красноярский край
+N6	Reference T17 Wikidata:Q598084	Ford Explorer
+N9	Reference T32 Wikidata:Q875	Абакан
+N11	Reference T11 Wikidata:Q382887	чиновник
+N12	Reference T39 Wikidata:Q30185	мэр
+N14	Reference T42 Wikidata:Q6543	Хакасия
+N15	Reference T4 Wikidata:Q132050	губернатор
+N8	Reference T30 Wikidata:NULL	нет данных
+N10	Reference T33 Wikidata:NULL	нет данных
+N2	Reference T12 Wikidata:Q1476440	Енисей
+N13	Reference T41 Wikidata:Q4098713	Николай Генрихович Булакин
+N7	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T38 Wikidata:NULL	нет данных
+N17	Reference T9 Wikidata:Q4098713	Николай Генрихович Булакин
+N18	Reference T16 Wikidata:Q4098713	Николай Генрихович Булакин
+N19	Reference T22 Wikidata:Q875	Абакан
+N20	Reference T19 Wikidata:Q875	Абакан
+N21	Reference T29 Wikidata:Q875	Абакан
+N22	Reference T1 Wikidata:Q30185	мэр
+N23	Reference T34 Wikidata:Q6543	Хакасия
+N24	Reference T3 Wikidata:Q4098713	Николай Генрихович Булакин
+N25	Reference T2 Wikidata:Q4098713	Николай Генрихович Булакин
+N26	Reference T21 Wikidata:Q4098713	Николай Генрихович Булакин

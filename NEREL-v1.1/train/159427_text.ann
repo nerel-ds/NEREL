@@ -1,0 +1,127 @@
+T1	ORGANIZATION 0 2	ИГ
+T2	CITY 54 60	Парижа
+T3	ORGANIZATION 111 132	Исламское государство
+T4	ORGANIZATION 134 136	ИГ
+T5	DATE 151 167	13 мая 2018 года
+T6	CITY 205 211	Париже
+T7	PROFESSION 233 242	лидеру ИГ
+T8	PERSON 243 264	Абу Бакру аль-Багдади
+T10	AGE 274 283	20-летний
+T11	PERSON 284 297	Хамзат Азимов
+T12	COUNTRY 308 315	Франции
+T13	ORGANIZATION 429 433	Amaq
+T14	TIME 448 476	около двух с половиной минут
+T15	LANGUAGE 552 563	французском
+T16	PROFESSION 690 696	халифу
+T17	PERSON 698 709	аль-Багдади
+T18	COUNTRY 796 801	Ираке
+T19	COUNTRY 804 809	Сирии
+T20	PERSON 812 818	Азимов
+T21	COUNTRY 961 968	Франции
+T22	COUNTRY 971 982	французским
+T23	TIME 1190 1204	Вечером 13 мая
+T24	DATE 1198 1204	13 мая
+T25	NUMBER 1266 1272	одного
+T26	NUMBER 1281 1289	четверых
+T27	PERSON 1331 1337	Азимов
+T28	COUNTRY 1359 1366	Франции
+T29	STATE_OR_PROVINCE 1383 1388	Чечне
+T30	DATE 1443 1463	в конце 1990-х годов
+T31	ORGANIZATION 61 68	Полиция
+T32	PROFESSION 71 81	журналисты
+T33	CITY 92 98	Парижа
+T34	EVENT 197 202	резню
+T35	ORGANIZATION 240 242	ИГ
+T9	RELIGION 362 368	ислама
+T36	LANGUAGE 581 589	арабские
+T37	RELIGION 859 868	исламскую
+T38	RELIGION 1033 1042	мусульман
+T39	ORGANIZATION 1084 1097	правительство
+T40	ORDINAL 1163 1169	первый
+T41	PERSON 1205 1211	Азимов
+T42	EVENT 1231 1239	нападать
+T44	EVENT 1275 1280	ранив
+T45	PROFESSION 1318 1329	полицейский
+T46	EVENT 1308 1317	застрелил
+R1	ABBREVIATION Arg1:T3 Arg2:T4	
+R2	WORKPLACE Arg1:T7 Arg2:T35	
+R3	WORKS_AS Arg1:T8 Arg2:T7	
+R4	WORKPLACE Arg1:T8 Arg2:T35	
+R5	AGE_IS Arg1:T11 Arg2:T10	
+R6	RELIGION_OF Arg1:T11 Arg2:T9	
+R7	ALTERNATIVE_NAME Arg1:T8 Arg2:T17	
+R8	WORKS_AS Arg1:T17 Arg2:T16	
+R9	ALTERNATIVE_NAME Arg1:T11 Arg2:T20	
+R10	RELIGION_OF Arg1:T20 Arg2:T37	
+T47	NATIONALITY 971 992	французским гражданам
+R11	ORIGINS_FROM Arg1:T47 Arg2:T22	
+R12	ALTERNATIVE_NAME Arg1:T22 Arg2:T21	
+T48	EVENT 1231 1247	нападать с ножом
+R13	AGENT Arg1:T41 Arg2:T48	
+R14	POINT_IN_TIME Arg1:T48 Arg2:T23	
+T49	EVENT 1275 1295	ранив четверых людей
+T50	NATIONALITY 1347 1366	гражданином Франции
+R17	PLACE_OF_BIRTH Arg1:T27 Arg2:T29	
+R18	ORIGINS_FROM Arg1:T27 Arg2:T50	
+R19	ORIGINS_FROM Arg1:T50 Arg2:T28	
+T51	IDEOLOGY 40 50	террориста
+T52	EVENT 105 110	атаки
+R20	TAKES_PLACE_IN Arg1:T52 Arg2:T33	
+R21	ALTERNATIVE_NAME Arg1:T52 Arg2:T34	
+R22	TAKES_PLACE_IN Arg1:T34 Arg2:T6	
+R23	LOCATED_IN Arg1:T6 Arg2:T12	
+R24	ALTERNATIVE_NAME Arg1:T34 Arg2:T48	
+R25	AGENT Arg1:T45 Arg2:T46	
+R26	PARTICIPANT_IN Arg1:T41 Arg2:T46	
+R27	HAS_CAUSE Arg1:T46 Arg2:T48	
+R28	KNOWS Arg1:T11 Arg2:T15	
+R29	PARTICIPANT_IN Arg1:T11 Arg2:T34	
+R30	IDEOLOGY_OF Arg1:T11 Arg2:T51	
+R31	HEADQUARTERED_IN Arg1:T39 Arg2:T21	
+R32	LOCATED_IN Arg1:T32 Arg2:T33	
+R33	LOCATED_IN Arg1:T31 Arg2:T33	
+T53	EVENT 1261 1265	убив
+T43	EVENT 1261 1272	убив одного
+R15	SUBEVENT_OF Arg1:T43 Arg2:T48	
+R16	SUBEVENT_OF Arg1:T49 Arg2:T48	
+R34	AGENT Arg1:T41 Arg2:T43	
+R35	AGENT Arg1:T41 Arg2:T49	
+T54	RELIGION 111 120	Исламское
+R36	RELIGION_OF Arg1:T3 Arg2:T54	
+R37	ALTERNATIVE_NAME Arg1:T54 Arg2:T9	
+R38	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+N3	Reference T13 Wikidata:Q24609008	Amaq
+N4	Reference T15 Wikidata:Q150	французский язык
+N5	Reference T16 Wikidata:Q65997	халиф
+N7	Reference T18 Wikidata:Q796	Ирак
+N8	Reference T19 Wikidata:Q858	Сирия
+N9	Reference T28 Wikidata:Q142	Франция
+N10	Reference T29 Wikidata:Q5187	Чечня
+N11	Reference T31 Wikidata:Q35535	полиция
+N12	Reference T32 Wikidata:Q1930187	журналист
+N13	Reference T35 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N14	Reference T9 Wikidata:Q432	ислам
+N15	Reference T36 Wikidata:Q13955	арабский язык
+N17	Reference T39 Wikidata:Q7188	правительство
+N1	Reference T6 Wikidata:Q90	Париж
+N2	Reference T7 Wikidata:NULL	нет данных
+N20	Reference T11 Wikidata:Q53337750	
+N6	Reference T17 Wikidata:Q2821724	Абу Бакр аль-Багдади
+N16	Reference T37 Wikidata:Q432	ислам
+N21	Reference T47 Wikidata:Q121842	французы
+N18	Reference T45 Wikidata:Q384593	
+N19	Reference T50 Wikidata:Q121842	французы
+N22	Reference T22 Wikidata:Q142	Франция
+N23	Reference T21 Wikidata:Q142	Франция
+N24	Reference T12 Wikidata:Q142	Франция
+N25	Reference T4 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N26	Reference T1 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N27	Reference T3 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N28	Reference T54 Wikidata:Q432	ислам
+N29	Reference T33 Wikidata:Q90	Париж
+N30	Reference T2 Wikidata:Q90	Париж
+N31	Reference T41 Wikidata:Q53337750	
+N32	Reference T20 Wikidata:Q53337750	
+N33	Reference T27 Wikidata:Q53337750	
+N34	Reference T8 Wikidata:Q2821724	Абу Бакр аль-Багдади
+N35	Reference T38 Wikidata:Q432	ислам

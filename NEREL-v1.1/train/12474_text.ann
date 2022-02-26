@@ -1,0 +1,143 @@
+T1	IDEOLOGY 0 14	Республиканцам
+T2	ORGANIZATION 43 49	сената
+T3	COUNTRY 50 53	США
+T5	ORGANIZATION 94 116	Республиканской партии
+T7	PROFESSION 191 201	сенаторами
+T8	ORGANIZATION 292 295	РБК
+T10	IDEOLOGY 374 384	демократам
+T11	EVENT 433 440	дебатах
+T12	NUMBER 551 555	двое
+T13	IDEOLOGY 556 570	республиканцев
+T14	PROFESSION 572 580;604 609	сенаторы Огайо
+T17	STATE_OR_PROVINCE 604 609	Огайо
+T18	NUMBER 751 757	восемь
+T19	PROFESSION 758 767	сенаторов
+T20	ORGANIZATION 776 789	администрация
+T21	PROFESSION 790 800	президента
+T22	COUNTRY 801 804	США
+T23	PERSON 805 817	Барака Обамы
+T24	ORGANIZATION 846 851	сенат
+T25	ORGANIZATION 852 861	конгресса
+T27	ORGANIZATION 929 934	сенат
+T29	NUMBER 1204 1206	37
+T30	PROFESSION 1207 1216	сенаторов
+T31	NUMBER 1227 1229	59
+T35	PERSON 1303 1322	Дмитрием Медведевым
+T36	PERSON 1325 1339	Бараком Обамой
+T37	CITY 1342 1347	Праге
+T38	DATE 1348 1366	8 апреля 2010 года
+T39	NUMBER 1459 1463	1550
+T40	COUNTRY 1501 1504	США
+T41	COUNTRY 1507 1509	РФ
+T42	ORGANIZATION 1754 1760	сенате
+T43	COUNTRY 1761 1764	США
+T44	NUMBER 1792 1794	67
+T45	PROFESSION 1795 1804	сенаторов
+T9	ORGANIZATION 43 53	сената США
+T46	IDEOLOGY 205 215	демократов
+T47	DATE 238 252	на этой неделе
+T49	IDEOLOGY 321 336	республиканцами
+T50	DATE 424 432	накануне
+T15	STATE_OR_PROVINCE 584 601	Северной Каролины
+T16	PROFESSION 572 601	сенаторы от Северной Каролины
+T51	PROFESSION 572 580	сенаторы
+T52	DATE 687 707	к настоящему времени
+T53	PROFESSION 790 804	президента США
+T54	ORGANIZATION 776 804	администрация президента США
+T55	ORGANIZATION 846 861	сенат конгресса
+T26	DATE 893 918	до рождественских каникул
+T57	EVENT 862 874	ратифицирует
+T58	DATE 920 928	Накануне
+T60	IDEOLOGY 1128 1143	республиканцами
+T33	LAW 1275 1289	договор по СНВ
+T63	ORGANIZATION 1754 1764	сенате США
+T4	LAW 57 69	договору СНВ
+T6	LAW 153 167	соглашению СНВ
+T56	LAW 881 892	договор СНВ
+R1	HEADQUARTERED_IN Arg1:T9 Arg2:T3	
+T64	IDEOLOGY 94 109	Республиканской
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T64	
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R4	IDEOLOGY_OF Arg1:T7 Arg2:T46	
+T48	EVENT 268 281	ратифицирован
+R5	POINT_IN_TIME Arg1:T48 Arg2:T47	
+R6	POINT_IN_TIME Arg1:T11 Arg2:T50	
+R7	ORIGINS_FROM Arg1:T16 Arg2:T15	
+R8	ORIGINS_FROM Arg1:T51 Arg2:T17	
+R9	WORKPLACE Arg1:T23 Arg2:T22	
+R10	WORKS_AS Arg1:T23 Arg2:T53	
+R11	WORKPLACE Arg1:T53 Arg2:T22	
+R12	HEADQUARTERED_IN Arg1:T54 Arg2:T22	
+R13	WORKPLACE Arg1:T23 Arg2:T54	
+R14	POINT_IN_TIME Arg1:T57 Arg2:T26	
+R15	AGENT Arg1:T55 Arg2:T57	
+T28	COUNTRY 977 986	российско
+T65	COUNTRY 987 1000	американского
+R18	ALTERNATIVE_NAME Arg1:T22 Arg2:T65	
+T32	COUNTRY 1252 1261	российско
+T66	COUNTRY 1262 1274	американский
+T34	EVENT 1294 1302	подписан
+R20	TAKES_PLACE_IN Arg1:T34 Arg2:T37	
+R21	POINT_IN_TIME Arg1:T34 Arg2:T38	
+R22	WORKPLACE Arg1:T35 Arg2:T32	
+R23	KNOWS Arg1:T35 Arg2:T36	
+R24	WORKPLACE Arg1:T36 Arg2:T66	
+R25	AGENT Arg1:T35 Arg2:T34	
+R26	AGENT Arg1:T36 Arg2:T34	
+R27	ALTERNATIVE_NAME Arg1:T6 Arg2:T56	
+R28	ALTERNATIVE_NAME Arg1:T56 Arg2:T33	
+R29	ALTERNATIVE_NAME Arg1:T32 Arg2:T41	
+R30	ALTERNATIVE_NAME Arg1:T66 Arg2:T40	
+R31	HEADQUARTERED_IN Arg1:T63 Arg2:T43	
+R32	WORKPLACE Arg1:T45 Arg2:T63	
+R33	IDEOLOGY_OF Arg1:T5 Arg2:T64	
+R34	HEADQUARTERED_IN Arg1:T5 Arg2:T3	
+R35	INANIMATE_INVOLVED Arg1:T6 Arg2:T48	
+R36	PARTICIPANT_IN Arg1:T10 Arg2:T11	
+R37	PARTICIPANT_IN Arg1:T49 Arg2:T11	
+R38	IDEOLOGY_OF Arg1:T51 Arg2:T13	
+R39	PART_OF Arg1:T55 Arg2:T25	
+R40	INANIMATE_INVOLVED Arg1:T56 Arg2:T57	
+R16	INANIMATE_INVOLVED Arg1:T33 Arg2:T34	
+R17	ABBREVIATION Arg1:T66 Arg2:T33	
+R41	PRODUCES Arg1:T32 Arg2:T33	
+N1	Reference T5 Wikidata:Q29468	Республиканская партия
+N2	Reference T8 Wikidata:Q629733	РосБизнесКонсалтинг
+N4	Reference T17 Wikidata:Q1397	Огайо
+N5	Reference T20 Wikidata:Q31728	государственное управление
+N6	Reference T21 Wikidata:Q30461	президент
+N9	Reference T35 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N10	Reference T36 Wikidata:Q76	Барак Обама
+N11	Reference T37 Wikidata:Q1085	Прага
+N12	Reference T41 Wikidata:Q159	Россия
+N13	Reference T43 Wikidata:Q30	США
+N15	Reference T9 Wikidata:Q66096	Сенат США
+N16	Reference T15 Wikidata:Q1454	Северная Каролина
+N18	Reference T53 Wikidata:Q11696	президент США
+N19	Reference T54 Wikidata:Q1355327	Исполнительный офис Президента США
+N21	Reference T56 Wikidata:Q2002064	СНВ-III
+N17	Reference T16 Wikidata:NULL	нет данных
+N3	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T25 Wikidata:Q11268	Конгресс США
+N20	Reference T55 Wikidata:Q66096	Сенат США
+N8	Reference T27 Wikidata:Q66096	Сенат США
+N22	Reference T65 Wikidata:Q30	США
+N14	Reference T45 Wikidata:Q4416090	
+N23	Reference T23 Wikidata:Q76	Барак Обама
+N24	Reference T28 Wikidata:Q159	Россия
+N25	Reference T32 Wikidata:Q159	Россия
+N26	Reference T40 Wikidata:Q30	США
+N27	Reference T66 Wikidata:Q30	США
+N28	Reference T3 Wikidata:Q30	США
+N29	Reference T63 Wikidata:Q66096	Сенат США
+N30	Reference T4 Wikidata:Q2002064	СНВ-III
+N31	Reference T6 Wikidata:Q2002064	СНВ-III
+N32	Reference T33 Wikidata:Q2002064	СНВ-III
+N33	Reference T2 Wikidata:Q66096	Сенат США
+N34	Reference T24 Wikidata:Q66096	Сенат США
+N35	Reference T42 Wikidata:Q66096	Сенат США
+N36	Reference T22 Wikidata:Q30	США
+N37	Reference T51 Wikidata:Q4416090	
+N38	Reference T19 Wikidata:Q4416090	
+N39	Reference T7 Wikidata:Q4416090	
+N40	Reference T30 Wikidata:Q4416090	

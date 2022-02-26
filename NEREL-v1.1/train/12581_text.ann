@@ -1,0 +1,45 @@
+T1	ORGANIZATION 194 226	Российский союз правообладателей
+T2	ORGANIZATION 228 231	РСП
+T3	MONEY 249 268	до 100 млн долларов
+T4	DATE 269 274	в год
+T5	ORGANIZATION 285 288	РБК
+T6	ORGANIZATION 302 305	РСП
+T7	PERSON 321 339	Никитой Михалковым
+T10	PERCENT 553 555	1%
+T11	PROFESSION 757 766	депутатов
+T12	PERSON 778 798	Владиславом Резником
+T13	ORGANIZATION 808 815	Госдуму
+T14	LAW 834 836	ГК
+T15	LAW 847 854	О связи
+T16	DATE 1031 1045	ежеквартальных
+T17	PERCENT 1096 1098	2%
+T18	MONEY 1274 1335	от нескольких десятков до нескольких сотен миллионов долларов
+T8	PRODUCT 727 735	интернет
+T9	PRODUCT 899 907	интернет
+T19	PROFESSION 1068 1077	депутатов
+R1	ABBREVIATION Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T7 Arg2:T6	
+R3	WORKS_AS Arg1:T12 Arg2:T11	
+T20	EVENT 799 805;816 831	внесла проект поправок
+R4	AGENT Arg1:T12 Arg2:T20	
+R5	AGENT Arg1:T11 Arg2:T20	
+R6	PARTICIPANT_IN Arg1:T13 Arg2:T20	
+R7	INCOME Arg1:T1 Arg2:T3	
+R8	INANIMATE_INVOLVED Arg1:T14 Arg2:T20	
+R9	INANIMATE_INVOLVED Arg1:T15 Arg2:T20	
+T21	COUNTRY 194 204	Российский
+R10	HEADQUARTERED_IN Arg1:T1 Arg2:T21	
+N1	Reference T5 Wikidata:Q629733	РосБизнесКонсалтинг
+N2	Reference T7 Wikidata:Q55207	Никита Михалков
+N3	Reference T11 Wikidata:Q486839	член парламента
+N4	Reference T12 Wikidata:Q4392436	Резник, Владислав Матусович
+N5	Reference T13 Wikidata:Q715641	Государственная дума
+N6	Reference T14 Wikidata:Q1923776	Гражданский кодекс
+N7	Reference T8 Wikidata:Q75	Интернет
+N8	Reference T21 Wikidata:Q159	Россия
+N9	Reference T6 Wikidata:Q4398128	
+N10	Reference T15 Wikidata:NULL	нет данных
+N11	Reference T19 Wikidata:Q486839	член парламента
+N12	Reference T9 Wikidata:Q75	Интернет
+N13	Reference T1 Wikidata:Q4398128	
+N14	Reference T2 Wikidata:Q4398128	

@@ -1,0 +1,272 @@
+T1	COUNTRY 2 7	Китае
+T3	ORGANIZATION 37 42	CITIC
+T4	STATE_OR_PROVINCE 73 81	Гонконге
+T5	PERSON 82 91	Ван Цзюнь
+T6	PROFESSION 100 154	председатель китайской инвестиционной корпорации CITIC
+T7	ORGANIZATION 149 154	CITIC
+T8	DATE 166 183	10 июня 2019 года
+T9	AGE 195 201	78 лет
+T10	STATE_OR_PROVINCE 224 230	Хунань
+T11	STATE_OR_PROVINCE 260 269	Синьцзяне
+T12	CITY 279 289	Харбинский
+T13	ORGANIZATION 279 315	Харбинский военно-инженерный колледж
+T14	PROFESSION 325 334	инженером
+T15	LOCATION 338 350	Цзяннаньской
+T17	PROFESSION 414 425	математиком
+T18	PERSON 426 437	Хуа Логэном
+T19	TIME 538 553	в три часа ночи
+T20	ORGANIZATION 571 574	ВМС
+T21	DATE 575 586	с 1979 года
+T22	ORGANIZATION 611 616	CITIC
+T23	PERSON 640 651	Дэн Сяопина
+T24	DATE 684 701	в 1995—2006 годах
+T26	ORGANIZATION 765 770	CITIC
+T27	COUNTRY 803 808	Китая
+T28	PERSON 903 912	Ван Цзюнь
+T29	CITY 945 953	Гонконге
+T30	PERSON 997 1006	Ван Чжэнь
+T32	AGE 1038 1044	14 лет
+T33	DATE 1046 1057	В 1927 году
+T34	AGE 1060 1066	19 лет
+T35	ORGANIZATION 1077 1100	Коммунистическую партию
+T36	ORGANIZATION 1111 1124	Красной армии
+T37	EVENT 1135 1150	Великого похода
+T38	DATE 1151 1168	в 1934—1935 годах
+T39	EVENT 1170 1187	гражданской войны
+T40	ORGANIZATION 1190 1201	Гоминьданом
+T41	COUNTRY 1212 1219	Японией
+T42	STATE_OR_PROVINCE 1259 1267	Синьцзян
+T43	LANGUAGE 1280 1293	тюркоязычными
+T44	NATIONALITY 1366 1372	уйгуры
+T45	NATIONALITY 1374 1380	казахи
+T46	NATIONALITY 1383 1390	русские
+T47	PERSON 1413 1422	Ван Чжэнь
+T48	COUNTRY 1512 1521	китайские
+T49	PROFESSION 1544 1553	генералом
+T50	PROFESSION 1563 1572	министром
+T52	EVENT 1636 1656	Культурной революции
+T53	DATE 1657 1674	в 1966—1976 годах
+T54	PERSON 1699 1710	Мао Цзэдуну
+T55	FACILITY 1806 1817	Тяньаньмэнь
+T56	DATE 1818 1829	в 1989 году
+T57	DATE 1836 1847	в 1993 году
+T58	AGE 1851 1858	85 году
+T59	PERSON 1867 1876	Ван Цзюнь
+T60	PERSON 1895 1902	Е Сяоин
+T61	PROFESSION 1917 1924	маршала
+T62	PERSON 1925 1935	Е Цзяньина
+T63	NUMBER 1952 1955	два
+T64	PERSON 1980 1987	Ван Бин
+T66	LOCATION 2024 2043	Южно-Китайском море
+T67	DATE 2050 2061	в 2014 году
+T68	PERSON 2069 2078	Ван Цзюня
+T69	PERSON 2080 2092	Ван Цзинцзин
+T70	COUNTRY 2117 2126	Австралии
+T71	PROFESSION 2128 2136	директор
+T72	ORGANIZATION 2146 2161	Huixin Yin Tong
+T74	STATE_OR_PROVINCE 2181 2189	Гонконге
+T75	MONEY 2201 2215	7 млн долларов
+T76	PERSON 2225 2234	Ван Цзюня
+T77	PERSON 2236 2244	Клэр Ван
+T78	COUNTRY 2256 2265	Швейцарии
+T79	PROFESSION 2343 2351	генерала
+T80	EVENT 8 12	умер
+T81	PROFESSION 20 42	глава корпорации CITIC
+T82	ORGANIZATION 57 70	CITIC Pacific
+T83	FACILITY 43 70	Штаб-квартира CITIC Pacific
+T86	COUNTRY 113 122	китайской
+T87	EVENT 156 165	скончался
+T88	DATE 231 242	в 1941 году
+T16	IDEOLOGY 1077 1093	Коммунистическую
+T91	EVENT 1204 1209	войны
+T92	IDEOLOGY 1235 1246	коммунистов
+T93	RELIGION 1294 1306	мусульманами
+T94	IDEOLOGY 1324 1336	просоветские
+T95	IDEOLOGY 1337 1348	сепаратисты
+T96	NATIONALITY 1532 1536	хань
+T97	PROFESSION 1574 1599	зампредседателя Госсовета
+T99	PROFESSION 1601 1620	зампредседателя КНР
+T100	PROFESSION 1989 1996	генерал
+T102	PROFESSION 2128 2161	директор компании Huixin Yin Tong
+T104	EVENT 1786 1794	протесты
+T105	ORGANIZATION 2018 2021	ВМС
+T106	PROFESSION 1998 2043	замначальника штаба ВМС в Южно-Китайском море
+T107	ORGANIZATION 2012 2043	штаба ВМС в Южно-Китайском море
+R1	WORKPLACE Arg1:T81 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T81 Arg2:T80	
+R3	TAKES_PLACE_IN Arg1:T80 Arg2:T1	
+R4	HEADQUARTERED_IN Arg1:T82 Arg2:T4	
+R6	ALTERNATIVE_NAME Arg1:T80 Arg2:T87	
+R7	PART_OF Arg1:T83 Arg2:T82	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T82	
+R9	WORKPLACE Arg1:T6 Arg2:T7	
+R10	WORKS_AS Arg1:T5 Arg2:T6	
+R11	HEADQUARTERED_IN Arg1:T7 Arg2:T86	
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T86	
+R13	PARTICIPANT_IN Arg1:T5 Arg2:T87	
+R14	POINT_IN_TIME Arg1:T87 Arg2:T8	
+R15	AGE_DIED_AT Arg1:T5 Arg2:T9	
+R16	DATE_OF_DEATH Arg1:T5 Arg2:T8	
+R17	WORKPLACE Arg1:T5 Arg2:T7	
+R18	LOCATED_IN Arg1:T10 Arg2:T86	
+R22	DATE_OF_BIRTH Arg1:T5 Arg2:T88	
+R23	PLACE_OF_BIRTH Arg1:T5 Arg2:T10	
+R24	PLACE_RESIDES_IN Arg1:T5 Arg2:T11	
+R25	LOCATED_IN Arg1:T11 Arg2:T86	
+R26	HEADQUARTERED_IN Arg1:T13 Arg2:T12	
+R27	SCHOOLS_ATTENDED Arg1:T5 Arg2:T13	
+R28	WORKS_AS Arg1:T5 Arg2:T14	
+R29	LOCATED_IN Arg1:T12 Arg2:T86	
+R30	LOCATED_IN Arg1:T15 Arg2:T86	
+R31	WORKS_AS Arg1:T18 Arg2:T17	
+R32	KNOWS Arg1:T5 Arg2:T18	
+R33	WORKPLACE Arg1:T5 Arg2:T20	
+R34	WORKPLACE Arg1:T5 Arg2:T22	
+R35	PRODUCES Arg1:T5 Arg2:T22	
+R36	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+R37	PARENT_OF Arg1:T30 Arg2:T28	
+R38	IDEOLOGY_OF Arg1:T35 Arg2:T16	
+T25	EVENT 1067 1074	вступил
+R39	PARTICIPANT_IN Arg1:T30 Arg2:T25	
+R40	POINT_IN_TIME Arg1:T25 Arg2:T33	
+R41	PARTICIPANT_IN Arg1:T35 Arg2:T25	
+R42	MEMBER_OF Arg1:T30 Arg2:T35	
+R43	WORKPLACE Arg1:T30 Arg2:T36	
+R44	PARTICIPANT_IN Arg1:T40 Arg2:T39	
+R45	PARTICIPANT_IN Arg1:T30 Arg2:T37	
+R46	POINT_IN_TIME Arg1:T37 Arg2:T38	
+R47	PARTICIPANT_IN Arg1:T30 Arg2:T39	
+R48	PARTICIPANT_IN Arg1:T30 Arg2:T91	
+R49	PARTICIPANT_IN Arg1:T41 Arg2:T91	
+R50	ALTERNATIVE_NAME Arg1:T16 Arg2:T92	
+R51	WORKS_AS Arg1:T47 Arg2:T49	
+R52	WORKS_AS Arg1:T47 Arg2:T50	
+R53	WORKS_AS Arg1:T47 Arg2:T97	
+T31	ORGANIZATION 1590 1599	Госсовета
+R54	WORKPLACE Arg1:T97 Arg2:T31	
+T51	COUNTRY 1617 1620	КНР
+R55	WORKPLACE Arg1:T99 Arg2:T51	
+R56	WORKS_AS Arg1:T47 Arg2:T97	
+R57	WORKS_AS Arg1:T47 Arg2:T99	
+R58	WORKPLACE Arg1:T47 Arg2:T31	
+R59	POINT_IN_TIME Arg1:T52 Arg2:T53	
+T73	EVENT 1777 1794	подавлял протесты
+R60	HAS_CAUSE Arg1:T73 Arg2:T104	
+R61	AGENT Arg1:T47 Arg2:T73	
+R62	TAKES_PLACE_IN Arg1:T104 Arg2:T55	
+R63	POINT_IN_TIME Arg1:T104 Arg2:T56	
+T84	EVENT 1831 1835	Умер
+R64	PARTICIPANT_IN Arg1:T47 Arg2:T84	
+R65	POINT_IN_TIME Arg1:T84 Arg2:T57	
+R66	DATE_OF_DEATH Arg1:T47 Arg2:T57	
+R67	AGE_DIED_AT Arg1:T47 Arg2:T58	
+T85	EVENT 1431 1450	подавил выступления
+R68	AGENT Arg1:T47 Arg2:T85	
+R69	TAKES_PLACE_IN Arg1:T85 Arg2:T42	
+R70	PARTICIPANT_IN Arg1:T95 Arg2:T85	
+R71	SPOUSE Arg1:T59 Arg2:T60	
+R72	PARENT_OF Arg1:T62 Arg2:T60	
+R73	WORKS_AS Arg1:T62 Arg2:T61	
+R74	RELATIVE Arg1:T59 Arg2:T62	
+R75	SIBLING Arg1:T59 Arg2:T64	
+R76	WORKS_AS Arg1:T64 Arg2:T100	
+R77	PART_OF Arg1:T107 Arg2:T105	
+R78	WORKPLACE Arg1:T106 Arg2:T107	
+R79	HEADQUARTERED_IN Arg1:T107 Arg2:T66	
+T65	EVENT 2045 2049	умер
+R80	POINT_IN_TIME Arg1:T65 Arg2:T67	
+R81	WORKS_AS Arg1:T64 Arg2:T106	
+R82	WORKPLACE Arg1:T64 Arg2:T107	
+R83	PARTICIPANT_IN Arg1:T64 Arg2:T65	
+R84	DATE_OF_DEATH Arg1:T64 Arg2:T67	
+R85	PARENT_OF Arg1:T68 Arg2:T69	
+R86	WORKPLACE Arg1:T102 Arg2:T72	
+R87	WORKS_AS Arg1:T69 Arg2:T102	
+R88	PLACE_RESIDES_IN Arg1:T69 Arg2:T74	
+R89	RELATIVE Arg1:T76 Arg2:T77	
+R90	PARENT_OF Arg1:T69 Arg2:T77	
+R5	LOCATED_IN Arg1:T4 Arg2:T1	
+T89	PROFESSION 20 36	глава корпорации
+T2	ORGANIZATION 338 360	Цзяннаньской судоверфи
+R19	HEADQUARTERED_IN Arg1:T2 Arg2:T15	
+R20	WORKPLACE Arg1:T14 Arg2:T2	
+R21	WORKPLACE Arg1:T5 Arg2:T2	
+R91	AGE_IS Arg1:T30 Arg2:T32	
+R92	IDEOLOGY_OF Arg1:T28 Arg2:T16	
+R93	TAKES_PLACE_IN Arg1:T73 Arg2:T55	
+R94	POINT_IN_TIME Arg1:T73 Arg2:T56	
+N2	Reference T10 Wikidata:Q45761	Хунань
+N4	Reference T13 Wikidata:Q23102	Харбинский инженерный университет
+N5	Reference T14 Wikidata:Q81096	инженер
+N7	Reference T17 Wikidata:Q170790	математик
+N8	Reference T23 Wikidata:Q16977	Дэн Сяопин
+N9	Reference T26 Wikidata:Q856322	CITIC
+N10	Reference T27 Wikidata:Q148	Китайская Народная Республика
+N11	Reference T29 Wikidata:Q8646	Гонконг
+N12	Reference T35 Wikidata:Q233591	коммунистическая партия
+N13	Reference T36 Wikidata:Q251395	Рабоче-крестьянская Красная армия
+N14	Reference T40 Wikidata:Q31113	Гоминьдан
+N15	Reference T41 Wikidata:Q17	Япония
+N16	Reference T42 Wikidata:Q34800	Синьцзян-Уйгурский автономный район
+N18	Reference T44 Wikidata:Q46118	уйгуры
+N19	Reference T45 Wikidata:Q80040	казахи
+N21	Reference T47 Wikidata:Q513976	Ван Чжэнь
+N22	Reference T49 Wikidata:Q83460	генерал
+N23	Reference T50 Wikidata:Q83307	министр
+N24	Reference T54 Wikidata:Q5816	Мао Цзэдун
+N25	Reference T55 Wikidata:Q164055	Площадь Тяньаньмэнь
+N29	Reference T62 Wikidata:Q504372	Е Цзяньин
+N31	Reference T66 Wikidata:Q37660	Южно-Китайское море
+N33	Reference T70 Wikidata:Q408	Австралия
+N34	Reference T71 Wikidata:Q484876	главный управляющий
+N36	Reference T74 Wikidata:Q8646	Гонконг
+N38	Reference T78 Wikidata:Q39	Швейцария
+N41	Reference T93 Wikidata:Q47740	мусульманин
+N48	Reference T51 Wikidata:Q148	Китайская Народная Республика
+N50	Reference T2 Wikidata:Q81472	Цзяннаньский судостроительный завод
+N49	Reference T89 Wikidata:NULL	нет данных
+N39	Reference T81 Wikidata:NULL	нет данных
+N26	Reference T59 Wikidata:Q711403	Ван Цзюнь
+N27	Reference T60 Wikidata:NULL	нет данных
+N28	Reference T61 Wikidata:Q111837	маршал
+N30	Reference T64 Wikidata:NULL	нет данных
+N46	Reference T105 Wikidata:Q4508	военно-морской флот
+N51	Reference T107 Wikidata:NULL	нет данных
+N52	Reference T106 Wikidata:NULL	нет данных
+N32	Reference T69 Wikidata:NULL	нет данных
+N35	Reference T72 Wikidata:NULL	нет данных
+N45	Reference T102 Wikidata:NULL	нет данных
+N37	Reference T77 Wikidata:NULL	нет данных
+N47	Reference T31 Wikidata:Q3687335	
+N43	Reference T97 Wikidata:NULL	нет данных
+N44	Reference T99 Wikidata:Q553169	заместитель председателя Китайской Народной Республики
+N42	Reference T96 Wikidata:Q42740	хань
+N20	Reference T46 Wikidata:Q49542	русские
+N17	Reference T43 Wikidata:Q34090	
+N53	Reference T18 Wikidata:Q590111	
+N3	Reference T12 Wikidata:Q42956	
+N40	Reference T83 Wikidata:NULL	нет данных
+N1	Reference T6 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q1367898	
+N54	Reference T22 Wikidata:Q856322	CITIC
+N55	Reference T7 Wikidata:Q856322	CITIC
+N56	Reference T3 Wikidata:Q856322	CITIC
+N57	Reference T82 Wikidata:Q856322	CITIC
+N58	Reference T48 Wikidata:Q148	Китайская Народная Республика
+N59	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N60	Reference T86 Wikidata:Q148	Китайская Народная Республика
+N61	Reference T11 Wikidata:Q34800	Синьцзян-Уйгурский автономный район
+N62	Reference T30 Wikidata:Q513976	Ван Чжэнь
+N63	Reference T100 Wikidata:Q83460	генерал
+N64	Reference T79 Wikidata:Q83460	генерал
+N65	Reference T4 Wikidata:Q8646	Гонконг
+N66	Reference T5 Wikidata:Q711403	Ван Цзюнь
+N67	Reference T28 Wikidata:Q711403	Ван Цзюнь
+N68	Reference T76 Wikidata:Q711403	Ван Цзюнь
+N69	Reference T68 Wikidata:Q711403	Ван Цзюнь
+N70	Reference T20 Wikidata:Q4508	военно-морской флот
+T90	EVENT 204 211	Родился
+R95	PARTICIPANT_IN Arg1:T5 Arg2:T90	
+R96	TAKES_PLACE_IN Arg1:T90 Arg2:T10	
+R97	POINT_IN_TIME Arg1:T90 Arg2:T88	
+R98	RELATIVE Arg1:T77 Arg2:T79	

@@ -1,0 +1,72 @@
+T1	ORGANIZATION 10 20	Бирмингема
+T2	DATE 30 39	шесть лет
+T3	FACILITY 59 70	Сент-Эндрюс
+T4	ORGANIZATION 110 124	Бирмингем Сити
+T5	DATE 126 144	В пятницу, 7 марта
+T7	ORGANIZATION 198 212	Бирмингем Сити
+T8	PERSON 214 226	Карсона Ёнга
+T9	PERSON 228 240	Carson Yeung
+T10	PERSON 273 283	Карсон Юнг
+T11	PERSON 285 294	Карсон Ён
+T12	DATE 298 309	шести годам
+T13	AGE 350 359	54-летний
+T14	MONEY 403 433	55 миллионов фунтов стерлингов
+T16	DATE 461 489	в период с 2001 по 2007 годы
+T17	PERSON 492 502	Карсон Ёнг
+T18	ORGANIZATION 520 530	Бирмингема
+T19	DATE 532 543	в 2009 году
+T20	MONEY 562 594	81,5 миллионов фунтов стерлингов
+R1	OWNER_OF Arg1:T4 Arg2:T3	
+T21	COUNTRY 149 157	Гонконга
+R2	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R3	OWNER_OF Arg1:T8 Arg2:T7	
+T6	EVENT 158 168	приговорил
+R4	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R5	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R6	OWNER_OF Arg1:T17 Arg2:T18	
+R7	PRICE_OF Arg1:T18 Arg2:T20	
+T15	PROFESSION 360 369	бизнесмен
+R8	WORKS_AS Arg1:T8 Arg2:T15	
+R9	AGE_IS Arg1:T15 Arg2:T13	
+R10	AGE_IS Arg1:T8 Arg2:T13	
+R11	OWNER_OF Arg1:T15 Arg2:T14	
+T22	PENALTY 30 46	шесть лет тюрьмы
+R12	POINT_IN_TIME Arg1:T6 Arg2:T5	
+T23	ORGANIZATION 145 157	суд Гонконга
+R13	AGENT Arg1:T23 Arg2:T6	
+R14	PARTICIPANT_IN Arg1:T8 Arg2:T6	
+R15	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+T24	CRIME 334 347	мошенничество
+T25	PENALTY 298 330	шести годам тюремного заключения
+T26	PENALTY 310 330	тюремного заключения
+T27	CRIME 393 433	отмывании 55 миллионов фунтов стерлингов
+R16	HEADQUARTERED_IN Arg1:T23 Arg2:T21	
+T28	CITY 198 207	Бирмингем
+R17	HEADQUARTERED_IN Arg1:T7 Arg2:T28	
+R18	CONVICTED_OF Arg1:T8 Arg2:T24	
+R19	CONVICTED_OF Arg1:T8 Arg2:T27	
+T29	CITY 110 119	Бирмингем
+R20	HEADQUARTERED_IN Arg1:T4 Arg2:T29	
+R21	ALTERNATIVE_NAME Arg1:T22 Arg2:T25	
+T30	PENALTY 40 46	тюрьмы
+R22	ALTERNATIVE_NAME Arg1:T30 Arg2:T26	
+R23	PENALIZED_AS Arg1:T8 Arg2:T26	
+R24	CONVICTED_OF Arg1:T15 Arg2:T27	
+R25	CONVICTED_OF Arg1:T8 Arg2:T27	
+R26	EXPENDITURE Arg1:T17 Arg2:T20	
+T31	CRIME 393 402	отмывании
+N1	Reference T3 Wikidata:Q819179	Сент-Эндрюс
+N4	Reference T21 Wikidata:Q8646	Гонконг
+N5	Reference T15 Wikidata:Q131524	предприниматель
+N7	Reference T29 Wikidata:Q2256	Бирмингем
+N6	Reference T23 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:Q858936	
+N3	Reference T18 Wikidata:Q19444	Бирмингем Сити
+N8	Reference T28 Wikidata:Q2256	Бирмингем
+N9	Reference T8 Wikidata:Q858936	
+N10	Reference T17 Wikidata:Q858936	
+N11	Reference T9 Wikidata:Q858936	
+N12	Reference T11 Wikidata:Q858936	
+N13	Reference T4 Wikidata:Q19444	Бирмингем Сити
+N14	Reference T1 Wikidata:Q19444	Бирмингем Сити
+N15	Reference T7 Wikidata:Q19444	Бирмингем Сити

@@ -1,0 +1,115 @@
+T1	CITY 2 7	Киеве
+T2	FACILITY 72 88	Музее Гетманства
+T3	CITY 91 96	Киеве
+T4	EVENT 134 176	выставка клинкерной керамики и каллиграфии
+T5	EVENT 192 222	Антропоморфия украинской степи
+T6	COUNTRY 283 290	Украины
+T7	COUNTRY 300 310	украинской
+T8	PROFESSION 362 371	керамиста
+T9	PERSON 372 387	Геннадия Фисуна
+T10	PROFESSION 390 400	каллиграфа
+T11	PERSON 401 414	Юрия Антонова
+T12	ORDINAL 458 464	первой
+T13	LOCATION 467 483	восточной Европе
+T14	PRODUCT 498 505	Анагама
+T15	COUNTRY 509 517	японской
+T18	AGE 569 583	семь тысяч лет
+T20	COUNTRY 711 718	Украины
+T21	LOCATION 865 878	донецкий край
+T22	COUNTRY 926 933	Украины
+T23	NATIONALITY 1036 1045	китайским
+T24	COUNTRY 1255 1262	Украины
+T25	PERSON 1552 1566	Геннадий Фисун
+T26	CITY 1725 1734	киевского
+T27	PERSON 1976 1988	Юрий Антонов
+T31	EVENT 37 67	Антропоморфия украинской степи
+T32	DATE 97 119	с 2 по 12 октября 2012
+T33	EVENT 134 142	выставка
+T34	COUNTRY 51 61	украинской
+T35	COUNTRY 206 216	украинской
+T36	LOCATION 477 483	Европе
+T16	PROFESSION 610 619	художники
+T17	LOCATION 659 673	донецкой степи
+T19	EVENT 941 950	церемония
+T37	EVENT 961 991	Антропоморфии украинской степи
+T38	EVENT 941 991	церемония открытия «Антропоморфии украинской степи
+T41	EVENT 951 959	открытия
+T42	LOCATION 1238 1262	Востока нынешней Украины
+T43	EVENT 1293 1318	Украинская чайная горница
+T44	COUNTRY 1293 1303	Украинская
+T45	PROFESSION 1836 1846	художников
+T46	LOCATION 1859 1876	восточной Украины
+T47	COUNTRY 1869 1876	Украины
+T48	EVENT 1992 2009	открытии выставки
+T50	EVENT 2001 2009	выставки
+T51	EVENT 2179 2197	Церемония открытия
+T52	EVENT 2179 2188	Церемония
+T28	WORK_OF_ART 2259 2273	Битва на Калке
+T29	EVENT 2281 2300	Битва на реке Калке
+T54	LOCATION 2295 2300	Калке
+R1	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T2	
+R3	POINT_IN_TIME Arg1:T4 Arg2:T32	
+R4	LOCATED_IN Arg1:T2 Arg2:T3	
+R5	ALTERNATIVE_NAME Arg1:T34 Arg2:T6	
+R6	LOCATED_IN Arg1:T1 Arg2:T34	
+R7	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R8	WORKS_AS Arg1:T9 Arg2:T8	
+R9	WORKS_AS Arg1:T11 Arg2:T10	
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T4	
+R11	PARTICIPANT_IN Arg1:T11 Arg2:T4	
+R12	LOCATED_IN Arg1:T13 Arg2:T36	
+R13	WORKS_AS Arg1:T9 Arg2:T16	
+R14	WORKS_AS Arg1:T11 Arg2:T16	
+R15	LOCATED_IN Arg1:T21 Arg2:T22	
+R16	SUBEVENT_OF Arg1:T38 Arg2:T37	
+R17	LOCATED_IN Arg1:T42 Arg2:T24	
+R18	SUBEVENT_OF Arg1:T48 Arg2:T50	
+R19	ALTERNATIVE_NAME Arg1:T48 Arg2:T51	
+R20	TAKES_PLACE_IN Arg1:T29 Arg2:T54	
+T30	LOCATION 2268 2273	Калке
+R21	ALTERNATIVE_NAME Arg1:T1 Arg2:T26	
+R22	LOCATED_IN Arg1:T17 Arg2:T20	
+R23	ALTERNATIVE_NAME Arg1:T17 Arg2:T21	
+T39	COUNTRY 975 985	украинской
+R24	ALTERNATIVE_NAME Arg1:T22 Arg2:T39	
+R25	ALTERNATIVE_NAME Arg1:T24 Arg2:T44	
+R26	LOCATED_IN Arg1:T46 Arg2:T47	
+R27	ORIGINS_FROM Arg1:T45 Arg2:T46	
+R28	PARTICIPANT_IN Arg1:T27 Arg2:T48	
+R29	ORIGINS_FROM Arg1:T43 Arg2:T44	
+N2	Reference T6 Wikidata:Q212	Украина
+N5	Reference T13 Wikidata:Q27468	Восточная Европа
+N7	Reference T22 Wikidata:Q212	Украина
+N11	Reference T16 Wikidata:Q1028181	художник
+N14	Reference T47 Wikidata:Q212	Украина
+N1	Reference T2 Wikidata:Q12130545	
+N17	Reference T8 Wikidata:Q7541856	
+N3	Reference T9 Wikidata:NULL	нет данных
+N18	Reference T10 Wikidata:Q3303330	
+N4	Reference T11 Wikidata:NULL	нет данных
+N10	Reference T36 Wikidata:Q46	Европа
+N19	Reference T14 Wikidata:Q483929	
+N6	Reference T15 Wikidata:Q17	Япония
+N12	Reference T17 Wikidata:NULL	нет данных
+N20	Reference T23 Wikidata:Q6501380	китайцы
+N13	Reference T42 Wikidata:Q181386	
+N8	Reference T25 Wikidata:NULL	нет данных
+N9	Reference T26 Wikidata:Q1899	Киев
+N21	Reference T46 Wikidata:Q181386	
+N16	Reference T30 Wikidata:Q776961	
+N15	Reference T28 Wikidata:NULL	нет данных
+N22	Reference T34 Wikidata:Q212	Украина
+N23	Reference T7 Wikidata:Q212	Украина
+N24	Reference T39 Wikidata:Q212	Украина
+N25	Reference T45 Wikidata:Q1028181	художник
+N26	Reference T44 Wikidata:Q212	Украина
+N27	Reference T20 Wikidata:Q212	Украина
+N28	Reference T24 Wikidata:Q212	Украина
+N29	Reference T35 Wikidata:Q212	Украина
+N30	Reference T27 Wikidata:NULL	нет данных
+N31	Reference T21 Wikidata:NULL	нет данных
+N32	Reference T1 Wikidata:Q1899	Киев
+N33	Reference T3 Wikidata:Q1899	Киев
+N34	Reference T54 Wikidata:Q776961	
+R30	ORIGINS_FROM Arg1:T28 Arg2:T29	

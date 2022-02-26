@@ -1,0 +1,161 @@
+T1	PERSON 0 12	Дарья Жукова
+T2	PERSON 20 37	Роману Абрамовичу
+T3	PERSON 43 58	Роман Абрамович
+T4	PERSON 83 100	Романа Абрамовича
+T5	PERSON 101 113	Дарья Жукова
+T6	DATE 135 154	14 апреля 2013 года
+T7	COUNTRY 174 184	российских
+T8	PERSON 204 217	Лея Абрамович
+T9	DATE 266 287	в прошлый понедельник
+T10	CITY 290 299	Нью-Йорке
+T11	ORDINAL 304 310	второй
+T12	PERSON 324 331	Жуковой
+T13	DATE 347 366	в декабре 2012 года
+T14	DATE 430 458	в середине февраля 2013 года
+T15	CITY 475 483	Нью-Йорк
+T16	PERSON 500 509	Абрамович
+T17	PERSON 538 544	Дарьей
+T18	ORDINAL 569 575	второй
+T19	PERSON 584 591	Жуковой
+T20	PERSON 594 604	Абрамовича
+T21	DATE 606 617	в 2009 году
+T22	PERSON 638 653	Аарон Александр
+T23	AGE 656 665	46-летний
+T24	PERSON 666 681	Роман Абрамович
+T25	PROFESSION 684 699	предприниматель
+T28	ORGANIZATION 827 832	Челси
+T29	PERSON 839 849	Абрамовича
+T30	ORDINAL 861 868	седьмым
+T31	PERSON 885 888	Леи
+T32	PERSON 891 908	Аарона Александра
+T33	NUMBER 925 929	двое
+T34	NUMBER 940 943	три
+T35	PERSON 952 956	Анна
+T36	PERSON 965 972	Аркадий
+T37	PERSON 981 986	Софья
+T38	PERSON 995 1000	Арина
+T39	PERSON 1010 1014	Илья
+T40	AGE 1024 1033	31-летняя
+T41	PERSON 1034 1046	Дарья Жукова
+T42	PROFESSION 1049 1057	дизайнер
+T45	PROFESSION 1118 1126	издатель
+T46	PROFESSION 1129 1136	главред
+T48	ORGANIZATION 1179 1187	Kova & T
+T49	PROFESSION 1194 1209	предпринимателя
+T50	PERSON 1210 1227	Александра Жукова
+T51	EVENT 13 19	родила
+T52	PROFESSION 67 82	предпринимателя
+T53	EVENT 114 125	родила дочь
+T54	EVENT 254 258	Роды
+T56	PROFESSION 757 797	губернатор Чукотского автономного округа
+T57	PROFESSION 757 767	губернатор
+T58	DISTRICT 768 797	Чукотского автономного округа
+T59	DATE 958 962	1992
+T60	DATE 974 978	1993
+T61	DATE 988 992	1995
+T62	DATE 1002 1006	2001
+T63	DATE 1016 1020	2003
+T65	PROFESSION 1072 1115	директор Центра современной культуры «Гараж
+T43	ORGANIZATION 1081 1115	Центра современной культуры «Гараж
+R1	FOUNDED_BY Arg1:T43 Arg2:T41	
+R2	AGENT Arg1:T1 Arg2:T51	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T51	
+R4	WORKS_AS Arg1:T4 Arg2:T52	
+R5	SPOUSE Arg1:T4 Arg2:T5	
+R6	AGENT Arg1:T5 Arg2:T53	
+R7	PARENT_OF Arg1:T5 Arg2:T8	
+R8	PARENT_OF Arg1:T4 Arg2:T8	
+R9	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R10	POINT_IN_TIME Arg1:T54 Arg2:T9	
+R11	TAKES_PLACE_IN Arg1:T54 Arg2:T10	
+R12	PLACE_OF_BIRTH Arg1:T8 Arg2:T10	
+R13	DATE_OF_DEATH Arg1:T8 Arg2:T9	
+R14	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R15	ALTERNATIVE_NAME Arg1:T12 Arg2:T17	
+R16	ALTERNATIVE_NAME Arg1:T4 Arg2:T16	
+R17	LOCATED_IN Arg1:T16 Arg2:T15	
+R18	LOCATED_IN Arg1:T17 Arg2:T15	
+T26	EVENT 624 631	родился
+R19	PARTICIPANT_IN Arg1:T19 Arg2:T26	
+R20	PARTICIPANT_IN Arg1:T20 Arg2:T26	
+R21	PARTICIPANT_IN Arg1:T22 Arg2:T26	
+R22	POINT_IN_TIME Arg1:T26 Arg2:T21	
+R23	DATE_OF_BIRTH Arg1:T22 Arg2:T21	
+R24	PARENT_OF Arg1:T19 Arg2:T22	
+R25	PARENT_OF Arg1:T20 Arg2:T22	
+R26	SIBLING Arg1:T8 Arg2:T22	
+T55	PROFESSION 700 710	миллиардер
+R27	AGE_IS Arg1:T24 Arg2:T23	
+R28	WORKS_AS Arg1:T24 Arg2:T25	
+R29	WORKS_AS Arg1:T24 Arg2:T55	
+R30	WORKPLACE Arg1:T56 Arg2:T58	
+R31	WORKS_AS Arg1:T24 Arg2:T56	
+R32	OWNER_OF Arg1:T24 Arg2:T28	
+R33	ALTERNATIVE_NAME Arg1:T8 Arg2:T31	
+R34	PARENT_OF Arg1:T29 Arg2:T31	
+R35	PARENT_OF Arg1:T29 Arg2:T32	
+R36	PARENT_OF Arg1:T29 Arg2:T35	
+R37	PARENT_OF Arg1:T29 Arg2:T36	
+R38	PARENT_OF Arg1:T29 Arg2:T37	
+R39	PARENT_OF Arg1:T29 Arg2:T38	
+R40	PARENT_OF Arg1:T29 Arg2:T39	
+R41	DATE_OF_BIRTH Arg1:T35 Arg2:T59	
+R42	DATE_OF_BIRTH Arg1:T36 Arg2:T60	
+R43	DATE_OF_BIRTH Arg1:T37 Arg2:T61	
+R44	DATE_OF_BIRTH Arg1:T38 Arg2:T62	
+R45	DATE_OF_BIRTH Arg1:T39 Arg2:T63	
+R46	SIBLING Arg1:T31 Arg2:T32	
+R47	SIBLING Arg1:T32 Arg2:T35	
+R48	SIBLING Arg1:T35 Arg2:T36	
+R49	SIBLING Arg1:T36 Arg2:T37	
+R50	SIBLING Arg1:T37 Arg2:T38	
+R51	SIBLING Arg1:T38 Arg2:T39	
+R52	AGE_IS Arg1:T41 Arg2:T40	
+R53	WORKS_AS Arg1:T41 Arg2:T42	
+R54	WORKPLACE Arg1:T65 Arg2:T43	
+R55	WORKS_AS Arg1:T41 Arg2:T65	
+R56	WORKS_AS Arg1:T41 Arg2:T45	
+R57	WORKS_AS Arg1:T41 Arg2:T46	
+R58	OWNER_OF Arg1:T41 Arg2:T48	
+R59	WORKS_AS Arg1:T50 Arg2:T49	
+R60	PARENT_OF Arg1:T50 Arg2:T41	
+N1	Reference T1 Wikidata:Q4181439	Дарья Александровна Жукова
+N11	Reference T42 Wikidata:Q5322166	дизайнер
+N12	Reference T45 Wikidata:Q2516866	издатель
+N13	Reference T46 Wikidata:Q589298	главный редактор
+N15	Reference T49 Wikidata:Q131524	предприниматель
+N18	Reference T57 Wikidata:Q132050	губернатор
+N19	Reference T58 Wikidata:Q7984	Чукотский автономный округ
+N21	Reference T43 Wikidata:Q4504054	Центр современной культуры «Гараж»
+N2	Reference T7 Wikidata:Q159	Россия
+N3	Reference T15 Wikidata:Q60	Нью-Йорк
+N23	Reference T16 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N4	Reference T22 Wikidata:NULL	нет данных
+N22	Reference T55 Wikidata:Q1062083	миллиардер
+N17	Reference T56 Wikidata:NULL	нет данных
+N24	Reference T28 Wikidata:Q9616	Челси
+N5	Reference T31 Wikidata:NULL	нет данных
+N6	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T36 Wikidata:NULL	нет данных
+N8	Reference T37 Wikidata:NULL	нет данных
+N9	Reference T38 Wikidata:NULL	нет данных
+N10	Reference T39 Wikidata:NULL	нет данных
+N20	Reference T65 Wikidata:NULL	нет данных
+N14	Reference T48 Wikidata:NULL	нет данных
+N16	Reference T50 Wikidata:NULL	нет данных
+N25	Reference T5 Wikidata:Q4181439	Дарья Александровна Жукова
+N26	Reference T12 Wikidata:Q4181439	Дарья Александровна Жукова
+N27	Reference T19 Wikidata:Q4181439	Дарья Александровна Жукова
+N28	Reference T17 Wikidata:Q4181439	Дарья Александровна Жукова
+N29	Reference T41 Wikidata:Q4181439	Дарья Александровна Жукова
+N30	Reference T25 Wikidata:Q131524	предприниматель
+N31	Reference T52 Wikidata:Q131524	предприниматель
+N32	Reference T10 Wikidata:Q60	Нью-Йорк
+N33	Reference T20 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N34	Reference T24 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N35	Reference T4 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N36	Reference T29 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N37	Reference T3 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N38	Reference T2 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N39	Reference T32 Wikidata:NULL	нет данных
+N40	Reference T8 Wikidata:NULL	нет данных

@@ -1,0 +1,114 @@
+T1	COUNTRY 14 19	Иране
+T2	NUMBER 21 25	1501
+T3	PROFESSION 50 59	советника
+T4	COUNTRY 105 110	Иране
+T5	NUMBER 120 124	1501
+T6	NUMBER 142 144	66
+T7	DATE 164 171	2 марта
+T8	PROFESSION 179 215	заместитель министра здравоохранения
+T10	PERSON 216 229	Алиреза Раизи
+T11	CITY 246 255	Боджнурде
+T12	DATE 257 274	февраль 2020 года
+T13	PERSON 289 310	Мохаммад Мирмохаммади
+T14	PROFESSION 312 352	член консультативного совета при аятолле
+T15	PROFESSION 345 352	аятолле
+T16	PROFESSION 366 398	Советник верховного руководителя
+T17	AGE 417 424	71 года
+T18	CITY 467 478	тегеранской
+T19	AGE 513 522	23-летняя
+T20	PERSON 535 547	Ильхам Шейхи
+T21	COUNTRY 582 591	китайском
+T22	CITY 592 597	Ухане
+T23	STATE_OR_PROVINCE 608 613	Хубэй
+T24	NUMBER 647 654	десятки
+T25	DATE 662 672	На 2 марта
+T26	COUNTRY 675 680	Китае
+T27	NUMBER 690 702	более 80 000
+T28	NUMBER 726 737	более 2 900
+T29	DISEASE 0 11	Коронавирус
+T30	EVENT 43 49	смерть
+T31	PERSON 60 67	Хаменеи
+T32	DISEASE 89 102	коронавирусом
+T9	PROFESSION 191 215	министра здравоохранения
+T34	DATE 276 283	Сегодня
+T35	EVENT 284 288	умер
+T36	ORGANIZATION 317 340	консультативного совета
+T37	ORGANIZATION 317 352	консультативного совета при аятолле
+T38	PERSON 353 364	Али Хаменеи
+T39	PROFESSION 375 398	верховного руководителя
+T40	EVENT 425 434	скончался
+T41	DISEASE 451 464	коронавирусом
+T42	PROFESSION 523 534	футболистка
+T43	DISEASE 558 570	коронавируса
+T44	EVENT 550 570	Вспышка коронавируса
+T45	DATE 614 623	в декабре
+T46	DATE 625 631	сейчас
+R1	PARTICIPANT_IN Arg1:T13 Arg2:T35	
+R2	POINT_IN_TIME Arg1:T35 Arg2:T34	
+R3	AGE_DIED_AT Arg1:T20 Arg2:T19	
+R4	WORKS_AS Arg1:T20 Arg2:T42	
+R5	LOCATED_IN Arg1:T22 Arg2:T23	
+R6	LOCATED_IN Arg1:T23 Arg2:T21	
+R7	TAKES_PLACE_IN Arg1:T44 Arg2:T22	
+R8	POINT_IN_TIME Arg1:T44 Arg2:T45	
+R9	AGE_DIED_AT Arg1:T13 Arg2:T17	
+R10	WORKS_AS Arg1:T10 Arg2:T8	
+R11	WORKS_AS Arg1:T38 Arg2:T14	
+R12	PARTICIPANT_IN Arg1:T13 Arg2:T40	
+R13	PARTICIPANT_IN Arg1:T16 Arg2:T40	
+R14	CAUSE_OF_DEATH Arg1:T13 Arg2:T41	
+T33	FACILITY 467 487	тегеранской больнице
+R15	PLACE_OF_DEATH Arg1:T13 Arg2:T33	
+R16	PLACE_OF_DEATH Arg1:T16 Arg2:T33	
+T47	PROFESSION 50 67	советника Хаменеи
+R17	PARTICIPANT_IN Arg1:T47 Arg2:T30	
+R18	TAKES_PLACE_IN Arg1:T30 Arg2:T1	
+R19	SUBORDINATE_OF Arg1:T10 Arg2:T9	
+T48	PROFESSION 191 199	министра
+R20	SUBORDINATE_OF Arg1:T8 Arg2:T9	
+R21	ALTERNATIVE_NAME Arg1:T30 Arg2:T35	
+R22	ALTERNATIVE_NAME Arg1:T47 Arg2:T14	
+R23	WORKS_AS Arg1:T38 Arg2:T15	
+R24	WORKS_AS Arg1:T13 Arg2:T14	
+R25	SUBORDINATE_OF Arg1:T13 Arg2:T38	
+R26	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R27	WORKS_AS Arg1:T13 Arg2:T16	
+T49	DISEASE 499 505	вируса
+R28	CAUSE_OF_DEATH Arg1:T20 Arg2:T49	
+R29	LOCATED_IN Arg1:T22 Arg2:T21	
+R30	SUBORDINATE_OF Arg1:T47 Arg2:T31	
+R31	LOCATED_IN Arg1:T33 Arg2:T18	
+R32	CAUSE_OF_DEATH Arg1:T16 Arg2:T41	
+T50	EVENT 506 512	умерла
+R33	HAS_CAUSE Arg1:T50 Arg2:T49	
+R34	PARTICIPANT_IN Arg1:T20 Arg2:T50	
+R35	HAS_CAUSE Arg1:T40 Arg2:T41	
+R36	ALTERNATIVE_NAME Arg1:T15 Arg2:T39	
+R37	HAS_CAUSE Arg1:T44 Arg2:T43	
+N2	Reference T4 Wikidata:Q794	Иран
+N4	Reference T11 Wikidata:Q317946	Боджнурд
+N6	Reference T15 Wikidata:Q184402	аятолла
+N9	Reference T22 Wikidata:Q11746	Ухань
+N10	Reference T23 Wikidata:Q46862	Хубэй
+N11	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N12	Reference T31 Wikidata:Q57336	Али Хаменеи
+N13	Reference T36 Wikidata:Q378605	Исламский консультативный совет
+N15	Reference T38 Wikidata:Q57336	Али Хаменеи
+N16	Reference T42 Wikidata:Q937857	футболист
+N19	Reference T48 Wikidata:Q83307	министр
+N20	Reference T9 Wikidata:Q3273722	
+N21	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:Q88083342	
+N22	Reference T21 Wikidata:Q148	Китайская Народная Республика
+N8	Reference T20 Wikidata:Q86628426	
+N7	Reference T18 Wikidata:Q3616	Тегеран
+N17	Reference T33 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:Q16052285	
+N14	Reference T37 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q2994387	
+N18	Reference T47 Wikidata:NULL	нет данных
+N23	Reference T1 Wikidata:Q794	Иран
+N24	Reference T39 Wikidata:Q184402	аятолла
+N25	Reference T14 Wikidata:NULL	нет данных
+N26	Reference T16 Wikidata:NULL	нет данных
+R38	WORKPLACE Arg1:T14 Arg2:T37	

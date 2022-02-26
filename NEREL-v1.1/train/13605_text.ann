@@ -1,0 +1,127 @@
+T1	PERSON 0 14	Андрей Тихонов
+T2	DATE 43 55	60 лет назад
+T3	AGE 57 66	40-летний
+T4	ORGANIZATION 93 101	Спартака
+T5	PERSON 103 117	Андрей Тихонов
+T6	EVENT 144 158	кубковом матче
+T7	ORGANIZATION 162 173	Краснодаром
+T8	PERSON 298 314	Василию Соколову
+T9	DATE 324 335	в 1951 году
+T10	AGE 352 361	39-летнем
+T11	ORGANIZATION 390 405	Спорт-Экспрессу
+T12	PERSON 407 414	Тихонов
+T13	PERSON 684 691	Тихонов
+T14	ORGANIZATION 719 727	Спартака
+T16	DATE 740 781	более 10 лет назад, 20 сентября 2000 года
+T17	ORGANIZATION 817 823	Реалом
+T18	CITY 827 834	Мадриде
+T19	PERSON 842 849	Тихонов
+T20	DATE 876 894	в последующие годы
+T21	DATE 926 950	В феврале нынешнего года
+T22	ORGANIZATION 975 982	Спартак
+T23	PROFESSION 997 1014	играющего тренера
+T24	ORGANIZATION 1023 1030	Спартак
+T25	ORGANIZATION 1035 1044	Краснодар
+T26	DATE 1053 1062	20 апреля
+T27	FACILITY 1076 1083	Лужники
+T28	NUMBER 1124 1125	2
+T30	PERSON 1206 1214	Тихонова
+T31	PERSON 1342 1349	Тихонов
+T32	PERSON 1465 1471	Карпин
+T33	DATE 1481 1490	18 апреля
+T34	PROFESSION 1516 1532	главного тренера
+T35	PROFESSION 1582 1596	директор клуба
+T36	PERSON 1597 1609	Леонид Федун
+T37	PERSON 1628 1635	Карпина
+T38	PERSON 1649 1657	Тихонова
+T39	ORGANIZATION 1735 1744	Спартаком
+T40	CITY 1749 1757	Нальчика
+T41	PERSON 1787 1801	Валерий Карпин
+T42	PERSON 1983 1998	Валерия Карпина
+T44	PROFESSION 67 79	полузащитник
+T45	CITY 80 91	московского
+T46	DATE 118 127	20 апреля
+T47	PROFESSION 612 620	тренером
+T15	EVENT 1017 1045	Матч «Спартак» — «Краснодар»
+T29	EVENT 1138 1160	полуфинал Кубка России
+T48	COUNTRY 1154 1160	России
+T49	EVENT 1148 1160	Кубка России
+T50	EVENT 1491 1507	подал в отставку
+R1	AGE_IS Arg1:T5 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T4 Arg2:T6	
+R3	PARTICIPANT_IN Arg1:T7 Arg2:T6	
+R4	POINT_IN_TIME Arg1:T6 Arg2:T46	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T6	
+R6	AGE_IS Arg1:T8 Arg2:T10	
+R7	HEADQUARTERED_IN Arg1:T4 Arg2:T45	
+R8	WORKPLACE Arg1:T5 Arg2:T4	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R10	WORKPLACE Arg1:T13 Arg2:T14	
+T51	EVENT 668 672	матч
+R11	PARTICIPANT_IN Arg1:T14 Arg2:T51	
+R12	PARTICIPANT_IN Arg1:T17 Arg2:T51	
+R13	TAKES_PLACE_IN Arg1:T51 Arg2:T18	
+R14	POINT_IN_TIME Arg1:T51 Arg2:T16	
+R15	PARTICIPANT_IN Arg1:T24 Arg2:T15	
+R16	PARTICIPANT_IN Arg1:T25 Arg2:T15	
+R17	POINT_IN_TIME Arg1:T15 Arg2:T26	
+R18	TAKES_PLACE_IN Arg1:T15 Arg2:T27	
+R19	SUBEVENT_OF Arg1:T15 Arg2:T49	
+R20	AGENT Arg1:T32 Arg2:T50	
+R21	WORKS_AS Arg1:T32 Arg2:T34	
+R22	POINT_IN_TIME Arg1:T50 Arg2:T33	
+R23	WORKPLACE Arg1:T32 Arg2:T24	
+R24	KNOWS Arg1:T36 Arg2:T37	
+R25	KNOWS Arg1:T36 Arg2:T38	
+R26	WORKS_AS Arg1:T36 Arg2:T35	
+R27	ALTERNATIVE_NAME Arg1:T32 Arg2:T41	
+R28	WORKPLACE Arg1:T36 Arg2:T15	
+R29	WORKS_AS Arg1:T5 Arg2:T44	
+R30	PARTICIPANT_IN Arg1:T13 Arg2:T51	
+R31	WORKPLACE Arg1:T19 Arg2:T22	
+R32	WORKS_AS Arg1:T19 Arg2:T23	
+T43	EVENT 961 971	пригласили
+R33	PARTICIPANT_IN Arg1:T19 Arg2:T43	
+R34	PARTICIPANT_IN Arg1:T22 Arg2:T43	
+R35	POINT_IN_TIME Arg1:T43 Arg2:T21	
+T52	ORGANIZATION 1086 1097	Спартаковцы
+R36	ALTERNATIVE_NAME Arg1:T24 Arg2:T52	
+R37	TAKES_PLACE_IN Arg1:T49 Arg2:T48	
+R38	PARTICIPANT_IN Arg1:T34 Arg2:T50	
+R39	HEADQUARTERED_IN Arg1:T39 Arg2:T40	
+R40	ALTERNATIVE_NAME Arg1:T32 Arg2:T37	
+T53	NUMBER 1126 1127	1
+N1	Reference T1 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N2	Reference T8 Wikidata:Q3563506	Соколов, Василий Николаевич
+N3	Reference T11 Wikidata:Q974931	Спорт-Экспресс
+N5	Reference T18 Wikidata:Q2807	Мадрид
+N7	Reference T25 Wikidata:Q220854	Краснодар
+N8	Reference T27 Wikidata:Q202163	Лужники
+N10	Reference T36 Wikidata:Q1133203	Леонид Арнольдович Федун
+N11	Reference T40 Wikidata:Q5265	Нальчик
+N12	Reference T42 Wikidata:Q310571	Валерий Георгиевич Карпин
+N13	Reference T44 Wikidata:Q193592	полузащитник
+N15	Reference T47 Wikidata:Q41583	тренер
+N16	Reference T48 Wikidata:Q159	Россия
+N14	Reference T45 Wikidata:Q649	Москва
+N4	Reference T17 Wikidata:Q8682	Реал Мадрид
+N6	Reference T23 Wikidata:NULL	нет данных
+N18	Reference T34 Wikidata:Q3246315	
+N9	Reference T35 Wikidata:NULL	нет данных
+N17	Reference T52 Wikidata:Q29112	Спартак
+N19	Reference T13 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N20	Reference T5 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N21	Reference T38 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N22	Reference T12 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N23	Reference T19 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N24	Reference T31 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N25	Reference T30 Wikidata:Q502637	Тихонов, Андрей Валерьевич
+N26	Reference T7 Wikidata:Q220854	Краснодар
+N27	Reference T41 Wikidata:Q310571	Валерий Георгиевич Карпин
+N28	Reference T37 Wikidata:Q310571	Валерий Георгиевич Карпин
+N29	Reference T32 Wikidata:Q310571	Валерий Георгиевич Карпин
+N30	Reference T22 Wikidata:Q29112	Спартак
+N31	Reference T14 Wikidata:Q29112	Спартак
+N32	Reference T24 Wikidata:Q29112	Спартак
+N33	Reference T4 Wikidata:Q29112	Спартак
+N34	Reference T39 Wikidata:Q29112	Спартак

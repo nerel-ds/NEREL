@@ -1,0 +1,74 @@
+T1	NUMBER 14 18	двух
+T2	FACILITY 56 66	Домодедове
+T3	ORGANIZATION 87 97	Интерфаксу
+T4	NUMBER 119 123	двое
+T5	DATE 218 227	24 января
+T6	STATE_OR_PROVINCE 242 259	Орловской области
+T7	PERSON 260 272	Адам Ганижев
+T8	STATE_OR_PROVINCE 303 321	Ростовской области
+T9	PERSON 322 334	Ислам Евлоев
+T10	CITY 393 400	Али-Юрт
+T11	DISTRICT 401 421	Назрановского района
+T12	STATE_OR_PROVINCE 422 431	Ингушетии
+T13	FACILITY 513 523	Домодедове
+T14	AGE 533 542	20-летний
+T15	STATE_OR_PROVINCE 552 561	Ингушетии
+T16	PERSON 562 576	Магомед Евлоев
+T17	PERSON 615 627	Адам Ганижев
+T18	PERSON 630 642	Ислам Евлоев
+T19	CITY 654 662	Али-Юрта
+T21	PROFESSION 700 712	Директор ФСБ
+T22	PERSON 713 732	Александр Бортников
+T23	EVENT 46 53	теракта
+T24	EVENT 170 176	взрыву
+T25	DATE 273 291	1990 года рождения
+T26	DATE 335 353	1987 года рождения
+T20	ORGANIZATION 709 712	ФСБ
+T27	PERSON 802 809	Евлоева
+T28	FAMILY 789 809	родственники Евлоева
+R1	TAKES_PLACE_IN Arg1:T23 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R3	POINT_IN_TIME Arg1:T24 Arg2:T5	
+R4	PLACE_OF_BIRTH Arg1:T7 Arg2:T6	
+R5	DATE_OF_BIRTH Arg1:T7 Arg2:T25	
+R6	PLACE_OF_BIRTH Arg1:T9 Arg2:T8	
+R7	DATE_OF_BIRTH Arg1:T9 Arg2:T26	
+R8	LOCATED_IN Arg1:T10 Arg2:T11	
+R9	LOCATED_IN Arg1:T11 Arg2:T12	
+R10	PLACE_RESIDES_IN Arg1:T7 Arg2:T10	
+R11	PLACE_RESIDES_IN Arg1:T9 Arg2:T10	
+R12	PLACE_OF_BIRTH Arg1:T16 Arg2:T15	
+R13	PLACE_RESIDES_IN Arg1:T16 Arg2:T10	
+R14	AGE_IS Arg1:T16 Arg2:T14	
+T29	EVENT 504 510	теракт
+R15	TAKES_PLACE_IN Arg1:T29 Arg2:T13	
+R16	AGENT Arg1:T16 Arg2:T29	
+R17	WORKPLACE Arg1:T21 Arg2:T20	
+R18	MEMBER_OF Arg1:T27 Arg2:T28	
+R19	WORKS_AS Arg1:T22 Arg2:T21	
+R20	WORKPLACE Arg1:T22 Arg2:T20	
+T30	PROFESSION 838 890	официальные представители правоохранительных органов
+T31	EVENT 643 650	исчезли
+R21	AGENT Arg1:T17 Arg2:T31	
+R22	AGENT Arg1:T18 Arg2:T31	
+R23	TAKES_PLACE_IN Arg1:T31 Arg2:T19	
+N1	Reference T2 Wikidata:Q186614	Домодедово
+N2	Reference T3 Wikidata:Q379271	Интерфакс
+N3	Reference T6 Wikidata:Q3129	Орловская область
+N4	Reference T8 Wikidata:Q3573	Ростовская область
+N5	Reference T10 Wikidata:Q1010965	Али-Юрт
+N6	Reference T11 Wikidata:Q1070555	Назрановский район
+N7	Reference T13 Wikidata:Q135410	Домодедово
+N8	Reference T15 Wikidata:Q5219	Ингушетия
+N11	Reference T19 Wikidata:Q1010965	Али-Юрт
+N13	Reference T22 Wikidata:Q516824	Александр Васильевич Бортников
+N14	Reference T20 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N16	Reference T30 Wikidata:NULL	
+N9	Reference T16 Wikidata:NULL	нет данных
+N17	Reference T17 Wikidata:NULL	нет данных
+N10	Reference T18 Wikidata:NULL	нет данных
+N15	Reference T27 Wikidata:NULL	нет данных
+N12	Reference T21 Wikidata:Q4399975	
+N18	Reference T12 Wikidata:Q5219	Ингушетия
+N19	Reference T7 Wikidata:NULL	нет данных
+N20	Reference T9 Wikidata:NULL	нет данных

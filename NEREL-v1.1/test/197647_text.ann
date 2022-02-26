@@ -1,0 +1,116 @@
+T1	COUNTRY 11 22	Афганистане
+T2	COUNTRY 56 68	Американский
+T3	COUNTRY 79 90	Афганистане
+T4	DATE 92 100	2011 год
+T5	ORDINAL 101 110	Четвёртый
+T6	COUNTRY 126 129	США
+T7	COUNTRY 180 191	Афганистане
+T8	DATE 219 238	3 декабря 2018 года
+T9	ORGANIZATION 248 268	Министерство обороны
+T10	AGE 275 284	24-летний
+T11	PERSON 285 309	Джейсон Митчелл МакКлари
+T12	PERSON 311 333	Jason Mitchell McClary
+T13	STATE_OR_PROVINCE 338 350	Пенсильвании
+T14	DATE 356 365	2 декабря
+T15	COUNTRY 368 376	немецкой
+T16	CITY 393 402	Ландштуль
+T17	DATE 438 447	27 ноября
+T18	COUNTRY 471 483	американских
+T19	CITY 533 538	Газни
+T20	COUNTRY 541 552	Афганистане
+T21	NUMBER 568 572	трое
+T22	NUMBER 583 587	трое
+T23	ORGANIZATION 645 652	Талибан
+T24	COUNTRY 23 35	американский
+T25	PROFESSION 36 43	военный
+T26	PROFESSION 23 43	американский военный
+T28	PROFESSION 56 76	Американский военный
+T29	PROFESSION 69 76	военный
+T30	PROFESSION 111 129	военнослужащий США
+T31	PROFESSION 111 125	военнослужащий
+T33	EVENT 171 177	взрыва
+T34	DATE 192 209	на прошлой неделе
+T35	ORGANIZATION 248 272	Министерство обороны США
+T36	COUNTRY 269 272	США
+T37	EVENT 351 355	умер
+T38	EVENT 431 437	взрыва
+T39	PROFESSION 471 491	американских военных
+T40	PROFESSION 484 491	военных
+T42	PROFESSION 573 580	военных
+T43	EVENT 44 48	умер
+R1	ORIGINS_FROM Arg1:T26 Arg2:T24	
+R2	PLACE_OF_DEATH Arg1:T26 Arg2:T1	
+R3	CAUSE_OF_DEATH Arg1:T26 Arg2:T27	
+R4	TAKES_PLACE_IN Arg1:T43 Arg2:T1	
+R5	ORIGINS_FROM Arg1:T28 Arg2:T2	
+R6	LOCATED_IN Arg1:T28 Arg2:T3	
+R7	ORIGINS_FROM Arg1:T30 Arg2:T6	
+T44	EVENT 130 134	умер
+R8	PARTICIPANT_IN Arg1:T30 Arg2:T44	
+R9	TAKES_PLACE_IN Arg1:T33 Arg2:T7	
+R10	POINT_IN_TIME Arg1:T33 Arg2:T34	
+R11	HAS_CAUSE Arg1:T44 Arg2:T33	
+R12	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R13	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R14	AGE_IS Arg1:T11 Arg2:T10	
+R15	ORIGINS_FROM Arg1:T11 Arg2:T13	
+R16	PARTICIPANT_IN Arg1:T11 Arg2:T37	
+R17	POINT_IN_TIME Arg1:T37 Arg2:T14	
+R18	TAKES_PLACE_IN Arg1:T37 Arg2:T16	
+T45	EVENT 492 523	подорвался на самодельной бомбе
+R19	ORIGINS_FROM Arg1:T39 Arg2:T18	
+R20	ALTERNATIVE_NAME Arg1:T36 Arg2:T18	
+R21	PARTICIPANT_IN Arg1:T39 Arg2:T45	
+R22	TAKES_PLACE_IN Arg1:T45 Arg2:T19	
+R23	LOCATED_IN Arg1:T19 Arg2:T20	
+R24	DATE_OF_DEATH Arg1:T11 Arg2:T14	
+R25	PLACE_OF_DEATH Arg1:T11 Arg2:T16	
+R26	WORKS_AS Arg1:T11 Arg2:T30	
+R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T45	
+R28	POINT_IN_TIME Arg1:T45 Arg2:T17	
+T46	EVENT 560 567	погибли
+T47	EVENT 583 599	трое были ранены
+R29	SUBEVENT_OF Arg1:T46 Arg2:T45	
+R30	SUBEVENT_OF Arg1:T47 Arg2:T45	
+R31	ORGANIZES Arg1:T23 Arg2:T45	
+R32	POINT_IN_TIME Arg1:T46 Arg2:T17	
+R33	POINT_IN_TIME Arg1:T47 Arg2:T17	
+T27	DISEASE 52 55	ран
+R34	MEDICAL_CONDITION Arg1:T26 Arg2:T27	
+R35	HAS_CAUSE Arg1:T43 Arg2:T27	
+R36	CAUSE_OF_DEATH Arg1:T26 Arg2:T27	
+T32	DISEASE 138 145	ранений
+R37	HAS_CAUSE Arg1:T44 Arg2:T32	
+R38	CAUSE_OF_DEATH Arg1:T30 Arg2:T32	
+R39	CAUSE_OF_DEATH Arg1:T30 Arg2:T32	
+R40	HAS_CAUSE Arg1:T32 Arg2:T33	
+R41	LOCATED_IN Arg1:T16 Arg2:T15	
+R42	ALTERNATIVE_NAME Arg1:T38 Arg2:T45	
+R43	PARTICIPANT_IN Arg1:T42 Arg2:T46	
+N3	Reference T13 Wikidata:Q1400	Пенсильвания
+N5	Reference T16 Wikidata:Q22950	Ландштуль
+N7	Reference T19 Wikidata:Q173731	Газни
+N8	Reference T20 Wikidata:Q889	Афганистан
+N9	Reference T23 Wikidata:Q42418	Талибан
+N12	Reference T31 Wikidata:Q47064	военнослужащий
+N13	Reference T35 Wikidata:Q11209	Министерство обороны США
+N14	Reference T42 Wikidata:Q47064	военнослужащий
+N10	Reference T26 Wikidata:NULL	нет данных
+N11	Reference T30 Wikidata:NULL	нет данных
+N1	Reference T9 Wikidata:Q1788820	
+N2	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:Q183	Германия
+N6	Reference T18 Wikidata:Q30	США
+N15	Reference T7 Wikidata:Q889	Афганистан
+N16	Reference T1 Wikidata:Q889	Афганистан
+N17	Reference T3 Wikidata:Q889	Афганистан
+N18	Reference T40 Wikidata:Q47064	военнослужащий
+N19	Reference T29 Wikidata:Q47064	военнослужащий
+N20	Reference T25 Wikidata:Q47064	военнослужащий
+N21	Reference T39 Wikidata:NULL	нет данных
+N22	Reference T28 Wikidata:NULL	нет данных
+N23	Reference T12 Wikidata:NULL	нет данных
+N24	Reference T36 Wikidata:Q30	США
+N25	Reference T24 Wikidata:Q30	США
+N26	Reference T2 Wikidata:Q30	США
+N27	Reference T6 Wikidata:Q30	США

@@ -1,0 +1,160 @@
+T1	PROFESSION 0 17	Министром обороны
+T2	PROFESSION 42 49	адмирал
+T3	ORGANIZATION 57 77	Министерства обороны
+T4	CITY 90 98	Каракасе
+T5	PERSON 119 133	Николас Мадуро
+T6	PROFESSION 143 160	министром обороны
+T7	PROFESSION 168 176	адмирала
+T8	PERSON 177 192	Кармен Мелендес
+T9	PERSON 194 222	Carmen Teresa Meléndez Rivas
+T10	PERSON 225 233	Мелендес
+T11	ORDINAL 240 246	первой
+T12	PROFESSION 265 299	главы военного ведомства Венесуэлы
+T13	COUNTRY 290 299	Венесуэлы
+T14	PERSON 317 323	Мадуро
+T16	PERSON 417 427	Уго Чавеса
+T17	PROFESSION 429 438	Президент
+T18	PERSON 446 454	Мелендес
+T19	ORGANIZATION 566 585	Вооружёнными силами
+T20	PROFESSION 612 629	министром обороны
+T21	PERSON 650 658	Мелендес
+T22	AGE 679 688	51-летняя
+T23	PERSON 689 717	Кармен Тереса Мелендес Ривас
+T26	PROFESSION 965 973	адмирала
+T27	ORDINAL 988 994	первой
+T28	COUNTRY 1006 1015	Венесуэле
+T30	ORGANIZATION 1268 1288	министерстве обороны
+T31	PERSON 1322 1328	Мадуро
+T32	PERSON 1408 1415	Чавесом
+T33	PROFESSION 0 27	Министром обороны Венесуэлы
+T34	COUNTRY 18 27	Венесуэлы
+T36	COUNTRY 78 87	Венесуэлы
+T37	PROFESSION 99 118	Президент Венесуэлы
+T38	COUNTRY 109 118	Венесуэлы
+T39	PROFESSION 143 152	министром
+T40	PROFESSION 143 167	министром обороны страны
+T41	ORGANIZATION 271 299	военного ведомства Венесуэлы
+T42	EVENT 339 348	церемонии
+T43	PROFESSION 395 416	венесуэльского лидера
+T44	COUNTRY 395 409	венесуэльского
+T45	PROFESSION 456 464	солдатом
+T46	PROFESSION 660 666	солдат
+T47	ORGANIZATION 811 816	армии
+T48	PROFESSION 856 890	учёную степень в области экономики
+T49	PROFESSION 856 870	учёную степень
+T50	PERSON 904 912	Мелендес
+T51	PERSON 941 947	Чавеса
+T52	PERSON 1072 1077	Чавес
+T54	CRIME 1241 1250	коррупции
+T55	ORGANIZATION 1268 1298	министерстве обороны Венесуэлы
+T56	COUNTRY 1289 1298	Венесуэлы
+T57	IDEOLOGY 1382 1387	левой
+R3	WORKPLACE Arg1:T2 Arg2:T34	
+T35	ORGANIZATION 57 87	Министерства обороны Венесуэлы
+T58	FACILITY 50 87	Здание Министерства обороны Венесуэлы
+R4	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R5	PART_OF Arg1:T58 Arg2:T35	
+R6	LOCATED_IN Arg1:T58 Arg2:T4	
+R8	WORKS_AS Arg1:T5 Arg2:T37	
+R7	WORKPLACE Arg1:T37 Arg2:T38	
+R9	WORKPLACE Arg1:T5 Arg2:T38	
+R10	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R11	WORKS_AS Arg1:T8 Arg2:T7	
+R12	WORKS_AS Arg1:T8 Arg2:T40	
+R1	WORKPLACE Arg1:T33 Arg2:T34	
+R2	ALTERNATIVE_NAME Arg1:T33 Arg2:T40	
+R13	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R14	ALTERNATIVE_NAME Arg1:T40 Arg2:T12	
+R15	HEADQUARTERED_IN Arg1:T41 Arg2:T13	
+R16	WORKPLACE Arg1:T12 Arg2:T41	
+R17	WORKS_AS Arg1:T10 Arg2:T12	
+R18	WORKPLACE Arg1:T10 Arg2:T41	
+R19	PARTICIPANT_IN Arg1:T14 Arg2:T42	
+T59	FACILITY 351 364	военном музее
+R20	TAKES_PLACE_IN Arg1:T42 Arg2:T59	
+R21	ALTERNATIVE_NAME Arg1:T13 Arg2:T44	
+R22	WORKS_AS Arg1:T16 Arg2:T43	
+R23	WORKPLACE Arg1:T16 Arg2:T44	
+R24	ALTERNATIVE_NAME Arg1:T5 Arg2:T14	
+T15	PROFESSION 546 558;566 585	командующего Вооружёнными силами
+R25	WORKPLACE Arg1:T15 Arg2:T19	
+T60	PROFESSION 546 558	командующего
+R26	WORKS_AS Arg1:T21 Arg2:T20	
+T24	DATE 750 761	в 1979 году
+R27	AGE_IS Arg1:T23 Arg2:T22	
+R28	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+T61	ORGANIZATION 734 749	вооруженных сил
+R29	ALTERNATIVE_NAME Arg1:T61 Arg2:T47	
+T25	DATE 892 903	В 2012 году
+T29	DATE 1052 1071	В октябре 2012 года
+R30	ALTERNATIVE_NAME Arg1:T16 Arg2:T51	
+R31	HEADQUARTERED_IN Arg1:T55 Arg2:T56	
+T62	EVENT 134 142	назначил
+R32	AGENT Arg1:T5 Arg2:T62	
+R33	PARTICIPANT_IN Arg1:T8 Arg2:T62	
+R34	TAKES_PLACE_IN Arg1:T62 Arg2:T38	
+R35	LOCATED_IN Arg1:T16 Arg2:T59	
+R36	WORKS_AS Arg1:T14 Arg2:T17	
+R37	WORKS_AS Arg1:T18 Arg2:T15	
+R38	KNOWS Arg1:T50 Arg2:T51	
+R39	WORKS_AS Arg1:T50 Arg2:T26	
+R40	WORKS_AS Arg1:T23 Arg2:T48	
+R41	WORKPLACE Arg1:T50 Arg2:T28	
+R42	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R43	IDEOLOGY_OF Arg1:T32 Arg2:T57	
+R44	WORKPLACE Arg1:T31 Arg2:T57	
+T53	EVENT 1253 1265	Перестановки
+R45	PARTICIPANT_IN Arg1:T55 Arg2:T53	
+R46	AGENT Arg1:T31 Arg2:T53	
+R47	TAKES_PLACE_IN Arg1:T53 Arg2:T56	
+N2	Reference T4 Wikidata:Q1533	Каракас
+N3	Reference T5 Wikidata:Q58132	Николас Мадуро
+N6	Reference T13 Wikidata:Q717	Венесуэла
+N7	Reference T17 Wikidata:Q30461	президент
+N9	Reference T20 Wikidata:Q2518691	министр обороны
+N10	Reference T26 Wikidata:Q132851	адмирал
+N12	Reference T39 Wikidata:Q83307	министр
+N17	Reference T49 Wikidata:Q189533	учёная степень
+N1	Reference T3 Wikidata:Q1788820	
+N18	Reference T35 Wikidata:NULL	нет данных
+N19	Reference T58 Wikidata:NULL	нет данных
+N23	Reference T37 Wikidata:Q11942698	
+N4	Reference T10 Wikidata:Q19665831	
+N8	Reference T18 Wikidata:Q19665831	
+N13	Reference T41 Wikidata:NULL	нет данных
+N5	Reference T12 Wikidata:NULL	нет данных
+N20	Reference T59 Wikidata:Q2772772	военный музей
+N14	Reference T43 Wikidata:NULL	нет данных
+N15	Reference T46 Wikidata:Q4991371	солдат
+N16	Reference T47 Wikidata:Q8473	армия
+N24	Reference T48 Wikidata:NULL	нет данных
+N11	Reference T32 Wikidata:Q8440	Уго Чавес
+N21	Reference T15 Wikidata:Q380782	главнокомандующий
+N22	Reference T60 Wikidata:Q380782	главнокомандующий
+N25	Reference T31 Wikidata:Q58132	Николас Мадуро
+N26	Reference T14 Wikidata:Q58132	Николас Мадуро
+N27	Reference T44 Wikidata:Q717	Венесуэла
+N28	Reference T56 Wikidata:Q717	Венесуэла
+N29	Reference T38 Wikidata:Q717	Венесуэла
+N30	Reference T34 Wikidata:Q717	Венесуэла
+N31	Reference T28 Wikidata:Q717	Венесуэла
+N32	Reference T36 Wikidata:Q717	Венесуэла
+N33	Reference T6 Wikidata:Q2518691	министр обороны
+N34	Reference T1 Wikidata:Q2518691	министр обороны
+N35	Reference T7 Wikidata:Q132851	адмирал
+N36	Reference T2 Wikidata:Q132851	адмирал
+N37	Reference T30 Wikidata:Q1788820	
+N38	Reference T55 Wikidata:NULL	нет данных
+N39	Reference T9 Wikidata:Q19665831	
+N40	Reference T8 Wikidata:Q19665831	
+N41	Reference T50 Wikidata:Q19665831	
+N42	Reference T21 Wikidata:Q19665831	
+N43	Reference T23 Wikidata:Q19665831	
+N44	Reference T33 Wikidata:NULL	нет данных
+N45	Reference T40 Wikidata:NULL	нет данных
+N46	Reference T45 Wikidata:Q4991371	солдат
+N47	Reference T19 Wikidata:Q8473	армия
+N48	Reference T61 Wikidata:Q8473	армия
+N49	Reference T51 Wikidata:Q8440	Уго Чавес
+N50	Reference T16 Wikidata:Q8440	Уго Чавес
+N51	Reference T52 Wikidata:Q8440	Уго Чавес

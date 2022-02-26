@@ -1,0 +1,171 @@
+T1	COUNTRY 0 4	КНДР
+T2	COUNTRY 34 37	США
+T3	COUNTRY 51 65	Северной Корее
+T4	COUNTRY 87 101	Северной Кореи
+T5	COUNTRY 132 135	США
+T6	ORGANIZATION 213 252	Центральное телеграфное агентство Кореи
+T7	ORGANIZATION 254 258	ЦТАК
+T8	NATIONALITY 274 284	американец
+T9	PERSON 294 304	Бэ Чжун Хо
+T10	PERSON 538 548	Бэ Чжун Хо
+T11	DATE 563 571	3 ноября
+T12	CITY 604 610	Раджин
+T13	COUNTRY 629 633	КНДР
+T14	COUNTRY 709 716	Россией
+T15	COUNTRY 719 725	Китаем
+T16	ORGANIZATION 741 745	ЦТАК
+T17	PERSON 747 757	Бэ Чжун Хо
+T18	COUNTRY 781 790	шведского
+T19	COUNTRY 803 809	Швеция
+T20	COUNTRY 835 838	США
+T21	CITY 850 859	Вашингтон
+T22	CITY 911 920	Пхеньяном
+T23	DATE 923 940	За последние годы
+T24	COUNTRY 943 957	Северной Корее
+T25	NATIONALITY 984 995	американцев
+T26	DATE 1118 1129	В 2009 году
+T27	NUMBER 1146 1150	двух
+T28	COUNTRY 1215 1221	Китаем
+T30	PERSON 1281 1295	Билла Клинтона
+T31	COUNTRY 1321 1335	Северную Корею
+T32	DATE 1338 1349	В 2010 году
+T34	PERSON 1443 1456	Джимми Картер
+T35	COUNTRY 1494 1507	южнокорейские
+T36	AGE 1539 1548	44-летнем
+T37	EVENT 17 22	арест
+T38	EVENT 114 120	аресте
+T39	IDEOLOGY 168 184	коммунистическую
+T40	COUNTRY 247 252	Кореи
+T41	EVENT 553 562	арестован
+T42	LOCATION 614 633	севере-востоке КНДР
+T43	EVENT 963 973	арестованы
+T44	PROFESSION 1014 1024	журналисты
+T45	RELIGION 1027 1036	христиане
+T46	COUNTRY 1130 1134	КНДР
+T47	EVENT 1135 1145	арестовала
+T48	PROFESSION 1165 1176	журналистов
+T49	PROFESSION 1151 1176	телевизионных журналистов
+T50	EVENT 1232 1243	освобождены
+T51	PROFESSION 1266 1280	президента США
+T52	PROFESSION 1266 1276	президента
+T53	COUNTRY 1277 1280	США
+T54	EVENT 1418 1424	ареста
+T55	PROFESSION 1429 1442	президент США
+T56	PROFESSION 1429 1438	президент
+T57	COUNTRY 1439 1442	США
+T58	EVENT 1470 1476	аресте
+T59	ORDINAL 1477 1484	первыми
+T60	NATIONALITY 1549 1559	американце
+T61	NATIONALITY 1560 1570	корейского
+T29	ORGANIZATION 781 801	шведского посольства
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T37	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T38	
+R4	IDEOLOGY_OF Arg1:T4 Arg2:T39	
+R5	HEADQUARTERED_IN Arg1:T6 Arg2:T40	
+R6	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R7	ORIGINS_FROM Arg1:T8 Arg2:T5	
+R8	ORIGINS_FROM Arg1:T9 Arg2:T8	
+T33	CRIME 328 359	преступлений против государства
+R9	CONVICTED_OF Arg1:T9 Arg2:T33	
+R10	PARTICIPANT_IN Arg1:T10 Arg2:T41	
+R11	ALTERNATIVE_NAME Arg1:T38 Arg2:T41	
+R12	POINT_IN_TIME Arg1:T41 Arg2:T11	
+R13	LOCATED_IN Arg1:T12 Arg2:T42	
+R14	LOCATED_IN Arg1:T42 Arg2:T13	
+R15	OWNER_OF Arg1:T18 Arg2:T29	
+T62	PROFESSION 767 801	представители шведского посольства
+R16	MEMBER_OF Arg1:T62 Arg2:T29	
+T63	EVENT 758 766	посетили
+R17	PARTICIPANT_IN Arg1:T17 Arg2:T63	
+R18	AGENT Arg1:T62 Arg2:T63	
+R19	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R20	LOCATED_IN Arg1:T21 Arg2:T20	
+R21	LOCATED_IN Arg1:T22 Arg2:T24	
+R22	TAKES_PLACE_IN Arg1:T43 Arg2:T24	
+R23	POINT_IN_TIME Arg1:T43 Arg2:T23	
+R24	PARTICIPANT_IN Arg1:T25 Arg2:T43	
+R25	PARTICIPANT_IN Arg1:T44 Arg2:T43	
+R26	PARTICIPANT_IN Arg1:T45 Arg2:T43	
+R27	ORIGINS_FROM Arg1:T44 Arg2:T25	
+R28	ORIGINS_FROM Arg1:T45 Arg2:T25	
+R29	AGENT Arg1:T46 Arg2:T47	
+R30	POINT_IN_TIME Arg1:T47 Arg2:T26	
+R31	ALTERNATIVE_NAME Arg1:T24 Arg2:T46	
+R32	PARTICIPANT_IN Arg1:T49 Arg2:T47	
+R33	PARTICIPANT_IN Arg1:T49 Arg2:T50	
+R34	WORKPLACE Arg1:T51 Arg2:T53	
+R35	WORKS_AS Arg1:T30 Arg2:T51	
+R36	PARTICIPANT_IN Arg1:T30 Arg2:T50	
+R37	WORKPLACE Arg1:T51 Arg2:T53	
+R38	WORKPLACE Arg1:T55 Arg2:T57	
+R39	WORKS_AS Arg1:T34 Arg2:T55	
+R40	POINT_IN_TIME Arg1:T54 Arg2:T32	
+R41	AGE_IS Arg1:T60 Arg2:T36	
+R42	ORIGINS_FROM Arg1:T60 Arg2:T57	
+T64	NATIONALITY 23 37	гражданина США
+R43	ORIGINS_FROM Arg1:T64 Arg2:T2	
+R44	PARTICIPANT_IN Arg1:T64 Arg2:T37	
+T65	NATIONALITY 121 135	гражданина США
+R45	ORIGINS_FROM Arg1:T65 Arg2:T5	
+R46	PARTICIPANT_IN Arg1:T65 Arg2:T38	
+R47	ALTERNATIVE_NAME Arg1:T65 Arg2:T8	
+R48	TAKES_PLACE_IN Arg1:T41 Arg2:T12	
+T66	EVENT 1197 1212	перешли границу
+R49	TAKES_PLACE_IN Arg1:T66 Arg2:T28	
+R51	AGENT Arg1:T49 Arg2:T66	
+R50	TAKES_PLACE_IN Arg1:T66 Arg2:T46	
+R52	HAS_CAUSE Arg1:T47 Arg2:T66	
+R53	ABBREVIATION Arg1:T31 Arg2:T46	
+T67	EVENT 1297 1308	приехавшего
+R54	AGENT Arg1:T30 Arg2:T67	
+R55	TAKES_PLACE_IN Arg1:T67 Arg2:T31	
+R56	POINT_IN_TIME Arg1:T67 Arg2:T26	
+R57	ORIGINS_FROM Arg1:T60 Arg2:T61	
+N1	Reference T1 Wikidata:Q423	КНДР
+N2	Reference T5 Wikidata:Q30	США
+N4	Reference T13 Wikidata:Q423	КНДР
+N5	Reference T14 Wikidata:Q159	Россия
+N6	Reference T15 Wikidata:Q148	Китайская Народная Республика
+N7	Reference T16 Wikidata:Q326804	Центральное телеграфное агентство Кореи
+N10	Reference T21 Wikidata:Q61	Вашингтон
+N11	Reference T22 Wikidata:Q18808	Пхеньян
+N12	Reference T30 Wikidata:Q1124	Билл Клинтон
+N13	Reference T34 Wikidata:Q23685	Джимми Картер
+N17	Reference T45 Wikidata:Q106039	христианин
+N18	Reference T48 Wikidata:Q1930187	журналист
+N20	Reference T55 Wikidata:Q11696	президент США
+N21	Reference T56 Wikidata:Q30461	президент
+N24	Reference T65 Wikidata:Q846570	
+N16	Reference T42 Wikidata:NULL	нет данных
+N8	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:Q34	Швеция
+N23	Reference T62 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:Q22976182	
+N14	Reference T35 Wikidata:Q884	Республика Корея
+N15	Reference T40 Wikidata:Q423	КНДР
+N25	Reference T61 Wikidata:Q484464	
+N3	Reference T12 Wikidata:Q221734	
+N22	Reference T29 Wikidata:Q10686021	
+N26	Reference T3 Wikidata:Q423	КНДР
+N27	Reference T20 Wikidata:Q30	США
+N28	Reference T57 Wikidata:Q30	США
+N29	Reference T53 Wikidata:Q30	США
+N30	Reference T2 Wikidata:Q30	США
+N31	Reference T31 Wikidata:Q423	КНДР
+N32	Reference T46 Wikidata:Q423	КНДР
+N33	Reference T24 Wikidata:Q423	КНДР
+N34	Reference T4 Wikidata:Q423	КНДР
+N35	Reference T28 Wikidata:Q148	Китайская Народная Республика
+N36	Reference T7 Wikidata:Q326804	Центральное телеграфное агентство Кореи
+N37	Reference T6 Wikidata:Q326804	Центральное телеграфное агентство Кореи
+N38	Reference T44 Wikidata:Q1930187	журналист
+N39	Reference T51 Wikidata:Q11696	президент США
+N40	Reference T52 Wikidata:Q30461	президент
+N41	Reference T8 Wikidata:Q846570	
+N42	Reference T64 Wikidata:Q846570	
+N43	Reference T25 Wikidata:Q846570	
+N44	Reference T60 Wikidata:Q846570	
+N45	Reference T10 Wikidata:NULL	нет данных
+N46	Reference T9 Wikidata:NULL	нет данных
+N47	Reference T19 Wikidata:Q34	Швеция

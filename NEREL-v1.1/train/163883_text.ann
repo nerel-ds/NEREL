@@ -1,0 +1,227 @@
+T1	COUNTRY 0 7	Мексика
+T2	COUNTRY 17 25	Германию
+T3	COUNTRY 37 45	Германия
+T4	COUNTRY 48 55	Мексика
+T5	EVENT 77 79	ЧМ
+T6	COUNTRY 93 100	Мексики
+T7	FACILITY 113 121	Лужниках
+T8	NUMBER 141 142	1
+T9	NUMBER 164 170	78 011
+T10	ORDINAL 194 200	вторым
+T11	FACILITY 213 221	Лужниках
+T12	ORDINAL 234 240	первый
+T13	COUNTRY 267 273	России
+T14	COUNTRY 281 298	Саудовской Аравии
+T15	TIME 301 315	На 35-й минуте
+T17	NATIONALITY 326 336	мексиканец
+T18	PERSON 337 350	Ирвинг Лосано
+T19	TIME 353 367	На 60-й минуте
+T21	EVENT 371 373	ЧМ
+T22	AGE 386 395	29-летний
+T23	PERSON 402 412	Марко Ройс
+T24	PERSON 422 433	Сами Хедиру
+T25	TIME 486 500	На 73-й минуте
+T27	PERSON 518 534	Андреса Гуардадо
+T28	AGE 542 551	39-летний
+T29	NATIONALITY 552 564	мексиканский
+T30	PERSON 574 588	Рафаэль Маркес
+T31	ORDINAL 603 608	пятый
+T32	NATIONALITY 660 670	мексиканец
+T33	PERSON 671 688	Антонио Карбахаль
+T34	DATE 702 720	с 1950 по 1966 год
+T35	NATIONALITY 724 729	немец
+T36	PERSON 730 743	Лотар Маттеус
+T37	EVENT 757 767	Кубке мира
+T38	DATE 768 786	с 1982 по 1998 год
+T39	COUNTRY 804 811	Мексика
+T40	ORDINAL 821 827	первую
+T41	COUNTRY 872 880	Германии
+T42	COUNTRY 892 899	Швецией
+T43	FACILITY 930 934	Фишт
+T44	COUNTRY 939 946	Мексика
+T45	FACILITY 952 964	Ростов Арене
+T46	COUNTRY 972 983	Южной Кореи
+T47	PROFESSION 1033 1045	полузащитник
+T48	COUNTRY 1054 1061	Мексики
+T49	PERSON 1062 1075	Ирвинг Лосано
+T50	ORGANIZATION 1082 1095	Первом канале
+T52	ORGANIZATION 1136 1143	Витесса
+T53	PERSON 1145 1159	Леонид Слуцкий
+T54	PERSON 1162 1178	Кирилл Дементьев
+T55	PERSON 1195 1202	Слуцкий
+T56	PERSON 1215 1225	Навального
+T57	PERSON 1247 1257	Дементьева
+T58	NATIONALITY 1269 1275	немцев
+T59	PERSON 1313 1323	Марко Ройс
+T60	PERSON 1347 1358	Марио Гомес
+T61	COUNTRY 1385 1393	Германии
+T62	PERSON 1515 1524	Навальный
+T63	COUNTRY 1580 1588	Германии
+T64	DATE 1599 1608	1986 года
+T65	ORDINAL 1623 1629	первой
+T66	EVENT 1648 1650	ЧМ
+T67	DATE 1651 1655	1986
+T68	ORGANIZATION 1657 1670	бундесманшафт
+T69	COUNTRY 1704 1712	Германия
+T71	EVENT 29 36	ЧМ-2018
+T72	EVENT 29 31	ЧМ
+T73	EVENT 77 84	ЧМ-2018
+T74	EVENT 1648 1655	ЧМ-1986
+T75	DATE 32 36	2018
+T76	DATE 56 68	17 июня 2018
+T77	DATE 80 84	2018
+T78	COUNTRY 122 130	Германию
+T79	NUMBER 143 144	0
+T80	EVENT 147 154	Встречу
+T16	NATIONALITY 396 401	немец
+T20	NUMBER 459 462	два
+T26	PROFESSION 565 573	защитник
+T81	EVENT 609 617	мундиаль
+T82	DATE 900 907	23 июня
+T83	CITY 952 958	Ростов
+T84	PROFESSION 1120 1143	главный тренер «Витесса
+T85	PROFESSION 1120 1134	главный тренер
+T51	PROFESSION 1336 1346	нападающий
+T87	ORDINAL 1589 1596	впервые
+T88	EVENT 1635 1643	мундиаля
+T89	EVENT 1735 1742	ЧМ-2014
+T90	EVENT 1735 1737	ЧМ
+T91	DATE 1738 1742	2014
+T92	ORDINAL 304 308	35-й
+T93	ORDINAL 356 360	60-й
+T94	ORDINAL 489 493	73-й
+R1	POINT_IN_TIME Arg1:T71 Arg2:T75	
+R2	POINT_IN_TIME Arg1:T73 Arg2:T77	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T71	
+R4	PARTICIPANT_IN Arg1:T2 Arg2:T71	
+R5	TAKES_PLACE_IN Arg1:T73 Arg2:T7	
+R6	POINT_IN_TIME Arg1:T73 Arg2:T76	
+T70	ORGANIZATION 85 100	сборная Мексики
+R7	HEADQUARTERED_IN Arg1:T70 Arg2:T6	
+R8	PARTICIPANT_IN Arg1:T70 Arg2:T73	
+R9	PARTICIPANT_IN Arg1:T78 Arg2:T73	
+R10	TAKES_PLACE_IN Arg1:T80 Arg2:T11	
+T95	ORGANIZATION 259 273	сборной России
+R11	HEADQUARTERED_IN Arg1:T95 Arg2:T13	
+T96	EVENT 253 258	матчу
+R12	PARTICIPANT_IN Arg1:T95 Arg2:T96	
+R13	PARTICIPANT_IN Arg1:T14 Arg2:T96	
+R14	TAKES_PLACE_IN Arg1:T96 Arg2:T11	
+R15	POINT_IN_TIME Arg1:T80 Arg2:T76	
+R16	PARTICIPANT_IN Arg1:T70 Arg2:T80	
+R17	PARTICIPANT_IN Arg1:T78 Arg2:T80	
+R18	ORIGINS_FROM Arg1:T18 Arg2:T17	
+R19	WORKPLACE Arg1:T18 Arg2:T70	
+R20	ORIGINS_FROM Arg1:T23 Arg2:T16	
+R21	AGE_IS Arg1:T23 Arg2:T22	
+R22	WORKS_AS Arg1:T30 Arg2:T26	
+R23	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R24	AGE_IS Arg1:T30 Arg2:T28	
+R25	ORIGINS_FROM Arg1:T33 Arg2:T32	
+R26	PARTICIPANT_IN Arg1:T36 Arg2:T37	
+T97	ORGANIZATION 864 880	сборная Германии
+R27	HEADQUARTERED_IN Arg1:T97 Arg2:T41	
+T98	EVENT 859 863	матч
+R28	PARTICIPANT_IN Arg1:T97 Arg2:T98	
+R29	PARTICIPANT_IN Arg1:T42 Arg2:T98	
+R30	POINT_IN_TIME Arg1:T98 Arg2:T82	
+R31	TAKES_PLACE_IN Arg1:T98 Arg2:T43	
+R32	LOCATED_IN Arg1:T45 Arg2:T83	
+R33	WORKPLACE Arg1:T84 Arg2:T52	
+R34	WORKS_AS Arg1:T53 Arg2:T84	
+R35	WORKPLACE Arg1:T53 Arg2:T52	
+R36	ORIGINS_FROM Arg1:T59 Arg2:T58	
+R37	WORKS_AS Arg1:T60 Arg2:T51	
+R38	ORIGINS_FROM Arg1:T60 Arg2:T58	
+T86	ORGANIZATION 1377 1393	сборная Германии
+R39	HEADQUARTERED_IN Arg1:T86 Arg2:T61	
+R40	WORKPLACE Arg1:T60 Arg2:T86	
+R41	WORKPLACE Arg1:T59 Arg2:T86	
+T99	ORGANIZATION 1572 1588	Сборная Германии
+R42	HEADQUARTERED_IN Arg1:T99 Arg2:T63	
+R43	ALTERNATIVE_NAME Arg1:T99 Arg2:T68	
+R44	POINT_IN_TIME Arg1:T89 Arg2:T91	
+R45	PARTICIPANT_IN Arg1:T69 Arg2:T89	
+R46	PARTICIPANT_IN Arg1:T68 Arg2:T74	
+R47	PARTICIPANT_IN Arg1:T99 Arg2:T88	
+T100	EVENT 1001 1006	матча
+T101	ORGANIZATION 1046 1061	сборной Мексики
+R48	HEADQUARTERED_IN Arg1:T101 Arg2:T48	
+R49	WORKPLACE Arg1:T49 Arg2:T48	
+R50	ORIGINS_FROM Arg1:T49 Arg2:T48	
+R51	WORKS_AS Arg1:T49 Arg2:T47	
+R52	ALTERNATIVE_NAME Arg1:T98 Arg2:T100	
+R53	PARTICIPANT_IN Arg1:T101 Arg2:T100	
+R54	PARTICIPANT_IN Arg1:T49 Arg2:T100	
+R55	ORIGINS_FROM Arg1:T36 Arg2:T35	
+R56	PARTICIPANT_IN Arg1:T23 Arg2:T21	
+R57	ALTERNATIVE_NAME Arg1:T71 Arg2:T21	
+R58	PARTICIPANT_IN Arg1:T24 Arg2:T21	
+R59	PARTICIPANT_IN Arg1:T27 Arg2:T21	
+R60	PARTICIPANT_IN Arg1:T30 Arg2:T21	
+R61	ORIGINS_FROM Arg1:T26 Arg2:T29	
+R62	ORIGINS_FROM Arg1:T27 Arg2:T29	
+R63	ORIGINS_FROM Arg1:T24 Arg2:T16	
+T102	EVENT 316 325	гол забил
+R64	AGENT Arg1:T18 Arg2:T102	
+R65	POINT_IN_TIME Arg1:T102 Arg2:T15	
+R66	SUBEVENT_OF Arg1:T102 Arg2:T80	
+R67	POINT_IN_TIME Arg1:T74 Arg2:T67	
+N2	Reference T11 Wikidata:Q202163	Лужники
+N3	Reference T13 Wikidata:Q159	Россия
+N4	Reference T14 Wikidata:Q189723	Сборная Саудовской Аравии по футболу
+N5	Reference T17 Wikidata:Q1209676	Мексиканцы
+N6	Reference T18 Wikidata:Q17633812	Лосано, Ирвинг
+N7	Reference T24 Wikidata:Q54094	Хедира, Сами
+N8	Reference T27 Wikidata:Q19364	Гуардадо, Андрес
+N10	Reference T30 Wikidata:Q186330	Рафаэль Маркес
+N11	Reference T33 Wikidata:Q265428	Карбахаль, Антонио
+N12	Reference T35 Wikidata:Q42884	немцы
+N13	Reference T36 Wikidata:Q36386	Маттеус, Лотар
+N14	Reference T42 Wikidata:Q160826	сборная Швеции по футболу
+N15	Reference T43 Wikidata:Q1149601	Фишт
+N16	Reference T45 Wikidata:Q4439101	Ростов Арена
+N17	Reference T46 Wikidata:Q543842	сборная Республики Корея по футболу
+N18	Reference T47 Wikidata:Q193592	полузащитник
+N19	Reference T50 Wikidata:Q330067	Первый канал
+N20	Reference T52 Wikidata:Q219233	Витесс
+N23	Reference T55 Wikidata:Q457624	Леонид Викторович Слуцкий
+N24	Reference T56 Wikidata:Q155979	Алексей Анатольевич Навальный
+N25	Reference T59 Wikidata:Q152377	Марко Ройс
+N26	Reference T60 Wikidata:Q45766	Марио Гомес
+N27	Reference T61 Wikidata:Q183	Германия
+N29	Reference T83 Wikidata:Q908	Ростов-на-Дону
+N31	Reference T51 Wikidata:Q280658	нападающий
+N32	Reference T70 Wikidata:Q164089	сборная Мексики по футболу
+N33	Reference T95 Wikidata:Q726080	сборная России по футболу
+N34	Reference T97 Wikidata:Q43310	сборная Германии по футболу
+N35	Reference T101 Wikidata:Q164089	сборная Мексики по футболу
+N1	Reference T1 Wikidata:Q164089	сборная Мексики по футболу
+N9	Reference T29 Wikidata:Q1209676	Мексиканцы
+N28	Reference T26 Wikidata:Q336286	защитник
+N36	Reference T85 Wikidata:Q3246315	
+N30	Reference T84 Wikidata:NULL	нет данных
+N21	Reference T53 Wikidata:Q457624	Леонид Викторович Слуцкий
+N22	Reference T54 Wikidata:NULL	нет данных
+N37	Reference T57 Wikidata:NULL	нет данных
+N38	Reference T68 Wikidata:Q43310	сборная Германии по футболу
+N39	Reference T7 Wikidata:Q202163	Лужники
+N40	Reference T32 Wikidata:Q1209676	Мексиканцы
+N41	Reference T49 Wikidata:Q17633812	Лосано, Ирвинг
+N42	Reference T16 Wikidata:Q42884	немцы
+N43	Reference T58 Wikidata:Q42884	немцы
+N44	Reference T62 Wikidata:Q155979	Алексей Анатольевич Навальный
+N45	Reference T23 Wikidata:Q152377	Марко Ройс
+N46	Reference T69 Wikidata:Q183	Германия
+N47	Reference T63 Wikidata:Q183	Германия
+N48	Reference T3 Wikidata:Q183	Германия
+N49	Reference T2 Wikidata:Q183	Германия
+N50	Reference T78 Wikidata:Q183	Германия
+N51	Reference T41 Wikidata:Q183	Германия
+N52	Reference T44 Wikidata:Q164089	сборная Мексики по футболу
+N53	Reference T4 Wikidata:Q164089	сборная Мексики по футболу
+N54	Reference T48 Wikidata:Q164089	сборная Мексики по футболу
+N55	Reference T39 Wikidata:Q164089	сборная Мексики по футболу
+N56	Reference T6 Wikidata:Q164089	сборная Мексики по футболу
+N57	Reference T99 Wikidata:Q43310	сборная Германии по футболу
+N58	Reference T86 Wikidata:Q43310	сборная Германии по футболу

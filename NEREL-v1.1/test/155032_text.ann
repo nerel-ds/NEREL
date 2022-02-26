@@ -1,0 +1,81 @@
+T1	ORGANIZATION 0 12	Роскомнадзор
+T2	PRODUCT 40 48	Telegram
+T3	PRODUCT 71 79	Telegram
+T4	ORGANIZATION 80 92	Роскомнадзор
+T5	ORGANIZATION 119 141	Таганский районный суд
+T6	CITY 149 155	Москвы
+T7	PRODUCT 181 189	Telegram
+T8	COUNTRY 192 198	России
+T11	ORGANIZATION 383 397	Роскомнадзором
+T14	ORGANIZATION 444 466	Таганский районный суд
+T16	CITY 469 475	Москвы
+T17	COUNTRY 527 533	России
+T18	ORGANIZATION 662 665	ФСБ
+T19	COUNTRY 666 672	России
+T20	LAW 762 775	п 4 1 ст 10 1
+T21	DATE 793 798	Вчера
+T22	DATE 805 818	двухнедельный
+T23	ORGANIZATION 849 861	Роскомнадзор
+T24	ORGANIZATION 874 882	Telegram
+T25	ORGANIZATION 896 899	ФСБ
+T26	PERSON 1047 1058	Павел Дуров
+T27	ORGANIZATION 119 155	Таганский районный суд города Москвы
+T28	EVENT 93 116	подал исковое заявление
+T9	ORDINAL 295 299	15 4
+T10	LAW 292 382	ст 15 4 Федерального закона Об информации информационных технологиях и о защите информации
+T29	LAW 300 382	Федерального закона Об информации информационных технологиях и о защите информации
+T12	DATE 398 416	в пятницу 6 апреля
+T13	EVENT 417 441	подано исковое заявление
+T15	ORGANIZATION 444 475	Таганский районный суд г Москвы
+T30	PRODUCT 607 615	Интернет
+T31	ORGANIZATION 662 672	ФСБ России
+T32	CRIME 673 747	неисполнения компанией обязанности организатора распространения информации
+T33	ORDINAL 764 767	4 1
+T34	ORDINAL 771 775	10 1
+R1	AGENT Arg1:T4 Arg2:T28	
+T36	DISTRICT 119 128	Таганский
+R2	HEADQUARTERED_IN Arg1:T27 Arg2:T36	
+R3	HEADQUARTERED_IN Arg1:T27 Arg2:T6	
+R4	LOCATED_IN Arg1:T36 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T27 Arg2:T28	
+T37	DISTRICT 444 453	Таганский
+R6	HEADQUARTERED_IN Arg1:T15 Arg2:T37	
+R7	HEADQUARTERED_IN Arg1:T15 Arg2:T16	
+R8	LOCATED_IN Arg1:T37 Arg2:T16	
+R9	PARTICIPANT_IN Arg1:T15 Arg2:T13	
+R10	POINT_IN_TIME Arg1:T13 Arg2:T12	
+R11	AGENT Arg1:T11 Arg2:T13	
+R12	LOCATED_IN Arg1:T6 Arg2:T8	
+R13	LOCATED_IN Arg1:T16 Arg2:T17	
+R14	HEADQUARTERED_IN Arg1:T31 Arg2:T19	
+R16	CONVICTED_OF Arg1:T24 Arg2:T32	
+R17	INANIMATE_INVOLVED Arg1:T7 Arg2:T28	
+R18	PART_OF Arg1:T10 Arg2:T29	
+R19	OWNER_OF Arg1:T26 Arg2:T24	
+N1	Reference T7 Wikidata:Q15616276	Telegram
+N2	Reference T11 Wikidata:Q129597	Роскомнадзор
+N3	Reference T16 Wikidata:Q649	Москва
+N4	Reference T17 Wikidata:Q159	Россия
+N5	Reference T18 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N7	Reference T24 Wikidata:Q15616276	Telegram
+N8	Reference T26 Wikidata:Q149067	Павел Дуров
+N11	Reference T30 Wikidata:Q75	Интернет
+N12	Reference T31 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N13	Reference T37 Wikidata:Q942798	Таганский район
+N14	Reference T5 Wikidata:NULL	нет данных
+N15	Reference T27 Wikidata:NULL	нет данных
+N9	Reference T10 Wikidata:NULL	нет данных
+N10	Reference T29 Wikidata:Q4481770	
+N16	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T20 Wikidata:NULL	нет данных
+N17	Reference T2 Wikidata:Q15616276	Telegram
+N18	Reference T3 Wikidata:Q15616276	Telegram
+N19	Reference T4 Wikidata:Q129597	Роскомнадзор
+N20	Reference T1 Wikidata:Q129597	Роскомнадзор
+N21	Reference T23 Wikidata:Q129597	Роскомнадзор
+N22	Reference T6 Wikidata:Q649	Москва
+N23	Reference T19 Wikidata:Q159	Россия
+N24	Reference T8 Wikidata:Q159	Россия
+N25	Reference T25 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N26	Reference T36 Wikidata:Q942798	Таганский район
+N27	Reference T14 Wikidata:NULL	нет данных

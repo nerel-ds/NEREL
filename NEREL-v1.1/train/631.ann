@@ -1,0 +1,187 @@
+T1	COUNTRY 0 10	Российские
+T2	PROFESSION 31 46	глава ФСБ Чечни
+T3	PROFESSION 49 60	зампред НАК
+T4	PERSON 62 78	Владимир Кулишов
+T5	PROFESSION 108 143	руководителя Пограничной службы ФСБ
+T6	PROFESSION 146 201	первого замдиректора Федеральной службы безопасности РФ
+T7	DATE 236 248	более 30 лет
+T8	STATE_OR_PROVINCE 259 277	Ростовской области
+T9	ORGANIZATION 286 333	Киевский институт инженеров гражданской авиации
+T10	ORGANIZATION 341 378	Высшую Краснознаменную школу КГБ СССР
+T11	DATE 381 388	С 2000г
+T12	ORGANIZATION 403 430	центральном аппарате ФСБ РФ
+T13	CITY 433 439	Москве
+T14	DATE 441 454	Спустя 3 года
+T16	DATE 507 514	В 2004г
+T17	PROFESSION 542 609	первого замначальника управления по борьбе с терроризмом ФСБ России
+T18	PROFESSION 622 657	начальником управления ФСБ по Чечне
+T19	DATE 660 671	Летом 2008г
+T20	NUMBER 695 698	два
+T21	PROFESSION 707 730	замдиректора ФСБ России
+T22	PROFESSION 733 802	заместителя руководителя Национального антитеррористического комитета
+T23	ORGANIZATION 758 802	Национального антитеррористического комитета
+T24	ORGANIZATION 804 807	НАК
+T25	PROFESSION 830 851	главного пограничника
+T26	PROFESSION 859 876	генерал-полковник
+T27	PERSON 884 903	Владимира Проничева
+T28	DATE 942 949	1 марта
+T29	AGE 966 972	60 лет
+T30	PROFESSION 1052 1070	главы Погранслужбы
+T32	PERSON 1093 1103	В.Кулишова
+T33	ORGANIZATION 37 46	ФСБ Чечни
+T34	STATE_OR_PROVINCE 41 46	Чечни
+T35	ORGANIZATION 57 60	НАК
+T36	ORGANIZATION 121 143	Пограничной службы ФСБ
+T37	ORGANIZATION 140 143	ФСБ
+T38	ORGANIZATION 167 201	Федеральной службы безопасности РФ
+T39	COUNTRY 199 201	РФ
+T40	PROFESSION 304 333	инженеров гражданской авиации
+T41	CITY 286 294	Киевский
+T42	PROFESSION 304 313	инженеров
+T43	ORGANIZATION 370 378	КГБ СССР
+T44	COUNTRY 374 378	СССР
+T45	ORGANIZATION 424 430	ФСБ РФ
+T46	COUNTRY 428 430	РФ
+T15	STATE_OR_PROVINCE 486 505	Саратовской области
+T47	ORGANIZATION 599 609	ФСБ России
+T48	COUNTRY 603 609	России
+T49	PROFESSION 154 201	замдиректора Федеральной службы безопасности РФ
+T50	ORDINAL 146 153	первого
+T51	ORDINAL 542 549	первого
+T52	ORGANIZATION 564 609	управления по борьбе с терроризмом ФСБ России
+T53	ORGANIZATION 645 657	ФСБ по Чечне
+T54	STATE_OR_PROVINCE 652 657	Чечне
+T55	PERSON 673 682	В.Кулишов
+T56	ORGANIZATION 720 730	ФСБ России
+T57	COUNTRY 724 730	России
+T58	PROFESSION 745 802	руководителя Национального антитеррористического комитета
+T59	PROFESSION 839 851	пограничника
+T60	ORGANIZATION 1058 1070	Погранслужбы
+T31	ORGANIZATION 37 40	ФСБ
+R1	WORKS_AS Arg1:T4 Arg2:T3	
+R2	WORKPLACE Arg1:T4 Arg2:T35	
+R3	WORKS_AS Arg1:T4 Arg2:T2	
+R4	WORKPLACE Arg1:T4 Arg2:T33	
+R5	HEADQUARTERED_IN Arg1:T33 Arg2:T34	
+T61	EVENT 80 91	назначенный
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T61	
+R7	WORKS_AS Arg1:T4 Arg2:T5	
+R8	WORKPLACE Arg1:T5 Arg2:T36	
+T62	ORGANIZATION 121 139	Пограничной службы
+R9	WORKS_AS Arg1:T4 Arg2:T6	
+T63	ORGANIZATION 167 198	Федеральной службы безопасности
+R10	WORKPLACE Arg1:T6 Arg2:T38	
+R11	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+R12	PLACE_OF_BIRTH Arg1:T4 Arg2:T8	
+R13	SCHOOLS_ATTENDED Arg1:T4 Arg2:T9	
+R14	HEADQUARTERED_IN Arg1:T9 Arg2:T41	
+T64	ORGANIZATION 370 373	КГБ
+R15	SCHOOLS_ATTENDED Arg1:T4 Arg2:T43	
+R16	WORKPLACE Arg1:T4 Arg2:T12	
+T65	ORGANIZATION 424 427	ФСБ
+R17	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+T66	ORGANIZATION 465 505	управление Службы по Саратовской области
+R18	HEADQUARTERED_IN Arg1:T66 Arg2:T15	
+R19	WORKS_AS Arg1:T4 Arg2:T17	
+R20	WORKPLACE Arg1:T4 Arg2:T52	
+T67	ORGANIZATION 634 657	управления ФСБ по Чечне
+T68	ORGANIZATION 645 648	ФСБ
+R21	WORKS_AS Arg1:T4 Arg2:T18	
+R22	WORKPLACE Arg1:T4 Arg2:T67	
+R23	ALTERNATIVE_NAME Arg1:T4 Arg2:T55	
+R24	WORKS_AS Arg1:T55 Arg2:T21	
+T69	ORGANIZATION 720 723	ФСБ
+R25	WORKPLACE Arg1:T55 Arg2:T56	
+R26	ABBREVIATION Arg1:T23 Arg2:T24	
+R27	WORKS_AS Arg1:T55 Arg2:T22	
+R28	SUBORDINATE_OF Arg1:T22 Arg2:T58	
+R29	SUBORDINATE_OF Arg1:T55 Arg2:T58	
+T70	EVENT 920 928	отставку
+R30	WORKS_AS Arg1:T27 Arg2:T25	
+R31	AGENT Arg1:T27 Arg2:T70	
+R32	WORKS_AS Arg1:T55 Arg2:T25	
+R33	AGE_IS Arg1:T27 Arg2:T29	
+R34	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R35	WORKPLACE Arg1:T3 Arg2:T35	
+T71	DATE 92 99	сегодня
+R36	POINT_IN_TIME Arg1:T61 Arg2:T71	
+R37	PART_OF Arg1:T36 Arg2:T37	
+R38	OWNER_OF Arg1:T43 Arg2:T10	
+R39	PART_OF Arg1:T12 Arg2:T45	
+R40	WORKPLACE Arg1:T17 Arg2:T52	
+R41	PART_OF Arg1:T52 Arg2:T47	
+R42	PART_OF Arg1:T67 Arg2:T53	
+R43	WORKPLACE Arg1:T21 Arg2:T56	
+R44	HEADQUARTERED_IN Arg1:T56 Arg2:T57	
+R45	WORKPLACE Arg1:T58 Arg2:T23	
+R46	WORKPLACE Arg1:T22 Arg2:T23	
+R47	WORKS_AS Arg1:T55 Arg2:T26	
+R48	LOCATED_IN Arg1:T34 Arg2:T1	
+R49	HEADQUARTERED_IN Arg1:T43 Arg2:T44	
+R50	HEADQUARTERED_IN Arg1:T65 Arg2:T46	
+R51	PART_OF Arg1:T66 Arg2:T45	
+R52	WORKPLACE Arg1:T4 Arg2:T66	
+R53	HEADQUARTERED_IN Arg1:T47 Arg2:T48	
+R54	WORKPLACE Arg1:T30 Arg2:T60	
+T72	EVENT 455 464	возглавил
+R55	PARTICIPANT_IN Arg1:T66 Arg2:T72	
+R56	AGENT Arg1:T4 Arg2:T72	
+R57	POINT_IN_TIME Arg1:T72 Arg2:T14	
+N6	Reference T8 Wikidata:Q3573	Ростовская область
+N7	Reference T9 Wikidata:Q2387454	Национальный авиационный университет
+N8	Reference T10 Wikidata:Q2387574	Академия Федеральной службы безопасности России
+N10	Reference T13 Wikidata:Q649	Москва
+N17	Reference T26 Wikidata:Q155327	генерал-полковник
+N18	Reference T27 Wikidata:Q1346545	Проничев, Владимир Егорович
+N20	Reference T32 Wikidata:Q48051	Виктор Георгиевич Куликов
+N22	Reference T34 Wikidata:Q5187	Чечня
+N23	Reference T36 Wikidata:Q967128	Пограничная служба Федеральной службы безопасности Российской Федерации
+N24	Reference T38 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N27	Reference T42 Wikidata:Q81096	инженер
+N28	Reference T43 Wikidata:Q80919	Комитет государственной безопасности СССР
+N29	Reference T44 Wikidata:Q15180	СССР
+N30	Reference T45 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N31	Reference T46 Wikidata:Q159	Россия
+N32	Reference T15 Wikidata:Q5334	Саратовская область
+N33	Reference T47 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N36	Reference T53 Wikidata:Q5187	Чечня
+N37	Reference T57 Wikidata:Q159	Россия
+N41	Reference T63 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N42	Reference T64 Wikidata:Q80919	Комитет государственной безопасности СССР
+N45	Reference T69 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N21	Reference T33 Wikidata:NULL	нет данных
+N3	Reference T3 Wikidata:NULL	нет данных
+N2	Reference T2 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:Q159	Россия
+N4	Reference T5 Wikidata:NULL	нет данных
+N40	Reference T62 Wikidata:Q967128	Пограничная служба Федеральной службы безопасности Российской Федерации
+N5	Reference T6 Wikidata:NULL	нет данных
+N34	Reference T49 Wikidata:NULL	нет данных
+N26	Reference T41 Wikidata:Q1899	Киев
+N25	Reference T40 Wikidata:NULL	нет данных
+N9	Reference T12 Wikidata:NULL	нет данных
+N43	Reference T66 Wikidata:NULL	нет данных
+N11	Reference T17 Wikidata:NULL	нет данных
+N35	Reference T52 Wikidata:NULL	нет данных
+N12	Reference T18 Wikidata:NULL	нет данных
+N44	Reference T67 Wikidata:NULL	нет данных
+N13	Reference T21 Wikidata:NULL	нет данных
+N14	Reference T22 Wikidata:NULL	нет данных
+N38	Reference T58 Wikidata:NULL	нет данных
+N15	Reference T23 Wikidata:Q2906359	
+N16	Reference T25 Wikidata:NULL	нет данных
+N39	Reference T59 Wikidata:NULL	нет данных
+N19	Reference T30 Wikidata:NULL	нет данных
+N46	Reference T60 Wikidata:Q967128	Пограничная служба Федеральной службы безопасности Российской Федерации
+N47	Reference T4 Wikidata:Q48051	Виктор Георгиевич Куликов
+N48	Reference T55 Wikidata:Q48051	Виктор Георгиевич Куликов
+N49	Reference T54 Wikidata:Q5187	Чечня
+N50	Reference T39 Wikidata:Q159	Россия
+N51	Reference T56 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N52	Reference T48 Wikidata:Q159	Россия
+N53	Reference T68 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N54	Reference T37 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N55	Reference T65 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N56	Reference T31 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N57	Reference T35 Wikidata:Q2906359	
+N58	Reference T24 Wikidata:Q2906359	

@@ -1,0 +1,139 @@
+T1	ORGANIZATION 0 12	Роскомнадзор
+T2	ORGANIZATION 26 32	Amazon
+T3	PRODUCT 42 61	Amazon Web Services
+T4	DATE 62 79	21 июня 2016 года
+T5	ORGANIZATION 106 118	Роскомнадзор
+T6	COUNTRY 147 153	России
+T9	PRODUCT 238 258	'Amazon Web Services
+T10	LAW 274 297	2-6-27/2016-04-06-25-АИ
+T11	DATE 301 317	11 мая 2016 года
+T17	PRODUCT 394 403	Amazon S3
+T24	PROFESSION 449 474	Официальный представитель
+T25	ORGANIZATION 475 488	Роскомнадзора
+T26	PERSON 489 506	Вадим Ампелонский
+T27	ORGANIZATION 519 528	Известиям
+T29	LAW 594 691	ФЗ N 244 «О государственном регулировании деятельности по организации и проведению азартных игр…»
+T31	ORGANIZATION 740 743	ФНС
+T33	ORGANIZATION 889 902	Роскомнадзору
+T34	ORGANIZATION 933 945	Роскомнадзор
+T35	ORGANIZATION 959 967	'Amazon'
+T37	PRODUCT 1137 1147	'Amazon S3
+T38	PRODUCT 1217 1227	'888poker'
+T39	COUNTRY 1256 1262	России
+T40	ORGANIZATION 1297 1305	Известия
+T41	PRODUCT 1369 1379	Amazon.com
+T42	ORGANIZATION 1448 1454	Amazon
+T43	PRODUCT 1455 1457	S3
+T44	ORGANIZATION 1527 1534	NetFlix
+T45	ORGANIZATION 1536 1542	Airbnb
+T46	ORGANIZATION 1544 1551	Twitter
+T47	ORGANIZATION 1553 1560	Dropbox
+T48	NUMBER 1616 1624	71,6 млн
+T49	NUMBER 1650 1658	21,4 млн
+T50	COUNTRY 1677 1683	России
+T51	ORGANIZATION 1772 1785	Роскомсвободы
+T52	DATE 1898 1918	осенью прошлого года
+T53	NUMBER 1951 1958	7 тысяч
+T66	ORGANIZATION 2108 2113	РОЦИТ
+T67	PERSON 2114 2133	Сергея Гребенникова
+T68	ORGANIZATION 2151 2160	Известиям
+R1	WORKS_AS Arg1:T26 Arg2:T8
+R6	WORKS_AS Arg1:T67 Arg2:T15
+T8	PROFESSION 449 488	Официальный представитель Роскомнадзора
+T12	ORGANIZATION 394 400	Amazon
+T13	ORGANIZATION 1138 1144	Amazon
+T14	PRODUCT 1448 1457	Amazon S3
+T15	PROFESSION 2102 2113	главы РОЦИТ
+T16	ORGANIZATION 42 48	Amazon
+T18	LAW 594 602	ФЗ N 244
+T19	LAW 604 689	О государственном регулировании деятельности по организации и проведению азартных игр
+T20	ORGANIZATION 710 738	Федеральную налоговую службу
+T21	ORGANIZATION 1369 1375	Amazon
+R3	WORKPLACE Arg1:T26 Arg2:T25	
+T22	PROFESSION 1802 1812	налоговики
+T23	ORGANIZATION 238 245	'Amazon
+R4	PRODUCES Arg1:T16 Arg2:T3	
+R7	OWNER_OF Arg1:T23 Arg2:T9	
+R8	OWNER_OF Arg1:T12 Arg2:T17	
+R9	OWNER_OF Arg1:T13 Arg2:T37	
+R10	OWNER_OF Arg1:T21 Arg2:T41	
+R5	OWNER_OF Arg1:T42 Arg2:T14	
+R11	WORKPLACE Arg1:T67 Arg2:T66	
+T54	EVENT 13 25	заблокировал
+R12	AGENT Arg1:T1 Arg2:T54	
+T55	EVENT 119 132	внёс в список
+R13	AGENT Arg1:T5 Arg2:T55	
+R14	POINT_IN_TIME Arg1:T55 Arg2:T4	
+R15	DATE_OF_CREATION Arg1:T10 Arg2:T11	
+T56	EVENT 318 328	блокировка
+R16	ALTERNATIVE_NAME Arg1:T54 Arg2:T56	
+R2	ABBREVIATION Arg1:T20 Arg2:T31	
+T30	EVENT 1042 1052	блокировка
+R17	PARTICIPANT_IN Arg1:T34 Arg2:T30	
+T57	PRODUCT 1853 1859	Рунета
+R18	TAKES_PLACE_IN Arg1:T54 Arg2:T2	
+R19	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R20	TAKES_PLACE_IN Arg1:T55 Arg2:T6	
+R21	PARTICIPANT_IN Arg1:T23 Arg2:T55	
+R22	WORKPLACE Arg1:T8 Arg2:T25	
+T7	DATE 548 565	В конце 2015 года
+T28	EVENT 566 581	вступили в силу
+R23	POINT_IN_TIME Arg1:T28 Arg2:T7	
+T58	ORDINAL 599 602	244
+T32	DATE 836 854	в начале 2016 года
+T59	PROFESSION 921 931	чиновников
+R24	PARTICIPANT_IN Arg1:T35 Arg2:T30	
+R25	WORKPLACE Arg1:T15 Arg2:T66	
+R26	POINT_IN_TIME Arg1:T56 Arg2:T11	
+R27	INANIMATE_INVOLVED Arg1:T29 Arg2:T28	
+T36	LAW 126 160	список запрещённых в России сайтов
+R28	INANIMATE_INVOLVED Arg1:T36 Arg2:T55	
+R29	ORIGINS_FROM Arg1:T36 Arg2:T6	
+N1	Reference T1 Wikidata:Q129597	Роскомнадзор
+N2	Reference T3 Wikidata:Q456157	Amazon Web Services
+N3	Reference T9 Wikidata:Q456157	Amazon Web Services
+N5	Reference T17 Wikidata:Q2593067	Amazon S3
+N9	Reference T31 Wikidata:Q4481672	Федеральная налоговая служба
+N10	Reference T35 Wikidata:Q3884	Amazon
+N11	Reference T37 Wikidata:Q2593067	Amazon S3
+N12	Reference T39 Wikidata:Q159	Россия
+N13	Reference T41 Wikidata:Q3884	Amazon
+N14	Reference T42 Wikidata:Q3884	Amazon
+N15	Reference T43 Wikidata:Q2593067	Amazon S3
+N16	Reference T44 Wikidata:Q907311	Netflix
+N17	Reference T45 Wikidata:Q63327	Airbnb
+N18	Reference T46 Wikidata:Q918	Твиттер
+N19	Reference T47 Wikidata:Q142539	Dropbox
+N20	Reference T51 Wikidata:Q20680002	Роскомсвобода
+N23	Reference T68 Wikidata:Q753932	Известия
+N25	Reference T15 Wikidata:Q4396944	Ролит
+N28	Reference T23 Wikidata:Q3884	Amazon
+N29	Reference T57 Wikidata:Q622148	Рунет
+N30	Reference T59 Wikidata:Q382887	чиновник
+N4	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T26 Wikidata:Q19507102	
+N6	Reference T24 Wikidata:Q17221	
+N24	Reference T8 Wikidata:NULL	нет данных
+N32	Reference T38 Wikidata:Q16242469	
+N33	Reference T22 Wikidata:Q66060370	
+N21	Reference T66 Wikidata:Q4391970	
+N22	Reference T67 Wikidata:NULL	нет данных
+N8	Reference T29 Wikidata:Q19233618	
+N27	Reference T19 Wikidata:Q19233618	
+N26	Reference T18 Wikidata:Q19233618	
+N31	Reference T36 Wikidata:Q4174036	Единый реестр запрещённых сайтов
+N34	Reference T5 Wikidata:Q129597	Роскомнадзор
+N35	Reference T25 Wikidata:Q129597	Роскомнадзор
+N36	Reference T34 Wikidata:Q129597	Роскомнадзор
+N37	Reference T33 Wikidata:Q129597	Роскомнадзор
+N38	Reference T14 Wikidata:Q2593067	Amazon S3
+N39	Reference T20 Wikidata:Q4481672	Федеральная налоговая служба
+N40	Reference T6 Wikidata:Q159	Россия
+N41	Reference T50 Wikidata:Q159	Россия
+N42	Reference T13 Wikidata:Q3884	Amazon
+N43	Reference T12 Wikidata:Q3884	Amazon
+N44	Reference T16 Wikidata:Q3884	Amazon
+N45	Reference T2 Wikidata:Q3884	Amazon
+N46	Reference T21 Wikidata:Q3884	Amazon
+N47	Reference T40 Wikidata:Q753932	Известия
+N48	Reference T27 Wikidata:Q753932	Известия

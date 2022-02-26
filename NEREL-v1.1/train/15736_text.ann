@@ -1,0 +1,176 @@
+T1	CITY 2 14	Лос-Анжелесе
+T3	AWARD 39 43	Эмми
+T4	CITY 47 60	Лос-Анджелесе
+T5	EVENT 94 130	63-я церемония вручения премий «Эмми
+T6	AWARD 126 130	Эмми
+T7	PROFESSION 180 187	актриса
+T8	PERSON 188 198	Джейн Линч
+T9	WORK_OF_ART 202 222	Американская семейка
+T10	WORK_OF_ART 225 238	Modern Family
+T11	AWARD 250 254	Эмми
+T12	NUMBER 321 325	трех
+T13	AWARD 378 382	Эмми
+T14	ORDINAL 452 459	второго
+T15	PERSON 490 508	Джулианна Маргулис
+T16	WORK_OF_ART 575 587	Хорошей жене
+T17	WORK_OF_ART 590 603	The Good Wife
+T18	PERSON 650 662	Кайл Чандлер
+T19	WORK_OF_ART 667 687	Огней ночной пятницы
+T20	WORK_OF_ART 690 709	Friday Night Lights
+T21	PERSON 713 728	Питер Динклейдж
+T22	WORK_OF_ART 764 778	Игры престолов
+T23	WORK_OF_ART 781 796	Game of Thrones
+T24	PERSON 882 889	Тириона
+T25	WORK_OF_ART 901 918	Американский идол
+T26	WORK_OF_ART 921 934	American Idol
+T27	COUNTRY 967 979	американском
+T28	COUNTRY 993 1003	российский
+T29	WORK_OF_ART 1018 1033	Народный артист
+T30	WORK_OF_ART 1121 1140	Удивительным гонкам
+T31	WORK_OF_ART 1143 1159	The Amazing Race
+T32	WORK_OF_ART 1209 1216	Безумцы
+T34	ORDINAL 1230 1239	четвертый
+T35	AWARD 1255 1259	Эмми
+T36	PERSON 1426 1441	Мартин Скорсезе
+T37	WORK_OF_ART 1497 1515	Подпольной империи
+T40	PERSON 1605 1617	Кейт Уинслет
+T41	WORK_OF_ART 1628 1640	Милдред Пирс
+T44	AGE 1661 1670	76-летняя
+T45	PERSON 1671 1681	Мэгги Смит
+T46	ORDINAL 1707 1714	второго
+T47	WORK_OF_ART 1747 1768	Доунтонском аббатстве
+T49	EVENT 22 37	вручение премии
+T50	DATE 61 86	в воскресенье 18 сентября
+T51	EVENT 109 124	вручения премий
+T53	ORDINAL 94 98	63-я
+T54	PROFESSION 525 533	актрисой
+T55	PROFESSION 613 620	актером
+T56	PROFESSION 834 839	актер
+T57	PROFESSION 1474 1486	режиссерскую
+T58	PROFESSION 1698 1706	актрисой
+T59	AWARD 1698 1720	актрисой второго плана
+T60	PROFESSION 834 853	актер второго плана
+T61	AWARD 827 853	Лучший актер второго плана
+T62	AWARD 1088 1109	Лучший реалити-проект
+T33	WORK_OF_ART 1219 1226	Mad Men
+T38	WORK_OF_ART 1518 1534	Boardwalk Empire
+T39	WORK_OF_ART 1643 1657	Mildred Pierce
+T42	NATIONALITY 202 214	Американская
+R1	TAKES_PLACE_IN Arg1:T49 Arg2:T1	
+R2	POINT_IN_TIME Arg1:T5 Arg2:T50	
+R3	PARTICIPANT_IN Arg1:T8 Arg2:T5	
+R4	WORKS_AS Arg1:T8 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R6	AWARDED_WITH Arg1:T9 Arg2:T11	
+R7	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R8	PARTICIPANT_IN Arg1:T15 Arg2:T16	
+R9	WORKS_AS Arg1:T15 Arg2:T54	
+T43	AWARD 518 533	лучшей актрисой
+R10	AWARDED_WITH Arg1:T15 Arg2:T43	
+T48	AWARD 606 620	Лучшим актером
+R11	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R12	PARTICIPANT_IN Arg1:T18 Arg2:T19	
+R13	WORKS_AS Arg1:T18 Arg2:T55	
+R14	AWARDED_WITH Arg1:T18 Arg2:T48	
+R15	PARTICIPANT_IN Arg1:T21 Arg2:T22	
+R16	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R17	WORKS_AS Arg1:T21 Arg2:T56	
+R18	AWARDED_WITH Arg1:T21 Arg2:T61	
+T63	COUNTRY 921 929	American
+T64	COUNTRY 901 913	Американский
+R19	ALTERNATIVE_NAME Arg1:T64 Arg2:T63	
+R20	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R21	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R22	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+R23	AWARDED_WITH Arg1:T32 Arg2:T35	
+R24	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R25	WORKS_AS Arg1:T36 Arg2:T57	
+R26	PRODUCES Arg1:T36 Arg2:T37	
+R27	PRODUCES Arg1:T57 Arg2:T37	
+T65	AWARD 1549 1583	лучшую женскую роль в мини-сериале
+R28	PARTICIPANT_IN Arg1:T40 Arg2:T41	
+R29	ALTERNATIVE_NAME Arg1:T41 Arg2:T39	
+R30	AWARDED_WITH Arg1:T40 Arg2:T65	
+R31	AGE_IS Arg1:T45 Arg2:T44	
+R32	WORKS_AS Arg1:T45 Arg2:T58	
+R33	AWARDED_WITH Arg1:T45 Arg2:T59	
+R34	PARTICIPANT_IN Arg1:T45 Arg2:T47	
+T66	AWARD 387 401;412 416	лучшую мужскую роль
+R35	AWARDED_WITH Arg1:T9 Arg2:T66	
+T67	AWARD 387 393;404 416	лучшую женскую роль
+R36	AWARDED_WITH Arg1:T9 Arg2:T66	
+R37	AWARDED_WITH Arg1:T9 Arg2:T67	
+T68	AWARD 439 465	женскую роль второго плана
+R38	AWARDED_WITH Arg1:T9 Arg2:T68	
+R39	AWARDED_WITH Arg1:T9 Arg2:T13	
+R40	AWARDED_WITH Arg1:T16 Arg2:T43	
+R41	AWARDED_WITH Arg1:T19 Arg2:T48	
+R42	AWARDED_WITH Arg1:T22 Arg2:T61	
+R43	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R44	ORIGINS_FROM Arg1:T26 Arg2:T27	
+R45	AWARDED_WITH Arg1:T30 Arg2:T62	
+R46	AWARDED_WITH Arg1:T41 Arg2:T65	
+T69	AWARD 1265 1292	лучший драматический сериал
+R47	AWARDED_WITH Arg1:T32 Arg2:T69	
+R48	INANIMATE_INVOLVED Arg1:T3 Arg2:T49	
+R49	ALTERNATIVE_NAME Arg1:T49 Arg2:T5	
+T2	AWARD 260 284	лучший комедийный сериал
+R50	PRODUCES Arg1:T21 Arg2:T24	
+N1	Reference T1 Wikidata:Q104994	Лос-Анджелес
+N2	Reference T4 Wikidata:Q65	Лос-Анджелес
+N3	Reference T8 Wikidata:Q228852	Джейн Линч
+N4	Reference T10 Wikidata:Q16756	Американская семейка
+N5	Reference T15 Wikidata:Q229714	Джулианна Маргулис
+N6	Reference T16 Wikidata:Q19570	Хорошая жена
+N7	Reference T18 Wikidata:Q359604	Кайл Чендлер
+N8	Reference T19 Wikidata:Q4507	Огни ночной пятницы
+N9	Reference T21 Wikidata:Q310937	Питер Динклэйдж
+N10	Reference T22 Wikidata:Q23572	Игра престолов
+N11	Reference T26 Wikidata:Q201052	American Idol
+N12	Reference T27 Wikidata:Q16641	Американское Самоа
+N13	Reference T28 Wikidata:Q2428799	Российская
+N14	Reference T29 Wikidata:Q4313301	Народный артист
+N17	Reference T36 Wikidata:Q41148	Мартин Скорсезе
+N18	Reference T37 Wikidata:Q585758	Подпольная империя
+N19	Reference T40 Wikidata:Q202765	Кейт Уинслет
+N20	Reference T41 Wikidata:Q1152351	Милдред Пирс
+N21	Reference T45 Wikidata:Q172653	Мэгги Смит
+N23	Reference T55 Wikidata:Q33999	актёр
+N25	Reference T58 Wikidata:Q33999	актёр
+N26	Reference T59 Wikidata:Q1416106	роль второго плана
+N27	Reference T60 Wikidata:Q1416106	роль второго плана
+N30	Reference T33 Wikidata:Q223977	Безумцы
+N31	Reference T42 Wikidata:Q846570	
+N39	Reference T2 Wikidata:NULL	нет данных
+N36	Reference T67 Wikidata:NULL	нет данных
+N35	Reference T66 Wikidata:NULL	нет данных
+N37	Reference T68 Wikidata:NULL	нет данных
+N32	Reference T43 Wikidata:NULL	нет данных
+N33	Reference T48 Wikidata:NULL	нет данных
+N28	Reference T61 Wikidata:NULL	нет данных
+N40	Reference T24 Wikidata:Q2076759	
+N29	Reference T62 Wikidata:NULL	нет данных
+N15	Reference T30 Wikidata:Q641613	
+N16	Reference T35 Wikidata:Q123737	Эмми
+N38	Reference T69 Wikidata:NULL	нет данных
+N24	Reference T57 Wikidata:Q2526255	кинорежиссёр
+N34	Reference T65 Wikidata:NULL	нет данных
+N22	Reference T47 Wikidata:Q83071	
+N41	Reference T9 Wikidata:Q16756	Американская семейка
+N42	Reference T17 Wikidata:Q19570	Хорошая жена
+N43	Reference T20 Wikidata:Q4507	Огни ночной пятницы
+N44	Reference T23 Wikidata:Q23572	Игра престолов
+N45	Reference T25 Wikidata:Q201052	American Idol
+N46	Reference T63 Wikidata:Q16641	Американское Самоа
+N47	Reference T64 Wikidata:Q16641	Американское Самоа
+N48	Reference T38 Wikidata:Q585758	Подпольная империя
+N49	Reference T39 Wikidata:Q1152351	Милдред Пирс
+N50	Reference T56 Wikidata:Q33999	актёр
+N51	Reference T7 Wikidata:Q33999	актёр
+N52	Reference T54 Wikidata:Q33999	актёр
+N53	Reference T32 Wikidata:Q223977	Безумцы
+N54	Reference T31 Wikidata:Q641613	
+N55	Reference T13 Wikidata:Q123737	Эмми
+N56	Reference T11 Wikidata:Q123737	Эмми
+N57	Reference T3 Wikidata:Q123737	Эмми
+N58	Reference T6 Wikidata:Q123737	Эмми

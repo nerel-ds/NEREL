@@ -1,0 +1,123 @@
+T1	PERSON 0 19	Александр Панайотов
+T2	EVENT 31 47	Евровидение 2020
+T3	COUNTRY 52 58	России
+T4	PERSON 59 78	Александр Панайотов
+T5	EVENT 83 101	Евровидении — 2020
+T6	COUNTRY 103 109	Россию
+T7	AGE 121 130	35-летний
+T8	PERSON 131 150	Александр Панайотов
+T9	PERSON 190 199	Панайотов
+T10	DATE 213 222	2005 году
+T11	DATE 238 246	В 2008-м
+T12	NUMBER 254 263	несколько
+T13	PERSON 280 290	Дима Билан
+T14	DATE 292 300	В 2017-м
+T15	CITY 332 336	Киев
+T16	PERSON 354 368	Юлию Самойлову
+T17	EVENT 387 398	Евровидение
+T18	DATE 400 409	через год
+T19	PERSON 412 431	Александр Панайотов
+T20	CITY 442 451	Запорожье
+T21	COUNTRY 487 497	российских
+T22	DATE 520 531	в 2003 году
+T23	ORDINAL 538 544	второе
+T24	ORGANIZATION 583 589	Россия
+T25	DATE 592 600	в 2016-м
+T26	WORK_OF_ART 618 624	Голоса
+T27	ORGANIZATION 629 635	Первом
+T28	PERSON 651 664	Григорий Лепс
+T29	PROFESSION 670 680	продюсером
+T30	PERSON 750 759	Панайотов
+T31	EVENT 773 784	Евровидении
+T32	PERSON 788 797	Панайотов
+T33	EVENT 832 854	Голосящий КиВиН — 2017
+T34	CITY 858 870	Светлогорске
+T35	EVENT 886 904	Евровидении — 2020
+T36	PERSON 925 940	Полина Гагарина
+T37	ORGANIZATION 949 959	Little Big
+T38	PERSON 961 972	Юлия Зиверт
+T39	PERSON 975 992	Димаш Кудайберген
+T40	COUNTRY 996 1006	Казахстана
+T41	PERSON 1010 1029	Александр Панайотов
+T42	EVENT 1081 1092	Евровидении
+T43	COUNTRY 1157 1163	России
+T44	ORGANIZATION 1171 1183	Первый канал
+T46	PROFESSION 453 459	Артист
+T47	WORK_OF_ART 554 570	Народном артисте
+T48	PROFESSION 681 690	музыканта
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T1 Arg2:T3	
+R3	AGE_IS Arg1:T8 Arg2:T7	
+R4	PARTICIPANT_IN Arg1:T8 Arg2:T5	
+R5	ORIGINS_FROM Arg1:T8 Arg2:T6	
+R6	PARTICIPANT_IN Arg1:T16 Arg2:T17	
+R7	PLACE_OF_BIRTH Arg1:T19 Arg2:T20	
+R8	PARTICIPANT_IN Arg1:T19 Arg2:T47	
+R9	PARTICIPANT_IN Arg1:T30 Arg2:T31	
+T45	EVENT 832 847	Голосящий КиВиН
+R10	TAKES_PLACE_IN Arg1:T33 Arg2:T34	
+R11	PARTICIPANT_IN Arg1:T32 Arg2:T33	
+R12	ORIGINS_FROM Arg1:T39 Arg2:T40	
+R13	WORKS_AS Arg1:T19 Arg2:T46	
+T49	PROFESSION 670 690	продюсером музыканта
+R14	WORKS_AS Arg1:T28 Arg2:T49	
+R15	KNOWS Arg1:T19 Arg2:T28	
+R16	PRODUCES Arg1:T24 Arg2:T47	
+R18	PARTICIPANT_IN Arg1:T46 Arg2:T26	
+R19	PARTICIPANT_IN Arg1:T19 Arg2:T26	
+T50	EVENT 163 189	отборе на песенный конкурс
+T51	EVENT 173 189	песенный конкурс
+R20	PARTICIPANT_IN Arg1:T9 Arg2:T50	
+R21	POINT_IN_TIME Arg1:T50 Arg2:T10	
+R22	POINT_IN_TIME Arg1:T47 Arg2:T22	
+R23	POINT_IN_TIME Arg1:T26 Arg2:T25	
+R24	POINT_IN_TIME Arg1:T17 Arg2:T18	
+R25	KNOWS Arg1:T28 Arg2:T30	
+R26	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+T52	DATE 850 854	2017
+R27	POINT_IN_TIME Arg1:T33 Arg2:T52	
+T53	DATE 900 904	2020
+T54	EVENT 886 897	Евровидении
+T55	DATE 43 47	2020
+R28	POINT_IN_TIME Arg1:T2 Arg2:T55	
+T56	EVENT 31 42	Евровидение
+T57	DATE 97 101	2020
+R29	POINT_IN_TIME Arg1:T5 Arg2:T57	
+T58	EVENT 83 94	Евровидении
+R30	PARTICIPANT_IN Arg1:T13 Arg2:T58	
+R17	PRODUCES Arg1:T27 Arg2:T26	
+R31	POINT_IN_TIME Arg1:T35 Arg2:T53	
+T59	PROFESSION 563 570	артисте
+N1	Reference T6 Wikidata:Q159	Россия
+N2	Reference T9 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N3	Reference T13 Wikidata:Q42904	Дима Билан
+N4	Reference T15 Wikidata:Q1899	Киев
+N5	Reference T16 Wikidata:Q6259288	Юлия Олеговна Самойлова
+N6	Reference T20 Wikidata:Q157835	Запорожье
+N9	Reference T26 Wikidata:Q4142134	Голос
+N10	Reference T27 Wikidata:Q330067	Первый канал
+N11	Reference T28 Wikidata:Q1187527	Григорий Лепс
+N13	Reference T34 Wikidata:Q193595	Светлогорск
+N14	Reference T36 Wikidata:Q4131386	Полина Сергеевна Гагарина
+N15	Reference T37 Wikidata:Q24261863	Little Big
+N17	Reference T39 Wikidata:Q25501424	Димаш Кудайберген
+N18	Reference T40 Wikidata:Q232	Казахстан
+N19	Reference T44 Wikidata:Q330067	Первый канал
+N20	Reference T46 Wikidata:Q483501	деятель искусств
+N21	Reference T47 Wikidata:Q4313301	Народный артист
+N22	Reference T48 Wikidata:Q639669	музыкант
+N7	Reference T21 Wikidata:Q159	Россия
+N8	Reference T24 Wikidata:Q211511	Россия-1
+N12	Reference T29 Wikidata:Q47541952	
+N23	Reference T49 Wikidata:NULL	нет данных
+N16	Reference T38 Wikidata:NULL	нет данных
+N24	Reference T3 Wikidata:Q159	Россия
+N25	Reference T43 Wikidata:Q159	Россия
+N26	Reference T8 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N27	Reference T4 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N28	Reference T1 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N29	Reference T41 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N30	Reference T19 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N31	Reference T32 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N32	Reference T30 Wikidata:Q1749380	Александр Сергеевич Панайотов
+N33	Reference T59 Wikidata:Q483501	деятель искусств

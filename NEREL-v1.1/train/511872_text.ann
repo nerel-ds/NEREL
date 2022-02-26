@@ -1,0 +1,106 @@
+T1	CITY 2 8	Москве
+T2	AGE 21 30	18-летний
+T3	PRODUCT 47 56	Сайга-12К
+T4	TIME 57 73	Утром 17 октября
+T5	CITY 76 82	Москве
+T6	AGE 105 114	18-летний
+T7	PERSON 123 136	Глеб Кораблёв
+T8	PRODUCT 198 200	ВК
+T9	ORGANIZATION 235 249	Плохие новости
+T10	TIME 261 278	на третьей минуте
+T11	ORGANIZATION 317 340	Молодёжного проекта 911
+T12	PRODUCT 367 376	Сайга-12К
+T13	TIME 506 533	Спустя два с половиной часа
+T14	TIME 631 643	около минуты
+T15	DATE 704 714	18 октября
+T16	PRODUCT 729 737	Telegram
+T17	ORGANIZATION 746 760	Плохие новости
+T18	DATE 770 787	на следующий день
+T19	PRODUCT 882 889	YouTube
+T20	PERSON 926 931	Глебу
+T21	PRODUCT 963 968	Дваче
+T22	PERSON 1060 1086	Глеб Вячеславович Кораблёв
+T23	DATE 1095 1116	13 сентября 2001 года
+T24	NUMBER 1141 1144	654
+T25	DATE 1148 1159	в 2019 году
+T26	ORGANIZATION 1171 1175	МИИТ
+T27	ORGANIZATION 1208 1211	МАИ
+T28	ORGANIZATION 1420 1423	МАИ
+T29	COUNTRY 1468 1470	РФ
+T30	PERSON 1471 1497	Кораблев Глеб Вячеславович
+T32	NUMBER 1529 1538	Д-03-6468
+T35	NUMBER 1665 1668	204
+T36	NUMBER 1676 1678	72
+T37	NUMBER 1693 1695	60
+T38	NUMBER 1706 1708	72
+T39	LANGUAGE 1711 1718	русский
+T40	EVENT 9 20	застрелился
+T41	PROFESSION 31 38	студент
+T42	DATE 63 73	17 октября
+T43	EVENT 92 104	самоубийство
+T44	PROFESSION 115 122	студент
+T46	ORGANIZATION 566 573	полиции
+T47	EVENT 690 702	самоубийства
+T48	PRODUCT 868 877	интернета
+T51	ORGANIZATION 1133 1144	школе № 654
+T52	EVENT 1222 1234	самоубийства
+T53	DATE 1424 1433	2019 года
+T54	DATE 1498 1507	2001 года
+T56	ORGANIZATION 1577 1617	Системы управления движением и навигация
+T33	NUMBER 1620 1628	24.03.02
+T34	NUMBER 1720 1721	0
+R1	AGE_IS Arg1:T41 Arg2:T2	
+R2	AGENT Arg1:T41 Arg2:T40	
+R3	TAKES_PLACE_IN Arg1:T40 Arg2:T1	
+R4	AGE_IS Arg1:T7 Arg2:T6	
+R5	AGENT Arg1:T7 Arg2:T43	
+R6	TAKES_PLACE_IN Arg1:T43 Arg2:T5	
+R7	POINT_IN_TIME Arg1:T43 Arg2:T42	
+R8	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R9	SCHOOLS_ATTENDED Arg1:T22 Arg2:T51	
+R10	SCHOOLS_ATTENDED Arg1:T22 Arg2:T27	
+T45	DISEASE 1271 1292	проблемы со здоровьем
+R11	MEDICAL_CONDITION Arg1:T20 Arg2:T45	
+R12	DATE_OF_BIRTH Arg1:T30 Arg2:T54	
+R13	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R14	SCHOOLS_ATTENDED Arg1:T30 Arg2:T28	
+T31	PROFESSION 555 573	сотрудники полиции
+R15	ALTERNATIVE_NAME Arg1:T40 Arg2:T43	
+R16	ALTERNATIVE_NAME Arg1:T7 Arg2:T20	
+R17	PARTICIPANT_IN Arg1:T22 Arg2:T52	
+R18	ALTERNATIVE_NAME Arg1:T22 Arg2:T30	
+R19	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+T49	NUMBER 337 340	911
+R20	WORKPLACE Arg1:T31 Arg2:T46	
+T50	EVENT 342 365	поднёс к голове карабин
+R21	SUBEVENT_OF Arg1:T43 Arg2:T50	
+R22	INANIMATE_INVOLVED Arg1:T12 Arg2:T50	
+R23	HAS_CAUSE Arg1:T52 Arg2:T45	
+R24	PART_OF Arg1:T56 Arg2:T28	
+N1	Reference T5 Wikidata:Q649	Москва
+N2	Reference T8 Wikidata:Q116933	ВКонтакте
+N4	Reference T12 Wikidata:Q1186743	Сайга
+N5	Reference T16 Wikidata:Q15616276	Telegram
+N7	Reference T19 Wikidata:Q866	YouTube
+N9	Reference T26 Wikidata:Q1477512	Российский университет транспорта
+N10	Reference T27 Wikidata:Q1719898	Московский авиационный институт
+N11	Reference T29 Wikidata:Q159	Россия
+N12	Reference T39 Wikidata:Q7737	русский язык
+N14	Reference T46 Wikidata:Q35535	полиция
+N15	Reference T48 Wikidata:Q75	Интернет
+N3	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:NULL	нет данных
+N19	Reference T21 Wikidata:Q60455989	
+N8	Reference T22 Wikidata:NULL	нет данных
+N16	Reference T51 Wikidata:NULL	нет данных
+N17	Reference T56 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:Q384593	
+N13	Reference T41 Wikidata:Q315247	
+N20	Reference T1 Wikidata:Q649	Москва
+N21	Reference T3 Wikidata:Q1186743	Сайга
+N22	Reference T28 Wikidata:Q1719898	Московский авиационный институт
+N23	Reference T9 Wikidata:NULL	нет данных
+N24	Reference T30 Wikidata:NULL	нет данных
+N25	Reference T7 Wikidata:NULL	нет данных
+N26	Reference T20 Wikidata:NULL	нет данных
+N27	Reference T44 Wikidata:Q315247	

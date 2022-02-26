@@ -1,0 +1,229 @@
+T1	PERSON 0 14	Мухаммед Мурси
+T2	COUNTRY 27 33	Египте
+T3	ORGANIZATION 55 72	Братьев-мусульман
+T4	PERSON 74 88	Мухаммед Мурси
+T5	ORGANIZATION 107 124	Братья-мусульмане
+T6	DATE 126 142	4 июля 2013 года
+T7	ORGANIZATION 157 169	армии Египта
+T8	PROFESSION 216 226	президента
+T9	PERSON 234 249	Мухаммеда Мурси
+T10	ORGANIZATION 391 408	Братья мусульмане
+T11	NUMBER 435 444	около 300
+T12	PROFESSION 491 501	президента
+T14	PERSON 569 574	Мурси
+T15	NATIONALITY 600 607	египтян
+T17	ORGANIZATION 854 871	Братья-мусульмане
+T18	PERSON 875 880	Мурси
+T19	NUMBER 990 1003	не менее двух
+T20	COUNTRY 1029 1035	Египте
+T21	ORGANIZATION 1101 1118	Братья-мусульмане
+T22	PROFESSION 1154 1164	президента
+T23	PROFESSION 1194 1214	Военное командование
+T24	PROFESSION 1255 1265	президента
+T25	ORGANIZATION 1281 1290	Египет-25
+T26	ORGANIZATION 1294 1299	Хафез
+T27	ORGANIZATION 1304 1311	Аль-Нас
+T28	ORGANIZATION 1351 1368	Братья мусульмане
+T29	ORGANIZATION 1382 1391	Египет-25
+T30	ORGANIZATION 1489 1500	Аль-Джазира
+T31	CITY 1523 1528	Каира
+T32	PERSON 1575 1580	Мурси
+T33	ORGANIZATION 1592 1611	службы безопасности
+T34	ORGANIZATION 1643 1654	Аль-Джазира
+T35	CITY 1696 1701	Каире
+T36	NUMBER 1764 1766	14
+T37	NUMBER 1777 1786	Свыше 340
+T39	NUMBER 1823 1825	91
+T40	FACILITY 1870 1884	площади Тахрир
+T41	CITY 1887 1892	Каире
+T43	AGE 1932 1941	22-летняя
+T44	COUNTRY 1957 1968	Нидерландов
+T45	EVENT 15 23	задержан
+T46	COUNTRY 163 169	Египта
+T47	PROFESSION 143 169	представители армии Египта
+T48	EVENT 187 197	задержания
+T49	PROFESSION 216 233	президента страны
+T50	ORGANIZATION 287 300	администрации
+T53	EVENT 363 373	арестованы
+T54	EVENT 316 326	задержание
+T56	PROFESSION 516 554	представитель армейского коммандования
+T58	ORGANIZATION 649 676	министерства обороны страны
+T59	ORGANIZATION 649 669	министерства обороны
+T60	FACILITY 642 676	здании министерства обороны страны
+T63	ORGANIZATION 727 740	администрации
+T65	FACILITY 925 952	здание министерства обороны
+T66	ORGANIZATION 932 952	министерства обороны
+T67	EVENT 975 985	задержание
+T69	EVENT 1184 1191	арестам
+T70	PROFESSION 1194 1221	Военное командование Египта
+T71	COUNTRY 1215 1221	Египта
+T72	EVENT 1393 1403	арестовано
+T73	LANGUAGE 1505 1513	арабском
+T74	EVENT 1565 1574	свержении
+T75	PROFESSION 1581 1618	сотрудники службы безопасности Египта
+T76	ORGANIZATION 1592 1618	службы безопасности Египта
+T77	COUNTRY 1612 1618	Египта
+T78	EVENT 1658 1668	арестовали
+T38	CRIME 1846 1866	сексуальному насилию
+T79	CRIME 1859 1866	насилию
+T42	NUMBER 1896 1902	четыре
+T80	EVENT 1907 1916	протестов
+T81	PROFESSION 1942 1953	журналистки
+T82	RELIGION 63 72	мусульман
+T83	RELIGION 114 124	мусульмане
+R1	RELIGION_OF Arg1:T3 Arg2:T82	
+R2	RELIGION_OF Arg1:T5 Arg2:T83	
+T84	EVENT 44 49	охота
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T45	
+R4	SUBEVENT_OF Arg1:T45 Arg2:T84	
+R5	TAKES_PLACE_IN Arg1:T84 Arg2:T2	
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T84	
+R7	HEADQUARTERED_IN Arg1:T7 Arg2:T46	
+R8	WORKPLACE Arg1:T47 Arg2:T7	
+R9	ALTERNATIVE_NAME Arg1:T45 Arg2:T48	
+R10	WORKS_AS Arg1:T9 Arg2:T49	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T48	
+T51	PROFESSION 271 282;287 300	сотрудников администрации
+R12	WORKPLACE Arg1:T51 Arg2:T50	
+R13	SUBORDINATE_OF Arg1:T51 Arg2:T9	
+T52	RELIGION 398 408	мусульмане
+R14	RELIGION_OF Arg1:T10 Arg2:T52	
+R15	ALTERNATIVE_NAME Arg1:T54 Arg2:T53	
+T85	PROFESSION 374 409	лидеры движения «Братья мусульмане»
+R16	WORKPLACE Arg1:T85 Arg2:T10	
+R17	PARTICIPANT_IN Arg1:T85 Arg2:T53	
+T86	EVENT 465 470	арест
+R18	ALTERNATIVE_NAME Arg1:T53 Arg2:T86	
+R20	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R21	ORIGINS_FROM Arg1:T15 Arg2:T46	
+T13	PROFESSION 711 722;727 740	сотрудников администрации
+R22	WORKPLACE Arg1:T13 Arg2:T63	
+R23	PART_OF Arg1:T60 Arg2:T58	
+R24	ALTERNATIVE_NAME Arg1:T60 Arg2:T65	
+R25	PART_OF Arg1:T65 Arg2:T66	
+T61	RELIGION 861 871	мусульмане
+R26	RELIGION_OF Arg1:T17 Arg2:T61	
+T62	PROFESSION 1079 1119	Руководство движения «Братья-мусульмане»
+T68	RELIGION 1108 1118	мусульмане
+R29	RELIGION_OF Arg1:T21 Arg2:T68	
+R30	WORKPLACE Arg1:T62 Arg2:T21	
+R31	PARTICIPANT_IN Arg1:T62 Arg2:T69	
+R32	ALTERNATIVE_NAME Arg1:T67 Arg2:T69	
+R33	WORKPLACE Arg1:T70 Arg2:T71	
+T87	EVENT 1222 1239	прекратило работу
+T88	COUNTRY 1281 1287	Египет
+R34	HEADQUARTERED_IN Arg1:T25 Arg2:T88	
+T57	ORGANIZATION 530 540	армейского
+R19	WORKPLACE Arg1:T56 Arg2:T57	
+R35	PARTICIPANT_IN Arg1:T25 Arg2:T87	
+R36	PARTICIPANT_IN Arg1:T26 Arg2:T87	
+R37	PARTICIPANT_IN Arg1:T27 Arg2:T87	
+T89	COUNTRY 1382 1388	Египет
+R38	HEADQUARTERED_IN Arg1:T29 Arg2:T89	
+T90	RELIGION 1358 1368	мусульмане
+R39	RELIGION_OF Arg1:T28 Arg2:T90	
+T91	PROFESSION 1314 1325;1370 1392	Руководство телеканала «Египет-25»
+R40	PARTICIPANT_IN Arg1:T91 Arg2:T72	
+R41	ALTERNATIVE_NAME Arg1:T69 Arg2:T72	
+T92	ORGANIZATION 1441 1501	телевизионной служба информационного агентства «Аль-Джазира»
+R42	PART_OF Arg1:T92 Arg2:T30	
+R43	HEADQUARTERED_IN Arg1:T92 Arg2:T31	
+R44	PARTICIPANT_IN Arg1:T32 Arg2:T74	
+R45	HEADQUARTERED_IN Arg1:T76 Arg2:T77	
+R46	WORKPLACE Arg1:T75 Arg2:T76	
+T93	FACILITY 1631 1655	телестудию «Аль-Джазира»
+R48	PART_OF Arg1:T93 Arg2:T34	
+T94	EVENT 1619 1628	ворвались
+R47	AGENT Arg1:T75 Arg2:T94	
+R49	TAKES_PLACE_IN Arg1:T94 Arg2:T93	
+R50	AGENT Arg1:T75 Arg2:T78	
+R51	TAKES_PLACE_IN Arg1:T78 Arg2:T93	
+T95	EVENT 1739 1749	беспорядки
+R52	TAKES_PLACE_IN Arg1:T95 Arg2:T35	
+T96	EVENT 1800 1806	ранены
+R53	LOCATED_IN Arg1:T40 Arg2:T41	
+R54	AGE_IS Arg1:T81 Arg2:T43	
+R55	ORIGINS_FROM Arg1:T81 Arg2:T44	
+R56	TAKES_PLACE_IN Arg1:T38 Arg2:T40	
+R57	HAS_CAUSE Arg1:T38 Arg2:T80	
+R58	PARTICIPANT_IN Arg1:T81 Arg2:T38	
+R59	SUBEVENT_OF Arg1:T96 Arg2:T95	
+R60	SUBEVENT_OF Arg1:T80 Arg2:T95	
+R27	WORKPLACE Arg1:T9 Arg2:T46	
+R28	RELIGION_OF Arg1:T18 Arg2:T61	
+R61	TAKES_PLACE_IN Arg1:T67 Arg2:T20	
+R62	AGENT Arg1:T70 Arg2:T87	
+T16	EVENT 1417 1440	приостановленно вещание
+R63	PARTICIPANT_IN Arg1:T92 Arg2:T16	
+R64	TAKES_PLACE_IN Arg1:T16 Arg2:T31	
+R65	TAKES_PLACE_IN Arg1:T74 Arg2:T77	
+R66	PARTICIPANT_IN Arg1:T34 Arg2:T94	
+R67	PARTICIPANT_IN Arg1:T34 Arg2:T78	
+R68	LOCATED_IN Arg1:T35 Arg2:T77	
+N1	Reference T5 Wikidata:Q133207	Братья-мусульмане
+N2	Reference T7 Wikidata:Q1075553	Сухопутные войска Египта
+N3	Reference T9 Wikidata:Q4631	Мухаммед Мурси
+N4	Reference T15 Wikidata:Q1061510	египтянин
+N5	Reference T22 Wikidata:Q30461	президент
+N8	Reference T28 Wikidata:Q133207	Братья-мусульмане
+N9	Reference T30 Wikidata:Q13477	Аль-Джазира
+N11	Reference T35 Wikidata:Q85	Каир
+N12	Reference T40 Wikidata:Q12061	Площадь Тахрир
+N13	Reference T44 Wikidata:Q55	Нидерланды
+N14	Reference T46 Wikidata:Q79	Египет
+N17	Reference T50 Wikidata:Q31728	государственное управление
+N23	Reference T73 Wikidata:Q13955	арабский язык
+N26	Reference T81 Wikidata:Q1930187	журналист
+N15	Reference T47 Wikidata:NULL	нет данных
+N16	Reference T49 Wikidata:Q15618993	президент Египта
+N34	Reference T51 Wikidata:NULL	нет данных
+N27	Reference T85 Wikidata:NULL	нет данных
+N30	Reference T57 Wikidata:Q8473	армия
+N18	Reference T56 Wikidata:NULL	нет данных
+N20	Reference T59 Wikidata:Q1788820	
+N19	Reference T58 Wikidata:NULL	нет данных
+N35	Reference T13 Wikidata:NULL	нет данных
+N28	Reference T61 Wikidata:Q432	ислам
+N21	Reference T65 Wikidata:NULL	нет данных
+N29	Reference T62 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:NULL	нет данных
+N22	Reference T70 Wikidata:NULL	нет данных
+N7	Reference T25 Wikidata:NULL	нет данных
+N36	Reference T26 Wikidata:Q12233585	
+N37	Reference T27 Wikidata:NULL	нет данных
+N31	Reference T91 Wikidata:NULL	нет данных
+N32	Reference T92 Wikidata:NULL	нет данных
+N10	Reference T33 Wikidata:Q3238445	
+N25	Reference T76 Wikidata:Q630014	Служба общей разведки
+N24	Reference T75 Wikidata:NULL	нет данных
+N33	Reference T93 Wikidata:NULL	нет данных
+N38	Reference T17 Wikidata:Q133207	Братья-мусульмане
+N39	Reference T3 Wikidata:Q133207	Братья-мусульмане
+N40	Reference T21 Wikidata:Q133207	Братья-мусульмане
+N41	Reference T14 Wikidata:Q4631	Мухаммед Мурси
+N42	Reference T32 Wikidata:Q4631	Мухаммед Мурси
+N43	Reference T4 Wikidata:Q4631	Мухаммед Мурси
+N44	Reference T18 Wikidata:Q4631	Мухаммед Мурси
+N45	Reference T1 Wikidata:Q4631	Мухаммед Мурси
+N46	Reference T8 Wikidata:Q30461	президент
+N47	Reference T24 Wikidata:Q30461	президент
+N48	Reference T12 Wikidata:Q30461	президент
+N49	Reference T10 Wikidata:Q133207	Братья-мусульмане
+N50	Reference T34 Wikidata:Q13477	Аль-Джазира
+N51	Reference T31 Wikidata:Q85	Каир
+N52	Reference T41 Wikidata:Q85	Каир
+N53	Reference T20 Wikidata:Q79	Египет
+N54	Reference T77 Wikidata:Q79	Египет
+N55	Reference T88 Wikidata:Q79	Египет
+N56	Reference T89 Wikidata:Q79	Египет
+N57	Reference T2 Wikidata:Q79	Египет
+N58	Reference T71 Wikidata:Q79	Египет
+N59	Reference T63 Wikidata:Q31728	государственное управление
+N60	Reference T66 Wikidata:Q1788820	
+N61	Reference T90 Wikidata:Q432	ислам
+N62	Reference T83 Wikidata:Q432	ислам
+N63	Reference T52 Wikidata:Q432	ислам
+N64	Reference T82 Wikidata:Q432	ислам
+N65	Reference T68 Wikidata:Q432	ислам
+N66	Reference T60 Wikidata:NULL	нет данных
+N67	Reference T29 Wikidata:NULL	нет данных

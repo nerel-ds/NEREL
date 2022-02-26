@@ -1,0 +1,138 @@
+T1	PERSON 0 17	Константин Кинчев
+T2	PERSON 47 64	Константин Кинчев
+T3	DATE 65 84	29 апреля 2016 года
+T4	AGE 88 98	57-летнего
+T5	PROFESSION 99 123	лидера рок-группы «Алиса
+T6	ORGANIZATION 118 123	Алиса
+T7	PERSON 125 144	Константина Кинчева
+T10	CITY 194 213	Санкт-Петербургских
+T11	PROFESSION 223 238	Пресс-секретарь
+T12	PERSON 246 266	Александра Панфилова
+T14	PERSON 293 304	Константина
+T15	CITY 345 358	петербургских
+T16	PERSON 368 378	Александра
+T17	ORGANIZATION 491 575	Северо-Западный федеральный медицинский исследовательский центр имени В. А. Алмазова
+T19	CITY 577 592	Санкт-Петербург
+T20	FACILITY 594 608	ул. Аккуратова
+T21	ORGANIZATION 680 686	Вестей
+T22	PERSON 689 696	Кинчеву
+T23	STATE_OR_PROVINCE 741 751	Ленобласти
+T24	PERSON 863 869	Кинчев
+T25	PERSON 982 991	Панфилова
+T26	DATE 1212 1217	6 мая
+T27	CITY 1245 1258	Екатеринбурге
+T28	DATE 1262 1268	14 мая
+T29	CITY 1303 1313	Тель-Авиве
+T30	PROFESSION 1429 1486	Лидер культовой советской и российской рок-группы «Алиса»
+T31	COUNTRY 1445 1454	советской
+T32	COUNTRY 1457 1467	российской
+T33	ORGANIZATION 1480 1485	Алиса
+T34	DATE 1488 1499	с 1984 года
+T35	PERSON 1501 1529	Константин Евгеньевич Кинчев
+T36	DATE 1567 1587	25 декабря 1958 года
+T37	CITY 1590 1596	Москве
+T38	DISEASE 37 46	инфарктом
+T18	PERSON 561 575	В. А. Алмазова
+T39	PROFESSION 430 437	артиста
+T40	DISEASE 305 312	инфаркт
+T13	PERSON 273 280	Кинчева
+T41	DISEASE 154 161	инфаркт
+T42	LOCATION 491 506	Северо-Западный
+T43	PROFESSION 470 478	музыкант
+T8	PERSON 598 608	Аккуратова
+T9	DISEASE 697 708	стало плохо
+T44	PROFESSION 790 796	Рокера
+T45	DISEASE 948 973	острый коронарный синдром
+T46	PROFESSION 1034 1043	музыканта
+T47	IDEOLOGY 1392 1405	антисемитские
+T48	PROFESSION 1419 1426	артиста
+T49	PERSON 1549 1557	Панфилов
+T50	EVENT 167 183	госпитализирован
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T38	
+R2	WORKPLACE Arg1:T5 Arg2:T6	
+R3	AGE_IS Arg1:T7 Arg2:T4	
+R4	MEDICAL_CONDITION Arg1:T7 Arg2:T41	
+R5	SPOUSE Arg1:T12 Arg2:T13	
+R6	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R7	MEDICAL_CONDITION Arg1:T14 Arg2:T40	
+R8	ALTERNATIVE_NAME Arg1:T12 Arg2:T16	
+R9	WORKS_AS Arg1:T14 Arg2:T43	
+R10	ALTERNATIVE_NAME Arg1:T35 Arg2:T49	
+R11	DATE_OF_BIRTH Arg1:T35 Arg2:T36	
+R12	PLACE_OF_BIRTH Arg1:T35 Arg2:T37	
+R13	HEADQUARTERED_IN Arg1:T33 Arg2:T32	
+R14	HEADQUARTERED_IN Arg1:T33 Arg2:T31	
+R15	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R17	LOCATED_IN Arg1:T20 Arg2:T19	
+R18	HEADQUARTERED_IN Arg1:T17 Arg2:T20	
+R16	MEDICAL_CONDITION Arg1:T22 Arg2:T9	
+R19	PLACE_RESIDES_IN Arg1:T22 Arg2:T23	
+R20	WORKS_AS Arg1:T22 Arg2:T44	
+T51	DISEASE 895 912	тяжелом состоянии
+R21	MEDICAL_CONDITION Arg1:T24 Arg2:T51	
+R22	MEDICAL_CONDITION Arg1:T24 Arg2:T45	
+R23	WORKS_AS Arg1:T24 Arg2:T48	
+R24	IDEOLOGY_OF Arg1:T48 Arg2:T47	
+T52	PROFESSION 1269 1278	музыканты
+R25	WORKPLACE Arg1:T30 Arg2:T33	
+R26	WORKPLACE Arg1:T35 Arg2:T33	
+R27	WORKS_AS Arg1:T35 Arg2:T30	
+R28	ALTERNATIVE_NAME Arg1:T16 Arg2:T25	
+T53	EVENT 18 34	госпитализирован
+R29	PARTICIPANT_IN Arg1:T1 Arg2:T53	
+R30	PARTICIPANT_IN Arg1:T7 Arg2:T50	
+R31	POINT_IN_TIME Arg1:T50 Arg2:T3	
+R32	TAKES_PLACE_IN Arg1:T50 Arg2:T10	
+T54	PROFESSION 223 245	Пресс-секретарь группы
+R33	WORKS_AS Arg1:T12 Arg2:T54	
+R34	WORKPLACE Arg1:T12 Arg2:T6	
+R35	WORKPLACE Arg1:T54 Arg2:T6	
+R36	ALTERNATIVE_NAME Arg1:T15 Arg2:T19	
+R37	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R38	HAS_CAUSE Arg1:T53 Arg2:T38	
+R39	HAS_CAUSE Arg1:T50 Arg2:T41	
+R40	WORKS_AS Arg1:T14 Arg2:T39	
+R41	LOCATED_IN Arg1:T14 Arg2:T17	
+N1	Reference T1 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N3	Reference T6 Wikidata:Q2837199	Алиса
+N6	Reference T20 Wikidata:Q4471234	Улица Аккуратова
+N7	Reference T21 Wikidata:Q628101	Россия-24
+N8	Reference T22 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N9	Reference T23 Wikidata:Q2191	Ленинградская область
+N10	Reference T24 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N11	Reference T27 Wikidata:Q887	Екатеринбург
+N12	Reference T29 Wikidata:Q33935	Тель-Авив
+N16	Reference T37 Wikidata:Q649	Москва
+N18	Reference T39 Wikidata:Q483501	деятель искусств
+N22	Reference T46 Wikidata:Q639669	музыкант
+N2	Reference T5 Wikidata:NULL	нет данных
+N25	Reference T11 Wikidata:Q17221	
+N24	Reference T54 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:Q656	Санкт-Петербург
+N26	Reference T16 Wikidata:NULL	нет данных
+N19	Reference T42 Wikidata:Q5491373	
+N5	Reference T17 Wikidata:Q30199003	Северо-Западный федеральный медицинский исследовательский центр имени В. А. Алмазова
+N17	Reference T18 Wikidata:Q4062726	
+N20	Reference T8 Wikidata:Q4059653	
+N21	Reference T44 Wikidata:Q1810444	
+N14	Reference T31 Wikidata:Q15180	СССР
+N15	Reference T32 Wikidata:Q159	Россия
+N13	Reference T30 Wikidata:NULL	нет данных
+N23	Reference T49 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N27	Reference T2 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N28	Reference T33 Wikidata:Q2837199	Алиса
+N29	Reference T13 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N30	Reference T7 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N31	Reference T14 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+N32	Reference T48 Wikidata:Q483501	деятель искусств
+N33	Reference T43 Wikidata:Q639669	музыкант
+N34	Reference T52 Wikidata:Q639669	музыкант
+N35	Reference T19 Wikidata:Q656	Санкт-Петербург
+N36	Reference T10 Wikidata:Q656	Санкт-Петербург
+N37	Reference T25 Wikidata:NULL	нет данных
+N38	Reference T12 Wikidata:NULL	нет данных
+N39	Reference T35 Wikidata:Q1958166	Константин Евгеньевич Кинчев
+T55	EVENT 1559 1566	родился
+R42	PARTICIPANT_IN Arg1:T35 Arg2:T55	
+R43	POINT_IN_TIME Arg1:T55 Arg2:T36	
+R44	TAKES_PLACE_IN Arg1:T55 Arg2:T37	

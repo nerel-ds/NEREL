@@ -1,0 +1,138 @@
+T1	ORGANIZATION 0 6	Yahoo!
+T2	ORGANIZATION 16 22	Tumblr
+T3	MONEY 26 43	миллиард долларов
+T4	ORGANIZATION 49 55	Tumblr
+T5	PERSON 56 66	Дэвид Карп
+T6	ORGANIZATION 84 90	Yahoo!
+T7	PERSON 91 104	Марисса Майер
+T8	TIME 142 179	утром в воскресенье, 19 мая 2013 года
+T9	DATE 150 179	воскресенье, 19 мая 2013 года
+T10	ORGANIZATION 193 199	Yahoo!
+T11	ORGANIZATION 245 251	Tumblr
+T12	MONEY 255 281	1,1 миллиарда долларов США
+T13	DATE 283 296	В понедельник
+T14	PROFESSION 297 306	президент
+T15	PROFESSION 309 340	главный исполнительный директор
+T16	PERSON 348 361	Марисса Майер
+T17	PRODUCT 406 412	Tumblr
+T18	ORGANIZATION 441 447	Yahoo!
+T19	PERSON 525 535	Дэвид Карп
+T20	ORGANIZATION 548 554	Tumblr
+T21	MONEY 576 602	250 миллионов долларов США
+T22	PRODUCT 618 624	Tumblr
+T23	PERSON 798 808	Дэвид Карп
+T25	PERSON 887 900	Марисса Майер
+T26	ORGANIZATION 1080 1086	Yahoo!
+T27	ORGANIZATION 1141 1150	GeoCities
+T28	ORGANIZATION 1153 1159	Flickr
+T29	PRODUCT 1249 1258	GeoCities
+T31	ORDINAL 1288 1295	третьим
+T34	PRODUCT 1381 1390	GeoCities
+T35	DATE 1422 1445	через несколько месяцев
+T36	ORGANIZATION 1545 1551	Yahoo!
+T37	PRODUCT 1613 1619	Tumblr
+T38	PRODUCT 1692 1698	Tumblr
+T39	ORGANIZATION 1851 1860	Quantcast
+T40	PRODUCT 1862 1868	Tumblr
+T41	ORDINAL 1882 1884	24
+T42	AGE 1916 1925	37-летняя
+T43	PERSON 1926 1939	Марисса Майер
+T44	DATE 1940 1952	до 2012 года
+T45	ORGANIZATION 1971 1977	Google
+T46	PROFESSION 2001 2024	менеджером по продукции
+T48	ORGANIZATION 2105 2111	Google
+T49	AGE 2149 2158	26-летний
+T50	PERSON 2159 2169	Дэвид Карп
+T51	DATE 2218 2224	4 года
+T52	PRODUCT 2286 2295	UrbanBaby
+T54	PRODUCT 2332 2338	Tumblr
+T59	COUNTRY 278 281	США
+T65	PROFESSION 309 347	главный исполнительный директор Yahoo!
+T67	COUNTRY 599 602	США
+T68	NUMBER 1953 1955	13
+T69	PROFESSION 1978 1987	инженером
+T70	PROFESSION 1989 1999	дизайнером
+T72	PROFESSION 2233 2246	консультантом
+R1	PRICE_OF Arg1:T2 Arg2:T3	
+T56	DATE 67 78	в 2009 году
+T57	DATE 105 116	в 2009 году
+T58	PROFESSION 181 199	руководство Yahoo!
+R2	WORKPLACE Arg1:T58 Arg2:T10	
+R3	PRICE_OF Arg1:T11 Arg2:T12	
+T60	ORGANIZATION 341 347	Yahoo!
+T61	PROFESSION 297 306;341 347	президент Yahoo!
+R4	WORKPLACE Arg1:T65 Arg2:T60	
+R5	WORKPLACE Arg1:T14 Arg2:T60	
+R6	WORKS_AS Arg1:T16 Arg2:T61	
+R7	WORKS_AS Arg1:T16 Arg2:T65	
+R8	WORKPLACE Arg1:T16 Arg2:T60	
+R9	FOUNDED_BY Arg1:T20 Arg2:T19	
+T62	DATE 555 566	в 2007 году
+T24	DATE 839 850	в 2012 году
+R10	DATE_FOUNDED_IN Arg1:T20 Arg2:T62	
+R11	PRICE_OF Arg1:T20 Arg2:T21	
+T30	DATE 1270 1281	в 1994 году
+T32	DATE 1347 1358	в 1999 году
+R12	PRODUCES Arg1:T27 Arg2:T29	
+T33	DATE 1367 1378	в 2009 году
+R13	AGE_IS Arg1:T43 Arg2:T42	
+R14	WORKS_AS Arg1:T43 Arg2:T69	
+R15	WORKS_AS Arg1:T43 Arg2:T70	
+R16	WORKS_AS Arg1:T43 Arg2:T46	
+R17	AGE_IS Arg1:T50 Arg2:T49	
+R18	WORKS_AS Arg1:T50 Arg2:T72	
+T47	DATE 2297 2308	В 2006 году
+T53	DATE 2354 2372	в январе 2007 года
+R19	PRODUCES Arg1:T50 Arg2:T54	
+R20	INCOME Arg1:T19 Arg2:T21	
+T55	EVENT 7 15	покупает
+R21	AGENT Arg1:T1 Arg2:T55	
+R22	PARTICIPANT_IN Arg1:T2 Arg2:T55	
+R23	OWNER_OF Arg1:T26 Arg2:T27	
+R24	OWNER_OF Arg1:T26 Arg2:T28	
+R25	WORKPLACE Arg1:T43 Arg2:T45	
+R26	DATE_OF_CREATION Arg1:T54 Arg2:T53	
+N1	Reference T5 Wikidata:Q432639	Карп, Дэвид
+N3	Reference T15 Wikidata:Q484876	главный управляющий
+N4	Reference T16 Wikidata:Q14086	Марисса Майер
+N5	Reference T20 Wikidata:Q384060	Tumblr
+N6	Reference T26 Wikidata:Q37093	Yahoo!
+N7	Reference T27 Wikidata:Q968598	GeoCities
+N8	Reference T28 Wikidata:Q103204	Flickr
+N9	Reference T34 Wikidata:Q968598	GeoCities
+N10	Reference T39 Wikidata:Q4047758	Quantcast
+N11	Reference T40 Wikidata:Q384060	Tumblr
+N14	Reference T59 Wikidata:Q30	США
+N16	Reference T69 Wikidata:Q81096	инженер
+N17	Reference T70 Wikidata:Q5322166	дизайнер
+N19	Reference T58 Wikidata:NULL	нет данных
+N12	Reference T46 Wikidata:Q2552738	
+N13	Reference T48 Wikidata:Q95	Google
+N18	Reference T72 Wikidata:Q15978655	
+N21	Reference T52 Wikidata:Q7899830	
+N20	Reference T61 Wikidata:NULL	нет данных
+N15	Reference T65 Wikidata:NULL	нет данных
+N2	Reference T14 Wikidata:Q140686	председатель
+N22	Reference T50 Wikidata:Q432639	Карп, Дэвид
+N23	Reference T23 Wikidata:Q432639	Карп, Дэвид
+N24	Reference T19 Wikidata:Q432639	Карп, Дэвид
+N25	Reference T7 Wikidata:Q14086	Марисса Майер
+N26	Reference T25 Wikidata:Q14086	Марисса Майер
+N27	Reference T43 Wikidata:Q14086	Марисса Майер
+N28	Reference T4 Wikidata:Q384060	Tumblr
+N29	Reference T2 Wikidata:Q384060	Tumblr
+N30	Reference T11 Wikidata:Q384060	Tumblr
+N31	Reference T10 Wikidata:Q37093	Yahoo!
+N32	Reference T60 Wikidata:Q37093	Yahoo!
+N33	Reference T18 Wikidata:Q37093	Yahoo!
+N34	Reference T36 Wikidata:Q37093	Yahoo!
+N35	Reference T6 Wikidata:Q37093	Yahoo!
+N36	Reference T1 Wikidata:Q37093	Yahoo!
+N37	Reference T29 Wikidata:Q968598	GeoCities
+N38	Reference T22 Wikidata:Q384060	Tumblr
+N39	Reference T38 Wikidata:Q384060	Tumblr
+N40	Reference T17 Wikidata:Q384060	Tumblr
+N41	Reference T54 Wikidata:Q384060	Tumblr
+N42	Reference T37 Wikidata:Q384060	Tumblr
+N43	Reference T67 Wikidata:Q30	США
+N44	Reference T45 Wikidata:Q95	Google

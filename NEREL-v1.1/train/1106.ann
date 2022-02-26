@@ -1,0 +1,427 @@
+T1	ORGANIZATION 0 22	Центр ядерной медицины
+T2	STATE_OR_PROVINCE 25 35	мордовский
+T3	STATE_OR_PROVINCE 57 75	Тамбовской области
+T4	STATE_OR_PROVINCE 87 105	Тамбовской области
+T5	DATE 106 128	с 25 по 29 июля 2013 г
+T6	ORGANIZATION 202 229	Комсомольская правда-Тамбов
+T7	DATE 232 246	За многие годы
+T8	ORDINAL 251 257	первая
+T9	DISTRICT 351 368	Бондарском районе
+T10	ORGANIZATION 390 393	МЧС
+T11	ORDINAL 461 467	первую
+T12	NUMBER 518 524	5,5 км
+T13	CITY 557 573	Верхнее Нащекино
+T15	NUMBER 593 596	237
+T16	NUMBER 685 693	до 37 кг
+T17	MONEY 722 729	2,5 тыс
+T18	MONEY 763 772	85 рублей
+T19	ORDINAL 803 809	вторую
+T20	NUMBER 839 845	100 км
+T21	NUMBER 856 860	семь
+T22	DISTRICT 878 888	Бондарский
+T23	DISTRICT 890 902	Гавриловский
+T24	DISTRICT 904 916	Кирсановский
+T26	DISTRICT 930 943	Рассказовский
+T27	DISTRICT 945 955	Сосновский
+T28	DISTRICT 958 968	Тамбовский
+T29	DATE 1130 1140	30-дневный
+T30	NUMBER 1270 1282	до 200 тысяч
+T31	PROFESSION 1399 1409	губернатор
+T32	PERSON 1429 1439	Олег Бетин
+T33	CITY 1600 1606	Бокино
+T34	DISTRICT 1607 1625	Тамбовского района
+T35	NUMBER 1640 1661	нескольких километрах
+T36	ORGANIZATION 1760 1776	Тамбовская жизнь
+T37	TIME 1779 1794	Вечером 21 июня
+T38	NATIONALITY 2298 2305	русская
+T39	STATE_OR_PROVINCE 2347 2357	Тамбовщине
+T40	NATIONALITY 2380 2390	мордовское
+T41	NATIONALITY 2420 2430	мордовским
+T42	DATE 2516 2542	к сороковым годам XIV века
+T43	NUMBER 2561 2576	двух километрах
+T44	LOCATION 2720 2737	правом берегу Цны
+T45	NATIONALITY 2922 2928	мордва
+T46	DATE 3103 3113	к XIV веку
+T47	DATE 3296 3306	в то время
+T48	NATIONALITY 3361 3368	русских
+T49	DATE 3419 3429	в XIV веке
+T50	CITY 3470 3477	Тамбова
+T51	CITY 3482 3489	Тамбове
+T54	ORGANIZATION 3706 3725	Тамбовский меридиан
+T55	DATE 3757 3768	в этом году
+T56	MONEY 3798 3830	несколько сотен миллионов рублей
+T57	ORGANIZATION 4075 4082	Роснано
+T58	PROFESSION 4201 4263	главный врач Тамбовского областного онкологического диспансера
+T59	PERSON 4264 4282	Владимир Милованов
+T60	MONEY 4364 4379	40 тысяч рублей
+T61	NUMBER 4536 4537	1
+T62	ORGANIZATION 4573 4594	Тамбовского меридиана
+T63	ORGANIZATION 4607 4627	комитете образования
+T64	MONEY 4668 4681	35 млн рублей
+T65	ORGANIZATION 4769 4789	комитете образования
+T66	PERSON 4956 4967	Юрий Жирков
+T67	CITY 4984 4998	махачкалинский
+T68	ORGANIZATION 5000 5004	Анжи
+T69	DATE 5027 5045	в ближайшие месяцы
+T70	COUNTRY 5119 5125	России
+T71	COUNTRY 5128 5145	Северной Ирландии
+T72	DATE 5158 5171	на 14 августа
+T73	COUNTRY 5235 5246	израильских
+T74	PERSON 5278 5285	Жиркова
+T75	ORGANIZATION 5327 5343	Тамбовская жизнь
+T76	COUNTRY 5391 5397	России
+T77	COUNTRY 5400 5410	Португалии
+T78	PERSON 5412 5416	Юрий
+T79	CITY 5428 5434	Тамбов
+T80	PROFESSION 5474 5480	тренер
+T81	PERSON 5481 5496	Валерий Шарапов
+T82	DATE 5499 5513	Несколько дней
+T83	CITY 5542 5549	Тамбове
+T84	PERSON 5551 5554	Юра
+T85	CITY 5639 5649	тамбовском
+T86	ORGANIZATION 5651 5659	Спартаке
+T87	PERSON 5710 5716	Жирков
+T88	ORGANIZATION 5747 5751	Анжи
+T89	DATE 5757 5763	на год
+T90	DATE 5977 5990	В начале июня
+T91	CITY 5998 6005	Тамбова
+T92	ORDINAL 6080 6086	второй
+T93	ORGANIZATION 6160 6167	Спартак
+T94	ORGANIZATION 6172 6189	Академией футбола
+T95	ORGANIZATION 6199 6210	Житье-бытье
+T96	ORGANIZATION 6259 6266	Спартак
+T97	ORGANIZATION 6280 6288	Академию
+T98	ORGANIZATION 6348 6355	Спартак
+T99	ORGANIZATION 6382 6385	РФС
+T100	ORGANIZATION 6444 6455	ФК "Тамбов"
+T101	ORGANIZATION 6541 6548	Спартак
+T102	ORDINAL 6556 6569	предпоследнее
+T103	ORGANIZATION 6605 6621	Академия футбола
+T104	ORDINAL 6625 6631	второе
+T105	DATE 6690 6699	2013-2014
+T106	EVENT 6726 6743	пресс-конференцию
+T107	PROFESSION 6816 6838	генерального директора
+T108	PERSON 6852 6869	Николая Волошкина
+T109	ORGANIZATION 6885 6896	ФК "Тамбов"
+T110	DATE 6911 6918	12 июня
+T111	ORGANIZATION 6982 6998	Академии футбола
+T112	ORGANIZATION 7008 7016	Спартака
+T113	EVENT 7117 7134	пресс-конференции
+T114	PROFESSION 7135 7164	председатель облспорткомитета
+T115	PERSON 7165 7180	Михаил Белоусов
+T116	ORGANIZATION 7334 7341	Спартак
+T117	ORGANIZATION 7437 7453	Академия футбола
+T118	ORDINAL 7486 7493	третьей
+T119	ORGANIZATION 7512 7523	ФК "Тамбов"
+T120	ORGANIZATION 7617 7633	Академии футбола
+T121	PROFESSION 7639 7655	главным тренером
+T122	PROFESSION 7661 7667	тренер
+T123	PERSON 7681 7696	Сергей Первушин
+T124	ORGANIZATION 7716 7722	Тамбов
+T125	ORGANIZATION 7815 7830	облспорткомитет
+T126	DATE 7861 7874	до конца года
+T127	MONEY 7886 7899	23 млн рублей
+T128	STATE_OR_PROVINCE 7954 7972	Тамбовской области
+T129	DATE 8057 8070	в начале июля
+T130	ORGANIZATION 8096 8107	ФК "Тамбов"
+T131	PROFESSION 8121 8128	вратарь
+T132	PERSON 8129 8144	Дмитрий Давыдов
+T133	PERSON 8153 8165	Максим Сопин
+T134	PERSON 8168 8182	Михаил Тыняный
+T135	DATE 8299 8310	новый сезон
+T136	PERSON 8393 8410	Николая Волошкина
+T137	DATE 8444 8452	2-3 года
+T138	EVENT 8608 8629	расширенном заседании
+T139	ORGANIZATION 8702 8718	Тамбовская жизнь
+T140	DATE 8721 8744	За 5 месяцев этого года
+T141	NUMBER 8784 8787	650
+T142	NUMBER 8841 8843	65
+T143	NUMBER 8875 8886	Более трети
+T144	NUMBER 8946 8951	треть
+T145	DATE 9059 9070	с 2010 года
+T146	DATE 9176 9190	В прошлом году
+T147	NUMBER 9210 9213	163
+T148	DATE 9238 9249	В 2013 году
+T149	PROFESSION 9328 9338	Губернатор
+T150	PROFESSION 9592 9602	Губернатор
+T151	PROFESSION 9833 9860	глава администрации региона
+T152	PROFESSION 10089 10099	губернатор
+T154	STATE_OR_PROVINCE 169 179	тамбовских
+T155	CITY 223 229	Тамбов
+T156	DISEASE 131 147	Африканская чума
+T158	PROFESSION 396 407	полицейские
+T159	DISEASE 432 449	африканской чумой
+T14	PROFESSION 1399 1428	губернатор Тамбовской области
+T162	STATE_OR_PROVINCE 1410 1428	Тамбовской области
+T163	DATE 1720 1748	в день летнего солнцестояния
+T164	DATE 1787 1794	21 июня
+T165	NATIONALITY 2121 2127	мордвы
+T166	LOCATION 2734 2737	Цны
+T167	NATIONALITY 3307 3313	мордва
+T52	FACILITY 3661 3697	областным онкологическим диспансером
+T53	DISEASE 3569 3595	онкологических заболеваний
+T168	DISEASE 3569 3583	онкологических
+T169	DISEASE 3671 3685	онкологическим
+T170	CITY 4214 4225	Тамбовского
+T171	ORGANIZATION 4214 4263	Тамбовского областного онкологического диспансера
+T172	CITY 1760 1770	Тамбовская
+T173	NUMBER 4538 4539	3
+T174	CITY 4573 4584	Тамбовского
+T175	PROFESSION 4557 4595	корреспонденту "Тамбовского меридиана"
+T176	CITY 4936 4947	тамбовского
+T177	EVENT 5048 5076	чемпионате страны по футболу
+T178	EVENT 5089 5093	матч
+T179	DISEASE 5286 5315	надрыв мышцы бедра левой ноги
+T180	ORDINAL 5467 5473	первый
+T181	PROFESSION 5605 5615	футболисты
+T182	PROFESSION 5875 5885	футболиста
+T183	COUNTRY 6092 6103	российского
+T184	ORDINAL 6634 6641	третьем
+T185	PROFESSION 6974 6999	игроки "Академии футбола"
+T186	ORDINAL 7027 7033	первые
+T187	ORGANIZATION 7148 7164	облспорткомитета
+T188	CITY 7213 7223	тамбовский
+T189	PROFESSION 7647 7655	тренером
+T191	PROFESSION 8191 8198	тренеры
+T192	PROFESSION 8226 8233	игроков
+T193	CITY 8215 8225	тамбовских
+T194	PROFESSION 8252 8263	спортсменам
+T195	CITY 8573 8583	тамбовских
+T196	ORGANIZATION 8630 8693	межведомственной комиссии по обеспечению безопасности дорожного
+T197	CITY 8702 8712	Тамбовская
+T199	NUMBER 8853 8856	936
+T203	LAW 9288 9325	План по ликвидации очагов аварийности
+T204	PERSON 9339 9349	Олег Бетин
+T205	LAW 9759 9785	Правила дорожного движения
+T207	LAW 9897 9927	правил безопасности на дорогах
+R1	WORKS_AS Arg1:T32 Arg2:T14	
+R2	WORKPLACE Arg1:T32 Arg2:T162	
+R3	WORKS_AS Arg1:T204 Arg2:T149	
+R4	DATE_OF_CREATION Arg1:T203 Arg2:T148	
+R5	WORKS_AS Arg1:T132 Arg2:T131	
+T153	PROFESSION 8146 8152	игроки
+R6	WORKS_AS Arg1:T133 Arg2:T153	
+R7	WORKS_AS Arg1:T134 Arg2:T153	
+R8	WORKPLACE Arg1:T191 Arg2:T130	
+R9	WORKPLACE Arg1:T132 Arg2:T130	
+R10	WORKPLACE Arg1:T133 Arg2:T130	
+R11	WORKPLACE Arg1:T134 Arg2:T130	
+R12	FOUNDED_BY Arg1:T124 Arg2:T125	
+R13	WORKS_AS Arg1:T123 Arg2:T122	
+R14	WORKS_AS Arg1:T123 Arg2:T121	
+R15	WORKPLACE Arg1:T123 Arg2:T120	
+R16	DATE_FOUNDED_IN Arg1:T109 Arg2:T110	
+R17	WORKS_AS Arg1:T108 Arg2:T107	
+R18	WORKPLACE Arg1:T108 Arg2:T109	
+T157	DISEASE 432 456	африканской чумой свиней
+T160	EVENT 266 294	вспышка опасного заболевания
+T161	EVENT 1130 1149	30-дневный карантин
+R19	TAKES_PLACE_IN Arg1:T161 Arg2:T162	
+R20	WORKPLACE Arg1:T14 Arg2:T162	
+R21	LOCATED_IN Arg1:T33 Arg2:T34	
+R22	ALTERNATIVE_NAME Arg1:T162 Arg2:T39	
+R23	WORKPLACE Arg1:T58 Arg2:T171	
+R24	HEADQUARTERED_IN Arg1:T171 Arg2:T170	
+R25	WORKS_AS Arg1:T59 Arg2:T58	
+R26	WORKPLACE Arg1:T59 Arg2:T171	
+R27	HEADQUARTERED_IN Arg1:T62 Arg2:T174	
+R28	WORKPLACE Arg1:T175 Arg2:T62	
+R29	ORIGINS_FROM Arg1:T66 Arg2:T176	
+R30	HEADQUARTERED_IN Arg1:T68 Arg2:T67	
+R31	WORKPLACE Arg1:T66 Arg2:T68	
+R32	MEDICAL_CONDITION Arg1:T74 Arg2:T179	
+T190	CITY 5327 5337	Тамбовская
+R33	HEADQUARTERED_IN Arg1:T75 Arg2:T190	
+R34	WORKS_AS Arg1:T81 Arg2:T80	
+R35	ALTERNATIVE_NAME Arg1:T74 Arg2:T78	
+R36	ALTERNATIVE_NAME Arg1:T66 Arg2:T74	
+R37	ALTERNATIVE_NAME Arg1:T78 Arg2:T84	
+R38	HEADQUARTERED_IN Arg1:T86 Arg2:T85	
+R39	ALTERNATIVE_NAME Arg1:T83 Arg2:T85	
+R40	WORKPLACE Arg1:T87 Arg2:T88	
+R41	WORKS_AS Arg1:T87 Arg2:T182	
+T198	DISEASE 5286 5304	надрыв мышцы бедра
+R42	POINT_IN_TIME Arg1:T178 Arg2:T72	
+T200	ORGANIZATION 5991 6005	власти Тамбова
+R43	HEADQUARTERED_IN Arg1:T200 Arg2:T91	
+R44	WORKPLACE Arg1:T185 Arg2:T111	
+R45	WORKS_AS Arg1:T115 Arg2:T114	
+R46	WORKPLACE Arg1:T115 Arg2:T187	
+T201	CITY 6889 6895	Тамбов
+R47	HEADQUARTERED_IN Arg1:T109 Arg2:T201	
+T206	CITY 8100 8106	Тамбов
+R48	HEADQUARTERED_IN Arg1:T130 Arg2:T206	
+R49	HEADQUARTERED_IN Arg1:T6 Arg2:T155	
+R50	HAS_CAUSE Arg1:T160 Arg2:T156	
+R51	ALTERNATIVE_NAME Arg1:T3 Arg2:T154	
+R52	TAKES_PLACE_IN Arg1:T160 Arg2:T154	
+R53	LOCATED_IN Arg1:T9 Arg2:T3	
+R54	LOCATED_IN Arg1:T13 Arg2:T9	
+T25	DISTRICT 918 928	Пичаевский
+R55	ALTERNATIVE_NAME Arg1:T9 Arg2:T22	
+R56	LOCATED_IN Arg1:T22 Arg2:T162	
+R57	LOCATED_IN Arg1:T23 Arg2:T162	
+R58	LOCATED_IN Arg1:T24 Arg2:T162	
+R59	LOCATED_IN Arg1:T25 Arg2:T162	
+R60	LOCATED_IN Arg1:T26 Arg2:T162	
+R61	LOCATED_IN Arg1:T27 Arg2:T162	
+R62	LOCATED_IN Arg1:T28 Arg2:T162	
+T208	CITY 3706 3716	Тамбовский
+R63	HEADQUARTERED_IN Arg1:T54 Arg2:T208	
+R64	EXPENDITURE Arg1:T57 Arg2:T56	
+R65	HEADQUARTERED_IN Arg1:T63 Arg2:T174	
+R66	AGENT Arg1:T70 Arg2:T178	
+R67	AGENT Arg1:T71 Arg2:T178	
+R68	TAKES_PLACE_IN Arg1:T177 Arg2:T70	
+R69	SUBEVENT_OF Arg1:T178 Arg2:T177	
+R70	WORKS_AS Arg1:T84 Arg2:T181	
+R71	ALTERNATIVE_NAME Arg1:T84 Arg2:T87	
+T209	CITY 6448 6454	Тамбов
+R72	HEADQUARTERED_IN Arg1:T100 Arg2:T209	
+R73	WORKPLACE Arg1:T107 Arg2:T109	
+R74	PARTICIPANT_IN Arg1:T115 Arg2:T113	
+T210	CITY 7516 7522	Тамбов
+R75	HEADQUARTERED_IN Arg1:T119 Arg2:T210	
+R76	HEADQUARTERED_IN Arg1:T125 Arg2:T128	
+R77	WORKPLACE Arg1:T153 Arg2:T130	
+R78	ORIGINS_FROM Arg1:T192 Arg2:T193	
+R79	ORGANIZES Arg1:T196 Arg2:T138	
+R80	HEADQUARTERED_IN Arg1:T196 Arg2:T197	
+R81	ALTERNATIVE_NAME Arg1:T150 Arg2:T151	
+R82	WORKPLACE Arg1:T149 Arg2:T128	
+N4	Reference T10 Wikidata:Q2624171	МЧС России
+N5	Reference T13 Wikidata:Q4108381	Верхнее Нащёкино
+N6	Reference T22 Wikidata:Q1651659	Бондарский район
+N8	Reference T24 Wikidata:Q645518	Кирсановский район
+N9	Reference T26 Wikidata:Q1654396	Рассказовский район
+N12	Reference T33 Wikidata:Q4090555	Бокино
+N13	Reference T34 Wikidata:Q3980593	Тамбовский район
+N17	Reference T57 Wikidata:Q2279155	Роснано
+N21	Reference T68 Wikidata:Q19353	Анжи
+N22	Reference T71 Wikidata:Q26	Северная Ирландия
+N24	Reference T74 Wikidata:Q3981504	Жиркова, Татьяна Юрьевна
+N25	Reference T76 Wikidata:Q159	Россия
+N26	Reference T77 Wikidata:Q45	Португалия
+N31	Reference T107 Wikidata:Q1501800	генеральный директор
+N36	Reference T122 Wikidata:Q41583	тренер
+N37	Reference T123 Wikidata:Q7453726	Первушин, Сергей Александрович
+N40	Reference T131 Wikidata:Q201330	вратарь
+N41	Reference T132 Wikidata:Q3712307	Давыдов, Дмитрий Анатольевич
+N50	Reference T165 Wikidata:Q13205894	Мордва
+N51	Reference T166 Wikidata:Q2379669	Цна
+N53	Reference T182 Wikidata:Q937857	футболист
+N55	Reference T194 Wikidata:Q2066131	спортсмен
+N58	Reference T204 Wikidata:Q377027	Олег Иванович Бетин
+N59	Reference T205 Wikidata:Q3074	правила дорожного движения
+N1	Reference T1 Wikidata:NULL	нет данных
+N3	Reference T6 Wikidata:NULL	нет данных
+N48	Reference T158 Wikidata:Q384593	
+N47	Reference T154 Wikidata:Q3550	Тамбовская область
+N2	Reference T2 Wikidata:Q5340	Мордовия
+N49	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:Q1652011	
+N62	Reference T25 Wikidata:Q3906088	Пичаевский район
+N10	Reference T27 Wikidata:Q1764338	
+N11	Reference T28 Wikidata:Q3980593	Тамбовский район
+N63	Reference T39 Wikidata:Q3550	Тамбовская область
+N14	Reference T41 Wikidata:Q13205894	Мордва
+N15	Reference T44 Wikidata:NULL	нет данных
+N64	Reference T52 Wikidata:NULL	нет данных
+N16	Reference T48 Wikidata:Q49542	русские
+N65	Reference T58 Wikidata:NULL	нет данных
+N66	Reference T171 Wikidata:NULL	нет данных
+N18	Reference T59 Wikidata:NULL	нет данных
+N52	Reference T175 Wikidata:NULL	нет данных
+N19	Reference T62 Wikidata:NULL	нет данных
+N67	Reference T63 Wikidata:NULL	нет данных
+N68	Reference T65 Wikidata:NULL	нет данных
+N20	Reference T67 Wikidata:Q5168	Махачкала
+N23	Reference T73 Wikidata:Q801	Израиль
+N69	Reference T81 Wikidata:NULL	нет данных
+N27	Reference T85 Wikidata:Q3544	Тамбов
+N61	Reference T200 Wikidata:NULL	нет данных
+N54	Reference T183 Wikidata:Q159	Россия
+N28	Reference T95 Wikidata:NULL	нет данных
+N29	Reference T96 Wikidata:NULL	нет данных
+N70	Reference T97 Wikidata:NULL	нет данных
+N30	Reference T99 Wikidata:Q318386	Российский футбольный союз
+N71	Reference T185 Wikidata:NULL	нет данных
+N32	Reference T114 Wikidata:NULL	нет данных
+N33	Reference T115 Wikidata:NULL	нет данных
+N34	Reference T119 Wikidata:NULL	нет данных
+N35	Reference T120 Wikidata:NULL	нет данных
+N72	Reference T121 Wikidata:Q3246315	
+N38	Reference T124 Wikidata:NULL	нет данных
+N73	Reference T125 Wikidata:NULL	нет данных
+N39	Reference T130 Wikidata:NULL	нет данных
+N60	Reference T153 Wikidata:NULL	нет данных
+N42	Reference T133 Wikidata:NULL	нет данных
+N43	Reference T134 Wikidata:Q6849736	
+N44	Reference T136 Wikidata:NULL	нет данных
+N56	Reference T196 Wikidata:NULL	нет данных
+N45	Reference T139 Wikidata:NULL	нет данных
+N57	Reference T203 Wikidata:NULL	нет данных
+N74	Reference T207 Wikidata:Q3074	правила дорожного движения
+N46	Reference T151 Wikidata:Q132050	губернатор
+N75	Reference T9 Wikidata:Q1651659	Бондарский район
+N76	Reference T88 Wikidata:Q19353	Анжи
+N77	Reference T87 Wikidata:Q3981504	Жиркова, Татьяна Юрьевна
+N78	Reference T84 Wikidata:Q3981504	Жиркова, Татьяна Юрьевна
+N79	Reference T78 Wikidata:Q3981504	Жиркова, Татьяна Юрьевна
+N80	Reference T66 Wikidata:Q3981504	Жиркова, Татьяна Юрьевна
+N81	Reference T70 Wikidata:Q159	Россия
+N82	Reference T80 Wikidata:Q41583	тренер
+N83	Reference T191 Wikidata:Q41583	тренер
+N84	Reference T189 Wikidata:Q41583	тренер
+N85	Reference T167 Wikidata:Q13205894	Мордва
+N86	Reference T45 Wikidata:Q13205894	Мордва
+N87	Reference T181 Wikidata:Q937857	футболист
+N88	Reference T32 Wikidata:Q377027	Олег Иванович Бетин
+N89	Reference T3 Wikidata:Q3550	Тамбовская область
+N90	Reference T4 Wikidata:Q3550	Тамбовская область
+N91	Reference T128 Wikidata:Q3550	Тамбовская область
+N92	Reference T162 Wikidata:Q3550	Тамбовская область
+N93	Reference T40 Wikidata:Q13205894	Мордва
+N94	Reference T38 Wikidata:Q49542	русские
+N95	Reference T54 Wikidata:NULL	нет данных
+N96	Reference T51 Wikidata:Q3544	Тамбов
+N97	Reference T79 Wikidata:Q3544	Тамбов
+N98	Reference T195 Wikidata:Q3544	Тамбов
+N99	Reference T188 Wikidata:Q3544	Тамбов
+N100	Reference T91 Wikidata:Q3544	Тамбов
+N101	Reference T170 Wikidata:Q3544	Тамбов
+N102	Reference T206 Wikidata:Q3544	Тамбов
+N103	Reference T197 Wikidata:Q3544	Тамбов
+N104	Reference T210 Wikidata:Q3544	Тамбов
+N105	Reference T201 Wikidata:Q3544	Тамбов
+N106	Reference T172 Wikidata:Q3544	Тамбов
+N107	Reference T174 Wikidata:Q3544	Тамбов
+N108	Reference T155 Wikidata:Q3544	Тамбов
+N109	Reference T209 Wikidata:Q3544	Тамбов
+N110	Reference T50 Wikidata:Q3544	Тамбов
+N111	Reference T193 Wikidata:Q3544	Тамбов
+N112	Reference T190 Wikidata:Q3544	Тамбов
+N113	Reference T176 Wikidata:Q3544	Тамбов
+N114	Reference T83 Wikidata:Q3544	Тамбов
+N115	Reference T208 Wikidata:Q3544	Тамбов
+N116	Reference T98 Wikidata:NULL	нет данных
+N117	Reference T116 Wikidata:NULL	нет данных
+N118	Reference T86 Wikidata:NULL	нет данных
+N119	Reference T112 Wikidata:NULL	нет данных
+N120	Reference T93 Wikidata:NULL	нет данных
+N121	Reference T101 Wikidata:NULL	нет данных
+N122	Reference T100 Wikidata:NULL	нет данных
+N123	Reference T111 Wikidata:NULL	нет данных
+N124	Reference T103 Wikidata:NULL	нет данных
+N125	Reference T94 Wikidata:NULL	нет данных
+N126	Reference T117 Wikidata:NULL	нет данных
+N127	Reference T187 Wikidata:NULL	нет данных
+N128	Reference T109 Wikidata:NULL	нет данных
+N129	Reference T192 Wikidata:NULL	нет данных
+N130	Reference T108 Wikidata:NULL	нет данных
+N131	Reference T75 Wikidata:NULL	нет данных
+N132	Reference T36 Wikidata:NULL	нет данных
+N133	Reference T150 Wikidata:Q132050	губернатор
+N134	Reference T149 Wikidata:Q132050	губернатор
+N135	Reference T31 Wikidata:Q132050	губернатор
+N136	Reference T152 Wikidata:Q132050	губернатор

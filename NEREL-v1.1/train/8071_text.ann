@@ -1,0 +1,104 @@
+T1	STATE_OR_PROVINCE 0 7	Чувашия
+T2	AGE 17 25	80-летие
+T3	DATE 70 85	Пятого сентября
+T4	PROFESSION 99 117	лётчику-космонавту
+T5	COUNTRY 132 148	Советского Союза
+T6	PERSON 175 206	Андрияну Григорьевичу Николаеву
+T7	AGE 222 228	80 лет
+T8	CITY 285 294	Чебоксары
+T10	CITY 441 448	Шоршелы
+T11	DATE 480 491	в этот день
+T12	AGE 565 573	80-летию
+T13	PERSON 590 605	А. Г. Николаева
+T15	TIME 638 645	вечером
+T16	STATE_OR_PROVINCE 648 657	Чувашском
+T17	EVENT 682 704	торжественном собрании
+T18	PERSON 725 756	Андрияна Григорьевича Николаева
+T21	CITY 787 796	Чебоксары
+T24	ORGANIZATION 943 950	Энергия
+T25	PROFESSION 973 991	летчики-космонавты
+T19	PROFESSION 462 478	лётчик-космонавт
+T9	ORGANIZATION 648 678	Чувашском драматическом театре
+R1	AGE_IS Arg1:T6 Arg2:T7	
+T14	PERSON 53 68	А. Г. Николаева
+R2	AGE_IS Arg1:T14 Arg2:T2	
+T20	AWARD 126 148	Герою Советского Союза
+R3	ORIGINS_FROM Arg1:T20 Arg2:T5	
+R4	HEADQUARTERED_IN Arg1:T9 Arg2:T16	
+T23	PERSON 992 1005	Борис Волынов
+T26	PERSON 1007 1025	Анатолий Березовой
+T27	NUMBER 1186 1197	20 гектаров
+T28	PERSON 1236 1254	Андрияну Николаеву
+T29	FACILITY 1354 1372	Музея космонавтики
+T30	CITY 1549 1558	Чебоксары
+T31	ORGANIZATION 1586 1617	Национальной библиотеке Чувашии
+T32	STATE_OR_PROVINCE 1610 1617	Чувашии
+R5	HEADQUARTERED_IN Arg1:T31 Arg2:T32	
+T33	PERSON 1650 1666	Андриан Николаев
+T34	PRODUCT 1842 1851	Интернета
+T35	PERSON 1954 1972	Андрияна Николаева
+T36	EVENT 1922 1972	Восемьдесят лет со дня рождения Андрияна Николаева
+T37	AGE 1922 1937	Восемьдесят лет
+R6	AGE_IS Arg1:T35 Arg2:T37	
+T38	EVENT 1650 1682	Андриан Николаев: Путь к звездам
+R7	TAKES_PLACE_IN Arg1:T38 Arg2:T31	
+R8	AWARDED_WITH Arg1:T6 Arg2:T20	
+R9	WORKS_AS Arg1:T6 Arg2:T4	
+T39	EVENT 306 313	митинга
+T40	EVENT 316 333	возложения цветов
+T41	FACILITY 336 351	Памятному знаку
+R10	LOCATED_IN Arg1:T41 Arg2:T8	
+R11	LOCATED_IN Arg1:T8 Arg2:T1	
+R12	TAKES_PLACE_IN Arg1:T39 Arg2:T8	
+R13	TAKES_PLACE_IN Arg1:T40 Arg2:T8	
+R14	PLACE_OF_BIRTH Arg1:T19 Arg2:T10	
+R15	AGE_IS Arg1:T13 Arg2:T12	
+R16	ALTERNATIVE_NAME Arg1:T14 Arg2:T6	
+T42	EVENT 230 251	Юбилейные мероприятия
+R17	TAKES_PLACE_IN Arg1:T42 Arg2:T1	
+R18	SUBEVENT_OF Arg1:T39 Arg2:T42	
+R19	SUBEVENT_OF Arg1:T40 Arg2:T42	
+R20	LOCATED_IN Arg1:T10 Arg2:T1	
+R21	POINT_IN_TIME Arg1:T17 Arg2:T15	
+R22	TAKES_PLACE_IN Arg1:T17 Arg2:T9	
+T22	PERSON 1027 1042	Виктор Горбатко
+R23	WORKS_AS Arg1:T23 Arg2:T25	
+R24	WORKS_AS Arg1:T26 Arg2:T25	
+R25	WORKS_AS Arg1:T22 Arg2:T25	
+T43	CITY 1058 1068	Чебоксарах
+T44	FACILITY 1091 1107	Звездный городок
+R26	LOCATED_IN Arg1:T44 Arg2:T43	
+R27	ALTERNATIVE_NAME Arg1:T18 Arg2:T28	
+R28	LOCATED_IN Arg1:T29 Arg2:T30	
+R29	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R30	ALTERNATIVE_NAME Arg1:T28 Arg2:T33	
+N1	Reference T5 Wikidata:Q15180	СССР
+N2	Reference T10 Wikidata:Q4526223	Шоршелы
+N3	Reference T13 Wikidata:Q312474	Андриян Григорьевич Николаев
+N5	Reference T18 Wikidata:Q312474	Андриян Григорьевич Николаев
+N6	Reference T24 Wikidata:Q763402	РКК «Энергия»
+N7	Reference T25 Wikidata:Q1428575	Лётчик-космонавт СССР
+N8	Reference T9 Wikidata:Q2396090	Чувашский государственный академический драматический театр имени К. В. Иванова
+N9	Reference T20 Wikidata:Q178473	Герой Советского Союза
+N10	Reference T23 Wikidata:Q448538	Борис Валентинович Волынов
+N11	Reference T26 Wikidata:Q465724	Анатолий Николаевич Березовой
+N12	Reference T29 Wikidata:Q1638035	Музей космонавтики
+N13	Reference T30 Wikidata:Q5470	Чебоксары
+N15	Reference T32 Wikidata:Q5466	Чувашия
+N16	Reference T33 Wikidata:Q312474	Андриян Григорьевич Николаев
+N17	Reference T34 Wikidata:Q75	Интернет
+N19	Reference T22 Wikidata:Q348205	Виктор Васильевич Горбатко
+N18	Reference T41 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:Q5466	Чувашия
+N20	Reference T44 Wikidata:NULL	нет данных
+N14	Reference T31 Wikidata:NULL	нет данных
+N21	Reference T6 Wikidata:Q312474	Андриян Григорьевич Николаев
+N22	Reference T14 Wikidata:Q312474	Андриян Григорьевич Николаев
+N23	Reference T28 Wikidata:Q312474	Андриян Григорьевич Николаев
+N24	Reference T35 Wikidata:Q312474	Андриян Григорьевич Николаев
+N25	Reference T19 Wikidata:Q1428575	Лётчик-космонавт СССР
+N26	Reference T4 Wikidata:Q1428575	Лётчик-космонавт СССР
+N27	Reference T8 Wikidata:Q5470	Чебоксары
+N28	Reference T43 Wikidata:Q5470	Чебоксары
+N29	Reference T21 Wikidata:Q5470	Чебоксары
+N30	Reference T1 Wikidata:Q5466	Чувашия

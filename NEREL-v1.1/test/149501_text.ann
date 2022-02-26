@@ -1,0 +1,153 @@
+T1	COUNTRY 2 7	Китае
+T2	AGE 17 26	170-летие
+T3	WORK_OF_ART 39 66	Коммунистического манифеста
+T4	COUNTRY 94 97	КНР
+T5	DATE 99 107	2009 год
+T6	COUNTRY 110 115	Китае
+T7	AGE 125 134	170-летие
+T8	WORK_OF_ART 147 174	Коммунистического манифеста
+T11	PERSON 226 238	Карла Маркса
+T12	PERSON 241 258	Фридриха Энгельса
+T13	DATE 359 379	21 февраля 1848 года
+T14	CITY 382 389	Лондоне
+T15	ORGANIZATION 403 410	Синьхуа
+T16	WORK_OF_ART 438 447	Манифеста
+T17	ORGANIZATION 516 530	Жэньминь жибао
+T18	ORGANIZATION 544 568	Коммунистической партией
+T19	COUNTRY 569 574	Китая
+T20	ORGANIZATION 576 579	КПК
+T21	WORK_OF_ART 594 602	Манифест
+T26	ORGANIZATION 724 749	Центрального комитета КПК
+T27	ORGANIZATION 751 757	ЦК КПК
+T28	COUNTRY 784 793	китайские
+T29	WORK_OF_ART 856 864	Манифест
+T30	ORGANIZATION 868 887	Центральный комитет
+T31	ORGANIZATION 888 920	Коммунистического союза молодёжи
+T32	COUNTRY 921 926	Китая
+T33	PRODUCT 970 976	WeChat
+T34	NUMBER 1038 1053	более 100 тысяч
+T35	NUMBER 1067 1073	тысячи
+T39	COUNTRY 1193 1203	китайского
+T41	PERSON 1211 1223	Си Цзиньпина
+T42	DATE 1224 1244	31 декабря 2017 года
+T43	LANGUAGE 1278 1286	Немецкий
+T44	WORK_OF_ART 1294 1321	Коммунистического манифеста
+T45	NUMBER 1354 1357	200
+T46	NUMBER 1374 1376	23
+T47	LANGUAGE 1387 1396	китайском
+T48	COUNTRY 1419 1427	немецкие
+T36	ORGANIZATION 888 926	Коммунистического союза молодёжи Китая
+T38	DATE 1168 1179	новогоднего
+T49	WORK_OF_ART 1000 1025	Коммунистический манифест
+T58	PROFESSION 1428 1436	философы
+T59	IDEOLOGY 1478 1489	капитализма
+T60	IDEOLOGY 1000 1016	Коммунистический
+T61	IDEOLOGY 1294 1311	Коммунистического
+T62	IDEOLOGY 1517 1534	коммунистического
+T63	IDEOLOGY 39 56	Коммунистического
+T65	EVENT 116 124	отметили
+T66	EVENT 8 16	отметили
+T68	IDEOLOGY 147 164	Коммунистического
+T9	WORK_OF_ART 182 215	Манифеста Коммунистической партии
+T10	IDEOLOGY 192 208	Коммунистической
+T69	IDEOLOGY 317 343	коммунистического движения
+T70	IDEOLOGY 449 457	марксизм
+T71	ORGANIZATION 544 574	Коммунистической партией Китая
+T22	IDEOLOGY 683 694	коммунистов
+T23	ORGANIZATION 746 749	КПК
+T24	ORGANIZATION 754 757	КПК
+T25	ORGANIZATION 708 749	партийной школы Центрального комитета КПК
+T72	ORGANIZATION 724 745	Центрального комитета
+T73	ORGANIZATION 751 753	ЦК
+T74	IDEOLOGY 794 804	коммунисты
+T75	ORGANIZATION 868 926	Центральный комитет Коммунистического союза молодёжи Китая
+T76	IDEOLOGY 544 560	Коммунистической
+T77	IDEOLOGY 888 905	Коммунистического
+R3	TAKES_PLACE_IN Arg1:T66 Arg2:T1	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+T64	EVENT 69 97	Празднование образования КНР
+R5	POINT_IN_TIME Arg1:T64 Arg2:T5	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T64	
+R7	TAKES_PLACE_IN Arg1:T65 Arg2:T6	
+R8	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R9	PRODUCES Arg1:T11 Arg2:T9	
+R10	PRODUCES Arg1:T12 Arg2:T9	
+T78	EVENT 353 358	издан
+R11	POINT_IN_TIME Arg1:T78 Arg2:T13	
+R12	TAKES_PLACE_IN Arg1:T78 Arg2:T14	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T16	
+R14	HEADQUARTERED_IN Arg1:T71 Arg2:T19	
+R15	ABBREVIATION Arg1:T71 Arg2:T20	
+R16	ALTERNATIVE_NAME Arg1:T68 Arg2:T69	
+R17	ALTERNATIVE_NAME Arg1:T76 Arg2:T22	
+R18	ABBREVIATION Arg1:T72 Arg2:T73	
+R19	ALTERNATIVE_NAME Arg1:T19 Arg2:T28	
+R20	ORIGINS_FROM Arg1:T74 Arg2:T28	
+R21	HEADQUARTERED_IN Arg1:T36 Arg2:T32	
+R22	IDEOLOGY_OF Arg1:T71 Arg2:T76	
+R23	IDEOLOGY_OF Arg1:T36 Arg2:T77	
+T79	WORK_OF_ART 1084 1092	Манифест
+T40	EVENT 1180 1192	поздравления
+R25	PARTICIPANT_IN Arg1:T41 Arg2:T40	
+R26	POINT_IN_TIME Arg1:T40 Arg2:T42	
+T80	PROFESSION 1193 1223	китайского лидера Си Цзиньпина
+R27	WORKS_AS Arg1:T41 Arg2:T80	
+R28	WORKPLACE Arg1:T41 Arg2:T39	
+R29	ALTERNATIVE_NAME Arg1:T49 Arg2:T79	
+R30	WORKPLACE Arg1:T58 Arg2:T48	
+R33	OWNER_OF Arg1:T72 Arg2:T25	
+R34	ABBREVIATION Arg1:T26 Arg2:T27	
+R24	PART_OF Arg1:T75 Arg2:T31	
+R1	AGE_IS Arg1:T3 Arg2:T2	
+R35	INANIMATE_INVOLVED Arg1:T3 Arg2:T66	
+R2	AGE_IS Arg1:T8 Arg2:T7	
+R32	INANIMATE_INVOLVED Arg1:T8 Arg2:T65	
+R36	IDEOLOGY_OF Arg1:T11 Arg2:T10	
+R37	IDEOLOGY_OF Arg1:T12 Arg2:T10	
+R38	INANIMATE_INVOLVED Arg1:T8 Arg2:T78	
+R39	POINT_IN_TIME Arg1:T40 Arg2:T38	
+N1	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N2	Reference T12 Wikidata:Q34787	Фридрих Энгельс
+N3	Reference T14 Wikidata:Q84	Лондон
+N4	Reference T15 Wikidata:Q204839	Синьхуа
+N6	Reference T17 Wikidata:Q54340	Жэньминь жибао
+N7	Reference T18 Wikidata:Q233591	коммунистическая партия
+N8	Reference T27 Wikidata:Q1076970	Политбюро ЦК КПК
+N10	Reference T33 Wikidata:Q283233	WeChat
+N11	Reference T41 Wikidata:Q15031	Си Цзиньпин
+N12	Reference T44 Wikidata:Q40591	Манифест коммунистической партии
+N14	Reference T56 Wikidata:Q188	немецкий язык
+N15	Reference T36 Wikidata:Q1071253	Коммунистический союз молодёжи Китая
+N16	Reference T49 Wikidata:Q40591	Манифест коммунистической партии
+N17	Reference T58 Wikidata:Q4964182	философ
+N18	Reference T71 Wikidata:Q17427	Коммунистическая партия Китая
+N20	Reference T73 Wikidata:Q190652	центральный комитет
+N22	Reference T80 Wikidata:Q15031	Си Цзиньпин
+N23	Reference T11 Wikidata:Q9061	Карл Маркс
+N5	Reference T16 Wikidata:Q40591	Манифест коммунистической партии
+N19	Reference T25 Wikidata:NULL	нет данных
+N9	Reference T31 Wikidata:Q1071253	Коммунистический союз молодёжи Китая
+N21	Reference T75 Wikidata:NULL	нет данных
+N24	Reference T39 Wikidata:Q148	Китайская Народная Республика
+N25	Reference T47 Wikidata:Q7850	
+N13	Reference T48 Wikidata:Q42884	немцы
+N26	Reference T4 Wikidata:Q148	Китайская Народная Республика
+N27	Reference T26 Wikidata:Q1076970	Политбюро ЦК КПК
+N28	Reference T50 Wikidata:Q40591	Манифест коммунистической партии
+N29	Reference T3 Wikidata:Q40591	Манифест коммунистической партии
+N30	Reference T43 Wikidata:Q188	немецкий язык
+N31	Reference T21 Wikidata:Q40591	Манифест коммунистической партии
+N32	Reference T29 Wikidata:Q40591	Манифест коммунистической партии
+N33	Reference T79 Wikidata:Q40591	Манифест коммунистической партии
+N34	Reference T24 Wikidata:Q17427	Коммунистическая партия Китая
+N35	Reference T20 Wikidata:Q17427	Коммунистическая партия Китая
+N36	Reference T23 Wikidata:Q17427	Коммунистическая партия Китая
+N37	Reference T72 Wikidata:Q190652	центральный комитет
+N38	Reference T30 Wikidata:Q190652	центральный комитет
+N39	Reference T9 Wikidata:Q40591	Манифест коммунистической партии
+N40	Reference T8 Wikidata:Q40591	Манифест коммунистической партии
+N41	Reference T19 Wikidata:Q148	Китайская Народная Республика
+N42	Reference T28 Wikidata:Q148	Китайская Народная Республика
+N43	Reference T6 Wikidata:Q148	Китайская Народная Республика
+N44	Reference T32 Wikidata:Q148	Китайская Народная Республика
+N45	Reference T53 Wikidata:Q7850	

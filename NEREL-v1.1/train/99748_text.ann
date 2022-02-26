@@ -1,0 +1,98 @@
+T1	ORGANIZATION 0 22	Международный трибунал
+T2	PERSON 34 52	Радована Караджича
+T3	DATE 55 63	40 годам
+T4	PERSON 64 80	Радован Караджич
+T5	PROFESSION 88 111	лидер боснийских сербов
+T6	PERSON 112 128	Радован Караджич
+T7	DATE 172 180	40 годам
+T8	ORGANIZATION 204 246	Международный трибунал по бывшей Югославии
+T9	PERSON 271 279	Караджич
+T10	CITY 301 311	Сребренице
+T11	CITY 401 408	Сараево
+T12	NUMBER 479 485	девяти
+T13	PROFESSION 543 567	лидера боснийских сербов
+T14	NUMBER 576 580	двух
+T15	AGE 622 638	Семидесятилетний
+T16	COUNTRY 704 713	Югославии
+T17	ORGANIZATION 731 755	Международным трибуналом
+T18	NUMBER 778 780	10
+T19	NUMBER 784 786	11
+T20	PROFESSION 807 814	Адвокат
+T21	AGE 888 897	70-летний
+T22	PERSON 898 914	Радован Караджич
+T25	NATIONALITY 94 111	боснийских сербов
+T26	COUNTRY 237 246	Югославии
+T27	DATE 312 323	в 1995 году
+T28	CRIME 339 366	нападений на мирных жителей
+T29	CRIME 371 380	убийствах
+T30	NATIONALITY 550 567	боснийских сербов
+T31	PERSON 639 647	Караджич
+T32	PERSON 815 824	Караджича
+T24	DATE 956 971	1992—1996 годах
+T33	COUNTRY 934 953	Республики Сербской
+T34	ORGANIZATION 204 226	Международный трибунал
+T23	PROFESSION 924 953	Президент Республики Сербской
+T35	PROFESSION 924 933	Президент
+T36	CRIME 290 298	геноциде
+R1	TAKES_PLACE_IN Arg1:T36 Arg2:T10	
+R2	CONVICTED_OF Arg1:T9 Arg2:T36	
+R3	LOCATED_IN Arg1:T10 Arg2:T26	
+R4	POINT_IN_TIME Arg1:T36 Arg2:T27	
+R5	AGE_IS Arg1:T31 Arg2:T15	
+R6	TAKES_PLACE_IN Arg1:T28 Arg2:T10	
+R7	POINT_IN_TIME Arg1:T28 Arg2:T27	
+R8	AGE_IS Arg1:T22 Arg2:T21	
+R9	WORKS_AS Arg1:T22 Arg2:T23	
+T37	EVENT 23 33	приговорил
+R10	PARTICIPANT_IN Arg1:T2 Arg2:T37	
+R11	AGENT Arg1:T1 Arg2:T37	
+R12	ORIGINS_FROM Arg1:T6 Arg2:T25	
+T38	CRIME 148 156	геноциде
+R13	CONVICTED_OF Arg1:T6 Arg2:T38	
+R14	CONVICTED_OF Arg1:T9 Arg2:T28	
+R15	CONVICTED_OF Arg1:T9 Arg2:T29	
+R16	TAKES_PLACE_IN Arg1:T29 Arg2:T11	
+R17	SUBORDINATE_OF Arg1:T20 Arg2:T32	
+R18	WORKPLACE Arg1:T22 Arg2:T33	
+R19	WORKS_AS Arg1:T6 Arg2:T5	
+T39	EVENT 129 145	признан виновным
+R21	PARTICIPANT_IN Arg1:T6 Arg2:T39	
+T40	PENALTY 172 201	40 годам тюремного заключения
+T41	EVENT 159 169	приговорён
+R20	PARTICIPANT_IN Arg1:T6 Arg2:T41	
+R22	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+T42	CRIME 427 448	военных преступлениях
+T43	CRIME 611 619	геноциде
+T44	EVENT 758 774	признан виновным
+R23	AGENT Arg1:T17 Arg2:T44	
+R24	PARTICIPANT_IN Arg1:T31 Arg2:T44	
+R25	ORIGINS_FROM Arg1:T5 Arg2:T25	
+R26	PENALIZED_AS Arg1:T6 Arg2:T40	
+T45	PENALTY 181 201	тюремного заключения
+R27	CONVICTED_OF Arg1:T9 Arg2:T42	
+R28	ORIGINS_FROM Arg1:T13 Arg2:T30	
+R29	HAS_CAUSE Arg1:T39 Arg2:T38	
+R30	HAS_CAUSE Arg1:T40 Arg2:T38	
+N2	Reference T10 Wikidata:Q156053	Сребреница
+N3	Reference T11 Wikidata:Q11194	Сараево
+N4	Reference T17 Wikidata:Q1667613	Международный военный трибунал
+N5	Reference T20 Wikidata:Q40348	адвокат
+N6	Reference T22 Wikidata:Q123923	Караджич, Радован
+N7	Reference T26 Wikidata:Q36704	Югославия
+N8	Reference T30 Wikidata:Q127885	сербы
+N9	Reference T33 Wikidata:Q11196	Республика Сербская
+N10	Reference T23 Wikidata:Q6594693	Президент Республики Сербской
+N11	Reference T35 Wikidata:Q30461	президент
+N1	Reference T5 Wikidata:NULL	нет данных
+N12	Reference T31 Wikidata:Q123923	Караджич, Радован
+N13	Reference T34 Wikidata:Q1667613	Международный военный трибунал
+N14	Reference T1 Wikidata:Q1667613	Международный военный трибунал
+N15	Reference T8 Wikidata:Q1667613	Международный военный трибунал
+N16	Reference T2 Wikidata:Q123923	Караджич, Радован
+N17	Reference T4 Wikidata:Q123923	Караджич, Радован
+N18	Reference T6 Wikidata:Q123923	Караджич, Радован
+N19	Reference T16 Wikidata:Q36704	Югославия
+N20	Reference T25 Wikidata:Q127885	сербы
+N21	Reference T13 Wikidata:NULL	нет данных
+N22	Reference T32 Wikidata:Q123923	Караджич, Радован
+N23	Reference T9 Wikidata:Q123923	Караджич, Радован

@@ -1,0 +1,184 @@
+T1	PROFESSION 0 21	Глава «Металлоинвеста
+T2	PERSON 23 37	Андрей Варичев
+T3	ORGANIZATION 65 79	Металлоинвеста
+T4	PROFESSION 81 92	Гендиректор
+T5	PERSON 116 130	Андрей Варичев
+T6	AGE 147 153	52 лет
+T7	ORGANIZATION 156 162	Forbes
+T8	PROFESSION 177 185	менеджер
+T9	CITY 224 230	Москве
+T10	ORGANIZATION 337 340	РБК
+T11	PERSON 355 369	Андрей Варичев
+T12	DATE 389 409	Несколько дней назад
+T13	DISEASE 443 453	SARS-CoV-2
+T14	NUMBER 503 507	один
+T15	ORGANIZATION 535 541	Forbes
+T16	NUMBER 578 581	два
+T17	PERSON 640 649	Варичевым
+T18	DATE 650 659	10 апреля
+T19	ORGANIZATION 673 684	Коммерсантъ
+T20	PERSON 726 742	Алишеру Усманову
+T21	DISEASE 777 785	COVID-19
+T22	DATE 844 860	в ноябре-декабре
+T23	PERSON 934 940	Андрей
+T24	PERSON 943 957	Андрей Варичев
+T25	ORGANIZATION 971 984	Металлоинвест
+T26	DATE 986 997	с 2013 года
+T27	DATE 999 1010	С 2006 года
+T28	PROFESSION 1022 1054	коммерческим директором компании
+T29	DATE 1056 1067	В 2005 году
+T30	ORGANIZATION 1087 1103	Михайловский ГОК
+T31	PERSON 1142 1158	Алишера Усманова
+T32	PERSON 1161 1178	Василия Анисимова
+T33	PROFESSION 1202 1217	замгендиректора
+T34	ORGANIZATION 1219 1234	Уральской стали
+T35	PERSON 1262 1269	Варичев
+T37	DATE 1291 1302	В 2011 году
+T38	PROFESSION 1318 1327	депутатом
+T39	ORGANIZATION 1361 1374	Единая Россия
+T40	DATE 1379 1390	в 2018 году
+T41	ORGANIZATION 1433 1437	ТАСС
+T42	ORGANIZATION 1441 1454	Металлоинвест
+T43	COUNTRY 1550 1556	России
+T44	ORGANIZATION 1570 1582	USM Holdings
+T45	ORGANIZATION 1647 1658;1674 1704	Лебединский горно-обогатительные комбинаты
+T47	ORGANIZATION 1647 1704	Лебединский и Михайловский горно-обогатительные комбинаты
+T48	ORGANIZATION 1719 1734	Уральская сталь
+T49	ORGANIZATION 1738 1781	Оскольский электрометаллургический комбинат
+T50	ORGANIZATION 1786 1796	УралМетКом
+T51	EVENT 38 42	умер
+T52	ORGANIZATION 7 21	Металлоинвеста
+T53	DISEASE 46 55	пневмонии
+T54	PROFESSION 81 114	Гендиректор ООО УК «Металлоинвест
+T56	ORGANIZATION 101 114	Металлоинвест
+T57	EVENT 131 135	умер
+T58	EVENT 186 195	скончался
+T59	TIME 231 270	днём в понедельник, 27 апреля 2020 года
+T60	DATE 236 270	в понедельник, 27 апреля 2020 года
+T61	DISEASE 378 387	пневмонии
+T62	EVENT 370 374	умер
+T63	PROFESSION 410 418	менеджер
+T65	PROFESSION 1035 1054	директором компании
+T66	PERSON 1068 1075	Варичев
+T67	PROFESSION 1202 1234	замгендиректора «Уральской стали
+T68	PERSON 1303 1310	Варичев
+T69	PROFESSION 1318 1350	депутатом Курской областной думы
+T70	ORGANIZATION 1328 1350	Курской областной думы
+T71	CITY 1328 1335	Курской
+T72	PERSON 1583 1599	Алишера Усманова
+R1	WORKPLACE Arg1:T1 Arg2:T52	
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+R3	WORKPLACE Arg1:T2 Arg2:T52	
+R4	PARTICIPANT_IN Arg1:T2 Arg2:T51	
+R5	HAS_CAUSE Arg1:T51 Arg2:T53	
+R6	CAUSE_OF_DEATH Arg1:T2 Arg2:T53	
+R7	WORKPLACE Arg1:T54 Arg2:T56	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T57	
+R9	AGE_IS Arg1:T5 Arg2:T6	
+R10	WORKS_AS Arg1:T5 Arg2:T54	
+R11	WORKPLACE Arg1:T5 Arg2:T56	
+R12	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R13	PLACE_OF_DEATH Arg1:T5 Arg2:T9	
+R14	DATE_OF_DEATH Arg1:T5 Arg2:T60	
+R15	TAKES_PLACE_IN Arg1:T58 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T58 Arg2:T62	
+R17	CAUSE_OF_DEATH Arg1:T11 Arg2:T61	
+R18	PARTICIPANT_IN Arg1:T11 Arg2:T62	
+R19	WORKS_AS Arg1:T5 Arg2:T8	
+R20	WORKS_AS Arg1:T11 Arg2:T63	
+R21	ALTERNATIVE_NAME Arg1:T11 Arg2:T17	
+R22	ALTERNATIVE_NAME Arg1:T11 Arg2:T23	
+R23	OWNER_OF Arg1:T20 Arg2:T56	
+R24	WORKPLACE Arg1:T24 Arg2:T25	
+R25	WORKS_AS Arg1:T24 Arg2:T28	
+R26	OWNER_OF Arg1:T31 Arg2:T30	
+R27	OWNER_OF Arg1:T32 Arg2:T30	
+R28	ALTERNATIVE_NAME Arg1:T24 Arg2:T66	
+R29	WORKPLACE Arg1:T66 Arg2:T30	
+R30	WORKPLACE Arg1:T67 Arg2:T34	
+R31	WORKS_AS Arg1:T66 Arg2:T67	
+R32	WORKPLACE Arg1:T66 Arg2:T34	
+T55	LOCATION 1219 1228	Уральской
+R33	HEADQUARTERED_IN Arg1:T70 Arg2:T71	
+R34	WORKPLACE Arg1:T69 Arg2:T70	
+R35	MEMBER_OF Arg1:T68 Arg2:T39	
+T64	EVENT 1311 1317	избран
+R36	PARTICIPANT_IN Arg1:T68 Arg2:T64	
+R37	PARTICIPANT_IN Arg1:T70 Arg2:T64	
+R38	POINT_IN_TIME Arg1:T64 Arg2:T37	
+T73	EVENT 1391 1425	досрочно прекратил свои полномочия
+R39	AGENT Arg1:T68 Arg2:T73	
+R40	POINT_IN_TIME Arg1:T73 Arg2:T40	
+R41	PARTICIPANT_IN Arg1:T69 Arg2:T73	
+R42	HEADQUARTERED_IN Arg1:T42 Arg2:T43	
+R43	OWNER_OF Arg1:T72 Arg2:T42	
+R44	OWNER_OF Arg1:T44 Arg2:T42	
+R45	OWNER_OF Arg1:T72 Arg2:T44	
+T46	LOCATION 1719 1728	Уральская
+T74	CITY 1738 1748	Оскольский
+R46	HEADQUARTERED_IN Arg1:T49 Arg2:T74	
+R47	HEADQUARTERED_IN Arg1:T48 Arg2:T46	
+R48	OWNER_OF Arg1:T42 Arg2:T47	
+R49	OWNER_OF Arg1:T42 Arg2:T48	
+R50	OWNER_OF Arg1:T42 Arg2:T45	
+R51	OWNER_OF Arg1:T42 Arg2:T49	
+R52	OWNER_OF Arg1:T42 Arg2:T50	
+R53	PARTICIPANT_IN Arg1:T8 Arg2:T58	
+R54	HAS_CAUSE Arg1:T62 Arg2:T61	
+T75	EVENT 768 785	пандемию COVID-19
+T36	DATE 1276 1288	около 30 лет
+T76	DATE 783 785	19
+T77	EVENT 1076 1085	возглавил
+R55	AGENT Arg1:T66 Arg2:T77	
+R56	PARTICIPANT_IN Arg1:T30 Arg2:T77	
+R57	POINT_IN_TIME Arg1:T77 Arg2:T29	
+N2	Reference T4 Wikidata:Q1501800	генеральный директор
+N3	Reference T8 Wikidata:Q2462658	менеджер
+N4	Reference T9 Wikidata:Q649	Москва
+N5	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N7	Reference T15 Wikidata:Q25161472	Форбс
+N8	Reference T19 Wikidata:Q1780189	Коммерсантъ
+N9	Reference T30 Wikidata:Q4297742	Михайловский горно-обогатительный комбинат
+N10	Reference T31 Wikidata:Q503147	Алишер Бурханович Усманов
+N11	Reference T32 Wikidata:Q4066322	Василий Васильевич Анисимов
+N14	Reference T38 Wikidata:Q486839	член парламента
+N15	Reference T39 Wikidata:Q151469	Единая Россия
+N16	Reference T41 Wikidata:Q223799	ТАСС
+N17	Reference T42 Wikidata:Q1924939	Металлоинвест
+N18	Reference T43 Wikidata:Q159	Россия
+N19	Reference T44 Wikidata:Q1924939	Металлоинвест
+N20	Reference T45 Wikidata:Q4255949	Лебединский горно-обогатительный комбинат
+N21	Reference T47 Wikidata:Q4297742	Михайловский горно-обогатительный комбинат
+N22	Reference T48 Wikidata:Q4476701	Уральская Сталь
+N23	Reference T49 Wikidata:Q4338002	Оскольский электрометаллургический комбинат
+N1	Reference T1 Wikidata:NULL	нет данных
+N24	Reference T54 Wikidata:NULL	нет данных
+N6	Reference T11 Wikidata:NULL	нет данных
+N30	Reference T65 Wikidata:Q2961975	
+N31	Reference T28 Wikidata:NULL	нет данных
+N32	Reference T33 Wikidata:NULL	нет данных
+N12	Reference T34 Wikidata:Q4476701	Уральская Сталь
+N29	Reference T55 Wikidata:Q1322976	Урал
+N25	Reference T67 Wikidata:NULL	нет данных
+N13	Reference T35 Wikidata:NULL	нет данных
+N28	Reference T71 Wikidata:Q3159	Курск
+N27	Reference T70 Wikidata:Q4248828	
+N26	Reference T69 Wikidata:NULL	нет данных
+N33	Reference T74 Wikidata:Q196486	
+N34	Reference T50 Wikidata:NULL	нет данных
+N35	Reference T63 Wikidata:Q2462658	менеджер
+N36	Reference T7 Wikidata:Q25161472	Форбс
+N37	Reference T72 Wikidata:Q503147	Алишер Бурханович Усманов
+N38	Reference T20 Wikidata:Q503147	Алишер Бурханович Усманов
+N39	Reference T56 Wikidata:Q1924939	Металлоинвест
+N40	Reference T25 Wikidata:Q1924939	Металлоинвест
+N41	Reference T52 Wikidata:Q1924939	Металлоинвест
+N42	Reference T3 Wikidata:Q1924939	Металлоинвест
+N43	Reference T17 Wikidata:NULL	нет данных
+N44	Reference T23 Wikidata:NULL	нет данных
+N45	Reference T46 Wikidata:Q1322976	Урал
+N46	Reference T5 Wikidata:NULL	нет данных
+N47	Reference T24 Wikidata:NULL	нет данных
+N48	Reference T66 Wikidata:NULL	нет данных
+N49	Reference T2 Wikidata:NULL	нет данных
+N50	Reference T68 Wikidata:NULL	нет данных

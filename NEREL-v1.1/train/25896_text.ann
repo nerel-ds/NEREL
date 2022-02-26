@@ -1,0 +1,120 @@
+T3	ORDINAL 27 39	одиннадцатые
+T4	DATE 68 78	17 февраля
+T6	COUNTRY 81 96	Республике Кипр
+T7	ORDINAL 107 113	первый
+T8	ORDINAL 156 161	11-ми
+T9	NUMBER 193 213	Примерно 545 тысячам
+T10	NUMBER 281 283	11
+T11	PROFESSION 348 359	президентом
+T12	AGE 362 372	66-летнего
+T13	PERSON 373 393	Никоса Анастасиадиса
+T15	ORGANIZATION 431 458	Демократическое объединение
+T16	NUMBER 490 502	примерно 40%
+T17	PERSON 539 552	Анастасиадиса
+T18	AGE 562 571	45-летний
+T19	PERSON 572 585	Ставрос Малас
+T20	ORGANIZATION 609 652	Прогрессивная партия трудового народа Кипра
+T21	AGE 655 664	52-летний
+T22	PERSON 665 679	Йоргос Лиликас
+T23	ORGANIZATION 704 733	Движение за социал-демократию
+T24	PERCENT 769 772	24%
+T25	PERCENT 775 778	20%
+T27	ORDINAL 911 917	первым
+T28	ORDINAL 1000 1006	второй
+T29	PERCENT 1079 1091	50 процентов
+T30	DATE 1130 1154	через неделю, 24 февраля
+T31	ORDINAL 1166 1172	второй
+T32	NUMBER 1203 1206	два
+T34	TIME 1470 1506	примерно в 18:30 по местному времени
+T35	TIME 1544 1551	в 20:30
+T36	TIME 1553 1583	в 22:30 по московскому времени
+T1	COUNTRY 2 17	Республике Кипр
+T37	EVENT 49 55	выборы
+T38	EVENT 49 66	выборы президента
+T39	PROFESSION 56 66	президента
+T40	EVENT 118 139	президентских выборов
+T41	EVENT 132 139	выборов
+T42	COUNTRY 214 222	кипрских
+T43	PROFESSION 409 458	лидера правой партии «Демократическое объединение
+T44	IDEOLOGY 431 446	Демократическое
+T45	IDEOLOGY 416 422	правой
+T46	COUNTRY 647 652	Кипра
+T47	IDEOLOGY 716 733	социал-демократию
+T48	PROFESSION 813 822	президент
+T26	PERSON 823 842	Димитрис Христофиас
+T50	PROFESSION 918 936	главой государства
+T51	EVENT 1028 1035	выборах
+T52	PROFESSION 1049 1059	президенты
+T53	COUNTRY 1281 1296	Республики Кипр
+T54	EVENT 1263 1269	выборы
+T55	EVENT 1263 1296	выборы президента Республики Кипр
+T56	EVENT 1263 1280	выборы президента
+T57	PROFESSION 1270 1280	президента
+T58	PROFESSION 1270 1296	президента Республики Кипр
+T59	PROFESSION 1362 1372	президенту
+T60	ORDINAL 1434 1440	Первые
+T61	EVENT 1452 1459	выборов
+R1	PARTICIPANT_IN Arg1:T39 Arg2:T38	
+R2	TAKES_PLACE_IN Arg1:T38 Arg2:T1	
+T62	PROFESSION 118 131	президентских
+R3	ALTERNATIVE_NAME Arg1:T39 Arg2:T62	
+T63	EVENT 107 139	первый тур президентских выборов
+R4	PARTICIPANT_IN Arg1:T62 Arg2:T40	
+R5	SUBEVENT_OF Arg1:T63 Arg2:T40	
+R6	POINT_IN_TIME Arg1:T63 Arg2:T4	
+R7	TAKES_PLACE_IN Arg1:T63 Arg2:T6	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T42	
+R9	AGE_IS Arg1:T13 Arg2:T12	
+R10	IDEOLOGY_OF Arg1:T15 Arg2:T44	
+R11	IDEOLOGY_OF Arg1:T43 Arg2:T45	
+R12	MEMBER_OF Arg1:T43 Arg2:T15	
+R13	WORKS_AS Arg1:T13 Arg2:T43	
+R14	MEMBER_OF Arg1:T13 Arg2:T15	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+R16	AGE_IS Arg1:T19 Arg2:T18	
+R17	HEADQUARTERED_IN Arg1:T20 Arg2:T46	
+R18	MEMBER_OF Arg1:T19 Arg2:T20	
+R19	AGE_IS Arg1:T22 Arg2:T21	
+R20	IDEOLOGY_OF Arg1:T23 Arg2:T47	
+R21	MEMBER_OF Arg1:T22 Arg2:T23	
+R22	WORKS_AS Arg1:T26 Arg2:T48	
+R25	ALTERNATIVE_NAME Arg1:T48 Arg2:T50	
+T64	PROFESSION 1036 1059	кандидатам в президенты
+R26	PARTICIPANT_IN Arg1:T64 Arg2:T51	
+T65	EVENT 1166 1176	второй тур
+R27	SUBEVENT_OF Arg1:T65 Arg2:T51	
+R28	POINT_IN_TIME Arg1:T65 Arg2:T30	
+T66	PROFESSION 1207 1216	кандидата
+R29	ALTERNATIVE_NAME Arg1:T64 Arg2:T66	
+R30	PARTICIPANT_IN Arg1:T66 Arg2:T65	
+R31	WORKPLACE Arg1:T58 Arg2:T53	
+R32	PARTICIPANT_IN Arg1:T58 Arg2:T55	
+R33	TAKES_PLACE_IN Arg1:T55 Arg2:T53	
+R34	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R35	IDEOLOGY_OF Arg1:T13 Arg2:T45	
+R36	IDEOLOGY_OF Arg1:T22 Arg2:T47	
+N1	Reference T13 Wikidata:Q2112764	Никос Анастасиадис
+N2	Reference T15 Wikidata:Q644973	Демократическое объединение
+N3	Reference T20 Wikidata:Q212158	Прогрессивная партия трудового народа Кипра
+N5	Reference T23 Wikidata:Q259800	Движение за социал-демократию
+N6	Reference T39 Wikidata:Q30461	президент
+N9	Reference T46 Wikidata:Q229	Кипр
+N10	Reference T26 Wikidata:Q57334	Димитрис Христофиас
+N11	Reference T58 Wikidata:Q841760	президент Республики Кипр
+N12	Reference T59 Wikidata:Q30461	президент
+N13	Reference T64 Wikidata:Q2380299	
+N14	Reference T19 Wikidata:Q4854609	
+N4	Reference T22 Wikidata:Q694791	
+N8	Reference T43 Wikidata:NULL	нет данных
+N7	Reference T42 Wikidata:Q229	Кипр
+N15	Reference T17 Wikidata:Q2112764	Никос Анастасиадис
+N16	Reference T62 Wikidata:Q30461	президент
+N17	Reference T57 Wikidata:Q30461	президент
+N18	Reference T52 Wikidata:Q30461	президент
+N19	Reference T48 Wikidata:Q30461	президент
+N20	Reference T11 Wikidata:Q30461	президент
+N21	Reference T50 Wikidata:Q30461	президент
+N22	Reference T66 Wikidata:Q2380299	
+N23	Reference T6 Wikidata:Q229	Кипр
+N24	Reference T1 Wikidata:Q229	Кипр
+N25	Reference T53 Wikidata:Q229	Кипр

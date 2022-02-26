@@ -1,0 +1,138 @@
+T1	NATIONALITY 28 39	французский
+T2	PROFESSION 51 58	историк
+T3	PERSON 59 73	Доминик Веннер
+T4	FACILITY 88 115	Соборе Парижской Богоматери
+T5	DATE 152 168	21 мая 2013 года
+T6	NATIONALITY 169 180	французский
+T7	PROFESSION 192 199	историк
+T8	PERSON 297 311	Доминик Веннер
+T9	FACILITY 333 360	Собора Парижской Богоматери
+T10	PERSON 350 360	Богоматери
+T11	COUNTRY 449 456	Франции
+T12	AGE 476 485	78-летний
+T13	ORGANIZATION 507 540	Секретной вооруженной организации
+T14	ORGANIZATION 543 546	OAS
+T15	DATE 604 614	во вторник
+T16	COUNTRY 694 701	Франции
+T17	PROFESSION 789 796	историк
+T18	PERSON 810 816	Веннер
+T19	DATE 823 836	в тот же день
+T20	COUNTRY 1146 1153	Франции
+T21	LOCATION 1156 1162	Европы
+T22	PERSON 1274 1280	Веннер
+T23	DATE 1540 1559	на прошлых выходных
+T25	PROFESSION 40 48	писатель
+T26	EVENT 74 85	застрелился
+T27	PERSON 105 115	Богоматери
+T28	FACILITY 124 151	Собора Парижской Богоматери
+T29	PERSON 141 151	Богоматери
+T30	PROFESSION 181 189	писатель
+T33	IDEOLOGY 255 268	ультраправыми
+T34	EVENT 312 323	застрелился
+T35	EVENT 387 400	самоубийством
+T36	PERSON 486 492	Веннер
+T37	IDEOLOGY 577 596	националистического
+T38	EVENT 615 626	застрелился
+T41	PROFESSION 799 808	публицист
+T42	RELIGION 1206 1215	исламский
+T43	RELIGION 1235 1242	шариата
+T44	EVENT 1260 1272	застрелиться
+T45	EVENT 1351 1363	самоубийства
+T46	LAW 1478 1515	закона о легализации однополых браков
+T47	EVENT 1599 1611	самоубийства
+T48	EVENT 1793 1799	смерти
+T31	CITY 95 104	Парижской
+T49	CITY 131 140	Парижской
+T50	CITY 340 349	Парижской
+T39	RELIGION 715 745	католическо-традиционалистской
+R2	WORKS_AS Arg1:T3 Arg2:T2	
+R3	WORKS_AS Arg1:T3 Arg2:T25	
+R4	ORIGINS_FROM Arg1:T3 Arg2:T1	
+R5	AGENT Arg1:T3 Arg2:T26	
+R6	LOCATED_IN Arg1:T4 Arg2:T31	
+R7	ORIGINS_FROM Arg1:T4 Arg2:T27	
+R8	TAKES_PLACE_IN Arg1:T26 Arg2:T4	
+R9	ORIGINS_FROM Arg1:T28 Arg2:T29	
+R10	LOCATED_IN Arg1:T28 Arg2:T49	
+R12	ORIGINS_FROM Arg1:T8 Arg2:T6	
+R13	WORKS_AS Arg1:T8 Arg2:T30	
+R14	WORKS_AS Arg1:T8 Arg2:T7	
+R15	POINT_IN_TIME Arg1:T34 Arg2:T5	
+T32	FACILITY 326 360	алтаря Собора Парижской Богоматери
+R16	PART_OF Arg1:T32 Arg2:T9	
+R17	ORIGINS_FROM Arg1:T9 Arg2:T10	
+R18	LOCATED_IN Arg1:T9 Arg2:T50	
+R19	TAKES_PLACE_IN Arg1:T34 Arg2:T32	
+T40	FACILITY 117 151	Алтарь Собора Парижской Богоматери
+R20	PART_OF Arg1:T40 Arg2:T28	
+R21	ORIGINS_FROM Arg1:T28 Arg2:T29	
+R22	LOCATED_IN Arg1:T28 Arg2:T49	
+R23	IDEOLOGY_OF Arg1:T8 Arg2:T33	
+T51	IDEOLOGY 280 296	правых убеждений
+R24	IDEOLOGY_OF Arg1:T8 Arg2:T51	
+R25	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R26	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R27	ALTERNATIVE_NAME Arg1:T8 Arg2:T36	
+R29	AGE_DIED_AT Arg1:T36 Arg2:T12	
+T52	PROFESSION 501 540	член «Секретной вооруженной организации
+R30	MEMBER_OF Arg1:T52 Arg2:T13	
+R31	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R32	WORKS_AS Arg1:T36 Arg2:T52	
+R33	MEMBER_OF Arg1:T36 Arg2:T13	
+T53	IDEOLOGY 550 567	террористического
+R34	IDEOLOGY_OF Arg1:T13 Arg2:T53	
+R35	IDEOLOGY_OF Arg1:T13 Arg2:T37	
+R36	AGENT Arg1:T36 Arg2:T38	
+R37	POINT_IN_TIME Arg1:T38 Arg2:T15	
+T54	PROFESSION 649 657	туристов
+R38	PARTICIPANT_IN Arg1:T54 Arg2:T38	
+R39	RELIGION_OF Arg1:T36 Arg2:T39	
+R40	WORKS_AS Arg1:T18 Arg2:T41	
+R41	WORKS_AS Arg1:T18 Arg2:T17	
+R42	AGENT Arg1:T22 Arg2:T44	
+R43	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+T55	EVENT 1525 1539	вступил в силу
+R44	POINT_IN_TIME Arg1:T55 Arg2:T23	
+R45	HAS_CAUSE Arg1:T45 Arg2:T46	
+T24	TIME 1768 1789	за несколько же часов
+R46	DATE_OF_DEATH Arg1:T8 Arg2:T5	
+R1	AGENT Arg1:T8 Arg2:T34	
+R11	LOCATED_IN Arg1:T50 Arg2:T11	
+R28	LOCATED_IN Arg1:T20 Arg2:T21	
+R47	INANIMATE_INVOLVED Arg1:T46 Arg2:T55	
+N2	Reference T8 Wikidata:Q544575	Веннер, Доминик
+N3	Reference T11 Wikidata:Q142	Франция
+N4	Reference T13 Wikidata:Q918356	Секретная вооружённая организация
+N5	Reference T17 Wikidata:Q201788	историк
+N6	Reference T21 Wikidata:Q46	Европа
+N7	Reference T27 Wikidata:Q345	Дева Мария
+N8	Reference T28 Wikidata:Q2981	Собор Парижской Богоматери
+N9	Reference T30 Wikidata:Q36180	писатель
+N10	Reference T41 Wikidata:Q16287483	публицист
+N12	Reference T43 Wikidata:Q482752	шариат
+N14	Reference T49 Wikidata:Q90	Париж
+N1	Reference T6 Wikidata:Q121842	французы
+N15	Reference T32 Wikidata:NULL	нет данных
+N16	Reference T52 Wikidata:NULL	нет данных
+N17	Reference T54 Wikidata:Q5633897	
+N18	Reference T39 Wikidata:Q199993	Католики-традиционалисты
+N11	Reference T42 Wikidata:Q432	ислам
+N13	Reference T46 Wikidata:Q3098727	
+N19	Reference T22 Wikidata:Q544575	Веннер, Доминик
+N20	Reference T36 Wikidata:Q544575	Веннер, Доминик
+N21	Reference T3 Wikidata:Q544575	Веннер, Доминик
+N22	Reference T18 Wikidata:Q544575	Веннер, Доминик
+N23	Reference T20 Wikidata:Q142	Франция
+N24	Reference T16 Wikidata:Q142	Франция
+N25	Reference T14 Wikidata:Q918356	Секретная вооружённая организация
+N26	Reference T7 Wikidata:Q201788	историк
+N27	Reference T2 Wikidata:Q201788	историк
+N28	Reference T10 Wikidata:Q345	Дева Мария
+N29	Reference T29 Wikidata:Q345	Дева Мария
+N30	Reference T9 Wikidata:Q2981	Собор Парижской Богоматери
+N31	Reference T4 Wikidata:Q2981	Собор Парижской Богоматери
+N32	Reference T25 Wikidata:Q36180	писатель
+N33	Reference T50 Wikidata:Q90	Париж
+N34	Reference T31 Wikidata:Q90	Париж
+N35	Reference T1 Wikidata:Q121842	французы
+N36	Reference T40 Wikidata:NULL	нет данных

@@ -1,0 +1,191 @@
+T1	PROFESSION 0 8	Электрик
+T2	ORGANIZATION 68 72	СдПГ
+T4	TIME 73 101	В субботний полдень 9 апреля
+T5	DATE 93 101	9 апреля
+T6	CITY 104 116	Дюссельдорфе
+T7	ORGANIZATION 166 195	социал-демократической партии
+T8	ORGANIZATION 197 201	СдПГ
+T9	AGE 234 243	48-летний
+T10	PERSON 244 258	Андреас Римкус
+T11	PERSON 260 274	Andreas Rimkus
+T12	PROFESSION 279 287	электрик
+T13	NUMBER 413 416	157
+T14	NUMBER 420 423	172
+T15	NUMBER 425 426	8
+T16	NUMBER 443 444	7
+T17	NUMBER 506 510	91,3
+T18	ORGANIZATION 563 587	партии социал-демократов
+T19	CITY 590 602	Дюссельдорфе
+T20	DATE 606 620	последние годы
+T21	DATE 643 652	в пятницу
+T22	TIME 643 658	в пятницу утром
+T23	EVENT 681 698	партийного съезда
+T24	DATE 765 776	четыре года
+T25	CITY 800 812	Дюссельдорфа
+T26	COUNTRY 836 844	Германии
+T27	PERSON 853 867	Карин Кортманн
+T28	PROFESSION 871 886	член бундестага
+T29	PROFESSION 904 959	вице-президент Центрального комитета немецких католиков
+T30	ORDINAL 1008 1014	второй
+T31	PERSON 1039 1047	Кортманн
+T32	PERSON 1123 1131	Кортманн
+T33	CITY 1176 1188	Дюссельдорфа
+T34	COUNTRY 1191 1199	Германии
+T35	PERSON 1202 1214	Юрген Бюссов
+T36	PROFESSION 1223 1230	педагог
+T37	PROFESSION 1241 1261	партийный функционер
+T38	ORGANIZATION 1284 1288	СдПГ
+T39	DATE 1301 1319	с 1995 по 2010 год
+T40	PROFESSION 1320 1331	начальником
+T41	CITY 1362 1373	Дюссельдорф
+T42	ORGANIZATION 1398 1437	партийной организации социал-демократов
+T43	STATE_OR_PROVINCE 1446 1471	Северного-Рейна Вестфалии
+T44	PERSON 1524 1538	Карин Кортманн
+T45	CITY 1576 1587	Дюссельдорф
+T46	CITY 1591 1598	Берлина
+T47	EVENT 1622 1633	конференции
+T48	PROFESSION 1752 1763	заместителя
+T49	PERSON 1764 1780	Андреаса Римкуса
+T50	PERSON 1866 1878	Юрген Бюссов
+T51	PERSON 1935 1942	Римкусу
+T52	DATE 1966 1984	в пятницу 8 апреля
+T53	PERSON 1996 2012	Андреаса Римкуса
+T54	PROFESSION 2062 2104	председателя местного партийного отделения
+T55	PERSON 2229 2243	Карин Кортманн
+T57	PERSON 2303 2310	Римкуса
+T59	ORGANIZATION 2457 2460	ХДС
+T60	ORGANIZATION 2482 2486	СдПГ
+T61	CITY 38 50	Дюссельдорфа
+T62	ORGANIZATION 19 37	социал-демократами
+T3	EVENT 128 134	выборы
+T63	IDEOLOGY 166 188	социал-демократической
+T66	IDEOLOGY 570 587	социал-демократов
+T67	PROFESSION 845 852	политик
+T68	ORGANIZATION 876 886	бундестага
+T69	ORGANIZATION 919 959	Центрального комитета немецких католиков
+T70	COUNTRY 941 949	немецких
+T71	RELIGION 950 959	католиков
+T72	CITY 1262 1276	Дюссельдорской
+T73	ORGANIZATION 1262 1288	Дюссельдорской ячейки СдПГ
+T74	ORGANIZATION 2075 2104	местного партийного отделения
+T56	ORGANIZATION 2276 2293	социал-демократов
+T75	RELIGION 2432 2444	христианских
+T58	IDEOLOGY 2432 2455	христианских демократов
+R1	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R2	AGE_IS Arg1:T10 Arg2:T9	
+R3	ABBREVIATION Arg1:T7 Arg2:T8	
+R4	IDEOLOGY_OF Arg1:T7 Arg2:T63	
+R5	MEMBER_OF Arg1:T10 Arg2:T7	
+R7	WORKS_AS Arg1:T27 Arg2:T67	
+R8	RELIGION_OF Arg1:T27 Arg2:T71	
+R9	ALTERNATIVE_NAME Arg1:T27 Arg2:T31	
+T64	PROFESSION 142 195	городского председателя социал-демократической партии
+R10	PART_OF Arg1:T73 Arg2:T38	
+R13	ORIGINS_FROM Arg1:T27 Arg2:T26	
+R14	WORKS_AS Arg1:T27 Arg2:T28	
+R15	WORKPLACE Arg1:T28 Arg2:T68	
+R16	WORKS_AS Arg1:T27 Arg2:T29	
+R17	WORKPLACE Arg1:T29 Arg2:T69	
+R18	ABBREVIATION Arg1:T69 Arg2:T71	
+R19	HEADQUARTERED_IN Arg1:T69 Arg2:T70	
+R20	WORKS_AS Arg1:T35 Arg2:T37	
+R21	ORIGINS_FROM Arg1:T35 Arg2:T34	
+R22	WORKPLACE Arg1:T35 Arg2:T73	
+R23	ORIGINS_FROM Arg1:T35 Arg2:T33	
+R24	WORKS_AS Arg1:T35 Arg2:T40	
+R25	WORKPLACE Arg1:T35 Arg2:T41	
+R26	LOCATED_IN Arg1:T41 Arg2:T43	
+T65	CITY 1438 1471	столицы Северного-Рейна Вестфалии
+R27	ALTERNATIVE_NAME Arg1:T41 Arg2:T65	
+R28	LOCATED_IN Arg1:T65 Arg2:T43	
+R29	ALTERNATIVE_NAME Arg1:T32 Arg2:T44	
+T76	EVENT 1622 1652	конференции немецких католиков
+R30	ALTERNATIVE_NAME Arg1:T49 Arg2:T51	
+R31	WORKPLACE Arg1:T54 Arg2:T60	
+R32	MEMBER_OF Arg1:T53 Arg2:T60	
+R33	MEMBER_OF Arg1:T57 Arg2:T56	
+R34	ORGANIZES Arg1:T8 Arg2:T3	
+R35	PARTICIPANT_IN Arg1:T10 Arg2:T3	
+R36	WORKS_AS Arg1:T10 Arg2:T12	
+R37	PLACE_RESIDES_IN Arg1:T10 Arg2:T6	
+R38	IDEOLOGY_OF Arg1:T18 Arg2:T66	
+R39	IDEOLOGY_OF Arg1:T10 Arg2:T63	
+R40	HEADQUARTERED_IN Arg1:T18 Arg2:T19	
+R41	SUBEVENT_OF Arg1:T3 Arg2:T23	
+R43	ORGANIZES Arg1:T18 Arg2:T23	
+R44	ORIGINS_FROM Arg1:T67 Arg2:T26	
+R45	WORKS_AS Arg1:T35 Arg2:T36	
+T78	EVENT 1545 1554	самоотвод
+R46	AGENT Arg1:T44 Arg2:T78	
+R47	TAKES_PLACE_IN Arg1:T76 Arg2:T46	
+R48	PARTICIPANT_IN Arg1:T44 Arg2:T76	
+R49	WORKS_AS Arg1:T49 Arg2:T48	
+T79	EVENT 1848 1857	самоотвод
+R50	AGENT Arg1:T50 Arg2:T79	
+R51	SUBEVENT_OF Arg1:T78 Arg2:T3	
+R52	SUBEVENT_OF Arg1:T79 Arg2:T3	
+R53	SUBEVENT_OF Arg1:T79 Arg2:T3	
+R54	HEADQUARTERED_IN Arg1:T62 Arg2:T61	
+R6	TAKES_PLACE_IN Arg1:T3 Arg2:T6	
+R11	POINT_IN_TIME Arg1:T3 Arg2:T4	
+R12	PARTICIPANT_IN Arg1:T64 Arg2:T3	
+R42	HEADQUARTERED_IN Arg1:T42 Arg2:T65	
+R55	ALTERNATIVE_NAME Arg1:T56 Arg2:T60	
+T77	PROFESSION 1333 1344	президентом
+R56	ALTERNATIVE_NAME Arg1:T40 Arg2:T77	
+N3	Reference T12 Wikidata:Q165029	электромонтёр
+N5	Reference T26 Wikidata:Q183	Германия
+N8	Reference T36 Wikidata:Q37226	учитель
+N10	Reference T43 Wikidata:Q1198	Северный Рейн-Вестфалия
+N11	Reference T46 Wikidata:Q64	Берлин
+N18	Reference T67 Wikidata:Q82955	политик
+N19	Reference T68 Wikidata:Q154797	бундестаг
+N21	Reference T71 Wikidata:Q1841	католичество
+N25	Reference T75 Wikidata:Q5043	христианство
+N27	Reference T77 Wikidata:Q30461	президент
+N17	Reference T62 Wikidata:Q49768	Социал-демократическая партия Германии
+N28	Reference T64 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:Q15783337	
+N1	Reference T8 Wikidata:Q49768	Социал-демократическая партия Германии
+N4	Reference T18 Wikidata:Q49768	Социал-демократическая партия Германии
+N29	Reference T28 Wikidata:NULL	нет данных
+N30	Reference T29 Wikidata:NULL	нет данных
+N20	Reference T70 Wikidata:Q183	Германия
+N31	Reference T69 Wikidata:NULL	нет данных
+N7	Reference T35 Wikidata:NULL	нет данных
+N32	Reference T37 Wikidata:NULL	нет данных
+N22	Reference T72 Wikidata:Q1718	Дюссельдорф
+N23	Reference T73 Wikidata:NULL	нет данных
+N9	Reference T42 Wikidata:NULL	нет данных
+N26	Reference T65 Wikidata:Q1718	Дюссельдорф
+N12	Reference T48 Wikidata:NULL	нет данных
+N14	Reference T54 Wikidata:NULL	нет данных
+N24	Reference T74 Wikidata:NULL	нет данных
+N16	Reference T59 Wikidata:Q49762	Христианско-демократический союз Германии
+N13	Reference T49 Wikidata:Q15783337	
+N15	Reference T55 Wikidata:Q1729479	
+N6	Reference T27 Wikidata:Q1729479	
+N33	Reference T1 Wikidata:Q165029	электромонтёр
+N34	Reference T34 Wikidata:Q183	Германия
+N35	Reference T40 Wikidata:Q30461	президент
+N36	Reference T56 Wikidata:Q49768	Социал-демократическая партия Германии
+N37	Reference T38 Wikidata:Q49768	Социал-демократическая партия Германии
+N38	Reference T60 Wikidata:Q49768	Социал-демократическая партия Германии
+N39	Reference T2 Wikidata:Q49768	Социал-демократическая партия Германии
+N40	Reference T10 Wikidata:Q15783337	
+N41	Reference T7 Wikidata:Q49768	Социал-демократическая партия Германии
+N42	Reference T50 Wikidata:NULL	нет данных
+N43	Reference T41 Wikidata:Q1718	Дюссельдорф
+N44	Reference T19 Wikidata:Q1718	Дюссельдорф
+N45	Reference T25 Wikidata:Q1718	Дюссельдорф
+N46	Reference T6 Wikidata:Q1718	Дюссельдорф
+N47	Reference T33 Wikidata:Q1718	Дюссельдорф
+N48	Reference T61 Wikidata:Q1718	Дюссельдорф
+N49	Reference T45 Wikidata:Q1718	Дюссельдорф
+N50	Reference T57 Wikidata:Q15783337	
+N51	Reference T51 Wikidata:Q15783337	
+N52	Reference T53 Wikidata:Q15783337	
+N53	Reference T44 Wikidata:Q1729479	
+N54	Reference T32 Wikidata:Q1729479	
+N55	Reference T31 Wikidata:Q1729479	
+T80	EVENT 692 698	съезда

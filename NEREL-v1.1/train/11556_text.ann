@@ -1,0 +1,97 @@
+T1	FACILITY 15 25	Войковская
+T2	FACILITY 55 65	Волковскую
+T3	FACILITY 88 98	Войковская
+T4	FACILITY 164 174	Войковская
+T5	PERSON 200 207	Войкова
+T6	NATIONALITY 220 228	москвичи
+T7	FACILITY 242 252	Волковской
+T8	PERSON 263 293	Владислава Николаевича Волкова
+T9	FACILITY 480 490	Войковская
+T10	ORGANIZATION 502 513	школу № 212
+T11	DISTRICT 516 523	Коптеве
+T12	ORGANIZATION 533 564	Московский авиационный институт
+T13	NUMBER 572 586	десяти минутах
+T14	FACILITY 634 644	Войковская
+T15	DATE 737 748	в 2010 году
+T16	AGE 760 768	75-летие
+T17	PERSON 785 792	Волкова
+T18	DATE 796 807	в 2011 году
+T19	DATE 819 828	сорок лет
+T21	PERSON 864 878	Добровольского
+T22	PERSON 880 887	Волкова
+T23	PERSON 890 897	Пацаева
+T24	FACILITY 915 925	Войковская
+T25	FACILITY 968 981	Петербургская
+T26	FACILITY 986 1001	Северо-Западная
+T27	FACILITY 1043 1053	Войковская
+T28	NUMBER 1064 1065	5
+T29	PERSON 1111 1118	Войкова
+T30	DATE 1120 1141	в пятницу, 22 октября
+T31	PROFESSION 1157 1165	депутаты
+T32	ORGANIZATION 1166 1173	Госдумы
+T33	CITY 145 156	московского
+T34	CITY 1091 1097	Москвы
+T35	COUNTRY 1174 1176	РФ
+T36	ORGANIZATION 1166 1176	Госдумы РФ
+T37	PROFESSION 1157 1176	депутаты Госдумы РФ
+T20	FACILITY 657 675	Космонавта Волкова
+T38	PERSON 668 675	Волкова
+T39	CITY 533 543	Московский
+T40	PROFESSION 431 440	космонавт
+T41	PERSON 441 447	Волков
+T42	PROFESSION 657 667	Космонавта
+T43	PROFESSION 334 345	космонавтов
+T44	CITY 315 324	москвичей
+R1	LOCATED_IN Arg1:T4 Arg2:T33	
+R2	WORKS_AS Arg1:T41 Arg2:T40	
+R3	SCHOOLS_ATTENDED Arg1:T41 Arg2:T10	
+R4	HEADQUARTERED_IN Arg1:T10 Arg2:T11	
+R5	HEADQUARTERED_IN Arg1:T12 Arg2:T39	
+R6	SCHOOLS_ATTENDED Arg1:T41 Arg2:T12	
+R7	PLACE_OF_BIRTH Arg1:T41 Arg2:T9	
+R8	AGE_IS Arg1:T17 Arg2:T16	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T41	
+R10	LOCATED_IN Arg1:T27 Arg2:T34	
+R11	HEADQUARTERED_IN Arg1:T36 Arg2:T35	
+R12	WORKPLACE Arg1:T37 Arg2:T36	
+R13	LOCATED_IN Arg1:T20 Arg2:T33	
+R14	WORKS_AS Arg1:T8 Arg2:T43	
+R15	LOCATED_IN Arg1:T11 Arg2:T39	
+R16	WORKS_AS Arg1:T38 Arg2:T42	
+N1	Reference T5 Wikidata:Q1469108	Пётр Лазаревич Войков
+N4	Reference T9 Wikidata:Q2547861	Войковская
+N6	Reference T11 Wikidata:Q2366877	Коптево
+N7	Reference T12 Wikidata:Q1719898	Московский авиационный институт
+N10	Reference T23 Wikidata:Q358525	Виктор Иванович Пацаев
+N13	Reference T31 Wikidata:Q486839	член парламента
+N14	Reference T32 Wikidata:Q715641	Государственная дума
+N15	Reference T34 Wikidata:Q649	Москва
+N16	Reference T35 Wikidata:Q159	Россия
+N17	Reference T36 Wikidata:Q715641	Государственная дума
+N19	Reference T20 Wikidata:Q4472595	Улица Космонавта Волкова
+N21	Reference T42 Wikidata:Q11631	космонавт
+N2	Reference T6 Wikidata:Q105737722	
+N3	Reference T7 Wikidata:NULL	нет данных
+N22	Reference T44 Wikidata:Q105737722	
+N5	Reference T10 Wikidata:NULL	нет данных
+N20	Reference T39 Wikidata:Q649	Москва
+N8	Reference T21 Wikidata:Q355433	
+N9	Reference T22 Wikidata:Q345658	
+N11	Reference T25 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:NULL	нет данных
+N18	Reference T37 Wikidata:Q17276321	
+N23	Reference T29 Wikidata:Q1469108	Пётр Лазаревич Войков
+N24	Reference T14 Wikidata:Q2547861	Войковская
+N25	Reference T24 Wikidata:Q2547861	Войковская
+N26	Reference T4 Wikidata:Q2547861	Войковская
+N27	Reference T3 Wikidata:Q2547861	Войковская
+N28	Reference T1 Wikidata:Q2547861	Войковская
+N29	Reference T27 Wikidata:Q2547861	Войковская
+N30	Reference T40 Wikidata:Q11631	космонавт
+N31	Reference T43 Wikidata:Q11631	космонавт
+N32	Reference T2 Wikidata:NULL	нет данных
+N33	Reference T33 Wikidata:Q649	Москва
+N34	Reference T8 Wikidata:Q345658	
+N35	Reference T38 Wikidata:Q345658	
+N36	Reference T17 Wikidata:Q345658	
+N37	Reference T41 Wikidata:Q345658	

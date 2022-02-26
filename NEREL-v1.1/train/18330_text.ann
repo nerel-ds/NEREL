@@ -1,0 +1,256 @@
+T1	PERSON 0 10	Майк Комри
+T2	PERSON 13 23	Оуэн Нолан
+T3	ORGANIZATION 99 102	НХЛ
+T4	DATE 103 122	за последнюю неделю
+T5	PERSON 140 151	Майка Комри
+T6	AGE 174 183	31-летний
+T7	PERSON 184 189	Комри
+T8	ORDINAL 206 212	третью
+T9	ORGANIZATION 321 336	Edmonton Oilers
+T10	PERSON 373 384	Хилари Дафф
+T11	PERSON 441 446	Комри
+T12	DATE 460 467	2001/02
+T13	DATE 469 476	2002/03
+T14	DATE 478 485	2005/06
+T15	NUMBER 519 521	60
+T16	NUMBER 611 617	178 см
+T17	DATE 631 652	за последние пять лет
+T18	PERSON 661 666	Комри
+T19	NUMBER 681 684	268
+T20	NUMBER 694 697	410
+T22	NUMBER 750 752	21
+T23	CITY 768 777	Эдмонтона
+T24	COUNTRY 820 826	Канады
+T25	NUMBER 842 848	четыре
+T26	DATE 858 871	За десять лет
+T27	ORGANIZATION 874 877	НХЛ
+T28	NUMBER 895 900	шесть
+T29	ORGANIZATION 911 926	Edmonton Oilers
+T30	ORGANIZATION 932 951	Philadelphia Flyers
+T31	ORGANIZATION 957 972	Phoenix Coyotes
+T32	ORGANIZATION 978 993	Ottawa Senators
+T33	ORGANIZATION 999 1017	New York Islanders
+T34	ORGANIZATION 1024 1043	Pittsburgh Penguins
+T35	EVENT 1177 1189	Кубка Стэнли
+T36	ORGANIZATION 1194 1202	Senators
+T37	DATE 1205 1216	в 2007 году
+T38	EVENT 1229 1244	чемпионате мира
+T39	DATE 1245 1249	2003
+T40	PERSON 1252 1257	Комри
+T41	DATE 1312 1329	на прошлой неделе
+T42	AGE 1331 1340	40-летний
+T43	PERSON 1341 1351	Оуэн Нолан
+T44	NUMBER 1395 1399	двух
+T45	ORGANIZATION 1437 1440	НХЛ
+T46	PERSON 1442 1447	Нолан
+T47	NUMBER 1466 1473	четырех
+T48	ORGANIZATION 1482 1485	НХЛ
+T49	ORGANIZATION 1501 1505	Лиги
+T50	COUNTRY 1526 1543	Северной Ирландии
+T51	PERSON 1670 1676	Нолана
+T52	ORGANIZATION 1693 1708	San Jose Sharks
+T54	DATE 1711 1729	с 1995 по 2003 год
+T55	PROFESSION 1742 1751	капитаном
+T56	PERSON 1801 1806	Нолан
+T57	CITY 1823 1831	Сан-Хосе
+T58	ORGANIZATION 1850 1856	Sharks
+T59	PERSON 1859 1864	Нолан
+T60	ORGANIZATION 1875 1894	Toronto Maple Leafs
+T61	ORGANIZATION 1900 1915	Phoenix Coyotes
+T62	ORGANIZATION 1921 1935	Calgary Flames
+T63	ORGANIZATION 1942 1956	Minnesota Wild
+T64	DATE 1960 1975	Летом 2010 года
+T65	ORGANIZATION 2014 2017	НХЛ
+T66	COUNTRY 2036 2045	Швейцарию
+T67	ORGANIZATION 2051 2063	Zurich Lions
+T68	DATE 2067 2080	Прошлым летом
+T69	ORGANIZATION 2124 2127	НХЛ
+T70	ORGANIZATION 2153 2171	'Vancouver Canucks
+T72	ORGANIZATION 2232 2235	НХЛ
+T73	NUMBER 2251 2255	1200
+T74	PERSON 2265 2270	Нолан
+T75	ORGANIZATION 2293 2299	Sharks
+T76	ORGANIZATION 2346 2350	Акул
+T77	EVENT 2356 2373	пресс-конференции
+T80	PROFESSION 289 297	Хоккеист
+T81	ORGANIZATION 352 364	голливудская
+T82	PROFESSION 365 372	актриса
+T83	NATIONALITY 503 510	канадец
+T84	PROFESSION 619 628	форвардом
+T21	ORDINAL 716 725	последний
+T86	PERSON 878 883	Комри
+T87	PROFESSION 1095 1106	нападающего
+T88	PROFESSION 1082 1106	центрального нападающего
+T89	PROFESSION 1283 1290	игроком
+T90	EVENT 1229 1249	чемпионате мира 2003
+T91	PROFESSION 1577 1585	форварда
+T53	PERSON 1976 1981	Нолан
+T71	NUMBER 2223 2225	18
+T92	PERSON 2236 2241	Нолан
+T93	PROFESSION 2338 2350	игрока «Акул
+T95	PROFESSION 1474 1485	игроков НХЛ
+T97	PROFESSION 2415 2423	хоккеист
+T78	ORGANIZATION 2578 2581	НХЛ
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R2	AGE_IS Arg1:T7 Arg2:T6	
+T98	EVENT 213 230	операцию на бедре
+R3	PARTICIPANT_IN Arg1:T7 Arg2:T98	
+R4	WORKPLACE Arg1:T10 Arg2:T81	
+R5	WORKS_AS Arg1:T10 Arg2:T82	
+R6	WORKS_AS Arg1:T7 Arg2:T80	
+R7	SPOUSE Arg1:T7 Arg2:T10	
+R8	ORIGINS_FROM Arg1:T11 Arg2:T83	
+R9	AGE_IS Arg1:T43 Arg2:T42	
+R10	WORKPLACE Arg1:T95 Arg2:T48	
+R11	WORKPLACE Arg1:T46 Arg2:T48	
+R12	WORKS_AS Arg1:T46 Arg2:T95	
+R13	WORKPLACE Arg1:T51 Arg2:T52	
+R14	WORKS_AS Arg1:T51 Arg2:T55	
+R15	WORKPLACE Arg1:T55 Arg2:T52	
+T85	CITY 1875 1882	Toronto
+R17	HEADQUARTERED_IN Arg1:T60 Arg2:T85	
+R18	WORKS_AS Arg1:T18 Arg2:T84	
+R19	PLACE_OF_BIRTH Arg1:T18 Arg2:T23	
+R20	WORKPLACE Arg1:T86 Arg2:T29	
+R21	WORKPLACE Arg1:T86 Arg2:T30	
+R22	WORKPLACE Arg1:T86 Arg2:T31	
+R23	WORKPLACE Arg1:T86 Arg2:T32	
+R24	WORKPLACE Arg1:T86 Arg2:T33	
+R25	WORKPLACE Arg1:T86 Arg2:T34	
+T96	CITY 911 919	Edmonton
+R26	HEADQUARTERED_IN Arg1:T29 Arg2:T96	
+T99	CITY 931 944	'Philadelphia
+R27	HEADQUARTERED_IN Arg1:T30 Arg2:T99	
+T100	CITY 957 964	Phoenix
+R28	HEADQUARTERED_IN Arg1:T31 Arg2:T100	
+R29	WORKS_AS Arg1:T86 Arg2:T88	
+T101	CITY 978 984	Ottawa
+R30	HEADQUARTERED_IN Arg1:T32 Arg2:T101	
+R31	PARTICIPANT_IN Arg1:T36 Arg2:T35	
+R32	POINT_IN_TIME Arg1:T35 Arg2:T37	
+R33	POINT_IN_TIME Arg1:T90 Arg2:T39	
+T102	CITY 998 1007	'New York
+R34	HEADQUARTERED_IN Arg1:T33 Arg2:T102	
+T103	CITY 1024 1034	Pittsburgh
+R35	HEADQUARTERED_IN Arg1:T34 Arg2:T103	
+R36	PARTICIPANT_IN Arg1:T86 Arg2:T35	
+R37	PARTICIPANT_IN Arg1:T88 Arg2:T35	
+R38	PLACE_OF_BIRTH Arg1:T46 Arg2:T50	
+R39	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+T104	CITY 1900 1907	Phoenix
+R40	HEADQUARTERED_IN Arg1:T61 Arg2:T104	
+T105	CITY 2051 2057	Zurich
+R41	HEADQUARTERED_IN Arg1:T67 Arg2:T105	
+R42	LOCATED_IN Arg1:T105 Arg2:T66	
+T106	CITY 2153 2163	'Vancouver
+R43	HEADQUARTERED_IN Arg1:T70 Arg2:T106	
+R44	WORKPLACE Arg1:T92 Arg2:T72	
+R45	WORKPLACE Arg1:T53 Arg2:T67	
+R46	WORKPLACE Arg1:T80 Arg2:T9	
+R47	WORKPLACE Arg1:T7 Arg2:T9	
+R48	SPOUSE Arg1:T80 Arg2:T10	
+R49	LOCATED_IN Arg1:T23 Arg2:T24	
+R50	MEMBER_OF Arg1:T29 Arg2:T27	
+R51	MEMBER_OF Arg1:T30 Arg2:T27	
+R52	MEMBER_OF Arg1:T31 Arg2:T27	
+R53	MEMBER_OF Arg1:T32 Arg2:T27	
+R54	MEMBER_OF Arg1:T33 Arg2:T27	
+R55	MEMBER_OF Arg1:T34 Arg2:T27	
+R56	WORKS_AS Arg1:T40 Arg2:T89	
+R57	ALTERNATIVE_NAME Arg1:T43 Arg2:T46	
+R58	WORKS_AS Arg1:T46 Arg2:T91	
+T107	CITY 1921 1928	Calgary
+R59	HEADQUARTERED_IN Arg1:T62 Arg2:T107	
+T108	CITY 1942 1951	Minnesota
+R60	HEADQUARTERED_IN Arg1:T63 Arg2:T108	
+R61	WORKPLACE Arg1:T59 Arg2:T58	
+R16	WORKPLACE Arg1:T59 Arg2:T60	
+R62	WORKPLACE Arg1:T59 Arg2:T61	
+R63	WORKPLACE Arg1:T59 Arg2:T62	
+R64	WORKPLACE Arg1:T59 Arg2:T63	
+R65	WORKPLACE Arg1:T74 Arg2:T75	
+R66	WORKPLACE Arg1:T93 Arg2:T76	
+R67	WORKS_AS Arg1:T74 Arg2:T93	
+R68	WORKPLACE Arg1:T74 Arg2:T76	
+T79	CITY 321 329	Edmonton
+R69	HEADQUARTERED_IN Arg1:T9 Arg2:T79	
+T94	CITY 1693 1701	San Jose
+R70	ALTERNATIVE_NAME Arg1:T94 Arg2:T57	
+R71	HEADQUARTERED_IN Arg1:T52 Arg2:T94	
+R72	ALTERNATIVE_NAME Arg1:T75 Arg2:T76	
+N1	Reference T1 Wikidata:Q706869	Комри, Майк
+N2	Reference T9 Wikidata:Q205973	Эдмонтон Ойлерз
+N3	Reference T10 Wikidata:Q122020	Хилари Дафф
+N4	Reference T23 Wikidata:Q2096	Эдмонтон
+N5	Reference T24 Wikidata:Q16	Канада
+N6	Reference T30 Wikidata:Q192083	Филадельфия Флайерз
+N7	Reference T32 Wikidata:Q203013	Оттава Сенаторз
+N8	Reference T33 Wikidata:Q194369	Нью-Йорк Айлендерс
+N9	Reference T34 Wikidata:Q193643	Питтсбург Пингвинз
+N10	Reference T50 Wikidata:Q26	Северная Ирландия
+N11	Reference T52 Wikidata:Q206381	Сан-Хосе Шаркс
+N15	Reference T60 Wikidata:Q203384	Торонто Мейпл Лифс
+N16	Reference T61 Wikidata:Q206312	Финикс Койотс
+N17	Reference T62 Wikidata:Q194126	Калгари Флэймз
+N18	Reference T63 Wikidata:Q206357	Миннесота Уайлд
+N19	Reference T65 Wikidata:Q1215892	Национальная хоккейная лига
+N20	Reference T66 Wikidata:Q39	Швейцария
+N22	Reference T70 Wikidata:Q192890	Ванкувер Кэнакс
+N23	Reference T81 Wikidata:Q380675	кинематограф США
+N24	Reference T82 Wikidata:Q33999	актёр
+N25	Reference T83 Wikidata:Q1196645	канадцы
+N37	Reference T106 Wikidata:Q24639	Ванкувер
+N38	Reference T107 Wikidata:Q36312	Калгари
+N40	Reference T96 Wikidata:Q2096	Эдмонтон
+N33	Reference T99 Wikidata:Q1345	Филадельфия
+N41	Reference T101 Wikidata:Q1930	Оттава
+N34	Reference T102 Wikidata:Q60	Нью-Йорк
+N35	Reference T103 Wikidata:Q1342	Питтсбург
+N26	Reference T87 Wikidata:Q543457	нападающий
+N27	Reference T88 Wikidata:Q2583758	
+N42	Reference T36 Wikidata:Q203013	Оттава Сенаторз
+N28	Reference T89 Wikidata:Q11774891	
+N31	Reference T95 Wikidata:NULL	нет данных
+N29	Reference T91 Wikidata:Q2583758	
+N43	Reference T94 Wikidata:Q16553	Сан-Хосе
+N12	Reference T55 Wikidata:Q979247	
+N13	Reference T58 Wikidata:Q206381	Сан-Хосе Шаркс
+N14	Reference T59 Wikidata:Q1342371	
+N44	Reference T85 Wikidata:Q172	
+N36	Reference T104 Wikidata:Q16556	
+N39	Reference T108 Wikidata:Q1527	Миннесота
+N21	Reference T67 Wikidata:Q136398	Цюрих
+N45	Reference T105 Wikidata:Q72	Цюрих
+N30	Reference T93 Wikidata:NULL	нет данных
+N32	Reference T97 Wikidata:Q11774891	
+N46	Reference T40 Wikidata:Q706869	Комри, Майк
+N47	Reference T5 Wikidata:Q706869	Комри, Майк
+N48	Reference T7 Wikidata:Q706869	Комри, Майк
+N49	Reference T11 Wikidata:Q706869	Комри, Майк
+N50	Reference T18 Wikidata:Q706869	Комри, Майк
+N51	Reference T86 Wikidata:Q706869	Комри, Майк
+N52	Reference T29 Wikidata:Q205973	Эдмонтон Ойлерз
+N53	Reference T31 Wikidata:Q206312	Финикс Койотс
+N54	Reference T69 Wikidata:Q1215892	Национальная хоккейная лига
+N55	Reference T49 Wikidata:Q1215892	Национальная хоккейная лига
+N56	Reference T72 Wikidata:Q1215892	Национальная хоккейная лига
+N57	Reference T48 Wikidata:Q1215892	Национальная хоккейная лига
+N58	Reference T3 Wikidata:Q1215892	Национальная хоккейная лига
+N59	Reference T78 Wikidata:Q1215892	Национальная хоккейная лига
+N60	Reference T45 Wikidata:Q1215892	Национальная хоккейная лига
+N61	Reference T27 Wikidata:Q1215892	Национальная хоккейная лига
+N62	Reference T79 Wikidata:Q2096	Эдмонтон
+N63	Reference T84 Wikidata:Q2583758	
+N64	Reference T57 Wikidata:Q16553	Сан-Хосе
+N65	Reference T75 Wikidata:Q206381	Сан-Хосе Шаркс
+N66	Reference T76 Wikidata:Q206381	Сан-Хосе Шаркс
+N67	Reference T51 Wikidata:Q1342371	
+N68	Reference T56 Wikidata:Q1342371	
+N69	Reference T53 Wikidata:Q1342371	
+N70	Reference T46 Wikidata:Q1342371	
+N71	Reference T74 Wikidata:Q1342371	
+N72	Reference T92 Wikidata:Q1342371	
+N73	Reference T43 Wikidata:Q1342371	
+N74	Reference T2 Wikidata:Q1342371	
+N75	Reference T100 Wikidata:Q16556	
+N76	Reference T80 Wikidata:Q11774891	

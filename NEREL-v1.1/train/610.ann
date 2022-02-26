@@ -1,0 +1,70 @@
+T1	COUNTRY 2 5	США
+T2	PROFESSION 29 39	финансиста
+T3	PERSON 40 49	Дж.Сороса
+T4	COUNTRY 54 57	США
+T5	PROFESSION 81 91	финансиста
+T6	PERSON 92 106	Джорджа Сороса
+T7	PERSON 109 118	Пол Сорос
+T8	ORGANIZATION 129 145	Associated Press
+T9	PERSON 167 178	Питер Сорос
+T10	AGE 180 189	87-летний
+T12	CITY 221 230	Нью-Йорка
+T13	PERSON 333 342	Пол Сорос
+T14	ORGANIZATION 386 402	Soros Associates
+T15	NUMBER 486 488	91
+T16	PERSON 524 535	Дэйзи Сорос
+T17	ORGANIZATION 553 579	Фонд для новых американцев
+T18	COUNTRY 630 642	американских
+T19	PROFESSION 190 199	бизнесмен
+T11	DISEASE 298 301	рак
+T20	DISEASE 303 309	диабет
+T21	DISEASE 312 330	болезнь Паркинсона
+T22	PERSON 536 543	П.Сорос
+T23	EVENT 6 15	скончался
+T24	EVENT 58 67	скончался
+R1	TAKES_PLACE_IN Arg1:T23 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T24 Arg2:T4	
+R3	PARTICIPANT_IN Arg1:T7 Arg2:T24	
+R4	SIBLING Arg1:T6 Arg2:T7	
+R5	WORKS_AS Arg1:T6 Arg2:T5	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R7	PARENT_OF Arg1:T7 Arg2:T9	
+R8	AGE_IS Arg1:T7 Arg2:T10	
+R9	WORKS_AS Arg1:T7 Arg2:T19	
+R10	AGE_IS Arg1:T19 Arg2:T10	
+T25	EVENT 200 209	скончался
+R11	PARTICIPANT_IN Arg1:T19 Arg2:T25	
+R12	TAKES_PLACE_IN Arg1:T25 Arg2:T12	
+R13	MEDICAL_CONDITION Arg1:T19 Arg2:T11	
+R14	MEDICAL_CONDITION Arg1:T19 Arg2:T20	
+R15	MEDICAL_CONDITION Arg1:T19 Arg2:T21	
+R16	MEDICAL_CONDITION Arg1:T7 Arg2:T11	
+R17	MEDICAL_CONDITION Arg1:T7 Arg2:T20	
+R18	MEDICAL_CONDITION Arg1:T7 Arg2:T21	
+R19	FOUNDED_BY Arg1:T14 Arg2:T13	
+R20	ALTERNATIVE_NAME Arg1:T13 Arg2:T22	
+R21	SPOUSE Arg1:T22 Arg2:T16	
+R22	FOUNDED_BY Arg1:T17 Arg2:T22	
+R23	FOUNDED_BY Arg1:T17 Arg2:T16	
+R24	WORKS_AS Arg1:T3 Arg2:T2	
+T26	PERSON 386 391	Soros
+T27	NATIONALITY 568 579	американцев
+N1	Reference T4 Wikidata:Q30	США
+N2	Reference T5 Wikidata:Q1979607	финансист
+N3	Reference T6 Wikidata:Q12908	Джордж Сорос
+N4	Reference T8 Wikidata:Q743137	The Associates
+N6	Reference T12 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N11	Reference T19 Wikidata:Q131524	предприниматель
+N10	Reference T18 Wikidata:Q30	США
+N5	Reference T9 Wikidata:NULL	нет данных
+N14	Reference T26 Wikidata:Q12908	Джордж Сорос
+N7	Reference T14 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:Q846570	
+N9	Reference T17 Wikidata:NULL	нет данных
+N15	Reference T1 Wikidata:Q30	США
+N16	Reference T2 Wikidata:Q1979607	финансист
+N17	Reference T3 Wikidata:Q12908	Джордж Сорос
+N18	Reference T7 Wikidata:NULL	нет данных
+N19	Reference T13 Wikidata:NULL	нет данных

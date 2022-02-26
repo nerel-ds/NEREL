@@ -1,0 +1,91 @@
+T1	PERSON 21 34	Арон Эрнандес
+T2	PERSON 54 67	Арон Эрнандес
+T3	PERSON 69 84	Aaron Hernandez
+T4	DATE 86 105	19 апреля 2017 года
+T5	PERSON 106 119	Арон Эрнандес
+T6	PERSON 121 136	Aaron Hernandez
+T7	ORGANIZATION 154 182	Национальной футбольной лиги
+T8	STATE_OR_PROVINCE 241 252	Массачусетс
+T10	ORGANIZATION 303 323	Нью-Ингленд Пэтриотс
+T11	ORGANIZATION 325 345	New England Patriots
+T12	AGE 375 384	27-ми лет
+T13	PERSON 467 475	Эрнандес
+T14	PERSON 568 584	Кристофер Фэллон
+T15	PROFESSION 586 656	представитель Департамента исправительных учреждений штата Массачусетс
+T16	STATE_OR_PROVINCE 645 656	Массачусетс
+T17	PERSON 669 676	Фэллона
+T18	PERSON 678 686	Эрнандес
+T19	NUMBER 697 701	один
+T20	PERSON 807 815	Эрнандес
+T21	DATE 872 883	в 2013 году
+T22	DATE 885 902	В прошлую пятницу
+T23	DATE 951 962	в 2012 году
+T24	PERSON 965 973	Эрнандес
+T25	NUMBER 982 985	три
+T26	ORGANIZATION 995 998	НФЛ
+T27	DATE 1000 1018	с 2010 по 2012 год
+T28	NUMBER 1046 1049	175
+T29	NUMBER 1070 1072	18
+T30	PROFESSION 11 20	футболист
+T34	EVENT 35 44	повесился
+T35	EVENT 347 363	покончил с собой
+T36	EVENT 389 398	повесился
+T37	ORGANIZATION 600 656	Департамента исправительных учреждений штата Массачусетс
+T38	PROFESSION 778 788	спортсмена
+T39	PENALTY 824 846	пожизненное заключение
+T40	CRIME 850 858	убийство
+T41	CRIME 934 950	двойном убийстве
+T42	EVENT 910 918	оправдан
+R1	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+R3	WORKS_AS Arg1:T1 Arg2:T30	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+R5	WORKPLACE Arg1:T5 Arg2:T7	
+R6	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R7	PENALIZED_AS Arg1:T20 Arg2:T39	
+R8	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+R9	WORKS_AS Arg1:T14 Arg2:T15	
+R10	WORKPLACE Arg1:T14 Arg2:T37	
+R11	HEADQUARTERED_IN Arg1:T37 Arg2:T16	
+R12	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+R13	CONVICTED_OF Arg1:T20 Arg2:T40	
+R14	POINT_IN_TIME Arg1:T40 Arg2:T21	
+R15	POINT_IN_TIME Arg1:T41 Arg2:T23	
+R16	HAS_CAUSE Arg1:T39 Arg2:T40	
+R17	WORKS_AS Arg1:T18 Arg2:T38	
+R18	WORKPLACE Arg1:T24 Arg2:T26	
+R19	POINT_IN_TIME Arg1:T42 Arg2:T22	
+R20	PARTICIPANT_IN Arg1:T20 Arg2:T42	
+T31	EVENT 189 208	найден повесившимся
+R21	INANIMATE_INVOLVED Arg1:T5 Arg2:T31	
+R22	TAKES_PLACE_IN Arg1:T31 Arg2:T8	
+R23	WORKPLACE Arg1:T5 Arg2:T10	
+R24	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+T9	PROFESSION 289 323	игрок команды Нью-Ингленд Пэтриотс
+R25	WORKPLACE Arg1:T9 Arg2:T10	
+R26	WORKS_AS Arg1:T5 Arg2:T9	
+R27	POINT_IN_TIME Arg1:T31 Arg2:T4	
+R28	AGE_DIED_AT Arg1:T5 Arg2:T12	
+R29	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+N3	Reference T7 Wikidata:Q1215884	Национальная футбольная лига
+N4	Reference T8 Wikidata:Q771	Массачусетс
+N5	Reference T11 Wikidata:Q193390	Нью-Ингленд Пэтриотс
+N8	Reference T26 Wikidata:Q1215884	Национальная футбольная лига
+N9	Reference T30 Wikidata:Q937857	футболист
+N11	Reference T38 Wikidata:Q2066131	спортсмен
+N1	Reference T1 Wikidata:Q302091	
+N2	Reference T2 Wikidata:Q302091	
+N12	Reference T9 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:NULL	нет данных
+N10	Reference T37 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N13	Reference T16 Wikidata:Q771	Массачусетс
+N14	Reference T10 Wikidata:Q193390	Нью-Ингленд Пэтриотс
+N15	Reference T13 Wikidata:Q302091	
+N16	Reference T5 Wikidata:Q302091	
+N17	Reference T20 Wikidata:Q302091	
+N18	Reference T24 Wikidata:Q302091	
+N19	Reference T18 Wikidata:Q302091	
+N20	Reference T6 Wikidata:Q302091	
+N21	Reference T3 Wikidata:Q302091	
+N22	Reference T14 Wikidata:NULL	нет данных

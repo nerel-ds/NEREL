@@ -1,0 +1,139 @@
+T1	COUNTRY 2 8	Японии
+T2	PERSON 43 58	Титэцу Ватанабэ
+T3	CITY 67 73	Дзёэцу
+T4	CITY 90 96	Дзёэцу
+T5	COUNTRY 104 112	японской
+T6	STATE_OR_PROVINCE 124 131	Ниигата
+T7	DATE 133 168	в воскресенье, 23 февраля 2020 года
+T8	AGE 175 185	112-летний
+T9	PERSON 186 201	Титэцу Ватанабэ
+T10	DATE 211 239	две недели назад, 12 февраля
+T12	ORGANIZATION 263 286	Книгой рекордов Гиннеса
+T13	AGE 340 347	113 лет
+T14	DATE 354 361	11 дней
+T15	PERSON 431 446	Титэцу Ватанабэ
+T16	DATE 455 472	5 марта 1907 года
+T17	CITY 475 484	Урагаваре
+T18	STATE_OR_PROVINCE 486 493	Ниигата
+T19	COUNTRY 495 511	Японская империя
+T20	NUMBER 547 553	восьми
+T21	ORGANIZATION 646 668	Dai-Nippon Meiji Sugar
+T22	COUNTRY 682 689	Тайвань
+T23	DATE 706 712	18 лет
+T24	EVENT 799 819	Второй мировой войне
+T25	PERSON 885 891	Титэцу
+T26	DATE 898 909	в 1974 году
+T27	AGE 1024 1031	108 лет
+T28	DATE 1071 1088	5 марта 2019 года
+T29	AGE 1118 1137	112-й день рождения
+T30	DATE 1139 1155	1 июня 2019 года
+T31	PERSON 1231 1239	Ватанабэ
+T32	AGE 1245 1252	107 лет
+T33	PERSON 1422 1430	Ватанабэ
+T34	NUMBER 1436 1442	пятеро
+T35	NUMBER 1450 1452	12
+T36	NUMBER 1462 1464	16
+T37	COUNTRY 1548 1554	Японии
+T38	AGE 1556 1566	113-летний
+T39	PERSON 1567 1581	Масадзо Нонака
+T40	DATE 1591 1609	в апреле 2018 года
+T41	DATE 1673 1692	20 января 2019 года
+T42	COUNTRY 1726 1732	Японии
+T43	PERSON 1746 1761	Масамицу Йосиды
+T44	PERSON 1807 1823	Исраэля Криштала
+T45	NATIONALITY 1901 1907	японец
+T46	PERSON 1908 1924	Дзироэмон Кимура
+T47	AGE 1936 1952	116 лет и 54 дня
+T48	COUNTRY 2105 2111	Японии
+T49	PERSON 2112 2123	Канэ Танака
+T50	AGE 2126 2136	117-летняя
+T51	STATE_OR_PROVINCE 2159 2166	Фукуока
+T52	NATIONALITY 2214 2225	француженке
+T53	PERSON 2226 2239	Жанне Кальман
+T54	DATE 2254 2265	в 1997 году
+T55	AGE 2277 2295	122 лет и 164 дней
+T57	EVENT 9 31	умер старейший мужчина
+T11	LOCATION 311 316	Земле
+T58	EVENT 372 381	скончался
+T60	PROFESSION 521 529	фермеров
+T61	PERSON 1089 1104	Титэцу Ватанабэ
+T66	DATE 1762 1782	29 октября 2016 года
+T71	LOCATION 2072 2077	Земле
+R1	AGE_DIED_AT Arg1:T9 Arg2:T8	
+R2	DATE_OF_BIRTH Arg1:T15 Arg2:T16	
+R3	PLACE_OF_BIRTH Arg1:T15 Arg2:T17	
+R4	LOCATED_IN Arg1:T17 Arg2:T18	
+R5	LOCATED_IN Arg1:T18 Arg2:T19	
+R6	WORKPLACE Arg1:T15 Arg2:T21	
+R7	PLACE_RESIDES_IN Arg1:T15 Arg2:T22	
+R8	PARTICIPANT_IN Arg1:T15 Arg2:T24	
+R9	AGE_DIED_AT Arg1:T39 Arg2:T38	
+R10	DATE_OF_DEATH Arg1:T39 Arg2:T41	
+R11	ORIGINS_FROM Arg1:T46 Arg2:T45	
+R12	ORIGINS_FROM Arg1:T49 Arg2:T48	
+R13	AGE_IS Arg1:T49 Arg2:T50	
+R14	PLACE_RESIDES_IN Arg1:T49 Arg2:T51	
+R15	ORIGINS_FROM Arg1:T53 Arg2:T52	
+R16	DATE_OF_DEATH Arg1:T53 Arg2:T54	
+R17	AGE_DIED_AT Arg1:T53 Arg2:T55	
+R18	PLACE_RESIDES_IN Arg1:T39 Arg2:T37	
+R19	AGE_DIED_AT Arg1:T46 Arg2:T47	
+R20	AGE_IS Arg1:T31 Arg2:T32	
+R21	TAKES_PLACE_IN Arg1:T57 Arg2:T1	
+R22	PARTICIPANT_IN Arg1:T2 Arg2:T57	
+R23	PLACE_OF_DEATH Arg1:T9 Arg2:T4	
+R24	LOCATED_IN Arg1:T4 Arg2:T6	
+R25	LOCATED_IN Arg1:T6 Arg2:T5	
+R26	DATE_OF_DEATH Arg1:T9 Arg2:T7	
+T56	EVENT 170 174	умер
+R27	PARTICIPANT_IN Arg1:T9 Arg2:T56	
+R28	POINT_IN_TIME Arg1:T56 Arg2:T7	
+R29	TAKES_PLACE_IN Arg1:T56 Arg2:T4	
+R30	AGE_IS Arg1:T61 Arg2:T29	
+R31	PLACE_RESIDES_IN Arg1:T43 Arg2:T42	
+R32	DATE_OF_DEATH Arg1:T43 Arg2:T66	
+R33	LOCATED_IN Arg1:T4 Arg2:T1	
+R34	ALTERNATIVE_NAME Arg1:T57 Arg2:T56	
+R35	ORIGINS_FROM Arg1:T15 Arg2:T60	
+R36	LOCATED_IN Arg1:T48 Arg2:T71	
+R37	PARTICIPANT_IN Arg1:T9 Arg2:T58	
+T59	ORDINAL 799 805	Второй
+R38	PLACE_RESIDES_IN Arg1:T49 Arg2:T71	
+N1	Reference T4 Wikidata:Q582289	Дзёэцу
+N2	Reference T5 Wikidata:Q17	Япония
+N3	Reference T12 Wikidata:Q41675	Книга рекордов Гиннесса
+N4	Reference T15 Wikidata:Q60990917	Титэцу Ватанабэ
+N5	Reference T18 Wikidata:Q132705	Ниигата
+N6	Reference T19 Wikidata:Q188712	Японская империя
+N9	Reference T39 Wikidata:Q28417415	Нонака, Масадзо
+N10	Reference T42 Wikidata:Q17	Япония
+N12	Reference T44 Wikidata:Q22302045	Исраэль Криштал
+N13	Reference T45 Wikidata:Q161652	японцы
+N14	Reference T46 Wikidata:Q550149	Дзироэмон Кимура
+N15	Reference T49 Wikidata:Q29441888	Танака, Канэ
+N16	Reference T51 Wikidata:Q123258	Фукуока
+N17	Reference T52 Wikidata:Q142	Франция
+N18	Reference T53 Wikidata:Q182260	Жанна Кальман
+N19	Reference T60 Wikidata:Q131512	фермер
+N20	Reference T71 Wikidata:Q2	Земля
+N21	Reference T17 Wikidata:Q7899559	
+N7	Reference T21 Wikidata:Q10315824	
+N8	Reference T22 Wikidata:Q865	Китайская Республика
+N22	Reference T25 Wikidata:Q60990917	Титэцу Ватанабэ
+N23	Reference T31 Wikidata:Q60990917	Титэцу Ватанабэ
+N11	Reference T43 Wikidata:Q22117148	
+N24	Reference T3 Wikidata:Q582289	Дзёэцу
+N25	Reference T61 Wikidata:Q60990917	Титэцу Ватанабэ
+N26	Reference T2 Wikidata:Q60990917	Титэцу Ватанабэ
+N27	Reference T9 Wikidata:Q60990917	Титэцу Ватанабэ
+N28	Reference T6 Wikidata:Q132705	Ниигата
+N29	Reference T37 Wikidata:Q17	Япония
+N30	Reference T1 Wikidata:Q17	Япония
+N31	Reference T48 Wikidata:Q17	Япония
+N32	Reference T11 Wikidata:Q2	Земля
+N33	Reference T33 Wikidata:Q60990917	Титэцу Ватанабэ
+T62	EVENT 9 13	умер
+T63	EVENT 447 454	родился
+R39	PARTICIPANT_IN Arg1:T15 Arg2:T63	
+R40	POINT_IN_TIME Arg1:T63 Arg2:T16	
+R41	TAKES_PLACE_IN Arg1:T63 Arg2:T17	

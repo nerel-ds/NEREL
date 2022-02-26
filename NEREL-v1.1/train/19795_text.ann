@@ -1,0 +1,67 @@
+T1	CITY 2 7	Киеве
+T3	EVENT 26 56	Антропоморфия украинской степи
+T4	DATE 62 86	С 3 по 12 октября 2012 г
+T5	CITY 90 98	Киевском
+T7	EVENT 137 167	Антропоморфия украинской степи
+T8	PERSON 180 195	Геннадия Фисуна
+T9	PERSON 209 222	Юрия Антонова
+T10	ORDINAL 327 333	первой
+T11	LOCATION 348 364	Восточной Европы
+T12	PRODUCT 381 388	Анагама
+T13	STATE_OR_PROVINCE 469 483	Донецкого края
+T14	PERSON 493 499	Фисуна
+T15	PERSON 502 510	Антонова
+T17	AGE 518 532	семь тысяч лет
+T18	LOCATION 624 630	Европы
+T19	COUNTRY 662 669	Украины
+T20	COUNTRY 776 783	Украины
+T21	STATE_OR_PROVINCE 785 799	Донецкого края
+T22	COUNTRY 40 50	украинской
+T23	FACILITY 90 115	Киевском Музее гетманства
+T24	COUNTRY 151 161	украинской
+T25	PROFESSION 170 179	керамиста
+T26	PROFESSION 198 208	каллиграфа
+T27	PROFESSION 224 233	Художники
+T28	LOCATION 358 364	Европы
+T29	ORDINAL 391 398	Впервые
+T16	PROFESSION 560 569	художники
+R1	WORKS_AS Arg1:T8 Arg2:T25	
+R2	WORKS_AS Arg1:T9 Arg2:T26	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R4	LOCATED_IN Arg1:T23 Arg2:T5	
+R5	WORKS_AS Arg1:T8 Arg2:T27	
+R6	WORKS_AS Arg1:T9 Arg2:T27	
+R7	LOCATED_IN Arg1:T11 Arg2:T28	
+R8	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R9	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R10	WORKS_AS Arg1:T14 Arg2:T16	
+R11	WORKS_AS Arg1:T15 Arg2:T16	
+R12	LOCATED_IN Arg1:T13 Arg2:T11	
+R13	LOCATED_IN Arg1:T19 Arg2:T18	
+R14	LOCATED_IN Arg1:T21 Arg2:T20	
+R15	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+R16	ALTERNATIVE_NAME Arg1:T24 Arg2:T20	
+R17	TAKES_PLACE_IN Arg1:T7 Arg2:T23	
+R18	PARTICIPANT_IN Arg1:T8 Arg2:T7	
+R19	PARTICIPANT_IN Arg1:T9 Arg2:T7	
+N1	Reference T5 Wikidata:Q1899	Киев
+N3	Reference T11 Wikidata:Q27468	Восточная Европа
+N8	Reference T27 Wikidata:Q1028181	художник
+N6	Reference T23 Wikidata:Q12130545	
+N7	Reference T24 Wikidata:Q212	Украина
+N10	Reference T25 Wikidata:Q7541856	
+N2	Reference T8 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:Q3303330	
+N9	Reference T28 Wikidata:Q46	Европа
+N12	Reference T12 Wikidata:Q483929	
+N4	Reference T13 Wikidata:Q605714	Донбасс
+N5	Reference T15 Wikidata:NULL	нет данных
+N13	Reference T1 Wikidata:Q1899	Киев
+N14	Reference T16 Wikidata:Q1028181	художник
+N15	Reference T19 Wikidata:Q212	Украина
+N16	Reference T22 Wikidata:Q212	Украина
+N17	Reference T20 Wikidata:Q212	Украина
+N18	Reference T14 Wikidata:NULL	нет данных
+N19	Reference T18 Wikidata:Q46	Европа
+N20	Reference T21 Wikidata:Q605714	Донбасс
+N21	Reference T9 Wikidata:NULL	нет данных

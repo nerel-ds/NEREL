@@ -1,0 +1,163 @@
+T2	NUMBER 43 46	две
+T3	PERSON 101 117	Валерий Костенок
+T4	ORGANIZATION 126 141	РГУ им Косыгина
+T5	AGE 142 151	20-летний
+T6	PROFESSION 152 160	волонтёр
+T7	PERSON 226 243	Кирилла Гончарова
+T8	PERSON 244 260	Валерий Костенок
+T9	DATE 271 281	12 августа
+T10	DATE 305 316	на 2 месяца
+T11	DATE 344 354	11 августа
+T13	FACILITY 379 395	Варшавском шоссе
+T15	PERSON 422 430	Костенок
+T16	DATE 444 451	27 июля
+T17	PERSON 537 554	Евгений Коваленко
+T18	PROFESSION 557 562	бойца
+T19	PROFESSION 997 1020	представитель обвинения
+T21	ORGANIZATION 1172 1178	Яблоко
+T22	DATE 1180 1193	до 11 октября
+T23	DATE 1210 1236	в июле и августе 2019 года
+T24	ORGANIZATION 1377 1402	Московской городской думы
+T26	DATE 1438 1445	27 июля
+T27	LAW 1484 1503	ст. 318 и 212 УК РФ
+T28	PERSON 1505 1513	Костенок
+T29	ORDINAL 1519 1523	14-м
+T30	AGE 1666 1676	48-летнего
+T31	PERSON 1677 1694	Евгения Коваленко
+T32	DATE 1697 1708	В 2017 году
+T33	DISTRICT 1758 1773	Донского района
+T34	NUMBER 1790 1793	253
+T35	ORGANIZATION 8 23	РГУ им Косыгина
+T36	PERSON 15 23	Косыгина
+T37	PROFESSION 76 100	сотрудников правопорядка
+T38	PROFESSION 118 125	Студент
+T39	PERSON 133 141	Косыгина
+T40	ORGANIZATION 210 213	МГД
+T41	ORDINAL 214 218	7-го
+T43	ORGANIZATION 282 297	Басманным судом
+T44	ORGANIZATION 300 304	СИЗО
+T12	EVENT 403 408	обыск
+T14	EVENT 414 421	допросе
+T45	FACILITY 455 473	улице Рождественка
+T46	ORGANIZATION 563 573	Нацгвардии
+T47	PROFESSION 557 573	бойца Нацгвардии
+T48	PROFESSION 589 601	полицейского
+T49	PROFESSION 712 724	полицейского
+T50	ORGANIZATION 808 815	полиции
+T51	PROFESSION 797 815	сотрудники полиции
+T52	EVENT 967 974	допросе
+T53	PROFESSION 1090 1097	адвокат
+T54	PROFESSION 1126 1131	судья
+T55	PENALTY 1151 1157	аресте
+T25	ORDINAL 1403 1411	седьмого
+T58	ORGANIZATION 1446 1466	следственный комитет
+T59	EVENT 1467 1480	возбудил дела
+T60	PERSON 1709 1717	Костенок
+T61	PROFESSION 1749 1757	депутаты
+T62	CITY 1774 1780	Москвы
+T63	PROFESSION 1735 1780	муниципальные депутаты Донского района Москвы
+R2	AGE_IS Arg1:T31 Arg2:T30	
+R4	MEMBER_OF Arg1:T38 Arg2:T4	
+R5	WORKS_AS Arg1:T3 Arg2:T38	
+R6	WORKS_AS Arg1:T3 Arg2:T6	
+R7	AGE_IS Arg1:T3 Arg2:T5	
+T64	EVENT 261 270;298 304	отправлен в СИЗО
+T65	PROFESSION 1735 1757	муниципальные депутаты
+T66	PROFESSION 201 209	депутаты
+T67	PROFESSION 201 225	депутаты МГД 7-го созыва
+R9	TAKES_PLACE_IN Arg1:T12 Arg2:T13	
+R10	POINT_IN_TIME Arg1:T12 Arg2:T11	
+R11	PARTICIPANT_IN Arg1:T15 Arg2:T14	
+R12	WORKPLACE Arg1:T67 Arg2:T40	
+R13	WORKS_AS Arg1:T7 Arg2:T67	
+R14	WORKPLACE Arg1:T7 Arg2:T40	
+R15	WORKS_AS Arg1:T8 Arg2:T6	
+R16	AGE_IS Arg1:T8 Arg2:T5	
+R17	PARTICIPANT_IN Arg1:T8 Arg2:T64	
+R18	AGENT Arg1:T43 Arg2:T64	
+R19	POINT_IN_TIME Arg1:T64 Arg2:T9	
+R20	WORKPLACE Arg1:T47 Arg2:T46	
+R21	WORKPLACE Arg1:T51 Arg2:T50	
+T42	PENALTY 1030 1069	меру пресечения в виде домашнего ареста
+T68	PENALTY 1053 1069	домашнего ареста
+T57	CITY 1377 1387	Московской
+T69	ORGANIZATION 1377 1418	Московской городской думы седьмого созыва
+R24	HEADQUARTERED_IN Arg1:T69 Arg2:T57	
+R25	PARTICIPANT_IN Arg1:T58 Arg2:T59	
+R26	POINT_IN_TIME Arg1:T59 Arg2:T26	
+T70	COUNTRY 1501 1503	РФ
+T71	LAW 1498 1503	УК РФ
+T72	LAW 1498 1500	УК
+T73	EVENT 1718 1732	баллотировался
+R27	POINT_IN_TIME Arg1:T73 Arg2:T32	
+R28	PARTICIPANT_IN Arg1:T60 Arg2:T73	
+R29	PENALIZED_AS Arg1:T15 Arg2:T55	
+R30	ORIGINS_FROM Arg1:T71 Arg2:T70	
+T74	ORDINAL 1488 1491	318
+T75	ORDINAL 1494 1497	212
+R31	PART_OF Arg1:T27 Arg2:T71	
+R32	WORKPLACE Arg1:T63 Arg2:T33	
+R33	LOCATED_IN Arg1:T33 Arg2:T62	
+R8	MEMBER_OF Arg1:T15 Arg2:T21	
+T20	EVENT 37 73	кинул две пустые пластиковые бутылки
+R1	PARTICIPANT_IN Arg1:T37 Arg2:T20	
+T1	EVENT 530 536	бросил
+R22	AGENT Arg1:T17 Arg2:T1	
+R23	PARTICIPANT_IN Arg1:T47 Arg2:T1	
+R34	SCHOOLS_ATTENDED Arg1:T8 Arg2:T4	
+R35	POINT_IN_TIME Arg1:T1 Arg2:T16	
+R36	TAKES_PLACE_IN Arg1:T1 Arg2:T45	
+R37	END_TIME Arg1:T55 Arg2:T22	
+R38	HAS_CAUSE Arg1:T59 Arg2:T27	
+T56	EVENT 1333 1366	недопуском независимых кандидатов
+T76	EVENT 1370 1376	выборы
+R3	PARTICIPANT_IN Arg1:T24 Arg2:T76	
+R39	TAKES_PLACE_IN Arg1:T76 Arg2:T57	
+R40	SUBEVENT_OF Arg1:T56 Arg2:T76	
+R41	POINT_IN_TIME Arg1:T56 Arg2:T23	
+N4	Reference T13 Wikidata:Q4104112	Варшавское шоссе
+N6	Reference T18 Wikidata:Q1250916	воин
+N8	Reference T21 Wikidata:Q15332	партия Яблоко
+N9	Reference T24 Wikidata:Q2041767	Московская городская дума
+N12	Reference T33 Wikidata:Q2216653	Донской район
+N13	Reference T35 Wikidata:Q4304097	Московский государственный университет дизайна и технологии
+N15	Reference T39 Wikidata:Q202770	Алексей Николаевич Косыгин
+N17	Reference T43 Wikidata:Q4079082	Басманный районный суд города Москвы
+N18	Reference T44 Wikidata:Q2945301	следственный изолятор
+N19	Reference T45 Wikidata:Q4473815	Улица Рождественка
+N22	Reference T50 Wikidata:Q35535	полиция
+N23	Reference T53 Wikidata:Q40348	адвокат
+N24	Reference T54 Wikidata:Q16533	судья
+N25	Reference T61 Wikidata:Q486839	член парламента
+N26	Reference T62 Wikidata:Q649	Москва
+N31	Reference T70 Wikidata:Q159	Россия
+N32	Reference T71 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N1	Reference T6 Wikidata:Q24716636	
+N34	Reference T37 Wikidata:NULL	нет данных
+N14	Reference T38 Wikidata:Q315247	
+N16	Reference T40 Wikidata:Q2041767	Московская городская дума
+N28	Reference T67 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:Q66132775	
+N3	Reference T8 Wikidata:Q66416482	
+N5	Reference T15 Wikidata:Q66416482	
+N35	Reference T46 Wikidata:Q23848732	Войска национальной гвардии России
+N20	Reference T47 Wikidata:NULL	нет данных
+N21	Reference T49 Wikidata:Q384593	
+N36	Reference T51 Wikidata:Q16699822	
+N7	Reference T19 Wikidata:NULL	
+N29	Reference T57 Wikidata:Q649	Москва
+N30	Reference T69 Wikidata:NULL	нет данных
+N33	Reference T72 Wikidata:Q19705	уголовное законодательство
+N10	Reference T27 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:Q4225413	
+N37	Reference T65 Wikidata:NULL	нет данных
+N27	Reference T63 Wikidata:NULL	нет данных
+N38	Reference T58 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N39	Reference T4 Wikidata:Q4304097	Московский государственный университет дизайна и технологии
+N40	Reference T36 Wikidata:Q202770	Алексей Николаевич Косыгин
+N41	Reference T66 Wikidata:Q486839	член парламента
+N42	Reference T3 Wikidata:Q66416482	
+N43	Reference T60 Wikidata:Q66416482	
+N44	Reference T28 Wikidata:Q66416482	
+N45	Reference T48 Wikidata:Q384593	
+N46	Reference T17 Wikidata:Q4225413	

@@ -1,0 +1,166 @@
+T1	PERSON 11 23	Марины Лошак
+T2	PROFESSION 37 51	главы "Манежа"
+T3	ORGANIZATION 44 50	Манежа
+T4	ORGANIZATION 85 90	Манеж
+T5	PROFESSION 138 158	генеральный директор
+T6	PERSON 159 172	Ирина Толпина
+T7	ORGANIZATION 182 193	РИА Новости
+T8	PROFESSION 194 232	глава столичного департамента культуры
+T9	PERSON 233 246	Сергей Капков
+T10	PROFESSION 259 313	арт-директора музейно-выставочного объединения "Манеж"
+T11	ORGANIZATION 307 312	Манеж
+T12	PERSON 339 351	Марина Лошак
+T13	DATE 353 366	в понедельник
+T14	PERSON 377 391	Ирину Антонову
+T15	PROFESSION 401 429	директора ГМИИ имени Пушкина
+T16	ORGANIZATION 464 475	РИА Новости
+T17	PROFESSION 476 514	глава столичного департамента культуры
+T18	PERSON 515 528	Сергей Капков
+T19	PERSON 542 556	Ирина Антонова
+T20	ORGANIZATION 578 596	ГМИИ имени Пушкина
+T21	DATE 597 613	в течение 52 лет
+T24	EVENT 646 660	пресс-брифинге
+T25	DATE 661 674	в понедельник
+T26	PROFESSION 675 694	министр культуры РФ
+T27	PERSON 695 713	Владимир Мединский
+T28	PERSON 785 791	Капков
+T29	PERSON 848 853	Лошак
+T30	DATE 906 920	несколько дней
+T31	ORGANIZATION 938 943	Манеж
+T32	PROFESSION 991 1011	генеральный директор
+T33	PERSON 1012 1025	Ирина Толпина
+T34	PERSON 1028 1040	Марина Лошак
+T35	NATIONALITY 1043 1053	российский
+T36	PROFESSION 1064 1072	галерист
+T37	DATE 1074 1085	С 2007 года
+T39	PROFESSION 1103 1115	арт-директор
+T40	ORGANIZATION 1125 1130	Проун
+T41	FACILITY 1136 1145	Винзаводе
+T42	DATE 1148 1159	с 2012 года
+T43	PROFESSION 1177 1190	арт-директора
+T44	ORGANIZATION 1237 1242	Манеж
+T45	ORGANIZATION 1252 1259	Столица
+T46	ORGANIZATION 1275 1286	ЦВЗ "Манеж"
+T47	ORGANIZATION 1289 1309	Рабочий и колхозница
+T48	ORGANIZATION 200 232	столичного департамента культуры
+T50	PROFESSION 259 272	арт-директора
+T51	ORGANIZATION 411 429	ГМИИ имени Пушкина
+T52	PERSON 422 429	Пушкина
+T53	ORGANIZATION 482 514	столичного департамента культуры
+T54	PERSON 589 596	Пушкина
+T22	COUNTRY 692 694	РФ
+T23	PROFESSION 1054 1061	куратор
+R1	WORKS_AS Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T1 Arg2:T3	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R4	WORKPLACE Arg1:T6 Arg2:T4	
+R5	WORKS_AS Arg1:T9 Arg2:T8	
+R6	WORKPLACE Arg1:T9 Arg2:T48	
+R7	WORKS_AS Arg1:T12 Arg2:T10	
+R8	WORKPLACE Arg1:T12 Arg2:T11	
+T49	EVENT 367 376	сменившая
+R9	POINT_IN_TIME Arg1:T49 Arg2:T13	
+R10	PARTICIPANT_IN Arg1:T12 Arg2:T49	
+R11	WORKS_AS Arg1:T12 Arg2:T15	
+R12	WORKPLACE Arg1:T12 Arg2:T51	
+R13	PARTICIPANT_IN Arg1:T27 Arg2:T24	
+R14	WORKS_AS Arg1:T27 Arg2:T26	
+T56	PROFESSION 675 691	министр культуры
+R15	WORKPLACE Arg1:T27 Arg2:T22	
+T57	PROFESSION 675 682	министр
+R16	POINT_IN_TIME Arg1:T24 Arg2:T25	
+T58	EVENT 615 633	покидает свой пост
+R17	AGENT Arg1:T19 Arg2:T58	
+R18	WORKPLACE Arg1:T19 Arg2:T20	
+T59	ORGANIZATION 578 582	ГМИИ
+T60	ORGANIZATION 411 415	ГМИИ
+R19	ABBREVIATION Arg1:T20 Arg2:T59	
+R20	ABBREVIATION Arg1:T51 Arg2:T60	
+R21	WORKS_AS Arg1:T33 Arg2:T32	
+R22	WORKPLACE Arg1:T33 Arg2:T31	
+R23	ORIGINS_FROM Arg1:T34 Arg2:T35	
+R24	WORKS_AS Arg1:T34 Arg2:T23	
+R25	WORKS_AS Arg1:T34 Arg2:T36	
+T55	PROFESSION 1177 1243	арт-директора московского музейно-выставочного объединения "Манеж"
+R26	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R27	OWNER_OF Arg1:T44 Arg2:T46	
+R28	OWNER_OF Arg1:T44 Arg2:T47	
+T38	PROFESSION 1103 1131	арт-директор галереи "Проун"
+R29	LOCATED_IN Arg1:T40 Arg2:T41	
+R30	DATE_FOUNDED_IN Arg1:T40 Arg2:T37	
+R31	FOUNDED_BY Arg1:T40 Arg2:T34	
+R32	WORKS_AS Arg1:T34 Arg2:T38	
+R33	WORKS_AS Arg1:T34 Arg2:T43	
+R34	WORKPLACE Arg1:T2 Arg2:T3	
+R35	WORKPLACE Arg1:T5 Arg2:T4	
+R36	WORKPLACE Arg1:T8 Arg2:T48	
+R37	WORKPLACE Arg1:T10 Arg2:T11	
+R38	WORKS_AS Arg1:T14 Arg2:T15	
+R39	WORKPLACE Arg1:T14 Arg2:T51	
+R40	WORKS_AS Arg1:T18 Arg2:T17	
+R41	WORKPLACE Arg1:T18 Arg2:T53	
+R42	PARTICIPANT_IN Arg1:T20 Arg2:T58	
+R43	WORKPLACE Arg1:T26 Arg2:T22	
+R44	ORIGINS_FROM Arg1:T23 Arg2:T35	
+R45	ORIGINS_FROM Arg1:T36 Arg2:T35	
+R46	PARTICIPANT_IN Arg1:T14 Arg2:T49	
+R47	PARTICIPANT_IN Arg1:T51 Arg2:T49	
+R48	WORKPLACE Arg1:T17 Arg2:T53	
+R49	PARTICIPANT_IN Arg1:T20 Arg2:T58	
+R50	ALTERNATIVE_NAME Arg1:T18 Arg2:T28	
+R51	WORKPLACE Arg1:T32 Arg2:T31	
+T61	CITY 1191 1202	московского
+R52	HEADQUARTERED_IN Arg1:T44 Arg2:T61	
+R53	WORKPLACE Arg1:T55 Arg2:T44	
+N2	Reference T3 Wikidata:Q1889165	Манеж
+N3	Reference T5 Wikidata:Q1501800	генеральный директор
+N6	Reference T12 Wikidata:Q4267611	Лошак, Марина Девовна
+N8	Reference T16 Wikidata:Q821172	РИА Новости
+N10	Reference T18 Wikidata:Q4213037	Сергей Владимирович Капков
+N11	Reference T19 Wikidata:Q452606	Ирина Александровна Антонова
+N13	Reference T27 Wikidata:Q2121094	Владимир Мединский
+N16	Reference T39 Wikidata:Q706364	арт-директор
+N18	Reference T41 Wikidata:Q4111511	Винзавод
+N19	Reference T44 Wikidata:Q1889165	Манеж
+N20	Reference T46 Wikidata:Q1889165	Манеж
+N21	Reference T47 Wikidata:Q627114	Рабочий и колхозница
+N23	Reference T51 Wikidata:Q4872	Государственный музей изобразительных искусств имени А. С. Пушкина
+N24	Reference T52 Wikidata:Q7200	Александр Сергеевич Пушкин
+N25	Reference T22 Wikidata:Q159	Россия
+N26	Reference T23 Wikidata:Q674426	куратор
+N27	Reference T56 Wikidata:Q2621182	министр культуры
+N28	Reference T57 Wikidata:Q83307	министр
+N29	Reference T59 Wikidata:Q4872	Государственный музей изобразительных искусств имени А. С. Пушкина
+N1	Reference T2 Wikidata:NULL	нет данных
+N4	Reference T6 Wikidata:NULL	нет данных
+N22	Reference T48 Wikidata:Q4158546	
+N5	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:NULL	нет данных
+N9	Reference T17 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T29 Wikidata:Q4267611	Лошак, Марина Девовна
+N33	Reference T36 Wikidata:NULL	нет данных
+N15	Reference T35 Wikidata:Q492468	россияне
+N31	Reference T38 Wikidata:NULL	нет данных
+N17	Reference T40 Wikidata:Q4381929	
+N30	Reference T55 Wikidata:NULL	нет данных
+N32	Reference T61 Wikidata:Q649	Москва
+N34	Reference T31 Wikidata:Q1889165	Манеж
+N35	Reference T11 Wikidata:Q1889165	Манеж
+N36	Reference T4 Wikidata:Q1889165	Манеж
+N37	Reference T32 Wikidata:Q1501800	генеральный директор
+N38	Reference T34 Wikidata:Q4267611	Лошак, Марина Девовна
+N39	Reference T1 Wikidata:Q4267611	Лошак, Марина Девовна
+N40	Reference T7 Wikidata:Q821172	РИА Новости
+N41	Reference T28 Wikidata:Q4213037	Сергей Владимирович Капков
+N42	Reference T9 Wikidata:Q4213037	Сергей Владимирович Капков
+N43	Reference T14 Wikidata:Q452606	Ирина Александровна Антонова
+N44	Reference T50 Wikidata:Q706364	арт-директор
+N45	Reference T43 Wikidata:Q706364	арт-директор
+N46	Reference T45 Wikidata:Q1889165	Манеж
+N47	Reference T60 Wikidata:Q4872	Государственный музей изобразительных искусств имени А. С. Пушкина
+N48	Reference T54 Wikidata:Q7200	Александр Сергеевич Пушкин
+N49	Reference T20 Wikidata:Q4872	Государственный музей изобразительных искусств имени А. С. Пушкина
+N50	Reference T33 Wikidata:NULL	нет данных
+N51	Reference T53 Wikidata:Q4158546	
+N52	Reference T8 Wikidata:NULL	нет данных

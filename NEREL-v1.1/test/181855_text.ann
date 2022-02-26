@@ -1,0 +1,121 @@
+T2	PERSON 51 76	Луис Инасиу Лула да Силва
+T3	PROFESSION 81 91	президенту
+T4	PERSON 101 127	Луису Инасиу Луле да Силве
+T6	DATE 267 286	7 октября 2018 года
+T7	TIME 330 344	восьмичасового
+T8	ORGANIZATION 355 379	Высший избирательный суд
+T9	PERSON 390 398	Да Силва
+T10	ORGANIZATION 498 515	Партия трудящихся
+T11	PROFESSION 517 537	Генеральный прокурор
+T12	PERSON 547 558	Ракель Додж
+T13	PERSON 560 572	Raquel Dodge
+T15	PERSON 724 732	да Силву
+T16	PERCENT 787 805	около 40 процентов
+T17	ORDINAL 860 866	первую
+T18	PERSON 877 890	Лула да Силва
+T19	DATE 916 934	в апреле 2018 года
+T22	AGE 978 987	72-летний
+T23	PROFESSION 992 1001	президент
+T24	ORGANIZATION 1005 1022	Партия трудящихся
+T25	ORGANIZATION 1189 1202	Верховный суд
+T26	COUNTRY 1254 1265	бразильским
+T27	PERSON 1301 1314	Лула да Силва
+T28	ORGANIZATION 1508 1535	Верховный избирательный суд
+T29	PERSON 1546 1571	Луис Инасиу Лула да Силва
+T31	DATE 1603 1622	с 2003 по 2011 годы
+T33	PROFESSION 20 39	президента Бразилии
+T34	PROFESSION 20 30	президента
+T36	PROFESSION 81 100	президенту Бразилии
+T38	PROFESSION 517 546	Генеральный прокурор Бразилии
+T42	PROFESSION 650 667	главы государства
+T44	PROFESSION 1585 1602	главы государства
+T45	COUNTRY 31 39	Бразилии
+T46	COUNTRY 92 100	Бразилии
+T5	PENALTY 141 155	12-летний срок
+T48	CRIME 166 175	коррупции
+T49	PROFESSION 249 266	главы государства
+T50	EVENT 233 240	выборах
+T51	ORGANIZATION 355 388	Высший избирательный суд Бразилии
+T52	COUNTRY 380 388	Бразилии
+T53	PROFESSION 462 470	политика
+T54	COUNTRY 538 546	Бразилии
+T55	PROFESSION 579 588	политиков
+T56	IDEOLOGY 589 596	правого
+T14	PROFESSION 754 767	президентской
+T57	EVENT 754 773	президентской гонки
+T58	CRIME 905 914	коррупции
+T21	PENALTY 948 974	12-летнему тюремному сроку
+T59	ORGANIZATION 1508 1544	Верховный избирательный суд Бразилии
+T60	COUNTRY 1536 1544	Бразилии
+T20	DATE 948 958	12-летнему
+T30	DATE 141 150	12-летний
+R1	WORKPLACE Arg1:T33 Arg2:T45	
+R2	WORKPLACE Arg1:T36 Arg2:T46	
+R3	WORKS_AS Arg1:T4 Arg2:T36	
+R4	WORKPLACE Arg1:T4 Arg2:T46	
+R5	CONVICTED_OF Arg1:T4 Arg2:T48	
+R6	PENALIZED_AS Arg1:T4 Arg2:T5	
+R7	HAS_CAUSE Arg1:T5 Arg2:T48	
+T1	EVENT 233 266	выборах на пост главы государства
+R8	POINT_IN_TIME Arg1:T1 Arg2:T6	
+R9	HEADQUARTERED_IN Arg1:T51 Arg2:T52	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T9	
+R11	WORKS_AS Arg1:T9 Arg2:T53	
+R12	WORKPLACE Arg1:T9 Arg2:T10	
+R13	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R14	WORKS_AS Arg1:T12 Arg2:T38	
+R15	WORKPLACE Arg1:T12 Arg2:T54	
+R16	CONVICTED_OF Arg1:T18 Arg2:T58	
+R17	PENALIZED_AS Arg1:T18 Arg2:T21	
+T32	PENALTY 959 974	тюремному сроку
+R18	HAS_CAUSE Arg1:T21 Arg2:T58	
+T35	EVENT 935 945	приговорён
+R19	PARTICIPANT_IN Arg1:T18 Arg2:T35	
+R20	POINT_IN_TIME Arg1:T35 Arg2:T19	
+R21	AGE_IS Arg1:T18 Arg2:T22	
+R22	WORKS_AS Arg1:T18 Arg2:T23	
+R23	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+R24	ALTERNATIVE_NAME Arg1:T26 Arg2:T60	
+R25	HEADQUARTERED_IN Arg1:T59 Arg2:T60	
+R26	WORKS_AS Arg1:T29 Arg2:T44	
+R27	WORKPLACE Arg1:T29 Arg2:T60	
+R28	WORKPLACE Arg1:T44 Arg2:T60	
+R29	WORKPLACE Arg1:T38 Arg2:T54	
+R30	IDEOLOGY_OF Arg1:T12 Arg2:T56	
+R31	IDEOLOGY_OF Arg1:T55 Arg2:T56	
+R32	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+N1	Reference T2 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N2	Reference T3 Wikidata:Q30461	президент
+N5	Reference T18 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N6	Reference T24 Wikidata:Q657089	Партия трудящихся
+N7	Reference T25 Wikidata:Q190752	верховный суд
+N10	Reference T36 Wikidata:Q5176750	президент Бразилии
+N12	Reference T49 Wikidata:Q48352	глава государства
+N14	Reference T53 Wikidata:Q82955	политик
+N15	Reference T55 Wikidata:Q82955	политик
+N13	Reference T51 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:NULL	нет данных
+N18	Reference T11 Wikidata:Q600751	прокурор
+N11	Reference T38 Wikidata:Q3657008	
+N4	Reference T13 Wikidata:Q31125773	
+N19	Reference T15 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N16	Reference T14 Wikidata:Q30461	президент
+N8	Reference T26 Wikidata:Q155	Бразилия
+N9	Reference T28 Wikidata:NULL	нет данных
+N17	Reference T59 Wikidata:NULL	нет данных
+N20	Reference T29 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N21	Reference T34 Wikidata:Q30461	президент
+N22	Reference T23 Wikidata:Q30461	президент
+N23	Reference T27 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N24	Reference T10 Wikidata:Q657089	Партия трудящихся
+N25	Reference T33 Wikidata:Q5176750	президент Бразилии
+N26	Reference T44 Wikidata:Q48352	глава государства
+N27	Reference T42 Wikidata:Q48352	глава государства
+N28	Reference T12 Wikidata:Q31125773	
+N29	Reference T4 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N30	Reference T9 Wikidata:Q37181	Луис Инасиу Лула да Силва
+N31	Reference T46 Wikidata:Q155	Бразилия
+N32	Reference T52 Wikidata:Q155	Бразилия
+N33	Reference T60 Wikidata:Q155	Бразилия
+N34	Reference T54 Wikidata:Q155	Бразилия
+N35	Reference T45 Wikidata:Q155	Бразилия

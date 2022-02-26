@@ -1,0 +1,118 @@
+T1	ORGANIZATION 21 46	Министерство финансов США
+T2	MONEY 50 67	200 тыс. долларов
+T3	COUNTRY 78 86	Беларуси
+T4	COUNTRY 102 105	США
+T5	DATE 120 129	41 месяцу
+T7	DATE 178 207	накануне, 23 2 июня 2011 года
+T8	ORGANIZATION 209 251	окружной федеральный суд штата Массачусетс
+T9	STATE_OR_PROVINCE 240 251	Массачусетс
+T10	DATE 265 275	41 месяцам
+T11	CITY 298 307	Нантакете
+T12	STATE_OR_PROVINCE 314 325	Массачусетс
+T13	COUNTRY 338 346	Беларуси
+T14	ORGANIZATION 451 475	федеральное казначейство
+T15	AGE 563 573	31-летнему
+T16	PERSON 574 592	Микалаю Мардахаеву
+T17	PROFESSION 605 611	судьей
+T18	ORGANIZATION 612 657	окружного федерального суда штата Массачусетс
+T19	PERSON 658 674	Джорджем О'Тулом
+T20	DATE 677 695	В январе 2011 года
+T21	PERSON 860 870	Мардахаева
+T22	MONEY 881 897	209 тыс долларов
+T23	DATE 970 1004	в период с 2006 до конца 2007 года
+T24	ORGANIZATION 1123 1156	Федеральной налоговой службой США
+T25	COUNTRY 1182 1194	американским
+T26	COUNTRY 1368 1378	Белоруссии
+T27	ORGANIZATION 1496 1520	федеральное казначейство
+T28	MONEY 1604 1636	более двухсот тысяч долларов США
+T29	PERSON 1700 1710	Мардахаеву
+T30	PENALTY 120 140	41 месяцу заключения
+T31	CRIME 144 176	участие в интернет-мошенничестве
+T6	PENALTY 265 282	41 месяцам тюрьмы
+T32	CRIME 374 405	соучастии в международной афере
+T33	PENALTY 873 897	выплате 209 тыс долларов
+T34	PERSON 696 705	Мардахаев
+T35	STATE_OR_PROVINCE 646 657	Массачусетс
+T36	CRIME 731 782	вступлении в сговор с целью совершения преступления
+T37	PERSON 1005 1014	Мардахаев
+T38	COUNTRY 1153 1156	США
+T39	COUNTRY 43 46	США
+T40	COUNTRY 1633 1636	США
+R1	LOCATED_IN Arg1:T11 Arg2:T12	
+R2	AGE_IS Arg1:T16 Arg2:T15	
+R3	CONVICTED_OF Arg1:T34 Arg2:T36	
+T41	ORGANIZATION 1123 1152	Федеральной налоговой службой
+R4	HEADQUARTERED_IN Arg1:T24 Arg2:T38	
+T42	NATIONALITY 68 86	Гражданин Беларуси
+R5	PLACE_RESIDES_IN Arg1:T42 Arg2:T4	
+R6	PENALIZED_AS Arg1:T42 Arg2:T30	
+R7	PENALIZED_AS Arg1:T21 Arg2:T33	
+R8	HEADQUARTERED_IN Arg1:T1 Arg2:T39	
+R9	CONVICTED_OF Arg1:T42 Arg2:T31	
+T43	NATIONALITY 327 346	гражданина Беларуси
+R10	PLACE_RESIDES_IN Arg1:T43 Arg2:T11	
+R11	PENALIZED_AS Arg1:T43 Arg2:T6	
+R12	ORIGINS_FROM Arg1:T16 Arg2:T43	
+R13	CONVICTED_OF Arg1:T16 Arg2:T32	
+R14	HEADQUARTERED_IN Arg1:T8 Arg2:T9	
+T44	EVENT 252 262	приговорил
+R15	AGENT Arg1:T8 Arg2:T44	
+R16	PARTICIPANT_IN Arg1:T43 Arg2:T44	
+R17	HAS_CAUSE Arg1:T44 Arg2:T31	
+R18	PENALIZED_AS Arg1:T16 Arg2:T6	
+R19	HEADQUARTERED_IN Arg1:T18 Arg2:T35	
+R20	WORKS_AS Arg1:T19 Arg2:T17	
+R21	WORKPLACE Arg1:T19 Arg2:T18	
+R22	WORKPLACE Arg1:T17 Arg2:T18	
+R23	ALTERNATIVE_NAME Arg1:T16 Arg2:T34	
+T45	CRIME 787 837	мошенничестве с использованием электронных средств
+R24	CONVICTED_OF Arg1:T34 Arg2:T45	
+R25	CONVICTED_OF Arg1:T16 Arg2:T31	
+R26	ORIGINS_FROM Arg1:T43 Arg2:T13	
+R27	ORIGINS_FROM Arg1:T42 Arg2:T3	
+R28	POINT_IN_TIME Arg1:T44 Arg2:T7	
+R29	EXPENDITURE Arg1:T1 Arg2:T2	
+R30	HAS_CAUSE Arg1:T30 Arg2:T31	
+R31	CONVICTED_OF Arg1:T43 Arg2:T32	
+T46	EVENT 554 562;597 604	Приговор вынесен
+R32	AGENT Arg1:T19 Arg2:T46	
+R33	PARTICIPANT_IN Arg1:T16 Arg2:T46	
+T47	EVENT 706 727	признал себя виновным
+R34	AGENT Arg1:T34 Arg2:T47	
+R35	POINT_IN_TIME Arg1:T47 Arg2:T20	
+T48	EVENT 849 859	приговорил
+R36	AGENT Arg1:T8 Arg2:T48	
+R37	PARTICIPANT_IN Arg1:T21 Arg2:T48	
+R38	HEADQUARTERED_IN Arg1:T27 Arg2:T38	
+R39	INCOME Arg1:T29 Arg2:T28	
+T49	CRIME 787 800	мошенничестве
+T50	PENALTY 130 140	заключения
+T51	PENALTY 276 282	тюрьмы
+N1	Reference T1 Wikidata:Q648666	Министерство финансов США
+N2	Reference T3 Wikidata:Q184	Белоруссия
+N3	Reference T11 Wikidata:Q49149	Нантакет
+N4	Reference T17 Wikidata:Q16533	судья
+N9	Reference T26 Wikidata:Q184	Белоруссия
+N11	Reference T35 Wikidata:Q771	Массачусетс
+N12	Reference T40 Wikidata:Q30	США
+N14	Reference T42 Wikidata:Q483569	белорусы
+N15	Reference T16 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:Q973587	Служба внутренних доходов
+N13	Reference T41 Wikidata:Q973587	Служба внутренних доходов
+N8	Reference T25 Wikidata:Q846570	
+N10	Reference T27 Wikidata:Q648666	Министерство финансов США
+N16	Reference T13 Wikidata:Q184	Белоруссия
+N17	Reference T9 Wikidata:Q771	Массачусетс
+N18	Reference T12 Wikidata:Q771	Массачусетс
+N19	Reference T39 Wikidata:Q30	США
+N20	Reference T4 Wikidata:Q30	США
+N21	Reference T38 Wikidata:Q30	США
+N22	Reference T43 Wikidata:Q483569	белорусы
+N23	Reference T34 Wikidata:NULL	нет данных
+N24	Reference T29 Wikidata:NULL	нет данных
+N25	Reference T37 Wikidata:NULL	нет данных
+N26	Reference T21 Wikidata:NULL	нет данных
+N27	Reference T8 Wikidata:NULL	нет данных
+N28	Reference T14 Wikidata:Q648666	Министерство финансов США

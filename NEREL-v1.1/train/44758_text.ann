@@ -1,0 +1,177 @@
+T1	PROFESSION 0 11	Глава Киева
+T2	PERSON 12 29	Владимир Макеенко
+T3	ORGANIZATION 39 54	Партии регионов
+T4	PERSON 83 100	Владимир Макеенко
+T5	PROFESSION 101 155	Глава Киевской городской государственной администрации
+T6	PROFESSION 158 165	депутат
+T7	PERSON 166 183	Владимир Макеенко
+T8	ORGANIZATION 204 219	Партии регионов
+T9	PERSON 251 259	Макеенко
+T10	PROFESSION 309 319	Президенту
+T11	PERSON 328 345	Виктору Януковичу
+T12	PERSON 350 367	Владимир Макеенко
+T13	PROFESSION 399 408	Президент
+T14	COUNTRY 483 490	Украины
+T15	COUNTRY 510 521	украинского
+T16	COUNTRY 639 646	Украины
+T17	FACILITY 650 671	Майдане Независимости
+T18	ORGANIZATION 845 860	Партии регионов
+T19	CITY 922 927	Киева
+T21	NUMBER 1296 1304	десятков
+T22	PROFESSION 1344 1362	народному депутату
+T23	COUNTRY 1430 1437	Украины
+T24	COUNTRY 1459 1466	Украины
+T26	COUNTRY 1720 1727	Украины
+T27	PERSON 1747 1755	Макеенко
+T28	DATE 1813 1835	с 18 февраля 2014 года
+T29	FACILITY 1836 1859	Киевского метрополитена
+T30	AGE 1895 1904	48-летний
+T31	PERSON 1905 1922	Владимир Макеенко
+T32	PERSON 1924 1956	Володимир Володимирович Макеєнко
+T33	COUNTRY 1960 1970	украинский
+T34	LAW 2001 2050	Декларации о государственном суверенитете Украины
+T35	LAW 2058 2099	Акта провозглашения независимости Украины
+T36	PROFESSION 2101 2117	Народный депутат
+T37	ORDINAL 2129 2132	III
+T38	ORDINAL 2133 2136	VII
+T39	DATE 2147 2166	25 января 2014 года
+T40	PERSON 2167 2184	Владимир Макеенко
+T41	PROFESSION 2194 2249	главой Киевской городской государственной администрации
+T42	PROFESSION 2257 2267	президента
+T43	CITY 6 11	Киева
+T44	CITY 107 115	Киевской
+T45	ORGANIZATION 107 155	Киевской городской государственной администрации
+T46	COUNTRY 320 327	Украины
+T47	PROFESSION 309 327	Президенту Украины
+R1	WORKS_AS Arg1:T11 Arg2:T47	
+T48	CITY 475 490	столице Украины
+T49	CITY 1251 1259	Киевской
+T50	PROFESSION 1238 1273	руководитель Киевской администрации
+T51	CITY 1636 1644	Киевской
+T52	ORGANIZATION 1636 1684	Киевской Городской Государственной администрации
+T53	PROFESSION 1623 1684	председателя Киевской Городской Государственной администрации
+T54	CITY 1836 1845	Киевского
+R2	AGE_IS Arg1:T31 Arg2:T30	
+R3	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+T55	PROFESSION 1971 1991	политический деятель
+R4	WORKS_AS Arg1:T31 Arg2:T55	
+R5	PRODUCES Arg1:T31 Arg2:T34	
+R6	PRODUCES Arg1:T31 Arg2:T35	
+T56	COUNTRY 2118 2125	Украины
+T57	EVENT 2185 2193	назначен
+R7	PARTICIPANT_IN Arg1:T40 Arg2:T57	
+R8	POINT_IN_TIME Arg1:T57 Arg2:T39	
+T58	PERSON 2268 2285	Виктора Януковича
+R9	WORKS_AS Arg1:T58 Arg2:T42	
+T59	CITY 2201 2209	Киевской
+T60	ORGANIZATION 2201 2249	Киевской городской государственной администрации
+R10	WORKS_AS Arg1:T40 Arg2:T41	
+R11	WORKPLACE Arg1:T40 Arg2:T60	
+R12	LOCATED_IN Arg1:T29 Arg2:T54	
+R13	AGENT Arg1:T58 Arg2:T57	
+T61	FACILITY 650 657	Майдане
+R14	WORKS_AS Arg1:T2 Arg2:T1	
+R15	WORKPLACE Arg1:T2 Arg2:T43	
+R16	WORKS_AS Arg1:T7 Arg2:T6	
+R17	WORKS_AS Arg1:T7 Arg2:T5	
+R18	WORKPLACE Arg1:T7 Arg2:T45	
+R19	WORKPLACE Arg1:T11 Arg2:T46	
+R20	ORIGINS_FROM Arg1:T31 Arg2:T33	
+T62	COUNTRY 2043 2050	Украины
+T63	COUNTRY 2092 2099	Украины
+T64	PROFESSION 2101 2125	Народный депутат Украины
+R21	WORKS_AS Arg1:T31 Arg2:T64	
+T20	ORGANIZATION 1251 1273	Киевской администрации
+R22	WORKPLACE Arg1:T1 Arg2:T43	
+R23	WORKPLACE Arg1:T47 Arg2:T46	
+R24	HEADQUARTERED_IN Arg1:T45 Arg2:T44	
+R25	WORKPLACE Arg1:T5 Arg2:T45	
+R26	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+R27	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R28	LOCATED_IN Arg1:T48 Arg2:T14	
+R29	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R30	LOCATED_IN Arg1:T20 Arg2:T49	
+R31	WORKPLACE Arg1:T50 Arg2:T20	
+T25	NATIONALITY 1419 1437	гражданами Украины
+T65	NATIONALITY 1448 1466	гражданами Украины
+R32	HEADQUARTERED_IN Arg1:T52 Arg2:T51	
+R33	WORKPLACE Arg1:T53 Arg2:T52	
+R34	ALTERNATIVE_NAME Arg1:T19 Arg2:T49	
+R35	ALTERNATIVE_NAME Arg1:T27 Arg2:T31	
+R36	HEADQUARTERED_IN Arg1:T60 Arg2:T59	
+R37	WORKPLACE Arg1:T41 Arg2:T60	
+R39	ORIGINS_FROM Arg1:T35 Arg2:T63	
+T66	ORDINAL 2126 2127	I
+R38	ORIGINS_FROM Arg1:T65 Arg2:T24	
+R40	MEMBER_OF Arg1:T2 Arg2:T3	
+R41	ORIGINS_FROM Arg1:T25 Arg2:T23	
+R42	ORIGINS_FROM Arg1:T55 Arg2:T33	
+R43	WORKPLACE Arg1:T64 Arg2:T56	
+T67	EVENT 30 45	вышел из Партии
+R44	AGENT Arg1:T2 Arg2:T67	
+R45	PARTICIPANT_IN Arg1:T3 Arg2:T67	
+T68	EVENT 194 200	выходе
+R46	AGENT Arg1:T7 Arg2:T68	
+R47	PARTICIPANT_IN Arg1:T8 Arg2:T68	
+R48	ALTERNATIVE_NAME Arg1:T67 Arg2:T68	
+R49	ORIGINS_FROM Arg1:T34 Arg2:T62	
+R50	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R51	ALTERNATIVE_NAME Arg1:T5 Arg2:T50	
+N2	Reference T3 Wikidata:Q4266	Партия регионов
+N4	Reference T6 Wikidata:Q486839	член парламента
+N5	Reference T11 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N6	Reference T12 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N7	Reference T17 Wikidata:Q863759	Площадь Независимости
+N8	Reference T26 Wikidata:Q212	Украина
+N11	Reference T35 Wikidata:Q277182	Акт провозглашения независимости Украины
+N12	Reference T40 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N13	Reference T42 Wikidata:Q30461	президент
+N14	Reference T47 Wikidata:Q579677	президент Украины
+N19	Reference T55 Wikidata:Q82955	политик
+N20	Reference T60 Wikidata:Q11739162	Киевская городская государственная администрация
+N22	Reference T64 Wikidata:Q12132454	народный депутат Украины
+N23	Reference T20 Wikidata:Q11739162	Киевская городская государственная администрация
+N21	Reference T61 Wikidata:NULL	нет данных
+N25	Reference T22 Wikidata:NULL	нет данных
+N24	Reference T65 Wikidata:NULL	нет данных
+N18	Reference T53 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:Q215871	Киевский метрополитен
+N10	Reference T34 Wikidata:Q5249449	
+N15	Reference T48 Wikidata:Q1899	Киев
+N16	Reference T49 Wikidata:Q1899	Киев
+N1	Reference T1 Wikidata:Q11812508	Киевский городской голова
+N3	Reference T5 Wikidata:Q11812508	Киевский городской голова
+N17	Reference T50 Wikidata:Q11812508	Киевский городской голова
+N26	Reference T8 Wikidata:Q4266	Партия регионов
+N27	Reference T18 Wikidata:Q4266	Партия регионов
+N28	Reference T58 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N29	Reference T9 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N30	Reference T7 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N31	Reference T46 Wikidata:Q212	Украина
+N32	Reference T14 Wikidata:Q212	Украина
+N33	Reference T62 Wikidata:Q212	Украина
+N34	Reference T63 Wikidata:Q212	Украина
+N35	Reference T56 Wikidata:Q212	Украина
+N36	Reference T33 Wikidata:Q212	Украина
+N37	Reference T15 Wikidata:Q212	Украина
+N38	Reference T23 Wikidata:Q212	Украина
+N39	Reference T24 Wikidata:Q212	Украина
+N40	Reference T16 Wikidata:Q212	Украина
+N41	Reference T31 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N42	Reference T4 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N43	Reference T32 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N44	Reference T2 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N45	Reference T27 Wikidata:Q4275699	Макеенко, Владимир Владимирович
+N46	Reference T10 Wikidata:Q30461	президент
+N47	Reference T13 Wikidata:Q30461	президент
+N48	Reference T45 Wikidata:Q11739162	Киевская городская государственная администрация
+N49	Reference T52 Wikidata:Q11739162	Киевская городская государственная администрация
+N50	Reference T36 Wikidata:NULL	нет данных
+N51	Reference T25 Wikidata:NULL	нет данных
+N52	Reference T43 Wikidata:Q1899	Киев
+N53	Reference T51 Wikidata:Q1899	Киев
+N54	Reference T59 Wikidata:Q1899	Киев
+N55	Reference T44 Wikidata:Q1899	Киев
+N56	Reference T19 Wikidata:Q1899	Киев
+N57	Reference T54 Wikidata:Q1899	Киев
+N58	Reference T41 Wikidata:Q11812508	Киевский городской голова

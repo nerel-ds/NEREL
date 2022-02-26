@@ -1,0 +1,126 @@
+T1	PERSON 17 25	Зюганова
+T2	PROFESSION 34 45	лидера КПРФ
+T3	ORGANIZATION 59 69	Change.org
+T4	PERSON 70 86	Геннадий Зюганов
+T5	DATE 87 107	22 августа 2016 года
+T6	ORGANIZATION 155 165	Change.org
+T7	PERSON 218 235	Геннадия Зюганова
+T8	PROFESSION 244 255	лидера КПРФ
+T9	ORGANIZATION 291 335	Коммунистической партии Российской Федерации
+T10	ORGANIZATION 338 348	Президиуму
+T11	ORGANIZATION 351 372	Центральному комитету
+T14	PERSON 401 414	Г. А. Зюганов
+T15	PROFESSION 453 471	лидера коммунистов
+T16	PERSON 572 580	Зюганову
+T17	PERSON 635 642	Зюганов
+T18	ORGANIZATION 679 699	Государственную думу
+T19	PERSON 785 804	Геннадию Андреевичу
+T21	PROFESSION 847 882	руководителя московских коммунистов
+T22	PERSON 883 898	Валерия Рашкина
+T23	AGE 915 926	72-х летний
+T24	PERSON 927 943	Геннадий Зюганов
+T25	ORGANIZATION 964 968	КПРФ
+T26	PROFESSION 1020 1030	президента
+T27	ORGANIZATION 1058 1102	коммунистическая партия Российской Федерации
+T28	COUNTRY 1082 1102	Российской Федерации
+T29	ORDINAL 1112 1118	второй
+T30	COUNTRY 1138 1144	России
+T31	NUMBER 1159 1161	92
+T32	ORGANIZATION 1174 1194	Государственной думе
+T33	ORGANIZATION 1255 1274	Конституционный суд
+T34	COUNTRY 1275 1295	Российской Федерации
+T35	PERSON 1298 1312	Валерий Рашкин
+T36	ORGANIZATION 1356 1376	Государственной думе
+T38	PERSON 1451 1459	Зюганова
+T39	PERSON 1479 1487	Зюганова
+T40	PERSON 1491 1498	Рашкина
+T41	ORGANIZATION 1510 1520	Change.org
+T42	DATE 1547 1562	за первые сутки
+T43	NUMBER 1571 1583	более 5 тыс.
+T12	ORGANIZATION 41 45	КПРФ
+T13	ORGANIZATION 251 255	КПРФ
+T44	COUNTRY 315 335	Российской Федерации
+T45	IDEOLOGY 460 471	коммунистов
+T46	IDEOLOGY 291 307	Коммунистической
+T47	IDEOLOGY 871 882	коммунистов
+T48	CITY 860 870	московских
+T49	DATE 969 981	более 20 лет
+T50	COUNTRY 1031 1037	России
+T51	PROFESSION 1020 1037	президента России
+T52	ORGANIZATION 1255 1295	Конституционный суд Российской Федерации
+T53	PROFESSION 1162 1170	депутата
+R1	WORKPLACE Arg1:T2 Arg2:T12	
+R2	WORKS_AS Arg1:T1 Arg2:T2	
+R3	WORKPLACE Arg1:T1 Arg2:T12	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R5	WORKPLACE Arg1:T8 Arg2:T13	
+R6	WORKS_AS Arg1:T7 Arg2:T8	
+R7	WORKPLACE Arg1:T7 Arg2:T13	
+R8	IDEOLOGY_OF Arg1:T9 Arg2:T46	
+R9	HEADQUARTERED_IN Arg1:T9 Arg2:T44	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R11	ABBREVIATION Arg1:T9 Arg2:T13	
+R12	ALTERNATIVE_NAME Arg1:T15 Arg2:T13	
+R13	IDEOLOGY_OF Arg1:T14 Arg2:T46	
+R14	ALTERNATIVE_NAME Arg1:T46 Arg2:T45	
+R15	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R16	ALTERNATIVE_NAME Arg1:T16 Arg2:T19	
+R17	WORKS_AS Arg1:T22 Arg2:T21	
+R18	SUBORDINATE_OF Arg1:T22 Arg2:T19	
+R19	ALTERNATIVE_NAME Arg1:T19 Arg2:T24	
+R20	AGE_IS Arg1:T24 Arg2:T23	
+R21	WORKPLACE Arg1:T24 Arg2:T25	
+R22	WORKPLACE Arg1:T51 Arg2:T50	
+T37	IDEOLOGY 1058 1074	коммунистическая
+R23	IDEOLOGY_OF Arg1:T27 Arg2:T37	
+R24	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+R25	HEADQUARTERED_IN Arg1:T52 Arg2:T34	
+R26	ALTERNATIVE_NAME Arg1:T35 Arg2:T40	
+R27	WORKPLACE Arg1:T22 Arg2:T48	
+R28	IDEOLOGY_OF Arg1:T22 Arg2:T47	
+R29	IDEOLOGY_OF Arg1:T15 Arg2:T45	
+R30	ALTERNATIVE_NAME Arg1:T28 Arg2:T30	
+R31	PART_OF Arg1:T10 Arg2:T9	
+R32	PART_OF Arg1:T11 Arg2:T9	
+R33	HEADQUARTERED_IN Arg1:T32 Arg2:T30	
+N1	Reference T4 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N4	Reference T11 Wikidata:Q190652	центральный комитет
+N6	Reference T16 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N7	Reference T18 Wikidata:Q715641	Государственная дума
+N9	Reference T26 Wikidata:Q30461	президент
+N10	Reference T30 Wikidata:Q159	Россия
+N11	Reference T33 Wikidata:Q32766	Конституционный суд
+N12	Reference T35 Wikidata:Q4391353	Валерий Рашкин
+N13	Reference T41 Wikidata:Q3090589	Change.org
+N14	Reference T13 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N16	Reference T51 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T52 Wikidata:Q584759	Конституционный Суд Российской Федерации
+N18	Reference T53 Wikidata:Q486839	член парламента
+N2	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:Q2115302	
+N5	Reference T15 Wikidata:NULL	нет данных
+N15	Reference T48 Wikidata:Q649	Москва
+N8	Reference T21 Wikidata:NULL	нет данных
+N19	Reference T1 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N20	Reference T38 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N21	Reference T19 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N22	Reference T17 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N23	Reference T14 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N24	Reference T24 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N25	Reference T7 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N26	Reference T39 Wikidata:Q182452	Геннадий Андреевич Зюганов
+N27	Reference T36 Wikidata:Q715641	Государственная дума
+N28	Reference T32 Wikidata:Q715641	Государственная дума
+N29	Reference T44 Wikidata:Q159	Россия
+N30	Reference T34 Wikidata:Q159	Россия
+N31	Reference T50 Wikidata:Q159	Россия
+N32	Reference T28 Wikidata:Q159	Россия
+N33	Reference T40 Wikidata:Q4391353	Валерий Рашкин
+N34	Reference T22 Wikidata:Q4391353	Валерий Рашкин
+N35	Reference T6 Wikidata:Q3090589	Change.org
+N36	Reference T3 Wikidata:Q3090589	Change.org
+N37	Reference T12 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N38	Reference T25 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N39	Reference T9 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N40	Reference T27 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N41	Reference T2 Wikidata:NULL	нет данных

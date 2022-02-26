@@ -1,0 +1,77 @@
+T1	PERSON 22 31	Эдгара По
+T2	DATE 58 77	17 ноября 1875 года
+T3	DATE 80 90	Каждые год
+T4	DATE 100 116	в течение 58 лет
+T7	PERSON 135 144	Эдгара По
+T8	DATE 146 155	19 января
+T10	NUMBER 232 235	три
+T11	DATE 369 380	в этом году
+T12	PERSON 390 399	Эдгара По
+T13	CITY 402 411	Балтиморе
+T14	NUMBER 512 515	три
+T15	DATE 546 567	с 19 января 1949 года
+T16	DATE 573 579	58 лет
+T18	CITY 614 623	Балтиморе
+T19	PERSON 624 636	Джефф Джером
+T20	PERSON 638 649	Jeff Jerome
+T21	DATE 652 663	в этом году
+T22	DATE 665 674	19 января
+T23	NUMBER 695 697	55
+T26	PERSON 871 877	Джером
+T27	DATE 911 932	с 19 января 1976 года
+T31	PERSON 48 57	Эдгара По
+T5	DATE 118 133	в день рождения
+T32	PROFESSION 595 611	куратор музея По
+T33	FACILITY 603 611	музея По
+T34	PERSON 609 611	По
+T35	PERSON 683 685	По
+T36	EVENT 995 1004	церемонию
+T37	EVENT 1219 1223	умер
+R2	DATE_OF_BIRTH Arg1:T7 Arg2:T8	
+T6	FACILITY 383 399	могиле Эдгара По
+R3	LOCATED_IN Arg1:T6 Arg2:T13	
+R4	ORIGINS_FROM Arg1:T6 Arg2:T12	
+R5	ALTERNATIVE_NAME Arg1:T12 Arg2:T34	
+R6	LOCATED_IN Arg1:T33 Arg2:T18	
+R7	ORIGINS_FROM Arg1:T33 Arg2:T34	
+R8	WORKPLACE Arg1:T32 Arg2:T33	
+R9	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R10	WORKS_AS Arg1:T19 Arg2:T32	
+T9	FACILITY 676 685	могилу По
+R11	ORIGINS_FROM Arg1:T9 Arg2:T35	
+R12	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+T24	DATE 710 721	В этом году
+T25	DATE 746 760	В прошлом году
+R13	ALTERNATIVE_NAME Arg1:T19 Arg2:T26	
+T28	DATE 1063 1074	в 1949 году
+T30	DATE 1224 1235	в 1998 году
+R14	POINT_IN_TIME Arg1:T37 Arg2:T30	
+T29	DATE 1076 1087	В 1993 году
+T38	EVENT 161 176	могилу посещает
+R15	POINT_IN_TIME Arg1:T38 Arg2:T8	
+T40	EVENT 888 910	таинственные посещения
+R18	ALTERNATIVE_NAME Arg1:T40 Arg2:T36	
+T39	EVENT 418 438	приходил неизвестный
+R16	TAKES_PLACE_IN Arg1:T39 Arg2:T6	
+R17	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R19	POINT_IN_TIME Arg1:T39 Arg2:T11	
+R20	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R21	INANIMATE_INVOLVED Arg1:T7 Arg2:T38	
+R1	TAKES_PLACE_IN Arg1:T39 Arg2:T13	
+R22	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R23	START_TIME Arg1:T40 Arg2:T27	
+N1	Reference T1 Wikidata:Q16867	Эдгар По
+N2	Reference T18 Wikidata:Q5092	Балтимор
+N5	Reference T6 Wikidata:NULL	нет данных
+N6	Reference T33 Wikidata:Q3066129	
+N4	Reference T32 Wikidata:NULL	нет данных
+N3	Reference T26 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:Q16867	Эдгар По
+N8	Reference T31 Wikidata:Q16867	Эдгар По
+N9	Reference T34 Wikidata:Q16867	Эдгар По
+N10	Reference T7 Wikidata:Q16867	Эдгар По
+N11	Reference T35 Wikidata:Q16867	Эдгар По
+N12	Reference T13 Wikidata:Q5092	Балтимор
+N13	Reference T9 Wikidata:NULL	нет данных
+N14	Reference T19 Wikidata:NULL	нет данных
+N15	Reference T20 Wikidata:NULL	нет данных

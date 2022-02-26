@@ -1,0 +1,100 @@
+T1	PERSON 9 23	В.Жириновского
+T2	EVENT 32 35	ДТП
+T3	CITY 38 44	Москве
+T4	DATE 51 61	26 февраля
+T5	FACILITY 76 99	улице Генерала Дорохова
+T6	CITY 102 108	Москве
+T7	PRODUCT 149 173	Porsche Panamera Turbo C
+T8	PRODUCT 176 185	ВАЗ-21114
+T9	AGE 254 263	12-летний
+T10	ORGANIZATION 282 285	РБК
+T11	FACILITY 384 396	ул.Рябиновой
+T12	PRODUCT 410 413	ВАЗ
+T13	ORGANIZATION 589 595	ГУ МВД
+T14	PROFESSION 781 828	вице-спикер Государственной думы от партии ЛДПР
+T15	ORGANIZATION 824 828	ЛДПР
+T16	PROFESSION 835 854	председателя партии
+T17	PERSON 855 877	Владимира Жириновского
+T19	PERSON 983 992	И.Лебедев
+T20	PROFESSION 82 90	Генерала
+T21	PERSON 91 99	Дорохова
+T22	ORGANIZATION 309 319	МВД России
+T23	COUNTRY 313 319	России
+T24	ORGANIZATION 288 319	столичном управление МВД России
+T25	PRODUCT 529 536	Porsche
+T26	EVENT 547 550	ДТП
+T27	ORGANIZATION 793 813	Государственной думы
+T28	PERSON 878 891	Игорь Лебедев
+T18	PERSON 5 23	Сын В.Жириновского
+R1	PARTICIPANT_IN Arg1:T18 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R3	PARENT_OF Arg1:T1 Arg2:T18	
+T29	FACILITY 64 72	дома №16
+R4	LOCATED_IN Arg1:T5 Arg2:T6	
+T30	EVENT 119 125	авария
+R5	ALTERNATIVE_NAME Arg1:T2 Arg2:T30	
+R6	LOCATED_IN Arg1:T29 Arg2:T5	
+R7	POINT_IN_TIME Arg1:T30 Arg2:T4	
+R8	TAKES_PLACE_IN Arg1:T30 Arg2:T5	
+T31	ORGANIZATION 309 312	МВД
+T32	EVENT 200 206	аварии
+R9	ALTERNATIVE_NAME Arg1:T28 Arg2:T19	
+R10	PARENT_OF Arg1:T17 Arg2:T28	
+R11	WORKS_AS Arg1:T17 Arg2:T16	
+R12	WORKPLACE Arg1:T17 Arg2:T15	
+R13	WORKS_AS Arg1:T17 Arg2:T14	
+T33	PROFESSION 781 792	вице-спикер
+R14	WORKPLACE Arg1:T14 Arg2:T27	
+R15	WORKPLACE Arg1:T17 Arg2:T27	
+R16	PARTICIPANT_IN Arg1:T28 Arg2:T30	
+R17	ALTERNATIVE_NAME Arg1:T28 Arg2:T18	
+R18	ALTERNATIVE_NAME Arg1:T32 Arg2:T26	
+T34	DISEASE 666 689	черепно-мозговая травма
+T35	DISEASE 657 689	закрытая черепно-мозговая травма
+T36	DISEASE 691 717	сотрясение головного мозга
+T37	DISEASE 719 724	ушибы
+T38	EVENT 207 216;254 271	пострадал 12-летний ребенок
+R19	SUBEVENT_OF Arg1:T38 Arg2:T32	
+R20	PART_OF Arg1:T24 Arg2:T22	
+R21	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+T39	ORGANIZATION 592 595	МВД
+R22	PART_OF Arg1:T13 Arg2:T39	
+R23	INANIMATE_INVOLVED Arg1:T7 Arg2:T30	
+R24	INANIMATE_INVOLVED Arg1:T8 Arg2:T30	
+T40	NUMBER 180 185	21114
+R25	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R26	LOCATED_IN Arg1:T11 Arg2:T6	
+R27	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R28	ALTERNATIVE_NAME Arg1:T7 Arg2:T25	
+R29	INANIMATE_INVOLVED Arg1:T25 Arg2:T26	
+R30	INANIMATE_INVOLVED Arg1:T12 Arg2:T26	
+R31	HEADQUARTERED_IN Arg1:T24 Arg2:T6	
+R32	MEMBER_OF Arg1:T14 Arg2:T15	
+N1	Reference T1 Wikidata:Q200015	Владимир Вольфович Жириновский
+N3	Reference T6 Wikidata:Q649	Москва
+N4	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N7	Reference T13 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N9	Reference T15 Wikidata:Q212115	ЛДПР
+N10	Reference T17 Wikidata:Q200015	Владимир Вольфович Жириновский
+N11	Reference T20 Wikidata:Q83460	генерал
+N13	Reference T22 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N14	Reference T23 Wikidata:Q159	Россия
+N17	Reference T27 Wikidata:Q715641	Государственная дума
+N20	Reference T39 Wikidata:Q6589202	министерство внутренних дел
+N21	Reference T16 Wikidata:NULL	нет данных
+N8	Reference T14 Wikidata:NULL	нет данных
+N18	Reference T18 Wikidata:Q520016	Владимир Вольфович Жириновский
+N22	Reference T29 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N12	Reference T21 Wikidata:Q4167020	
+N15	Reference T24 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T12 Wikidata:Q35676	
+N16	Reference T25 Wikidata:NULL	нет данных
+N19	Reference T33 Wikidata:NULL	нет данных
+N23	Reference T3 Wikidata:Q649	Москва
+N24	Reference T31 Wikidata:Q6589202	министерство внутренних дел
+N25	Reference T28 Wikidata:Q520016	Владимир Вольфович Жириновский
+N26	Reference T19 Wikidata:Q520016	Владимир Вольфович Жириновский
+N27	Reference T8 Wikidata:Q35676	
+N28	Reference T7 Wikidata:NULL	нет данных

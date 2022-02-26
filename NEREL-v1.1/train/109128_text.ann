@@ -1,0 +1,86 @@
+T1	PERSON 0 13	Ксения Собчак
+T2	PERSON 31 44	Ксения Собчак
+T3	DATE 46 76	В пятницу, 18 ноября 2016 года
+T4	PROFESSION 96 108	радиоведущая
+T5	PROFESSION 119 139	общественный деятель
+T6	PROFESSION 142 151	журналист
+T7	PERSON 152 165	Ксения Собчак
+T8	PERSON 200 206	Ксения
+T12	PRODUCT 292 301	Instagram
+T13	AGE 310 319	35-летней
+T14	PROFESSION 320 331	телеведущей
+T16	STATE_OR_PROVINCE 352 365	подмосковного
+T17	FACILITY 377 383	Лапино
+T18	ORGANIZATION 398 402	Life
+T19	MONEY 415 424	930 тысяч
+T20	PERSON 427 440	Ксения Собчак
+T21	DATE 441 462	с 1 февраля 2013 года
+T22	PROFESSION 474 481	актёром
+T23	PERSON 482 501	Максимом Виторганом
+T24	NUMBER 575 586	трёхэтажном
+T26	PERSON 600 617	Людмилы Нарусовой
+T27	FACILITY 629 636	Горки-8
+T28	PERSON 644 650	Собчак
+T30	FACILITY 734 753	Смоленском бульваре
+T31	CITY 756 762	Москве
+T32	PERSON 783 789	Собчак
+T33	DATE 800 815	зимой 2015 года
+R1	WORKS_AS Arg1:T7 Arg2:T5
+R2	WORKS_AS Arg1:T7 Arg2:T6
+R4	WORKS_AS Arg1:T23 Arg2:T22
+T34	PROFESSION 110 117	актриса
+R6	WORKS_AS Arg1:T7 Arg2:T34	
+R7	WORKS_AS Arg1:T7 Arg2:T4	
+T10	EVENT 14 29	родила первенца
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T10	
+T11	EVENT 187 197	родив сына
+R5	PARTICIPANT_IN Arg1:T7 Arg2:T11	
+R8	POINT_IN_TIME Arg1:T11 Arg2:T3	
+T15	EVENT 305 309	Роды
+R9	AGE_IS Arg1:T14 Arg2:T13	
+R10	LOCATED_IN Arg1:T17 Arg2:T16	
+R11	SPOUSE Arg1:T20 Arg2:T23	
+R12	PLACE_RESIDES_IN Arg1:T28 Arg2:T27	
+R13	PLACE_RESIDES_IN Arg1:T26 Arg2:T27	
+R14	LOCATED_IN Arg1:T30 Arg2:T31	
+T25	EVENT 764 772;790 799	квартиру приобрела
+R15	AGENT Arg1:T32 Arg2:T25	
+R16	POINT_IN_TIME Arg1:T25 Arg2:T33	
+T29	PROFESSION 101 108;88 92	ведущая теле
+R17	TAKES_PLACE_IN Arg1:T15 Arg2:T17	
+R18	PRICE_OF Arg1:T15 Arg2:T19	
+R19	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R20	WORKS_AS Arg1:T8 Arg2:T14	
+R21	RELATIVE Arg1:T28 Arg2:T26	
+R22	AGE_IS Arg1:T7 Arg2:T13	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T20	
+R24	TAKES_PLACE_IN Arg1:T25 Arg2:T30	
+R25	ALTERNATIVE_NAME Arg1:T20 Arg2:T28	
+R26	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R27	EXPENDITURE Arg1:T14 Arg2:T19	
+N1	Reference T1 Wikidata:Q287099	Ксения Анатольевна Собчак
+N2	Reference T4 Wikidata:Q2722764	радиоведущий
+N3	Reference T5 Wikidata:Q662729	общественный деятель
+N4	Reference T6 Wikidata:Q1930187	журналист
+N5	Reference T12 Wikidata:Q209330	Instagram
+N6	Reference T14 Wikidata:Q947873	телеведущий
+N10	Reference T22 Wikidata:Q33999	актёр
+N11	Reference T23 Wikidata:Q4112450	Максим Эммануилович Виторган
+N12	Reference T26 Wikidata:Q2107072	Людмила Борисовна Нарусова
+N13	Reference T30 Wikidata:Q4424970	Смоленский бульвар
+N14	Reference T31 Wikidata:Q649	Москва
+N15	Reference T34 Wikidata:Q33999	актёр
+N17	Reference T29 Wikidata:Q947873	телеведущий
+N7	Reference T16 Wikidata:Q1697	Московская область
+N9	Reference T18 Wikidata:Q4042868	лайф
+N8	Reference T17 Wikidata:NULL	нет данных
+N18	Reference T27 Wikidata:NULL	нет данных
+N19	Reference T20 Wikidata:Q287099	Ксения Анатольевна Собчак
+N20	Reference T8 Wikidata:Q287099	Ксения Анатольевна Собчак
+N21	Reference T7 Wikidata:Q287099	Ксения Анатольевна Собчак
+N22	Reference T32 Wikidata:Q287099	Ксения Анатольевна Собчак
+N23	Reference T2 Wikidata:Q287099	Ксения Анатольевна Собчак
+N24	Reference T28 Wikidata:Q287099	Ксения Анатольевна Собчак
+T9	EVENT 676 681	родов
+R28	PARTICIPANT_IN Arg1:T28 Arg2:T9	
+T35	NUMBER 635 636	8

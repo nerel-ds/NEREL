@@ -1,0 +1,170 @@
+T1	PROFESSION 0 24	Глава департамента ЦБ РФ
+T2	ORGANIZATION 19 21	ЦБ
+T3	PERSON 25 40	Надежда Иванова
+T4	PROFESSION 57 65	зампреда
+T5	DATE 84 91	13 июня
+T6	AGE 104 110	60 лет
+T7	ORGANIZATION 149 151	ЦБ
+T8	ORGANIZATION 153 199	Сводный экономический департамент Банка России
+T9	DATE 212 223	с 1995 года
+T10	FACILITY 225 253	Здание Центрального банка РФ
+T11	ORGANIZATION 232 253	Центрального банка РФ
+T12	PROFESSION 262 320	Директор сводного экономического департамента Банка России
+T13	ORGANIZATION 308 320	Банка России
+T14	PERSON 321 336	Надежда Иванова
+T15	PROFESSION 366 393	заместителя председателя ЦБ
+T16	DATE 403 412	в четверг
+T17	PERSON 427 434	Иванова
+T18	DATE 446 453	13 июня
+T19	AGE 458 467	60-летний
+T20	ORGANIZATION 495 507	Банка России
+T21	ORGANIZATION 517 530	Госбанка СССР
+T22	DATE 563 574	с 1975 года
+T23	ORGANIZATION 576 609	Сводный экономический департамент
+T24	DATE 622 634	почти 20 лет
+T25	DATE 637 648	с 1995 года
+T26	PERSON 651 658	Иванова
+T27	ORGANIZATION 668 696	совет директоров Центробанка
+T29	ORGANIZATION 701 737	сводного экономического департамента
+T30	ORGANIZATION 754 786	департаменте банковского надзора
+T31	ORGANIZATION 789 822	Сводный экономический департамент
+T32	ORDINAL 870 876	первое
+T33	PROFESSION 895 920	председателя Банка России
+T34	PERSON 921 940	Эльвиры Набиуллиной
+T35	ORGANIZATION 977 988	Центробанка
+T36	PROFESSION 1043 1062	первого зампреда ЦБ
+T38	PERSON 1102 1116	Ксении Юдаевой
+T39	ORGANIZATION 1132 1167	экспертное управление президента РФ
+T40	PERSON 1193 1208	Алексей Улюкаев
+T41	DATE 1218 1231	в понедельник
+T42	PROFESSION 1237 1268	руководителем Минэкономразвития
+T43	ORGANIZATION 1251 1268	Минэкономразвития
+T44	COUNTRY 22 24	РФ
+T45	ORGANIZATION 19 24	ЦБ РФ
+T46	ORGANIZATION 187 199	Банка России
+T47	COUNTRY 193 199	России
+T48	COUNTRY 251 253	РФ
+T49	ORGANIZATION 271 320	сводного экономического департамента Банка России
+T50	COUNTRY 314 320	России
+T51	PROFESSION 378 393	председателя ЦБ
+T52	ORGANIZATION 391 393	ЦБ
+T55	ORGANIZATION 685 696	Центробанка
+T28	ORGANIZATION 908 920	Банка России
+T56	ORGANIZATION 1060 1062	ЦБ
+T37	PROFESSION 1154 1167	президента РФ
+T57	PROFESSION 1154 1164	президента
+T58	COUNTRY 1165 1167	РФ
+R1	WORKPLACE Arg1:T3 Arg2:T45	
+R2	WORKS_AS Arg1:T3 Arg2:T1	
+R3	WORKS_AS Arg1:T3 Arg2:T4	
+T59	PERSON 67 74	Иванова
+R4	AGE_IS Arg1:T59 Arg2:T6	
+R5	WORKPLACE Arg1:T59 Arg2:T7	
+R6	WORKPLACE Arg1:T59 Arg2:T8	
+R7	WORKS_AS Arg1:T14 Arg2:T12	
+R8	WORKPLACE Arg1:T14 Arg2:T49	
+R9	WORKPLACE Arg1:T14 Arg2:T13	
+T60	EVENT 337 346	назначена
+R10	PARTICIPANT_IN Arg1:T14 Arg2:T60	
+R11	WORKS_AS Arg1:T14 Arg2:T15	
+R12	AGE_IS Arg1:T17 Arg2:T19	
+R13	WORKPLACE Arg1:T17 Arg2:T20	
+T53	COUNTRY 501 507	России
+T54	COUNTRY 526 530	СССР
+R14	WORKPLACE Arg1:T17 Arg2:T23	
+R15	MEMBER_OF Arg1:T26 Arg2:T27	
+R16	WORKPLACE Arg1:T26 Arg2:T30	
+R17	WORKS_AS Arg1:T34 Arg2:T33	
+R18	WORKPLACE Arg1:T34 Arg2:T28	
+T61	COUNTRY 914 920	России
+T62	PROFESSION 1043 1101	первого зампреда ЦБ по вопросам денежно-кредитной политики
+R19	WORKS_AS Arg1:T38 Arg2:T62	
+R20	WORKPLACE Arg1:T38 Arg2:T39	
+R21	WORKS_AS Arg1:T40 Arg2:T42	
+R22	WORKPLACE Arg1:T40 Arg2:T43	
+R23	WORKPLACE Arg1:T1 Arg2:T45	
+R24	HEADQUARTERED_IN Arg1:T45 Arg2:T44	
+R25	ALTERNATIVE_NAME Arg1:T3 Arg2:T59	
+R26	HEADQUARTERED_IN Arg1:T46 Arg2:T47	
+T63	ORGANIZATION 232 250	Центрального банка
+R27	HEADQUARTERED_IN Arg1:T11 Arg2:T48	
+R28	WORKPLACE Arg1:T12 Arg2:T49	
+R29	HEADQUARTERED_IN Arg1:T13 Arg2:T50	
+R30	WORKPLACE Arg1:T51 Arg2:T52	
+R31	WORKPLACE Arg1:T15 Arg2:T52	
+R32	SUBORDINATE_OF Arg1:T15 Arg2:T51	
+R33	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+R34	WORKPLACE Arg1:T33 Arg2:T28	
+R35	HEADQUARTERED_IN Arg1:T28 Arg2:T61	
+R36	ALTERNATIVE_NAME Arg1:T61 Arg2:T35	
+R37	WORKPLACE Arg1:T42 Arg2:T43	
+R38	WORKPLACE Arg1:T62 Arg2:T56	
+R39	WORKPLACE Arg1:T4 Arg2:T45	
+R40	PART_OF Arg1:T8 Arg2:T46	
+R41	PART_OF Arg1:T49 Arg2:T13	
+R42	ABBREVIATION Arg1:T13 Arg2:T52	
+R43	PARTICIPANT_IN Arg1:T52 Arg2:T60	
+R44	HEADQUARTERED_IN Arg1:T20 Arg2:T53	
+R45	HEADQUARTERED_IN Arg1:T21 Arg2:T54	
+R46	PART_OF Arg1:T23 Arg2:T20	
+R47	PART_OF Arg1:T27 Arg2:T55	
+R48	PART_OF Arg1:T30 Arg2:T55	
+T64	EVENT 877 887	назначение
+R49	AGENT Arg1:T34 Arg2:T64	
+R50	PARTICIPANT_IN Arg1:T26 Arg2:T64	
+R51	PARTICIPANT_IN Arg1:T28 Arg2:T64	
+R52	WORKPLACE Arg1:T37 Arg2:T58	
+R53	FOUNDED_BY Arg1:T39 Arg2:T37	
+R54	WORKS_AS Arg1:T40 Arg2:T62	
+R55	WORKPLACE Arg1:T40 Arg2:T56	
+N2	Reference T10 Wikidata:Q55657994	Здание Центрального банка
+N3	Reference T11 Wikidata:Q806651	Центральный банк Российской Федерации
+N6	Reference T21 Wikidata:Q21639721	Здание Госбанка
+N12	Reference T34 Wikidata:Q74746	Эльвира Сахипзадовна Наибуллина
+N14	Reference T38 Wikidata:Q4533741	Юдаева, Ксения Валентиновна
+N16	Reference T40 Wikidata:Q2640587	Улюкаев, Алексей Валентинович
+N18	Reference T43 Wikidata:Q8631276	МЭРТ
+N19	Reference T45 Wikidata:Q806651	Центральный банк Российской Федерации
+N20	Reference T46 Wikidata:Q806651	Центральный банк Российской Федерации
+N21	Reference T47 Wikidata:Q159	Россия
+N24	Reference T55 Wikidata:Q806651	Центральный банк Российской Федерации
+N25	Reference T37 Wikidata:Q218295	президент Российской Федерации
+N26	Reference T57 Wikidata:Q30461	президент
+N27	Reference T58 Wikidata:Q159	Россия
+N29	Reference T54 Wikidata:Q15180	СССР
+N31	Reference T63 Wikidata:Q66344	центральный банк
+N1	Reference T1 Wikidata:NULL	нет данных
+N32	Reference T4 Wikidata:NULL	нет данных
+N28	Reference T59 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N22	Reference T49 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N23	Reference T51 Wikidata:NULL	нет данных
+N8	Reference T27 Wikidata:NULL	нет данных
+N7	Reference T26 Wikidata:NULL	нет данных
+N11	Reference T33 Wikidata:NULL	нет данных
+N10	Reference T31 Wikidata:NULL	нет данных
+N9	Reference T30 Wikidata:NULL	нет данных
+N13	Reference T36 Wikidata:NULL	нет данных
+N30	Reference T62 Wikidata:NULL	нет данных
+N15	Reference T39 Wikidata:NULL	нет данных
+N17	Reference T42 Wikidata:NULL	нет данных
+N33	Reference T56 Wikidata:Q806651	Центральный банк Российской Федерации
+N34	Reference T28 Wikidata:Q806651	Центральный банк Российской Федерации
+N35	Reference T7 Wikidata:Q806651	Центральный банк Российской Федерации
+N36	Reference T13 Wikidata:Q806651	Центральный банк Российской Федерации
+N37	Reference T20 Wikidata:Q806651	Центральный банк Российской Федерации
+N38	Reference T52 Wikidata:Q806651	Центральный банк Российской Федерации
+N39	Reference T2 Wikidata:Q806651	Центральный банк Российской Федерации
+N40	Reference T50 Wikidata:Q159	Россия
+N41	Reference T61 Wikidata:Q159	Россия
+N42	Reference T53 Wikidata:Q159	Россия
+N43	Reference T35 Wikidata:Q806651	Центральный банк Российской Федерации
+N44	Reference T44 Wikidata:Q159	Россия
+N45	Reference T48 Wikidata:Q159	Россия
+N46	Reference T3 Wikidata:NULL	нет данных
+N47	Reference T8 Wikidata:NULL	нет данных
+N48	Reference T17 Wikidata:NULL	нет данных
+N49	Reference T14 Wikidata:NULL	нет данных
+N50	Reference T29 Wikidata:NULL	нет данных
+N51	Reference T23 Wikidata:NULL	нет данных

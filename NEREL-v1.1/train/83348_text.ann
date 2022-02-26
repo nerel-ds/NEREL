@@ -1,0 +1,97 @@
+T1	PERSON 6 14	Джон Нэш
+T2	PERSON 32 40	Джон Нэш
+T3	AGE 69 75	86 лет
+T7	PERSON 123 131	Джон Нэш
+T8	NATIONALITY 162 174	американский
+T9	ORGANIZATION 216 234	полиция Нью-Джерси
+T10	STATE_OR_PROVINCE 224 234	Нью-Джерси
+T11	PERSON 236 239	Нэш
+T12	PERSON 251 261	Алисия Нэш
+T13	ORGANIZATION 323 329	NJ.com
+T14	PERSON 331 335	Нэши
+T15	PERSON 400 408	Джон Нэш
+T16	DATE 449 460	в 1994 году
+T17	DATE 594 605	в 1949 году
+T18	PERSON 613 618	Джону
+T19	AGE 624 630	21 год
+T20	PERSON 856 860	Нэшу
+T21	PERSON 870 874	Нэша
+T22	PERSON 980 984	Нэша
+T24	PERSON 1036 1047	Рассел Кроу
+T25	NUMBER 1070 1076	четыре
+T26	AWARD 1085 1090	Оскар
+T27	PERSON 1093 1097	Кроу
+T28	DATE 41 57	23 мая 2015 года
+T4	STATE_OR_PROVINCE 106 116	Нью-Джерси
+T5	AWARD 141 159	Нобелевской премии
+T6	PROFESSION 175 184	математик
+T30	PROFESSION 357 364	Таксист
+T31	AWARD 417 448	Нобелевскую премию по экономике
+T23	WORK_OF_ART 1007 1018	Игры разума
+T32	EVENT 17 31	автокатастрофе
+T33	EVENT 89 103	автокатастрофы
+T34	EVENT 0 5	Погиб
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T32	
+R3	SUBEVENT_OF Arg1:T34 Arg2:T32	
+R4	AWARDED_WITH Arg1:T7 Arg2:T5	
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	ORIGINS_FROM Arg1:T7 Arg2:T8	
+R7	AGE_DIED_AT Arg1:T7 Arg2:T3	
+T35	EVENT 117 122	погиб
+R8	SUBEVENT_OF Arg1:T35 Arg2:T33	
+R9	POINT_IN_TIME Arg1:T33 Arg2:T28	
+R10	POINT_IN_TIME Arg1:T35 Arg2:T28	
+R11	DATE_OF_DEATH Arg1:T7 Arg2:T28	
+R12	TAKES_PLACE_IN Arg1:T33 Arg2:T4	
+R13	TAKES_PLACE_IN Arg1:T35 Arg2:T4	
+R14	PLACE_OF_DEATH Arg1:T7 Arg2:T4	
+T36	EVENT 189 206	несчастном случае
+R15	SPOUSE Arg1:T11 Arg2:T12	
+R16	AWARDED_WITH Arg1:T15 Arg2:T31	
+R17	AWARDED_WITH Arg1:T23 Arg2:T26	
+R18	PARTICIPANT_IN Arg1:T24 Arg2:T23	
+R19	AGE_IS Arg1:T18 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T33 Arg2:T36	
+R21	HEADQUARTERED_IN Arg1:T9 Arg2:T10	
+T29	ORGANIZATION 216 223	полиция
+R22	PARTICIPANT_IN Arg1:T30 Arg2:T33	
+R23	ALTERNATIVE_NAME Arg1:T24 Arg2:T27	
+R24	ALTERNATIVE_NAME Arg1:T15 Arg2:T18	
+R25	ALTERNATIVE_NAME Arg1:T15 Arg2:T20	
+R26	ORIGINS_FROM Arg1:T6 Arg2:T8	
+R27	PARTICIPANT_IN Arg1:T7 Arg2:T35	
+R28	POINT_IN_TIME Arg1:T31 Arg2:T16	
+T37	PERSON 141 152	Нобелевской
+R29	PRODUCES Arg1:T37 Arg2:T5	
+T38	AWARD 417 435	Нобелевскую премию
+T39	PERSON 417 428	Нобелевскую
+R30	PRODUCES Arg1:T39 Arg2:T38	
+N4	Reference T10 Wikidata:Q1408	Нью-Джерси
+N6	Reference T24 Wikidata:Q129817	Рассел Кроу
+N7	Reference T26 Wikidata:Q19020	Оскар
+N8	Reference T5 Wikidata:Q7191	Нобелевская премия
+N9	Reference T6 Wikidata:Q170790	математик
+N10	Reference T30 Wikidata:Q2961580	таксист
+N11	Reference T31 Wikidata:Q47170	премия Шведского национального банка по экономическим наукам памяти Альфреда Нобеля
+N12	Reference T23 Wikidata:Q164103	Игры разума
+N13	Reference T29 Wikidata:Q35535	полиция
+N1	Reference T1 Wikidata:Q128736	Нэш, Джон
+N2	Reference T8 Wikidata:Q846570	
+N14	Reference T37 Wikidata:Q23810	Альфред Нобель
+N3	Reference T9 Wikidata:NULL	нет данных
+N5	Reference T12 Wikidata:Q19989065	
+N15	Reference T13 Wikidata:Q16930465	
+N16	Reference T4 Wikidata:Q1408	Нью-Джерси
+N17	Reference T27 Wikidata:Q129817	Рассел Кроу
+N18	Reference T38 Wikidata:Q7191	Нобелевская премия
+N19	Reference T14 Wikidata:Q128736	Нэш, Джон
+N20	Reference T22 Wikidata:Q128736	Нэш, Джон
+N21	Reference T18 Wikidata:Q128736	Нэш, Джон
+N22	Reference T11 Wikidata:Q128736	Нэш, Джон
+N23	Reference T21 Wikidata:Q128736	Нэш, Джон
+N24	Reference T20 Wikidata:Q128736	Нэш, Джон
+N25	Reference T7 Wikidata:Q128736	Нэш, Джон
+N26	Reference T15 Wikidata:Q128736	Нэш, Джон
+N27	Reference T2 Wikidata:Q128736	Нэш, Джон
+N28	Reference T39 Wikidata:Q23810	Альфред Нобель

@@ -1,0 +1,213 @@
+T1	PROFESSION 0 9	Президент
+T2	COUNTRY 25 33	Ирландию
+T3	PERSON 39 50	Барак Обама
+T4	DATE 52 72	В понедельник 23 мая
+T5	COUNTRY 83 86	США
+T6	PERSON 87 98	Барак Обама
+T7	COUNTRY 108 116	Ирландию
+T8	DATE 139 151	шестидневное
+T9	LOCATION 161 167	Европе
+T10	NUMBER 196 202	четыре
+T11	PERSON 211 216	Обама
+T12	COUNTRY 249 260	ирландскими
+T13	PERSON 329 334	Обама
+T14	PERSON 352 363	Эндой Кенни
+T15	PROFESSION 365 391	премьер-министром Ирландии
+T16	NATIONALITY 430 441	американцев
+T17	NATIONALITY 454 464	ирландцами
+T18	COUNTRY 683 691	Ирландии
+T19	DATE 809 854	Совсем недавно, всего несколько месяцев назад
+T21	CITY 856 862	Дублин
+T22	ORGANIZATION 881 911	Международного валютного фонда
+T23	ORGANIZATION 914 916	ЕС
+T24	CITY 990 998	Монигалл
+T25	PERSON 1046 1051	Обама
+T26	DATE 1071 1082	В 1850 году
+T27	PROFESSION 1112 1122	президента
+T28	COUNTRY 1136 1143	Америку
+T29	CITY 1153 1161	Монигалл
+T30	NUMBER 1201 1210	менее 300
+T31	PROFESSION 1323 1343	Посол Ирландии в США
+T32	PERSON 1344 1357	Майкл Коллинз
+T33	COUNTRY 1371 1381	ирландских
+T34	PERSON 1390 1395	Обамы
+T35	EVENT 1399 1406	встрече
+T36	ORGANIZATION 1409 1425	Фонде «Наследие»
+T37	ORGANIZATION 1427 1450	The Heritage Foundation
+T38	CITY 1454 1464	Вашингтоне
+T39	PERSON 1485 1497	Фалмут Карни
+T40	COUNTRY 1508 1515	Америку
+T41	AGE 1527 1533	19 лет
+T42	PRODUCT 1546 1553	Мармион
+T43	PERSON 1565 1572	Коллинз
+T44	DATE 1597 1610	в понедельник
+T45	COUNTRY 1651 1661	ирландскую
+T46	PROFESSION 1679 1689	президента
+T47	COUNTRY 1690 1708	Соединенных Штатов
+T48	COUNTRY 1751 1761	ирландская
+T49	ORGANIZATION 1799 1810	Белого дома
+T50	LOCATION 1905 1917	европейскими
+T51	COUNTRY 1940 1948	Ирландии
+T52	COUNTRY 1963 1977	Великобританию
+T53	PERSON 2055 2072	Девидом Кэмероном
+T54	PERSON 2087 2092	Обама
+T55	ORGANIZATION 2107 2124	Большой восьмерки
+T56	COUNTRY 2128 2135	Франции
+T57	PROFESSION 2156 2167	президентом
+T58	PERSON 2175 2194	Дмитрием Медведевым
+T59	COUNTRY 2206 2212	Польшу
+T60	PERSON 10 15	Обама
+T61	EVENT 2101 2106	самит
+T62	COUNTRY 2168 2174	России
+T63	PROFESSION 2156 2174	президентом России
+T64	PERSON 1949 1954	Обама
+T65	ORGANIZATION 2029 2039	парламента
+T66	PROFESSION 1839 1849	президента
+T67	PROFESSION 1679 1708	президента Соединенных Штатов
+T69	COUNTRY 1329 1337	Ирландии
+T70	COUNTRY 1340 1343	США
+T71	PROFESSION 1260 1269	президент
+T20	PROFESSION 667 677	президента
+T72	COUNTRY 653 666	американского
+T73	COUNTRY 383 391	Ирландии
+T74	PROFESSION 407 416	президент
+T75	EVENT 152 157	турне
+T76	PROFESSION 73 86	президент США
+T77	PROFESSION 73 82	президент
+T78	PROFESSION 365 382	премьер-министром
+R1	WORKS_AS Arg1:T60 Arg2:T1	
+R2	LOCATED_IN Arg1:T60 Arg2:T2	
+R3	WORKPLACE Arg1:T76 Arg2:T5	
+R4	WORKS_AS Arg1:T6 Arg2:T76	
+R5	WORKPLACE Arg1:T6 Arg2:T5	
+R6	AGENT Arg1:T6 Arg2:T75	
+R7	TAKES_PLACE_IN Arg1:T75 Arg2:T9	
+R8	START_TIME Arg1:T75 Arg2:T4	
+R9	ALTERNATIVE_NAME Arg1:T2 Arg2:T12	
+T79	PROFESSION 249 269	ирландскими лидерами
+R10	ORIGINS_FROM Arg1:T79 Arg2:T12	
+R11	LOCATED_IN Arg1:T6 Arg2:T7	
+R12	LOCATED_IN Arg1:T7 Arg2:T9	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R14	WORKPLACE Arg1:T15 Arg2:T73	
+R15	WORKS_AS Arg1:T14 Arg2:T15	
+R16	WORKPLACE Arg1:T14 Arg2:T73	
+R17	WORKS_AS Arg1:T13 Arg2:T74	
+R18	ORIGINS_FROM Arg1:T17 Arg2:T73	
+T80	PROFESSION 653 677	американского президента
+R19	WORKPLACE Arg1:T80 Arg2:T72	
+R20	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R21	HEADQUARTERED_IN Arg1:T36 Arg2:T38	
+R22	WORKS_AS Arg1:T32 Arg2:T31	
+R23	WORKPLACE Arg1:T31 Arg2:T70	
+R24	ORIGINS_FROM Arg1:T31 Arg2:T69	
+R25	ALTERNATIVE_NAME Arg1:T32 Arg2:T43	
+R26	RELATIVE Arg1:T39 Arg2:T34	
+R27	AGE_IS Arg1:T39 Arg2:T41	
+R28	WORKPLACE Arg1:T67 Arg2:T47	
+R29	WORKPLACE Arg1:T53 Arg2:T52	
+R30	LOCATED_IN Arg1:T52 Arg2:T50	
+R31	ORGANIZES Arg1:T55 Arg2:T61	
+R32	TAKES_PLACE_IN Arg1:T61 Arg2:T56	
+R33	PARTICIPANT_IN Arg1:T54 Arg2:T61	
+R34	WORKPLACE Arg1:T63 Arg2:T62	
+R35	WORKS_AS Arg1:T58 Arg2:T63	
+R36	WORKPLACE Arg1:T58 Arg2:T62	
+T68	EVENT 1833 1838	турне
+T81	EVENT 647 652	турне
+R37	ALTERNATIVE_NAME Arg1:T75 Arg2:T81	
+R38	AGENT Arg1:T80 Arg2:T81	
+R39	WORKPLACE Arg1:T80 Arg2:T72	
+R40	LOCATED_IN Arg1:T21 Arg2:T18	
+R41	PARTICIPANT_IN Arg1:T32 Arg2:T35	
+R42	TAKES_PLACE_IN Arg1:T35 Arg2:T36	
+T82	PROFESSION 1583 1593	сапожником
+R43	WORKS_AS Arg1:T39 Arg2:T82	
+R44	ALTERNATIVE_NAME Arg1:T81 Arg2:T68	
+R45	AGENT Arg1:T66 Arg2:T68	
+T83	EVENT 16 22	прибыл
+R46	AGENT Arg1:T60 Arg2:T83	
+R47	TAKES_PLACE_IN Arg1:T83 Arg2:T2	
+T84	EVENT 99 105	прибыл
+R48	AGENT Arg1:T6 Arg2:T84	
+R49	TAKES_PLACE_IN Arg1:T84 Arg2:T7	
+T85	EVENT 342 349	встречу
+R50	AGENT Arg1:T13 Arg2:T85	
+R51	AGENT Arg1:T14 Arg2:T85	
+R52	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R53	LOCATED_IN Arg1:T51 Arg2:T50	
+T86	EVENT 2146 2153	встречу
+R54	AGENT Arg1:T54 Arg2:T86	
+R55	AGENT Arg1:T58 Arg2:T86	
+T87	EVENT 2198 2205	посетит
+R56	AGENT Arg1:T54 Arg2:T87	
+R57	TAKES_PLACE_IN Arg1:T87 Arg2:T59	
+N1	Reference T3 Wikidata:Q76	Барак Обама
+N2	Reference T5 Wikidata:Q30	США
+N5	Reference T15 Wikidata:Q191827	премьер-министр Ирландии
+N6	Reference T16 Wikidata:Q498438	Американцы
+N8	Reference T21 Wikidata:Q1761	Дублин
+N9	Reference T22 Wikidata:Q7804	Международный валютный фонд
+N10	Reference T23 Wikidata:Q458	Европейский союз
+N11	Reference T24 Wikidata:Q577157	Монигалл
+N13	Reference T38 Wikidata:Q61	Вашингтон
+N19	Reference T49 Wikidata:Q35525	Белый дом
+N21	Reference T52 Wikidata:Q145	Великобритания
+N23	Reference T55 Wikidata:Q37143	Большая восьмёрка
+N24	Reference T56 Wikidata:Q142	Франция
+N25	Reference T58 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N26	Reference T59 Wikidata:Q36	Польша
+N27	Reference T62 Wikidata:Q159	Россия
+N28	Reference T63 Wikidata:Q218295	президент Российской Федерации
+N29	Reference T65 Wikidata:Q35749	парламент
+N32	Reference T74 Wikidata:Q30461	президент
+N33	Reference T76 Wikidata:Q11696	президент США
+N34	Reference T78 Wikidata:Q14212	премьер-министр
+N3	Reference T9 Wikidata:Q46	Европа
+N35	Reference T79 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:Q57815	
+N7	Reference T17 Wikidata:Q170826	ирландцы
+N31	Reference T72 Wikidata:Q30	США
+N36	Reference T80 Wikidata:Q11696	президент США
+N38	Reference T31 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:Q876787	
+N14	Reference T39 Wikidata:NULL	нет данных
+N39	Reference T40 Wikidata:Q30	США
+N15	Reference T42 Wikidata:NULL	нет данных
+N16	Reference T43 Wikidata:Q23006319	
+N37	Reference T82 Wikidata:Q152355	
+N17	Reference T47 Wikidata:Q30	США
+N30	Reference T67 Wikidata:Q11696	президент США
+N18	Reference T48 Wikidata:Q27	Ирландия
+N20	Reference T50 Wikidata:Q46	Европа
+N22	Reference T53 Wikidata:Q192	Дэвид Кэмерон
+N40	Reference T13 Wikidata:Q76	Барак Обама
+N41	Reference T64 Wikidata:Q76	Барак Обама
+N42	Reference T25 Wikidata:Q76	Барак Обама
+N43	Reference T34 Wikidata:Q76	Барак Обама
+N44	Reference T60 Wikidata:Q76	Барак Обама
+N45	Reference T11 Wikidata:Q76	Барак Обама
+N46	Reference T54 Wikidata:Q76	Барак Обама
+N47	Reference T6 Wikidata:Q76	Барак Обама
+N48	Reference T70 Wikidata:Q30	США
+N49	Reference T29 Wikidata:Q577157	Монигалл
+N50	Reference T57 Wikidata:Q30461	президент
+N51	Reference T20 Wikidata:Q30461	президент
+N52	Reference T46 Wikidata:Q30461	президент
+N53	Reference T66 Wikidata:Q30461	президент
+N54	Reference T77 Wikidata:Q30461	президент
+N55	Reference T71 Wikidata:Q30461	президент
+N56	Reference T1 Wikidata:Q30461	президент
+N57	Reference T27 Wikidata:Q30461	президент
+N58	Reference T36 Wikidata:Q876787	
+N59	Reference T28 Wikidata:Q30	США
+N60	Reference T32 Wikidata:Q23006319	
+N61	Reference T69 Wikidata:Q27	Ирландия
+N62	Reference T51 Wikidata:Q27	Ирландия
+N63	Reference T73 Wikidata:Q27	Ирландия
+N64	Reference T12 Wikidata:Q27	Ирландия
+N65	Reference T33 Wikidata:Q27	Ирландия
+N66	Reference T7 Wikidata:Q27	Ирландия
+N67	Reference T18 Wikidata:Q27	Ирландия
+N68	Reference T2 Wikidata:Q27	Ирландия
+N69	Reference T45 Wikidata:Q27	Ирландия

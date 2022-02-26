@@ -1,0 +1,143 @@
+T1	NATIONALITY 35 42	россиян
+T2	COUNTRY 45 54	Аргентине
+T3	PROFESSION 58 66	Прокурор
+T4	DISTRICT 74 80	Морено
+T5	CITY 83 96	Буэнос Айресе
+T7	PERSON 127 141	Людмилы Касьян
+T8	DATE 177 196	в прошедшую субботу
+T9	AGE 208 214	56 лет
+T10	NUMBER 230 233	три
+T11	NUMBER 240 243	две
+T12	NUMBER 255 259	одна
+T13	ORGANIZATION 407 413	Clarin
+T14	STATE_OR_PROVINCE 472 477	Чечни
+T15	COUNTRY 480 489	Аргентину
+T16	DATE 490 501	в 1999 году
+T17	PERSON 534 541	Валерий
+T18	PERSON 552 559	Людмила
+T19	PERSON 569 573	Илья
+T20	PERSON 575 581	Андрей
+T21	PERSON 583 589	Сергей
+T22	PERSON 597 601	Вера
+T24	DISTRICT 640 646	Морено
+T25	FACILITY 656 670	General Hornos
+T26	FACILITY 702 711	Samaniego
+T27	FACILITY 714 725	Víctor Hugo
+T29	PERSON 758 762	Илья
+T30	DATE 887 892	В мае
+T31	PERSON 907 918	Вера Щесных
+T32	AGE 920 926	26 лет
+T33	DATE 929 938	в августе
+T34	PERSON 975 979	Илью
+T35	DATE 983 1000	в прошлую субботу
+T36	PERSON 1042 1056	Людмилу Касьян
+T37	AGE 1058 1064	56 лет
+T39	PERSON 1114 1128	Валерий Щесных
+T40	PERSON 1199 1206	Людмила
+T41	COUNTRY 1219 1228	Аргентину
+T42	DATE 1229 1246	больше года назад
+T43	COUNTRY 1309 1315	России
+T44	COUNTRY 1407 1415	Парагвай
+T45	COUNTRY 1420 1427	Боливию
+T46	ORGANIZATION 1482 1488	Кларин
+T47	PROFESSION 1696 1704	Прокурор
+T48	PERSON 1975 1990	Валерием Щесных
+T49	NATIONALITY 2056 2063	русская
+T50	COUNTRY 2072 2081	Аргентине
+R5	SPOUSE Arg1:T17 Arg2:T18
+R6	PARENT_OF Arg1:T17 Arg2:T19
+R7	PARENT_OF Arg1:T18 Arg2:T19
+R15	AGE_IS Arg1:T31 Arg2:T32
+R3	AGE_IS Arg1:T7 Arg2:T9	
+R16	PLACE_RESIDES_IN Arg1:T7 Arg2:T5	
+T6	PERSON 454 460	Щесных
+T51	EVENT 118 126	убийства
+R4	POINT_IN_TIME Arg1:T51 Arg2:T8	
+R17	TAKES_PLACE_IN Arg1:T51 Arg2:T5	
+R18	PARTICIPANT_IN Arg1:T7 Arg2:T51	
+T52	EVENT 104 126	расследование убийства
+R19	AGENT Arg1:T3 Arg2:T52	
+R20	SIBLING Arg1:T19 Arg2:T20	
+R21	SIBLING Arg1:T19 Arg2:T21	
+R9	SIBLING Arg1:T19 Arg2:T22	
+R10	SIBLING Arg1:T20 Arg2:T21	
+R11	SIBLING Arg1:T20 Arg2:T22	
+R12	SIBLING Arg1:T21 Arg2:T22	
+T23	EVENT 950 958	стреляли
+R13	PARTICIPANT_IN Arg1:T34 Arg2:T23	
+T28	EVENT 1001 1019	обнаружили мертвой
+R14	AGE_IS Arg1:T36 Arg2:T37	
+R22	PARTICIPANT_IN Arg1:T36 Arg2:T28	
+R23	POINT_IN_TIME Arg1:T28 Arg2:T35	
+R24	POINT_IN_TIME Arg1:T23 Arg2:T33	
+T53	EVENT 893 900	исчезла
+R25	POINT_IN_TIME Arg1:T53 Arg2:T30	
+R26	PARTICIPANT_IN Arg1:T31 Arg2:T53	
+R27	LOCATED_IN Arg1:T25 Arg2:T24	
+R1	LOCATED_IN Arg1:T4 Arg2:T5	
+R2	LOCATED_IN Arg1:T5 Arg2:T2	
+T38	EVENT 428 445	заказном убийстве
+R8	PARENT_OF Arg1:T18 Arg2:T20	
+R28	PARENT_OF Arg1:T18 Arg2:T21	
+R29	PARENT_OF Arg1:T18 Arg2:T22	
+R30	PARENT_OF Arg1:T17 Arg2:T20	
+R31	PARENT_OF Arg1:T17 Arg2:T21	
+R32	PARENT_OF Arg1:T17 Arg2:T22	
+R33	PLACE_RESIDES_IN Arg1:T22 Arg2:T24	
+R34	PLACE_RESIDES_IN Arg1:T21 Arg2:T24	
+R35	PLACE_RESIDES_IN Arg1:T20 Arg2:T24	
+R36	PLACE_RESIDES_IN Arg1:T19 Arg2:T24	
+R37	PLACE_RESIDES_IN Arg1:T18 Arg2:T24	
+R38	PLACE_RESIDES_IN Arg1:T17 Arg2:T24	
+T54	PERSON 1571 1575	Веру
+R39	ORIGINS_FROM Arg1:T6 Arg2:T14	
+R40	PLACE_RESIDES_IN Arg1:T6 Arg2:T15	
+R41	PARENT_OF Arg1:T36 Arg2:T31	
+R42	PARENT_OF Arg1:T36 Arg2:T34	
+R43	SIBLING Arg1:T31 Arg2:T34	
+R44	PLACE_RESIDES_IN Arg1:T40 Arg2:T41	
+R45	ALTERNATIVE_NAME Arg1:T17 Arg2:T39	
+R46	ALTERNATIVE_NAME Arg1:T7 Arg2:T18	
+R47	ALTERNATIVE_NAME Arg1:T22 Arg2:T31	
+R48	ALTERNATIVE_NAME Arg1:T36 Arg2:T40	
+R49	PLACE_RESIDES_IN Arg1:T1 Arg2:T2	
+R50	WORKPLACE Arg1:T3 Arg2:T4	
+R51	LOCATED_IN Arg1:T26 Arg2:T24	
+R52	LOCATED_IN Arg1:T27 Arg2:T24	
+R53	HAS_CAUSE Arg1:T52 Arg2:T51	
+N1	Reference T1 Wikidata:Q492468	россияне
+N2	Reference T5 Wikidata:Q1486	Буэнос-Айрес
+N3	Reference T13 Wikidata:Q878108	Clarín
+N4	Reference T14 Wikidata:Q5187	Чечня
+N9	Reference T24 Wikidata:Q1496283	Морено
+N14	Reference T43 Wikidata:Q159	Россия
+N15	Reference T44 Wikidata:Q733	Парагвай
+N16	Reference T45 Wikidata:Q750	Боливия
+N18	Reference T47 Wikidata:Q600751	прокурор
+N21	Reference T15 Wikidata:Q414	Аргентина
+N12	Reference T36 Wikidata:NULL	нет данных
+N13	Reference T39 Wikidata:NULL	нет данных
+N17	Reference T46 Wikidata:Q878108	Clarín
+N19	Reference T49 Wikidata:Q49542	русские
+N20	Reference T6 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:NULL	нет данных
+N8	Reference T21 Wikidata:NULL	нет данных
+N22	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q6438879	
+N23	Reference T26 Wikidata:NULL	нет данных
+N11	Reference T27 Wikidata:NULL	нет данных
+N24	Reference T4 Wikidata:Q1496283	Морено
+N25	Reference T3 Wikidata:Q600751	прокурор
+N26	Reference T41 Wikidata:Q414	Аргентина
+N27	Reference T2 Wikidata:Q414	Аргентина
+N28	Reference T50 Wikidata:Q414	Аргентина
+N29	Reference T40 Wikidata:NULL	нет данных
+N30	Reference T48 Wikidata:NULL	нет данных
+N31	Reference T17 Wikidata:NULL	нет данных
+N32	Reference T7 Wikidata:NULL	нет данных
+N33	Reference T34 Wikidata:NULL	нет данных
+N34	Reference T29 Wikidata:NULL	нет данных
+N35	Reference T54 Wikidata:NULL	нет данных
+N36	Reference T31 Wikidata:NULL	нет данных

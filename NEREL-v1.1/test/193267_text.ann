@@ -1,0 +1,177 @@
+T2	COUNTRY 8 14	России
+T3	EVENT 27 42	чемпионате мира
+T4	COUNTRY 62 68	России
+T5	EVENT 72 87	чемпионате мира
+T6	CITY 99 108	Бухаресте
+T7	COUNTRY 110 117	Румыния
+T8	NUMBER 129 131	15
+T9	NUMBER 141 142	4
+T10	NUMBER 156 157	5
+T11	STATE_OR_PROVINCE 232 244	свердловские
+T13	ORGANIZATION 270 285	клуб самбо УГМК
+T14	CITY 289 302	Верхней Пышмы
+T15	PERSON 304 321	Станислав Скрябин
+T16	NUMBER 323 331	до 74 кг
+T17	ORDINAL 346 352	первый
+T18	PERSON 384 402	Альсим Черноскулов
+T19	NUMBER 404 413	до 100 кг
+T20	ORDINAL 420 432	шестикратным
+T21	PERSON 507 524	Станислав Скрябин
+T22	PERSON 576 593	Георгию Маркаряну
+T23	PERSON 757 764	Скрябин
+T24	NUMBER 782 785	два
+T26	NUMBER 821 827	четыре
+T28	NUMBER 875 876	8
+T29	PERSON 881 899	Альсим Черноскулов
+T30	NATIONALITY 951 960	белорусом
+T31	PERSON 961 979	Андреем Казусенком
+T35	NUMBER 1067 1076	до 100 кг
+T36	PERSON 1122 1129	Андреем
+T37	NUMBER 1259 1263	один
+T39	NUMBER 1318 1321	два
+T40	NUMBER 1362 1363	4
+T41	PROFESSION 1368 1382;1414 1430	Главный тренер Клуба самбо УГМК
+T43	PERSON 1431 1448	Валерий Стенников
+T44	PERSON 1499 1503	Стас
+T45	PERSON 1740 1746	Альсим
+T46	PROFESSION 1881 1890	Президент
+T47	PERSON 1898 1912	Владимир Путин
+T48	CITY 1964 1973	Бухаресте
+T49	COUNTRY 1976 1986	Российская
+T50	ORDINAL 2008 2012	28-й
+T51	EVENT 2065 2081	чемпионатах мира
+T53	AGE 2262 2270	80-летия
+T54	ORGANIZATION 0 14	Сборная России
+T56	EVENT 27 51	чемпионате мира по самбо
+T57	EVENT 72 96	чемпионате мира по самбо
+T58	ORGANIZATION 54 68	Сборная России
+T60	EVENT 201 208	турнира
+T61	PROFESSION 245 253	самбисты
+T62	AWARD 433 447	чемпионом мира
+T63	LOCATION 488 498	уральского
+T64	NUMBER 555 556	0
+T65	NUMBER 557 558	3
+T25	NUMBER 877 878	5
+T27	NUMBER 1033 1041	до 90 кг
+T33	PERSON 1088 1100	Черноскулова
+T38	NUMBER 1364 1365	1
+T68	PROFESSION 1368 1411	Главный тренер сборной Свердловской области
+T70	PROFESSION 1376 1382	тренер
+T71	ORGANIZATION 1383 1411	сборной Свердловской области
+T73	ORGANIZATION 1426 1430	УГМК
+T74	ORGANIZATION 1414 1430	Клуба самбо УГМК
+T42	STATE_OR_PROVINCE 1391 1411	Свердловской области
+T75	LOCATION 1473 1485	свердловских
+T76	PROFESSION 1486 1497	спортсменов
+T78	ORDINAL 1553 1559	первым
+T79	PROFESSION 1881 1897	Президент России
+T80	COUNTRY 1891 1897	России
+T81	ORGANIZATION 1976 1994	Российская сборная
+T83	EVENT 2065 2090	чемпионатах мира по самбо
+T84	PROFESSION 2230 2241	спортсменам
+R1	HEADQUARTERED_IN Arg1:T54 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T54 Arg2:T56	
+R3	HEADQUARTERED_IN Arg1:T58 Arg2:T4	
+R4	PARTICIPANT_IN Arg1:T58 Arg2:T57	
+R5	LOCATED_IN Arg1:T6 Arg2:T7	
+R6	TAKES_PLACE_IN Arg1:T57 Arg2:T6	
+R7	ORIGINS_FROM Arg1:T61 Arg2:T11	
+R8	WORKPLACE Arg1:T61 Arg2:T13	
+R9	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+R10	AWARDED_WITH Arg1:T18 Arg2:T62	
+R11	LOCATED_IN Arg1:T11 Arg2:T4	
+R12	LOCATED_IN Arg1:T14 Arg2:T11	
+R13	WORKPLACE Arg1:T15 Arg2:T13	
+R14	WORKPLACE Arg1:T18 Arg2:T13	
+R15	ORIGINS_FROM Arg1:T15 Arg2:T11	
+R16	ORIGINS_FROM Arg1:T18 Arg2:T11	
+R17	LOCATED_IN Arg1:T14 Arg2:T63	
+R18	PARTICIPANT_IN Arg1:T15 Arg2:T57	
+R19	PARTICIPANT_IN Arg1:T18 Arg2:T57	
+R20	PARTICIPANT_IN Arg1:T22 Arg2:T57	
+R21	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+R22	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R23	ALTERNATIVE_NAME Arg1:T29 Arg2:T33	
+R24	ALTERNATIVE_NAME Arg1:T31 Arg2:T36	
+R25	WORKS_AS Arg1:T47 Arg2:T79	
+R26	WORKPLACE Arg1:T47 Arg2:T80	
+R27	HEADQUARTERED_IN Arg1:T81 Arg2:T49	
+T1	AWARD 2023 2061	победительницей в общекомандном зачёте
+R28	AWARDED_WITH Arg1:T81 Arg2:T1	
+R29	ORIGINS_FROM Arg1:T83 Arg2:T1	
+R30	PARTICIPANT_IN Arg1:T81 Arg2:T83	
+T12	DATE 2256 2261	в год
+T32	EVENT 536 543	встречи
+R31	PARTICIPANT_IN Arg1:T21 Arg2:T32	
+R32	PARTICIPANT_IN Arg1:T22 Arg2:T32	
+R33	SUBEVENT_OF Arg1:T32 Arg2:T57	
+T34	EVENT 902 908	финале
+R34	PARTICIPANT_IN Arg1:T29 Arg2:T34	
+R35	PARTICIPANT_IN Arg1:T31 Arg2:T34	
+R36	SUBEVENT_OF Arg1:T34 Arg2:T57	
+R37	HEADQUARTERED_IN Arg1:T71 Arg2:T42	
+R38	OWNER_OF Arg1:T73 Arg2:T74	
+T52	ORGANIZATION 281 285	УГМК
+R39	OWNER_OF Arg1:T52 Arg2:T13	
+T55	AWARD 353 370	чемпионский титул
+R40	AWARDED_WITH Arg1:T15 Arg2:T55	
+R41	ALTERNATIVE_NAME Arg1:T11 Arg2:T42	
+T59	PROFESSION 1368 1382	Главный тренер
+R42	WORKPLACE Arg1:T41 Arg2:T74	
+R43	WORKPLACE Arg1:T43 Arg2:T74	
+R44	WORKPLACE Arg1:T43 Arg2:T71	
+R45	WORKS_AS Arg1:T43 Arg2:T41	
+R46	WORKPLACE Arg1:T68 Arg2:T71	
+R47	WORKS_AS Arg1:T43 Arg2:T68	
+R48	ALTERNATIVE_NAME Arg1:T23 Arg2:T44	
+R49	ALTERNATIVE_NAME Arg1:T29 Arg2:T45	
+R50	ALTERNATIVE_NAME Arg1:T57 Arg2:T60	
+R51	ORIGINS_FROM Arg1:T55 Arg2:T57	
+R52	ABBREVIATION Arg1:T76 Arg2:T75	
+R53	WORKPLACE Arg1:T79 Arg2:T80	
+N1	Reference T7 Wikidata:Q218	Румыния
+N3	Reference T14 Wikidata:Q133037	Верхняя Пышма
+N4	Reference T15 Wikidata:Q23656554	Скрябин, Станислав Михайлович
+N9	Reference T43 Wikidata:Q22919245	Валерий Стенников
+N10	Reference T46 Wikidata:Q30461	президент
+N11	Reference T47 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T48 Wikidata:Q19660	Бухарест
+N18	Reference T70 Wikidata:Q41583	тренер
+N20	Reference T73 Wikidata:Q1349918	Уральская горно-металлургическая компания
+N23	Reference T76 Wikidata:Q2066131	спортсмен
+N24	Reference T79 Wikidata:Q218295	президент Российской Федерации
+N25	Reference T80 Wikidata:Q159	Россия
+N14	Reference T58 Wikidata:NULL	нет данных
+N29	Reference T61 Wikidata:Q23927336	
+N28	Reference T55 Wikidata:NULL	нет данных
+N15	Reference T62 Wikidata:Q2948691	
+N16	Reference T63 Wikidata:Q1322976	Урал
+N5	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T30 Wikidata:Q483569	белорусы
+N30	Reference T33 Wikidata:NULL	нет данных
+N7	Reference T36 Wikidata:NULL	нет данных
+N13	Reference T49 Wikidata:Q159	Россия
+N26	Reference T81 Wikidata:NULL	нет данных
+N27	Reference T1 Wikidata:NULL	нет данных
+N22	Reference T75 Wikidata:Q5462	Свердловская область
+N2	Reference T11 Wikidata:Q5462	Свердловская область
+N21	Reference T74 Wikidata:NULL	нет данных
+N8	Reference T41 Wikidata:NULL	нет данных
+N19	Reference T71 Wikidata:NULL	нет данных
+N31	Reference T59 Wikidata:Q3246315	
+N17	Reference T68 Wikidata:NULL	нет данных
+N32	Reference T44 Wikidata:Q23656554	Скрябин, Станислав Михайлович
+N33	Reference T23 Wikidata:Q23656554	Скрябин, Станислав Михайлович
+N34	Reference T21 Wikidata:Q23656554	Скрябин, Станислав Михайлович
+N35	Reference T6 Wikidata:Q19660	Бухарест
+N36	Reference T52 Wikidata:Q1349918	Уральская горно-металлургическая компания
+N37	Reference T84 Wikidata:Q2066131	спортсмен
+N38	Reference T2 Wikidata:Q159	Россия
+N39	Reference T4 Wikidata:Q159	Россия
+N40	Reference T54 Wikidata:NULL	нет данных
+N41	Reference T18 Wikidata:NULL	нет данных
+N42	Reference T45 Wikidata:NULL	нет данных
+N43	Reference T29 Wikidata:NULL	нет данных
+N44	Reference T31 Wikidata:NULL	нет данных
+N45	Reference T42 Wikidata:Q5462	Свердловская область
+N46	Reference T13 Wikidata:NULL	нет данных

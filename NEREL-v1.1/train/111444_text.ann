@@ -1,0 +1,152 @@
+T1	PROFESSION 0 12	Топ-менеджер
+T2	ORGANIZATION 14 37	Лаборатории Касперского
+T3	ORGANIZATION 70 76	Вирлаб
+T4	PERSON 89 100	Касперского
+T5	DATE 102 123	18 сентября 2014 года
+T8	ORGANIZATION 177 200	Лаборатории Касперского
+T9	ORGANIZATION 203 205	ЛК
+T10	PERSON 207 221	Руслан Стоянов
+T11	ORGANIZATION 282 293	КоммерсантЪ
+T12	ORGANIZATION 329 332	ФСБ
+T13	ORGANIZATION 338 361	Лаборатории Касперского
+T14	PERSON 482 489	Стоянов
+T16	PROFESSION 527 540	топ-менеджера
+T17	ORGANIZATION 541 543	ЛК
+T19	PROFESSION 614 658	главы Центра информационной безопасности ФСБ
+T20	ORGANIZATION 620 654	Центра информационной безопасности
+T21	ORGANIZATION 655 658	ФСБ
+T22	PERSON 659 675	Сергея Михайлова
+T24	ORGANIZATION 748 752	ЦИБа
+T25	PERSON 753 769	Андрей Герасимов
+T26	ORGANIZATION 796 797	Ъ
+T27	PERSON 826 835	Михайлова
+T28	ORGANIZATION 845 880	управление собственной безопасности
+T29	ORGANIZATION 881 884	ФСБ
+T30	PERSON 886 894	Михайлов
+T32	LAW 929 934	УК РФ
+T34	PERSON 1017 1025	Михайлов
+T35	PROFESSION 1096 1129	сотрудника российской ИБ-компании
+T36	COUNTRY 1107 1117	российской
+T38	ORGANIZATION 1143 1146	ЦИБ
+T39	PERSON 1155 1164	Михайлова
+T40	PERSON 1279 1287	Михайлов
+R4	ABBREVIATION Arg1:T8 Arg2:T9
+R7	WORKS_AS Arg1:T22 Arg2:T56
+R9	WORKPLACE Arg1:T22 Arg2:T55
+T41	PERSON 26 37	Касперского
+T42	ORGANIZATION 77 100	Лаборатории Касперского
+T43	PERSON 189 200	Касперского
+T45	ORGANIZATION 131 201	отдела расследования компьютерных инцидентов «Лаборатории Касперского»
+T47	PERSON 350 361	Касперского
+T48	PROFESSION 527 543	топ-менеджера ЛК
+T49	PROFESSION 738 752	начальник ЦИБа
+R2	WORKS_AS Arg1:T25 Arg2:T49	
+T50	ORGANIZATION 845 884	управление собственной безопасности ФСБ
+R3	OWNER_OF Arg1:T41 Arg2:T2	
+T51	PROFESSION 0 38	Топ-менеджер «Лаборатории Касперского»
+T52	CRIME 59 68	госизмене
+T53	EVENT 39 48	арестован
+R5	PARTICIPANT_IN Arg1:T51 Arg2:T53	
+R10	WORKPLACE Arg1:T51 Arg2:T2	
+R14	WORKPLACE Arg1:T10 Arg2:T45	
+T6	EVENT 222 231	арестован
+R15	PARTICIPANT_IN Arg1:T10 Arg2:T6	
+T7	CRIME 248 270	государственной измене
+R16	ALTERNATIVE_NAME Arg1:T52 Arg2:T7	
+T44	EVENT 375 380	арест
+T54	EVENT 521 526	Арест
+T55	ORGANIZATION 620 658	Центра информационной безопасности ФСБ
+T56	PROFESSION 601 658	заместителей главы Центра информационной безопасности ФСБ
+R8	SUBORDINATE_OF Arg1:T22 Arg2:T19	
+R18	SUBORDINATE_OF Arg1:T56 Arg2:T19	
+R19	WORKPLACE Arg1:T56 Arg2:T20	
+R20	WORKPLACE Arg1:T19 Arg2:T55	
+R11	ABBREVIATION Arg1:T20 Arg2:T24	
+R21	WORKPLACE Arg1:T25 Arg2:T24	
+R22	ALTERNATIVE_NAME Arg1:T22 Arg2:T27	
+T23	CRIME 937 959	Государственная измена
+T57	COUNTRY 932 934	РФ
+T58	LAW 929 931	УК
+T31	EVENT 1149 1154	арест
+R23	PARTICIPANT_IN Arg1:T39 Arg2:T31	
+R24	OWNER_OF Arg1:T4 Arg2:T42	
+T59	ORGANIZATION 70 100	Вирлаб Лаборатории Касперского
+R25	OWNER_OF Arg1:T43 Arg2:T8	
+R26	OWNER_OF Arg1:T47 Arg2:T13	
+R27	ALTERNATIVE_NAME Arg1:T10 Arg2:T14	
+T15	ORGANIZATION 508 517	Лефортово
+R17	LOCATED_IN Arg1:T14 Arg2:T15	
+R28	PARTICIPANT_IN Arg1:T48 Arg2:T54	
+T18	PROFESSION 125 201	Глава отдела расследования компьютерных инцидентов «Лаборатории Касперского»
+R1	WORKPLACE Arg1:T18 Arg2:T45	
+R13	WORKS_AS Arg1:T10 Arg2:T18	
+R29	ALTERNATIVE_NAME Arg1:T51 Arg2:T18	
+R30	ALTERNATIVE_NAME Arg1:T18 Arg2:T48	
+R6	WORKPLACE Arg1:T48 Arg2:T17	
+R31	WORKPLACE Arg1:T49 Arg2:T24	
+R32	ALTERNATIVE_NAME Arg1:T11 Arg2:T26	
+R33	ORIGINS_FROM Arg1:T32 Arg2:T57	
+T33	LAW 921 934	ст. 275 УК РФ
+T46	ORDINAL 925 928	275
+R35	ALTERNATIVE_NAME Arg1:T57 Arg2:T36	
+R36	ABBREVIATION Arg1:T20 Arg2:T38	
+R37	HAS_CAUSE Arg1:T53 Arg2:T52	
+R38	CONVICTED_OF Arg1:T51 Arg2:T52	
+R39	HAS_CAUSE Arg1:T6 Arg2:T7	
+R40	CONVICTED_OF Arg1:T10 Arg2:T7	
+R41	PART_OF Arg1:T55 Arg2:T21	
+R42	PART_OF Arg1:T50 Arg2:T29	
+R43	ALTERNATIVE_NAME Arg1:T6 Arg2:T44	
+R44	ALTERNATIVE_NAME Arg1:T44 Arg2:T54	
+R45	PART_OF Arg1:T33 Arg2:T32	
+R12	HEADQUARTERED_IN Arg1:T29 Arg2:T36	
+R46	HEADQUARTERED_IN Arg1:T17 Arg2:T36	
+N2	Reference T11 Wikidata:Q1780189	Коммерсантъ
+N8	Reference T29 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N9	Reference T32 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N13	Reference T42 Wikidata:Q489943	Лаборатория Касперского
+N20	Reference T57 Wikidata:Q159	Россия
+N22	Reference T59 Wikidata:NULL	нет данных
+N26	Reference T3 Wikidata:NULL	нет данных
+N24	Reference T18 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	нет данных
+N14	Reference T43 Wikidata:Q4864	Касперский, Евгений Валентинович
+N1	Reference T10 Wikidata:NULL	нет данных
+N23	Reference T15 Wikidata:Q1346321	
+N4	Reference T17 Wikidata:Q489943	Лаборатория Касперского
+N18	Reference T55 Wikidata:Q4503984	
+N5	Reference T19 Wikidata:NULL	нет данных
+N19	Reference T56 Wikidata:NULL	нет данных
+N27	Reference T24 Wikidata:Q4503984	
+N16	Reference T49 Wikidata:NULL	нет данных
+N21	Reference T58 Wikidata:Q19705	уголовное законодательство
+N25	Reference T33 Wikidata:NULL	нет данных
+N10	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T28 Wikidata:NULL	нет данных
+N11	Reference T50 Wikidata:NULL	нет данных
+N6	Reference T25 Wikidata:NULL	нет данных
+N12	Reference T40 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:Q10501288	
+N28	Reference T26 Wikidata:Q1780189	Коммерсантъ
+N29	Reference T21 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N30	Reference T12 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N31	Reference T13 Wikidata:Q489943	Лаборатория Касперского
+N32	Reference T2 Wikidata:Q489943	Лаборатория Касперского
+N33	Reference T36 Wikidata:Q159	Россия
+N34	Reference T48 Wikidata:NULL	нет данных
+N35	Reference T51 Wikidata:NULL	нет данных
+N36	Reference T41 Wikidata:Q4864	Касперский, Евгений Валентинович
+N37	Reference T4 Wikidata:Q4864	Касперский, Евгений Валентинович
+N38	Reference T47 Wikidata:Q4864	Касперский, Евгений Валентинович
+N39	Reference T14 Wikidata:NULL	нет данных
+N40	Reference T8 Wikidata:Q489943	Лаборатория Касперского
+N41	Reference T9 Wikidata:Q489943	Лаборатория Касперского
+N42	Reference T20 Wikidata:Q4503984	
+N43	Reference T38 Wikidata:Q4503984	
+N44	Reference T23 Wikidata:NULL	нет данных
+N45	Reference T22 Wikidata:NULL	нет данных
+N46	Reference T30 Wikidata:NULL	нет данных
+N47	Reference T34 Wikidata:NULL	нет данных
+N48	Reference T39 Wikidata:NULL	нет данных
+N49	Reference T27 Wikidata:NULL	нет данных
+N50	Reference T1 Wikidata:Q10501288	

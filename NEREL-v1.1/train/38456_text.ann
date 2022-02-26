@@ -1,0 +1,222 @@
+T1	PERSON 0 10	Ларри Кинг
+T2	COUNTRY 35 45	российском
+T3	ORGANIZATION 86 88	RT
+T4	PERSON 89 103	Владимир Путин
+T5	PERSON 106 116	Ларри Кинг
+T6	DATE 117 137	8 сентября 2000 года
+T8	NATIONALITY 149 161	американский
+T9	PERSON 174 184	Ларри Кинг
+T10	COUNTRY 209 219	российском
+T11	ORGANIZATION 260 262	RT
+T12	AGE 264 273	79-летний
+T14	PERSON 317 327	Larry King
+T15	WORK_OF_ART 317 332	Larry King Live
+T16	ORGANIZATION 336 339	CNN
+T17	NUMBER 356 360	двух
+T18	PERSON 372 382	Larry King
+T19	WORK_OF_ART 372 386	Larry King Now
+T20	WORK_OF_ART 389 413	Politics with Larry King
+T21	PERSON 403 413	Larry King
+T22	ORGANIZATION 428 446	Русской службе BBC
+T23	PROFESSION 455 463	редактор
+T24	PERSON 471 489	Маргарита Симоньян
+T25	PERSON 501 511	Larry King
+T26	WORK_OF_ART 501 515	Larry King Now
+T27	DATE 525 541	с июля 2012 года
+T28	PRODUCT 585 589	Hulu
+T29	ORGANIZATION 616 626	RT America
+T30	PRODUCT 683 689	rt.com
+T31	PRODUCT 691 697	ora.tv
+T32	PRODUCT 700 708	hulu.com
+T33	PERSON 711 719	Симоньян
+T34	ORGANIZATION 731 745	bbcrussian.com
+T35	WORK_OF_ART 894 917	Политика с Ларри Кингом
+T36	PERSON 905 917	Ларри Кингом
+T37	PERSON 936 944	Симоньян
+T38	ORGANIZATION 973 975	RT
+T39	CITY 1018 1031	вашингтонской
+T40	ORGANIZATION 1039 1041	RT
+T41	ORGANIZATION 1079 1085	Ора ТВ
+T42	CITY 1089 1101	Лос-Анжелесе
+T43	PERSON 1105 1115	Ларри Кинг
+T44	WORK_OF_ART 1105 1122	Ларри Кинг сейчас
+T45	DATE 1151 1171	с лета прошлого года
+T46	ORGANIZATION 1197 1199	RT
+T47	PERSON 1249 1254	Кинга
+T48	PROFESSION 1256 1264	глава RT
+T49	COUNTRY 1297 1309	американской
+T50	COUNTRY 1361 1371	российские
+T51	PERSON 1380 1390	Ларри Кинг
+T52	PERSON 1567 1575	Симоньян
+T53	PERSON 1578 1588	Ларри Кинг
+T54	PERSON 1590 1600	Larry King
+T56	PERSON 1650 1672	Lawrence Harvey Zeiger
+T57	COUNTRY 1676 1688	американский
+T59	WORK_OF_ART 1789 1804	Larry King Live
+T61	NUMBER 1868 1881	более 50 тыс.
+T62	COUNTRY 1986 1998	американских
+T63	PERSON 2022 2037	Ричарда Никсона
+T64	COUNTRY 2039 2049	Российским
+T66	PERSON 2107 2123	Владимира Путина
+T67	LANGUAGE 62 74	англоязычном
+T7	PROFESSION 162 173	телеведущий
+T68	LANGUAGE 236 248	англоязычном
+T69	PROFESSION 274 287	тележурналист
+T70	ORGANIZATION 443 446	BBC
+T71	LANGUAGE 428 435	Русской
+T72	PROFESSION 447 470	главный редактор канала
+T74	PROFESSION 447 463	главный редактор
+T75	PRODUCT 558 567	интернете
+T76	PROFESSION 776 783	ведущим
+T78	ORGANIZATION 1262 1264	RT
+T79	PROFESSION 1450 1461	телеведущий
+T80	PROFESSION 1689 1702	тележурналист
+T81	PROFESSION 1818 1825	ведущим
+T82	PROFESSION 1893 1904	президентов
+T83	PROFESSION 1906 1913	актёров
+T84	PROFESSION 1915 1925	музыкантов
+T85	PROFESSION 1927 1936	политиков
+T86	PROFESSION 1938 1959	общественных деятелей
+T87	PROFESSION 1999 2010	президентов
+T88	PROFESSION 1986 2010	американских президентов
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T2	
+R2	WORKS_AS Arg1:T9 Arg2:T7	
+R3	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R4	HEADQUARTERED_IN Arg1:T11 Arg2:T10	
+R5	AGE_IS Arg1:T69 Arg2:T12	
+R6	ALTERNATIVE_NAME Arg1:T7 Arg2:T69	
+R7	WORKS_AS Arg1:T9 Arg2:T69	
+T13	DATE 297 308	долгие годы
+R8	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R9	PRODUCES Arg1:T14 Arg2:T15	
+R10	PRODUCES Arg1:T16 Arg2:T15	
+T89	PROFESSION 348 355	ведущим
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T89	
+R12	PRODUCES Arg1:T21 Arg2:T20	
+R13	PRODUCES Arg1:T18 Arg2:T19	
+R14	PART_OF Arg1:T22 Arg2:T70	
+R15	WORKS_AS Arg1:T24 Arg2:T72	
+R16	WORKPLACE Arg1:T24 Arg2:T22	
+R17	PRODUCES Arg1:T25 Arg2:T26	
+T73	COUNTRY 619 626	America
+R19	ALTERNATIVE_NAME Arg1:T24 Arg2:T33	
+R20	ALTERNATIVE_NAME Arg1:T20 Arg2:T35	
+R21	PRODUCES Arg1:T36 Arg2:T35	
+R18	PART_OF Arg1:T29 Arg2:T38	
+R22	HEADQUARTERED_IN Arg1:T29 Arg2:T73	
+R23	LOCATED_IN Arg1:T39 Arg2:T73	
+R24	LOCATED_IN Arg1:T41 Arg2:T42	
+R25	LOCATED_IN Arg1:T42 Arg2:T73	
+R26	ALTERNATIVE_NAME Arg1:T19 Arg2:T44	
+R27	PRODUCES Arg1:T43 Arg2:T44	
+T90	PRODUCT 1137 1145	интернет
+T77	DATE 1200 1219	ежедневно по будням
+R28	ALTERNATIVE_NAME Arg1:T43 Arg2:T47	
+R29	WORKPLACE Arg1:T48 Arg2:T78	
+R30	ALTERNATIVE_NAME Arg1:T73 Arg2:T49	
+R31	ALTERNATIVE_NAME Arg1:T8 Arg2:T73	
+R32	WORKS_AS Arg1:T51 Arg2:T79	
+R33	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R36	ORIGINS_FROM Arg1:T80 Arg2:T57	
+R37	WORKS_AS Arg1:T53 Arg2:T80	
+R38	ORIGINS_FROM Arg1:T53 Arg2:T57	
+T55	PERSON 1619 1639	Лоуренс Харви Зайгер
+T91	PERSON 1641 1647	Цайгер
+R34	ALTERNATIVE_NAME Arg1:T55 Arg2:T91	
+R35	ALTERNATIVE_NAME Arg1:T55 Arg2:T56	
+R39	ALTERNATIVE_NAME Arg1:T54 Arg2:T55	
+T58	DATE 1728 1740	более 56 лет
+T92	PERSON 1789 1799	Larry King
+R40	PRODUCES Arg1:T92 Arg2:T59	
+T60	DATE 1843 1849;1858 1861	с 1985 год
+T93	DATE 1850 1861	по 2010 год
+R41	WORKPLACE Arg1:T88 Arg2:T62	
+R42	WORKS_AS Arg1:T63 Arg2:T88	
+T65	DATE 2084 2095	в 2000 году
+T94	EVENT 2096 2104	интервью
+R43	PARTICIPANT_IN Arg1:T66 Arg2:T94	
+R44	POINT_IN_TIME Arg1:T94 Arg2:T65	
+R45	AGENT Arg1:T53 Arg2:T94	
+R46	AGE_IS Arg1:T9 Arg2:T12	
+R47	LOCATED_IN Arg1:T40 Arg2:T39	
+N2	Reference T9 Wikidata:Q213430	Ларри Кинг
+N3	Reference T16 Wikidata:Q48340	CNN
+N6	Reference T23 Wikidata:Q876864	редактор
+N8	Reference T28 Wikidata:Q1630304	Hulu
+N12	Reference T32 Wikidata:Q1630304	Hulu
+N15	Reference T37 Wikidata:Q4419809	Маргарита Симоновна Симоньян
+N22	Reference T59 Wikidata:Q1423559	Шоу Ларри Кинга
+N23	Reference T63 Wikidata:Q9588	Ричард Никсон
+N25	Reference T66 Wikidata:Q7747	Владимир Владимирович Путин
+N28	Reference T71 Wikidata:Q7737	русский язык
+N29	Reference T72 Wikidata:Q589298	главный редактор
+N30	Reference T74 Wikidata:Q589298	главный редактор
+N31	Reference T78 Wikidata:Q22868	RT
+N32	Reference T81 Wikidata:Q947873	телеведущий
+N33	Reference T83 Wikidata:Q33999	актёр
+N34	Reference T84 Wikidata:Q639669	музыкант
+N35	Reference T85 Wikidata:Q82955	политик
+N36	Reference T86 Wikidata:Q662729	общественный деятель
+N37	Reference T87 Wikidata:Q30461	президент
+N39	Reference T90 Wikidata:Q75	Интернет
+N1	Reference T8 Wikidata:Q846570	
+N26	Reference T68 Wikidata:Q1860	английский язык
+N4	Reference T18 Wikidata:Q213430	Ларри Кинг
+N27	Reference T70 Wikidata:Q9531	Би-би-си
+N5	Reference T22 Wikidata:Q4400554	
+N7	Reference T26 Wikidata:Q15995251	
+N9	Reference T29 Wikidata:Q15545861	RT America
+N10	Reference T30 Wikidata:Q22868	RT
+N13	Reference T34 Wikidata:NULL	нет данных
+N14	Reference T35 Wikidata:Q21160101	
+N16	Reference T39 Wikidata:Q61	Вашингтон
+N17	Reference T41 Wikidata:Q6051712	
+N11	Reference T31 Wikidata:Q6051712	
+N18	Reference T42 Wikidata:Q65	Лос-Анджелес
+N19	Reference T47 Wikidata:Q213430	Ларри Кинг
+N20	Reference T48 Wikidata:NULL	нет данных
+N21	Reference T49 Wikidata:Q30	США
+N38	Reference T88 Wikidata:Q11696	президент США
+N24	Reference T64 Wikidata:Q159	Россия
+N40	Reference T14 Wikidata:Q213430	Ларри Кинг
+N41	Reference T33 Wikidata:Q4419809	Маргарита Симоновна Симоньян
+N42	Reference T24 Wikidata:Q4419809	Маргарита Симоновна Симоньян
+N43	Reference T52 Wikidata:Q4419809	Маргарита Симоновна Симоньян
+N44	Reference T15 Wikidata:Q1423559	Шоу Ларри Кинга
+N45	Reference T4 Wikidata:Q7747	Владимир Владимирович Путин
+N46	Reference T40 Wikidata:Q22868	RT
+N47	Reference T38 Wikidata:Q22868	RT
+N48	Reference T46 Wikidata:Q22868	RT
+N49	Reference T11 Wikidata:Q22868	RT
+N50	Reference T3 Wikidata:Q22868	RT
+N51	Reference T69 Wikidata:Q947873	телеведущий
+N52	Reference T80 Wikidata:Q947873	телеведущий
+N53	Reference T7 Wikidata:Q947873	телеведущий
+N54	Reference T79 Wikidata:Q947873	телеведущий
+N55	Reference T89 Wikidata:Q947873	телеведущий
+N56	Reference T76 Wikidata:Q947873	телеведущий
+N57	Reference T82 Wikidata:Q30461	президент
+N58	Reference T75 Wikidata:Q75	Интернет
+N59	Reference T67 Wikidata:Q1860	английский язык
+N60	Reference T55 Wikidata:Q213430	Ларри Кинг
+N61	Reference T36 Wikidata:Q213430	Ларри Кинг
+N62	Reference T51 Wikidata:Q213430	Ларри Кинг
+N63	Reference T56 Wikidata:Q213430	Ларри Кинг
+N64	Reference T5 Wikidata:Q213430	Ларри Кинг
+N65	Reference T53 Wikidata:Q213430	Ларри Кинг
+N66	Reference T91 Wikidata:Q213430	Ларри Кинг
+N67	Reference T25 Wikidata:Q213430	Ларри Кинг
+N68	Reference T92 Wikidata:Q213430	Ларри Кинг
+N69	Reference T54 Wikidata:Q213430	Ларри Кинг
+N70	Reference T1 Wikidata:Q213430	Ларри Кинг
+N71	Reference T21 Wikidata:Q213430	Ларри Кинг
+N72	Reference T19 Wikidata:Q15995251	
+N73	Reference T44 Wikidata:Q15995251	
+N74	Reference T20 Wikidata:Q21160101	
+N75	Reference T43 Wikidata:Q213430	Ларри Кинг
+N76	Reference T57 Wikidata:Q30	США
+N77	Reference T73 Wikidata:Q30	США
+N78	Reference T62 Wikidata:Q30	США
+N79	Reference T50 Wikidata:Q159	Россия
+N80	Reference T2 Wikidata:Q159	Россия
+N81	Reference T10 Wikidata:Q159	Россия

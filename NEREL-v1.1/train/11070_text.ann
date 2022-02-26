@@ -1,0 +1,131 @@
+T1	PERSON 0 8	Медведев
+T2	PROFESSION 35 39	мэра
+T3	CITY 40 46	Москвы
+T4	PERSON 47 54	Лужкова
+T5	PROFESSION 55 64	Президент
+T6	COUNTRY 65 71	России
+T7	PERSON 72 88	Дмитрий Медведев
+T8	DATE 89 100	28 сентября
+T9	PROFESSION 151 155	мэра
+T10	CITY 156 162	Москвы
+T11	PROFESSION 208 218	президента
+T12	COUNTRY 219 221	РФ
+T13	PERSON 224 238	Владимир Путин
+T14	PERSON 241 252	Юрий Лужков
+T15	PERSON 254 265	Юрий Лужков
+T16	PROFESSION 286 290	мэра
+T17	CITY 291 297	Москвы
+T18	DATE 298 310	более 18 лет
+T19	CITY 434 440	Москвы
+T20	DATE 508 524	Последние недели
+T21	PROFESSION 595 599	мэра
+T22	CITY 600 606	Москвы
+T23	ORGANIZATION 707 710	СКП
+T24	ORGANIZATION 713 716	МВД
+T25	COUNTRY 717 723	России
+T26	PROFESSION 820 824	мэра
+T27	PERSON 825 837	Юрия Лужкова
+T28	PERSON 852 867	Елены Батуриной
+T29	PERSON 971 983	Иосиф Кобзон
+T30	PERSON 1002 1016	Юрием Лужковым
+T31	PROFESSION 1022 1025	мэр
+T32	PERSON 1153 1164	Юрий Лужков
+T33	PROFESSION 1183 1193	президента
+T41	PROFESSION 1306 1311	мэром
+T42	COUNTRY 1320 1326	России
+T44	PERSON 1402 1426	Владимир Иосифович Ресин
+R1	WORKPLACE Arg1:T4 Arg2:T3
+R4	WORKS_AS Arg1:T15 Arg2:T16
+R5	WORKPLACE Arg1:T15 Arg2:T17
+R6	WORKS_AS Arg1:T27 Arg2:T26
+R17	WORKS_AS Arg1:T44 Arg2:T41
+R18	WORKPLACE Arg1:T44 Arg2:T42
+T45	PROFESSION 35 46	мэра Москвы
+R19	WORKS_AS Arg1:T4 Arg2:T45	
+T46	PROFESSION 55 71	Президент России
+T47	LAW 116 162	О досрочном прекращении полномочий мэра Москвы
+T48	PROFESSION 151 162	мэра Москвы
+T49	PROFESSION 208 221	президента РФ
+T50	PROFESSION 286 297	мэра Москвы
+T51	PROFESSION 595 606	мэра Москвы
+T52	ORGANIZATION 713 723	МВД России
+T53	CITY 1312 1326	столицы России
+R7	SPOUSE Arg1:T27 Arg2:T28	
+T34	PROFESSION 1306 1326	мэром столицы России
+T35	EVENT 101 114	подписал указ
+R8	POINT_IN_TIME Arg1:T35 Arg2:T8	
+R9	PRODUCES Arg1:T7 Arg2:T47	
+R10	AGENT Arg1:T7 Arg2:T35	
+R2	KNOWS Arg1:T29 Arg2:T30	
+T36	EVENT 9 22	подписал указ
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T36	
+T37	EVENT 26 34	отставке
+R11	PARTICIPANT_IN Arg1:T4 Arg2:T37	
+R12	AGENT Arg1:T1 Arg2:T37	
+T38	LAW 1134 1151	указа об отставке
+R14	WORKS_AS Arg1:T7 Arg2:T46	
+R15	WORKPLACE Arg1:T7 Arg2:T6	
+R16	WORKPLACE Arg1:T45 Arg2:T3	
+R20	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R21	WORKPLACE Arg1:T46 Arg2:T6	
+R22	WORKPLACE Arg1:T48 Arg2:T10	
+R23	WORKPLACE Arg1:T49 Arg2:T12	
+R24	ALTERNATIVE_NAME Arg1:T4 Arg2:T14	
+R25	WORKPLACE Arg1:T16 Arg2:T17	
+R26	WORKPLACE Arg1:T51 Arg2:T22	
+R27	HEADQUARTERED_IN Arg1:T52 Arg2:T25	
+R28	LOCATED_IN Arg1:T53 Arg2:T42	
+R29	WORKPLACE Arg1:T34 Arg2:T53	
+R30	ALTERNATIVE_NAME Arg1:T34 Arg2:T51	
+R31	SUBORDINATE_OF Arg1:T44 Arg2:T32	
+R32	SUBORDINATE_OF Arg1:T44 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T46 Arg2:T49	
+R34	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R35	ALTERNATIVE_NAME Arg1:T22 Arg2:T53	
+R36	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R37	ALTERNATIVE_NAME Arg1:T22 Arg2:T53	
+R38	WORKS_AS Arg1:T30 Arg2:T31	
+N1	Reference T5 Wikidata:Q30461	президент
+N2	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N3	Reference T10 Wikidata:Q649	Москва
+N4	Reference T13 Wikidata:Q7747	Владимир Владимирович Путин
+N6	Reference T24 Wikidata:Q6589202	министерство внутренних дел
+N7	Reference T25 Wikidata:Q159	Россия
+N8	Reference T26 Wikidata:Q30185	мэр
+N9	Reference T27 Wikidata:Q156379	Юрий Михайлович Лужков
+N10	Reference T28 Wikidata:Q466610	Елена Николаевна Батурина
+N11	Reference T29 Wikidata:Q1980296	Иосиф Давыдович Кобзон
+N12	Reference T44 Wikidata:Q983851	Ресин, Владимир Иосифович
+N13	Reference T45 Wikidata:Q1837906	мэр Москвы
+N14	Reference T46 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T52 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N15	Reference T47 Wikidata:NULL	нет данных
+N5	Reference T23 Wikidata:Q13424759	
+N17	Reference T38 Wikidata:NULL	нет данных
+N18	Reference T11 Wikidata:Q30461	президент
+N19	Reference T33 Wikidata:Q30461	президент
+N20	Reference T1 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N21	Reference T3 Wikidata:Q649	Москва
+N22	Reference T19 Wikidata:Q649	Москва
+N23	Reference T22 Wikidata:Q649	Москва
+N24	Reference T53 Wikidata:Q649	Москва
+N25	Reference T17 Wikidata:Q649	Москва
+N26	Reference T42 Wikidata:Q159	Россия
+N27	Reference T6 Wikidata:Q159	Россия
+N28	Reference T12 Wikidata:Q159	Россия
+N29	Reference T9 Wikidata:Q30185	мэр
+N30	Reference T31 Wikidata:Q30185	мэр
+N31	Reference T21 Wikidata:Q30185	мэр
+N32	Reference T41 Wikidata:Q30185	мэр
+N33	Reference T2 Wikidata:Q30185	мэр
+N34	Reference T16 Wikidata:Q30185	мэр
+N35	Reference T14 Wikidata:Q156379	Юрий Михайлович Лужков
+N36	Reference T4 Wikidata:Q156379	Юрий Михайлович Лужков
+N37	Reference T15 Wikidata:Q156379	Юрий Михайлович Лужков
+N38	Reference T32 Wikidata:Q156379	Юрий Михайлович Лужков
+N39	Reference T30 Wikidata:Q156379	Юрий Михайлович Лужков
+N40	Reference T50 Wikidata:Q1837906	мэр Москвы
+N41	Reference T34 Wikidata:Q1837906	мэр Москвы
+N42	Reference T51 Wikidata:Q1837906	мэр Москвы
+N43	Reference T48 Wikidata:Q1837906	мэр Москвы
+N44	Reference T49 Wikidata:Q218295	президент Российской Федерации

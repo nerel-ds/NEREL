@@ -1,0 +1,110 @@
+T1	ORGANIZATION 0 21	Исламское государство
+T2	EVENT 43 50	теракту
+T3	CITY 53 62	Нью-Йорке
+T4	PERSON 95 101	Саипов
+T5	ORGANIZATION 125 127	ИГ
+T6	CITY 159 168	Нью-Йорке
+T7	DATE 210 218	2 ноября
+T8	PERSON 250 266	Сайфулло Саипова
+T9	DISTRICT 270 280	Манхэттене
+T10	NUMBER 289 290	8
+T11	ORGANIZATION 301 303	ИГ
+T12	ORDINAL 329 332	104
+T14	WORK_OF_ART 369 377	Аль-Наба
+T15	ORGANIZATION 418 420	ИГ
+T16	PERSON 459 466	Саипова
+T17	PROFESSION 532 539	стрелок
+T18	CITY 543 553	Лас-Вегаса
+T19	ORGANIZATION 578 580	ИГ
+T20	PERSON 600 616	АбдулБарр Амрики
+T21	DATE 620 640	31 октября 2017 года
+T22	AGE 641 650	29-летний
+T23	COUNTRY 664 675	Узбекистана
+T24	PERSON 676 691	Сайфулло Саипов
+T25	NUMBER 763 764	8
+T26	NUMBER 783 794	не менее 15
+T27	ORGANIZATION 837 858	Исламское государство
+T28	PERSON 894 900	Саипов
+T29	ORGANIZATION 945 947	ИГ
+T30	ORGANIZATION 1011 1013	ИГ
+T31	NUMBER 1043 1058	несколько тысяч
+T32	NUMBER 1066 1073	десятки
+T33	ORGANIZATION 1101 1103	ИГ
+T34	DATE 1186 1202	около года назад
+T35	ORGANIZATION 1240 1242	ИГ
+T36	DATE 1244 1269	Примерно два месяца назад
+T37	DATE 1323 1337	В прошлом году
+T38	ORGANIZATION 1345 1347	ИГ
+T39	WORK_OF_ART 1349 1355	Румийя
+T40	PERSON 1270 1276	Саипов
+T41	PERSON 554 567	Стивен Пэддок
+T42	PROFESSION 591 599	муджахид
+T43	EVENT 736 748	давить людей
+T13	ORGANIZATION 102 123	Исламское государство
+T45	EVENT 149 156	теракта
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R2	ALTERNATIVE_NAME Arg1:T13 Arg2:T5	
+R3	TAKES_PLACE_IN Arg1:T45 Arg2:T6	
+R4	LOCATED_IN Arg1:T9 Arg2:T6	
+T44	EVENT 281 298	погибло 8 человек
+R5	SUBEVENT_OF Arg1:T44 Arg2:T45	
+R6	TAKES_PLACE_IN Arg1:T44 Arg2:T9	
+R7	AGENT Arg1:T8 Arg2:T44	
+R8	PRODUCES Arg1:T11 Arg2:T14	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T16	
+R10	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R11	AGE_IS Arg1:T24 Arg2:T22	
+R12	WORKS_AS Arg1:T20 Arg2:T42	
+R13	WORKS_AS Arg1:T41 Arg2:T17	
+R14	ORIGINS_FROM Arg1:T41 Arg2:T18	
+R15	ALTERNATIVE_NAME Arg1:T41 Arg2:T20	
+R16	AGENT Arg1:T24 Arg2:T43	
+R17	POINT_IN_TIME Arg1:T43 Arg2:T21	
+R18	ALTERNATIVE_NAME Arg1:T45 Arg2:T43	
+T46	EVENT 763 780	8 человек погибли
+T47	EVENT 783 811	не менее 15 получили ранения
+R19	SUBEVENT_OF Arg1:T47 Arg2:T43	
+R20	SUBEVENT_OF Arg1:T46 Arg2:T43	
+T48	LANGUAGE 382 390	арабском
+T49	EVENT 706 727	выехал на велодорожку
+R21	AGENT Arg1:T24 Arg2:T49	
+R22	HAS_CAUSE Arg1:T43 Arg2:T49	
+R23	POINT_IN_TIME Arg1:T49 Arg2:T21	
+R24	ALTERNATIVE_NAME Arg1:T24 Arg2:T28	
+R25	PRODUCES Arg1:T38 Arg2:T39	
+T50	RELIGION 0 9	Исламское
+R26	RELIGION_OF Arg1:T1 Arg2:T50	
+T51	RELIGION 102 111	Исламское
+R27	RELIGION_OF Arg1:T13 Arg2:T51	
+N1	Reference T6 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N2	Reference T9 Wikidata:Q11299	Манхэттен
+N3	Reference T14 Wikidata:Q392239	Набу
+N6	Reference T18 Wikidata:Q23768	Лас-Вегас
+N7	Reference T23 Wikidata:Q265	Узбекистан
+N8	Reference T35 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N9	Reference T39 Wikidata:Q27076682	Румийя
+N11	Reference T41 Wikidata:Q41529365	Стивен Пэддок
+N12	Reference T42 Wikidata:Q42759	муджахид
+N13	Reference T48 Wikidata:Q13955	арабский язык
+N14	Reference T51 Wikidata:Q432	ислам
+N4	Reference T16 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:Q619851	
+N15	Reference T3 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N16	Reference T13 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N17	Reference T5 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N18	Reference T38 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N19	Reference T15 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N20	Reference T19 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N21	Reference T30 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N22	Reference T33 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N23	Reference T29 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N24	Reference T11 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N25	Reference T1 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N26	Reference T27 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N27	Reference T20 Wikidata:Q41529365	Стивен Пэддок
+N28	Reference T50 Wikidata:Q432	ислам
+N29	Reference T8 Wikidata:NULL	нет данных
+N30	Reference T28 Wikidata:NULL	нет данных
+N31	Reference T4 Wikidata:NULL	нет данных
+N32	Reference T24 Wikidata:NULL	нет данных

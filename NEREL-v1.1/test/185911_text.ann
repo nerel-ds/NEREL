@@ -1,0 +1,186 @@
+T1	COUNTRY 74 80	России
+T2	PERSON 81 94	Жорес Алферов
+T3	DATE 95 106	в 2012 году
+T4	PROFESSION 141 206	депутат Государственной думы Российской Федерации от фракции КПРФ
+T5	ORGANIZATION 202 206	КПРФ
+T6	ORDINAL 259 265	втором
+T7	ORGANIZATION 276 280	КПРФ
+T8	PERSON 349 357	Алфёрова
+T9	ORDINAL 424 431	третьем
+T10	PERSON 453 460	Алферов
+T11	PROFESSION 502 509	Депутат
+T12	ORGANIZATION 534 538	КПРФ
+T13	PERSON 566 573	Алфёров
+T14	ORGANIZATION 667 687	Государственной думы
+T15	ORDINAL 784 790	втором
+T16	ORGANIZATION 820 840	Государственной думы
+T17	DATE 864 888	на 29 сентября 2018 года
+T18	PERSON 895 902	Алфёров
+T19	ORGANIZATION 941 945	КПРФ
+T20	ORGANIZATION 1022 1026	КПРФ
+T21	PROFESSION 1060 1067	депутат
+T22	PERSON 1068 1090	Жорес Иванович Алфёров
+T23	ORDINAL 1212 1218	втором
+T24	NUMBER 1334 1338	один
+T25	ORGANIZATION 1352 1356	КПРФ
+T26	PROFESSION 1415 1422	Депутат
+T27	ORGANIZATION 1426 1430	КПРФ
+T28	PERSON 1431 1446	Сергей Казанков
+T29	PERSON 1481 1489	Алферова
+T30	PERSON 1519 1532	Жорес Алфёров
+T31	NUMBER 1570 1574	двух
+T32	COUNTRY 1591 1597	России
+T33	AWARD 1616 1634	Нобелевскую премию
+T34	ORDINAL 1636 1642	Второй
+T35	PERSON 1645 1660	Михаил Горбачёв
+T36	PERSON 1662 1669	Алфёров
+T37	PROFESSION 1694 1703	депутатом
+T38	ORGANIZATION 1743 1747	КПРФ
+T39	COUNTRY 1903 1909	России
+T40	AGE 1926 1932	65 лет
+T41	AGE 1950 1956	60 лет
+T42	COUNTRY 2002 2008	России
+T43	CITY 2051 2064	Екатеринбурге
+T44	PROFESSION 141 148	депутат
+T45	AWARD 0 11	Нобелевский
+T47	ORGANIZATION 149 190	Государственной думы Российской Федерации
+T48	ORGANIZATION 194 206	фракции КПРФ
+T49	ORGANIZATION 149 169	Государственной думы
+T50	COUNTRY 170 190	Российской Федерации
+T51	PERSON 207 220	Жорес Алфёров
+T52	PROFESSION 502 538	Депутат Государственной думы от КПРФ
+T53	ORGANIZATION 510 530	Государственной думы
+T54	PERSON 539 553	Валерий Рашкин
+T55	AWARD 615 627	нобелевского
+T56	PROFESSION 920 945	депутатом от фракции КПРФ
+T57	PROFESSION 920 929	депутатом
+T58	ORGANIZATION 933 945	фракции КПРФ
+T59	PROFESSION 1302 1311	депутатов
+T60	PROFESSION 1342 1351	депутатов
+T61	PROFESSION 1342 1356	депутатов КПРФ
+T62	PROFESSION 1415 1430	Депутат от КПРФ
+T63	PROFESSION 1694 1747	депутатом Государственной думы России от фракции КПРФ
+T64	ORGANIZATION 1704 1731	Государственной думы России
+T65	ORGANIZATION 1735 1747	фракции КПРФ
+T66	ORGANIZATION 1704 1724	Государственной думы
+T67	COUNTRY 1725 1731	России
+T68	ORGANIZATION 1799 1813	правительством
+T69	EVENT 1983 1999	уличные протесты
+T70	DATE 2065 2085	9 сентября 2018 года
+T71	ORGANIZATION 2110 2118	властями
+R1	MEMBER_OF Arg1:T51 Arg2:T5	
+R2	MEMBER_OF Arg1:T54 Arg2:T12	
+R3	ALTERNATIVE_NAME Arg1:T51 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T18 Arg2:T22	
+R5	MEMBER_OF Arg1:T62 Arg2:T27	
+R6	MEMBER_OF Arg1:T28 Arg2:T27	
+R7	WORKS_AS Arg1:T28 Arg2:T62	
+R8	AWARDED_WITH Arg1:T30 Arg2:T33	
+R9	ORIGINS_FROM Arg1:T30 Arg2:T32	
+R10	AWARDED_WITH Arg1:T35 Arg2:T33	
+R11	ORIGINS_FROM Arg1:T35 Arg2:T32	
+R12	HEADQUARTERED_IN Arg1:T64 Arg2:T67	
+R13	MEMBER_OF Arg1:T63 Arg2:T65	
+R14	MEMBER_OF Arg1:T63 Arg2:T38	
+R15	PART_OF Arg1:T65 Arg2:T38	
+R16	PART_OF Arg1:T65 Arg2:T64	
+R17	TAKES_PLACE_IN Arg1:T69 Arg2:T42	
+R18	LOCATED_IN Arg1:T43 Arg2:T42	
+R19	TAKES_PLACE_IN Arg1:T69 Arg2:T43	
+R20	POINT_IN_TIME Arg1:T69 Arg2:T70	
+R21	AWARDED_WITH Arg1:T51 Arg2:T74	
+R22	MEMBER_OF Arg1:T51 Arg2:T48	
+R23	WORKS_AS Arg1:T51 Arg2:T4	
+R24	WORKPLACE Arg1:T51 Arg2:T47	
+R25	ORIGINS_FROM Arg1:T51 Arg2:T50	
+T72	PROFESSION 141 190	депутат Государственной думы Российской Федерации
+R26	WORKPLACE Arg1:T72 Arg2:T47	
+R27	WORKPLACE Arg1:T4 Arg2:T47	
+R28	HEADQUARTERED_IN Arg1:T47 Arg2:T50	
+R29	AWARDED_WITH Arg1:T13 Arg2:T55	
+T73	PROFESSION 502 530	Депутат Государственной думы
+R30	MEMBER_OF Arg1:T52 Arg2:T12	
+R31	WORKPLACE Arg1:T52 Arg2:T53	
+R32	WORKPLACE Arg1:T73 Arg2:T53	
+R33	WORKS_AS Arg1:T18 Arg2:T56	
+R34	MEMBER_OF Arg1:T18 Arg2:T58	
+R35	MEMBER_OF Arg1:T18 Arg2:T19	
+R36	PART_OF Arg1:T48 Arg2:T5	
+R37	PART_OF Arg1:T48 Arg2:T47	
+R38	ALTERNATIVE_NAME Arg1:T4 Arg2:T52	
+R39	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+R40	MEMBER_OF Arg1:T56 Arg2:T19	
+R41	MEMBER_OF Arg1:T56 Arg2:T19	
+R42	WORKS_AS Arg1:T22 Arg2:T21	
+R43	MEMBER_OF Arg1:T22 Arg2:T20	
+R44	MEMBER_OF Arg1:T61 Arg2:T25	
+R45	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R46	WORKS_AS Arg1:T36 Arg2:T63	
+R47	MEMBER_OF Arg1:T36 Arg2:T65	
+R48	MEMBER_OF Arg1:T36 Arg2:T38	
+R49	AWARDED_WITH Arg1:T2 Arg2:T45	
+R50	ALTERNATIVE_NAME Arg1:T30 Arg2:T36	
+T74	AWARD 107 118	Нобелевский
+T46	PERSON 1616 1627	Нобелевскую
+R51	PRODUCES Arg1:T46 Arg2:T33	
+N1	Reference T5 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N4	Reference T16 Wikidata:Q715641	Государственная дума
+N7	Reference T33 Wikidata:Q7191	Нобелевская премия
+N8	Reference T35 Wikidata:Q30487	Михаил Сергеевич Горбачёв
+N9	Reference T43 Wikidata:Q887	Екатеринбург
+N10	Reference T47 Wikidata:Q715641	Государственная дума
+N11	Reference T50 Wikidata:Q159	Россия
+N12	Reference T54 Wikidata:Q4391353	Валерий Рашкин
+N14	Reference T59 Wikidata:Q486839	член парламента
+N18	Reference T64 Wikidata:Q715641	Государственная дума
+N20	Reference T67 Wikidata:Q159	Россия
+N21	Reference T68 Wikidata:Q7188	правительство
+N24	Reference T74 Wikidata:Q7191	Нобелевская премия
+N25	Reference T46 Wikidata:Q7191	Нобелевская премия
+N23	Reference T72 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q183279	
+N3	Reference T10 Wikidata:Q183279	
+N26	Reference T73 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q183279	
+N13	Reference T56 Wikidata:NULL	нет данных
+N15	Reference T61 Wikidata:NULL	нет данных
+N16	Reference T62 Wikidata:NULL	нет данных
+N6	Reference T28 Wikidata:Q27924709	
+N17	Reference T63 Wikidata:NULL	нет данных
+N19	Reference T65 Wikidata:NULL	нет данных
+N22	Reference T71 Wikidata:NULL	нет данных
+N27	Reference T38 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N28	Reference T12 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N29	Reference T20 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N30	Reference T19 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N31	Reference T25 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N32	Reference T7 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N33	Reference T27 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N34	Reference T53 Wikidata:Q715641	Государственная дума
+N35	Reference T14 Wikidata:Q715641	Государственная дума
+N36	Reference T49 Wikidata:Q715641	Государственная дума
+N37	Reference T66 Wikidata:Q715641	Государственная дума
+N38	Reference T44 Wikidata:Q486839	член парламента
+N39	Reference T57 Wikidata:Q486839	член парламента
+N40	Reference T60 Wikidata:Q486839	член парламента
+N41	Reference T11 Wikidata:Q486839	член парламента
+N42	Reference T26 Wikidata:Q486839	член парламента
+N43	Reference T37 Wikidata:Q486839	член парламента
+N44	Reference T21 Wikidata:Q486839	член парламента
+N45	Reference T32 Wikidata:Q159	Россия
+N46	Reference T42 Wikidata:Q159	Россия
+N47	Reference T39 Wikidata:Q159	Россия
+N48	Reference T1 Wikidata:Q159	Россия
+N49	Reference T55 Wikidata:Q7191	Нобелевская премия
+N50	Reference T45 Wikidata:Q7191	Нобелевская премия
+N51	Reference T51 Wikidata:Q183279	
+N52	Reference T13 Wikidata:Q183279	
+N53	Reference T29 Wikidata:Q183279	
+N54	Reference T36 Wikidata:Q183279	
+N55	Reference T2 Wikidata:Q183279	
+N56	Reference T30 Wikidata:Q183279	
+N57	Reference T22 Wikidata:Q183279	
+N58	Reference T4 Wikidata:NULL	нет данных
+N59	Reference T52 Wikidata:NULL	нет данных
+N60	Reference T48 Wikidata:NULL	нет данных
+N61	Reference T58 Wikidata:NULL	нет данных

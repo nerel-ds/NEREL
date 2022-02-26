@@ -1,0 +1,124 @@
+T1	STATE_OR_PROVINCE 0 15	Калининградский
+T2	PROFESSION 60 77	Министр экономики
+T3	PERSON 102 115	Вадим Амстель
+T4	PROFESSION 171 190	главой министерства
+T5	PERSON 197 216	Анастасия Кузнецова
+T6	PROFESSION 235 295	заместителем начальника управления стратегических разработок
+T7	ORGANIZATION 305 316	РИА Новости
+T8	CITY 420 426	Москву
+T9	AGE 453 465	девятилетней
+T10	CITY 499 506	столице
+T11	PERSON 524 531	Амстеля
+T12	DATE 613 622	с 20 июня
+T13	PROFESSION 631 638	министр
+T14	DATE 664 683	чуть более полугода
+T15	PROFESSION 692 709	министр экономики
+T16	PERSON 718 737	Анастасия Кузнецова
+T20	DATE 998 1010	до 2020 года
+T21	PERSON 1013 1022	Кузнецова
+T22	ORGANIZATION 1032 1071	Калининградскую высшую школу управления
+T23	DATE 1072 1083	в 2003 году
+T24	ORGANIZATION 1164 1232	Ассоциации "Совет муниципальных образований Калининградской области"
+T25	PROFESSION 1235 1281	советником губернатора Калининградской области
+T26	STATE_OR_PROVINCE 1294 1317	Калининградская область
+T27	PROFESSION 16 33	министр экономики
+T28	PROFESSION 0 33	Калининградский министр экономики
+T29	STATE_OR_PROVINCE 78 101	Калининградской области
+T30	PROFESSION 60 101	Министр экономики Калининградской области
+T31	ORGANIZATION 178 190	министерства
+T32	ORGANIZATION 259 295	управления стратегических разработок
+T33	ORGANIZATION 331 347	облправительства
+T34	PROFESSION 16 23	министр
+T35	PROFESSION 60 67	Министр
+T36	PROFESSION 692 699	министр
+T37	PROFESSION 753 851	заместителем начальника управления стратегических разработок правительства Калининградской области
+T38	ORGANIZATION 814 851	правительства Калининградской области
+T39	STATE_OR_PROVINCE 828 851	Калининградской области
+T40	PROFESSION 766 813	начальника управления стратегических разработок
+T41	PROFESSION 248 295	начальника управления стратегических разработок
+T17	LAW 879 930	Стратегии социально-экономического развития региона
+T18	PROFESSION 1246 1281	губернатора Калининградской области
+T19	STATE_OR_PROVINCE 1258 1281	Калининградской области
+R1	WORKS_AS Arg1:T5 Arg2:T4	
+R2	WORKPLACE Arg1:T5 Arg2:T31	
+R3	WORKS_AS Arg1:T3 Arg2:T30	
+R4	WORKPLACE Arg1:T3 Arg2:T29	
+R5	WORKS_AS Arg1:T5 Arg2:T6	
+T42	EVENT 116 139	освобожден от должности
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T42	
+T43	EVENT 583 593	освобожден
+R7	POINT_IN_TIME Arg1:T43 Arg2:T12	
+R8	PARTICIPANT_IN Arg1:T11 Arg2:T43	
+T44	CITY 1032 1047	Калининградскую
+R9	SCHOOLS_ATTENDED Arg1:T21 Arg2:T22	
+R10	WORKPLACE Arg1:T21 Arg2:T24	
+R11	WORKS_AS Arg1:T21 Arg2:T25	
+R12	SUBORDINATE_OF Arg1:T21 Arg2:T18	
+R13	WORKPLACE Arg1:T21 Arg2:T19	
+R14	WORKS_AS Arg1:T16 Arg2:T37	
+R15	WORKPLACE Arg1:T16 Arg2:T38	
+R16	WORKS_AS Arg1:T16 Arg2:T15	
+R17	SUBORDINATE_OF Arg1:T16 Arg2:T40	
+T45	EVENT 34 57	освобожден от должности
+R18	WORKPLACE Arg1:T28 Arg2:T1	
+R19	PARTICIPANT_IN Arg1:T28 Arg2:T45	
+R20	ALTERNATIVE_NAME Arg1:T28 Arg2:T30	
+R21	WORKPLACE Arg1:T30 Arg2:T29	
+R22	SUBORDINATE_OF Arg1:T6 Arg2:T41	
+R23	WORKPLACE Arg1:T6 Arg2:T32	
+R24	WORKPLACE Arg1:T41 Arg2:T32	
+R25	HEADQUARTERED_IN Arg1:T33 Arg2:T29	
+R26	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R27	WORKPLACE Arg1:T5 Arg2:T29	
+R28	HEADQUARTERED_IN Arg1:T31 Arg2:T29	
+R29	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+R30	SUBORDINATE_OF Arg1:T40 Arg2:T37	
+R31	WORKPLACE Arg1:T37 Arg2:T38	
+R32	WORKPLACE Arg1:T40 Arg2:T38	
+R33	PRODUCES Arg1:T16 Arg2:T17	
+R34	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+R35	HEADQUARTERED_IN Arg1:T22 Arg2:T44	
+T46	STATE_OR_PROVINCE 1208 1231	Калининградской области
+R36	HEADQUARTERED_IN Arg1:T24 Arg2:T46	
+R37	SUBORDINATE_OF Arg1:T25 Arg2:T18	
+R38	WORKPLACE Arg1:T18 Arg2:T19	
+R39	WORKPLACE Arg1:T25 Arg2:T19	
+R40	ORIGINS_FROM Arg1:T17 Arg2:T39	
+N1	Reference T1 Wikidata:Q1749	Калининградская область
+N6	Reference T7 Wikidata:Q821172	РИА Новости
+N7	Reference T8 Wikidata:Q649	Москва
+N8	Reference T10 Wikidata:Q5119	столица
+N10	Reference T13 Wikidata:Q83307	министр
+N13	Reference T26 Wikidata:Q1749	Калининградская область
+N15	Reference T31 Wikidata:Q192350	министерство
+N17	Reference T37 Wikidata:Q1749	Калининградская область
+N20	Reference T18 Wikidata:Q16839806	Губернатор Калининградской области
+N22	Reference T27 Wikidata:NULL	нет данных
+N14	Reference T30 Wikidata:NULL	нет данных
+N2	Reference T3 Wikidata:NULL	нет данных
+N3	Reference T4 Wikidata:Q83307	министр
+N4	Reference T5 Wikidata:NULL	
+N5	Reference T6 Wikidata:NULL	нет данных
+N16	Reference T32 Wikidata:NULL	нет данных
+N23	Reference T33 Wikidata:NULL	нет данных
+N9	Reference T11 Wikidata:NULL	нет данных
+N19	Reference T40 Wikidata:NULL	нет данных
+N18	Reference T38 Wikidata:NULL	нет данных
+N24	Reference T17 Wikidata:NULL	нет данных
+N25	Reference T22 Wikidata:NULL	нет данных
+N21	Reference T44 Wikidata:Q1829	Калининград
+N11	Reference T24 Wikidata:NULL	нет данных
+N12	Reference T25 Wikidata:NULL	нет данных
+N26	Reference T35 Wikidata:Q83307	министр
+N27	Reference T34 Wikidata:Q83307	министр
+N28	Reference T36 Wikidata:Q83307	министр
+N29	Reference T46 Wikidata:Q1749	Калининградская область
+N30	Reference T39 Wikidata:Q1749	Калининградская область
+N31	Reference T19 Wikidata:Q1749	Калининградская область
+N32	Reference T29 Wikidata:Q1749	Калининградская область
+N33	Reference T15 Wikidata:NULL	нет данных
+N34	Reference T2 Wikidata:NULL	нет данных
+N35	Reference T28 Wikidata:NULL	нет данных
+N36	Reference T21 Wikidata:NULL	
+N37	Reference T16 Wikidata:NULL	
+N38	Reference T41 Wikidata:NULL	нет данных

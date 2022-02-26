@@ -1,0 +1,92 @@
+T1	PERSON 0 13	Борис Джонсон
+T4	PERSON 31 44	Борис Джонсон
+T5	AGE 45 54	55-летний
+T6	PROFESSION 55 70	премьер-министр
+T7	PERSON 86 99	Борис Джонсон
+T8	DISEASE 127 135	COVID-19
+T9	PRODUCT 157 164	Twitter
+T10	DATE 166 186	За последние 24 часа
+T11	TIME 179 186	24 часа
+T12	ORGANIZATION 360 373	правительства
+T13	DATE 428 438	За день до
+T14	PERSON 462 469	Джонсон
+T15	ORGANIZATION 481 493	Палате общин
+T16	EVENT 501 539	еженедельной сессии вопросов и ответов
+T17	ORGANIZATION 542 562	The Evening Standard
+T18	PROFESSION 678 683	и. о.
+T19	PROFESSION 691 714	министр иностранных дел
+T20	PERSON 715 727	Доминик Рааб
+T21	DATE 729 737	11 марта
+T22	DATE 849 857	23 марта
+T23	DATE 1058 1068	К 26 марта
+T24	ORGANIZATION 1084 1120	Национальной системы здравоохранения
+T25	NUMBER 1151 1156	11658
+T26	NUMBER 1176 1179	578
+T27	DATE 1189 1197	25 марта
+T28	PROFESSION 1222 1227	принц
+T2	DISEASE 22 30	COVID-19
+T3	COUNTRY 71 85	Великобритании
+T29	PROFESSION 55 85	премьер-министр Великобритании
+T30	DISEASE 243 254	коронавирус
+T31	DISEASE 414 425	коронавирус
+T32	PROFESSION 600 616	премьер-министра
+T33	ORGANIZATION 587 616	пресс-службы премьер-министра
+T34	PROFESSION 691 698	министр
+T35	PROFESSION 838 846	министру
+T36	COUNTRY 858 872	Великобритания
+T37	DISEASE 907 919	коронавируса
+T38	COUNTRY 1121 1135	Великобритании
+T39	ORGANIZATION 1084 1135	Национальной системы здравоохранения Великобритании
+T41	DISEASE 1198 1211	коронавирусом
+T42	PERSON 1228 1234	Чарльз
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T2	
+R2	MEDICAL_CONDITION Arg1:T7 Arg2:T8	
+R3	WORKS_AS Arg1:T7 Arg2:T29	
+R4	WORKPLACE Arg1:T7 Arg2:T3	
+R5	AGE_IS Arg1:T7 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T16 Arg2:T15	
+R7	PARTICIPANT_IN Arg1:T14 Arg2:T16	
+R8	POINT_IN_TIME Arg1:T16 Arg2:T13	
+R9	WORKS_AS Arg1:T20 Arg2:T19	
+T43	EVENT 884 900	жесткий карантин
+R10	TAKES_PLACE_IN Arg1:T43 Arg2:T36	
+R11	POINT_IN_TIME Arg1:T43 Arg2:T22	
+R12	WORKS_AS Arg1:T42 Arg2:T28	
+R13	MEDICAL_CONDITION Arg1:T42 Arg2:T41	
+T44	EVENT 1212 1221	заразился
+R14	PARTICIPANT_IN Arg1:T42 Arg2:T44	
+R15	POINT_IN_TIME Arg1:T44 Arg2:T27	
+T40	EVENT 14 21	заболел
+R16	PARTICIPANT_IN Arg1:T1 Arg2:T40	
+T45	EVENT 100 123	сдал положительный тест
+R17	PARTICIPANT_IN Arg1:T7 Arg2:T45	
+R18	WORKPLACE Arg1:T29 Arg2:T3	
+R19	ALTERNATIVE_NAME Arg1:T8 Arg2:T30	
+R20	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+T46	DATE 28 30	19
+T47	DATE 133 135	19
+R21	HAS_CAUSE Arg1:T45 Arg2:T8	
+N1	Reference T4 Wikidata:Q180589	Борис Джонсон
+N2	Reference T9 Wikidata:Q918	Твиттер
+N3	Reference T12 Wikidata:Q7188	правительство
+N4	Reference T15 Wikidata:Q11005	Палата общин Великобритании
+N7	Reference T19 Wikidata:Q7330070	министр иностранных дел
+N8	Reference T20 Wikidata:Q268584	Рааб, Доминик
+N10	Reference T28 Wikidata:Q2747456	принц
+N11	Reference T29 Wikidata:Q14211	премьер-министр Великобритании
+N12	Reference T32 Wikidata:Q14212	премьер-министр
+N14	Reference T35 Wikidata:Q83307	министр
+N15	Reference T38 Wikidata:Q145	Великобритания
+N17	Reference T42 Wikidata:Q43274	Чарльз, принц Уэльский
+N5	Reference T17 Wikidata:Q666494	«Ивнинг стандард»
+N13	Reference T33 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q4676846	
+N16	Reference T39 Wikidata:Q918396	Национальная служба здравоохранения Великобритании
+N9	Reference T24 Wikidata:NULL	нет данных
+N18	Reference T1 Wikidata:Q180589	Борис Джонсон
+N19	Reference T7 Wikidata:Q180589	Борис Джонсон
+N20	Reference T14 Wikidata:Q180589	Борис Джонсон
+N21	Reference T6 Wikidata:Q14212	премьер-министр
+N22	Reference T34 Wikidata:Q83307	министр
+N23	Reference T3 Wikidata:Q145	Великобритания
+N24	Reference T36 Wikidata:Q145	Великобритания

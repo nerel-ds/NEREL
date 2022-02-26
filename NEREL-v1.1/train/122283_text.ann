@@ -1,0 +1,174 @@
+T1	PERSON 2 17	Хулио Иглесиаса
+T2	PERSON 54 68	Хулио Иглесиас
+T3	NATIONALITY 71 81	испанского
+T4	PERSON 88 103	Хулио Иглесиаса
+T5	AGE 109 118	40-летний
+T6	PERSON 123 136	Хавьер Сантос
+T7	PROFESSION 185 192	Адвокат
+T8	PERSON 193 200	Сантоса
+T9	PERSON 323 329	Сантос
+T10	PERSON 360 369	Иглесиаса
+T11	DATE 372 384	1990-х годов
+T12	DATE 401 418	в середине 1970-х
+T13	NATIONALITY 457 470	португальской
+T14	PERSON 516 532	Исабель Прейслер
+T15	PERSON 534 542	Иглесиас
+T16	NATIONALITY 582 589	Испанец
+T17	PERSON 601 608	Пайслер
+T18	ORDINAL 625 632	первого
+T19	NUMBER 647 651	трое
+T20	PERSON 664 677	Мария Исабель
+T21	PERSON 683 705	Хулио Иглесиас-младший
+T22	PERSON 759 765	Энрике
+T23	DATE 768 779	В 1979 году
+T25	AGE 809 818	63-летнем
+T26	PERSON 850 869	Миранды Рейнсбургер
+T27	ORDINAL 878 883	пятый
+T28	PERSON 916 924	Гильермо
+T29	PERSON 962 969	Миранды
+T30	PERSON 1116 1130	Хулио Иглесиас
+T31	PERSON 1000 1008	Гильермо
+T32	NUMBER 1010 1014	двое
+T33	PERSON 1025 1041	Мигель Алехандро
+T34	PERSON 1044 1051	Родриго
+T35	NUMBER 1056 1059	две
+T36	PERSON 1077 1085	Виктория
+T37	PERSON 1088 1096	Кристина
+T38	AGE 1109 1115	57 лет
+T40	PERSON 1163 1168	Мария
+T41	PERSON 1201 1209	Гильермо
+T42	ORDINAL 1212 1219	восьмой
+T43	PERSON 1228 1243	Хулио Иглесиаса
+T44	AGE 1246 1255	73-летний
+T45	PERSON 1256 1270	Хулио Иглесиас
+T46	LANGUAGE 1296 1309	испаноязычных
+T47	NUMBER 1335 1343	около 50
+T48	NUMBER 1372 1391	более 300 миллионов
+T50	PERSON 201 215	Фернандо Осуна
+T51	PROFESSION 82 87	певца
+T52	PROFESSION 419 424	певец
+T53	PROFESSION 471 480	балериной
+T54	PROFESSION 508 515	моделью
+T55	DATE 609 620	в 1971 году
+T56	EVENT 590 597	женился
+T57	PROFESSION 641 646	певца
+T58	PROFESSION 734 744	музыкантом
+T59	PROFESSION 747 754	актерём
+T60	PERSON 780 787	Исабель
+T61	PROFESSION 830 835	певца
+T62	EVENT 788 804	подала на развод
+T63	PROFESSION 1310 1322	исполнителей
+T49	PERSON 972 977	Хулио
+R1	PARENT_OF Arg1:T4 Arg2:T6	
+R2	AGE_IS Arg1:T6 Arg2:T5	
+R3	WORKS_AS Arg1:T4 Arg2:T51	
+R4	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R5	ORIGINS_FROM Arg1:T51 Arg2:T3	
+R6	ABBREVIATION Arg1:T50 Arg2:T7	
+R7	SUBORDINATE_OF Arg1:T50 Arg2:T8	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+R9	PARENT_OF Arg1:T10 Arg2:T9	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R11	WORKS_AS Arg1:T10 Arg2:T52	
+R12	ORIGINS_FROM Arg1:T53 Arg2:T13	
+R13	WORKS_AS Arg1:T14 Arg2:T54	
+R14	SPOUSE Arg1:T10 Arg2:T14	
+R15	SPOUSE Arg1:T52 Arg2:T14	
+R16	KNOWS Arg1:T52 Arg2:T53	
+R17	ORIGINS_FROM Arg1:T10 Arg2:T16	
+R19	WORKS_AS Arg1:T22 Arg2:T59	
+R20	WORKS_AS Arg1:T22 Arg2:T58	
+R21	AGE_IS Arg1:T30 Arg2:T38	
+R22	PARENT_OF Arg1:T30 Arg2:T40	
+R23	PARENT_OF Arg1:T43 Arg2:T41	
+R24	PARTICIPANT_IN Arg1:T10 Arg2:T56	
+R25	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+R26	PARTICIPANT_IN Arg1:T17 Arg2:T56	
+R27	POINT_IN_TIME Arg1:T56 Arg2:T55	
+R28	PARENT_OF Arg1:T57 Arg2:T20	
+R18	PARENT_OF Arg1:T57 Arg2:T21	
+R29	PARENT_OF Arg1:T57 Arg2:T22	
+R30	PARENT_OF Arg1:T15 Arg2:T22	
+R31	PARENT_OF Arg1:T15 Arg2:T21	
+R32	PARENT_OF Arg1:T15 Arg2:T20	
+R33	ALTERNATIVE_NAME Arg1:T17 Arg2:T60	
+R34	AGENT Arg1:T60 Arg2:T62	
+R35	POINT_IN_TIME Arg1:T62 Arg2:T23	
+R36	SPOUSE Arg1:T61 Arg2:T26	
+R37	AGE_IS Arg1:T61 Arg2:T25	
+R38	WORKS_AS Arg1:T15 Arg2:T61	
+R39	PARENT_OF Arg1:T26 Arg2:T28	
+R40	PARENT_OF Arg1:T61 Arg2:T28	
+R41	SPOUSE Arg1:T29 Arg2:T49	
+R42	PARENT_OF Arg1:T49 Arg2:T31	
+R43	PARENT_OF Arg1:T49 Arg2:T33	
+R44	PARENT_OF Arg1:T49 Arg2:T34	
+R45	PARENT_OF Arg1:T49 Arg2:T36	
+R46	PARENT_OF Arg1:T49 Arg2:T37	
+R47	PARENT_OF Arg1:T29 Arg2:T31	
+R48	PARENT_OF Arg1:T29 Arg2:T33	
+R49	PARENT_OF Arg1:T29 Arg2:T36	
+R50	PARENT_OF Arg1:T29 Arg2:T37	
+R51	SIBLING Arg1:T31 Arg2:T33	
+R52	SIBLING Arg1:T31 Arg2:T34	
+R53	SIBLING Arg1:T31 Arg2:T36	
+R54	SIBLING Arg1:T31 Arg2:T37	
+R55	SIBLING Arg1:T33 Arg2:T34	
+R56	SIBLING Arg1:T33 Arg2:T36	
+R57	SIBLING Arg1:T33 Arg2:T37	
+R58	SIBLING Arg1:T34 Arg2:T36	
+R59	SIBLING Arg1:T34 Arg2:T37	
+R60	SIBLING Arg1:T36 Arg2:T37	
+R61	AGE_IS Arg1:T45 Arg2:T44	
+R62	WORKS_AS Arg1:T45 Arg2:T63	
+R63	KNOWS Arg1:T45 Arg2:T46	
+R64	ALTERNATIVE_NAME Arg1:T49 Arg2:T30	
+R65	ALTERNATIVE_NAME Arg1:T31 Arg2:T40	
+R66	ALTERNATIVE_NAME Arg1:T33 Arg2:T40	
+R67	ALTERNATIVE_NAME Arg1:T34 Arg2:T40	
+R68	ALTERNATIVE_NAME Arg1:T36 Arg2:T40	
+R69	ALTERNATIVE_NAME Arg1:T37 Arg2:T40	
+R70	PARTICIPANT_IN Arg1:T16 Arg2:T56	
+N1	Reference T1 Wikidata:Q122003	Хулио Иглесиас
+N3	Reference T7 Wikidata:Q40348	адвокат
+N6	Reference T16 Wikidata:Q160894	испанцы
+N8	Reference T20 Wikidata:Q229891	Мария Исабель
+N9	Reference T21 Wikidata:Q1832274	Хулио Иглесиас-младший
+N10	Reference T22 Wikidata:Q47122	Энрике Иглесиас
+N16	Reference T53 Wikidata:Q4070300	балерина
+N17	Reference T54 Wikidata:Q4610556	модель
+N18	Reference T58 Wikidata:Q639669	музыкант
+N20	Reference T61 Wikidata:Q177220	певец
+N21	Reference T63 Wikidata:Q713200	исполнитель
+N2	Reference T3 Wikidata:Q160894	испанцы
+N22	Reference T6 Wikidata:NULL	нет данных
+N15	Reference T50 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:Q178630	португальцы
+N5	Reference T15 Wikidata:Q122003	Хулио Иглесиас
+N7	Reference T17 Wikidata:NULL	нет данных
+N19	Reference T59 Wikidata:Q33999	актёр
+N11	Reference T26 Wikidata:NULL	нет данных
+N12	Reference T29 Wikidata:NULL	нет данных
+N23	Reference T33 Wikidata:NULL	нет данных
+N24	Reference T34 Wikidata:NULL	нет данных
+N13	Reference T36 Wikidata:NULL	нет данных
+N25	Reference T37 Wikidata:NULL	нет данных
+N14	Reference T41 Wikidata:NULL	нет данных
+N26	Reference T46 Wikidata:Q1321	испанский язык
+N27	Reference T49 Wikidata:Q122003	Хулио Иглесиас
+N28	Reference T43 Wikidata:Q122003	Хулио Иглесиас
+N29	Reference T2 Wikidata:Q122003	Хулио Иглесиас
+N30	Reference T45 Wikidata:Q122003	Хулио Иглесиас
+N31	Reference T30 Wikidata:Q122003	Хулио Иглесиас
+N32	Reference T51 Wikidata:Q177220	певец
+N33	Reference T57 Wikidata:Q177220	певец
+N34	Reference T52 Wikidata:Q177220	певец
+N35	Reference T8 Wikidata:NULL	нет данных
+N36	Reference T9 Wikidata:NULL	нет данных
+N37	Reference T4 Wikidata:Q122003	Хулио Иглесиас
+N38	Reference T10 Wikidata:Q122003	Хулио Иглесиас
+N39	Reference T60 Wikidata:NULL	нет данных
+N40	Reference T14 Wikidata:NULL	нет данных
+N41	Reference T28 Wikidata:NULL	нет данных
+N42	Reference T31 Wikidata:NULL	нет данных
+N43	Reference T40 Wikidata:NULL	нет данных

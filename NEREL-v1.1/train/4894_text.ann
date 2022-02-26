@@ -1,0 +1,161 @@
+T1	PERSON 0 18	Геннадий Бачинский
+T2	PERSON 94 112	Геннадий Бачинский
+T3	FACILITY 146 150	Р104
+T4	CITY 152 159	Калязин
+T5	CITY 162 175	Сергиев Посад
+T6	CITY 193 201	Яринское
+T7	CITY 204 213	Нагорское
+T8	PRODUCT 247 262	Volkswagen Golf
+T9	PRODUCT 351 373	Volkswagen Transporter
+T10	PERSON 375 384	Бачинский
+T11	NUMBER 405 406	3
+T12	CITY 487 503	Санкт-Петербурга
+T13	ORGANIZATION 506 511	Полис
+T14	ORGANIZATION 515 521	Катюша
+T15	ORGANIZATION 526 532	Модерн
+T16	DATE 535 546	С 1997 года
+T17	PERSON 571 589	Сергем Стиллавином
+T18	WORK_OF_ART 621 657	Утреннее шоу Бачинского и Стиллавина
+T19	PERSON 647 657	Стиллавина
+T20	DATE 660 671	В 2001 году
+T21	ORGANIZATION 696 709	Русское радио
+T22	ORGANIZATION 722 729	Maximum
+T23	DATE 733 757	В конце апреля 2007 года
+T24	DATE 845 862	Последние полгода
+T25	ORGANIZATION 884 888	Маяк
+T26	PROFESSION 896 914	главным продюсером
+T27	ORGANIZATION 937 942	ВГТРК
+T28	ORGANIZATION 1061 1066	Вести
+T29	PROFESSION 1068 1111	руководитель дирекции ВГТРК по радиовещанию
+T30	PERSON 1112 1126	Сергей Архипов
+T31	PERSON 1246 1253	Архипов
+T32	PROFESSION 1289 1298	публицист
+T33	NUMBER 1388 1399	Более 40000
+T35	EVENT 1447 1460	Утреннего шоу
+T36	PERSON 1464 1483	Геннадию Бачинскому
+T37	AGE 1489 1495	36 лет
+T38	NUMBER 1520 1524	двое
+T39	EVENT 19 24	погиб
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T39	
+T40	EVENT 40 59	запрещённого обгона
+R2	SUBEVENT_OF Arg1:T39 Arg2:T40	
+T41	PROFESSION 79 93	радиожурналист
+R3	WORKS_AS Arg1:T2 Arg2:T41	
+T42	EVENT 113 118	погиб
+T43	EVENT 121 135	автокатастрофе
+T44	PROFESSION 215 224	Журналист
+R4	WORKS_AS Arg1:T2 Arg2:T44	
+T45	EVENT 272 289	обогнать грузовик
+T46	EVENT 291 317	выехал на встречную полосу
+T47	EVENT 323 350	столкнулся с микроавтобусом
+T48	EVENT 385 394	скончался
+R5	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+T49	ORGANIZATION 247 257	Volkswagen
+R6	PRODUCES Arg1:T49 Arg2:T8	
+T50	ORGANIZATION 351 361	Volkswagen
+R7	PRODUCES Arg1:T50 Arg2:T9	
+R8	PARTICIPANT_IN Arg1:T10 Arg2:T48	
+R9	ALTERNATIVE_NAME Arg1:T39 Arg2:T48	
+R10	HEADQUARTERED_IN Arg1:T13 Arg2:T12	
+R11	HEADQUARTERED_IN Arg1:T14 Arg2:T12	
+R12	HEADQUARTERED_IN Arg1:T15 Arg2:T12	
+R13	KNOWS Arg1:T10 Arg2:T17	
+T51	PERSON 634 644	Бачинского
+R14	WORKPLACE Arg1:T10 Arg2:T13	
+R15	WORKPLACE Arg1:T10 Arg2:T14	
+R16	WORKPLACE Arg1:T10 Arg2:T15	
+R17	AGENT Arg1:T44 Arg2:T45	
+R18	AGENT Arg1:T44 Arg2:T46	
+R19	PARTICIPANT_IN Arg1:T44 Arg2:T47	
+R20	PARTICIPANT_IN Arg1:T2 Arg2:T42	
+R21	PARTICIPANT_IN Arg1:T2 Arg2:T43	
+R22	ALTERNATIVE_NAME Arg1:T43 Arg2:T47	
+R23	SUBEVENT_OF Arg1:T42 Arg2:T43	
+T52	EVENT 405 415;432 448	3 человека получили ранения
+R24	SUBEVENT_OF Arg1:T52 Arg2:T47	
+R25	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+R26	PRODUCES Arg1:T19 Arg2:T18	
+R27	PRODUCES Arg1:T51 Arg2:T18	
+R28	WORKPLACE Arg1:T51 Arg2:T21	
+R29	WORKPLACE Arg1:T51 Arg2:T22	
+R30	WORKPLACE Arg1:T19 Arg2:T21	
+R31	WORKPLACE Arg1:T19 Arg2:T22	
+T53	NATIONALITY 696 703	Русское
+T54	PERSON 758 767	Бачинский
+T55	AWARD 792 807	Радиомания-2007
+R32	AWARDED_WITH Arg1:T54 Arg2:T55	
+T56	AWARD 792 802	Радиомания
+T57	DATE 803 807	2007
+R33	POINT_IN_TIME Arg1:T55 Arg2:T57	
+R34	WORKPLACE Arg1:T54 Arg2:T25	
+R35	WORKS_AS Arg1:T54 Arg2:T59	
+R36	WORKPLACE Arg1:T54 Arg2:T27	
+T58	ORGANIZATION 915 942	дирекции радиовещания ВГТРК
+T59	PROFESSION 896 942	главным продюсером дирекции радиовещания ВГТРК
+R37	WORKPLACE Arg1:T59 Arg2:T58	
+R38	PART_OF Arg1:T58 Arg2:T27	
+T60	PERSON 999 1003	Гену
+R39	ALTERNATIVE_NAME Arg1:T54 Arg2:T60	
+R40	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R41	AGE_IS Arg1:T36 Arg2:T37	
+T34	ORGANIZATION 1090 1095	ВГТРК
+T61	ORGANIZATION 1081 1111	дирекции ВГТРК по радиовещанию
+R42	PART_OF Arg1:T61 Arg2:T34	
+R43	WORKPLACE Arg1:T29 Arg2:T61	
+R44	WORKS_AS Arg1:T30 Arg2:T29	
+R45	WORKPLACE Arg1:T30 Arg2:T61	
+R46	ALTERNATIVE_NAME Arg1:T58 Arg2:T61	
+R47	WORKS_AS Arg1:T60 Arg2:T32	
+T62	PROFESSION 1314 1323	журналист
+R48	WORKS_AS Arg1:T60 Arg2:T62	
+R49	AGENT Arg1:T1 Arg2:T40	
+R50	INANIMATE_INVOLVED Arg1:T8 Arg2:T45	
+R51	INANIMATE_INVOLVED Arg1:T8 Arg2:T46	
+R52	INANIMATE_INVOLVED Arg1:T8 Arg2:T47	
+R53	INANIMATE_INVOLVED Arg1:T9 Arg2:T47	
+T63	AWARD 822 841	Лучшее утреннее шоу
+R54	AWARDED_WITH Arg1:T54 Arg2:T63	
+N1	Reference T4 Wikidata:Q143775	Калязин
+N2	Reference T5 Wikidata:Q193722	Сергиев Посад
+N4	Reference T8 Wikidata:Q247	Volkswagen Golf
+N5	Reference T9 Wikidata:Q719895	Volkswagen Transporter
+N7	Reference T12 Wikidata:Q656	Санкт-Петербург
+N12	Reference T19 Wikidata:Q4442600	Стиллавин, Сергей Валерьевич
+N13	Reference T21 Wikidata:Q162429	Русское радио
+N14	Reference T22 Wikidata:Q3650600	Радио Maximum
+N17	Reference T27 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
+N18	Reference T28 Wikidata:Q628101	Россия-24
+N21	Reference T32 Wikidata:Q16287483	публицист
+N22	Reference T49 Wikidata:Q156578	Volkswagen
+N27	Reference T62 Wikidata:Q1930187	журналист
+N29	Reference T41 Wikidata:Q24702769	
+N30	Reference T3 Wikidata:NULL	нет данных
+N31	Reference T6 Wikidata:Q19929489	
+N3	Reference T7 Wikidata:Q19929085	
+N6	Reference T10 Wikidata:Q4080032	
+N8	Reference T13 Wikidata:NULL	нет данных
+N9	Reference T14 Wikidata:NULL	нет данных
+N10	Reference T15 Wikidata:NULL	нет данных
+N23	Reference T51 Wikidata:Q4080032	
+N11	Reference T18 Wikidata:NULL	нет данных
+N24	Reference T53 Wikidata:Q159	Россия
+N32	Reference T56 Wikidata:Q16690442	
+N33	Reference T55 Wikidata:NULL	нет данных
+N28	Reference T63 Wikidata:NULL	нет данных
+N15	Reference T25 Wikidata:Q1971979	Маяк
+N25	Reference T58 Wikidata:NULL	нет данных
+N26	Reference T59 Wikidata:NULL	нет данных
+N16	Reference T26 Wikidata:NULL	нет данных
+N19	Reference T29 Wikidata:NULL	нет данных
+N20	Reference T30 Wikidata:NULL	нет данных
+N34	Reference T17 Wikidata:Q4442600	Стиллавин, Сергей Валерьевич
+N35	Reference T34 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
+N36	Reference T50 Wikidata:Q156578	Volkswagen
+N37	Reference T44 Wikidata:Q1930187	журналист
+N38	Reference T36 Wikidata:Q4080032	
+N39	Reference T1 Wikidata:Q4080032	
+N40	Reference T2 Wikidata:Q4080032	
+N41	Reference T60 Wikidata:Q4080032	
+N42	Reference T54 Wikidata:Q4080032	
+N43	Reference T61 Wikidata:NULL	нет данных
+N44	Reference T31 Wikidata:NULL	нет данных

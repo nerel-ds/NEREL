@@ -1,0 +1,112 @@
+T1	COUNTRY 22 31	Аргентины
+T2	ORDINAL 39 45	первая
+T3	LOCATION 48 61	Южной Америке
+T4	PROFESSION 70 86	офицер-подводник
+T5	COUNTRY 91 100	Аргентине
+T6	ORDINAL 131 137	первая
+T7	LOCATION 140 153	Южной Америке
+T8	AGE 182 191	35-летняя
+T9	PERSON 192 212	Элиана Мария Кравчук
+T10	PERSON 214 235	Eliana María Krawczyk
+T11	PERSON 306 320	Элиана Кравчук
+T12	STATE_OR_PROVINCE 340 349	Миссионес
+T13	CITY 358 363	Обера
+T15	AGE 368 375	21 года
+T16	ORGANIZATION 453 474	Университет Миссионес
+T17	ORGANIZATION 678 711	Escuela Naval Militar de Ensenada
+T18	CITY 720 727	Посадас
+T19	COUNTRY 729 738	Аргентина
+T20	ORGANIZATION 866 895	Escuela de Submarinos y Buceo
+T21	PERSON 904 918	Элиана Кравчук
+T22	ORDINAL 930 936	первой
+T23	COUNTRY 979 988	Аргентине
+T24	LOCATION 997 1010	Южной Америке
+T25	DATE 1027 1036	15 ноября
+T26	COUNTRY 1047 1056	Аргентины
+T27	ORGANIZATION 1089 1102	ВМС Аргентины
+T28	NUMBER 1105 1107	44
+T30	PRODUCT 1150 1158	San Juan
+T32	CITY 1218 1223	Ушуая
+T33	CITY 1246 1260	Мар-дель-Платы
+T34	NUMBER 1343 1351	около 20
+T35	NUMBER 1497 1503	432 км
+T36	STATE_OR_PROVINCE 1534 1539	Чубут
+T37	CITY 1553 1566	Пуэрто Мадрин
+T39	PROFESSION 162 171	подводник
+T40	EVENT 101 117	пропала подлодка
+T43	STATE_OR_PROVINCE 465 474	Миссионес
+T45	PROFESSION 852 863	подводников
+T46	PROFESSION 955 966	подводником
+T47	EVENT 1057 1088	пропала военная подводная лодка
+T48	COUNTRY 1093 1102	Аргентины
+R1	LOCATED_IN Arg1:T13 Arg2:T12	
+R2	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R3	AGE_IS Arg1:T9 Arg2:T8	
+R4	PLACE_OF_BIRTH Arg1:T11 Arg2:T12	
+R5	HEADQUARTERED_IN Arg1:T16 Arg2:T43	
+R6	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R7	HEADQUARTERED_IN Arg1:T27 Arg2:T48	
+R8	OWNER_OF Arg1:T27 Arg2:T30	
+R9	TAKES_PLACE_IN Arg1:T40 Arg2:T5	
+R10	WORKS_AS Arg1:T9 Arg2:T39	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T40	
+R12	AGE_IS Arg1:T11 Arg2:T15	
+R13	SCHOOLS_ATTENDED Arg1:T11 Arg2:T16	
+T29	DISEASE 600 619	сердечного приступа
+R14	HEADQUARTERED_IN Arg1:T17 Arg2:T18	
+R15	LOCATED_IN Arg1:T18 Arg2:T19	
+R16	SCHOOLS_ATTENDED Arg1:T11 Arg2:T17	
+R17	SCHOOLS_ATTENDED Arg1:T11 Arg2:T20	
+R18	LOCATED_IN Arg1:T23 Arg2:T24	
+T38	PROFESSION 946 954	офицером
+R19	WORKS_AS Arg1:T21 Arg2:T38	
+R20	WORKS_AS Arg1:T21 Arg2:T46	
+R21	ALTERNATIVE_NAME Arg1:T40 Arg2:T47	
+R22	LOCATED_IN Arg1:T32 Arg2:T26	
+R23	LOCATED_IN Arg1:T33 Arg2:T26	
+R24	LOCATED_IN Arg1:T37 Arg2:T36	
+T31	EVENT 1335 1379	высланы около 20 военных поисковых самолетов
+R25	HAS_CAUSE Arg1:T31 Arg2:T47	
+T41	PROFESSION 1108 1116	моряками
+R26	ORIGINS_FROM Arg1:T41 Arg2:T48	
+R27	LOCATED_IN Arg1:T1 Arg2:T3	
+T42	EVENT 3 21	пропавшей подлодке
+R28	PARTICIPANT_IN Arg1:T1 Arg2:T42	
+R29	TAKES_PLACE_IN Arg1:T47 Arg2:T26	
+R30	PARTICIPANT_IN Arg1:T27 Arg2:T47	
+R31	PARTICIPANT_IN Arg1:T41 Arg2:T47	
+R32	INANIMATE_INVOLVED Arg1:T30 Arg2:T47	
+T14	EVENT 1430 1436	Поиски
+R33	ALTERNATIVE_NAME Arg1:T31 Arg2:T14	
+N7	Reference T24 Wikidata:Q18	Южная Америка
+N8	Reference T26 Wikidata:Q414	Аргентина
+N9	Reference T27 Wikidata:Q1777326	Военно-морские силы Аргентины
+N10	Reference T32 Wikidata:Q44254	Ушуая
+N11	Reference T33 Wikidata:Q52607	Мар-дель-Плата
+N12	Reference T36 Wikidata:Q45007	Чубут
+N13	Reference T37 Wikidata:Q748028	Пуэрто-Мадрин
+N14	Reference T38 Wikidata:Q189290	офицер
+N15	Reference T41 Wikidata:Q45199	моряк
+N16	Reference T4 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:NULL	нет данных
+N1	Reference T11 Wikidata:NULL	нет данных
+N2	Reference T12 Wikidata:Q44798	
+N3	Reference T13 Wikidata:Q55377	
+N17	Reference T17 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q44238	Посадас
+N6	Reference T20 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T30 Wikidata:NULL	нет данных
+N20	Reference T7 Wikidata:Q18	Южная Америка
+N21	Reference T3 Wikidata:Q18	Южная Америка
+N22	Reference T5 Wikidata:Q414	Аргентина
+N23	Reference T23 Wikidata:Q414	Аргентина
+N24	Reference T19 Wikidata:Q414	Аргентина
+N25	Reference T48 Wikidata:Q414	Аргентина
+N26	Reference T1 Wikidata:Q414	Аргентина
+N27	Reference T9 Wikidata:NULL	нет данных
+N28	Reference T21 Wikidata:NULL	нет данных
+N29	Reference T10 Wikidata:NULL	нет данных
+N30	Reference T43 Wikidata:Q44798	
+N31	Reference T39 Wikidata:NULL	нет данных
+N32	Reference T45 Wikidata:NULL	нет данных

@@ -1,0 +1,141 @@
+T1	PERSON 0 8	Янукович
+T2	PROFESSION 51 62	президентом
+T3	PERSON 63 78	Виктор Янукович
+T4	PROFESSION 86 95	президент
+T5	PERSON 104 119	Виктор Янукович
+T6	ORGANIZATION 176 187	Der Spiegel
+T7	PERSON 190 198	Янукович
+T8	CITY 214 220	Москве
+T9	PROFESSION 278 287	президент
+T10	CITY 296 311	Ростове-на-Дону
+T11	PERSON 314 330	Виктор Фёдорович
+T12	DATE 361 367	45 лет
+T13	PERSON 385 393	Людмилой
+T14	PERSON 488 497	Януковича
+T15	PROFESSION 581 599	президента Украины
+T16	AGE 606 615	40-летняя
+T17	PERSON 616 630	Любовь Полежай
+T18	CITY 634 642	Енакиево
+T19	PROFESSION 698 708	-президент
+T20	COUNTRY 717 723	Россию
+T21	PERSON 738 746	Янукович
+T22	PROFESSION 861 871	президенту
+T23	PERSON 894 903	Александр
+T24	PERSON 936 944	Янукович
+T25	COUNTRY 1108 1118	российской
+T26	PROFESSION 1145 1154	президент
+T27	PROFESSION 1184 1195	президентом
+T28	COUNTRY 1222 1232	российских
+T29	COUNTRY 1241 1248	Украину
+T30	PROFESSION 1291 1301	президенту
+T31	COUNTRY 1302 1308	России
+T32	PERSON 1530 1545	Виктор Янукович
+T33	PROFESSION 1622 1633	президентом
+T34	PERSON 1719 1727	Янукович
+T35	DATE 1750 1769	в феврале 2017 года
+T36	COUNTRY 1816 1823	Украину
+T37	PROFESSION 1835 1845	президенту
+T38	PERSON 1853 1869	Владимиру Путину
+T39	EVENT 9 17	развёлся
+T40	COUNTRY 96 103	Украины
+T41	COUNTRY 592 599	Украины
+T42	COUNTRY 1846 1852	России
+T43	COUNTRY 1634 1641	Украины
+T44	PROFESSION 86 103	президент Украины
+T45	EVENT 130 145	разводе с женой
+T46	EVENT 346 354	развёлся
+T47	DATE 724 735	в 2014 году
+T48	PERSON 1196 1203	Путиным
+T49	PROFESSION 1291 1308	президенту России
+T50	PROFESSION 1622 1641	президентом Украины
+T51	PROFESSION 1835 1852	президенту России
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T39	
+T52	EVENT 130 137	разводе
+R2	ALTERNATIVE_NAME Arg1:T39 Arg2:T45	
+R3	WORKS_AS Arg1:T5 Arg2:T44	
+R4	WORKPLACE Arg1:T5 Arg2:T40	
+R5	AGENT Arg1:T5 Arg2:T45	
+R6	PLACE_RESIDES_IN Arg1:T7 Arg2:T10	
+R7	LOCATED_IN Arg1:T7 Arg2:T8	
+R8	WORKS_AS Arg1:T7 Arg2:T9	
+R9	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R10	AGENT Arg1:T11 Arg2:T46	
+R11	PARTICIPANT_IN Arg1:T13 Arg2:T46	
+R12	SPOUSE Arg1:T11 Arg2:T13	
+R13	ALTERNATIVE_NAME Arg1:T17 Arg2:T16	
+R14	ORIGINS_FROM Arg1:T17 Arg2:T18	
+R16	WORKPLACE Arg1:T15 Arg2:T41	
+R17	SPOUSE Arg1:T15 Arg2:T17	
+R15	SPOUSE Arg1:T14 Arg2:T17	
+R19	WORKPLACE Arg1:T14 Arg2:T41	
+R18	PLACE_RESIDES_IN Arg1:T17 Arg2:T20	
+R20	PLACE_RESIDES_IN Arg1:T14 Arg2:T20	
+R21	PARENT_OF Arg1:T21 Arg2:T23	
+R22	ALTERNATIVE_NAME Arg1:T48 Arg2:T27	
+T53	ORGANIZATION 1222 1238	российских войск
+R23	HEADQUARTERED_IN Arg1:T53 Arg2:T28	
+R24	WORKPLACE Arg1:T48 Arg2:T28	
+R25	WORKPLACE Arg1:T27 Arg2:T28	
+R26	WORKPLACE Arg1:T49 Arg2:T31	
+R27	WORKS_AS Arg1:T48 Arg2:T49	
+R28	WORKPLACE Arg1:T50 Arg2:T43	
+R29	ALTERNATIVE_NAME Arg1:T32 Arg2:T34	
+R30	WORKS_AS Arg1:T32 Arg2:T50	
+R31	WORKPLACE Arg1:T32 Arg2:T43	
+R32	WORKPLACE Arg1:T51 Arg2:T42	
+R33	WORKS_AS Arg1:T38 Arg2:T51	
+R34	WORKPLACE Arg1:T38 Arg2:T42	
+R35	WORKPLACE Arg1:T44 Arg2:T40	
+T54	PROFESSION 581 591	президента
+N1	Reference T1 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N2	Reference T6 Wikidata:Q131478	Шпигель
+N3	Reference T8 Wikidata:Q649	Москва
+N4	Reference T10 Wikidata:Q908	Ростов-на-Дону
+N5	Reference T11 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N7	Reference T15 Wikidata:Q579677	президент Украины
+N9	Reference T18 Wikidata:Q1686835	Енакиево
+N10	Reference T19 Wikidata:Q30461	президент
+N11	Reference T26 Wikidata:Q30461	президент
+N13	Reference T29 Wikidata:Q212	Украина
+N14	Reference T38 Wikidata:Q7747	Владимир Владимирович Путин
+N15	Reference T42 Wikidata:Q159	Россия
+N16	Reference T48 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T49 Wikidata:Q218295	президент Российской Федерации
+N18	Reference T53 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N6	Reference T13 Wikidata:Q4538301	Людмила Александровна Янукович
+N8	Reference T17 Wikidata:Q98544537	
+N19	Reference T23 Wikidata:Q3209269	Александр Викторович Янукович
+N12	Reference T28 Wikidata:Q159	Россия
+N20	Reference T5 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N21	Reference T14 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N22	Reference T32 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N23	Reference T24 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N24	Reference T34 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N25	Reference T7 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N26	Reference T3 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N27	Reference T21 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N28	Reference T50 Wikidata:Q579677	президент Украины
+N29	Reference T44 Wikidata:Q579677	президент Украины
+N30	Reference T27 Wikidata:Q30461	президент
+N31	Reference T22 Wikidata:Q30461	президент
+N32	Reference T4 Wikidata:Q30461	президент
+N33	Reference T33 Wikidata:Q30461	президент
+N34	Reference T9 Wikidata:Q30461	президент
+N35	Reference T54 Wikidata:Q30461	президент
+N36	Reference T2 Wikidata:Q30461	президент
+N37	Reference T37 Wikidata:Q30461	президент
+N38	Reference T30 Wikidata:Q30461	президент
+N39	Reference T40 Wikidata:Q212	Украина
+N40	Reference T43 Wikidata:Q212	Украина
+N41	Reference T36 Wikidata:Q212	Украина
+N42	Reference T41 Wikidata:Q212	Украина
+N43	Reference T31 Wikidata:Q159	Россия
+N44	Reference T20 Wikidata:Q159	Россия
+N45	Reference T51 Wikidata:Q218295	президент Российской Федерации
+N46	Reference T25 Wikidata:Q159	Россия
+T55	EVENT 709 714	уехал
+R36	AGENT Arg1:T19 Arg2:T55	
+R37	POINT_IN_TIME Arg1:T55 Arg2:T47	
+R38	TAKES_PLACE_IN Arg1:T55 Arg2:T20	
+R39	AGENT Arg1:T17 Arg2:T55	
+R40	AGENT Arg1:T14 Arg2:T55	

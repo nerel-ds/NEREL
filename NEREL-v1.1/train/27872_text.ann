@@ -1,0 +1,155 @@
+T1	CITY 2 11	Будапеште
+T2	FACILITY 20 43	площадь Тараса Шевченко
+T3	PERSON 53 68	Тарасу Шевченко
+T4	CITY 71 80	Будапеште
+T5	LOCATION 107 112	Дуная
+T6	COUNTRY 123 130	Венгрии
+T7	COUNTRY 208 219	украинского
+T8	PERSON 226 241	Тараса Шевченко
+T9	COUNTRY 298 309	венгерского
+T10	COUNTRY 366 373	Венгрии
+T11	COUNTRY 376 387	украинского
+T12	PROFESSION 400 442	Чрезвычайный и полномочный посол Украины в
+T14	PERSON 496 506	Юрий Мушка
+T15	PERSON 508 518	Юрій Мушка
+T16	PERSON 561 576	Тараса Шевченко
+T17	COUNTRY 638 649	украинского
+T18	COUNTRY 701 708	Венгрии
+T20	DATE 733 752	3 октября 2012 года
+T21	PERSON 849 864	Тараса Шевченко
+T22	DATE 867 883	В следующем году
+T23	COUNTRY 902 909	Венгрии
+T24	AGE 935 950	200-й годовщины
+T26	PERSON 967 982	Тараса Шевченко
+T27	DATE 1007 1024	9 марта 2013 года
+T28	PERSON 28 43	Тараса Шевченко
+T29	FACILITY 44 68	Памятник Тарасу Шевченко
+T30	DATE 81 94	24 марта 2013
+T31	CITY 131 140	Будапеште
+T32	EVENT 166 184	церемония открытия
+T33	PROFESSION 220 225	поэта
+T34	EVENT 259 268	церемонии
+T36	ORGANIZATION 298 323	венгерского правительства
+T37	PROFESSION 284 323	представители венгерского правительства
+T38	ORGANIZATION 310 323	правительства
+T39	ORDINAL 348 350	II
+T41	ORGANIZATION 376 398	украинского посольства
+T42	NATIONALITY 577 583	венгры
+T43	FACILITY 659 675	Памятник Кобзарю
+T45	ORGANIZATION 753 781	городское собрание Будапешта
+T46	CITY 772 781	Будапешта
+T47	CITY 831 840	Будапешта
+T48	COUNTRY 884 894	украинская
+T49	ORGANIZATION 884 909	украинская община Венгрии
+T52	EVENT 1076 1089	день рождения
+T53	PROFESSION 1090 1095	поэта
+R1	ORIGINS_FROM Arg1:T2 Arg2:T28	
+R2	LOCATED_IN Arg1:T2 Arg2:T1	
+R3	LOCATED_IN Arg1:T29 Arg2:T4	
+R4	ORIGINS_FROM Arg1:T29 Arg2:T3	
+R5	LOCATED_IN Arg1:T31 Arg2:T6	
+R6	TAKES_PLACE_IN Arg1:T32 Arg2:T31	
+T54	LOCATION 100 112	вблизи Дуная
+R7	POINT_IN_TIME Arg1:T32 Arg2:T30	
+R8	TAKES_PLACE_IN Arg1:T32 Arg2:T54	
+R9	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R10	WORKS_AS Arg1:T8 Arg2:T33	
+R11	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R12	PARTICIPANT_IN Arg1:T8 Arg2:T32	
+R13	HEADQUARTERED_IN Arg1:T36 Arg2:T9	
+R14	WORKPLACE Arg1:T37 Arg2:T36	
+R15	PARTICIPANT_IN Arg1:T37 Arg2:T34	
+R16	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+T40	PROFESSION 284 297;376 398	представители украинского посольства
+R18	WORKPLACE Arg1:T40 Arg2:T41	
+R19	PARTICIPANT_IN Arg1:T40 Arg2:T34	
+T55	DISTRICT 348 357	II района
+R20	LOCATED_IN Arg1:T55 Arg2:T31	
+T56	ORGANIZATION 325 373	органов самоуправления II района столицы Венгрии
+R21	HEADQUARTERED_IN Arg1:T56 Arg2:T55	
+T57	PROFESSION 284 297;325 373	представители органов самоуправления II района столицы Венгрии
+R22	WORKPLACE Arg1:T57 Arg2:T56	
+R23	PARTICIPANT_IN Arg1:T57 Arg2:T34	
+T58	COUNTRY 433 440	Украины
+R24	ALTERNATIVE_NAME Arg1:T11 Arg2:T58	
+T59	COUNTRY 443 450	Венгрии
+R25	ORIGINS_FROM Arg1:T12 Arg2:T58	
+R26	WORKPLACE Arg1:T12 Arg2:T59	
+T13	COUNTRY 467 474	Украины
+T60	ORGANIZATION 477 495	Дунайской комиссии
+T61	LOCATION 477 486	Дунайской
+R27	ALTERNATIVE_NAME Arg1:T5 Arg2:T61	
+R28	HEADQUARTERED_IN Arg1:T60 Arg2:T61	
+R29	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R30	MEMBER_OF Arg1:T14 Arg2:T60	
+R31	ORIGINS_FROM Arg1:T42 Arg2:T59	
+R32	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+T19	DATE 713 729	в июле 2007 года
+R34	HEADQUARTERED_IN Arg1:T45 Arg2:T46	
+R33	LOCATED_IN Arg1:T43 Arg2:T46	
+R35	ORIGINS_FROM Arg1:T49 Arg2:T48	
+R36	HEADQUARTERED_IN Arg1:T49 Arg2:T23	
+R37	AGE_IS Arg1:T26 Arg2:T24	
+T25	EVENT 922 934	празднованию
+T44	EVENT 1044 1061	возложении цветов
+R39	PARTICIPANT_IN Arg1:T53 Arg2:T52	
+T50	EVENT 954 966	дня рождения
+R38	PARTICIPANT_IN Arg1:T26 Arg2:T50	
+R40	WORKS_AS Arg1:T26 Arg2:T53	
+R41	HAS_CAUSE Arg1:T44 Arg2:T52	
+R42	POINT_IN_TIME Arg1:T44 Arg2:T27	
+R43	PARTICIPANT_IN Arg1:T49 Arg2:T44	
+R17	OWNER_OF Arg1:T11 Arg2:T41	
+T35	CITY 693 708	столице Венгрии
+R44	LOCATED_IN Arg1:T35 Arg2:T18	
+R45	ALTERNATIVE_NAME Arg1:T35 Arg2:T46	
+R46	POINT_IN_TIME Arg1:T25 Arg2:T22	
+R47	ORGANIZES Arg1:T49 Arg2:T25	
+R48	HAS_CAUSE Arg1:T25 Arg2:T50	
+N2	Reference T3 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N3	Reference T5 Wikidata:Q1653	Дунай
+N5	Reference T15 Wikidata:Q28158186	Юрий Юрьевич Мушка
+N9	Reference T38 Wikidata:Q7188	правительство
+N11	Reference T42 Wikidata:Q133032	венгры
+N15	Reference T53 Wikidata:Q49757	поэт
+N21	Reference T58 Wikidata:Q212	Украина
+N22	Reference T59 Wikidata:Q28	Венгрия
+N23	Reference T13 Wikidata:Q212	Украина
+N1	Reference T2 Wikidata:NULL	нет данных
+N6	Reference T29 Wikidata:Q106764031	
+N16	Reference T54 Wikidata:NULL	нет данных
+N14	Reference T49 Wikidata:NULL	нет данных
+N12	Reference T43 Wikidata:Q106764031	
+N25	Reference T35 Wikidata:Q1781	Будапешт
+N13	Reference T45 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:Q15992673	посол Украины
+N24	Reference T60 Wikidata:Q911204	
+N17	Reference T40 Wikidata:NULL	нет данных
+N20	Reference T57 Wikidata:NULL	нет данных
+N10	Reference T41 Wikidata:Q12142734	
+N7	Reference T36 Wikidata:Q1162751	
+N8	Reference T37 Wikidata:NULL	нет данных
+N18	Reference T55 Wikidata:NULL	нет данных
+N19	Reference T56 Wikidata:NULL	нет данных
+N26	Reference T8 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N27	Reference T16 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N28	Reference T26 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N29	Reference T28 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N30	Reference T21 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N31	Reference T61 Wikidata:Q1653	Дунай
+N32	Reference T14 Wikidata:Q28158186	Юрий Юрьевич Мушка
+N33	Reference T33 Wikidata:Q49757	поэт
+N34	Reference T11 Wikidata:Q212	Украина
+N35	Reference T10 Wikidata:Q28	Венгрия
+N36	Reference T23 Wikidata:Q28	Венгрия
+N37	Reference T9 Wikidata:Q28	Венгрия
+N38	Reference T18 Wikidata:Q28	Венгрия
+N39	Reference T6 Wikidata:Q28	Венгрия
+N40	Reference T17 Wikidata:Q212	Украина
+N41	Reference T48 Wikidata:Q212	Украина
+N42	Reference T7 Wikidata:Q212	Украина
+N43	Reference T31 Wikidata:Q1781	Будапешт
+N44	Reference T46 Wikidata:Q1781	Будапешт
+N45	Reference T4 Wikidata:Q1781	Будапешт
+N46	Reference T47 Wikidata:Q1781	Будапешт
+N47	Reference T1 Wikidata:Q1781	Будапешт

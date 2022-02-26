@@ -1,0 +1,143 @@
+T1	STATE_OR_PROVINCE 17 23	Техаса
+T2	DATE 33 43	на 60 дней
+T3	CITY 101 113	Сан-Квентина
+T4	STATE_OR_PROVINCE 116 126	Калифорнии
+T5	PROFESSION 128 136	Адвокаты
+T6	STATE_OR_PROVINCE 154 159	Техас
+T7	PERSON 160 177	Кимберли Маккарти
+T8	TIME 220 234	вечер вторника
+T9	DATE 237 256	29 января 2013 года
+T10	PROFESSION 299 304	Судья
+T11	PERSON 328 341	Ларри Митчелл
+T12	PERSON 365 382	Кимберли Маккарти
+T13	DATE 383 404	на 3 апреля 2013 года
+T14	PERSON 481 489	Маккарти
+T15	TIME 509 522	за пять часов
+T16	TIME 564 591	в 6 часов вечера во вторник
+T17	PERSON 650 658	Маккарти
+T18	PROFESSION 902 919	Окружной прокурор
+T19	PERSON 920 933	Крэйг Уоткинс
+T21	PERSON 1067 1084	Кимберли Маккарти
+T22	AGE 1138 1147	71-летней
+T23	DATE 1156 1174	почти 16 лет назад
+T24	PERSON 1177 1185	Маккарти
+T25	AGE 1202 1208	51 год
+T26	DATE 1259 1275	в июле 1997 года
+T27	STATE_OR_PROVINCE 1278 1287	техасском
+T28	CITY 1295 1304	Ланкастер
+T29	PERSON 1319 1329	Дороти Бус
+T30	PERSON 1332 1340	Маккарти
+T31	PERSON 1356 1359	Бус
+T32	AGE 1466 1472	71 год
+T33	NUMBER 1474 1478	пять
+T34	COUNTRY 1671 1674	США
+T35	NUMBER 1698 1708	двенадцать
+T36	DATE 1738 1749	с 1976 года
+T37	ORGANIZATION 1757 1770	Верховный суд
+T38	STATE_OR_PROVINCE 1883 1892	Вирджиния
+T39	PENALTY 0 5	Казнь
+T40	PENALTY 192 197	казнь
+T41	DATE 226 234	вторника
+T42	ORGANIZATION 305 327	окружного суда Далласа
+T44	CITY 320 327	Далласа
+T46	PROFESSION 424 432	адвокаты
+T47	PENALTY 526 531	казни
+T48	DATE 581 591	во вторник
+T49	NATIONALITY 661 676	афро-американка
+T50	PROFESSION 681 689	адвокаты
+T51	PROFESSION 837 870	Представители прокуратуры Далласа
+T52	ORGANIZATION 851 870	прокуратуры Далласа
+T54	CITY 863 870	Далласа
+T20	NUMBER 946 948	60
+T57	CRIME 1121 1131	ограблении
+T58	CRIME 1110 1118	убийстве
+T59	CRIME 1235 1258	преднамеренном убийстве
+T60	CRIME 1250 1258	убийстве
+T62	EVENT 1721 1728	казнены
+T64	DATE 1893 1913	в сентябре 2010 года
+T65	PENALTY 183 197	смертная казнь
+R1	PLACE_RESIDES_IN Arg1:T7 Arg2:T6	
+R2	SUBORDINATE_OF Arg1:T5 Arg2:T7	
+R3	LOCATED_IN Arg1:T3 Arg2:T4	
+T67	EVENT 267 296	отсрочки исполнения приговора
+R4	AGENT Arg1:T5 Arg2:T67	
+R5	PENALIZED_AS Arg1:T7 Arg2:T65	
+R6	HAS_CAUSE Arg1:T67 Arg2:T65	
+R7	HEADQUARTERED_IN Arg1:T42 Arg2:T44	
+T43	PROFESSION 299 327	Судья окружного суда Далласа
+R8	WORKPLACE Arg1:T43 Arg2:T42	
+R9	WORKS_AS Arg1:T11 Arg2:T43	
+R10	WORKPLACE Arg1:T11 Arg2:T42	
+T45	PENALTY 350 364	смертную казнь
+T68	PENALTY 359 364	казнь
+R11	PENALIZED_AS Arg1:T12 Arg2:T45	
+R12	ALTERNATIVE_NAME Arg1:T12 Arg2:T14	
+R13	ORIGINS_FROM Arg1:T17 Arg2:T49	
+R14	HEADQUARTERED_IN Arg1:T52 Arg2:T54	
+R15	WORKPLACE Arg1:T51 Arg2:T52	
+R16	WORKS_AS Arg1:T19 Arg2:T18	
+T53	PROFESSION 911 919	прокурор
+R17	CONVICTED_OF Arg1:T21 Arg2:T58	
+R18	CONVICTED_OF Arg1:T21 Arg2:T57	
+R19	ALTERNATIVE_NAME Arg1:T21 Arg2:T24	
+R20	ALTERNATIVE_NAME Arg1:T6 Arg2:T27	
+R21	LOCATED_IN Arg1:T28 Arg2:T27	
+R22	PARTICIPANT_IN Arg1:T29 Arg2:T59	
+R23	CONVICTED_OF Arg1:T24 Arg2:T59	
+R24	TAKES_PLACE_IN Arg1:T59 Arg2:T28	
+R25	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+R26	AGE_DIED_AT Arg1:T31 Arg2:T32	
+R27	START_TIME Arg1:T62 Arg2:T36	
+T56	PENALTY 1837 1851	смертная казнь
+R28	TAKES_PLACE_IN Arg1:T56 Arg2:T38	
+R29	POINT_IN_TIME Arg1:T56 Arg2:T64	
+R30	PARTICIPANT_IN Arg1:T7 Arg2:T67	
+T61	EVENT 342 349	перенёс
+R31	ALTERNATIVE_NAME Arg1:T67 Arg2:T61	
+R32	AGENT Arg1:T11 Arg2:T61	
+R33	HAS_CAUSE Arg1:T61 Arg2:T45	
+R34	PARTICIPANT_IN Arg1:T12 Arg2:T61	
+T63	EVENT 500 508	отсрочке
+R35	HAS_CAUSE Arg1:T63 Arg2:T47	
+R36	ALTERNATIVE_NAME Arg1:T61 Arg2:T63	
+R37	PARTICIPANT_IN Arg1:T14 Arg2:T63	
+R38	POINT_IN_TIME Arg1:T57 Arg2:T23	
+R39	POINT_IN_TIME Arg1:T58 Arg2:T23	
+R40	AGE_IS Arg1:T24 Arg2:T25	
+R41	POINT_IN_TIME Arg1:T59 Arg2:T26	
+R42	AGE_DIED_AT Arg1:T29 Arg2:T22	
+R44	HEADQUARTERED_IN Arg1:T37 Arg2:T34	
+R43	TAKES_PLACE_IN Arg1:T62 Arg2:T34	
+N2	Reference T4 Wikidata:Q99	Калифорния
+N3	Reference T10 Wikidata:Q16533	судья
+N10	Reference T34 Wikidata:Q30	США
+N11	Reference T37 Wikidata:Q190752	верховный суд
+N12	Reference T38 Wikidata:Q1370	Виргиния
+N14	Reference T44 Wikidata:Q16557	Даллас
+N15	Reference T46 Wikidata:Q40348	адвокат
+N20	Reference T53 Wikidata:Q600751	прокурор
+N4	Reference T12 Wikidata:Q15993273	
+N8	Reference T30 Wikidata:Q15993273	
+N9	Reference T31 Wikidata:NULL	нет данных
+N6	Reference T27 Wikidata:Q1439	Техас
+N7	Reference T28 Wikidata:Q976739	
+N21	Reference T18 Wikidata:Q653368	
+N5	Reference T19 Wikidata:Q5181574	
+N18	Reference T52 Wikidata:NULL	нет данных
+N17	Reference T51 Wikidata:NULL	нет данных
+N16	Reference T49 Wikidata:Q49085	афроамериканцы
+N13	Reference T42 Wikidata:NULL	нет данных
+N19	Reference T43 Wikidata:NULL	нет данных
+N22	Reference T11 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q7415190	
+N23	Reference T54 Wikidata:Q16557	Даллас
+N24	Reference T50 Wikidata:Q40348	адвокат
+N25	Reference T5 Wikidata:Q40348	адвокат
+N26	Reference T14 Wikidata:Q15993273	
+N27	Reference T17 Wikidata:Q15993273	
+N28	Reference T24 Wikidata:Q15993273	
+N29	Reference T7 Wikidata:Q15993273	
+N30	Reference T21 Wikidata:Q15993273	
+N31	Reference T29 Wikidata:NULL	нет данных
+N32	Reference T6 Wikidata:Q1439	Техас
+N33	Reference T1 Wikidata:Q1439	Техас

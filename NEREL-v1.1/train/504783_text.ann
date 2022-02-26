@@ -1,0 +1,87 @@
+T1	PERSON 0 9	PewDiePie
+T2	ORDINAL 15 21	первым
+T3	NUMBER 42 49	100 млн
+T7	PERSON 139 148	PewDiePie
+T8	PERSON 150 165	Феликс Чельберг
+T9	ORDINAL 172 178	первым
+T10	NUMBER 222 229	100 млн
+T11	NUMBER 278 282	один
+T12	COUNTRY 291 300	индийский
+T13	ORGANIZATION 315 323	T-Series
+T15	DATE 326 355	Пятью днями ранее, 20 августа
+T16	PERSON 357 365	Чельберг
+T17	PERSON 377 392	Марции Бизоньин
+T18	NATIONALITY 394 405	итальянском
+T19	DATE 441 451	восемь лет
+T20	PERSON 454 462	Чельберг
+T21	PERSON 497 504	Марцией
+T22	PRODUCT 525 532	YouTube
+T23	DATE 533 544	в 2010 году
+T24	AGE 561 567	19 лет
+T25	ORGANIZATION 580 586	Forbes
+T26	PRODUCT 600 607	YоuТubе
+T27	DATE 608 619	в 2018 году
+T28	MONEY 635 650	15 млн долларов
+T29	PRODUCT 22 29	YouTube
+T30	PROFESSION 30 38	блогером
+T31	PROFESSION 22 38	YouTube-блогером
+T32	PERSON 78 85	Марцией
+T33	EVENT 68 75	свадьбы
+R1	SPOUSE Arg1:T1 Arg2:T32	
+T34	DATE 109 122	на 25 августа
+T5	TIME 102 122	В ночь на 25 августа
+T6	PROFESSION 132 138	блогер
+T35	PRODUCT 194 201	YouTube
+T36	PROFESSION 202 210	блогером
+T37	PROFESSION 194 210	YouTube-блогером
+T38	EVENT 366 373	женился
+R3	SPOUSE Arg1:T16 Arg2:T17	
+T39	PROFESSION 406 418	видеоблогере
+T40	EVENT 487 494	свадьбы
+R4	SPOUSE Arg1:T20 Arg2:T21	
+R5	POINT_IN_TIME Arg1:T38 Arg2:T15	
+R6	WORKS_AS Arg1:T17 Arg2:T39	
+R8	WORKS_AS Arg1:T1 Arg2:T31	
+R9	AGENT Arg1:T32 Arg2:T33	
+R10	AGENT Arg1:T1 Arg2:T33	
+T42	NATIONALITY 123 131	шведский
+R12	ORIGINS_FROM Arg1:T13 Arg2:T12	
+R13	AGENT Arg1:T16 Arg2:T38	
+R14	AGENT Arg1:T17 Arg2:T38	
+R15	ORIGINS_FROM Arg1:T17 Arg2:T18	
+R16	AGENT Arg1:T20 Arg2:T40	
+R17	AGENT Arg1:T21 Arg2:T40	
+R18	INCOME Arg1:T20 Arg2:T28	
+R2	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R7	WORKS_AS Arg1:T7 Arg2:T6	
+R11	ORIGINS_FROM Arg1:T7 Arg2:T42	
+R19	WORKS_AS Arg1:T7 Arg2:T37	
+R20	ORIGINS_FROM Arg1:T39 Arg2:T18	
+R21	AGE_IS Arg1:T20 Arg2:T24	
+R22	ALTERNATIVE_NAME Arg1:T8 Arg2:T16	
+R23	ALTERNATIVE_NAME Arg1:T32 Arg2:T17	
+R24	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R25	ORIGINS_FROM Arg1:T28 Arg2:T26	
+N4	Reference T17 Wikidata:Q18148459	Марция Бизоньин
+N6	Reference T25 Wikidata:Q25161472	Форбс
+N7	Reference T29 Wikidata:Q866	YouTube
+N10	Reference T39 Wikidata:Q4110598	видеоблогер
+N8	Reference T30 Wikidata:Q8246794	
+N11	Reference T42 Wikidata:Q165192	
+N9	Reference T37 Wikidata:NULL	нет данных
+N1	Reference T12 Wikidata:Q668	Индия
+N2	Reference T13 Wikidata:Q7667850	
+N3	Reference T16 Wikidata:Q13423853	
+N5	Reference T18 Wikidata:Q50001	итальянцы
+N12	Reference T26 Wikidata:Q866	YouTube
+N13	Reference T32 Wikidata:Q18148459	Марция Бизоньин
+N14	Reference T21 Wikidata:Q18148459	Марция Бизоньин
+N15	Reference T22 Wikidata:Q866	YouTube
+N16	Reference T35 Wikidata:Q866	YouTube
+N17	Reference T36 Wikidata:Q8246794	
+N18	Reference T6 Wikidata:Q8246794	
+N19	Reference T31 Wikidata:NULL	нет данных
+N20	Reference T8 Wikidata:Q13423853	
+N21	Reference T7 Wikidata:Q13423853	
+N22	Reference T20 Wikidata:Q13423853	
+N23	Reference T1 Wikidata:Q13423853	

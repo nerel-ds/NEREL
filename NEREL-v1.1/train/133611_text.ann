@@ -1,0 +1,53 @@
+T1	COUNTRY 11 16	Ирака
+T2	DATE 25 34	за 45 лет
+T3	EVENT 62 76	Мисс Вселенная
+T4	EVENT 96 110	Мисс Вселенная
+T5	COUNTRY 130 135	Ирака
+T6	DATE 144 163	за последние 45 лет
+T7	EVENT 191 205	Мисс Вселенная
+T8	DATE 224 243	26 ноября 2017 года
+T9	CITY 246 256	Лас-Вегасе
+T10	AGE 284 293	27-летняя
+T11	PERSON 294 304	Сара Айдан
+T12	ORDINAL 317 323	второе
+T13	EVENT 332 348	конкурсе красоты
+T14	CITY 351 358	Багдаде
+T15	COUNTRY 449 452	США
+T16	PERSON 462 467	Айдан
+T17	COUNTRY 486 490	Ирак
+T18	EVENT 505 519	Мисс Вселенной
+T19	DATE 521 532	в 1972 году
+T20	PERSON 560 575	Вайдан Сулейман
+T21	COUNTRY 578 589	Пуэрто-Рико
+T22	EVENT 593 607	Мисс Вселенная
+R1	POINT_IN_TIME Arg1:T7 Arg2:T8	
+R2	TAKES_PLACE_IN Arg1:T7 Arg2:T9	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T3	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T7	
+R5	ORIGINS_FROM Arg1:T11 Arg2:T5	
+R6	PARTICIPANT_IN Arg1:T11 Arg2:T7	
+R7	AGE_IS Arg1:T11 Arg2:T10	
+R8	PARTICIPANT_IN Arg1:T11 Arg2:T13	
+R9	TAKES_PLACE_IN Arg1:T13 Arg2:T14	
+R10	LOCATED_IN Arg1:T14 Arg2:T5	
+T23	AWARD 317 329	второе место
+R11	AWARDED_WITH Arg1:T11 Arg2:T23	
+R12	LOCATED_IN Arg1:T9 Arg2:T15	
+R13	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R14	PARTICIPANT_IN Arg1:T17 Arg2:T18	
+R15	POINT_IN_TIME Arg1:T18 Arg2:T19	
+R16	TAKES_PLACE_IN Arg1:T18 Arg2:T21	
+R17	ORIGINS_FROM Arg1:T20 Arg2:T17	
+R18	PARTICIPANT_IN Arg1:T20 Arg2:T18	
+R19	ORIGINS_FROM Arg1:T23 Arg2:T13	
+N1	Reference T5 Wikidata:Q796	Ирак
+N2	Reference T9 Wikidata:Q23768	Лас-Вегас
+N4	Reference T14 Wikidata:Q1530	Багдад
+N5	Reference T15 Wikidata:Q30	США
+N7	Reference T21 Wikidata:Q1183	Пуэрто-Рико
+N3	Reference T11 Wikidata:NULL	нет данных
+N8	Reference T23 Wikidata:Q33965523	
+N6	Reference T20 Wikidata:NULL	нет данных
+N9	Reference T17 Wikidata:Q796	Ирак
+N10	Reference T1 Wikidata:Q796	Ирак
+N11	Reference T16 Wikidata:NULL	нет данных

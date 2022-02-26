@@ -1,0 +1,193 @@
+T1	LOCATION 3 16	севере Москвы
+T2	NUMBER 50 53	три
+T3	NUMBER 73 77	пять
+T4	FACILITY 95 109	Онежская улица
+T5	CITY 112 118	Москве
+T6	PRODUCT 120 130	Honda CR-V
+T7	DATE 132 151	19 ноября 2012 года
+T8	LOCATION 155 168	севере Москвы
+T9	PRODUCT 180 190	Honda CR-V
+T10	NUMBER 242 245	три
+T11	NUMBER 265 269	пять
+T12	ORGANIZATION 291 296	ГИБДД
+T13	TIME 317 331	Около 12 часов
+T14	FACILITY 348 362	Онежской улице
+T15	DISTRICT 365 368	САО
+T16	PRODUCT 407 417	Honda CR-V
+T17	NUMBER 584 587	три
+T18	NUMBER 720 723	Три
+T19	NUMBER 751 764	не менее пяти
+T20	PRODUCT 827 832	Honda
+T21	PRODUCT 1093 1103	Honda CR-V
+T22	AGE 1115 1124	28-летняя
+T23	PROFESSION 1125 1135	архитектор
+T24	FACILITY 1351 1370	Боткинской больнице
+T25	PERSON 1373 1390	Кристина Белецкая
+T26	CITY 1402 1408	Москву
+T27	COUNTRY 1432 1439	Украины
+T28	DATE 1441 1452	В 2010 году
+T29	ORGANIZATION 1467 1517	Московский университет государственного управления
+T30	PROFESSION 1535 1543	дизайнер
+T31	PROFESSION 1572 1584	архитектором
+T32	DATE 1762 1781	в апреле этого года
+T33	DATE 1800 1820	около трёх лет назад
+T34	PERSON 1923 1931	Белецкой
+T35	NUMBER 1991 1996	шести
+T36	PERSON 2130 2146	Анне Никифоровой
+T37	AGE 2203 2212	28-летняя
+T38	PERSON 2213 2230	Кристина Белецкая
+T39	PERSON 2294 2302	Кристина
+T41	DATE 2327 2349	где-то с середины года
+T42	CITY 2473 2480	Воронеж
+T43	CITY 10 16	Москвы
+T44	EVENT 28 48	врезался в остановку
+T45	EVENT 63 70	погибли
+T46	EVENT 78 94	получили ранения
+T47	CITY 162 168	Москвы
+T48	EVENT 255 262	погибли
+T49	EVENT 270 286	получили ранения
+T50	ORGANIZATION 291 303	ГИБДД Москвы
+T51	CITY 297 303	Москвы
+T52	FACILITY 334 344	дома 19/38
+По словам очевидцев пешехо
+T54	EVENT 552 555	ДТП
+T55	EVENT 597 604	погибли
+T56	EVENT 733 740	погибли
+T57	EVENT 765 781	получили ранения
+T58	PERSON 1136 1153	Кристина Белецкая
+T59	PROFESSION 1231 1241	спасателям
+T60	DATE 1409 1429	около семи лет назад
+T63	PROFESSION 1896 1907	журналистам
+T64	PENALTY 1958 1964	штрафы
+T65	PROFESSION 2251 2262	архитекторы
+R1	LOCATED_IN Arg1:T1 Arg2:T43	
+R2	TAKES_PLACE_IN Arg1:T44 Arg2:T1	
+R3	LOCATED_IN Arg1:T4 Arg2:T5	
+T40	EVENT 191 222	врезался в автобусную остановку
+R4	ALTERNATIVE_NAME Arg1:T44 Arg2:T40	
+T61	NUMBER 339 341	19
+T62	NUMBER 342 344	38
+R5	LOCATED_IN Arg1:T52 Arg2:T14	
+R6	LOCATED_IN Arg1:T14 Arg2:T15	
+R7	LOCATED_IN Arg1:T15 Arg2:T8	
+R8	LOCATED_IN Arg1:T8 Arg2:T47	
+T53	EVENT 455 473	выехала на тротуар
+T66	EVENT 418 453	пересекла встречную полосу движения
+R9	HEADQUARTERED_IN Arg1:T50 Arg2:T51	
+R10	TAKES_PLACE_IN Arg1:T40 Arg2:T8	
+R11	POINT_IN_TIME Arg1:T40 Arg2:T7	
+R12	WORKS_AS Arg1:T58 Arg2:T23	
+R13	AGE_IS Arg1:T58 Arg2:T22	
+T67	DISEASE 1331 1348	тяжёлом состоянии
+R14	MEDICAL_CONDITION Arg1:T58 Arg2:T67	
+R15	LOCATED_IN Arg1:T58 Arg2:T24	
+R16	ORIGINS_FROM Arg1:T25 Arg2:T27	
+R17	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+T68	CITY 1467 1477	Московский
+R18	HEADQUARTERED_IN Arg1:T29 Arg2:T68	
+R19	SCHOOLS_ATTENDED Arg1:T25 Arg2:T29	
+R20	WORKS_AS Arg1:T25 Arg2:T30	
+R21	WORKS_AS Arg1:T25 Arg2:T31	
+R22	ALTERNATIVE_NAME Arg1:T25 Arg2:T34	
+T69	EVENT 50 70	три человека погибли
+T70	EVENT 73 94	пять получили ранения
+R23	HAS_CAUSE Arg1:T69 Arg2:T44	
+R24	HAS_CAUSE Arg1:T70 Arg2:T44	
+T71	EVENT 242 262	три человека погибли
+T72	EVENT 265 286	пять получили ранения
+R25	HAS_CAUSE Arg1:T48 Arg2:T40	
+R26	HAS_CAUSE Arg1:T72 Arg2:T40	
+R27	TAKES_PLACE_IN Arg1:T66 Arg2:T14	
+R28	TAKES_PLACE_IN Arg1:T53 Arg2:T14	
+T73	EVENT 489 507	наезд на пешеходов
+T74	EVENT 584 604	три человека погибли
+R29	ALTERNATIVE_NAME Arg1:T73 Arg2:T54	
+R30	TAKES_PLACE_IN Arg1:T73 Arg2:T14	
+R31	ALTERNATIVE_NAME Arg1:T40 Arg2:T73	
+R32	HAS_CAUSE Arg1:T74 Arg2:T54	
+T75	EVENT 689 707	на тротуар вылетел
+R33	ALTERNATIVE_NAME Arg1:T53 Arg2:T75	
+R34	POINT_IN_TIME Arg1:T66 Arg2:T13	
+R35	POINT_IN_TIME Arg1:T53 Arg2:T13	
+R36	POINT_IN_TIME Arg1:T73 Arg2:T13	
+T76	EVENT 720 740	Три человека погибли
+T77	EVENT 751 781	не менее пяти получили ранения
+R37	ALTERNATIVE_NAME Arg1:T72 Arg2:T77	
+T78	DISEASE 1178 1192	тяжёлые травмы
+R39	MEDICAL_CONDITION Arg1:T58 Arg2:T78	
+T79	EVENT 958 995	пересёк полосу общественного движения
+T80	EVENT 997 1017	врезался в остановку
+T81	EVENT 1027 1050	задел другой автомобиль
+R40	ALTERNATIVE_NAME Arg1:T73 Arg2:T80	
+T82	PERSON 1591 1599	Кристины
+T83	PERSON 1600 1616	Ольга Алексеевна
+R41	ALTERNATIVE_NAME Arg1:T25 Arg2:T82	
+R42	PARENT_OF Arg1:T83 Arg2:T82	
+T84	DISEASE 1717 1730	переутомления
+T85	DISEASE 1732 1742	упадок сил
+R43	MEDICAL_CONDITION Arg1:T82 Arg2:T84	
+R44	MEDICAL_CONDITION Arg1:T82 Arg2:T85	
+R45	PENALIZED_AS Arg1:T34 Arg2:T64	
+T86	CRIME 1968 1981	нарушения ПДД
+R46	HAS_CAUSE Arg1:T64 Arg2:T86	
+R47	CONVICTED_OF Arg1:T34 Arg2:T86	
+R48	KNOWS Arg1:T34 Arg2:T36	
+R49	KNOWS Arg1:T36 Arg2:T34	
+R50	ALTERNATIVE_NAME Arg1:T34 Arg2:T38	
+R51	KNOWS Arg1:T36 Arg2:T38	
+R52	KNOWS Arg1:T38 Arg2:T36	
+R53	WORKS_AS Arg1:T38 Arg2:T65	
+R54	WORKS_AS Arg1:T36 Arg2:T65	
+R38	INANIMATE_INVOLVED Arg1:T6 Arg2:T44	
+R55	INANIMATE_INVOLVED Arg1:T9 Arg2:T40	
+R56	INANIMATE_INVOLVED Arg1:T16 Arg2:T66	
+R57	INANIMATE_INVOLVED Arg1:T16 Arg2:T53	
+R58	AGE_IS Arg1:T38 Arg2:T37	
+N1	Reference T4 Wikidata:Q4334857	Онежская улица
+N3	Reference T12 Wikidata:Q4146353	Госавтоинспекция МВД России
+N4	Reference T15 Wikidata:Q462016	Северный административный округ
+N5	Reference T16 Wikidata:Q255461	Honda CR-V
+N6	Reference T20 Wikidata:Q9584	Honda
+N7	Reference T24 Wikidata:Q4145421	Городская клиническая больница имени С. П. Боткина
+N8	Reference T26 Wikidata:Q649	Москва
+N9	Reference T27 Wikidata:Q212	Украина
+N11	Reference T30 Wikidata:Q5322166	дизайнер
+N13	Reference T42 Wikidata:Q3426	Воронеж
+N14	Reference T50 Wikidata:Q649	Москва
+N17	Reference T63 Wikidata:Q1930187	журналист
+N18	Reference T65 Wikidata:Q42973	архитектор
+N12	Reference T36 Wikidata:NULL	нет данных
+N20	Reference T83 Wikidata:NULL	нет данных
+N19	Reference T68 Wikidata:Q649	Москва
+N10	Reference T29 Wikidata:Q4304308	
+N16	Reference T59 Wikidata:Q17126809	спасатель
+N15	Reference T58 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q462016	Северный административный округ
+N21	Reference T52 Wikidata:NULL	нет данных
+N22	Reference T14 Wikidata:Q4334857	Онежская улица
+N23	Reference T6 Wikidata:Q255461	Honda CR-V
+N24	Reference T21 Wikidata:Q255461	Honda CR-V
+N25	Reference T9 Wikidata:Q255461	Honda CR-V
+N26	Reference T5 Wikidata:Q649	Москва
+N27	Reference T51 Wikidata:Q649	Москва
+N28	Reference T47 Wikidata:Q649	Москва
+N29	Reference T43 Wikidata:Q649	Москва
+N30	Reference T31 Wikidata:Q42973	архитектор
+N31	Reference T23 Wikidata:Q42973	архитектор
+N32	Reference T38 Wikidata:NULL	нет данных
+N33	Reference T25 Wikidata:NULL	нет данных
+N34	Reference T34 Wikidata:NULL	нет данных
+N35	Reference T39 Wikidata:NULL	нет данных
+N36	Reference T82 Wikidata:NULL	нет данных
+N37	Reference T1 Wikidata:Q462016	Северный административный округ
+T87	EVENT 1391 1399	приехала
+R59	PARTICIPANT_IN Arg1:T25 Arg2:T87	
+R60	TAKES_PLACE_IN Arg1:T87 Arg2:T26	
+R61	POINT_IN_TIME Arg1:T87 Arg2:T60	
+R62	INANIMATE_INVOLVED Arg1:T20 Arg2:T79	
+R63	INANIMATE_INVOLVED Arg1:T20 Arg2:T80	
+R64	INANIMATE_INVOLVED Arg1:T20 Arg2:T81	
+T88	EVENT 841 867	врезалась в фонарный столб
+R65	INANIMATE_INVOLVED Arg1:T20 Arg2:T88	
+T89	EVENT 880 902	выбросило на остановку
+R66	INANIMATE_INVOLVED Arg1:T20 Arg2:T89	

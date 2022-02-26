@@ -1,0 +1,155 @@
+T1	NUMBER 0 4	Пять
+T2	ORGANIZATION 14 27	Геликон-оперы
+T3	FACILITY 29 42	Геликон-опера
+T4	FACILITY 46 63	Большой Никитской
+T5	EVENT 96 107	сбор труппы
+T6	CITY 108 118	московской
+T7	ORGANIZATION 120 133	Геликон-оперы
+T8	AGE 161 176	тридцатилетнему
+T9	PROFESSION 192 219	Художественный руководитель
+T10	ORGANIZATION 221 229	Геликона
+T11	PERSON 231 246	Дмитрий Бертман
+T12	CITY 280 285	Токио
+T13	PROFESSION 287 295	режиссёр
+T14	ORGANIZATION 312 330	Национальной опере
+T15	NUMBER 370 374	пять
+T16	DATE 409 427	в ближайшие месяцы
+T17	DATE 439 450	25 сентября
+T18	COUNTRY 459 469	российская
+T19	WORK_OF_ART 503 519	Мистер Георг Отс
+T20	PROFESSION 522 530	режиссёр
+T21	PERSON 533 548	Дмитрий Бертман
+T22	DATE 620 626	в июле
+T23	COUNTRY 629 636	Эстонии
+T24	PERSON 693 707	Джузеппе Верди
+T25	PERSON 728 736	Бертмана
+T26	DATE 745 754	в октябре
+T27	DATE 757 767	22 октября
+T28	PERSON 815 820	Верди
+T29	DATE 931 946	В конце декабря
+T31	PROFESSION 1085 1093	режиссер
+T32	PERSON 1094 1104	Илья Ильин
+T33	PERSON 1143 1146	Кая
+T34	PERSON 1149 1154	Герду
+T35	NUMBER 1161 1164	две
+T36	ORGANIZATION 1185 1198	Геликон-опере
+T37	DATE 1204 1227	в феврале будущего года
+T38	DATE 1229 1238	2 февраля
+T39	WORK_OF_ART 1282 1296	Туда и обратно
+T40	PERSON 1310 1326	Дмитрия Бикбаева
+T41	DATE 1331 1353	спустя еще десять дней
+T42	PERSON 1363 1370	Бертман
+T43	DATE 1422 1442	12 февраля 2020 года
+T44	WORK_OF_ART 1485 1492	Золушка
+T45	PERSON 1511 1527	Леонид Вайнштейн
+T46	PERSON 1558 1570	Кары Караева
+T47	DATE 64 74	4 сентября
+R1	POINT_IN_TIME Arg1:T5 Arg2:T47	
+T48	PROFESSION 192 230	Художественный руководитель «Геликона»
+T49	PRODUCT 271 276	Skype
+T50	COUNTRY 331 337	Японии
+T51	WORK_OF_ART 339 354	Евгения Онегина
+T52	ORGANIZATION 312 337	Национальной опере Японии
+T53	AGE 564 572	столетию
+T54	EVENT 592 608	мировая премьера
+R2	POINT_IN_TIME Arg1:T54 Arg2:T22	
+R3	TAKES_PLACE_IN Arg1:T54 Arg2:T23	
+T55	WORK_OF_ART 805 813	Травиата
+T56	PROFESSION 833 843	режиссёром
+T30	WORK_OF_ART 1043 1082	Снежная королева. Глобальное потепление
+R4	LOCATED_IN Arg1:T3 Arg2:T4	
+R5	AGE_IS Arg1:T7 Arg2:T8	
+R6	WORKS_AS Arg1:T11 Arg2:T48	
+T58	EVENT 795 803	премьера
+T59	EVENT 470 478	премьера
+T60	EVENT 1251 1260	спектакль
+T61	EVENT 1457 1475	семейный спектакль
+R7	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R8	ORGANIZES Arg1:T7 Arg2:T5	
+R9	WORKPLACE Arg1:T11 Arg2:T10	
+R10	PRODUCES Arg1:T11 Arg2:T51	
+R11	WORKS_AS Arg1:T11 Arg2:T13	
+R12	LOCATED_IN Arg1:T11 Arg2:T12	
+R13	PRODUCES Arg1:T11 Arg2:T51	
+R14	POINT_IN_TIME Arg1:T59 Arg2:T17	
+R15	WORKS_AS Arg1:T21 Arg2:T20	
+R16	PRODUCES Arg1:T21 Arg2:T19	
+T62	PERSON 510 519	Георг Отс
+T63	PROFESSION 585 590	певца
+R17	WORKS_AS Arg1:T62 Arg2:T63	
+R18	AGE_IS Arg1:T19 Arg2:T53	
+T64	EVENT 658 666	премьеру
+R19	PRODUCES Arg1:T28 Arg2:T55	
+R20	POINT_IN_TIME Arg1:T58 Arg2:T27	
+R21	PARTICIPANT_IN Arg1:T25 Arg2:T58	
+T57	EVENT 1023 1041	премьера спектакля
+R22	POINT_IN_TIME Arg1:T57 Arg2:T29	
+R23	WORKS_AS Arg1:T32 Arg2:T31	
+R24	PRODUCES Arg1:T32 Arg2:T30	
+R25	KNOWS Arg1:T33 Arg2:T34	
+T65	EVENT 1165 1173	премьеры
+R26	POINT_IN_TIME Arg1:T60 Arg2:T38	
+R27	PRODUCES Arg1:T40 Arg2:T39	
+R28	PRODUCES Arg1:T45 Arg2:T44	
+T66	PROFESSION 1547 1557	композитор
+R29	WORKS_AS Arg1:T46 Arg2:T66	
+R30	KNOWS Arg1:T45 Arg2:T46	
+R31	WORKPLACE Arg1:T48 Arg2:T10	
+R32	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R33	HEADQUARTERED_IN Arg1:T52 Arg2:T50	
+R34	PRODUCES Arg1:T50 Arg2:T51	
+R35	TAKES_PLACE_IN Arg1:T59 Arg2:T18	
+R36	ALTERNATIVE_NAME Arg1:T24 Arg2:T28	
+R37	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R38	PRODUCES Arg1:T36 Arg2:T65	
+R39	POINT_IN_TIME Arg1:T65 Arg2:T37	
+R40	ORGANIZES Arg1:T36 Arg2:T60	
+R41	PRODUCES Arg1:T36 Arg2:T60	
+R42	PRODUCES Arg1:T36 Arg2:T61	
+R43	PRODUCES Arg1:T36 Arg2:T39	
+R44	PRODUCES Arg1:T36 Arg2:T44	
+T67	NATIONALITY 1536 1546	советского
+R45	ORIGINS_FROM Arg1:T46 Arg2:T67	
+R46	ORIGINS_FROM Arg1:T66 Arg2:T67	
+N1	Reference T3 Wikidata:Q1602522	Геликон-опера
+N2	Reference T4 Wikidata:Q1972493	Большая Никитская улица
+N3	Reference T6 Wikidata:Q649	Москва
+N4	Reference T11 Wikidata:Q3739066	Дмитрий Александрович Бертман
+N5	Reference T12 Wikidata:Q1490	Токио
+N8	Reference T23 Wikidata:Q191	Эстония
+N9	Reference T24 Wikidata:Q7317	Джузеппе Верди
+N13	Reference T36 Wikidata:Q1602522	Геликон-опера
+N15	Reference T40 Wikidata:Q4086569	Дмитрий Амиризович Бикбаев
+N16	Reference T42 Wikidata:Q3739066	Дмитрий Александрович Бертман
+N18	Reference T45 Wikidata:Q4102519	Леонид Моисеевич Вайнштейн
+N19	Reference T46 Wikidata:Q580027	Кара Абульфаз оглы Караев
+N21	Reference T49 Wikidata:Q40984	Skype
+N22	Reference T50 Wikidata:Q17	Япония
+N23	Reference T51 Wikidata:Q50956	Евгений Онегин
+N25	Reference T55 Wikidata:Q186162	Травиата
+N26	Reference T56 Wikidata:Q3455803	режиссёр
+N29	Reference T63 Wikidata:Q177220	певец
+N30	Reference T66 Wikidata:Q36834	композитор
+N32	Reference T9 Wikidata:Q1797162	
+N20	Reference T48 Wikidata:NULL	нет данных
+N33	Reference T14 Wikidata:NULL	нет данных
+N24	Reference T52 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q159	Россия
+N28	Reference T62 Wikidata:Q1280772	Георг Карлович Отс
+N7	Reference T19 Wikidata:NULL	нет данных
+N27	Reference T30 Wikidata:NULL	нет данных
+N10	Reference T32 Wikidata:NULL	нет данных
+N11	Reference T33 Wikidata:NULL	нет данных
+N12	Reference T34 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:NULL	нет данных
+N17	Reference T44 Wikidata:Q11841	Золушка
+N31	Reference T67 Wikidata:Q15180	СССР
+N34	Reference T25 Wikidata:Q3739066	Дмитрий Александрович Бертман
+N35	Reference T21 Wikidata:Q3739066	Дмитрий Александрович Бертман
+N36	Reference T28 Wikidata:Q7317	Джузеппе Верди
+N37	Reference T2 Wikidata:Q1602522	Геликон-опера
+N38	Reference T10 Wikidata:Q1602522	Геликон-опера
+N39	Reference T7 Wikidata:Q1602522	Геликон-опера
+N40	Reference T13 Wikidata:Q3455803	режиссёр
+N41	Reference T20 Wikidata:Q3455803	режиссёр
+N42	Reference T31 Wikidata:Q3455803	режиссёр

@@ -1,0 +1,151 @@
+T1	COUNTRY 2 8	Малави
+T2	PROFESSION 18 35	глава государства
+T3	COUNTRY 43 49	Малави
+T4	PROFESSION 116 126	президента
+T5	PERSON 127 144	Бингу ва Мутарика
+T6	DATE 146 155	В четверг
+T7	COUNTRY 226 232	Малави
+T8	CITY 235 243	Лилонгве
+T9	DATE 246 255	В пятницу
+T10	AGE 290 299	78-летний
+T11	PERSON 398 415	Бингу ва Мутарика
+T12	PROFESSION 421 432	президентом
+T13	DATE 433 444	в 2004 году
+T14	DATE 446 457	в 2008 году
+T15	ORDINAL 476 482	второй
+T16	COUNTRY 597 603	Малави
+T17	DATE 659 675	в последние годы
+T18	DATE 837 857	В июне прошлого года
+T19	NUMBER 858 860	19
+T20	PROFESSION 931 940	Экономист
+T21	PERSON 957 965	Мутарика
+T22	ORGANIZATION 1003 1019	Всемирного банка
+T23	DATE 1021 1032	В 2002 году
+T24	PROFESSION 1049 1097	министром экономического планирования и развития
+T25	DATE 1105 1116	в 2002 году
+T26	PROFESSION 1117 1126	президент
+T27	PERSON 1127 1140	Бакили Мулузи
+T28	PERSON 1185 1193	Мутарика
+T29	PERSON 1216 1222	Мулузи
+T30	ORGANIZATION 1232 1268	Демократическую прогрессивную партию
+T31	COUNTRY 1339 1345	Малави
+T32	PROFESSION 1348 1361	Главой Малави
+T33	PROFESSION 1368 1382	вице-президент
+T35	COUNTRY 1478 1484	Малави
+T36	PROFESSION 1486 1500	вице-президент
+T37	DATE 1609 1627	в начале 2014 года
+T38	PERSON 1644 1649	Банда
+T39	PERSON 1692 1700	Мутарика
+T42	EVENT 109 115	смерти
+T43	PERSON 156 164	Мутарика
+T44	PROFESSION 300 305	лидер
+T45	EVENT 306 315	скончался
+T46	DISEASE 319 338	сердечного приступа
+T47	ORGANIZATION 347 360	правительство
+T48	EVENT 462 472	переизбран
+T49	EVENT 416 432	стал президентом
+T50	LOCATION 633 644	африканских
+T52	EVENT 869 876	погибли
+T53	EVENT 895 928	антиправительственных выступлений
+T54	PROFESSION 1049 1058	министром
+T55	IDEOLOGY 1232 1247	Демократическую
+T56	IDEOLOGY 1248 1261	прогрессивную
+T57	ORGANIZATION 1328 1345	парламенте Малави
+T58	ORGANIZATION 1328 1338	парламенте
+T59	COUNTRY 1355 1361	Малави
+T61	PERSON 1383 1394	Джойс Банда
+T34	NUMBER 1418 1423	10-ти
+T62	EVENT 1432 1455	общенациональном трауре
+T63	LAW 1466 1484	конституции Малави
+T64	LAW 1466 1477	конституции
+T66	PROFESSION 1573 1590	главы государства
+R1	PARTICIPANT_IN Arg1:T5 Arg2:T42	
+R2	WORKS_AS Arg1:T5 Arg2:T4	
+R3	LOCATED_IN Arg1:T8 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T43	
+R5	TAKES_PLACE_IN Arg1:T42 Arg2:T3	
+R6	WORKPLACE Arg1:T4 Arg2:T3	
+R7	WORKPLACE Arg1:T5 Arg2:T3	
+T40	DISEASE 165 181	потерял сознание
+R8	MEDICAL_CONDITION Arg1:T43 Arg2:T40	
+R9	AGE_IS Arg1:T43 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T42 Arg2:T45	
+R11	LOCATED_IN Arg1:T16 Arg2:T50	
+R12	IDEOLOGY_OF Arg1:T30 Arg2:T55	
+R13	IDEOLOGY_OF Arg1:T30 Arg2:T56	
+R14	HEADQUARTERED_IN Arg1:T57 Arg2:T31	
+R15	WORKPLACE Arg1:T32 Arg2:T59	
+R16	WORKS_AS Arg1:T61 Arg2:T33	
+R17	WORKS_AS Arg1:T61 Arg2:T32	
+R18	WORKPLACE Arg1:T61 Arg2:T59	
+R19	POINT_IN_TIME Arg1:T53 Arg2:T18	
+T41	EVENT 858 876	19 человек погибли
+R20	SUBEVENT_OF Arg1:T41 Arg2:T53	
+R21	TAKES_PLACE_IN Arg1:T53 Arg2:T16	
+R22	TAKES_PLACE_IN Arg1:T41 Arg2:T16	
+R23	WORKS_AS Arg1:T21 Arg2:T20	
+R24	AGE_IS Arg1:T44 Arg2:T10	
+R25	WORKS_AS Arg1:T43 Arg2:T44	
+R26	CAUSE_OF_DEATH Arg1:T43 Arg2:T46	
+R27	CAUSE_OF_DEATH Arg1:T44 Arg2:T46	
+R28	ALTERNATIVE_NAME Arg1:T2 Arg2:T11	
+R29	PARTICIPANT_IN Arg1:T11 Arg2:T48	
+R30	POINT_IN_TIME Arg1:T48 Arg2:T14	
+R31	PARTICIPANT_IN Arg1:T11 Arg2:T49	
+R32	POINT_IN_TIME Arg1:T49 Arg2:T13	
+R33	WORKPLACE Arg1:T21 Arg2:T22	
+R34	WORKPLACE Arg1:T20 Arg2:T22	
+R35	WORKS_AS Arg1:T21 Arg2:T24	
+R36	WORKS_AS Arg1:T27 Arg2:T26	
+R37	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+R38	FOUNDED_BY Arg1:T30 Arg2:T28	
+R39	TAKES_PLACE_IN Arg1:T62 Arg2:T59	
+R40	ORIGINS_FROM Arg1:T63 Arg2:T35	
+R41	ALTERNATIVE_NAME Arg1:T61 Arg2:T38	
+R42	KNOWS Arg1:T38 Arg2:T39	
+R43	KNOWS Arg1:T39 Arg2:T38	
+T51	EVENT 188 215	доставлен в одну из больниц
+R44	PARTICIPANT_IN Arg1:T43 Arg2:T51	
+R45	TAKES_PLACE_IN Arg1:T51 Arg2:T8	
+R46	HAS_CAUSE Arg1:T51 Arg2:T40	
+R47	POINT_IN_TIME Arg1:T51 Arg2:T6	
+R48	HAS_CAUSE Arg1:T45 Arg2:T46	
+R49	ORGANIZES Arg1:T61 Arg2:T62	
+N1	Reference T5 Wikidata:Q181586	Бингу ва Мутарика
+N2	Reference T8 Wikidata:Q3876	Лилонгве
+N3	Reference T20 Wikidata:Q188094	экономист
+N4	Reference T22 Wikidata:Q7164	Всемирный банк
+N5	Reference T26 Wikidata:Q30461	президент
+N6	Reference T27 Wikidata:Q317107	Бакили Мулузи
+N9	Reference T35 Wikidata:Q1020	Малави
+N12	Reference T47 Wikidata:Q7188	правительство
+N13	Reference T54 Wikidata:Q83307	министр
+N15	Reference T58 Wikidata:Q35749	парламент
+N16	Reference T61 Wikidata:Q57388	Джойс Банда
+N18	Reference T64 Wikidata:Q7755	конституция
+N19	Reference T66 Wikidata:Q48352	глава государства
+N20	Reference T50 Wikidata:Q15	Африка
+N11	Reference T44 Wikidata:Q1251441	лидер
+N8	Reference T32 Wikidata:Q15921529	
+N7	Reference T30 Wikidata:Q1185876	
+N17	Reference T63 Wikidata:Q2995183	
+N10	Reference T36 Wikidata:Q42178	вице-президент
+N21	Reference T24 Wikidata:NULL	нет данных
+N14	Reference T57 Wikidata:Q1577811	
+N22	Reference T11 Wikidata:Q181586	Бингу ва Мутарика
+N23	Reference T43 Wikidata:Q181586	Бингу ва Мутарика
+N24	Reference T39 Wikidata:Q181586	Бингу ва Мутарика
+N25	Reference T28 Wikidata:Q181586	Бингу ва Мутарика
+N26	Reference T21 Wikidata:Q181586	Бингу ва Мутарика
+N27	Reference T4 Wikidata:Q30461	президент
+N28	Reference T12 Wikidata:Q30461	президент
+N29	Reference T29 Wikidata:Q317107	Бакили Мулузи
+N30	Reference T31 Wikidata:Q1020	Малави
+N31	Reference T59 Wikidata:Q1020	Малави
+N32	Reference T16 Wikidata:Q1020	Малави
+N33	Reference T7 Wikidata:Q1020	Малави
+N34	Reference T3 Wikidata:Q1020	Малави
+N35	Reference T1 Wikidata:Q1020	Малави
+N36	Reference T38 Wikidata:Q57388	Джойс Банда
+N37	Reference T2 Wikidata:Q48352	глава государства
+N38	Reference T33 Wikidata:Q42178	вице-президент

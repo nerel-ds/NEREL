@@ -1,0 +1,182 @@
+T2	PRODUCT 21 27	McAfee
+T3	COUNTRY 40 46	Белизе
+T5	PRODUCT 137 143	McAfee
+T6	PERSON 144 156	Джона Макафи
+T7	PERSON 158 169	John McAfee
+T8	DATE 172 191	1 декабря 2012 года
+T9	COUNTRY 264 270	Белиза
+T10	COUNTRY 273 280	Мексики
+T11	PERSON 334 345	Джон Макафи
+T12	COUNTRY 369 375	Белиза
+T13	COUNTRY 378 385	Мексики
+T14	PERSON 462 468	Макафи
+T15	PERSON 489 509	Грегори Ваента Фолла
+T16	PERSON 511 530	Gregory Viant Faull
+T17	ORGANIZATION 613 620	Полиция
+T18	AGE 647 657	67-летнего
+T19	PERSON 685 698	Грегори Фолла
+T20	DATE 703 722	12 ноября 2012 года
+T21	DATE 724 743	10 ноября 2012 года
+T22	AGE 744 753	52-летний
+T23	COUNTRY 767 770	США
+T24	LOCATION 857 866	Сан-Педро
+T26	PERSON 909 913	Фолл
+T27	PROFESSION 938 946	Прислуга
+T28	PERSON 1043 1047	Фолл
+T29	PERSON 1107 1113	Макафи
+T30	PERSON 1300 1306	Макафи
+T31	ORGANIZATION 1328 1333	Wired
+T32	PERSON 1357 1363	Макафи
+T33	DATE 1628 1645	несколько месяцев
+T34	PROFESSION 1855 1870	премьер-министр
+T35	PERSON 1878 1888	Дин Барроу
+T36	PERSON 1896 1908	Джона Макафи
+T37	DATE 2012 2021	19 ноября
+T38	PERSON 2125 2130	Фолла
+T39	MONEY 2173 2180	$25 000
+T40	PERSON 2196 2202	Макафи
+T43	PROFESSION 571 583	программиста
+T44	PROFESSION 754 763	строитель
+T45	PROFESSION 938 953	Прислуга Макафи
+T46	PROFESSION 1855 1877	премьер-министр Белиза
+T49	EVENT 28 37	арестован
+T50	CRIME 63 71	убийстве
+T51	ORGANIZATION 192 199	полиция
+T52	ORGANIZATION 192 206	полиция Белиза
+T55	ORGANIZATION 613 627	Полиция Белиза
+T56	ORGANIZATION 1079 1086	полицию
+T57	ORGANIZATION 1271 1278	полиция
+T58	ORGANIZATION 1413 1420	полиция
+T61	ORGANIZATION 2240 2248	полицией
+T62	COUNTRY 200 206	Белиза
+T63	EVENT 350 368	схвачен на границе
+T64	EVENT 413 423	задержания
+T65	EVENT 471 479	убийству
+T66	COUNTRY 540 546	Белиза
+T67	EVENT 560 570	задержании
+T68	COUNTRY 621 627	Белиза
+T69	PERSON 658 664	Макафи
+T70	EVENT 675 684	убийством
+T71	PERSON 771 783	Грегори Фолл
+T25	PERSON 930 936	Макафи
+T72	PERSON 947 953	Макафи
+T73	COUNTRY 1545 1551	Белиза
+T74	PROFESSION 1826 1835	политиков
+T75	COUNTRY 1816 1825	белизских
+T76	COUNTRY 1871 1877	Белиза
+T77	PERSON 2022 2028	Макафи
+T79	PERSON 2131 2137	Макафи
+R1	TAKES_PLACE_IN Arg1:T49 Arg2:T3	
+R2	HEADQUARTERED_IN Arg1:T52 Arg2:T62	
+R3	HEADQUARTERED_IN Arg1:T55 Arg2:T68	
+R4	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R5	PRODUCES Arg1:T6 Arg2:T5	
+R6	CONVICTED_OF Arg1:T6 Arg2:T50	
+R7	HAS_CAUSE Arg1:T49 Arg2:T50	
+T1	EVENT 207 217	арестовала
+R8	AGENT Arg1:T52 Arg2:T1	
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T1	
+R10	TAKES_PLACE_IN Arg1:T1 Arg2:T62	
+R11	POINT_IN_TIME Arg1:T1 Arg2:T8	
+R12	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R13	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R14	WORKS_AS Arg1:T14 Arg2:T43	
+R15	PARTICIPANT_IN Arg1:T19 Arg2:T70	
+R16	ORIGINS_FROM Arg1:T71 Arg2:T23	
+R17	AGE_IS Arg1:T71 Arg2:T22	
+R18	ALTERNATIVE_NAME Arg1:T71 Arg2:T26	
+R19	KNOWS Arg1:T26 Arg2:T25	
+R20	WORKPLACE Arg1:T46 Arg2:T76	
+R21	WORKS_AS Arg1:T35 Arg2:T46	
+R22	WORKPLACE Arg1:T35 Arg2:T76	
+T4	EVENT 2116 2124	убийстве
+R23	PARTICIPANT_IN Arg1:T38 Arg2:T4	
+R24	PARTICIPANT_IN Arg1:T11 Arg2:T63	
+R25	PARTICIPANT_IN Arg1:T52 Arg2:T63	
+R26	ALTERNATIVE_NAME Arg1:T1 Arg2:T63	
+R27	ALTERNATIVE_NAME Arg1:T63 Arg2:T64	
+R28	PARTICIPANT_IN Arg1:T15 Arg2:T65	
+T41	CRIME 449 461;469 479	причастности к убийству
+R29	PARTICIPANT_IN Arg1:T15 Arg2:T41	
+R30	HAS_CAUSE Arg1:T64 Arg2:T41	
+T42	ORGANIZATION 533 546	Власти Белиза
+R31	HEADQUARTERED_IN Arg1:T42 Arg2:T66	
+R32	PARTICIPANT_IN Arg1:T43 Arg2:T67	
+R33	AGE_IS Arg1:T69 Arg2:T18	
+T47	EVENT 639 646	розыске
+R34	AGENT Arg1:T55 Arg2:T47	
+R35	PARTICIPANT_IN Arg1:T69 Arg2:T47	
+R36	HAS_CAUSE Arg1:T47 Arg2:T70	
+R37	START_TIME Arg1:T47 Arg2:T20	
+T48	EVENT 788 807	найдер застреленным
+R38	WORKS_AS Arg1:T71 Arg2:T44	
+R39	POINT_IN_TIME Arg1:T48 Arg2:T21	
+R40	TAKES_PLACE_IN Arg1:T48 Arg2:T24	
+R41	SUBORDINATE_OF Arg1:T45 Arg2:T72	
+R42	ORIGINS_FROM Arg1:T74 Arg2:T75	
+R43	TAKES_PLACE_IN Arg1:T1 Arg2:T9	
+R44	TAKES_PLACE_IN Arg1:T1 Arg2:T10	
+R45	TAKES_PLACE_IN Arg1:T63 Arg2:T12	
+R46	TAKES_PLACE_IN Arg1:T63 Arg2:T13	
+R47	INANIMATE_INVOLVED Arg1:T71 Arg2:T48	
+T53	ORGANIZATION 1538 1551	власти Белиза
+R48	HEADQUARTERED_IN Arg1:T53 Arg2:T73	
+T54	EVENT 2138 2162	предложил вознаграждение
+R49	AGENT Arg1:T79 Arg2:T54	
+R50	INANIMATE_INVOLVED Arg1:T39 Arg2:T54	
+R51	HAS_CAUSE Arg1:T54 Arg2:T4	
+N1	Reference T5 Wikidata:Q267313	McAfee
+N2	Reference T6 Wikidata:Q45864	Джон Макафи
+N3	Reference T13 Wikidata:Q96	Мексика
+N5	Reference T17 Wikidata:Q35535	полиция
+N6	Reference T23 Wikidata:Q30	США
+N9	Reference T27 Wikidata:Q54128	прислуга
+N11	Reference T31 Wikidata:Q520154	Wired
+N12	Reference T34 Wikidata:Q14212	премьер-министр
+N13	Reference T35 Wikidata:Q57701	Дин Барроу
+N14	Reference T43 Wikidata:Q5482740	программист
+N18	Reference T62 Wikidata:Q242	Белиз
+N19	Reference T74 Wikidata:Q82955	политик
+N22	Reference T46 Wikidata:Q862638	
+N20	Reference T75 Wikidata:Q242	Белиз
+N10	Reference T29 Wikidata:Q45864	Джон Макафи
+N16	Reference T45 Wikidata:NULL	нет данных
+N8	Reference T26 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:Q811122	
+N21	Reference T42 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:NULL	нет данных
+N17	Reference T52 Wikidata:Q16984031	
+N7	Reference T24 Wikidata:NULL	нет данных
+N23	Reference T2 Wikidata:Q267313	McAfee
+N24	Reference T7 Wikidata:Q45864	Джон Макафи
+N25	Reference T10 Wikidata:Q96	Мексика
+N26	Reference T51 Wikidata:Q35535	полиция
+N27	Reference T56 Wikidata:Q35535	полиция
+N28	Reference T57 Wikidata:Q35535	полиция
+N29	Reference T58 Wikidata:Q35535	полиция
+N30	Reference T61 Wikidata:Q35535	полиция
+N31	Reference T73 Wikidata:Q242	Белиз
+N32	Reference T12 Wikidata:Q242	Белиз
+N33	Reference T66 Wikidata:Q242	Белиз
+N34	Reference T9 Wikidata:Q242	Белиз
+N35	Reference T3 Wikidata:Q242	Белиз
+N36	Reference T76 Wikidata:Q242	Белиз
+N37	Reference T68 Wikidata:Q242	Белиз
+N38	Reference T40 Wikidata:Q45864	Джон Макафи
+N39	Reference T69 Wikidata:Q45864	Джон Макафи
+N40	Reference T14 Wikidata:Q45864	Джон Макафи
+N41	Reference T25 Wikidata:Q45864	Джон Макафи
+N42	Reference T72 Wikidata:Q45864	Джон Макафи
+N43	Reference T11 Wikidata:Q45864	Джон Макафи
+N44	Reference T79 Wikidata:Q45864	Джон Макафи
+N45	Reference T77 Wikidata:Q45864	Джон Макафи
+N46	Reference T36 Wikidata:Q45864	Джон Макафи
+N47	Reference T32 Wikidata:Q45864	Джон Макафи
+N48	Reference T30 Wikidata:Q45864	Джон Макафи
+N49	Reference T38 Wikidata:NULL	нет данных
+N50	Reference T19 Wikidata:NULL	нет данных
+N51	Reference T28 Wikidata:NULL	нет данных
+N52	Reference T71 Wikidata:NULL	нет данных
+N53	Reference T53 Wikidata:NULL	нет данных
+N54	Reference T16 Wikidata:NULL	нет данных
+N55	Reference T55 Wikidata:Q16984031	

@@ -1,0 +1,191 @@
+T1	STATE_OR_PROVINCE 25 34	татарский
+T2	PERSON 42 56	Айрат Арсланов
+T3	AGE 103 115	на 83-м году
+T5	PROFESSION 140 165	артист разговорного жанра
+T6	PERSON 166 180	Айрат Арсланов
+T7	PERSON 182 196	Айрат Арсланов
+T8	AWARD 199 217	народный артист РТ
+T10	PERSON 271 285	Айрат Арсланов
+T11	ORGANIZATION 314 362	Татарского государственного театрального училища
+T12	ORGANIZATION 385 453	Московского института театрального искусства имени А.В. Луначарского
+T13	DATE 455 466	В 1949 году
+T14	PROFESSION 479 487	диктором
+T15	ORGANIZATION 488 523	Татарского комитета радиоинформации
+T16	DATE 525 544	С 1956 по 1960 годы
+T18	ORGANIZATION 570 632	Татарском государственном академическом театре имени Г. Камала
+T20	DATE 634 653	С 1960 по 1967 годы
+T21	PROFESSION 677 685	диктором
+T22	DATE 830 845	С мая 1967 года
+T24	PERSON 846 859	Арсланов А.Г.
+T26	PROFESSION 871 879	артистом
+T27	ORGANIZATION 880 937	Татарской государственной филармонии имени Габдуллы Тукая
+T28	DATE 939 964	Более четырех десятилетий
+T29	PERSON 971 987	Айрата Арсланова
+T30	PERSON 1317 1331	Айрат Арсланов
+T31	PERSON 1400 1412	Мусы Джалиля
+T32	PERSON 1428 1442	Габдуллы Тукая
+T33	PERSON 1479 1491	Гаяза Исхаки
+T34	PERSON 1500 1512	Хади Такташа
+T35	PERSON 1514 1527	Хасана Туфана
+T36	PERSON 1529 1543	Сибгата Хакима
+T37	ORGANIZATION 1571 1615	Золотом фонде татарского радио и телевидения
+T38	LANGUAGE 1642 1651	татарском
+T39	LANGUAGE 1654 1661	русском
+T40	PERSON 1716 1734	Айратом Арслановым
+T41	ORGANIZATION 1750 1807	Татарской государственной филармонии имени Габдуллы Тукая
+T42	EVENT 1822 1842	гражданская панихида
+T43	DATE 1853 1862	24 апреля
+T44	WORK_OF_ART 1380 1398	Моабитскую тетрадь
+T45	NATIONALITY 1459 1469	татарского
+T46	PROFESSION 1470 1478	писателя
+T47	PROFESSION 1343 1349	чтецом
+T48	STATE_OR_PROVINCE 1585 1595	татарского
+T49	NATIONALITY 1683 1692	татарской
+T50	PERSON 1793 1807	Габдуллы Тукая
+T51	STATE_OR_PROVINCE 1750 1759	Татарской
+T52	ORGANIZATION 1737 1807	Пресс-служба Татарской государственной филармонии имени Габдуллы Тукая
+T53	TIME 1853 1870	24 апреля в 10:00
+T54	PERSON 1884 1901	Галиаскара Камала
+T55	ORGANIZATION 1873 1901	театре им. Галиаскара Камала
+T4	STATE_OR_PROVINCE 215 217	РТ
+T56	COUNTRY 220 222	РФ
+T57	PROFESSION 208 214	артист
+T58	AWARD 232 268	Государственной премии РТ им.Г.Тукая
+T59	STATE_OR_PROVINCE 255 257	РТ
+T60	PERSON 261 268	Г.Тукая
+T61	CITY 385 396	Московского
+T62	PERSON 436 453	А.В. Луначарского
+T63	STATE_OR_PROVINCE 314 324	Татарского
+T64	STATE_OR_PROVINCE 488 498	Татарского
+T65	PROFESSION 479 523	диктором Татарского комитета радиоинформации
+T66	PROFESSION 1124 1130	артист
+T67	NATIONALITY 1050 1059	татарских
+T68	PROFESSION 553 567	артистом драмы
+T17	PERSON 623 632	Г. Камала
+T19	STATE_OR_PROVINCE 570 579	Татарском
+T69	PERSON 654 668	Арсланов Айрат
+T70	PROFESSION 787 794	артиста
+T23	PERSON 923 937	Габдуллы Тукая
+T25	STATE_OR_PROVINCE 880 889	Татарской
+T71	PROFESSION 1060 1066	поэтов
+T72	PROFESSION 1069 1078	писателей
+T73	PROFESSION 35 41	артист
+T74	PROFESSION 140 146	артист
+R1	AGE_DIED_AT Arg1:T6 Arg2:T3	
+R2	WORKS_AS Arg1:T2 Arg2:T73	
+R3	ORIGINS_FROM Arg1:T2 Arg2:T1	
+T75	DATE 57 64	Сегодня
+R4	WORKS_AS Arg1:T6 Arg2:T5	
+T76	EVENT 122 131	скончался
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T76	
+R6	POINT_IN_TIME Arg1:T76 Arg2:T75	
+R7	SCHOOLS_ATTENDED Arg1:T10 Arg2:T11	
+R8	SCHOOLS_ATTENDED Arg1:T10 Arg2:T12	
+R9	WORKS_AS Arg1:T7 Arg2:T65	
+R10	WORKPLACE Arg1:T10 Arg2:T15	
+R11	WORKS_AS Arg1:T10 Arg2:T68	
+R12	WORKPLACE Arg1:T10 Arg2:T18	
+T77	PROFESSION 677 700	диктором на телевидении
+R13	WORKS_AS Arg1:T69 Arg2:T77	
+R14	WORKS_AS Arg1:T24 Arg2:T26	
+R15	WORKPLACE Arg1:T24 Arg2:T27	
+R16	ORIGINS_FROM Arg1:T71 Arg2:T67	
+R17	ORIGINS_FROM Arg1:T72 Arg2:T67	
+R18	PRODUCES Arg1:T31 Arg2:T44	
+R19	WORKS_AS Arg1:T33 Arg2:T46	
+R20	ORIGINS_FROM Arg1:T33 Arg2:T45	
+R21	POINT_IN_TIME Arg1:T42 Arg2:T43	
+R22	TAKES_PLACE_IN Arg1:T42 Arg2:T55	
+T78	EVENT 0 13	Ушел из жизни
+R23	PARTICIPANT_IN Arg1:T2 Arg2:T78	
+R24	ALTERNATIVE_NAME Arg1:T78 Arg2:T76	
+R25	AWARDED_WITH Arg1:T7 Arg2:T58	
+R26	ALTERNATIVE_NAME Arg1:T1 Arg2:T59	
+R27	ALTERNATIVE_NAME Arg1:T59 Arg2:T63	
+R28	HEADQUARTERED_IN Arg1:T11 Arg2:T63	
+R29	HEADQUARTERED_IN Arg1:T12 Arg2:T61	
+R30	WORKPLACE Arg1:T65 Arg2:T15	
+R31	HEADQUARTERED_IN Arg1:T15 Arg2:T64	
+R32	WORKPLACE Arg1:T68 Arg2:T18	
+R33	HEADQUARTERED_IN Arg1:T18 Arg2:T19	
+R34	ALTERNATIVE_NAME Arg1:T69 Arg2:T24	
+R35	HEADQUARTERED_IN Arg1:T27 Arg2:T25	
+R36	WORKS_AS Arg1:T29 Arg2:T66	
+R37	WORKS_AS Arg1:T30 Arg2:T47	
+R38	HEADQUARTERED_IN Arg1:T37 Arg2:T48	
+R39	HEADQUARTERED_IN Arg1:T41 Arg2:T51	
+R40	ORIGINS_FROM Arg1:T46 Arg2:T45	
+R41	PART_OF Arg1:T52 Arg2:T41	
+R42	ORIGINS_FROM Arg1:T58 Arg2:T59	
+R43	AWARDED_WITH Arg1:T7 Arg2:T8	
+R44	WORKS_AS Arg1:T7 Arg2:T57	
+R45	ORIGINS_FROM Arg1:T8 Arg2:T4	
+R46	INANIMATE_INVOLVED Arg1:T30 Arg2:T42	
+R47	ALTERNATIVE_NAME Arg1:T24 Arg2:T29	
+R48	ALTERNATIVE_NAME Arg1:T30 Arg2:T40	
+R49	ALTERNATIVE_NAME Arg1:T17 Arg2:T54	
+N2	Reference T10 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N4	Reference T12 Wikidata:Q2177054	Российский институт театрального искусства — ГИТИС
+N7	Reference T21 Wikidata:Q1371925	диктор
+N9	Reference T26 Wikidata:Q483501	деятель искусств
+N11	Reference T29 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N12	Reference T31 Wikidata:Q4473274	Улица Мусы Джалиля
+N13	Reference T32 Wikidata:Q315279	Габдулла Тукай
+N14	Reference T33 Wikidata:Q792834	Исхаки, Гаяз
+N15	Reference T34 Wikidata:Q4494573	Хади Такташ
+N16	Reference T35 Wikidata:Q4466663	Хасан Туфан
+N17	Reference T36 Wikidata:Q4494917	Хаким, Сибгат Тазиевич
+N20	Reference T39 Wikidata:Q7737	русский язык
+N22	Reference T46 Wikidata:Q36180	писатель
+N26	Reference T54 Wikidata:Q2497099	Камал, Галиаскар
+N27	Reference T56 Wikidata:Q159	Россия
+N29	Reference T60 Wikidata:Q315279	Габдулла Тукай
+N31	Reference T62 Wikidata:Q18809	Анатолий Васильевич Луначарский
+N35	Reference T17 Wikidata:Q4452511	Татарский академический театр имени Галиаскара Камала
+N36	Reference T71 Wikidata:Q49757	поэт
+N38	Reference T5 Wikidata:NULL	нет данных
+N30	Reference T61 Wikidata:Q649	Москва
+N8	Reference T24 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N21	Reference T44 Wikidata:Q4298968	
+N19	Reference T38 Wikidata:Q25285	
+N24	Reference T49 Wikidata:Q35565	
+N1	Reference T8 Wikidata:Q4313318	
+N28	Reference T58 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	
+N33	Reference T65 Wikidata:NULL	нет данных
+N37	Reference T77 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:Q48948540	
+N32	Reference T64 Wikidata:Q5481	Татарстан
+N5	Reference T15 Wikidata:NULL	нет данных
+N34	Reference T68 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q4452511	Татарский академический театр имени Галиаскара Камала
+N23	Reference T47 Wikidata:Q20856740	
+N18	Reference T37 Wikidata:NULL	нет данных
+N25	Reference T52 Wikidata:NULL	нет данных
+N39	Reference T55 Wikidata:Q4452511	Татарский академический театр имени Галиаскара Камала
+N40	Reference T7 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N41	Reference T2 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N42	Reference T30 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N43	Reference T6 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N44	Reference T14 Wikidata:Q1371925	диктор
+N45	Reference T70 Wikidata:Q483501	деятель искусств
+N46	Reference T66 Wikidata:Q483501	деятель искусств
+N47	Reference T73 Wikidata:Q483501	деятель искусств
+N48	Reference T74 Wikidata:Q483501	деятель искусств
+N49	Reference T57 Wikidata:Q483501	деятель искусств
+N50	Reference T40 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N51	Reference T23 Wikidata:Q315279	Габдулла Тукай
+N52	Reference T50 Wikidata:Q315279	Габдулла Тукай
+N53	Reference T72 Wikidata:Q36180	писатель
+N54	Reference T69 Wikidata:Q13203061	Айрат Гареевич Арсланов
+N55	Reference T45 Wikidata:Q35565	
+N56	Reference T67 Wikidata:Q35565	
+N57	Reference T41 Wikidata:Q48948540	
+N58	Reference T25 Wikidata:Q5481	Татарстан
+N59	Reference T4 Wikidata:Q5481	Татарстан
+N60	Reference T63 Wikidata:Q5481	Татарстан
+N61	Reference T51 Wikidata:Q5481	Татарстан
+N62	Reference T59 Wikidata:Q5481	Татарстан
+N63	Reference T19 Wikidata:Q5481	Татарстан
+N64	Reference T1 Wikidata:Q5481	Татарстан
+N65	Reference T48 Wikidata:Q5481	Татарстан

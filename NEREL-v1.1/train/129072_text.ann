@@ -1,0 +1,141 @@
+T1	ORGANIZATION 32 39	Немагия
+T2	PERSON 41 59	Алексея Псковитина
+T4	CITY 107 114	Варшаве
+T5	DATE 116 132	Ноябрь 1939 года
+T10	ORGANIZATION 197 204	Nemagia
+T11	PERSON 205 223	Алексея Псковитина
+T12	CITY 226 234	Кемерово
+T19	ORDINAL 352 358	второй
+T21	PERSON 374 390	Михаил Печерский
+T22	ORGANIZATION 413 422	Перископе
+T23	PROFESSION 446 453	адвокат
+T24	PERSON 454 468	Сергей Воронин
+T25	PERSON 471 478	Воронин
+T26	CITY 524 532	Кемерово
+T27	CITY 536 542	Москвы
+T28	LAW 612 630	Статья 128.1 УК РФ
+T29	MONEY 691 709	до миллиона рублей
+T30	DATE 739 758	В августе 2017 года
+T31	ORGANIZATION 772 779	Nemagia
+T32	PERSON 811 825	Олеге Тинькове
+T33	ORGANIZATION 832 845	Тинькофф-банк
+T34	PERSON 879 890	Павел Дуров
+T35	PERSON 905 912	Тиньков
+T36	PERSON 922 932	Псковитина
+T37	PERSON 935 945	Печерского
+T38	MONEY 983 1002	на 500 тысяч рублей
+T39	ORGANIZATION 1006 1018	Роскомнадзор
+T40	ORGANIZATION 1045 1052	Nemagia
+T41	FACILITY 1061 1068	Nemagia
+T42	DATE 1076 1087	в 2013 году
+T43	NUMBER 1125 1132	1,3 млн
+R4	WORKS_AS Arg1:T24 Arg2:T23
+T3	EVENT 90 104	обыскивают дом
+T6	DATE 143 164	13 сентября 2017 года
+T7	TIME 135 164	С утра, 13 сентября 2017 года
+T8	EVENT 244 250	обыски
+T14	EVENT 553 580	возбуждения уголовного дела
+T15	CRIME 583 590	клевете
+T16	ORDINAL 619 624	128.1
+T17	COUNTRY 628 630	РФ
+T18	LAW 625 630	УК РФ
+T20	LAW 625 627	УК
+T44	CRIME 634 675	публичное распространение ложных сведений
+T46	EVENT 913 918;952 982	подал иск о защите деловой репутации
+T47	EVENT 1025 1044	заблокировать ролик
+T48	PROFESSION 11 40	соавтора видеоблога «Немагия»
+R1	WORKPLACE Arg1:T48 Arg2:T1	
+R2	WORKPLACE Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T2 Arg2:T48	
+T49	EVENT 69 76	обыском
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T49	
+T50	PROFESSION 78 89	Полицейские
+R6	AGENT Arg1:T50 Arg2:T3	
+R7	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+R8	POINT_IN_TIME Arg1:T3 Arg2:T5	
+T51	PROFESSION 177 204	соавтора видеоблога Nemagia
+R9	ALTERNATIVE_NAME Arg1:T48 Arg2:T51	
+R11	WORKPLACE Arg1:T51 Arg2:T10	
+R12	WORKPLACE Arg1:T11 Arg2:T10	
+R13	WORKS_AS Arg1:T11 Arg2:T51	
+R14	POINT_IN_TIME Arg1:T8 Arg2:T6	
+R15	TAKES_PLACE_IN Arg1:T8 Arg2:T12	
+T9	LAW 279 295	статье о клевете
+T52	EVENT 400 410	трансляции
+R16	PARTICIPANT_IN Arg1:T21 Arg2:T52	
+R17	TAKES_PLACE_IN Arg1:T52 Arg2:T22	
+R18	KNOWS Arg1:T11 Arg2:T21	
+R19	WORKS_AS Arg1:T21 Arg2:T51	
+R20	WORKPLACE Arg1:T21 Arg2:T10	
+R21	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+T53	PROFESSION 759 771	видеоблогеры
+T54	PROFESSION 759 779	видеоблогеры Nemagia
+R25	WORKPLACE Arg1:T54 Arg2:T31	
+T45	EVENT 780 807	выпустили критический ролик
+R26	PARTICIPANT_IN Arg1:T32 Arg2:T45	
+R27	PARTICIPANT_IN Arg1:T33 Arg2:T45	
+R28	OWNER_OF Arg1:T32 Arg2:T33	
+R29	POINT_IN_TIME Arg1:T45 Arg2:T30	
+R30	PARTICIPANT_IN Arg1:T31 Arg2:T45	
+R31	ALTERNATIVE_NAME Arg1:T32 Arg2:T35	
+R32	ALTERNATIVE_NAME Arg1:T11 Arg2:T36	
+R33	ALTERNATIVE_NAME Arg1:T21 Arg2:T37	
+R34	AGENT Arg1:T35 Arg2:T46	
+R35	PARTICIPANT_IN Arg1:T36 Arg2:T46	
+R36	PARTICIPANT_IN Arg1:T37 Arg2:T46	
+R37	PRICE_OF Arg1:T46 Arg2:T38	
+R38	AGENT Arg1:T39 Arg2:T47	
+R39	PARTICIPANT_IN Arg1:T40 Arg2:T47	
+R40	DATE_FOUNDED_IN Arg1:T41 Arg2:T42	
+T13	PROFESSION 492 511	следственная группа
+R22	ORIGINS_FROM Arg1:T13 Arg2:T27	
+R23	LOCATED_IN Arg1:T13 Arg2:T26	
+R41	PARTICIPANT_IN Arg1:T11 Arg2:T8	
+T55	CRIME 288 295	клевете
+R42	HAS_CAUSE Arg1:T14 Arg2:T15	
+T56	PENALTY 683 709	штрафом до миллиона рублей
+T57	PENALTY 683 690	штрафом
+R24	ORIGINS_FROM Arg1:T18 Arg2:T17	
+R43	HAS_CAUSE Arg1:T56 Arg2:T44	
+R10	ALTERNATIVE_NAME Arg1:T48 Arg2:T51	
+R44	HAS_CAUSE Arg1:T8 Arg2:T9	
+R45	PART_OF Arg1:T28 Arg2:T18	
+T58	PENALTY 714 736	обязательными работами
+R46	ALTERNATIVE_NAME Arg1:T49 Arg2:T3	
+T59	PERSON 832 840	Тинькофф
+R47	ALTERNATIVE_NAME Arg1:T32 Arg2:T59	
+N1	Reference T4 Wikidata:Q270	Варшава
+N3	Reference T22 Wikidata:Q19687076	Periscope
+N4	Reference T23 Wikidata:Q40348	адвокат
+N5	Reference T26 Wikidata:Q6066	Кемерово
+N6	Reference T27 Wikidata:Q649	Москва
+N8	Reference T33 Wikidata:Q4457878	Тинькофф Банк
+N9	Reference T34 Wikidata:Q149067	Павел Дуров
+N12	Reference T39 Wikidata:Q129597	Роскомнадзор
+N13	Reference T17 Wikidata:Q159	Россия
+N14	Reference T18 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N19	Reference T53 Wikidata:Q4110598	видеоблогер
+N16	Reference T48 Wikidata:NULL	нет данных
+N21	Reference T1 Wikidata:Q39607811	
+N17	Reference T50 Wikidata:Q384593	
+N2	Reference T11 Wikidata:NULL	нет данных
+N18	Reference T9 Wikidata:NULL	нет данных
+N22	Reference T24 Wikidata:NULL	нет данных
+N20	Reference T13 Wikidata:NULL	нет данных
+N15	Reference T20 Wikidata:Q19705	уголовное законодательство
+N7	Reference T28 Wikidata:NULL	нет данных
+N23	Reference T31 Wikidata:Q39607811	
+N24	Reference T54 Wikidata:NULL	нет данных
+N10	Reference T35 Wikidata:Q1976907	Тиньков, Олег Юрьевич
+N11	Reference T37 Wikidata:NULL	нет данных
+N25	Reference T41 Wikidata:Q39607811	
+N26	Reference T12 Wikidata:Q6066	Кемерово
+N27	Reference T51 Wikidata:NULL	нет данных
+N28	Reference T36 Wikidata:NULL	нет данных
+N29	Reference T2 Wikidata:NULL	нет данных
+N30	Reference T25 Wikidata:NULL	нет данных
+N31	Reference T40 Wikidata:Q39607811	
+N32	Reference T10 Wikidata:Q39607811	
+N33	Reference T59 Wikidata:Q1976907	Тиньков, Олег Юрьевич
+N34	Reference T32 Wikidata:Q1976907	Тиньков, Олег Юрьевич
+N35	Reference T21 Wikidata:NULL	нет данных

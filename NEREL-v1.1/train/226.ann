@@ -1,0 +1,280 @@
+T1	PROFESSION 8 21	директоры ФБР
+T2	NATIONALITY 33 47	афроамериканца
+T3	ORGANIZATION 56 75	The Washington Post
+T4	PERSON 106 121	Роберта Мюллера
+T5	PROFESSION 131 176	директора Федерального бюро расследований США
+T6	PROFESSION 255 265	главой ФБР
+T7	PERSON 272 284	Майкл Мэйсон
+T8	PERSON 286 299	Michael Mason
+T10	PROFESSION 326 387	начальник службы безопасности компании Verizon Communications
+T11	ORGANIZATION 365 387	Verizon Communications
+T12	PERSON 402 409	Мэйсона
+T13	DATE 458 466	15 марта
+T14	ORGANIZATION 491 513	FBI Agents Association
+T15	NUMBER 530 538	12 тысяч
+T16	PROFESSION 584 596	генпрокурору
+T17	PROFESSION 647 661	директора бюро
+T18	PERSON 669 676	Мэйсона
+T19	PERSON 679 691	Майкл Мэйсон
+T20	PROFESSION 693 698	агент
+T21	DATE 701 710	23-летним
+T22	CITY 751 761	Вашингтоне
+T23	DATE 763 774	В 2007 году
+T24	ORGANIZATION 858 865	Verizon
+T25	PERSON 867 873	Мэйсон
+T26	PROFESSION 892 902	президента
+T27	ORGANIZATION 960 963	ФБР
+T28	PERSON 966 972	Мэйсон
+T29	ORGANIZATION 1002 1005	ФБР
+T30	PERSON 1044 1057	Эдгара Гувера
+T31	PERSON 1152 1159	Мэйсона
+T32	PROFESSION 1160 1174	директором ФБР
+T33	ORGANIZATION 1272 1291	The Washington Post
+T34	PERSON 1324 1330	Мэйсон
+T35	PROFESSION 1366 1403	главы Федерального бюро расследований
+T36	PROFESSION 1467 1504	генерального прокурора штата Иллинойс
+T37	STATE_OR_PROVINCE 1496 1504	Иллинойс
+T38	PERSON 1505 1525	Патрика Фитцжеральда
+T39	PERSON 1527 1545	Patrick Fitzgerald
+T40	PROFESSION 1548 1576	начальника полиции Нью-Йорка
+T42	PERSON 1577 1591	Рэймонда Келли
+T43	PERSON 1593 1606	Raymond Kelly
+T44	PROFESSION 1631 1640	чиновника
+T45	PROFESSION 1651 1670	заместителя Мюллера
+T46	PERSON 1671 1684	Джона Пистоля
+T47	PERSON 1686 1701	John S. Pistole
+T48	ORGANIZATION 1734 1737	ФБР
+T49	PROFESSION 1763 1778	замгенпрокурора
+T50	PERSON 1818 1829	Джэймс Коми
+T51	PERSON 1831 1845	James B. Comey
+T52	PERSON 1856 1879	Фрэнсис Фрагос Таунсенд
+T53	PERSON 1881 1904	Frances Fragos Townsend
+T54	PROFESSION 1907 1945	советница по национальной безопасности
+T55	PROFESSION 1955 1969	президента США
+T56	PROFESSION 1977 1990	директора ФБР
+T57	DATE 2003 2023	в сентябре 2011 года
+T58	AGE 2033 2043	66-летнего
+T59	DATE 2116 2126	десять лет
+T60	PROFESSION 2180 2198	вице-президент США
+T61	PERSON 2199 2212	Джозеф Байден
+T62	PROFESSION 2232 2243	генпрокурор
+T63	PROFESSION 2257 2269	директор ФБР
+T64	PERSON 2302 2310	Луис Фри
+T65	PERSON 2312 2323	Louis Freeh
+T66	PERSON 2355 2366	Барак Обама
+T67	ORGANIZATION 18 21	ФБР
+T68	ORGANIZATION 141 176	Федерального бюро расследований США
+T69	COUNTRY 173 176	США
+T70	ORGANIZATION 262 265	ФБР
+T9	ORGANIZATION 467 489	Ассоциация агентов ФБР
+T71	ORGANIZATION 486 489	ФБР
+T72	ORGANIZATION 491 494	FBI
+T73	PERSON 597 610	Эрику Холдеру
+T74	ORGANIZATION 745 748	ФБР
+T75	PERSON 903 915	Барака Обамы
+T76	PROFESSION 1006 1016	директором
+T77	NATIONALITY 1017 1032	афроамериканцем
+T78	ORGANIZATION 1171 1174	ФБР
+T79	ORGANIZATION 1372 1403	Федерального бюро расследований
+T41	CITY 1567 1576	Нью-Йорка
+T80	PERSON 1663 1670	Мюллера
+T81	PERSON 1796 1817	Джорджа Буша-младшего
+T82	COUNTRY 1966 1969	США
+T83	ORGANIZATION 1987 1990	ФБР
+T84	PERSON 2044 2051	Мюллера
+T85	PERSON 2163 2170	Мюллера
+T86	COUNTRY 2195 2198	США
+T87	PERSON 2244 2250	Холдер
+T88	PERSON 2287 2301	Билла Клинтона
+T89	ORGANIZATION 2273 2301	администрации Билла Клинтона
+T90	ORGANIZATION 2266 2269	ФБР
+R1	WORKS_AS Arg1:T4 Arg2:T5	
+R2	WORKPLACE Arg1:T4 Arg2:T68	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+T91	ORGANIZATION 141 172	Федерального бюро расследований
+T92	PROFESSION 326 364	начальник службы безопасности компании
+R4	WORKS_AS Arg1:T7 Arg2:T10	
+R5	WORKPLACE Arg1:T7 Arg2:T11	
+R6	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R7	ALTERNATIVE_NAME Arg1:T71 Arg2:T72	
+R8	WORKS_AS Arg1:T73 Arg2:T16	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R10	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R11	WORKPLACE Arg1:T19 Arg2:T24	
+R12	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+T93	PROFESSION 563 572	силовиков
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T17	
+R14	WORKS_AS Arg1:T19 Arg2:T20	
+T94	ORGANIZATION 740 761	офис ФБР в Вашингтоне
+R15	WORKPLACE Arg1:T19 Arg2:T94	
+R16	WORKS_AS Arg1:T75 Arg2:T26	
+R17	ALTERNATIVE_NAME Arg1:T78 Arg2:T79	
+R18	ALTERNATIVE_NAME Arg1:T32 Arg2:T35	
+T95	PERSON 1460 1465	Обамы
+R19	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R20	ALTERNATIVE_NAME Arg1:T75 Arg2:T95	
+T96	PROFESSION 1467 1489	генерального прокурора
+R21	WORKS_AS Arg1:T38 Arg2:T36	
+R22	WORKPLACE Arg1:T38 Arg2:T37	
+R23	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+T97	PROFESSION 1548 1566	начальника полиции
+R24	SUBORDINATE_OF Arg1:T46 Arg2:T80	
+R25	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R26	ALTERNATIVE_NAME Arg1:T50 Arg2:T51	
+R27	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+R28	ALTERNATIVE_NAME Arg1:T64 Arg2:T65	
+R29	WORKS_AS Arg1:T87 Arg2:T62	
+R30	WORKPLACE Arg1:T64 Arg2:T89	
+R31	WORKS_AS Arg1:T64 Arg2:T63	
+T98	PROFESSION 2180 2194	вице-президент
+R32	WORKS_AS Arg1:T61 Arg2:T60	
+R33	WORKPLACE Arg1:T61 Arg2:T86	
+R34	ALTERNATIVE_NAME Arg1:T84 Arg2:T58	
+R35	SUBORDINATE_OF Arg1:T52 Arg2:T55	
+R36	WORKS_AS Arg1:T52 Arg2:T54	
+T99	ORGANIZATION 1782 1817	администрации Джорджа Буша-младшего
+R37	WORKPLACE Arg1:T50 Arg2:T99	
+R38	WORKS_AS Arg1:T50 Arg2:T49	
+R39	WORKS_AS Arg1:T46 Arg2:T45	
+T100	PROFESSION 1617 1640	транспортного чиновника
+R40	WORKS_AS Arg1:T46 Arg2:T100	
+R41	WORKS_AS Arg1:T42 Arg2:T40	
+R42	WORKPLACE Arg1:T42 Arg2:T41	
+R43	WORKPLACE Arg1:T1 Arg2:T67	
+R44	WORKPLACE Arg1:T5 Arg2:T68	
+R45	HEADQUARTERED_IN Arg1:T68 Arg2:T69	
+R46	WORKPLACE Arg1:T6 Arg2:T70	
+R47	WORKPLACE Arg1:T92 Arg2:T11	
+R48	MEMBER_OF Arg1:T71 Arg2:T9	
+R49	PART_OF Arg1:T94 Arg2:T74	
+R50	HEADQUARTERED_IN Arg1:T94 Arg2:T22	
+R51	WORKPLACE Arg1:T76 Arg2:T29	
+R52	WORKPLACE Arg1:T32 Arg2:T78	
+R53	WORKPLACE Arg1:T35 Arg2:T79	
+R54	WORKPLACE Arg1:T36 Arg2:T37	
+T101	ORGANIZATION 1559 1576	полиции Нью-Йорка
+R55	WORKPLACE Arg1:T40 Arg2:T101	
+R56	HEADQUARTERED_IN Arg1:T101 Arg2:T41	
+R57	SUBORDINATE_OF Arg1:T45 Arg2:T80	
+R58	WORKPLACE Arg1:T55 Arg2:T82	
+R59	WORKPLACE Arg1:T56 Arg2:T83	
+R60	WORKPLACE Arg1:T60 Arg2:T86	
+R61	WORKPLACE Arg1:T63 Arg2:T90	
+T102	CITY 60 70	Washington
+R62	HEADQUARTERED_IN Arg1:T3 Arg2:T102	
+R63	MEMBER_OF Arg1:T14 Arg2:T72	
+R64	MEMBER_OF Arg1:T93 Arg2:T9	
+R65	ORIGINS_FROM Arg1:T28 Arg2:T77	
+T103	NATIONALITY 1080 1090	чернокожие
+R66	ALTERNATIVE_NAME Arg1:T77 Arg2:T103	
+T104	CITY 1276 1286	Washington
+R67	HEADQUARTERED_IN Arg1:T33 Arg2:T104	
+R68	FOUNDED_BY Arg1:T99 Arg2:T81	
+T105	EVENT 1991 2002	освободится
+R69	PARTICIPANT_IN Arg1:T83 Arg2:T105	
+R70	POINT_IN_TIME Arg1:T105 Arg2:T57	
+T106	EVENT 2026 2032;2052 2061	уходом на пенсию
+R71	AGENT Arg1:T84 Arg2:T106	
+R72	HAS_CAUSE Arg1:T105 Arg2:T106	
+N1	Reference T5 Wikidata:Q1057168	Директор Федерального бюро расследований
+N3	Reference T11 Wikidata:Q467752	Verizon Communications
+N6	Reference T20 Wikidata:Q392651	специальный агент
+N7	Reference T22 Wikidata:Q61	Вашингтон
+N8	Reference T24 Wikidata:Q467752	Verizon Communications
+N9	Reference T26 Wikidata:Q30461	президент
+N10	Reference T30 Wikidata:Q210435	Джон Эдгар Гувер
+N11	Reference T33 Wikidata:Q166032	The Washington Post
+N14	Reference T37 Wikidata:Q1204	Иллинойс
+N15	Reference T39 Wikidata:Q2058093	Патрик Фицджеральд
+N18	Reference T44 Wikidata:Q382887	чиновник
+N21	Reference T48 Wikidata:Q8333	Федеральное бюро расследований
+N22	Reference T50 Wikidata:Q167607	Коми, Джеймс
+N25	Reference T55 Wikidata:Q11696	президент США
+N26	Reference T60 Wikidata:Q11699	вице-президент США
+N27	Reference T61 Wikidata:Q6279	Джо Байден
+N28	Reference T68 Wikidata:Q8333	Федеральное бюро расследований
+N30	Reference T71 Wikidata:Q8333	Федеральное бюро расследований
+N31	Reference T73 Wikidata:Q312644	Холдер, Эрик
+N32	Reference T76 Wikidata:Q484876	главный управляющий
+N33	Reference T41 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N34	Reference T81 Wikidata:Q207	Джордж Уокер Буш
+N35	Reference T82 Wikidata:Q30	США
+N37	Reference T88 Wikidata:Q1124	Билл Клинтон
+N38	Reference T89 Wikidata:Q1124	Билл Клинтон
+N42	Reference T95 Wikidata:Q76	Барак Обама
+N47	Reference T103 Wikidata:Q338460	Негроидная раса
+N48	Reference T104 Wikidata:Q1575297	USS Washington
+N49	Reference T4 Wikidata:Q715156	
+N39	Reference T92 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N29	Reference T9 Wikidata:NULL	нет данных
+N40	Reference T93 Wikidata:NULL	нет данных
+N41	Reference T94 Wikidata:NULL	нет данных
+N5	Reference T19 Wikidata:NULL	нет данных
+N12	Reference T35 Wikidata:Q1057168	Директор Федерального бюро расследований
+N13	Reference T36 Wikidata:NULL	нет данных
+N51	Reference T1 Wikidata:NULL	нет данных
+N52	Reference T97 Wikidata:NULL	нет данных
+N16	Reference T40 Wikidata:NULL	нет данных
+N46	Reference T101 Wikidata:NULL	нет данных
+N17	Reference T42 Wikidata:Q3420958	
+N45	Reference T100 Wikidata:NULL	нет данных
+N19	Reference T45 Wikidata:NULL	нет данных
+N20	Reference T46 Wikidata:NULL	нет данных
+N53	Reference T49 Wikidata:NULL	нет данных
+N44	Reference T99 Wikidata:NULL	нет данных
+N23	Reference T53 Wikidata:Q5478983	
+N24	Reference T54 Wikidata:NULL	нет данных
+N36	Reference T84 Wikidata:Q715156	
+N43	Reference T98 Wikidata:Q42178	вице-президент
+N54	Reference T62 Wikidata:Q600751	прокурор
+N55	Reference T87 Wikidata:Q312644	Холдер, Эрик
+N56	Reference T65 Wikidata:Q1110029	
+N50	Reference T96 Wikidata:Q3368517	
+N57	Reference T17 Wikidata:Q1057168	Директор Федерального бюро расследований
+N58	Reference T6 Wikidata:Q1057168	Директор Федерального бюро расследований
+N59	Reference T3 Wikidata:Q166032	The Washington Post
+N60	Reference T38 Wikidata:Q2058093	Патрик Фицджеральд
+N61	Reference T79 Wikidata:Q8333	Федеральное бюро расследований
+N62	Reference T91 Wikidata:Q8333	Федеральное бюро расследований
+N63	Reference T78 Wikidata:Q8333	Федеральное бюро расследований
+N64	Reference T67 Wikidata:Q8333	Федеральное бюро расследований
+N65	Reference T74 Wikidata:Q8333	Федеральное бюро расследований
+N66	Reference T70 Wikidata:Q8333	Федеральное бюро расследований
+N67	Reference T27 Wikidata:Q8333	Федеральное бюро расследований
+N68	Reference T90 Wikidata:Q8333	Федеральное бюро расследований
+N69	Reference T29 Wikidata:Q8333	Федеральное бюро расследований
+N70	Reference T83 Wikidata:Q8333	Федеральное бюро расследований
+N71	Reference T51 Wikidata:Q167607	Коми, Джеймс
+N72	Reference T72 Wikidata:Q8333	Федеральное бюро расследований
+N73	Reference T69 Wikidata:Q30	США
+N74	Reference T86 Wikidata:Q30	США
+N75	Reference T66 Wikidata:Q76	Барак Обама
+N76	Reference T75 Wikidata:Q76	Барак Обама
+N77	Reference T2 Wikidata:Q338460	Негроидная раса
+N78	Reference T77 Wikidata:Q338460	Негроидная раса
+N79	Reference T102 Wikidata:Q1575297	USS Washington
+N80	Reference T8 Wikidata:NULL	нет данных
+N81	Reference T7 Wikidata:NULL	нет данных
+N82	Reference T14 Wikidata:NULL	нет данных
+N83	Reference T28 Wikidata:NULL	нет данных
+N84	Reference T31 Wikidata:NULL	нет данных
+N85	Reference T34 Wikidata:NULL	нет данных
+N86	Reference T18 Wikidata:NULL	нет данных
+N87	Reference T25 Wikidata:NULL	нет данных
+N88	Reference T56 Wikidata:Q1057168	Директор Федерального бюро расследований
+N89	Reference T63 Wikidata:Q1057168	Директор Федерального бюро расследований
+N90	Reference T32 Wikidata:Q1057168	Директор Федерального бюро расследований
+N91	Reference T1 Wikidata:Q1057168	Директор Федерального бюро расследований
+N92	Reference T35 Wikidata:NULL	нет данных
+N93	Reference T56 Wikidata:NULL	нет данных
+N94	Reference T63 Wikidata:NULL	нет данных
+N95	Reference T32 Wikidata:NULL	нет данных
+N96	Reference T43 Wikidata:Q3420958	
+N97	Reference T47 Wikidata:NULL	нет данных
+N98	Reference T52 Wikidata:Q5478983	
+N99	Reference T85 Wikidata:Q715156	
+N100	Reference T80 Wikidata:Q715156	
+N101	Reference T16 Wikidata:Q600751	прокурор
+N102	Reference T64 Wikidata:Q1110029	

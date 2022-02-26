@@ -1,0 +1,93 @@
+T1	PROFESSION 0 11	Генпрокурор
+T2	NUMBER 52 55	208
+T4	PERSON 106 125	Мухаммед ибн Салман
+T5	PROFESSION 128 139	президентом
+T6	PERSON 147 165	Владимиром Путиным
+T7	PROFESSION 178 198	Генеральный прокурор
+T8	PERSON 217 232	Сауд аль-Моджеб
+T9	DATE 233 262	в четверг, 9 ноября 2017 года
+T10	NUMBER 304 307	208
+T12	MONEY 450 479	более 100 миллиардов долларов
+T13	PERSON 492 503	аль-Моджеба
+T14	NUMBER 505 511	семеро
+T15	NUMBER 590 593	201
+T16	NUMBER 640 650	около 1700
+T17	AGE 795 805	32-летнего
+T18	PERSON 817 838	Мохаммеда бин Салмана
+T20	DATE 870 888	4 ноября 2017 года
+T21	ORGANIZATION 889 920	комиссию по борьбе с коррупцией
+T22	PERSON 950 971	Мухаммеда ибн Салмана
+T23	NUMBER 1003 1014	одиннадцати
+T24	PERSON 1068 1089	Аль-Валида ибн Талала
+T25	COUNTRY 12 29	Саудовской Аравии
+T26	PROFESSION 0 29	Генпрокурор Саудовской Аравии
+T3	PROFESSION 100 105	Принц
+T27	COUNTRY 140 146	России
+T28	PROFESSION 128 146	президентом России
+T29	DATE 166 177	в 2015 году
+T30	COUNTRY 199 216	Саудовской Аравии
+T31	PROFESSION 178 216	Генеральный прокурор Саудовской Аравии
+T11	PROFESSION 806 816	кронпринца
+T19	PROFESSION 1015 1022	принцев
+T32	PROFESSION 1110 1119	министров
+T33	EVENT 41 63	задержание 208 человек
+T35	EVENT 995 1002	арестов
+R1	WORKPLACE Arg1:T26 Arg2:T25	
+R2	WORKPLACE Arg1:T28 Arg2:T27	
+R3	WORKS_AS Arg1:T6 Arg2:T28	
+R4	WORKPLACE Arg1:T6 Arg2:T27	
+R5	WORKPLACE Arg1:T31 Arg2:T30	
+R6	WORKS_AS Arg1:T8 Arg2:T31	
+R7	WORKPLACE Arg1:T8 Arg2:T30	
+T37	EVENT 73 99	антикоррупционной операции
+R8	TAKES_PLACE_IN Arg1:T37 Arg2:T25	
+R9	WORKS_AS Arg1:T4 Arg2:T3	
+R10	KNOWS Arg1:T4 Arg2:T6	
+R11	WORKS_AS Arg1:T18 Arg2:T11	
+R12	AGE_IS Arg1:T18 Arg2:T17	
+R13	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+T36	CRIME 910 920	коррупцией
+R14	DATE_FOUNDED_IN Arg1:T21 Arg2:T20	
+R15	WORKPLACE Arg1:T18 Arg2:T21	
+R16	PARTICIPANT_IN Arg1:T24 Arg2:T35	
+R17	PARTICIPANT_IN Arg1:T19 Arg2:T35	
+R18	WORKS_AS Arg1:T24 Arg2:T19	
+T38	EVENT 629 668	заморозили около 1700 банковских счетов
+R19	SUBEVENT_OF Arg1:T33 Arg2:T37	
+R20	TAKES_PLACE_IN Arg1:T33 Arg2:T25	
+T39	EVENT 294 315	задержали 208 человек
+R21	ABBREVIATION Arg1:T33 Arg2:T39	
+R22	PARTICIPANT_IN Arg1:T26 Arg2:T37	
+T34	EVENT 337 369	антикоррупционного расследования
+R23	ALTERNATIVE_NAME Arg1:T37 Arg2:T34	
+R24	SUBEVENT_OF Arg1:T39 Arg2:T34	
+R25	PARTICIPANT_IN Arg1:T8 Arg2:T34	
+T40	CRIME 441 449	похищено
+R26	HAS_CAUSE Arg1:T34 Arg2:T40	
+T41	PENALTY 603 614	под стражей
+R27	SUBEVENT_OF Arg1:T34 Arg2:T38	
+R28	HAS_CAUSE Arg1:T41 Arg2:T40	
+R29	PARTICIPANT_IN Arg1:T32 Arg2:T35	
+R30	ORGANIZES Arg1:T22 Arg2:T35	
+R31	INANIMATE_INVOLVED Arg1:T12 Arg2:T40	
+N1	Reference T5 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T18 Wikidata:Q6892571	Мухаммед ибн Салман Аль Сауд
+N6	Reference T22 Wikidata:Q6892571	Мухаммед ибн Салман Аль Сауд
+N7	Reference T24 Wikidata:Q293679	Аль-Валид ибн Талал ибн Абдель Азиз Аль Сауд
+N9	Reference T27 Wikidata:Q159	Россия
+N10	Reference T28 Wikidata:Q218295	президент Российской Федерации
+N11	Reference T30 Wikidata:Q851	Саудовская Аравия
+N13	Reference T11 Wikidata:Q207293	кронпринц
+N14	Reference T19 Wikidata:Q2747456	принц
+N15	Reference T32 Wikidata:Q83307	министр
+N8	Reference T26 Wikidata:NULL	нет данных
+N16	Reference T7 Wikidata:Q3368517	
+N17	Reference T1 Wikidata:Q3368517	
+N12	Reference T31 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T21 Wikidata:NULL	нет данных
+N18	Reference T4 Wikidata:Q6892571	Мухаммед ибн Салман Аль Сауд
+N19	Reference T25 Wikidata:Q851	Саудовская Аравия
+N20	Reference T3 Wikidata:Q2747456	принц
+N21	Reference T8 Wikidata:NULL	нет данных

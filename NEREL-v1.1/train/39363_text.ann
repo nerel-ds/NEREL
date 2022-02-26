@@ -1,0 +1,137 @@
+T1	PERSON 0 15	Дженнифер Лопес
+T2	PROFESSION 39 49	президента
+T3	PERSON 64 79	Дженнифер Лопес
+T4	PERSON 80 92	Мишель Обама
+T5	PERSON 94 119	Гурбангулы Бердымухамедов
+T6	PERSON 122 133	Барак Обама
+T7	PROFESSION 144 150	певица
+T8	PERSON 151 166	Дженнифер Лопес
+T9	DATE 234 263	в субботу — 29 июня 2013 года
+T10	EVENT 281 289	концерте
+T11	COUNTRY 292 305	Туркменистане
+T12	PROFESSION 346 356	президента
+T13	PERSON 364 390	Гурбангулы Бердымухамедова
+T14	COUNTRY 444 456	Американские
+T15	PERSON 497 502	Лопес
+T16	WORK_OF_ART 522 543	Happy Birthday to You
+T17	AGE 580 586	56 лет
+T18	PERSON 599 604	Лопес
+T19	ORGANIZATION 839 860	Amnesty International
+T20	COUNTRY 863 870	Мексике
+T21	PROFESSION 932 941	президент
+T22	ORGANIZATION 963 986	Human Rights Foundation
+T23	PERSON 988 1002	Тор Халворссен
+T24	PERSON 1004 1027	Thor Halvorssen Mendoza
+T25	COUNTRY 1082 1087	Сирию
+T27	EVENT 1171 1179	концерта
+T28	ORGANIZATION 1197 1244	Китайской национальной нефтегазовой корпорацией
+T29	COUNTRY 1269 1282	Туркменистане
+T30	PERSON 1389 1398	Дженнифер
+T31	WORK_OF_ART 1531 1545	Happy Birthday
+T32	PERSON 1606 1611	Лопес
+T33	ORGANIZATION 1641 1650	Us Weekly
+T34	COUNTRY 1674 1687	Туркменистане
+T35	MONEY 1703 1732	полтора миллиона долларов США
+T36	PROFESSION 39 63	президента Туркменистана
+T37	COUNTRY 50 63	Туркменистана
+T38	PROFESSION 134 141	Актриса
+T39	PROFESSION 346 363	президента страны
+T40	PROFESSION 548 557	диктатора
+T41	PROFESSION 671 681	диктатором
+T42	PROFESSION 932 961	президент Фонда прав человека
+T43	ORGANIZATION 942 961	Фонда прав человека
+T44	PERSON 1121 1126	Лопес
+T45	PROFESSION 1484 1490	певицы
+R1	WORKPLACE Arg1:T36 Arg2:T37	
+R2	SPOUSE Arg1:T4 Arg2:T6	
+R3	WORKS_AS Arg1:T8 Arg2:T7	
+R4	WORKS_AS Arg1:T8 Arg2:T38	
+T47	EVENT 265 277	выступлением
+R5	SUBEVENT_OF Arg1:T47 Arg2:T10	
+R6	POINT_IN_TIME Arg1:T47 Arg2:T9	
+R7	AGENT Arg1:T8 Arg2:T47	
+R8	TAKES_PLACE_IN Arg1:T10 Arg2:T11	
+R9	ALTERNATIVE_NAME Arg1:T36 Arg2:T39	
+T48	EVENT 315 330	исполнила песню
+R10	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+R11	WORKS_AS Arg1:T13 Arg2:T39	
+R12	PARTICIPANT_IN Arg1:T13 Arg2:T10	
+R13	ALTERNATIVE_NAME Arg1:T8 Arg2:T15	
+R14	AGE_IS Arg1:T40 Arg2:T17	
+R15	WORKS_AS Arg1:T13 Arg2:T40	
+R17	WORKPLACE Arg1:T42 Arg2:T43	
+R18	ALTERNATIVE_NAME Arg1:T43 Arg2:T22	
+R19	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R20	WORKPLACE Arg1:T23 Arg2:T43	
+R21	WORKS_AS Arg1:T23 Arg2:T42	
+R23	ORGANIZES Arg1:T28 Arg2:T27	
+R24	TAKES_PLACE_IN Arg1:T27 Arg2:T29	
+R25	ALTERNATIVE_NAME Arg1:T44 Arg2:T30	
+T49	EVENT 1433 1441	концерте
+R27	WORKS_AS Arg1:T32 Arg2:T45	
+R28	ALTERNATIVE_NAME Arg1:T16 Arg2:T31	
+T50	PERSON 1688 1693	Лопес
+T51	EVENT 1660 1671	выступление
+R29	TAKES_PLACE_IN Arg1:T51 Arg2:T34	
+R30	AGENT Arg1:T50 Arg2:T51	
+R31	PRICE_OF Arg1:T51 Arg2:T35	
+T52	COUNTRY 1729 1732	США
+T53	IDEOLOGY 457 470	правозащитные
+R32	ALTERNATIVE_NAME Arg1:T14 Arg2:T52	
+R22	INCOME Arg1:T50 Arg2:T35	
+T26	COUNTRY 1197 1206	Китайской
+R26	HEADQUARTERED_IN Arg1:T28 Arg2:T26	
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T48	
+T46	EVENT 504 521	исполнившую песню
+R16	ALTERNATIVE_NAME Arg1:T48 Arg2:T46	
+R34	AGENT Arg1:T15 Arg2:T46	
+R35	INANIMATE_INVOLVED Arg1:T16 Arg2:T46	
+R36	PARTICIPANT_IN Arg1:T40 Arg2:T46	
+T54	EVENT 1140 1151	выступление
+T55	PROFESSION 1152 1158	певицы
+R37	WORKS_AS Arg1:T44 Arg2:T55	
+R38	AGENT Arg1:T44 Arg2:T54	
+R39	SUBEVENT_OF Arg1:T54 Arg2:T27	
+N1	Reference T4 Wikidata:Q13133	Мишель Обама
+N2	Reference T5 Wikidata:Q57530	Гурбангулы Мяликгулыевич Бердымухамедов
+N3	Reference T6 Wikidata:Q76	Барак Обама
+N4	Reference T7 Wikidata:Q177220	певец
+N5	Reference T13 Wikidata:Q57530	Гурбангулы Мяликгулыевич Бердымухамедов
+N8	Reference T16 Wikidata:Q167545	Happy Birthday to You
+N9	Reference T19 Wikidata:Q42970	Эмнести интернэшенел
+N10	Reference T20 Wikidata:Q96	Мексика
+N14	Reference T25 Wikidata:Q858	Сирия
+N15	Reference T28 Wikidata:Q588786	Китайская национальная нефтегазовая корпорация
+N18	Reference T37 Wikidata:Q874	Туркмения
+N19	Reference T38 Wikidata:Q33999	актёр
+N21	Reference T41 Wikidata:Q183318	диктатор
+N20	Reference T39 Wikidata:Q30461	президент
+N6	Reference T14 Wikidata:Q30	США
+N7	Reference T15 Wikidata:Q40715	Дженнифер Лопес
+N11	Reference T21 Wikidata:Q140686	председатель
+N22	Reference T42 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:Q975463	
+N13	Reference T24 Wikidata:Q466322	
+N23	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N16	Reference T30 Wikidata:Q40715	Дженнифер Лопес
+N17	Reference T33 Wikidata:Q549578	
+N24	Reference T55 Wikidata:Q177220	певец
+N25	Reference T45 Wikidata:Q177220	певец
+N26	Reference T31 Wikidata:Q167545	Happy Birthday to You
+N27	Reference T34 Wikidata:Q874	Туркмения
+N28	Reference T29 Wikidata:Q874	Туркмения
+N29	Reference T11 Wikidata:Q874	Туркмения
+N30	Reference T40 Wikidata:Q183318	диктатор
+N31	Reference T36 Wikidata:Q30461	президент
+N32	Reference T52 Wikidata:Q30	США
+N33	Reference T8 Wikidata:Q40715	Дженнифер Лопес
+N34	Reference T1 Wikidata:Q40715	Дженнифер Лопес
+N35	Reference T3 Wikidata:Q40715	Дженнифер Лопес
+N36	Reference T2 Wikidata:Q140686	председатель
+N37	Reference T12 Wikidata:Q140686	председатель
+N38	Reference T43 Wikidata:Q975463	
+N39	Reference T23 Wikidata:Q466322	
+N40	Reference T44 Wikidata:Q40715	Дженнифер Лопес
+N41	Reference T50 Wikidata:Q40715	Дженнифер Лопес
+N42	Reference T18 Wikidata:Q40715	Дженнифер Лопес
+N43	Reference T32 Wikidata:Q40715	Дженнифер Лопес

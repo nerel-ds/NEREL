@@ -1,0 +1,143 @@
+T1	CITY 2 12	Петербурге
+T2	DATE 93 101	накануне
+T3	TIME 93 117	накануне вечером в 20:34
+T6	ORGANIZATION 134 138	Окей
+T7	LOCATION 158 181	севере Санкт-Петербурга
+T8	NUMBER 211 226	около 500 кв. м
+T9	NUMBER 306 308	13
+T10	NUMBER 320 324	один
+T11	ORGANIZATION 341 344	РБК
+T12	NUMBER 431 433	14
+T13	AGE 448 457	35-летняя
+T14	NUMBER 487 488	3
+T15	NUMBER 536 538	10
+T16	NUMBER 578 585	четверо
+T17	FACILITY 599 623	Александровскую больницу
+T18	NUMBER 625 631	пятеро
+T19	FACILITY 634 648	Елизаветинскую
+T20	NUMBER 650 654	один
+T21	LAW 758 856	ч. 2 ст. 216 УК РФ (нарушение правил безопасности при ведении горных, строительных или иных работ)
+T25	NUMBER 1141 1146	одном
+T26	PROFESSION 1424 1434	Губернатор
+T27	PERSON 1452 1471	Валентина Матвиенко
+T28	PROFESSION 1604 1614	Губернатор
+T29	DATE 1655 1675	в этот зимний период
+T30	PERSON 1967 1986	Валентина Матвиенко
+T31	DATE 1989 2002	С начала года
+T32	ORDINAL 2011 2017	второе
+T33	DATE 2036 2052	10 января 2011 г
+T34	FACILITY 2057 2072	улице Раевского
+T35	DISTRICT 2075 2092	Выборгском районе
+T36	NUMBER 2187 2188	2
+T37	CITY 2215 2224	питерским
+T38	CITY 2366 2382	Санкт-Петербурге
+T39	AGE 2438 2449	шестилетний
+T42	ORGANIZATION 2554 2581	Следственный комитет России
+T43	FACILITY 667 691	больницу святого Георгия
+T44	PERSON 684 691	Георгия
+T40	COUNTRY 2575 2581	России
+T41	PERSON 2063 2072	Раевского
+T45	CITY 2093 2109	Санкт-Петербурга
+T46	EVENT 13 39	рухнула крыша гипермаркета
+T47	ORGANIZATION 75 78	МЧС
+T48	ORGANIZATION 53 78	городского управления МЧС
+T49	ORGANIZATION 40 78	Пресс-служба городского управления МЧС
+T4	CITY 165 181	Санкт-Петербурга
+T5	EVENT 182 199	обрушилась кровля
+T51	EVENT 703 728	обрушения кровли магазина
+T52	LAW 771 776	УК РФ
+T53	COUNTRY 774 776	РФ
+T22	EVENT 885 898	крыша рухнула
+T23	PROFESSION 946 955	спасатели
+T24	PROFESSION 1074 1082	кинологи
+T54	PROFESSION 1424 1451	Губернатор Санкт-Петербурга
+T55	CITY 1435 1451	Санкт-Петербурга
+T56	PROFESSION 1604 1631	Губернатор Санкт-Петербурга
+T57	CITY 1615 1631	Санкт-Петербурга
+T58	EVENT 2120 2151	обрушение кровли спорткомплекса
+R1	TAKES_PLACE_IN Arg1:T46 Arg2:T1	
+R2	PART_OF Arg1:T49 Arg2:T48	
+R3	PART_OF Arg1:T48 Arg2:T47	
+R4	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+R5	LOCATED_IN Arg1:T7 Arg2:T4	
+R6	LOCATED_IN Arg1:T6 Arg2:T7	
+R7	POINT_IN_TIME Arg1:T5 Arg2:T3	
+T59	PROFESSION 458 477	сотрудница магазина
+R8	LOCATED_IN Arg1:T17 Arg2:T4	
+R9	LOCATED_IN Arg1:T19 Arg2:T4	
+R10	LOCATED_IN Arg1:T43 Arg2:T4	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T51	
+R12	ALTERNATIVE_NAME Arg1:T46 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T51 Arg2:T22	
+R14	WORKPLACE Arg1:T54 Arg2:T55	
+R15	WORKS_AS Arg1:T27 Arg2:T54	
+R16	WORKPLACE Arg1:T27 Arg2:T55	
+R17	WORKPLACE Arg1:T56 Arg2:T57	
+R18	TAKES_PLACE_IN Arg1:T58 Arg2:T34	
+R19	POINT_IN_TIME Arg1:T58 Arg2:T33	
+R20	LOCATED_IN Arg1:T34 Arg2:T35	
+R21	LOCATED_IN Arg1:T35 Arg2:T45	
+R22	ALTERNATIVE_NAME Arg1:T57 Arg2:T37	
+R23	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+T60	ORGANIZATION 2554 2574	Следственный комитет
+R24	HEADQUARTERED_IN Arg1:T42 Arg2:T40	
+T61	EVENT 2432 2457	погиб шестилетний мальчик
+R25	TAKES_PLACE_IN Arg1:T61 Arg2:T38	
+T50	EVENT 295 316	пострадали 13 человек
+T62	EVENT 320 330	один погиб
+R26	SUBEVENT_OF Arg1:T50 Arg2:T5	
+R27	SUBEVENT_OF Arg1:T62 Arg2:T5	
+R28	AGE_IS Arg1:T59 Arg2:T13	
+T63	EVENT 729 754	возбуждено уголовное дело
+R29	HAS_CAUSE Arg1:T63 Arg2:T51	
+T64	LAW 771 773	УК
+T65	ORDINAL 761 762	2
+T66	ORDINAL 767 770	216
+T67	LAW 758 776	ч. 2 ст. 216 УК РФ
+R30	PART_OF Arg1:T67 Arg2:T52	
+T68	EVENT 478 485	погибла
+R31	ALTERNATIVE_NAME Arg1:T62 Arg2:T68	
+R32	PARTICIPANT_IN Arg1:T59 Arg2:T68	
+R33	WORKPLACE Arg1:T59 Arg2:T6	
+T69	EVENT 2176 2197	пострадали 2 человека
+R34	SUBEVENT_OF Arg1:T69 Arg2:T58	
+T70	EVENT 965 981	разбирали завалы
+R35	AGENT Arg1:T23 Arg2:T70	
+R36	HAS_CAUSE Arg1:T70 Arg2:T22	
+N1	Reference T1 Wikidata:Q656	Санкт-Петербург
+N4	Reference T11 Wikidata:Q629733	РосБизнесКонсалтинг
+N5	Reference T17 Wikidata:Q4061406	Александровская больница (Санкт-Петербург)
+N8	Reference T27 Wikidata:Q182654	Валентина Ивановна Матвиенко
+N9	Reference T28 Wikidata:Q132050	губернатор
+N11	Reference T35 Wikidata:Q219907	Выборгский район
+N12	Reference T42 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N14	Reference T40 Wikidata:Q159	Россия
+N16	Reference T45 Wikidata:Q656	Санкт-Петербург
+N17	Reference T47 Wikidata:Q2624171	МЧС России
+N20	Reference T52 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N21	Reference T53 Wikidata:Q159	Россия
+N18	Reference T48 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:NULL	нет данных
+N25	Reference T59 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N28	Reference T43 Wikidata:NULL	нет данных
+N13	Reference T44 Wikidata:Q48438	Георгий Победоносец
+N27	Reference T67 Wikidata:NULL	нет данных
+N26	Reference T64 Wikidata:Q19705	уголовное законодательство
+N7	Reference T21 Wikidata:NULL	нет данных
+N22	Reference T23 Wikidata:Q17126809	спасатель
+N23	Reference T24 Wikidata:Q18511915	
+N24	Reference T56 Wikidata:NULL	нет данных
+N10	Reference T34 Wikidata:NULL	нет данных
+N15	Reference T41 Wikidata:Q444438	
+N29	Reference T60 Wikidata:NULL	нет данных
+N30	Reference T30 Wikidata:Q182654	Валентина Ивановна Матвиенко
+N31	Reference T26 Wikidata:Q132050	губернатор
+N32	Reference T55 Wikidata:Q656	Санкт-Петербург
+N33	Reference T57 Wikidata:Q656	Санкт-Петербург
+N34	Reference T38 Wikidata:Q656	Санкт-Петербург
+N35	Reference T4 Wikidata:Q656	Санкт-Петербург
+N36	Reference T37 Wikidata:Q656	Санкт-Петербург
+N37	Reference T54 Wikidata:NULL	нет данных

@@ -1,0 +1,212 @@
+T1	COUNTRY 21 26	Китая
+T2	COUNTRY 67 70	США
+T3	FACILITY 99 135	университетского кампуса в Иллинойсе
+T4	STATE_OR_PROVINCE 126 135	Иллинойсе
+T5	DATE 155 162	18 июля
+T6	NATIONALITY 192 201	китайской
+T9	AGE 322 331	29-летний
+T10	PERSON 332 349	Брендт Кристенсен
+T11	PERSON 351 369	Brendt Christensen
+T12	AGE 386 395	26-летнюю
+T13	PERSON 396 406	Чжан Инъин
+T15	PROFESSION 546 563	федеральный судья
+T16	PERSON 564 577	Джеймс Шэйдид
+T17	PERSON 683 693	Кристенсен
+T18	PERSON 838 842	Чжан
+T19	NATIONALITY 893 901	Китаянка
+T20	PERSON 971 981	Кристенсен
+T21	PROFESSION 999 1007	офицером
+T23	FACILITY 1296 1316	квартире Кристенсена
+T24	PERSON 1305 1316	Кристенсена
+T25	PERSON 1346 1356	Чжан Инъин
+T26	COUNTRY 1427 1432	Китая
+T27	STATE_OR_PROVINCE 1435 1443	Иллинойс
+T28	PERSON 1506 1511	Инъин
+T29	PERSON 1650 1660	Чжан Инъин
+T30	COUNTRY 1678 1687	китайских
+T31	CITY 1698 1706	Наньпине
+T32	STATE_OR_PROVINCE 1717 1724	Фуцзянь
+T33	ORGANIZATION 1740 1765	Иллинойсском университете
+T34	CITY 1768 1783	Урбане-Шампейне
+T35	PROFESSION 1820 1831	профессором
+T38	PERSON 1948 1958	Кристенсен
+T39	NUMBER 2011 2013	12
+T40	ORGANIZATION 2058 2061	ФБР
+T41	PERSON 2170 2181	Кристенсена
+T42	ORGANIZATION 2251 2263	Global Times
+T43	NATIONALITY 2296 2304	китайцев
+T44	COUNTRY 2343 2346	США
+T45	COUNTRY 2377 2384	Америке
+T47	PENALTY 41 64	пожизненному заключению
+T48	NATIONALITY 136 146	Американец
+T49	PENALTY 163 179	пожизненный срок
+T50	CRIME 183 191	убийство
+T55	STATE_OR_PROVINCE 241 254	Иллинойсского
+T56	ORGANIZATION 241 267	Иллинойсского университета
+T57	EVENT 268 283	похитил девушку
+T58	EVENT 285 296	изнасиловал
+T59	EVENT 301 306	избил
+T60	EVENT 309 319	обезглавил
+T61	EVENT 371 378	похитил
+T62	EVENT 381 385	убил
+T63	PERSON 408 411	章莹颖
+T64	PROFESSION 431 440	Присяжные
+T65	PENALTY 496 510	смертная казнь
+T66	PENALTY 515 537	пожизненное заключение
+T67	PROFESSION 558 563	судья
+T68	PENALTY 585 643	пожизненный срок без права условно-досрочного освобождения
+T69	PENALTY 585 601	пожизненный срок
+T70	EVENT 674 682	убийства
+T71	FACILITY 759 783	университетским кампусом
+T72	PROFESSION 826 836	прокуроров
+T73	PROFESSION 999 1015	офицером полиции
+T74	ORGANIZATION 1008 1015	полиции
+T75	EVENT 1086 1110	нанес ей ножевые ранения
+T76	EVENT 1112 1123	изнасиловал
+T77	EVENT 1128 1133	избил
+T78	EVENT 1154 1171	отрубил ей голову
+T22	PERSON 1189 1200	Кристенсена
+T79	EVENT 1233 1241	убийстве
+T80	ORGANIZATION 1262 1269	полицию
+T81	PROFESSION 1271 1282	Следователи
+T82	EVENT 1420 1423	суд
+T83	PROFESSION 1688 1695	рабочих
+T84	STATE_OR_PROVINCE 1740 1752	Иллинойсском
+T36	PROFESSION 1820 1861	профессором в области сельского хозяйства
+T86	PROFESSION 2064 2072	Адвокаты
+T87	PERSON 2073 2084	Кристенсена
+T88	EVENT 2112 2124	убил девушку
+T89	DISEASE 2198 2207	депрессий
+R2	TAKES_PLACE_IN Arg1:T47 Arg2:T2	
+R3	LOCATED_IN Arg1:T3 Arg2:T4	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R6	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+R7	HAS_CAUSE Arg1:T49 Arg2:T50	
+R8	CONVICTED_OF Arg1:T48 Arg2:T50	
+R9	HEADQUARTERED_IN Arg1:T56 Arg2:T55	
+R21	PENALIZED_AS Arg1:T48 Arg2:T49	
+R23	ALTERNATIVE_NAME Arg1:T13 Arg2:T63	
+R24	AGE_IS Arg1:T13 Arg2:T12	
+R25	AGE_DIED_AT Arg1:T13 Arg2:T12	
+R27	ORIGINS_FROM Arg1:T13 Arg2:T6	
+R28	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R29	AGE_IS Arg1:T10 Arg2:T9	
+R30	PARTICIPANT_IN Arg1:T10 Arg2:T61	
+R31	PARTICIPANT_IN Arg1:T10 Arg2:T62	
+R32	PARTICIPANT_IN Arg1:T13 Arg2:T62	
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T61	
+R36	WORKS_AS Arg1:T16 Arg2:T15	
+R37	PENALIZED_AS Arg1:T10 Arg2:T65	
+R38	PENALIZED_AS Arg1:T10 Arg2:T66	
+R39	ALTERNATIVE_NAME Arg1:T66 Arg2:T69	
+R40	PENALIZED_AS Arg1:T10 Arg2:T68	
+R41	HAS_CAUSE Arg1:T68 Arg2:T62	
+R42	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+R43	AGENT Arg1:T17 Arg2:T70	
+R44	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R45	ORIGINS_FROM Arg1:T18 Arg2:T19	
+R46	ORIGINS_FROM Arg1:T19 Arg2:T6	
+R47	WORKPLACE Arg1:T73 Arg2:T74	
+R48	AGENT Arg1:T20 Arg2:T75	
+R49	AGENT Arg1:T20 Arg2:T76	
+R50	AGENT Arg1:T20 Arg2:T77	
+R51	AGENT Arg1:T20 Arg2:T78	
+R52	PARTICIPANT_IN Arg1:T18 Arg2:T75	
+R53	PARTICIPANT_IN Arg1:T18 Arg2:T76	
+R54	PARTICIPANT_IN Arg1:T18 Arg2:T77	
+R55	PARTICIPANT_IN Arg1:T18 Arg2:T78	
+R56	ALTERNATIVE_NAME Arg1:T60 Arg2:T78	
+R57	AGENT Arg1:T22 Arg2:T79	
+R58	OWNER_OF Arg1:T24 Arg2:T23	
+R59	ALTERNATIVE_NAME Arg1:T25 Arg2:T28	
+R60	ORIGINS_FROM Arg1:T83 Arg2:T30	
+R61	LOCATED_IN Arg1:T31 Arg2:T32	
+R62	LOCATED_IN Arg1:T32 Arg2:T30	
+R63	HEADQUARTERED_IN Arg1:T33 Arg2:T84	
+R64	HEADQUARTERED_IN Arg1:T33 Arg2:T34	
+T37	DATE 1863 1877	В октябре 2017
+R65	SUBORDINATE_OF Arg1:T86 Arg2:T87	
+R66	AGENT Arg1:T87 Arg2:T88	
+R67	MEDICAL_CONDITION Arg1:T41 Arg2:T89	
+R68	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R69	ORIGINS_FROM Arg1:T43 Arg2:T30	
+R70	ALTERNATIVE_NAME Arg1:T27 Arg2:T84	
+R71	LOCATED_IN Arg1:T34 Arg2:T84	
+T7	DATE 213 224	в 2017 году
+R1	POINT_IN_TIME Arg1:T50 Arg2:T7	
+R4	SCHOOLS_ATTENDED Arg1:T10 Arg2:T56	
+T8	DATE 413 429	в июне 2017 года
+R10	POINT_IN_TIME Arg1:T62 Arg2:T8	
+R11	POINT_IN_TIME Arg1:T61 Arg2:T8	
+R12	DATE_OF_DEATH Arg1:T13 Arg2:T8	
+R13	SCHOOLS_ATTENDED Arg1:T29 Arg2:T33	
+R14	ORIGINS_FROM Arg1:T48 Arg2:T2	
+R15	START_TIME Arg1:T49 Arg2:T5	
+R16	AGENT Arg1:T48 Arg2:T57	
+R17	AGENT Arg1:T48 Arg2:T58	
+R18	AGENT Arg1:T48 Arg2:T59	
+R19	AGENT Arg1:T48 Arg2:T60	
+R20	SCHOOLS_ATTENDED Arg1:T48 Arg2:T56	
+R22	ALTERNATIVE_NAME Arg1:T57 Arg2:T61	
+R26	ORIGINS_FROM Arg1:T10 Arg2:T48	
+R34	TAKES_PLACE_IN Arg1:T82 Arg2:T27	
+R35	INANIMATE_INVOLVED Arg1:T25 Arg2:T82	
+R72	PARTICIPANT_IN Arg1:T22 Arg2:T82	
+R73	ORIGINS_FROM Arg1:T29 Arg2:T30	
+R74	PLACE_OF_DEATH Arg1:T29 Arg2:T31	
+R75	ORIGINS_FROM Arg1:T29 Arg2:T83	
+T14	EVENT 2112 2116	убил
+T46	EVENT 268 275	похитил
+N7	Reference T21 Wikidata:Q189290	офицер
+N9	Reference T25 Wikidata:Q197335	Чжан Инин
+N10	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N11	Reference T31 Wikidata:Q68534	Наньпин
+N12	Reference T32 Wikidata:Q41705	Фуцзянь
+N14	Reference T35 Wikidata:Q121594	профессор
+N15	Reference T40 Wikidata:Q8333	Федеральное бюро расследований
+N16	Reference T42 Wikidata:Q970443	Хуаньцю шибао
+N17	Reference T43 Wikidata:Q42740	хань
+N18	Reference T44 Wikidata:Q30	США
+N20	Reference T56 Wikidata:Q1145814	Иллинойсский университет
+N22	Reference T67 Wikidata:Q16533	судья
+N23	Reference T71 Wikidata:Q209465	кампус
+N24	Reference T72 Wikidata:Q600751	прокурор
+N25	Reference T74 Wikidata:Q35535	полиция
+N28	Reference T83 Wikidata:Q12713481	рабочий
+N31	Reference T86 Wikidata:Q40348	адвокат
+N1	Reference T3 Wikidata:NULL	нет данных
+N19	Reference T48 Wikidata:Q846570	
+N32	Reference T6 Wikidata:Q6501380	китайцы
+N2	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:NULL	нет данных
+N21	Reference T64 Wikidata:Q837675	
+N3	Reference T15 Wikidata:Q9298846	
+N5	Reference T18 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:Q6501380	китайцы
+N33	Reference T73 Wikidata:Q361593	
+N30	Reference T36 Wikidata:NULL	нет данных
+N26	Reference T22 Wikidata:NULL	нет данных
+N8	Reference T23 Wikidata:NULL	нет данных
+N27	Reference T81 Wikidata:Q1971388	
+N29	Reference T84 Wikidata:Q1204	Иллинойс
+N13	Reference T34 Wikidata:Q2948658	
+N34	Reference T30 Wikidata:Q148	Китайская Народная Республика
+N35	Reference T28 Wikidata:Q197335	Чжан Инин
+N36	Reference T29 Wikidata:Q197335	Чжан Инин
+N37	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N38	Reference T45 Wikidata:Q30	США
+N39	Reference T2 Wikidata:Q30	США
+N40	Reference T33 Wikidata:Q1145814	Иллинойсский университет
+N41	Reference T80 Wikidata:Q35535	полиция
+N42	Reference T20 Wikidata:NULL	нет данных
+N43	Reference T38 Wikidata:NULL	нет данных
+N44	Reference T17 Wikidata:NULL	нет данных
+N45	Reference T11 Wikidata:NULL	нет данных
+N46	Reference T13 Wikidata:NULL	нет данных
+N47	Reference T63 Wikidata:NULL	нет данных
+N48	Reference T41 Wikidata:NULL	нет данных
+N49	Reference T24 Wikidata:NULL	нет данных
+N50	Reference T87 Wikidata:NULL	нет данных
+N51	Reference T27 Wikidata:Q1204	Иллинойс
+N52	Reference T55 Wikidata:Q1204	Иллинойс
+N53	Reference T4 Wikidata:Q1204	Иллинойс

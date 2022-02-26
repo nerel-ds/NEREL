@@ -1,0 +1,192 @@
+T3	PERSON 34 45	Аарон Шварц
+T4	PERSON 63 74	Аарон Шварц
+T5	DATE 76 95	11 января 2013 года
+T7	CITY 115 124	Нью-Йорке
+T8	AGE 135 144	26-летний
+T9	PERSON 145 156	Аарон Шварц
+T10	PERSON 158 170	Aaron Swartz
+T11	COUNTRY 174 186	американский
+T12	PROFESSION 200 217	интернет-активист
+T15	AGE 387 396	14-летнем
+T16	PRODUCT 447 454	RSS 1.0
+T17	PRODUCT 495 498	RDF
+T18	PERSON 501 506	Шварц
+T19	ORGANIZATION 523 547	Стэнфордский университет
+T20	DATE 556 565	через год
+T21	ORGANIZATION 599 622	Гарвардский университет
+T22	DATE 625 643	В начале 2006 года
+T23	DATE 715 724	через год
+T24	ORGANIZATION 774 784	Conde Nast
+T25	PERSON 787 792	Шварц
+T26	PRODUCT 805 817	Open Library
+T28	PRODUCT 857 872	Change Congress
+T30	PERSON 921 939	Тимом Бернерсом-Ли
+T31	NUMBER 977 980	Две
+T32	WORK_OF_ART 1004 1024	Who Writes Wikipedia
+T33	WORK_OF_ART 1029 1054	HOWTO: Be More Productive
+T35	PERSON 1058 1063	Аарон
+T36	ORGANIZATION 1106 1122	Creative Commons
+T37	PRODUCT 1132 1144	Open Library
+T38	PERSON 1147 1152	Шварц
+T40	ORGANIZATION 1214 1229	Demand Progress
+T41	DATE 1273 1284	В 2008 году
+T42	NUMBER 1329 1338	миллионов
+T44	PERSON 1465 1471	Шварца
+T45	NUMBER 1525 1538	4-х миллионов
+T47	ORGANIZATION 1614 1619	JSTOR
+T48	PERSON 1646 1652	Шварцу
+T51	PROFESSION 1765 1776	программист
+T52	PERSON 1862 1867	Шварц
+T53	DATE 1914 1925	в 2007 году
+T54	PRODUCT 1967 1973	Reddit
+T55	PERSON 2026 2037	Аарон Шварц
+T56	PRODUCT 2051 2060	Википедии
+T57	PERSON 2114 2120	Аарона
+T60	PRODUCT 8 11	RSS
+T61	ORGANIZATION 27 33	Reddit
+T62	EVENT 46 62	покончил с собой
+T6	EVENT 125 134	повесился
+T63	PROFESSION 187 198	программист
+T64	PROFESSION 219 227	писатель
+T65	IDEOLOGY 239 256	свободу интернета
+T66	PRODUCT 247 256	интернета
+T13	PERSON 278 284	Шварца
+T67	EVENT 358 370	самоубийство
+T68	PERSON 406 411	Шварц
+T69	PRODUCT 691 697	reddit
+T70	PRODUCT 820 832	watchdog.net
+T72	PRODUCT 902 919	Всемирной паутины
+T73	PERSON 940 951	Аарон Шварц
+T34	PROFESSION 1183 1229	руководитель группы активистов Demand Progress
+T74	PRODUCT 1261 1270	интернете
+T75	CRIME 1307 1389	незаконном скачивании миллионов документов с серверов федеральной судебной системы
+T79	CRIME 1514 1549	скачивание 4-х миллионов документов
+T50	PENALTY 1726 1759	до 35-ти лет тюремного заключения
+T81	DISEASE 1943 1952	депрессию
+T82	PERSON 2071 2078	AaronSw
+T83	EVENT 2107 2113	смерти
+R1	FOUNDED_BY Arg1:T61 Arg2:T3	
+R2	PRODUCES Arg1:T3 Arg2:T60	
+R3	AGENT Arg1:T3 Arg2:T62	
+R4	AGE_DIED_AT Arg1:T9 Arg2:T8	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R6	ORIGINS_FROM Arg1:T63 Arg2:T11	
+R7	WORKS_AS Arg1:T9 Arg2:T63	
+T1	PRODUCT 200 208	интернет
+R8	AGENT Arg1:T9 Arg2:T6	
+R9	POINT_IN_TIME Arg1:T6 Arg2:T5	
+R10	TAKES_PLACE_IN Arg1:T6 Arg2:T7	
+R11	LOCATED_IN Arg1:T7 Arg2:T11	
+R12	WORKS_AS Arg1:T9 Arg2:T12	
+R13	WORKS_AS Arg1:T9 Arg2:T64	
+R14	IDEOLOGY_OF Arg1:T9 Arg2:T65	
+R15	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R16	ALTERNATIVE_NAME Arg1:T62 Arg2:T6	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T67	
+R18	AGE_IS Arg1:T68 Arg2:T15	
+R19	PRODUCES Arg1:T68 Arg2:T17	
+T2	PERSON 523 535	Стэнфордский
+R20	ORIGINS_FROM Arg1:T19 Arg2:T2	
+R21	SCHOOLS_ATTENDED Arg1:T18 Arg2:T19	
+T14	PERSON 599 610	Гарвардский
+R22	SCHOOLS_ATTENDED Arg1:T18 Arg2:T21	
+R23	ORIGINS_FROM Arg1:T21 Arg2:T14	
+R24	OWNER_OF Arg1:T24 Arg2:T69	
+R25	PRODUCES Arg1:T18 Arg2:T69	
+R26	PRODUCES Arg1:T25 Arg2:T26	
+R27	PRODUCES Arg1:T25 Arg2:T70	
+R28	PRODUCES Arg1:T30 Arg2:T72	
+R29	KNOWS Arg1:T30 Arg2:T73	
+R30	PRODUCES Arg1:T25 Arg2:T28	
+R31	PRODUCES Arg1:T30 Arg2:T32	
+R32	PRODUCES Arg1:T30 Arg2:T33	
+R33	PRODUCES Arg1:T73 Arg2:T33	
+R34	PRODUCES Arg1:T73 Arg2:T32	
+R35	ALTERNATIVE_NAME Arg1:T73 Arg2:T35	
+R36	ALTERNATIVE_NAME Arg1:T35 Arg2:T38	
+R37	PRODUCES Arg1:T35 Arg2:T37	
+R38	MEMBER_OF Arg1:T35 Arg2:T36	
+R39	WORKPLACE Arg1:T34 Arg2:T40	
+R40	WORKS_AS Arg1:T38 Arg2:T34	
+R41	WORKPLACE Arg1:T38 Arg2:T40	
+R42	CONVICTED_OF Arg1:T38 Arg2:T75	
+T27	DATE 1441 1457	В июле 2011 года
+T29	EVENT 1477 1510	возбуждено судебное преследование
+R43	PARTICIPANT_IN Arg1:T44 Arg2:T29	
+R44	POINT_IN_TIME Arg1:T29 Arg2:T27	
+T39	PRODUCT 1571 1576	JSTOR
+R45	HAS_CAUSE Arg1:T29 Arg2:T79	
+R46	CONVICTED_OF Arg1:T44 Arg2:T79	
+T43	DATE 1729 1738	35-ти лет
+R47	WORKS_AS Arg1:T48 Arg2:T51	
+R48	PENALIZED_AS Arg1:T48 Arg2:T50	
+R49	MEDICAL_CONDITION Arg1:T52 Arg2:T81	
+R50	ALTERNATIVE_NAME Arg1:T55 Arg2:T82	
+R51	PARTICIPANT_IN Arg1:T57 Arg2:T83	
+R52	PRODUCES Arg1:T55 Arg2:T56	
+R53	PRODUCES Arg1:T68 Arg2:T16	
+T46	PRODUCT 1015 1024	Wikipedia
+T49	IDEOLOGY 1239 1270	боролась с цензурой в интернете
+R54	ALTERNATIVE_NAME Arg1:T65 Arg2:T49	
+R55	IDEOLOGY_OF Arg1:T38 Arg2:T49	
+R56	INANIMATE_INVOLVED Arg1:T39 Arg2:T79	
+R57	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+T58	PENALTY 1739 1759	тюремного заключения
+T59	EVENT 1959 1966	продажи
+R58	AGENT Arg1:T52 Arg2:T59	
+R59	INANIMATE_INVOLVED Arg1:T54 Arg2:T59	
+R60	POINT_IN_TIME Arg1:T59 Arg2:T53	
+R61	INANIMATE_INVOLVED Arg1:T39 Arg2:T79	
+T71	CRIME 1307 1328	незаконном скачивании
+N3	Reference T16 Wikidata:Q45432	RSS
+N5	Reference T19 Wikidata:Q41506	Стэнфордский университет
+N6	Reference T21 Wikidata:Q13371	Гарвардский университет
+N7	Reference T24 Wikidata:Q605401	Condé Nast
+N9	Reference T30 Wikidata:Q80	Тим Бернерс-Ли
+N12	Reference T36 Wikidata:Q43449	Creative Commons
+N13	Reference T37 Wikidata:Q1201876	Open Library
+N15	Reference T47 Wikidata:Q1420342	JSTOR
+N17	Reference T56 Wikidata:Q52	Википедия
+N18	Reference T60 Wikidata:Q45432	RSS
+N19	Reference T61 Wikidata:Q1136	reddit
+N20	Reference T63 Wikidata:Q5482740	программист
+N21	Reference T64 Wikidata:Q36180	писатель
+N23	Reference T69 Wikidata:Q1136	reddit
+N25	Reference T72 Wikidata:Q466	всемирная паутина
+N27	Reference T74 Wikidata:Q75	Интернет
+N31	Reference T39 Wikidata:Q1420342	JSTOR
+N1	Reference T7 Wikidata:Q60	Нью-Йорк
+N2	Reference T11 Wikidata:Q30	США
+N33	Reference T12 Wikidata:Q19890746	
+N22	Reference T13 Wikidata:Q302817	
+N11	Reference T35 Wikidata:Q302817	
+N16	Reference T48 Wikidata:Q302817	
+N28	Reference T82 Wikidata:Q302817	
+N29	Reference T2 Wikidata:Q6520800	
+N30	Reference T14 Wikidata:Q318328	
+N8	Reference T28 Wikidata:Q5071792	
+N32	Reference T46 Wikidata:Q52	Википедия
+N10	Reference T32 Wikidata:NULL	нет данных
+N34	Reference T33 Wikidata:NULL	нет данных
+N14	Reference T40 Wikidata:Q3815199	
+N26	Reference T34 Wikidata:NULL	нет данных
+N4	Reference T17 Wikidata:Q54872	
+N24	Reference T70 Wikidata:NULL	нет данных
+N35	Reference T26 Wikidata:Q1201876	Open Library
+N36	Reference T51 Wikidata:Q5482740	программист
+N37	Reference T54 Wikidata:Q1136	reddit
+N38	Reference T1 Wikidata:Q75	Интернет
+N39	Reference T66 Wikidata:Q75	Интернет
+N40	Reference T10 Wikidata:Q302817	
+N41	Reference T9 Wikidata:Q302817	
+N42	Reference T38 Wikidata:Q302817	
+N43	Reference T57 Wikidata:Q302817	
+N44	Reference T73 Wikidata:Q302817	
+N45	Reference T44 Wikidata:Q302817	
+N46	Reference T25 Wikidata:Q302817	
+N47	Reference T52 Wikidata:Q302817	
+N48	Reference T18 Wikidata:Q302817	
+N49	Reference T68 Wikidata:Q302817	
+N50	Reference T55 Wikidata:Q302817	
+N51	Reference T4 Wikidata:Q302817	
+N52	Reference T3 Wikidata:Q302817	

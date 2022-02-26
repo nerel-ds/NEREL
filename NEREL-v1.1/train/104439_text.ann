@@ -1,0 +1,157 @@
+T1	PERSON 16 20	Пеле
+T2	EVENT 58 61	Игр
+T3	CITY 64 67	Рио
+T4	DATE 73 84	в 2011 году
+T5	DATE 90 101	в 1963 году
+T6	PROFESSION 126 136	футболисту
+T7	COUNTRY 145 153	Бразилии
+T8	PERSON 168 172	Пеле
+T9	EVENT 201 214	зажжения огня
+T10	EVENT 215 230	Олимпийских игр
+T11	CITY 233 247	Рио-де-Жанейро
+T12	DATE 250 269	3 августа 2016 года
+T13	PROFESSION 322 374	президент Международного олимпийского комитета (МОК)
+T14	PERSON 375 384	Томас Бах
+T15	PROFESSION 387 423	глава Олимпийского комитета Бразилии
+T16	PERSON 424 443	Карлос Артур Нузман
+T17	DATE 446 457	В 2012 году
+T18	DATE 565 588	в декабре прошлого года
+T19	COUNTRY 591 594	США
+T20	AGE 663 672	75-летний
+T21	PERSON 719 723	Пеле
+T22	PERSON 739 765	Эдсон Арантис ду Насименту
+T23	DATE 865 871	в 1958
+T24	DATE 880 890	1970 годах
+T25	EVENT 894 903	Олимпиада
+T26	CITY 906 920	Рио-де-Жанейро
+T27	ORDINAL 921 925	31-я
+T28	DATE 973 992	5 августа 2016 года
+T29	CITY 1017 1020	Рио
+T30	FACILITY 1022 1030	Маракана
+T31	DATE 1033 1050	С 5 по 21 августа
+T32	NUMBER 1057 1065	10 тысяч
+T33	NUMBER 1081 1084	205
+T34	NUMBER 1104 1107	306
+T35	EVENT 1125 1141	Олимпийские игры
+T36	NUMBER 1174 1181	четырех
+T39	CITY 1186 1200	Рио-де-Жанейро
+T40	FACILITY 1203 1211	Маракана
+T41	FACILITY 1213 1223	Копакабана
+T42	FACILITY 1225 1230	Барра
+T43	FACILITY 1233 1240	Деодоро
+T44	PROFESSION 0 5	Врачи
+T45	PROFESSION 102 107	Врачи
+T46	PERSON 85 89	Пеле
+T47	PERSON 68 72	Пеле
+T48	EVENT 49 61	открытии Игр
+T49	PROFESSION 300 310	спортсмену
+T50	ORGANIZATION 370 373	МОК
+T51	ORGANIZATION 332 368	Международного олимпийского комитета
+T53	ORGANIZATION 393 423	Олимпийского комитета Бразилии
+T54	COUNTRY 415 423	Бразилии
+T55	PERSON 458 462	Пеле
+T56	PROFESSION 522 532	футболиста
+T57	PROFESSION 673 682	спортсмен
+T58	DATE 873 877	1962
+T59	EVENT 936 962	Торжественное открытие Игр
+T60	EVENT 959 962	Игр
+T61	PROFESSION 1066 1077	спортсменов
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T48 Arg2:T3	
+R3	SUBEVENT_OF Arg1:T48 Arg2:T2	
+T37	ORGANIZATION 137 153	сборной Бразилии
+R4	WORKPLACE Arg1:T6 Arg2:T37	
+R5	HEADQUARTERED_IN Arg1:T37 Arg2:T7	
+R6	WORKS_AS Arg1:T8 Arg2:T6	
+T38	PROFESSION 322 331	президент
+R7	WORKS_AS Arg1:T14 Arg2:T13	
+R8	ABBREVIATION Arg1:T51 Arg2:T50	
+R9	WORKPLACE Arg1:T14 Arg2:T51	
+T52	ORGANIZATION 393 414	Олимпийского комитета
+R10	WORKPLACE Arg1:T15 Arg2:T53	
+R11	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R12	WORKS_AS Arg1:T16 Arg2:T15	
+R13	WORKPLACE Arg1:T16 Arg2:T53	
+R14	WORKS_AS Arg1:T55 Arg2:T56	
+R15	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R16	AGE_IS Arg1:T55 Arg2:T20	
+R17	WORKS_AS Arg1:T55 Arg2:T57	
+R18	TAKES_PLACE_IN Arg1:T25 Arg2:T26	
+R19	ALTERNATIVE_NAME Arg1:T25 Arg2:T60	
+R20	SUBEVENT_OF Arg1:T59 Arg2:T60	
+R21	POINT_IN_TIME Arg1:T59 Arg2:T28	
+R22	LOCATED_IN Arg1:T30 Arg2:T29	
+R23	TAKES_PLACE_IN Arg1:T59 Arg2:T30	
+R24	ALTERNATIVE_NAME Arg1:T60 Arg2:T35	
+R25	LOCATED_IN Arg1:T40 Arg2:T39	
+R26	LOCATED_IN Arg1:T41 Arg2:T39	
+R27	LOCATED_IN Arg1:T42 Arg2:T39	
+R28	LOCATED_IN Arg1:T43 Arg2:T39	
+R29	TAKES_PLACE_IN Arg1:T35 Arg2:T39	
+R30	TAKES_PLACE_IN Arg1:T35 Arg2:T40	
+R31	TAKES_PLACE_IN Arg1:T35 Arg2:T41	
+R32	TAKES_PLACE_IN Arg1:T35 Arg2:T42	
+R33	TAKES_PLACE_IN Arg1:T35 Arg2:T43	
+R34	PARTICIPANT_IN Arg1:T61 Arg2:T60	
+R35	POINT_IN_TIME Arg1:T60 Arg2:T31	
+T62	DATE 1037 1050	по 21 августа
+R36	END_TIME Arg1:T60 Arg2:T62	
+T63	DATE 1033 1036;1043 1050	С 5 августа
+R37	START_TIME Arg1:T60 Arg2:T63	
+R38	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+T64	DISEASE 545 561	болевые ощущения
+R39	MEDICAL_CONDITION Arg1:T55 Arg2:T64	
+R40	MEDICAL_CONDITION Arg1:T56 Arg2:T64	
+R41	SUBEVENT_OF Arg1:T9 Arg2:T10	
+R42	TAKES_PLACE_IN Arg1:T10 Arg2:T11	
+R43	TAKES_PLACE_IN Arg1:T9 Arg2:T11	
+T65	EVENT 21 45	зажечь олимпийский огонь
+R44	ALTERNATIVE_NAME Arg1:T65 Arg2:T9	
+R45	SUBEVENT_OF Arg1:T65 Arg2:T48	
+T66	EVENT 463 511	имплантировали эндопротез тазобедренного сустава
+R46	PARTICIPANT_IN Arg1:T55 Arg2:T66	
+R47	POINT_IN_TIME Arg1:T66 Arg2:T17	
+T67	EVENT 616 654	операцию по восстановлению эндопротеза
+R48	PARTICIPANT_IN Arg1:T55 Arg2:T67	
+R49	PARTICIPANT_IN Arg1:T56 Arg2:T67	
+R50	POINT_IN_TIME Arg1:T67 Arg2:T18	
+R51	TAKES_PLACE_IN Arg1:T67 Arg2:T19	
+R52	AGE_IS Arg1:T57 Arg2:T20	
+N1	Reference T1 Wikidata:Q12897	Пеле
+N2	Reference T7 Wikidata:Q155	Бразилия
+N4	Reference T14 Wikidata:Q72245	Томас Бах
+N7	Reference T19 Wikidata:Q30	США
+N8	Reference T26 Wikidata:Q8678	Рио-де-Жанейро
+N9	Reference T30 Wikidata:Q155174	Маракана
+N10	Reference T41 Wikidata:Q202730	Копакабана
+N12	Reference T43 Wikidata:Q2893454	Арена Деодоро
+N13	Reference T44 Wikidata:Q39631	врач
+N14	Reference T49 Wikidata:Q2066131	спортсмен
+N15	Reference T50 Wikidata:Q40970	Международный олимпийский комитет
+N16	Reference T53 Wikidata:Q2262032	Олимпийский комитет Бразилии
+N17	Reference T56 Wikidata:Q937857	футболист
+N18	Reference T37 Wikidata:Q83459	сборная Бразилии по футболу
+N19	Reference T38 Wikidata:Q30461	президент
+N3	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N20	Reference T52 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:NULL	нет данных
+N11	Reference T42 Wikidata:NULL	нет данных
+N21	Reference T55 Wikidata:Q12897	Пеле
+N22	Reference T22 Wikidata:Q12897	Пеле
+N23	Reference T8 Wikidata:Q12897	Пеле
+N24	Reference T46 Wikidata:Q12897	Пеле
+N25	Reference T47 Wikidata:Q12897	Пеле
+N26	Reference T21 Wikidata:Q12897	Пеле
+N27	Reference T54 Wikidata:Q155	Бразилия
+N28	Reference T29 Wikidata:Q8678	Рио-де-Жанейро
+N29	Reference T11 Wikidata:Q8678	Рио-де-Жанейро
+N30	Reference T3 Wikidata:Q8678	Рио-де-Жанейро
+N31	Reference T39 Wikidata:Q8678	Рио-де-Жанейро
+N32	Reference T40 Wikidata:Q155174	Маракана
+N33	Reference T45 Wikidata:Q39631	врач
+N34	Reference T61 Wikidata:Q2066131	спортсмен
+N35	Reference T57 Wikidata:Q2066131	спортсмен
+N36	Reference T51 Wikidata:Q40970	Международный олимпийский комитет
+N37	Reference T6 Wikidata:Q937857	футболист
+T68	EVENT 463 477	имплантировали

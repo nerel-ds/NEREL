@@ -1,0 +1,18 @@
+T1	ORGANIZATION 0 12	Роскомнадзор
+T2	ORGANIZATION 90 103	Роскомнадзора
+T3	NUMBER 159 161	72
+T4	ORGANIZATION 196 209	Роскомнадзора
+T5	ORGANIZATION 221 235	Росокомнадзору
+T7	PRODUCT 38 46	интернет
+T8	PRODUCT 162 170	интернет
+T9	LAW 735 742	№149-ФЗ
+T6	LAW 715 808	Федеральному закону №149-ФЗ «Об информации, информационных технологиях и о защите информации»
+T10	ORDINAL 736 739	149
+N1	Reference T4 Wikidata:Q129597	Роскомнадзор
+N2	Reference T5 Wikidata:Q129597	Роскомнадзор
+N3	Reference T7 Wikidata:Q75	Интернет
+N4	Reference T9 Wikidata:NULL	нет данных
+N5	Reference T6 Wikidata:Q4481770	
+N6	Reference T2 Wikidata:Q129597	Роскомнадзор
+N7	Reference T1 Wikidata:Q129597	Роскомнадзор
+N8	Reference T8 Wikidata:Q75	Интернет

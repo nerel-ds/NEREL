@@ -1,0 +1,184 @@
+T1	PERSON 5 18	Фидель Кастро
+T2	PERSON 20 33	Фидель Кастро
+T3	DATE 34 53	26 ноября 2016 года
+T6	PERSON 85 98	Фидель Кастро
+T7	AGE 126 132	90 лет
+T8	PERSON 160 172	Рауль Кастро
+T10	ORGANIZATION 187 210	Государственного совета
+T11	COUNTRY 211 215	Кубы
+T12	PERSON 273 279	Фидель
+T13	TIME 285 312	в 19:00 25 ноября 2016 года
+T14	DATE 293 312	25 ноября 2016 года
+T15	TIME 314 341	3:00 по московскому времени
+T16	DATE 345 353	В апреле
+T17	PERSON 354 367	Фидель Кастро
+T18	PERSON 388 415	Фидель Алехандро Кастро Рус
+T19	DATE 424 444	13 августа 1926 года
+T20	CITY 447 453	Биране
+T21	COUNTRY 455 459	Куба
+T23	ORGANIZATION 534 557	Гаванского университета
+T24	PERSON 558 564	Кастро
+T25	DATE 612 623	В 1954 году
+T26	PERSON 636 646	Че Геварой
+T27	PERSON 662 668	Раулем
+T28	DATE 704 711	26 июля
+T29	COUNTRY 727 731	Кубу
+T30	DATE 788 799	В 1959 году
+T31	DATE 831 842	В 1961 году
+T32	COUNTRY 843 846	США
+T33	PERSON 877 883	Кастро
+T36	DATE 951 962	В 1961 году
+T37	PERSON 963 969	Кастро
+T39	COUNTRY 1030 1034	Куба
+T40	ORGANIZATION 1085 1094	компартии
+T41	LOCATION 1105 1123	Западном полушарии
+T42	DATE 1438 1455	31 июля 2006 года
+T43	PERSON 1456 1462	Кастро
+T44	PERSON 1564 1569	Раулю
+T45	DATE 1571 1591	24 февраля 2008 года
+T46	DATE 1636 1655	19 апреля 2011 года
+T47	PROFESSION 1671 1692	главы правящей партии
+T48	ORGANIZATION 1677 1692	правящей партии
+T4	COUNTRY 65 74	кубинской
+T5	PROFESSION 174 210	председатель Государственного совета
+T34	LOCATION 902 915	Заливе Свиней
+R1	DATE_OF_BIRTH Arg1:T18 Arg2:T19	
+R3	PLACE_OF_BIRTH Arg1:T18 Arg2:T20	
+T35	PROFESSION 477 491	землевладельца
+T49	ORGANIZATION 695 711	Движение 26 июля
+T50	PERSON 779 786	Батисты
+T51	EVENT 892 899	высадка
+R4	POINT_IN_TIME Arg1:T51 Arg2:T31	
+T38	ORDINAL 1096 1102	первым
+T52	IDEOLOGY 1138 1159	марксистско-ленинская
+T53	IDEOLOGY 983 999	социалистический
+T54	IDEOLOGY 1187 1203	социалистические
+T55	IDEOLOGY 580 602	антиимпериалистические
+R5	SIBLING Arg1:T43 Arg2:T44	
+T56	PROFESSION 174 215	председатель Государственного совета Кубы
+R6	SIBLING Arg1:T24 Arg2:T27	
+T22	EVENT 867 876	свержения
+R7	POINT_IN_TIME Arg1:T22 Arg2:T31	
+R8	DATE_OF_DEATH Arg1:T6 Arg2:T3	
+R9	AGE_DIED_AT Arg1:T6 Arg2:T7	
+R10	WORKPLACE Arg1:T6 Arg2:T4	
+R11	SIBLING Arg1:T6 Arg2:T8	
+R12	PLACE_RESIDES_IN Arg1:T8 Arg2:T11	
+T57	ORGANIZATION 187 215	Государственного совета Кубы
+R2	WORKS_AS Arg1:T8 Arg2:T56	
+R13	DATE_OF_DEATH Arg1:T12 Arg2:T14	
+R14	LOCATED_IN Arg1:T20 Arg2:T21	
+R15	IDEOLOGY_OF Arg1:T24 Arg2:T55	
+R16	SCHOOLS_ATTENDED Arg1:T24 Arg2:T59	
+R17	KNOWS Arg1:T24 Arg2:T26	
+R18	FOUNDED_BY Arg1:T49 Arg2:T24	
+R19	FOUNDED_BY Arg1:T49 Arg2:T27	
+R20	FOUNDED_BY Arg1:T49 Arg2:T26	
+R21	DATE_FOUNDED_IN Arg1:T49 Arg2:T25	
+R22	IDEOLOGY_OF Arg1:T37 Arg2:T53	
+T58	COUNTRY 1009 1018	кубинской
+R23	WORKPLACE Arg1:T8 Arg2:T57	
+R24	ORIGINS_FROM Arg1:T18 Arg2:T35	
+R25	KNOWS Arg1:T26 Arg2:T27	
+R26	AGENT Arg1:T32 Arg2:T22	
+R27	TAKES_PLACE_IN Arg1:T51 Arg2:T34	
+R28	LOCATED_IN Arg1:T39 Arg2:T41	
+R29	WORKS_AS Arg1:T43 Arg2:T47	
+R30	WORKPLACE Arg1:T43 Arg2:T48	
+R31	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+T59	ORGANIZATION 511 557	юридическом факультете Гаванского университета
+R33	ALTERNATIVE_NAME Arg1:T8 Arg2:T27	
+R34	IDEOLOGY_OF Arg1:T58 Arg2:T53	
+R35	IDEOLOGY_OF Arg1:T39 Arg2:T52	
+R36	IDEOLOGY_OF Arg1:T39 Arg2:T54	
+T60	EVENT 0 4	Умер
+R37	PARTICIPANT_IN Arg1:T1 Arg2:T60	
+T61	EVENT 54 58	умер
+R38	PARTICIPANT_IN Arg1:T6 Arg2:T61	
+R39	POINT_IN_TIME Arg1:T61 Arg2:T3	
+R40	WORKPLACE Arg1:T56 Arg2:T57	
+R41	HEADQUARTERED_IN Arg1:T57 Arg2:T11	
+T9	EVENT 280 284	умер
+R42	PARTICIPANT_IN Arg1:T12 Arg2:T9	
+R43	POINT_IN_TIME Arg1:T9 Arg2:T13	
+R44	ALTERNATIVE_NAME Arg1:T12 Arg2:T17	
+R32	ALTERNATIVE_NAME Arg1:T18 Arg2:T24	
+R45	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R46	DATE_FOUNDED_IN Arg1:T49 Arg2:T28	
+R47	PARTICIPANT_IN Arg1:T32 Arg2:T51	
+R48	SUBEVENT_OF Arg1:T51 Arg2:T22	
+T62	EVENT 928 948	уничтожением десанта
+R49	SUBEVENT_OF Arg1:T62 Arg2:T51	
+R50	TAKES_PLACE_IN Arg1:T62 Arg2:T34	
+R51	POINT_IN_TIME Arg1:T62 Arg2:T31	
+R52	HEADQUARTERED_IN Arg1:T40 Arg2:T39	
+R53	ALTERNATIVE_NAME Arg1:T58 Arg2:T39	
+T63	EVENT 1595 1632	покинул все государственные должности
+R54	AGENT Arg1:T43 Arg2:T63	
+R55	POINT_IN_TIME Arg1:T63 Arg2:T45	
+R56	TAKES_PLACE_IN Arg1:T63 Arg2:T39	
+R57	WORKPLACE Arg1:T47 Arg2:T48	
+T64	EVENT 1656 1670	ушёл и с поста
+R58	AGENT Arg1:T43 Arg2:T64	
+R59	POINT_IN_TIME Arg1:T64 Arg2:T46	
+R60	TAKES_PLACE_IN Arg1:T64 Arg2:T39	
+T65	EVENT 746 764	партизанскую войну
+R61	PARTICIPANT_IN Arg1:T24 Arg2:T65	
+R62	PARTICIPANT_IN Arg1:T50 Arg2:T65	
+R63	TAKES_PLACE_IN Arg1:T65 Arg2:T29	
+T66	EVENT 65 84	кубинской революции
+R64	ORGANIZES Arg1:T6 Arg2:T66	
+T67	EVENT 1009 1028	кубинской революции
+R65	ORGANIZES Arg1:T37 Arg2:T67	
+R66	TAKES_PLACE_IN Arg1:T67 Arg2:T58	
+R67	TAKES_PLACE_IN Arg1:T66 Arg2:T4	
+R68	PARTICIPANT_IN Arg1:T33 Arg2:T22	
+T68	CITY 322 333	московскому
+N1	Reference T1 Wikidata:Q11256	Фидель Кастро
+N2	Reference T10 Wikidata:Q1165836	Государственный совет Российской империи
+N4	Reference T23 Wikidata:Q837320	Гаванский университет
+N6	Reference T32 Wikidata:Q30	США
+N7	Reference T40 Wikidata:Q233591	коммунистическая партия
+N8	Reference T41 Wikidata:Q181982	Западное полушарие
+N12	Reference T34 Wikidata:Q208508	Залив Свиней
+N13	Reference T49 Wikidata:Q218452	Движение 26 июля
+N16	Reference T57 Wikidata:Q1516390	Государственный совет Кубы
+N18	Reference T68 Wikidata:Q649	Москва
+N3	Reference T20 Wikidata:Q865949	
+N19	Reference T35 Wikidata:Q1483709	
+N20	Reference T26 Wikidata:Q5809	
+N5	Reference T27 Wikidata:Q46809	Рауль Кастро
+N14	Reference T50 Wikidata:Q11270	
+N17	Reference T58 Wikidata:Q241	Куба
+N9	Reference T47 Wikidata:NULL	нет данных
+N10	Reference T48 Wikidata:Q1346215	
+N21	Reference T59 Wikidata:NULL	нет данных
+N15	Reference T56 Wikidata:Q89188209	
+N11	Reference T5 Wikidata:NULL	нет данных
+N22	Reference T18 Wikidata:Q11256	Фидель Кастро
+N23	Reference T37 Wikidata:Q11256	Фидель Кастро
+N24	Reference T17 Wikidata:Q11256	Фидель Кастро
+N25	Reference T33 Wikidata:Q11256	Фидель Кастро
+N26	Reference T2 Wikidata:Q11256	Фидель Кастро
+N27	Reference T24 Wikidata:Q11256	Фидель Кастро
+N28	Reference T6 Wikidata:Q11256	Фидель Кастро
+N29	Reference T43 Wikidata:Q11256	Фидель Кастро
+N30	Reference T12 Wikidata:Q11256	Фидель Кастро
+N31	Reference T44 Wikidata:Q46809	Рауль Кастро
+N32	Reference T8 Wikidata:Q46809	Рауль Кастро
+N33	Reference T29 Wikidata:Q241	Куба
+N34	Reference T4 Wikidata:Q241	Куба
+N35	Reference T21 Wikidata:Q241	Куба
+N36	Reference T11 Wikidata:Q241	Куба
+N37	Reference T39 Wikidata:Q241	Куба
+T69	EVENT 416 423	родился
+R69	PARTICIPANT_IN Arg1:T18 Arg2:T69	
+R70	POINT_IN_TIME Arg1:T69 Arg2:T19	
+R71	TAKES_PLACE_IN Arg1:T69 Arg2:T20	
+T70	IDEOLOGY 800 813	революционеры
+T71	EVENT 814 829	пришли к власти
+R72	AGENT Arg1:T70 Arg2:T71	
+R73	POINT_IN_TIME Arg1:T71 Arg2:T30	
+R74	TAKES_PLACE_IN Arg1:T71 Arg2:T29	
+R75	AGENT Arg1:T49 Arg2:T71	
+R76	AGENT Arg1:T18 Arg2:T71	

@@ -1,0 +1,184 @@
+T1	PERSON 0 15	Чулпан Хаматова
+T2	PERSON 50 62	Доктора Лизу
+T4	CITY 108 115	Донецка
+T5	CITY 118 124	Москву
+T6	DATE 126 144	сентябрь 2015 года
+T7	CITY 147 153	Москве
+T8	WORK_OF_ART 194 205	Доктор Лиза
+T9	PERSON 227 243	Елизаветы Глинки
+T10	PROFESSION 271 278	актриса
+T11	PERSON 279 294	Чулпан Хаматова
+T12	PERSON 322 326	Лизе
+T13	DATE 338 347	в четверг
+T14	PERSON 381 399	Елизаветы Петровны
+T15	ORGANIZATION 441 455	Киностудии КИТ
+T17	EVENT 492 517	XXVII фестиваля «Кинотавр
+T18	EVENT 509 517	Кинотавр
+T19	PERSON 519 531	Оксана Карас
+T21	PERSON 585 597	А. Илюшкиным
+T23	PERSON 599 612	Н. Кудряшовой
+T25	PERSON 615 624	А. Санько
+T26	PERSON 633 649	Чулпан Хаматовой
+T27	PERSON 668 688	Константин Хабенский
+T28	PERSON 690 707	Тимофей Трибунцев
+T29	PERSON 709 720	Анджей Хыра
+T30	PERSON 723 731	Юлия Ауг
+T32	PERSON 783 795	Доктора Лизы
+T33	PERSON 808 817	Елизавета
+T34	PERSON 833 839	Глебом
+T36	PROFESSION 984 992	Режиссер
+T37	PROFESSION 1221 1230	продюсеру
+T38	PERSON 1231 1251	Александру Бондареву
+T39	PERSON 1272 1288	Елизаветы Глинки
+T40	PERSON 1325 1341	Елизавета Глинка
+T41	PROFESSION 1343 1360	врач-реаниматолог
+T42	DATE 1446 1457	В 2007 году
+T43	ORGANIZATION 1477 1496	Справедливая помощь
+T44	LOCATION 1601 1608	Донбасс
+T45	PERSON 1672 1678	Глинка
+T46	DATE 1687 1707	25 декабря 2016 года
+T47	PRODUCT 1730 1736	Ту-154
+T48	COUNTRY 1748 1750	РФ
+T49	COUNTRY 1782 1787	Сирию
+T3	PERSON 63 79	Елизавета Глинка
+T50	EVENT 89 104	эвакуации детей
+T51	PROFESSION 257 262	врача
+T52	PROFESSION 314 321	докторе
+T53	ORGANIZATION 427 455	пресс-службе «Киностудии КИТ
+T54	PROFESSION 458 468	Режиссёром
+T16	ORDINAL 492 497	XXVII
+T55	AWARD 484 517	лауреат XXVII фестиваля «Кинотавр
+T20	NUMBER 764 768	один
+T22	PROFESSION 783 790	Доктора
+T24	EVENT 884 891	свадьбы
+T58	PERSON 993 998	Карас
+T59	PROFESSION 1303 1311	волонтёр
+T60	PROFESSION 1348 1360	реаниматолог
+T61	PROFESSION 1343 1347	врач
+T62	EVENT 1679 1686	погибла
+T63	EVENT 1712 1729	крушении самолета
+T64	ORGANIZATION 1737 1750	Минобороны РФ
+T65	ORGANIZATION 1737 1747	Минобороны
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T56	EVENT 89 98	эвакуации
+R2	WORKS_AS Arg1:T11 Arg2:T10	
+R3	SPOUSE Arg1:T33 Arg2:T34	
+R4	WORKS_AS Arg1:T58 Arg2:T36	
+R5	WORKS_AS Arg1:T38 Arg2:T37	
+R6	WORKS_AS Arg1:T40 Arg2:T41	
+R7	FOUNDED_BY Arg1:T43 Arg2:T40	
+R8	DATE_FOUNDED_IN Arg1:T43 Arg2:T42	
+R9	ALTERNATIVE_NAME Arg1:T40 Arg2:T45	
+R10	PARTICIPANT_IN Arg1:T45 Arg2:T62	
+R11	POINT_IN_TIME Arg1:T62 Arg2:T46	
+R12	POINT_IN_TIME Arg1:T63 Arg2:T46	
+R13	OWNER_OF Arg1:T64 Arg2:T47	
+R14	HEADQUARTERED_IN Arg1:T64 Arg2:T48	
+R15	PART_OF Arg1:T53 Arg2:T15	
+R16	WORKS_AS Arg1:T19 Arg2:T54	
+R17	ORIGINS_FROM Arg1:T55 Arg2:T17	
+R18	AWARDED_WITH Arg1:T19 Arg2:T55	
+R19	ALTERNATIVE_NAME Arg1:T19 Arg2:T58	
+R20	WORKS_AS Arg1:T38 Arg2:T59	
+R21	WORKPLACE Arg1:T38 Arg2:T43	
+R22	WORKPLACE Arg1:T59 Arg2:T43	
+R23	SUBEVENT_OF Arg1:T62 Arg2:T63	
+R24	PRODUCES Arg1:T19 Arg2:T8	
+T66	PROFESSION 50 57	Доктора
+T67	PERSON 58 62	Лизу
+R25	WORKS_AS Arg1:T67 Arg2:T66	
+R26	PARTICIPANT_IN Arg1:T3 Arg2:T50	
+R27	POINT_IN_TIME Arg1:T50 Arg2:T6	
+R28	TAKES_PLACE_IN Arg1:T50 Arg2:T4	
+T68	EVENT 163 192	съёмки художественного фильма
+R29	TAKES_PLACE_IN Arg1:T68 Arg2:T7	
+T69	PROFESSION 194 200	Доктор
+T70	PERSON 201 205	Лиза
+R30	WORKS_AS Arg1:T70 Arg2:T69	
+R31	WORKS_AS Arg1:T9 Arg2:T51	
+R32	PARTICIPANT_IN Arg1:T11 Arg2:T8	
+T71	EVENT 298 311	Съемки фильма
+R33	ALTERNATIVE_NAME Arg1:T68 Arg2:T71	
+R34	START_TIME Arg1:T71 Arg2:T13	
+T72	PERSON 314 326	докторе Лизе
+R35	WORKS_AS Arg1:T12 Arg2:T52	
+R37	ALTERNATIVE_NAME Arg1:T72 Arg2:T14	
+R38	PARTICIPANT_IN Arg1:T54 Arg2:T8	
+R39	PARTICIPANT_IN Arg1:T21 Arg2:T8	
+R40	PARTICIPANT_IN Arg1:T23 Arg2:T8	
+R41	PARTICIPANT_IN Arg1:T25 Arg2:T8	
+R42	PARTICIPANT_IN Arg1:T27 Arg2:T8	
+T73	PERSON 791 795	Лизы
+R43	WORKS_AS Arg1:T73 Arg2:T22	
+R36	PRODUCES Arg1:T15 Arg2:T8	
+T35	AGE 864 873	30-летнюю
+R44	AGE_IS Arg1:T24 Arg2:T35	
+R45	PARTICIPANT_IN Arg1:T34 Arg2:T24	
+R46	PARTICIPANT_IN Arg1:T33 Arg2:T24	
+R47	PARTICIPANT_IN Arg1:T28 Arg2:T8	
+R48	PARTICIPANT_IN Arg1:T29 Arg2:T8	
+R49	ALTERNATIVE_NAME Arg1:T33 Arg2:T39	
+R50	PARTICIPANT_IN Arg1:T30 Arg2:T8	
+R51	PRODUCES Arg1:T1 Arg2:T2	
+R52	PRODUCES Arg1:T11 Arg2:T51	
+R53	PRODUCES Arg1:T11 Arg2:T9	
+R54	DATE_OF_DEATH Arg1:T45 Arg2:T46	
+R55	INANIMATE_INVOLVED Arg1:T47 Arg2:T63	
+T31	EVENT 1759 1779	гуманитарной поездки
+R56	TAKES_PLACE_IN Arg1:T31 Arg2:T49	
+R57	SUBEVENT_OF Arg1:T63 Arg2:T31	
+N1	Reference T2 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N2	Reference T4 Wikidata:Q43070	Донецк
+N3	Reference T5 Wikidata:Q649	Москва
+N4	Reference T8 Wikidata:Q65154239	Доктор Лиза
+N5	Reference T9 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N6	Reference T10 Wikidata:Q33999	актёр
+N11	Reference T26 Wikidata:Q236132	Чулпан Наилевна Хаматова
+N12	Reference T27 Wikidata:Q558666	Константин Юрьевич Хабенский
+N13	Reference T28 Wikidata:Q4462945	Тимофей Владимирович Трибунцев
+N14	Reference T30 Wikidata:Q4072355	Юлия Ауг
+N16	Reference T36 Wikidata:Q3455803	режиссёр
+N19	Reference T39 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N20	Reference T41 Wikidata:Q39631	врач
+N22	Reference T44 Wikidata:Q605714	Донбасс
+N23	Reference T47 Wikidata:Q172957	Ту-154
+N24	Reference T48 Wikidata:Q159	Россия
+N25	Reference T49 Wikidata:Q858	Сирия
+N31	Reference T61 Wikidata:Q39631	врач
+N32	Reference T64 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N35	Reference T72 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N34	Reference T67 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N26	Reference T52 Wikidata:Q39631	врач
+N7	Reference T15 Wikidata:NULL	нет данных
+N27	Reference T53 Wikidata:NULL	нет данных
+N28	Reference T55 Wikidata:NULL	нет данных
+N33	Reference T65 Wikidata:Q1788820	
+N21	Reference T43 Wikidata:NULL	нет данных
+N36	Reference T60 Wikidata:Q2581971	
+N8	Reference T21 Wikidata:NULL	нет данных
+N9	Reference T23 Wikidata:Q107674803	
+N10	Reference T25 Wikidata:NULL	нет данных
+N37	Reference T29 Wikidata:Q514824	
+N15	Reference T34 Wikidata:NULL	нет данных
+N29	Reference T58 Wikidata:Q58002138	
+N17	Reference T37 Wikidata:Q47541952	
+N18	Reference T38 Wikidata:Q4093117	
+N30	Reference T59 Wikidata:Q24716636	
+N38	Reference T3 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N39	Reference T7 Wikidata:Q649	Москва
+N40	Reference T40 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N41	Reference T45 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N42	Reference T11 Wikidata:Q236132	Чулпан Наилевна Хаматова
+N43	Reference T1 Wikidata:Q236132	Чулпан Наилевна Хаматова
+N44	Reference T54 Wikidata:Q3455803	режиссёр
+N45	Reference T33 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N46	Reference T51 Wikidata:Q39631	врач
+N47	Reference T32 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N48	Reference T14 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N49	Reference T70 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N50	Reference T73 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N51	Reference T12 Wikidata:Q4139776	Глинка, Елизавета Петровна
+N52	Reference T22 Wikidata:Q39631	врач
+N53	Reference T69 Wikidata:Q39631	врач
+N54	Reference T66 Wikidata:Q39631	врач
+N55	Reference T19 Wikidata:Q58002138	

@@ -1,0 +1,68 @@
+T3	DATE 68 75	10 июля
+T4	LAW 167 180	Об информации
+T5	DATE 211 222	в этот день
+T6	ORGANIZATION 225 245	Государственной Думе
+T7	COUNTRY 246 266	Российской Федерации
+T8	COUNTRY 681 687	России
+T9	PRODUCT 697 726	великого китайского файервола
+T10	COUNTRY 782 788	России
+T11	DATE 906 913	11 июля
+T12	ORDINAL 923 929	второе
+T13	ORGANIZATION 946 966	Государственной думе
+T14	COUNTRY 967 987	Российской Федерации
+T15	PROFESSION 1038 1049	Президентом
+T16	COUNTRY 1050 1070	Российской Федерации
+T17	PRODUCT 11 37	Википедии на русском языке
+T18	EVENT 0 10	Забастовка
+T1	LANGUAGE 24 31	русском
+T2	LANGUAGE 54 61	русском
+T19	PRODUCT 41 67	Википедия на русском языке
+T20	ORGANIZATION 225 266	Государственной Думе Российской Федерации
+T22	PRODUCT 329 337	Интернет
+T23	COUNTRY 706 716	китайского
+T24	ORGANIZATION 866 875	Википедии
+T25	EVENT 923 943	второе чтение закона
+T26	ORGANIZATION 946 987	Государственной думе Российской Федерации
+T28	PROFESSION 1038 1070	Президентом Российской Федерации
+T29	ORDINAL 1077 1085	третьего
+T27	EVENT 82 111	закрыта по решению сообщества
+R1	INANIMATE_INVOLVED Arg1:T17 Arg2:T18	
+R2	POINT_IN_TIME Arg1:T27 Arg2:T3	
+R3	INANIMATE_INVOLVED Arg1:T19 Arg2:T27	
+R4	HEADQUARTERED_IN Arg1:T20 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R6	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R7	POINT_IN_TIME Arg1:T25 Arg2:T11	
+R8	HEADQUARTERED_IN Arg1:T26 Arg2:T14	
+R9	TAKES_PLACE_IN Arg1:T25 Arg2:T26	
+R10	WORKPLACE Arg1:T28 Arg2:T16	
+R11	ALTERNATIVE_NAME Arg1:T18 Arg2:T27	
+T21	PRODUCT 11 20	Википедии
+R12	PART_OF Arg1:T17 Arg2:T21	
+T30	PRODUCT 41 50	Википедия
+R13	PART_OF Arg1:T19 Arg2:T30	
+R14	HAS_CAUSE Arg1:T27 Arg2:T4	
+R15	PRODUCES Arg1:T23 Arg2:T9	
+R16	INANIMATE_INVOLVED Arg1:T4 Arg2:T25	
+N2	Reference T9 Wikidata:Q615446	Золотой щит
+N3	Reference T13 Wikidata:Q715641	Государственная дума
+N4	Reference T15 Wikidata:Q30461	президент
+N5	Reference T16 Wikidata:Q159	Россия
+N6	Reference T1 Wikidata:Q7737	русский язык
+N8	Reference T22 Wikidata:Q75	Интернет
+N9	Reference T24 Wikidata:Q52	Википедия
+N10	Reference T26 Wikidata:Q715641	Государственная дума
+N11	Reference T28 Wikidata:Q218295	президент Российской Федерации
+N12	Reference T30 Wikidata:Q52	Википедия
+N7	Reference T19 Wikidata:Q206855	русская Википедия
+N1	Reference T4 Wikidata:Q4481770	
+N13	Reference T23 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T6 Wikidata:Q715641	Государственная дума
+N15	Reference T10 Wikidata:Q159	Россия
+N16	Reference T8 Wikidata:Q159	Россия
+N17	Reference T14 Wikidata:Q159	Россия
+N18	Reference T7 Wikidata:Q159	Россия
+N19	Reference T2 Wikidata:Q7737	русский язык
+N20	Reference T20 Wikidata:Q715641	Государственная дума
+N21	Reference T21 Wikidata:Q52	Википедия
+N22	Reference T17 Wikidata:Q206855	русская Википедия

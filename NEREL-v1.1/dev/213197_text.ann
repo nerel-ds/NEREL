@@ -1,0 +1,62 @@
+T1	MONEY 24 35	5000 рублей
+T2	PROFESSION 40 55	Пресс-секретарь
+T6	ORGANIZATION 152 165	Роскомнадзора
+T7	PERSON 167 184	Вадим Ампелонский
+T8	ORGANIZATION 283 290	Twitter
+T9	COUNTRY 358 368	российских
+T10	COUNTRY 397 403	России
+T13	MONEY 568 590	от 3 до 5 тысяч рублей
+T14	ORGANIZATION 621 634	Роскомнадзора
+T15	ORGANIZATION 747 755	TJournal
+T16	MONEY 785 796	5000 рублей
+T17	MONEY 821 832	76 долларов
+T19	DATE 970 981	за 2018 год
+T20	MONEY 992 1014	3,04 млрд долларов США
+T21	MONEY 1034 1051	1,2 млрд долларов
+T22	ORGANIZATION 0 8	Твиттеру
+T3	ORGANIZATION 56 150	Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций
+T4	PROFESSION 40 150	Пресс-секретарь Федеральной службы по надзору в сфере связи, информационных технологий и массовых коммуникаций
+T5	CRIME 294 403	отказ предоставить информацию о локализации персональных данных российских пользователей на территории России
+T11	LAW 448 485	Непредставление сведений (информации)
+T12	LAW 439 443	КоАП
+T23	LAW 427 446	статье 19.7 КоАП РФ
+T24	COUNTRY 444 446	РФ
+T25	ORDINAL 434 438	19.7
+T26	PENALTY 533 590	административного штрафа в размере от 3 до 5 тысяч рублей
+T27	PENALTY 16 35	штраф в 5000 рублей
+T18	MONEY 930 944	100-долларовой
+T29	COUNTRY 1011 1014	США
+T30	ORGANIZATION 961 969	Твиттера
+R1	WORKPLACE Arg1:T4 Arg2:T3	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R3	WORKPLACE Arg1:T7 Arg2:T3	
+R4	WORKS_AS Arg1:T7 Arg2:T4	
+R5	ALTERNATIVE_NAME Arg1:T22 Arg2:T8	
+R6	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R7	ALTERNATIVE_NAME Arg1:T23 Arg2:T11	
+R9	CONVICTED_OF Arg1:T8 Arg2:T5	
+T31	LAW 439 446	КоАП РФ
+R10	ORIGINS_FROM Arg1:T31 Arg2:T24	
+R11	INCOME Arg1:T30 Arg2:T20	
+R12	INCOME Arg1:T30 Arg2:T21	
+R13	PART_OF Arg1:T23 Arg2:T31	
+T28	PENALTY 16 21	штраф
+T32	PENALTY 533 557	административного штрафа
+N1	Reference T6 Wikidata:Q129597	Роскомнадзор
+N3	Reference T10 Wikidata:Q159	Россия
+N4	Reference T15 Wikidata:Q32361828	TJ
+N5	Reference T22 Wikidata:Q918	Твиттер
+N8	Reference T12 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N9	Reference T24 Wikidata:Q159	Россия
+N10	Reference T29 Wikidata:Q30	США
+N12	Reference T2 Wikidata:Q17221	
+N6	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N7	Reference T11 Wikidata:NULL	нет данных
+N13	Reference T14 Wikidata:Q129597	Роскомнадзор
+N14	Reference T3 Wikidata:Q129597	Роскомнадзор
+N15	Reference T9 Wikidata:Q159	Россия
+N16	Reference T8 Wikidata:Q918	Твиттер
+N17	Reference T30 Wikidata:Q918	Твиттер
+N18	Reference T23 Wikidata:NULL	нет данных

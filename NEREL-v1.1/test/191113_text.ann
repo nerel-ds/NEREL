@@ -1,0 +1,115 @@
+T1	PERSON 0 16	Евгения Чудновец
+T2	PERSON 43 53	Oxxxymiron
+T3	PERSON 54 70	Евгения Чудновец
+T4	DATE 72 90	26 марта 2017 года
+T5	FACILITY 104 118	Ледовом дворце
+T6	CITY 119 135	Санкт-Петербурга
+T8	PERSON 196 212	Евгения Чудновец
+T9	ORGANIZATION 278 290	Красные орлы
+T10	PERSON 326 336	Oxxxymiron
+T11	ORGANIZATION 338 345	YouTube
+T12	COUNTRY 371 377	России
+T13	WORK_OF_ART 400 416	Последний звонок
+T15	ORGANIZATION 609 616	Госдуме
+T16	WORK_OF_ART 653 669	Последний звонок
+T17	CITY 722 727	Керчи
+T18	ORGANIZATION 745 757	Роскомнадзор
+T19	NUMBER 847 849	20
+T20	PERSON 869 877	Чудновец
+T21	PERSON 887 897	Oxxxymiron
+T22	COUNTRY 1027 1037	эстонского
+T23	WORK_OF_ART 1062 1067	Класс
+T24	NUMBER 1074 1078	двое
+T25	AGE 1200 1209	34-летняя
+T26	ORGANIZATION 1264 1276	Роскомназдор
+T27	PRODUCT 1281 1290	ВКонтакте
+T28	ORGANIZATION 1561 1573	Роскомнадзор
+T29	ORGANIZATION 1585 1599	Генпрокуратуры
+T30	PRODUCT 1622 1629	YouTube
+T31	PRODUCT 1631 1639	Facebook
+T32	PRODUCT 1641 1650	ВКонтакте
+T33	PRODUCT 1653 1666	Одноклассники
+T34	COUNTRY 1699 1705	России
+T35	NUMBER 1708 1721	более чем 860
+T36	WORK_OF_ART 1742 1758	Последний звонок
+T37	PRODUCT 1783 1791	Facebook
+T38	PERSON 91 101	Oxxxymiron
+T40	DATE 137 157	28 октября 2017 года
+T41	DATE 158 178	30 октября 2018 года
+T42	CITY 179 195	екатеринбурженка
+T43	PROFESSION 319 325	рэпера
+T45	ORGANIZATION 543 616	экспертного совета по развитию информационного общества и СМИ при Госдуме
+T46	PERSON 617 633	Евгения Чудновец
+T47	EVENT 691 710	расстрелом учащихся
+T48	EVENT 237 259	раскрытию преступления
+T49	EVENT 813 821	убийства
+T50	EVENT 1097 1105	стрельбу
+T51	IDEOLOGY 1440 1454	экстремистской
+T52	PERSON 1792 1808	Евгения Чудновец
+R1	PART_OF Arg1:T45 Arg2:T15	
+R2	MEMBER_OF Arg1:T46 Arg2:T45	
+R3	WORKS_AS Arg1:T10 Arg2:T43	
+T14	EVENT 803 821	массового убийства
+R4	LOCATED_IN Arg1:T5 Arg2:T6	
+R5	LOCATED_IN Arg1:T38 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T47 Arg2:T17	
+R7	ALTERNATIVE_NAME Arg1:T8 Arg2:T20	
+R8	ALTERNATIVE_NAME Arg1:T47 Arg2:T14	
+R9	ORIGINS_FROM Arg1:T23 Arg2:T22	
+R10	AGE_IS Arg1:T20 Arg2:T25	
+T39	EVENT 26 42	блокировки клипа
+R11	ORGANIZES Arg1:T1 Arg2:T39	
+R12	PARTICIPANT_IN Arg1:T2 Arg2:T39	
+T44	EVENT 302 318	блокировки клипа
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T44	
+R14	ORGANIZES Arg1:T8 Arg2:T44	
+R15	POINT_IN_TIME Arg1:T44 Arg2:T41	
+R16	PRODUCES Arg1:T10 Arg2:T13	
+R17	PLACE_RESIDES_IN Arg1:T8 Arg2:T42	
+R18	AGENT Arg1:T8 Arg2:T48	
+R19	TAKES_PLACE_IN Arg1:T48 Arg2:T9	
+R20	INANIMATE_INVOLVED Arg1:T13 Arg2:T44	
+T7	EVENT 1667 1684	ограничили доступ
+R21	TAKES_PLACE_IN Arg1:T7 Arg2:T34	
+R22	INANIMATE_INVOLVED Arg1:T36 Arg2:T7	
+R23	ORGANIZES Arg1:T29 Arg2:T7	
+N3	Reference T6 Wikidata:Q656	Санкт-Петербург
+N5	Reference T10 Wikidata:Q4046107	Oxxxymiron
+N6	Reference T11 Wikidata:Q866	YouTube
+N7	Reference T12 Wikidata:Q159	Россия
+N9	Reference T15 Wikidata:Q715641	Государственная дума
+N10	Reference T17 Wikidata:Q157065	Керчь
+N11	Reference T18 Wikidata:Q129597	Роскомнадзор
+N14	Reference T27 Wikidata:Q116933	ВКонтакте
+N15	Reference T29 Wikidata:Q2387440	Прокуратура Российской Федерации
+N16	Reference T30 Wikidata:Q866	YouTube
+N17	Reference T33 Wikidata:Q1123836	Одноклассники
+N18	Reference T37 Wikidata:Q355	Facebook
+N19	Reference T43 Wikidata:Q2252262	рэпер
+N21	Reference T26 Wikidata:Q129597	Роскомнадзор
+N12	Reference T22 Wikidata:Q191	Эстония
+N13	Reference T23 Wikidata:Q1514850	Класс
+N20	Reference T45 Wikidata:NULL	нет данных
+N8	Reference T13 Wikidata:NULL	нет данных
+N22	Reference T42 Wikidata:Q887	Екатеринбург
+N4	Reference T9 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q1320509	Ледовый дворец
+N1	Reference T1 Wikidata:Q70741737	
+N23	Reference T38 Wikidata:Q4046107	Oxxxymiron
+N24	Reference T2 Wikidata:Q4046107	Oxxxymiron
+N25	Reference T21 Wikidata:Q4046107	Oxxxymiron
+N26	Reference T34 Wikidata:Q159	Россия
+N27	Reference T28 Wikidata:Q129597	Роскомнадзор
+N28	Reference T32 Wikidata:Q116933	ВКонтакте
+N29	Reference T31 Wikidata:Q355	Facebook
+N30	Reference T36 Wikidata:NULL	нет данных
+N31	Reference T16 Wikidata:NULL	нет данных
+N32	Reference T8 Wikidata:Q70741737	
+N33	Reference T20 Wikidata:Q70741737	
+N34	Reference T46 Wikidata:Q70741737	
+N35	Reference T52 Wikidata:Q70741737	
+N36	Reference T3 Wikidata:Q70741737	
+T53	EVENT 346 358	заблокировал
+R24	AGENT Arg1:T11 Arg2:T53	
+R25	INANIMATE_INVOLVED Arg1:T13 Arg2:T53	
+R26	TAKES_PLACE_IN Arg1:T53 Arg2:T12	

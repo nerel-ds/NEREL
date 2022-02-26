@@ -1,0 +1,229 @@
+T1	PROFESSION 8 13	пилот
+T2	COUNTRY 47 50	США
+T3	PERSON 51 66	Нилуфар Рахмани
+T4	DATE 68 76	2013 год
+T6	PERSON 121 136	Нилуфар Рахмани
+T7	COUNTRY 156 159	США
+T8	DATE 181 192	в 2016 году
+T9	COUNTRY 220 232	пакистанских
+T10	DATE 271 290	30 апреля 2018 года
+T11	DATE 293 304	в этот день
+T12	ORGANIZATION 322 344	Исламского государства
+T13	ORGANIZATION 346 348	ИГ
+T14	NUMBER 363 365	29
+T15	CITY 376 382	Кабуле
+T16	PERSON 385 400	Нилуфар Рахмани
+T17	PERSON 420 436	Niloofar Rahmani
+T18	COUNTRY 449 460	Афганистане
+T19	AGE 484 490	26 лет
+T20	DATE 492 512	В конце 1990-х годов
+T21	COUNTRY 534 542	Пакистан
+T22	PERSON 575 582	Рахмани
+T23	COUNTRY 640 650	Афганистан
+T24	ORGANIZATION 679 682	ВВС
+T25	FACILITY 712 719	Шинданд
+T26	STATE_OR_PROVINCE 732 737	Герат
+T27	DATE 739 750	В 2012 году
+T28	ORDINAL 792 798	Первый
+T29	PRODUCT 837 847	Cessna 182
+T30	DATE 850 861	В 2015 году
+T31	ORGANIZATION 874 881	Госдепа
+T33	PROFESSION 984 998	президента США
+T34	PERSON 999 1011	Мишель Обама
+T35	PERSON 1036 1043	Рахмани
+T36	ORGANIZATION 1119 1144	Техрик-е Талибан Пакистан
+T37	DATE 1171 1182	В 2015 году
+T38	ORGANIZATION 1205 1212	ВВС США
+T39	PRODUCT 1225 1230	C-130
+T40	DATE 1252 1271	в декабре 2016 года
+T41	COUNTRY 1327 1330	США
+T42	PROFESSION 1336 1343	адвокат
+T43	PROFESSION 1366 1373	капитан
+T44	ORGANIZATION 1410 1428	The New York Times
+T45	PERSON 1434 1441	Рахмани
+T46	COUNTRY 1457 1468	Афганистане
+T47	DATE 1507 1525	в апреле 2018 года
+T60	ORGANIZATION 14 27	афганских ВВС
+T62	PROFESSION 8 27	пилот афганских ВВС
+T63	COUNTRY 14 23	афганских
+T64	PROFESSION 84 120	пилот афганских военно-воздушных сил
+T65	PROFESSION 84 89	пилот
+T66	ORGANIZATION 90 120	афганских военно-воздушных сил
+T67	COUNTRY 90 99	афганских
+T68	ORGANIZATION 233 240	талибов
+T70	PERSON 402 415	نیلوفر رحمانی
+T71	DATE 461 472	в 1992 году
+T72	ORGANIZATION 566 573	талибов
+T73	LANGUAGE 600 604	дари
+T74	LOCATION 619 624	пушту
+T75	COUNTRY 693 702	советской
+T76	ORGANIZATION 874 885	Госдепа США
+T77	COUNTRY 882 885	США
+T78	AWARD 895 915	За женскую храбрость
+T79	AWARD 918 954	International Women of Courage Award
+T32	PROFESSION 984 994	президента
+T80	COUNTRY 995 998	США
+T81	RELIGION 1099 1109	исламского
+T82	COUNTRY 1136 1144	Пакистан
+T83	COUNTRY 1209 1212	США
+T61	PERSON 1374 1381	Рахмани
+T84	PERSON 1540 1555	Дональда Трампа
+R1	HEADQUARTERED_IN Arg1:T60 Arg2:T63	
+R2	WORKPLACE Arg1:T62 Arg2:T60	
+T5	ORGANIZATION 24 27	ВВС
+R3	WORKS_AS Arg1:T3 Arg2:T62	
+R4	WORKPLACE Arg1:T3 Arg2:T60	
+T90	ORGANIZATION 100 120	военно-воздушных сил
+R5	ALTERNATIVE_NAME Arg1:T90 Arg2:T5	
+R6	WORKS_AS Arg1:T6 Arg2:T64	
+R7	WORKPLACE Arg1:T6 Arg2:T66	
+R8	WORKPLACE Arg1:T64 Arg2:T66	
+R9	HEADQUARTERED_IN Arg1:T66 Arg2:T67	
+R10	ORIGINS_FROM Arg1:T68 Arg2:T9	
+R11	ABBREVIATION Arg1:T12 Arg2:T13	
+T91	EVENT 305 321	атака смертников
+T92	EVENT 350 373	унесла жизни 29 человек
+R13	TAKES_PLACE_IN Arg1:T92 Arg2:T15	
+R14	TAKES_PLACE_IN Arg1:T91 Arg2:T15	
+R15	POINT_IN_TIME Arg1:T91 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R17	POINT_IN_TIME Arg1:T92 Arg2:T10	
+R18	ALTERNATIVE_NAME Arg1:T16 Arg2:T70	
+R19	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R20	ALTERNATIVE_NAME Arg1:T70 Arg2:T17	
+R21	PLACE_OF_BIRTH Arg1:T16 Arg2:T18	
+R22	DATE_OF_BIRTH Arg1:T16 Arg2:T71	
+R23	AGE_IS Arg1:T16 Arg2:T19	
+R24	ALTERNATIVE_NAME Arg1:T16 Arg2:T22	
+R25	KNOWS Arg1:T22 Arg2:T73	
+R27	OWNER_OF Arg1:T75 Arg2:T25	
+R28	LOCATED_IN Arg1:T25 Arg2:T26	
+R29	HEADQUARTERED_IN Arg1:T76 Arg2:T77	
+R30	WORKPLACE Arg1:T33 Arg2:T80	
+R31	SPOUSE Arg1:T34 Arg2:T33	
+R32	SPOUSE Arg1:T33 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T78 Arg2:T79	
+R34	PLACE_RESIDES_IN Arg1:T16 Arg2:T21	
+R35	HEADQUARTERED_IN Arg1:T36 Arg2:T82	
+T93	ORGANIZATION 1205 1208	ВВС
+R36	HEADQUARTERED_IN Arg1:T38 Arg2:T83	
+R37	WORKS_AS Arg1:T61 Arg2:T43	
+T94	ORGANIZATION 666 682	лётной школе ВВС
+R38	SCHOOLS_ATTENDED Arg1:T16 Arg2:T94	
+R39	OWNER_OF Arg1:T24 Arg2:T94	
+R40	HEADQUARTERED_IN Arg1:T94 Arg2:T25	
+R41	AWARDED_WITH Arg1:T16 Arg2:T78	
+R42	PRODUCES Arg1:T76 Arg2:T78	
+R43	RELIGION_OF Arg1:T36 Arg2:T81	
+R44	SUBORDINATE_OF Arg1:T42 Arg2:T61	
+R45	PLACE_RESIDES_IN Arg1:T16 Arg2:T23	
+R46	LOCATED_IN Arg1:T26 Arg2:T23	
+T95	EVENT 28 44	получила убежище
+R50	TAKES_PLACE_IN Arg1:T95 Arg2:T2	
+R51	PARTICIPANT_IN Arg1:T62 Arg2:T95	
+T96	EVENT 137 153	получила убежище
+R52	PARTICIPANT_IN Arg1:T6 Arg2:T96	
+R53	TAKES_PLACE_IN Arg1:T96 Arg2:T7	
+R12	SUBEVENT_OF Arg1:T92 Arg2:T91	
+R54	AGENT Arg1:T12 Arg2:T91	
+T69	EVENT 549 565	прихода к власти
+R55	AGENT Arg1:T72 Arg2:T69	
+R56	POINT_IN_TIME Arg1:T69 Arg2:T20	
+R57	TAKES_PLACE_IN Arg1:T69 Arg2:T18	
+T97	EVENT 968 975	вручила
+R26	AGENT Arg1:T34 Arg2:T97	
+R58	INANIMATE_INVOLVED Arg1:T78 Arg2:T97	
+R59	POINT_IN_TIME Arg1:T78 Arg2:T30	
+R60	POINT_IN_TIME Arg1:T97 Arg2:T30	
+R61	PARTICIPANT_IN Arg1:T22 Arg2:T97	
+T98	ORGANIZATION 1526 1555	администрация Дональда Трампа
+R62	FOUNDED_BY Arg1:T98 Arg2:T84	
+T99	EVENT 1556 1581	удовлетворила её прошение
+R64	PARTICIPANT_IN Arg1:T45 Arg2:T99	
+R65	AGENT Arg1:T98 Arg2:T99	
+R66	POINT_IN_TIME Arg1:T99 Arg2:T47	
+T100	RELIGION 322 332	Исламского
+R67	RELIGION_OF Arg1:T12 Arg2:T100	
+T101	CITY 1414 1422	New York
+R68	HEADQUARTERED_IN Arg1:T44 Arg2:T101	
+N2	Reference T13 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N3	Reference T18 Wikidata:Q889	Афганистан
+N4	Reference T25 Wikidata:Q2497882	Шинданд
+N6	Reference T29 Wikidata:Q686708	Cessna 182
+N7	Reference T33 Wikidata:Q11696	президент США
+N8	Reference T34 Wikidata:Q13133	Мишель Обама
+N9	Reference T36 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N10	Reference T38 Wikidata:Q11223	Военно-воздушные силы США
+N11	Reference T39 Wikidata:Q182027	Локхид C-130 «Геркулес»
+N12	Reference T42 Wikidata:Q40348	адвокат
+N13	Reference T43 Wikidata:Q19100	капитан
+N14	Reference T44 Wikidata:Q9684	The New York Times
+N17	Reference T52 Wikidata:Q902176	Might and Magic
+N18	Reference T53 Wikidata:Q16641	Американское Самоа
+N19	Reference T54 Wikidata:Q99	Калифорния
+N20	Reference T56 Wikidata:Q42289	градус Фаренгейта
+N21	Reference T58 Wikidata:Q5838	Кабул
+N25	Reference T65 Wikidata:Q2095549	лётчик
+N28	Reference T68 Wikidata:Q42418	Талибан
+N29	Reference T73 Wikidata:Q9168	персидский язык
+N30	Reference T74 Wikidata:Q58680	пушту
+N32	Reference T76 Wikidata:Q789915	Государственный департамент США
+N33	Reference T77 Wikidata:Q30	США
+N35	Reference T32 Wikidata:Q30461	президент
+N37	Reference T82 Wikidata:Q843	Пакистан
+N38	Reference T84 Wikidata:Q22686	Дональд Трамп
+N39	Reference T5 Wikidata:Q61883	военно-воздушные силы
+N22	Reference T60 Wikidata:Q1814147	
+N23	Reference T62 Wikidata:NULL	нет данных
+N26	Reference T66 Wikidata:Q1814147	
+N24	Reference T64 Wikidata:NULL	нет данных
+N27	Reference T67 Wikidata:Q889	Афганистан
+N1	Reference T9 Wikidata:Q843	Пакистан
+N40	Reference T94 Wikidata:NULL	нет данных
+N31	Reference T75 Wikidata:Q15180	СССР
+N5	Reference T26 Wikidata:Q182844	Герат
+N34	Reference T78 Wikidata:Q6054302	
+N43	Reference T35 Wikidata:Q19649388	Нилуфар Рахмани
+N36	Reference T81 Wikidata:Q432	ислам
+N42	Reference T101 Wikidata:Q60	Нью-Йорк
+N41	Reference T98 Wikidata:Q27811470	
+N44	Reference T12 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N45	Reference T46 Wikidata:Q889	Афганистан
+N46	Reference T23 Wikidata:Q889	Афганистан
+N47	Reference T31 Wikidata:Q789915	Государственный департамент США
+N48	Reference T15 Wikidata:Q5838	Кабул
+N49	Reference T89 Wikidata:Q2095549	лётчик
+N50	Reference T1 Wikidata:Q2095549	лётчик
+N51	Reference T72 Wikidata:Q42418	Талибан
+N52	Reference T83 Wikidata:Q30	США
+N53	Reference T7 Wikidata:Q30	США
+N54	Reference T80 Wikidata:Q30	США
+N55	Reference T2 Wikidata:Q30	США
+N56	Reference T41 Wikidata:Q30	США
+N57	Reference T21 Wikidata:Q843	Пакистан
+N58	Reference T90 Wikidata:Q61883	военно-воздушные силы
+N59	Reference T93 Wikidata:Q61883	военно-воздушные силы
+N60	Reference T24 Wikidata:Q61883	военно-воздушные силы
+N61	Reference T63 Wikidata:Q889	Афганистан
+N62	Reference T79 Wikidata:Q6054302	
+N63	Reference T22 Wikidata:Q19649388	Нилуфар Рахмани
+N64	Reference T17 Wikidata:Q19649388	Нилуфар Рахмани
+N66	Reference T16 Wikidata:Q19649388	Нилуфар Рахмани
+N67	Reference T6 Wikidata:Q19649388	Нилуфар Рахмани
+N68	Reference T70 Wikidata:Q19649388	Нилуфар Рахмани
+N69	Reference T3 Wikidata:Q19649388	Нилуфар Рахмани
+N70	Reference T61 Wikidata:Q19649388	Нилуфар Рахмани
+N71	Reference T45 Wikidata:Q19649388	Нилуфар Рахмани
+N72	Reference T100 Wikidata:Q432	ислам
+T48	EVENT 438 446	родилась
+R47	PARTICIPANT_IN Arg1:T16 Arg2:T48	
+R48	TAKES_PLACE_IN Arg1:T48 Arg2:T18	
+R49	POINT_IN_TIME Arg1:T48 Arg2:T71	
+T49	NUMBER 844 847	182
+T50	EVENT 522 531	переехала
+R63	TAKES_PLACE_IN Arg1:T50 Arg2:T21	
+R69	HAS_CAUSE Arg1:T50 Arg2:T69	
+R70	PARTICIPANT_IN Arg1:T16 Arg2:T50	
+R71	POINT_IN_TIME Arg1:T50 Arg2:T20	
+T51	NUMBER 1227 1230	130
+R72	PLACE_RESIDES_IN Arg1:T6 Arg2:T7	

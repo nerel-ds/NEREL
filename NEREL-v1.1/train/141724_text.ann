@@ -1,0 +1,131 @@
+T1	LOCATION 0 23	На северо-западе Москвы
+T2	CITY 64 70	Москве
+T3	LOCATION 92 115	на северо-западе Москвы
+T5	FACILITY 120 137	Сходненской улице
+T6	ORGANIZATION 279 289	Интерфакса
+T7	ORGANIZATION 292 295	РБК
+T8	NUMBER 307 311	двух
+T9	ORGANIZATION 335 340	ГИБДД
+T10	ORGANIZATION 343 346	МЧС
+T11	NUMBER 413 417	трёх
+T12	PERSON 494 509	Николай Глазков
+T13	AGE 510 516	40 лет
+T14	AGE 534 540	31 год
+T15	PERSON 541 555	Ирина Симонова
+T16	AGE 556 563	52 года
+T17	ORGANIZATION 580 610	департамента транспорта Москвы
+T18	ORGANIZATION 708 714	ГУ МВД
+T19	ORGANIZATION 838 842	Mash
+T20	PROFESSION 844 861	водитель автобуса
+T21	PERSON 862 880	Раджабали Судоуров
+T22	AGE 883 892	30-летним
+T23	PROFESSION 1055 1058	Мэр
+T24	PERSON 1066 1080	Сергей Собянин
+T25	NUMBER 1101 1106	Троим
+T26	FACILITY 1142 1153	Сходненская
+T27	DATE 1395 1406	с 2015 года
+T28	DATE 1423 1433	25 декабря
+T29	NUMBER 1564 1571	четырёх
+T30	PRODUCT 1083 1090	twitter
+T31	CITY 1444 1450	Москвы
+T32	EVENT 1466 1498	происшествие с участием автобуса
+T33	ORGANIZATION 1307 1339	Столичный департамент транспорта
+T34	PROFESSION 944 951	таксист
+T35	PROFESSION 716 733	водитель автобуса
+T36	CITY 604 610	Москвы
+T38	PERSON 517 533	Алексей Васильев
+T39	CITY 17 23	Москвы
+T40	LOCATION 1437 1450	западе Москвы
+T41	EVENT 32 52	врезался в остановку
+T42	DATE 71 91	29 декабря 2017 года
+T43	CITY 109 115	Москвы
+T4	NUMBER 143 145	37
+T44	EVENT 155 173	въехал в остановку
+T45	EVENT 232 252	врезался в остановку
+R1	LOCATED_IN Arg1:T1 Arg2:T39	
+R2	TAKES_PLACE_IN Arg1:T41 Arg2:T1	
+T46	FACILITY 139 145	дом 37
+R3	LOCATED_IN Arg1:T46 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T44 Arg2:T5	
+R5	LOCATED_IN Arg1:T5 Arg2:T3	
+R6	LOCATED_IN Arg1:T3 Arg2:T43	
+R7	POINT_IN_TIME Arg1:T44 Arg2:T42	
+R8	AGE_IS Arg1:T12 Arg2:T13	
+R9	AGE_IS Arg1:T38 Arg2:T14	
+R10	AGE_IS Arg1:T15 Arg2:T16	
+T37	EVENT 642 661	врезалась в автобус
+T47	EVENT 677 696	наехал на остановку
+R12	HAS_CAUSE Arg1:T47 Arg2:T37	
+R13	HEADQUARTERED_IN Arg1:T17 Arg2:T36	
+R14	TAKES_PLACE_IN Arg1:T37 Arg2:T5	
+R15	POINT_IN_TIME Arg1:T37 Arg2:T42	
+T48	ORGANIZATION 711 714	МВД
+R16	PART_OF Arg1:T18 Arg2:T48	
+R17	PARTICIPANT_IN Arg1:T35 Arg2:T47	
+R18	PARTICIPANT_IN Arg1:T34 Arg2:T37	
+R19	WORKS_AS Arg1:T21 Arg2:T20	
+T49	PROFESSION 716 724	водитель
+T50	EVENT 1006 1026	вылетел на остановку
+R20	ALTERNATIVE_NAME Arg1:T47 Arg2:T50	
+T51	EVENT 935 951	подрезал таксист
+R21	PARTICIPANT_IN Arg1:T34 Arg2:T51	
+R22	ALTERNATIVE_NAME Arg1:T51 Arg2:T37	
+R23	LOCATED_IN Arg1:T40 Arg2:T31	
+R24	TAKES_PLACE_IN Arg1:T32 Arg2:T40	
+R25	POINT_IN_TIME Arg1:T32 Arg2:T28	
+T52	EVENT 1523 1549	въехал в подземный переход
+R26	ALTERNATIVE_NAME Arg1:T32 Arg2:T52	
+T53	EVENT 1551 1577	сбив по пути четырёх людей
+R27	SUBEVENT_OF Arg1:T53 Arg2:T52	
+R28	POINT_IN_TIME Arg1:T53 Arg2:T28	
+R29	TAKES_PLACE_IN Arg1:T53 Arg2:T40	
+R30	ALTERNATIVE_NAME Arg1:T17 Arg2:T33	
+T54	LAW 1391 1394	ПДД
+T55	PROFESSION 1353 1370	водителя автобуса
+T56	PROFESSION 1353 1361	водителя
+T57	PROFESSION 1055 1065	Мэр города
+R31	WORKS_AS Arg1:T24 Arg2:T57	
+R32	WORKPLACE Arg1:T24 Arg2:T36	
+R33	LOCATED_IN Arg1:T26 Arg2:T36	
+R34	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R11	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+T58	EVENT 487 493	аварии
+R35	ALTERNATIVE_NAME Arg1:T45 Arg2:T58	
+R36	PARTICIPANT_IN Arg1:T12 Arg2:T58	
+R37	PARTICIPANT_IN Arg1:T38 Arg2:T58	
+R38	PARTICIPANT_IN Arg1:T15 Arg2:T58	
+N2	Reference T5 Wikidata:Q4447706	Сходненская улица
+N3	Reference T6 Wikidata:Q379271	Интерфакс
+N4	Reference T7 Wikidata:Q629733	РосБизнесКонсалтинг
+N5	Reference T9 Wikidata:Q4146353	Госавтоинспекция МВД России
+N8	Reference T15 Wikidata:Q206737	Ирина
+N10	Reference T18 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N11	Reference T19 Wikidata:Q48954641	Mash
+N12	Reference T23 Wikidata:Q30185	мэр
+N13	Reference T24 Wikidata:Q319497	Сергей Семёнович Собянин
+N14	Reference T26 Wikidata:Q2549426	Сходненская
+N15	Reference T30 Wikidata:Q918	Твиттер
+N16	Reference T34 Wikidata:Q2961580	таксист
+N19	Reference T39 Wikidata:Q649	Москва
+N22	Reference T48 Wikidata:Q6589202	министерство внутренних дел
+N23	Reference T49 Wikidata:Q216541	водитель
+N24	Reference T54 Wikidata:Q3074	правила дорожного движения
+N1	Reference T1 Wikidata:Q462490	
+N21	Reference T46 Wikidata:NULL	
+N6	Reference T10 Wikidata:Q2624171	МЧС России
+N7	Reference T12 Wikidata:NULL	нет данных
+N18	Reference T38 Wikidata:NULL	нет данных
+N9	Reference T17 Wikidata:Q28666757	
+N17	Reference T35 Wikidata:Q829020	
+N25	Reference T21 Wikidata:NULL	нет данных
+N26	Reference T57 Wikidata:Q1837906	мэр Москвы
+N20	Reference T40 Wikidata:Q462475	Западный административный округ
+N27	Reference T31 Wikidata:Q649	Москва
+N28	Reference T43 Wikidata:Q649	Москва
+N29	Reference T36 Wikidata:Q649	Москва
+N30	Reference T2 Wikidata:Q649	Москва
+N31	Reference T56 Wikidata:Q216541	водитель
+N32	Reference T3 Wikidata:Q462490	
+N33	Reference T33 Wikidata:Q28666757	
+N34	Reference T55 Wikidata:Q829020	
+N35	Reference T20 Wikidata:Q829020	

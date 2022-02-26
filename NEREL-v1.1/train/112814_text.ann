@@ -1,0 +1,98 @@
+T1	FACILITY 0 24	Квартира Маргарет Тэтчер
+T2	PERSON 9 24	Маргарет Тэтчер
+T3	CITY 49 56	Лондоне
+T4	PERSON 58 73	Маргарет Тэтчер
+T5	FACILITY 74 138	Квартира бывшего премьер-министра Великобритании Маргарет Тэтчер
+T6	PROFESSION 91 122	премьер-министра Великобритании
+T7	COUNTRY 108 122	Великобритании
+T8	PERSON 123 138	Маргарет Тэтчер
+T9	DISTRICT 148 153	Челси
+T10	CITY 156 163	Лондоне
+T11	MONEY 189 197	£1,2 млн
+T12	PERSON 220 228	Маргарет
+T13	PERSON 242 247	Денис
+T14	DATE 254 268	в 1950-х годах
+T16	PROFESSION 284 299	премьер-министр
+T17	PROFESSION 309 318	адвокатом
+T18	PERSON 410 416	Тэтчер
+T19	CITY 475 481	Лондон
+T20	ORDINAL 523 529	шестом
+T23	NUMBER 578 584	четыре
+T24	NUMBER 594 597	две
+T26	ORGANIZATION 663 678	Strutt & Parker
+T27	DATE 730 740	на 24 года
+T28	DATE 823 843	23 февраля 2017 года
+T29	FACILITY 875 891	виллу в Германии
+T30	COUNTRY 883 891	Германии
+T31	PROFESSION 919 933	президент СССР
+T32	COUNTRY 929 933	СССР
+T33	PERSON 934 949	Михаил Горбачёв
+T34	ORGANIZATION 970 989	Süddeutsche Zeitung
+T36	MONEY 1022 1046	несколько миллионов евро
+T15	PROFESSION 776 785	риэлторов
+T21	PROFESSION 919 928	президент
+R1	LOCATED_IN Arg1:T9 Arg2:T10	
+T22	PROFESSION 91 107	премьер-министра
+R2	WORKS_AS Arg1:T8 Arg2:T6	
+R3	WORKPLACE Arg1:T8 Arg2:T7	
+R4	SPOUSE Arg1:T12 Arg2:T13	
+R5	PLACE_RESIDES_IN Arg1:T12 Arg2:T9	
+R6	PLACE_RESIDES_IN Arg1:T13 Arg2:T9	
+R7	WORKS_AS Arg1:T12 Arg2:T17	
+R8	PLACE_RESIDES_IN Arg1:T18 Arg2:T19	
+R9	WORKS_AS Arg1:T33 Arg2:T31	
+R10	WORKPLACE Arg1:T33 Arg2:T32	
+R11	OWNER_OF Arg1:T2 Arg2:T1	
+R12	OWNER_OF Arg1:T8 Arg2:T5	
+R13	WORKPLACE Arg1:T6 Arg2:T7	
+R14	LOCATED_IN Arg1:T5 Arg2:T9	
+R15	PRICE_OF Arg1:T5 Arg2:T11	
+R16	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R17	WORKS_AS Arg1:T12 Arg2:T16	
+R18	ALTERNATIVE_NAME Arg1:T12 Arg2:T18	
+R19	WORKPLACE Arg1:T31 Arg2:T32	
+R20	OWNER_OF Arg1:T33 Arg2:T29	
+R21	PRICE_OF Arg1:T29 Arg2:T36	
+R22	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+T25	LOCATION 970 981	Süddeutsche
+R23	HEADQUARTERED_IN Arg1:T34 Arg2:T25	
+N1	Reference T4 Wikidata:Q7416	Маргарет Тэтчер
+N3	Reference T6 Wikidata:Q14211	премьер-министр Великобритании
+N4	Reference T7 Wikidata:Q145	Великобритания
+N5	Reference T9 Wikidata:Q743535	Челси
+N6	Reference T10 Wikidata:Q84	Лондон
+N7	Reference T13 Wikidata:Q46172	Тэтчер, Дэнис
+N8	Reference T16 Wikidata:Q14212	премьер-министр
+N9	Reference T17 Wikidata:Q40348	адвокат
+N12	Reference T30 Wikidata:Q183	Германия
+N13	Reference T31 Wikidata:Q1255261	президент СССР
+N14	Reference T32 Wikidata:Q15180	СССР
+N15	Reference T33 Wikidata:Q30487	Михаил Сергеевич Горбачёв
+N17	Reference T15 Wikidata:Q519076	риелтор
+N18	Reference T21 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q7625458	
+N11	Reference T29 Wikidata:NULL	нет данных
+N16	Reference T34 Wikidata:Q158870	
+N19	Reference T25 Wikidata:Q46519	Южная Германия
+N20	Reference T18 Wikidata:Q7416	Маргарет Тэтчер
+N21	Reference T8 Wikidata:Q7416	Маргарет Тэтчер
+N22	Reference T2 Wikidata:Q7416	Маргарет Тэтчер
+N23	Reference T12 Wikidata:Q7416	Маргарет Тэтчер
+N24	Reference T3 Wikidata:Q84	Лондон
+N25	Reference T19 Wikidata:Q84	Лондон
+N26	Reference T22 Wikidata:Q14212	премьер-министр
+N27	Reference T1 Wikidata:NULL	нет данных
+T35	EVENT 39 46	продажу
+R24	INANIMATE_INVOLVED Arg1:T1 Arg2:T35	
+R25	TAKES_PLACE_IN Arg1:T35 Arg2:T3	
+T37	EVENT 178 185	продажу
+R26	PRICE_OF Arg1:T37 Arg2:T11	
+R27	INANIMATE_INVOLVED Arg1:T5 Arg2:T37	
+R28	TAKES_PLACE_IN Arg1:T37 Arg2:T9	
+R29	LOCATED_IN Arg1:T29 Arg2:T30	
+T38	EVENT 895 902	продажу
+R30	AGENT Arg1:T33 Arg2:T38	
+R31	INANIMATE_INVOLVED Arg1:T29 Arg2:T38	
+R32	START_TIME Arg1:T38 Arg2:T28	
+R33	PRICE_OF Arg1:T38 Arg2:T36	

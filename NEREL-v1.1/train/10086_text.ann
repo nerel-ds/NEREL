@@ -1,0 +1,92 @@
+T1	ORGANIZATION 21 30	Rammstein
+T2	ORGANIZATION 51 78	Административный суд Кёльна
+T3	COUNTRY 105 113	немецкой
+T4	ORGANIZATION 138 147	Rammstein
+T5	WORK_OF_ART 149 170	Liebe ist für alle da
+T6	AGE 260 279	до восемнадцати лет
+T7	DATE 320 340	осенью прошлого года
+T8	PERSON 342 357	Тилль Линдеманн
+T9	WORK_OF_ART 382 403	Liebe ist für alle da
+T10	DATE 423 441	в ноябре 2009 года
+T11	ORGANIZATION 449 493	Немецким Федеральным Комитетом по Оценке СМИ
+T13	WORK_OF_ART 600 614	Ich tu dir weh
+T15	ORGANIZATION 684 694	Суд Кёльна
+T16	AGE 1088 1111	младше восемнадцати лет
+T17	ORGANIZATION 1185 1206	Комитет по Оценке СМИ
+T18	CITY 1235 1245	Кёльнского
+T19	ORGANIZATION 1235 1250	Кёльнского суда
+T20	DATE 1301 1318	не менее полугода
+T21	DATE 1320 1333	В этот период
+T22	DATE 1455 1474	в феврале 2010 года
+T23	COUNTRY 1527 1538	белорусских
+T24	CITY 1567 1575	минского
+T25	ORGANIZATION 1592 1628	Общественный совет по нравственности
+T26	ORGANIZATION 1631 1652	Министерство культуры
+T27	NATIONALITY 1676 1684	немецких
+T28	ORGANIZATION 1785 1794	Rammstein
+T29	CITY 72 78	Кёльна
+T12	COUNTRY 449 457	Немецким
+T14	CITY 688 694	Кёльна
+T30	ORGANIZATION 1475 1484	Rammstein
+T31	COUNTRY 1653 1663	Белоруссии
+T32	ORGANIZATION 1631 1663	Министерство культуры Белоруссии
+T33	IDEOLOGY 1744 1751	нацизма
+T34	PROFESSION 1685 1696	металлистов
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T29	
+R2	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R3	PRODUCES Arg1:T4 Arg2:T5	
+R4	HEADQUARTERED_IN Arg1:T11 Arg2:T12	
+R5	PRODUCES Arg1:T4 Arg2:T13	
+R6	HEADQUARTERED_IN Arg1:T15 Arg2:T14	
+R7	ALTERNATIVE_NAME Arg1:T2 Arg2:T15	
+R8	ALTERNATIVE_NAME Arg1:T11 Arg2:T17	
+R9	HEADQUARTERED_IN Arg1:T19 Arg2:T18	
+R10	HEADQUARTERED_IN Arg1:T32 Arg2:T31	
+R11	ORIGINS_FROM Arg1:T34 Arg2:T27	
+T35	CRIME 1699 1751	пропаганде насилия, сексуальных извращений и нацизма
+T36	EVENT 1576 1584	концерта
+R12	TAKES_PLACE_IN Arg1:T36 Arg2:T24	
+R13	ORGANIZES Arg1:T30 Arg2:T36	
+R14	CONVICTED_OF Arg1:T30 Arg2:T35	
+R15	CONVICTED_OF Arg1:T34 Arg2:T35	
+T37	ORGANIZATION 1527 1546	белорусских властей
+R16	HEADQUARTERED_IN Arg1:T37 Arg2:T23	
+T38	EVENT 176 201;79 83	ограничения на реализацию снял
+R17	AGENT Arg1:T2 Arg2:T38	
+R18	PARTICIPANT_IN Arg1:T4 Arg2:T38	
+R19	INANIMATE_INVOLVED Arg1:T5 Arg2:T38	
+T39	EVENT 405 422	подвергся цензуре
+R20	AGENT Arg1:T11 Arg2:T39	
+R21	INANIMATE_INVOLVED Arg1:T9 Arg2:T39	
+R22	POINT_IN_TIME Arg1:T39 Arg2:T10	
+T40	IDEOLOGY 538 550	садомазохизм
+T41	CRIME 521 550	пропагандирующей садомазохизм
+R23	HAS_CAUSE Arg1:T39 Arg2:T41	
+T42	CRIME 1699 1717	пропаганде насилия
+N1	Reference T5 Wikidata:Q155342	Liebe ist für alle da
+N2	Reference T8 Wikidata:Q154852	Тилль Линдеманн
+N4	Reference T13 Wikidata:Q154606	Ich tu dir weh
+N11	Reference T29 Wikidata:Q365	Кёльн
+N13	Reference T30 Wikidata:Q25177	Rammstein
+N14	Reference T31 Wikidata:Q184	Белоруссия
+N12	Reference T12 Wikidata:Q183	Германия
+N3	Reference T11 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q365	Кёльн
+N7	Reference T19 Wikidata:NULL	нет данных
+N8	Reference T23 Wikidata:Q184	Белоруссия
+N17	Reference T37 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:Q2280	Минск
+N18	Reference T25 Wikidata:NULL	нет данных
+N19	Reference T26 Wikidata:Q19973770	
+N15	Reference T32 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:Q42884	немцы
+N16	Reference T34 Wikidata:Q1451483	металлисты
+N20	Reference T9 Wikidata:Q155342	Liebe ist für alle da
+N21	Reference T14 Wikidata:Q365	Кёльн
+N22	Reference T28 Wikidata:Q25177	Rammstein
+N23	Reference T4 Wikidata:Q25177	Rammstein
+N24	Reference T1 Wikidata:Q25177	Rammstein
+N25	Reference T3 Wikidata:Q183	Германия
+N26	Reference T17 Wikidata:NULL	нет данных
+N27	Reference T2 Wikidata:NULL	нет данных

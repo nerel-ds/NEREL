@@ -1,0 +1,159 @@
+T1	PERSON 0 18	Александр Турчинов
+T2	PROFESSION 26 34	спикером
+T3	ORGANIZATION 35 49	Верховной Рады
+T4	PERSON 58 76	Александр Турчинов
+T5	DATE 77 92	22 февраля 2014
+T6	ORGANIZATION 98 112	Верховная Рада
+T8	ORGANIZATION 184 195	Батькивщина
+T9	PERSON 197 217	Александра Турчинова
+T10	PROFESSION 260 266	спикер
+T11	ORGANIZATION 267 289	Верховной Рады Украины
+T12	ORGANIZATION 295 310	Партии регионов
+T13	PERSON 311 325	Владимир Рыбак
+T14	PROFESSION 398 416	первый вице-спикер
+T16	ORGANIZATION 432 455	Коммунистической партии
+T17	PERSON 456 470	Игорь Калетник
+T18	AGE 473 482	49-летний
+T19	PERSON 515 546	Александр Валентинович Турчинов
+T21	ORGANIZATION 590 601	Батькивщина
+T24	PERSON 671 685	Юлии Тимошенко
+T25	DATE 711 722	в 2011 году
+T26	ORGANIZATION 739 742	БЮТ
+T27	PROFESSION 753 760	Депутат
+T28	DATE 776 794	с 1998 по 2007 год
+T29	DATE 796 827	С февраля по сентябрь 2005 года
+T30	PROFESSION 832 866	главой Службы безопасности Украины
+T31	DATE 868 893	С мая по ноябрь 2007 года
+T33	DATE 980 1017	С декабря 2007 года по март 2010 года
+T34	PROFESSION 1022 1051	первым вице-премьер-министром
+T35	COUNTRY 50 57	Украины
+T23	ORGANIZATION 35 57	Верховной Рады Украины
+T36	PROFESSION 26 57	спикером Верховной Рады Украины
+R1	WORKS_AS Arg1:T1 Arg2:T36	
+R2	WORKPLACE Arg1:T1 Arg2:T23	
+T37	COUNTRY 113 120	Украины
+T38	ORGANIZATION 98 120	Верховная Рада Украины
+T39	PROFESSION 141 149	спикером
+R3	MEMBER_OF Arg1:T9 Arg2:T8	
+T40	COUNTRY 282 289	Украины
+R4	MEMBER_OF Arg1:T13 Arg2:T12	
+T41	EVENT 121 149	избрала своим новым спикером
+R5	AGENT Arg1:T38 Arg2:T41	
+R6	POINT_IN_TIME Arg1:T41 Arg2:T5	
+T42	PROFESSION 170 196	главы партии «Батькивщина»
+T43	PROFESSION 150 196	первого заместителя главы партии «Батькивщина»
+R7	WORKS_AS Arg1:T9 Arg2:T43	
+R8	SUBORDINATE_OF Arg1:T9 Arg2:T42	
+R9	PARTICIPANT_IN Arg1:T9 Arg2:T41	
+T44	ORGANIZATION 267 281	Верховной Рады
+T45	PROFESSION 260 289	спикер Верховной Рады Украины
+R10	WORKS_AS Arg1:T13 Arg2:T45	
+R11	WORKPLACE Arg1:T13 Arg2:T11	
+R12	MEMBER_OF Arg1:T17 Arg2:T16	
+R13	WORKS_AS Arg1:T17 Arg2:T14	
+R14	AGE_IS Arg1:T19 Arg2:T18	
+T15	COUNTRY 483 493	украинский
+T46	PROFESSION 494 514	политический деятель
+R15	WORKS_AS Arg1:T19 Arg2:T46	
+R16	ORIGINS_FROM Arg1:T19 Arg2:T15	
+T47	ORGANIZATION 638 641	БЮТ
+R17	KNOWS Arg1:T19 Arg2:T24	
+R18	MEMBER_OF Arg1:T19 Arg2:T21	
+T48	PROFESSION 576 602	главы партии «Батькивщина»
+T49	PROFESSION 556 602	первым заместителем главы партии «Батькивщина»
+T50	ORGANIZATION 619 641	Центрального штаба БЮТ
+T51	PROFESSION 605 641	руководителем Центрального штаба БЮТ
+R20	WORKS_AS Arg1:T19 Arg2:T51	
+R21	WORKPLACE Arg1:T19 Arg2:T50	
+T52	EVENT 704 710	ареста
+R22	PARTICIPANT_IN Arg1:T24 Arg2:T52	
+R23	POINT_IN_TIME Arg1:T52 Arg2:T25	
+T53	ORGANIZATION 761 775	Верховной рады
+T54	PROFESSION 753 775	Депутат Верховной рады
+R24	WORKS_AS Arg1:T19 Arg2:T54	
+R25	WORKPLACE Arg1:T19 Arg2:T53	
+T55	COUNTRY 859 866	Украины
+T56	ORGANIZATION 839 866	Службы безопасности Украины
+R26	WORKS_AS Arg1:T19 Arg2:T30	
+T57	COUNTRY 1052 1059	Украины
+T58	COUNTRY 971 978	Украины
+T59	ORGANIZATION 928 978	Совета национальной безопасности и обороны Украины
+T60	PROFESSION 918 978	секретаря Совета национальной безопасности и обороны Украины
+T61	PROFESSION 898 978	первым заместителем секретаря Совета национальной безопасности и обороны Украины
+T62	PROFESSION 1022 1059	первым вице-премьер-министром Украины
+R27	WORKS_AS Arg1:T19 Arg2:T61	
+R28	WORKS_AS Arg1:T19 Arg2:T60	
+R29	ABBREVIATION Arg1:T21 Arg2:T47	
+R30	WORKS_AS Arg1:T19 Arg2:T49	
+R19	HEADQUARTERED_IN Arg1:T23 Arg2:T35	
+R31	WORKPLACE Arg1:T36 Arg2:T23	
+R32	HEADQUARTERED_IN Arg1:T38 Arg2:T37	
+R33	WORKS_AS Arg1:T9 Arg2:T39	
+T7	EVENT 326 355	написал заявление об отставке
+R34	AGENT Arg1:T13 Arg2:T7	
+R35	WORKPLACE Arg1:T45 Arg2:T11	
+R36	HEADQUARTERED_IN Arg1:T11 Arg2:T40	
+T20	IDEOLOGY 432 448	Коммунистической
+R37	IDEOLOGY_OF Arg1:T17 Arg2:T20	
+R38	ALTERNATIVE_NAME Arg1:T4 Arg2:T19	
+R39	WORKPLACE Arg1:T48 Arg2:T21	
+R40	WORKPLACE Arg1:T49 Arg2:T21	
+R41	SUBORDINATE_OF Arg1:T49 Arg2:T48	
+R42	WORKPLACE Arg1:T51 Arg2:T50	
+R43	WORKPLACE Arg1:T54 Arg2:T53	
+R44	WORKPLACE Arg1:T30 Arg2:T56	
+R45	WORKPLACE Arg1:T62 Arg2:T57	
+R46	WORKPLACE Arg1:T60 Arg2:T59	
+R47	HEADQUARTERED_IN Arg1:T59 Arg2:T58	
+R48	WORKPLACE Arg1:T61 Arg2:T59	
+R49	SUBORDINATE_OF Arg1:T61 Arg2:T60	
+R50	PART_OF Arg1:T50 Arg2:T47	
+N1	Reference T3 Wikidata:Q176296	Верховная Рада Украины
+N2	Reference T9 Wikidata:Q15850	Александр Валентинович Турчинов
+N3	Reference T11 Wikidata:Q176296	Верховная Рада Украины
+N4	Reference T12 Wikidata:Q4266	Партия регионов
+N5	Reference T13 Wikidata:Q892623	Владимир Васильевич Рыбак
+N7	Reference T16 Wikidata:Q1122797	Коммунистическая партия Украины
+N8	Reference T17 Wikidata:Q4209317	Игорь Григорьевич Калетник
+N9	Reference T19 Wikidata:Q15850	Александр Валентинович Турчинов
+N10	Reference T24 Wikidata:Q48283	Юлия Владимировна Тимошенко
+N12	Reference T27 Wikidata:Q486839	член парламента
+N14	Reference T35 Wikidata:Q212	Украина
+N17	Reference T15 Wikidata:Q8798	украинский язык
+N18	Reference T46 Wikidata:Q82955	политик
+N22	Reference T54 Wikidata:Q12132454	народный депутат Украины
+N23	Reference T56 Wikidata:Q615811	Служба безопасности Украины
+N24	Reference T59 Wikidata:Q1563383	Совет национальной безопасности и обороны Украины
+N27	Reference T36 Wikidata:Q679817	
+N16	Reference T42 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:NULL	нет данных
+N20	Reference T50 Wikidata:NULL	нет данных
+N21	Reference T51 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:Q383371	
+N13	Reference T30 Wikidata:NULL	нет данных
+N25	Reference T60 Wikidata:Q16715787	
+N26	Reference T61 Wikidata:NULL	нет данных
+N28	Reference T34 Wikidata:NULL	нет данных
+N29	Reference T62 Wikidata:Q16147568	
+N15	Reference T39 Wikidata:Q1758037	спикер
+N30	Reference T44 Wikidata:Q176296	Верховная Рада Украины
+N31	Reference T53 Wikidata:Q176296	Верховная Рада Украины
+N32	Reference T6 Wikidata:Q176296	Верховная Рада Украины
+N33	Reference T38 Wikidata:Q176296	Верховная Рада Украины
+N34	Reference T23 Wikidata:Q176296	Верховная Рада Украины
+N35	Reference T1 Wikidata:Q15850	Александр Валентинович Турчинов
+N36	Reference T4 Wikidata:Q15850	Александр Валентинович Турчинов
+N37	Reference T58 Wikidata:Q212	Украина
+N38	Reference T57 Wikidata:Q212	Украина
+N39	Reference T55 Wikidata:Q212	Украина
+N40	Reference T37 Wikidata:Q212	Украина
+N41	Reference T40 Wikidata:Q212	Украина
+N42	Reference T45 Wikidata:Q679817	
+N43	Reference T48 Wikidata:NULL	нет данных
+N44	Reference T43 Wikidata:NULL	нет данных
+N45	Reference T47 Wikidata:Q383371	
+N46	Reference T21 Wikidata:Q383371	
+N47	Reference T8 Wikidata:Q383371	
+N48	Reference T10 Wikidata:Q1758037	спикер
+N49	Reference T2 Wikidata:Q1758037	спикер

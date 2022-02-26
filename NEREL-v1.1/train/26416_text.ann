@@ -1,0 +1,291 @@
+T1	ORGANIZATION 0 13	Правительство
+T2	PERSON 52 67	Аленка Братушек
+T3	COUNTRY 73 81	Словении
+T4	DATE 82 102	27 февраля 2013 года
+T5	COUNTRY 105 113	Словении
+T6	ORGANIZATION 124 137	правительство
+T7	ORGANIZATION 158 171	правительство
+T8	COUNTRY 172 180	Словении
+T9	PROFESSION 198 214	премьер-министра
+T10	PERSON 215 225	Янеза Янши
+T11	PERSON 227 238	Janez Janša
+T12	ORGANIZATION 268 278	парламента
+T13	PROFESSION 293 310	премьер-министром
+T14	PERSON 317 332	Аленка Братушек
+T15	PERSON 334 349	Alenka Bratušek
+T16	ORGANIZATION 376 395	Позитивная Словения
+T17	PERSON 414 429	Аленка Братушек
+T18	ORDINAL 437 443	первой
+T19	ORGANIZATION 462 475	правительства
+T20	COUNTRY 476 484	Словении
+T21	COUNTRY 537 545	Словении
+T22	DATE 554 572	8 января 2013 года
+T23	PERSON 631 635	Янша
+T24	MONEY 654 674	более 200 тысяч евро
+T25	PERSON 677 686	Янез Янша
+T26	NUMBER 782 785	три
+T27	ORGANIZATION 807 833	Словенская народная партия
+T28	ORGANIZATION 835 838	СНП
+T29	ORGANIZATION 841 884	Демократическая партия пенсионеров Словении
+T30	ORGANIZATION 886 890	ДППС
+T31	ORGANIZATION 895 913	Гражданский список
+T32	ORGANIZATION 916 918	ГС
+T33	ORGANIZATION 981 984	СДП
+T34	ORGANIZATION 995 1009	Новая Словения
+T35	NUMBER 1020 1031	одной трети
+T36	DATE 1049 1056	В среду
+T37	ORGANIZATION 1066 1076	парламента
+T38	COUNTRY 1077 1085	Словении
+T39	ORGANIZATION 1107 1120	правительство
+T42	ORGANIZATION 1189 1192	СДП
+T43	PERSON 1194 1205	Янезом Янши
+T44	PERSON 1233 1243	Янеза Янши
+T45	NUMBER 1272 1274	55
+T46	NUMBER 1278 1280	90
+T47	NUMBER 1292 1294	33
+T48	PROFESSION 1408 1427	главы правительства
+T49	AGE 1462 1471	42-летняя
+T50	PERSON 1472 1487	Аленка Братушек
+T51	DATE 1490 1507	В течение 15 дней
+T52	PROFESSION 1515 1523	премьеру
+T53	ORGANIZATION 1547 1564	кабинет министров
+T54	PERSON 1568 1576	Братушек
+T55	NUMBER 1652 1654	28
+T56	NUMBER 1666 1668	90
+T57	NUMBER 1719 1727	около 30
+T58	PERSON 1829 1844	Аленка Братушек
+T59	PROFESSION 1872 1889	министра финансов
+T61	PERSON 1964 1979	Зорана Янковича
+T62	PERSON 1981 1995	Zoran Janković
+T63	ORGANIZATION 2194 2196	ЕС
+T64	PERSON 2225 2233	Братушек
+T65	COUNTRY 2266 2276	греческого
+T66	COUNTRY 2288 2296	Словении
+T67	ORGANIZATION 0 22	Правительство Словении
+T68	COUNTRY 14 22	Словении
+T69	IDEOLOGY 140 157	правоцентристское
+T70	ORGANIZATION 158 180	правительство Словении
+T72	ORGANIZATION 268 285	парламента страны
+T74	IDEOLOGY 354 367	оппозиционной
+T75	ORGANIZATION 462 484	правительства Словении
+T77	ORGANIZATION 746 772	правительственную коалицию
+T78	IDEOLOGY 841 856	Демократическая
+T79	COUNTRY 387 395	Словения
+T80	COUNTRY 1001 1009	Словения
+T81	PROFESSION 1032 1046	парламентариев
+T82	PROFESSION 1057 1065	депутаты
+T83	PROFESSION 1057 1076	депутаты парламента
+T84	PROFESSION 1057 1085	депутаты парламента Словении
+T85	ORGANIZATION 1066 1085	парламента Словении
+T86	IDEOLOGY 1121 1134	консерваторов
+T87	ORGANIZATION 1107 1134	правительство консерваторов
+T88	PROFESSION 1146 1187	лидером Словенской демократической партии
+T40	COUNTRY 1154 1164	Словенской
+T89	IDEOLOGY 1165 1180	демократической
+T90	EVENT 1210 1218	отставку
+T91	ORGANIZATION 1219 1232	правительства
+T92	ORGANIZATION 1219 1243	правительства Янеза Янши
+T93	PROFESSION 1281 1290	депутатов
+T94	EVENT 1323 1331	отставка
+T95	ORGANIZATION 1414 1427	правительства
+T96	PROFESSION 1555 1564	министров
+T97	ORGANIZATION 1606 1625	Позитивная Словения
+T98	COUNTRY 1617 1625	Словения
+T99	ORGANIZATION 1641 1651	парламенте
+T100	PROFESSION 1688 1696	премьера
+T101	ORGANIZATION 1761 1774	правительство
+T104	PROFESSION 1872 1880	министра
+T105	PROFESSION 1942 1950	политика
+T106	PROFESSION 1953 1963	бизнесмена
+T107	CRIME 2029 2038	коррупции
+T108	PROFESSION 2120 2128	политика
+R1	HEADQUARTERED_IN Arg1:T67 Arg2:T68	
+R2	WORKPLACE Arg1:T2 Arg2:T67	
+R3	WORKPLACE Arg1:T2 Arg2:T68	
+T109	EVENT 114 137	сменилось правительство
+R6	TAKES_PLACE_IN Arg1:T109 Arg2:T5	
+R7	POINT_IN_TIME Arg1:T109 Arg2:T4	
+R8	PARTICIPANT_IN Arg1:T6 Arg2:T109	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R10	WORKS_AS Arg1:T10 Arg2:T9	
+T110	EVENT 249 264	вотум недоверия
+R13	HAS_CAUSE Arg1:T110 Arg2:T109	
+R15	AGENT Arg1:T72 Arg2:T110	
+R16	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R17	HEADQUARTERED_IN Arg1:T16 Arg2:T79	
+R18	WORKS_AS Arg1:T14 Arg2:T13	
+R19	IDEOLOGY_OF Arg1:T16 Arg2:T74	
+R20	MEMBER_OF Arg1:T14 Arg2:T16	
+R21	HEADQUARTERED_IN Arg1:T75 Arg2:T20	
+R22	WORKPLACE Arg1:T17 Arg2:T75	
+T73	ORGANIZATION 510 527	Правительственный
+R23	ALTERNATIVE_NAME Arg1:T19 Arg2:T73	
+R24	ALTERNATIVE_NAME Arg1:T10 Arg2:T23	
+R25	ALTERNATIVE_NAME Arg1:T23 Arg2:T25	
+R26	ABBREVIATION Arg1:T27 Arg2:T28	
+T111	COUNTRY 876 884	Словении
+R27	HEADQUARTERED_IN Arg1:T29 Arg2:T111	
+R28	IDEOLOGY_OF Arg1:T29 Arg2:T78	
+R29	ABBREVIATION Arg1:T29 Arg2:T30	
+R30	ABBREVIATION Arg1:T31 Arg2:T32	
+R31	HEADQUARTERED_IN Arg1:T34 Arg2:T80	
+T112	EVENT 510 534	Правительственный кризис
+R32	TAKES_PLACE_IN Arg1:T112 Arg2:T21	
+R33	START_TIME Arg1:T112 Arg2:T22	
+R35	PARTICIPANT_IN Arg1:T23 Arg2:T112	
+R36	MEMBER_OF Arg1:T27 Arg2:T77	
+R37	MEMBER_OF Arg1:T29 Arg2:T77	
+R38	MEMBER_OF Arg1:T31 Arg2:T77	
+R39	MEMBER_OF Arg1:T33 Arg2:T77	
+R40	MEMBER_OF Arg1:T34 Arg2:T77	
+T113	EVENT 773 781	покинули
+R41	HAS_CAUSE Arg1:T112 Arg2:T113	
+T114	ORGANIZATION 746 763	правительственную
+R42	PARTICIPANT_IN Arg1:T77 Arg2:T113	
+R43	HEADQUARTERED_IN Arg1:T85 Arg2:T38	
+R44	ALTERNATIVE_NAME Arg1:T81 Arg2:T83	
+R45	MEMBER_OF Arg1:T81 Arg2:T37	
+T115	EVENT 1098 1106	отставку
+R46	AGENT Arg1:T84 Arg2:T115	
+R47	POINT_IN_TIME Arg1:T115 Arg2:T36	
+R48	IDEOLOGY_OF Arg1:T87 Arg2:T86	
+R49	PARTICIPANT_IN Arg1:T87 Arg2:T115	
+T41	ORGANIZATION 1154 1187	Словенской демократической партии
+R50	ABBREVIATION Arg1:T41 Arg2:T42	
+R51	MEMBER_OF Arg1:T88 Arg2:T41	
+R52	IDEOLOGY_OF Arg1:T41 Arg2:T89	
+R53	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+R54	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R55	WORKPLACE Arg1:T88 Arg2:T87	
+R56	WORKPLACE Arg1:T43 Arg2:T87	
+R57	WORKS_AS Arg1:T43 Arg2:T88	
+R58	WORKPLACE Arg1:T43 Arg2:T41	
+R59	FOUNDED_BY Arg1:T92 Arg2:T44	
+R60	PARTICIPANT_IN Arg1:T92 Arg2:T90	
+T116	EVENT 1244 1257	проголосовало
+R61	HAS_CAUSE Arg1:T90 Arg2:T116	
+R62	AGENT Arg1:T93 Arg2:T116	
+R63	AGE_IS Arg1:T50 Arg2:T49	
+R64	WORKS_AS Arg1:T50 Arg2:T48	
+R65	WORKPLACE Arg1:T48 Arg2:T95	
+R66	WORKPLACE Arg1:T50 Arg2:T95	
+R67	MEMBER_OF Arg1:T96 Arg2:T53	
+R68	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+R69	ALTERNATIVE_NAME Arg1:T13 Arg2:T52	
+R70	ALTERNATIVE_NAME Arg1:T50 Arg2:T54	
+R71	HEADQUARTERED_IN Arg1:T97 Arg2:T98	
+R72	WORKS_AS Arg1:T61 Arg2:T106	
+R73	WORKS_AS Arg1:T61 Arg2:T105	
+R74	MEMBER_OF Arg1:T54 Arg2:T97	
+R75	ALTERNATIVE_NAME Arg1:T61 Arg2:T62	
+R76	CONVICTED_OF Arg1:T61 Arg2:T107	
+R77	WORKS_AS Arg1:T58 Arg2:T108	
+R78	WORKS_AS Arg1:T58 Arg2:T59	
+R79	INCOME Arg1:T23 Arg2:T24	
+R80	HEADQUARTERED_IN Arg1:T72 Arg2:T5	
+R81	IDEOLOGY_OF Arg1:T14 Arg2:T74	
+R82	SUBEVENT_OF Arg1:T110 Arg2:T112	
+R34	AGENT Arg1:T27 Arg2:T113	
+R83	AGENT Arg1:T29 Arg2:T113	
+R84	AGENT Arg1:T31 Arg2:T113	
+T60	COUNTRY 807 817	Словенская
+R85	HEADQUARTERED_IN Arg1:T27 Arg2:T60	
+R86	IDEOLOGY_OF Arg1:T43 Arg2:T89	
+R87	IDEOLOGY_OF Arg1:T43 Arg2:T86	
+T76	EVENT 1454 1461	избрана
+R88	PARTICIPANT_IN Arg1:T50 Arg2:T76	
+R89	PARTICIPANT_IN Arg1:T95 Arg2:T76	
+R90	HEADQUARTERED_IN Arg1:T95 Arg2:T38	
+R91	WORKS_AS Arg1:T54 Arg2:T100	
+R92	ALTERNATIVE_NAME Arg1:T58 Arg2:T64	
+T102	EVENT 31 41	возглавила
+R93	AGENT Arg1:T2 Arg2:T102	
+R94	PARTICIPANT_IN Arg1:T67 Arg2:T102	
+R4	IDEOLOGY_OF Arg1:T70 Arg2:T69	
+R5	HEADQUARTERED_IN Arg1:T70 Arg2:T8	
+R11	WORKPLACE Arg1:T10 Arg2:T70	
+R12	IDEOLOGY_OF Arg1:T10 Arg2:T69	
+R14	PARTICIPANT_IN Arg1:T70 Arg2:T110	
+N1	Reference T5 Wikidata:Q215	Словения
+N2	Reference T10 Wikidata:Q57627	Янша, Янез
+N3	Reference T13 Wikidata:Q14212	премьер-министр
+N4	Reference T16 Wikidata:Q678466	Позитивная Словения
+N7	Reference T34 Wikidata:Q1258564	Новая Словения
+N8	Reference T48 Wikidata:Q2285706	глава правительства
+N9	Reference T50 Wikidata:Q3739767	Аленка Братушек
+N10	Reference T53 Wikidata:Q640506	кабинет министров
+N11	Reference T58 Wikidata:Q3739767	Аленка Братушек
+N12	Reference T63 Wikidata:Q458	Европейский союз
+N15	Reference T82 Wikidata:Q486839	член парламента
+N16	Reference T83 Wikidata:Q486839	член парламента
+N18	Reference T85 Wikidata:Q1288169	Парламент Словении
+N22	Reference T99 Wikidata:Q35749	парламент
+N23	Reference T104 Wikidata:Q83307	министр
+N24	Reference T105 Wikidata:Q82955	политик
+N25	Reference T106 Wikidata:Q131524	предприниматель
+N13	Reference T65 Wikidata:Q41	Греция
+N28	Reference T59 Wikidata:Q7614320	
+N29	Reference T62 Wikidata:Q220521	
+N21	Reference T92 Wikidata:NULL	нет данных
+N17	Reference T84 Wikidata:NULL	нет данных
+N19	Reference T87 Wikidata:NULL	нет данных
+N20	Reference T88 Wikidata:NULL	нет данных
+N30	Reference T42 Wikidata:Q526294	Словенская демократическая партия
+N5	Reference T27 Wikidata:Q1258654	
+N31	Reference T30 Wikidata:Q1113577	
+N6	Reference T31 Wikidata:Q1261838	
+N14	Reference T77 Wikidata:NULL	нет данных
+N27	Reference T73 Wikidata:Q7188	правительство
+N32	Reference T72 Wikidata:Q1288169	Парламент Словении
+N33	Reference T15 Wikidata:Q3739767	Аленка Братушек
+N34	Reference T67 Wikidata:Q1264458	
+N35	Reference T40 Wikidata:Q215	Словения
+N36	Reference T21 Wikidata:Q215	Словения
+N37	Reference T8 Wikidata:Q215	Словения
+N38	Reference T20 Wikidata:Q215	Словения
+N39	Reference T38 Wikidata:Q215	Словения
+N40	Reference T66 Wikidata:Q215	Словения
+N41	Reference T80 Wikidata:Q215	Словения
+N42	Reference T60 Wikidata:Q215	Словения
+N43	Reference T3 Wikidata:Q215	Словения
+N44	Reference T79 Wikidata:Q215	Словения
+N45	Reference T111 Wikidata:Q215	Словения
+N46	Reference T98 Wikidata:Q215	Словения
+N47	Reference T68 Wikidata:Q215	Словения
+N48	Reference T44 Wikidata:Q57627	Янша, Янез
+N49	Reference T23 Wikidata:Q57627	Янша, Янез
+N50	Reference T25 Wikidata:Q57627	Янша, Янез
+N51	Reference T11 Wikidata:Q57627	Янша, Янез
+N52	Reference T43 Wikidata:Q57627	Янша, Янез
+N53	Reference T9 Wikidata:Q14212	премьер-министр
+N54	Reference T97 Wikidata:Q678466	Позитивная Словения
+N55	Reference T100 Wikidata:Q2285706	глава правительства
+N56	Reference T52 Wikidata:Q2285706	глава правительства
+N57	Reference T54 Wikidata:Q3739767	Аленка Братушек
+N58	Reference T17 Wikidata:Q3739767	Аленка Братушек
+N59	Reference T2 Wikidata:Q3739767	Аленка Братушек
+N60	Reference T64 Wikidata:Q3739767	Аленка Братушек
+N61	Reference T93 Wikidata:Q486839	член парламента
+N62	Reference T81 Wikidata:Q486839	член парламента
+N63	Reference T37 Wikidata:Q35749	парламент
+N64	Reference T12 Wikidata:Q35749	парламент
+N65	Reference T96 Wikidata:Q83307	министр
+N66	Reference T108 Wikidata:Q82955	политик
+N67	Reference T61 Wikidata:Q220521	
+N68	Reference T33 Wikidata:Q526294	Словенская демократическая партия
+N69	Reference T41 Wikidata:Q526294	Словенская демократическая партия
+N70	Reference T28 Wikidata:Q1258654	
+N71	Reference T29 Wikidata:Q1113577	
+N72	Reference T32 Wikidata:Q1261838	
+N73	Reference T101 Wikidata:Q7188	правительство
+N74	Reference T19 Wikidata:Q7188	правительство
+N75	Reference T114 Wikidata:Q7188	правительство
+N76	Reference T95 Wikidata:Q7188	правительство
+N77	Reference T7 Wikidata:Q7188	правительство
+N78	Reference T39 Wikidata:Q7188	правительство
+N79	Reference T91 Wikidata:Q7188	правительство
+N80	Reference T6 Wikidata:Q7188	правительство
+N81	Reference T1 Wikidata:Q7188	правительство
+N82	Reference T14 Wikidata:Q3739767	Аленка Братушек
+N83	Reference T75 Wikidata:Q1264458	
+N84	Reference T70 Wikidata:Q1264458	

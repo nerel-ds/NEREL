@@ -1,0 +1,158 @@
+T1	NUMBER 0 4	Один
+T2	NUMBER 8 12	пяти
+T3	ORGANIZATION 51 60	Microsoft
+T4	PROFESSION 62 105	Главный архитектор программного обеспечения
+T5	COUNTRY 111 124	американского
+T6	ORGANIZATION 154 163	Microsoft
+T7	PERSON 164 172	Рэй Оззи
+T8	PROFESSION 208 249	главный исполнительный директор Microsoft
+T9	PERSON 250 261	Стив Балмер
+T10	PERSON 325 331	Р.Оззи
+T11	PERSON 450 462	Билла Гейтса
+T12	AGE 481 491	54-летнего
+T13	PERSON 492 498	Р.Оззи
+T14	PERSON 535 544	С.Балмера
+T15	PERSON 593 599	Р.Оззи
+T17	COUNTRY 612 624	американской
+T19	PERSON 658 664	Р.Оззи
+T20	ORGANIZATION 668 677	Microsoft
+T21	PROFESSION 706 734	главой подразделения Windows
+T22	PRODUCT 727 734	Windows
+T23	PERSON 735 752	Стивеном Синофски
+T24	COUNTRY 780 792	американских
+T26	PERSON 798 804	Р.Оззи
+T27	PROFESSION 913 922	президент
+T28	PERSON 947 958	Стивен Элоп
+T29	PROFESSION 960 1020	руководитель подразделения Microsoft Entertainment & Devices
+T30	ORGANIZATION 987 1020	Microsoft Entertainment & Devices
+T31	PERSON 1021 1030	Робби Бах
+T32	NUMBER 1040 1044	один
+T33	PROFESSION 1056 1078	управляющих корпорации
+T34	PERSON 1079 1090	Джей Аллард
+T35	COUNTRY 1112 1124	американские
+T36	ORGANIZATION 1237 1246	Microsoft
+T38	PERSON 1249 1255	Р.Оззи
+T39	ORGANIZATION 1272 1281	Microsoft
+T40	DATE 1284 1289	2005г
+T41	COUNTRY 1305 1317	американским
+T43	PERSON 1338 1344	Р.Оззи
+T44	ORGANIZATION 1354 1369	Groove Networks
+T45	DATE 1371 1387	В последние годы
+T46	PROFESSION 1397 1411	архитектора ПО
+T47	ORGANIZATION 1421 1430	Microsoft
+T48	PERSON 1431 1437	Р.Оззи
+T50	PERSON 1548 1557	Б.Гейтсом
+T52	PERSON 1574 1580	Р.Оззи
+T53	NUMBER 1590 1594	пяти
+T54	PROFESSION 20 33	программистов
+T55	ORGANIZATION 240 249	Microsoft
+T16	ORGANIZATION 1538 1547	Microsoft
+T18	PROFESSION 1602 1615	программистов
+T25	EVENT 173 190	покидает компанию
+R1	AGENT Arg1:T7 Arg2:T25	
+R2	WORKS_AS Arg1:T7 Arg2:T54	
+R3	WORKS_AS Arg1:T7 Arg2:T4	
+R4	WORKPLACE Arg1:T7 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T25	
+T37	PROFESSION 208 239	главный исполнительный директор
+R6	WORKPLACE Arg1:T9 Arg2:T55	
+R7	WORKS_AS Arg1:T9 Arg2:T8	
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R9	AGE_IS Arg1:T13 Arg2:T12	
+R10	WORKS_AS Arg1:T23 Arg2:T21	
+T42	PROFESSION 960 986	руководитель подразделения
+R12	WORKS_AS Arg1:T31 Arg2:T29	
+R13	WORKS_AS Arg1:T34 Arg2:T33	
+R14	FOUNDED_BY Arg1:T44 Arg2:T43	
+R15	OWNER_OF Arg1:T39 Arg2:T44	
+R16	WORKS_AS Arg1:T48 Arg2:T46	
+R17	FOUNDED_BY Arg1:T16 Arg2:T50	
+R18	WORKS_AS Arg1:T52 Arg2:T18	
+R19	KNOWS Arg1:T50 Arg2:T52	
+R20	WORKPLACE Arg1:T38 Arg2:T39	
+R21	WORKPLACE Arg1:T31 Arg2:T30	
+R22	WORKPLACE Arg1:T19 Arg2:T20	
+T49	EVENT 652 657	ухода
+R23	WORKPLACE Arg1:T54 Arg2:T3	
+R24	PARTICIPANT_IN Arg1:T19 Arg2:T49	
+R25	PARTICIPANT_IN Arg1:T20 Arg2:T49	
+T51	PROFESSION 706 726	главой подразделения
+R26	WORKS_AS Arg1:T28 Arg2:T27	
+T56	ORGANIZATION 987 996	Microsoft
+R28	WORKPLACE Arg1:T34 Arg2:T56	
+R29	HEADQUARTERED_IN Arg1:T6 Arg2:T5	
+R30	WORKPLACE Arg1:T4 Arg2:T6	
+R31	WORKPLACE Arg1:T8 Arg2:T55	
+T57	EVENT 472 480	отставки
+R32	ALTERNATIVE_NAME Arg1:T25 Arg2:T57	
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T57	
+R34	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R35	ALTERNATIVE_NAME Arg1:T57 Arg2:T49	
+R11	PRODUCES Arg1:T21 Arg2:T22	
+R36	PRODUCES Arg1:T20 Arg2:T22	
+R37	WORKPLACE Arg1:T29 Arg2:T56	
+R38	WORKPLACE Arg1:T33 Arg2:T56	
+R27	WORKPLACE Arg1:T28 Arg2:T56	
+R39	WORKPLACE Arg1:T46 Arg2:T47	
+R40	WORKPLACE Arg1:T48 Arg2:T47	
+T58	EVENT 41 47	уходит
+R41	AGENT Arg1:T54 Arg2:T58	
+R42	PARTICIPANT_IN Arg1:T3 Arg2:T58	
+R43	ALTERNATIVE_NAME Arg1:T58 Arg2:T25	
+R44	WORKPLACE Arg1:T23 Arg2:T20	
+R45	WORKPLACE Arg1:T28 Arg2:T20	
+T59	EVENT 1297 1304	покупки
+R46	AGENT Arg1:T39 Arg2:T59	
+R47	PARTICIPANT_IN Arg1:T44 Arg2:T59	
+R48	HEADQUARTERED_IN Arg1:T39 Arg2:T41	
+R49	POINT_IN_TIME Arg1:T59 Arg2:T40	
+R50	ALTERNATIVE_NAME Arg1:T4 Arg2:T46	
+R51	WORKPLACE Arg1:T52 Arg2:T16	
+R52	WORKPLACE Arg1:T18 Arg2:T16	
+N2	Reference T9 Wikidata:Q181162	Стив Балмер
+N3	Reference T11 Wikidata:Q5284	Билл Гейтс
+N5	Reference T22 Wikidata:Q1406	Microsoft Windows
+N6	Reference T23 Wikidata:Q2098467	Стивен Синофски
+N9	Reference T28 Wikidata:Q983111	Стивен Элоп
+N12	Reference T31 Wikidata:Q4079754	Бах, Робби
+N14	Reference T34 Wikidata:Q1056106	Джей Аллард
+N16	Reference T44 Wikidata:Q504453	Groovy
+N17	Reference T46 Wikidata:Q1548249	архитектор программного обеспечения
+N19	Reference T18 Wikidata:Q5482740	программист
+N20	Reference T37 Wikidata:Q484876	главный управляющий
+N21	Reference T42 Wikidata:Q2462658	менеджер
+N1	Reference T8 Wikidata:NULL	нет данных
+N22	Reference T51 Wikidata:NULL	нет данных
+N4	Reference T21 Wikidata:NULL	нет данных
+N18	Reference T50 Wikidata:Q5284	Билл Гейтс
+N15	Reference T35 Wikidata:Q30	США
+N13	Reference T33 Wikidata:Q2563977	
+N11	Reference T30 Wikidata:NULL	нет данных
+N23	Reference T56 Wikidata:Q2283	Майкрософт
+N10	Reference T29 Wikidata:NULL	нет данных
+N8	Reference T27 Wikidata:Q1255921	
+N7	Reference T26 Wikidata:Q92637	
+N24	Reference T14 Wikidata:Q181162	Стив Балмер
+N25	Reference T4 Wikidata:Q1548249	архитектор программного обеспечения
+N26	Reference T54 Wikidata:Q5482740	программист
+N27	Reference T17 Wikidata:Q30	США
+N28	Reference T5 Wikidata:Q30	США
+N29	Reference T41 Wikidata:Q30	США
+N30	Reference T24 Wikidata:Q30	США
+N31	Reference T16 Wikidata:Q2283	Майкрософт
+N32	Reference T36 Wikidata:Q2283	Майкрософт
+N33	Reference T47 Wikidata:Q2283	Майкрософт
+N34	Reference T20 Wikidata:Q2283	Майкрософт
+N35	Reference T39 Wikidata:Q2283	Майкрософт
+N36	Reference T55 Wikidata:Q2283	Майкрософт
+N37	Reference T6 Wikidata:Q2283	Майкрософт
+N38	Reference T3 Wikidata:Q2283	Майкрософт
+N39	Reference T15 Wikidata:Q92637	
+N40	Reference T10 Wikidata:Q92637	
+N41	Reference T7 Wikidata:Q92637	
+N42	Reference T13 Wikidata:Q92637	
+N43	Reference T38 Wikidata:Q92637	
+N44	Reference T48 Wikidata:Q92637	
+N45	Reference T19 Wikidata:Q92637	
+N46	Reference T43 Wikidata:Q92637	
+N47	Reference T52 Wikidata:Q92637	

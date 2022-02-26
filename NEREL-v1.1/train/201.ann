@@ -1,0 +1,218 @@
+T1	PROFESSION 0 17	Главой Bundesbank
+T2	PROFESSION 25 72	советник канцлера ФРС по экономическим вопросам
+T4	PERSON 73 82	Й.Вайдман
+T5	PERSON 91 104	Акселя Вебера
+T6	ORGANIZATION 112 122	Bundesbank
+T7	ORGANIZATION 124 130	ЦБ ФРГ
+T8	PROFESSION 139 165	советник канцлера Германии
+T9	PERSON 166 180	Ангелы Меркель
+T11	PERSON 207 219	Йенс Вайдман
+T12	ORGANIZATION 238 245	Reuters
+T14	PERSON 305 314	Й.Вайдман
+T15	DATE 363 377	в апреле 2011г
+T17	PERSON 386 393	А.Вебер
+T18	PROFESSION 407 419	главы ЦБ ФРГ
+T19	AGE 430 439	42-летний
+T21	PERSON 440 449	Й.Вайдман
+T23	ORGANIZATION 480 521	ведомстве федерального канцлера А.Меркель
+T24	PROFESSION 529 555	вице-президента Bundesbank
+T26	ORGANIZATION 577 629	Федерального управления финансового надзора Германии
+T28	COUNTRY 621 629	Германии
+T29	PERSON 630 649	Сабина Лаутеншлегер
+T30	CITY 686 693	Берлине
+T31	DATE 706 722	11 февраля 2011г
+T32	COUNTRY 763 771	Германии
+T33	PERSON 772 786	Штефан Зайберт
+T34	PERSON 816 824	А.Вебера
+T35	PROFESSION 827 839	канцлера ФРГ
+T37	PERSON 840 849	А.Меркель
+T38	PROFESSION 864 880	глава Bundesbank
+T40	PERSON 881 888	А.Вебер
+T41	DATE 907 922	30 апреля 2011г
+T43	PERSON 934 944	Ш.Зайберта
+T45	PERSON 946 953	А.Вебер
+T47	PERSON 1029 1036	А.Вебер
+T48	PROFESSION 1093 1123	главы Европейского центробанка
+T49	ORGANIZATION 1099 1123	Европейского центробанка
+T50	ORGANIZATION 1125 1128	ЕЦБ
+T51	DATE 1146 1160	в ноябре 2011г
+T52	PROFESSION 1192 1210	председателя банка
+T53	PERSON 1211 1226	Жан-Клода Трише
+T55	PERSON 1277 1284	А.Вебер
+T56	PROFESSION 1310 1319	главы ЕЦБ
+T57	PROFESSION 1332 1344	главы ЦБ ФРГ
+T58	COUNTRY 1341 1344	ФРГ
+T59	PERSON 1364 1374	Ж.-К.Трише
+T61	PERSON 1430 1438	А.Вебера
+T62	ORGANIZATION 7 17	Bundesbank
+T63	PROFESSION 34 46	канцлера ФРС
+T3	COUNTRY 127 130	ФРГ
+T64	PROFESSION 148 165	канцлера Германии
+T10	ORGANIZATION 413 419	ЦБ ФРГ
+T13	COUNTRY 416 419	ФРГ
+T16	ORGANIZATION 460 521	отделом экономики в ведомстве федерального канцлера А.Меркель
+T20	PERSON 512 521	А.Меркель
+T22	ORGANIZATION 545 555	Bundesbank
+T25	COUNTRY 836 839	ФРГ
+T27	ORGANIZATION 870 880	Bundesbank
+T36	LOCATION 1099 1111	Европейского
+T39	ORGANIZATION 1316 1319	ЕЦБ
+T42	ORGANIZATION 1338 1344	ЦБ ФРГ
+R1	WORKS_AS Arg1:T4 Arg2:T2	
+R2	SUBORDINATE_OF Arg1:T4 Arg2:T63	
+R3	ABBREVIATION Arg1:T6 Arg2:T7	
+T44	PROFESSION 105 122	главой Bundesbank
+R4	WORKS_AS Arg1:T5 Arg2:T44	
+R5	WORKPLACE Arg1:T5 Arg2:T6	
+T46	COUNTRY 157 165	Германии
+R6	WORKS_AS Arg1:T9 Arg2:T64	
+R7	ALTERNATIVE_NAME Arg1:T4 Arg2:T11	
+R8	WORKPLACE Arg1:T9 Arg2:T46	
+R9	SUBORDINATE_OF Arg1:T11 Arg2:T9	
+T54	EVENT 394 406	покинет пост
+R10	AGENT Arg1:T17 Arg2:T54	
+R11	WORKS_AS Arg1:T17 Arg2:T18	
+R12	WORKPLACE Arg1:T17 Arg2:T10	
+R13	POINT_IN_TIME Arg1:T54 Arg2:T15	
+R15	AGE_IS Arg1:T21 Arg2:T19	
+R16	WORKPLACE Arg1:T21 Arg2:T16	
+R17	WORKPLACE Arg1:T29 Arg2:T26	
+T60	PROFESSION 529 544	вице-президента
+T65	EVENT 889 906	покинет свой пост
+R18	WORKS_AS Arg1:T40 Arg2:T38	
+R19	WORKPLACE Arg1:T40 Arg2:T27	
+R20	AGENT Arg1:T40 Arg2:T65	
+R21	POINT_IN_TIME Arg1:T65 Arg2:T41	
+T66	EVENT 808 815	встречи
+R22	AGENT Arg1:T34 Arg2:T66	
+R23	WORKS_AS Arg1:T37 Arg2:T35	
+R24	WORKPLACE Arg1:T37 Arg2:T25	
+R25	WORKPLACE Arg1:T33 Arg2:T32	
+R26	POINT_IN_TIME Arg1:T66 Arg2:T31	
+R27	KNOWS Arg1:T34 Arg2:T37	
+R28	ALTERNATIVE_NAME Arg1:T33 Arg2:T43	
+R29	ABBREVIATION Arg1:T49 Arg2:T50	
+R30	WORKS_AS Arg1:T53 Arg2:T52	
+R31	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+R32	WORKPLACE Arg1:T53 Arg2:T49	
+R14	ALTERNATIVE_NAME Arg1:T9 Arg2:T20	
+R33	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R34	ALTERNATIVE_NAME Arg1:T13 Arg2:T28	
+R35	LOCATED_IN Arg1:T30 Arg2:T28	
+R36	ABBREVIATION Arg1:T49 Arg2:T39	
+R37	ALTERNATIVE_NAME Arg1:T48 Arg2:T56	
+T67	ORGANIZATION 577 620	Федерального управления финансового надзора
+T68	PROFESSION 34 42	канцлера
+T70	ORGANIZATION 124 126	ЦБ
+T72	PROFESSION 148 156	канцлера
+T73	ORGANIZATION 413 415	ЦБ
+T74	PROFESSION 490 511	федерального канцлера
+T75	PROFESSION 503 511	канцлера
+R38	WORKS_AS Arg1:T20 Arg2:T74	
+T76	PROFESSION 827 835	канцлера
+T77	ORGANIZATION 1338 1340	ЦБ
+R39	WORKPLACE Arg1:T1 Arg2:T62	
+T78	COUNTRY 43 46	ФРС
+R40	WORKPLACE Arg1:T63 Arg2:T78	
+R41	SUBORDINATE_OF Arg1:T2 Arg2:T63	
+R42	WORKPLACE Arg1:T44 Arg2:T6	
+R43	HEADQUARTERED_IN Arg1:T7 Arg2:T3	
+R44	WORKPLACE Arg1:T8 Arg2:T46	
+R45	SUBORDINATE_OF Arg1:T8 Arg2:T64	
+R46	HEADQUARTERED_IN Arg1:T10 Arg2:T13	
+R47	WORKPLACE Arg1:T18 Arg2:T10	
+R48	SUBORDINATE_OF Arg1:T21 Arg2:T20	
+R49	WORKPLACE Arg1:T24 Arg2:T22	
+R50	HEADQUARTERED_IN Arg1:T26 Arg2:T28	
+R51	WORKPLACE Arg1:T35 Arg2:T25	
+R52	WORKPLACE Arg1:T38 Arg2:T27	
+T79	EVENT 954 977	оставляет эту должность
+R53	AGENT Arg1:T45 Arg2:T79	
+R54	ALTERNATIVE_NAME Arg1:T65 Arg2:T79	
+R55	HEADQUARTERED_IN Arg1:T49 Arg2:T36	
+T80	ORGANIZATION 1112 1123	центробанка
+R56	WORKPLACE Arg1:T48 Arg2:T49	
+R57	WORKPLACE Arg1:T56 Arg2:T39	
+R58	WORKPLACE Arg1:T57 Arg2:T42	
+R59	HEADQUARTERED_IN Arg1:T42 Arg2:T58	
+R60	WORKS_AS Arg1:T4 Arg2:T1	
+R61	WORKPLACE Arg1:T4 Arg2:T62	
+R63	WORKS_AS Arg1:T11 Arg2:T44	
+R62	WORKPLACE Arg1:T11 Arg2:T6	
+R64	PARTICIPANT_IN Arg1:T10 Arg2:T54	
+R65	ALTERNATIVE_NAME Arg1:T5 Arg2:T17	
+R66	FOUNDED_BY Arg1:T23 Arg2:T20	
+R67	WORKS_AS Arg1:T29 Arg2:T24	
+R68	WORKPLACE Arg1:T29 Arg2:T22	
+R69	AGENT Arg1:T37 Arg2:T66	
+R70	ALTERNATIVE_NAME Arg1:T53 Arg2:T59	
+R71	ALTERNATIVE_NAME Arg1:T55 Arg2:T61	
+N1	Reference T1 Wikidata:Q162222	Немецкий федеральный банк
+N3	Reference T5 Wikidata:Q64689	Аксель Вебер
+N5	Reference T11 Wikidata:Q693829	Йенс Вайдман
+N6	Reference T12 Wikidata:Q130879	Рейтер
+N8	Reference T23 Wikidata:Q317027	Ведомство федерального канцлера (Берлин)
+N10	Reference T26 Wikidata:Q314211	Федеральное управление финансового надзора Германии
+N11	Reference T29 Wikidata:Q928336	Сабин
+N13	Reference T35 Wikidata:Q4970706	федеральный канцлер Германии
+N14	Reference T37 Wikidata:Q20032001	Доходный дом А. Я. Меркеля
+N16	Reference T45 Wikidata:Q76514	Альфред Вебер
+N18	Reference T53 Wikidata:Q152905	Трише, Жан-Клод
+N20	Reference T58 Wikidata:Q183	Германия
+N27	Reference T67 Wikidata:Q314211	Федеральное управление финансового надзора Германии
+N28	Reference T68 Wikidata:Q373085	канцлер
+N32	Reference T64 Wikidata:Q56022	
+N29	Reference T73 Wikidata:Q66344	центральный банк
+N30	Reference T78 Wikidata:Q183	Германия
+N2	Reference T2 Wikidata:NULL	нет данных
+N25	Reference T44 Wikidata:NULL	нет данных
+N4	Reference T8 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N22	Reference T16 Wikidata:NULL	нет данных
+N26	Reference T60 Wikidata:Q42178	вице-президент
+N9	Reference T24 Wikidata:NULL	нет данных
+N12	Reference T30 Wikidata:Q64	Берлин
+N33	Reference T74 Wikidata:Q4970706	федеральный канцлер Германии
+N21	Reference T63 Wikidata:Q4970706	федеральный канцлер Германии
+N15	Reference T43 Wikidata:Q111189	
+N31	Reference T80 Wikidata:Q66344	центральный банк
+N24	Reference T42 Wikidata:Q162222	Немецкий федеральный банк
+N19	Reference T56 Wikidata:Q605440	
+N17	Reference T49 Wikidata:Q8901	Европейский центральный банк
+N23	Reference T36 Wikidata:Q46	Европа
+N34	Reference T38 Wikidata:Q162222	Немецкий федеральный банк
+N35	Reference T17 Wikidata:Q64689	Аксель Вебер
+N36	Reference T4 Wikidata:Q693829	Йенс Вайдман
+N37	Reference T21 Wikidata:Q693829	Йенс Вайдман
+N38	Reference T14 Wikidata:Q693829	Йенс Вайдман
+N39	Reference T20 Wikidata:Q20032001	Доходный дом А. Я. Меркеля
+N40	Reference T9 Wikidata:Q20032001	Доходный дом А. Я. Меркеля
+N41	Reference T40 Wikidata:Q76514	Альфред Вебер
+N42	Reference T61 Wikidata:Q76514	Альфред Вебер
+N43	Reference T47 Wikidata:Q76514	Альфред Вебер
+N44	Reference T34 Wikidata:Q76514	Альфред Вебер
+N45	Reference T55 Wikidata:Q76514	Альфред Вебер
+N46	Reference T59 Wikidata:Q152905	Трише, Жан-Клод
+N47	Reference T28 Wikidata:Q183	Германия
+N48	Reference T46 Wikidata:Q183	Германия
+N49	Reference T13 Wikidata:Q183	Германия
+N50	Reference T32 Wikidata:Q183	Германия
+N51	Reference T25 Wikidata:Q183	Германия
+N52	Reference T3 Wikidata:Q183	Германия
+N53	Reference T72 Wikidata:Q373085	канцлер
+N54	Reference T75 Wikidata:Q373085	канцлер
+N55	Reference T76 Wikidata:Q373085	канцлер
+N56	Reference T70 Wikidata:Q66344	центральный банк
+N57	Reference T77 Wikidata:Q66344	центральный банк
+N58	Reference T57 Wikidata:NULL	нет данных
+N59	Reference T33 Wikidata:Q111189	
+N60	Reference T62 Wikidata:Q162222	Немецкий федеральный банк
+N61	Reference T10 Wikidata:Q162222	Немецкий федеральный банк
+N62	Reference T7 Wikidata:Q162222	Немецкий федеральный банк
+N63	Reference T27 Wikidata:Q162222	Немецкий федеральный банк
+N64	Reference T22 Wikidata:Q162222	Немецкий федеральный банк
+N65	Reference T6 Wikidata:Q162222	Немецкий федеральный банк
+N66	Reference T52 Wikidata:Q605440	
+N67	Reference T48 Wikidata:Q605440	
+N68	Reference T39 Wikidata:Q8901	Европейский центральный банк
+N69	Reference T50 Wikidata:Q8901	Европейский центральный банк

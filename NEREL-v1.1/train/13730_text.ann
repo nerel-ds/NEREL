@@ -1,0 +1,165 @@
+T1	PROFESSION 0 9	Глава МВФ
+T2	CITY 22 31	Нью-Йорке
+T3	PERSON 33 51	Доминик Стросс-Кан
+T4	PROFESSION 54 93	директор Международного валютного фонда
+T5	ORGANIZATION 114 127	New York Post
+T6	ORGANIZATION 129 143	New York Times
+T7	COUNTRY 153 165	американских
+T8	PROFESSION 181 207	глава Международного фонда
+T9	PERSON 208 226	Доминик Стросс-Кан
+T10	CITY 239 248	Нью-Йорке
+T11	AGE 293 303	62-летнего
+T12	PERSON 304 315	Стросс-Кана
+T13	ORGANIZATION 360 370	Air France
+T14	CITY 373 385	нью-йоркском
+T15	PERSON 396 403	Кеннеди
+T16	TIME 404 417	за две минуты
+T17	CITY 438 443	Париж
+T18	PROFESSION 452 461	глава МВФ
+T19	DATE 530 539	в субботу
+T20	PERSON 594 604	Стросс-Кан
+T21	PERSON 866 877	Стросс-Кана
+T22	PROFESSION 880 898	канцлером Германии
+T23	PERSON 899 914	Ангелой Меркель
+T24	DATE 931 942	воскресенье
+T25	PERSON 945 963	Доминик Стросс-Кан
+T26	ORGANIZATION 971 1002	Социалистической партии Франции
+T27	COUNTRY 1043 1055	французского
+T28	PROFESSION 1056 1066	президента
+T29	PERSON 1067 1081	Николя Саркози
+T30	DATE 1097 1108	в 2012 году
+T31	COUNTRY 1129 1140	французские
+T32	PERSON 1161 1168	Саркози
+T33	PERSON 1216 1227	Стросс-Кана
+T34	PERSON 1314 1324	Стросс-Кан
+T35	PERSON 1369 1380	Барак Обама
+T36	PERSON 1389 1407	Доминик Стросс-Кан
+T37	DATE 1483 1494	в 2007 году
+T38	ORGANIZATION 1564 1592	Международном валютном фонде
+T39	PROFESSION 1606 1617	глава фонда
+T40	PERSON 1637 1648	Энн Синклер
+T41	NATIONALITY 1661 1672	французский
+T42	PROFESSION 1673 1696	телевизионный журналист
+T43	PROFESSION 1141 1151	политологи
+T44	EVENT 1109 1116	выборах
+T45	COUNTRY 995 1002	Франции
+T46	IDEOLOGY 971 987	Социалистической
+T47	COUNTRY 890 898	Германии
+T48	PROFESSION 703 712	горничную
+T49	TIME 530 553	в субботу около полудня
+T50	PROFESSION 613 622	горничная
+T51	ORGANIZATION 458 461	МВФ
+T52	EVENT 316 326	арестовали
+T53	EVENT 833 839	ареста
+T54	FACILITY 386 403	аэропорту Кеннеди
+T55	ORGANIZATION 187 207	Международного фонда
+T56	EVENT 227 236	арестован
+T57	CRIME 265 291	сексуальном домогательстве
+T58	ORGANIZATION 63 93	Международного валютного фонда
+T59	ORGANIZATION 6 9	МВФ
+T60	EVENT 10 19	арестован
+R1	WORKPLACE Arg1:T1 Arg2:T59	
+R2	PARTICIPANT_IN Arg1:T59 Arg2:T60	
+R3	TAKES_PLACE_IN Arg1:T60 Arg2:T2	
+R4	WORKS_AS Arg1:T3 Arg2:T4	
+R5	WORKPLACE Arg1:T4 Arg2:T58	
+R6	WORKPLACE Arg1:T3 Arg2:T58	
+T61	CITY 114 122	New York
+R7	HEADQUARTERED_IN Arg1:T5 Arg2:T61	
+T62	CITY 129 137	New York
+R8	HEADQUARTERED_IN Arg1:T6 Arg2:T62	
+R9	WORKS_AS Arg1:T9 Arg2:T8	
+R10	WORKPLACE Arg1:T8 Arg2:T55	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T56	
+R12	TAKES_PLACE_IN Arg1:T56 Arg2:T10	
+R13	CONVICTED_OF Arg1:T9 Arg2:T57	
+R14	HAS_CAUSE Arg1:T56 Arg2:T57	
+R15	LOCATED_IN Arg1:T54 Arg2:T14	
+R16	ALTERNATIVE_NAME Arg1:T14 Arg2:T10	
+R17	WORKPLACE Arg1:T18 Arg2:T51	
+R18	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R19	AGE_IS Arg1:T12 Arg2:T11	
+T63	PROFESSION 880 889	канцлером
+R20	WORKPLACE Arg1:T22 Arg2:T47	
+R21	WORKPLACE Arg1:T23 Arg2:T47	
+R22	WORKS_AS Arg1:T23 Arg2:T22	
+R23	LOCATED_IN Arg1:T62 Arg2:T7	
+R24	PARTICIPANT_IN Arg1:T12 Arg2:T52	
+T64	FACILITY 351 370	самолета Air France
+R25	TAKES_PLACE_IN Arg1:T52 Arg2:T64	
+R26	LOCATED_IN Arg1:T64 Arg2:T54	
+R27	POINT_IN_TIME Arg1:T52 Arg2:T16	
+R28	WORKS_AS Arg1:T12 Arg2:T18	
+T65	PROFESSION 1043 1066	французского президента
+R29	WORKS_AS Arg1:T29 Arg2:T65	
+R30	WORKPLACE Arg1:T29 Arg2:T27	
+R31	WORKPLACE Arg1:T65 Arg2:T27	
+R32	POINT_IN_TIME Arg1:T44 Arg2:T30	
+R33	IDEOLOGY_OF Arg1:T26 Arg2:T46	
+R34	HEADQUARTERED_IN Arg1:T26 Arg2:T45	
+T66	ORGANIZATION 971 994	Социалистической партии
+R35	IDEOLOGY_OF Arg1:T25 Arg2:T46	
+R36	MEMBER_OF Arg1:T25 Arg2:T26	
+R37	ABBREVIATION Arg1:T29 Arg2:T32	
+R38	WORKS_AS Arg1:T36 Arg2:T39	
+R39	SPOUSE Arg1:T36 Arg2:T40	
+T67	PROFESSION 1687 1696	журналист
+R40	WORKS_AS Arg1:T40 Arg2:T42	
+R41	ORIGINS_FROM Arg1:T42 Arg2:T41	
+R42	ORIGINS_FROM Arg1:T40 Arg2:T41	
+R43	ORIGINS_FROM Arg1:T43 Arg2:T31	
+R44	PARTICIPANT_IN Arg1:T21 Arg2:T53	
+R45	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+N1	Reference T5 Wikidata:Q211374	New York Post
+N2	Reference T6 Wikidata:Q9684	The New York Times
+N5	Reference T9 Wikidata:Q385437	Доминик Стросс-Кан
+N7	Reference T13 Wikidata:Q131005	Air France
+N9	Reference T17 Wikidata:Q90	Париж
+N11	Reference T23 Wikidata:Q567	Ангела Меркель
+N12	Reference T26 Wikidata:Q170972	Социалистическая партия
+N14	Reference T28 Wikidata:Q30461	президент
+N15	Reference T29 Wikidata:Q329	Николя Саркози
+N16	Reference T35 Wikidata:Q76	Барак Обама
+N21	Reference T43 Wikidata:Q1238570	политолог
+N22	Reference T45 Wikidata:Q142	Франция
+N23	Reference T47 Wikidata:Q183	Германия
+N25	Reference T51 Wikidata:Q7804	Международный валютный фонд
+N26	Reference T54 Wikidata:Q8685	Международный аэропорт имени Джона Кеннеди
+N27	Reference T55 Wikidata:Q7804	Международный валютный фонд
+N28	Reference T58 Wikidata:Q7804	Международный валютный фонд
+N30	Reference T63 Wikidata:Q373085	канцлер
+N32	Reference T65 Wikidata:Q191954	президент Франции
+N34	Reference T67 Wikidata:Q1930187	журналист
+N29	Reference T62 Wikidata:Q60	Нью-Йорк
+N3	Reference T7 Wikidata:Q30	США
+N4	Reference T8 Wikidata:NULL	нет данных
+N6	Reference T10 Wikidata:Q60	Нью-Йорк
+N31	Reference T64 Wikidata:NULL	нет данных
+N8	Reference T15 Wikidata:Q9696	Джон Фицджеральд Кеннеди
+N10	Reference T18 Wikidata:NULL	нет данных
+N24	Reference T48 Wikidata:Q833860	горничная
+N36	Reference T22 Wikidata:Q56022	
+N33	Reference T66 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:Q142	Франция
+N17	Reference T39 Wikidata:NULL	нет данных
+N18	Reference T40 Wikidata:Q291731	
+N20	Reference T42 Wikidata:NULL	нет данных
+N35	Reference T4 Wikidata:Q20054152	
+N19	Reference T41 Wikidata:Q121842	французы
+N37	Reference T20 Wikidata:Q385437	Доминик Стросс-Кан
+N38	Reference T12 Wikidata:Q385437	Доминик Стросс-Кан
+N39	Reference T25 Wikidata:Q385437	Доминик Стросс-Кан
+N40	Reference T34 Wikidata:Q385437	Доминик Стросс-Кан
+N41	Reference T33 Wikidata:Q385437	Доминик Стросс-Кан
+N42	Reference T3 Wikidata:Q385437	Доминик Стросс-Кан
+N43	Reference T36 Wikidata:Q385437	Доминик Стросс-Кан
+N44	Reference T21 Wikidata:Q385437	Доминик Стросс-Кан
+N45	Reference T32 Wikidata:Q329	Николя Саркози
+N46	Reference T59 Wikidata:Q7804	Международный валютный фонд
+N47	Reference T38 Wikidata:Q7804	Международный валютный фонд
+N48	Reference T61 Wikidata:Q60	Нью-Йорк
+N49	Reference T2 Wikidata:Q60	Нью-Йорк
+N50	Reference T14 Wikidata:Q60	Нью-Йорк
+N51	Reference T1 Wikidata:NULL	нет данных
+N52	Reference T50 Wikidata:Q833860	горничная
+N53	Reference T31 Wikidata:Q142	Франция

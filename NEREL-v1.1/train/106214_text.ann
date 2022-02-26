@@ -1,0 +1,136 @@
+T1	PROFESSION 0 12	Топ-менеджер
+T2	ORGANIZATION 14 22	Газпрома
+T3	PROFESSION 29 46	премьер-министром
+T4	COUNTRY 60 67	Армении
+T5	PROFESSION 68 80	Топ-менеджер
+T6	ORGANIZATION 82 90	Газпрома
+T7	PERSON 92 107	Карен Карапетян
+T8	PROFESSION 123 148	премьер-министром Армении
+T9	DATE 173 207	во вторник — 13 сентября 2016 года
+T10	DATE 210 223	спустя неделю
+T11	PERSON 273 286	Овик Абраамян
+T12	DATE 304 314	8 сентября
+T13	COUNTRY 426 435	армянское
+T14	STATE_OR_PROVINCE 538 555	Нагорном Карабахе
+T15	COUNTRY 576 588	Азербайджана
+T16	DATE 594 602	в апреле
+T17	COUNTRY 668 675	Армения
+T18	COUNTRY 679 695	азербайджанскими
+T19	AGE 718 727	52-летний
+T20	ORGANIZATION 765 778	АрмРосГазпром
+T21	DATE 783 800	в 2010—2011 годах
+T22	PROFESSION 805 810	мэром
+T23	PROFESSION 849 866	премьер-министром
+T25	ORGANIZATION 931 943	Межрегионгаз
+T26	COUNTRY 1011 1022	российского
+T27	ORGANIZATION 1042 1049	Газпром
+T28	DATE 1053 1067	В будущем году
+T29	COUNTRY 1070 1077	Армении
+T30	EVENT 1086 1106	парламентские выборы
+T31	PROFESSION 1124 1134	президента
+T32	DATE 1161 1172	в 2018 году
+T33	COUNTRY 47 54	Армении
+T34	PROFESSION 29 54	премьер-министром Армении
+T35	EVENT 108 116	назначен
+T36	PROFESSION 123 140	премьер-министром
+T37	COUNTRY 141 148	Армении
+T38	EVENT 242 250	отставки
+T39	EVENT 287 303	подал в отставку
+T40	IDEOLOGY 632 645	сепаратистами
+T41	ORGANIZATION 679 715	азербайджанскими силами безопасности
+T42	ORGANIZATION 426 449	армянское правительство
+T43	PERSON 728 737	Карапетян
+T44	CITY 811 818	Еревана
+T45	PROFESSION 805 818	мэром Еревана
+T46	PERSON 867 876	Карапетян
+T48	PERSON 1135 1149	Сержа Саргсяна
+T49	PROFESSION 0 22	Топ-менеджер «Газпрома
+R1	WORKPLACE Arg1:T49 Arg2:T2	
+R2	WORKPLACE Arg1:T34 Arg2:T33	
+T50	PROFESSION 68 90	Топ-менеджер «Газпрома
+R3	WORKPLACE Arg1:T50 Arg2:T6	
+R4	WORKS_AS Arg1:T7 Arg2:T50	
+R5	WORKPLACE Arg1:T7 Arg2:T6	
+R6	PARTICIPANT_IN Arg1:T7 Arg2:T35	
+R7	TAKES_PLACE_IN Arg1:T35 Arg2:T37	
+R8	POINT_IN_TIME Arg1:T35 Arg2:T9	
+R9	AGENT Arg1:T11 Arg2:T39	
+R10	POINT_IN_TIME Arg1:T39 Arg2:T12	
+T51	ORGANIZATION 436 449	правительство
+R11	ALTERNATIVE_NAME Arg1:T37 Arg2:T13	
+R12	HEADQUARTERED_IN Arg1:T42 Arg2:T13	
+T52	EVENT 516 535	эскалация конфликта
+R13	TAKES_PLACE_IN Arg1:T52 Arg2:T14	
+R14	WORKS_AS Arg1:T48 Arg2:T31	
+R15	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+R16	POINT_IN_TIME Arg1:T30 Arg2:T28	
+R17	WORKS_AS Arg1:T46 Arg2:T23	
+T24	PROFESSION 885 943	заместителем генерального директора холдинга «Межрегионгаз
+T47	PROFESSION 898 943	генерального директора холдинга «Межрегионгаз
+T53	PROFESSION 898 920	генерального директора
+T54	PROFESSION 885 920	заместителем генерального директора
+R18	WORKPLACE Arg1:T24 Arg2:T25	
+R19	WORKPLACE Arg1:T47 Arg2:T25	
+R20	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R21	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+R22	OWNER_OF Arg1:T27 Arg2:T25	
+R23	WORKS_AS Arg1:T46 Arg2:T24	
+R24	SUBORDINATE_OF Arg1:T46 Arg2:T47	
+T55	EVENT 613 625	столкновения
+R25	HEADQUARTERED_IN Arg1:T41 Arg2:T18	
+R26	ALTERNATIVE_NAME Arg1:T18 Arg2:T15	
+R27	PARTICIPANT_IN Arg1:T40 Arg2:T55	
+R28	PARTICIPANT_IN Arg1:T41 Arg2:T55	
+R29	ALTERNATIVE_NAME Arg1:T52 Arg2:T55	
+R30	POINT_IN_TIME Arg1:T55 Arg2:T16	
+R31	TAKES_PLACE_IN Arg1:T55 Arg2:T14	
+R32	LOCATED_IN Arg1:T14 Arg2:T15	
+R33	AGE_IS Arg1:T43 Arg2:T19	
+R34	WORKPLACE Arg1:T43 Arg2:T20	
+R35	WORKS_AS Arg1:T43 Arg2:T45	
+R36	WORKPLACE Arg1:T43 Arg2:T44	
+R37	WORKPLACE Arg1:T45 Arg2:T44	
+R38	WORKPLACE Arg1:T8 Arg2:T37	
+R39	WORKS_AS Arg1:T11 Arg2:T8	
+R40	WORKPLACE Arg1:T11 Arg2:T37	
+R41	WORKPLACE Arg1:T48 Arg2:T29	
+N1	Reference T3 Wikidata:Q14212	премьер-министр
+N4	Reference T11 Wikidata:Q2633067	Овик Аргамович Абраамян
+N6	Reference T14 Wikidata:Q244165	Нагорно-Карабахская Республика
+N7	Reference T18 Wikidata:Q227	Азербайджан
+N8	Reference T20 Wikidata:Q688936	Газпром Армения
+N9	Reference T22 Wikidata:Q30185	мэр
+N10	Reference T25 Wikidata:Q4131788	Газпром межрегионгаз
+N12	Reference T27 Wikidata:Q102673	Газпром
+N13	Reference T31 Wikidata:Q30461	президент
+N16	Reference T44 Wikidata:Q1953	Ереван
+N17	Reference T45 Wikidata:Q1976028	мэр Еревана
+N19	Reference T48 Wikidata:Q612803	Серж Азатович Саргсян
+N21	Reference T51 Wikidata:Q7188	правительство
+N24	Reference T53 Wikidata:Q1501800	генеральный директор
+N20	Reference T49 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:Q1979923	Карен Вильгельмович Карапетян
+N26	Reference T8 Wikidata:Q1123764	
+N5	Reference T13 Wikidata:Q399	Армения
+N15	Reference T42 Wikidata:Q1341710	
+N14	Reference T41 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:Q1979923	Карапетян, Самвел Саркисович
+N23	Reference T47 Wikidata:NULL	нет данных
+N25	Reference T54 Wikidata:NULL	нет данных
+N22	Reference T24 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:Q159	Россия
+N27	Reference T36 Wikidata:Q14212	премьер-министр
+N28	Reference T23 Wikidata:Q14212	премьер-министр
+N29	Reference T15 Wikidata:Q227	Азербайджан
+N30	Reference T6 Wikidata:Q102673	Газпром
+N31	Reference T2 Wikidata:Q102673	Газпром
+N32	Reference T50 Wikidata:NULL	нет данных
+N33	Reference T1 Wikidata:NULL	нет данных
+N34	Reference T34 Wikidata:Q1123764	
+N35	Reference T17 Wikidata:Q399	Армения
+N36	Reference T4 Wikidata:Q399	Армения
+N37	Reference T33 Wikidata:Q399	Армения
+N38	Reference T29 Wikidata:Q399	Армения
+N39	Reference T37 Wikidata:Q399	Армения
+N40	Reference T43 Wikidata:Q1979923	Карапетян, Самвел Саркисович

@@ -1,0 +1,125 @@
+T1	ORGANIZATION 2 9	Госдуме
+T2	COUNTRY 10 12	РФ
+T5	ORGANIZATION 70 77	Госдума
+T6	COUNTRY 78 80	РФ
+T7	ORDINAL 98 104	втором
+T8	ORDINAL 107 114	третьем
+T9	MONEY 212 233	до 5 миллионов рублей
+T10	LAW 272 291	законопроект об НКО
+T11	ORGANIZATION 407 421	Единой Россией
+T12	LAW 478 495	закону о митингах
+T13	ORGANIZATION 530 541	единороссов
+T14	ORGANIZATION 613 620	Госдуме
+T15	ORGANIZATION 630 634	КПРФ
+T16	PROFESSION 690 697	депутат
+T17	ORGANIZATION 702 721	Справедливой России
+T18	PERSON 723 737	Илья Пономарев
+T19	ORGANIZATION 779 792	Единую Россию
+T20	PERSON 834 852	Алексея Навального
+T21	PROFESSION 956 962	спикер
+T22	ORGANIZATION 963 970	Госдумы
+T23	PERSON 971 986	Сергей Нарышкин
+T24	PERSON 1025 1035	Пономарева
+T26	ORGANIZATION 1049 1074	думской комиссии по этике
+T28	ORGANIZATION 1082 1086	ЛДПР
+T29	PERSON 1087 1107	Владимир Жириновский
+T30	PERSON 1126 1136	Пономарева
+T31	PROFESSION 1148 1155	депутат
+T32	PERSON 1166 1184	Александр Хинштейн
+T33	PERSON 1331 1346	Сергей Нарышкин
+T3	DATE 52 69	В пятницу 13 июля
+T4	ORGANIZATION 2 12	Госдуме РФ
+T34	EVENT 81 94	проголосовала
+T35	ORGANIZATION 70 80	Госдума РФ
+T37	LAW 24 37	законы об НКО
+T38	LAW 24 30;40 49	законы о клевете
+T39	EVENT 261 269	одобрили
+T40	PROFESSION 235 247	Законодатели
+T41	CRIME 151 173	уголовных преступлений
+T42	EVENT 652 670	покинула заседание
+T43	PROFESSION 956 970	спикер Госдумы
+T27	ORGANIZATION 1156 1165	единоросс
+T25	EVENT 1039 1048	заседании
+T44	ORGANIZATION 1309 1319	парламенте
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T2	
+R3	PRODUCES Arg1:T4 Arg2:T37	
+R4	PRODUCES Arg1:T4 Arg2:T38	
+R5	HEADQUARTERED_IN Arg1:T35 Arg2:T6	
+R6	POINT_IN_TIME Arg1:T34 Arg2:T3	
+R7	AGENT Arg1:T35 Arg2:T34	
+T45	PENALTY 184 233	денежными штрафами на сумму до 5 миллионов рублей
+R8	PARTICIPANT_IN Arg1:T40 Arg2:T39	
+R10	PRODUCES Arg1:T11 Arg2:T10	
+R9	PRODUCES Arg1:T11 Arg2:T38	
+R11	PRODUCES Arg1:T11 Arg2:T12	
+T46	ORGANIZATION 622 634	фракция КПРФ
+R12	PARTICIPANT_IN Arg1:T46 Arg2:T42	
+R13	WORKPLACE Arg1:T16 Arg2:T17	
+R14	MEMBER_OF Arg1:T18 Arg2:T17	
+R15	WORKS_AS Arg1:T18 Arg2:T16	
+R16	WORKPLACE Arg1:T43 Arg2:T22	
+R17	WORKPLACE Arg1:T23 Arg2:T22	
+R18	WORKS_AS Arg1:T23 Arg2:T43	
+R19	ALTERNATIVE_NAME Arg1:T18 Arg2:T24	
+T47	PROFESSION 1076 1086	глава ЛДПР
+R20	WORKPLACE Arg1:T47 Arg2:T28	
+R21	WORKS_AS Arg1:T29 Arg2:T47	
+R22	WORKPLACE Arg1:T29 Arg2:T28	
+R23	ORGANIZES Arg1:T26 Arg2:T25	
+R24	WORKS_AS Arg1:T32 Arg2:T31	
+R25	MEMBER_OF Arg1:T32 Arg2:T27	
+R26	WORKPLACE Arg1:T33 Arg2:T44	
+T36	EVENT 13 30	утверждены законы
+R2	PARTICIPANT_IN Arg1:T4 Arg2:T36	
+T48	CRIME 134 141	клеветы
+R27	FOUNDED_BY Arg1:T46 Arg2:T15	
+R28	PART_OF Arg1:T46 Arg2:T14	
+T49	ORGANIZATION 1049 1056	думской
+R29	PART_OF Arg1:T26 Arg2:T49	
+R30	ALTERNATIVE_NAME Arg1:T49 Arg2:T22	
+T50	PENALTY 184 202	денежными штрафами
+R31	TAKES_PLACE_IN Arg1:T42 Arg2:T14	
+R32	INANIMATE_INVOLVED Arg1:T37 Arg2:T36	
+R33	INANIMATE_INVOLVED Arg1:T38 Arg2:T36	
+R34	HAS_CAUSE Arg1:T45 Arg2:T48	
+R35	ALTERNATIVE_NAME Arg1:T35 Arg2:T40	
+R36	INANIMATE_INVOLVED Arg1:T10 Arg2:T39	
+R37	INANIMATE_INVOLVED Arg1:T38 Arg2:T34	
+R38	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+N1	Reference T5 Wikidata:Q715641	Государственная дума
+N2	Reference T6 Wikidata:Q159	Россия
+N4	Reference T11 Wikidata:Q151469	Единая Россия
+N6	Reference T15 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N7	Reference T16 Wikidata:Q486839	член парламента
+N8	Reference T17 Wikidata:Q210692	Справедливая Россия
+N9	Reference T18 Wikidata:Q4371978	Илья Владимирович Пономарёв
+N10	Reference T20 Wikidata:Q155979	Алексей Анатольевич Навальный
+N13	Reference T28 Wikidata:Q212115	ЛДПР
+N14	Reference T29 Wikidata:Q200015	Владимир Вольфович Жириновский
+N15	Reference T32 Wikidata:Q4497838	Александр Евсеевич Хинштейн
+N16	Reference T33 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N17	Reference T35 Wikidata:Q715641	Государственная дума
+N20	Reference T40 Wikidata:Q486839	член парламента
+N21	Reference T43 Wikidata:Q4376663	председатель Государственной думы
+N22	Reference T44 Wikidata:Q35749	парламент
+N19	Reference T38 Wikidata:NULL	нет данных
+N18	Reference T37 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T12 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:NULL	нет данных
+N11	Reference T21 Wikidata:Q1758037	спикер
+N12	Reference T26 Wikidata:NULL	нет данных
+N24	Reference T47 Wikidata:NULL	нет данных
+N25	Reference T22 Wikidata:Q715641	Государственная дума
+N26	Reference T14 Wikidata:Q715641	Государственная дума
+N27	Reference T49 Wikidata:Q715641	Государственная дума
+N28	Reference T1 Wikidata:Q715641	Государственная дума
+N29	Reference T2 Wikidata:Q159	Россия
+N30	Reference T13 Wikidata:Q151469	Единая Россия
+N31	Reference T27 Wikidata:Q151469	Единая Россия
+N32	Reference T19 Wikidata:Q151469	Единая Россия
+N33	Reference T31 Wikidata:Q486839	член парламента
+N34	Reference T24 Wikidata:Q4371978	Илья Владимирович Пономарёв
+N35	Reference T30 Wikidata:Q4371978	Илья Владимирович Пономарёв
+N36	Reference T23 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N37	Reference T4 Wikidata:Q715641	Государственная дума

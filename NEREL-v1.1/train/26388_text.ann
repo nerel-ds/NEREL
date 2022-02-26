@@ -1,0 +1,174 @@
+T1	PERSON 0 15	Стивен Спилберг
+T2	EVENT 31 60	66-го Каннского кинофестиваля
+T3	PERSON 61 76	Стивен Спилберг
+T5	EVENT 125 148	Каннского кинофестиваля
+T6	COUNTRY 159 171	американский
+T7	PROFESSION 183 191	продюсер
+T8	PERSON 192 207	Стивен Спилберг
+T9	EVENT 223 252	66-го Каннского кинофестиваля
+T10	EVENT 229 252	Каннского кинофестиваля
+T12	DATE 304 324	28 февраля 2013 года
+T13	PERSON 375 390	Стивен Спилберг
+T14	DATE 538 549	В 2012 году
+T15	COUNTRY 595 606	итальянский
+T16	PERSON 645 658	Нанни Моретти
+T18	COUNTRY 710 722	американские
+T19	DATE 746 757	В 2011 году
+T20	PERSON 776 790	Роберт Де Ниро
+T21	DATE 794 805	годом ранее
+T22	PERSON 840 850	Тим Бёртон
+T23	AGE 869 878	66-летний
+T24	NUMBER 904 913	более 130
+T25	NUMBER 938 953	почти полусотни
+T26	DATE 962 973	В 1994 году
+T27	WORK_OF_ART 985 1000	Список Шиндлера
+T29	AWARD 1011 1017	Оскара
+T30	PERSON 1041 1049	Спилберг
+T31	DATE 1080 1089	того года
+T32	ORGANIZATION 1099 1133	Американский академии киноискусств
+T33	WORK_OF_ART 1184 1206	Спасти рядового Райана
+T35	DATE 1208 1219	в 1999 году
+T36	WORK_OF_ART 1238 1246	Линкольн
+T37	PROFESSION 1261 1271	президенте
+T38	COUNTRY 1272 1275	США
+T39	DATE 1319 1328	2012 года
+T40	EVENT 1332 1341	церемонии
+T41	AWARD 1359 1364	Оскар
+T42	EVENT 37 60	Каннского кинофестиваля
+T43	ORDINAL 31 36	66-го
+T4	AWARD 78 101	Золотая пальмовая ветвь
+T44	PROFESSION 172 180	режиссёр
+T45	ORDINAL 223 228	66-го
+T46	EVENT 239 252	кинофестиваля
+T47	EVENT 47 60	кинофестиваля
+T48	EVENT 135 148	кинофестиваля
+T49	PROFESSION 607 615	режиссер
+T50	PROFESSION 617 622	актёр
+T51	PROFESSION 624 632	продюсер
+T52	PROFESSION 635 644	сценарист
+T53	PROFESSION 723 732	режиссёры
+T54	PROFESSION 735 744	продюсеры
+T55	PROFESSION 893 903	продюсером
+T56	PROFESSION 927 937	режиссёром
+T57	PROFESSION 1069 1079	режиссёром
+T58	PROFESSION 1261 1275	президенте США
+T59	DATE 669 684	два года подряд
+T61	PERSON 879 887	Спилберг
+T28	AWARD 1062 1089	лучшим режиссёром того года
+T62	COUNTRY 1099 1111	Американский
+T34	EVENT 1332 1364	церемонии вручения премии «Оскар
+T17	CITY 37 46	Каннского
+T60	CITY 125 134	Каннского
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T60	
+R3	WORKS_AS Arg1:T8 Arg2:T7	
+R4	WORKS_AS Arg1:T8 Arg2:T44	
+R5	ORIGINS_FROM Arg1:T8 Arg2:T6	
+T63	CITY 229 238	Каннского
+R1	TAKES_PLACE_IN Arg1:T42 Arg2:T17	
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T63	
+T11	DATE 275 294	по 26 мая 2013 года
+T64	DATE 270 274;281 294	с 15 мая 2013 года
+R7	START_TIME Arg1:T9 Arg2:T64	
+R8	END_TIME Arg1:T9 Arg2:T11	
+T65	EVENT 347 372	международного кинофорума
+T66	EVENT 362 372	кинофорума
+R9	ALTERNATIVE_NAME Arg1:T46 Arg2:T66	
+T67	EVENT 459 468	фестиваля
+R10	ALTERNATIVE_NAME Arg1:T66 Arg2:T67	
+T68	EVENT 572 580	конкурса
+R11	WORKS_AS Arg1:T16 Arg2:T52	
+R12	WORKS_AS Arg1:T16 Arg2:T51	
+R13	WORKS_AS Arg1:T16 Arg2:T50	
+R14	WORKS_AS Arg1:T16 Arg2:T49	
+R15	ORIGINS_FROM Arg1:T16 Arg2:T15	
+R16	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R17	PARTICIPANT_IN Arg1:T8 Arg2:T9	
+R18	PARTICIPANT_IN Arg1:T16 Arg2:T68	
+R19	POINT_IN_TIME Arg1:T68 Arg2:T14	
+R20	ORIGINS_FROM Arg1:T53 Arg2:T18	
+R21	ORIGINS_FROM Arg1:T54 Arg2:T18	
+T69	EVENT 809 819	кинофоруме
+R22	PARTICIPANT_IN Arg1:T22 Arg2:T69	
+R23	PARTICIPANT_IN Arg1:T20 Arg2:T69	
+R24	ORIGINS_FROM Arg1:T20 Arg2:T18	
+R25	ORIGINS_FROM Arg1:T22 Arg2:T18	
+R26	AGE_IS Arg1:T61 Arg2:T23	
+R27	ALTERNATIVE_NAME Arg1:T13 Arg2:T61	
+R28	WORKS_AS Arg1:T61 Arg2:T55	
+R29	WORKS_AS Arg1:T61 Arg2:T56	
+R30	POINT_IN_TIME Arg1:T29 Arg2:T26	
+R31	AWARDED_WITH Arg1:T27 Arg2:T29	
+R32	AWARDED_WITH Arg1:T30 Arg2:T28	
+R33	POINT_IN_TIME Arg1:T28 Arg2:T31	
+R34	ALTERNATIVE_NAME Arg1:T31 Arg2:T26	
+R35	PRODUCES Arg1:T30 Arg2:T27	
+T70	AWARD 1023 1035	лучший фильм
+R36	PART_OF Arg1:T70 Arg2:T29	
+R37	AWARDED_WITH Arg1:T27 Arg2:T70	
+R38	HEADQUARTERED_IN Arg1:T32 Arg2:T62	
+R39	PRODUCES Arg1:T32 Arg2:T29	
+T71	AWARD 1091 1133	Награда Американский академии киноискусств
+R40	ALTERNATIVE_NAME Arg1:T29 Arg2:T71	
+R41	PRODUCES Arg1:T32 Arg2:T71	
+R42	AWARDED_WITH Arg1:T33 Arg2:T71	
+R43	AWARDED_WITH Arg1:T30 Arg2:T71	
+R44	POINT_IN_TIME Arg1:T71 Arg2:T35	
+R45	PRODUCES Arg1:T30 Arg2:T33	
+R46	PRODUCES Arg1:T30 Arg2:T36	
+R47	ALTERNATIVE_NAME Arg1:T62 Arg2:T38	
+R48	WORKPLACE Arg1:T58 Arg2:T38	
+R49	POINT_IN_TIME Arg1:T41 Arg2:T39	
+T72	EVENT 1282 1318	боролся за звание лучшей кинокартины
+R50	PARTICIPANT_IN Arg1:T36 Arg2:T72	
+R51	POINT_IN_TIME Arg1:T72 Arg2:T39	
+R52	ORIGINS_FROM Arg1:T4 Arg2:T5	
+R53	ALTERNATIVE_NAME Arg1:T10 Arg2:T68	
+R54	ALTERNATIVE_NAME Arg1:T68 Arg2:T69	
+R55	AWARDED_WITH Arg1:T30 Arg2:T29	
+T73	PERSON 1200 1206	Райана
+T74	AWARD 1157 1173	лучшую режиссуру
+R56	AWARDED_WITH Arg1:T30 Arg2:T74	
+R57	DATE_OF_CREATION Arg1:T74 Arg2:T35	
+R58	AWARDED_WITH Arg1:T33 Arg2:T74	
+N1	Reference T1 Wikidata:Q8877	Стивен Спилберг
+N3	Reference T16 Wikidata:Q25100	Нанни Моретти
+N5	Reference T20 Wikidata:Q36949	Роберт Де Ниро
+N6	Reference T22 Wikidata:Q56008	Тим Бёртон
+N7	Reference T27 Wikidata:Q483941	Список Шиндлера
+N8	Reference T32 Wikidata:Q212329	Академия кинематографических искусств и наук
+N9	Reference T33 Wikidata:Q165817	Спасти рядового Райана
+N10	Reference T36 Wikidata:Q32433	Линкольн
+N11	Reference T37 Wikidata:Q30461	президент
+N12	Reference T4 Wikidata:Q179808	Золотая пальмовая ветвь
+N13	Reference T50 Wikidata:Q33999	актёр
+N14	Reference T52 Wikidata:Q28389	сценарист
+N15	Reference T53 Wikidata:Q3455803	режиссёр
+N16	Reference T55 Wikidata:Q3282637	кинопродюсер
+N17	Reference T58 Wikidata:Q11696	президент США
+N21	Reference T71 Wikidata:Q19020	Оскар
+N22	Reference T73 Wikidata:Q28057730	Райан Райанс
+N23	Reference T74 Wikidata:Q103360	премия «Оскар» за лучшую режиссёрскую работу
+N19	Reference T63 Wikidata:Q39984	Канны
+N2	Reference T15 Wikidata:Q38	Италия
+N4	Reference T18 Wikidata:Q30	США
+N20	Reference T70 Wikidata:Q102427	Премия «Оскар» за лучший фильм
+N18	Reference T28 Wikidata:Q103360	премия «Оскар» за лучшую режиссёрскую работу
+N24	Reference T13 Wikidata:Q8877	Стивен Спилберг
+N25	Reference T8 Wikidata:Q8877	Стивен Спилберг
+N26	Reference T3 Wikidata:Q8877	Стивен Спилберг
+N27	Reference T61 Wikidata:Q8877	Стивен Спилберг
+N28	Reference T30 Wikidata:Q8877	Стивен Спилберг
+N29	Reference T44 Wikidata:Q3455803	режиссёр
+N30	Reference T56 Wikidata:Q3455803	режиссёр
+N31	Reference T57 Wikidata:Q3455803	режиссёр
+N32	Reference T49 Wikidata:Q3455803	режиссёр
+N33	Reference T7 Wikidata:Q3282637	кинопродюсер
+N34	Reference T51 Wikidata:Q3282637	кинопродюсер
+N35	Reference T54 Wikidata:Q3282637	кинопродюсер
+N36	Reference T41 Wikidata:Q19020	Оскар
+N37	Reference T29 Wikidata:Q19020	Оскар
+N38	Reference T17 Wikidata:Q39984	Канны
+N39	Reference T60 Wikidata:Q39984	Канны
+N40	Reference T6 Wikidata:Q30	США
+N41	Reference T62 Wikidata:Q30	США
+N42	Reference T38 Wikidata:Q30	США

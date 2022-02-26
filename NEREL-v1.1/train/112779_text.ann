@@ -1,0 +1,98 @@
+T1	PERSON 0 12	Ким Чен Нама
+T3	ORGANIZATION 56 72	Полиция Малайзии
+T4	COUNTRY 64 72	Малайзии
+T5	PERSON 122 133	Ким Чен Нам
+T6	PROFESSION 141 152	лидера КНДР
+T7	COUNTRY 148 152	КНДР
+T8	PERSON 153 164	Ким Чен Ына
+T9	COUNTRY 296 308	малайзийской
+T10	ORGANIZATION 330 362	Центр анализа химического оружия
+T11	ORGANIZATION 363 383	департамента полиции
+T13	DATE 620 632	от 1997 года
+T14	PERSON 695 707	Ким Чен Нама
+T15	PERSON 757 768	Ким Чен Нам
+T17	PROFESSION 783 794	лидера КНДР
+T18	COUNTRY 790 794	КНДР
+T19	PERSON 795 806	Ким Чен Ына
+T20	DATE 818 838	13 февраля 2017 года
+T21	COUNTRY 841 849	Малайзии
+T22	COUNTRY 928 936	Малайзии
+T23	STATE_OR_PROVINCE 939 944	Макао
+T24	PERSON 986 998	Ким Чен Нама
+T25	NUMBER 1009 1012	две
+T26	COUNTRY 1033 1041	Вьетнама
+T27	COUNTRY 1044 1053	Индонезии
+T28	ORGANIZATION 1055 1071	Полиция Малайзии
+T29	COUNTRY 1063 1071	Малайзии
+R5	SIBLING Arg1:T15 Arg2:T19
+R8	WORKS_AS Arg1:T19 Arg2:T17
+R1	SIBLING Arg1:T5 Arg2:T8	
+T2	ORGANIZATION 296 316	малайзийской полиции
+T12	LAW 506 618	Конвенцией о запрещении разработки, производства, накопления и применения химического оружия и о его уничтожении
+T30	EVENT 13 18	убили
+T31	EVENT 882 890	отравили
+T32	EVENT 977 985	убийству
+T33	EVENT 1119 1127	убийства
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T30	
+T34	EVENT 117 121	убит
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T34	
+T35	EVENT 686 694	убийстве
+R6	PARTICIPANT_IN Arg1:T14 Arg2:T35	
+R7	DATE_OF_DEATH Arg1:T15 Arg2:T20	
+R9	PLACE_OF_DEATH Arg1:T15 Arg2:T21	
+R10	PARTICIPANT_IN Arg1:T15 Arg2:T31	
+R11	PARTICIPANT_IN Arg1:T24 Arg2:T32	
+R12	WORKPLACE Arg1:T8 Arg2:T7	
+R13	WORKS_AS Arg1:T8 Arg2:T6	
+R14	DATE_OF_CREATION Arg1:T12 Arg2:T13	
+R15	WORKPLACE Arg1:T19 Arg2:T18	
+R16	TAKES_PLACE_IN Arg1:T31 Arg2:T22	
+T16	ORGANIZATION 330 383	Центр анализа химического оружия департамента полиции
+R3	PART_OF Arg1:T16 Arg2:T11	
+R17	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+T36	ORGANIZATION 56 63	Полиция
+R18	WORKPLACE Arg1:T6 Arg2:T7	
+T37	ORGANIZATION 309 316	полиции
+R19	HEADQUARTERED_IN Arg1:T2 Arg2:T9	
+T38	EVENT 808 817	скончался
+R20	WORKPLACE Arg1:T17 Arg2:T18	
+R21	PARTICIPANT_IN Arg1:T15 Arg2:T38	
+R22	POINT_IN_TIME Arg1:T38 Arg2:T20	
+R23	TAKES_PLACE_IN Arg1:T38 Arg2:T21	
+R24	ALTERNATIVE_NAME Arg1:T4 Arg2:T9	
+R25	ALTERNATIVE_NAME Arg1:T30 Arg2:T34	
+T39	ORGANIZATION 1055 1062	Полиция
+R26	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R27	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R28	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R29	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R30	ALTERNATIVE_NAME Arg1:T3 Arg2:T2	
+N5	Reference T18 Wikidata:Q423	КНДР
+N6	Reference T19 Wikidata:Q56226	Ким Чен Ын
+N7	Reference T23 Wikidata:Q14773	Макао
+N8	Reference T26 Wikidata:Q881	Вьетнам
+N9	Reference T27 Wikidata:Q252	Индонезия
+N10	Reference T29 Wikidata:Q833	Малайзия
+N13	Reference T37 Wikidata:Q35535	полиция
+N1	Reference T1 Wikidata:Q317824	Ким Чен Нам
+N2	Reference T6 Wikidata:Q56876342	
+N14	Reference T2 Wikidata:Q1664804	
+N4	Reference T11 Wikidata:Q105221963	
+N11	Reference T12 Wikidata:Q547896	Конвенция о запрещении химического оружия
+N12	Reference T16 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	
+N15	Reference T7 Wikidata:Q423	КНДР
+N16	Reference T8 Wikidata:Q56226	Ким Чен Ын
+N17	Reference T9 Wikidata:Q833	Малайзия
+N18	Reference T4 Wikidata:Q833	Малайзия
+N19	Reference T21 Wikidata:Q833	Малайзия
+N20	Reference T22 Wikidata:Q833	Малайзия
+N21	Reference T36 Wikidata:Q35535	полиция
+N22	Reference T39 Wikidata:Q35535	полиция
+N23	Reference T14 Wikidata:Q317824	Ким Чен Нам
+N24	Reference T5 Wikidata:Q317824	Ким Чен Нам
+N25	Reference T15 Wikidata:Q317824	Ким Чен Нам
+N26	Reference T24 Wikidata:Q317824	Ким Чен Нам
+N27	Reference T17 Wikidata:Q56876342	
+N28	Reference T28 Wikidata:Q1664804	
+N29	Reference T3 Wikidata:Q1664804	

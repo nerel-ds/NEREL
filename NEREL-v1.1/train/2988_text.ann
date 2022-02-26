@@ -1,0 +1,139 @@
+T1	COUNTRY 0 14	Великобритания
+T2	PROFESSION 31 37	хакера
+T3	COUNTRY 38 41	США
+T4	ORGANIZATION 42 77	Министерство юстиции Великобритании
+T5	PROFESSION 103 109	хакера
+T6	PERSON 110 126	Гэри Мак-Киннона
+T7	PERSON 128 141	Gary McKinnon
+T8	COUNTRY 155 169	Великобритании
+T9	COUNTRY 189 192	США
+T10	ORGANIZATION 288 297	Пентагона
+T12	ORGANIZATION 367 387	министерство юстиции
+T13	PROFESSION 419 425	хакера
+T14	COUNTRY 428 442	Великобритании
+T15	COUNTRY 476 486	британских
+T16	AGE 501 510	40-летний
+T17	CITY 520 527	Лондона
+T18	COUNTRY 586 589	США
+T20	PERSON 660 671	Мак-Киннону
+T22	ORGANIZATION 746 756	Гуантанамо
+T25	PERSON 788 798	Мак-Киннон
+T26	ORGANIZATION 831 851	министерства обороны
+T27	ORGANIZATION 857 866	Армии США
+T28	ORGANIZATION 868 888	Военно-воздушных сил
+T29	ORGANIZATION 891 905	Морского флота
+T30	NATIONALITY 921 932	американцев
+T31	MONEY 966 982	700 000 долларов
+T32	NUMBER 1171 1174	300
+T33	STATE_OR_PROVINCE 1202 1212	Нью-Джерси
+T34	NUMBER 1252 1262	около 2000
+T35	PERSON 1276 1286	Мак-Киннон
+T36	ORGANIZATION 1304 1311	Гардиан
+T37	ORGANIZATION 1314 1326	The Guardian
+T38	ORGANIZATION 1385 1398	правительства
+T39	PROFESSION 1434 1439	хакер
+T40	COUNTRY 1585 1597	американские
+T41	ORGANIZATION 42 62	Министерство юстиции
+T42	COUNTRY 63 77	Великобритании
+T43	PROFESSION 199 204	хакер
+T44	EVENT 331 349	день независимости
+T45	PROFESSION 511 516	хакер
+T19	PENALTY 601 615	срок до 70 лет
+T47	PROFESSION 621 629	адвокаты
+T21	ORGANIZATION 831 855	министерства обороны США
+T24	COUNTRY 852 855	США
+T48	COUNTRY 863 866	США
+T49	ORGANIZATION 1027 1036	армии США
+T50	COUNTRY 1033 1036	США
+T51	PROFESSION 1046 1051	хакер
+T52	EVENT 1143 1147	атак
+T53	EVENT 1230 1235	атаки
+T54	ORGANIZATION 1385 1407	правительства Британии
+T55	COUNTRY 1399 1407	Британии
+T56	PROFESSION 1598 1605	военные
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T42	
+R3	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R4	WORKS_AS Arg1:T6 Arg2:T5	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T8	
+R6	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+T11	DATE 321 327	4 июля
+R7	POINT_IN_TIME Arg1:T44 Arg2:T11	
+R8	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R9	AGE_IS Arg1:T45 Arg2:T16	
+R10	ORIGINS_FROM Arg1:T45 Arg2:T17	
+R11	LOCATED_IN Arg1:T17 Arg2:T15	
+T46	DATE 606 615	до 70 лет
+R12	PENALIZED_AS Arg1:T45 Arg2:T19	
+R13	SUBORDINATE_OF Arg1:T47 Arg2:T20	
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T20	
+R15	LOCATED_IN Arg1:T22 Arg2:T24	
+T23	DATE 768 774;783 787	с 2001 годы
+T57	DATE 775 787	по 2002 годы
+R16	HEADQUARTERED_IN Arg1:T21 Arg2:T24	
+R17	HEADQUARTERED_IN Arg1:T27 Arg2:T48	
+R18	ORIGINS_FROM Arg1:T30 Arg2:T24	
+R19	HEADQUARTERED_IN Arg1:T49 Arg2:T50	
+T58	ORGANIZATION 1187 1212	военной базы в Нью-Джерси
+R20	HEADQUARTERED_IN Arg1:T58 Arg2:T33	
+R21	LOCATED_IN Arg1:T33 Arg2:T50	
+R22	PARTICIPANT_IN Arg1:T58 Arg2:T52	
+R23	PARTICIPANT_IN Arg1:T25 Arg2:T52	
+R24	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R25	HEADQUARTERED_IN Arg1:T54 Arg2:T55	
+R26	ALTERNATIVE_NAME Arg1:T15 Arg2:T55	
+R27	WORKS_AS Arg1:T35 Arg2:T39	
+T59	PROFESSION 1585 1605	американские военные
+R28	WORKPLACE Arg1:T59 Arg2:T40	
+R29	ALTERNATIVE_NAME Arg1:T50 Arg2:T40	
+R30	TAKES_PLACE_IN Arg1:T44 Arg2:T9	
+R31	HEADQUARTERED_IN Arg1:T12 Arg2:T14	
+R32	HEADQUARTERED_IN Arg1:T28 Arg2:T48	
+R33	HEADQUARTERED_IN Arg1:T29 Arg2:T48	
+N1	Reference T1 Wikidata:Q145	Великобритания
+N2	Reference T4 Wikidata:Q2983190	Министерство юстиции Великобритании
+N4	Reference T9 Wikidata:Q30	США
+N5	Reference T10 Wikidata:Q11208	Пентагон
+N6	Reference T17 Wikidata:Q84	Лондон
+N7	Reference T22 Wikidata:Q357	тюрьма в Гуантанамо
+N10	Reference T29 Wikidata:Q4508	военно-морской флот
+N12	Reference T33 Wikidata:Q1408	Нью-Джерси
+N15	Reference T38 Wikidata:Q7188	правительство
+N16	Reference T41 Wikidata:Q1413677	министерство юстиции
+N18	Reference T47 Wikidata:Q40348	адвокат
+N19	Reference T21 Wikidata:Q11209	Министерство обороны США
+N20	Reference T49 Wikidata:Q9212	Армия США
+N22	Reference T56 Wikidata:Q47064	военнослужащий
+N3	Reference T6 Wikidata:Q380929	
+N17	Reference T45 Wikidata:Q2798820	
+N8	Reference T26 Wikidata:Q1788820	
+N9	Reference T28 Wikidata:Q61883	военно-воздушные силы
+N11	Reference T30 Wikidata:Q846570	
+N23	Reference T58 Wikidata:NULL	нет данных
+N13	Reference T35 Wikidata:Q380929	
+N14	Reference T37 Wikidata:Q11148	The Guardian
+N21	Reference T54 Wikidata:Q6063	Правительство Великобритании
+N24	Reference T59 Wikidata:Q11211	Вооружённые силы США
+N25	Reference T55 Wikidata:Q145	Великобритания
+N26	Reference T8 Wikidata:Q145	Великобритания
+N27	Reference T15 Wikidata:Q145	Великобритания
+N28	Reference T14 Wikidata:Q145	Великобритания
+N29	Reference T42 Wikidata:Q145	Великобритания
+N30	Reference T40 Wikidata:Q30	США
+N31	Reference T24 Wikidata:Q30	США
+N32	Reference T48 Wikidata:Q30	США
+N33	Reference T3 Wikidata:Q30	США
+N34	Reference T50 Wikidata:Q30	США
+N35	Reference T18 Wikidata:Q30	США
+N36	Reference T12 Wikidata:Q1413677	министерство юстиции
+N37	Reference T27 Wikidata:Q9212	Армия США
+N38	Reference T7 Wikidata:Q380929	
+N39	Reference T20 Wikidata:Q380929	
+N40	Reference T13 Wikidata:Q2798820	
+N41	Reference T5 Wikidata:Q2798820	
+N42	Reference T51 Wikidata:Q2798820	
+N43	Reference T43 Wikidata:Q2798820	
+N44	Reference T39 Wikidata:Q2798820	
+N45	Reference T2 Wikidata:Q2798820	
+N46	Reference T25 Wikidata:Q380929	
+N47	Reference T36 Wikidata:Q11148	The Guardian

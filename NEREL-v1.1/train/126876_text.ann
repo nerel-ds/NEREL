@@ -1,0 +1,166 @@
+T1	EVENT 0 5	Взрыв
+T2	CITY 8 13	Киеве
+T3	NUMBER 15 19	двое
+T5	COUNTRY 53 60	Украины
+T6	NUMBER 61 64	Два
+T9	CITY 134 139	Киева
+T10	DATE 140 171	в четверг, 24 августа 2017 года
+T11	COUNTRY 191 198	Украине
+T12	COUNTRY 254 264	украинской
+T15	PERSON 305 324	Михаила Грушевского
+T16	TIME 325 352	в 14:06 по местному времени
+T18	ORGANIZATION 434 447	правительства
+T19	FACILITY 461 467	Динамо
+T20	COUNTRY 471 481	Украинское
+T21	FACILITY 536 561	правительственного здания
+T22	NUMBER 580 584	двух
+T23	NUMBER 608 612	трёх
+T24	NUMBER 652 656	трех
+T25	NUMBER 670 675	двоих
+T26	PROFESSION 733 746	Корреспондент
+T27	ORGANIZATION 759 770	112 Украина
+T34	COUNTRY 950 957	Украины
+T35	PERSON 978 995	Валерия Чибинеева
+T37	CITY 1060 1065	Киеве
+T38	EVENT 1068 1086	День независимости
+T42	ORGANIZATION 1111 1146	79-й николаевской десантной бригады
+T43	PERSON 1147 1163	Валерий Чибинеев
+T44	COUNTRY 1185 1192	Украины
+T46	ORGANIZATION 1208 1228	Национальной полиции
+T47	PERSON 1229 1242	Сергей Князев
+T48	FACILITY 1308 1325	Мариинского парка
+T49	NUMBER 1368 1385	нескольких метрах
+T50	ORGANIZATION 1471 1474	СБУ
+T52	LAW 1510 1522	ч. 2 ст. 115
+T53	LAW 1612 1630	Уголовного кодекса
+T54	COUNTRY 1631 1638	Украины
+T4	EVENT 34 60	День независимости Украины
+T7	EVENT 74 89	получили травмы
+T55	EVENT 103 109	взрыва
+T56	EVENT 211 229	День независимости
+T14	FACILITY 299 324	улице Михаила Грушевского
+T13	ORGANIZATION 254 272	украинской полиции
+T57	EVENT 276 284	Инцидент
+T58	EVENT 406 411	Взрыв
+T17	FACILITY 428 447	домом правительства
+T59	ORGANIZATION 536 554	правительственного
+T60	EVENT 631 648	госпитализировали
+T61	PROFESSION 733 771	Корреспондент телеканала «112 Украина»
+T28	EVENT 918 924	взрыва
+T29	PROFESSION 958 977	десантника-снайпера
+T30	AWARD 944 957	Героя Украины
+T31	PROFESSION 1101 1110	снайперов
+T33	DATE 1030 1042	прошлогоднем
+T36	EVENT 1043 1057	военном параде
+T39	ORDINAL 1111 1115	79-й
+T40	CITY 1116 1128	николаевской
+T41	PROFESSION 1129 1138	десантной
+T62	AWARD 1179 1192	Героя Украины
+T45	EVENT 1269 1296	бросили взрывное устройство
+T63	EVENT 1355 1365	взорвалось
+T64	EVENT 1416 1428	происшествия
+T51	LAW 1503 1522	ст. 15 ч. 2 ст. 115
+T65	ORDINAL 1507 1509	15
+T66	ORDINAL 1519 1522	115
+T67	ORDINAL 1513 1514	2
+T68	EVENT 1475 1499	возбудила уголовное дело
+T69	CRIME 1525 1609	Покушение на умышленное убийство, совершенное способом, опасным для жизни многих лиц
+T70	LAW 1612 1638	Уголовного кодекса Украины
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T5 Arg2:T4	
+R3	SUBEVENT_OF Arg1:T7 Arg2:T55	
+R4	POINT_IN_TIME Arg1:T55 Arg2:T10	
+T8	LOCATION 125 139	в центре Киева
+R5	LOCATED_IN Arg1:T8 Arg2:T9	
+R6	TAKES_PLACE_IN Arg1:T55 Arg2:T8	
+R7	TAKES_PLACE_IN Arg1:T56 Arg2:T11	
+R8	POINT_IN_TIME Arg1:T56 Arg2:T10	
+R9	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R10	HEADQUARTERED_IN Arg1:T13 Arg2:T12	
+R11	ALTERNATIVE_NAME Arg1:T4 Arg2:T56	
+R12	LOCATED_IN Arg1:T9 Arg2:T11	
+R13	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+T71	LOCATION 422 468	между домом правительства и стадионом «Динамо»
+R14	TAKES_PLACE_IN Arg1:T58 Arg2:T71	
+R15	WORKPLACE Arg1:T61 Arg2:T27	
+R16	WORKS_AS Arg1:T35 Arg2:T29	
+R18	POINT_IN_TIME Arg1:T36 Arg2:T33	
+R19	TAKES_PLACE_IN Arg1:T36 Arg2:T37	
+R20	AWARDED_WITH Arg1:T43 Arg2:T62	
+T72	ORGANIZATION 1096 1146	роты снайперов 79-й николаевской десантной бригады
+R21	WORKPLACE Arg1:T43 Arg2:T72	
+T32	PROFESSION 1087 1095	командир
+T73	PROFESSION 1087 1146	командир роты снайперов 79-й николаевской десантной бригады
+R22	WORKS_AS Arg1:T43 Arg2:T73	
+R23	PARTICIPANT_IN Arg1:T43 Arg2:T38	
+R24	PARTICIPANT_IN Arg1:T43 Arg2:T36	
+R25	SUBEVENT_OF Arg1:T36 Arg2:T38	
+R26	WORKPLACE Arg1:T47 Arg2:T46	
+T74	PROFESSION 1195 1228	Руководитель Национальной полиции
+R27	WORKS_AS Arg1:T47 Arg2:T74	
+R28	TAKES_PLACE_IN Arg1:T45 Arg2:T48	
+R29	SUBEVENT_OF Arg1:T45 Arg2:T28	
+R30	ALTERNATIVE_NAME Arg1:T28 Arg2:T63	
+R31	ALTERNATIVE_NAME Arg1:T63 Arg2:T64	
+R32	PARTICIPANT_IN Arg1:T50 Arg2:T68	
+R34	ORIGINS_FROM Arg1:T62 Arg2:T44	
+R35	PART_OF Arg1:T72 Arg2:T42	
+R36	ORIGINS_FROM Arg1:T70 Arg2:T54	
+R37	PART_OF Arg1:T72 Arg2:T42	
+R38	HEADQUARTERED_IN Arg1:T42 Arg2:T40	
+R17	AWARDED_WITH Arg1:T35 Arg2:T30	
+R39	ORIGINS_FROM Arg1:T30 Arg2:T34	
+R40	TAKES_PLACE_IN Arg1:T57 Arg2:T14	
+R41	POINT_IN_TIME Arg1:T57 Arg2:T16	
+R42	LOCATED_IN Arg1:T14 Arg2:T8	
+R43	HAS_CAUSE Arg1:T60 Arg2:T58	
+R44	WORKPLACE Arg1:T74 Arg2:T46	
+R45	LOCATED_IN Arg1:T48 Arg2:T37	
+R46	PART_OF Arg1:T51 Arg2:T52	
+R47	PART_OF Arg1:T52 Arg2:T70	
+N1	Reference T5 Wikidata:Q212	Украина
+N3	Reference T18 Wikidata:Q7188	правительство
+N6	Reference T26 Wikidata:Q1333067	Корреспондент
+N8	Reference T35 Wikidata:Q28701450	Чибинеев Валерий Викторович
+N9	Reference T37 Wikidata:Q1899	Киев
+N11	Reference T43 Wikidata:Q28701450	Чибинеев Валерий Викторович
+N12	Reference T46 Wikidata:Q18702413	Национальная Полиция Украины
+N14	Reference T48 Wikidata:Q3394393	Мариинский парк
+N15	Reference T50 Wikidata:Q615811	Служба безопасности Украины
+N16	Reference T52 Wikidata:Q4438882	Ст. 206 ч. 2
+N17	Reference T53 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N18	Reference T14 Wikidata:Q3400114	Улица Михаила Грушевского
+N23	Reference T29 Wikidata:Q749387	десантник
+N24	Reference T30 Wikidata:Q1358055	Герой Украины
+N25	Reference T31 Wikidata:Q201948	снайпер
+N28	Reference T69 Wikidata:Q4813104	Покушение
+N29	Reference T70 Wikidata:Q26250214	Закон Савченко
+N27	Reference T8 Wikidata:NULL	нет данных
+N19	Reference T13 Wikidata:Q18702413	Национальная Полиция Украины
+N2	Reference T15 Wikidata:Q371322	
+N20	Reference T17 Wikidata:Q2790382	
+N30	Reference T71 Wikidata:NULL	нет данных
+N4	Reference T19 Wikidata:Q669347	
+N21	Reference T59 Wikidata:Q7188	правительство
+N5	Reference T21 Wikidata:Q2790382	
+N22	Reference T61 Wikidata:NULL	нет данных
+N7	Reference T27 Wikidata:NULL	нет данных
+N31	Reference T32 Wikidata:Q11247470	
+N35	Reference T41 Wikidata:Q864306	воздушно-десантные войска
+N33	Reference T73 Wikidata:NULL	нет данных
+N32	Reference T72 Wikidata:NULL	нет данных
+N10	Reference T42 Wikidata:NULL	нет данных
+N26	Reference T40 Wikidata:Q41572	
+N34	Reference T74 Wikidata:NULL	нет данных
+N13	Reference T47 Wikidata:Q20067569	
+N36	Reference T44 Wikidata:Q212	Украина
+N37	Reference T20 Wikidata:Q212	Украина
+N38	Reference T12 Wikidata:Q212	Украина
+N39	Reference T34 Wikidata:Q212	Украина
+N40	Reference T11 Wikidata:Q212	Украина
+N41	Reference T54 Wikidata:Q212	Украина
+N42	Reference T2 Wikidata:Q1899	Киев
+N43	Reference T9 Wikidata:Q1899	Киев
+N44	Reference T62 Wikidata:Q1358055	Герой Украины
+N45	Reference T51 Wikidata:Q4813104	Покушение
+T75	NUMBER 759 762	112

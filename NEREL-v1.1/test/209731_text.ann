@@ -1,0 +1,115 @@
+T1	PERSON 0 7	Куинджи
+T2	WORK_OF_ART 39 53	Ай-Петри. Крым
+T3	DATE 56 73	1898 по 1908 годы
+T4	NUMBER 100 102	39
+T5	NUMBER 105 107	53
+T6	ORGANIZATION 109 138	Государственный Русский музей
+T8	PERSON 226 240	Архипа Куинджи
+T9	WORK_OF_ART 242 256	Ай-Петри. Крым
+T10	ORGANIZATION 261 282	Третьяковской галереи
+T11	CITY 285 291	Москве
+T12	AGE 485 494	31-летний
+T13	DATE 504 523	В декабре 2018 года
+T14	LAW 631 644	ст. 228 УК РФ
+T15	WORK_OF_ART 662 670	Readovka
+T16	ORGANIZATION 700 703	МВД
+T18	PERSON 741 755	Архипа Куинджи
+T19	WORK_OF_ART 757 771	Ай-Петри. Крым
+T20	ORGANIZATION 785 796	Третьяковки
+T21	PRODUCT 884 892	Мерседес
+T22	ORGANIZATION 920 930	Росгвардия
+T23	ORGANIZATION 1001 1005	ТАСС
+T24	ORGANIZATION 1054 1065	Третьяковку
+T25	CITY 16 23	Заречье
+T26	PERSON 24 37	Архип Куинджи
+T27	CITY 149 156	Заречье
+T7	DISTRICT 157 176	Одинцовского района
+T29	EVENT 528 539	задерживали
+T30	DATE 209 217	накануне
+T31	CRIME 543 562	хранение наркотиков
+T32	LAW 639 644	УК РФ
+T33	LAW 639 641	УК
+T34	COUNTRY 642 644	РФ
+T35	PRODUCT 647 655	Telegram
+T17	DATE 797 802	вчера
+T36	PROFESSION 905 915	смотрители
+T37	EVENT 964 969	кражу
+T38	PROFESSION 1007 1018	полицейские
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T26	
+T40	LOCATION 49 53	Крым
+T41	LOCATION 39 47	Ай-Петри
+R2	LOCATED_IN Arg1:T41 Arg2:T40	
+R3	PRODUCES Arg1:T26 Arg2:T2	
+T28	NATIONALITY 125 132	Русский
+R4	LOCATED_IN Arg1:T27 Arg2:T7	
+T42	EVENT 177 196	задержан преступник
+T43	EVENT 198 208;218 225	похитивший картину
+R5	HAS_CAUSE Arg1:T42 Arg2:T43	
+R6	TAKES_PLACE_IN Arg1:T42 Arg2:T27	
+T44	LOCATION 242 250	Ай-Петри
+T45	LOCATION 252 256	Крым
+R7	LOCATED_IN Arg1:T44 Arg2:T45	
+R8	HAS_CAUSE Arg1:T42 Arg2:T43	
+R9	HEADQUARTERED_IN Arg1:T10 Arg2:T11	
+R10	TAKES_PLACE_IN Arg1:T43 Arg2:T10	
+R11	PRODUCES Arg1:T8 Arg2:T9	
+R12	HAS_CAUSE Arg1:T29 Arg2:T31	
+R13	POINT_IN_TIME Arg1:T29 Arg2:T13	
+R14	PART_OF Arg1:T14 Arg2:T32	
+R15	ORIGINS_FROM Arg1:T32 Arg2:T34	
+T46	EVENT 725 730	кражи
+R16	ALTERNATIVE_NAME Arg1:T43 Arg2:T46	
+T47	EVENT 773 781	похищено
+R17	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R18	ALTERNATIVE_NAME Arg1:T10 Arg2:T20	
+R19	WORKPLACE Arg1:T36 Arg2:T20	
+T39	EVENT 1072 1082	кражи шубы
+R20	TAKES_PLACE_IN Arg1:T39 Arg2:T24	
+T48	EVENT 1028 1033	краже
+R21	TAKES_PLACE_IN Arg1:T47 Arg2:T20	
+R22	POINT_IN_TIME Arg1:T47 Arg2:T17	
+R23	ALTERNATIVE_NAME Arg1:T47 Arg2:T37	
+R24	ALTERNATIVE_NAME Arg1:T37 Arg2:T48	
+T49	LOCATION 757 765	Ай-Петри
+T50	LOCATION 767 771	Крым
+R25	LOCATED_IN Arg1:T49 Arg2:T50	
+R26	PRODUCES Arg1:T18 Arg2:T19	
+R27	PART_OF Arg1:T15 Arg2:T35	
+R28	INANIMATE_INVOLVED Arg1:T9 Arg2:T43	
+T51	PENALTY 588 608	подпиской о невыезде
+R29	HAS_CAUSE Arg1:T51 Arg2:T14	
+R30	INANIMATE_INVOLVED Arg1:T19 Arg2:T47	
+N1	Reference T6 Wikidata:Q211043	Государственный Русский музей
+N2	Reference T11 Wikidata:Q649	Москва
+N4	Reference T16 Wikidata:Q6589202	министерство внутренних дел
+N5	Reference T18 Wikidata:Q353628	Архип Иванович Куинджи
+N7	Reference T21 Wikidata:Q36008	Mercedes-Benz
+N8	Reference T22 Wikidata:Q23764150	Росгвардия
+N9	Reference T23 Wikidata:Q223799	ТАСС
+N10	Reference T24 Wikidata:Q183334	Государственная Третьяковская галерея
+N12	Reference T7 Wikidata:Q2459293	Одинцовский район
+N13	Reference T32 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N15	Reference T34 Wikidata:Q159	Россия
+N16	Reference T35 Wikidata:Q15616276	Telegram
+N20	Reference T49 Wikidata:Q1517833	Ай-Петри
+N21	Reference T50 Wikidata:Q7835	Крымский полуостров
+N19	Reference T28 Wikidata:Q49542	русские
+N11	Reference T27 Wikidata:Q4023883	
+N14	Reference T33 Wikidata:Q19705	уголовное законодательство
+N3	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:Q61286508	
+N17	Reference T36 Wikidata:Q96943145	
+N18	Reference T38 Wikidata:Q384593	
+N23	Reference T8 Wikidata:Q353628	Архип Иванович Куинджи
+N24	Reference T1 Wikidata:Q353628	Архип Иванович Куинджи
+N25	Reference T26 Wikidata:Q353628	Архип Иванович Куинджи
+N26	Reference T10 Wikidata:Q183334	Государственная Третьяковская галерея
+N27	Reference T20 Wikidata:Q183334	Государственная Третьяковская галерея
+N28	Reference T44 Wikidata:Q1517833	Ай-Петри
+N29	Reference T41 Wikidata:Q1517833	Ай-Петри
+N30	Reference T40 Wikidata:Q7835	Крымский полуостров
+N31	Reference T45 Wikidata:Q7835	Крымский полуостров
+N32	Reference T25 Wikidata:Q4023883	
+N33	Reference T2 Wikidata:Q61286508	
+N34	Reference T9 Wikidata:Q61286508	

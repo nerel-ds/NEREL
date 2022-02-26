@@ -1,0 +1,60 @@
+T1	PERSON 0 14	Марк Цукерберг
+T2	ORGANIZATION 43 47	Time
+T3	PERSON 55 71	Марка Цукерберга
+T5	PRODUCT 100 108	Facebook
+T6	NUMBER 111 140	более чем половиной миллиарда
+T7	ORGANIZATION 205 209	Time
+T8	DATE 211 230	в течение 2010 года
+T9	ORGANIZATION 588 591	NBC
+T10	PROFESSION 592 608	главный редактор
+T11	PERSON 614 628	Ричард Стенгел
+T12	AGE 631 640	26-летний
+T13	PERSON 641 650	Цукерберг
+T14	DATE 726 737	в 1927 году
+T15	PROFESSION 771 776	пилот
+T16	PERSON 777 792	Чарльз Линдберг
+T17	LOCATION 818 837	Атлантический океан
+T18	PERSON 870 880	Цукерберга
+T19	ORGANIZATION 888 892	Time
+T21	PERSON 992 1006	Джулиан Ассанж
+T22	AWARD 20 34	Человеком года
+T23	AWARD 170 184	Человеком года
+T24	PERSON 231 240	Цукерберг
+T25	NUMBER 276 285	миллионов
+T26	ORGANIZATION 609 613	Time
+T27	AWARD 745 759	Человеком года
+T28	ORGANIZATION 982 991	WikiLeaks
+R1	AWARDED_WITH Arg1:T1 Arg2:T22	
+R2	PRODUCES Arg1:T3 Arg2:T5	
+R3	AWARDED_WITH Arg1:T3 Arg2:T23	
+T4	PROFESSION 592 613	главный редактор Time
+R4	WORKS_AS Arg1:T11 Arg2:T4	
+R5	WORKPLACE Arg1:T4 Arg2:T26	
+R6	AGE_IS Arg1:T13 Arg2:T12	
+R7	WORKS_AS Arg1:T16 Arg2:T15	
+R8	AWARDED_WITH Arg1:T16 Arg2:T27	
+R9	AWARDED_WITH Arg1:T13 Arg2:T27	
+R10	FOUNDED_BY Arg1:T28 Arg2:T21	
+R11	ORIGINS_FROM Arg1:T23 Arg2:T2	
+N1	Reference T1 Wikidata:Q36215	Марк Цукерберг
+N2	Reference T5 Wikidata:Q355	Facebook
+N3	Reference T9 Wikidata:Q13974	NBC
+N4	Reference T10 Wikidata:Q589298	главный редактор
+N5	Reference T15 Wikidata:Q2095549	лётчик
+N6	Reference T16 Wikidata:Q1618	Чарльз Линдберг
+N7	Reference T17 Wikidata:Q97	Атлантический океан
+N8	Reference T18 Wikidata:Q36215	Марк Цукерберг
+N9	Reference T21 Wikidata:Q360	Джулиан Ассанж
+N10	Reference T22 Wikidata:Q207826	Человек года по версии журнала «Time»
+N11	Reference T26 Wikidata:Q43297	Тайм
+N12	Reference T28 Wikidata:Q359	WikiLeaks
+N13	Reference T4 Wikidata:NULL	нет данных
+N14	Reference T11 Wikidata:Q2918602	
+N15	Reference T3 Wikidata:Q36215	Марк Цукерберг
+N16	Reference T13 Wikidata:Q36215	Марк Цукерберг
+N17	Reference T24 Wikidata:Q36215	Марк Цукерберг
+N18	Reference T23 Wikidata:Q207826	Человек года по версии журнала «Time»
+N19	Reference T27 Wikidata:Q207826	Человек года по версии журнала «Time»
+N20	Reference T19 Wikidata:Q43297	Тайм
+N21	Reference T7 Wikidata:Q43297	Тайм
+N22	Reference T2 Wikidata:Q43297	Тайм

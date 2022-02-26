@@ -1,0 +1,89 @@
+T1	PERSON 2 18	Сергея Безрукова
+T2	PERSON 31 43	Анна Матисон
+T3	PERSON 46 61	Сергей Безруков
+T4	PROFESSION 80 87	артиста
+T5	PERSON 95 111	Сергея Безрукова
+T6	PROFESSION 114 127	кинорежиссёра
+T7	PERSON 128 140	Анны Матисон
+T8	DATE 164 192	субботу, 24 ноября 2018 года
+T9	PERSON 194 200	Сергей
+T10	PERSON 435 450	Сергей Безруков
+T11	PERSON 453 465	Анна Матисон
+T12	DATE 477 495	11 марта 2016 года
+T13	DATE 497 520	Через несколько месяцев
+T14	PERSON 541 546	Мария
+T15	DATE 548 553	В мае
+T16	ORDINAL 578 585	второго
+T17	DATE 596 606	18 октября
+T18	AGE 631 640	45-летний
+T19	PERSON 649 661	Анне Матисон
+T20	DATE 662 668	8 июля
+T21	AGE 681 687	35 лет
+T22	PERSON 692 698	Сергея
+T23	ORDINAL 716 723	первого
+T24	PROFESSION 732 740	актрисой
+T25	PERSON 741 758	Ириной Безруковой
+T26	NUMBER 768 771	два
+T27	PROFESSION 794 801	актрисы
+T28	PROFESSION 804 810	певицы
+T29	PERSON 811 829	Кристины Смирновой
+T30	EVENT 19 30	родился сын
+T31	AWARD 70 94	Народного артиста России
+T32	COUNTRY 88 94	России
+T33	EVENT 141 152	родился сын
+T34	PRODUCT 211 220	Instagram
+T35	PERSON 282 288	АНЕЧКА
+T36	EVENT 466 476	поженились
+T37	EVENT 527 540	родилась дочь
+T38	PERSON 607 622	Сергей Безруков
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T30	
+R2	WORKS_AS Arg1:T5 Arg2:T4	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T32	
+R4	AWARDED_WITH Arg1:T5 Arg2:T31	
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	SPOUSE Arg1:T5 Arg2:T7	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T33	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T33	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T35	
+R11	SPOUSE Arg1:T10 Arg2:T11	
+R12	AGENT Arg1:T11 Arg2:T36	
+R13	AGENT Arg1:T10 Arg2:T36	
+R14	POINT_IN_TIME Arg1:T36 Arg2:T12	
+R15	AGE_IS Arg1:T38 Arg2:T18	
+R16	AGE_IS Arg1:T19 Arg2:T21	
+R17	SPOUSE Arg1:T22 Arg2:T25	
+R18	WORKS_AS Arg1:T25 Arg2:T24	
+R19	WORKS_AS Arg1:T29 Arg2:T28	
+R20	WORKS_AS Arg1:T29 Arg2:T27	
+R21	PARENT_OF Arg1:T11 Arg2:T14	
+R22	PARENT_OF Arg1:T10 Arg2:T14	
+R23	PARTICIPANT_IN Arg1:T14 Arg2:T37	
+R24	POINT_IN_TIME Arg1:T37 Arg2:T13	
+R25	PARTICIPANT_IN Arg1:T11 Arg2:T37	
+R26	PARTICIPANT_IN Arg1:T10 Arg2:T37	
+R27	ORIGINS_FROM Arg1:T31 Arg2:T32	
+R28	SPOUSE Arg1:T22 Arg2:T29	
+N1	Reference T4 Wikidata:Q483501	деятель искусств
+N2	Reference T6 Wikidata:Q2526255	кинорежиссёр
+N3	Reference T10 Wikidata:Q473580	Сергей Безруков
+N4	Reference T19 Wikidata:Q7510890	Анна Матисон
+N5	Reference T24 Wikidata:Q33999	актёр
+N6	Reference T25 Wikidata:Q4081017	Ирина Владимировна Безрукова
+N7	Reference T28 Wikidata:Q177220	певец
+N9	Reference T31 Wikidata:Q1857712	Народный артист Российской Федерации
+N10	Reference T32 Wikidata:Q159	Россия
+N11	Reference T34 Wikidata:Q209330	Instagram
+N12	Reference T35 Wikidata:Q7510890	Анна Матисон
+N13	Reference T14 Wikidata:NULL	нет данных
+N8	Reference T29 Wikidata:NULL	нет данных
+N14	Reference T22 Wikidata:Q473580	Сергей Безруков
+N15	Reference T5 Wikidata:Q473580	Сергей Безруков
+N16	Reference T38 Wikidata:Q473580	Сергей Безруков
+N17	Reference T9 Wikidata:Q473580	Сергей Безруков
+N18	Reference T3 Wikidata:Q473580	Сергей Безруков
+N19	Reference T1 Wikidata:Q473580	Сергей Безруков
+N20	Reference T27 Wikidata:Q33999	актёр
+N21	Reference T7 Wikidata:Q7510890	Анна Матисон
+N22	Reference T2 Wikidata:Q7510890	Анна Матисон
+N23	Reference T11 Wikidata:Q7510890	Анна Матисон

@@ -1,0 +1,194 @@
+T1	COUNTRY 0 6	Япония
+T2	COUNTRY 27 36	Колумбией
+T3	EVENT 40 42	ЧМ
+T4	COUNTRY 59 65	Япония
+T5	EVENT 87 89	ЧМ
+T6	COUNTRY 103 109	Японии
+T7	FACILITY 123 137	Мордовия Арена
+T8	COUNTRY 141 149	Колумбии
+T9	NUMBER 160 161	2
+T10	NUMBER 180 185	40842
+T11	COUNTRY 207 213	Японии
+T12	AGE 220 229	35-летний
+T13	PERSON 230 244	Эйдзи Кавасима
+T14	COUNTRY 291 297	Японии
+T15	ORDINAL 314 317	3-й
+T17	PERSON 335 348	Карлос Санчес
+T18	PERSON 445 458	Синдзи Кагава
+T19	ORDINAL 465 471	первая
+T20	ORDINAL 508 514	вторая
+T21	TIME 557 575	2 минуты 56 секунд
+T22	NATIONALITY 609 617	уругваец
+T23	PERSON 618 639	Хосе Альберто Батиста
+T24	COUNTRY 661 671	Шотландией
+T26	PERSON 703 715	Хуан Кинтеро
+T27	ORDINAL 755 758	4-й
+T28	PROFESSION 808 830	капитан сборной Сербии
+T29	PERSON 831 848	Александр Коларов
+T30	PROFESSION 850 856	хавбек
+T31	COUNTRY 865 871	России
+T32	PERSON 872 889	Александр Головин
+T34	COUNTRY 908 918	Португалии
+T35	PERSON 919 936	Криштиану Роналду
+T36	EVENT 953 955	ЧМ
+T37	NUMBER 1022 1023	3
+T39	PERSON 1057 1065	Юя Осако
+T40	COUNTRY 1104 1110	Япония
+T41	ORDINAL 1120 1126	первую
+T42	COUNTRY 1171 1177	Японии
+T43	COUNTRY 1188 1197	Сенегалом
+T44	FACILITY 1218 1236	Екатеринбург Арена
+T45	COUNTRY 1240 1248	Колумбия
+T46	FACILITY 1254 1266	Казань Арена
+T47	COUNTRY 1274 1280	Польши
+T48	PROFESSION 1306 1313	форвард
+T49	ORGANIZATION 1315 1321	Кельна
+T50	PERSON 1323 1331	Юя Осако
+T52	EVENT 40 47	ЧМ-2018
+T53	DATE 43 47	2018
+T54	COUNTRY 48 56	Колумбия
+T55	DATE 66 83	19 июня 2018 года
+T56	EVENT 87 94	ЧМ-2018
+T57	DATE 90 94	2018
+T58	NUMBER 162 163	1
+T16	TIME 311 324	На 3-й минуте
+T59	NATIONALITY 325 334	колумбиец
+T60	EVENT 497 499	ЧМ
+T61	EVENT 547 555	мундиаля
+T62	EVENT 643 650	ЧМ-1986
+T63	EVENT 643 645	ЧМ
+T64	DATE 646 650	1986
+T65	TIME 672 685	за 54 секунды
+T25	TIME 688 702	На 39-й минуте
+T66	ORDINAL 691 695	39-й
+T67	EVENT 768 770	ЧМ
+T68	COUNTRY 824 830	Сербии
+T69	EVENT 953 960	ЧМ-2018
+T70	DATE 956 960	2018
+T71	EVENT 1002 1009	ЧМ-2014
+T72	EVENT 1002 1004	ЧМ
+T73	DATE 1005 1009	2014
+T38	TIME 1035 1049	На 73-й минуте
+T74	ORDINAL 1038 1042	73-й
+T75	NATIONALITY 1050 1056	японец
+T76	DATE 1198 1205	24 июня
+T77	CITY 1218 1230	Екатеринбург
+T78	STATE_OR_PROVINCE 123 131	Мордовия
+T79	CITY 1254 1260	Казань
+R1	POINT_IN_TIME Arg1:T52 Arg2:T53	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T52	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T52	
+R4	LOCATED_IN Arg1:T7 Arg2:T78	
+R5	POINT_IN_TIME Arg1:T56 Arg2:T57	
+T51	ORGANIZATION 95 109	сборная Японии
+R6	HEADQUARTERED_IN Arg1:T51 Arg2:T6	
+R7	TAKES_PLACE_IN Arg1:T56 Arg2:T78	
+R8	AGE_IS Arg1:T13 Arg2:T12	
+R9	ORIGINS_FROM Arg1:T13 Arg2:T11	
+R10	WORKPLACE Arg1:T13 Arg2:T51	
+T80	ORGANIZATION 283 297	сборной Японии
+R11	HEADQUARTERED_IN Arg1:T80 Arg2:T14	
+R12	ORIGINS_FROM Arg1:T17 Arg2:T59	
+R13	ORIGINS_FROM Arg1:T23 Arg2:T22	
+R14	PARTICIPANT_IN Arg1:T23 Arg2:T62	
+R15	POINT_IN_TIME Arg1:T62 Arg2:T64	
+T81	EVENT 653 658	матче
+R16	PARTICIPANT_IN Arg1:T24 Arg2:T81	
+R17	SUBEVENT_OF Arg1:T81 Arg2:T62	
+R18	PARTICIPANT_IN Arg1:T23 Arg2:T81	
+T82	ORGANIZATION 816 830	сборной Сербии
+R19	WORKPLACE Arg1:T28 Arg2:T82	
+R20	HEADQUARTERED_IN Arg1:T82 Arg2:T68	
+R21	WORKS_AS Arg1:T29 Arg2:T28	
+R22	WORKPLACE Arg1:T29 Arg2:T82	
+T83	ORGANIZATION 857 871	сборной России
+R23	HEADQUARTERED_IN Arg1:T83 Arg2:T31	
+T84	PROFESSION 850 871	хавбек сборной России
+R24	WORKPLACE Arg1:T84 Arg2:T83	
+R25	WORKS_AS Arg1:T32 Arg2:T84	
+R26	WORKPLACE Arg1:T32 Arg2:T83	
+T33	ORGANIZATION 900 918	сборной Португалии
+R27	HEADQUARTERED_IN Arg1:T33 Arg2:T34	
+T85	PROFESSION 892 918	капитан сборной Португалии
+R28	WORKS_AS Arg1:T35 Arg2:T85	
+R29	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R30	ORIGINS_FROM Arg1:T29 Arg2:T68	
+R31	ORIGINS_FROM Arg1:T35 Arg2:T34	
+R32	WORKPLACE Arg1:T35 Arg2:T33	
+R33	POINT_IN_TIME Arg1:T69 Arg2:T70	
+R34	POINT_IN_TIME Arg1:T71 Arg2:T73	
+R35	ORIGINS_FROM Arg1:T39 Arg2:T75	
+R36	ORIGINS_FROM Arg1:T75 Arg2:T40	
+T86	ORGANIZATION 1163 1177	сборная Японии
+R37	HEADQUARTERED_IN Arg1:T86 Arg2:T42	
+T87	EVENT 1158 1162	матч
+R38	PARTICIPANT_IN Arg1:T86 Arg2:T87	
+R39	PARTICIPANT_IN Arg1:T43 Arg2:T87	
+R40	PARTICIPANT_IN Arg1:T42 Arg2:T87	
+R41	POINT_IN_TIME Arg1:T87 Arg2:T76	
+R42	LOCATED_IN Arg1:T44 Arg2:T77	
+R43	TAKES_PLACE_IN Arg1:T87 Arg2:T44	
+R44	LOCATED_IN Arg1:T46 Arg2:T79	
+T88	PROFESSION 1306 1321	форвард «Кельна
+R45	WORKS_AS Arg1:T50 Arg2:T88	
+R46	WORKPLACE Arg1:T50 Arg2:T49	
+R47	WORKPLACE Arg1:T50 Arg2:T86	
+T89	EVENT 166 170	Игру
+R48	PARTICIPANT_IN Arg1:T51 Arg2:T89	
+R49	PARTICIPANT_IN Arg1:T8 Arg2:T89	
+R50	TAKES_PLACE_IN Arg1:T89 Arg2:T78	
+R51	POINT_IN_TIME Arg1:T89 Arg2:T55	
+R52	ABBREVIATION Arg1:T61 Arg2:T60	
+T90	EVENT 729 738	забил мяч
+R53	AGENT Arg1:T26 Arg2:T90	
+R54	POINT_IN_TIME Arg1:T90 Arg2:T25	
+R55	SUBEVENT_OF Arg1:T90 Arg2:T81	
+N1	Reference T7 Wikidata:Q4533552	Мордовия Арена
+N2	Reference T13 Wikidata:Q310610	Кавасима, Эйдзи
+N3	Reference T17 Wikidata:Q5041766	Санчес, Карлос Андрес
+N4	Reference T18 Wikidata:Q154708	Кагава, Синдзи
+N7	Reference T26 Wikidata:Q2092409	Хуан Кинтеро
+N9	Reference T29 Wikidata:Q211451	Александар Коларов
+N10	Reference T30 Wikidata:Q193592	полузащитник
+N11	Reference T31 Wikidata:Q159	Россия
+N13	Reference T34 Wikidata:Q45	Португалия
+N14	Reference T35 Wikidata:Q11571	Криштиану Роналду
+N15	Reference T39 Wikidata:Q195620	Осако, Юя
+N16	Reference T42 Wikidata:Q17	Япония
+N17	Reference T43 Wikidata:Q207441	Сборная Сенегала по футболу
+N18	Reference T44 Wikidata:Q190779	Центральный стадион Екатеринбург
+N20	Reference T46 Wikidata:Q33993	Ак Барс Арена
+N21	Reference T47 Wikidata:Q166196	сборная Польши по футболу
+N24	Reference T59 Wikidata:Q2997267	Колумбийцы
+N25	Reference T68 Wikidata:Q403	Сербия
+N26	Reference T75 Wikidata:Q161652	японцы
+N27	Reference T77 Wikidata:Q887	Екатеринбург
+N28	Reference T78 Wikidata:Q5340	Мордовия
+N29	Reference T79 Wikidata:Q900	Казань
+N30	Reference T82 Wikidata:Q182740	сборная Сербии по футболу
+N31	Reference T83 Wikidata:Q726080	сборная России по футболу
+N33	Reference T33 Wikidata:Q267245	сборная Португалии по футболу
+N35	Reference T86 Wikidata:Q170566	сборная Японии по футболу
+N37	Reference T22 Wikidata:Q7901501	
+N5	Reference T23 Wikidata:Q1709029	Батиста, Хосе
+N6	Reference T24 Wikidata:Q34044	
+N8	Reference T28 Wikidata:NULL	нет данных
+N32	Reference T84 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:Q15065431	Александр Сергеевич Головин
+N34	Reference T85 Wikidata:NULL	нет данных
+N19	Reference T45 Wikidata:Q212564	
+N36	Reference T88 Wikidata:NULL	нет данных
+N22	Reference T48 Wikidata:Q280658	нападающий
+N23	Reference T49 Wikidata:Q104770	Кёльн
+N38	Reference T50 Wikidata:Q195620	Осако, Юя
+N39	Reference T40 Wikidata:Q17	Япония
+N40	Reference T14 Wikidata:Q17	Япония
+N41	Reference T4 Wikidata:Q17	Япония
+N42	Reference T11 Wikidata:Q17	Япония
+N43	Reference T6 Wikidata:Q17	Япония
+N44	Reference T1 Wikidata:Q17	Япония
+N45	Reference T80 Wikidata:Q170566	сборная Японии по футболу
+N46	Reference T51 Wikidata:Q170566	сборная Японии по футболу
+N47	Reference T2 Wikidata:Q212564	
+N48	Reference T8 Wikidata:Q212564	
+N49	Reference T54 Wikidata:Q212564	

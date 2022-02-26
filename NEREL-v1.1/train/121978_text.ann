@@ -1,0 +1,101 @@
+T1	ORGANIZATION 0 3	ФНС
+T2	ORGANIZATION 48 51	ФНС
+T3	COUNTRY 52 58	России
+T4	ORGANIZATION 102 109	Минюсте
+T5	COUNTRY 110 112	РФ
+T7	ORGANIZATION 168 181	Роскомнадзора
+T8	ORGANIZATION 183 186	МВД
+T9	ORGANIZATION 188 191	ФНС
+T10	ORGANIZATION 194 210	Роспотребнадзора
+T11	ORGANIZATION 369 397	Федеральной налоговой службе
+T12	COUNTRY 398 400	РФ
+T13	ORGANIZATION 402 405	ФНС
+T14	DATE 461 478	27 июня 2017 года
+T15	LAW 490 502	пункту 4.1.7
+T16	ORGANIZATION 521 524	ФНС
+T17	ORGANIZATION 569 572	ФНС
+T18	LAW 637 656	пунктам 4.1.1-4.1.6
+T19	COUNTRY 925 927	РФ
+T20	PROFESSION 1043 1055	замдиректора
+T21	ORGANIZATION 1056 1114	Координационного центра национального домена сети Интернет
+T22	PERSON 1115 1130	Сергея Копылова
+T23	ORGANIZATION 1158 1161	ФНС
+T24	ORGANIZATION 1266 1274	Госдумой
+T25	PROFESSION 1312 1347	директор по стратегическим проектам
+T26	ORGANIZATION 1348 1380	Института исследований интернета
+T27	PERSON 1381 1393	Ирина Левова
+T29	PERSON 1699 1705	Левова
+T30	ORGANIZATION 48 58	ФНС России
+T31	ORGANIZATION 102 112	Минюсте РФ
+T6	PRODUCT 258 266	интернет
+T32	ORGANIZATION 369 400	Федеральной налоговой службе РФ
+T33	PRODUCT 769 778	интернете
+T34	EVENT 446 460	вступил в силу
+T35	PRODUCT 928 936	интернет
+T36	PRODUCT 1106 1114	Интернет
+T37	PROFESSION 1043 1114	замдиректора Координационного центра национального домена сети Интернет
+T38	PROFESSION 1312 1380	директор по стратегическим проектам Института исследований интернета
+T28	LAW 1395 1406	пункт 4.1.7
+T39	ORDINAL 497 502	4.1.7
+T40	ORDINAL 645 656	4.1.1-4.1.6
+T41	ORDINAL 1401 1406	4.1.7
+R1	HEADQUARTERED_IN Arg1:T30 Arg2:T3	
+R2	HEADQUARTERED_IN Arg1:T31 Arg2:T5	
+T42	PROFESSION 160 181	главами Роскомнадзора
+T43	PROFESSION 160 167;183 186	главами МВД
+T44	PROFESSION 160 167;188 191	главами ФНС
+T45	PROFESSION 160 167;194 210	главами Роспотребнадзора
+R3	WORKPLACE Arg1:T42 Arg2:T7	
+R4	WORKPLACE Arg1:T45 Arg2:T10	
+R5	WORKPLACE Arg1:T44 Arg2:T9	
+R6	WORKPLACE Arg1:T43 Arg2:T8	
+R7	ABBREVIATION Arg1:T11 Arg2:T13	
+R8	HEADQUARTERED_IN Arg1:T11 Arg2:T12	
+R9	POINT_IN_TIME Arg1:T34 Arg2:T14	
+R10	WORKPLACE Arg1:T37 Arg2:T21	
+R11	WORKPLACE Arg1:T22 Arg2:T21	
+R12	WORKS_AS Arg1:T22 Arg2:T37	
+R13	WORKPLACE Arg1:T38 Arg2:T26	
+R14	WORKPLACE Arg1:T27 Arg2:T26	
+R15	WORKS_AS Arg1:T27 Arg2:T38	
+R16	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+N1	Reference T3 Wikidata:Q159	Россия
+N3	Reference T5 Wikidata:Q159	Россия
+N4	Reference T7 Wikidata:Q129597	Роскомнадзор
+N5	Reference T8 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N6	Reference T10 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N7	Reference T16 Wikidata:Q4481672	Федеральная налоговая служба
+N11	Reference T24 Wikidata:Q715641	Государственная дума
+N15	Reference T30 Wikidata:Q4481672	Федеральная налоговая служба
+N16	Reference T31 Wikidata:Q264356	Министерство юстиции Российской Федерации
+N18	Reference T35 Wikidata:Q75	Интернет
+N21	Reference T42 Wikidata:Q129597	Роскомнадзор
+N13	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T27 Wikidata:NULL	нет данных
+N2	Reference T4 Wikidata:Q1413677	министерство юстиции
+N17	Reference T32 Wikidata:Q4481672	Федеральная налоговая служба
+N25	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:NULL	нет данных
+N12	Reference T25 Wikidata:NULL	нет данных
+N20	Reference T38 Wikidata:NULL	нет данных
+N10	Reference T22 Wikidata:NULL	нет данных
+N26	Reference T20 Wikidata:Q25378518	
+N9	Reference T21 Wikidata:Q4232167	
+N19	Reference T37 Wikidata:NULL	нет данных
+N22	Reference T43 Wikidata:Q17578116	
+N23	Reference T44 Wikidata:NULL	нет данных
+N24	Reference T45 Wikidata:NULL	нет данных
+N27	Reference T19 Wikidata:Q159	Россия
+N28	Reference T12 Wikidata:Q159	Россия
+N29	Reference T13 Wikidata:Q4481672	Федеральная налоговая служба
+N30	Reference T23 Wikidata:Q4481672	Федеральная налоговая служба
+N31	Reference T17 Wikidata:Q4481672	Федеральная налоговая служба
+N32	Reference T11 Wikidata:Q4481672	Федеральная налоговая служба
+N33	Reference T9 Wikidata:Q4481672	Федеральная налоговая служба
+N34	Reference T2 Wikidata:Q4481672	Федеральная налоговая служба
+N35	Reference T1 Wikidata:Q4481672	Федеральная налоговая служба
+N36	Reference T36 Wikidata:Q75	Интернет
+N37	Reference T6 Wikidata:Q75	Интернет
+N38	Reference T33 Wikidata:Q75	Интернет
+N39	Reference T29 Wikidata:NULL	нет данных
+N40	Reference T28 Wikidata:NULL	нет данных

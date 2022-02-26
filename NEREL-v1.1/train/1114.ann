@@ -1,0 +1,122 @@
+T1	ORGANIZATION 0 7	Газпром
+T2	PROFESSION 15 63	главу оператора морского участка "Южного потока"
+T5	PERSON 102 116	Алексей Миллер
+T6	FACILITY 193 204	Южный поток
+T7	ORGANIZATION 208 215	Газпром
+T8	FACILITY 287 298	Южный поток
+T9	ORGANIZATION 311 333	South Stream Transport
+T11	PERSON 379 393	Алексей Миллер
+T12	ORGANIZATION 447 452	Прайм
+T13	PERSON 601 607	Миллер
+T14	EVENT 611 628	пресс-конференции
+T15	DATE 709 720	С 2010 года
+T16	PERSON 756 770	Марсель Крамер
+T17	DATE 781 794	в разные годы
+T18	COUNTRY 834 844	норвежской
+T19	ORGANIZATION 867 874	Statoil
+T20	COUNTRY 886 899	нидерландской
+T21	ORGANIZATION 931 936	Прайм
+T23	PROFESSION 1004 1029	член правления "Газпрома"
+T24	ORGANIZATION 1020 1028	Газпрома
+T25	PERSON 1030 1042	Олег Аксютин
+T26	AGE 1044 1053	46-летний
+T27	PROFESSION 1054 1066	топ-менеджер
+T28	DATE 1144 1155	в 2008 году
+T29	ORGANIZATION 1256 1276	правление "Газпрома"
+T30	ORGANIZATION 1267 1275	Газпрома
+T32	NUMBER 1326 1346	около 900 километров
+T33	LOCATION 1354 1366	Черного моря
+T34	DATE 1391 1419	во втором квартале 2014 года
+T35	FACILITY 1456 1467	Южный поток
+T36	DATE 1479 1498	7 декабря 2012 года
+T37	FACILITY 1534 1541	Русская
+T38	CITY 1552 1557	Анапы
+T39	NUMBER 1590 1597	четырех
+T41	NUMBER 1614 1635	около 15,75 миллиарда
+T42	LOCATION 1706 1712	Европу
+T43	DATE 1735 1762	в первом квартале 2016 года
+T44	NUMBER 1802 1825	63 миллиарда кубометров
+T45	DATE 1834 1845	в 2018 году
+T46	FACILITY 1864 1877	Южного потока
+T47	MONEY 1922 1940	16 миллиардов евро
+T10	ORGANIZATION 721 743	South Stream Transport
+T48	ORGANIZATION 900 907	Gasunie
+T49	ORGANIZATION 1009 1029	правления "Газпрома"
+T22	PROFESSION 945 991	главой оператора морской части "Южного потока"
+T50	PROFESSION 1156 1241	начальником департамента по транспортировке, подземному хранению и использованию газа
+T51	ORGANIZATION 1168 1241	департамента по транспортировке, подземному хранению и использованию газа
+T31	FACILITY 1310 1323	Южного потока
+T52	FACILITY 977 990	Южного потока
+T53	FACILITY 49 62	Южного потока
+R1	WORKPLACE Arg1:T5 Arg2:T1	
+R2	WORKPLACE Arg1:T11 Arg2:T7	
+R3	PARTICIPANT_IN Arg1:T13 Arg2:T14	
+R4	WORKPLACE Arg1:T16 Arg2:T10	
+R5	WORKS_AS Arg1:T25 Arg2:T22	
+R6	WORKS_AS Arg1:T25 Arg2:T23	
+R7	MEMBER_OF Arg1:T25 Arg2:T49	
+R8	WORKPLACE Arg1:T25 Arg2:T24	
+R9	AGE_IS Arg1:T27 Arg2:T26	
+R10	AGE_IS Arg1:T25 Arg2:T26	
+R11	WORKS_AS Arg1:T25 Arg2:T50	
+R12	HEADQUARTERED_IN Arg1:T19 Arg2:T18	
+R13	HEADQUARTERED_IN Arg1:T48 Arg2:T20	
+T40	COUNTRY 72 83	российского
+R14	WORKPLACE Arg1:T23 Arg2:T49	
+R15	PRICE_OF Arg1:T46 Arg2:T47	
+R16	WORKPLACE Arg1:T16 Arg2:T19	
+R17	WORKPLACE Arg1:T16 Arg2:T48	
+R18	WORKPLACE Arg1:T2 Arg2:T9	
+T3	PROFESSION 343 378	глава российского газового холдинга
+R19	WORKS_AS Arg1:T11 Arg2:T3	
+T4	COUNTRY 349 360	российского
+T54	PROFESSION 66 101	Глава российского газового холдинга
+R20	WORKS_AS Arg1:T5 Arg2:T54	
+R21	WORKPLACE Arg1:T3 Arg2:T7	
+R22	HEADQUARTERED_IN Arg1:T7 Arg2:T4	
+R23	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R24	WORKPLACE Arg1:T50 Arg2:T51	
+R25	PART_OF Arg1:T51 Arg2:T30	
+R26	PART_OF Arg1:T29 Arg2:T30	
+R27	WORKPLACE Arg1:T25 Arg2:T29	
+R28	PART_OF Arg1:T37 Arg2:T35	
+N2	Reference T11 Wikidata:Q467644	Алексей Борисович Миллер
+N7	Reference T24 Wikidata:Q102673	Газпром
+N8	Reference T25 Wikidata:Q27918378	Олег Евгеньевич Аксютин
+N10	Reference T33 Wikidata:Q166	Чёрное море
+N11	Reference T35 Wikidata:Q666347	Южный поток
+N13	Reference T38 Wikidata:Q15758	Анапа
+N14	Reference T42 Wikidata:Q176626	Европа, Европа
+N16	Reference T48 Wikidata:Q918239	Nederlandse Gasunie
+N1	Reference T2 Wikidata:NULL	нет данных
+N19	Reference T40 Wikidata:Q159	Россия
+N20	Reference T54 Wikidata:NULL	нет данных
+N21	Reference T12 Wikidata:Q4376388	
+N15	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:Q20	Норвегия
+N22	Reference T19 Wikidata:Q1776022	
+N5	Reference T20 Wikidata:Q55	Нидерланды
+N18	Reference T22 Wikidata:NULL	нет данных
+N17	Reference T49 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T50 Wikidata:NULL	нет данных
+N24	Reference T51 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:Q10501288	
+N12	Reference T37 Wikidata:NULL	нет данных
+N25	Reference T5 Wikidata:Q467644	Алексей Борисович Миллер
+N26	Reference T13 Wikidata:Q467644	Алексей Борисович Миллер
+N27	Reference T30 Wikidata:Q102673	Газпром
+N28	Reference T1 Wikidata:Q102673	Газпром
+N29	Reference T7 Wikidata:Q102673	Газпром
+N30	Reference T46 Wikidata:Q666347	Южный поток
+N31	Reference T6 Wikidata:Q666347	Южный поток
+N32	Reference T31 Wikidata:Q666347	Южный поток
+N33	Reference T8 Wikidata:Q666347	Южный поток
+N34	Reference T52 Wikidata:Q666347	Южный поток
+N35	Reference T53 Wikidata:Q666347	Южный поток
+N36	Reference T4 Wikidata:Q159	Россия
+N37	Reference T3 Wikidata:NULL	нет данных
+N38	Reference T21 Wikidata:Q4376388	
+N39	Reference T9 Wikidata:NULL	нет данных
+N40	Reference T29 Wikidata:NULL	нет данных

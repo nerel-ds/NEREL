@@ -1,0 +1,89 @@
+T1	PROFESSION 0 12	Папа Римский
+T3	EVENT 100 120	рождественской мессы
+T5	FACILITY 123 143	соборе святого Петра
+T6	CITY 146 154	Ватикане
+T7	PERSON 353 359	Марией
+T8	PERSON 362 369	Иосифом
+T9	CITY 402 410	Назарета
+T10	CITY 413 420	Вифлеем
+T11	ORGANIZATION 572 575	BBC
+T12	PROFESSION 578 603	Глава католической церкви
+T13	NUMBER 640 648	миллионы
+T14	EVENT 790 797	молебен
+T15	AGE 856 865	81-летний
+T16	CITY 893 906	Буэнос-Айресе
+T17	NATIONALITY 915 926	итальянских
+T18	NUMBER 1036 1057	порядка 1,2 миллиарда
+T19	TIME 1094 1124	в ночь на 25 декабря 2017 года
+T20	DATE 1104 1124	25 декабря 2017 года
+T21	PERSON 13 21	Франциск
+T22	PERSON 84 92	Франциск
+T23	PROFESSION 71 83	Папа Римский
+T24	CITY 76 83	Римский
+T25	CITY 5 12	Римский
+T2	DATE 22 33	в Рождество
+T4	PERSON 130 143	святого Петра
+T26	PROFESSION 155 167	папа Римский
+T27	CITY 160 167	Римский
+T28	PERSON 168 176	Франциск
+T29	PROFESSION 319 327	Понтифик
+T30	CITY 439 446	римском
+T31	PROFESSION 480 484	Папа
+T32	NUMBER 263 271	миллионы
+T33	DATE 798 809	в сочельник
+T34	PROFESSION 866 878	папа Римский
+T35	CITY 871 878	Римский
+T36	RELIGION 1058 1067	католиков
+T37	RELIGION 584 596	католической
+R1	WORKS_AS Arg1:T21 Arg2:T1	
+R2	WORKS_AS Arg1:T22 Arg2:T23	
+R3	WORKS_AS Arg1:T28 Arg2:T26	
+R4	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+R5	LOCATED_IN Arg1:T5 Arg2:T6	
+R6	TAKES_PLACE_IN Arg1:T3 Arg2:T5	
+R7	PARTICIPANT_IN Arg1:T28 Arg2:T3	
+R8	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+R9	ALTERNATIVE_NAME Arg1:T31 Arg2:T12	
+R10	RELIGION_OF Arg1:T12 Arg2:T37	
+R11	AGE_IS Arg1:T34 Arg2:T15	
+R12	ALTERNATIVE_NAME Arg1:T12 Arg2:T34	
+R13	PLACE_OF_BIRTH Arg1:T34 Arg2:T16	
+R14	ORIGINS_FROM Arg1:T34 Arg2:T17	
+R15	AGE_IS Arg1:T28 Arg2:T15	
+R16	WORKS_AS Arg1:T28 Arg2:T34	
+R17	PLACE_OF_BIRTH Arg1:T28 Arg2:T16	
+R18	ORIGINS_FROM Arg1:T28 Arg2:T17	
+R19	RELIGION_OF Arg1:T28 Arg2:T37	
+R20	WORKPLACE Arg1:T1 Arg2:T25	
+R21	WORKPLACE Arg1:T23 Arg2:T24	
+R22	WORKPLACE Arg1:T26 Arg2:T27	
+R23	POINT_IN_TIME Arg1:T14 Arg2:T33	
+R24	PARTICIPANT_IN Arg1:T12 Arg2:T14	
+R25	WORKPLACE Arg1:T34 Arg2:T35	
+N1	Reference T5 Wikidata:Q12512	собор Святого Петра
+N2	Reference T6 Wikidata:Q237	Ватикан
+N3	Reference T7 Wikidata:Q345	Дева Мария
+N4	Reference T8 Wikidata:Q128267	Иосиф Обручник
+N5	Reference T9 Wikidata:Q430776	Назарет
+N6	Reference T10 Wikidata:Q5776	Вифлеем
+N7	Reference T11 Wikidata:Q191472	BBC One
+N8	Reference T16 Wikidata:Q1486	Буэнос-Айрес
+N11	Reference T4 Wikidata:Q33923	Апостол Пётр
+N12	Reference T26 Wikidata:Q19546	Папа Римский
+N15	Reference T37 Wikidata:Q9592	католическая церковь
+N10	Reference T22 Wikidata:Q450675	Франциск
+N13	Reference T30 Wikidata:NULL	Римская
+N9	Reference T17 Wikidata:Q50001	итальянцы
+N14	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T12 Wikidata:Q19546	Папа Римский
+N17	Reference T23 Wikidata:Q19546	Папа Римский
+N18	Reference T31 Wikidata:Q19546	Папа Римский
+N19	Reference T34 Wikidata:Q19546	Папа Римский
+N20	Reference T29 Wikidata:Q19546	Папа Римский
+N21	Reference T1 Wikidata:Q19546	Папа Римский
+N22	Reference T28 Wikidata:Q450675	Франциск
+N23	Reference T21 Wikidata:Q450675	Франциск
+N24	Reference T24 Wikidata:NULL	Римская
+N25	Reference T25 Wikidata:NULL	Римская
+N26	Reference T35 Wikidata:NULL	Римская
+N27	Reference T27 Wikidata:NULL	Римская

@@ -1,0 +1,273 @@
+T1	PERSON 0 17	Евгения Медведева
+T2	PERSON 26 36	Тутберидзе
+T3	COUNTRY 62 69	Армению
+T4	PERSON 70 87	Евгения Медведева
+T5	CITY 156 165	Пхёнчхане
+T6	AGE 166 175	18-летняя
+T7	PERSON 176 193	Евгения Медведева
+T8	PROFESSION 202 209	тренера
+T9	COUNTRY 234 240	Канаду
+T10	COUNTRY 273 279	России
+T11	COUNTRY 312 319	Армению
+T12	PERSON 378 387	Медведева
+T13	COUNTRY 402 409	Армению
+T14	NATIONALITY 434 443	армянский
+T15	PERSON 454 467	Арман Бабасян
+T16	PROFESSION 476 483	тренера
+T17	PERSON 484 500	Этери Тутберидзе
+T18	DATE 532 543	с 2007 года
+T19	PERSON 560 574	Брайана Орсера
+T20	LOCATION 623 639	Северную Америку
+T21	DATE 650 658	июньских
+T22	COUNTRY 687 693	Японии
+T23	PROFESSION 702 722	генеральный директор
+T24	ORGANIZATION 752 760	Самбо-70
+T25	PERSON 762 774	Ренат Лайшев
+T26	PERSON 819 828	Медведева
+T27	PROFESSION 856 864	тренером
+T28	PERSON 865 881	Этери Тутберидзе
+T29	ORGANIZATION 949 957	Самбо-70
+T30	ORGANIZATION 983 986	РБК
+T31	DATE 1062 1072	двухлетний
+T32	DATE 1186 1206	23 февраля 2018 года
+T33	EVENT 1210 1219	олимпиаде
+T34	CITY 1222 1231	Пхёнчхане
+T35	DATE 1299 1308	2020 года
+T36	PERSON 1311 1327	Этери Тутберидзе
+T37	CITY 1478 1487	Пхёнчхане
+T38	DATE 1566 1575	2015 года
+T39	PERSON 1576 1590	Полина Цурская
+T40	PERSON 1632 1650	Александра Трусова
+T41	PERSON 1683 1693	Тутберидзе
+T42	PERSON 1724 1734	Медведевой
+T43	EVENT 1738 1747	Олимпиаде
+T44	PERSON 1772 1780	Загитова
+T45	PERSON 1801 1810	Медведева
+T46	PERSON 1910 1927	Алексеем Ягудиным
+T47	WORK_OF_ART 1943 1966	Ледниковый период. Дети
+T48	ORGANIZATION 1971 1984	Первом канале
+T49	PERSON 1987 1999	Брайан Орсер
+T50	PERSON 2001 2012	Brian Orser
+T51	NATIONALITY 2016 2025	канадский
+T52	DATE 2115 2119	1984
+T54	DATE 2141 2150	1987 года
+T55	DATE 2152 2163	В 1988 году
+T56	PERSON 2164 2169	Орсер
+T57	EVENT 2217 2242	Олимпийских игр в Калгари
+T58	EVENT 2208 2242	открытии Олимпийских игр в Калгари
+T59	CITY 2235 2242	Калгари
+T60	PROFESSION 2271 2279	тренером
+T61	DATE 2281 2292	С 2009 года
+T62	ORGANIZATION 2302 2338	Зал славы мирового фигурного катания
+T65	AWARD 99 113	чемпионка мира
+T66	NUMBER 88 98	Двукратная
+T67	EVENT 144 165	олимпиады в Пхёнчхане
+T68	EVENT 144 153	олимпиады
+T69	PROFESSION 281 292	спортсменка
+T70	PROFESSION 444 453	бизнесмен
+T71	PROFESSION 512 522	фигуристка
+T72	PROFESSION 591 602	спортсменка
+T73	EVENT 659 684	показательных выступлений
+T74	PROFESSION 702 760	генеральный директор центра спорта и образования «Самбо-70
+T77	PROFESSION 905 915	фигуристка
+T78	PROFESSION 972 980	тренером
+T79	PERSON 1031 1041	Медведевой
+T80	PROFESSION 1165 1175	фигуристка
+T81	EVENT 1210 1231	олимпиаде в Пхёнчхане
+T82	PROFESSION 1257 1268	спортсменка
+T83	PROFESSION 1354 1364	фигуристок
+T84	EVENT 1466 1487	Олимпиады в Пхёнчхане
+T85	EVENT 1466 1475	Олимпиады
+T86	PERSON 1488 1502	Алина Загитова
+T87	EVENT 1543 1551	Гран-при
+T88	AWARD 1593 1626	чемпионка мира среди юниоров 2018
+T89	AWARD 1593 1607	чемпионка мира
+T90	DATE 1622 1626	2018
+T91	EVENT 1738 1752	Олимпиаде-2018
+T92	DATE 1748 1752	2018
+T93	PROFESSION 2026 2034	фигурист
+T94	NUMBER 2069 2079	двукратный
+T96	AWARD 2080 2113	серебряный призёр Олимпийских игр
+T97	AWARD 2091 2113	призёр Олимпийских игр
+T98	EVENT 2098 2113	Олимпийских игр
+T99	DATE 2121 2125	1988
+T53	AWARD 2128 2150	чемпион мира 1987 года
+T100	AWARD 2128 2140	чемпион мира
+T101	EVENT 2217 2232	Олимпийских игр
+T102	DATE 2244 2261	В настоящее время
+R1	AGE_IS Arg1:T7 Arg2:T6	
+T103	ORGANIZATION 265 279	сборной России
+R2	HEADQUARTERED_IN Arg1:T103 Arg2:T10	
+R3	ORIGINS_FROM Arg1:T15 Arg2:T14	
+R4	WORKS_AS Arg1:T15 Arg2:T70	
+R5	WORKS_AS Arg1:T17 Arg2:T16	
+R6	WORKS_AS Arg1:T7 Arg2:T69	
+R7	WORKS_AS Arg1:T7 Arg2:T71	
+R8	KNOWS Arg1:T7 Arg2:T17	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R11	PARENT_OF Arg1:T15 Arg2:T12	
+R12	POINT_IN_TIME Arg1:T73 Arg2:T21	
+R13	TAKES_PLACE_IN Arg1:T73 Arg2:T22	
+R14	WORKS_AS Arg1:T28 Arg2:T27	
+R15	WORKS_AS Arg1:T26 Arg2:T77	
+R16	WORKS_AS Arg1:T79 Arg2:T80	
+R17	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R18	PARTICIPANT_IN Arg1:T45 Arg2:T47	
+R19	PRODUCES Arg1:T48 Arg2:T47	
+R20	ALTERNATIVE_NAME Arg1:T49 Arg2:T50	
+R21	ORIGINS_FROM Arg1:T49 Arg2:T51	
+R22	WORKS_AS Arg1:T49 Arg2:T93	
+R23	ALTERNATIVE_NAME Arg1:T49 Arg2:T56	
+R24	SUBEVENT_OF Arg1:T58 Arg2:T57	
+R25	TAKES_PLACE_IN Arg1:T58 Arg2:T59	
+R26	TAKES_PLACE_IN Arg1:T57 Arg2:T59	
+R27	WORKS_AS Arg1:T56 Arg2:T60	
+T75	PROFESSION 702 750	генеральный директор центра спорта и образования
+R28	WORKPLACE Arg1:T74 Arg2:T24	
+R29	WORKS_AS Arg1:T25 Arg2:T74	
+R30	WORKPLACE Arg1:T25 Arg2:T24	
+R31	WORKPLACE Arg1:T26 Arg2:T24	
+R32	TAKES_PLACE_IN Arg1:T81 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+T76	DISEASE 1887 1899	травмы стопы
+R34	MEDICAL_CONDITION Arg1:T45 Arg2:T76	
+R35	POINT_IN_TIME Arg1:T91 Arg2:T92	
+R36	PARTICIPANT_IN Arg1:T42 Arg2:T91	
+R37	PARTICIPANT_IN Arg1:T44 Arg2:T91	
+R38	ALTERNATIVE_NAME Arg1:T86 Arg2:T44	
+R39	TAKES_PLACE_IN Arg1:T84 Arg2:T37	
+R40	TAKES_PLACE_IN Arg1:T67 Arg2:T5	
+R41	PARTICIPANT_IN Arg1:T7 Arg2:T67	
+R42	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R43	ORIGINS_FROM Arg1:T15 Arg2:T13	
+R9	KNOWS Arg1:T12 Arg2:T19	
+R44	KNOWS Arg1:T19 Arg2:T12	
+R45	WORKS_AS Arg1:T12 Arg2:T72	
+R46	PARTICIPANT_IN Arg1:T72 Arg2:T73	
+R47	PARTICIPANT_IN Arg1:T12 Arg2:T73	
+R48	WORKPLACE Arg1:T77 Arg2:T29	
+R49	PARTICIPANT_IN Arg1:T80 Arg2:T81	
+R50	PARTICIPANT_IN Arg1:T79 Arg2:T81	
+T104	EVENT 1450 1487	личного турнира Олимпиады в Пхёнчхане
+R51	SUBEVENT_OF Arg1:T104 Arg2:T84	
+T105	EVENT 1450 1465	личного турнира
+R52	PARTICIPANT_IN Arg1:T86 Arg2:T104	
+T106	EVENT 1519 1536	юниорского финала
+T107	EVENT 1519 1551	юниорского финала серии Гран-при
+T108	EVENT 1543 1575	Гран-при среди юниоров 2015 года
+R53	POINT_IN_TIME Arg1:T108 Arg2:T38	
+R54	POINT_IN_TIME Arg1:T107 Arg2:T38	
+R55	PARTICIPANT_IN Arg1:T39 Arg2:T107	
+R56	PARTICIPANT_IN Arg1:T39 Arg2:T108	
+T109	AWARD 1593 1621	чемпионка мира среди юниоров
+R57	POINT_IN_TIME Arg1:T88 Arg2:T90	
+R58	AWARDED_WITH Arg1:T40 Arg2:T88	
+R59	KNOWS Arg1:T45 Arg2:T46	
+R60	KNOWS Arg1:T46 Arg2:T45	
+R61	ORIGINS_FROM Arg1:T93 Arg2:T51	
+R62	POINT_IN_TIME Arg1:T98 Arg2:T52	
+R63	POINT_IN_TIME Arg1:T98 Arg2:T99	
+R66	POINT_IN_TIME Arg1:T53 Arg2:T54	
+R67	PARTICIPANT_IN Arg1:T56 Arg2:T58	
+R68	POINT_IN_TIME Arg1:T58 Arg2:T55	
+R69	POINT_IN_TIME Arg1:T57 Arg2:T55	
+R70	MEMBER_OF Arg1:T49 Arg2:T62	
+T63	AWARD 99 134	чемпионка мира по фигурному катанию
+R71	AWARDED_WITH Arg1:T7 Arg2:T63	
+R72	KNOWS Arg1:T1 Arg2:T2	
+R73	KNOWS Arg1:T2 Arg2:T1	
+T64	EVENT 18 22	ушла
+R74	AGENT Arg1:T1 Arg2:T64	
+R75	PARTICIPANT_IN Arg1:T2 Arg2:T64	
+R76	ORIGINS_FROM Arg1:T63 Arg2:T67	
+T110	EVENT 194 209	сменила тренера
+R77	AGENT Arg1:T7 Arg2:T110	
+R78	ALTERNATIVE_NAME Arg1:T64 Arg2:T110	
+T111	EVENT 549 556	сменила
+R79	AGENT Arg1:T12 Arg2:T111	
+R80	PARTICIPANT_IN Arg1:T17 Arg2:T111	
+R81	PARTICIPANT_IN Arg1:T19 Arg2:T111	
+R82	WORKS_AS Arg1:T19 Arg2:T16	
+T112	LOCATION 632 639	Америку
+R83	LOCATED_IN Arg1:T20 Arg2:T112	
+T113	EVENT 829 853	завершила сотрудничество
+R84	AGENT Arg1:T26 Arg2:T113	
+R85	PARTICIPANT_IN Arg1:T28 Arg2:T113	
+R86	TAKES_PLACE_IN Arg1:T113 Arg2:T24	
+R87	POINT_IN_TIME Arg1:T81 Arg2:T32	
+R88	POINT_IN_TIME Arg1:T88 Arg2:T90	
+R64	POINT_IN_TIME Arg1:T96 Arg2:T52	
+R65	POINT_IN_TIME Arg1:T96 Arg2:T99	
+R89	AWARDED_WITH Arg1:T49 Arg2:T96	
+R90	AWARDED_WITH Arg1:T49 Arg2:T53	
+N1	Reference T9 Wikidata:Q16	Канада
+N2	Reference T10 Wikidata:Q159	Россия
+N3	Reference T11 Wikidata:Q399	Армения
+N5	Reference T16 Wikidata:Q41583	тренер
+N6	Reference T17 Wikidata:Q5402587	Этери Георгиевна Тутберидзе
+N7	Reference T20 Wikidata:Q49	Северная Америка
+N8	Reference T22 Wikidata:Q17	Япония
+N9	Reference T23 Wikidata:Q1501800	генеральный директор
+N11	Reference T25 Wikidata:Q16669885	Лайшев, Ренат Алексеевич
+N13	Reference T30 Wikidata:Q629733	РосБизнесКонсалтинг
+N14	Reference T37 Wikidata:Q188624	Пхёнчхан
+N15	Reference T39 Wikidata:Q20856609	Цурская, Полина Игоревна
+N16	Reference T40 Wikidata:Q37983439	Александра Трусова
+N17	Reference T46 Wikidata:Q316861	Ягудин, Алексей Константинович
+N19	Reference T48 Wikidata:Q330067	Первый канал
+N20	Reference T49 Wikidata:Q538342	Орсер, Брайан
+N22	Reference T59 Wikidata:Q36312	Калгари
+N23	Reference T62 Wikidata:Q377611	Зал Славы мирового фигурного катания
+N25	Reference T70 Wikidata:Q131524	предприниматель
+N28	Reference T86 Wikidata:Q26910816	Алина Ильназовна Загитова
+N24	Reference T65 Wikidata:Q2948691	
+N38	Reference T63 Wikidata:NULL	нет данных
+N35	Reference T103 Wikidata:NULL	нет данных
+N39	Reference T69 Wikidata:Q2066131	спортсмен
+N4	Reference T14 Wikidata:Q79797	армяне
+N40	Reference T15 Wikidata:NULL	нет данных
+N26	Reference T71 Wikidata:Q13219587	
+N41	Reference T112 Wikidata:NULL	нет данных
+N36	Reference T75 Wikidata:NULL	нет данных
+N27	Reference T74 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:Q4406508	
+N12	Reference T26 Wikidata:Q14756776	Евгения Армановна Медведева
+N37	Reference T109 Wikidata:NULL	нет данных
+N29	Reference T88 Wikidata:NULL	нет данных
+N18	Reference T47 Wikidata:NULL	нет данных
+N30	Reference T93 Wikidata:Q13219587	
+N21	Reference T51 Wikidata:Q1196645	канадцы
+N32	Reference T97 Wikidata:NULL	нет данных
+N31	Reference T96 Wikidata:NULL	нет данных
+N34	Reference T100 Wikidata:Q2948691	
+N33	Reference T53 Wikidata:NULL	нет данных
+N42	Reference T13 Wikidata:Q399	Армения
+N43	Reference T3 Wikidata:Q399	Армения
+N44	Reference T8 Wikidata:Q41583	тренер
+N45	Reference T60 Wikidata:Q41583	тренер
+N46	Reference T78 Wikidata:Q41583	тренер
+N47	Reference T27 Wikidata:Q41583	тренер
+N48	Reference T36 Wikidata:Q5402587	Этери Георгиевна Тутберидзе
+N49	Reference T28 Wikidata:Q5402587	Этери Георгиевна Тутберидзе
+N50	Reference T2 Wikidata:Q5402587	Этери Георгиевна Тутберидзе
+N51	Reference T41 Wikidata:Q5402587	Этери Георгиевна Тутберидзе
+N52	Reference T34 Wikidata:Q188624	Пхёнчхан
+N53	Reference T5 Wikidata:Q188624	Пхёнчхан
+N54	Reference T50 Wikidata:Q538342	Орсер, Брайан
+N55	Reference T56 Wikidata:Q538342	Орсер, Брайан
+N56	Reference T19 Wikidata:Q538342	Орсер, Брайан
+N57	Reference T44 Wikidata:Q26910816	Алина Ильназовна Загитова
+N58	Reference T89 Wikidata:Q2948691	
+N59	Reference T82 Wikidata:Q2066131	спортсмен
+N60	Reference T72 Wikidata:Q2066131	спортсмен
+N61	Reference T80 Wikidata:Q13219587	
+N62	Reference T77 Wikidata:Q13219587	
+N63	Reference T83 Wikidata:Q13219587	
+N64	Reference T29 Wikidata:Q4406508	
+N65	Reference T12 Wikidata:Q14756776	Евгения Армановна Медведева
+N66	Reference T4 Wikidata:Q14756776	Евгения Армановна Медведева
+N67	Reference T7 Wikidata:Q14756776	Евгения Армановна Медведева
+N68	Reference T42 Wikidata:Q14756776	Евгения Армановна Медведева
+N69	Reference T79 Wikidata:Q14756776	Евгения Армановна Медведева
+N70	Reference T45 Wikidata:Q14756776	Евгения Армановна Медведева
+N71	Reference T1 Wikidata:Q14756776	Евгения Армановна Медведева

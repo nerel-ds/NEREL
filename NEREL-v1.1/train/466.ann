@@ -1,0 +1,106 @@
+T1	PERSON 12 21	Р.Мердока
+T2	PROFESSION 33 77	главой совета директоров медиахолдинга BSkyB
+T3	ORGANIZATION 72 77	BSkyB
+T4	NATIONALITY 84 97	американского
+T5	PERSON 111 126	Руперта Мердока
+T6	PERSON 128 141	Джеймс Мердок
+T7	PROFESSION 154 178	главой совета директоров
+T8	ORGANIZATION 239 273	British Sky Broadcasting Group PLC
+T9	ORGANIZATION 275 280	BSkyB
+T10	ORGANIZATION 292 299	Reuters
+T11	AGE 321 331	38-летнего
+T12	NUMBER 360 374	около четверти
+T14	PERSON 421 430	Д.Мердока
+T15	ORGANIZATION 433 438	BSkyB
+T16	COUNTRY 556 568	американской
+T18	PERSON 667 675	Д.Мердок
+T19	PROFESSION 706 731	главы правления News Corp
+T20	ORGANIZATION 722 731	News Corp
+T21	ORGANIZATION 734 743	News Corp
+T22	PERCENT 757 760	39%
+T23	ORGANIZATION 767 772	BSkyB
+T26	ORGANIZATION 786 795	News Corp
+T27	ORGANIZATION 822 827	BSkyB
+T28	MONEY 831 843	12 млрд долл
+T30	ORGANIZATION 40 77	совета директоров медиахолдинга BSkyB
+T32	ORGANIZATION 161 178	совета директоров
+T33	COUNTRY 179 190	британского
+T34	PROFESSION 332 345	топ-менеджера
+T13	ORGANIZATION 569 578	News Corp
+T35	COUNTRY 580 590	британским
+T17	DATE 774 784	В июле с.г
+T24	PROFESSION 4 11	магната
+R1	WORKS_AS Arg1:T1 Arg2:T24	
+T25	PROFESSION 98 110	медиамагната
+R2	PARENT_OF Arg1:T5 Arg2:T6	
+T36	EVENT 143 153	переизбран
+R3	PARTICIPANT_IN Arg1:T6 Arg2:T36	
+R4	WORKS_AS Arg1:T5 Arg2:T25	
+R5	ORIGINS_FROM Arg1:T5 Arg2:T4	
+R6	WORKS_AS Arg1:T6 Arg2:T7	
+R7	WORKPLACE Arg1:T6 Arg2:T32	
+R8	WORKPLACE Arg1:T7 Arg2:T8	
+T37	COUNTRY 239 246	British
+R9	ABBREVIATION Arg1:T8 Arg2:T9	
+R10	WORKPLACE Arg1:T14 Arg2:T15	
+R11	WORKS_AS Arg1:T18 Arg2:T19	
+R12	WORKPLACE Arg1:T18 Arg2:T20	
+R13	OWNER_OF Arg1:T21 Arg2:T23	
+T38	EVENT 505 513	скандалу
+R14	PARTICIPANT_IN Arg1:T14 Arg2:T38	
+R15	HEADQUARTERED_IN Arg1:T13 Arg2:T16	
+R16	PARTICIPANT_IN Arg1:T13 Arg2:T29	
+R17	WORKS_AS Arg1:T6 Arg2:T34	
+R18	AGE_IS Arg1:T6 Arg2:T11	
+R19	AGE_IS Arg1:T34 Arg2:T11	
+R20	ALTERNATIVE_NAME Arg1:T6 Arg2:T14	
+T39	PERSON 0 21	Сын магната Р.Мердока
+R21	WORKS_AS Arg1:T39 Arg2:T2	
+R22	ALTERNATIVE_NAME Arg1:T6 Arg2:T39	
+R23	WORKPLACE Arg1:T39 Arg2:T30	
+R24	PARENT_OF Arg1:T1 Arg2:T39	
+R25	ALTERNATIVE_NAME Arg1:T33 Arg2:T37	
+T40	ORGANIZATION 712 731	правления News Corp
+R26	WORKPLACE Arg1:T19 Arg2:T40	
+R27	WORKPLACE Arg1:T2 Arg2:T30	
+R28	PART_OF Arg1:T30 Arg2:T3	
+R29	ORIGINS_FROM Arg1:T25 Arg2:T4	
+R30	WORKPLACE Arg1:T7 Arg2:T32	
+R31	HEADQUARTERED_IN Arg1:T8 Arg2:T37	
+R32	PART_OF Arg1:T32 Arg2:T8	
+R33	PARTICIPANT_IN Arg1:T32 Arg2:T36	
+R34	PARTICIPANT_IN Arg1:T8 Arg2:T36	
+T29	CRIME 516 540	незаконном прослушивании
+R35	HAS_CAUSE Arg1:T38 Arg2:T29	
+R36	CONVICTED_OF Arg1:T14 Arg2:T29	
+N3	Reference T3 Wikidata:Q918390	BSkyB
+N5	Reference T5 Wikidata:Q53944	Руперт Мердок
+N7	Reference T10 Wikidata:Q130879	Рейтер
+N11	Reference T26 Wikidata:Q185278	«Ньюс корпорейшен»
+N13	Reference T32 Wikidata:Q188628	совет директоров
+N15	Reference T13 Wikidata:Q185278	«Ньюс корпорейшен»
+N17	Reference T24 Wikidata:Q903810	магнат
+N18	Reference T25 Wikidata:Q1420621	медиамагнат
+N1	Reference T1 Wikidata:Q53944	Руперт Мердок
+N12	Reference T30 Wikidata:NULL	нет данных
+N2	Reference T2 Wikidata:NULL	нет данных
+N6	Reference T7 Wikidata:NULL	нет данных
+N14	Reference T34 Wikidata:NULL	нет данных
+N19	Reference T40 Wikidata:NULL	нет данных
+N10	Reference T19 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:Q471851	
+N16	Reference T35 Wikidata:Q161885	Королевство Великобритания
+N4	Reference T4 Wikidata:Q846570	
+N8	Reference T16 Wikidata:Q30	США
+N20	Reference T9 Wikidata:Q918390	BSkyB
+N21	Reference T15 Wikidata:Q918390	BSkyB
+N22	Reference T23 Wikidata:Q918390	BSkyB
+N23	Reference T8 Wikidata:Q918390	BSkyB
+N24	Reference T27 Wikidata:Q918390	BSkyB
+N25	Reference T21 Wikidata:Q185278	«Ньюс корпорейшен»
+N26	Reference T20 Wikidata:Q185278	«Ньюс корпорейшен»
+N27	Reference T39 Wikidata:Q471851	
+N28	Reference T6 Wikidata:Q471851	
+N29	Reference T14 Wikidata:Q471851	
+N30	Reference T37 Wikidata:Q161885	Королевство Великобритания
+N31	Reference T33 Wikidata:Q161885	Королевство Великобритания

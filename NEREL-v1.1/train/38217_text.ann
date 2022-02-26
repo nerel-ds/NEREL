@@ -1,0 +1,150 @@
+T2	PERSON 21 34	Мария Алёхина
+T3	PERSON 52 65	Мария Алёхина
+T4	DATE 66 82	22 мая 2013 года
+T5	PERSON 328 335	Алёхина
+T6	DATE 394 401	Сегодня
+T7	COUNTRY 402 412	российский
+T8	PERSON 451 459	Алёхиной
+T9	PERSON 496 503	Алёхина
+T10	CITY 541 550	Березники
+T11	LOCATION 554 559	Урале
+T12	CITY 581 587	Москвы
+T13	AGE 669 679	пятилетним
+T15	ORGANIZATION 780 790	Pussy Riot
+T16	PERSON 791 804	Мария Алехина
+T17	PERSON 807 828	Надежда Толоконникова
+T18	NUMBER 838 848	двухлетний
+T19	FACILITY 895 917	Храме Христа Спасителя
+T20	CITY 920 926	Москве
+T21	PROFESSION 1003 1012	Президент
+T22	ORGANIZATION 1063 1073	Pussy Riot
+T23	ORGANIZATION 1077 1105	Русская православная церковь
+T24	PERSON 1186 1193	Алёхину
+T25	NUMBER 1196 1200	двух
+T26	EVENT 1314 1326	панк-молебен
+T28	PERSON 1358 1377	Екатерина Самуцевич
+T29	PROFESSION 1490 1498	охранник
+T30	PERSON 1501 1514	Толоконникова
+T31	PERSON 1614 1621	Алёхина
+T32	AGE 1624 1633	23-летняя
+T33	PERSON 1634 1655	Надежда Толоконникова
+T36	ORGANIZATION 10 20	Pussy Riot
+T37	EVENT 42 51	голодовку
+T38	PERSON 83 96	Мария Алёхина
+T39	EVENT 104 113	голодовку
+T41	ORGANIZATION 281 291	Pussy Riot
+T45	PROFESSION 358 367	адвокатам
+T46	EVENT 382 391	заседании
+T47	EVENT 176 184	слушании
+T49	ORGANIZATION 402 416	российский суд
+T50	NUMBER 562 577	1200 километрах
+T52	CRIME 857 868	хулиганство
+T53	PENALTY 838 853	двухлетний срок
+T55	PERSON 901 917	Христа Спасителя
+T56	PERSON 985 991	Путина
+T57	PERSON 973 983	Богородица
+T58	PERSON 1013 1027	Владимир Путин
+T60	CRIME 1245 1256	хулиганстве
+T61	CRIME 1245 1289	хулиганстве по мотивам религиозной ненависти
+T62	EVENT 1462 1467	акции
+T63	EVENT 1727 1733	ареста
+R4	AGENT Arg1:T2 Arg2:T37	
+R5	AGENT Arg1:T38 Arg2:T39	
+R6	START_TIME Arg1:T39 Arg2:T4	
+R8	ALTERNATIVE_NAME Arg1:T38 Arg2:T5	
+R9	SUBORDINATE_OF Arg1:T45 Arg2:T5	
+R10	HEADQUARTERED_IN Arg1:T49 Arg2:T7	
+T40	EVENT 429 450	рассмотрению прошения
+R11	PARTICIPANT_IN Arg1:T8 Arg2:T40	
+R12	AGENT Arg1:T49 Arg2:T40	
+R13	POINT_IN_TIME Arg1:T40 Arg2:T6	
+R14	LOCATED_IN Arg1:T10 Arg2:T11	
+T14	DATE 728 755	в четверг, 23 мая 2013 года
+R19	MEMBER_OF Arg1:T16 Arg2:T15	
+R20	MEMBER_OF Arg1:T17 Arg2:T15	
+R21	KNOWS Arg1:T16 Arg2:T17	
+R22	PENALIZED_AS Arg1:T16 Arg2:T53	
+R23	PENALIZED_AS Arg1:T17 Arg2:T53	
+R24	HAS_CAUSE Arg1:T53 Arg2:T52	
+R25	CONVICTED_OF Arg1:T17 Arg2:T52	
+R26	CONVICTED_OF Arg1:T16 Arg2:T52	
+T43	WORK_OF_ART 973 999	Богородица, Путина прогони
+R27	PRODUCES Arg1:T17 Arg2:T43	
+R28	PRODUCES Arg1:T16 Arg2:T43	
+T44	EVENT 887 917	акцию в Храме Христа Спасителя
+R29	ORIGINS_FROM Arg1:T19 Arg2:T55	
+R30	LOCATED_IN Arg1:T19 Arg2:T20	
+R31	PARTICIPANT_IN Arg1:T16 Arg2:T44	
+R32	PARTICIPANT_IN Arg1:T17 Arg2:T44	
+R33	HAS_CAUSE Arg1:T53 Arg2:T44	
+R34	HAS_CAUSE Arg1:T52 Arg2:T44	
+T48	EVENT 945 960	исполнили песню
+R35	SUBEVENT_OF Arg1:T48 Arg2:T44	
+R36	PARTICIPANT_IN Arg1:T16 Arg2:T48	
+R37	PARTICIPANT_IN Arg1:T17 Arg2:T48	
+R38	PARTICIPANT_IN Arg1:T43 Arg2:T48	
+R39	ALTERNATIVE_NAME Arg1:T56 Arg2:T58	
+R40	WORKS_AS Arg1:T58 Arg2:T21	
+T54	EVENT 1051 1062	выступление
+R41	ALTERNATIVE_NAME Arg1:T48 Arg2:T54	
+R42	AGENT Arg1:T22 Arg2:T54	
+T64	EVENT 1036 1050	резкой критике
+R44	AGENT Arg1:T58 Arg2:T64	
+R45	HAS_CAUSE Arg1:T64 Arg2:T54	
+T65	EVENT 1224 1242	признали виновными
+R46	PARTICIPANT_IN Arg1:T24 Arg2:T65	
+T66	CRIME 1268 1289	религиозной ненависти
+R48	CONVICTED_OF Arg1:T24 Arg2:T61	
+R50	HAS_CAUSE Arg1:T65 Arg2:T61	
+R51	HAS_CAUSE Arg1:T65 Arg2:T26	
+R52	ALTERNATIVE_NAME Arg1:T54 Arg2:T26	
+R53	PARTICIPANT_IN Arg1:T24 Arg2:T26	
+T67	EVENT 1383 1391	отпущена
+R55	PARTICIPANT_IN Arg1:T28 Arg2:T67	
+T27	DATE 1337 1356	в октябре 2012 года
+R56	POINT_IN_TIME Arg1:T67 Arg2:T27	
+R57	ALTERNATIVE_NAME Arg1:T44 Arg2:T62	
+R58	ALTERNATIVE_NAME Arg1:T30 Arg2:T33	
+R59	AGE_IS Arg1:T33 Arg2:T32	
+T35	DATE 1734 1751	в марте 2012 года
+R60	POINT_IN_TIME Arg1:T63 Arg2:T35	
+R61	PARTICIPANT_IN Arg1:T33 Arg2:T63	
+R62	PARTICIPANT_IN Arg1:T31 Arg2:T63	
+R1	WORKPLACE Arg1:T2 Arg2:T36	
+R2	LOCATED_IN Arg1:T9 Arg2:T10	
+T1	RELIGION 1085 1097	православная
+R3	RELIGION_OF Arg1:T23 Arg2:T1	
+N1	Reference T7 Wikidata:Q159	Россия
+N3	Reference T10 Wikidata:Q105002	Березники
+N4	Reference T11 Wikidata:Q1322976	Урал
+N5	Reference T12 Wikidata:Q649	Москва
+N6	Reference T16 Wikidata:Q6760992	Мария Владимировна Алёхина
+N7	Reference T19 Wikidata:Q194474	Храм Христа Спасителя
+N8	Reference T21 Wikidata:Q30461	президент
+N9	Reference T22 Wikidata:Q7551	Pussy Riot
+N10	Reference T23 Wikidata:Q60995	Русская православная церковь
+N11	Reference T28 Wikidata:Q5215874	Екатерина Самуцевич
+N12	Reference T29 Wikidata:Q856887	охранник
+N13	Reference T30 Wikidata:Q288956	Надежда Андреевна Толоконникова
+N14	Reference T45 Wikidata:Q40348	адвокат
+N15	Reference T49 Wikidata:Q584759	Конституционный Суд Российской Федерации
+N17	Reference T56 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T57 Wikidata:Q345	Дева Мария
+N20	Reference T1 Wikidata:Q35032	Православная церковь
+N2	Reference T9 Wikidata:Q6760992	Мария Владимировна Алёхина
+N16	Reference T55 Wikidata:Q302	Иисус Христос
+N19	Reference T43 Wikidata:NULL	нет данных
+N21	Reference T20 Wikidata:Q649	Москва
+N22	Reference T36 Wikidata:Q7551	Pussy Riot
+N23	Reference T41 Wikidata:Q7551	Pussy Riot
+N24	Reference T15 Wikidata:Q7551	Pussy Riot
+N25	Reference T17 Wikidata:Q288956	Надежда Андреевна Толоконникова
+N26	Reference T33 Wikidata:Q288956	Надежда Андреевна Толоконникова
+N27	Reference T58 Wikidata:Q7747	Владимир Владимирович Путин
+N28	Reference T5 Wikidata:Q6760992	Мария Владимировна Алёхина
+N29	Reference T8 Wikidata:Q6760992	Мария Владимировна Алёхина
+N30	Reference T38 Wikidata:Q6760992	Мария Владимировна Алёхина
+N31	Reference T31 Wikidata:Q6760992	Мария Владимировна Алёхина
+N32	Reference T24 Wikidata:Q6760992	Мария Владимировна Алёхина
+N33	Reference T3 Wikidata:Q6760992	Мария Владимировна Алёхина
+N34	Reference T2 Wikidata:Q6760992	Мария Владимировна Алёхина

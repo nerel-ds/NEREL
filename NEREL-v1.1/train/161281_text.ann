@@ -1,0 +1,129 @@
+T1	PERSON 0 10	Вайнштейна
+T2	MONEY 33 39	$1 млн
+T3	PERSON 40 55	Харви Вайнштейн
+T4	PROFESSION 70 79	продюсера
+T5	PERSON 80 96	Харви Вайнштейна
+T6	MONEY 130 148	1 миллион долларов
+T7	PERSON 173 182	Вайнштейн
+T8	DATE 388 404	25 мая 2018 года
+T9	CITY 429 438	Нью-Йорка
+T10	PERSON 475 485	Вайнштейна
+T11	NUMBER 523 541	несколько десятков
+T12	DATE 571 591	восемь месяцев назад
+T13	NUMBER 621 629	более 50
+T14	AGE 689 699	65-летнего
+T15	PROFESSION 725 732	актрисы
+T16	PERSON 733 747	Анжелина Джоли
+T17	PERSON 749 763	Гвинет Пэлтроу
+T18	PERSON 766 779	Роуз Макгоуэн
+T19	PROFESSION 790 797	актриса
+T20	PERSON 798 811	Кара Делевинь
+T21	PERSON 813 821	Макгоуэн
+T22	PROFESSION 844 852	продюсер
+T23	COUNTRY 897 900	США
+T24	COUNTRY 903 917	Великобритании
+T25	PROFESSION 969 977	продюсер
+T26	PERSON 1158 1168	Вайнштейна
+T27	ORGANIZATION 56 69	Голливудского
+T28	CRIME 284 297	изнасиловании
+T29	CRIME 314 343	принуждении к оральному сексу
+T30	PROFESSION 405 413	продюсер
+T31	ORGANIZATION 421 428	полиции
+T32	ORGANIZATION 421 438	полиции Нью-Йорка
+T33	EVENT 445 453	задержан
+T34	EVENT 414 420	сдался
+T35	CRIME 488 503	домогательствах
+T36	CRIME 508 521	изнасиловании
+T37	ORDINAL 543 549	Первое
+T39	CRIME 650 677	сексуальных домогательствах
+T40	PERSON 700 710	Вайнштейна
+T41	PROFESSION 781 787	модель
+T42	CRIME 853 864	изнасиловал
+T43	ORGANIZATION 889 900	Полиции США
+T44	ORGANIZATION 889 896	Полиции
+T45	CRIME 1000 1015	домогательствах
+T46	CRIME 1017 1031	изнасилованиях
+T47	CRIME 1041 1065	насильственных действиях
+T48	PROFESSION 1067 1075	Адвокаты
+T49	EVENT 11 30	отпустили под залог
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T49	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R3	WORKS_AS Arg1:T5 Arg2:T4	
+T50	EVENT 97 117	отпустили на свободу
+T51	EVENT 97 127	отпустили на свободу под залог
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R5	WORKPLACE Arg1:T5 Arg2:T27	
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T51	
+R7	ALTERNATIVE_NAME Arg1:T49 Arg2:T51	
+R8	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R9	CONVICTED_OF Arg1:T7 Arg2:T28	
+R10	CONVICTED_OF Arg1:T7 Arg2:T29	
+R11	HEADQUARTERED_IN Arg1:T32 Arg2:T9	
+R12	AGENT Arg1:T30 Arg2:T34	
+R13	POINT_IN_TIME Arg1:T34 Arg2:T8	
+R14	CONVICTED_OF Arg1:T10 Arg2:T35	
+R15	CONVICTED_OF Arg1:T10 Arg2:T36	
+R16	AGE_IS Arg1:T40 Arg2:T14	
+R17	CONVICTED_OF Arg1:T40 Arg2:T39	
+R18	WORKS_AS Arg1:T16 Arg2:T15	
+R19	WORKS_AS Arg1:T17 Arg2:T15	
+R20	PARTICIPANT_IN Arg1:T21 Arg2:T42	
+R21	PARTICIPANT_IN Arg1:T16 Arg2:T39	
+R22	PARTICIPANT_IN Arg1:T17 Arg2:T39	
+R23	PARTICIPANT_IN Arg1:T18 Arg2:T39	
+R24	WORKS_AS Arg1:T20 Arg2:T41	
+R25	WORKS_AS Arg1:T20 Arg2:T19	
+R26	CONVICTED_OF Arg1:T22 Arg2:T42	
+R27	PARTICIPANT_IN Arg1:T20 Arg2:T39	
+R28	WORKS_AS Arg1:T40 Arg2:T22	
+T38	ORGANIZATION 889 896;903 917	Полиции Великобритании
+R29	WORKS_AS Arg1:T40 Arg2:T25	
+R30	CONVICTED_OF Arg1:T25 Arg2:T45	
+R31	CONVICTED_OF Arg1:T25 Arg2:T46	
+R32	CONVICTED_OF Arg1:T25 Arg2:T47	
+T52	CRIME 662 677	домогательствах
+R33	ALTERNATIVE_NAME Arg1:T18 Arg2:T21	
+R34	HEADQUARTERED_IN Arg1:T43 Arg2:T23	
+R35	HEADQUARTERED_IN Arg1:T38 Arg2:T24	
+R36	WORKPLACE Arg1:T5 Arg2:T27	
+T53	EVENT 160 170	задержания
+R37	PARTICIPANT_IN Arg1:T5 Arg2:T53	
+R38	PARTICIPANT_IN Arg1:T32 Arg2:T34	
+R39	PARTICIPANT_IN Arg1:T30 Arg2:T33	
+R40	POINT_IN_TIME Arg1:T33 Arg2:T8	
+R41	ALTERNATIVE_NAME Arg1:T53 Arg2:T33	
+R42	PARTICIPANT_IN Arg1:T32 Arg2:T33	
+R43	INANIMATE_INVOLVED Arg1:T2 Arg2:T49	
+R44	INANIMATE_INVOLVED Arg1:T6 Arg2:T51	
+R45	WORKS_AS Arg1:T7 Arg2:T30	
+R46	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R47	WORKS_AS Arg1:T26 Arg2:T25	
+N1	Reference T1 Wikidata:Q531599	Харви Вайнштейн
+N2	Reference T9 Wikidata:Q60	Нью-Йорк
+N3	Reference T15 Wikidata:Q33999	актёр
+N4	Reference T16 Wikidata:Q13909	Анджелина Джоли
+N5	Reference T17 Wikidata:Q34460	Гвинет Пэлтроу
+N6	Reference T18 Wikidata:Q211040	Роуз Макгоуэн
+N7	Reference T20 Wikidata:Q1395624	Кара Делевинь
+N8	Reference T23 Wikidata:Q30	США
+N9	Reference T24 Wikidata:Q145	Великобритания
+N10	Reference T26 Wikidata:Q531599	Харви Вайнштейн
+N11	Reference T27 Wikidata:Q34006	Голливуд
+N12	Reference T30 Wikidata:Q3282637	кинопродюсер
+N14	Reference T41 Wikidata:Q4610556	модель
+N16	Reference T44 Wikidata:Q35535	полиция
+N17	Reference T48 Wikidata:Q40348	адвокат
+N13	Reference T32 Wikidata:Q1218252	
+N18	Reference T38 Wikidata:NULL	нет данных
+N15	Reference T43 Wikidata:NULL	нет данных
+N19	Reference T3 Wikidata:Q531599	Харви Вайнштейн
+N20	Reference T19 Wikidata:Q33999	актёр
+N21	Reference T21 Wikidata:Q211040	Роуз Макгоуэн
+N22	Reference T40 Wikidata:Q531599	Харви Вайнштейн
+N23	Reference T10 Wikidata:Q531599	Харви Вайнштейн
+N24	Reference T5 Wikidata:Q531599	Харви Вайнштейн
+N25	Reference T7 Wikidata:Q531599	Харви Вайнштейн
+N26	Reference T4 Wikidata:Q3282637	кинопродюсер
+N27	Reference T22 Wikidata:Q3282637	кинопродюсер
+N28	Reference T25 Wikidata:Q3282637	кинопродюсер
+N29	Reference T31 Wikidata:Q35535	полиция

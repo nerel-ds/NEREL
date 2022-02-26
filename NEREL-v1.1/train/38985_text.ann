@@ -1,0 +1,121 @@
+T1	PERSON 0 15	Нельсон Мандела
+T2	PERSON 40 55	Нельсон Мандела
+T4	PROFESSION 127 137	президента
+T5	PERSON 142 158	Нельсона Манделы
+T6	AGE 251 261	94-летнему
+T7	PROFESSION 290 318	Представитель президента ЮАР
+T8	PERSON 319 331	Мак Махарадж
+T9	PERSON 360 376	Нельсона Манделы
+T10	CITY 421 429	Претории
+T11	PERSON 465 480	Нельсон Мандела
+T12	CITY 503 511	Претории
+T13	DATE 566 589	в начале июня 2013 года
+T14	PROFESSION 621 631	президента
+T17	PERSON 787 812	Нельсон Ролилахла Мандела
+T20	DATE 981 987	27 лет
+T21	DATE 1036 1040	1993
+T22	COUNTRY 1044 1047	ЮАР
+T23	DATE 56 67	в 2000 году
+T24	DATE 68 85	23 июня 2013 года
+T25	PROFESSION 127 141	президента ЮАР
+T28	COUNTRY 138 141	ЮАР
+T29	ORGANIZATION 196 209	администрации
+T30	PROFESSION 211 216	врачи
+T31	IDEOLOGY 277 287	апартеидом
+T32	PROFESSION 304 318	президента ЮАР
+T33	COUNTRY 315 318	ЮАР
+T34	DISEASE 544 561	лёгочной инфекции
+T35	DISEASE 534 561	рецидивом лёгочной инфекции
+T37	DISEASE 642 674	остановка сердечной деятельности
+T38	PROFESSION 678 684	врачам
+T15	PERSON 732 739	Манделы
+T39	PROFESSION 760 767	политик
+T40	ORDINAL 815 821	первый
+T41	COUNTRY 843 846	ЮАР
+T19	IDEOLOGY 963 972	апартеида
+T43	AWARD 1012 1040	Нобелевской премии мира 1993
+T45	AWARD 1012 1030	Нобелевской премии
+T46	PERSON 1048 1063	Нельсон Мандела
+T47	PERSON 1083 1089	Мадиба
+T48	NATIONALITY 1120 1124	коса
+T49	DISEASE 16 39	в критическом состоянии
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T49	
+R2	WORKPLACE Arg1:T25 Arg2:T28	
+R3	WORKPLACE Arg1:T5 Arg2:T28	
+R4	WORKS_AS Arg1:T5 Arg2:T25	
+R5	AGE_IS Arg1:T5 Arg2:T6	
+R6	WORKPLACE Arg1:T32 Arg2:T33	
+R7	SUBORDINATE_OF Arg1:T7 Arg2:T32	
+R8	WORKPLACE Arg1:T8 Arg2:T33	
+R9	WORKS_AS Arg1:T8 Arg2:T7	
+R10	LOCATED_IN Arg1:T10 Arg2:T33	
+R11	MEDICAL_CONDITION Arg1:T11 Arg2:T35	
+T26	EVENT 481 500	поступил в больницу
+R12	PARTICIPANT_IN Arg1:T11 Arg2:T26	
+R13	TAKES_PLACE_IN Arg1:T26 Arg2:T12	
+R14	POINT_IN_TIME Arg1:T26 Arg2:T13	
+R15	HAS_CAUSE Arg1:T26 Arg2:T35	
+R16	MEDICAL_CONDITION Arg1:T11 Arg2:T37	
+T27	EVENT 698 711	реанимировать
+R17	HAS_CAUSE Arg1:T27 Arg2:T37	
+R18	AGENT Arg1:T38 Arg2:T27	
+R19	PARTICIPANT_IN Arg1:T11 Arg2:T27	
+R20	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T17	
+T36	PROFESSION 833 846	президент ЮАР
+R22	WORKPLACE Arg1:T36 Arg2:T41	
+T18	DATE 847 860	с 10 мая 1994
+T50	DATE 861 876	по 14 июня 1999
+T51	PROFESSION 833 842	президент
+R23	WORKS_AS Arg1:T17 Arg2:T36	
+R24	WORKPLACE Arg1:T17 Arg2:T41	
+T52	PENALTY 981 1002	27 лет сидел в тюрьме
+R25	PENALIZED_AS Arg1:T17 Arg2:T52	
+R26	AWARDED_WITH Arg1:T17 Arg2:T43	
+R27	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R28	ORIGINS_FROM Arg1:T48 Arg2:T22	
+R29	WORKS_AS Arg1:T15 Arg2:T39	
+T3	IDEOLOGY 268 287	борьбы с апартеидом
+R30	IDEOLOGY_OF Arg1:T5 Arg2:T3	
+R31	WORKS_AS Arg1:T11 Arg2:T14	
+T16	NATIONALITY 822 832	чернокожий
+R32	ORIGINS_FROM Arg1:T17 Arg2:T16	
+T53	IDEOLOGY 915 939	борьбе за права человека
+R33	IDEOLOGY_OF Arg1:T17 Arg2:T53	
+R34	POINT_IN_TIME Arg1:T43 Arg2:T21	
+R35	ORIGINS_FROM Arg1:T46 Arg2:T48	
+T42	PENALTY 996 1002	тюрьме
+T44	PERSON 1012 1023	Нобелевской
+R36	PRODUCES Arg1:T44 Arg2:T45	
+N1	Reference T5 Wikidata:Q8023	Нельсон Мандела
+N4	Reference T10 Wikidata:Q3926	Претория
+N5	Reference T11 Wikidata:Q8023	Нельсон Мандела
+N6	Reference T29 Wikidata:Q31728	государственное управление
+N7	Reference T30 Wikidata:Q39631	врач
+N8	Reference T32 Wikidata:Q273884	президент Южно-Африканской республики
+N9	Reference T33 Wikidata:Q258	ЮАР
+N10	Reference T39 Wikidata:Q82955	политик
+N12	Reference T45 Wikidata:Q7191	Нобелевская премия
+N13	Reference T46 Wikidata:Q8023	Нельсон Мандела
+N15	Reference T51 Wikidata:Q30461	президент
+N2	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q6722315	
+N14	Reference T48 Wikidata:Q207996	Коса
+N17	Reference T44 Wikidata:Q23810	Альфред Нобель
+N11	Reference T43 Wikidata:NULL	нет данных
+N16	Reference T16 Wikidata:Q817393	
+N18	Reference T9 Wikidata:Q8023	Нельсон Мандела
+N19	Reference T12 Wikidata:Q3926	Претория
+N20	Reference T17 Wikidata:Q8023	Нельсон Мандела
+N21	Reference T15 Wikidata:Q8023	Нельсон Мандела
+N22	Reference T38 Wikidata:Q39631	врач
+N23	Reference T25 Wikidata:Q273884	президент Южно-Африканской республики
+N24	Reference T36 Wikidata:Q273884	президент Южно-Африканской республики
+N25	Reference T28 Wikidata:Q258	ЮАР
+N26	Reference T22 Wikidata:Q258	ЮАР
+N27	Reference T41 Wikidata:Q258	ЮАР
+N28	Reference T47 Wikidata:Q8023	Нельсон Мандела
+N29	Reference T1 Wikidata:Q8023	Нельсон Мандела
+N30	Reference T2 Wikidata:Q8023	Нельсон Мандела
+N31	Reference T4 Wikidata:Q30461	президент
+N32	Reference T14 Wikidata:Q30461	президент

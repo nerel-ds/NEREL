@@ -1,0 +1,119 @@
+T1	NUMBER 7 14	четырёх
+T2	CITY 29 35	Париже
+T3	PERSON 81 92	Пьер Фогель
+T4	NATIONALITY 101 109	немецкий
+T5	NUMBER 148 155	четырёх
+T6	CITY 170 176	Париже
+T7	DATE 252 261	5 октября
+T8	PROFESSION 269 277	прокурор
+T9	PROFESSION 308 317	прокурора
+T10	DATE 343 355	10 лет назад
+T11	DATE 357 375	в последние месяцы
+T12	ORGANIZATION 493 506	Charlie Hebdo
+T13	DATE 509 518	2015 году
+T14	PROFESSION 527 535	чиновник
+T15	DATE 538 544	В день
+T16	NUMBER 780 783	два
+T17	DATE 791 800	3 октября
+T18	CITY 811 820	парижской
+T19	AGE 841 850	45-летний
+T20	PERSON 851 864	Микаэль Арпон
+T21	PERSON 866 880	Mickaël Harpon
+T22	NUMBER 922 926	трёх
+T23	NUMBER 936 940	одну
+T24	LOCATION 1005 1015	карибского
+T26	DATE 1057 1066	2003 года
+T27	PROFESSION 15 26	полицейских
+T28	RELIGION 46 56	салафитами
+T29	RELIGION 57 68	Салафитский
+T30	PROFESSION 69 80	проповедник
+T31	PROFESSION 110 119	спортсмен
+T32	RELIGION 131 136	ислам
+R1	WORKS_AS Arg1:T3 Arg2:T30	
+T34	PROFESSION 156 167	полицейских
+T35	RELIGION 207 213	ислама
+T36	RELIGION 194 213	радикального ислама
+T37	RELIGION 232 242	салафитами
+T38	PERSON 278 295	Жан-Франсуа Рикар
+R2	WORKS_AS Arg1:T38 Arg2:T8	
+T39	RELIGION 337 342	ислам
+T40	EVENT 330 342	принял ислам
+R3	POINT_IN_TIME Arg1:T40 Arg2:T10	
+T42	PERSON 634 640	Аллаху
+T43	PERSON 676 686	Мухаммедом
+T44	WORK_OF_ART 703 710	Кораном
+T46	PROFESSION 801 839	сотрудник парижской префектуры полиции
+T47	ORGANIZATION 832 839	полиции
+R4	WORKS_AS Arg1:T20 Arg2:T46	
+R5	AGE_IS Arg1:T20 Arg2:T19	
+R6	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+T48	EVENT 883 896	напал с ножом
+R7	ORGANIZES Arg1:T20 Arg2:T48	
+T49	EVENT 917 948	убил трёх мужчин и одну женщину
+T50	EVENT 950 971	тяжело ранил ещё одну
+T51	NUMBER 967 971	одну
+T52	EVENT 983 993	застрелили
+T53	LOCATION 1024 1033	Мартиника
+T55	ORGANIZATION 821 839	префектуры полиции
+T56	PROFESSION 1067 1092	компьютерным специалистом
+T57	PROFESSION 1080 1092	специалистом
+R8	RELIGION_OF Arg1:T3 Arg2:T29	
+R9	RELIGION_OF Arg1:T3 Arg2:T32	
+R10	ORIGINS_FROM Arg1:T3 Arg2:T4	
+R11	WORKS_AS Arg1:T3 Arg2:T31	
+R12	POINT_IN_TIME Arg1:T48 Arg2:T17	
+R13	PARTICIPANT_IN Arg1:T20 Arg2:T49	
+R14	WORKS_AS Arg1:T20 Arg2:T56	
+R15	WORKPLACE Arg1:T20 Arg2:T55	
+R16	SUBEVENT_OF Arg1:T49 Arg2:T48	
+R17	SUBEVENT_OF Arg1:T50 Arg2:T48	
+R18	SUBEVENT_OF Arg1:T52 Arg2:T48	
+R19	RELIGION_OF Arg1:T3 Arg2:T36	
+T33	EVENT 137 167	Зарезавший четырёх полицейских
+R20	TAKES_PLACE_IN Arg1:T33 Arg2:T6	
+R21	PARTICIPANT_IN Arg1:T3 Arg2:T33	
+R22	PARTICIPANT_IN Arg1:T34 Arg2:T33	
+R23	PARTICIPANT_IN Arg1:T3 Arg2:T40	
+R24	HEADQUARTERED_IN Arg1:T55 Arg2:T18	
+R25	WORKPLACE Arg1:T46 Arg2:T55	
+R26	LOCATED_IN Arg1:T53 Arg2:T24	
+R27	PLACE_OF_BIRTH Arg1:T20 Arg2:T53	
+R28	ORIGINS_FROM Arg1:T31 Arg2:T4	
+R29	PART_OF Arg1:T55 Arg2:T47	
+T25	NUMBER 572 574	33
+T41	EVENT 917 921	убил
+R30	PARTICIPANT_IN Arg1:T20 Arg2:T52	
+T45	EVENT 957 962	ранил
+N1	Reference T3 Wikidata:Q67619	Фогель, Пьер
+N3	Reference T6 Wikidata:Q90	Париж
+N4	Reference T8 Wikidata:Q600751	прокурор
+N5	Reference T12 Wikidata:Q1043104	Charlie Hebdo
+N6	Reference T14 Wikidata:Q382887	чиновник
+N10	Reference T29 Wikidata:Q191057	салафия
+N12	Reference T31 Wikidata:Q2066131	спортсмен
+N13	Reference T35 Wikidata:Q432	ислам
+N15	Reference T37 Wikidata:Q191057	салафия
+N17	Reference T42 Wikidata:Q234801	Аллах
+N18	Reference T43 Wikidata:Q9458	Мухаммед
+N19	Reference T44 Wikidata:Q428	Коран
+N20	Reference T47 Wikidata:Q35535	полиция
+N21	Reference T53 Wikidata:Q17054	Мартиника
+N9	Reference T27 Wikidata:Q384593	
+N11	Reference T30 Wikidata:Q432386	
+N2	Reference T4 Wikidata:Q42884	немцы
+N14	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T38 Wikidata:Q3165859	
+N22	Reference T55 Wikidata:Q65269359	
+N7	Reference T18 Wikidata:Q90	Париж
+N25	Reference T46 Wikidata:NULL	нет данных
+N26	Reference T21 Wikidata:Q70216084	
+N8	Reference T24 Wikidata:Q664609	
+N24	Reference T57 Wikidata:Q702269	профессионал
+N23	Reference T56 Wikidata:NULL	нет данных
+N27	Reference T2 Wikidata:Q90	Париж
+N28	Reference T9 Wikidata:Q600751	прокурор
+N29	Reference T32 Wikidata:Q432	ислам
+N30	Reference T39 Wikidata:Q432	ислам
+N31	Reference T28 Wikidata:Q191057	салафия
+N32	Reference T34 Wikidata:Q384593	
+N33	Reference T20 Wikidata:Q70216084	

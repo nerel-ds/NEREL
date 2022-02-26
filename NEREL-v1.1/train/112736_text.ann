@@ -1,0 +1,160 @@
+T1	ORGANIZATION 0 12	Скотленд-Ярд
+T2	ORGANIZATION 40 52	Скотленд-Ярд
+T3	DATE 80 87	188 лет
+T5	PERSON 183 195	Крессида Дик
+T6	PERSON 197 210	Cressida Dick
+T7	PROFESSION 220 288	руководитель национальной антитеррористической службы Великобритании
+T8	AGE 307 316	56-летняя
+T9	PERSON 317 320	Дик
+T10	DATE 356 367	с 2011 года
+T11	PERSON 373 392	Бернарда Хогана-Хау
+T12	PERSON 394 412	Bernard Hogan-Howe
+T13	ORGANIZATION 457 485	министерстве иностранных дел
+T14	PERSON 537 540	Дик
+T15	ORGANIZATION 557 570	Скотленд-Ярде
+T16	DATE 571 583	более 30 лет
+T17	DATE 588 599	в 2014 году
+T18	ORDINAL 621 627	первом
+T19	PROFESSION 661 684	глава столичной полиции
+T20	CITY 870 877	Лондона
+T21	PERSON 932 935	Дик
+T22	PROFESSION 967 971	мэра
+T23	PERSON 980 991	Садика Хана
+T24	DATE 1081 1092	в 2005 году
+T25	PERSON 1103 1125	Жана-Шарля де Менезиша
+T26	PERSON 1184 1187	Дик
+T27	CITY 1236 1243	Лондоне
+T28	NATIONALITY 1278 1286	бразилец
+T29	PERSON 1383 1391	Крессиду
+T30	PROFESSION 1481 1484	мэр
+T31	PERSON 1517 1520	Дик
+T32	PERSON 1561 1564	Дик
+T33	NUMBER 1576 1580	пять
+T34	COUNTRY 1629 1643	Великобритании
+T35	ORGANIZATION 1673 1704	королевскую прокурорскую службу
+T36	ORGANIZATION 1706 1744	национальный совет начальников полиции
+T37	ORGANIZATION 1747 1785	национальное агентство по преступности
+T38	PROFESSION 1794 1813	глава Скотленд-Ярда
+T39	MONEY 1887 1903	270 тысяч фунтов
+T40	DATE 1986 1996	в пять лет
+T41	EVENT 21 39	возглавила женщина
+T42	CITY 61 68	Лондона
+T43	COUNTRY 274 288	Великобритании
+T44	CITY 972 979	Лондона
+T45	COUNTRY 152 176	Соединённого Королевства
+T46	ORGANIZATION 53 68	Полицию Лондона
+T47	EVENT 88 106	возглавила женщина
+T48	ORGANIZATION 144 176	полиции Соединённого Королевства
+T49	ORGANIZATION 133 176	управления полиции Соединённого Королевства
+T51	PROFESSION 368 372	сэра
+T52	ORGANIZATION 233 288	национальной антитеррористической службы Великобритании
+T53	ORGANIZATION 677 684	полиции
+T54	PROFESSION 967 979	мэра Лондона
+T55	PROFESSION 1025 1041	градоначальником
+T56	NATIONALITY 1093 1102	бразильца
+T57	PROFESSION 1725 1744	начальников полиции
+T58	ORGANIZATION 1737 1744	полиции
+T59	ORGANIZATION 1800 1813	Скотленд-Ярда
+T60	PROFESSION 1846 1855	королевой
+T61	DATE 1904 1909	в год
+R1	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R2	WORKPLACE Arg1:T7 Arg2:T52	
+R3	HEADQUARTERED_IN Arg1:T52 Arg2:T43	
+R4	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+T50	ORGANIZATION 53 60	Полицию
+R5	ALTERNATIVE_NAME Arg1:T2 Arg2:T46	
+R6	HEADQUARTERED_IN Arg1:T46 Arg2:T42	
+T4	PROFESSION 114 176	главой крупнейшего управления полиции Соединённого Королевства
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R8	AGE_IS Arg1:T9 Arg2:T8	
+R9	WORKS_AS Arg1:T5 Arg2:T7	
+R10	WORKPLACE Arg1:T4 Arg2:T49	
+R11	PART_OF Arg1:T49 Arg2:T48	
+R12	HEADQUARTERED_IN Arg1:T48 Arg2:T45	
+R13	PARTICIPANT_IN Arg1:T1 Arg2:T41	
+R14	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R15	PARTICIPANT_IN Arg1:T5 Arg2:T47	
+R16	WORKS_AS Arg1:T11 Arg2:T4	
+R17	WORKPLACE Arg1:T11 Arg2:T49	
+R18	ALTERNATIVE_NAME Arg1:T45 Arg2:T43	
+R19	WORKPLACE Arg1:T9 Arg2:T13	
+R20	HEADQUARTERED_IN Arg1:T13 Arg2:T43	
+R21	WORKPLACE Arg1:T14 Arg2:T15	
+R22	WORKS_AS Arg1:T14 Arg2:T19	
+R23	ALTERNATIVE_NAME Arg1:T4 Arg2:T19	
+R24	WORKS_AS Arg1:T23 Arg2:T54	
+R25	WORKPLACE Arg1:T54 Arg2:T44	
+R26	WORKPLACE Arg1:T23 Arg2:T44	
+R27	ORIGINS_FROM Arg1:T25 Arg2:T56	
+T62	EVENT 1226 1233	взрывов
+T63	EVENT 1220 1233	серии взрывов
+R28	TAKES_PLACE_IN Arg1:T63 Arg2:T27	
+R29	WORKPLACE Arg1:T38 Arg2:T59	
+R30	MEMBER_OF Arg1:T57 Arg2:T36	
+R31	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+T64	PROFESSION 1015 1041	столичным градоначальником
+R32	ALTERNATIVE_NAME Arg1:T54 Arg2:T64	
+T65	EVENT 1200 1233	спецоперацией после серии взрывов
+R33	PARTICIPANT_IN Arg1:T26 Arg2:T65	
+R34	HAS_CAUSE Arg1:T65 Arg2:T63	
+T66	EVENT 1273 1277	убит
+R35	PARTICIPANT_IN Arg1:T28 Arg2:T66	
+R36	SUBEVENT_OF Arg1:T66 Arg2:T65	
+R37	LOCATED_IN Arg1:T20 Arg2:T43	
+R38	INCOME Arg1:T38 Arg2:T39	
+R39	INCOME Arg1:T32 Arg2:T39	
+R40	WORKS_AS Arg1:T32 Arg2:T38	
+T67	EVENT 600 608	покинула
+R41	AGENT Arg1:T14 Arg2:T67	
+R42	PARTICIPANT_IN Arg1:T15 Arg2:T67	
+R43	POINT_IN_TIME Arg1:T67 Arg2:T17	
+T68	IDEOLOGY 1310 1320	террориста
+N1	Reference T1 Wikidata:Q184619	Скотланд-Ярд
+N4	Reference T13 Wikidata:Q20901295	Министерство иностранных дел
+N6	Reference T23 Wikidata:Q334155	Садик Хан
+N7	Reference T25 Wikidata:Q559142	Жан Шарль де Менезес
+N9	Reference T30 Wikidata:Q30185	мэр
+N10	Reference T34 Wikidata:Q145	Великобритания
+N11	Reference T35 Wikidata:Q1141790	Королевская прокурорская служба
+N14	Reference T42 Wikidata:Q84	Лондон
+N16	Reference T49 Wikidata:Q739941	Британская монархия
+N17	Reference T51 Wikidata:Q209690	сэр
+N20	Reference T56 Wikidata:Q873625	Бразильцы
+N21	Reference T58 Wikidata:Q35535	полиция
+N15	Reference T48 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:NULL	нет данных
+N18	Reference T52 Wikidata:NULL	нет данных
+N24	Reference T11 Wikidata:NULL	нет данных
+N5	Reference T19 Wikidata:NULL	нет данных
+N19	Reference T55 Wikidata:Q30185	мэр
+N23	Reference T64 Wikidata:NULL	нет данных
+N8	Reference T26 Wikidata:NULL	нет данных
+N25	Reference T36 Wikidata:NULL	нет данных
+N26	Reference T57 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:NULL	нет данных
+N13	Reference T38 Wikidata:NULL	нет данных
+N22	Reference T60 Wikidata:Q116	монарх
+N27	Reference T15 Wikidata:Q184619	Скотланд-Ярд
+N28	Reference T46 Wikidata:Q184619	Скотланд-Ярд
+N29	Reference T59 Wikidata:Q184619	Скотланд-Ярд
+N30	Reference T2 Wikidata:Q184619	Скотланд-Ярд
+N31	Reference T22 Wikidata:Q30185	мэр
+N32	Reference T45 Wikidata:Q145	Великобритания
+N33	Reference T43 Wikidata:Q145	Великобритания
+N34	Reference T44 Wikidata:Q84	Лондон
+N35	Reference T20 Wikidata:Q84	Лондон
+N36	Reference T27 Wikidata:Q84	Лондон
+N37	Reference T28 Wikidata:Q873625	Бразильцы
+N38	Reference T50 Wikidata:Q35535	полиция
+N39	Reference T53 Wikidata:Q35535	полиция
+N40	Reference T6 Wikidata:NULL	нет данных
+N41	Reference T9 Wikidata:NULL	нет данных
+N42	Reference T12 Wikidata:NULL	нет данных
+N43	Reference T4 Wikidata:NULL	нет данных
+N44	Reference T54 Wikidata:NULL	нет данных
+N45	Reference T31 Wikidata:NULL	нет данных
+N46	Reference T14 Wikidata:NULL	нет данных
+N47	Reference T29 Wikidata:NULL	нет данных
+N48	Reference T32 Wikidata:NULL	нет данных
+N49	Reference T21 Wikidata:NULL	нет данных

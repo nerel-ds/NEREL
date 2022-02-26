@@ -1,0 +1,159 @@
+T1	ORGANIZATION 45 49	НАТО
+T2	ORGANIZATION 58 62	НАТО
+T3	CITY 65 74	Кандагаре
+T4	COUNTRY 77 88	Афганистане
+T5	ORGANIZATION 145 149	НАТО
+T6	COUNTRY 152 162	румынскими
+T7	ORGANIZATION 174 202	Министерство обороны Румынии
+T8	NUMBER 222 226	один
+T9	NUMBER 236 240	двое
+T10	ORGANIZATION 261 269	Талибана
+T11	NUMBER 304 311	семерых
+T12	DATE 340 351	15 сентября
+T13	NUMBER 387 394	четырёх
+T15	ORGANIZATION 508 512	НАТО
+T16	COUNTRY 576 585	румынское
+T17	CITY 659 664	Хушаб
+T18	CITY 666 673	Khushab
+T20	STATE_OR_PROVINCE 699 707	Кандагар
+T21	CITY 760 769	Кандагара
+T22	NUMBER 771 775	один
+T23	AGE 810 819	41-летний
+T24	ORGANIZATION 908 915	Талибан
+T25	NUMBER 993 997	семь
+T26	PROFESSION 1047 1070	пресс-секретарь талибов
+T27	PERSON 1071 1087	Кари Юсеф Ахмади
+T28	PERSON 1089 1102	Yousef Ahmadi
+T29	PROFESSION 1271 1286	пресс-секретарь
+T30	PERSON 1288 1305	Забиулла Муджахид
+T31	PERSON 1307 1324	Zabiullah Mujahid
+T33	LOCATION 1404 1410	Tarnak
+T34	COUNTRY 1430 1437	Румыния
+T35	ORGANIZATION 1454 1458	НАТО
+T36	DATE 1459 1470	с 2004 года
+T37	NUMBER 1486 1495	более 620
+T39	COUNTRY 1513 1523	Афганистан
+T40	COUNTRY 1536 1547	Афганистане
+T41	ORGANIZATION 1576 1580	НАТО
+T42	DATE 1634 1649	в последние дни
+T43	IDEOLOGY 0 14	Смертник-талиб
+T44	PROFESSION 50 57	Солдаты
+T45	IDEOLOGY 89 97	смертник
+T46	PROFESSION 163 172	солдатами
+T47	EVENT 15 44	протаранил колонну бронемашин
+T48	EVENT 127 144	врезался в конвой
+T49	COUNTRY 195 202	Румынии
+T50	IDEOLOGY 250 259	Повстанцы
+T51	PROFESSION 312 318	солдат
+T52	PROFESSION 241 248	военных
+T53	EVENT 287 292	взрыв
+T54	EVENT 320 329	Нападение
+T55	IDEOLOGY 452 460	смертник
+T56	PROFESSION 560 566	солдат
+T57	PROFESSION 621 629	военного
+T58	IDEOLOGY 632 640	Смертник
+T60	PROFESSION 820 826	капрал
+T61	IDEOLOGY 884 897	повстанческое
+T62	ORGANIZATION 1063 1070	талибов
+T64	IDEOLOGY 1175 1181	джихад
+T65	PROFESSION 1141 1147	солдат
+T66	PROFESSION 1254 1261	военный
+T68	PRODUCT 1337 1344	твиттер
+T69	EVENT 1356 1362	взрыва
+T70	LOCATION 1396 1402	Тарнак
+T38	IDEOLOGY 1698 1708	повстанцев
+T72	ORGANIZATION 174 194	Министерство обороны
+R1	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R2	IDEOLOGY_OF Arg1:T24 Arg2:T61	
+R3	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R4	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R5	ALTERNATIVE_NAME Arg1:T70 Arg2:T33	
+R6	PARTICIPANT_IN Arg1:T43 Arg2:T47	
+R7	PARTICIPANT_IN Arg1:T1 Arg2:T47	
+R8	HEADQUARTERED_IN Arg1:T7 Arg2:T49	
+R9	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+R10	AGE_IS Arg1:T60 Arg2:T23	
+R11	PARTICIPANT_IN Arg1:T45 Arg2:T48	
+R12	WORKS_AS Arg1:T30 Arg2:T29	
+T19	PROFESSION 1047 1062	пресс-секретарь
+R13	WORKS_AS Arg1:T27 Arg2:T26	
+R14	WORKPLACE Arg1:T27 Arg2:T62	
+R15	ORIGINS_FROM Arg1:T46 Arg2:T6	
+R16	WORKPLACE Arg1:T46 Arg2:T5	
+R17	PARTICIPANT_IN Arg1:T46 Arg2:T48	
+R18	ALTERNATIVE_NAME Arg1:T6 Arg2:T49	
+R19	SUBEVENT_OF Arg1:T53 Arg2:T48	
+T32	EVENT 443 460	атаковал смертник
+R20	ALTERNATIVE_NAME Arg1:T48 Arg2:T32	
+T59	EVENT 641 646	напал
+R21	ALTERNATIVE_NAME Arg1:T32 Arg2:T59	
+R22	TAKES_PLACE_IN Arg1:T59 Arg2:T20	
+T63	PROFESSION 50 62	Солдаты НАТО
+R23	LOCATED_IN Arg1:T63 Arg2:T3	
+R24	MEMBER_OF Arg1:T6 Arg2:T5	
+R25	MEMBER_OF Arg1:T34 Arg2:T35	
+R26	WORKPLACE Arg1:T63 Arg2:T2	
+R27	TAKES_PLACE_IN Arg1:T48 Arg2:T4	
+T67	EVENT 216 226	погиб один
+T71	EVENT 229 248	ранено двое военных
+R28	PARTICIPANT_IN Arg1:T52 Arg2:T71	
+R29	SUBEVENT_OF Arg1:T67 Arg2:T48	
+R30	SUBEVENT_OF Arg1:T71 Arg2:T48	
+T73	EVENT 293 318	унёс жизни семерых солдат
+R31	PARTICIPANT_IN Arg1:T51 Arg2:T73	
+R32	SUBEVENT_OF Arg1:T73 Arg2:T53	
+R33	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R34	POINT_IN_TIME Arg1:T54 Arg2:T12	
+R35	PARTICIPANT_IN Arg1:T55 Arg2:T32	
+R36	ALTERNATIVE_NAME Arg1:T49 Arg2:T16	
+T14	EVENT 607 613	смерти
+R37	PARTICIPANT_IN Arg1:T57 Arg2:T14	
+R38	ORIGINS_FROM Arg1:T57 Arg2:T16	
+R39	AGENT Arg1:T58 Arg2:T59	
+R40	LOCATED_IN Arg1:T17 Arg2:T20	
+R41	WORKPLACE Arg1:T26 Arg2:T62	
+R42	WORKPLACE Arg1:T30 Arg2:T62	
+T74	EVENT 783 798	умер от ранений
+R43	HAS_CAUSE Arg1:T74 Arg2:T59	
+R44	TAKES_PLACE_IN Arg1:T74 Arg2:T21	
+N1	Reference T7 Wikidata:Q2612392	Министерство национальной обороны Румынии
+N2	Reference T20 Wikidata:Q45604	Кандагар
+N3	Reference T21 Wikidata:Q45604	Кандагар
+N4	Reference T24 Wikidata:Q42418	Талибан
+N6	Reference T35 Wikidata:Q7184	Организация Североатлантического договора
+N7	Reference T39 Wikidata:Q889	Афганистан
+N8	Reference T49 Wikidata:Q218	Румыния
+N9	Reference T60 Wikidata:Q17378201	капрал
+N10	Reference T62 Wikidata:Q42418	Талибан
+N12	Reference T66 Wikidata:Q47064	военнослужащий
+N13	Reference T68 Wikidata:Q918	Твиттер
+N15	Reference T63 Wikidata:NULL	нет данных
+N14	Reference T72 Wikidata:Q1788820	
+N16	Reference T18 Wikidata:Q1249939	
+N17	Reference T26 Wikidata:NULL	нет данных
+N5	Reference T27 Wikidata:Q8059026	
+N11	Reference T65 Wikidata:Q4991371	солдат
+N18	Reference T30 Wikidata:Q8063518	
+N19	Reference T33 Wikidata:Q3515756	
+N20	Reference T3 Wikidata:Q45604	Кандагар
+N21	Reference T10 Wikidata:Q42418	Талибан
+N22	Reference T5 Wikidata:Q7184	Организация Североатлантического договора
+N23	Reference T15 Wikidata:Q7184	Организация Североатлантического договора
+N24	Reference T2 Wikidata:Q7184	Организация Североатлантического договора
+N25	Reference T41 Wikidata:Q7184	Организация Североатлантического договора
+N26	Reference T1 Wikidata:Q7184	Организация Североатлантического договора
+N27	Reference T4 Wikidata:Q889	Афганистан
+N28	Reference T40 Wikidata:Q889	Афганистан
+N29	Reference T34 Wikidata:Q218	Румыния
+N30	Reference T6 Wikidata:Q218	Румыния
+N31	Reference T16 Wikidata:Q218	Румыния
+N32	Reference T52 Wikidata:Q47064	военнослужащий
+N33	Reference T57 Wikidata:Q47064	военнослужащий
+N34	Reference T17 Wikidata:Q1249939	
+N35	Reference T28 Wikidata:Q8059026	
+N36	Reference T44 Wikidata:Q4991371	солдат
+N37	Reference T51 Wikidata:Q4991371	солдат
+N38	Reference T56 Wikidata:Q4991371	солдат
+N39	Reference T46 Wikidata:Q4991371	солдат
+N40	Reference T31 Wikidata:Q8063518	
+N41	Reference T70 Wikidata:Q3515756	

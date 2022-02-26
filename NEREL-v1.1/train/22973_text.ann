@@ -1,0 +1,111 @@
+T1	PERSON 0 18	Джордж Буш-старший
+T2	PERSON 32 56	Джордж Герберт Уокер Буш
+T4	PERSON 79 97	Джордж Буш-старший
+T5	FACILITY 121 144	Методистского госпиталя
+T6	AGE 155 164	88-летний
+T7	PERSON 165 168	Буш
+T8	DATE 190 198	в ноябре
+T10	PROFESSION 361 376	Пресс-секретарь
+T12	PERSON 463 481	Джордж Буш-старший
+T13	PROFESSION 486 497	президентом
+T15	DATE 535 556	протяжении восьми лет
+T16	PROFESSION 570 585	вице-президента
+T17	PROFESSION 656 668	послом США в
+T18	PROFESSION 674 687	директора ЦРУ
+T19	PROFESSION 690 702	конгрессмена
+T20	PERSON 713 731	Джордж Буш-младший
+T21	ORDINAL 737 741	43-м
+T23	PROFESSION 65 74	президент
+T24	PROFESSION 65 78	президент США
+T25	PROFESSION 297 303	врачей
+T26	PROFESSION 327 336	президент
+T28	PROFESSION 361 388	Пресс-секретарь семьи Бушей
+T29	PROFESSION 406 415	президент
+T30	PROFESSION 453 460	медиков
+T31	PROFESSION 486 501	президентом США
+T33	PROFESSION 656 672	послом США в ООН
+T34	PROFESSION 656 662	послом
+T36	PROFESSION 742 757	президентом США
+T37	PROFESSION 742 753	президентом
+T3	COUNTRY 75 78	США
+T38	CITY 145 153	Хьюстона
+T39	EVENT 173 189	госпитализирован
+T40	DISEASE 269 277	бронхита
+T41	DISEASE 349 358	лихорадки
+T42	FAMILY 377 388	семьи Бушей
+T44	ORGANIZATION 588 618	администрации Рональда Рейгана
+T46	PERSON 602 618	Рональда Рейгана
+T47	COUNTRY 663 666	США
+T48	ORGANIZATION 669 672	ООН
+T49	ORGANIZATION 684 687	ЦРУ
+T50	COUNTRY 754 757	США
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T24 Arg2:T3	
+R3	WORKS_AS Arg1:T4 Arg2:T24	
+R4	LOCATED_IN Arg1:T5 Arg2:T38	
+R5	LOCATED_IN Arg1:T38 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+R7	AGE_IS Arg1:T7 Arg2:T6	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T39	
+R9	POINT_IN_TIME Arg1:T39 Arg2:T8	
+R10	MEDICAL_CONDITION Arg1:T7 Arg2:T40	
+R11	HAS_CAUSE Arg1:T39 Arg2:T40	
+R12	WORKS_AS Arg1:T7 Arg2:T26	
+R13	MEDICAL_CONDITION Arg1:T26 Arg2:T41	
+T9	PERSON 383 388	Бушей
+R14	MEMBER_OF Arg1:T9 Arg2:T42	
+R15	SUBORDINATE_OF Arg1:T28 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T25 Arg2:T30	
+T11	COUNTRY 498 501	США
+R17	WORKPLACE Arg1:T31 Arg2:T11	
+R18	WORKS_AS Arg1:T12 Arg2:T31	
+T14	DATE 502 518	в 1989-1993 годы
+R19	WORKPLACE Arg1:T16 Arg2:T44	
+R20	FOUNDED_BY Arg1:T44 Arg2:T46	
+R21	WORKS_AS Arg1:T12 Arg2:T16	
+R22	WORKPLACE Arg1:T33 Arg2:T48	
+R23	ORIGINS_FROM Arg1:T17 Arg2:T47	
+R24	WORKPLACE Arg1:T18 Arg2:T49	
+R25	WORKS_AS Arg1:T12 Arg2:T33	
+R26	WORKS_AS Arg1:T12 Arg2:T18	
+R27	WORKS_AS Arg1:T12 Arg2:T19	
+R28	WORKPLACE Arg1:T36 Arg2:T50	
+R29	WORKS_AS Arg1:T20 Arg2:T36	
+R30	PARENT_OF Arg1:T12 Arg2:T20	
+R31	LOCATED_IN Arg1:T4 Arg2:T5	
+R32	MEDICAL_CONDITION Arg1:T7 Arg2:T41	
+N1	Reference T1 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N3	Reference T12 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N5	Reference T18 Wikidata:Q27656	директор Центрального разведывательного управления
+N6	Reference T20 Wikidata:Q207	Джордж Уокер Буш
+N7	Reference T24 Wikidata:Q11696	президент США
+N8	Reference T26 Wikidata:Q30461	президент
+N10	Reference T30 Wikidata:Q39631	врач
+N11	Reference T34 Wikidata:Q121998	посол
+N12	Reference T38 Wikidata:Q16555	Хьюстон
+N14	Reference T46 Wikidata:Q9960	Рональд Рейган
+N15	Reference T47 Wikidata:Q30	США
+N16	Reference T48 Wikidata:Q1065	Организация Объединённых Наций
+N17	Reference T49 Wikidata:Q37230	Центральное разведывательное управление
+N2	Reference T5 Wikidata:Q7751188	
+N18	Reference T10 Wikidata:Q17221	
+N9	Reference T28 Wikidata:NULL	нет данных
+N19	Reference T17 Wikidata:Q15726790	
+N20	Reference T33 Wikidata:Q1785225	
+N21	Reference T19 Wikidata:Q14761450	
+N13	Reference T44 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:Q42178	вице-президент
+N22	Reference T2 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N23	Reference T7 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N24	Reference T9 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N25	Reference T4 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N26	Reference T36 Wikidata:Q11696	президент США
+N27	Reference T31 Wikidata:Q11696	президент США
+N28	Reference T13 Wikidata:Q30461	президент
+N29	Reference T23 Wikidata:Q30461	президент
+N30	Reference T29 Wikidata:Q30461	президент
+N31	Reference T37 Wikidata:Q30461	президент
+N32	Reference T25 Wikidata:Q39631	врач
+N33	Reference T50 Wikidata:Q30	США
+N34	Reference T11 Wikidata:Q30	США
+N35	Reference T3 Wikidata:Q30	США

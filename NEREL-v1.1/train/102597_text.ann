@@ -1,0 +1,84 @@
+T1	PROFESSION 17 23	боксёр
+T2	PERSON 24 36	Мохаммед Али
+T3	DATE 39 66	В пятницу, 3 июня 2016 года
+T4	AGE 71 78	75 году
+T5	PROFESSION 107 123	боксёр-тяжеловес
+T6	PERSON 124 136	Мохаммед Али
+T7	PERSON 139 142	Али
+T8	FACILITY 155 171	больнице Финикса
+T9	CITY 164 171	Финикса
+T10	STATE_OR_PROVINCE 173 180	Аризона
+T11	DATE 205 225	несколько дней назад
+T12	PERSON 286 289	Али
+T13	DATE 456 472	В последние годы
+T14	DATE 519 530	В 2014 году
+T15	PERSON 531 534	Али
+T16	PERSON 618 628	Паркинсона
+T17	CITY 690 698	Луисвилл
+T18	STATE_OR_PROVINCE 700 708	Кентукки
+T19	DATE 723 742	17 января 1942 года
+T20	PERSON 743 755	Мохаммед Али
+T21	NATIONALITY 757 769	американский
+R1	AGE_DIED_AT Arg1:T6 Arg2:T4
+R7	ORIGINS_FROM Arg1:T20 Arg2:T21
+T43	PROFESSION 770 789	боксёр-профессионал
+T44	PROFESSION 429 436	боксёру
+T45	PROFESSION 875 883	боксёров
+T46	PROFESSION 643 650	боксёру
+T22	DISEASE 228 261	тяжёлым респираторным осложнением
+T23	DISEASE 555 565	пневмонией
+T26	DISEASE 609 628	болезнью Паркинсона
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R6	WORKS_AS Arg1:T20 Arg2:T43	
+R8	DATE_OF_BIRTH Arg1:T20 Arg2:T19	
+R4	MEDICAL_CONDITION Arg1:T15 Arg2:T23	
+R5	MEDICAL_CONDITION Arg1:T15 Arg2:T26	
+R9	DATE_OF_DEATH Arg1:T6 Arg2:T3	
+R10	PLACE_OF_DEATH Arg1:T7 Arg2:T8	
+R11	MEDICAL_CONDITION Arg1:T7 Arg2:T22	
+R12	LOCATED_IN Arg1:T9 Arg2:T10	
+R13	LOCATED_IN Arg1:T17 Arg2:T18	
+T30	EVENT 535 552	госпитализировали
+R14	PARTICIPANT_IN Arg1:T15 Arg2:T30	
+R15	POINT_IN_TIME Arg1:T30 Arg2:T14	
+R16	ORIGINS_FROM Arg1:T46 Arg2:T17	
+R17	LOCATED_IN Arg1:T8 Arg2:T9	
+T31	DISEASE 236 261	респираторным осложнением
+R18	WORKS_AS Arg1:T20 Arg2:T45	
+R19	HAS_CAUSE Arg1:T30 Arg2:T23	
+T33	EVENT 0 4	Умер
+R20	PARTICIPANT_IN Arg1:T2 Arg2:T33	
+T34	EVENT 85 94	скончался
+R21	POINT_IN_TIME Arg1:T34 Arg2:T3	
+R22	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R23	PARTICIPANT_IN Arg1:T6 Arg2:T34	
+T36	EVENT 195 204	доставлен
+R24	TAKES_PLACE_IN Arg1:T36 Arg2:T8	
+R25	PARTICIPANT_IN Arg1:T7 Arg2:T36	
+R26	POINT_IN_TIME Arg1:T36 Arg2:T11	
+R27	HAS_CAUSE Arg1:T36 Arg2:T22	
+R28	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R29	WORKS_AS Arg1:T12 Arg2:T44	
+T38	EVENT 631 639	Панихиду
+R30	INANIMATE_INVOLVED Arg1:T15 Arg2:T38	
+R31	TAKES_PLACE_IN Arg1:T38 Arg2:T17	
+N1	Reference T2 Wikidata:Q36107	Мухаммед Али
+N2	Reference T1 Wikidata:Q11338576	боксёр
+N3	Reference T5 Wikidata:Q11338576	боксёр
+N4	Reference T6 Wikidata:Q36107	Мухаммед Али
+N5	Reference T7 Wikidata:Q36107	Мухаммед Али
+N6	Reference T15 Wikidata:Q36107	Мухаммед Али
+N7	Reference T20 Wikidata:Q36107	Мухаммед Али
+N8	Reference T9 Wikidata:Q16556	
+N9	Reference T10 Wikidata:Q816	Аризона
+N10	Reference T16 Wikidata:Q336489	
+N11	Reference T17 Wikidata:Q43668	Луисвилл
+N12	Reference T18 Wikidata:Q1603	Кентукки
+N13	Reference T46 Wikidata:Q11338576	боксёр
+N14	Reference T45 Wikidata:Q11338576	боксёр
+N15	Reference T43 Wikidata:Q2631720	
+N16	Reference T21 Wikidata:Q846570	
+N17	Reference T8 Wikidata:NULL	нет данных
+N18	Reference T12 Wikidata:Q36107	Мухаммед Али
+N19	Reference T44 Wikidata:Q11338576	боксёр

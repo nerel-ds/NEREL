@@ -1,0 +1,85 @@
+T1	PROFESSION 0 8	Режиссёр
+T2	PERSON 9 19	Дэвид Линч
+T3	PERSON 35 45	Дэвид Линч
+T4	NATIONALITY 56 68	американский
+T5	PERSON 82 92	Дэвид Линч
+T6	WORK_OF_ART 152 162	Твин Пикса
+T7	COUNTRY 201 214	австралийским
+T8	ORGANIZATION 226 247	Sydney Morning Herald
+T9	WORK_OF_ART 257 270	Диких сердцем
+T10	WORK_OF_ART 274 288	Шоссе в никуда
+T11	WORK_OF_ART 293 310	Малхолланд Драйва
+T12	WORK_OF_ART 406 424	Внутренняя империя
+T13	DATE 426 435	2006 года
+T14	PERSON 633 645	Дэвида Линча
+T15	WORK_OF_ART 647 656	Твин Пикс
+T17	DATE 661 672	начала 90-х
+T18	DATE 692 711	21–22 мая 2017 года
+T19	CITY 746 754	Каннском
+T20	ORDINAL 767 773	Первая
+T21	AGE 788 798	71-летнего
+T22	WORK_OF_ART 814 826	Человек-слон
+T23	DATE 843 854	в 1977 году
+T24	WORK_OF_ART 899 912	Дикие сердцем
+T25	DATE 914 925	в 1990 году
+T26	CITY 973 979	Каннах
+T27	PERSON 996 1001	Линча
+T28	AWARD 1029 1034	Оскар
+T29	PERSON 1059 1063	Линч
+T31	PROFESSION 69 81	кинорежиссёр
+T32	PROFESSION 593 604	постановщик
+T16	EVENT 746 764	Каннском фестивале
+T33	EVENT 734 742	премьеры
+T34	AWARD 946 969	Золотую пальмовую ветвь
+T35	PROFESSION 935 944	режиссёру
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T4	
+R4	WORKS_AS Arg1:T5 Arg2:T31	
+R6	PRODUCES Arg1:T5 Arg2:T6	
+R7	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R8	DATE_OF_CREATION Arg1:T12 Arg2:T13	
+R9	PRODUCES Arg1:T5 Arg2:T9	
+R10	PRODUCES Arg1:T5 Arg2:T10	
+R11	PRODUCES Arg1:T5 Arg2:T11	
+R12	PRODUCES Arg1:T5 Arg2:T12	
+R13	WORKS_AS Arg1:T5 Arg2:T32	
+R14	PRODUCES Arg1:T14 Arg2:T15	
+R15	DATE_OF_CREATION Arg1:T15 Arg2:T17	
+R16	TAKES_PLACE_IN Arg1:T16 Arg2:T19	
+R17	AGE_IS Arg1:T14 Arg2:T21	
+R18	PRODUCES Arg1:T14 Arg2:T22	
+R19	DATE_OF_CREATION Arg1:T22 Arg2:T23	
+R20	AWARDED_WITH Arg1:T35 Arg2:T34	
+R21	ORIGINS_FROM Arg1:T34 Arg2:T26	
+R22	WORKS_AS Arg1:T14 Arg2:T35	
+R23	ALTERNATIVE_NAME Arg1:T14 Arg2:T27	
+R24	ORIGINS_FROM Arg1:T31 Arg2:T4	
+R25	POINT_IN_TIME Arg1:T34 Arg2:T25	
+R26	AWARDED_WITH Arg1:T24 Arg2:T34	
+R2	INANIMATE_INVOLVED Arg1:T15 Arg2:T33	
+R5	SUBEVENT_OF Arg1:T33 Arg2:T16	
+N2	Reference T7 Wikidata:Q408	Австралия
+N3	Reference T8 Wikidata:Q390216	The Sydney Morning Herald
+N4	Reference T10 Wikidata:Q289204	Шоссе в никуда
+N5	Reference T11 Wikidata:Q272608	Малхолланд-драйв
+N6	Reference T12 Wikidata:Q862058	Внутренняя империя
+N7	Reference T15 Wikidata:Q2085	Твин Пикс
+N9	Reference T22 Wikidata:Q272860	Человек-слон
+N10	Reference T24 Wikidata:Q751382	Дикие сердцем
+N11	Reference T26 Wikidata:Q39984	Канны
+N14	Reference T31 Wikidata:Q2526255	кинорежиссёр
+N15	Reference T32 Wikidata:Q2526255	кинорежиссёр
+N16	Reference T34 Wikidata:Q179808	Золотая пальмовая ветвь
+N17	Reference T35 Wikidata:Q3455803	режиссёр
+N1	Reference T4 Wikidata:Q846570	
+N8	Reference T19 Wikidata:Q39984	Канны
+N12	Reference T28 Wikidata:Q19020	Оскар
+N13	Reference T29 Wikidata:Q2071	Дэвид Линч
+N18	Reference T6 Wikidata:Q2085	Твин Пикс
+N19	Reference T9 Wikidata:Q751382	Дикие сердцем
+N20	Reference T1 Wikidata:Q3455803	режиссёр
+N21	Reference T5 Wikidata:Q2071	Дэвид Линч
+N22	Reference T14 Wikidata:Q2071	Дэвид Линч
+N23	Reference T3 Wikidata:Q2071	Дэвид Линч
+N24	Reference T2 Wikidata:Q2071	Дэвид Линч
+N25	Reference T27 Wikidata:Q2071	Дэвид Линч

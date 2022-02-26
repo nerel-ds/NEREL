@@ -1,0 +1,167 @@
+T1	ORGANIZATION 0 3	НХЛ
+T2	EVENT 14 32	финал Кубка Стэнли
+T3	DATE 186 200	девяти месяцев
+T5	NUMBER 340 344	один
+T6	ORGANIZATION 434 441	Canucks
+T7	ORDINAL 458 464	первый
+T8	DATE 469 480	с 1994 года
+T9	ORGANIZATION 497 504	Rangers
+T10	ORGANIZATION 593 596	НХЛ
+T11	ORGANIZATION 609 615	Bruins
+T12	AGE 642 651	42-летний
+T13	PERSON 652 662	Марк Рекки
+T14	ORDINAL 679 685	вторым
+T15	EVENT 732 742	финале НХЛ
+T16	PERSON 775 788	Крису Челиосу
+T17	DATE 804 818	два года назад
+T18	ORGANIZATION 827 836	Red Wings
+T19	DATE 853 868	за год до этого
+T20	AGE 910 912	47
+T21	AGE 915 921	46 лет
+T22	PERSON 936 941	Рекки
+T23	ORGANIZATION 962 970	Penguins
+T24	ORGANIZATION 996 1002	Bruins
+T25	DATE 1019 1026	1989-90
+T26	ORGANIZATION 1030 1036	Oilers
+T27	PERSON 1047 1052	Рекки
+T28	ORGANIZATION 1145 1152	Canucks
+T29	ORDINAL 1216 1222	третьи
+T30	ORDINAL 1268 1274	первый
+T31	ORGANIZATION 1287 1293	Bruins
+T32	ORDINAL 1296 1301	14-ый
+T33	ORDINAL 1346 1352	второй
+T34	ORGANIZATION 1471 1478	Canucks
+T35	PROFESSION 1518 1526;1536 1542	капитана Bruins
+T36	PERSON 1545 1555	Здено Хары
+T37	ORGANIZATION 1577 1580	НХЛ
+T38	ORGANIZATION 1747 1754	Canucks
+T39	PERSON 1760 1773	Даниэль Седин
+T40	NUMBER 1776 1783	восемью
+T41	ORGANIZATION 1867 1870	НХЛ
+T42	ORGANIZATION 1880 1886	Bruins
+T43	PERSON 1905 1917	Давид Крейчи
+T44	NUMBER 1919 1925	десять
+T45	PERSON 1935 1947	Натан Хортон
+T46	NUMBER 1949 1955	восемь
+T47	ORGANIZATION 1984 1991	Canucks
+T48	ORDINAL 2040 2048	третьего
+T49	ORDINAL 2051 2061	четвертого
+T50	PROFESSION 2137 2144	тренеру
+T51	PERSON 2145 2156	Алену Виньо
+T52	NUMBER 2235 2239	один
+T53	NATIONALITY 2250 2259	канадских
+T54	PERSON 2270 2284	Роберто Люонго
+T55	NUMBER 2299 2304	одним
+T56	NATIONALITY 2315 2327	американских
+T57	PERSON 2329 2338	Тим Томас
+T58	DATE 2341 2354	В этом сезоне
+T59	PERSON 2395 2400	Томас
+T60	PERSON 2429 2435	Люонго
+T61	PROFESSION 2260 2268	вратарей
+T62	PROFESSION 2225 2233	вратарей
+T63	ORGANIZATION 2069 2076	Касаток
+T64	PROFESSION 1732 1742	голеадором
+T65	PROFESSION 1844 1855	бомбардиром
+T66	ORGANIZATION 1536 1542	Bruins
+T67	PROFESSION 1529 1542	лидера Bruins
+T68	AWARD 877 882	Кубок
+T69	EVENT 839 845	финале
+T70	ORGANIZATION 739 742	НХЛ
+T71	CITY 535 547	ванкуверской
+T4	EVENT 20 32	Кубка Стэнли
+R1	SUBEVENT_OF Arg1:T2 Arg2:T4	
+R2	ORGANIZES Arg1:T1 Arg2:T2	
+R3	ORGANIZES Arg1:T1 Arg2:T4	
+R4	WORKPLACE Arg1:T13 Arg2:T11	
+R5	AGE_IS Arg1:T13 Arg2:T12	
+T72	PROFESSION 698 708	хоккеистом
+R6	ORGANIZES Arg1:T70 Arg2:T15	
+R7	ALTERNATIVE_NAME Arg1:T2 Arg2:T15	
+R8	WORKS_AS Arg1:T13 Arg2:T72	
+R9	PARTICIPANT_IN Arg1:T13 Arg2:T15	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T15	
+R11	WORKPLACE Arg1:T16 Arg2:T18	
+R12	AWARDED_WITH Arg1:T16 Arg2:T68	
+R13	PRODUCES Arg1:T70 Arg2:T68	
+R14	ORGANIZES Arg1:T70 Arg2:T69	
+R15	AGE_IS Arg1:T16 Arg2:T20	
+R16	AGE_IS Arg1:T16 Arg2:T21	
+R17	PARTICIPANT_IN Arg1:T16 Arg2:T69	
+R18	ALTERNATIVE_NAME Arg1:T13 Arg2:T22	
+R19	WORKS_AS Arg1:T39 Arg2:T64	
+R20	WORKPLACE Arg1:T39 Arg2:T38	
+R21	WORKPLACE Arg1:T64 Arg2:T38	
+R22	WORKS_AS Arg1:T39 Arg2:T65	
+R23	WORKPLACE Arg1:T43 Arg2:T42	
+R24	MEMBER_OF Arg1:T38 Arg2:T41	
+R25	WORKPLACE Arg1:T45 Arg2:T42	
+R26	ALTERNATIVE_NAME Arg1:T47 Arg2:T63	
+R27	WORKS_AS Arg1:T51 Arg2:T50	
+R28	ORIGINS_FROM Arg1:T54 Arg2:T53	
+R29	ORIGINS_FROM Arg1:T57 Arg2:T56	
+R30	WORKS_AS Arg1:T54 Arg2:T61	
+R31	ORIGINS_FROM Arg1:T61 Arg2:T53	
+R32	WORKS_AS Arg1:T57 Arg2:T62	
+R33	ALTERNATIVE_NAME Arg1:T57 Arg2:T59	
+R34	ALTERNATIVE_NAME Arg1:T54 Arg2:T60	
+R35	WORKPLACE Arg1:T50 Arg2:T47	
+R36	WORKPLACE Arg1:T51 Arg2:T47	
+R37	HEADQUARTERED_IN Arg1:T6 Arg2:T71	
+R38	PARTICIPANT_IN Arg1:T6 Arg2:T2	
+R39	PARTICIPANT_IN Arg1:T9 Arg2:T2	
+R40	MEMBER_OF Arg1:T6 Arg2:T1	
+R41	MEMBER_OF Arg1:T9 Arg2:T1	
+R42	MEMBER_OF Arg1:T11 Arg2:T70	
+R43	MEMBER_OF Arg1:T18 Arg2:T70	
+R44	PARTICIPANT_IN Arg1:T18 Arg2:T69	
+R45	WORKPLACE Arg1:T22 Arg2:T23	
+R46	WORKS_AS Arg1:T36 Arg2:T67	
+R47	WORKS_AS Arg1:T36 Arg2:T35	
+R48	WORKPLACE Arg1:T36 Arg2:T66	
+R49	WORKPLACE Arg1:T35 Arg2:T66	
+R50	WORKPLACE Arg1:T67 Arg2:T66	
+N1	Reference T9 Wikidata:Q188984	Нью-Йорк Рейнджерс
+N2	Reference T10 Wikidata:Q1215892	Национальная хоккейная лига
+N3	Reference T16 Wikidata:Q715377	Челиос, Крис
+N4	Reference T18 Wikidata:Q194116	Детройт Ред Уингз
+N5	Reference T22 Wikidata:Q715591	Рекки, Марк
+N6	Reference T23 Wikidata:Q193643	Питтсбург Пингвинз
+N7	Reference T24 Wikidata:Q194121	Бостон Брюинз
+N8	Reference T26 Wikidata:Q205973	Эдмонтон Ойлерз
+N9	Reference T36 Wikidata:Q168957	Хара, Здено
+N10	Reference T39 Wikidata:Q537416	Седин, Даниэль
+N11	Reference T43 Wikidata:Q944189	Крейчи, Давид
+N12	Reference T45 Wikidata:Q1336921	Хортон, Натан
+N13	Reference T50 Wikidata:Q41583	тренер
+N14	Reference T51 Wikidata:Q1303383	Ален Виньо
+N17	Reference T60 Wikidata:Q471499	Люонго, Роберто
+N22	Reference T71 Wikidata:Q24639	Ванкувер
+N23	Reference T72 Wikidata:Q11774891	
+N21	Reference T68 Wikidata:Q211872	
+N24	Reference T35 Wikidata:NULL	
+N25	Reference T67 Wikidata:NULL	нет данных
+N20	Reference T64 Wikidata:NULL	
+N26	Reference T65 Wikidata:NULL	
+N19	Reference T63 Wikidata:Q192890	Ванкувер Кэнакс
+N18	Reference T62 Wikidata:Q1317534	
+N15	Reference T53 Wikidata:Q1196645	канадцы
+N16	Reference T56 Wikidata:Q846570	
+N27	Reference T59 Wikidata:Q471466	
+N28	Reference T41 Wikidata:Q1215892	Национальная хоккейная лига
+N29	Reference T70 Wikidata:Q1215892	Национальная хоккейная лига
+N30	Reference T37 Wikidata:Q1215892	Национальная хоккейная лига
+N31	Reference T1 Wikidata:Q1215892	Национальная хоккейная лига
+N32	Reference T13 Wikidata:Q715591	Рекки, Марк
+N33	Reference T27 Wikidata:Q715591	Рекки, Марк
+N34	Reference T31 Wikidata:Q194121	Бостон Брюинз
+N35	Reference T66 Wikidata:Q194121	Бостон Брюинз
+N36	Reference T11 Wikidata:Q194121	Бостон Брюинз
+N37	Reference T42 Wikidata:Q194121	Бостон Брюинз
+N38	Reference T54 Wikidata:Q471499	Люонго, Роберто
+N39	Reference T38 Wikidata:Q192890	Ванкувер Кэнакс
+N40	Reference T34 Wikidata:Q192890	Ванкувер Кэнакс
+N41	Reference T47 Wikidata:Q192890	Ванкувер Кэнакс
+N42	Reference T28 Wikidata:Q192890	Ванкувер Кэнакс
+N43	Reference T6 Wikidata:Q192890	Ванкувер Кэнакс
+N44	Reference T61 Wikidata:Q1317534	
+N45	Reference T57 Wikidata:Q471466	

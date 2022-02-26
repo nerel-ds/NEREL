@@ -1,0 +1,154 @@
+T1	PERSON 0 12	Симона Байлз
+T2	ORDINAL 28 37	четвертую
+T3	EVENT 56 65	Олимпиаде
+T4	PERSON 147 158	Али Райсман
+T5	DATE 160 170	Во вторник
+T6	PERSON 194 206	Симона Байлз
+T7	ORDINAL 222 231	четвертую
+T8	EVENT 250 259	Олимпиаде
+T10	AGE 326 344	девятнадцатилетней
+T11	EVENT 415 430	Олимпийских игр
+T12	DATE 432 445	В понедельник
+T14	NUMBER 633 637	пять
+T15	EVENT 667 676	Олимпиады
+T16	NUMBER 689 695	четыре
+T17	NUMBER 746 752	четыре
+T18	PERSON 911 929	Александру Райсман
+T19	DATE 990 1000	Во вторник
+T20	ORDINAL 1141 1148	первого
+T21	EVENT 1171 1186	Олимпийских игр
+T22	DATE 1234 1241	прошлый
+T23	DATE 1327 1338	в 1896 году
+T24	COUNTRY 1369 1378	греческом
+T25	EVENT 1468 1477	Олимпиаде
+T26	DATE 1478 1487	2016 года
+T28	NATIONALITY 1625 1637	Американские
+T29	PERSON 1659 1679	Керри Уолш-Дженнингс
+T30	PERSON 1682 1693	Эйприл Росс
+T31	DATE 1728 1738	во вторник
+T32	NATIONALITY 1788 1799	бразильским
+T33	PERSON 1807 1823	Агатой Беднарчук
+T34	PERSON 1826 1852	Барбарой Сейшас де Фрейтас
+T35	NATIONALITY 1855 1863	Ямайский
+T36	PERSON 1870 1880	Усэйн Болт
+T37	DATE 2044 2051	в среду
+T38	DATE 2061 2070	в четверг
+T39	DATE 2081 2094	В воскресенье
+T40	NATIONALITY 2214 2224	американца
+T41	PERSON 2225 2241	Джастина Гэтлина
+T42	PERSON 2243 2249	Гэтлин
+T43	PERSON 2274 2279	Болта
+T44	NUMBER 2296 2309	двести метров
+T45	AWARD 38 52	золотую медаль
+T46	DATE 66 70	2016
+T47	AWARD 72 89	Серебрянaя медаль
+T48	NATIONALITY 171 183	американская
+T49	PROFESSION 184 193	гимнастка
+T50	AWARD 232 246	золотую медаль
+T51	DATE 260 264	2016
+T9	PERSON 345 350	Байлз
+T52	AWARD 517 523	бронзы
+T53	PROFESSION 586 597	спортсменке
+T13	AWARD 638 653	золотых медалей
+T54	AWARD 696 710	золотые медали
+T55	EVENT 719 728	Олимпиаде
+T56	PROFESSION 760 771	спортсменки
+T57	PERSON 812 817	Байлз
+T58	PROFESSION 875 886	спортсменки
+T59	AWARD 970 987	серебряной медали
+T60	PROFESSION 1101 1111	Спортсмены
+T27	PROFESSION 1346 1352	пловцы
+T61	LOCATION 1386 1389	Зеа
+T62	PROFESSION 1638 1658	пляжные волейболисты
+T63	PROFESSION 1864 1869	бегун
+T64	TIME 2061 2078	в четверг вечером
+T65	PERSON 2095 2099	Болт
+T66	EVENT 2187 2205	финале стометровки
+T67	EVENT 56 70	Олимпиаде-2016
+R1	POINT_IN_TIME Arg1:T67 Arg2:T46	
+R2	ORIGINS_FROM Arg1:T45 Arg2:T67	
+R3	AWARDED_WITH Arg1:T1 Arg2:T45	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T67	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T67	
+R6	ORIGINS_FROM Arg1:T67 Arg2:T47	
+R7	AWARDED_WITH Arg1:T4 Arg2:T47	
+R8	ORIGINS_FROM Arg1:T49 Arg2:T48	
+R9	WORKS_AS Arg1:T6 Arg2:T49	
+R10	ORIGINS_FROM Arg1:T6 Arg2:T48	
+T68	EVENT 250 264	Олимпиаде-2016
+R11	POINT_IN_TIME Arg1:T68 Arg2:T51	
+R12	ORIGINS_FROM Arg1:T50 Arg2:T68	
+R13	AWARDED_WITH Arg1:T6 Arg2:T50	
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+R15	AGE_IS Arg1:T9 Arg2:T10	
+R16	PARTICIPANT_IN Arg1:T6 Arg2:T68	
+R17	WORKS_AS Arg1:T9 Arg2:T53	
+R18	AWARDED_WITH Arg1:T9 Arg2:T52	
+R19	ORIGINS_FROM Arg1:T52 Arg2:T15	
+R20	AWARDED_WITH Arg1:T9 Arg2:T13	
+R21	ORIGINS_FROM Arg1:T13 Arg2:T15	
+R22	ORIGINS_FROM Arg1:T54 Arg2:T55	
+R23	WORKS_AS Arg1:T57 Arg2:T58	
+R24	WORKS_AS Arg1:T18 Arg2:T58	
+R25	AWARDED_WITH Arg1:T18 Arg2:T59	
+R26	ORIGINS_FROM Arg1:T59 Arg2:T55	
+R27	OWNER_OF Arg1:T24 Arg2:T61	
+T69	EVENT 1468 1487	Олимпиаде 2016 года
+R28	POINT_IN_TIME Arg1:T69 Arg2:T26	
+T70	PROFESSION 1646 1658	волейболисты
+R29	WORKS_AS Arg1:T29 Arg2:T62	
+R30	WORKS_AS Arg1:T30 Arg2:T70	
+R31	ORIGINS_FROM Arg1:T70 Arg2:T28	
+R32	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R33	ORIGINS_FROM Arg1:T30 Arg2:T28	
+R34	ORIGINS_FROM Arg1:T33 Arg2:T32	
+R35	ORIGINS_FROM Arg1:T34 Arg2:T32	
+R36	WORKS_AS Arg1:T36 Arg2:T63	
+R37	ORIGINS_FROM Arg1:T63 Arg2:T35	
+R38	ORIGINS_FROM Arg1:T36 Arg2:T35	
+R39	ALTERNATIVE_NAME Arg1:T36 Arg2:T65	
+R40	ORIGINS_FROM Arg1:T41 Arg2:T40	
+R41	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R42	POINT_IN_TIME Arg1:T45 Arg2:T46	
+R43	POINT_IN_TIME Arg1:T50 Arg2:T51	
+N2	Reference T18 Wikidata:Q238663	Райсман, Александра
+N15	Reference T57 Wikidata:Q7520267	Байлз, Симона
+N17	Reference T60 Wikidata:Q2066131	спортсмен
+N10	Reference T47 Wikidata:Q15889641	
+N11	Reference T48 Wikidata:Q846570	
+N12	Reference T49 Wikidata:Q13381572	
+N13	Reference T52 Wikidata:Q15889643	
+N21	Reference T53 Wikidata:Q2066131	спортсмен
+N14	Reference T13 Wikidata:Q15243387	
+N1	Reference T4 Wikidata:Q238663	Райсман, Александра
+N16	Reference T59 Wikidata:Q15889641	
+N18	Reference T27 Wikidata:Q10843402	пловец
+N3	Reference T24 Wikidata:Q41	Греция
+N22	Reference T61 Wikidata:Q1133291	
+N23	Reference T70 Wikidata:Q15117302	
+N24	Reference T62 Wikidata:NULL	нет данных
+N4	Reference T29 Wikidata:Q232666	
+N25	Reference T30 Wikidata:Q441141	
+N5	Reference T32 Wikidata:Q873625	Бразильцы
+N6	Reference T33 Wikidata:Q13534184	
+N26	Reference T34 Wikidata:Q13534250	
+N7	Reference T35 Wikidata:Q6127469	
+N19	Reference T63 Wikidata:Q12803959	
+N20	Reference T65 Wikidata:Q1189	
+N8	Reference T40 Wikidata:Q846570	
+N9	Reference T42 Wikidata:Q1652	Гэтлин, Джастин
+N27	Reference T6 Wikidata:Q7520267	Байлз, Симона
+N28	Reference T9 Wikidata:Q7520267	Байлз, Симона
+N29	Reference T1 Wikidata:Q7520267	Байлз, Симона
+N30	Reference T28 Wikidata:Q846570	
+N31	Reference T58 Wikidata:Q2066131	спортсмен
+N32	Reference T56 Wikidata:Q2066131	спортсмен
+N33	Reference T45 Wikidata:Q15243387	
+N34	Reference T54 Wikidata:Q15243387	
+N35	Reference T50 Wikidata:Q15243387	
+N36	Reference T36 Wikidata:Q1189	
+N37	Reference T43 Wikidata:Q1189	
+N38	Reference T41 Wikidata:Q1652	Гэтлин, Джастин
+R44	PARTICIPANT_IN Arg1:T41 Arg2:T66	
+R45	PARTICIPANT_IN Arg1:T65 Arg2:T66	
+R46	KNOWS Arg1:T65 Arg2:T41	

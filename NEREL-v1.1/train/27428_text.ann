@@ -1,0 +1,107 @@
+T1	COUNTRY 2 8	Сомали
+T2	CITY 83 91	Могадишо
+T3	COUNTRY 147 150	США
+T4	DATE 152 169	декабрь 1992 года
+T5	FACILITY 172 185	Зелёная линия
+T6	NUMBER 250 253	две
+T7	DATE 286 302	Январь 1993 года
+T8	ORGANIZATION 304 317	Верховный суд
+T9	PERSON 459 475	Абдиазис Абдинур
+T11	DATE 612 629	3 марта 2013 года
+T12	COUNTRY 727 738	Сомалийской
+T13	ORGANIZATION 747 761	Голоса Америки
+T14	PERSON 763 770	Абдинур
+T15	AGE 885 894	27-летняя
+T16	CITY 1020 1028	Могадишо
+T17	ORGANIZATION 1069 1087	Human Rights Watch
+T18	ORGANIZATION 1092 1121	Комитет по защите журналистов
+T19	PERSON 1152 1160	Абдинура
+T20	PROFESSION 20 29	журналист
+T21	PROFESSION 67 75	военными
+T22	EVENT 45 58	изнасиловании
+T23	ORGANIZATION 132 150	морской пехоты США
+T24	ORGANIZATION 132 146	морской пехоты
+T25	CITY 207 215	Могадишо
+T26	EVENT 267 284	гражданской войны
+T27	ORGANIZATION 304 324	Верховный суд Сомали
+T28	COUNTRY 318 324	Сомали
+T29	PROFESSION 335 345	журналиста
+T30	PENALTY 360 366	тюрьму
+T31	EVENT 405 417	изнасиловали
+T32	PROFESSION 418 456	сотрудники правительственных спецслужб
+T33	ORGANIZATION 429 456	правительственных спецслужб
+T10	PENALTY 509 527	одному году тюрьмы
+T37	CRIME 570 597	клевете с корыстными целями
+T38	CRIME 544 567	оскорблении государства
+T39	PROFESSION 643 653	журналисту
+T40	EVENT 928 940	изнасилована
+T41	PROFESSION 941 956	военнослужащими
+T42	PROFESSION 1110 1121	журналистов
+T43	EVENT 9 19	освобождён
+R1	PARTICIPANT_IN Arg1:T20 Arg2:T43	
+R2	TAKES_PLACE_IN Arg1:T43 Arg2:T1	
+R3	AGENT Arg1:T21 Arg2:T22	
+T35	DATE 509 520	одному году
+R4	LOCATED_IN Arg1:T2 Arg2:T1	
+R5	HEADQUARTERED_IN Arg1:T23 Arg2:T3	
+R6	LOCATED_IN Arg1:T5 Arg2:T25	
+R7	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+T44	EVENT 325 334	освободил
+R8	AGENT Arg1:T27 Arg2:T44	
+R9	PARTICIPANT_IN Arg1:T29 Arg2:T44	
+T45	EVENT 370 378	интервью
+T34	ORGANIZATION 429 446	правительственных
+R10	WORKPLACE Arg1:T32 Arg2:T33	
+R13	HAS_CAUSE Arg1:T45 Arg2:T31	
+R14	PARTICIPANT_IN Arg1:T32 Arg2:T31	
+R15	WORKS_AS Arg1:T9 Arg2:T39	
+R16	PENALIZED_AS Arg1:T9 Arg2:T10	
+R17	CONVICTED_OF Arg1:T9 Arg2:T38	
+R18	CONVICTED_OF Arg1:T9 Arg2:T37	
+R19	HAS_CAUSE Arg1:T10 Arg2:T38	
+R20	HAS_CAUSE Arg1:T10 Arg2:T37	
+R11	HAS_CAUSE Arg1:T30 Arg2:T45	
+R12	PENALIZED_AS Arg1:T29 Arg2:T30	
+T36	EVENT 630 633	суд
+R21	POINT_IN_TIME Arg1:T36 Arg2:T11	
+R22	PARTICIPANT_IN Arg1:T39 Arg2:T36	
+R23	ALTERNATIVE_NAME Arg1:T28 Arg2:T12	
+R24	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R25	AGENT Arg1:T41 Arg2:T40	
+R26	TAKES_PLACE_IN Arg1:T40 Arg2:T16	
+R27	MEMBER_OF Arg1:T42 Arg2:T18	
+R28	AGENT Arg1:T29 Arg2:T45	
+R29	FOUNDED_BY Arg1:T33 Arg2:T34	
+T46	COUNTRY 754 761	Америки
+R30	HEADQUARTERED_IN Arg1:T13 Arg2:T46	
+R31	LOCATED_IN Arg1:T25 Arg2:T1	
+T47	CRIME 570 577	клевете
+T48	PENALTY 521 527	тюрьмы
+N1	Reference T3 Wikidata:Q30	США
+N3	Reference T8 Wikidata:Q190752	верховный суд
+N5	Reference T13 Wikidata:Q228389	Голос Америки
+N6	Reference T16 Wikidata:Q2449	Могадишо
+N7	Reference T17 Wikidata:Q187052	Хьюман Райтс Вотч
+N8	Reference T18 Wikidata:Q1115813	Комитет защиты журналистов
+N9	Reference T21 Wikidata:Q47064	военнослужащий
+N10	Reference T23 Wikidata:Q11218	Корпус морской пехоты США
+N11	Reference T24 Wikidata:Q1898583	морская пехота
+N13	Reference T32 Wikidata:Q47913	спецслужба
+N15	Reference T41 Wikidata:Q47064	военнослужащий
+N16	Reference T42 Wikidata:Q1930187	журналист
+N2	Reference T5 Wikidata:NULL	нет данных
+N12	Reference T27 Wikidata:NULL	нет данных
+N18	Reference T19 Wikidata:NULL	нет данных
+N19	Reference T46 Wikidata:Q30	США
+N4	Reference T12 Wikidata:Q1045	Сомали
+N17	Reference T34 Wikidata:Q7188	правительство
+N14	Reference T33 Wikidata:NULL	нет данных
+N20	Reference T2 Wikidata:Q2449	Могадишо
+N21	Reference T25 Wikidata:Q2449	Могадишо
+N22	Reference T39 Wikidata:Q1930187	журналист
+N23	Reference T29 Wikidata:Q1930187	журналист
+N24	Reference T20 Wikidata:Q1930187	журналист
+N25	Reference T14 Wikidata:NULL	нет данных
+N26	Reference T9 Wikidata:NULL	нет данных
+N27	Reference T28 Wikidata:Q1045	Сомали
+N28	Reference T1 Wikidata:Q1045	Сомали

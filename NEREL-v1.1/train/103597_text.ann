@@ -1,0 +1,290 @@
+T1	PERSON 22 28	Яровой
+T2	PERSON 56 68	Ирина Яровая
+T3	ORGANIZATION 81 101	Государственную Думу
+T4	COUNTRY 102 108	России
+T5	LAW 800 994	№ 1039149-6 «О внесении изменений в отдельные законодательные акты Российской Федерации в части установления дополнительных мер противодействия терроризму и обеспечения общественной безопасности
+T6	LAW 159 175	Уголовный кодекс
+T7	COUNTRY 176 196	Российской Федерации
+T9	LAW 199 250	Уголовно-процессуальный кодекс Российской Федерации
+T10	LAW 136 357	О внесении изменений в Уголовный кодекс Российской Федерации и Уголовно-процессуальный кодекс Российской Федерации в части установления дополнительных мер противодействия терроризму и обеспечения общественной безопасности
+T12	COUNTRY 428 448	Российской Федерации
+T13	LAW 374 555	О внесении изменений в отдельные законодательные акты Российской Федерации в части установления дополнительных мер противодействия терроризму и обеспечения общественной безопасности
+T15	ORGANIZATION 584 644	комитета госдумы по безопасности и противодействию коррупции
+T16	PERSON 645 657	Ирины Яровой
+T18	ORGANIZATION 666 682	Совета Федерации
+T19	PERSON 683 698	Виктора Озерова
+T20	ORGANIZATION 743 756	Единой России
+T22	COUNTRY 867 887	Российской Федерации
+T23	NUMBER 1021 1023	22
+T24	ORGANIZATION 1089 1096	госдумы
+T31	PERSON 1526 1540	Эдвард Сноуден
+T39	PERSON 1604 1611	Сноуден
+T40	PERSON 1635 1641	Яровой
+T42	COUNTRY 1658 1664	России
+T44	ORGANIZATION 1673 1677	ЛДПР
+T45	PERSON 1678 1708	Владимир Вольфович Жириновский
+T49	PROFESSION 1798 1818	президент Татарстана
+T52	PERSON 1753 1769	Жириновский В. В
+T54	DATE 1781 1791	24/06/2016
+T55	PROFESSION 1798 1807	президент
+T56	STATE_OR_PROVINCE 1808 1818	Татарстана
+T57	PERSON 1819 1835	Минтимер Шаймиев
+T59	ORGANIZATION 1850 1899	Российского союза евангельских христиан-баптистов
+T60	ORGANIZATION 1901 1907	РОСХВЕ
+T61	PERSON 1909 1935	Алексей Васильевич Смирнов
+T69	PROFESSION 2001 2011	президенту
+T70	COUNTRY 2012 2014	РФ
+T72	PERSON 2015 2027	В. В. Путину
+T73	PROFESSION 2045 2052	епископ
+T74	ORGANIZATION 2053 2059	РОСХВЕ
+T75	PERSON 2060 2076	Сергей Ряховский
+T81	PROFESSION 2133 2140	Епископ
+T82	PERSON 2141 2157	Сергей Ряховский
+T83	LAW 2182 2201	законопроект Яровой
+T84	MONEY 2370 2389	около 2,2 трлн руб.
+T85	COUNTRY 2430 2436	России
+T86	NUMBER 2437 2447	в 3-4 раза
+T87	ORGANIZATION 2459 2471	Почты России
+T88	COUNTRY 2465 2471	России
+T89	MONEY 2474 2487	500 млрд руб.
+T90	MONEY 2535 2548	100 млрд руб.
+T91	DATE 2549 2555	в года
+T94	ORGANIZATION 2688 2700	Почте России
+T95	MONEY 2721 2736	500 млрд рублей
+T96	PERSON 2759 2765	Яровой
+T97	ORGANIZATION 2784 2798	Свет Федерации
+T98	PERSON 2850 2855	Путин
+T99	NUMBER 2926 2930	двух
+T100	PRODUCT 2985 2995	change.org
+T101	ORGANIZATION 2999 3033	Российская Общественная Инициатива
+T102	ORGANIZATION 3036 3039	РОИ
+T103	PRODUCT 3070 3080	change.org
+T162	ORGANIZATION 3284 3287	РОИ
+T163	NUMBER 3290 3302	более 51 000
+T166	PRODUCT 3409 3419	change.org
+T168	PRODUCT 3651 3663	gosuslugi.ru
+T170	DATE 3790 3799	за 5 дней
+T172	ORGANIZATION 3849 3874	Общество защиты интернета
+T173	PERSON 3876 3889	Леонид Волков
+T174	ORGANIZATION 3898 3903	мэрию
+T175	CITY 3904 3910	Москвы
+T176	DATE 3944 3961	26 июля 2016 года
+T177	FACILITY 3988 4008	здания Роскомнадзора
+T178	ORGANIZATION 3995 4008	Роскомнадзора
+T184	CITY 4103 4109	Москве
+T186	PERSON 4145 4151	Яровой
+T187	ORGANIZATION 4155 4180	Общество защиты интернета
+T188	ORGANIZATION 4213 4226	Роскомнадзора
+R2	WORKPLACE Arg1:T16 Arg2:T15
+R8	WORKPLACE Arg1:T45 Arg2:T44
+R12	WORKS_AS Arg1:T57 Arg2:T55
+R13	WORKPLACE Arg1:T57 Arg2:T56
+R16	WORKS_AS Arg1:T61 Arg2:T63
+R17	ABBREVIATION Arg1:T60 Arg2:T59
+R20	WORKS_AS Arg1:T72 Arg2:T51
+R21	WORKS_AS Arg1:T75 Arg2:T53
+R22	WORKPLACE Arg1:T75 Arg2:T74
+R24	HEADQUARTERED_IN Arg1:T87 Arg2:T88
+R28	ABBREVIATION Arg1:T101 Arg2:T102
+T189	ORGANIZATION 81 108	Государственную Думу России
+T27	LAW 15 28	закона Яровой
+T29	COUNTRY 230 250	Российской Федерации
+T30	LAW 199 229	Уголовно-процессуальный кодекс
+T8	LAW 159 196	Уголовный кодекс Российской Федерации
+T41	PROFESSION 660 682	члена Совета Федерации
+T190	LAW 1628 1641	закона Яровой
+T32	PROFESSION 571 644	Председателя комитета госдумы по безопасности и противодействию коррупции
+T33	ORGANIZATION 593 600	госдумы
+T34	PROFESSION 1667 1677	лидер ЛДПР
+T35	ORGANIZATION 3898 3910	мэрию Москвы
+T36	EVENT 3936 3943	митинга
+T37	LAW 4138 4151	пакета Яровой
+T38	PERSON 3345 3351	Яровой
+T46	LAW 3339 3351	закон Яровой
+T47	COUNTRY 2694 2700	России
+T48	LAW 2752 2765	закона Яровой
+T50	PERSON 2195 2201	Яровой
+T51	PROFESSION 2001 2014	президенту РФ
+T53	PROFESSION 2045 2059	епископ РОСХВЕ
+T62	RELIGION 1881 1899	христиан-баптистов
+T63	PROFESSION 1837 1899	председатель Российского союза евангельских христиан-баптистов
+R1	HEADQUARTERED_IN Arg1:T189 Arg2:T4	
+R3	WORKS_AS Arg1:T16 Arg2:T32	
+R4	WORKPLACE Arg1:T19 Arg2:T18	
+R5	WORKS_AS Arg1:T19 Arg2:T41	
+R6	WORKS_AS Arg1:T82 Arg2:T81	
+R7	PRODUCES Arg1:T1 Arg2:T27	
+R9	PRODUCES Arg1:T40 Arg2:T190	
+R10	WORKS_AS Arg1:T45 Arg2:T34	
+T14	COUNTRY 1850 1861	Российского
+R11	RELIGION_OF Arg1:T61 Arg2:T62	
+R14	PRODUCES Arg1:T50 Arg2:T83	
+R15	HEADQUARTERED_IN Arg1:T94 Arg2:T47	
+R18	PRODUCES Arg1:T96 Arg2:T48	
+R19	PRODUCES Arg1:T38 Arg2:T46	
+R23	WORKPLACE Arg1:T173 Arg2:T172	
+R25	POINT_IN_TIME Arg1:T36 Arg2:T176	
+R26	ORGANIZES Arg1:T173 Arg2:T36	
+R27	TAKES_PLACE_IN Arg1:T36 Arg2:T175	
+R30	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R31	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+R32	ORIGINS_FROM Arg1:T8 Arg2:T7	
+T17	ORDINAL 123 134	№ 1039101-6
+R33	ORIGINS_FROM Arg1:T9 Arg2:T29	
+T11	ORDINAL 361 372	№ 1039149-6
+T26	IDEOLOGY 505 515	терроризму
+T43	IDEOLOGY 307 317	терроризму
+T64	IDEOLOGY 944 954	терроризму
+R34	PART_OF Arg1:T15 Arg2:T33	
+R35	WORKPLACE Arg1:T32 Arg2:T15	
+R36	WORKPLACE Arg1:T41 Arg2:T18	
+T65	PROFESSION 728 738	депутатами
+R37	MEMBER_OF Arg1:T65 Arg2:T20	
+T66	ORDINAL 800 811	№ 1039149-6
+R38	ALTERNATIVE_NAME Arg1:T3 Arg2:T33	
+R39	ALTERNATIVE_NAME Arg1:T31 Arg2:T39	
+R40	WORKPLACE Arg1:T34 Arg2:T44	
+R41	ALTERNATIVE_NAME Arg1:T42 Arg2:T14	
+R42	ALTERNATIVE_NAME Arg1:T45 Arg2:T52	
+R43	WORKPLACE Arg1:T49 Arg2:T56	
+R45	WORKPLACE Arg1:T63 Arg2:T14	
+R46	HEADQUARTERED_IN Arg1:T59 Arg2:T14	
+R47	ABBREVIATION Arg1:T59 Arg2:T60	
+R48	RELIGION_OF Arg1:T59 Arg2:T62	
+R49	WORKPLACE Arg1:T61 Arg2:T59	
+R50	WORKPLACE Arg1:T61 Arg2:T14	
+R51	ALTERNATIVE_NAME Arg1:T14 Arg2:T70	
+R52	WORKPLACE Arg1:T51 Arg2:T70	
+R53	WORKPLACE Arg1:T72 Arg2:T70	
+R54	WORKPLACE Arg1:T53 Arg2:T74	
+R55	PRICE_OF Arg1:T48 Arg2:T95	
+T21	EVENT 2799 2806	одобрил
+T25	EVENT 2841 2849	подписал
+R56	PARTICIPANT_IN Arg1:T97 Arg2:T21	
+R57	PARTICIPANT_IN Arg1:T98 Arg2:T25	
+R58	ALTERNATIVE_NAME Arg1:T72 Arg2:T98	
+T28	NUMBER 3089 3110	более 500 000 голосов
+T67	LAW 3257 3269	пакет Яровой
+T68	PERSON 3263 3269	Яровой
+R59	PRODUCES Arg1:T68 Arg2:T67	
+R60	ALTERNATIVE_NAME Arg1:T67 Arg2:T46	
+T71	ORGANIZATION 3583 3586	РОИ
+T76	ORGANIZATION 3709 3712	РОИ
+T77	NUMBER 3775 3789	50 000 голосов
+T78	PROFESSION 3808 3875	руководитель некоммерческой организации «Общество защиты интернета»
+R29	WORKPLACE Arg1:T78 Arg2:T172	
+R61	WORKS_AS Arg1:T173 Arg2:T78	
+R62	HEADQUARTERED_IN Arg1:T35 Arg2:T175	
+R63	LOCATED_IN Arg1:T178 Arg2:T177	
+R64	LOCATED_IN Arg1:T177 Arg2:T184	
+R65	PRODUCES Arg1:T186 Arg2:T37	
+T79	CRIME 635 644	коррупции
+T80	RELIGION 2238 2250	христианства
+T92	RELIGION 2252 2258	ислама
+T93	RELIGION 2261 2269	иудаизма
+T104	PRODUCT 2961 2969	интернет
+R66	TAKES_PLACE_IN Arg1:T36 Arg2:T177	
+R67	EXPENDITURE Arg1:T94 Arg2:T95	
+R68	EXPENDITURE Arg1:T87 Arg2:T89	
+R69	INANIMATE_INVOLVED Arg1:T48 Arg2:T21	
+R70	INANIMATE_INVOLVED Arg1:T48 Arg2:T25	
+T105	COUNTRY 2999 3009	Российская
+R71	HEADQUARTERED_IN Arg1:T101 Arg2:T105	
+N1	Reference T3 Wikidata:Q715641	Государственная дума
+N8	Reference T16 Wikidata:Q4538691	Ирина Яровая
+N9	Reference T18 Wikidata:Q186473	Совет Федерации
+N10	Reference T19 Wikidata:Q19311626	Виктор Алексеевич Озеров
+N11	Reference T20 Wikidata:Q151469	Единая Россия
+N13	Reference T44 Wikidata:Q212115	ЛДПР
+N14	Reference T49 Wikidata:Q13207321	президент Татарстана
+N15	Reference T52 Wikidata:Q200015	Владимир Вольфович Жириновский
+N16	Reference T55 Wikidata:Q30461	президент
+N17	Reference T56 Wikidata:Q5481	Татарстан
+N18	Reference T57 Wikidata:Q368896	Минтимер Шарипович Шаймиев
+N20	Reference T59 Wikidata:Q3125298	Российский союз евангельских христиан-баптистов
+N21	Reference T61 Wikidata:Q15077255	Смирнов, Алексей Васильевич
+N22	Reference T73 Wikidata:Q29182	епископ
+N24	Reference T83 Wikidata:Q198990	Яровое
+N25	Reference T85 Wikidata:Q159	Россия
+N26	Reference T87 Wikidata:Q1502763	Почта России
+N27	Reference T97 Wikidata:Q43702	федеративное государство
+N28	Reference T98 Wikidata:Q7747	Владимир Владимирович Путин
+N29	Reference T103 Wikidata:Q3090589	Change.org
+N30	Reference T168 Wikidata:Q4373230	Портал государственных услуг Российской Федерации
+N31	Reference T172 Wikidata:Q48204	ассоциация
+N32	Reference T173 Wikidata:Q4123315	Леонид Волков
+N33	Reference T174 Wikidata:Q543654	ратуша
+N34	Reference T177 Wikidata:Q129597	Роскомнадзор
+N35	Reference T178 Wikidata:Q129597	Роскомнадзор
+N36	Reference T184 Wikidata:Q649	Москва
+N37	Reference T189 Wikidata:Q715641	Государственная дума
+N38	Reference T29 Wikidata:Q159	Россия
+N40	Reference T8 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N43	Reference T35 Wikidata:Q3339281	Правительство Москвы
+N44	Reference T38 Wikidata:Q198990	Яровое
+N46	Reference T51 Wikidata:Q218295	президент Российской Федерации
+N48	Reference T62 Wikidata:Q93191	баптизм
+N50	Reference T65 Wikidata:Q486839	член парламента
+N51	Reference T67 Wikidata:Q198990	Яровое
+N52	Reference T76 Wikidata:Q16692633	Российская общественная инициатива
+N53	Reference T78 Wikidata:Q8425	общество
+N54	Reference T80 Wikidata:Q5043	христианство
+N55	Reference T92 Wikidata:Q432	ислам
+N56	Reference T93 Wikidata:Q9268	иудаизм
+N57	Reference T104 Wikidata:Q75	Интернет
+N39	Reference T30 Wikidata:Q19705	уголовное законодательство
+N3	Reference T6 Wikidata:Q19705	уголовное законодательство
+N4	Reference T9 Wikidata:Q4469058	
+N12	Reference T39 Wikidata:Q13424289	Эдвард Сноуден
+N42	Reference T34 Wikidata:NULL	нет данных
+N45	Reference T50 Wikidata:Q4538691	Ирина Яровая
+N23	Reference T82 Wikidata:Q4402801	Ряховский, Сергей Васильевич
+N49	Reference T63 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q97572713	
+N7	Reference T15 Wikidata:NULL	нет данных
+N41	Reference T32 Wikidata:NULL	нет данных
+N58	Reference T41 Wikidata:NULL	нет данных
+N5	Reference T10 Wikidata:Q41806729	
+N6	Reference T13 Wikidata:Q97572713	
+N47	Reference T53 Wikidata:NULL	нет данных
+N59	Reference T33 Wikidata:Q715641	Государственная дума
+N60	Reference T24 Wikidata:Q715641	Государственная дума
+N61	Reference T45 Wikidata:Q200015	Владимир Вольфович Жириновский
+N62	Reference T69 Wikidata:Q30461	президент
+N63	Reference T60 Wikidata:Q3125298	Российский союз евангельских христиан-баптистов
+N64	Reference T74 Wikidata:Q3125298	Российский союз евангельских христиан-баптистов
+N65	Reference T81 Wikidata:Q29182	епископ
+N66	Reference T14 Wikidata:Q159	Россия
+N67	Reference T47 Wikidata:Q159	Россия
+N68	Reference T70 Wikidata:Q159	Россия
+N69	Reference T42 Wikidata:Q159	Россия
+N70	Reference T88 Wikidata:Q159	Россия
+N71	Reference T105 Wikidata:Q159	Россия
+N72	Reference T94 Wikidata:Q1502763	Почта России
+N73	Reference T72 Wikidata:Q7747	Владимир Владимирович Путин
+N74	Reference T166 Wikidata:Q3090589	Change.org
+N75	Reference T100 Wikidata:Q3090589	Change.org
+N76	Reference T187 Wikidata:Q48204	ассоциация
+N77	Reference T188 Wikidata:Q129597	Роскомнадзор
+N78	Reference T175 Wikidata:Q649	Москва
+N79	Reference T22 Wikidata:Q159	Россия
+N80	Reference T12 Wikidata:Q159	Россия
+N81	Reference T7 Wikidata:Q159	Россия
+N82	Reference T4 Wikidata:Q159	Россия
+N83	Reference T40 Wikidata:Q198990	Яровое
+N84	Reference T96 Wikidata:Q198990	Яровое
+N85	Reference T1 Wikidata:Q198990	Яровое
+N86	Reference T2 Wikidata:Q198990	Яровое
+N87	Reference T186 Wikidata:Q198990	Яровое
+N88	Reference T68 Wikidata:Q198990	Яровое
+N89	Reference T46 Wikidata:Q198990	Яровое
+N90	Reference T190 Wikidata:Q198990	Яровое
+N91	Reference T48 Wikidata:Q198990	Яровое
+N92	Reference T37 Wikidata:Q198990	Яровое
+N93	Reference T27 Wikidata:Q198990	Яровое
+N94	Reference T101 Wikidata:Q16692633	Российская общественная инициатива
+N95	Reference T162 Wikidata:Q16692633	Российская общественная инициатива
+N96	Reference T102 Wikidata:Q16692633	Российская общественная инициатива
+N97	Reference T71 Wikidata:Q16692633	Российская общественная инициатива
+N98	Reference T31 Wikidata:Q13424289	Эдвард Сноуден
+N99	Reference T75 Wikidata:Q4402801	Ряховский, Сергей Васильевич

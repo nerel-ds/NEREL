@@ -1,0 +1,160 @@
+T1	NATIONALITY 20 28	британца
+T2	PRODUCT 46 54	Новичком
+T3	PRODUCT 75 82	Новичка
+T4	PRODUCT 195 202	Новичок
+T5	ORGANIZATION 222 272	антитеррористическое управление британской полиции
+T6	DATE 273 301	в пятницу, 13 июля 2018 года
+T8	DATE 325 332	11 июля
+T9	PERSON 351 362	Чарли Роули
+T10	CITY 373 381	Эймсбери
+T11	PERSON 404 409	Роули
+T12	ORGANIZATION 457 468	Портон-Даун
+T13	PRODUCT 507 514	Новичок
+T14	AGE 518 527	45-летний
+T15	PERSON 528 539	Чарли Роули
+T16	AGE 546 555	44-летняя
+T17	PERSON 566 579	Дон Стерджесс
+T18	DATE 607 614	30 июня
+T19	PERSON 651 656	Роули
+T20	PERSON 659 668	Стерджесс
+T21	DATE 791 797	8 июля
+T22	PERSON 820 825	Роули
+T23	PRODUCT 1084 1091	Новичок
+T26	ORGANIZATION 1170 1173	ГРУ
+T27	PERSON 1174 1189	Сергея Скрипаля
+T28	PERSON 1203 1207	Юлии
+T29	DATE 1229 1236	в марте
+T30	NUMBER 1284 1293	около ста
+T32	ORGANIZATION 1352 1365	Скотланд-Ярда
+T33	PERSON 1366 1374	Нил Басу
+T34	NATIONALITY 1577 1586	Британцев
+T35	COUNTRY 1746 1760	Великобритания
+T36	COUNTRY 1770 1776	Россию
+T37	CITY 1813 1819	Москва
+T38	ORGANIZATION 83 101	Британская полиция
+T39	ORGANIZATION 94 101	полиция
+T40	COUNTRY 83 93	Британская
+T41	ORGANIZATION 254 272	британской полиции
+T42	ORGANIZATION 265 272	полиции
+T43	COUNTRY 254 264	британской
+T7	PRODUCT 597 605	Новичком
+T44	PROFESSION 627 632	врачи
+T45	PERSON 798 807	Старджесс
+T46	PROFESSION 837 843	врачей
+T47	ORGANIZATION 964 972	полицией
+T48	ORGANIZATION 1035 1042	полиция
+T24	COUNTRY 1140 1151	российского
+T49	PROFESSION 1140 1158	российского агента
+T50	EVENT 1219 1228	отравлены
+T51	ORGANIZATION 1239 1246	Полиция
+T52	PROFESSION 1294 1306	следователей
+T53	PROFESSION 1309 1365	Глава контртеррористического подразделения Скотланд-Ярда
+T31	ORGANIZATION 1315 1365	контртеррористического подразделения Скотланд-Ярда
+R1	HEADQUARTERED_IN Arg1:T38 Arg2:T40	
+R2	PART_OF Arg1:T5 Arg2:T41	
+R3	HEADQUARTERED_IN Arg1:T41 Arg2:T43	
+R4	PLACE_RESIDES_IN Arg1:T9 Arg2:T10	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R6	SPOUSE Arg1:T15 Arg2:T17	
+R7	AGE_IS Arg1:T15 Arg2:T14	
+R8	AGE_IS Arg1:T17 Arg2:T16	
+R9	DATE_OF_DEATH Arg1:T45 Arg2:T21	
+R10	PARENT_OF Arg1:T27 Arg2:T28	
+T54	PROFESSION 1159 1173	сотрудника ГРУ
+R11	WORKS_AS Arg1:T27 Arg2:T54	
+R12	WORKPLACE Arg1:T27 Arg2:T26	
+R13	WORKPLACE Arg1:T53 Arg2:T31	
+R14	PART_OF Arg1:T31 Arg2:T32	
+R15	WORKS_AS Arg1:T33 Arg2:T53	
+R16	LOCATED_IN Arg1:T37 Arg2:T36	
+T55	EVENT 337 343	обыске
+R17	POINT_IN_TIME Arg1:T55 Arg2:T8	
+T56	FACILITY 346 362	доме Чарли Роули
+R18	OWNER_OF Arg1:T9 Arg2:T56	
+R19	TAKES_PLACE_IN Arg1:T55 Arg2:T56	
+T57	EVENT 29 42	нашли бутылку
+T58	EVENT 304 324	Бутылка была найдена
+R20	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R21	SUBEVENT_OF Arg1:T58 Arg2:T55	
+R22	POINT_IN_TIME Arg1:T58 Arg2:T8	
+R23	TAKES_PLACE_IN Arg1:T58 Arg2:T56	
+T59	EVENT 585 595	отправлены
+R24	POINT_IN_TIME Arg1:T59 Arg2:T18	
+R25	PARTICIPANT_IN Arg1:T17 Arg2:T59	
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T59	
+R27	ALTERNATIVE_NAME Arg1:T15 Arg2:T19	
+R28	ALTERNATIVE_NAME Arg1:T17 Arg2:T20	
+T60	EVENT 808 818	скончалась
+R29	PARTICIPANT_IN Arg1:T45 Arg2:T60	
+R30	POINT_IN_TIME Arg1:T60 Arg2:T21	
+R31	WORKS_AS Arg1:T27 Arg2:T49	
+R32	WORKPLACE Arg1:T49 Arg2:T24	
+R33	PARTICIPANT_IN Arg1:T27 Arg2:T50	
+R34	PARTICIPANT_IN Arg1:T28 Arg2:T50	
+R35	POINT_IN_TIME Arg1:T50 Arg2:T29	
+R36	ALTERNATIVE_NAME Arg1:T24 Arg2:T36	
+R37	INANIMATE_INVOLVED Arg1:T2 Arg2:T57	
+R38	PARTICIPANT_IN Arg1:T1 Arg2:T57	
+T25	EVENT 116 144	обнаружила небольшую бутылку
+R39	AGENT Arg1:T38 Arg2:T25	
+R40	INANIMATE_INVOLVED Arg1:T4 Arg2:T25	
+R41	ALTERNATIVE_NAME Arg1:T57 Arg2:T25	
+T61	PROFESSION 436 468	Эксперты лаборатории Портон-Даун
+R42	WORKPLACE Arg1:T61 Arg2:T12	
+R43	INANIMATE_INVOLVED Arg1:T7 Arg2:T59	
+T62	EVENT 669 679	отравились
+R44	PARTICIPANT_IN Arg1:T20 Arg2:T62	
+R45	PARTICIPANT_IN Arg1:T19 Arg2:T62	
+T63	DISEASE 746 788	отравление нервно-паралитическим веществом
+R46	MEDICAL_CONDITION Arg1:T20 Arg2:T63	
+R47	MEDICAL_CONDITION Arg1:T19 Arg2:T63	
+R48	ORIGINS_FROM Arg1:T34 Arg2:T35	
+T64	EVENT 845 862	пришёл в сознание
+R49	PARTICIPANT_IN Arg1:T22 Arg2:T64	
+N1	Reference T1 Wikidata:Q842438	британцы
+N2	Reference T4 Wikidata:Q826629	Новичок
+N4	Reference T10 Wikidata:Q470299	Эймсбери
+N6	Reference T12 Wikidata:Q7232208	Портон-Даун
+N9	Reference T26 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N10	Reference T27 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N12	Reference T32 Wikidata:Q184619	Скотланд-Ярд
+N13	Reference T33 Wikidata:Q3392	Нил
+N14	Reference T35 Wikidata:Q145	Великобритания
+N15	Reference T37 Wikidata:Q649	Москва
+N16	Reference T40 Wikidata:Q145	Великобритания
+N19	Reference T46 Wikidata:Q39631	врач
+N20	Reference T48 Wikidata:Q35535	полиция
+N23	Reference T52 Wikidata:Q4423239	Следователь
+N24	Reference T53 Wikidata:Q184619	Скотланд-Ярд
+N25	Reference T31 Wikidata:Q184619	Скотланд-Ярд
+N17	Reference T41 Wikidata:Q1527859	
+N3	Reference T5 Wikidata:NULL	нет данных
+N27	Reference T56 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N28	Reference T61 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N18	Reference T45 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:NULL	нет данных
+N21	Reference T24 Wikidata:Q159	Россия
+N22	Reference T49 Wikidata:NULL	нет данных
+N26	Reference T54 Wikidata:NULL	нет данных
+N11	Reference T28 Wikidata:Q50559234	
+N29	Reference T34 Wikidata:Q842438	британцы
+N30	Reference T13 Wikidata:Q826629	Новичок
+N31	Reference T23 Wikidata:Q826629	Новичок
+N32	Reference T7 Wikidata:Q826629	Новичок
+N33	Reference T3 Wikidata:Q826629	Новичок
+N34	Reference T2 Wikidata:Q826629	Новичок
+N35	Reference T43 Wikidata:Q145	Великобритания
+N36	Reference T44 Wikidata:Q39631	врач
+N37	Reference T51 Wikidata:Q35535	полиция
+N38	Reference T47 Wikidata:Q35535	полиция
+N39	Reference T42 Wikidata:Q35535	полиция
+N40	Reference T39 Wikidata:Q35535	полиция
+N41	Reference T38 Wikidata:Q1527859	
+N42	Reference T9 Wikidata:NULL	нет данных
+N43	Reference T20 Wikidata:NULL	нет данных
+N44	Reference T19 Wikidata:NULL	нет данных
+N45	Reference T15 Wikidata:NULL	нет данных
+N46	Reference T36 Wikidata:Q159	Россия
+R50	LOCATED_IN Arg1:T56 Arg2:T10	

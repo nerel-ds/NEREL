@@ -1,0 +1,88 @@
+T1	NATIONALITY 0 10	Британский
+T2	PERSON 17 31	Дональд Синден
+T3	AGE 39 45	90 лет
+T4	PERSON 57 71	Дональд Синден
+T5	NATIONALITY 72 82	Британский
+T6	PERSON 93 107	Дональд Синден
+T7	PERSON 117 130	Donald Sinden
+T8	DATE 139 148	в пятницу
+T9	STATE_OR_PROVINCE 174 178	Кент
+T10	AGE 190 196	90 лет
+T11	PERSON 274 288	Дональд Синден
+T12	DATE 384 393	1953 году
+T13	ORGANIZATION 441 475	Королевского шекспировского театра
+T14	PERSON 491 501	Короля Лир
+T16	DATE 584 593	1997 году
+T17	PERSON 594 608	Дональд Синден
+T18	PROFESSION 11 16	актер
+T19	EVENT 32 36	умер
+T20	PROFESSION 83 88	актёр
+T23	EVENT 134 138	умер
+T24	COUNTRY 156 162	Англии
+T25	LOCATION 152 162	юге Англии
+T27	DISEASE 237 250	рака простаты
+T28	PROFESSION 369 374	актёр
+T29	WORK_OF_ART 404 417	Жестокое море
+T30	PROFESSION 433 440	актёром
+T31	WORK_OF_ART 535 542	Могамбо
+T15	WORK_OF_ART 546 557	День памяти
+T32	WORK_OF_ART 561 578	Без ума от мужчин
+T33	EVENT 613 630	посвящён в рыцари
+R1	WORKS_AS Arg1:T2 Arg2:T18	
+R2	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R3	AGE_DIED_AT Arg1:T2 Arg2:T3	
+R4	PARTICIPANT_IN Arg1:T2 Arg2:T19	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+T21	LANGUAGE 109 113	англ
+R6	PARTICIPANT_IN Arg1:T6 Arg2:T23	
+R7	POINT_IN_TIME Arg1:T23 Arg2:T8	
+R8	AGE_DIED_AT Arg1:T7 Arg2:T10	
+R9	CAUSE_OF_DEATH Arg1:T6 Arg2:T27	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T29	
+R11	DATE_OF_CREATION Arg1:T29 Arg2:T12	
+R12	PARTICIPANT_IN Arg1:T17 Arg2:T33	
+R13	POINT_IN_TIME Arg1:T33 Arg2:T16	
+R14	WORKS_AS Arg1:T11 Arg2:T30	
+R15	WORKPLACE Arg1:T11 Arg2:T13	
+T22	PERSON 454 468	шекспировского
+R16	PARTICIPANT_IN Arg1:T11 Arg2:T31	
+R17	PARTICIPANT_IN Arg1:T11 Arg2:T15	
+R18	PARTICIPANT_IN Arg1:T11 Arg2:T32	
+R19	TAKES_PLACE_IN Arg1:T23 Arg2:T9	
+R20	LOCATED_IN Arg1:T9 Arg2:T25	
+R21	ORIGINS_FROM Arg1:T18 Arg2:T1	
+R22	WORKS_AS Arg1:T11 Arg2:T28	
+R23	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+R24	WORKPLACE Arg1:T30 Arg2:T13	
+R25	WORKS_AS Arg1:T6 Arg2:T20	
+R26	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R27	ORIGINS_FROM Arg1:T20 Arg2:T5	
+R28	LOCATED_IN Arg1:T25 Arg2:T24	
+T26	PROFESSION 491 497	Короля
+R29	TAKES_PLACE_IN Arg1:T23 Arg2:T25	
+R30	HAS_CAUSE Arg1:T23 Arg2:T27	
+R31	PRODUCES Arg1:T11 Arg2:T14	
+N2	Reference T9 Wikidata:Q23298	Кент
+N3	Reference T13 Wikidata:Q1375404	Королевский Шекспировский театр
+N5	Reference T18 Wikidata:Q33999	актёр
+N6	Reference T24 Wikidata:Q21	Англия
+N8	Reference T29 Wikidata:Q1198767	Жестокое море
+N9	Reference T31 Wikidata:Q1122534	Могамбо
+N15	Reference T4 Wikidata:Q432316	
+N1	Reference T5 Wikidata:Q842438	британцы
+N12	Reference T21 Wikidata:Q1860	английский язык
+N7	Reference T25 Wikidata:NULL	нет данных
+N13	Reference T22 Wikidata:Q692	
+N14	Reference T26 Wikidata:Q12097	король
+N10	Reference T15 Wikidata:Q4656335	
+N11	Reference T32 Wikidata:Q6725903	
+N4	Reference T14 Wikidata:Q28469410	
+N16	Reference T28 Wikidata:Q33999	актёр
+N17	Reference T30 Wikidata:Q33999	актёр
+N18	Reference T20 Wikidata:Q33999	актёр
+N19	Reference T17 Wikidata:Q432316	
+N20	Reference T11 Wikidata:Q432316	
+N21	Reference T7 Wikidata:Q432316	
+N22	Reference T2 Wikidata:Q432316	
+N23	Reference T6 Wikidata:Q432316	
+N24	Reference T1 Wikidata:Q842438	британцы

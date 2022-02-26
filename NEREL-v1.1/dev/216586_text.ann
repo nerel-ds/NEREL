@@ -1,0 +1,106 @@
+T1	PROFESSION 0 58	Главу одного из пяти крупнейших мафиозных кланов Нью-Йорка
+T2	NUMBER 16 20	пяти
+T5	CITY 49 58	Нью-Йорка
+T6	PERSON 59 70	Фрэнка Кали
+T7	PERSON 83 93	Фрэнки Бой
+T8	CITY 107 116	Нью-Йорке
+T9	PROFESSION 130 188	глава одного из пяти крупнейших мафиозных кланов Нью-Йорка
+T10	NUMBER 146 150	пяти
+T12	CITY 179 188	Нью-Йорка
+T13	PERSON 189 200	Фрэнка Кали
+T14	PERSON 213 223	Фрэнки Бой
+T15	ORGANIZATION 226 233	Полиция
+T16	CITY 234 243	Нью-Йорка
+T17	DISTRICT 267 280	Статен-Айленд
+T18	NUMBER 296 297	6
+T19	AGE 399 408	52-летний
+T20	PERSON 409 419	Фрэнк Кали
+T21	PERSON 433 443	Фрэнки Бой
+T22	PROFESSION 449 471	главарем клана Гамбино
+T23	ORGANIZATION 464 471	Гамбино
+T24	DATE 472 483	с 2015 года
+T25	ORDINAL 490 496	первое
+T26	CITY 528 537	Нью-Йорке
+T27	DATE 538 549	с 1985 года
+T28	NATIONALITY 557 568	итальянскую
+T29	CITY 578 587	Нью-Йорке
+T30	NUMBER 601 605	пять
+T31	ORGANIZATION 624 631	Гамбино
+T32	ORGANIZATION 633 642	Дженовезе
+T35	NUMBER 6 12	одного
+T3	EVENT 94 104	застрелили
+T4	EVENT 120 129	Застрелен
+T36	NUMBER 136 142	одного
+T11	ORGANIZATION 226 243	Полиция Нью-Йорка
+T37	PERSON 281 287	Фрэнки
+T38	PROFESSION 373 377	дона
+T39	EVENT 497 514	заказное убийство
+T40	ORGANIZATION 615 622	Бонанно
+T41	ORGANIZATION 644 651	Коломбо
+T42	ORGANIZATION 654 661	Луккезе
+R1	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R2	PARTICIPANT_IN Arg1:T6 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R5	WORKS_AS Arg1:T6 Arg2:T1	
+R6	WORKPLACE Arg1:T6 Arg2:T5	
+R7	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R8	PARTICIPANT_IN Arg1:T13 Arg2:T4	
+R9	WORKS_AS Arg1:T13 Arg2:T9	
+R10	WORKPLACE Arg1:T13 Arg2:T12	
+R11	HEADQUARTERED_IN Arg1:T11 Arg2:T16	
+R12	PLACE_OF_DEATH Arg1:T37 Arg2:T17	
+R13	PLACE_OF_DEATH Arg1:T7 Arg2:T8	
+R14	PLACE_OF_DEATH Arg1:T13 Arg2:T12	
+R15	PARTICIPANT_IN Arg1:T7 Arg2:T3	
+R16	ALTERNATIVE_NAME Arg1:T13 Arg2:T37	
+R17	LOCATED_IN Arg1:T17 Arg2:T12	
+R18	WORKS_AS Arg1:T37 Arg2:T38	
+T33	EVENT 364 372	переехал
+R19	ABBREVIATION Arg1:T38 Arg2:T33	
+R20	AGE_IS Arg1:T20 Arg2:T19	
+R21	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R22	WORKS_AS Arg1:T20 Arg2:T22	
+R23	WORKPLACE Arg1:T20 Arg2:T23	
+R24	TAKES_PLACE_IN Arg1:T39 Arg2:T26	
+R25	ALTERNATIVE_NAME Arg1:T4 Arg2:T39	
+T34	EVENT 506 514	убийство
+T43	PROFESSION 515 525	глав мафии
+R26	PARTICIPANT_IN Arg1:T43 Arg2:T39	
+T44	EVENT 288 302	получил 6 пуль
+R27	PARTICIPANT_IN Arg1:T37 Arg2:T44	
+R28	ALTERNATIVE_NAME Arg1:T4 Arg2:T44	
+R29	WORKPLACE Arg1:T22 Arg2:T23	
+R30	ORIGINS_FROM Arg1:T40 Arg2:T28	
+R31	ORIGINS_FROM Arg1:T31 Arg2:T28	
+R32	ORIGINS_FROM Arg1:T32 Arg2:T28	
+R33	ORIGINS_FROM Arg1:T41 Arg2:T28	
+R34	ORIGINS_FROM Arg1:T42 Arg2:T28	
+N2	Reference T15 Wikidata:Q35535	полиция
+N3	Reference T17 Wikidata:Q18432	Статен-Айленд
+N5	Reference T26 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N7	Reference T32 Wikidata:Q1348502	Семья Дженовезе
+N10	Reference T38 Wikidata:Q908819	Донна Донна
+N11	Reference T40 Wikidata:Q892085	Семья Бонанно
+N12	Reference T41 Wikidata:Q2031887	Семья Коломбо
+N13	Reference T42 Wikidata:Q281284	Семья Луккезе
+N14	Reference T43 Wikidata:Q18550	мафия
+N1	Reference T6 Wikidata:Q3751778	
+N15	Reference T9 Wikidata:NULL	нет данных
+N6	Reference T28 Wikidata:Q50001	итальянцы
+N9	Reference T37 Wikidata:Q3751778	
+N4	Reference T21 Wikidata:Q3751778	
+N16	Reference T23 Wikidata:Q1419745	Семья Гамбино
+N17	Reference T22 Wikidata:NULL	нет данных
+N8	Reference T11 Wikidata:Q328473	
+N18	Reference T5 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N19	Reference T8 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N20	Reference T12 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N21	Reference T16 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N22	Reference T29 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N23	Reference T7 Wikidata:Q3751778	
+N24	Reference T1 Wikidata:NULL	нет данных
+N25	Reference T13 Wikidata:Q3751778	
+N26	Reference T14 Wikidata:Q3751778	
+N27	Reference T20 Wikidata:Q3751778	
+N28	Reference T31 Wikidata:Q1419745	Семья Гамбино

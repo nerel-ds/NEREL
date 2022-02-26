@@ -1,0 +1,172 @@
+T3	DATE 70 96	В среду, 4 марта 2020 года
+T4	CITY 100 104	Лиме
+T5	COUNTRY 106 110	Перу
+T7	PERSON 150 173	Хавьер Перес де Куэльяр
+T8	DATE 311 326	1980-1988 годов
+T9	AGE 349 356	100 лет
+T10	DATE 376 404	в субботу, 7 марта 2020 года
+T11	FACILITY 409 436	кладбище Presbítero Maestro
+T12	CITY 439 443	Лиме
+T14	PERSON 575 591	Антониу Гутерреш
+T15	PERSON 594 610	Перес де Куэльяр
+T16	DATE 619 638	19 января 1920 года
+T17	CITY 641 645	Лиме
+T18	ORGANIZATION 681 706	Католическом университете
+T19	CITY 709 713	Лиме
+T20	DATE 715 721	с 1940
+T21	COUNTRY 790 797	Франции
+T22	COUNTRY 799 813	Великобритании
+T23	COUNTRY 815 822	Боливии
+T24	COUNTRY 825 833	Бразилии
+T25	DATE 835 846	В 1964 году
+T26	PROFESSION 856 862	послом
+T27	COUNTRY 870 879	Швейцарии
+T28	DATE 881 892	в 1969—1971
+T29	PROFESSION 895 900	посол
+T30	COUNTRY 908 912	СССР
+T31	COUNTRY 915 921	Польше
+T32	DATE 925 936	в 1977—1979
+T33	COUNTRY 941 950	Венесуэле
+T34	DATE 964 981	в 1971—1982 годах
+T36	PERSON 982 1005	Хавьер Перес де Куэльяр
+T37	COUNTRY 1017 1027	перуанскую
+T38	ORGANIZATION 1040 1043	ООН
+T39	NUMBER 1046 1049	Два
+T40	DATE 1056 1074	с 1982 по 1991 год
+T41	ORGANIZATION 1089 1092	ООН
+T42	EVENT 0 4	Умер
+T43	ORGANIZATION 18 21	ООН
+T44	PERSON 22 45	Хавьер Перес де Куэльяр
+T45	PROFESSION 12 21	глава ООН
+T46	PERSON 46 69	Хавьер Перес де Куэльяр
+T47	EVENT 112 116	умер
+T48	ORGANIZATION 146 149	ООН
+T49	PROFESSION 124 149	генеральный секретарь ООН
+T51	COUNTRY 233 243	Перуанский
+T52	PROFESSION 244 252	дипломат
+T53	EVENT 290 310	ирано-иракской войны
+T54	EVENT 328 337	скончался
+T55	EVENT 359 367	Похороны
+T56	PROFESSION 418 428	Presbítero
+T57	PERSON 429 436	Maestro
+T58	ORGANIZATION 571 574	ООН
+T59	PROFESSION 564 574	генсек ООН
+T60	COUNTRY 782 786	Перу
+T61	COUNTRY 863 867	Перу
+T62	PROFESSION 856 867	послом Перу
+T63	COUNTRY 901 905	Перу
+T64	PROFESSION 895 905	посол Перу
+T35	ORGANIZATION 1017 1043	перуанскую делегацию в ООН
+T65	PROFESSION 484 501	главе государства
+R1	WORKPLACE Arg1:T44 Arg2:T43	
+R2	WORKS_AS Arg1:T44 Arg2:T45	
+R3	PARTICIPANT_IN Arg1:T44 Arg2:T42	
+R4	WORKS_AS Arg1:T7 Arg2:T49	
+R5	WORKPLACE Arg1:T7 Arg2:T48	
+R6	PLACE_OF_DEATH Arg1:T7 Arg2:T4	
+R7	LOCATED_IN Arg1:T4 Arg2:T5	
+R8	DATE_OF_DEATH Arg1:T7 Arg2:T3	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T47	
+R10	POINT_IN_TIME Arg1:T47 Arg2:T3	
+R11	TAKES_PLACE_IN Arg1:T47 Arg2:T4	
+R13	WORKS_AS Arg1:T7 Arg2:T52	
+R14	ORIGINS_FROM Arg1:T7 Arg2:T51	
+R15	AGE_DIED_AT Arg1:T7 Arg2:T9	
+R16	PARTICIPANT_IN Arg1:T7 Arg2:T54	
+R17	WORKS_AS Arg1:T7 Arg2:T52	
+R18	POINT_IN_TIME Arg1:T55 Arg2:T10	
+R19	TAKES_PLACE_IN Arg1:T55 Arg2:T11	
+R20	LOCATED_IN Arg1:T11 Arg2:T12	
+R23	DATE_OF_BIRTH Arg1:T15 Arg2:T16	
+R24	PLACE_OF_BIRTH Arg1:T15 Arg2:T17	
+R25	SCHOOLS_ATTENDED Arg1:T15 Arg2:T18	
+R26	HEADQUARTERED_IN Arg1:T18 Arg2:T19	
+R27	WORKPLACE Arg1:T36 Arg2:T41	
+R28	WORKPLACE Arg1:T36 Arg2:T35	
+R29	ORIGINS_FROM Arg1:T36 Arg2:T37	
+T50	PROFESSION 856 879	послом Перу в Швейцарии
+T66	PROFESSION 895 912	посол Перу в СССР
+T67	PROFESSION 895 905;915 921	посол Перу Польше
+T68	PROFESSION 895 905;939 950	посол Перу в Венесуэле
+R30	ORIGINS_FROM Arg1:T15 Arg2:T60	
+R31	WORKPLACE Arg1:T15 Arg2:T21	
+R32	WORKPLACE Arg1:T15 Arg2:T22	
+R33	WORKPLACE Arg1:T15 Arg2:T23	
+R34	WORKPLACE Arg1:T15 Arg2:T24	
+R35	WORKPLACE Arg1:T45 Arg2:T43	
+R36	WORKPLACE Arg1:T49 Arg2:T48	
+R37	ORIGINS_FROM Arg1:T52 Arg2:T51	
+R38	ORIGINS_FROM Arg1:T62 Arg2:T61	
+R39	ORIGINS_FROM Arg1:T50 Arg2:T61	
+R40	WORKPLACE Arg1:T50 Arg2:T27	
+R41	ORIGINS_FROM Arg1:T66 Arg2:T63	
+R42	WORKPLACE Arg1:T66 Arg2:T30	
+R43	WORKPLACE Arg1:T68 Arg2:T33	
+R44	WORKPLACE Arg1:T67 Arg2:T31	
+T69	PROFESSION 124 145	генеральный секретарь
+T13	PROFESSION 564 570	генсек
+R21	WORKPLACE Arg1:T14 Arg2:T58	
+R22	WORKS_AS Arg1:T14 Arg2:T59	
+R45	WORKPLACE Arg1:T59 Arg2:T58	
+R46	ORIGINS_FROM Arg1:T35 Arg2:T37	
+R47	PART_OF Arg1:T35 Arg2:T38	
+T70	EVENT 290 326	ирано-иракской войны 1980-1988 годов
+R12	POINT_IN_TIME Arg1:T70 Arg2:T8	
+R48	INANIMATE_INVOLVED Arg1:T7 Arg2:T55	
+T1	DATE 311 315	1980
+T2	DATE 316 326	1988 годов
+R49	START_TIME Arg1:T70 Arg2:T1	
+R50	END_TIME Arg1:T70 Arg2:T2	
+N1	Reference T5 Wikidata:Q419	Перу
+N3	Reference T14 Wikidata:Q311440	Антониу Гутерриш
+N4	Reference T15 Wikidata:Q1259	Хавьер Перес де Куэльяр
+N5	Reference T17 Wikidata:Q2868	Лима
+N6	Reference T21 Wikidata:Q142	Франция
+N7	Reference T22 Wikidata:Q145	Великобритания
+N8	Reference T23 Wikidata:Q750	Боливия
+N9	Reference T24 Wikidata:Q155	Бразилия
+N10	Reference T27 Wikidata:Q39	Швейцария
+N11	Reference T29 Wikidata:Q121998	посол
+N12	Reference T30 Wikidata:Q15180	СССР
+N13	Reference T31 Wikidata:Q36	Польша
+N14	Reference T33 Wikidata:Q717	Венесуэла
+N17	Reference T46 Wikidata:Q1259	Хавьер Перес де Куэльяр
+N18	Reference T48 Wikidata:Q1065	Организация Объединённых Наций
+N19	Reference T49 Wikidata:Q81066	генеральный секретарь ООН
+N20	Reference T52 Wikidata:Q193391	дипломат
+N22	Reference T59 Wikidata:Q81066	генеральный секретарь ООН
+N24	Reference T65 Wikidata:Q48352	глава государства
+N26	Reference T69 Wikidata:Q6501749	генеральный секретарь
+N16	Reference T45 Wikidata:Q81066	генеральный секретарь ООН
+N2	Reference T11 Wikidata:Q3776989	
+N27	Reference T13 Wikidata:Q6501749	генеральный секретарь
+N28	Reference T18 Wikidata:Q200601	
+N29	Reference T56 Wikidata:Q42603	священник
+N21	Reference T57 Wikidata:Q11691648	
+N30	Reference T62 Wikidata:Q29970009	
+N31	Reference T50 Wikidata:NULL	нет данных
+N32	Reference T66 Wikidata:Q87133202	
+N15	Reference T37 Wikidata:Q419	Перу
+N23	Reference T35 Wikidata:NULL	нет данных
+N25	Reference T67 Wikidata:NULL	нет данных
+N33	Reference T68 Wikidata:NULL	нет данных
+N34	Reference T61 Wikidata:Q419	Перу
+N35	Reference T60 Wikidata:Q419	Перу
+N36	Reference T63 Wikidata:Q419	Перу
+N37	Reference T19 Wikidata:Q2868	Лима
+N38	Reference T4 Wikidata:Q2868	Лима
+N39	Reference T12 Wikidata:Q2868	Лима
+N40	Reference T26 Wikidata:Q121998	посол
+N41	Reference T44 Wikidata:Q1259	Хавьер Перес де Куэльяр
+N42	Reference T36 Wikidata:Q1259	Хавьер Перес де Куэльяр
+N43	Reference T7 Wikidata:Q1259	Хавьер Перес де Куэльяр
+N44	Reference T58 Wikidata:Q1065	Организация Объединённых Наций
+N45	Reference T41 Wikidata:Q1065	Организация Объединённых Наций
+N46	Reference T43 Wikidata:Q1065	Организация Объединённых Наций
+N47	Reference T38 Wikidata:Q1065	Организация Объединённых Наций
+N48	Reference T64 Wikidata:Q29970009	
+N49	Reference T51 Wikidata:Q419	Перу
+T6	EVENT 611 618	родился
+R51	PARTICIPANT_IN Arg1:T15 Arg2:T6	
+R52	POINT_IN_TIME Arg1:T6 Arg2:T16	
+R53	TAKES_PLACE_IN Arg1:T6 Arg2:T17	

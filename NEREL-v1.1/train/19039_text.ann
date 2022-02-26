@@ -1,0 +1,134 @@
+T1	COUNTRY 2 5	США
+T2	EVENT 20 38	День независимости
+T3	COUNTRY 46 72	Соединенных Штатов Америки
+T5	NUMBER 285 302	Десятки миллионов
+T6	COUNTRY 324 336	американских
+T7	DATE 528 546	в минувшую пятницу
+T8	NUMBER 549 563	более миллиона
+T9	DATE 965 971	4 июля
+T12	LAW 1015 1058	Декларации независимости Соединенных Штатов
+T13	COUNTRY 1040 1058	Соединенных Штатов
+T14	NUMBER 1249 1260	сотни тысяч
+T15	FACILITY 1303 1319	Национальный Мол
+T17	ORGANIZATION 1365 1374	Конгресса
+T18	PROFESSION 1392 1402	президенту
+T19	PROFESSION 1483 1492	Президент
+T20	PERSON 1497 1508	Барак Обама
+T21	FACILITY 1537 1547	Белом доме
+T22	EVENT 1616 1623	концерт
+T24	DATE 1658 1669	В этот день
+T25	PROFESSION 1685 1695	президента
+T26	PERSON 1698 1703	Малии
+T27	AGE 1718 1724	14 лет
+T28	DATE 1791 1800	1812 году
+T29	COUNTRY 1808 1822	Великобритании
+T30	EVENT 1832 1849	гражданской войны
+T31	DATE 1850 1865	1861-1865 годов
+T32	CITY 1908 1919	Филадельфии
+T33	CITY 1921 1930	Нью-Йорке
+T34	CITY 1933 1943	Аннаполисе
+T35	LAW 1953 1977	Декларации независимости
+T36	COUNTRY 2013 2016	США
+T37	PERSON 2019 2039	Томасом Джефферсоном
+T38	DATE 2042 2058	в июне 1776 года
+T39	ORGANIZATION 2115 2141	Континентальным Конгрессом
+T40	DATE 2142 2165	несколько недель спустя
+T41	DATE 2168 2174	4 июля
+T42	EVENT 82 100	День независимости
+T43	EVENT 116 125	торжества
+T16	ORGANIZATION 1365 1378	Конгресса США
+T52	COUNTRY 1375 1378	США
+T53	FACILITY 1382 1412	памятника президенту Линкольну
+T54	PERSON 1403 1412	Линкольну
+T55	EVENT 1454 1461	концерт
+T56	EVENT 1471 1480	фейерверк
+T58	PROFESSION 1483 1496	Президент США
+T59	COUNTRY 1493 1496	США
+T23	EVENT 1567 1573	пикник
+T60	EVENT 1726 1736	Фейерверки
+T61	EVENT 1785 1800	войны 1812 году
+T62	EVENT 1785 1822	войны 1812 году против Великобритании
+T63	EVENT 1832 1865	гражданской войны 1861-1865 годов
+T64	EVENT 1886 1895	торжества
+R1	FOUNDED_BY Arg1:T36 Arg2:T37	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T42	
+R5	TAKES_PLACE_IN Arg1:T42 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+T46	EVENT 465 477	сильных гроз
+R11	POINT_IN_TIME Arg1:T46 Arg2:T7	
+R12	TAKES_PLACE_IN Arg1:T46 Arg2:T6	
+R13	HEADQUARTERED_IN Arg1:T16 Arg2:T52	
+R14	WORKS_AS Arg1:T54 Arg2:T18	
+R15	WORKPLACE Arg1:T58 Arg2:T59	
+R16	WORKS_AS Arg1:T20 Arg2:T58	
+R17	WORKPLACE Arg1:T20 Arg2:T59	
+R18	LOCATED_IN Arg1:T20 Arg2:T21	
+R19	PARENT_OF Arg1:T20 Arg2:T26	
+R20	WORKS_AS Arg1:T20 Arg2:T25	
+R21	PARENT_OF Arg1:T25 Arg2:T26	
+R22	AGE_IS Arg1:T26 Arg2:T27	
+R23	POINT_IN_TIME Arg1:T63 Arg2:T31	
+T47	DATE 1850 1854	1861
+R24	START_TIME Arg1:T63 Arg2:T47	
+T48	DATE 1855 1865	1865 годов
+R25	END_TIME Arg1:T63 Arg2:T48	
+T67	EVENT 1877 1895	массовые торжества
+R26	TAKES_PLACE_IN Arg1:T67 Arg2:T32	
+R27	TAKES_PLACE_IN Arg1:T67 Arg2:T33	
+R28	TAKES_PLACE_IN Arg1:T67 Arg2:T34	
+T68	EVENT 1442 1461	праздничный концерт
+T69	EVENT 1567 1603	пикник для ветеранов вооруженных сил
+T70	EVENT 1616 1655	концерт оркестра корпуса морской пехоты
+R29	POINT_IN_TIME Arg1:T62 Arg2:T28	
+R30	PARTICIPANT_IN Arg1:T29 Arg2:T62	
+R31	PARTICIPANT_IN Arg1:T59 Arg2:T62	
+R32	TAKES_PLACE_IN Arg1:T63 Arg2:T59	
+R33	PRODUCES Arg1:T37 Arg2:T35	
+R34	DATE_OF_CREATION Arg1:T35 Arg2:T38	
+R35	TAKES_PLACE_IN Arg1:T43 Arg2:T3	
+T11	LAW 1015 1039	Декларации независимости
+R38	ORIGINS_FROM Arg1:T12 Arg2:T13	
+T10	AGE 983 998	236-я годовщина
+R40	LOCATED_IN Arg1:T16 Arg2:T15	
+R41	LOCATED_IN Arg1:T15 Arg2:T13	
+R42	LOCATED_IN Arg1:T18 Arg2:T15	
+R43	TAKES_PLACE_IN Arg1:T69 Arg2:T21	
+R44	PARTICIPANT_IN Arg1:T20 Arg2:T69	
+R45	TAKES_PLACE_IN Arg1:T70 Arg2:T21	
+R46	PARTICIPANT_IN Arg1:T20 Arg2:T70	
+R47	HEADQUARTERED_IN Arg1:T39 Arg2:T36	
+T44	EVENT 1006 1058	принятия Декларации независимости Соединенных Штатов
+R7	AGE_IS Arg1:T12 Arg2:T10	
+R8	AGE_IS Arg1:T44 Arg2:T10	
+R9	TAKES_PLACE_IN Arg1:T68 Arg2:T15	
+R10	TAKES_PLACE_IN Arg1:T56 Arg2:T15	
+N5	Reference T18 Wikidata:Q30461	президент
+N6	Reference T20 Wikidata:Q76	Барак Обама
+N7	Reference T21 Wikidata:Q35525	Белый дом
+N9	Reference T29 Wikidata:Q145	Великобритания
+N10	Reference T32 Wikidata:Q1345	Филадельфия
+N12	Reference T34 Wikidata:Q28271	Аннаполис
+N14	Reference T37 Wikidata:Q11812	Томас Джефферсон
+N15	Reference T39 Wikidata:Q26718	Континентальный конгресс
+N16	Reference T16 Wikidata:Q11268	Конгресс США
+N19	Reference T58 Wikidata:Q11696	президент США
+N20	Reference T59 Wikidata:Q30	США
+N13	Reference T35 Wikidata:Q127912	
+N11	Reference T33 Wikidata:Q60	Нью-Йорк
+N8	Reference T26 Wikidata:Q15070044	
+N4	Reference T17 Wikidata:Q2495862	
+N18	Reference T54 Wikidata:Q91	
+N3	Reference T15 Wikidata:Q465811	
+N17	Reference T53 Wikidata:Q213559	
+N2	Reference T13 Wikidata:Q30	США
+N1	Reference T12 Wikidata:Q127912	
+N21	Reference T19 Wikidata:Q30461	президент
+N22	Reference T25 Wikidata:Q30461	президент
+N23	Reference T52 Wikidata:Q30	США
+N24	Reference T3 Wikidata:Q30	США
+N25	Reference T36 Wikidata:Q30	США
+N26	Reference T6 Wikidata:Q30	США
+N27	Reference T1 Wikidata:Q30	США
+N28	Reference T11 Wikidata:Q127912	

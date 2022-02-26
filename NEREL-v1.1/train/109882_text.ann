@@ -1,0 +1,112 @@
+T2	AGE 0 6	15 лет
+T3	PERSON 17 32	Павел Кострикин
+T6	ORGANIZATION 87 96	Геометрия
+T7	TIME 98 136	В 18:00 в пятницу, 9 декабря 2016 года
+T8	DATE 106 136	в пятницу, 9 декабря 2016 года
+T9	COUNTRY 150 160	российская
+T10	ORGANIZATION 189 198	Геометрия
+T11	AGE 213 228	пятнадцатилетие
+T12	ORGANIZATION 238 242	Шаги
+T13	CITY 246 252	Москве
+T14	ORGANIZATION 293 307	Вежливый Отказ
+T15	ORGANIZATION 309 317	Ива Нова
+T16	ORGANIZATION 319 331	Контора Кука
+T17	ORGANIZATION 333 338	Выход
+T18	ORGANIZATION 341 347	Хроноп
+T19	TIME 376 386	пять часов
+T20	PERSON 477 492	Вадим Степанцов
+T21	ORGANIZATION 494 506	Бахыт-Компот
+T22	COUNTRY 619 625	России
+T23	ORGANIZATION 670 679	Геометрия
+T24	DATE 691 710	6 декабря 2001 года
+T25	CITY 713 719	Москве
+T28	PERSON 755 770	Павел Кострикин
+T29	PROFESSION 774 784	продюсером
+T30	PERSON 787 801	Вадим Ульянкин
+T31	ORGANIZATION 812 821	Геометрии
+T32	PERSON 860 876	Леонида Фёдорова
+T33	WORK_OF_ART 878 890	Лиловый день
+T34	ORGANIZATION 940 948	АукцЫона
+T35	ORGANIZATION 974 983	Геометрия
+T36	NUMBER 994 1003	около ста
+T37	NATIONALITY 1031 1041	российских
+T1	ORGANIZATION 7 16	Геометрии
+T4	PROFESSION 557 566	музыканты
+T38	PROFESSION 586 605	музыкальные критики
+T39	PROFESSION 608 618	журналисты
+T40	COUNTRY 628 638	Российский
+T41	PROFESSION 1042 1052	музыкантов
+T5	PROFESSION 47 96	руководитель музыкального издательства «Геометрия
+R1	WORKS_AS Arg1:T3 Arg2:T5	
+R2	FOUNDED_BY Arg1:T6 Arg2:T3	
+R3	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+R4	AGE_IS Arg1:T1 Arg2:T2	
+R5	AGE_IS Arg1:T10 Arg2:T11	
+R6	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+R7	HEADQUARTERED_IN Arg1:T23 Arg2:T40	
+R8	DATE_FOUNDED_IN Arg1:T23 Arg2:T24	
+R9	HEADQUARTERED_IN Arg1:T23 Arg2:T25	
+R11	WORKS_AS Arg1:T30 Arg2:T29	
+R12	WORKPLACE Arg1:T30 Arg2:T23	
+R13	WORKPLACE Arg1:T29 Arg2:T23	
+R14	ORIGINS_FROM Arg1:T41 Arg2:T37	
+R15	PRODUCES Arg1:T32 Arg2:T33	
+R16	WORKPLACE Arg1:T32 Arg2:T34	
+R17	ORIGINS_FROM Arg1:T39 Arg2:T22	
+R18	ORIGINS_FROM Arg1:T4 Arg2:T22	
+R19	ORIGINS_FROM Arg1:T38 Arg2:T22	
+R20	WORKPLACE Arg1:T20 Arg2:T21	
+T26	EVENT 200 228	отметит своё пятнадцатилетие
+R21	ORGANIZES Arg1:T10 Arg2:T26	
+R22	TAKES_PLACE_IN Arg1:T26 Arg2:T12	
+R23	POINT_IN_TIME Arg1:T26 Arg2:T7	
+T27	EVENT 258 276	юбилейном концерте
+R24	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R25	PARTICIPANT_IN Arg1:T14 Arg2:T27	
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T27	
+R27	PARTICIPANT_IN Arg1:T16 Arg2:T27	
+R28	PARTICIPANT_IN Arg1:T17 Arg2:T27	
+R29	PARTICIPANT_IN Arg1:T18 Arg2:T27	
+T42	PROFESSION 453 469	ведущим концерта
+R30	WORKS_AS Arg1:T20 Arg2:T42	
+R31	WORKPLACE Arg1:T20 Arg2:T27	
+R32	WORKPLACE Arg1:T42 Arg2:T27	
+R33	WORKPLACE Arg1:T5 Arg2:T6	
+T43	PROFESSION 739 749	директором
+R34	WORKS_AS Arg1:T28 Arg2:T43	
+R35	WORKPLACE Arg1:T43 Arg2:T23	
+R10	FOUNDED_BY Arg1:T23 Arg2:T28	
+N1	Reference T3 Wikidata:Q27980497	Павел Николаевич Кострикин
+N4	Reference T13 Wikidata:Q649	Москва
+N5	Reference T14 Wikidata:Q4105897	Вежливый отказ
+N6	Reference T15 Wikidata:Q4195457	Ива Нова
+N8	Reference T17 Wikidata:Q4129886	Выход
+N9	Reference T18 Wikidata:Q4501839	Хроноп
+N10	Reference T20 Wikidata:Q4441994	Вадим Юрьевич Степанцов
+N11	Reference T21 Wikidata:Q4079995	Бахыт-Компот
+N12	Reference T22 Wikidata:Q159	Россия
+N13	Reference T29 Wikidata:Q3282637	кинопродюсер
+N15	Reference T32 Wikidata:Q4493988	Фёдоров, Леонид Валентинович
+N16	Reference T33 Wikidata:Q4261609	Лиловый день
+N17	Reference T34 Wikidata:Q771296	АукцЫон
+N20	Reference T38 Wikidata:Q1350157	музыкальный критик
+N21	Reference T39 Wikidata:Q1930187	журналист
+N22	Reference T41 Wikidata:Q639669	музыкант
+N25	Reference T43 Wikidata:Q484876	главный управляющий
+N23	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:Q159	Россия
+N3	Reference T12 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q16665569	
+N24	Reference T42 Wikidata:NULL	нет данных
+N14	Reference T30 Wikidata:NULL	нет данных
+N18	Reference T35 Wikidata:NULL	нет данных
+N19	Reference T37 Wikidata:Q492468	россияне
+N26	Reference T28 Wikidata:Q27980497	Павел Николаевич Кострикин
+N27	Reference T25 Wikidata:Q649	Москва
+N28	Reference T4 Wikidata:Q639669	музыкант
+N29	Reference T40 Wikidata:Q159	Россия
+N30	Reference T10 Wikidata:NULL	нет данных
+N31	Reference T23 Wikidata:NULL	нет данных
+N32	Reference T31 Wikidata:NULL	нет данных
+N33	Reference T6 Wikidata:NULL	нет данных
+N34	Reference T1 Wikidata:NULL	нет данных

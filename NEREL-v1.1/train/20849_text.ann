@@ -1,0 +1,109 @@
+T1	PERSON 22 29	Данилов
+T3	COUNTRY 118 128	Российский
+T4	DATE 213 224	в 2004 году
+T5	COUNTRY 268 273	Китая
+T6	ORDINAL 333 340	первого
+T7	PROFESSION 362 372	президента
+T8	PERSON 392 408	Валентин Данилов
+T9	AGE 423 428	за 60
+T10	DATE 453 466	через 10 дней
+T11	PERSON 481 495	Мария Фомушина
+T12	PROFESSION 497 512	пресс-секретарь
+T13	PERSON 595 602	Данилов
+T14	NUMBER 613 622	две трети
+T15	PERSON 658 665	Данилов
+T16	DATE 684 703	на следующей неделе
+T18	PERSON 825 832	Данилов
+T19	PROFESSION 837 847	директором
+T20	ORGANIZATION 872 928	Красноярского государственного технического университета
+T21	COUNTRY 963 972	китайской
+T22	COUNTRY 1136 1141	Китаю
+T23	PERSON 1216 1224	Данилова
+T24	DATE 1284 1303	с 2000 по 2008 годы
+T25	ORDINAL 1314 1321	первого
+T26	CRIME 14 21	шпионаж
+T27	ORGANIZATION 64 116	Красноярский государственный технический университет
+T2	CITY 64 76	Красноярский
+T28	ORGANIZATION 118 132	Российский суд
+T29	DATE 133 143	во вторник
+T30	PROFESSION 193 199	физика
+T31	CRIME 250 258	шпионаже
+T32	PROFESSION 341 355	президентского
+T33	PERSON 373 389	Владимира Путина
+T34	PROFESSION 497 531	пресс-секретарь красноярского суда
+T36	ORGANIZATION 710 721	прокуратура
+T17	DATE 763 773	14-летнего
+T37	PENALTY 763 790	14-летнего срока заключения
+T38	PROFESSION 837 928	директором теплофизического центра Красноярского государственного технического университета
+T39	ORGANIZATION 848 928	теплофизического центра Красноярского государственного технического университета
+T40	PROFESSION 1322 1336	президентского
+T41	PERSON 1343 1349	Путина
+R1	CONVICTED_OF Arg1:T1 Arg2:T26	
+R2	HEADQUARTERED_IN Arg1:T27 Arg2:T2	
+T42	EVENT 162 192	условно-досрочном освобождении
+T43	EVENT 36 63	освобождён условно-досрочно
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T43	
+R4	ALTERNATIVE_NAME Arg1:T43 Arg2:T42	
+R5	WORKS_AS Arg1:T1 Arg2:T30	
+R6	PARTICIPANT_IN Arg1:T30 Arg2:T42	
+T44	CRIME 250 273	шпионаже в пользу Китая
+R7	CONVICTED_OF Arg1:T30 Arg2:T44	
+R8	WORKS_AS Arg1:T1 Arg2:T30	
+T45	PROFESSION 309 325	правозащитниками
+R9	WORKS_AS Arg1:T33 Arg2:T7	
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+R11	AGE_IS Arg1:T8 Arg2:T9	
+R12	WORKS_AS Arg1:T11 Arg2:T34	
+T46	CITY 513 526	красноярского
+T35	ORGANIZATION 513 531	красноярского суда
+R13	HEADQUARTERED_IN Arg1:T35 Arg2:T46	
+R14	WORKPLACE Arg1:T11 Arg2:T35	
+R15	PENALIZED_AS Arg1:T15 Arg2:T37	
+R16	WORKS_AS Arg1:T18 Arg2:T38	
+R17	WORKPLACE Arg1:T38 Arg2:T39	
+R18	WORKPLACE Arg1:T18 Arg2:T39	
+R19	WORKPLACE Arg1:T34 Arg2:T35	
+R20	PART_OF Arg1:T39 Arg2:T20	
+R21	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R22	WORKS_AS Arg1:T41 Arg2:T40	
+R23	ALTERNATIVE_NAME Arg1:T33 Arg2:T41	
+R24	ALTERNATIVE_NAME Arg1:T7 Arg2:T32	
+R25	LOCATED_IN Arg1:T2 Arg2:T3	
+R26	HEADQUARTERED_IN Arg1:T28 Arg2:T3	
+R27	ALTERNATIVE_NAME Arg1:T28 Arg2:T35	
+R28	AGENT Arg1:T28 Arg2:T42	
+R29	PARTICIPANT_IN Arg1:T5 Arg2:T44	
+T47	EVENT 442 452	освобожден
+R30	PARTICIPANT_IN Arg1:T8 Arg2:T47	
+R31	POINT_IN_TIME Arg1:T47 Arg2:T10	
+T48	PENALTY 780 790	заключения
+N2	Reference T3 Wikidata:Q159	Россия
+N4	Reference T19 Wikidata:Q484876	главный управляющий
+N5	Reference T22 Wikidata:Q148	Китайская Народная Республика
+N6	Reference T27 Wikidata:Q4239246	Красноярский государственный технический университет
+N8	Reference T36 Wikidata:Q1092499	прокуратура
+N12	Reference T41 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T45 Wikidata:Q1476215	правозащитник
+N14	Reference T46 Wikidata:Q919	Красноярск
+N1	Reference T1 Wikidata:Q4154647	
+N7	Reference T30 Wikidata:Q169470	физик
+N3	Reference T11 Wikidata:NULL	нет данных
+N16	Reference T12 Wikidata:Q17221	
+N15	Reference T35 Wikidata:Q97197152	
+N17	Reference T34 Wikidata:NULL	нет данных
+N10	Reference T39 Wikidata:NULL	нет данных
+N9	Reference T38 Wikidata:NULL	нет данных
+N11	Reference T40 Wikidata:Q30461	президент
+N18	Reference T5 Wikidata:Q148	Китайская Народная Республика
+N19	Reference T21 Wikidata:Q148	Китайская Народная Республика
+N20	Reference T20 Wikidata:Q4239246	Красноярский государственный технический университет
+N21	Reference T33 Wikidata:Q7747	Владимир Владимирович Путин
+N22	Reference T2 Wikidata:Q919	Красноярск
+N23	Reference T13 Wikidata:Q4154647	
+N24	Reference T8 Wikidata:Q4154647	
+N25	Reference T15 Wikidata:Q4154647	
+N26	Reference T23 Wikidata:Q4154647	
+N27	Reference T18 Wikidata:Q4154647	
+N28	Reference T28 Wikidata:Q97197152	
+N29	Reference T7 Wikidata:Q30461	президент
+N30	Reference T32 Wikidata:Q30461	президент

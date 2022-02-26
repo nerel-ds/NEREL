@@ -1,0 +1,126 @@
+T1	NUMBER 0 13	Не больше 900
+T2	COUNTRY 25 34	индийском
+T5	COUNTRY 109 114	Индии
+T6	DATE 115 133	С апреля 2017 года
+T7	COUNTRY 136 145	индийском
+T8	STATE_OR_PROVINCE 152 167	Джамму и Кашмир
+T10	NUMBER 253 262	более 500
+T11	NUMBER 330 333	400
+T12	NUMBER 395 408	не более семи
+T13	NUMBER 478 482	Один
+T14	ORGANIZATION 507 517	парламента
+T15	COUNTRY 579 584	Индии
+T16	DATE 760 771	в 1984 году
+T17	DATE 828 839	В 2004 году
+T18	EVENT 843 862	свадебную церемонию
+T19	PERSON 863 876	Ваниши Миттал
+T20	NATIONALITY 885 895	индийского
+T21	PROFESSION 896 907	миллиардера
+T22	PERSON 908 922	Лашкми Миттала
+T23	MONEY 939 954	74 млн долларов
+T24	ORGANIZATION 966 972	Forbes
+T25	NUMBER 974 978	1000
+T26	COUNTRY 1005 1012	Францию
+T27	EVENT 1047 1056	церемония
+T28	FACILITY 1068 1075	Версале
+T29	PROFESSION 1086 1092	принца
+T30	PROFESSION 1103 1112	принцессы
+T31	PERSON 1113 1118	Дианы
+T32	DATE 1119 1130	в 1981 году
+T33	MONEY 1164 1177	30 млн фунтов
+T34	MONEY 1179 1199	около 116 млн фунтов
+T35	PROFESSION 1258 1264	принца
+T36	PERSON 1265 1272	Уильяма
+T37	MONEY 1306 1325	около 20 млн фунтов
+T38	ORGANIZATION 1337 1347	Daily Mail
+T39	DATE 1350 1367	В марте 2016 года
+T40	CITY 1370 1376	Москве
+T41	PERSON 1399 1412	Саид Гуцериев
+T42	PROFESSION 1419 1430	миллиардера
+T43	PERSON 1431 1448	Михаила Гуцериева
+T44	PERSON 1453 1467	Хадижа Ужахова
+T45	ORGANIZATION 1482 1492	MailOnline
+T46	MONEY 1533 1549	1,2 млн долларов
+T47	PERSON 1593 1608	Дженнифер Лопес
+T48	PERSON 1610 1615	Стинг
+T49	PERSON 1618 1633	Энрике Иглесиас
+R4	PARENT_OF Arg1:T22 Arg2:T19
+R7	TAKES_PLACE_IN Arg1:T27 Arg2:T28
+R9	PARENT_OF Arg1:T43 Arg2:T41
+T3	STATE_OR_PROVINCE 84 99	Джамму и Кашмир
+T4	PERSON 1093 1100	Чарльза
+T50	EVENT 1224 1248	Церемония бракосочетания
+T51	EVENT 1391 1398	свадьбу
+T52	PROFESSION 1579 1587	артистов
+R1	POINT_IN_TIME Arg1:T18 Arg2:T17	
+T53	EVENT 1078 1085	Свадьба
+R3	PARENT_OF Arg1:T31 Arg2:T36	
+R5	PARENT_OF Arg1:T4 Arg2:T36	
+R6	SPOUSE Arg1:T41 Arg2:T44	
+R8	TAKES_PLACE_IN Arg1:T51 Arg2:T40	
+R10	POINT_IN_TIME Arg1:T51 Arg2:T39	
+R11	WORKS_AS Arg1:T47 Arg2:T52	
+R12	WORKS_AS Arg1:T48 Arg2:T52	
+R13	WORKS_AS Arg1:T49 Arg2:T52	
+R14	LOCATED_IN Arg1:T3 Arg2:T5	
+R15	LOCATED_IN Arg1:T8 Arg2:T7	
+R16	AGENT Arg1:T19 Arg2:T18	
+R17	PARTICIPANT_IN Arg1:T22 Arg2:T18	
+R18	AGENT Arg1:T4 Arg2:T53	
+R19	AGENT Arg1:T31 Arg2:T53	
+R2	POINT_IN_TIME Arg1:T53 Arg2:T32	
+R20	AGENT Arg1:T36 Arg2:T50	
+R21	AGENT Arg1:T41 Arg2:T51	
+R22	AGENT Arg1:T44 Arg2:T51	
+R23	ORIGINS_FROM Arg1:T22 Arg2:T20	
+R24	PRICE_OF Arg1:T18 Arg2:T23	
+R25	EXPENDITURE Arg1:T22 Arg2:T23	
+R26	PRICE_OF Arg1:T53 Arg2:T33	
+R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R28	PRICE_OF Arg1:T50 Arg2:T37	
+R29	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+T9	EVENT 168 214	вводится запрет на проведение роскошных свадеб
+T54	EVENT 41 74	ввели запрет на роскошные свадьбы
+R30	TAKES_PLACE_IN Arg1:T54 Arg2:T2	
+R31	POINT_IN_TIME Arg1:T9 Arg2:T6	
+R32	TAKES_PLACE_IN Arg1:T9 Arg2:T8	
+R33	ALTERNATIVE_NAME Arg1:T54 Arg2:T9	
+R34	ALTERNATIVE_NAME Arg1:T18 Arg2:T27	
+R35	WORKS_AS Arg1:T4 Arg2:T29	
+R36	WORKS_AS Arg1:T31 Arg2:T30	
+R37	WORKS_AS Arg1:T36 Arg2:T35	
+R38	PARTICIPANT_IN Arg1:T47 Arg2:T51	
+R39	PARTICIPANT_IN Arg1:T48 Arg2:T51	
+R40	PARTICIPANT_IN Arg1:T49 Arg2:T51	
+N1	Reference T5 Wikidata:Q668	Индия
+N2	Reference T8 Wikidata:Q1180	Джамму и Кашмир
+N3	Reference T14 Wikidata:Q35749	парламент
+N6	Reference T22 Wikidata:Q191311	Лакшми Миттал
+N7	Reference T24 Wikidata:Q25161472	Форбс
+N8	Reference T26 Wikidata:Q142	Франция
+N9	Reference T28 Wikidata:Q2946	Версаль
+N10	Reference T30 Wikidata:Q2747456	принц
+N12	Reference T35 Wikidata:Q2747456	принц
+N13	Reference T38 Wikidata:Q210534	Daily Mail
+N14	Reference T40 Wikidata:Q649	Москва
+N15	Reference T41 Wikidata:Q65151988	Гуцериев, Саид Михайлович
+N17	Reference T43 Wikidata:Q1346607	Михаил Сафарбекович Гуцериев
+N19	Reference T47 Wikidata:Q40715	Дженнифер Лопес
+N20	Reference T48 Wikidata:Q483203	Стинг
+N21	Reference T49 Wikidata:Q47122	Энрике Иглесиас
+N22	Reference T4 Wikidata:Q43274	Чарльз, принц Уэльский
+N23	Reference T52 Wikidata:Q483501	деятель искусств
+N5	Reference T20 Wikidata:Q862086	
+N4	Reference T19 Wikidata:Q7914953	
+N11	Reference T31 Wikidata:Q9685	
+N24	Reference T36 Wikidata:Q36812	Уильям, герцог Кембриджский
+N18	Reference T44 Wikidata:NULL	нет данных
+N16	Reference T42 Wikidata:Q1062083	миллиардер
+N25	Reference T45 Wikidata:Q6735687	
+N26	Reference T2 Wikidata:Q668	Индия
+N27	Reference T7 Wikidata:Q668	Индия
+N28	Reference T15 Wikidata:Q668	Индия
+N29	Reference T3 Wikidata:Q1180	Джамму и Кашмир
+N30	Reference T29 Wikidata:Q2747456	принц
+N31	Reference T21 Wikidata:Q1062083	миллиардер
+R41	LOCATED_IN Arg1:T28 Arg2:T26	

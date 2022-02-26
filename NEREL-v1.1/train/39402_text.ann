@@ -1,0 +1,174 @@
+T1	PROFESSION 0 6	Король
+T2	PERSON 15 25	Альберт II
+T3	PROFESSION 70 76	принца
+T4	PERSON 86 96	Альберт II
+T5	PERSON 112 122	Альберт II
+T6	PROFESSION 190 207	наследного принца
+T7	DATE 238 255	21 июля 2013 года
+T8	COUNTRY 283 294	бельгийский
+T9	DATE 346 362	3 июля 2013 года
+T10	TIME 365 390	18:00 по местному времени
+T11	TIME 459 483	несколькими часами ранее
+T12	PROFESSION 572 589	наследного принца
+T13	COUNTRY 623 630	Бельгии
+T14	DATE 635 677	на протяжении последнии нескольких месяцев
+T16	PERSON 680 690	Альберт II
+T17	PERSON 705 718	Леопольда III
+T18	PERSON 721 736	Астрид Шведской
+T20	PERSON 810 819	Бодуэна I
+T21	PERSON 821 828	Альберт
+T22	PROFESSION 838 843	донне
+T23	NUMBER 934 938	двух
+T24	PROFESSION 947 956	принцессу
+T25	PROFESSION 966 972	принца
+T26	AGE 997 1004	53 года
+T27	PERSON 1018 1043	Матильде д’Удекем д’ Акоз
+T28	DATE 1044 1055	с 1999 года
+T29	NUMBER 1064 1071	четверо
+T30	PERSON 1094 1103	Елизавете
+T31	AGE 1104 1110	11 лет
+T32	PERSON 1126 1134	Габриэлю
+T33	AGE 1137 1142	9 лет
+T35	COUNTRY 1164 1171	Бельгии
+T36	EVENT 1205 1224	День присяги короля
+T37	PROFESSION 0 14	Король Бельгии
+T38	COUNTRY 7 14	Бельгии
+T39	ORDINAL 23 25	II
+T40	PERSON 77 84	Филиппа
+T41	ORDINAL 94 96	II
+T42	PROFESSION 97 111	Король Бельгии
+T43	PROFESSION 97 103	Король
+T44	COUNTRY 104 111	Бельгии
+T45	ORDINAL 120 122	II
+T46	PROFESSION 201 207	принца
+T47	PROFESSION 208 228	герцога Брабантского
+T48	PERSON 229 236	Филиппа
+T49	PROFESSION 295 301	монарх
+T51	PROFESSION 510 516	король
+T52	PERSON 590 597	Филиппа
+T53	PROFESSION 583 589	принца
+T54	ORDINAL 688 690	II
+T55	ORDINAL 715 718	III
+T56	EVENT 737 755	наследовал престол
+T57	EVENT 769 776	кончины
+T58	ORDINAL 818 819	I
+T59	PERSON 844 891	Паоле Маргарите Марии Антонии Руффо ди Калабриа
+T60	PERSON 957 963	Астрид
+T61	PERSON 973 979	Лорана
+T62	PROFESSION 982 988	Принцу
+T63	PERSON 989 996	Филиппу
+T64	PROFESSION 1218 1224	короля
+R1	WORKPLACE Arg1:T37 Arg2:T38	
+R2	WORKS_AS Arg1:T2 Arg2:T37	
+R3	WORKPLACE Arg1:T2 Arg2:T38	
+R4	WORKS_AS Arg1:T40 Arg2:T3	
+R5	PARENT_OF Arg1:T2 Arg2:T40	
+R6	WORKPLACE Arg1:T42 Arg2:T44	
+R7	WORKS_AS Arg1:T5 Arg2:T42	
+R8	WORKPLACE Arg1:T5 Arg2:T44	
+R9	WORKS_AS Arg1:T48 Arg2:T47	
+R10	WORKS_AS Arg1:T48 Arg2:T6	
+T65	STATE_OR_PROVINCE 216 228	Брабантского
+R11	WORKPLACE Arg1:T47 Arg2:T65	
+R12	PARENT_OF Arg1:T5 Arg2:T48	
+T66	EVENT 146 167	отречётся от престола
+T67	EVENT 26 47	отречётся от престола
+R13	PARTICIPANT_IN Arg1:T2 Arg2:T67	
+R14	PARTICIPANT_IN Arg1:T40 Arg2:T67	
+R15	POINT_IN_TIME Arg1:T66 Arg2:T7	
+R16	PARTICIPANT_IN Arg1:T5 Arg2:T66	
+R17	PARTICIPANT_IN Arg1:T48 Arg2:T66	
+R19	ALTERNATIVE_NAME Arg1:T44 Arg2:T8	
+T50	PROFESSION 283 301	бельгийский монарх
+R18	WORKPLACE Arg1:T50 Arg2:T8	
+R20	ALTERNATIVE_NAME Arg1:T43 Arg2:T49	
+R21	ALTERNATIVE_NAME Arg1:T42 Arg2:T50	
+R22	WORKS_AS Arg1:T52 Arg2:T12	
+R23	PARENT_OF Arg1:T51 Arg2:T52	
+R24	PARENT_OF Arg1:T17 Arg2:T16	
+R25	PARENT_OF Arg1:T18 Arg2:T16	
+R26	SPOUSE Arg1:T17 Arg2:T18	
+T15	COUNTRY 728 736	Шведской
+R27	ORIGINS_FROM Arg1:T18 Arg2:T15	
+R28	PARTICIPANT_IN Arg1:T16 Arg2:T56	
+T19	DATE 756 762	в 1993
+R29	POINT_IN_TIME Arg1:T56 Arg2:T19	
+R30	HAS_CAUSE Arg1:T56 Arg2:T57	
+R31	SIBLING Arg1:T16 Arg2:T20	
+R32	PARENT_OF Arg1:T17 Arg2:T20	
+R33	PARENT_OF Arg1:T18 Arg2:T20	
+R34	SPOUSE Arg1:T21 Arg2:T59	
+T68	PROFESSION 899 918	наследника престола
+R35	WORKS_AS Arg1:T60 Arg2:T24	
+R36	WORKS_AS Arg1:T61 Arg2:T25	
+R37	SIBLING Arg1:T60 Arg2:T61	
+R40	PARENT_OF Arg1:T21 Arg2:T60	
+R41	PARENT_OF Arg1:T59 Arg2:T60	
+R42	PARENT_OF Arg1:T21 Arg2:T61	
+R43	PARENT_OF Arg1:T59 Arg2:T61	
+R44	WORKS_AS Arg1:T63 Arg2:T62	
+R45	AGE_IS Arg1:T63 Arg2:T26	
+R38	WORKS_AS Arg1:T63 Arg2:T68	
+R39	SIBLING Arg1:T63 Arg2:T60	
+R46	SIBLING Arg1:T63 Arg2:T61	
+R47	SPOUSE Arg1:T63 Arg2:T27	
+R48	AGE_IS Arg1:T30 Arg2:T31	
+R49	AGE_IS Arg1:T32 Arg2:T33	
+T34	DATE 1145 1153	Ежегодно
+T69	DATE 1154 1161	21 июля
+R50	PARENT_OF Arg1:T63 Arg2:T30	
+R51	PARENT_OF Arg1:T27 Arg2:T30	
+R52	PARENT_OF Arg1:T27 Arg2:T32	
+R53	PARENT_OF Arg1:T63 Arg2:T32	
+R54	SIBLING Arg1:T30 Arg2:T32	
+T70	EVENT 1181 1202	национальный праздник
+T71	EVENT 1194 1202	праздник
+R57	PARTICIPANT_IN Arg1:T64 Arg2:T36	
+R55	TAKES_PLACE_IN Arg1:T36 Arg2:T35	
+R56	POINT_IN_TIME Arg1:T36 Arg2:T69	
+R58	PARTICIPANT_IN Arg1:T20 Arg2:T57	
+R59	WORKS_AS Arg1:T59 Arg2:T22	
+N1	Reference T5 Wikidata:Q3911	Альберт II
+N3	Reference T17 Wikidata:Q227989	Леопольд III
+N4	Reference T18 Wikidata:Q230238	Астрид Шведская
+N5	Reference T20 Wikidata:Q12976	Бодуэн I
+N7	Reference T24 Wikidata:Q2747456	принц
+N9	Reference T30 Wikidata:Q2342124	Елизавета Бельгийская
+N10	Reference T32 Wikidata:Q1199838	Габриэль Бельгийский
+N11	Reference T35 Wikidata:Q31	Бельгия
+N12	Reference T47 Wikidata:Q155004	Филипп
+N13	Reference T59 Wikidata:Q31129	Паола Руффо ди Калабриа
+N15	Reference T62 Wikidata:Q2747456	принц
+N18	Reference T65 Wikidata:Q159856	Брабант
+N21	Reference T42 Wikidata:Q13592862	
+N2	Reference T6 Wikidata:Q207293	кронпринц
+N17	Reference T64 Wikidata:Q12097	король
+N8	Reference T27 Wikidata:Q94334	
+N16	Reference T63 Wikidata:Q155004	Филипп
+N20	Reference T68 Wikidata:Q207293	кронпринц
+N14	Reference T60 Wikidata:Q170194	
+N22	Reference T61 Wikidata:Q700152	
+N23	Reference T21 Wikidata:Q3911	Альберт II
+N19	Reference T15 Wikidata:Q34	Швеция
+N6	Reference T22 Wikidata:Q1138610	
+N24	Reference T4 Wikidata:Q3911	Альберт II
+N25	Reference T2 Wikidata:Q3911	Альберт II
+N26	Reference T16 Wikidata:Q3911	Альберт II
+N27	Reference T13 Wikidata:Q31	Бельгия
+N28	Reference T44 Wikidata:Q31	Бельгия
+N29	Reference T8 Wikidata:Q31	Бельгия
+N30	Reference T38 Wikidata:Q31	Бельгия
+N31	Reference T53 Wikidata:Q2747456	принц
+N32	Reference T46 Wikidata:Q2747456	принц
+N33	Reference T25 Wikidata:Q2747456	принц
+N34	Reference T3 Wikidata:Q2747456	принц
+N35	Reference T50 Wikidata:Q13592862	
+N36	Reference T37 Wikidata:Q13592862	
+N37	Reference T12 Wikidata:Q207293	кронпринц
+N38	Reference T51 Wikidata:Q12097	король
+N39	Reference T49 Wikidata:Q12097	король
+N40	Reference T43 Wikidata:Q12097	король
+N41	Reference T1 Wikidata:Q12097	король
+N42	Reference T40 Wikidata:Q155004	Филипп
+N43	Reference T48 Wikidata:Q155004	Филипп
+N44	Reference T52 Wikidata:Q155004	Филипп

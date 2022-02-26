@@ -1,0 +1,159 @@
+T1	PERSON 8 19	Пан Ги Муна
+T2	PROFESSION 29 41	генсеком ООН
+T3	ORDINAL 45 51	второй
+T4	NUMBER 109 112	192
+T5	ORGANIZATION 119 140	Генеральной Ассамблеи
+T6	PERSON 181 192	Пан Ги Муна
+T7	PROFESSION 193 246	генеральным секретарём Организации Объединённых Наций
+T8	ORGANIZATION 248 251	ООН
+T9	ORGANIZATION 263 266	РБК
+T10	PROFESSION 268 276	Дипломат
+T11	COUNTRY 280 291	Южной Кореи
+T12	ORGANIZATION 302 305	ООН
+T13	ORDINAL 309 315	второй
+T14	DATE 334 355	на следующие пять лет
+T15	AGE 356 365	67-летний
+T16	DATE 382 400	1 января 2012 года
+T17	DATE 403 426	Несколькими днями ранее
+T18	PERSON 427 437	Пан Ги Мун
+T19	ORGANIZATION 450 460	Совбез ООН
+T20	ORDINAL 494 500	второй
+T21	DATE 663 669	неделе
+T22	PROFESSION 670 715	директор Департамента информации и печати МИД
+T23	ORGANIZATION 712 722	МИД России
+T24	PERSON 723 742	Александр Лукашевич
+T25	COUNTRY 762 768	России
+T26	PERSON 792 803	Пан Ги Муна
+T27	CITY 851 857	Москву
+T28	DATE 858 881	в апреле нынешнего года
+T29	PROFESSION 947 973	генерального секретаря ООН
+T30	PROFESSION 988 997	президент
+T31	PERSON 1001 1017	Дмитрий Медведев
+T32	PROFESSION 1020 1045	Генеральный секретарь ООН
+T33	ORGANIZATION 1058 1080	Генеральной Ассамблеей
+T34	ORGANIZATION 1109 1128	Совета Безопасности
+T35	DATE 1129 1140	на пять лет
+T36	ORGANIZATION 1289 1296	Совбеза
+T37	COUNTRY 1313 1327	Великобритания
+T38	COUNTRY 1329 1334	Китай
+T39	COUNTRY 1336 1342	Россия
+T40	COUNTRY 1344 1347	США
+T41	COUNTRY 1350 1357	Франция
+T42	ORGANIZATION 38 41	ООН
+T43	ORGANIZATION 100 103	ООН
+T44	ORGANIZATION 1042 1045	ООН
+T45	COUNTRY 882 895	южнокорейский
+T46	PROFESSION 896 904	дипломат
+T47	ORGANIZATION 970 973	ООН
+T49	ORGANIZATION 216 246	Организации Объединённых Наций
+T50	PROFESSION 366 373	политик
+T51	ORGANIZATION 457 460	ООН
+T52	EVENT 152 180	проголосовали за утверждение
+T54	PROFESSION 29 37	генсеком
+R1	WORKPLACE Arg1:T2 Arg2:T42	
+R2	WORKS_AS Arg1:T1 Arg2:T2	
+R3	WORKPLACE Arg1:T1 Arg2:T42	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T52	
+R5	PART_OF Arg1:T5 Arg2:T43	
+R6	ALTERNATIVE_NAME Arg1:T49 Arg2:T8	
+T55	PROFESSION 193 215	генеральным секретарём
+R7	ALTERNATIVE_NAME Arg1:T54 Arg2:T55	
+R8	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R10	WORKS_AS Arg1:T6 Arg2:T7	
+R11	WORKPLACE Arg1:T6 Arg2:T49	
+R12	WORKS_AS Arg1:T6 Arg2:T10	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R14	WORKPLACE Arg1:T10 Arg2:T11	
+R15	WORKPLACE Arg1:T10 Arg2:T12	
+R16	AGE_IS Arg1:T50 Arg2:T15	
+R17	AGE_IS Arg1:T6 Arg2:T15	
+R18	WORKS_AS Arg1:T6 Arg2:T50	
+T53	ORGANIZATION 450 456	Совбез
+R19	PART_OF Arg1:T19 Arg2:T51	
+T56	PROFESSION 947 969	генерального секретаря
+R20	WORKPLACE Arg1:T29 Arg2:T47	
+R21	MEMBER_OF Arg1:T37 Arg2:T36	
+R22	MEMBER_OF Arg1:T38 Arg2:T36	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T52	
+R23	MEMBER_OF Arg1:T39 Arg2:T36	
+R24	MEMBER_OF Arg1:T40 Arg2:T36	
+R25	MEMBER_OF Arg1:T41 Arg2:T36	
+T48	PROFESSION 1020 1041	Генеральный секретарь
+R26	WORKPLACE Arg1:T32 Arg2:T44	
+R27	PART_OF Arg1:T33 Arg2:T44	
+R28	PART_OF Arg1:T34 Arg2:T44	
+T57	PROFESSION 988 1000	президент РФ
+T58	COUNTRY 998 1000	РФ
+R29	WORKPLACE Arg1:T57 Arg2:T58	
+R30	WORKS_AS Arg1:T31 Arg2:T57	
+R31	WORKPLACE Arg1:T31 Arg2:T58	
+T59	ORGANIZATION 679 722	Департамента информации и печати МИД России
+R32	PART_OF Arg1:T59 Arg2:T23	
+R33	WORKPLACE Arg1:T22 Arg2:T59	
+T60	COUNTRY 716 722	России
+R34	HEADQUARTERED_IN Arg1:T23 Arg2:T60	
+T61	ORGANIZATION 712 715	МИД
+R35	WORKS_AS Arg1:T24 Arg2:T22	
+R36	WORKPLACE Arg1:T24 Arg2:T59	
+R37	ALTERNATIVE_NAME Arg1:T25 Arg2:T58	
+R38	ORIGINS_FROM Arg1:T26 Arg2:T45	
+R39	ORIGINS_FROM Arg1:T26 Arg2:T46	
+R40	ORIGINS_FROM Arg1:T46 Arg2:T45	
+T62	EVENT 842 848	визита
+R41	AGENT Arg1:T26 Arg2:T62	
+R42	AGENT Arg1:T46 Arg2:T62	
+R43	TAKES_PLACE_IN Arg1:T62 Arg2:T27	
+R44	POINT_IN_TIME Arg1:T62 Arg2:T28	
+T63	EVENT 292 301	возглавит
+R45	PARTICIPANT_IN Arg1:T12 Arg2:T63	
+R46	AGENT Arg1:T10 Arg2:T63	
+R47	AGENT Arg1:T6 Arg2:T63	
+N1	Reference T5 Wikidata:Q47423	Генеральная Ассамблея ООН
+N2	Reference T7 Wikidata:Q81066	генеральный секретарь ООН
+N3	Reference T9 Wikidata:Q629733	РосБизнесКонсалтинг
+N4	Reference T11 Wikidata:Q884	Республика Корея
+N5	Reference T18 Wikidata:Q1253	Пан Ги Мун
+N6	Reference T19 Wikidata:Q37470	Совет Безопасности ООН
+N7	Reference T23 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N8	Reference T24 Wikidata:Q23656173	Александр Казимирович Лукашевич
+N9	Reference T27 Wikidata:Q649	Москва
+N10	Reference T29 Wikidata:Q81066	генеральный секретарь ООН
+N11	Reference T30 Wikidata:Q30461	президент
+N12	Reference T31 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N13	Reference T34 Wikidata:Q37470	Совет Безопасности ООН
+N14	Reference T37 Wikidata:Q145	Великобритания
+N15	Reference T38 Wikidata:Q148	Китайская Народная Республика
+N16	Reference T40 Wikidata:Q30	США
+N17	Reference T41 Wikidata:Q142	Франция
+N19	Reference T46 Wikidata:Q193391	дипломат
+N20	Reference T50 Wikidata:Q82955	политик
+N21	Reference T51 Wikidata:Q1065	Организация Объединённых Наций
+N22	Reference T55 Wikidata:Q6501749	генеральный секретарь
+N23	Reference T53 Wikidata:Q37470	Совет Безопасности ООН
+N24	Reference T57 Wikidata:Q218295	президент Российской Федерации
+N25	Reference T58 Wikidata:Q159	Россия
+N26	Reference T61 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N27	Reference T59 Wikidata:NULL	нет данных
+N28	Reference T22 Wikidata:NULL	нет данных
+N18	Reference T45 Wikidata:Q884	Республика Корея
+N29	Reference T33 Wikidata:Q47423	Генеральная Ассамблея ООН
+N30	Reference T2 Wikidata:Q81066	генеральный секретарь ООН
+N31	Reference T6 Wikidata:Q1253	Пан Ги Мун
+N32	Reference T1 Wikidata:Q1253	Пан Ги Мун
+N33	Reference T26 Wikidata:Q1253	Пан Ги Мун
+N34	Reference T32 Wikidata:Q81066	генеральный секретарь ООН
+N35	Reference T10 Wikidata:Q193391	дипломат
+N36	Reference T44 Wikidata:Q1065	Организация Объединённых Наций
+N37	Reference T8 Wikidata:Q1065	Организация Объединённых Наций
+N38	Reference T12 Wikidata:Q1065	Организация Объединённых Наций
+N39	Reference T49 Wikidata:Q1065	Организация Объединённых Наций
+N40	Reference T47 Wikidata:Q1065	Организация Объединённых Наций
+N41	Reference T42 Wikidata:Q1065	Организация Объединённых Наций
+N42	Reference T43 Wikidata:Q1065	Организация Объединённых Наций
+N43	Reference T54 Wikidata:Q6501749	генеральный секретарь
+N44	Reference T48 Wikidata:Q6501749	генеральный секретарь
+N45	Reference T56 Wikidata:Q6501749	генеральный секретарь
+N46	Reference T36 Wikidata:Q37470	Совет Безопасности ООН
+N47	Reference T39 Wikidata:Q159	Россия
+N48	Reference T60 Wikidata:Q159	Россия
+N49	Reference T25 Wikidata:Q159	Россия

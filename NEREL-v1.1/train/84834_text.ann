@@ -1,0 +1,172 @@
+T1	PERSON 10 23	Михаил Светин
+T2	ORGANIZATION 24 91	Санкт-Петербургский академический театр комедии имени Н. П. Акимова
+T3	DATE 92 112	30 августа 2015 года
+T4	FACILITY 115 155	Гатчинской центральной районной больнице
+T6	PERSON 198 211	Михаил Светин
+T7	AGE 239 245	85 лет
+T8	DATE 276 296	23 августа 2015 года
+T9	PROFESSION 407 505	Художественный руководитель Санкт-Петербургского академического театра комедии имени Н. П. Акимова
+T11	AWARD 548 568	народным артистом РФ
+T12	DATE 577 597	2 сентября 2015 года
+T13	FACILITY 623 645	Серафимовском кладбище
+T14	PERSON 648 671	Михаил Семёнович Светин
+T15	PERSON 686 713	Михаил Соломонович Гольцман
+T16	DATE 723 743	11 декабря 1930 года
+T17	CITY 746 751	Киеве
+T18	DATE 753 764	С 1970 года
+T19	ORGANIZATION 775 801	Малом драматическом театре
+T20	CITY 804 814	Ленинграде
+T21	DATE 816 827	С 1980 года
+T22	PROFESSION 847 852	актёр
+T23	ORGANIZATION 853 923	Санкт-Петербургского академического театра комедии имени Н. П. Акимова
+T24	DATE 925 936	В 1973 году
+T25	DATE 988 999	В 1987 году
+T26	AWARD 1005 1031	Заслуженным артистом РСФСР
+T27	DATE 1035 1041	в 1996
+T28	PROFESSION 1053 1061	артистом
+T29	DATE 1070 1081	В 2009 году
+T30	WORK_OF_ART 1173 1191	Двенадцать стульев
+T31	WORK_OF_ART 1202 1207	Афоня
+T32	PERSON 78 91	Н. П. Акимова
+T33	CITY 24 43	Санкт-Петербургский
+T34	CITY 115 125	Гатчинской
+T35	COUNTRY 177 197	Российской Федерации
+T36	AWARD 161 197	народный артист Российской Федерации
+T5	PROFESSION 248 254	Артист
+T37	DISEASE 303 311	инсульта
+T38	EVENT 259 275	госпитализирован
+T39	PERSON 492 505	Н. П. Акимова
+T40	ORGANIZATION 435 505	Санкт-Петербургского академического театра комедии имени Н. П. Акимова
+T41	CITY 435 455	Санкт-Петербургского
+T42	PERSON 506 522	Татьяна Казакова
+T10	COUNTRY 566 568	РФ
+T43	PERSON 910 923	Н. П. Акимова
+T44	CITY 853 873	Санкт-Петербургского
+T45	PROFESSION 847 923	актёр Санкт-Петербургского академического театра комедии имени Н. П. Акимова
+T46	WORK_OF_ART 947 964	Не пройдёт и года
+T47	STATE_OR_PROVINCE 1026 1031	РСФСР
+T48	COUNTRY 1062 1068	России
+T49	AWARD 1101 1128	За заслуги перед Отечеством
+T50	WORK_OF_ART 1218 1232	Не может быть!
+T51	WORK_OF_ART 1243 1250	Чародеи
+T52	DATE 1253 1257	1982
+T53	DATE 1235 1239	1975
+T54	DATE 1210 1214	1975
+T55	DATE 1194 1198	1971
+T56	ORDINAL 1130 1132	IV
+T57	EVENT 0 9	Скончался
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T57	
+T58	EVENT 156 160	умер
+R2	PLACE_OF_DEATH Arg1:T6 Arg2:T4	
+R4	AGE_DIED_AT Arg1:T6 Arg2:T7	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T38	
+R6	POINT_IN_TIME Arg1:T38 Arg2:T8	
+R7	MEDICAL_CONDITION Arg1:T5 Arg2:T37	
+T59	EVENT 537 545	прощание
+R8	POINT_IN_TIME Arg1:T59 Arg2:T12	
+R9	WORKS_AS Arg1:T42 Arg2:T9	
+R10	WORKPLACE Arg1:T42 Arg2:T40	
+R11	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R12	DATE_OF_BIRTH Arg1:T14 Arg2:T16	
+R13	PLACE_OF_BIRTH Arg1:T14 Arg2:T17	
+R14	DATE_OF_CREATION Arg1:T30 Arg2:T55	
+R15	DATE_OF_CREATION Arg1:T31 Arg2:T54	
+R16	DATE_OF_CREATION Arg1:T50 Arg2:T53	
+R17	DATE_OF_CREATION Arg1:T51 Arg2:T52	
+R18	HEADQUARTERED_IN Arg1:T19 Arg2:T20	
+R19	WORKPLACE Arg1:T14 Arg2:T19	
+R20	WORKS_AS Arg1:T14 Arg2:T45	
+R21	DATE_OF_CREATION Arg1:T46 Arg2:T24	
+R22	PARTICIPANT_IN Arg1:T14 Arg2:T46	
+T60	AWARD 1100 1140	«За заслуги перед Отечеством» IV степени
+R23	AWARDED_WITH Arg1:T14 Arg2:T60	
+R24	PARTICIPANT_IN Arg1:T14 Arg2:T30	
+R25	PARTICIPANT_IN Arg1:T14 Arg2:T31	
+R26	PARTICIPANT_IN Arg1:T14 Arg2:T50	
+R27	PARTICIPANT_IN Arg1:T14 Arg2:T51	
+R30	HEADQUARTERED_IN Arg1:T2 Arg2:T33	
+R31	LOCATED_IN Arg1:T4 Arg2:T34	
+R32	TAKES_PLACE_IN Arg1:T58 Arg2:T4	
+R33	POINT_IN_TIME Arg1:T58 Arg2:T3	
+R34	WORKS_AS Arg1:T6 Arg2:T5	
+R35	HEADQUARTERED_IN Arg1:T40 Arg2:T41	
+R36	WORKPLACE Arg1:T9 Arg2:T40	
+T61	PROFESSION 407 434	Художественный руководитель
+R37	HEADQUARTERED_IN Arg1:T23 Arg2:T44	
+R38	WORKPLACE Arg1:T45 Arg2:T23	
+R39	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R40	ALTERNATIVE_NAME Arg1:T35 Arg2:T10	
+R3	AWARDED_WITH Arg1:T6 Arg2:T36	
+R41	ORIGINS_FROM Arg1:T36 Arg2:T35	
+T62	AWARD 161 176	народный артист
+T63	PROFESSION 170 176	артист
+R42	WORKS_AS Arg1:T6 Arg2:T63	
+T64	PROFESSION 557 565	артистом
+R43	ALTERNATIVE_NAME Arg1:T36 Arg2:T11	
+R28	ORIGINS_FROM Arg1:T26 Arg2:T47	
+R29	POINT_IN_TIME Arg1:T26 Arg2:T25	
+T65	PROFESSION 1017 1025	артистом
+T66	AWARD 1044 1068	Народным артистом России
+T67	AWARD 1044 1061	Народным артистом
+R44	ORIGINS_FROM Arg1:T66 Arg2:T48	
+R45	POINT_IN_TIME Arg1:T66 Arg2:T27	
+R46	AWARDED_WITH Arg1:T14 Arg2:T26	
+R47	AWARDED_WITH Arg1:T14 Arg2:T66	
+T68	AWARD 1005 1025	Заслуженным артистом
+R48	INANIMATE_INVOLVED Arg1:T6 Arg2:T59	
+R49	WORKS_AS Arg1:T14 Arg2:T65	
+N2	Reference T6 Wikidata:Q4410277	Михаил Семёнович Светин
+N4	Reference T11 Wikidata:Q1857712	Народный артист Российской Федерации
+N5	Reference T13 Wikidata:Q4416669	Серафимовское кладбище
+N7	Reference T17 Wikidata:Q1899	Киев
+N8	Reference T19 Wikidata:Q1113233	Академический Малый драматический театр — Театр Европы
+N9	Reference T20 Wikidata:Q656	Санкт-Петербург
+N10	Reference T22 Wikidata:Q33999	актёр
+N12	Reference T26 Wikidata:Q46919	Заслуженный артист РСФСР
+N13	Reference T30 Wikidata:Q2371262	12 стульев
+N14	Reference T31 Wikidata:Q1959191	Афоня
+N16	Reference T35 Wikidata:Q159	Россия
+N17	Reference T39 Wikidata:Q1185061	Николай Павлович Акимов
+N22	Reference T47 Wikidata:Q2184	РСФСР
+N23	Reference T48 Wikidata:Q159	Россия
+N24	Reference T49 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N25	Reference T50 Wikidata:Q4315419	Не может быть!
+N26	Reference T51 Wikidata:Q4507452	Чародеи
+N27	Reference T60 Wikidata:Q18080423	орден «За заслуги перед Отечеством» IV степени
+N28	Reference T62 Wikidata:Q1208997	народный артист
+N29	Reference T64 Wikidata:Q483501	деятель искусств
+N30	Reference T66 Wikidata:Q1857712	Народный артист Российской Федерации
+N31	Reference T68 Wikidata:Q4187924	Заслуженный артист
+N15	Reference T34 Wikidata:Q7436	
+N1	Reference T4 Wikidata:NULL	
+N32	Reference T61 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q4410277	Иоффе, Олимпиад Соломонович
+N20	Reference T45 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:NULL	
+N18	Reference T41 Wikidata:Q656	Санкт-Петербург
+N19	Reference T42 Wikidata:NULL	нет данных
+N21	Reference T46 Wikidata:NULL	нет данных
+N11	Reference T23 Wikidata:Q4407688	Санкт-Петербургский академический театр комедии имени Н. П. Акимова
+N33	Reference T1 Wikidata:Q4410277	Михаил Семёнович Светин
+N34	Reference T36 Wikidata:Q1857712	Народный артист Российской Федерации
+N35	Reference T10 Wikidata:Q159	Россия
+N36	Reference T32 Wikidata:Q1185061	Николай Павлович Акимов
+N37	Reference T43 Wikidata:Q1185061	Николай Павлович Акимов
+N38	Reference T67 Wikidata:Q1208997	народный артист
+N39	Reference T63 Wikidata:Q483501	деятель искусств
+N40	Reference T65 Wikidata:Q483501	деятель искусств
+N41	Reference T28 Wikidata:Q483501	деятель искусств
+N42	Reference T5 Wikidata:Q483501	деятель искусств
+N43	Reference T14 Wikidata:Q4410277	Иоффе, Олимпиад Соломонович
+N44	Reference T44 Wikidata:Q656	Санкт-Петербург
+N45	Reference T33 Wikidata:Q656	Санкт-Петербург
+N46	Reference T40 Wikidata:Q4407688	Санкт-Петербургский академический театр комедии имени Н. П. Акимова
+N47	Reference T2 Wikidata:Q4407688	Санкт-Петербургский академический театр комедии имени Н. П. Акимова
+R50	PARTICIPANT_IN Arg1:T6 Arg2:T58	
+R51	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R52	HAS_CAUSE Arg1:T38 Arg2:T37	
+T69	EVENT 715 722	родился
+R53	PARTICIPANT_IN Arg1:T14 Arg2:T69	
+R54	POINT_IN_TIME Arg1:T69 Arg2:T16	
+R55	TAKES_PLACE_IN Arg1:T69 Arg2:T17	
+T70	DATE 960 964	года

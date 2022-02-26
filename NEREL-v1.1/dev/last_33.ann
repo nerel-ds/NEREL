@@ -1,0 +1,231 @@
+T1	CITY 2 8	Москве
+T3	PERSON 48 67	Владимиру Зворыкину
+T4	CITY 72 78	Москве
+T6	FACILITY 108 117	Останкино
+T7	PERSON 171 190	Владимиру Зворыкину
+T8	DATE 192 199	29 июля
+T9	AGE 219 226	125 лет
+T10	PROFESSION 264 271	биограф
+T11	PERSON 293 308	Фредерик Олесси
+T12	PERSON 329 343	Сандра Кнудсен
+T13	CITY 450 456	Муроме
+T14	PERSON 459 484	Владимир Козьмич Зворыкин
+T15	DATE 515 522	в 1912г
+T16	CITY 543 562	Санкт-Петербургский
+T17	ORGANIZATION 543 587	Санкт-Петербургский технологический институт
+T18	PROFESSION 604 622	инженера-технолога
+T19	DATE 700 713	В 1912-1914гг
+T20	CITY 740 746	Париже
+T21	ORGANIZATION 749 764	Коллеж де Франс
+T22	PERSON 794 804	В.Зворыкин
+T23	CITY 816 820	Омск
+T24	LOCATION 848 854	Сибири
+T25	DATE 898 905	В 1919г
+T26	COUNTRY 978 984	Россию
+T27	CITY 988 997	Нью-Йорка
+T28	DATE 1032 1039	В 1923г
+T30	DATE 1131 1138	В.1928г
+T31	COUNTRY 1180 1186	России
+T32	PERSON 1187 1203	Давидом Сарновым
+T33	PROFESSION 1205 1234	вице-президентом компании RCA
+T34	ORGANIZATION 1231 1234	RCA
+T35	ORGANIZATION 1236 1264	Radio Corporation of America
+T37	PERSON 1284 1295	В.Зворыкина
+T38	DATE 1335 1342	В 1929г
+T39	NATIONALITY 1344 1354	российский
+T40	DATE 1434 1441	к 1931г
+T41	DATE 1490 1497	В 1932г
+T42	NUMBER 1545 1552	2,5 кВт
+T43	FACILITY 1572 1592	Эмпайр-стейт-билдинг
+T44	CITY 1595 1604	Нью-Йорке
+T45	NUMBER 1691 1694	240
+T46	DATE 1702 1709	С 1933г
+T47	LOCATION 1743 1749	Европе
+T48	COUNTRY 1772 1776	СССР
+T49	ORGANIZATION 1816 1819	RCA
+T50	COUNTRY 1821 1835	Советский Союз
+T51	DATE 1836 1843	в 1938г
+T52	ORDINAL 1861 1867	первую
+T53	CITY 1905 1911	Москве
+T54	COUNTRY 1927 1931	СССР
+T55	PRODUCT 1970 1974	ТК-1
+T56	PERSON 1979 1991	зворыкинским
+T58	PERSON 2006 2016	В.Зворыкин
+T59	PERSON 2144 2162	Джеймсом Хиллиером
+T60	DATE 2167 2173	в годы
+T61	EVENT 2174 2194	Второй мировой войны
+T63	PERSON 2280 2288	Ф.Олесси
+T64	ORGANIZATION 2311 2325	Первому каналу
+T66	PERSON 2332 2342	В.Зворыкин
+T67	DATE 2400 2407	в 1969г
+T68	PERSON 2540 2555	Нила Армстронга
+T69	PROFESSION 2695 2702	биограф
+T70	PERSON 2752 2763	В.Зворыкину
+T71	CITY 2781 2790	Муромским
+T73	DATE 2823 2830	31 июля
+T75	PERSON 2845 2853	Ф.Олесси
+T77	PERSON 2855 2864	С.Кнудсен
+T78	PROFESSION 2867 2876	журналист
+T79	PERSON 2877 2892	Леонид Парфенов
+T80	PERSON 2928 2936	Зворыкин
+T81	WORK_OF_ART 2928 2944	Зворыкин-Муромец
+T2	FACILITY 17 67	памятник создателю телевидения Владимиру Зворыкину
+T5	FACILITY 137 190	памятник изобретателю телевидения Владимиру Зворыкину
+T83	EVENT 230 248	церемонии открытия
+T84	PROFESSION 284 292	инженера
+T85	PROFESSION 497 507	купеческой
+T86	EVENT 776 793	гражданской войны
+T87	PERSON 921 930	А.Колчака
+T88	ORGANIZATION 907 930	правительство А.Колчака
+T89	PROFESSION 937 944	инженер
+T29	PROFESSION 1140 1152	изобретатель
+T36	PROFESSION 1296 1333	руководителем лаборатории электроники
+T90	PROFESSION 1355 1362	инженер
+T91	PERSON 1711 1721	В.Зворыкин
+T57	ORDINAL 2174 2180	Второй
+T62	FACILITY 2781 2821	Муромским историко-художественным музеем
+T65	CITY 2831 2836	Муром
+R1	AGE_IS Arg1:T7 Arg2:T9	
+T72	PROFESSION 146 170	изобретателю телевидения
+R2	WORKS_AS Arg1:T7 Arg2:T72	
+R3	RELATIVE Arg1:T7 Arg2:T12	
+R4	WORKS_AS Arg1:T7 Arg2:T84	
+T74	PROFESSION 26 47	создателю телевидения
+R5	WORKS_AS Arg1:T3 Arg2:T74	
+T76	DATE 119 126	сегодня
+R6	PLACE_OF_BIRTH Arg1:T7 Arg2:T13	
+R7	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R8	HEADQUARTERED_IN Arg1:T17 Arg2:T16	
+R9	SCHOOLS_ATTENDED Arg1:T14 Arg2:T17	
+R10	ALTERNATIVE_NAME Arg1:T14 Arg2:T22	
+R11	HEADQUARTERED_IN Arg1:T21 Arg2:T20	
+R12	SCHOOLS_ATTENDED Arg1:T14 Arg2:T21	
+T92	EVENT 2837 2844	посетят
+R13	TAKES_PLACE_IN Arg1:T92 Arg2:T65	
+R14	POINT_IN_TIME Arg1:T92 Arg2:T73	
+R15	PARTICIPANT_IN Arg1:T75 Arg2:T92	
+R16	PARTICIPANT_IN Arg1:T77 Arg2:T92	
+R17	PARTICIPANT_IN Arg1:T79 Arg2:T92	
+R18	WORKS_AS Arg1:T79 Arg2:T78	
+R19	PRODUCES Arg1:T79 Arg2:T81	
+R20	LOCATED_IN Arg1:T62 Arg2:T71	
+T82	EVENT 2375 2399	высадки человека на Луну
+T93	LOCATION 2395 2399	Луну
+R21	POINT_IN_TIME Arg1:T82 Arg2:T67	
+T94	EVENT 2565 2582	высадился на Луне
+R22	ALTERNATIVE_NAME Arg1:T82 Arg2:T94	
+T95	LOCATION 2578 2582	Луне
+R23	KNOWS Arg1:T58 Arg2:T59	
+R24	LOCATED_IN Arg1:T43 Arg2:T44	
+T96	EVENT 9 25	откроют памятник
+R25	TAKES_PLACE_IN Arg1:T96 Arg2:T1	
+T97	EVENT 127 145	откроется памятник
+R26	POINT_IN_TIME Arg1:T97 Arg2:T76	
+R27	LOCATED_IN Arg1:T6 Arg2:T4	
+R28	TAKES_PLACE_IN Arg1:T97 Arg2:T4	
+R29	LOCATED_IN Arg1:T5 Arg2:T4	
+R30	LOCATED_IN Arg1:T2 Arg2:T1	
+R31	ALTERNATIVE_NAME Arg1:T97 Arg2:T83	
+R32	WORKS_AS Arg1:T11 Arg2:T10	
+R33	ORIGINS_FROM Arg1:T14 Arg2:T85	
+R34	PLACE_RESIDES_IN Arg1:T22 Arg2:T23	
+R35	LOCATED_IN Arg1:T23 Arg2:T24	
+T98	ORGANIZATION 907 920	правительство
+R37	PLACE_RESIDES_IN Arg1:T89 Arg2:T27	
+R38	PLACE_RESIDES_IN Arg1:T22 Arg2:T27	
+T99	COUNTRY 1257 1264	America
+R40	HEADQUARTERED_IN Arg1:T35 Arg2:T99	
+R41	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R42	WORKPLACE Arg1:T33 Arg2:T34	
+R43	WORKS_AS Arg1:T32 Arg2:T33	
+R44	WORKS_AS Arg1:T37 Arg2:T29	
+R45	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R46	KNOWS Arg1:T37 Arg2:T32	
+R47	WORKS_AS Arg1:T37 Arg2:T36	
+R48	WORKPLACE Arg1:T36 Arg2:T34	
+R49	WORKPLACE Arg1:T37 Arg2:T34	
+R50	ORIGINS_FROM Arg1:T90 Arg2:T39	
+R51	WORKS_AS Arg1:T37 Arg2:T90	
+R52	ALTERNATIVE_NAME Arg1:T91 Arg2:T56	
+R53	WORKS_AS Arg1:T63 Arg2:T69	
+R54	TAKES_PLACE_IN Arg1:T82 Arg2:T93	
+R55	INANIMATE_INVOLVED Arg1:T5 Arg2:T97	
+R56	PARTICIPANT_IN Arg1:T11 Arg2:T83	
+R57	PARTICIPANT_IN Arg1:T12 Arg2:T83	
+R36	FOUNDED_BY Arg1:T88 Arg2:T87	
+R39	TAKES_PLACE_IN Arg1:T94 Arg2:T95	
+R58	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R59	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+N4	Reference T13 Wikidata:Q162677	Муром
+N6	Reference T17 Wikidata:Q2654435	Санкт-Петербургский государственный технологический институт
+N7	Reference T20 Wikidata:Q639855	Париж! Париж!
+N8	Reference T21 Wikidata:Q202660	Коллеж де Франс
+N9	Reference T22 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N10	Reference T23 Wikidata:Q898	Омск
+N11	Reference T24 Wikidata:Q5428	Сибирь
+N12	Reference T26 Wikidata:Q159	Россия
+N14	Reference T32 Wikidata:Q360106	Давид Абрамович Сарнов
+N17	Reference T43 Wikidata:Q9188	Эмпайр-стейт-билдинг
+N19	Reference T48 Wikidata:Q15180	СССР
+N21	Reference T50 Wikidata:Q15180	СССР
+N22	Reference T53 Wikidata:Q649	Москва
+N25	Reference T64 Wikidata:Q330067	Первый канал
+N29	Reference T78 Wikidata:Q1930187	журналист
+N30	Reference T79 Wikidata:Q1960651	Леонид Геннадьевич Парфёнов
+N31	Reference T81 Wikidata:Q15270638	Зворыкин-Муромец
+N35	Reference T87 Wikidata:Q185718	Александр Васильевич Колчак
+N36	Reference T88 Wikidata:Q27669939	Правительство Колчака
+N37	Reference T29 Wikidata:Q205375	изобретатель
+N39	Reference T90 Wikidata:Q81096	инженер
+N40	Reference T91 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N41	Reference T62 Wikidata:Q4308181	Муромский историко-художественный музей
+N42	Reference T65 Wikidata:Q162677	Муром
+N43	Reference T72 Wikidata:Q205375	изобретатель
+N45	Reference T95 Wikidata:Q405	Луна
+N46	Reference T98 Wikidata:Q7188	правительство
+N47	Reference T99 Wikidata:Q50840311	America
+N44	Reference T74 Wikidata:NULL	нет данных
+N32	Reference T2 Wikidata:NULL	
+N1	Reference T6 Wikidata:Q7219457	
+N33	Reference T5 Wikidata:NULL	нет данных
+N48	Reference T10 Wikidata:Q864380	
+N2	Reference T11 Wikidata:NULL	
+N3	Reference T12 Wikidata:NULL	
+N13	Reference T27 Wikidata:Q60	Нью-Йорк
+N34	Reference T85 Wikidata:Q215536	
+N5	Reference T16 Wikidata:Q656	Санкт-Петербург
+N38	Reference T36 Wikidata:NULL	
+N18	Reference T47 Wikidata:Q46	Европа
+N20	Reference T49 Wikidata:Q218038	
+N49	Reference T80 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N27	Reference T71 Wikidata:Q162677	Муром
+N28	Reference T77 Wikidata:NULL	нет данных
+N26	Reference T68 Wikidata:Q1615	
+N24	Reference T63 Wikidata:NULL	
+N50	Reference T59 Wikidata:Q967553	
+N23	Reference T55 Wikidata:NULL	нет данных
+N15	Reference T33 Wikidata:NULL	нет данных
+N16	Reference T39 Wikidata:Q159	Россия
+N51	Reference T14 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N52	Reference T7 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N53	Reference T3 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N54	Reference T31 Wikidata:Q159	Россия
+N55	Reference T54 Wikidata:Q15180	СССР
+N56	Reference T4 Wikidata:Q649	Москва
+N57	Reference T1 Wikidata:Q649	Москва
+N58	Reference T84 Wikidata:Q81096	инженер
+N59	Reference T89 Wikidata:Q81096	инженер
+N60	Reference T56 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N61	Reference T37 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N62	Reference T70 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N63	Reference T58 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N64	Reference T66 Wikidata:Q296545	Владимир Козьмич Зворыкин
+N65	Reference T93 Wikidata:Q405	Луна
+N66	Reference T69 Wikidata:Q864380	
+N67	Reference T44 Wikidata:Q60	Нью-Йорк
+N68	Reference T34 Wikidata:Q218038	
+N69	Reference T35 Wikidata:Q218038	
+N70	Reference T75 Wikidata:NULL	
+T100	EVENT 805 813	переехал
+R60	AGENT Arg1:T22 Arg2:T100	
+R61	TAKES_PLACE_IN Arg1:T100 Arg2:T23	

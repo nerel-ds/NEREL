@@ -1,0 +1,56 @@
+T1	PROFESSION 0 6	Боксёр
+T2	PERSON 7 19	Тайсон Фьюри
+T3	PERSON 53 65	Тайсон Фьюри
+T4	DATE 66 85	5 октября 2016 года
+T5	AGE 86 95	28-летний
+T6	NATIONALITY 96 106	британский
+T7	PERSON 124 136	Тайсон Фьюри
+T8	AWARD 138 150	чемпион мира
+T9	ORGANIZATION 162 165	IBO
+T10	ORGANIZATION 167 170	WBO
+T11	ORGANIZATION 173 176	WBA
+T12	PERSON 375 380	Фьюри
+T13	DATE 405 432	последние несколько месяцев
+T14	DATE 511 522	30 сентября
+T15	PERSON 549 554	Фьюри
+T16	DATE 598 607	3 октября
+T17	TIME 650 671	через несколько часов
+T18	PROFESSION 107 123	боксёр-тяжеловес
+T19	PROFESSION 672 678	боксёр
+T20	PRODUCT 730 737	Twitter
+T21	EVENT 20 52	признался в употреблении кокаина
+T22	EVENT 178 210	признался в употреблении кокаина
+R1	WORKS_AS Arg1:T7 Arg2:T18	
+R2	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R3	ORIGINS_FROM Arg1:T18 Arg2:T6	
+R4	WORKS_AS Arg1:T2 Arg2:T1	
+R5	AGENT Arg1:T2 Arg2:T21	
+R6	AGE_IS Arg1:T7 Arg2:T5	
+R7	AGENT Arg1:T7 Arg2:T22	
+R8	POINT_IN_TIME Arg1:T22 Arg2:T4	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+T23	EVENT 560 596	положительную допинг-пробу на кокаин
+R10	PARTICIPANT_IN Arg1:T15 Arg2:T23	
+R11	POINT_IN_TIME Arg1:T23 Arg2:T14	
+R12	AWARDED_WITH Arg1:T7 Arg2:T8	
+R13	PRODUCES Arg1:T9 Arg2:T8	
+R14	PRODUCES Arg1:T10 Arg2:T8	
+R15	PRODUCES Arg1:T11 Arg2:T8	
+T24	CRIME 190 210	употреблении кокаина
+R16	CONVICTED_OF Arg1:T7 Arg2:T24	
+T25	CRIME 32 52	употреблении кокаина
+R17	CONVICTED_OF Arg1:T2 Arg2:T25	
+N1	Reference T3 Wikidata:Q1000592	Тайсон Фьюри
+N4	Reference T9 Wikidata:Q783660	Международная боксёрская организация
+N5	Reference T10 Wikidata:Q830940	Всемирная боксёрская организация
+N6	Reference T11 Wikidata:Q725676	Всемирная боксёрская ассоциация
+N9	Reference T20 Wikidata:Q918	Твиттер
+N2	Reference T6 Wikidata:Q842438	британцы
+N7	Reference T18 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q2948691	
+N8	Reference T19 Wikidata:Q32112	
+N10	Reference T15 Wikidata:Q1000592	Тайсон Фьюри
+N11	Reference T12 Wikidata:Q1000592	Тайсон Фьюри
+N12	Reference T7 Wikidata:Q1000592	Тайсон Фьюри
+N13	Reference T2 Wikidata:Q1000592	Тайсон Фьюри
+N14	Reference T1 Wikidata:Q32112	

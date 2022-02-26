@@ -1,0 +1,240 @@
+T1	PERSON 0 12	Дэвид Бекхэм
+T2	DATE 21 35	в конце сезона
+T3	PERSON 52 64	Дэвид Бекхэм
+T4	PERSON 111 123	Дэвид Бекхэм
+T5	ORGANIZATION 244 259	Пари Сен-Жермен
+T6	PERSON 458 464	Бекхэм
+T7	PERSON 589 597	Виктории
+T8	PERSON 718 724	Бекхэм
+T9	PERSON 1120 1126	Бекхэм
+T10	PROFESSION 1163 1177	полузащитником
+T11	COUNTRY 1181 1192	французский
+T12	ORGANIZATION 1199 1214	Пари Сен-Жермен
+T13	ORGANIZATION 1258 1275	Манчестер Юнайтед
+T14	ORGANIZATION 1279 1295	Престон Норт Энд
+T15	ORGANIZATION 1299 1310	Реал Мадрид
+T16	ORGANIZATION 1314 1319	Милан
+T17	ORGANIZATION 1324 1344	Лос-Анджелес Гэлакси
+T18	COUNTRY 1377 1383	Англии
+T19	PERSON 1544 1551	Бекхэма
+T21	ORGANIZATION 1576 1593	Манчестер Юнайтед
+T22	AGE 1612 1618	17 лет
+T23	ORGANIZATION 1623 1634	Манчестером
+T24	NUMBER 1639 1644	шесть
+T25	ORGANIZATION 1670 1682	Премьер-лиги
+T26	EVENT 1711 1725	Лигу чемпионов
+T29	ORGANIZATION 1779 1790	Реал Мадрид
+T32	ORGANIZATION 1916 1919	МЛС
+T33	ORGANIZATION 1921 1941	Лос-Анджелес Гэлакси
+T34	MONEY 1972 1989	32,5 млн долларов
+T35	ORGANIZATION 2007 2014	Гэлакси
+T36	PERSON 2017 2023	Бекхэм
+T37	COUNTRY 2036 2047	итальянский
+T38	ORGANIZATION 2049 2054	Милан
+T40	PERSON 2099 2106	Бекхэма
+T41	ORGANIZATION 2140 2146	Google
+T43	PERSON 2254 2260	Бекхэм
+T44	PROFESSION 2270 2280	вокалистке
+T45	ORGANIZATION 2281 2292	Spice Girls
+T46	PERSON 2293 2301	Виктории
+T47	NUMBER 2310 2315	троих
+T48	PERSON 2326 2342	Бруклина Джозефа
+T49	PERSON 2344 2357	Ромео Джеймса
+T50	PERSON 2359 2371	Круза Дэвида
+T51	PERSON 2381 2393	Харпер Севен
+T52	FAMILY 2401 2409	Бекхэмов
+T53	CITY 2439 2452	Беверли-Хиллз
+T54	STATE_OR_PROVINCE 2459 2469	Калифорния
+T55	COUNTRY 83 89	Англии
+T56	ORGANIZATION 75 89	сборной Англии
+T57	ORGANIZATION 75 82	сборной
+T58	PROFESSION 101 110	футболист
+T59	PROFESSION 388 397	футболист
+T60	ORGANIZATION 811 825	сборной Англии
+T61	ORGANIZATION 811 818	сборной
+T62	COUNTRY 819 825	Англии
+T63	PROFESSION 877 885	тренеров
+T64	PROFESSION 888 898	менеджеров
+T65	PROFESSION 1108 1117	футболист
+T66	ORGANIZATION 1369 1383	сборной Англии
+T69	PROFESSION 1506 1517	футболистом
+T70	PROFESSION 1460 1467	игроков
+T71	AWARD 1660 1682	чемпионом Премьер-лиги
+T72	AWARD 1660 1669	чемпионом
+T73	NUMBER 1692 1695	два
+T74	EVENT 1696 1708	Кубка Англии
+T27	PERSON 1739 1745	Бэкхем
+T75	NUMBER 1805 1811	четыре
+T76	COUNTRY 1863 1870	Испании
+T77	AWARD 1853 1870	чемпионом Испании
+T78	AWARD 1853 1862	чемпионом
+T79	PERSON 1891 1897	Бекхэм
+T80	DATE 1943 1953	пятилетний
+T81	PROFESSION 2270 2292	вокалистке Spice Girls
+R1	HEADQUARTERED_IN Arg1:T56 Arg2:T55	
+R2	MEMBER_OF Arg1:T3 Arg2:T56	
+R3	WORKS_AS Arg1:T4 Arg2:T58	
+R4	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R5	SPOUSE Arg1:T6 Arg2:T7	
+R6	HEADQUARTERED_IN Arg1:T60 Arg2:T62	
+R7	MEMBER_OF Arg1:T8 Arg2:T60	
+R8	WORKS_AS Arg1:T9 Arg2:T10	
+R9	HEADQUARTERED_IN Arg1:T12 Arg2:T11	
+R10	WORKPLACE Arg1:T9 Arg2:T12	
+R11	WORKPLACE Arg1:T10 Arg2:T12	
+T82	CITY 1258 1267	Манчестер
+R13	HEADQUARTERED_IN Arg1:T13 Arg2:T82	
+T83	CITY 1304 1310	Мадрид
+R14	HEADQUARTERED_IN Arg1:T15 Arg2:T83	
+T84	CITY 1324 1336	Лос-Анджелес
+R15	HEADQUARTERED_IN Arg1:T17 Arg2:T84	
+R17	HEADQUARTERED_IN Arg1:T66 Arg2:T18	
+R12	WORKPLACE Arg1:T9 Arg2:T13	
+R18	WORKPLACE Arg1:T9 Arg2:T14	
+R19	WORKPLACE Arg1:T9 Arg2:T15	
+R20	WORKPLACE Arg1:T9 Arg2:T16	
+R21	WORKPLACE Arg1:T9 Arg2:T17	
+R22	MEMBER_OF Arg1:T9 Arg2:T66	
+T86	CITY 1279 1286	Престон
+R23	HEADQUARTERED_IN Arg1:T14 Arg2:T86	
+R24	WORKS_AS Arg1:T9 Arg2:T70	
+R25	WORKS_AS Arg1:T9 Arg2:T69	
+T20	DATE 1561 1572	в 1992 году
+R26	AGE_IS Arg1:T19 Arg2:T22	
+R27	WORKPLACE Arg1:T19 Arg2:T21	
+T68	CITY 1576 1585	Манчестер
+R28	HEADQUARTERED_IN Arg1:T21 Arg2:T68	
+R30	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+R31	AWARDED_WITH Arg1:T19 Arg2:T71	
+T88	COUNTRY 1702 1708	Англии
+R33	TAKES_PLACE_IN Arg1:T74 Arg2:T88	
+R34	PARTICIPANT_IN Arg1:T19 Arg2:T74	
+R35	PARTICIPANT_IN Arg1:T19 Arg2:T26	
+T28	DATE 1727 1738	В 2003 году
+T31	DATE 1872 1885	В январе 2007
+T39	DATE 2073 2092	в 2009 и 2010 годах
+T42	DATE 2170 2189	в 2003 и 2004 годах
+T91	CITY 1784 1790	Мадрид
+R42	HEADQUARTERED_IN Arg1:T29 Arg2:T91	
+T92	EVENT 1746 1750	ушел
+R43	PARTICIPANT_IN Arg1:T27 Arg2:T92	
+R44	POINT_IN_TIME Arg1:T92 Arg2:T28	
+R45	PARTICIPANT_IN Arg1:T29 Arg2:T92	
+R46	AWARDED_WITH Arg1:T27 Arg2:T77	
+R47	ORIGINS_FROM Arg1:T77 Arg2:T76	
+R48	ORIGINS_FROM Arg1:T71 Arg2:T25	
+R49	PART_OF Arg1:T33 Arg2:T32	
+T93	EVENT 1898 1906;1943 1962	подписал пятилетний контракт
+R50	PRICE_OF Arg1:T93 Arg2:T34	
+R51	PARTICIPANT_IN Arg1:T79 Arg2:T93	
+R52	POINT_IN_TIME Arg1:T93 Arg2:T31	
+R53	PARTICIPANT_IN Arg1:T33 Arg2:T93	
+T94	CITY 1921 1933	Лос-Анджелес
+R54	HEADQUARTERED_IN Arg1:T33 Arg2:T94	
+R55	ALTERNATIVE_NAME Arg1:T33 Arg2:T35	
+T95	PROFESSION 1998 2005	игроком
+R58	HEADQUARTERED_IN Arg1:T38 Arg2:T37	
+R59	SPOUSE Arg1:T43 Arg2:T46	
+R60	WORKS_AS Arg1:T46 Arg2:T81	
+R61	WORKPLACE Arg1:T81 Arg2:T45	
+R62	WORKPLACE Arg1:T46 Arg2:T45	
+R63	PARENT_OF Arg1:T43 Arg2:T48	
+R64	PARENT_OF Arg1:T43 Arg2:T49	
+R65	PARENT_OF Arg1:T43 Arg2:T50	
+R66	PARENT_OF Arg1:T43 Arg2:T51	
+R67	PARENT_OF Arg1:T46 Arg2:T48	
+R68	PARENT_OF Arg1:T46 Arg2:T49	
+R69	PARENT_OF Arg1:T46 Arg2:T50	
+R70	PARENT_OF Arg1:T46 Arg2:T51	
+R71	SIBLING Arg1:T48 Arg2:T49	
+R72	SIBLING Arg1:T49 Arg2:T50	
+R73	SIBLING Arg1:T50 Arg2:T51	
+R74	SIBLING Arg1:T48 Arg2:T50	
+R75	SIBLING Arg1:T48 Arg2:T51	
+R76	SIBLING Arg1:T49 Arg2:T51	
+R77	PLACE_RESIDES_IN Arg1:T52 Arg2:T53	
+R78	LOCATED_IN Arg1:T53 Arg2:T54	
+T96	PROFESSION 1998 2014	игроком «Гэлакси
+R56	WORKS_AS Arg1:T36 Arg2:T96	
+R57	MEMBER_OF Arg1:T36 Arg2:T35	
+R79	INCOME Arg1:T79 Arg2:T34	
+R80	SPOUSE Arg1:T7 Arg2:T8	
+R16	MEMBER_OF Arg1:T43 Arg2:T52	
+R29	MEMBER_OF Arg1:T46 Arg2:T52	
+R81	MEMBER_OF Arg1:T48 Arg2:T52	
+R82	MEMBER_OF Arg1:T49 Arg2:T52	
+R83	MEMBER_OF Arg1:T50 Arg2:T52	
+R84	MEMBER_OF Arg1:T51 Arg2:T52	
+R32	AWARDED_WITH Arg1:T23 Arg2:T71	
+N1	Reference T5 Wikidata:Q483020	Пари Сен-Жермен
+N3	Reference T10 Wikidata:Q193592	полузащитник
+N5	Reference T13 Wikidata:Q18656	Манчестер Юнайтед
+N6	Reference T14 Wikidata:Q19612	Престон Норт Энд
+N7	Reference T15 Wikidata:Q8682	Реал Мадрид
+N12	Reference T41 Wikidata:Q95	Google
+N13	Reference T44 Wikidata:Q2643890	вокалист
+N14	Reference T45 Wikidata:Q55641	Spice Girls
+N15	Reference T46 Wikidata:Q19810	Виктория Бекхэм
+N19	Reference T53 Wikidata:Q127856	Беверли-Хиллз
+N20	Reference T54 Wikidata:Q99	Калифорния
+N21	Reference T56 Wikidata:Q47762	сборная Англии по футболу
+N23	Reference T62 Wikidata:Q145	Великобритания
+N24	Reference T63 Wikidata:Q41583	тренер
+N25	Reference T64 Wikidata:Q2462658	менеджер
+N26	Reference T65 Wikidata:Q937857	футболист
+N29	Reference T76 Wikidata:Q29	Испания
+N33	Reference T82 Wikidata:Q18125	Манчестер
+N34	Reference T83 Wikidata:Q2807	Мадрид
+N35	Reference T84 Wikidata:Q65	Лос-Анджелес
+N36	Reference T86 Wikidata:Q184090	Престон
+N37	Reference T88 Wikidata:Q145	Великобритания
+N22	Reference T57 Wikidata:Q1194951	
+N2	Reference T9 Wikidata:Q10520	Дэвид Бекхэм
+N28	Reference T27 Wikidata:Q10520	Дэвид Бекхэм
+N4	Reference T11 Wikidata:Q142	Франция
+N8	Reference T16 Wikidata:Q1543	Милан
+N9	Reference T25 Wikidata:Q9448	Английская Премьер-лига
+N27	Reference T71 Wikidata:NULL	нет данных
+N31	Reference T78 Wikidata:Q852061	
+N30	Reference T77 Wikidata:NULL	нет данных
+N40	Reference T32 Wikidata:Q18543	
+N10	Reference T35 Wikidata:Q204357	Лос-Анджелес Гэлакси
+N38	Reference T95 Wikidata:Q937857	футболист
+N39	Reference T96 Wikidata:NULL	нет данных
+N11	Reference T37 Wikidata:Q38	Италия
+N32	Reference T81 Wikidata:NULL	нет данных
+N16	Reference T48 Wikidata:Q17410449	
+N41	Reference T49 Wikidata:Q20426763	
+N17	Reference T50 Wikidata:Q21005513	
+N18	Reference T51 Wikidata:Q21005552	
+N42	Reference T12 Wikidata:Q483020	Пари Сен-Жермен
+N43	Reference T21 Wikidata:Q18656	Манчестер Юнайтед
+N44	Reference T23 Wikidata:Q18656	Манчестер Юнайтед
+N45	Reference T29 Wikidata:Q8682	Реал Мадрид
+N46	Reference T7 Wikidata:Q19810	Виктория Бекхэм
+N47	Reference T60 Wikidata:Q47762	сборная Англии по футболу
+N48	Reference T66 Wikidata:Q47762	сборная Англии по футболу
+N49	Reference T55 Wikidata:Q145	Великобритания
+N50	Reference T18 Wikidata:Q145	Великобритания
+N51	Reference T59 Wikidata:Q937857	футболист
+N52	Reference T69 Wikidata:Q937857	футболист
+N53	Reference T58 Wikidata:Q937857	футболист
+N54	Reference T68 Wikidata:Q18125	Манчестер
+N55	Reference T91 Wikidata:Q2807	Мадрид
+N56	Reference T94 Wikidata:Q65	Лос-Анджелес
+N57	Reference T61 Wikidata:Q1194951	
+N58	Reference T40 Wikidata:Q10520	Дэвид Бекхэм
+N59	Reference T8 Wikidata:Q10520	Дэвид Бекхэм
+N60	Reference T19 Wikidata:Q10520	Дэвид Бекхэм
+N61	Reference T4 Wikidata:Q10520	Дэвид Бекхэм
+N62	Reference T79 Wikidata:Q10520	Дэвид Бекхэм
+N63	Reference T3 Wikidata:Q10520	Дэвид Бекхэм
+N64	Reference T43 Wikidata:Q10520	Дэвид Бекхэм
+N65	Reference T36 Wikidata:Q10520	Дэвид Бекхэм
+N66	Reference T6 Wikidata:Q10520	Дэвид Бекхэм
+N67	Reference T1 Wikidata:Q10520	Дэвид Бекхэм
+N68	Reference T38 Wikidata:Q1543	Милан
+N69	Reference T72 Wikidata:Q852061	
+N70	Reference T17 Wikidata:Q204357	Лос-Анджелес Гэлакси
+N71	Reference T33 Wikidata:Q204357	Лос-Анджелес Гэлакси
+N72	Reference T70 Wikidata:Q937857	футболист

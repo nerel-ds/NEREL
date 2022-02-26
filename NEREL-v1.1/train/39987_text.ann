@@ -1,0 +1,189 @@
+T1	PERSON 5 17	Политковской
+T2	PERSON 85 102	Анны Политковской
+T3	FACILITY 106 128	Троекуровском кладбище
+T4	CITY 131 137	Москве
+T5	PERSON 163 180	Анны Политковской
+T6	DATE 286 297	в 2006 году
+T7	NUMBER 310 314	пяти
+T8	NUMBER 322 332	нескольким
+T9	ORDINAL 345 352	второму
+T10	PERSON 372 376;384 396	Вера Политковские
+T11	PERSON 379 396	Илья Политковские
+T13	PERSON 603 615	Политковской
+T14	NATIONALITY 628 635	чеченцу
+T15	PERSON 636 653	Рустаму Махмудову
+T18	CITY 774 780	Москвы
+T19	ORGANIZATION 827 847	Верховный суд России
+T20	PERSON 876 893	Анна Политковская
+T21	DATE 940 959	7 октября 2006 года
+T22	CITY 962 968	Москве
+T23	AGE 987 996	54-летняя
+T24	COUNTRY 1034 1040	России
+T25	STATE_OR_PROVINCE 1069 1074	Чечне
+T26	ORGANIZATION 1346 1353	Кремлем
+T27	PERSON 1368 1385	Анна Политковская
+T28	PROFESSION 1406 1416	президента
+T29	PERSON 1417 1433	Владимира Путина
+T31	ORGANIZATION 1463 1475	Новой газеты
+T32	PERSON 1491 1503	Политковская
+T33	PERSON 1505 1523	Надежда Прусенкова
+T35	PERSON 1677 1681	Анны
+T36	PERSON 1693 1704	Прусенковой
+T37	PERSON 1807 1818	Прусенковой
+T38	PERSON 1849 1866	Анны Политковской
+T39	DATE 1937 1951	В прошлом году
+T42	PERSON 2038 2057	Дмитрий Павлюченков
+T43	PERSON 2132 2142	Павлюченко
+T44	ORGANIZATION 2163 2169	Кремль
+T45	PERSON 2248 2265	Анны Политковской
+T46	PROFESSION 31 42	журналистки
+T47	PROFESSION 151 162	журналистки
+T48	CRIME 267 275	убийстве
+T12	CRIME 594 602	убийстве
+T49	PROFESSION 681 717	сотрудник правоохранительных органов
+T51	CRIME 731 755	причастности к ее смерти
+T52	EVENT 749 755	смерти
+T53	ORGANIZATION 770 780	суд Москвы
+T54	EVENT 781 789	оправдал
+T55	ORGANIZATION 827 840	Верховный суд
+T56	COUNTRY 841 847	России
+T57	ORGANIZATION 862 873	прокуратуру
+T58	EVENT 899 904	убита
+T59	EVENT 980 986	смерти
+T60	PROFESSION 997 1008	журналистка
+T61	ORGANIZATION 1086 1111	федеральное правительство
+T62	ORGANIZATION 1098 1111	правительство
+T63	IDEOLOGY 1150 1162	исламистское
+T64	IDEOLOGY 1129 1141	сепаратистов
+T65	PROFESSION 1241 1252	полицейских
+T66	PROFESSION 1255 1265	чиновников
+T67	PROFESSION 1279 1288	аналитики
+T68	PROFESSION 1436 1475	Руководитель пресс-службы «Новой газеты
+T69	ORGANIZATION 1449 1475	пресс-службы «Новой газеты
+T30	PROFESSION 1577 1587	журналисты
+T71	EVENT 1670 1676	смерти
+T72	DATE 1968 1976	11 годам
+T73	PROFESSION 1999 2035	сотрудник правоохранительных органов
+T75	PERSON 2075 2087	Политковской
+T76	EVENT 2239 2247	убийства
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	WORKS_AS Arg1:T1 Arg2:T46	
+R3	LOCATED_IN Arg1:T3 Arg2:T4	
+R4	RELATIVE Arg1:T10 Arg2:T11	
+R5	PARENT_OF Arg1:T2 Arg2:T10	
+R6	PARENT_OF Arg1:T2 Arg2:T11	
+T70	FACILITY 78 102	Могила Анны Политковской
+R7	LOCATED_IN Arg1:T70 Arg2:T3	
+R8	WORKS_AS Arg1:T5 Arg2:T47	
+R9	POINT_IN_TIME Arg1:T48 Arg2:T6	
+R10	PARTICIPANT_IN Arg1:T5 Arg2:T48	
+R11	ORIGINS_FROM Arg1:T15 Arg2:T14	
+T77	EVENT 255 275	Обвинения в убийстве
+R13	PARTICIPANT_IN Arg1:T13 Arg2:T12	
+R14	HEADQUARTERED_IN Arg1:T53 Arg2:T18	
+R15	PARTICIPANT_IN Arg1:T13 Arg2:T52	
+R17	HEADQUARTERED_IN Arg1:T19 Arg2:T56	
+T17	DATE 758 769	В 2009 году
+R18	POINT_IN_TIME Arg1:T54 Arg2:T17	
+R19	AGENT Arg1:T53 Arg2:T54	
+T79	EVENT 848 859	вернул дело
+R20	AGENT Arg1:T19 Arg2:T79	
+R21	PARTICIPANT_IN Arg1:T57 Arg2:T79	
+R22	PARTICIPANT_IN Arg1:T20 Arg2:T58	
+R23	POINT_IN_TIME Arg1:T58 Arg2:T21	
+R24	TAKES_PLACE_IN Arg1:T58 Arg2:T22	
+R25	ALTERNATIVE_NAME Arg1:T12 Arg2:T58	
+R26	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+R27	AGE_IS Arg1:T60 Arg2:T23	
+T80	EVENT 1112 1120	подавило
+R28	PARTICIPANT_IN Arg1:T64 Arg2:T80	
+R29	AGENT Arg1:T61 Arg2:T80	
+R30	TAKES_PLACE_IN Arg1:T80 Arg2:T25	
+T81	EVENT 1228 1237	нападения
+T82	DATE 1207 1216	ежедневно
+R31	POINT_IN_TIME Arg1:T81 Arg2:T82	
+R32	PARTICIPANT_IN Arg1:T65 Arg2:T81	
+R33	PARTICIPANT_IN Arg1:T66 Arg2:T81	
+R36	WORKS_AS Arg1:T29 Arg2:T28	
+R37	PART_OF Arg1:T69 Arg2:T31	
+R38	WORKPLACE Arg1:T68 Arg2:T69	
+R39	WORKPLACE Arg1:T32 Arg2:T31	
+R40	WORKPLACE Arg1:T33 Arg2:T69	
+R41	WORKS_AS Arg1:T33 Arg2:T68	
+T84	EVENT 1543 1561	судебного процесса
+T85	EVENT 1632 1639	процесс
+R42	ALTERNATIVE_NAME Arg1:T84 Arg2:T85	
+R43	PARTICIPANT_IN Arg1:T35 Arg2:T71	
+R44	ALTERNATIVE_NAME Arg1:T32 Arg2:T35	
+R45	ALTERNATIVE_NAME Arg1:T27 Arg2:T32	
+R46	ALTERNATIVE_NAME Arg1:T33 Arg2:T36	
+T87	PENALTY 1966 1991	к 11 годам был приговорен
+R48	POINT_IN_TIME Arg1:T87 Arg2:T39	
+R50	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+T74	FAMILY 2059 2087	Семья и близкие Политковской
+R51	MEMBER_OF Arg1:T75 Arg2:T74	
+R52	PARTICIPANT_IN Arg1:T45 Arg2:T76	
+T88	EVENT 2225 2238	расследования
+R53	HAS_CAUSE Arg1:T88 Arg2:T76	
+T78	CRIME 594 615	убийстве Политковской
+R12	CONVICTED_OF Arg1:T15 Arg2:T78	
+R56	HAS_CAUSE Arg1:T51 Arg2:T52	
+R16	CONVICTED_OF Arg1:T49 Arg2:T51	
+T16	CRIME 1022 1031	коррупцию
+T50	CRIME 1043 1066	нарушения прав человека
+R57	TAKES_PLACE_IN Arg1:T16 Arg2:T24	
+R58	TAKES_PLACE_IN Arg1:T50 Arg2:T25	
+R47	PENALIZED_AS Arg1:T42 Arg2:T87	
+R49	WORKS_AS Arg1:T42 Arg2:T73	
+R59	DATE_OF_DEATH Arg1:T5 Arg2:T6	
+R60	DATE_OF_DEATH Arg1:T20 Arg2:T21	
+R55	PARTICIPANT_IN Arg1:T60 Arg2:T59	
+R34	PARTICIPANT_IN Arg1:T15 Arg2:T54	
+R35	PARTICIPANT_IN Arg1:T44 Arg2:T88	
+N1	Reference T1 Wikidata:Q131240	Анна Степановна Политковская
+N2	Reference T3 Wikidata:Q1457437	Троекуровское кладбище
+N5	Reference T14 Wikidata:Q31230	чеченцы
+N7	Reference T19 Wikidata:Q2622450	Верховный Суд Российской Федерации
+N8	Reference T22 Wikidata:Q649	Москва
+N9	Reference T25 Wikidata:Q5187	Чечня
+N10	Reference T26 Wikidata:Q133274	Московский Кремль
+N11	Reference T28 Wikidata:Q30461	президент
+N12	Reference T29 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T31 Wikidata:Q170135	Новая газета
+N14	Reference T35 Wikidata:Q119702	Анна
+N15	Reference T42 Wikidata:Q15077448	Павлюченков, Дмитрий Викторович
+N16	Reference T46 Wikidata:Q1930187	журналист
+N17	Reference T55 Wikidata:Q190752	верховный суд
+N18	Reference T56 Wikidata:Q159	Россия
+N19	Reference T57 Wikidata:Q1092499	прокуратура
+N21	Reference T62 Wikidata:Q7188	правительство
+N23	Reference T66 Wikidata:Q382887	чиновник
+N24	Reference T68 Wikidata:Q2462658	менеджер
+N25	Reference T69 Wikidata:Q19398	Нова
+N26	Reference T30 Wikidata:Q1930187	журналист
+N27	Reference T70 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:NULL	нет данных
+N28	Reference T49 Wikidata:Q6503343	
+N29	Reference T53 Wikidata:Q4304065	Московский городской суд
+N20	Reference T61 Wikidata:Q1006644	
+N22	Reference T65 Wikidata:Q384593	
+N30	Reference T67 Wikidata:Q485178	
+N31	Reference T2 Wikidata:Q131240	Анна Степановна Политковская
+N32	Reference T18 Wikidata:Q649	Москва
+N33	Reference T4 Wikidata:Q649	Москва
+N34	Reference T44 Wikidata:Q133274	Московский Кремль
+N35	Reference T75 Wikidata:Q119702	Анна
+N36	Reference T13 Wikidata:Q119702	Анна
+N37	Reference T5 Wikidata:Q119702	Анна
+N38	Reference T20 Wikidata:Q119702	Анна
+N39	Reference T38 Wikidata:Q119702	Анна
+N40	Reference T45 Wikidata:Q119702	Анна
+N41	Reference T32 Wikidata:Q119702	Анна
+N42	Reference T27 Wikidata:Q119702	Анна
+N43	Reference T43 Wikidata:Q15077448	Павлюченков, Дмитрий Викторович
+N44	Reference T47 Wikidata:Q1930187	журналист
+N45	Reference T60 Wikidata:Q1930187	журналист
+N46	Reference T24 Wikidata:Q159	Россия
+N47	Reference T73 Wikidata:Q6503343	

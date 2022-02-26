@@ -1,0 +1,123 @@
+T1	PERSON 5 18	Галина Волчек
+T2	PERSON 32 45	Галина Волчек
+T3	PROFESSION 46 73	Художественный руководитель
+T4	ORGANIZATION 94 105	Современник
+T5	PROFESSION 108 115	актриса
+T6	PERSON 127 140	Галина Волчек
+T7	DATE 165 197	во вторник, 24 декабря 2019 года
+T8	TIME 200 218	Вечером 23 декабря
+T9	DATE 208 218	23 декабря
+T10	ORGANIZATION 279 298	Боткинскую больницу
+T11	AGE 301 310	86-летняя
+T12	PROFESSION 438 447	режиссёра
+T13	DATE 583 603	Около пяти лет назад
+T14	PERSON 717 730	Галина Волчек
+T15	ORGANIZATION 756 767	Современник
+T16	DATE 781 792	в 1956 году
+T17	PROFESSION 814 821	актриса
+T19	DATE 856 867	в 1955 году
+T20	DATE 869 884	В начале 1960-х
+T21	PERSON 885 901	Галина Борисовна
+T22	DATE 927 938	С 1971 года
+T23	PROFESSION 941 957	главный режиссёр
+T24	DATE 961 972	с 1989 года
+T25	PROFESSION 975 1002	художественный руководитель
+T26	PERSON 1005 1018	Галина Волчек
+T27	DATE 1028 1048	19 декабря 1933 года
+T28	CITY 1051 1057	Москве
+T29	PROFESSION 1066 1074	режиссёр
+T30	PROFESSION 1077 1089	кинооператор
+T31	PERSON 1090 1102	Борис Волчек
+T32	EVENT 19 31	впала в кому
+T33	DISEASE 27 31	кому
+T34	PROFESSION 46 106	Художественный руководитель московского театра «Современник»
+T35	PROFESSION 118 126	режиссёр
+T36	EVENT 141 153	впала в кому
+T38	DISEASE 258 276	воспалением лёгких
+T39	PERSON 311 317	Волчек
+T40	EVENT 399 413	госпитализации
+T41	EVENT 238 255	госпитализирована
+T42	DISEASE 479 501	двустороннюю пневмонию
+T43	DISEASE 492 501	пневмонию
+T44	PERSON 604 610	Волчек
+T18	ORGANIZATION 851 855	МХАТ
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T32	
+R2	MEDICAL_CONDITION Arg1:T1 Arg2:T33	
+T37	DISEASE 149 153	кому
+R3	PARTICIPANT_IN Arg1:T6 Arg2:T36	
+R4	MEDICAL_CONDITION Arg1:T6 Arg2:T37	
+R5	POINT_IN_TIME Arg1:T36 Arg2:T7	
+R6	WORKS_AS Arg1:T6 Arg2:T35	
+R7	WORKS_AS Arg1:T6 Arg2:T5	
+R8	WORKPLACE Arg1:T6 Arg2:T4	
+R9	WORKS_AS Arg1:T6 Arg2:T34	
+R10	AGE_IS Arg1:T39 Arg2:T11	
+T46	DISEASE 334 355	боли в грудной клетке
+R11	MEDICAL_CONDITION Arg1:T39 Arg2:T46	
+R12	PARTICIPANT_IN Arg1:T39 Arg2:T40	
+R13	MEDICAL_CONDITION Arg1:T6 Arg2:T38	
+R14	POINT_IN_TIME Arg1:T41 Arg2:T9	
+R15	TAKES_PLACE_IN Arg1:T41 Arg2:T10	
+R16	WORKS_AS Arg1:T39 Arg2:T12	
+R17	MEDICAL_CONDITION Arg1:T39 Arg2:T42	
+T47	DISEASE 643 660	проблем с сердцем
+R18	WORKPLACE Arg1:T14 Arg2:T15	
+R19	DATE_FOUNDED_IN Arg1:T15 Arg2:T16	
+T48	EVENT 615 636	попадала в реанимацию
+R20	PARTICIPANT_IN Arg1:T44 Arg2:T48	
+R21	POINT_IN_TIME Arg1:T48 Arg2:T13	
+R23	WORKS_AS Arg1:T14 Arg2:T17	
+R24	SCHOOLS_ATTENDED Arg1:T14 Arg2:T51	
+R25	WORKS_AS Arg1:T21 Arg2:T23	
+R26	WORKS_AS Arg1:T21 Arg2:T25	
+R27	DATE_OF_BIRTH Arg1:T26 Arg2:T27	
+R28	PLACE_RESIDES_IN Arg1:T26 Arg2:T28	
+R29	PARENT_OF Arg1:T31 Arg2:T26	
+R30	WORKS_AS Arg1:T31 Arg2:T30	
+R31	WORKS_AS Arg1:T31 Arg2:T29	
+R32	WORKPLACE Arg1:T34 Arg2:T4	
+R33	PARTICIPANT_IN Arg1:T6 Arg2:T41	
+R34	ALTERNATIVE_NAME Arg1:T6 Arg2:T39	
+R35	MEDICAL_CONDITION Arg1:T44 Arg2:T47	
+T45	PROFESSION 671 677	врачам
+T49	CITY 74 85	московского
+R36	HEADQUARTERED_IN Arg1:T4 Arg2:T49	
+T50	PERSON 279 289	Боткинскую
+R37	HAS_CAUSE Arg1:T48 Arg2:T47	
+T51	ORGANIZATION 838 855	школы-студию МХАТ
+R22	FOUNDED_BY Arg1:T51 Arg2:T18	
+T52	PROFESSION 949 957	режиссёр
+N1	Reference T5 Wikidata:Q33999	актёр
+N2	Reference T10 Wikidata:Q4145421	Городская клиническая больница имени С. П. Боткина
+N3	Reference T15 Wikidata:Q1979285	Современник
+N4	Reference T21 Wikidata:Q4124226	Галина Борисовна Волчек
+N6	Reference T26 Wikidata:Q4124226	Галина Борисовна Волчек
+N7	Reference T28 Wikidata:Q649	Москва
+N8	Reference T30 Wikidata:Q1208175	кинооператор
+N9	Reference T31 Wikidata:Q4124222	Волчек, Борис Израилевич
+N11	Reference T35 Wikidata:Q3455803	режиссёр
+N12	Reference T18 Wikidata:Q840812	Московский Художественный театр
+N13	Reference T45 Wikidata:Q39631	врач
+N15	Reference T51 Wikidata:Q3577654	Школа-студия МХАТ
+N16	Reference T3 Wikidata:Q1797162	
+N14	Reference T49 Wikidata:Q649	Москва
+N10	Reference T34 Wikidata:NULL	нет данных
+N17	Reference T50 Wikidata:Q26003	
+N5	Reference T23 Wikidata:Q79890822	
+N18	Reference T17 Wikidata:Q33999	актёр
+N19	Reference T4 Wikidata:Q1979285	Современник
+N20	Reference T14 Wikidata:Q4124226	Галина Борисовна Волчек
+N21	Reference T44 Wikidata:Q4124226	Галина Борисовна Волчек
+N22	Reference T2 Wikidata:Q4124226	Галина Борисовна Волчек
+N23	Reference T1 Wikidata:Q4124226	Галина Борисовна Волчек
+N24	Reference T6 Wikidata:Q4124226	Галина Борисовна Волчек
+N25	Reference T39 Wikidata:Q4124226	Галина Борисовна Волчек
+N26	Reference T29 Wikidata:Q3455803	режиссёр
+N27	Reference T52 Wikidata:Q3455803	режиссёр
+N28	Reference T12 Wikidata:Q3455803	режиссёр
+N29	Reference T25 Wikidata:Q1797162	
+R38	HAS_CAUSE Arg1:T40 Arg2:T46	
+T53	EVENT 1019 1027	родилась
+R39	AGENT Arg1:T26 Arg2:T53	
+R40	POINT_IN_TIME Arg1:T53 Arg2:T27	
+R41	TAKES_PLACE_IN Arg1:T53 Arg2:T28	

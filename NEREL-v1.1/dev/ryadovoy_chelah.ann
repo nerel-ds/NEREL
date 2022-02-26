@@ -1,0 +1,132 @@
+T1	PERSON 14 31	Владислава Челаха
+T2	NUMBER 56 58	14
+T3	ORGANIZATION 142 155	РИА "Новости"
+T4	ORGANIZATION 186 191	Время
+T5	PERSON 194 209	Владислав Челах
+T6	FACILITY 249 260	Арканкерген
+T7	STATE_OR_PROVINCE 264 285	Алма-Атинской области
+T10	COUNTRY 299 305	Китаем
+T11	NUMBER 333 335	14
+T12	NUMBER 635 644	несколько
+T14	PERSON 730 734	Влад
+T15	PROFESSION 877 889	пограничника
+T16	PERSON 890 906	Светлану Ващенко
+T17	PROFESSION 995 1003	рядового
+T18	PERSON 1004 1018	Владимир Челах
+T19	EVENT 1022 1039	пресс-конференции
+T20	PERSON 1394 1400	Челаха
+T21	PERSON 1413 1427	Владимир Челах
+T22	FACILITY 1487 1499	Арканкергене
+T23	DATE 1542 1553	каждый день
+T24	NUMBER 1835 1838	три
+T25	PERSON 1886 1891	Челах
+T26	COUNTRY 1906 1919	казахстанском
+T27	FACILITY 1949 1960	Арканкерген
+T28	NUMBER 1994 1996	14
+T29	NUMBER 2013 2014	1
+T30	DATE 2022 2043	Спустя несколько дней
+T31	ORDINAL 2062 2067	15-го
+T34	PERSON 2085 2102	Владислава Челаха
+T35	PERSON 2289 2298	Владислав
+T36	PROFESSION 5 13	рядового
+T37	PROFESSION 59 72	пограничников
+T38	PROFESSION 75 80	егеря
+T8	PROFESSION 350 355	егеря
+T9	PERSON 952 960	Светлана
+T13	PROFESSION 1615 1621	солдат
+T39	PROFESSION 1800 1806	солдат
+T40	DISEASE 1839 1854	ножевых ранения
+T41	DISEASE 1867 1874	гематом
+T42	PROFESSION 1997 2010	пограничников
+T43	PROFESSION 2015 2020	егеря
+T32	PROFESSION 2068 2084	солдата-срочника
+T33	CRIME 47 80	убийстве 14 пограничников и егеря
+R1	WORKPLACE Arg1:T5 Arg2:T6	
+R2	LOCATED_IN Arg1:T6 Arg2:T7	
+T44	LOCATION 289 305	границе с Китаем
+R3	LOCATED_IN Arg1:T6 Arg2:T44	
+T45	CRIME 324 355	убийстве 14 сослуживцев и егеря
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T14	
+R5	WORKS_AS Arg1:T14 Arg2:T15	
+R6	PARENT_OF Arg1:T16 Arg2:T14	
+R7	RELATIVE Arg1:T14 Arg2:T18	
+R8	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+T46	PROFESSION 1459 1472	пограничников
+R9	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R10	PARTICIPANT_IN Arg1:T18 Arg2:T19	
+R11	PLACE_OF_DEATH Arg1:T46 Arg2:T22	
+R12	ALTERNATIVE_NAME Arg1:T46 Arg2:T39	
+R13	MEDICAL_CONDITION Arg1:T39 Arg2:T40	
+R14	MEDICAL_CONDITION Arg1:T39 Arg2:T41	
+R15	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R16	LOCATED_IN Arg1:T27 Arg2:T26	
+R17	LOCATED_IN Arg1:T7 Arg2:T26	
+T47	EVENT 1967 1993	обнаружены обгоревшие тела
+T48	CRIME 2143 2150	убийцей
+T49	CRIME 2153 2165	поджигателем
+R18	WORKS_AS Arg1:T1 Arg2:T36	
+R19	WORKS_AS Arg1:T34 Arg2:T32	
+T50	PROFESSION 2068 2075	солдата
+T51	PROFESSION 2076 2084	срочника
+T52	DISEASE 2244 2263	помутнения сознания
+R20	MEDICAL_CONDITION Arg1:T34 Arg2:T52	
+T53	DISEASE 114 126	следы побоев
+R21	MEDICAL_CONDITION Arg1:T1 Arg2:T53	
+R22	CONVICTED_OF Arg1:T1 Arg2:T33	
+R23	CONVICTED_OF Arg1:T5 Arg2:T45	
+T54	CRIME 47 55	убийстве
+T55	CRIME 324 332	убийстве
+R24	TAKES_PLACE_IN Arg1:T47 Arg2:T27	
+R25	CONVICTED_OF Arg1:T34 Arg2:T48	
+R26	CONVICTED_OF Arg1:T34 Arg2:T49	
+R27	WORKS_AS Arg1:T14 Arg2:T17	
+T56	EVENT 2052 2061	задержать
+R28	PARTICIPANT_IN Arg1:T34 Arg2:T56	
+R29	POINT_IN_TIME Arg1:T56 Arg2:T30	
+T57	EVENT 88 96	свидания
+R30	AGENT Arg1:T1 Arg2:T57	
+T58	EVENT 386 394	свидания
+R31	AGENT Arg1:T5 Arg2:T58	
+T59	EVENT 445 456	встречаться
+R32	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+T60	EVENT 557 565	свидание
+T61	EVENT 714 722	свидание
+R33	AGENT Arg1:T14 Arg2:T61	
+R34	AGENT Arg1:T16 Arg2:T61	
+T62	EVENT 1060 1068	свидания
+R35	AGENT Arg1:T18 Arg2:T62	
+R36	AGENT Arg1:T14 Arg2:T62	
+N2	Reference T3 Wikidata:Q821172	РИА Новости
+N4	Reference T5 Wikidata:Q1150775	Челах, Владислав Валерьевич
+N5	Reference T7 Wikidata:Q186466	Алматинская область
+N6	Reference T10 Wikidata:Q148	Китайская Народная Республика
+N8	Reference T17 Wikidata:Q158668	рядовой
+N1	Reference T1 Wikidata:Q1150775	Челах, Владислав Валерьевич
+N15	Reference T44 Wikidata:NULL	нет данных
+N12	Reference T8 Wikidata:Q30206770	
+N3	Reference T4 Wikidata:NULL	
+N13	Reference T9 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:NULL	
+N18	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q232	Казахстан
+N11	Reference T35 Wikidata:Q1150775	Челах, Владислав Валерьевич
+N16	Reference T50 Wikidata:Q4991371	солдат
+N17	Reference T51 Wikidata:Q4378283	Сродники Господни
+N14	Reference T32 Wikidata:Q4378283	
+N19	Reference T14 Wikidata:Q1150775	Челах, Владислав Валерьевич
+N20	Reference T36 Wikidata:Q158668	рядовой
+N21	Reference T34 Wikidata:Q1150775	Челах, Владислав Валерьевич
+N22	Reference T43 Wikidata:Q30206770	
+N23	Reference T38 Wikidata:Q30206770	
+N24	Reference T20 Wikidata:NULL	
+N25	Reference T21 Wikidata:NULL	
+N26	Reference T25 Wikidata:NULL	
+N27	Reference T6 Wikidata:NULL	нет данных
+N28	Reference T27 Wikidata:NULL	нет данных
+N29	Reference T37 Wikidata:Q4991371	солдат
+N30	Reference T15 Wikidata:Q4991371	солдат
+N31	Reference T46 Wikidata:Q4991371	солдат
+N32	Reference T13 Wikidata:Q4991371	солдат
+N33	Reference T42 Wikidata:Q4991371	солдат
+N34	Reference T39 Wikidata:Q4991371	солдат

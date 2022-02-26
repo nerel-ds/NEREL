@@ -1,0 +1,234 @@
+T1	NUMBER 0 6	Четыре
+T2	NATIONALITY 16 25	итальянец
+T3	NATIONALITY 28 38	аргентинец
+T4	DATE 196 205	10 января
+T5	CITY 208 214	Цюрихе
+T6	ORGANIZATION 229 239	NEWSru.com
+T8	COUNTRY 299 306	Испании
+T9	PERSON 307 325	Висенте дель Боске
+T10	PROFESSION 327 333	тренер
+T11	ORGANIZATION 352 361	Барселона
+T12	PERSON 363 378	Хосеп Гвардиола
+T13	PERSON 381 394	Жозе Моуринью
+T14	ORGANIZATION 420 424	Реал
+T15	DATE 442 453	в 2010 году
+T16	COUNTRY 496 503	Испании
+T17	PERSON 550 566	Хосепа Гвардиолы
+T18	ORGANIZATION 568 577	Барселона
+T19	CITY 637 647	миланского
+T20	ORGANIZATION 649 655	Интера
+T21	PERSON 668 681	Жозе Моуринью
+T22	EVENT 692 707	Кубок чемпионов
+T23	EVENT 721 733	Кубок Италии
+T24	ORGANIZATION 767 771	ФИФА
+T25	ORGANIZATION 803 812	Барселону
+T26	COUNTRY 829 836	Испании
+T27	PERSON 837 850	Хави Эрнандес
+T28	PERSON 852 866	Андрес Иньеста
+T29	NATIONALITY 876 886	аргентинец
+T30	PERSON 887 900	Лионель Месси
+T31	ORGANIZATION 920 925	Барсы
+T32	PROFESSION 980 989	капитанов
+T33	ORGANIZATION 1084 1099	France Football
+T34	NUMBER 1143 1147	двух
+T35	COUNTRY 1206 1214	Германия
+T36	PROFESSION 1226 1233	форвард
+T37	ORGANIZATION 1235 1245	Франкфурта
+T38	PERSON 1247 1259	Биргит Принц
+T39	DATE 1283 1289	в 2003
+T40	PROFESSION 1318 1324	хавбек
+T41	ORGANIZATION 1326 1333	Турбине
+T42	PERSON 1335 1351	Фатмире Байрамай
+T43	DATE 1364 1369	в мае
+T44	ORDINAL 1422 1429	Третьим
+T45	NATIONALITY 1447 1458	бразильянка
+T46	PERSON 1459 1464	Марта
+T47	DATE 1514 1525	с 2006 года
+T48	PROFESSION 1544 1551	тренера
+T49	DATE 1578 1582	года
+T50	COUNTRY 1607 1615	немецкой
+T51	PERSON 1638 1651	Марен Майнерт
+T52	COUNTRY 1675 1683	Германии
+T53	AGE 1713 1722	до 20 лет
+T54	NATIONALITY 1732 1738	шведка
+T55	PERSON 1739 1751	Пиа Сундхаге
+T56	COUNTRY 1780 1783	США
+T57	NATIONALITY 7 14	испанца
+T58	ORGANIZATION 39 70	Международная федерация футбола
+T59	AWARD 134 149	лучшему тренеру
+T60	AWARD 152 166	лучшему игроку
+T61	ORGANIZATION 291 306	сборной Испании
+T62	PROFESSION 266 277	футболистов
+T64	CITY 408 418	мадридский
+T65	PERSON 454 472	Висенте дель Боске
+T66	COUNTRY 619 626	Испании
+T67	AWARD 610 626	чемпиона Испании
+T69	EVENT 709 718;727 733	чемпионат Италии
+T70	COUNTRY 727 733	Италии
+T71	AWARD 751 762	Золотой мяч
+T72	ORGANIZATION 821 836	сборной Испании
+T73	PROFESSION 814 836	игроки сборной Испании
+T74	PROFESSION 907 918	футболистов
+T75	PROFESSION 992 1000	тренеров
+T76	PROFESSION 1176 1187	футболистки
+T77	PROFESSION 142 149	тренеру
+T78	PROFESSION 160 166	игроку
+T79	AWARD 1169 1192	лучшей футболистки года
+T80	DATE 1291 1295	2004
+T81	DATE 1298 1308	2005 годах
+T82	CITY 1372 1383	потсдамским
+T83	EVENT 1401 1420	Лиге чемпионов УЕФА
+T84	ORGANIZATION 1416 1420	УЕФА
+T85	AWARD 1536 1567	лучшего тренера женской команды
+T86	PERSON 1624 1636	Сильвия Найд
+T87	ORGANIZATION 1772 1783	сборную США
+T88	EVENT 1684 1722	чемпионат мира среди девушек до 20 лет
+R1	WORKPLACE Arg1:T73 Arg2:T72	
+R2	HEADQUARTERED_IN Arg1:T72 Arg2:T26	
+R3	WORKS_AS Arg1:T27 Arg2:T73	
+R4	WORKS_AS Arg1:T28 Arg2:T73	
+R5	WORKPLACE Arg1:T17 Arg2:T18	
+T89	ORGANIZATION 488 503	сборную Испании
+R6	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R7	PRODUCES Arg1:T24 Arg2:T71	
+T90	PROFESSION 907 925	футболистов «Барсы
+R8	WORKPLACE Arg1:T90 Arg2:T31	
+T63	PROFESSION 327 361	тренер испанского клуба «Барселона
+R9	WORKPLACE Arg1:T63 Arg2:T11	
+R10	WORKS_AS Arg1:T12 Arg2:T63	
+R11	WORKPLACE Arg1:T12 Arg2:T11	
+T91	ORGANIZATION 1607 1623	немецкой сборной
+R12	WORKPLACE Arg1:T86 Arg2:T91	
+R13	ORIGINS_FROM Arg1:T55 Arg2:T54	
+R14	HEADQUARTERED_IN Arg1:T87 Arg2:T56	
+R15	HEADQUARTERED_IN Arg1:T91 Arg2:T50	
+T92	PROFESSION 1318 1333	хавбек «Турбине
+R16	WORKPLACE Arg1:T92 Arg2:T41	
+R17	WORKPLACE Arg1:T42 Arg2:T41	
+R18	WORKS_AS Arg1:T42 Arg2:T92	
+R19	ORGANIZES Arg1:T84 Arg2:T83	
+R20	PRODUCES Arg1:T58 Arg2:T59	
+R21	PRODUCES Arg1:T58 Arg2:T60	
+R22	AWARDED_WITH Arg1:T18 Arg2:T67	
+R23	ORIGINS_FROM Arg1:T67 Arg2:T66	
+R24	WORKPLACE Arg1:T27 Arg2:T25	
+R25	WORKPLACE Arg1:T28 Arg2:T25	
+T93	PROFESSION 1226 1245	форвард «Франкфурта
+R26	HEADQUARTERED_IN Arg1:T89 Arg2:T16	
+R27	WORKPLACE Arg1:T65 Arg2:T89	
+R28	ORIGINS_FROM Arg1:T46 Arg2:T45	
+R29	WORKS_AS Arg1:T38 Arg2:T93	
+R30	WORKPLACE Arg1:T38 Arg2:T37	
+R31	WORKPLACE Arg1:T93 Arg2:T37	
+R32	HEADQUARTERED_IN Arg1:T41 Arg2:T82	
+R33	ORIGINS_FROM Arg1:T38 Arg2:T35	
+R34	ORIGINS_FROM Arg1:T42 Arg2:T35	
+R35	PARTICIPANT_IN Arg1:T41 Arg2:T83	
+T94	COUNTRY 1084 1090	France
+R36	HEADQUARTERED_IN Arg1:T33 Arg2:T94	
+T95	EVENT 516 531	чемпионате мира
+R37	POINT_IN_TIME Arg1:T95 Arg2:T15	
+R38	PARTICIPANT_IN Arg1:T89 Arg2:T95	
+R39	HEADQUARTERED_IN Arg1:T61 Arg2:T8	
+R40	WORKPLACE Arg1:T9 Arg2:T61	
+R41	HEADQUARTERED_IN Arg1:T14 Arg2:T64	
+R42	WORKPLACE Arg1:T13 Arg2:T14	
+T7	PROFESSION 256 306	наставник футболистов национальной сборной Испании
+R43	WORKS_AS Arg1:T9 Arg2:T7	
+R44	HEADQUARTERED_IN Arg1:T20 Arg2:T19	
+R45	WORKPLACE Arg1:T21 Arg2:T20	
+R46	TAKES_PLACE_IN Arg1:T69 Arg2:T70	
+R47	TAKES_PLACE_IN Arg1:T23 Arg2:T70	
+R48	PARTICIPANT_IN Arg1:T20 Arg2:T22	
+R49	PARTICIPANT_IN Arg1:T20 Arg2:T69	
+R50	PARTICIPANT_IN Arg1:T20 Arg2:T23	
+R51	POINT_IN_TIME Arg1:T22 Arg2:T15	
+R52	POINT_IN_TIME Arg1:T69 Arg2:T15	
+R53	POINT_IN_TIME Arg1:T23 Arg2:T15	
+T68	EVENT 168 176	вручение
+R54	TAKES_PLACE_IN Arg1:T68 Arg2:T5	
+R55	POINT_IN_TIME Arg1:T68 Arg2:T4	
+R56	INANIMATE_INVOLVED Arg1:T60 Arg2:T68	
+R57	INANIMATE_INVOLVED Arg1:T59 Arg2:T68	
+R58	ORGANIZES Arg1:T58 Arg2:T68	
+T96	COUNTRY 334 344	испанского
+R59	HEADQUARTERED_IN Arg1:T11 Arg2:T96	
+R60	ALTERNATIVE_NAME Arg1:T96 Arg2:T8	
+R61	LOCATED_IN Arg1:T64 Arg2:T8	
+N1	Reference T2 Wikidata:Q50001	итальянцы
+N2	Reference T5 Wikidata:Q72	Цюрих
+N3	Reference T6 Wikidata:Q122544	NEWSru.com
+N4	Reference T13 Wikidata:Q79983	Жозе Моуриньо
+N5	Reference T14 Wikidata:Q916160	Реал
+N6	Reference T17 Wikidata:Q164038	Хосеп Гвардиола
+N7	Reference T18 Wikidata:Q7156	Барселона
+N8	Reference T20 Wikidata:Q631	Интернационале
+N9	Reference T24 Wikidata:Q253414	ФИФА
+N10	Reference T27 Wikidata:Q17500	Хави
+N11	Reference T28 Wikidata:Q43729	Иньеста, Андрес
+N12	Reference T29 Wikidata:Q2365041	Аргентинцы
+N13	Reference T30 Wikidata:Q615	Лионель Месси
+N14	Reference T31 Wikidata:Q16535624	Барса
+N16	Reference T33 Wikidata:Q308705	France Football
+N17	Reference T35 Wikidata:Q183	Германия
+N19	Reference T37 Wikidata:Q1794	Франкфурт-на-Майне
+N20	Reference T38 Wikidata:Q109868	Биргит Принц
+N21	Reference T40 Wikidata:Q193592	полузащитник
+N22	Reference T41 Wikidata:Q19060711	Турбина
+N24	Reference T48 Wikidata:Q41583	тренер
+N28	Reference T55 Wikidata:Q434362	Сундхаге, Пиа
+N29	Reference T56 Wikidata:Q30	США
+N30	Reference T57 Wikidata:Q160894	испанцы
+N31	Reference T58 Wikidata:Q253414	ФИФА
+N34	Reference T61 Wikidata:Q42267	сборная Испании по футболу
+N36	Reference T65 Wikidata:Q657360	Висенте Дель Боске
+N38	Reference T70 Wikidata:Q38	Италия
+N39	Reference T71 Wikidata:Q166177	Золотой мяч
+N41	Reference T74 Wikidata:Q937857	футболист
+N42	Reference T76 Wikidata:Q937857	футболист
+N46	Reference T84 Wikidata:Q35572	УЕФА
+N47	Reference T86 Wikidata:Q289857	Сильвия Найд
+N48	Reference T87 Wikidata:Q164134	сборная США по футболу
+N54	Reference T94 Wikidata:Q142	Франция
+N32	Reference T59 Wikidata:NULL	нет данных
+N43	Reference T78 Wikidata:Q937857	футболист
+N33	Reference T60 Wikidata:NULL	нет данных
+N55	Reference T7 Wikidata:NULL	нет данных
+N56	Reference T96 Wikidata:Q29	Испания
+N50	Reference T63 Wikidata:NULL	нет данных
+N35	Reference T64 Wikidata:Q2807	Мадрид
+N37	Reference T67 Wikidata:NULL	нет данных
+N57	Reference T19 Wikidata:Q490	Милан
+N40	Reference T73 Wikidata:NULL	нет данных
+N49	Reference T90 Wikidata:NULL	нет данных
+N15	Reference T32 Wikidata:P634	
+N44	Reference T79 Wikidata:NULL	нет данных
+N18	Reference T36 Wikidata:NULL	нет данных
+N53	Reference T93 Wikidata:NULL	нет данных
+N52	Reference T92 Wikidata:NULL	нет данных
+N45	Reference T82 Wikidata:Q1711	
+N58	Reference T45 Wikidata:Q873625	Бразильцы
+N23	Reference T42 Wikidata:Q77538	
+N59	Reference T46 Wikidata:NULL	нет данных
+N60	Reference T85 Wikidata:NULL	нет данных
+N25	Reference T50 Wikidata:Q183	Германия
+N51	Reference T91 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N27	Reference T54 Wikidata:Q16519	
+N61	Reference T21 Wikidata:Q79983	Жозе Моуриньо
+N62	Reference T12 Wikidata:Q164038	Хосеп Гвардиола
+N63	Reference T11 Wikidata:Q7156	Барселона
+N64	Reference T25 Wikidata:Q7156	Барселона
+N65	Reference T3 Wikidata:Q2365041	Аргентинцы
+N66	Reference T52 Wikidata:Q183	Германия
+N67	Reference T75 Wikidata:Q41583	тренер
+N68	Reference T77 Wikidata:Q41583	тренер
+N69	Reference T10 Wikidata:Q41583	тренер
+N70	Reference T89 Wikidata:Q42267	сборная Испании по футболу
+N71	Reference T72 Wikidata:Q42267	сборная Испании по футболу
+N72	Reference T9 Wikidata:Q657360	Висенте Дель Боске
+N73	Reference T62 Wikidata:Q937857	футболист
+N74	Reference T8 Wikidata:Q29	Испания
+N75	Reference T16 Wikidata:Q29	Испания
+N76	Reference T66 Wikidata:Q29	Испания
+N77	Reference T26 Wikidata:Q29	Испания

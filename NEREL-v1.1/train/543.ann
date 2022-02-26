@@ -1,0 +1,279 @@
+T2	PERSON 0 10	Д.Медведев
+T3	PROFESSION 18 38	губернатора Приморья
+T4	PROFESSION 40 56	Президент России
+T5	PERSON 57 73	Дмитрий Медведев
+T6	PROFESSION 90 118	губернатора Приморского края
+T7	STATE_OR_PROVINCE 102 118	Приморского края
+T8	PERSON 119 134	Сергея Дарькина
+T9	ORGANIZATION 153 156	НТВ
+T10	PROFESSION 175 188	глава региона
+T11	ORGANIZATION 370 378	Известия
+T12	DATE 436 450	на этой неделе
+T13	PROFESSION 508 519	губернаторы
+T14	STATE_OR_PROVINCE 542 558	Приморского края
+T15	STATE_OR_PROVINCE 570 589	Саратовской области
+T16	STATE_OR_PROVINCE 604 621	Кировской области
+T17	STATE_OR_PROVINCE 637 651	Пермского края
+T18	EVENT 688 700	прямой линии
+T19	DATE 701 716	в декабре 2011г
+T20	STATE_OR_PROVINCE 725 733	Приморья
+T21	PROFESSION 747 770	премьер-министру России
+T22	CITY 803 815	Владивостока
+T23	PROFESSION 869 895	Председатель правительства
+T24	PROFESSION 953 973	губернатора Приморья
+T26	PERSON 974 984	С.Дарькина
+T28	PERSON 1051 1060	С.Дарькин
+T29	PROFESSION 1075 1103	губернатора Приморского края
+T30	STATE_OR_PROVINCE 1087 1103	Приморского края
+T31	DATE 1108 1120	более 10 лет
+T32	DATE 1150 1157	в 2001г
+T33	DATE 1270 1277	в 2005г
+T34	PERSON 1298 1314	Владимира Путина
+T35	PROFESSION 1322 1339	президента России
+T36	DATE 1343 1350	в 2010г
+T37	PROFESSION 1384 1401	главы государства
+T38	PERSON 1402 1419	Дмитрия Медведева
+T40	PERSON 1441 1451	С.Дарькина
+T42	PERSON 1598 1607	С.Дарькин
+T43	EVENT 1647 1654	саммита
+T47	CITY 1754 1766	Владивостоке
+T48	DATE 1767 1783	в сентябре 2012г
+T49	DATE 1799 1814	1 февраля 2012г
+T50	PROFESSION 1837 1869	вице-губернатор Приморского края
+T51	AGE 1871 1880	35-летний
+T52	PERSON 1881 1898	Александр Шемелев
+T55	PERSON 1981 1991	А.Шемелева
+T56	EVENT 2054 2075	парламентских выборах
+T57	DATE 2090 2105	4 декабря 2011г
+T58	STATE_OR_PROVINCE 2110 2118	Приморью
+T59	ORGANIZATION 2120 2122	ЕР
+T60	PERCENT 2132 2138	32,99%
+T61	CITY 2145 2157	Владивостоке
+T63	PERSON 2163 2172	А.Шемелев
+T64	ORDINAL 2191 2195	4-му
+T65	ORGANIZATION 2252 2256	КПРФ
+T66	ORGANIZATION 2272 2285	Единой России
+T67	DATE 2314 2323	в декабре
+T68	PERSON 2327 2334	Шемелев
+T69	PROFESSION 2361 2391	первый секретарь крайкома КПРФ
+T70	PERSON 2392 2409	Владимир Гришуков
+T71	NUMBER 2411 2415	Один
+T72	ORGANIZATION 2439 2452	Единой России
+T73	PROFESSION 2480 2496	вице-губернатора
+T74	CITY 2530 2536	Москвы
+T1	COUNTRY 50 56	России
+T75	ORGANIZATION 305 308	РБК
+T76	ORGANIZATION 281 304	пресс-службе президента
+T77	PROFESSION 294 304	президента
+T78	STATE_OR_PROVINCE 30 38	Приморья
+T79	PERSON 559 568	С.Дарькин
+T80	PERSON 590 602	Павел Ипатов
+T81	PERSON 622 634	Никита Белых
+T82	PERSON 652 665	Олег Чиркунов
+T83	PROFESSION 475 492	главы государства
+T85	COUNTRY 764 770	России
+T86	PROFESSION 774 794	руководителя региона
+T87	ORGANIZATION 882 895	правительства
+T88	STATE_OR_PROVINCE 965 973	Приморья
+T25	PROFESSION 1016 1029	руководителей
+T27	PROFESSION 1168 1182	губернаторские
+T89	EVENT 1168 1189	губернаторские выборы
+T90	COUNTRY 1333 1339	России
+T39	PROFESSION 1573 1583	политологи
+T41	ORGANIZATION 1667 1720	Азиатско-Тихоокеанского экономического сотрудничества
+T44	ORGANIZATION 1722 1726	АТЭС
+T45	STATE_OR_PROVINCE 1853 1869	Приморского края
+T46	ORGANIZATION 2054 2067	парламентских
+T53	DISTRICT 2191 2232	4-му одномандатному избирательному округу
+T54	ORGANIZATION 2387 2391	КПРФ
+T62	ORGANIZATION 2378 2391	крайкома КПРФ
+T91	ORGANIZATION 2426 2453	политсовета "Единой России"
+T92	EVENT 11 17	уволил
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R2	AGENT Arg1:T2 Arg2:T92	
+R3	WORKPLACE Arg1:T3 Arg2:T92	
+R4	WORKPLACE Arg1:T3 Arg2:T78	
+R5	WORKPLACE Arg1:T4 Arg2:T1	
+R6	WORKPLACE Arg1:T5 Arg2:T1	
+R7	WORKS_AS Arg1:T5 Arg2:T4	
+T93	PROFESSION 40 49	Президент
+T94	PROFESSION 18 29	губернатора
+T95	PROFESSION 90 101	губернатора
+R8	WORKS_AS Arg1:T8 Arg2:T6	
+R9	WORKPLACE Arg1:T8 Arg2:T7	
+T96	EVENT 74 89	принял отставку
+R10	ALTERNATIVE_NAME Arg1:T92 Arg2:T96	
+R11	PARTICIPANT_IN Arg1:T8 Arg2:T96	
+R12	AGENT Arg1:T5 Arg2:T96	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R14	ALTERNATIVE_NAME Arg1:T8 Arg2:T79	
+R15	WORKPLACE Arg1:T82 Arg2:T17	
+R16	WORKPLACE Arg1:T81 Arg2:T16	
+R17	WORKPLACE Arg1:T80 Arg2:T15	
+R18	POINT_IN_TIME Arg1:T18 Arg2:T19	
+R19	WORKS_AS Arg1:T26 Arg2:T24	
+R20	WORKPLACE Arg1:T26 Arg2:T88	
+R21	WORKPLACE Arg1:T24 Arg2:T88	
+T97	PROFESSION 953 964	губернатора
+R22	ALTERNATIVE_NAME Arg1:T4 Arg2:T83	
+R23	WORKS_AS Arg1:T79 Arg2:T13	
+R24	WORKS_AS Arg1:T80 Arg2:T13	
+R25	WORKS_AS Arg1:T81 Arg2:T13	
+R26	WORKS_AS Arg1:T82 Arg2:T13	
+R27	ALTERNATIVE_NAME Arg1:T1 Arg2:T85	
+R28	WORKPLACE Arg1:T86 Arg2:T20	
+T84	CRIME 849 858	коррупции
+R29	WORKPLACE Arg1:T23 Arg2:T87	
+T98	PROFESSION 1075 1086	губернатора
+R30	WORKS_AS Arg1:T28 Arg2:T29	
+R31	WORKPLACE Arg1:T28 Arg2:T30	
+R32	PARTICIPANT_IN Arg1:T28 Arg2:T89	
+R33	POINT_IN_TIME Arg1:T89 Arg2:T32	
+R34	WORKS_AS Arg1:T34 Arg2:T35	
+R35	WORKPLACE Arg1:T34 Arg2:T90	
+R36	WORKPLACE Arg1:T35 Arg2:T90	
+R37	WORKS_AS Arg1:T38 Arg2:T37	
+R38	ALTERNATIVE_NAME Arg1:T41 Arg2:T44	
+R39	ORGANIZES Arg1:T41 Arg2:T43	
+R40	TAKES_PLACE_IN Arg1:T43 Arg2:T47	
+R41	POINT_IN_TIME Arg1:T43 Arg2:T48	
+R42	AGE_IS Arg1:T52 Arg2:T51	
+T99	PROFESSION 1837 1852	вице-губернатор
+R43	WORKPLACE Arg1:T50 Arg2:T45	
+R44	WORKS_AS Arg1:T52 Arg2:T50	
+R45	WORKPLACE Arg1:T52 Arg2:T45	
+T100	EVENT 1816 1836	со своего поста ушел
+R46	PARTICIPANT_IN Arg1:T52 Arg2:T100	
+R47	ALTERNATIVE_NAME Arg1:T52 Arg2:T55	
+T101	IDEOLOGY 1951 1960	оппозиции
+T102	ORGANIZATION 2039 2050	единороссов
+R48	POINT_IN_TIME Arg1:T56 Arg2:T57	
+T103	EVENT 2068 2075	выборах
+R49	LOCATED_IN Arg1:T61 Arg2:T58	
+R50	LOCATED_IN Arg1:T53 Arg2:T61	
+R51	ABBREVIATION Arg1:T66 Arg2:T59	
+R52	ALTERNATIVE_NAME Arg1:T63 Arg2:T68	
+R53	WORKS_AS Arg1:T70 Arg2:T69	
+R54	WORKPLACE Arg1:T70 Arg2:T62	
+R55	WORKPLACE Arg1:T69 Arg2:T62	
+T104	EVENT 2471 2479	отставка
+R56	PARTICIPANT_IN Arg1:T73 Arg2:T104	
+R57	PARTICIPANT_IN Arg1:T63 Arg2:T56	
+T105	LOCATION 1676 1690	Тихоокеанского
+T106	LOCATION 1667 1675	Азиатско
+R58	ABBREVIATION Arg1:T59 Arg2:T56	
+R59	PARTICIPANT_IN Arg1:T65 Arg2:T56	
+R60	CONVICTED_OF Arg1:T79 Arg2:T84	
+R61	PART_OF Arg1:T91 Arg2:T72	
+R62	PARTICIPANT_IN Arg1:T102 Arg2:T56	
+R63	PART_OF Arg1:T62 Arg2:T54	
+R64	WORKPLACE Arg1:T6 Arg2:T7	
+R65	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+R66	WORKPLACE Arg1:T29 Arg2:T30	
+R67	TAKES_PLACE_IN Arg1:T89 Arg2:T30	
+R68	WORKPLACE Arg1:T37 Arg2:T90	
+R69	TAKES_PLACE_IN Arg1:T100 Arg2:T45	
+R70	ABBREVIATION Arg1:T102 Arg2:T59	
+T107	COUNTRY 2279 2285	России
+R71	HEADQUARTERED_IN Arg1:T66 Arg2:T107	
+T108	COUNTRY 2446 2452	России
+R72	LOCATED_IN Arg1:T74 Arg2:T108	
+R73	HEADQUARTERED_IN Arg1:T72 Arg2:T108	
+R74	ORGANIZES Arg1:T74 Arg2:T104	
+T109	EVENT 1133 1142	возглавил
+R75	AGENT Arg1:T28 Arg2:T109	
+R76	POINT_IN_TIME Arg1:T109 Arg2:T32	
+R77	HAS_CAUSE Arg1:T109 Arg2:T89	
+R78	TAKES_PLACE_IN Arg1:T109 Arg2:T30	
+T110	EVENT 195 213	покинуть свой пост
+R79	AGENT Arg1:T8 Arg2:T110	
+R80	AGENT Arg1:T10 Arg2:T110	
+T111	CRIME 1529 1538	коррупции
+R81	CONVICTED_OF Arg1:T40 Arg2:T111	
+T112	CRIME 1541 1564	связях с криминалитетом
+R82	CONVICTED_OF Arg1:T40 Arg2:T112	
+N1	Reference T5 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N2	Reference T9 Wikidata:Q574625	НТВ
+N4	Reference T11 Wikidata:Q753932	Известия
+N5	Reference T15 Wikidata:Q5334	Саратовская область
+N6	Reference T16 Wikidata:Q5387	Кировская область
+N7	Reference T17 Wikidata:Q5400	Пермский край
+N10	Reference T26 Wikidata:Q840613	Сергей Михайлович Дарькин
+N11	Reference T30 Wikidata:Q4341	Приморский край
+N12	Reference T34 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T47 Wikidata:Q959	Владивосток
+N15	Reference T59 Wikidata:Q151469	Единая Россия
+N16	Reference T65 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N18	Reference T70 Wikidata:Q4149987	Гришуков, Владимир Витальевич
+N19	Reference T74 Wikidata:Q649	Москва
+N20	Reference T75 Wikidata:Q629733	РосБизнесКонсалтинг
+N22	Reference T80 Wikidata:Q4202975	Павел Леонидович Ипатов
+N23	Reference T81 Wikidata:Q1396536	Никита Белых
+N24	Reference T82 Wikidata:Q1062350	Олег Анатольевич Чиркунов
+N25	Reference T83 Wikidata:Q48352	глава государства
+N27	Reference T87 Wikidata:Q7188	правительство
+N28	Reference T88 Wikidata:Q4341	Приморский край
+N29	Reference T25 Wikidata:Q2462658	менеджер
+N31	Reference T90 Wikidata:Q159	Россия
+N32	Reference T39 Wikidata:Q1238570	политолог
+N33	Reference T41 Wikidata:Q170481	Азиатско-Тихоокеанское экономическое сотрудничество
+N38	Reference T93 Wikidata:Q30461	президент
+N39	Reference T97 Wikidata:Q132050	губернатор
+N41	Reference T102 Wikidata:Q151469	Единая Россия
+N3	Reference T10 Wikidata:Q132050	губернатор
+N21	Reference T76 Wikidata:NULL	нет данных
+N8	Reference T21 Wikidata:Q842386	председатель Правительства Российской Федерации
+N26	Reference T86 Wikidata:Q132050	губернатор
+N9	Reference T24 Wikidata:NULL	нет данных
+N30	Reference T27 Wikidata:Q132050	губернатор
+N43	Reference T106 Wikidata:Q48	Азия
+N42	Reference T105 Wikidata:Q98	Тихий океан
+N40	Reference T99 Wikidata:Q56598788	
+N14	Reference T50 Wikidata:NULL	нет данных
+N44	Reference T52 Wikidata:NULL	нет данных
+N35	Reference T53 Wikidata:NULL	нет данных
+N45	Reference T68 Wikidata:NULL	нет данных
+N36	Reference T62 Wikidata:NULL	нет данных
+N17	Reference T69 Wikidata:NULL	нет данных
+N37	Reference T91 Wikidata:NULL	нет данных
+N34	Reference T46 Wikidata:Q35749	парламент
+N46	Reference T38 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N47	Reference T2 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N48	Reference T79 Wikidata:Q840613	Сергей Михайлович Дарькин
+N49	Reference T40 Wikidata:Q840613	Сергей Михайлович Дарькин
+N50	Reference T28 Wikidata:Q840613	Сергей Михайлович Дарькин
+N51	Reference T42 Wikidata:Q840613	Сергей Михайлович Дарькин
+N52	Reference T8 Wikidata:Q840613	Сергей Михайлович Дарькин
+N53	Reference T45 Wikidata:Q4341	Приморский край
+N54	Reference T14 Wikidata:Q4341	Приморский край
+N55	Reference T7 Wikidata:Q4341	Приморский край
+N56	Reference T22 Wikidata:Q959	Владивосток
+N57	Reference T61 Wikidata:Q959	Владивосток
+N58	Reference T72 Wikidata:Q151469	Единая Россия
+N59	Reference T66 Wikidata:Q151469	Единая Россия
+N60	Reference T54 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N61	Reference T35 Wikidata:Q48352	глава государства
+N62	Reference T37 Wikidata:Q48352	глава государства
+N63	Reference T4 Wikidata:Q48352	глава государства
+N64	Reference T78 Wikidata:Q4341	Приморский край
+N65	Reference T58 Wikidata:Q4341	Приморский край
+N66	Reference T20 Wikidata:Q4341	Приморский край
+N67	Reference T107 Wikidata:Q159	Россия
+N68	Reference T108 Wikidata:Q159	Россия
+N69	Reference T85 Wikidata:Q159	Россия
+N70	Reference T1 Wikidata:Q159	Россия
+N71	Reference T44 Wikidata:Q170481	Азиатско-Тихоокеанское экономическое сотрудничество
+N72	Reference T77 Wikidata:Q30461	президент
+N73	Reference T95 Wikidata:Q132050	губернатор
+N74	Reference T98 Wikidata:Q132050	губернатор
+N75	Reference T13 Wikidata:Q132050	губернатор
+N76	Reference T94 Wikidata:Q132050	губернатор
+N77	Reference T29 Wikidata:Q132050	губернатор
+N78	Reference T6 Wikidata:Q132050	губернатор
+N79	Reference T23 Wikidata:Q842386	председатель Правительства Российской Федерации
+N80	Reference T3 Wikidata:NULL	нет данных
+N81	Reference T73 Wikidata:Q56598788	
+N82	Reference T55 Wikidata:NULL	нет данных
+N83	Reference T63 Wikidata:NULL	нет данных
+R83	MEMBER_OF Arg1:T69 Arg2:T54	
+R84	MEMBER_OF Arg1:T70 Arg2:T54	

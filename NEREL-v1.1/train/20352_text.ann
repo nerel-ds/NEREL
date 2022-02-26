@@ -1,0 +1,99 @@
+T1	ORGANIZATION 1 9	Спортинг
+T2	PERSON 21 31	Веркотерен
+T3	FACILITY 40 53	Жозе Алваладе
+T4	ORGANIZATION 99 107	Спортинг
+T5	DATE 110 120	24 октября
+T6	PERSON 140 156	Франк Веркотерен
+T7	CITY 178 190	лиссабонский
+T8	ORGANIZATION 208 216	Спортинг
+T9	AGE 230 239	55-летним
+T10	DATE 262 277	до конца сезона
+T11	PERSON 325 335	Веркотерен
+T12	DATE 372 382	30 октября
+T13	PERSON 385 401	Франк Веркотерен
+T14	ORGANIZATION 420 431	Аль-Джазира
+T15	ORGANIZATION 435 439	Генк
+T16	CITY 443 455	брюссельский
+T17	ORGANIZATION 457 466	Андерлехт
+T18	NATIONALITY 537 545	Бельгиец
+T19	PROFESSION 563 579	главного тренера
+T20	PERSON 580 596	Рикарду Са Пинту
+T21	ORDINAL 613 617	2-го
+T23	COUNTRY 655 666	венгерского
+T24	ORGANIZATION 668 677	Видеотона
+T25	ORGANIZATION 685 693	Спортинг
+T26	PERSON 715 723	Са Пинту
+T27	NATIONALITY 121 132	бельгийский
+T28	PROFESSION 133 139	тренер
+T30	NUMBER 490 496	трижды
+T31	EVENT 517 535	чемпионате Бельгии
+T32	COUNTRY 528 535	Бельгии
+T33	PROFESSION 572 579	тренера
+T34	EVENT 613 651	2-го тура группового этапа Лиги Европы
+T35	EVENT 623 651	группового этапа Лиги Европы
+T36	EVENT 640 651	Лиги Европы
+T22	LOCATION 645 651	Европы
+T37	NUMBER 680 681	0
+T38	NUMBER 682 683	3
+T39	EVENT 706 714	отставку
+T40	EVENT 517 527	чемпионате
+R1	WORKPLACE Arg1:T2 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R4	WORKS_AS Arg1:T6 Arg2:T28	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T27	
+R6	LOCATED_IN Arg1:T3 Arg2:T7	
+R7	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R8	AGE_IS Arg1:T6 Arg2:T9	
+R9	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R11	WORKPLACE Arg1:T13 Arg2:T14	
+R12	WORKPLACE Arg1:T13 Arg2:T15	
+R13	HEADQUARTERED_IN Arg1:T17 Arg2:T16	
+R14	TAKES_PLACE_IN Arg1:T31 Arg2:T32	
+R15	ORIGINS_FROM Arg1:T13 Arg2:T18	
+R16	WORKS_AS Arg1:T20 Arg2:T19	
+R17	WORKPLACE Arg1:T13 Arg2:T17	
+R18	PARTICIPANT_IN Arg1:T17 Arg2:T31	
+R19	TAKES_PLACE_IN Arg1:T36 Arg2:T22	
+R20	SUBEVENT_OF Arg1:T35 Arg2:T36	
+R21	SUBEVENT_OF Arg1:T34 Arg2:T35	
+R22	HEADQUARTERED_IN Arg1:T24 Arg2:T23	
+R23	PARTICIPANT_IN Arg1:T26 Arg2:T39	
+R24	PARTICIPANT_IN Arg1:T25 Arg2:T39	
+T29	EVENT 11 20	возглавил
+R25	AGENT Arg1:T2 Arg2:T29	
+R26	PARTICIPANT_IN Arg1:T1 Arg2:T29	
+T41	EVENT 168 177	возглавил
+R27	POINT_IN_TIME Arg1:T41 Arg2:T5	
+R28	PARTICIPANT_IN Arg1:T8 Arg2:T41	
+R29	AGENT Arg1:T6 Arg2:T41	
+R30	PARTICIPANT_IN Arg1:T13 Arg2:T31	
+R31	PARTICIPANT_IN Arg1:T24 Arg2:T34	
+R32	PARTICIPANT_IN Arg1:T20 Arg2:T34	
+R33	WORKPLACE Arg1:T20 Arg2:T25	
+N1	Reference T3 Wikidata:Q287359	Жозе Алваладе
+N3	Reference T11 Wikidata:Q601807	Веркотерен, Франк
+N5	Reference T15 Wikidata:Q216032	Генк
+N7	Reference T17 Wikidata:Q187528	Андерлехт
+N8	Reference T20 Wikidata:Q447031	Са Пинту, Рикарду
+N10	Reference T24 Wikidata:Q326811	Видеотон
+N11	Reference T25 Wikidata:Q75729	Спортинг
+N12	Reference T26 Wikidata:Q447031	Са Пинту, Рикарду
+N14	Reference T32 Wikidata:Q31	Бельгия
+N15	Reference T33 Wikidata:Q41583	тренер
+N13	Reference T27 Wikidata:Q1377716	
+N2	Reference T7 Wikidata:Q597	Лиссабон
+N4	Reference T14 Wikidata:Q429630	Аль-Джазира
+N6	Reference T16 Wikidata:Q239	Брюссель
+N17	Reference T18 Wikidata:Q1377716	
+N18	Reference T19 Wikidata:Q3246315	
+N16	Reference T22 Wikidata:Q46	Европа
+N9	Reference T23 Wikidata:Q28	Венгрия
+N19	Reference T13 Wikidata:Q601807	Веркотерен, Франк
+N20	Reference T6 Wikidata:Q601807	Веркотерен, Франк
+N21	Reference T2 Wikidata:Q601807	Веркотерен, Франк
+N22	Reference T4 Wikidata:Q75729	Спортинг
+N23	Reference T8 Wikidata:Q75729	Спортинг
+N24	Reference T1 Wikidata:Q75729	Спортинг
+N25	Reference T28 Wikidata:Q41583	тренер

@@ -1,0 +1,101 @@
+T1	NUMBER 10 13	два
+T2	PROFESSION 49 59	президенту
+T3	PERSON 70 84	Маурисио Макри
+T4	DATE 91 108	31 июля 2016 года
+T5	NUMBER 124 127	два
+T6	PRODUCT 180 187	Твитере
+T7	PROFESSION 198 208	президенту
+T9	FACILITY 250 261	Розовый дом
+T10	NUMBER 274 278	двух
+T11	PRODUCT 280 288	Твитеров
+T12	COUNTRY 317 326	Аргентины
+T13	NUMBER 328 332	Двое
+T14	NUMBER 353 355	10
+T15	LANGUAGE 501 509	арабском
+T16	FACILITY 614 627	Carlos Gardel
+T17	FACILITY 630 643	Розового дома
+T18	FACILITY 645 662	Дом правительства
+T19	TIME 759 775	в считанные часы
+T20	TIME 808 821	В 3 часа ночи
+T21	ORGANIZATION 894 938	службой по обезвреживанию взрывчатых веществ
+T22	NUMBER 966 969	два
+T23	AGE 1002 1009	21 году
+T25	PERSON 1155 1165	Нора Донда
+T27	DATE 1321 1332	по выходным
+T28	NUMBER 1665 1669	двое
+T29	EVENT 1835 1854	Олимпийскими играми
+T30	COUNTRY 1873 1881	Бразилии
+T31	ORGANIZATION 1906 1946	службы полицейского управления Аргентины
+T32	COUNTRY 60 69	Аргентины
+T33	PROFESSION 49 69	президенту Аргентины
+T34	COUNTRY 1937 1946	Аргентины
+T35	PROFESSION 1682 1690	студента
+T36	PROFESSION 1509 1520	полицейские
+T37	IDEOLOGY 1391 1401	террористы
+T24	PROFESSION 1262 1270	студенты
+T26	PROFESSION 970 978	студента
+T38	PROFESSION 842 853	полицейские
+T39	ORGANIZATION 863 891	антитеррористической службой
+T40	PROFESSION 794 805	террористов
+T42	PROFESSION 383 393	президенту
+T43	PERSON 209 223	Маурисио Макри
+T8	RELIGION 535 541	Аллаху
+T44	ORGANIZATION 1887 1903;1937 1946	секретные службы Аргентины
+R1	WORKPLACE Arg1:T33 Arg2:T32	
+R2	WORKS_AS Arg1:T43 Arg2:T33	
+R3	WORKS_AS Arg1:T43 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R5	AGE_IS Arg1:T26 Arg2:T23	
+R6	TAKES_PLACE_IN Arg1:T29 Arg2:T30	
+R7	HEADQUARTERED_IN Arg1:T31 Arg2:T34	
+R8	HEADQUARTERED_IN Arg1:T44 Arg2:T34	
+T41	EVENT 0 30	Задержаны два молодых человека
+R9	TAKES_PLACE_IN Arg1:T41 Arg2:T32	
+T45	EVENT 114 144	задержаны два молодых человека
+R10	POINT_IN_TIME Arg1:T45 Arg2:T4	
+R11	PARTICIPANT_IN Arg1:T26 Arg2:T45	
+T46	EVENT 1031 1041	арестованы
+R12	PARTICIPANT_IN Arg1:T26 Arg2:T46	
+R13	PARTICIPANT_IN Arg1:T38 Arg2:T46	
+R14	PARTICIPANT_IN Arg1:T39 Arg2:T46	
+R15	PARTICIPANT_IN Arg1:T21 Arg2:T46	
+R16	POINT_IN_TIME Arg1:T46 Arg2:T20	
+T47	EVENT 1078 1083	обыск
+R17	PARTICIPANT_IN Arg1:T38 Arg2:T47	
+R18	PARTICIPANT_IN Arg1:T39 Arg2:T47	
+R19	PARTICIPANT_IN Arg1:T21 Arg2:T47	
+R20	PARTICIPANT_IN Arg1:T26 Arg2:T47	
+R21	HEADQUARTERED_IN Arg1:T39 Arg2:T12	
+R22	HEADQUARTERED_IN Arg1:T21 Arg2:T12	
+R23	WORKPLACE Arg1:T43 Arg2:T12	
+R24	LOCATED_IN Arg1:T18 Arg2:T12	
+T48	IDEOLOGY 2015 2025	терроризма
+N1	Reference T11 Wikidata:Q918	Твиттер
+N2	Reference T12 Wikidata:Q414	Аргентина
+N3	Reference T15 Wikidata:Q13955	арабский язык
+N7	Reference T30 Wikidata:Q155	Бразилия
+N11	Reference T40 Wikidata:Q14886050	террорист
+N12	Reference T42 Wikidata:Q30461	президент
+N13	Reference T43 Wikidata:Q561837	Маурисио Макри
+N14	Reference T8 Wikidata:Q234801	Аллах
+N16	Reference T33 Wikidata:Q12969145	
+N17	Reference T16 Wikidata:Q3296188	
+N4	Reference T18 Wikidata:NULL	нет данных
+N18	Reference T39 Wikidata:NULL	нет данных
+N5	Reference T21 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q48282	учащийся
+N6	Reference T25 Wikidata:NULL	нет данных
+N9	Reference T36 Wikidata:Q384593	
+N15	Reference T44 Wikidata:NULL	нет данных
+N8	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T6 Wikidata:Q918	Твиттер
+N20	Reference T34 Wikidata:Q414	Аргентина
+N21	Reference T32 Wikidata:Q414	Аргентина
+N22	Reference T7 Wikidata:Q30461	президент
+N23	Reference T2 Wikidata:Q30461	президент
+N24	Reference T3 Wikidata:Q561837	Маурисио Макри
+N25	Reference T9 Wikidata:NULL	нет данных
+N26	Reference T17 Wikidata:NULL	нет данных
+N27	Reference T24 Wikidata:Q48282	учащийся
+N28	Reference T35 Wikidata:Q48282	учащийся
+N29	Reference T38 Wikidata:Q384593	

@@ -1,0 +1,268 @@
+T1	PERSON 0 12	Рауль Кастро
+T3	PERSON 53 65	Рауль Кастро
+T4	DATE 80 100	24 февраля 2013 года
+T5	PERSON 117 130	Фиделя Кастро
+T6	PERSON 131 143	Рауль Кастро
+T9	AGE 242 251	53-летний
+T11	PERSON 276 303	Мигель Диас-Канель Бермудес
+T12	PERSON 353 365	Рауль Кастро
+T14	PERSON 398 425	Мигель Диас-Канель Бермудес
+T15	PERSON 427 459	Miguel Mario Díaz-Canel Bermúdez
+T16	PERSON 462 474	Рауль Кастро
+T17	DATE 543 554	в 2018 году
+T18	ORGANIZATION 557 579	Национальная ассамблея
+T19	NUMBER 588 590	31
+T20	ORGANIZATION 597 606	Госсовета
+T21	PERSON 617 623	Кастро
+T22	PROFESSION 628 641	председателем
+T23	DATE 664 674	пятилетний
+T24	AGE 691 701	81-летнего
+T25	PERSON 724 730	Кастро
+T27	PERSON 805 817	Рауль Кастро
+T30	DATE 956 969	в воскресенье
+T31	ORGANIZATION 993 1015	Национальная ассамблея
+T32	CITY 1023 1029	Гаване
+T33	DATE 1068 1078	пятилетний
+T37	EVENT 1202 1211	Революции
+T38	DATE 1212 1221	1959 года
+T41	PROFESSION 1334 1361	верховным главнокомандующим
+T42	PROFESSION 1370 1378	спикером
+T43	AGE 1392 1401	69-летний
+T44	PROFESSION 1402 1411	экономист
+T45	PERSON 1412 1424	Эстебан Ласо
+T46	PERSON 1426 1448	Esteban Lazo Hernández
+T47	ORGANIZATION 1481 1490	политбюро
+T48	PERSON 1544 1556	Рауль Кастро
+T49	DATE 1566 1577	в 2008 году
+T51	PERSON 1634 1640	Фиделя
+T52	ORGANIZATION 1704 1713	Компартии
+T53	ORGANIZATION 1716 1729	правительства
+T54	DATE 1736 1747	пятилетними
+T55	DATE 1765 1780	первые пять лет
+T58	PERSON 1993 2006	Фидель Кастро
+T60	PROFESSION 24 52	председателем Госсовета Кубы
+T61	ORGANIZATION 38 52	Госсовета Кубы
+T62	ORGANIZATION 38 47	Госсовета
+T63	COUNTRY 48 52	Кубы
+T64	PERSON 66 79	Фидель Кастро
+T65	EVENT 13 23	переизбран
+T66	EVENT 144 154	переизбран
+T67	PROFESSION 163 204	председателя Государственного совета Кубы
+T68	ORGANIZATION 176 204	Государственного совета Кубы
+T69	ORGANIZATION 176 199	Государственного совета
+T70	COUNTRY 200 204	Кубы
+T73	COUNTRY 230 234	Кубы
+T74	ORDINAL 206 212	Первым
+T75	PROFESSION 256 275	министр образования
+T77	PROFESSION 256 263	министр
+T78	ORDINAL 367 373	Первым
+T80	PROFESSION 206 234	Первым вице-президентом Кубы
+T82	PROFESSION 367 390	Первым вице-президентом
+T83	PROFESSION 702 710	политика
+T84	PROFESSION 909 919	Глава Кубы
+T85	PROFESSION 1086 1127	Председатель Государственного совета Кубы
+T86	PROFESSION 1300 1330	Председателем совета министров
+T87	PROFESSION 1344 1361	главнокомандующим
+T88	PROFESSION 1594 1611	главы государства
+T89	PROFESSION 1792 1809	главы государства
+T91	PROFESSION 2136 2152	Члены парламенты
+T93	PROFESSION 591 606	члена Госсовета
+T95	ORDINAL 711 720	последним
+T96	COUNTRY 915 919	Кубы
+T29	ORGANIZATION 993 1020	Национальная ассамблея Кубы
+T97	COUNTRY 1016 1020	Кубы
+T99	ORGANIZATION 1099 1127	Государственного совета Кубы
+T100	ORGANIZATION 1099 1122	Государственного совета
+T101	COUNTRY 1123 1127	Кубы
+T35	COUNTRY 1165 1180	Республике Куба
+T102	EVENT 1202 1221	Революции 1959 года
+T103	ORGANIZATION 1314 1330	совета министров
+T104	PROFESSION 1451 1464	Парламентарий
+T105	ORGANIZATION 1481 1541	политбюро центрального комитета Коммунистической партии Кубы
+T106	ORGANIZATION 1491 1541	центрального комитета Коммунистической партии Кубы
+T107	ORGANIZATION 1513 1541	Коммунистической партии Кубы
+T108	ORGANIZATION 1513 1536	Коммунистической партии
+T109	COUNTRY 1537 1541	Кубы
+T110	IDEOLOGY 1513 1529	Коммунистической
+T50	PROFESSION 1685 1713	членов руководства Компартии
+T112	ORGANIZATION 1692 1713	руководства Компартии
+T113	NUMBER 1730 1735	двумя
+T56	PERSON 1810 1816	Кастро
+T118	EVENT 2040 2078	открытии сессии Национальной ассамблеи
+T119	EVENT 2049 2078	сессии Национальной ассамблеи
+T120	ORGANIZATION 2056 2078	Национальной ассамблеи
+T121	ORGANIZATION 2142 2152	парламенты
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T65	
+R2	PARTICIPANT_IN Arg1:T60 Arg2:T65	
+R3	WORKS_AS Arg1:T1 Arg2:T60	
+R4	WORKPLACE Arg1:T1 Arg2:T61	
+R5	HEADQUARTERED_IN Arg1:T61 Arg2:T63	
+R6	SIBLING Arg1:T3 Arg2:T64	
+R7	SIBLING Arg1:T6 Arg2:T5	
+R8	POINT_IN_TIME Arg1:T66 Arg2:T4	
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T66	
+R10	PARTICIPANT_IN Arg1:T67 Arg2:T66	
+R11	WORKS_AS Arg1:T6 Arg2:T67	
+R12	WORKPLACE Arg1:T60 Arg2:T61	
+R13	WORKPLACE Arg1:T67 Arg2:T68	
+R14	HEADQUARTERED_IN Arg1:T68 Arg2:T70	
+R15	WORKPLACE Arg1:T60 Arg2:T63	
+R16	WORKPLACE Arg1:T67 Arg2:T70	
+T2	PROFESSION 206 229	Первым вице-президентом
+R17	WORKPLACE Arg1:T80 Arg2:T73	
+R18	WORKS_AS Arg1:T11 Arg2:T75	
+R19	AGE_IS Arg1:T11 Arg2:T9	
+R20	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R21	SUBORDINATE_OF Arg1:T11 Arg2:T12	
+R22	WORKS_AS Arg1:T14 Arg2:T82	
+T7	EVENT 235 241	избран
+R23	PARTICIPANT_IN Arg1:T11 Arg2:T7	
+R24	PARTICIPANT_IN Arg1:T80 Arg2:T7	
+R25	WORKS_AS Arg1:T11 Arg2:T80	
+T10	EVENT 391 397	избран
+R26	PARTICIPANT_IN Arg1:T14 Arg2:T10	
+R27	PARTICIPANT_IN Arg1:T82 Arg2:T10	
+T13	EVENT 495 503	отставку
+R28	MEMBER_OF Arg1:T93 Arg2:T20	
+T34	EVENT 580 587	избрала
+R29	AGENT Arg1:T18 Arg2:T34	
+R30	PARTICIPANT_IN Arg1:T93 Arg2:T34	
+R31	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+R32	WORKS_AS Arg1:T21 Arg2:T22	
+R33	WORKPLACE Arg1:T22 Arg2:T20	
+R34	AGE_IS Arg1:T83 Arg2:T24	
+R35	WORKS_AS Arg1:T25 Arg2:T83	
+R36	ALTERNATIVE_NAME Arg1:T25 Arg2:T27	
+T26	DATE 896 907	в 2018 года
+R37	WORKPLACE Arg1:T84 Arg2:T96	
+R38	WORKS_AS Arg1:T27 Arg2:T84	
+R39	WORKPLACE Arg1:T27 Arg2:T96	
+R40	HEADQUARTERED_IN Arg1:T29 Arg2:T97	
+R41	LOCATED_IN Arg1:T32 Arg2:T97	
+R42	HEADQUARTERED_IN Arg1:T99 Arg2:T101	
+R43	WORKPLACE Arg1:T85 Arg2:T99	
+R44	POINT_IN_TIME Arg1:T102 Arg2:T38	
+R45	WORKPLACE Arg1:T86 Arg2:T103	
+R46	WORKS_AS Arg1:T27 Arg2:T85	
+R47	WORKS_AS Arg1:T27 Arg2:T86	
+R48	WORKS_AS Arg1:T27 Arg2:T41	
+R49	AGE_IS Arg1:T45 Arg2:T43	
+R50	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R51	WORKS_AS Arg1:T45 Arg2:T44	
+R52	WORKS_AS Arg1:T45 Arg2:T42	
+T28	ORGANIZATION 1491 1536	центрального комитета Коммунистической партии
+R53	PART_OF Arg1:T105 Arg2:T106	
+R54	PART_OF Arg1:T106 Arg2:T107	
+R55	IDEOLOGY_OF Arg1:T108 Arg2:T110	
+R56	HEADQUARTERED_IN Arg1:T107 Arg2:T109	
+R57	MEMBER_OF Arg1:T104 Arg2:T105	
+R58	WORKS_AS Arg1:T45 Arg2:T104	
+R59	MEMBER_OF Arg1:T45 Arg2:T105	
+R60	SIBLING Arg1:T48 Arg2:T51	
+T39	EVENT 1578 1584	сменил
+R61	POINT_IN_TIME Arg1:T39 Arg2:T49	
+R62	PARTICIPANT_IN Arg1:T48 Arg2:T39	
+R63	PARTICIPANT_IN Arg1:T51 Arg2:T39	
+R64	WORKS_AS Arg1:T51 Arg2:T88	
+R65	WORKS_AS Arg1:T48 Arg2:T88	
+R66	PARTICIPANT_IN Arg1:T88 Arg2:T39	
+R67	ALTERNATIVE_NAME Arg1:T108 Arg2:T52	
+R68	MEMBER_OF Arg1:T50 Arg2:T112	
+R69	PART_OF Arg1:T112 Arg2:T52	
+T40	PROFESSION 1685 1691;1716 1729	членов правительства
+R70	MEMBER_OF Arg1:T40 Arg2:T53	
+R71	ALTERNATIVE_NAME Arg1:T5 Arg2:T51	
+R72	WORKS_AS Arg1:T56 Arg2:T89	
+R73	PARTICIPANT_IN Arg1:T120 Arg2:T119	
+R74	PARTICIPANT_IN Arg1:T58 Arg2:T118	
+T57	DATE 2080 2096	В последние годы
+R75	MEMBER_OF Arg1:T91 Arg2:T121	
+R76	PARTICIPANT_IN Arg1:T61 Arg2:T65	
+R77	PARTICIPANT_IN Arg1:T68 Arg2:T66	
+T8	PROFESSION 213 229	вице-президентом
+T59	PROFESSION 374 390	вице-президентом
+R78	WORKPLACE Arg1:T21 Arg2:T20	
+T71	EVENT 1030 1037	избрала
+R79	AGENT Arg1:T29 Arg2:T71	
+R80	TAKES_PLACE_IN Arg1:T71 Arg2:T32	
+R81	PARTICIPANT_IN Arg1:T84 Arg2:T71	
+R82	PARTICIPANT_IN Arg1:T27 Arg2:T71	
+R83	ALTERNATIVE_NAME Arg1:T101 Arg2:T35	
+R84	TAKES_PLACE_IN Arg1:T102 Arg2:T35	
+R85	ALTERNATIVE_NAME Arg1:T48 Arg2:T56	
+R86	SUBEVENT_OF Arg1:T118 Arg2:T119	
+N1	Reference T5 Wikidata:Q11256	Фидель Кастро
+N2	Reference T11 Wikidata:Q1932603	Мигель Диас-Канель
+N3	Reference T16 Wikidata:Q46809	Рауль Кастро
+N5	Reference T22 Wikidata:Q140686	председатель
+N6	Reference T27 Wikidata:Q46809	Рауль Кастро
+N7	Reference T32 Wikidata:Q1563	Гавана
+N8	Reference T41 Wikidata:Q380782	главнокомандующий
+N10	Reference T44 Wikidata:Q188094	экономист
+N11	Reference T47 Wikidata:Q842008	Политбюро ЦК КПСС
+N12	Reference T48 Wikidata:Q46809	Рауль Кастро
+N13	Reference T53 Wikidata:Q7188	правительство
+N17	Reference T68 Wikidata:Q1516390	Государственный совет Кубы
+N19	Reference T77 Wikidata:Q83307	министр
+N21	Reference T83 Wikidata:Q82955	политик
+N24	Reference T87 Wikidata:Q380782	главнокомандующий
+N25	Reference T89 Wikidata:Q48352	глава государства
+N26	Reference T91 Wikidata:Q486839	член парламента
+N27	Reference T35 Wikidata:Q241	Куба
+N29	Reference T104 Wikidata:Q486839	член парламента
+N30	Reference T105 Wikidata:Q1076970	Политбюро ЦК КПК
+N31	Reference T106 Wikidata:Q4229898	Коммунистическая партия Голландии - Центральный комитет
+N32	Reference T107 Wikidata:Q371402	Коммунистическая партия Кубы
+N33	Reference T108 Wikidata:Q233591	коммунистическая партия
+N34	Reference T50 Wikidata:Q233591	коммунистическая партия
+N35	Reference T112 Wikidata:Q233591	коммунистическая партия
+N36	Reference T121 Wikidata:Q35749	парламент
+N38	Reference T28 Wikidata:Q4229898	Коммунистическая партия Голландии - Центральный комитет
+N15	Reference T61 Wikidata:Q1516390	Государственный совет Кубы
+N16	Reference T62 Wikidata:Q3687335	
+N14	Reference T60 Wikidata:Q89188209	
+N18	Reference T69 Wikidata:Q3687335	
+N37	Reference T2 Wikidata:NULL	нет данных
+N20	Reference T80 Wikidata:NULL	нет данных
+N41	Reference T75 Wikidata:Q4018482	
+N40	Reference T59 Wikidata:Q42178	вице-президент
+N4	Reference T18 Wikidata:Q720753	Национальная ассамблея народной власти
+N9	Reference T42 Wikidata:Q1758037	спикер
+N42	Reference T46 Wikidata:Q1369810	
+N28	Reference T103 Wikidata:Q834304	Совет министров Кубы
+N43	Reference T86 Wikidata:Q6502015	председатель Совета Министров Кубы
+N23	Reference T85 Wikidata:Q89188209	
+N22	Reference T84 Wikidata:Q1370482	президент Республики Куба
+N44	Reference T29 Wikidata:Q720753	Национальная ассамблея народной власти
+N45	Reference T93 Wikidata:NULL	нет данных
+N39	Reference T40 Wikidata:NULL	нет данных
+N46	Reference T51 Wikidata:Q11256	Фидель Кастро
+N47	Reference T64 Wikidata:Q11256	Фидель Кастро
+N48	Reference T58 Wikidata:Q11256	Фидель Кастро
+N49	Reference T14 Wikidata:Q1932603	Мигель Диас-Канель
+N50	Reference T15 Wikidata:Q1932603	Мигель Диас-Канель
+N51	Reference T21 Wikidata:Q46809	Рауль Кастро
+N52	Reference T25 Wikidata:Q46809	Рауль Кастро
+N53	Reference T56 Wikidata:Q46809	Рауль Кастро
+N54	Reference T12 Wikidata:Q46809	Рауль Кастро
+N55	Reference T3 Wikidata:Q46809	Рауль Кастро
+N56	Reference T6 Wikidata:Q46809	Рауль Кастро
+N57	Reference T1 Wikidata:Q46809	Рауль Кастро
+N58	Reference T99 Wikidata:Q1516390	Государственный совет Кубы
+N59	Reference T88 Wikidata:Q48352	глава государства
+N60	Reference T73 Wikidata:Q241	Куба
+N61	Reference T101 Wikidata:Q241	Куба
+N62	Reference T96 Wikidata:Q241	Куба
+N63	Reference T109 Wikidata:Q241	Куба
+N64	Reference T97 Wikidata:Q241	Куба
+N65	Reference T63 Wikidata:Q241	Куба
+N66	Reference T70 Wikidata:Q241	Куба
+N67	Reference T52 Wikidata:Q233591	коммунистическая партия
+N68	Reference T20 Wikidata:Q3687335	
+N69	Reference T100 Wikidata:Q3687335	
+N70	Reference T82 Wikidata:NULL	нет данных
+N71	Reference T8 Wikidata:Q42178	вице-президент
+N72	Reference T31 Wikidata:Q720753	Национальная ассамблея народной власти
+N73	Reference T120 Wikidata:Q720753	Национальная ассамблея народной власти
+N74	Reference T45 Wikidata:Q1369810	
+N75	Reference T67 Wikidata:Q89188209	

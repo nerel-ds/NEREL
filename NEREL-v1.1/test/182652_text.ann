@@ -1,0 +1,104 @@
+T1	ORGANIZATION 0 6	Буерак
+T2	WORK_OF_ART 23 36	Репост Модерн
+T3	DATE 44 53	5 августа
+T4	ORGANIZATION 82 88	Буерак
+T5	CITY 93 105	Новосибирска
+T6	ORDINAL 116 122	третий
+T9	NUMBER 178 179	9
+T10	TIME 217 226	23 минуты
+T11	WORK_OF_ART 229 235	Ладони
+T12	PRODUCT 365 374	ВКонтакте
+T13	COUNTRY 622 628	России
+T14	ORGANIZATION 749 755	Буерак
+T15	COUNTRY 759 769	российская
+T16	CITY 800 812	Новосибирске
+T17	AGE 813 822	20-летним
+T18	PERSON 823 843	Александром Макеевым
+T19	AGE 846 855	22-летним
+T20	PERSON 856 875	Артёмом Черепановым
+T21	ORGANIZATION 908 913	Афиша
+T22	ORGANIZATION 917 923	Буерак
+T23	COUNTRY 1134 1140	России
+T24	ORGANIZATION 1218 1225	Буерака
+T25	DATE 1248 1254	1980-х
+T26	NUMBER 1275 1278	два
+T27	WORK_OF_ART 1289 1305	Танцы По Расчёту
+T28	DATE 1308 1312	2016
+T29	WORK_OF_ART 1316 1336	Скромные Апартаменты
+T30	DATE 1339 1343	2017
+T31	DATE 1363 1373	5 сентября
+T32	ORGANIZATION 37 43	Буерак
+T33	COUNTRY 54 64	российская
+T7	WORK_OF_ART 141 154	Репост Модерн
+T8	WORK_OF_ART 236 238	90
+T34	WORK_OF_ART 239 252	Репост Модерн
+T35	WORK_OF_ART 253 273	Я танцую сам с собой
+T36	WORK_OF_ART 274 309	Модные ребята со взглядом в пустоту
+T37	WORK_OF_ART 310 319	Нет любви
+T38	WORK_OF_ART 320 327	Грустно
+T39	WORK_OF_ART 328 335	Неважно
+T40	WORK_OF_ART 336 341	Тупой
+T41	PROFESSION 375 384	музыканты
+T42	DATE 876 887	в 2014 году
+T43	PROFESSION 1011 1020	музыканты
+T44	PROFESSION 1163 1172	музыканты
+T45	COUNTRY 1227 1236	советской
+R1	PRODUCES Arg1:T1 Arg2:T2	
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+R3	LOCATED_IN Arg1:T5 Arg2:T33	
+R4	PRODUCES Arg1:T4 Arg2:T7	
+R5	DATE_OF_CREATION Arg1:T7 Arg2:T3	
+R6	PART_OF Arg1:T11 Arg2:T7	
+R7	PART_OF Arg1:T8 Arg2:T7	
+R8	PART_OF Arg1:T34 Arg2:T7	
+R9	PART_OF Arg1:T35 Arg2:T7	
+R10	PART_OF Arg1:T36 Arg2:T7	
+R11	PART_OF Arg1:T37 Arg2:T7	
+R12	PART_OF Arg1:T38 Arg2:T7	
+R13	PART_OF Arg1:T39 Arg2:T7	
+R14	PART_OF Arg1:T40 Arg2:T7	
+R15	FOUNDED_BY Arg1:T14 Arg2:T18	
+R16	AGE_IS Arg1:T18 Arg2:T17	
+R17	DATE_FOUNDED_IN Arg1:T14 Arg2:T42	
+R18	HEADQUARTERED_IN Arg1:T14 Arg2:T16	
+R19	LOCATED_IN Arg1:T16 Arg2:T15	
+R20	AGE_IS Arg1:T20 Arg2:T19	
+R21	PRODUCES Arg1:T24 Arg2:T27	
+R22	PRODUCES Arg1:T24 Arg2:T29	
+R23	DATE_OF_CREATION Arg1:T27 Arg2:T28	
+R24	DATE_OF_CREATION Arg1:T27 Arg2:T30	
+R25	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+R26	HEADQUARTERED_IN Arg1:T4 Arg2:T33	
+N2	Reference T5 Wikidata:Q883	Новосибирск
+N4	Reference T12 Wikidata:Q116933	ВКонтакте
+N5	Reference T13 Wikidata:Q159	Россия
+N9	Reference T21 Wikidata:Q4072772	Афиша
+N18	Reference T41 Wikidata:Q639669	музыкант
+N1	Reference T1 Wikidata:Q28665868	
+N12	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N13	Reference T8 Wikidata:NULL	нет данных
+N14	Reference T35 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:NULL	нет данных
+N20	Reference T38 Wikidata:NULL	нет данных
+N21	Reference T39 Wikidata:NULL	нет данных
+N17	Reference T40 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N8	Reference T20 Wikidata:NULL	нет данных
+N19	Reference T45 Wikidata:Q15180	СССР
+N10	Reference T27 Wikidata:NULL	нет данных
+N11	Reference T29 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q159	Россия
+N22	Reference T16 Wikidata:Q883	Новосибирск
+N23	Reference T23 Wikidata:Q159	Россия
+N24	Reference T44 Wikidata:Q639669	музыкант
+N25	Reference T43 Wikidata:Q639669	музыкант
+N26	Reference T22 Wikidata:Q28665868	
+N27	Reference T14 Wikidata:Q28665868	
+N28	Reference T32 Wikidata:Q28665868	
+N29	Reference T24 Wikidata:Q28665868	
+N30	Reference T4 Wikidata:Q28665868	
+N31	Reference T34 Wikidata:NULL	нет данных
+N32	Reference T2 Wikidata:NULL	нет данных
+N33	Reference T33 Wikidata:Q159	Россия

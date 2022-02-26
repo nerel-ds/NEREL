@@ -1,0 +1,98 @@
+T1	PERSON 0 5	Трамп
+T2	PERSON 33 44	Ким Чен Ына
+T3	PROFESSION 46 55	Президент
+T4	PERSON 60 73	Дональд Трамп
+T5	DATE 81 94	в понедельник
+T6	PERSON 126 137	Ким Чен Ына
+T7	PROFESSION 192 201	президент
+T8	DATE 219 234	нескольких дней
+T9	COUNTRY 257 273	северокорейского
+T10	PERSON 323 328	Трамп
+T11	PERSON 370 381	Ким Чен Ына
+T12	EVENT 385 402	пресс-конференции
+T13	FACILITY 405 415	Белом доме
+T14	PERSON 690 695	Трамп
+T15	COUNTRY 712 727	Северокорейский
+T16	PERSON 734 744	Ким Чен Ын
+T17	DATE 747 763	последние недели
+T18	AGE 1141 1151	36-летнего
+T19	PERSON 1152 1163	Ким Чен Ына
+T20	EVENT 1174 1195	партийном мероприятии
+T21	CITY 1198 1206	Пхеньяне
+T22	EVENT 1282 1307	празднование дня рождения
+T23	DATE 1330 1339	15 апреля
+T24	COUNTRY 1342 1357	Северокорейские
+T25	COUNTRY 1496 1507	Южная Корея
+T26	PERSON 1551 1562	Ким Чен Ына
+T27	COUNTRY 1660 1674	Северной Корее
+T28	CITY 1698 1703	Сеула
+T29	COUNTRY 1705 1720	северокорейский
+T30	DATE 1736 1747	с 13 апреля
+T31	CITY 1767 1773	Вонсан
+T32	PROFESSION 46 59	Президент США
+T33	PROFESSION 192 205	президент США
+T34	PROFESSION 257 280	северокорейского лидера
+T36	PROFESSION 712 733	Северокорейский лидер
+T38	PROFESSION 1705 1726	северокорейский лидер
+T40	COUNTRY 56 59	США
+T41	COUNTRY 202 205	США
+T42	DISEASE 927 939	коронавируса
+T44	DATE 1207 1216	11 апреля
+R1	WORKPLACE Arg1:T32 Arg2:T40	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R3	WORKS_AS Arg1:T4 Arg2:T32	
+R4	WORKPLACE Arg1:T4 Arg2:T40	
+R5	WORKPLACE Arg1:T33 Arg2:T41	
+R6	WORKPLACE Arg1:T34 Arg2:T9	
+R7	WORKS_AS Arg1:T6 Arg2:T34	
+R8	WORKPLACE Arg1:T6 Arg2:T9	
+R9	PARTICIPANT_IN Arg1:T10 Arg2:T12	
+R10	TAKES_PLACE_IN Arg1:T12 Arg2:T13	
+R11	WORKPLACE Arg1:T36 Arg2:T15	
+R12	WORKS_AS Arg1:T16 Arg2:T36	
+R13	WORKPLACE Arg1:T16 Arg2:T15	
+R14	AGE_IS Arg1:T19 Arg2:T18	
+R15	PARTICIPANT_IN Arg1:T19 Arg2:T20	
+R16	TAKES_PLACE_IN Arg1:T20 Arg2:T21	
+R17	POINT_IN_TIME Arg1:T20 Arg2:T44	
+R18	POINT_IN_TIME Arg1:T22 Arg2:T23	
+T35	ORGANIZATION 1342 1364	Северокорейские власти
+R19	HEADQUARTERED_IN Arg1:T35 Arg2:T24	
+R20	ALTERNATIVE_NAME Arg1:T24 Arg2:T27	
+R21	LOCATED_IN Arg1:T28 Arg2:T25	
+R22	WORKPLACE Arg1:T38 Arg2:T29	
+R23	LOCATED_IN Arg1:T38 Arg2:T31	
+R24	WORKS_AS Arg1:T19 Arg2:T38	
+R25	LOCATED_IN Arg1:T19 Arg2:T31	
+R26	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R27	WORKS_AS Arg1:T26 Arg2:T38	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T10 Wikidata:Q22686	Дональд Трамп
+N3	Reference T13 Wikidata:Q35525	Белый дом
+N4	Reference T16 Wikidata:Q56226	Ким Чен Ын
+N5	Reference T21 Wikidata:Q18808	Пхеньян
+N6	Reference T25 Wikidata:Q884	Республика Корея
+N8	Reference T27 Wikidata:Q423	КНДР
+N9	Reference T28 Wikidata:Q8684	Сеул
+N10	Reference T31 Wikidata:Q109374	Вонсан
+N11	Reference T33 Wikidata:Q11696	президент США
+N13	Reference T41 Wikidata:Q30	США
+N12	Reference T36 Wikidata:NULL	нет данных
+N14	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T26 Wikidata:Q56226	Ким Чен Ын
+N15	Reference T7 Wikidata:Q30461	президент
+N16	Reference T4 Wikidata:Q22686	Дональд Трамп
+N17	Reference T14 Wikidata:Q22686	Дональд Трамп
+N18	Reference T1 Wikidata:Q22686	Дональд Трамп
+N19	Reference T15 Wikidata:Q423	КНДР
+N20	Reference T24 Wikidata:Q423	КНДР
+N21	Reference T29 Wikidata:Q423	КНДР
+N22	Reference T9 Wikidata:Q423	КНДР
+N23	Reference T32 Wikidata:Q11696	президент США
+N24	Reference T40 Wikidata:Q30	США
+N25	Reference T34 Wikidata:NULL	нет данных
+N26	Reference T38 Wikidata:NULL	нет данных
+N27	Reference T19 Wikidata:Q56226	Ким Чен Ын
+N28	Reference T11 Wikidata:Q56226	Ким Чен Ын
+N29	Reference T2 Wikidata:Q56226	Ким Чен Ын
+N30	Reference T6 Wikidata:Q56226	Ким Чен Ын

@@ -1,0 +1,63 @@
+T1	PERSON 20 33	Уитни Хьюстон
+T2	ORGANIZATION 77 94	Ассошиэйтед пресс
+T3	AGE 97 106	48-летняя
+T4	PERSON 114 127	Уитни Хьюстон
+T5	PERSON 273 286	Уитни Хьюстон
+T6	FACILITY 315 335	Беверли Хиллз Хилтон
+T7	DATE 337 347	11 февраля
+T8	AWARD 381 387	Грэмми
+T9	PROFESSION 473 480	коронер
+T10	PERSON 490 503	Уитни Хьюстон
+T11	PRODUCT 592 602	Алпразолам
+T12	PRODUCT 621 629	Бенадрил
+T14	PERSON 650 665	Патриша Хьюстон
+T15	EVENT 34 41	утонула
+T16	PROFESSION 107 113	певица
+T17	EVENT 128 143	утонула в ванне
+T18	EVENT 264 270	гибели
+T19	EVENT 358 379	церемонии награждения
+T20	PROFESSION 399 405	певицы
+T21	PROFESSION 633 649	Менеджер Хьюстон
+T22	PERSON 642 649	Хьюстон
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T15	
+T23	DISEASE 186 200	болезнь сердца
+R2	MEDICAL_CONDITION Arg1:T4 Arg2:T23	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T17	
+R4	WORKS_AS Arg1:T4 Arg2:T16	
+T24	EVENT 128 135	утонула
+R5	AGE_IS Arg1:T4 Arg2:T3	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T18	
+R7	AGE_IS Arg1:T16 Arg2:T3	
+R8	CAUSE_OF_DEATH Arg1:T4 Arg2:T17	
+T25	EVENT 292 307	найдена в ванне
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T25	
+R10	TAKES_PLACE_IN Arg1:T25 Arg2:T6	
+R11	POINT_IN_TIME Arg1:T25 Arg2:T7	
+T26	PROFESSION 152 166	патологоанатом
+R12	ALTERNATIVE_NAME Arg1:T10 Arg2:T22	
+R13	WORKS_AS Arg1:T14 Arg2:T21	
+R14	SUBORDINATE_OF Arg1:T14 Arg2:T22	
+R15	LOCATED_IN Arg1:T5 Arg2:T6	
+R16	DATE_OF_DEATH Arg1:T4 Arg2:T7	
+R17	PLACE_OF_DEATH Arg1:T4 Arg2:T6	
+T27	DISTRICT 315 328	Беверли Хиллз
+R18	LOCATED_IN Arg1:T6 Arg2:T27	
+R19	WORKS_AS Arg1:T5 Arg2:T20	
+R20	INANIMATE_INVOLVED Arg1:T8 Arg2:T19	
+N1	Reference T2 Wikidata:Q40469	Ассошиэйтед Пресс
+N3	Reference T8 Wikidata:Q41254	«Грэмми»
+N4	Reference T9 Wikidata:Q1134614	коронер
+N5	Reference T10 Wikidata:Q34389	Уитни Хьюстон
+N6	Reference T11 Wikidata:Q319877	Алпразолам
+N8	Reference T16 Wikidata:Q177220	певец
+N10	Reference T27 Wikidata:Q127856	Беверли-Хиллз
+N11	Reference T26 Wikidata:Q3615132	
+N2	Reference T6 Wikidata:Q2131379	
+N12	Reference T12 Wikidata:Q413486	
+N9	Reference T21 Wikidata:NULL	нет данных
+N7	Reference T14 Wikidata:NULL	нет данных
+N13	Reference T22 Wikidata:Q34389	Уитни Хьюстон
+N14	Reference T5 Wikidata:Q34389	Уитни Хьюстон
+N15	Reference T4 Wikidata:Q34389	Уитни Хьюстон
+N16	Reference T1 Wikidata:Q34389	Уитни Хьюстон
+N17	Reference T20 Wikidata:Q177220	певец

@@ -1,0 +1,175 @@
+T1	ORGANIZATION 14 20	Сенате
+T2	IDEOLOGY 34 46	консерватору
+T3	STATE_OR_PROVINCE 50 57	Алабамы
+T4	PROFESSION 58 65	Сенатор
+T6	PERSON 83 94	Джефф Сешнс
+T7	PERSON 96 109	Jeff Sessions
+T8	ORGANIZATION 143 173	сенатском юридическом комитете
+T11	ORGANIZATION 181 198	Los Angeles Times
+T12	PERSON 200 205	Сешнс
+T13	PERSON 213 228	Арлена Спектера
+T14	PERSON 230 243	Arlen Specter
+T15	ORGANIZATION 293 314	Юридическому комитету
+T16	PROFESSION 356 377	члена Верховного суда
+T17	ORGANIZATION 362 377	Верховного суда
+T18	PROFESSION 397 406	президент
+T19	AGE 431 440	62-летний
+T20	PERSON 513 520	Спектер
+T21	PERSON 605 610	Обамы
+T22	PERSON 615 620	Сешнс
+T23	ORGANIZATION 695 715	юридическом комитете
+T24	PERSON 829 843	Дэвиду Саутеру
+T25	PERSON 845 857	David Souter
+T26	PROFESSION 861 866	Судья
+T27	ORGANIZATION 891 920	высшую судебную инстанцию США
+T28	COUNTRY 917 920	США
+T29	DATE 921 927	в июне
+T30	PERSON 931 936	Обама
+T31	ORGANIZATION 951 967	Associated Press
+T32	DATE 1010 1026	к началу октября
+T33	PROFESSION 1028 1037	Президент
+T34	IDEOLOGY 1117 1130	республиканца
+T35	PERSON 1131 1143	Оррина Хэтча
+T36	PERSON 1145 1156	Orrin Hatch
+T37	PERSON 1159 1164	Обама
+T38	PERSON 1226 1230	Хэтч
+T39	PERSON 1267 1272	Сешнс
+T40	PERSON 1300 1311	Джефф Сешнс
+T41	CITY 1325 1332	Алабаму
+T42	ORGANIZATION 1335 1341	Сенате
+T44	DATE 1416 1427	в 1986 году
+T45	PROFESSION 1447 1465	федеральным судьей
+T46	ORGANIZATION 1470 1489	юридический комитет
+T47	NUMBER 1610 1614	Один
+T48	PERSON 1633 1639	Сешнса
+T49	PERSON 1650 1659	Спектером
+T50	PERSON 1703 1709	Сешнса
+T51	STATE_OR_PROVINCE 69 82	штата Алабама
+T53	ORGANIZATION 143 152	сенатском
+T9	ORGANIZATION 153 173	юридическом комитете
+T10	CITY 181 192	Los Angeles
+T54	PERSON 407 418	Барак Обама
+T55	PERSON 441 446	Сешнс
+T56	PERSON 498 506	Спектеру
+T57	ORGANIZATION 782 797	Верховного суда
+T58	PROFESSION 776 797	члена Верховного суда
+T59	PERSON 867 873	Саутер
+T60	PROFESSION 1090 1100	сенаторами
+T61	DATE 1342 1353	с 1997 года
+T62	PROFESSION 1371 1399	генеральным прокурором штата
+T65	PROFESSION 1532 1541	сенаторам
+T66	COUNTRY 21 24	США
+T67	ORGANIZATION 14 24	Сенате США
+T52	IDEOLOGY 126 140	республиканцем
+T68	IDEOLOGY 281 291	демократов
+T69	IDEOLOGY 638 651	республиканец
+T70	IDEOLOGY 1283 1297	республиканцев
+T71	IDEOLOGY 1199 1207	радикала
+T72	IDEOLOGY 1212 1223	экстремиста
+T73	IDEOLOGY 1601 1608	расизме
+R1	ORIGINS_FROM Arg1:T6 Arg2:T51	
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R3	WORKS_AS Arg1:T54 Arg2:T18	
+R4	AGE_IS Arg1:T55 Arg2:T19	
+R5	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R6	WORKS_AS Arg1:T6 Arg2:T4	
+R7	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+R8	WORKS_AS Arg1:T59 Arg2:T26	
+R9	IDEOLOGY_OF Arg1:T35 Arg2:T34	
+R10	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R11	HEADQUARTERED_IN Arg1:T67 Arg2:T66	
+R12	ORIGINS_FROM Arg1:T2 Arg2:T3	
+R13	IDEOLOGY_OF Arg1:T6 Arg2:T52	
+R14	IDEOLOGY_OF Arg1:T6 Arg2:T2	
+R15	HEADQUARTERED_IN Arg1:T11 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R17	IDEOLOGY_OF Arg1:T13 Arg2:T68	
+R18	IDEOLOGY_OF Arg1:T6 Arg2:T2	
+R19	WORKPLACE Arg1:T16 Arg2:T17	
+R20	ALTERNATIVE_NAME Arg1:T13 Arg2:T56	
+R21	ALTERNATIVE_NAME Arg1:T54 Arg2:T21	
+T5	IDEOLOGY 623 651	консервативный республиканец
+R22	IDEOLOGY_OF Arg1:T22 Arg2:T5	
+R23	WORKPLACE Arg1:T58 Arg2:T57	
+R24	ALTERNATIVE_NAME Arg1:T24 Arg2:T59	
+T43	ORGANIZATION 891 916	высшую судебную инстанцию
+R25	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+R26	WORKS_AS Arg1:T30 Arg2:T33	
+R27	ALTERNATIVE_NAME Arg1:T35 Arg2:T38	
+R28	IDEOLOGY_OF Arg1:T39 Arg2:T70	
+R29	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R30	ORIGINS_FROM Arg1:T40 Arg2:T41	
+R31	WORKPLACE Arg1:T40 Arg2:T42	
+R32	WORKS_AS Arg1:T40 Arg2:T62	
+R33	WORKPLACE Arg1:T62 Arg2:T41	
+T63	PERSON 1428 1433	Сешнс
+R34	IDEOLOGY_OF Arg1:T63 Arg2:T73	
+T64	EVENT 820 828	отставку
+T74	EVENT 882 890	покинуть
+R35	ALTERNATIVE_NAME Arg1:T64 Arg2:T74	
+R36	AGENT Arg1:T24 Arg2:T64	
+R37	PARTICIPANT_IN Arg1:T57 Arg2:T64	
+R38	AGENT Arg1:T59 Arg2:T74	
+R39	PARTICIPANT_IN Arg1:T27 Arg2:T74	
+R40	POINT_IN_TIME Arg1:T74 Arg2:T29	
+R41	TAKES_PLACE_IN Arg1:T74 Arg2:T28	
+R42	PART_OF Arg1:T8 Arg2:T53	
+R43	ORIGINS_FROM Arg1:T4 Arg2:T51	
+R44	WORKPLACE Arg1:T6 Arg2:T53	
+R45	ALTERNATIVE_NAME Arg1:T56 Arg2:T20	
+N1	Reference T3 Wikidata:Q173	Алабама
+N3	Reference T11 Wikidata:Q188515	Los Angeles Times
+N4	Reference T18 Wikidata:Q30461	президент
+N6	Reference T26 Wikidata:Q16533	судья
+N9	Reference T35 Wikidata:Q381157	Хэтч, Оррин
+N10	Reference T37 Wikidata:Q76	Барак Обама
+N11	Reference T41 Wikidata:Q173	Алабама
+N15	Reference T51 Wikidata:Q173	Алабама
+N18	Reference T57 Wikidata:Q190752	верховный суд
+N19	Reference T58 Wikidata:Q11144	член Верховного суда США
+N21	Reference T66 Wikidata:Q30	США
+N22	Reference T67 Wikidata:Q66096	Сенат США
+N16	Reference T53 Wikidata:Q2570643	сенат
+N2	Reference T8 Wikidata:NULL	нет данных
+N17	Reference T10 Wikidata:Q65	Лос-Анджелес
+N24	Reference T12 Wikidata:Q358443	
+N25	Reference T56 Wikidata:Q363055	Спектер, Арлен
+N5	Reference T24 Wikidata:Q472547	
+N7	Reference T27 Wikidata:Q11201	Верховный суд США
+N23	Reference T43 Wikidata:Q190752	верховный суд
+N8	Reference T31 Wikidata:Q40469	Ассошиэйтед Пресс
+N12	Reference T42 Wikidata:Q2570643	сенат
+N26	Reference T62 Wikidata:Q7603658	
+N13	Reference T45 Wikidata:Q1006696	
+N14	Reference T46 Wikidata:NULL	нет данных
+N20	Reference T65 Wikidata:Q4416090	
+N27	Reference T48 Wikidata:Q358443	
+N28	Reference T33 Wikidata:Q30461	президент
+N29	Reference T38 Wikidata:Q381157	Хэтч, Оррин
+N30	Reference T36 Wikidata:Q381157	Хэтч, Оррин
+N31	Reference T30 Wikidata:Q76	Барак Обама
+N32	Reference T21 Wikidata:Q76	Барак Обама
+N33	Reference T54 Wikidata:Q76	Барак Обама
+N34	Reference T17 Wikidata:Q190752	верховный суд
+N35	Reference T16 Wikidata:Q11144	член Верховного суда США
+N36	Reference T28 Wikidata:Q30	США
+N37	Reference T6 Wikidata:Q358443	
+N38	Reference T7 Wikidata:Q358443	
+N39	Reference T14 Wikidata:Q363055	Спектер, Арлен
+N40	Reference T49 Wikidata:Q363055	Спектер, Арлен
+N41	Reference T13 Wikidata:Q363055	Спектер, Арлен
+N42	Reference T20 Wikidata:Q363055	Спектер, Арлен
+N43	Reference T25 Wikidata:Q472547	
+N44	Reference T59 Wikidata:Q472547	
+N45	Reference T1 Wikidata:Q2570643	сенат
+N46	Reference T23 Wikidata:NULL	нет данных
+N47	Reference T15 Wikidata:NULL	нет данных
+N48	Reference T9 Wikidata:NULL	нет данных
+N49	Reference T4 Wikidata:Q4416090	
+N50	Reference T60 Wikidata:Q4416090	
+N51	Reference T40 Wikidata:Q358443	
+N52	Reference T63 Wikidata:Q358443	
+N53	Reference T39 Wikidata:Q358443	
+N54	Reference T55 Wikidata:Q358443	
+N55	Reference T50 Wikidata:Q358443	
+N56	Reference T22 Wikidata:Q358443	

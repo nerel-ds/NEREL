@@ -1,0 +1,89 @@
+T1	ORGANIZATION 60 84	Выборгском районном суде
+T2	AGE 119 128	40-летним
+T3	PERSON 129 146	Петром Завьяловым
+T4	PROFESSION 204 212	артистки
+T5	PERSON 220 241	Александры Завьяловой
+T6	PROFESSION 272 279	Адвокат
+T7	PERSON 288 303	Валентин Пышкин
+T8	DATE 375 394	3 февраля 2016 года
+T9	FACILITY 409 423	Гаврской улице
+T10	CITY 426 436	Петербурге
+T11	PERSON 580 600	Александра Семёновна
+T12	PERSON 692 699	Татьяна
+T13	TIME 715 729	около полуночи
+T14	PERSON 755 759	Пётр
+T15	PERSON 794 801	Татьяна
+T17	FACILITY 825 839	Гаврской улице
+T18	PERSON 1143 1152	Завьялова
+T19	DATE 1186 1195	4 февраля
+T20	AGE 1223 1229	80 лет
+T21	PERSON 12 22	Завьяловой
+T22	PROFESSION 4 11	актрисы
+T23	CRIME 41 49	убийстве
+T24	CITY 85 101	Санкт-Петербурга
+T25	CITY 60 70	Выборгском
+T26	COUNTRY 213 219	России
+T27	PERSON 280 285	Петра
+T28	PERSON 437 450	Пётр Завьялов
+T29	PROFESSION 1007 1014	актрисы
+T16	CRIME 169 190	убийстве своей матери
+T30	CRIME 41 56	убийстве матери
+T31	CRIME 169 177	убийстве
+R1	WORKS_AS Arg1:T21 Arg2:T22	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T24	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T2	
+R4	CONVICTED_OF Arg1:T3 Arg2:T16	
+R5	PARENT_OF Arg1:T5 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T27	
+T32	EVENT 530 542	ударил ножом
+R7	LOCATED_IN Arg1:T9 Arg2:T10	
+R8	PARTICIPANT_IN Arg1:T28 Arg2:T32	
+R9	POINT_IN_TIME Arg1:T32 Arg2:T8	
+R10	PARENT_OF Arg1:T11 Arg2:T12	
+R11	ALTERNATIVE_NAME Arg1:T28 Arg2:T14	
+R12	SIBLING Arg1:T12 Arg2:T14	
+R13	PLACE_RESIDES_IN Arg1:T28 Arg2:T9	
+T33	EVENT 111 114	суд
+R14	TAKES_PLACE_IN Arg1:T33 Arg2:T24	
+R15	PARTICIPANT_IN Arg1:T1 Arg2:T33	
+R16	PARTICIPANT_IN Arg1:T3 Arg2:T33	
+R17	WORKS_AS Arg1:T7 Arg2:T6	
+T34	EVENT 601 611	скончалась
+R18	PARTICIPANT_IN Arg1:T11 Arg2:T34	
+R19	HAS_CAUSE Arg1:T34 Arg2:T32	
+R20	CAUSE_OF_DEATH Arg1:T11 Arg2:T32	
+R21	AGE_IS Arg1:T18 Arg2:T20	
+R22	ALTERNATIVE_NAME Arg1:T11 Arg2:T18	
+R23	PARTICIPANT_IN Arg1:T21 Arg2:T30	
+R24	ALTERNATIVE_NAME Arg1:T21 Arg2:T5	
+T35	AWARD 192 219	Заслуженной артистки России
+R25	AWARDED_WITH Arg1:T5 Arg2:T35	
+R26	ORIGINS_FROM Arg1:T35 Arg2:T26	
+R27	WORKS_AS Arg1:T5 Arg2:T4	
+R28	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R29	PARENT_OF Arg1:T11 Arg2:T28	
+R30	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R31	PARENT_OF Arg1:T11 Arg2:T12	
+N1	Reference T1 Wikidata:Q579642	Выборгская
+N3	Reference T6 Wikidata:Q40348	адвокат
+N5	Reference T10 Wikidata:Q656	Санкт-Петербург
+N7	Reference T22 Wikidata:Q33999	актёр
+N8	Reference T24 Wikidata:Q656	Санкт-Петербург
+N10	Reference T26 Wikidata:Q159	Россия
+N9	Reference T25 Wikidata:Q14657	
+N2	Reference T4 Wikidata:Q33999	актёр
+N12	Reference T35 Wikidata:Q458903	Заслуженный артист Российской Федерации
+N11	Reference T27 Wikidata:NULL	нет данных
+N4	Reference T7 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q2391790	
+N13	Reference T17 Wikidata:Q4131332	
+N14	Reference T18 Wikidata:Q4183350	
+N15	Reference T29 Wikidata:Q33999	актёр
+N16	Reference T28 Wikidata:NULL	нет данных
+N17	Reference T14 Wikidata:NULL	нет данных
+N18	Reference T3 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:Q2391790	
+N20	Reference T9 Wikidata:Q4131332	
+N21	Reference T11 Wikidata:Q4183350	
+N22	Reference T5 Wikidata:Q4183350	
+N23	Reference T21 Wikidata:Q4183350	

@@ -1,0 +1,277 @@
+T1	PERSON 44 62	Александра Арапова
+T2	DATE 64 77	5 ноября 2019
+T3	CITY 85 94	Дубенском
+T4	ORGANIZATION 103 187	Мордовского республиканского объединенного краеведческого музея имени И. Д. Воронина
+T6	PERSON 326 344	Александра Арапова
+T7	AGE 346 354	60-летие
+T8	AGE 465 473	60-летию
+T9	PERSON 491 509	Александра Арапова
+T10	CITY 511 520	Дубенский
+T11	ORGANIZATION 511 540	Дубенский краеведческий музей
+T12	CITY 542 551	Дубенский
+T13	ORGANIZATION 608 688	Мордовский республиканский объединенный краеведческий музей имени И. Д. Воронина
+T15	STATE_OR_PROVINCE 692 711	Республика Мордовия
+T16	COUNTRY 713 719	Россия
+T18	DATE 721 730	5.11.2019
+T20	PERSON 733 742	А. Арапов
+T21	DATE 753 771	1 ноября 1959 года
+T22	CITY 779 788	Чиндяново
+T23	ORGANIZATION 798 844	факультет журналистики МГУ им. М.В. Ломоносова
+T26	CITY 856 865	Саранской
+T27	ORGANIZATION 874 896	Мордовский университет
+T28	DATE 901 912	с 2000 года
+T29	ORGANIZATION 941 946	Сятко
+T31	ORGANIZATION 972 993	Союз писателей России
+T32	COUNTRY 1089 1095	России
+T33	COUNTRY 1115 1122	Венгрии
+T34	COUNTRY 1124 1131	Эстонии
+T35	COUNTRY 1133 1142	Финляндии
+T36	DATE 1265 1271	1992 г
+T37	DATE 1284 1290	2001 г
+T38	DATE 1331 1337	2006 г
+T39	AWARD 1386 1398	стипендиатом
+T42	PERSON 1479 1486	Арапова
+T43	PROFESSION 1528 1544	Заслуженный поэт
+T45	PRODUCT 1588 1607	Литературная Россия
+T46	DATE 1614 1626	летом 2011 г
+T47	ORDINAL 1639 1640	8
+T48	CITY 1648 1657	Дебенской
+T49	EVENT 1665 1682	открытии выставки
+T50	AGE 1756 1764	60-летию
+T51	PERSON 1782 1800	Александра Арапова
+T52	CITY 1802 1811	Дубенский
+T54	CITY 1833 1842	Дубенский
+T56	ORGANIZATION 1899 1979	Мордовский республиканский объединенный краеведческий музей имени И. Д. Воронина
+T58	STATE_OR_PROVINCE 1983 2002	Республика Мордовия
+T59	COUNTRY 2004 2010	Россия
+T60	DATE 2012 2021	5.11.2019
+T63	ORGANIZATION 2158 2169	Новая жизнь
+T65	PERSON 2176 2185	А. Арапов
+T66	ORDINAL 2223 2224	8
+T68	PERSON 2324 2335	А. Араповым
+T70	ORGANIZATION 2518 2523	Сятко
+T71	PERSON 2528 2544	Любовь Дергачева
+T72	PERSON 2581 2588	Арапова
+T73	LANGUAGE 2592 2601	эрзянском
+T74	EVENT 10 33	С любовью о родном крае
+T75	EVENT 37 43	юбилею
+T5	PERSON 173 187	И. Д. Воронина
+T76	ORGANIZATION 85 187	Дубенском филиале Мордовского республиканского объединенного краеведческого музея имени И. Д. Воронина
+T77	EVENT 198 206	выставка
+T78	EVENT 210 239	Тирень крайденть седей мельсэ
+T79	EVENT 263 286	С любовью о родном крае
+T80	NATIONALITY 309 319	эрзянского
+T81	PROFESSION 320 325	поэта
+T82	EVENT 374 391	Открытие выставки
+T83	EVENT 393 422	Тирень крайденть седей мельсэ
+T84	EVENT 426 449	С любовью о родном крае
+T85	NATIONALITY 474 484	эрзянского
+T86	PROFESSION 485 490	поэта
+T87	ORGANIZATION 542 688	Дубенский филиал Государственного бюджетного учреждения культуры «Мордовский республиканский объединенный краеведческий музей имени И. Д. Воронина
+T14	PERSON 674 688	И. Д. Воронина
+T19	PERSON 829 844	М.В. Ломоносова
+T24	ORGANIZATION 821 844	МГУ им. М.В. Ломоносова
+T25	ORGANIZATION 821 824	МГУ
+T88	PROFESSION 921 931	редактором
+T89	PROFESSION 913 931	главным редактором
+T90	PROFESSION 913 947	главным редактором журнала «Сятко»
+T91	LANGUAGE 1013 1020	русском
+T92	WORK_OF_ART 1180 1187	Вайгель
+T93	WORK_OF_ART 1211 1216	Голос
+T94	LANGUAGE 1204 1208	русс
+T95	DATE 1218 1224	1990 г
+T96	WORK_OF_ART 1229 1235	Вальма
+T97	LANGUAGE 1252 1256	русс
+T98	WORK_OF_ART 1259 1263	Окно
+T99	WORK_OF_ART 1276 1281	Взмах
+T30	WORK_OF_ART 1295 1300	Мейле
+T100	LANGUAGE 1317 1321	русс
+T101	WORK_OF_ART 1324 1329	После
+T102	PROFESSION 1376 1380	поэт
+T103	ORGANIZATION 1413 1449	Ассоциации финно-угорских литературы
+T40	ORGANIZATION 1399 1449	международной Ассоциации финно-угорских литературы
+T104	PERSON 1463 1477	М. А. Кастрена
+T41	PROFESSION 1499 1526	исполнителя авторской песни
+T107	PROFESSION 1540 1544	поэт
+T108	STATE_OR_PROVINCE 1545 1553	Мордовии
+T109	DATE 1555 1561	2002 г
+T110	ORGANIZATION 1648 1661	Дебенской СОШ
+T111	EVENT 1684 1713	Тирень крайденть седей мельсэ
+T112	EVENT 1717 1740	С любовью о родном крае
+T113	NATIONALITY 1765 1775	эрзянского
+T114	PROFESSION 1776 1781	поэта
+T115	ORGANIZATION 1802 1831	Дубенский краеведческий музей
+T53	ORGANIZATION 1850 1980	Государственного бюджетного учреждения культуры «Мордовский республиканский объединенный краеведческий музей имени И. Д. Воронина»
+T55	ORGANIZATION 1833 1980	Дубенский филиал Государственного бюджетного учреждения культуры «Мордовский республиканский объединенный краеведческий музей имени И. Д. Воронина»
+T57	PERSON 1965 1979	И. Д. Воронина
+T61	PROFESSION 2062 2067	поэта
+T64	ORGANIZATION 2232 2245	Дубенской СОШ
+T116	CITY 2232 2241	Дубенской
+T67	LANGUAGE 256 260	русс
+T69	STATE_OR_PROVINCE 103 114	Мордовского
+R1	AGE_IS Arg1:T6 Arg2:T7	
+R2	WORKS_AS Arg1:T6 Arg2:T81	
+R3	ORIGINS_FROM Arg1:T6 Arg2:T80	
+R4	TAKES_PLACE_IN Arg1:T78 Arg2:T69	
+R5	POINT_IN_TIME Arg1:T78 Arg2:T2	
+R6	WORKS_AS Arg1:T9 Arg2:T86	
+R7	AGE_IS Arg1:T9 Arg2:T8	
+R8	ORIGINS_FROM Arg1:T9 Arg2:T85	
+R9	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R10	PLACE_OF_BIRTH Arg1:T20 Arg2:T22	
+R11	SCHOOLS_ATTENDED Arg1:T20 Arg2:T23	
+R12	HEADQUARTERED_IN Arg1:T87 Arg2:T15	
+R13	LOCATED_IN Arg1:T15 Arg2:T16	
+R14	WORKPLACE Arg1:T20 Arg2:T27	
+R15	WORKPLACE Arg1:T20 Arg2:T29	
+R16	MEMBER_OF Arg1:T20 Arg2:T31	
+T17	COUNTRY 987 993	России
+R17	WORKPLACE Arg1:T71 Arg2:T70	
+R18	HEADQUARTERED_IN Arg1:T11 Arg2:T10	
+R19	ALTERNATIVE_NAME Arg1:T9 Arg2:T20	
+R20	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R21	WORKS_AS Arg1:T20 Arg2:T90	
+R22	PRODUCES Arg1:T20 Arg2:T92	
+R23	ALTERNATIVE_NAME Arg1:T92 Arg2:T93	
+R24	DATE_OF_CREATION Arg1:T92 Arg2:T95	
+R25	ALTERNATIVE_NAME Arg1:T96 Arg2:T98	
+R26	DATE_OF_CREATION Arg1:T96 Arg2:T36	
+R27	DATE_OF_CREATION Arg1:T99 Arg2:T37	
+R28	ALTERNATIVE_NAME Arg1:T30 Arg2:T101	
+R29	DATE_OF_CREATION Arg1:T30 Arg2:T38	
+R30	HEADQUARTERED_IN Arg1:T110 Arg2:T48	
+R31	ALTERNATIVE_NAME Arg1:T111 Arg2:T112	
+R32	ORIGINS_FROM Arg1:T51 Arg2:T113	
+R33	WORKS_AS Arg1:T51 Arg2:T114	
+R34	AGE_IS Arg1:T51 Arg2:T50	
+R35	HEADQUARTERED_IN Arg1:T115 Arg2:T52	
+R36	LOCATED_IN Arg1:T52 Arg2:T58	
+R37	LOCATED_IN Arg1:T58 Arg2:T59	
+R38	ALTERNATIVE_NAME Arg1:T83 Arg2:T84	
+R39	HEADQUARTERED_IN Arg1:T87 Arg2:T12	
+R40	SUBEVENT_OF Arg1:T82 Arg2:T83	
+R41	ALTERNATIVE_NAME Arg1:T78 Arg2:T79	
+R42	HEADQUARTERED_IN Arg1:T76 Arg2:T3	
+T62	AWARD 1386 1449	стипендиатом международной Ассоциации финно-угорских литературы
+R43	AWARDED_WITH Arg1:T102 Arg2:T62	
+R44	PRODUCES Arg1:T20 Arg2:T96	
+R45	PRODUCES Arg1:T20 Arg2:T99	
+R46	PRODUCES Arg1:T20 Arg2:T30	
+R47	WORKS_AS Arg1:T20 Arg2:T102	
+R48	WORKS_AS Arg1:T42 Arg2:T41	
+R49	AWARDED_WITH Arg1:T42 Arg2:T62	
+R50	DATE_OF_DEATH Arg1:T42 Arg2:T46	
+T117	AWARD 1565 1608	лауреат еженедельника «Литературная Россия»
+R51	AWARDED_WITH Arg1:T42 Arg2:T117	
+T44	AWARD 1528 1553	Заслуженный поэт Мордовии
+R52	WORKS_AS Arg1:T42 Arg2:T107	
+R53	OWNER_OF Arg1:T4 Arg2:T76	
+R54	OWNER_OF Arg1:T13 Arg2:T87	
+R55	PART_OF Arg1:T23 Arg2:T24	
+R56	WORKPLACE Arg1:T90 Arg2:T29	
+R57	HEADQUARTERED_IN Arg1:T31 Arg2:T17	
+R58	ORIGINS_FROM Arg1:T114 Arg2:T113	
+R59	ALTERNATIVE_NAME Arg1:T53 Arg2:T56	
+R60	OWNER_OF Arg1:T53 Arg2:T55	
+R61	HEADQUARTERED_IN Arg1:T64 Arg2:T116	
+R62	ALTERNATIVE_NAME Arg1:T68 Arg2:T72	
+R63	ALTERNATIVE_NAME Arg1:T51 Arg2:T68	
+R64	ORIGINS_FROM Arg1:T86 Arg2:T85	
+R65	ORIGINS_FROM Arg1:T81 Arg2:T80	
+R66	INANIMATE_INVOLVED Arg1:T1 Arg2:T75	
+R67	HAS_CAUSE Arg1:T74 Arg2:T75	
+R68	SUBEVENT_OF Arg1:T49 Arg2:T111	
+N4	Reference T13 Wikidata:Q4302553	Мордовский республиканский объединенный краеведческий музей
+N5	Reference T22 Wikidata:Q18173145	Чиндяново
+N6	Reference T23 Wikidata:Q4480746	факультет журналистики МГУ
+N8	Reference T31 Wikidata:Q3920305	Союз писателей России
+N9	Reference T33 Wikidata:Q28	Венгрия
+N10	Reference T34 Wikidata:Q191	Эстония
+N11	Reference T35 Wikidata:Q33	Финляндия
+N14	Reference T45 Wikidata:Q4263780	Литературная Россия
+N15	Reference T58 Wikidata:Q5340	Мордовия
+N16	Reference T59 Wikidata:Q159	Россия
+N20	Reference T73 Wikidata:Q29952	эрзянский язык
+N23	Reference T81 Wikidata:Q49757	поэт
+N26	Reference T19 Wikidata:Q58720	Михаил Васильевич Ломоносов
+N28	Reference T25 Wikidata:Q13164	Московский государственный университет
+N29	Reference T88 Wikidata:Q876864	редактор
+N30	Reference T89 Wikidata:Q589298	главный редактор
+N31	Reference T91 Wikidata:Q7737	русский язык
+N39	Reference T108 Wikidata:Q5340	Мордовия
+N1	Reference T3 Wikidata:Q4169964	
+N43	Reference T69 Wikidata:Q5340	Мордовия
+N22	Reference T76 Wikidata:Q94659482	
+N21	Reference T5 Wikidata:Q4125486	
+N42	Reference T67 Wikidata:Q7737	русский язык
+N24	Reference T85 Wikidata:Q47246	
+N2	Reference T9 Wikidata:Q17908323	
+N3	Reference T11 Wikidata:Q94659482	
+N25	Reference T87 Wikidata:Q94659482	
+N27	Reference T24 Wikidata:Q13164	Московский государственный университет
+N47	Reference T26 Wikidata:Q5343	Саранск
+N48	Reference T90 Wikidata:NULL	нет данных
+N12	Reference T39 Wikidata:NULL	нет данных
+N49	Reference T70 Wikidata:Q260427	
+N19	Reference T71 Wikidata:NULL	нет данных
+N41	Reference T64 Wikidata:NULL	нет данных
+N18	Reference T65 Wikidata:Q17908323	
+N7	Reference T27 Wikidata:NULL	нет данных
+N32	Reference T93 Wikidata:NULL	нет данных
+N33	Reference T98 Wikidata:NULL	нет данных
+N34	Reference T99 Wikidata:NULL	нет данных
+N35	Reference T101 Wikidata:NULL	нет данных
+N36	Reference T103 Wikidata:NULL	нет данных
+N37	Reference T40 Wikidata:NULL	нет данных
+N44	Reference T62 Wikidata:NULL	нет данных
+N38	Reference T104 Wikidata:Q531582	
+N13	Reference T43 Wikidata:NULL	нет данных
+N46	Reference T44 Wikidata:NULL	нет данных
+N45	Reference T117 Wikidata:NULL	нет данных
+N51	Reference T48 Wikidata:Q4169964	
+N40	Reference T110 Wikidata:NULL	нет данных
+N17	Reference T63 Wikidata:NULL	нет данных
+N50	Reference T41 Wikidata:Q488205	автор-исполнитель
+N52	Reference T53 Wikidata:Q4302553	Мордовский республиканский объединенный краеведческий музей
+N53	Reference T56 Wikidata:Q4302553	Мордовский республиканский объединенный краеведческий музей
+N54	Reference T4 Wikidata:Q4302553	Мордовский республиканский объединенный краеведческий музей
+N55	Reference T15 Wikidata:Q5340	Мордовия
+N56	Reference T32 Wikidata:Q159	Россия
+N57	Reference T17 Wikidata:Q159	Россия
+N58	Reference T16 Wikidata:Q159	Россия
+N59	Reference T102 Wikidata:Q49757	поэт
+N60	Reference T61 Wikidata:Q49757	поэт
+N61	Reference T107 Wikidata:Q49757	поэт
+N62	Reference T86 Wikidata:Q49757	поэт
+N63	Reference T114 Wikidata:Q49757	поэт
+N64	Reference T10 Wikidata:Q4169964	
+N65	Reference T116 Wikidata:Q4169964	
+N66	Reference T52 Wikidata:Q4169964	
+N67	Reference T12 Wikidata:Q4169964	
+N68	Reference T54 Wikidata:Q4169964	
+N69	Reference T57 Wikidata:Q4125486	
+N70	Reference T14 Wikidata:Q4125486	
+N71	Reference T94 Wikidata:Q7737	русский язык
+N72	Reference T100 Wikidata:Q7737	русский язык
+N73	Reference T97 Wikidata:Q7737	русский язык
+N74	Reference T113 Wikidata:Q47246	
+N75	Reference T80 Wikidata:Q47246	
+N76	Reference T20 Wikidata:Q17908323	
+N77	Reference T115 Wikidata:Q94659482	
+N78	Reference T55 Wikidata:Q94659482	
+N79	Reference T29 Wikidata:Q260427	
+N80	Reference T72 Wikidata:Q17908323	
+N81	Reference T68 Wikidata:Q17908323	
+N82	Reference T51 Wikidata:Q17908323	
+N83	Reference T42 Wikidata:Q17908323	
+N84	Reference T1 Wikidata:Q17908323	
+N85	Reference T6 Wikidata:Q17908323	
+N86	Reference T92 Wikidata:NULL	нет данных
+N87	Reference T96 Wikidata:NULL	нет данных
+N88	Reference T30 Wikidata:NULL	нет данных
+R69	ORIGINS_FROM Arg1:T117 Arg2:T45	
+T105	EVENT 1609 1613	умер
+R70	POINT_IN_TIME Arg1:T105 Arg2:T46	
+R71	PARTICIPANT_IN Arg1:T42 Arg2:T105	
+R72	ORIGINS_FROM Arg1:T44 Arg2:T108	
+R73	POINT_IN_TIME Arg1:T44 Arg2:T109	

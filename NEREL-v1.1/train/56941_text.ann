@@ -1,0 +1,155 @@
+T1	TIME 0 10	В получасе
+T2	CITY 21 30	Фергюсона
+T3	STATE_OR_PROVINCE 96 103	Миссури
+T4	CITY 106 115	Фергюсоне
+T5	DATE 149 165	22 сентября 2014
+T6	ORGANIZATION 179 186	полиция
+T7	STATE_OR_PROVINCE 193 200	Миссури
+T8	TIME 202 226	утром в среду 24 декабря
+T9	DATE 208 226	в среду 24 декабря
+T10	PROFESSION 298 324	официального представителя
+T11	CITY 366 376	Сент-Луиса
+T12	NUMBER 399 404	двумя
+T13	NUMBER 466 470	Один
+T14	ORDINAL 540 546	Второй
+T15	NUMBER 586 604	Несколько десятков
+T16	NUMBER 726 729	два
+T17	NUMBER 748 752	один
+T18	ORGANIZATION 783 806	St. Louis Post-Dispatch
+T19	AGE 828 838	18-летнего
+T20	PERSON 839 854	Антонио Мартина
+T21	CITY 1074 1080	Беркли
+T22	CITY 1107 1117	Фергюсоном
+T23	DATE 1129 1140	в этом году
+T24	AGE 1192 1201	18-летний
+T25	PERSON 1228 1239	Майкл Браун
+T26	PERSON 1249 1255	Брауна
+T27	NATIONALITY 1377 1392	афроамериканцам
+T28	PERSON 1530 1536	Брауна
+T29	PERSON 1539 1552	Эрика Гарнера
+T30	CITY 1579 1588	Нью-Йорка
+T31	NUMBER 1613 1626	Несколько сот
+T33	DATE 1641 1651	во вторник
+T34	TIME 1641 1659	во вторник вечером
+T35	CITY 1669 1678	Нью-Йорка
+T36	PROFESSION 1699 1703	мэра
+T37	DATE 1773 1790	на прошлой неделе
+T38	NUMBER 1819 1823	двое
+T41	PROFESSION 31 42	полицейские
+T42	EVENT 49 77	застрелили темнокожего юношу
+T43	PROFESSION 78 89	Полицейские
+T44	PROFESSION 78 103	Полицейские штата Миссури
+T45	ORGANIZATION 179 200	полиция штата Миссури
+T46	PROFESSION 227 244	сотрудник полиции
+T47	ORGANIZATION 237 244	полиции
+T48	EVENT 245 282	застрелил вооруженного афроамериканца
+T49	NATIONALITY 268 282	афроамериканца
+T50	ORGANIZATION 325 355	полицейского управления Беркли
+T51	CITY 349 355	Беркли
+T52	DISTRICT 357 376	пригород Сент-Луиса
+T53	PROFESSION 298 355	официального представителя полицейского управления Беркли
+T54	PROFESSION 379 385	офицер
+T55	PROFESSION 490 502	полицейского
+T56	EVENT 526 538	открыл огонь
+T57	ORGANIZATION 681 689	полицией
+T58	EVENT 666 689	столкновение с полицией
+T59	PERSON 885 892	Мартина
+T60	PROFESSION 905 915	репортерам
+T61	ORGANIZATION 1032 1039	полиция
+T62	EVENT 1052 1065	открыла огонь
+T63	PROFESSION 1166 1174	офицером
+T64	EVENT 1187 1191	убит
+T65	NATIONALITY 1213 1227	афроамериканец
+T67	EVENT 1303 1320	массовые протесты
+T68	COUNTRY 1329 1336	Америке
+T69	ORGANIZATION 1367 1374	полиции
+T72	PROFESSION 1497 1508	полицейских
+T32	PERSON 1704 1719	Билла де Блазио
+T76	EVENT 1763 1772	инцидента
+T77	EVENT 1813 1818	убиты
+T39	CITY 1824 1836	нью-йоркских
+T78	PROFESSION 1837 1848	полицейских
+T79	PROFESSION 1824 1848	нью-йоркских полицейских
+R1	AGENT Arg1:T41 Arg2:T42	
+T40	LOCATION 0 30	В получасе ходьбы от Фергюсона
+R2	TAKES_PLACE_IN Arg1:T42 Arg2:T40	
+R3	POINT_IN_TIME Arg1:T48 Arg2:T9	
+R4	AGENT Arg1:T46 Arg2:T48	
+R5	AGENT Arg1:T55 Arg2:T56	
+R6	AGE_IS Arg1:T20 Arg2:T19	
+R7	AGENT Arg1:T61 Arg2:T62	
+R8	PARTICIPANT_IN Arg1:T25 Arg2:T64	
+T80	PROFESSION 1166 1182	офицером полиции
+R9	PARTICIPANT_IN Arg1:T80 Arg2:T64	
+R10	ORIGINS_FROM Arg1:T25 Arg2:T65	
+R11	TAKES_PLACE_IN Arg1:T67 Arg2:T68	
+R12	AGE_DIED_AT Arg1:T25 Arg2:T24	
+R13	WORKS_AS Arg1:T32 Arg2:T36	
+R14	PARTICIPANT_IN Arg1:T79 Arg2:T77	
+R15	SUBEVENT_OF Arg1:T77 Arg2:T76	
+R16	WORKPLACE Arg1:T44 Arg2:T3	
+R17	LOCATED_IN Arg1:T4 Arg2:T3	
+R18	HEADQUARTERED_IN Arg1:T45 Arg2:T7	
+R19	WORKPLACE Arg1:T46 Arg2:T45	
+R20	ALTERNATIVE_NAME Arg1:T42 Arg2:T48	
+R21	PARTICIPANT_IN Arg1:T54 Arg2:T56	
+R22	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R23	POINT_IN_TIME Arg1:T76 Arg2:T37	
+R24	WORKPLACE Arg1:T79 Arg2:T39	
+R25	ALTERNATIVE_NAME Arg1:T35 Arg2:T39	
+R26	TAKES_PLACE_IN Arg1:T76 Arg2:T35	
+R27	PARTICIPANT_IN Arg1:T57 Arg2:T58	
+R28	POINT_IN_TIME Arg1:T64 Arg2:T23	
+R29	TAKES_PLACE_IN Arg1:T64 Arg2:T22	
+R30	PARTICIPANT_IN Arg1:T49 Arg2:T48	
+T66	EVENT 1242 1248	Смерть
+R31	PARTICIPANT_IN Arg1:T26 Arg2:T66	
+R32	HAS_CAUSE Arg1:T67 Arg2:T66	
+R33	ALTERNATIVE_NAME Arg1:T64 Arg2:T66	
+N3	Reference T11 Wikidata:Q38022	Сент-Луис
+N8	Reference T36 Wikidata:Q30185	мэр
+N11	Reference T47 Wikidata:Q35535	полиция
+N16	Reference T54 Wikidata:Q189290	офицер
+N18	Reference T60 Wikidata:Q42909	репортёр
+N19	Reference T65 Wikidata:Q49085	афроамериканцы
+N20	Reference T32 Wikidata:Q4911497	Билл де Блазио
+N22	Reference T40 Wikidata:NULL	нет данных
+N9	Reference T44 Wikidata:NULL	нет данных
+N1	Reference T7 Wikidata:Q1581	Миссури
+N10	Reference T45 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:Q16699822	
+N2	Reference T10 Wikidata:NULL	нет данных
+N14	Reference T52 Wikidata:NULL	нет данных
+N13	Reference T51 Wikidata:Q967070	
+N12	Reference T50 Wikidata:NULL	нет данных
+N15	Reference T53 Wikidata:NULL	нет данных
+N17	Reference T55 Wikidata:Q384593	
+N4	Reference T18 Wikidata:Q3495288	
+N5	Reference T20 Wikidata:NULL	нет данных
+N24	Reference T59 Wikidata:NULL	нет данных
+N25	Reference T22 Wikidata:Q954855	
+N26	Reference T80 Wikidata:Q384593	
+N6	Reference T26 Wikidata:NULL	нет данных
+N27	Reference T68 Wikidata:Q30	США
+N28	Reference T29 Wikidata:Q18603607	
+N7	Reference T35 Wikidata:Q60	Нью-Йорк
+N21	Reference T79 Wikidata:NULL	нет данных
+N29	Reference T61 Wikidata:Q35535	полиция
+N30	Reference T57 Wikidata:Q35535	полиция
+N31	Reference T69 Wikidata:Q35535	полиция
+N32	Reference T6 Wikidata:Q35535	полиция
+N33	Reference T63 Wikidata:Q189290	офицер
+N34	Reference T49 Wikidata:Q49085	афроамериканцы
+N35	Reference T27 Wikidata:Q49085	афроамериканцы
+N36	Reference T3 Wikidata:Q1581	Миссури
+N37	Reference T21 Wikidata:Q967070	
+N38	Reference T72 Wikidata:Q384593	
+N39	Reference T41 Wikidata:Q384593	
+N40	Reference T43 Wikidata:Q384593	
+N41	Reference T78 Wikidata:Q384593	
+N42	Reference T2 Wikidata:Q954855	
+N43	Reference T4 Wikidata:Q954855	
+N44	Reference T28 Wikidata:NULL	нет данных
+N45	Reference T25 Wikidata:NULL	нет данных
+N46	Reference T30 Wikidata:Q60	Нью-Йорк
+N47	Reference T39 Wikidata:Q60	Нью-Йорк

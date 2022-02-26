@@ -1,0 +1,79 @@
+T1	AGE 0 9	97-летний
+T2	COUNTRY 82 92	британской
+T3	PERSON 102 114	Елизаветы II
+T4	DATE 173 191	в январе 2019 года
+T5	ORGANIZATION 223 243	Букингемского дворца
+T6	DATE 283 292	17 января
+T7	NUMBER 377 380	две
+T8	DATE 417 430	через два дня
+T9	AGE 558 564	97 лет
+T10	COUNTRY 568 582	Великобритании
+T11	AGE 661 674	старше 70 лет
+T12	DATE 719 734	каждые три года
+T13	DATE 737 748	В 2017 году
+T14	PROFESSION 10 15	принц
+T15	PERSON 16 22	Филипп
+T16	EVENT 53 59	аварии
+T17	PROFESSION 61 66	Принц
+T18	PROFESSION 93 101	королевы
+T19	PROFESSION 82 101	британской королевы
+T20	PROFESSION 293 298	принц
+T21	PROFESSION 431 437	принца
+T22	PROFESSION 543 549	Принцу
+T23	PROFESSION 749 754	принц
+T24	PERSON 67 73	Филипп
+T25	ORDINAL 112 114	II
+T26	EVENT 146 152	аварии
+T27	ORGANIZATION 246 253	Полиция
+T28	PERSON 299 305	Филипп
+T29	EVENT 306 314	врезался
+T31	ORGANIZATION 482 489	Полиция
+T32	PERSON 550 557	Филиппу
+T34	PERSON 755 761	Филипп
+T30	EVENT 23 46	сдал водительские права
+R1	WORKS_AS Arg1:T15 Arg2:T14	
+R2	AGE_IS Arg1:T15 Arg2:T1	
+R3	AGENT Arg1:T15 Arg2:T30	
+R4	HAS_CAUSE Arg1:T30 Arg2:T16	
+R5	PARTICIPANT_IN Arg1:T15 Arg2:T16	
+T33	EVENT 116 139	сдал водительские права
+R6	HAS_CAUSE Arg1:T33 Arg2:T26	
+R7	POINT_IN_TIME Arg1:T26 Arg2:T4	
+R8	WORKS_AS Arg1:T24 Arg2:T17	
+R9	SPOUSE Arg1:T24 Arg2:T3	
+R10	WORKS_AS Arg1:T3 Arg2:T19	
+R11	WORKPLACE Arg1:T3 Arg2:T2	
+R12	AGENT Arg1:T24 Arg2:T33	
+R13	PARTICIPANT_IN Arg1:T24 Arg2:T26	
+R14	WORKS_AS Arg1:T32 Arg2:T22	
+R15	AGE_IS Arg1:T32 Arg2:T9	
+R16	WORKS_AS Arg1:T34 Arg2:T23	
+R17	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+R18	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R19	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+R20	AGENT Arg1:T28 Arg2:T29	
+R21	POINT_IN_TIME Arg1:T29 Arg2:T6	
+R22	WORKS_AS Arg1:T28 Arg2:T20	
+T35	EVENT 438 460	увидели непристегнутым
+R23	PARTICIPANT_IN Arg1:T21 Arg2:T35	
+R24	PARTICIPANT_IN Arg1:T28 Arg2:T35	
+R25	POINT_IN_TIME Arg1:T35 Arg2:T8	
+N1	Reference T3 Wikidata:Q9682	Елизавета II
+N2	Reference T5 Wikidata:Q42182	Букингемский дворец
+N3	Reference T10 Wikidata:Q145	Великобритания
+N4	Reference T14 Wikidata:Q2747456	принц
+N7	Reference T27 Wikidata:Q35535	полиция
+N8	Reference T28 Wikidata:Q80976	
+N5	Reference T18 Wikidata:Q16511993	
+N6	Reference T19 Wikidata:Q9134365	
+N9	Reference T2 Wikidata:Q145	Великобритания
+N10	Reference T22 Wikidata:Q2747456	принц
+N11	Reference T20 Wikidata:Q2747456	принц
+N12	Reference T23 Wikidata:Q2747456	принц
+N13	Reference T17 Wikidata:Q2747456	принц
+N14	Reference T21 Wikidata:Q2747456	принц
+N15	Reference T31 Wikidata:Q35535	полиция
+N16	Reference T15 Wikidata:Q80976	
+N17	Reference T24 Wikidata:Q80976	
+N18	Reference T34 Wikidata:Q80976	
+N19	Reference T32 Wikidata:Q80976	

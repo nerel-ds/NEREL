@@ -1,0 +1,85 @@
+T1	LAW 45 74	Федеральный закон «О полиции»
+T2	DATE 101 110	6 августа
+T5	PROFESSION 240 250	президента
+T6	COUNTRY 251 253	РФ
+T7	COUNTRY 298 304	России
+T8	PROFESSION 440 457	глава государства
+T9	LAW 493 502	О милиции
+T10	DATE 521 532	Октябрьской
+T11	PERSON 706 714	Медведев
+T12	EVENT 936 957	Октябрьской революции
+T13	COUNTRY 1022 1040	Российской Империи
+T14	DATE 1075 1086	Февральской
+T15	EVENT 1075 1122	Февральской буржуазно-демократической революции
+T16	DATE 1150 1161	Октябрьской
+T17	EVENT 1150 1171	Октябрьской революции
+T18	DATE 1291 1299	февралём
+T19	DATE 1302 1310	октябрём
+T20	DATE 1315 1324	7 месяцев
+T21	ORGANIZATION 1487 1498	Фонтанка.ru
+T22	DATE 1576 1588	На 8 августа
+T23	NUMBER 1602 1606	3000
+T25	PERCENT 1620 1629	менее 3 %
+T26	PROFESSION 1737 1747	президента
+T28	ORGANIZATION 1790 1803	Единая Россия
+T29	PERSON 1827 1839	Д. Медведева
+T30	PROFESSION 1841 1846	лидер
+T31	ORGANIZATION 1847 1851	ЛДПР
+T32	PERSON 1852 1866	В. Жириновский
+T33	ORGANIZATION 1928 1932	КПРФ
+T34	ORGANIZATION 1940 1944	КПРФ
+T35	COUNTRY 2037 2043	Россия
+T40	COUNTRY 2358 2361	США
+T24	PROFESSION 240 253	президента РФ
+T3	LAW 150 164	ФЗ «О милиции»
+T4	EVENT 521 542	Октябрьской революции
+T27	PROFESSION 1841 1851	лидер ЛДПР
+T36	LAW 2124 2138	ФЗ «О Полиции»
+T37	LAW 64 73	О полиции
+T38	LAW 154 163	О милиции
+T39	DATE 936 947	Октябрьской
+T41	LAW 2128 2137	О Полиции
+R1	WORKPLACE Arg1:T24 Arg2:T6	
+R2	WORKS_AS Arg1:T11 Arg2:T8	
+R3	WORKS_AS Arg1:T29 Arg2:T26	
+R4	WORKS_AS Arg1:T32 Arg2:T27	
+R5	WORKPLACE Arg1:T32 Arg2:T31	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R7	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R8	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+R9	POINT_IN_TIME Arg1:T4 Arg2:T10	
+R10	POINT_IN_TIME Arg1:T12 Arg2:T39	
+R11	POINT_IN_TIME Arg1:T15 Arg2:T14	
+R12	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+R13	POINT_IN_TIME Arg1:T17 Arg2:T16	
+T42	PROFESSION 1423 1441	работников милиции
+R14	ALTERNATIVE_NAME Arg1:T11 Arg2:T29	
+R15	WORKPLACE Arg1:T27 Arg2:T31	
+R16	TAKES_PLACE_IN Arg1:T12 Arg2:T13	
+N3	Reference T11 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N4	Reference T13 Wikidata:Q34266	Российская империя
+N6	Reference T26 Wikidata:Q30461	президент
+N7	Reference T28 Wikidata:Q151469	Единая Россия
+N9	Reference T31 Wikidata:Q212115	ЛДПР
+N10	Reference T32 Wikidata:Q200015	Владимир Вольфович Жириновский
+N11	Reference T34 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N12	Reference T35 Wikidata:Q159	Россия
+N13	Reference T40 Wikidata:Q30	США
+N14	Reference T24 Wikidata:Q218295	президент Российской Федерации
+N1	Reference T1 Wikidata:Q4481769	
+N17	Reference T37 Wikidata:Q4481769	
+N16	Reference T36 Wikidata:Q4481769	
+N8	Reference T30 Wikidata:Q1251441	лидер
+N15	Reference T27 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:Q60032090	
+N5	Reference T21 Wikidata:Q4491769	
+N19	Reference T29 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N20	Reference T8 Wikidata:Q30461	президент
+N21	Reference T5 Wikidata:Q30461	президент
+N22	Reference T33 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N23	Reference T7 Wikidata:Q159	Россия
+N24	Reference T6 Wikidata:Q159	Россия
+N25	Reference T3 Wikidata:Q4481769	
+N26	Reference T41 Wikidata:Q4481769	
+N27	Reference T38 Wikidata:NULL	нет данных

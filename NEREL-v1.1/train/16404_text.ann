@@ -1,0 +1,159 @@
+T1	ORGANIZATION 21 25	НАТО
+T2	COUNTRY 28 39	Афганистане
+T3	COUNTRY 53 62	афганские
+T4	EVENT 84 91	теракта
+T5	ORGANIZATION 100 104	НАТО
+T6	NUMBER 127 131	один
+T7	NUMBER 145 153	около 70
+T8	DISTRICT 297 309	Мохаммед Ага
+T10	STATE_OR_PROVINCE 320 325	Логар
+T11	NATIONALITY 400 407	афганец
+T12	NUMBER 444 460	не менее четырех
+T13	COUNTRY 469 480	Афганистана
+T14	ORGANIZATION 659 666	Талибан
+T16	ORGANIZATION 695 704	Аль-Каиды
+T17	PERSON 706 724	Айман аль-Завахири
+T18	DATE 907 916	в августе
+T19	AGE 917 927	70-летнего
+T20	COUNTRY 939 942	США
+T21	COUNTRY 945 954	Пакистане
+T22	PERSON 957 965	Завахири
+T23	NATIONALITY 989 999	американец
+T25	COUNTRY 1074 1083	Пакистану
+T26	PERSON 1086 1102	Уоррен Вайнштейн
+T27	COUNTRY 1152 1155	США
+T28	ORGANIZATION 1236 1246	Гуантанамо
+T29	COUNTRY 1266 1278	американских
+T30	PERSON 1315 1331	Усамы бин Ладена
+T31	ORGANIZATION 1421 1430	Аль-Кайда
+T32	ORGANIZATION 1434 1441	Талибан
+T33	ORGANIZATION 1443 1446	CNN
+T34	PERSON 1565 1575	Вайнштейна
+T35	ORGANIZATION 1617 1621	НАТО
+T36	COUNTRY 1694 1705	Афганистана
+T37	DATE 1774 1792	на конец 2014 года
+T38	EVENT 6 12	теракт
+T39	EVENT 105 110	погиб
+T40	EVENT 154 170	получили ранения
+T41	IDEOLOGY 173 183	Террориста
+T9	EVENT 332 338	взрыве
+T42	EVENT 371 376	погиб
+T43	PROFESSION 392 399	плотник
+T44	ORGANIZATION 534 541	полиции
+T45	EVENT 543 548	взрыв
+T46	PROFESSION 688 704	лидер «Аль-Каиды
+T47	IDEOLOGY 776 788	исламистских
+T48	IDEOLOGY 764 788	радикальных исламистских
+T49	PROFESSION 1002 1040	консультант программ правительства США
+T50	ORGANIZATION 1023 1040	правительства США
+T51	ORGANIZATION 1023 1036	правительства
+T52	COUNTRY 1037 1040	США
+T53	PROFESSION 1156 1163	боевики
+T54	COUNTRY 1488 1501	американского
+T55	ORGANIZATION 1488 1515	американского правительства
+T56	ORGANIZATION 1502 1515	правительства
+T57	FACILITY 16 25	базе НАТО
+R1	OWNER_OF Arg1:T1 Arg2:T57	
+R2	TAKES_PLACE_IN Arg1:T38 Arg2:T57	
+R3	LOCATED_IN Arg1:T57 Arg2:T2	
+T58	ORGANIZATION 53 69	афганские власти
+R4	HEADQUARTERED_IN Arg1:T58 Arg2:T3	
+T59	FACILITY 95 104	базе НАТО
+R6	OWNER_OF Arg1:T5 Arg2:T59	
+R7	TAKES_PLACE_IN Arg1:T4 Arg2:T59	
+R8	LOCATED_IN Arg1:T59 Arg2:T3	
+T60	EVENT 105 139	погиб по крайней мере один человек
+T61	EVENT 145 170	около 70 получили ранения
+R9	HAS_CAUSE Arg1:T60 Arg2:T4	
+R10	HAS_CAUSE Arg1:T61 Arg2:T4	
+R11	LOCATED_IN Arg1:T8 Arg2:T10	
+R12	LOCATED_IN Arg1:T10 Arg2:T3	
+R13	LOCATED_IN Arg1:T59 Arg2:T8	
+R14	ALTERNATIVE_NAME Arg1:T4 Arg2:T9	
+R15	ORIGINS_FROM Arg1:T43 Arg2:T11	
+R16	PARTICIPANT_IN Arg1:T43 Arg2:T42	
+R17	SUBEVENT_OF Arg1:T42 Arg2:T9	
+T62	NATIONALITY 461 480	граждан Афганистана
+R18	ORIGINS_FROM Arg1:T62 Arg2:T13	
+T63	PROFESSION 483 510	сотрудники сил безопасности
+R19	ORIGINS_FROM Arg1:T63 Arg2:T62	
+R20	ALTERNATIVE_NAME Arg1:T11 Arg2:T62	
+R21	ALTERNATIVE_NAME Arg1:T9 Arg2:T45	
+R22	ORGANIZES Arg1:T14 Arg2:T45	
+R23	WORKPLACE Arg1:T46 Arg2:T16	
+R24	WORKS_AS Arg1:T17 Arg2:T46	
+R25	WORKPLACE Arg1:T17 Arg2:T16	
+R26	IDEOLOGY_OF Arg1:T17 Arg2:T48	
+R27	IDEOLOGY_OF Arg1:T16 Arg2:T48	
+T15	EVENT 897 906	похищение
+R28	ORGANIZES Arg1:T16 Arg2:T15	
+T64	NATIONALITY 928 942	гражданина США
+R29	POINT_IN_TIME Arg1:T15 Arg2:T18	
+R30	TAKES_PLACE_IN Arg1:T15 Arg2:T21	
+R31	ORIGINS_FROM Arg1:T64 Arg2:T20	
+R32	AGE_IS Arg1:T64 Arg2:T19	
+R33	PARTICIPANT_IN Arg1:T64 Arg2:T15	
+R34	ALTERNATIVE_NAME Arg1:T17 Arg2:T22	
+R35	ALTERNATIVE_NAME Arg1:T64 Arg2:T23	
+R36	HEADQUARTERED_IN Arg1:T50 Arg2:T52	
+R37	WORKPLACE Arg1:T49 Arg2:T50	
+R38	ORIGINS_FROM Arg1:T49 Arg2:T23	
+R39	ORIGINS_FROM Arg1:T26 Arg2:T23	
+R40	WORKS_AS Arg1:T26 Arg2:T49	
+R41	WORKPLACE Arg1:T26 Arg2:T50	
+R42	AGE_IS Arg1:T26 Arg2:T19	
+T24	NATIONALITY 1141 1155	гражданина США
+R43	ORIGINS_FROM Arg1:T24 Arg2:T27	
+R44	OWNER_OF Arg1:T29 Arg2:T28	
+R45	HEADQUARTERED_IN Arg1:T55 Arg2:T54	
+R46	ALTERNATIVE_NAME Arg1:T26 Arg2:T34	
+T65	EVENT 1734 1760	выводу международных войск
+R47	TAKES_PLACE_IN Arg1:T65 Arg2:T36	
+R48	ORGANIZES Arg1:T35 Arg2:T65	
+R49	POINT_IN_TIME Arg1:T65 Arg2:T37	
+R5	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+N3	Reference T10 Wikidata:Q6667298	Логар
+N5	Reference T14 Wikidata:Q42418	Талибан
+N6	Reference T22 Wikidata:Q186316	Айман аз-Завахири
+N7	Reference T25 Wikidata:Q843	Пакистан
+N9	Reference T27 Wikidata:Q30	США
+N10	Reference T28 Wikidata:Q357	тюрьма в Гуантанамо
+N13	Reference T31 Wikidata:Q34490	Аль-Каида
+N14	Reference T33 Wikidata:Q48340	CNN
+N15	Reference T35 Wikidata:Q7184	Организация Североатлантического договора
+N16	Reference T43 Wikidata:Q154549	плотник
+N17	Reference T44 Wikidata:Q35535	полиция
+N21	Reference T51 Wikidata:Q7188	правительство
+N24	Reference T58 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q889	Афганистан
+N25	Reference T59 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q1889696	
+N4	Reference T11 Wikidata:Q16007968	
+N27	Reference T63 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:NULL	нет данных
+N20	Reference T50 Wikidata:Q48525	
+N8	Reference T26 Wikidata:Q7970576	
+N26	Reference T24 Wikidata:Q846570	
+N22	Reference T53 Wikidata:NULL	нет данных
+N11	Reference T29 Wikidata:Q30	США
+N12	Reference T30 Wikidata:Q1317	Усама бен Ладен
+N23	Reference T55 Wikidata:Q48525	
+N28	Reference T32 Wikidata:Q42418	Талибан
+N29	Reference T17 Wikidata:Q186316	Айман аз-Завахири
+N30	Reference T21 Wikidata:Q843	Пакистан
+N31	Reference T52 Wikidata:Q30	США
+N32	Reference T20 Wikidata:Q30	США
+N33	Reference T16 Wikidata:Q34490	Аль-Каида
+N34	Reference T5 Wikidata:Q7184	Организация Североатлантического договора
+N35	Reference T1 Wikidata:Q7184	Организация Североатлантического договора
+N36	Reference T56 Wikidata:Q7188	правительство
+N37	Reference T13 Wikidata:Q889	Афганистан
+N38	Reference T36 Wikidata:Q889	Афганистан
+N39	Reference T2 Wikidata:Q889	Афганистан
+N40	Reference T57 Wikidata:NULL	нет данных
+N41	Reference T62 Wikidata:Q16007968	
+N42	Reference T34 Wikidata:Q7970576	
+N43	Reference T64 Wikidata:Q846570	
+N44	Reference T23 Wikidata:Q846570	
+N45	Reference T54 Wikidata:Q30	США

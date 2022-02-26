@@ -1,0 +1,200 @@
+T1	PROFESSION 10 18	академик
+T2	PERSON 38 56	Виталий Костомаров
+T3	DATE 57 65	26 марта
+T4	AGE 68 74	90 лет
+T5	PROFESSION 80 106	доктор филологических наук
+T6	PERSON 157 175	Виталий Костомаров
+T7	ORGANIZATION 217 234	Института Пушкина
+T8	ORGANIZATION 236 245	ВКонтакте
+T9	DATE 305 310	Вчера
+T10	PROFESSION 316 325	президент
+T11	PERSON 344 374	Виталий Григорьевич Костомаров
+T12	PERSON 442 472	Виталий Григорьевич Костомаров
+T13	DATE 481 499	3 января 1930 года
+T14	CITY 502 508	Москве
+T15	DATE 527 538	В 1952 года
+T16	ORGANIZATION 557 605	русское отделение филологического факультета МГУ
+T17	DATE 607 616	через год
+T18	ORGANIZATION 619 722	английское отделение переводческого факультета московского Института иностранных языков имени М. Тореза
+T20	ORGANIZATION 740 781	аспирантуру Института языкознания АН СССР
+T21	COUNTRY 777 781	СССР
+T23	PROFESSION 797 805	академик
+T24	PERSON 806 823	Виктор Виноградов
+T26	PROFESSION 836 849	литературовед
+T27	ORGANIZATION 1046 1068	Высшей партийной школе
+T28	ORGANIZATION 1073 1080	ЦК КПСС
+T29	ORGANIZATION 1105 1148	институт русского языка имени А. С. Пушкина
+T30	DATE 1149 1160	в 1973 году
+T31	PROFESSION 1234 1244	директором
+T32	PROFESSION 1254 1262	ректором
+T33	PROFESSION 1272 1283	президентом
+T34	ORGANIZATION 1319 1347	Институте русского языка РАН
+T35	PROFESSION 1353 1364	президентом
+T36	ORGANIZATION 1434 1440	МАПРЯЛ
+T37	ORGANIZATION 1472 1484	Русская речь
+T38	AWARD 1498 1526	Государственной премией СССР
+T39	EVENT 0 9	Скончался
+T40	PERSON 19 37	Виталий Костомаров
+T41	PROFESSION 108 117	профессор
+T42	PROFESSION 119 127	академик
+T43	PROFESSION 129 156	президент института Пушкина
+T44	ORGANIZATION 139 156	института Пушкина
+T45	PERSON 149 156	Пушкина
+T46	PROFESSION 129 138	президент
+T47	PERSON 227 234	Пушкина
+T48	PROFESSION 295 303	русистов
+T49	EVENT 311 315	умер
+T50	PROFESSION 316 343	президент Института Пушкина
+T51	ORGANIZATION 326 343	Института Пушкина
+T52	PERSON 336 343	Пушкина
+T54	DISEASE 422 439	сердечный приступ
+T55	PROFESSION 517 525	историка
+T56	ORGANIZATION 575 605	филологического факультета МГУ
+T57	ORGANIZATION 602 605	МГУ
+T58	ORGANIZATION 640 722	переводческого факультета московского Института иностранных языков имени М. Тореза
+T19	ORGANIZATION 678 722	Института иностранных языков имени М. Тореза
+T59	PERSON 713 722	М. Тореза
+T60	ORGANIZATION 774 781	АН СССР
+T61	ORGANIZATION 774 776	АН
+T62	ORGANIZATION 752 781	Института языкознания АН СССР
+T63	LANGUAGE 957 965	русского
+T64	LANGUAGE 1003 1011	русскому
+T65	LANGUAGE 1031 1038	русский
+T66	ORGANIZATION 1046 1080	Высшей партийной школе при ЦК КПСС
+T67	PERSON 1135 1148	А. С. Пушкина
+T68	LANGUAGE 1192 1200	русского
+T69	ORGANIZATION 1296 1347	сектор культуры речи в Институте русского языка РАН
+T70	ORGANIZATION 1344 1347	РАН
+T71	ORGANIZATION 1365 1432	Международной ассоциации преподавателей русского языка и литературы
+T72	LANGUAGE 1405 1413	русского
+T73	PROFESSION 1353 1432	президентом Международной ассоциации преподавателей русского языка и литературы
+T74	AWARD 1529 1551	орденом Дружбы народов
+T75	COUNTRY 1522 1526	СССР
+R1	WORKS_AS Arg1:T40 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T40 Arg2:T39	
+R3	WORKPLACE Arg1:T6 Arg2:T44	
+R4	WORKS_AS Arg1:T6 Arg2:T42	
+R5	WORKS_AS Arg1:T6 Arg2:T41	
+R6	AGE_DIED_AT Arg1:T6 Arg2:T4	
+R7	WORKS_AS Arg1:T6 Arg2:T43	
+T25	EVENT 75 79	умер
+R8	POINT_IN_TIME Arg1:T25 Arg2:T3	
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T25	
+R10	WORKS_AS Arg1:T6 Arg2:T5	
+R11	CAUSE_OF_DEATH Arg1:T11 Arg2:T54	
+R12	WORKPLACE Arg1:T11 Arg2:T51	
+R13	WORKS_AS Arg1:T11 Arg2:T50	
+R14	DATE_OF_DEATH Arg1:T11 Arg2:T9	
+R15	PARTICIPANT_IN Arg1:T11 Arg2:T49	
+R16	POINT_IN_TIME Arg1:T49 Arg2:T9	
+R17	DATE_OF_BIRTH Arg1:T12 Arg2:T13	
+R18	PLACE_OF_DEATH Arg1:T12 Arg2:T14	
+R19	ORIGINS_FROM Arg1:T12 Arg2:T55	
+R20	SCHOOLS_ATTENDED Arg1:T12 Arg2:T16	
+R21	SCHOOLS_ATTENDED Arg1:T12 Arg2:T20	
+R22	KNOWS Arg1:T12 Arg2:T24	
+R23	WORKS_AS Arg1:T24 Arg2:T23	
+T22	PROFESSION 825 833	языковед
+R24	WORKS_AS Arg1:T24 Arg2:T22	
+R25	WORKS_AS Arg1:T24 Arg2:T26	
+R26	WORKPLACE Arg1:T12 Arg2:T66	
+R27	FOUNDED_BY Arg1:T29 Arg2:T12	
+R28	WORKS_AS Arg1:T12 Arg2:T31	
+R29	WORKS_AS Arg1:T12 Arg2:T32	
+R30	WORKS_AS Arg1:T12 Arg2:T33	
+R31	WORKPLACE Arg1:T12 Arg2:T69	
+R32	ABBREVIATION Arg1:T71 Arg2:T36	
+R33	WORKPLACE Arg1:T12 Arg2:T37	
+R34	WORKS_AS Arg1:T12 Arg2:T35	
+R35	WORKPLACE Arg1:T12 Arg2:T71	
+R36	AWARDED_WITH Arg1:T12 Arg2:T38	
+R37	AWARDED_WITH Arg1:T12 Arg2:T74	
+R38	WORKPLACE Arg1:T43 Arg2:T44	
+R39	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+T53	CITY 666 677	московского
+R40	HEADQUARTERED_IN Arg1:T19 Arg2:T53	
+R41	HEADQUARTERED_IN Arg1:T62 Arg2:T21	
+R42	HEADQUARTERED_IN Arg1:T60 Arg2:T21	
+R43	ALTERNATIVE_NAME Arg1:T44 Arg2:T29	
+T76	AWARD 1498 1521	Государственной премией
+R44	PART_OF Arg1:T16 Arg2:T56	
+R45	PART_OF Arg1:T56 Arg2:T57	
+R46	PART_OF Arg1:T18 Arg2:T58	
+R47	PART_OF Arg1:T58 Arg2:T19	
+R48	PART_OF Arg1:T20 Arg2:T62	
+R49	OWNER_OF Arg1:T28 Arg2:T66	
+R50	PART_OF Arg1:T69 Arg2:T34	
+T77	ORGANIZATION 1076 1080	КПСС
+R51	PART_OF Arg1:T28 Arg2:T77	
+R52	OWNER_OF Arg1:T70 Arg2:T34	
+R53	ORIGINS_FROM Arg1:T38 Arg2:T75	
+N1	Reference T5 Wikidata:Q17281087	доктор филологических наук
+N2	Reference T8 Wikidata:Q116933	ВКонтакте
+N3	Reference T14 Wikidata:Q649	Москва
+N7	Reference T21 Wikidata:Q15180	СССР
+N9	Reference T26 Wikidata:Q17167049	литературовед
+N11	Reference T28 Wikidata:Q1971373	Центральный комитет КПСС
+N13	Reference T32 Wikidata:Q212071	ректор
+N14	Reference T34 Wikidata:Q1381038	Институт русского языка имени В. В. Виноградова РАН
+N16	Reference T38 Wikidata:Q758861	Государственная премия СССР
+N17	Reference T40 Wikidata:Q4235481	Виталий Григорьевич Костомаров
+N18	Reference T41 Wikidata:Q121594	профессор
+N19	Reference T44 Wikidata:Q2384139	Государственный институт русского языка имени А. С. Пушкина
+N21	Reference T47 Wikidata:Q7200	Александр Сергеевич Пушкин
+N24	Reference T55 Wikidata:Q201788	историк
+N25	Reference T56 Wikidata:Q4484266	филологический факультет МГУ
+N26	Reference T57 Wikidata:Q13164	Московский государственный университет
+N28	Reference T19 Wikidata:Q1054816	Московский государственный лингвистический университет
+N29	Reference T59 Wikidata:Q345408	Торез, Морис
+N30	Reference T60 Wikidata:Q2370801	Академия наук СССР
+N32	Reference T62 Wikidata:Q4201878	Институт языкознания РАН
+N33	Reference T65 Wikidata:Q7737	русский язык
+N34	Reference T66 Wikidata:Q15628703	Высшая партийная школа при ЦК КПСС
+N35	Reference T67 Wikidata:Q7200	Александр Сергеевич Пушкин
+N37	Reference T70 Wikidata:Q83172	Российская академия наук
+N40	Reference T74 Wikidata:Q583881	орден Дружбы народов
+N41	Reference T22 Wikidata:Q14467526	лингвист
+N44	Reference T77 Wikidata:Q79854	Коммунистическая партия Советского Союза
+N45	Reference T42 Wikidata:Q414528	академик
+N22	Reference T48 Wikidata:Q60098894	
+N23	Reference T50 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:NULL	нет данных
+N42	Reference T53 Wikidata:Q649	Москва
+N27	Reference T58 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N31	Reference T61 Wikidata:Q414147	академия наук
+N6	Reference T20 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:Q2625069	
+N10	Reference T27 Wikidata:Q1355654	
+N12	Reference T31 Wikidata:Q1162163	директор
+N36	Reference T69 Wikidata:NULL	нет данных
+N38	Reference T71 Wikidata:Q4288166	
+N39	Reference T73 Wikidata:NULL	нет данных
+N15	Reference T37 Wikidata:Q16693024	
+N43	Reference T76 Wikidata:Q758861	Государственная премия СССР
+N20	Reference T46 Wikidata:Q140686	председатель
+N46	Reference T75 Wikidata:Q15180	СССР
+N47	Reference T11 Wikidata:Q4235481	Виталий Григорьевич Костомаров
+N48	Reference T12 Wikidata:Q4235481	Виталий Григорьевич Костомаров
+N49	Reference T2 Wikidata:Q4235481	Виталий Григорьевич Костомаров
+N50	Reference T6 Wikidata:Q4235481	Виталий Григорьевич Костомаров
+N51	Reference T29 Wikidata:Q2384139	Государственный институт русского языка имени А. С. Пушкина
+N52	Reference T7 Wikidata:Q2384139	Государственный институт русского языка имени А. С. Пушкина
+N53	Reference T51 Wikidata:Q2384139	Государственный институт русского языка имени А. С. Пушкина
+N54	Reference T45 Wikidata:Q7200	Александр Сергеевич Пушкин
+N55	Reference T52 Wikidata:Q7200	Александр Сергеевич Пушкин
+N56	Reference T72 Wikidata:Q7737	русский язык
+N57	Reference T68 Wikidata:Q7737	русский язык
+N58	Reference T63 Wikidata:Q7737	русский язык
+N59	Reference T64 Wikidata:Q7737	русский язык
+N60	Reference T23 Wikidata:Q414528	академик
+N61	Reference T1 Wikidata:Q414528	академик
+N62	Reference T43 Wikidata:NULL	нет данных
+N63	Reference T36 Wikidata:Q4288166	
+N64	Reference T10 Wikidata:Q140686	председатель
+N65	Reference T33 Wikidata:Q140686	председатель
+N66	Reference T35 Wikidata:Q140686	председатель
+T78	EVENT 473 480	родился
+R54	PARTICIPANT_IN Arg1:T12 Arg2:T78	
+R55	POINT_IN_TIME Arg1:T78 Arg2:T13	
+R56	TAKES_PLACE_IN Arg1:T78 Arg2:T14	

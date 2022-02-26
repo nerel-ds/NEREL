@@ -1,0 +1,118 @@
+T1	CITY 2 8	Москве
+T2	PERSON 24 37	Чарли Чаплина
+T3	WORK_OF_ART 72 92	Огни большого города
+T4	PERSON 96 110	Чарли Чаплином
+T5	ORGANIZATION 112 119	Москино
+T7	PERSON 151 164	Чарли Чаплина
+T8	NUMBER 215 219	трёх
+T9	DATE 247 278	с 16 апреля по 19 мая 2019 года
+T10	WORK_OF_ART 307 316	Чаплин AV
+T11	AGE 333 342	130-летию
+T12	WORK_OF_ART 427 431	Цирк
+T13	WORK_OF_ART 435 448	Новые времена
+T14	WORK_OF_ART 452 472	Огни большого города
+T15	WORK_OF_ART 477 494	Золотая лихорадка
+T16	ORGANIZATION 600 608	Long Arm
+T17	ORGANIZATION 610 616	Drojji
+T18	ORGANIZATION 618 622	АДМИ
+T19	PERSON 624 636	Игорь Вдовин
+T20	PERSON 639 658	Мирабелла Карьянова
+T21	ORGANIZATION 660 666	Ishome
+T22	ORGANIZATION 668 676	Shadowax
+T23	PROFESSION 780 790	Композитор
+T24	PERSON 802 810	Long Arm
+T25	WORK_OF_ART 835 839	Цирк
+T26	ORGANIZATION 877 881	АДМИ
+T27	WORK_OF_ART 905 918	Новые времена
+T28	ORGANIZATION 926 932	Drojji
+T29	WORK_OF_ART 951 972	Огней большого города
+T31	WORK_OF_ART 1003 1020	Золотой лихорадке
+T33	ORGANIZATION 1053 1062	Ленинград
+T34	PERSON 1064 1076	Игорь Вдовин
+T35	PROFESSION 1079 1101	электронный композитор
+T36	PERSON 1102 1121	Мирабелла Карьянова
+T37	FACILITY 1156 1162	Звезда
+T38	FACILITY 1166 1172	Космос
+T39	FACILITY 1177 1183	Юность
+T40	PROFESSION 368 377	режиссёра
+T41	PROFESSION 679 686	Артисты
+T30	PROFESSION 1091 1101	композитор
+R1	FOUNDED_BY Arg1:T33 Arg2:T34	
+R2	PRODUCES Arg1:T4 Arg2:T3	
+T32	EVENT 9 23	покажут фильмы
+R3	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+T42	EVENT 121 150	покажет ретроспективу фильмов
+R4	ALTERNATIVE_NAME Arg1:T32 Arg2:T42	
+R5	ORGANIZES Arg1:T5 Arg2:T42	
+T43	EVENT 190 196	Показы
+R6	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R7	POINT_IN_TIME Arg1:T43 Arg2:T9	
+T44	DATE 247 258	с 16 апреля
+T45	DATE 259 278	по 19 мая 2019 года
+R8	AGE_IS Arg1:T7 Arg2:T11	
+R9	START_TIME Arg1:T43 Arg2:T44	
+R10	END_TIME Arg1:T43 Arg2:T45	
+R11	ALTERNATIVE_NAME Arg1:T43 Arg2:T10	
+R12	AGE_IS Arg1:T40 Arg2:T11	
+R13	PRODUCES Arg1:T7 Arg2:T12	
+R14	PRODUCES Arg1:T7 Arg2:T13	
+R15	PRODUCES Arg1:T7 Arg2:T14	
+R16	PRODUCES Arg1:T7 Arg2:T15	
+R17	WORKPLACE Arg1:T20 Arg2:T21	
+R18	WORKPLACE Arg1:T20 Arg2:T22	
+R19	PARTICIPANT_IN Arg1:T16 Arg2:T43	
+R20	PARTICIPANT_IN Arg1:T17 Arg2:T43	
+R21	PARTICIPANT_IN Arg1:T18 Arg2:T43	
+R22	PARTICIPANT_IN Arg1:T20 Arg2:T43	
+R23	WORKS_AS Arg1:T36 Arg2:T35	
+T6	EVENT 1124 1130	Показы
+R24	ALTERNATIVE_NAME Arg1:T43 Arg2:T6	
+R25	TAKES_PLACE_IN Arg1:T6 Arg2:T37	
+R26	TAKES_PLACE_IN Arg1:T6 Arg2:T38	
+R27	TAKES_PLACE_IN Arg1:T6 Arg2:T39	
+R28	INANIMATE_INVOLVED Arg1:T2 Arg2:T32	
+R29	INANIMATE_INVOLVED Arg1:T7 Arg2:T42	
+T46	PERSON 307 313	Чаплин
+R30	WORKS_AS Arg1:T46 Arg2:T40	
+R31	WORKS_AS Arg1:T24 Arg2:T23	
+R32	PARTICIPANT_IN Arg1:T24 Arg2:T25	
+R33	PARTICIPANT_IN Arg1:T26 Arg2:T27	
+R34	PARTICIPANT_IN Arg1:T34 Arg2:T31	
+R35	PARTICIPANT_IN Arg1:T36 Arg2:T31	
+N1	Reference T1 Wikidata:Q649	Москва
+N2	Reference T4 Wikidata:Q882	Чарли Чаплин
+N4	Reference T7 Wikidata:Q882	Чарли Чаплин
+N8	Reference T19 Wikidata:Q4105668	Игорь Вдовин
+N10	Reference T25 Wikidata:Q47928	цирк
+N11	Reference T27 Wikidata:Q45602	Новые времена
+N12	Reference T29 Wikidata:Q238211	Огни большого города
+N13	Reference T33 Wikidata:Q909810	Ленинград
+N19	Reference T40 Wikidata:Q3455803	режиссёр
+N20	Reference T41 Wikidata:Q483501	деятель искусств
+N21	Reference T30 Wikidata:Q36834	композитор
+N3	Reference T5 Wikidata:Q100144542	
+N22	Reference T46 Wikidata:Q882	Чарли Чаплин
+N5	Reference T10 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q214723	Золотая лихорадка
+N7	Reference T16 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:NULL	нет данных
+N23	Reference T17 Wikidata:NULL	нет данных
+N24	Reference T21 Wikidata:Q56746003	
+N25	Reference T22 Wikidata:Q56746003	
+N26	Reference T18 Wikidata:NULL	нет данных
+N14	Reference T35 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:Q56746003	
+N16	Reference T37 Wikidata:Q29471936	
+N17	Reference T38 Wikidata:NULL	нет данных
+N18	Reference T39 Wikidata:NULL	нет данных
+N27	Reference T2 Wikidata:Q882	Чарли Чаплин
+N28	Reference T34 Wikidata:Q4105668	Игорь Вдовин
+N29	Reference T12 Wikidata:Q47928	цирк
+N30	Reference T13 Wikidata:Q45602	Новые времена
+N31	Reference T14 Wikidata:Q238211	Огни большого города
+N32	Reference T3 Wikidata:Q238211	Огни большого города
+N33	Reference T23 Wikidata:Q36834	композитор
+N34	Reference T31 Wikidata:Q214723	Золотая лихорадка
+N35	Reference T28 Wikidata:NULL	нет данных
+N36	Reference T26 Wikidata:NULL	нет данных
+N37	Reference T20 Wikidata:Q56746003	

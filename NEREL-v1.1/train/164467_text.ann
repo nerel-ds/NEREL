@@ -1,0 +1,240 @@
+T1	COUNTRY 0 12	Пакистанские
+T2	DATE 62 70	2009 год
+T3	ORGANIZATION 81 106	Техрик-е Талибан Пакистан
+T4	ORGANIZATION 109 112	ТТП
+T6	PERSON 207 224	Мохаммад Хурасани
+T7	DATE 233 250	23 июня 2018 года
+T8	PROFESSION 284 290	муфтий
+T9	PERSON 291 306	Нур Вали Мехсуд
+T10	ORDINAL 335 343	третьего
+T11	COUNTRY 379 392	американского
+T12	DATE 403 410	13 июня
+T13	COUNTRY 413 422	афганской
+T14	STATE_OR_PROVINCE 433 438	Кунар
+T15	COUNTRY 456 466	Пакистаном
+T16	ORGANIZATION 537 540	ТТП
+T18	PROFESSION 596 602	муфтий
+T19	ORGANIZATION 640 656	Long War Journal
+T20	ORGANIZATION 680 683	ТТП
+T23	LOCATION 740 751	Вазиристана
+T24	ORDINAL 775 781	Первые
+T25	PERSON 802 817	Байтулла Мехсуд
+T26	PERSON 820 836	Хакимулла Мехсуд
+T27	COUNTRY 856 868	американских
+T28	COUNTRY 878 887	Пакистане
+T29	DATE 897 907	2013 годах
+T31	CITY 941 946	Свата
+T32	STATE_OR_PROVINCE 959 975	Хайбер-Пахтунхва
+T33	ORGANIZATION 996 999	ТТП
+T34	ORGANIZATION 1053 1070	Джамаат уль-Ахрар
+T35	LOCATION 1083 1100	Южном Вазиристане
+T36	ORGANIZATION 1243 1259	Long War Journal
+T37	AGE 1262 1271	40-летний
+T38	PERSON 1272 1287	Нур Вали Мехсуд
+T39	PERSON 1308 1323	Абу Мансур Азим
+T40	COUNTRY 1389 1398	афганским
+T41	ORGANIZATION 1400 1409	Талибаном
+T42	ORGANIZATION 1418 1435	Северного альянса
+T43	ORGANIZATION 1460 1464	НАТО
+T44	PERSON 1466 1472	Мехсуд
+T45	ORGANIZATION 1491 1494	ТТП
+T46	CITY 1497 1503	Карачи
+T47	CITY 1534 1545	Фейсалабаде
+T48	CITY 1547 1558	Гуджранвале
+T49	CITY 1561 1567	Карачи
+T51	PROFESSION 1596 1612	учителем в школе
+T52	DISTRICT 1622 1630	Горгорай
+T53	ORGANIZATION 1634 1637	ТТП
+T54	DATE 1677 1688	в 2017 году
+T55	NUMBER 1698 1701	688
+T56	ORGANIZATION 1787 1799	The Diplomat
+T58	PROFESSION 1884 1889	эмиру
+T59	PERSON 1899 1915	Байтулле Мехсуду
+T60	ORGANIZATION 13 19	талибы
+T61	PROFESSION 39 45	лидера
+T62	COUNTRY 51 60	Пакистана
+T63	PROFESSION 129 134	эмира
+T64	PROFESSION 156 161	муллы
+T65	PERSON 162 170	Фазлуллы
+T5	COUNTRY 186 198	пакистанских
+T66	ORGANIZATION 199 206	талибов
+T67	ORGANIZATION 0 19	Пакистанские талибы
+T68	ORGANIZATION 186 206	пакистанских талибов
+T69	ORGANIZATION 309 315	Талибы
+T70	EVENT 328 334	смерть
+T71	PERSON 357 365	Фазлуллы
+T72	PROFESSION 344 356	руководителя
+T73	EVENT 393 402	авиаудара
+T74	PROFESSION 530 540	лидеры ТТП
+T76	PROFESSION 559 564	эмиру
+T77	PROFESSION 566 586	Заместителем Мехсуда
+T78	PERSON 579 586	Мехсуда
+T79	PERSON 603 610	Мазахим
+T80	PERSON 612 618	Хазрат
+T81	ORGANIZATION 711 717	Мехсуд
+T82	LOCATION 730 751	Северного Вазиристана
+T83	PROFESSION 786 791	эмира
+T84	EVENT 838 845	погибли
+T85	DATE 888 894	в 2009
+T86	PERSON 929 937	Фазлуллы
+T87	ORGANIZATION 1074 1080	талибы
+T88	LOCATION 1089 1100	Вазиристане
+T89	PROFESSION 1484 1490	бойцов
+T90	PROFESSION 1484 1494	бойцов ТТП
+T57	PENALTY 1860 1876	трёх дней тюрьмы
+R1	HEADQUARTERED_IN Arg1:T67 Arg2:T1	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T62	
+R3	ABBREVIATION Arg1:T3 Arg2:T4	
+R4	WORKS_AS Arg1:T65 Arg2:T64	
+R5	WORKS_AS Arg1:T9 Arg2:T8	
+R6	HEADQUARTERED_IN Arg1:T68 Arg2:T5	
+R7	SUBORDINATE_OF Arg1:T77 Arg2:T78	
+R8	ALTERNATIVE_NAME Arg1:T79 Arg2:T80	
+R9	LOCATED_IN Arg1:T82 Arg2:T23	
+R10	WORKS_AS Arg1:T25 Arg2:T83	
+R11	WORKS_AS Arg1:T26 Arg2:T83	
+R12	LOCATED_IN Arg1:T35 Arg2:T88	
+T17	RELIGION 1515 1524	исламских
+R13	WORKPLACE Arg1:T74 Arg2:T16	
+R14	LOCATED_IN Arg1:T14 Arg2:T13	
+R15	WORKPLACE Arg1:T90 Arg2:T45	
+R16	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+R17	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R18	AGE_IS Arg1:T38 Arg2:T37	
+R19	ALTERNATIVE_NAME Arg1:T38 Arg2:T44	
+R20	RELIGION_OF Arg1:T38 Arg2:T17	
+R21	WORKS_AS Arg1:T38 Arg2:T51	
+T21	PROFESSION 1596 1604	учителем
+T22	DATE 1860 1869	трёх дней
+T50	DATE 1579 1587	двух лет
+R22	WORKPLACE Arg1:T61 Arg2:T67	
+T75	COUNTRY 98 106	Пакистан
+R23	HEADQUARTERED_IN Arg1:T3 Arg2:T75	
+R24	ALTERNATIVE_NAME Arg1:T67 Arg2:T3	
+R25	WORKPLACE Arg1:T63 Arg2:T3	
+R26	WORKPLACE Arg1:T65 Arg2:T3	
+T91	PROFESSION 172 206	Представитель пакистанских талибов
+R27	WORKS_AS Arg1:T6 Arg2:T91	
+R28	WORKPLACE Arg1:T6 Arg2:T68	
+R29	ALTERNATIVE_NAME Arg1:T3 Arg2:T68	
+R30	WORKPLACE Arg1:T9 Arg2:T68	
+R31	POINT_IN_TIME Arg1:T73 Arg2:T12	
+R32	TAKES_PLACE_IN Arg1:T73 Arg2:T14	
+R33	PARTICIPANT_IN Arg1:T11 Arg2:T73	
+R34	PARTICIPANT_IN Arg1:T71 Arg2:T70	
+R35	WORKS_AS Arg1:T71 Arg2:T72	
+R36	WORKPLACE Arg1:T71 Arg2:T69	
+R37	WORKS_AS Arg1:T71 Arg2:T76	
+R38	ALTERNATIVE_NAME Arg1:T9 Arg2:T78	
+R39	WORKS_AS Arg1:T79 Arg2:T18	
+R40	SUBORDINATE_OF Arg1:T79 Arg2:T78	
+R41	HEADQUARTERED_IN Arg1:T81 Arg2:T23	
+R42	PARTICIPANT_IN Arg1:T25 Arg2:T84	
+R43	PARTICIPANT_IN Arg1:T26 Arg2:T84	
+R44	PARTICIPANT_IN Arg1:T27 Arg2:T84	
+R45	TAKES_PLACE_IN Arg1:T84 Arg2:T28	
+R46	POINT_IN_TIME Arg1:T84 Arg2:T85	
+R47	POINT_IN_TIME Arg1:T84 Arg2:T29	
+R48	WORKPLACE Arg1:T72 Arg2:T69	
+R49	HAS_CAUSE Arg1:T70 Arg2:T73	
+R50	LOCATED_IN Arg1:T31 Arg2:T32	
+R51	WORKPLACE Arg1:T44 Arg2:T45	
+R52	WORKS_AS Arg1:T59 Arg2:T58	
+R53	PENALIZED_AS Arg1:T59 Arg2:T57	
+T92	PENALTY 1870 1876	тюрьмы
+T93	PROFESSION 1741 1759	религиозного судьи
+R54	WORKS_AS Arg1:T38 Arg2:T93	
+T94	EVENT 114 134	избрало нового эмира
+R55	AGENT Arg1:T3 Arg2:T94	
+T95	EVENT 148 155	убитого
+R56	PARTICIPANT_IN Arg1:T65 Arg2:T95	
+R57	PARTICIPANT_IN Arg1:T9 Arg2:T94	
+R58	ALTERNATIVE_NAME Arg1:T95 Arg2:T70	
+T96	EVENT 541 551	присягнули
+R59	AGENT Arg1:T74 Arg2:T96	
+R60	PARTICIPANT_IN Arg1:T76 Arg2:T96	
+T97	EVENT 910 928	Назначение лидером
+R61	PARTICIPANT_IN Arg1:T86 Arg2:T97	
+R62	ORIGINS_FROM Arg1:T86 Arg2:T31	
+R63	ALTERNATIVE_NAME Arg1:T94 Arg2:T97	
+T30	EVENT 986 993	расколу
+R64	PARTICIPANT_IN Arg1:T33 Arg2:T30	
+R65	HAS_CAUSE Arg1:T30 Arg2:T97	
+R66	PARTICIPANT_IN Arg1:T34 Arg2:T30	
+R67	HEADQUARTERED_IN Arg1:T87 Arg2:T35	
+R68	PARTICIPANT_IN Arg1:T87 Arg2:T30	
+N4	Reference T14 Wikidata:Q188147	Кунар
+N5	Reference T18 Wikidata:Q185992	муфтий
+N6	Reference T23 Wikidata:Q190217	Вазиристан
+N7	Reference T26 Wikidata:Q732375	Мехсуд, Хакимулла
+N9	Reference T32 Wikidata:Q183314	Хайбер-Пахтунхва
+N10	Reference T34 Wikidata:Q1022860	Джамаат Таблиг
+N11	Reference T35 Wikidata:Q1798701	Южный Вазиристан
+N14	Reference T41 Wikidata:Q42418	Талибан
+N15	Reference T42 Wikidata:Q309368	Северный альянс
+N16	Reference T43 Wikidata:Q7184	Организация Североатлантического договора
+N17	Reference T46 Wikidata:Q8660	Карачи
+N18	Reference T47 Wikidata:Q173985	Фейсалабад
+N19	Reference T48 Wikidata:Q243322	Гуджранвала
+N21	Reference T59 Wikidata:Q334902	Мехсуд, Байтулла
+N23	Reference T62 Wikidata:Q843	Пакистан
+N24	Reference T64 Wikidata:Q188942	мулла
+N25	Reference T65 Wikidata:Q2442752	Фазлулла
+N26	Reference T66 Wikidata:Q42418	Талибан
+N28	Reference T72 Wikidata:Q2462658	менеджер
+N31	Reference T78 Wikidata:Q334902	Мехсуд, Байтулла
+N34	Reference T82 Wikidata:Q1915545	Северный Вазиристан
+N35	Reference T83 Wikidata:Q166382	эмир
+N37	Reference T21 Wikidata:Q37226	учитель
+N27	Reference T67 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N22	Reference T61 Wikidata:Q1251441	лидер
+N38	Reference T91 Wikidata:NULL	нет данных
+N1	Reference T6 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:Q30	США
+N3	Reference T13 Wikidata:Q889	Афганистан
+N29	Reference T74 Wikidata:NULL	нет данных
+N30	Reference T77 Wikidata:NULL	нет данных
+N32	Reference T80 Wikidata:NULL	нет данных
+N33	Reference T81 Wikidata:NULL	нет данных
+N8	Reference T31 Wikidata:Q389161	Сват
+N12	Reference T36 Wikidata:Q6673362	
+N13	Reference T39 Wikidata:NULL	нет данных
+N40	Reference T90 Wikidata:NULL	нет данных
+N41	Reference T89 Wikidata:NULL	нет данных
+N36	Reference T17 Wikidata:Q432	ислам
+N42	Reference T51 Wikidata:Q2251335	
+N20	Reference T52 Wikidata:NULL	нет данных
+N39	Reference T93 Wikidata:Q217029	кади
+N43	Reference T56 Wikidata:Q7730237	
+N44	Reference T8 Wikidata:Q185992	муфтий
+N45	Reference T88 Wikidata:Q190217	Вазиристан
+N46	Reference T49 Wikidata:Q8660	Карачи
+N47	Reference T25 Wikidata:Q334902	Мехсуд, Байтулла
+N48	Reference T75 Wikidata:Q843	Пакистан
+N49	Reference T5 Wikidata:Q843	Пакистан
+N50	Reference T15 Wikidata:Q843	Пакистан
+N51	Reference T28 Wikidata:Q843	Пакистан
+N52	Reference T1 Wikidata:Q843	Пакистан
+N53	Reference T71 Wikidata:Q2442752	Фазлулла
+N54	Reference T86 Wikidata:Q2442752	Фазлулла
+N55	Reference T60 Wikidata:Q42418	Талибан
+N56	Reference T69 Wikidata:Q42418	Талибан
+N57	Reference T87 Wikidata:Q42418	Талибан
+N58	Reference T9 Wikidata:Q334902	Мехсуд, Байтулла
+N59	Reference T63 Wikidata:Q166382	эмир
+N60	Reference T76 Wikidata:Q166382	эмир
+N61	Reference T58 Wikidata:Q166382	эмир
+N62	Reference T20 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N63	Reference T53 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N64	Reference T16 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N65	Reference T4 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N66	Reference T33 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N67	Reference T3 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N68	Reference T45 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N69	Reference T68 Wikidata:Q1459585	Техрик Талибан-и-Пакистан
+N70	Reference T27 Wikidata:Q30	США
+N71	Reference T40 Wikidata:Q889	Афганистан
+N72	Reference T79 Wikidata:NULL	нет данных
+N73	Reference T19 Wikidata:Q6673362	
+N74	Reference T44 Wikidata:NULL	нет данных
+N75	Reference T38 Wikidata:NULL	нет данных

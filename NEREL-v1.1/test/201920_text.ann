@@ -1,0 +1,93 @@
+T1	COUNTRY 2 11	Пакистане
+T2	COUNTRY 95 104	Пакистане
+T3	COUNTRY 107 116	Пакистане
+T4	NUMBER 136 142	тысячу
+T5	RELIGION 249 260	индуистских
+T6	DATE 274 294	22 декабря 2018 года
+T7	ORGANIZATION 303 313	Asia Times
+T8	ORGANIZATION 351 397	Национальной комиссии по справедливости и миру
+T9	ORGANIZATION 400 427	Комиссии по правам человека
+T10	RELIGION 543 551	индуисты
+T11	DATE 679 688	в октябре
+T12	AGE 696 705	11-летнюю
+T13	PERSON 714 727	Монику Лухано
+T14	PERSON 729 742	Monika Luhano
+T15	NUMBER 744 751	четверо
+T16	CITY 785 789	Хала
+T17	CITY 837 844	Сехване
+T18	AGE 846 855	25-летний
+T19	NUMBER 1147 1155	3 тысячи
+T22	CITY 1188 1194	Самаро
+T23	ORGANIZATION 1209 1219	Asia Times
+T24	ORDINAL 1251 1257	второй
+T25	RELIGION 12 23	индуистских
+T26	RELIGION 43 48	ислам
+T27	RELIGION 75 86	индуистских
+T28	DATE 117 127	каждый год
+T29	AGE 143 161	несовершеннолетних
+T30	RELIGION 170 183	немусульманок
+T31	RELIGION 209 214	ислам
+T32	ORGANIZATION 400 437	Комиссии по правам человека Пакистана
+T33	COUNTRY 428 437	Пакистана
+T34	IDEOLOGY 593 605	исламистских
+T36	STATE_OR_PROVINCE 800 804	Синд
+T37	RELIGION 897 902	ислам
+T38	RELIGION 1040 1045	ислам
+T39	RELIGION 1113 1124	индуистской
+T20	FACILITY 1168 1185	храма богини Кали
+T21	PERSON 1181 1185	Кали
+T40	RELIGION 1389 1394	ислам
+T41	RELIGION 1444 1457	немусульманам
+T42	LOCATION 303 307	Asia
+R1	HEADQUARTERED_IN Arg1:T7 Arg2:T42	
+R2	HEADQUARTERED_IN Arg1:T8 Arg2:T33	
+R3	HEADQUARTERED_IN Arg1:T32 Arg2:T33	
+R4	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R5	AGE_IS Arg1:T13 Arg2:T12	
+T43	EVENT 759 767	похитили
+R6	PARTICIPANT_IN Arg1:T13 Arg2:T43	
+R7	POINT_IN_TIME Arg1:T43 Arg2:T11	
+R8	TAKES_PLACE_IN Arg1:T43 Arg2:T16	
+R9	LOCATED_IN Arg1:T16 Arg2:T36	
+R10	LOCATED_IN Arg1:T36 Arg2:T3	
+R11	LOCATED_IN Arg1:T20 Arg2:T22	
+T35	LOCATION 1209 1213	Asia
+R12	HEADQUARTERED_IN Arg1:T23 Arg2:T35	
+R13	PLACE_RESIDES_IN Arg1:T13 Arg2:T16	
+T44	RELIGION 817 826	суфийской
+N1	Reference T7 Wikidata:Q727162	Asia Times Online
+N3	Reference T9 Wikidata:Q5152717	Комиссия по правам человека
+N4	Reference T13 Wikidata:Q234689	Моника
+N8	Reference T26 Wikidata:Q432	ислам
+N11	Reference T33 Wikidata:Q843	Пакистан
+N12	Reference T36 Wikidata:Q37211	Синд
+N14	Reference T21 Wikidata:Q132127	Кали
+N9	Reference T27 Wikidata:Q9089	
+N18	Reference T30 Wikidata:NULL	нет данных
+N16	Reference T42 Wikidata:Q48	Азия
+N10	Reference T32 Wikidata:NULL	нет данных
+N15	Reference T41 Wikidata:NULL	нет данных
+N7	Reference T22 Wikidata:Q7408863	
+N17	Reference T44 Wikidata:Q9603	
+N6	Reference T17 Wikidata:Q3308397	
+N5	Reference T16 Wikidata:Q3250492	
+N19	Reference T1 Wikidata:NULL	нет данных
+N20	Reference T10 Wikidata:Q9089	
+N2	Reference T8 Wikidata:NULL	нет данных
+N13	Reference T20 Wikidata:NULL	нет данных
+N21	Reference T23 Wikidata:Q727162	Asia Times Online
+N22	Reference T14 Wikidata:Q234689	Моника
+N23	Reference T40 Wikidata:Q432	ислам
+N24	Reference T38 Wikidata:Q432	ислам
+N25	Reference T31 Wikidata:Q432	ислам
+N26	Reference T37 Wikidata:Q432	ислам
+N27	Reference T2 Wikidata:Q843	Пакистан
+N28	Reference T1 Wikidata:Q843	Пакистан
+N29	Reference T3 Wikidata:Q843	Пакистан
+N30	Reference T39 Wikidata:Q9089	
+N31	Reference T5 Wikidata:Q9089	
+N32	Reference T25 Wikidata:Q9089	
+N33	Reference T35 Wikidata:Q48	Азия
+N34	Reference T33 Wikidata:NULL	нет данных
+N35	Reference T2 Wikidata:NULL	нет данных
+N36	Reference T3 Wikidata:NULL	нет данных

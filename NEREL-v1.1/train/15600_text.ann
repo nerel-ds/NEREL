@@ -1,0 +1,140 @@
+T1	NATIONALITY 0 7	Эстонцы
+T2	PROFESSION 38 48	президента
+T3	COUNTRY 51 58	Эстонии
+T4	PROFESSION 117 133	глава республики
+T5	AGE 136 145	57-летний
+T6	PERSON 146 167	Тоомас Хендрик Ильвес
+T7	ORDINAL 192 198	второй
+T8	DATE 199 209	пятилетний
+T9	NUMBER 229 231	73
+T10	NUMBER 235 238	101
+T11	ORGANIZATION 248 258	парламента
+T12	NUMBER 275 277	68
+T13	ORDINAL 283 289	первый
+T14	DATE 297 308	с 1992 года
+T15	PROFESSION 316 329	главу Эстонии
+T16	ORDINAL 348 354	первом
+T17	ORGANIZATION 376 386	NEWSru.com
+T18	PERSON 449 456	Ильвеса
+T19	COUNTRY 498 505	Эстонии
+T20	DATE 510 533	на протяжении шести лет
+T21	PROFESSION 569 579	президента
+T22	ORGANIZATION 599 612	Партия реформ
+T23	ORGANIZATION 619 640	Isamaa ja Res Publica
+T24	ORGANIZATION 664 693	Социал-демократическая партия
+T25	PROFESSION 709 718	президент
+T26	ORGANIZATION 777 787	парламенту
+T27	NUMBER 999 1003	трёх
+T29	NUMBER 1117 1126	две трети
+T31	PERSON 1245 1266	Тоомас Хендрик Ильвес
+T32	DATE 1275 1295	26 декабря 1953 года
+T33	CITY 1298 1308	Стокгольме
+T34	DATE 1310 1321	в 1976 году
+T36	ORGANIZATION 1361 1387	Колумбийского университета
+T37	COUNTRY 1390 1393	США
+T38	DATE 1396 1407	в 1978 году
+T40	ORGANIZATION 1437 1465	Пенсильванского университета
+T41	PERSON 1467 1473	Ильвес
+T42	COUNTRY 1524 1530	России
+T43	DATE 1546 1565	в августе 2008 года
+T44	CITY 1577 1584	Тбилиси
+T45	PERSON 1603 1621	Михаила Саакашвили
+T47	COUNTRY 1650 1656	Россию
+T48	ORGANIZATION 1682 1699	Большой восьмёрки
+T49	ORDINAL 8 15	впервые
+T50	EVENT 75 96	президентских выборах
+T51	EVENT 89 96	выборах
+T52	PROFESSION 75 88	президентских
+T54	PROFESSION 239 247	депутата
+T55	PROFESSION 239 258	депутата парламента
+T56	COUNTRY 322 329	Эстонии
+T58	IDEOLOGY 650 663	оппозиционная
+T59	IDEOLOGY 664 686	Социал-демократическая
+T60	PROFESSION 709 726	президент Эстонии
+T61	COUNTRY 719 726	Эстонии
+T62	ORGANIZATION 876 885	парламент
+T64	PROFESSION 912 920	Депутаты
+T65	PROFESSION 932 949	главу государства
+T66	PROFESSION 1060 1071	президентом
+R1	AGE_IS Arg1:T6 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T4	
+R3	ORIGINS_FROM Arg1:T1 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T50 Arg2:T3	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T50	
+R6	WORKPLACE Arg1:T55 Arg2:T11	
+R7	WORKPLACE Arg1:T15 Arg2:T56	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T18	
+R9	HEADQUARTERED_IN Arg1:T22 Arg2:T19	
+R10	HEADQUARTERED_IN Arg1:T23 Arg2:T19	
+R11	HEADQUARTERED_IN Arg1:T24 Arg2:T19	
+R12	IDEOLOGY_OF Arg1:T24 Arg2:T58	
+R13	IDEOLOGY_OF Arg1:T24 Arg2:T59	
+R14	WORKPLACE Arg1:T60 Arg2:T61	
+T28	PROFESSION 1203 1216	главы городов
+R15	DATE_OF_BIRTH Arg1:T31 Arg2:T32	
+R16	PLACE_OF_BIRTH Arg1:T31 Arg2:T33	
+R17	SCHOOLS_ATTENDED Arg1:T31 Arg2:T36	
+R18	HEADQUARTERED_IN Arg1:T36 Arg2:T37	
+R19	SCHOOLS_ATTENDED Arg1:T31 Arg2:T40	
+R20	ALTERNATIVE_NAME Arg1:T31 Arg2:T41	
+T30	EVENT 1569 1574	летал
+R21	AGENT Arg1:T41 Arg2:T30	
+R22	KNOWS Arg1:T41 Arg2:T45	
+R23	KNOWS Arg1:T45 Arg2:T41	
+R24	TAKES_PLACE_IN Arg1:T30 Arg2:T44	
+R25	POINT_IN_TIME Arg1:T30 Arg2:T43	
+R26	MEMBER_OF Arg1:T47 Arg2:T48	
+R27	WORKS_AS Arg1:T18 Arg2:T21	
+R28	WORKPLACE Arg1:T4 Arg2:T3	
+R29	HEADQUARTERED_IN Arg1:T26 Arg2:T61	
+T35	STATE_OR_PROVINCE 1437 1452	Пенсильванского
+R30	HEADQUARTERED_IN Arg1:T40 Arg2:T35	
+T39	EVENT 172 214	переизбрание его на второй пятилетний срок
+R31	AGENT Arg1:T55 Arg2:T39	
+R32	HEADQUARTERED_IN Arg1:T11 Arg2:T3	
+R33	SUBEVENT_OF Arg1:T39 Arg2:T50	
+R34	PARTICIPANT_IN Arg1:T6 Arg2:T39	
+T46	EVENT 172 184	переизбрание
+N1	Reference T1 Wikidata:Q173302	эстонцы
+N4	Reference T17 Wikidata:Q122544	NEWSru.com
+N6	Reference T22 Wikidata:Q738947	Партия реформ Эстонии
+N7	Reference T23 Wikidata:Q1471814	Партия Res Publica
+N9	Reference T25 Wikidata:Q30461	президент
+N10	Reference T33 Wikidata:Q1754	Стокгольм
+N11	Reference T36 Wikidata:Q49088	Колумбийский университет
+N12	Reference T37 Wikidata:Q30	США
+N13	Reference T40 Wikidata:Q49117	Пенсильванский университет
+N15	Reference T42 Wikidata:Q159	Россия
+N16	Reference T44 Wikidata:Q994	Тбилиси
+N17	Reference T45 Wikidata:Q43330	Михаил Саакашвили
+N18	Reference T48 Wikidata:Q37143	Большая восьмёрка
+N20	Reference T55 Wikidata:Q486839	член парламента
+N21	Reference T56 Wikidata:Q191	Эстония
+N22	Reference T60 Wikidata:Q890005	президент Эстонской Республики
+N23	Reference T62 Wikidata:Q35749	парламент
+N24	Reference T64 Wikidata:Q486839	член парламента
+N25	Reference T65 Wikidata:Q48352	глава государства
+N19	Reference T52 Wikidata:Q30461	президент
+N2	Reference T4 Wikidata:Q890005	президент Эстонской Республики
+N3	Reference T15 Wikidata:Q890005	президент Эстонской Республики
+N5	Reference T18 Wikidata:Q57289	Тоомас Хендрик Ильвес
+N8	Reference T24 Wikidata:Q913551	Социал-демократическая партия Эстонии
+N26	Reference T28 Wikidata:Q30185	мэр
+N27	Reference T35 Wikidata:Q1400	Пенсильвания
+N14	Reference T41 Wikidata:Q57289	Тоомас Хендрик Ильвес
+N28	Reference T2 Wikidata:Q30461	президент
+N29	Reference T21 Wikidata:Q30461	президент
+N30	Reference T66 Wikidata:Q30461	президент
+N31	Reference T47 Wikidata:Q159	Россия
+N32	Reference T19 Wikidata:Q191	Эстония
+N33	Reference T61 Wikidata:Q191	Эстония
+N34	Reference T3 Wikidata:Q191	Эстония
+N35	Reference T11 Wikidata:Q35749	парламент
+N36	Reference T26 Wikidata:Q35749	парламент
+N37	Reference T54 Wikidata:Q486839	член парламента
+N38	Reference T6 Wikidata:Q57289	Тоомас Хендрик Ильвес
+N39	Reference T31 Wikidata:Q57289	Тоомас Хендрик Ильвес
+T53	EVENT 1267 1274	родился
+R35	PARTICIPANT_IN Arg1:T31 Arg2:T53	
+R36	POINT_IN_TIME Arg1:T53 Arg2:T32	
+R37	TAKES_PLACE_IN Arg1:T53 Arg2:T33	

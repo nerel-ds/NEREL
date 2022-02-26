@@ -1,0 +1,90 @@
+T1	PERSON 0 18	Эммерсон Мнангагва
+T2	PROFESSION 30 50	президентом Зимбабве
+T4	DATE 89 119	в пятницу, 24 ноября 2017 года
+T6	PROFESSION 154 173	президента Зимбабве
+T7	DATE 184 193	37-летний
+T8	PERSON 225 239	Роберта Мугабе
+T9	DATE 242 271	Ранее в этом месяце, 5 ноября
+T10	PERSON 273 282	Мнангагва
+T11	PROFESSION 304 319	вице-президента
+T13	PERSON 382 387	Грейс
+T14	DATE 390 407	Две недели спустя
+T15	AGE 408 417	75-летний
+T16	FACILITY 522 554	Национальном спортивном стадионе
+T17	CITY 557 563	Хараре
+T18	PERSON 617 626	Мнангагва
+T20	ORGANIZATION 683 698	армией Зимбабве
+T21	PERSON 51 69	Эммерсон Мнангагва
+T22	PROFESSION 30 41	президентом
+T23	COUNTRY 42 50	Зимбабве
+T24	PERSON 70 88	Эммерсон Мнангагва
+T5	COUNTRY 165 173	Зимбабве
+T25	PROFESSION 154 164	президента
+T26	COUNTRY 690 698	Зимбабве
+T19	COUNTRY 320 328	Зимбабве
+T27	PROFESSION 304 328	вице-президента Зимбабве
+T28	PROFESSION 418 425	политик
+T30	LOCATION 466 481	южноафриканской
+T31	PERSON 363 369	Мугабе
+T32	EVENT 287 293	уволен
+T33	EVENT 426 440	принес присягу
+T34	EVENT 121 135	принёс присягу
+T35	EVENT 491 500	Церемония
+R1	WORKPLACE Arg1:T2 Arg2:T23	
+R2	WORKS_AS Arg1:T1 Arg2:T2	
+R3	WORKPLACE Arg1:T1 Arg2:T23	
+R4	AGENT Arg1:T24 Arg2:T34	
+R5	POINT_IN_TIME Arg1:T34 Arg2:T4	
+R6	WORKS_AS Arg1:T8 Arg2:T6	
+R7	WORKPLACE Arg1:T8 Arg2:T5	
+R8	WORKPLACE Arg1:T6 Arg2:T5	
+R9	TAKES_PLACE_IN Arg1:T34 Arg2:T5	
+R10	WORKS_AS Arg1:T24 Arg2:T6	
+R11	WORKPLACE Arg1:T24 Arg2:T5	
+R12	SPOUSE Arg1:T31 Arg2:T13	
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T32	
+R14	POINT_IN_TIME Arg1:T32 Arg2:T9	
+R15	WORKS_AS Arg1:T10 Arg2:T27	
+R16	TAKES_PLACE_IN Arg1:T32 Arg2:T19	
+R17	WORKPLACE Arg1:T10 Arg2:T19	
+R18	ALTERNATIVE_NAME Arg1:T24 Arg2:T10	
+R19	ALTERNATIVE_NAME Arg1:T8 Arg2:T31	
+R20	KNOWS Arg1:T10 Arg2:T31	
+R21	WORKS_AS Arg1:T10 Arg2:T28	
+R22	AGE_IS Arg1:T10 Arg2:T15	
+R23	ALTERNATIVE_NAME Arg1:T34 Arg2:T33	
+T12	PROFESSION 459 488	лидера южноафриканской страны
+R24	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R25	AGE_IS Arg1:T28 Arg2:T15	
+R26	POINT_IN_TIME Arg1:T33 Arg2:T14	
+R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T35	
+R28	TAKES_PLACE_IN Arg1:T35 Arg2:T16	
+R29	LOCATED_IN Arg1:T16 Arg2:T17	
+R30	LOCATED_IN Arg1:T17 Arg2:T19	
+R31	HEADQUARTERED_IN Arg1:T20 Arg2:T26	
+R32	WORKPLACE Arg1:T27 Arg2:T19	
+R33	AGENT Arg1:T28 Arg2:T33	
+N1	Reference T10 Wikidata:Q510523	Эммерсон Мнангагва
+N3	Reference T13 Wikidata:Q453364	Грейс Мугабе
+N5	Reference T17 Wikidata:Q3921	Хараре
+N7	Reference T22 Wikidata:Q30461	президент
+N8	Reference T5 Wikidata:Q954	Зимбабве
+N9	Reference T27 Wikidata:Q4261844	вице-президент Зимбабве
+N10	Reference T28 Wikidata:Q82955	политик
+N12	Reference T31 Wikidata:Q10707	Роберт Мугабе
+N13	Reference T6 Wikidata:Q19056184	
+N6	Reference T20 Wikidata:Q381383	
+N11	Reference T30 Wikidata:Q27394	Южная Африка
+N2	Reference T11 Wikidata:Q42178	вице-президент
+N4	Reference T16 Wikidata:Q1658746	
+N14	Reference T24 Wikidata:Q510523	Эммерсон Мнангагва
+N15	Reference T18 Wikidata:Q510523	Эммерсон Мнангагва
+N16	Reference T1 Wikidata:Q510523	Эммерсон Мнангагва
+N17	Reference T21 Wikidata:Q510523	Эммерсон Мнангагва
+N18	Reference T25 Wikidata:Q30461	президент
+N19	Reference T19 Wikidata:Q954	Зимбабве
+N20	Reference T23 Wikidata:Q954	Зимбабве
+N21	Reference T26 Wikidata:Q954	Зимбабве
+N22	Reference T8 Wikidata:Q10707	Роберт Мугабе
+N23	Reference T2 Wikidata:Q19056184	
+N24	Reference T12 Wikidata:Q19056184	

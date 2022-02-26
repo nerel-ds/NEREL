@@ -1,0 +1,201 @@
+T1	COUNTRY 2 8	Турции
+T2	COUNTRY 43 53	саудовском
+T3	ORGANIZATION 82 101	The Washington Post
+T4	PERSON 102 117	Джамал Хашкаджи
+T5	PROFESSION 182 191	журналист
+T6	PERSON 192 207	Джамал Хашкаджи
+T8	COUNTRY 231 248	Саудовской Аравии
+T9	CITY 251 259	Стамбуле
+T10	DATE 269 289	12 октября 2018 года
+T11	ORGANIZATION 299 302	CNN
+T13	ORGANIZATION 433 436	CNN
+T14	AGE 468 478	59-летнего
+T15	TIME 544 562	Вечером 11 октября
+T16	DATE 552 562	11 октября
+T17	ORGANIZATION 563 582	The Washington Post
+T18	COUNTRY 619 627	турецкое
+T19	COUNTRY 654 657	США
+T20	COUNTRY 784 787	США
+T21	COUNTRY 790 796	Турции
+T22	NATIONALITY 947 957	саудовский
+T23	PERSON 968 983	Джамал Хашкаджи
+T24	COUNTRY 1030 1047	Саудовской Аравии
+T25	DATE 1056 1065	2 октября
+T26	CITY 1108 1116	Стамбуле
+T27	PERSON 1133 1141	Хашкаджи
+T28	TIME 1166 1173	в 13.00
+T29	TIME 1249 1260	до полуночи
+T30	PERSON 1263 1271	Хашкаджи
+T31	DATE 1272 1283	в 2017 году
+T32	COUNTRY 1336 1339	США
+T33	COUNTRY 1341 1349	Британии
+T34	COUNTRY 1352 1358	Турции
+T35	PROFESSION 1360 1369	Журналист
+T36	ORGANIZATION 1384 1399	Washington Post
+T37	PRODUCT 1403 1411	твиттере
+T41	NUMBER 1424 1431	1,6 млн
+T42	COUNTRY 1446 1454	Турецкие
+T43	NUMBER 1607 1609	15
+T46	PROFESSION 1771 1798	Наследный принц королевства
+T47	PERSON 1799 1818	Мухаммед ибн Салман
+T48	COUNTRY 1918 1921	США
+T49	COUNTRY 1923 1935	Американский
+T50	PERSON 1946 1959	Дональд Трамп
+T51	COUNTRY 2053 2070	Саудовской Аравии
+T52	EVENT 21 29	убийства
+T53	PROFESSION 30 40	журналиста
+T54	PROFESSION 65 74	Колумнист
+T55	PROFESSION 65 101	Колумнист газеты The Washington Post
+T56	COUNTRY 118 124	Турция
+T57	EVENT 212 216	убит
+T58	PROFESSION 479 489	журналиста
+T60	EVENT 536 541	убили
+T61	ORGANIZATION 619 641	турецкое правительство
+T62	ORGANIZATION 628 641	правительство
+T63	EVENT 719 727	убийство
+T64	PROFESSION 728 738	журналиста
+T65	PROFESSION 826 836	журналиста
+T66	LANGUAGE 849 857	арабском
+T67	IDEOLOGY 933 946	Оппозиционный
+T68	PROFESSION 958 967	журналист
+T69	FAMILY 1012 1047	королевской семьи Саудовской Аравии
+T70	EVENT 1049 1055	пропал
+T40	EVENT 1305 1325	конфликта с властями
+T71	PROFESSION 1479 1488	журналист
+T72	EVENT 1493 1497	убит
+T73	PROFESSION 1563 1573	журналиста
+T74	EVENT 1549 1573	исчезновением журналиста
+T75	NATIONALITY 1610 1619	саудовцев
+T44	CITY 1654 1661	Эр-Рияд
+T45	PROFESSION 1699 1709	журналиста
+T76	PROFESSION 1781 1786	принц
+T77	PROFESSION 1923 1945	Американский президент
+T78	PROFESSION 1936 1945	президент
+T38	FACILITY 43 64	саудовском посольстве
+R1	OWNER_OF Arg1:T2 Arg2:T38	
+R2	TAKES_PLACE_IN Arg1:T52 Arg2:T38	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T57	
+T39	FACILITY 219 259	консульстве Саудовской Аравии в Стамбуле
+R5	OWNER_OF Arg1:T8 Arg2:T39	
+R6	LOCATED_IN Arg1:T39 Arg2:T9	
+R7	AGE_IS Arg1:T6 Arg2:T14	
+R8	AGE_IS Arg1:T58 Arg2:T14	
+T79	EVENT 490 509	напали в посольстве
+R9	PARTICIPANT_IN Arg1:T58 Arg2:T79	
+R10	PARTICIPANT_IN Arg1:T6 Arg2:T79	
+R11	TAKES_PLACE_IN Arg1:T79 Arg2:T39	
+R12	PARTICIPANT_IN Arg1:T58 Arg2:T60	
+R13	TAKES_PLACE_IN Arg1:T60 Arg2:T39	
+R14	PARTICIPANT_IN Arg1:T6 Arg2:T60	
+R15	HEADQUARTERED_IN Arg1:T61 Arg2:T18	
+R16	IDEOLOGY_OF Arg1:T23 Arg2:T67	
+R17	WORKS_AS Arg1:T23 Arg2:T68	
+R18	ORIGINS_FROM Arg1:T68 Arg2:T22	
+T7	CITY 567 577	Washington
+R19	HEADQUARTERED_IN Arg1:T17 Arg2:T7	
+R20	PARTICIPANT_IN Arg1:T23 Arg2:T70	
+R21	POINT_IN_TIME Arg1:T70 Arg2:T25	
+R22	ALTERNATIVE_NAME Arg1:T23 Arg2:T27	
+R23	PLACE_RESIDES_IN Arg1:T30 Arg2:T32	
+R24	PLACE_RESIDES_IN Arg1:T30 Arg2:T33	
+R25	PLACE_RESIDES_IN Arg1:T30 Arg2:T34	
+T12	CITY 1384 1394	Washington
+R26	HEADQUARTERED_IN Arg1:T36 Arg2:T12	
+R27	WORKS_AS Arg1:T47 Arg2:T46	
+R28	WORKPLACE Arg1:T77 Arg2:T49	
+R29	WORKS_AS Arg1:T50 Arg2:T77	
+R30	WORKPLACE Arg1:T50 Arg2:T49	
+R31	WORKPLACE Arg1:T35 Arg2:T36	
+R32	WORKPLACE Arg1:T30 Arg2:T36	
+T59	ORGANIZATION 1446 1461	Турецкие власти
+R33	HEADQUARTERED_IN Arg1:T59 Arg2:T42	
+R34	ALTERNATIVE_NAME Arg1:T70 Arg2:T74	
+R35	PARTICIPANT_IN Arg1:T53 Arg2:T52	
+R36	WORKPLACE Arg1:T4 Arg2:T3	
+R37	WORKS_AS Arg1:T4 Arg2:T55	
+R38	ALTERNATIVE_NAME Arg1:T52 Arg2:T57	
+R39	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R40	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+T80	EVENT 719 738	убийство журналиста
+R41	PARTICIPANT_IN Arg1:T64 Arg2:T80	
+R42	ALTERNATIVE_NAME Arg1:T60 Arg2:T80	
+R43	IDEOLOGY_OF Arg1:T68 Arg2:T67	
+R44	PLACE_RESIDES_IN Arg1:T69 Arg2:T24	
+T81	EVENT 1284 1298	покинул родину
+R45	POINT_IN_TIME Arg1:T81 Arg2:T31	
+R46	PARTICIPANT_IN Arg1:T30 Arg2:T81	
+T82	EVENT 1686 1709	исчезновению журналиста
+R47	PARTICIPANT_IN Arg1:T45 Arg2:T82	
+R48	PARTICIPANT_IN Arg1:T73 Arg2:T74	
+R49	ALTERNATIVE_NAME Arg1:T74 Arg2:T82	
+R50	PARTICIPANT_IN Arg1:T71 Arg2:T72	
+R51	WORKPLACE Arg1:T47 Arg2:T51	
+R52	WORKS_AS Arg1:T4 Arg2:T53	
+R53	PARTICIPANT_IN Arg1:T4 Arg2:T52	
+T83	CITY 86 96	Washington
+R54	HEADQUARTERED_IN Arg1:T3 Arg2:T83	
+R55	TAKES_PLACE_IN Arg1:T57 Arg2:T39	
+R56	HAS_CAUSE Arg1:T81 Arg2:T40	
+R57	TAKES_PLACE_IN Arg1:T40 Arg2:T24	
+R58	PARTICIPANT_IN Arg1:T30 Arg2:T40	
+R59	LOCATED_IN Arg1:T44 Arg2:T51	
+N1	Reference T8 Wikidata:Q851	Саудовская Аравия
+N2	Reference T11 Wikidata:Q48340	CNN
+N3	Reference T17 Wikidata:Q166032	The Washington Post
+N5	Reference T26 Wikidata:Q406	Стамбул
+N6	Reference T33 Wikidata:Q145	Великобритания
+N8	Reference T37 Wikidata:Q918	Твиттер
+N10	Reference T47 Wikidata:Q6892571	Мухаммед ибн Салман Аль Сауд
+N11	Reference T48 Wikidata:Q30	США
+N13	Reference T50 Wikidata:Q22686	Дональд Трамп
+N14	Reference T54 Wikidata:Q1086863	колумнист
+N16	Reference T56 Wikidata:Q43	Турция
+N18	Reference T62 Wikidata:Q7188	правительство
+N19	Reference T65 Wikidata:Q1930187	журналист
+N20	Reference T66 Wikidata:Q13955	арабский язык
+N21	Reference T75 Wikidata:Q18600381	Саудовцы
+N22	Reference T44 Wikidata:Q3692	Эр-Рияд
+N23	Reference T76 Wikidata:Q2747456	принц
+N25	Reference T78 Wikidata:Q30461	президент
+N12	Reference T49 Wikidata:Q30	США
+N24	Reference T77 Wikidata:Q11696	президент США
+N28	Reference T46 Wikidata:NULL	нет данных
+N9	Reference T42 Wikidata:Q43	Турция
+N27	Reference T59 Wikidata:NULL	нет данных
+N26	Reference T12 Wikidata:Q61	Вашингтон
+N7	Reference T36 Wikidata:Q166032	The Washington Post
+N29	Reference T27 Wikidata:Q1262052	
+N4	Reference T22 Wikidata:Q18600381	Саудовцы
+N15	Reference T55 Wikidata:NULL	нет данных
+N30	Reference T39 Wikidata:NULL	нет данных
+N17	Reference T61 Wikidata:Q15462156	
+N31	Reference T2 Wikidata:Q851	Саудовская Аравия
+N32	Reference T51 Wikidata:Q851	Саудовская Аравия
+N33	Reference T24 Wikidata:Q851	Саудовская Аравия
+N34	Reference T13 Wikidata:Q48340	CNN
+N35	Reference T3 Wikidata:Q166032	The Washington Post
+N36	Reference T9 Wikidata:Q406	Стамбул
+N37	Reference T19 Wikidata:Q30	США
+N38	Reference T32 Wikidata:Q30	США
+N39	Reference T20 Wikidata:Q30	США
+N40	Reference T34 Wikidata:Q43	Турция
+N41	Reference T1 Wikidata:Q43	Турция
+N42	Reference T21 Wikidata:Q43	Турция
+N43	Reference T73 Wikidata:Q1930187	журналист
+N44	Reference T5 Wikidata:Q1930187	журналист
+N45	Reference T53 Wikidata:Q1930187	журналист
+N46	Reference T45 Wikidata:Q1930187	журналист
+N47	Reference T64 Wikidata:Q1930187	журналист
+N48	Reference T58 Wikidata:Q1930187	журналист
+N49	Reference T71 Wikidata:Q1930187	журналист
+N50	Reference T35 Wikidata:Q1930187	журналист
+N51	Reference T68 Wikidata:Q1930187	журналист
+N52	Reference T18 Wikidata:Q43	Турция
+N53	Reference T7 Wikidata:Q61	Вашингтон
+N54	Reference T83 Wikidata:Q61	Вашингтон
+N55	Reference T23 Wikidata:Q1262052	
+N56	Reference T4 Wikidata:Q1262052	
+N57	Reference T6 Wikidata:Q1262052	
+N58	Reference T30 Wikidata:Q1262052	
+N59	Reference T38 Wikidata:NULL	нет данных

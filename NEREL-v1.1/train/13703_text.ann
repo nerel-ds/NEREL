@@ -1,0 +1,147 @@
+T1	COUNTRY 42 48	Россия
+T2	NATIONALITY 66 73	финнами
+T3	COUNTRY 82 88	России
+T4	DATE 108 114	12 мая
+T5	NUMBER 132 133	2
+T7	COUNTRY 149 155	Канады
+T8	COUNTRY 191 199	Словакии
+T9	DATE 205 222	на следующий день
+T11	NUMBER 281 282	0
+T12	NATIONALITY 288 294	финнов
+T13	ORDINAL 297 303	Первые
+T14	NATIONALITY 326 335	канадцами
+T16	PERSON 414 433	Алексею Кайгородову
+T17	TIME 437 451	на 53-й минуте
+T18	PERSON 452 466	Илья Ковальчук
+T19	DATE 506 520	три года назад
+T20	NATIONALITY 556 565	канадцами
+T21	CITY 568 575	Квебеке
+T22	COUNTRY 577 583	Канада
+T23	COUNTRY 602 610	Словакии
+T24	NATIONALITY 622 632	россиянами
+T25	COUNTRY 732 738	Россия
+T26	COUNTRY 766 773	Канадой
+T27	PERSON 800 816	Вячеслава Быкова
+T28	COUNTRY 840 849	Финляндии
+T29	COUNTRY 851 861	Российская
+T30	NATIONALITY 886 892	финнов
+T31	ORDINAL 985 991	Первая
+T33	AGE 1040 1049	19-летним
+T34	PERSON 1069 1088	Микаэлем Гранлундом
+T35	PROFESSION 1186 1195	голкипера
+T36	NATIONALITY 1196 1203	россиян
+T37	PERSON 1204 1224	Константина Барулина
+T38	NATIONALITY 1226 1234	Россияне
+T39	ORDINAL 1275 1282	третьем
+T40	PERSON 1299 1309	Яни Лаюнен
+T41	PERSON 1319 1332	Яркко Иммонен
+T42	COUNTRY 1391 1397	России
+T43	NATIONALITY 1430 1436	чехами
+T44	ORDINAL 1454 1460	втором
+T45	COUNTRY 1486 1492	Швеции
+T46	NUMBER 1503 1504	2
+T48	NATIONALITY 24 32	канадцев
+T49	ORGANIZATION 34 48	сборная Россия
+T50	EVENT 9 23	четвертьфинале
+T51	ORGANIZATION 74 98	Сборная России по хоккею
+T6	EVENT 158 188	четвертьфинале чемпионата мира
+T52	EVENT 173 188	чемпионата мира
+T10	ORGANIZATION 140 155	командой Канады
+T53	EVENT 235 245	полуфинале
+T54	NATIONALITY 336 344	россияне
+T56	NATIONALITY 521 529	россияне
+T57	EVENT 715 725	полуфинале
+T58	ORGANIZATION 832 849	сборной Финляндии
+T59	ORGANIZATION 1383 1397	сборная России
+T60	AWARD 1410 1427	бронзовые награды
+T61	EVENT 1454 1471	втором полуфинале
+T47	NATIONALITY 1050 1057	финским
+R1	HEADQUARTERED_IN Arg1:T49 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T51 Arg2:T3	
+T63	ORGANIZATION 74 88	Сборная России
+R3	HEADQUARTERED_IN Arg1:T10 Arg2:T7	
+R4	ORIGINS_FROM Arg1:T16 Arg2:T54	
+R5	WORKPLACE Arg1:T16 Arg2:T51	
+R6	HEADQUARTERED_IN Arg1:T58 Arg2:T28	
+R7	ORIGINS_FROM Arg1:T34 Arg2:T47	
+R8	AGE_IS Arg1:T34 Arg2:T33	
+R9	WORKS_AS Arg1:T37 Arg2:T35	
+R10	ORIGINS_FROM Arg1:T37 Arg2:T36	
+R11	HEADQUARTERED_IN Arg1:T59 Arg2:T42	
+R12	ORIGINS_FROM Arg1:T18 Arg2:T54	
+R13	WORKPLACE Arg1:T18 Arg2:T49	
+R14	WORKPLACE Arg1:T34 Arg2:T58	
+R15	WORKPLACE Arg1:T40 Arg2:T58	
+R16	WORKPLACE Arg1:T41 Arg2:T58	
+R17	SUBEVENT_OF Arg1:T6 Arg2:T52	
+R18	TAKES_PLACE_IN Arg1:T6 Arg2:T8	
+R19	SUBEVENT_OF Arg1:T53 Arg2:T52	
+R20	ALTERNATIVE_NAME Arg1:T50 Arg2:T6	
+R21	PARTICIPANT_IN Arg1:T49 Arg2:T50	
+R22	PARTICIPANT_IN Arg1:T48 Arg2:T50	
+R23	PARTICIPANT_IN Arg1:T10 Arg2:T6	
+R24	POINT_IN_TIME Arg1:T6 Arg2:T4	
+R25	PARTICIPANT_IN Arg1:T51 Arg2:T6	
+R26	PARTICIPANT_IN Arg1:T51 Arg2:T53	
+R27	PARTICIPANT_IN Arg1:T12 Arg2:T53	
+R28	PARTICIPANT_IN Arg1:T25 Arg2:T57	
+R29	PARTICIPANT_IN Arg1:T58 Arg2:T57	
+R30	ORIGINS_FROM Arg1:T27 Arg2:T25	
+R31	WORKPLACE Arg1:T27 Arg2:T49	
+R32	AGE_IS Arg1:T47 Arg2:T33	
+R33	ORIGINS_FROM Arg1:T35 Arg2:T36	
+R34	PARTICIPANT_IN Arg1:T43 Arg2:T61	
+R35	PARTICIPANT_IN Arg1:T45 Arg2:T61	
+T15	NUMBER 304 307	два
+T55	ORDINAL 375 383	третьего
+T62	EVENT 929 947	отборочного раунда
+T32	ORDINAL 1024 1031	второго
+T64	EVENT 316 323	встречи
+R36	ALTERNATIVE_NAME Arg1:T50 Arg2:T64	
+R37	PARTICIPANT_IN Arg1:T14 Arg2:T64	
+R38	PARTICIPANT_IN Arg1:T54 Arg2:T64	
+R39	ORIGINS_FROM Arg1:T60 Arg2:T52	
+T65	NUMBER 283 284	3
+T66	NUMBER 1505 1506	5
+T67	NUMBER 134 135	1
+N1	Reference T3 Wikidata:Q159	Россия
+N2	Reference T8 Wikidata:Q214	Словакия
+N3	Reference T16 Wikidata:Q2067571	Кайгородов, Алексей Павлович
+N4	Reference T18 Wikidata:Q434859	Илья Валерьевич Ковальчук
+N5	Reference T21 Wikidata:Q2145	Квебек
+N6	Reference T26 Wikidata:Q16	Канада
+N7	Reference T27 Wikidata:Q739930	Вячеслав Аркадьевич Быков
+N8	Reference T28 Wikidata:Q33	Финляндия
+N10	Reference T30 Wikidata:Q170284	финны
+N11	Reference T34 Wikidata:Q520141	Гранлунд, Микаэль
+N12	Reference T35 Wikidata:Q172964	вратарь
+N13	Reference T37 Wikidata:Q984054	Константин Александрович Барулин
+N14	Reference T40 Wikidata:Q1390457	Лаюнен, Яни
+N15	Reference T41 Wikidata:Q561846	Иммонен, Яркко
+N16	Reference T43 Wikidata:Q170217	чехи
+N17	Reference T45 Wikidata:Q34	Швеция
+N18	Reference T48 Wikidata:Q1196645	канадцы
+N20	Reference T51 Wikidata:Q845895	сборная России по хоккею с шайбой
+N22	Reference T56 Wikidata:Q492468	россияне
+N19	Reference T49 Wikidata:Q845895	сборная России по хоккею с шайбой
+N21	Reference T10 Wikidata:Q461503	
+N23	Reference T58 Wikidata:Q823040	Сборная Финляндии по хоккею с шайбой
+N9	Reference T29 Wikidata:Q159	Россия
+N25	Reference T47 Wikidata:Q170284	финны
+N24	Reference T60 Wikidata:Q873364	бронзовая медаль
+N26	Reference T42 Wikidata:Q159	Россия
+N27	Reference T25 Wikidata:Q159	Россия
+N28	Reference T1 Wikidata:Q159	Россия
+N29	Reference T23 Wikidata:Q214	Словакия
+N30	Reference T7 Wikidata:Q16	Канада
+N31	Reference T22 Wikidata:Q16	Канада
+N32	Reference T2 Wikidata:Q170284	финны
+N33	Reference T12 Wikidata:Q170284	финны
+N34	Reference T14 Wikidata:Q1196645	канадцы
+N35	Reference T20 Wikidata:Q1196645	канадцы
+N36	Reference T38 Wikidata:Q492468	россияне
+N37	Reference T24 Wikidata:Q492468	россияне
+N38	Reference T54 Wikidata:Q492468	россияне
+N39	Reference T36 Wikidata:Q492468	россияне
+N40	Reference T63 Wikidata:Q845895	сборная России по хоккею с шайбой
+N41	Reference T59 Wikidata:Q845895	сборная России по хоккею с шайбой

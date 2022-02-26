@@ -1,0 +1,58 @@
+T3	PROFESSION 76 86	президента
+T4	DATE 98 110	На 9 декабря
+T9	PROFESSION 260 270	президента
+T13	PERSON 398 415	Дмитрию Медведеву
+T15	CITY 464 470	Москва
+T17	CITY 473 488	Санкт-Петербург
+T18	ORGANIZATION 502 516	правительством
+T19	NUMBER 590 597	20 тыс.
+T23	NUMBER 831 842	более 100 м
+T26	CITY 1070 1080	Жуковского
+T28	ORDINAL 1370 1376	второй
+T29	ORGANIZATION 1530 1538	Глиссада
+T2	LOCATION 24 40	цаговского лесов
+T5	ORGANIZATION 24 34	цаговского
+T6	LOCATION 10 21;35 40	Химкинского лесов
+T7	LOCATION 207 223	Химкинского леса
+T12	LOCATION 719 737	химкинской дубравы
+T16	DISTRICT 719 729	химкинской
+T14	FACILITY 457 488	дороги Москва — Санкт-Петербург
+T8	DISTRICT 207 218	Химкинского
+T1	DISTRICT 10 21	Химкинского
+T11	DISTRICT 369 379	Химкинские
+T20	LOCATION 882 897	цаговского леса
+T21	ORGANIZATION 882 892	цаговского
+T22	LAW 1268 1291	42-й статьи Конституции
+T24	LAW 1280 1291	Конституции
+T10	ORGANIZATION 298 304	Дороги
+T27	ORDINAL 1268 1272	42-й
+R1	LOCATED_IN Arg1:T6 Arg2:T1	
+R2	LOCATED_IN Arg1:T2 Arg2:T5	
+R3	LOCATED_IN Arg1:T7 Arg2:T8	
+R4	LOCATED_IN Arg1:T12 Arg2:T16	
+R5	LOCATED_IN Arg1:T20 Arg2:T21	
+R6	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R7	PART_OF Arg1:T22 Arg2:T24	
+N1	Reference T9 Wikidata:Q30461	президент
+N2	Reference T13 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N3	Reference T15 Wikidata:Q649	Москва
+N4	Reference T17 Wikidata:Q656	Санкт-Петербург
+N5	Reference T18 Wikidata:Q7188	правительство
+N6	Reference T26 Wikidata:Q136435	Жуковский
+N7	Reference T6 Wikidata:Q2462206	Химкинский лес
+N8	Reference T7 Wikidata:Q2462206	Химкинский лес
+N13	Reference T24 Wikidata:Q7755	конституция
+N10	Reference T8 Wikidata:Q197582	
+N14	Reference T10 Wikidata:NULL	нет данных
+N16	Reference T29 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:NULL	нет данных
+N11	Reference T20 Wikidata:Q4503023	
+N9	Reference T14 Wikidata:Q24971	Строящаяся автомагистраль Москва — Санкт-Петербург
+N15	Reference T5 Wikidata:Q190414	Центральный аэрогидродинамический институт имени профессора Н.Е. Жуковского
+N17	Reference T3 Wikidata:Q30461	президент
+N18	Reference T12 Wikidata:Q2462206	Химкинский лес
+N19	Reference T11 Wikidata:Q197582	
+N20	Reference T1 Wikidata:Q197582	
+N21	Reference T16 Wikidata:Q197582	
+N22	Reference T2 Wikidata:Q4503023	
+N23	Reference T21 Wikidata:Q190414	Центральный аэрогидродинамический институт имени профессора Н.Е. Жуковского

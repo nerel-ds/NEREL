@@ -1,0 +1,108 @@
+T1	PROFESSION 7 14	актриса
+T2	PERSON 15 26	Кэрри Фишер
+T3	PERSON 28 39	Кэрри Фишер
+T4	DATE 40 60	27 декабря 2016 года
+T5	AGE 72 78	60 лет
+T6	PROFESSION 86 93	актриса
+T7	PERSON 94 105	Кэрри Фишер
+T9	WORK_OF_ART 154 168	Звёздные войны
+T10	PERSON 181 186	Фишер
+T11	PERSON 214 219	Фишер
+T12	DATE 227 247	через несколько дней
+T13	CITY 334 341	Лондона
+T14	CITY 344 356	Лос-Анджелес
+T15	PROFESSION 403 410	актрису
+T17	DATE 470 475	вчера
+T18	PROFESSION 486 493	актриса
+T19	PERSON 494 509	Дебби Рейнольдс
+T20	PROFESSION 577 584	Актриса
+T21	PERSON 585 596	Кэрри Фишер
+T26	DATE 694 702	1977 год
+T27	ORDINAL 705 711	первая
+T28	AGE 773 779	19 лет
+T29	NUMBER 821 822	4
+T30	DATE 877 888	в 2017 году
+T31	PERSON 919 930	Керри Фишер
+T32	NUMBER 941 960	нескольких десятках
+T33	WORK_OF_ART 1148 1163	Звёздным войнам
+T34	PERSON 1175 1192	Харрисоном Фордом
+R3	WORKS_AS Arg1:T7 Arg2:T6
+R5	WORKS_AS Arg1:T19 Arg2:T18
+T35	PROFESSION 1011 1020	продюсера
+T23	PROFESSION 1167 1174	актёром
+R1	WORKS_AS Arg1:T34 Arg2:T23	
+T36	WORK_OF_ART 651 691	Звёздные войны. Эпизод IV: Новая надежда
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+T22	WORK_OF_ART 857 868	Эпизод VIII
+R7	WORKS_AS Arg1:T21 Arg2:T20	
+R8	AGE_DIED_AT Arg1:T7 Arg2:T5	
+T25	DISEASE 263 282	сердечного приступа
+T16	PERSON 630 640	Леи Органы
+T37	DISEASE 274 282	приступа
+T38	PERSON 138 141	Леи
+T39	WORK_OF_ART 651 665	Звёздные войны
+R9	DATE_OF_DEATH Arg1:T7 Arg2:T4	
+T40	DISEASE 390 402	без сознания
+R10	MEDICAL_CONDITION Arg1:T15 Arg2:T40	
+R11	PARENT_OF Arg1:T19 Arg2:T11	
+R12	WORKS_AS Arg1:T31 Arg2:T35	
+R13	KNOWS Arg1:T31 Arg2:T34	
+R14	AGE_IS Arg1:T21 Arg2:T28	
+R15	PARTICIPANT_IN Arg1:T21 Arg2:T39	
+R16	DATE_OF_CREATION Arg1:T36 Arg2:T26	
+R17	DATE_OF_CREATION Arg1:T22 Arg2:T30	
+R18	PARTICIPANT_IN Arg1:T34 Arg2:T33	
+R19	PARTICIPANT_IN Arg1:T31 Arg2:T33	
+R20	PARTICIPANT_IN Arg1:T7 Arg2:T9	
+R21	MEDICAL_CONDITION Arg1:T11 Arg2:T25	
+R22	PARTICIPANT_IN Arg1:T21 Arg2:T22	
+R23	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+T41	EVENT 0 6	Умерла
+R24	PARTICIPANT_IN Arg1:T2 Arg2:T41	
+T42	EVENT 79 85	умерла
+R25	PARTICIPANT_IN Arg1:T7 Arg2:T42	
+R26	POINT_IN_TIME Arg1:T42 Arg2:T4	
+T43	EVENT 220 226	умерла
+R27	PARTICIPANT_IN Arg1:T11 Arg2:T43	
+R28	MEDICAL_CONDITION Arg1:T11 Arg2:T40	
+T44	PROFESSION 520 531	журналистам
+R29	ALTERNATIVE_NAME Arg1:T21 Arg2:T31	
+R30	ALTERNATIVE_NAME Arg1:T38 Arg2:T16	
+R4	PRODUCES Arg1:T7 Arg2:T38	
+T45	EVENT 453 463	скончалась
+R32	PARTICIPANT_IN Arg1:T15 Arg2:T45	
+T24	PROFESSION 620 629	принцессы
+R6	PRODUCES Arg1:T21 Arg2:T16	
+R33	WORKS_AS Arg1:T16 Arg2:T24	
+R34	ORIGINS_FROM Arg1:T16 Arg2:T36	
+R31	ORIGINS_FROM Arg1:T38 Arg2:T9	
+T8	PROFESSION 128 137	принцессы
+R35	WORKS_AS Arg1:T38 Arg2:T8	
+N1	Reference T1 Wikidata:Q33999	актёр
+N3	Reference T13 Wikidata:Q84	Лондон
+N4	Reference T14 Wikidata:Q65	Лос-Анджелес
+N5	Reference T19 Wikidata:Q263696	Дебби Рейнольдс
+N6	Reference T31 Wikidata:Q108941	Кэрри Фишер
+N7	Reference T34 Wikidata:Q81328	Харрисон Форд
+N8	Reference T35 Wikidata:Q3282637	кинопродюсер
+N9	Reference T23 Wikidata:Q33999	актёр
+N10	Reference T36 Wikidata:Q17738	Звёздные войны. Эпизод IV: Новая надежда
+N11	Reference T22 Wikidata:Q18486021	Звёздные войны. Эпизод VIII
+N12	Reference T16 Wikidata:Q51797	Лея Органа
+N13	Reference T39 Wikidata:Q462	Звёздные войны
+N14	Reference T44 Wikidata:Q1930187	журналист
+N15	Reference T24 Wikidata:Q2747456	принц
+N2	Reference T11 Wikidata:Q108941	Кэрри Фишер
+N16	Reference T18 Wikidata:Q33999	актёр
+N17	Reference T20 Wikidata:Q33999	актёр
+N18	Reference T15 Wikidata:Q33999	актёр
+N19	Reference T6 Wikidata:Q33999	актёр
+N20	Reference T2 Wikidata:Q108941	Кэрри Фишер
+N21	Reference T3 Wikidata:Q108941	Кэрри Фишер
+N22	Reference T21 Wikidata:Q108941	Кэрри Фишер
+N23	Reference T38 Wikidata:Q51797	Лея Органа
+N24	Reference T33 Wikidata:Q462	Звёздные войны
+N25	Reference T9 Wikidata:Q462	Звёздные войны
+N26	Reference T8 Wikidata:Q2747456	принц
+N27	Reference T7 Wikidata:Q108941	Кэрри Фишер
+N28	Reference T10 Wikidata:Q108941	Кэрри Фишер

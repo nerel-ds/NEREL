@@ -1,0 +1,71 @@
+T1	PERSON 0 15	Михаил Прохоров
+T2	MONEY 75 83	$50 тыс.
+T3	NATIONALITY 120 131	американцев
+T4	PERSON 133 148	Михаил Прохоров
+T5	EVENT 162 168	съезде
+T6	ORGANIZATION 177 198	Гражданская платформа
+T7	DATE 201 221	21 декабря 2012 года
+T8	EVENT 233 242	заседания
+T9	ORGANIZATION 251 272	Гражданская платформа
+T10	PERSON 274 291	Михаила Прохорова
+T11	MONEY 332 352	50 тыс. долларов США
+T12	COUNTRY 360 370	российской
+T13	NATIONALITY 420 432	американских
+T15	NUMBER 524 526	46
+T16	COUNTRY 569 581	американские
+T17	PERSON 619 634	Михаил Прохоров
+T18	LAW 661 678	Закон Магнитского
+T19	PROFESSION 824 832	политики
+T20	ORGANIZATION 937 944	Госдумы
+T21	NATIONALITY 967 979	американцами
+T22	COUNTRY 980 990	российских
+T23	COUNTRY 349 352	США
+T14	LAW 476 496	Закона Димы Яковлева
+T24	PERSON 483 496	Димы Яковлева
+T25	PERSON 667 678	Магнитского
+T26	PROFESSION 927 936	депутатов
+T27	PROFESSION 927 944	депутатов Госдумы
+T28	ORGANIZATION 1036 1047	единороссов
+T29	LAW 23 43	антимагнитский закон
+R1	PARTICIPANT_IN Arg1:T4 Arg2:T5	
+R2	ORGANIZES Arg1:T6 Arg2:T5	
+R3	POINT_IN_TIME Arg1:T8 Arg2:T7	
+R4	ORGANIZES Arg1:T9 Arg2:T8	
+R6	WORKPLACE Arg1:T27 Arg2:T20	
+R7	EXPENDITURE Arg1:T10 Arg2:T11	
+R8	ALTERNATIVE_NAME Arg1:T29 Arg2:T14	
+R9	EXPENDITURE Arg1:T1 Arg2:T2	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T13	
+T30	NATIONALITY 569 590	американские граждане
+R11	ALTERNATIVE_NAME Arg1:T13 Arg2:T30	
+R12	ALTERNATIVE_NAME Arg1:T29 Arg2:T18	
+R5	FOUNDED_BY Arg1:T9 Arg2:T10	
+R13	ORIGINS_FROM Arg1:T30 Arg2:T16	
+N5	Reference T19 Wikidata:Q82955	политик
+N6	Reference T20 Wikidata:Q715641	Государственная дума
+N8	Reference T23 Wikidata:Q30	США
+N11	Reference T26 Wikidata:Q486839	член парламента
+N1	Reference T6 Wikidata:Q1021381	Гражданская платформа
+N9	Reference T24 Wikidata:NULL	нет данных
+N2	Reference T16 Wikidata:Q30	США
+N13	Reference T30 Wikidata:Q846570	
+N3	Reference T17 Wikidata:Q233581	Михаил Дмитриевич Прохоров
+N14	Reference T1 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N10	Reference T25 Wikidata:Q247917	Сергей Леонидович Магнитский
+N4	Reference T18 Wikidata:Q630717	Закон Магнитского
+N7	Reference T22 Wikidata:Q159	Россия
+N15	Reference T27 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q151469	Единая Россия
+N16	Reference T9 Wikidata:Q1021381	Гражданская платформа
+N17	Reference T13 Wikidata:Q846570	
+N18	Reference T3 Wikidata:Q846570	
+N19	Reference T21 Wikidata:Q846570	
+N20	Reference T10 Wikidata:Q233581	Михаил Дмитриевич Прохоров
+N21	Reference T1 Wikidata:Q233581	Михаил Дмитриевич Прохоров
+N22	Reference T4 Wikidata:Q233581	Михаил Дмитриевич Прохоров
+N23	Reference T17 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N24	Reference T10 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N25	Reference T4 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N26	Reference T14 Wikidata:Q630717	Закон Магнитского
+N27	Reference T29 Wikidata:Q630717	Закон Магнитского
+N28	Reference T12 Wikidata:Q159	Россия

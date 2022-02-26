@@ -1,0 +1,226 @@
+T1	PERSON 25 37	Коби Брайант
+T2	PERSON 66 78	Коби Брайант
+T3	AWARD 107 126	пятикратный чемпион
+T4	PERSON 131 143	Коби Брайант
+T5	NUMBER 157 158	4
+T6	STATE_OR_PROVINCE 207 217	Калифорнии
+T7	CITY 228 237	Калабасас
+T8	CITY 251 264	Лос-Анджелеса
+T9	PRODUCT 281 284	Tmz
+T10	PERSON 460 467	Ванесса
+T11	AGE 546 555	13-летняя
+T12	PERSON 572 579	Джианна
+T13	ORGANIZATION 665 690	университета Коннектикута
+T14	ORGANIZATION 721 725	NCAA
+T15	NUMBER 747 751	трое
+T16	PERSON 759 766	Наталья
+T17	PERSON 768 774	Бьянка
+T18	PERSON 777 782	Капри
+T19	DATE 785 796	Месяц назад
+T20	PERSON 970 986	Коби Бин Брайант
+T21	NATIONALITY 988 1000	американский
+T22	ORGANIZATION 1085 1105	Лос-Анджелес Лейкерс
+T23	DATE 1107 1127	в течение 20 сезонов
+T24	ORGANIZATION 1130 1167	Национальной баскетбольной ассоциации
+T25	COUNTRY 1214 1217	США
+T26	AGE 1221 1228	34 года
+T27	NUMBER 1279 1287	30 тысяч
+T29	DATE 1345 1351	в 2008
+T30	DATE 1354 1364	2012 годах
+T31	NUMBER 1454 1456	18
+T32	EVENT 1474 1490	Матче всех звёзд
+T33	DATE 1600 1611	в 2016 году
+T34	DATE 1658 1669	в 2018 году
+T36	ORGANIZATION 1761 1766	Милан
+T37	ORGANIZATION 1770 1779	Барселона
+T38	ORGANIZATION 1783 1787	Реал
+T39	ORGANIZATION 1791 1798	Бавария
+T40	CITY 1801 1813	дортмундская
+T41	ORGANIZATION 1815 1823	Боруссия
+T42	ORGANIZATION 1827 1830	ПСЖ
+T43	ORGANIZATION 1834 1838	Рома
+T44	ORGANIZATION 1842 1853	Галатасарай
+T45	LOCATION 1871 1882	европейские
+T46	ORGANIZATION 1903 1909	Милана
+T47	ORGANIZATION 2069 2075	Милана
+T48	PERSON 2077 2090	Кобе Брайанта
+T49	PERSON 2179 2183	Кобе
+T50	PROFESSION 2186 2196	Нападающий
+T51	ORGANIZATION 2198 2201	ПСЖ
+T52	PERSON 2203 2209	Неймар
+T53	ORGANIZATION 2238 2244	Лиллем
+T54	ORDINAL 2273 2277	52-й
+T55	PERSON 2314 2322	Брайанта
+T56	NUMBER 2325 2327	24
+T58	EVENT 2374 2380	Грэмми
+T59	ORGANIZATION 2401 2408	Лейкерс
+T60	FACILITY 2414 2428	Стейплз-центре
+T62	PERSON 2469 2473	Коби
+T63	ORGANIZATION 2485 2502	Сан-Антонио Спёрс
+T64	ORGANIZATION 2507 2522	Торонто Рэпторс
+T65	TIME 2553 2574	две первых 24 секунды
+T66	PERSON 2636 2640	Коби
+T67	PROFESSION 12 24	баскетболист
+T68	EVENT 38 65	разбился на своём вертолёте
+T69	EVENT 79 106	На своём вертолёте разбился
+T70	ORGANIZATION 127 130	НБА
+T71	AWARD 107 130	пятикратный чемпион НБА
+T72	EVENT 145 167	Погибло ещё 4 человека
+T73	EVENT 196 204	крушение
+T74	PROFESSION 286 298	баскетболист
+T75	EVENT 360 365	пожар
+T76	PROFESSION 367 376	Спасатели
+T77	PERSON 474 478	Коби
+T78	PROFESSION 797 806	спортсмен
+T79	PROFESSION 1018 1030	баскетболист
+T80	PROFESSION 1199 1213	баскетболистов
+T28	AWARD 1328 1344	золото олимпиады
+T82	AWARD 1377 1396	MVP финальной серии
+T83	NUMBER 1398 1404	Дважды
+T84	WORK_OF_ART 1615 1632	Дорогой баскетбол
+T85	AWARD 1652 1657	Оскар
+T86	EVENT 1729 1758	смертью пятикратного чемпиона
+T35	PROFESSION 2035 2046	спортсменов
+T87	PROFESSION 1049 1069	атакующего защитника
+T89	ORDINAL 2330 2334	62-я
+T61	NUMBER 2553 2556	две
+T90	ORDINAL 2557 2563	первых
+T91	TIME 2564 2574	24 секунды
+R1	WORKS_AS Arg1:T1 Arg2:T67	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T68	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T69	
+R4	TAKES_PLACE_IN Arg1:T73 Arg2:T6	
+R5	TAKES_PLACE_IN Arg1:T73 Arg2:T7	
+R6	LOCATED_IN Arg1:T7 Arg2:T6	
+R7	SPOUSE Arg1:T10 Arg2:T77	
+R8	AGE_IS Arg1:T12 Arg2:T11	
+R9	PARENT_OF Arg1:T77 Arg2:T12	
+R10	PARENT_OF Arg1:T10 Arg2:T12	
+R11	SIBLING Arg1:T16 Arg2:T17	
+R12	SIBLING Arg1:T17 Arg2:T18	
+R13	SIBLING Arg1:T16 Arg2:T18	
+R14	SIBLING Arg1:T12 Arg2:T16	
+R15	SIBLING Arg1:T12 Arg2:T17	
+R16	SIBLING Arg1:T12 Arg2:T18	
+R17	PARENT_OF Arg1:T10 Arg2:T16	
+R18	PARENT_OF Arg1:T10 Arg2:T17	
+R19	PARENT_OF Arg1:T10 Arg2:T18	
+R20	PARENT_OF Arg1:T77 Arg2:T16	
+R21	PARENT_OF Arg1:T77 Arg2:T17	
+R22	PARENT_OF Arg1:T77 Arg2:T18	
+R23	ORIGINS_FROM Arg1:T20 Arg2:T21	
+R24	WORKS_AS Arg1:T20 Arg2:T79	
+R25	WORKPLACE Arg1:T20 Arg2:T22	
+R26	WORKS_AS Arg1:T20 Arg2:T87	
+R27	AWARDED_WITH Arg1:T20 Arg2:T28	
+R28	AWARDED_WITH Arg1:T20 Arg2:T82	
+R29	PARTICIPANT_IN Arg1:T20 Arg2:T32	
+T81	EVENT 2478 2483	матче
+R30	PARTICIPANT_IN Arg1:T63 Arg2:T81	
+R31	PARTICIPANT_IN Arg1:T64 Arg2:T81	
+R32	TAKES_PLACE_IN Arg1:T58 Arg2:T59	
+R33	TAKES_PLACE_IN Arg1:T58 Arg2:T60	
+T57	EVENT 2442 2457	минуты молчания
+R34	SUBEVENT_OF Arg1:T57 Arg2:T58	
+T92	EVENT 2229 2234	матче
+R35	PARTICIPANT_IN Arg1:T52 Arg2:T92	
+R36	PARTICIPANT_IN Arg1:T53 Arg2:T92	
+R38	WORKPLACE Arg1:T52 Arg2:T51	
+R39	WORKS_AS Arg1:T48 Arg2:T35	
+R40	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+R41	DATE_OF_CREATION Arg1:T84 Arg2:T33	
+R42	PARTICIPANT_IN Arg1:T74 Arg2:T75	
+T93	STATE_OR_PROVINCE 678 690	Коннектикута
+R43	AWARDED_WITH Arg1:T4 Arg2:T71	
+R44	ALTERNATIVE_NAME Arg1:T68 Arg2:T69	
+R45	WORKPLACE Arg1:T4 Arg2:T70	
+R46	SUBEVENT_OF Arg1:T72 Arg2:T73	
+R47	SUBEVENT_OF Arg1:T68 Arg2:T73	
+R48	WORKS_AS Arg1:T4 Arg2:T74	
+R49	HEADQUARTERED_IN Arg1:T13 Arg2:T93	
+R50	WORKPLACE Arg1:T20 Arg2:T24	
+R51	ORIGINS_FROM Arg1:T80 Arg2:T25	
+R52	AWARDED_WITH Arg1:T84 Arg2:T85	
+R53	PARTICIPANT_IN Arg1:T20 Arg2:T84	
+R54	ALTERNATIVE_NAME Arg1:T69 Arg2:T86	
+R56	ALTERNATIVE_NAME Arg1:T48 Arg2:T62	
+R57	HEADQUARTERED_IN Arg1:T36 Arg2:T45	
+R58	HEADQUARTERED_IN Arg1:T37 Arg2:T45	
+R59	HEADQUARTERED_IN Arg1:T38 Arg2:T45	
+R60	LOCATED_IN Arg1:T40 Arg2:T45	
+R61	HEADQUARTERED_IN Arg1:T41 Arg2:T45	
+R62	HEADQUARTERED_IN Arg1:T42 Arg2:T45	
+R63	HEADQUARTERED_IN Arg1:T43 Arg2:T45	
+R64	HEADQUARTERED_IN Arg1:T44 Arg2:T45	
+R65	PRODUCES Arg1:T70 Arg2:T71	
+R66	POINT_IN_TIME Arg1:T28 Arg2:T29	
+R67	POINT_IN_TIME Arg1:T28 Arg2:T30	
+R68	POINT_IN_TIME Arg1:T85 Arg2:T34	
+R69	INANIMATE_INVOLVED Arg1:T62 Arg2:T57	
+T94	EVENT 2620 2641	скандированием «Коби»
+R70	SUBEVENT_OF Arg1:T94 Arg2:T81	
+T95	EVENT 2006 2013	кончине
+R71	PARTICIPANT_IN Arg1:T48 Arg2:T95	
+R72	ALTERNATIVE_NAME Arg1:T86 Arg2:T95	
+N2	Reference T4 Wikidata:Q25369	Коби Брайант
+N3	Reference T6 Wikidata:Q99	Калифорния
+N4	Reference T7 Wikidata:Q629088	Калабасас
+N5	Reference T8 Wikidata:Q65	Лос-Анджелес
+N8	Reference T13 Wikidata:Q49206	Коннектикутский университет
+N9	Reference T14 Wikidata:Q271805	Национальная ассоциация студенческого спорта
+N15	Reference T22 Wikidata:Q121783	Лос-Анджелес Лейкерс
+N16	Reference T24 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N17	Reference T25 Wikidata:Q30	США
+N18	Reference T37 Wikidata:Q7156	Барселона
+N22	Reference T41 Wikidata:Q41420	Боруссия
+N23	Reference T42 Wikidata:Q483020	Пари Сен-Жермен
+N24	Reference T43 Wikidata:Q2739	Рома
+N25	Reference T44 Wikidata:Q495299	Галатасарай
+N29	Reference T50 Wikidata:Q280658	нападающий
+N30	Reference T52 Wikidata:Q142794	Неймар
+N33	Reference T59 Wikidata:Q121783	Лос-Анджелес Лейкерс
+N36	Reference T63 Wikidata:Q159729	Сан-Антонио Спёрс
+N37	Reference T64 Wikidata:Q132880	Торонто Рэпторс
+N38	Reference T70 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N42	Reference T82 Wikidata:Q222047	Самый ценный игрок НБА
+N43	Reference T84 Wikidata:Q47486990	Дорогой баскетбол
+N44	Reference T85 Wikidata:Q19020	Оскар
+N45	Reference T35 Wikidata:Q2066131	спортсмен
+N46	Reference T87 Wikidata:Q273199	атакующий защитник
+N48	Reference T93 Wikidata:Q779	Коннектикут
+N1	Reference T3 Wikidata:NULL	нет данных
+N39	Reference T71 Wikidata:NULL	нет данных
+N49	Reference T9 Wikidata:Q2630118	
+N50	Reference T74 Wikidata:Q3665646	
+N6	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:NULL	нет данных
+N10	Reference T16 Wikidata:NULL	нет данных
+N11	Reference T17 Wikidata:NULL	нет данных
+N12	Reference T18 Wikidata:NULL	нет данных
+N13	Reference T20 Wikidata:Q25369	Коби Брайант
+N14	Reference T21 Wikidata:Q846570	
+N41	Reference T28 Wikidata:Q406039	золотая медаль
+N19	Reference T38 Wikidata:Q8682	Реал Мадрид
+N20	Reference T39 Wikidata:Q15789	Бавария
+N21	Reference T40 Wikidata:Q1295	Дортмунд
+N26	Reference T45 Wikidata:Q46	Европа
+N27	Reference T46 Wikidata:Q631	Интернационале
+N28	Reference T49 Wikidata:Q25369	Коби Брайант
+N31	Reference T53 Wikidata:Q19516	Лилль
+N32	Reference T55 Wikidata:Q25369	Коби Брайант
+N34	Reference T60 Wikidata:Q186080	
+N35	Reference T62 Wikidata:Q25369	Коби Брайант
+N40	Reference T76 Wikidata:Q17126809	спасатель
+N51	Reference T2 Wikidata:Q25369	Коби Брайант
+N52	Reference T1 Wikidata:Q25369	Коби Брайант
+N53	Reference T51 Wikidata:Q483020	Пари Сен-Жермен
+N54	Reference T78 Wikidata:Q2066131	спортсмен
+N55	Reference T67 Wikidata:Q3665646	
+N56	Reference T80 Wikidata:Q3665646	
+N57	Reference T79 Wikidata:Q3665646	
+N58	Reference T47 Wikidata:Q631	Интернационале
+N59	Reference T36 Wikidata:Q631	Интернационале
+N60	Reference T77 Wikidata:Q25369	Коби Брайант
+N61	Reference T66 Wikidata:Q25369	Коби Брайант
+N62	Reference T48 Wikidata:Q25369	Коби Брайант
+R73	SUBEVENT_OF Arg1:T72 Arg2:T69	

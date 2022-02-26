@@ -1,0 +1,148 @@
+T1	PERSON 0 12	Сергей Бубка
+T2	PROFESSION 43 53	президента
+T3	PERSON 58 70	Сергей Бубка
+T4	EVENT 86 101	Олимпийских игр
+T5	PROFESSION 123 137	вице-президент
+T6	PROFESSION 192 241	глава Национального олимпийского комитета Украины
+T7	PERSON 242 254	Сергей Бубка
+T8	PROFESSION 289 299	президента
+T9	ORGANIZATION 338 341	МОК
+T10	AGE 345 354	49-летний
+T11	PERSON 355 360	Бубка
+T12	PERSON 458 468	Жака Рогге
+T13	DATE 497 516	с 16 июля 2001 года
+T14	DATE 537 557	в сентябре 2013 года
+T15	PERSON 560 565	Бубка
+T16	ORDINAL 571 577	шестым
+T17	DATE 698 709	10 сентября
+T18	COUNTRY 712 724	аргентинском
+T19	CITY 725 738	Буэнос-Айресе
+T20	PROFESSION 774 789	вице-президенты
+T21	PERSON 794 803	Томас Бах
+T22	COUNTRY 805 813	Германия
+T23	PERSON 817 829	Нг Сер Мианг
+T24	COUNTRY 831 839	Сингапур
+T25	PROFESSION 842 874	председатель финансовой комиссии
+T26	PERSON 875 889	Ричард Каррион
+T27	COUNTRY 891 902	Пуэрто-Рико
+T28	PROFESSION 905 914	президент
+T29	PERSON 945 956	Чинг-Куо Ву
+T30	COUNTRY 958 965	Тайвань
+T31	PROFESSION 969 1005	глава международной федерации гребли
+T32	PERSON 1006 1019	Денис Освальд
+T33	COUNTRY 1021 1030	Швейцария
+T34	ORGANIZATION 54 57	МОК
+T35	PROFESSION 43 57	президента МОК
+T37	AWARD 71 83	Чемпион мира
+T39	PROFESSION 123 190	вице-президент Международной ассоциации легкоатлетических федераций
+T42	ORGANIZATION 138 190	Международной ассоциации легкоатлетических федераций
+T43	ORGANIZATION 198 241	Национального олимпийского комитета Украины
+T44	ORGANIZATION 198 233	Национального олимпийского комитета
+T45	COUNTRY 234 241	Украины
+T46	PROFESSION 289 336	президента Международного олимпийского комитета
+T47	ORGANIZATION 300 336	Международного олимпийского комитета
+T48	ORGANIZATION 388 391	МОК
+T50	EVENT 426 433	выборах
+T52	ORDINAL 591 600	последним
+T53	EVENT 683 689	Выборы
+T54	PROFESSION 774 793	вице-президенты МОК
+T57	ORGANIZATION 790 793	МОК
+T58	PROFESSION 905 944	президент любительской ассоциации бокса
+T59	ORGANIZATION 915 944	любительской ассоциации бокса
+T60	ORGANIZATION 975 1005	международной федерации гребли
+R1	WORKPLACE Arg1:T35 Arg2:T34	
+T36	AWARD 71 78;86 101	Чемпион Олимпийских игр
+R2	PARTICIPANT_IN Arg1:T7 Arg2:T4	
+R3	AWARDED_WITH Arg1:T7 Arg2:T37	
+R4	AWARDED_WITH Arg1:T7 Arg2:T36	
+R5	WORKS_AS Arg1:T7 Arg2:T39	
+R6	HEADQUARTERED_IN Arg1:T43 Arg2:T45	
+R7	WORKS_AS Arg1:T7 Arg2:T6	
+R8	WORKPLACE Arg1:T7 Arg2:T43	
+R9	ABBREVIATION Arg1:T47 Arg2:T9	
+T38	EVENT 255 280	выставил свою кандидатуру
+T40	EVENT 19 34	баллотироваться
+R10	ALTERNATIVE_NAME Arg1:T40 Arg2:T38	
+R11	AGENT Arg1:T1 Arg2:T40	
+R12	PARTICIPANT_IN Arg1:T35 Arg2:T40	
+R13	PARTICIPANT_IN Arg1:T7 Arg2:T38	
+R14	PARTICIPANT_IN Arg1:T46 Arg2:T38	
+R15	ALTERNATIVE_NAME Arg1:T35 Arg2:T46	
+R16	AGE_IS Arg1:T11 Arg2:T10	
+T41	EVENT 528 536	отставку
+R19	POINT_IN_TIME Arg1:T41 Arg2:T14	
+R20	AGENT Arg1:T12 Arg2:T41	
+R21	WORKS_AS Arg1:T12 Arg2:T46	
+R22	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R23	POINT_IN_TIME Arg1:T53 Arg2:T17	
+R18	PARTICIPANT_IN Arg1:T11 Arg2:T50	
+R24	LOCATED_IN Arg1:T19 Arg2:T18	
+R25	TAKES_PLACE_IN Arg1:T53 Arg2:T19	
+R26	WORKPLACE Arg1:T54 Arg2:T57	
+R27	ORIGINS_FROM Arg1:T21 Arg2:T22	
+R28	WORKPLACE Arg1:T21 Arg2:T57	
+R29	WORKS_AS Arg1:T21 Arg2:T54	
+R30	ORIGINS_FROM Arg1:T23 Arg2:T24	
+R31	WORKPLACE Arg1:T23 Arg2:T57	
+R32	WORKS_AS Arg1:T23 Arg2:T54	
+R33	WORKS_AS Arg1:T26 Arg2:T25	
+R34	WORKPLACE Arg1:T25 Arg2:T57	
+R35	ORIGINS_FROM Arg1:T26 Arg2:T27	
+R36	WORKPLACE Arg1:T58 Arg2:T59	
+R37	ORIGINS_FROM Arg1:T29 Arg2:T30	
+R38	WORKPLACE Arg1:T29 Arg2:T59	
+R39	WORKS_AS Arg1:T29 Arg2:T58	
+R40	WORKPLACE Arg1:T31 Arg2:T60	
+R41	WORKPLACE Arg1:T32 Arg2:T60	
+R42	WORKS_AS Arg1:T32 Arg2:T31	
+R43	ORIGINS_FROM Arg1:T32 Arg2:T33	
+T51	EVENT 660 671	олимпийском
+R44	ALTERNATIVE_NAME Arg1:T4 Arg2:T51	
+R17	ORIGINS_FROM Arg1:T36 Arg2:T4	
+R45	WORKPLACE Arg1:T39 Arg2:T42	
+R46	WORKPLACE Arg1:T6 Arg2:T43	
+R47	WORKPLACE Arg1:T46 Arg2:T47	
+N1	Reference T1 Wikidata:Q184556	Сергей Назарович Бубка
+N5	Reference T12 Wikidata:Q182609	Рогге, Жак
+N6	Reference T18 Wikidata:Q414	Аргентина
+N7	Reference T19 Wikidata:Q1486	Буэнос-Айрес
+N8	Reference T21 Wikidata:Q72245	Томас Бах
+N9	Reference T22 Wikidata:Q183	Германия
+N11	Reference T24 Wikidata:Q334	Сингапур
+N14	Reference T27 Wikidata:Q1183	Пуэрто-Рико
+N16	Reference T30 Wikidata:Q22502	Тайвань
+N19	Reference T33 Wikidata:Q39	Швейцария
+N22	Reference T42 Wikidata:Q1158	Мировая лёгкая атлетика
+N23	Reference T43 Wikidata:Q1210020	Национальный олимпийский комитет Украины
+N25	Reference T45 Wikidata:Q212	Украина
+N27	Reference T48 Wikidata:Q40970	Международный олимпийский комитет
+N30	Reference T59 Wikidata:Q743239	Международная ассоциация бокса
+N32	Reference T36 Wikidata:Q4333889	олимпийский чемпион
+N20	Reference T37 Wikidata:Q2948691	
+N2	Reference T5 Wikidata:Q42178	вице-президент
+N21	Reference T39 Wikidata:NULL	нет данных
+N3	Reference T6 Wikidata:NULL	нет данных
+N24	Reference T44 Wikidata:Q183288	Национальный олимпийский комитет
+N26	Reference T46 Wikidata:NULL	нет данных
+N4	Reference T8 Wikidata:Q140686	председатель
+N28	Reference T54 Wikidata:NULL	нет данных
+N10	Reference T23 Wikidata:Q1984121	
+N13	Reference T26 Wikidata:Q7324637	
+N12	Reference T25 Wikidata:NULL	нет данных
+N15	Reference T29 Wikidata:NULL	нет данных
+N18	Reference T32 Wikidata:Q177039	
+N31	Reference T60 Wikidata:Q684885	
+N17	Reference T31 Wikidata:NULL	нет данных
+N29	Reference T58 Wikidata:NULL	нет данных
+N33	Reference T15 Wikidata:Q184556	Сергей Назарович Бубка
+N34	Reference T7 Wikidata:Q184556	Сергей Назарович Бубка
+N35	Reference T11 Wikidata:Q184556	Сергей Назарович Бубка
+N36	Reference T3 Wikidata:Q184556	Сергей Назарович Бубка
+N37	Reference T57 Wikidata:Q40970	Международный олимпийский комитет
+N38	Reference T34 Wikidata:Q40970	Международный олимпийский комитет
+N39	Reference T47 Wikidata:Q40970	Международный олимпийский комитет
+N40	Reference T9 Wikidata:Q40970	Международный олимпийский комитет
+N41	Reference T20 Wikidata:Q42178	вице-президент
+N42	Reference T35 Wikidata:NULL	нет данных
+N43	Reference T28 Wikidata:Q140686	председатель
+N44	Reference T2 Wikidata:Q140686	председатель

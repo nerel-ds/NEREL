@@ -1,0 +1,174 @@
+T1	DATE 11 22	в 2013 году
+T2	PERSON 33 49	Владимир Квачков
+T3	PERSON 67 83	Владимир Квачков
+T4	EVENT 84 90	Митинг
+T5	DATE 91 109	12 марта 2011 года
+T6	CITY 112 118	Москве
+T7	STATE_OR_PROVINCE 122 132	мордовской
+T8	AGE 152 161	70-летний
+T9	PROFESSION 162 171	полковник
+T10	PERSON 176 192	Владимир Квачков
+T11	TIME 194 228	Около 10:00 по московскому времени
+T12	ORGANIZATION 251 277	исправительной колонии № 5
+T13	LAW 369 382	ст. 282 УК РФ
+T14	DATE 427 447	17 августа 2019 года
+T15	LAW 494 506	282-й статьи
+T16	PERSON 553 560	Квачков
+T17	NATIONALITY 673 681	русского
+T18	PERSON 720 727	Квачков
+T19	EVENT 746 763	пресс-конференцию
+T20	PERSON 887 903	Владимир Квачков
+T21	PROFESSION 906 915	полковник
+T22	PROFESSION 932 936	воин
+T23	NUMBER 963 967	двух
+T24	DATE 1025 1042	В марте 2005 года
+T25	PERSON 1099 1115	Анатолия Чубайса
+T26	DATE 1128 1136	три года
+T27	DATE 1176 1187	в 2010 году
+T28	DATE 1220 1231	в 2013 году
+T29	NUMBER 1245 1251	восьми
+T30	PERSON 1338 1345	Квачков
+T31	ORDINAL 1351 1357	первым
+T32	COUNTRY 1360 1366	России
+T33	DATE 1410 1429	в августе 2017 года
+T34	PERSON 1430 1437	Квачков
+T35	LAW 1628 1644	статья 282 УК РФ
+T36	DATE 1673 1685	полтора года
+T37	COUNTRY 1703 1713	российских
+T38	PERSON 1749 1757	Квачкова
+T39	COUNTRY 1841 1847	России
+T40	PERSON 1922 1930	Квачкова
+T41	PROFESSION 23 32	полковник
+T42	EVENT 50 66	вышел на свободу
+T43	EVENT 141 151	освобождён
+T44	PROFESSION 162 175	полковник ГРУ
+T45	ORGANIZATION 172 175	ГРУ
+T46	CITY 209 220	московскому
+T47	ORGANIZATION 122 140	мордовской колонии
+T48	CRIME 305 382	распространение видеообращения, содержавшего признаки нарушения ст. 282 УК РФ
+T49	LAW 377 382	УК РФ
+T50	LAW 377 379	УК
+T51	COUNTRY 380 382	РФ
+T52	PROFESSION 543 552	Полковник
+T53	PROFESSION 612 623	журналистам
+T55	FAMILY 832 841	Скрипалей
+T57	ORGANIZATION 873 883	Новороссии
+T58	PROFESSION 906 919	полковник ГРУ
+T59	ORGANIZATION 916 919	ГРУ
+T60	IDEOLOGY 937 953	интернационалист
+T61	AWARD 968 984	орденов Мужества
+T63	AWARD 986 1007	ордена Красной Звезды
+T64	EVENT 1050 1058	задержан
+T65	CRIME 1075 1095	подготовке покушения
+T66	PROFESSION 1188 1197	полковник
+T67	EVENT 1208 1216	задержан
+T68	EVENT 1232 1242	приговорён
+T69	PENALTY 1245 1281	восьми годам колонии строгого режима
+T70	PENALTY 1258 1281	колонии строгого режима
+T71	CRIME 1297 1335	попытке организовать вооружённый мятеж
+T72	CRIME 1578 1611	возбуждения ненависти либо вражды
+T73	LAW 1639 1644	УК РФ
+T74	LAW 1639 1641	УК
+T75	COUNTRY 1642 1644	РФ
+R1	WORKS_AS Arg1:T2 Arg2:T41	
+R2	AGENT Arg1:T2 Arg2:T42	
+R3	POINT_IN_TIME Arg1:T42 Arg2:T1	
+R4	POINT_IN_TIME Arg1:T4 Arg2:T5	
+R5	TAKES_PLACE_IN Arg1:T4 Arg2:T6	
+R6	AGE_IS Arg1:T10 Arg2:T8	
+R7	WORKPLACE Arg1:T44 Arg2:T45	
+R8	WORKPLACE Arg1:T10 Arg2:T45	
+R9	WORKS_AS Arg1:T10 Arg2:T44	
+R10	PARTICIPANT_IN Arg1:T10 Arg2:T43	
+R11	TAKES_PLACE_IN Arg1:T43 Arg2:T47	
+R12	HEADQUARTERED_IN Arg1:T47 Arg2:T7	
+R13	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R14	ALTERNATIVE_NAME Arg1:T47 Arg2:T12	
+R15	CONVICTED_OF Arg1:T10 Arg2:T48	
+R16	PART_OF Arg1:T13 Arg2:T49	
+R17	ORIGINS_FROM Arg1:T49 Arg2:T51	
+R18	ALTERNATIVE_NAME Arg1:T10 Arg2:T16	
+R19	WORKS_AS Arg1:T20 Arg2:T58	
+R20	WORKPLACE Arg1:T20 Arg2:T59	
+R21	AWARDED_WITH Arg1:T20 Arg2:T61	
+R22	AWARDED_WITH Arg1:T20 Arg2:T63	
+R23	PARTICIPANT_IN Arg1:T20 Arg2:T64	
+R24	POINT_IN_TIME Arg1:T64 Arg2:T24	
+R25	PARTICIPANT_IN Arg1:T25 Arg2:T65	
+R26	CONVICTED_OF Arg1:T20 Arg2:T65	
+R27	HAS_CAUSE Arg1:T64 Arg2:T65	
+R28	LOCATED_IN Arg1:T10 Arg2:T47	
+R29	ALTERNATIVE_NAME Arg1:T13 Arg2:T15	
+R30	WORKS_AS Arg1:T16 Arg2:T52	
+R31	PARTICIPANT_IN Arg1:T18 Arg2:T19	
+T54	EVENT 821 831	отравление
+R32	PARTICIPANT_IN Arg1:T55 Arg2:T54	
+R33	PARTICIPANT_IN Arg1:T20 Arg2:T67	
+R34	PARTICIPANT_IN Arg1:T66 Arg2:T67	
+R35	POINT_IN_TIME Arg1:T67 Arg2:T27	
+R36	PARTICIPANT_IN Arg1:T20 Arg2:T68	
+R37	POINT_IN_TIME Arg1:T68 Arg2:T28	
+R38	PENALIZED_AS Arg1:T20 Arg2:T69	
+R39	CONVICTED_OF Arg1:T20 Arg2:T71	
+R40	HAS_CAUSE Arg1:T69 Arg2:T71	
+R41	PLACE_RESIDES_IN Arg1:T30 Arg2:T32	
+R42	CONVICTED_OF Arg1:T34 Arg2:T72	
+R43	POINT_IN_TIME Arg1:T72 Arg2:T33	
+R44	PART_OF Arg1:T35 Arg2:T73	
+R45	ORIGINS_FROM Arg1:T73 Arg2:T75	
+T62	ORDINAL 373 376	282
+R46	WORKPLACE Arg1:T58 Arg2:T59	
+R47	IDEOLOGY_OF Arg1:T20 Arg2:T60	
+R48	WORKS_AS Arg1:T20 Arg2:T22	
+R49	ALTERNATIVE_NAME Arg1:T37 Arg2:T39	
+T76	EVENT 232 250	покинул территорию
+R50	AGENT Arg1:T10 Arg2:T76	
+R51	TAKES_PLACE_IN Arg1:T76 Arg2:T12	
+R52	POINT_IN_TIME Arg1:T76 Arg2:T11	
+R53	HAS_CAUSE Arg1:T68 Arg2:T71	
+R54	INANIMATE_INVOLVED Arg1:T13 Arg2:T48	
+T56	NUMBER 276 277	5
+N1	Reference T6 Wikidata:Q649	Москва
+N4	Reference T16 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N7	Reference T25 Wikidata:Q201005	Анатолий Борисович Чубайс
+N12	Reference T49 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N13	Reference T52 Wikidata:Q104680	полковник
+N14	Reference T53 Wikidata:Q1930187	журналист
+N18	Reference T61 Wikidata:Q2525430	орден Мужества
+N19	Reference T63 Wikidata:Q695106	орден Красной Звезды
+N21	Reference T75 Wikidata:Q159	Россия
+N2	Reference T7 Wikidata:Q5340	Мордовия
+N11	Reference T47 Wikidata:NULL	нет данных
+N10	Reference T46 Wikidata:Q649	Москва
+N3	Reference T15 Wikidata:NULL	нет данных
+N22	Reference T38 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N5	Reference T17 Wikidata:Q49542	русские
+N15	Reference T57 Wikidata:Q16912926	
+N17	Reference T59 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N16	Reference T58 Wikidata:NULL	нет данных
+N20	Reference T74 Wikidata:Q19705	уголовное законодательство
+N8	Reference T35 Wikidata:NULL	нет данных
+N9	Reference T37 Wikidata:Q159	Россия
+N6	Reference T22 Wikidata:Q1250916	воин
+N23	Reference T10 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N24	Reference T20 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N25	Reference T34 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N26	Reference T3 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N27	Reference T18 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N28	Reference T2 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N29	Reference T30 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N30	Reference T73 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N31	Reference T66 Wikidata:Q104680	полковник
+N32	Reference T9 Wikidata:Q104680	полковник
+N33	Reference T41 Wikidata:Q104680	полковник
+N34	Reference T21 Wikidata:Q104680	полковник
+N35	Reference T51 Wikidata:Q159	Россия
+N36	Reference T12 Wikidata:NULL	нет данных
+N37	Reference T13 Wikidata:NULL	нет данных
+N38	Reference T40 Wikidata:Q1263648	Квачков, Владимир Васильевич
+N39	Reference T45 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N40	Reference T44 Wikidata:NULL	нет данных
+N41	Reference T50 Wikidata:Q19705	уголовное законодательство
+N42	Reference T39 Wikidata:Q159	Россия
+N43	Reference T32 Wikidata:Q159	Россия
+T77	ORDINAL 1635 1638	282

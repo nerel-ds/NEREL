@@ -1,0 +1,172 @@
+T1	PERSON 7 23	Надежды Савченко
+T3	ORGANIZATION 63 73	ФСБ России
+T4	PERSON 99 115	Надежда Савченко
+T5	CITY 149 155	Москве
+T6	DATE 157 187	в пятницу, 30 января 2015 года
+T7	COUNTRY 225 235	российские
+T8	COUNTRY 325 332	Украине
+T9	COUNTRY 377 383	России
+T10	PROFESSION 507 518	журналистов
+T11	COUNTRY 453 460	Украине
+T12	NUMBER 491 495	двое
+T13	COUNTRY 496 506	российских
+T14	DATE 569 575	В июне
+T15	AGE 576 585	33-летняя
+T16	PERSON 586 594	Савченко
+T17	LOCATION 641 656	востоке Украины
+T18	COUNTRY 791 801	российским
+T19	COUNTRY 824 830	Россия
+T20	DATE 889 898	В пятницу
+T22	ORGANIZATION 942 949	Twitter
+T23	PERSON 1115 1123	Савченко
+T24	DATE 1159 1171	до шести лет
+T25	COUNTRY 1173 1183	Украинское
+T26	PERSON 1206 1214	Савченко
+T27	CITY 1235 1244	Вашингтон
+T28	DATE 1273 1295	с 13 декабря 2014 года
+T29	PERSON 1334 1340	Фейгин
+T30	DATE 1407 1437	В четверг, 29 января 2015 года
+T31	PERSON 1439 1447	Савченко
+T32	ORGANIZATION 1478 1495	Матросская тишина
+T33	ORGANIZATION 1525 1542	Матросской тишине
+T35	PERSON 1588 1604	Владимира Путина
+T36	PROFESSION 1634 1639	юрист
+T37	DATE 1725 1736	в 2009 году
+T38	PERSON 1766 1776	Магнитский
+T39	PERSON 1839 1844	Путин
+T40	PROFESSION 1891 1897	юриста
+T41	COUNTRY 67 73	России
+T2	PROFESSION 91 98	лётчица
+T42	PROFESSION 210 219	адвокатов
+T43	PERSON 333 341	Савченко
+T44	LOCATION 443 460	восточной Украине
+T45	PROFESSION 899 906	адвокат
+T46	PROFESSION 742 750	адвокаты
+T21	PERSON 907 915	Савченко
+T48	PERSON 916 927	Марк Фейгин
+T49	ORGANIZATION 1173 1197	Украинское правительство
+T50	COUNTRY 649 656	Украины
+T34	PERSON 1605 1624	Михаил Ходорковский
+T52	PERSON 1640 1657	Сергей Магнитский
+T53	PROFESSION 1749 1764	правозащитников
+T54	DISEASE 1925 1944	сердечного приступа
+T55	DATE 1341 1358	на прошлой неделе
+T56	FACILITY 56 73	Здание ФСБ России
+T57	TIME 74 79	ночью
+T58	IDEOLOGY 767 778	сепаратисты
+T51	IDEOLOGY 609 637	пророссийскими сепаратистами
+R1	WORKS_AS Arg1:T4 Arg2:T2	
+T59	COUNTRY 80 90	Украинская
+R2	ORIGINS_FROM Arg1:T4 Arg2:T59	
+T60	CRIME 290 320	незаконном пересечении границы
+T61	CRIME 395 440	предоставлении координат для минометной атаки
+T62	PROFESSION 529 536	лётчицы
+T63	PROFESSION 520 528	Адвокаты
+R3	AGE_IS Arg1:T16 Arg2:T15	
+R4	SUBORDINATE_OF Arg1:T48 Arg2:T21	
+T64	PENALTY 1131 1171	тюремное заключение на срок до шести лет
+T65	PENALTY 1131 1150	тюремное заключение
+T66	EVENT 600 608	схвачена
+R5	PARTICIPANT_IN Arg1:T16 Arg2:T66	
+R6	POINT_IN_TIME Arg1:T66 Arg2:T14	
+R7	TAKES_PLACE_IN Arg1:T66 Arg2:T17	
+R8	WORKS_AS Arg1:T48 Arg2:T45	
+T47	EVENT 1305 1314	голодовку
+R9	PARTICIPANT_IN Arg1:T26 Arg2:T47	
+R10	WORKS_AS Arg1:T52 Arg2:T36	
+R11	DATE_OF_DEATH Arg1:T52 Arg2:T37	
+R12	CAUSE_OF_DEATH Arg1:T38 Arg2:T54	
+T67	EVENT 24 55	возбуждено новое уголовное дело
+R13	PARTICIPANT_IN Arg1:T1 Arg2:T67	
+R14	HEADQUARTERED_IN Arg1:T3 Arg2:T41	
+T68	PENALTY 139 146	арестом
+R15	LOCATED_IN Arg1:T4 Arg2:T5	
+T69	ORGANIZATION 225 242	российские власти
+R16	LOCATED_IN Arg1:T44 Arg2:T11	
+R17	ORIGINS_FROM Arg1:T10 Arg2:T13	
+R18	SUBORDINATE_OF Arg1:T63 Arg2:T62	
+R19	HEADQUARTERED_IN Arg1:T49 Arg2:T25	
+R20	ALTERNATIVE_NAME Arg1:T4 Arg2:T43	
+R21	ALTERNATIVE_NAME Arg1:T48 Arg2:T29	
+R22	LOCATED_IN Arg1:T31 Arg2:T32	
+R23	LOCATED_IN Arg1:T34 Arg2:T33	
+R24	LOCATED_IN Arg1:T52 Arg2:T33	
+R25	ALTERNATIVE_NAME Arg1:T52 Arg2:T38	
+R26	ALTERNATIVE_NAME Arg1:T35 Arg2:T39	
+R27	WORKS_AS Arg1:T52 Arg2:T40	
+R28	CAUSE_OF_DEATH Arg1:T40 Arg2:T54	
+R29	PENALIZED_AS Arg1:T4 Arg2:T68	
+R30	CONVICTED_OF Arg1:T4 Arg2:T60	
+R31	HAS_CAUSE Arg1:T68 Arg2:T60	
+R32	CONVICTED_OF Arg1:T4 Arg2:T61	
+R33	LOCATED_IN Arg1:T17 Arg2:T50	
+R34	START_TIME Arg1:T47 Arg2:T28	
+R35	HEADQUARTERED_IN Arg1:T69 Arg2:T7	
+T70	ORGANIZATION 791 809	российским властям
+R36	HEADQUARTERED_IN Arg1:T70 Arg2:T18	
+R37	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+T71	EVENT 243 252;264 274	возбудили новое дело
+R38	AGENT Arg1:T69 Arg2:T71	
+R39	PARTICIPANT_IN Arg1:T4 Arg2:T71	
+T72	EVENT 483 490	погибли
+R40	PARTICIPANT_IN Arg1:T10 Arg2:T72	
+R41	HAS_CAUSE Arg1:T72 Arg2:T61	
+T73	EVENT 1703 1715	скончавшийся
+R42	PARTICIPANT_IN Arg1:T52 Arg2:T73	
+R43	POINT_IN_TIME Arg1:T73 Arg2:T37	
+T74	EVENT 1917 1921	умер
+R44	PARTICIPANT_IN Arg1:T40 Arg2:T74	
+R45	HAS_CAUSE Arg1:T74 Arg2:T54	
+T75	EVENT 1883 1890	смертью
+R46	PARTICIPANT_IN Arg1:T40 Arg2:T75	
+R47	ALTERNATIVE_NAME Arg1:T73 Arg2:T75	
+R48	ALTERNATIVE_NAME Arg1:T75 Arg2:T74	
+T76	CRIME 1681 1700	коррупционную схему
+N1	Reference T3 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N2	Reference T5 Wikidata:Q649	Москва
+N3	Reference T10 Wikidata:Q1930187	журналист
+N4	Reference T11 Wikidata:Q212	Украина
+N7	Reference T22 Wikidata:Q918	Твиттер
+N9	Reference T27 Wikidata:Q61	Вашингтон
+N10	Reference T33 Wikidata:Q3299316	Матросская тишина
+N11	Reference T35 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T36 Wikidata:Q185351	юрист
+N13	Reference T42 Wikidata:Q40348	адвокат
+N14	Reference T48 Wikidata:Q4482390	Марк Захарович Фейгин
+N15	Reference T49 Wikidata:Q613729	Кабинет министров Украины
+N16	Reference T34 Wikidata:Q152503	Михаил Борисович Ходорковский
+N17	Reference T52 Wikidata:Q247917	Сергей Леонидович Магнитский
+N18	Reference T53 Wikidata:Q1476215	правозащитник
+N20	Reference T59 Wikidata:Q212	Украина
+N21	Reference T62 Wikidata:Q2095549	лётчик
+N19	Reference T56 Wikidata:Q646334	
+N22	Reference T69 Wikidata:NULL	нет данных
+N23	Reference T44 Wikidata:Q181386	
+N5	Reference T17 Wikidata:Q181386	
+N6	Reference T18 Wikidata:Q159	Россия
+N8	Reference T26 Wikidata:Q17318904	Надежда Викторовна Савченко
+N24	Reference T50 Wikidata:Q212	Украина
+N25	Reference T8 Wikidata:Q212	Украина
+N26	Reference T32 Wikidata:Q3299316	Матросская тишина
+N27	Reference T39 Wikidata:Q7747	Владимир Владимирович Путин
+N28	Reference T40 Wikidata:Q185351	юрист
+N29	Reference T45 Wikidata:Q40348	адвокат
+N30	Reference T46 Wikidata:Q40348	адвокат
+N31	Reference T63 Wikidata:Q40348	адвокат
+N32	Reference T29 Wikidata:Q4482390	Марк Захарович Фейгин
+N33	Reference T38 Wikidata:Q247917	Сергей Леонидович Магнитский
+N34	Reference T25 Wikidata:Q212	Украина
+N35	Reference T2 Wikidata:Q2095549	лётчик
+N36	Reference T70 Wikidata:NULL	нет данных
+N37	Reference T41 Wikidata:Q159	Россия
+N38	Reference T13 Wikidata:Q159	Россия
+N39	Reference T19 Wikidata:Q159	Россия
+N40	Reference T9 Wikidata:Q159	Россия
+N41	Reference T7 Wikidata:Q159	Россия
+N42	Reference T31 Wikidata:Q17318904	Надежда Викторовна Савченко
+N43	Reference T4 Wikidata:Q17318904	Надежда Викторовна Савченко
+N44	Reference T43 Wikidata:Q17318904	Надежда Викторовна Савченко
+N45	Reference T21 Wikidata:Q17318904	Надежда Викторовна Савченко
+N46	Reference T23 Wikidata:Q17318904	Надежда Викторовна Савченко
+N47	Reference T1 Wikidata:Q17318904	Надежда Викторовна Савченко
+N48	Reference T16 Wikidata:Q17318904	Надежда Викторовна Савченко

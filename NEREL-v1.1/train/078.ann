@@ -1,0 +1,82 @@
+T2	PERSON 44 53	Э.Уитакер
+T3	PROFESSION 56 85	Временный главный управляющий
+T4	ORGANIZATION 117 131	General Motors
+T5	ORGANIZATION 133 135	GM
+T6	PERSON 137 151	Эдвард Уитакер
+T7	PROFESSION 161 180	главным управляющим
+T8	DATE 243 250	сегодня
+T9	ORGANIZATION 261 277	Associated Press
+T10	AGE 279 288	68-летний
+T12	PERSON 289 298	Э.Уитакер
+T13	PROFESSION 303 332	временным главным управляющим
+T14	DATE 336 353	с 1 декабря 2009г
+T16	PERSON 393 409	Фрица Хендерсона
+T17	PROFESSION 418 426	глава GM
+T18	ORGANIZATION 485 487	GM
+T20	PERSON 588 597	Э.Уитакер
+T21	MONEY 633 646	8,1 млрд долл
+T22	COUNTRY 663 666	США
+T23	COUNTRY 669 675	Канады
+T24	ORGANIZATION 20 34	General Motors
+T25	PROFESSION 0 34	Главным управляющим General Motors
+T27	COUNTRY 86 99	американского
+T28	ORGANIZATION 333 335	GM
+T15	ORGANIZATION 424 426	GM
+T19	ORGANIZATION 648 662	правительствам
+R1	WORKPLACE Arg1:T2 Arg2:T24	
+R2	WORKS_AS Arg1:T2 Arg2:T25	
+R3	ABBREVIATION Arg1:T4 Arg2:T5	
+R4	WORKS_AS Arg1:T6 Arg2:T3	
+R5	WORKPLACE Arg1:T3 Arg2:T4	
+R6	WORKPLACE Arg1:T6 Arg2:T4	
+R7	WORKS_AS Arg1:T6 Arg2:T7	
+R8	WORKPLACE Arg1:T7 Arg2:T4	
+T1	EVENT 152 160	назначен
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T1	
+R10	POINT_IN_TIME Arg1:T1 Arg2:T8	
+R11	AGE_IS Arg1:T12 Arg2:T10	
+T11	PROFESSION 303 335	временным главным управляющим GM
+R12	WORKS_AS Arg1:T12 Arg2:T11	
+R13	WORKS_AS Arg1:T12 Arg2:T17	
+R14	WORKPLACE Arg1:T25 Arg2:T24	
+R15	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+T26	EVENT 35 43	назначен
+R16	PARTICIPANT_IN Arg1:T2 Arg2:T26	
+T29	PROFESSION 0 19	Главным управляющим
+R17	HEADQUARTERED_IN Arg1:T4 Arg2:T27	
+R18	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+T30	EVENT 361 369	отставки
+R19	PARTICIPANT_IN Arg1:T16 Arg2:T30	
+R20	PARTICIPANT_IN Arg1:T28 Arg2:T30	
+R21	WORKPLACE Arg1:T16 Arg2:T28	
+R22	WORKPLACE Arg1:T17 Arg2:T15	
+R23	HEADQUARTERED_IN Arg1:T19 Arg2:T22	
+R24	HEADQUARTERED_IN Arg1:T19 Arg2:T23	
+R25	PARTICIPANT_IN Arg1:T24 Arg2:T26	
+R26	WORKPLACE Arg1:T11 Arg2:T28	
+R27	ABBREVIATION Arg1:T4 Arg2:T28	
+R28	ALTERNATIVE_NAME Arg1:T25 Arg2:T17	
+R29	EXPENDITURE Arg1:T18 Arg2:T21	
+N6	Reference T22 Wikidata:Q30	США
+N7	Reference T23 Wikidata:Q16	Канада
+N10	Reference T19 Wikidata:Q7188	правительство
+N11	Reference T29 Wikidata:Q484876	главный управляющий
+N8	Reference T25 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:Q30	США
+N12	Reference T5 Wikidata:Q81965	General Motors
+N2	Reference T9 Wikidata:Q40469	Ассошиэйтед Пресс
+N3	Reference T13 Wikidata:NULL	нет данных
+N13	Reference T11 Wikidata:NULL	нет данных
+N5	Reference T20 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:Q1452904	
+N14	Reference T7 Wikidata:Q484876	главный управляющий
+N15	Reference T17 Wikidata:NULL	нет данных
+N16	Reference T4 Wikidata:Q81965	General Motors
+N17	Reference T15 Wikidata:Q81965	General Motors
+N18	Reference T28 Wikidata:Q81965	General Motors
+N19	Reference T18 Wikidata:Q81965	General Motors
+N20	Reference T24 Wikidata:Q81965	General Motors
+N21	Reference T12 Wikidata:NULL	нет данных
+N22	Reference T6 Wikidata:NULL	нет данных
+N23	Reference T2 Wikidata:NULL	нет данных

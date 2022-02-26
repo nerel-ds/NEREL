@@ -1,0 +1,63 @@
+T1	PERSON 0 15	Дженнифер Лопес
+T2	WORK_OF_ART 38 47	Limitless
+T3	PERSON 48 63	Дженнифер Лопес
+T4	AGE 85 94	49 летняя
+T5	PERSON 115 130	Дженнифер Лопес
+T6	WORK_OF_ART 153 162	Limitless
+T7	WORK_OF_ART 200 213	Начни сначала
+T8	PERSON 215 228	Питера Сигала
+T9	PERSON 239 248	Дженнифер
+T10	DATE 299 321	на 10 января 2019 года
+T11	PERSON 330 345	Дженнифер Лопес
+T12	NATIONALITY 358 373	пуэрториканским
+T13	PERSON 385 394	Bad Bunny
+T14	WORK_OF_ART 416 424	Te Guste
+T15	DATE 64 83	16 ноября 2018 года
+T16	NATIONALITY 95 107	американская
+T17	PROFESSION 108 114	певица
+T18	EVENT 271 279	Премьера
+T19	PROFESSION 374 384	музыкантом
+R1	PRODUCES Arg1:T1 Arg2:T2	
+R2	PRODUCES Arg1:T5 Arg2:T6	
+T20	EVENT 16 25	выпустила
+R3	AGENT Arg1:T1 Arg2:T20	
+R4	ORIGINS_FROM Arg1:T5 Arg2:T16	
+R5	WORKS_AS Arg1:T5 Arg2:T17	
+T21	EVENT 131 140	выпустила
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T21	
+R7	AGE_IS Arg1:T5 Arg2:T4	
+R8	POINT_IN_TIME Arg1:T20 Arg2:T15	
+R9	POINT_IN_TIME Arg1:T21 Arg2:T15	
+R10	PRODUCES Arg1:T8 Arg2:T7	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R12	PART_OF Arg1:T6 Arg2:T7	
+R13	PARTICIPANT_IN Arg1:T9 Arg2:T7	
+T22	EVENT 271 286	Премьера фильма
+R14	POINT_IN_TIME Arg1:T22 Arg2:T10	
+R15	DATE_OF_CREATION Arg1:T7 Arg2:T10	
+R16	WORKS_AS Arg1:T13 Arg2:T19	
+R17	ORIGINS_FROM Arg1:T13 Arg2:T12	
+R18	KNOWS Arg1:T11 Arg2:T13	
+R19	KNOWS Arg1:T13 Arg2:T11	
+R20	PRODUCES Arg1:T13 Arg2:T14	
+R21	PRODUCES Arg1:T11 Arg2:T14	
+R22	AGE_IS Arg1:T17 Arg2:T4	
+R23	ORIGINS_FROM Arg1:T17 Arg2:T16	
+R24	INANIMATE_INVOLVED Arg1:T2 Arg2:T20	
+R25	INANIMATE_INVOLVED Arg1:T6 Arg2:T21	
+R26	INANIMATE_INVOLVED Arg1:T7 Arg2:T22	
+N2	Reference T7 Wikidata:Q48672735	Начни сначала
+N3	Reference T8 Wikidata:Q339551	Сигал, Питер
+N6	Reference T13 Wikidata:Q44333953	Bad Bunny
+N9	Reference T17 Wikidata:Q177220	певец
+N10	Reference T19 Wikidata:Q639669	музыкант
+N8	Reference T16 Wikidata:Q846570	
+N1	Reference T6 Wikidata:Q60748232	
+N4	Reference T9 Wikidata:Q40715	Дженнифер Лопес
+N5	Reference T12 Wikidata:Q893594	Пуэрториканцы
+N7	Reference T14 Wikidata:Q58410470	
+N11	Reference T2 Wikidata:Q60748232	
+N12	Reference T5 Wikidata:Q40715	Дженнифер Лопес
+N13	Reference T11 Wikidata:Q40715	Дженнифер Лопес
+N14	Reference T3 Wikidata:Q40715	Дженнифер Лопес
+N15	Reference T1 Wikidata:Q40715	Дженнифер Лопес

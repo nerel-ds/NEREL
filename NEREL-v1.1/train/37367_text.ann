@@ -1,0 +1,89 @@
+T1	PERSON 0 13	Уоррен Баффет
+T2	PRODUCT 20 27	Твиттер
+T3	DATE 42 57	2 мая 2013 года
+T4	PERSON 58 71	Уоррен Баффет
+T5	MONEY 166 188	46,5 млрд долларов США
+T6	PRODUCT 213 221	Твиттере
+T8	NUMBER 303 311	10 тысяч
+T10	TIME 323 337	через три часа
+T11	NUMBER 357 366	140 тысяч
+T12	NUMBER 416 423	342 900
+T13	NUMBER 650 653	две
+T14	PERSON 723 730	Баффета
+T15	ORDINAL 791 797	второй
+T17	ORGANIZATION 858 867	CNN Money
+T18	COUNTRY 950 957	Америки
+T19	COUNTRY 1027 1034	America
+T20	ORGANIZATION 1088 1091	CNN
+T22	AGE 1177 1186	82-летний
+T23	PERSON 1187 1200	Уоррен Баффет
+T25	ORGANIZATION 1260 1278	Berkshire Hathaway
+T26	NUMBER 1300 1311	примерно 80
+T27	ORDINAL 1510 1516	вторым
+T28	COUNTRY 1546 1549	США
+T29	PERSON 28 41	Уоррен Баффет
+T30	PROFESSION 121 131	инвесторов
+T31	COUNTRY 185 188	США
+T9	PROFESSION 440 448	инвестор
+T32	ORDINAL 732 738	Первая
+T16	CITY 809 814	Омахи
+T33	CITY 827 832	Omaha
+T36	PERSON 1092 1098	Баффет
+T21	ORDINAL 1166 1168	XX
+T37	PROFESSION 1213 1236	председателем правления
+T39	PROFESSION 1239 1278	управляющим компании Berkshire Hathaway
+R1	WORKS_AS Arg1:T4 Arg2:T30	
+R2	OWNER_OF Arg1:T4 Arg2:T5	
+T7	TIME 238 260	В течение десяти минут
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T14	
+T40	PERSON 754 760	Уоррен
+R4	ALTERNATIVE_NAME Arg1:T14 Arg2:T40	
+T41	PERSON 763 769	Warren
+R5	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R6	ALTERNATIVE_NAME Arg1:T16 Arg2:T33	
+R7	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R8	LOCATED_IN Arg1:T16 Arg2:T18	
+R9	LOCATED_IN Arg1:T33 Arg2:T19	
+R10	PART_OF Arg1:T17 Arg2:T20	
+R11	AGE_IS Arg1:T23 Arg2:T22	
+R12	ALTERNATIVE_NAME Arg1:T36 Arg2:T23	
+R13	WORKPLACE Arg1:T39 Arg2:T25	
+T24	PROFESSION 1213 1236;1260 1278	председателем правления Berkshire Hathaway
+R14	WORKPLACE Arg1:T24 Arg2:T25	
+R15	WORKS_AS Arg1:T23 Arg2:T24	
+R16	WORKS_AS Arg1:T23 Arg2:T39	
+R17	WORKPLACE Arg1:T23 Arg2:T25	
+R18	ALTERNATIVE_NAME Arg1:T19 Arg2:T28	
+R19	ALTERNATIVE_NAME Arg1:T31 Arg2:T18	
+T34	PERSON 230 236	Buffet
+R20	ALTERNATIVE_NAME Arg1:T4 Arg2:T34	
+T35	PERSON 495 501	Buffet
+T38	ORGANIZATION 858 861	CNN
+R21	PART_OF Arg1:T17 Arg2:T38	
+N1	Reference T6 Wikidata:Q918	Твиттер
+N3	Reference T20 Wikidata:Q48340	CNN
+N4	Reference T25 Wikidata:Q217583	Berkshire Hathaway
+N5	Reference T30 Wikidata:Q557880	инвестор
+N6	Reference T16 Wikidata:Q43199	Омаха
+N7	Reference T36 Wikidata:Q47213	Уоррен Баффетт
+N11	Reference T35 Wikidata:Q47213	Уоррен Баффетт
+N2	Reference T17 Wikidata:Q2931769	
+N12	Reference T18 Wikidata:Q30	США
+N8	Reference T37 Wikidata:Q2534525	
+N10	Reference T24 Wikidata:NULL	нет данных
+N9	Reference T39 Wikidata:NULL	нет данных
+N13	Reference T2 Wikidata:Q918	Твиттер
+N14	Reference T38 Wikidata:Q48340	CNN
+N15	Reference T9 Wikidata:Q557880	инвестор
+N16	Reference T33 Wikidata:Q43199	Омаха
+N17	Reference T29 Wikidata:Q47213	Уоррен Баффетт
+N18	Reference T1 Wikidata:Q47213	Уоррен Баффетт
+N19	Reference T23 Wikidata:Q47213	Уоррен Баффетт
+N20	Reference T40 Wikidata:Q47213	Уоррен Баффетт
+N21	Reference T14 Wikidata:Q47213	Уоррен Баффетт
+N22	Reference T34 Wikidata:Q47213	Уоррен Баффетт
+N23	Reference T4 Wikidata:Q47213	Уоррен Баффетт
+N24	Reference T41 Wikidata:Q47213	Уоррен Баффетт
+N25	Reference T19 Wikidata:Q30	США
+N26	Reference T28 Wikidata:Q30	США
+N27	Reference T31 Wikidata:Q30	США

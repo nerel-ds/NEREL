@@ -1,0 +1,216 @@
+T1	ORGANIZATION 0 3	МИД
+T2	COUNTRY 41 51	Свазиленда
+T3	COUNTRY 54 62	Эсватини
+T4	ORGANIZATION 109 121	Викиновостям
+T7	COUNTRY 174 194	Королевство Эсватини
+T9	COUNTRY 196 215	Kingdom of Eswatini
+T11	PERSON 234 243	С. Кузина
+T12	ORGANIZATION 245 263	Департамент Африки
+T13	PROFESSION 288 298	журналиста
+T14	PERSON 299 315	Олега Абарникова
+T15	WORK_OF_ART 317 327	Soul Train
+T16	DATE 357 372	от 22 04 2018 г
+T17	DATE 386 396	7 июня с г
+T18	ORGANIZATION 399 402	МИД
+T19	ORGANIZATION 425 485	Министерства иностранных дел и международного сотрудничества
+T20	COUNTRY 486 507	Королевства Свазиленд
+T21	DATE 559 577	с 19 апреля 2018 г
+T23	COUNTRY 580 600	Королевство Эсватини
+T24	ORGANIZATION 906 909	МИД
+T26	DATE 1102 1121	19 апреля 2018 года
+T27	COUNTRY 1185 1205	Королевство Эсватини
+T28	EVENT 1295 1316	праздничной церемонии
+T29	AGE 1334 1342	50-летия
+T30	AGE 1352 1360	50-летия
+T32	PROFESSION 1384 1390	Король
+T33	COUNTRY 1456 1465	Свазиленд
+T35	COUNTRY 1481 1491	Швейцарией
+T37	COUNTRY 1655 1665	Свазиленду
+T38	COUNTRY 1743 1758	Великобританией
+T39	COUNTRY 1761 1770	Свазиленд
+T40	LOCATION 1787 1799	Южной Африке
+T41	CITY 1899 1906	Мбабане
+T42	NUMBER 1908 1914	67 200
+T43	PROFESSION 1971 1979	королевы
+T44	ORGANIZATION 2002 2009	Лобамба
+T45	CITY 2056 2063	Манзини
+T46	NUMBER 2065 2071	73 000
+T49	COUNTRY 2138 2166	Южно-Африканской Республикой
+T50	COUNTRY 2183 2193	Мозамбиком
+T51	COUNTRY 2223 2233	Свазиленда
+T52	NUMBER 2245 2251	535 км
+T53	NUMBER 2278 2296	17,363 тыс. кв. км
+T55	COUNTRY 2334 2348	Великобритании
+T56	DATE 2349 2360	в 1968 году
+T58	PROFESSION 2474 2490	премьер-министра
+T59	ORGANIZATION 2568 2577	парламент
+T60	ORGANIZATION 2598 2620	национального собрания
+T61	ORGANIZATION 2623 2629	сената
+T62	ORGANIZATION 2631 2640	Парламент
+T63	PERCENT 2849 2853	11 %
+T64	PERCENT 2908 2912	62 %
+T65	ORGANIZATION 0 6	МИД РФ
+T66	COUNTRY 4 6	РФ
+T67	PROFESSION 63 78	Король Эсватини
+T68	PROFESSION 63 69	Король
+T69	COUNTRY 70 78	Эсватини
+T70	PERSON 79 89	Мсвати III
+T71	ORDINAL 86 89	III
+T72	ORGANIZATION 90 100	МИД России
+T73	ORGANIZATION 90 93	МИД
+T75	ORGANIZATION 245 274	Департамент Африки МИД России
+T76	ORGANIZATION 399 409	МИД России
+T77	ORGANIZATION 425 507	Министерства иностранных дел и международного сотрудничества Королевства Свазиленд
+T78	ORGANIZATION 906 916	МИД России
+T79	COUNTRY 94 100	России
+T5	COUNTRY 161 171	Свазиленда
+T6	LOCATION 257 263	Африки
+T8	ORGANIZATION 264 274	МИД России
+T80	ORGANIZATION 264 267	МИД
+T81	COUNTRY 268 274	России
+T82	COUNTRY 403 409	России
+T22	COUNTRY 877 888	Королевства
+T83	COUNTRY 910 916	России
+T25	LAW 1060 1099	Общероссийский классификатор стран мира
+T84	PROFESSION 1122 1139	Король Свазиленда
+T85	PROFESSION 1122 1128	Король
+T87	COUNTRY 1129 1139	Свазиленда
+T88	PERSON 1140 1150	Мсвати III
+T89	ORDINAL 1147 1150	III
+T90	COUNTRY 1207 1223	Umbuso weSwatini
+T91	LANGUAGE 1239 1244	свати
+T31	PERSON 1391 1401	Мсвати III
+T92	ORDINAL 1398 1401	III
+T93	COUNTRY 1467 1476	Swaziland
+T94	COUNTRY 1493 1504	Switzerland
+T34	PERSON 1508 1518	Мсвати III
+T36	ORDINAL 1515 1518	III
+T95	LOCATION 1569 1580	африканские
+T96	LOCATION 1816 1820	Велд
+T98	DATE 1923 1929	в 2004
+T99	DATE 2080 2086	в 2004
+T54	COUNTRY 2299 2308	Свазиленд
+T57	COUNTRY 2363 2372	Свазиленд
+T103	IDEOLOGY 2386 2394	монархия
+T104	PROFESSION 2436 2442	короля
+T105	ORGANIZATION 2516 2526	парламенте
+R1	HEADQUARTERED_IN Arg1:T65 Arg2:T66	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+R3	WORKPLACE Arg1:T67 Arg2:T69	
+R4	WORKS_AS Arg1:T70 Arg2:T67	
+R5	WORKPLACE Arg1:T70 Arg2:T69	
+R6	HEADQUARTERED_IN Arg1:T72 Arg2:T79	
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R8	ABBREVIATION Arg1:T14 Arg2:T13	
+R9	HEADQUARTERED_IN Arg1:T8 Arg2:T81	
+R10	PART_OF Arg1:T75 Arg2:T8	
+R11	WORKPLACE Arg1:T11 Arg2:T75	
+R12	HEADQUARTERED_IN Arg1:T76 Arg2:T82	
+R13	HEADQUARTERED_IN Arg1:T77 Arg2:T20	
+R14	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+R15	HEADQUARTERED_IN Arg1:T78 Arg2:T83	
+R16	ALTERNATIVE_NAME Arg1:T27 Arg2:T90	
+R17	ALTERNATIVE_NAME Arg1:T33 Arg2:T93	
+R18	ALTERNATIVE_NAME Arg1:T35 Arg2:T94	
+R19	LOCATED_IN Arg1:T39 Arg2:T40	
+R20	WORKPLACE Arg1:T84 Arg2:T87	
+R21	WORKS_AS Arg1:T31 Arg2:T32	
+T10	IDEOLOGY 2375 2394	абсолютная монархия
+R22	IDEOLOGY_OF Arg1:T57 Arg2:T10	
+R23	PART_OF Arg1:T60 Arg2:T59	
+R24	PART_OF Arg1:T61 Arg2:T59	
+R25	HEADQUARTERED_IN Arg1:T59 Arg2:T57	
+R26	WORKPLACE Arg1:T104 Arg2:T57	
+R27	LOCATED_IN Arg1:T39 Arg2:T96	
+R28	LOCATED_IN Arg1:T96 Arg2:T40	
+R29	LOCATED_IN Arg1:T41 Arg2:T39	
+R30	LOCATED_IN Arg1:T45 Arg2:T39	
+R31	HEADQUARTERED_IN Arg1:T44 Arg2:T41	
+R32	WORKS_AS Arg1:T88 Arg2:T84	
+R33	WORKPLACE Arg1:T88 Arg2:T87	
+R34	AGE_IS Arg1:T88 Arg2:T29	
+R35	PARTICIPANT_IN Arg1:T88 Arg2:T28	
+R36	LOCATED_IN Arg1:T33 Arg2:T95	
+T47	LOCATION 1793 1799	Африке
+R37	LOCATED_IN Arg1:T40 Arg2:T47	
+T48	EVENT 2309 2330	получил независимость
+R38	AGENT Arg1:T54 Arg2:T48	
+R39	AGENT Arg1:T55 Arg2:T48	
+R40	POINT_IN_TIME Arg1:T48 Arg2:T56	
+R41	AGE_IS Arg1:T87 Arg2:T30	
+N1	Reference T4 Wikidata:Q964	Викиновости
+N5	Reference T13 Wikidata:Q1930187	журналист
+N9	Reference T27 Wikidata:Q1050	Эсватини
+N10	Reference T35 Wikidata:Q39	Швейцария
+N11	Reference T38 Wikidata:Q145	Великобритания
+N13	Reference T41 Wikidata:Q3904	Мбабане
+N15	Reference T44 Wikidata:Q101418	Лобамба
+N16	Reference T45 Wikidata:Q495730	Манзини
+N17	Reference T49 Wikidata:Q258	ЮАР
+N18	Reference T50 Wikidata:Q1029	Мозамбик
+N19	Reference T58 Wikidata:Q14212	премьер-министр
+N20	Reference T60 Wikidata:Q1798607	Национальное собрание Республики Беларусь
+N22	Reference T65 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N23	Reference T66 Wikidata:Q159	Россия
+N26	Reference T69 Wikidata:Q1050	Эсватини
+N29	Reference T76 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N31	Reference T5 Wikidata:Q1050	Эсватини
+N33	Reference T83 Wikidata:Q159	Россия
+N36	Reference T87 Wikidata:Q1050	Эсватини
+N37	Reference T91 Wikidata:Q34014	свати
+N38	Reference T31 Wikidata:Q57340	Мсвати III
+N39	Reference T105 Wikidata:Q35749	парламент
+N40	Reference T47 Wikidata:Q15	Африка
+N24	Reference T67 Wikidata:Q847537	
+N25	Reference T68 Wikidata:Q12097	король
+N27	Reference T73 Wikidata:Q20901295	Министерство иностранных дел
+N2	Reference T9 Wikidata:Q1050	Эсватини
+N3	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N28	Reference T75 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:NULL	нет данных
+N30	Reference T77 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:NULL	нет данных
+N32	Reference T22 Wikidata:Q1050	Эсватини
+N34	Reference T25 Wikidata:Q4330202	
+N35	Reference T84 Wikidata:Q847537	
+N41	Reference T95 Wikidata:Q15	Африка
+N12	Reference T40 Wikidata:NULL	нет данных
+N42	Reference T96 Wikidata:Q1433901	
+N14	Reference T43 Wikidata:Q16511993	
+N21	Reference T61 Wikidata:Q2570643	сенат
+N43	Reference T90 Wikidata:Q1050	Эсватини
+N44	Reference T23 Wikidata:Q1050	Эсватини
+N45	Reference T94 Wikidata:Q39	Швейцария
+N46	Reference T55 Wikidata:Q145	Великобритания
+N47	Reference T2 Wikidata:Q1050	Эсватини
+N48	Reference T3 Wikidata:Q1050	Эсватини
+N49	Reference T72 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N50	Reference T8 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N51	Reference T78 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N52	Reference T7 Wikidata:Q1050	Эсватини
+N53	Reference T82 Wikidata:Q159	Россия
+N54	Reference T81 Wikidata:Q159	Россия
+N55	Reference T79 Wikidata:Q159	Россия
+N56	Reference T51 Wikidata:Q1050	Эсватини
+N57	Reference T57 Wikidata:Q1050	Эсватини
+N58	Reference T33 Wikidata:Q1050	Эсватини
+N59	Reference T54 Wikidata:Q1050	Эсватини
+N60	Reference T93 Wikidata:Q1050	Эсватини
+N61	Reference T39 Wikidata:Q1050	Эсватини
+N62	Reference T37 Wikidata:Q1050	Эсватини
+N63	Reference T34 Wikidata:Q57340	Мсвати III
+N64	Reference T70 Wikidata:Q57340	Мсвати III
+N65	Reference T88 Wikidata:Q57340	Мсвати III
+N66	Reference T59 Wikidata:Q35749	парламент
+N67	Reference T62 Wikidata:Q35749	парламент
+N68	Reference T6 Wikidata:Q15	Африка
+N69	Reference T32 Wikidata:Q12097	король
+N70	Reference T104 Wikidata:Q12097	король
+N71	Reference T85 Wikidata:Q12097	король
+N72	Reference T24 Wikidata:Q20901295	Министерство иностранных дел
+N73	Reference T80 Wikidata:Q20901295	Министерство иностранных дел
+N74	Reference T18 Wikidata:Q20901295	Министерство иностранных дел
+N75	Reference T1 Wikidata:Q20901295	Министерство иностранных дел
+N76	Reference T20 Wikidata:Q1050	Эсватини

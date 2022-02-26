@@ -1,0 +1,115 @@
+T1	PROFESSION 0 10	Священники
+T2	CITY 13 23	Петербурге
+T3	CITY 132 145	Петербургские
+T4	LAW 208 233	Уголовного кодекса России
+T5	COUNTRY 227 233	России
+T6	CRIME 235 262	Оскорбление чувств верующих
+T8	PROFESSION 295 302	епископ
+T9	ORGANIZATION 318 350	Апостольской православной церкви
+T10	FACILITY 433 450	канала Грибоедова
+T11	PERSON 440 450	Грибоедова
+T12	NUMBER 468 472	трое
+T13	PROFESSION 473 484	священников
+T15	PROFESSION 596 604	епископа
+T16	ORGANIZATION 605 637	Апостольской Православной Церкви
+T17	PERSON 638 663	Григория Михнова-Вайтенко
+T18	LAW 935 952	Уголовном кодексе
+T19	COUNTRY 953 959	России
+T20	DATE 960 971	в 2013 году
+T21	COUNTRY 1111 1117	России
+T23	LAW 1286 1291	УК РФ
+T24	DATE 1303 1317	до одного года
+T25	DATE 1430 1441	до трёх лет
+R1	WORKPLACE Arg1:T8 Arg2:T9
+T26	FACILITY 85 101	Канал Грибоедова
+T27	FACILITY 117 131	Спаса на Крови
+T28	PERSON 91 101	Грибоедова
+T31	LAW 197 263	статьи 148 Уголовного кодекса России «Оскорбление чувств верующих»
+T32	LAW 935 959	Уголовном кодексе России
+T34	LAW 1275 1291	статье 148 УК РФ
+T29	CRIME 56 83	оскорблении чувств верующих
+T35	EVENT 32 38	пикеты
+R2	TAKES_PLACE_IN Arg1:T35 Arg2:T2	
+R3	ORGANIZES Arg1:T1 Arg2:T35	
+R4	LOCATED_IN Arg1:T26 Arg2:T2	
+R5	LOCATED_IN Arg1:T27 Arg2:T2	
+T36	PROFESSION 146 163	священнослужители
+R6	ORIGINS_FROM Arg1:T36 Arg2:T3	
+R7	ALTERNATIVE_NAME Arg1:T1 Arg2:T36	
+R8	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T37	EVENT 173 189	одиночные пикеты
+R9	PARTICIPANT_IN Arg1:T36 Arg2:T37	
+R10	ORIGINS_FROM Arg1:T4 Arg2:T5	
+T33	RELIGION 331 343	православной
+T38	EVENT 285 292	пикетов
+R11	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R12	PARTICIPANT_IN Arg1:T8 Arg2:T38	
+R13	RELIGION_OF Arg1:T8 Arg2:T33	
+T39	EVENT 587 594	пикетов
+R14	PARTICIPANT_IN Arg1:T17 Arg2:T39	
+R15	WORKPLACE Arg1:T17 Arg2:T16	
+R16	WORKS_AS Arg1:T17 Arg2:T15	
+T40	CRIME 675 702	оскорблении чувств верующих
+T41	RELIGION 618 630	Православной
+R17	RELIGION_OF Arg1:T17 Arg2:T41	
+R18	RELIGION_OF Arg1:T16 Arg2:T41	
+R19	RELIGION_OF Arg1:T9 Arg2:T33	
+T42	CRIME 895 922	оскорблении чувств верующих
+T43	LAW 885 922	Статья об оскорблении чувств верующих
+R21	DATE_OF_CREATION Arg1:T43 Arg2:T20	
+T44	CRIME 1139 1259	публичные действия, выражающие явное неуважение к обществу и совершённые в целях оскорбления религиозных чувств верующих
+T45	PENALTY 1318 1333	лишения свободы
+T46	PENALTY 1303 1333	до одного года лишения свободы
+T47	COUNTRY 1289 1291	РФ
+T22	PENALTY 1442 1452	заключения
+T48	PENALTY 1430 1452	до трёх лет заключения
+T49	LAW 1286 1288	УК
+R22	ORIGINS_FROM Arg1:T23 Arg2:T47	
+R23	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+T50	ORDINAL 204 207	148
+T51	LAW 208 226	Уголовного кодекса
+R20	ORIGINS_FROM Arg1:T32 Arg2:T19	
+R24	ALTERNATIVE_NAME Arg1:T21 Arg2:T47	
+T7	ORDINAL 1282 1285	148
+T14	LAW 46 83	статьи об оскорблении чувств верующих
+R25	HAS_CAUSE Arg1:T35 Arg2:T14	
+R26	ALTERNATIVE_NAME Arg1:T14 Arg2:T31	
+T52	LAW 665 702	статья об оскорблении чувств верующих
+R27	HAS_CAUSE Arg1:T46 Arg2:T44	
+R28	HAS_CAUSE Arg1:T48 Arg2:T44	
+R29	PART_OF Arg1:T31 Arg2:T4	
+R30	PART_OF Arg1:T34 Arg2:T23	
+N1	Reference T2 Wikidata:Q656	Санкт-Петербург
+N2	Reference T4 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N4	Reference T13 Wikidata:Q42603	священник
+N5	Reference T15 Wikidata:Q29182	епископ
+N8	Reference T23 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N9	Reference T26 Wikidata:Q1137992	Канал Грибоедова
+N10	Reference T27 Wikidata:Q215208	Спас на Крови
+N12	Reference T41 Wikidata:Q35032	Православная церковь
+N14	Reference T47 Wikidata:Q159	Россия
+N16	Reference T51 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N17	Reference T28 Wikidata:Q15001	
+N3	Reference T6 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q16534127	
+N13	Reference T43 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N15	Reference T49 Wikidata:Q19705	уголовное законодательство
+N11	Reference T34 Wikidata:NULL	нет данных
+N18	Reference T3 Wikidata:Q656	Санкт-Петербург
+N19	Reference T32 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N20	Reference T36 Wikidata:Q42603	священник
+N21	Reference T1 Wikidata:Q42603	священник
+N22	Reference T8 Wikidata:Q29182	епископ
+N23	Reference T10 Wikidata:Q1137992	Канал Грибоедова
+N24	Reference T33 Wikidata:Q35032	Православная церковь
+N25	Reference T19 Wikidata:Q159	Россия
+N26	Reference T5 Wikidata:Q159	Россия
+N27	Reference T21 Wikidata:Q159	Россия
+N28	Reference T18 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N29	Reference T11 Wikidata:Q15001	
+N30	Reference T9 Wikidata:Q16534127	
+N31	Reference T31 Wikidata:NULL	нет данных
+N32	Reference T14 Wikidata:NULL	нет данных
+N33	Reference T52 Wikidata:NULL	нет данных
+T30	EVENT 183 189	пикеты

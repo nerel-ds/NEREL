@@ -1,0 +1,181 @@
+T1	PERSON 0 6	Аваков
+T2	PROFESSION 8 29	Врио премьер-министра
+T4	DATE 83 100	24 июля 2014 года
+T6	PERSON 101 113	Арсен Аваков
+T7	PRODUCT 130 138	Facebook
+T8	PROFESSION 144 192	исполняющим обязанности премьер-министра Украины
+T10	PERSON 202 219	Владимир Гройсман
+T11	DATE 287 294	сегодня
+T12	PROFESSION 295 318	премьер-министр Украины
+T13	PERSON 319 333	Арсений Яценюк
+T14	DATE 436 443	сегодня
+T15	NUMBER 447 450	две
+T16	ORGANIZATION 475 479	УДАР
+T17	ORGANIZATION 482 489	Свобода
+T18	ORGANIZATION 548 559	Батькивщины
+T19	ORGANIZATION 613 630	Европейский выбор
+T20	ORGANIZATION 693 707	Верховной рады
+T21	DATE 737 753	осенью 2014 года
+T22	PERSON 780 787	Яценюка
+T23	ORGANIZATION 811 826	Верховной Радой
+T24	PERSON 828 846	Александр Турчинов
+T25	TIME 847 874	в 18.00 по местному времени
+T26	TIME 876 885	19:00 мск
+T27	ORGANIZATION 906 915	Парламент
+T28	DATE 942 959	25 июля 2014 года
+T29	TIME 960 988	в 10:00 по киевскому времени
+T30	TIME 990 999	11:00 мск
+T31	PERSON 1045 1072	Владимир Борисович Гройсман
+T32	PERSON 1074 1102	Володимир Борисович Гройсман
+T33	DATE 1112 1131	20 января 1978 года
+T34	CITY 1134 1141	Виннице
+T35	DATE 1153 1171	с 1994 по 2005 год
+T36	DATE 1234 1245	В 2002 году
+T37	PROFESSION 1253 1262	депутатом
+T38	CITY 1263 1273	Винницкого
+T39	PROFESSION 1327 1345	заместителем главы
+T40	DATE 1452 1463	В 2003 году
+T41	ORGANIZATION 1473 1519	Межрегиональную академию управления персоналом
+T42	DATE 1554 1572	В ноябре 2005 года
+T43	PROFESSION 1580 1590	секретарем
+T44	DATE 1622 1643	С 25 ноября 2005 года
+T45	PROFESSION 1644 1700	исполняющий обязанности городского головы города Винница
+T46	PROFESSION 1668 1685	городского головы
+T47	CITY 1693 1700	Винница
+T48	DATE 1702 1720	26 марта 2006 года
+T49	AGE 1732 1738	28 лет
+T50	CITY 1746 1755	Винницким
+T51	DATE 1803 1814	в 2010 году
+T52	PROFESSION 1817 1837	Вице-премьер министр
+T53	DATE 1846 1868	с 27 февраля 2014 года
+T54	COUNTRY 30 37	Украины
+T55	PROFESSION 8 37	Врио премьер-министра Украины
+T56	PERSON 47 64	Владимир Гройсман
+T57	PERSON 65 82	Владимир Гройсман
+T5	PROFESSION 144 184	исполняющим обязанности премьер-министра
+T9	COUNTRY 185 192	Украины
+T58	PROFESSION 295 310	премьер-министр
+T59	COUNTRY 311 318	Украины
+T60	EVENT 334 350	подал в отставку
+T61	EVENT 771 779	отставка
+T62	CITY 971 980	киевскому
+T63	CITY 882 885	мск
+T64	CITY 996 999	мск
+T65	EVENT 1017 1025	отставка
+T68	ORGANIZATION 1263 1321	Винницкого городского совета по избирательному округу № 29
+T69	PROFESSION 1253 1321	депутатом Винницкого городского совета по избирательному округу № 29
+T70	PROFESSION 1327 1449	заместителем главы постоянной депутатской комиссии по вопросам прав человека, законности, депутатской деятельности и этики
+T71	CITY 1591 1601	Винницкого
+T72	ORGANIZATION 1591 1619	Винницкого городского совета
+T73	PROFESSION 1580 1619	секретарем Винницкого городского совета
+T74	ORGANIZATION 1263 1291	Винницкого городского совета
+T75	PROFESSION 1668 1700	городского головы города Винница
+T76	PROFESSION 1756 1773	городским головой
+T77	PROFESSION 1746 1773	Винницким городским головой
+T78	COUNTRY 1838 1845	Украины
+T79	PROFESSION 1817 1845	Вице-премьер министр Украины
+R1	WORKS_AS Arg1:T56 Arg2:T55	
+R2	WORKPLACE Arg1:T56 Arg2:T54	
+R3	WORKPLACE Arg1:T10 Arg2:T9	
+R4	WORKS_AS Arg1:T10 Arg2:T8	
+T80	EVENT 193 201	назначен
+R5	PARTICIPANT_IN Arg1:T10 Arg2:T80	
+R6	POINT_IN_TIME Arg1:T80 Arg2:T4	
+R7	AGENT Arg1:T13 Arg2:T60	
+R8	WORKS_AS Arg1:T13 Arg2:T12	
+R9	POINT_IN_TIME Arg1:T60 Arg2:T11	
+R10	PARTICIPANT_IN Arg1:T22 Arg2:T61	
+R11	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R12	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R13	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R14	DATE_OF_BIRTH Arg1:T31 Arg2:T33	
+R15	PLACE_OF_BIRTH Arg1:T31 Arg2:T34	
+R16	WORKS_AS Arg1:T31 Arg2:T69	
+R17	WORKPLACE Arg1:T31 Arg2:T68	
+R18	WORKS_AS Arg1:T31 Arg2:T39	
+R19	SCHOOLS_ATTENDED Arg1:T31 Arg2:T41	
+R20	WORKS_AS Arg1:T31 Arg2:T73	
+R21	WORKPLACE Arg1:T31 Arg2:T72	
+R22	AGE_IS Arg1:T77 Arg2:T49	
+R23	WORKPLACE Arg1:T55 Arg2:T54	
+R24	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R25	ALTERNATIVE_NAME Arg1:T55 Arg2:T8	
+R26	WORKPLACE Arg1:T8 Arg2:T9	
+R27	WORKPLACE Arg1:T12 Arg2:T59	
+R28	WORKPLACE Arg1:T13 Arg2:T59	
+R29	TAKES_PLACE_IN Arg1:T60 Arg2:T59	
+T66	EVENT 571 611	выходе из состава парламентской коалиции
+R30	AGENT Arg1:T16 Arg2:T66	
+R31	AGENT Arg1:T17 Arg2:T66	
+R32	PARTICIPANT_IN Arg1:T19 Arg2:T66	
+R33	TAKES_PLACE_IN Arg1:T66 Arg2:T59	
+R34	ALTERNATIVE_NAME Arg1:T13 Arg2:T22	
+R35	WORKPLACE Arg1:T73 Arg2:T72	
+R36	HEADQUARTERED_IN Arg1:T72 Arg2:T71	
+R37	WORKPLACE Arg1:T45 Arg2:T47	
+R38	WORKPLACE Arg1:T77 Arg2:T50	
+R39	WORKPLACE Arg1:T79 Arg2:T78	
+R40	WORKS_AS Arg1:T31 Arg2:T73	
+R41	WORKS_AS Arg1:T31 Arg2:T45	
+R42	WORKPLACE Arg1:T31 Arg2:T47	
+R43	WORKS_AS Arg1:T31 Arg2:T77	
+R44	WORKPLACE Arg1:T31 Arg2:T50	
+R45	WORKS_AS Arg1:T31 Arg2:T79	
+R46	WORKPLACE Arg1:T31 Arg2:T78	
+N2	Reference T6 Wikidata:Q704389	Аваков, Арсен Борисович
+N3	Reference T7 Wikidata:Q355	Facebook
+N5	Reference T12 Wikidata:Q1145714	премьер-министр Украины
+N6	Reference T16 Wikidata:Q290441	УДАР
+N7	Reference T17 Wikidata:Q4396	Всеукраинское объединение «Свобода»
+N8	Reference T18 Wikidata:Q45376	Батькивщина
+N10	Reference T20 Wikidata:Q176296	Верховная Рада Украины
+N11	Reference T22 Wikidata:Q471730	Арсений Петрович Яценюк
+N12	Reference T24 Wikidata:Q15850	Александр Валентинович Турчинов
+N13	Reference T27 Wikidata:Q35749	парламент
+N14	Reference T31 Wikidata:Q4150130	Владимир Борисович Гройсман
+N15	Reference T37 Wikidata:Q486839	член парламента
+N17	Reference T41 Wikidata:Q2493687	Межрегиональная академия управления персоналом
+N20	Reference T47 Wikidata:Q157144	Винница
+N21	Reference T56 Wikidata:Q4150130	Владимир Борисович Гройсман
+N23	Reference T58 Wikidata:Q14212	премьер-министр
+N24	Reference T59 Wikidata:Q212	Украина
+N26	Reference T64 Wikidata:Q842320	московское время
+N32	Reference T76 Wikidata:Q4145633	городской голова
+N1	Reference T2 Wikidata:NULL	нет данных
+N22	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T8 Wikidata:NULL	нет данных
+N9	Reference T19 Wikidata:NULL	нет данных
+N25	Reference T62 Wikidata:Q1899	Киев
+N34	Reference T74 Wikidata:Q12093353	
+N27	Reference T68 Wikidata:NULL	нет данных
+N28	Reference T69 Wikidata:NULL	нет данных
+N16	Reference T39 Wikidata:NULL	нет данных
+N29	Reference T70 Wikidata:NULL	нет данных
+N30	Reference T71 Wikidata:Q157144	Винница
+N18	Reference T43 Wikidata:Q319544	
+N35	Reference T73 Wikidata:NULL	нет данных
+N31	Reference T75 Wikidata:NULL	нет данных
+N19	Reference T45 Wikidata:NULL	нет данных
+N33	Reference T77 Wikidata:NULL	нет данных
+N36	Reference T52 Wikidata:NULL	нет данных
+N37	Reference T79 Wikidata:NULL	нет данных
+N38	Reference T1 Wikidata:Q704389	Аваков, Арсен Борисович
+N39	Reference T23 Wikidata:Q176296	Верховная Рада Украины
+N40	Reference T13 Wikidata:Q471730	Арсений Петрович Яценюк
+N41	Reference T32 Wikidata:Q4150130	Владимир Борисович Гройсман
+N42	Reference T34 Wikidata:Q157144	Винница
+N43	Reference T10 Wikidata:Q4150130	Владимир Борисович Гройсман
+N44	Reference T57 Wikidata:Q4150130	Владимир Борисович Гройсман
+N45	Reference T9 Wikidata:Q212	Украина
+N46	Reference T54 Wikidata:Q212	Украина
+N47	Reference T78 Wikidata:Q212	Украина
+N48	Reference T63 Wikidata:Q842320	московское время
+N49	Reference T46 Wikidata:Q4145633	городской голова
+N50	Reference T55 Wikidata:NULL	нет данных
+N51	Reference T72 Wikidata:Q12093353	
+N52	Reference T38 Wikidata:Q157144	Винница
+N53	Reference T50 Wikidata:Q157144	Винница
+T3	EVENT 1104 1111	родился
+R47	PARTICIPANT_IN Arg1:T31 Arg2:T3	
+R48	POINT_IN_TIME Arg1:T3 Arg2:T33	
+R49	TAKES_PLACE_IN Arg1:T3 Arg2:T34	

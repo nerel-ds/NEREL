@@ -1,0 +1,150 @@
+T1	PROFESSION 16 46	лидера "Октябрьского джамаата"
+T2	ORGANIZATION 24 45	Октябрьского джамаата
+T3	ORGANIZATION 94 113	Октябрьский джамаат
+T4	STATE_OR_PROVINCE 117 125	Башкирии
+T5	PERSON 135 152	Ильнур Шакирьянов
+T6	ORGANIZATION 164 175	Коммерсантъ
+T8	DATE 326 337	В 2004 году
+T9	DATE 358 368	трем годам
+T11	CITY 439 450	Октябрьский
+T12	ORGANIZATION 570 584	Хизб ут-Тахрир
+T13	COUNTRY 597 603	России
+T14	PERSON 631 645	Рустем Шакиров
+T15	PROFESSION 647 651	имам
+T16	PERSON 685 695	Шакирьянов
+T17	ORGANIZATION 705 716	Коммерсанту
+T18	DATE 751 761	около года
+T19	ORGANIZATION 804 814	Интерфакса
+T20	PERSON 817 827	Шакирьянов
+T21	CITY 937 944	Беслане
+T22	PERSON 972 983	Шакирьянова
+T23	DATE 999 1018	8 февраля 2011 года
+T25	CITY 1121 1132	Октябрьском
+T26	PERSON 1482 1493	Шакирьянова
+T27	ORGANIZATION 1515 1529	Имарата Кавказ
+T28	PERSON 1590 1603	Доку Умаровым
+T29	CITY 1661 1672	Октябрьском
+T30	DATE 1733 1751	в ноябре 2010 года
+T31	AGE 1759 1768	18-летний
+T32	PERSON 1777 1791	Альмир Бадыков
+T33	IDEOLOGY 56 68	исламистской
+T34	IDEOLOGY 69 80	радикальной
+T35	DATE 945 956	в 2004 году
+T36	PROFESSION 1042 1049	токарем
+T7	ORGANIZATION 1430 1433	ОВД
+T24	FACILITY 1414 1433	здания местного ОВД
+T37	LOCATION 1564 1580	северокавказских
+T38	IDEOLOGY 1605 1614	Исламисты
+T39	PROFESSION 1801 1812	милиционера
+T40	DISEASE 1906 1917	шизофренией
+R1	IDEOLOGY_OF Arg1:T3 Arg2:T33	
+R2	IDEOLOGY_OF Arg1:T3 Arg2:T34	
+R3	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+T41	CRIME 380 413	изготовление взрывного устройства
+T42	CRIME 416 429	подрыв мечети
+T43	PENALTY 358 376	трем годам колонии
+R4	MEMBER_OF Arg1:T5 Arg2:T12	
+T44	PROFESSION 647 658	имам мечети
+R5	WORKS_AS Arg1:T14 Arg2:T44	
+T10	EVENT 921 944	захвате школы в Беслане
+T45	EVENT 921 934	захвате школы
+R8	WORKS_AS Arg1:T22 Arg2:T36	
+T46	PROFESSION 1556 1589	лидеров северокавказских боевиков
+R9	WORKS_AS Arg1:T28 Arg2:T46	
+R10	WORKPLACE Arg1:T28 Arg2:T27	
+R11	AGE_IS Arg1:T32 Arg2:T31	
+R12	MEDICAL_CONDITION Arg1:T32 Arg2:T40	
+R13	WORKPLACE Arg1:T1 Arg2:T2	
+R14	ALTERNATIVE_NAME Arg1:T5 Arg2:T16	
+T47	PROFESSION 1154 1182	сотрудник страховой компании
+T48	PROFESSION 1184 1191	связист
+T49	PROFESSION 1244 1281	сотрудники правоохранительных органов
+R15	WORKPLACE Arg1:T5 Arg2:T3	
+T50	EVENT 345 355	приговорен
+R16	PARTICIPANT_IN Arg1:T5 Arg2:T50	
+R17	POINT_IN_TIME Arg1:T50 Arg2:T8	
+T51	EVENT 961 971	задержании
+R18	PARTICIPANT_IN Arg1:T22 Arg2:T51	
+R19	POINT_IN_TIME Arg1:T51 Arg2:T23	
+T52	EVENT 1144 1153	задержаны
+R20	TAKES_PLACE_IN Arg1:T52 Arg2:T25	
+R21	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R22	PARTICIPANT_IN Arg1:T47 Arg2:T52	
+R23	PARTICIPANT_IN Arg1:T48 Arg2:T52	
+T53	EVENT 1237 1243	обыске
+R24	AGENT Arg1:T49 Arg2:T53	
+T54	ORGANIZATION 1470 1493	группировка Шакирьянова
+R25	IDEOLOGY_OF Arg1:T54 Arg2:T38	
+R26	IDEOLOGY_OF Arg1:T27 Arg2:T38	
+R27	IDEOLOGY_OF Arg1:T28 Arg2:T38	
+T55	LOCATION 1523 1529	Кавказ
+T56	EVENT 1723 1732	инциденту
+R28	POINT_IN_TIME Arg1:T56 Arg2:T30	
+R29	TAKES_PLACE_IN Arg1:T56 Arg2:T29	
+T57	EVENT 1792 1797	напал
+R30	AGENT Arg1:T32 Arg2:T57	
+R31	PARTICIPANT_IN Arg1:T39 Arg2:T57	
+R32	ALTERNATIVE_NAME Arg1:T56 Arg2:T57	
+R33	IDEOLOGY_OF Arg1:T32 Arg2:T38	
+R34	PENALIZED_AS Arg1:T5 Arg2:T43	
+R35	CONVICTED_OF Arg1:T5 Arg2:T41	
+R36	CONVICTED_OF Arg1:T5 Arg2:T42	
+R37	TAKES_PLACE_IN Arg1:T42 Arg2:T11	
+R38	TAKES_PLACE_IN Arg1:T41 Arg2:T11	
+T58	PROFESSION 48 114	Лидером исламистской радикальной группировки "Октябрьский джамаат"
+R39	WORKS_AS Arg1:T5 Arg2:T58	
+R40	WORKPLACE Arg1:T58 Arg2:T3	
+R41	HAS_CAUSE Arg1:T50 Arg2:T41	
+R42	HAS_CAUSE Arg1:T50 Arg2:T42	
+T59	PENALTY 743 750	колонии
+R43	PENALIZED_AS Arg1:T16 Arg2:T59	
+T60	PROFESSION 1100 1118	лидером "джамаата"
+R44	WORKS_AS Arg1:T22 Arg2:T60	
+R45	PARTICIPANT_IN Arg1:T60 Arg2:T52	
+R46	PARTICIPANT_IN Arg1:T60 Arg2:T53	
+R47	PARTICIPANT_IN Arg1:T47 Arg2:T53	
+R48	PARTICIPANT_IN Arg1:T48 Arg2:T53	
+R49	FOUNDED_BY Arg1:T54 Arg2:T26	
+R50	HEADQUARTERED_IN Arg1:T27 Arg2:T55	
+R51	PART_OF Arg1:T54 Arg2:T27	
+R52	LOCATED_IN Arg1:T37 Arg2:T55	
+R53	PARTICIPANT_IN Arg1:T38 Arg2:T56	
+R6	TAKES_PLACE_IN Arg1:T10 Arg2:T21	
+R7	POINT_IN_TIME Arg1:T10 Arg2:T35	
+N4	Reference T4 Wikidata:Q5710	Республика Башкортостан
+N6	Reference T6 Wikidata:Q1780189	Коммерсантъ
+N8	Reference T12 Wikidata:Q493302	Хизб ут-Тахрир аль-Ислами
+N9	Reference T13 Wikidata:Q159	Россия
+N11	Reference T15 Wikidata:Q125482	имам
+N12	Reference T17 Wikidata:Q1780189	Коммерсантъ
+N13	Reference T19 Wikidata:Q379271	Интерфакс
+N14	Reference T21 Wikidata:Q105035	Беслан
+N16	Reference T27 Wikidata:Q58826	Кавказский эмират
+N17	Reference T28 Wikidata:Q58813	Доку Хаматович Умаров
+N19	Reference T36 Wikidata:Q196721	токарь
+N27	Reference T48 Wikidata:Q912310	радисты-шифровальщики
+N29	Reference T55 Wikidata:Q18869	Кавказ
+N1	Reference T1 Wikidata:NULL	нет данных
+N2	Reference T2 Wikidata:NULL	нет данных
+N30	Reference T58 Wikidata:NULL	нет данных
+N3	Reference T3 Wikidata:NULL	нет данных
+N5	Reference T5 Wikidata:NULL	нет данных
+N7	Reference T11 Wikidata:Q176325	
+N10	Reference T14 Wikidata:NULL	нет данных
+N24	Reference T44 Wikidata:Q125482	имам
+N15	Reference T22 Wikidata:NULL	нет данных
+N31	Reference T60 Wikidata:NULL	нет данных
+N26	Reference T47 Wikidata:NULL	нет данных
+N32	Reference T49 Wikidata:Q6503343	
+N21	Reference T24 Wikidata:NULL	нет данных
+N20	Reference T7 Wikidata:NULL	нет данных
+N28	Reference T54 Wikidata:NULL	нет данных
+N25	Reference T46 Wikidata:NULL	нет данных
+N18	Reference T32 Wikidata:NULL	нет данных
+N23	Reference T39 Wikidata:Q60032090	
+N22	Reference T37 Wikidata:Q37736	Северный Кавказ
+N33	Reference T20 Wikidata:NULL	нет данных
+N34	Reference T16 Wikidata:NULL	нет данных
+N35	Reference T29 Wikidata:Q176325	
+N36	Reference T25 Wikidata:Q176325	
+N37	Reference T26 Wikidata:NULL	нет данных

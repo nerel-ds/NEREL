@@ -1,0 +1,231 @@
+T1	PERSON 10 26	Алишера Усманова
+T2	EVENT 38 41	ДТП
+T3	CITY 49 56	Ташкент
+T4	PRODUCT 67 79	Ford Mustang
+T5	DATE 80 95	8 мая 2013 года
+T6	CITY 121 129	Ташкенте
+T7	NATIONALITY 146 157	российского
+T8	PERSON 170 186	Алишера Усманова
+T9	AGE 187 196	29-летний
+T10	PERSON 197 210	Бабур Усманов
+T11	TIME 293 305	около 5 утра
+T12	FACILITY 334 341	Восторг
+T13	ORGANIZATION 359 394	Национальной библиотеки Узбекистана
+T14	FACILITY 413 424	улице Навои
+T15	DISTRICT 427 446	Юнусабадском районе
+T16	PRODUCT 475 488	Форда Мустанг
+T17	PERSON 585 598	Бабур Усманов
+T18	PERSON 639 666	Юлдашева Кристина Камиловна
+T19	PERSON 692 697	Бабур
+T20	PERSON 723 736	Бабур Усманов
+T21	TIME 751 770	вечером того же дня
+T22	FACILITY 807 812	Минор
+T23	PERSON 831 845	Алишер Усманов
+T24	CITY 873 879	Москвы
+T25	CITY 882 889	Ташкент
+T26	PERSON 901 914	Бабур Усманов
+T27	DATE 915 926	с 2009 года
+T28	PROFESSION 951 979	премьер-министра Узбекистана
+T29	COUNTRY 968 979	Узбекистана
+T30	PERSON 980 997	Шавката Мирзиеева
+T31	COUNTRY 1038 1047	Швейцарии
+T32	PERSON 1064 1069	Бабур
+T33	COUNTRY 1081 1091	Узбекистан
+T34	COUNTRY 1095 1104	Швейцарии
+T35	DATE 1172 1178	11 мая
+T36	AGE 1181 1190	29-летний
+T37	PERSON 1191 1204	Бабур Усманов
+T38	COUNTRY 1256 1262	России
+T39	COUNTRY 1265 1279	Великобритании
+T40	PERSON 1280 1296	Алишера Усманова
+T41	PERSON 1338 1349	Антон Винер
+T42	PROFESSION 1371 1431	главного тренера сборной России по художественной гимнастике
+T43	PERSON 1432 1443	Ирины Винер
+T44	DATE 1445 1454	Год назад
+T45	ORGANIZATION 1770 1779	Bloomberg
+T46	DATE 1780 1791	на 2013 год
+T47	PERSON 1803 1819	Алишера Усманова
+T48	MONEY 1834 1854	18 млрд долларов США
+T49	ORDINAL 1874 1878	40-е
+T50	ORGANIZATION 1919 1928	Bloomberg
+T51	DATE 1930 1941	В 2013 года
+T52	MONEY 1984 2006	17,6 млрд долларов США
+T53	ORDINAL 2024 2026	34
+T54	DATE 2051 2069	В апреле 2013 года
+T55	ORGANIZATION 2088 2100	Sunday Times
+T56	PERSON 2111 2119	Усманова
+T57	ORDINAL 2123 2129	первое
+T58	COUNTRY 2164 2178	Великобритании
+T59	MONEY 2194 2216	20,3 млрд долларов США
+T60	PERSON 2224 2231	Усманов
+T61	DATE 2239 2248	год назад
+T62	ORGANIZATION 2286 2292	Forbes
+T63	COUNTRY 2323 2329	России
+T64	DATE 2364 2375	в 2013 году
+T65	MONEY 2386 2408	17,6 млрд долларов США
+T66	MONEY 2416 2438	18,1 млрд долларов США
+T67	DATE 2439 2450	годом ранее
+T68	EVENT 27 35	разбился
+T69	EVENT 98 118	автомобильной аварии
+T70	EVENT 130 135	погиб
+T71	PROFESSION 249 264	предпринимателя
+T72	EVENT 276 282	авария
+T73	COUNTRY 383 394	Узбекистана
+T74	FACILITY 352 394	здания Национальной библиотеки Узбекистана
+T76	EVENT 713 720	погибли
+T77	EVENT 741 750	похоронен
+T79	PROFESSION 951 967	премьер-министра
+T83	PERSON 1359 1367	Усманова
+T85	PROFESSION 1380 1387	тренера
+T86	ORGANIZATION 1388 1431	сборной России по художественной гимнастике
+T88	COUNTRY 1396 1402	России
+T89	PERSON 1455 1469	Алишер Усманов
+T90	PROFESSION 1494 1505	журналистов
+T91	DATE 759 770	того же дня
+T87	COUNTRY 1851 1854	США
+T92	ORGANIZATION 1942 1948	Forbes
+T93	COUNTRY 2003 2006	США
+T94	COUNTRY 2070 2080	британская
+T95	COUNTRY 2213 2216	США
+T96	COUNTRY 2405 2408	США
+T97	COUNTRY 2435 2438	США
+R1	SUBEVENT_OF Arg1:T68 Arg2:T2	
+R2	AGE_DIED_AT Arg1:T10 Arg2:T9	
+R3	RELATIVE Arg1:T8 Arg2:T10	
+R4	RELATIVE Arg1:T10 Arg2:T8	
+R5	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R6	PARTICIPANT_IN Arg1:T10 Arg2:T70	
+R7	PARTICIPANT_IN Arg1:T10 Arg2:T69	
+R8	TAKES_PLACE_IN Arg1:T70 Arg2:T6	
+R9	POINT_IN_TIME Arg1:T69 Arg2:T5	
+R10	TAKES_PLACE_IN Arg1:T69 Arg2:T6	
+R11	POINT_IN_TIME Arg1:T70 Arg2:T5	
+R12	PLACE_OF_DEATH Arg1:T10 Arg2:T6	
+R13	DATE_OF_DEATH Arg1:T10 Arg2:T5	
+R14	WORKS_AS Arg1:T8 Arg2:T71	
+R15	ALTERNATIVE_NAME Arg1:T69 Arg2:T72	
+R16	POINT_IN_TIME Arg1:T72 Arg2:T11	
+T98	EVENT 540 561	врезался в ограждение
+R17	LOCATED_IN Arg1:T14 Arg2:T15	
+R18	LOCATED_IN Arg1:T15 Arg2:T6	
+R19	HEADQUARTERED_IN Arg1:T13 Arg2:T73	
+R20	OWNER_OF Arg1:T13 Arg2:T74	
+R21	LOCATED_IN Arg1:T74 Arg2:T14	
+R22	LOCATED_IN Arg1:T12 Arg2:T14	
+T99	PERSON 419 424	Навои
+R23	KNOWS Arg1:T17 Arg2:T18	
+R24	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+R25	LOCATED_IN Arg1:T15 Arg2:T6	
+R26	ALTERNATIVE_NAME Arg1:T72 Arg2:T98	
+R27	PARTICIPANT_IN Arg1:T17 Arg2:T98	
+R28	POINT_IN_TIME Arg1:T77 Arg2:T21	
+T75	CITY 786 797	ташкентском
+R29	ALTERNATIVE_NAME Arg1:T6 Arg2:T75	
+R30	LOCATED_IN Arg1:T22 Arg2:T75	
+R31	ALTERNATIVE_NAME Arg1:T75 Arg2:T25	
+R32	RELATIVE Arg1:T26 Arg2:T30	
+R33	WORKS_AS Arg1:T30 Arg2:T28	
+R34	WORKPLACE Arg1:T30 Arg2:T29	
+R35	WORKPLACE Arg1:T28 Arg2:T29	
+R36	PLACE_RESIDES_IN Arg1:T26 Arg2:T31	
+R37	AGE_IS Arg1:T37 Arg2:T36	
+R38	OWNER_OF Arg1:T47 Arg2:T48	
+R39	OWNER_OF Arg1:T47 Arg2:T52	
+T78	PROFESSION 1966 1981	предпринимателя
+R40	WORKS_AS Arg1:T47 Arg2:T78	
+R41	ALTERNATIVE_NAME Arg1:T47 Arg2:T56	
+R42	ORIGINS_FROM Arg1:T60 Arg2:T63	
+R43	ORIGINS_FROM Arg1:T56 Arg2:T58	
+R44	HEADQUARTERED_IN Arg1:T55 Arg2:T94	
+R45	OWNER_OF Arg1:T56 Arg2:T59	
+R46	OWNER_OF Arg1:T60 Arg2:T65	
+R47	OWNER_OF Arg1:T60 Arg2:T97	
+R48	RELATIVE Arg1:T37 Arg2:T40	
+R49	ORIGINS_FROM Arg1:T40 Arg2:T39	
+R50	ORIGINS_FROM Arg1:T40 Arg2:T38	
+R51	HEADQUARTERED_IN Arg1:T86 Arg2:T88	
+T80	PROFESSION 1371 1387	главного тренера
+R52	WORKS_AS Arg1:T43 Arg2:T42	
+R53	WORKPLACE Arg1:T43 Arg2:T86	
+R54	RELATIVE Arg1:T41 Arg2:T83	
+R55	PARENT_OF Arg1:T43 Arg2:T41	
+R56	SPOUSE Arg1:T83 Arg2:T43	
+T81	EVENT 1070 1078	прилетел
+R57	ALTERNATIVE_NAME Arg1:T26 Arg2:T32	
+R58	AGENT Arg1:T32 Arg2:T81	
+R59	TAKES_PLACE_IN Arg1:T81 Arg2:T33	
+R60	TAKES_PLACE_IN Arg1:T81 Arg2:T34	
+R61	ALTERNATIVE_NAME Arg1:T68 Arg2:T70	
+R62	ALTERNATIVE_NAME Arg1:T2 Arg2:T69	
+R63	INANIMATE_INVOLVED Arg1:T20 Arg2:T77	
+R64	WORKS_AS Arg1:T8 Arg2:T71	
+R65	INANIMATE_INVOLVED Arg1:T16 Arg2:T98	
+R66	PARTICIPANT_IN Arg1:T18 Arg2:T98	
+R67	PARTICIPANT_IN Arg1:T19 Arg2:T76	
+R68	TAKES_PLACE_IN Arg1:T77 Arg2:T22	
+R69	ALTERNATIVE_NAME Arg1:T94 Arg2:T58	
+N1	Reference T4 Wikidata:Q183476	Ford Mustang
+N2	Reference T7 Wikidata:Q159	Россия
+N4	Reference T13 Wikidata:Q18069714	Национальная библиотека Узбекистана имени Алишера Навои
+N7	Reference T16 Wikidata:Q183476	Ford Mustang
+N11	Reference T24 Wikidata:Q649	Москва
+N12	Reference T25 Wikidata:Q269	Ташкент
+N14	Reference T28 Wikidata:Q1348717	премьер-министр Узбекистана
+N15	Reference T30 Wikidata:Q57808	Шавкат Миромонович Мирзиёев
+N16	Reference T31 Wikidata:Q39	Швейцария
+N17	Reference T33 Wikidata:Q265	Узбекистан
+N20	Reference T43 Wikidata:Q2288379	Ирина Александровна Винер-Усманова
+N21	Reference T50 Wikidata:Q13977	Bloomberg
+N22	Reference T55 Wikidata:Q221986	The Sunday Times
+N23	Reference T58 Wikidata:Q145	Великобритания
+N24	Reference T62 Wikidata:Q25161472	Форбс
+N25	Reference T71 Wikidata:Q131524	предприниматель
+N27	Reference T79 Wikidata:Q14212	премьер-министр
+N28	Reference T85 Wikidata:Q41583	тренер
+N30	Reference T88 Wikidata:Q159	Россия
+N31	Reference T89 Wikidata:Q503147	Алишер Бурханович Усманов
+N32	Reference T90 Wikidata:Q1930187	журналист
+N33	Reference T97 Wikidata:Q30	США
+N3	Reference T12 Wikidata:NULL	нет данных
+N26	Reference T74 Wikidata:NULL	нет данных
+N34	Reference T99 Wikidata:Q503340	Алишер Навои
+N5	Reference T14 Wikidata:Q20536329	
+N6	Reference T15 Wikidata:Q8061403	
+N8	Reference T18 Wikidata:NULL	нет данных
+N9	Reference T19 Wikidata:NULL	нет данных
+N10	Reference T22 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:NULL	нет данных
+N18	Reference T41 Wikidata:NULL	нет данных
+N35	Reference T80 Wikidata:Q3246315	
+N29	Reference T86 Wikidata:NULL	нет данных
+N19	Reference T42 Wikidata:NULL	нет данных
+N36	Reference T75 Wikidata:Q269	Ташкент
+N37	Reference T6 Wikidata:Q269	Ташкент
+N38	Reference T3 Wikidata:Q269	Ташкент
+N39	Reference T34 Wikidata:Q39	Швейцария
+N40	Reference T73 Wikidata:Q265	Узбекистан
+N41	Reference T29 Wikidata:Q265	Узбекистан
+N42	Reference T45 Wikidata:Q13977	Bloomberg
+N43	Reference T39 Wikidata:Q145	Великобритания
+N44	Reference T94 Wikidata:Q145	Великобритания
+N45	Reference T92 Wikidata:Q25161472	Форбс
+N46	Reference T78 Wikidata:Q131524	предприниматель
+N47	Reference T63 Wikidata:Q159	Россия
+N48	Reference T38 Wikidata:Q159	Россия
+N49	Reference T40 Wikidata:Q503147	Алишер Бурханович Усманов
+N50	Reference T8 Wikidata:Q503147	Алишер Бурханович Усманов
+N51	Reference T56 Wikidata:Q503147	Алишер Бурханович Усманов
+N52	Reference T23 Wikidata:Q503147	Алишер Бурханович Усманов
+N53	Reference T83 Wikidata:Q503147	Алишер Бурханович Усманов
+N54	Reference T60 Wikidata:Q503147	Алишер Бурханович Усманов
+N55	Reference T47 Wikidata:Q503147	Алишер Бурханович Усманов
+N56	Reference T1 Wikidata:Q503147	Алишер Бурханович Усманов
+N57	Reference T87 Wikidata:Q30	США
+N58	Reference T96 Wikidata:Q30	США
+N59	Reference T95 Wikidata:Q30	США
+N60	Reference T93 Wikidata:Q30	США
+N61	Reference T17 Wikidata:NULL	нет данных
+N62	Reference T10 Wikidata:NULL	нет данных
+N63	Reference T20 Wikidata:NULL	нет данных
+N64	Reference T37 Wikidata:NULL	нет данных
+N65	Reference T32 Wikidata:NULL	нет данных

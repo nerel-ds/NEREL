@@ -1,0 +1,199 @@
+T1	PERSON 15 27	Пиотровского
+T2	CITY 48 58	Петербурге
+T3	PERSON 59 75	Юрий Пиотровский
+T4	DATE 76 94	19 марта 2013 года
+T5	AGE 270 280	62-летнего
+T6	CITY 296 303	Мюнхене
+T7	PERSON 316 333	Юрия Пиотровского
+T8	DATE 343 364	16 сентября 2012 года
+T9	WORK_OF_ART 388 406	Рождество Христово
+T10	FACILITY 453 475	храма Христа Спасителя
+T11	PROFESSION 478 486	Прокурор
+T12	PERSON 561 573	Пиотровского
+T14	CITY 630 646	Санкт-Петербурге
+T16	PERSON 984 1000	Юрий Пиотровский
+T17	NUMBER 1358 1360	14
+T18	PROFESSION 1512 1529	представитель РПЦ
+T19	ORGANIZATION 1548 1554	Церкви
+T20	PROFESSION 1654 1667	Защитник Юрия
+T21	PERSON 1777 1788	Пиотровский
+T22	ORGANIZATION 1858 1885	русского культурного центра
+T23	PROFESSION 1999 2004	судья
+T24	PERSON 2005 2020	Карина Морозова
+T25	PERSON 2030 2047	Юрия Пиотровского
+T26	LAW 2060 2078	ч. 2 ст. 214 УК РФ
+T27	CRIME 2081 2145	Вандализм, совершенный по мотивам религиозной ненависти и вражды
+T29	DATE 2240 2243	год
+T30	CITY 2270 2286	Санкт-Петербурге
+T31	DATE 2409 2422	шесть месяцев
+T32	LAW 2442 2459	ч. 3 ст. 72 УК РФ
+T33	DATE 2490 2499	один день
+T35	DATE 2524 2531	два дня
+T36	PERSON 2565 2577	Пиотровскому
+T37	PERSON 2640 2644	Юрия
+T38	PENALTY 30 45	году проживания
+T39	ORGANIZATION 95 152	мировой судебный участок 363 Хамовнического района Москвы
+T42	DISTRICT 124 145	Хамовнического района
+T43	CITY 146 152	Москвы
+T44	ORDINAL 120 123	363
+T45	ORGANIZATION 95 123	мировой судебный участок 363
+T47	PRODUCT 260 269	Википедии
+T49	WORK_OF_ART 411 431	Господь Вседержитель
+T50	PERSON 459 475	Христа Спасителя
+T52	PENALTY 803 813	заключению
+T53	PENALTY 862 893	ограничения свободы на два года
+T54	RELIGION 968 981	христианством
+T55	RELIGION 694 706	христианские
+T56	CRIME 1026 1041	акте вандализма
+T57	PROFESSION 1202 1211	патриарху
+T58	ORGANIZATION 1526 1529	РПЦ
+T59	PERSON 1590 1597	Господь
+T60	PENALTY 1632 1651	ограничения свободы
+T61	PERSON 1663 1667	Юрия
+T62	PROFESSION 1654 1662	Защитник
+T63	NATIONALITY 1858 1866	русского
+T64	CRIME 1924 1938	акт вандализма
+T65	LAW 2073 2078	УК РФ
+T66	LAW 2065 2078	ст. 214 УК РФ
+T67	LAW 2073 2075	УК
+T68	COUNTRY 2076 2078	РФ
+T28	PENALTY 2177 2229	одного года ограничения свободы по месту регистрации
+T71	ORGANIZATION 2425 2429	СИЗО
+T72	LAW 2454 2456	УК
+T73	LAW 2454 2459	УК РФ
+T74	LAW 2447 2459	ст. 72 УК РФ
+T75	COUNTRY 2457 2459	РФ
+T77	ORGANIZATION 2502 2506	СИЗО
+T79	DATE 2578 2581	год
+T80	PENALTY 2578 2601	год ограничения свободы
+R1	PENALIZED_AS Arg1:T1 Arg2:T38	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R3	LOCATED_IN Arg1:T1 Arg2:T2	
+R4	LOCATED_IN Arg1:T42 Arg2:T43	
+R5	HEADQUARTERED_IN Arg1:T39 Arg2:T42	
+R6	PLACE_RESIDES_IN Arg1:T7 Arg2:T6	
+R7	AGE_IS Arg1:T7 Arg2:T5	
+T40	EVENT 365 386	облил чернилами иконы
+R8	POINT_IN_TIME Arg1:T40 Arg2:T8	
+R9	AGENT Arg1:T7 Arg2:T40	
+R10	INANIMATE_INVOLVED Arg1:T9 Arg2:T40	
+R11	INANIMATE_INVOLVED Arg1:T49 Arg2:T40	
+R12	ORIGINS_FROM Arg1:T10 Arg2:T50	
+R13	PART_OF Arg1:T49 Arg2:T10	
+R14	PART_OF Arg1:T9 Arg2:T10	
+R15	TAKES_PLACE_IN Arg1:T40 Arg2:T10	
+T41	EVENT 170 185	рассмотрел дело
+R16	AGENT Arg1:T39 Arg2:T41	
+R17	POINT_IN_TIME Arg1:T41 Arg2:T4	
+R18	PARTICIPANT_IN Arg1:T7 Arg2:T41	
+R19	HAS_CAUSE Arg1:T41 Arg2:T40	
+R20	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+T46	DATE 30 34	году
+T48	PENALTY 576 606	двум годам ограничения свободы
+T51	PENALTY 576 627	двум годам ограничения свободы по месту регистрации
+R21	PENALIZED_AS Arg1:T12 Arg2:T51	
+R22	LOCATED_IN Arg1:T12 Arg2:T14	
+T15	DATE 882 893	на два года
+T13	DATE 576 586	двум годам
+R23	ALTERNATIVE_NAME Arg1:T48 Arg2:T53	
+R24	ALTERNATIVE_NAME Arg1:T55 Arg2:T54	
+T81	EVENT 1011 1023	признал вину
+R25	HAS_CAUSE Arg1:T81 Arg2:T56	
+R26	CONVICTED_OF Arg1:T16 Arg2:T56	
+R27	PARTICIPANT_IN Arg1:T16 Arg2:T81	
+R28	WORKPLACE Arg1:T18 Arg2:T58	
+R29	WORKPLACE Arg1:T57 Arg2:T58	
+R30	SUBORDINATE_OF Arg1:T20 Arg2:T61	
+R31	ALTERNATIVE_NAME Arg1:T61 Arg2:T21	
+R32	CONVICTED_OF Arg1:T21 Arg2:T64	
+R33	WORKS_AS Arg1:T24 Arg2:T23	
+T82	EVENT 2021 2029;2048 2056	признала виновным
+R34	PARTICIPANT_IN Arg1:T24 Arg2:T82	
+R35	PARTICIPANT_IN Arg1:T25 Arg2:T82	
+T83	ORDINAL 2063 2064	2
+T84	ORDINAL 2069 2072	214
+R36	ORIGINS_FROM Arg1:T65 Arg2:T68	
+R37	PART_OF Arg1:T66 Arg2:T65	
+R38	PART_OF Arg1:T26 Arg2:T66	
+R39	CONVICTED_OF Arg1:T25 Arg2:T27	
+T69	DATE 2177 2188	одного года
+R40	PENALIZED_AS Arg1:T25 Arg2:T28	
+T34	ORDINAL 2445 2446	3
+T70	ORDINAL 2451 2453	72
+R41	ORIGINS_FROM Arg1:T73 Arg2:T75	
+R42	PART_OF Arg1:T74 Arg2:T73	
+R43	PART_OF Arg1:T32 Arg2:T74	
+R44	PENALIZED_AS Arg1:T36 Arg2:T80	
+R45	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+T76	EVENT 2645 2667	освободили в зале суда
+R46	PARTICIPANT_IN Arg1:T37 Arg2:T76	
+T85	EVENT 0 14	Суд приговорил
+R47	PARTICIPANT_IN Arg1:T1 Arg2:T85	
+T86	PENALTY 862 881	ограничения свободы
+R48	ABBREVIATION Arg1:T19 Arg2:T58	
+R49	INANIMATE_INVOLVED Arg1:T26 Arg2:T82	
+T87	EVENT 2150 2169	назначила наказание
+R50	AGENT Arg1:T24 Arg2:T87	
+R51	PARTICIPANT_IN Arg1:T25 Arg2:T87	
+R52	HAS_CAUSE Arg1:T87 Arg2:T27	
+T88	PENALTY 2240 2267	год безвыездного проживания
+R53	ALTERNATIVE_NAME Arg1:T28 Arg2:T88	
+T89	PENALTY 2532 2551	ограничения свободы
+T90	PENALTY 2470 2489	ограничения свободы
+T91	CRIME 2081 2090	Вандализм
+T92	PENALTY 587 606	ограничения свободы
+T93	PENALTY 2189 2208	ограничения свободы
+T94	PENALTY 2244 2267	безвыездного проживания
+R54	TAKES_PLACE_IN Arg1:T88 Arg2:T30	
+R55	TAKES_PLACE_IN Arg1:T51 Arg2:T14	
+R56	TAKES_PLACE_IN Arg1:T38 Arg2:T2	
+T78	PENALTY 2582 2601	ограничения свободы
+N1	Reference T2 Wikidata:Q656	Санкт-Петербург
+N2	Reference T6 Wikidata:Q1726	Мюнхен
+N4	Reference T10 Wikidata:Q194474	Храм Христа Спасителя
+N5	Reference T11 Wikidata:Q600751	прокурор
+N9	Reference T23 Wikidata:Q16533	судья
+N12	Reference T30 Wikidata:Q656	Санкт-Петербург
+N16	Reference T42 Wikidata:Q862100	Хамовники
+N17	Reference T43 Wikidata:Q649	Москва
+N19	Reference T47 Wikidata:Q52	Википедия
+N22	Reference T54 Wikidata:Q5043	христианство
+N23	Reference T57 Wikidata:Q171692	патриарх
+N24	Reference T58 Wikidata:Q60995	Русская православная церковь
+N29	Reference T65 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N32	Reference T68 Wikidata:Q159	Россия
+N35	Reference T1 Wikidata:NULL	нет данных
+N14	Reference T37 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:NULL	нет данных
+N18	Reference T45 Wikidata:NULL	нет данных
+N15	Reference T39 Wikidata:NULL	нет данных
+N34	Reference T74 Wikidata:NULL	нет данных
+N13	Reference T32 Wikidata:NULL	нет данных
+N33	Reference T71 Wikidata:Q2945301	следственный изолятор
+N31	Reference T67 Wikidata:Q19705	уголовное законодательство
+N30	Reference T66 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N36	Reference T25 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:NULL	нет данных
+N28	Reference T63 Wikidata:Q49542	русские
+N26	Reference T61 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:NULL	нет данных
+N27	Reference T62 Wikidata:Q512345	Защитник в уголовном процессе
+N7	Reference T20 Wikidata:NULL	нет данных
+N21	Reference T50 Wikidata:Q302	Иисус Христос
+N25	Reference T59 Wikidata:Q190	Бог
+N3	Reference T9 Wikidata:NULL	нет данных
+N20	Reference T49 Wikidata:NULL	нет данных
+N37	Reference T14 Wikidata:Q656	Санкт-Петербург
+N38	Reference T55 Wikidata:Q5043	христианство
+N39	Reference T19 Wikidata:Q60995	Русская православная церковь
+N40	Reference T73 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N41	Reference T75 Wikidata:Q159	Россия
+N42	Reference T3 Wikidata:NULL	нет данных
+N43	Reference T36 Wikidata:NULL	нет данных
+N44	Reference T77 Wikidata:Q2945301	следственный изолятор
+N45	Reference T72 Wikidata:Q19705	уголовное законодательство
+N46	Reference T7 Wikidata:NULL	нет данных
+N47	Reference T16 Wikidata:NULL	нет данных
+N48	Reference T12 Wikidata:NULL	нет данных
+N49	Reference T21 Wikidata:NULL	нет данных

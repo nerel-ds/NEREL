@@ -1,0 +1,196 @@
+T1	PERSON 0 5	Обама
+T2	ORGANIZATION 17 30	Верховный суд
+T3	PROFESSION 48 57	Президент
+T4	PERSON 62 73	Барак Обама
+T5	PROFESSION 118 123	судью
+T6	ORGANIZATION 137 156	апелляционного суда
+T7	PERSON 157 171	Соню Сотомайор
+T8	PERSON 173 188	Sonia Sotomayor
+T9	ORGANIZATION 200 216	Associated Press
+T10	ORGANIZATION 254 261	Сенатом
+T11	PERSON 263 272	Сотомайор
+T12	ORDINAL 280 286	первым
+T14	AGE 444 453	54-летняя
+T15	NUMBER 483 487	одно
+T16	NUMBER 491 497	девяти
+T17	ORGANIZATION 505 519	Верховном суде
+T18	DATE 535 541	19 лет
+T19	PERSON 558 570	Дэвид Саутер
+T20	PERSON 572 584	David Souter
+T21	PERSON 609 614	Обамы
+T22	DATE 636 643	вторник
+T23	PROFESSION 672 682	президента
+T24	ORGANIZATION 717 723	Сенате
+T25	PERSON 776 785	Сотомайор
+T26	PERSON 817 826	Сотомайор
+T27	CITY 889 898	Нью-Йорке
+T28	CITY 909 921	Принстонский
+T30	CITY 950 954	Йеле
+T31	PROFESSION 965 975	прокурором
+T32	DATE 1021 1032	в 1992 году
+T33	PROFESSION 1039 1057	федеральным судьей
+T35	DISTRICT 1060 1082	Южном округе Нью-Йорка
+T37	PROFESSION 1109 1118	президент
+T38	PERSON 1133 1151	Джордж Буш-старший
+T41	PERSON 1177 1189	Билл Клинтон
+T42	PERSON 1199 1208	Сотомайор
+T43	ORGANIZATION 1211 1240	федеральный апелляционный суд
+T44	ORGANIZATION 1243 1245	AP
+T45	PERSON 1296 1305	Сотомайор
+T46	ORGANIZATION 1348 1361	Верховный суд
+T47	DATE 1362 1381	за последние 70 лет
+T48	PERSON 1424 1431	Саутера
+T49	PROFESSION 1441 1479	высшего чиновника министерства юстиции
+T50	PERSON 1480 1491	Елену Каган
+T51	PERSON 1493 1504	Elena Kagan
+T52	PROFESSION 1508 1513	судью
+T53	PERSON 1534 1543	Дайан Вуд
+T54	PERSON 1545 1555	Diane Wood
+T55	NATIONALITY 31 47	латиноамериканку
+T56	PROFESSION 48 61	Президент США
+T57	COUNTRY 58 61	США
+T58	ORGANIZATION 124 156	федерального апелляционного суда
+T59	PROFESSION 118 156	судью федерального апелляционного суда
+T60	NATIONALITY 294 313	латиноамериканского
+T62	COUNTRY 354 357	США
+T63	ORGANIZATION 686 708	Демократической партии
+T64	NATIONALITY 865 880	пуэрториканской
+T65	ORGANIZATION 909 933	Принстонский университет
+T36	CITY 1073 1082	Нью-Йорка
+T40	ORGANIZATION 1223 1240	апелляционный суд
+T66	PROFESSION 1327 1334	юристом
+T67	ORGANIZATION 1459 1479	министерства юстиции
+T68	PROFESSION 1449 1458	чиновника
+T69	ORGANIZATION 1514 1533	апелляционного суда
+T70	PROFESSION 1508 1533	судью апелляционного суда
+T13	ORGANIZATION 338 357	Верховного суда США
+R1	WORKS_AS Arg1:T4 Arg2:T56	
+R2	WORKPLACE Arg1:T4 Arg2:T57	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R4	WORKS_AS Arg1:T7 Arg2:T59	
+R5	WORKPLACE Arg1:T7 Arg2:T58	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R7	ORIGINS_FROM Arg1:T7 Arg2:T55	
+T29	EVENT 6 14	назначит
+T34	EVENT 74 82	назначит
+R8	AGENT Arg1:T1 Arg2:T29	
+R9	PARTICIPANT_IN Arg1:T2 Arg2:T29	
+R10	AGENT Arg1:T4 Arg2:T34	
+R11	ALTERNATIVE_NAME Arg1:T29 Arg2:T34	
+R12	WORKPLACE Arg1:T59 Arg2:T58	
+R13	PARTICIPANT_IN Arg1:T7 Arg2:T34	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R15	ORIGINS_FROM Arg1:T11 Arg2:T60	
+R16	ALTERNATIVE_NAME Arg1:T55 Arg2:T60	
+R17	HEADQUARTERED_IN Arg1:T13 Arg2:T62	
+R18	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+T39	PERSON 454 463	Сотомайор
+R19	AGE_IS Arg1:T39 Arg2:T14	
+T61	EVENT 470 479	назначена
+R20	PARTICIPANT_IN Arg1:T39 Arg2:T61	
+R21	PARTICIPANT_IN Arg1:T17 Arg2:T61	
+R22	WORKS_AS Arg1:T21 Arg2:T23	
+R23	MEMBER_OF Arg1:T21 Arg2:T63	
+T71	IDEOLOGY 686 701	Демократической
+R24	IDEOLOGY_OF Arg1:T63 Arg2:T71	
+R25	IDEOLOGY_OF Arg1:T21 Arg2:T71	
+R26	ORIGINS_FROM Arg1:T26 Arg2:T64	
+R27	PLACE_OF_BIRTH Arg1:T26 Arg2:T27	
+T72	ORGANIZATION 936 954	школу права в Йеле
+R28	LOCATED_IN Arg1:T35 Arg2:T36	
+R29	SCHOOLS_ATTENDED Arg1:T26 Arg2:T65	
+R30	SCHOOLS_ATTENDED Arg1:T26 Arg2:T72	
+R31	HEADQUARTERED_IN Arg1:T65 Arg2:T28	
+R32	HEADQUARTERED_IN Arg1:T72 Arg2:T30	
+R33	WORKS_AS Arg1:T26 Arg2:T31	
+R34	WORKS_AS Arg1:T26 Arg2:T33	
+R35	WORKPLACE Arg1:T26 Arg2:T35	
+R36	WORKPLACE Arg1:T33 Arg2:T35	
+T73	IDEOLOGY 1119 1132	республиканец
+T74	IDEOLOGY 1168 1176	демократ
+R37	WORKS_AS Arg1:T38 Arg2:T37	
+R38	IDEOLOGY_OF Arg1:T38 Arg2:T73	
+R39	IDEOLOGY_OF Arg1:T37 Arg2:T73	
+R40	WORKS_AS Arg1:T45 Arg2:T66	
+R41	IDEOLOGY_OF Arg1:T41 Arg2:T74	
+T75	EVENT 1190 1198	назначил
+R42	AGENT Arg1:T41 Arg2:T75	
+R43	PARTICIPANT_IN Arg1:T42 Arg2:T75	
+R44	PARTICIPANT_IN Arg1:T43 Arg2:T75	
+R45	WORKPLACE Arg1:T42 Arg2:T43	
+R46	ALTERNATIVE_NAME Arg1:T50 Arg2:T51	
+R47	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R48	WORKPLACE Arg1:T70 Arg2:T69	
+T76	ORGANIZATION 1459 1471	министерства
+R49	WORKS_AS Arg1:T50 Arg2:T49	
+R50	WORKPLACE Arg1:T49 Arg2:T67	
+R51	PARTICIPANT_IN Arg1:T58 Arg2:T34	
+T77	PROFESSION 287 293	судьей
+R52	WORKS_AS Arg1:T11 Arg2:T77	
+R53	WORKPLACE Arg1:T11 Arg2:T13	
+R54	WORKPLACE Arg1:T77 Arg2:T13	
+R55	WORKPLACE Arg1:T39 Arg2:T17	
+R56	WORKPLACE Arg1:T19 Arg2:T17	
+R57	IDEOLOGY_OF Arg1:T23 Arg2:T71	
+R58	WORKPLACE Arg1:T45 Arg2:T46	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T4 Wikidata:Q76	Барак Обама
+N3	Reference T5 Wikidata:Q16533	судья
+N8	Reference T27 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N10	Reference T30 Wikidata:Q49112	Йельский университет
+N11	Reference T31 Wikidata:Q600751	прокурор
+N13	Reference T38 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N14	Reference T41 Wikidata:Q1124	Билл Клинтон
+N16	Reference T46 Wikidata:Q190752	верховный суд
+N19	Reference T50 Wikidata:Q11105	Елена Каган
+N21	Reference T56 Wikidata:Q11696	президент США
+N22	Reference T57 Wikidata:Q30	США
+N24	Reference T63 Wikidata:Q29552	Демократическая партия
+N26	Reference T65 Wikidata:Q21578	Принстонский университет
+N27	Reference T40 Wikidata:Q4959031	Суд апелляционной инстанции
+N28	Reference T66 Wikidata:Q185351	юрист
+N29	Reference T67 Wikidata:Q1413677	министерство юстиции
+N30	Reference T68 Wikidata:Q382887	чиновник
+N32	Reference T13 Wikidata:Q11201	Верховный суд США
+N33	Reference T76 Wikidata:Q192350	министерство
+N34	Reference T58 Wikidata:Q1641851	
+N4	Reference T9 Wikidata:Q40469	Ассошиэйтед Пресс
+N23	Reference T60 Wikidata:Q12585	Латинская Америка
+N5	Reference T19 Wikidata:NULL	нет данных
+N6	Reference T24 Wikidata:Q66096	Сенат США
+N7	Reference T26 Wikidata:Q11107	
+N25	Reference T64 Wikidata:Q1183	Пуэрто-Рико
+N9	Reference T28 Wikidata:Q3448678	
+N35	Reference T72 Wikidata:Q1143289	Йельская школа права
+N12	Reference T33 Wikidata:Q9298846	
+N36	Reference T35 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:Q40469	Ассошиэйтед Пресс
+N17	Reference T48 Wikidata:NULL	нет данных
+N18	Reference T49 Wikidata:NULL	нет данных
+N31	Reference T70 Wikidata:NULL	нет данных
+N20	Reference T53 Wikidata:Q5271615	
+N37	Reference T23 Wikidata:Q30461	президент
+N38	Reference T37 Wikidata:Q30461	президент
+N39	Reference T1 Wikidata:Q76	Барак Обама
+N40	Reference T21 Wikidata:Q76	Барак Обама
+N41	Reference T52 Wikidata:Q16533	судья
+N42	Reference T77 Wikidata:Q16533	судья
+N43	Reference T36 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N44	Reference T17 Wikidata:Q190752	верховный суд
+N45	Reference T2 Wikidata:Q190752	верховный суд
+N46	Reference T51 Wikidata:Q11105	Елена Каган
+N47	Reference T62 Wikidata:Q30	США
+N48	Reference T6 Wikidata:Q4959031	Суд апелляционной инстанции
+N49	Reference T69 Wikidata:Q4959031	Суд апелляционной инстанции
+N50	Reference T43 Wikidata:Q1641851	
+N51	Reference T55 Wikidata:Q12585	Латинская Америка
+N52	Reference T20 Wikidata:NULL	нет данных
+N53	Reference T10 Wikidata:Q66096	Сенат США
+N54	Reference T45 Wikidata:Q11107	
+N55	Reference T11 Wikidata:Q11107	
+N56	Reference T7 Wikidata:Q11107	
+N57	Reference T42 Wikidata:Q11107	
+N58	Reference T8 Wikidata:Q11107	
+N59	Reference T39 Wikidata:Q11107	
+N60	Reference T25 Wikidata:Q11107	
+N61	Reference T54 Wikidata:Q5271615	

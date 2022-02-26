@@ -1,0 +1,198 @@
+T1	PROFESSION 0 12	Папа Римский
+T3	PROFESSION 34 43	кардинала
+T4	PROFESSION 71 78	Адмирал
+T5	PERSON 102 115	Уильям Фэллон
+T6	PROFESSION 118 126	кардинал
+T8	PROFESSION 216 220	Папа
+T11	PERSON 273 291	Теодора Маккаррика
+T12	DATE 294 310	В июле 2018 года
+T13	PERSON 341 351	Маккаррика
+T14	ORGANIZATION 355 374	Коллегии кардиналов
+T15	DATE 435 456	в течение десятилетий
+T16	COUNTRY 471 479	Ватикана
+T17	DATE 495 513	в январе 2019 года
+T18	ORDINAL 576 582	Шестой
+T20	ORDINAL 797 803	Шестая
+T21	NUMBER 862 868	десяти
+T22	PERSON 1014 1023	Маккаррик
+T23	PERSON 1108 1118	Маккаррика
+T24	COUNTRY 1151 1159	Ватикана
+T25	PERSON 1236 1245	Маккаррик
+T26	DATE 1250 1282	на протяжении многих десятилетий
+T27	ORGANIZATION 1315 1334	Католичеcкой церкви
+T28	COUNTRY 1337 1340	США
+T29	PROFESSION 1366 1377	президентов
+T30	AGE 1380 1389	88-летний
+T31	PERSON 1390 1406	Теодор Маккаррик
+T32	DATE 1440 1451	в 1958 году
+T33	DATE 1453 1464	В 1981 году
+T34	PROFESSION 1481 1490	епископом
+T35	STATE_OR_PROVINCE 1509 1519	Нью-Джерси
+T36	DATE 1523 1534	в 1986 году
+T37	PROFESSION 1581 1593	архиепископа
+T38	DATE 1604 1615	В 2001 году
+T39	PROFESSION 1631 1641	кардиналом
+T2	PROFESSION 34 47	кардинала США
+T40	COUNTRY 44 47	США
+T41	CRIME 51 70	растление мальчиков
+T42	PROFESSION 71 101	Адмирал Военно-морских сил США
+T43	ORGANIZATION 79 101	Военно-морских сил США
+T44	ORGANIZATION 79 97	Военно-морских сил
+T45	COUNTRY 98 101	США
+T46	PERSON 127 143	Теодор Маккаррик
+T47	DATE 145 153	2001 год
+T48	DATE 154 174	16 февраля 2019 года
+T49	COUNTRY 175 182	Ватикан
+T50	PERSON 221 229	Франциск
+T51	PROFESSION 0 4	Папа
+T52	PROFESSION 259 272	кардинала США
+T53	PROFESSION 259 268	кардинала
+T54	COUNTRY 269 272	США
+T55	PROFESSION 311 315	папа
+T56	PERSON 316 324	Франциск
+T57	PROFESSION 364 374	кардиналов
+T58	PROFESSION 422 434	семинаристов
+T59	PROFESSION 1307 1334	лидеров Католичеcкой церкви
+T60	PROFESSION 1360 1363	пап
+T61	PROFESSION 1429 1439	священника
+T62	EVENT 332 340	отставку
+T63	CRIME 393 421	растлении несовершеннолетних
+T64	PERSON 514 524	Маккаррика
+T65	CRIME 545 613	нарушении «таинства исповеди и Шестой Заповеди с несовершеннолетними
+T19	LAW 576 591	Шестой Заповеди
+T68	LAW 797 812	Шестая заповедь
+T70	RELIGION 988 996	иудаизма
+T71	RELIGION 999 1011	христианства
+T72	RELIGION 1315 1327	Католичеcкой
+T76	EVENT 1411 1422	рукоположен
+T77	PROFESSION 1535 1539	Папа
+T78	PERSON 1540 1554	Иоанн Павел II
+T79	ORDINAL 1552 1554	II
+T80	CITY 1594 1601	Ньюарка
+T81	PROFESSION 1581 1601	архиепископа Ньюарка
+T82	PERSON 1616 1625	Маккаррик
+R1	WORKS_AS Arg1:T46 Arg2:T6	
+R2	WORKS_AS Arg1:T56 Arg2:T55	
+R3	WORKPLACE Arg1:T2 Arg2:T40	
+R4	WORKS_AS Arg1:T50 Arg2:T8	
+R5	WORKPLACE Arg1:T52 Arg2:T54	
+R6	WORKS_AS Arg1:T11 Arg2:T52	
+R7	WORKPLACE Arg1:T11 Arg2:T54	
+R8	CONVICTED_OF Arg1:T2 Arg2:T41	
+R9	WORKPLACE Arg1:T59 Arg2:T27	
+R10	RELIGION_OF Arg1:T59 Arg2:T72	
+R11	RELIGION_OF Arg1:T27 Arg2:T72	
+T9	CITY 5 12	Римский
+T10	EVENT 13 33	лишил духовного сана
+R12	AGENT Arg1:T1 Arg2:T10	
+R13	HAS_CAUSE Arg1:T10 Arg2:T41	
+R14	PARTICIPANT_IN Arg1:T2 Arg2:T10	
+R15	HEADQUARTERED_IN Arg1:T43 Arg2:T45	
+R16	WORKPLACE Arg1:T42 Arg2:T43	
+R17	WORKPLACE Arg1:T5 Arg2:T43	
+R18	WORKS_AS Arg1:T5 Arg2:T42	
+R19	WORKPLACE Arg1:T50 Arg2:T49	
+R20	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+T83	EVENT 230 250	лишил духовного сана
+R21	AGENT Arg1:T50 Arg2:T83	
+R22	PARTICIPANT_IN Arg1:T11 Arg2:T83	
+R23	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R24	MEMBER_OF Arg1:T57 Arg2:T14	
+R25	WORKPLACE Arg1:T13 Arg2:T14	
+R26	PARTICIPANT_IN Arg1:T14 Arg2:T62	
+R27	PARTICIPANT_IN Arg1:T56 Arg2:T62	
+R28	POINT_IN_TIME Arg1:T62 Arg2:T12	
+R29	CONVICTED_OF Arg1:T13 Arg2:T63	
+R30	PARTICIPANT_IN Arg1:T58 Arg2:T63	
+R31	HAS_CAUSE Arg1:T62 Arg2:T63	
+R32	CONVICTED_OF Arg1:T64 Arg2:T65	
+R33	WORKPLACE Arg1:T25 Arg2:T27	
+R34	RELIGION_OF Arg1:T25 Arg2:T72	
+R35	WORKS_AS Arg1:T25 Arg2:T59	
+R36	LOCATED_IN Arg1:T27 Arg2:T28	
+R37	WORKPLACE Arg1:T25 Arg2:T28	
+R38	AGE_IS Arg1:T31 Arg2:T30	
+R39	PARTICIPANT_IN Arg1:T31 Arg2:T76	
+R40	POINT_IN_TIME Arg1:T76 Arg2:T32	
+T66	EVENT 1472 1480	назначен
+R41	PARTICIPANT_IN Arg1:T31 Arg2:T66	
+R42	POINT_IN_TIME Arg1:T66 Arg2:T33	
+R43	WORKPLACE Arg1:T34 Arg2:T35	
+R44	WORKS_AS Arg1:T31 Arg2:T34	
+R45	WORKPLACE Arg1:T31 Arg2:T35	
+R46	WORKS_AS Arg1:T78 Arg2:T77	
+T67	EVENT 1555 1563	назначил
+R47	PARTICIPANT_IN Arg1:T78 Arg2:T67	
+R48	PARTICIPANT_IN Arg1:T31 Arg2:T67	
+R49	WORKS_AS Arg1:T31 Arg2:T81	
+R50	WORKPLACE Arg1:T31 Arg2:T80	
+R51	WORKS_AS Arg1:T82 Arg2:T39	
+R52	LOCATED_IN Arg1:T35 Arg2:T28	
+R53	LOCATED_IN Arg1:T80 Arg2:T28	
+R54	WORKPLACE Arg1:T1 Arg2:T9	
+R55	POINT_IN_TIME Arg1:T83 Arg2:T48	
+R56	AGENT Arg1:T13 Arg2:T62	
+R57	POINT_IN_TIME Arg1:T63 Arg2:T15	
+T7	EVENT 525 542	признали виновным
+R58	PARTICIPANT_IN Arg1:T64 Arg2:T7	
+R59	HAS_CAUSE Arg1:T7 Arg2:T65	
+R60	ALTERNATIVE_NAME Arg1:T64 Arg2:T22	
+R61	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R62	PARTICIPANT_IN Arg1:T61 Arg2:T76	
+R63	PARTICIPANT_IN Arg1:T34 Arg2:T66	
+R64	WORKPLACE Arg1:T81 Arg2:T80	
+R65	PARTICIPANT_IN Arg1:T81 Arg2:T67	
+N1	Reference T1 Wikidata:Q19546	Папа Римский
+N2	Reference T3 Wikidata:Q45722	кардинал
+N3	Reference T4 Wikidata:Q132851	адмирал
+N5	Reference T14 Wikidata:Q852242	Коллегия кардиналов
+N6	Reference T22 Wikidata:Q373936	Теодор Маккэррик
+N7	Reference T27 Wikidata:Q9592	католическая церковь
+N8	Reference T28 Wikidata:Q30	США
+N9	Reference T29 Wikidata:Q30461	президент
+N10	Reference T34 Wikidata:Q29182	епископ
+N11	Reference T35 Wikidata:Q1408	Нью-Джерси
+N12	Reference T37 Wikidata:Q49476	архиепископ
+N14	Reference T43 Wikidata:Q11220	Военно-морские силы США
+N16	Reference T46 Wikidata:Q373936	Теодор Маккэррик
+N17	Reference T49 Wikidata:Q237	Ватикан
+N19	Reference T56 Wikidata:Q450675	Франциск
+N22	Reference T61 Wikidata:Q42603	священник
+N24	Reference T70 Wikidata:Q9268	иудаизм
+N25	Reference T71 Wikidata:Q5043	христианство
+N27	Reference T78 Wikidata:Q989	Иоанн Павел II
+N28	Reference T80 Wikidata:Q25395	Ньюарк
+N30	Reference T9 Wikidata:Q220	Рим
+N4	Reference T5 Wikidata:Q1355824	
+N15	Reference T44 Wikidata:Q4508	военно-морской флот
+N13	Reference T42 Wikidata:NULL	нет данных
+N18	Reference T52 Wikidata:NULL	нет данных
+N20	Reference T58 Wikidata:Q5947973	
+N23	Reference T68 Wikidata:NULL	нет данных
+N26	Reference T72 Wikidata:Q1841	католичество
+N21	Reference T59 Wikidata:NULL	нет данных
+N29	Reference T81 Wikidata:NULL	нет данных
+N31	Reference T55 Wikidata:Q19546	Папа Римский
+N32	Reference T8 Wikidata:Q19546	Папа Римский
+N33	Reference T51 Wikidata:Q19546	Папа Римский
+N34	Reference T60 Wikidata:Q19546	Папа Римский
+N35	Reference T77 Wikidata:Q19546	Папа Римский
+N36	Reference T57 Wikidata:Q45722	кардинал
+N37	Reference T53 Wikidata:Q45722	кардинал
+N38	Reference T39 Wikidata:Q45722	кардинал
+N39	Reference T6 Wikidata:Q45722	кардинал
+N40	Reference T23 Wikidata:Q373936	Теодор Маккэррик
+N41	Reference T64 Wikidata:Q373936	Теодор Маккэррик
+N42	Reference T25 Wikidata:Q373936	Теодор Маккэррик
+N43	Reference T82 Wikidata:Q373936	Теодор Маккэррик
+N44	Reference T40 Wikidata:Q30	США
+N45	Reference T45 Wikidata:Q30	США
+N46	Reference T54 Wikidata:Q30	США
+N47	Reference T13 Wikidata:Q373936	Теодор Маккэррик
+N48	Reference T31 Wikidata:Q373936	Теодор Маккэррик
+N49	Reference T11 Wikidata:Q373936	Теодор Маккэррик
+N50	Reference T16 Wikidata:Q237	Ватикан
+N51	Reference T24 Wikidata:Q237	Ватикан
+N52	Reference T50 Wikidata:Q450675	Франциск
+N53	Reference T2 Wikidata:NULL	нет данных
+N54	Reference T19 Wikidata:NULL	нет данных

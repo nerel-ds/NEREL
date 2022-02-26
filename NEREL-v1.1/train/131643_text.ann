@@ -1,0 +1,216 @@
+T1	PROFESSION 0 40	Официального представителя Роскомнадзора
+T2	PERSON 41 60	Вадима Ампелонского
+T3	PERSON 86 103	Вадим Ампелонский
+T4	EVENT 107 114	встрече
+T6	AGE 123 131	15-летия
+T8	CITY 144 150	Москве
+T9	PROFESSION 151 191	Официального представителя Роскомнадзора
+T10	NUMBER 218 223	двоих
+T11	ORGANIZATION 430 446	Чертановский суд
+T12	DATE 458 477	5 октября 2017 года
+T13	PROFESSION 543 572	пресс-секретаря Роскомнадзора
+T14	PERSON 573 592	Вадима Ампелонского
+T15	PROFESSION 594 623	руководителя правового отдела
+T16	PERSON 634 648	Бориса Едидина
+T17	PROFESSION 651 669	главы его аппарата
+T18	PERSON 670 693	Александра Весельчакова
+T19	LAW 695 722	п. 1 ч. 2 ст. 29 УПК России
+T20	LAW 724 742	ст. 108 УПК России
+T21	LAW 913 937	часть 4 статьи 159 УК РФ
+T22	ORGANIZATION 951 959	Lenta.ru
+T23	ORGANIZATION 977 1061	Чертановским межрайонным следственным отделом Следственного комитета России в Москве
+T25	CITY 1055 1061	Москве
+T26	ORGANIZATION 1084 1109	центральный аппарат СК РФ
+T27	PERSON 1142 1154	Ампелонского
+T28	PERSON 1157 1164	Едидина
+T29	PERSON 1175 1187	Весельчакова
+T30	PERSON 1269 1280	Ампелонский
+T31	PERSON 1283 1289	Едидин
+T32	PERSON 1328 1339	Весельчаков
+T33	PROFESSION 1476 1502	Руководитель Роскомнадзора
+T34	PERSON 1503 1518	Александр Жаров
+T35	ORGANIZATION 1534 1544	Ведомостям
+T36	PERSON 1671 1688	Вадим Ампелонский
+T37	PERSON 1790 1801	Ампелонский
+T38	PERSON 1804 1815	Весельчаков
+T39	DATE 1840 1846	неделю
+T40	DATE 1855 1865	10 октября
+T41	ORGANIZATION 1882 1891	Опер слил
+T42	ORGANIZATION 1931 1944	Роскомнадзору
+T43	ORGANIZATION 1945 1980	ФГУП «Главный радиочастотный центр»
+T44	PERSON 2018 2024	Едидин
+T45	ORGANIZATION 2036 2039	РБК
+T46	ORGANIZATION 2144 2157	Роскомнадзора
+T47	ORGANIZATION 2190 2225	ФГУП «Главный радиочастотный центр»
+T48	ORGANIZATION 2238 2248	Ведомостей
+T49	ORGANIZATION 2273 2308	ФГУП «Главный радиочастотный центр»
+T50	ORGANIZATION 1783 1788	vc.ru
+T51	PROFESSION 1736 1747	журналистов
+T52	PROFESSION 1719 1733	корреспондента
+T53	ORGANIZATION 1489 1502	Роскомнадзора
+T54	PROFESSION 1112 1123	Следователи
+T55	PENALTY 1304 1324	подпиской о невыезде
+T56	PENALTY 1344 1360	домашним арестом
+T57	PENALTY 1192 1206	домашний арест
+T58	COUNTRY 1107 1109	РФ
+T59	ORGANIZATION 1104 1109	СК РФ
+T60	DISTRICT 977 989	Чертановским
+T61	ORGANIZATION 1023 1052	Следственного комитета России
+T24	COUNTRY 1046 1052	России
+T62	CRIME 774 910	мошенничестве, совершенном организованной группой либо в особо крупном размере или повлекшим лишение права гражданина на жилое помещение
+T63	LAW 932 937	УК РФ
+T64	COUNTRY 935 937	РФ
+T65	ORGANIZATION 27 40	Роскомнадзора
+T5	PRODUCT 132 141	Википедии
+T7	EVENT 61 69	обвинили
+T66	CRIME 72 85	мошенничестве
+T67	ORGANIZATION 178 191	Роскомнадзора
+T68	PERSON 192 211	Вадима Ампелонского
+T69	PROFESSION 224 234	чиновников
+T70	CRIME 259 296	мошенничестве в особо крупном размере
+T72	DISTRICT 430 442	Чертановский
+T73	CITY 447 453	Москвы
+T74	ORGANIZATION 559 572	Роскомнадзора
+T75	COUNTRY 716 722	России
+T76	COUNTRY 736 742	России
+T77	LAW 712 722	УПК России
+T78	LAW 732 742	УПК России
+T79	PROFESSION 0 26	Официального представителя
+R2	WORKPLACE Arg1:T1 Arg2:T65	
+R1	WORKPLACE Arg1:T2 Arg2:T65	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T7	
+R4	CONVICTED_OF Arg1:T2 Arg2:T66	
+R5	HEADQUARTERED_IN Arg1:T11 Arg2:T72	
+R6	LOCATED_IN Arg1:T72 Arg2:T73	
+R7	CONVICTED_OF Arg1:T69 Arg2:T70	
+R8	CONVICTED_OF Arg1:T68 Arg2:T70	
+T71	PROFESSION 543 558	пресс-секретаря
+R9	WORKPLACE Arg1:T13 Arg2:T74	
+R10	WORKS_AS Arg1:T14 Arg2:T13	
+R11	WORKPLACE Arg1:T14 Arg2:T74	
+R13	CONVICTED_OF Arg1:T14 Arg2:T62	
+R12	CONVICTED_OF Arg1:T16 Arg2:T62	
+R14	CONVICTED_OF Arg1:T18 Arg2:T62	
+R15	PART_OF Arg1:T26 Arg2:T59	
+R16	HEADQUARTERED_IN Arg1:T59 Arg2:T58	
+R17	PENALIZED_AS Arg1:T31 Arg2:T55	
+R18	PENALIZED_AS Arg1:T30 Arg2:T55	
+R19	PENALIZED_AS Arg1:T32 Arg2:T56	
+R20	WORKPLACE Arg1:T33 Arg2:T53	
+R21	WORKS_AS Arg1:T34 Arg2:T33	
+R22	WORKPLACE Arg1:T34 Arg2:T53	
+R23	OWNER_OF Arg1:T42 Arg2:T43	
+R24	AGE_IS Arg1:T5 Arg2:T6	
+R25	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+R26	TAKES_PLACE_IN Arg1:T4 Arg2:T8	
+T80	PROFESSION 151 177	Официального представителя
+R27	WORKPLACE Arg1:T9 Arg2:T67	
+R28	WORKS_AS Arg1:T68 Arg2:T9	
+R29	WORKPLACE Arg1:T68 Arg2:T67	
+R30	WORKS_AS Arg1:T16 Arg2:T15	
+R31	WORKPLACE Arg1:T16 Arg2:T74	
+R32	WORKS_AS Arg1:T18 Arg2:T17	
+R33	WORKPLACE Arg1:T18 Arg2:T74	
+T81	LAW 700 722	ч. 2 ст. 29 УПК России
+T82	LAW 705 722	ст. 29 УПК России
+R34	PART_OF Arg1:T19 Arg2:T81	
+R35	PART_OF Arg1:T81 Arg2:T82	
+R36	PART_OF Arg1:T82 Arg2:T77	
+R37	ORIGINS_FROM Arg1:T77 Arg2:T75	
+T83	LAW 712 715	УПК
+T84	LAW 732 735	УПК
+R38	PART_OF Arg1:T20 Arg2:T78	
+R39	ORIGINS_FROM Arg1:T78 Arg2:T76	
+T85	ORDINAL 698 699	1
+T86	ORDINAL 703 704	2
+T87	ORDINAL 709 711	29
+T88	ORDINAL 728 731	108
+T89	LAW 921 937	статьи 159 УК РФ
+T90	LAW 932 934	УК
+R40	PART_OF Arg1:T21 Arg2:T89	
+R41	PART_OF Arg1:T89 Arg2:T63	
+R42	ORIGINS_FROM Arg1:T63 Arg2:T64	
+R43	HEADQUARTERED_IN Arg1:T61 Arg2:T24	
+R44	PART_OF Arg1:T23 Arg2:T61	
+R45	HEADQUARTERED_IN Arg1:T23 Arg2:T60	
+R46	LOCATED_IN Arg1:T60 Arg2:T25	
+R47	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R48	ALTERNATIVE_NAME Arg1:T16 Arg2:T28	
+R49	ALTERNATIVE_NAME Arg1:T18 Arg2:T29	
+R50	HAS_CAUSE Arg1:T7 Arg2:T66	
+R51	INANIMATE_INVOLVED Arg1:T5 Arg2:T4	
+T91	CRIME 259 272	мошенничестве
+T92	CRIME 774 787	мошенничестве
+N9	Reference T22 Wikidata:Q658909	Lenta.ru
+N11	Reference T25 Wikidata:Q649	Москва
+N14	Reference T34 Wikidata:Q11756298	Александр Жаров
+N15	Reference T35 Wikidata:Q2304119	Ведомости
+N17	Reference T41 Wikidata:Q41242	Opera
+N18	Reference T45 Wikidata:Q629733	РосБизнесКонсалтинг
+N20	Reference T50 Wikidata:Q17271303	VC.ru
+N21	Reference T51 Wikidata:Q1930187	журналист
+N22	Reference T52 Wikidata:Q1333067	Корреспондент
+N24	Reference T58 Wikidata:Q159	Россия
+N25	Reference T59 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N26	Reference T61 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N27	Reference T63 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N28	Reference T65 Wikidata:Q129597	Роскомнадзор
+N29	Reference T5 Wikidata:Q52	Википедия
+N30	Reference T69 Wikidata:Q382887	чиновник
+N32	Reference T76 Wikidata:Q159	Россия
+N1	Reference T9 Wikidata:NULL	нет данных
+N31	Reference T72 Wikidata:Q4514622	
+N2	Reference T11 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:NULL	нет данных
+N39	Reference T71 Wikidata:Q17221	
+N34	Reference T80 Wikidata:Q17221	
+N4	Reference T15 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:NULL	нет данных
+N40	Reference T17 Wikidata:NULL	нет данных
+N41	Reference T18 Wikidata:NULL	нет данных
+N33	Reference T78 Wikidata:Q4469058	
+N42	Reference T84 Wikidata:Q4469058	
+N7	Reference T20 Wikidata:NULL	нет данных
+N36	Reference T82 Wikidata:NULL	нет данных
+N35	Reference T81 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N38	Reference T90 Wikidata:Q19705	уголовное законодательство
+N37	Reference T89 Wikidata:NULL	нет данных
+N8	Reference T21 Wikidata:NULL	нет данных
+N10	Reference T23 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:NULL	
+N23	Reference T54 Wikidata:Q30093123	
+N43	Reference T27 Wikidata:NULL	нет данных
+N13	Reference T33 Wikidata:NULL	нет данных
+N16	Reference T38 Wikidata:NULL	нет данных
+N19	Reference T47 Wikidata:Q4139214	
+N44	Reference T8 Wikidata:Q649	Москва
+N45	Reference T73 Wikidata:Q649	Москва
+N46	Reference T48 Wikidata:Q2304119	Ведомости
+N47	Reference T64 Wikidata:Q159	Россия
+N48	Reference T53 Wikidata:Q129597	Роскомнадзор
+N49	Reference T46 Wikidata:Q129597	Роскомнадзор
+N50	Reference T74 Wikidata:Q129597	Роскомнадзор
+N51	Reference T42 Wikidata:Q129597	Роскомнадзор
+N52	Reference T67 Wikidata:Q129597	Роскомнадзор
+N53	Reference T75 Wikidata:Q159	Россия
+N54	Reference T24 Wikidata:Q159	Россия
+N55	Reference T1 Wikidata:NULL	нет данных
+N56	Reference T60 Wikidata:Q4514622	
+N57	Reference T79 Wikidata:Q17221	
+N58	Reference T28 Wikidata:NULL	нет данных
+N59	Reference T31 Wikidata:NULL	нет данных
+N60	Reference T44 Wikidata:NULL	нет данных
+N61	Reference T29 Wikidata:NULL	нет данных
+N62	Reference T77 Wikidata:Q4469058	
+N63	Reference T83 Wikidata:Q4469058	
+N64	Reference T14 Wikidata:NULL	нет данных
+N65	Reference T3 Wikidata:NULL	нет данных
+N66	Reference T36 Wikidata:NULL	нет данных
+N67	Reference T2 Wikidata:NULL	нет данных
+N68	Reference T37 Wikidata:NULL	нет данных
+N69	Reference T68 Wikidata:NULL	нет данных
+N70	Reference T30 Wikidata:NULL	нет данных
+N71	Reference T32 Wikidata:NULL	нет данных
+N72	Reference T49 Wikidata:Q4139214	
+N73	Reference T43 Wikidata:Q4139214	

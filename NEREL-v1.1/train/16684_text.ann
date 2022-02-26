@@ -1,0 +1,138 @@
+T1	PROFESSION 0 9	Президент
+T2	PERSON 21 40	Нурсултан Назарбаев
+T3	PROFESSION 53 62	Президент
+T6	DATE 281 290	В четверг
+T7	LOCATION 331 352	Мангистауской области
+T8	LOCATION 356 373	западе Казахстана
+T9	PROFESSION 406 415	Президент
+T10	PERSON 447 463	Тимура Кулибаева
+T11	PROFESSION 477 530	руководителем государственной компании «Самрук-Казына
+T12	ORGANIZATION 517 530	Самрук-Казына
+T13	ORGANIZATION 576 587	Казмунайгаз
+T14	PERSON 590 599	Назарбаев
+T15	DATE 696 710	прошлой неделе
+T16	NUMBER 781 796	меньшей мере 16
+T17	NUMBER 812 819	десятки
+T18	NUMBER 824 829	сотни
+T19	PERSON 857 865	Кулибаев
+T21	COUNTRY 908 918	Казахстане
+T22	AGE 1047 1057	71-летнего
+T23	PROFESSION 1079 1090	президентом
+T24	COUNTRY 1127 1143	Советского Союза
+T25	DATE 1184 1209	последние 20 с лишним лет
+T26	COUNTRY 1219 1229	Казахстана
+T27	ORGANIZATION 1263 1266	ООН
+T28	PROFESSION 0 20	Президент Казахстана
+T29	COUNTRY 10 20	Казахстана
+T30	COUNTRY 63 73	Казахстана
+T31	PROFESSION 53 73	Президент Казахстана
+T5	ORGANIZATION 215 223	полицией
+T32	PROFESSION 226 234	рабочими
+T33	EVENT 266 278	погибли люди
+T34	PROFESSION 291 300	президент
+T35	PERSON 301 320	Нурсултан Назарбаев
+T36	COUNTRY 363 373	Казахстана
+T37	PROFESSION 477 515	руководителем государственной компании
+T38	PROFESSION 107 159	руководителя государственной энергетической компании
+T39	PROFESSION 608 630	руководителей холдинга
+T40	EVENT 770 804	погибли по меньшей мере 16 человек
+T41	EVENT 838 854	получили ранения
+T20	PROFESSION 997 1007	президента
+T42	PERSON 1058 1068	Назарбаева
+T43	ORGANIZATION 1400 1408	полицией
+R1	WORKPLACE Arg1:T28 Arg2:T29	
+R2	WORKS_AS Arg1:T2 Arg2:T28	
+R3	WORKPLACE Arg1:T2 Arg2:T29	
+T44	EVENT 41 52	уволил зятя
+R4	AGENT Arg1:T2 Arg2:T44	
+T4	DATE 186 193	два дня
+R5	WORKS_AS Arg1:T35 Arg2:T34	
+T45	EVENT 194 208	столкновениями
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T45	
+R7	PARTICIPANT_IN Arg1:T32 Arg2:T45	
+R8	WORKPLACE Arg1:T11 Arg2:T12	
+R9	WORKPLACE Arg1:T31 Arg2:T30	
+R10	WORKS_AS Arg1:T35 Arg2:T9	
+R11	RELATIVE Arg1:T9 Arg2:T10	
+R12	WORKS_AS Arg1:T10 Arg2:T11	
+R13	WORKPLACE Arg1:T10 Arg2:T12	
+R14	OWNER_OF Arg1:T12 Arg2:T13	
+T46	EVENT 99 106	уволить
+R15	PARTICIPANT_IN Arg1:T38 Arg2:T46	
+R16	AGENT Arg1:T31 Arg2:T46	
+R17	HAS_CAUSE Arg1:T46 Arg2:T45	
+T47	EVENT 254 265	беспорядков
+R18	TAKES_PLACE_IN Arg1:T45 Arg2:T30	
+R19	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+R20	SUBEVENT_OF Arg1:T33 Arg2:T47	
+R21	LOCATED_IN Arg1:T7 Arg2:T8	
+R22	LOCATED_IN Arg1:T8 Arg2:T36	
+T48	EVENT 321 328	побывал
+R23	TAKES_PLACE_IN Arg1:T48 Arg2:T7	
+R24	AGENT Arg1:T35 Arg2:T48	
+R25	POINT_IN_TIME Arg1:T48 Arg2:T6	
+T49	EVENT 724 747	общественные беспорядки
+T50	EVENT 737 747	беспорядки
+R26	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+R27	SUBEVENT_OF Arg1:T40 Arg2:T49	
+T51	EVENT 812 854	десятки или сотни человек получили ранения
+R28	SUBEVENT_OF Arg1:T51 Arg2:T49	
+R29	ALTERNATIVE_NAME Arg1:T10 Arg2:T19	
+R30	PLACE_RESIDES_IN Arg1:T19 Arg2:T21	
+T52	PROFESSION 868 878	миллиардер
+R31	AGE_IS Arg1:T42 Arg2:T22	
+T53	PROFESSION 1079 1097	президентом страны
+R32	WORKS_AS Arg1:T42 Arg2:T53	
+T54	EVENT 1111 1143	распада бывшего Советского Союза
+R33	PARTICIPANT_IN Arg1:T24 Arg2:T54	
+T55	ORGANIZATION 1212 1229	Власти Казахстана
+R34	HEADQUARTERED_IN Arg1:T55 Arg2:T26	
+T56	EVENT 924 934	увольнение
+R35	PARTICIPANT_IN Arg1:T19 Arg2:T56	
+T57	EVENT 1299 1310	беспорядков
+T59	EVENT 1368 1380	столкновений
+R36	PARTICIPANT_IN Arg1:T43 Arg2:T59	
+R37	HEADQUARTERED_IN Arg1:T43 Arg2:T26	
+R39	TAKES_PLACE_IN Arg1:T57 Arg2:T26	
+T60	EVENT 428 434	уволит
+R40	AGENT Arg1:T9 Arg2:T60	
+R41	PARTICIPANT_IN Arg1:T35 Arg2:T60	
+R42	PARTICIPANT_IN Arg1:T10 Arg2:T60	
+R43	WORKPLACE Arg1:T39 Arg2:T12	
+R44	WORKPLACE Arg1:T53 Arg2:T21	
+R38	ALTERNATIVE_NAME Arg1:T57 Arg2:T59	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T7 Wikidata:Q238931	Мангистауская область
+N4	Reference T10 Wikidata:Q984618	Тимур Аскарович Кулибаев
+N6	Reference T12 Wikidata:Q4407014	Самрук-Казына
+N7	Reference T13 Wikidata:Q1417227	КазМунайГаз
+N8	Reference T24 Wikidata:Q15180	СССР
+N9	Reference T27 Wikidata:Q1065	Организация Объединённых Наций
+N10	Reference T29 Wikidata:Q232	Казахстан
+N11	Reference T31 Wikidata:Q5256775	президент Республики Казахстан
+N12	Reference T5 Wikidata:Q35535	полиция
+N13	Reference T32 Wikidata:Q12713481	рабочий
+N14	Reference T35 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N18	Reference T42 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N16	Reference T38 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N15	Reference T37 Wikidata:NULL	нет данных
+N17	Reference T39 Wikidata:NULL	нет данных
+N19	Reference T52 Wikidata:NULL	нет данных
+N20	Reference T53 Wikidata:Q5256775	президент Республики Казахстан
+N21	Reference T55 Wikidata:NULL	нет данных
+N22	Reference T20 Wikidata:Q30461	президент
+N23	Reference T23 Wikidata:Q30461	президент
+N24	Reference T34 Wikidata:Q30461	президент
+N25	Reference T9 Wikidata:Q30461	президент
+N26	Reference T1 Wikidata:Q30461	президент
+N27	Reference T19 Wikidata:Q984618	Тимур Аскарович Кулибаев
+N28	Reference T26 Wikidata:Q232	Казахстан
+N29	Reference T36 Wikidata:Q232	Казахстан
+N30	Reference T21 Wikidata:Q232	Казахстан
+N31	Reference T30 Wikidata:Q232	Казахстан
+N32	Reference T28 Wikidata:Q5256775	президент Республики Казахстан
+N33	Reference T43 Wikidata:Q35535	полиция
+N34	Reference T2 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N35	Reference T14 Wikidata:Q57394	Нурсултан Абишевич Назарбаев

@@ -1,0 +1,155 @@
+T1	PROFESSION 8 26	хоккейный защитник
+T2	PERSON 27 42	Никлас Лидстрём
+T3	NATIONALITY 84 92	Шведский
+T4	ORGANIZATION 104 121	Detroit Red Wings
+T5	PERSON 124 139	Никлас Лидстрём
+T6	AGE 184 190	42 лет
+T7	PERSON 193 197	Лидс
+T8	EVENT 306 323	пресс-конференции
+T9	DATE 473 491	Последние два года
+T10	DATE 605 616	в этом году
+T11	PERSON 771 779	Лидстрем
+T12	EVENT 907 924	Олимпийских играх
+T13	EVENT 926 941	чемпионате мира
+T14	EVENT 944 956	Кубке Стэнли
+T15	NATIONALITY 996 1004	шведский
+T16	NUMBER 1022 1028	четыре
+T17	PERSON 1042 1050	Лидстрем
+T18	NUMBER 1087 1091	семь
+T20	ORGANIZATION 1141 1144	НХЛ
+T21	NUMBER 1147 1157	двенадцать
+T22	EVENT 1175 1192	Матчах всех звезд
+T23	DATE 1198 1209	В 2002 году
+T26	ORGANIZATION 1283 1286	НХЛ
+T27	ORGANIZATION 1308 1311	НХЛ
+T28	ORGANIZATION 1329 1332	НХЛ
+T29	NUMBER 1343 1347	один
+T30	ORGANIZATION 1357 1374	Detroit Red Wings
+T31	ORGANIZATION 1379 1385	Крылья
+T32	DATE 1415 1419	1989
+T33	ORDINAL 1424 1428	53-м
+T34	DATE 1446 1457	с 1991 года
+T35	DATE 1486 1492	с 2006
+T36	PROFESSION 1505 1514	капитаном
+T37	PERSON 1568 1577	Лидстрема
+T38	DATE 1579 1590	В этом году
+T39	ORDINAL 1600 1606	первое
+T40	ORGANIZATION 1638 1641	НХЛ
+T41	ORGANIZATION 1670 1674	Лиги
+T42	PERSON 1676 1687	Кевин Аллен
+T43	PROFESSION 1689 1698	журналист
+T44	ORGANIZATION 1708 1717	USA Today
+T45	PROFESSION 93 101	защитник
+T46	PROFESSION 18 26	защитник
+T47	PROFESSION 237 247	защитников
+T48	PROFESSION 415 423	хоккеист
+T49	ORGANIZATION 867 887	Тройной золотой клуб
+T50	PROFESSION 1005 1013	хоккеист
+T19	AWARD 1105 1117	Норрис трофи
+T51	PROFESSION 1130 1138	защитник
+T52	ORGANIZATION 1193 1196	НХЛ
+T53	EVENT 1175 1196	Матчах всех звезд НХЛ
+T54	PERSON 1210 1218	Лидстрем
+T24	AWARD 1234 1250	Конн Смайт трофи
+T25	PERSON 1312 1320	Лидстрем
+T55	PROFESSION 1395 1404	защитника
+T56	EVENT 1408 1419	драфте-1989
+T57	EVENT 1408 1414	драфте
+T58	PROFESSION 1627 1637	хоккеистов
+T59	AWARD 1647 1668	Лучшая ролевая модель
+T60	PROFESSION 1689 1717	журналист газеты ''USA Today
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+T61	CITY 104 111	Detroit
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T61	
+R4	ORIGINS_FROM Arg1:T5 Arg2:T3	
+T62	PROFESSION 93 121	защитник ''Detroit Red Wings
+R5	WORKPLACE Arg1:T62 Arg2:T4	
+R6	WORKS_AS Arg1:T5 Arg2:T62	
+R7	AGE_IS Arg1:T5 Arg2:T6	
+R8	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T8	
+R10	WORKS_AS Arg1:T7 Arg2:T47	
+R11	PRODUCES Arg1:T7 Arg2:T8	
+R12	WORKS_AS Arg1:T7 Arg2:T48	
+R13	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R14	PARTICIPANT_IN Arg1:T11 Arg2:T12	
+R15	PARTICIPANT_IN Arg1:T11 Arg2:T13	
+R16	PARTICIPANT_IN Arg1:T11 Arg2:T14	
+R17	WORKS_AS Arg1:T11 Arg2:T50	
+R18	ORIGINS_FROM Arg1:T50 Arg2:T15	
+R19	WORKPLACE Arg1:T11 Arg2:T15	
+R20	ORGANIZES Arg1:T52 Arg2:T53	
+R21	AWARDED_WITH Arg1:T54 Arg2:T24	
+R22	POINT_IN_TIME Arg1:T24 Arg2:T23	
+T63	CITY 1357 1364	Detroit
+R23	HEADQUARTERED_IN Arg1:T30 Arg2:T63	
+R24	WORKPLACE Arg1:T25 Arg2:T30	
+R25	MEMBER_OF Arg1:T30 Arg2:T28	
+R26	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R27	PARTICIPANT_IN Arg1:T31 Arg2:T56	
+R28	POINT_IN_TIME Arg1:T56 Arg2:T32	
+R29	WORKS_AS Arg1:T25 Arg2:T55	
+R30	WORKPLACE Arg1:T55 Arg2:T31	
+R31	WORKS_AS Arg1:T25 Arg2:T36	
+R32	WORKPLACE Arg1:T36 Arg2:T31	
+R33	ALTERNATIVE_NAME Arg1:T25 Arg2:T37	
+R34	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+T64	COUNTRY 1708 1711	USA
+R35	HEADQUARTERED_IN Arg1:T44 Arg2:T64	
+R36	WORKPLACE Arg1:T60 Arg2:T44	
+R37	WORKS_AS Arg1:T42 Arg2:T60	
+R38	ORIGINS_FROM Arg1:T59 Arg2:T41	
+R39	AWARDED_WITH Arg1:T37 Arg2:T59	
+R40	POINT_IN_TIME Arg1:T59 Arg2:T38	
+R41	PARTICIPANT_IN Arg1:T25 Arg2:T56	
+R42	ORIGINS_FROM Arg1:T45 Arg2:T3	
+R43	AWARDED_WITH Arg1:T17 Arg2:T19	
+R44	WORKS_AS Arg1:T17 Arg2:T51	
+T65	AWARD 1123 1144	лучший защитник в НХЛ
+R45	PRODUCES Arg1:T20 Arg2:T65	
+R46	AWARDED_WITH Arg1:T17 Arg2:T65	
+R47	PRODUCES Arg1:T26 Arg2:T24	
+N2	Reference T5 Wikidata:Q434200	Лидстрём, Никлас
+N4	Reference T26 Wikidata:Q1215892	Национальная хоккейная лига
+N5	Reference T30 Wikidata:Q194116	Детройт Ред Уингз
+N7	Reference T37 Wikidata:Q434200	Лидстрём, Никлас
+N8	Reference T43 Wikidata:Q1930187	журналист
+N9	Reference T44 Wikidata:Q39681	USA Today
+N11	Reference T19 Wikidata:Q752423	Джеймс Норрис Трофи
+N12	Reference T24 Wikidata:Q176834	Конн Смайт Трофи
+N16	Reference T61 Wikidata:Q12439	Детройт
+N10	Reference T46 Wikidata:Q2304909	
+N1	Reference T1 Wikidata:Q2304909	
+N17	Reference T62 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:Q1357311	
+N3	Reference T15 Wikidata:Q34	Швеция
+N18	Reference T65 Wikidata:NULL	нет данных
+N6	Reference T36 Wikidata:Q584540	
+N13	Reference T58 Wikidata:Q11774891	
+N14	Reference T59 Wikidata:NULL	нет данных
+N20	Reference T64 Wikidata:Q30	США
+N15	Reference T60 Wikidata:NULL	нет данных
+N21	Reference T42 Wikidata:NULL	нет данных
+N22	Reference T7 Wikidata:Q434200	Лидстрём, Никлас
+N23	Reference T2 Wikidata:Q434200	Лидстрём, Никлас
+N24	Reference T11 Wikidata:Q434200	Лидстрём, Никлас
+N25	Reference T40 Wikidata:Q1215892	Национальная хоккейная лига
+N26	Reference T20 Wikidata:Q1215892	Национальная хоккейная лига
+N27	Reference T52 Wikidata:Q1215892	Национальная хоккейная лига
+N28	Reference T28 Wikidata:Q1215892	Национальная хоккейная лига
+N29	Reference T41 Wikidata:Q1215892	Национальная хоккейная лига
+N30	Reference T27 Wikidata:Q1215892	Национальная хоккейная лига
+N31	Reference T31 Wikidata:Q194116	Детройт Ред Уингз
+N32	Reference T4 Wikidata:Q194116	Детройт Ред Уингз
+N33	Reference T17 Wikidata:Q434200	Лидстрём, Никлас
+N34	Reference T25 Wikidata:Q434200	Лидстрём, Никлас
+N35	Reference T54 Wikidata:Q434200	Лидстрём, Никлас
+N36	Reference T63 Wikidata:Q12439	Детройт
+N37	Reference T55 Wikidata:Q2304909	
+N38	Reference T51 Wikidata:Q2304909	
+N39	Reference T47 Wikidata:Q2304909	
+N40	Reference T45 Wikidata:Q2304909	
+N41	Reference T3 Wikidata:Q34	Швеция
+N42	Reference T50 Wikidata:Q11774891	
+N43	Reference T48 Wikidata:Q11774891	

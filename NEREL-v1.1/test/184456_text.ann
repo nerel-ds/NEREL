@@ -1,0 +1,84 @@
+T1	NATIONALITY 35 43	японский
+T2	ORGANIZATION 80 86	SpaceX
+T3	ORGANIZATION 88 116	SpaceX lunar tourism mission
+T4	ORDINAL 118 124	Первым
+T5	ORGANIZATION 214 220	SpaceX
+T6	NATIONALITY 229 237	японский
+T7	PERSON 249 263	Юсаку Маэдзава
+T8	PERSON 265 279	Yusaku Maezawa
+T10	PERSON 322 331	Илон Маск
+T11	PERSON 369 378	Маэдзавой
+T12	PRODUCT 435 452	Big Falcon Rocket
+T13	DATE 540 551	в 2023 году
+T14	DATE 586 598	около недели
+T15	AGE 601 610	42-летний
+T17	ORGANIZATION 666 670	ZOZO
+T18	ORGANIZATION 672 678	Forbes
+T19	MONEY 705 714	$2,9 млрд
+T20	NUMBER 782 788	восемь
+T21	ORGANIZATION 822 828	SpaceX
+T22	NUMBER 863 865	24
+T23	COUNTRY 917 929	американской
+T25	DATE 947 956	1972 года
+T26	ORDINAL 0 6	Первым
+T27	LOCATION 23 27	Луны
+T28	LOCATION 189 193	Луны
+T29	PERSON 281 286	前澤 友作
+T30	PROFESSION 303 321	гендиректор SpaceX
+T31	PROFESSION 303 314	гендиректор
+T32	ORGANIZATION 315 321	SpaceX
+T33	LOCATION 412 416	Луны
+T34	EVENT 517 522	полёт
+T35	PERSON 611 619	Маэдзава
+T36	LOCATION 892 898	лунных
+T37	LOCATION 968 973	Земли
+T38	PROFESSION 44 54	миллиардер
+R1	ABBREVIATION Arg1:T3 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T38 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T8 Arg2:T29	
+R5	ALTERNATIVE_NAME Arg1:T7 Arg2:T29	
+R6	WORKS_AS Arg1:T10 Arg2:T30	
+R7	FOUNDED_BY Arg1:T32 Arg2:T10	
+R8	WORKPLACE Arg1:T10 Arg2:T32	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T11 Arg2:T35	
+R11	AGE_IS Arg1:T35 Arg2:T15	
+R12	FOUNDED_BY Arg1:T17 Arg2:T35	
+T9	EVENT 938 945	Аполлон
+R13	ORGANIZES Arg1:T23 Arg2:T9	
+R14	POINT_IN_TIME Arg1:T9 Arg2:T25	
+R15	OWNER_OF Arg1:T35 Arg2:T19	
+T16	EVENT 176 193	полет вокруг Луны
+R16	ORGANIZES Arg1:T5 Arg2:T16	
+R17	PARTICIPANT_IN Arg1:T7 Arg2:T16	
+R18	POINT_IN_TIME Arg1:T16 Arg2:T13	
+R19	ALTERNATIVE_NAME Arg1:T16 Arg2:T34	
+R20	POINT_IN_TIME Arg1:T34 Arg2:T13	
+R21	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R22	WORKPLACE Arg1:T30 Arg2:T32	
+N1	Reference T5 Wikidata:Q193701	SpaceX
+N3	Reference T10 Wikidata:Q317521	Илон Маск
+N4	Reference T12 Wikidata:Q62833385	Starship
+N5	Reference T18 Wikidata:Q25161472	Форбс
+N7	Reference T28 Wikidata:Q405	Луна
+N9	Reference T31 Wikidata:Q1501800	генеральный директор
+N11	Reference T37 Wikidata:Q2	Земля
+N12	Reference T38 Wikidata:Q1062083	миллиардер
+N2	Reference T6 Wikidata:Q161652	японцы
+N8	Reference T30 Wikidata:NULL	нет данных
+N13	Reference T35 Wikidata:Q8061829	Юсаку Маэдзава
+N14	Reference T17 Wikidata:NULL	нет данных
+N10	Reference T36 Wikidata:Q405	Луна
+N6	Reference T23 Wikidata:Q30	США
+N15	Reference T3 Wikidata:Q193701	SpaceX
+N16	Reference T2 Wikidata:Q193701	SpaceX
+N17	Reference T32 Wikidata:Q193701	SpaceX
+N18	Reference T21 Wikidata:Q193701	SpaceX
+N19	Reference T33 Wikidata:Q405	Луна
+N20	Reference T27 Wikidata:Q405	Луна
+N21	Reference T1 Wikidata:Q161652	японцы
+N22	Reference T8 Wikidata:Q8061829	Юсаку Маэдзава
+N23	Reference T7 Wikidata:Q8061829	Юсаку Маэдзава
+N24	Reference T29 Wikidata:Q8061829	Юсаку Маэдзава
+N25	Reference T11 Wikidata:Q8061829	Юсаку Маэдзава

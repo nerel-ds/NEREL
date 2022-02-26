@@ -1,0 +1,132 @@
+T1	PROFESSION 0 9	Президент
+T2	PERSON 17 32	Александр Вучич
+T3	STATE_OR_PROVINCE 61 66	Крыма
+T4	PERSON 67 82	Александр Вучич
+T5	COUNTRY 94 106	французскому
+T6	ORGANIZATION 117 122	Monde
+T7	PROFESSION 125 134	президент
+T8	PERSON 142 157	Александр Вучич
+T9	LOCATION 214 218	Крым
+T10	COUNTRY 221 231	российским
+T11	COUNTRY 263 269	Сербии
+T12	LOCATION 318 324	Косово
+T13	LOCATION 402 406	Крым
+T14	COUNTRY 414 420	России
+T15	LOCATION 497 503	Косово
+T16	ORGANIZATION 563 582	Совета Безопасности
+T17	COUNTRY 634 640	Россия
+T18	PERSON 679 694	Александр Вучич
+T19	DATE 714 725	в 2014 году
+T20	COUNTRY 733 739	Сербия
+T21	LOCATION 762 768	Запада
+T22	COUNTRY 776 782	России
+T23	LOCATION 822 826	Крым
+T24	COUNTRY 836 856	Российской Федерации
+T25	PROFESSION 858 867	Президент
+T26	ORGANIZATION 890 905	Rheinische Post
+T27	CITY 913 920	Белград
+T28	ORGANIZATION 972 981	Евросоюза
+T29	DATE 984 999	В мае 2018 года
+T30	COUNTRY 1010 1016	Сербии
+T31	CITY 1025 1031	Москву
+T32	EVENT 1050 1071	памятных мероприятиях
+T33	AGE 1080 1094	73‑й годовщины
+T35	PROFESSION 1142 1152;1162 1168	президенты Сербии
+T36	COUNTRY 1162 1168	Сербии
+T37	COUNTRY 1199 1208	российско
+T38	COUNTRY 1209 1218	сербского
+T39	PERSON 1245 1261	Владимира Путина
+T40	DATE 1300 1314	в прошлом году
+T41	PERCENT 1327 1338	23 процента
+T42	PROFESSION 0 16	Президент Сербии
+T43	PROFESSION 125 141	президент Сербии
+T44	PROFESSION 1142 1159	президенты России
+T45	COUNTRY 10 16	Сербии
+T46	COUNTRY 135 141	Сербии
+T47	COUNTRY 1153 1159	России
+T48	ORGANIZATION 563 586	Совета Безопасности ООН
+T49	ORGANIZATION 583 586	ООН
+T50	PROFESSION 1000 1016	президент Сербии
+T51	PROFESSION 1000 1009	президент
+T52	EVENT 1095 1131	Победы в Великой Отечественной войне
+T53	EVENT 1104 1131	Великой Отечественной войне
+R1	WORKPLACE Arg1:T42 Arg2:T45	
+R2	WORKS_AS Arg1:T2 Arg2:T42	
+R3	WORKPLACE Arg1:T2 Arg2:T45	
+R4	HEADQUARTERED_IN Arg1:T6 Arg2:T5	
+R5	WORKPLACE Arg1:T43 Arg2:T46	
+R6	WORKS_AS Arg1:T8 Arg2:T43	
+R7	WORKPLACE Arg1:T8 Arg2:T46	
+R8	PART_OF Arg1:T48 Arg2:T49	
+T54	EVENT 754 768	санкции Запада
+R9	PARTICIPANT_IN Arg1:T22 Arg2:T54	
+R10	POINT_IN_TIME Arg1:T54 Arg2:T19	
+R11	LOCATED_IN Arg1:T23 Arg2:T24	
+R12	WORKS_AS Arg1:T18 Arg2:T25	
+T55	EVENT 948 971	антироссийским санкциям
+R13	AGENT Arg1:T28 Arg2:T55	
+R14	PARTICIPANT_IN Arg1:T22 Arg2:T55	
+R15	LOCATED_IN Arg1:T27 Arg2:T20	
+R16	WORKPLACE Arg1:T50 Arg2:T30	
+R17	WORKS_AS Arg1:T18 Arg2:T50	
+R18	WORKPLACE Arg1:T18 Arg2:T30	
+T56	EVENT 1017 1024	посетил
+R19	TAKES_PLACE_IN Arg1:T56 Arg2:T31	
+R20	AGENT Arg1:T50 Arg2:T56	
+R21	PARTICIPANT_IN Arg1:T18 Arg2:T56	
+R22	POINT_IN_TIME Arg1:T56 Arg2:T29	
+R23	ALTERNATIVE_NAME Arg1:T47 Arg2:T37	
+R24	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R25	WORKS_AS Arg1:T39 Arg2:T44	
+R26	WORKPLACE Arg1:T39 Arg2:T47	
+R27	PARTICIPANT_IN Arg1:T50 Arg2:T32	
+R28	TAKES_PLACE_IN Arg1:T32 Arg2:T31	
+R29	SUBEVENT_OF Arg1:T32 Arg2:T56	
+R30	PARTICIPANT_IN Arg1:T18 Arg2:T32	
+R31	AGE_IS Arg1:T52 Arg2:T33	
+R32	HAS_CAUSE Arg1:T32 Arg2:T52	
+R33	ALTERNATIVE_NAME Arg1:T22 Arg2:T24	
+N1	Reference T3 Wikidata:Q7835	Крымский полуостров
+N2	Reference T5 Wikidata:Q142	Франция
+N3	Reference T10 Wikidata:Q159	Россия
+N4	Reference T13 Wikidata:Q7835	Крымский полуостров
+N5	Reference T15 Wikidata:Q940704	Косово
+N6	Reference T16 Wikidata:Q37470	Совет Безопасности ООН
+N7	Reference T18 Wikidata:Q222031	Вучич, Александр
+N9	Reference T22 Wikidata:Q159	Россия
+N11	Reference T27 Wikidata:Q3711	Белград
+N12	Reference T28 Wikidata:Q458	Европейский союз
+N13	Reference T31 Wikidata:Q649	Москва
+N14	Reference T35 Wikidata:Q889830	Президент Сербии
+N16	Reference T39 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T42 Wikidata:Q889830	Президент Сербии
+N18	Reference T44 Wikidata:Q218295	президент Российской Федерации
+N19	Reference T45 Wikidata:Q403	Сербия
+N20	Reference T48 Wikidata:Q37470	Совет Безопасности ООН
+N21	Reference T49 Wikidata:Q1065	Организация Объединённых Наций
+N22	Reference T51 Wikidata:Q30461	президент
+N23	Reference T6 Wikidata:Q12461	
+N8	Reference T21 Wikidata:Q160381	
+N10	Reference T26 Wikidata:Q33094	
+N15	Reference T37 Wikidata:Q159	Россия
+N24	Reference T9 Wikidata:Q7835	Крымский полуостров
+N25	Reference T23 Wikidata:Q7835	Крымский полуостров
+N26	Reference T12 Wikidata:Q940704	Косово
+N27	Reference T2 Wikidata:Q222031	Вучич, Александр
+N28	Reference T8 Wikidata:Q222031	Вучич, Александр
+N29	Reference T4 Wikidata:Q222031	Вучич, Александр
+N30	Reference T24 Wikidata:Q159	Россия
+N31	Reference T50 Wikidata:Q889830	Президент Сербии
+N32	Reference T43 Wikidata:Q889830	Президент Сербии
+N33	Reference T20 Wikidata:Q403	Сербия
+N34	Reference T38 Wikidata:Q403	Сербия
+N35	Reference T46 Wikidata:Q403	Сербия
+N36	Reference T11 Wikidata:Q403	Сербия
+N37	Reference T36 Wikidata:Q403	Сербия
+N38	Reference T30 Wikidata:Q403	Сербия
+N39	Reference T25 Wikidata:Q30461	президент
+N40	Reference T7 Wikidata:Q30461	президент
+N41	Reference T1 Wikidata:Q30461	президент
+N42	Reference T47 Wikidata:Q159	Россия
+N43	Reference T14 Wikidata:Q159	Россия
+N44	Reference T17 Wikidata:Q159	Россия

@@ -1,0 +1,240 @@
+T1	PROFESSION 0 10	Патриархом
+T2	PROFESSION 27 37	митрополит
+T3	DATE 56 76	24 февраля 2013 года
+T4	EVENT 80 129	Патриаршем Избирательном Церковно-народном Соборе
+T5	CITY 132 137	Софии
+T6	PROFESSION 162 174	Митрополитом
+T7	PROFESSION 196 206	митрополит
+T8	PERSON 225 233	Димитров
+T9	ORDINAL 244 247	3-м
+T11	CITY 346 365	Константинопольским
+T12	ORGANIZATION 366 378	Патриархатом
+T13	DATE 475 493	6 ноября 2012 года
+T14	AGE 505 511	98 лет
+T15	PROFESSION 575 593	Святейший Патриарх
+T16	EVENT 614 619	Собор
+T17	TIME 633 654	рано утром 24 февраля
+T18	DATE 644 654	24 февраля
+T19	ORGANIZATION 657 675	Синодальной палате
+T20	EVENT 680 685	Собор
+T21	NUMBER 694 697	138
+T22	EVENT 773 779	Собора
+T23	PROFESSION 799 838	митрополит Средне- и Западноевропейский
+T24	NUMBER 861 865	один
+T25	PROFESSION 899 909	митрополит
+T26	DATE 939 946	на днях
+T27	ORDINAL 991 992	2
+T28	PROFESSION 1009 1016	владыка
+T29	NUMBER 1031 1033	90
+T30	DATE 1044 1058	В этот же день
+T31	ORGANIZATION 1134 1164	Болгарской православной церкви
+T32	NATIONALITY 1179 1187	русского
+T33	ORGANIZATION 1191 1205	Русской Церкви
+T34	COUNTRY 1259 1269	Болгарской
+T35	PROFESSION 1347 1357	протоиерея
+T36	PROFESSION 1483 1491	патриарх
+T37	ORGANIZATION 1552 1570	Болгарскую церковь
+T38	PROFESSION 0 21	Патриархом Болгарским
+T39	COUNTRY 11 21	Болгарским
+T40	PROFESSION 27 47	митрополит Русенский
+T41	CITY 38 47	Русенский
+T42	PERSON 48 54	Неофит
+T43	PROFESSION 138 159	Патриархом Болгарским
+T44	COUNTRY 149 159	Болгарским
+T45	PROFESSION 138 148	Патриархом
+T46	PROFESSION 162 184	Митрополитом Софийским
+T47	CITY 175 184	Софийским
+T48	PROFESSION 196 216	митрополит Русенский
+T49	CITY 207 216	Русенский
+T50	PERSON 217 223	Неофит
+T51	COUNTRY 248 258	Болгарским
+T52	PROFESSION 248 269	Болгарским Патриархом
+T53	PROFESSION 259 269	Патриархом
+T54	PROFESSION 409 418	патриарха
+T55	PROFESSION 409 449	патриарха Болгарской православной церкви
+T56	PROFESSION 560 572	Предстоятель
+T57	PROFESSION 585 593	Патриарх
+T58	PROFESSION 585 604	Патриарх Болгарский
+T59	PROFESSION 575 604	Святейший Патриарх Болгарский
+T60	EVENT 306 312	схизмы
+T61	ORGANIZATION 313 343	Болгарской Православной Церкви
+T62	COUNTRY 313 323	Болгарской
+T63	ORGANIZATION 346 378	Константинопольским Патриархатом
+T64	ORGANIZATION 419 449	Болгарской православной церкви
+T66	COUNTRY 419 429	Болгарской
+T67	EVENT 542 551	скончался
+T68	PERSON 605 611	Максим
+T69	COUNTRY 594 604	Болгарский
+T70	NUMBER 701 704	142
+T71	PERSON 839 845	Симеон
+T72	PERSON 847 857	Костадинов
+T73	PROFESSION 799 809	митрополит
+T74	PROFESSION 883 896	Патриаршество
+T75	PERSON 910 919	Галактион
+T76	PERSON 921 928	Табаков
+T77	EVENT 968 976	Избрание
+T78	PERSON 1017 1023	Неофит
+T79	EVENT 1070 1082	интронизация
+T80	PROFESSION 1090 1111	Патриарха Болгарского
+T81	PROFESSION 1090 1099	Патриарха
+T82	COUNTRY 1100 1111	Болгарского
+T83	EVENT 1119 1131	интронизации
+T84	COUNTRY 1134 1144	Болгарской
+T10	NATIONALITY 1191 1198	Русской
+T65	PROFESSION 1206 1215	патриарха
+T85	EVENT 1245 1253	литургии
+T86	EVENT 1327 1334	молебен
+T87	PERSON 1358 1372	Игоря Якимчука
+T88	EVENT 1375 1387	Интронизация
+T89	COUNTRY 1552 1562	Болгарскую
+R1	WORKPLACE Arg1:T40 Arg2:T41	
+R2	WORKPLACE Arg1:T38 Arg2:T39	
+R3	LOCATED_IN Arg1:T41 Arg2:T39	
+R4	WORKS_AS Arg1:T42 Arg2:T40	
+R5	WORKS_AS Arg1:T42 Arg2:T38	
+T90	PROFESSION 80 90	Патриаршем
+R6	WORKPLACE Arg1:T43 Arg2:T44	
+R7	WORKPLACE Arg1:T46 Arg2:T47	
+R8	LOCATED_IN Arg1:T5 Arg2:T44	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T47	
+T91	EVENT 189 195	избран
+R10	POINT_IN_TIME Arg1:T91 Arg2:T3	
+R11	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T90	
+R13	PARTICIPANT_IN Arg1:T46 Arg2:T91	
+R14	PARTICIPANT_IN Arg1:T43 Arg2:T91	
+R15	WORKPLACE Arg1:T48 Arg2:T49	
+R16	ALTERNATIVE_NAME Arg1:T50 Arg2:T8	
+R17	WORKS_AS Arg1:T50 Arg2:T48	
+R18	WORKS_AS Arg1:T50 Arg2:T43	
+R19	WORKS_AS Arg1:T50 Arg2:T46	
+R20	PARTICIPANT_IN Arg1:T50 Arg2:T91	
+R21	SUBEVENT_OF Arg1:T91 Arg2:T4	
+R22	PARTICIPANT_IN Arg1:T43 Arg2:T4	
+R23	PARTICIPANT_IN Arg1:T46 Arg2:T4	
+R24	ALTERNATIVE_NAME Arg1:T43 Arg2:T52	
+R25	WORKPLACE Arg1:T52 Arg2:T51	
+T92	RELIGION 324 336	Православной
+R26	RELIGION_OF Arg1:T61 Arg2:T92	
+R27	HEADQUARTERED_IN Arg1:T61 Arg2:T62	
+R28	PARTICIPANT_IN Arg1:T61 Arg2:T60	
+R29	HEADQUARTERED_IN Arg1:T63 Arg2:T11	
+R30	PARTICIPANT_IN Arg1:T63 Arg2:T60	
+R31	WORKS_AS Arg1:T68 Arg2:T59	
+R32	WORKS_AS Arg1:T68 Arg2:T56	
+R33	PARTICIPANT_IN Arg1:T68 Arg2:T67	
+R34	DATE_OF_DEATH Arg1:T68 Arg2:T13	
+R35	AGE_DIED_AT Arg1:T68 Arg2:T14	
+R36	POINT_IN_TIME Arg1:T67 Arg2:T13	
+R37	START_TIME Arg1:T16 Arg2:T17	
+R38	TAKES_PLACE_IN Arg1:T16 Arg2:T19	
+T93	PROFESSION 755 763	иерархов
+T94	LOCATION 820 838	Западноевропейский
+T95	LOCATION 810 816;827 838	Средне европейский
+R39	WORKPLACE Arg1:T23 Arg2:T94	
+R40	WORKPLACE Arg1:T23 Arg2:T95	
+R41	ALTERNATIVE_NAME Arg1:T71 Arg2:T72	
+R42	WORKS_AS Arg1:T71 Arg2:T23	
+R43	WORKS_AS Arg1:T71 Arg2:T93	
+R44	ALTERNATIVE_NAME Arg1:T75 Arg2:T76	
+T96	DISEASE 954 965	простудился
+R45	MEDICAL_CONDITION Arg1:T75 Arg2:T96	
+R46	WORKS_AS Arg1:T75 Arg2:T25	
+R47	WORKS_AS Arg1:T75 Arg2:T93	
+R48	WORKS_AS Arg1:T78 Arg2:T28	
+R49	PARTICIPANT_IN Arg1:T80 Arg2:T79	
+R50	POINT_IN_TIME Arg1:T79 Arg2:T30	
+T97	EVENT 1113 1131	Обряд интронизации
+R51	HEADQUARTERED_IN Arg1:T31 Arg2:T84	
+T98	RELIGION 1145 1157	православной
+R52	RELIGION_OF Arg1:T31 Arg2:T98	
+R53	ORIGINS_FROM Arg1:T33 Arg2:T10	
+R54	PARTICIPANT_IN Arg1:T33 Arg2:T85	
+R55	PARTICIPANT_IN Arg1:T65 Arg2:T85	
+T99	EVENT 1276 1288	богослужения
+T100	EVENT 1310 1334	благодарственный молебен
+R56	WORKS_AS Arg1:T87 Arg2:T35	
+R57	ALTERNATIVE_NAME Arg1:T31 Arg2:T37	
+R58	HEADQUARTERED_IN Arg1:T37 Arg2:T89	
+T101	EVENT 1470 1476	избран
+R59	PARTICIPANT_IN Arg1:T36 Arg2:T101	
+R60	WORKPLACE Arg1:T55 Arg2:T64	
+R61	HEADQUARTERED_IN Arg1:T64 Arg2:T66	
+T102	RELIGION 430 442	православной
+R62	RELIGION_OF Arg1:T64 Arg2:T102	
+R63	RELIGION_OF Arg1:T55 Arg2:T102	
+R64	SUBEVENT_OF Arg1:T77 Arg2:T22	
+R65	PARTICIPANT_IN Arg1:T78 Arg2:T77	
+R66	WORKPLACE Arg1:T36 Arg2:T37	
+R67	ORGANIZES Arg1:T31 Arg2:T97	
+N2	Reference T12 Wikidata:Q1282276	Патриархат
+N5	Reference T23 Wikidata:Q189946	Западноевропейский союз
+N8	Reference T42 Wikidata:Q5276303	Неофит
+N16	Reference T63 Wikidata:Q211004	Константинопольская православная церковь
+N17	Reference T64 Wikidata:Q242758	Болгарская православная церковь
+N20	Reference T73 Wikidata:Q189854	митрополит
+N21	Reference T74 Wikidata:Q171692	патриарх
+N24	Reference T65 Wikidata:Q171692	патриарх
+N10	Reference T47 Wikidata:Q472	София
+N9	Reference T46 Wikidata:Q1849908	
+N12	Reference T49 Wikidata:Q160173	
+N11	Reference T48 Wikidata:NULL	нет данных
+N1	Reference T11 Wikidata:Q406	Стамбул
+N13	Reference T55 Wikidata:Q1849908	
+N14	Reference T58 Wikidata:Q1849908	
+N15	Reference T59 Wikidata:Q1849908	
+N7	Reference T35 Wikidata:Q1266260	
+N29	Reference T87 Wikidata:Q4536692	
+N22	Reference T84 Wikidata:Q219	Болгария
+N28	Reference T98 Wikidata:Q3333484	
+N23	Reference T10 Wikidata:Q49542	русские
+N6	Reference T33 Wikidata:Q60995	Русская православная церковь
+N30	Reference T28 Wikidata:NULL	нет данных
+N19	Reference T71 Wikidata:Q2287068	
+N31	Reference T76 Wikidata:Q961031	
+N32	Reference T56 Wikidata:Q4376721	
+N3	Reference T15 Wikidata:Q1849908	
+N18	Reference T68 Wikidata:Q324495	
+N4	Reference T19 Wikidata:NULL	нет данных
+N26	Reference T94 Wikidata:Q27496	Западная Европа
+N25	Reference T93 Wikidata:Q29182	епископ
+N27	Reference T95 Wikidata:Q27509	Центральная Европа
+N33	Reference T50 Wikidata:Q5276303	Неофит
+N34	Reference T8 Wikidata:Q5276303	Неофит
+N35	Reference T78 Wikidata:Q5276303	Неофит
+N36	Reference T31 Wikidata:Q242758	Болгарская православная церковь
+N37	Reference T37 Wikidata:Q242758	Болгарская православная церковь
+N38	Reference T61 Wikidata:Q242758	Болгарская православная церковь
+N39	Reference T25 Wikidata:Q189854	митрополит
+N40	Reference T7 Wikidata:Q189854	митрополит
+N41	Reference T2 Wikidata:Q189854	митрополит
+N42	Reference T6 Wikidata:Q189854	митрополит
+N43	Reference T90 Wikidata:Q171692	патриарх
+N44	Reference T57 Wikidata:Q171692	патриарх
+N45	Reference T53 Wikidata:Q171692	патриарх
+N46	Reference T54 Wikidata:Q171692	патриарх
+N47	Reference T36 Wikidata:Q171692	патриарх
+N48	Reference T81 Wikidata:Q171692	патриарх
+N49	Reference T45 Wikidata:Q171692	патриарх
+N50	Reference T1 Wikidata:Q171692	патриарх
+N51	Reference T5 Wikidata:Q472	София
+N52	Reference T41 Wikidata:Q160173	
+N53	Reference T40 Wikidata:NULL	нет данных
+N54	Reference T38 Wikidata:Q1849908	
+N55	Reference T52 Wikidata:Q1849908	
+N56	Reference T80 Wikidata:Q1849908	
+N57	Reference T43 Wikidata:Q1849908	
+N58	Reference T44 Wikidata:Q219	Болгария
+N59	Reference T69 Wikidata:Q219	Болгария
+N60	Reference T51 Wikidata:Q219	Болгария
+N61	Reference T62 Wikidata:Q219	Болгария
+N62	Reference T66 Wikidata:Q219	Болгария
+N63	Reference T34 Wikidata:Q219	Болгария
+N64	Reference T89 Wikidata:Q219	Болгария
+N65	Reference T39 Wikidata:Q219	Болгария
+N66	Reference T82 Wikidata:Q219	Болгария
+N67	Reference T92 Wikidata:Q3333484	
+N68	Reference T102 Wikidata:Q3333484	
+N69	Reference T32 Wikidata:Q49542	русские
+N70	Reference T72 Wikidata:Q2287068	
+N71	Reference T75 Wikidata:Q961031	

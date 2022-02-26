@@ -1,0 +1,205 @@
+T1	COUNTRY 2 10	Зимбабве
+T2	PERSON 28 34	Мугабе
+T4	ORGANIZATION 93 100	ZANU-PF
+T5	PERSON 128 134	Мугабе
+T7	PERSON 249 258	Цвангираи
+T8	PERSON 377 390	Роберт Мугабе
+T9	DATE 407 412	1 авг
+T10	ORGANIZATION 415 426	РИА Новости
+T12	ORGANIZATION 626 632	Рейтер
+T13	DATE 635 642	В среду
+T14	COUNTRY 645 653	Зимбабве
+T16	EVENT 665 701	президентские и парламентские выборы
+T17	PROFESSION 764 836	лидер "Африканского национального союза Зимбабве — Патриотический фронт"
+T18	ORGANIZATION 771 835	Африканского национального союза Зимбабве — Патриотический фронт
+T20	ORGANIZATION 838 845	ZANU-PF
+T21	PROFESSION 859 868	президент
+T22	AGE 869 878	89-летний
+T23	PERSON 879 892	Роберт Мугабе
+T24	PROFESSION 895 954	глава оппозиционного "Движения за демократические перемены"
+T25	ORGANIZATION 917 953	Движения за демократические перемены
+T26	ORGANIZATION 956 959	MDC
+T27	PROFESSION 961 976	премьер-министр
+T28	PERSON 977 993	Морган Цвангираи
+T29	PERSON 995 1004	Цвангираи
+T30	EVENT 1018 1039	президентских выборах
+T31	DATE 1040 1049	2008 года
+T32	ORDINAL 1069 1075	первом
+T33	PERSON 1145 1151	Мугабе
+T34	PROFESSION 1160 1178	президентом страны
+T35	PERSON 1182 1191	Цвангираи
+T36	PROFESSION 1203 1219	премьер-министра
+T37	COUNTRY 1239 1247	Зимбабве
+T38	DATE 1343 1362	в течение пяти дней
+T40	ORGANIZATION 1454 1461	ZANU-PF
+T41	PERSON 1489 1495	Мугабе
+T45	ORGANIZATION 1775 1784	Афросоюза
+T46	COUNTRY 1820 1828	Зимбабве
+T47	DATE 1884 1893	в четверг
+T48	ORGANIZATION 1941 1974	Сеть поддержки выборов в Зимбабве
+T49	ORGANIZATION 1977 2010	Zimbabwe Election Support Network
+T50	ORGANIZATION 2012 2016	ZESN
+T51	COUNTRY 2295 2303	Зимбабве
+T52	COUNTRY 2329 2332	США
+T53	EVENT 50 57	выборах
+T3	EVENT 276 282	выборы
+T6	ORGANIZATION 442 468	партии президента Зимбабве
+T11	PROFESSION 449 468	президента Зимбабве
+T54	COUNTRY 460 468	Зимбабве
+T55	DATE 469 478	в четверг
+T56	PROFESSION 512 529	главы государства
+T57	EVENT 504 511	выборах
+T58	EVENT 594 605	голосовании
+T59	ORGANIZATION 242 258	партии Цвангираи
+T15	PROFESSION 746 758	главы страны
+T60	COUNTRY 804 812	Зимбабве
+T19	PROFESSION 665 678	президентские
+T61	ORGANIZATION 681 694	парламентские
+T62	PROFESSION 1018 1031	президентских
+T63	EVENT 1069 1080	первом туре
+T39	EVENT 1638 1644	выборы
+T42	EVENT 1797 1817	президентские выборы
+T44	PROFESSION 1797 1810	президентские
+T65	COUNTRY 1966 1974	Зимбабве
+T67	PERSON 1611 1620	Цвангираи
+T43	ORGANIZATION 1604 1620	партии Цвангираи
+T68	EVENT 2057 2064	выборов
+T69	PERSON 2083 2092	Цвангираи
+T70	PROFESSION 2212 2220	премьера
+T71	EVENT 2265 2272	выборов
+T72	IDEOLOGY 929 944	демократические
+T73	LOCATION 771 783	Африканского
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T53	
+R2	TAKES_PLACE_IN Arg1:T53 Arg2:T1	
+R3	AGE_IS Arg1:T23 Arg2:T22	
+R4	WORKS_AS Arg1:T23 Arg2:T21	
+R5	ABBREVIATION Arg1:T60 Arg2:T20	
+R6	ABBREVIATION Arg1:T25 Arg2:T26	
+R7	TAKES_PLACE_IN Arg1:T42 Arg2:T46	
+R8	WORKS_AS Arg1:T69 Arg2:T70	
+R9	WORKPLACE Arg1:T23 Arg2:T60	
+R10	WORKS_AS Arg1:T23 Arg2:T17	
+R11	WORKPLACE Arg1:T23 Arg2:T18	
+R12	HEADQUARTERED_IN Arg1:T18 Arg2:T60	
+T74	IDEOLOGY 901 915	оппозиционного
+R13	IDEOLOGY_OF Arg1:T25 Arg2:T74	
+R14	IDEOLOGY_OF Arg1:T28 Arg2:T74	
+R15	WORKS_AS Arg1:T28 Arg2:T27	
+R16	WORKS_AS Arg1:T28 Arg2:T24	
+R17	WORKPLACE Arg1:T28 Arg2:T25	
+T75	EVENT 1032 1039	выборах
+R18	PARTICIPANT_IN Arg1:T29 Arg2:T30	
+R19	POINT_IN_TIME Arg1:T16 Arg2:T13	
+R20	TAKES_PLACE_IN Arg1:T16 Arg2:T14	
+T76	EVENT 157 168	голосования
+R22	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+R23	WORKS_AS Arg1:T8 Arg2:T56	
+R24	ALTERNATIVE_NAME Arg1:T11 Arg2:T56	
+R25	WORKPLACE Arg1:T56 Arg2:T54	
+R26	PARTICIPANT_IN Arg1:T56 Arg2:T57	
+R27	TAKES_PLACE_IN Arg1:T57 Arg2:T54	
+R28	SUBEVENT_OF Arg1:T76 Arg2:T53	
+R29	SUBEVENT_OF Arg1:T58 Arg2:T57	
+T77	EVENT 695 701	выборы
+R30	PARTICIPANT_IN Arg1:T23 Arg2:T16	
+R31	PARTICIPANT_IN Arg1:T28 Arg2:T16	
+R32	POINT_IN_TIME Arg1:T30 Arg2:T31	
+R33	WORKS_AS Arg1:T33 Arg2:T34	
+R34	WORKS_AS Arg1:T35 Arg2:T36	
+R35	HEADQUARTERED_IN Arg1:T40 Arg2:T37	
+R37	ALTERNATIVE_NAME Arg1:T30 Arg2:T39	
+R38	ALTERNATIVE_NAME Arg1:T39 Arg2:T42	
+T78	CRIME 37 57	нарушения на выборах
+T79	CRIME 300 314	мошенничеством
+T80	CRIME 1662 1676	мошенничеством
+R39	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+R40	ABBREVIATION Arg1:T48 Arg2:T50	
+R41	ABBREVIATION Arg1:T49 Arg2:T50	
+T66	EVENT 570 589	массовых нарушениях
+R42	SUBEVENT_OF Arg1:T66 Arg2:T58	
+R43	SUBEVENT_OF Arg1:T63 Arg2:T30	
+T81	LAW 1117 1144	соглашения о разделе власти
+R44	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+T64	EVENT 1518 1529	голосования
+R45	ALTERNATIVE_NAME Arg1:T42 Arg2:T68	
+R46	TAKES_PLACE_IN Arg1:T71 Arg2:T51	
+R47	PARTICIPANT_IN Arg1:T69 Arg2:T68	
+R48	TAKES_PLACE_IN Arg1:T68 Arg2:T65	
+T82	COUNTRY 1977 1985	Zimbabwe
+R49	ALTERNATIVE_NAME Arg1:T65 Arg2:T82	
+T83	PROFESSION 1746 1784	глава группы наблюдателей от Афросоюза
+R50	WORKPLACE Arg1:T83 Arg2:T45	
+R21	FOUNDED_BY Arg1:T59 Arg2:T7	
+R36	FOUNDED_BY Arg1:T43 Arg2:T67	
+R51	FOUNDED_BY Arg1:T6 Arg2:T11	
+R52	PARTICIPANT_IN Arg1:T5 Arg2:T76	
+T84	CITY 399 405	МОСКВА
+R53	LOCATED_IN Arg1:T60 Arg2:T73	
+R54	IDEOLOGY_OF Arg1:T25 Arg2:T72	
+R55	PRODUCES Arg1:T33 Arg2:T81	
+R56	PRODUCES Arg1:T29 Arg2:T81	
+R57	PARTICIPANT_IN Arg1:T41 Arg2:T64	
+T85	PROFESSION 79 100	представитель ZANU-PF
+R58	MEMBER_OF Arg1:T85 Arg2:T4	
+R59	MEMBER_OF Arg1:T5 Arg2:T4	
+T86	PROFESSION 228 258	представитель партии Цвангираи
+R60	MEMBER_OF Arg1:T86 Arg2:T59	
+T87	PROFESSION 544 558	правозащитники
+T88	PROFESSION 1590 1620	представитель партии Цвангираи
+R61	MEMBER_OF Arg1:T88 Arg2:T43	
+T89	PROFESSION 1440 1461	представитель ZANU-PF
+R62	MEMBER_OF Arg1:T89 Arg2:T40	
+N1	Reference T1 Wikidata:Q954	Зимбабве
+N2	Reference T5 Wikidata:Q10707	Роберт Мугабе
+N3	Reference T10 Wikidata:Q821172	РИА Новости
+N4	Reference T12 Wikidata:Q130879	Рейтер
+N8	Reference T21 Wikidata:Q30461	президент
+N10	Reference T27 Wikidata:Q14212	премьер-министр
+N12	Reference T35 Wikidata:Q57762	Морган Цвангираи
+N14	Reference T52 Wikidata:Q30	США
+N16	Reference T56 Wikidata:Q48352	глава государства
+N23	Reference T84 Wikidata:Q649	Москва
+N21	Reference T70 Wikidata:Q14212	премьер-министр
+N13	Reference T49 Wikidata:NULL	нет данных
+N24	Reference T45 Wikidata:Q7159	
+N22	Reference T83 Wikidata:NULL	нет данных
+N25	Reference T81 Wikidata:NULL	нет данных
+N11	Reference T34 Wikidata:Q30461	президент
+N20	Reference T62 Wikidata:Q30461	президентская республика
+N26	Reference T26 Wikidata:Q1146616	Движение за демократические перемены
+N9	Reference T24 Wikidata:NULL	
+N18	Reference T15 Wikidata:Q48352	глава государства
+N19	Reference T61 Wikidata:Q35749	парламент
+N17	Reference T59 Wikidata:Q1146616	Движение за демократические перемены
+N15	Reference T6 Wikidata:Q1910161	Зимбабве
+N5	Reference T17 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q1910161	Зимбабвийский африканский национальный союз — Патриотический фронт
+N7	Reference T20 Wikidata:Q1910161	Зимбабвийский африканский национальный союз — Патриотический фронт
+N27	Reference T51 Wikidata:Q954	Зимбабве
+N28	Reference T14 Wikidata:Q954	Зимбабве
+N29	Reference T37 Wikidata:Q954	Зимбабве
+N30	Reference T46 Wikidata:Q954	Зимбабве
+N31	Reference T65 Wikidata:Q954	Зимбабве
+N32	Reference T54 Wikidata:Q954	Зимбабве
+N33	Reference T60 Wikidata:Q954	Зимбабве
+N34	Reference T82 Wikidata:Q954	Зимбабве
+N35	Reference T23 Wikidata:Q10707	Роберт Мугабе
+N36	Reference T41 Wikidata:Q10707	Роберт Мугабе
+N37	Reference T33 Wikidata:Q10707	Роберт Мугабе
+N38	Reference T8 Wikidata:Q10707	Роберт Мугабе
+N39	Reference T2 Wikidata:Q10707	Роберт Мугабе
+N40	Reference T36 Wikidata:Q14212	премьер-министр
+N41	Reference T28 Wikidata:Q57762	Морган Цвангираи
+N42	Reference T7 Wikidata:Q57762	Морган Цвангираи
+N43	Reference T67 Wikidata:Q57762	Морган Цвангираи
+N44	Reference T69 Wikidata:Q57762	Морган Цвангираи
+N45	Reference T29 Wikidata:Q57762	Морган Цвангираи
+N46	Reference T11 Wikidata:Q48352	глава государства
+N47	Reference T48 Wikidata:NULL	нет данных
+N48	Reference T50 Wikidata:NULL	нет данных
+N49	Reference T44 Wikidata:Q30461	президентская республика
+N50	Reference T19 Wikidata:Q30461	президентская республика
+N51	Reference T25 Wikidata:Q1146616	Движение за демократические перемены
+N52	Reference T43 Wikidata:Q1146616	Движение за демократические перемены
+N53	Reference T40 Wikidata:Q1910161	Зимбабвийский африканский национальный союз — Патриотический фронт
+N54	Reference T4 Wikidata:Q1910161	Зимбабвийский африканский национальный союз — Патриотический фронт

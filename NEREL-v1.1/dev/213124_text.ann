@@ -1,0 +1,81 @@
+T1	COUNTRY 2 7	Китае
+T2	COUNTRY 59 64	Китае
+T3	COUNTRY 67 76	китайских
+T4	PERSON 123 129	Mimeng
+T5	DATE 200 220	21 февраля 2019 года
+T6	ORGANIZATION 227 239	Global Times
+T7	ORGANIZATION 264 269	Ifeng
+T8	AGE 304 313	42-летняя
+T9	PERSON 347 353	Ма Лин
+T10	NUMBER 392 399	2,6 млн
+T11	PRODUCT 414 419	Weibo
+T12	NUMBER 422 434	более 14 млн
+T13	PRODUCT 439 445	WeChat
+T14	MONEY 513 528	750 тысяч юаней
+T15	MONEY 530 548	113 тысяч долларов
+T16	DATE 642 656	в конце января
+T17	STATE_OR_PROVINCE 745 752	Сычуань
+T18	COUNTRY 823 828	Китая
+T20	AGE 854 861	24 года
+T21	PERSON 1039 1045	Mimeng
+T22	ORGANIZATION 1182 1196	Жэньминь жибао
+T23	PROFESSION 17 24	блогера
+T24	PROFESSION 45 56	Полицейский
+T25	PROFESSION 115 122	блогера
+T27	PERSON 284 290	Mimeng
+T28	PERSON 292 295	咪 蒙
+T29	PERSON 355 357	马凌
+T19	PROFESSION 940 947	блогера
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R2	WORKS_AS Arg1:T4 Arg2:T25	
+R3	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R4	ALTERNATIVE_NAME Arg1:T9 Arg2:T29	
+R5	AGE_IS Arg1:T9 Arg2:T8	
+T26	DISEASE 847 851	рака
+R6	ALTERNATIVE_NAME Arg1:T27 Arg2:T9	
+R7	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+T30	CRIME 28 33	фейки
+T31	CRIME 36 44	кликбейт
+R8	CONVICTED_OF Arg1:T23 Arg2:T30	
+R9	CONVICTED_OF Arg1:T23 Arg2:T31	
+T32	CRIME 134 139	фейки
+T33	CRIME 141 160	негативные ценности
+T34	CRIME 162 170	кликбейт
+T35	CRIME 173 189	разобщение людей
+R10	CONVICTED_OF Arg1:T4 Arg2:T32	
+R11	CONVICTED_OF Arg1:T4 Arg2:T33	
+R12	CONVICTED_OF Arg1:T4 Arg2:T34	
+R13	CONVICTED_OF Arg1:T4 Arg2:T35	
+T36	PENALTY 8 16	забанили
+R14	TAKES_PLACE_IN Arg1:T36 Arg2:T1	
+R15	PENALIZED_AS Arg1:T23 Arg2:T36	
+R16	HAS_CAUSE Arg1:T36 Arg2:T30	
+R17	HAS_CAUSE Arg1:T36 Arg2:T31	
+T37	PENALTY 86 102	закрыты аккаунты
+R18	TAKES_PLACE_IN Arg1:T37 Arg2:T3	
+R19	PENALIZED_AS Arg1:T4 Arg2:T37	
+R20	HAS_CAUSE Arg1:T37 Arg2:T32	
+R21	HAS_CAUSE Arg1:T37 Arg2:T33	
+R22	HAS_CAUSE Arg1:T37 Arg2:T34	
+R23	HAS_CAUSE Arg1:T37 Arg2:T35	
+R24	INCOME Arg1:T9 Arg2:T14	
+N3	Reference T11 Wikidata:Q92526	Sina Weibo
+N4	Reference T13 Wikidata:Q283233	WeChat
+N5	Reference T17 Wikidata:Q19770	Сычуань
+N6	Reference T18 Wikidata:Q148	Китайская Народная Республика
+N7	Reference T22 Wikidata:Q54340	Жэньминь жибао
+N8	Reference T24 Wikidata:Q384593	
+N9	Reference T25 Wikidata:Q8246794	
+N1	Reference T6 Wikidata:Q970443	Хуаньцю шибао
+N10	Reference T7 Wikidata:Q724186	
+N2	Reference T9 Wikidata:NULL	нет данных
+N11	Reference T2 Wikidata:Q148	Китайская Народная Республика
+N12	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N13	Reference T3 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T19 Wikidata:Q8246794	
+N15	Reference T23 Wikidata:Q8246794	
+N16	Reference T4 Wikidata:NULL	нет данных
+N17	Reference T29 Wikidata:NULL	нет данных
+N18	Reference T28 Wikidata:NULL	нет данных
+N19	Reference T21 Wikidata:NULL	нет данных
+N20	Reference T27 Wikidata:NULL	нет данных

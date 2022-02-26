@@ -1,0 +1,94 @@
+T1	PERSON 2 17	Роберта Де Ниро
+T2	FACILITY 49 60	Аллее славы
+T3	DISTRICT 64 73	Голливуде
+T4	PERSON 74 88	Роберт Де Ниро
+T5	PERSON 97 111	Грэйс Хайтауэр
+T6	PERSON 112 126	Роберт Де Ниро
+T7	AGE 218 228	69-летнего
+T8	NUMBER 238 242	двух
+T9	AWARD 251 256	Оскар
+T10	PERSON 330 337	де Ниро
+T11	PERSON 376 390	Грэйс Хайтауэр
+T13	PERSON 428 441	Билли Кристал
+T14	PROFESSION 444 453	сценарист
+T15	PERSON 454 470	Дэвид О. Расселл
+T16	EVENT 484 507	торжественной церемонии
+T20	PERSON 605 612	Де Ниро
+T21	WORK_OF_ART 702 715	Крёстный отец
+T22	WORK_OF_ART 719 736	Однажды в Америке
+T23	WORK_OF_ART 740 747	Таксист
+T24	PERSON 759 766	Де Ниро
+T25	NUMBER 782 785	два
+T26	DATE 805 819	В текущем году
+T27	ORGANIZATION 825 860	Американской академии киноискусства
+T28	PERSON 874 881	Де Ниро
+T29	AWARD 903 908	Оскар
+T30	ORDINAL 918 925	второго
+T31	WORK_OF_ART 942 959	Мой парень — псих
+T32	FACILITY 159 170	Аллее славы
+T33	DISTRICT 172 181	Голливуда
+T12	PROFESSION 509 514	актёр
+T35	DISTRICT 566 575	Голливуда
+T18	NUMBER 622 630	десятках
+T19	NUMBER 767 770	два
+T36	AWARD 772 778	Оскара
+T37	AWARD 787 802	Золотых глобуса
+T38	AWARD 38 60	звезда на «Аллее славы
+R1	AWARDED_WITH Arg1:T1 Arg2:T38	
+R2	LOCATED_IN Arg1:T2 Arg2:T3	
+R3	SPOUSE Arg1:T4 Arg2:T5	
+R4	LOCATED_IN Arg1:T32 Arg2:T33	
+R5	AGE_IS Arg1:T6 Arg2:T7	
+R6	AWARDED_WITH Arg1:T6 Arg2:T9	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R9	SPOUSE Arg1:T10 Arg2:T11	
+R10	KNOWS Arg1:T10 Arg2:T13	
+R11	WORKS_AS Arg1:T15 Arg2:T14	
+R12	KNOWS Arg1:T10 Arg2:T15	
+R13	WORKS_AS Arg1:T10 Arg2:T12	
+R14	PARTICIPANT_IN Arg1:T12 Arg2:T16	
+T17	DATE 587 596	40-летнюю
+R15	PARTICIPANT_IN Arg1:T20 Arg2:T21	
+R16	PARTICIPANT_IN Arg1:T20 Arg2:T22	
+R17	PARTICIPANT_IN Arg1:T20 Arg2:T23	
+R18	AWARDED_WITH Arg1:T24 Arg2:T36	
+R19	AWARDED_WITH Arg1:T24 Arg2:T37	
+T39	COUNTRY 825 837	Американской
+R20	HEADQUARTERED_IN Arg1:T27 Arg2:T39	
+R21	PARTICIPANT_IN Arg1:T28 Arg2:T31	
+T40	EVENT 861 873	номинировало
+R22	PARTICIPANT_IN Arg1:T28 Arg2:T40	
+R23	AGENT Arg1:T27 Arg2:T40	
+R24	POINT_IN_TIME Arg1:T40 Arg2:T26	
+T34	COUNTRY 729 736	Америке
+R7	ALTERNATIVE_NAME Arg1:T34 Arg2:T39	
+N1	Reference T2 Wikidata:Q71719	Голливудская «Аллея славы»
+N2	Reference T5 Wikidata:Q404341	Хайтауэр, Грэйс
+N3	Reference T10 Wikidata:Q36949	Роберт Де Ниро
+N4	Reference T13 Wikidata:Q186485	Билли Кристал
+N5	Reference T14 Wikidata:Q28389	сценарист
+N6	Reference T15 Wikidata:Q314342	Дэвид О. Расселл
+N8	Reference T22 Wikidata:Q206388	Однажды в Америке
+N10	Reference T27 Wikidata:Q212329	Академия кинематографических искусств и наук
+N11	Reference T31 Wikidata:Q116845	Мой парень — псих
+N12	Reference T33 Wikidata:Q34006	Голливуд
+N13	Reference T12 Wikidata:Q33999	актёр
+N15	Reference T37 Wikidata:Q1011547	Золотой глобус
+N17	Reference T38 Wikidata:Q17985761	
+N7	Reference T21 Wikidata:Q47703	Крёстный отец
+N9	Reference T23 Wikidata:Q47221	Таксист
+N14	Reference T36 Wikidata:Q19020	Оскар
+N16	Reference T39 Wikidata:Q30	США
+N18	Reference T32 Wikidata:Q71719	Голливудская «Аллея славы»
+N19	Reference T11 Wikidata:Q404341	Хайтауэр, Грэйс
+N20	Reference T20 Wikidata:Q36949	Роберт Де Ниро
+N21	Reference T24 Wikidata:Q36949	Роберт Де Ниро
+N22	Reference T4 Wikidata:Q36949	Роберт Де Ниро
+N23	Reference T28 Wikidata:Q36949	Роберт Де Ниро
+N24	Reference T6 Wikidata:Q36949	Роберт Де Ниро
+N25	Reference T1 Wikidata:Q36949	Роберт Де Ниро
+N26	Reference T3 Wikidata:Q34006	Голливуд
+N27	Reference T35 Wikidata:Q34006	Голливуд
+N28	Reference T29 Wikidata:Q19020	Оскар
+N29	Reference T9 Wikidata:Q19020	Оскар
+N30	Reference T34 Wikidata:Q30	США

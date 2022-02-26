@@ -1,0 +1,186 @@
+T1	ORGANIZATION 6 24	Второе приближение
+T2	PERSON 73 87	Петром Ившиным
+T3	ORGANIZATION 89 107	Второе приближение
+T5	DATE 135 144	13 ноября
+T6	ORGANIZATION 164 182	Второе приближение
+T8	WORK_OF_ART 212 221	Time Axis
+T9	CITY 232 242	московским
+T10	ORGANIZATION 243 256	ArtBeat Music
+T11	NUMBER 274 280	четыре
+T12	WORK_OF_ART 285 299	Selected Works
+T13	WORK_OF_ART 311 325	A Day For Dave
+T14	COUNTRY 339 352	американскому
+T15	PERSON 362 375	Дэйву Брубеку
+T16	WORK_OF_ART 380 388	Обэриуты
+T18	DATE 448 467	несколько лет назад
+T19	ORGANIZATION 520 539	Второго приближения
+T20	PROFESSION 543 548	лидер
+T21	PERSON 549 561	Андрей Разин
+T22	PERSON 587 601	Татьяна Комова
+T23	PERSON 623 638	Игорь Иванушкин
+T24	PERSON 703 715	Петра Ившина
+T25	PERSON 794 809	Клаусом Кугелем
+T26	PERSON 812 827	Владом Окуневым
+T27	ORGANIZATION 876 895	Второго приближения
+T28	AGE 910 918	XX-летию
+T29	DATE 940 950	15 октября
+T30	EVENT 954 967	гала-концерте
+T31	EVENT 1022 1052	Leo Records Festival in Russia
+T32	WORK_OF_ART 1083 1117	Сказки Пушкина или мартовские коты
+T33	PERSON 1150 1163	А. С. Пушкина
+T35	WORK_OF_ART 1165 1196	Царь Никита и сорок его дочерей
+T36	EVENT 1220 1228	концерте
+T37	DATE 1229 1239	17 октября
+T38	FACILITY 1242 1248	КЦ ДОМ
+T39	PERSON 1362 1378	Вячеслав Ганелин
+T40	PERSON 1394 1409	Алексей Круглов
+T41	PERSON 1434 1445	Олег Юданов
+T42	PROFESSION 1506 1515	журналист
+T43	PERSON 1516 1536	Михаил Митропольский
+T44	PERSON 1662 1672	Лео Фейгин
+T45	DATE 1747 1757	18 октября
+T46	CITY 1774 1785	Архангельск
+T47	EVENT 1801 1809	открытии
+T48	EVENT 1821 1830	Дни джаза
+T50	DATE 1857 1867	19 октября
+T51	CITY 1870 1880	московском
+T52	PERSON 2062 2076	Митропольского
+T55	EVENT 45 60	гастрольный тур
+T56	EVENT 61 70	концертом
+T4	PERSON 119 134	Алексея Козлова
+T57	FACILITY 113 134	Клубе Алексея Козлова
+T7	NUMBER 301 308	двойной
+T58	PROFESSION 353 361	пианисту
+T59	PROFESSION 416 429	саксофонистом
+T60	PERSON 430 447	Алексеем Козловым
+T61	EVENT 652 659	Концерт
+T62	PROFESSION 691 702	барабанщика
+T63	ORGANIZATION 747 751	Трио
+T64	EVENT 830 841	Выступление
+T65	EVENT 865 874	концертов
+T67	FACILITY 970 991	Клубе Алексея Козлова
+T68	PERSON 976 991	Алексея Козлова
+T34	PRODUCT 1205 1213	Викитеке
+T69	ORGANIZATION 1329 1348	Второму приближению
+T70	EVENT 1485 1493	концерта
+T71	EVENT 1686 1694	концерта
+T72	EVENT 1801 1830	открытии фестиваля «Дни джаза
+T49	FACILITY 1881 1895	музее Скрябина
+T73	PERSON 1887 1895	Скрябина
+T74	PROFESSION 1903 1912	музыканты
+T76	EVENT 1960 1967	концерт
+T77	ORGANIZATION 2023 2043	Второго приблиижения
+T53	WORK_OF_ART 2112 2116	Муха
+T78	WORK_OF_ART 2122 2131	Обериутов
+R1	WORKPLACE Arg1:T21 Arg2:T19	
+R2	WORKPLACE Arg1:T22 Arg2:T19	
+R3	WORKPLACE Arg1:T23 Arg2:T19	
+R4	WORKS_AS Arg1:T24 Arg2:T62	
+T17	COUNTRY 1046 1052	Russia
+R5	TAKES_PLACE_IN Arg1:T31 Arg2:T17	
+T54	PERSON 1090 1097	Пушкина
+R6	ALTERNATIVE_NAME Arg1:T54 Arg2:T33	
+T79	PERSON 1170 1176	Никита
+R7	WORKS_AS Arg1:T43 Arg2:T42	
+R9	LOCATED_IN Arg1:T49 Arg2:T51	
+R10	FOUNDED_BY Arg1:T57 Arg2:T4	
+R11	WORKS_AS Arg1:T15 Arg2:T58	
+R12	ORIGINS_FROM Arg1:T15 Arg2:T14	
+R13	WORKS_AS Arg1:T60 Arg2:T59	
+R14	PARTICIPANT_IN Arg1:T24 Arg2:T61	
+R15	ORGANIZES Arg1:T1 Arg2:T55	
+R16	ORGANIZES Arg1:T1 Arg2:T56	
+R17	PARTICIPANT_IN Arg1:T2 Arg2:T56	
+R18	SUBEVENT_OF Arg1:T56 Arg2:T55	
+R19	LOCATED_IN Arg1:T3 Arg2:T57	
+R20	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+R21	PRODUCES Arg1:T6 Arg2:T12	
+R22	PRODUCES Arg1:T6 Arg2:T13	
+R23	PRODUCES Arg1:T6 Arg2:T16	
+R24	PARTICIPANT_IN Arg1:T60 Arg2:T16	
+R25	PRODUCES Arg1:T6 Arg2:T8	
+R26	DATE_OF_CREATION Arg1:T8 Arg2:T5	
+R27	PART_OF Arg1:T12 Arg2:T8	
+R28	PART_OF Arg1:T13 Arg2:T8	
+R29	PART_OF Arg1:T16 Arg2:T8	
+R30	WORKS_AS Arg1:T21 Arg2:T20	
+R31	ORGANIZES Arg1:T19 Arg2:T61	
+R32	ALTERNATIVE_NAME Arg1:T61 Arg2:T64	
+R33	ORGANIZES Arg1:T27 Arg2:T65	
+R34	TAKES_PLACE_IN Arg1:T30 Arg2:T67	
+R35	START_TIME Arg1:T31 Arg2:T29	
+R36	POINT_IN_TIME Arg1:T30 Arg2:T29	
+R37	SUBEVENT_OF Arg1:T30 Arg2:T31	
+R38	PRODUCES Arg1:T27 Arg2:T32	
+R39	PRODUCES Arg1:T33 Arg2:T35	
+R40	POINT_IN_TIME Arg1:T36 Arg2:T37	
+R41	TAKES_PLACE_IN Arg1:T36 Arg2:T38	
+R42	ORGANIZES Arg1:T69 Arg2:T36	
+R43	PARTICIPANT_IN Arg1:T39 Arg2:T36	
+R8	PARTICIPANT_IN Arg1:T40 Arg2:T36	
+R44	PARTICIPANT_IN Arg1:T41 Arg2:T36	
+R45	SUBEVENT_OF Arg1:T47 Arg2:T72	
+R46	TAKES_PLACE_IN Arg1:T72 Arg2:T46	
+R47	POINT_IN_TIME Arg1:T72 Arg2:T45	
+R48	ALTERNATIVE_NAME Arg1:T43 Arg2:T52	
+R49	PRODUCES Arg1:T77 Arg2:T53	
+R50	PRODUCES Arg1:T77 Arg2:T78	
+R51	TAKES_PLACE_IN Arg1:T76 Arg2:T49	
+R52	POINT_IN_TIME Arg1:T76 Arg2:T50	
+R53	PARTICIPANT_IN Arg1:T74 Arg2:T76	
+R54	SUBEVENT_OF Arg1:T64 Arg2:T65	
+R55	FOUNDED_BY Arg1:T67 Arg2:T68	
+N9	Reference T15 Wikidata:Q108597	Брубек, Дейв
+N19	Reference T33 Wikidata:Q7200	Александр Сергеевич Пушкин
+N22	Reference T39 Wikidata:Q2038724	Вячеслав Шевелевич Ганелин
+N23	Reference T40 Wikidata:Q2643966	Алексей Круглов
+N25	Reference T42 Wikidata:Q1930187	журналист
+N26	Reference T44 Wikidata:Q24937381	Лео Фейгин
+N27	Reference T46 Wikidata:Q1851	Архангельск
+N29	Reference T58 Wikidata:Q486748	пианист
+N30	Reference T59 Wikidata:Q12800682	саксофонист
+N31	Reference T62 Wikidata:Q386854	барабанщик
+N32	Reference T63 Wikidata:Q281643	трио
+N33	Reference T67 Wikidata:Q43441631	Клуб Алексея Козлова
+N35	Reference T34 Wikidata:Q263	Викитека
+N36	Reference T49 Wikidata:Q4146864	Государственный мемориальный музей А. Н. Скрябина
+N38	Reference T74 Wikidata:Q639669	музыкант
+N1	Reference T2 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:Q60846739	
+N17	Reference T27 Wikidata:Q60846739	
+N39	Reference T77 Wikidata:Q60846739	
+N3	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q649	Москва
+N5	Reference T10 Wikidata:Q100726808	
+N37	Reference T73 Wikidata:Q185647	Александр Николаевич Скрябин
+N28	Reference T52 Wikidata:Q66364141	
+N21	Reference T38 Wikidata:NULL	нет данных
+N24	Reference T41 Wikidata:NULL	нет данных
+N34	Reference T68 Wikidata:Q2547071	
+N41	Reference T17 Wikidata:Q159	Россия
+N18	Reference T32 Wikidata:NULL	нет данных
+N20	Reference T35 Wikidata:Q19234816	
+N42	Reference T79 Wikidata:NULL	нет данных
+N11	Reference T20 Wikidata:Q1251441	лидер
+N12	Reference T21 Wikidata:NULL	нет данных
+N13	Reference T22 Wikidata:Q66364104	
+N14	Reference T23 Wikidata:Q66364127	
+N15	Reference T24 Wikidata:NULL	нет данных
+N43	Reference T25 Wikidata:Q1745367	
+N16	Reference T26 Wikidata:NULL	нет данных
+N6	Reference T12 Wikidata:NULL	нет данных
+N7	Reference T13 Wikidata:NULL	нет данных
+N8	Reference T14 Wikidata:Q30	США
+N10	Reference T16 Wikidata:NULL	нет данных
+N40	Reference T53 Wikidata:NULL	нет данных
+N44	Reference T78 Wikidata:NULL	нет данных
+N45	Reference T54 Wikidata:Q7200	Александр Сергеевич Пушкин
+N46	Reference T57 Wikidata:Q43441631	Клуб Алексея Козлова
+N47	Reference T1 Wikidata:Q60846739	
+N48	Reference T3 Wikidata:Q60846739	
+N49	Reference T19 Wikidata:Q60846739	
+N50	Reference T69 Wikidata:Q60846739	
+N51	Reference T51 Wikidata:Q649	Москва
+N52	Reference T43 Wikidata:Q66364141	
+N53	Reference T4 Wikidata:Q2547071	
+N54	Reference T60 Wikidata:Q2547071	

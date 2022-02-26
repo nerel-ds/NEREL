@@ -1,0 +1,136 @@
+T1	WORK_OF_ART 15 21	Ип Ман
+T2	PERSON 23 32	Донни Йен
+T3	PERSON 56 65	Донни Йен
+T4	DATE 67 75	2012 год
+T5	WORK_OF_ART 99 105	Ип Ман
+T6	PERSON 107 116	Донни Йен
+T7	COUNTRY 136 146	китайского
+T8	CITY 147 152	Уханя
+T9	MONEY 153 179	1 млн гонконгских долларов
+T10	MONEY 181 197	около $120 тысяч
+T11	TIME 291 303	28-секундное
+T12	LANGUAGE 313 322	китайском
+T13	PRODUCT 339 344	Weibo
+T14	CITY 507 516	уханьским
+T15	CITY 572 577	Ухань
+T16	CITY 727 732	Ухань
+T17	COUNTRY 742 747	Китай
+T18	CITY 773 778	Ухане
+T19	DISEASE 798 806	COVID-19
+T21	DATE 850 860	Во вторник
+T22	PROFESSION 866 880	глава больницы
+T23	PERSON 881 890	Лю Чжимин
+T24	AGE 905 914	59-летняя
+T25	PERSON 925 932	Лю Фань
+T26	COUNTRY 986 991	Китае
+T27	DISEASE 998 1008	SARS-CoV-2
+T29	NUMBER 1024 1040	более двух тысяч
+T31	PERSON 1051 1060	Донни Йен
+T32	PERSON 1062 1075	Чжэнь Цзыдань
+T33	CITY 1111 1119	Гонконга
+T34	LOCATION 1155 1159	Азии
+T35	PROFESSION 1176 1199	мастера боевых искусств
+T36	PERSON 1200 1207	Ип Мана
+T37	DATE 1240 1249	2016 году
+T38	COUNTRY 1259 1271	американском
+T39	WORK_OF_ART 1280 1306	Изгой-один. Звёздные войны
+T41	PROFESSION 0 5	Актёр
+T42	CITY 50 55	Уханя
+T43	PROFESSION 0 22	Актёр фильмов «Ип Ман»
+T44	EVENT 117 128	пожертвовал
+T45	PROFESSION 200 205	Актёр
+T46	DISEASE 256 269	коронавирусом
+T47	PROFESSION 270 277	медиков
+T48	PROFESSION 424 429	Актёр
+T49	PROFESSION 517 524	медикам
+T50	PROFESSION 129 135	врачам
+T20	EVENT 808 815	погибло
+T51	PROFESSION 841 848	медиков
+T52	EVENT 861 865	умер
+T53	EVENT 898 904	умерла
+T54	PROFESSION 915 924	медсестра
+T55	EVENT 959 966	погибли
+T28	PROFESSION 1103 1110	актёров
+T30	PROFESSION 1147 1154	актёров
+R1	WORKS_AS Arg1:T2 Arg2:T43	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R4	LOCATED_IN Arg1:T8 Arg2:T7	
+R5	PLACE_RESIDES_IN Arg1:T50 Arg2:T8	
+R6	PLACE_RESIDES_IN Arg1:T49 Arg2:T14	
+R7	PARTICIPANT_IN Arg1:T6 Arg2:T5	
+R8	AGENT Arg1:T6 Arg2:T44	
+R9	PARTICIPANT_IN Arg1:T51 Arg2:T20	
+R10	CAUSE_OF_DEATH Arg1:T51 Arg2:T19	
+R11	TAKES_PLACE_IN Arg1:T20 Arg2:T18	
+R12	WORKS_AS Arg1:T25 Arg2:T54	
+R13	AGE_IS Arg1:T25 Arg2:T24	
+R14	PARTICIPANT_IN Arg1:T25 Arg2:T53	
+R15	WORKS_AS Arg1:T23 Arg2:T22	
+R16	PARTICIPANT_IN Arg1:T23 Arg2:T52	
+R17	POINT_IN_TIME Arg1:T52 Arg2:T21	
+R18	TAKES_PLACE_IN Arg1:T52 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R20	WORKS_AS Arg1:T31 Arg2:T28	
+R21	ORIGINS_FROM Arg1:T31 Arg2:T33	
+R22	WORKS_AS Arg1:T36 Arg2:T35	
+R23	PARTICIPANT_IN Arg1:T31 Arg2:T39	
+R24	DATE_OF_CREATION Arg1:T39 Arg2:T37	
+R25	PARTICIPANT_IN Arg1:T43 Arg2:T1	
+T40	PROFESSION 43 49	врачей
+R26	PLACE_RESIDES_IN Arg1:T40 Arg2:T42	
+R27	EXPENDITURE Arg1:T6 Arg2:T9	
+R28	WORKS_AS Arg1:T6 Arg2:T45	
+R29	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R30	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R31	CAUSE_OF_DEATH Arg1:T23 Arg2:T19	
+R32	CAUSE_OF_DEATH Arg1:T25 Arg2:T19	
+R33	ORIGINS_FROM Arg1:T28 Arg2:T33	
+R34	LOCATED_IN Arg1:T33 Arg2:T34	
+R35	ORIGINS_FROM Arg1:T30 Arg2:T34	
+R36	WORKS_AS Arg1:T31 Arg2:T30	
+R37	ORIGINS_FROM Arg1:T39 Arg2:T38	
+R38	PARTICIPANT_IN Arg1:T50 Arg2:T44	
+T56	DATE 804 806	19
+R39	ALTERNATIVE_NAME Arg1:T19 Arg2:T27	
+T57	NUMBER 1007 1008	2
+N1	Reference T3 Wikidata:Q311723	Донни Йен
+N3	Reference T13 Wikidata:Q92526	Sina Weibo
+N4	Reference T16 Wikidata:Q11746	Ухань
+N8	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N9	Reference T33 Wikidata:Q8646	Гонконг
+N10	Reference T34 Wikidata:Q48	Азия
+N11	Reference T36 Wikidata:Q163830	Ип Ман
+N15	Reference T47 Wikidata:Q39631	врач
+N16	Reference T48 Wikidata:Q33999	актёр
+N17	Reference T50 Wikidata:Q39631	врач
+N18	Reference T54 Wikidata:Q186360	медсестра
+N14	Reference T43 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q19840232	
+N19	Reference T7 Wikidata:Q148	Китайская Народная Республика
+N20	Reference T12 Wikidata:Q7850	
+N5	Reference T22 Wikidata:NULL	нет данных
+N21	Reference T35 Wikidata:Q11124885	
+N12	Reference T38 Wikidata:Q30	США
+N13	Reference T39 Wikidata:Q19590955	
+N6	Reference T23 Wikidata:Q85504174	
+N7	Reference T25 Wikidata:Q85881430	
+N22	Reference T31 Wikidata:Q311723	Донни Йен
+N23	Reference T32 Wikidata:Q311723	Донни Йен
+N24	Reference T2 Wikidata:Q311723	Донни Йен
+N25	Reference T6 Wikidata:Q311723	Донни Йен
+N26	Reference T8 Wikidata:Q11746	Ухань
+N27	Reference T14 Wikidata:Q11746	Ухань
+N28	Reference T18 Wikidata:Q11746	Ухань
+N29	Reference T42 Wikidata:Q11746	Ухань
+N30	Reference T15 Wikidata:Q11746	Ухань
+N31	Reference T17 Wikidata:Q148	Китайская Народная Республика
+N32	Reference T49 Wikidata:Q39631	врач
+N33	Reference T51 Wikidata:Q39631	врач
+N34	Reference T41 Wikidata:Q33999	актёр
+N35	Reference T45 Wikidata:Q33999	актёр
+N36	Reference T28 Wikidata:Q33999	актёр
+N37	Reference T30 Wikidata:Q33999	актёр
+N38	Reference T40 Wikidata:Q39631	врач
+N39	Reference T1 Wikidata:Q19840232	
+T58	NUMBER 1286 1290	один

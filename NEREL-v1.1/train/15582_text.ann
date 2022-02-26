@@ -1,0 +1,177 @@
+T1	PERSON 0 10	Стив Джобс
+T2	ORGANIZATION 28 33	Apple
+T3	PERSON 35 40	Джобс
+T4	PRODUCT 54 62	iPhone 4
+T5	EVENT 66 97	Worldwide Developers Conference
+T6	PROFESSION 141 181	исполнительного директора компании Apple
+T7	ORGANIZATION 176 181	Apple
+T8	PRODUCT 266 272	iPhone
+T9	PRODUCT 275 279	iPad
+T10	DATE 285 304	в начале этого года
+T11	DATE 405 416	В 2004 году
+T12	DATE 479 493	Два года назад
+T13	PERSON 540 546	Джобса
+T14	ORDINAL 556 563	третьим
+T15	ORGANIZATION 634 657	совету директоров Apple
+T16	PERSON 659 664	Джобс
+T17	PROFESSION 763 788	исполнительного директора
+T18	ORGANIZATION 882 887	Apple
+T19	AGE 903 912	56-летний
+T20	DATE 936 954	в среду 24 августа
+T21	PROFESSION 990 1011	руководителя компании
+T22	PROFESSION 1024 1045	операционный директор
+T23	PERSON 1046 1053	Тим Кук
+T24	PERSON 1056 1066	Стив Джобс
+T25	ORGANIZATION 1075 1080	Apple
+T26	PERSON 1091 1106	Стивом Возняком
+T27	DATE 1107 1118	в 1976 году
+T28	DATE 1122 1139	восемь лет спустя
+T29	ORDINAL 1164 1170	первый
+T30	PRODUCT 1181 1190	Macintosh
+T31	ORGANIZATION 1201 1217	Совет директоров
+T32	PERSON 1231 1237	Джобса
+T33	DATE 1242 1253	в 1997 году
+T34	ORGANIZATION 1273 1278	Apple
+T35	PERSON 1352 1357	Джобс
+T36	PROFESSION 1377 1390	Медиа-эксперт
+T37	PERSON 1391 1406	Джонатан Тэплин
+T38	ORGANIZATION 1410 1439	Университета Южной Калифорнии
+T39	PRODUCT 1590 1594	iPod
+T40	PRODUCT 1621 1625	iPad
+T41	PERSON 1747 1753	Тэплин
+T42	ORGANIZATION 1849 1854	Apple
+T43	PERSON 1857 1864	Джобсом
+T44	ORGANIZATION 1932 1937	Apple
+T45	PRODUCT 1953 1959	iTunes
+T46	PERSON 2045 2051	Тэплин
+T47	PERSON 2173 2179	Джобса
+T48	ORGANIZATION 2186 2191	Apple
+T49	PERCENT 2198 2215	на пять процентов
+T50	PERSON 2247 2262	Джонатан Тэплин
+T51	ORGANIZATION 2276 2281	Apple
+T52	PERSON 2319 2325	Джобсу
+T53	EVENT 11 17	уходит
+T54	DATE 98 102	2010
+T55	PERSON 104 114	Стив Джобс
+T56	EVENT 124 132	отставку
+T57	EVENT 358 366	отставка
+T58	PERSON 417 422	Джобс
+T59	DISEASE 451 477	раком поджелудочной железы
+T60	ORGANIZATION 652 657	Apple
+T61	PERSON 913 918	Джобс
+T62	EVENT 919 935	подал в отставку
+T63	STATE_OR_PROVINCE 1429 1439	Калифорнии
+T64	PRODUCT 2132 2140	Интернет
+T65	PROFESSION 2376 2386	дизайнеров
+T66	PROFESSION 2389 2399	менеджеров
+T67	EVENT 66 102	Worldwide Developers Conference 2010
+R1	POINT_IN_TIME Arg1:T67 Arg2:T54	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T67	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T53	
+R5	ALTERNATIVE_NAME Arg1:T53 Arg2:T56	
+R6	PARTICIPANT_IN Arg1:T55 Arg2:T56	
+R7	WORKS_AS Arg1:T55 Arg2:T6	
+T68	PROFESSION 141 166	исполнительного директора
+R8	WORKPLACE Arg1:T55 Arg2:T7	
+R9	PRODUCES Arg1:T7 Arg2:T8	
+R10	PRODUCES Arg1:T7 Arg2:T9	
+R11	ALTERNATIVE_NAME Arg1:T56 Arg2:T57	
+T69	EVENT 427 440	прооперирован
+R12	PARTICIPANT_IN Arg1:T58 Arg2:T69	
+R13	HAS_CAUSE Arg1:T69 Arg2:T59	
+R14	MEDICAL_CONDITION Arg1:T58 Arg2:T59	
+R15	POINT_IN_TIME Arg1:T69 Arg2:T11	
+T70	EVENT 506 522	пересадку печени
+R16	PARTICIPANT_IN Arg1:T58 Arg2:T70	
+R17	POINT_IN_TIME Arg1:T70 Arg2:T12	
+R18	PART_OF Arg1:T15 Arg2:T60	
+R19	WORKS_AS Arg1:T16 Arg2:T17	
+R20	WORKPLACE Arg1:T16 Arg2:T60	
+R21	PARTICIPANT_IN Arg1:T61 Arg2:T62	
+R22	POINT_IN_TIME Arg1:T62 Arg2:T20	
+R23	AGE_IS Arg1:T61 Arg2:T19	
+R24	WORKPLACE Arg1:T17 Arg2:T60	
+R25	WORKPLACE Arg1:T61 Arg2:T18	
+R26	WORKS_AS Arg1:T23 Arg2:T22	
+R27	WORKPLACE Arg1:T23 Arg2:T18	
+R28	WORKPLACE Arg1:T22 Arg2:T18	
+R29	FOUNDED_BY Arg1:T25 Arg2:T24	
+R30	KNOWS Arg1:T24 Arg2:T26	
+R31	KNOWS Arg1:T26 Arg2:T24	
+R32	DATE_FOUNDED_IN Arg1:T25 Arg2:T27	
+R33	PRODUCES Arg1:T25 Arg2:T30	
+R34	PART_OF Arg1:T31 Arg2:T25	
+T71	EVENT 1222 1230	увольнял
+R35	PARTICIPANT_IN Arg1:T31 Arg2:T71	
+R36	PARTICIPANT_IN Arg1:T32 Arg2:T71	
+R37	ALTERNATIVE_NAME Arg1:T24 Arg2:T32	
+R38	HEADQUARTERED_IN Arg1:T38 Arg2:T63	
+R39	WORKS_AS Arg1:T37 Arg2:T36	
+R40	WORKPLACE Arg1:T37 Arg2:T38	
+R41	PRODUCES Arg1:T34 Arg2:T39	
+R42	PRODUCES Arg1:T34 Arg2:T40	
+R43	ALTERNATIVE_NAME Arg1:T37 Arg2:T41	
+R44	WORKPLACE Arg1:T43 Arg2:T42	
+R45	PRODUCES Arg1:T44 Arg2:T45	
+T72	EVENT 2164 2172	отставке
+R46	WORKPLACE Arg1:T47 Arg2:T48	
+R47	PARTICIPANT_IN Arg1:T47 Arg2:T72	
+R48	PARTICIPANT_IN Arg1:T48 Arg2:T72	
+R49	WORKPLACE Arg1:T52 Arg2:T51	
+R50	WORKPLACE Arg1:T6 Arg2:T7	
+R51	WORKPLACE Arg1:T1 Arg2:T2	
+T74	NUMBER 61 62	4
+T75	EVENT 1263 1272	возглавил
+R52	POINT_IN_TIME Arg1:T75 Arg2:T33	
+R53	PARTICIPANT_IN Arg1:T34 Arg2:T75	
+R54	AGENT Arg1:T24 Arg2:T75	
+N1	Reference T1 Wikidata:Q19837	Стив Джобс
+N2	Reference T4 Wikidata:Q300890	IPhone 4
+N4	Reference T8 Wikidata:Q2766	iPhone
+N5	Reference T9 Wikidata:Q2796	iPad
+N7	Reference T21 Wikidata:Q1162163	директор
+N8	Reference T22 Wikidata:Q623279	операционный директор
+N9	Reference T23 Wikidata:Q265852	Тим Кук
+N10	Reference T26 Wikidata:Q483382	Стив Возняк
+N11	Reference T30 Wikidata:Q75687	Макинтош
+N12	Reference T31 Wikidata:Q188628	совет директоров
+N15	Reference T38 Wikidata:Q4614	Университет Южной Калифорнии
+N16	Reference T39 Wikidata:Q9479	iPod
+N17	Reference T45 Wikidata:Q9589	iTunes
+N19	Reference T48 Wikidata:Q312	Apple
+N20	Reference T63 Wikidata:Q99	Калифорния
+N21	Reference T64 Wikidata:Q75	Интернет
+N22	Reference T65 Wikidata:Q5322166	дизайнер
+N23	Reference T66 Wikidata:Q2462658	менеджер
+N24	Reference T68 Wikidata:Q267936	исполнительный директор
+N3	Reference T6 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:NULL	нет данных
+N13	Reference T35 Wikidata:Q19837	Стив Джобс
+N14	Reference T36 Wikidata:NULL	
+N18	Reference T46 Wikidata:Q15440196	
+N25	Reference T3 Wikidata:Q19837	Стив Джобс
+N26	Reference T40 Wikidata:Q2796	iPad
+N27	Reference T44 Wikidata:Q312	Apple
+N28	Reference T51 Wikidata:Q312	Apple
+N29	Reference T25 Wikidata:Q312	Apple
+N30	Reference T34 Wikidata:Q312	Apple
+N31	Reference T7 Wikidata:Q312	Apple
+N32	Reference T60 Wikidata:Q312	Apple
+N33	Reference T42 Wikidata:Q312	Apple
+N34	Reference T18 Wikidata:Q312	Apple
+N35	Reference T2 Wikidata:Q312	Apple
+N36	Reference T17 Wikidata:Q267936	исполнительный директор
+N37	Reference T55 Wikidata:Q19837	Стив Джобс
+N38	Reference T13 Wikidata:Q19837	Стив Джобс
+N39	Reference T24 Wikidata:Q19837	Стив Джобс
+N40	Reference T16 Wikidata:Q19837	Стив Джобс
+N41	Reference T52 Wikidata:Q19837	Стив Джобс
+N42	Reference T43 Wikidata:Q19837	Стив Джобс
+N43	Reference T47 Wikidata:Q19837	Стив Джобс
+N44	Reference T58 Wikidata:Q19837	Стив Джобс
+N45	Reference T61 Wikidata:Q19837	Стив Джобс
+N46	Reference T32 Wikidata:Q19837	Стив Джобс
+N47	Reference T41 Wikidata:Q15440196	
+N48	Reference T37 Wikidata:Q15440196	
+N49	Reference T50 Wikidata:Q15440196	

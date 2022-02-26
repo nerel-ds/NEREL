@@ -1,0 +1,183 @@
+T1	CITY 2 13	Севастополе
+T2	PERSON 56 70	Луки Крымского
+T3	DATE 85 93	1923 год
+T4	CITY 96 107	Севастополе
+T5	AGE 155 164	140-летию
+T6	EVENT 198 225	Великой Отечественной войны
+T7	AGE 357 365	20-летию
+T8	DATE 417 437	14 декабря 2018 года
+T9	ORGANIZATION 440 476	Военно-морском клиническом госпитале
+T10	ORGANIZATION 477 496	Черноморского флота
+T11	ORDINAL 499 505	Первый
+T12	CITY 529 544	Симферопольской
+T13	LOCATION 547 555	Крымской
+T14	DATE 578 589	в 2015 году
+T15	ORDINAL 591 597	второй
+T16	NUMBER 685 693	1 тысяча
+T17	CITY 838 845	Иркутск
+T18	CITY 847 857	Красноярск
+T19	CITY 859 867	Енисейск
+T20	CITY 869 878	Туруханск
+T21	CITY 880 887	Ташкент
+T22	CITY 890 895	Тверь
+T23	CITY 930 936	Москвы
+T24	CITY 939 955	Санкт-Петербурга
+T25	PROFESSION 958 969	Архиепископ
+T26	PERSON 983 1018	Валентин Феликсович Войно-Ясенецкий
+T27	PROFESSION 1022 1029	епископ
+T28	DATE 1059 1077	с апреля 1946 года
+T29	PROFESSION 1080 1091	архиепископ
+T31	COUNTRY 1120 1130	российский
+T32	COUNTRY 1133 1142	советский
+T33	PROFESSION 1210 1233	доктор медицинских наук
+T34	PROFESSION 1235 1244	профессор
+T36	DATE 1363 1369	11 лет
+T37	DATE 1386 1397	в 2000 году
+T38	COUNTRY 1399 1409	Украинская
+T39	ORGANIZATION 1399 1430	Украинская православная церковь
+T40	PERSON 1442 1446	Луку
+T41	DATE 1461 1472	в 1995 году
+T42	DATE 1474 1485	В 2000 году
+T43	ORGANIZATION 1500 1503	РПЦ
+T44	PROFESSION 46 55	святителя
+T45	PERSON 79 83	Лука
+T46	PROFESSION 71 78	Епископ
+T47	PROFESSION 165 174	святителя
+T48	PERSON 175 189	Луки Крымского
+T49	PERSON 226 230	Лука
+T50	PERSON 378 382	Луки
+T51	EVENT 398 409	Мероприятие
+T52	ORGANIZATION 440 496	Военно-морском клиническом госпитале Черноморского флота
+T53	ORGANIZATION 644 663	Черноморского флота
+T54	PERSON 726 730	Луки
+T55	PERSON 970 974	Лука
+T56	PROFESSION 1022 1057	епископ Русской православной церкви
+T57	ORGANIZATION 1030 1057	Русской православной церкви
+T58	PROFESSION 1080 1107	архиепископ Симферопольский
+T59	PROFESSION 1080 1118	архиепископ Симферопольский и Крымский
+T60	PROFESSION 1143 1149	хирург
+T61	PROFESSION 1151 1157	учёный
+T30	CITY 1092 1107	Симферопольский
+T62	LOCATION 1110 1118	Крымский
+T65	PROFESSION 1246 1263	доктор богословия
+T35	DATE 1265 1269	1959
+T66	DATE 1314 1318	1946
+T68	AWARD 1280 1312	Сталинской премии первой степени
+T69	AWARD 1280 1297	Сталинской премии
+T70	ORDINAL 1298 1304	первой
+T71	RELIGION 1410 1422	православная
+T72	RELIGION 1038 1050	православной
+T73	EVENT 1486 1499	канонизирован
+R1	AGE_IS Arg1:T48 Arg2:T5	
+R2	WORKS_AS Arg1:T48 Arg2:T47	
+R3	WORKS_AS Arg1:T2 Arg2:T44	
+T74	EVENT 14 37	презентовали фотоальбом
+R4	TAKES_PLACE_IN Arg1:T74 Arg2:T1	
+R5	WORKS_AS Arg1:T45 Arg2:T46	
+T75	EVENT 115 134	презентация альбома
+R6	ALTERNATIVE_NAME Arg1:T74 Arg2:T75	
+R7	TAKES_PLACE_IN Arg1:T75 Arg2:T4	
+R8	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+T76	LOCATION 61 70	Крымского
+T77	LOCATION 180 189	Крымского
+R9	PART_OF Arg1:T52 Arg2:T10	
+T78	LOCATION 477 490	Черноморского
+R10	HEADQUARTERED_IN Arg1:T10 Arg2:T78	
+T79	LOCATION 644 657	Черноморского
+R11	HEADQUARTERED_IN Arg1:T53 Arg2:T79	
+R12	WORKS_AS Arg1:T55 Arg2:T25	
+R13	ALTERNATIVE_NAME Arg1:T55 Arg2:T26	
+R14	RELIGION_OF Arg1:T57 Arg2:T72	
+R15	WORKPLACE Arg1:T56 Arg2:T57	
+R16	RELIGION_OF Arg1:T56 Arg2:T72	
+R17	RELIGION_OF Arg1:T55 Arg2:T72	
+R18	HEADQUARTERED_IN Arg1:T39 Arg2:T38	
+R19	RELIGION_OF Arg1:T39 Arg2:T71	
+R20	AGENT Arg1:T43 Arg2:T73	
+R21	POINT_IN_TIME Arg1:T73 Arg2:T42	
+R22	ALTERNATIVE_NAME Arg1:T75 Arg2:T51	
+R23	POINT_IN_TIME Arg1:T51 Arg2:T8	
+R24	TAKES_PLACE_IN Arg1:T51 Arg2:T52	
+R25	ORIGINS_FROM Arg1:T55 Arg2:T32	
+R26	ORIGINS_FROM Arg1:T55 Arg2:T31	
+R27	WORKS_AS Arg1:T55 Arg2:T60	
+R28	WORKS_AS Arg1:T55 Arg2:T61	
+R29	WORKS_AS Arg1:T55 Arg2:T33	
+R30	WORKS_AS Arg1:T55 Arg2:T34	
+R31	WORKS_AS Arg1:T55 Arg2:T65	
+T63	PERSON 1280 1290	Сталинской
+R32	AWARDED_WITH Arg1:T55 Arg2:T68	
+R33	POINT_IN_TIME Arg1:T68 Arg2:T66	
+T64	EVENT 1431 1460	причислила Луку к лику святых
+R34	AGENT Arg1:T39 Arg2:T64	
+R35	POINT_IN_TIME Arg1:T64 Arg2:T41	
+R36	WORKPLACE Arg1:T59 Arg2:T30	
+R37	WORKPLACE Arg1:T59 Arg2:T62	
+T67	WORK_OF_ART 322 337	Да светит всем!
+T80	EVENT 366 396	причисления Луки к лику святых
+R38	AGE_IS Arg1:T80 Arg2:T7	
+R39	INANIMATE_INVOLVED Arg1:T2 Arg2:T74	
+R40	INANIMATE_INVOLVED Arg1:T48 Arg2:T75	
+T81	EVENT 306 320	Выпуск альбома
+R41	ALTERNATIVE_NAME Arg1:T75 Arg2:T81	
+R42	INANIMATE_INVOLVED Arg1:T67 Arg2:T81	
+R43	HAS_CAUSE Arg1:T81 Arg2:T80	
+R44	INANIMATE_INVOLVED Arg1:T40 Arg2:T64	
+R45	INANIMATE_INVOLVED Arg1:T40 Arg2:T73	
+N1	Reference T4 Wikidata:Q7525	Севастополь
+N4	Reference T17 Wikidata:Q6576	Иркутск
+N5	Reference T18 Wikidata:Q919	Красноярск
+N6	Reference T19 Wikidata:Q135686	Енисейск
+N7	Reference T20 Wikidata:Q155243	Туруханск
+N8	Reference T21 Wikidata:Q269	Ташкент
+N9	Reference T22 Wikidata:Q2288	Тверь
+N10	Reference T23 Wikidata:Q649	Москва
+N11	Reference T24 Wikidata:Q656	Санкт-Петербург
+N12	Reference T26 Wikidata:Q930090	архиепископ Лука
+N13	Reference T29 Wikidata:Q49476	архиепископ
+N16	Reference T33 Wikidata:Q17281165	доктор медицинских наук
+N17	Reference T34 Wikidata:Q121594	профессор
+N19	Reference T39 Wikidata:Q752474	Украинская православная церковь (Московского патриархата)
+N21	Reference T43 Wikidata:Q60995	Русская православная церковь
+N22	Reference T46 Wikidata:Q29182	епископ
+N24	Reference T49 Wikidata:Q930090	архиепископ Лука
+N26	Reference T53 Wikidata:Q934022	Черноморский флот ВМФ России
+N28	Reference T57 Wikidata:Q60995	Русская православная церковь
+N29	Reference T58 Wikidata:Q6353996	Симферопольское
+N31	Reference T60 Wikidata:Q774306	хирург
+N32	Reference T61 Wikidata:Q901	учёный
+N34	Reference T65 Wikidata:Q1984623	доктор богословия
+N36	Reference T69 Wikidata:Q2329480	Сталинская премия
+N37	Reference T71 Wikidata:Q35032	Православная церковь
+N23	Reference T47 Wikidata:Q4411339	
+N20	Reference T40 Wikidata:Q930090	архиепископ Лука
+N40	Reference T67 Wikidata:NULL	нет данных
+N38	Reference T78 Wikidata:Q166	Чёрное море
+N2	Reference T9 Wikidata:NULL	нет данных
+N25	Reference T52 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:Q15966495	Республика Крым
+N18	Reference T38 Wikidata:Q212	Украина
+N39	Reference T63 Wikidata:Q855	Иосиф Виссарионович Сталин
+N35	Reference T68 Wikidata:NULL	нет данных
+N27	Reference T56 Wikidata:NULL	нет данных
+N33	Reference T30 Wikidata:Q19566	Симферополь
+N30	Reference T59 Wikidata:NULL	нет данных
+N14	Reference T31 Wikidata:Q159	Россия
+N15	Reference T32 Wikidata:Q15180	СССР
+N41	Reference T1 Wikidata:Q7525	Севастополь
+N42	Reference T55 Wikidata:Q930090	архиепископ Лука
+N43	Reference T54 Wikidata:Q930090	архиепископ Лука
+N44	Reference T50 Wikidata:Q930090	архиепископ Лука
+N45	Reference T45 Wikidata:Q930090	архиепископ Лука
+N46	Reference T25 Wikidata:Q49476	архиепископ
+N47	Reference T27 Wikidata:Q29182	епископ
+N48	Reference T2 Wikidata:Q930090	архиепископ Лука
+N49	Reference T48 Wikidata:Q930090	архиепископ Лука
+N50	Reference T10 Wikidata:Q934022	Черноморский флот ВМФ России
+N51	Reference T72 Wikidata:Q35032	Православная церковь
+N52	Reference T44 Wikidata:Q4411339	
+N53	Reference T79 Wikidata:Q166	Чёрное море
+N54	Reference T62 Wikidata:Q15966495	Республика Крым
+N55	Reference T77 Wikidata:Q15966495	Республика Крым
+N56	Reference T76 Wikidata:Q15966495	Республика Крым
+N57	Reference T12 Wikidata:Q19566	Симферополь

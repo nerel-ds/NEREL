@@ -1,0 +1,110 @@
+T2	PERSON 14 28	Роберта Мугабе
+T3	COUNTRY 63 71	Зимбабве
+T4	PERSON 72 85	Роберт Мугабе
+T5	PROFESSION 108 127	президента Зимбабве
+T6	PERSON 128 142	Роберта Мугабе
+T7	DATE 144 154	21 февраля
+T8	EVENT 223 279	Национальный день молодежи имени Роберта Габриэля Мугабе
+T9	PERSON 256 279	Роберта Габриэля Мугабе
+T10	DATE 342 361	в августе 2017 года
+T11	ORGANIZATION 411 477	Зимбабвийский африканский национальный союз — Патриотический фронт
+T12	DATE 514 533	24 ноября 2017 года
+T13	EVENT 554 565	инаугурация
+T14	PROFESSION 573 592	президента Зимбабве
+T15	PERSON 593 612	Эммерсона Мнангагвы
+T16	PERSON 633 646	Роберт Мугабе
+T17	COUNTRY 743 751	Зимбабве
+T18	TIME 769 805	в ночь на среду, 15 ноября 2017 года
+T19	DATE 779 805	среду, 15 ноября 2017 года
+T20	COUNTRY 809 817	Зимбабве
+T21	ORGANIZATION 912 915	ZBC
+T22	AGE 948 958	93-летнего
+T23	PROFESSION 959 976	президента страны
+T24	PERSON 977 991	Роберта Мугабе
+T25	DATE 1005 1014	21 ноября
+T26	PROFESSION 1053 1063	президента
+T1	COUNTRY 119 127	Зимбабве
+T27	PROFESSION 108 118	президента
+T28	COUNTRY 411 424	Зимбабвийский
+T29	LOCATION 425 436	африканский
+T30	COUNTRY 584 592	Зимбабве
+T31	PROFESSION 573 583	президента
+T32	EVENT 828 853	государственный переворот
+T33	PROFESSION 855 862	Военные
+T34	PERSON 1015 1028	Роберт Мугабе
+T35	COUNTRY 1064 1072	Зимбабве
+T36	PROFESSION 1053 1072	президента Зимбабве
+T37	PROFESSION 735 751	лидеров Зимбабве
+T38	EVENT 34 60	государственным праздником
+R1	WORKS_AS Arg1:T6 Arg2:T5	
+R2	WORKPLACE Arg1:T6 Arg2:T1	
+R3	HEADQUARTERED_IN Arg1:T11 Arg2:T28	
+R4	LOCATED_IN Arg1:T28 Arg2:T29	
+T40	IDEOLOGY 457 471	Патриотический
+R5	IDEOLOGY_OF Arg1:T11 Arg2:T40	
+R6	WORKS_AS Arg1:T15 Arg2:T14	
+R7	WORKPLACE Arg1:T15 Arg2:T30	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+R9	ALTERNATIVE_NAME Arg1:T1 Arg2:T28	
+R10	WORKPLACE Arg1:T5 Arg2:T1	
+R11	WORKPLACE Arg1:T14 Arg2:T30	
+R12	TAKES_PLACE_IN Arg1:T32 Arg2:T20	
+R13	POINT_IN_TIME Arg1:T32 Arg2:T18	
+R14	WORKS_AS Arg1:T24 Arg2:T23	
+R15	AGE_IS Arg1:T24 Arg2:T22	
+R16	HEADQUARTERED_IN Arg1:T21 Arg2:T20	
+R17	WORKPLACE Arg1:T36 Arg2:T35	
+R18	WORKS_AS Arg1:T34 Arg2:T36	
+R19	WORKPLACE Arg1:T34 Arg2:T35	
+T41	EVENT 1039 1052	уходе с поста
+R20	AGENT Arg1:T34 Arg2:T41	
+R21	TAKES_PLACE_IN Arg1:T41 Arg2:T35	
+R22	POINT_IN_TIME Arg1:T41 Arg2:T25	
+T42	EVENT 864 882	захватившие здание
+R23	POINT_IN_TIME Arg1:T42 Arg2:T18	
+R24	SUBEVENT_OF Arg1:T42 Arg2:T32	
+R25	AGENT Arg1:T33 Arg2:T42	
+R26	PARTICIPANT_IN Arg1:T21 Arg2:T42	
+T43	EVENT 931 947	взяли под стражу
+R27	SUBEVENT_OF Arg1:T43 Arg2:T32	
+R28	POINT_IN_TIME Arg1:T43 Arg2:T18	
+R29	AGENT Arg1:T33 Arg2:T43	
+R30	AGE_IS Arg1:T23 Arg2:T22	
+R31	PARTICIPANT_IN Arg1:T24 Arg2:T43	
+R32	DATE_OF_BIRTH Arg1:T6 Arg2:T7	
+T39	EVENT 165 191	государственным праздником
+R33	POINT_IN_TIME Arg1:T39 Arg2:T7	
+R34	TAKES_PLACE_IN Arg1:T39 Arg2:T1	
+R35	TAKES_PLACE_IN Arg1:T38 Arg2:T3	
+R36	ALTERNATIVE_NAME Arg1:T39 Arg2:T8	
+T44	EVENT 223 249	Национальный день молодежи
+R37	PARTICIPANT_IN Arg1:T15 Arg2:T13	
+R38	POINT_IN_TIME Arg1:T13 Arg2:T12	
+R39	TAKES_PLACE_IN Arg1:T13 Arg2:T30	
+R40	WORKPLACE Arg1:T37 Arg2:T17	
+R41	FOUNDED_BY Arg1:T17 Arg2:T16	
+R42	WORKS_AS Arg1:T16 Arg2:T37	
+N1	Reference T11 Wikidata:Q1910161	Зимбабвийский африканский национальный союз — Патриотический фронт
+N2	Reference T15 Wikidata:Q510523	Эммерсон Мнангагва
+N3	Reference T16 Wikidata:Q10707	Роберт Мугабе
+N5	Reference T27 Wikidata:Q30461	президент
+N6	Reference T33 Wikidata:Q47064	военнослужащий
+N7	Reference T35 Wikidata:Q954	Зимбабве
+N9	Reference T29 Wikidata:Q15	Африка
+N8	Reference T37 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:Q872676	
+N4	Reference T23 Wikidata:Q30461	президент
+N11	Reference T24 Wikidata:Q10707	Роберт Мугабе
+N12	Reference T34 Wikidata:Q10707	Роберт Мугабе
+N13	Reference T4 Wikidata:Q10707	Роберт Мугабе
+N14	Reference T9 Wikidata:Q10707	Роберт Мугабе
+N15	Reference T2 Wikidata:Q10707	Роберт Мугабе
+N16	Reference T6 Wikidata:Q10707	Роберт Мугабе
+N17	Reference T31 Wikidata:Q30461	президент
+N18	Reference T26 Wikidata:Q30461	президент
+N19	Reference T20 Wikidata:Q954	Зимбабве
+N20	Reference T17 Wikidata:Q954	Зимбабве
+N21	Reference T3 Wikidata:Q954	Зимбабве
+N22	Reference T28 Wikidata:Q954	Зимбабве
+N23	Reference T1 Wikidata:Q954	Зимбабве
+N24	Reference T30 Wikidata:Q954	Зимбабве

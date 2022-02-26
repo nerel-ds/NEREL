@@ -1,0 +1,186 @@
+T2	DATE 45 62	6 марта 2016 года
+T3	PROFESSION 68 75	дирижер
+T4	PERSON 76 92	Николас Арнонкур
+T5	PERSON 147 162	Филипп Арнонкур
+T6	NATIONALITY 191 203	австрийскому
+T7	AGE 218 224	86 лет
+T8	PERSON 274 291	Николаус Арнонкур
+T9	DATE 300 319	в декабре 1929 года
+T10	CITY 322 329	Берлине
+T11	CITY 349 353	Вене
+T12	DATE 355 366	В 1952 году
+T13	ORGANIZATION 393 422	Венский симфонический оркестр
+T14	PROFESSION 434 447	виолончелиста
+T15	DATE 463 475	до 1969 года
+T16	DATE 477 488	В 1953 году
+T17	ORGANIZATION 520 542	Concentus Musicus Wien
+T18	DATE 544 555	В 1970 году
+T19	PROFESSION 570 578	дирижёра
+T20	CITY 581 590	миланском
+T21	ORGANIZATION 607 615	Ла Скала
+T22	DATE 618 629	В 1971 году
+T23	NATIONALITY 665 676	голландским
+T24	PERSON 688 708	Густавом Леонхардтом
+T25	DATE 711 720	за 19 лет
+T26	PERSON 753 760	Николас
+T27	DATE 790 809	5 декабра 2015 года
+T29	AWARD 843 849	Грэмми
+T30	CITY 851 856	Киото
+T31	CITY 858 869	Лейпцигской
+T32	PROFESSION 889 930	Почётный доктор зальцбургского Моцартеума
+T33	DATE 975 993	в ноябре 2010 года
+T34	ORGANIZATION 1036 1054	BBC Music Magazine
+T35	NUMBER 1061 1064	ста
+T36	PERSON 1127 1138	Колин Дэвис
+T37	COUNTRY 1140 1154	Великобритания
+T38	PERSON 1157 1172	Валерий Гергиев
+T39	COUNTRY 1174 1180	Россия
+T40	PERSON 1183 1199	Густаво Дудамель
+T41	COUNTRY 1201 1210	Венесуэла
+T42	PERSON 1213 1225	Марис Янсонс
+T43	COUNTRY 1227 1233	Латвия
+T44	PERSON 1236 1244	Арнонкур
+T45	ORDINAL 1251 1256	пятое
+T46	NUMBER 1275 1283	двадцати
+T47	AWARD 1336 1345	Зал славы
+T48	ORGANIZATION 1354 1364	Gramophone
+T49	PERSON 10 26	Николас Арнонкур
+T50	PERSON 28 44	Николас Арнонкур
+T51	PROFESSION 113 122	дирижёров
+T52	PROFESSION 226 242	Деятель культуры
+T53	PROFESSION 204 212	дирижеру
+T54	PROFESSION 375 382	дирижёр
+T55	CITY 393 400	Венский
+T56	PROFESSION 1304 1313	дирижёров
+T57	PERSON 870 879	Баховской
+T58	AWARD 858 887	Лейпцигской Баховской медалью
+T59	AWARD 819 841	премией Роберта Шумана
+T60	CITY 538 542	Wien
+T61	PERSON 630 638	Арнонкур
+T62	PROFESSION 677 687	музыкантом
+T63	PERSON 747 751	Баха
+T65	ORGANIZATION 920 930	Моцартеума
+T66	CITY 905 919	зальцбургского
+T67	DATE 932 936	2008
+T68	COUNTRY 994 1004	британским
+T69	PROFESSION 1065 1074	дирижёров
+T70	PROFESSION 1112 1121	музыканты
+T71	EVENT 63 67	умер
+R1	WORKS_AS Arg1:T4 Arg2:T3	
+R2	PARENT_OF Arg1:T4 Arg2:T5	
+R3	WORKS_AS Arg1:T4 Arg2:T51	
+R4	AGE_DIED_AT Arg1:T4 Arg2:T7	
+R5	DATE_OF_DEATH Arg1:T4 Arg2:T2	
+R6	ORIGINS_FROM Arg1:T4 Arg2:T6	
+R7	WORKS_AS Arg1:T4 Arg2:T52	
+R8	DATE_OF_BIRTH Arg1:T8 Arg2:T9	
+R9	PLACE_OF_BIRTH Arg1:T8 Arg2:T10	
+R10	WORKPLACE Arg1:T8 Arg2:T13	
+R11	WORKS_AS Arg1:T8 Arg2:T14	
+R12	FOUNDED_BY Arg1:T17 Arg2:T8	
+R13	DATE_FOUNDED_IN Arg1:T17 Arg2:T16	
+R14	HEADQUARTERED_IN Arg1:T21 Arg2:T20	
+R15	WORKS_AS Arg1:T8 Arg2:T19	
+R16	WORKPLACE Arg1:T8 Arg2:T21	
+R17	KNOWS Arg1:T61 Arg2:T24	
+R18	WORKS_AS Arg1:T24 Arg2:T62	
+R19	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R20	PARTICIPANT_IN Arg1:T4 Arg2:T71	
+R21	POINT_IN_TIME Arg1:T71 Arg2:T2	
+T28	PERSON 827 841	Роберта Шумана
+R22	AWARDED_WITH Arg1:T26 Arg2:T59	
+R23	AWARDED_WITH Arg1:T26 Arg2:T29	
+R24	AWARDED_WITH Arg1:T26 Arg2:T58	
+R25	ORIGINS_FROM Arg1:T36 Arg2:T37	
+R26	ORIGINS_FROM Arg1:T38 Arg2:T39	
+R27	ORIGINS_FROM Arg1:T40 Arg2:T41	
+R28	ORIGINS_FROM Arg1:T42 Arg2:T43	
+R29	WORKS_AS Arg1:T44 Arg2:T56	
+R30	WORKS_AS Arg1:T36 Arg2:T69	
+R31	WORKS_AS Arg1:T38 Arg2:T69	
+R32	WORKS_AS Arg1:T40 Arg2:T69	
+R33	WORKS_AS Arg1:T42 Arg2:T69	
+R34	WORKS_AS Arg1:T44 Arg2:T69	
+R35	WORKS_AS Arg1:T36 Arg2:T70	
+R36	WORKS_AS Arg1:T38 Arg2:T70	
+R37	WORKS_AS Arg1:T40 Arg2:T70	
+R38	WORKS_AS Arg1:T42 Arg2:T70	
+R39	WORKS_AS Arg1:T44 Arg2:T70	
+T64	EVENT 0 9	Скончался
+R40	PARTICIPANT_IN Arg1:T49 Arg2:T64	
+R41	ALTERNATIVE_NAME Arg1:T64 Arg2:T71	
+R42	ORIGINS_FROM Arg1:T53 Arg2:T6	
+R43	AGE_IS Arg1:T53 Arg2:T7	
+R44	WORKS_AS Arg1:T8 Arg2:T54	
+R45	HEADQUARTERED_IN Arg1:T13 Arg2:T55	
+R46	HEADQUARTERED_IN Arg1:T17 Arg2:T60	
+R47	ALTERNATIVE_NAME Arg1:T8 Arg2:T61	
+R48	HEADQUARTERED_IN Arg1:T65 Arg2:T66	
+R49	ALTERNATIVE_NAME Arg1:T55 Arg2:T60	
+R50	ALTERNATIVE_NAME Arg1:T62 Arg2:T23	
+R51	ORIGINS_FROM Arg1:T58 Arg2:T31	
+R52	HEADQUARTERED_IN Arg1:T34 Arg2:T68	
+R53	PRODUCES Arg1:T48 Arg2:T47	
+R54	AWARDED_WITH Arg1:T26 Arg2:T47	
+R55	ALTERNATIVE_NAME Arg1:T61 Arg2:T26	
+T1	ORGANIZATION 1036 1039	BBC
+R56	OWNER_OF Arg1:T1 Arg2:T34	
+N3	Reference T10 Wikidata:Q64	Берлин
+N4	Reference T11 Wikidata:Q1741	Вена
+N5	Reference T13 Wikidata:Q686887	Венский симфонический оркестр
+N6	Reference T14 Wikidata:Q13219637	виолончелист
+N7	Reference T17 Wikidata:Q372863	Concentus Musicus Wien
+N8	Reference T21 Wikidata:Q5471	Ла Скала
+N10	Reference T24 Wikidata:Q51584	Леонхардт, Густав
+N12	Reference T29 Wikidata:Q41254	«Грэмми»
+N13	Reference T30 Wikidata:Q34600	Киото
+N16	Reference T36 Wikidata:Q366624	Дэвис, Колин
+N17	Reference T37 Wikidata:Q145	Великобритания
+N18	Reference T38 Wikidata:Q165693	Валерий Абисалович Гергиев
+N19	Reference T39 Wikidata:Q159	Россия
+N20	Reference T40 Wikidata:Q160390	Дудамель, Густаво
+N21	Reference T41 Wikidata:Q717	Венесуэла
+N22	Reference T42 Wikidata:Q158340	Марис Арвидович Янсонс
+N23	Reference T43 Wikidata:Q211	Латвия
+N24	Reference T47 Wikidata:Q1046088	залы славы
+N25	Reference T48 Wikidata:Q1542344	Gramophone
+N26	Reference T49 Wikidata:Q78526	Николаус Арнонкур
+N27	Reference T51 Wikidata:Q158852	дирижёр
+N30	Reference T58 Wikidata:Q151005	Битва народов
+N31	Reference T59 Wikidata:Q883539	Премия Роберта Шумана
+N32	Reference T61 Wikidata:Q78526	Николаус Арнонкур
+N33	Reference T62 Wikidata:Q639669	музыкант
+N34	Reference T65 Wikidata:Q871369	Моцартеум
+N37	Reference T28 Wikidata:Q7351	Роберт Шуман
+N1	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:Q237534	
+N38	Reference T52 Wikidata:NULL	нет данных
+N28	Reference T55 Wikidata:Q1741	Вена
+N39	Reference T20 Wikidata:Q490	Милан
+N40	Reference T63 Wikidata:Q1339	Иоганн Себастьян Бах
+N9	Reference T23 Wikidata:Q200569	голландцы
+N11	Reference T26 Wikidata:Q78526	Николаус Арнонкур
+N29	Reference T57 Wikidata:Q1339	Иоганн Себастьян Бах
+N14	Reference T31 Wikidata:Q2079	
+N41	Reference T32 Wikidata:NULL	нет данных
+N35	Reference T66 Wikidata:Q34713	
+N36	Reference T68 Wikidata:Q161885	Королевство Великобритания
+N15	Reference T34 Wikidata:Q1450778	
+N42	Reference T4 Wikidata:Q78526	Николаус Арнонкур
+N43	Reference T50 Wikidata:Q78526	Николаус Арнонкур
+N44	Reference T53 Wikidata:Q158852	дирижёр
+N45	Reference T56 Wikidata:Q158852	дирижёр
+N46	Reference T19 Wikidata:Q158852	дирижёр
+N47	Reference T54 Wikidata:Q158852	дирижёр
+N48	Reference T3 Wikidata:Q158852	дирижёр
+N49	Reference T69 Wikidata:Q158852	дирижёр
+N50	Reference T44 Wikidata:Q78526	Николаус Арнонкур
+N51	Reference T8 Wikidata:Q78526	Николаус Арнонкур
+N52	Reference T70 Wikidata:Q639669	музыкант
+N53	Reference T60 Wikidata:Q1741	Вена
+T72	EVENT 292 299	родился
+R57	PARTICIPANT_IN Arg1:T8 Arg2:T72	
+R58	POINT_IN_TIME Arg1:T72 Arg2:T9	
+R59	TAKES_PLACE_IN Arg1:T72 Arg2:T10	
+R60	PLACE_RESIDES_IN Arg1:T8 Arg2:T11	
+R61	WORKPLACE Arg1:T54 Arg2:T13	

@@ -1,0 +1,92 @@
+T1	PERSON 0 8	Гай Ричи
+T2	PERSON 45 53	Аладдина
+T3	PERSON 66 73	Мадонна
+T4	PERSON 83 91	Гай Ричи
+T5	PERSON 122 130	Аладдина
+T6	DATE 177 194	в марте 2017 года
+T7	PROFESSION 197 205	Режиссёр
+T8	PERSON 208 220	Рэнди Хиллер
+T9	PROFESSION 222 242	директор по кастингу
+T10	NUMBER 258 262	2000
+T11	PERSON 277 285	Аладдина
+T12	PERSON 307 311	Ричи
+T13	AGE 339 345	лет 20
+T14	ORGANIZATION 492 514	The Hollywood Reporter
+T15	PERSON 524 531	Алладин
+T16	PERSON 549 560	Дева Пателя
+T17	PERSON 565 576	Риза Ахмеда
+T18	AGE 619 621	27
+T19	AGE 624 630	34 лет
+T20	PERSON 655 661	Жасмин
+T21	NATIONALITY 675 685	англичанку
+T22	PERSON 686 697	Наоми Скотт
+T23	NATIONALITY 700 707	индуску
+T24	PERSON 708 720	Тара Сутариа
+T25	PERSON 730 738	Гай Ричи
+T26	PERSON 799 807	Алладина
+T27	NATIONALITY 890 897	канадец
+T28	PERSON 898 909	Мена Массуд
+T29	NATIONALITY 911 920	голландец
+T30	NATIONALITY 935 945	американец
+T31	PERSON 946 961	Джордж Костурос
+T33	PERSON 1078 1087	Уилл Смит
+T34	PERSON 54 63	Гай Ричии
+T35	PROFESSION 74 82	Режиссёр
+T36	PROFESSION 1048 1053	актёр
+T32	PERSON 921 932	Ахраф Котет
+T37	PERSON 298 304	Жасмин
+T38	PROFESSION 288 297	принцессы
+T39	PROFESSION 107 113	актёра
+R1	WORKS_AS Arg1:T4 Arg2:T35	
+R2	WORKS_AS Arg1:T8 Arg2:T9	
+R3	WORKS_AS Arg1:T4 Arg2:T7	
+R4	WORKS_AS Arg1:T37 Arg2:T38	
+R5	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+R6	AGE_IS Arg1:T16 Arg2:T18	
+R7	AGE_IS Arg1:T17 Arg2:T19	
+R8	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R9	ORIGINS_FROM Arg1:T22 Arg2:T21	
+R10	WORKS_AS Arg1:T33 Arg2:T36	
+R11	ORIGINS_FROM Arg1:T28 Arg2:T27	
+R12	ORIGINS_FROM Arg1:T32 Arg2:T29	
+R13	ORIGINS_FROM Arg1:T31 Arg2:T30	
+T40	EVENT 161 168	Кастинг
+R14	START_TIME Arg1:T40 Arg2:T6	
+R15	AGENT Arg1:T4 Arg2:T40	
+T41	DISTRICT 496 505	Hollywood
+R16	HEADQUARTERED_IN Arg1:T14 Arg2:T41	
+N1	Reference T3 Wikidata:Q1744	Мадонна
+N2	Reference T5 Wikidata:Q1358109	Аладдин (Дисней)
+N3	Reference T14 Wikidata:Q61503	The Hollywood Reporter
+N4	Reference T16 Wikidata:Q245075	Дев Патель
+N5	Reference T17 Wikidata:Q1861917	Риз Ахмед
+N6	Reference T21 Wikidata:Q42406	англичане
+N7	Reference T22 Wikidata:Q254894	Наоми Скотт
+N9	Reference T25 Wikidata:Q192990	Гай Ричи
+N10	Reference T27 Wikidata:Q1196645	канадцы
+N11	Reference T28 Wikidata:Q33080779	Мена Массуд
+N12	Reference T29 Wikidata:Q200569	голландцы
+N13	Reference T30 Wikidata:Q498438	Американцы
+N14	Reference T33 Wikidata:Q40096	Уилл Смит
+N15	Reference T34 Wikidata:Q192990	Гай Ричи
+N16	Reference T35 Wikidata:Q3455803	режиссёр
+N19	Reference T38 Wikidata:Q2747456	принц
+N20	Reference T39 Wikidata:Q33999	актёр
+N21	Reference T41 Wikidata:Q34006	Голливуд
+N22	Reference T8 Wikidata:NULL	нет данных
+N23	Reference T9 Wikidata:Q1049296	
+N18	Reference T37 Wikidata:Q951483	
+N24	Reference T23 Wikidata:Q311977	
+N8	Reference T24 Wikidata:NULL	нет данных
+N25	Reference T26 Wikidata:Q215518	Аладдин
+N17	Reference T32 Wikidata:Q55923699	
+N26	Reference T31 Wikidata:Q60681732	
+N27	Reference T2 Wikidata:Q1358109	Аладдин (Дисней)
+N28	Reference T11 Wikidata:Q1358109	Аладдин (Дисней)
+N29	Reference T4 Wikidata:Q192990	Гай Ричи
+N30	Reference T1 Wikidata:Q192990	Гай Ричи
+N31	Reference T12 Wikidata:Q192990	Гай Ричи
+N32	Reference T7 Wikidata:Q3455803	режиссёр
+N33	Reference T36 Wikidata:Q33999	актёр
+N34	Reference T20 Wikidata:Q951483	
+N35	Reference T15 Wikidata:Q215518	Аладдин

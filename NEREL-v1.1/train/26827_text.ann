@@ -1,0 +1,329 @@
+T1	CITY 2 8	Москве
+T2	PROFESSION 15 20	актёр
+T3	PERSON 21 33	Андрей Панин
+T4	TIME 47 84	Около 11 часов утра 7 марта 2013 года
+T5	DATE 67 84	7 марта 2013 года
+T6	LOCATION 104 121	Юго-Западе Москвы
+T7	COUNTRY 154 165	российского
+T8	DATE 294 320	за несколько дней до этого
+T9	ORGANIZATION 354 358	ГУВД
+T10	DATE 368 390	В течение четырёх дней
+T11	FACILITY 479 500	Балаклавский проспект
+T13	AGE 516 526	50-летнего
+T14	PERSON 713 738	Андрей Владимирович Панин
+T15	NATIONALITY 741 751	российский
+T17	DATE 813 824	с 1999 года
+T18	PERSON 827 832	Панин
+T19	DATE 841 857	28 мая 1962 года
+T20	CITY 860 872	Новосибирске
+T21	CITY 890 900	Челябинске
+T22	AGE 911 919	22-х лет
+T23	CITY 924 932	Кемерове
+T24	ORGANIZATION 946 963	Институт культуры
+T25	PERSON 972 991	Андрей Владимирович
+T26	CITY 1003 1009	Москву
+T27	ORGANIZATION 1023 1040	Школу-студию МХАТ
+T28	PERSON 1053 1072	Александра Калягина
+T29	PROFESSION 1091 1098	актером
+T30	ORGANIZATION 1099 1117	МХАТа имени Чехова
+T31	ORGANIZATION 1123 1128	МХАТе
+T32	WORK_OF_ART 1164 1174	Три сестры
+T33	WORK_OF_ART 1178 1191	Скупой рыцарь
+T34	WORK_OF_ART 1195 1203	Женитьба
+T35	WORK_OF_ART 1207 1224	Смертельный номер
+T36	PERSON 1228 1233	Панин
+T37	PROFESSION 1267 1276	киноактёр
+T38	WORK_OF_ART 1296 1305	Каменская
+T39	WORK_OF_ART 1309 1331	Граница. Таежный роман
+T41	WORK_OF_ART 1335 1349	Марш Турецкого
+T42	WORK_OF_ART 1379 1386	Бригада
+T43	WORK_OF_ART 1452 1459	Свадьбе
+T44	PERSON 1461 1474	Павла Лунгина
+T45	WORK_OF_ART 1477 1492	Нежном возрасте
+T46	PERSON 1494 1510	Сергея Соловьева
+T47	WORK_OF_ART 1513 1530	Водителе для Веры
+T49	PERSON 1532 1544	Павла Чухрая
+T50	WORK_OF_ART 1547 1567	Утомленных солнцем 2
+T51	PERSON 1569 1585	Никиты Михалкова
+T52	WORK_OF_ART 1588 1594	Морфие
+T53	PERSON 1596 1614	Алексея Балабанова
+T54	WORK_OF_ART 1617 1637	Жизнь забавами полна
+T55	PERSON 1639 1657	Петра Тодоровского
+T56	WORK_OF_ART 1660 1698	Ядах, или Всемирной истории отравлений
+T57	PERSON 1700 1718	Карена Шахназарова
+T58	PERSON 1733 1754	Тамарой Владимирцевой
+T59	WORK_OF_ART 1790 1804	Полный вперед!
+T60	WORK_OF_ART 1816 1829	Внук Гагарина
+T61	PERSON 1833 1845	Андрей Панин
+T62	NUMBER 1853 1858	троих
+T63	ORDINAL 1869 1876	первого
+T64	PROFESSION 1885 1896	экономистом
+T65	PERSON 1927 1934	Надежда
+T66	ORDINAL 1939 1946	второго
+T67	PERSON 1955 1974	Натальей Рогожкиной
+T68	PERSON 1985 1994	Александр
+T69	PERSON 1997 2001	Пётр
+T71	PERSON 2019 2032	Андрея Панина
+T72	ORGANIZATION 2041 2061	МХТ им. А. П. Чехова
+T73	PERSON 2062 2079	Наталья Рогожкина
+T74	ORGANIZATION 2211 2220	Life News
+T75	EVENT 9 14	погиб
+T76	PERSON 34 46	Андрей Панин
+T77	CITY 115 121	Москвы
+T78	PROFESSION 166 172	актёра
+T79	PROFESSION 175 184	режиссёра
+T80	PERSON 185 198	Андрея Панина
+T81	DISEASE 201 215	травмой головы
+T82	PROFESSION 217 223	Артист
+T83	EVENT 241 246	погиб
+T84	ORGANIZATION 354 365	ГУВД Москвы
+T85	CITY 359 365	Москвы
+T86	PROFESSION 393 400	актёром
+T87	PERSON 441 447	Панина
+T88	PROFESSION 527 533	актёра
+T89	DISEASE 570 584	травмой головы
+T91	PROFESSION 752 757	актёр
+T16	AWARD 773 812	заслуженный артист Российской Федерации
+T92	COUNTRY 792 812	Российской Федерации
+T93	ORGANIZATION 1036 1040	МХАТ
+T94	ORGANIZATION 1099 1104	МХАТа
+T95	PERSON 1111 1117	Чехова
+T40	PROFESSION 1406 1413	артисту
+T48	PERSON 1755 1760	Панин
+T96	PROFESSION 1770 1780	режиссёром
+T97	PERSON 1897 1905	Татьяной
+T70	ORGANIZATION 2041 2044	МХТ
+T98	PERSON 2049 2061	А. П. Чехова
+T99	EVENT 2089 2095	смерти
+T100	PROFESSION 2112 2123	журналистов
+T101	PROFESSION 2199 2210	журналистам
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T75	
+R3	TAKES_PLACE_IN Arg1:T75 Arg2:T1	
+R4	WORKS_AS Arg1:T80 Arg2:T79	
+R5	WORKS_AS Arg1:T80 Arg2:T78	
+R6	ORIGINS_FROM Arg1:T80 Arg2:T7	
+R7	LOCATED_IN Arg1:T77 Arg2:T7	
+T102	EVENT 127 142	обнаружено тело
+R8	INANIMATE_INVOLVED Arg1:T80 Arg2:T102	
+R9	TAKES_PLACE_IN Arg1:T102 Arg2:T6	
+R10	POINT_IN_TIME Arg1:T102 Arg2:T4	
+R11	MEDICAL_CONDITION Arg1:T80 Arg2:T81	
+R12	HAS_CAUSE Arg1:T83 Arg2:T81	
+T103	EVENT 260 278	несчастного случая
+R13	HAS_CAUSE Arg1:T83 Arg2:T103	
+R14	POINT_IN_TIME Arg1:T103 Arg2:T8	
+R15	PARTICIPANT_IN Arg1:T82 Arg2:T83	
+R16	PARTICIPANT_IN Arg1:T82 Arg2:T103	
+R17	HEADQUARTERED_IN Arg1:T84 Arg2:T85	
+R18	ALTERNATIVE_NAME Arg1:T80 Arg2:T87	
+T12	FACILITY 502 508	дом 18
+R19	LOCATED_IN Arg1:T12 Arg2:T11	
+R20	LOCATED_IN Arg1:T11 Arg2:T6	
+R21	LOCATED_IN Arg1:T11 Arg2:T85	
+R22	AGE_DIED_AT Arg1:T88 Arg2:T13	
+T104	EVENT 534 552	обнаружили на полу
+R23	PARTICIPANT_IN Arg1:T88 Arg2:T104	
+R24	MEDICAL_CONDITION Arg1:T88 Arg2:T89	
+R25	ALTERNATIVE_NAME Arg1:T87 Arg2:T14	
+R28	ORIGINS_FROM Arg1:T14 Arg2:T15	
+T105	PROFESSION 752 771	актёр театра и кино
+R26	ORIGINS_FROM Arg1:T105 Arg2:T15	
+R27	WORKS_AS Arg1:T14 Arg2:T105	
+R29	ORIGINS_FROM Arg1:T15 Arg2:T92	
+R30	ORIGINS_FROM Arg1:T16 Arg2:T92	
+R31	AWARDED_WITH Arg1:T14 Arg2:T16	
+R35	PLACE_OF_BIRTH Arg1:T18 Arg2:T20	
+R36	DATE_OF_BIRTH Arg1:T18 Arg2:T19	
+R37	PLACE_OF_DEATH Arg1:T87 Arg2:T12	
+R38	LOCATED_IN Arg1:T18 Arg2:T21	
+R39	LOCATED_IN Arg1:T18 Arg2:T23	
+R40	AGE_IS Arg1:T18 Arg2:T22	
+R41	LOCATED_IN Arg1:T23 Arg2:T92	
+R42	LOCATED_IN Arg1:T21 Arg2:T92	
+R43	LOCATED_IN Arg1:T20 Arg2:T92	
+R44	SCHOOLS_ATTENDED Arg1:T18 Arg2:T24	
+R45	HEADQUARTERED_IN Arg1:T24 Arg2:T23	
+R46	ALTERNATIVE_NAME Arg1:T18 Arg2:T25	
+R47	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+R48	PART_OF Arg1:T27 Arg2:T93	
+R49	SCHOOLS_ATTENDED Arg1:T25 Arg2:T27	
+T107	ORGANIZATION 1042 1072	мастерская Александра Калягина
+R50	FOUNDED_BY Arg1:T107 Arg2:T28	
+R51	PART_OF Arg1:T107 Arg2:T27	
+R52	WORKS_AS Arg1:T25 Arg2:T29	
+R53	ORIGINS_FROM Arg1:T30 Arg2:T95	
+R54	WORKPLACE Arg1:T29 Arg2:T30	
+R55	WORKPLACE Arg1:T25 Arg2:T30	
+R56	PARTICIPANT_IN Arg1:T25 Arg2:T32	
+R57	PARTICIPANT_IN Arg1:T25 Arg2:T33	
+R58	PARTICIPANT_IN Arg1:T25 Arg2:T34	
+R59	PARTICIPANT_IN Arg1:T25 Arg2:T35	
+R60	PARTICIPANT_IN Arg1:T30 Arg2:T32	
+R61	PARTICIPANT_IN Arg1:T30 Arg2:T33	
+R62	PARTICIPANT_IN Arg1:T30 Arg2:T35	
+R63	PARTICIPANT_IN Arg1:T30 Arg2:T34	
+R64	WORKS_AS Arg1:T36 Arg2:T37	
+R65	PARTICIPANT_IN Arg1:T36 Arg2:T38	
+R66	PARTICIPANT_IN Arg1:T36 Arg2:T39	
+R67	PARTICIPANT_IN Arg1:T36 Arg2:T41	
+R68	PARTICIPANT_IN Arg1:T36 Arg2:T42	
+R69	WORKS_AS Arg1:T36 Arg2:T40	
+R70	PARTICIPANT_IN Arg1:T36 Arg2:T43	
+R71	PRODUCES Arg1:T44 Arg2:T43	
+R72	PARTICIPANT_IN Arg1:T36 Arg2:T45	
+R73	PRODUCES Arg1:T46 Arg2:T45	
+R74	PARTICIPANT_IN Arg1:T36 Arg2:T47	
+R75	PRODUCES Arg1:T49 Arg2:T47	
+R76	PARTICIPANT_IN Arg1:T36 Arg2:T50	
+R77	PRODUCES Arg1:T51 Arg2:T50	
+R78	PARTICIPANT_IN Arg1:T36 Arg2:T52	
+R79	PRODUCES Arg1:T53 Arg2:T52	
+R80	PARTICIPANT_IN Arg1:T36 Arg2:T54	
+R81	PARTICIPANT_IN Arg1:T55 Arg2:T54	
+R82	PARTICIPANT_IN Arg1:T36 Arg2:T56	
+T108	PERSON 1526 1530	Веры
+R83	PARTICIPANT_IN Arg1:T57 Arg2:T56	
+R84	KNOWS Arg1:T36 Arg2:T58	
+R85	WORKS_AS Arg1:T48 Arg2:T96	
+R86	PRODUCES Arg1:T48 Arg2:T59	
+T109	PERSON 1821 1829	Гагарина
+R87	PRODUCES Arg1:T48 Arg2:T60	
+R88	PRODUCES Arg1:T58 Arg2:T59	
+R89	PRODUCES Arg1:T58 Arg2:T60	
+R90	SPOUSE Arg1:T61 Arg2:T97	
+R91	WORKS_AS Arg1:T97 Arg2:T64	
+R92	PARENT_OF Arg1:T61 Arg2:T65	
+R93	PARENT_OF Arg1:T97 Arg2:T65	
+R94	SPOUSE Arg1:T61 Arg2:T67	
+R95	PARENT_OF Arg1:T61 Arg2:T68	
+R96	PARENT_OF Arg1:T61 Arg2:T69	
+R97	PARENT_OF Arg1:T67 Arg2:T68	
+R98	PARENT_OF Arg1:T67 Arg2:T69	
+R99	SIBLING Arg1:T68 Arg2:T69	
+R100	SIBLING Arg1:T68 Arg2:T65	
+R101	SIBLING Arg1:T69 Arg2:T65	
+R102	ALTERNATIVE_NAME Arg1:T95 Arg2:T98	
+R103	SPOUSE Arg1:T71 Arg2:T73	
+R104	ORIGINS_FROM Arg1:T72 Arg2:T98	
+T110	PROFESSION 2033 2040	актриса
+R105	WORKS_AS Arg1:T73 Arg2:T110	
+R106	WORKPLACE Arg1:T110 Arg2:T72	
+R107	WORKPLACE Arg1:T73 Arg2:T72	
+R108	PARTICIPANT_IN Arg1:T71 Arg2:T99	
+T111	PROFESSION 2199 2220	журналистам Life News
+R109	WORKPLACE Arg1:T111 Arg2:T74	
+R110	LOCATED_IN Arg1:T6 Arg2:T77	
+R111	WORKS_AS Arg1:T80 Arg2:T82	
+R112	INANIMATE_INVOLVED Arg1:T87 Arg2:T104	
+T90	PROFESSION 785 791	артист
+R113	POINT_IN_TIME Arg1:T16 Arg2:T17	
+R114	WORKS_AS Arg1:T14 Arg2:T90	
+R32	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R33	PRODUCES Arg1:T31 Arg2:T32	
+R34	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R115	PRODUCES Arg1:T31 Arg2:T33	
+R116	PRODUCES Arg1:T31 Arg2:T34	
+R117	PRODUCES Arg1:T31 Arg2:T35	
+T106	ORDINAL 1566 1567	2
+R118	KNOWS Arg1:T58 Arg2:T48	
+N2	Reference T9 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N3	Reference T11 Wikidata:Q4076306	Балаклавский проспект
+N6	Reference T20 Wikidata:Q883	Новосибирск
+N7	Reference T21 Wikidata:Q906	Челябинск
+N8	Reference T23 Wikidata:Q6066	Кемерово
+N10	Reference T26 Wikidata:Q649	Москва
+N11	Reference T27 Wikidata:Q3577654	Школа-студия МХАТ
+N12	Reference T28 Wikidata:Q2366127	Александр Александрович Калягин
+N13	Reference T32 Wikidata:Q477823	Три сестры
+N14	Reference T33 Wikidata:Q3221232	Скупой рыцарь
+N15	Reference T34 Wikidata:Q4179360	Женитьба
+N18	Reference T39 Wikidata:Q4147887	Граница. Таёжный роман
+N19	Reference T41 Wikidata:Q4283199	Марш Турецкого
+N20	Reference T42 Wikidata:Q915313	Бригада
+N21	Reference T43 Wikidata:Q158473	Свадьба
+N22	Reference T44 Wikidata:Q930903	Павел Семёнович Лунгин
+N23	Reference T45 Wikidata:Q4316232	Нежный возраст
+N25	Reference T47 Wikidata:Q718475	Водитель для Веры
+N26	Reference T49 Wikidata:Q769783	Павел Григорьевич Чухрай
+N27	Reference T50 Wikidata:Q769599	Утомлённые солнцем 2: Предстояние
+N28	Reference T51 Wikidata:Q55207	Никита Михалков
+N29	Reference T52 Wikidata:Q1943424	Морфий
+N30	Reference T53 Wikidata:Q557323	Алексей Балабанов
+N31	Reference T54 Wikidata:Q4180206	Жизнь забавами полна
+N32	Reference T55 Wikidata:Q1890642	Тодоровский, Пётр Ефимович
+N33	Reference T56 Wikidata:Q4536357	Яды, или Всемирная история отравлений
+N34	Reference T57 Wikidata:Q167113	Карен Георгиевич Шахназаров
+N37	Reference T60 Wikidata:Q4113757	Внук космонавта
+N38	Reference T64 Wikidata:Q188094	экономист
+N40	Reference T67 Wikidata:Q4395575	Наталья Сергеевна Рогожкина
+N42	Reference T72 Wikidata:Q4304021	Московский Художественный театр имени А. П. Чехова
+N43	Reference T74 Wikidata:Q4042868	лайф
+N44	Reference T84 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N46	Reference T88 Wikidata:Q33999	актёр
+N47	Reference T16 Wikidata:Q458903	Заслуженный артист Российской Федерации
+N48	Reference T93 Wikidata:Q840812	Московский Художественный театр
+N49	Reference T40 Wikidata:Q483501	деятель искусств
+N50	Reference T96 Wikidata:Q3455803	режиссёр
+N52	Reference T70 Wikidata:Q840812	Московский Художественный театр
+N53	Reference T98 Wikidata:Q5685	Антон Павлович Чехов
+N54	Reference T101 Wikidata:Q1930187	журналист
+N57	Reference T109 Wikidata:Q27350212	Гагарина
+N58	Reference T110 Wikidata:Q33999	актёр
+N1	Reference T6 Wikidata:Q4533656	
+N45	Reference T87 Wikidata:Q2375210	
+N5	Reference T18 Wikidata:Q2375210	
+N55	Reference T12 Wikidata:NULL	нет данных
+N60	Reference T105 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:Q4219245	
+N56	Reference T107 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:NULL	нет данных
+N61	Reference T37 Wikidata:Q10800557	
+N17	Reference T38 Wikidata:Q4211330	
+N24	Reference T46 Wikidata:Q2362904	
+N62	Reference T108 Wikidata:NULL	нет данных
+N35	Reference T58 Wikidata:NULL	нет данных
+N36	Reference T59 Wikidata:NULL	нет данных
+N51	Reference T97 Wikidata:NULL	нет данных
+N39	Reference T65 Wikidata:NULL	нет данных
+N63	Reference T68 Wikidata:NULL	нет данных
+N41	Reference T69 Wikidata:NULL	нет данных
+N59	Reference T111 Wikidata:NULL	нет данных
+N64	Reference T77 Wikidata:Q649	Москва
+N65	Reference T85 Wikidata:Q649	Москва
+N66	Reference T1 Wikidata:Q649	Москва
+N67	Reference T73 Wikidata:Q4395575	Наталья Сергеевна Рогожкина
+N68	Reference T29 Wikidata:Q33999	актёр
+N69	Reference T78 Wikidata:Q33999	актёр
+N70	Reference T91 Wikidata:Q33999	актёр
+N71	Reference T2 Wikidata:Q33999	актёр
+N72	Reference T86 Wikidata:Q33999	актёр
+N73	Reference T31 Wikidata:Q840812	Московский Художественный театр
+N74	Reference T94 Wikidata:Q840812	Московский Художественный театр
+N75	Reference T30 Wikidata:Q840812	Московский Художественный театр
+N76	Reference T82 Wikidata:Q483501	деятель искусств
+N77	Reference T90 Wikidata:Q483501	деятель искусств
+N78	Reference T79 Wikidata:Q3455803	режиссёр
+N79	Reference T95 Wikidata:Q5685	Антон Павлович Чехов
+N80	Reference T100 Wikidata:Q1930187	журналист
+N81	Reference T14 Wikidata:Q2375210	
+N82	Reference T80 Wikidata:Q2375210	
+N83	Reference T3 Wikidata:Q2375210	
+N84	Reference T61 Wikidata:Q2375210	
+N85	Reference T71 Wikidata:Q2375210	
+N86	Reference T76 Wikidata:Q2375210	
+N87	Reference T48 Wikidata:Q2375210	
+N88	Reference T25 Wikidata:Q2375210	
+N89	Reference T36 Wikidata:Q2375210	
+N90	Reference T7 Wikidata:Q159	Россия
+N91	Reference T92 Wikidata:Q159	Россия
+T112	EVENT 833 840	родился
+R119	PARTICIPANT_IN Arg1:T18 Arg2:T112	
+R120	POINT_IN_TIME Arg1:T112 Arg2:T19	
+R121	TAKES_PLACE_IN Arg1:T112 Arg2:T20	
+R122	WORKS_AS Arg1:T87 Arg2:T86	
+N4	Reference T15 Wikidata:Q492468	россияне
+T113	EVENT 992 1000	переехал
+R123	AGENT Arg1:T25 Arg2:T113	
+R124	TAKES_PLACE_IN Arg1:T113 Arg2:T26	
+R125	PRODUCES Arg1:T96 Arg2:T59	

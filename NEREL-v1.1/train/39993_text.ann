@@ -1,0 +1,187 @@
+T1	PROFESSION 0 6	Принца
+T2	PERSON 29 49	Джордж Александр Луи
+T3	PERSON 65 78	Кейт Миддлтон
+T5	DATE 79 96	24 июля 2013 года
+T6	DATE 99 119	на второй день жизни
+T7	PROFESSION 184 191;204 216	герцога Кембриджских
+T8	PERSON 227 231	Кейт
+T9	PROFESSION 275 283	королевы
+T10	PERSON 299 311	Елизаветы II
+T11	PERSON 325 345	Джордж Александр Луи
+T12	PERSON 347 369	George Alexander Louis
+T13	PROFESSION 373 382	Герцогиня
+T16	PERSON 485 492	St Mary
+T17	CITY 507 514	Лондоне
+T18	DATE 576 593	На следующий день
+T19	ORDINAL 675 681	третий
+T20	COUNTRY 707 718	британского
+T22	PERSON 770 777	Уильяма
+T23	AGE 780 789	31-летние
+T24	PERSON 817 821	Кейт
+T25	DATE 829 840	с 2011 года
+T27	PROFESSION 0 20	Принца Кембриджского
+T28	CITY 7 20	Кембриджского
+T29	PERSON 56 62	Уильям
+T30	PROFESSION 50 55	Принц
+T4	PROFESSION 141 161	Принца Кембриджского
+T32	CITY 148 161	Кембриджского
+T33	PROFESSION 141 147	Принца
+T34	PROFESSION 194 203	герцогини
+T36	PROFESSION 194 216	герцогини Кембриджских
+T37	PERSON 217 224	Уильяма
+T38	PROFESSION 239 255	принца Уэльского
+T31	STATE_OR_PROVINCE 246 255	Уэльского
+T39	PROFESSION 239 245	принца
+T40	PERSON 256 263	Чарльза
+T41	PROFESSION 275 298	королевы Великобритании
+T42	COUNTRY 284 298	Великобритании
+T43	ORDINAL 309 311	II
+T44	PROFESSION 373 395	Герцогиня Кембриджская
+T45	CITY 383 395	Кембриджская
+T46	EVENT 396 402	родила
+T47	EVENT 447 451	Роды
+T15	PERSON 471 483	Святой Марии
+T48	LOCATION 533 538	Линдо
+T49	PROFESSION 553 559	принцы
+T50	PERSON 560 566	Уильям
+T51	PERSON 569 574	Гарри
+T53	PROFESSION 647 652	Принц
+T57	CITY 661 673	Кембриджский
+T58	PERSON 753 760	Чарльза
+T59	PROFESSION 746 752	принца
+T21	PROFESSION 790 795	Принц
+T60	PERSON 796 802	Уильям
+T61	EVENT 851 867	стали родителями
+T62	ORDINAL 843 850	впервые
+T63	PROFESSION 884 906	герцогини Кембриджской
+T64	CITY 894 906	Кембриджской
+T65	PROFESSION 884 893	герцогини
+T66	ORGANIZATION 461 483	госпитале Святой Марии
+T67	ORGANIZATION 485 503	St Mary's Hospital
+R2	WORKS_AS Arg1:T29 Arg2:T30	
+R3	SPOUSE Arg1:T29 Arg2:T3	
+R1	WORKS_AS Arg1:T2 Arg2:T27	
+R4	WORKPLACE Arg1:T27 Arg2:T28	
+R5	WORKPLACE Arg1:T4 Arg2:T32	
+T35	PROFESSION 184 191	герцога
+R6	WORKS_AS Arg1:T37 Arg2:T7	
+R7	WORKS_AS Arg1:T8 Arg2:T36	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+T68	CITY 204 216	Кембриджских
+R9	WORKPLACE Arg1:T36 Arg2:T68	
+R10	WORKPLACE Arg1:T7 Arg2:T68	
+R11	PARENT_OF Arg1:T29 Arg2:T2	
+R12	PARENT_OF Arg1:T3 Arg2:T2	
+R13	WORKPLACE Arg1:T41 Arg2:T42	
+R14	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R15	WORKPLACE Arg1:T38 Arg2:T31	
+R16	RELATIVE Arg1:T11 Arg2:T40	
+R17	RELATIVE Arg1:T11 Arg2:T10	
+R18	PARENT_OF Arg1:T40 Arg2:T37	
+R19	PARENT_OF Arg1:T10 Arg2:T40	
+R20	RELATIVE Arg1:T8 Arg2:T40	
+R21	WORKPLACE Arg1:T44 Arg2:T45	
+T14	DATE 412 445	в понедельник — 22 июля 2013 года
+R22	PARTICIPANT_IN Arg1:T44 Arg2:T46	
+R23	POINT_IN_TIME Arg1:T46 Arg2:T14	
+R24	PARTICIPANT_IN Arg1:T11 Arg2:T46	
+R25	DATE_OF_BIRTH Arg1:T11 Arg2:T14	
+R26	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R27	ORIGINS_FROM Arg1:T66 Arg2:T15	
+R28	ORIGINS_FROM Arg1:T67 Arg2:T16	
+R29	ALTERNATIVE_NAME Arg1:T66 Arg2:T67	
+R30	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R31	TAKES_PLACE_IN Arg1:T47 Arg2:T66	
+R32	LOCATED_IN Arg1:T66 Arg2:T17	
+R33	LOCATED_IN Arg1:T48 Arg2:T66	
+T69	EVENT 544 552	родились
+R34	WORKS_AS Arg1:T50 Arg2:T49	
+R35	WORKS_AS Arg1:T51 Arg2:T49	
+R36	PARTICIPANT_IN Arg1:T50 Arg2:T69	
+R37	PARTICIPANT_IN Arg1:T51 Arg2:T69	
+R38	TAKES_PLACE_IN Arg1:T47 Arg2:T48	
+R39	TAKES_PLACE_IN Arg1:T69 Arg2:T48	
+T70	EVENT 597 617	выписали из больницы
+R40	POINT_IN_TIME Arg1:T70 Arg2:T18	
+T52	PERSON 654 660	Джордж
+T54	PROFESSION 647 673	Принц 'Джордж Кембриджский
+R41	WORKS_AS Arg1:T52 Arg2:T54	
+R42	WORKPLACE Arg1:T54 Arg2:T57	
+R43	ALTERNATIVE_NAME Arg1:T11 Arg2:T52	
+T55	PROFESSION 620 673	Его Королевское Высочество Принц 'Джордж Кембриджский
+R44	LOCATED_IN Arg1:T57 Arg2:T20	
+R45	WORKS_AS Arg1:T58 Arg2:T59	
+R46	PARENT_OF Arg1:T22 Arg2:T52	
+R47	PARENT_OF Arg1:T58 Arg2:T22	
+R48	RELATIVE Arg1:T58 Arg2:T52	
+R49	ORIGINS_FROM Arg1:T54 Arg2:T20	
+R50	ORIGINS_FROM Arg1:T58 Arg2:T20	
+R51	ORIGINS_FROM Arg1:T22 Arg2:T20	
+R52	ALTERNATIVE_NAME Arg1:T42 Arg2:T20	
+R53	WORKS_AS Arg1:T60 Arg2:T21	
+R54	AGE_IS Arg1:T60 Arg2:T23	
+R55	AGE_IS Arg1:T24 Arg2:T23	
+R59	PARTICIPANT_IN Arg1:T24 Arg2:T61	
+R60	PARTICIPANT_IN Arg1:T60 Arg2:T61	
+R61	WORKPLACE Arg1:T63 Arg2:T64	
+T26	DATE 922 941	в декабре 2012 года
+R62	SPOUSE Arg1:T60 Arg2:T24	
+R63	LOCATED_IN Arg1:T31 Arg2:T42	
+T71	PROFESSION 697 727	наследник британского престола
+R64	WORKS_AS Arg1:T52 Arg2:T71	
+R65	SPOUSE Arg1:T37 Arg2:T8	
+N1	Reference T7 Wikidata:Q36812	Уильям, герцог Кембриджский
+N3	Reference T10 Wikidata:Q9682	Елизавета II
+N4	Reference T17 Wikidata:Q84	Лондон
+N6	Reference T27 Wikidata:Q13590412	Джордж Кембриджский
+N7	Reference T38 Wikidata:Q180729	Принц Уэльский
+N10	Reference T42 Wikidata:Q145	Великобритания
+N11	Reference T44 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N14	Reference T51 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N16	Reference T59 Wikidata:Q2747456	принц
+N17	Reference T65 Wikidata:Q166886	герцог
+N19	Reference T35 Wikidata:Q166886	герцог
+N20	Reference T54 Wikidata:Q13590412	Джордж Кембриджский
+N23	Reference T29 Wikidata:Q36812	Уильям, герцог Кембриджский
+N8	Reference T31 Wikidata:Q25	Уэльс
+N2	Reference T9 Wikidata:Q12097	король
+N5	Reference T24 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N21	Reference T55 Wikidata:Q13590412	Джордж Кембриджский
+N15	Reference T58 Wikidata:Q43274	Чарльз, принц Уэльский
+N22	Reference T71 Wikidata:NULL	нет данных
+N18	Reference T67 Wikidata:Q3495342	
+N24	Reference T48 Wikidata:NULL	нет данных
+N12	Reference T45 Wikidata:Q350	Кембридж
+N25	Reference T11 Wikidata:Q13590412	Джордж Кембриджский
+N9	Reference T41 Wikidata:NULL	нет данных
+N13	Reference T15 Wikidata:Q345	Дева Мария
+N26	Reference T4 Wikidata:Q13590412	Джордж Кембриджский
+N27	Reference T20 Wikidata:Q145	Великобритания
+N28	Reference T63 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N29	Reference T36 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N30	Reference T53 Wikidata:Q2747456	принц
+N31	Reference T49 Wikidata:Q2747456	принц
+N32	Reference T33 Wikidata:Q2747456	принц
+N33	Reference T39 Wikidata:Q2747456	принц
+N34	Reference T1 Wikidata:Q2747456	принц
+N35	Reference T21 Wikidata:Q2747456	принц
+N36	Reference T30 Wikidata:Q2747456	принц
+N37	Reference T13 Wikidata:Q166886	герцог
+N38	Reference T34 Wikidata:Q166886	герцог
+N39	Reference T22 Wikidata:Q36812	Уильям, герцог Кембриджский
+N40	Reference T60 Wikidata:Q36812	Уильям, герцог Кембриджский
+N41	Reference T50 Wikidata:Q36812	Уильям, герцог Кембриджский
+N42	Reference T37 Wikidata:Q36812	Уильям, герцог Кембриджский
+N43	Reference T8 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N44	Reference T3 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N45	Reference T40 Wikidata:Q43274	Чарльз, принц Уэльский
+N46	Reference T66 Wikidata:Q3495342	
+N47	Reference T57 Wikidata:Q350	Кембридж
+N48	Reference T64 Wikidata:Q350	Кембридж
+N49	Reference T28 Wikidata:Q350	Кембридж
+N50	Reference T32 Wikidata:Q350	Кембридж
+N51	Reference T68 Wikidata:Q350	Кембридж
+N52	Reference T52 Wikidata:Q13590412	Джордж Кембриджский
+N53	Reference T2 Wikidata:Q13590412	Джордж Кембриджский
+N54	Reference T12 Wikidata:Q13590412	Джордж Кембриджский
+N55	Reference T16 Wikidata:Q345	Дева Мария

@@ -1,0 +1,120 @@
+T1	PERSON 14 39	Виктор Васильевич Тихонов
+T2	CITY 43 49	Москве
+T3	AGE 97 106	85-м году
+T4	PERSON 169 194	Виктор Васильевич Тихонов
+T5	PERSON 212 228	Виктора Тихонова
+T6	PERSON 280 294	Виктор Тихонов
+T7	CITY 302 308	Москве
+T8	PERSON 328 342	Виктор Тихонов
+T9	PROFESSION 468 476	тренером
+T10	DATE 485 494	27 ноября
+T11	ORGANIZATION 526 530	ЦСКА
+T12	PROFESSION 532 552	Генеральный директор
+T13	ORGANIZATION 582 586	ЦСКА
+T14	PERSON 587 603	Игорь Есмантович
+T15	PERSON 731 739	Тихонова
+T16	PROFESSION 742 751	Президент
+T17	PERSON 760 774	Владимир Путин
+T18	PERSON 822 838	Виктора Тихонова
+T19	PERSON 860 888	Тихоновой Татьяне Васильевне
+T21	PERSON 901 919	Татьяна Васильевна
+T22	PERSON 992 1017	Виктор Васильевич Тихонов
+T23	PROFESSION 1040 1049	наставник
+T24	PERSON 1321 1349	Викторе Васильевиче Тихонове
+T25	EVENT 0 13	Ушёл из жизни
+T26	FACILITY 63 93	Института имени Склифосовского
+T27	EVENT 113 122	скончался
+T28	PROFESSION 141 149	хоккеист
+T29	PROFESSION 152 168	хоккейный тренер
+T30	PROFESSION 162 168	тренер
+T32	DISEASE 235 251	остановка сердца
+T33	PROFESSION 263 279	хоккейный тренер
+T34	PROFESSION 273 279	тренер
+T35	EVENT 295 299	умер
+T36	DATE 310 327	В последнее время
+T37	EVENT 440 454	госпитализации
+T38	EVENT 457 465	Прощание
+T39	FACILITY 497 530	ледовом спортивном комплексе ЦСКА
+T40	PROFESSION 532 586	Генеральный директор московского хоккейного клуба ЦСКА
+T41	CITY 553 564	московского
+T42	EVENT 723 730	похорон
+T43	COUNTRY 752 758	России
+T44	PROFESSION 742 758	Президент России
+T20	EVENT 978 991	Ушёл из жизни
+T45	PROFESSION 1031 1037	тренер
+T46	PROFESSION 1207 1214	игрокам
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T25	
+R2	WORKS_AS Arg1:T4 Arg2:T29	
+R3	WORKS_AS Arg1:T4 Arg2:T28	
+T47	NATIONALITY 131 140	советский
+R4	ORIGINS_FROM Arg1:T4 Arg2:T47	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T27	
+R6	AGE_DIED_AT Arg1:T4 Arg2:T3	
+R7	PLACE_OF_DEATH Arg1:T4 Arg2:T26	
+R8	LOCATED_IN Arg1:T26 Arg2:T2	
+R9	CAUSE_OF_DEATH Arg1:T5 Arg2:T32	
+R10	WORKS_AS Arg1:T6 Arg2:T33	
+R11	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R12	PLACE_OF_DEATH Arg1:T6 Arg2:T7	
+R13	TAKES_PLACE_IN Arg1:T35 Arg2:T7	
+R14	TAKES_PLACE_IN Arg1:T27 Arg2:T26	
+R15	PARTICIPANT_IN Arg1:T8 Arg2:T37	
+R16	POINT_IN_TIME Arg1:T38 Arg2:T10	
+R17	TAKES_PLACE_IN Arg1:T38 Arg2:T39	
+R18	WORKS_AS Arg1:T14 Arg2:T40	
+R19	WORKPLACE Arg1:T14 Arg2:T13	
+R20	ORGANIZES Arg1:T13 Arg2:T42	
+R21	WORKS_AS Arg1:T17 Arg2:T44	
+R22	WORKPLACE Arg1:T17 Arg2:T43	
+R23	RELATIVE Arg1:T18 Arg2:T19	
+R24	PARTICIPANT_IN Arg1:T22 Arg2:T20	
+R25	WORKS_AS Arg1:T22 Arg2:T45	
+R26	WORKS_AS Arg1:T22 Arg2:T23	
+T31	PERSON 79 93	Склифосовского
+R27	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R28	ALTERNATIVE_NAME Arg1:T27 Arg2:T35	
+R29	WORKS_AS Arg1:T8 Arg2:T9	
+R30	OWNER_OF Arg1:T11 Arg2:T39	
+R31	HEADQUARTERED_IN Arg1:T13 Arg2:T41	
+R32	WORKPLACE Arg1:T40 Arg2:T13	
+R33	WORKPLACE Arg1:T44 Arg2:T43	
+R34	ALTERNATIVE_NAME Arg1:T19 Arg2:T21	
+R35	ALTERNATIVE_NAME Arg1:T18 Arg2:T22	
+R36	INANIMATE_INVOLVED Arg1:T8 Arg2:T38	
+R37	INANIMATE_INVOLVED Arg1:T15 Arg2:T42	
+N1	Reference T1 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N3	Reference T7 Wikidata:Q649	Москва
+N4	Reference T12 Wikidata:Q1501800	генеральный директор
+N5	Reference T13 Wikidata:Q752418	ЦСКА
+N8	Reference T16 Wikidata:Q30461	президент
+N9	Reference T17 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T26 Wikidata:Q4304061	Московский городской научно-исследовательский институт скорой помощи имени Н. В. Склифосовского
+N14	Reference T30 Wikidata:Q41583	тренер
+N15	Reference T39 Wikidata:Q136412	Ледовый спортивный комплекс ЦСКА им. В. М. Боброва
+N18	Reference T43 Wikidata:Q159	Россия
+N19	Reference T44 Wikidata:Q218295	президент Российской Федерации
+N22	Reference T31 Wikidata:Q728726	
+N13	Reference T28 Wikidata:Q11774891	
+N23	Reference T33 Wikidata:Q5137576	
+N2	Reference T5 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N7	Reference T15 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N17	Reference T41 Wikidata:Q649	Москва
+N16	Reference T40 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N10	Reference T19 Wikidata:NULL	нет данных
+N21	Reference T47 Wikidata:Q15180	СССР
+N11	Reference T23 Wikidata:Q41583	тренер
+N20	Reference T46 Wikidata:Q4197743	
+N24	Reference T8 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N25	Reference T22 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N26	Reference T18 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N27	Reference T6 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N28	Reference T24 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N29	Reference T2 Wikidata:Q649	Москва
+N30	Reference T11 Wikidata:Q752418	ЦСКА
+N31	Reference T45 Wikidata:Q41583	тренер
+N32	Reference T34 Wikidata:Q41583	тренер
+N33	Reference T9 Wikidata:Q41583	тренер
+N34	Reference T29 Wikidata:Q5137576	
+N35	Reference T4 Wikidata:Q392127	Тихонов, Виктор Васильевич
+N36	Reference T21 Wikidata:NULL	нет данных

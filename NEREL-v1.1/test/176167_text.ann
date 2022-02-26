@@ -1,0 +1,87 @@
+T1	PERSON 6 19	Виктории Бони
+T3	WORK_OF_ART 35 41	Дома-2
+T4	DATE 55 63	три года
+T5	PERSON 90 103	Виктория Боня
+T7	WORK_OF_ART 133 139	Дома-2
+T8	PROFESSION 143 151	стилиста
+T9	COUNTRY 159 169	российских
+T10	PERSON 184 196	Рэя Самедова
+T12	LAW 262 267	УК РФ
+T14	DATE 319 327	три года
+T15	PROFESSION 353 364	телеведущая
+T16	PERSON 365 378	Дана Борисова
+T17	PERSON 467 474	Самедов
+T18	ORGANIZATION 524 528	Mash
+T19	DATE 544 550	в июне
+T20	CITY 582 590	Раменках
+T21	NUMBER 616 626	20 граммов
+T23	PERSON 702 713	Рэй Самедов
+T24	COUNTRY 750 761	российского
+T25	PERSON 798 811	Виктория Боня
+T26	PERSON 814 827	Дана Борисова
+R4	WORKS_AS Arg1:T16 Arg2:T15
+T2	CRIME 67 86	хранение наркотиков
+T27	EVENT 43 51	посадили
+T6	PROFESSION 170 183	знаменитостей
+T28	EVENT 197 216	отправили в колонию
+T29	PENALTY 43 63	посадили на три года
+T31	ORDINAL 258 261	228
+T32	LAW 262 264	УК
+T33	COUNTRY 265 267	РФ
+T11	LAW 251 267	статье 228 УК РФ
+T13	PENALTY 240 247;319 343	осудили три года лишения свободы
+T34	LAW 269 314	незаконное приобретение и хранение наркотиков
+T35	EVENT 534 543	задержали
+T36	EVENT 557 564	обысков
+T37	EVENT 596 602	обыске
+T22	EVENT 675 699	возбудили уголовное дело
+R1	WORKPLACE Arg1:T6 Arg2:T9	
+R3	PARTICIPANT_IN Arg1:T10 Arg2:T28	
+R2	WORKS_AS Arg1:T10 Arg2:T8	
+R5	KNOWS Arg1:T5 Arg2:T10	
+R6	ALTERNATIVE_NAME Arg1:T11 Arg2:T34	
+R7	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+R8	KNOWS Arg1:T10 Arg2:T16	
+T38	CRIME 475 507	торговал запрещёнными веществами
+R9	POINT_IN_TIME Arg1:T35 Arg2:T19	
+R10	TAKES_PLACE_IN Arg1:T36 Arg2:T20	
+R11	HAS_CAUSE Arg1:T29 Arg2:T2	
+R12	CONVICTED_OF Arg1:T10 Arg2:T2	
+R13	PENALIZED_AS Arg1:T10 Arg2:T29	
+R14	PENALIZED_AS Arg1:T10 Arg2:T13	
+R15	PARTICIPANT_IN Arg1:T17 Arg2:T35	
+R16	ALTERNATIVE_NAME Arg1:T17 Arg2:T23	
+R17	PARTICIPANT_IN Arg1:T10 Arg2:T7	
+T30	PENALTY 209 216	колонию
+R18	PENALIZED_AS Arg1:T10 Arg2:T30	
+R19	PART_OF Arg1:T11 Arg2:T12	
+R20	ORIGINS_FROM Arg1:T12 Arg2:T33	
+R21	CONVICTED_OF Arg1:T17 Arg2:T38	
+R22	KNOWS Arg1:T23 Arg2:T25	
+R23	KNOWS Arg1:T23 Arg2:T26	
+R24	PARTICIPANT_IN Arg1:T10 Arg2:T27	
+R25	HAS_CAUSE Arg1:T35 Arg2:T36	
+T39	NUMBER 40 41	2
+T40	PENALTY 328 343	лишения свободы
+N1	Reference T5 Wikidata:Q4093390	Виктория Боня
+N2	Reference T8 Wikidata:Q3501317	модельер
+N4	Reference T12 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N5	Reference T15 Wikidata:Q947873	телеведущий
+N6	Reference T18 Wikidata:Q48954641	Mash
+N7	Reference T20 Wikidata:Q2359096	Раменки
+N9	Reference T26 Wikidata:Q4093911	Дана Борисова
+N12	Reference T33 Wikidata:Q159	Россия
+N14	Reference T7 Wikidata:Q2589485	
+N10	Reference T6 Wikidata:Q211236	знаменитый человек
+N3	Reference T10 Wikidata:NULL	нет данных
+N11	Reference T32 Wikidata:Q19705	уголовное законодательство
+N13	Reference T11 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:Q159	Россия
+N15	Reference T25 Wikidata:Q4093390	Виктория Боня
+N16	Reference T1 Wikidata:Q4093390	Виктория Боня
+N17	Reference T16 Wikidata:Q4093911	Дана Борисова
+N18	Reference T3 Wikidata:Q2589485	
+N19	Reference T17 Wikidata:NULL	нет данных
+N20	Reference T23 Wikidata:NULL	нет данных
+N21	Reference T34 Wikidata:NULL	нет данных
+N22	Reference T9 Wikidata:Q159	Россия

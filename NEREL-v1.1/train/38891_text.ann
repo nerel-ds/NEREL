@@ -1,0 +1,136 @@
+T1	PERSON 0 18	Джеймс Гандольфини
+T2	WORK_OF_ART 28 41	Клана Сопрана
+T3	CITY 55 59	Риме
+T4	PERSON 60 78	Джеймс Гандольфини
+T5	DATE 79 96	19 июня 2013 года
+T6	PERSON 116 134	Джеймс Гандольфини
+T7	PROFESSION 178 189	босса мафии
+T8	PERSON 190 202	Тони Сопрано
+T9	WORK_OF_ART 225 237	Клан Сопрано
+T10	WORK_OF_ART 240 252	The Sopranos
+T11	ORGANIZATION 267 270	НВО
+T12	CITY 284 288	Риме
+T13	PROFESSION 330 347	представитель НВО
+T14	PERSON 348 361	Мара Микалиан
+T15	AGE 389 399	51-летнего
+T16	PERSON 441 452	Гандольфини
+T17	DATE 498 509	в 1992 году
+T18	PERSON 546 563	Теннесси Уильямса
+T19	WORK_OF_ART 565 582	Трамвай „Желание“
+T21	PERSON 593 605	Тони Сопрано
+T22	PERSON 789 801	Тони Сопрано
+T23	PERSON 818 825	Кармелу
+T24	WORK_OF_ART 1049 1062	Клане Сопрано
+T25	PERSON 1073 1084	Гандольфини
+T26	AWARD 1097 1101	Эмми
+T27	DATE 1129 1145	в июне 2007 года
+T28	WORK_OF_ART 1204 1219	Цель номер один
+T29	WORK_OF_ART 1222 1238	Zero Dark Thirty
+T30	WORK_OF_ART 1251 1279	Невероятный Бёрт Уандерстоун
+T31	WORK_OF_ART 1282 1313	The Incredible Burt Wonderstone
+T32	PERSON 1331 1342	Гандольфини
+T33	WORK_OF_ART 1384 1404	Уголовное правосудие
+T34	WORK_OF_ART 1407 1423	Criminal Justice
+T35	ORGANIZATION 1438 1441	НВО
+T36	NATIONALITY 97 109	американский
+T37	PROFESSION 110 115	актёр
+T38	EVENT 43 52	скончался
+T39	EVENT 272 281	скончался
+T40	ORGANIZATION 344 347	НВО
+T41	EVENT 382 388	смерти
+T42	PROFESSION 400 407	артиста
+T43	DISEASE 413 430	сердечный приступ
+T20	PERSON 606 617	Гандольфини
+T44	PROFESSION 928 942	психотерапевта
+T45	NUMBER 1085 1088	три
+T46	EVENT 1323 1330	смертью
+T47	PROFESSION 20 26	звезда
+R1	TAKES_PLACE_IN Arg1:T38 Arg2:T3	
+R2	WORKS_AS Arg1:T1 Arg2:T47	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T38	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R5	ORIGINS_FROM Arg1:T37 Arg2:T36	
+R6	WORKS_AS Arg1:T6 Arg2:T37	
+R7	WORKS_AS Arg1:T8 Arg2:T7	
+R8	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T9	
+R10	PRODUCES Arg1:T11 Arg2:T9	
+R11	TAKES_PLACE_IN Arg1:T39 Arg2:T12	
+R12	PARTICIPANT_IN Arg1:T6 Arg2:T39	
+R13	POINT_IN_TIME Arg1:T39 Arg2:T5	
+R14	WORKPLACE Arg1:T13 Arg2:T40	
+R15	WORKPLACE Arg1:T14 Arg2:T40	
+R16	WORKS_AS Arg1:T14 Arg2:T13	
+R17	ALTERNATIVE_NAME Arg1:T39 Arg2:T41	
+R19	DATE_OF_DEATH Arg1:T6 Arg2:T5	
+R20	PARTICIPANT_IN Arg1:T42 Arg2:T41	
+R21	HAS_CAUSE Arg1:T41 Arg2:T43	
+R22	CAUSE_OF_DEATH Arg1:T42 Arg2:T43	
+R23	ALTERNATIVE_NAME Arg1:T37 Arg2:T42	
+R24	WORKS_AS Arg1:T6 Arg2:T42	
+R25	ALTERNATIVE_NAME Arg1:T6 Arg2:T16	
+R26	PRODUCES Arg1:T18 Arg2:T19	
+R27	PARTICIPANT_IN Arg1:T16 Arg2:T19	
+T48	PROFESSION 648 657	гангстера
+R28	WORKS_AS Arg1:T21 Arg2:T48	
+R29	SPOUSE Arg1:T22 Arg2:T23	
+R30	PARTICIPANT_IN Arg1:T25 Arg2:T24	
+R31	AWARDED_WITH Arg1:T25 Arg2:T26	
+R32	PARTICIPANT_IN Arg1:T25 Arg2:T28	
+R33	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R34	PARTICIPANT_IN Arg1:T25 Arg2:T30	
+R35	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R36	PARTICIPANT_IN Arg1:T32 Arg2:T46	
+R37	PARTICIPANT_IN Arg1:T32 Arg2:T33	
+R38	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R39	PRODUCES Arg1:T35 Arg2:T33	
+R40	PLACE_OF_DEATH Arg1:T6 Arg2:T12	
+R41	PLACE_OF_DEATH Arg1:T1 Arg2:T3	
+R42	AGE_DIED_AT Arg1:T42 Arg2:T15	
+R18	DATE_OF_DEATH Arg1:T6 Arg2:T5	
+R43	PRODUCES Arg1:T6 Arg2:T8	
+R44	CAUSE_OF_DEATH Arg1:T6 Arg2:T43	
+R45	PRODUCES Arg1:T20 Arg2:T21	
+T49	PERSON 1263 1279	Бёрт Уандерстоун
+T50	PERSON 1297 1313	Burt Wonderstone
+R46	ALTERNATIVE_NAME Arg1:T49 Arg2:T50	
+N3	Reference T12 Wikidata:Q220	Рим
+N4	Reference T13 Wikidata:Q4316258	Независимое военное обозрение
+N6	Reference T16 Wikidata:Q308722	Джеймс Гандолфини
+N7	Reference T18 Wikidata:Q134262	Уильямс, Теннесси
+N11	Reference T24 Wikidata:Q23628	Клан Сопрано
+N12	Reference T26 Wikidata:Q123737	Эмми
+N14	Reference T30 Wikidata:Q1444108	Невероятный Бёрт Уандерстоун
+N17	Reference T40 Wikidata:Q23633	HBO
+N18	Reference T42 Wikidata:Q483501	деятель искусств
+N19	Reference T44 Wikidata:Q1900167	психотерапевт
+N20	Reference T47 Wikidata:Q211236	знаменитый человек
+N1	Reference T2 Wikidata:Q23628	Клан Сопрано
+N16	Reference T36 Wikidata:Q846570	
+N2	Reference T7 Wikidata:Q4947495	
+N5	Reference T14 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q842106	Трамвай «Желание»
+N21	Reference T48 Wikidata:Q46961	гангстер
+N9	Reference T22 Wikidata:Q1049580	Тони Сопрано
+N10	Reference T23 Wikidata:Q2463185	
+N13	Reference T29 Wikidata:Q152531	
+N22	Reference T49 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:Q18558892	
+N23	Reference T3 Wikidata:Q220	Рим
+N24	Reference T20 Wikidata:Q308722	Джеймс Гандолфини
+N25	Reference T32 Wikidata:Q308722	Джеймс Гандолфини
+N26	Reference T25 Wikidata:Q308722	Джеймс Гандолфини
+N27	Reference T4 Wikidata:Q308722	Джеймс Гандолфини
+N28	Reference T6 Wikidata:Q308722	Джеймс Гандолфини
+N29	Reference T1 Wikidata:Q308722	Джеймс Гандолфини
+N30	Reference T9 Wikidata:Q23628	Клан Сопрано
+N31	Reference T10 Wikidata:Q23628	Клан Сопрано
+N32	Reference T31 Wikidata:Q1444108	Невероятный Бёрт Уандерстоун
+N33	Reference T11 Wikidata:Q23633	HBO
+N34	Reference T35 Wikidata:Q23633	HBO
+N35	Reference T37 Wikidata:Q483501	деятель искусств
+N36	Reference T8 Wikidata:Q1049580	Тони Сопрано
+N37	Reference T21 Wikidata:Q1049580	Тони Сопрано
+N38	Reference T28 Wikidata:Q152531	
+N39	Reference T50 Wikidata:NULL	нет данных
+N40	Reference T33 Wikidata:Q18558892	

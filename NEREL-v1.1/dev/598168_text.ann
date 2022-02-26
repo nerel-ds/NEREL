@@ -1,0 +1,261 @@
+T1	NATIONALITY 5 13	польский
+T3	DATE 75 93	29 марта 2020 года
+T4	PROFESSION 116 123	дирижёр
+T5	PERSON 124 143	Кшиштоф Пендерецкий
+T6	CITY 146 153	Кракове
+T7	ORGANIZATION 172 193	министерство культуры
+T8	PROFESSION 203 247	Глава Ассоциации имени Людвига ван Бетховена
+T10	PERSON 268 288	Эльжбета Пендерецкая
+T11	DATE 298 321	В воскресенье, 29 марта
+T12	PROFESSION 373 382	профессор
+T13	PERSON 383 402	Кшиштоф Пендерецкий
+T14	NATIONALITY 487 495	польских
+T15	PROFESSION 518 527	Президент
+T16	PERSON 535 546	Анджей Дуда
+T17	PRODUCT 557 564	Twitter
+T18	COUNTRY 603 611	польской
+T19	AGE 634 648	80-ю годовщину
+T23	ORGANIZATION 878 885	Reuters
+T24	NUMBER 891 895	одна
+T25	DISEASE 920 928	COVID-19
+T27	ORDINAL 1103 1109	первый
+T28	CITY 1167 1176	гданьских
+T29	DATE 1185 1196	в 1970 году
+T30	PERSON 1248 1258	Алена Рене
+T31	PERSON 1269 1283	Стэнли Кубрика
+T32	PERSON 1306 1318	Дэвида Линча
+T33	WORK_OF_ART 1321 1327	Катынь
+T34	PERSON 1329 1341	Анджея Вайды
+T35	CITY 1366 1374	Сарагосе
+T36	PERSON 1376 1388	Войцеха Хаса
+T37	PERSON 1411 1429	Уильямом Фридкином
+T38	PERSON 1439 1451	Братьев Куэй
+T39	PERSON 1487 1506	Кшиштоф Пендерецкий
+T40	DATE 1515 1536	в 23 ноября 1933 года
+T41	PROFESSION 1545 1553	адвоката
+T42	CITY 1563 1570	Дембица
+T43	PROFESSION 1708 1717	дирижёром
+T44	DATE 1719 1730	В 1959 году
+T45	EVENT 1742 1762	всепольском конкурсе
+T46	ORGANIZATION 1779 1807	Союзом польских композиторов
+T47	DATE 1878 1887	Через год
+T48	AWARD 1904 1943	Tribune Internationale des Compositeurs
+T49	CITY 1953 1959	Париже
+T51	PERSON 1985 1996	Пендерецкий
+T52	DATE 1997 2010	в 1960-е годы
+T53	DATE 2053 2064	В 1969 года
+T54	ORDINAL 2073 2079	первую
+T55	DATE 2089 2095	в 1973
+T56	ORDINAL 2098 2104	первую
+T57	NUMBER 2154 2159	5 раз
+T58	AWARD 2176 2182	Грэмми
+T59	AWARD 2200 2217	почётным доктором
+T60	EVENT 0 4	Умер
+T61	PROFESSION 14 24	композитор
+T62	PERSON 25 44	Кшиштоф Пендерецкий
+T63	PERSON 45 64	Кшиштоф Пендерецкий
+T64	EVENT 65 74	Скончался
+T65	NATIONALITY 94 102	польский
+T66	PROFESSION 103 113	композитор
+T67	ORGANIZATION 172 200	министерство культуры Польши
+T68	COUNTRY 194 200	Польши
+T69	ORGANIZATION 209 247	Ассоциации имени Людвига ван Бетховена
+T70	PERSON 226 247	Людвига ван Бетховена
+T9	PROFESSION 258 267	музыканта
+T71	EVENT 363 372	скончался
+T72	NATIONALITY 413 418	поляк
+T73	PROFESSION 431 439	художник
+T74	IDEOLOGY 441 449	гуманист
+T75	PROFESSION 496 508	композиторов
+T76	COUNTRY 528 534	Польши
+T77	PROFESSION 518 534	Президент Польши
+T78	EVENT 656 676	Второй мировой войны
+T21	WORK_OF_ART 721 737	Польский реквием
+T79	PROFESSION 798 809	композитора
+T22	EVENT 820 824	умер
+T80	EVENT 777 788	выступлений
+T81	WORK_OF_ART 1037 1061	Плач по жертвам Хиросимы
+T82	WORK_OF_ART 1065 1080	Страсти по Луке
+T26	WORK_OF_ART 1084 1100	Польский реквием
+T83	EVENT 1155 1184	выступления гданьских докеров
+T84	COUNTRY 1084 1092	Польский
+T85	COUNTRY 721 729	Польский
+T86	WORK_OF_ART 1229 1246	Люблю тебя, люблю
+T87	WORK_OF_ART 1261 1267	Сияние
+T88	WORK_OF_ART 1286 1304	Внутренняя империя
+T89	WORK_OF_ART 1344 1374	Рукопись, найденная в Сарагосе
+T90	WORK_OF_ART 1391 1409	Изгоняющий дьявола
+T91	WORK_OF_ART 1432 1437	Маска
+T92	WORK_OF_ART 1464 1483	Секретные материалы
+T93	LOCATION 1574 1592	юго-востоке Польши
+T94	COUNTRY 1586 1592	Польши
+T95	PROFESSION 1697 1705	скрипчём
+T96	PROFESSION 1795 1807	композиторов
+T97	COUNTRY 1786 1794	польских
+T98	WORK_OF_ART 1837 1843	Строфы
+T99	WORK_OF_ART 1847 1855	Эманации
+T100	WORK_OF_ART 1860 1875	Псалмы Давидовы
+T103	ORGANIZATION 1944 1950	ЮНЕСКО
+T50	WORK_OF_ART 1977 1981	8’37
+T104	PROFESSION 2185 2195	Композитор
+R1	PARTICIPANT_IN Arg1:T62 Arg2:T60	
+R2	ORIGINS_FROM Arg1:T62 Arg2:T1	
+R3	WORKS_AS Arg1:T62 Arg2:T61	
+R4	PLACE_OF_DEATH Arg1:T5 Arg2:T6	
+R5	WORKS_AS Arg1:T5 Arg2:T4	
+R6	WORKS_AS Arg1:T5 Arg2:T66	
+R7	ORIGINS_FROM Arg1:T5 Arg2:T65	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T64	
+R9	POINT_IN_TIME Arg1:T64 Arg2:T3	
+R10	TAKES_PLACE_IN Arg1:T64 Arg2:T6	
+R11	DATE_OF_DEATH Arg1:T5 Arg2:T3	
+R12	SPOUSE Arg1:T5 Arg2:T10	
+R13	SPOUSE Arg1:T10 Arg2:T9	
+R14	WORKS_AS Arg1:T10 Arg2:T8	
+R15	WORKPLACE Arg1:T10 Arg2:T69	
+R16	POINT_IN_TIME Arg1:T71 Arg2:T11	
+R17	PARTICIPANT_IN Arg1:T13 Arg2:T71	
+R18	DATE_OF_DEATH Arg1:T13 Arg2:T11	
+R19	ORIGINS_FROM Arg1:T13 Arg2:T72	
+R20	WORKS_AS Arg1:T13 Arg2:T73	
+R21	IDEOLOGY_OF Arg1:T13 Arg2:T74	
+R22	WORKS_AS Arg1:T13 Arg2:T75	
+R23	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R24	WORKS_AS Arg1:T16 Arg2:T77	
+R25	WORKPLACE Arg1:T16 Arg2:T76	
+R26	AGE_IS Arg1:T78 Arg2:T19	
+R27	PRODUCES Arg1:T13 Arg2:T21	
+R28	PARTICIPANT_IN Arg1:T79 Arg2:T80	
+R29	PARTICIPANT_IN Arg1:T13 Arg2:T80	
+R30	DATE_OF_BIRTH Arg1:T39 Arg2:T40	
+R31	PLACE_OF_BIRTH Arg1:T39 Arg2:T42	
+R32	LOCATED_IN Arg1:T42 Arg2:T93	
+R33	WORKS_AS Arg1:T39 Arg2:T95	
+R34	WORKS_AS Arg1:T39 Arg2:T43	
+R35	PARTICIPANT_IN Arg1:T39 Arg2:T45	
+R36	ORGANIZES Arg1:T46 Arg2:T45	
+R37	POINT_IN_TIME Arg1:T45 Arg2:T44	
+R38	PRODUCES Arg1:T39 Arg2:T98	
+R39	PRODUCES Arg1:T39 Arg2:T99	
+R40	PRODUCES Arg1:T39 Arg2:T100	
+R41	AWARDED_WITH Arg1:T39 Arg2:T48	
+R42	PRODUCES Arg1:T39 Arg2:T50	
+R43	AWARDED_WITH Arg1:T39 Arg2:T58	
+R45	WORKS_AS Arg1:T39 Arg2:T104	
+R46	HEADQUARTERED_IN Arg1:T67 Arg2:T68	
+R47	ALTERNATIVE_NAME Arg1:T1 Arg2:T68	
+R48	WORKPLACE Arg1:T8 Arg2:T69	
+R49	WORKPLACE Arg1:T77 Arg2:T76	
+R50	PRODUCES Arg1:T13 Arg2:T81	
+T20	CITY 1053 1061	Хиросимы
+T102	PERSON 1076 1080	Луке
+R51	PRODUCES Arg1:T32 Arg2:T88	
+R52	PRODUCES Arg1:T34 Arg2:T33	
+R53	PRODUCES Arg1:T38 Arg2:T91	
+R54	PRODUCES Arg1:T37 Arg2:T90	
+R55	PRODUCES Arg1:T36 Arg2:T89	
+R56	PRODUCES Arg1:T31 Arg2:T87	
+R57	PRODUCES Arg1:T30 Arg2:T86	
+R58	POINT_IN_TIME Arg1:T83 Arg2:T29	
+R59	ORIGINS_FROM Arg1:T39 Arg2:T41	
+R60	PRODUCES Arg1:T13 Arg2:T82	
+R61	PRODUCES Arg1:T13 Arg2:T26	
+R62	HEADQUARTERED_IN Arg1:T46 Arg2:T97	
+R64	ORIGINS_FROM Arg1:T61 Arg2:T1	
+R65	ORIGINS_FROM Arg1:T66 Arg2:T65	
+R66	ORIGINS_FROM Arg1:T4 Arg2:T65	
+R67	ORIGINS_FROM Arg1:T75 Arg2:T14	
+R68	ALTERNATIVE_NAME Arg1:T72 Arg2:T14	
+R69	LOCATED_IN Arg1:T93 Arg2:T94	
+R70	TAKES_PLACE_IN Arg1:T83 Arg2:T28	
+T105	PROFESSION 1177 1184	докеров
+R71	PLACE_RESIDES_IN Arg1:T105 Arg2:T28	
+R63	PRODUCES Arg1:T103 Arg2:T48	
+R44	AWARDED_WITH Arg1:T51 Arg2:T59	
+R72	AWARDED_WITH Arg1:T104 Arg2:T59	
+T2	ORDINAL 656 662	Второй
+T101	DATE 926 928	19
+N1	Reference T6 Wikidata:Q31487	Краков
+N4	Reference T12 Wikidata:Q121594	профессор
+N5	Reference T15 Wikidata:Q30461	президент
+N6	Reference T16 Wikidata:Q9151911	Анджей Дуда
+N7	Reference T17 Wikidata:Q918	Твиттер
+N9	Reference T23 Wikidata:Q130879	Рейтер
+N10	Reference T28 Wikidata:Q1736541	Гданьская судоверфь
+N11	Reference T30 Wikidata:Q218022	Рене, Ален
+N12	Reference T31 Wikidata:Q2001	Стэнли Кубрик
+N13	Reference T32 Wikidata:Q2071	Дэвид Линч
+N14	Reference T33 Wikidata:Q714713	Катынь
+N15	Reference T34 Wikidata:Q106685	Анджей Вайда
+N16	Reference T35 Wikidata:Q10305	Сарагоса
+N17	Reference T36 Wikidata:Q1095790	Хас, Войцех Ежи
+N18	Reference T37 Wikidata:Q51582	Уильям Фридкин
+N19	Reference T38 Wikidata:Q1192679	Брат
+N20	Reference T41 Wikidata:Q40348	адвокат
+N21	Reference T42 Wikidata:Q947404	Дембица
+N22	Reference T43 Wikidata:Q158852	дирижёр
+N23	Reference T46 Wikidata:Q15180	СССР
+N24	Reference T48 Wikidata:Q678086	The New York Times International Edition
+N25	Reference T49 Wikidata:Q639855	Париж! Париж!
+N26	Reference T51 Wikidata:Q153469	Кшиштоф Пендерецкий
+N27	Reference T58 Wikidata:Q41254	«Грэмми»
+N28	Reference T59 Wikidata:Q209896	honoris causa
+N29	Reference T62 Wikidata:Q153469	Кшиштоф Пендерецкий
+N31	Reference T67 Wikidata:Q4294444	Министерство культуры и национального наследия Польши
+N32	Reference T68 Wikidata:Q36	Польша
+N34	Reference T70 Wikidata:Q255	Людвиг ван Бетховен
+N35	Reference T9 Wikidata:Q639669	музыкант
+N37	Reference T77 Wikidata:Q1054799	Президент Республики Польша
+N38	Reference T81 Wikidata:Q2571069	Плач по жертвам Хиросимы
+N39	Reference T82 Wikidata:Q46311	лук
+N40	Reference T26 Wikidata:Q461589	Галина Польских
+N41	Reference T86 Wikidata:Q245920	Люблю тебя, люблю
+N42	Reference T87 Wikidata:Q186341	Сияние
+N43	Reference T88 Wikidata:Q862058	Внутренняя империя
+N44	Reference T89 Wikidata:Q1213293	Рукопись, найденная в Сарагосе
+N45	Reference T90 Wikidata:Q274167	Изгоняющий дьявола
+N46	Reference T91 Wikidata:Q219421	Маска
+N47	Reference T92 Wikidata:Q2744	Секретные материалы
+N48	Reference T93 Wikidata:Q36	Польша
+N49	Reference T95 Wikidata:Q4422569	Скрипчин
+N50	Reference T96 Wikidata:Q36834	композитор
+N51	Reference T98 Wikidata:Q1756348	строфа
+N52	Reference T99 Wikidata:Q846856	эманация
+N53	Reference T100 Wikidata:Q41064	Псалтирь
+N54	Reference T103 Wikidata:Q7809	ЮНЕСКО
+N55	Reference T20 Wikidata:Q34664	Хиросима
+N56	Reference T102 Wikidata:Q46311	лук
+N57	Reference T105 Wikidata:Q1537445	грузчик
+N30	Reference T65 Wikidata:Q1026	поляки
+N58	Reference T7 Wikidata:Q19973770	
+N33	Reference T69 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:Q36	Польша
+N36	Reference T73 Wikidata:Q483501	деятель искусств
+N59	Reference T4 Wikidata:Q158852	дирижёр
+N60	Reference T63 Wikidata:Q153469	Кшиштоф Пендерецкий
+N61	Reference T13 Wikidata:Q153469	Кшиштоф Пендерецкий
+N62	Reference T5 Wikidata:Q153469	Кшиштоф Пендерецкий
+N63	Reference T39 Wikidata:Q153469	Кшиштоф Пендерецкий
+N64	Reference T94 Wikidata:Q36	Польша
+N65	Reference T76 Wikidata:Q36	Польша
+N66	Reference T21 Wikidata:Q461589	Галина Польских
+N67	Reference T66 Wikidata:Q36834	композитор
+N68	Reference T61 Wikidata:Q36834	композитор
+N69	Reference T79 Wikidata:Q36834	композитор
+N70	Reference T75 Wikidata:Q36834	композитор
+N71	Reference T104 Wikidata:Q36834	композитор
+N72	Reference T1 Wikidata:Q1026	поляки
+N73	Reference T72 Wikidata:Q1026	поляки
+N74	Reference T14 Wikidata:Q1026	поляки
+N75	Reference T85 Wikidata:Q36	Польша
+N76	Reference T84 Wikidata:Q36	Польша
+N77	Reference T97 Wikidata:Q36	Польша
+R73	ALTERNATIVE_NAME Arg1:T60 Arg2:T64	
+T106	EVENT 1507 1514	родился
+R74	PARTICIPANT_IN Arg1:T39 Arg2:T106	
+R75	POINT_IN_TIME Arg1:T106 Arg2:T40	
+R76	TAKES_PLACE_IN Arg1:T106 Arg2:T42	
+T107	NUMBER 1977 1978	8
+T108	NUMBER 1979 1981	37

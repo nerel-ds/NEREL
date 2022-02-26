@@ -1,0 +1,141 @@
+T1	COUNTRY 2 12	Португалии
+T2	DATE 22 33	трёхдневный
+T4	PERSON 71 96	Эузебиу да Силва Феррейра
+T5	DATE 98 106	1972 год
+T6	COUNTRY 110 120	Португалии
+T7	DATE 130 141	трёхдневный
+T8	PERSON 180 187	Эйсебио
+T9	TIME 225 247	в ночь с 4 на 5 января
+T10	TIME 268 273	утром
+T11	AGE 286 292	72 лет
+T12	CITY 323 332	Лиссабоне
+T13	DATE 445 456	в 2012 году
+T15	PERSON 541 548	Эйсебио
+T16	DATE 557 568	в 1942 году
+T17	COUNTRY 596 605	Мозамбика
+T18	COUNTRY 654 664	Португалии
+T19	ORGANIZATION 711 718	Бенфике
+T20	PERSON 739 746	Эйсебио
+T21	NUMBER 788 789	3
+T23	ORGANIZATION 831 838	Бенфики
+T24	EVENT 873 900	Кубка европейских чемпионов
+T25	DATE 901 912	в 1962 году
+T26	DATE 915 926	В 1992 году
+T27	PERSON 951 958	Эйсебио
+T28	CITY 961 974	лиссабонского
+T30	FACILITY 985 991	Да Луш
+T31	DATE 994 1005	В 1995 году
+T32	DATE 1055 1065	год спустя
+T33	COUNTRY 1072 1085	португальской
+T34	EVENT 1124 1139	чемпионате мира
+T35	EVENT 142 147	траур
+T36	DISEASE 370 395	сердечная недостаточность
+R1	DATE_OF_BIRTH Arg1:T15 Arg2:T16	
+R2	PLACE_OF_BIRTH Arg1:T15 Arg2:T17	
+T37	PROFESSION 689 698	футболист
+R3	WORKPLACE Arg1:T15 Arg2:T19	
+T29	LOCATION 1045 1051	Европы
+T38	PERSON 1006 1013	Эйсебио
+T39	EVENT 466 494	чемпионата Европы по футболу
+T14	LOCATION 477 483	Европы
+R4	LOCATED_IN Arg1:T30 Arg2:T28	
+T40	FACILITY 944 958	статуя Эйсебио
+R5	LOCATED_IN Arg1:T40 Arg2:T28	
+T41	PERSON 52 59	Эйсебио
+R7	TAKES_PLACE_IN Arg1:T35 Arg2:T6	
+R8	AGE_DIED_AT Arg1:T8 Arg2:T11	
+R9	PLACE_OF_DEATH Arg1:T8 Arg2:T12	
+R10	CAUSE_OF_DEATH Arg1:T8 Arg2:T36	
+T42	DISEASE 411 429	проблемы с сердцем
+T43	DISEASE 519 538	сердечным приступом
+R11	MEDICAL_CONDITION Arg1:T8 Arg2:T42	
+R12	MEDICAL_CONDITION Arg1:T8 Arg2:T43	
+R13	POINT_IN_TIME Arg1:T39 Arg2:T13	
+R6	OWNER_OF Arg1:T18 Arg2:T17	
+T44	COUNTRY 775 785	Португалии
+T45	PROFESSION 840 849	футболист
+R14	POINT_IN_TIME Arg1:T24 Arg2:T25	
+T46	ORGANIZATION 1072 1093	португальской сборной
+R15	POINT_IN_TIME Arg1:T34 Arg2:T32	
+R16	PARTICIPANT_IN Arg1:T46 Arg2:T34	
+R17	MEMBER_OF Arg1:T38 Arg2:T46	
+T47	PROFESSION 167 177	футболисте
+R18	WORKS_AS Arg1:T8 Arg2:T47	
+T48	EVENT 34 39	траур
+R19	TAKES_PLACE_IN Arg1:T48 Arg2:T1	
+T49	PROFESSION 201 210	футболист
+T50	EVENT 211 224	ушёл из жизни
+T51	DATE 232 247	с 4 на 5 января
+R20	PARTICIPANT_IN Arg1:T49 Arg2:T50	
+R21	POINT_IN_TIME Arg1:T50 Arg2:T51	
+R22	DATE_OF_DEATH Arg1:T8 Arg2:T51	
+T52	PROFESSION 351 361	футболиста
+R23	CAUSE_OF_DEATH Arg1:T52 Arg2:T36	
+T53	EVENT 499 516	госпитализировали
+R24	PARTICIPANT_IN Arg1:T8 Arg2:T53	
+R25	ALTERNATIVE_NAME Arg1:T41 Arg2:T4	
+R26	ALTERNATIVE_NAME Arg1:T4 Arg2:T8	
+R27	LOCATED_IN Arg1:T12 Arg2:T6	
+R28	TAKES_PLACE_IN Arg1:T39 Arg2:T14	
+R29	POINT_IN_TIME Arg1:T53 Arg2:T13	
+R30	TAKES_PLACE_IN Arg1:T53 Arg2:T14	
+R31	WORKS_AS Arg1:T15 Arg2:T37	
+R32	WORKPLACE Arg1:T37 Arg2:T19	
+R33	WORKPLACE Arg1:T45 Arg2:T23	
+R34	PARTICIPANT_IN Arg1:T45 Arg2:T24	
+R35	PARTICIPANT_IN Arg1:T20 Arg2:T24	
+T54	EVENT 932 950	установлена статуя
+R36	POINT_IN_TIME Arg1:T54 Arg2:T26	
+R37	DATE_FOUNDED_IN Arg1:T40 Arg2:T26	
+R38	TAKES_PLACE_IN Arg1:T54 Arg2:T28	
+T55	AWARD 1026 1051	лучшим футболистом Европы
+R39	AWARDED_WITH Arg1:T38 Arg2:T55	
+T56	AWARD 1104 1139	бронзовые медали на чемпионате мира
+R40	ABBREVIATION Arg1:T33 Arg2:T56	
+R41	AWARDED_WITH Arg1:T38 Arg2:T56	
+R42	HEADQUARTERED_IN Arg1:T46 Arg2:T33	
+T57	AWARD 765 785	чемпионом Португалии
+R43	ORIGINS_FROM Arg1:T57 Arg2:T44	
+R44	AWARDED_WITH Arg1:T20 Arg2:T57	
+T22	AWARD 797 818	вице-чемпионом страны
+R45	AWARDED_WITH Arg1:T20 Arg2:T22	
+R46	ORIGINS_FROM Arg1:T22 Arg2:T44	
+R47	ORIGINS_FROM Arg1:T56 Arg2:T34	
+T58	AWARD 1104 1120	бронзовые медали
+R48	ORIGINS_FROM Arg1:T55 Arg2:T29	
+N1	Reference T12 Wikidata:Q597	Лиссабон
+N2	Reference T15 Wikidata:Q162043	Эйсебио
+N3	Reference T17 Wikidata:Q1029	Мозамбик
+N4	Reference T18 Wikidata:Q45	Португалия
+N5	Reference T19 Wikidata:Q131499	Бенфика
+N7	Reference T30 Wikidata:Q7875112	Эштадиу да Луш
+N11	Reference T45 Wikidata:Q937857	футболист
+N12	Reference T46 Wikidata:Q922399	европейский вариант португальского языка
+N13	Reference T55 Wikidata:Q1588911	Golden Boy
+N17	Reference T58 Wikidata:Q873364	бронзовая медаль
+N15	Reference T57 Wikidata:NULL	нет данных
+N16	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T28 Wikidata:Q597	Лиссабон
+N9	Reference T29 Wikidata:Q46	Европа
+N8	Reference T33 Wikidata:Q45	Португалия
+N14	Reference T56 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:NULL	нет данных
+N18	Reference T8 Wikidata:Q162043	Эйсебио
+N19	Reference T20 Wikidata:Q162043	Эйсебио
+N20	Reference T4 Wikidata:Q162043	Эйсебио
+N21	Reference T41 Wikidata:Q162043	Эйсебио
+N22	Reference T27 Wikidata:Q162043	Эйсебио
+N23	Reference T38 Wikidata:Q162043	Эйсебио
+N24	Reference T44 Wikidata:Q45	Португалия
+N25	Reference T1 Wikidata:Q45	Португалия
+N26	Reference T6 Wikidata:Q45	Португалия
+N27	Reference T23 Wikidata:Q131499	Бенфика
+N28	Reference T49 Wikidata:Q937857	футболист
+N29	Reference T52 Wikidata:Q937857	футболист
+N30	Reference T37 Wikidata:Q937857	футболист
+N31	Reference T47 Wikidata:Q937857	футболист
+N32	Reference T14 Wikidata:Q46	Европа
+T3	EVENT 549 556	родился
+R49	PARTICIPANT_IN Arg1:T15 Arg2:T3	
+R50	POINT_IN_TIME Arg1:T3 Arg2:T16	
+R51	TAKES_PLACE_IN Arg1:T3 Arg2:T17	

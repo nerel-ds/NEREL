@@ -1,0 +1,120 @@
+T2	AGE 0 8	10-летие
+T3	PERSON 16 28	Егора Летова
+T4	ORGANIZATION 38 53	Були для бабули
+T5	ORGANIZATION 89 104	Були для бабули
+T6	ORGANIZATION 138 153	Були для бабули
+T7	ORGANIZATION 164 176	Рычаги машин
+T9	AGE 188 196	10-летие
+T10	NATIONALITY 222 232	советского
+T11	NATIONALITY 235 246	российского
+T12	CITY 256 261	Омска
+T13	PERSON 262 274	Егора Летова
+T14	ORGANIZATION 396 400	Pain
+T15	WORK_OF_ART 428 443	Shut Your Mouth
+T16	PERSON 471 477	Летова
+T17	WORK_OF_ART 506 514	Харакири
+T18	DATE 526 535	1989 года
+T19	WORK_OF_ART 537 544	Тошнота
+T20	PRODUCT 598 607	Вконтакте
+T21	PERSON 760 765	Diego
+T23	ORGANIZATION 790 796	Fruktы
+T24	PERSON 834 850	Heinrich Neumann
+T26	PERSON 861 868	S. Tony
+T27	PROFESSION 870 878	вокалист
+T28	ORGANIZATION 886 893	Dominia
+T29	PERSON 959 973	Приана Яцунами
+T30	NATIONALITY 1112 1119	русских
+T31	DATE 1182 1190	на весну
+T32	ORGANIZATION 1211 1222	Викиновости
+T33	ORDINAL 1224 1230	первый
+T34	ORGANIZATION 1246 1261	Були для бабули
+T36	DATE 1298 1306	в апреле
+T37	ORDINAL 1310 1316	второй
+T38	DATE 1336 1358	в ноябре прошлого года
+T39	CITY 106 119	Петербургская
+T40	PROFESSION 247 252	певца
+T41	PERSON 717 733	josef kshetunsky
+T8	PROFESSION 705 714	музыканты
+T25	PROFESSION 950 958	художник
+T43	CITY 936 949	петербургский
+T44	WORK_OF_ART 1001 1017	Какого не спишь?
+T45	PROFESSION 1120 1132	исполнителей
+T35	WORK_OF_ART 1320 1332	Лёғкие бабки
+T46	WORK_OF_ART 1264 1290	Вентилятор им. А. Абдулова
+T47	PERSON 1279 1290	А. Абдулова
+R1	HEADQUARTERED_IN Arg1:T6 Arg2:T39	
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R3	PRODUCES Arg1:T14 Arg2:T15	
+R4	PRODUCES Arg1:T16 Arg2:T17	
+R5	PRODUCES Arg1:T16 Arg2:T19	
+R6	DATE_OF_CREATION Arg1:T19 Arg2:T18	
+T48	PROFESSION 694 714	сессионные музыканты
+R7	WORKS_AS Arg1:T41 Arg2:T48	
+R8	WORKS_AS Arg1:T21 Arg2:T48	
+R9	WORKPLACE Arg1:T24 Arg2:T23	
+R10	WORKS_AS Arg1:T24 Arg2:T48	
+T22	PROFESSION 870 893	вокалист группы Dominia
+R11	WORKS_AS Arg1:T26 Arg2:T22	
+R12	WORKPLACE Arg1:T26 Arg2:T28	
+R13	WORKPLACE Arg1:T22 Arg2:T28	
+R14	ORIGINS_FROM Arg1:T25 Arg2:T43	
+R15	WORKS_AS Arg1:T29 Arg2:T25	
+R16	ORIGINS_FROM Arg1:T29 Arg2:T43	
+R17	PRODUCES Arg1:T34 Arg2:T46	
+R18	DATE_OF_CREATION Arg1:T46 Arg2:T36	
+R19	DATE_OF_CREATION Arg1:T35 Arg2:T38	
+R20	PRODUCES Arg1:T34 Arg2:T35	
+R21	ORIGINS_FROM Arg1:T13 Arg2:T12	
+R22	WORKS_AS Arg1:T13 Arg2:T40	
+R23	ORIGINS_FROM Arg1:T13 Arg2:T11	
+R24	ORIGINS_FROM Arg1:T13 Arg2:T10	
+R25	ORIGINS_FROM Arg1:T40 Arg2:T11	
+R26	ORIGINS_FROM Arg1:T40 Arg2:T10	
+R27	DATE_OF_CREATION Arg1:T17 Arg2:T18	
+R28	PRODUCES Arg1:T6 Arg2:T44	
+R29	ORIGINS_FROM Arg1:T45 Arg2:T30	
+T1	EVENT 9 15	смерти
+R30	PARTICIPANT_IN Arg1:T3 Arg2:T1	
+R31	AGE_IS Arg1:T1 Arg2:T2	
+T42	EVENT 204 210	смерти
+R32	AGE_IS Arg1:T42 Arg2:T9	
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T42	
+R34	ALTERNATIVE_NAME Arg1:T13 Arg2:T16	
+N3	Reference T12 Wikidata:Q898	Омск
+N5	Reference T14 Wikidata:Q206378	Pain
+N9	Reference T20 Wikidata:Q116933	ВКонтакте
+N11	Reference T23 Wikidata:Q21088026	Fruktы
+N14	Reference T27 Wikidata:Q2643890	вокалист
+N15	Reference T28 Wikidata:Q2621516	Dominia
+N18	Reference T32 Wikidata:Q964	Викиновости
+N20	Reference T40 Wikidata:Q177220	певец
+N21	Reference T8 Wikidata:Q639669	музыкант
+N22	Reference T25 Wikidata:Q1028181	художник
+N24	Reference T45 Wikidata:Q713200	исполнитель
+N27	Reference T47 Wikidata:Q461085	Александр Гаврилович Абдулов
+N28	Reference T48 Wikidata:Q16154896	Сессионный музыкант
+N30	Reference T5 Wikidata:Q29363947	
+N19	Reference T39 Wikidata:Q656	Санкт-Петербург
+N1	Reference T10 Wikidata:Q1633149	
+N2	Reference T11 Wikidata:Q492468	россияне
+N4	Reference T13 Wikidata:Q363371	Егор Летов
+N6	Reference T15 Wikidata:Q2020724	
+N7	Reference T17 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q4461614	
+N31	Reference T41 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N12	Reference T24 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:NULL	нет данных
+N29	Reference T22 Wikidata:NULL	нет данных
+N16	Reference T29 Wikidata:NULL	нет данных
+N23	Reference T44 Wikidata:NULL	нет данных
+N17	Reference T30 Wikidata:Q492468	россияне
+N26	Reference T46 Wikidata:NULL	нет данных
+N25	Reference T35 Wikidata:NULL	нет данных
+N32	Reference T34 Wikidata:Q29363947	
+N33	Reference T4 Wikidata:Q29363947	
+N34	Reference T7 Wikidata:Q29363947	
+N35	Reference T6 Wikidata:Q29363947	
+N36	Reference T43 Wikidata:Q656	Санкт-Петербург
+N37	Reference T3 Wikidata:Q363371	Егор Летов
+N38	Reference T16 Wikidata:Q363371	Егор Летов

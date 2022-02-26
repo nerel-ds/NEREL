@@ -1,0 +1,62 @@
+T1	STATE_OR_PROVINCE 2 24	Кировоградской области
+T2	AGE 47 56	14-летняя
+T3	COUNTRY 91 101	украинском
+T4	CITY 107 115	Цибулёво
+T5	STATE_OR_PROVINCE 135 172	Кировоградской (Кропивницкой) области
+T8	AGE 196 205	14-летняя
+T9	ORDINAL 231 238	девятом
+T10	TIME 303 332	в ночь на 18 апреля 2019 года
+T11	DATE 310 332	на 18 апреля 2019 года
+T12	PERSON 350 358	Кристина
+T13	PROFESSION 370 386	главы сельсовета
+T14	AGE 512 521	18-летним
+T15	PERSON 538 543	Артём
+T16	DATE 673 680	за день
+T17	PERSON 704 710	Артёма
+T18	ORGANIZATION 847 902	Главном управлении Нацполиции по Кировоградской области
+T19	EVENT 25 46	повесилась беременная
+T21	DISTRICT 116 134	Знаменского района
+T22	EVENT 183 195	самоубийство
+T26	PERSON 693 701	Кристину
+T27	DATE 781 798	В настоящее время
+T28	ORGANIZATION 799 806	полиция
+T29	STATE_OR_PROVINCE 880 902	Кировоградской области
+T30	ORGANIZATION 866 876	Нацполиции
+T31	ORGANIZATION 847 876	Главном управлении Нацполиции
+T32	EVENT 920 927	суицида
+R1	TAKES_PLACE_IN Arg1:T19 Arg2:T1	
+T6	EVENT 260 285	Тело школьницы обнаружили
+R2	LOCATED_IN Arg1:T21 Arg2:T5	
+R3	LOCATED_IN Arg1:T4 Arg2:T21	
+R4	LOCATED_IN Arg1:T5 Arg2:T3	
+R5	ALTERNATIVE_NAME Arg1:T19 Arg2:T22	
+R6	TAKES_PLACE_IN Arg1:T22 Arg2:T3	
+R7	TAKES_PLACE_IN Arg1:T6 Arg2:T4	
+R8	POINT_IN_TIME Arg1:T6 Arg2:T10	
+R9	AGE_IS Arg1:T12 Arg2:T8	
+R10	AGENT Arg1:T12 Arg2:T22	
+R11	WORKPLACE Arg1:T13 Arg2:T4	
+R12	AGE_IS Arg1:T15 Arg2:T14	
+R13	KNOWS Arg1:T26 Arg2:T17	
+R14	KNOWS Arg1:T17 Arg2:T26	
+R15	ALTERNATIVE_NAME Arg1:T22 Arg2:T32	
+R16	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R17	HEADQUARTERED_IN Arg1:T18 Arg2:T29	
+R18	PART_OF Arg1:T18 Arg2:T30	
+T7	EVENT 25 35	повесилась
+R19	SPOUSE Arg1:T12 Arg2:T15	
+N1	Reference T3 Wikidata:Q212	Украина
+N2	Reference T4 Wikidata:Q4505529	Цибулёво
+N7	Reference T21 Wikidata:Q2652813	Знаменский район
+N8	Reference T28 Wikidata:Q35535	полиция
+N9	Reference T30 Wikidata:Q18702413	Национальная Полиция Украины
+N3	Reference T5 Wikidata:Q180981	Кировоградская область
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:NULL	нет данных
+N10	Reference T31 Wikidata:NULL	нет данных
+N12	Reference T29 Wikidata:Q180981	Кировоградская область
+N13	Reference T1 Wikidata:Q180981	Кировоградская область
+N14	Reference T17 Wikidata:NULL	нет данных
+N15	Reference T12 Wikidata:NULL	нет данных

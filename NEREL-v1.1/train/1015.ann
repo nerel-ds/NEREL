@@ -1,0 +1,84 @@
+T1	NUMBER 42 44	13
+T2	PROFESSION 109 122	электромонтер
+T3	PERSON 123 139	Александр Горлов
+T4	PROFESSION 167 171	мэра
+T5	NUMBER 227 229	13
+T6	ORGANIZATION 239 250	РИА Новости
+T7	ORGANIZATION 275 290	Мосгоризбиркома
+T8	PERSON 310 326	Горлов Александр
+T9	DATE 328 337	1963 года
+T10	PROFESSION 360 375	электромонтером
+T11	ORGANIZATION 416 424	Избирком
+T12	NUMBER 446 448	12
+T14	ORGANIZATION 504 508	ЛДПР
+T15	PERSON 511 526	Михаил Дегтярев
+T16	ORGANIZATION 531 535	КПРФ
+T17	PERSON 538 552	Иван Мельников
+T18	ORGANIZATION 565 571	Яблоко
+T19	PERSON 575 590	Сергей Митрохин
+T20	IDEOLOGY 592 604	оппозиционер
+T21	PERSON 605 622	Алексей Навальный
+T22	ORGANIZATION 626 638	РПР "ПАРНАС"
+T23	PERSON 640 656	Светлана Пеунова
+T24	ORGANIZATION 668 672	Воля
+T26	PERSON 691 705	Сергей Собянин
+T27	NUMBER 787 790	110
+T28	CITY 815 821	Москвы
+T29	NUMBER 865 879	более 73 тысяч
+T30	PROFESSION 19 30	мэры Москвы
+T32	ORDINAL 46 57	Тринадцатым
+T33	PROFESSION 19 23	мэры
+T34	PROFESSION 88 103	градоначальника
+T35	PROFESSION 167 178	мэра Москвы
+T36	CITY 24 30	Москвы
+T37	CITY 172 178	Москвы
+T25	PROFESSION 791 814	муниципальных депутатов
+T39	CITY 889 898	москвичей
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	WORKS_AS Arg1:T8 Arg2:T10	
+R3	DATE_OF_BIRTH Arg1:T8 Arg2:T9	
+R4	IDEOLOGY_OF Arg1:T21 Arg2:T20	
+R5	MEMBER_OF Arg1:T15 Arg2:T14	
+R6	MEMBER_OF Arg1:T17 Arg2:T16	
+R7	MEMBER_OF Arg1:T19 Arg2:T18	
+R8	MEMBER_OF Arg1:T21 Arg2:T22	
+R9	MEMBER_OF Arg1:T23 Arg2:T24	
+T13	PROFESSION 77 103	столичного градоначальника
+R10	WORKPLACE Arg1:T30 Arg2:T36	
+R11	ALTERNATIVE_NAME Arg1:T30 Arg2:T13	
+R12	WORKPLACE Arg1:T35 Arg2:T37	
+R13	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+T38	PROFESSION 805 814	депутатов
+R15	WORKPLACE Arg1:T25 Arg2:T28	
+R16	HEADQUARTERED_IN Arg1:T7 Arg2:T37	
+N1	Reference T4 Wikidata:Q30185	мэр
+N2	Reference T6 Wikidata:Q821172	РИА Новости
+N4	Reference T10 Wikidata:Q165029	электромонтёр
+N5	Reference T14 Wikidata:Q212115	ЛДПР
+N6	Reference T15 Wikidata:Q4156642	Михаил Владимирович Дегтярёв
+N7	Reference T16 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N8	Reference T17 Wikidata:Q4289876	Иван Иванович Мельников
+N9	Reference T18 Wikidata:Q15332	партия Яблоко
+N10	Reference T19 Wikidata:Q544851	Сергей Сергеевич Митрохин
+N11	Reference T21 Wikidata:Q155979	Алексей Анатольевич Навальный
+N12	Reference T22 Wikidata:Q1559990	Партия народной свободы
+N13	Reference T23 Wikidata:Q4361892	Пеунова, Светлана Михайловна
+N15	Reference T26 Wikidata:Q319497	Сергей Семёнович Собянин
+N16	Reference T30 Wikidata:Q1837906	мэр Москвы
+N18	Reference T37 Wikidata:Q649	Москва
+N20	Reference T38 Wikidata:Q486839	член парламента
+N17	Reference T34 Wikidata:Q30185	мэр
+N3	Reference T8 Wikidata:NULL	нет данных
+N21	Reference T11 Wikidata:Q935741	избирательная комиссия
+N14	Reference T24 Wikidata:NULL	нет данных
+N19	Reference T39 Wikidata:Q105737722	
+N22	Reference T25 Wikidata:NULL	нет данных
+N23	Reference T33 Wikidata:Q30185	мэр
+N24	Reference T2 Wikidata:Q165029	электромонтёр
+N25	Reference T35 Wikidata:Q1837906	мэр Москвы
+N26	Reference T13 Wikidata:Q1837906	мэр Москвы
+N27	Reference T28 Wikidata:Q649	Москва
+N28	Reference T36 Wikidata:Q649	Москва
+N29	Reference T3 Wikidata:NULL	нет данных
+N30	Reference T7 Wikidata:Q935741	избирательная комиссия

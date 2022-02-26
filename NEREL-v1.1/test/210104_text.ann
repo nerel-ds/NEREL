@@ -1,0 +1,110 @@
+T1	PERSON 6 10	Децл
+T2	EVENT 22 30	концерта
+T3	CITY 33 40	Ижевске
+T4	PERSON 49 53	Децл
+T5	PERSON 41 64	Кирилл «Децл» Толмацкий
+T6	DATE 65 76	в 2007 году
+T7	PERSON 83 101	Александра Плющева
+T8	DATE 102 121	3 февраля 2019 года
+T9	TIME 102 159	3 февраля 2019 года в 6 часов утра по московскому времени
+T10	PERSON 172 190	Кирилла Толмацкого
+T11	PERSON 214 218	Децл
+T12	PERSON 275 294	Александр Толмацкий
+T13	NUMBER 316 320	трёх
+T14	PERSON 327 334	Кирилла
+T15	PROFESSION 383 402	концертный директор
+T16	PERSON 413 426	Павел Беленец
+T17	DATE 430 437	Сегодня
+T18	CITY 458 465	Ижевске
+T19	TIME 503 524	через несколько минут
+T20	PERSON 628 635	Беленец
+T21	ORGANIZATION 637 646	Известиям
+T22	PERSON 650 668	Кириллу Толмацкому
+T23	AGE 674 680	35 лет
+T24	DATE 721 737	на начало 2000-х
+T25	WORK_OF_ART 761 768	Кто? ты
+T26	DATE 771 775	2000
+T27	NUMBER 795 809	более миллиона
+T28	COUNTRY 869 875	России
+T29	PERSON 883 887	Децл
+T30	CITY 910 917	Ижевске
+T31	AGE 928 934	35 лет
+T32	PROFESSION 0 5	Рэпер
+T33	EVENT 11 15	умер
+T34	PROFESSION 165 171	рэпера
+T35	EVENT 230 236	смерти
+T36	PROFESSION 237 244	артиста
+T40	PROFESSION 403 412	музыканта
+T41	TIME 430 443	Сегодня ночью
+T42	EVENT 473 484	выступления
+T43	DISEASE 588 604	остановка сердца
+T44	EVENT 611 615	умер
+T45	PROFESSION 877 882	Рэпер
+T46	EVENT 888 892	умер
+T47	EVENT 899 907	концерта
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T33	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R4	PLACE_OF_DEATH Arg1:T1 Arg2:T3	
+R5	WORKS_AS Arg1:T1 Arg2:T32	
+R6	TAKES_PLACE_IN Arg1:T33 Arg2:T3	
+R7	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R8	WORKS_AS Arg1:T10 Arg2:T34	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R10	WORKS_AS Arg1:T10 Arg2:T36	
+R11	PARTICIPANT_IN Arg1:T10 Arg2:T35	
+R12	POINT_IN_TIME Arg1:T35 Arg2:T9	
+R13	PARTICIPANT_IN Arg1:T36 Arg2:T35	
+R14	DATE_OF_DEATH Arg1:T10 Arg2:T8	
+R15	ALTERNATIVE_NAME Arg1:T10 Arg2:T14	
+R16	PARENT_OF Arg1:T12 Arg2:T14	
+R17	SUBORDINATE_OF Arg1:T15 Arg2:T40	
+R18	WORKS_AS Arg1:T16 Arg2:T15	
+R19	WORKS_AS Arg1:T14 Arg2:T40	
+R20	SUBORDINATE_OF Arg1:T16 Arg2:T14	
+T37	DISEASE 529 540	стало плохо
+R21	MEDICAL_CONDITION Arg1:T14 Arg2:T37	
+R22	ALTERNATIVE_NAME Arg1:T16 Arg2:T20	
+R23	TAKES_PLACE_IN Arg1:T42 Arg2:T18	
+R24	POINT_IN_TIME Arg1:T42 Arg2:T41	
+R25	PARTICIPANT_IN Arg1:T14 Arg2:T42	
+R26	CAUSE_OF_DEATH Arg1:T14 Arg2:T43	
+R27	HAS_CAUSE Arg1:T44 Arg2:T43	
+R28	PARTICIPANT_IN Arg1:T16 Arg2:T44	
+R29	AGE_DIED_AT Arg1:T22 Arg2:T23	
+R30	PRODUCES Arg1:T22 Arg2:T25	
+R31	WORKS_AS Arg1:T29 Arg2:T45	
+R32	PARTICIPANT_IN Arg1:T29 Arg2:T46	
+R33	PARTICIPANT_IN Arg1:T29 Arg2:T47	
+R34	TAKES_PLACE_IN Arg1:T46 Arg2:T30	
+R35	PLACE_OF_DEATH Arg1:T29 Arg2:T30	
+R36	TAKES_PLACE_IN Arg1:T47 Arg2:T30	
+R37	AGE_IS Arg1:T29 Arg2:T31	
+R38	ALTERNATIVE_NAME Arg1:T5 Arg2:T4	
+R39	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R40	POINT_IN_TIME Arg1:T25 Arg2:T26	
+R41	LOCATED_IN Arg1:T30 Arg2:T28	
+N1	Reference T7 Wikidata:Q4365965	Александр Плющев
+N2	Reference T10 Wikidata:Q1968358	Децл
+N3	Reference T12 Wikidata:Q16706692	Александр Яковлевич Толмацкий
+N6	Reference T18 Wikidata:Q5426	Ижевск
+N7	Reference T21 Wikidata:Q753932	Известия
+N8	Reference T25 Wikidata:Q4243378	Кто? ты
+N9	Reference T28 Wikidata:Q159	Россия
+N10	Reference T36 Wikidata:Q483501	деятель искусств
+N11	Reference T40 Wikidata:Q639669	музыкант
+N12	Reference T45 Wikidata:Q2252262	рэпер
+N4	Reference T15 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T22 Wikidata:Q1968358	Децл
+N14	Reference T5 Wikidata:Q1968358	Децл
+N15	Reference T14 Wikidata:Q1968358	Децл
+N16	Reference T4 Wikidata:Q1968358	Децл
+N17	Reference T29 Wikidata:Q1968358	Децл
+N18	Reference T11 Wikidata:Q1968358	Децл
+N19	Reference T1 Wikidata:Q1968358	Децл
+N20	Reference T3 Wikidata:Q5426	Ижевск
+N21	Reference T30 Wikidata:Q5426	Ижевск
+N22	Reference T34 Wikidata:Q2252262	рэпер
+N23	Reference T32 Wikidata:Q2252262	рэпер
+N24	Reference T20 Wikidata:NULL	нет данных

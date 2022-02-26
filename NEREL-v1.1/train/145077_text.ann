@@ -1,0 +1,97 @@
+T1	COUNTRY 2 8	Косово
+T2	COUNTRY 22 30	сербский
+T3	PERSON 39 54	Оливер Иванович
+T4	COUNTRY 79 87	сербский
+T5	COUNTRY 98 104	Косово
+T6	DATE 126 157	во вторник, 16 января 2018 года
+T7	PROFESSION 265 272	адвокат
+T8	PROFESSION 275 295	представитель партии
+T9	CITY 331 338	Белград
+T10	CITY 341 349	Приштина
+T11	DATE 422 432	более года
+T12	CITY 520 538	Косовски-Митровицы
+T15	ORGANIZATION 590 593	AFP
+T16	PROFESSION 594 601	адвокат
+T17	PERSON 602 615	Небойша Влаич
+T18	PERSON 633 641	Иванович
+T19	NUMBER 650 654	пять
+T20	COUNTRY 799 805	Косово
+T21	AGE 860 869	64-летний
+T22	PROFESSION 870 927	лидер гражданской инициативы «Свобода, демократия, правда
+T23	ORGANIZATION 900 927	Свобода, демократия, правда
+T24	PERSON 930 938	Иванович
+T25	PROFESSION 31 38	политик
+T26	PROFESSION 88 95	политик
+T27	PERSON 105 120	Оливер Иванович
+T13	IDEOLOGY 948 957	умеренным
+T14	PROFESSION 958 967	политиком
+T28	PROFESSION 685 693	политика
+T29	CRIME 756 777	военных преступлениях
+T30	PERSON 55 70	Оливер Иванович
+T31	EVENT 298 306	Убийство
+T32	EVENT 9 13	убит
+T33	EVENT 121 125	убит
+R1	PARTICIPANT_IN Arg1:T27 Arg2:T33	
+R2	POINT_IN_TIME Arg1:T33 Arg2:T6	
+R3	TAKES_PLACE_IN Arg1:T33 Arg2:T5	
+R4	ALTERNATIVE_NAME Arg1:T33 Arg2:T31	
+R5	PLACE_OF_DEATH Arg1:T27 Arg2:T12	
+R6	WORKS_AS Arg1:T17 Arg2:T16	
+R7	IDEOLOGY_OF Arg1:T24 Arg2:T13	
+R8	IDEOLOGY_OF Arg1:T14 Arg2:T13	
+R9	WORKS_AS Arg1:T24 Arg2:T14	
+R10	AGE_IS Arg1:T24 Arg2:T21	
+R11	WORKPLACE Arg1:T24 Arg2:T23	
+R12	WORKS_AS Arg1:T24 Arg2:T22	
+R13	WORKS_AS Arg1:T3 Arg2:T25	
+R14	ORIGINS_FROM Arg1:T25 Arg2:T2	
+R15	ORIGINS_FROM Arg1:T3 Arg2:T2	
+R16	PARTICIPANT_IN Arg1:T3 Arg2:T32	
+R17	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+R18	WORKS_AS Arg1:T27 Arg2:T26	
+R19	ORIGINS_FROM Arg1:T27 Arg2:T4	
+R20	SUBORDINATE_OF Arg1:T7 Arg2:T27	
+R21	LOCATED_IN Arg1:T10 Arg2:T5	
+R22	LOCATED_IN Arg1:T9 Arg2:T4	
+R23	ALTERNATIVE_NAME Arg1:T27 Arg2:T18	
+T34	EVENT 787 805	конфликта в Косово
+R24	TAKES_PLACE_IN Arg1:T34 Arg2:T20	
+R25	CONVICTED_OF Arg1:T28 Arg2:T29	
+R26	HAS_CAUSE Arg1:T29 Arg2:T34	
+R27	PARTICIPANT_IN Arg1:T18 Arg2:T34	
+R28	WORKS_AS Arg1:T18 Arg2:T28	
+R29	CONVICTED_OF Arg1:T18 Arg2:T29	
+T35	EVENT 470 479	застрелен
+R30	ALTERNATIVE_NAME Arg1:T31 Arg2:T35	
+T36	DISEASE 655 670	пулевых ранений
+T37	DISEASE 663 670	ранений
+R31	MEDICAL_CONDITION Arg1:T18 Arg2:T36	
+T38	EVENT 357 367	переговоры
+R32	AGENT Arg1:T10 Arg2:T38	
+R33	AGENT Arg1:T9 Arg2:T38	
+R34	POINT_IN_TIME Arg1:T38 Arg2:T6	
+N1	Reference T4 Wikidata:Q403	Сербия
+N3	Reference T9 Wikidata:Q3711	Белград
+N4	Reference T10 Wikidata:Q25270	Приштина
+N5	Reference T12 Wikidata:Q178168	Косовска-Митровица
+N6	Reference T16 Wikidata:Q40348	адвокат
+N10	Reference T26 Wikidata:Q82955	политик
+N11	Reference T27 Wikidata:Q3350657	Оливер Иванович
+N12	Reference T28 Wikidata:Q82955	политик
+N2	Reference T5 Wikidata:Q1246	Республика Косово
+N13	Reference T8 Wikidata:NULL	нет данных
+N14	Reference T15 Wikidata:Q40464	Франс Пресс
+N7	Reference T17 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:NULL	нет данных
+N9	Reference T23 Wikidata:NULL	нет данных
+N15	Reference T2 Wikidata:Q403	Сербия
+N16	Reference T7 Wikidata:Q40348	адвокат
+N17	Reference T14 Wikidata:Q82955	политик
+N18	Reference T25 Wikidata:Q82955	политик
+N19	Reference T24 Wikidata:Q3350657	Оливер Иванович
+N20	Reference T3 Wikidata:Q3350657	Оливер Иванович
+N21	Reference T18 Wikidata:Q3350657	Оливер Иванович
+N22	Reference T30 Wikidata:Q3350657	Оливер Иванович
+N23	Reference T1 Wikidata:Q1246	Республика Косово
+N24	Reference T20 Wikidata:Q1246	Республика Косово
+R35	ORIGINS_FROM Arg1:T26 Arg2:T4	

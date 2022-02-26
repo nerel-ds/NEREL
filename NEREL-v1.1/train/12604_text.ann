@@ -1,0 +1,109 @@
+T1	ORGANIZATION 0 11	Росавтодору
+T2	DATE 39 49	29 декабря
+T4	ORGANIZATION 60 86	Останкинском районном суде
+T7	CITY 90 96	Москвы
+T10	CITY 193 204	Химкинского
+T13	CITY 305 311	Москва
+T15	CITY 314 329	Санкт-Петербург
+T16	ORGANIZATION 392 401	Минтранса
+T17	COUNTRY 402 408	России
+T18	ORGANIZATION 410 421	Росавтодору
+T20	CITY 512 523	Химкинского
+T22	LAW 695 723	ч. 7 ст. 105 Лесного кодекса
+T23	ORGANIZATION 761 775	правительством
+T24	COUNTRY 776 778	РФ
+T25	ORGANIZATION 821 834	правительство
+T26	STATE_OR_PROVINCE 835 853	Московской области
+T27	ORGANIZATION 974 987	правительство
+T28	STATE_OR_PROVINCE 988 990	МО
+T29	ORGANIZATION 1372 1383	Росавтодору
+T30	LAW 1534 1557	ст. 105 Лесного кодекса
+T31	LAW 1559 1568	п. 5 ч. 3
+T3	TIME 39 57	29 декабря в 10:00
+T12	FACILITY 294 329	автодороги Москва — Санкт-Петербург
+T5	LAW 708 723	Лесного кодекса
+T6	LAW 700 723	ст. 105 Лесного кодекса
+T14	ORDINAL 698 699	7
+T19	ORDINAL 704 707	105
+T32	ORGANIZATION 392 408	Минтранса России
+T11	LOCATION 193 209	Химкинского леса
+T33	ORGANIZATION 60 96	Останкинском районном суде г. Москвы
+T8	FACILITY 98 131	ул. 1-я Останкинская, 35, зал 302
+T9	ORDINAL 102 105	1-я
+T34	ORDINAL 120 122	35
+T35	ORDINAL 128 131	302
+T36	EVENT 143 151	слушание
+T38	ORGANIZATION 359 391	Федеральному дорожному агентству
+T39	ORGANIZATION 359 408	Федеральному дорожному агентству Минтранса России
+T21	LOCATION 512 533	Химкинского лесопарка
+T37	ORGANIZATION 761 778	правительством РФ
+T40	ORGANIZATION 821 853	правительство Московской области
+T41	ORGANIZATION 974 990	правительство МО
+T42	ORDINAL 1538 1541	105
+T43	ORDINAL 1562 1563	5
+T44	ORDINAL 1567 1568	3
+T46	FACILITY 98 118	ул. 1-я Останкинская
+T47	LAW 708 723	Лесного кодекса
+T48	LAW 1542 1557	Лесного кодекса
+R1	HEADQUARTERED_IN Arg1:T33 Arg2:T7	
+T49	DISTRICT 60 72	Останкинском
+R2	HEADQUARTERED_IN Arg1:T33 Arg2:T49	
+R3	LOCATED_IN Arg1:T49 Arg2:T7	
+R4	TAKES_PLACE_IN Arg1:T36 Arg2:T8	
+R5	LOCATED_IN Arg1:T11 Arg2:T10	
+R7	ALTERNATIVE_NAME Arg1:T39 Arg2:T18	
+R8	HEADQUARTERED_IN Arg1:T32 Arg2:T17	
+R10	ALTERNATIVE_NAME Arg1:T11 Arg2:T21	
+R11	LOCATED_IN Arg1:T21 Arg2:T20	
+R12	HEADQUARTERED_IN Arg1:T37 Arg2:T24	
+R13	ALTERNATIVE_NAME Arg1:T17 Arg2:T24	
+R14	HEADQUARTERED_IN Arg1:T40 Arg2:T26	
+R15	LOCATED_IN Arg1:T26 Arg2:T24	
+R16	LOCATED_IN Arg1:T10 Arg2:T17	
+R17	LOCATED_IN Arg1:T15 Arg2:T17	
+R18	LOCATED_IN Arg1:T13 Arg2:T17	
+R19	ABBREVIATION Arg1:T26 Arg2:T28	
+R20	HEADQUARTERED_IN Arg1:T41 Arg2:T28	
+R21	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R22	POINT_IN_TIME Arg1:T36 Arg2:T3	
+R23	PART_OF Arg1:T30 Arg2:T48	
+R24	PART_OF Arg1:T31 Arg2:T30	
+R6	FOUNDED_BY Arg1:T39 Arg2:T32	
+R9	PARTICIPANT_IN Arg1:T39 Arg2:T36	
+N3	Reference T13 Wikidata:Q649	Москва
+N4	Reference T15 Wikidata:Q656	Санкт-Петербург
+N5	Reference T16 Wikidata:Q1958537	министерство транспорта Российской Федерации
+N6	Reference T18 Wikidata:Q15893836	Федеральное дорожное агентство
+N8	Reference T23 Wikidata:Q7188	правительство
+N9	Reference T24 Wikidata:Q159	Россия
+N13	Reference T12 Wikidata:Q24971	Строящаяся автомагистраль Москва — Санкт-Петербург
+N15	Reference T32 Wikidata:Q1958537	министерство транспорта Российской Федерации
+N16	Reference T11 Wikidata:Q2462206	Химкинский лес
+N19	Reference T38 Wikidata:Q15893836	Федеральное дорожное агентство
+N20	Reference T37 Wikidata:Q1140115	Правительство Российской Федерации
+N22	Reference T46 Wikidata:Q4348863	Первая Останкинская улица
+N23	Reference T49 Wikidata:Q2704188	Останкинский район
+N1	Reference T4 Wikidata:NULL	нет данных
+N17	Reference T33 Wikidata:NULL	нет данных
+N18	Reference T8 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:Q197582	
+N14	Reference T5 Wikidata:Q4259727	
+N7	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q1697	Московская область
+N21	Reference T41 Wikidata:Q4375970	
+N11	Reference T30 Wikidata:NULL	нет данных
+N12	Reference T31 Wikidata:NULL	нет данных
+N24	Reference T7 Wikidata:Q649	Москва
+N25	Reference T39 Wikidata:Q15893836	Федеральное дорожное агентство
+N26	Reference T29 Wikidata:Q15893836	Федеральное дорожное агентство
+N27	Reference T1 Wikidata:Q15893836	Федеральное дорожное агентство
+N28	Reference T27 Wikidata:Q7188	правительство
+N29	Reference T25 Wikidata:Q7188	правительство
+N30	Reference T17 Wikidata:Q159	Россия
+N31	Reference T21 Wikidata:Q2462206	Химкинский лес
+N32	Reference T20 Wikidata:Q197582	
+N33	Reference T47 Wikidata:Q4259727	
+N34	Reference T48 Wikidata:Q4259727	
+N35	Reference T28 Wikidata:Q1697	Московская область
+N36	Reference T40 Wikidata:Q4375970	
+N37	Reference T6 Wikidata:NULL	нет данных

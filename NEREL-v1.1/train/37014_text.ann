@@ -1,0 +1,127 @@
+T1	ORGANIZATION 0 5	Opera
+T3	ORGANIZATION 70 77	Mozilla
+T4	ORGANIZATION 99 113	Opera Software
+T6	AGE 157 167	36-летнего
+T7	PROFESSION 168 177	дизайнера
+T8	PROFESSION 179 191	программиста
+T9	PERSON 204 226	Тронда Вернера Хансена
+T10	PERSON 228 247	Trond Werner Hansen
+T11	MONEY 284 315	примерно в 3,4 млн долларов США
+T12	ORGANIZATION 327 332	Opera
+T14	ORGANIZATION 382 389	Mozilla
+T15	PRODUCT 578 582	iPad
+T16	ORGANIZATION 628 635	Mozilla
+T17	ORGANIZATION 736 741	Opera
+T18	ORGANIZATION 819 824	Opera
+T19	ORGANIZATION 941 948	Mozilla
+T20	PERSON 1075 1081	Хансен
+T21	ORGANIZATION 1101 1106	Opera
+T22	DATE 1107 1118	с 1999 года
+T24	PERSON 1277 1283	Хансен
+T25	ORGANIZATION 1485 1490	Opera
+T26	ORGANIZATION 1514 1521	Mozilla
+T27	PROFESSION 1534 1542	дизайнер
+T29	PRODUCT 1564 1578	Mozilla Junior
+T30	DATE 1629 1648	Летом прошлого года
+T31	ORDINAL 1665 1671	первый
+T32	PRODUCT 1697 1703	Junior
+T33	PRODUCT 1718 1728	Apple iPad
+T34	DATE 1816 1849	Спустя полгода в январе 2013 года
+T35	ORGANIZATION 1859 1864	Opera
+T36	PRODUCT 1902 1906	iPad
+T37	PRODUCT 1922 1928	WebKit
+T38	PRODUCT 1988 1994	Junior
+T39	ORGANIZATION 2023 2028	Opera
+T40	PERSON 2036 2043	Хансена
+T41	DATE 2057 2077	22 августа 2013 года
+T42	ORGANIZATION 2080 2093	окружном суде
+T44	CRIME 53 60	шпионаж
+T45	COUNTRY 79 89	Норвежская
+T47	PROFESSION 194 203	музыканта
+T48	PENALTY 265 315	компенсации ущерба примерно в 3,4 млн долларов США
+T52	PROFESSION 1308 1320	консультанта
+T54	PERSON 1491 1497	Хансен
+T28	ORGANIZATION 2080 2098	окружном суде Осло
+T56	CITY 2094 2098	Осло
+T2	EVENT 6 16	подала иск
+R1	AGENT Arg1:T1 Arg2:T2	
+R2	HAS_CAUSE Arg1:T2 Arg2:T44	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T45	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T44	
+T43	EVENT 114 126	подала в суд
+R10	ALTERNATIVE_NAME Arg1:T2 Arg2:T43	
+R12	WORKS_AS Arg1:T9 Arg2:T47	
+R13	WORKS_AS Arg1:T9 Arg2:T8	
+R14	WORKS_AS Arg1:T9 Arg2:T7	
+R15	AGE_IS Arg1:T9 Arg2:T6	
+R16	PARTICIPANT_IN Arg1:T9 Arg2:T43	
+R17	AGENT Arg1:T4 Arg2:T43	
+R18	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R19	PENALIZED_AS Arg1:T9 Arg2:T48	
+T49	PROFESSION 615 635	разработчики Mozilla
+R20	WORKPLACE Arg1:T49 Arg2:T16	
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T20	
+R23	WORKPLACE Arg1:T20 Arg2:T21	
+T23	DATE 1245 1261	в 2000—2005 годы
+R24	WORKS_AS Arg1:T24 Arg2:T52	
+R25	WORKPLACE Arg1:T54 Arg2:T26	
+T50	EVENT 1476 1481	ухода
+R26	AGENT Arg1:T54 Arg2:T50	
+R27	PARTICIPANT_IN Arg1:T25 Arg2:T50	
+R28	WORKS_AS Arg1:T54 Arg2:T27	
+R29	PRODUCES Arg1:T26 Arg2:T29	
+R30	PART_OF Arg1:T32 Arg2:T29	
+R31	ALTERNATIVE_NAME Arg1:T33 Arg2:T36	
+R32	PRODUCES Arg1:T35 Arg2:T37	
+R33	HEADQUARTERED_IN Arg1:T28 Arg2:T56	
+T51	EVENT 1997 2022	Рассмотрение дела по иску
+R34	TAKES_PLACE_IN Arg1:T51 Arg2:T28	
+R35	POINT_IN_TIME Arg1:T51 Arg2:T41	
+R36	AGENT Arg1:T39 Arg2:T51	
+R37	PARTICIPANT_IN Arg1:T40 Arg2:T51	
+R38	LOCATED_IN Arg1:T56 Arg2:T45	
+T5	ORGANIZATION 1564 1571	Mozilla
+R5	PRODUCES Arg1:T5 Arg2:T29	
+R7	PRODUCES Arg1:T27 Arg2:T29	
+T13	ORGANIZATION 1718 1723	Apple
+R8	PRODUCES Arg1:T13 Arg2:T33	
+N1	Reference T8 Wikidata:Q5482740	программист
+N2	Reference T15 Wikidata:Q2796	iPad
+N3	Reference T26 Wikidata:Q9661	Mozilla
+N4	Reference T27 Wikidata:Q5322166	дизайнер
+N6	Reference T35 Wikidata:Q41242	Opera
+N7	Reference T37 Wikidata:Q654034	WebKit
+N10	Reference T45 Wikidata:Q20	Норвегия
+N11	Reference T47 Wikidata:Q639669	музыкант
+N14	Reference T56 Wikidata:Q585	Осло
+N16	Reference T13 Wikidata:Q312	Apple
+N17	Reference T10 Wikidata:NULL	нет данных
+N15	Reference T49 Wikidata:NULL	нет данных
+N12	Reference T52 Wikidata:Q15978655	
+N5	Reference T29 Wikidata:NULL	нет данных
+N8	Reference T38 Wikidata:NULL	нет данных
+N9	Reference T40 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:Q75029	
+N13	Reference T28 Wikidata:Q7107019	
+N19	Reference T36 Wikidata:Q2796	iPad
+N20	Reference T33 Wikidata:Q2796	iPad
+N21	Reference T5 Wikidata:Q9661	Mozilla
+N22	Reference T19 Wikidata:Q9661	Mozilla
+N23	Reference T14 Wikidata:Q9661	Mozilla
+N24	Reference T16 Wikidata:Q9661	Mozilla
+N25	Reference T3 Wikidata:Q9661	Mozilla
+N26	Reference T7 Wikidata:Q5322166	дизайнер
+N27	Reference T21 Wikidata:Q41242	Opera
+N28	Reference T12 Wikidata:Q41242	Opera
+N29	Reference T17 Wikidata:Q41242	Opera
+N30	Reference T25 Wikidata:Q41242	Opera
+N31	Reference T4 Wikidata:Q41242	Opera
+N32	Reference T39 Wikidata:Q41242	Opera
+N33	Reference T18 Wikidata:Q41242	Opera
+N34	Reference T1 Wikidata:Q41242	Opera
+N35	Reference T20 Wikidata:NULL	нет данных
+N36	Reference T24 Wikidata:NULL	нет данных
+N37	Reference T9 Wikidata:NULL	нет данных
+N38	Reference T54 Wikidata:NULL	нет данных
+N39	Reference T32 Wikidata:NULL	нет данных

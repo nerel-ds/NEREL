@@ -1,0 +1,74 @@
+T1	PERSON 0 5	Путин
+T2	ORGANIZATION 7 17	Росгвардия
+T3	PROFESSION 33 45	губернаторов
+T4	PERSON 47 61	Владимир Путин
+T5	PERSON 64 78	Виктор Золотов
+T6	ORGANIZATION 79 89	Росгвардия
+T7	COUNTRY 175 177	РФ
+T8	ORGANIZATION 215 222	Госдуму
+T9	PROFESSION 223 232	президент
+T10	PERSON 233 247	Владимир Путин
+T11	LAW 310 343	О войсках национальной гвардии РФ
+T12	COUNTRY 424 426	РФ
+T14	ORGANIZATION 676 693	Кабинет министров
+T15	PROFESSION 742 754	Замдиректора
+T16	ORGANIZATION 755 765	Росгвардии
+T17	PROFESSION 768 794	главнокомандующий войсками
+T18	ORGANIZATION 795 805	Нацгвардии
+T19	COUNTRY 806 808	РФ
+T20	PERSON 809 835	Сергей Анатольевич Лебедев
+T21	PERSON 836 841	Путин
+T23	ORGANIZATION 924 945	Федерального Собрания
+T26	PROFESSION 742 765	Замдиректора Росгвардии
+T27	ORGANIZATION 795 808	Нацгвардии РФ
+T28	PROFESSION 768 808	главнокомандующий войсками Нацгвардии РФ
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R2	WORKS_AS Arg1:T10 Arg2:T9	
+T22	COUNTRY 341 343	РФ
+T13	DATE 615 636	по истечении 180 дней
+R4	WORKPLACE Arg1:T26 Arg2:T16	
+R5	HEADQUARTERED_IN Arg1:T27 Arg2:T19	
+T29	ORGANIZATION 320 343	национальной гвардии РФ
+R6	HEADQUARTERED_IN Arg1:T29 Arg2:T22	
+T30	ORGANIZATION 320 340	национальной гвардии
+R7	ALTERNATIVE_NAME Arg1:T6 Arg2:T29	
+R8	ALTERNATIVE_NAME Arg1:T29 Arg2:T27	
+R10	WORKPLACE Arg1:T20 Arg2:T27	
+R11	WORKS_AS Arg1:T20 Arg2:T28	
+R12	WORKPLACE Arg1:T20 Arg2:T16	
+R13	WORKS_AS Arg1:T20 Arg2:T26	
+R14	SUBORDINATE_OF Arg1:T20 Arg2:T21	
+T31	PROFESSION 857 883	официальным представителем
+R15	WORKS_AS Arg1:T20 Arg2:T31	
+T24	EVENT 842 850	назначил
+R3	AGENT Arg1:T21 Arg2:T24	
+R9	PARTICIPANT_IN Arg1:T20 Arg2:T24	
+R16	WORKPLACE Arg1:T31 Arg2:T23	
+N1	Reference T3 Wikidata:Q132050	губернатор
+N2	Reference T5 Wikidata:Q4193368	Виктор Васильевич Золотов
+N3	Reference T8 Wikidata:Q715641	Государственная дума
+N4	Reference T9 Wikidata:Q30461	президент
+N5	Reference T10 Wikidata:Q7747	Владимир Владимирович Путин
+N7	Reference T14 Wikidata:Q640506	кабинет министров
+N8	Reference T16 Wikidata:Q23764150	Росгвардия
+N10	Reference T20 Wikidata:Q15071041	Лебедев, Сергей Анатольевич
+N11	Reference T23 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N14	Reference T22 Wikidata:Q159	Россия
+N15	Reference T30 Wikidata:Q23764150	Росгвардия
+N6	Reference T11 Wikidata:NULL	нет данных
+N17	Reference T15 Wikidata:Q25378518	
+N12	Reference T26 Wikidata:NULL	нет данных
+N18	Reference T18 Wikidata:Q23764150	Росгвардия
+N9	Reference T17 Wikidata:Q380782	главнокомандующий
+N13	Reference T28 Wikidata:NULL	нет данных
+N16	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T4 Wikidata:Q7747	Владимир Владимирович Путин
+N20	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N21	Reference T21 Wikidata:Q7747	Владимир Владимирович Путин
+N22	Reference T29 Wikidata:Q23764150	Росгвардия
+N23	Reference T2 Wikidata:Q23764150	Росгвардия
+N24	Reference T6 Wikidata:Q23764150	Росгвардия
+N25	Reference T27 Wikidata:Q23764150	Росгвардия
+N26	Reference T19 Wikidata:Q159	Россия
+N27	Reference T7 Wikidata:Q159	Россия
+N28	Reference T12 Wikidata:Q159	Россия

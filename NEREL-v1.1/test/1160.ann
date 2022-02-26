@@ -1,0 +1,117 @@
+T1	PROFESSION 1 17	Премьером Катара
+T2	PROFESSION 25 34	глава МВД
+T3	PERSON 40 66	Абдалла бен Насер Аль Тани
+T4	DATE 68 78	Во вторник
+T5	PROFESSION 85 96	эмир Катара
+T6	PERSON 102 126	Тамим бен Хамад Аль Тани
+T7	PROFESSION 203 227	премьер-министром Катара
+T8	PROFESSION 252 261	глава МВД
+T9	PERSON 267 293	Абдалла бен Насер Аль Тани
+T10	DATE 303 310	в среду
+T11	ORGANIZATION 344 355	Аль-Джазира
+T12	DATE 359 369	Во вторник
+T13	AGE 370 379	33-летний
+T14	PERSON 385 409	Тамим бен Хамад Аль Тани
+T15	COUNTRY 426 432	Катаре
+T16	PROFESSION 448 453	шейха
+T17	PERSON 454 480	Хамада бен Халифы Аль Тани
+T18	DATE 530 537	В среду
+T19	PROFESSION 768 773	эмира
+T20	PERSON 779 804	Хамад бен Джасем Аль Тани
+T21	PROFESSION 830 843	вице-премьера
+T22	COUNTRY 11 17	Катара
+T23	ORGANIZATION 31 34	МВД
+T24	COUNTRY 90 96	Катара
+T25	PROFESSION 203 220	премьер-министром
+T26	PROFESSION 1 10	Премьером
+T27	ORGANIZATION 258 261	МВД
+T28	COUNTRY 221 227	Катара
+T29	COUNTRY 311 320	катарский
+T30	PROFESSION 97 101	шейх
+T31	PROFESSION 35 39	шейх
+T32	PROFESSION 511 516	эмира
+T33	PROFESSION 544 548	эмир
+T34	ORGANIZATION 639 652	правительства
+T35	PROFESSION 690 701	премьерский
+T36	PROFESSION 774 778	шейх
+T37	PERSON 844 874	Ахмеда бен Абдаллы Аль Махмуда
+R1	WORKS_AS Arg1:T3 Arg2:T31	
+R2	WORKS_AS Arg1:T3 Arg2:T2	
+R3	WORKS_AS Arg1:T3 Arg2:T1	
+R4	WORKPLACE Arg1:T3 Arg2:T23	
+R5	WORKPLACE Arg1:T3 Arg2:T22	
+R6	WORKS_AS Arg1:T6 Arg2:T30	
+R7	WORKS_AS Arg1:T6 Arg2:T5	
+R8	WORKPLACE Arg1:T6 Arg2:T24	
+T38	EVENT 234 242	назначен
+R9	POINT_IN_TIME Arg1:T38 Arg2:T4	
+T39	PROFESSION 262 266	шейх
+R10	HEADQUARTERED_IN Arg1:T11 Arg2:T29	
+R11	WORKS_AS Arg1:T9 Arg2:T39	
+R12	WORKS_AS Arg1:T9 Arg2:T8	
+R13	WORKPLACE Arg1:T9 Arg2:T27	
+R14	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+R15	WORKPLACE Arg1:T9 Arg2:T28	
+R16	WORKS_AS Arg1:T9 Arg2:T7	
+T40	PROFESSION 380 384	шейх
+T41	EVENT 410 423	принял власть
+T42	EVENT 487 528	добровольного отречения эмира от престола
+R17	AGENT Arg1:T17 Arg2:T42	
+R18	WORKS_AS Arg1:T17 Arg2:T16	
+R19	TAKES_PLACE_IN Arg1:T41 Arg2:T15	
+R20	WORKS_AS Arg1:T14 Arg2:T40	
+R21	AGE_IS Arg1:T14 Arg2:T13	
+R22	POINT_IN_TIME Arg1:T41 Arg2:T12	
+R23	PARENT_OF Arg1:T17 Arg2:T14	
+R24	WORKS_AS Arg1:T20 Arg2:T36	
+R25	KNOWS Arg1:T17 Arg2:T20	
+R26	WORKS_AS Arg1:T37 Arg2:T21	
+R27	WORKPLACE Arg1:T1 Arg2:T22	
+R28	WORKPLACE Arg1:T2 Arg2:T23	
+T43	PROFESSION 85 89	эмир
+R29	WORKPLACE Arg1:T5 Arg2:T24	
+R30	WORKPLACE Arg1:T7 Arg2:T28	
+R31	WORKPLACE Arg1:T8 Arg2:T27	
+R32	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+T44	EVENT 501 528	отречения эмира от престола
+R33	KNOWS Arg1:T20 Arg2:T19	
+R34	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R35	TAKES_PLACE_IN Arg1:T38 Arg2:T28	
+R36	AGENT Arg1:T14 Arg2:T41	
+R37	AGENT Arg1:T17 Arg2:T41	
+R38	WORKS_AS Arg1:T17 Arg2:T32	
+N3	Reference T9 Wikidata:Q4666105	Абдулла бин Нассер бин Халифа Аль Тани
+N4	Reference T11 Wikidata:Q13477	Аль-Джазира
+N5	Reference T16 Wikidata:Q185166	шейх
+N6	Reference T17 Wikidata:Q57360	Хамад бин Халифа Аль Тани
+N7	Reference T21 Wikidata:Q877955	вице-премьер
+N8	Reference T23 Wikidata:Q6589202	министерство внутренних дел
+N9	Reference T25 Wikidata:Q14212	премьер-министр
+N10	Reference T26 Wikidata:Q14212	премьер-министр
+N12	Reference T32 Wikidata:Q166382	эмир
+N13	Reference T34 Wikidata:Q7188	правительство
+N15	Reference T1 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:Q25711499	
+N16	Reference T6 Wikidata:Q1855372	Тамим бин Хамад Аль Тани
+N17	Reference T7 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q17578116	
+N11	Reference T29 Wikidata:Q846	Катар
+N18	Reference T35 Wikidata:Q14212	премьер-министр
+N19	Reference T20 Wikidata:Q57734	
+N14	Reference T37 Wikidata:Q16242594	
+N20	Reference T3 Wikidata:Q4666105	Абдулла бин Нассер бин Халифа Аль Тани
+N21	Reference T40 Wikidata:Q185166	шейх
+N22	Reference T36 Wikidata:Q185166	шейх
+N23	Reference T30 Wikidata:Q185166	шейх
+N24	Reference T31 Wikidata:Q185166	шейх
+N25	Reference T39 Wikidata:Q185166	шейх
+N26	Reference T27 Wikidata:Q6589202	министерство внутренних дел
+N27	Reference T43 Wikidata:Q166382	эмир
+N28	Reference T33 Wikidata:Q166382	эмир
+N29	Reference T19 Wikidata:Q166382	эмир
+N30	Reference T14 Wikidata:Q1855372	Тамим бин Хамад Аль Тани
+N31	Reference T2 Wikidata:Q17578116	
+N32	Reference T15 Wikidata:Q846	Катар
+N33	Reference T28 Wikidata:Q846	Катар
+N34	Reference T24 Wikidata:Q846	Катар
+N35	Reference T22 Wikidata:Q846	Катар

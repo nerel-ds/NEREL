@@ -1,0 +1,228 @@
+T1	PROFESSION 0 3	Мэр
+T2	CITY 97 108	московского
+T3	PROFESSION 114 139	заместителя по транспорту
+T4	PROFESSION 176 214	заместитель министра транспорта России
+T5	PERSON 215 228	Николай Лямов
+T6	ORGANIZATION 248 269	правительстве столицы
+T7	PROFESSION 281 333	заместитель Сергея Собянина по взаимодействию со СМИ
+T9	AGE 336 345	48-летний
+T10	PROFESSION 346 386	генеральный директор «Российской газеты»
+T11	ORGANIZATION 368 385	Российской газеты
+T12	PERSON 387 405	Александр Горбенко
+T13	DATE 415 443	на протяжении нескольких лет
+T14	ORGANIZATION 455 493	Гильдию издателей периодической печати
+T15	PROFESSION 495 564	вице-президент Союза издателей и распространителей печатной продукции
+T16	PROFESSION 580 626	руководителя аппарата столичного правительства
+T17	PROFESSION 637 668	заместительница Сергея Собянина
+T18	ORGANIZATION 671 700	аппарате правительства России
+T19	PERSON 701 717	Анастасия Ракова
+T20	STATE_OR_PROVINCE 759 763	ХМАО
+T21	ORGANIZATION 821 834	правительство
+T22	DATE 840 850	около года
+T23	PROFESSION 865 899	замминистра регионального развития
+T24	ORGANIZATION 925 958	комитет информационных технологий
+T26	PERSON 979 990	С. Собянина
+T27	PERSON 1107 1121	Артём Ермолаев
+T28	PROFESSION 1140 1192	советником министра связи и массовых коммуникаций РФ
+T29	PROFESSION 1200 1222	руководителем комитета
+T30	PERSON 1227 1240	Михаил Алешин
+T31	ORGANIZATION 1263 1266	РБК
+T32	PROFESSION 1268 1310	руководителем контрольного комитета Москвы
+T33	PROFESSION 1324 1356	глава отдела оценки Росимущества
+T34	ORGANIZATION 1344 1356	Росимущества
+T35	PERSON 1357 1369	Егор Поляков
+T36	PROFESSION 1485 1500	пресс-секретарь
+T37	PERSON 1506 1516	Сергей Цой
+T38	PROFESSION 1518 1529	префект ЦАО
+T39	PERSON 1530 1549	Алексей Александров
+T40	PROFESSION 1551 1592	глава департамента здравоохранения Москвы
+T42	PERSON 1593 1611	Андрей Сельцовский
+T44	PERSON 1616 1626	С. Собянин
+T46	PERSON 1645 1659	А. Александров
+T47	PROFESSION 1714 1717	мэр
+T49	PERSON 1754 1768	А. Сельцовский
+T50	PROFESSION 1806 1821	советником мэра
+T52	PERSON 1840 1846	С. Цоя
+T53	PERSON 2005 2017	Юрия Лужкова
+T54	PROFESSION 109 113	мэра
+T55	CITY 4 10	Москвы
+T56	PROFESSION 0 10	Мэр Москвы
+T57	PERSON 293 308	Сергея Собянина
+T45	CITY 1586 1592	Москвы
+T48	PROFESSION 1501 1505	мэра
+T58	PROFESSION 1485 1505	пресс-секретарь мэра
+T59	DISTRICT 1526 1529	ЦАО
+T60	ORGANIZATION 1557 1592	департамента здравоохранения Москвы
+T61	ORGANIZATION 1330 1356	отдела оценки Росимущества
+T62	PROFESSION 1963 1973	чиновников
+T51	PROFESSION 1817 1821	мэра
+T63	CITY 1718 1724	Москвы
+T64	PROFESSION 1714 1724	мэр Москвы
+T65	PERSON 1465 1475	лужковской
+T66	CITY 1304 1310	Москвы
+T67	ORGANIZATION 1282 1310	контрольного комитета Москвы
+T69	COUNTRY 694 700	России
+T70	PERSON 653 668	Сергея Собянина
+T71	PROFESSION 1151 1192	министра связи и массовых коммуникаций РФ
+T72	COUNTRY 1190 1192	РФ
+T25	PROFESSION 747 752	мэром
+T73	ORGANIZATION 593 626	аппарата столичного правительства
+T74	ORGANIZATION 510 564	Союза издателей и распространителей печатной продукции
+T8	COUNTRY 208 214	России
+T75	PROFESSION 188 214	министра транспорта России
+T76	EVENT 11 45	назвал состав нового правительства
+T77	PROFESSION 346 366	генеральный директор
+R1	WORKPLACE Arg1:T56 Arg2:T55	
+R2	AGE_IS Arg1:T12 Arg2:T9	
+R3	ALTERNATIVE_NAME Arg1:T70 Arg2:T26	
+R4	WORKS_AS Arg1:T27 Arg2:T28	
+R5	SUBORDINATE_OF Arg1:T27 Arg2:T71	
+R6	SUBORDINATE_OF Arg1:T28 Arg2:T71	
+R7	WORKS_AS Arg1:T30 Arg2:T29	
+R8	WORKPLACE Arg1:T29 Arg2:T24	
+T68	PROFESSION 1518 1525	префект
+R9	WORKPLACE Arg1:T38 Arg2:T59	
+R10	WORKS_AS Arg1:T39 Arg2:T38	
+R11	WORKS_AS Arg1:T42 Arg2:T40	
+R12	WORKPLACE Arg1:T64 Arg2:T63	
+R13	WORKS_AS Arg1:T5 Arg2:T4	
+R14	SUBORDINATE_OF Arg1:T4 Arg2:T75	
+T43	PROFESSION 188 207	министра транспорта
+R15	WORKPLACE Arg1:T75 Arg2:T8	
+T78	PROFESSION 97 113	московского мэра
+R16	WORKPLACE Arg1:T78 Arg2:T2	
+R17	ALTERNATIVE_NAME Arg1:T55 Arg2:T2	
+R18	WORKS_AS Arg1:T12 Arg2:T10	
+R19	WORKS_AS Arg1:T12 Arg2:T15	
+R20	WORKPLACE Arg1:T12 Arg2:T74	
+R21	WORKS_AS Arg1:T37 Arg2:T58	
+R22	SUBORDINATE_OF Arg1:T37 Arg2:T48	
+R23	WORKPLACE Arg1:T42 Arg2:T60	
+R24	PARTICIPANT_IN Arg1:T56 Arg2:T76	
+T79	ORGANIZATION 32 45	правительства
+R25	HEADQUARTERED_IN Arg1:T79 Arg2:T55	
+R26	SUBORDINATE_OF Arg1:T3 Arg2:T78	
+R27	SUBORDINATE_OF Arg1:T7 Arg2:T57	
+R28	WORKPLACE Arg1:T10 Arg2:T11	
+R29	WORKPLACE Arg1:T15 Arg2:T74	
+T80	ORGANIZATION 680 700	правительства России
+T81	ORGANIZATION 680 693	правительства
+R30	HEADQUARTERED_IN Arg1:T80 Arg2:T69	
+R31	OWNER_OF Arg1:T80 Arg2:T18	
+R32	WORKPLACE Arg1:T17 Arg2:T18	
+R33	WORKPLACE Arg1:T19 Arg2:T18	
+R34	WORKS_AS Arg1:T19 Arg2:T17	
+R35	SUBORDINATE_OF Arg1:T19 Arg2:T70	
+R36	ALTERNATIVE_NAME Arg1:T79 Arg2:T6	
+R37	WORKPLACE Arg1:T12 Arg2:T14	
+R38	WORKS_AS Arg1:T19 Arg2:T16	
+R39	WORKPLACE Arg1:T19 Arg2:T73	
+T82	ORGANIZATION 602 626	столичного правительства
+R40	OWNER_OF Arg1:T82 Arg2:T73	
+R41	WORKS_AS Arg1:T70 Arg2:T25	
+R42	KNOWS Arg1:T70 Arg2:T19	
+R43	WORKS_AS Arg1:T19 Arg2:T23	
+T83	PROFESSION 865 876	замминистра
+R44	WORKPLACE Arg1:T40 Arg2:T60	
+R45	HEADQUARTERED_IN Arg1:T60 Arg2:T45	
+R46	SUBORDINATE_OF Arg1:T50 Arg2:T51	
+R47	SUBORDINATE_OF Arg1:T58 Arg2:T48	
+R48	ALTERNATIVE_NAME Arg1:T65 Arg2:T53	
+R49	ALTERNATIVE_NAME Arg1:T39 Arg2:T46	
+R50	WORKS_AS Arg1:T35 Arg2:T33	
+R51	WORKPLACE Arg1:T35 Arg2:T61	
+R52	PART_OF Arg1:T61 Arg2:T34	
+R53	WORKPLACE Arg1:T33 Arg2:T61	
+R54	WORKS_AS Arg1:T35 Arg2:T32	
+R55	WORKPLACE Arg1:T35 Arg2:T67	
+R56	HEADQUARTERED_IN Arg1:T67 Arg2:T66	
+R57	WORKPLACE Arg1:T32 Arg2:T67	
+R58	SUBORDINATE_OF Arg1:T58 Arg2:T48	
+T41	PROFESSION 1324 1343	глава отдела оценки
+R59	PARTICIPANT_IN Arg1:T79 Arg2:T76	
+T84	COUNTRY 368 378	Российской
+R60	HEADQUARTERED_IN Arg1:T11 Arg2:T84	
+R61	ALTERNATIVE_NAME Arg1:T82 Arg2:T21	
+T85	EVENT 1097 1106	возглавил
+R62	AGENT Arg1:T27 Arg2:T85	
+R63	PARTICIPANT_IN Arg1:T24 Arg2:T85	
+N6	Reference T11 Wikidata:Q1853433	Российская газета
+N13	Reference T19 Wikidata:Q51667450	Анастасия Владимировна Ракова
+N14	Reference T20 Wikidata:Q6320	Ханты-Мансийский автономный округ — Югра
+N17	Reference T26 Wikidata:Q319497	Сергей Семёнович Собянин
+N18	Reference T27 Wikidata:Q19776357	Ермолаев, Артём Валерьевич
+N19	Reference T28 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N21	Reference T30 Wikidata:Q369087	Михаил Петрович Алёшин
+N22	Reference T31 Wikidata:Q629733	РосБизнесКонсалтинг
+N25	Reference T34 Wikidata:Q1659060	Федеральное агентство по управлению государственным имуществом
+N27	Reference T37 Wikidata:Q4506047	Цой, Сергей Петрович
+N35	Reference T55 Wikidata:Q649	Москва
+N36	Reference T56 Wikidata:Q1837906	мэр Москвы
+N37	Reference T48 Wikidata:Q30185	мэр
+N39	Reference T60 Wikidata:Q4158543	Департамент здравоохранения города Москвы
+N41	Reference T62 Wikidata:Q382887	чиновник
+N43	Reference T69 Wikidata:Q159	Россия
+N44	Reference T71 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N45	Reference T72 Wikidata:Q159	Россия
+N48	Reference T75 Wikidata:Q159	Россия
+N49	Reference T77 Wikidata:Q1501800	генеральный директор
+N52	Reference T80 Wikidata:Q1140115	Правительство Российской Федерации
+N51	Reference T78 Wikidata:Q1837906	мэр Москвы
+N1	Reference T3 Wikidata:NULL	нет данных
+N56	Reference T43 Wikidata:Q12339722	
+N57	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T6 Wikidata:Q3339281	Правительство Москвы
+N4	Reference T7 Wikidata:NULL	нет данных
+N5	Reference T10 Wikidata:NULL	нет данных
+N55	Reference T84 Wikidata:Q159	Россия
+N7	Reference T12 Wikidata:NULL	нет данных
+N8	Reference T14 Wikidata:NULL	нет данных
+N9	Reference T15 Wikidata:NULL	нет данных
+N47	Reference T74 Wikidata:NULL	нет данных
+N10	Reference T16 Wikidata:NULL	нет данных
+N53	Reference T82 Wikidata:Q3339281	Правительство Москвы
+N46	Reference T73 Wikidata:NULL	нет данных
+N11	Reference T17 Wikidata:NULL	нет данных
+N12	Reference T18 Wikidata:NULL	нет данных
+N15	Reference T23 Wikidata:NULL	нет данных
+N58	Reference T83 Wikidata:NULL	нет данных
+N16	Reference T24 Wikidata:NULL	нет данных
+N20	Reference T29 Wikidata:NULL	нет данных
+N42	Reference T67 Wikidata:NULL	нет данных
+N23	Reference T32 Wikidata:NULL	нет данных
+N54	Reference T41 Wikidata:NULL	нет данных
+N40	Reference T61 Wikidata:NULL	нет данных
+N24	Reference T33 Wikidata:NULL	нет данных
+N26	Reference T35 Wikidata:NULL	нет данных
+N59	Reference T65 Wikidata:Q156379	Юрий Михайлович Лужков
+N60	Reference T36 Wikidata:Q17221	
+N61	Reference T58 Wikidata:NULL	нет данных
+N38	Reference T59 Wikidata:Q190412	Центральный административный округ Москвы
+N28	Reference T38 Wikidata:NULL	нет данных
+N50	Reference T68 Wikidata:Q371909	
+N29	Reference T40 Wikidata:NULL	нет данных
+N30	Reference T42 Wikidata:NULL	нет данных
+N31	Reference T46 Wikidata:NULL	нет данных
+N32	Reference T49 Wikidata:NULL	нет данных
+N33	Reference T50 Wikidata:NULL	нет данных
+N34	Reference T52 Wikidata:Q4506047	Цой, Сергей Петрович
+N62	Reference T44 Wikidata:Q319497	Сергей Семёнович Собянин
+N63	Reference T70 Wikidata:Q319497	Сергей Семёнович Собянин
+N64	Reference T57 Wikidata:Q319497	Сергей Семёнович Собянин
+N65	Reference T66 Wikidata:Q649	Москва
+N66	Reference T63 Wikidata:Q649	Москва
+N67	Reference T2 Wikidata:Q649	Москва
+N68	Reference T45 Wikidata:Q649	Москва
+N69	Reference T64 Wikidata:Q1837906	мэр Москвы
+N70	Reference T51 Wikidata:Q30185	мэр
+N71	Reference T25 Wikidata:Q30185	мэр
+N72	Reference T47 Wikidata:Q30185	мэр
+N73	Reference T54 Wikidata:Q30185	мэр
+N74	Reference T1 Wikidata:Q30185	мэр
+N75	Reference T8 Wikidata:Q159	Россия
+N76	Reference T79 Wikidata:Q3339281	Правительство Москвы
+N77	Reference T81 Wikidata:Q3339281	Правительство Москвы
+N78	Reference T21 Wikidata:Q3339281	Правительство Москвы
+N79	Reference T53 Wikidata:Q156379	Юрий Михайлович Лужков
+N80	Reference T39 Wikidata:NULL	нет данных

@@ -1,0 +1,109 @@
+T1	PROFESSION 21 26	врача
+T2	PERSON 38 53	Майкла Джексона
+T3	CITY 97 110	Лос-Анджелесе
+T4	STATE_OR_PROVINCE 117 127	Калифорния
+T5	PROFESSION 137 144	доктора
+T6	PERSON 145 159	Конрада Мюррея
+T7	PERSON 208 223	Майкла Джексона
+T8	DATE 224 235	в 2009 году
+T9	NUMBER 262 264	12
+T10	DATE 298 308	за два дня
+T11	NUMBER 356 364	более 50
+T12	DATE 384 400	несколько недель
+T13	NUMBER 402 407	Сотни
+T14	PERSON 452 460	Джексона
+T15	PERSON 528 534	Мюррей
+T16	DATE 746 755	29 ноября
+T17	PERSON 758 764	Мюррей
+T18	PERSON 791 799	Джексона
+T19	PRODUCT 852 860	Пропофол
+T20	PERSON 925 933	Джексона
+T21	PERSON 959 965	Мюррея
+T22	PRODUCT 1070 1078	Пропофол
+T23	PRODUCT 1149 1157	Пропофол
+T24	PERSON 1255 1268	Майкл Джексон
+T25	PRODUCT 1290 1299	Пропофола
+T26	PERSON 1367 1380	Конрад Мюррей
+T27	PROFESSION 1415 1425	Кардиологу
+T29	PERSON 1497 1510	Майкл Джексон
+T30	DATE 1521 1538	25 июня 2009 года
+T32	CITY 1568 1581	Лос-Анджелесе
+T33	AGE 1592 1598	50 лет
+T35	PERSON 1669 1675	Мюррея
+T36	CRIME 171 196	непреднамеренном убийстве
+T38	EVENT 321 328	Процесс
+T39	PERSON 612 618	Мюррея
+T40	PROFESSION 828 833	певцу
+T41	PROFESSION 945 955	прокуроров
+T42	PROFESSION 1031 1036	певца
+T43	PERSON 1232 1238	Мюррея
+T44	PROFESSION 1344 1351	доктора
+T45	PERSON 1426 1432	Мюррею
+T28	NUMBER 1443 1450	четырех
+T46	PENALTY 1440 1461	до четырех лет тюрьмы
+T47	PENALTY 1464 1494	потеря разрешения практиковать
+T48	EVENT 1511 1520	скончался
+T31	PERSON 1611 1619	Джексона
+T34	CRIME 1678 1699	даче лживых показаний
+T49	PROFESSION 1700 1706	врачам
+T50	PROFESSION 1732 1737	певца
+R1	LOCATED_IN Arg1:T3 Arg2:T4	
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+R3	CONVICTED_OF Arg1:T6 Arg2:T36	
+T51	CRIME 188 196	убийстве
+R4	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T15	
+R6	WORKS_AS Arg1:T18 Arg2:T40	
+T37	CRIME 784 790	смерти
+R7	PARTICIPANT_IN Arg1:T18 Arg2:T37	
+R8	CONVICTED_OF Arg1:T17 Arg2:T37	
+R9	WORKS_AS Arg1:T43 Arg2:T44	
+R10	WORKS_AS Arg1:T45 Arg2:T27	
+R11	PARTICIPANT_IN Arg1:T29 Arg2:T48	
+R12	POINT_IN_TIME Arg1:T48 Arg2:T30	
+R13	TAKES_PLACE_IN Arg1:T48 Arg2:T32	
+R14	CONVICTED_OF Arg1:T35 Arg2:T34	
+R15	AGE_DIED_AT Arg1:T29 Arg2:T33	
+R16	DATE_OF_DEATH Arg1:T29 Arg2:T30	
+R17	PLACE_OF_DEATH Arg1:T29 Arg2:T32	
+T52	EVENT 61 67	смерти
+R18	PARTICIPANT_IN Arg1:T2 Arg2:T52	
+R19	PARTICIPANT_IN Arg1:T7 Arg2:T51	
+R20	PARTICIPANT_IN Arg1:T6 Arg2:T38	
+R21	INANIMATE_INVOLVED Arg1:T19 Arg2:T37	
+R22	ALTERNATIVE_NAME Arg1:T43 Arg2:T26	
+T53	PENALTY 1455 1461	тюрьмы
+R23	PARTICIPANT_IN Arg1:T49 Arg2:T34	
+N1	Reference T3 Wikidata:Q65	Лос-Анджелес
+N2	Reference T4 Wikidata:Q99	Калифорния
+N5	Reference T22 Wikidata:Q422740	Пропофол
+N6	Reference T29 Wikidata:Q2831	Майкл Джексон
+N7	Reference T41 Wikidata:Q600751	прокурор
+N8	Reference T42 Wikidata:Q177220	певец
+N9	Reference T49 Wikidata:Q39631	врач
+N3	Reference T5 Wikidata:Q39631	врач
+N4	Reference T15 Wikidata:Q1126936	
+N10	Reference T26 Wikidata:Q1126936	
+N11	Reference T27 Wikidata:Q3264451	
+N12	Reference T32 Wikidata:Q65	Лос-Анджелес
+N13	Reference T19 Wikidata:Q422740	Пропофол
+N14	Reference T25 Wikidata:Q422740	Пропофол
+N15	Reference T23 Wikidata:Q422740	Пропофол
+N16	Reference T20 Wikidata:Q2831	Майкл Джексон
+N17	Reference T31 Wikidata:Q2831	Майкл Джексон
+N18	Reference T14 Wikidata:Q2831	Майкл Джексон
+N19	Reference T24 Wikidata:Q2831	Майкл Джексон
+N20	Reference T7 Wikidata:Q2831	Майкл Джексон
+N21	Reference T18 Wikidata:Q2831	Майкл Джексон
+N22	Reference T2 Wikidata:Q2831	Майкл Джексон
+N23	Reference T50 Wikidata:Q177220	певец
+N24	Reference T40 Wikidata:Q177220	певец
+N25	Reference T1 Wikidata:Q39631	врач
+N26	Reference T44 Wikidata:Q39631	врач
+N27	Reference T6 Wikidata:Q1126936	
+N28	Reference T21 Wikidata:Q1126936	
+N29	Reference T17 Wikidata:Q1126936	
+N30	Reference T43 Wikidata:Q1126936	
+N31	Reference T39 Wikidata:Q1126936	
+N32	Reference T45 Wikidata:Q1126936	
+N33	Reference T35 Wikidata:Q1126936	

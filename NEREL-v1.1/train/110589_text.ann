@@ -1,0 +1,74 @@
+T1	COUNTRY 2 8	Италии
+T3	PRODUCT 25 40	киндер-сюрприза
+T4	PERSON 42 54	Уильям Сэлис
+T5	COUNTRY 105 111	Италии
+T7	AGE 123 129	83 лет
+T8	PERSON 140 152	Уильям Сэлис
+T9	DATE 176 197	в начале 1970-х годов
+T10	PRODUCT 208 222	киндер-сюрприз
+T11	DATE 233 264	в четверг, 29 декабря 2016 года
+T12	CITY 298 303	Павия
+T13	PERSON 306 311	Сэлис
+T14	NUMBER 313 317	один
+T16	ORGANIZATION 345 354	'Ferrero'
+T17	PRODUCT 376 391	'Ferrero Rocher
+T18	PRODUCT 405 419	киндер-сюрприз
+T19	DATE 431 442	в 1974 году
+T20	COUNTRY 493 499	Италии
+T21	DATE 528 539	В 2007 году
+T22	PERSON 540 545	Сэлис
+T23	MONEY 574 578	евро
+T24	PROFESSION 592 600	кондитер
+T25	ORGANIZATION 659 676	'Color Your Life'
+T26	AGE 726 741	от 13 до 18 лет
+R3	PLACE_OF_DEATH Arg1:T8 Arg2:T5
+R6	WORKS_AS Arg1:T13 Arg2:T2
+R7	WORKPLACE Arg1:T13 Arg2:T16
+T6	PRODUCT 86 101	Киндер-сюрприза
+R4	AGE_DIED_AT Arg1:T8 Arg2:T7	
+T2	PROFESSION 321 343	руководителей компании
+T28	DISEASE 269 288	сердечного приступа
+T29	DISEASE 280 288	приступа
+R1	PRODUCES Arg1:T4 Arg2:T3	
+R2	DATE_OF_DEATH Arg1:T8 Arg2:T11	
+R5	CAUSE_OF_DEATH Arg1:T8 Arg2:T28	
+R8	PLACE_OF_DEATH Arg1:T8 Arg2:T12	
+R9	PRODUCES Arg1:T13 Arg2:T17	
+R10	PRODUCES Arg1:T13 Arg2:T18	
+R11	PRODUCES Arg1:T8 Arg2:T10	
+T30	EVENT 546 560	ушел на пенсию
+R12	AGENT Arg1:T22 Arg2:T30	
+R13	POINT_IN_TIME Arg1:T30 Arg2:T21	
+R14	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+R15	WORKS_AS Arg1:T22 Arg2:T24	
+T31	EVENT 9 13	умер
+R16	TAKES_PLACE_IN Arg1:T31 Arg2:T1	
+R17	PARTICIPANT_IN Arg1:T4 Arg2:T31	
+R18	PLACE_OF_DEATH Arg1:T4 Arg2:T1	
+T32	EVENT 130 139	скончался
+R19	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R20	PARTICIPANT_IN Arg1:T8 Arg2:T32	
+R21	TAKES_PLACE_IN Arg1:T32 Arg2:T5	
+T33	EVENT 228 232	умер
+R22	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+R23	POINT_IN_TIME Arg1:T33 Arg2:T11	
+R24	TAKES_PLACE_IN Arg1:T33 Arg2:T12	
+R25	WORKPLACE Arg1:T2 Arg2:T16	
+R26	ALTERNATIVE_NAME Arg1:T3 Arg2:T10	
+N1	Reference T12 Wikidata:Q6259	Павия
+N2	Reference T16 Wikidata:Q269792	Ferrero
+N3	Reference T17 Wikidata:Q526516	Ferrero Rocher
+N4	Reference T18 Wikidata:Q181042	Киндер-сюрприз
+N5	Reference T20 Wikidata:Q38	Италия
+N6	Reference T24 Wikidata:Q1191511	кондитер
+N8	Reference T2 Wikidata:Q1162163	директор
+N9	Reference T22 Wikidata:Q28084111	
+N7	Reference T25 Wikidata:NULL	нет данных
+N10	Reference T3 Wikidata:Q181042	Киндер-сюрприз
+N11	Reference T10 Wikidata:Q181042	Киндер-сюрприз
+N12	Reference T6 Wikidata:Q181042	Киндер-сюрприз
+N13	Reference T1 Wikidata:Q38	Италия
+N14	Reference T5 Wikidata:Q38	Италия
+N15	Reference T8 Wikidata:Q28084111	
+N16	Reference T4 Wikidata:Q28084111	
+N17	Reference T13 Wikidata:Q28084111	

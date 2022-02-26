@@ -1,0 +1,176 @@
+T1	PROFESSION 33 41	сенатора
+T2	STATE_OR_PROVINCE 90 98	Крымским
+T3	ORGANIZATION 90 133	Крымским следственным отделом на транспорте
+T4	ORGANIZATION 134 212	Главного следственного управления Следственного комитета РФ по Республике Крым
+T6	AGE 280 290	34-летнего
+T7	PERSON 291 304	Алексея Дудки
+T8	LAW 417 422	УК РФ
+T9	NUMBER 474 475	6
+T10	DATE 527 535	до 2 лет
+T11	DATE 592 600	до 2 лет
+T12	DATE 681 701	с 1 января 2017 года
+T13	TIME 785 809	днем 1 августа 2014 года
+T14	DATE 790 809	1 августа 2014 года
+T15	CITY 819 825	Алуште
+T16	LOCATION 892 904	Черного моря
+T17	PROFESSION 1036 1057	член Совета Федерации
+T18	PERSON 1081 1097	Владимир Кулаков
+T19	DATE 1100 1108	30 марта
+T20	PROFESSION 1206 1223	Генерал-полковник
+T21	PROFESSION 1236 1257	член Совета Федерации
+T22	PERSON 1258 1284	Владимир Федорович Кулаков
+T23	DATE 1293 1311	2 ноября 1948 года
+T24	AGE 1341 1347	65 лет
+T25	ORGANIZATION 1371 1387	Совета Федерации
+T26	PERSON 1389 1396	Кулаков
+T27	PROFESSION 1405 1426	доктором военных наук
+T28	PROFESSION 1428 1471	действительным членом Академии военных наук
+T29	ORGANIZATION 1450 1471	Академии военных наук
+T30	DATE 1474 1486	До 2000 года
+T31	ORGANIZATION 1511 1531	Вооруженных силах РФ
+T32	DATE 1533 1547	В 1999—2000 гг
+T33	PROFESSION 1551 1621	первый заместитель полномочного представителя Правительства РФ в Чечне
+T34	PROFESSION 1570 1621	полномочного представителя Правительства РФ в Чечне
+T35	STATE_OR_PROVINCE 1616 1621	Чечне
+T36	DATE 1623 1639	25 ноября 2000 г
+T37	PROFESSION 1652 1675	членом Совета Федерации
+T38	ORGANIZATION 1659 1675	Совета Федерации
+T39	ORGANIZATION 1716 1718	СФ
+T40	PROFESSION 1737 1833	первого заместителя председателя Комитета по регламенту и организации парламентской деятельности
+T41	ORGANIZATION 1770 1833	Комитета по регламенту и организации парламентской деятельности
+T42	PROFESSION 0 7	Капитан
+T43	STATE_OR_PROVINCE 45 64	Магаданской области
+T44	COUNTRY 191 193	РФ
+T5	ORGANIZATION 168 193	Следственного комитета РФ
+T45	STATE_OR_PROVINCE 197 212	Республике Крым
+T46	LAW 398 422	часть 1 статьи 109 УК РФ
+T47	COUNTRY 420 422	РФ
+T48	ORGANIZATION 1041 1057	Совета Федерации
+T49	STATE_OR_PROVINCE 1061 1080	Магаданской области
+T50	ORGANIZATION 1241 1257	Совета Федерации
+T51	COUNTRY 1529 1531	РФ
+T52	COUNTRY 1611 1613	РФ
+T53	ORGANIZATION 1597 1613	Правительства РФ
+T54	STATE_OR_PROVINCE 1693 1712	Магаданской области
+T55	ORGANIZATION 1679 1712	администрации Магаданской области
+T56	PROFESSION 1757 1833	председателя Комитета по регламенту и организации парламентской деятельности
+T57	CRIME 361 396	причинении смерти по неосторожности
+T59	PENALTY 564 600	ограничение свободы на срок до 2 лет
+T60	PENALTY 607 628	принудительные работы
+T61	PENALTY 709 724	лишение свободы
+R1	AGE_IS Arg1:T7 Arg2:T6	
+T62	LAW 406 422	статьи 109 УК РФ
+T63	PENALTY 564 583	ограничение свободы
+T64	PENALTY 497 518	исправительные работы
+R2	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R3	AGE_DIED_AT Arg1:T22 Arg2:T24	
+R4	WORKS_AS Arg1:T22 Arg2:T21	
+R5	WORKPLACE Arg1:T22 Arg2:T50	
+R6	WORKS_AS Arg1:T26 Arg2:T27	
+R7	MEMBER_OF Arg1:T26 Arg2:T29	
+R8	WORKS_AS Arg1:T26 Arg2:T28	
+R9	WORKPLACE Arg1:T22 Arg2:T31	
+R10	WORKS_AS Arg1:T22 Arg2:T33	
+R11	WORKS_AS Arg1:T22 Arg2:T37	
+R12	WORKPLACE Arg1:T22 Arg2:T38	
+R13	WORKS_AS Arg1:T22 Arg2:T40	
+T65	PROFESSION 33 64	сенатора от Магаданской области
+T66	PROFESSION 1036 1080	член Совета Федерации от Магаданской области
+R14	WORKS_AS Arg1:T18 Arg2:T66	
+T67	EVENT 919 946	наезд на плавающего мужчину
+R15	TAKES_PLACE_IN Arg1:T67 Arg2:T16	
+R16	POINT_IN_TIME Arg1:T67 Arg2:T14	
+R17	PARTICIPANT_IN Arg1:T7 Arg2:T67	
+R18	PARTICIPANT_IN Arg1:T18 Arg2:T67	
+R19	WORKPLACE Arg1:T18 Arg2:T48	
+T68	PROFESSION 0 14	Капитан катера
+T69	EVENT 16 32	сбивший насмерть
+R20	AGENT Arg1:T68 Arg2:T69	
+R21	PARTICIPANT_IN Arg1:T65 Arg2:T69	
+R22	ORIGINS_FROM Arg1:T65 Arg2:T43	
+R23	HEADQUARTERED_IN Arg1:T3 Arg2:T2	
+R24	HEADQUARTERED_IN Arg1:T4 Arg2:T45	
+R25	WORKS_AS Arg1:T7 Arg2:T68	
+T70	PENALTY 323 343	подпиской о невыезде
+T71	LAW 417 419	УК
+R26	ORIGINS_FROM Arg1:T8 Arg2:T47	
+R27	ALTERNATIVE_NAME Arg1:T69 Arg2:T67	
+R28	ORIGINS_FROM Arg1:T18 Arg2:T49	
+R29	WORKS_AS Arg1:T22 Arg2:T20	
+R30	WORKPLACE Arg1:T21 Arg2:T50	
+R31	ALTERNATIVE_NAME Arg1:T22 Arg2:T26	
+R32	MEMBER_OF Arg1:T28 Arg2:T29	
+R33	HEADQUARTERED_IN Arg1:T31 Arg2:T51	
+T58	ORGANIZATION 1511 1528	Вооруженных силах
+R34	WORKPLACE Arg1:T34 Arg2:T35	
+R35	HEADQUARTERED_IN Arg1:T53 Arg2:T52	
+T72	ORGANIZATION 1597 1610	Правительства
+R36	ABBREVIATION Arg1:T38 Arg2:T39	
+R37	PART_OF Arg1:T4 Arg2:T5	
+R38	HEADQUARTERED_IN Arg1:T5 Arg2:T44	
+R39	WORKPLACE Arg1:T66 Arg2:T48	
+T73	ORDINAL 404 405	1
+T74	ORDINAL 413 416	109
+R40	HEADQUARTERED_IN Arg1:T55 Arg2:T54	
+R41	SUBORDINATE_OF Arg1:T40 Arg2:T56	
+R42	WORKPLACE Arg1:T56 Arg2:T41	
+R43	WORKPLACE Arg1:T40 Arg2:T41	
+R44	PENALIZED_AS Arg1:T7 Arg2:T70	
+R45	TAKES_PLACE_IN Arg1:T67 Arg2:T15	
+R46	PART_OF Arg1:T46 Arg2:T62	
+R47	PART_OF Arg1:T62 Arg2:T8	
+R48	HAS_CAUSE Arg1:T70 Arg2:T57	
+R49	ALTERNATIVE_NAME Arg1:T18 Arg2:T22	
+N2	Reference T2 Wikidata:Q4242972	Крымское
+N4	Reference T4 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N6	Reference T8 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N7	Reference T15 Wikidata:Q46001	Алушта
+N8	Reference T16 Wikidata:Q166	Чёрное море
+N10	Reference T20 Wikidata:Q155327	генерал-полковник
+N11	Reference T22 Wikidata:Q16668567	Кулаков, Владимир Фёдорович
+N12	Reference T27 Wikidata:Q17281186	доктор военных наук
+N13	Reference T31 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N16	Reference T35 Wikidata:Q5187	Чечня
+N20	Reference T5 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N21	Reference T45 Wikidata:Q7835	Крымский полуостров
+N23	Reference T47 Wikidata:Q159	Россия
+N24	Reference T49 Wikidata:Q7971	Магаданская область
+N25	Reference T50 Wikidata:Q186473	Совет Федерации
+N26	Reference T53 Wikidata:Q1140115	Правительство Российской Федерации
+N32	Reference T71 Wikidata:Q179867	У
+N33	Reference T58 Wikidata:Q772547	вооружённые силы
+N34	Reference T72 Wikidata:Q7188	правительство
+N19	Reference T42 Wikidata:Q849424	
+N31	Reference T68 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:Q15686806	
+N30	Reference T65 Wikidata:NULL	нет данных
+N3	Reference T3 Wikidata:NULL	нет данных
+N35	Reference T66 Wikidata:NULL	нет данных
+N5	Reference T7 Wikidata:NULL	нет данных
+N29	Reference T62 Wikidata:NULL	нет данных
+N22	Reference T46 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:Q16668567	Кулаков, Владимир Фёдорович
+N36	Reference T29 Wikidata:Q4059225	
+N37	Reference T28 Wikidata:NULL	нет данных
+N14	Reference T33 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:NULL	
+N27	Reference T55 Wikidata:NULL	нет данных
+N17	Reference T40 Wikidata:NULL	нет данных
+N28	Reference T56 Wikidata:NULL	нет данных
+N18	Reference T41 Wikidata:NULL	нет данных
+N38	Reference T37 Wikidata:Q19399742	
+N39	Reference T26 Wikidata:Q16668567	Кулаков, Владимир Фёдорович
+N40	Reference T44 Wikidata:Q159	Россия
+N41	Reference T52 Wikidata:Q159	Россия
+N42	Reference T51 Wikidata:Q159	Россия
+N43	Reference T43 Wikidata:Q7971	Магаданская область
+N44	Reference T54 Wikidata:Q7971	Магаданская область
+N45	Reference T39 Wikidata:Q186473	Совет Федерации
+N46	Reference T25 Wikidata:Q186473	Совет Федерации
+N47	Reference T38 Wikidata:Q186473	Совет Федерации
+N48	Reference T48 Wikidata:Q186473	Совет Федерации
+N49	Reference T17 Wikidata:Q19399742	
+N50	Reference T21 Wikidata:Q19399742	
+T75	EVENT 1285 1292	родился
+R50	PARTICIPANT_IN Arg1:T22 Arg2:T75	
+R51	POINT_IN_TIME Arg1:T75 Arg2:T23	

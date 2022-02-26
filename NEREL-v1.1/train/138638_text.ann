@@ -1,0 +1,87 @@
+T1	FACILITY 3 12	Ленфильме
+T2	PERSON 34 50	Евгения Татарова
+T3	WORK_OF_ART 52 57	Ничей
+T4	DATE 59 68	6 декабря
+T5	FACILITY 71 91	киноцентре Ленфильма
+T6	ORGANIZATION 110 118	Ленфильм
+T8	PERSON 171 187	Евгения Татарова
+T9	WORK_OF_ART 189 194	Ничей
+T10	PERSON 198 214	Хельга Филиппова
+T11	PERSON 216 227	Сергей Рост
+T12	PERSON 229 244	Евгений Татаров
+T13	PERSON 247 258	Елена Кулеш
+T14	WORK_OF_ART 277 282	Ничей
+T15	AGE 306 322	двенадцатилетнем
+T16	PERSON 618 630	Олег Чугунов
+T17	PERSON 632 647	Надежда Маркина
+T18	PERSON 649 665	Владимир Меньшов
+T19	PROFESSION 768 776	режиссёр
+T20	PROFESSION 794 803	сценарист
+T21	PERSON 804 815	Елена Кулеш
+T22	PERSON 832 848	Хельга Филиппова
+T23	PERSON 851 862	Сергей Рост
+T24	COUNTRY 946 952	России
+T25	ORGANIZATION 82 91	Ленфильма
+T7	EVENT 110 123	Ленфильм-клуб
+T26	EVENT 132 146	закрытый показ
+T27	PROFESSION 161 170	режиссёра
+T28	EVENT 262 275	показе фильма
+T29	PERSON 323 327	Коле
+T30	PERSON 578 583	Колей
+T31	PERSON 777 792	Евгений Татаров
+T32	EVENT 683 696	показа фильма
+T33	PROFESSION 825 831	актёры
+R1	WORKS_AS Arg1:T8 Arg2:T27	
+R2	PRODUCES Arg1:T8 Arg2:T9	
+R3	PRODUCES Arg1:T2 Arg2:T3	
+R4	OWNER_OF Arg1:T25 Arg2:T5	
+R5	AGE_IS Arg1:T29 Arg2:T15	
+R6	PARTICIPANT_IN Arg1:T16 Arg2:T14	
+R7	PARTICIPANT_IN Arg1:T17 Arg2:T14	
+R8	PARTICIPANT_IN Arg1:T18 Arg2:T14	
+R9	WORKS_AS Arg1:T31 Arg2:T19	
+R10	WORKS_AS Arg1:T21 Arg2:T20	
+R11	WORKS_AS Arg1:T22 Arg2:T33	
+R12	WORKS_AS Arg1:T23 Arg2:T33	
+R13	TAKES_PLACE_IN Arg1:T26 Arg2:T5	
+R14	ORGANIZES Arg1:T6 Arg2:T7	
+R15	SUBEVENT_OF Arg1:T26 Arg2:T7	
+R16	POINT_IN_TIME Arg1:T26 Arg2:T4	
+R17	ALTERNATIVE_NAME Arg1:T26 Arg2:T28	
+R18	PARTICIPANT_IN Arg1:T13 Arg2:T28	
+R19	PARTICIPANT_IN Arg1:T12 Arg2:T28	
+R20	PARTICIPANT_IN Arg1:T11 Arg2:T28	
+R21	PARTICIPANT_IN Arg1:T10 Arg2:T28	
+T34	EVENT 13 33	показали новый фильм
+R22	TAKES_PLACE_IN Arg1:T34 Arg2:T1	
+R23	INANIMATE_INVOLVED Arg1:T3 Arg2:T34	
+R24	ALTERNATIVE_NAME Arg1:T34 Arg2:T26	
+R25	INANIMATE_INVOLVED Arg1:T9 Arg2:T26	
+R26	INANIMATE_INVOLVED Arg1:T14 Arg2:T28	
+N1	Reference T1 Wikidata:Q158478	Ленфильм
+N4	Reference T11 Wikidata:Q117644	Сергей Рост
+N8	Reference T17 Wikidata:Q4281965	Надежда Маркина
+N9	Reference T18 Wikidata:Q726105	Владимир Валентинович Меньшов
+N10	Reference T20 Wikidata:Q28389	сценарист
+N11	Reference T22 Wikidata:Q4484117	Хельга Филиппова
+N12	Reference T24 Wikidata:Q159	Россия
+N13	Reference T25 Wikidata:Q158478	Ленфильм
+N14	Reference T27 Wikidata:Q3455803	режиссёр
+N15	Reference T29 Wikidata:Q5486169	Николай
+N16	Reference T30 Wikidata:Q5486169	Николай
+N18	Reference T33 Wikidata:Q33999	актёр
+N2	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q95690115	
+N17	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T23 Wikidata:Q117644	Сергей Рост
+N20	Reference T10 Wikidata:Q4484117	Хельга Филиппова
+N21	Reference T6 Wikidata:Q158478	Ленфильм
+N22	Reference T19 Wikidata:Q3455803	режиссёр
+N23	Reference T2 Wikidata:NULL	нет данных
+N24	Reference T21 Wikidata:NULL	нет данных
+N25	Reference T9 Wikidata:NULL	нет данных
+N26	Reference T3 Wikidata:NULL	нет данных
+N27	Reference T12 Wikidata:NULL	нет данных

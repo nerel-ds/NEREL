@@ -1,0 +1,83 @@
+T1	PROFESSION 4 13	президент
+T2	PERSON 25 41	Франсиско Флорес
+T3	PERSON 71 87	Франсиско Флорес
+T4	PROFESSION 95 104	президент
+T5	PERSON 116 132	Франcиско Флорес
+T6	DATE 143 162	30 января 2016 года
+T7	AGE 174 180	56 лет
+T8	PERSON 191 197	Флорес
+T9	CITY 268 282	Сан-Сальвадоре
+T11	PROFESSION 309 318	президент
+T12	DATE 338 355	в 1999—2004 годах
+T13	MONEY 421 446	15 миллионов долларов США
+T14	COUNTRY 473 481	Тайванем
+T15	COUNTRY 536 546	Сальвадоре
+T16	ORGANIZATION 549 590	Националистический республиканский альянс
+T18	PERSON 623 629	Флорес
+T19	PRODUCT 670 677	Твиттер
+T20	COUNTRY 14 24	Сальвадора
+T21	COUNTRY 105 115	Сальвадора
+T10	DISEASE 293 302	инсультом
+T22	PENALTY 371 387	домашним арестом
+T24	DATE 524 533	2001 года
+T25	DISEASE 198 209	впал в кому
+T26	EVENT 510 523	землетрясения
+R1	AGE_DIED_AT Arg1:T5 Arg2:T7	
+R2	WORKPLACE Arg1:T2 Arg2:T20	
+T27	PROFESSION 4 24	президент Сальвадора
+R3	WORKS_AS Arg1:T2 Arg2:T27	
+T28	PROFESSION 95 115	президент Сальвадора
+R4	WORKS_AS Arg1:T5 Arg2:T28	
+R5	WORKPLACE Arg1:T5 Arg2:T21	
+T29	EVENT 133 142	скончался
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T29	
+R7	POINT_IN_TIME Arg1:T29 Arg2:T6	
+R8	DATE_OF_DEATH Arg1:T5 Arg2:T6	
+R9	MEDICAL_CONDITION Arg1:T8 Arg2:T25	
+T30	EVENT 230 250	доставлен в больницу
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T30	
+R11	TAKES_PLACE_IN Arg1:T30 Arg2:T9	
+R12	MEDICAL_CONDITION Arg1:T8 Arg2:T10	
+T23	COUNTRY 443 446	США
+T31	CRIME 413 446	хищении 15 миллионов долларов США
+T32	EVENT 510 533	землетрясения 2001 года
+R13	TAKES_PLACE_IN Arg1:T32 Arg2:T15	
+T17	ORGANIZATION 592 597	ARENA
+R14	ABBREVIATION Arg1:T16 Arg2:T17	
+R15	MEMBER_OF Arg1:T18 Arg2:T16	
+T33	EVENT 42 51	скончался
+T34	DISEASE 66 70	комы
+R16	MEDICAL_CONDITION Arg1:T2 Arg2:T34	
+R17	PARTICIPANT_IN Arg1:T2 Arg2:T33	
+R18	WORKPLACE Arg1:T27 Arg2:T20	
+R19	WORKPLACE Arg1:T28 Arg2:T21	
+R20	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+R21	POINT_IN_TIME Arg1:T32 Arg2:T24	
+R22	PENALIZED_AS Arg1:T8 Arg2:T22	
+R23	CONVICTED_OF Arg1:T8 Arg2:T31	
+R24	HAS_CAUSE Arg1:T22 Arg2:T31	
+R25	WORKS_AS Arg1:T8 Arg2:T11	
+R26	PENALIZED_AS Arg1:T11 Arg2:T22	
+R27	EXPENDITURE Arg1:T14 Arg2:T13	
+T35	DISEASE 205 209	кому
+T36	CRIME 413 420	хищении
+R28	ALTERNATIVE_NAME Arg1:T3 Arg2:T18	
+N1	Reference T2 Wikidata:Q381002	Франсиско Флорес Перес
+N2	Reference T9 Wikidata:Q3110	Сан-Сальвадор
+N3	Reference T11 Wikidata:Q30461	президент
+N5	Reference T15 Wikidata:Q792	Сальвадор
+N6	Reference T16 Wikidata:Q1146480	Националистический республиканский альянс
+N8	Reference T19 Wikidata:Q918	Твиттер
+N9	Reference T27 Wikidata:Q878151	Президент Сальвадора
+N10	Reference T23 Wikidata:Q30	США
+N4	Reference T14 Wikidata:Q865	Китайская Республика
+N7	Reference T18 Wikidata:Q381002	Франсиско Флорес Перес
+N11	Reference T3 Wikidata:Q381002	Франсиско Флорес Перес
+N12	Reference T4 Wikidata:Q30461	президент
+N13	Reference T1 Wikidata:Q30461	президент
+N14	Reference T20 Wikidata:Q792	Сальвадор
+N15	Reference T21 Wikidata:Q792	Сальвадор
+N16	Reference T17 Wikidata:Q1146480	Националистический республиканский альянс
+N17	Reference T28 Wikidata:Q878151	Президент Сальвадора
+N18	Reference T8 Wikidata:Q381002	Франсиско Флорес Перес
+N19	Reference T5 Wikidata:Q381002	Франсиско Флорес Перес

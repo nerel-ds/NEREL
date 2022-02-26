@@ -1,0 +1,108 @@
+T1	PROFESSION 0 5	Судья
+T2	ORGANIZATION 6 10	ЕСПЧ
+T3	COUNTRY 14 20	России
+T4	PROFESSION 48 53	Судья
+T5	ORGANIZATION 54 58	ЕСПЧ
+T6	PERSON 59 72	Дмитрий Дедов
+T7	PROFESSION 73 78	Судья
+T9	PERSON 126 139	Дмитрий Дедов
+T10	PERSON 165 173	Алексеев
+T11	COUNTRY 190 196	России
+T12	DATE 391 410	27 ноября 2018 года
+T13	ORGANIZATION 411 445	Европейский суд по правам человека
+T14	PERSON 469 477	Алексеев
+T15	COUNTRY 494 500	России
+T16	COUNTRY 530 536	России
+T18	NUMBER 632 635	три
+T19	LAW 643 705	Европейской конвенции о защите прав человека и основных свобод
+T20	PROFESSION 794 799	Судья
+T22	COUNTRY 840 846	России
+T23	PERSON 847 860	Дмитрий Дедов
+T28	COUNTRY 1021 1027	России
+T29	COUNTRY 1255 1261	России
+T30	PROFESSION 0 10	Судья ЕСПЧ
+T31	PROFESSION 48 58	Судья ЕСПЧ
+T8	COUNTRY 119 125	России
+T32	ORGANIZATION 79 115	Европейского суда по правам человека
+T33	LOCATION 79 91	Европейского
+T34	PROFESSION 73 115	Судья Европейского суда по правам человека
+T35	ORGANIZATION 365 376	Викиновости
+T36	LAW 165 196	Алексеев и другие против России
+T38	EVENT 198 219	поддержал легализацию
+T39	LOCATION 411 422	Европейский
+T40	EVENT 446 459	вынес решение
+T41	LAW 469 500	Алексеев и другие против России
+T43	LOCATION 643 654	Европейской
+T21	ORGANIZATION 800 836	Европейского суда по правам человека
+T44	LOCATION 800 812	Европейского
+T45	PROFESSION 794 836	Судья Европейского суда по правам человека
+T24	ORGANIZATION 992 996	Суда
+T26	DATE 1001 1018	В настоящее время
+R1	WORKPLACE Arg1:T30 Arg2:T2	
+R3	ORIGINS_FROM Arg1:T30 Arg2:T3	
+R4	WORKS_AS Arg1:T6 Arg2:T31	
+R5	WORKPLACE Arg1:T6 Arg2:T5	
+R6	WORKPLACE Arg1:T31 Arg2:T5	
+R7	ALTERNATIVE_NAME Arg1:T31 Arg2:T34	
+R8	HEADQUARTERED_IN Arg1:T32 Arg2:T33	
+R9	WORKPLACE Arg1:T34 Arg2:T32	
+R10	ORIGINS_FROM Arg1:T34 Arg2:T8	
+R11	WORKS_AS Arg1:T9 Arg2:T34	
+R12	WORKPLACE Arg1:T9 Arg2:T32	
+R13	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+R14	POINT_IN_TIME Arg1:T40 Arg2:T12	
+R15	AGENT Arg1:T13 Arg2:T40	
+T27	ORGANIZATION 521 536	властями России
+R16	HEADQUARTERED_IN Arg1:T27 Arg2:T16	
+T17	IDEOLOGY 551 566	ЛГБТ-активистов
+R17	WORKPLACE Arg1:T45 Arg2:T21	
+R18	ORIGINS_FROM Arg1:T45 Arg2:T22	
+R19	WORKS_AS Arg1:T23 Arg2:T45	
+R20	WORKPLACE Arg1:T23 Arg2:T21	
+T42	CRIME 1146 1192	злостным нарушением режима отбывания наказания
+T46	PENALTY 1195 1228	караются в дисциплинарном порядке
+T37	EVENT 21 46	поддержал однополые союзы
+R2	AGENT Arg1:T30 Arg2:T37	
+R21	ORIGINS_FROM Arg1:T19 Arg2:T43	
+R22	HAS_CAUSE Arg1:T46 Arg2:T42	
+R23	HEADQUARTERED_IN Arg1:T13 Arg2:T39	
+R24	ABBREVIATION Arg1:T32 Arg2:T5	
+R25	INANIMATE_INVOLVED Arg1:T36 Arg2:T38	
+R26	INANIMATE_INVOLVED Arg1:T41 Arg2:T40	
+R27	HEADQUARTERED_IN Arg1:T21 Arg2:T44	
+N1	Reference T4 Wikidata:Q16533	судья
+N2	Reference T5 Wikidata:Q122880	Европейский суд по правам человека
+N3	Reference T6 Wikidata:Q4156726	Дмитрий Иванович Дедов
+N5	Reference T19 Wikidata:Q183191	Европейская конвенция о защите прав человека и основных свобод
+N6	Reference T29 Wikidata:Q159	Россия
+N8	Reference T35 Wikidata:Q964	Викиновости
+N7	Reference T30 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N9	Reference T39 Wikidata:Q46	Европа
+N10	Reference T41 Wikidata:Q4716018	
+N12	Reference T27 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:Q41487	cуд
+N13	Reference T7 Wikidata:Q16533	судья
+N14	Reference T1 Wikidata:Q16533	судья
+N15	Reference T20 Wikidata:Q16533	судья
+N16	Reference T13 Wikidata:Q122880	Европейский суд по правам человека
+N17	Reference T2 Wikidata:Q122880	Европейский суд по правам человека
+N18	Reference T32 Wikidata:Q122880	Европейский суд по правам человека
+N19	Reference T21 Wikidata:Q122880	Европейский суд по правам человека
+N20	Reference T9 Wikidata:Q4156726	Дмитрий Иванович Дедов
+N21	Reference T23 Wikidata:Q4156726	Дмитрий Иванович Дедов
+N22	Reference T22 Wikidata:Q159	Россия
+N23	Reference T8 Wikidata:Q159	Россия
+N24	Reference T15 Wikidata:Q159	Россия
+N25	Reference T16 Wikidata:Q159	Россия
+N26	Reference T11 Wikidata:Q159	Россия
+N27	Reference T3 Wikidata:Q159	Россия
+N28	Reference T28 Wikidata:Q159	Россия
+N29	Reference T34 Wikidata:NULL	нет данных
+N30	Reference T31 Wikidata:NULL	нет данных
+N31	Reference T45 Wikidata:NULL	нет данных
+N32	Reference T14 Wikidata:NULL	нет данных
+N33	Reference T33 Wikidata:Q46	Европа
+N34	Reference T44 Wikidata:Q46	Европа
+N35	Reference T43 Wikidata:Q46	Европа
+N36	Reference T36 Wikidata:Q4716018	

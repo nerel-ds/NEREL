@@ -1,0 +1,118 @@
+T1	PERSON 0 7	Гароццо
+T2	COUNTRY 15 21	Италии
+T3	NATIONALITY 54 63	россиянин
+T4	PERSON 94 109	Даниэле Гароццо
+T5	EVENT 135 153	турнира рапиристов
+T6	EVENT 157 166	Олимпиаде
+T7	CITY 169 172	Рио
+T8	NATIONALITY 178 187	итальянец
+T9	PERSON 188 203	Даниэле Гароццо
+T10	COUNTRY 219 222	США
+T11	PERSON 223 242	Александр Массиалас
+T12	EVENT 282 291	Олимпиады
+T13	NATIONALITY 294 305	российского
+T14	PERSON 322 335	Тимура Сафина
+T15	ORDINAL 349 355	третье
+T16	PERSON 362 368	Тимуру
+T17	AGE 382 391	33-летний
+T18	COUNTRY 406 420	Великобритании
+T19	PERSON 421 432	Ричард Круз
+T20	PROFESSION 435 441	Тренер
+T21	PERSON 471 485	Ильгар Мамедов
+T22	NATIONALITY 505 515	россиянина
+T23	NUMBER 542 544	15
+T24	PERSON 610 615	Тимур
+T25	ORDINAL 703 707	15-й
+T26	NUMBER 730 732	14
+T27	PROFESSION 827 833	тренер
+T28	EVENT 1053 1068	Олимпийских игр
+T30	AGE 1071 1078	24 года
+T31	NATIONALITY 1124 1133	россиянин
+T32	PERSON 1135 1151	Артур Ахматхузин
+T33	NUMBER 1175 1178	1/8
+T29	AWARD 1036 1068	бронзовая медаль Олимпийских игр
+T34	COUNTRY 450 456	России
+T35	ORGANIZATION 442 470	сборной России по фехтованию
+T36	PROFESSION 435 470	Тренер сборной России по фехтованию
+T37	AWARD 265 291	Бронзовая медаль Олимпиады
+T38	PROFESSION 306 319	фехтовальщика
+T39	PROFESSION 206 215	Спорстмен
+T40	PROFESSION 143 153	рапиристов
+T41	DATE 122 134	сегодняшнего
+T43	PERSON 64 69	Сафин
+T44	AWARD 22 28	золото
+R1	ORIGINS_FROM Arg1:T43 Arg2:T3	
+R2	ORIGINS_FROM Arg1:T1 Arg2:T2	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R4	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R5	PARTICIPANT_IN Arg1:T40 Arg2:T5	
+R6	SUBEVENT_OF Arg1:T5 Arg2:T6	
+R7	TAKES_PLACE_IN Arg1:T6 Arg2:T7	
+R8	TAKES_PLACE_IN Arg1:T5 Arg2:T7	
+R9	PARTICIPANT_IN Arg1:T9 Arg2:T5	
+R10	POINT_IN_TIME Arg1:T5 Arg2:T41	
+T45	AWARD 75 84	бронзовым
+R11	AWARDED_WITH Arg1:T43 Arg2:T45	
+R12	AWARDED_WITH Arg1:T1 Arg2:T44	
+T42	AWARD 245 255	серебряный
+R13	AWARDED_WITH Arg1:T11 Arg2:T42	
+R14	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R15	WORKS_AS Arg1:T11 Arg2:T39	
+R16	ALTERNATIVE_NAME Arg1:T43 Arg2:T14	
+R17	ALTERNATIVE_NAME Arg1:T45 Arg2:T37	
+T46	AWARD 265 281	Бронзовая медаль
+R19	WORKS_AS Arg1:T14 Arg2:T38	
+R20	ORIGINS_FROM Arg1:T38 Arg2:T13	
+R21	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R22	AWARDED_WITH Arg1:T14 Arg2:T37	
+R23	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R24	ORIGINS_FROM Arg1:T19 Arg2:T18	
+R25	AGE_IS Arg1:T19 Arg2:T17	
+R26	ALTERNATIVE_NAME Arg1:T14 Arg2:T24	
+R27	WORKS_AS Arg1:T21 Arg2:T36	
+R28	WORKPLACE Arg1:T36 Arg2:T35	
+R29	HEADQUARTERED_IN Arg1:T35 Arg2:T34	
+T47	AWARD 1036 1052	бронзовая медаль
+R30	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R18	ORIGINS_FROM Arg1:T37 Arg2:T12	
+R31	AGE_IS Arg1:T16 Arg2:T30	
+R32	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R33	ORIGINS_FROM Arg1:T44 Arg2:T5	
+R34	ORIGINS_FROM Arg1:T42 Arg2:T5	
+T48	NUMBER 545 547	13
+T49	NUMBER 733 735	13
+N1	Reference T2 Wikidata:Q38	Италия
+N2	Reference T4 Wikidata:Q18921764	Гароццо, Даниэле
+N5	Reference T10 Wikidata:Q30	США
+N6	Reference T11 Wikidata:Q1393165	Массиалас, Александр
+N8	Reference T18 Wikidata:Q145	Великобритания
+N11	Reference T22 Wikidata:Q492468	россияне
+N13	Reference T27 Wikidata:Q41583	тренер
+N14	Reference T32 Wikidata:Q1393176	Ахматхузин, Артур Камилевич
+N15	Reference T34 Wikidata:Q159	Россия
+N22	Reference T46 Wikidata:Q873364	бронзовая медаль
+N20	Reference T44 Wikidata:Q406039	золотая медаль
+N23	Reference T40 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:Q8678	Рио-де-Жанейро
+N4	Reference T8 Wikidata:Q50001	итальянцы
+N24	Reference T39 Wikidata:Q2066131	спортсмен
+N21	Reference T42 Wikidata:Q847956	серебряная медаль
+N18	Reference T37 Wikidata:Q15889643	
+N7	Reference T13 Wikidata:Q492468	россияне
+N19	Reference T38 Wikidata:Q13381863	
+N9	Reference T19 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:NULL	нет данных
+N17	Reference T36 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:Q25830	
+N12	Reference T24 Wikidata:Q17388702	
+N25	Reference T29 Wikidata:Q15889643	
+N26	Reference T9 Wikidata:Q18921764	Гароццо, Даниэле
+N27	Reference T1 Wikidata:Q18921764	Гароццо, Даниэле
+N28	Reference T31 Wikidata:Q492468	россияне
+N29	Reference T3 Wikidata:Q492468	россияне
+N30	Reference T20 Wikidata:Q41583	тренер
+N31	Reference T47 Wikidata:Q873364	бронзовая медаль
+N32	Reference T45 Wikidata:Q15889643	
+N33	Reference T14 Wikidata:Q17388702	
+N34	Reference T16 Wikidata:Q17388702	
+N35	Reference T43 Wikidata:Q17388702	

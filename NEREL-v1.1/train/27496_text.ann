@@ -1,0 +1,245 @@
+T1	PERSON 0 11	Гасан Хитто
+T2	COUNTRY 19 28	сирийской
+T3	PROFESSION 50 67	премьер-министром
+T4	ORGANIZATION 88 153	Национальной коалиции сирийских революционных и оппозиционных сил
+T5	DATE 154 172	18 марта 2013 года
+T6	ORGANIZATION 187 218	Сирийская национальная коалиция
+T7	COUNTRY 248 260	американским
+T8	AGE 274 284	49-летнего
+T9	PERSON 285 297	Гасана Хитто
+T10	PERSON 299 312	Ghassan Hitto
+T12	PERSON 422 427	Хитто
+T13	NUMBER 436 438	35
+T14	NUMBER 442 444	48
+T15	COUNTRY 514 520	Турции
+T16	PERSON 534 545	Гасан Хитто
+T17	CITY 556 563	Дамаске
+T18	COUNTRY 587 590	США
+T19	DATE 607 639	в течение нескольких десятилетий
+T20	STATE_OR_PROVINCE 661 667	Техаса
+T21	COUNTRY 670 676	Турцию
+T22	COUNTRY 789 792	США
+T23	TIME 852 869	В ближайшее время
+T24	PERSON 870 875	Хитто
+T25	DATE 1022 1033	в 2012 году
+T27	PERSON 1098 1112	Моаз аль-Хатиб
+T28	NUMBER 1115 1124	Более 100
+T29	COUNTRY 1229 1232	США
+T30	COUNTRY 1234 1248	Великобритания
+T31	COUNTRY 1250 1257	Франция
+T32	COUNTRY 1260 1266	Турция
+T33	DATE 1269 1282	В понедельник
+T34	LOCATION 1329 1352	северным районам Ливана
+T35	COUNTRY 1346 1352	Ливана
+T36	COUNTRY 1354 1357	США
+T37	PROFESSION 1473 1483	президенту
+T38	ORDINAL 1550 1556	первый
+T39	COUNTRY 1571 1580	сирийская
+T40	COUNTRY 1626 1632	Ливане
+T41	COUNTRY 1696 1701	Сирии
+T42	DATE 1710 1723	в понедельник
+T43	PERSON 1741 1751	Джон Керри
+T44	COUNTRY 1764 1767	США
+T45	COUNTRY 1805 1814	сирийских
+T46	COUNTRY 1826 1841	Великобританией
+T47	COUNTRY 1844 1852	Францией
+T48	DATE 1855 1872	На прошлой неделе
+T49	COUNTRY 1873 1880	Франция
+T50	COUNTRY 1909 1924	Великобританией
+T51	ORGANIZATION 1960 1962	ЕС
+T52	PROFESSION 2007 2031	Министры иностранных дел
+T53	DATE 2045 2059	на этой неделе
+T54	CITY 2062 2069	Дублине
+T55	ORGANIZATION 2117 2119	ЕС
+T56	COUNTRY 2165 2170	Сирию
+T57	ORGANIZATION 19 39	сирийской оппозицией
+T58	IDEOLOGY 29 39	оппозицией
+T62	IDEOLOGY 136 149	оппозиционных
+T66	IDEOLOGY 120 133	революционных
+T67	IDEOLOGY 173 186	оппозиционная
+T68	COUNTRY 187 196	Сирийская
+T69	COUNTRY 110 119	сирийских
+T70	PROFESSION 235 245	бизнесмена
+T73	PROFESSION 336 352	премьер-министра
+T75	ORGANIZATION 460 482	оппозиционной коалиции
+T76	IDEOLOGY 460 473	оппозиционной
+T77	DATE 521 531	во вторник
+T79	PROFESSION 801 809	премьера
+T80	RELIGION 843 849	ислама
+T81	ORGANIZATION 887 914	кабинет министров оппозиции
+T83	PROFESSION 1034 1051	лидером оппозиции
+T85	PROFESSION 1070 1074	имам
+T87	FACILITY 1075 1097	Большой мечети Дамаска
+T88	CITY 1090 1097	Дамаска
+T89	PROFESSION 1070 1097	имам Большой мечети Дамаска
+T90	FACILITY 1075 1089	Большой мечети
+T91	ORGANIZATION 1140 1162	оппозиционную коалицию
+T92	IDEOLOGY 1140 1153	оппозиционную
+T93	COUNTRY 1198 1208	сирийского
+T94	COUNTRY 1283 1292	сирийские
+T95	COUNTRY 1417 1426	сирийским
+T96	ORGANIZATION 1417 1441	сирийским правительством
+T100	PERSON 1484 1496	Башару Асаду
+T101	ORGANIZATION 1571 1586	сирийская армия
+T102	EVENT 1587 1597	обстреляла
+T104	EVENT 1676 1701	гражданской войне в Сирии
+T105	EVENT 1676 1693	гражданской войне
+T106	PROFESSION 1724 1740	госсекретарь США
+T107	PROFESSION 1724 1736	госсекретарь
+T108	COUNTRY 1737 1740	США
+T111	PROFESSION 2007 2034	Министры иностранных дел ЕС
+T112	ORGANIZATION 2032 2034	ЕС
+T113	PROFESSION 2007 2015	Министры
+R1	HEADQUARTERED_IN Arg1:T57 Arg2:T2	
+R2	IDEOLOGY_OF Arg1:T57 Arg2:T58	
+R3	WORKS_AS Arg1:T1 Arg2:T3	
+T26	EVENT 12 18	избран
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T26	
+R5	PARTICIPANT_IN Arg1:T57 Arg2:T26	
+R6	MEMBER_OF Arg1:T1 Arg2:T57	
+R7	IDEOLOGY_OF Arg1:T4 Arg2:T66	
+R8	IDEOLOGY_OF Arg1:T4 Arg2:T62	
+R9	ALTERNATIVE_NAME Arg1:T57 Arg2:T4	
+R10	HEADQUARTERED_IN Arg1:T4 Arg2:T69	
+R11	HEADQUARTERED_IN Arg1:T6 Arg2:T68	
+R12	IDEOLOGY_OF Arg1:T6 Arg2:T67	
+T59	EVENT 219 226	выбрала
+R13	PARTICIPANT_IN Arg1:T6 Arg2:T59	
+R14	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R15	AGE_IS Arg1:T9 Arg2:T8	
+R16	WORKS_AS Arg1:T9 Arg2:T70	
+R17	PARTICIPANT_IN Arg1:T9 Arg2:T59	
+R18	POINT_IN_TIME Arg1:T59 Arg2:T5	
+R19	WORKS_AS Arg1:T9 Arg2:T73	
+R20	PARTICIPANT_IN Arg1:T3 Arg2:T26	
+R21	PARTICIPANT_IN Arg1:T73 Arg2:T59	
+R22	ALTERNATIVE_NAME Arg1:T26 Arg2:T59	
+R23	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R24	IDEOLOGY_OF Arg1:T75 Arg2:T76	
+T11	EVENT 486 495	совещании
+R25	PARTICIPANT_IN Arg1:T75 Arg2:T11	
+R26	TAKES_PLACE_IN Arg1:T11 Arg2:T15	
+R27	POINT_IN_TIME Arg1:T11 Arg2:T77	
+R28	PLACE_OF_BIRTH Arg1:T16 Arg2:T17	
+R31	ALTERNATIVE_NAME Arg1:T7 Arg2:T18	
+R32	LOCATED_IN Arg1:T20 Arg2:T18	
+R33	ALTERNATIVE_NAME Arg1:T73 Arg2:T79	
+R34	RELIGION_OF Arg1:T79 Arg2:T80	
+R35	RELIGION_OF Arg1:T24 Arg2:T80	
+T61	IDEOLOGY 905 914	оппозиции
+R36	IDEOLOGY_OF Arg1:T81 Arg2:T61	
+R37	FOUNDED_BY Arg1:T81 Arg2:T24	
+R38	WORKS_AS Arg1:T27 Arg2:T83	
+T63	IDEOLOGY 1042 1051	оппозиции
+R39	IDEOLOGY_OF Arg1:T83 Arg2:T63	
+R40	LOCATED_IN Arg1:T87 Arg2:T88	
+R41	WORKPLACE Arg1:T89 Arg2:T87	
+R42	WORKS_AS Arg1:T27 Arg2:T89	
+T64	EVENT 1056 1062	избран
+R43	POINT_IN_TIME Arg1:T64 Arg2:T25	
+R44	PARTICIPANT_IN Arg1:T27 Arg2:T64	
+R45	WORKS_AS Arg1:T27 Arg2:T83	
+R46	PARTICIPANT_IN Arg1:T83 Arg2:T64	
+R47	IDEOLOGY_OF Arg1:T91 Arg2:T92	
+R48	ALTERNATIVE_NAME Arg1:T6 Arg2:T75	
+R49	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R50	HEADQUARTERED_IN Arg1:T96 Arg2:T95	
+R51	WORKS_AS Arg1:T100 Arg2:T37	
+R52	HEADQUARTERED_IN Arg1:T101 Arg2:T39	
+R53	AGENT Arg1:T101 Arg2:T102	
+R54	TAKES_PLACE_IN Arg1:T102 Arg2:T40	
+R55	TAKES_PLACE_IN Arg1:T104 Arg2:T41	
+R56	ALTERNATIVE_NAME Arg1:T39 Arg2:T41	
+R57	WORKPLACE Arg1:T106 Arg2:T108	
+R58	WORKS_AS Arg1:T43 Arg2:T106	
+R59	WORKPLACE Arg1:T43 Arg2:T108	
+R60	WORKPLACE Arg1:T111 Arg2:T112	
+T65	EVENT 2035 2044	соберутся
+R61	POINT_IN_TIME Arg1:T65 Arg2:T53	
+R62	TAKES_PLACE_IN Arg1:T65 Arg2:T54	
+R63	PARTICIPANT_IN Arg1:T111 Arg2:T65	
+R29	ALTERNATIVE_NAME Arg1:T12 Arg2:T16	
+R30	PLACE_RESIDES_IN Arg1:T16 Arg2:T18	
+R64	PLACE_RESIDES_IN Arg1:T16 Arg2:T20	
+R65	PLACE_RESIDES_IN Arg1:T16 Arg2:T21	
+R66	PLACE_RESIDES_IN Arg1:T79 Arg2:T22	
+R67	RELIGION_OF Arg1:T16 Arg2:T80	
+R68	HEADQUARTERED_IN Arg1:T91 Arg2:T93	
+R69	LOCATED_IN Arg1:T34 Arg2:T35	
+N1	Reference T3 Wikidata:Q14212	премьер-министр
+N2	Reference T15 Wikidata:Q43	Турция
+N4	Reference T17 Wikidata:Q3766	Дамаск
+N5	Reference T20 Wikidata:Q1439	Техас
+N6	Reference T27 Wikidata:Q29806	Моаз аль-Хатиб
+N7	Reference T29 Wikidata:Q30	США
+N9	Reference T35 Wikidata:Q822	Ливан
+N10	Reference T37 Wikidata:Q30461	президент
+N11	Reference T40 Wikidata:Q822	Ливан
+N12	Reference T43 Wikidata:Q22316	Джон Керри
+N13	Reference T46 Wikidata:Q145	Великобритания
+N14	Reference T47 Wikidata:Q142	Франция
+N15	Reference T52 Wikidata:Q7330070	министр иностранных дел
+N16	Reference T54 Wikidata:Q1761	Дублин
+N18	Reference T70 Wikidata:Q131524	предприниматель
+N19	Reference T80 Wikidata:Q432	ислам
+N22	Reference T85 Wikidata:Q125482	имам
+N23	Reference T87 Wikidata:Q183562	Мечеть Омейядов
+N26	Reference T91 Wikidata:Q32506	Национальная коалиция сирийских революционных и оппозиционных сил
+N28	Reference T100 Wikidata:Q44329	Башар Асад
+N29	Reference T101 Wikidata:Q849180	Вооружённые силы Сирии
+N32	Reference T112 Wikidata:Q458	Европейский союз
+N33	Reference T113 Wikidata:Q83307	министр
+N17	Reference T69 Wikidata:Q858	Сирия
+N3	Reference T16 Wikidata:Q7702813	Хасан Хитто
+N20	Reference T81 Wikidata:NULL	нет данных
+N24	Reference T89 Wikidata:NULL	нет данных
+N8	Reference T34 Wikidata:NULL	нет данных
+N27	Reference T96 Wikidata:Q267276	
+N31	Reference T111 Wikidata:NULL	нет данных
+N30	Reference T106 Wikidata:Q14213	государственный секретарь США
+N25	Reference T90 Wikidata:Q183562	Мечеть Омейядов
+N34	Reference T107 Wikidata:Q14213	государственный секретарь США
+N21	Reference T83 Wikidata:NULL	нет данных
+N35	Reference T73 Wikidata:Q14212	премьер-министр
+N36	Reference T79 Wikidata:Q14212	премьер-министр
+N37	Reference T32 Wikidata:Q43	Турция
+N38	Reference T21 Wikidata:Q43	Турция
+N39	Reference T88 Wikidata:Q3766	Дамаск
+N40	Reference T44 Wikidata:Q30	США
+N41	Reference T22 Wikidata:Q30	США
+N42	Reference T36 Wikidata:Q30	США
+N43	Reference T7 Wikidata:Q30	США
+N44	Reference T18 Wikidata:Q30	США
+N45	Reference T108 Wikidata:Q30	США
+N46	Reference T50 Wikidata:Q145	Великобритания
+N47	Reference T30 Wikidata:Q145	Великобритания
+N48	Reference T31 Wikidata:Q142	Франция
+N49	Reference T49 Wikidata:Q142	Франция
+N50	Reference T75 Wikidata:Q32506	Национальная коалиция сирийских революционных и оппозиционных сил
+N51	Reference T57 Wikidata:Q32506	Национальная коалиция сирийских революционных и оппозиционных сил
+N52	Reference T4 Wikidata:Q32506	Национальная коалиция сирийских революционных и оппозиционных сил
+N53	Reference T6 Wikidata:Q32506	Национальная коалиция сирийских революционных и оппозиционных сил
+N54	Reference T55 Wikidata:Q458	Европейский союз
+N55	Reference T51 Wikidata:Q458	Европейский союз
+N56	Reference T41 Wikidata:Q858	Сирия
+N57	Reference T56 Wikidata:Q858	Сирия
+N58	Reference T95 Wikidata:Q858	Сирия
+N59	Reference T93 Wikidata:Q858	Сирия
+N60	Reference T39 Wikidata:Q858	Сирия
+N61	Reference T94 Wikidata:Q858	Сирия
+N62	Reference T2 Wikidata:Q858	Сирия
+N63	Reference T45 Wikidata:Q858	Сирия
+N64	Reference T68 Wikidata:Q858	Сирия
+N65	Reference T10 Wikidata:Q7702813	Хасан Хитто
+N66	Reference T12 Wikidata:Q7702813	Хасан Хитто
+N67	Reference T24 Wikidata:Q7702813	Хасан Хитто
+N68	Reference T9 Wikidata:Q7702813	Хасан Хитто
+N69	Reference T1 Wikidata:Q7702813	Хасан Хитто
+T60	EVENT 546 553	родился
+R70	PARTICIPANT_IN Arg1:T16 Arg2:T60	
+R71	TAKES_PLACE_IN Arg1:T60 Arg2:T17	
+T71	EVENT 649 657	переехал
+R72	AGENT Arg1:T16 Arg2:T71	
+R73	TAKES_PLACE_IN Arg1:T71 Arg2:T20	
+R74	TAKES_PLACE_IN Arg1:T71 Arg2:T21	
+R75	WORKPLACE Arg1:T100 Arg2:T95	

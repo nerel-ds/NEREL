@@ -1,0 +1,140 @@
+T1	PERSON 23 30	Леннона
+T2	COUNTRY 64 67	США
+T3	PERSON 83 96	Джона Леннона
+T4	PERSON 98 109	Марк Чепмен
+T5	PERSON 188 195	Леннону
+T6	PERSON 219 227	Йоко Оно
+T7	WORK_OF_ART 256 270	Double Fantasy
+T8	PERSON 273 286	Джона Леннона
+T9	PERSON 301 309	Йоко Оно
+T10	NATIONALITY 319 329	британский
+T11	PERSON 356 369	Марка Чепмена
+T12	TIME 380 401	через несколько часов
+T13	COUNTRY 438 441	США
+T15	PERSON 635 645	Боб Зафиан
+T16	PERSON 675 683	Ленноном
+T17	PERSON 695 708	Марка Чепмена
+T18	DATE 780 791	в 1980 году
+T19	DATE 1084 1097	Спустя 19 лет
+T21	ORGANIZATION 1289 1300	The Beatles
+T22	PERSON 1313 1324	Джон Леннон
+T23	DATE 1326 1330	1980
+T24	PERSON 1390 1401	Джон Леннон
+T25	DATE 1411 1422	в 1980 году
+T26	AGE 1446 1455	25-летним
+T27	PROFESSION 1456 1466	охранником
+T28	STATE_OR_PROVINCE 1476 1482	Гавайи
+T29	PERSON 1483 1506	Марком Дэвидом Чэпменом
+T30	FACILITY 1542 1552	The Dakota
+T31	CITY 1557 1569	нью-йоркском
+T32	DISTRICT 1577 1586	Манхэттен
+T33	TIME 1627 1645	За несколько часов
+T34	PERSON 1675 1682	Леннону
+T35	WORK_OF_ART 1730 1744	Double Fantasy
+T36	PROFESSION 1748 1765	Фотограф-любитель
+T37	PERSON 1766 1775	Пол Гореш
+T38	TIME 1826 1847	Через несколько часов
+T39	NUMBER 1886 1890	пять
+T40	PERSON 1913 1919	Леннон
+T41	PERSON 1969 1975	Чэпмен
+T42	PERSON 2096 2109	Джона Леннона
+T43	PERSON 2228 2234	Чэпмен
+T44	PROFESSION 770 779	музыканта
+T45	PROFESSION 905 916	полицейским
+T46	PROFESSION 1020 1029	прокурора
+T47	PROFESSION 1592 1600	музыкант
+T48	PERSON 1870 1876	Чэпмен
+T49	PROFESSION 2060 2069	музыканта
+T50	PENALTY 2257 2280	пожизненному заключению
+T51	PERSON 1658 1664	Чэпмен
+T52	EVENT 1649 1657	убийства
+T53	EVENT 1406 1410	убит
+T54	EVENT 763 769	гибели
+T55	EVENT 74 82	убийства
+R1	SPOUSE Arg1:T8 Arg2:T9	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R3	PRODUCES Arg1:T8 Arg2:T7	
+R4	PRODUCES Arg1:T9 Arg2:T7	
+R5	PARTICIPANT_IN Arg1:T24 Arg2:T53	
+R6	POINT_IN_TIME Arg1:T53 Arg2:T25	
+R7	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R8	WORKS_AS Arg1:T29 Arg2:T27	
+R9	AGE_IS Arg1:T29 Arg2:T26	
+R10	LOCATED_IN Arg1:T32 Arg2:T31	
+R11	PARTICIPANT_IN Arg1:T44 Arg2:T54	
+R12	POINT_IN_TIME Arg1:T54 Arg2:T18	
+R13	AGE_IS Arg1:T27 Arg2:T26	
+R14	ORIGINS_FROM Arg1:T27 Arg2:T28	
+R15	PARTICIPANT_IN Arg1:T3 Arg2:T55	
+R16	KNOWS Arg1:T5 Arg2:T6	
+T56	EVENT 172 179	стрелял
+R17	HAS_CAUSE Arg1:T55 Arg2:T56	
+R18	AGENT Arg1:T4 Arg2:T56	
+R19	PARTICIPANT_IN Arg1:T5 Arg2:T56	
+T57	PROFESSION 330 342	рок-музыкант
+R20	WORKS_AS Arg1:T8 Arg2:T57	
+R21	ORIGINS_FROM Arg1:T8 Arg2:T10	
+R22	WORKS_AS Arg1:T16 Arg2:T44	
+R23	PARTICIPANT_IN Arg1:T16 Arg2:T54	
+R24	PARTICIPANT_IN Arg1:T17 Arg2:T54	
+R25	ALTERNATIVE_NAME Arg1:T55 Arg2:T54	
+R26	ORIGINS_FROM Arg1:T57 Arg2:T10	
+R27	WORKPLACE Arg1:T22 Arg2:T21	
+R28	ALTERNATIVE_NAME Arg1:T54 Arg2:T53	
+R29	AGENT Arg1:T29 Arg2:T53	
+R30	LOCATED_IN Arg1:T30 Arg2:T32	
+R31	PLACE_RESIDES_IN Arg1:T24 Arg2:T30	
+R32	PLACE_RESIDES_IN Arg1:T47 Arg2:T30	
+R33	KNOWS Arg1:T51 Arg2:T34	
+R34	PRODUCES Arg1:T34 Arg2:T35	
+R35	WORKS_AS Arg1:T37 Arg2:T36	
+R36	WORKS_AS Arg1:T40 Arg2:T49	
+R37	PENALIZED_AS Arg1:T43 Arg2:T50	
+R38	ALTERNATIVE_NAME Arg1:T29 Arg2:T51	
+T14	EVENT 1920 1924	умер
+R39	PARTICIPANT_IN Arg1:T40 Arg2:T14	
+T20	EVENT 1877 1895	выпустил пять пуль
+R40	AGENT Arg1:T48 Arg2:T20	
+R41	PARTICIPANT_IN Arg1:T34 Arg2:T20	
+R42	HAS_CAUSE Arg1:T14 Arg2:T20	
+R43	PARTICIPANT_IN Arg1:T34 Arg2:T20	
+N1	Reference T6 Wikidata:Q117012	Йоко Оно
+N3	Reference T11 Wikidata:Q80462	Марк Дэвид Чепмен
+N4	Reference T13 Wikidata:Q30	США
+N7	Reference T21 Wikidata:Q1299	The Beatles
+N8	Reference T27 Wikidata:Q856887	охранник
+N9	Reference T28 Wikidata:Q782	Гавайи
+N11	Reference T32 Wikidata:Q11299	Манхэттен
+N12	Reference T35 Wikidata:Q599833	Double Fantasy
+N15	Reference T46 Wikidata:Q600751	прокурор
+N16	Reference T47 Wikidata:Q639669	музыкант
+N18	Reference T57 Wikidata:Q29017403	рок-музыкант
+N2	Reference T10 Wikidata:Q842438	британцы
+N5	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q1203	Джон Леннон
+N14	Reference T45 Wikidata:Q384593	
+N19	Reference T30 Wikidata:Q829806	
+N10	Reference T31 Wikidata:Q60	Нью-Йорк
+N20	Reference T36 Wikidata:NULL	нет данных
+N13	Reference T37 Wikidata:NULL	нет данных
+N17	Reference T48 Wikidata:Q80462	Марк Дэвид Чепмен
+N21	Reference T9 Wikidata:Q117012	Йоко Оно
+N22	Reference T17 Wikidata:Q80462	Марк Дэвид Чепмен
+N23	Reference T4 Wikidata:Q80462	Марк Дэвид Чепмен
+N24	Reference T2 Wikidata:Q30	США
+N25	Reference T7 Wikidata:Q599833	Double Fantasy
+N26	Reference T44 Wikidata:Q639669	музыкант
+N27	Reference T49 Wikidata:Q639669	музыкант
+N28	Reference T40 Wikidata:Q1203	Джон Леннон
+N29	Reference T22 Wikidata:Q1203	Джон Леннон
+N30	Reference T5 Wikidata:Q1203	Джон Леннон
+N31	Reference T8 Wikidata:Q1203	Джон Леннон
+N32	Reference T24 Wikidata:Q1203	Джон Леннон
+N33	Reference T34 Wikidata:Q1203	Джон Леннон
+N34	Reference T42 Wikidata:Q1203	Джон Леннон
+N35	Reference T3 Wikidata:Q1203	Джон Леннон
+N36	Reference T1 Wikidata:Q1203	Джон Леннон
+N37	Reference T51 Wikidata:Q80462	Марк Дэвид Чепмен
+N38	Reference T29 Wikidata:Q80462	Марк Дэвид Чепмен
+N39	Reference T43 Wikidata:Q80462	Марк Дэвид Чепмен
+N40	Reference T41 Wikidata:Q80462	Марк Дэвид Чепмен

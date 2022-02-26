@@ -1,0 +1,102 @@
+T1	NUMBER 0 2	19
+T2	STATE_OR_PROVINCE 57 67	Забайкалье
+T3	LOCATION 73 79	Куэнга
+T4	NUMBER 164 166	19
+T5	NUMBER 185 187	21
+T6	STATE_OR_PROVINCE 256 274	Забайкальском крае
+T8	NUMBER 311 313	15
+T10	LOCATION 415 421	Куэнга
+T11	DISTRICT 424 441	Сретенском районе
+T12	NUMBER 444 457	60 километрах
+T13	CITY 461 470	Сретенска
+T14	ORGANIZATION 483 488	ГИБДД
+T15	NUMBER 676 679	два
+T16	PROFESSION 690 698	водитель
+T17	AGE 710 719	47-летний
+T18	PERSON 720 734	Сергей Кубасов
+T19	DATE 744 756	более 20 лет
+T20	NUMBER 803 805	44
+T21	COUNTRY 825 831	России
+T22	CITY 867 872	Шилки
+T23	CITY 875 884	Нерчинска
+T24	PRODUCT 986 998	Kia Granbird
+T25	PROFESSION 1042 1072	индивидуальный предприниматель
+T26	PERSON 1073 1084	Сергей Пнёв
+T27	CITY 1136 1144	Сретенск
+T28	CITY 1147 1151	Чита
+T29	NUMBER 1167 1181	360 километров
+T30	ORGANIZATION 1251 1260	МБХ медиа
+T31	DATE 1263 1274	в 2019 году
+T32	LAW 1384 1405	части 3 статьи 238 УК
+T33	LAW 1407 1518	Оказание услуг, не отвечающих требованиям безопасности, повлекшее по неосторожности смерть двух и более человек
+T34	NUMBER 1498 1510	двух и более
+T35	EVENT 11 18	погибли
+T36	DATE 80 85	летом
+T37	CITY 100 106	Укурей
+T38	EVENT 175 182	погибли
+T39	EVENT 185 197	21 пострадал
+T40	DATE 275 309	в воскресенье, 1 декабря 2019 года
+T7	EVENT 322 339	госпитализированы
+T41	EVENT 374 384	Катастрофа
+T9	LOCATION 442 470	в 60 километрах от Сретенска
+T42	PROFESSION 690 707	водитель автобуса
+T43	EVENT 1355 1380	Возбуждено уголовное дело
+T44	EVENT 211 235	падения автобуса с моста
+R2	TAKES_PLACE_IN Arg1:T44 Arg2:T6	
+R3	POINT_IN_TIME Arg1:T44 Arg2:T40	
+R4	TAKES_PLACE_IN Arg1:T41 Arg2:T50	
+R5	AGE_IS Arg1:T18 Arg2:T17	
+R6	WORKS_AS Arg1:T18 Arg2:T42	
+T45	NATIONALITY 817 831	граждан России
+R7	WORKS_AS Arg1:T26 Arg2:T25	
+T46	LAW 1392 1405	статьи 238 УК
+T47	LAW 1403 1405	УК
+T48	EVENT 0 18	19 человек погибли
+R1	TAKES_PLACE_IN Arg1:T48 Arg2:T2	
+T49	EVENT 164 182	19 человек погибли
+R9	SUBEVENT_OF Arg1:T49 Arg2:T44	
+T50	FACILITY 398 421	мосту через реку Куэнга
+R10	LOCATED_IN Arg1:T50 Arg2:T11	
+R11	ALTERNATIVE_NAME Arg1:T44 Arg2:T41	
+T51	CRIME 1315 1352	нарушение правил перевозки пассажиров
+R12	PARTICIPANT_IN Arg1:T26 Arg2:T43	
+T52	EVENT 311 339	15 человек госпитализированы
+R13	SUBEVENT_OF Arg1:T52 Arg2:T44	
+R14	LOCATED_IN Arg1:T9 Arg2:T11	
+R15	CONVICTED_OF Arg1:T26 Arg2:T51	
+T53	ORDINAL 1390 1391	3
+T54	ORDINAL 1399 1402	238
+R8	OWNER_OF Arg1:T26 Arg2:T24	
+R16	ORIGINS_FROM Arg1:T45 Arg2:T21	
+R17	SUBEVENT_OF Arg1:T39 Arg2:T44	
+R18	INANIMATE_INVOLVED Arg1:T24 Arg2:T41	
+R19	PART_OF Arg1:T32 Arg2:T46	
+R20	PART_OF Arg1:T46 Arg2:T47	
+R21	HAS_CAUSE Arg1:T43 Arg2:T32	
+N1	Reference T2 Wikidata:Q6838	Забайкальский край
+N2	Reference T6 Wikidata:Q6838	Забайкальский край
+N3	Reference T10 Wikidata:Q1791059	Куэнга
+N4	Reference T11 Wikidata:Q1884322	Сретенский район
+N5	Reference T14 Wikidata:Q4146353	Госавтоинспекция МВД России
+N6	Reference T16 Wikidata:Q216541	водитель
+N8	Reference T21 Wikidata:Q159	Россия
+N9	Reference T22 Wikidata:Q198306	Шилка
+N10	Reference T23 Wikidata:Q146043	Нерчинск
+N11	Reference T25 Wikidata:Q2912172	индивидуальный предприниматель
+N13	Reference T27 Wikidata:Q196469	Сретенск
+N14	Reference T28 Wikidata:Q53139	Чита
+N18	Reference T37 Wikidata:Q4470764	Укурей
+N24	Reference T50 Wikidata:NULL	нет данных
+N20	Reference T42 Wikidata:Q829020	
+N7	Reference T18 Wikidata:NULL	нет данных
+N21	Reference T45 Wikidata:Q492468	россияне
+N25	Reference T24 Wikidata:Q626278	
+N12	Reference T26 Wikidata:NULL	нет данных
+N15	Reference T30 Wikidata:Q86678548	
+N23	Reference T47 Wikidata:Q19705	уголовное законодательство
+N22	Reference T46 Wikidata:NULL	нет данных
+N16	Reference T32 Wikidata:NULL	нет данных
+N17	Reference T33 Wikidata:NULL	нет данных
+N19	Reference T9 Wikidata:NULL	нет данных
+N26	Reference T3 Wikidata:Q1791059	Куэнга
+N27	Reference T13 Wikidata:Q196469	Сретенск

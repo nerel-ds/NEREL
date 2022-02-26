@@ -1,0 +1,94 @@
+T1	PROFESSION 30 46	муфтий Ингушетии
+T2	PERSON 47 68	Абдурахман Мартазанов
+T3	PROFESSION 99 145	глава духовного управления мусульман Ингушетии
+T4	PERSON 146 167	Абдурахман Мартазанов
+T5	PROFESSION 178 184	муфтий
+T6	ORGANIZATION 264 273	Минздраве
+T7	PROFESSION 337 406	Временно исполняющий обязанности председателя правительства Ингушетии
+T8	PERSON 407 425	Владимир Сластенин
+T9	ORGANIZATION 433 436	РБК
+T10	PERSON 485 508	Абдурахману Мартазанову
+T11	AGE 514 521	63 года
+T12	PROFESSION 530 577	главой духовного управления мусульман Ингушетии
+T14	DATE 615 621	20 лет
+T15	PROFESSION 627 632	кадия
+T16	PROFESSION 634 651	шариатского судьи
+T17	DATE 655 674	На сегодняшний день
+T18	STATE_OR_PROVINCE 677 686	Ингушетии
+T19	NUMBER 701 703	29
+T20	DISEASE 715 725	SARS-CoV-2
+T21	DISEASE 16 29	коронавирусом
+T22	STATE_OR_PROVINCE 37 46	Ингушетии
+T23	STATE_OR_PROVINCE 136 145	Ингушетии
+T24	RELIGION 126 135	мусульман
+T25	ORGANIZATION 105 145	духовного управления мусульман Ингушетии
+T26	DISEASE 215 238	двухсторонняя пневмония
+T27	DISEASE 305 316	коронавирус
+T28	STATE_OR_PROVINCE 397 406	Ингушетии
+T29	PROFESSION 370 406	председателя правительства Ингушетии
+T30	STATE_OR_PROVINCE 568 577	Ингушетии
+T31	RELIGION 558 567	мусульман
+T32	ORGANIZATION 537 577	духовного управления мусульман Ингушетии
+T13	DATE 578 594	в июле 2019 года
+T33	DISEASE 76 88	коронавируса
+T34	EVENT 0 4	Умер
+T35	PROFESSION 30 36	муфтий
+R1	CAUSE_OF_DEATH Arg1:T2 Arg2:T21	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T34	
+R3	WORKPLACE Arg1:T2 Arg2:T22	
+T36	EVENT 89 98	Скончался
+R4	RELIGION_OF Arg1:T4 Arg2:T24	
+R5	WORKPLACE Arg1:T4 Arg2:T25	
+T37	EVENT 185 201	попал в больницу
+R6	MEDICAL_CONDITION Arg1:T5 Arg2:T26	
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T37	
+T38	DATE 170 177	Недавно
+R8	POINT_IN_TIME Arg1:T37 Arg2:T38	
+R9	MEDICAL_CONDITION Arg1:T4 Arg2:T26	
+R10	PARTICIPANT_IN Arg1:T4 Arg2:T37	
+T39	PROFESSION 337 369	Временно исполняющий обязанности
+R11	WORKS_AS Arg1:T8 Arg2:T7	
+R12	WORKPLACE Arg1:T8 Arg2:T28	
+R13	AGE_DIED_AT Arg1:T10 Arg2:T11	
+R14	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+T40	EVENT 523 529	Избран
+R15	PARTICIPANT_IN Arg1:T4 Arg2:T40	
+R16	POINT_IN_TIME Arg1:T40 Arg2:T13	
+R17	WORKPLACE Arg1:T4 Arg2:T32	
+R18	WORKS_AS Arg1:T4 Arg2:T15	
+R19	WORKS_AS Arg1:T2 Arg2:T1	
+R20	WORKPLACE Arg1:T1 Arg2:T22	
+R21	ALTERNATIVE_NAME Arg1:T34 Arg2:T36	
+R22	PARTICIPANT_IN Arg1:T4 Arg2:T36	
+R23	WORKPLACE Arg1:T3 Arg2:T25	
+R24	RELIGION_OF Arg1:T25 Arg2:T24	
+R25	WORKS_AS Arg1:T4 Arg2:T5	
+R26	WORKPLACE Arg1:T7 Arg2:T28	
+R27	HEADQUARTERED_IN Arg1:T32 Arg2:T30	
+R28	RELIGION_OF Arg1:T32 Arg2:T31	
+R29	HAS_CAUSE Arg1:T37 Arg2:T26	
+N3	Reference T5 Wikidata:Q185992	муфтий
+N4	Reference T6 Wikidata:Q2624248	Министерство здравоохранения Российской Федерации
+N7	Reference T9 Wikidata:Q629733	РосБизнесКонсалтинг
+N10	Reference T15 Wikidata:Q217029	кади
+N11	Reference T24 Wikidata:Q47740	мусульманин
+N12	Reference T29 Wikidata:Q842386	председатель Правительства Российской Федерации
+N13	Reference T30 Wikidata:Q5219	Ингушетия
+N1	Reference T1 Wikidata:NULL	
+N2	Reference T4 Wikidata:Q90153083	
+N15	Reference T39 Wikidata:NULL	нет данных
+N5	Reference T7 Wikidata:NULL	нет данных
+N6	Reference T8 Wikidata:NULL	нет данных
+N8	Reference T10 Wikidata:Q90153083	
+N9	Reference T12 Wikidata:NULL	нет данных
+N14	Reference T32 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:Q185992	муфтий
+N17	Reference T16 Wikidata:Q217029	кади
+N18	Reference T31 Wikidata:Q47740	мусульманин
+N19	Reference T22 Wikidata:Q5219	Ингушетия
+N20	Reference T18 Wikidata:Q5219	Ингушетия
+N21	Reference T23 Wikidata:Q5219	Ингушетия
+N22	Reference T28 Wikidata:Q5219	Ингушетия
+N23	Reference T2 Wikidata:Q90153083	
+N24	Reference T3 Wikidata:NULL	нет данных
+N25	Reference T25 Wikidata:NULL	нет данных

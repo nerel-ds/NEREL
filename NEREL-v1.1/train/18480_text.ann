@@ -1,0 +1,190 @@
+T1	WORK_OF_ART 1 7	Артист
+T2	AWARD 18 23	Оскар
+T3	DATE 42 51	2011 года
+T4	EVENT 55 73	церемонии вручения
+T5	AWARD 82 87	Оскар
+T6	ORGANIZATION 89 114	Американской киноакадемии
+T7	DATE 130 139	2011 года
+T8	WORK_OF_ART 178 184	Артист
+T9	PERSON 233 250	Джорджа Валентина
+T10	NATIONALITY 272 279	француз
+T11	PERSON 280 298	Мишель Хазанавичус
+T12	PERSON 331 343	Жан Дюжарден
+T13	WORK_OF_ART 360 367	Артисте
+T14	PERSON 429 440	Мерил Стрип
+T15	WORK_OF_ART 512 525	Железная леди
+T16	WORK_OF_ART 528 537	Iron Lady
+T19	PERSON 596 611	Маргарет Тэтчер
+T20	AGE 614 623	82-летний
+T21	PERSON 624 641	Кристофер Пламмер
+T22	ORDINAL 723 730	второго
+T23	WORK_OF_ART 747 757	Начинающие
+T24	WORK_OF_ART 760 769	Beginners
+T25	PROFESSION 869 876	актрисе
+T26	PERSON 877 892	Октавии Спенсер
+T27	WORK_OF_ART 1000 1008	Прислуга
+T28	WORK_OF_ART 1011 1019	The Help
+T29	NUMBER 1039 1043	двух
+T30	LOCATION 1192 1199	Юге США
+T31	WORK_OF_ART 1243 1260	Хранитель времени
+T32	WORK_OF_ART 1263 1267	Hugo
+T33	COUNTRY 1311 1323	французского
+T34	PERSON 1338 1351	Жоржу Мельесу
+T35	NUMBER 1360 1364	пять
+T36	PROFESSION 1443 1455	постановщика
+T37	COUNTRY 1528 1536	иранская
+T38	WORK_OF_ART 1546 1567	Развод Надера и Симин
+T39	PERSON 1579 1593	Асгара Фархади
+T40	DATE 1709 1720	в этом году
+T41	EVENT 1726 1745	церемонией вручения
+T42	NUMBER 1766 1781	сотни миллионов
+T44	PROFESSION 317 327	режиссером
+T45	AWARD 392 398	Оскара
+T46	AWARD 413 425	Лучший актер
+T47	AWARD 471 485	Лучшая актриса
+T17	PROFESSION 564 595	премьер-министра Великобритании
+T49	PROFESSION 564 580	премьер-министра
+T51	COUNTRY 581 595	Великобритании
+T52	PROFESSION 657 664	актером
+T53	AWARD 679 685	Оскара
+T54	PROFESSION 968 975	актриса
+T55	ORDINAL 976 983	второго
+T56	PROFESSION 1044 1050	актрис
+T57	PROFESSION 1149 1158	горничных
+T58	COUNTRY 1196 1199	США
+T59	AWARD 1366 1373	Оскаров
+T60	PROFESSION 1433 1455	художника-постановщика
+T61	PROFESSION 1433 1442	художника
+T62	PROFESSION 1569 1578	режиссера
+T64	AWARD 1747 1754	Оскаров
+T18	AWARD 961 989	лучшая актриса второго плана
+R1	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R2	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R3	WORKPLACE Arg1:T17 Arg2:T51	
+R4	AWARDED_WITH Arg1:T14 Arg2:T47	
+R5	AWARDED_WITH Arg1:T15 Arg2:T47	
+R6	WORKS_AS Arg1:T19 Arg2:T17	
+R7	WORKPLACE Arg1:T19 Arg2:T51	
+R8	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R9	WORKS_AS Arg1:T26 Arg2:T25	
+R10	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R11	WORKS_AS Arg1:T39 Arg2:T62	
+R12	PRODUCES Arg1:T39 Arg2:T38	
+R13	LOCATED_IN Arg1:T30 Arg2:T58	
+R14	AWARDED_WITH Arg1:T1 Arg2:T2	
+R15	POINT_IN_TIME Arg1:T2 Arg2:T3	
+T48	AWARD 115 139	лучшим фильмом 2011 года
+R16	POINT_IN_TIME Arg1:T48 Arg2:T7	
+R17	AWARDED_WITH Arg1:T8 Arg2:T48	
+T50	AWARD 29 51	лучший фильм 2011 года
+R18	AWARDED_WITH Arg1:T1 Arg2:T50	
+R19	POINT_IN_TIME Arg1:T50 Arg2:T3	
+R20	ORGANIZES Arg1:T6 Arg2:T4	
+T65	COUNTRY 89 101	Американской
+R21	HEADQUARTERED_IN Arg1:T6 Arg2:T65	
+R22	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R23	WORKS_AS Arg1:T11 Arg2:T44	
+R24	PRODUCES Arg1:T11 Arg2:T8	
+R25	PRODUCES Arg1:T44 Arg2:T8	
+T66	AWARD 310 327	лучшим режиссером
+R26	AWARDED_WITH Arg1:T11 Arg2:T66	
+R27	POINT_IN_TIME Arg1:T66 Arg2:T7	
+R28	PARTICIPANT_IN Arg1:T12 Arg2:T13	
+T67	PROFESSION 420 425	актер
+R29	AWARDED_WITH Arg1:T12 Arg2:T46	
+R30	AWARDED_WITH Arg1:T12 Arg2:T45	
+R31	WORKS_AS Arg1:T12 Arg2:T67	
+R32	POINT_IN_TIME Arg1:T46 Arg2:T7	
+R33	POINT_IN_TIME Arg1:T45 Arg2:T7	
+R34	AGE_IS Arg1:T21 Arg2:T20	
+T68	AWARD 711 736	лучшую роль второго плана
+R35	AWARDED_WITH Arg1:T21 Arg2:T68	
+R36	WORKS_AS Arg1:T21 Arg2:T52	
+R37	AWARDED_WITH Arg1:T21 Arg2:T53	
+R38	PARTICIPANT_IN Arg1:T21 Arg2:T23	
+R39	AWARDED_WITH Arg1:T23 Arg2:T53	
+R40	AWARDED_WITH Arg1:T26 Arg2:T18	
+R41	PARTICIPANT_IN Arg1:T26 Arg2:T27	
+R42	WORKS_AS Arg1:T26 Arg2:T54	
+R43	AWARDED_WITH Arg1:T32 Arg2:T59	
+T69	AWARD 1391 1417	лучшую операторскую работу
+T70	AWARD 1483 1518	Лучшим фильмом на иностранном языке
+T71	AWARD 1458 1480	лучший звуковой монтаж
+T72	AWARD 1419 1455	лучшую работу художника-постановщика
+R44	AWARDED_WITH Arg1:T31 Arg2:T71	
+R45	AWARDED_WITH Arg1:T31 Arg2:T72	
+R46	AWARDED_WITH Arg1:T31 Arg2:T69	
+R47	AWARDED_WITH Arg1:T39 Arg2:T70	
+R48	AWARDED_WITH Arg1:T38 Arg2:T70	
+R49	ORIGINS_FROM Arg1:T38 Arg2:T37	
+R50	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R51	POINT_IN_TIME Arg1:T47 Arg2:T7	
+R52	POINT_IN_TIME Arg1:T68 Arg2:T7	
+R53	POINT_IN_TIME Arg1:T18 Arg2:T7	
+R54	POINT_IN_TIME Arg1:T23 Arg2:T7	
+R55	POINT_IN_TIME Arg1:T70 Arg2:T7	
+R56	INANIMATE_INVOLVED Arg1:T5 Arg2:T4	
+T73	PERSON 1553 1559	Надера
+T74	PERSON 1562 1567	Симин
+R57	INANIMATE_INVOLVED Arg1:T64 Arg2:T41	
+N1	Reference T6 Wikidata:Q212329	Академия кинематографических искусств и наук
+N3	Reference T10 Wikidata:Q121842	французы
+N4	Reference T11 Wikidata:Q28556	Мишель Хазанавичус
+N5	Reference T12 Wikidata:Q189422	Жан Дюжарден
+N6	Reference T13 Wikidata:Q171861	Артист
+N7	Reference T14 Wikidata:Q873	Мерил Стрип
+N9	Reference T19 Wikidata:Q7416	Маргарет Тэтчер
+N10	Reference T21 Wikidata:Q190523	Кристофер Пламмер
+N12	Reference T26 Wikidata:Q229254	Октавия Спенсер
+N13	Reference T27 Wikidata:Q204374	Прислуга
+N14	Reference T30 Wikidata:Q49042	Юг США
+N15	Reference T31 Wikidata:Q206576	Хранитель времени
+N17	Reference T34 Wikidata:Q152272	Жорж Мельес
+N18	Reference T36 Wikidata:Q2526255	кинорежиссёр
+N19	Reference T38 Wikidata:Q640561	Развод Надера и Симин
+N20	Reference T39 Wikidata:Q334242	Асгар Фархади
+N23	Reference T17 Wikidata:Q14211	премьер-министр Великобритании
+N24	Reference T49 Wikidata:Q14212	премьер-министр
+N25	Reference T51 Wikidata:Q145	Великобритания
+N26	Reference T56 Wikidata:Q33999	актёр
+N27	Reference T57 Wikidata:Q833860	горничная
+N28	Reference T58 Wikidata:Q30	США
+N29	Reference T59 Wikidata:Q19020	Оскар
+N30	Reference T60 Wikidata:Q2962070	художник-постановщик
+N31	Reference T61 Wikidata:Q1028181	художник
+N32	Reference T62 Wikidata:Q3455803	режиссёр
+N37	Reference T67 Wikidata:Q33999	актёр
+N38	Reference T68 Wikidata:Q106291	Премия «Оскар» за лучшую мужскую роль второго плана
+N39	Reference T69 Wikidata:Q131520	премия «Оскар» за лучшую операторскую работу
+N40	Reference T70 Wikidata:Q105304	премия «Оскар» за лучший фильм на иностранном языке
+N41	Reference T71 Wikidata:Q488645	премия «Оскар» за лучший звуковой монтаж
+N42	Reference T72 Wikidata:Q277751	премия «Оскар» за лучшую работу художника-постановщика
+N35	Reference T65 Wikidata:Q30	США
+N34	Reference T48 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:NULL	нет данных
+N36	Reference T66 Wikidata:Q103360	премия «Оскар» за лучшую режиссёрскую работу
+N21	Reference T46 Wikidata:Q103916	премия «Оскар» за лучшую мужскую роль
+N22	Reference T47 Wikidata:Q103618	премия «Оскар» за лучшую женскую роль
+N8	Reference T15 Wikidata:Q269810	Железная леди
+N11	Reference T24 Wikidata:Q814343	
+N33	Reference T18 Wikidata:Q106301	
+N16	Reference T33 Wikidata:Q142	Франция
+N44	Reference T37 Wikidata:Q794	Иран
+N45	Reference T73 Wikidata:NULL	нет данных
+N43	Reference T74 Wikidata:NULL	нет данных
+N46	Reference T8 Wikidata:Q171861	Артист
+N47	Reference T1 Wikidata:Q171861	Артист
+N48	Reference T28 Wikidata:Q204374	Прислуга
+N49	Reference T32 Wikidata:Q206576	Хранитель времени
+N50	Reference T54 Wikidata:Q33999	актёр
+N51	Reference T25 Wikidata:Q33999	актёр
+N52	Reference T5 Wikidata:Q19020	Оскар
+N53	Reference T53 Wikidata:Q19020	Оскар
+N54	Reference T64 Wikidata:Q19020	Оскар
+N55	Reference T2 Wikidata:Q19020	Оскар
+N56	Reference T45 Wikidata:Q19020	Оскар
+N57	Reference T44 Wikidata:Q3455803	режиссёр
+N58	Reference T52 Wikidata:Q33999	актёр
+N59	Reference T50 Wikidata:NULL	нет данных
+N60	Reference T16 Wikidata:Q269810	Железная леди
+N61	Reference T23 Wikidata:Q814343	

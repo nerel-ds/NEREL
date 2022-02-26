@@ -1,0 +1,106 @@
+T1	PERSON 0 9	Лукашенко
+T2	COUNTRY 65 75	российской
+T3	CITY 83 88	Минск
+T4	CITY 91 97	Москва
+T5	ORGANIZATION 139 143	ОДКБ
+T6	ORGANIZATION 240 244	ОДКБ
+T7	PERSON 373 393	Александра Лукашенко
+T8	ORGANIZATION 428 432	КСОР
+T9	ORGANIZATION 529 533	ОДКБ
+T10	ORGANIZATION 589 593	ОДКБ
+T11	ORGANIZATION 725 728	РБК
+T12	COUNTRY 729 741	белорусского
+T14	PROFESSION 786 797	президентом
+T15	COUNTRY 798 804	России
+T16	PERSON 805 824	Дмитрием Медведевым
+T17	CITY 827 831	Сочи
+T18	ORGANIZATION 915 919	ОДКБ
+T19	ORGANIZATION 949 971	Совета глав государств
+T20	ORGANIZATION 972 976	ОДКБ
+T21	LAW 1000 1036	Договора о коллективной безопасности
+T23	ORGANIZATION 1089 1092	СНГ
+T24	LAW 1103 1139	Договора о коллективной безопасности
+T25	LAW 1141 1144	ДКБ
+T26	DATE 1160 1176	15 мая 1992 года
+T27	ORGANIZATION 1187 1191	ОДКБ
+T28	COUNTRY 1199 1205	Россия
+T29	COUNTRY 1207 1214	Армения
+T30	COUNTRY 1216 1226	Белоруссия
+T31	COUNTRY 1228 1237	Казахстан
+T32	COUNTRY 1239 1247	Киргизия
+T33	COUNTRY 1249 1260	Таджикистан
+T34	COUNTRY 1262 1272	Узбекистан
+T35	ORGANIZATION 65 81	российской армии
+T36	ORGANIZATION 258 300	Коллективных сил оперативного реагирования
+T37	ORGANIZATION 302 306	КСОР
+T13	PROFESSION 786 804	президентом России
+T22	ORGANIZATION 988 1036	Организация Договора о коллективной безопасности
+T38	ORGANIZATION 949 976	Совета глав государств ОДКБ
+T39	EVENT 1147 1159	подписанного
+R1	HEADQUARTERED_IN Arg1:T35 Arg2:T2	
+R2	LOCATED_IN Arg1:T4 Arg2:T2	
+R3	ABBREVIATION Arg1:T36 Arg2:T37	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R5	LOCATED_IN Arg1:T3 Arg2:T12	
+T40	EVENT 776 783	встречи
+R6	WORKPLACE Arg1:T13 Arg2:T15	
+R7	WORKPLACE Arg1:T16 Arg2:T15	
+R8	WORKS_AS Arg1:T16 Arg2:T13	
+R9	AGENT Arg1:T16 Arg2:T40	
+R10	TAKES_PLACE_IN Arg1:T40 Arg2:T17	
+R11	ABBREVIATION Arg1:T22 Arg2:T18	
+R12	ABBREVIATION Arg1:T24 Arg2:T25	
+R13	POINT_IN_TIME Arg1:T39 Arg2:T26	
+R14	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R15	ALTERNATIVE_NAME Arg1:T2 Arg2:T15	
+R16	PART_OF Arg1:T38 Arg2:T20	
+T41	PROFESSION 729 748	белорусского лидера
+R17	WORKS_AS Arg1:T7 Arg2:T41	
+R18	AGENT Arg1:T7 Arg2:T40	
+R19	INANIMATE_INVOLVED Arg1:T24 Arg2:T39	
+R20	DATE_OF_CREATION Arg1:T24 Arg2:T26	
+R21	MEMBER_OF Arg1:T28 Arg2:T27	
+R22	MEMBER_OF Arg1:T29 Arg2:T27	
+R23	MEMBER_OF Arg1:T30 Arg2:T27	
+R24	MEMBER_OF Arg1:T31 Arg2:T27	
+R25	MEMBER_OF Arg1:T32 Arg2:T27	
+R26	MEMBER_OF Arg1:T33 Arg2:T27	
+R27	MEMBER_OF Arg1:T34 Arg2:T27	
+N1	Reference T3 Wikidata:Q2280	Минск
+N2	Reference T4 Wikidata:Q649	Москва
+N3	Reference T7 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N4	Reference T10 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N5	Reference T11 Wikidata:Q629733	РосБизнесКонсалтинг
+N6	Reference T14 Wikidata:Q30461	президент
+N7	Reference T15 Wikidata:Q159	Россия
+N8	Reference T16 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N9	Reference T17 Wikidata:Q39420	Сочи
+N10	Reference T19 Wikidata:Q37143	Большая восьмёрка
+N11	Reference T23 Wikidata:Q7779	Содружество Независимых Государств
+N12	Reference T24 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N13	Reference T29 Wikidata:Q399	Армения
+N14	Reference T30 Wikidata:Q184	Белоруссия
+N15	Reference T31 Wikidata:Q232	Казахстан
+N16	Reference T32 Wikidata:Q813	Киргизия
+N17	Reference T33 Wikidata:Q863	Таджикистан
+N18	Reference T34 Wikidata:Q265	Узбекистан
+N19	Reference T35 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N20	Reference T13 Wikidata:Q218295	президент Российской Федерации
+N23	Reference T37 Wikidata:Q3919910	
+N22	Reference T41 Wikidata:Q1049659	президент Республики Беларусь
+N21	Reference T38 Wikidata:NULL	нет данных
+N24	Reference T1 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N25	Reference T22 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N26	Reference T5 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N27	Reference T20 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N28	Reference T9 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N29	Reference T18 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N30	Reference T6 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N31	Reference T27 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N32	Reference T28 Wikidata:Q159	Россия
+N33	Reference T2 Wikidata:Q159	Россия
+N34	Reference T25 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N35	Reference T21 Wikidata:Q318693	Организация Договора о коллективной безопасности
+N36	Reference T12 Wikidata:Q184	Белоруссия
+N37	Reference T36 Wikidata:Q3919910	
+N38	Reference T8 Wikidata:Q3919910	

@@ -1,0 +1,103 @@
+T1	PERSON 0 5	Путин
+T2	PERSON 55 69	Владимир Путин
+T3	PROFESSION 70 79	Президент
+T4	COUNTRY 80 86	России
+T5	PERSON 87 101	Владимир Путин
+T6	DATE 159 187	в среду, 3 октября 2018 года
+T12	COUNTRY 387 407	Российской Федерации
+T15	DATE 449 460	с 2019 года
+T16	COUNTRY 463 469	России
+T17	AGE 568 577	до 60 лет
+T18	AGE 592 601	до 65 лет
+T19	AGE 637 645	в 55 лет
+T20	AGE 659 663	в 60
+T21	AGE 877 892	не позже 45 лет
+T22	DATE 901 908	сегодня
+T23	ORGANIZATION 947 962	Совет Федерации
+T24	NUMBER 990 993	149
+T25	PROFESSION 994 1003	сенаторов
+T26	NUMBER 1005 1011	пятеро
+T27	NUMBER 1030 1034	трое
+T28	ORGANIZATION 1050 1057	Госдума
+T29	DATE 1105 1116	27 сентября
+T30	ORGANIZATION 1166 1179	Единой России
+T31	ORGANIZATION 1269 1282	Правительство
+T32	PERSON 1283 1292	Медведева
+T33	ORGANIZATION 1302 1311	парламент
+T34	DATE 1356 1362	в июне
+T35	NATIONALITY 1533 1540	россиян
+T36	PROFESSION 70 86	Президент России
+T7	LAW 312 448	Федеральному закону «О внесении изменений в отдельные законодательные акты Российской Федерации по вопросам назначения и выплаты пенсий»
+T8	EVENT 479 519	поэтапное повышение пенсионного возраста
+T9	LAW 15 53	закон о повышении пенсионного возраста
+T10	LAW 111 149	закон о повышении пенсионного возраста
+T14	EVENT 533 567	возраст выхода на пенсию повысится
+T37	LAW 912 938	закон о пенсионной реформе
+T38	EVENT 939 946	одобрил
+T41	LAW 1066 1104	закон о повышении пенсионного возраста
+T42	ORGANIZATION 1219 1229	парламенте
+T13	EVENT 6 20	подписал закон
+R1	AGENT Arg1:T1 Arg2:T13	
+R2	PRODUCES Arg1:T1 Arg2:T9	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R4	WORKPLACE Arg1:T36 Arg2:T4	
+R5	WORKPLACE Arg1:T5 Arg2:T4	
+R6	WORKS_AS Arg1:T5 Arg2:T36	
+T11	EVENT 102 116	подписал закон
+R7	AGENT Arg1:T5 Arg2:T11	
+R8	PRODUCES Arg1:T5 Arg2:T10	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T7	
+R10	START_TIME Arg1:T8 Arg2:T15	
+R11	TAKES_PLACE_IN Arg1:T8 Arg2:T16	
+R12	ALTERNATIVE_NAME Arg1:T12 Arg2:T16	
+R13	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+R14	START_TIME Arg1:T14 Arg2:T15	
+R15	TAKES_PLACE_IN Arg1:T14 Arg2:T16	
+T44	PROFESSION 847 858	полицейские
+R16	POINT_IN_TIME Arg1:T38 Arg2:T22	
+R17	AGENT Arg1:T23 Arg2:T38	
+R18	PRODUCES Arg1:T23 Arg2:T37	
+T40	EVENT 1058 1104	приняла закон о повышении пенсионного возраста
+R22	POINT_IN_TIME Arg1:T40 Arg2:T29	
+R23	AGENT Arg1:T28 Arg2:T40	
+R24	PRODUCES Arg1:T28 Arg2:T41	
+T47	ORGANIZATION 1269 1292	Правительство Медведева
+T48	LAW 1312 1355	законопроект о повышении пенсионный возраст
+R26	ALTERNATIVE_NAME Arg1:T41 Arg2:T48	
+R27	INANIMATE_INVOLVED Arg1:T9 Arg2:T13	
+R28	INANIMATE_INVOLVED Arg1:T10 Arg2:T11	
+R29	ORIGINS_FROM Arg1:T7 Arg2:T12	
+R30	HAS_CAUSE Arg1:T8 Arg2:T7	
+R31	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R32	ALTERNATIVE_NAME Arg1:T7 Arg2:T37	
+R19	FOUNDED_BY Arg1:T47 Arg2:T32	
+T39	EVENT 1293 1311	внесло в парламент
+R20	AGENT Arg1:T47 Arg2:T39	
+R21	INANIMATE_INVOLVED Arg1:T48 Arg2:T39	
+R25	POINT_IN_TIME Arg1:T39 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T28 Arg2:T33	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T12 Wikidata:Q159	Россия
+N4	Reference T23 Wikidata:Q186473	Совет Федерации
+N6	Reference T30 Wikidata:Q151469	Единая Россия
+N7	Reference T31 Wikidata:Q7188	правительство
+N8	Reference T32 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N9	Reference T33 Wikidata:Q35749	парламент
+N10	Reference T35 Wikidata:Q492468	россияне
+N11	Reference T36 Wikidata:Q218295	президент Российской Федерации
+N14	Reference T47 Wikidata:Q2348089	Правительство Медведева
+N13	Reference T44 Wikidata:Q384593	
+N12	Reference T37 Wikidata:Q55657971	
+N5	Reference T25 Wikidata:Q15686806	
+N15	Reference T48 Wikidata:Q55657971	
+N16	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T4 Wikidata:Q159	Россия
+N19	Reference T16 Wikidata:Q159	Россия
+N20	Reference T28 Wikidata:Q35749	парламент
+N21	Reference T42 Wikidata:Q35749	парламент
+N22	Reference T7 Wikidata:Q55657971	
+N23	Reference T10 Wikidata:Q55657971	
+N24	Reference T41 Wikidata:Q55657971	
+N25	Reference T9 Wikidata:Q55657971	

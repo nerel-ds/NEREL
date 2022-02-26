@@ -1,0 +1,140 @@
+T1	PERSON 0 9	Порошенко
+T2	COUNTRY 38 44	России
+T3	PERSON 46 60	Пётр Порошенко
+T4	PROFESSION 61 70	Президент
+T5	COUNTRY 71 78	Украины
+T6	PERSON 79 93	Пётр Порошенко
+T7	COUNTRY 159 165	России
+T16	ORGANIZATION 248 262	Верховной Рады
+T17	ORGANIZATION 276 287	парламентом
+T18	DATE 288 297	12 апреля
+T19	DATE 316 325	29 апреля
+T20	DATE 367 383	1 июля 2016 года
+T21	LAW 410 518	Об особенностях осуществления сделок с государственным, гарантированным государством долгом и местным долгом
+T22	MONEY 577 597	3 млрд долларов США,
+T23	COUNTRY 593 596	США
+T24	COUNTRY 606 612	Россия
+T25	COUNTRY 620 627	Украине
+T26	PROFESSION 637 650	президентства
+T27	PERSON 651 668	Виктора Януковича
+T28	DATE 669 688	в декабре 2013 года
+T29	COUNTRY 708 716	Украиной
+T30	MONEY 765 785	500 млн долларов США
+T31	COUNTRY 799 806	Россией
+T32	MONEY 807 815	в 3 млрд
+T33	MONEY 818 824	75 млн
+T35	DATE 884 907	до 31 декабря 2015 года
+T36	PERSON 924 933	Януковича
+T37	COUNTRY 951 958	Украине
+T38	CITY 959 965	Москва
+T40	COUNTRY 1022 1029	Украина
+T41	DATE 1154 1173	в декабре 2015 года
+T42	COUNTRY 1218 1225	Украина
+T43	COUNTRY 1355 1361	России
+T44	ORGANIZATION 1467 1479	Высоком суде
+T45	CITY 1480 1487	Лондона
+T46	DATE 1506 1526	26 февраля 2016 года
+T47	COUNTRY 1529 1539	российском
+T48	ORGANIZATION 1540 1547	Минфине
+T49	COUNTRY 1581 1589	Украиной
+T50	DATE 1640 1656	сегодняшний день
+R7	WORKS_AS Arg1:T27 Arg2:T26
+R8	HEADQUARTERED_IN Arg1:T44 Arg2:T45
+T51	PROFESSION 61 78	Президент Украины
+R1	WORKS_AS Arg1:T6 Arg2:T51	
+T8	COUNTRY 782 785	США
+T9	CITY 968 972	Киев
+T10	ORGANIZATION 1467 1487	Высоком суде Лондона
+T11	ORGANIZATION 1529 1547	российском Минфине
+T13	LAW 103 165	закон о введении бессрочного моратория на выплату долга России
+R2	WORKPLACE Arg1:T6 Arg2:T5	
+R4	WORKPLACE Arg1:T27 Arg2:T25	
+R5	LOCATED_IN Arg1:T9 Arg2:T37	
+T14	ORGANIZATION 1136 1153	кабинет министров
+R6	HEADQUARTERED_IN Arg1:T14 Arg2:T40	
+R9	HEADQUARTERED_IN Arg1:T48 Arg2:T47	
+T15	EVENT 94 102	подписал
+R10	AGENT Arg1:T6 Arg2:T15	
+R3	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R11	POINT_IN_TIME Arg1:T15 Arg2:T19	
+T34	EVENT 534 541	кредите
+R12	AGENT Arg1:T24 Arg2:T34	
+R13	PARTICIPANT_IN Arg1:T25 Arg2:T34	
+R14	POINT_IN_TIME Arg1:T34 Arg2:T28	
+T39	EVENT 916 923	бегства
+R15	AGENT Arg1:T36 Arg2:T39	
+T52	EVENT 936 948	смены власти
+R16	TAKES_PLACE_IN Arg1:T52 Arg2:T37	
+R20	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R21	WORKPLACE Arg1:T51 Arg2:T5	
+T12	EVENT 265 275	Одобренный
+T54	EVENT 300 311	подписанный
+R22	AGENT Arg1:T17 Arg2:T12	
+R23	POINT_IN_TIME Arg1:T12 Arg2:T18	
+R24	POINT_IN_TIME Arg1:T54 Arg2:T19	
+R25	DATE_OF_CREATION Arg1:T13 Arg2:T19	
+T55	EVENT 355 364	моратория
+R26	END_TIME Arg1:T55 Arg2:T20	
+T56	EVENT 132 141	моратория
+R27	PARTICIPANT_IN Arg1:T7 Arg2:T56	
+T57	EVENT 549 567	покупки евробондов
+R29	SUBEVENT_OF Arg1:T57 Arg2:T34	
+R28	PRICE_OF Arg1:T57 Arg2:T22	
+T53	EVENT 1179 1188	мораторий
+R17	POINT_IN_TIME Arg1:T53 Arg2:T41	
+R18	PARTICIPANT_IN Arg1:T14 Arg2:T53	
+T58	EVENT 998 1020	реструктуризации долга
+R19	PARTICIPANT_IN Arg1:T38 Arg2:T58	
+R30	PARTICIPANT_IN Arg1:T9 Arg2:T58	
+T60	DATE 1458 1464	сейчас
+R33	ALTERNATIVE_NAME Arg1:T27 Arg2:T36	
+R34	ALTERNATIVE_NAME Arg1:T43 Arg2:T47	
+T61	EVENT 1599 1621	реструктуризации долга
+R35	PARTICIPANT_IN Arg1:T49 Arg2:T61	
+R36	PARTICIPANT_IN Arg1:T11 Arg2:T61	
+T59	EVENT 1408 1421	Долговой спор
+R31	POINT_IN_TIME Arg1:T59 Arg2:T60	
+R32	TAKES_PLACE_IN Arg1:T59 Arg2:T10	
+T62	EVENT 1715 1726	переговорах
+R37	ALTERNATIVE_NAME Arg1:T59 Arg2:T62	
+R38	INANIMATE_INVOLVED Arg1:T13 Arg2:T15	
+R39	INANIMATE_INVOLVED Arg1:T13 Arg2:T12	
+R40	INANIMATE_INVOLVED Arg1:T13 Arg2:T54	
+R41	PARTICIPANT_IN Arg1:T36 Arg2:T52	
+R42	AGENT Arg1:T43 Arg2:T59	
+R43	AGENT Arg1:T42 Arg2:T59	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N3	Reference T16 Wikidata:Q176296	Верховная Рада Украины
+N5	Reference T23 Wikidata:Q30	США
+N6	Reference T27 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N7	Reference T29 Wikidata:Q212	Украина
+N8	Reference T38 Wikidata:Q649	Москва
+N10	Reference T45 Wikidata:Q84	Лондон
+N13	Reference T51 Wikidata:Q579677	президент Украины
+N14	Reference T9 Wikidata:Q1899	Киев
+N15	Reference T10 Wikidata:Q1617747	Высокий суд Лондона
+N18	Reference T14 Wikidata:Q640506	кабинет министров
+N19	Reference T26 Wikidata:NULL	нет данных
+N9	Reference T44 Wikidata:Q2577005	
+N11	Reference T47 Wikidata:Q159	Россия
+N12	Reference T48 Wikidata:Q15711797	
+N16	Reference T11 Wikidata:Q1958033	Министерство финансов Российской Федерации
+N17	Reference T13 Wikidata:NULL	нет данных
+N4	Reference T21 Wikidata:NULL	нет данных
+N20	Reference T1 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N21	Reference T3 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N22	Reference T17 Wikidata:Q176296	Верховная Рада Украины
+N23	Reference T8 Wikidata:Q30	США
+N24	Reference T36 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N25	Reference T40 Wikidata:Q212	Украина
+N26	Reference T5 Wikidata:Q212	Украина
+N27	Reference T25 Wikidata:Q212	Украина
+N28	Reference T49 Wikidata:Q212	Украина
+N29	Reference T42 Wikidata:Q212	Украина
+N30	Reference T37 Wikidata:Q212	Украина
+N31	Reference T31 Wikidata:Q159	Россия
+N32	Reference T24 Wikidata:Q159	Россия
+N33	Reference T7 Wikidata:Q159	Россия
+N34	Reference T43 Wikidata:Q159	Россия
+N35	Reference T2 Wikidata:Q159	Россия

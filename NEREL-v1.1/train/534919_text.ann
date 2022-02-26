@@ -1,0 +1,293 @@
+T1	ORDINAL 0 6	Первый
+T2	PERSON 59 87	Роберт Генри Лоуренс-младший
+T3	ORGANIZATION 97 113	Northrop Grumman
+T4	PRODUCT 155 167	Cygnus NG-13
+T5	PERSON 176 192	Роберта Лоуренса
+T6	PERSON 194 209	Robert Lawrence
+T8	COUNTRY 233 236	США
+T9	ORDINAL 238 245	первого
+T11	DATE 385 404	9 февраля 2020 года
+T12	FACILITY 407 440	Международной космической станции
+T13	ORGANIZATION 443 459	Northrop Grumman
+T14	PERSON 488 516	Роберт Генри Лоуренс-младший
+T15	PERSON 518 542	Robert Henry Lawrence Jr
+T16	DATE 553 572	2 октября 1935 года
+T17	CITY 575 581	Чикаго
+T18	STATE_OR_PROVINCE 584 592	Иллинойс
+T19	COUNTRY 594 597	США
+T20	DATE 600 611	В 1952 году
+T21	CITY 635 643	Энглвуда
+T22	AGE 663 670	22 года
+T24	PERSON 682 695	Барбаре Кресс
+T25	AGE 701 703	25
+T26	ORGANIZATION 706 709	ВВС
+T27	PERSON 728 744	Роберта Лоуренса
+T29	COUNTRY 747 779	Федеративную республику Германию
+T30	PROFESSION 791 809	пилота-инструктора
+T31	PRODUCT 819 832	Lockheed T-33
+T32	DATE 835 846	В 1965 году
+T34	ORGANIZATION 907 930	Университет штата Огайо
+T35	DATE 933 949	В июне 1967 года
+T36	ORGANIZATION 962 996	Школу лётчиков-испытателей ВВС США
+T37	ORGANIZATION 989 996	ВВС США
+T38	ORGANIZATION 998 1014	База ВВС Эдвардс
+T39	STATE_OR_PROVINCE 1016 1026	Калифорния
+T40	COUNTRY 1028 1031	США
+T41	DATE 1036 1045	8 декабря
+T42	ORGANIZATION 1084 1087	ВВС
+T43	PRODUCT 1160 1186	Manned Orbiting Laboratory
+T44	ORGANIZATION 1193 1213	Министерства обороны
+T45	PERSON 1235 1249	Роберт Лоуренс
+T46	PROFESSION 1262 1282	лётчиком-испытателем
+T47	TIME 1298 1308	2500 часов
+T48	ORGANIZATION 1310 1314	НАСА
+T49	PROFESSION 1338 1356	лётчика-испытателя
+T50	PRODUCT 1392 1418	Lockheed F-104 Starfighter
+T51	PRODUCT 1456 1460	X-15
+T52	ORDINAL 1463 1469	Первый
+T53	DATE 1510 1529	8 декабря 1967 года
+T54	AGE 1541 1547	32 лет
+T55	DATE 1549 1560	В этот день
+T56	PERSON 1561 1568	Лоуренс
+T57	PROFESSION 1585 1603	пилота-инструктора
+T58	PRODUCT 1613 1618	F-104
+T59	PROFESSION 1675 1680	майор
+T60	PERSON 1681 1692	Харви Ройер
+T61	PERSON 1694 1706	Harvey Royer
+T62	PROFESSION 1819 1824	Майор
+T63	PERSON 1825 1830	Ройер
+T64	PERSON 1877 1891	Роберт Лоуренс
+T65	ORDINAL 1938 1944	вторым
+T66	ORDINAL 2046 2049	7-ю
+T68	PRODUCT 2097 2109	Спейс шаттле
+T69	DATE 2112 2131	8 декабря 1997 года
+T70	PERSON 2136 2167	Роберта Генри Лоуренса-младшего
+T71	FACILITY 2204 2223	Космическое зеркало
+T72	ORGANIZATION 2243 2252	Конгресса
+T73	LAW 2350 2365	резолюция № 214
+T75	DATE 2367 2375	1991 год
+T76	PERSON 2414 2428	Роберт Лоуренс
+T77	ORGANIZATION 2447 2450	ВВС
+T78	ORGANIZATION 2476 2480	НАСА
+T79	PERSON 2525 2556	Роберта Генри Лоуренса младшего
+T80	NATIONALITY 7 21	афроамериканец
+T81	PROFESSION 22 31	астронавт
+T82	PROFESSION 222 232	астронавта
+T7	PROFESSION 213 232	военного астронавта
+T83	PROFESSION 213 221	военного
+T84	NATIONALITY 246 260	афроамериканца
+T85	EVENT 319 325	гибели
+T10	PRODUCT 346 369	S.S. Robert H. Lawrence
+T86	EVENT 377 384	запущен
+T88	COUNTRY 710 713	США
+T89	ORGANIZATION 706 713	ВВС США
+T28	COUNTRY 771 779	Германию
+T90	PROFESSION 791 832	пилота-инструктора самолёта Lockheed T-33
+T91	PERSON 847 854	Лоуренс
+T33	ORGANIZATION 989 992	ВВС
+T92	PROFESSION 1064 1083	военных астронавтов
+T93	PROFESSION 1064 1071	военных
+T94	PROFESSION 1072 1083	астронавтов
+T95	COUNTRY 1088 1091	США
+T96	COUNTRY 993 996	США
+T97	ORGANIZATION 1084 1091	ВВС США
+T98	PRODUCT 1121 1157	Пилотируемая орбитальная лаборатория
+T99	PRODUCT 1188 1191	MOL
+T100	ORGANIZATION 1193 1217	Министерства обороны США
+T101	COUNTRY 1214 1217	США
+T102	PROFESSION 1262 1270	лётчиком
+T103	PROFESSION 1271 1282	испытателем
+T104	PROFESSION 1338 1345	лётчика
+T105	PROFESSION 1346 1356	испытателя
+T106	PROFESSION 791 797	пилота
+T107	PROFESSION 798 809	инструктора
+T108	NATIONALITY 1470 1482	американский
+T109	PROFESSION 1494 1503	астронавт
+T110	EVENT 1504 1509	погиб
+T111	PROFESSION 1585 1591	пилота
+T112	PROFESSION 1592 1603	инструктора
+T113	EVENT 1760 1790	столкновение самолёта с землёй
+T114	EVENT 1892 1897	погиб
+T115	EVENT 2008 2018	катастрофа
+T116	PROFESSION 2057 2068	астронавтов
+T117	ORGANIZATION 2069 2073	НАСА
+T67	COUNTRY 2253 2256	США
+T118	ORGANIZATION 2243 2256	Конгресса США
+T119	PROFESSION 2289 2300	астронавтам
+T74	ORDINAL 2453 2456	7 я
+T120	PROFESSION 2464 2475	астронавтов
+T121	FACILITY 2490 2509	Космическое зеркало
+R1	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R2	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R3	LOCATED_IN Arg1:T17 Arg2:T18	
+R4	LOCATED_IN Arg1:T18 Arg2:T19	
+R5	PLACE_OF_BIRTH Arg1:T14 Arg2:T17	
+R6	DATE_OF_BIRTH Arg1:T14 Arg2:T16	
+R7	SPOUSE Arg1:T14 Arg2:T24	
+R8	WORKS_AS Arg1:T63 Arg2:T62	
+R9	ALTERNATIVE_NAME Arg1:T60 Arg2:T61	
+R10	WORKS_AS Arg1:T60 Arg2:T59	
+R11	WORKS_AS Arg1:T56 Arg2:T57	
+R12	DATE_OF_CREATION Arg1:T73 Arg2:T75	
+T23	STATE_OR_PROVINCE 925 930	Огайо
+R13	SCHOOLS_ATTENDED Arg1:T91 Arg2:T34	
+R14	ALTERNATIVE_NAME Arg1:T98 Arg2:T43	
+R15	ALTERNATIVE_NAME Arg1:T98 Arg2:T99	
+R16	ALTERNATIVE_NAME Arg1:T43 Arg2:T99	
+R17	WORKS_AS Arg1:T5 Arg2:T7	
+R18	ORIGINS_FROM Arg1:T5 Arg2:T84	
+R19	PRODUCES Arg1:T3 Arg2:T4	
+R20	POINT_IN_TIME Arg1:T86 Arg2:T11	
+R21	WORKPLACE Arg1:T27 Arg2:T89	
+R22	WORKS_AS Arg1:T27 Arg2:T90	
+R23	SCHOOLS_ATTENDED Arg1:T91 Arg2:T36	
+T87	PROFESSION 968 988	лётчиков-испытателей
+R25	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+R26	LOCATED_IN Arg1:T39 Arg2:T40	
+R27	WORKS_AS Arg1:T91 Arg2:T92	
+R28	WORKPLACE Arg1:T91 Arg2:T97	
+R29	WORKS_AS Arg1:T45 Arg2:T46	
+R30	POINT_IN_TIME Arg1:T110 Arg2:T53	
+R31	PARTICIPANT_IN Arg1:T109 Arg2:T110	
+R32	ORIGINS_FROM Arg1:T109 Arg2:T108	
+R33	AGE_DIED_AT Arg1:T109 Arg2:T54	
+R34	DATE_OF_DEATH Arg1:T45 Arg2:T53	
+R35	AGE_DIED_AT Arg1:T45 Arg2:T54	
+R36	WORKPLACE Arg1:T76 Arg2:T77	
+R37	PARTICIPANT_IN Arg1:T64 Arg2:T114	
+R38	ORIGINS_FROM Arg1:T81 Arg2:T80	
+R39	ORIGINS_FROM Arg1:T6 Arg2:T8	
+R40	ORIGINS_FROM Arg1:T7 Arg2:T8	
+R41	PARTICIPANT_IN Arg1:T5 Arg2:T85	
+R42	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R43	ALTERNATIVE_NAME Arg1:T5 Arg2:T14	
+T122	ORGANIZATION 621 643	среднюю школу Энглвуда
+R44	SCHOOLS_ATTENDED Arg1:T14 Arg2:T122	
+R45	HEADQUARTERED_IN Arg1:T89 Arg2:T88	
+R46	ALTERNATIVE_NAME Arg1:T29 Arg2:T28	
+R47	ALTERNATIVE_NAME Arg1:T27 Arg2:T91	
+R48	HEADQUARTERED_IN Arg1:T34 Arg2:T23	
+R49	HEADQUARTERED_IN Arg1:T100 Arg2:T101	
+R50	PRODUCES Arg1:T100 Arg2:T98	
+R51	ALTERNATIVE_NAME Arg1:T91 Arg2:T45	
+R52	HEADQUARTERED_IN Arg1:T97 Arg2:T95	
+R53	WORKS_AS Arg1:T45 Arg2:T109	
+R54	PARTICIPANT_IN Arg1:T56 Arg2:T113	
+R55	PARTICIPANT_IN Arg1:T60 Arg2:T113	
+R56	ALTERNATIVE_NAME Arg1:T60 Arg2:T63	
+R57	SUBEVENT_OF Arg1:T114 Arg2:T115	
+R58	HEADQUARTERED_IN Arg1:T118 Arg2:T67	
+R59	ALTERNATIVE_NAME Arg1:T70 Arg2:T76	
+T123	FACILITY 2510 2556	Плита с именем Роберта Генри Лоуренса младшего
+R60	ALTERNATIVE_NAME Arg1:T76 Arg2:T79	
+R61	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R62	ORIGINS_FROM Arg1:T7 Arg2:T84	
+T124	ORGANIZATION 1003 1006	ВВС
+R24	OWNER_OF Arg1:T37 Arg2:T38	
+R63	AGE_IS Arg1:T27 Arg2:T25	
+R64	AGE_IS Arg1:T27 Arg2:T22	
+T125	ORDINAL 2362 2365	214
+R65	INANIMATE_INVOLVED Arg1:T10 Arg2:T86	
+R66	INANIMATE_INVOLVED Arg1:T12 Arg2:T86	
+N2	Reference T12 Wikidata:Q25271	Международная космическая станция
+N3	Reference T13 Wikidata:Q329953	Northrop Grumman Corporation
+N4	Reference T17 Wikidata:Q1297	Чикаго
+N5	Reference T18 Wikidata:Q1204	Иллинойс
+N9	Reference T30 Wikidata:Q379318	пилот-инструктор
+N10	Reference T31 Wikidata:Q58725	Lockheed T-33 Shooting Star
+N11	Reference T34 Wikidata:Q309331	Университет штата Огайо
+N12	Reference T37 Wikidata:Q11223	Военно-воздушные силы США
+N13	Reference T38 Wikidata:Q217563	Эдвардс
+N14	Reference T39 Wikidata:Q99	Калифорния
+N15	Reference T42 Wikidata:Q61883	военно-воздушные силы
+N18	Reference T50 Wikidata:Q159881	Локхид F-104 «Старфайтер»
+N19	Reference T51 Wikidata:Q221269	North American X-15
+N20	Reference T58 Wikidata:Q159881	Локхид F-104 «Старфайтер»
+N21	Reference T59 Wikidata:Q983927	майор
+N23	Reference T68 Wikidata:Q48806	спейс-шаттл
+N26	Reference T80 Wikidata:Q49085	афроамериканцы
+N28	Reference T83 Wikidata:Q47064	военнослужащий
+N30	Reference T28 Wikidata:Q183	Германия
+N32	Reference T98 Wikidata:Q948200	Пилотируемая орбитальная лаборатория
+N33	Reference T100 Wikidata:Q11209	Министерство обороны США
+N34	Reference T104 Wikidata:Q2095549	лётчик
+N37	Reference T111 Wikidata:Q2095549	лётчик
+N38	Reference T117 Wikidata:Q23548	НАСА
+N39	Reference T67 Wikidata:Q30	США
+N40	Reference T118 Wikidata:Q11268	Конгресс США
+N41	Reference T120 Wikidata:Q11631	космонавт
+N42	Reference T23 Wikidata:Q1397	Огайо
+N1	Reference T5 Wikidata:Q391517	
+N27	Reference T7 Wikidata:NULL	нет данных
+N29	Reference T10 Wikidata:Q77869031	
+N6	Reference T21 Wikidata:NULL	нет данных
+N43	Reference T122 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:NULL	нет данных
+N8	Reference T27 Wikidata:Q391517	
+N31	Reference T90 Wikidata:NULL	нет данных
+N45	Reference T36 Wikidata:Q3428253	
+N16	Reference T44 Wikidata:Q1788820	
+N17	Reference T46 Wikidata:Q730242	
+N35	Reference T105 Wikidata:NULL	нет данных
+N36	Reference T108 Wikidata:Q846570	
+N46	Reference T112 Wikidata:Q16358610	
+N22	Reference T63 Wikidata:NULL	нет данных
+N24	Reference T71 Wikidata:Q1546040	
+N25	Reference T72 Wikidata:Q11268	Конгресс США
+N47	Reference T76 Wikidata:Q391517	
+N44	Reference T123 Wikidata:NULL	нет данных
+N48	Reference T3 Wikidata:Q329953	Northrop Grumman Corporation
+N49	Reference T57 Wikidata:Q379318	пилот-инструктор
+N50	Reference T97 Wikidata:Q11223	Военно-воздушные силы США
+N51	Reference T89 Wikidata:Q11223	Военно-воздушные силы США
+N52	Reference T124 Wikidata:Q61883	военно-воздушные силы
+N53	Reference T26 Wikidata:Q61883	военно-воздушные силы
+N54	Reference T77 Wikidata:Q61883	военно-воздушные силы
+N55	Reference T33 Wikidata:Q61883	военно-воздушные силы
+N56	Reference T62 Wikidata:Q983927	майор
+N57	Reference T84 Wikidata:Q49085	афроамериканцы
+N58	Reference T93 Wikidata:Q47064	военнослужащий
+N59	Reference T29 Wikidata:Q183	Германия
+N60	Reference T99 Wikidata:Q948200	Пилотируемая орбитальная лаборатория
+N61	Reference T43 Wikidata:Q948200	Пилотируемая орбитальная лаборатория
+N62	Reference T102 Wikidata:Q2095549	лётчик
+N63	Reference T106 Wikidata:Q2095549	лётчик
+N64	Reference T78 Wikidata:Q23548	НАСА
+N65	Reference T48 Wikidata:Q23548	НАСА
+N66	Reference T96 Wikidata:Q30	США
+N67	Reference T8 Wikidata:Q30	США
+N68	Reference T88 Wikidata:Q30	США
+N69	Reference T101 Wikidata:Q30	США
+N70	Reference T95 Wikidata:Q30	США
+N71	Reference T19 Wikidata:Q30	США
+N72	Reference T40 Wikidata:Q30	США
+N73	Reference T94 Wikidata:Q11631	космонавт
+N74	Reference T82 Wikidata:Q11631	космонавт
+N75	Reference T116 Wikidata:Q11631	космонавт
+N76	Reference T81 Wikidata:Q11631	космонавт
+N77	Reference T109 Wikidata:Q11631	космонавт
+N78	Reference T119 Wikidata:Q11631	космонавт
+N79	Reference T14 Wikidata:Q391517	
+N80	Reference T15 Wikidata:Q391517	
+N81	Reference T2 Wikidata:Q391517	
+N82	Reference T6 Wikidata:Q391517	
+N83	Reference T92 Wikidata:NULL	нет данных
+N84	Reference T4 Wikidata:Q77869031	
+N85	Reference T45 Wikidata:Q391517	
+N86	Reference T56 Wikidata:Q391517	
+N87	Reference T91 Wikidata:Q391517	
+N88	Reference T87 Wikidata:Q730242	
+N89	Reference T49 Wikidata:Q730242	
+N90	Reference T103 Wikidata:NULL	нет данных
+N91	Reference T107 Wikidata:Q16358610	
+N92	Reference T61 Wikidata:NULL	нет данных
+N93	Reference T60 Wikidata:NULL	нет данных
+N94	Reference T121 Wikidata:Q1546040	
+N95	Reference T70 Wikidata:Q391517	
+N96	Reference T64 Wikidata:Q391517	
+N97	Reference T79 Wikidata:Q391517	
+T127	EVENT 545 552	родился
+R67	PARTICIPANT_IN Arg1:T14 Arg2:T127	
+R68	POINT_IN_TIME Arg1:T127 Arg2:T16	
+R69	TAKES_PLACE_IN Arg1:T127 Arg2:T17	
+R70	HEADQUARTERED_IN Arg1:T122 Arg2:T21	

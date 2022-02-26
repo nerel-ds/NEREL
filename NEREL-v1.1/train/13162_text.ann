@@ -1,0 +1,96 @@
+T1	PERSON 0 11	Рууд Гуллит
+T2	CITY 41 49	Грозного
+T3	PERSON 80 91	Рууд Гуллит
+T4	STATE_OR_PROVINCE 101 106	Чечню
+T5	AGE 187 197	48-летнего
+T6	PERSON 198 205	Гуллита
+T7	PROFESSION 216 224	тренером
+T8	ORGANIZATION 239 245	Терека
+T9	ORDINAL 283 287	12-м
+T10	NUMBER 298 300	15
+T11	CITY 353 373	Санкт-Петербургского
+T13	ORGANIZATION 375 381	Зенита
+T14	ORGANIZATION 400 407	Кремлём
+T15	PROFESSION 408 426	руководитель Чечни
+T16	PERSON 427 441	Рамзан Кадыров
+T18	ORGANIZATION 466 471	Терек
+T19	PERSON 489 497	Гуллитом
+T20	DATE 507 525	в следующем сезоне
+T21	ORDINAL 542 548	первых
+T22	NUMBER 549 555	восьми
+T23	DATE 565 572	В среду
+T24	CITY 602 609	Грозный
+T25	PERSON 611 617	Гуллит
+T26	CITY 669 680	Кисловодске
+T28	NUMBER 697 711	250 километрах
+T30	CITY 731 739	Грозного
+T31	PERSON 778 784	Гуллит
+T32	CITY 878 889	грозненской
+T33	EVENT 12 37	возглавил футбольный клуб
+T34	COUNTRY 59 71	голландского
+T35	EVENT 206 215	назначили
+T36	CITY 225 237	грозненского
+T37	COUNTRY 326 336	российской
+T12	STATE_OR_PROVINCE 421 426	Чечни
+T38	STATE_OR_PROVINCE 596 601	Чечни
+R1	ORIGINS_FROM Arg1:T3 Arg2:T34	
+R2	LOCATED_IN Arg1:T3 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T36	
+R5	LOCATED_IN Arg1:T2 Arg2:T4	
+R6	WORKS_AS Arg1:T6 Arg2:T7	
+R7	WORKPLACE Arg1:T6 Arg2:T8	
+R8	HEADQUARTERED_IN Arg1:T8 Arg2:T36	
+R9	AGE_IS Arg1:T6 Arg2:T5	
+R10	HEADQUARTERED_IN Arg1:T13 Arg2:T11	
+T27	ORGANIZATION 326 349	российской премьер-лиги
+R11	HEADQUARTERED_IN Arg1:T27 Arg2:T37	
+R12	MEMBER_OF Arg1:T13 Arg2:T27	
+R13	MEMBER_OF Arg1:T8 Arg2:T27	
+R14	AGENT Arg1:T1 Arg2:T33	
+R15	TAKES_PLACE_IN Arg1:T33 Arg2:T2	
+R16	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R17	PARTICIPANT_IN Arg1:T8 Arg2:T35	
+R18	WORKPLACE Arg1:T7 Arg2:T8	
+R19	WORKPLACE Arg1:T16 Arg2:T18	
+R20	WORKS_AS Arg1:T16 Arg2:T15	
+R21	WORKPLACE Arg1:T15 Arg2:T12	
+R22	WORKPLACE Arg1:T16 Arg2:T12	
+R23	WORKPLACE Arg1:T19 Arg2:T18	
+R24	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+R25	LOCATED_IN Arg1:T24 Arg2:T38	
+T17	EVENT 92 98	прибыл
+R26	AGENT Arg1:T3 Arg2:T17	
+R27	TAKES_PLACE_IN Arg1:T17 Arg2:T4	
+T29	EVENT 577 585	прибытии
+R28	ALTERNATIVE_NAME Arg1:T17 Arg2:T29	
+R29	AGENT Arg1:T25 Arg2:T29	
+R30	TAKES_PLACE_IN Arg1:T29 Arg2:T24	
+R31	POINT_IN_TIME Arg1:T29 Arg2:T23	
+R32	ALTERNATIVE_NAME Arg1:T24 Arg2:T32	
+N1	Reference T1 Wikidata:Q173972	Гуллит, Рууд
+N2	Reference T7 Wikidata:Q41583	тренер
+N4	Reference T13 Wikidata:Q29108	Зенит
+N7	Reference T16 Wikidata:Q217115	Рамзан Ахматович Кадыров
+N8	Reference T18 Wikidata:Q240444	Ахмат
+N9	Reference T19 Wikidata:Q173972	Гуллит, Рууд
+N10	Reference T24 Wikidata:Q5196	Грозный
+N11	Reference T26 Wikidata:Q153676	Кисловодск
+N15	Reference T12 Wikidata:Q5187	Чечня
+N16	Reference T27 Wikidata:Q182165	чемпионат России по футболу
+N13	Reference T36 Wikidata:Q5196	Грозный
+N5	Reference T14 Wikidata:Q2060629	Администрация президента России
+N6	Reference T15 Wikidata:Q4376767	
+N14	Reference T37 Wikidata:Q159	Россия
+N3	Reference T11 Wikidata:Q656	Санкт-Петербург
+N12	Reference T34 Wikidata:Q55	Нидерланды
+N17	Reference T31 Wikidata:Q173972	Гуллит, Рууд
+N18	Reference T25 Wikidata:Q173972	Гуллит, Рууд
+N19	Reference T3 Wikidata:Q173972	Гуллит, Рууд
+N20	Reference T6 Wikidata:Q173972	Гуллит, Рууд
+N21	Reference T8 Wikidata:Q240444	Ахмат
+N22	Reference T32 Wikidata:Q5196	Грозный
+N23	Reference T30 Wikidata:Q5196	Грозный
+N24	Reference T4 Wikidata:Q5187	Чечня
+N25	Reference T38 Wikidata:Q5187	Чечня
+N26	Reference T2 Wikidata:Q5196	Грозный

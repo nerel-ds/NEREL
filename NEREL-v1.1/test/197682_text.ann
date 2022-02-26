@@ -1,0 +1,165 @@
+T2	PERSON 45 52	Роналду
+T3	PERSON 57 62	Месси
+T4	PERSON 63 74	Лука Модрич
+T5	PROFESSION 88 100	полузащитник
+T6	ORGANIZATION 114 119	Реала
+T7	COUNTRY 131 139	Хорватии
+T9	ORGANIZATION 205 220	France Football
+T10	AWARD 224 235	Золотой мяч
+T11	DATE 239 255	В мае этого года
+T12	ORGANIZATION 276 289	Реал Мадридом
+T13	DATE 306 312	В июле
+T14	DATE 319 323	2018
+T15	COUNTRY 345 353	Хорватии
+T16	AGE 392 401	33-летний
+T17	PROFESSION 432 443	нападающего
+T18	ORGANIZATION 445 453	Ювентуса
+T19	PERSON 455 472	Криштиану Роналду
+T20	PROFESSION 475 483	форварда
+T21	ORGANIZATION 485 493	Атлетико
+T22	PERSON 495 512	Антуана Гризманна
+T23	DATE 515 523	В ноябре
+T24	ORGANIZATION 568 572	ФИФА
+T25	PERSON 599 610	Лука Модрич
+T26	ORGANIZATION 682 687	Реале
+T27	COUNTRY 701 709	Хорватии
+T28	AWARD 807 818	Золотой мяч
+T29	PERSON 915 922	Роналду
+T30	PERSON 925 930	Месси
+T31	DATE 1448 1459	с 2008 года
+T32	PERSON 1481 1498	Криштиану Роналду
+T33	PERSON 1501 1514	Лионель Месси
+T34	NUMBER 1527 1531	пять
+T35	DATE 1554 1564	этого года
+T36	ORDINAL 1579 1585	второе
+T37	PERSON 1595 1600	Месси
+T38	ORDINAL 1604 1609	пятом
+T39	LOCATION 1712 1718	Европе
+T41	DATE 1768 1793	в каждом календарном году
+T42	ORDINAL 0 7	Впервые
+T43	AWARD 18 29	Золотой мяч
+T44	PERSON 75 86	Лука Модрич
+T45	PROFESSION 88 119	полузащитник мадридского «Реала
+T46	CITY 101 112	мадридского
+T47	ORGANIZATION 123 139	сборной Хорватии
+T8	AWARD 157 180	лучшему футболисту года
+T48	PROFESSION 256 265	футболист
+T49	EVENT 290 304	Лигу чемпионов
+T50	EVENT 316 323	ЧМ-2018
+T51	EVENT 316 318	ЧМ
+T52	ORGANIZATION 337 353	сборной Хорватии
+T53	NATIONALITY 402 408	хорват
+T54	PROFESSION 432 453	нападающего «Ювентуса
+T55	PROFESSION 475 493	форварда «Атлетико
+T56	PROFESSION 524 536	полузащитник
+T57	AWARD 545 557	игроком года
+T58	ORGANIZATION 693 709	сборной Хорватии
+T59	PROFESSION 1109 1120	футболистов
+T60	AWARD 1207 1218	Золотой мяч
+T61	PERSON 1565 1572	Роналду
+T62	AWARD 1613 1624	Золотой мяч
+T63	PROFESSION 1730 1740	футболисту
+T64	PROFESSION 1694 1704	футболисту
+T40	AWARD 1686 1709	лучшему футболисту года
+T1	DATE 11 17	10 лет
+R1	HEADQUARTERED_IN Arg1:T6 Arg2:T46	
+R2	HEADQUARTERED_IN Arg1:T47 Arg2:T7	
+R3	WORKS_AS Arg1:T44 Arg2:T45	
+R4	WORKPLACE Arg1:T44 Arg2:T6	
+R5	WORKPLACE Arg1:T44 Arg2:T47	
+R6	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R7	AWARDED_WITH Arg1:T44 Arg2:T8	
+T65	COUNTRY 205 211	France
+R8	HEADQUARTERED_IN Arg1:T9 Arg2:T65	
+R9	PRODUCES Arg1:T9 Arg2:T8	
+T66	CITY 281 289	Мадридом
+R10	HEADQUARTERED_IN Arg1:T12 Arg2:T66	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R12	WORKS_AS Arg1:T44 Arg2:T48	
+R13	PARTICIPANT_IN Arg1:T12 Arg2:T49	
+R14	PARTICIPANT_IN Arg1:T48 Arg2:T49	
+R15	WORKPLACE Arg1:T48 Arg2:T12	
+R16	PARTICIPANT_IN Arg1:T44 Arg2:T49	
+R17	HEADQUARTERED_IN Arg1:T52 Arg2:T15	
+R18	POINT_IN_TIME Arg1:T50 Arg2:T14	
+T67	PROFESSION 363 372	капитаном
+R19	WORKPLACE Arg1:T67 Arg2:T52	
+R20	WORKS_AS Arg1:T44 Arg2:T67	
+R21	PARTICIPANT_IN Arg1:T52 Arg2:T50	
+R22	PARTICIPANT_IN Arg1:T44 Arg2:T50	
+R23	WORKPLACE Arg1:T44 Arg2:T52	
+R24	ORIGINS_FROM Arg1:T44 Arg2:T53	
+R25	AGE_IS Arg1:T44 Arg2:T16	
+R26	AGE_IS Arg1:T53 Arg2:T16	
+R27	WORKS_AS Arg1:T19 Arg2:T54	
+R28	WORKPLACE Arg1:T19 Arg2:T18	
+R29	WORKS_AS Arg1:T22 Arg2:T55	
+R30	WORKPLACE Arg1:T22 Arg2:T21	
+T68	AWARD 545 572	игроком года по версии ФИФА
+R31	PRODUCES Arg1:T24 Arg2:T68	
+R32	POINT_IN_TIME Arg1:T68 Arg2:T23	
+R33	AWARDED_WITH Arg1:T56 Arg2:T68	
+R34	HEADQUARTERED_IN Arg1:T58 Arg2:T27	
+R35	AWARDED_WITH Arg1:T44 Arg2:T68	
+R36	WORKS_AS Arg1:T44 Arg2:T56	
+R37	WORKPLACE Arg1:T25 Arg2:T26	
+R38	WORKPLACE Arg1:T25 Arg2:T58	
+R39	AWARDED_WITH Arg1:T32 Arg2:T60	
+R40	AWARDED_WITH Arg1:T33 Arg2:T60	
+R41	ALTERNATIVE_NAME Arg1:T62 Arg2:T40	
+R42	ORIGINS_FROM Arg1:T40 Arg2:T39	
+R43	PRODUCES Arg1:T9 Arg2:T10	
+R44	WORKPLACE Arg1:T54 Arg2:T18	
+R45	WORKPLACE Arg1:T55 Arg2:T21	
+N1	Reference T9 Wikidata:Q308705	France Football
+N2	Reference T10 Wikidata:Q166177	Золотой мяч
+N3	Reference T15 Wikidata:Q224	Хорватия
+N4	Reference T17 Wikidata:Q280658	нападающий
+N5	Reference T18 Wikidata:Q1422	Ювентус
+N6	Reference T19 Wikidata:Q11571	Криштиану Роналду
+N8	Reference T21 Wikidata:Q8701	Атлетико Мадрид
+N9	Reference T22 Wikidata:Q455462	Антуан Гризманн
+N10	Reference T24 Wikidata:Q253414	ФИФА
+N11	Reference T25 Wikidata:Q483837	Лука Модрич
+N13	Reference T33 Wikidata:Q615	Лионель Месси
+N14	Reference T37 Wikidata:Q615	Лионель Месси
+N18	Reference T47 Wikidata:Q134479	сборная Хорватии по футболу
+N19	Reference T53 Wikidata:Q167420	хорваты
+N21	Reference T55 Wikidata:Q270995	Атлетико Минейро
+N22	Reference T56 Wikidata:Q193592	полузащитник
+N23	Reference T57 Wikidata:Q182529	Игрок года ФИФА
+N24	Reference T59 Wikidata:Q937857	футболист
+N25	Reference T61 Wikidata:Q11571	Криштиану Роналду
+N26	Reference T62 Wikidata:Q166177	Золотой мяч
+N27	Reference T65 Wikidata:Q142	Франция
+N28	Reference T66 Wikidata:Q2807	Мадрид
+N17	Reference T46 Wikidata:Q2807	Мадрид
+N16	Reference T45 Wikidata:NULL	нет данных
+N29	Reference T67 Wikidata:Q715772	капитан
+N20	Reference T54 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:Q280658	нападающий
+N30	Reference T68 Wikidata:Q182529	Игрок года ФИФА
+N12	Reference T26 Wikidata:Q8682	Реал Мадрид
+N15	Reference T39 Wikidata:Q46	Европа
+N31	Reference T8 Wikidata:Q166177	Золотой мяч
+N32	Reference T27 Wikidata:Q224	Хорватия
+N33	Reference T7 Wikidata:Q224	Хорватия
+N34	Reference T32 Wikidata:Q11571	Криштиану Роналду
+N35	Reference T4 Wikidata:Q483837	Лука Модрич
+N36	Reference T44 Wikidata:Q483837	Лука Модрич
+N37	Reference T3 Wikidata:Q615	Лионель Месси
+N38	Reference T30 Wikidata:Q615	Лионель Месси
+N39	Reference T52 Wikidata:Q134479	сборная Хорватии по футболу
+N40	Reference T58 Wikidata:Q134479	сборная Хорватии по футболу
+N41	Reference T5 Wikidata:Q193592	полузащитник
+N42	Reference T63 Wikidata:Q937857	футболист
+N43	Reference T64 Wikidata:Q937857	футболист
+N44	Reference T48 Wikidata:Q937857	футболист
+N45	Reference T29 Wikidata:Q11571	Криштиану Роналду
+N46	Reference T2 Wikidata:Q11571	Криштиану Роналду
+N47	Reference T40 Wikidata:Q166177	Золотой мяч
+N48	Reference T60 Wikidata:Q166177	Золотой мяч
+N49	Reference T43 Wikidata:Q166177	Золотой мяч
+N50	Reference T28 Wikidata:Q166177	Золотой мяч
+N51	Reference T6 Wikidata:Q8682	Реал Мадрид
+N52	Reference T12 Wikidata:Q8682	Реал Мадрид

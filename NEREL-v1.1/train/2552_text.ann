@@ -1,0 +1,136 @@
+T1	PROFESSION 2 12	президенте
+T2	AGE 19 40	Семидесятишестилетний
+T3	PROFESSION 41 50	президент
+T4	ORGANIZATION 51 81	Европейского футбольного союза
+T5	ORGANIZATION 83 87	УЕФА
+T6	PERSON 89 105	Леннарт Юханссон
+T7	PERSON 107 124	Lennart Johansson
+T8	DATE 195 213	ещё на четыре года
+T9	PERSON 215 231	Леннарт Юханссон
+T10	PERSON 240 248	Юханссон
+T11	COUNTRY 259 267	шведском
+T12	PROFESSION 292 302	президента
+T14	CITY 339 351	Дюссельдорфе
+T15	PERSON 359 367	Юханссон
+T16	PERSON 434 442	Юханссон
+T17	DATE 637 655	В последние месяцы
+T18	PERSON 676 692	Франц Бекенбауэр
+T19	COUNTRY 694 702	Германия
+T20	PERSON 706 720	Мишель Платини
+T21	COUNTRY 722 729	Франция
+T22	COUNTRY 735 743	шведском
+T23	PERSON 807 814	Платини
+T24	PERSON 834 842	Юханссон
+T25	PERSON 877 888	Бекенбауэра
+T26	AGE 938 944	60 лет
+T27	PERSON 1011 1019	Юханссон
+T28	PERSON 1298 1306	Юханссон
+T29	PERSON 1371 1381	Бекенбауэр
+T30	ORGANIZATION 1411 1415	УЕФА
+T31	PERSON 1516 1525	Юханссона
+T32	PERSON 1634 1642	Юханссон
+T33	PERSON 1677 1684	Платини
+T34	DATE 1706 1720	в прошлом году
+T36	ORDINAL 1877 1885	третьего
+T38	ORGANIZATION 1948 1952	УЕФА
+T39	DATE 1970 1984	25 января 2007
+T40	CITY 1987 1999	Дюссельдорфе
+T41	PERSON 2028 2039	Бекенбауэру
+T42	EVENT 2090 2105	чемпионата мира
+T43	COUNTRY 2108 2116	Германии
+T44	COUNTRY 2121 2127	Швеции
+T45	PERSON 2136 2145	Юханссона
+T46	COUNTRY 2189 2198	шведского
+T47	PERSON 2233 2242	Юханссона
+T48	PROFESSION 2 17	президенте УЕФА
+T49	ORGANIZATION 13 17	УЕФА
+T50	PROFESSION 41 81	президент Европейского футбольного союза
+T51	LOCATION 51 63	Европейского
+T53	EVENT 281 291	Перевыборы
+T54	EVENT 281 307	Перевыборы президента УЕФА
+T56	PROFESSION 292 307	президента УЕФА
+T57	ORGANIZATION 303 307	УЕФА
+T58	DATE 1055 1073	В настоящий момент
+T59	EVENT 1808 1820	кубка Европы
+T60	LOCATION 1814 1820	Европы
+T61	PERSON 1842 1850	Юханссон
+T63	EVENT 1938 1952	конгресса УЕФА
+R1	WORKPLACE Arg1:T48 Arg2:T49	
+R2	ABBREVIATION Arg1:T4 Arg2:T5	
+R3	AGE_IS Arg1:T6 Arg2:T2	
+R4	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R5	WORKPLACE Arg1:T50 Arg2:T4	
+R6	HEADQUARTERED_IN Arg1:T4 Arg2:T51	
+R7	WORKPLACE Arg1:T50 Arg2:T4	
+R8	WORKS_AS Arg1:T6 Arg2:T50	
+R9	WORKPLACE Arg1:T6 Arg2:T4	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R11	WORKPLACE Arg1:T56 Arg2:T57	
+R12	ALTERNATIVE_NAME Arg1:T50 Arg2:T56	
+R13	PARTICIPANT_IN Arg1:T56 Arg2:T54	
+R14	TAKES_PLACE_IN Arg1:T54 Arg2:T14	
+T13	DATE 318 336	в январе 2007 года
+R15	POINT_IN_TIME Arg1:T54 Arg2:T13	
+R16	ORIGINS_FROM Arg1:T18 Arg2:T19	
+R17	ORIGINS_FROM Arg1:T20 Arg2:T21	
+R18	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+R19	AGE_IS Arg1:T25 Arg2:T26	
+R20	ALTERNATIVE_NAME Arg1:T18 Arg2:T25	
+R22	TAKES_PLACE_IN Arg1:T59 Arg2:T60	
+T35	DATE 1830 1841	в 2005 году
+T55	PROFESSION 1886 1900	президентского
+T37	DATE 1911 1922	на один год
+R23	ORGANIZES Arg1:T38 Arg2:T63	
+R24	POINT_IN_TIME Arg1:T63 Arg2:T39	
+T62	EVENT 1938 1947	конгресса
+R25	TAKES_PLACE_IN Arg1:T63 Arg2:T40	
+R26	ALTERNATIVE_NAME Arg1:T12 Arg2:T55	
+R27	LOCATED_IN Arg1:T40 Arg2:T43	
+R28	TAKES_PLACE_IN Arg1:T42 Arg2:T43	
+R29	ALTERNATIVE_NAME Arg1:T44 Arg2:T46	
+R21	ORGANIZES Arg1:T41 Arg2:T42	
+N2	Reference T5 Wikidata:Q35572	УЕФА
+N3	Reference T6 Wikidata:Q158133	Юханссон, Леннарт
+N4	Reference T14 Wikidata:Q1718	Дюссельдорф
+N6	Reference T18 Wikidata:Q4457	Беккенбауэр, Франц
+N7	Reference T19 Wikidata:Q183	Германия
+N8	Reference T20 Wikidata:Q4261	Платини, Мишель
+N9	Reference T21 Wikidata:Q142	Франция
+N11	Reference T51 Wikidata:Q48952090	Европейский
+N10	Reference T46 Wikidata:Q34	Швеция
+N13	Reference T60 Wikidata:Q46	Европа
+N5	Reference T16 Wikidata:Q158133	Юханссон, Леннарт
+N12	Reference T56 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q140686	председатель
+N14	Reference T57 Wikidata:Q35572	УЕФА
+N15	Reference T38 Wikidata:Q35572	УЕФА
+N16	Reference T49 Wikidata:Q35572	УЕФА
+N17	Reference T4 Wikidata:Q35572	УЕФА
+N18	Reference T30 Wikidata:Q35572	УЕФА
+N19	Reference T7 Wikidata:Q158133	Юханссон, Леннарт
+N20	Reference T40 Wikidata:Q1718	Дюссельдорф
+N21	Reference T41 Wikidata:Q4457	Беккенбауэр, Франц
+N22	Reference T25 Wikidata:Q4457	Беккенбауэр, Франц
+N23	Reference T29 Wikidata:Q4457	Беккенбауэр, Франц
+N24	Reference T43 Wikidata:Q183	Германия
+N25	Reference T33 Wikidata:Q4261	Платини, Мишель
+N26	Reference T23 Wikidata:Q4261	Платини, Мишель
+N27	Reference T44 Wikidata:Q34	Швеция
+N28	Reference T11 Wikidata:Q34	Швеция
+N29	Reference T22 Wikidata:Q34	Швеция
+N30	Reference T10 Wikidata:Q158133	Юханссон, Леннарт
+N31	Reference T15 Wikidata:Q158133	Юханссон, Леннарт
+N32	Reference T31 Wikidata:Q158133	Юханссон, Леннарт
+N33	Reference T24 Wikidata:Q158133	Юханссон, Леннарт
+N34	Reference T47 Wikidata:Q158133	Юханссон, Леннарт
+N35	Reference T9 Wikidata:Q158133	Юханссон, Леннарт
+N36	Reference T28 Wikidata:Q158133	Юханссон, Леннарт
+N37	Reference T61 Wikidata:Q158133	Юханссон, Леннарт
+N38	Reference T45 Wikidata:Q158133	Юханссон, Леннарт
+N39	Reference T32 Wikidata:Q158133	Юханссон, Леннарт
+N40	Reference T27 Wikidata:Q158133	Юханссон, Леннарт
+N41	Reference T50 Wikidata:NULL	нет данных
+N42	Reference T48 Wikidata:NULL	нет данных
+N43	Reference T55 Wikidata:Q140686	председатель
+N44	Reference T1 Wikidata:Q140686	председатель
+N45	Reference T12 Wikidata:Q140686	председатель

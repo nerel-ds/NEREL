@@ -1,0 +1,190 @@
+T1	PERSON 0 17	Аделина Сотникова
+T2	ORDINAL 24 30	первой
+T3	PERSON 31 48	Аделина Сотникова
+T4	DATE 49 67	12 декабря 2010 г.
+T5	PERSON 68 85	Аделина Сотникова
+T6	DATE 86 105	12 ноября 2011 года
+T7	PERSON 128 145	Аделина Сотникова
+T8	EVENT 162 184	Олимпийских игр в Сочи
+T9	CITY 180 184	Сочи
+T10	EVENT 187 215	турнире фигуристок-одиночниц
+T11	PERSON 217 226	Сотникова
+T12	ORDINAL 233 239	первой
+T13	COUNTRY 250 254	СССР
+T14	COUNTRY 257 263	России
+T15	ORDINAL 302 308	Первое
+T16	PERSON 315 322	Аделина
+T17	NUMBER 341 345	двух
+T18	NUMBER 356 362	224,59
+T19	NUMBER 406 412	149,95
+T21	DATE 462 471	2010 года
+T22	COUNTRY 487 498	Южной Кореи
+T23	PERSON 499 507	Ким Ю На
+T24	NUMBER 549 554	74,92
+T25	NUMBER 578 584	219,11
+T26	ORDINAL 603 614	пятикратной
+T27	NATIONALITY 632 641	итальянки
+T28	PERSON 642 658	Каролины Костнер
+T29	NUMBER 670 676	216,73
+T30	NUMBER 685 691	142,61
+T31	NATIONALITY 764 774	российская
+T32	PERSON 786 800	Юлия Липницкая
+T33	ORDINAL 839 844	пятое
+T34	PERSON 898 915	Аделину Сотникову
+T35	AGE 952 961	17-летняя
+T36	PERSON 962 979	Аделина Сотникова
+T37	DATE 1067 1071	2011
+T38	DATE 1111 1115	2009
+T39	DATE 1117 1121	2011
+T40	DATE 1123 1127	2012
+T41	DATE 1130 1134	2014
+T42	EVENT 1162 1194	первых юношеских Олимпийских игр
+T44	PERSON 1240 1249	Сотникову
+T46	AGE 1319 1325	13 лет
+T47	NUMBER 1340 1343	два
+T48	NUMBER 1374 1379	одной
+T49	DATE 1474 1493	на январь 2014 года
+T50	ORDINAL 1503 1506	6-е
+T51	ORGANIZATION 1524 1557	Международного союза конькобежцев
+T52	ORGANIZATION 1559 1562	ИСУ
+T53	PROFESSION 117 127	фигуристка
+R1	WORKS_AS Arg1:T7 Arg2:T53	
+R2	SUBEVENT_OF Arg1:T10 Arg2:T8	
+R3	TAKES_PLACE_IN Arg1:T8 Arg2:T9	
+R4	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+R5	PARTICIPANT_IN Arg1:T7 Arg2:T8	
+R6	PARTICIPANT_IN Arg1:T7 Arg2:T10	
+T54	PROFESSION 264 275	фигуристкой
+T55	AWARD 155 177	золото Олимпийских игр
+R7	AWARDED_WITH Arg1:T7 Arg2:T55	
+R8	WORKS_AS Arg1:T11 Arg2:T54	
+R9	ORIGINS_FROM Arg1:T23 Arg2:T22	
+T56	PROFESSION 472 483	спортсменка
+R10	WORKS_AS Arg1:T23 Arg2:T56	
+R11	ORIGINS_FROM Arg1:T28 Arg2:T27	
+R12	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R13	AGE_IS Arg1:T36 Arg2:T35	
+R14	ABBREVIATION Arg1:T51 Arg2:T52	
+T45	NATIONALITY 106 116	Российская
+R15	ORIGINS_FROM Arg1:T7 Arg2:T45	
+R16	ORIGINS_FROM Arg1:T11 Arg2:T14	
+T57	AWARD 302 314	Первое место
+R17	AWARDED_WITH Arg1:T16 Arg2:T57	
+T58	AWARD 422 429	Серебро
+R18	AWARDED_WITH Arg1:T23 Arg2:T58	
+T59	AWARD 594 600	Бронза
+R19	AWARDED_WITH Arg1:T28 Arg2:T59	
+T60	AWARD 155 161	золото
+R20	PARTICIPANT_IN Arg1:T23 Arg2:T8	
+T61	LOCATION 625 631	Европы
+T62	PROFESSION 775 785	одиночница
+R22	WORKS_AS Arg1:T32 Arg2:T62	
+T63	COUNTRY 1210 1216	России
+T65	COUNTRY 1103 1109	России
+T66	EVENT 740 763	командных соревнованиях
+R23	PARTICIPANT_IN Arg1:T32 Arg2:T66	
+T67	EVENT 810 838	индивидуальных соревнованиях
+R24	PARTICIPANT_IN Arg1:T32 Arg2:T67	
+T68	EVENT 1000 1018	чемпионатов Европы
+R25	PARTICIPANT_IN Arg1:T36 Arg2:T68	
+R26	PARTICIPANT_IN Arg1:T36 Arg2:T42	
+R27	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R28	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R29	ALTERNATIVE_NAME Arg1:T36 Arg2:T44	
+R31	ORIGINS_FROM Arg1:T53 Arg2:T45	
+T69	LOCATION 1012 1018	Европы
+R32	TAKES_PLACE_IN Arg1:T68 Arg2:T69	
+R21	PARTICIPANT_IN Arg1:T28 Arg2:T8	
+R33	SUBEVENT_OF Arg1:T66 Arg2:T8	
+R34	PARTICIPANT_IN Arg1:T23 Arg2:T10	
+R35	PARTICIPANT_IN Arg1:T28 Arg2:T10	
+R36	ORIGINS_FROM Arg1:T56 Arg2:T22	
+R37	ALTERNATIVE_NAME Arg1:T10 Arg2:T67	
+R38	ORIGINS_FROM Arg1:T62 Arg2:T31	
+T70	EVENT 162 177	Олимпийских игр
+R39	ORIGINS_FROM Arg1:T55 Arg2:T8	
+T20	AWARD 440 471	олимпийская чемпионка 2010 года
+R40	POINT_IN_TIME Arg1:T20 Arg2:T21	
+T71	AWARD 440 461	олимпийская чемпионка
+R41	AWARDED_WITH Arg1:T23 Arg2:T20	
+T72	AWARD 615 631	чемпионке Европы
+R42	ORIGINS_FROM Arg1:T72 Arg2:T61	
+R43	AWARDED_WITH Arg1:T28 Arg2:T72	
+T73	AWARD 982 999	серебряный призёр
+T74	AWARD 1038 1076	чемпионка мира среди юниоров 2011 года
+R44	POINT_IN_TIME Arg1:T74 Arg2:T37	
+T75	AWARD 1038 1066	чемпионка мира среди юниоров
+T76	AWARD 1038 1052	чемпионка мира
+R45	AWARDED_WITH Arg1:T36 Arg2:T74	
+T77	DATE 1019 1023	2013
+T78	DATE 1026 1036	2014 годов
+T79	AWARD 1093 1109	чемпионка России
+R46	ORIGINS_FROM Arg1:T79 Arg2:T65	
+R47	POINT_IN_TIME Arg1:T79 Arg2:T38	
+R48	POINT_IN_TIME Arg1:T79 Arg2:T39	
+R49	POINT_IN_TIME Arg1:T79 Arg2:T40	
+R50	POINT_IN_TIME Arg1:T79 Arg2:T41	
+T80	ORDINAL 1162 1168	первых
+T81	EVENT 1169 1194	юношеских Олимпийских игр
+T82	AWARD 1142 1161	серебряный медалист
+T83	AWARD 1142 1194	серебряный медалист первых юношеских Олимпийских игр
+R51	ORIGINS_FROM Arg1:T83 Arg2:T42	
+R52	AWARDED_WITH Arg1:T36 Arg2:T83	
+T84	AWARD 982 1018	серебряный призёр чемпионатов Европы
+R53	AWARDED_WITH Arg1:T36 Arg2:T84	
+R54	POINT_IN_TIME Arg1:T84 Arg2:T77	
+R55	POINT_IN_TIME Arg1:T84 Arg2:T78	
+R56	AWARDED_WITH Arg1:T36 Arg2:T79	
+T43	AWARD 1196 1238	Мастер спорта России международного класса
+T64	AWARD 1196 1216	Мастер спорта России
+T85	AWARD 1196 1209	Мастер спорта
+R30	ORIGINS_FROM Arg1:T43 Arg2:T63	
+R57	ORIGINS_FROM Arg1:T64 Arg2:T63	
+R58	AWARDED_WITH Arg1:T36 Arg2:T43	
+N1	Reference T1 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N2	Reference T9 Wikidata:Q39420	Сочи
+N4	Reference T13 Wikidata:Q15180	СССР
+N5	Reference T22 Wikidata:Q884	Республика Корея
+N6	Reference T23 Wikidata:Q229124	Ким Ён А
+N8	Reference T28 Wikidata:Q233527	Каролина Костнер
+N10	Reference T32 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N16	Reference T61 Wikidata:Q46	Европа
+N17	Reference T65 Wikidata:Q159	Россия
+N19	Reference T71 Wikidata:Q4333889	олимпийский чемпион
+N28	Reference T43 Wikidata:Q3843021	мастер спорта России международного класса
+N29	Reference T64 Wikidata:Q9317276	мастер спорта России
+N31	Reference T55 Wikidata:Q15243387	
+N3	Reference T11 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N32	Reference T57 Wikidata:NULL	нет данных
+N33	Reference T56 Wikidata:Q2066131	спортсмен
+N20	Reference T72 Wikidata:NULL	нет данных
+N21	Reference T73 Wikidata:NULL	нет данных
+N27	Reference T84 Wikidata:NULL	нет данных
+N24	Reference T76 Wikidata:NULL	нет данных
+N23	Reference T75 Wikidata:NULL	нет данных
+N22	Reference T74 Wikidata:NULL	нет данных
+N34	Reference T79 Wikidata:NULL	нет данных
+N25	Reference T82 Wikidata:NULL	нет данных
+N26	Reference T83 Wikidata:NULL	нет данных
+N30	Reference T85 Wikidata:NULL	нет данных
+N11	Reference T52 Wikidata:Q543115	
+N12	Reference T53 Wikidata:Q13219587	
+N18	Reference T20 Wikidata:NULL	нет данных
+N15	Reference T60 Wikidata:Q406039	золотая медаль
+N13	Reference T58 Wikidata:Q847956	серебряная медаль
+N14	Reference T59 Wikidata:Q873364	бронзовая медаль
+N7	Reference T27 Wikidata:Q50001	итальянцы
+N9	Reference T31 Wikidata:Q492468	россияне
+N35	Reference T36 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N36	Reference T44 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N37	Reference T3 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N38	Reference T34 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N39	Reference T5 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N40	Reference T69 Wikidata:Q46	Европа
+N41	Reference T14 Wikidata:Q159	Россия
+N42	Reference T63 Wikidata:Q159	Россия
+N43	Reference T7 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N44	Reference T16 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N45	Reference T51 Wikidata:Q543115	
+N46	Reference T54 Wikidata:Q13219587	
+N47	Reference T45 Wikidata:Q492468	россияне

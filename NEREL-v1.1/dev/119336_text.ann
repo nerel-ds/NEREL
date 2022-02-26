@@ -1,0 +1,181 @@
+T2	PERSON 6 11	Обамы
+T4	CITY 28 38	Вашингтоне
+T5	MONEY 42 58	8,1 млн долларов
+T9	COUNTRY 89 92	США
+T10	PERSON 93 104	Барак Обама
+T11	PERSON 113 119	Мишель
+T12	CITY 138 148	Вашингтоне
+T13	FACILITY 161 172	Белого дома
+T14	PROFESSION 213 223	президента
+T15	DATE 224 232	в январе
+T18	COUNTRY 310 313	США
+T20	PERSON 400 406	Барака
+T21	PERSON 409 415	Мишель
+T22	PERSON 418 422	Саше
+T23	DATE 436 444	два года
+T24	CITY 474 484	Вашингтоне
+T25	NUMBER 522 529	восемью
+T27	MONEY 561 582	8,1 миллиона долларов
+T31	COUNTRY 646 649	США
+T32	PERSON 650 664	Билла Клинтона
+T33	PERSON 665 677	Джо Локхарту
+T36	COUNTRY 762 765	США
+T37	PERSON 782 787	Обамы
+T39	CITY 805 815	Вашингтона
+T40	PROFESSION 843 853	президента
+T41	PERSON 854 866	Иванку Трамп
+T42	PERSON 877 892	Джареда Кушнера
+T44	ORGANIZATION 919 930	Белого дома
+T47	CITY 971 980	Нью-Йорка
+T48	DATE 981 999	в начале 2017 года
+T50	COUNTRY 1014 1017	США
+T51	PERSON 1018 1032	Рекс Тиллерсон
+T53	PROFESSION 1079 1088	президент
+T55	PERSON 1091 1103	миссис Обама
+T56	CITY 1121 1131	Вашингтоне
+T59	PERSON 1267 1272	Обамы
+T61	PROFESSION 1281 1291	президента
+T62	PERSON 1292 1297	Обамы
+T64	CITY 1320 1326	Чикаго
+T65	ORDINAL 1329 1336	третьем
+T66	COUNTRY 1358 1361	США
+T67	PERSON 1367 1372	Обама
+T68	ORGANIZATION 1452 1463	Белого дома
+R5	WORKPLACE Arg1:T10 Arg2:T9
+R18	WORKPLACE Arg1:T67 Arg2:T68
+T1	PERSON 60 71	Барак Обама
+T3	FAMILY 274 281	Тюдоров
+T6	PROFESSION 635 649	президента США
+T7	PROFESSION 615 649	пресс-секретарю экс-президента США
+T16	ORGANIZATION 733 765	Национальной футбольной лиги США
+T17	ORGANIZATION 720 765	пресс-службу Национальной футбольной лиги США
+R1	WORKS_AS Arg1:T32 Arg2:T6	
+R2	WORKS_AS Arg1:T33 Arg2:T7	
+T26	PROFESSION 907 930	советниками Белого дома
+T19	DISTRICT 316 324	Калорама
+T28	DISTRICT 959 967	Калорама
+T30	PROFESSION 1001 1017	Госсекретарь США
+R3	WORKS_AS Arg1:T51 Arg2:T30	
+T34	DATE 1148 1156	два года
+T35	PROFESSION 1253 1272	представитель Обамы
+R6	SPOUSE Arg1:T10 Arg2:T11	
+R7	LOCATED_IN Arg1:T19 Arg2:T54	
+R8	SPOUSE Arg1:T20 Arg2:T21	
+R9	PARENT_OF Arg1:T20 Arg2:T22	
+R10	PARENT_OF Arg1:T21 Arg2:T22	
+R11	SPOUSE Arg1:T41 Arg2:T42	
+R12	WORKS_AS Arg1:T42 Arg2:T26	
+R13	WORKPLACE Arg1:T42 Arg2:T44	
+R14	WORKS_AS Arg1:T41 Arg2:T26	
+R15	WORKPLACE Arg1:T41 Arg2:T44	
+R16	PLACE_RESIDES_IN Arg1:T53 Arg2:T56	
+R17	PLACE_RESIDES_IN Arg1:T55 Arg2:T56	
+T38	EVENT 12 25	приобрела дом
+R20	TAKES_PLACE_IN Arg1:T38 Arg2:T4	
+T43	EVENT 120 135	приобрели жильё
+R21	TAKES_PLACE_IN Arg1:T43 Arg2:T12	
+R22	AGENT Arg1:T11 Arg2:T43	
+R23	AGENT Arg1:T10 Arg2:T43	
+R24	LOCATED_IN Arg1:T13 Arg2:T12	
+R25	WORKPLACE Arg1:T33 Arg2:T17	
+R26	WORKPLACE Arg1:T32 Arg2:T31	
+R27	SUBORDINATE_OF Arg1:T33 Arg2:T32	
+R28	WORKS_AS Arg1:T62 Arg2:T61	
+T45	PROFESSION 79 92	президент США
+T46	PROFESSION 79 88	президент
+T49	PROFESSION 615 630	пресс-секретарю
+T52	PROFESSION 1001 1013	Госсекретарь
+R29	SPOUSE Arg1:T53 Arg2:T55	
+R30	PARENT_OF Arg1:T40 Arg2:T41	
+R31	PLACE_RESIDES_IN Arg1:T41 Arg2:T28	
+R32	PLACE_RESIDES_IN Arg1:T42 Arg2:T28	
+R33	PLACE_RESIDES_IN Arg1:T10 Arg2:T19	
+R34	PLACE_RESIDES_IN Arg1:T11 Arg2:T19	
+R35	PLACE_RESIDES_IN Arg1:T51 Arg2:T28	
+T54	CITY 302 313	столицы США
+R36	LOCATED_IN Arg1:T28 Arg2:T56	
+R37	LOCATED_IN Arg1:T64 Arg2:T66	
+R38	ALTERNATIVE_NAME Arg1:T2 Arg2:T1	
+R39	ALTERNATIVE_NAME Arg1:T38 Arg2:T43	
+T57	FAMILY 0 11	Семья Обамы
+R40	WORKPLACE Arg1:T45 Arg2:T9	
+R41	LOCATED_IN Arg1:T54 Arg2:T18	
+R42	ALTERNATIVE_NAME Arg1:T12 Arg2:T54	
+R43	HEADQUARTERED_IN Arg1:T16 Arg2:T36	
+R44	WORKPLACE Arg1:T30 Arg2:T50	
+R45	SUBORDINATE_OF Arg1:T35 Arg2:T59	
+R46	EXPENDITURE Arg1:T57 Arg2:T5	
+R47	PART_OF Arg1:T17 Arg2:T16	
+R48	WORKPLACE Arg1:T26 Arg2:T44	
+R50	ALTERNATIVE_NAME Arg1:T10 Arg2:T20	
+R51	ALTERNATIVE_NAME Arg1:T20 Arg2:T37	
+R52	WORKS_AS Arg1:T37 Arg2:T53	
+T58	PERSON 1098 1103	Обама
+R53	SPOUSE Arg1:T55 Arg2:T58	
+R54	WORKS_AS Arg1:T58 Arg2:T53	
+R55	ALTERNATIVE_NAME Arg1:T5 Arg2:T27	
+R56	MEMBER_OF Arg1:T2 Arg2:T57	
+R49	SUBORDINATE_OF Arg1:T7 Arg2:T6	
+R4	WORKS_AS Arg1:T10 Arg2:T45	
+R19	AGENT Arg1:T57 Arg2:T38	
+R57	PRICE_OF Arg1:T38 Arg2:T5	
+T8	PROFESSION 1445 1463	главою Белого дома
+T29	PROFESSION 352 361	дипломаты
+T60	PROFESSION 363 371	лоббисты
+T63	PROFESSION 374 382	политики
+R58	WORKPLACE Arg1:T8 Arg2:T68	
+T69	FAMILY 1275 1297	Семья президента Обамы
+R59	MEMBER_OF Arg1:T62 Arg2:T69	
+R60	WORKS_AS Arg1:T67 Arg2:T8	
+N1	Reference T11 Wikidata:Q13133	Мишель Обама
+N2	Reference T13 Wikidata:Q35525	Белый дом
+N3	Reference T18 Wikidata:Q30	США
+N5	Reference T32 Wikidata:Q1124	Билл Клинтон
+N7	Reference T41 Wikidata:Q239411	Иванка Трамп
+N8	Reference T42 Wikidata:Q13628723	Джаред Кушнер
+N9	Reference T47 Wikidata:Q60	Нью-Йорк
+N10	Reference T51 Wikidata:Q331401	Тиллерсон, Рекс
+N12	Reference T56 Wikidata:Q61	Вашингтон
+N13	Reference T62 Wikidata:Q76	Барак Обама
+N14	Reference T64 Wikidata:Q1297	Чикаго
+N15	Reference T68 Wikidata:Q35525	Белый дом
+N16	Reference T1 Wikidata:Q76	Барак Обама
+N17	Reference T6 Wikidata:Q11696	президент США
+N23	Reference T46 Wikidata:Q30461	президент
+N24	Reference T19 Wikidata:Q12060942	
+N4	Reference T22 Wikidata:Q15070048	
+N25	Reference T49 Wikidata:Q1388151	
+N18	Reference T7 Wikidata:NULL	
+N6	Reference T33 Wikidata:Q6210964	
+N19	Reference T16 Wikidata:Q1215884	Национальная футбольная лига
+N20	Reference T17 Wikidata:NULL	нет данных
+N21	Reference T26 Wikidata:Q7450652	
+N26	Reference T52 Wikidata:Q736559	cтатс-секретарь
+N27	Reference T30 Wikidata:Q14213	государственный секретарь США
+N11	Reference T55 Wikidata:Q13133	Мишель Обама
+N22	Reference T35 Wikidata:NULL	нет данных
+N28	Reference T21 Wikidata:Q13133	Мишель Обама
+N29	Reference T50 Wikidata:Q30	США
+N30	Reference T36 Wikidata:Q30	США
+N31	Reference T9 Wikidata:Q30	США
+N32	Reference T66 Wikidata:Q30	США
+N33	Reference T31 Wikidata:Q30	США
+N34	Reference T4 Wikidata:Q61	Вашингтон
+N35	Reference T54 Wikidata:Q61	Вашингтон
+N36	Reference T39 Wikidata:Q61	Вашингтон
+N37	Reference T24 Wikidata:Q61	Вашингтон
+N38	Reference T12 Wikidata:Q61	Вашингтон
+N39	Reference T37 Wikidata:Q76	Барак Обама
+N40	Reference T20 Wikidata:Q76	Барак Обама
+N41	Reference T58 Wikidata:Q76	Барак Обама
+N42	Reference T10 Wikidata:Q76	Барак Обама
+N43	Reference T67 Wikidata:Q76	Барак Обама
+N44	Reference T59 Wikidata:Q76	Барак Обама
+N45	Reference T44 Wikidata:Q35525	Белый дом
+N46	Reference T2 Wikidata:Q76	Барак Обама
+N47	Reference T45 Wikidata:Q11696	президент США
+N48	Reference T14 Wikidata:Q30461	президент
+N49	Reference T61 Wikidata:Q30461	президент
+N50	Reference T40 Wikidata:Q30461	президент
+N51	Reference T53 Wikidata:Q30461	президент
+N52	Reference T28 Wikidata:Q12060942	

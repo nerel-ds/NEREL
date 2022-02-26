@@ -1,0 +1,80 @@
+T1	PROFESSION 0 9	Бухгалтер
+T2	MONEY 39 60	более 17 тысяч гривен
+T3	PROFESSION 92 109	Главный бухгалтер
+T6	DISTRICT 139 155	Косовском районе
+T7	STATE_OR_PROVINCE 156 181	Ивано-Франковской области
+T8	COUNTRY 182 189	Украины
+T9	MONEY 202 223	более 17 тысяч гривен
+T12	COUNTRY 601 608	Украины
+T13	LAW 610 665	О бухгалтерском учете и финансовой отчетности в Украине
+T14	DATE 680 697	за 2007-2010 годы
+T16	PROFESSION 902 921	главным бухгалтером
+T17	MONEY 968 983	17739,10 гривен
+T18	MONEY 985 998	69770,71 руб.
+T20	DISTRICT 1015 1032	Косовского района
+T23	COUNTRY 1100 1107	Украины
+T24	PROFESSION 1118 1126	Прокурор
+T25	DISTRICT 1127 1144	Косовского района
+T26	PERSON 1145 1159	Василий Кричун
+R4	WORKS_AS Arg1:T26 Arg2:T24
+T11	ORGANIZATION 1002 1032	Прокуратурой Косовского района
+T15	LAW 1081 1107	Уголовного Кодекса Украины
+T19	LAW 1070 1107	статьи 191 Уголовного Кодекса Украины
+T21	LAW 1062 1107	части 2 статьи 191 Уголовного Кодекса Украины
+T5	PROFESSION 564 581	главный бухгалтер
+T4	PROFESSION 1118 1144	Прокурор Косовского района
+T10	PROFESSION 0 20	Бухгалтер сельсовета
+T29	ORDINAL 1068 1069	2
+T30	ORDINAL 1077 1080	191
+T31	LAW 1081 1099	Уголовного Кодекса
+R1	LOCATED_IN Arg1:T7 Arg2:T8	
+R2	LOCATED_IN Arg1:T6 Arg2:T7	
+R3	WORKPLACE Arg1:T3 Arg2:T6	
+T32	COUNTRY 658 665	Украине
+T28	CRIME 922 959	незаконно присвоила денежные средства
+R5	PRICE_OF Arg1:T28 Arg2:T17	
+R6	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R7	HEADQUARTERED_IN Arg1:T11 Arg2:T20	
+T27	EVENT 1033 1058	возбуждено уголовное дело
+R8	AGENT Arg1:T11 Arg2:T27	
+R9	WORKPLACE Arg1:T4 Arg2:T25	
+R10	WORKPLACE Arg1:T26 Arg2:T25	
+R11	WORKS_AS Arg1:T26 Arg2:T4	
+T22	CRIME 698 766	начисление и выплату заработной платы на свой счет в большем размере
+T33	CRIME 849 901	злоупотребления властью и своим служебным положением
+R12	CONVICTED_OF Arg1:T16 Arg2:T28	
+R13	CONVICTED_OF Arg1:T16 Arg2:T33	
+R14	CONVICTED_OF Arg1:T16 Arg2:T22	
+R15	INCOME Arg1:T10 Arg2:T2	
+R16	INCOME Arg1:T16 Arg2:T17	
+R17	HAS_CAUSE Arg1:T27 Arg2:T21	
+R18	PART_OF Arg1:T21 Arg2:T19	
+R19	PART_OF Arg1:T19 Arg2:T15	
+R20	ORIGINS_FROM Arg1:T15 Arg2:T23	
+T34	CRIME 849 872	злоупотребления властью
+R22	INCOME Arg1:T3 Arg2:T9	
+T35	LAW 594 666	Закона Украины «О бухгалтерском учете и финансовой отчетности в Украине»
+R23	ORIGINS_FROM Arg1:T35 Arg2:T12	
+N1	Reference T1 Wikidata:Q326653	бухгалтер
+N2	Reference T7 Wikidata:Q178269	Ивано-Франковская область
+N4	Reference T24 Wikidata:Q600751	прокурор
+N5	Reference T25 Wikidata:Q937388	Косовский район
+N15	Reference T32 Wikidata:Q212	Украина
+N13	Reference T10 Wikidata:NULL	нет данных
+N11	Reference T5 Wikidata:Q12096582	
+N3	Reference T13 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T11 Wikidata:NULL	нет данных
+N8	Reference T15 Wikidata:Q5761127	
+N14	Reference T31 Wikidata:Q19705	уголовное законодательство
+N9	Reference T19 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N12	Reference T4 Wikidata:NULL	нет данных
+N6	Reference T26 Wikidata:NULL	нет данных
+N17	Reference T6 Wikidata:Q937388	Косовский район
+N18	Reference T20 Wikidata:Q937388	Косовский район
+N19	Reference T8 Wikidata:Q212	Украина
+N20	Reference T23 Wikidata:Q212	Украина
+N21	Reference T12 Wikidata:Q212	Украина
+N22	Reference T3 Wikidata:Q12096582	
+N23	Reference T16 Wikidata:Q12096582	

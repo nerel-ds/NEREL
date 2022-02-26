@@ -1,0 +1,96 @@
+T1	AGE 0 9	23-летняя
+T2	DATE 50 54	2013
+T3	PERSON 56 70	Мэллори Хэйган
+T4	PERSON 72 85	Mallory Hagan
+T6	EVENT 159 176	Мисс Америка-2013
+T7	DATE 190 211	в субботу — 12 января
+T8	CITY 214 224	Лас-Вегасе
+T9	ORDINAL 228 234	Второе
+T10	ORDINAL 237 243	третье
+T11	STATE_OR_PROVINCE 301 315	Южной Каролины
+T12	STATE_OR_PROVINCE 318 326	Оклахомы
+T13	AGE 336 345	23-летней
+T14	PERSON 419 433	Джеймса Брауна
+T15	MONEY 690 710	50 тыс. долларов США
+T16	DATE 810 830	весь предстоящий год
+T17	ORGANIZATION 964 990	Children’s Miracle Network
+T18	PERSON 1007 1014	Мэллори
+T19	EVENT 1057 1069	Мисс Америка
+T20	COUNTRY 1141 1144	США
+T21	NUMBER 1175 1177	50
+T22	COUNTRY 1195 1198	США
+T23	DISTRICT 1238 1264	Столичного округа Колумбия
+T24	STATE_OR_PROVINCE 1266 1277	Пуэрто-Рико
+T25	LOCATION 1282 1301	Виргинских островов
+T26	AWARD 37 54	Мисс Америка-2013
+T27	COUNTRY 42 49	Америка
+T5	AWARD 111 124	Мисс Нью-Йорк
+T28	CITY 116 124	Нью-Йорк
+T31	PERSON 346 353	Мэллори
+T32	WORK_OF_ART 435 457	Get Up Offa That Thing
+T33	AWARD 659 671	Мисс Америка
+T34	AWARD 682 710	грант в 50 тыс. долларов США
+T35	COUNTRY 707 710	США
+T36	COUNTRY 1062 1069	Америка
+T37	COUNTRY 664 671	Америка
+R1	POINT_IN_TIME Arg1:T26 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T26 Arg2:T27	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R4	ORIGINS_FROM Arg1:T5 Arg2:T28	
+R5	AWARDED_WITH Arg1:T3 Arg2:T5	
+R6	AGE_IS Arg1:T3 Arg2:T1	
+T29	DATE 172 176	2013
+T30	COUNTRY 164 171	Америка
+R7	TAKES_PLACE_IN Arg1:T6 Arg2:T30	
+R8	POINT_IN_TIME Arg1:T6 Arg2:T29	
+T39	AWARD 133 177	победительницей конкурса «Мисс Америка-2013»
+R9	ALTERNATIVE_NAME Arg1:T26 Arg2:T39	
+R10	ORIGINS_FROM Arg1:T39 Arg2:T6	
+R11	POINT_IN_TIME Arg1:T6 Arg2:T7	
+R12	TAKES_PLACE_IN Arg1:T6 Arg2:T8	
+R13	LOCATED_IN Arg1:T8 Arg2:T30	
+R14	AWARDED_WITH Arg1:T3 Arg2:T39	
+R15	LOCATED_IN Arg1:T11 Arg2:T30	
+R16	LOCATED_IN Arg1:T12 Arg2:T30	
+R17	AGE_IS Arg1:T31 Arg2:T13	
+R18	ALTERNATIVE_NAME Arg1:T3 Arg2:T31	
+R19	PRODUCES Arg1:T14 Arg2:T32	
+R20	AWARDED_WITH Arg1:T31 Arg2:T33	
+R21	AWARDED_WITH Arg1:T31 Arg2:T34	
+R22	TAKES_PLACE_IN Arg1:T19 Arg2:T36	
+T40	EVENT 1082 1097	конкурс красоты
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T20	
+T38	EVENT 1202 1210	конкурсе
+T41	DATE 1072 1081	ежегодный
+R24	POINT_IN_TIME Arg1:T40 Arg2:T41	
+R25	ORIGINS_FROM Arg1:T33 Arg2:T37	
+R26	ALTERNATIVE_NAME Arg1:T40 Arg2:T38	
+R27	ALTERNATIVE_NAME Arg1:T19 Arg2:T40	
+R28	LOCATED_IN Arg1:T23 Arg2:T22	
+R29	LOCATED_IN Arg1:T24 Arg2:T22	
+N1	Reference T8 Wikidata:Q23768	Лас-Вегас
+N2	Reference T11 Wikidata:Q1456	Южная Каролина
+N3	Reference T12 Wikidata:Q1649	Оклахома
+N4	Reference T14 Wikidata:Q5950	Джеймс Браун
+N6	Reference T24 Wikidata:Q1183	Пуэрто-Рико
+N9	Reference T5 Wikidata:Q3041994	Мисс Нью-Йорк
+N12	Reference T33 Wikidata:Q859497	Мисс Америка
+N5	Reference T23 Wikidata:Q3551781	
+N7	Reference T25 Wikidata:Q11703	
+N14	Reference T17 Wikidata:Q5098161	
+N15	Reference T18 Wikidata:Q6744272	
+N11	Reference T32 Wikidata:Q5554225	
+N13	Reference T34 Wikidata:NULL	нет данных
+N10	Reference T28 Wikidata:Q60	Нью-Йорк
+N16	Reference T30 Wikidata:Q30	США
+N8	Reference T26 Wikidata:Q3019642	
+N17	Reference T31 Wikidata:Q6744272	
+N18	Reference T4 Wikidata:Q6744272	
+N19	Reference T3 Wikidata:Q6744272	
+N20	Reference T27 Wikidata:Q30	США
+N21	Reference T22 Wikidata:Q30	США
+N22	Reference T20 Wikidata:Q30	США
+N23	Reference T36 Wikidata:Q30	США
+N24	Reference T37 Wikidata:Q30	США
+N25	Reference T35 Wikidata:Q30	США
+N26	Reference T39 Wikidata:Q3019642	

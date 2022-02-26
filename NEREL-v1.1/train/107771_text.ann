@@ -1,0 +1,181 @@
+T1	PERSON 0 8	Моторолу
+T2	CITY 17 24	Донецке
+T3	PERSON 26 34	Моторола
+T4	DATE 35 70	В воскресенье, 16 октября 2016 года
+T7	CITY 93 100	Донецке
+T8	NUMBER 106 110	один
+T9	PROFESSION 114 124	командиров
+T10	COUNTRY 135 138	ДНР
+T11	PERSON 139 151	Арсен Павлов
+T12	PERSON 173 181	Моторола
+T13	ORGANIZATION 201 211	Интерфакса
+T14	ORGANIZATION 218 238	министерстве обороны
+T15	COUNTRY 239 242	ДНР
+T16	PERSON 281 295	Арсена Павлова
+T17	COUNTRY 314 324	украинские
+T18	PROFESSION 340 348	советник
+T20	ORGANIZATION 355 358	СБУ
+T21	ORGANIZATION 395 406	112 Украина
+T22	FACILITY 466 483	улице Челюскинцев
+T23	CITY 486 493	Донецке
+T24	PERSON 508 514	Павлов
+T26	PERSON 558 566	Моторолы
+T27	PERSON 658 663	Арсен
+T28	PERSON 665 672	Арсений
+T29	PERSON 658 690	Арсен (Арсений) Сергеевич Павлов
+T30	PERSON 692 700	Моторола
+T31	DATE 702 721	2 февраля 1983 года
+T32	CITY 723 727	Ухта
+T33	STATE_OR_PROVINCE 729 734	РСФСР
+T34	COUNTRY 736 740	СССР
+T35	DATE 743 763	16 октября 2016 года
+T36	CITY 765 771	Донецк
+T37	COUNTRY 773 780	Украина
+T38	COUNTRY 818 825	Украине
+T39	PROFESSION 827 835	командир
+T41	CITY 901 909	Донецкой
+T42	COUNTRY 901 929	Донецкой Народной Республики
+T43	CITY 997 1006	Славянска
+T44	DATE 1007 1022	в мае 2014 года
+T45	CITY 1058 1066	Иловайск
+T46	DATE 1068 1090	август — сентябрь 2014
+T47	FACILITY 1093 1110	Донецкий аэропорт
+T48	DATE 1112 1145	сентябрь 2014 — январь 2015 годов
+T49	CITY 1158 1168	Дебальцево
+T50	DATE 1170 1196	январь — февраль 2015 года
+T56	PERSON 1282 1298	Арсеном Павловым
+R5	ALTERNATIVE_NAME Arg1:T11 Arg2:T12
+R7	ALTERNATIVE_NAME Arg1:T27 Arg2:T28
+R8	ALTERNATIVE_NAME Arg1:T30 Arg2:T29
+T59	PERSON 262 270	Моторолы
+T5	PROFESSION 114 138	командиров ополчения ДНР
+T6	ORGANIZATION 218 242	министерстве обороны ДНР
+T25	PROFESSION 349 358	главы СБУ
+T60	PROFESSION 340 358	советник главы СБУ
+T61	FACILITY 454 462	дома 121
+R1	PLACE_RESIDES_IN Arg1:T24 Arg2:T61	
+T40	PROFESSION 827 930	командир противотанкового специального подразделения самопровозглашённой «Донецкой Народной Республики»
+T51	EVENT 9 14	убили
+R2	TAKES_PLACE_IN Arg1:T51 Arg2:T2	
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T51	
+T53	EVENT 101 105	убит
+R4	TAKES_PLACE_IN Arg1:T53 Arg2:T7	
+R9	POINT_IN_TIME Arg1:T53 Arg2:T4	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T53	
+R11	WORKS_AS Arg1:T11 Arg2:T5	
+T54	ORGANIZATION 125 138	ополчения ДНР
+R12	WORKPLACE Arg1:T11 Arg2:T54	
+R13	PLACE_RESIDES_IN Arg1:T11 Arg2:T10	
+T55	EVENT 274 280	Гибель
+R14	PARTICIPANT_IN Arg1:T16 Arg2:T55	
+R6	SUBORDINATE_OF Arg1:T60 Arg2:T25	
+R15	LOCATED_IN Arg1:T61 Arg2:T22	
+R16	LOCATED_IN Arg1:T61 Arg2:T23	
+R17	LOCATED_IN Arg1:T22 Arg2:T23	
+R18	PLACE_RESIDES_IN Arg1:T24 Arg2:T23	
+R19	PLACE_RESIDES_IN Arg1:T24 Arg2:T22	
+R20	DATE_OF_BIRTH Arg1:T29 Arg2:T31	
+R21	PLACE_OF_BIRTH Arg1:T29 Arg2:T32	
+R22	LOCATED_IN Arg1:T32 Arg2:T33	
+R23	LOCATED_IN Arg1:T33 Arg2:T34	
+R24	LOCATED_IN Arg1:T32 Arg2:T34	
+R25	DATE_OF_DEATH Arg1:T29 Arg2:T35	
+R26	LOCATED_IN Arg1:T36 Arg2:T37	
+R27	PLACE_OF_DEATH Arg1:T29 Arg2:T36	
+T19	EVENT 983 987	боёв
+R28	TAKES_PLACE_IN Arg1:T19 Arg2:T43	
+R29	POINT_IN_TIME Arg1:T19 Arg2:T44	
+T57	EVENT 1050 1054	боях
+R30	TAKES_PLACE_IN Arg1:T57 Arg2:T45	
+R31	POINT_IN_TIME Arg1:T57 Arg2:T46	
+R32	POINT_IN_TIME Arg1:T57 Arg2:T48	
+T58	CITY 1093 1101	Донецкий
+R33	TAKES_PLACE_IN Arg1:T57 Arg2:T49	
+R34	POINT_IN_TIME Arg1:T57 Arg2:T50	
+T52	PERSON 1231 1239	Моторолу
+R35	ALTERNATIVE_NAME Arg1:T56 Arg2:T52	
+T62	EVENT 1353 1361	Похороны
+T63	PERSON 1328 1336	Моторола
+T64	EVENT 1339 1347	похороны
+R36	LOCATED_IN Arg1:T41 Arg2:T42	
+T65	EVENT 427 435	трагедия
+R37	TAKES_PLACE_IN Arg1:T65 Arg2:T61	
+R38	WORKS_AS Arg1:T29 Arg2:T39	
+R39	PARTICIPANT_IN Arg1:T29 Arg2:T19	
+R40	PARTICIPANT_IN Arg1:T29 Arg2:T57	
+R41	TAKES_PLACE_IN Arg1:T57 Arg2:T47	
+R42	TAKES_PLACE_IN Arg1:T57 Arg2:T49	
+R43	WORKPLACE Arg1:T29 Arg2:T42	
+R44	WORKPLACE Arg1:T5 Arg2:T54	
+R45	HEADQUARTERED_IN Arg1:T54 Arg2:T10	
+R46	HEADQUARTERED_IN Arg1:T6 Arg2:T15	
+R47	ALTERNATIVE_NAME Arg1:T59 Arg2:T16	
+R48	WORKPLACE Arg1:T25 Arg2:T20	
+R49	WORKPLACE Arg1:T60 Arg2:T20	
+T66	EVENT 255 261	смерть
+R50	PARTICIPANT_IN Arg1:T59 Arg2:T66	
+R51	ALTERNATIVE_NAME Arg1:T53 Arg2:T66	
+R52	ALTERNATIVE_NAME Arg1:T66 Arg2:T65	
+R53	PARTICIPANT_IN Arg1:T24 Arg2:T65	
+R54	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+T67	EVENT 793 815	вооруженного конфликта
+R55	TAKES_PLACE_IN Arg1:T67 Arg2:T38	
+R56	PARTICIPANT_IN Arg1:T29 Arg2:T67	
+R57	SUBEVENT_OF Arg1:T19 Arg2:T67	
+R58	LOCATED_IN Arg1:T47 Arg2:T58	
+T68	COUNTRY 399 406	Украина
+R59	HEADQUARTERED_IN Arg1:T21 Arg2:T68	
+R60	ALTERNATIVE_NAME Arg1:T15 Arg2:T42	
+R61	ALTERNATIVE_NAME Arg1:T36 Arg2:T58	
+R62	ALTERNATIVE_NAME Arg1:T17 Arg2:T68	
+R63	INANIMATE_INVOLVED Arg1:T63 Arg2:T64	
+N1	Reference T11 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N2	Reference T13 Wikidata:Q379271	Интерфакс
+N3	Reference T14 Wikidata:Q2982160	Министерство обороны
+N5	Reference T20 Wikidata:Q615811	Служба безопасности Украины
+N9	Reference T30 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N10	Reference T32 Wikidata:Q197018	Ухта
+N11	Reference T33 Wikidata:Q2184	РСФСР
+N12	Reference T34 Wikidata:Q15180	СССР
+N13	Reference T37 Wikidata:Q212	Украина
+N14	Reference T42 Wikidata:Q16150196	Донецкая Народная Республика
+N15	Reference T43 Wikidata:Q33581	Славянск
+N16	Reference T45 Wikidata:Q2415345	Иловайск
+N17	Reference T47 Wikidata:Q1431229	Донецк
+N18	Reference T49 Wikidata:Q2371760	Дебальцево
+N20	Reference T5 Wikidata:Q16150196	Донецкая Народная Республика
+N21	Reference T6 Wikidata:Q16150196	Донецкая Народная Республика
+N25	Reference T54 Wikidata:Q16150196	Донецкая Народная Республика
+N28	Reference T61 Wikidata:NULL	нет данных
+N26	Reference T58 Wikidata:Q43070	Донецк
+N19	Reference T59 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N29	Reference T24 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N27	Reference T52 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N8	Reference T27 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N30	Reference T39 Wikidata:Q11247470	
+N24	Reference T40 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:Q2994387	
+N23	Reference T60 Wikidata:NULL	нет данных
+N22	Reference T25 Wikidata:NULL	нет данных
+N6	Reference T21 Wikidata:Q15960736	112 Украина
+N7	Reference T22 Wikidata:Q12092595	
+N31	Reference T12 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N32	Reference T29 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N33	Reference T38 Wikidata:Q212	Украина
+N34	Reference T68 Wikidata:Q212	Украина
+N35	Reference T17 Wikidata:Q212	Украина
+N36	Reference T10 Wikidata:Q16150196	Донецкая Народная Республика
+N37	Reference T15 Wikidata:Q16150196	Донецкая Народная Республика
+N38	Reference T36 Wikidata:Q43070	Донецк
+N39	Reference T7 Wikidata:Q43070	Донецк
+N40	Reference T41 Wikidata:Q43070	Донецк
+N41	Reference T2 Wikidata:Q43070	Донецк
+N42	Reference T23 Wikidata:Q43070	Донецк
+N43	Reference T16 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N44	Reference T26 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N45	Reference T1 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N46	Reference T3 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N47	Reference T63 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N48	Reference T56 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N49	Reference T28 Wikidata:Q18066676	Арсен Сергеевич Павлов
+N50	Reference T9 Wikidata:Q11247470	

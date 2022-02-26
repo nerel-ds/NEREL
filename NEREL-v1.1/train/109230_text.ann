@@ -1,0 +1,98 @@
+T1	ORGANIZATION 0 11	Минкомсвязь
+T2	LAW 64 77	пакета Яровой
+T3	ORGANIZATION 88 99	Минкомсвязи
+T4	LAW 311 324	пакета Яровой
+T5	ORGANIZATION 328 370	Министерство связи и массовых коммуникаций
+T6	COUNTRY 371 377	России
+T7	LAW 851 971	Федерального закона от 6 июля 2016 г. № 374-ФЗ «О внесении изменений в Федеральный закон „О противодействии терроризму“»
+T8	LAW 922 970	Федеральный закон „О противодействии терроризму“
+T10	COUNTRY 1349 1369	Российской Федерации
+T11	COUNTRY 1612 1632	Российской Федерации
+T12	LAW 1694 1722	Федеральным законом № 374-ФЗ
+T15	PRODUCT 2343 2351	Интернет
+T16	LAW 2368 2396	Федеральным законом № 374-ФЗ
+T19	ORGANIZATION 2807 2870	Министерства связи и массовых коммуникаций Российской Федерации
+T20	COUNTRY 2850 2870	Российской Федерации
+T21	DATE 2871 2891	от 19 ноября 2012 г.
+T22	LAW 2892 2897	№ 268
+T23	ORGANIZATION 3384 3426	Министерства связи и массовых коммуникаций
+T24	COUNTRY 3427 3447	Российской Федерации
+T25	DATE 3448 3461	от 16.04.2014
+T26	LAW 3462 3466	№ 83
+T27	DATE 3773 3792	18 ноября 2016 года
+T28	DATE 3806 3828	8 декабря того же года
+T29	ORGANIZATION 3955 3966	Минкомсвязи
+T30	ORGANIZATION 4254 4257	ФСБ
+R4	HEADQUARTERED_IN Arg1:T23 Arg2:T24
+T31	ORGANIZATION 328 377	Министерство связи и массовых коммуникаций России
+T32	DATE 871 887	от 6 июля 2016 г
+T33	LAW 899 969	О внесении изменений в Федеральный закон „О противодействии терроризму
+T34	LAW 851 897	Федерального закона от 6 июля 2016 г. № 374-ФЗ
+T13	PRODUCT 2141 2149	Интернет
+T14	LAW 2528 2783	Правила применения оборудования транзитных, оконечно-транзитных и оконечных узлов связи сети фиксированной телефонной связи, включая программное обеспечение, обеспечивающего выполнение установленных действий при проведении оперативно-розыскных мероприятий
+T17	ORGANIZATION 2807 2849	Министерства связи и массовых коммуникаций
+T18	LAW 3129 3360	Правила применения оборудования коммутации и маршрутизации пакетов информации сетей передачи данных, включая программное обеспечение, обеспечивающего выполнение установленных действий при проведении оперативно-розыскных мероприятий
+T35	ORGANIZATION 3384 3447	Министерства связи и массовых коммуникаций Российской Федерации
+T36	PRODUCT 3854 3863	Интернета
+T37	LAW 4005 4018	пакета Яровой
+T38	PERSON 71 77	Яровой
+R2	PRODUCES Arg1:T38 Arg2:T2	
+T39	PERSON 318 324	Яровой
+R5	PRODUCES Arg1:T39 Arg2:T4	
+R1	HEADQUARTERED_IN Arg1:T31 Arg2:T6	
+R3	HEADQUARTERED_IN Arg1:T19 Arg2:T20	
+R6	DATE_OF_CREATION Arg1:T14 Arg2:T21	
+R7	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+T40	IDEOLOGY 555 575	антитеррористических
+T41	PRODUCT 629 684	Федеральном портале проектов нормативных правовых актов
+R9	DATE_OF_CREATION Arg1:T34 Arg2:T32	
+T42	ORDINAL 891 894	374
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+T43	ORDINAL 1716 1719	374
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+T44	ORDINAL 2390 2393	374
+T45	PROFESSION 2426 2481	разработчиков «Систем оперативно-розыскных мероприятий»
+T46	ORDINAL 2894 2897	268
+T47	ORDINAL 3464 3466	83
+R11	DATE_OF_CREATION Arg1:T18 Arg2:T25	
+R12	ALTERNATIVE_NAME Arg1:T23 Arg2:T29	
+T48	PERSON 4012 4018	Яровой
+R13	PRODUCES Arg1:T48 Arg2:T37	
+R14	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R15	ORIGINS_FROM Arg1:T12 Arg2:T11	
+N1	Reference T5 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N3	Reference T10 Wikidata:Q159	Россия
+N6	Reference T23 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N8	Reference T30 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N11	Reference T13 Wikidata:Q75	Интернет
+N13	Reference T35 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N9	Reference T31 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N15	Reference T41 Wikidata:NULL	нет данных
+N10	Reference T34 Wikidata:NULL	нет данных
+N18	Reference T33 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N16	Reference T45 Wikidata:NULL	нет данных
+N19	Reference T14 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:NULL	нет данных
+N12	Reference T18 Wikidata:NULL	нет данных
+N17	Reference T48 Wikidata:Q4538691	Ирина Яровая
+N14	Reference T37 Wikidata:Q25819517	Закон Яровой
+N7	Reference T26 Wikidata:NULL	нет данных
+N20	Reference T1 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N21	Reference T3 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N22	Reference T20 Wikidata:Q159	Россия
+N23	Reference T24 Wikidata:Q159	Россия
+N24	Reference T11 Wikidata:Q159	Россия
+N25	Reference T6 Wikidata:Q159	Россия
+N26	Reference T17 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N27	Reference T29 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N28	Reference T36 Wikidata:Q75	Интернет
+N29	Reference T15 Wikidata:Q75	Интернет
+N30	Reference T19 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N31	Reference T7 Wikidata:NULL	нет данных
+N32	Reference T16 Wikidata:NULL	нет данных
+N33	Reference T39 Wikidata:Q4538691	Ирина Яровая
+N34	Reference T38 Wikidata:Q4538691	Ирина Яровая
+N35	Reference T4 Wikidata:Q25819517	Закон Яровой
+N36	Reference T2 Wikidata:Q25819517	Закон Яровой

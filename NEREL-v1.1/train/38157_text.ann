@@ -1,0 +1,109 @@
+T1	PERSON 7 20	Джона Леннона
+T2	EVENT 37 45	аукционе
+T3	CITY 48 57	Нью-Йорке
+T4	MONEY 61 83	408 тысяч долларов США
+T5	PERSON 85 96	Джон Леннон
+T6	PERSON 98 113	Джордж Харрисон
+T7	PERSON 116 129	Пол Маккартни
+T8	DATE 132 141	1966 году
+T9	ORGANIZATION 199 204	Битлз
+T10	PERSON 206 217	Джон Леннон
+T11	PERSON 220 235	Джордж Харрисон
+T12	CITY 264 273	Нью-Йорке
+T13	MONEY 277 299	408 тысяч долларов США
+T14	ORGANIZATION 357 360	VOX
+T15	COUNTRY 398 401	США
+T16	ORGANIZATION 429 446	Julien’s Auctions
+T17	MONEY 512 538	200—300 тысяч долларов США
+T18	PERSON 541 556	Джордж Харрисон
+T19	WORK_OF_ART 587 602	I Am The Walrus
+T22	WORK_OF_ART 631 665	Волшебное таинственное путешествие
+T23	WORK_OF_ART 667 687	Magical Mystery Tour
+T25	PERSON 712 723	Джон Леннон
+T26	WORK_OF_ART 750 764	Hello, Goodbye
+T27	PERSON 773 779	Леннон
+T28	AGE 802 810	25-летие
+T29	PERSON 811 827	Алексису Мардасу
+T31	PERSON 1006 1012	Алекси
+T32	PERSON 1042 1056	Алексис Мардас
+T34	COUNTRY 80 83	США
+T35	EVENT 253 261	аукционе
+T36	COUNTRY 296 299	США
+T37	ORGANIZATION 377 383	битлов
+T38	COUNTRY 535 538	США
+T20	ORGANIZATION 873 879	битлов
+T39	PERSON 909 924	Волшебный Алекс
+T40	DATE 1028 1036	2-5-1967
+T41	PERSON 1037 1041	Джон
+T42	PERSON 974 991	Волшебному Алексу
+T43	PRODUCT 0 20	Гитара Джона Леннона
+R1	OWNER_OF Arg1:T1 Arg2:T43	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R3	PRICE_OF Arg1:T43 Arg2:T4	
+R4	KNOWS Arg1:T5 Arg2:T6	
+R5	KNOWS Arg1:T6 Arg2:T7	
+R6	KNOWS Arg1:T5 Arg2:T7	
+R7	MEMBER_OF Arg1:T10 Arg2:T9	
+R8	MEMBER_OF Arg1:T11 Arg2:T9	
+R9	TAKES_PLACE_IN Arg1:T35 Arg2:T12	
+R10	PRODUCES Arg1:T14 Arg2:T43	
+T44	PROFESSION 482 492	Аукционеры
+R14	PRODUCES Arg1:T18 Arg2:T19	
+T21	DATE 612 623	в 1967 году
+R15	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R16	DATE_OF_CREATION Arg1:T22 Arg2:T21	
+T24	DATE 698 711	в том же году
+R17	ALTERNATIVE_NAME Arg1:T21 Arg2:T24	
+R18	PRODUCES Arg1:T25 Arg2:T26	
+R19	AGE_IS Arg1:T29 Arg2:T28	
+R20	ALTERNATIVE_NAME Arg1:T25 Arg2:T27	
+R21	KNOWS Arg1:T27 Arg2:T29	
+T30	DATE 837 845	в 1960-е
+R23	ALTERNATIVE_NAME Arg1:T29 Arg2:T39	
+R24	ALTERNATIVE_NAME Arg1:T27 Arg2:T41	
+T45	EVENT 1057 1063	продал
+T33	DATE 1075 1086	в 2004 году
+R25	PARTICIPANT_IN Arg1:T32 Arg2:T45	
+R26	POINT_IN_TIME Arg1:T45 Arg2:T33	
+R22	MEMBER_OF Arg1:T27 Arg2:T20	
+R11	ALTERNATIVE_NAME Arg1:T9 Arg2:T37	
+R12	MEMBER_OF Arg1:T7 Arg2:T9	
+R13	INANIMATE_INVOLVED Arg1:T43 Arg2:T2	
+R27	PRICE_OF Arg1:T35 Arg2:T13	
+T46	EVENT 780 787	подарил
+R28	AGENT Arg1:T27 Arg2:T46	
+R29	PARTICIPANT_IN Arg1:T29 Arg2:T46	
+R30	ALTERNATIVE_NAME Arg1:T42 Arg2:T31	
+R31	KNOWS Arg1:T41 Arg2:T42	
+N1	Reference T7 Wikidata:Q2599	Пол Маккартни
+N2	Reference T10 Wikidata:Q1203	Джон Леннон
+N3	Reference T12 Wikidata:Q60	Нью-Йорк
+N4	Reference T14 Wikidata:Q1122899	Vox
+N5	Reference T15 Wikidata:Q30	США
+N6	Reference T18 Wikidata:Q2643	Джордж Харрисон
+N7	Reference T19 Wikidata:Q1138639	I Am the Walrus
+N8	Reference T22 Wikidata:Q901203	Волшебное таинственное путешествие
+N9	Reference T26 Wikidata:Q281911	Hello, Goodbye
+N13	Reference T43 Wikidata:NULL	нет данных
+N14	Reference T37 Wikidata:Q1299	The Beatles
+N15	Reference T16 Wikidata:Q6308617	
+N16	Reference T44 Wikidata:Q12530867	
+N11	Reference T39 Wikidata:Q6730626	
+N12	Reference T42 Wikidata:Q6730626	
+N10	Reference T32 Wikidata:Q6730626	
+N17	Reference T5 Wikidata:Q1203	Джон Леннон
+N18	Reference T25 Wikidata:Q1203	Джон Леннон
+N19	Reference T41 Wikidata:Q1203	Джон Леннон
+N20	Reference T1 Wikidata:Q1203	Джон Леннон
+N21	Reference T27 Wikidata:Q1203	Джон Леннон
+N22	Reference T3 Wikidata:Q60	Нью-Йорк
+N23	Reference T34 Wikidata:Q30	США
+N24	Reference T36 Wikidata:Q30	США
+N25	Reference T38 Wikidata:Q30	США
+N26	Reference T6 Wikidata:Q2643	Джордж Харрисон
+N27	Reference T11 Wikidata:Q2643	Джордж Харрисон
+N28	Reference T23 Wikidata:Q901203	Волшебное таинственное путешествие
+N29	Reference T9 Wikidata:Q1299	The Beatles
+N30	Reference T20 Wikidata:Q1299	The Beatles
+N31	Reference T29 Wikidata:Q6730626	
+N32	Reference T31 Wikidata:Q6730626	

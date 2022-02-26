@@ -1,0 +1,75 @@
+T1	ORGANIZATION 0 11	Linkin Park
+T2	PERSON 40 59	Честера Беннингтона
+T3	PERSON 60 77	Честер Беннингтон
+T4	ORGANIZATION 87 98	Linkin Park
+T5	PERSON 146 165	Честера Беннингтона
+T6	ORGANIZATION 177 184	Twitter
+T7	ORGANIZATION 219 230	Live Nation
+T8	WORK_OF_ART 266 280	One More Light
+T9	DATE 306 323	27 июля 2017 года
+T10	COUNTRY 344 347	США
+T11	COUNTRY 350 356	Канаде
+T12	NUMBER 383 391	около 30
+T13	PERSON 430 442	Беннингтоном
+T14	NUMBER 449 451	20
+T15	DATE 464 471	20 июля
+T16	CITY 520 533	Лос-Анджелесе
+T17	AGE 535 544	41-летний
+T18	WORK_OF_ART 592 609	Talking To Myself
+T20	ORGANIZATION 621 632	Linkin Park
+T21	DATE 662 669	20 июля
+T22	PROFESSION 686 695	вокалиста
+T23	PROFESSION 698 707	фронтмена
+T24	NUMBER 731 743	более 20 млн
+T26	EVENT 12 26	отменила турне
+T27	PROFESSION 136 145	вокалиста
+T28	EVENT 101 115	отменила турне
+T29	PERSON 472 491	Честера Беннингтона
+T30	PROFESSION 545 553	музыкант
+T31	EVENT 554 570	покончил с собой
+T19	PRODUCT 654 661	YouTube
+R1	WORKS_AS Arg1:T5 Arg2:T27	
+T25	EVENT 33 39	гибели
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T25	
+T32	EVENT 122 128	гибели
+R3	PARTICIPANT_IN Arg1:T5 Arg2:T32	
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+T33	EVENT 492 505	нашли мёртвым
+R5	TAKES_PLACE_IN Arg1:T33 Arg2:T16	
+R6	POINT_IN_TIME Arg1:T33 Arg2:T15	
+R7	PARTICIPANT_IN Arg1:T29 Arg2:T31	
+R8	AGE_IS Arg1:T29 Arg2:T17	
+R9	AGE_IS Arg1:T30 Arg2:T17	
+R10	WORKS_AS Arg1:T29 Arg2:T30	
+R11	PARTICIPANT_IN Arg1:T30 Arg2:T31	
+R12	ALTERNATIVE_NAME Arg1:T32 Arg2:T31	
+R13	PRODUCES Arg1:T20 Arg2:T18	
+R14	WORKPLACE Arg1:T29 Arg2:T20	
+R15	WORKS_AS Arg1:T29 Arg2:T22	
+R16	WORKS_AS Arg1:T29 Arg2:T23	
+R17	PARTICIPANT_IN Arg1:T1 Arg2:T26	
+R18	HAS_CAUSE Arg1:T26 Arg2:T25	
+R19	PARTICIPANT_IN Arg1:T4 Arg2:T28	
+R20	HAS_CAUSE Arg1:T28 Arg2:T32	
+R21	PRODUCES Arg1:T4 Arg2:T8	
+R22	INANIMATE_INVOLVED Arg1:T29 Arg2:T33	
+N1	Reference T6 Wikidata:Q918	Твиттер
+N2	Reference T7 Wikidata:Q5566504	Glam Nation Live
+N3	Reference T8 Wikidata:Q28790391	One More Light
+N4	Reference T10 Wikidata:Q30	США
+N5	Reference T11 Wikidata:Q16	Канада
+N6	Reference T16 Wikidata:Q65	Лос-Анджелес
+N8	Reference T20 Wikidata:Q261	Linkin Park
+N9	Reference T27 Wikidata:Q2643890	вокалист
+N10	Reference T29 Wikidata:Q19198	Честер Беннингтон
+N11	Reference T30 Wikidata:Q639669	музыкант
+N12	Reference T19 Wikidata:Q866	YouTube
+N7	Reference T18 Wikidata:Q31354866	
+N13	Reference T23 Wikidata:Q1045845	
+N14	Reference T4 Wikidata:Q261	Linkin Park
+N15	Reference T1 Wikidata:Q261	Linkin Park
+N16	Reference T22 Wikidata:Q2643890	вокалист
+N17	Reference T13 Wikidata:Q19198	Честер Беннингтон
+N18	Reference T5 Wikidata:Q19198	Честер Беннингтон
+N19	Reference T3 Wikidata:Q19198	Честер Беннингтон
+N20	Reference T2 Wikidata:Q19198	Честер Беннингтон

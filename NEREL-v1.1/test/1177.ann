@@ -1,0 +1,153 @@
+T1	STATE_OR_PROVINCE 0 12	Владимирский
+T2	PERSON 92 111	Александру Денисову
+T3	PROFESSION 162 172	губернатор
+T4	PERSON 173 188	Светлана Орлова
+T5	PROFESSION 191 235	Заместитель губернатора Владимирской области
+T6	PERSON 236 253	Александр Денисов
+T7	PROFESSION 291 307	врио губернатора
+T8	PERSON 308 323	Светлана Орлова
+T9	DATE 420 429	в пятницу
+T10	PERSON 432 439	Денисов
+T11	PROFESSION 465 545	директора департамента имущественных и земельных отношений администрации области
+T12	PERSON 649 668	Александру Денисову
+T13	DATE 745 771	со следующего понедельника
+T14	PERSON 834 840	Орлова
+T15	PROFESSION 876 894	врио главы региона
+T16	ORGANIZATION 941 978	ГАУ "Фонд государственного имущества"
+T17	ORGANIZATION 995 1043	департаменте имущественных и земельных отношений
+T18	DATE 1044 1055	в 2006 году
+T19	PERCENT 1184 1188	1,7%
+T20	DATE 1273 1281	за 7 лет
+T21	PROFESSION 1328 1341	глава региона
+T23	PROFESSION 1362 1394	зампредседателя Совета Федерации
+T24	PROFESSION 1411 1454	исполняющей обязанности губернатора региона
+T25	DATE 1455 1468	в конце марта
+T26	AGE 1490 1499	65-летний
+T27	PERSON 1510 1528	Николай Виноградов
+T28	PROFESSION 1604 1618	главой области
+T29	DATE 1619 1630	с 2000 года
+T30	PERSON 1661 1667	Орлова
+T31	NUMBER 1688 1692	двух
+T32	PROFESSION 1727 1765	директора департамента здравоохранения
+T33	PERSON 1766 1785	Владимира Безрукова
+T34	PROFESSION 1795 1864	первого замдиректора департамента имущественных и земельных отношений
+T35	PERSON 1865 1879	Андрея Китаева
+T36	PROFESSION 13 28	вице-губернатор
+T37	PROFESSION 203 235	губернатора Владимирской области
+T38	STATE_OR_PROVINCE 215 235	Владимирской области
+T39	PROFESSION 296 307	губернатора
+T40	ORGANIZATION 403 419	обладминистрация
+T41	ORGANIZATION 475 545	департамента имущественных и земельных отношений администрации области
+T42	ORGANIZATION 524 545	администрации области
+T43	PROFESSION 881 894	главы региона
+T44	PROFESSION 913 925	заместителей
+T22	PERSON 1354 1360	Орлова
+T45	ORGANIZATION 1378 1394	Совета Федерации
+T46	PROFESSION 1435 1454	губернатора региона
+T47	IDEOLOGY 1500 1509	коммунист
+T48	PROFESSION 1714 1724	чиновников
+T49	PROFESSION 1701 1724	региональных чиновников
+T50	ORGANIZATION 1737 1765	департамента здравоохранения
+T51	PROFESSION 1803 1864	замдиректора департамента имущественных и земельных отношений
+T52	ORGANIZATION 1816 1864	департамента имущественных и земельных отношений
+T53	EVENT 29 41	покинул пост
+T54	PROFESSION 0 28	Владимирский вице-губернатор
+R1	AGENT Arg1:T54 Arg2:T53	
+R2	WORKS_AS Arg1:T2 Arg2:T54	
+R3	WORKS_AS Arg1:T4 Arg2:T3	
+R4	SUBORDINATE_OF Arg1:T2 Arg2:T4	
+R5	WORKS_AS Arg1:T6 Arg2:T5	
+R6	WORKPLACE Arg1:T6 Arg2:T38	
+R7	SUBORDINATE_OF Arg1:T6 Arg2:T8	
+R8	WORKS_AS Arg1:T8 Arg2:T7	
+R9	WORKS_AS Arg1:T10 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R11	WORKPLACE Arg1:T10 Arg2:T41	
+R12	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R13	WORKS_AS Arg1:T14 Arg2:T15	
+R14	DATE_FOUNDED_IN Arg1:T16 Arg2:T18	
+T55	IDEOLOGY 1344 1353	Единоросс
+R15	IDEOLOGY_OF Arg1:T22 Arg2:T55	
+R16	WORKS_AS Arg1:T22 Arg2:T23	
+R17	WORKPLACE Arg1:T22 Arg2:T45	
+T56	EVENT 1401 1410	назначена
+R18	PARTICIPANT_IN Arg1:T22 Arg2:T56	
+R19	WORKS_AS Arg1:T22 Arg2:T24	
+R20	POINT_IN_TIME Arg1:T56 Arg2:T25	
+R21	AGE_IS Arg1:T47 Arg2:T26	
+R22	IDEOLOGY_OF Arg1:T27 Arg2:T47	
+R23	WORKS_AS Arg1:T27 Arg2:T28	
+R24	SUBORDINATE_OF Arg1:T33 Arg2:T30	
+R25	SUBORDINATE_OF Arg1:T35 Arg2:T30	
+R26	WORKS_AS Arg1:T33 Arg2:T32	
+R27	WORKS_AS Arg1:T33 Arg2:T49	
+R28	WORKPLACE Arg1:T33 Arg2:T50	
+R29	WORKS_AS Arg1:T35 Arg2:T34	
+R30	WORKPLACE Arg1:T35 Arg2:T52	
+R31	WORKPLACE Arg1:T54 Arg2:T1	
+R32	WORKPLACE Arg1:T2 Arg2:T1	
+T57	EVENT 254 271	покинул свой пост
+R33	SUBORDINATE_OF Arg1:T5 Arg2:T37	
+T58	PROFESSION 203 214	губернатора
+R34	ALTERNATIVE_NAME Arg1:T1 Arg2:T38	
+R35	ALTERNATIVE_NAME Arg1:T53 Arg2:T57	
+R36	AGENT Arg1:T6 Arg2:T57	
+R37	HEADQUARTERED_IN Arg1:T40 Arg2:T38	
+R38	WORKPLACE Arg1:T11 Arg2:T41	
+R39	WORKPLACE Arg1:T23 Arg2:T45	
+T59	EVENT 1538 1546	отставку
+R40	PARTICIPANT_IN Arg1:T27 Arg2:T59	
+T60	EVENT 1668 1675	уволила
+R41	AGENT Arg1:T30 Arg2:T60	
+R42	PARTICIPANT_IN Arg1:T33 Arg2:T60	
+R43	PARTICIPANT_IN Arg1:T35 Arg2:T60	
+R44	WORKPLACE Arg1:T32 Arg2:T50	
+R45	WORKPLACE Arg1:T34 Arg2:T52	
+R46	HEADQUARTERED_IN Arg1:T40 Arg2:T38	
+R47	WORKPLACE Arg1:T27 Arg2:T38	
+R48	ALTERNATIVE_NAME Arg1:T54 Arg2:T5	
+R49	ALTERNATIVE_NAME Arg1:T21 Arg2:T46	
+N10	Reference T27 Wikidata:Q4111788	Николай Аркадьевич Виноградов
+N12	Reference T30 Wikidata:Q657845	Орловы
+N18	Reference T38 Wikidata:Q2702	Владимирская область
+N22	Reference T45 Wikidata:Q186473	Совет Федерации
+N23	Reference T48 Wikidata:Q382887	чиновник
+N28	Reference T58 Wikidata:Q132050	губернатор
+N27	Reference T54 Wikidata:NULL	нет данных
+N17	Reference T36 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N29	Reference T40 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N20	Reference T42 Wikidata:NULL	нет данных
+N19	Reference T41 Wikidata:NULL	нет данных
+N4	Reference T11 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N21	Reference T44 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N8	Reference T21 Wikidata:Q132050	губернатор
+N9	Reference T23 Wikidata:NULL	нет данных
+N30	Reference T24 Wikidata:NULL	нет данных
+N31	Reference T46 Wikidata:Q132050	губернатор
+N24	Reference T49 Wikidata:NULL	нет данных
+N25	Reference T50 Wikidata:NULL	нет данных
+N13	Reference T32 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:NULL	нет данных
+N11	Reference T28 Wikidata:Q132050	губернатор
+N14	Reference T33 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:NULL	нет данных
+N32	Reference T4 Wikidata:Q657845	Орловы
+N33	Reference T14 Wikidata:Q657845	Орловы
+N34	Reference T8 Wikidata:Q657845	Орловы
+N35	Reference T22 Wikidata:Q657845	Орловы
+N36	Reference T1 Wikidata:Q2702	Владимирская область
+N37	Reference T39 Wikidata:Q132050	губернатор
+N38	Reference T3 Wikidata:Q132050	губернатор
+N39	Reference T37 Wikidata:NULL	нет данных
+N40	Reference T12 Wikidata:NULL	нет данных
+N41	Reference T6 Wikidata:NULL	нет данных
+N42	Reference T2 Wikidata:NULL	нет данных
+N43	Reference T52 Wikidata:NULL	нет данных
+N44	Reference T43 Wikidata:Q132050	губернатор

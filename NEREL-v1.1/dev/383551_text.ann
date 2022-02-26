@@ -1,0 +1,100 @@
+T1	PERSON 0 18	Александр Ширвиндт
+T2	AGE 33 41	85-летие
+T3	PERSON 42 60	Александр Ширвиндт
+T4	EVENT 64 75	презентации
+T5	WORK_OF_ART 83 102	В промежутках между
+T7	ORGANIZATION 106 127	Московском доме книги
+T8	FACILITY 131 143	Новом Арбате
+T9	DATE 157 174	19 июля 2019 года
+T10	AGE 187 193	85 лет
+T11	PROFESSION 194 222	художественному руководителю
+T13	PERSON 319 339	Александру Ширвиндту
+T14	ORGANIZATION 361 381	Комсомольской правде
+T15	PERSON 383 391	Ширвиндт
+T16	DATE 688 695	20 июля
+T17	ORGANIZATION 699 712	Первом канале
+T18	PERSON 752 770	Александр Ширвиндт
+T20	ORGANIZATION 895 903	Россия К
+T21	ORGANIZATION 907 915	Культура
+T22	PERSON 963 977	Владимир Путин
+T23	PROFESSION 994 1004	президента
+T24	ORGANIZATION 1206 1219	Театра сатиры
+T25	ORGANIZATION 1285 1302	Щукинском училище
+T26	COUNTRY 1450 1460	российской
+T6	CITY 106 116	Московском
+T27	DATE 144 155	в 2018 году
+T28	PROFESSION 194 263	художественному руководителю Московского академического театра Сатиры
+T31	ORGANIZATION 223 263	Московского академического театра Сатиры
+T33	AWARD 265 317	полному кавалеру ордена «За заслуги перед Отечеством
+T34	AWARD 290 317	За заслуги перед Отечеством
+T35	PROFESSION 520 527	артиста
+T36	WORK_OF_ART 752 797	Александр Ширвиндт: „Ирония спасает от всего“
+T37	PROFESSION 994 1011	президента России
+R1	AGE_IS Arg1:T1 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+R3	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R4	HEADQUARTERED_IN Arg1:T7 Arg2:T8	
+R5	POINT_IN_TIME Arg1:T4 Arg2:T27	
+R6	TAKES_PLACE_IN Arg1:T4 Arg2:T8	
+R7	PRODUCES Arg1:T3 Arg2:T5	
+R8	AGE_IS Arg1:T13 Arg2:T10	
+R9	WORKPLACE Arg1:T28 Arg2:T31	
+R10	AWARDED_WITH Arg1:T13 Arg2:T33	
+R11	WORKPLACE Arg1:T13 Arg2:T31	
+R12	WORKS_AS Arg1:T13 Arg2:T28	
+T12	CITY 223 234	Московского
+R13	HEADQUARTERED_IN Arg1:T31 Arg2:T12	
+R14	ALTERNATIVE_NAME Arg1:T13 Arg2:T15	
+R17	PRODUCES Arg1:T17 Arg2:T36	
+R18	PRODUCES Arg1:T18 Arg2:T36	
+R19	DATE_OF_CREATION Arg1:T36 Arg2:T16	
+T19	DATE 860 869	в пятницу
+T30	DATE 872 879	субботу
+R20	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+T32	COUNTRY 895 901	Россия
+R21	HEADQUARTERED_IN Arg1:T20 Arg2:T32	
+R22	LOCATED_IN Arg1:T12 Arg2:T32	
+T38	PROFESSION 945 952	артиста
+T39	EVENT 953 962	поздравил
+R23	AGENT Arg1:T22 Arg2:T39	
+R24	PARTICIPANT_IN Arg1:T38 Arg2:T39	
+R25	WORKS_AS Arg1:T18 Arg2:T38	
+T40	COUNTRY 1005 1011	России
+R26	WORKPLACE Arg1:T37 Arg2:T40	
+R27	WORKS_AS Arg1:T22 Arg2:T37	
+R28	WORKPLACE Arg1:T22 Arg2:T40	
+R29	ALTERNATIVE_NAME Arg1:T31 Arg2:T24	
+R30	ALTERNATIVE_NAME Arg1:T40 Arg2:T26	
+R31	WORKPLACE Arg1:T18 Arg2:T24	
+R32	WORKPLACE Arg1:T18 Arg2:T25	
+R33	LOCATED_IN Arg1:T8 Arg2:T6	
+N3	Reference T8 Wikidata:Q2545285	Новый Арбат
+N4	Reference T14 Wikidata:Q849047	Комсомольская правда
+N5	Reference T17 Wikidata:Q330067	Первый канал
+N6	Reference T18 Wikidata:Q4524232	Александр Анатольевич Ширвиндт
+N8	Reference T22 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T23 Wikidata:Q30461	президент
+N10	Reference T24 Wikidata:Q4304032	Театр сатиры (Москва)
+N11	Reference T25 Wikidata:Q4453555	Театральный институт имени Бориса Щукина
+N14	Reference T34 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N15	Reference T35 Wikidata:Q483501	деятель искусств
+N17	Reference T37 Wikidata:Q218295	президент Российской Федерации
+N19	Reference T32 Wikidata:Q159	Россия
+N1	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N18	Reference T12 Wikidata:Q649	Москва
+N20	Reference T11 Wikidata:Q1797162	
+N12	Reference T28 Wikidata:NULL	нет данных
+N13	Reference T33 Wikidata:NULL	нет данных
+N16	Reference T36 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:Q1770000	Культура
+N21	Reference T13 Wikidata:Q4524232	Александр Анатольевич Ширвиндт
+N22	Reference T15 Wikidata:Q4524232	Александр Анатольевич Ширвиндт
+N23	Reference T3 Wikidata:Q4524232	Александр Анатольевич Ширвиндт
+N24	Reference T1 Wikidata:Q4524232	Александр Анатольевич Ширвиндт
+N25	Reference T31 Wikidata:Q4304032	Театр сатиры (Москва)
+N26	Reference T38 Wikidata:Q483501	деятель искусств
+N27	Reference T40 Wikidata:Q159	Россия
+N28	Reference T26 Wikidata:Q159	Россия
+N29	Reference T6 Wikidata:Q649	Москва
+N30	Reference T20 Wikidata:Q1770000	Культура

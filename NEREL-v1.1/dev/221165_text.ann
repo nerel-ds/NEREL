@@ -1,0 +1,201 @@
+T1	DATE 56 75	12 апреля 2019 года
+T2	CITY 78 81	Уфе
+T3	FACILITY 85 107	сквере 50-летия Победы
+T6	ORGANIZATION 189 201	Викимедиа РУ
+T7	PERSON 203 217	Дмитрий Ерохин
+T8	COUNTRY 254 260	России
+T11	DATE 386 410	27-28 сентября 2014 года
+T12	STATE_OR_PROVINCE 432 437	Крыму
+T13	NUMBER 439 444	60 км
+T14	CITY 448 451	Уфа
+T15	AGE 534 543	100-летию
+T17	COUNTRY 669 679	российский
+T18	PERSON 702 717	Дмитрия Ерохина
+T19	DATE 915 934	Три года тому назад
+T20	ORGANIZATION 946 952	Уфанет
+T21	PROFESSION 956 965	депутатом
+T22	PERSON 984 1004	Светланой Родионовой
+T23	NUMBER 1088 1090	11
+T24	CITY 1115 1118	Уфы
+T25	NUMBER 1147 1153	тысячи
+T26	NUMBER 1181 1204	82 километра 169 метров
+T27	TIME 1208 1216	12 часов
+T28	PROFESSION 1230 1235	судья
+T29	PERSON 1273 1286	Эдуард Цвигун
+T30	PERSON 1290 1305	Дмитрию Ерохину
+T32	PERSON 1412 1429	Зухрой Муртазиной
+T33	ORDINAL 1439 1445	первый
+T34	PERSON 1466 1481	Дмитрия Ерохина
+T35	NUMBER 1494 1501	четырёх
+T36	LOCATION 1546 1567	Золотое кольцо России
+T37	STATE_OR_PROVINCE 1581 1600	Республики Калмыкия
+T38	LOCATION 1609 1616	Сахалин
+T39	DATE 1621 1639	феврале этого года
+T40	CITY 1655 1666	Красноярске
+T41	COUNTRY 1687 1693	России
+T43	NUMBER 1758 1775	118 км 650 метров
+T44	NUMBER 1827 1830	+20
+T46	PERSON 1943 1961	Рустем Рахматуллин
+T47	PERSON 1972 1987	Дмитрия Ерохина
+T49	STATE_OR_PROVINCE 2220 2237	Красноярском крае
+T50	PERSON 2238 2251	Ксенией Кацер
+T51	CITY 2287 2298	Красноярске
+T52	DATE 2301 2310	13 апреля
+T53	ORDINAL 2345 2347	34
+T54	ORDINAL 2361 2368	седьмом
+T55	PROFESSION 2375 2383	волонтер
+T56	FACILITY 2386 2401	парке Лесоводов
+T57	DISTRICT 2428 2444	Советском районе
+T58	DATE 2495 2509	В этом же году
+T60	EVENT 2539 2572	Уфимского международного марафона
+T61	PERSON 2573 2594	Владислава Литвинчука
+T62	DATE 2596 2606	1 сентября
+T63	ORDINAL 2639 2644	пятом
+T64	CITY 0 6	Уфимцы
+T4	AGE 92 100	50-летия
+T65	DISTRICT 108 125	Советского района
+T66	NATIONALITY 126 136	российский
+T67	PROFESSION 137 152	ультрамарафонец
+T68	PROFESSION 155 166	североходец
+T69	PROFESSION 168 178	википедист
+T71	PROFESSION 956 983	депутатом городского совета
+T72	PROFESSION 1230 1272	судья Российской Федерации Северной ходьбы
+T73	PROFESSION 1345 1411	председателем Регионального отделения РФСХ Республики Башкортостан
+T74	PROFESSION 1895 1942	И. о. главы Администрации Советского района Уфы
+T75	PROFESSION 1901 1942	главы Администрации Советского района Уфы
+T76	PROFESSION 2169 2237	главой федерации северной (скандинавской) ходьбы в Красноярском крае
+T5	TIME 264 274	12-часовой
+T10	PERSON 411 429	Борисом Воронцовым
+T78	STATE_OR_PROVINCE 544 567	Республики Башкортостан
+T79	EVENT 849 895	городские соревнования по скандинавской ходьбе
+T80	ORGANIZATION 966 983	городского совета
+T81	ORGANIZATION 1064 1076	Живи активно
+T82	ORGANIZATION 1236 1272	Российской Федерации Северной ходьбы
+T84	COUNTRY 1236 1246	Российской
+T85	PROFESSION 1322 1333	североходцы
+T86	ORGANIZATION 1359 1411	Регионального отделения РФСХ Республики Башкортостан
+T88	ORGANIZATION 1383 1387	РФСХ
+T89	STATE_OR_PROVINCE 1388 1411	Республики Башкортостан
+T91	COUNTRY 1561 1567	России
+T93	TIME 1697 1707	24-часовой
+T94	PROFESSION 1870 1879	спортсмен
+T45	ORGANIZATION 1907 1942	Администрации Советского района Уфы
+T96	DISTRICT 1921 1938	Советского района
+T97	CITY 1939 1942	Уфы
+T48	ORGANIZATION 2176 2237	федерации северной (скандинавской) ходьбы в Красноярском крае
+T98	PERSON 2311 2325	Дмитрий Ерохин
+T99	EVENT 2348 2356	паркране
+T100	EVENT 2564 2572	марафона
+T101	PERSON 2607 2621	Дмитрий Ерохин
+T102	EVENT 2655 2661	забеге
+R1	MEMBER_OF Arg1:T7 Arg2:T6	
+R2	WORKPLACE Arg1:T71 Arg2:T80	
+R3	WORKS_AS Arg1:T22 Arg2:T71	
+R4	AGE_IS Arg1:T78 Arg2:T15	
+R5	LOCATED_IN Arg1:T14 Arg2:T78	
+R6	WORKPLACE Arg1:T32 Arg2:T89	
+R7	LOCATED_IN Arg1:T36 Arg2:T91	
+T16	EVENT 101 107	Победы
+R8	AGE_IS Arg1:T16 Arg2:T4	
+R9	LOCATED_IN Arg1:T3 Arg2:T65	
+R10	LOCATED_IN Arg1:T65 Arg2:T2	
+R11	WORKS_AS Arg1:T7 Arg2:T69	
+R12	WORKS_AS Arg1:T7 Arg2:T68	
+R13	WORKS_AS Arg1:T7 Arg2:T67	
+R14	ORIGINS_FROM Arg1:T7 Arg2:T66	
+R15	LOCATED_IN Arg1:T78 Arg2:T17	
+R16	HEADQUARTERED_IN Arg1:T82 Arg2:T84	
+R17	WORKPLACE Arg1:T72 Arg2:T82	
+R18	WORKPLACE Arg1:T29 Arg2:T82	
+R19	WORKS_AS Arg1:T29 Arg2:T72	
+R20	TAKES_PLACE_IN Arg1:T79 Arg2:T2	
+R21	TAKES_PLACE_IN Arg1:T79 Arg2:T14	
+R22	FOUNDED_BY Arg1:T81 Arg2:T22	
+R23	FOUNDED_BY Arg1:T81 Arg2:T20	
+R24	DATE_FOUNDED_IN Arg1:T81 Arg2:T19	
+R25	PART_OF Arg1:T86 Arg2:T88	
+R26	HEADQUARTERED_IN Arg1:T86 Arg2:T89	
+R27	WORKS_AS Arg1:T32 Arg2:T73	
+R28	WORKS_AS Arg1:T34 Arg2:T94	
+R29	LOCATED_IN Arg1:T96 Arg2:T97	
+R30	HEADQUARTERED_IN Arg1:T45 Arg2:T96	
+R31	WORKPLACE Arg1:T74 Arg2:T45	
+R32	WORKS_AS Arg1:T46 Arg2:T74	
+R33	WORKPLACE Arg1:T46 Arg2:T45	
+R34	HEADQUARTERED_IN Arg1:T48 Arg2:T49	
+R35	WORKS_AS Arg1:T50 Arg2:T76	
+R36	WORKPLACE Arg1:T76 Arg2:T48	
+R37	PARTICIPANT_IN Arg1:T98 Arg2:T99	
+R38	LOCATED_IN Arg1:T56 Arg2:T57	
+R39	POINT_IN_TIME Arg1:T102 Arg2:T62	
+R40	PARTICIPANT_IN Arg1:T101 Arg2:T102	
+T9	CITY 2539 2548	Уфимского
+R41	TAKES_PLACE_IN Arg1:T60 Arg2:T9	
+R42	TAKES_PLACE_IN Arg1:T102 Arg2:T9	
+R43	ORGANIZES Arg1:T61 Arg2:T60	
+R44	ORGANIZES Arg1:T61 Arg2:T102	
+R45	WORKS_AS Arg1:T98 Arg2:T55	
+R46	POINT_IN_TIME Arg1:T99 Arg2:T52	
+N2	Reference T6 Wikidata:Q4110960	Викимедиа РУ
+N4	Reference T20 Wikidata:Q4479066	Уфанет
+N7	Reference T24 Wikidata:Q911	Уфа
+N10	Reference T30 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N12	Reference T36 Wikidata:Q61973	Золотое кольцо России
+N13	Reference T37 Wikidata:Q3953	Калмыкия
+N14	Reference T38 Wikidata:Q7792	Сахалин
+N15	Reference T41 Wikidata:Q159	Россия
+N17	Reference T49 Wikidata:Q6563	Красноярский край
+N19	Reference T51 Wikidata:Q919	Красноярск
+N24	Reference T65 Wikidata:Q4426474	Советский район
+N29	Reference T72 Wikidata:Q17515867	Министерство Российской Федерации по делам Северного Кавказа
+N35	Reference T78 Wikidata:Q5710	Республика Башкортостан
+N36	Reference T80 Wikidata:Q3154693	городской совет
+N41	Reference T94 Wikidata:Q2066131	спортсмен
+N44	Reference T9 Wikidata:Q911	Уфа
+N22	Reference T61 Wikidata:NULL	нет данных
+N20	Reference T55 Wikidata:Q24716636	
+N21	Reference T56 Wikidata:Q21641139	
+N18	Reference T50 Wikidata:NULL	нет данных
+N43	Reference T48 Wikidata:NULL	нет данных
+N33	Reference T76 Wikidata:NULL	нет данных
+N16	Reference T46 Wikidata:NULL	нет данных
+N42	Reference T45 Wikidata:NULL	нет данных
+N32	Reference T75 Wikidata:NULL	нет данных
+N31	Reference T74 Wikidata:NULL	нет данных
+N11	Reference T32 Wikidata:NULL	нет данных
+N45	Reference T88 Wikidata:Q102910688	
+N40	Reference T86 Wikidata:NULL	нет данных
+N30	Reference T73 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:NULL	нет данных
+N38	Reference T82 Wikidata:Q102910688	
+N39	Reference T84 Wikidata:Q159	Россия
+N8	Reference T28 Wikidata:Q202648	судья
+N5	Reference T21 Wikidata:Q1055894	
+N28	Reference T71 Wikidata:NULL	нет данных
+N6	Reference T22 Wikidata:NULL	нет данных
+N37	Reference T81 Wikidata:NULL	нет данных
+N34	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q15966495	Республика Крым
+N23	Reference T64 Wikidata:Q911	Уфа
+N1	Reference T3 Wikidata:NULL	нет данных
+N25	Reference T66 Wikidata:Q492468	россияне
+N26	Reference T67 Wikidata:Q19827218	
+N46	Reference T68 Wikidata:NULL	нет данных
+N27	Reference T69 Wikidata:Q23038345	
+N47	Reference T97 Wikidata:Q911	Уфа
+N48	Reference T2 Wikidata:Q911	Уфа
+N49	Reference T14 Wikidata:Q911	Уфа
+N50	Reference T101 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N51	Reference T34 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N52	Reference T7 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N53	Reference T47 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N54	Reference T18 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N55	Reference T98 Wikidata:Q28063834	Ерохин Дмитрий Юрьевич
+N56	Reference T91 Wikidata:Q159	Россия
+N57	Reference T8 Wikidata:Q159	Россия
+N58	Reference T40 Wikidata:Q919	Красноярск
+N59	Reference T57 Wikidata:Q4426474	Советский район
+N60	Reference T96 Wikidata:Q4426474	Советский район
+N61	Reference T89 Wikidata:Q5710	Республика Башкортостан
+N62	Reference T17 Wikidata:Q159	Россия
+N63	Reference T85 Wikidata:NULL	нет данных

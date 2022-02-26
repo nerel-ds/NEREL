@@ -1,0 +1,188 @@
+T1	PERSON 5 17	Михаил Лесин
+T2	PERSON 18 29	В. В. Путин
+T3	PROFESSION 32 41	Министром
+T4	DATE 56 74	6 ноября 2015 года
+T5	CITY 77 87	Вашингтоне
+T6	AGE 99 105	57 лет
+T7	PERSON 116 128	Михаил Лесин
+T8	PROFESSION 137 167	глава холдинга «Газпром медиа»
+T9	ORGANIZATION 153 166	Газпром медиа
+T10	ORGANIZATION 184 194	Интерфакса
+T11	PERSON 196 201	Лесин
+T12	DATE 220 229	в четверг
+T13	CITY 243 253	Вашингтона
+T14	COUNTRY 330 340	Российские
+T15	PERSON 363 375	Михаил Лесин
+T16	PROFESSION 415 464	Официальный представитель посольства России в США
+T17	COUNTRY 461 464	США
+T18	CITY 560 570	Вашингтоне
+T19	PERSON 576 588	Михаил Лесин
+T20	DATE 796 827	С 2013 года по январь 2015 года
+T21	PROFESSION 835 857	главой «Газпром медиа»
+T22	ORGANIZATION 843 856	Газпром медиа
+T23	ORGANIZATION 898 907	ПрофМедиа
+T24	ORGANIZATION 921 925	ТВ-3
+T25	ORGANIZATION 928 931	2×2
+T26	ORGANIZATION 949 967	Централ Партнершип
+T27	PROFESSION 1031 1047	президент России
+T28	PERSON 1048 1062	Владимир Путин
+T29	PROFESSION 1101 1110	Президент
+T30	PERSON 1153 1165	Михаил Лесин
+T31	COUNTRY 1192 1202	российских
+T32	PERSON 1236 1256	Михаил Юрьевич Лесин
+T33	DATE 1265 1282	11 июля 1958 года
+T34	CITY 1285 1291	Москве
+T35	ORGANIZATION 1314 1330	Видео Интернешнл
+T36	ORGANIZATION 1363 1375	Russia Today
+T37	DATE 1377 1401	С 1999 года по 2004 года
+T38	PROFESSION 1421 1443	министра печати России
+T39	PROFESSION 1459 1489	заместитель председателя ВГТРК
+T40	PROFESSION 1492 1557	руководителя управления президента РФ по связям с общественностью
+T41	PERSON 42 55	М. Ю. Лесиным
+T42	DISEASE 393 412	сердечного приступа
+T43	COUNTRY 452 458	России
+T44	COUNTRY 537 543	России
+T45	PERSON 1012 1018	Лесина
+T46	COUNTRY 1041 1047	России
+T47	PERSON 1402 1407	Лесин
+T48	COUNTRY 1437 1443	России
+T49	ORGANIZATION 1484 1489	ВГТРК
+T50	PROFESSION 1471 1489	председателя ВГТРК
+T51	COUNTRY 1527 1529	РФ
+T52	PROFESSION 1516 1529	президента РФ
+T53	ORGANIZATION 1505 1557	управления президента РФ по связям с общественностью
+R1	AGE_DIED_AT Arg1:T7 Arg2:T6	
+T54	EVENT 0 4	Умер
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T54	
+R3	WORKS_AS Arg1:T41 Arg2:T3	
+R4	WORKPLACE Arg1:T7 Arg2:T9	
+T55	EVENT 106 115	скончался
+R5	PLACE_OF_DEATH Arg1:T7 Arg2:T5	
+R6	DATE_OF_DEATH Arg1:T7 Arg2:T4	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T55	
+R8	POINT_IN_TIME Arg1:T55 Arg2:T4	
+R9	TAKES_PLACE_IN Arg1:T55 Arg2:T5	
+R10	WORKS_AS Arg1:T7 Arg2:T8	
+T56	EVENT 202 219	обнаружен мёртвым
+T57	FACILITY 232 253	гостиннице Вашингтона
+R11	POINT_IN_TIME Arg1:T56 Arg2:T12	
+R12	TAKES_PLACE_IN Arg1:T56 Arg2:T57	
+T58	EVENT 376 380	умер
+R13	CAUSE_OF_DEATH Arg1:T15 Arg2:T42	
+R14	PARTICIPANT_IN Arg1:T15 Arg2:T58	
+R15	WORKS_AS Arg1:T19 Arg2:T21	
+R16	WORKPLACE Arg1:T19 Arg2:T22	
+T59	EVENT 875 880	купил
+R17	AGENT Arg1:T22 Arg2:T59	
+R18	PARTICIPANT_IN Arg1:T23 Arg2:T59	
+R19	OWNER_OF Arg1:T22 Arg2:T24	
+R20	OWNER_OF Arg1:T22 Arg2:T25	
+R21	OWNER_OF Arg1:T22 Arg2:T26	
+R22	WORKS_AS Arg1:T28 Arg2:T27	
+R23	WORKPLACE Arg1:T28 Arg2:T46	
+R24	DATE_OF_BIRTH Arg1:T32 Arg2:T33	
+R25	PLACE_OF_BIRTH Arg1:T32 Arg2:T34	
+R26	FOUNDED_BY Arg1:T35 Arg2:T32	
+R27	FOUNDED_BY Arg1:T36 Arg2:T32	
+R28	WORKS_AS Arg1:T47 Arg2:T38	
+R29	WORKPLACE Arg1:T47 Arg2:T48	
+R30	WORKS_AS Arg1:T47 Arg2:T39	
+R31	WORKS_AS Arg1:T47 Arg2:T40	
+R32	ALTERNATIVE_NAME Arg1:T41 Arg2:T7	
+R33	WORKPLACE Arg1:T8 Arg2:T9	
+R34	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R35	LOCATED_IN Arg1:T57 Arg2:T13	
+R36	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+T60	ORGANIZATION 441 464	посольства России в США
+R37	WORKPLACE Arg1:T16 Arg2:T60	
+R38	HEADQUARTERED_IN Arg1:T60 Arg2:T17	
+R39	OWNER_OF Arg1:T60 Arg2:T43	
+T61	EVENT 545 557	скончавшийся
+R40	TAKES_PLACE_IN Arg1:T61 Arg2:T18	
+R41	PARTICIPANT_IN Arg1:T19 Arg2:T61	
+T62	PROFESSION 1031 1040	президент
+R42	WORKPLACE Arg1:T27 Arg2:T46	
+R43	ALTERNATIVE_NAME Arg1:T46 Arg2:T31	
+R44	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R45	ALTERNATIVE_NAME Arg1:T32 Arg2:T47	
+T63	PROFESSION 1421 1436	министра печати
+T64	PROFESSION 1421 1429	министра
+R46	WORKPLACE Arg1:T38 Arg2:T48	
+R47	WORKPLACE Arg1:T50 Arg2:T49	
+R48	WORKPLACE Arg1:T39 Arg2:T49	
+R49	SUBORDINATE_OF Arg1:T39 Arg2:T50	
+R50	WORKPLACE Arg1:T40 Arg2:T53	
+T65	PROFESSION 1516 1526	президента
+R51	WORKPLACE Arg1:T52 Arg2:T51	
+T66	COUNTRY 1363 1369	Russia
+R52	HEADQUARTERED_IN Arg1:T36 Arg2:T66	
+R53	KNOWS Arg1:T2 Arg2:T41	
+R54	ALTERNATIVE_NAME Arg1:T1 Arg2:T41	
+T67	NATIONALITY 527 543	гражданин России
+R55	ORIGINS_FROM Arg1:T19 Arg2:T67	
+R56	INANIMATE_INVOLVED Arg1:T11 Arg2:T56	
+R57	ORIGINS_FROM Arg1:T67 Arg2:T44	
+T68	NUMBER 924 925	3
+T69	NUMBER 928 929	2
+T70	NUMBER 930 931	2
+R58	ALTERNATIVE_NAME Arg1:T19 Arg2:T45	
+R59	ALTERNATIVE_NAME Arg1:T66 Arg2:T48	
+R60	ALTERNATIVE_NAME Arg1:T48 Arg2:T51	
+R61	ALTERNATIVE_NAME Arg1:T31 Arg2:T66	
+R62	ALTERNATIVE_NAME Arg1:T27 Arg2:T52	
+N1	Reference T1 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N2	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T10 Wikidata:Q379271	Интерфакс
+N6	Reference T17 Wikidata:Q30	США
+N7	Reference T18 Wikidata:Q61	Вашингтон
+N8	Reference T19 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N10	Reference T22 Wikidata:Q260542	Газпром-Медиа Холдинг
+N11	Reference T23 Wikidata:Q4381930	ПрофМедиа
+N12	Reference T24 Wikidata:Q1126061	ТВ-3
+N14	Reference T26 Wikidata:Q4504080	Централ Партнершип
+N15	Reference T27 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T28 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T34 Wikidata:Q649	Москва
+N18	Reference T35 Wikidata:Q4110593	Видео Интернешнл
+N19	Reference T36 Wikidata:Q22868	RT
+N20	Reference T38 Wikidata:Q159	Россия
+N22	Reference T47 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N23	Reference T48 Wikidata:Q159	Россия
+N24	Reference T49 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
+N26	Reference T51 Wikidata:Q159	Россия
+N27	Reference T52 Wikidata:Q218295	президент Российской Федерации
+N29	Reference T60 Wikidata:Q722374	Посольство США в России
+N30	Reference T64 Wikidata:Q83307	министр
+N31	Reference T65 Wikidata:Q30461	президент
+N3	Reference T8 Wikidata:NULL	
+N28	Reference T57 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:NULL	нет данных
+N33	Reference T67 Wikidata:Q492468	россияне
+N9	Reference T21 Wikidata:NULL	нет данных
+N13	Reference T25 Wikidata:Q222937	
+N32	Reference T66 Wikidata:Q159	Россия
+N21	Reference T39 Wikidata:NULL	нет данных
+N25	Reference T50 Wikidata:NULL	нет данных
+N34	Reference T40 Wikidata:NULL	нет данных
+N35	Reference T41 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N36	Reference T11 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N37	Reference T7 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N38	Reference T15 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N39	Reference T13 Wikidata:Q61	Вашингтон
+N40	Reference T5 Wikidata:Q61	Вашингтон
+N41	Reference T45 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N42	Reference T9 Wikidata:Q260542	Газпром-Медиа Холдинг
+N43	Reference T32 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N44	Reference T30 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N45	Reference T46 Wikidata:Q159	Россия
+N46	Reference T14 Wikidata:Q159	Россия
+N47	Reference T31 Wikidata:Q159	Россия
+N48	Reference T43 Wikidata:Q159	Россия
+N49	Reference T44 Wikidata:Q159	Россия
+N50	Reference T3 Wikidata:Q83307	министр
+N51	Reference T62 Wikidata:Q30461	президент
+N52	Reference T29 Wikidata:Q30461	президент
+T71	EVENT 1257 1264	родился
+R63	PARTICIPANT_IN Arg1:T32 Arg2:T71	
+R64	POINT_IN_TIME Arg1:T71 Arg2:T33	
+R65	TAKES_PLACE_IN Arg1:T71 Arg2:T34	

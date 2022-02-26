@@ -1,0 +1,135 @@
+T1	PERSON 0 16	Харви Вайнштейна
+T2	ORGANIZATION 39 65	Гильдии продюсеров Америки
+T3	PERSON 66 81	Харви Вайнштейн
+T4	ORGANIZATION 82 108	Гильдия продюсеров Америки
+T5	ORGANIZATION 110 113	PGA
+T6	NATIONALITY 197 210	американского
+T7	PERSON 221 237	Харви Вайнштейна
+T8	ORGANIZATION 240 262	Национальный совет PGA
+T9	DATE 312 332	30 октября 2017 года
+T10	NUMBER 356 369	более 8 тысяч
+T11	ORGANIZATION 411 437	Гильдии продюсеров Америки
+T12	PERSON 660 670	Вайнштейна
+T13	ORGANIZATION 784 787	PGA
+T14	PERSON 806 816	Вайнштейна
+T15	DATE 836 854	в середине октября
+T16	NUMBER 870 888	несколько десятков
+T17	PERSON 1005 1019	Гвинет Пэлтроу
+T18	PERSON 1021 1036	Анджелина Джоли
+T19	PERSON 1038 1052	Розанна Аркетт
+T20	PERSON 1054 1067	Кара Делевинь
+T21	PERSON 1069 1083	Кейт Бекинсейл
+T22	PERSON 1085 1094	Софи Дикс
+T23	PERSON 1096 1109	Азия Ардженто
+T24	PERSON 1112 1124	Мира Сорвино
+T25	AGE 1126 1135	65-летний
+T26	PERSON 1136 1151	Харви Вайнштейн
+T27	PERSON 1240 1257	Квентин Тарантино
+T28	PERSON 1259 1271	Гас Ван Сент
+T29	PERSON 1274 1289	Мартин Скорсезе
+T30	EVENT 26 35	исключили
+T31	COUNTRY 58 65	Америки
+T32	PROFESSION 47 57	продюсеров
+T34	PROFESSION 90 100	продюсеров
+T35	COUNTRY 101 108	Америки
+T36	EVENT 124 139	лишила членства
+T37	PROFESSION 211 220	продюсера
+T38	ORGANIZATION 259 262	PGA
+T39	COUNTRY 430 437	Америки
+T40	PROFESSION 419 429	продюсеров
+T41	CRIME 169 196	сексуальных домогательствах
+T42	PROFESSION 764 774	продюсеров
+T44	PROFESSION 956 965	продюсера
+T45	PROFESSION 997 1004	актрисы
+T46	DISTRICT 1178 1190	голливудских
+T47	PROFESSION 1191 1201	продюсеров
+T48	PROFESSION 1223 1234	режиссерами
+R1	WORKS_AS Arg1:T7 Arg2:T37	
+R2	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R3	CONVICTED_OF Arg1:T7 Arg2:T41	
+R4	MEMBER_OF Arg1:T40 Arg2:T11	
+R5	HEADQUARTERED_IN Arg1:T11 Arg2:T39	
+T49	CRIME 706 733	сексуальным домогательствам
+R6	MEMBER_OF Arg1:T34 Arg2:T4	
+R7	HEADQUARTERED_IN Arg1:T4 Arg2:T35	
+R8	ABBREVIATION Arg1:T4 Arg2:T5	
+R9	MEMBER_OF Arg1:T32 Arg2:T2	
+R10	HEADQUARTERED_IN Arg1:T2 Arg2:T31	
+R11	PART_OF Arg1:T8 Arg2:T38	
+R12	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R13	ORIGINS_FROM Arg1:T37 Arg2:T6	
+R14	MEMBER_OF Arg1:T42 Arg2:T13	
+T33	CRIME 906 933	сексуальных домогательствах
+R15	AGE_IS Arg1:T26 Arg2:T25	
+R16	WORKS_AS Arg1:T27 Arg2:T48	
+R17	WORKS_AS Arg1:T28 Arg2:T48	
+R18	WORKS_AS Arg1:T29 Arg2:T48	
+R19	WORKS_AS Arg1:T26 Arg2:T47	
+R20	WORKPLACE Arg1:T47 Arg2:T46	
+R21	WORKPLACE Arg1:T26 Arg2:T46	
+R22	WORKS_AS Arg1:T14 Arg2:T44	
+R23	CONVICTED_OF Arg1:T44 Arg2:T33	
+R24	CONVICTED_OF Arg1:T14 Arg2:T33	
+R25	WORKS_AS Arg1:T17 Arg2:T45	
+R26	KNOWS Arg1:T26 Arg2:T27	
+R27	KNOWS Arg1:T26 Arg2:T28	
+R28	KNOWS Arg1:T26 Arg2:T29	
+R29	WORKS_AS Arg1:T18 Arg2:T45	
+R30	WORKS_AS Arg1:T19 Arg2:T45	
+R31	WORKS_AS Arg1:T20 Arg2:T45	
+R32	WORKS_AS Arg1:T21 Arg2:T45	
+R33	WORKS_AS Arg1:T21 Arg2:T45	
+R34	WORKS_AS Arg1:T22 Arg2:T45	
+R35	WORKS_AS Arg1:T23 Arg2:T45	
+R36	WORKS_AS Arg1:T24 Arg2:T45	
+R37	KNOWS Arg1:T14 Arg2:T17	
+R38	KNOWS Arg1:T14 Arg2:T18	
+R39	KNOWS Arg1:T14 Arg2:T19	
+R40	KNOWS Arg1:T14 Arg2:T21	
+R41	KNOWS Arg1:T14 Arg2:T22	
+R42	KNOWS Arg1:T14 Arg2:T23	
+R43	KNOWS Arg1:T14 Arg2:T24	
+R44	PARTICIPANT_IN Arg1:T1 Arg2:T30	
+R45	PARTICIPANT_IN Arg1:T2 Arg2:T30	
+R46	AGENT Arg1:T4 Arg2:T36	
+R47	PARTICIPANT_IN Arg1:T7 Arg2:T36	
+R48	ALTERNATIVE_NAME Arg1:T30 Arg2:T36	
+R49	CONVICTED_OF Arg1:T12 Arg2:T49	
+N4	Reference T17 Wikidata:Q34460	Гвинет Пэлтроу
+N5	Reference T18 Wikidata:Q13909	Анджелина Джоли
+N6	Reference T19 Wikidata:Q109232	Розанна Аркетт
+N7	Reference T20 Wikidata:Q1395624	Кара Делевинь
+N8	Reference T21 Wikidata:Q179414	Кейт Бекинсейл
+N9	Reference T23 Wikidata:Q232052	Азия Ардженто
+N10	Reference T24 Wikidata:Q212026	Сорвино, Мира
+N11	Reference T26 Wikidata:Q531599	Харви Вайнштейн
+N12	Reference T27 Wikidata:Q3772	Квентин Тарантино
+N13	Reference T28 Wikidata:Q25186	Гас Ван Сент
+N14	Reference T29 Wikidata:Q41148	Мартин Скорсезе
+N15	Reference T42 Wikidata:Q3282637	кинопродюсер
+N16	Reference T45 Wikidata:Q33999	актёр
+N18	Reference T48 Wikidata:Q3455803	режиссёр
+N19	Reference T35 Wikidata:Q30	США
+N1	Reference T5 Wikidata:Q253075	
+N2	Reference T6 Wikidata:Q846570	
+N3	Reference T8 Wikidata:NULL	нет данных
+N17	Reference T46 Wikidata:Q34006	Голливуд
+N20	Reference T22 Wikidata:Q7562988	
+N21	Reference T12 Wikidata:Q531599	Харви Вайнштейн
+N22	Reference T14 Wikidata:Q531599	Харви Вайнштейн
+N23	Reference T7 Wikidata:Q531599	Харви Вайнштейн
+N24	Reference T3 Wikidata:Q531599	Харви Вайнштейн
+N25	Reference T1 Wikidata:Q531599	Харви Вайнштейн
+N26	Reference T44 Wikidata:Q3282637	кинопродюсер
+N27	Reference T40 Wikidata:Q3282637	кинопродюсер
+N28	Reference T34 Wikidata:Q3282637	кинопродюсер
+N29	Reference T47 Wikidata:Q3282637	кинопродюсер
+N30	Reference T37 Wikidata:Q3282637	кинопродюсер
+N31	Reference T32 Wikidata:Q3282637	кинопродюсер
+N32	Reference T39 Wikidata:Q30	США
+N33	Reference T31 Wikidata:Q30	США
+N34	Reference T13 Wikidata:Q253075	
+N35	Reference T38 Wikidata:Q253075	
+N36	Reference T4 Wikidata:Q253075	
+N37	Reference T11 Wikidata:Q253075	
+N38	Reference T2 Wikidata:Q253075	

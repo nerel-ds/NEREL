@@ -1,0 +1,208 @@
+T1	COUNTRY 0 10	Российские
+T2	PROFESSION 71 102	губернатором Смоленской области
+T3	PERSON 103 121	Сергеем Антуфьевым
+T4	STATE_OR_PROVINCE 175 186	Ярославской
+T5	STATE_OR_PROVINCE 189 210	Владимирской областей
+T6	ORGANIZATION 229 240	Коммерсантъ
+T8	PERSON 257 268	С.Антуфьева
+T9	DATE 295 304	с февраля
+T10	EVENT 309 324	думских выборах
+T11	DATE 325 348	в декабре прошлого года
+T12	ORGANIZATION 350 363	Единая Россия
+T13	STATE_OR_PROVINCE 375 393	Смоленской области
+T14	PERCENT 400 403	36%
+T15	PROFESSION 469 483	сити-менеджера
+T16	AGE 552 562	1150-летию
+T17	CITY 563 572	Смоленска
+T18	DATE 596 603	в 2013г
+T19	FACILITY 661 678	набережной Днепра
+T20	MONEY 734 746	1,5 млрд руб
+T21	PERCENT 840 853	50-процентным
+T23	PERSON 888 898	С.Антуфьев
+T24	ORDINAL 904 910	первым
+T25	DATE 938 951	в марте 2009г
+T27	PERSON 1100 1110	С.Антуфьев
+T28	ORGANIZATION 1129 1153	администрации президента
+T29	COUNTRY 1243 1249	России
+T30	COUNTRY 1252 1262	Белоруссии
+T31	PROFESSION 1280 1297	депутатом Госдумы
+T32	ORGANIZATION 1320 1341	комитете по делам СНГ
+T33	PROFESSION 1438 1453	депутат Госдумы
+T34	PERSON 1454 1468	Николай Панков
+T35	PROFESSION 1470 1488	министр транспорта
+T36	PROFESSION 1505 1523	зампред президента
+T39	DISTRICT 1526 1550	Северо-Кавказском округе
+T40	PERSON 1551 1565	Максим Быстров
+T41	DATE 1572 1579	в марте
+T43	STATE_OR_PROVINCE 1666 1677	Ярославской
+T44	STATE_OR_PROVINCE 1680 1699	Смоленской областей
+T45	PERSON 1702 1717	Сергей Вахруков
+T46	PERSON 1720 1735	Сергей Антуфьев
+T47	DATE 1767 1790	в декабре текущего года
+T48	CITY 1800 1809	Ярославле
+T49	PERSON 1818 1832	Сергей Неверов
+T50	PROFESSION 1865 1877	губернатором
+T51	PROFESSION 1887 1923	секретарь президиума "Единой России"
+T52	ORGANIZATION 1909 1922	Единой России
+T53	PERSON 1954 1965	С.Вахрукова
+T54	CITY 2080 2093	владимирского
+T55	PERSON 2100 2119	Николая Виноградова
+T56	ORGANIZATION 2414 2439	законодательным собранием
+T57	PROFESSION 2552 2563	губернатора
+T58	PROFESSION 48 60	губернаторов
+T59	STATE_OR_PROVINCE 84 102	Смоленской области
+T7	ORGANIZATION 309 316	думских
+T60	PROFESSION 436 450	мэра Смоленска
+T61	CITY 441 450	Смоленска
+T62	PROFESSION 486 497	Губернатору
+T63	LOCATION 672 678	Днепра
+T22	PROFESSION 911 923	губернатором
+T64	ORGANIZATION 781 812	комиссии по подготовке к юбилею
+T26	EVENT 1006 1026	региональных выборов
+T66	ORGANIZATION 1290 1297	Госдумы
+T67	ORGANIZATION 1338 1341	СНГ
+T68	PROFESSION 1076 1098	советников губернатора
+T69	PROFESSION 1087 1098	губернатора
+T70	PROFESSION 1143 1153	президента
+T71	ORGANIZATION 1446 1453	Госдумы
+T72	PERSON 1489 1502	Игорь Левитин
+T73	PROFESSION 1513 1523	президента
+T37	ORGANIZATION 1897 1923	президиума "Единой России"
+T38	PROFESSION 2080 2099	владимирского главы
+T42	IDEOLOGY 2121 2131	Коммунисты
+T74	PROFESSION 2191 2204	главу области
+T75	IDEOLOGY 2345 2355	коммунисты
+T76	PROFESSION 2447 2458	губернатора
+T77	PROFESSION 2505 2515	президенту
+T78	IDEOLOGY 2564 2574	коммуниста
+T79	EVENT 317 324	выборах
+R1	PRICE_OF Arg1:T19 Arg2:T20	
+R2	POINT_IN_TIME Arg1:T10 Arg2:T11	
+R3	PARTICIPANT_IN Arg1:T12 Arg2:T10	
+T80	PROFESSION 71 83	губернатором
+R4	WORKPLACE Arg1:T2 Arg2:T59	
+R5	LOCATED_IN Arg1:T59 Arg2:T1	
+R6	WORKS_AS Arg1:T3 Arg2:T2	
+R7	WORKPLACE Arg1:T3 Arg2:T59	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R9	WORKPLACE Arg1:T60 Arg2:T61	
+R10	LOCATED_IN Arg1:T61 Arg2:T13	
+T81	EVENT 1019 1026	выборов
+R11	SUBORDINATE_OF Arg1:T68 Arg2:T69	
+T82	PROFESSION 1076 1086	советников
+R12	WORKS_AS Arg1:T23 Arg2:T22	
+T83	PROFESSION 1280 1289	депутатом
+R13	WORKPLACE Arg1:T31 Arg2:T66	
+R14	WORKS_AS Arg1:T23 Arg2:T31	
+R15	WORKPLACE Arg1:T23 Arg2:T66	
+T84	PROFESSION 1438 1445	депутат
+R16	WORKS_AS Arg1:T34 Arg2:T33	
+R17	WORKPLACE Arg1:T34 Arg2:T71	
+R18	WORKPLACE Arg1:T33 Arg2:T71	
+T85	EVENT 1620 1639	всенародных выборов
+R19	WORKPLACE Arg1:T38 Arg2:T54	
+R20	WORKS_AS Arg1:T55 Arg2:T38	
+R21	WORKPLACE Arg1:T55 Arg2:T54	
+R22	WORKS_AS Arg1:T49 Arg2:T51	
+R23	WORKPLACE Arg1:T49 Arg2:T37	
+R24	WORKPLACE Arg1:T51 Arg2:T37	
+T86	EVENT 1810 1817	побывал
+R25	PARTICIPANT_IN Arg1:T49 Arg2:T86	
+T87	DATE 1792 1797	Вчера
+R26	TAKES_PLACE_IN Arg1:T86 Arg2:T48	
+R27	POINT_IN_TIME Arg1:T86 Arg2:T87	
+R28	IDEOLOGY_OF Arg1:T55 Arg2:T42	
+R29	IDEOLOGY_OF Arg1:T57 Arg2:T78	
+R30	WORKPLACE Arg1:T45 Arg2:T43	
+R31	WORKPLACE Arg1:T46 Arg2:T44	
+R32	ALTERNATIVE_NAME Arg1:T45 Arg2:T53	
+R33	AGE_IS Arg1:T17 Arg2:T16	
+T88	EVENT 429 435	выборы
+T89	EVENT 429 450	выборы мэра Смоленска
+R34	TAKES_PLACE_IN Arg1:T89 Arg2:T61	
+R35	LOCATED_IN Arg1:T19 Arg2:T17	
+R36	LOCATED_IN Arg1:T4 Arg2:T1	
+R37	LOCATED_IN Arg1:T5 Arg2:T1	
+T90	EVENT 958 981	вынесено предупреждение
+R38	PARTICIPANT_IN Arg1:T23 Arg2:T90	
+R39	POINT_IN_TIME Arg1:T90 Arg2:T25	
+R40	WORKPLACE Arg1:T27 Arg2:T32	
+T91	PROFESSION 1470 1477	министр
+R41	WORKS_AS Arg1:T72 Arg2:T35	
+T92	PROFESSION 1505 1550	зампред президента в Северо-Кавказском округе
+R42	WORKS_AS Arg1:T40 Arg2:T92	
+R43	WORKPLACE Arg1:T40 Arg2:T39	
+R44	WORKPLACE Arg1:T92 Arg2:T39	
+R45	PART_OF Arg1:T37 Arg2:T52	
+R46	SUBORDINATE_OF Arg1:T36 Arg2:T73	
+R47	PART_OF Arg1:T32 Arg2:T66	
+T65	LOCATION 1526 1543	Северо-Кавказском
+R48	LOCATED_IN Arg1:T39 Arg2:T65	
+N3	Reference T5 Wikidata:Q2702	Владимирская область
+N4	Reference T6 Wikidata:Q1780189	Коммерсантъ
+N5	Reference T12 Wikidata:Q151469	Единая Россия
+N6	Reference T15 Wikidata:Q696776	сити-менеджер
+N7	Reference T17 Wikidata:Q2337	Смоленск
+N9	Reference T27 Wikidata:Q27002	сельсовет в СССР
+N10	Reference T28 Wikidata:Q2060629	Администрация президента России
+N11	Reference T29 Wikidata:Q159	Россия
+N12	Reference T30 Wikidata:Q184	Белоруссия
+N13	Reference T34 Wikidata:Q19818053	Николай Васильевич Панков
+N15	Reference T39 Wikidata:Q483599	Южный федеральный округ
+N16	Reference T40 Wikidata:Q127252	МакSим
+N18	Reference T48 Wikidata:Q2423	Ярославль
+N19	Reference T49 Wikidata:Q4315683	Сергей Иванович Неверов
+N21	Reference T53 Wikidata:Q4105423	Вахруков, Сергей Алексеевич
+N23	Reference T55 Wikidata:Q4111788	Николай Аркадьевич Виноградов
+N24	Reference T56 Wikidata:Q11204	орган законодательной власти
+N25	Reference T59 Wikidata:Q2347	Смоленская область
+N26	Reference T7 Wikidata:Q2028639	Юлий Теодорович Дунский
+N28	Reference T62 Wikidata:Q132050	губернатор
+N31	Reference T67 Wikidata:Q7779	Содружество Независимых Государств
+N33	Reference T71 Wikidata:Q715641	Государственная дума
+N34	Reference T72 Wikidata:Q982464	Левитин, Игорь Евгеньевич
+N35	Reference T73 Wikidata:Q30461	президент
+N36	Reference T37 Wikidata:Q151469	Единая Россия
+N40	Reference T84 Wikidata:Q486839	член парламента
+N41	Reference T91 Wikidata:Q83307	министр
+N2	Reference T2 Wikidata:NULL	нет данных
+N27	Reference T60 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:NULL	нет данных
+N29	Reference T63 Wikidata:Q40855	Днепр
+N30	Reference T64 Wikidata:NULL	нет данных
+N32	Reference T68 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:Q159	Россия
+N39	Reference T82 Wikidata:Q2994387	
+N44	Reference T31 Wikidata:Q21099063	
+N45	Reference T32 Wikidata:NULL	нет данных
+N46	Reference T35 Wikidata:NULL	нет данных
+N14	Reference T36 Wikidata:NULL	нет данных
+N42	Reference T92 Wikidata:NULL	нет данных
+N43	Reference T65 Wikidata:Q37736	Северный Кавказ
+N20	Reference T51 Wikidata:NULL	нет данных
+N37	Reference T38 Wikidata:NULL	нет данных
+N38	Reference T74 Wikidata:NULL	нет данных
+N17	Reference T43 Wikidata:Q2448	
+N22	Reference T54 Wikidata:Q2684	Владимир
+N47	Reference T52 Wikidata:Q151469	Единая Россия
+N48	Reference T61 Wikidata:Q2337	Смоленск
+N49	Reference T23 Wikidata:Q27002	сельсовет в СССР
+N50	Reference T46 Wikidata:Q27002	сельсовет в СССР
+N51	Reference T8 Wikidata:Q27002	сельсовет в СССР
+N52	Reference T3 Wikidata:Q27002	сельсовет в СССР
+N53	Reference T45 Wikidata:Q4105423	Вахруков, Сергей Алексеевич
+N54	Reference T44 Wikidata:Q2347	Смоленская область
+N55	Reference T13 Wikidata:Q2347	Смоленская область
+N56	Reference T57 Wikidata:Q132050	губернатор
+N57	Reference T76 Wikidata:Q132050	губернатор
+N58	Reference T69 Wikidata:Q132050	губернатор
+N59	Reference T50 Wikidata:Q132050	губернатор
+N60	Reference T80 Wikidata:Q132050	губернатор
+N61	Reference T58 Wikidata:Q132050	губернатор
+N62	Reference T22 Wikidata:Q132050	губернатор
+N63	Reference T66 Wikidata:Q715641	Государственная дума
+N64	Reference T70 Wikidata:Q30461	президент
+N65	Reference T77 Wikidata:Q30461	президент
+N66	Reference T83 Wikidata:Q486839	член парламента
+N67	Reference T33 Wikidata:Q21099063	
+N68	Reference T4 Wikidata:Q2448	

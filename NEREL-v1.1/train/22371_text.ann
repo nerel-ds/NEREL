@@ -1,0 +1,203 @@
+T1	NATIONALITY 11 18	россиян
+T2	COUNTRY 21 26	Сирии
+T3	EVENT 45 78	Антиправительственные выступления
+T4	CITY 81 86	Хомсе
+T5	CITY 88 95	Латакия
+T6	CITY 97 103	Тартус
+T7	ORGANIZATION 105 126	Посольство РФ в Сирии
+T8	NUMBER 154 158	двух
+T9	CITY 183 190	Латакия
+T10	PROFESSION 202 214	пресс-атташе
+T11	PERSON 226 240	Сергея Маркова
+T12	COUNTRY 244 249	Сирии
+T13	ORGANIZATION 280 290	Посольство
+T14	PROFESSION 390 402	пресс-атташе
+T15	COUNTRY 411 422	итальянские
+T16	NUMBER 448 452	тр’х
+T17	CITY 511 518	Латакии
+T18	ORGANIZATION 520 523	МИД
+T19	COUNTRY 548 553	Сирии
+T20	COUNTRY 566 577	итальянский
+T21	NUMBER 594 597	два
+T22	NATIONALITY 693 702	итальянец
+T23	AGE 705 714	64-летний
+T24	PROFESSION 715 731	инженер-электрик
+T25	PERSON 732 746	Марио Беллуомо
+T26	NUMBER 785 789	двух
+T27	NATIONALITY 800 809	итальянца
+T28	COUNTRY 812 817	Сирии
+T29	ORGANIZATION 887 890	МИД
+T30	NUMBER 899 903	трое
+T31	COUNTRY 965 974	сирийской
+T32	ORGANIZATION 984 996	Hmisho Steel
+T33	ORDINAL 998 1004	Первый
+T34	NATIONALITY 1018 1027	россиянин
+T35	COUNTRY 1074 1079	Сирию
+T36	DATE 1093 1112	в октябре 2012 года
+T37	ORDINAL 1114 1120	Второй
+T38	NATIONALITY 1123 1129	сириец
+T39	PERSON 1130 1147	Абдессатар Хассун
+T40	COUNTRY 1180 1182	РФ
+T41	ORDINAL 1184 1190	Третий
+T43	COUNTRY 1203 1209	Италии
+T44	PERSON 1210 1224	Марио Беллуомо
+T45	LOCATION 1264 1269	Хасия
+T46	CITY 1278 1283	Хомса
+T47	CITY 1344 1349	Хомса
+T48	CITY 1352 1358	Тартус
+T49	ORGANIZATION 1371 1375	МИДа
+T50	EVENT 1423 1445	телефонных переговоров
+T51	NATIONALITY 1478 1487	Россиянам
+T52	ORGANIZATION 1488 1491	МИД
+T53	COUNTRY 1529 1534	Сирии
+T54	DATE 1540 1557	с весны 2011 года
+T55	PROFESSION 1611 1621	президента
+T56	COUNTRY 116 118	РФ
+T57	COUNTRY 121 126	Сирии
+T58	EVENT 144 153	похищения
+T59	NATIONALITY 159 166	россиян
+T61	PROFESSION 202 225	пресс-атташе посольства
+T62	ORGANIZATION 215 225	посольства
+T63	COUNTRY 250 260	российские
+T66	EVENT 438 447	похищении
+T67	PROFESSION 465 498	сотрудников сталелитейного завода
+T69	ORGANIZATION 520 530	МИД Италии
+T70	COUNTRY 524 530	Италии
+T71	EVENT 558 565	похищен
+T72	EVENT 653 665	происшествия
+T73	PROFESSION 715 722	инженер
+T74	PROFESSION 723 731	электрик
+T75	NATIONALITY 790 797	россиян
+T76	ORGANIZATION 887 893	МИД РФ
+T77	COUNTRY 891 893	РФ
+T78	PROFESSION 924 996	сотрудниками сталелитейного производства сирийской компании Hmisho Steel
+T80	PERSON 1039 1046	Горелов
+T81	EVENT 1287 1296	захватили
+T82	EVENT 1434 1445	переговоров
+T83	EVENT 1565 1591	вооруженное противостояние
+T84	PERSON 1622 1634	Башара Асада
+R1	HEADQUARTERED_IN Arg1:T7 Arg2:T57	
+R2	OWNER_OF Arg1:T56 Arg2:T7	
+R3	TAKES_PLACE_IN Arg1:T3 Arg2:T4	
+T86	IDEOLOGY 45 66	Антиправительственные
+R4	IDEOLOGY_OF Arg1:T3 Arg2:T86	
+R5	LOCATED_IN Arg1:T4 Arg2:T2	
+R6	LOCATED_IN Arg1:T5 Arg2:T2	
+R7	LOCATED_IN Arg1:T6 Arg2:T2	
+R8	PARTICIPANT_IN Arg1:T59 Arg2:T58	
+R9	ORIGINS_FROM Arg1:T59 Arg2:T56	
+R11	WORKPLACE Arg1:T61 Arg2:T62	
+R12	WORKS_AS Arg1:T11 Arg2:T61	
+R13	ALTERNATIVE_NAME Arg1:T56 Arg2:T63	
+R15	LOCATED_IN Arg1:T67 Arg2:T17	
+R16	ALTERNATIVE_NAME Arg1:T15 Arg2:T70	
+R17	HEADQUARTERED_IN Arg1:T69 Arg2:T70	
+R18	ALTERNATIVE_NAME Arg1:T70 Arg2:T20	
+R19	TAKES_PLACE_IN Arg1:T71 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T71 Arg2:T72	
+R21	WORKS_AS Arg1:T25 Arg2:T24	
+R22	AGE_IS Arg1:T24 Arg2:T23	
+R23	ORIGINS_FROM Arg1:T25 Arg2:T22	
+R24	ORIGINS_FROM Arg1:T22 Arg2:T20	
+T64	EVENT 774 784	похитившие
+R25	PARTICIPANT_IN Arg1:T75 Arg2:T64	
+R26	PARTICIPANT_IN Arg1:T27 Arg2:T64	
+R27	TAKES_PLACE_IN Arg1:T64 Arg2:T28	
+R28	ALTERNATIVE_NAME Arg1:T66 Arg2:T71	
+R29	ALTERNATIVE_NAME Arg1:T71 Arg2:T64	
+R30	HEADQUARTERED_IN Arg1:T76 Arg2:T77	
+R31	WORKPLACE Arg1:T78 Arg2:T32	
+R33	HEADQUARTERED_IN Arg1:T32 Arg2:T31	
+R34	ALTERNATIVE_NAME Arg1:T28 Arg2:T31	
+R32	PARTICIPANT_IN Arg1:T78 Arg2:T64	
+R35	ORIGINS_FROM Arg1:T80 Arg2:T34	
+R36	WORKS_AS Arg1:T80 Arg2:T78	
+R37	ORIGINS_FROM Arg1:T39 Arg2:T38	
+R38	ORIGINS_FROM Arg1:T38 Arg2:T31	
+R39	WORKS_AS Arg1:T39 Arg2:T78	
+R40	ORIGINS_FROM Arg1:T44 Arg2:T43	
+R41	WORKS_AS Arg1:T44 Arg2:T78	
+R42	LOCATED_IN Arg1:T44 Arg2:T45	
+R43	LOCATED_IN Arg1:T39 Arg2:T45	
+R44	LOCATED_IN Arg1:T80 Arg2:T45	
+R45	ALTERNATIVE_NAME Arg1:T64 Arg2:T81	
+R46	START_TIME Arg1:T83 Arg2:T54	
+R47	WORKS_AS Arg1:T84 Arg2:T55	
+R48	LOCATED_IN Arg1:T9 Arg2:T57	
+R49	HEADQUARTERED_IN Arg1:T62 Arg2:T12	
+T42	NATIONALITY 250 269	российские граждане
+R50	ORIGINS_FROM Arg1:T42 Arg2:T63	
+R51	ALTERNATIVE_NAME Arg1:T42 Arg2:T59	
+R14	PARTICIPANT_IN Arg1:T67 Arg2:T66	
+R10	TAKES_PLACE_IN Arg1:T58 Arg2:T9	
+R52	TAKES_PLACE_IN Arg1:T83 Arg2:T53	
+T60	EVENT 27 44	потребовали выкуп
+R53	TAKES_PLACE_IN Arg1:T60 Arg2:T2	
+R54	PARTICIPANT_IN Arg1:T1 Arg2:T60	
+T65	EVENT 823 840	потребовали выкуп
+R55	ALTERNATIVE_NAME Arg1:T60 Arg2:T65	
+R56	TAKES_PLACE_IN Arg1:T65 Arg2:T28	
+R57	PARTICIPANT_IN Arg1:T75 Arg2:T65	
+R58	PARTICIPANT_IN Arg1:T27 Arg2:T65	
+T68	EVENT 1388 1415	выдвинули требование выкупа
+R59	SUBEVENT_OF Arg1:T68 Arg2:T50	
+R60	ALTERNATIVE_NAME Arg1:T65 Arg2:T68	
+N4	Reference T17 Wikidata:Q200030	Латакия
+N5	Reference T22 Wikidata:Q50001	итальянцы
+N8	Reference T35 Wikidata:Q858	Сирия
+N9	Reference T38 Wikidata:Q878607	сирийцы
+N11	Reference T40 Wikidata:Q159	Россия
+N12	Reference T43 Wikidata:Q38	Италия
+N13	Reference T46 Wikidata:Q131301	Хомс
+N14	Reference T48 Wikidata:Q174916	Тартус
+N15	Reference T55 Wikidata:Q30461	президент
+N16	Reference T59 Wikidata:Q492468	россияне
+N18	Reference T62 Wikidata:Q3917681	посольство
+N20	Reference T69 Wikidata:Q789842	Министерство иностранных дел Италии
+N21	Reference T73 Wikidata:Q81096	инженер
+N22	Reference T74 Wikidata:Q165029	электромонтёр
+N23	Reference T76 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N24	Reference T84 Wikidata:Q44329	Башар Асад
+N1	Reference T7 Wikidata:Q5369842	
+N2	Reference T10 Wikidata:Q2358549	
+N17	Reference T61 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N19	Reference T67 Wikidata:NULL	нет данных
+N25	Reference T24 Wikidata:Q1326886	
+N6	Reference T25 Wikidata:NULL	нет данных
+N26	Reference T45 Wikidata:Q5871229	
+N10	Reference T39 Wikidata:NULL	нет данных
+N27	Reference T80 Wikidata:NULL	нет данных
+N7	Reference T29 Wikidata:Q20901295	Министерство иностранных дел
+N28	Reference T78 Wikidata:NULL	нет данных
+N29	Reference T32 Wikidata:Q5873646	
+N30	Reference T9 Wikidata:Q200030	Латакия
+N31	Reference T5 Wikidata:Q200030	Латакия
+N32	Reference T27 Wikidata:Q50001	итальянцы
+N33	Reference T57 Wikidata:Q858	Сирия
+N34	Reference T53 Wikidata:Q858	Сирия
+N35	Reference T19 Wikidata:Q858	Сирия
+N36	Reference T31 Wikidata:Q858	Сирия
+N37	Reference T12 Wikidata:Q858	Сирия
+N38	Reference T28 Wikidata:Q858	Сирия
+N39	Reference T2 Wikidata:Q858	Сирия
+N40	Reference T63 Wikidata:Q159	Россия
+N41	Reference T77 Wikidata:Q159	Россия
+N42	Reference T56 Wikidata:Q159	Россия
+N43	Reference T70 Wikidata:Q38	Италия
+N44	Reference T15 Wikidata:Q38	Италия
+N45	Reference T20 Wikidata:Q38	Италия
+N46	Reference T4 Wikidata:Q131301	Хомс
+N47	Reference T47 Wikidata:Q131301	Хомс
+N48	Reference T6 Wikidata:Q174916	Тартус
+N49	Reference T75 Wikidata:Q492468	россияне
+N50	Reference T51 Wikidata:Q492468	россияне
+N51	Reference T34 Wikidata:Q492468	россияне
+N52	Reference T42 Wikidata:Q492468	россияне
+N53	Reference T1 Wikidata:Q492468	россияне
+N54	Reference T13 Wikidata:Q3917681	посольство
+N55	Reference T14 Wikidata:Q2358549	
+N56	Reference T44 Wikidata:NULL	нет данных
+N57	Reference T18 Wikidata:Q20901295	Министерство иностранных дел
+N58	Reference T49 Wikidata:Q20901295	Министерство иностранных дел
+N59	Reference T52 Wikidata:Q20901295	Министерство иностранных дел

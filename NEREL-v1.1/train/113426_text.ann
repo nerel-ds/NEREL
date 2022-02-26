@@ -1,0 +1,137 @@
+T1	PROFESSION 4 19	советник Трампа
+T2	COUNTRY 31 41	российских
+T3	MONEY 51 58	$68 000
+T4	PROFESSION 81 88	генерал
+T5	PERSON 99 110	Майкл Флинн
+T6	PROFESSION 121 130	президент
+T7	PROFESSION 201 239	советника по национальной безопасности
+T8	DATE 241 252	в 2015 году
+T9	MONEY 261 282	почти 68 000 долларов
+T10	COUNTRY 286 296	российских
+T11	PERSON 381 388	Флинном
+T12	MONEY 487 502	45 386 долларов
+T13	COUNTRY 525 535	российский
+T14	ORGANIZATION 562 564	RT
+T15	PERSON 567 572	Флинн
+T16	CITY 584 590	Москву
+T17	AGE 601 611	10-летнего
+T18	EVENT 645 665	торжественном приёме
+T19	COUNTRY 695 705	российским
+T20	PERSON 718 736	Владимиром Путиным
+T21	PERSON 751 756	Флинн
+T22	NUMBER 765 768	два
+T23	MONEY 780 795	11 250 долларов
+T24	NUMBER 797 801	один
+T25	COUNTRY 807 820	американского
+T26	ORGANIZATION 911 922	Волга-Днепр
+T27	PERSON 951 958	Флинном
+T28	PROFESSION 975 986	конгрессмен
+T29	PERSON 987 1003	Элайджа Каммингс
+T30	PERSON 1005 1020	Elijah Cummings
+T31	IDEOLOGY 1031 1039	демократ
+T32	ORGANIZATION 1042 1083	комитете по надзору Палаты представителей
+T33	PERSON 1109 1115	Трампу
+T34	PROFESSION 1117 1133	министру обороны
+T35	PROFESSION 1150 1163	директору ФБР
+T36	PERSON 1164 1176	Джеймсу Коми
+T37	PERSON 1178 1186	Каммингс
+T38	PERSON 1211 1216	Флинн
+T39	COUNTRY 1266 1273	Россией
+T40	COUNTRY 1276 1283	Турцией
+T41	ORGANIZATION 1358 1368	Белом доме
+T42	PERSON 131 144	Дональд Трамп
+T43	PERSON 1134 1147	Джиму Мэттису
+T44	PROFESSION 706 717	президентом
+T46	ORGANIZATION 1062 1083	Палаты представителей
+T47	ORGANIZATION 1160 1163	ФБР
+T48	COUNTRY 95 98	США
+T49	ORGANIZATION 89 98	Армии США
+T50	PROFESSION 81 98	генерал Армии США
+T51	PERSON 13 19	Трампа
+T52	PERSON 59 70	Майкл Флинн
+R1	WORKPLACE Arg1:T35 Arg2:T47	
+R2	WORKS_AS Arg1:T36 Arg2:T35	
+R3	WORKPLACE Arg1:T36 Arg2:T47	
+R4	WORKS_AS Arg1:T43 Arg2:T34	
+R5	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R6	KNOWS Arg1:T52 Arg2:T51	
+R7	WORKS_AS Arg1:T42 Arg2:T6	
+R8	HEADQUARTERED_IN Arg1:T14 Arg2:T13	
+R9	AGE_IS Arg1:T14 Arg2:T17	
+T45	PROFESSION 695 717	российским президентом
+R10	WORKS_AS Arg1:T20 Arg2:T45	
+R11	WORKPLACE Arg1:T20 Arg2:T19	
+R12	HEADQUARTERED_IN Arg1:T49 Arg2:T48	
+R13	WORKPLACE Arg1:T50 Arg2:T49	
+R14	WORKS_AS Arg1:T5 Arg2:T50	
+R15	WORKPLACE Arg1:T5 Arg2:T49	
+R16	WORKS_AS Arg1:T5 Arg2:T7	
+R17	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R18	ORGANIZES Arg1:T14 Arg2:T18	
+R19	PARTICIPANT_IN Arg1:T15 Arg2:T18	
+R20	TAKES_PLACE_IN Arg1:T18 Arg2:T16	
+R21	PARTICIPANT_IN Arg1:T20 Arg2:T18	
+R22	KNOWS Arg1:T15 Arg2:T20	
+R23	WORKPLACE Arg1:T45 Arg2:T19	
+R24	EXPENDITURE Arg1:T26 Arg2:T23	
+R25	EXPENDITURE Arg1:T14 Arg2:T12	
+R26	WORKS_AS Arg1:T29 Arg2:T28	
+R27	IDEOLOGY_OF Arg1:T30 Arg2:T31	
+R28	PART_OF Arg1:T32 Arg2:T46	
+R29	WORKPLACE Arg1:T29 Arg2:T32	
+R30	ALTERNATIVE_NAME Arg1:T29 Arg2:T37	
+R31	WORKPLACE Arg1:T38 Arg2:T41	
+R32	OWNER_OF Arg1:T5 Arg2:T3	
+R33	INCOME Arg1:T51 Arg2:T3	
+R34	INCOME Arg1:T5 Arg2:T9	
+R35	INCOME Arg1:T11 Arg2:T12	
+R36	INCOME Arg1:T21 Arg2:T23	
+T53	COUNTRY 829 839	российской
+T54	LOCATION 911 916	Волга
+T55	LOCATION 917 922	Днепр
+R37	ALTERNATIVE_NAME Arg1:T21 Arg2:T27	
+N2	Reference T4 Wikidata:Q83460	генерал
+N4	Reference T6 Wikidata:Q30461	президент
+N5	Reference T7 Wikidata:Q1414246	советник президента США по национальной безопасности
+N6	Reference T10 Wikidata:Q159	Россия
+N7	Reference T14 Wikidata:Q22868	RT
+N8	Reference T16 Wikidata:Q649	Москва
+N9	Reference T20 Wikidata:Q7747	Владимир Владимирович Путин
+N11	Reference T26 Wikidata:Q765297	Волга-Днепр
+N14	Reference T34 Wikidata:Q2518691	министр обороны
+N15	Reference T35 Wikidata:Q1057168	Директор Федерального бюро расследований
+N16	Reference T36 Wikidata:Q167607	Коми, Джеймс
+N17	Reference T39 Wikidata:Q159	Россия
+N18	Reference T40 Wikidata:Q43	Турция
+N19	Reference T41 Wikidata:Q35525	Белый дом
+N20	Reference T42 Wikidata:Q22686	Дональд Трамп
+N21	Reference T43 Wikidata:Q267902	Мэттис, Джеймс
+N22	Reference T46 Wikidata:Q11701	Палата представителей США
+N23	Reference T47 Wikidata:Q8333	Федеральное бюро расследований
+N24	Reference T48 Wikidata:Q30	США
+N25	Reference T49 Wikidata:Q9212	Армия США
+N26	Reference T50 Wikidata:Q3100539	генерал армий США
+N27	Reference T51 Wikidata:Q22686	Дональд Трамп
+N28	Reference T45 Wikidata:Q218295	президент Российской Федерации
+N30	Reference T55 Wikidata:Q48256	Днепр
+N1	Reference T1 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q30	США
+N29	Reference T54 Wikidata:Q626	Волга
+N3	Reference T5 Wikidata:Q6834757	
+N12	Reference T27 Wikidata:Q6834757	
+N31	Reference T28 Wikidata:Q14761450	
+N13	Reference T32 Wikidata:NULL	нет данных
+N32	Reference T37 Wikidata:Q934898	
+N33	Reference T44 Wikidata:Q30461	президент
+N34	Reference T13 Wikidata:Q159	Россия
+N35	Reference T53 Wikidata:Q159	Россия
+N36	Reference T19 Wikidata:Q159	Россия
+N37	Reference T2 Wikidata:Q159	Россия
+N38	Reference T33 Wikidata:Q22686	Дональд Трамп
+N39	Reference T11 Wikidata:Q6834757	
+N40	Reference T52 Wikidata:Q6834757	
+N41	Reference T38 Wikidata:Q6834757	
+N42	Reference T15 Wikidata:Q6834757	
+N43	Reference T21 Wikidata:Q6834757	
+N44	Reference T29 Wikidata:Q934898	
+N45	Reference T30 Wikidata:Q934898	

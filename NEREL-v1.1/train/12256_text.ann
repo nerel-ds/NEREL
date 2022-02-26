@@ -1,0 +1,46 @@
+T1	NUMBER 0 12	Почти двести
+T2	ORGANIZATION 152 155	ООН
+T3	COUNTRY 179 191	мексиканском
+T5	COUNTRY 311 318	Боливия
+T6	NUMBER 466 470	двух
+T7	LAW 537 540	LCA
+T8	CITY 577 586	Киотскому
+T10	ORGANIZATION 612 615	РБК
+T11	LAW 629 632	LCA
+T12	LAW 860 864	REDD
+T13	MONEY 1013 1030	200 млрд долларов
+T14	DATE 1031 1039	ежегодно
+T15	DATE 1065 1076	с 2020 года
+T16	MONEY 1241 1258	100 млрд долларов
+T17	LAW 133 176	Рамочной конвенции ООН по изменению климата
+T4	CITY 192 199	Канкуне
+T9	LAW 577 596	Киотскому протоколу
+T18	CITY 658 667	киотского
+T19	EVENT 1050 1064	вступит в силу
+T20	ORGANIZATION 949 982	Фонд чистого («зелёного») климата
+R1	LOCATED_IN Arg1:T4 Arg2:T3	
+T21	EVENT 114 125	конференции
+R2	TAKES_PLACE_IN Arg1:T21 Arg2:T4	
+R3	PARTICIPANT_IN Arg1:T5 Arg2:T21	
+R4	DATE_FOUNDED_IN Arg1:T19 Arg2:T15	
+R5	ORIGINS_FROM Arg1:T17 Arg2:T2	
+T22	EVENT 200 226	одобрили проект соглашение
+T23	LAW 216 257	соглашение по борьбе с выбросами углерода
+R6	INANIMATE_INVOLVED Arg1:T23 Arg2:T22	
+R7	SUBEVENT_OF Arg1:T22 Arg2:T21	
+R8	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T18	
+N1	Reference T2 Wikidata:Q1065	Организация Объединённых Наций
+N3	Reference T5 Wikidata:Q750	Боливия
+N4	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N7	Reference T4 Wikidata:Q8969	Канкун
+N8	Reference T9 Wikidata:Q47359	Киотский протокол
+N6	Reference T17 Wikidata:Q208645	Рамочная конвенция ООН об изменении климата
+N2	Reference T3 Wikidata:Q96	Мексика
+N9	Reference T18 Wikidata:Q34600	Киото
+N5	Reference T12 Wikidata:Q77630	
+N10	Reference T20 Wikidata:Q3075923	
+N12	Reference T11 Wikidata:NULL	нет данных
+N11	Reference T23 Wikidata:NULL	нет данных
+N13	Reference T8 Wikidata:Q34600	Киото
+N14	Reference T7 Wikidata:NULL	нет данных

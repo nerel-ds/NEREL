@@ -1,0 +1,170 @@
+T1	PROFESSION 0 16	Министр финансов
+T2	PERSON 87 98	Томас Шефер
+T3	PROFESSION 145 162	министра финансов
+T4	PERSON 176 187	Томас Шефер
+T5	PERSON 189 203	Thomas Schäfer
+T6	PROFESSION 206 222	министр финансов
+T7	DATE 298 307	в субботу
+T8	DATE 315 333	28 марта 2020 года
+T9	CITY 354 369	Хоххайм-ам-Майн
+T13	CITY 371 387	Hochheim am Main
+T16	COUNTRY 421 430	немецкого
+T17	PRODUCT 455 458	ICE
+T18	PROFESSION 470 486	премьер-министра
+T19	PERSON 500 514	Фолькера Буфье
+T20	PERSON 516 531	Volker Bouffier
+T21	ORDINAL 549 555	первым
+T22	DISEASE 619 629	SARS-CoV-2
+T23	PERSON 648 661	Томаса Шефера
+T24	COUNTRY 663 671	немецкая
+T25	ORGANIZATION 679 682	Faz
+T26	STATE_OR_PROVINCE 813 819	Гессен
+T27	PRODUCT 873 882	Интернета
+T28	PROFESSION 958 973	Премьер-министр
+T29	PERSON 987 1000	Фолькер Буфье
+T30	PERSON 1015 1026	Томас Шефер
+T31	PERSON 1117 1128	Томас Шефер
+T32	PERSON 1255 1261	Буффье
+T33	PROFESSION 1377 1394	Министру финансов
+T35	ORGANIZATION 1420 1461	Христианско-демократический союз Германии
+T36	PERSON 1463 1476	Томасу Шеферу
+T37	AGE 1482 1489	54 года
+T38	NUMBER 1514 1518	двое
+T39	DATE 1527 1547	Несколько дней назад
+T40	ORGANIZATION 1560 1576	ландтаге Гессена
+T41	PERSON 1578 1583	Шефер
+T42	COUNTRY 17 25	немецкой
+T43	STATE_OR_PROVINCE 32 38	Гессен
+T44	DISEASE 45 57	коронавируса
+T45	PROFESSION 0 38	Министр финансов немецкой земли Гессен
+T46	PROFESSION 0 7	Министр
+T47	EVENT 58 86	покончил жизнь самоубийством
+T48	STATE_OR_PROVINCE 169 175	Гессен
+T49	PROFESSION 145 175	министра финансов земли Гессен
+T50	PROFESSION 145 153	министра
+T51	COUNTRY 223 231	немецкой
+T52	LOCATION 238 244	Гессен
+T53	PROFESSION 206 244	министр финансов немецкой земли Гессен
+T54	PROFESSION 206 213	министр
+T55	EVENT 246 274	покончил жизнь самоубийством
+T56	TIME 298 333	в субботу утром, 28 марта 2020 года
+T10	STATE_OR_PROVINCE 493 499	Гессен
+T11	PROFESSION 470 499	премьер-министра земли Гессен
+T12	PROFESSION 478 486	министра
+T14	EVENT 556 582	политическим самоубийством
+T15	EVENT 569 582	самоубийством
+T57	DISEASE 606 618	коронавируса
+T58	EVENT 641 647	смерть
+T59	STATE_OR_PROVINCE 980 986	Гессен
+T60	PROFESSION 958 986	Премьер-министр земли Гессен
+T61	PROFESSION 966 973	министр
+T62	STATE_OR_PROVINCE 1401 1407	Гессен
+T63	PROFESSION 1377 1407	Министру финансов земли Гессен
+T64	PROFESSION 1377 1385	Министру
+T65	ORGANIZATION 1415 1418	ХДС
+T66	COUNTRY 1453 1461	Германии
+T67	STATE_OR_PROVINCE 1569 1576	Гессена
+T68	DISEASE 1600 1612	коронавируса
+R1	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R2	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R3	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R4	WORKS_AS Arg1:T19 Arg2:T11	
+R5	WORKPLACE Arg1:T19 Arg2:T10	
+R6	PARTICIPANT_IN Arg1:T23 Arg2:T58	
+R7	WORKS_AS Arg1:T29 Arg2:T60	
+R8	WORKPLACE Arg1:T29 Arg2:T59	
+R9	AGE_IS Arg1:T36 Arg2:T37	
+R10	ABBREVIATION Arg1:T35 Arg2:T65	
+R11	AGENT Arg1:T45 Arg2:T47	
+R12	WORKS_AS Arg1:T2 Arg2:T49	
+R13	WORKPLACE Arg1:T2 Arg2:T48	
+R14	AGENT Arg1:T4 Arg2:T55	
+T69	EVENT 261 274	самоубийством
+R15	WORKS_AS Arg1:T4 Arg2:T53	
+T70	EVENT 280 297	тело было найдено
+R16	POINT_IN_TIME Arg1:T70 Arg2:T8	
+T71	DISEASE 606 629	коронавируса SARS-CoV-2
+R17	WORKS_AS Arg1:T36 Arg2:T63	
+R18	MEMBER_OF Arg1:T36 Arg2:T65	
+R19	WORKPLACE Arg1:T36 Arg2:T62	
+T34	EVENT 73 86	самоубийством
+R20	WORKPLACE Arg1:T45 Arg2:T43	
+R21	LOCATED_IN Arg1:T43 Arg2:T42	
+R22	WORKPLACE Arg1:T49 Arg2:T48	
+R23	WORKPLACE Arg1:T11 Arg2:T10	
+R24	HEADQUARTERED_IN Arg1:T25 Arg2:T24	
+R25	WORKPLACE Arg1:T60 Arg2:T59	
+R26	WORKPLACE Arg1:T63 Arg2:T62	
+R27	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+T72	EVENT 1591 1612	эпидемию коронавируса
+R28	HEADQUARTERED_IN Arg1:T40 Arg2:T67	
+R29	HEADQUARTERED_IN Arg1:T35 Arg2:T66	
+T73	RELIGION 1420 1431	Христианско
+T74	IDEOLOGY 1432 1447	демократический
+R30	RELIGION_OF Arg1:T35 Arg2:T73	
+R31	IDEOLOGY_OF Arg1:T35 Arg2:T74	
+R32	RELIGION_OF Arg1:T36 Arg2:T73	
+R33	IDEOLOGY_OF Arg1:T36 Arg2:T74	
+R34	LOCATED_IN Arg1:T52 Arg2:T51	
+R35	WORKPLACE Arg1:T53 Arg2:T52	
+T75	PROFESSION 726 733	политик
+R36	WORKS_AS Arg1:T23 Arg2:T75	
+R37	WORKPLACE Arg1:T60 Arg2:T59	
+R38	WORKPLACE Arg1:T63 Arg2:T62	
+R39	ALTERNATIVE_NAME Arg1:T29 Arg2:T32	
+T76	EVENT 596 629	эпидемией коронавируса SARS-CoV-2
+R40	HAS_CAUSE Arg1:T76 Arg2:T71	
+R41	HAS_CAUSE Arg1:T72 Arg2:T68	
+N3	Reference T17 Wikidata:Q129172	Intercity-Express
+N4	Reference T19 Wikidata:Q69341	Фолькер Буфье
+N5	Reference T25 Wikidata:Q10184	Франкфуртер альгемайне цайтунг
+N6	Reference T26 Wikidata:Q1199	Гессен
+N7	Reference T27 Wikidata:Q75	Интернет
+N8	Reference T28 Wikidata:Q14212	премьер-министр
+N11	Reference T40 Wikidata:Q510511	Ландтаг Гессена
+N12	Reference T42 Wikidata:Q183	Германия
+N13	Reference T46 Wikidata:Q83307	министр
+N15	Reference T52 Wikidata:Q1199	Гессен
+N17	Reference T65 Wikidata:Q49762	Христианско-демократический союз Германии
+N18	Reference T66 Wikidata:Q183	Германия
+N19	Reference T73 Wikidata:Q5043	христианство
+N20	Reference T75 Wikidata:Q82955	политик
+N14	Reference T49 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:Q98485	
+N10	Reference T30 Wikidata:Q98485	
+N16	Reference T53 Wikidata:NULL	нет данных
+N2	Reference T13 Wikidata:Q632750	
+N21	Reference T11 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:Q69341	Фолькер Буфье
+N22	Reference T3 Wikidata:Q7614320	
+N23	Reference T20 Wikidata:Q69341	Фолькер Буфье
+N24	Reference T62 Wikidata:Q1199	Гессен
+N25	Reference T10 Wikidata:Q1199	Гессен
+N26	Reference T43 Wikidata:Q1199	Гессен
+N27	Reference T59 Wikidata:Q1199	Гессен
+N28	Reference T67 Wikidata:Q1199	Гессен
+N29	Reference T48 Wikidata:Q1199	Гессен
+N30	Reference T18 Wikidata:Q14212	премьер-министр
+N31	Reference T16 Wikidata:Q183	Германия
+N32	Reference T51 Wikidata:Q183	Германия
+N33	Reference T24 Wikidata:Q183	Германия
+N34	Reference T61 Wikidata:Q83307	министр
+N35	Reference T50 Wikidata:Q83307	министр
+N36	Reference T12 Wikidata:Q83307	министр
+N37	Reference T54 Wikidata:Q83307	министр
+N38	Reference T64 Wikidata:Q83307	министр
+N39	Reference T35 Wikidata:Q49762	Христианско-демократический союз Германии
+N40	Reference T63 Wikidata:NULL	нет данных
+N41	Reference T4 Wikidata:Q98485	
+N42	Reference T31 Wikidata:Q98485	
+N43	Reference T41 Wikidata:Q98485	
+N44	Reference T2 Wikidata:Q98485	
+N45	Reference T23 Wikidata:Q98485	
+N46	Reference T36 Wikidata:Q98485	
+N47	Reference T45 Wikidata:NULL	нет данных
+N48	Reference T9 Wikidata:Q632750	
+N49	Reference T60 Wikidata:NULL	нет данных
+N50	Reference T32 Wikidata:Q69341	Фолькер Буфье
+N51	Reference T33 Wikidata:Q7614320	
+N52	Reference T1 Wikidata:Q7614320	
+N53	Reference T6 Wikidata:Q7614320	

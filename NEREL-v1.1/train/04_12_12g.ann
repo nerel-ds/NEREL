@@ -1,0 +1,321 @@
+T1	PERSON 1 12	Марио Монти
+T3	ORGANIZATION 73 80	Reuters
+T4	ORGANIZATION 87 94	Reuters
+T5	ORGANIZATION 101 108	Reuters
+T6	ORGANIZATION 115 122	Reuters
+T8	PERSON 147 158	Марио Монти
+T9	ORGANIZATION 224 233	парламент
+T10	DATE 274 283	на 2013 г
+T11	PROFESSION 307 321	глава кабинета
+T13	PROFESSION 358 376	Президентом страны
+T14	PERSON 377 395	Джорджо Наполитано
+T15	ORGANIZATION 406 413	Reuters
+T16	ORGANIZATION 478 491	Народ свободы
+T17	PERSON 502 507	Монти
+T18	AGE 536 545	76-летний
+T19	PERSON 546 564	Сильвио Берлускони
+T21	TIME 609 627	за несколько часов
+T22	PERSON 641 646	Монти
+T23	PROFESSION 728 758	главы правительства республики
+T24	DATE 759 770	в 2013 году
+T25	PERSON 817 822	Монти
+T26	PROFESSION 886 895	Президент
+T27	COUNTRY 1034 1045	итальянские
+T28	PERSON 1148 1158	Берлускони
+T29	ORGANIZATION 1203 1220	кабинет министров
+T30	PERSON 1280 1290	Берлускони
+T31	DATE 1299 1307	в 2013 г
+T32	PROFESSION 1339 1362	премьер-министра Италии
+T33	PERSON 1364 1374	Берлускони
+T34	DATE 1391 1416	немногим более года назад
+T35	DATE 1606 1620	26 октября с.г
+T37	PERSON 1637 1647	Берлускони
+T38	DATE 1650 1654	году
+T39	DATE 1727 1735	в 2006 г
+T41	DATE 1826 1839	с четырех лет
+T42	ORGANIZATION 1885 1893	Mediaset
+T43	PERSON 1913 1923	Берлускони
+T44	PERSON 1970 1980	Берлускони
+T45	PERSON 2074 2078	Руби
+T46	PROFESSION 2143 2151	премьеру
+T47	PROFESSION 2180 2236	секретарь левоцентристской Демократической партии Италии
+T48	ORGANIZATION 2207 2236	Демократической партии Италии
+T49	PERSON 2237 2256	Пьер Луиджи Берсани
+T50	PROFESSION 2283 2299	премьер-министра
+T51	EVENT 2376 2385	праймериз
+T52	DATE 2386 2395	2 декабря
+T53	PERSON 2408 2415	Берсани
+T54	PROFESSION 2423 2437	мэра Флоренции
+T55	PERSON 2438 2450	Маттео Ренци
+T56	COUNTRY 2518 2524	Италии
+T57	ORGANIZATION 2526 2548	Демократическая партия
+T58	ORGANIZATION 2580 2596	Оливковое дерево
+T59	PROFESSION 2606 2622	премьер-министра
+T60	PERSON 2630 2642	Романо Проди
+T61	ORGANIZATION 2671 2686	Левые демократы
+T62	ORGANIZATION 2691 2700	Маргерита
+T63	NUMBER 2712 2715	217
+T64	NUMBER 2723 2726	630
+T65	COUNTRY 2823 2829	Италии
+T66	COUNTRY 2898 2909	Итальянский
+T67	PROFESSION 2919 2947	лидер партии "Народ свободы"
+T68	ORGANIZATION 2933 2946	Народ свободы
+T69	ORGANIZATION 2981 2990	Fininvest
+T70	ORGANIZATION 3077 3082	Milan
+T71	NUMBER 3096 3099	150
+T72	PROFESSION 3135 3154	главы правительства
+T73	COUNTRY 3178 3184	Италии
+T74	ORGANIZATION 3198 3218	правительство Италии
+T75	DATE 3219 3227	в 1994 г
+T76	DATE 3230 3244	в 2001-2006 гг
+T77	DATE 3248 3261	в 2008-2011 г
+T78	DATE 3263 3278	В ноябре 2011 г
+T79	ORGANIZATION 3369 3375	Forbes
+T80	DATE 3377 3391	в марте 2011 г
+T81	PERSON 3403 3413	Берлускони
+T82	MONEY 3428 3441	7,8 млрд долл
+T83	PERSON 3483 3493	Берлускони
+T84	ORGANIZATION 3784 3797	Верховный суд
+T85	COUNTRY 60 66	Италии
+T86	PROFESSION 43 66	премьер-министра Италии
+T87	COUNTRY 140 146	Италии
+T88	PROFESSION 124 146	Премьер-министр Италии
+T2	ORGANIZATION 933 943	парламента
+T7	PROFESSION 1046 1056	политологи
+T12	PROFESSION 1115 1125	Политологи
+T20	COUNTRY 1356 1362	Италии
+T89	ORGANIZATION 1449 1463	парламентского
+T36	PROFESSION 1795 1816	итальянского премьера
+T40	COUNTRY 1795 1807	итальянского
+T90	DATE 1840 1854	до одного года
+T91	PROFESSION 2035 2047	проституткой
+T92	PROFESSION 2101 2109	Адвокаты
+T93	PERSON 2110 2120	Берлускони
+T94	COUNTRY 2230 2236	Италии
+T95	ORGANIZATION 2207 2229	Демократической партии
+T96	CITY 2428 2437	Флоренции
+T97	PROFESSION 2492 2501	политиков
+T98	ORGANIZATION 2883 2896	правительства
+T99	PROFESSION 2910 2917	политик
+T101	PROFESSION 2958 2967	бизнесмен
+T103	NUMBER 3110 3116	трижды
+T104	COUNTRY 3212 3218	Италии
+T105	ORGANIZATION 3303 3313	парламенте
+T106	PROFESSION 3560 3573	госчиновникам
+T107	PROFESSION 3745 3752	политик
+T108	IDEOLOGY 2677 2686	демократы
+T109	IDEOLOGY 2671 2686	Левые демократы
+T110	COUNTRY 2746 2752	Италии
+T111	ORGANIZATION 2735 2752	парламенте Италии
+R1	WORKS_AS Arg1:T14 Arg2:T13	
+R2	AGE_IS Arg1:T19 Arg2:T18	
+R3	WORKS_AS Arg1:T8 Arg2:T88	
+R4	WORKPLACE Arg1:T8 Arg2:T87	
+T112	LAW 242 273	закон о государственном бюджете
+R5	WORKS_AS Arg1:T1 Arg2:T86	
+R6	WORKPLACE Arg1:T1 Arg2:T85	
+R7	KNOWS Arg1:T8 Arg2:T14	
+T113	CRIME 1947 1968	финансовых махинациях
+R8	WORKS_AS Arg1:T45 Arg2:T91	
+T114	LAW 1671 1689	закона об амнистии
+T115	PENALTY 1650 1661	году тюрьмы
+T116	AGE 2016 2034	несовершеннолетней
+R9	AGE_IS Arg1:T45 Arg2:T116	
+T117	CRIME 2008 2034	сексе с несовершеннолетней
+R10	ALTERNATIVE_NAME Arg1:T88 Arg2:T11	
+T118	PROFESSION 124 139	Премьер-министр
+T119	PROFESSION 43 59	премьер-министра
+R11	WORKPLACE Arg1:T86 Arg2:T85	
+R12	WORKPLACE Arg1:T88 Arg2:T87	
+R13	HEADQUARTERED_IN Arg1:T9 Arg2:T87	
+R14	WORKPLACE Arg1:T14 Arg2:T87	
+R15	ALTERNATIVE_NAME Arg1:T8 Arg2:T17	
+R16	WORKPLACE Arg1:T19 Arg2:T16	
+R17	ORIGINS_FROM Arg1:T7 Arg2:T27	
+R18	ALTERNATIVE_NAME Arg1:T19 Arg2:T28	
+T120	EVENT 1382 1390	отставку
+R19	AGENT Arg1:T33 Arg2:T120	
+R20	POINT_IN_TIME Arg1:T120 Arg2:T34	
+T121	PROFESSION 1339 1355	премьер-министра
+R21	WORKPLACE Arg1:T32 Arg2:T20	
+R22	TAKES_PLACE_IN Arg1:T120 Arg2:T20	
+T122	PROFESSION 1808 1816	премьера
+T123	CRIME 1958 1968	махинациях
+R23	SUBORDINATE_OF Arg1:T92 Arg2:T93	
+T124	IDEOLOGY 2190 2206	левоцентристской
+R24	HEADQUARTERED_IN Arg1:T48 Arg2:T94	
+R25	PARTICIPANT_IN Arg1:T49 Arg2:T51	
+R26	POINT_IN_TIME Arg1:T51 Arg2:T52	
+R27	WORKS_AS Arg1:T55 Arg2:T54	
+R28	WORKPLACE Arg1:T54 Arg2:T96	
+T125	PROFESSION 2423 2427	мэра
+R29	WORKS_AS Arg1:T55 Arg2:T97	
+R30	HEADQUARTERED_IN Arg1:T29 Arg2:T27	
+R31	ALTERNATIVE_NAME Arg1:T27 Arg2:T20	
+T126	EVENT 1622 1636	суд приговорил
+R32	PARTICIPANT_IN Arg1:T37 Arg2:T126	
+R33	POINT_IN_TIME Arg1:T126 Arg2:T35	
+R34	WORKPLACE Arg1:T36 Arg2:T40	
+T127	PENALTY 1766 1786	тюремного заключения
+R35	WORKS_AS Arg1:T49 Arg2:T47	
+R36	WORKPLACE Arg1:T49 Arg2:T48	
+R37	ORGANIZES Arg1:T48 Arg2:T51	
+T128	IDEOLOGY 2207 2222	Демократической
+R38	IDEOLOGY_OF Arg1:T49 Arg2:T128	
+R39	IDEOLOGY_OF Arg1:T48 Arg2:T128	
+R40	IDEOLOGY_OF Arg1:T61 Arg2:T109	
+R41	IDEOLOGY_OF Arg1:T61 Arg2:T108	
+R42	HEADQUARTERED_IN Arg1:T111 Arg2:T110	
+T129	ORGANIZATION 2735 2745	парламенте
+T130	CRIME 3518 3535	финансовых аферах
+T131	CRIME 3537 3546	коррупции
+R43	WORKS_AS Arg1:T83 Arg2:T107	
+R44	OWNER_OF Arg1:T81 Arg2:T82	
+R45	WORKS_AS Arg1:T37 Arg2:T36	
+R46	ALTERNATIVE_NAME Arg1:T49 Arg2:T53	
+T132	EVENT 2400 2407	выборах
+R47	PARTICIPANT_IN Arg1:T53 Arg2:T132	
+R48	WORKPLACE Arg1:T55 Arg2:T96	
+R49	PARTICIPANT_IN Arg1:T55 Arg2:T132	
+R50	POINT_IN_TIME Arg1:T132 Arg2:T52	
+T133	IDEOLOGY 2526 2541	Демократическая
+R51	IDEOLOGY_OF Arg1:T57 Arg2:T133	
+R52	WORKS_AS Arg1:T60 Arg2:T59	
+R53	FOUNDED_BY Arg1:T58 Arg2:T60	
+T134	IDEOLOGY 2781 2794	оппозиционных
+R54	IDEOLOGY_OF Arg1:T57 Arg2:T134	
+R55	IDEOLOGY_OF Arg1:T58 Arg2:T134	
+R56	IDEOLOGY_OF Arg1:T61 Arg2:T134	
+R57	IDEOLOGY_OF Arg1:T62 Arg2:T134	
+R58	WORKS_AS Arg1:T93 Arg2:T99	
+R59	ORIGINS_FROM Arg1:T99 Arg2:T66	
+R60	OWNER_OF Arg1:T69 Arg2:T70	
+R61	HEADQUARTERED_IN Arg1:T74 Arg2:T104	
+T102	ORGANIZATION 3198 3211	правительство
+R62	HEADQUARTERED_IN Arg1:T105 Arg2:T104	
+R63	WORKS_AS Arg1:T93 Arg2:T67	
+R64	OWNER_OF Arg1:T101 Arg2:T69	
+R65	WORKPLACE Arg1:T67 Arg2:T68	
+R66	WORKPLACE Arg1:T72 Arg2:T73	
+R67	WORKS_AS Arg1:T93 Arg2:T101	
+R68	OWNER_OF Arg1:T93 Arg2:T69	
+R69	PENALIZED_AS Arg1:T37 Arg2:T127	
+R70	PARTICIPANT_IN Arg1:T91 Arg2:T117	
+R71	PARTICIPANT_IN Arg1:T45 Arg2:T117	
+R72	IDEOLOGY_OF Arg1:T95 Arg2:T124	
+T100	EVENT 13 30	подаст в отставку
+R73	AGENT Arg1:T1 Arg2:T100	
+R74	TAKES_PLACE_IN Arg1:T100 Arg2:T85	
+T135	EVENT 180 207	подать прошение об отставке
+R75	AGENT Arg1:T8 Arg2:T135	
+R76	TAKES_PLACE_IN Arg1:T135 Arg2:T87	
+R77	PENALIZED_AS Arg1:T37 Arg2:T115	
+R78	DATE_OF_CREATION Arg1:T114 Arg2:T39	
+R79	PENALIZED_AS Arg1:T36 Arg2:T127	
+R80	CONVICTED_OF Arg1:T43 Arg2:T113	
+R81	CONVICTED_OF Arg1:T44 Arg2:T117	
+R82	WORKPLACE Arg1:T97 Arg2:T56	
+R83	LOCATED_IN Arg1:T96 Arg2:T56	
+R84	CONVICTED_OF Arg1:T83 Arg2:T130	
+R85	CONVICTED_OF Arg1:T83 Arg2:T131	
+T136	CRIME 3548 3559	даче взяток
+R86	CONVICTED_OF Arg1:T83 Arg2:T136	
+R87	PARTICIPANT_IN Arg1:T106 Arg2:T136	
+R88	WORKPLACE Arg1:T81 Arg2:T74	
+T137	EVENT 3334 3349	ушел в отставку
+R89	POINT_IN_TIME Arg1:T137 Arg2:T78	
+R90	AGENT Arg1:T81 Arg2:T137	
+R91	PARTICIPANT_IN Arg1:T74 Arg2:T137	
+N1	Reference T1 Wikidata:Q47904	Марио Монти
+N2	Reference T5 Wikidata:Q130879	Рейтер
+N4	Reference T13 Wikidata:Q30461	президент
+N5	Reference T14 Wikidata:Q1220	Джорджо Наполитано
+N7	Reference T26 Wikidata:Q30461	президент
+N8	Reference T29 Wikidata:Q640506	кабинет министров
+N9	Reference T42 Wikidata:Q368151	Mediaset
+N14	Reference T49 Wikidata:Q47556	Пьер Луиджи Берсани
+N16	Reference T55 Wikidata:Q47563	Ренци, Маттео
+N17	Reference T58 Wikidata:Q1134161	Оливковое дерево
+N18	Reference T59 Wikidata:Q14212	премьер-министр
+N19	Reference T60 Wikidata:Q38484	Романо Проди
+N20	Reference T61 Wikidata:Q541679	Левые демократы
+N22	Reference T65 Wikidata:Q38	Италия
+N24	Reference T68 Wikidata:Q47720	Народ свободы
+N25	Reference T69 Wikidata:Q1417245	Fininvest
+N28	Reference T79 Wikidata:Q25161472	Форбс
+N29	Reference T81 Wikidata:Q11860	Сильвио Берлускони
+N30	Reference T84 Wikidata:Q190752	верховный суд
+N31	Reference T12 Wikidata:Q1238570	политолог
+N35	Reference T92 Wikidata:Q40348	адвокат
+N37	Reference T96 Wikidata:Q2044	Флоренция
+N38	Reference T98 Wikidata:Q7188	правительство
+N39	Reference T99 Wikidata:Q82955	политик
+N40	Reference T101 Wikidata:Q131524	предприниматель
+N41	Reference T105 Wikidata:Q35749	парламент
+N42	Reference T111 Wikidata:Q1117578	Парламент Италии
+N45	Reference T125 Wikidata:Q30185	мэр
+N27	Reference T112 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:Q796897	председатель Совета министров Италии
+N32	Reference T89 Wikidata:Q35749	парламент
+N43	Reference T114 Wikidata:NULL	нет данных
+N33	Reference T36 Wikidata:NULL	нет данных
+N34	Reference T91 Wikidata:Q14915751	
+N10	Reference T45 Wikidata:Q16855344	
+N11	Reference T46 Wikidata:Q14212	премьер-министр
+N13	Reference T48 Wikidata:Q47729	Демократическая партия
+N36	Reference T95 Wikidata:NULL	нет данных
+N12	Reference T47 Wikidata:NULL	нет данных
+N15	Reference T54 Wikidata:Q25927210	
+N21	Reference T62 Wikidata:Q1141788	
+N23	Reference T67 Wikidata:NULL	нет данных
+N44	Reference T70 Wikidata:Q1543	Милан
+N26	Reference T72 Wikidata:Q2285706	глава правительства
+N46	Reference T74 Wikidata:Q3773971	
+N47	Reference T106 Wikidata:Q212238	государственный служащий
+N48	Reference T17 Wikidata:Q47904	Марио Монти
+N49	Reference T22 Wikidata:Q47904	Марио Монти
+N50	Reference T8 Wikidata:Q47904	Марио Монти
+N51	Reference T25 Wikidata:Q47904	Марио Монти
+N52	Reference T4 Wikidata:Q130879	Рейтер
+N53	Reference T15 Wikidata:Q130879	Рейтер
+N54	Reference T6 Wikidata:Q130879	Рейтер
+N55	Reference T3 Wikidata:Q130879	Рейтер
+N56	Reference T53 Wikidata:Q47556	Пьер Луиджи Берсани
+N57	Reference T121 Wikidata:Q14212	премьер-министр
+N58	Reference T118 Wikidata:Q14212	премьер-министр
+N59	Reference T50 Wikidata:Q14212	премьер-министр
+N60	Reference T119 Wikidata:Q14212	премьер-министр
+N61	Reference T40 Wikidata:Q38	Италия
+N62	Reference T110 Wikidata:Q38	Италия
+N63	Reference T56 Wikidata:Q38	Италия
+N64	Reference T87 Wikidata:Q38	Италия
+N65	Reference T104 Wikidata:Q38	Италия
+N66	Reference T20 Wikidata:Q38	Италия
+N67	Reference T94 Wikidata:Q38	Италия
+N68	Reference T73 Wikidata:Q38	Италия
+N69	Reference T27 Wikidata:Q38	Италия
+N70	Reference T85 Wikidata:Q38	Италия
+N71	Reference T66 Wikidata:Q38	Италия
+N72	Reference T16 Wikidata:Q47720	Народ свободы
+N73	Reference T37 Wikidata:Q11860	Сильвио Берлускони
+N74	Reference T44 Wikidata:Q11860	Сильвио Берлускони
+N75	Reference T28 Wikidata:Q11860	Сильвио Берлускони
+N76	Reference T33 Wikidata:Q11860	Сильвио Берлускони
+N77	Reference T30 Wikidata:Q11860	Сильвио Берлускони
+N78	Reference T19 Wikidata:Q11860	Сильвио Берлускони
+N79	Reference T43 Wikidata:Q11860	Сильвио Берлускони
+N80	Reference T93 Wikidata:Q11860	Сильвио Берлускони
+N81	Reference T83 Wikidata:Q11860	Сильвио Берлускони
+N82	Reference T7 Wikidata:Q1238570	политолог
+N83	Reference T102 Wikidata:Q7188	правительство
+N84	Reference T97 Wikidata:Q82955	политик
+N85	Reference T107 Wikidata:Q82955	политик
+N86	Reference T9 Wikidata:Q35749	парламент
+N87	Reference T2 Wikidata:Q35749	парламент
+N88	Reference T129 Wikidata:Q35749	парламент
+N89	Reference T32 Wikidata:NULL	нет данных
+N90	Reference T86 Wikidata:NULL	нет данных
+N91	Reference T88 Wikidata:NULL	нет данных
+N92	Reference T122 Wikidata:Q14212	премьер-министр
+N93	Reference T57 Wikidata:NULL	нет данных

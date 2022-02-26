@@ -1,0 +1,109 @@
+T1	COUNTRY 2 8	Японии
+T3	DATE 79 96	12 июня 2013 года
+T4	COUNTRY 116 122	Японии
+T5	AGE 134 141	116 лет
+T6	PERSON 152 168	Дзироэмон Кимура
+T7	PERSON 276 282	Кимуре
+T8	AWARD 302 325	Книги рекордов Гиннесса
+T10	AGE 436 453	115 лет и 253 дня
+T13	PROFESSION 461 476	премьер-министр
+T14	PERSON 484 494	Синдзо Абэ
+T15	PERSON 532 538	Кимура
+T16	AGE 578 587	115-летия
+T17	PERSON 748 754	Кимура
+T18	DATE 853 861	XIX веке
+T19	DATE 864 881	С конца 2012 года
+T20	DATE 1010 1028	7 апреля 2013 года
+T21	PERSON 1031 1047	Дзироэмон Кимура
+T22	CITY 1061 1068	Кётанго
+T23	NUMBER 1111 1112	7
+T24	NUMBER 1120 1122	14
+T25	NUMBER 1131 1133	25
+T26	NUMBER 1146 1148	13
+T27	PERSON 1262 1279	Дзироэмона Кимуры
+T28	COUNTRY 1326 1332	Японии
+T29	PERSON 1370 1381	Мисао Окава
+T30	DATE 1403 1420	5 марта 1898 года
+T31	PERSON 1440 1452	Мисао Кимура
+T32	CITY 1487 1492	Осака
+T33	EVENT 9 18	скончался
+T34	LOCATION 36 41	Земли
+T2	PERSON 44 60	Дзироэмон Кимура
+T35	CITY 61 68	Кётанго
+T36	CITY 70 77	Кётанго
+T37	CITY 108 113	Киото
+T38	EVENT 142 151	скончался
+T39	PERSON 170 178	木村 次郎右衛門
+T42	LOCATION 227 232	Земли
+T43	EVENT 234 240	Смерть
+T44	PERSON 317 325	Гиннесса
+T11	PROFESSION 461 483	премьер-министр Японии
+T12	COUNTRY 477 483	Японии
+T49	STATE_OR_PROVINCE 1087 1092	Киото
+T50	CITY 1070 1074	京丹後市
+T51	EVENT 1255 1261	смерти
+T53	LOCATION 1309 1314	Земли
+T54	PERSON 1383 1389	大川 ミサヲ
+R1	TAKES_PLACE_IN Arg1:T33 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T33	
+R3	LOCATED_IN Arg1:T37 Arg2:T4	
+R4	AGE_IS Arg1:T6 Arg2:T5	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T38	
+R6	POINT_IN_TIME Arg1:T38 Arg2:T3	
+R7	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T39	
+R9	ALTERNATIVE_NAME Arg1:T38 Arg2:T43	
+R10	PRODUCES Arg1:T44 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+T9	DATE 400 419	в декабре 2012 года
+R12	AGE_IS Arg1:T7 Arg2:T10	
+R13	DATE_OF_DEATH Arg1:T6 Arg2:T3	
+R14	WORKPLACE Arg1:T11 Arg2:T12	
+R15	WORKPLACE Arg1:T14 Arg2:T12	
+R16	WORKS_AS Arg1:T14 Arg2:T11	
+R17	AGE_IS Arg1:T15 Arg2:T16	
+R19	PLACE_RESIDES_IN Arg1:T21 Arg2:T22	
+R20	PLACE_OF_DEATH Arg1:T6 Arg2:T37	
+R21	ALTERNATIVE_NAME Arg1:T22 Arg2:T50	
+R22	LOCATED_IN Arg1:T22 Arg2:T49	
+R23	ALTERNATIVE_NAME Arg1:T29 Arg2:T54	
+R24	PARTICIPANT_IN Arg1:T27 Arg2:T51	
+R27	DATE_OF_BIRTH Arg1:T29 Arg2:T30	
+R30	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R31	PLACE_RESIDES_IN Arg1:T31 Arg2:T32	
+R32	LOCATED_IN Arg1:T32 Arg2:T28	
+R36	AGE_DIED_AT Arg1:T6 Arg2:T5	
+R33	AWARDED_WITH Arg1:T7 Arg2:T8	
+T45	EVENT 508 525	видеопоздравление
+R34	AGENT Arg1:T14 Arg2:T45	
+R35	PARTICIPANT_IN Arg1:T7 Arg2:T45	
+N1	Reference T8 Wikidata:Q41675	Книга рекордов Гиннесса
+N2	Reference T13 Wikidata:Q14212	премьер-министр
+N3	Reference T14 Wikidata:Q132345	Синдзо Абэ
+N4	Reference T22 Wikidata:Q513897	Кётанго
+N5	Reference T27 Wikidata:Q550149	Дзироэмон Кимура
+N6	Reference T32 Wikidata:Q35765	Осака
+N8	Reference T42 Wikidata:Q2	Земля
+N9	Reference T44 Wikidata:Q194297	Гиннесс
+N10	Reference T11 Wikidata:Q274948	премьер-министр Японии
+N11	Reference T12 Wikidata:Q17	Япония
+N12	Reference T49 Wikidata:Q120730	Киото
+N7	Reference T37 Wikidata:Q34600	Киото
+N13	Reference T54 Wikidata:Q3818116	Окава, Мисао
+N14	Reference T31 Wikidata:Q3818116	Окава, Мисао
+N15	Reference T50 Wikidata:Q513897	Кётанго
+N16	Reference T36 Wikidata:Q513897	Кётанго
+N17	Reference T35 Wikidata:Q513897	Кётанго
+N18	Reference T15 Wikidata:Q550149	Дзироэмон Кимура
+N19	Reference T17 Wikidata:Q550149	Дзироэмон Кимура
+N20	Reference T7 Wikidata:Q550149	Дзироэмон Кимура
+N21	Reference T2 Wikidata:Q550149	Дзироэмон Кимура
+N22	Reference T39 Wikidata:Q550149	Дзироэмон Кимура
+N23	Reference T6 Wikidata:Q550149	Дзироэмон Кимура
+N24	Reference T21 Wikidata:Q550149	Дзироэмон Кимура
+N25	Reference T34 Wikidata:Q2	Земля
+N26	Reference T53 Wikidata:Q2	Земля
+N27	Reference T28 Wikidata:Q17	Япония
+N28	Reference T4 Wikidata:Q17	Япония
+N29	Reference T1 Wikidata:Q17	Япония
+N30	Reference T29 Wikidata:Q3818116	Окава, Мисао

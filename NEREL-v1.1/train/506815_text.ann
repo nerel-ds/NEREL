@@ -1,0 +1,192 @@
+T1	COUNTRY 2 9	Израиле
+T2	COUNTRY 74 81	Израиле
+T3	EVENT 91 112	парламентских выборов
+T4	DATE 113 131	в апреля 2019 года
+T5	DATE 132 165	Во вторник, 17 сентября 2019 года
+T6	COUNTRY 167 174	Израиле
+T7	ORGANIZATION 222 229	Кнессет
+T8	NUMBER 256 272	свыше 10,5 тысяч
+T9	NUMBER 338 340	29
+T10	ORGANIZATION 419 424	Ликуд
+T11	PROFESSION 449 466	премьер-министром
+T12	PERSON 467 487	Беньямином Нетаньяху
+T13	ORGANIZATION 510 522	Кахоль-лаван
+T14	PERSON 524 534	Бени Ганца
+T15	ORGANIZATION 563 566	ШАС
+T16	ORGANIZATION 587 592	Авода
+T18	ORGANIZATION 620 633	Еврейский дом
+T20	ORGANIZATION 671 686	Наш дом Израиль
+T22	ORGANIZATION 720 725	Мерец
+T23	PERSON 774 792	Биньямин Нетаньяху
+T24	PROFESSION 803 819	премьер-министра
+T25	PROFESSION 967 981	глава генштаба
+T26	PERSON 982 991	Бени Ганц
+T27	AGE 998 1008	69-летнего
+T28	PERSON 1024 1033	Нетаньяху
+T29	DATE 1071 1081	апрельским
+T30	PROFESSION 1098 1126	начальник генерального штаба
+T31	PERSON 1127 1136	Бени Ганц
+T32	ORGANIZATION 1164 1176	Кахоль-лаван
+T33	PERSON 1210 1219	Нетаньяху
+T34	TIME 1254 1280	в 7:00 по местному времени
+T35	TIME 1322 1329	в 22:00
+T36	PERCENT 1343 1357	95 % процентов
+T37	DATE 1385 1396	18 сентября
+T38	DATE 1433 1444	19 сентября
+T39	COUNTRY 1468 1479	израильская
+T40	COUNTRY 1498 1510	палестинские
+T41	LOCATION 1522 1550	Западного берега реки Иордан
+T42	FACILITY 1561 1564	КПП
+T43	DISTRICT 1578 1591	Сектором Газа
+T45	ORDINAL 1602 1608	вторые
+T46	DATE 1630 1655	за последние пять месяцев
+T47	DATE 1675 1693	в апреля 2019 года
+T48	DATE 1715 1723	в апреле
+T49	PROFESSION 1772 1789	премьер-министром
+T50	ORDINAL 1859 1865	первым
+T51	COUNTRY 1890 1897	Израиля
+T52	DATE 1899 1905	30 мая
+T53	PROFESSION 1996 2013	премьер-министром
+T54	ORGANIZATION 2028 2040	Кахоль-лаван
+T55	PERSON 2042 2052	Бени Ганца
+T56	ORDINAL 2097 2099	21
+T57	ORDINAL 2102 2106	22-й
+T58	ORGANIZATION 2114 2122	Кнессета
+T59	COUNTRY 2197 2204	Израиля
+T60	EVENT 29 49	парламентские выборы
+T61	EVENT 43 49	выборы
+T63	EVENT 19 49	досрочные парламентские выборы
+T64	EVENT 194 200	выборы
+T65	EVENT 194 212	выборы в парламент
+T66	EVENT 184 212	досрочные выборы в парламент
+R1	POINT_IN_TIME Arg1:T66 Arg2:T5	
+T67	EVENT 300 307	выборах
+T68	EVENT 300 319	выборах в парламент
+T17	EVENT 739 750	голосования
+T19	NUMBER 827 831	один
+T21	PERSON 941 950	Нетаньяху
+R2	AGE_IS Arg1:T28 Arg2:T27	
+R3	WORKS_AS Arg1:T31 Arg2:T30	
+R4	WORKS_AS Arg1:T26 Arg2:T25	
+R5	WORKS_AS Arg1:T12 Arg2:T11	
+T74	ORGANIZATION 1468 1485	израильская армия
+T75	LOCATION 1544 1550	Иордан
+T44	EVENT 1623 1629	выборы
+T76	EVENT 1609 1629	парламентские выборы
+T78	EVENT 1738 1745	выборов
+T79	EVENT 1724 1745	парламентских выборов
+T80	PERSON 1790 1808	Биньямин Нетаньяху
+T81	ORGANIZATION 1906 1913	Кнессет
+T82	EVENT 1914 1941	проголосовал за самороспуск
+T84	EVENT 2086 2094	выборами
+T85	EVENT 2163 2171	выборами
+T86	EVENT 2163 2196	выборами в законодательные органы
+T87	EVENT 2163 2204	выборами в законодательные органы Израиля
+R8	LOCATED_IN Arg1:T41 Arg2:T40	
+R9	LOCATED_IN Arg1:T43 Arg2:T40	
+R10	TAKES_PLACE_IN Arg1:T63 Arg2:T1	
+R11	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R12	POINT_IN_TIME Arg1:T3 Arg2:T4	
+R13	TAKES_PLACE_IN Arg1:T66 Arg2:T6	
+R14	ALTERNATIVE_NAME Arg1:T66 Arg2:T67	
+R15	PARTICIPANT_IN Arg1:T10 Arg2:T67	
+T62	IDEOLOGY 393 410	правоцентристская
+R16	IDEOLOGY_OF Arg1:T10 Arg2:T62	
+R17	WORKPLACE Arg1:T12 Arg2:T10	
+R18	IDEOLOGY_OF Arg1:T12 Arg2:T62	
+R19	FOUNDED_BY Arg1:T13 Arg2:T14	
+R20	PARTICIPANT_IN Arg1:T13 Arg2:T68	
+T69	IDEOLOGY 569 585	левоцентристская
+R21	IDEOLOGY_OF Arg1:T16 Arg2:T69	
+T88	IDEOLOGY 536 554	ультра-религиозная
+R22	IDEOLOGY_OF Arg1:T15 Arg2:T88	
+T89	IDEOLOGY 595 618	национально-религиозный
+R23	IDEOLOGY_OF Arg1:T18 Arg2:T89	
+T90	IDEOLOGY 636 662	национально-патриотическая
+T91	IDEOLOGY 690 718	левый социал-демократический
+R24	IDEOLOGY_OF Arg1:T22 Arg2:T91	
+T92	COUNTRY 679 686	Израиль
+R25	IDEOLOGY_OF Arg1:T20 Arg2:T90	
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T67	
+R27	PARTICIPANT_IN Arg1:T16 Arg2:T68	
+R28	PARTICIPANT_IN Arg1:T20 Arg2:T68	
+R29	PARTICIPANT_IN Arg1:T22 Arg2:T68	
+R30	ALTERNATIVE_NAME Arg1:T68 Arg2:T17	
+R31	WORKS_AS Arg1:T23 Arg2:T24	
+T93	ORGANIZATION 973 981	генштаба
+R32	WORKPLACE Arg1:T26 Arg2:T93	
+R33	WORKPLACE Arg1:T25 Arg2:T93	
+T94	IDEOLOGY 1009 1016	правого
+R34	IDEOLOGY_OF Arg1:T28 Arg2:T94	
+T95	ORGANIZATION 1108 1126	генерального штаба
+R35	WORKPLACE Arg1:T31 Arg2:T95	
+R36	WORKPLACE Arg1:T30 Arg2:T95	
+R37	FOUNDED_BY Arg1:T32 Arg2:T31	
+T96	IDEOLOGY 1143 1155	центристский
+R38	IDEOLOGY_OF Arg1:T31 Arg2:T96	
+R39	IDEOLOGY_OF Arg1:T32 Arg2:T96	
+R6	POINT_IN_TIME Arg1:T76 Arg2:T46	
+R7	HEADQUARTERED_IN Arg1:T74 Arg2:T39	
+R40	POINT_IN_TIME Arg1:T79 Arg2:T48	
+R41	WORKS_AS Arg1:T80 Arg2:T49	
+R42	TAKES_PLACE_IN Arg1:T79 Arg2:T51	
+R43	WORKPLACE Arg1:T80 Arg2:T51	
+R44	AGENT Arg1:T81 Arg2:T82	
+R45	POINT_IN_TIME Arg1:T82 Arg2:T52	
+R46	WORKPLACE Arg1:T55 Arg2:T54	
+T70	EVENT 105 112	выборов
+R47	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R48	PARTICIPANT_IN Arg1:T7 Arg2:T66	
+T71	NATIONALITY 620 629	Еврейский
+R49	HEADQUARTERED_IN Arg1:T20 Arg2:T92	
+R50	ALTERNATIVE_NAME Arg1:T23 Arg2:T21	
+T72	EVENT 1553 1564	закрыла КПП
+R51	AGENT Arg1:T74 Arg2:T72	
+T73	EVENT 1486 1521	блокировала палестинские территории
+R52	AGENT Arg1:T74 Arg2:T73	
+R53	TAKES_PLACE_IN Arg1:T73 Arg2:T41	
+R54	TAKES_PLACE_IN Arg1:T87 Arg2:T59	
+N1	Reference T10 Wikidata:Q187009	Ликуд
+N3	Reference T13 Wikidata:Q61788155	Кахоль-лаван
+N4	Reference T14 Wikidata:Q557436	Бени Ганц
+N5	Reference T15 Wikidata:Q904635	ШАС
+N6	Reference T16 Wikidata:Q210703	Авода
+N7	Reference T18 Wikidata:Q1530720	Еврейский дом
+N8	Reference T20 Wikidata:Q514442	Наш дом Израиль
+N9	Reference T22 Wikidata:Q239951	Мерец
+N10	Reference T23 Wikidata:Q43723	Биньямин Нетаньяху
+N12	Reference T26 Wikidata:Q557436	Бени Ганц
+N15	Reference T40 Wikidata:Q219060	Государство Палестина
+N16	Reference T41 Wikidata:Q36678	Западный берег реки Иордан
+N18	Reference T43 Wikidata:Q39760	сектор Газа
+N19	Reference T49 Wikidata:Q14212	премьер-министр
+N20	Reference T58 Wikidata:Q133396	Кнессет
+N21	Reference T59 Wikidata:Q801	Израиль
+N23	Reference T75 Wikidata:Q40059	Иордан
+N24	Reference T93 Wikidata:Q495430	Генеральный штаб
+N2	Reference T12 Wikidata:Q43723	Биньямин Нетаньяху
+N11	Reference T25 Wikidata:NULL	нет данных
+N25	Reference T95 Wikidata:Q495430	Генеральный штаб
+N13	Reference T30 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:Q801	Израиль
+N22	Reference T74 Wikidata:Q58967	Армия обороны Израиля
+N17	Reference T42 Wikidata:Q88871664	
+N26	Reference T71 Wikidata:Q7325	евреи
+N27	Reference T32 Wikidata:Q61788155	Кахоль-лаван
+N28	Reference T54 Wikidata:Q61788155	Кахоль-лаван
+N29	Reference T55 Wikidata:Q557436	Бени Ганц
+N30	Reference T80 Wikidata:Q43723	Биньямин Нетаньяху
+N31	Reference T33 Wikidata:Q43723	Биньямин Нетаньяху
+N32	Reference T21 Wikidata:Q43723	Биньямин Нетаньяху
+N33	Reference T28 Wikidata:Q43723	Биньямин Нетаньяху
+N34	Reference T31 Wikidata:Q557436	Бени Ганц
+N35	Reference T53 Wikidata:Q14212	премьер-министр
+N36	Reference T11 Wikidata:Q14212	премьер-министр
+N37	Reference T24 Wikidata:Q14212	премьер-министр
+N38	Reference T81 Wikidata:Q133396	Кнессет
+N39	Reference T7 Wikidata:Q133396	Кнессет
+N40	Reference T51 Wikidata:Q801	Израиль
+N41	Reference T92 Wikidata:Q801	Израиль
+N42	Reference T2 Wikidata:Q801	Израиль
+N43	Reference T1 Wikidata:Q801	Израиль
+N44	Reference T6 Wikidata:Q801	Израиль

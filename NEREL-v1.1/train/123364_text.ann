@@ -1,0 +1,106 @@
+T1	PROFESSION 0 8	Солистка
+T2	ORGANIZATION 10 20	Ленинграда
+T3	PERSON 22 39	Василиса Старшова
+T5	ORGANIZATION 81 91	Ленинграда
+T6	DATE 93 125	В воскресенье, 15 июля 2017 года
+T7	ORGANIZATION 152 161	Ленинград
+T8	PERSON 163 180	Василиса Старшова
+T9	PRODUCT 192 201	Instagram
+T10	ORGANIZATION 271 281	Ленинграде
+T11	AGE 453 462	22-летняя
+T12	PROFESSION 502 509	певицей
+T13	PERSON 510 528	Флоридой Чантурией
+T14	DATE 529 547	в апреле 2016 года
+T15	PERSON 570 580	Алисы Вокс
+T16	DATE 605 611	7 июня
+T17	CITY 614 626	Новосибирске
+T18	AGE 652 660	20-летию
+T19	ORGANIZATION 662 672	Ленинграда
+T20	CITY 750 761	Новосибирск
+T21	COUNTRY 940 950	российских
+T22	ORGANIZATION 960 969	Ленинград
+T23	CITY 984 989	Ниццу
+T24	CITY 991 999	Будапешт
+T25	CITY 1001 1006	Прагу
+T26	CITY 1008 1014	Берлин
+T27	CITY 1016 1024	Нью-Йорк
+T28	DATE 1041 1050	1 декабря
+T29	CITY 1053 1059	Минске
+T30	EVENT 52 67	уходе из группы
+T4	PROFESSION 135 143	солисток
+T31	EVENT 207 222	покидает группу
+T32	PROFESSION 718 724	певица
+T33	CITY 762 771	Хабаровск
+T34	CITY 772 783	Владивосток
+T35	PERSON 463 471	Старшова
+R1	WORKS_AS Arg1:T3 Arg2:T36	
+R2	WORKPLACE Arg1:T3 Arg2:T2	
+R4	AGENT Arg1:T3 Arg2:T30	
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T30	
+R6	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+T36	PROFESSION 0 20	Солистка «Ленинграда
+R3	WORKPLACE Arg1:T36 Arg2:T2	
+T37	PROFESSION 135 161	солисток группы «Ленинград
+R7	WORKS_AS Arg1:T8 Arg2:T37	
+R8	WORKPLACE Arg1:T8 Arg2:T7	
+R9	AGENT Arg1:T8 Arg2:T31	
+R10	PARTICIPANT_IN Arg1:T7 Arg2:T31	
+R11	WORKPLACE Arg1:T37 Arg2:T7	
+R12	POINT_IN_TIME Arg1:T31 Arg2:T6	
+R13	ALTERNATIVE_NAME Arg1:T8 Arg2:T35	
+R14	AGE_IS Arg1:T35 Arg2:T11	
+R15	WORKS_AS Arg1:T13 Arg2:T12	
+R16	WORKPLACE Arg1:T13 Arg2:T10	
+R17	AGE_IS Arg1:T19 Arg2:T18	
+T38	EVENT 635 649	юбилейном туре
+R18	ORGANIZES Arg1:T19 Arg2:T38	
+R19	START_TIME Arg1:T38 Arg2:T16	
+R20	TAKES_PLACE_IN Arg1:T38 Arg2:T17	
+R21	TAKES_PLACE_IN Arg1:T38 Arg2:T20	
+R22	TAKES_PLACE_IN Arg1:T38 Arg2:T33	
+R23	TAKES_PLACE_IN Arg1:T38 Arg2:T34	
+T39	EVENT 1037 1040	тур
+R24	ORGANIZES Arg1:T22 Arg2:T39	
+R25	END_TIME Arg1:T39 Arg2:T28	
+R26	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R27	TAKES_PLACE_IN Arg1:T39 Arg2:T23	
+R28	TAKES_PLACE_IN Arg1:T39 Arg2:T24	
+R29	TAKES_PLACE_IN Arg1:T39 Arg2:T25	
+R30	TAKES_PLACE_IN Arg1:T39 Arg2:T26	
+R31	TAKES_PLACE_IN Arg1:T39 Arg2:T27	
+R32	TAKES_PLACE_IN Arg1:T39 Arg2:T29	
+R33	WORKPLACE Arg1:T15 Arg2:T10	
+T40	EVENT 564 569	ухода
+R34	AGENT Arg1:T15 Arg2:T40	
+R35	POINT_IN_TIME Arg1:T40 Arg2:T14	
+R36	PARTICIPANT_IN Arg1:T10 Arg2:T40	
+R37	WORKS_AS Arg1:T35 Arg2:T32	
+N1	Reference T9 Wikidata:Q209330	Instagram
+N2	Reference T10 Wikidata:Q909810	Ленинград
+N3	Reference T12 Wikidata:Q177220	певец
+N5	Reference T15 Wikidata:Q21092117	Алиса Вокс
+N6	Reference T17 Wikidata:Q883	Новосибирск
+N8	Reference T23 Wikidata:Q33959	Ницца
+N9	Reference T24 Wikidata:Q1781	Будапешт
+N10	Reference T25 Wikidata:Q1085	Прага
+N11	Reference T26 Wikidata:Q64	Берлин
+N12	Reference T27 Wikidata:Q60	Нью-Йорк
+N13	Reference T29 Wikidata:Q2280	Минск
+N14	Reference T4 Wikidata:Q1371914	солист
+N15	Reference T33 Wikidata:Q4454	Хабаровск
+N16	Reference T34 Wikidata:Q959	Владивосток
+N18	Reference T36 Wikidata:NULL	нет данных
+N19	Reference T37 Wikidata:NULL	нет данных
+N17	Reference T35 Wikidata:Q70685741	
+N4	Reference T13 Wikidata:Q70690699	
+N7	Reference T21 Wikidata:Q159	Россия
+N20	Reference T22 Wikidata:Q909810	Ленинград
+N21	Reference T5 Wikidata:Q909810	Ленинград
+N22	Reference T19 Wikidata:Q909810	Ленинград
+N23	Reference T7 Wikidata:Q909810	Ленинград
+N24	Reference T2 Wikidata:Q909810	Ленинград
+N25	Reference T32 Wikidata:Q177220	певец
+N26	Reference T20 Wikidata:Q883	Новосибирск
+N27	Reference T1 Wikidata:Q1371914	солист
+N28	Reference T8 Wikidata:Q70685741	
+N29	Reference T3 Wikidata:Q70685741	

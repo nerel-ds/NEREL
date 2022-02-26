@@ -1,0 +1,154 @@
+T2	PERSON 40 58	Камаль аль-Ганзури
+T3	COUNTRY 78 84	Египте
+T4	PROFESSION 116 122	маршал
+T5	PROFESSION 154 170	премьер-министру
+T6	PERSON 171 189	Камалю аль-Ганзури
+T7	ORGANIZATION 259 270	Аль-Джазира
+T8	PERSON 274 292	Камаль аль-Ганзури
+T9	DATE 294 303	1933 года
+T10	PROFESSION 327 353	главы правительства Египта
+T11	DATE 354 373	с 1996 по 1999 годы
+T12	ORGANIZATION 425 451	Правительство Исама Шарафа
+T13	PERSON 439 451	Исама Шарафа
+T14	DATE 501 523	в минувшее воскресенье
+T15	DATE 551 561	во вторник
+T16	ORGANIZATION 576 591	Военного совета
+T17	PERSON 635 647	Исама Шарафа
+T18	FACILITY 812 818	Тахрир
+T20	EVENT 860 892	Последний шанс, или Право павших
+T22	DATE 915 922	пятницу
+T23	COUNTRY 993 999	Египте
+T24	DATE 1004 1016	почти неделю
+T25	DATE 1087 1097	январского
+T26	CITY 1125 1133	каирская
+T27	ORGANIZATION 1224 1227	МВД
+T28	NUMBER 1260 1262	38
+T29	NUMBER 1283 1293	до 4 тысяч
+T30	FACILITY 1313 1320	Тахрира
+T31	COUNTRY 1356 1366	египетских
+T32	COUNTRY 1382 1388	Египте
+T33	DATE 1389 1398	28 ноября
+T34	ORDINAL 1413 1419	первый
+T35	DATE 1586 1595	в четверг
+T36	COUNTRY 24 30	Египта
+T37	ORGANIZATION 85 115	Высшего совета вооруженных сил
+T38	PROFESSION 6 30	премьер-министром Египта
+T1	PROFESSION 6 23	премьер-министром
+T39	PERSON 123 137	Хусейн Тантави
+T40	ORGANIZATION 209 226	кабинет министров
+T41	PROFESSION 217 226	министров
+T42	ORGANIZATION 333 353	правительства Египта
+T43	COUNTRY 347 353	Египта
+T44	ORGANIZATION 621 647	правительства Исама Шарафа
+T45	NATIONALITY 686 693	египтян
+T46	TIME 551 569	во вторник вечером
+T47	PROFESSION 570 591	глава Военного совета
+T48	EVENT 612 634	отставку правительства
+T49	PROFESSION 705 714	министрам
+T19	PROFESSION 967 975	премьера
+T21	EVENT 1087 1117	январского народного восстания
+T50	FACILITY 1142 1148	Тахрир
+T51	EVENT 1424 1445	парламентских выборов
+T52	ORGANIZATION 1424 1437	парламентских
+T53	EVENT 1413 1445	первый тур парламентских выборов
+T54	EVENT 1474 1485	голосование
+T55	EVENT 1619 1630	голосования
+R1	WORKPLACE Arg1:T38 Arg2:T36	
+R2	WORKS_AS Arg1:T2 Arg2:T38	
+R3	WORKPLACE Arg1:T2 Arg2:T36	
+R4	WORKS_AS Arg1:T39 Arg2:T4	
+R5	HEADQUARTERED_IN Arg1:T37 Arg2:T3	
+T56	PROFESSION 60 115	Глава правящего в Египте Высшего совета вооруженных сил
+R6	WORKPLACE Arg1:T56 Arg2:T37	
+R7	WORKS_AS Arg1:T39 Arg2:T56	
+R8	WORKPLACE Arg1:T39 Arg2:T37	
+R9	WORKS_AS Arg1:T6 Arg2:T5	
+R10	HEADQUARTERED_IN Arg1:T40 Arg2:T3	
+R11	DATE_OF_BIRTH Arg1:T8 Arg2:T9	
+R12	WORKS_AS Arg1:T8 Arg2:T10	
+R13	WORKPLACE Arg1:T8 Arg2:T42	
+T57	ORGANIZATION 333 346	правительства
+R14	WORKPLACE Arg1:T10 Arg2:T42	
+R15	HEADQUARTERED_IN Arg1:T42 Arg2:T43	
+T58	ORGANIZATION 425 438	Правительство
+T59	EVENT 461 469	отставку
+R17	AGENT Arg1:T12 Arg2:T59	
+R18	TAKES_PLACE_IN Arg1:T59 Arg2:T43	
+R19	POINT_IN_TIME Arg1:T59 Arg2:T14	
+T60	EVENT 478 496	народных протестов
+R20	SUBEVENT_OF Arg1:T59 Arg2:T60	
+R21	POINT_IN_TIME Arg1:T60 Arg2:T14	
+R22	TAKES_PLACE_IN Arg1:T60 Arg2:T43	
+R23	POINT_IN_TIME Arg1:T20 Arg2:T22	
+T61	EVENT 949 975	назначении нового премьера
+T62	EVENT 1030 1056	антивоенные акции протеста
+T63	EVENT 1042 1056	акции протеста
+R24	TAKES_PLACE_IN Arg1:T62 Arg2:T23	
+R25	POINT_IN_TIME Arg1:T21 Arg2:T25	
+T64	EVENT 1098 1117	народного восстания
+R26	LOCATED_IN Arg1:T50 Arg2:T26	
+R27	TAKES_PLACE_IN Arg1:T62 Arg2:T50	
+R28	TAKES_PLACE_IN Arg1:T21 Arg2:T50	
+T65	EVENT 1159 1207	столкновений демонстрантов с силами безопасности
+R29	SUBEVENT_OF Arg1:T65 Arg2:T62	
+R30	TAKES_PLACE_IN Arg1:T65 Arg2:T50	
+T66	EVENT 1295 1320	Акции в поддержку Тахрира
+R31	ALTERNATIVE_NAME Arg1:T62 Arg2:T66	
+R33	POINT_IN_TIME Arg1:T53 Arg2:T33	
+R34	TAKES_PLACE_IN Arg1:T53 Arg2:T32	
+R35	SUBEVENT_OF Arg1:T53 Arg2:T51	
+R36	TAKES_PLACE_IN Arg1:T20 Arg2:T18	
+R32	TAKES_PLACE_IN Arg1:T66 Arg2:T31	
+R16	FOUNDED_BY Arg1:T12 Arg2:T13	
+R37	PARTICIPANT_IN Arg1:T44 Arg2:T48	
+R38	FOUNDED_BY Arg1:T44 Arg2:T17	
+R39	LOCATED_IN Arg1:T26 Arg2:T23	
+R40	WORKPLACE Arg1:T47 Arg2:T16	
+T67	EVENT 31 39	назначен
+R41	PARTICIPANT_IN Arg1:T2 Arg2:T67	
+R42	TAKES_PLACE_IN Arg1:T67 Arg2:T36	
+R43	HEADQUARTERED_IN Arg1:T12 Arg2:T43	
+R44	HEADQUARTERED_IN Arg1:T16 Arg2:T43	
+R45	ALTERNATIVE_NAME Arg1:T67 Arg2:T61	
+T68	EVENT 1159 1185	столкновений демонстрантов
+R46	SUBEVENT_OF Arg1:T54 Arg2:T53	
+R47	AGENT Arg1:T47 Arg2:T48	
+R48	POINT_IN_TIME Arg1:T48 Arg2:T46	
+N1	Reference T3 Wikidata:Q79	Египет
+N3	Reference T5 Wikidata:Q14212	премьер-министр
+N4	Reference T6 Wikidata:Q365922	Камаль аль-Ганзури
+N5	Reference T7 Wikidata:Q13477	Аль-Джазира
+N8	Reference T13 Wikidata:Q57680	Исам Шараф
+N10	Reference T18 Wikidata:Q12061	Площадь Тахрир
+N12	Reference T27 Wikidata:Q6589202	министерство внутренних дел
+N14	Reference T37 Wikidata:Q386160	Высший совет Вооружённых сил
+N15	Reference T38 Wikidata:Q1571396	премьер-министр Египта
+N16	Reference T39 Wikidata:Q45917	Мохаммед Хуссейн Тантави
+N17	Reference T40 Wikidata:Q640506	кабинет министров
+N19	Reference T45 Wikidata:Q1061510	египтянин
+N21	Reference T49 Wikidata:Q83307	министр
+N25	Reference T58 Wikidata:Q7188	правительство
+N24	Reference T56 Wikidata:NULL	нет данных
+N2	Reference T4 Wikidata:Q111837	маршал
+N6	Reference T10 Wikidata:Q1571396	премьер-министр Египта
+N18	Reference T42 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:NULL	нет данных
+N20	Reference T47 Wikidata:NULL	нет данных
+N9	Reference T16 Wikidata:Q386160	Высший совет Вооружённых сил
+N22	Reference T19 Wikidata:Q14212	премьер-министр
+N13	Reference T31 Wikidata:Q79	Египет
+N11	Reference T26 Wikidata:Q85	Каир
+N23	Reference T52 Wikidata:Q35749	парламент
+N26	Reference T36 Wikidata:Q79	Египет
+N27	Reference T23 Wikidata:Q79	Египет
+N28	Reference T32 Wikidata:Q79	Египет
+N29	Reference T43 Wikidata:Q79	Египет
+N30	Reference T1 Wikidata:Q14212	премьер-министр
+N31	Reference T8 Wikidata:Q365922	Камаль аль-Ганзури
+N32	Reference T2 Wikidata:Q365922	Камаль аль-Ганзури
+N33	Reference T17 Wikidata:Q57680	Исам Шараф
+N34	Reference T30 Wikidata:Q12061	Площадь Тахрир
+N35	Reference T50 Wikidata:Q12061	Площадь Тахрир
+N36	Reference T41 Wikidata:Q83307	министр
+N37	Reference T57 Wikidata:Q7188	правительство
+N38	Reference T44 Wikidata:NULL	нет данных

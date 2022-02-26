@@ -1,0 +1,141 @@
+T1	COUNTRY 2 9	Испании
+T2	ORGANIZATION 45 48	НТВ
+T3	PERSON 49 64	Игорь Малашенко
+T4	FACILITY 65 87	Останкинская телебашня
+T5	PROFESSION 100 113	медиаменеджер
+T6	PERSON 114 129	Игорь Малашенко
+T7	COUNTRY 147 154	Испании
+T8	PERSON 207 216	Малашенко
+T9	AGE 270 277	64 года
+T10	PERSON 280 295	Игорь Малашенко
+T11	ORGANIZATION 331 334	НТВ
+T12	PROFESSION 460 516	главным советником избирательной кампании Бориса Ельцина
+T13	ORGANIZATION 364 381	РГТРК «Останкино»
+T15	PROFESSION 413 426	гендиректором
+T16	ORGANIZATION 434 438	RTVI
+T17	DATE 441 452	В 1996 году
+T18	PROFESSION 460 478	главным советником
+T19	PERSON 502 516	Бориса Ельцина
+T20	DATE 520 531	в 2018 году
+T22	PERSON 573 586	Ксении Собчак
+T23	DATE 634 650	Осенью 2018 года
+T26	ORGANIZATION 728 733	Манеж
+T27	PERSON 735 751	Еленой Малашенко
+T28	PERSON 765 774	Малашенко
+T29	PERSON 786 800	Божене Рынской
+T30	PERSON 865 871	Рынска
+T31	DATE 953 963	14 февраля
+T32	PERSON 983 988	Игорь
+T34	PERSON 1164 1173	Малашенко
+T35	DATE 1182 1193	в 1954 году
+T36	ORGANIZATION 1203 1228	философский факультет МГУ
+T37	NUMBER 25 29	один
+T38	PROFESSION 88 97	Политолог
+T39	EVENT 217 233	покончил с собой
+T40	ORGANIZATION 371 380	Останкино
+T41	ORGANIZATION 400 410	Медиа-Мост
+T43	PROFESSION 413 438	гендиректором канала RTVI
+T44	DATE 336 349	В разные годы
+T46	PROFESSION 534 586	главой предвыборного штаба телеведущей Ксении Собчак
+T47	PROFESSION 614 631	президенты России
+T48	PROFESSION 614 624	президенты
+T50	PROFESSION 693 733	художественным директором галереи «Манеж
+T52	PROFESSION 693 718	художественным директором
+T54	PROFESSION 936 950	медиаменеджера
+T21	COUNTRY 625 631	России
+T56	PERSON 651 660	Малашенко
+T57	EVENT 661 669	развёлся
+T24	PERSON 964 970	Рынска
+T33	ORGANIZATION 1225 1228	МГУ
+T14	EVENT 10 24	найден мёртвым
+R1	FOUNDED_BY Arg1:T2 Arg2:T3	
+T25	EVENT 130 144	найден мёртвым
+R2	TAKES_PLACE_IN Arg1:T14 Arg2:T1	
+R3	TAKES_PLACE_IN Arg1:T25 Arg2:T7	
+R4	PARTICIPANT_IN Arg1:T8 Arg2:T39	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+R6	AGE_DIED_AT Arg1:T8 Arg2:T9	
+R7	WORKS_AS Arg1:T6 Arg2:T5	
+R8	WORKS_AS Arg1:T6 Arg2:T38	
+R9	FOUNDED_BY Arg1:T11 Arg2:T10	
+R10	WORKPLACE Arg1:T43 Arg2:T16	
+R11	FOUNDED_BY Arg1:T41 Arg2:T10	
+R12	WORKPLACE Arg1:T10 Arg2:T13	
+R13	WORKS_AS Arg1:T10 Arg2:T43	
+R14	WORKPLACE Arg1:T10 Arg2:T16	
+R15	AGENT Arg1:T56 Arg2:T57	
+R16	POINT_IN_TIME Arg1:T57 Arg2:T23	
+R17	SPOUSE Arg1:T28 Arg2:T29	
+R18	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R19	WORKS_AS Arg1:T28 Arg2:T54	
+R20	DATE_OF_BIRTH Arg1:T34 Arg2:T35	
+R21	PART_OF Arg1:T36 Arg2:T33	
+R22	SCHOOLS_ATTENDED Arg1:T34 Arg2:T36	
+R23	WORKS_AS Arg1:T10 Arg2:T12	
+T42	EVENT 479 501	избирательной кампании
+R24	POINT_IN_TIME Arg1:T42 Arg2:T17	
+R25	PARTICIPANT_IN Arg1:T19 Arg2:T42	
+R26	WORKPLACE Arg1:T12 Arg2:T42	
+R27	SUBORDINATE_OF Arg1:T10 Arg2:T19	
+T45	PROFESSION 561 572	телеведущей
+R28	WORKS_AS Arg1:T22 Arg2:T45	
+R29	SUBORDINATE_OF Arg1:T46 Arg2:T45	
+R30	WORKS_AS Arg1:T10 Arg2:T46	
+R31	WORKPLACE Arg1:T47 Arg2:T21	
+R32	WORKPLACE Arg1:T50 Arg2:T26	
+R33	WORKS_AS Arg1:T27 Arg2:T50	
+R34	WORKPLACE Arg1:T27 Arg2:T26	
+R35	SPOUSE Arg1:T56 Arg2:T27	
+R36	PARTICIPANT_IN Arg1:T27 Arg2:T57	
+T49	DISEASE 1058 1085	неврологическими проблемами
+R37	ALTERNATIVE_NAME Arg1:T28 Arg2:T32	
+R38	MEDICAL_CONDITION Arg1:T32 Arg2:T49	
+R39	INANIMATE_INVOLVED Arg1:T3 Arg2:T14	
+R40	INANIMATE_INVOLVED Arg1:T6 Arg2:T25	
+R41	HAS_CAUSE Arg1:T25 Arg2:T39	
+T51	EVENT 775 782	женился
+R42	AGENT Arg1:T28 Arg2:T51	
+R43	AGENT Arg1:T29 Arg2:T51	
+N1	Reference T4 Wikidata:Q181324	Останкинская телебашня
+N2	Reference T7 Wikidata:Q29	Испания
+N3	Reference T10 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N4	Reference T11 Wikidata:Q574625	НТВ
+N7	Reference T15 Wikidata:Q1501800	генеральный директор
+N8	Reference T16 Wikidata:Q1474706	RTVi
+N10	Reference T19 Wikidata:Q34453	Борис Николаевич Ельцин
+N11	Reference T22 Wikidata:Q287099	Ксения Анатольевна Собчак
+N12	Reference T26 Wikidata:Q1889165	Манеж
+N14	Reference T36 Wikidata:Q3064305	философский факультет МГУ
+N15	Reference T38 Wikidata:Q1238570	политолог
+N17	Reference T41 Wikidata:Q4287659	Медиа-Мост
+N20	Reference T47 Wikidata:Q218295	президент Российской Федерации
+N21	Reference T48 Wikidata:Q30461	президент
+N24	Reference T21 Wikidata:Q159	Россия
+N25	Reference T56 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N26	Reference T33 Wikidata:Q13164	Московский государственный университет
+N27	Reference T45 Wikidata:Q947873	телеведущий
+N28	Reference T5 Wikidata:Q56425414	
+N18	Reference T43 Wikidata:NULL	нет данных
+N29	Reference T30 Wikidata:Q16627289	
+N6	Reference T13 Wikidata:Q4338489	
+N16	Reference T40 Wikidata:Q4338489	
+N5	Reference T12 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:NULL	нет данных
+N19	Reference T46 Wikidata:NULL	нет данных
+N23	Reference T52 Wikidata:Q706364	арт-директор
+N22	Reference T50 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:NULL	нет данных
+N30	Reference T1 Wikidata:Q29	Испания
+N31	Reference T6 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N32	Reference T8 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N33	Reference T3 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N34	Reference T2 Wikidata:Q574625	НТВ
+N35	Reference T34 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N36	Reference T28 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N37	Reference T32 Wikidata:Q4276640	Малашенко, Игорь Евгеньевич
+N38	Reference T54 Wikidata:Q56425414	
+N39	Reference T29 Wikidata:Q16627289	
+N40	Reference T24 Wikidata:Q16627289	
+T53	EVENT 1174 1181	родился
+R44	PARTICIPANT_IN Arg1:T34 Arg2:T53	
+R45	POINT_IN_TIME Arg1:T53 Arg2:T35	

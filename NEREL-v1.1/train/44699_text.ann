@@ -1,0 +1,183 @@
+T1	PERSON 0 5	Путин
+T2	PERSON 15 23	Киселёва
+T4	PERSON 64 80	Владимир Киселёв
+T5	PROFESSION 118 127	Президент
+T6	PERSON 135 149	Владимир Путин
+T7	DATE 157 180	от 13 февраля 2014 года
+T8	PROFESSION 190 272	гендиректора российского международного информационного агентства «Россия сегодня»
+T9	ORGANIZATION 257 271	Россия сегодня
+T10	PROFESSION 287 305	гендиректора ВГТРК
+T11	PERSON 306 322	Дмитрия Киселёва
+T12	ORDINAL 361 363	IV
+T13	COUNTRY 396 406	российских
+T14	COUNTRY 519 521	РФ
+T15	PROFESSION 700 709	президент
+T16	PERSON 720 731	Герман Греф
+T17	DATE 850 855	вчера
+T18	DATE 858 878	17 февраля 2014 года
+T19	PROFESSION 881 910	Ведущий телеканала «Россия 1»
+T20	ORGANIZATION 901 909	Россия 1
+T21	AGE 911 920	59-летний
+T22	PROFESSION 921 930	журналист
+T23	PERSON 931 946	Дмитрий Киселёв
+T24	COUNTRY 1027 1037	российской
+T25	PERSON 1178 1185	Киселёв
+T27	AGE 1279 1287	60-летия
+T29	DATE 1295 1314	7 октября 2012 года
+T30	PERSON 1348 1363	Дмитрий Киселёв
+T31	TIME 1413 1432	12 минут 41 секунду
+T32	PERSON 1460 1465	Путин
+T33	DATE 1500 1507	ХХ века
+T34	PERSON 1527 1535	Сталиным
+T35	PERSON 1653 1660	Сталина
+T36	NATIONALITY 1937 1944	россиян
+T37	MONEY 1955 1961	рублях
+T38	NUMBER 1964 1966	13
+T39	NUMBER 1980 1982	10
+T40	DATE 2038 2057	В декабре 2013 года
+T41	PERSON 2099 2107	Киселёва
+T42	ORGANIZATION 2156 2170	Россия сегодня
+T43	ORGANIZATION 2209 2220	РИА Новости
+T3	AWARD 33 60	За заслуги перед Отечеством
+R1	AWARDED_WITH Arg1:T2 Arg2:T3	
+T44	AWARD 88 115	За заслуги перед Отечеством
+T45	COUNTRY 128 134	России
+T46	PROFESSION 118 134	Президент России
+R2	WORKS_AS Arg1:T6 Arg2:T46	
+T47	ORGANIZATION 300 305	ВГТРК
+T48	AWARD 332 359	За заслуги перед Отечеством
+T49	AWARD 332 371	За заслуги перед Отечеством» IV степени
+T50	PROFESSION 275 305	заместителя гендиректора ВГТРК
+R3	SUBORDINATE_OF Arg1:T50 Arg2:T10	
+R4	WORKPLACE Arg1:T11 Arg2:T47	
+R5	AWARDED_WITH Arg1:T11 Arg2:T49	
+T51	AWARD 684 698	Орденом почёта
+T52	ORGANIZATION 710 719	Сбербанка
+T53	PROFESSION 700 719	президент Сбербанка
+R6	WORKPLACE Arg1:T16 Arg2:T52	
+R7	WORKS_AS Arg1:T16 Arg2:T53	
+R8	AWARDED_WITH Arg1:T16 Arg2:T51	
+R9	WORKS_AS Arg1:T23 Arg2:T22	
+R10	AGE_IS Arg1:T23 Arg2:T21	
+R11	WORKS_AS Arg1:T23 Arg2:T19	
+R12	WORKPLACE Arg1:T23 Arg2:T20	
+T54	WORK_OF_ART 1333 1346	Вестей недели
+T55	PERSON 1288 1294	Путина
+R13	AGE_IS Arg1:T55 Arg2:T27	
+T26	PROFESSION 1466 1473	политик
+R14	WORKS_AS Arg1:T32 Arg2:T26	
+R15	WORKS_AS Arg1:T34 Arg2:T26	
+R16	WORKPLACE Arg1:T41 Arg2:T42	
+T28	COUNTRY 2058 2068	российские
+T56	COUNTRY 1740 1746	Россия
+T57	COUNTRY 1983 1989	Россия
+T58	LAW 150 180	указом от 13 февраля 2014 года
+T59	EVENT 6 14	наградил
+R17	AGENT Arg1:T1 Arg2:T59	
+R18	PARTICIPANT_IN Arg1:T2 Arg2:T59	
+T60	EVENT 181 189	наградил
+R19	AGENT Arg1:T6 Arg2:T60	
+R20	PARTICIPANT_IN Arg1:T11 Arg2:T60	
+R21	WORKPLACE Arg1:T11 Arg2:T9	
+T61	EVENT 673 682	награждён
+R22	PARTICIPANT_IN Arg1:T16 Arg2:T61	
+T62	EVENT 2090 2098	назначив
+R23	POINT_IN_TIME Arg1:T62 Arg2:T40	
+R24	PARTICIPANT_IN Arg1:T41 Arg2:T62	
+R25	WORKPLACE Arg1:T6 Arg2:T45	
+R26	WORKS_AS Arg1:T11 Arg2:T8	
+T63	PROFESSION 1242 1259	президенту России
+T64	COUNTRY 1253 1259	России
+T65	PROFESSION 1242 1252	президенту
+T66	PERSON 1569 1580	сталинского
+T67	ORGANIZATION 1678 1689	кремлёвский
+T68	PROFESSION 1678 1695	кремлёвский лидер
+T69	PROFESSION 190 202	гендиректора
+T70	PROFESSION 287 299	гендиректора
+T71	PROFESSION 881 899	Ведущий телеканала
+T72	PROFESSION 881 888	Ведущий
+R27	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R28	WORKPLACE Arg1:T46 Arg2:T45	
+R29	DATE_OF_CREATION Arg1:T58 Arg2:T7	
+R30	WORKPLACE Arg1:T8 Arg2:T9	
+R31	WORKPLACE Arg1:T10 Arg2:T47	
+R32	WORKPLACE Arg1:T50 Arg2:T47	
+R35	PARTICIPANT_IN Arg1:T6 Arg2:T61	
+R36	WORKPLACE Arg1:T53 Arg2:T52	
+R37	WORKPLACE Arg1:T19 Arg2:T20	
+R38	WORKPLACE Arg1:T63 Arg2:T64	
+R39	ALTERNATIVE_NAME Arg1:T34 Arg2:T66	
+T73	ORGANIZATION 2058 2075	российские власти
+R40	AGENT Arg1:T73 Arg2:T62	
+R41	ALTERNATIVE_NAME Arg1:T23 Arg2:T41	
+R42	PARTICIPANT_IN Arg1:T30 Arg2:T54	
+R43	DATE_OF_CREATION Arg1:T54 Arg2:T29	
+T74	COUNTRY 203 214	российского
+T75	COUNTRY 257 263	Россия
+R44	HEADQUARTERED_IN Arg1:T9 Arg2:T75	
+R33	ALTERNATIVE_NAME Arg1:T75 Arg2:T14	
+R34	HEADQUARTERED_IN Arg1:T73 Arg2:T28	
+T76	COUNTRY 2156 2162	Россия
+R45	HEADQUARTERED_IN Arg1:T42 Arg2:T76	
+R46	WORKPLACE Arg1:T68 Arg2:T67	
+R47	POINT_IN_TIME Arg1:T49 Arg2:T7	
+N1	Reference T4 Wikidata:Q4222051	Владимир Владимирович Киселёв
+N2	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N6	Reference T16 Wikidata:Q465285	Герман Греф
+N8	Reference T20 Wikidata:Q211511	Россия-1
+N9	Reference T22 Wikidata:Q1930187	журналист
+N10	Reference T30 Wikidata:Q4222062	Дмитрий Константинович Киселёв
+N11	Reference T32 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T36 Wikidata:Q492468	россияне
+N13	Reference T42 Wikidata:Q15294742	Россия сегодня
+N14	Reference T43 Wikidata:Q821172	РИА Новости
+N15	Reference T46 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T47 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
+N17	Reference T48 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N18	Reference T49 Wikidata:Q18080423	орден «За заслуги перед Отечеством» IV степени
+N20	Reference T51 Wikidata:Q2268261	орден Почёта
+N21	Reference T52 Wikidata:Q205012	Сбербанк РФ
+N23	Reference T54 Wikidata:Q4109599	Вести недели
+N24	Reference T26 Wikidata:Q82955	политик
+N25	Reference T65 Wikidata:Q30461	президент
+N29	Reference T69 Wikidata:Q1501800	генеральный директор
+N30	Reference T71 Wikidata:Q947873	телеведущий
+N31	Reference T72 Wikidata:Q947873	телеведущий
+N33	Reference T75 Wikidata:Q159	Россия
+N34	Reference T58 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:NULL	нет данных
+N7	Reference T19 Wikidata:NULL	нет данных
+N32	Reference T73 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:Q159	Россия
+N26	Reference T66 Wikidata:Q855	Иосиф Виссарионович Сталин
+N27	Reference T67 Wikidata:Q133274	Московский Кремль
+N28	Reference T68 Wikidata:NULL	нет данных
+N35	Reference T2 Wikidata:Q4222051	Владимир Владимирович Киселёв
+N36	Reference T25 Wikidata:Q4222062	Дмитрий Константинович Киселёв
+N37	Reference T41 Wikidata:Q4222062	Дмитрий Константинович Киселёв
+N38	Reference T11 Wikidata:Q4222062	Дмитрий Константинович Киселёв
+N39	Reference T23 Wikidata:Q4222062	Дмитрий Константинович Киселёв
+N40	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N41	Reference T55 Wikidata:Q7747	Владимир Владимирович Путин
+N42	Reference T9 Wikidata:Q15294742	Россия сегодня
+N43	Reference T63 Wikidata:Q218295	президент Российской Федерации
+N44	Reference T3 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N45	Reference T44 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N46	Reference T5 Wikidata:Q30461	президент
+N47	Reference T15 Wikidata:Q30461	президент
+N48	Reference T70 Wikidata:Q1501800	генеральный директор
+N49	Reference T14 Wikidata:Q159	Россия
+N50	Reference T57 Wikidata:Q159	Россия
+N51	Reference T45 Wikidata:Q159	Россия
+N52	Reference T56 Wikidata:Q159	Россия
+N53	Reference T76 Wikidata:Q159	Россия
+N54	Reference T64 Wikidata:Q159	Россия
+N55	Reference T28 Wikidata:Q159	Россия
+N56	Reference T74 Wikidata:Q159	Россия
+N57	Reference T24 Wikidata:Q159	Россия
+N58	Reference T34 Wikidata:Q855	Иосиф Виссарионович Сталин
+N59	Reference T35 Wikidata:Q855	Иосиф Виссарионович Сталин
+R48	INANIMATE_INVOLVED Arg1:T3 Arg2:T59	

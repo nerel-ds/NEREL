@@ -1,0 +1,65 @@
+T1	ORGANIZATION 0 13	Правительство
+T2	PERSON 14 23	Медведева
+T3	PERSON 41 55	Владимир Путин
+T4	PERSON 58 74	Дмитрий Медведев
+T5	DATE 75 92	7 марта 2018 года
+T6	ORGANIZATION 93 106	Правительство
+T7	COUNTRY 107 113	России
+T8	PERSON 125 144	Дмитрием Медведевым
+T9	ORDINAL 188 198	четвёртого
+T10	PROFESSION 199 213	президентского
+T11	PERSON 220 236	Владимира Путина
+T12	PROFESSION 247 254	премьер
+T14	COUNTRY 351 353	РФ
+T15	LAW 365 376	Конституции
+T16	DATE 556 562	завтра
+T17	ORGANIZATION 564 571	Госдума
+T19	ORGANIZATION 611 624	правительства
+T20	ORGANIZATION 0 23	Правительство Медведева
+T22	ORGANIZATION 93 113	Правительство России
+T13	LAW 327 353	статьей 116 Конституции РФ
+T24	ORDINAL 335 338	116
+T25	LAW 339 353	Конституции РФ
+T26	PROFESSION 508 516	премьера
+T18	EVENT 586 624	утверждения нового главы правительства
+R1	WORKPLACE Arg1:T2 Arg2:T20	
+T21	EVENT 31 39	отставку
+R2	PARTICIPANT_IN Arg1:T20 Arg2:T21	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T21	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R5	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R6	HEADQUARTERED_IN Arg1:T22 Arg2:T7	
+R7	WORKPLACE Arg1:T8 Arg2:T7	
+R8	WORKPLACE Arg1:T8 Arg2:T22	
+T23	EVENT 152 160	отставку
+R9	PARTICIPANT_IN Arg1:T22 Arg2:T23	
+R10	WORKS_AS Arg1:T11 Arg2:T10	
+T27	PROFESSION 605 624	главы правительства
+R11	WORKPLACE Arg1:T27 Arg2:T19	
+R12	AGENT Arg1:T17 Arg2:T18	
+R13	POINT_IN_TIME Arg1:T18 Arg2:T16	
+R14	PART_OF Arg1:T13 Arg2:T25	
+R15	ORIGINS_FROM Arg1:T25 Arg2:T14	
+T28	LAW 339 350	Конституции
+R16	PARTICIPANT_IN Arg1:T27 Arg2:T18	
+N1	Reference T4 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N2	Reference T7 Wikidata:Q159	Россия
+N4	Reference T11 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T12 Wikidata:Q14212	премьер-министр
+N6	Reference T17 Wikidata:Q715641	Государственная дума
+N7	Reference T19 Wikidata:Q7188	правительство
+N8	Reference T20 Wikidata:Q2348089	Правительство Медведева
+N9	Reference T22 Wikidata:Q1140115	Правительство Российской Федерации
+N11	Reference T25 Wikidata:Q652062	Конституция Российской Федерации
+N13	Reference T27 Wikidata:Q2285706	глава правительства
+N3	Reference T10 Wikidata:Q30461	президент
+N10	Reference T13 Wikidata:NULL	нет данных
+N14	Reference T28 Wikidata:Q7755	конституция
+N12	Reference T26 Wikidata:Q14212	премьер-министр
+N15	Reference T2 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N16	Reference T8 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N17	Reference T14 Wikidata:Q159	Россия
+N18	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N19	Reference T6 Wikidata:Q7188	правительство
+N20	Reference T1 Wikidata:Q7188	правительство
+N21	Reference T15 Wikidata:Q7755	конституция

@@ -1,0 +1,93 @@
+T1	ORGANIZATION 0 13	Правительство
+T2	STATE_OR_PROVINCE 14 23	Каталонии
+T3	PERSON 47 62	Карлес Пучдемон
+T4	STATE_OR_PROVINCE 82 91	Каталонии
+T6	ORGANIZATION 122 140	кабинета министров
+T7	COUNTRY 141 148	Испании
+T8	PERSON 149 162	Мариано Рахой
+T9	PERSON 172 189	Карлеса Пучдемона
+T10	ORGANIZATION 196 209	правительство
+T12	DATE 278 296	в течение полугода
+T13	STATE_OR_PROVINCE 331 340	Каталонии
+T15	COUNTRY 394 401	Испании
+T16	DATE 505 526	в субботу, 21 октября
+T17	CITY 559 566	Мадрида
+T18	STATE_OR_PROVINCE 570 581	Каталонский
+T19	PERCENT 605 614	более 90%
+T20	COUNTRY 669 678	Испанские
+T21	PERSON 791 796	Рахой
+T22	STATE_OR_PROVINCE 850 859	Каталонии
+T23	ORGANIZATION 881 894	правительство
+T24	EVENT 37 45	отставку
+T25	ORGANIZATION 0 23	Правительство Каталонии
+T11	EVENT 212 220	отставку
+T26	ORGANIZATION 122 148	кабинета министров Испании
+T27	PROFESSION 109 148	Председатель кабинета министров Испании
+T30	ORDINAL 371 374	155
+T31	LAW 382 393	конституции
+T32	LAW 382 401	конституции Испании
+T14	LAW 371 401	155 статье конституции Испании
+T36	STATE_OR_PROVINCE 725 736	каталонский
+T37	ORGANIZATION 669 685	Испанские власти
+T38	EVENT 871 880	низложено
+T28	EVENT 222 238	Досрочные выборы
+R1	PARTICIPANT_IN Arg1:T25 Arg2:T24	
+R2	HEADQUARTERED_IN Arg1:T25 Arg2:T2	
+R3	WORKS_AS Arg1:T8 Arg2:T27	
+R4	WORKPLACE Arg1:T8 Arg2:T26	
+R5	WORKPLACE Arg1:T8 Arg2:T7	
+R6	HEADQUARTERED_IN Arg1:T26 Arg2:T7	
+R7	WORKPLACE Arg1:T27 Arg2:T7	
+R8	PARTICIPANT_IN Arg1:T9 Arg2:T11	
+R9	AGENT Arg1:T8 Arg2:T11	
+R10	PARTICIPANT_IN Arg1:T10 Arg2:T11	
+R11	WORKPLACE Arg1:T9 Arg2:T10	
+R12	SUBORDINATE_OF Arg1:T9 Arg2:T8	
+R13	LOCATED_IN Arg1:T4 Arg2:T7	
+R14	POINT_IN_TIME Arg1:T28 Arg2:T12	
+T29	EVENT 476 485	заседании
+T33	ORGANIZATION 486 504	кабинета министров
+R15	PARTICIPANT_IN Arg1:T33 Arg2:T29	
+R16	POINT_IN_TIME Arg1:T29 Arg2:T16	
+R17	ALTERNATIVE_NAME Arg1:T17 Arg2:T7	
+T34	EVENT 570 592	Каталонский референдум
+R18	TAKES_PLACE_IN Arg1:T34 Arg2:T18	
+R20	HEADQUARTERED_IN Arg1:T37 Arg2:T20	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T20	
+R22	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T21	
+R24	PARTICIPANT_IN Arg1:T23 Arg2:T38	
+R25	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R26	TAKES_PLACE_IN Arg1:T28 Arg2:T2	
+R27	PART_OF Arg1:T14 Arg2:T32	
+R28	ORIGINS_FROM Arg1:T32 Arg2:T15	
+R29	HEADQUARTERED_IN Arg1:T33 Arg2:T15	
+T5	EVENT 582 592	референдум
+R19	LOCATED_IN Arg1:T36 Arg2:T20	
+R30	TAKES_PLACE_IN Arg1:T38 Arg2:T22	
+N1	Reference T6 Wikidata:Q640506	кабинет министров
+N2	Reference T8 Wikidata:Q10819	Мариано Рахой
+N3	Reference T9 Wikidata:Q4740163	Карлес Пучдемон
+N4	Reference T10 Wikidata:Q7188	правительство
+N5	Reference T15 Wikidata:Q29	Испания
+N6	Reference T17 Wikidata:Q2807	Мадрид
+N8	Reference T25 Wikidata:Q8022	Правительство Каталонии
+N10	Reference T31 Wikidata:Q7755	конституция
+N11	Reference T32 Wikidata:Q847664	Конституция Испании
+N12	Reference T27 Wikidata:Q844587	председатель правительства Испании
+N9	Reference T26 Wikidata:Q1194749	
+N13	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:Q5705	Каталония
+N14	Reference T37 Wikidata:NULL	нет данных
+N15	Reference T33 Wikidata:Q640506	кабинет министров
+N16	Reference T21 Wikidata:Q10819	Мариано Рахой
+N17	Reference T3 Wikidata:Q4740163	Карлес Пучдемон
+N18	Reference T1 Wikidata:Q7188	правительство
+N19	Reference T23 Wikidata:Q7188	правительство
+N20	Reference T7 Wikidata:Q29	Испания
+N21	Reference T20 Wikidata:Q29	Испания
+N22	Reference T13 Wikidata:Q5705	Каталония
+N23	Reference T22 Wikidata:Q5705	Каталония
+N24	Reference T36 Wikidata:Q5705	Каталония
+N25	Reference T4 Wikidata:Q5705	Каталония
+N26	Reference T2 Wikidata:Q5705	Каталония

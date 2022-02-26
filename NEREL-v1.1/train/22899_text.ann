@@ -1,0 +1,253 @@
+T2	PERSON 46 56	Синдзо Абэ
+T4	PERSON 105 115	Синдзо Абэ
+T5	DATE 130 150	26 декабря 2012 года
+T6	PROFESSION 171 187	премьер-министра
+T8	PERSON 327 339	Ёсихидэ Суга
+T9	PERSON 341 345	Суга
+T10	PROFESSION 359 397	министра внутренних дел и коммуникаций
+T11	DATE 431 443	до 2007 года
+T12	PROFESSION 445 461	Министр финансов
+T13	AGE 464 475	72-х летний
+T14	PERSON 476 484	Таро Асо
+T15	PROFESSION 502 518	премьер-министра
+T16	ORGANIZATION 529 532	ЛДП
+T17	PROFESSION 552 589	Министр экономического восстановления
+T18	PERSON 592 603	Акира Амари
+T20	PROFESSION 628 674	министром экономики, торговли и промышленности
+T21	PROFESSION 676 720	Министр экономики, торговли и промышленности
+T22	PERSON 723 738	Тоcимицу Мотэги
+T23	FACILITY 857 867	Фукусима-1
+T24	PROFESSION 870 893	Министр иностранных дел
+T25	PERSON 896 908	Фумио Кисида
+T26	PROFESSION 910 929	Министр образования
+T27	PERSON 932 948	Хакубун Симомура
+T28	PROFESSION 950 965	Министр юстиции
+T29	PERSON 968 986	Садакадзу Танигаки
+T30	PROFESSION 988 1034	Министр сельского хозяйства и окружающей среды
+T31	PERSON 1037 1051	Йосимаса Хаяси
+T32	PROFESSION 1053 1068	Министр обороны
+T33	PERSON 1071 1086	Ицунори Онодэра
+T34	PERSON 1089 1099	Синдзо Абэ
+T35	ORDINAL 1109 1113	96-м
+T36	ORDINAL 1138 1144	первый
+T38	EVENT 1179 1199	Второй мировой войны
+T39	PERSON 1239 1250	Синтаро Абэ
+T41	COUNTRY 1278 1286	японский
+T42	ORGANIZATION 1287 1290	МИД
+T43	PERSON 1296 1302	Синдзо
+T44	PROFESSION 1320 1328	премьера
+T46	DATE 1384 1394	менее года
+T47	COUNTRY 1557 1563	Японии
+T48	PERCENT 1567 1570	2 %
+T49	COUNTRY 1603 1611	японский
+T51	PROFESSION 6 20	премьер Японии
+T52	PROFESSION 58 104	Глава Либерально-демократической партии Японии
+T53	PROFESSION 171 194	премьер-министра страны
+T55	PROFESSION 288 324	Главный секретарь кабинета министров
+T57	PROFESSION 359 367	министра
+T58	PROFESSION 502 525	премьер-министра Японии
+T60	PROFESSION 552 559	Министр
+T61	PROFESSION 445 452	Министр
+T62	PROFESSION 628 637	министром
+T63	PROFESSION 676 683	Министр
+T64	PROFESSION 870 877	Министр
+T65	PROFESSION 910 917	Министр
+T66	PROFESSION 950 957	Министр
+T67	PROFESSION 988 995	Министр
+T68	PROFESSION 1053 1060	Министр
+T69	PROFESSION 1114 1130	премьером Японии
+T70	PROFESSION 1114 1123	премьером
+T71	PROFESSION 1145 1160	премьер-министр
+T72	PROFESSION 1220 1227	политик
+T73	PROFESSION 1320 1335	премьера Японии
+T74	COUNTRY 14 20	Японии
+T1	PROFESSION 6 13	премьер
+T3	ORGANIZATION 64 104	Либерально-демократической партии Японии
+T50	IDEOLOGY 64 90	Либерально-демократической
+T75	COUNTRY 98 104	Японии
+T76	ORGANIZATION 151 162	парламентом
+T77	PERSON 252 255	Абэ
+T78	ORGANIZATION 306 324	кабинета министров
+T79	PROFESSION 315 324	министров
+T80	PERSON 420 430	Синдзо Абэ
+T81	COUNTRY 519 525	Японии
+T83	EVENT 842 848	аварии
+T84	COUNTRY 1124 1130	Японии
+T85	ORGANIZATION 1278 1290	японский МИД
+T86	COUNTRY 1329 1335	Японии
+R1	WORKPLACE Arg1:T51 Arg2:T74	
+R2	IDEOLOGY_OF Arg1:T3 Arg2:T50	
+R3	WORKPLACE Arg1:T52 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T3 Arg2:T75	
+R5	WORKS_AS Arg1:T4 Arg2:T52	
+R6	MEMBER_OF Arg1:T4 Arg2:T3	
+R7	WORKS_AS Arg1:T4 Arg2:T53	
+T54	EVENT 117 129	утвержденный
+R8	AGENT Arg1:T4 Arg2:T54	
+R9	PARTICIPANT_IN Arg1:T76 Arg2:T54	
+R10	POINT_IN_TIME Arg1:T54 Arg2:T5	
+R11	PARTICIPANT_IN Arg1:T53 Arg2:T54	
+R12	ALTERNATIVE_NAME Arg1:T4 Arg2:T77	
+T7	PROFESSION 288 305	Главный секретарь
+R13	WORKPLACE Arg1:T55 Arg2:T78	
+R14	MEMBER_OF Arg1:T79 Arg2:T78	
+R15	WORKS_AS Arg1:T8 Arg2:T55	
+R16	MEMBER_OF Arg1:T8 Arg2:T78	
+R17	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R18	WORKS_AS Arg1:T9 Arg2:T10	
+T56	ORGANIZATION 38 45	кабинет
+T88	EVENT 21 32	сформировал
+R19	AGENT Arg1:T51 Arg2:T88	
+R20	ABBREVIATION Arg1:T56 Arg2:T88	
+T89	ORGANIZATION 213 220	кабинет
+T90	EVENT 196 207	сформировал
+R21	PARTICIPANT_IN Arg1:T89 Arg2:T90	
+R22	AGENT Arg1:T4 Arg2:T90	
+T91	ORGANIZATION 243 255	кабинете Абэ
+R23	FOUNDED_BY Arg1:T91 Arg2:T77	
+T94	ORGANIZATION 411 430	кабинете Синдзо Абэ
+R25	FOUNDED_BY Arg1:T94 Arg2:T80	
+R26	MEMBER_OF Arg1:T9 Arg2:T94	
+R27	ALTERNATIVE_NAME Arg1:T91 Arg2:T94	
+R28	AGE_IS Arg1:T14 Arg2:T13	
+R29	WORKS_AS Arg1:T14 Arg2:T12	
+R30	WORKPLACE Arg1:T58 Arg2:T81	
+R31	MEMBER_OF Arg1:T14 Arg2:T16	
+R32	WORKS_AS Arg1:T14 Arg2:T58	
+T59	DATE 533 550	в 2008—2009 годах
+R33	WORKS_AS Arg1:T18 Arg2:T17	
+T19	DATE 605 619	в 2006—2008 гг
+R34	WORKS_AS Arg1:T18 Arg2:T20	
+R35	WORKS_AS Arg1:T22 Arg2:T21	
+R36	TAKES_PLACE_IN Arg1:T83 Arg2:T23	
+R37	WORKS_AS Arg1:T25 Arg2:T24	
+R38	MEMBER_OF Arg1:T14 Arg2:T78	
+R39	MEMBER_OF Arg1:T18 Arg2:T78	
+R40	MEMBER_OF Arg1:T22 Arg2:T78	
+R41	MEMBER_OF Arg1:T22 Arg2:T78	
+R42	MEMBER_OF Arg1:T25 Arg2:T78	
+R43	WORKS_AS Arg1:T27 Arg2:T26	
+R44	WORKS_AS Arg1:T29 Arg2:T28	
+R45	WORKS_AS Arg1:T31 Arg2:T30	
+R46	WORKS_AS Arg1:T33 Arg2:T32	
+R47	MEMBER_OF Arg1:T27 Arg2:T78	
+R48	MEMBER_OF Arg1:T29 Arg2:T78	
+R49	MEMBER_OF Arg1:T31 Arg2:T78	
+R50	MEMBER_OF Arg1:T33 Arg2:T78	
+R51	WORKPLACE Arg1:T69 Arg2:T84	
+R52	WORKS_AS Arg1:T34 Arg2:T69	
+R53	ALTERNATIVE_NAME Arg1:T70 Arg2:T71	
+R55	PARENT_OF Arg1:T39 Arg2:T34	
+T37	DATE 1252 1266	в 1980-х годах
+R56	HEADQUARTERED_IN Arg1:T85 Arg2:T41	
+R57	WORKPLACE Arg1:T39 Arg2:T85	
+R58	ALTERNATIVE_NAME Arg1:T84 Arg2:T41	
+R59	ALTERNATIVE_NAME Arg1:T34 Arg2:T43	
+R60	WORKS_AS Arg1:T43 Arg2:T73	
+R61	WORKPLACE Arg1:T73 Arg2:T86	
+T40	DATE 1336 1353	в 2006—2007 годах
+T45	ORGANIZATION 1423 1430	кабинет
+R62	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+R63	HEADQUARTERED_IN Arg1:T56 Arg2:T74	
+R64	HEADQUARTERED_IN Arg1:T76 Arg2:T75	
+R65	HEADQUARTERED_IN Arg1:T89 Arg2:T75	
+R24	HEADQUARTERED_IN Arg1:T45 Arg2:T47	
+R54	FOUNDED_BY Arg1:T45 Arg2:T43	
+N1	Reference T4 Wikidata:Q132345	Синдзо Абэ
+N2	Reference T6 Wikidata:Q14212	премьер-министр
+N3	Reference T8 Wikidata:Q122465	Ёсихидэ Суга
+N4	Reference T14 Wikidata:Q132596	Таро Асо
+N6	Reference T18 Wikidata:Q418675	Амари, Акира
+N8	Reference T22 Wikidata:Q1655453	Мотэги, Тосимицу
+N9	Reference T23 Wikidata:Q114295	АЭС Фукусима-1
+N10	Reference T24 Wikidata:Q7330070	министр иностранных дел
+N11	Reference T25 Wikidata:Q359480	Фумио Кисида
+N13	Reference T29 Wikidata:Q463331	Танигаки, Садакадзу
+N16	Reference T32 Wikidata:Q2518691	министр обороны
+N17	Reference T33 Wikidata:Q49969	Онодэра, Ицунори
+N23	Reference T58 Wikidata:Q274948	премьер-министр Японии
+N24	Reference T61 Wikidata:Q83307	министр
+N25	Reference T69 Wikidata:Q274948	премьер-министр Японии
+N26	Reference T72 Wikidata:Q82955	политик
+N27	Reference T73 Wikidata:Q274948	премьер-министр Японии
+N28	Reference T3 Wikidata:Q232595	Либерально-демократическая партия
+N29	Reference T76 Wikidata:Q35749	парламент
+N30	Reference T78 Wikidata:Q640506	кабинет министров
+N31	Reference T81 Wikidata:Q17	Япония
+N34	Reference T43 Wikidata:Q132345	Синдзо Абэ
+N20	Reference T44 Wikidata:Q14212	премьер-министр
+N35	Reference T39 Wikidata:Q318209	
+N18	Reference T41 Wikidata:Q17	Япония
+N19	Reference T42 Wikidata:Q20901295	Министерство иностранных дел
+N32	Reference T85 Wikidata:Q222241	
+N14	Reference T30 Wikidata:Q8191055	
+N15	Reference T31 Wikidata:Q1141271	
+N12	Reference T28 Wikidata:Q17763739	
+N36	Reference T26 Wikidata:Q4018482	
+N37	Reference T27 Wikidata:Q1655220	
+N7	Reference T21 Wikidata:Q6866106	
+N38	Reference T1 Wikidata:Q6866106	
+N39	Reference T12 Wikidata:Q7614320	
+N5	Reference T17 Wikidata:NULL	нет данных
+N40	Reference T16 Wikidata:Q232595	Либерально-демократическая партия
+N41	Reference T2 Wikidata:Q122465	Ёсихидэ Суга
+N42	Reference T10 Wikidata:Q1578065	
+N43	Reference T15 Wikidata:Q18657782	
+N44	Reference T13 Wikidata:Q132345	Синдзо Абэ
+N45	Reference T91 Wikidata:Q18657782	
+N46	Reference T9 Wikidata:Q132345	Синдзо Абэ
+N33	Reference T56 Wikidata:Q640506	кабинет министров
+N47	Reference T11 Wikidata:Q640506	кабинет министров
+N48	Reference T34 Wikidata:Q640506	кабинет министров
+N49	Reference T5 Wikidata:Q274948	премьер-министр Японии
+N22	Reference T53 Wikidata:Q274948	премьер-министр Японии
+N50	Reference T40 Wikidata:Q232595	Либерально-демократическая партия
+N51	Reference T19 Wikidata:Q17	Япония
+N21	Reference T52 Wikidata:Q11612963	
+N52	Reference T7 Wikidata:NULL	нет данных
+N53	Reference T55 Wikidata:Q1078482	
+N54	Reference T77 Wikidata:Q132345	Синдзо Абэ
+N55	Reference T15 Wikidata:Q14212	премьер-министр
+N56	Reference T70 Wikidata:Q14212	премьер-министр
+N57	Reference T71 Wikidata:Q14212	премьер-министр
+N58	Reference T1 Wikidata:Q14212	премьер-министр
+N59	Reference T9 Wikidata:Q122465	Ёсихидэ Суга
+N60	Reference T57 Wikidata:Q83307	министр
+N61	Reference T64 Wikidata:Q83307	министр
+N62	Reference T62 Wikidata:Q83307	министр
+N63	Reference T65 Wikidata:Q83307	министр
+N64	Reference T66 Wikidata:Q83307	министр
+N65	Reference T63 Wikidata:Q83307	министр
+N66	Reference T60 Wikidata:Q83307	министр
+N67	Reference T67 Wikidata:Q83307	министр
+N68	Reference T79 Wikidata:Q83307	министр
+N69	Reference T68 Wikidata:Q83307	министр
+N70	Reference T51 Wikidata:Q274948	премьер-министр Японии
+N71	Reference T75 Wikidata:Q17	Япония
+N72	Reference T49 Wikidata:Q17	Япония
+N73	Reference T47 Wikidata:Q17	Япония
+N74	Reference T74 Wikidata:Q17	Япония
+N75	Reference T86 Wikidata:Q17	Япония
+N76	Reference T34 Wikidata:Q132345	Синдзо Абэ
+N77	Reference T80 Wikidata:Q132345	Синдзо Абэ
+N78	Reference T2 Wikidata:Q132345	Синдзо Абэ
+N79	Reference T84 Wikidata:Q17	Япония
+N80	Reference T20 Wikidata:Q6866106	
+N81	Reference T15 Wikidata:Q6866106	
+N82	Reference T70 Wikidata:Q6866106	
+N83	Reference T6 Wikidata:Q6866106	
+N84	Reference T71 Wikidata:Q6866106	
+N85	Reference T34 Wikidata:Q122465	Ёсихидэ Суга
+N86	Reference T80 Wikidata:Q122465	Ёсихидэ Суга
+N87	Reference T43 Wikidata:Q122465	Ёсихидэ Суга
+N88	Reference T70 Wikidata:Q18657782	
+N89	Reference T6 Wikidata:Q18657782	
+N90	Reference T71 Wikidata:Q18657782	
+N91	Reference T1 Wikidata:Q18657782	
+N92	Reference T94 Wikidata:Q18657782	
+N93	Reference T8 Wikidata:Q132345	Синдзо Абэ
+N94	Reference T89 Wikidata:Q640506	кабинет министров
+N95	Reference T45 Wikidata:Q640506	кабинет министров
+N96	Reference T80 Wikidata:Q640506	кабинет министров
+N97	Reference T2 Wikidata:Q640506	кабинет министров
+N98	Reference T43 Wikidata:Q640506	кабинет министров

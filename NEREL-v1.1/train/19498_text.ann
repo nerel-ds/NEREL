@@ -1,0 +1,109 @@
+T1	PERSON 0 10	Ричард Бах
+T2	PERSON 35 45	Ричард Бах
+T3	PERSON 48 61	Линн Гаррисон
+T4	FACILITY 75 81	Weston
+T5	COUNTRY 83 91	Ирландия
+T6	DATE 112 142	В пятницу 31 августа 2012 года
+T7	PERSON 152 162	Ричард Бах
+T11	AGE 518 528	76-летнего
+T12	FACILITY 659 668	Харборвью
+T13	CITY 672 679	Сиэттле
+T14	PERSON 699 709	Ричард Бах
+T16	PERSON 828 838	Джеймс Бах
+T17	LOCATION 980 988	Сан-Хуан
+T19	LOCATION 997 1037	тихоокеанского побережья штата Вашингтон
+T20	STATE_OR_PROVINCE 1028 1037	Вашингтон
+T21	DATE 1062 1078	последние 20 лет
+T22	PERSON 1167 1177	Ричард Бах
+T23	PROFESSION 1194 1201	пилотом
+T24	EVENT 19 33	авиакатастрофу
+T25	DATE 92 109	в августе 1970 г.
+T26	PROFESSION 143 151	писатель
+T27	EVENT 240 265	самолёт потерпел крушение
+T8	PROFESSION 374 380	пилота
+T10	PRODUCT 403 426	Easton Gilbert G Searey
+T28	PROFESSION 529 537	писателя
+T29	PROFESSION 692 698	врачей
+T30	PROFESSION 383 402	автора бестселлеров
+T31	PROFESSION 808 827	автора бестселлеров
+T32	PROFESSION 1043 1051	писатель
+T33	DISEASE 882 888	ушибов
+T34	DISEASE 890 911	тяжёлая травма головы
+T35	DISEASE 914 927	сломано плечо
+T36	EVENT 930 940	Катастрофа
+T37	LOCATION 997 1011	тихоокеанского
+T38	PROFESSION 1194 1218	пилотом американских ВВС
+T39	ORGANIZATION 1202 1218	американских ВВС
+T40	ORGANIZATION 1215 1218	ВВС
+T41	COUNTRY 1202 1214	американских
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T24	
+R2	KNOWS Arg1:T2 Arg2:T3	
+R3	KNOWS Arg1:T3 Arg2:T2	
+R4	LOCATED_IN Arg1:T3 Arg2:T4	
+R5	LOCATED_IN Arg1:T2 Arg2:T4	
+R6	LOCATED_IN Arg1:T4 Arg2:T5	
+R7	WORKS_AS Arg1:T7 Arg2:T26	
+T9	EVENT 167 187	доставлен в больницу
+T15	DISEASE 190 207	тяжёлом состоянии
+R8	MEDICAL_CONDITION Arg1:T7 Arg2:T15	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T9	
+R10	HAS_CAUSE Arg1:T9 Arg2:T15	
+R11	POINT_IN_TIME Arg1:T9 Arg2:T6	
+R12	ALTERNATIVE_NAME Arg1:T24 Arg2:T27	
+R13	PARTICIPANT_IN Arg1:T7 Arg2:T27	
+R14	HAS_CAUSE Arg1:T9 Arg2:T27	
+R15	POINT_IN_TIME Arg1:T27 Arg2:T6	
+T42	DISEASE 560 577	кровоточащую рану
+R16	MEDICAL_CONDITION Arg1:T28 Arg2:T42	
+R17	AGE_IS Arg1:T28 Arg2:T11	
+R18	WORKS_AS Arg1:T7 Arg2:T28	
+R19	AGE_IS Arg1:T7 Arg2:T11	
+R20	MEDICAL_CONDITION Arg1:T7 Arg2:T42	
+R21	TAKES_PLACE_IN Arg1:T9 Arg2:T12	
+R22	ABBREVIATION Arg1:T12 Arg2:T13	
+T43	DISEASE 754 771	тяжёлом состоянии
+R23	MEDICAL_CONDITION Arg1:T14 Arg2:T43	
+R24	ABBREVIATION Arg1:T14 Arg2:T16	
+R25	WORKS_AS Arg1:T14 Arg2:T31	
+R26	MEDICAL_CONDITION Arg1:T14 Arg2:T33	
+R27	MEDICAL_CONDITION Arg1:T14 Arg2:T34	
+R28	MEDICAL_CONDITION Arg1:T14 Arg2:T35	
+R29	TAKES_PLACE_IN Arg1:T36 Arg2:T17	
+R30	HEADQUARTERED_IN Arg1:T39 Arg2:T41	
+R31	WORKS_AS Arg1:T22 Arg2:T38	
+R32	WORKS_AS Arg1:T14 Arg2:T32	
+R33	PLACE_RESIDES_IN Arg1:T32 Arg2:T20	
+R34	PLACE_RESIDES_IN Arg1:T14 Arg2:T20	
+R35	ALTERNATIVE_NAME Arg1:T27 Arg2:T36	
+R36	INANIMATE_INVOLVED Arg1:T10 Arg2:T27	
+R37	WORKS_AS Arg1:T7 Arg2:T8	
+R38	WORKS_AS Arg1:T7 Arg2:T30	
+N3	Reference T5 Wikidata:Q27	Ирландия
+N4	Reference T13 Wikidata:Q5083	Сиэтл
+N9	Reference T23 Wikidata:Q2095549	лётчик
+N10	Reference T26 Wikidata:Q36180	писатель
+N12	Reference T29 Wikidata:Q39631	врач
+N17	Reference T40 Wikidata:Q61883	военно-воздушные силы
+N1	Reference T3 Wikidata:Q6709030	
+N2	Reference T4 Wikidata:Q7989399	
+N13	Reference T30 Wikidata:NULL	нет данных
+N11	Reference T10 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:Q5654758	
+N5	Reference T16 Wikidata:Q6138910	
+N6	Reference T17 Wikidata:Q1196315	Сан-Хуан
+N8	Reference T20 Wikidata:Q1223	Вашингтон
+N14	Reference T37 Wikidata:Q98	Тихий океан
+N7	Reference T19 Wikidata:NULL	нет данных
+N18	Reference T41 Wikidata:Q30	США
+N16	Reference T39 Wikidata:Q11223	Военно-воздушные силы США
+N15	Reference T38 Wikidata:NULL	нет данных
+N20	Reference T8 Wikidata:Q2095549	лётчик
+N21	Reference T28 Wikidata:Q36180	писатель
+N22	Reference T32 Wikidata:Q36180	писатель
+N23	Reference T31 Wikidata:NULL	нет данных
+N24	Reference T22 Wikidata:Q6138910	
+N25	Reference T14 Wikidata:Q6138910	
+N26	Reference T7 Wikidata:Q6138910	
+N27	Reference T2 Wikidata:Q6138910	
+N28	Reference T1 Wikidata:Q6138910	
+R39	PARTICIPANT_IN Arg1:T32 Arg2:T36	

@@ -1,0 +1,142 @@
+T3	PROFESSION 45 75	Председатель совета директоров
+T4	ORGANIZATION 101 110	Группа Е4
+T5	PERSON 112 125	Михаил Абызов
+T6	PROFESSION 135 163	советником президента России
+T7	PERSON 164 181	Дмитрия Медведева
+T8	DATE 202 211	18 января
+T9	ORGANIZATION 244 253	Интерфакс
+T10	PROFESSION 256 271	пресс-секретарь
+T11	PERSON 283 299	Наталья Тимакова
+T12	PERSON 320 327	Абызова
+T13	DATE 554 571	в ближайшее время
+T14	PERSON 583 592	Тимаковой
+T15	PROFESSION 611 641	глава администрации президента
+T16	PERSON 642 655	Сергей Иванов
+T17	PERSON 684 690	Абызов
+T18	PROFESSION 693 712	помощник президента
+T19	PERSON 713 730	Аркадий Дворкович
+T20	AGE 733 742	39-летний
+T21	PERSON 743 756	Михаил Абызов
+T22	ORDINAL 766 770	76-ю
+T23	COUNTRY 811 817	России
+T24	ORGANIZATION 829 835	Forbes
+T25	MONEY 865 887	1,2 миллиарда долларов
+T26	PERSON 895 901	Абызов
+T28	ORGANIZATION 999 1043	Общественного комитета сторонников Медведева
+T29	PERSON 1046 1062	Дмитрий Медведев
+T30	DATE 1107 1126	в октябре 2011 года
+T31	PERSON 1276 1284	Медведев
+T32	PERSON 1310 1326	Владимира Путина
+T33	PROFESSION 1376 1385	президент
+T34	PROFESSION 1414 1430	премьер-министра
+T1	PERSON 11 17	Абызов
+T35	PERSON 34 43	Медведева
+T36	ORGANIZATION 58 75	совета директоров
+T37	PROFESSION 146 163	президента России
+T38	COUNTRY 157 163	России
+T39	ORGANIZATION 221 227	Кремля
+T40	ORGANIZATION 617 641	администрации президента
+T41	PROFESSION 631 641	президента
+T42	PROFESSION 702 712	президента
+T27	PERSON 1034 1043	Медведева
+T43	PROFESSION 1205 1215	журналисты
+T44	PROFESSION 1217 1227	бизнесмены
+T45	ORGANIZATION 1458 1471	правительство
+T46	ORGANIZATION 1083 1105	большого правительства
+T47	ORGANIZATION 348 370	большого правительства
+T48	ORGANIZATION 462 484	большого правительства
+R1	SUBORDINATE_OF Arg1:T1 Arg2:T35	
+T49	PROFESSION 23 43	советником Медведева
+R2	WORKS_AS Arg1:T1 Arg2:T49	
+T50	EVENT 126 134	назначен
+R3	WORKS_AS Arg1:T5 Arg2:T3	
+R4	WORKPLACE Arg1:T5 Arg2:T4	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T50	
+R6	WORKS_AS Arg1:T5 Arg2:T6	
+R7	SUBORDINATE_OF Arg1:T5 Arg2:T7	
+R8	SUBORDINATE_OF Arg1:T6 Arg2:T37	
+R9	WORKPLACE Arg1:T37 Arg2:T38	
+R10	WORKS_AS Arg1:T7 Arg2:T37	
+R11	WORKPLACE Arg1:T7 Arg2:T38	
+T51	PROFESSION 256 282	пресс-секретарь президента
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R14	ALTERNATIVE_NAME Arg1:T35 Arg2:T7	
+R15	ALTERNATIVE_NAME Arg1:T49 Arg2:T6	
+R16	WORKS_AS Arg1:T11 Arg2:T51	
+T52	PROFESSION 146 156	президента
+T53	PROFESSION 272 282	президента
+R17	SUBORDINATE_OF Arg1:T11 Arg2:T53	
+R18	SUBORDINATE_OF Arg1:T11 Arg2:T7	
+R19	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R20	WORKS_AS Arg1:T16 Arg2:T15	
+R21	WORKPLACE Arg1:T16 Arg2:T40	
+R22	SUBORDINATE_OF Arg1:T16 Arg2:T41	
+R23	WORKPLACE Arg1:T15 Arg2:T40	
+T54	EVENT 1330 1351	президентских выборах
+R24	PARTICIPANT_IN Arg1:T32 Arg2:T54	
+R25	WORKS_AS Arg1:T31 Arg2:T33	
+R26	WORKPLACE Arg1:T34 Arg2:T45	
+R27	WORKPLACE Arg1:T26 Arg2:T28	
+T55	PROFESSION 799 810	бизнесменов
+R28	AGE_IS Arg1:T21 Arg2:T20	
+R29	WORKS_AS Arg1:T21 Arg2:T55	
+R30	ORIGINS_FROM Arg1:T21 Arg2:T23	
+R31	SUBORDINATE_OF Arg1:T17 Arg2:T16	
+R32	WORKS_AS Arg1:T19 Arg2:T18	
+R33	SUBORDINATE_OF Arg1:T19 Arg2:T42	
+R34	SUBORDINATE_OF Arg1:T19 Arg2:T16	
+R35	WORKPLACE Arg1:T3 Arg2:T36	
+R36	PART_OF Arg1:T36 Arg2:T4	
+R37	SUBORDINATE_OF Arg1:T51 Arg2:T53	
+R38	HEADQUARTERED_IN Arg1:T47 Arg2:T38	
+R39	SUBORDINATE_OF Arg1:T18 Arg2:T42	
+R40	ORIGINS_FROM Arg1:T55 Arg2:T23	
+R41	OWNER_OF Arg1:T21 Arg2:T25	
+R42	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+R43	TAKES_PLACE_IN Arg1:T54 Arg2:T23	
+N2	Reference T4 Wikidata:Q4150730	Группа Е4
+N3	Reference T9 Wikidata:Q379271	Интерфакс
+N4	Reference T11 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N6	Reference T16 Wikidata:Q204027	Сергей Борисович Иванов
+N7	Reference T19 Wikidata:Q1430324	Аркадий Владимирович Дворкович
+N8	Reference T24 Wikidata:Q25161472	Форбс
+N9	Reference T26 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N11	Reference T32 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T34 Wikidata:Q14212	премьер-министр
+N14	Reference T36 Wikidata:Q188628	совет директоров
+N15	Reference T37 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T38 Wikidata:Q159	Россия
+N18	Reference T40 Wikidata:Q2060629	Администрация президента России
+N19	Reference T42 Wikidata:Q30461	президент
+N21	Reference T43 Wikidata:Q1930187	журналист
+N22	Reference T44 Wikidata:Q131524	предприниматель
+N23	Reference T45 Wikidata:Q7188	правительство
+N26	Reference T51 Wikidata:Q19607392	пресс-секретарь президента России
+N25	Reference T49 Wikidata:NULL	нет данных
+N10	Reference T28 Wikidata:NULL	нет данных
+N20	Reference T27 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N13	Reference T35 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N1	Reference T3 Wikidata:NULL	нет данных
+N17	Reference T39 Wikidata:Q2060629	Администрация президента России
+N24	Reference T47 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N27	Reference T18 Wikidata:NULL	нет данных
+N28	Reference T14 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N29	Reference T17 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N30	Reference T5 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N31	Reference T12 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N32	Reference T1 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N33	Reference T21 Wikidata:Q4055253	Михаил Анатольевич Абызов
+N34	Reference T23 Wikidata:Q159	Россия
+N35	Reference T41 Wikidata:Q30461	президент
+N36	Reference T33 Wikidata:Q30461	президент
+N37	Reference T52 Wikidata:Q30461	президент
+N38	Reference T53 Wikidata:Q30461	президент
+N39	Reference T55 Wikidata:Q131524	предприниматель
+N40	Reference T6 Wikidata:NULL	нет данных
+N41	Reference T31 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N42	Reference T29 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N43	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N44	Reference T46 Wikidata:NULL	нет данных
+N45	Reference T48 Wikidata:NULL	нет данных

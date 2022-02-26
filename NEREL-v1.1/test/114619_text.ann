@@ -1,0 +1,193 @@
+T1	PERSON 10 27	Евгений Евтушенко
+T2	PERSON 29 46	Евгений Евтушенко
+T3	COUNTRY 49 52	США
+T6	PROFESSION 80 84	поэт
+T7	PERSON 85 102	Евгений Евтушенко
+T8	PERSON 130 145	Михаил Моргулис
+T10	PROFESSION 160 165	поэта
+T11	PERSON 166 180	Мария Новикова
+T12	DATE 210 228	12 марта 2017 года
+T13	PERSON 229 238	Евтушенко
+T14	PERSON 287 295	Новикова
+T16	NUMBER 527 530	два
+T17	PERSON 541 548	Дмитрий
+T18	PERSON 551 558	Евгений
+T19	AGE 591 601	84-летнего
+T20	PROFESSION 602 607	поэта
+T21	DATE 610 621	В 2013 году
+T22	PERSON 622 631	Евтушенко
+T23	DATE 669 684	Летом 2015 года
+T24	STATE_OR_PROVINCE 777 789	подмосковном
+T25	CITY 790 801	Переделкино
+T26	PERSON 821 831	Пастернака
+T27	DATE 863 880	18 июля 2017 года
+T28	PERSON 881 898	Евгению Евтушенко
+T29	AGE 923 929	85 лет
+T30	COUNTRY 1017 1023	России
+T31	COUNTRY 1025 1035	Белоруссии
+T32	COUNTRY 1038 1048	Казахстана
+T33	CITY 1135 1141	Москвы
+T35	PERSON 1164 1181	П. И. Чайковского
+T37	ORGANIZATION 1195 1219	Московской консерватории
+T38	FACILITY 1222 1256	Государственный Кремлёвский дворец
+T39	PERSON 1281 1290	Евтушенко
+T40	PERSON 1342 1359	Евгений Евтушенко
+T41	NUMBER 1368 1377	более 150
+T42	PERSON 1426 1435	Евтушенко
+T43	DATE 1444 1455	в 1932 году
+T44	DATE 1476 1487	в 1933 году
+T46	CITY 1525 1536	Нижнеудинск
+T47	STATE_OR_PROVINCE 1538 1555	Иркутской области
+T48	PROFESSION 1564 1571	геолога
+T49	PERSON 1572 1591	Александра Гангнуса
+T50	ORDINAL 1594 1600	Первое
+T51	PERSON 1615 1624	Евтушенко
+T52	ORGANIZATION 1647 1662	Советский спорт
+T53	DATE 1664 1675	в 1949 году
+T54	ORDINAL 1679 1685	первая
+T55	WORK_OF_ART 1700 1720	Разведчики грядущего
+T56	DATE 1728 1739	в 1952 году
+T59	COUNTRY 1795 1799	СССР
+T60	DATE 1802 1813	В 1991 году
+T61	PROFESSION 1830 1834	поэт
+T62	COUNTRY 1843 1846	США
+T64	CITY 1896 1901	Талса
+T65	STATE_OR_PROVINCE 1903 1911	Оклахома
+T66	DATE 1924 1941	до последнего дня
+R15	WORKS_AS Arg1:T49 Arg2:T48
+T4	AGE 53 63	на 85 году
+R20	WORKS_AS Arg1:T7 Arg2:T6	
+T5	PROFESSION 308 312	Поэт
+T9	EVENT 640 666	операцию по ампутации ноги
+T15	EVENT 705 723	операцию на сердце
+T34	FACILITY 1143 1181	Концертный зал имени П. И. Чайковского
+T36	FACILITY 1183 1219	Большой зал Московской консерватории
+T67	PROFESSION 1271 1279	продюсер
+T45	CITY 1500 1504	Зима
+T58	ORGANIZATION 1779 1799	Союза писателей СССР
+T57	PROFESSION 1772 1799	членом Союза писателей СССР
+R1	WORKS_AS Arg1:T51 Arg2:T57	
+T63	PROFESSION 754 758	Поэт
+R2	AGE_DIED_AT Arg1:T7 Arg2:T4	
+R4	KNOWS Arg1:T7 Arg2:T8	
+R5	PLACE_OF_DEATH Arg1:T7 Arg2:T3	
+R6	SPOUSE Arg1:T11 Arg2:T7	
+T69	DISEASE 262 279	тяжёлом состоянии
+T70	EVENT 243 259	госпитализирован
+R3	MEDICAL_CONDITION Arg1:T13 Arg2:T69	
+R7	POINT_IN_TIME Arg1:T70 Arg2:T12	
+R8	AGE_IS Arg1:T20 Arg2:T19	
+R9	PARTICIPANT_IN Arg1:T22 Arg2:T9	
+R10	POINT_IN_TIME Arg1:T9 Arg2:T21	
+R11	PARENT_OF Arg1:T13 Arg2:T17	
+R12	PARENT_OF Arg1:T13 Arg2:T18	
+R13	PARENT_OF Arg1:T14 Arg2:T17	
+R14	PARENT_OF Arg1:T14 Arg2:T18	
+R16	POINT_IN_TIME Arg1:T15 Arg2:T23	
+R17	PARTICIPANT_IN Arg1:T22 Arg2:T15	
+R18	LOCATED_IN Arg1:T25 Arg2:T24	
+R19	AGE_IS Arg1:T28 Arg2:T29	
+R21	LOCATED_IN Arg1:T34 Arg2:T33	
+R22	LOCATED_IN Arg1:T36 Arg2:T33	
+R23	LOCATED_IN Arg1:T38 Arg2:T33	
+R24	DATE_OF_BIRTH Arg1:T42 Arg2:T43	
+R25	DATE_OF_BIRTH Arg1:T42 Arg2:T44	
+R26	PLACE_OF_BIRTH Arg1:T42 Arg2:T45	
+R27	PARTICIPANT_IN Arg1:T13 Arg2:T70	
+R28	SUBORDINATE_OF Arg1:T67 Arg2:T39	
+R29	LOCATED_IN Arg1:T45 Arg2:T47	
+R30	PARENT_OF Arg1:T49 Arg2:T42	
+R31	PRODUCES Arg1:T51 Arg2:T55	
+R32	DATE_OF_CREATION Arg1:T55 Arg2:T56	
+R33	PLACE_RESIDES_IN Arg1:T61 Arg2:T64	
+R34	LOCATED_IN Arg1:T64 Arg2:T65	
+R35	LOCATED_IN Arg1:T65 Arg2:T62	
+T68	EVENT 0 9	Скончался
+R36	PARTICIPANT_IN Arg1:T1 Arg2:T68	
+T71	EVENT 70 79	скончался
+R37	PARTICIPANT_IN Arg1:T7 Arg2:T71	
+R38	TAKES_PLACE_IN Arg1:T71 Arg2:T3	
+R39	WORKS_AS Arg1:T13 Arg2:T5	
+R40	WORKS_AS Arg1:T7 Arg2:T10	
+R41	SPOUSE Arg1:T10 Arg2:T11	
+R42	WORKPLACE Arg1:T57 Arg2:T58	
+R43	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+R44	WORKS_AS Arg1:T42 Arg2:T61	
+R45	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R46	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+T72	CITY 1195 1205	Московской
+R47	OWNER_OF Arg1:T37 Arg2:T36	
+R48	HEADQUARTERED_IN Arg1:T37 Arg2:T72	
+R49	ALTERNATIVE_NAME Arg1:T33 Arg2:T72	
+R50	HAS_CAUSE Arg1:T70 Arg2:T69	
+T73	EVENT 765 774	похоронен
+R51	TAKES_PLACE_IN Arg1:T73 Arg2:T25	
+R52	INANIMATE_INVOLVED Arg1:T22 Arg2:T73	
+R53	WORKPLACE Arg1:T51 Arg2:T52	
+T74	COUNTRY 1647 1656	Советский
+R54	HEADQUARTERED_IN Arg1:T52 Arg2:T74	
+T75	LOCATION 1238 1249	Кремлёвский
+R55	LOCATED_IN Arg1:T38 Arg2:T75	
+N1	Reference T1 Wikidata:Q297736	Евгений Александрович Евтушенко
+N2	Reference T8 Wikidata:Q4302422	Михаил Зиновьевич Моргулис
+N3	Reference T10 Wikidata:Q49757	поэт
+N6	Reference T24 Wikidata:Q1697	Московская область
+N7	Reference T25 Wikidata:Q593888	Переделкино
+N8	Reference T26 Wikidata:Q41223	Борис Леонидович Пастернак
+N9	Reference T30 Wikidata:Q159	Россия
+N10	Reference T31 Wikidata:Q184	Белоруссия
+N11	Reference T32 Wikidata:Q232	Казахстан
+N12	Reference T37 Wikidata:Q215539	Московская консерватория
+N13	Reference T38 Wikidata:Q2033910	Государственный Кремлёвский дворец
+N14	Reference T46 Wikidata:Q172671	Нижнеудинск
+N15	Reference T47 Wikidata:Q6585	Иркутская область
+N16	Reference T48 Wikidata:Q520549	геолог
+N18	Reference T52 Wikidata:Q2097006	Советский спорт
+N20	Reference T59 Wikidata:Q15180	СССР
+N21	Reference T62 Wikidata:Q30	США
+N22	Reference T64 Wikidata:Q44989	Талса
+N23	Reference T65 Wikidata:Q1649	Оклахома
+N24	Reference T34 Wikidata:Q4231898	Концертный зал имени П. И. Чайковского
+N25	Reference T36 Wikidata:Q4092983	Большой зал Московской консерватории
+N27	Reference T45 Wikidata:Q140012	Зима
+N28	Reference T58 Wikidata:Q1425328	Союз писателей СССР
+N4	Reference T11 Wikidata:NULL	нет данных
+N33	Reference T17 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N34	Reference T35 Wikidata:Q7315	Пётр Ильич Чайковский
+N30	Reference T72 Wikidata:Q649	Москва
+N32	Reference T75 Wikidata:Q133274	Московский Кремль
+N26	Reference T67 Wikidata:Q47541952	
+N17	Reference T49 Wikidata:NULL	нет данных
+N31	Reference T74 Wikidata:Q15180	СССР
+N29	Reference T57 Wikidata:NULL	нет данных
+N19	Reference T55 Wikidata:NULL	нет данных
+N35	Reference T7 Wikidata:Q297736	Евгений Александрович Евтушенко
+N36	Reference T40 Wikidata:Q297736	Евгений Александрович Евтушенко
+N37	Reference T42 Wikidata:Q297736	Евгений Александрович Евтушенко
+N38	Reference T2 Wikidata:Q297736	Евгений Александрович Евтушенко
+N39	Reference T22 Wikidata:Q297736	Евгений Александрович Евтушенко
+N40	Reference T28 Wikidata:Q297736	Евгений Александрович Евтушенко
+N41	Reference T51 Wikidata:Q297736	Евгений Александрович Евтушенко
+N42	Reference T13 Wikidata:Q297736	Евгений Александрович Евтушенко
+N43	Reference T39 Wikidata:Q297736	Евгений Александрович Евтушенко
+N44	Reference T20 Wikidata:Q49757	поэт
+N45	Reference T61 Wikidata:Q49757	поэт
+N46	Reference T5 Wikidata:Q49757	поэт
+N47	Reference T63 Wikidata:Q49757	поэт
+N48	Reference T6 Wikidata:Q49757	поэт
+N49	Reference T3 Wikidata:Q30	США
+N50	Reference T14 Wikidata:NULL	нет данных
+N51	Reference T33 Wikidata:Q649	Москва
+R56	AGE_IS Arg1:T22 Arg2:T19	
+T76	EVENT 1436 1443	родился
+R57	PARTICIPANT_IN Arg1:T42 Arg2:T76	
+R58	POINT_IN_TIME Arg1:T76 Arg2:T43	
+R59	TAKES_PLACE_IN Arg1:T76 Arg2:T45	
+T77	EVENT 1835 1840	уехал
+R60	AGENT Arg1:T61 Arg2:T77	
+R61	TAKES_PLACE_IN Arg1:T77 Arg2:T62	
+R62	POINT_IN_TIME Arg1:T77 Arg2:T60	
+R63	AGENT Arg1:T51 Arg2:T77	
+T78	COUNTRY 1861 1873	американском
+R64	ALTERNATIVE_NAME Arg1:T62 Arg2:T78	

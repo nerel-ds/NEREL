@@ -1,0 +1,86 @@
+T1	AGE 12 18	85 лет
+T2	PERSON 35 47	Юрия Визбора
+T3	ORGANIZATION 56 64	Кругозор
+T4	DATE 66 83	20 июня 2019 года
+T5	AGE 96 102	85 лет
+T6	COUNTRY 170 174	СССР
+T7	PERSON 177 189	Юрия Визбора
+T9	PROFESSION 208 214	певица
+T10	PERSON 215 229	Варвара Визбор
+T11	PERSON 447 461	Варвара Визбор
+T12	ORGANIZATION 672 680	Кругозор
+T13	DATE 754 768	В 1970-х годах
+T14	WORK_OF_ART 871 883	Мурманск-198
+T15	PERSON 990 1004	Варвара Визбор
+T16	PROFESSION 1297 1314	автор-исполнитель
+T17	PERSON 1316 1322	Визбор
+T18	NUMBER 1339 1348	более 250
+T19	NUMBER 1367 1375	около 50
+T20	PERSON 1440 1447	Визбора
+T21	WORK_OF_ART 1475 1489	Ты у меня одна
+T22	WORK_OF_ART 1493 1509	Домбайский вальс
+T23	WORK_OF_ART 1513 1530	Три минуты тишины
+T24	PERSON 1543 1554	Юрий Визбор
+T25	DATE 1560 1571	в 1984 году
+T26	FACILITY 1589 1608	Кунцевском кладбище
+T27	CITY 1611 1617	Москве
+T8	PROFESSION 241 252	журналистам
+T31	PERSON 769 775	Визбор
+T32	ORDINAL 1044 1050	первым
+T33	PROFESSION 1061 1074	видеоблогером
+T34	PROFESSION 1284 1290	певица
+R1	RELATIVE Arg1:T7 Arg2:T10	
+R2	WORKS_AS Arg1:T10 Arg2:T9	
+R3	AGE_IS Arg1:T2 Arg2:T1	
+R6	AGE_IS Arg1:T7 Arg2:T5	
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T31	
+R13	PRODUCES Arg1:T31 Arg2:T14	
+T38	COUNTRY 945 954	советской
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T38	
+R15	ORIGINS_FROM Arg1:T7 Arg2:T6	
+T39	COUNTRY 1051 1060	советским
+R16	WORKS_AS Arg1:T31 Arg2:T33	
+R17	WORKS_AS Arg1:T15 Arg2:T34	
+R18	WORKS_AS Arg1:T17 Arg2:T16	
+R19	PRODUCES Arg1:T20 Arg2:T21	
+R20	PRODUCES Arg1:T20 Arg2:T22	
+R21	PRODUCES Arg1:T20 Arg2:T23	
+R22	DATE_OF_DEATH Arg1:T24 Arg2:T25	
+R23	LOCATED_IN Arg1:T26 Arg2:T27	
+T40	EVENT 1555 1559	умер
+R24	PARTICIPANT_IN Arg1:T24 Arg2:T40	
+R25	POINT_IN_TIME Arg1:T40 Arg2:T25	
+R26	LOCATED_IN Arg1:T27 Arg2:T39	
+T28	NUMBER 880 883	198
+R4	ORIGINS_FROM Arg1:T33 Arg2:T39	
+T29	LOCATION 1493 1503	Домбайский
+T30	LOCATION 1589 1599	Кунцевском
+R5	LOCATED_IN Arg1:T26 Arg2:T30	
+R7	LOCATED_IN Arg1:T30 Arg2:T27	
+N1	Reference T9 Wikidata:Q177220	певец
+N2	Reference T11 Wikidata:Q21029042	Визбор, Варвара Сергеевна
+N3	Reference T12 Wikidata:Q4177970	Кругозор
+N4	Reference T14 Wikidata:Q55658595	Мурманск-198
+N5	Reference T16 Wikidata:Q488205	автор-исполнитель
+N7	Reference T22 Wikidata:Q80678312	Домбайский вальс
+N9	Reference T26 Wikidata:Q1514332	Кунцевское кладбище
+N10	Reference T27 Wikidata:Q649	Москва
+N11	Reference T8 Wikidata:Q1930187	журналист
+N12	Reference T33 Wikidata:Q4110598	видеоблогер
+N13	Reference T39 Wikidata:Q15180	СССР
+N15	Reference T20 Wikidata:Q582152	
+N6	Reference T21 Wikidata:NULL	нет данных
+N8	Reference T23 Wikidata:NULL	нет данных
+N14	Reference T30 Wikidata:Q155102	
+N16	Reference T29 Wikidata:Q4165774	
+N17	Reference T34 Wikidata:Q177220	певец
+N18	Reference T10 Wikidata:Q21029042	Визбор, Варвара Сергеевна
+N19	Reference T15 Wikidata:Q21029042	Визбор, Варвара Сергеевна
+N20	Reference T3 Wikidata:Q4177970	Кругозор
+N21	Reference T6 Wikidata:Q15180	СССР
+N22	Reference T38 Wikidata:Q15180	СССР
+N23	Reference T17 Wikidata:Q582152	
+N24	Reference T31 Wikidata:Q582152	
+N25	Reference T24 Wikidata:Q582152	
+N26	Reference T7 Wikidata:Q582152	
+N27	Reference T2 Wikidata:Q582152	

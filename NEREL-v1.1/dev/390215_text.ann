@@ -1,0 +1,88 @@
+T1	COUNTRY 16 23	Франции
+T2	LOCATION 45 52	Ла-Манш
+T4	NATIONALITY 86 97	Французский
+T5	PERSON 108 121	Фрэнки Запата
+T6	DATE 122 140	25 июля, в четверг
+T7	LOCATION 176 183	Ла-Манш
+T8	PRODUCT 208 220	Flyboard Air
+T9	NATIONALITY 228 239	французский
+T11	LOCATION 307 314	Ла-Манш
+T12	DATE 316 333	25 июля 1909 года
+T13	PERSON 342 352	Луи Блерио
+T14	TIME 402 410	20 минут
+T15	NUMBER 423 431	140 км/ч
+T16	CITY 443 447	Кале
+T17	COUNTRY 451 458	Франции
+T18	CITY 474 479	Дувра
+T19	COUNTRY 482 496	Великобритании
+T20	PERSON 518 524	Запата
+T21	DATE 540 547	14 июля
+T22	EVENT 610 616	парада
+T23	EVENT 625 644	Дня взятия Бастилии
+T24	PERCENT 677 679	3%
+T25	PERCENT 732 735	99%
+T26	LOCATION 752 760	Ла-Манша
+T27	PERCENT 829 832	30%
+T28	PROFESSION 0 12	Изобретатель
+T29	PROFESSION 98 107	спортсмен
+T30	PROFESSION 240 252	изобретатель
+T10	ORDINAL 268 273	110-ю
+T32	AGE 268 283	110-ю годовщину
+T33	ORDINAL 284 291	первого
+T34	PROFESSION 334 341	авиатор
+T35	PROFESSION 548 557	спортсмен
+T37	FACILITY 636 644	Бастилии
+T38	EVENT 706 712	параде
+R1	ORIGINS_FROM Arg1:T28 Arg2:T1	
+R2	WORKS_AS Arg1:T5 Arg2:T29	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T4	
+T39	EVENT 164 183	пересечению Ла-Манш
+R4	POINT_IN_TIME Arg1:T39 Arg2:T6	
+R5	AGENT Arg1:T5 Arg2:T39	
+R6	TAKES_PLACE_IN Arg1:T39 Arg2:T7	
+R8	ORIGINS_FROM Arg1:T30 Arg2:T9	
+R9	WORKS_AS Arg1:T5 Arg2:T30	
+T40	EVENT 292 314	перелета через Ла-Манш
+R12	TAKES_PLACE_IN Arg1:T40 Arg2:T11	
+R13	WORKS_AS Arg1:T13 Arg2:T34	
+T41	EVENT 353 367	пересёк пролив
+R14	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R15	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R16	AGENT Arg1:T13 Arg2:T41	
+R17	POINT_IN_TIME Arg1:T41 Arg2:T12	
+R18	LOCATED_IN Arg1:T16 Arg2:T17	
+R19	LOCATED_IN Arg1:T18 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T5 Arg2:T20	
+T42	EVENT 565 587	демонстрационный полёт
+R21	AGENT Arg1:T35 Arg2:T42	
+R22	POINT_IN_TIME Arg1:T42 Arg2:T21	
+R23	SUBEVENT_OF Arg1:T42 Arg2:T22	
+R24	HAS_CAUSE Arg1:T22 Arg2:T23	
+R7	ORIGINS_FROM Arg1:T4 Arg2:T1	
+R10	INANIMATE_INVOLVED Arg1:T8 Arg2:T39	
+R11	AGE_IS Arg1:T40 Arg2:T32	
+R25	HAS_CAUSE Arg1:T39 Arg2:T40	
+R26	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R27	INANIMATE_INVOLVED Arg1:T37 Arg2:T23	
+T3	EVENT 740 760	пересечения Ла-Манша
+N4	Reference T11 Wikidata:Q34640	Ла-Манш
+N5	Reference T13 Wikidata:Q5396	Луи Блерио
+N7	Reference T17 Wikidata:Q142	Франция
+N8	Reference T18 Wikidata:Q179224	Дувр
+N9	Reference T19 Wikidata:Q145	Великобритания
+N10	Reference T30 Wikidata:Q205375	изобретатель
+N11	Reference T34 Wikidata:Q2095549	лётчик
+N12	Reference T35 Wikidata:Q2066131	спортсмен
+N13	Reference T37 Wikidata:Q1865480	Бастилия
+N1	Reference T5 Wikidata:Q16729086	
+N2	Reference T8 Wikidata:Q28456369	
+N3	Reference T9 Wikidata:Q121842	французы
+N6	Reference T16 Wikidata:Q6454	Кале
+N14	Reference T7 Wikidata:Q34640	Ла-Манш
+N15	Reference T2 Wikidata:Q34640	Ла-Манш
+N16	Reference T26 Wikidata:Q34640	Ла-Манш
+N17	Reference T1 Wikidata:Q142	Франция
+N18	Reference T28 Wikidata:Q205375	изобретатель
+N19	Reference T29 Wikidata:Q2066131	спортсмен
+N20	Reference T20 Wikidata:Q16729086	
+N21	Reference T4 Wikidata:Q121842	французы

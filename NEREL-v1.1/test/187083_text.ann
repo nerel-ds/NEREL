@@ -1,0 +1,206 @@
+T2	PERSON 65 78	Денис Муквеге
+T3	PERSON 79 89	Надя Мурад
+T4	DATE 114 123	2018 года
+T5	PROFESSION 135 140	врачу
+T6	PERSON 141 155	Денису Муквеге
+T7	COUNTRY 159 164	Конго
+T8	ORGANIZATION 184 206	Исламского государства
+T9	PERSON 215 225	Наде Мурад
+T10	COUNTRY 229 234	Ирака
+T12	PERSON 384 404	Берит Рейсс-Андерсен
+T14	PERSON 437 444	Муквеге
+T15	PERSON 447 452	Мурад
+T16	PROFESSION 546 552	Хирург
+T18	FACILITY 586 601	госпиталя Панзи
+T19	COUNTRY 649 681	Демократической республики Конго
+T20	PERSON 783 791	Муквегег
+T21	PERSON 894 901	Муквеге
+T24	PERSON 975 980	Мурад
+T25	NUMBER 999 1009	около 3000
+T26	DATE 1132 1149	Спустя три месяца
+T27	DATE 1267 1278	В 2016 году
+T28	AGE 1290 1296	23 лет
+T29	PROFESSION 1307 1325	послом доброй воли
+T30	PERSON 1470 1477	Муквеге
+T31	DATE 1478 1489	в 2014 году
+T32	PERSON 1493 1498	Мурад
+T33	DATE 1501 1507	в 2016
+T34	DATE 1510 1521	В этом году
+T36	NUMBER 1577 1580	329
+T37	NUMBER 1605 1608	112
+T38	DATE 1705 1717	через 50 лет
+T39	DATE 1755 1766	в 2018 году
+T40	MONEY 1778 1808	девять миллионов шведских крон
+T41	MONEY 1816 1837	миллиона долларов США
+T43	DATE 1865 1876	в 2017 году
+T44	ORGANIZATION 1900 1952	Международная кампания за запрещение ядерного оружия
+T46	ORGANIZATION 1955 1959	ICAN
+T47	DATE 1963 1974	В 2016 году
+T48	PROFESSION 1997 2006	президент
+T49	PERSON 2016 2035	Хуан Мануэль Сантос
+T50	ORGANIZATION 2119 2173	Революционные вооружённые силы Колумбии — Армия народа
+T52	ORGANIZATION 2175 2179	FARC
+T1	AWARD 0 23	Нобелевскую премию мира
+T54	AWARD 0 18	Нобелевскую премию
+T55	AWARD 90 113	Нобелевская премия мира
+T56	AWARD 90 123	Нобелевская премия мира 2018 года
+T57	AWARD 90 108	Нобелевская премия
+T58	NATIONALITY 208 214	езидке
+T59	PROFESSION 337 383	председатель Норвежского нобелевского комитета
+T60	ORGANIZATION 350 383	Норвежского нобелевского комитета
+T61	DATE 405 435	в пятницу, 5 октября 2018 года
+T13	PROFESSION 555 564	гинеколог
+T62	PERSON 565 573	Муквегег
+T63	NUMBER 631 638	тысячам
+T64	PROFESSION 881 892	журналистов
+T22	AWARD 930 953	Нобелевскую премию мира
+T65	AWARD 930 948	Нобелевскую премию
+T23	NUMBER 964 968	трёх
+T66	NATIONALITY 1010 1018	езидских
+T67	ORGANIZATION 1122 1130	армии ИГ
+T68	ORGANIZATION 1128 1130	ИГ
+T70	PROFESSION 1307 1410	послом доброй воли Управления ООН по наркотикам и преступности, по торговле людьми в условиях конфликта
+T72	ORGANIZATION 1326 1410	Управления ООН по наркотикам и преступности, по торговле людьми в условиях конфликта
+T73	ORGANIZATION 1337 1340	ООН
+T74	AWARD 1447 1468	премии имени Сахарова
+T75	PERSON 1460 1468	Сахарова
+T35	AWARD 1545 1568	Нобелевскую премию мира
+T76	AWARD 1545 1563	Нобелевскую премию
+T78	AWARD 1736 1754	Нобелевских премий
+T79	COUNTRY 1795 1803	шведских
+T80	COUNTRY 1834 1837	США
+T42	AWARD 1841 1864	Нобелевская премия мира
+T81	AWARD 1841 1859	Нобелевская премия
+T45	PROFESSION 1997 2015	президент Колумбии
+T82	COUNTRY 2007 2015	Колумбии
+T83	IDEOLOGY 2077 2092	леворадикальной
+T84	COUNTRY 2150 2158	Колумбии
+R1	FOUNDED_BY Arg1:T18 Arg2:T62	
+R2	POINT_IN_TIME Arg1:T56 Arg2:T4	
+R3	ORIGINS_FROM Arg1:T6 Arg2:T7	
+R4	WORKS_AS Arg1:T6 Arg2:T5	
+R5	ORIGINS_FROM Arg1:T9 Arg2:T58	
+R6	ORIGINS_FROM Arg1:T9 Arg2:T10	
+R7	WORKPLACE Arg1:T59 Arg2:T60	
+R8	WORKS_AS Arg1:T12 Arg2:T59	
+R9	WORKPLACE Arg1:T12 Arg2:T60	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T14	
+R12	WORKS_AS Arg1:T62 Arg2:T13	
+R13	WORKS_AS Arg1:T62 Arg2:T16	
+R14	ORIGINS_FROM Arg1:T24 Arg2:T66	
+R15	PART_OF Arg1:T67 Arg2:T68	
+R16	AGE_IS Arg1:T24 Arg2:T28	
+R17	WORKPLACE Arg1:T70 Arg2:T72	
+R18	PART_OF Arg1:T72 Arg2:T73	
+R19	AWARDED_WITH Arg1:T24 Arg2:T74	
+R20	AWARDED_WITH Arg1:T21 Arg2:T74	
+R21	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R22	POINT_IN_TIME Arg1:T35 Arg2:T34	
+R23	POINT_IN_TIME Arg1:T78 Arg2:T39	
+R24	POINT_IN_TIME Arg1:T42 Arg2:T43	
+R25	AWARDED_WITH Arg1:T44 Arg2:T42	
+R26	ABBREVIATION Arg1:T44 Arg2:T46	
+R27	WORKPLACE Arg1:T45 Arg2:T82	
+R28	WORKS_AS Arg1:T49 Arg2:T45	
+R29	WORKPLACE Arg1:T49 Arg2:T82	
+R30	HEADQUARTERED_IN Arg1:T50 Arg2:T84	
+R31	ABBREVIATION Arg1:T50 Arg2:T52	
+T11	DATE 2216 2222	30 лет
+R32	IDEOLOGY_OF Arg1:T50 Arg2:T83	
+R33	AWARDED_WITH Arg1:T6 Arg2:T56	
+R34	AWARDED_WITH Arg1:T9 Arg2:T56	
+R35	ALTERNATIVE_NAME Arg1:T58 Arg2:T66	
+T17	EVENT 24 31	вручили
+R36	INANIMATE_INVOLVED Arg1:T1 Arg2:T17	
+T51	EVENT 124 134	присуждена
+R37	AGENT Arg1:T60 Arg2:T51	
+R38	INANIMATE_INVOLVED Arg1:T56 Arg2:T51	
+R39	PARTICIPANT_IN Arg1:T6 Arg2:T51	
+R40	PARTICIPANT_IN Arg1:T9 Arg2:T51	
+R41	LOCATED_IN Arg1:T18 Arg2:T19	
+T53	EVENT 2037 2066	подписавший мирное соглашение
+R42	AGENT Arg1:T49 Arg2:T53	
+R43	AGENT Arg1:T50 Arg2:T53	
+R44	POINT_IN_TIME Arg1:T53 Arg2:T47	
+T69	RELIGION 184 194	Исламского
+R45	RELIGION_OF Arg1:T8 Arg2:T69	
+T71	PERSON 0 11	Нобелевскую
+R46	PRODUCES Arg1:T71 Arg2:T54	
+T77	PERSON 90 101	Нобелевская
+R47	PRODUCES Arg1:T77 Arg2:T57	
+T85	AWARD 362 374	нобелевского
+R48	PRODUCES Arg1:T60 Arg2:T85	
+T86	PERSON 930 941	Нобелевскую
+R49	PRODUCES Arg1:T86 Arg2:T65	
+T87	PERSON 1545 1556	Нобелевскую
+R50	PRODUCES Arg1:T87 Arg2:T76	
+T88	PERSON 1736 1747	Нобелевских
+R51	PRODUCES Arg1:T88 Arg2:T78	
+T89	PERSON 1841 1852	Нобелевская
+R52	PRODUCES Arg1:T89 Arg2:T81	
+N1	Reference T5 Wikidata:Q39631	врач
+N2	Reference T7 Wikidata:Q974	Демократическая Республика Конго
+N3	Reference T8 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N4	Reference T9 Wikidata:Q22007112	Надия Мурад
+N5	Reference T10 Wikidata:Q796	Ирак
+N6	Reference T16 Wikidata:Q774306	хирург
+N8	Reference T19 Wikidata:Q974	Демократическая Республика Конго
+N9	Reference T29 Wikidata:Q5583669	посол доброй воли
+N10	Reference T30 Wikidata:Q1187542	Муквеге, Денис
+N12	Reference T48 Wikidata:Q30461	президент
+N13	Reference T49 Wikidata:Q57311	Хуан Мануэль Сантос
+N14	Reference T50 Wikidata:Q155801	Революционные вооружённые силы Колумбии — Армия народа
+N16	Reference T58 Wikidata:Q200885	езиды
+N19	Reference T64 Wikidata:Q1930187	журналист
+N21	Reference T68 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N23	Reference T72 Wikidata:Q636107	Управление ООН по наркотикам и преступности
+N24	Reference T73 Wikidata:Q1065	Организация Объединённых Наций
+N25	Reference T74 Wikidata:Q48786	премия имени Сахарова
+N27	Reference T35 Wikidata:Q35637	Нобелевская премия мира
+N28	Reference T76 Wikidata:Q7191	Нобелевская премия
+N30	Reference T80 Wikidata:Q30	США
+N31	Reference T84 Wikidata:Q739	Колумбия
+N33	Reference T85 Wikidata:Q7191	Нобелевская премия
+N34	Reference T89 Wikidata:Q7191	Нобелевская премия
+N15	Reference T56 Wikidata:Q59653078	
+N32	Reference T69 Wikidata:Q432	ислам
+N18	Reference T60 Wikidata:Q946621	
+N17	Reference T59 Wikidata:NULL	нет данных
+N35	Reference T12 Wikidata:Q3368823	
+N36	Reference T13 Wikidata:Q2640827	
+N37	Reference T62 Wikidata:Q1187542	Муквеге, Денис
+N7	Reference T18 Wikidata:Q7132053	
+N20	Reference T67 Wikidata:Q18344912	
+N22	Reference T70 Wikidata:NULL	нет данных
+N26	Reference T75 Wikidata:Q997	
+N29	Reference T79 Wikidata:Q34	Швеция
+N11	Reference T46 Wikidata:Q547940	
+N38	Reference T45 Wikidata:Q853475	
+N39	Reference T15 Wikidata:Q22007112	Надия Мурад
+N40	Reference T24 Wikidata:Q22007112	Надия Мурад
+N41	Reference T3 Wikidata:Q22007112	Надия Мурад
+N42	Reference T32 Wikidata:Q22007112	Надия Мурад
+N43	Reference T14 Wikidata:Q1187542	Муквеге, Денис
+N44	Reference T2 Wikidata:Q1187542	Муквеге, Денис
+N45	Reference T6 Wikidata:Q1187542	Муквеге, Денис
+N46	Reference T21 Wikidata:Q1187542	Муквеге, Денис
+N47	Reference T52 Wikidata:Q155801	Революционные вооружённые силы Колумбии — Армия народа
+N48	Reference T66 Wikidata:Q200885	езиды
+N49	Reference T55 Wikidata:Q35637	Нобелевская премия мира
+N50	Reference T22 Wikidata:Q35637	Нобелевская премия мира
+N51	Reference T42 Wikidata:Q35637	Нобелевская премия мира
+N52	Reference T1 Wikidata:Q35637	Нобелевская премия мира
+N53	Reference T57 Wikidata:Q7191	Нобелевская премия
+N54	Reference T65 Wikidata:Q7191	Нобелевская премия
+N55	Reference T54 Wikidata:Q7191	Нобелевская премия
+N56	Reference T78 Wikidata:Q7191	Нобелевская премия
+N57	Reference T81 Wikidata:Q7191	Нобелевская премия
+N58	Reference T82 Wikidata:Q739	Колумбия
+N59	Reference T87 Wikidata:Q7191	Нобелевская премия
+N60	Reference T77 Wikidata:Q7191	Нобелевская премия
+N61	Reference T88 Wikidata:Q7191	Нобелевская премия
+N62	Reference T71 Wikidata:Q7191	Нобелевская премия
+N63	Reference T86 Wikidata:Q7191	Нобелевская премия
+N64	Reference T20 Wikidata:Q1187542	Муквеге, Денис
+N65	Reference T44 Wikidata:Q547940	

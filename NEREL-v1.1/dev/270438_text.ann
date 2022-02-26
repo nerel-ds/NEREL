@@ -1,0 +1,215 @@
+T1	COUNTRY 0 9	Китайская
+T2	ORGANIZATION 17 34	Victoria’s Secret
+T3	PERSON 67 73	Мин Си
+T4	EVENT 77 88	Неделе моды
+T5	CITY 91 97	Париже
+T6	DATE 99 107	2019 год
+T7	COUNTRY 108 117	Китайская
+T8	PERSON 129 135	Мин Си
+T9	PROFESSION 142 153	миллиардера
+T10	STATE_OR_PROVINCE 157 162	Макао
+T11	PERSON 163 171	Марио Хо
+T12	DATE 183 199	4 июля 2019 года
+T13	PRODUCT 232 237	Weibo
+T14	DATE 309 325	в следующем году
+T15	DATE 327 332	В мае
+T16	CITY 381 391	шанхайском
+T18	FACILITY 408 421	L’Avenue Mall
+T19	NUMBER 434 440	99 999
+T20	NUMBER 467 473	тысяча
+T21	PERSON 530 533	Мин
+T22	DATE 560 571	с 2017 года
+T23	PERSON 608 613	Марио
+T24	MONEY 638 666	100 млн гонконгских долларов
+T25	MONEY 668 689	12,8 млн долларов США
+T26	AGE 723 732	30-летняя
+T27	PERSON 733 739	Мин Си
+T28	COUNTRY 782 795	американского
+T29	ORGANIZATION 818 835	Victoria’s Secret
+T30	DATE 837 848	В 2017 году
+T31	EVENT 858 861	шоу
+T32	CITY 864 870	Шанхае
+T33	CITY 982 988	Шанхая
+T34	DATE 1016 1027	в 2009 году
+T35	EVENT 1042 1059	конкурсе талантов
+T36	EVENT 1131 1147	Elite Model Look
+T37	DATE 1173 1184	В 2010 году
+T38	ORGANIZATION 1217 1228	Ford Models
+T39	ORGANIZATION 1252 1260	Givenchy
+T40	COUNTRY 1303 1308	Китая
+T41	PRODUCT 1312 1317	Weibo
+T42	NUMBER 1324 1336	более 12 млн
+T43	NUMBER 1351 1358	1,6 млн
+T44	PRODUCT 1363 1372	Instagram
+T45	AGE 1375 1384	24-летний
+T46	PERSON 1385 1390	Марио
+T47	ORDINAL 1399 1411	шестнадцатый
+T48	NUMBER 1415 1417	17
+T49	PERSON 1436 1445	Стэнли Хо
+T50	STATE_OR_PROVINCE 1449 1454	Макао
+T51	COUNTRY 1477 1482	Китая
+T52	PERSON 1484 1489	Марио
+T53	ORGANIZATION 1537 1576	Массачусетский технологический институт
+T54	ORGANIZATION 1598 1605	Tiancai
+T55	AGE 1640 1649	97-летний
+T56	PERSON 1650 1659	Стэнли Хо
+T57	COUNTRY 1669 1681	голландского
+T58	STATE_OR_PROVINCE 1701 1709	Гонконга
+T59	STATE_OR_PROVINCE 1740 1745	Макао
+T60	COUNTRY 1817 1826	Канадские
+T61	STATE_OR_PROVINCE 1858 1869	гонконгской
+T62	COUNTRY 1912 1918	Канаде
+T63	COUNTRY 1921 1924	США
+T64	PROFESSION 10 16	модель
+T65	PROFESSION 10 34	модель Victoria’s Secret
+T66	EVENT 35 46	вышла замуж
+T67	EVENT 77 97	Неделе моды в Париже
+T68	PROFESSION 118 128	топ-модель
+T70	EVENT 172 182	поженились
+T71	EVENT 279 298	свадебная церемония
+T17	EVENT 489 497	помолвки
+T73	EVENT 774 781	показах
+T75	COUNTRY 1148 1161	американского
+T76	PERSON 1392 1395	何猷君
+T77	STATE_OR_PROVINCE 1537 1551	Массачусетский
+T78	NATIONALITY 1682 1687	еврея
+T79	ORGANIZATION 1878 1882	Луэн
+T80	ORGANIZATION 1884 1887	聯字頭
+T81	PROFESSION 55 66	миллиардера
+R1	WORKPLACE Arg1:T65 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T65 Arg2:T1	
+R3	AGENT Arg1:T65 Arg2:T66	
+R4	WORKS_AS Arg1:T3 Arg2:T65	
+R5	TAKES_PLACE_IN Arg1:T67 Arg2:T5	
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T67	
+R7	POINT_IN_TIME Arg1:T67 Arg2:T6	
+R8	ORIGINS_FROM Arg1:T8 Arg2:T7	
+T69	PROFESSION 122 128	модель
+R9	WORKS_AS Arg1:T8 Arg2:T68	
+R10	PARENT_OF Arg1:T9 Arg2:T11	
+R11	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R12	AGENT Arg1:T11 Arg2:T70	
+R13	AGENT Arg1:T8 Arg2:T70	
+R14	POINT_IN_TIME Arg1:T70 Arg2:T12	
+R15	SPOUSE Arg1:T8 Arg2:T11	
+R16	POINT_IN_TIME Arg1:T71 Arg2:T14	
+R17	LOCATED_IN Arg1:T16 Arg2:T7	
+R18	LOCATED_IN Arg1:T10 Arg2:T7	
+R19	LOCATED_IN Arg1:T18 Arg2:T16	
+R20	ALTERNATIVE_NAME Arg1:T8 Arg2:T21	
+R21	ALTERNATIVE_NAME Arg1:T11 Arg2:T23	
+R22	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+R23	AGE_IS Arg1:T27 Arg2:T26	
+R24	PARTICIPANT_IN Arg1:T27 Arg2:T73	
+R25	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+R26	ORGANIZES Arg1:T29 Arg2:T73	
+T82	PERSON 818 826	Victoria
+R27	FOUNDED_BY Arg1:T29 Arg2:T82	
+T83	PERSON 17 25	Victoria
+R28	FOUNDED_BY Arg1:T2 Arg2:T83	
+R29	POINT_IN_TIME Arg1:T31 Arg2:T30	
+R30	TAKES_PLACE_IN Arg1:T31 Arg2:T32	
+R31	ALTERNATIVE_NAME Arg1:T16 Arg2:T32	
+R32	PLACE_OF_BIRTH Arg1:T27 Arg2:T33	
+R33	PARTICIPANT_IN Arg1:T27 Arg2:T31	
+R34	PARTICIPANT_IN Arg1:T27 Arg2:T35	
+R35	POINT_IN_TIME Arg1:T35 Arg2:T34	
+T74	ORGANIZATION 1101 1107	Донхуа
+R36	SCHOOLS_ATTENDED Arg1:T27 Arg2:T74	
+R37	PARTICIPANT_IN Arg1:T27 Arg2:T36	
+T84	EVENT 1185 1203	подписала контракт
+R38	AGENT Arg1:T27 Arg2:T84	
+R39	AGENT Arg1:T38 Arg2:T84	
+R40	POINT_IN_TIME Arg1:T84 Arg2:T37	
+T85	EVENT 1230 1251	стала лицом коллекции
+R42	POINT_IN_TIME Arg1:T85 Arg2:T37	
+R43	PARTICIPANT_IN Arg1:T39 Arg2:T85	
+R44	ALTERNATIVE_NAME Arg1:T46 Arg2:T76	
+T86	PROFESSION 1424 1435	миллиардера
+R45	WORKS_AS Arg1:T49 Arg2:T86	
+R46	ORIGINS_FROM Arg1:T49 Arg2:T50	
+R47	AGE_IS Arg1:T46 Arg2:T45	
+R48	LOCATED_IN Arg1:T50 Arg2:T51	
+R49	PARENT_OF Arg1:T49 Arg2:T46	
+R50	HEADQUARTERED_IN Arg1:T53 Arg2:T77	
+R51	SCHOOLS_ATTENDED Arg1:T46 Arg2:T53	
+R52	FOUNDED_BY Arg1:T54 Arg2:T46	
+R53	AGE_IS Arg1:T56 Arg2:T55	
+T87	PROFESSION 1619 1638	король азартных игр
+R54	WORKS_AS Arg1:T56 Arg2:T87	
+R55	ORIGINS_FROM Arg1:T56 Arg2:T78	
+R56	ORIGINS_FROM Arg1:T78 Arg2:T57	
+R57	LOCATED_IN Arg1:T58 Arg2:T51	
+R58	ORIGINS_FROM Arg1:T56 Arg2:T58	
+T88	ORGANIZATION 1817 1833	Канадские власти
+R59	HEADQUARTERED_IN Arg1:T88 Arg2:T60	
+R60	ALTERNATIVE_NAME Arg1:T58 Arg2:T61	
+R61	ALTERNATIVE_NAME Arg1:T79 Arg2:T80	
+T89	ORGANIZATION 1858 1882	гонконгской триадой Луэн
+R62	HEADQUARTERED_IN Arg1:T89 Arg2:T61	
+R63	ALTERNATIVE_NAME Arg1:T60 Arg2:T62	
+R64	ALTERNATIVE_NAME Arg1:T75 Arg2:T63	
+R65	AGENT Arg1:T11 Arg2:T71	
+R66	AGENT Arg1:T8 Arg2:T71	
+R67	AGENT Arg1:T21 Arg2:T17	
+R68	PARTICIPANT_IN Arg1:T23 Arg2:T17	
+R41	AGENT Arg1:T27 Arg2:T85	
+R69	WORKPLACE Arg1:T27 Arg2:T39	
+R70	ORIGINS_FROM Arg1:T46 Arg2:T50	
+N1	Reference T2 Wikidata:Q332477	Victoria’s Secret
+N3	Reference T13 Wikidata:Q92526	Sina Weibo
+N6	Reference T27 Wikidata:Q3858382	Мин Си
+N8	Reference T38 Wikidata:Q1374433	Ford Models
+N9	Reference T39 Wikidata:Q759210	Givenchy
+N10	Reference T44 Wikidata:Q209330	Instagram
+N12	Reference T51 Wikidata:Q148	Китайская Народная Республика
+N13	Reference T53 Wikidata:Q49108	Массачусетский технологический институт
+N15	Reference T58 Wikidata:Q8646	Гонконг
+N16	Reference T59 Wikidata:Q14773	Макао
+N17	Reference T62 Wikidata:Q16	Канада
+N18	Reference T64 Wikidata:Q4610556	модель
+N22	Reference T78 Wikidata:Q7325	евреи
+N19	Reference T65 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q90	Париж
+N20	Reference T68 Wikidata:Q865851	
+N29	Reference T7 Wikidata:Q148	Китайская Народная Республика
+N30	Reference T11 Wikidata:Q47673245	
+N4	Reference T16 Wikidata:Q8686	Шанхай
+N5	Reference T18 Wikidata:NULL	нет данных
+N7	Reference T28 Wikidata:Q30	США
+N24	Reference T74 Wikidata:Q837544	
+N31	Reference T46 Wikidata:Q47673245	
+N25	Reference T86 Wikidata:Q1062083	миллиардер
+N11	Reference T49 Wikidata:Q735458	
+N21	Reference T77 Wikidata:Q771	Массачусетс
+N27	Reference T88 Wikidata:NULL	нет данных
+N28	Reference T89 Wikidata:Q1562310	
+N32	Reference T80 Wikidata:Q1562310	
+N26	Reference T87 Wikidata:NULL	нет данных
+N14	Reference T57 Wikidata:Q55	Нидерланды
+N33	Reference T54 Wikidata:NULL	нет данных
+N23	Reference T82 Wikidata:Q9439	
+N34	Reference T29 Wikidata:Q332477	Victoria’s Secret
+N35	Reference T41 Wikidata:Q92526	Sina Weibo
+N36	Reference T8 Wikidata:Q3858382	Мин Си
+N37	Reference T3 Wikidata:Q3858382	Мин Си
+N38	Reference T21 Wikidata:Q3858382	Мин Си
+N39	Reference T40 Wikidata:Q148	Китайская Народная Республика
+N40	Reference T61 Wikidata:Q8646	Гонконг
+N41	Reference T50 Wikidata:Q14773	Макао
+N42	Reference T10 Wikidata:Q14773	Макао
+N43	Reference T60 Wikidata:Q16	Канада
+N44	Reference T69 Wikidata:Q4610556	модель
+N45	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N46	Reference T23 Wikidata:Q47673245	
+N47	Reference T33 Wikidata:Q8686	Шанхай
+N48	Reference T32 Wikidata:Q8686	Шанхай
+N49	Reference T75 Wikidata:Q30	США
+N50	Reference T63 Wikidata:Q30	США
+N51	Reference T76 Wikidata:Q47673245	
+N52	Reference T52 Wikidata:Q47673245	
+N53	Reference T81 Wikidata:Q1062083	миллиардер
+N54	Reference T9 Wikidata:Q1062083	миллиардер
+N55	Reference T56 Wikidata:Q735458	
+N56	Reference T79 Wikidata:Q1562310	
+N57	Reference T83 Wikidata:Q9439	

@@ -1,0 +1,176 @@
+T1	PERSON 0 14	Жерар Депардьё
+T2	COUNTRY 35 47	французского
+T3	PERSON 60 74	Жерар Депардьё
+T4	PERSON 76 88	Жан-Марк Эро
+T5	COUNTRY 96 108	французского
+T9	PROFESSION 304 314	ресторатор
+T10	COUNTRY 382 389	Франции
+T11	AGE 420 429	63-летний
+T12	PERSON 430 444	Жерар Депардьё
+T13	COUNTRY 465 477	французского
+T14	ORGANIZATION 492 515	Кабинет Франсуа Олланда
+T15	DATE 590 601	с 2013 года
+T16	COUNTRY 612 619	Франции
+T18	PERCENT 652 661	75&nbsp;%
+T19	MONEY 705 719	1 миллион евро
+T20	MONEY 830 848	13 миллиардов евро
+T21	DATE 849 866	за 2012—2013 годы
+T22	COUNTRY 888 895	Франции
+T23	DATE 1013 1033	В сентябре 2012 года
+T24	COUNTRY 1085 1092	Бельгии
+T26	ORGANIZATION 1165 1192	Louis Vuitton Moet Hennessy
+T27	PERSON 1204 1215	Бернар Арно
+T28	PROFESSION 1217 1244	Президент совета директоров
+T29	ORGANIZATION 1293 1311	Schneider Electric
+T30	PERSON 1312 1331	Жан-Паскаль Трикуар
+T31	CITY 1343 1350	Гонконг
+T32	PROFESSION 1354 1372	почётный президент
+T33	ORGANIZATION 1422 1429	L’Oréal
+T34	PERSON 1430 1447	Линдси Оуэн-Джонс
+T35	DATE 1448 1464	с лета 2012 года
+T36	CITY 1473 1479	Лугано
+T37	COUNTRY 1482 1491	Швейцарии
+T38	DATE 1494 1512	В ноябре 2012 года
+T39	COUNTRY 1552 1563	бельгийской
+T40	CITY 1572 1577	Нешэн
+T41	COUNTRY 1667 1678	французских
+T42	PROFESSION 1702 1717	премьер-министр
+T43	PERSON 1726 1738	Жан-Марк Эро
+T44	PERSON 1754 1762	Депардье
+T45	COUNTRY 1776 1783	Бельгию
+T46	PROFESSION 1926 1935	чиновника
+T47	PERSON 2092 2100	Депардьё
+T48	COUNTRY 2156 2168	французского
+T49	PERSON 2224 2228	Эйро
+T50	PROFESSION 90 95	Актёр
+T6	AWARD 140 154	Золотой глобус
+T52	NUMBER 157 167	двукратный
+T54	AWARD 184 189	Сезар
+T55	AWARD 193 218	номинант на премию «Оскар
+T56	AWARD 213 218	Оскар
+T57	AWARD 233 245	Лучший актёр
+T59	AWARD 256 280	ордена Почётного легиона
+T60	AWARD 283 301	ордена «За заслуги
+T61	AWARD 291 301	За заслуги
+T62	AWARD 263 280	Почётного легиона
+T7	PROFESSION 316 323	винодел
+T8	PROFESSION 361 368	актёров
+T63	PERSON 500 515	Франсуа Олланда
+T64	PROFESSION 1217 1311	Президент совета директоров крупной французской машиностроительной компании Schneider Electric
+T69	PROFESSION 1354 1429	почётный президент одного из мировых лидеров парфюмерии и косметики L’Oréal
+T70	PERSON 1513 1527	Жерар Депардьё
+T71	PROFESSION 1634 1640	актёра
+T72	PROFESSION 1679 1688	политиков
+T73	PROFESSION 1702 1725	премьер-министр Франции
+T75	COUNTRY 1718 1725	Франции
+T76	PROFESSION 1835 1841	актёра
+T77	PROFESSION 1863 1879	премьер министра
+T79	NATIONALITY 2397 2405	европеец
+R1	ORIGINS_FROM Arg1:T1 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T12 Arg2:T13	
+R3	WORKS_AS Arg1:T12 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T10 Arg2:T13	
+R5	WORKS_AS Arg1:T12 Arg2:T9	
+R6	WORKS_AS Arg1:T12 Arg2:T7	
+R7	AWARDED_WITH Arg1:T12 Arg2:T60	
+R8	AWARDED_WITH Arg1:T12 Arg2:T59	
+R9	AWARDED_WITH Arg1:T12 Arg2:T54	
+R10	AWARDED_WITH Arg1:T12 Arg2:T6	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R12	FOUNDED_BY Arg1:T14 Arg2:T63	
+R13	HEADQUARTERED_IN Arg1:T14 Arg2:T16	
+R14	OWNER_OF Arg1:T27 Arg2:T26	
+T17	ORGANIZATION 1077 1092	властям Бельгии
+R15	HEADQUARTERED_IN Arg1:T17 Arg2:T24	
+R16	PLACE_RESIDES_IN Arg1:T34 Arg2:T36	
+R17	PLACE_RESIDES_IN Arg1:T30 Arg2:T31	
+R18	LOCATED_IN Arg1:T36 Arg2:T37	
+R19	LOCATED_IN Arg1:T40 Arg2:T39	
+T25	EVENT 1528 1549	приобрёл недвижимость
+R20	AGENT Arg1:T70 Arg2:T25	
+R21	POINT_IN_TIME Arg1:T25 Arg2:T38	
+R22	TAKES_PLACE_IN Arg1:T25 Arg2:T40	
+R23	WORKS_AS Arg1:T70 Arg2:T71	
+R24	ORIGINS_FROM Arg1:T72 Arg2:T41	
+R25	WORKPLACE Arg1:T73 Arg2:T75	
+R26	WORKS_AS Arg1:T43 Arg2:T73	
+R27	WORKPLACE Arg1:T43 Arg2:T75	
+R28	WORKS_AS Arg1:T44 Arg2:T76	
+R29	WORKS_AS Arg1:T43 Arg2:T77	
+R30	WORKS_AS Arg1:T43 Arg2:T46	
+R31	ORIGINS_FROM Arg1:T47 Arg2:T48	
+R32	ALTERNATIVE_NAME Arg1:T43 Arg2:T49	
+R33	ALTERNATIVE_NAME Arg1:T70 Arg2:T44	
+R34	WORKPLACE Arg1:T30 Arg2:T29	
+R35	WORKS_AS Arg1:T30 Arg2:T64	
+R36	WORKS_AS Arg1:T34 Arg2:T69	
+R37	WORKPLACE Arg1:T34 Arg2:T33	
+R38	WORKPLACE Arg1:T64 Arg2:T29	
+R39	WORKPLACE Arg1:T69 Arg2:T33	
+R40	AWARDED_WITH Arg1:T12 Arg2:T55	
+R41	AGE_IS Arg1:T12 Arg2:T11	
+R42	ORIGINS_FROM Arg1:T50 Arg2:T5	
+R43	PLACE_RESIDES_IN Arg1:T44 Arg2:T45	
+R44	ORIGINS_FROM Arg1:T47 Arg2:T79	
+N1	Reference T1 Wikidata:Q106508	Жерар Депардьё
+N2	Reference T9 Wikidata:Q3427922	ресторатор
+N4	Reference T16 Wikidata:Q142	Франция
+N5	Reference T24 Wikidata:Q31	Бельгия
+N7	Reference T27 Wikidata:Q32055	Бернар Арно
+N9	Reference T29 Wikidata:Q49053	Schneider Electric
+N11	Reference T31 Wikidata:Q8646	Гонконг
+N13	Reference T33 Wikidata:Q156077	L’Oréal
+N15	Reference T36 Wikidata:Q7024	Лугано
+N16	Reference T37 Wikidata:Q39	Швейцария
+N17	Reference T39 Wikidata:Q31	Бельгия
+N19	Reference T42 Wikidata:Q14212	премьер-министр
+N20	Reference T46 Wikidata:Q382887	чиновник
+N21	Reference T6 Wikidata:Q1011547	Золотой глобус
+N22	Reference T54 Wikidata:Q174389	Сезар
+N24	Reference T56 Wikidata:Q19020	Оскар
+N26	Reference T59 Wikidata:Q163700	орден Почётного легиона
+N31	Reference T63 Wikidata:Q157	Франсуа Олланд
+N34	Reference T71 Wikidata:Q33999	актёр
+N35	Reference T72 Wikidata:Q82955	политик
+N36	Reference T77 Wikidata:Q14212	премьер-министр
+N37	Reference T79 Wikidata:Q394067	европейцы
+N39	Reference T49 Wikidata:Q7711	
+N40	Reference T47 Wikidata:Q106508	Жерар Депардьё
+N41	Reference T73 Wikidata:Q1587677	
+N18	Reference T40 Wikidata:Q511887	
+N14	Reference T34 Wikidata:Q751366	
+N10	Reference T30 Wikidata:Q3168302	
+N8	Reference T28 Wikidata:NULL	нет данных
+N32	Reference T64 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:Q1300660	
+N33	Reference T69 Wikidata:NULL	нет данных
+N38	Reference T17 Wikidata:NULL	нет данных
+N6	Reference T26 Wikidata:Q504998	LVMH
+N3	Reference T14 Wikidata:NULL	нет данных
+N30	Reference T7 Wikidata:Q21771805	
+N28	Reference T61 Wikidata:Q652962	Национальный орден «За заслуги»
+N27	Reference T60 Wikidata:Q652962	Национальный орден «За заслуги»
+N25	Reference T57 Wikidata:Q103916	премия «Оскар» за лучшую мужскую роль
+N29	Reference T62 Wikidata:NULL	нет данных
+N23	Reference T55 Wikidata:NULL	нет данных
+N42	Reference T44 Wikidata:Q106508	Жерар Депардьё
+N43	Reference T12 Wikidata:Q106508	Жерар Депардьё
+N44	Reference T70 Wikidata:Q106508	Жерар Депардьё
+N45	Reference T3 Wikidata:Q106508	Жерар Депардьё
+N46	Reference T75 Wikidata:Q142	Франция
+N47	Reference T13 Wikidata:Q142	Франция
+N48	Reference T22 Wikidata:Q142	Франция
+N49	Reference T10 Wikidata:Q142	Франция
+N50	Reference T5 Wikidata:Q142	Франция
+N51	Reference T48 Wikidata:Q142	Франция
+N52	Reference T2 Wikidata:Q142	Франция
+N53	Reference T41 Wikidata:Q142	Франция
+N54	Reference T45 Wikidata:Q31	Бельгия
+N55	Reference T50 Wikidata:Q33999	актёр
+N56	Reference T8 Wikidata:Q33999	актёр
+N57	Reference T76 Wikidata:Q33999	актёр
+N58	Reference T4 Wikidata:Q7711	
+N59	Reference T43 Wikidata:Q7711	
+T51	EVENT 1332 1340	переехал
+R45	AGENT Arg1:T30 Arg2:T51	
+R46	TAKES_PLACE_IN Arg1:T51 Arg2:T31	

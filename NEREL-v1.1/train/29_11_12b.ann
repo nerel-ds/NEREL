@@ -1,0 +1,118 @@
+T1	COUNTRY 2 14	Палестинские
+T2	PROFESSION 46 70	министра обороны Израиля
+T3	PERSON 71 83	Эхуда Барака
+T4	ORGANIZATION 190 195	Хамас
+T5	PROFESSION 198 214	глава Минобороны
+T6	EVENT 296 310	Облачный столп
+T7	PERSON 339 344	Барак
+T8	DISTRICT 433 437	Газе
+T9	PROFESSION 506 530	глава военного ведомства
+T10	ORGANIZATION 614 620	Ацмаут
+T11	ORGANIZATION 790 806	Исламский джихад
+T12	PERSON 864 882	Биньямин Нетаньяху
+T13	PROFESSION 926 950	премьер-министра Израиля
+T14	AGE 963 972	70-летний
+T16	PERSON 973 980	Э.Барак
+T17	PROFESSION 999 1023	министра обороны Израиля
+T18	DATE 1026 1031	2007г
+T19	ORGANIZATION 1053 1073	военное министерство
+T20	DATE 1074 1087	в 1999-2001гг
+T22	PERSON 1101 1108	Э.Барак
+T23	PROFESSION 1159 1179	начальником Генштаба
+T24	PROFESSION 1181 1199	главой МВД Израиля
+T25	PROFESSION 1201 1226	министром иностранных дел
+T26	PROFESSION 1228 1245	премьер-министром
+T27	COUNTRY 63 70	Израиля
+T28	ORGANIZATION 204 214	Минобороны
+T29	DISTRICT 331 335	Газы
+T30	COUNTRY 451 463	палестинские
+T31	COUNTRY 943 950	Израиля
+T32	ORGANIZATION 707 716	парламент
+T15	COUNTRY 1016 1023	Израиля
+T21	ORGANIZATION 1171 1179	Генштаба
+T33	ORGANIZATION 1188 1199	МВД Израиля
+T34	COUNTRY 1192 1199	Израиля
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	WORKPLACE Arg1:T3 Arg2:T27	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R5	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+T35	ORGANIZATION 512 530	военного ведомства
+R6	ALTERNATIVE_NAME Arg1:T28 Arg2:T35	
+R7	WORKPLACE Arg1:T9 Arg2:T10	
+R8	WORKPLACE Arg1:T7 Arg2:T10	
+R9	WORKS_AS Arg1:T12 Arg2:T13	
+R10	WORKPLACE Arg1:T12 Arg2:T31	
+R11	AGE_IS Arg1:T16 Arg2:T14	
+R12	WORKS_AS Arg1:T16 Arg2:T17	
+T36	PROFESSION 999 1015	министра обороны
+R13	ABBREVIATION Arg1:T16 Arg2:T15	
+R14	WORKPLACE Arg1:T16 Arg2:T19	
+R15	ALTERNATIVE_NAME Arg1:T7 Arg2:T16	
+R16	WORKS_AS Arg1:T22 Arg2:T23	
+R17	WORKPLACE Arg1:T22 Arg2:T21	
+R18	WORKS_AS Arg1:T22 Arg2:T24	
+R19	WORKPLACE Arg1:T22 Arg2:T33	
+R20	WORKS_AS Arg1:T22 Arg2:T25	
+R21	WORKS_AS Arg1:T22 Arg2:T26	
+T37	EVENT 37 45	отставку
+R22	PARTICIPANT_IN Arg1:T3 Arg2:T37	
+T38	EVENT 215 237	оставил свою должность
+R23	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R24	AGENT Arg1:T5 Arg2:T38	
+R25	PARTICIPANT_IN Arg1:T3 Arg2:T6	
+R26	PARTICIPANT_IN Arg1:T5 Arg2:T6	
+R27	WORKPLACE Arg1:T2 Arg2:T27	
+T39	PROFESSION 46 54	министра
+R28	WORKPLACE Arg1:T5 Arg2:T28	
+R29	WORKPLACE Arg1:T9 Arg2:T35	
+R30	WORKPLACE Arg1:T13 Arg2:T31	
+R31	WORKPLACE Arg1:T17 Arg2:T15	
+R32	WORKPLACE Arg1:T23 Arg2:T21	
+R33	WORKPLACE Arg1:T24 Arg2:T33	
+R34	HEADQUARTERED_IN Arg1:T33 Arg2:T34	
+T40	PROFESSION 1201 1210	министром
+T41	RELIGION 790 799	Исламский
+R35	RELIGION_OF Arg1:T11 Arg2:T41	
+R36	TAKES_PLACE_IN Arg1:T37 Arg2:T27	
+T42	IDEOLOGY 319 330	террористов
+R37	ORIGINS_FROM Arg1:T42 Arg2:T29	
+R38	PARTICIPANT_IN Arg1:T42 Arg2:T6	
+R39	HEADQUARTERED_IN Arg1:T10 Arg2:T31	
+R40	WORKPLACE Arg1:T26 Arg2:T34	
+R41	WORKPLACE Arg1:T25 Arg2:T34	
+N1	Reference T4 Wikidata:Q38799	ХАМАС
+N3	Reference T10 Wikidata:Q2915102	Ацмаут
+N4	Reference T11 Wikidata:Q117907	Палестинский исламский джихад
+N5	Reference T12 Wikidata:Q43723	Биньямин Нетаньяху
+N6	Reference T13 Wikidata:Q208487	премьер-министр Израиля
+N7	Reference T17 Wikidata:Q13222899	Министры обороны Израиля
+N9	Reference T22 Wikidata:Q125731	Эхуд Барак
+N12	Reference T25 Wikidata:Q7330070	министр иностранных дел
+N13	Reference T26 Wikidata:Q14212	премьер-министр
+N14	Reference T27 Wikidata:Q801	Израиль
+N16	Reference T30 Wikidata:Q219060	Государство Палестина
+N17	Reference T32 Wikidata:Q35749	парламент
+N18	Reference T21 Wikidata:Q495430	Генеральный штаб
+N20	Reference T36 Wikidata:Q2518691	министр обороны
+N21	Reference T40 Wikidata:Q83307	министр
+N15	Reference T28 Wikidata:Q1862884	
+N2	Reference T8 Wikidata:Q39760	сектор Газа
+N22	Reference T41 Wikidata:Q432	ислам
+N8	Reference T19 Wikidata:Q1862884	
+N19	Reference T33 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:NULL	нет данных
+N10	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T5 Wikidata:Q13222899	Министры обороны Израиля
+N24	Reference T9 Wikidata:Q13222899	Министры обороны Израиля
+N25	Reference T2 Wikidata:Q13222899	Министры обороны Израиля
+N26	Reference T7 Wikidata:Q125731	Эхуд Барак
+N27	Reference T3 Wikidata:Q125731	Эхуд Барак
+N28	Reference T16 Wikidata:Q125731	Эхуд Барак
+N29	Reference T31 Wikidata:Q801	Израиль
+N30	Reference T15 Wikidata:Q801	Израиль
+N31	Reference T34 Wikidata:Q801	Израиль
+N32	Reference T1 Wikidata:Q219060	Государство Палестина
+N33	Reference T39 Wikidata:Q83307	министр
+N34	Reference T35 Wikidata:Q1862884	
+N35	Reference T29 Wikidata:Q39760	сектор Газа

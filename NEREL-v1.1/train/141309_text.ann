@@ -1,0 +1,87 @@
+T1	COUNTRY 11 16	Китая
+T2	DATE 31 38	5 годам
+T3	COUNTRY 90 95	Китая
+T4	PERSON 96 108	Ву Сяньгуань
+T5	DATE 122 131	5,5 годам
+T6	MONEY 167 181	500 тыс. юаней
+T7	MONEY 183 191	$76 тыс.
+T8	PERSON 324 333	Сяньгуань
+T9	DATE 394 412	с 2013 по 2017 год
+T10	NUMBER 465 479	порядка 8 тыс.
+T11	NUMBER 494 500	5 тыс.
+T12	MONEY 568 583	около $120 тыс.
+T13	COUNTRY 628 637	китайских
+T14	DATE 881 899	В начале 2018 года
+T15	COUNTRY 914 917	КНР
+T16	ORDINAL 1024 1030	первый
+T17	COUNTRY 1100 1105	Китае
+T18	DATE 1113 1124	в этом году
+T19	AGE 1140 1150	26-летнего
+T20	PERSON 1151 1162	Дэна Цзивея
+T21	DATE 1165 1179	девяти месяцам
+T22	PENALTY 1165 1200	девяти месяцам тюремного заключения
+T23	CRIME 1204 1269	продажу программного обеспечения для обхода «Золотого щита Китая»
+T24	COUNTRY 1263 1268	Китая
+T25	COUNTRY 780 785	Китая
+T26	PENALTY 31 45	5 годам тюрьмы
+T27	CRIME 49 69	продажу VPN-сервисов
+T28	PENALTY 122 147	5,5 годам лишения свободы
+T29	CRIME 196 242	незаконную продажу доступа к услугам VPN-сетей
+T30	COUNTRY 274 283	китайской
+R1	HAS_CAUSE Arg1:T26 Arg2:T27	
+T31	NATIONALITY 0 16	Гражданина Китая
+R2	PENALIZED_AS Arg1:T31 Arg2:T26	
+R3	ORIGINS_FROM Arg1:T31 Arg2:T1	
+R4	CONVICTED_OF Arg1:T31 Arg2:T27	
+T32	NATIONALITY 80 95	Гражданин Китая
+R5	ORIGINS_FROM Arg1:T32 Arg2:T3	
+R6	ORIGINS_FROM Arg1:T4 Arg2:T32	
+T33	PENALTY 150 181	штрафу в размере 500 тыс. юаней
+T34	PENALTY 150 156	штрафу
+T35	PENALTY 132 147	лишения свободы
+R7	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+R8	PENALIZED_AS Arg1:T4 Arg2:T28	
+R9	PENALIZED_AS Arg1:T4 Arg2:T33	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R11	ALTERNATIVE_NAME Arg1:T3 Arg2:T30	
+R12	CONVICTED_OF Arg1:T4 Arg2:T29	
+T36	ORGANIZATION 274 295	китайской прокуратуры
+R13	HEADQUARTERED_IN Arg1:T36 Arg2:T30	
+R14	ALTERNATIVE_NAME Arg1:T4 Arg2:T8	
+T37	DATE 394 400	с 2013
+T38	DATE 401 412	по 2017 год
+R15	START_TIME Arg1:T29 Arg2:T37	
+R16	END_TIME Arg1:T29 Arg2:T38	
+T39	CRIME 544 564	незаконном заработке
+R17	CONVICTED_OF Arg1:T8 Arg2:T39	
+T40	ORGANIZATION 628 645	китайских властей
+R18	HEADQUARTERED_IN Arg1:T40 Arg2:T13	
+R19	ALTERNATIVE_NAME Arg1:T13 Arg2:T25	
+R20	ALTERNATIVE_NAME Arg1:T25 Arg2:T15	
+T41	PRODUCT 766 785	Золотого щита Китая
+R21	PRODUCES Arg1:T25 Arg2:T41	
+T42	PRODUCT 1249 1268	Золотого щита Китая
+R22	PRODUCES Arg1:T24 Arg2:T42	
+R23	AGE_IS Arg1:T20 Arg2:T19	
+T43	PENALTY 1180 1200	тюремного заключения
+R24	PENALIZED_AS Arg1:T20 Arg2:T22	
+R25	HAS_CAUSE Arg1:T22 Arg2:T23	
+R26	CONVICTED_OF Arg1:T20 Arg2:T23	
+T44	CRIME 196 214	незаконную продажу
+N1	Reference T3 Wikidata:Q148	Китайская Народная Республика
+N6	Reference T42 Wikidata:Q615446	Золотой щит
+N3	Reference T31 Wikidata:Q6501380	китайцы
+N4	Reference T36 Wikidata:NULL	
+N7	Reference T8 Wikidata:NULL	
+N8	Reference T13 Wikidata:Q148	Китайская Народная Республика
+N5	Reference T40 Wikidata:Q936190	
+N2	Reference T20 Wikidata:NULL	нет данных
+N9	Reference T30 Wikidata:Q148	Китайская Народная Республика
+N10	Reference T41 Wikidata:Q615446	Золотой щит
+N11	Reference T32 Wikidata:Q6501380	китайцы
+N12	Reference T4 Wikidata:NULL	
+N13	Reference T15 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T17 Wikidata:Q148	Китайская Народная Республика
+N15	Reference T25 Wikidata:Q148	Китайская Народная Республика
+N16	Reference T24 Wikidata:Q148	Китайская Народная Республика
+N17	Reference T1 Wikidata:Q148	Китайская Народная Республика

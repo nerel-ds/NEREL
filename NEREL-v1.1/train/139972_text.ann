@@ -1,0 +1,219 @@
+T2	CITY 14 18	Сочи
+T3	PROFESSION 22 31	художника
+T4	PERSON 32 48	Кирилла Бородина
+T5	PERSON 49 63	Кирилл Бородин
+T6	DATE 64 84	15 декабря 2017 года
+T7	CITY 87 96	Сочинском
+T8	ORGANIZATION 87 117	Сочинском художественном музее
+T9	EVENT 129 159	открытие персональной выставки
+T10	PROFESSION 160 169	художника
+T11	PERSON 170 186	Кирилла Бородина
+T12	EVENT 188 197	Витамин Б
+T13	AGE 236 242	30 лет
+T14	ORGANIZATION 354 405	Екатеринбургского художественного училища им. Шадра
+T15	ORGANIZATION 448 510	Уральской Государственной архитектурно-художественной академии
+T16	PROFESSION 530 554	художником - декоратором
+T17	ORGANIZATION 557 596	Свердловском театре музыкальной комедии
+T18	ORGANIZATION 611 634	Союза художников России
+T19	DATE 718 729	В 2016 году
+T20	ORGANIZATION 730 754	Союзом художников России
+T21	FACILITY 815 844	Академическую дачу им. Репина
+T22	EVENT 911 918	Таврида
+T23	DATE 920 933	в том же году
+T24	NUMBER 960 961	7
+T25	PROFESSION 987 998	президентом
+T26	PERSON 1002 1020	Владимиром Путиным
+T27	DATE 1022 1033	В 2017 году
+T28	ORGANIZATION 1064 1089	Творческую команду России
+T29	PROFESSION 1132 1143	президентом
+T30	DATE 1145 1156	В 2017 году
+T31	STATE_OR_PROVINCE 1176 1196	Свердловскую область
+T32	EVENT 1200 1240	Всемирном Фестивале молодежи и студентов
+T33	CITY 1243 1247	Сочи
+T34	EVENT 1250 1258	Вернисаж
+T35	PROFESSION 1449 1479	директор Художественного музея
+T36	PERSON 1480 1493	Пётр Хрисанов
+T37	PERSON 1495 1508	Борис Салахов
+T38	PROFESSION 1510 1557	государственный эксперт по культурным ценностям
+T39	PROFESSION 1559 1589	заведующий выставочным отделом
+T40	PERSON 1591 1609	Екатерина Хотинова
+T41	PROFESSION 1611 1636	старший научный сотрудник
+T42	ORDINAL 1713 1719	третий
+T43	PERSON 1782 1796	Кирилл Бородин
+T44	EVENT 1894 1903	Витамин Б
+T45	ORDINAL 1998 1999	4
+T46	COUNTRY 2020 2028	Таиланде
+T47	WORK_OF_ART 2057 2074	Китайское детство
+T48	EVENT 2102 2143	Уральской Биеннале современного искусства
+T49	DATE 2542 2554	до 15 января
+T1	PERSON 216 223	Кириллу
+T50	PROFESSION 282 290	художник
+T51	CITY 354 371	Екатеринбургского
+T52	PERSON 400 405	Шадра
+T53	ORGANIZATION 407 437	отделение театральной живописи
+T54	CITY 557 569	Свердловском
+T56	PROFESSION 617 627	художников
+T57	COUNTRY 628 634	России
+T58	PROFESSION 737 747	художников
+T59	COUNTRY 748 754	России
+T60	PERSON 755 769	Кирилл Бородин
+T61	PERSON 838 844	Репина
+T62	PROFESSION 962 972	художников
+T63	PROFESSION 987 1001	президентом РФ
+T64	COUNTRY 999 1001	РФ
+T65	COUNTRY 1083 1089	России
+T66	PERSON 1157 1163	Кирилл
+T67	EVENT 2485 2493	вернисаж
+T68	EVENT 2519 2527	выставка
+T69	PROFESSION 2424 2434	художником
+T70	PROFESSION 2226 2235	художника
+T71	DATE 2029 2038	2013 года
+T72	CITY 1637 1647	сочинского
+T73	ORGANIZATION 1637 1668	сочинского Художественного музе
+T74	ORGANIZATION 1458 1479	Художественного музея
+T75	PROFESSION 1341 1350	фотографы
+T76	PROFESSION 1403 1412	галеристы
+R1	HEADQUARTERED_IN Arg1:T14 Arg2:T51	
+T77	LOCATION 448 457	Уральской
+R2	AGE_IS Arg1:T1 Arg2:T13	
+R3	ALTERNATIVE_NAME Arg1:T11 Arg2:T1	
+R4	WORKS_AS Arg1:T11 Arg2:T10	
+R5	HEADQUARTERED_IN Arg1:T15 Arg2:T77	
+R6	HEADQUARTERED_IN Arg1:T17 Arg2:T54	
+R7	WORKPLACE Arg1:T63 Arg2:T64	
+R8	WORKS_AS Arg1:T26 Arg2:T63	
+R9	WORKPLACE Arg1:T26 Arg2:T64	
+R10	WORKPLACE Arg1:T35 Arg2:T74	
+R11	WORKS_AS Arg1:T36 Arg2:T35	
+R12	WORKPLACE Arg1:T36 Arg2:T74	
+R13	HEADQUARTERED_IN Arg1:T73 Arg2:T72	
+R14	ORGANIZES Arg1:T43 Arg2:T44	
+T78	LOCATION 2102 2111	Уральской
+R15	TAKES_PLACE_IN Arg1:T48 Arg2:T78	
+R16	PARTICIPANT_IN Arg1:T66 Arg2:T32	
+R17	PARTICIPANT_IN Arg1:T43 Arg2:T48	
+R18	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R19	WORKS_AS Arg1:T4 Arg2:T3	
+R20	WORKS_AS Arg1:T1 Arg2:T50	
+R21	SCHOOLS_ATTENDED Arg1:T1 Arg2:T14	
+R22	ORGANIZES Arg1:T11 Arg2:T12	
+R23	TAKES_PLACE_IN Arg1:T12 Arg2:T8	
+R24	POINT_IN_TIME Arg1:T12 Arg2:T6	
+R25	SCHOOLS_ATTENDED Arg1:T1 Arg2:T15	
+R26	HEADQUARTERED_IN Arg1:T18 Arg2:T57	
+R27	WORKS_AS Arg1:T1 Arg2:T16	
+R28	WORKPLACE Arg1:T1 Arg2:T17	
+R29	WORKPLACE Arg1:T16 Arg2:T17	
+R30	MEMBER_OF Arg1:T1 Arg2:T18	
+R31	MEMBER_OF Arg1:T56 Arg2:T18	
+R32	HEADQUARTERED_IN Arg1:T20 Arg2:T59	
+R33	MEMBER_OF Arg1:T60 Arg2:T20	
+R34	PARTICIPANT_IN Arg1:T60 Arg2:T22	
+R35	HEADQUARTERED_IN Arg1:T28 Arg2:T65	
+R36	MEMBER_OF Arg1:T60 Arg2:T28	
+R37	POINT_IN_TIME Arg1:T32 Arg2:T30	
+R38	TAKES_PLACE_IN Arg1:T32 Arg2:T33	
+R39	ORIGINS_FROM Arg1:T66 Arg2:T31	
+R40	PRODUCES Arg1:T43 Arg2:T47	
+R41	END_TIME Arg1:T68 Arg2:T49	
+R42	ALTERNATIVE_NAME Arg1:T12 Arg2:T68	
+R43	SUBEVENT_OF Arg1:T67 Arg2:T68	
+R44	SUBEVENT_OF Arg1:T9 Arg2:T12	
+R45	POINT_IN_TIME Arg1:T9 Arg2:T6	
+R46	ORGANIZES Arg1:T11 Arg2:T9	
+R47	TAKES_PLACE_IN Arg1:T9 Arg2:T8	
+R48	ALTERNATIVE_NAME Arg1:T9 Arg2:T34	
+R49	PARTICIPANT_IN Arg1:T75 Arg2:T34	
+R50	PARTICIPANT_IN Arg1:T76 Arg2:T34	
+R51	ALTERNATIVE_NAME Arg1:T34 Arg2:T67	
+R52	WORKS_AS Arg1:T37 Arg2:T38	
+T55	PROFESSION 1510 1533	государственный эксперт
+R53	WORKS_AS Arg1:T37 Arg2:T39	
+R54	WORKPLACE Arg1:T40 Arg2:T73	
+R55	WORKS_AS Arg1:T40 Arg2:T41	
+T79	PROFESSION 1619 1636	научный сотрудник
+R56	WORKPLACE Arg1:T41 Arg2:T73	
+R57	PART_OF Arg1:T53 Arg2:T14	
+T80	EVENT 774 785	делегирован
+R58	AGENT Arg1:T20 Arg2:T80	
+R59	PARTICIPANT_IN Arg1:T60 Arg2:T80	
+R60	TAKES_PLACE_IN Arg1:T80 Arg2:T21	
+R61	POINT_IN_TIME Arg1:T80 Arg2:T19	
+T81	EVENT 977 984	встречи
+R62	AGENT Arg1:T26 Arg2:T81	
+R63	AGENT Arg1:T60 Arg2:T81	
+R64	AGENT Arg1:T62 Arg2:T81	
+R65	POINT_IN_TIME Arg1:T81 Arg2:T23	
+R66	ALTERNATIVE_NAME Arg1:T19 Arg2:T23	
+T82	EVENT 1417 1435	церемонии открытия
+R67	ALTERNATIVE_NAME Arg1:T34 Arg2:T82	
+R68	PARTICIPANT_IN Arg1:T36 Arg2:T82	
+R69	PARTICIPANT_IN Arg1:T37 Arg2:T82	
+R70	PARTICIPANT_IN Arg1:T40 Arg2:T82	
+T83	COUNTRY 2057 2066	Китайское
+T84	EVENT 138 159	персональной выставки
+R71	AGENT Arg1:T11 Arg2:T84	
+R72	SUBEVENT_OF Arg1:T9 Arg2:T84	
+R73	START_TIME Arg1:T84 Arg2:T6	
+T85	EVENT 151 159	выставки
+R74	ALTERNATIVE_NAME Arg1:T84 Arg2:T12	
+N1	Reference T2 Wikidata:Q39420	Сочи
+N3	Reference T8 Wikidata:Q4430383	Сочинский художественный музей
+N4	Reference T14 Wikidata:Q4174330	Екатеринбургское художественное училище им. И. Д. Шадра
+N5	Reference T15 Wikidata:Q2103656	Уральская государственная архитектурно-художественная академия
+N7	Reference T17 Wikidata:Q4410151	Свердловский государственный академический театр музыкальной комедии
+N8	Reference T18 Wikidata:Q4430593	Союз художников России
+N10	Reference T25 Wikidata:Q30461	президент
+N11	Reference T26 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T31 Wikidata:Q5462	Свердловская область
+N19	Reference T46 Wikidata:Q869	Таиланд
+N22	Reference T52 Wikidata:Q1065242	Иван Дмитриевич Шадр
+N25	Reference T61 Wikidata:Q172911	Илья Ефимович Репин
+N26	Reference T62 Wikidata:Q1028181	художник
+N27	Reference T63 Wikidata:Q218295	президент Российской Федерации
+N28	Reference T64 Wikidata:Q159	Россия
+N29	Reference T65 Wikidata:Q159	Россия
+N32	Reference T75 Wikidata:Q33231	фотограф
+N35	Reference T79 Wikidata:Q1706722	научный сотрудник
+N2	Reference T7 Wikidata:Q39420	Сочи
+N20	Reference T1 Wikidata:NULL	нет данных
+N21	Reference T51 Wikidata:Q887	Екатеринбург
+N23	Reference T53 Wikidata:NULL	живопись
+N6	Reference T16 Wikidata:Q56673616	
+N24	Reference T54 Wikidata:Q887	Екатеринбург
+N9	Reference T21 Wikidata:Q4059162	Академическая
+N12	Reference T28 Wikidata:NULL	нет данных
+N36	Reference T76 Wikidata:NULL	нет данных
+N31	Reference T74 Wikidata:Q4430383	Латвийский национальный художественный музей
+N14	Reference T35 Wikidata:NULL	
+N15	Reference T36 Wikidata:NULL	
+N16	Reference T37 Wikidata:NULL	
+N34	Reference T55 Wikidata:NULL	нет данных
+N17	Reference T38 Wikidata:NULL	
+N37	Reference T39 Wikidata:NULL	
+N18	Reference T40 Wikidata:NULL	
+N38	Reference T41 Wikidata:Q30093119	
+N30	Reference T73 Wikidata:Q4430383	Сочинский художественный музей
+N39	Reference T47 Wikidata:NULL	нет данных
+N40	Reference T83 Wikidata:Q148	Китайская Народная Республика
+N33	Reference T78 Wikidata:Q1322976	Уральский
+N41	Reference T33 Wikidata:Q39420	Сочи
+N42	Reference T20 Wikidata:Q4430593	Союз художников России
+N43	Reference T29 Wikidata:Q30461	президент
+N44	Reference T69 Wikidata:Q1028181	художник
+N45	Reference T10 Wikidata:Q1028181	художник
+N46	Reference T56 Wikidata:Q1028181	художник
+N47	Reference T70 Wikidata:Q1028181	художник
+N48	Reference T3 Wikidata:Q1028181	художник
+N49	Reference T58 Wikidata:Q1028181	художник
+N50	Reference T50 Wikidata:Q1028181	художник
+N51	Reference T59 Wikidata:Q159	Россия
+N52	Reference T57 Wikidata:Q159	Россия
+N53	Reference T72 Wikidata:Q39420	Сочи
+N54	Reference T5 Wikidata:NULL	нет данных
+N55	Reference T66 Wikidata:NULL	нет данных
+N56	Reference T4 Wikidata:NULL	нет данных
+N57	Reference T60 Wikidata:NULL	нет данных
+N58	Reference T11 Wikidata:NULL	нет данных
+N59	Reference T43 Wikidata:NULL	нет данных
+N60	Reference T77 Wikidata:Q1322976	Уральский

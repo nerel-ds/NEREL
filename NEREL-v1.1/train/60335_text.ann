@@ -1,0 +1,158 @@
+T3	CITY 107 114	Окленде
+T4	STATE_OR_PROVINCE 121 131	Калифорния
+T5	COUNTRY 133 136	США
+T6	AGE 149 155	99 лет
+T7	NATIONALITY 161 173	американский
+T9	PERSON 201 212	Чарлз Таунс
+T10	PERSON 282 288	Таунса
+T11	PERSON 409 429	Александра Прохорова
+T12	PERSON 432 446	Николая Басова
+T13	ORDINAL 568 574	первый
+T14	DATE 615 619	1954
+T15	DATE 622 633	В 1958 году
+T16	PERSON 646 662	Артуром Шавловым
+T17	DATE 755 766	В 1964 году
+T18	PERSON 910 915	Таунс
+T19	PERSON 928 944	Николаем Басовым
+T20	PERSON 947 969	Александром Прохоровым
+T21	PERSON 1230 1242	Мандельштама
+T22	DATE 1337 1341	1964
+T23	PERSON 1345 1350	Таунс
+T24	DATE 1447 1451	1969
+T25	NUMBER 1536 1543	1,35 см
+T26	PERSON 1547 1563	Чарлз Хард Таунс
+T27	CITY 1574 1583	Гринвилле
+T28	DATE 1600 1611	в 1935 году
+T29	ORGANIZATION 1620 1642	Фурманский университет
+T30	DATE 1644 1650	в 1939
+T31	ORGANIZATION 1655 1694	Калифорнийский технологический институт
+T32	DATE 1696 1707	В 1939—1948
+T33	ORGANIZATION 1727 1739	Белл телефон
+T34	DATE 1742 1753	в 1948—1961
+T35	ORGANIZATION 1758 1783	Колумбийском университете
+T36	DATE 1785 1791	с 1950
+T37	PROFESSION 1804 1814	профессора
+T38	DATE 1817 1828	В 1961—1966
+T39	PROFESSION 1843 1854	профессором
+T40	PROFESSION 1857 1868	президентом
+T41	DATE 1913 1919	с 1967
+T42	ORGANIZATION 1931 1976	физический отдел Калифорнийского университета
+T44	CITY 1978 1984	Беркли
+T45	DATE 1987 1998	В 1967 году
+T46	PROFESSION 2010 2021	президентом
+T47	PERSON 40 51	Чарлз Таунс
+T48	PERSON 52 63	Чарлз Таунс
+T49	PERSON 1245 1254	Бриллюэна
+T2	DATE 64 103	В минувший вторник, 27 января 2015 года
+T51	PROFESSION 174 179	физик
+T8	EVENT 676 744	запатентовали возможность создания оптического квантового генератора
+T52	AWARD 983 1011	Нобелевской премии по физике
+T55	STATE_OR_PROVINCE 1655 1669	Калифорнийский
+T56	STATE_OR_PROVINCE 1758 1770	Колумбийском
+T57	COUNTRY 2022 2035	Американского
+T58	ORGANIZATION 2022 2056	Американского физического общества
+T59	PERSON 1829 1834	Таунс
+T60	STATE_OR_PROVINCE 1869 1884	Массачусетского
+T61	ORGANIZATION 1869 1911	Массачусетского технологического института
+T43	STATE_OR_PROVINCE 1948 1963	Калифорнийского
+T62	ORGANIZATION 1948 1976	Калифорнийского университета
+T63	PERSON 1031 1036	Таунс
+T64	PERSON 1192 1197	Таунс
+T50	AWARD 181 192	нобелевский
+R1	LOCATED_IN Arg1:T3 Arg2:T4	
+R2	LOCATED_IN Arg1:T4 Arg2:T5	
+R3	DATE_OF_DEATH Arg1:T9 Arg2:T2	
+R4	AGE_IS Arg1:T9 Arg2:T6	
+R5	ORIGINS_FROM Arg1:T9 Arg2:T7	
+R6	WORKS_AS Arg1:T9 Arg2:T51	
+R7	AWARDED_WITH Arg1:T9 Arg2:T50	
+R8	KNOWS Arg1:T9 Arg2:T16	
+R9	AWARDED_WITH Arg1:T18 Arg2:T52	
+R10	AWARDED_WITH Arg1:T19 Arg2:T52	
+R11	AWARDED_WITH Arg1:T20 Arg2:T52	
+R12	PLACE_RESIDES_IN Arg1:T26 Arg2:T27	
+R13	SCHOOLS_ATTENDED Arg1:T26 Arg2:T29	
+R14	SCHOOLS_ATTENDED Arg1:T26 Arg2:T31	
+R15	WORKPLACE Arg1:T26 Arg2:T33	
+R16	WORKPLACE Arg1:T26 Arg2:T35	
+R17	WORKS_AS Arg1:T26 Arg2:T37	
+T53	PROFESSION 1857 1911	президентом Массачусетского технологического института
+R18	WORKS_AS Arg1:T59 Arg2:T39	
+R19	WORKS_AS Arg1:T59 Arg2:T53	
+R20	WORKPLACE Arg1:T59 Arg2:T61	
+R21	HEADQUARTERED_IN Arg1:T62 Arg2:T44	
+R22	WORKPLACE Arg1:T59 Arg2:T62	
+T54	PROFESSION 2010 2056	президентом Американского физического общества
+R23	WORKS_AS Arg1:T59 Arg2:T54	
+R24	PARTICIPANT_IN Arg1:T23 Arg2:T67	
+T67	EVENT 1452 1474	открыл мазерный эффект
+R25	POINT_IN_TIME Arg1:T67 Arg2:T24	
+T65	EVENT 0 4	Умер
+R26	PARTICIPANT_IN Arg1:T47 Arg2:T65	
+R27	PLACE_OF_DEATH Arg1:T9 Arg2:T3	
+R28	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R29	AGENT Arg1:T16 Arg2:T8	
+R30	AGENT Arg1:T10 Arg2:T8	
+T66	AWARD 983 1001	Нобелевской премии
+T68	EVENT 1198 1254	обнаружил вынужденное рассеяние Мандельштама — Бриллюэна
+R31	PARTICIPANT_IN Arg1:T64 Arg2:T68	
+R32	HEADQUARTERED_IN Arg1:T35 Arg2:T56	
+R33	HEADQUARTERED_IN Arg1:T61 Arg2:T60	
+R34	HEADQUARTERED_IN Arg1:T62 Arg2:T43	
+R35	WORKPLACE Arg1:T37 Arg2:T35	
+R36	HEADQUARTERED_IN Arg1:T62 Arg2:T43	
+R37	WORKPLACE Arg1:T54 Arg2:T58	
+R38	HEADQUARTERED_IN Arg1:T58 Arg2:T57	
+R39	HEADQUARTERED_IN Arg1:T31 Arg2:T55	
+R40	ORIGINS_FROM Arg1:T51 Arg2:T7	
+R41	PART_OF Arg1:T42 Arg2:T62	
+T1	PERSON 983 994	Нобелевской
+R42	PRODUCES Arg1:T1 Arg2:T66	
+R43	POINT_IN_TIME Arg1:T8 Arg2:T15	
+N1	Reference T3 Wikidata:Q17042	Окленд
+N2	Reference T4 Wikidata:Q99	Калифорния
+N3	Reference T5 Wikidata:Q30	США
+N5	Reference T11 Wikidata:Q83552	Александр Михайлович Прохоров
+N6	Reference T16 Wikidata:Q190503	Артур Леонард Шавлов
+N7	Reference T19 Wikidata:Q83557	Николай Геннадиевич Басов
+N9	Reference T26 Wikidata:Q184566	Чарлз Хард Таунс
+N10	Reference T27 Wikidata:Q574192	Гринвилл
+N12	Reference T31 Wikidata:Q161562	Калифорнийский технологический институт
+N13	Reference T33 Wikidata:Q217365	Bell Labs
+N14	Reference T35 Wikidata:Q49088	Колумбийский университет
+N15	Reference T37 Wikidata:Q121594	профессор
+N16	Reference T40 Wikidata:Q30461	президент
+N18	Reference T44 Wikidata:Q484678	Беркли
+N19	Reference T49 Wikidata:Q364062	Леон Бриллюэн
+N20	Reference T51 Wikidata:Q169470	физик
+N21	Reference T52 Wikidata:Q38104	Нобелевская премия по физике
+N25	Reference T58 Wikidata:Q466113	Американское физическое общество
+N28	Reference T61 Wikidata:Q49108	Массачусетский технологический институт
+N29	Reference T62 Wikidata:Q184478	Калифорнийский университет
+N30	Reference T50 Wikidata:Q7191	Нобелевская премия
+N33	Reference T66 Wikidata:Q7191	Нобелевская премия
+N4	Reference T7 Wikidata:Q846570	
+N34	Reference T1 Wikidata:Q23810	Альфред Нобель
+N8	Reference T21 Wikidata:Q289727	
+N11	Reference T29 Wikidata:Q1475020	
+N22	Reference T55 Wikidata:Q99	Калифорния
+N26	Reference T59 Wikidata:Q184566	Чарлз Хард Таунс
+N27	Reference T60 Wikidata:Q771	Массачусетс
+N31	Reference T53 Wikidata:NULL	нет данных
+N24	Reference T57 Wikidata:Q30	США
+N32	Reference T54 Wikidata:NULL	нет данных
+N23	Reference T56 Wikidata:Q1112443	
+N17	Reference T42 Wikidata:Q101015153	
+N35	Reference T20 Wikidata:Q83552	Александр Михайлович Прохоров
+N36	Reference T12 Wikidata:Q83557	Николай Геннадиевич Басов
+N37	Reference T39 Wikidata:Q121594	профессор
+N38	Reference T46 Wikidata:Q30461	президент
+N39	Reference T43 Wikidata:Q99	Калифорния
+N40	Reference T10 Wikidata:Q184566	Чарлз Хард Таунс
+N41	Reference T18 Wikidata:Q184566	Чарлз Хард Таунс
+N42	Reference T63 Wikidata:Q184566	Чарлз Хард Таунс
+N43	Reference T9 Wikidata:Q184566	Чарлз Хард Таунс
+N44	Reference T23 Wikidata:Q184566	Чарлз Хард Таунс
+N45	Reference T47 Wikidata:Q184566	Чарлз Хард Таунс
+N46	Reference T64 Wikidata:Q184566	Чарлз Хард Таунс
+N47	Reference T48 Wikidata:Q184566	Чарлз Хард Таунс

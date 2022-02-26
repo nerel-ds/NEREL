@@ -1,0 +1,100 @@
+T1	PERSON 11 24	Ясира Арафата
+T2	PERSON 25 36	Ясир Арафат
+T3	DATE 89 99	во вторник
+T4	PERSON 129 142	Ясира Арафата
+T5	COUNTRY 206 219	палестинского
+T6	DATE 229 244	В нынешнем году
+T7	PERSON 311 318	Арафата
+T8	COUNTRY 337 348	швейцарской
+T9	PERSON 385 392	Арафата
+T10	PERSON 504 517	Ясира Арафата
+T11	PERSON 579 585	Арафат
+T12	AGE 607 613	75 лет
+T14	CITY 638 645	Парижем
+T15	CITY 681 688	Рамаллы
+T16	PERSON 705 712	Арафату
+T17	COUNTRY 736 747	израильская
+T18	DATE 754 768	более двух лет
+T19	CITY 787 794	Рамалле
+T20	PERSON 846 853	Арафата
+T22	PERSON 870 874	Суха
+T23	EVENT 0 10	Эксгумация
+T25	COUNTRY 47 69	Палестинской автономии
+T26	EVENT 109 119	эксгумацию
+T27	EVENT 199 205	смерти
+T28	PROFESSION 206 226	палестинского лидера
+T29	PROFESSION 220 226	лидера
+T30	COUNTRY 245 256	французская
+T31	ORGANIZATION 245 268	французская прокуратура
+T33	EVENT 304 310	смерти
+T34	EVENT 497 503	смерти
+T35	EVENT 586 595	скончался
+T13	DATE 646 657	в 2004 году
+T36	ORGANIZATION 736 753	израильская армия
+T37	ORGANIZATION 748 753	армия
+T39	PROFESSION 804 809	врачи
+T40	EVENT 839 845	смерти
+T21	PERSON 862 869	Арафата
+T41	EVENT 894 904	эксгумацию
+R1	TAKES_PLACE_IN Arg1:T26 Arg2:T25	
+R2	POINT_IN_TIME Arg1:T26 Arg2:T3	
+R3	WORKS_AS Arg1:T4 Arg2:T28	
+R4	WORKPLACE Arg1:T4 Arg2:T5	
+R5	PARTICIPANT_IN Arg1:T28 Arg2:T27	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T27	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T33	
+R8	HEADQUARTERED_IN Arg1:T31 Arg2:T30	
+R9	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R11	PARTICIPANT_IN Arg1:T10 Arg2:T34	
+R12	PARTICIPANT_IN Arg1:T11 Arg2:T35	
+R13	AGE_DIED_AT Arg1:T11 Arg2:T12	
+T24	DISEASE 719 724	плохо
+R14	MEDICAL_CONDITION Arg1:T16 Arg2:T24	
+R15	HEADQUARTERED_IN Arg1:T36 Arg2:T17	
+R16	PARTICIPANT_IN Arg1:T20 Arg2:T40	
+R17	SPOUSE Arg1:T21 Arg2:T22	
+R18	DATE_OF_DEATH Arg1:T11 Arg2:T13	
+T38	EVENT 394 404;412 425	обнаружили следы полония
+R19	POINT_IN_TIME Arg1:T38 Arg2:T6	
+R20	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R21	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R22	INANIMATE_INVOLVED Arg1:T1 Arg2:T23	
+R23	INANIMATE_INVOLVED Arg1:T4 Arg2:T26	
+T42	ORGANIZATION 40 69	Власти Палестинской автономии
+R24	HEADQUARTERED_IN Arg1:T42 Arg2:T25	
+T43	EVENT 276 289	расследование
+R25	AGENT Arg1:T31 Arg2:T43	
+R26	POINT_IN_TIME Arg1:T43 Arg2:T6	
+R27	HAS_CAUSE Arg1:T43 Arg2:T33	
+R28	INANIMATE_INVOLVED Arg1:T9 Arg2:T38	
+T32	EVENT 663 672	доставили
+R29	PARTICIPANT_IN Arg1:T11 Arg2:T32	
+R30	TAKES_PLACE_IN Arg1:T32 Arg2:T15	
+R31	TAKES_PLACE_IN Arg1:T32 Arg2:T14	
+N1	Reference T5 Wikidata:Q219060	Государство Палестина
+N2	Reference T8 Wikidata:Q39	Швейцария
+N3	Reference T14 Wikidata:Q90	Париж
+N4	Reference T15 Wikidata:Q158119	Рамалла
+N6	Reference T17 Wikidata:Q801	Израиль
+N15	Reference T39 Wikidata:Q39631	врач
+N8	Reference T25 Wikidata:Q42620	Палестинская национальная администрация
+N16	Reference T42 Wikidata:NULL	нет данных
+N9	Reference T28 Wikidata:NULL	нет данных
+N11	Reference T30 Wikidata:Q142	Франция
+N7	Reference T22 Wikidata:Q253667	
+N14	Reference T37 Wikidata:Q8473	армия
+N13	Reference T36 Wikidata:Q58967	Армия обороны Израиля
+N5	Reference T16 Wikidata:Q34211	
+N12	Reference T31 Wikidata:NULL	нет данных
+N10	Reference T29 Wikidata:Q1251441	лидер
+N17	Reference T19 Wikidata:Q158119	Рамалла
+N18	Reference T10 Wikidata:Q34211	
+N19	Reference T20 Wikidata:Q34211	
+N20	Reference T4 Wikidata:Q34211	
+N21	Reference T7 Wikidata:Q34211	
+N22	Reference T11 Wikidata:Q34211	
+N23	Reference T9 Wikidata:Q34211	
+N24	Reference T2 Wikidata:Q34211	
+N25	Reference T1 Wikidata:Q34211	
+N26	Reference T21 Wikidata:Q34211	

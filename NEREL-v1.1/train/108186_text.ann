@@ -1,0 +1,227 @@
+T1	PROFESSION 0 9	Президент
+T2	COUNTRY 10 18	Киргизии
+T3	ORGANIZATION 28 41	правительство
+T4	PERSON 54 71	Алмазбек Атамбаев
+T5	PROFESSION 72 81	Президент
+T6	COUNTRY 82 93	Кыргызстана
+T9	ORGANIZATION 205 246	Социал-демократической партии Кыргызстана
+T10	ORGANIZATION 248 252	СДПК
+T12	ORGANIZATION 286 300	Жогорку Кенеша
+T13	PROFESSION 358 368	президента
+T14	ORGANIZATION 475 489	Жогорку Кенеша
+T16	COUNTRY 490 511	Кыргызской Республики
+T17	ORGANIZATION 609 624	СДПК Кыргызстан
+T18	ORGANIZATION 625 642	партия Кыргызстан
+T20	ORGANIZATION 643 658	Онугуу Прогресс
+T21	ORGANIZATION 659 668	Ата Мекен
+T22	DATE 669 690	от 2 ноября 2015 года
+T23	LAW 711 774	статьей 65 частью 7 статьи 84 Конституции Кыргызской Республики
+T24	LAW 741 752	Конституции
+T26	COUNTRY 753 774	Кыргызской Республики
+T27	LAW 775 887	пунктом 1 части 1 абзацем вторым части 4 статьи 13 конституционного Закона Кыргызской Республики О Правительстве
+T29	COUNTRY 888 909	Кыргызской Республики
+T31	ORGANIZATION 954 967	правительство
+T34	ORGANIZATION 1063 1078	СДПК Кыргызстан
+T36	COUNTRY 1120 1141	Кыргызской Республики
+T37	DATE 1142 1163	от 2 ноября 2015 года
+T39	PROFESSION 1193 1209	премьер министра
+T40	PROFESSION 1210 1239	первого вице премьер министра
+T41	PROFESSION 1240 1252	вице премьер
+T42	PROFESSION 1253 1262	министров
+T43	PROFESSION 1263 1283	членов Правительства
+T44	ORGANIZATION 1270 1283	Правительства
+T47	COUNTRY 1332 1353	Кыргызской Республики
+T50	COUNTRY 1452 1473	Кыргызской Республики
+T51	ORGANIZATION 1557 1570	правительства
+T54	ORDINAL 1613 1614	3
+T55	ORGANIZATION 1659 1672	Правительство
+T56	PROFESSION 1686 1702	премьер-министра
+T57	PERSON 1703 1723	Сооронбая Жээнбекова
+T58	DATE 1742 1760	в апреле 2016 года
+T59	PERSON 1777 1791	Темира Сариева
+T60	LOCATION 1850 1860	Иссык-Куле
+T61	DATE 1898 1918	24 октября 2016 года
+T62	ORGANIZATION 1934 1972	Социал-демократической партии Киргизии
+R13	WORKPLACE Arg1:T57 Arg2:T55
+T63	PROFESSION 0 18	Президент Киргизии
+T64	COUNTRY 235 246	Кыргызстана
+T65	PROFESSION 72 93	Президент Кыргызстана
+T66	ORGANIZATION 205 234	Социал-демократической партии
+R2	ABBREVIATION Arg1:T9 Arg2:T10	
+T15	COUNTRY 614 624	Кыргызстан
+T25	ORGANIZATION 609 613	СДПК
+T19	LAW 741 774	Конституции Кыргызской Республики
+R4	HEADQUARTERED_IN Arg1:T9 Arg2:T64	
+T48	EVENT 44 52	отставку
+R5	WORKPLACE Arg1:T63 Arg2:T2	
+R6	AGENT Arg1:T63 Arg2:T48	
+R7	PARTICIPANT_IN Arg1:T3 Arg2:T48	
+T68	EVENT 254 270	вышла из состава
+R15	AGENT Arg1:T10 Arg2:T68	
+R16	PARTICIPANT_IN Arg1:T12 Arg2:T68	
+T69	EVENT 1863 1887	Распад правящей коалиции
+R17	POINT_IN_TIME Arg1:T69 Arg2:T61	
+T70	EVENT 1989 2020	выходе из правящего большинства
+R18	AGENT Arg1:T62 Arg2:T70	
+T71	COUNTRY 1964 1972	Киргизии
+T72	ORGANIZATION 1934 1963	Социал-демократической партии
+R19	HEADQUARTERED_IN Arg1:T62 Arg2:T71	
+R20	PARTICIPANT_IN Arg1:T62 Arg2:T69	
+R21	WORKS_AS Arg1:T57 Arg2:T56	
+R22	DATE_FOUNDED_IN Arg1:T55 Arg2:T58	
+T73	EVENT 1800 1823	коррупционного скандала
+R23	PARTICIPANT_IN Arg1:T59 Arg2:T73	
+T74	EVENT 1768 1776	отставки
+R24	PARTICIPANT_IN Arg1:T59 Arg2:T74	
+R8	HEADQUARTERED_IN Arg1:T14 Arg2:T16	
+R11	ALTERNATIVE_NAME Arg1:T17 Arg2:T25	
+T11	LAW 722 774	частью 7 статьи 84 Конституции Кыргызской Республики
+T75	LAW 555 579	коалиционного соглашения
+R25	DATE_OF_CREATION Arg1:T75 Arg2:T22	
+T28	COUNTRY 968 989	Кыргызской Республики
+T30	ORGANIZATION 954 989	правительство Кыргызской Республики
+T32	ORGANIZATION 874 909	Правительстве Кыргызской Республики
+T33	COUNTRY 850 871	Кыргызской Республики
+T76	LAW 826 909	конституционного Закона Кыргызской Республики О Правительстве Кыргызской Республики
+T77	LAW 1022 1046	коалиционным соглашением
+T78	COUNTRY 1068 1078	Кыргызстан
+T79	ORGANIZATION 1063 1067	СДПК
+T35	ORGANIZATION 1079 1094	Онугуу Прогресс
+T80	ORGANIZATION 1095 1104	Ата Мекен
+T81	ORGANIZATION 1105 1119	Жогорку Кенеша
+R26	HEADQUARTERED_IN Arg1:T81 Arg2:T36	
+R27	DATE_OF_CREATION Arg1:T77 Arg2:T37	
+T38	EVENT 129 137	отставке
+R1	WORKPLACE Arg1:T65 Arg2:T6	
+T7	PERSON 94 111	Алмазбек Атамбаев
+T8	ORGANIZATION 138 151	правительства
+R3	AGENT Arg1:T7 Arg2:T38	
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T38	
+R10	WORKPLACE Arg1:T7 Arg2:T6	
+R12	WORKS_AS Arg1:T7 Arg2:T65	
+T46	IDEOLOGY 180 196	пропрезидентская
+R14	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R28	ALTERNATIVE_NAME Arg1:T63 Arg2:T65	
+T49	ORGANIZATION 271 284	парламентской
+T67	ORGANIZATION 448 462	парламентского
+R29	ALTERNATIVE_NAME Arg1:T64 Arg2:T16	
+R30	ALTERNATIVE_NAME Arg1:T9 Arg2:T17	
+R31	HEADQUARTERED_IN Arg1:T17 Arg2:T15	
+T82	COUNTRY 632 642	Кыргызстан
+R32	HEADQUARTERED_IN Arg1:T18 Arg2:T82	
+T83	ORDINAL 719 721	65
+T84	ORDINAL 729 730	7
+T85	ORDINAL 738 740	84
+R33	ORIGINS_FROM Arg1:T19 Arg2:T26	
+R34	PART_OF Arg1:T23 Arg2:T11	
+T86	LAW 731 774	статьи 84 Конституции Кыргызской Республики
+R35	PART_OF Arg1:T11 Arg2:T86	
+R36	PART_OF Arg1:T86 Arg2:T19	
+R37	HEADQUARTERED_IN Arg1:T32 Arg2:T29	
+T87	ORDINAL 783 784	1
+T88	ORDINAL 791 792	1
+T89	ORDINAL 801 807	вторым
+T90	ORDINAL 814 815	4
+T91	ORDINAL 823 825	13
+R38	PART_OF Arg1:T27 Arg2:T76	
+R39	HEADQUARTERED_IN Arg1:T30 Arg2:T28	
+R40	HEADQUARTERED_IN Arg1:T34 Arg2:T78	
+R41	MEMBER_OF Arg1:T43 Arg2:T44	
+T45	PROFESSION 1292 1353	руководителей административных ведомств Кыргызской Республики
+R42	WORKPLACE Arg1:T45 Arg2:T47	
+T92	PROFESSION 1412 1473	руководителей административных ведомств Кыргызской Республики
+R43	WORKPLACE Arg1:T92 Arg2:T50	
+T52	PROFESSION 1573 1612	руководителей административных ведомств
+T53	ORDINAL 925 926	1
+T93	ORDINAL 1164 1165	2
+T94	IDEOLOGY 2043 2059	социал-демократы
+T95	LAW 2121 2136	конституционной
+R44	PART_OF Arg1:T12 Arg2:T49	
+R45	PART_OF Arg1:T14 Arg2:T67	
+T96	EVENT 945 953	отставку
+R46	PARTICIPANT_IN Arg1:T30 Arg2:T96	
+T97	PROFESSION 1389 1409	членов правительства
+T98	ORGANIZATION 1396 1409	правительства
+R47	MEMBER_OF Arg1:T97 Arg2:T98	
+T99	EVENT 1729 1741	сформировано
+R48	PARTICIPANT_IN Arg1:T55 Arg2:T99	
+R49	POINT_IN_TIME Arg1:T99 Arg2:T58	
+R50	ALTERNATIVE_NAME Arg1:T34 Arg2:T62	
+R51	ALTERNATIVE_NAME Arg1:T78 Arg2:T28	
+R52	ALTERNATIVE_NAME Arg1:T50 Arg2:T71	
+R53	HEADQUARTERED_IN Arg1:T8 Arg2:T6	
+R54	HAS_CAUSE Arg1:T99 Arg2:T74	
+R55	HAS_CAUSE Arg1:T74 Arg2:T73	
+N1	Reference T6 Wikidata:Q813	Киргизия
+N2	Reference T10 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N3	Reference T13 Wikidata:Q30461	президент
+N4	Reference T18 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N5	Reference T21 Wikidata:Q753013	Ата-Мекен
+N7	Reference T24 Wikidata:Q7755	конституция
+N8	Reference T26 Wikidata:Q813	Киргизия
+N10	Reference T39 Wikidata:Q14212	премьер-министр
+N11	Reference T41 Wikidata:Q877955	вице-премьер
+N12	Reference T42 Wikidata:Q83307	министр
+N13	Reference T51 Wikidata:Q7188	правительство
+N14	Reference T56 Wikidata:Q14212	премьер-министр
+N15	Reference T57 Wikidata:Q23810819	Сооронбай Шарипович Жээнбеков
+N16	Reference T59 Wikidata:Q3736573	Темир Аргембаевич Сариев
+N17	Reference T60 Wikidata:Q42191	Иссык-Куль
+N19	Reference T64 Wikidata:Q813	Киргизия
+N26	Reference T81 Wikidata:Q578193	Жогорку Кенеш
+N27	Reference T7 Wikidata:Q24692	Алмазбек Шаршенович Атамбаев
+N29	Reference T82 Wikidata:Q813	Киргизия
+N35	Reference T65 Wikidata:Q853036	
+N28	Reference T49 Wikidata:Q35749	парламент
+N6	Reference T23 Wikidata:NULL	нет данных
+N22	Reference T11 Wikidata:NULL	нет данных
+N30	Reference T86 Wikidata:NULL	нет данных
+N20	Reference T19 Wikidata:Q2011916	
+N9	Reference T27 Wikidata:NULL	нет данных
+N24	Reference T76 Wikidata:NULL	нет данных
+N23	Reference T30 Wikidata:Q24031608	
+N36	Reference T77 Wikidata:NULL	нет данных
+N25	Reference T35 Wikidata:Q22080490	
+N37	Reference T40 Wikidata:NULL	нет данных
+N31	Reference T45 Wikidata:NULL	нет данных
+N34	Reference T97 Wikidata:NULL	нет данных
+N32	Reference T52 Wikidata:NULL	нет данных
+N21	Reference T72 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N18	Reference T62 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N33	Reference T95 Wikidata:Q7755	конституция
+N38	Reference T2 Wikidata:Q813	Киргизия
+N39	Reference T17 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N40	Reference T25 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N41	Reference T9 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N42	Reference T79 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N43	Reference T5 Wikidata:Q30461	президент
+N44	Reference T1 Wikidata:Q30461	президент
+N45	Reference T80 Wikidata:Q753013	Ата-Мекен
+N46	Reference T33 Wikidata:Q813	Киргизия
+N47	Reference T47 Wikidata:Q813	Киргизия
+N48	Reference T29 Wikidata:Q813	Киргизия
+N49	Reference T50 Wikidata:Q813	Киргизия
+N50	Reference T36 Wikidata:Q813	Киргизия
+N51	Reference T71 Wikidata:Q813	Киргизия
+N52	Reference T55 Wikidata:Q7188	правительство
+N53	Reference T44 Wikidata:Q7188	правительство
+N54	Reference T8 Wikidata:Q7188	правительство
+N55	Reference T31 Wikidata:Q7188	правительство
+N56	Reference T3 Wikidata:Q7188	правительство
+N57	Reference T98 Wikidata:Q7188	правительство
+N58	Reference T16 Wikidata:Q813	Киргизия
+N59	Reference T14 Wikidata:Q578193	Жогорку Кенеш
+N60	Reference T12 Wikidata:Q578193	Жогорку Кенеш
+N61	Reference T4 Wikidata:Q24692	Алмазбек Шаршенович Атамбаев
+N62	Reference T28 Wikidata:Q813	Киргизия
+N63	Reference T15 Wikidata:Q813	Киргизия
+N64	Reference T78 Wikidata:Q813	Киргизия
+N65	Reference T63 Wikidata:Q853036	
+N66	Reference T67 Wikidata:Q35749	парламент
+N67	Reference T32 Wikidata:Q24031608	
+N68	Reference T75 Wikidata:NULL	нет данных
+N69	Reference T20 Wikidata:Q22080490	
+N70	Reference T92 Wikidata:NULL	нет данных
+N71	Reference T43 Wikidata:NULL	нет данных
+N72	Reference T66 Wikidata:Q24511	Социал-демократическая партия Кыргызстана
+N73	Reference T34 Wikidata:Q24511	Социал-демократическая партия Кыргызстана

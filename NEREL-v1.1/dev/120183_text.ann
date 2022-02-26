@@ -1,0 +1,140 @@
+T1	WORK_OF_ART 1 6	Метро
+T2	PERSON 8 19	Юрия Царёва
+T3	FACILITY 22 35	Доме Культуры
+T4	PERSON 36 46	Юрий Царёв
+T5	PERSON 49 64	Алексей Борисов
+T6	DATE 86 118	В воскресенье, 11 июня 2017 года
+T7	FACILITY 122 135	Доме Культуры
+T8	CITY 138 144	Москве
+T9	PERSON 177 187	Юрий Царёв
+T10	ORGANIZATION 197 202	Метро
+T11	PERSON 206 221	Алексей Борисов
+T12	PERSON 224 237	Павел Шевелёв
+T20	NUMBER 333 336	два
+T24	PERSON 463 473	Юрий Царёв
+T25	DATE 482 493	в 1958 году
+T26	CITY 496 502	Москве
+T27	DATE 505 516	В 1975 году
+T29	DATE 540 546	В 1976
+T30	ORGANIZATION 561 565	ВГИК
+T31	DATE 567 583	В 1979–1980 годы
+T32	DATE 611 622	В 1981 году
+T33	ORGANIZATION 637 680	Строгановское высшее художественное училище
+T34	DATE 698 709	в 1985 году
+T35	PERSON 817 829	Юрий Антонов
+T36	ORGANIZATION 832 846	Весёлые ребята
+T37	ORGANIZATION 850 855	Цветы
+T38	ORGANIZATION 882 887	Центр
+T39	ORGANIZATION 935 940	Метро
+T40	LOCATION 966 972	Европу
+T41	LOCATION 974 981	Америку
+T42	COUNTRY 983 989	Японию
+T43	DATE 992 1003	В 2001 году
+T44	PERSON 1004 1014	Юрий Царёв
+T45	PROFESSION 1027 1038	музыкантами
+T46	ORGANIZATION 1046 1048	СВ
+T47	PERSON 1051 1069	Вадимом Голутвиным
+T48	PERSON 1071 1090	Евгением Казанцевым
+T49	PERSON 1092 1114	Александром Чиненковым
+T50	PERSON 1117 1131	Юрием Китаевым
+T51	WORK_OF_ART 1150 1163	Честь и Слава
+T52	ORGANIZATION 1187 1192	Метро
+T53	DATE 1223 1231	В 1980-е
+T54	CITY 1269 1285	Санкт-Петербурга
+T55	ORGANIZATION 1351 1356	Метро
+R5	WORKS_AS Arg1:T48 Arg2:T45
+R6	WORKS_AS Arg1:T50 Arg2:T45
+R7	WORKPLACE Arg1:T50 Arg2:T46
+T13	PROFESSION 240 249	Музыканты
+T14	PROFESSION 167 176	музыканты
+R1	WORKS_AS Arg1:T9 Arg2:T14	
+R9	WORKS_AS Arg1:T11 Arg2:T14	
+R10	WORKS_AS Arg1:T12 Arg2:T14	
+T15	PROFESSION 378 385	артисты
+T16	PROFESSION 789 800	музыкантами
+R2	WORKS_AS Arg1:T47 Arg2:T45	
+R3	WORKPLACE Arg1:T47 Arg2:T46	
+R4	WORKPLACE Arg1:T48 Arg2:T46	
+R11	WORKS_AS Arg1:T49 Arg2:T45	
+R12	WORKPLACE Arg1:T49 Arg2:T46	
+T19	EVENT 74 85	выступления
+T21	EVENT 364 377	выступлениями
+T17	EVENT 145 154	выступили
+R8	AGENT Arg1:T5 Arg2:T19	
+R13	AGENT Arg1:T4 Arg2:T19	
+R14	POINT_IN_TIME Arg1:T17 Arg2:T6	
+R15	TAKES_PLACE_IN Arg1:T17 Arg2:T8	
+R16	AGENT Arg1:T9 Arg2:T17	
+R17	AGENT Arg1:T11 Arg2:T17	
+R18	AGENT Arg1:T12 Arg2:T17	
+R19	DATE_OF_BIRTH Arg1:T24 Arg2:T25	
+R20	PLACE_OF_BIRTH Arg1:T24 Arg2:T26	
+R21	SCHOOLS_ATTENDED Arg1:T24 Arg2:T30	
+R22	SCHOOLS_ATTENDED Arg1:T24 Arg2:T33	
+R23	WORKPLACE Arg1:T9 Arg2:T10	
+R24	KNOWS Arg1:T44 Arg2:T47	
+R25	KNOWS Arg1:T44 Arg2:T48	
+R26	KNOWS Arg1:T44 Arg2:T49	
+R27	KNOWS Arg1:T44 Arg2:T50	
+R28	PRODUCES Arg1:T44 Arg2:T51	
+R29	PRODUCES Arg1:T47 Arg2:T51	
+R30	PRODUCES Arg1:T48 Arg2:T51	
+R31	PRODUCES Arg1:T49 Arg2:T51	
+R32	PRODUCES Arg1:T50 Arg2:T51	
+R33	KNOWS Arg1:T4 Arg2:T5	
+R34	PRODUCES Arg1:T2 Arg2:T1	
+R35	LOCATED_IN Arg1:T1 Arg2:T3	
+R36	ALTERNATIVE_NAME Arg1:T19 Arg2:T17	
+R37	PARTICIPANT_IN Arg1:T15 Arg2:T21	
+R38	WORKS_AS Arg1:T9 Arg2:T15	
+R39	WORKS_AS Arg1:T11 Arg2:T15	
+R40	WORKS_AS Arg1:T12 Arg2:T15	
+R41	LOCATED_IN Arg1:T7 Arg2:T8	
+R42	ALTERNATIVE_NAME Arg1:T17 Arg2:T21	
+T18	PERSON 637 650	Строгановское
+R43	WORKS_AS Arg1:T35 Arg2:T16	
+R44	KNOWS Arg1:T24 Arg2:T35	
+R45	POINT_IN_TIME Arg1:T51 Arg2:T43	
+N1	Reference T1 Wikidata:Q5503	метрополитен
+N2	Reference T5 Wikidata:Q4093816	Алексей Юрьевич Борисов
+N5	Reference T26 Wikidata:Q649	Москва
+N6	Reference T30 Wikidata:Q1130457	Всероссийский государственный институт кинематографии имени С. А. Герасимова
+N8	Reference T35 Wikidata:Q2356011	Юрий Михайлович Антонов
+N9	Reference T36 Wikidata:Q3701523	Весёлые ребята
+N10	Reference T37 Wikidata:Q32273	группа Стаса Намина «Цветы»
+N14	Reference T42 Wikidata:Q17	Япония
+N15	Reference T46 Wikidata:Q830565	спальный вагон
+N16	Reference T47 Wikidata:Q4142656	Вадим Юрьевич Голутвин
+N17	Reference T48 Wikidata:Q4207886	Евгений Фёдорович Казанцев
+N20	Reference T54 Wikidata:Q656	Санкт-Петербург
+N21	Reference T13 Wikidata:Q639669	музыкант
+N22	Reference T15 Wikidata:Q483501	деятель искусств
+N3	Reference T7 Wikidata:Q1329623	культурный центр
+N24	Reference T9 Wikidata:Q30238459	
+N4	Reference T12 Wikidata:NULL	нет данных
+N7	Reference T33 Wikidata:Q2360835	Строгановское училище
+N23	Reference T18 Wikidata:Q3479728	
+N11	Reference T38 Wikidata:Q4503948	Центр
+N12	Reference T39 Wikidata:NULL	нет данных
+N13	Reference T40 Wikidata:Q46	Европа
+N25	Reference T41 Wikidata:Q828	
+N18	Reference T49 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:Q61614937	
+N27	Reference T11 Wikidata:Q4093816	Алексей Юрьевич Борисов
+N28	Reference T8 Wikidata:Q649	Москва
+N29	Reference T16 Wikidata:Q639669	музыкант
+N30	Reference T14 Wikidata:Q639669	музыкант
+N31	Reference T45 Wikidata:Q639669	музыкант
+N32	Reference T3 Wikidata:Q1329623	культурный центр
+N33	Reference T4 Wikidata:Q30238459	
+N34	Reference T2 Wikidata:Q30238459	
+N35	Reference T24 Wikidata:Q30238459	
+N36	Reference T44 Wikidata:Q30238459	
+N37	Reference T10 Wikidata:NULL	нет данных
+N38	Reference T52 Wikidata:NULL	нет данных
+N39	Reference T55 Wikidata:NULL	нет данных
+T22	EVENT 474 481	родился
+R46	PARTICIPANT_IN Arg1:T24 Arg2:T22	
+R47	POINT_IN_TIME Arg1:T22 Arg2:T25	
+R48	TAKES_PLACE_IN Arg1:T22 Arg2:T26	

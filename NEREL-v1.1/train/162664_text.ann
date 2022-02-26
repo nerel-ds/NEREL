@@ -1,0 +1,67 @@
+T1	NATIONALITY 0 12	Американский
+T2	PERSON 28 38	Кейт Спейд
+T3	AGE 95 105	55-летнего
+T4	PROFESSION 106 115	дизайнера
+T5	PERSON 116 126	Кейт Спейд
+T7	CITY 157 166	Нью-Йорке
+T8	PROFESSION 188 200	домработница
+T9	PERSON 217 221	Кейт
+T10	PERSON 254 264	Кейт Спейд
+T11	PROFESSION 270 280	дизайнером
+T12	DATE 316 327	В 1993 году
+T13	PERSON 355 367	Энди Спейдом
+T14	ORGANIZATION 399 418	Kate Spade Handbags
+T15	DATE 421 432	В 1996 году
+T16	ORDINAL 444 450	первый
+T17	CITY 461 470	Нью-Йорке
+T18	NUMBER 498 507	более 300
+T19	DATE 534 545	В 2007 году
+T20	ORGANIZATION 593 598	Coach
+T21	MONEY 627 644	2,4 млрд долларов
+T22	PROFESSION 13 21	дизайнер
+T6	PERSON 546 556	Кейт Спейд
+T23	EVENT 39 54	найдена мертвой
+R1	WORKS_AS Arg1:T2 Arg2:T22	
+R2	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R3	WORKS_AS Arg1:T5 Arg2:T4	
+R4	AGE_IS Arg1:T5 Arg2:T3	
+T24	EVENT 127 140	нашли мёртвой
+R5	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R6	TAKES_PLACE_IN Arg1:T24 Arg2:T7	
+T25	EVENT 169 184	Тело обнаружила
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R8	SUBORDINATE_OF Arg1:T8 Arg2:T5	
+R9	AGENT Arg1:T8 Arg2:T25	
+T26	PROFESSION 270 287	дизайнером одежды
+R10	WORKS_AS Arg1:T10 Arg2:T26	
+R11	SPOUSE Arg1:T10 Arg2:T13	
+R12	FOUNDED_BY Arg1:T14 Arg2:T13	
+R13	FOUNDED_BY Arg1:T14 Arg2:T10	
+R14	HEADQUARTERED_IN Arg1:T14 Arg2:T17	
+R15	EXPENDITURE Arg1:T20 Arg2:T21	
+T27	EVENT 557 570	продала марку
+R16	PARTICIPANT_IN Arg1:T14 Arg2:T27	
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T27	
+R18	PARTICIPANT_IN Arg1:T20 Arg2:T27	
+R19	POINT_IN_TIME Arg1:T27 Arg2:T19	
+R20	INCOME Arg1:T6 Arg2:T21	
+R21	INANIMATE_INVOLVED Arg1:T2 Arg2:T23	
+R22	INANIMATE_INVOLVED Arg1:T5 Arg2:T24	
+R23	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+R24	DATE_FOUNDED_IN Arg1:T14 Arg2:T12	
+N2	Reference T8 Wikidata:Q2596569	домработница
+N3	Reference T10 Wikidata:Q275094	Спейд, Кейт
+N6	Reference T17 Wikidata:Q60	Нью-Йорк
+N7	Reference T20 Wikidata:Q727697	Coach
+N8	Reference T22 Wikidata:Q5322166	дизайнер
+N9	Reference T26 Wikidata:Q3501317	модельер
+N1	Reference T1 Wikidata:Q846570	
+N4	Reference T13 Wikidata:Q4761335	
+N5	Reference T14 Wikidata:NULL	нет данных
+N10	Reference T5 Wikidata:Q275094	Спейд, Кейт
+N11	Reference T9 Wikidata:Q275094	Спейд, Кейт
+N12	Reference T2 Wikidata:Q275094	Спейд, Кейт
+N13	Reference T6 Wikidata:Q275094	Спейд, Кейт
+N14	Reference T7 Wikidata:Q60	Нью-Йорк
+N15	Reference T4 Wikidata:Q5322166	дизайнер
+N16	Reference T11 Wikidata:Q5322166	дизайнер

@@ -1,0 +1,210 @@
+T1	PERSON 0 5	Чавес
+T2	EVENT 45 56	инаугурации
+T3	ORGANIZATION 58 71	Голос Америки
+T4	COUNTRY 133 142	Венесуэлы
+T5	PERSON 152 162	Уго Чавеса
+T6	COUNTRY 205 214	Венесуэлы
+T7	PROFESSION 240 249	президент
+T8	PERSON 257 266	Уго Чавес
+T9	EVENT 337 348	инаугурацию
+T10	ORDINAL 352 358	третий
+T11	COUNTRY 393 397	Кубе
+T12	ORGANIZATION 451 472	Национальное собрание
+T13	PROFESSION 501 516	вице-президента
+T14	PERSON 524 539	Николаса Мадуро
+T15	PERSON 564 574	Уго Чавеса
+T16	PROFESSION 577 583	Спикер
+T17	PERSON 607 623	Диосдадо Кабельо
+T18	PERSON 697 703	Чавесу
+T19	PERSON 743 749	Кабейо
+T20	PROFESSION 751 760	президент
+T21	ORGANIZATION 784 799	Верховным судом
+T22	ORGANIZATION 909 932	Национальной Ассамблеей
+T23	ORGANIZATION 961 976	Верховным судом
+T24	PROFESSION 1043 1055	законодатель
+T25	PERSON 1056 1066	Хосе Авила
+T26	ORGANIZATION 1124 1137	Верховный суд
+T27	ORGANIZATION 1172 1185	Правительство
+T28	PERSON 1207 1213	Чавеса
+T29	DATE 1220 1229	в четверг
+T30	PROFESSION 1304 1333	лидер венесуэльской оппозиции
+T31	PERSON 1334 1349	Энрике Каприлес
+T33	NATIONALITY 1678 1691	венесуэльцами
+T34	PERSON 1764 1772	Каприлес
+T35	DATE 1951 1960	10 января
+T36	PERSON 2016 2024	Каприлес
+T37	ORGANIZATION 2033 2046	Верховный суд
+T38	PROFESSION 2104 2115	президентов
+T39	PERSON 2187 2193	Чавеса
+T41	AGE 2224 2233	58-летний
+T42	PERSON 2234 2239	Чавес
+T44	PERSON 2269 2279	Каприлесом
+T46	PROFESSION 2355 2365	президента
+T47	DATE 2411 2421	11 декабря
+T48	CITY 2424 2430	Гаване
+T49	COUNTRY 2536 2549	Венесуэльский
+T51	PERSON 2598 2604	Чавеса
+T52	DATE 72 82	2013-01-10
+T53	PERSON 92 98	Чавеса
+T55	PROFESSION 240 256	президент страны
+T56	DISEASE 305 320	раковой опухоли
+T57	ORGANIZATION 451 482	Национальное собрание Венесуэлы
+T58	COUNTRY 473 482	Венесуэлы
+T59	PROFESSION 501 523	вице-президента страны
+T62	EVENT 552 563	инаугурации
+T63	PROFESSION 577 606	Спикер Национальной Ассамблеи
+T64	ORGANIZATION 584 606	Национальной Ассамблеи
+T65	PROFESSION 640 653	законодателям
+T66	PROFESSION 677 682	врачи
+T67	EVENT 761 777	принесет присягу
+T68	LAW 820 831	конституции
+T69	EVENT 838 849	инаугурация
+T70	PERSON 1036 1042	Чавеса
+T71	PROFESSION 1284 1294	президенту
+T72	IDEOLOGY 1324 1333	оппозиции
+T73	COUNTRY 1310 1323	венесуэльской
+T74	ORGANIZATION 1365 1378	правительство
+T75	LAW 1394 1405	конституции
+T76	PROFESSION 1436 1445	президент
+T78	LAW 1620 1631	конституции
+T79	PROFESSION 1660 1665	судей
+T80	IDEOLOGY 1911 1920	оппозиция
+T81	ORGANIZATION 1975 1988	правительство
+T82	LOCATION 2123 2141	латиноамериканских
+T45	DATE 2329 2340	шестилетний
+T84	NUMBER 2324 2328	один
+T85	EVENT 2445 2453	операция
+T86	DISEASE 2466 2481	раковой опухоли
+T87	DISEASE 2517 2521	рака
+T88	PROFESSION 2550 2568	министр информации
+T89	PROFESSION 2536 2568	Венесуэльский министр информации
+T91	PROFESSION 2550 2557	министр
+T92	DISEASE 2605 2622	легочная инфекция
+T93	EVENT 284 292	операцию
+T54	DISEASE 84 91	Болезнь
+R1	MEDICAL_CONDITION Arg1:T53 Arg2:T54	
+R2	ALTERNATIVE_NAME Arg1:T53 Arg2:T5	
+T94	ORGANIZATION 198 214	власти Венесуэлы
+R3	HEADQUARTERED_IN Arg1:T94 Arg2:T6	
+R4	WORKS_AS Arg1:T8 Arg2:T55	
+R5	MEDICAL_CONDITION Arg1:T8 Arg2:T56	
+R6	HAS_CAUSE Arg1:T93 Arg2:T56	
+R7	PARTICIPANT_IN Arg1:T8 Arg2:T93	
+T95	PROFESSION 359 372	президентский
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T95	
+R9	HEADQUARTERED_IN Arg1:T57 Arg2:T58	
+R10	WORKS_AS Arg1:T14 Arg2:T59	
+R11	PARTICIPANT_IN Arg1:T15 Arg2:T62	
+R12	PARTICIPANT_IN Arg1:T8 Arg2:T9	
+R13	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R14	WORKPLACE Arg1:T63 Arg2:T64	
+R15	WORKPLACE Arg1:T17 Arg2:T64	
+R16	WORKS_AS Arg1:T17 Arg2:T63	
+R17	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+R18	AGENT Arg1:T20 Arg2:T67	
+R19	PARTICIPANT_IN Arg1:T21 Arg2:T67	
+T60	PROFESSION 850 860	президента
+R20	PARTICIPANT_IN Arg1:T60 Arg2:T69	
+R21	WORKS_AS Arg1:T25 Arg2:T24	
+R22	WORKS_AS Arg1:T28 Arg2:T71	
+R23	ALTERNATIVE_NAME Arg1:T58 Arg2:T73	
+R24	IDEOLOGY_OF Arg1:T30 Arg2:T72	
+R25	IDEOLOGY_OF Arg1:T31 Arg2:T72	
+R26	WORKS_AS Arg1:T31 Arg2:T30	
+T32	DATE 1535 1554	в ближайшие 30 дней
+R27	ORIGINS_FROM Arg1:T33 Arg2:T73	
+R28	ALTERNATIVE_NAME Arg1:T31 Arg2:T34	
+T61	EVENT 2171 2186	акции поддержки
+R29	PARTICIPANT_IN Arg1:T38 Arg2:T61	
+R30	PARTICIPANT_IN Arg1:T39 Arg2:T61	
+T40	DATE 2211 2221	на четверг
+R31	AGE_IS Arg1:T42 Arg2:T41	
+T43	DATE 2248 2257	в октябре
+T83	EVENT 2258 2264	победу
+R32	PARTICIPANT_IN Arg1:T42 Arg2:T83	
+R33	POINT_IN_TIME Arg1:T83 Arg2:T43	
+R34	PARTICIPANT_IN Arg1:T44 Arg2:T83	
+R35	POINT_IN_TIME Arg1:T85 Arg2:T47	
+R36	TAKES_PLACE_IN Arg1:T85 Arg2:T48	
+R37	HAS_CAUSE Arg1:T85 Arg2:T86	
+R38	PARTICIPANT_IN Arg1:T42 Arg2:T85	
+R39	MEDICAL_CONDITION Arg1:T42 Arg2:T86	
+R40	LOCATED_IN Arg1:T48 Arg2:T11	
+R41	ALTERNATIVE_NAME Arg1:T86 Arg2:T87	
+R42	WORKPLACE Arg1:T89 Arg2:T49	
+T50	DATE 2577 2590	в понедельник
+R43	MEDICAL_CONDITION Arg1:T51 Arg2:T92	
+T90	COUNTRY 64 71	Америки
+R44	HEADQUARTERED_IN Arg1:T3 Arg2:T90	
+R45	WORKPLACE Arg1:T53 Arg2:T4	
+R46	LOCATED_IN Arg1:T8 Arg2:T11	
+R47	WORKPLACE Arg1:T14 Arg2:T58	
+R48	ALTERNATIVE_NAME Arg1:T15 Arg2:T18	
+R49	WORKS_AS Arg1:T18 Arg2:T20	
+R50	AGENT Arg1:T18 Arg2:T67	
+N2	Reference T3 Wikidata:Q228389	Голос Америки
+N3	Reference T11 Wikidata:Q241	Куба
+N6	Reference T14 Wikidata:Q58132	Николас Мадуро
+N12	Reference T33 Wikidata:Q2996826	венесуэльцы
+N13	Reference T37 Wikidata:Q190752	верховный суд
+N14	Reference T48 Wikidata:Q1563	Гавана
+N20	Reference T65 Wikidata:Q486839	член парламента
+N21	Reference T66 Wikidata:Q39631	врач
+N22	Reference T68 Wikidata:Q7755	конституция
+N24	Reference T76 Wikidata:Q30461	президент
+N25	Reference T79 Wikidata:Q16533	судья
+N26	Reference T81 Wikidata:Q7188	правительство
+N29	Reference T91 Wikidata:Q83307	министр
+N1	Reference T1 Wikidata:Q8440	Уго Чавес
+N15	Reference T53 Wikidata:Q8440	Уго Чавес
+N31	Reference T90 Wikidata:Q30	США
+N30	Reference T94 Wikidata:NULL	нет данных
+N16	Reference T55 Wikidata:Q11942698	
+N17	Reference T57 Wikidata:Q1585014	Национальная ассамблея Венесуэлы
+N4	Reference T12 Wikidata:Q1585014	Национальная ассамблея Венесуэлы
+N5	Reference T13 Wikidata:Q42178	вице-президент
+N18	Reference T59 Wikidata:Q3556895	
+N8	Reference T19 Wikidata:Q1227076	
+N32	Reference T88 Wikidata:Q13424386	
+N28	Reference T89 Wikidata:NULL	нет данных
+N33	Reference T44 Wikidata:Q8781	Энрике Каприлес Радонски
+N34	Reference T36 Wikidata:Q8781	Энрике Каприлес Радонски
+N27	Reference T82 Wikidata:Q12585	Латинская Америка
+N23	Reference T73 Wikidata:Q717	Венесуэла
+N11	Reference T30 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:Q1585014	Национальная ассамблея Венесуэлы
+N10	Reference T25 Wikidata:NULL	нет данных
+N19	Reference T63 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q1758037	спикер
+N35	Reference T23 Wikidata:Q190752	верховный суд
+N36	Reference T21 Wikidata:Q190752	верховный суд
+N37	Reference T26 Wikidata:Q190752	верховный суд
+N38	Reference T24 Wikidata:Q486839	член парламента
+N39	Reference T75 Wikidata:Q7755	конституция
+N40	Reference T78 Wikidata:Q7755	конституция
+N41	Reference T20 Wikidata:Q30461	президент
+N42	Reference T38 Wikidata:Q30461	президент
+N43	Reference T46 Wikidata:Q30461	президент
+N44	Reference T95 Wikidata:Q30461	президент
+N45	Reference T7 Wikidata:Q30461	президент
+N46	Reference T60 Wikidata:Q30461	президент
+N47	Reference T71 Wikidata:Q30461	президент
+N48	Reference T74 Wikidata:Q7188	правительство
+N49	Reference T27 Wikidata:Q7188	правительство
+N50	Reference T51 Wikidata:Q8440	Уго Чавес
+N51	Reference T8 Wikidata:Q8440	Уго Чавес
+N52	Reference T15 Wikidata:Q8440	Уго Чавес
+N53	Reference T28 Wikidata:Q8440	Уго Чавес
+N54	Reference T70 Wikidata:Q8440	Уго Чавес
+N55	Reference T42 Wikidata:Q8440	Уго Чавес
+N56	Reference T39 Wikidata:Q8440	Уго Чавес
+N57	Reference T18 Wikidata:Q8440	Уго Чавес
+N58	Reference T5 Wikidata:Q8440	Уго Чавес
+N59	Reference T17 Wikidata:Q1227076	
+N60	Reference T34 Wikidata:Q8781	Энрике Каприлес Радонски
+N61	Reference T31 Wikidata:Q8781	Энрике Каприлес Радонски
+N62	Reference T49 Wikidata:Q717	Венесуэла
+N63	Reference T4 Wikidata:Q717	Венесуэла
+N64	Reference T58 Wikidata:Q717	Венесуэла
+N65	Reference T6 Wikidata:Q717	Венесуэла
+N66	Reference T64 Wikidata:Q1585014	Национальная ассамблея Венесуэлы

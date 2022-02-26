@@ -1,0 +1,115 @@
+T1	ORGANIZATION 125 151	Австралийского синхротрона
+T2	NUMBER 211 215	двух
+T3	STATE_OR_PROVINCE 230 238	Нью-Йорк
+T4	COUNTRY 383 390	Израиля
+T5	PROFESSION 406 411	судья
+T6	AGE 449 458	49-летний
+T7	PERSON 459 481	Глендон Скотт Кроуфорд
+T8	AGE 484 493	54-летний
+T9	PERSON 494 503	Эрик Фейт
+T10	EVENT 594 618	предварительных слушаний
+T12	ORGANIZATION 908 924	федеральном суде
+T13	CITY 927 933	Олбани
+T14	DATE 955 969	на этой неделе
+T15	PERSON 982 987	Фейту
+T16	PROFESSION 1264 1304	специалисты по радиационной безопасности
+T17	ORGANIZATION 1308 1330	Университета Рочестера
+T18	ORGANIZATION 1333 1357	Университета Нью-Мексико
+T19	PROFESSION 1839 1878	специалист по радиационной безопасности
+T20	PERSON 1929 1941	Фредерик Мис
+T21	RELIGION 62 71	мусульман
+T22	PROFESSION 152 179	Федеральный судья-магистрат
+T23	PROFESSION 164 179	судья-магистрат
+T26	CRIME 253 288	попытке создания радиационной пушки
+T27	RELIGION 357 366	мусульман
+T28	PERSON 412 427	Кристиан Хаммел
+T29	PROFESSION 681 689	адвокаты
+T30	PERSON 970 979	Кроуфорду
+T31	CRIME 1017 1054	заговоре с целью поддержки терроризма
+T32	CRIME 1044 1054	терроризма
+T33	ORGANIZATION 1057 1064	Полиция
+T34	ORGANIZATION 1879 1921	Медицинского центра Университета Рочестера
+T35	ORGANIZATION 1899 1921	Университета Рочестера
+T36	PROFESSION 1922 1928	доктор
+T37	PROFESSION 1839 1921	специалист по радиационной безопасности Медицинского центра Университета Рочестера
+R1	WORKS_AS Arg1:T28 Arg2:T5	
+R2	AGE_IS Arg1:T7 Arg2:T6	
+R3	AGE_IS Arg1:T9 Arg2:T8	
+R4	CONVICTED_OF Arg1:T7 Arg2:T26	
+R5	CONVICTED_OF Arg1:T9 Arg2:T26	
+R6	ORIGINS_FROM Arg1:T7 Arg2:T3	
+R7	ORIGINS_FROM Arg1:T9 Arg2:T3	
+R8	KNOWS Arg1:T7 Arg2:T9	
+T11	DATE 619 635	в июле 2013 года
+R9	POINT_IN_TIME Arg1:T10 Arg2:T11	
+T24	PENALTY 568 579	под стражей
+R10	PENALIZED_AS Arg1:T7 Arg2:T24	
+R11	PENALIZED_AS Arg1:T9 Arg2:T24	
+R12	HAS_CAUSE Arg1:T24 Arg2:T26	
+T25	PENALTY 191 210	держать под арестом
+R14	HAS_CAUSE Arg1:T25 Arg2:T26	
+R13	PENALIZED_AS Arg1:T7 Arg2:T25	
+R15	PENALIZED_AS Arg1:T9 Arg2:T25	
+R16	PARTICIPANT_IN Arg1:T22 Arg2:T25	
+R17	SUBORDINATE_OF Arg1:T29 Arg2:T7	
+R18	SUBORDINATE_OF Arg1:T29 Arg2:T9	
+T38	EVENT 896 905	слушаниях
+R19	TAKES_PLACE_IN Arg1:T38 Arg2:T12	
+R20	HEADQUARTERED_IN Arg1:T12 Arg2:T13	
+T39	EVENT 993 1014	предъявлены обвинения
+R21	ALTERNATIVE_NAME Arg1:T7 Arg2:T30	
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R23	PARTICIPANT_IN Arg1:T15 Arg2:T39	
+R24	PARTICIPANT_IN Arg1:T30 Arg2:T39	
+R25	POINT_IN_TIME Arg1:T39 Arg2:T14	
+R26	CONVICTED_OF Arg1:T30 Arg2:T31	
+R27	CONVICTED_OF Arg1:T15 Arg2:T31	
+R28	HAS_CAUSE Arg1:T39 Arg2:T31	
+R29	WORKPLACE Arg1:T16 Arg2:T17	
+R30	WORKPLACE Arg1:T16 Arg2:T18	
+T40	STATE_OR_PROVINCE 1346 1357	Нью-Мексико
+R31	HEADQUARTERED_IN Arg1:T18 Arg2:T40	
+T41	CITY 1321 1330	Рочестера
+R32	HEADQUARTERED_IN Arg1:T17 Arg2:T41	
+T42	CITY 1912 1921	Рочестера
+R33	HEADQUARTERED_IN Arg1:T35 Arg2:T42	
+R34	PART_OF Arg1:T34 Arg2:T35	
+R35	WORKPLACE Arg1:T37 Arg2:T34	
+R36	WORKS_AS Arg1:T20 Arg2:T36	
+R37	WORKS_AS Arg1:T20 Arg2:T37	
+T43	PENALTY 636 662	без права выхода под залог
+R38	PARTICIPANT_IN Arg1:T7 Arg2:T10	
+R39	PARTICIPANT_IN Arg1:T9 Arg2:T10	
+R40	PENALIZED_AS Arg1:T7 Arg2:T43	
+R41	PENALIZED_AS Arg1:T9 Arg2:T43	
+R42	PARTICIPANT_IN Arg1:T7 Arg2:T38	
+R43	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+N1	Reference T1 Wikidata:Q4056104	Австралийский синхротрон
+N3	Reference T4 Wikidata:Q801	Израиль
+N4	Reference T5 Wikidata:Q16533	судья
+N5	Reference T12 Wikidata:Q194907	Федеральная судебная система США
+N6	Reference T13 Wikidata:Q24861	Олбани
+N9	Reference T18 Wikidata:Q1190812	Университет Нью-Мексико
+N13	Reference T27 Wikidata:Q47740	мусульманин
+N15	Reference T29 Wikidata:Q40348	адвокат
+N17	Reference T33 Wikidata:Q35535	полиция
+N18	Reference T35 Wikidata:Q149990	Рочестерский университет
+N20	Reference T40 Wikidata:Q1522	Нью-Мексико
+N21	Reference T42 Wikidata:Q49218	Рочестер
+N22	Reference T34 Wikidata:Q7896217	
+N23	Reference T37 Wikidata:NULL	нет данных
+N10	Reference T20 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N16	Reference T30 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:NULL	нет данных
+N19	Reference T36 Wikidata:Q4618975	
+N12	Reference T23 Wikidata:Q4594605	
+N11	Reference T22 Wikidata:Q4594605	
+N2	Reference T3 Wikidata:Q1384	Нью-Йорк
+N14	Reference T28 Wikidata:NULL	нет данных
+N24	Reference T21 Wikidata:Q47740	мусульманин
+N25	Reference T17 Wikidata:Q149990	Рочестерский университет
+N26	Reference T41 Wikidata:Q49218	Рочестер
+N27	Reference T19 Wikidata:NULL	нет данных
+N28	Reference T7 Wikidata:NULL	нет данных
+N29	Reference T9 Wikidata:NULL	нет данных

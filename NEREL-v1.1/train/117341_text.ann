@@ -1,0 +1,160 @@
+T1	CITY 30 36	Москве
+T2	AGE 49 55	50 лет
+T3	DATE 84 99	8 мая 2017 года
+T4	FACILITY 100 127	Могиле Неизвестного Солдата
+T5	FACILITY 130 150	Александровском саду
+T6	CITY 153 159	Москве
+T7	AGE 172 178	50 лет
+T8	ORGANIZATION 195 205	Минобороны
+T9	PROFESSION 295 327	члены Коллегии Минобороны России
+T10	PERSON 339 359	Валерием Герасимовым
+T11	PROFESSION 361 397	начальником Генштаба Вооружённых сил
+T12	PROFESSION 552 555	мэр
+T13	PERSON 563 577	Сергей Собянин
+T14	DATE 580 599	3 декабря 1966 года
+T15	AGE 617 636	25-летней годовщины
+T16	COUNTRY 646 654	немецких
+T17	CITY 665 672	Москвой
+T18	FACILITY 751 771	Ленинградского шоссе
+T20	CITY 791 801	Зеленоград
+T21	FACILITY 830 850	Александровском саду
+T22	DATE 853 872	2 декабря 1966 года
+T23	TIME 853 892	2 декабря 1966 года в 14 часов 30 минут
+T26	DATE 1106 1115	3 декабря
+T27	TIME 1106 1135	3 декабря в 11 часов 45 минут
+T29	FACILITY 1192 1212	Ленинградскому шоссе
+T30	CITY 1215 1221	Москве
+T31	FACILITY 1225 1241	Манежной площади
+T32	DATE 1345 1360	8 мая 1967 года
+T33	FACILITY 1426 1453	Могила Неизвестного солдата
+T34	PROFESSION 1477 1489	архитекторов
+T35	PERSON 1490 1503	Д. И. Бурдина
+T36	PERSON 1505 1518	В. А. Климова
+T37	PERSON 1520 1533	Ю. Р. Рабаева
+T38	PROFESSION 1536 1546	скульптора
+T39	PERSON 1547 1561	Н. В. Томского
+T41	EVENT 1612 1639	Великой Отечественной войны
+T42	PERSON 1784 1798	Леонид Брежнев
+T43	AWARD 1816 1838	Героя Советского Союза
+T44	PERSON 1839 1856	Алексея Маресьева
+T45	FACILITY 1874 1901	Могиле Неизвестного Солдата
+T46	FACILITY 1924 1937	Марсовом поле
+T47	FACILITY 0 27	Могиле Неизвестного Солдата
+T48	FACILITY 56 83	Могила Неизвестного Солдата
+T49	COUNTRY 206 212	России
+T50	ORGANIZATION 195 212	Минобороны России
+T51	ORGANIZATION 301 327	Коллегии Минобороны России
+T52	ORGANIZATION 310 327	Минобороны России
+T53	COUNTRY 321 327	России
+T54	ORGANIZATION 373 397	Генштаба Вооружённых сил
+T55	ORGANIZATION 382 397	Вооружённых сил
+T56	CITY 556 562	Москвы
+T57	PROFESSION 552 562	мэр Москвы
+T19	ORDINAL 736 740	41-м
+T58	TIME 1048 1105	каждые два часа весь вечер всю ночь и утро следующего дня
+T24	DATE 1091 1105	следующего дня
+T25	COUNTRY 1822 1838	Советского Союза
+R1	AGE_IS Arg1:T47 Arg2:T2	
+R2	LOCATED_IN Arg1:T47 Arg2:T1	
+R3	LOCATED_IN Arg1:T4 Arg2:T5	
+R4	LOCATED_IN Arg1:T5 Arg2:T6	
+R5	AGE_IS Arg1:T4 Arg2:T7	
+R6	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+T28	ORGANIZATION 215 235	правительства города
+R7	WORKPLACE Arg1:T9 Arg2:T51	
+R8	PART_OF Arg1:T51 Arg2:T52	
+R9	HEADQUARTERED_IN Arg1:T52 Arg2:T53	
+T40	EVENT 236 263	возложили к мемориалу венок
+R10	TAKES_PLACE_IN Arg1:T40 Arg2:T4	
+R11	AGENT Arg1:T50 Arg2:T40	
+R12	AGENT Arg1:T28 Arg2:T40	
+R13	HEADQUARTERED_IN Arg1:T28 Arg2:T6	
+T59	EVENT 268 278	возложении
+R14	ALTERNATIVE_NAME Arg1:T40 Arg2:T59	
+R15	WORKS_AS Arg1:T10 Arg2:T11	
+R16	WORKPLACE Arg1:T10 Arg2:T54	
+R17	PART_OF Arg1:T54 Arg2:T55	
+R18	PARTICIPANT_IN Arg1:T9 Arg2:T59	
+R19	PARTICIPANT_IN Arg1:T10 Arg2:T59	
+T60	EVENT 537 551	возложил цветы
+R20	TAKES_PLACE_IN Arg1:T60 Arg2:T4	
+R21	WORKPLACE Arg1:T57 Arg2:T56	
+R22	WORKS_AS Arg1:T13 Arg2:T57	
+R23	WORKPLACE Arg1:T13 Arg2:T56	
+R24	PARTICIPANT_IN Arg1:T13 Arg2:T60	
+R25	AWARDED_WITH Arg1:T44 Arg2:T43	
+R26	ORIGINS_FROM Arg1:T43 Arg2:T25	
+R27	ORIGINS_FROM Arg1:T44 Arg2:T25	
+T61	EVENT 637 660	разгрома немецких войск
+T62	EVENT 637 672	разгрома немецких войск под Москвой
+R28	TAKES_PLACE_IN Arg1:T62 Arg2:T17	
+R29	PARTICIPANT_IN Arg1:T16 Arg2:T62	
+T63	EVENT 805 827	торжественно захоронен
+R30	TAKES_PLACE_IN Arg1:T63 Arg2:T21	
+R31	POINT_IN_TIME Arg1:T63 Arg2:T14	
+R32	DATE_FOUNDED_IN Arg1:T33 Arg2:T32	
+R33	WORKS_AS Arg1:T35 Arg2:T34	
+R34	WORKS_AS Arg1:T36 Arg2:T34	
+R35	WORKS_AS Arg1:T37 Arg2:T34	
+R36	WORKS_AS Arg1:T39 Arg2:T38	
+R37	PRODUCES Arg1:T35 Arg2:T33	
+R38	PRODUCES Arg1:T36 Arg2:T33	
+R39	PRODUCES Arg1:T37 Arg2:T33	
+R40	PRODUCES Arg1:T39 Arg2:T33	
+T64	EVENT 1765 1783	Вечный огонь зажёг
+R41	AGENT Arg1:T42 Arg2:T64	
+R42	TAKES_PLACE_IN Arg1:T64 Arg2:T33	
+R43	POINT_IN_TIME Arg1:T64 Arg2:T14	
+T65	EVENT 447 463	минутой молчания
+R44	SUBEVENT_OF Arg1:T65 Arg2:T59	
+T66	EVENT 488 517	маршем роты почётного караула
+R45	SUBEVENT_OF Arg1:T66 Arg2:T59	
+R46	AGE_IS Arg1:T62 Arg2:T15	
+T67	CITY 1192 1206	Ленинградскому
+T68	CITY 751 765	Ленинградского
+R47	PARTICIPANT_IN Arg1:T44 Arg2:T64	
+N1	Reference T1 Wikidata:Q649	Москва
+N2	Reference T5 Wikidata:Q1472498	Александровский сад
+N3	Reference T8 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N5	Reference T10 Wikidata:Q36073	Валерий Васильевич Герасимов
+N7	Reference T12 Wikidata:Q30185	мэр
+N8	Reference T13 Wikidata:Q319497	Сергей Семёнович Собянин
+N10	Reference T18 Wikidata:Q4258184	Ленинградское шоссе
+N11	Reference T20 Wikidata:Q207695	Зеленоград
+N12	Reference T31 Wikidata:Q2253418	Манежная площадь
+N13	Reference T34 Wikidata:Q42973	архитектор
+N17	Reference T38 Wikidata:Q1281618	скульптор
+N19	Reference T42 Wikidata:Q765165	Леонид Ильич Брежнев
+N20	Reference T43 Wikidata:Q178473	Герой Советского Союза
+N21	Reference T44 Wikidata:Q381987	Алексей Петрович Маресьев
+N22	Reference T46 Wikidata:Q1194336	Марсово поле
+N23	Reference T48 Wikidata:Q2075146	Могила Неизвестного Солдата
+N24	Reference T49 Wikidata:Q159	Россия
+N25	Reference T50 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N28	Reference T55 Wikidata:Q772547	вооружённые силы
+N29	Reference T57 Wikidata:Q1837906	мэр Москвы
+N30	Reference T25 Wikidata:Q15180	СССР
+N31	Reference T28 Wikidata:Q3339281	Правительство Москвы
+N4	Reference T9 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N6	Reference T11 Wikidata:NULL	нет данных
+N27	Reference T54 Wikidata:NULL	нет данных
+N9	Reference T16 Wikidata:Q183	Германия
+N32	Reference T68 Wikidata:Q656	Санкт-Петербург
+N14	Reference T35 Wikidata:Q15064778	
+N15	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:Q4386659	
+N18	Reference T39 Wikidata:Q481473	
+N33	Reference T56 Wikidata:Q649	Москва
+N34	Reference T17 Wikidata:Q649	Москва
+N35	Reference T6 Wikidata:Q649	Москва
+N36	Reference T30 Wikidata:Q649	Москва
+N37	Reference T21 Wikidata:Q1472498	Александровский сад
+N38	Reference T29 Wikidata:Q4258184	Ленинградское шоссе
+N39	Reference T4 Wikidata:Q2075146	Могила Неизвестного Солдата
+N40	Reference T33 Wikidata:Q2075146	Могила Неизвестного Солдата
+N41	Reference T47 Wikidata:Q2075146	Могила Неизвестного Солдата
+N42	Reference T45 Wikidata:Q2075146	Могила Неизвестного Солдата
+N43	Reference T53 Wikidata:Q159	Россия
+N44	Reference T52 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N45	Reference T67 Wikidata:Q656	Санкт-Петербург

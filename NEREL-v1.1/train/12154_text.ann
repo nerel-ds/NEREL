@@ -1,0 +1,27 @@
+T3	COUNTRY 503 509	Россию
+T4	ORGANIZATION 572 575	РБК
+T5	LAW 595 597	ГК
+T8	LAW 625 783	Особенности ответственности лица, осуществляющего действия по передаче материала в сети Интернет или по размещению материала в этой сети (интернет-провайдера)
+T2	PRODUCT 269 277	интернет
+T6	PRODUCT 341 345	Сети
+T7	PRODUCT 833 837	Сети
+T9	PRODUCT 713 721	Интернет
+T10	PRODUCT 763 771	интернет
+T11	PROFESSION 1129 1137	Эксперты
+T1	LAW 168 188	Гражданского кодекса
+R1	ABBREVIATION Arg1:T1 Arg2:T5	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R3	ORIGINS_FROM Arg1:T1 Arg2:T3	
+R4	PART_OF Arg1:T8 Arg2:T5	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T7	
+N1	Reference T3 Wikidata:Q159	Россия
+N2	Reference T4 Wikidata:Q629733	РосБизнесКонсалтинг
+N3	Reference T5 Wikidata:Q1923776	Гражданский кодекс
+N5	Reference T6 Wikidata:Q986291	сеть
+N6	Reference T10 Wikidata:Q75	Интернет
+N7	Reference T11 Wikidata:Q381160	эксперт
+N4	Reference T8 Wikidata:NULL	нет данных
+N8	Reference T1 Wikidata:Q1923776	Гражданский кодекс
+N9	Reference T2 Wikidata:Q986291	сеть
+N10	Reference T7 Wikidata:Q75	Интернет
+N11	Reference T9 Wikidata:Q75	Интернет

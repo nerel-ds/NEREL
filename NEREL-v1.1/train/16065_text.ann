@@ -1,0 +1,138 @@
+T1	ORGANIZATION 11 16	Форбс
+T2	COUNTRY 18 28	российский
+T3	ORGANIZATION 133 138	Форбс
+T4	PROFESSION 140 149	президент
+T5	PERSON 150 161	Барак Обама
+T6	PERSON 214 228	Владимир Путин
+T7	PERSON 230 244	Владимир Путин
+T8	ORDINAL 287 293	второе
+T9	DATE 301 315	В прошлом году
+T10	ORDINAL 373 382	четвертом
+T11	NATIONALITY 404 411	россиян
+T12	ORGANIZATION 432 437	Форбс
+T13	PERSON 442 453	Сергей Брин
+T15	PROFESSION 480 495	предприниматель
+T16	PERSON 496 510	Алишер Усманов
+T17	COUNTRY 537 546	китайский
+T18	PERSON 553 564	Ху Дзиньтао
+T19	PERSON 567 581	Ангела Меркель
+T20	ORDINAL 589 598	четвертое
+T21	PROFESSION 691 717	глава корпорации Microsoft
+T22	ORGANIZATION 708 717	Microsoft
+T23	PERSON 718 728	Билл Гейтс
+T24	PROFESSION 730 735	принц
+T25	COUNTRY 736 753	Саудовской Аравии
+T26	PERSON 754 761	Абдулла
+T27	PROFESSION 763 775	Папа Римский
+T29	PERSON 818 830	Бен Бернанке
+T30	ORDINAL 833 840	Девятое
+T31	AGE 886 895	27-летний
+T33	PERSON 916 930	Марк Цукерберг
+T34	DATE 937 948	в 2009 году
+T35	ORGANIZATION 953 959	Forbes
+T36	PERSON 977 991	Владимир Путин
+T37	LOCATION 1116 1122	Европу
+T38	COUNTRY 1211 1223	Южной Осетии
+T39	PERSON 1250 1259	Медведева
+T40	PERSON 1329 1345	Дмитрий Медведев
+T41	ORDINAL 1362 1368	второй
+T42	ORDINAL 1388 1390	59
+T43	PROFESSION 18 36	российский премьер
+T44	PROFESSION 29 36	премьер
+T45	PROFESSION 316 334	российский премьер
+T46	PROFESSION 327 334	премьер
+T47	COUNTRY 316 326	российский
+T48	NUMBER 346 352	тройку
+T14	ORGANIZATION 469 475	Google
+T50	NUMBER 513 519	Тройку
+T51	PROFESSION 537 552	китайский лидер
+T53	PROFESSION 730 753	принц Саудовской Аравии
+T54	PROFESSION 787 817	глава Федерального резерва США
+T56	PERSON 776 784	Бенедикт
+T28	ORGANIZATION 793 817	Федерального резерва США
+T57	COUNTRY 814 817	США
+T58	ORGANIZATION 793 813	Федерального резерва
+T59	ORGANIZATION 907 915	Facebook
+T60	PERSON 1224 1229	Путин
+R1	FOUNDED_BY Arg1:T14 Arg2:T13	
+R2	FOUNDED_BY Arg1:T59 Arg2:T33	
+R3	WORKPLACE Arg1:T43 Arg2:T2	
+R4	WORKS_AS Arg1:T5 Arg2:T4	
+R5	WORKPLACE Arg1:T45 Arg2:T47	
+R6	WORKS_AS Arg1:T7 Arg2:T45	
+R7	WORKPLACE Arg1:T7 Arg2:T47	
+R8	WORKS_AS Arg1:T16 Arg2:T15	
+R9	ORIGINS_FROM Arg1:T13 Arg2:T11	
+R10	ORIGINS_FROM Arg1:T16 Arg2:T11	
+R11	WORKS_AS Arg1:T18 Arg2:T51	
+R12	WORKPLACE Arg1:T18 Arg2:T17	
+R13	WORKS_AS Arg1:T23 Arg2:T21	
+R14	WORKPLACE Arg1:T23 Arg2:T22	
+T32	PROFESSION 691 707	глава корпорации
+R15	WORKS_AS Arg1:T26 Arg2:T53	
+R16	WORKPLACE Arg1:T26 Arg2:T25	
+R17	WORKS_AS Arg1:T56 Arg2:T27	
+R18	HEADQUARTERED_IN Arg1:T28 Arg2:T57	
+R19	WORKPLACE Arg1:T54 Arg2:T28	
+R20	WORKS_AS Arg1:T29 Arg2:T54	
+R21	WORKPLACE Arg1:T29 Arg2:T28	
+R22	AGE_IS Arg1:T33 Arg2:T31	
+T49	PROFESSION 1015 1024	олигархов
+R23	SUBORDINATE_OF Arg1:T60 Arg2:T39	
+R24	ALTERNATIVE_NAME Arg1:T36 Arg2:T60	
+R25	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R26	WORKPLACE Arg1:T51 Arg2:T17	
+R27	WORKPLACE Arg1:T21 Arg2:T22	
+R28	WORKPLACE Arg1:T53 Arg2:T25	
+T52	CITY 768 775	Римский
+T55	LOCATION 1217 1223	Осетии
+R29	LOCATED_IN Arg1:T38 Arg2:T55	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q76	Барак Обама
+N3	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T11 Wikidata:Q492468	россияне
+N5	Reference T12 Wikidata:Q25161472	Форбс
+N6	Reference T13 Wikidata:Q92764	Сергей Брин
+N7	Reference T15 Wikidata:Q131524	предприниматель
+N8	Reference T16 Wikidata:Q503147	Алишер Бурханович Усманов
+N9	Reference T19 Wikidata:Q567	Ангела Меркель
+N11	Reference T22 Wikidata:Q2283	Майкрософт
+N12	Reference T23 Wikidata:Q5284	Билл Гейтс
+N13	Reference T24 Wikidata:Q2747456	принц
+N14	Reference T25 Wikidata:Q851	Саудовская Аравия
+N16	Reference T27 Wikidata:Q19546	Папа Римский
+N17	Reference T29 Wikidata:Q201795	Бен Шалом Бернанке
+N18	Reference T33 Wikidata:Q36215	Марк Цукерберг
+N19	Reference T35 Wikidata:Q25161472	Форбс
+N21	Reference T38 Wikidata:Q23427	Южная Осетия
+N24	Reference T46 Wikidata:Q14212	премьер-министр
+N26	Reference T14 Wikidata:Q95	Google
+N28	Reference T53 Wikidata:Q12251224	наследный принц Саудовской Аравии
+N32	Reference T57 Wikidata:Q30	США
+N34	Reference T59 Wikidata:Q355	Facebook
+N38	Reference T55 Wikidata:Q106955	Осетия
+N25	Reference T47 Wikidata:Q159	Россия
+N23	Reference T45 Wikidata:Q842386	председатель Правительства Российской Федерации
+N39	Reference T17 Wikidata:Q148	Китайская Народная Республика
+N27	Reference T51 Wikidata:NULL	нет данных
+N40	Reference T18 Wikidata:Q15029	
+N35	Reference T32 Wikidata:Q484876	главный управляющий
+N10	Reference T21 Wikidata:NULL	нет данных
+N15	Reference T26 Wikidata:NULL	нет данных
+N37	Reference T52 Wikidata:Q220	Рим
+N30	Reference T56 Wikidata:Q2494	Бенедикт XVI
+N31	Reference T28 Wikidata:Q53536	Федеральная резервная система
+N33	Reference T58 Wikidata:Q53536	Федеральная резервная система
+N29	Reference T54 Wikidata:NULL	нет данных
+N36	Reference T49 Wikidata:Q66384772	
+N20	Reference T37 Wikidata:Q46	Европа
+N22	Reference T39 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N41	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N42	Reference T36 Wikidata:Q7747	Владимир Владимирович Путин
+N43	Reference T60 Wikidata:Q7747	Владимир Владимирович Путин
+N44	Reference T1 Wikidata:Q25161472	Форбс
+N45	Reference T3 Wikidata:Q25161472	Форбс
+N46	Reference T44 Wikidata:Q14212	премьер-министр
+N47	Reference T2 Wikidata:Q159	Россия
+N48	Reference T43 Wikidata:Q842386	председатель Правительства Российской Федерации
+N49	Reference T40 Wikidata:Q23530	Дмитрий Анатольевич Медведев

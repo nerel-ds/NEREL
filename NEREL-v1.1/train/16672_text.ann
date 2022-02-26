@@ -1,0 +1,165 @@
+T1	COUNTRY 0 13	Приднестровье
+T3	COUNTRY 120 157	Приднестровской Молдавской Республике
+T4	ORDINAL 177 183	первом
+T5	DATE 193 209	среду 14 декабря
+T6	EVENT 213 222	заседании
+T7	ORGANIZATION 223 257	Центральной избирательной комиссии
+T8	DATE 304 314	11 декабря
+T9	PERCENT 348 354	38,53%
+T11	AGE 415 424	43-летний
+T12	PERSON 425 439	Евгений Шевчук
+T13	PROFESSION 454 472	спикера парламента
+T14	PERSON 473 492	Анатолия Каминского
+T15	LOCATION 508 525	Читинской области
+T16	COUNTRY 526 532	России
+T17	PERCENT 548 554	26,48%
+T18	PROFESSION 584 594	президента
+T19	PERSON 606 620	Игоря Смирнова
+T20	PERCENT 632 638	24,82%
+T21	NUMBER 748 756	половины
+T22	NUMBER 774 778	один
+T23	COUNTRY 787 797	Российские
+T24	PERCENT 844 857	100 процентов
+T25	ORDINAL 872 878	втором
+T26	PERSON 897 911	Евгений Шевчук
+T27	EVENT 925 932	выборах
+T28	PERCENT 960 965	76,4%
+T29	PERSON 1006 1012	Шевчук
+T31	ORDINAL 1078 1084	втором
+T32	PROFESSION 1170 1180	президенты
+T33	COUNTRY 1193 1203	российский
+T34	PROFESSION 1226 1249	президент Приднестровья
+T35	PERSON 1250 1263	Игорь Смирнов
+T36	ORDINAL 1267 1273	второй
+T37	ORGANIZATION 1311 1320	ИТАР-ТАСС
+T38	ORGANIZATION 1322 1325	ЦИК
+T39	DATE 1405 1418	в понедельник
+T40	PROFESSION 85 98	президентской
+T41	EVENT 85 104	президентской гонки
+T2	ORGANIZATION 223 261	Центральной избирательной комиссии ПМР
+T42	COUNTRY 258 261	ПМР
+T43	EVENT 213 261	заседании Центральной избирательной комиссии ПМР
+T44	EVENT 292 303	голосования
+T45	PROFESSION 370 414	председатель Верховного Совета Приднестровья
+T48	ORGANIZATION 383 414	Верховного Совета Приднестровья
+T49	COUNTRY 401 414	Приднестровья
+T50	PROFESSION 454 461	спикера
+T51	ORGANIZATION 462 472	парламента
+T53	NATIONALITY 555 569	приднестровцев
+T55	PROFESSION 933 943	президента
+T56	EVENT 925 957	выборах президента Приднестровья
+T57	PROFESSION 933 957	президента Приднестровья
+T59	PROFESSION 1022 1039	спикер парламента
+T60	PROFESSION 1022 1028	спикер
+T61	ORGANIZATION 1029 1039	парламента
+T62	EVENT 1090 1097	выборов
+T63	PROFESSION 1108 1115	спикера
+T64	PERSON 1116 1135	Анатолия Каминского
+T65	PROFESSION 1226 1235	президент
+T66	COUNTRY 1236 1249	Приднестровья
+T67	EVENT 1278 1285	выборов
+T68	ORGANIZATION 1322 1339	ЦИК Приднестровья
+T69	COUNTRY 1326 1339	Приднестровья
+T70	EVENT 1393 1404	голосования
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R2	HEADQUARTERED_IN Arg1:T2 Arg2:T42	
+R3	AGE_IS Arg1:T12 Arg2:T11	
+R4	WORKPLACE Arg1:T13 Arg2:T51	
+R5	WORKS_AS Arg1:T14 Arg2:T13	
+R6	WORKPLACE Arg1:T14 Arg2:T51	
+R7	PLACE_OF_BIRTH Arg1:T14 Arg2:T15	
+R8	LOCATED_IN Arg1:T15 Arg2:T16	
+T10	EVENT 872 895	втором туре голосования
+T30	EVENT 1078 1097	втором туре выборов
+T47	EVENT 884 895	голосования
+R9	SUBEVENT_OF Arg1:T10 Arg2:T47	
+R10	SUBEVENT_OF Arg1:T30 Arg2:T62	
+R11	ALTERNATIVE_NAME Arg1:T10 Arg2:T30	
+R12	ALTERNATIVE_NAME Arg1:T47 Arg2:T62	
+R13	WORKS_AS Arg1:T35 Arg2:T34	
+R14	WORKPLACE Arg1:T35 Arg2:T66	
+R15	WORKS_AS Arg1:T64 Arg2:T63	
+R16	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+T52	EVENT 1267 1285	второй тур выборов
+R17	SUBEVENT_OF Arg1:T52 Arg2:T67	
+R18	WORKPLACE Arg1:T34 Arg2:T66	
+R19	HEADQUARTERED_IN Arg1:T68 Arg2:T69	
+T58	EVENT 47 53	выборы
+T71	EVENT 177 188	первом туре
+R20	ORGANIZES Arg1:T2 Arg2:T6	
+R21	POINT_IN_TIME Arg1:T6 Arg2:T5	
+R22	HEADQUARTERED_IN Arg1:T48 Arg2:T49	
+R23	WORKPLACE Arg1:T45 Arg2:T48	
+R24	WORKS_AS Arg1:T12 Arg2:T45	
+R25	WORKPLACE Arg1:T12 Arg2:T48	
+R26	PLACE_RESIDES_IN Arg1:T12 Arg2:T49	
+R27	HEADQUARTERED_IN Arg1:T51 Arg2:T49	
+R28	TAKES_PLACE_IN Arg1:T58 Arg2:T1	
+R29	TAKES_PLACE_IN Arg1:T71 Arg2:T3	
+R30	TAKES_PLACE_IN Arg1:T41 Arg2:T3	
+R31	ABBREVIATION Arg1:T3 Arg2:T42	
+T46	EVENT 292 314	голосования 11 декабря
+R32	ALTERNATIVE_NAME Arg1:T71 Arg2:T46	
+R33	POINT_IN_TIME Arg1:T46 Arg2:T8	
+R34	TAKES_PLACE_IN Arg1:T46 Arg2:T42	
+R35	SUBEVENT_OF Arg1:T71 Arg2:T58	
+R36	PARTICIPANT_IN Arg1:T12 Arg2:T46	
+R37	PARTICIPANT_IN Arg1:T14 Arg2:T46	
+T72	PROFESSION 584 605	президента республики
+R38	WORKS_AS Arg1:T19 Arg2:T72	
+R39	WORKPLACE Arg1:T72 Arg2:T49	
+R40	ORIGINS_FROM Arg1:T53 Arg2:T49	
+R41	PARTICIPANT_IN Arg1:T19 Arg2:T46	
+R42	WORKS_AS Arg1:T29 Arg2:T59	
+R43	WORKPLACE Arg1:T29 Arg2:T61	
+R44	ALTERNATIVE_NAME Arg1:T58 Arg2:T56	
+R45	ALTERNATIVE_NAME Arg1:T47 Arg2:T56	
+R46	PARTICIPANT_IN Arg1:T26 Arg2:T56	
+R47	PARTICIPANT_IN Arg1:T26 Arg2:T10	
+R48	WORKPLACE Arg1:T59 Arg2:T61	
+R49	PARTICIPANT_IN Arg1:T64 Arg2:T30	
+R50	ORGANIZES Arg1:T2 Arg2:T6	
+R51	ALTERNATIVE_NAME Arg1:T16 Arg2:T23	
+T54	COUNTRY 944 957	Приднестровья
+R52	WORKPLACE Arg1:T57 Arg2:T54	
+N1	Reference T1 Wikidata:Q907112	Приднестровская Молдавская Республика
+N3	Reference T15 Wikidata:Q182902	Читинская область
+N4	Reference T16 Wikidata:Q159	Россия
+N5	Reference T26 Wikidata:Q188409	Евгений Васильевич Шевчук
+N6	Reference T37 Wikidata:Q223799	ТАСС
+N11	Reference T48 Wikidata:Q2656777	Верховный Совет Приднестровской Молдавской Республики
+N12	Reference T57 Wikidata:Q2630370	президент Приднестровской Молдавской Республики
+N14	Reference T61 Wikidata:Q35749	парламент
+N16	Reference T64 Wikidata:Q2665969	Каминский, Анатолий Владимирович
+N17	Reference T65 Wikidata:Q30461	президент
+N8	Reference T40 Wikidata:Q30461	президент
+N2	Reference T7 Wikidata:NULL	нет данных
+N9	Reference T2 Wikidata:NULL	нет данных
+N10	Reference T45 Wikidata:Q4376655	
+N19	Reference T53 Wikidata:Q4313714	
+N20	Reference T72 Wikidata:Q2630370	президент Приднестровской Молдавской Республики
+N13	Reference T59 Wikidata:Q4376655	
+N15	Reference T63 Wikidata:Q1758037	спикер
+N21	Reference T35 Wikidata:Q309832	
+N18	Reference T68 Wikidata:NULL	нет данных
+N7	Reference T38 Wikidata:Q4504117	
+N22	Reference T69 Wikidata:Q907112	Приднестровская Молдавская Республика
+N23	Reference T49 Wikidata:Q907112	Приднестровская Молдавская Республика
+N24	Reference T66 Wikidata:Q907112	Приднестровская Молдавская Республика
+N25	Reference T42 Wikidata:Q907112	Приднестровская Молдавская Республика
+N26	Reference T3 Wikidata:Q907112	Приднестровская Молдавская Республика
+N27	Reference T54 Wikidata:Q907112	Приднестровская Молдавская Республика
+N28	Reference T33 Wikidata:Q159	Россия
+N29	Reference T23 Wikidata:Q159	Россия
+N30	Reference T12 Wikidata:Q188409	Евгений Васильевич Шевчук
+N31	Reference T29 Wikidata:Q188409	Евгений Васильевич Шевчук
+N32	Reference T34 Wikidata:Q2630370	президент Приднестровской Молдавской Республики
+N33	Reference T51 Wikidata:Q35749	парламент
+N34	Reference T14 Wikidata:Q2665969	Каминский, Анатолий Владимирович
+N35	Reference T55 Wikidata:Q30461	президент
+N36	Reference T18 Wikidata:Q30461	президент
+N37	Reference T32 Wikidata:Q30461	президент
+N38	Reference T13 Wikidata:Q4376655	
+N39	Reference T50 Wikidata:Q1758037	спикер
+N40	Reference T60 Wikidata:Q1758037	спикер
+N41	Reference T19 Wikidata:Q309832	

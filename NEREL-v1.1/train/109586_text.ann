@@ -1,0 +1,95 @@
+T1	PERSON 0 14	Максим Орешкин
+T2	PROFESSION 24 57	министром экономического развития
+T3	PERSON 58 72	Максим Орешкин
+T4	DATE 73 92	30 ноября 2016 года
+T6	PROFESSION 99 132	министром экономического развития
+T7	AGE 142 151	34-летний
+T8	PERSON 152 166	Максим Орешкин
+T9	PROFESSION 195 224	заместителя министра финансов
+T10	PROFESSION 227 236	Президент
+T11	PERSON 240 254	Владимир Путин
+T12	PERSON 265 273	Орешкина
+T13	COUNTRY 466 476	российской
+T14	PERSON 500 505	Путин
+T15	PERSON 515 535	Максим Станиславович
+T16	PERSON 684 698	Максим Орешкин
+T17	DATE 707 718	в 1982 году
+T18	CITY 741 747	Москве
+T19	DISTRICT 749 756	Ховрино
+T20	PERSON 758 765	Орешкин
+T21	DATE 772 784	десятилетний
+T22	ORGANIZATION 825 832	Росбанк
+T23	ORGANIZATION 836 847	ВТБ-Капитал
+T24	PROFESSION 869 888	ведущего экономиста
+T25	ORGANIZATION 891 902	Центробанке
+T26	ORGANIZATION 924 937	правительстве
+T27	PROFESSION 969 999	заместителем министра финансов
+T28	PROFESSION 982 999	министра финансов
+T29	EVENT 15 23	назначен
+T5	EVENT 133 141	назначен
+T30	PROFESSION 207 224	министра финансов
+T31	COUNTRY 237 239	РФ
+T32	PROFESSION 227 239	Президент РФ
+T33	PROFESSION 938 961	директором департамента
+R1	WORKS_AS Arg1:T1 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T29	
+R3	AGE_IS Arg1:T8 Arg2:T7	
+R4	PARTICIPANT_IN Arg1:T8 Arg2:T5	
+R5	WORKS_AS Arg1:T8 Arg2:T6	
+T34	PROFESSION 99 108	министром
+R6	POINT_IN_TIME Arg1:T5 Arg2:T4	
+R7	WORKS_AS Arg1:T8 Arg2:T9	
+R8	SUBORDINATE_OF Arg1:T9 Arg2:T30	
+R9	SUBORDINATE_OF Arg1:T8 Arg2:T30	
+R10	KNOWS Arg1:T11 Arg2:T12	
+R11	WORKPLACE Arg1:T32 Arg2:T31	
+R12	WORKS_AS Arg1:T11 Arg2:T32	
+R13	WORKPLACE Arg1:T11 Arg2:T31	
+R14	ALTERNATIVE_NAME Arg1:T31 Arg2:T13	
+R15	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R16	ALTERNATIVE_NAME Arg1:T8 Arg2:T15	
+R17	DATE_OF_BIRTH Arg1:T16 Arg2:T17	
+R18	LOCATED_IN Arg1:T19 Arg2:T18	
+R19	PLACE_OF_BIRTH Arg1:T16 Arg2:T19	
+R20	WORKPLACE Arg1:T20 Arg2:T22	
+R21	WORKPLACE Arg1:T20 Arg2:T23	
+R22	WORKPLACE Arg1:T20 Arg2:T25	
+R23	WORKS_AS Arg1:T20 Arg2:T24	
+R24	WORKPLACE Arg1:T24 Arg2:T25	
+R25	WORKPLACE Arg1:T20 Arg2:T26	
+R26	WORKS_AS Arg1:T20 Arg2:T33	
+R27	WORKPLACE Arg1:T33 Arg2:T26	
+R28	WORKS_AS Arg1:T20 Arg2:T27	
+R29	SUBORDINATE_OF Arg1:T20 Arg2:T28	
+R30	SUBORDINATE_OF Arg1:T27 Arg2:T28	
+N1	Reference T10 Wikidata:Q30461	президент
+N2	Reference T11 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T16 Wikidata:Q5626203	Максим Орешкин
+N6	Reference T18 Wikidata:Q649	Москва
+N8	Reference T22 Wikidata:Q1119857	Росбанк
+N9	Reference T23 Wikidata:Q7907607	ВТБ Капитал
+N11	Reference T25 Wikidata:Q806651	Центральный банк Российской Федерации
+N12	Reference T26 Wikidata:Q7188	правительство
+N13	Reference T32 Wikidata:Q218295	президент Российской Федерации
+N14	Reference T33 Wikidata:Q484876	главный управляющий
+N15	Reference T34 Wikidata:Q83307	министр
+N16	Reference T6 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q5626203	Максим Орешкин
+N4	Reference T13 Wikidata:Q159	Россия
+N7	Reference T19 Wikidata:Q2626866	Ховрино
+N10	Reference T24 Wikidata:NULL	нет данных
+N17	Reference T28 Wikidata:Q7614320	
+N18	Reference T27 Wikidata:NULL	нет данных
+N19	Reference T14 Wikidata:Q7747	Владимир Владимирович Путин
+N20	Reference T8 Wikidata:Q5626203	Максим Орешкин
+N21	Reference T15 Wikidata:Q5626203	Максим Орешкин
+N22	Reference T3 Wikidata:Q5626203	Максим Орешкин
+N23	Reference T1 Wikidata:Q5626203	Максим Орешкин
+N24	Reference T2 Wikidata:NULL	нет данных
+N25	Reference T20 Wikidata:Q5626203	Максим Орешкин
+N26	Reference T31 Wikidata:Q159	Россия
+N27	Reference T30 Wikidata:Q7614320	
+N28	Reference T9 Wikidata:NULL	нет данных
+T35	EVENT 699 706	родился
+R31	PARTICIPANT_IN Arg1:T16 Arg2:T35	
+R32	POINT_IN_TIME Arg1:T35 Arg2:T17	

@@ -1,0 +1,269 @@
+T1	PROFESSION 15 25	президента
+T2	PERSON 53 64	Игорь Додон
+T3	DATE 65 83	2 января 2018 года
+T4	ORGANIZATION 84 112	Конституционный суд Молдавии
+T5	ORGANIZATION 114 116	КС
+T6	PROFESSION 142 152	президента
+T7	PERSON 160 172	Игоря Додона
+T8	PROFESSION 197 220	председателю парламента
+T9	PROFESSION 225 241	премьер-министру
+T10	PROFESSION 264 274	президента
+T11	PERSON 314 319	Додон
+T12	PROFESSION 346 357	президентом
+T13	COUNTRY 382 390	Молдавии
+T14	PERSON 429 440	Игорь Додон
+T15	ORGANIZATION 460 462	КС
+T16	PERSON 593 604	Игорь Додон
+T17	PERSON 607 621	Владимир Путин
+T18	EVENT 625 631	параде
+T19	FACILITY 635 650	Красной площади
+T20	PERSON 670 681	Игорь Додон
+T21	PROFESSION 693 704	президентом
+T22	DATE 714 733	13 ноября 2016 года
+T24	ORGANIZATION 876 885	Евросоюза
+T26	DATE 904 913	2017 года
+T27	FACILITY 917 932	Красной площади
+T28	PERSON 934 945	Игорь Додон
+T29	PERSON 967 983	Владимира Путина
+T30	COUNTRY 1081 1088	Молдова
+T31	ORGANIZATION 1171 1190	Парламенте Молдавии
+T32	LAW 1211 1231	Конституции Молдавии
+T33	PROFESSION 1238 1247	президент
+T34	ORGANIZATION 1329 1340	парламентом
+T35	DATE 1373 1393	17 октября 2017 года
+T36	ORGANIZATION 1394 1422	Конституционный суд Молдавии
+T37	PERSON 1437 1443	Додона
+T38	PERSON 1513 1519	Додона
+T39	PROFESSION 1530 1542;1558 1568	председателю Парламента
+T40	ORGANIZATION 1558 1568	Парламента
+T41	PERSON 1569 1583	Андриану Канду
+T42	DATE 1585 1603	2 января 2018 года
+T43	ORGANIZATION 1604 1632	Конституционный суд Молдавии
+T44	PERSON 1657 1662	Додон
+T45	NUMBER 1724 1728	пяти
+T46	NUMBER 1741 1745	двух
+T47	PROFESSION 1746 1760	вице-премьеров
+T48	COUNTRY 1796 1804	Молдавии
+T49	PERSON 1830 1836	Додона
+T50	DATE 1912 1928	В июле 2017 года
+T51	COUNTRY 1931 1938	Молдову
+T52	PERSON 1950 1966	Дмитрия Рогозина
+T53	PERSON 1982 1989	Додоном
+T54	EVENT 2006 2018	праздновании
+T55	AGE 2019 2027	25-летия
+T56	COUNTRY 2057 2070	Приднестровье
+T57	DATE 2073 2093	В сентябре 2017 года
+T58	PERSON 2117 2131	Дарья Асламова
+T59	COUNTRY 2142 2150	Молдавию
+T60	PERSON 2186 2192	Додона
+T61	COUNTRY 2230 2240	молдавские
+T62	COUNTRY 2316 2324	Молдавии
+T63	COUNTRY 2356 2364	Молдавии
+T64	EVENT 2384 2405	Быстрый Трезубец-2017
+T65	STATE_OR_PROVINCE 2410 2427	Львовскую область
+T66	COUNTRY 2428 2435	Украины
+T67	PERSON 2456 2461	Додон
+T68	COUNTRY 2516 2526	молдавских
+T69	COUNTRY 2548 2555	Украине
+T70	ORGANIZATION 2582 2584	МК
+T71	PERSON 2638 2644	Додона
+T72	COUNTRY 2648 2656	Молдавии
+T73	ORGANIZATION 2670 2674	НАТО
+T74	IDEOLOGY 331 344	пророссийским
+T75	COUNTRY 26 34	Молдавии
+T76	PROFESSION 15 34	президента Молдавии
+T77	IDEOLOGY 0 14	Пророссийского
+T78	COUNTRY 104 112	Молдавии
+T80	EVENT 653 669	День Победы 2017
+T81	DATE 665 669	2017
+T23	COUNTRY 705 713	Молдавии
+T82	PROFESSION 693 713	президентом Молдавии
+T83	IDEOLOGY 770 784	пророссийского
+T84	PROFESSION 785 795	президента
+T85	COUNTRY 1182 1190	Молдавии
+T86	COUNTRY 1223 1231	Молдавии
+T87	COUNTRY 1414 1422	Молдавии
+T88	IDEOLOGY 1543 1557	оппозиционного
+T89	COUNTRY 1624 1632	Молдавии
+T90	PROFESSION 1729 1738	министров
+T91	COUNTRY 1775 1783	Молдавии
+T92	COUNTRY 2035 2045	российской
+T93	PROFESSION 2105 2116	журналистка
+T94	NATIONALITY 2094 2104	российская
+T95	PROFESSION 2241 2253	пограничники
+T96	PROFESSION 2341 2355	военнослужащие
+T97	DATE 2401 2405	2017
+T98	EVENT 35 52	лишили полномочий
+T99	EVENT 118 141	приостановил полномочия
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T78	
+R2	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R3	WORKPLACE Arg1:T76 Arg2:T75	
+R4	IDEOLOGY_OF Arg1:T76 Arg2:T77	
+R5	IDEOLOGY_OF Arg1:T11 Arg2:T74	
+R6	WORKPLACE Arg1:T82 Arg2:T23	
+R7	IDEOLOGY_OF Arg1:T2 Arg2:T77	
+T79	EVENT 890 903	Параде Победы
+R8	POINT_IN_TIME Arg1:T79 Arg2:T26	
+R9	TAKES_PLACE_IN Arg1:T79 Arg2:T27	
+R10	HEADQUARTERED_IN Arg1:T31 Arg2:T85	
+T100	ORGANIZATION 1171 1181	Парламенте
+R11	ORIGINS_FROM Arg1:T32 Arg2:T86	
+T101	LAW 1211 1222	Конституции
+R12	ALTERNATIVE_NAME Arg1:T30 Arg2:T86	
+T102	ORGANIZATION 1604 1623	Конституционный суд
+R13	HEADQUARTERED_IN Arg1:T43 Arg2:T89	
+R14	ORIGINS_FROM Arg1:T58 Arg2:T93	
+R15	ORIGINS_FROM Arg1:T58 Arg2:T94	
+R16	ORIGINS_FROM Arg1:T93 Arg2:T94	
+T103	ORGANIZATION 84 103	Конституционный суд
+T104	PROFESSION 142 159	президента страны
+R17	WORKS_AS Arg1:T7 Arg2:T104	
+R18	WORKPLACE Arg1:T12 Arg2:T13	
+R19	WORKS_AS Arg1:T11 Arg2:T12	
+R20	WORKPLACE Arg1:T11 Arg2:T13	
+R21	PARTICIPANT_IN Arg1:T76 Arg2:T98	
+R22	PARTICIPANT_IN Arg1:T7 Arg2:T99	
+R23	AGENT Arg1:T4 Arg2:T99	
+R24	POINT_IN_TIME Arg1:T99 Arg2:T3	
+R25	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R28	SUBEVENT_OF Arg1:T18 Arg2:T80	
+R29	POINT_IN_TIME Arg1:T18 Arg2:T81	
+R30	KNOWS Arg1:T16 Arg2:T17	
+R31	PARTICIPANT_IN Arg1:T17 Arg2:T18	
+R32	PARTICIPANT_IN Arg1:T16 Arg2:T18	
+R33	IDEOLOGY_OF Arg1:T84 Arg2:T83	
+T106	EVENT 686 692	избран
+R34	WORKS_AS Arg1:T20 Arg2:T82	
+R35	WORKPLACE Arg1:T20 Arg2:T23	
+R36	PARTICIPANT_IN Arg1:T20 Arg2:T106	
+R37	TAKES_PLACE_IN Arg1:T106 Arg2:T23	
+R38	POINT_IN_TIME Arg1:T106 Arg2:T22	
+R39	WORKS_AS Arg1:T20 Arg2:T84	
+R40	PARTICIPANT_IN Arg1:T28 Arg2:T79	
+R41	PARTICIPANT_IN Arg1:T29 Arg2:T79	
+R42	KNOWS Arg1:T28 Arg2:T29	
+R43	ALTERNATIVE_NAME Arg1:T30 Arg2:T85	
+R44	HEADQUARTERED_IN Arg1:T36 Arg2:T87	
+T107	ORGANIZATION 1394 1413	Конституционный суд
+R45	WORKS_AS Arg1:T41 Arg2:T39	
+R46	IDEOLOGY_OF Arg1:T40 Arg2:T88	
+R47	IDEOLOGY_OF Arg1:T41 Arg2:T88	
+R48	WORKS_AS Arg1:T41 Arg2:T39	
+R49	WORKPLACE Arg1:T39 Arg2:T40	
+T108	ORGANIZATION 1761 1783	правительства Молдавии
+R50	HEADQUARTERED_IN Arg1:T108 Arg2:T91	
+T109	EVENT 2035 2070	российской операции в Приднестровье
+R51	ORGANIZES Arg1:T92 Arg2:T109	
+R52	TAKES_PLACE_IN Arg1:T109 Arg2:T56	
+R53	ALTERNATIVE_NAME Arg1:T61 Arg2:T62	
+R54	LOCATED_IN Arg1:T65 Arg2:T66	
+T110	PROFESSION 2602 2616	военнослужащих
+R55	AGE_IS Arg1:T109 Arg2:T55	
+R56	WORKPLACE Arg1:T95 Arg2:T61	
+R57	WORKPLACE Arg1:T96 Arg2:T63	
+R58	POINT_IN_TIME Arg1:T64 Arg2:T97	
+R59	TAKES_PLACE_IN Arg1:T64 Arg2:T65	
+T111	PROFESSION 2527 2534	военных
+R60	WORKPLACE Arg1:T111 Arg2:T68	
+R61	ALTERNATIVE_NAME Arg1:T63 Arg2:T68	
+R62	PARTICIPANT_IN Arg1:T96 Arg2:T64	
+T112	EVENT 1427 1436	отстранял
+R63	PARTICIPANT_IN Arg1:T37 Arg2:T112	
+R64	AGENT Arg1:T36 Arg2:T112	
+R65	POINT_IN_TIME Arg1:T112 Arg2:T35	
+T113	EVENT 1673 1682	отстранён
+R66	PARTICIPANT_IN Arg1:T44 Arg2:T113	
+R67	AGENT Arg1:T43 Arg2:T113	
+R68	POINT_IN_TIME Arg1:T113 Arg2:T42	
+R69	HAS_CAUSE Arg1:T54 Arg2:T109	
+T114	EVENT 1939 1949	не пустили
+R70	PARTICIPANT_IN Arg1:T52 Arg2:T114	
+R71	TAKES_PLACE_IN Arg1:T114 Arg2:T51	
+R72	POINT_IN_TIME Arg1:T114 Arg2:T50	
+R26	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R27	POINT_IN_TIME Arg1:T80 Arg2:T81	
+R73	ALTERNATIVE_NAME Arg1:T18 Arg2:T79	
+N1	Reference T8 Wikidata:Q1758037	спикер
+N2	Reference T9 Wikidata:Q14212	премьер-министр
+N3	Reference T10 Wikidata:Q30461	президент
+N4	Reference T17 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T24 Wikidata:Q458	Европейский союз
+N6	Reference T27 Wikidata:Q41116	Красная площадь
+N7	Reference T30 Wikidata:Q217	Молдавия
+N8	Reference T31 Wikidata:Q555809	Парламент Молдавии
+N10	Reference T39 Wikidata:Q1758037	спикер
+N11	Reference T40 Wikidata:Q35749	парламент
+N12	Reference T41 Wikidata:Q16215199	Канду, Андриан
+N13	Reference T47 Wikidata:Q877955	вице-премьер
+N14	Reference T52 Wikidata:Q737463	Дмитрий Олегович Рогозин
+N15	Reference T56 Wikidata:Q907112	Приднестровская Молдавская Республика
+N16	Reference T58 Wikidata:Q4071335	Дарья Михайловна Асламова
+N17	Reference T59 Wikidata:Q217	Молдавия
+N19	Reference T62 Wikidata:Q217	Молдавия
+N20	Reference T65 Wikidata:Q164193	Львовская область
+N21	Reference T69 Wikidata:Q212	Украина
+N23	Reference T73 Wikidata:Q7184	Организация Североатлантического договора
+N24	Reference T76 Wikidata:Q312271	президент Молдавии
+N25	Reference T90 Wikidata:Q83307	министр
+N27	Reference T93 Wikidata:Q1930187	журналист
+N29	Reference T95 Wikidata:Q138775	пограничные войска
+N30	Reference T96 Wikidata:Q47064	военнослужащий
+N31	Reference T101 Wikidata:Q7755	конституция
+N34	Reference T108 Wikidata:Q4375974	Правительство Молдавии
+N35	Reference T111 Wikidata:Q47064	военнослужащий
+N36	Reference T5 Wikidata:Q4231512	
+N33	Reference T104 Wikidata:Q312271	президент Молдавии
+N9	Reference T32 Wikidata:Q5164209	
+N32	Reference T102 Wikidata:Q4231512	
+N26	Reference T92 Wikidata:Q159	Россия
+N28	Reference T94 Wikidata:Q492468	россияне
+N18	Reference T60 Wikidata:Q4164146	
+N22	Reference T70 Wikidata:Q1062623	Московский комсомолец
+N37	Reference T12 Wikidata:Q30461	президент
+N38	Reference T84 Wikidata:Q30461	президент
+N39	Reference T33 Wikidata:Q30461	президент
+N40	Reference T6 Wikidata:Q30461	президент
+N41	Reference T1 Wikidata:Q30461	президент
+N42	Reference T21 Wikidata:Q30461	президент
+N43	Reference T29 Wikidata:Q7747	Владимир Владимирович Путин
+N44	Reference T19 Wikidata:Q41116	Красная площадь
+N45	Reference T51 Wikidata:Q217	Молдавия
+N46	Reference T85 Wikidata:Q217	Молдавия
+N47	Reference T86 Wikidata:Q217	Молдавия
+N48	Reference T34 Wikidata:Q35749	парламент
+N49	Reference T100 Wikidata:Q35749	парламент
+N50	Reference T75 Wikidata:Q217	Молдавия
+N51	Reference T13 Wikidata:Q217	Молдавия
+N52	Reference T87 Wikidata:Q217	Молдавия
+N53	Reference T23 Wikidata:Q217	Молдавия
+N54	Reference T63 Wikidata:Q217	Молдавия
+N55	Reference T48 Wikidata:Q217	Молдавия
+N56	Reference T72 Wikidata:Q217	Молдавия
+N57	Reference T78 Wikidata:Q217	Молдавия
+N58	Reference T89 Wikidata:Q217	Молдавия
+N59	Reference T91 Wikidata:Q217	Молдавия
+N60	Reference T68 Wikidata:Q217	Молдавия
+N61	Reference T61 Wikidata:Q217	Молдавия
+N62	Reference T66 Wikidata:Q212	Украина
+N63	Reference T82 Wikidata:Q312271	президент Молдавии
+N64	Reference T110 Wikidata:Q47064	военнослужащий
+N65	Reference T15 Wikidata:Q4231512	
+N66	Reference T4 Wikidata:Q4231512	
+N67	Reference T43 Wikidata:Q4231512	
+N68	Reference T36 Wikidata:Q4231512	
+N69	Reference T103 Wikidata:Q4231512	
+N70	Reference T107 Wikidata:Q4231512	
+N71	Reference T71 Wikidata:Q4164146	
+N72	Reference T44 Wikidata:Q4164146	
+N73	Reference T20 Wikidata:Q4164146	
+N74	Reference T53 Wikidata:Q4164146	
+N75	Reference T38 Wikidata:Q4164146	
+N76	Reference T14 Wikidata:Q4164146	
+N77	Reference T16 Wikidata:Q4164146	
+N78	Reference T49 Wikidata:Q4164146	
+N79	Reference T7 Wikidata:Q4164146	
+N80	Reference T11 Wikidata:Q4164146	
+N81	Reference T67 Wikidata:Q4164146	
+N82	Reference T28 Wikidata:Q4164146	
+N83	Reference T2 Wikidata:Q4164146	
+N84	Reference T37 Wikidata:Q4164146	

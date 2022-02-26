@@ -1,0 +1,112 @@
+T1	PERSON 0 12	Елизавета II
+T4	PROFESSION 69 77	Королева
+T5	COUNTRY 78 92	Великобритании
+T6	PERSON 93 105	Елизавета II
+T7	AGE 204 213	90-летняя
+T8	PROFESSION 214 227	правительница
+T9	DATE 250 260	13 октября
+T10	AGE 261 271	89-летнего
+T11	PROFESSION 272 278	короля
+T12	COUNTRY 279 287	Таиланда
+T13	PERSON 288 308	Пхумипона Адульядета
+T14	DATE 331 342	в 1946 году
+T15	DATE 345 365	В сентябре 2015 года
+T16	PERSON 382 394	Елизавета II
+T17	COUNTRY 451 465	Великобритании
+T18	PROFESSION 509 517	королевы
+T19	PERSON 518 526	Виктории
+T21	DATE 587 627	23 тысячи 226 дней, 16 часов и 23 минуты
+T25	PERSON 630 656	Елизавета Александра Мария
+T26	DATE 666 685	21 апреля 1926 года
+T27	CITY 688 695	Лондоне
+T28	PROFESSION 704 711	герцога
+T29	PROFESSION 714 723	герцогини
+T30	COUNTRY 745 759	Великобритании
+T31	DATE 783 802	6 февраля 1952 года
+T32	DATE 804 815	В этот день
+T33	PROFESSION 830 836	король
+T34	PERSON 837 845	Георг VI
+T36	DATE 890 906	2 июня 1953 года
+T37	FACILITY 909 934	Вестминстерском аббатстве
+T38	CITY 937 944	Лондоне
+R2	WORKS_AS Arg1:T6 Arg2:T3
+R3	WORKPLACE Arg1:T6 Arg2:T5
+R4	WORKS_AS Arg1:T13 Arg2:T39
+R5	WORKPLACE Arg1:T13 Arg2:T12
+R8	PLACE_OF_BIRTH Arg1:T25 Arg2:T27
+R11	WORKS_AS Arg1:T34 Arg2:T33
+R13	LOCATED_IN Arg1:T37 Arg2:T38
+T2	PERSON 56 68	Елизавета II
+T3	PROFESSION 69 92	Королева Великобритании
+R1	AGE_DIED_AT Arg1:T13 Arg2:T10	
+T39	PROFESSION 272 287	короля Таиланда
+T40	PROFESSION 196 203	монарха
+T41	PROFESSION 432 440	монархом
+R6	DATE_OF_BIRTH Arg1:T25 Arg2:T26	
+T20	PERSON 724 732	Йоркских
+T22	PROFESSION 735 744	Королевой
+T23	PROFESSION 735 759	Королевой Великобритании
+T24	EVENT 869 878	коронации
+R7	PARENT_OF Arg1:T34 Arg2:T25	
+T35	PROFESSION 41 47	монарх
+R9	WORKS_AS Arg1:T1 Arg2:T35	
+R10	DATE_OF_DEATH Arg1:T13 Arg2:T9	
+R12	AGE_IS Arg1:T8 Arg2:T7	
+R14	AGE_IS Arg1:T6 Arg2:T7	
+R15	WORKS_AS Arg1:T16 Arg2:T41	
+R16	WORKS_AS Arg1:T19 Arg2:T18	
+R17	PARENT_OF Arg1:T20 Arg2:T25	
+R18	DATE_OF_DEATH Arg1:T34 Arg2:T32	
+R19	POINT_IN_TIME Arg1:T24 Arg2:T36	
+R20	TAKES_PLACE_IN Arg1:T24 Arg2:T37	
+R21	PARTICIPANT_IN Arg1:T34 Arg2:T24	
+R22	WORKPLACE Arg1:T16 Arg2:T17	
+T42	EVENT 313 330	взошел на престол
+R23	POINT_IN_TIME Arg1:T42 Arg2:T14	
+R24	AGENT Arg1:T13 Arg2:T42	
+R25	RELATIVE Arg1:T16 Arg2:T19	
+R26	ALTERNATIVE_NAME Arg1:T16 Arg2:T25	
+R27	WORKS_AS Arg1:T25 Arg2:T23	
+R28	WORKPLACE Arg1:T3 Arg2:T5	
+R29	WORKS_AS Arg1:T6 Arg2:T8	
+R30	WORKPLACE Arg1:T39 Arg2:T12	
+R31	WORKPLACE Arg1:T23 Arg2:T30	
+R32	WORKS_AS Arg1:T6 Arg2:T40	
+T43	EVENT 236 249	скончавшегося
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T43	
+R34	POINT_IN_TIME Arg1:T43 Arg2:T9	
+N1	Reference T5 Wikidata:Q145	Великобритания
+N3	Reference T12 Wikidata:Q869	Таиланд
+N4	Reference T13 Wikidata:Q855252	Пхумипон Адульядет
+N5	Reference T16 Wikidata:Q9682	Елизавета II
+N8	Reference T27 Wikidata:Q84	Лондон
+N9	Reference T28 Wikidata:Q166886	герцог
+N10	Reference T29 Wikidata:Q166886	герцог
+N11	Reference T34 Wikidata:Q280856	Георг VI
+N12	Reference T37 Wikidata:Q5933	Вестминстерское аббатство
+N15	Reference T35 Wikidata:Q116	монарх
+N13	Reference T3 Wikidata:Q9134365	
+N16	Reference T8 Wikidata:Q116	монарх
+N17	Reference T39 Wikidata:Q27330121	
+N2	Reference T11 Wikidata:Q116	монарх
+N6	Reference T18 Wikidata:Q116	монарх
+N7	Reference T19 Wikidata:Q9439	
+N14	Reference T20 Wikidata:Q337222	Герцог Йоркский
+N18	Reference T30 Wikidata:Q145	Великобритания
+N19	Reference T17 Wikidata:Q145	Великобритания
+N20	Reference T1 Wikidata:Q9682	Елизавета II
+N21	Reference T2 Wikidata:Q9682	Елизавета II
+N22	Reference T6 Wikidata:Q9682	Елизавета II
+N23	Reference T25 Wikidata:Q9682	Елизавета II
+N24	Reference T38 Wikidata:Q84	Лондон
+N25	Reference T41 Wikidata:Q116	монарх
+N26	Reference T40 Wikidata:Q116	монарх
+N27	Reference T23 Wikidata:Q9134365	
+N28	Reference T33 Wikidata:Q116	монарх
+N29	Reference T22 Wikidata:Q116	монарх
+N30	Reference T4 Wikidata:Q116	монарх
+T44	EVENT 657 665	родилась
+R35	PARTICIPANT_IN Arg1:T25 Arg2:T44	
+R36	POINT_IN_TIME Arg1:T44 Arg2:T26	
+R37	TAKES_PLACE_IN Arg1:T44 Arg2:T27	
+R38	WORKPLACE Arg1:T41 Arg2:T17	

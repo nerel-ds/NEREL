@@ -1,0 +1,59 @@
+T1	PROFESSION 0 13	Папе Римскому
+T2	PROFESSION 27 39	Папа Римский
+T3	AGE 49 59	83-летнему
+T4	PROFESSION 60 73	Папе Римскому
+T5	DATE 97 112	в последние дни
+T6	ORGANIZATION 138 154	Святого Престола
+T7	DATE 157 188	В четверг, 27 февраля 2020 года
+T9	DATE 250 267	на следующий день
+T10	PERSON 331 339	Франциск
+T11	FACILITY 434 450	Дом Святой Марфы
+T12	DATE 488 494	Завтра
+T14	FACILITY 554 575	площади Святого Петра
+T15	DATE 578 585	Сегодня
+T16	ORGANIZATION 594 602	МСМ News
+T18	PROFESSION 659 671	Папа Римский
+T19	NUMBER 674 677	два
+T20	DISEASE 701 709	COVID-19
+T21	PERSON 40 48	Франциск
+T22	PERSON 74 83	Франциску
+T23	ORGANIZATION 235 248	римской курии
+T24	COUNTRY 424 432	Ватикана
+T25	PROFESSION 495 503	понтифик
+T13	EVENT 540 550	проповедью
+T26	PERSON 562 575	Святого Петра
+T17	COUNTRY 639 647	Ватикана
+T27	PROFESSION 741 752	журналистам
+T28	DISEASE 14 26	нездоровится
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T28	
+T29	DISEASE 84 96	нездоровится
+R2	WORKS_AS Arg1:T22 Arg2:T4	
+R3	AGE_IS Arg1:T22 Arg2:T3	
+R4	MEDICAL_CONDITION Arg1:T22 Arg2:T29	
+R5	LOCATED_IN Arg1:T11 Arg2:T24	
+R6	MEDICAL_CONDITION Arg1:T18 Arg2:T20	
+R7	PARTICIPANT_IN Arg1:T25 Arg2:T13	
+R8	TAKES_PLACE_IN Arg1:T13 Arg2:T14	
+R9	PLACE_RESIDES_IN Arg1:T10 Arg2:T11	
+R10	POINT_IN_TIME Arg1:T13 Arg2:T12	
+R11	WORKS_AS Arg1:T21 Arg2:T2	
+R12	WORKS_AS Arg1:T10 Arg2:T25	
+T8	DATE 707 709	19
+N1	Reference T6 Wikidata:Q159583	Святой Престол
+N2	Reference T10 Wikidata:Q450675	Франциск
+N4	Reference T14 Wikidata:Q83425	Площадь Святого Петра
+N6	Reference T18 Wikidata:Q19546	Папа Римский
+N7	Reference T22 Wikidata:Q450675	Франциск
+N8	Reference T23 Wikidata:Q108169	Римская курия
+N9	Reference T24 Wikidata:Q237	Ватикан
+N11	Reference T26 Wikidata:Q33923	Апостол Пётр
+N12	Reference T27 Wikidata:Q1930187	журналист
+N3	Reference T11 Wikidata:Q665917	
+N10	Reference T25 Wikidata:Q212943	великий понтифик
+N5	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T21 Wikidata:Q450675	Франциск
+N14	Reference T2 Wikidata:Q19546	Папа Римский
+N15	Reference T4 Wikidata:Q19546	Папа Римский
+N16	Reference T1 Wikidata:Q19546	Папа Римский
+N17	Reference T17 Wikidata:Q237	Ватикан
+T30	PERSON 438 450	Святой Марфы

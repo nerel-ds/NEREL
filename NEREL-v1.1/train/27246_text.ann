@@ -1,0 +1,75 @@
+T1	AGE 73 82	53-летний
+T2	PERSON 97 106	Митч Сиви
+T4	PERSON 191 195	Сиви
+T5	CITY 229 232	Ном
+T6	TIME 233 252	на 24 минуты раньше
+T7	PERSON 279 290	Элий Зиркле
+T8	NUMBER 305 312	1600 км
+T9	DATE 328 342	за девять дней
+T11	TIME 357 365	39 минут
+T12	DATE 368 382	В прошлом году
+T13	AGE 383 392	25-летний
+T14	PERSON 397 401	Сиви
+T15	PERSON 424 430	Зиркле
+T16	EVENT 463 482	Айдитародских гонок
+T17	PERSON 485 494	Митч Сиви
+T18	ORDINAL 499 505	второй
+T19	DATE 571 582	в 2004 году
+T20	PERSON 585 591	Зиркле
+T21	ORDINAL 611 618	третьей
+T22	DATE 726 737	в 1990 году
+T23	CITY 782 791	Анкоридже
+T24	DATE 803 828	в течение нескольких дней
+T25	STATE_OR_PROVINCE 7 13	Аляски
+T26	STATE_OR_PROVINCE 90 96	Аляски
+T27	PERSON 313 317	Сиви
+T29	TIME 328 365	за девять дней, семь часов и 39 минут
+T32	PERSON 402 408	Даллас
+T33	STATE_OR_PROVINCE 775 781	Аляски
+R1	PLACE_RESIDES_IN Arg1:T2 Arg2:T26	
+R2	AGE_IS Arg1:T2 Arg2:T1	
+T34	EVENT 45 71	гонок на собачьих упряжках
+T3	EVENT 148 188	Айдитародских гонок на собачьих упряжках
+T35	EVENT 162 188	гонок на собачьих упряжках
+R8	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R9	LOCATED_IN Arg1:T5 Arg2:T26	
+T38	EVENT 196 219	пересёк финишную прямую
+R11	PARTICIPANT_IN Arg1:T4 Arg2:T38	
+R12	TAKES_PLACE_IN Arg1:T38 Arg2:T5	
+R13	SUBEVENT_OF Arg1:T38 Arg2:T3	
+R14	POINT_IN_TIME Arg1:T38 Arg2:T6	
+R10	TAKES_PLACE_IN Arg1:T3 Arg2:T26	
+T10	TIME 344 354	семь часов
+R15	AGE_IS Arg1:T32 Arg2:T13	
+R16	PARENT_OF Arg1:T14 Arg2:T32	
+R20	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+T31	EVENT 532 544	соревновании
+R21	ALTERNATIVE_NAME Arg1:T16 Arg2:T31	
+R24	ALTERNATIVE_NAME Arg1:T7 Arg2:T15	
+R25	LOCATED_IN Arg1:T23 Arg2:T33	
+T39	EVENT 664 670	гонках
+R26	ALTERNATIVE_NAME Arg1:T31 Arg2:T39	
+T40	EVENT 740 745	Гонка
+T41	EVENT 719 725	гонках
+R29	TAKES_PLACE_IN Arg1:T40 Arg2:T23	
+R3	ALTERNATIVE_NAME Arg1:T34 Arg2:T3	
+R4	PLACE_RESIDES_IN Arg1:T4 Arg2:T25	
+R5	ALTERNATIVE_NAME Arg1:T3 Arg2:T16	
+R6	PARTICIPANT_IN Arg1:T15 Arg2:T16	
+R7	PARTICIPANT_IN Arg1:T17 Arg2:T31	
+R17	PARTICIPANT_IN Arg1:T20 Arg2:T39	
+N2	Reference T5 Wikidata:Q79996	Ном
+N3	Reference T23 Wikidata:Q39450	Анкоридж
+N4	Reference T26 Wikidata:Q797	Аляска
+N1	Reference T4 Wikidata:Q6880994	
+N5	Reference T27 Wikidata:Q6880994	
+N6	Reference T32 Wikidata:Q5211406	
+N7	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T33 Wikidata:Q797	Аляска
+N9	Reference T25 Wikidata:Q797	Аляска
+N10	Reference T2 Wikidata:Q6880994	
+N11	Reference T17 Wikidata:Q6880994	
+N12	Reference T14 Wikidata:Q6880994	
+N13	Reference T7 Wikidata:NULL	нет данных
+N14	Reference T20 Wikidata:NULL	нет данных
+T28	EVENT 45 50	гонок

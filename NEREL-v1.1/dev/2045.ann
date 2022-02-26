@@ -1,0 +1,154 @@
+T2	PERSON 0 7	Б.Обама
+T3	PROFESSION 25 34	главы ФБР
+T4	PROFESSION 51 60	Президент
+T5	PERSON 65 76	Барак Обама
+T6	DATE 77 95	в пятницу, 21 июня
+T8	PERSON 138 150	Джеймса Коми
+T9	ORGANIZATION 167 175	NBC News
+T10	ORGANIZATION 183 198	сенат конгресса
+T12	PERSON 220 227	Дж.Коми
+T13	PROFESSION 251 264	директора ФБР
+T14	AGE 265 275	68-летнего
+T15	PERSON 276 291	Роберта Мюллера
+T16	DATE 325 334	за неделю
+T17	DATE 375 392	11 сентября 2001г
+T18	PERSON 395 407	Джеймсу Коми
+T19	AGE 408 415	52 года
+T20	PROFESSION 447 480	федеральном прокурором Манхэттена
+T21	PROFESSION 482 507	заместителем генпрокурора
+T22	PROFESSION 579 588	адвокатом
+T23	ORGANIZATION 602 624	Bridgewater Associates
+T24	ORGANIZATION 648 663	Lockheed Martin
+T25	ORGANIZATION 674 690	совет директоров
+T26	ORGANIZATION 697 701	HSBC
+T27	PROFESSION 721 743	старшим исследователем
+T28	ORGANIZATION 746 771	Колумбийском университете
+T30	PERSON 774 781	Б.Обама
+T32	PERSON 798 805	Дж.Коми
+T33	ORGANIZATION 906 909	ФБР
+T35	PERSON 990 997	Б.Обамы
+T36	COUNTRY 1042 1045	США
+T37	ORGANIZATION 1235 1241	Google
+T38	ORGANIZATION 1244 1253	Faceboook
+T39	ORGANIZATION 1285 1288	ФБР
+T1	ORGANIZATION 31 34	ФБР
+T40	IDEOLOGY 35 48	республиканца
+T41	PROFESSION 51 64	Президент США
+T42	COUNTRY 61 64	США
+T7	PROFESSION 114 123	главы ФБР
+T43	ORGANIZATION 120 123	ФБР
+T44	IDEOLOGY 124 137	республиканца
+T11	ORGANIZATION 261 264	ФБР
+T45	DISTRICT 470 480	Манхэттена
+T46	PROFESSION 447 469	федеральном прокурором
+T47	PROFESSION 495 507	генпрокурора
+T48	PERSON 524 545	Джорджа Буша-младшего
+T29	IDEOLOGY 948 961	республиканца
+T31	COUNTRY 1106 1118	американские
+T34	EVENT 8 24	выдвинул на пост
+R1	AGENT Arg1:T2 Arg2:T34	
+R2	WORKS_AS Arg1:T5 Arg2:T41	
+R3	WORKPLACE Arg1:T5 Arg2:T42	
+T49	EVENT 97 113	выдвинул на пост
+R4	POINT_IN_TIME Arg1:T49 Arg2:T6	
+R5	AGENT Arg1:T5 Arg2:T49	
+R6	IDEOLOGY_OF Arg1:T8 Arg2:T44	
+R7	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R8	AGE_IS Arg1:T15 Arg2:T14	
+R9	WORKS_AS Arg1:T15 Arg2:T13	
+R10	WORKPLACE Arg1:T15 Arg2:T11	
+T50	EVENT 338 360	террористической атаки
+R11	POINT_IN_TIME Arg1:T50 Arg2:T17	
+R12	AGE_IS Arg1:T18 Arg2:T19	
+R13	WORKS_AS Arg1:T18 Arg2:T21	
+R14	WORKS_AS Arg1:T18 Arg2:T20	
+R15	WORKS_AS Arg1:T18 Arg2:T22	
+R16	WORKPLACE Arg1:T18 Arg2:T23	
+R17	WORKPLACE Arg1:T18 Arg2:T24	
+T51	ORGANIZATION 674 701	совет директоров банка HSBC
+R18	MEMBER_OF Arg1:T18 Arg2:T51	
+R19	WORKS_AS Arg1:T18 Arg2:T27	
+R20	WORKPLACE Arg1:T18 Arg2:T28	
+R21	ALTERNATIVE_NAME Arg1:T5 Arg2:T30	
+R22	ALTERNATIVE_NAME Arg1:T18 Arg2:T32	
+R23	IDEOLOGY_OF Arg1:T32 Arg2:T29	
+T52	EVENT 1057 1064	скандал
+R24	TAKES_PLACE_IN Arg1:T52 Arg2:T36	
+R25	PARTICIPANT_IN Arg1:T37 Arg2:T52	
+R26	PARTICIPANT_IN Arg1:T38 Arg2:T52	
+R27	PARTICIPANT_IN Arg1:T39 Arg2:T52	
+T53	EVENT 301 324	вступил в эту должность
+R28	AGENT Arg1:T15 Arg2:T53	
+R29	POINT_IN_TIME Arg1:T53 Arg2:T16	
+T54	PROFESSION 729 743	исследователем
+R30	WORKPLACE Arg1:T3 Arg2:T1	
+R31	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+R32	WORKPLACE Arg1:T41 Arg2:T42	
+R33	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R34	PARTICIPANT_IN Arg1:T43 Arg2:T49	
+R35	PARTICIPANT_IN Arg1:T8 Arg2:T49	
+R36	WORKPLACE Arg1:T7 Arg2:T43	
+R37	WORKPLACE Arg1:T13 Arg2:T11	
+R38	WORKPLACE Arg1:T18 Arg2:T45	
+T55	ORGANIZATION 510 545	администрации Джорджа Буша-младшего
+R39	WORKPLACE Arg1:T18 Arg2:T55	
+R40	WORKPLACE Arg1:T22 Arg2:T23	
+R41	WORKPLACE Arg1:T27 Arg2:T28	
+R42	PART_OF Arg1:T51 Arg2:T26	
+R43	PARTICIPANT_IN Arg1:T40 Arg2:T34	
+T56	ORGANIZATION 189 198	конгресса
+R44	PART_OF Arg1:T10 Arg2:T56	
+R45	HEADQUARTERED_IN Arg1:T56 Arg2:T42	
+R46	HEADQUARTERED_IN Arg1:T43 Arg2:T42	
+R47	TAKES_PLACE_IN Arg1:T50 Arg2:T42	
+R48	WORKPLACE Arg1:T20 Arg2:T45	
+R49	FOUNDED_BY Arg1:T55 Arg2:T48	
+R50	WORKPLACE Arg1:T32 Arg2:T33	
+T57	CRIME 1134 1168	тотальную слежку за пользователями
+R51	PARTICIPANT_IN Arg1:T37 Arg2:T57	
+R52	PARTICIPANT_IN Arg1:T38 Arg2:T57	
+R53	CONVICTED_OF Arg1:T39 Arg2:T57	
+R54	HAS_CAUSE Arg1:T52 Arg2:T57	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q76	Барак Обама
+N3	Reference T9 Wikidata:Q2877626	NBC News
+N6	Reference T13 Wikidata:Q1057168	Директор Федерального бюро расследований
+N7	Reference T18 Wikidata:Q167607	Коми, Джеймс
+N9	Reference T22 Wikidata:Q40348	адвокат
+N10	Reference T23 Wikidata:Q652431	Bridgewater Associates
+N11	Reference T24 Wikidata:Q7240	Lockheed Martin
+N12	Reference T25 Wikidata:Q188628	совет директоров
+N13	Reference T26 Wikidata:Q190464	HSBC
+N15	Reference T28 Wikidata:Q49088	Колумбийский университет
+N16	Reference T37 Wikidata:Q95	Google
+N18	Reference T41 Wikidata:Q11696	президент США
+N19	Reference T42 Wikidata:Q30	США
+N21	Reference T43 Wikidata:Q8333	Федеральное бюро расследований
+N22	Reference T45 Wikidata:Q11299	Манхэттен
+N23	Reference T46 Wikidata:Q2094335	Федеральный прокурор США
+N24	Reference T48 Wikidata:Q207	Джордж Уокер Буш
+N27	Reference T54 Wikidata:Q1650915	исследователь
+N20	Reference T7 Wikidata:Q1057168	Директор Федерального бюро расследований
+N4	Reference T10 Wikidata:Q66096	Сенат США
+N29	Reference T56 Wikidata:Q11268	Конгресс США
+N5	Reference T12 Wikidata:Q167607	Коми, Джеймс
+N30	Reference T15 Wikidata:Q715156	
+N8	Reference T20 Wikidata:NULL	нет данных
+N31	Reference T21 Wikidata:NULL	нет данных
+N32	Reference T47 Wikidata:Q3368517	
+N28	Reference T55 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N14	Reference T27 Wikidata:NULL	нет данных
+N25	Reference T31 Wikidata:Q30	США
+N17	Reference T38 Wikidata:Q380	
+N33	Reference T30 Wikidata:Q76	Барак Обама
+N34	Reference T2 Wikidata:Q76	Барак Обама
+N35	Reference T35 Wikidata:Q76	Барак Обама
+N36	Reference T32 Wikidata:Q167607	Коми, Джеймс
+N37	Reference T36 Wikidata:Q30	США
+N38	Reference T11 Wikidata:Q8333	Федеральное бюро расследований
+N39	Reference T33 Wikidata:Q8333	Федеральное бюро расследований
+N40	Reference T39 Wikidata:Q8333	Федеральное бюро расследований
+N41	Reference T1 Wikidata:Q8333	Федеральное бюро расследований
+N42	Reference T3 Wikidata:Q1057168	Директор Федерального бюро расследований
+N43	Reference T8 Wikidata:Q167607	Коми, Джеймс

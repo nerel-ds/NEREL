@@ -1,0 +1,99 @@
+T1	PERSON 32 46	Сергея Доренко
+T2	PROFESSION 47 63	Главный редактор
+T3	ORGANIZATION 78 92	Говорит Москва
+T4	PERSON 94 108	Сергей Доренко
+T5	EVENT 119 152	Прямой линии с Владимиром Путиным
+T6	PERSON 134 152	Владимиром Путиным
+T7	PROFESSION 170 180	журналиста
+T8	PERSON 181 195	Сергея Доренко
+T9	ORGANIZATION 297 300	РБК
+T10	DATE 349 358	в пятницу
+T11	ORGANIZATION 375 389	Говорит Москва
+T12	FACILITY 551 573	Троекуровском кладбище
+T13	CITY 576 582	Москве
+T14	PERSON 600 606	Сергея
+T15	DATE 656 663	сегодня
+T16	PROFESSION 666 675	Журналист
+T17	PERSON 676 690	Сергей Доренко
+T18	DATE 696 718	вчера, 9 мая 2019 года
+T19	AGE 731 737	59 лет
+T20	TIME 739 756	Вечером в четверг
+T21	DATE 747 756	в четверг
+T22	FACILITY 781 799	Николоямской улице
+T23	CITY 802 808	Москве
+T24	PROFESSION 0 5	Врачи
+T25	PROFESSION 47 92	Главный редактор радиостанции «Говорит Москва
+T28	EVENT 25 31	смерти
+T29	EVENT 163 169	смерти
+T30	DISEASE 202 215	гемотампонада
+T31	DISEASE 217 233	тампонада сердца
+T32	DISEASE 404 413	Аневризма
+T33	DISEASE 404 445	Аневризма грудной части аорты разорванная
+T34	EVENT 469 475	смерти
+T35	EVENT 523 531	Вскрытие
+T36	EVENT 691 695	умер
+T37	PROFESSION 953 959	врачам
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T28	
+R2	WORKPLACE Arg1:T25 Arg2:T3	
+R3	WORKS_AS Arg1:T4 Arg2:T25	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T5	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T5	
+R6	WORKPLACE Arg1:T4 Arg2:T3	
+R7	WORKS_AS Arg1:T8 Arg2:T7	
+R8	PARTICIPANT_IN Arg1:T8 Arg2:T29	
+R9	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R10	CAUSE_OF_DEATH Arg1:T8 Arg2:T30	
+R11	HAS_CAUSE Arg1:T29 Arg2:T30	
+T26	ORGANIZATION 327 348	бюро судмедэкспертизы
+R12	MEDICAL_CONDITION Arg1:T8 Arg2:T33	
+R13	HAS_CAUSE Arg1:T34 Arg2:T33	
+R14	TAKES_PLACE_IN Arg1:T35 Arg2:T12	
+R15	LOCATED_IN Arg1:T12 Arg2:T13	
+T27	CITY 383 389	Москва
+T38	CITY 86 92	Москва
+R16	ORIGINS_FROM Arg1:T3 Arg2:T38	
+R17	ORIGINS_FROM Arg1:T11 Arg2:T27	
+R18	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R19	WORKS_AS Arg1:T17 Arg2:T16	
+R20	ALTERNATIVE_NAME Arg1:T34 Arg2:T36	
+R21	PARTICIPANT_IN Arg1:T17 Arg2:T36	
+R22	POINT_IN_TIME Arg1:T36 Arg2:T18	
+R23	AGE_DIED_AT Arg1:T17 Arg2:T19	
+R24	DATE_OF_DEATH Arg1:T17 Arg2:T18	
+R25	LOCATED_IN Arg1:T22 Arg2:T23	
+T39	EVENT 822 838	потерял сознание
+R26	POINT_IN_TIME Arg1:T39 Arg2:T20	
+T40	EVENT 840 859	выехал на встречную
+R27	HAS_CAUSE Arg1:T40 Arg2:T39	
+T41	EVENT 861 889	ударился о бетонный отбойник
+R28	HAS_CAUSE Arg1:T41 Arg2:T40	
+R29	AGENT Arg1:T17 Arg2:T40	
+R30	AGENT Arg1:T17 Arg2:T41	
+R31	POINT_IN_TIME Arg1:T40 Arg2:T20	
+R32	POINT_IN_TIME Arg1:T41 Arg2:T20	
+R33	INANIMATE_INVOLVED Arg1:T8 Arg2:T35	
+T42	EVENT 892 909	упал без движения
+R34	HAS_CAUSE Arg1:T42 Arg2:T41	
+R35	PARTICIPANT_IN Arg1:T17 Arg2:T42	
+N1	Reference T1 Wikidata:Q4166607	Сергей Леонидович Доренко
+N2	Reference T2 Wikidata:Q589298	главный редактор
+N3	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T9 Wikidata:Q629733	РосБизнесКонсалтинг
+N5	Reference T11 Wikidata:Q16690419	Радио «Говорит Москва»
+N6	Reference T12 Wikidata:Q1457437	Троекуровское кладбище
+N7	Reference T16 Wikidata:Q1930187	журналист
+N8	Reference T22 Wikidata:Q4320796	Николоямская улица
+N9	Reference T23 Wikidata:Q649	Москва
+N11	Reference T37 Wikidata:Q39631	врач
+N10	Reference T25 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:Q4101500	
+N13	Reference T8 Wikidata:Q4166607	Сергей Леонидович Доренко
+N14	Reference T17 Wikidata:Q4166607	Сергей Леонидович Доренко
+N15	Reference T14 Wikidata:Q4166607	Сергей Леонидович Доренко
+N16	Reference T4 Wikidata:Q4166607	Сергей Леонидович Доренко
+N17	Reference T3 Wikidata:Q16690419	Радио «Говорит Москва»
+N18	Reference T7 Wikidata:Q1930187	журналист
+N19	Reference T13 Wikidata:Q649	Москва
+N20	Reference T27 Wikidata:Q649	Москва
+N21	Reference T38 Wikidata:Q649	Москва
+N22	Reference T24 Wikidata:Q39631	врач

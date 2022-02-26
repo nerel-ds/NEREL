@@ -1,0 +1,225 @@
+T1	PROFESSION 51 58	епископ
+T2	DATE 84 102	4 ноября 2012 года
+T3	ORDINAL 111 116	118-м
+T4	PROFESSION 154 164	патриархом
+T5	AGE 203 214	60-и летний
+T6	PERSON 234 242	Теодорус
+T7	PERSON 244 252	Тавадрос
+T8	PERSON 254 266	Theodoros II
+T9	PERSON 268 276	Tawadros
+T10	PERSON 287 312	Вагих Субхи Баки Сулейман
+T12	DATE 375 393	17 марта 2012 года
+T13	CITY 396 401	Каире
+T14	PERSON 434 444	Шенуды III
+T15	NUMBER 473 476	три
+T16	AGE 489 498	54-летний
+T17	PROFESSION 499 514	доктор медицины
+T18	PROFESSION 516 523	епископ
+T19	AGE 533 542	60-летний
+T20	PROFESSION 555 562	епископ
+T21	AGE 575 584	70-летний
+T22	PROFESSION 592 601	иеромонах
+T23	PERSON 602 618	Рафаэль Ава Мина
+T24	PERSON 620 636	Raphael Ava Mina
+T25	EVENT 640 649	Церемония
+T26	FACILITY 688 708	Соборе Святого Марка
+T27	CITY 711 716	Каире
+T28	NUMBER 731 747	нескольких тысяч
+T30	PROFESSION 1033 1040	епископ
+T31	PROFESSION 1076 1085	патриарха
+T32	PERSON 1105 1121	Теодориус Второй
+T33	EVENT 1124 1133	Церемония
+T34	DATE 1219 1238	18 ноября 2012 года
+T35	PROFESSION 6 45	патриархом Коптской православной церкви
+T36	PROFESSION 6 16	патриархом
+T37	PROFESSION 117 152	главой Коптской православной церкви
+T38	PROFESSION 154 194	патриархом Александрийским и Всей Африки
+T39	PROFESSION 154 180	патриархом Александрийским
+T40	PROFESSION 215 222	епископ
+T41	PROFESSION 342 350	патриарх
+T42	PROFESSION 414 431	настоятеля церкви
+T43	PROFESSION 477 487	священника
+T44	PROFESSION 543 553	фармаколог
+T45	PROFESSION 585 590	юрист
+T46	PROFESSION 664 673	патриарха
+T47	PROFESSION 858 870	предстоятеля
+T48	PROFESSION 901 946	исполняющий обязанности главы коптской церкви
+T49	PROFESSION 947 957	митрополит
+T50	PROFESSION 925 946	главы коптской церкви
+T51	PROFESSION 997 1023	Александрийского патриарха
+T52	PROFESSION 1076 1102	патриарха Александрийского
+T53	PROFESSION 1014 1023	патриарха
+T54	PROFESSION 1185 1205	папы коптской церкви
+T55	PROFESSION 1185 1189	папы
+T56	NATIONALITY 17 25	Коптской
+T57	RELIGION 26 38	православной
+T58	PERSON 59 68	Теодориус
+T59	NATIONALITY 69 77	Коптский
+T60	NATIONALITY 124 132	Коптской
+T61	ORGANIZATION 124 152	Коптской православной церкви
+T62	RELIGION 133 145	православной
+T63	ORGANIZATION 17 45	Коптской православной церкви
+T64	CITY 165 180	Александрийским
+T65	LOCATION 188 194	Африки
+T66	PERSON 223 232	Теодориус
+T67	ORDINAL 264 266	II
+T68	STATE_OR_PROVINCE 326 333	Бухейра
+T69	EVENT 367 374	кончины
+T70	ORDINAL 441 444	III
+T71	PERSON 524 531	Рафаэль
+T72	PERSON 563 572	Теодориус
+T73	PERSON 695 708	Святого Марка
+T74	RELIGION 748 756	христиан
+T75	EVENT 767 773	службы
+T29	NATIONALITY 931 939	коптской
+T76	ORGANIZATION 931 946	коптской церкви
+T77	PERSON 958 966	Пахомиус
+T78	CITY 997 1013	Александрийского
+T79	PERSON 1041 1050	Теодориус
+T80	CITY 1086 1102	Александрийского
+T81	ORDINAL 1115 1121	Второй
+T82	EVENT 1124 1146	Церемония интронизации
+T83	EVENT 1134 1146	интронизации
+T84	ORGANIZATION 1190 1205	коптской церкви
+T85	NATIONALITY 1190 1198	коптской
+R1	WORKS_AS Arg1:T58 Arg2:T1	
+R2	RELIGION_OF Arg1:T63 Arg2:T57	
+R3	WORKS_AS Arg1:T58 Arg2:T35	
+R4	RELIGION_OF Arg1:T58 Arg2:T57	
+R5	ALTERNATIVE_NAME Arg1:T66 Arg2:T6	
+R6	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R7	WORKS_AS Arg1:T14 Arg2:T42	
+R8	WORKS_AS Arg1:T72 Arg2:T20	
+R9	WORKS_AS Arg1:T72 Arg2:T44	
+R10	AGE_IS Arg1:T72 Arg2:T19	
+R11	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R12	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R13	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R14	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R15	AGE_IS Arg1:T66 Arg2:T5	
+R16	WORKS_AS Arg1:T66 Arg2:T40	
+R17	PLACE_OF_DEATH Arg1:T14 Arg2:T13	
+R18	DATE_OF_DEATH Arg1:T14 Arg2:T12	
+R19	PARTICIPANT_IN Arg1:T14 Arg2:T69	
+R20	WORKS_AS Arg1:T71 Arg2:T18	
+R21	WORKS_AS Arg1:T71 Arg2:T17	
+R22	AGE_IS Arg1:T71 Arg2:T16	
+R23	WORKS_AS Arg1:T71 Arg2:T43	
+R24	AGE_IS Arg1:T23 Arg2:T21	
+R25	WORKS_AS Arg1:T23 Arg2:T45	
+R26	WORKS_AS Arg1:T23 Arg2:T22	
+R27	LOCATED_IN Arg1:T26 Arg2:T27	
+R28	WORKS_AS Arg1:T32 Arg2:T52	
+R29	WORKS_AS Arg1:T72 Arg2:T43	
+R30	WORKS_AS Arg1:T23 Arg2:T43	
+R31	RELIGION_OF Arg1:T35 Arg2:T57	
+R32	WORKPLACE Arg1:T35 Arg2:T63	
+R33	WORKPLACE Arg1:T58 Arg2:T63	
+R34	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+T11	EVENT 196 202	избран
+R35	PARTICIPANT_IN Arg1:T66 Arg2:T11	
+R36	PARTICIPANT_IN Arg1:T61 Arg2:T11	
+R37	POINT_IN_TIME Arg1:T11 Arg2:T2	
+R38	WORKPLACE Arg1:T37 Arg2:T61	
+R39	RELIGION_OF Arg1:T61 Arg2:T62	
+R40	RELIGION_OF Arg1:T37 Arg2:T62	
+R41	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R42	WORKPLACE Arg1:T38 Arg2:T64	
+R43	WORKPLACE Arg1:T38 Arg2:T65	
+R44	WORKS_AS Arg1:T66 Arg2:T37	
+R45	WORKS_AS Arg1:T66 Arg2:T38	
+R46	WORKPLACE Arg1:T66 Arg2:T61	
+R47	WORKPLACE Arg1:T66 Arg2:T65	
+R48	WORKPLACE Arg1:T66 Arg2:T64	
+R49	ORIGINS_FROM Arg1:T66 Arg2:T68	
+T86	EVENT 342 360	патриарх избирался
+R50	ALTERNATIVE_NAME Arg1:T11 Arg2:T86	
+T87	EVENT 351 360	избирался
+R51	HAS_CAUSE Arg1:T86 Arg2:T69	
+R52	WORKPLACE Arg1:T14 Arg2:T61	
+T88	EVENT 640 673	Церемония выбора нового патриарха
+R53	ALTERNATIVE_NAME Arg1:T86 Arg2:T88	
+R54	TAKES_PLACE_IN Arg1:T88 Arg2:T26	
+R55	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R56	PARTICIPANT_IN Arg1:T54 Arg2:T82	
+R57	WORKPLACE Arg1:T54 Arg2:T84	
+R58	POINT_IN_TIME Arg1:T82 Arg2:T34	
+R59	WORKPLACE Arg1:T52 Arg2:T80	
+R60	WORKS_AS Arg1:T32 Arg2:T52	
+R61	ALTERNATIVE_NAME Arg1:T79 Arg2:T32	
+R62	WORKS_AS Arg1:T79 Arg2:T30	
+R63	WORKPLACE Arg1:T51 Arg2:T78	
+R64	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R65	ALTERNATIVE_NAME Arg1:T52 Arg2:T54	
+R66	WORKS_AS Arg1:T77 Arg2:T49	
+R67	RELIGION_OF Arg1:T26 Arg2:T74	
+R68	RELIGION_OF Arg1:T88 Arg2:T74	
+R69	WORKS_AS Arg1:T77 Arg2:T48	
+R70	WORKPLACE Arg1:T77 Arg2:T76	
+R71	ORIGINS_FROM Arg1:T77 Arg2:T29	
+R72	PARTICIPANT_IN Arg1:T32 Arg2:T82	
+N1	Reference T1 Wikidata:Q29182	епископ
+N2	Reference T4 Wikidata:Q171692	патриарх
+N4	Reference T14 Wikidata:Q87455	Шенуда III
+N5	Reference T17 Wikidata:Q913404	доктор медицины
+N9	Reference T27 Wikidata:Q85	Каир
+N11	Reference T39 Wikidata:Q622216	Патриарх Александрийский
+N13	Reference T43 Wikidata:Q42603	священник
+N14	Reference T45 Wikidata:Q185351	юрист
+N16	Reference T49 Wikidata:Q189854	митрополит
+N18	Reference T52 Wikidata:Q622216	Патриарх Александрийский
+N19	Reference T58 Wikidata:Q11823	Теодориус II
+N21	Reference T61 Wikidata:Q198998	Коптская православная церковь
+N22	Reference T62 Wikidata:Q35032	Православная церковь
+N24	Reference T65 Wikidata:Q15	Африка
+N25	Reference T68 Wikidata:Q30630	Бухейра
+N27	Reference T73 Wikidata:Q31966	апостол Марк
+N29	Reference T76 Wikidata:Q198998	Коптская православная церковь
+N20	Reference T59 Wikidata:Q146744	
+N23	Reference T64 Wikidata:Q87	Александрия
+N3	Reference T10 Wikidata:Q11823	Теодориус II
+N30	Reference T77 Wikidata:NULL	нет данных
+N17	Reference T50 Wikidata:Q622216	Патриарх Александрийский
+N15	Reference T48 Wikidata:NULL	нет данных
+N28	Reference T74 Wikidata:Q5043	христианство
+N8	Reference T26 Wikidata:Q3407548	
+N31	Reference T44 Wikidata:Q2114605	
+N6	Reference T22 Wikidata:Q1288557	
+N7	Reference T24 Wikidata:NULL	нет данных
+N26	Reference T71 Wikidata:NULL	нет данных
+N10	Reference T37 Wikidata:Q622216	Патриарх Александрийский
+N12	Reference T42 Wikidata:Q622216	Патриарх Александрийский
+N32	Reference T55 Wikidata:Q58451	
+N33	Reference T40 Wikidata:Q29182	епископ
+N34	Reference T20 Wikidata:Q29182	епископ
+N35	Reference T18 Wikidata:Q29182	епископ
+N36	Reference T30 Wikidata:Q29182	епископ
+N37	Reference T53 Wikidata:Q171692	патриарх
+N38	Reference T31 Wikidata:Q171692	патриарх
+N39	Reference T46 Wikidata:Q171692	патриарх
+N40	Reference T47 Wikidata:Q171692	патриарх
+N41	Reference T36 Wikidata:Q171692	патриарх
+N42	Reference T41 Wikidata:Q171692	патриарх
+N43	Reference T13 Wikidata:Q85	Каир
+N44	Reference T51 Wikidata:Q622216	Патриарх Александрийский
+N45	Reference T54 Wikidata:Q622216	Патриарх Александрийский
+N46	Reference T72 Wikidata:Q11823	Теодориус II
+N47	Reference T32 Wikidata:Q11823	Теодориус II
+N48	Reference T79 Wikidata:Q11823	Теодориус II
+N49	Reference T63 Wikidata:Q198998	Коптская православная церковь
+N50	Reference T57 Wikidata:Q35032	Православная церковь
+N51	Reference T84 Wikidata:Q198998	Коптская православная церковь
+N52	Reference T85 Wikidata:Q146744	
+N53	Reference T56 Wikidata:Q146744	
+N54	Reference T60 Wikidata:Q146744	
+N55	Reference T29 Wikidata:Q146744	
+N56	Reference T80 Wikidata:Q87	Александрия
+N57	Reference T78 Wikidata:Q87	Александрия
+N58	Reference T8 Wikidata:Q11823	Теодориус II
+N59	Reference T66 Wikidata:Q11823	Теодориус II
+N60	Reference T7 Wikidata:Q11823	Теодориус II
+N61	Reference T9 Wikidata:Q11823	Теодориус II
+N62	Reference T6 Wikidata:Q11823	Теодориус II
+N63	Reference T23 Wikidata:NULL	нет данных
+N64	Reference T38 Wikidata:Q622216	Патриарх Александрийский
+N65	Reference T35 Wikidata:Q622216	Патриарх Александрийский

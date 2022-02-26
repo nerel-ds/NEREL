@@ -1,0 +1,202 @@
+T1	ORDINAL 0 7	Седьмую
+T2	COUNTRY 23 33	российской
+T3	EVENT 45 54	Олимпиаде
+T4	CITY 79 89	Волгограда
+T5	PERSON 100 113	Юлия Зарипова
+T6	NUMBER 127 138	3000 метров
+T7	ORDINAL 165 171	первое
+T8	COUNTRY 176 182	России
+T10	EVENT 228 237	Олимпиаде
+T11	CITY 240 247	Лондоне
+T12	PERSON 260 274	Юлии Зариповой
+T15	TIME 277 298	9 минут 06.72 секунды
+T16	ORDINAL 322 328	Второе
+T17	COUNTRY 373 379	Туниса
+T18	NATIONALITY 398 405	эфиопка
+T19	AGE 408 417	26-летняя
+T20	CITY 435 445	Светлый Яр
+T21	STATE_OR_PROVINCE 446 467	Волгоградской области
+T22	PERSON 468 481	Юлия Зарипова
+T23	EVENT 581 598	первенстве Европы
+T24	DATE 599 610	в 2010 году
+T25	PERSON 640 653	Юлия Зарипова
+T27	PERSON 937 950	Юлия Зарипова
+T28	PROFESSION 988 995	тренеру
+T29	PROFESSION 1130 1140	губернатор
+T30	STATE_OR_PROVINCE 1192 1213	Волгоградской области
+T31	PROFESSION 1247 1260	Глава региона
+T32	CITY 1366 1376	Волгограда
+T33	PERSON 1379 1394	Елена Исинбаева
+T34	CITY 1408 1415	Лондоне
+T35	NUMBER 1472 1482	Двукратной
+T36	CITY 1505 1509	Афин
+T37	CITY 1512 1518	Пекина
+T38	CITY 1521 1528	Лондоне
+T39	NUMBER 1550 1554	4,75
+T40	EVENT 1566 1575	Олимпиады
+T41	CITY 1578 1585	Лондоне
+T42	CITY 1610 1623	волгоградские
+T43	PERSON 1636 1649	Илья Шкуренев
+T44	PERSON 1664 1683	Антонина Кривошапка
+T45	PERSON 1696 1710	Юлия Колтунова
+T46	CITY 1742 1756	волгоградского
+T47	ORGANIZATION 1764 1770	Динамо
+T48	PERSON 1773 1785	Ольга Левина
+T49	PERSON 1787 1801	Анна Седойкина
+T50	PERSON 1803 1818	Татьяна Хмырова
+T51	PERSON 1820 1836	Людмила Бодниева
+T52	AWARD 8 22	золотую медаль
+T53	ORGANIZATION 23 41	российской сборной
+T55	PROFESSION 64 75	спортсменка
+T56	PROFESSION 92 99	Бегунья
+T57	AWARD 183 189	золото
+T58	EVENT 192 224	соревнованиях по легкой атлетике
+T13	PROFESSION 358 369	спортсменка
+T14	AWARD 381 387	бронзу
+T62	AWARD 496 510	чемпионка мира
+T63	PROFESSION 540 551	спортсменка
+T64	EVENT 581 610	первенстве Европы в 2010 году
+T65	LOCATION 592 598	Европы
+T66	PROFESSION 703 714	Журналистам
+T26	AWARD 820 841	олимпийская чемпионка
+T67	PROFESSION 1017 1028	спортсменку
+T68	AWARD 1098 1119	Олимпийскую чемпионку
+T69	PERSON 1141 1155	Сергей Боженов
+T70	PROFESSION 1269 1280	спортсменке
+T71	PROFESSION 1351 1362	спортсменка
+T72	ORDINAL 1416 1422	третий
+T73	AWARD 1445 1451	бронзу
+T74	AWARD 1483 1504	олимпийской чемпионке
+T78	EVENT 1566 1585	Олимпиады в Лондоне
+T79	PROFESSION 1624 1635	легкоатлеты
+T80	PROFESSION 1729 1741	гандболистки
+R1	HEADQUARTERED_IN Arg1:T53 Arg2:T2	
+R2	ORIGINS_FROM Arg1:T55 Arg2:T4	
+R3	PARTICIPANT_IN Arg1:T53 Arg2:T3	
+R4	AWARDED_WITH Arg1:T55 Arg2:T52	
+R5	LOCATED_IN Arg1:T4 Arg2:T2	
+R6	AWARDED_WITH Arg1:T53 Arg2:T52	
+R7	WORKS_AS Arg1:T5 Arg2:T56	
+T54	EVENT 228 247	Олимпиаде в Лондоне
+R8	TAKES_PLACE_IN Arg1:T54 Arg2:T11	
+T9	EVENT 192 247	соревнованиях по легкой атлетике на Олимпиаде в Лондоне
+R9	SUBEVENT_OF Arg1:T9 Arg2:T54	
+R10	ALTERNATIVE_NAME Arg1:T52 Arg2:T57	
+R11	WORKS_AS Arg1:T5 Arg2:T55	
+R12	AWARDED_WITH Arg1:T5 Arg2:T57	
+R13	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+R14	PARTICIPANT_IN Arg1:T5 Arg2:T9	
+R15	ORIGINS_FROM Arg1:T57 Arg2:T9	
+R16	PLACE_OF_BIRTH Arg1:T22 Arg2:T20	
+R17	ORIGINS_FROM Arg1:T13 Arg2:T17	
+R18	AGE_IS Arg1:T22 Arg2:T19	
+T59	AWARD 496 532	чемпионка мира в женском стипль-чезе
+R19	AWARDED_WITH Arg1:T22 Arg2:T59	
+R20	WORKS_AS Arg1:T22 Arg2:T63	
+R21	AWARDED_WITH Arg1:T25 Arg2:T26	
+R22	WORKS_AS Arg1:T27 Arg2:T67	
+R23	WORKS_AS Arg1:T69 Arg2:T29	
+R24	AWARDED_WITH Arg1:T27 Arg2:T68	
+R25	TAKES_PLACE_IN Arg1:T64 Arg2:T65	
+R26	POINT_IN_TIME Arg1:T64 Arg2:T24	
+R27	TAKES_PLACE_IN Arg1:T23 Arg2:T65	
+R28	PARTICIPANT_IN Arg1:T63 Arg2:T64	
+R29	PARTICIPANT_IN Arg1:T22 Arg2:T64	
+R30	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+T60	AWARD 1445 1470	бронзу в прыжках с шестом
+R31	ORIGINS_FROM Arg1:T33 Arg2:T32	
+R32	WORKS_AS Arg1:T33 Arg2:T71	
+R33	AWARDED_WITH Arg1:T33 Arg2:T60	
+R34	AWARDED_WITH Arg1:T33 Arg2:T74	
+R35	TAKES_PLACE_IN Arg1:T78 Arg2:T41	
+R36	PARTICIPANT_IN Arg1:T33 Arg2:T78	
+R37	WORKS_AS Arg1:T43 Arg2:T79	
+R38	WORKS_AS Arg1:T44 Arg2:T79	
+R39	WORKS_AS Arg1:T45 Arg2:T79	
+R40	ORIGINS_FROM Arg1:T79 Arg2:T42	
+R41	ORIGINS_FROM Arg1:T43 Arg2:T42	
+R42	ORIGINS_FROM Arg1:T44 Arg2:T42	
+R43	ORIGINS_FROM Arg1:T45 Arg2:T42	
+R44	PARTICIPANT_IN Arg1:T43 Arg2:T78	
+R45	PARTICIPANT_IN Arg1:T44 Arg2:T78	
+R46	PARTICIPANT_IN Arg1:T45 Arg2:T78	
+R47	ALTERNATIVE_NAME Arg1:T32 Arg2:T42	
+R48	HEADQUARTERED_IN Arg1:T47 Arg2:T46	
+R49	WORKS_AS Arg1:T48 Arg2:T80	
+R50	WORKS_AS Arg1:T49 Arg2:T80	
+R51	WORKS_AS Arg1:T50 Arg2:T80	
+R52	WORKS_AS Arg1:T51 Arg2:T80	
+R53	WORKPLACE Arg1:T48 Arg2:T47	
+R54	WORKPLACE Arg1:T49 Arg2:T47	
+R55	WORKPLACE Arg1:T50 Arg2:T47	
+R56	WORKPLACE Arg1:T51 Arg2:T47	
+R57	PARTICIPANT_IN Arg1:T48 Arg2:T78	
+R58	PARTICIPANT_IN Arg1:T49 Arg2:T78	
+R59	PARTICIPANT_IN Arg1:T50 Arg2:T78	
+R60	PARTICIPANT_IN Arg1:T51 Arg2:T78	
+R61	AWARDED_WITH Arg1:T18 Arg2:T14	
+T61	AWARD 322 334	Второе место
+R62	AWARDED_WITH Arg1:T13 Arg2:T61	
+R63	ORIGINS_FROM Arg1:T61 Arg2:T9	
+R64	ORIGINS_FROM Arg1:T14 Arg2:T9	
+R65	LOCATED_IN Arg1:T20 Arg2:T21	
+R66	ORIGINS_FROM Arg1:T74 Arg2:T36	
+R67	ORIGINS_FROM Arg1:T74 Arg2:T37	
+N1	Reference T5 Wikidata:Q6017	Юлия Михайловна Зарипова
+N2	Reference T8 Wikidata:Q159	Россия
+N3	Reference T11 Wikidata:Q84	Лондон
+N4	Reference T17 Wikidata:Q948	Тунис
+N6	Reference T20 Wikidata:Q3916390	Светлый Яр
+N7	Reference T28 Wikidata:Q41583	тренер
+N8	Reference T30 Wikidata:Q3819	Волгоградская область
+N10	Reference T33 Wikidata:Q6319	Елена Гаджиевна Исинбаева
+N12	Reference T37 Wikidata:Q956	Пекин
+N14	Reference T43 Wikidata:Q2342956	Шкуренёв, Илья Юрьевич
+N15	Reference T44 Wikidata:Q240684	Кривошапка, Антонина Владимировна
+N16	Reference T45 Wikidata:Q459092	Колтунова, Юлия Николаевна
+N18	Reference T48 Wikidata:Q3428060	Ольга Сергеевна Левина
+N19	Reference T49 Wikidata:Q2069328	Седойкина, Анна Сергеевна
+N20	Reference T50 Wikidata:Q435015	Хмырова, Татьяна Евгеньевна
+N21	Reference T51 Wikidata:Q2604233	Людмила Валерьевна Бодниева
+N22	Reference T53 Wikidata:Q1253316	сборная Российской империи по футболу
+N26	Reference T66 Wikidata:Q1930187	журналист
+N27	Reference T68 Wikidata:Q4333889	олимпийский чемпион
+N28	Reference T69 Wikidata:Q4090157	Боженов, Сергей Анатольевич
+N32	Reference T80 Wikidata:Q12840545	
+N13	Reference T42 Wikidata:Q914	Волгоград
+N33	Reference T79 Wikidata:Q11513337	
+N11	Reference T36 Wikidata:Q1524	Афины
+N29	Reference T73 Wikidata:Q873364	бронзовая медаль
+N31	Reference T60 Wikidata:NULL	нет данных
+N34	Reference T56 Wikidata:Q12803959	
+N23	Reference T57 Wikidata:Q15243387	
+N35	Reference T61 Wikidata:Q33965523	
+N5	Reference T18 Wikidata:Q2918061	
+N24	Reference T62 Wikidata:Q2948691	
+N30	Reference T59 Wikidata:NULL	нет данных
+N25	Reference T65 Wikidata:Q46	Европа
+N36	Reference T67 Wikidata:Q2066131	спортсмен
+N9	Reference T31 Wikidata:NULL	нет данных
+N17	Reference T47 Wikidata:Q2669925	
+N37	Reference T22 Wikidata:Q6017	Юлия Михайловна Зарипова
+N38	Reference T12 Wikidata:Q6017	Юлия Михайловна Зарипова
+N39	Reference T25 Wikidata:Q6017	Юлия Михайловна Зарипова
+N40	Reference T27 Wikidata:Q6017	Юлия Михайловна Зарипова
+N41	Reference T2 Wikidata:Q159	Россия
+N42	Reference T41 Wikidata:Q84	Лондон
+N43	Reference T34 Wikidata:Q84	Лондон
+N44	Reference T38 Wikidata:Q84	Лондон
+N45	Reference T21 Wikidata:Q3819	Волгоградская область
+N46	Reference T74 Wikidata:Q4333889	олимпийский чемпион
+N47	Reference T26 Wikidata:Q4333889	олимпийский чемпион
+N48	Reference T4 Wikidata:Q914	Волгоград
+N49	Reference T46 Wikidata:Q914	Волгоград
+N50	Reference T32 Wikidata:Q914	Волгоград
+N51	Reference T14 Wikidata:Q873364	бронзовая медаль
+N52	Reference T52 Wikidata:Q15243387	
+N53	Reference T55 Wikidata:Q2066131	спортсмен
+N54	Reference T13 Wikidata:Q2066131	спортсмен
+N55	Reference T63 Wikidata:Q2066131	спортсмен
+N56	Reference T70 Wikidata:Q2066131	спортсмен
+N57	Reference T71 Wikidata:Q2066131	спортсмен
+N58	Reference T29 Wikidata:NULL	нет данных

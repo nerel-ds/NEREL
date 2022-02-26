@@ -1,0 +1,55 @@
+T1	DATE 0 8	В апреле
+T3	DATE 59 77	В апреле 2014 года
+T4	PERSON 90 100	Юлии Сырых
+T5	WORK_OF_ART 104 151	Наши дни. Стихи для дошкольников на каждый день
+T6	NUMBER 215 218	2-4
+T9	AGE 1574 1599	от двух до шести-семи лет
+T10	PERSON 1602 1612	Юлия Сырых
+T11	CITY 1624 1630	Рязани
+T12	STATE_OR_PROVINCE 1651 1656	Крыму
+T13	PROFESSION 1675 1716	преподаватель русского языка и литературы
+T15	NUMBER 1806 1811	двоих
+T16	PROFESSION 1819 1827	Дизайнер
+T17	PROFESSION 1855 1867	арт-директор
+T18	ORGANIZATION 1883 1891	Диковина
+T19	PERSON 2066 2070	Юлии
+T2	WORK_OF_ART 48 56	Наши дни
+R1	PRODUCES Arg1:T4 Arg2:T5	
+R2	DATE_OF_CREATION Arg1:T2 Arg2:T1	
+R3	DATE_OF_CREATION Arg1:T5 Arg2:T3	
+T7	TIME 1060 1066	с утра
+T8	WORK_OF_ART 1261 1269	Наши дни
+R4	PLACE_OF_BIRTH Arg1:T10 Arg2:T11	
+R5	PLACE_RESIDES_IN Arg1:T10 Arg2:T12	
+T20	ORGANIZATION 1759 1798	Таврического Национального Университета
+R6	SCHOOLS_ATTENDED Arg1:T10 Arg2:T22	
+T14	PRODUCT 2027 2050	Учимся читать с любовью
+R7	PRODUCES Arg1:T10 Arg2:T14	
+R8	FOUNDED_BY Arg1:T18 Arg2:T10	
+R9	WORKS_AS Arg1:T10 Arg2:T16	
+R10	WORKS_AS Arg1:T10 Arg2:T17	
+R11	WORKPLACE Arg1:T10 Arg2:T18	
+T21	PROFESSION 1675 1688	преподаватель
+T22	ORGANIZATION 1728 1798	факультет славянской филологии Таврического Национального Университета
+R12	PART_OF Arg1:T22 Arg2:T20	
+R13	WORKPLACE Arg1:T17 Arg2:T18	
+R14	ALTERNATIVE_NAME Arg1:T10 Arg2:T19	
+N3	Reference T11 Wikidata:Q2746	Рязань
+N4	Reference T12 Wikidata:Q7835	Крымский полуостров
+N6	Reference T16 Wikidata:Q5322166	дизайнер
+N7	Reference T17 Wikidata:Q706364	арт-директор
+N10	Reference T20 Wikidata:Q1517401	Таврический университет
+N12	Reference T21 Wikidata:Q37226	учитель
+N1	Reference T5 Wikidata:NULL	нет данных
+N9	Reference T8 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:NULL	нет данных
+N13	Reference T22 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:NULL	нет данных
+N11	Reference T14 Wikidata:NULL	нет данных
+N14	Reference T2 Wikidata:NULL	нет данных
+N15	Reference T19 Wikidata:NULL	нет данных
+N16	Reference T4 Wikidata:NULL	нет данных
+T23	EVENT 1613 1621	родилась
+R15	PARTICIPANT_IN Arg1:T10 Arg2:T23	
+R16	TAKES_PLACE_IN Arg1:T23 Arg2:T11	

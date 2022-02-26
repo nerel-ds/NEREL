@@ -1,0 +1,86 @@
+T1	ORGANIZATION 2 9	Госдуме
+T2	CITY 81 90	Ванкувере
+T3	DATE 91 102	в 2009 году
+T4	CITY 121 127	Кёльне
+T5	ORGANIZATION 128 184	Комитет Госдумы России по вопросам семьи, женщин и детей
+T8	ORDINAL 675 681	первом
+T9	DATE 689 707	в январе 2013 года
+T10	MONEY 786 817	от четырех до пяти тысяч рублей
+T11	MONEY 841 865	от 40 до 50 тысяч рублей
+T12	MONEY 891 917	от 400 до 500 тысяч рублей
+T14	ORGANIZATION 926 968	комитета по вопросам семьи, женщин и детей
+T15	PERSON 969 983	Елена Мизулина
+T16	LAW 1072 1101	законопроект о гей-пропаганде
+T17	COUNTRY 1212 1218	России
+T18	CITY 1248 1264	Санкт-Петербурге
+T19	STATE_OR_PROVINCE 1268 1281;1339 1347	Архангельской областях
+T20	STATE_OR_PROVINCE 1283 1292;1339 1347	Рязанской областях
+T21	STATE_OR_PROVINCE 1294 1305;1339 1347	Костромской областях
+T22	STATE_OR_PROVINCE 1307 1320;1339 1347	Новосибирской областях
+T23	STATE_OR_PROVINCE 1323 1347	Калининградской областях
+T24	ORGANIZATION 1349 1362	Европарламент
+T25	ORGANIZATION 1408 1411	МИД
+T26	COUNTRY 1412 1418	России
+T27	COUNTRY 1475 1481	России
+T28	ORGANIZATION 136 150	Госдумы России
+T29	COUNTRY 144 150	России
+T30	LAW 198 236	законопроекту о запрете гей-пропаганды
+T31	CRIME 299 337	оправдание и одобрение гомосексуализма
+T32	CRIME 346 480	формирование у несовершеннолетних искаженного представления о социальной равноценности традиционных и нетрадиционных брачных отношений
+T6	LAW 590 659	О защите детей от информации, причиняющей вред их здоровью и развитию
+T7	EVENT 665 688	одобрен в первом чтении
+T33	PENALTY 759 766	штрафов
+T13	LAW 1135 1178	Законы о запрете пропаганды гомосексуализма
+T34	ORGANIZATION 1408 1418	МИД России
+T35	CRIME 35 61	оправдание гомосексуализма
+R1	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R2	POINT_IN_TIME Arg1:T7 Arg2:T9	
+T36	PROFESSION 920 968	Глава комитета по вопросам семьи, женщин и детей
+R3	WORKPLACE Arg1:T15 Arg2:T14	
+R4	WORKS_AS Arg1:T15 Arg2:T36	
+R5	WORKPLACE Arg1:T36 Arg2:T14	
+R6	LOCATED_IN Arg1:T18 Arg2:T17	
+R7	LOCATED_IN Arg1:T19 Arg2:T17	
+R8	LOCATED_IN Arg1:T20 Arg2:T17	
+R9	LOCATED_IN Arg1:T21 Arg2:T17	
+R10	LOCATED_IN Arg1:T22 Arg2:T17	
+R11	LOCATED_IN Arg1:T23 Arg2:T17	
+R12	HEADQUARTERED_IN Arg1:T34 Arg2:T26	
+R13	PRODUCES Arg1:T5 Arg2:T30	
+T37	CRIME 222 236	гей-пропаганды
+T38	PENALTY 276 282	штрафы
+R14	HAS_CAUSE Arg1:T38 Arg2:T31	
+R15	HAS_CAUSE Arg1:T38 Arg2:T32	
+R16	PART_OF Arg1:T5 Arg2:T28	
+T39	PENALTY 21 31	штрафовать
+R17	HAS_CAUSE Arg1:T39 Arg2:T35	
+R18	ALTERNATIVE_NAME Arg1:T39 Arg2:T38	
+R19	INANIMATE_INVOLVED Arg1:T6 Arg2:T7	
+R20	AGENT Arg1:T28 Arg2:T7	
+N1	Reference T1 Wikidata:Q715641	Государственная дума
+N2	Reference T2 Wikidata:Q24639	Ванкувер
+N3	Reference T4 Wikidata:Q365	Кёльн
+N6	Reference T15 Wikidata:Q4292925	Мизулина, Елена Борисовна
+N8	Reference T18 Wikidata:Q656	Санкт-Петербург
+N9	Reference T20 Wikidata:Q2753	Рязанская область
+N10	Reference T21 Wikidata:Q2596	Костромская область
+N11	Reference T22 Wikidata:Q5851	Новосибирская область
+N12	Reference T23 Wikidata:Q1749	Калининградская область
+N15	Reference T28 Wikidata:Q715641	Государственная дума
+N16	Reference T29 Wikidata:Q159	Россия
+N21	Reference T34 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N4	Reference T5 Wikidata:NULL	нет данных
+N17	Reference T30 Wikidata:Q4184937	
+N19	Reference T32 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:NULL	нет данных
+N20	Reference T6 Wikidata:Q3848208	
+N22	Reference T36 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q3848208	
+N23	Reference T13 Wikidata:Q3848208	
+N24	Reference T19 Wikidata:Q1875	Архангельская область
+N13	Reference T24 Wikidata:Q8889	Европейский парламент
+N14	Reference T25 Wikidata:Q20901295	Министерство иностранных дел
+N25	Reference T27 Wikidata:Q159	Россия
+N26	Reference T17 Wikidata:Q159	Россия
+N27	Reference T26 Wikidata:Q159	Россия

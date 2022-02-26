@@ -1,0 +1,197 @@
+T1	PERSON 8 21	Бенедикта XVI
+T2	PERSON 29 41	Бенедикт XVI
+T3	COUNTRY 65 72	Ватикан
+T4	PROFESSION 99 131	главы Римско-католической церкви
+T5	PROFESSION 133 145	папа римский
+T6	PERSON 146 158	Бенедикт XVI
+T7	PRODUCT 181 188	Twitter
+T8	DATE 229 249	28 февраля 2013 года
+T9	PERSON 346 353	Христос
+T10	DATE 385 408	В декабре прошлого года
+T12	NUMBER 553 577	более полутора миллионов
+T13	COUNTRY 592 599	Ватикан
+T14	PERSON 673 685	Бенедикт XVI
+T15	PRODUCT 911 918	Twitter
+T16	PROFESSION 924 936	Папа Римский
+T17	COUNTRY 945 952	Ватикан
+T18	DATE 970 990	28 февраля 2013 года
+T19	PERSON 1004 1016	Бенедикт XVI
+T20	COUNTRY 1082 1089	Ватикан
+T21	DATE 1268 1284	в последний день
+T22	PERSON 1324 1336	Бенедикт XVI
+T23	PROFESSION 1556 1569	Папы Римского
+T24	FACILITY 1689 1706	Кастель Гандольфо
+T25	PERSON 1782 1795	Бенедикта XVI
+T26	TIME 1815 1848	в 20:00 часов по местному времени
+T27	TIME 1850 1871	23::00 по московскому
+T28	TIME 1874 1884	В этот час
+T29	FACILITY 1903 1920	Кастель Гандольфо
+T30	NATIONALITY 1935 1946	швейцарские
+T31	PERSON 2008 2021	Бенедикта XVI
+T32	DATE 2024 2039	В ближайшие дни
+T33	AGE 2061 2073	менее 80 лет
+T34	EVENT 2099 2107	конклава
+T35	PRODUCT 0 7	Твиттер
+T36	ORDINAL 18 21	XVI
+T37	ORDINAL 38 41	XVI
+T38	ORGANIZATION 105 131	Римско-католической церкви
+T40	ORDINAL 155 158	XVI
+T41	PERSON 409 417	Бенедикт
+T42	ORDINAL 423 429	первым
+T43	PROFESSION 430 440	понтификом
+T44	LANGUAGE 503 515	Англоязычная
+T11	PRODUCT 623 631	твиттера
+T45	PRODUCT 532 540	твиттера
+T46	EVENT 664 672	отставки
+T48	ORDINAL 682 685	XVI
+T49	PRODUCT 730 737	твиттер
+T52	PROFESSION 847 851	папу
+T53	PROFESSION 991 1003	Папа Римский
+T54	ORDINAL 1013 1016	XVI
+T55	EVENT 1017 1036	отрёкся от престола
+T56	PROFESSION 1061 1072	кардиналами
+T57	PROFESSION 1190 1195	Папой
+T58	PROFESSION 1256 1267	кардиналами
+T59	ORDINAL 1333 1336	XVI
+T60	PROFESSION 1411 1424	папы римского
+T61	PROFESSION 1594 1606	главы церкви
+T62	PROFESSION 1631 1639	понтифик
+T63	EVENT 1762 1770	отставке
+T64	EVENT 1773 1781	Отставка
+T65	ORDINAL 1792 1795	XVI
+T66	PROFESSION 1947 1956	гвардейцы
+T67	ORDINAL 2018 2021	XVI
+T68	PROFESSION 2040 2049	кардиналы
+T69	PROFESSION 2139 2151	Папа Римский
+T50	PROFESSION 818 828	кардиналов
+T47	EVENT 82 90	отставку
+R1	AGENT Arg1:T6 Arg2:T47	
+T39	RELIGION 105 124	Римско-католической
+T70	CITY 105 111	Римско
+R2	RELIGION_OF Arg1:T38 Arg2:T39	
+R3	WORKPLACE Arg1:T4 Arg2:T38	
+T71	CITY 138 145	римский
+R4	WORKPLACE Arg1:T5 Arg2:T71	
+R5	WORKS_AS Arg1:T6 Arg2:T5	
+R6	WORKS_AS Arg1:T6 Arg2:T4	
+R7	WORKPLACE Arg1:T6 Arg2:T38	
+R8	LOCATED_IN Arg1:T3 Arg2:T70	
+R9	WORKPLACE Arg1:T6 Arg2:T3	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T41	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T43	
+R12	WORKS_AS Arg1:T41 Arg2:T43	
+T73	PROFESSION 523 531	папского
+T74	PROFESSION 614 622	папского
+T75	PROFESSION 133 137	папа
+R15	ALTERNATIVE_NAME Arg1:T75 Arg2:T73	
+R16	PARTICIPANT_IN Arg1:T14 Arg2:T46	
+T76	PROFESSION 708 722	почётным папой
+R17	WORKS_AS Arg1:T14 Arg2:T76	
+T77	CITY 929 936	Римский
+R19	WORKPLACE Arg1:T16 Arg2:T77	
+T79	CITY 996 1003	Римский
+R22	WORKPLACE Arg1:T53 Arg2:T79	
+R23	WORKS_AS Arg1:T19 Arg2:T53	
+R24	POINT_IN_TIME Arg1:T55 Arg2:T18	
+R25	ALTERNATIVE_NAME Arg1:T46 Arg2:T55	
+T78	CITY 1416 1424	римского
+R20	WORKPLACE Arg1:T60 Arg2:T78	
+T80	CITY 1561 1569	Римского
+R21	WORKPLACE Arg1:T23 Arg2:T80	
+T81	PROFESSION 1411 1415	папы
+T82	PROFESSION 1556 1560	Папы
+T83	PROFESSION 991 995	Папа
+T84	PROFESSION 924 928	Папа
+T85	EVENT 937 944	покинул
+R26	AGENT Arg1:T16 Arg2:T85	
+R27	PARTICIPANT_IN Arg1:T17 Arg2:T85	
+R28	WORKPLACE Arg1:T16 Arg2:T17	
+T86	EVENT 1074 1081	покинул
+R29	HAS_CAUSE Arg1:T86 Arg2:T55	
+R30	AGENT Arg1:T19 Arg2:T86	
+R31	PARTICIPANT_IN Arg1:T20 Arg2:T86	
+R32	WORKPLACE Arg1:T19 Arg2:T20	
+R33	PLACE_RESIDES_IN Arg1:T62 Arg2:T24	
+R34	PARTICIPANT_IN Arg1:T25 Arg2:T64	
+R35	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R36	POINT_IN_TIME Arg1:T64 Arg2:T26	
+R37	ORIGINS_FROM Arg1:T66 Arg2:T30	
+R38	AGE_IS Arg1:T68 Arg2:T33	
+R39	PARTICIPANT_IN Arg1:T68 Arg2:T34	
+T87	CITY 2144 2151	Римский
+R40	WORKPLACE Arg1:T69 Arg2:T87	
+R41	POINT_IN_TIME Arg1:T34 Arg2:T32	
+T51	EVENT 810 817	конклав
+R18	PARTICIPANT_IN Arg1:T50 Arg2:T51	
+R42	RELIGION_OF Arg1:T6 Arg2:T39	
+R13	TAKES_PLACE_IN Arg1:T46 Arg2:T13	
+R14	AGENT Arg1:T19 Arg2:T55	
+R43	ALTERNATIVE_NAME Arg1:T53 Arg2:T57	
+T72	EVENT 1241 1249	Выступая
+R44	AGENT Arg1:T22 Arg2:T72	
+R45	HAS_CAUSE Arg1:T72 Arg2:T55	
+R46	PARTICIPANT_IN Arg1:T58 Arg2:T72	
+R47	POINT_IN_TIME Arg1:T72 Arg2:T21	
+R48	AGENT Arg1:T62 Arg2:T63	
+T88	EVENT 2126 2132	избран
+R49	PARTICIPANT_IN Arg1:T69 Arg2:T88	
+R50	HAS_CAUSE Arg1:T34 Arg2:T88	
+R51	AGENT Arg1:T68 Arg2:T88	
+N1	Reference T1 Wikidata:Q2494	Бенедикт XVI
+N4	Reference T13 Wikidata:Q237	Ватикан
+N5	Reference T15 Wikidata:Q918	Твиттер
+N6	Reference T16 Wikidata:Q19546	Папа Римский
+N9	Reference T38 Wikidata:Q9592	католическая церковь
+N11	Reference T49 Wikidata:Q918	Твиттер
+N15	Reference T68 Wikidata:Q45722	кардинал
+N17	Reference T70 Wikidata:Q220	Рим
+N8	Reference T30 Wikidata:Q124216	швейцарцы
+N14	Reference T66 Wikidata:Q5614144	
+N13	Reference T62 Wikidata:Q19546	Папа Римский
+N7	Reference T24 Wikidata:Q2739100	
+N12	Reference T61 Wikidata:Q4139103	
+N18	Reference T79 Wikidata:Q220	Рим
+N19	Reference T76 Wikidata:Q5574822	
+N10	Reference T44 Wikidata:Q1860	английский язык
+N3	Reference T9 Wikidata:Q302	Иисус Христос
+N20	Reference T75 Wikidata:Q19546	Папа Римский
+N16	Reference T39 Wikidata:Q1841	католичество
+N2	Reference T4 Wikidata:NULL	нет данных
+N21	Reference T22 Wikidata:Q2494	Бенедикт XVI
+N22	Reference T19 Wikidata:Q2494	Бенедикт XVI
+N23	Reference T31 Wikidata:Q2494	Бенедикт XVI
+N24	Reference T14 Wikidata:Q2494	Бенедикт XVI
+N25	Reference T25 Wikidata:Q2494	Бенедикт XVI
+N26	Reference T2 Wikidata:Q2494	Бенедикт XVI
+N27	Reference T6 Wikidata:Q2494	Бенедикт XVI
+N28	Reference T41 Wikidata:Q2494	Бенедикт XVI
+N29	Reference T17 Wikidata:Q237	Ватикан
+N30	Reference T3 Wikidata:Q237	Ватикан
+N31	Reference T20 Wikidata:Q237	Ватикан
+N32	Reference T7 Wikidata:Q918	Твиттер
+N33	Reference T69 Wikidata:Q19546	Папа Римский
+N34	Reference T57 Wikidata:Q19546	Папа Римский
+N35	Reference T53 Wikidata:Q19546	Папа Римский
+N36	Reference T23 Wikidata:Q19546	Папа Римский
+N37	Reference T83 Wikidata:Q19546	Папа Римский
+N38	Reference T84 Wikidata:Q19546	Папа Римский
+N39	Reference T52 Wikidata:Q19546	Папа Римский
+N40	Reference T60 Wikidata:Q19546	Папа Римский
+N41	Reference T82 Wikidata:Q19546	Папа Римский
+N42	Reference T81 Wikidata:Q19546	Папа Римский
+N43	Reference T45 Wikidata:Q918	Твиттер
+N44	Reference T11 Wikidata:Q918	Твиттер
+N45	Reference T35 Wikidata:Q918	Твиттер
+N46	Reference T50 Wikidata:Q45722	кардинал
+N47	Reference T56 Wikidata:Q45722	кардинал
+N48	Reference T58 Wikidata:Q45722	кардинал
+N49	Reference T5 Wikidata:Q19546	Папа Римский
+N50	Reference T43 Wikidata:Q19546	Папа Римский
+N51	Reference T29 Wikidata:Q2739100	
+N52	Reference T87 Wikidata:Q220	Рим
+N53	Reference T80 Wikidata:Q220	Рим
+N54	Reference T77 Wikidata:Q220	Рим
+N55	Reference T78 Wikidata:Q220	Рим
+N56	Reference T71 Wikidata:Q220	Рим
+N57	Reference T73 Wikidata:Q19546	Папа Римский
+N58	Reference T74 Wikidata:Q19546	Папа Римский

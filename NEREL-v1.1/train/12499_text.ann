@@ -1,0 +1,138 @@
+T1	CITY 6 14	Лондоном
+T2	CITY 17 24	Москвой
+T3	COUNTRY 101 125	Соединённого Королевства
+T4	CITY 178 185	Лондоне
+T5	DATE 201 211	10 декабря
+T6	NATIONALITY 213 222	Россиянин
+T7	COUNTRY 239 249	британской
+T8	COUNTRY 284 295	российскими
+T9	COUNTRY 350 356	Россия
+T10	CITY 410 416	Москве
+T11	DATE 443 453	16 декабря
+T12	ORGANIZATION 456 459	РБК
+T13	DATE 476 492	в начале декабря
+T14	COUNTRY 495 509	Великобритании
+T15	AGE 525 534	25-летняя
+T16	NATIONALITY 535 544	россиянка
+T17	PERSON 545 566	Екатерина Затуливетер
+T18	PROFESSION 602 669	помощницей члена парламента Великобритании от округа Южный Портсмут
+T19	STATE_OR_PROVINCE 655 669	Южный Портсмут
+T20	COUNTRY 671 681	Британские
+T21	NATIONALITY 695 704	россиянку
+T22	COUNTRY 774 784	российские
+T23	NATIONALITY 812 821	россиянку
+T24	COUNTRY 874 888	Великобритании
+T25	DATE 889 908	за последние 30 лет
+T26	COUNTRY 917 931	Великобритании
+T27	DATE 962 972	14 декабря
+T28	EVENT 42 59	шпионский скандал
+T29	CRIME 85 93	шпионаже
+T30	PROFESSION 152 185	дипломата посольства РФ в Лондоне
+T31	ORGANIZATION 162 185	посольства РФ в Лондоне
+T32	COUNTRY 173 175	РФ
+T33	EVENT 134 151	выслали из страны
+T34	EVENT 227 235	выдворен
+T35	CRIME 276 308	связь с российскими спецслужбами
+T36	COUNTRY 393 407	Великобритании
+T37	ORGANIZATION 382 416	посольства Великобритании в Москве
+T38	EVENT 363 370	выслала
+T39	PROFESSION 371 416	сотрудника посольства Великобритании в Москве
+T40	EVENT 515 524	задержана
+T41	CRIME 583 591	шпионаже
+T42	PROFESSION 613 669	члена парламента Великобритании от округа Южный Портсмут
+T43	ORGANIZATION 619 644	парламента Великобритании
+T44	COUNTRY 630 644	Великобритании
+T45	PROFESSION 785 791	шпионы
+T46	PROFESSION 974 981	шпионку
+T47	EVENT 983 1002	отпустили под залог
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T28	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T28	
+T48	CITY 239 257	британской столицы
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T48	
+R4	LOCATED_IN Arg1:T48 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+T49	ORGANIZATION 94 125	власти Соединённого Королевства
+R6	CONVICTED_OF Arg1:T30 Arg2:T29	
+R7	PARTICIPANT_IN Arg1:T30 Arg2:T33	
+R8	AGENT Arg1:T49 Arg2:T33	
+R9	HEADQUARTERED_IN Arg1:T49 Arg2:T3	
+T50	ORGANIZATION 162 175	посольства РФ
+R10	WORKPLACE Arg1:T30 Arg2:T31	
+R13	HEADQUARTERED_IN Arg1:T31 Arg2:T4	
+R14	ORIGINS_FROM Arg1:T30 Arg2:T6	
+R15	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R16	POINT_IN_TIME Arg1:T33 Arg2:T5	
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T34	
+R18	TAKES_PLACE_IN Arg1:T34 Arg2:T48	
+R19	CONVICTED_OF Arg1:T6 Arg2:T35	
+R20	LOCATED_IN Arg1:T10 Arg2:T9	
+R21	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+R22	POINT_IN_TIME Arg1:T38 Arg2:T11	
+R23	PARTICIPANT_IN Arg1:T39 Arg2:T38	
+R24	WORKPLACE Arg1:T39 Arg2:T37	
+T51	ORGANIZATION 382 407	посольства Великобритании
+R25	ORIGINS_FROM Arg1:T36 Arg2:T37	
+R26	HEADQUARTERED_IN Arg1:T37 Arg2:T10	
+R27	CONVICTED_OF Arg1:T17 Arg2:T41	
+R28	ORIGINS_FROM Arg1:T17 Arg2:T16	
+R29	AGE_IS Arg1:T17 Arg2:T15	
+R30	TAKES_PLACE_IN Arg1:T40 Arg2:T14	
+R31	POINT_IN_TIME Arg1:T40 Arg2:T13	
+R32	HAS_CAUSE Arg1:T40 Arg2:T41	
+R33	WORKS_AS Arg1:T17 Arg2:T18	
+R34	SUBORDINATE_OF Arg1:T18 Arg2:T42	
+R35	SUBORDINATE_OF Arg1:T17 Arg2:T42	
+R36	ORIGINS_FROM Arg1:T18 Arg2:T19	
+R37	LOCATED_IN Arg1:T19 Arg2:T44	
+T52	CRIME 707 765	выведывании секретов атомной энергетики и подводного флота
+T53	ORGANIZATION 910 931	Власти Великобритании
+R38	PARTICIPANT_IN Arg1:T17 Arg2:T47	
+R39	POINT_IN_TIME Arg1:T47 Arg2:T27	
+R40	HEADQUARTERED_IN Arg1:T53 Arg2:T26	
+R41	AGENT Arg1:T53 Arg2:T47	
+R42	TAKES_PLACE_IN Arg1:T47 Arg2:T26	
+R43	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R44	WORKS_AS Arg1:T17 Arg2:T46	
+R11	OWNER_OF Arg1:T32 Arg2:T50	
+R12	OWNER_OF Arg1:T32 Arg2:T31	
+R45	CONVICTED_OF Arg1:T21 Arg2:T52	
+R46	CONVICTED_OF Arg1:T17 Arg2:T52	
+R47	HAS_CAUSE Arg1:T34 Arg2:T35	
+R48	ORIGINS_FROM Arg1:T45 Arg2:T22	
+N1	Reference T3 Wikidata:Q145	Великобритания
+N2	Reference T6 Wikidata:Q492468	россияне
+N3	Reference T9 Wikidata:Q159	Россия
+N4	Reference T10 Wikidata:Q649	Москва
+N5	Reference T12 Wikidata:Q629733	РосБизнесКонсалтинг
+N6	Reference T16 Wikidata:Q492468	россияне
+N12	Reference T32 Wikidata:Q159	Россия
+N13	Reference T37 Wikidata:Q4373981	Посольство Великобритании в Москве
+N15	Reference T43 Wikidata:Q11010	Парламент Великобритании
+N16	Reference T44 Wikidata:Q145	Великобритания
+N17	Reference T45 Wikidata:Q2314719	разведчик
+N20	Reference T49 Wikidata:NULL	нет данных
+N10	Reference T30 Wikidata:NULL	нет данных
+N21	Reference T50 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:Q4374047	Посольство Российской Федерации в Великобритании
+N19	Reference T48 Wikidata:Q84	Лондон
+N23	Reference T51 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N24	Reference T18 Wikidata:NULL	нет данных
+N25	Reference T42 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:Q159	Россия
+N22	Reference T53 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:Q9352089	
+N26	Reference T7 Wikidata:Q145	Великобритания
+N27	Reference T20 Wikidata:Q145	Великобритания
+N28	Reference T2 Wikidata:Q649	Москва
+N29	Reference T21 Wikidata:Q492468	россияне
+N30	Reference T23 Wikidata:Q492468	россияне
+N31	Reference T14 Wikidata:Q145	Великобритания
+N32	Reference T24 Wikidata:Q145	Великобритания
+N33	Reference T26 Wikidata:Q145	Великобритания
+N34	Reference T36 Wikidata:Q145	Великобритания
+N35	Reference T4 Wikidata:Q84	Лондон
+N36	Reference T1 Wikidata:Q84	Лондон
+N37	Reference T8 Wikidata:Q159	Россия

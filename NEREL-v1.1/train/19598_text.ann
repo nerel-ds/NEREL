@@ -1,0 +1,144 @@
+T1	PERSON 6 25	Александр Белявский
+T2	AGE 26 35	80-летний
+T3	PROFESSION 45 51	артист
+T4	PERSON 59 88	Александр Борисович Белявский
+T5	FACILITY 126 135	дома № 26
+T6	FACILITY 139 167	Большому Тишинскому переулку
+T7	ORGANIZATION 207 218	РИА Новости
+T8	PERSON 427 436	Белявский
+T9	ORDINAL 449 454	пятый
+T10	ORDINAL 485 490	пятом
+T11	ORDINAL 537 544	третьем
+T12	PERSON 547 566	Александр Белявский
+T13	NUMBER 574 589	более чем в 100
+T14	WORK_OF_ART 656 680	Четыре танкиста и собака
+T16	WORK_OF_ART 684 704	Кабачок „13 стульев“
+T20	WORK_OF_ART 739 773	Ирония судьбы, или С лёгким паром!
+T21	DATE 868 881	в 1980-е годы
+T22	NATIONALITY 900 910	российским
+T23	NATIONALITY 919 930	британского
+T24	PERSON 938 949	Бенни Хилла
+T25	DATE 952 963	В 2003 году
+T26	PERSON 989 993	Саша
+T27	DATE 995 1018	Через несколько месяцев
+T28	DATE 1119 1136	В последнее время
+T29	WORK_OF_ART 1358 1384	Ирония судьбы. Продолжение
+T30	DATE 1395 1406	в 2007 году
+T31	PERSON 1420 1429	Белявским
+T32	FACILITY 1442 1451	Доме кино
+T33	FACILITY 1472 1492	Кузьминском кладбище
+T34	CITY 1495 1501	Москве
+T35	EVENT 0 5	Погиб
+T36	AWARD 36 58	народный артист России
+T37	COUNTRY 52 58	России
+T38	NUMBER 131 135	№ 26
+T39	LOCATION 170 183	центре Москвы
+T40	CITY 177 183	Москвы
+T42	PROFESSION 254 260	актёра
+T43	PROFESSION 312 318	актёра
+T44	PROFESSION 392 398	актёра
+T45	PROFESSION 524 529	актёр
+T15	ORDINAL 721 727	первым
+T17	WORK_OF_ART 778 807	Место встречи изменить нельзя
+T18	PROFESSION 840 847	актёров
+T19	PROFESSION 931 937	комика
+T46	PROFESSION 966 972	актёра
+T47	DISEASE 1038 1045	инсульт
+T48	PROFESSION 1137 1142	актёр
+T49	PROFESSION 1282 1287	актёр
+T51	DATE 1502 1523	12 сентября 2012 года
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T35	
+R2	WORKS_AS Arg1:T4 Arg2:T3	
+R3	AWARDED_WITH Arg1:T4 Arg2:T36	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R5	AGE_DIED_AT Arg1:T4 Arg2:T2	
+R6	LOCATED_IN Arg1:T39 Arg2:T40	
+R7	LOCATED_IN Arg1:T6 Arg2:T39	
+R8	LOCATED_IN Arg1:T5 Arg2:T6	
+R9	PLACE_RESIDES_IN Arg1:T4 Arg2:T5	
+T52	EVENT 93 107	найден мёртвым
+R10	TAKES_PLACE_IN Arg1:T52 Arg2:T5	
+R11	ORIGINS_FROM Arg1:T36 Arg2:T37	
+R12	WORKS_AS Arg1:T4 Arg2:T42	
+T41	EVENT 249 253;261 273	тело было найдено
+R13	ALTERNATIVE_NAME Arg1:T52 Arg2:T41	
+R14	ALTERNATIVE_NAME Arg1:T4 Arg2:T8	
+R15	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R16	PARTICIPANT_IN Arg1:T12 Arg2:T14	
+T53	NUMBER 693 695	13
+R17	PARTICIPANT_IN Arg1:T12 Arg2:T16	
+R18	PARTICIPANT_IN Arg1:T12 Arg2:T20	
+R19	PARTICIPANT_IN Arg1:T12 Arg2:T17	
+R20	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R21	WORKS_AS Arg1:T24 Arg2:T19	
+R22	ORIGINS_FROM Arg1:T12 Arg2:T22	
+R23	WORKS_AS Arg1:T12 Arg2:T46	
+R24	PARENT_OF Arg1:T46 Arg2:T26	
+T54	DISEASE 1074 1089	не мог говорить
+R25	MEDICAL_CONDITION Arg1:T12 Arg2:T47	
+R26	MEDICAL_CONDITION Arg1:T12 Arg2:T54	
+R27	ALTERNATIVE_NAME Arg1:T46 Arg2:T48	
+T55	DISEASE 1143 1155	сильно болел
+T56	DISEASE 1169 1201	нарушено мозговое кровообращение
+R28	MEDICAL_CONDITION Arg1:T12 Arg2:T55	
+R29	MEDICAL_CONDITION Arg1:T12 Arg2:T56	
+R30	MEDICAL_CONDITION Arg1:T48 Arg2:T55	
+R31	MEDICAL_CONDITION Arg1:T48 Arg2:T56	
+R32	DATE_OF_CREATION Arg1:T29 Arg2:T30	
+T57	EVENT 1409 1417	Прощание
+R33	TAKES_PLACE_IN Arg1:T57 Arg2:T32	
+T58	EVENT 1455 1464	похоронят
+R34	LOCATED_IN Arg1:T33 Arg2:T34	
+R35	TAKES_PLACE_IN Arg1:T58 Arg2:T33	
+R36	POINT_IN_TIME Arg1:T58 Arg2:T51	
+R37	PARTICIPANT_IN Arg1:T12 Arg2:T29	
+R38	PARTICIPANT_IN Arg1:T49 Arg2:T29	
+R39	WORKS_AS Arg1:T12 Arg2:T49	
+R40	ORIGINS_FROM Arg1:T19 Arg2:T23	
+R41	INANIMATE_INVOLVED Arg1:T4 Arg2:T52	
+R42	INANIMATE_INVOLVED Arg1:T4 Arg2:T41	
+R43	WORKS_AS Arg1:T8 Arg2:T45	
+R44	DATE_OF_BIRTH Arg1:T26 Arg2:T25	
+T59	DISEASE 1105 1117	инвалидности
+R45	MEDICAL_CONDITION Arg1:T12 Arg2:T59	
+R46	INANIMATE_INVOLVED Arg1:T31 Arg2:T57	
+R47	INANIMATE_INVOLVED Arg1:T31 Arg2:T58	
+N2	Reference T3 Wikidata:Q483501	деятель искусств
+N3	Reference T6 Wikidata:Q4092884	Большой Тишинский переулок
+N4	Reference T7 Wikidata:Q821172	РИА Новости
+N5	Reference T14 Wikidata:Q990	Четыре танкиста и собака
+N6	Reference T16 Wikidata:Q4206631	Кабачок «13 стульев»
+N7	Reference T20 Wikidata:Q913426	Ирония судьбы, или С лёгким паром!
+N10	Reference T24 Wikidata:Q200228	Хилл, Бенни
+N12	Reference T29 Wikidata:Q1454748	Ирония судьбы. Продолжение
+N13	Reference T32 Wikidata:Q40008864	Центральный Дом кино
+N15	Reference T36 Wikidata:Q1857712	Народный артист Российской Федерации
+N16	Reference T37 Wikidata:Q159	Россия
+N17	Reference T39 Wikidata:Q190412	Центральный административный округ Москвы
+N18	Reference T40 Wikidata:Q649	Москва
+N19	Reference T42 Wikidata:Q33999	актёр
+N20	Reference T17 Wikidata:Q2370768	Место встречи изменить нельзя
+N21	Reference T19 Wikidata:Q245068	комик
+N1	Reference T1 Wikidata:Q2067930	
+N22	Reference T5 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q159	Россия
+N9	Reference T23 Wikidata:Q842438	британцы
+N11	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T33 Wikidata:Q4245480	Кузьминское кладбище
+N23	Reference T34 Wikidata:Q649	Москва
+N24	Reference T44 Wikidata:Q33999	актёр
+N25	Reference T46 Wikidata:Q33999	актёр
+N26	Reference T49 Wikidata:Q33999	актёр
+N27	Reference T48 Wikidata:Q33999	актёр
+N28	Reference T43 Wikidata:Q33999	актёр
+N29	Reference T18 Wikidata:Q33999	актёр
+N30	Reference T45 Wikidata:Q33999	актёр
+N31	Reference T8 Wikidata:Q2067930	
+N32	Reference T12 Wikidata:Q2067930	
+N33	Reference T31 Wikidata:Q2067930	
+N34	Reference T4 Wikidata:Q2067930	
+T50	NUMBER 656 662	Четыре
+T60	EVENT 973 981	родилась
+R48	POINT_IN_TIME Arg1:T60 Arg2:T25	
+R49	PARTICIPANT_IN Arg1:T26 Arg2:T60	
+R50	PARTICIPANT_IN Arg1:T46 Arg2:T60	

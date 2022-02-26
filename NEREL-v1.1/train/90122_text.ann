@@ -1,0 +1,66 @@
+T1	STATE_OR_PROVINCE 11 19	Мичигане
+T2	NUMBER 27 32	шесть
+T3	CITY 41 49	Каламазу
+T4	COUNTRY 57 60	США
+T5	STATE_OR_PROVINCE 117 124	Мичиган
+T6	NUMBER 147 152	шесть
+T7	NUMBER 171 175	двое
+T8	TIME 214 231	вечером в субботу
+T9	CITY 248 256	Каламазу
+T11	TIME 288 309	в ночь на воскресенье
+T12	AGE 321 331	45-летнего
+T13	PERSON 332 349	Джейсона Дальтона
+T14	TIME 566 587	Через несколько часов
+T15	NUMBER 601 605	двух
+T16	TIME 681 706	Еще через несколько минут
+T17	NUMBER 726 733	пятерых
+T18	AGE 793 802	14-летняя
+T10	DATE 222 231	в субботу
+T20	ORGANIZATION 280 287	полиция
+T19	EVENT 891 917	получила серьезные ранения
+T21	DISEASE 541 556	серьезно ранена
+T22	EVENT 0 8	Стрельба
+T23	EVENT 100 108	стрельбе
+T24	EVENT 495 503	стрельба
+T25	EVENT 829 837	стрельбе
+R1	TAKES_PLACE_IN Arg1:T22 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T23 Arg2:T5	
+R3	LOCATED_IN Arg1:T9 Arg2:T5	
+T26	EVENT 310 320	арестовала
+T27	EVENT 72 97	задержании подозреваемого
+R4	AGE_IS Arg1:T13 Arg2:T12	
+R5	PARTICIPANT_IN Arg1:T13 Arg2:T26	
+R6	AGENT Arg1:T20 Arg2:T26	
+T28	EVENT 596 613	убил двух человек
+T29	EVENT 710 741	выстрелил еще в пятерых человек
+R7	SUBEVENT_OF Arg1:T28 Arg2:T24	
+R8	SUBEVENT_OF Arg1:T29 Arg2:T24	
+T30	DATE 295 309	на воскресенье
+R9	POINT_IN_TIME Arg1:T26 Arg2:T30	
+T31	EVENT 21 40	убиты шесть человек
+R10	SUBEVENT_OF Arg1:T31 Arg2:T22	
+T32	EVENT 147 168	шесть человек погибли
+T33	EVENT 171 192	двое получили ранения
+R11	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R12	SUBEVENT_OF Arg1:T32 Arg2:T23	
+R13	SUBEVENT_OF Arg1:T33 Arg2:T23	
+T34	EVENT 195 203	Стрельба
+R14	POINT_IN_TIME Arg1:T34 Arg2:T10	
+R15	TAKES_PLACE_IN Arg1:T34 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T27 Arg2:T26	
+T35	DISEASE 910 917	ранения
+R17	SUBEVENT_OF Arg1:T19 Arg2:T25	
+T36	ORGANIZATION 50 60	Власти США
+R18	HEADQUARTERED_IN Arg1:T36 Arg2:T4	
+R19	AGENT Arg1:T36 Arg2:T27	
+R20	HAS_CAUSE Arg1:T27 Arg2:T23	
+T37	PROFESSION 361 372	полицейских
+N1	Reference T4 Wikidata:Q30	США
+N2	Reference T5 Wikidata:Q1166	Мичиган
+N3	Reference T9 Wikidata:Q167155	Каламазу
+N5	Reference T20 Wikidata:Q35535	полиция
+N7	Reference T36 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T37 Wikidata:Q384593	
+N8	Reference T1 Wikidata:Q1166	Мичиган
+N9	Reference T3 Wikidata:Q167155	Каламазу

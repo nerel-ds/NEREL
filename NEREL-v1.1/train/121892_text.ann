@@ -1,0 +1,115 @@
+T1	PROFESSION 0 8	Режиссёр
+T2	PERSON 9 26	Квентин Тарантино
+T3	NATIONALITY 39 50	израильской
+T4	PERSON 59 71	Даниэлой Пик
+T5	PERSON 72 89	Квентин Тарантино
+T6	AGE 90 99	54-летний
+T7	NATIONALITY 100 112	американский
+T8	PROFESSION 128 137	сценарист
+T9	PERSON 138 155	Квентин Тарантино
+T10	AGE 168 177	33-летней
+T11	NATIONALITY 178 189	израильской
+T12	PERSON 208 220	Даниэлой Пик
+T13	PERSON 249 258	Тарантино
+T14	DATE 266 294	в пятницу, 30 июня 2017 года
+T15	CITY 298 311	Лос-Анджелесе
+T16	DATE 349 358	много лет
+T17	DATE 378 389	в 2009 году
+T18	COUNTRY 392 399	Израиле
+T19	WORK_OF_ART 449 467	Бесславные ублюдки
+T20	DATE 474 490	через две недели
+T21	CITY 560 573	Лос-Анджелесе
+T22	DATE 631 642	в 2016 году
+T23	PERSON 673 682	Тарантино
+T24	PERSON 692 701	Тарантино
+T25	PERSON 708 718	Даниэл Пик
+T26	NATIONALITY 738 750	израильского
+T27	PROFESSION 758 769	композитора
+T28	PERSON 778 787	Цвика Пик
+T29	EVENT 27 36	обручился
+T30	PROFESSION 51 58	певицей
+T31	PROFESSION 113 125	кинорежиссёр
+T32	EVENT 156 165	обручился
+T33	PROFESSION 190 197	певицей
+T34	PROFESSION 200 207	моделью
+T35	EVENT 223 248	Предложение руки и сердца
+T36	PROFESSION 406 414	режиссёр
+T37	PERSON 512 515	Пик
+T38	PROFESSION 529 538	режиссёра
+T39	PERSON 652 655	Пик
+T40	PROFESSION 751 756	певца
+T41	PROFESSION 772 777	поэта
+T42	ORDINAL 662 668	первым
+R1	PARENT_OF Arg1:T28 Arg2:T25	
+R2	WORKS_AS Arg1:T28 Arg2:T41	
+R3	WORKS_AS Arg1:T28 Arg2:T27	
+R4	WORKS_AS Arg1:T28 Arg2:T40	
+R5	ORIGINS_FROM Arg1:T28 Arg2:T26	
+R6	ORIGINS_FROM Arg1:T40 Arg2:T26	
+R7	ORIGINS_FROM Arg1:T27 Arg2:T26	
+R8	ORIGINS_FROM Arg1:T41 Arg2:T26	
+R9	WORKS_AS Arg1:T2 Arg2:T1	
+R10	KNOWS Arg1:T2 Arg2:T4	
+R11	AGENT Arg1:T2 Arg2:T29	
+R12	WORKS_AS Arg1:T4 Arg2:T30	
+R13	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R14	ORIGINS_FROM Arg1:T30 Arg2:T3	
+R15	AGENT Arg1:T4 Arg2:T29	
+R16	AGE_IS Arg1:T12 Arg2:T10	
+R17	WORKS_AS Arg1:T12 Arg2:T34	
+R18	WORKS_AS Arg1:T12 Arg2:T33	
+R19	ORIGINS_FROM Arg1:T12 Arg2:T11	
+R20	ORIGINS_FROM Arg1:T33 Arg2:T11	
+R21	ORIGINS_FROM Arg1:T34 Arg2:T11	
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R23	ALTERNATIVE_NAME Arg1:T11 Arg2:T18	
+R24	AGENT Arg1:T9 Arg2:T32	
+R25	AGENT Arg1:T12 Arg2:T32	
+R26	AGENT Arg1:T13 Arg2:T35	
+R27	POINT_IN_TIME Arg1:T35 Arg2:T14	
+R28	PARTICIPANT_IN Arg1:T12 Arg2:T35	
+R29	SUBEVENT_OF Arg1:T35 Arg2:T32	
+R30	TAKES_PLACE_IN Arg1:T35 Arg2:T15	
+R31	WORKS_AS Arg1:T13 Arg2:T36	
+R32	PRODUCES Arg1:T36 Arg2:T19	
+R33	PRODUCES Arg1:T13 Arg2:T19	
+R34	ALTERNATIVE_NAME Arg1:T12 Arg2:T37	
+R35	KNOWS Arg1:T37 Arg2:T38	
+R36	WORKS_AS Arg1:T9 Arg2:T8	
+R37	WORKS_AS Arg1:T9 Arg2:T31	
+R38	ORIGINS_FROM Arg1:T9 Arg2:T7	
+R39	AGE_IS Arg1:T9 Arg2:T6	
+R40	ORIGINS_FROM Arg1:T31 Arg2:T7	
+R41	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R42	ALTERNATIVE_NAME Arg1:T39 Arg2:T25	
+N1	Reference T7 Wikidata:Q30	США
+N2	Reference T8 Wikidata:Q28389	сценарист
+N3	Reference T9 Wikidata:Q3772	Квентин Тарантино
+N4	Reference T11 Wikidata:Q19829830	Израильский
+N5	Reference T15 Wikidata:Q65	Лос-Анджелес
+N6	Reference T18 Wikidata:Q801	Израиль
+N7	Reference T19 Wikidata:Q153723	Бесславные ублюдки
+N8	Reference T27 Wikidata:Q36834	композитор
+N9	Reference T28 Wikidata:Q2338487	Пик, Цвика
+N10	Reference T30 Wikidata:Q177220	певец
+N11	Reference T31 Wikidata:Q2526255	кинорежиссёр
+N12	Reference T34 Wikidata:Q4610556	модель
+N13	Reference T36 Wikidata:Q3455803	режиссёр
+N14	Reference T37 Wikidata:Q470344	Пик-Пик
+N15	Reference T39 Wikidata:Q470344	Пик-Пик
+N16	Reference T40 Wikidata:Q177220	певец
+N17	Reference T41 Wikidata:Q49757	поэт
+N18	Reference T13 Wikidata:Q3772	Квентин Тарантино
+N19	Reference T5 Wikidata:Q3772	Квентин Тарантино
+N20	Reference T23 Wikidata:Q3772	Квентин Тарантино
+N21	Reference T24 Wikidata:Q3772	Квентин Тарантино
+N22	Reference T2 Wikidata:Q3772	Квентин Тарантино
+N23	Reference T3 Wikidata:Q19829830	Израильский
+N24	Reference T26 Wikidata:Q19829830	Израильский
+N25	Reference T21 Wikidata:Q65	Лос-Анджелес
+N26	Reference T33 Wikidata:Q177220	певец
+N27	Reference T1 Wikidata:Q3455803	режиссёр
+N28	Reference T38 Wikidata:Q3455803	режиссёр
+N29	Reference T4 Wikidata:Q470344	Пик-Пик
+N30	Reference T12 Wikidata:Q470344	Пик-Пик
+N31	Reference T25 Wikidata:Q470344	Пик-Пик

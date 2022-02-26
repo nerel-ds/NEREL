@@ -1,0 +1,44 @@
+T1	LOCATION 2 8	Сибири
+T2	CITY 37 48	Красноярска
+T3	LOCATION 82 88	Сибири
+T4	CITY 218 229	Красноярска
+T5	DATE 375 381	14 лет
+T6	ORDINAL 391 397	первый
+T8	PROFESSION 596 604	археолог
+T9	CITY 608 618	Новоселова
+T10	PERSON 620 637	Александр Кержаев
+T11	PERSON 640 647	Кержаев
+T13	AGE 699 708	до 50 лет
+T14	AGE 782 804	по крайней мере 50 лет
+T16	PERSON 864 874	А. Кержаев
+T17	PROFESSION 89 95	рыбаки
+T19	PROFESSION 579 593	директор музея
+R1	LOCATED_IN Arg1:T2 Arg2:T1	
+T12	EVENT 9 30	найден скелет мамонта
+T15	LOCATION 31 48	около Красноярска
+R2	TAKES_PLACE_IN Arg1:T12 Arg2:T15	
+T20	EVENT 186 211	скелет мамонта был найден
+R3	PARTICIPANT_IN Arg1:T17 Arg2:T20	
+R4	ORIGINS_FROM Arg1:T17 Arg2:T3	
+T21	LOCATION 212 229	около Красноярска
+R5	TAKES_PLACE_IN Arg1:T20 Arg2:T21	
+R6	WORKS_AS Arg1:T10 Arg2:T19	
+R7	WORKS_AS Arg1:T10 Arg2:T8	
+R8	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R11	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R12	TAKES_PLACE_IN Arg1:T12 Arg2:T1	
+N1	Reference T1 Wikidata:Q5428	Сибирь
+N2	Reference T4 Wikidata:Q919	Красноярск
+N3	Reference T8 Wikidata:Q3621491	археолог
+N6	Reference T17 Wikidata:Q331432	рыбак
+N7	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q22132694	
+N5	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q4325895	
+N9	Reference T3 Wikidata:Q5428	Сибирь
+N10	Reference T2 Wikidata:Q919	Красноярск
+N11	Reference T21 Wikidata:NULL	нет данных
+N12	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T10 Wikidata:NULL	нет данных

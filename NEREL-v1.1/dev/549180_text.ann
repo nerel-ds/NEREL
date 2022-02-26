@@ -1,0 +1,119 @@
+T1	PERSON 0 13	Тулси Габбард
+T2	COUNTRY 43 46	США
+T3	PROFESSION 47 77	Член Палаты представителей США
+T4	ORGANIZATION 52 73	Палаты представителей
+T5	PERSON 78 91	Тулси Габбард
+T6	ORGANIZATION 149 171	Демократической партии
+T8	PERSON 237 248	Джо Байдена
+T9	PERSON 251 264	Тулси Габбард
+T10	DATE 266 286	12 февраля 2020 года
+T11	PERSON 288 295	Габбард
+T12	ORGANIZATION 314 323	Конгрессе
+T13	STATE_OR_PROVINCE 329 335	Гавайи
+T14	DATE 424 438	в прошлом году
+T15	AGE 441 450	38-летняя
+T16	PERSON 451 458	Габбард
+T17	COUNTRY 489 494	Ираке
+T18	COUNTRY 551 554	США
+T19	PERSON 782 789	Байдена
+T20	PERSON 791 798	Габбард
+T21	PROFESSION 836 851	вице-президента
+T22	NATIONALITY 952 965	американскому
+T23	PERSON 1128 1134	Байден
+T24	ORDINAL 1167 1173	третий
+T25	DATE 1178 1203	за последние тридцать лет
+T26	PROFESSION 1222 1230	сенатора
+T27	STATE_OR_PROVINCE 1240 1247	Вермонт
+T28	PERSON 1248 1262	Берни Сандерса
+T30	DATE 1362 1368	в июле
+T31	PERSON 1371 1377	Байден
+T32	PERSON 1397 1406	Сандерсом
+T33	NUMBER 1410 1412	19
+T34	NUMBER 1426 1428	24
+T35	STATE_OR_PROVINCE 1470 1477	Флориде
+T36	STATE_OR_PROVINCE 1479 1488	Иллинойсе
+T37	STATE_OR_PROVINCE 1491 1498	Аризоне
+T38	PERSON 1519 1527	Сандерса
+T39	COUNTRY 74 77	США
+T40	ORGANIZATION 52 77	Палаты представителей США
+T41	DATE 92 101	в четверг
+T43	PROFESSION 221 236	вице-президента
+T44	EVENT 384 393	праймериз
+T45	EVENT 416 423	дебатах
+T46	EVENT 481 494	войны в Ираке
+T48	PROFESSION 1272 1281	делегатов
+T49	ORGANIZATION 1339 1361	Демократической партии
+T50	EVENT 1319 1338	Национальном съезде
+T51	EVENT 1429 1438	праймериз
+T52	DATE 1452 1466	на этой неделе
+R1	WORKPLACE Arg1:T11 Arg2:T12	
+R2	ORIGINS_FROM Arg1:T11 Arg2:T13	
+R3	PARTICIPANT_IN Arg1:T11 Arg2:T44	
+T53	IDEOLOGY 149 164	Демократической
+R4	PARTICIPANT_IN Arg1:T11 Arg2:T45	
+R5	POINT_IN_TIME Arg1:T45 Arg2:T14	
+R6	AGE_IS Arg1:T16 Arg2:T15	
+R7	PARTICIPANT_IN Arg1:T16 Arg2:T46	
+R8	WORKS_AS Arg1:T19 Arg2:T21	
+R9	WORKS_AS Arg1:T28 Arg2:T26	
+R10	ORIGINS_FROM Arg1:T28 Arg2:T27	
+T47	IDEOLOGY 1339 1354	Демократической
+R11	WORKS_AS Arg1:T8 Arg2:T43	
+R12	WORKPLACE Arg1:T5 Arg2:T40	
+R13	WORKS_AS Arg1:T5 Arg2:T3	
+R14	MEMBER_OF Arg1:T5 Arg2:T6	
+R15	IDEOLOGY_OF Arg1:T5 Arg2:T53	
+R16	MEMBER_OF Arg1:T8 Arg2:T6	
+R17	IDEOLOGY_OF Arg1:T8 Arg2:T53	
+R18	WORKPLACE Arg1:T3 Arg2:T40	
+R19	HEADQUARTERED_IN Arg1:T40 Arg2:T39	
+R20	IDEOLOGY_OF Arg1:T6 Arg2:T53	
+R21	TAKES_PLACE_IN Arg1:T46 Arg2:T17	
+T42	IDEOLOGY 676 687	ультралевых
+T54	IDEOLOGY 690 702	ультраправых
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T19	
+R24	IDEOLOGY_OF Arg1:T49 Arg2:T47	
+R25	ORGANIZES Arg1:T49 Arg2:T50	
+R26	POINT_IN_TIME Arg1:T50 Arg2:T30	
+R27	ALTERNATIVE_NAME Arg1:T28 Arg2:T32	
+R28	POINT_IN_TIME Arg1:T51 Arg2:T52	
+R29	TAKES_PLACE_IN Arg1:T51 Arg2:T35	
+R30	TAKES_PLACE_IN Arg1:T51 Arg2:T36	
+R31	TAKES_PLACE_IN Arg1:T51 Arg2:T37	
+R32	PARTICIPANT_IN Arg1:T31 Arg2:T51	
+R33	PARTICIPANT_IN Arg1:T32 Arg2:T51	
+R34	ALTERNATIVE_NAME Arg1:T32 Arg2:T38	
+N3	Reference T13 Wikidata:Q782	Гавайи
+N4	Reference T16 Wikidata:Q32620	Тулси Габбард
+N5	Reference T17 Wikidata:Q796	Ирак
+N6	Reference T18 Wikidata:Q30	США
+N10	Reference T27 Wikidata:Q16551	Вермонт
+N12	Reference T35 Wikidata:Q812	Флорида
+N13	Reference T36 Wikidata:Q1204	Иллинойс
+N14	Reference T37 Wikidata:Q816	Аризона
+N15	Reference T40 Wikidata:Q11701	Палата представителей США
+N16	Reference T49 Wikidata:Q29552	Демократическая партия
+N1	Reference T4 Wikidata:Q2145277	
+N17	Reference T3 Wikidata:Q13218630	
+N2	Reference T12 Wikidata:Q11268	Конгресс США
+N18	Reference T19 Wikidata:Q6279	Джо Байден
+N7	Reference T21 Wikidata:Q42178	вице-президент
+N8	Reference T22 Wikidata:Q846570	
+N9	Reference T26 Wikidata:Q15686806	
+N19	Reference T48 Wikidata:Q994779	
+N11	Reference T32 Wikidata:Q359442	
+N20	Reference T1 Wikidata:Q32620	Тулси Габбард
+N21	Reference T9 Wikidata:Q32620	Тулси Габбард
+N22	Reference T11 Wikidata:Q32620	Тулси Габбард
+N23	Reference T20 Wikidata:Q32620	Тулси Габбард
+N24	Reference T5 Wikidata:Q32620	Тулси Габбард
+N25	Reference T2 Wikidata:Q30	США
+N26	Reference T39 Wikidata:Q30	США
+N27	Reference T6 Wikidata:Q29552	Демократическая партия
+N28	Reference T23 Wikidata:Q6279	Джо Байден
+N29	Reference T8 Wikidata:Q6279	Джо Байден
+N30	Reference T31 Wikidata:Q6279	Джо Байден
+N31	Reference T43 Wikidata:Q42178	вице-президент
+N32	Reference T28 Wikidata:Q359442	
+N33	Reference T38 Wikidata:Q359442	

@@ -1,0 +1,116 @@
+T1	PROFESSION 0 8	Сенаторы
+T2	PERSON 19 24	Рубио
+T3	EVENT 37 46	праймериз
+T5	DATE 118 126	в ноябре
+T6	PROFESSION 147 159	конгрессмены
+T7	COUNTRY 172 184	Американские
+T8	PROFESSION 185 193	сенаторы
+T9	PERSON 194 206	Джон Маккейн
+T10	PERSON 209 220	Марко Рубио
+T11	ORDINAL 232 238	первое
+T12	EVENT 286 311	республиканских праймериз
+T13	AGE 329 347	Восьмидесятилетний
+T15	ORDINAL 367 373	шестой
+T16	PROFESSION 384 393	сенатором
+T17	PROFESSION 417 445	активиста «Движения чаепития
+T18	ORGANIZATION 428 445	Движения чаепития
+T19	PERSON 447 457	Келли Уорд
+T20	EVENT 461 470	праймериз
+T21	PROFESSION 484 512	членом Палаты представителей
+T22	PERSON 524 538	Энн Киркпатрик
+T23	DATE 550 558	в ноябре
+T24	PERSON 561 566	Рубио
+T25	PROFESSION 610 620	президента
+T26	PROFESSION 670 682	конгрессмена
+T27	PROFESSION 710 720	строителем
+T28	PERSON 733 750	Карлосом Беруффом
+T29	EVENT 754 763	праймериз
+T30	STATE_OR_PROVINCE 767 774	Флориде
+T31	PERSON 787 792	Рубио
+T32	DATE 804 812	в ноябре
+T33	PROFESSION 820 831	конгрессмен
+T34	PERSON 9 16	Маккейн
+T4	PERSON 47 58	Марко Рубио
+T35	PROFESSION 63 75	законодателя
+T36	IDEOLOGY 160 169	демократы
+T37	IDEOLOGY 286 301	республиканских
+T38	PERSON 348 355	Маккейн
+T14	STATE_OR_PROVINCE 397 404	Аризоны
+T39	PROFESSION 384 404	сенатором от Аризоны
+T40	ORGANIZATION 491 512	Палаты представителей
+T41	IDEOLOGY 513 523	демократом
+T42	IDEOLOGY 683 692	демократа
+T43	PERSON 832 844	Патрик Мерфи
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T34 Arg2:T3	
+R3	WORKS_AS Arg1:T34 Arg2:T1	
+R4	WORKS_AS Arg1:T2 Arg2:T1	
+R5	IDEOLOGY_OF Arg1:T6 Arg2:T36	
+R6	ALTERNATIVE_NAME Arg1:T34 Arg2:T9	
+R7	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+R8	WORKS_AS Arg1:T9 Arg2:T8	
+R9	WORKS_AS Arg1:T10 Arg2:T8	
+R10	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R11	ORIGINS_FROM Arg1:T9 Arg2:T7	
+R12	ORIGINS_FROM Arg1:T10 Arg2:T7	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T38	
+R14	AGE_IS Arg1:T38 Arg2:T13	
+R15	ORIGINS_FROM Arg1:T39 Arg2:T14	
+R16	MEMBER_OF Arg1:T19 Arg2:T18	
+R17	WORKS_AS Arg1:T19 Arg2:T17	
+R18	PARTICIPANT_IN Arg1:T19 Arg2:T20	
+R19	PARTICIPANT_IN Arg1:T38 Arg2:T20	
+R20	IDEOLOGY_OF Arg1:T22 Arg2:T41	
+R21	WORKS_AS Arg1:T22 Arg2:T21	
+R22	WORKPLACE Arg1:T22 Arg2:T40	
+T44	EVENT 542 549	выборах
+R23	PARTICIPANT_IN Arg1:T22 Arg2:T44	
+R24	POINT_IN_TIME Arg1:T44 Arg2:T23	
+R25	WORKPLACE Arg1:T21 Arg2:T40	
+R26	PARTICIPANT_IN Arg1:T38 Arg2:T44	
+R27	ALTERNATIVE_NAME Arg1:T10 Arg2:T24	
+R28	PARTICIPANT_IN Arg1:T24 Arg2:T29	
+R29	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+R30	TAKES_PLACE_IN Arg1:T29 Arg2:T30	
+R31	WORKS_AS Arg1:T43 Arg2:T33	
+R32	IDEOLOGY_OF Arg1:T26 Arg2:T42	
+R33	WORKS_AS Arg1:T28 Arg2:T27	
+T45	EVENT 796 803	выборах
+R34	PARTICIPANT_IN Arg1:T31 Arg2:T45	
+R35	PARTICIPANT_IN Arg1:T43 Arg2:T45	
+R36	POINT_IN_TIME Arg1:T45 Arg2:T32	
+R37	WORKPLACE Arg1:T17 Arg2:T18	
+R38	PARTICIPANT_IN Arg1:T10 Arg2:T12	
+R39	PARTICIPANT_IN Arg1:T9 Arg2:T12	
+R40	IDEOLOGY_OF Arg1:T10 Arg2:T37	
+R41	IDEOLOGY_OF Arg1:T9 Arg2:T37	
+R42	IDEOLOGY_OF Arg1:T12 Arg2:T37	
+N3	Reference T9 Wikidata:Q10390	Джон Маккейн
+N4	Reference T10 Wikidata:Q324546	Марко Рубио
+N6	Reference T18 Wikidata:Q19042	Движение чаепития
+N8	Reference T25 Wikidata:Q30461	президент
+N11	Reference T30 Wikidata:Q812	Флорида
+N12	Reference T35 Wikidata:Q486839	член парламента
+N13	Reference T14 Wikidata:Q816	Аризона
+N15	Reference T40 Wikidata:Q11701	Палата представителей США
+N1	Reference T7 Wikidata:Q30	США
+N2	Reference T8 Wikidata:Q15686806	
+N14	Reference T39 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N16	Reference T19 Wikidata:Q6386334	
+N17	Reference T21 Wikidata:Q13218630	
+N7	Reference T22 Wikidata:NULL	нет данных
+N18	Reference T26 Wikidata:Q14761450	
+N9	Reference T27 Wikidata:Q811122	
+N10	Reference T28 Wikidata:Q24565699	
+N19	Reference T43 Wikidata:Q5997832	
+N20	Reference T34 Wikidata:Q10390	Джон Маккейн
+N21	Reference T38 Wikidata:Q10390	Джон Маккейн
+N22	Reference T31 Wikidata:Q324546	Марко Рубио
+N23	Reference T24 Wikidata:Q324546	Марко Рубио
+N24	Reference T4 Wikidata:Q324546	Марко Рубио
+N25	Reference T2 Wikidata:Q324546	Марко Рубио
+N26	Reference T1 Wikidata:Q15686806	
+N27	Reference T16 Wikidata:Q15686806	
+N28	Reference T33 Wikidata:Q14761450	
+N29	Reference T6 Wikidata:Q14761450	

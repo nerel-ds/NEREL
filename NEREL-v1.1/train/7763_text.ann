@@ -1,0 +1,180 @@
+T1	PERSON 11 24	Корасон Акино
+T2	TIME 26 71	Сегодня в 3 часа 18 минут по местному времени
+T3	AGE 72 84	на 77-м году
+T5	PERSON 116 129	Корасон Акино
+T6	PROFESSION 132 150	президент Филиппин
+T7	DATE 151 165	с 1986 по 1992
+T8	DATE 210 216	В 1986
+T9	PERSON 217 230	Корасон Акино
+T10	PROFESSION 320 330	президента
+T11	PERSON 341 359	Фердинанда Маркоса
+T12	DATE 384 395	с 1965 года
+T13	PERSON 421 426	Акино
+T14	PROFESSION 433 453	президентом Филиппин
+T15	DATE 585 600	в течение 6 лет
+T16	PERSON 632 639	Маркоса
+T17	NUMBER 652 653	7
+T18	DATE 684 695	В 1987 году
+T19	PERSON 696 709	Корасон Акино
+T20	ORGANIZATION 732 736	Тайм
+T21	PERSON 923 928	Акино
+T22	PERSON 1118 1136	Корасон Конхуангко
+T23	DATE 1146 1163	25 июня 1933 года
+T24	EVENT 1236 1256	Второй Мировой войны
+T25	COUNTRY 1281 1284	США
+T26	PERSON 1290 1297	Корасон
+T28	ORGANIZATION 1358 1373	Монт С. Винсент
+T29	NATIONALITY 1406 1419	филиппинского
+T30	PERSON 1431 1456	Вениньо С. Акино младшего
+T32	PERSON 1481 1488	Маркоса
+T33	DATE 1501 1512	в 1965 году
+T34	DATE 1537 1543	В 1983
+T35	FACILITY 1601 1617	аэропорту Манилы
+T36	COUNTRY 1646 1649	США
+T37	PERSON 1669 1682	Корасон Акино
+T38	DATE 1812 1821	1986 года
+T39	PERSON 1836 1842	Маркос
+T40	CITY 1887 1893	Манилы
+T41	DATE 1952 1972	25 Февраля 1986 года
+T42	COUNTRY 1988 1991	США
+T43	PERSON 1995 2000	Акино
+T44	PROFESSION 2007 2018	президентом
+T45	DATE 26 33	Сегодня
+T4	COUNTRY 142 150	Филиппин
+T46	EVENT 251 260	восстание
+T47	PROFESSION 274 282	военными
+T48	PERSON 413 420	Маркоса
+T49	COUNTRY 445 453	Филиппин
+T27	PROFESSION 1489 1500	президентом
+T50	PROFESSION 1420 1430	журналиста
+T31	CITY 1611 1617	Манилы
+T51	PROFESSION 1565 1574	солдатами
+T52	EVENT 1913 1922	восстание
+T53	PERSON 1973 1979	Маркос
+T54	DISEASE 191 208	сердечный приступ
+T55	LANGUAGE 1328 1340	французскому
+T56	EVENT 0 10	Скончалась
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T56	
+T57	EVENT 105 115	скончалась
+R2	PARTICIPANT_IN Arg1:T5 Arg2:T57	
+R3	WORKS_AS Arg1:T5 Arg2:T6	
+R4	WORKPLACE Arg1:T5 Arg2:T4	
+R5	AGE_DIED_AT Arg1:T5 Arg2:T3	
+R6	CAUSE_OF_DEATH Arg1:T5 Arg2:T54	
+R7	POINT_IN_TIME Arg1:T46 Arg2:T8	
+T58	EVENT 302 319	бегству из страны
+R8	WORKS_AS Arg1:T11 Arg2:T10	
+R9	AGENT Arg1:T11 Arg2:T58	
+R10	AGENT Arg1:T9 Arg2:T46	
+R11	PARTICIPANT_IN Arg1:T47 Arg2:T46	
+R12	WORKS_AS Arg1:T13 Arg2:T14	
+R13	WORKPLACE Arg1:T13 Arg2:T49	
+R14	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R15	PLACE_RESIDES_IN Arg1:T22 Arg2:T25	
+R16	SCHOOLS_ATTENDED Arg1:T26 Arg2:T28	
+R17	WORKS_AS Arg1:T30 Arg2:T50	
+R18	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R19	SPOUSE Arg1:T26 Arg2:T30	
+T59	IDEOLOGY 1526 1535	оппозиции
+T60	PROFESSION 1518 1535	лидером оппозиции
+R20	WORKS_AS Arg1:T32 Arg2:T27	
+R21	WORKS_AS Arg1:T30 Arg2:T60	
+R22	IDEOLOGY_OF Arg1:T30 Arg2:T59	
+T61	EVENT 1555 1564	застрелен
+R23	PARTICIPANT_IN Arg1:T30 Arg2:T61	
+R24	POINT_IN_TIME Arg1:T61 Arg2:T34	
+R25	TAKES_PLACE_IN Arg1:T61 Arg2:T35	
+T62	PROFESSION 1701 1718	лидером оппозиции
+T63	IDEOLOGY 1709 1718	оппозиции
+R26	WORKS_AS Arg1:T37 Arg2:T62	
+R27	IDEOLOGY_OF Arg1:T37 Arg2:T63	
+T64	EVENT 1904 1922	народное восстание
+R28	TAKES_PLACE_IN Arg1:T64 Arg2:T40	
+T65	EVENT 1980 1985	бежал
+R29	AGENT Arg1:T53 Arg2:T65	
+R30	POINT_IN_TIME Arg1:T65 Arg2:T41	
+R31	WORKS_AS Arg1:T43 Arg2:T44	
+T66	AWARD 737 750	женщиной года
+R32	AWARDED_WITH Arg1:T19 Arg2:T66	
+R33	POINT_IN_TIME Arg1:T57 Arg2:T45	
+R34	DATE_OF_DEATH Arg1:T5 Arg2:T45	
+R35	WORKPLACE Arg1:T6 Arg2:T4	
+R36	ALTERNATIVE_NAME Arg1:T11 Arg2:T48	
+T67	EVENT 403 412	свержения
+R37	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R38	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R39	ALTERNATIVE_NAME Arg1:T19 Arg2:T21	
+R40	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R41	ALTERNATIVE_NAME Arg1:T22 Arg2:T26	
+T68	EVENT 1472 1480	избрания
+R42	PARTICIPANT_IN Arg1:T32 Arg2:T68	
+R43	POINT_IN_TIME Arg1:T68 Arg2:T33	
+T69	PROFESSION 1565 1598	солдатами правительственных войск
+R44	AGENT Arg1:T69 Arg2:T61	
+T70	EVENT 1790 1821	президентских выборах 1986 года
+R45	PARTICIPANT_IN Arg1:T37 Arg2:T70	
+T71	EVENT 1790 1811	президентских выборах
+R46	POINT_IN_TIME Arg1:T70 Arg2:T38	
+R47	PARTICIPANT_IN Arg1:T39 Arg2:T70	
+R48	ALTERNATIVE_NAME Arg1:T58 Arg2:T65	
+R49	WORKPLACE Arg1:T14 Arg2:T49	
+T72	PROFESSION 132 141	президент
+T73	PROFESSION 433 444	президентом
+R50	ORIGINS_FROM Arg1:T50 Arg2:T29	
+R51	IDEOLOGY_OF Arg1:T60 Arg2:T59	
+R52	LOCATED_IN Arg1:T35 Arg2:T31	
+R53	IDEOLOGY_OF Arg1:T62 Arg2:T63	
+R54	TAKES_PLACE_IN Arg1:T65 Arg2:T42	
+R55	POINT_IN_TIME Arg1:T66 Arg2:T18	
+R56	PARTICIPANT_IN Arg1:T48 Arg2:T67	
+R57	TAKES_PLACE_IN Arg1:T67 Arg2:T49	
+T74	ORDINAL 1236 1242	Второй
+R58	KNOWS Arg1:T26 Arg2:T55	
+N5	Reference T30 Wikidata:Q222805	Бенигно Акино-младший
+N6	Reference T35 Wikidata:Q86446	Манила
+N7	Reference T42 Wikidata:Q30	США
+N8	Reference T47 Wikidata:Q47064	военнослужащий
+N11	Reference T50 Wikidata:Q1930187	журналист
+N12	Reference T31 Wikidata:Q1461	Манила
+N14	Reference T55 Wikidata:Q150	французский язык
+N18	Reference T73 Wikidata:Q30461	президент
+N19	Reference T6 Wikidata:NULL	нет данных
+N9	Reference T48 Wikidata:Q1463	
+N10	Reference T49 Wikidata:Q928	(631) Филиппина
+N1	Reference T20 Wikidata:Q43297	Тайм
+N16	Reference T66 Wikidata:Q207826	Человек года по версии журнала «Time»
+N2	Reference T26 Wikidata:Q1480	
+N17	Reference T69 Wikidata:NULL	нет данных
+N13	Reference T51 Wikidata:Q4991371	солдат
+N4	Reference T29 Wikidata:Q4172847	
+N3	Reference T28 Wikidata:Q3551457	сельсовет в СССР
+N15	Reference T62 Wikidata:NULL	нет данных
+N20	Reference T25 Wikidata:Q30	США
+N21	Reference T36 Wikidata:Q30	США
+N22	Reference T40 Wikidata:Q1461	Манила
+N23	Reference T72 Wikidata:Q30461	президент
+N24	Reference T10 Wikidata:Q30461	президент
+N25	Reference T44 Wikidata:Q30461	президент
+N26	Reference T27 Wikidata:Q30461	президент
+N27	Reference T14 Wikidata:NULL	нет данных
+N28	Reference T53 Wikidata:Q1463	
+N29	Reference T11 Wikidata:Q1463	
+N30	Reference T32 Wikidata:Q1463	
+N31	Reference T39 Wikidata:Q1463	
+N32	Reference T16 Wikidata:Q1463	
+N33	Reference T4 Wikidata:Q928	(631) Филиппина
+N34	Reference T22 Wikidata:Q1480	
+N35	Reference T5 Wikidata:Q1480	
+N36	Reference T43 Wikidata:Q1480	
+N37	Reference T37 Wikidata:Q1480	
+N38	Reference T9 Wikidata:Q1480	
+N39	Reference T19 Wikidata:Q1480	
+N40	Reference T13 Wikidata:Q1480	
+N41	Reference T21 Wikidata:Q1480	
+N42	Reference T1 Wikidata:Q1480	
+N43	Reference T60 Wikidata:NULL	нет данных
+T75	EVENT 1137 1145	родилась
+R59	PARTICIPANT_IN Arg1:T22 Arg2:T75	
+R60	POINT_IN_TIME Arg1:T75 Arg2:T23	
+R61	PLACE_RESIDES_IN Arg1:T5 Arg2:T4	
+R62	PLACE_RESIDES_IN Arg1:T53 Arg2:T42	

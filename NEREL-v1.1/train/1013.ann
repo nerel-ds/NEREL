@@ -1,0 +1,141 @@
+T1	PROFESSION 0 7	Премьер
+T2	PERSON 18 26	Хамдалла
+T3	PERSON 84 92	Хамдалла
+T4	NUMBER 106 111	двумя
+T5	PERSON 129 142	Рами Хамдалла
+T6	PROFESSION 150 165	премьер-министр
+T7	PERSON 176 189	Рами Хамдалла
+T8	DATE 203 209	2 июня
+T9	ORGANIZATION 248 254	Рейтер
+T10	PROFESSION 345 390	глава Палестинской национальной администрации
+T11	ORGANIZATION 392 395	ПНА
+T12	PERSON 397 409	Махмуд Аббас
+T13	PERSON 413 421	Хамдалла
+T14	NUMBER 469 474	двумя
+T15	ORGANIZATION 522 533	Франс Пресс
+T17	PROFESSION 559 565	ректор
+T18	PERSON 566 579	Рами Хамдалла
+T19	DATE 580 586	6 июня
+T20	DATE 719 738	до середины августа
+T21	ORGANIZATION 848 852	ФАТХ
+T22	ORGANIZATION 855 860	ХАМАС
+T23	PERSON 863 871	Хамдалла
+T24	DATE 882 891	в августе
+T25	AGE 903 909	55 лет
+T26	PROFESSION 916 925	премьером
+T27	DATE 942 959	в середине апреля
+T28	LOCATION 991 997	Западе
+T29	PROFESSION 1024 1039	премьер-министр
+T30	PERSON 1040 1050	Салам Фаяд
+T31	PERSON 1053 1058	Фаяда
+T32	COUNTRY 1061 1070	Палестине
+T33	COUNTRY 1300 1312	Палестинский
+T34	LOCATION 1408 1436	Западного берега реки Иордан
+T35	PROFESSION 0 17	Премьер Палестины
+T36	COUNTRY 8 17	Палестины
+T37	ORGANIZATION 57 70	правительстве
+T38	PROFESSION 112 127	вице-премьерами
+T39	COUNTRY 166 175	Палестины
+T40	PROFESSION 150 175	премьер-министр Палестины
+T41	ORGANIZATION 280 306	палестинском правительстве
+T42	ORGANIZATION 293 306	правительстве
+T43	COUNTRY 280 292	палестинском
+T44	ORGANIZATION 351 390	Палестинской национальной администрации
+T45	PROFESSION 475 490	вице-премьерами
+T16	ORGANIZATION 605 631	палестинское правительство
+T47	ORGANIZATION 618 631	правительство
+T48	COUNTRY 605 617	палестинское
+T49	ORGANIZATION 697 704	кабинет
+T50	ORGANIZATION 755 768	правительству
+T51	ORGANIZATION 755 791	правительству национального единства
+T52	ORGANIZATION 1300 1320	Палестинский кабинет
+T53	LOCATION 1430 1436	Иордан
+R1	WORKS_AS Arg1:T2 Arg2:T35	
+R2	ALTERNATIVE_NAME Arg1:T44 Arg2:T11	
+R3	WORKPLACE Arg1:T2 Arg2:T36	
+T54	COUNTRY 351 363	Палестинской
+R4	WORKS_AS Arg1:T12 Arg2:T10	
+R5	WORKS_AS Arg1:T12 Arg2:T10	
+R6	AGE_IS Arg1:T23 Arg2:T25	
+R7	WORKS_AS Arg1:T23 Arg2:T26	
+R8	WORKS_AS Arg1:T30 Arg2:T29	
+T55	EVENT 960 976	в отставку подал
+R9	AGENT Arg1:T30 Arg2:T55	
+R10	POINT_IN_TIME Arg1:T55 Arg2:T27	
+T56	EVENT 587 598;618 631	сформировал правительство
+R11	POINT_IN_TIME Arg1:T56 Arg2:T19	
+R12	AGENT Arg1:T18 Arg2:T56	
+R13	WORKS_AS Arg1:T18 Arg2:T17	
+R14	WORKS_AS Arg1:T7 Arg2:T40	
+R15	WORKPLACE Arg1:T7 Arg2:T39	
+T46	EVENT 211 227	подал в отставку
+R17	AGENT Arg1:T7 Arg2:T46	
+T57	EVENT 27 43	подал в отставку
+R18	AGENT Arg1:T2 Arg2:T57	
+R19	HEADQUARTERED_IN Arg1:T37 Arg2:T36	
+R20	WORKPLACE Arg1:T38 Arg2:T37	
+R21	WORKPLACE Arg1:T3 Arg2:T37	
+R22	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R23	WORKPLACE Arg1:T40 Arg2:T39	
+R24	HEADQUARTERED_IN Arg1:T41 Arg2:T43	
+T58	EVENT 191 202	назначенный
+R16	PARTICIPANT_IN Arg1:T7 Arg2:T58	
+R25	POINT_IN_TIME Arg1:T58 Arg2:T8	
+R26	ALTERNATIVE_NAME Arg1:T39 Arg2:T43	
+R27	WORKPLACE Arg1:T10 Arg2:T44	
+R28	HEADQUARTERED_IN Arg1:T44 Arg2:T54	
+R29	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+T59	EVENT 422 448	подал прошение об отставке
+R30	AGENT Arg1:T13 Arg2:T59	
+R31	ALTERNATIVE_NAME Arg1:T46 Arg2:T59	
+R32	HEADQUARTERED_IN Arg1:T16 Arg2:T48	
+R33	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+R34	TAKES_PLACE_IN Arg1:T58 Arg2:T39	
+R35	PARTICIPANT_IN Arg1:T41 Arg2:T46	
+R36	TAKES_PLACE_IN Arg1:T46 Arg2:T43	
+R37	HEADQUARTERED_IN Arg1:T52 Arg2:T33	
+N1	Reference T5 Wikidata:Q13415154	Рами Хамдалла
+N2	Reference T6 Wikidata:Q14212	премьер-министр
+N3	Reference T9 Wikidata:Q130879	Рейтер
+N5	Reference T11 Wikidata:Q42620	Палестинская национальная администрация
+N6	Reference T12 Wikidata:Q127998	Махмуд Аббас
+N7	Reference T15 Wikidata:Q40464	Франс Пресс
+N8	Reference T17 Wikidata:Q212071	ректор
+N9	Reference T18 Wikidata:Q13415154	Рами Хамдалла
+N10	Reference T21 Wikidata:Q178888	ФАТХ
+N11	Reference T22 Wikidata:Q38799	ХАМАС
+N12	Reference T26 Wikidata:Q14212	премьер-министр
+N16	Reference T34 Wikidata:Q36678	Западный берег реки Иордан
+N19	Reference T41 Wikidata:Q7188	правительство
+N20	Reference T43 Wikidata:Q219060	Государство Палестина
+N21	Reference T45 Wikidata:Q877955	вице-премьер
+N22	Reference T50 Wikidata:Q7188	правительство
+N24	Reference T53 Wikidata:Q40059	Иордан
+N17	Reference T35 Wikidata:Q2344709	
+N18	Reference T40 Wikidata:Q2344709	
+N4	Reference T10 Wikidata:Q2344709	
+N25	Reference T51 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:Q160381	Западный мир
+N14	Reference T30 Wikidata:Q57741	
+N15	Reference T31 Wikidata:Q57741	
+N23	Reference T52 Wikidata:NULL	нет данных
+N26	Reference T3 Wikidata:Q13415154	Рами Хамдалла
+N27	Reference T29 Wikidata:Q14212	премьер-министр
+N28	Reference T44 Wikidata:Q42620	Палестинская национальная администрация
+N29	Reference T23 Wikidata:Q13415154	Рами Хамдалла
+N30	Reference T7 Wikidata:Q13415154	Рами Хамдалла
+N31	Reference T13 Wikidata:Q13415154	Рами Хамдалла
+N32	Reference T2 Wikidata:Q13415154	Рами Хамдалла
+N33	Reference T1 Wikidata:Q14212	премьер-министр
+N34	Reference T16 Wikidata:Q7188	правительство
+N35	Reference T36 Wikidata:Q219060	Государство Палестина
+N36	Reference T33 Wikidata:Q219060	Государство Палестина
+N37	Reference T32 Wikidata:Q219060	Государство Палестина
+N38	Reference T39 Wikidata:Q219060	Государство Палестина
+N39	Reference T48 Wikidata:Q219060	Государство Палестина
+N40	Reference T54 Wikidata:Q219060	Государство Палестина
+N41	Reference T38 Wikidata:Q877955	вице-премьер
+N42	Reference T37 Wikidata:Q7188	правительство
+N43	Reference T49 Wikidata:Q7188	правительство
+N44	Reference T47 Wikidata:Q7188	правительство
+N45	Reference T42 Wikidata:Q7188	правительство

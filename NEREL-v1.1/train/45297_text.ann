@@ -1,0 +1,112 @@
+T1	ORGANIZATION 0 4	ОБСЕ
+T2	STATE_OR_PROVINCE 34 39	Крыма
+T3	PERSON 84 101	Дидье Буркхальтер
+T4	DATE 102 120	11 марта 2014 года
+T5	PROFESSION 121 138	Председатель ОБСЕ
+T6	ORGANIZATION 134 138	ОБСЕ
+T7	PROFESSION 140 163	министр иностранных дел
+T8	COUNTRY 164 173	Швейцарии
+T9	PERSON 174 191	Дидье Буркхальтер
+T11	STATE_OR_PROVINCE 261 266	Крыма
+T12	DATE 306 324	16 марта 2014 года
+T13	ORGANIZATION 444 448	ОБСЕ
+T14	PERSON 543 554	Буркхальтер
+T15	COUNTRY 590 600	украинской
+T16	LAW 601 612	Конституции
+T17	ORGANIZATION 720 724	ОБСЕ
+T18	COUNTRY 777 784	Украины
+T19	ORGANIZATION 821 832	парламентом
+T20	STATE_OR_PROVINCE 833 838	Крыма
+T21	CITY 845 851	Киевом
+T22	PERSON 868 879	Буркхальтер
+T23	ORGANIZATION 893 897	ОБСЕ
+T24	STATE_OR_PROVINCE 969 974	Крыма
+T25	ORGANIZATION 996 1000	ОБСЕ
+T26	DATE 1035 1053	11 марта 2014 года
+T27	PROFESSION 1054 1062	депутаты
+T28	ORGANIZATION 1063 1080	Верховного Совета
+T29	STATE_OR_PROVINCE 1081 1107	Автономной Республики Крым
+T30	ORGANIZATION 1110 1144	Севастопольского городского Совета
+T31	COUNTRY 1183 1190	Украины
+R1	WORKS_AS Arg1:T9 Arg2:T5
+R3	WORKPLACE Arg1:T9 Arg2:T8
+T32	CITY 1110 1126	Севастопольского
+T33	ORGANIZATION 821 838	парламентом Крыма
+T35	PROFESSION 1054 1107	депутаты Верховного Совета Автономной Республики Крым
+R9	WORKPLACE Arg1:T9 Arg2:T6	
+T36	LAW 590 612	украинской Конституции
+T37	EVENT 13 39	референдум о статусе Крыма
+T38	EVENT 240 266	референдум о статусе Крыма
+T39	EVENT 13 23	референдум
+T40	EVENT 240 250	референдум
+T41	EVENT 556 566	референдум
+T42	PROFESSION 140 173	министр иностранных дел Швейцарии
+R2	WORKS_AS Arg1:T9 Arg2:T42	
+R5	WORKPLACE Arg1:T5 Arg2:T6	
+R6	POINT_IN_TIME Arg1:T38 Arg2:T12	
+R7	WORKPLACE Arg1:T42 Arg2:T8	
+T10	PROFESSION 474 486	наблюдателей
+R8	WORKPLACE Arg1:T10 Arg2:T13	
+T43	CRIME 392 428	поддержки неконституционных действий
+R10	TAKES_PLACE_IN Arg1:T38 Arg2:T11	
+R11	TAKES_PLACE_IN Arg1:T37 Arg2:T2	
+T44	PROFESSION 696 708	наблюдателей
+R12	HEADQUARTERED_IN Arg1:T33 Arg2:T20	
+R13	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R14	WORKPLACE Arg1:T35 Arg2:T28	
+R15	WORKPLACE Arg1:T35 Arg2:T29	
+T34	EVENT 1145 1163	приняли декларацию
+R4	HEADQUARTERED_IN Arg1:T30 Arg2:T32	
+R16	POINT_IN_TIME Arg1:T34 Arg2:T26	
+R17	PARTICIPANT_IN Arg1:T35 Arg2:T34	
+T45	ORGANIZATION 1063 1107	Верховного Совета Автономной Республики Крым
+R18	PARTICIPANT_IN Arg1:T45 Arg2:T34	
+R19	PARTICIPANT_IN Arg1:T30 Arg2:T34	
+T46	PROFESSION 1054 1062;1110 1144	депутаты Севастопольского городского Совета
+R20	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R21	ALTERNATIVE_NAME Arg1:T11 Arg2:T41	
+T47	PROFESSION 140 147	министр
+R22	ORIGINS_FROM Arg1:T36 Arg2:T15	
+T48	ORGANIZATION 769 784	властей Украины
+R23	HEADQUARTERED_IN Arg1:T48 Arg2:T18	
+T49	LAW 1153 1190	декларацию о независимости от Украины
+R24	INANIMATE_INVOLVED Arg1:T49 Arg2:T34	
+N1	Reference T1 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N3	Reference T7 Wikidata:Q7330070	министр иностранных дел
+N4	Reference T8 Wikidata:Q39	Швейцария
+N6	Reference T16 Wikidata:Q7755	конституция
+N7	Reference T18 Wikidata:Q212	Украина
+N8	Reference T19 Wikidata:Q35749	парламент
+N10	Reference T21 Wikidata:Q1899	Киев
+N11	Reference T22 Wikidata:Q58280	Дидье Буркхальтер
+N12	Reference T27 Wikidata:Q486839	член парламента
+N14	Reference T29 Wikidata:Q756294	Автономная Республика Крым
+N15	Reference T30 Wikidata:Q2659239	Севастопольский городской совет
+N16	Reference T32 Wikidata:Q1187560	Севастопольская
+N17	Reference T33 Wikidata:Q2559023	Верховный Совет Автономной Республики Крым
+N19	Reference T36 Wikidata:Q1549039	Конституция Украины
+N22	Reference T45 Wikidata:Q2559023	Верховный Совет Автономной Республики Крым
+N24	Reference T47 Wikidata:Q83307	министр
+N20	Reference T42 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N21	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:Q212	Украина
+N25	Reference T48 Wikidata:NULL	нет данных
+N9	Reference T20 Wikidata:Q756294	Автономная Республика Крым
+N13	Reference T28 Wikidata:NULL	нет данных
+N18	Reference T35 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:NULL	нет данных
+N26	Reference T49 Wikidata:NULL	нет данных
+N27	Reference T13 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N28	Reference T23 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N29	Reference T17 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N30	Reference T25 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N31	Reference T6 Wikidata:Q81299	Организация по безопасности и сотрудничеству в Европе
+N32	Reference T31 Wikidata:Q212	Украина
+N33	Reference T9 Wikidata:Q58280	Дидье Буркхальтер
+N34	Reference T14 Wikidata:Q58280	Дидье Буркхальтер
+N35	Reference T3 Wikidata:Q58280	Дидье Буркхальтер
+N36	Reference T44 Wikidata:NULL	нет данных
+N37	Reference T2 Wikidata:Q756294	Автономная Республика Крым
+N38	Reference T11 Wikidata:Q756294	Автономная Республика Крым
+N39	Reference T24 Wikidata:Q756294	Автономная Республика Крым

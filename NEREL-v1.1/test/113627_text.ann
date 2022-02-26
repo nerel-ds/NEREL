@@ -1,0 +1,219 @@
+T1	ORGANIZATION 0 12	Depeche Mode
+T2	WORK_OF_ART 35 41	Spirit
+T3	ORGANIZATION 55 67	Depeche Mode
+T4	COUNTRY 70 77	Австрии
+T5	DATE 78 89	в 2013 году
+T6	DATE 90 108	17 марта 2017 года
+T7	COUNTRY 109 119	британская
+T8	ORGANIZATION 129 141	Depeche Mode
+T9	ORDINAL 154 167	четырнадцатый
+T13	ORDINAL 251 257	первой
+T14	ORDINAL 345 351	первой
+T16	ORGANIZATION 366 378	Depeche Mode
+T17	PERSON 381 390	Дейв Гаан
+T18	ORDINAL 429 435	второй
+T20	PERSON 494 504	Мартин Гор
+T21	DATE 554 565	в 2015 году
+T24	PERSON 671 686	Дональда Трампа
+T26	COUNTRY 699 702	США
+T27	PERSON 777 786	Дэйв Гаан
+T28	EVENT 820 841	президентских выборов
+T29	COUNTRY 844 847	США
+T30	AGE 865 874	16-летняя
+T31	PERSON 880 884	Роуз
+T36	PERSON 961 972	Джеймс Форд
+T37	PERSON 974 984	James Ford
+T39	ORGANIZATION 1059 1073	Arctic Monkeys
+T40	DATE 1078 1096	17 марта 2017 года
+T41	CITY 1141 1148	Берлине
+T42	ORGANIZATION 1172 1180	T-Mobile
+T43	CITY 1185 1195	берлинское
+T44	COUNTRY 1301 1307	России
+T45	ORGANIZATION 1353 1360	YouTube
+T46	ORGANIZATION 1437 1449	Depeche Mode
+T54	WORK_OF_ART 1524 1546	Whereʼs the Revolution
+T55	PROFESSION 1574 1582	режиссёр
+T56	PROFESSION 1621 1629	фотограф
+T58	PERSON 1632 1645	Антон Корбейн
+T59	PERSON 1670 1679	Дэйв Гаан
+T60	PERSON 1681 1691	Мартин Гор
+T61	PERSON 1694 1706	Энди Флетчер
+T62	EVENT 1831 1849	Global Spirit Tour
+T64	LOCATION 1912 1923	Европейская
+T65	DATE 1944 1949	5 мая
+T66	CITY 1962 1972	Стокгольме
+T67	COUNTRY 1974 1980	Швеция
+T68	DATE 1995 2002	23 июля
+T69	CITY 2005 2016	Клуж-Напока
+T70	COUNTRY 2018 2025	Румыния
+T71	DATE 2069 2079	23 августа
+T72	CITY 2082 2097	Уэст-Валли-Сити
+T73	COUNTRY 2099 2102	США
+T74	DATE 2120 2130	28 октября
+T75	CITY 2133 2142	Эдмонтоне
+T76	COUNTRY 2144 2150	Канада
+T77	COUNTRY 2155 2161	России
+T78	DATE 2181 2188	13 июля
+T79	CITY 2191 2207	Санкт-Петербурге
+T80	DATE 2210 2217	15 июля
+T81	CITY 2220 2226	Москве
+T82	DATE 2228 2235	17 июля
+T83	FACILITY 2274 2285	Минск-Арене
+T84	COUNTRY 2289 2297	Беларуси
+T85	DATE 2299 2306	19 июля
+T86	ORGANIZATION 2309 2321	Depeche Mode
+T89	CITY 2353 2358	Киеве
+R15	ALTERNATIVE_NAME Arg1:T36 Arg2:T37
+T10	WORK_OF_ART 201 207	Spirit
+T11	WORK_OF_ART 232 238	Spirit
+T12	PROFESSION 358 380	лидер ''Depeche Mode''
+T15	WORK_OF_ART 579 585	Spirit
+T19	EVENT 648 654	Brexit
+T22	PROFESSION 687 702	президентом США
+R1	WORKS_AS Arg1:T24 Arg2:T22	
+R2	PARENT_OF Arg1:T27 Arg2:T31	
+T23	ORGANIZATION 939 958	Simian Mobile Disco
+T25	ORGANIZATION 1028 1052	Florence and The Machine
+T33	EVENT 43 54	Выступление
+T34	PROFESSION 887 903	Саунд-продюсером
+T35	EVENT 1112 1130	онлайн презентацию
+T38	EVENT 1196 1207	выступление
+T91	EVENT 1365 1373	концерте
+R3	WORKS_AS Arg1:T58 Arg2:T56	
+T47	PROFESSION 1722 1731	политиков
+T48	DATE 1889 1909	11 октября 2016 года
+T49	EVENT 1930 1934	тура
+T50	EVENT 2053 2057	тура
+T52	FACILITY 2339 2350	Олимпийский
+T53	EVENT 2162 2170	концерты
+R4	PRODUCES Arg1:T1 Arg2:T2	
+R5	AGENT Arg1:T3 Arg2:T33	
+R6	TAKES_PLACE_IN Arg1:T33 Arg2:T4	
+R7	POINT_IN_TIME Arg1:T33 Arg2:T5	
+R8	PRODUCES Arg1:T8 Arg2:T10	
+R9	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R10	DATE_OF_CREATION Arg1:T10 Arg2:T6	
+R11	MEMBER_OF Arg1:T17 Arg2:T16	
+R12	WORKS_AS Arg1:T17 Arg2:T12	
+R13	AGE_IS Arg1:T31 Arg2:T30	
+R14	TAKES_PLACE_IN Arg1:T28 Arg2:T29	
+R16	MEMBER_OF Arg1:T36 Arg2:T23	
+R17	POINT_IN_TIME Arg1:T35 Arg2:T40	
+R18	PARTICIPANT_IN Arg1:T42 Arg2:T35	
+R19	TAKES_PLACE_IN Arg1:T35 Arg2:T41	
+R20	TAKES_PLACE_IN Arg1:T38 Arg2:T43	
+R21	TAKES_PLACE_IN Arg1:T49 Arg2:T64	
+R22	START_TIME Arg1:T49 Arg2:T65	
+T32	EVENT 1950 1959	концертом
+R23	SUBEVENT_OF Arg1:T32 Arg2:T49	
+R24	TAKES_PLACE_IN Arg1:T32 Arg2:T66	
+R25	LOCATED_IN Arg1:T66 Arg2:T67	
+R26	LOCATED_IN Arg1:T69 Arg2:T70	
+T57	LOCATION 2028 2046	Североамериканская
+R27	POINT_IN_TIME Arg1:T53 Arg2:T78	
+R28	POINT_IN_TIME Arg1:T53 Arg2:T80	
+R29	TAKES_PLACE_IN Arg1:T53 Arg2:T79	
+R30	TAKES_PLACE_IN Arg1:T53 Arg2:T81	
+R31	LOCATED_IN Arg1:T83 Arg2:T84	
+R32	LOCATED_IN Arg1:T52 Arg2:T89	
+R33	LOCATED_IN Arg1:T79 Arg2:T77	
+R34	LOCATED_IN Arg1:T81 Arg2:T77	
+R35	WORKS_AS Arg1:T58 Arg2:T55	
+R36	LOCATED_IN Arg1:T72 Arg2:T73	
+R37	LOCATED_IN Arg1:T75 Arg2:T76	
+R38	WORKPLACE Arg1:T24 Arg2:T26	
+R39	WORKS_AS Arg1:T36 Arg2:T34	
+R40	END_TIME Arg1:T49 Arg2:T68	
+R41	TAKES_PLACE_IN Arg1:T50 Arg2:T57	
+R42	START_TIME Arg1:T50 Arg2:T71	
+R43	TAKES_PLACE_IN Arg1:T50 Arg2:T72	
+R44	END_TIME Arg1:T50 Arg2:T74	
+T51	PROFESSION 2236 2245	музыканты
+T63	EVENT 2324 2331	сыграют
+R45	AGENT Arg1:T86 Arg2:T63	
+R46	POINT_IN_TIME Arg1:T63 Arg2:T85	
+R47	TAKES_PLACE_IN Arg1:T63 Arg2:T52	
+T87	EVENT 2246 2263	представят альбом
+R48	AGENT Arg1:T51 Arg2:T87	
+R49	POINT_IN_TIME Arg1:T87 Arg2:T82	
+R50	TAKES_PLACE_IN Arg1:T87 Arg2:T83	
+T88	PROFESSION 687 698	президентом
+R51	WORKPLACE Arg1:T12 Arg2:T16	
+R52	WORKPLACE Arg1:T22 Arg2:T26	
+R53	ALTERNATIVE_NAME Arg1:T35 Arg2:T38	
+R54	ORGANIZES Arg1:T46 Arg2:T62	
+R55	ALTERNATIVE_NAME Arg1:T62 Arg2:T49	
+R56	ALTERNATIVE_NAME Arg1:T62 Arg2:T50	
+R57	SUBEVENT_OF Arg1:T53 Arg2:T62	
+R58	ORGANIZES Arg1:T46 Arg2:T53	
+R59	PARTICIPANT_IN Arg1:T46 Arg2:T87	
+R60	ALTERNATIVE_NAME Arg1:T41 Arg2:T43	
+R61	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+T92	EVENT 1819 1849	мировой тур Global Spirit Tour
+R62	AGENT Arg1:T16 Arg2:T35	
+R63	PRODUCES Arg1:T46 Arg2:T54	
+R64	WORKPLACE Arg1:T58 Arg2:T46	
+R65	POINT_IN_TIME Arg1:T32 Arg2:T65	
+R66	PARTICIPANT_IN Arg1:T20 Arg2:T15	
+T93	EVENT 662 670	избрания
+R67	PARTICIPANT_IN Arg1:T24 Arg2:T93	
+R68	TAKES_PLACE_IN Arg1:T93 Arg2:T26	
+N1	Reference T1 Wikidata:Q482964	Depeche Mode
+N2	Reference T4 Wikidata:Q40	Австрия
+N4	Reference T16 Wikidata:Q482964	Depeche Mode
+N5	Reference T17 Wikidata:Q488994	Дейв Гаан
+N6	Reference T20 Wikidata:Q491583	Мартин Гор
+N7	Reference T24 Wikidata:Q22686	Дональд Трамп
+N8	Reference T26 Wikidata:Q30	США
+N9	Reference T27 Wikidata:Q488994	Дейв Гаан
+N11	Reference T39 Wikidata:Q170599	Arctic Monkeys
+N12	Reference T41 Wikidata:Q677207	Берлин, Берлин
+N13	Reference T42 Wikidata:Q327634	T-Mobile
+N14	Reference T44 Wikidata:Q159	Россия
+N15	Reference T45 Wikidata:Q866	YouTube
+N17	Reference T55 Wikidata:Q3455803	режиссёр
+N18	Reference T56 Wikidata:Q33231	фотограф
+N19	Reference T58 Wikidata:Q349842	Корбейн, Антон
+N20	Reference T61 Wikidata:Q501296	Энди Флетчер
+N22	Reference T66 Wikidata:Q1754	Стокгольм
+N23	Reference T67 Wikidata:Q34	Швеция
+N24	Reference T69 Wikidata:Q100188	Клуж-Напока
+N25	Reference T70 Wikidata:Q218	Румыния
+N26	Reference T72 Wikidata:Q52465	Вест-Вэлли-Сити
+N27	Reference T75 Wikidata:Q2096	Эдмонтон
+N28	Reference T76 Wikidata:Q16	Канада
+N29	Reference T79 Wikidata:Q656	Санкт-Петербург
+N30	Reference T81 Wikidata:Q649	Москва
+N31	Reference T83 Wikidata:Q863096	Минск-Арена
+N32	Reference T84 Wikidata:Q184	Белоруссия
+N33	Reference T89 Wikidata:Q1899	Киев
+N34	Reference T11 Wikidata:Q27231683	Spirit
+N36	Reference T22 Wikidata:Q11696	президент США
+N38	Reference T25 Wikidata:Q217360	Florence and the Machine
+N40	Reference T47 Wikidata:Q82955	политик
+N41	Reference T52 Wikidata:Q183529	Олимпийский стадион (Киев)
+N43	Reference T51 Wikidata:Q639669	музыкант
+N44	Reference T88 Wikidata:Q30461	президент
+N3	Reference T7 Wikidata:Q145	Великобритания
+N35	Reference T12 Wikidata:NULL	нет данных
+N46	Reference T31 Wikidata:NULL	нет данных
+N39	Reference T34 Wikidata:Q128124	звукорежиссёр
+N37	Reference T23 Wikidata:Q585470	
+N10	Reference T37 Wikidata:Q604940	
+N16	Reference T54 Wikidata:Q28605684	
+N21	Reference T64 Wikidata:Q46	Европа
+N42	Reference T57 Wikidata:Q49	Северная Америка
+N47	Reference T3 Wikidata:Q482964	Depeche Mode
+N48	Reference T46 Wikidata:Q482964	Depeche Mode
+N49	Reference T86 Wikidata:Q482964	Depeche Mode
+N50	Reference T8 Wikidata:Q482964	Depeche Mode
+N51	Reference T60 Wikidata:Q491583	Мартин Гор
+N52	Reference T73 Wikidata:Q30	США
+N53	Reference T29 Wikidata:Q30	США
+N54	Reference T59 Wikidata:Q488994	Дейв Гаан
+N55	Reference T43 Wikidata:Q677207	Берлин, Берлин
+N56	Reference T77 Wikidata:Q159	Россия
+N57	Reference T2 Wikidata:Q27231683	Spirit
+N58	Reference T10 Wikidata:Q27231683	Spirit
+N59	Reference T15 Wikidata:Q27231683	Spirit
+N60	Reference T36 Wikidata:Q604940	

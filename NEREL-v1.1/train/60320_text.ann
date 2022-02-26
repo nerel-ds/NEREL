@@ -1,0 +1,151 @@
+T1	PERSON 35 49	Колин Маккалоу
+T2	LOCATION 50 57	Норфолк
+T3	LOCATION 110 117	Норфолк
+T4	AGE 129 135	77 лет
+T5	NATIONALITY 147 160	австралийская
+T6	PERSON 174 188	Колин Маккалоу
+T7	PERSON 267 281	Колин Маккалоу
+T8	DATE 291 307	1 июня 1937 года
+T9	COUNTRY 310 324	Новой Зеландии
+T10	CITY 335 346	Веллингтоне
+T11	CITY 348 358	Wellington
+T12	STATE_OR_PROVINCE 360 377	Новый Южный Уэльс
+T13	PERSON 387 394	Джеймса
+T14	PERSON 397 410	Лоры Маккалоу
+T15	COUNTRY 437 451	Новой Зеландии
+T16	COUNTRY 521 535	Новой Зеландии
+T17	CITY 595 601	Сиднее
+T18	PERSON 603 608	Колин
+T19	PERSON 677 682	Колин
+T20	ORGANIZATION 744 763	Университете Сиднея
+T21	PERSON 839 844	Колин
+T22	ORGANIZATION 856 896	Королевской больнице Северного побережья
+T23	ORGANIZATION 898 924	Royal North Shore Hospital
+T24	DATE 928 939	В 1963 году
+T25	PERSON 940 954	Колин Маккалоу
+T26	CITY 967 973	Лондон
+T27	DATE 976 990	С 1967 по 1976
+T29	ORGANIZATION 1079 1105	Йельской медицинской школы
+T30	ORGANIZATION 1110 1131	Йельском университете
+T31	DATE 1134 1145	В 1974 году
+T32	PERSON 1177 1191	Колин Маккалоу
+T33	WORK_OF_ART 1193 1196	Тим
+T34	DATE 1201 1215	через три года
+T36	NUMBER 1333 1335	20
+T37	PERSON 1381 1389	Маккалоу
+T38	LOCATION 1420 1427	Норфолк
+T39	PERSON 1428 1441	Рика Робинсон
+T40	DATE 1465 1502	в течение большей части последних лет
+T41	WORK_OF_ART 14 33	Поющих в терновнике
+T42	DATE 58 77	29 января 2015 года
+T43	PROFESSION 161 173	писательница
+T44	WORK_OF_ART 210 229	Поющие в терновнике
+T47	PERSON 544 552	Маккалоу
+T48	CITY 757 763	Сиднея
+T49	EVENT 955 964	переехала
+T50	PERSON 991 999	Макаллоу
+T28	WORK_OF_ART 1241 1260	Поющие в терновнике
+T51	DATE 1442 1453	в 1983 году
+T53	EVENT 0 6	Умерла
+T45	LOCATION 877 896	Северного побережья
+T46	LOCATION 904 915	North Shore
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T53	
+R2	PRODUCES Arg1:T1 Arg2:T41	
+R3	WORKS_AS Arg1:T6 Arg2:T43	
+R4	PRODUCES Arg1:T6 Arg2:T44	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R6	AGE_DIED_AT Arg1:T6 Arg2:T4	
+R7	DATE_OF_DEATH Arg1:T6 Arg2:T42	
+R8	DATE_OF_BIRTH Arg1:T7 Arg2:T8	
+R9	PLACE_OF_BIRTH Arg1:T7 Arg2:T10	
+R10	PLACE_OF_BIRTH Arg1:T7 Arg2:T9	
+R11	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R12	LOCATED_IN Arg1:T11 Arg2:T12	
+R13	SPOUSE Arg1:T13 Arg2:T14	
+R14	PARENT_OF Arg1:T13 Arg2:T7	
+R15	PARENT_OF Arg1:T14 Arg2:T7	
+T35	PERSON 417 422	Колин
+R16	ORIGINS_FROM Arg1:T14 Arg2:T15	
+T54	NATIONALITY 494 499	маори
+R17	ORIGINS_FROM Arg1:T14 Arg2:T54	
+T55	FAMILY 538 552	Семья Маккалоу
+R18	SCHOOLS_ATTENDED Arg1:T19 Arg2:T20	
+R19	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R20	WORKPLACE Arg1:T21 Arg2:T22	
+R21	PLACE_RESIDES_IN Arg1:T25 Arg2:T26	
+R22	OWNER_OF Arg1:T29 Arg2:T30	
+R23	WORKPLACE Arg1:T50 Arg2:T29	
+R24	DATE_OF_CREATION Arg1:T33 Arg2:T31	
+R25	PRODUCES Arg1:T32 Arg2:T33	
+R26	DATE_OF_CREATION Arg1:T28 Arg2:T34	
+R27	PRODUCES Arg1:T32 Arg2:T28	
+R28	SPOUSE Arg1:T37 Arg2:T39	
+R29	PLACE_RESIDES_IN Arg1:T37 Arg2:T38	
+R30	PLACE_RESIDES_IN Arg1:T39 Arg2:T38	
+R31	PLACE_OF_DEATH Arg1:T6 Arg2:T3	
+R32	LOCATED_IN Arg1:T10 Arg2:T9	
+R33	ALTERNATIVE_NAME Arg1:T7 Arg2:T35	
+R34	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R35	AGENT Arg1:T25 Arg2:T49	
+R36	TAKES_PLACE_IN Arg1:T49 Arg2:T26	
+R37	PLACE_RESIDES_IN Arg1:T54 Arg2:T16	
+R38	MEMBER_OF Arg1:T47 Arg2:T55	
+R39	PLACE_RESIDES_IN Arg1:T55 Arg2:T17	
+R40	PLACE_RESIDES_IN Arg1:T47 Arg2:T17	
+R41	HEADQUARTERED_IN Arg1:T20 Arg2:T48	
+R42	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+N1	Reference T1 Wikidata:Q228801	Колин Маккалоу
+N4	Reference T12 Wikidata:Q3224	Новый Южный Уэльс
+N7	Reference T15 Wikidata:Q664	Новая Зеландия
+N8	Reference T20 Wikidata:Q487556	Сиднейский университет
+N10	Reference T26 Wikidata:Q84	Лондон
+N12	Reference T30 Wikidata:Q49112	Йельский университет
+N14	Reference T37 Wikidata:Q228801	Колин Маккалоу
+N15	Reference T38 Wikidata:Q31057	Норфолк
+N17	Reference T41 Wikidata:Q606465	Поющие в терновнике
+N18	Reference T43 Wikidata:Q36180	писатель
+N19	Reference T48 Wikidata:Q3130	Сидней
+N20	Reference T50 Wikidata:Q228801	Колин Маккалоу
+N23	Reference T54 Wikidata:Q6122670	маори
+N2	Reference T5 Wikidata:Q1318423	
+N5	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T35 Wikidata:Q228801	Колин Маккалоу
+N9	Reference T22 Wikidata:Q7374599	
+N11	Reference T29 Wikidata:Q1961140	
+N3	Reference T11 Wikidata:Q2728707	
+N13	Reference T33 Wikidata:Q7803065	
+N16	Reference T39 Wikidata:NULL	нет данных
+N21	Reference T46 Wikidata:Q7056660	
+N24	Reference T25 Wikidata:Q228801	Колин Маккалоу
+N25	Reference T18 Wikidata:Q228801	Колин Маккалоу
+N26	Reference T19 Wikidata:Q228801	Колин Маккалоу
+N27	Reference T21 Wikidata:Q228801	Колин Маккалоу
+N28	Reference T32 Wikidata:Q228801	Колин Маккалоу
+N29	Reference T6 Wikidata:Q228801	Колин Маккалоу
+N30	Reference T16 Wikidata:Q664	Новая Зеландия
+N31	Reference T9 Wikidata:Q664	Новая Зеландия
+N32	Reference T47 Wikidata:Q228801	Колин Маккалоу
+N33	Reference T3 Wikidata:Q31057	Норфолк
+N34	Reference T2 Wikidata:Q31057	Норфолк
+N35	Reference T44 Wikidata:Q606465	Поющие в терновнике
+N36	Reference T28 Wikidata:Q606465	Поющие в терновнике
+N37	Reference T17 Wikidata:Q3130	Сидней
+N38	Reference T7 Wikidata:Q228801	Колин Маккалоу
+N39	Reference T23 Wikidata:Q7374599	
+N40	Reference T10 Wikidata:Q2728707	
+N41	Reference T45 Wikidata:Q7056660	
+T52	EVENT 136 146	скончалась
+R43	ORIGINS_FROM Arg1:T43 Arg2:T5	
+R44	PARTICIPANT_IN Arg1:T6 Arg2:T52	
+R45	POINT_IN_TIME Arg1:T52 Arg2:T42	
+R46	TAKES_PLACE_IN Arg1:T52 Arg2:T3	
+T56	EVENT 282 290	родилась
+R47	PARTICIPANT_IN Arg1:T7 Arg2:T56	
+R48	POINT_IN_TIME Arg1:T56 Arg2:T8	
+R49	TAKES_PLACE_IN Arg1:T56 Arg2:T9	
+R50	POINT_IN_TIME Arg1:T49 Arg2:T24	
+T57	EVENT 1390 1401	вышла замуж
+R51	AGENT Arg1:T37 Arg2:T57	
+R52	AGENT Arg1:T39 Arg2:T57	
+R53	POINT_IN_TIME Arg1:T57 Arg2:T51	

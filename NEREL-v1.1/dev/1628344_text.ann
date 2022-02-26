@@ -1,0 +1,81 @@
+T1	ORGANIZATION 1 8	Арсенал
+T2	PERSON 31 40	Мхитаряна
+T3	MONEY 47 54	$27 млн
+T4	ORGANIZATION 59 63	Ромы
+T5	ORGANIZATION 78 85	Арсенал
+T6	ORGANIZATION 105 109	Роме
+T7	PERSON 136 153	Генриха Мхитаряна
+T8	MONEY 157 164	£22 млн
+T9	MONEY 175 184	$27.5 млн
+T10	ORGANIZATION 192 197	Metro
+T11	ORGANIZATION 210 230	Correire Dello Sport
+T12	ORGANIZATION 233 237	Рома
+T13	PERSON 289 297	Мхитарян
+T14	NATIONALITY 317 325	армянина
+T15	MONEY 329 336	£15 млн
+T16	MONEY 347 356	$18.7 млн
+T17	CITY 365 375	лондонский
+T18	NATIONALITY 409 418	Итальянцы
+T19	AGE 485 495	31-летнего
+T20	DATE 511 517	на год
+T21	ORGANIZATION 534 542	Арсеналу
+T22	PERSON 603 612	Мхитаряна
+T23	EVENT 685 692	Серии А
+T24	DATE 695 711	В текущем сезоне
+T25	NUMBER 728 730	17
+T26	ORGANIZATION 742 746	Рому
+T27	NUMBER 772 773	6
+T28	NUMBER 788 789	4
+T29	COUNTRY 799 810	Итальянский
+T30	DATE 830 851	до конца этого сезона
+T31	CITY 66 76	Лондонский
+T32	NATIONALITY 111 121	армянского
+T33	PROFESSION 122 135	полузащитника
+T34	PROFESSION 496 506	футболиста
+T35	PERSON 712 720	Мхитарян
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T31	
+R3	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R4	ALTERNATIVE_NAME Arg1:T32 Arg2:T14	
+R5	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R6	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R7	WORKS_AS Arg1:T7 Arg2:T33	
+R8	HEADQUARTERED_IN Arg1:T26 Arg2:T29	
+R9	WORKS_AS Arg1:T13 Arg2:T34	
+R10	AGE_IS Arg1:T34 Arg2:T19	
+R11	WORKS_AS Arg1:T13 Arg2:T34	
+R12	ORIGINS_FROM Arg1:T7 Arg2:T32	
+R13	PRICE_OF Arg1:T7 Arg2:T8	
+R14	PRICE_OF Arg1:T13 Arg2:T15	
+R15	PARTICIPANT_IN Arg1:T22 Arg2:T23	
+R16	WORKPLACE Arg1:T35 Arg2:T26	
+T36	EVENT 816 825	арендовал
+R17	PARTICIPANT_IN Arg1:T26 Arg2:T36	
+R18	AGENT Arg1:T35 Arg2:T36	
+R19	END_TIME Arg1:T36 Arg2:T30	
+R20	HEADQUARTERED_IN Arg1:T26 Arg2:T29	
+R21	EXPENDITURE Arg1:T4 Arg2:T3	
+R22	EXPENDITURE Arg1:T12 Arg2:T15	
+R23	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+N1	Reference T5 Wikidata:Q9617	Арсенал
+N3	Reference T10 Wikidata:Q5015387	METRO
+N4	Reference T14 Wikidata:Q79797	армяне
+N6	Reference T18 Wikidata:Q50001	итальянцы
+N9	Reference T33 Wikidata:Q193592	полузащитник
+N10	Reference T34 Wikidata:Q937857	футболист
+N11	Reference T35 Wikidata:Q196219	Генрих Мхитарян
+N2	Reference T6 Wikidata:Q2739	Рома
+N12	Reference T11 Wikidata:Q1135353	
+N5	Reference T17 Wikidata:Q84	Лондон
+N7	Reference T26 Wikidata:Q2739	Рома
+N8	Reference T29 Wikidata:Q38	Италия
+N13	Reference T1 Wikidata:Q9617	Арсенал
+N14	Reference T21 Wikidata:Q9617	Арсенал
+N15	Reference T32 Wikidata:Q79797	армяне
+N16	Reference T13 Wikidata:Q196219	Генрих Мхитарян
+N17	Reference T22 Wikidata:Q196219	Генрих Мхитарян
+N18	Reference T7 Wikidata:Q196219	Генрих Мхитарян
+N19	Reference T2 Wikidata:Q196219	Генрих Мхитарян
+N20	Reference T4 Wikidata:Q2739	Рома
+N21	Reference T31 Wikidata:Q84	Лондон
+N22	Reference T12 Wikidata:Q2739	Рома

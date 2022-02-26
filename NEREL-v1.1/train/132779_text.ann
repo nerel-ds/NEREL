@@ -1,0 +1,183 @@
+T1	CITY 22 27	Киеве
+T2	PROFESSION 34 56	депутат Верховной Рады
+T3	PERSON 57 71	Игорь Мосийчук
+T4	DATE 107 136	в среду, 25 октября 2017 года
+T5	CITY 140 145	Киеве
+T6	NUMBER 173 179	четыре
+T7	PROFESSION 198 221	депутата Верховной Рады
+T8	PERSON 222 237	Игоря Мосийчука
+T9	ORGANIZATION 248 259	МВД Украины
+T10	TIME 323 338	вечером в среду
+T11	ORGANIZATION 377 385	Эспрессо
+T12	ORGANIZATION 401 404	МВД
+T13	PRODUCT 423 431	Facebook
+T14	PROFESSION 478 500	депутат Верховной Рады
+T15	ORGANIZATION 504 522	Радикальной партии
+T16	PERSON 523 537	Игорь Мосийчук
+T17	PROFESSION 598 608	охранником
+T18	PERSON 704 713	Мосийчука
+T19	PROFESSION 806 830	лидер Радикальной партии
+T20	ORGANIZATION 812 830	Радикальной партии
+T21	PERSON 831 841	Олег Ляшко
+T22	COUNTRY 933 939	Россию
+T23	ORGANIZATION 942 960	Радикальная партия
+T24	PERSON 1068 1076	Мосийчук
+T25	DATE 1077 1094	в 2011—2014 годах
+T26	AGE 1203 1212	45-летний
+T27	COUNTRY 1278 1285	Украине
+T28	DATE 1286 1305	в феврале 2014 года
+T29	CITY 1310 1316	Москве
+T30	COUNTRY 1344 1350	России
+T31	COUNTRY 1413 1419	России
+T32	EVENT 1422 1428	взрыву
+T33	CITY 1431 1436	Киеве
+T34	CITY 1525 1530	Киева
+T35	PERSON 1565 1581	Рамзана Кадырова
+T36	CITY 1643 1649	Москве
+T37	PERSON 1660 1666	Песков
+T38	COUNTRY 1719 1726	Украину
+T39	CITY 1729 1733	Киев
+T40	IDEOLOGY 1734 1743	русофобии
+T41	PROFESSION 1317 1350	пресс-секретарь президента России
+T42	PROFESSION 1333 1350	президента России
+T43	PROFESSION 1333 1343	президента
+T44	PERSON 1351 1365	Дмитрий Песков
+T45	EVENT 13 19	взрыва
+T46	ORGANIZATION 42 56	Верховной Рады
+T47	PERSON 72 86	Игорь Мосийчук
+T48	EVENT 100 106	взрыва
+T49	PROFESSION 152 163	полицейский
+T50	ORGANIZATION 207 221	Верховной Рады
+T51	COUNTRY 252 259	Украины
+T52	EVENT 298 304	теракт
+T53	EVENT 307 312	Взрыв
+T54	EVENT 461 467	взрыва
+T55	ORGANIZATION 486 500	Верховной Рады
+T56	PROFESSION 582 593	полицейский
+T57	PERSON 609 618	Мосийчука
+T58	EVENT 691 713	Покушение на Мосийчука
+T59	PRODUCT 797 805	Facebook
+T60	CRIME 1130 1200	причастности к ультранационалистической «террористической» группировке
+T61	IDEOLOGY 1145 1169	ультранационалистической
+T62	IDEOLOGY 1171 1187	террористической
+T63	PERSON 1213 1221	Мосийчук
+T64	IDEOLOGY 1250 1265	проевропейского
+T65	EVENT 1250 1275	проевропейского восстания
+T66	PROFESSION 34 41	депутат
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	WORKPLACE Arg1:T3 Arg2:T46	
+R3	WORKPLACE Arg1:T2 Arg2:T46	
+R4	TAKES_PLACE_IN Arg1:T45 Arg2:T1	
+R5	POINT_IN_TIME Arg1:T48 Arg2:T4	
+R6	TAKES_PLACE_IN Arg1:T48 Arg2:T5	
+T67	PROFESSION 198 206	депутата
+R7	WORKPLACE Arg1:T7 Arg2:T50	
+R8	WORKS_AS Arg1:T8 Arg2:T7	
+R9	WORKPLACE Arg1:T8 Arg2:T50	
+T68	ORGANIZATION 248 251	МВД
+R10	HEADQUARTERED_IN Arg1:T9 Arg2:T51	
+R11	MEMBER_OF Arg1:T16 Arg2:T15	
+R12	SUBORDINATE_OF Arg1:T17 Arg2:T57	
+T69	PROFESSION 478 485	депутат
+R13	WORKPLACE Arg1:T14 Arg2:T55	
+R14	WORKS_AS Arg1:T16 Arg2:T14	
+R15	WORKPLACE Arg1:T16 Arg2:T55	
+R16	WORKS_AS Arg1:T21 Arg2:T19	
+R17	WORKPLACE Arg1:T19 Arg2:T20	
+T70	IDEOLOGY 812 823	Радикальной
+R18	IDEOLOGY_OF Arg1:T20 Arg2:T70	
+R19	IDEOLOGY_OF Arg1:T21 Arg2:T70	
+R20	ALTERNATIVE_NAME Arg1:T54 Arg2:T58	
+R21	PARTICIPANT_IN Arg1:T16 Arg2:T54	
+R22	PARTICIPANT_IN Arg1:T18 Arg2:T58	
+T71	IDEOLOGY 504 515	Радикальной
+R23	IDEOLOGY_OF Arg1:T15 Arg2:T71	
+R24	IDEOLOGY_OF Arg1:T16 Arg2:T71	
+T72	EVENT 146 151	погиб
+R25	PARTICIPANT_IN Arg1:T49 Arg2:T72	
+T73	EVENT 28 33	ранен
+R26	PARTICIPANT_IN Arg1:T3 Arg2:T73	
+R27	SUBEVENT_OF Arg1:T73 Arg2:T45	
+R28	SUBEVENT_OF Arg1:T72 Arg2:T48	
+T74	EVENT 166 188	ранены четыре человека
+R29	SUBEVENT_OF Arg1:T74 Arg2:T45	
+R30	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+R31	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+T75	EVENT 472 477	ранен
+R32	SUBEVENT_OF Arg1:T75 Arg2:T54	
+R33	PARTICIPANT_IN Arg1:T16 Arg2:T75	
+T76	PENALTY 1105 1113	в тюрьме
+R34	ALTERNATIVE_NAME Arg1:T8 Arg2:T57	
+R35	PENALIZED_AS Arg1:T24 Arg2:T76	
+R36	CONVICTED_OF Arg1:T24 Arg2:T60	
+R37	HAS_CAUSE Arg1:T76 Arg2:T60	
+R38	TAKES_PLACE_IN Arg1:T32 Arg2:T33	
+R39	WORKS_AS Arg1:T44 Arg2:T41	
+T77	PROFESSION 1317 1332	пресс-секретарь
+R40	WORKPLACE Arg1:T42 Arg2:T30	
+T78	EVENT 1226 1243	выпущен из тюрьмы
+R41	AGE_IS Arg1:T63 Arg2:T26	
+R42	PARTICIPANT_IN Arg1:T63 Arg2:T78	
+T79	EVENT 1266 1275	восстания
+R43	TAKES_PLACE_IN Arg1:T65 Arg2:T27	
+R44	POINT_IN_TIME Arg1:T65 Arg2:T28	
+R45	SUBORDINATE_OF Arg1:T44 Arg2:T42	
+R46	ALTERNATIVE_NAME Arg1:T44 Arg2:T37	
+R47	IDEOLOGY_OF Arg1:T38 Arg2:T40	
+R48	LOCATED_IN Arg1:T39 Arg2:T38	
+T80	IDEOLOGY 942 953	Радикальная
+R49	IDEOLOGY_OF Arg1:T23 Arg2:T80	
+R50	TAKES_PLACE_IN Arg1:T73 Arg2:T1	
+R51	PARTICIPANT_IN Arg1:T8 Arg2:T74	
+R52	POINT_IN_TIME Arg1:T53 Arg2:T10	
+N1	Reference T1 Wikidata:Q1899	Киев
+N2	Reference T7 Wikidata:Q12132454	народный депутат Украины
+N3	Reference T9 Wikidata:Q2445140	Министерство внутренних дел Украины
+N4	Reference T11 Wikidata:Q15689802	Эспрессо TV
+N5	Reference T15 Wikidata:Q2355317	Радикальная партия Олега Ляшко
+N6	Reference T16 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N7	Reference T17 Wikidata:Q856887	охранник
+N8	Reference T21 Wikidata:Q12119499	Олег Валерьевич Ляшко
+N9	Reference T22 Wikidata:Q159	Россия
+N10	Reference T27 Wikidata:Q212	Украина
+N11	Reference T35 Wikidata:Q217115	Рамзан Ахматович Кадыров
+N12	Reference T36 Wikidata:Q649	Москва
+N14	Reference T41 Wikidata:Q19607392	пресс-секретарь президента России
+N15	Reference T42 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T43 Wikidata:Q30461	президент
+N17	Reference T46 Wikidata:Q176296	Верховная Рада Украины
+N18	Reference T49 Wikidata:Q558102	Полицейские
+N19	Reference T59 Wikidata:Q355	Facebook
+N20	Reference T67 Wikidata:Q486839	член парламента
+N21	Reference T68 Wikidata:Q6589202	министерство внутренних дел
+N22	Reference T19 Wikidata:NULL	нет данных
+N23	Reference T77 Wikidata:Q17221	
+N13	Reference T37 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N24	Reference T5 Wikidata:Q1899	Киев
+N25	Reference T34 Wikidata:Q1899	Киев
+N26	Reference T33 Wikidata:Q1899	Киев
+N27	Reference T39 Wikidata:Q1899	Киев
+N28	Reference T2 Wikidata:Q12132454	народный депутат Украины
+N29	Reference T14 Wikidata:Q12132454	народный депутат Украины
+N30	Reference T20 Wikidata:Q2355317	Радикальная партия Олега Ляшко
+N31	Reference T23 Wikidata:Q2355317	Радикальная партия Олега Ляшко
+N32	Reference T8 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N33	Reference T57 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N34	Reference T24 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N35	Reference T63 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N36	Reference T47 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N37	Reference T3 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N38	Reference T18 Wikidata:Q12130283	Мосийчук, Игорь Владимирович
+N39	Reference T31 Wikidata:Q159	Россия
+N40	Reference T30 Wikidata:Q159	Россия
+N41	Reference T51 Wikidata:Q212	Украина
+N42	Reference T38 Wikidata:Q212	Украина
+N43	Reference T29 Wikidata:Q649	Москва
+N44	Reference T50 Wikidata:Q176296	Верховная Рада Украины
+N45	Reference T55 Wikidata:Q176296	Верховная Рада Украины
+N46	Reference T56 Wikidata:Q558102	Полицейские
+N47	Reference T13 Wikidata:Q355	Facebook
+N48	Reference T69 Wikidata:Q486839	член парламента
+N49	Reference T66 Wikidata:Q486839	член парламента
+N50	Reference T12 Wikidata:Q6589202	министерство внутренних дел
+N51	Reference T44 Wikidata:Q4359688	Дмитрий Сергеевич Песков

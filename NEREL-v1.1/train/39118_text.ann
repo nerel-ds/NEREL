@@ -1,0 +1,109 @@
+T1	PERSON 0 16	Джохару Царнаеву
+T2	PERSON 51 67	Джохару Цорнаеву
+T3	CITY 109 116	Бостоне
+T4	PERSON 158 165	Царнаев
+T5	AGE 265 274	19-летнем
+T7	CITY 655 661	Бостон
+T8	ORGANIZATION 938 947	Аль-Кайды
+T9	CITY 1055 1062	Бостоне
+T10	NUMBER 1071 1074	три
+T11	NUMBER 1085 1097	более 260-ти
+T13	PERSON 1138 1155	Джохароа Царнаева
+T14	PERSON 1158 1166	Тамерлан
+T15	EVENT 98 106	терактов
+T16	PENALTY 220 243	пожизненному заключению
+T17	PENALTY 248 262	смертной казни
+T18	PERSON 275 283	Царнаеву
+T19	CRIME 300 342	использование оружия массового уничтожения
+T20	CRIME 345 390	организация взрыва бомбы в общественном месте
+T21	EVENT 419 431	гибель людей
+T22	EVENT 509 519	задержания
+T23	CRIME 559 580	убийство полицейского
+T24	CRIME 583 598	угон автомобиля
+T25	PERSON 607 615	Царнаевы
+T26	PROFESSION 568 580	полицейского
+T27	PERSON 711 719	Царнаевы
+T28	IDEOLOGY 824 837	экстремистами
+T29	PERSON 886 895	Царнаевых
+T30	PRODUCT 903 911	Интернет
+T32	EVENT 1044 1052	марафоне
+T12	EVENT 1174 1178	убит
+T33	ORGANIZATION 1195 1203	полицией
+T34	EVENT 17 50	предъявлены официальные обвинения
+T35	EVENT 118 151	предъявлены официальные обвинения
+T36	CRIME 86 106	организации терактов
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+R2	TAKES_PLACE_IN Arg1:T15 Arg2:T3	
+R3	HAS_CAUSE Arg1:T35 Arg2:T36	
+R4	CONVICTED_OF Arg1:T2 Arg2:T36	
+R5	ORGANIZES Arg1:T2 Arg2:T15	
+R6	HAS_CAUSE Arg1:T35 Arg2:T15	
+R7	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R8	PENALIZED_AS Arg1:T4 Arg2:T16	
+R9	PENALIZED_AS Arg1:T4 Arg2:T17	
+R10	AGE_IS Arg1:T18 Arg2:T5	
+R11	HAS_CAUSE Arg1:T19 Arg2:T16	
+R12	HAS_CAUSE Arg1:T20 Arg2:T16	
+R13	HAS_CAUSE Arg1:T19 Arg2:T17	
+R14	HAS_CAUSE Arg1:T20 Arg2:T17	
+T37	EVENT 357 369	взрыва бомбы
+R15	ALTERNATIVE_NAME Arg1:T15 Arg2:T37	
+R16	CONVICTED_OF Arg1:T18 Arg2:T19	
+R17	CONVICTED_OF Arg1:T18 Arg2:T20	
+R18	HAS_CAUSE Arg1:T21 Arg2:T37	
+R19	ORGANIZES Arg1:T18 Arg2:T37	
+R20	PARTICIPANT_IN Arg1:T18 Arg2:T21	
+T6	DATE 489 497	в апреле
+R21	PARTICIPANT_IN Arg1:T26 Arg2:T23	
+T38	FAMILY 600 615	братья Царнаевы
+R22	MEMBER_OF Arg1:T18 Arg2:T38	
+T39	EVENT 616 636	захватили автомобиль
+R23	CONVICTED_OF Arg1:T38 Arg2:T24	
+R24	AGENT Arg1:T38 Arg2:T39	
+R25	ALTERNATIVE_NAME Arg1:T24 Arg2:T39	
+R26	LOCATED_IN Arg1:T25 Arg2:T7	
+R27	PARTICIPANT_IN Arg1:T18 Arg2:T22	
+R28	PARTICIPANT_IN Arg1:T18 Arg2:T23	
+R29	PARTICIPANT_IN Arg1:T18 Arg2:T24	
+R30	HAS_CAUSE Arg1:T22 Arg2:T37	
+R31	MEMBER_OF Arg1:T25 Arg2:T38	
+T40	FAMILY 704 719	братья Царнаевы
+R32	MEMBER_OF Arg1:T27 Arg2:T40	
+T31	EVENT 1028 1040	взрывов бомб
+R33	SUBEVENT_OF Arg1:T31 Arg2:T32	
+R34	TAKES_PLACE_IN Arg1:T32 Arg2:T9	
+T41	EVENT 1085 1114	более 260-ти получили ранения
+T42	EVENT 1117 1123	травмы
+T43	EVENT 1063 1084	погибли три человека,
+R35	ALTERNATIVE_NAME Arg1:T21 Arg2:T43	
+R36	HAS_CAUSE Arg1:T43 Arg2:T31	
+R37	HAS_CAUSE Arg1:T41 Arg2:T31	
+R38	HAS_CAUSE Arg1:T42 Arg2:T31	
+R39	SIBLING Arg1:T13 Arg2:T14	
+R40	PARTICIPANT_IN Arg1:T14 Arg2:T12	
+T44	EVENT 1181 1203	перестрелке с полицией
+R41	HAS_CAUSE Arg1:T12 Arg2:T44	
+R42	PARTICIPANT_IN Arg1:T33 Arg2:T44	
+R43	PARTICIPANT_IN Arg1:T14 Arg2:T44	
+R44	MEMBER_OF Arg1:T14 Arg2:T40	
+R45	TAKES_PLACE_IN Arg1:T36 Arg2:T3	
+R46	TAKES_PLACE_IN Arg1:T39 Arg2:T7	
+R47	TAKES_PLACE_IN Arg1:T31 Arg2:T9	
+R48	PARTICIPANT_IN Arg1:T33 Arg2:T12	
+T45	CRIME 345 369	организация взрыва бомбы
+N2	Reference T8 Wikidata:Q34490	Аль-Каида
+N3	Reference T9 Wikidata:Q100	Бостон
+N5	Reference T14 Wikidata:Q11643847	братья Царнаевы
+N9	Reference T30 Wikidata:Q75	Интернет
+N10	Reference T33 Wikidata:Q35535	полиция
+N1	Reference T1 Wikidata:Q11643847	братья Царнаевы
+N11	Reference T4 Wikidata:Q11643847	братья Царнаевы
+N6	Reference T18 Wikidata:Q11643847	братья Царнаевы
+N8	Reference T29 Wikidata:Q11643847	братья Царнаевы
+N4	Reference T13 Wikidata:Q11643847	братья Царнаевы
+N7	Reference T26 Wikidata:Q384593	
+N12	Reference T7 Wikidata:Q100	Бостон
+N13	Reference T3 Wikidata:Q100	Бостон
+N14	Reference T2 Wikidata:Q11643847	братья Царнаевы
+N15	Reference T25 Wikidata:Q11643847	братья Царнаевы
+N16	Reference T27 Wikidata:Q11643847	братья Царнаевы

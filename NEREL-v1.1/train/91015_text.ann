@@ -1,0 +1,136 @@
+T1	PERSON 10 22	Михаил Лесин
+T2	PERSON 45 57	Михаил Лесин
+T3	PERSON 60 74	Владимир Путин
+T4	CITY 102 112	Вашингтоне
+T5	PERSON 166 178	Михаил Лесин
+T8	ORGANIZATION 222 235	Газпром-медиа
+T9	PROFESSION 238 264	советник президента России
+T10	PERSON 265 281	Владимира Путина
+T11	ORGANIZATION 400 418	полиции Вашингтона
+T12	AGE 446 456	57-летнего
+T13	PERSON 457 463	Лесина
+T14	PROFESSION 596 644	Представитель полицейского управления Вашингтона
+T15	PERSON 684 690	Лесина
+T16	ORGANIZATION 708 718	МИД России
+T17	COUNTRY 740 743	США
+T18	COUNTRY 794 804	российские
+T19	COUNTRY 834 846	американской
+T20	AGE 906 916	57-летнего
+T21	PROFESSION 917 933	советника Путина
+T22	PERSON 934 948	Михаила Лесина
+T23	DATE 964 982	6 ноября 2015 года
+T24	FACILITY 1018 1031	Dupont Circle
+T25	CITY 1034 1044	Вашингтоне
+T26	COUNTRY 1114 1125	российского
+T27	PERSON 1212 1218	Лесина
+T28	DISEASE 32 44	травм головы
+T29	ORGANIZATION 366 396	D.C. Medical Examiner’s Office
+T30	DISTRICT 366 370	D.C.
+T31	COUNTRY 203 209	России
+T32	COUNTRY 258 264	России
+T33	PROFESSION 247 264	президента России
+T34	DISEASE 292 318	тупых силовых травм головы
+T35	CITY 408 418	Вашингтона
+T36	DISEASE 476 492	тупые травмы шеи
+T39	CITY 634 644	Вашингтона
+T40	ORGANIZATION 610 644	полицейского управления Вашингтона
+T41	COUNTRY 712 718	России
+T42	PERSON 927 933	Путина
+T43	PROFESSION 1126 1135	чиновника
+T44	DISEASE 1141 1158	сердечный приступ
+R1	CAUSE_OF_DEATH Arg1:T1 Arg2:T28	
+T45	DISEASE 306 318	травм головы
+T7	PROFESSION 215 236	глава «Газпром-медиа»
+T46	PROFESSION 188 209	министр печати России
+R2	SUBORDINATE_OF Arg1:T5 Arg2:T10	
+R3	WORKS_AS Arg1:T5 Arg2:T46	
+R4	WORKPLACE Arg1:T5 Arg2:T31	
+R5	WORKPLACE Arg1:T5 Arg2:T8	
+R6	WORKS_AS Arg1:T5 Arg2:T9	
+T47	PROFESSION 247 257	президента
+R7	AGE_DIED_AT Arg1:T13 Arg2:T12	
+T48	DISEASE 32 37	травм
+T49	DISEASE 306 311	травм
+R8	CAUSE_OF_DEATH Arg1:T5 Arg2:T34	
+R9	CAUSE_OF_DEATH Arg1:T13 Arg2:T36	
+T37	DISEASE 476 488	тупые травмы
+T38	DISEASE 482 488	травмы
+R10	AGE_DIED_AT Arg1:T22 Arg2:T20	
+T50	EVENT 988 1005	тело было найдено
+R11	TAKES_PLACE_IN Arg1:T50 Arg2:T24	
+R12	LOCATED_IN Arg1:T24 Arg2:T25	
+R13	PLACE_OF_DEATH Arg1:T22 Arg2:T24	
+R14	POINT_IN_TIME Arg1:T50 Arg2:T23	
+R15	WORKS_AS Arg1:T22 Arg2:T43	
+R16	ORIGINS_FROM Arg1:T22 Arg2:T26	
+T51	EVENT 113 143	судебно-медицинской экспертизы
+R17	TAKES_PLACE_IN Arg1:T51 Arg2:T4	
+R18	WORKPLACE Arg1:T46 Arg2:T31	
+R19	WORKPLACE Arg1:T33 Arg2:T32	
+R20	SUBORDINATE_OF Arg1:T9 Arg2:T33	
+T52	PROFESSION 346 360	судмедэксперта
+R21	HEADQUARTERED_IN Arg1:T11 Arg2:T35	
+R22	HEADQUARTERED_IN Arg1:T29 Arg2:T30	
+R23	WORKPLACE Arg1:T52 Arg2:T29	
+R24	WORKPLACE Arg1:T14 Arg2:T40	
+R25	HEADQUARTERED_IN Arg1:T40 Arg2:T39	
+R26	HEADQUARTERED_IN Arg1:T16 Arg2:T41	
+R27	ALTERNATIVE_NAME Arg1:T41 Arg2:T18	
+R28	ALTERNATIVE_NAME Arg1:T17 Arg2:T19	
+R29	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+R30	WORKS_AS Arg1:T22 Arg2:T21	
+R31	SUBORDINATE_OF Arg1:T22 Arg2:T42	
+R32	ALTERNATIVE_NAME Arg1:T10 Arg2:T42	
+R33	WORKPLACE Arg1:T43 Arg2:T26	
+R34	ALTERNATIVE_NAME Arg1:T22 Arg2:T27	
+T6	PROFESSION 188 202	министр печати
+T53	PROFESSION 188 195	министр
+T54	EVENT 23 28	погиб
+R35	PARTICIPANT_IN Arg1:T1 Arg2:T54	
+R36	HAS_CAUSE Arg1:T54 Arg2:T28	
+T55	EVENT 283 287	умер
+R37	PARTICIPANT_IN Arg1:T5 Arg2:T55	
+R38	HAS_CAUSE Arg1:T55 Arg2:T34	
+R39	ALTERNATIVE_NAME Arg1:T54 Arg2:T55	
+T56	EVENT 899 905	смерти
+R40	SUBORDINATE_OF Arg1:T21 Arg2:T42	
+R41	PARTICIPANT_IN Arg1:T22 Arg2:T56	
+N1	Reference T1 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N2	Reference T5 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N3	Reference T8 Wikidata:Q260542	Газпром-Медиа Холдинг
+N7	Reference T16 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N11	Reference T25 Wikidata:Q61	Вашингтон
+N15	Reference T33 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T42 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T43 Wikidata:Q382887	чиновник
+N21	Reference T47 Wikidata:Q30461	президент
+N22	Reference T52 Wikidata:Q17143199	судмедэксперт
+N23	Reference T53 Wikidata:Q83307	министр
+N4	Reference T9 Wikidata:NULL	нет данных
+N19	Reference T7 Wikidata:NULL	нет данных
+N20	Reference T46 Wikidata:NULL	
+N24	Reference T6 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N13	Reference T29 Wikidata:NULL	
+N14	Reference T30 Wikidata:Q61	Вашингтон
+N6	Reference T14 Wikidata:NULL	нет данных
+N16	Reference T40 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q30	Американское Самоа
+N12	Reference T26 Wikidata:Q159	Россия
+N9	Reference T21 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:Q7731239	
+N25	Reference T22 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N26	Reference T15 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N27	Reference T2 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N28	Reference T27 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N29	Reference T13 Wikidata:Q4259359	Лесин, Михаил Юрьевич
+N30	Reference T4 Wikidata:Q61	Вашингтон
+N31	Reference T35 Wikidata:Q61	Вашингтон
+N32	Reference T39 Wikidata:Q61	Вашингтон
+N33	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N34	Reference T10 Wikidata:Q7747	Владимир Владимирович Путин
+N35	Reference T17 Wikidata:Q30	Американское Самоа
+N36	Reference T31 Wikidata:Q159	Россия
+N37	Reference T41 Wikidata:Q159	Россия
+N38	Reference T18 Wikidata:Q159	Россия
+N39	Reference T32 Wikidata:Q159	Россия

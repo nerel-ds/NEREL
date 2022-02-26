@@ -1,0 +1,323 @@
+T1	PERSON 0 15	Муртаза Рахимов
+T2	PROFESSION 31 40	Президент
+T3	PERSON 50 65	Муртаза Рахимов
+T5	DATE 124 129	Вчера
+T6	PERSON 140 156	Азамата Сагитова
+T7	DATE 201 210	год назад
+T8	PERSON 238 252	Радия Хабирова
+T9	PROFESSION 278 348	заместителя начальника управления президента РФ по внутренней политике
+T10	ORGANIZATION 409 414	мэрию
+T11	ORGANIZATION 452 453	Ъ
+T13	PERSON 497 514	Айрат Мурзагалиев
+T14	DATE 516 521	вчера
+T15	PERSON 522 537	Муртаза Рахимов
+T16	PROFESSION 564 569;576 589	главы администрации
+T17	AGE 591 600	42-летний
+T18	PERSON 601 615	Азамат Сагитов
+T19	PROFESSION 692 734	главой одной из районных администраций Уфы
+T20	DATE 752 772	в июле прошлого года
+T21	PROFESSION 863 882	главы администрации
+T22	PERSON 883 897	Радия Хабирова
+T23	DATE 900 909	Год назад
+T24	STATE_OR_PROVINCE 929 940	башкирского
+T25	ORGANIZATION 970 983	Единая Россия
+T26	PERSON 1011 1019	Хабирова
+T27	ORGANIZATION 1079 1085	Кремль
+T28	ORGANIZATION 1160 1183	Московскому комсомольцу
+T29	ORGANIZATION 1239 1252	Единую Россию
+T30	ORGANIZATION 1300 1301	Ъ
+T31	DATE 1303 1309	6 июня
+T33	PERSON 1343 1355	Андрей Исаев
+T34	PERSON 1381 1397	Муртазы Рахимова
+T35	STATE_OR_PROVINCE 1444 1454	башкирские
+T36	PROFESSION 1470 1485	Глава исполкома
+T37	ORGANIZATION 1487 1500	Единой России
+T38	PERSON 1502 1517	Андрей Воробьев
+T39	ORGANIZATION 1526 1527	Ъ
+T40	PROFESSION 1582 1612	главы башкирской администрации
+T41	ORGANIZATION 1752 1753	Ъ
+T42	STATE_OR_PROVINCE 1757 1767	башкирской
+T43	PERSON 1885 1899	Радия Хабирова
+T44	ORGANIZATION 2022 2023	Ъ
+T45	STATE_OR_PROVINCE 2085 2095	башкирской
+T46	ORGANIZATION 2118 2131	правительство
+T47	PERSON 2143 2159	Раилем Сарбаевым
+T48	PROFESSION 2192 2205	глава региона
+T49	PROFESSION 2296 2315	главы администрации
+T50	PERSON 2390 2397	Сагитов
+T51	PERSON 2491 2499	Рахимова
+T52	CITY 2526 2534	уфимской
+T53	ORGANIZATION 2542 2543	Ъ
+T54	DATE 2559 2564	вчера
+T55	PROFESSION 2618 2637	управляющего делами
+T56	PROFESSION 2683 2688	главы
+T57	PERSON 2709 2724	Муртаза Рахимов
+T58	ORGANIZATION 2803 2804	Ъ
+T59	PROFESSION 2868 2879	гендиректор
+T60	PERSON 2899 2914	Николай Курапов
+T61	PROFESSION 3023 3059	руководитель координационного совета
+T62	PERSON 3078 3091	Рамиль Бигнов
+T63	PROFESSION 3129 3142	глава региона
+T64	PERSON 3173 3181	Курапова
+T65	PROFESSION 3238 3259	президента республики
+T66	CITY 3266 3272	Москвы
+T67	PERSON 3322 3329	Сарбаев
+T68	PERSON 3437 3443	Бигнов
+T69	PERSON 3464 3480	Альберт Мифтахов
+T70	PROFESSION 3575 3584	президент
+T71	DATE 3615 3624	через год
+T73	PERSON 3753 3768	Рафаилу Диваеву
+T74	PROFESSION 3846 3860	вице-премьером
+T75	STATE_OR_PROVINCE 41 49	Башкирии
+T76	PROFESSION 31 49	Президент Башкирии
+R1	WORKS_AS Arg1:T3 Arg2:T76	
+T77	PROFESSION 290 348	начальника управления президента РФ по внутренней политике
+T78	PERSON 369 377	Сагитова
+T79	CITY 415 418	Уфы
+T80	ORGANIZATION 409 418	мэрию Уфы
+R3	WORKPLACE Arg1:T78 Arg2:T80	
+R4	AGE_IS Arg1:T18 Arg2:T17	
+R5	WORKS_AS Arg1:T22 Arg2:T21	
+R6	MEMBER_OF Arg1:T26 Arg2:T25	
+T81	PERSON 1150 1158	Рахимова
+T82	PROFESSION 1470 1501	Глава исполкома "Единой России"
+R7	WORKS_AS Arg1:T38 Arg2:T82	
+T83	STATE_OR_PROVINCE 1588 1598	башкирской
+T84	PROFESSION 3454 3463	политолог
+R8	WORKS_AS Arg1:T69 Arg2:T84	
+T85	CITY 3445 3453	Уфимский
+R9	PLACE_RESIDES_IN Arg1:T69 Arg2:T85	
+T86	STATE_OR_PROVINCE 3744 3752	Башкирии
+T87	CITY 2652 2655	Уфы
+T88	ORGANIZATION 2638 2655	администрации Уфы
+T89	PROFESSION 2618 2655	управляющего делами администрации Уфы
+T90	PERSON 2577 2584	Сагитов
+R10	WORKS_AS Arg1:T90 Arg2:T89	
+R11	WORKPLACE Arg1:T90 Arg2:T88	
+T91	PERSON 2746 2758	Мурзагалиева
+T92	ORGANIZATION 176 200	башкирскую администрацию
+R12	WORKPLACE Arg1:T6 Arg2:T92	
+T93	STATE_OR_PROVINCE 176 186	башкирскую
+T94	STATE_OR_PROVINCE 474 485	башкирского
+T95	PROFESSION 474 496	башкирского президента
+T96	PROFESSION 455 496	глава пресс-службы башкирского президента
+R13	WORKS_AS Arg1:T13 Arg2:T96	
+T97	CITY 731 734	Уфы
+T98	PERSON 1045 1052	Хабиров
+T99	ORGANIZATION 1588 1612	башкирской администрации
+T100	ORGANIZATION 1757 1781	башкирской администрации
+T101	ORGANIZATION 2526 2540	уфимской мэрии
+T102	ORGANIZATION 2885 2897	Башкирэнерго
+T103	PROFESSION 2868 2898	гендиректор ОАО "Башкирэнерго"
+R16	WORKS_AS Arg1:T60 Arg2:T103	
+R17	WORKPLACE Arg1:T60 Arg2:T102	
+T104	ORGANIZATION 3737 3752	МВД по Башкирии
+T105	PROFESSION 3731 3752	главе МВД по Башкирии
+R18	WORKS_AS Arg1:T73 Arg2:T105	
+R19	WORKPLACE Arg1:T73 Arg2:T86	
+R20	WORKS_AS Arg1:T73 Arg2:T74	
+R21	WORKPLACE Arg1:T47 Arg2:T46	
+T106	COUNTRY 323 325	РФ
+T107	PROFESSION 312 322	президента
+T108	PROFESSION 312 325	президента РФ
+T109	ORGANIZATION 301 348	управления президента РФ по внутренней политике
+R2	WORKS_AS Arg1:T8 Arg2:T9	
+R22	WORKPLACE Arg1:T3 Arg2:T75	
+T110	EVENT 133 139	уволил
+R23	AGENT Arg1:T3 Arg2:T110	
+R24	PARTICIPANT_IN Arg1:T6 Arg2:T110	
+T111	EVENT 217 237	вынужденной отставки
+R25	PARTICIPANT_IN Arg1:T8 Arg2:T111	
+R26	ORGANIZES Arg1:T3 Arg2:T111	
+R27	POINT_IN_TIME Arg1:T111 Arg2:T7	
+T12	ORGANIZATION 461 496	пресс-службы башкирского президента
+R14	WORKPLACE Arg1:T98 Arg2:T27	
+T32	ORGANIZATION 1316 1342	бюро высшего совета партии
+R15	MEMBER_OF Arg1:T33 Arg2:T32	
+R28	WORKPLACE Arg1:T38 Arg2:T37	
+R29	WORKPLACE Arg1:T76 Arg2:T75	
+R30	ALTERNATIVE_NAME Arg1:T75 Arg2:T93	
+T112	EVENT 229 237	отставки
+R31	HEADQUARTERED_IN Arg1:T92 Arg2:T93	
+R32	SUBORDINATE_OF Arg1:T9 Arg2:T77	
+R33	WORKPLACE Arg1:T77 Arg2:T109	
+R34	WORKPLACE Arg1:T77 Arg2:T109	
+R35	WORKPLACE Arg1:T108 Arg2:T106	
+R36	ALTERNATIVE_NAME Arg1:T6 Arg2:T78	
+R37	HEADQUARTERED_IN Arg1:T80 Arg2:T79	
+T113	EVENT 555 563	отставке
+R38	AGENT Arg1:T15 Arg2:T113	
+R39	POINT_IN_TIME Arg1:T113 Arg2:T14	
+R40	WORKPLACE Arg1:T96 Arg2:T12	
+T114	PROFESSION 486 496	президента
+R41	ALTERNATIVE_NAME Arg1:T76 Arg2:T95	
+R42	ALTERNATIVE_NAME Arg1:T78 Arg2:T18	
+R43	WORKS_AS Arg1:T18 Arg2:T19	
+R44	WORKPLACE Arg1:T18 Arg2:T97	
+T115	EVENT 805 820	громкий скандал
+R45	PARTICIPANT_IN Arg1:T22 Arg2:T115	
+T116	PROFESSION 929 950	башкирского чиновника
+R46	WORKPLACE Arg1:T116 Arg2:T24	
+R47	WORKS_AS Arg1:T18 Arg2:T116	
+R48	ALTERNATIVE_NAME Arg1:T22 Arg2:T26	
+R49	ALTERNATIVE_NAME Arg1:T15 Arg2:T81	
+R50	ALTERNATIVE_NAME Arg1:T81 Arg2:T34	
+R51	WORKPLACE Arg1:T82 Arg2:T37	
+T117	IDEOLOGY 3068 3077	оппозиции
+R52	IDEOLOGY_OF Arg1:T62 Arg2:T117	
+R53	ALTERNATIVE_NAME Arg1:T62 Arg2:T68	
+R54	WORKPLACE Arg1:T105 Arg2:T104	
+R55	HEADQUARTERED_IN Arg1:T104 Arg2:T86	
+T118	NATIONALITY 3353 3360	русской
+R56	ORIGINS_FROM Arg1:T64 Arg2:T118	
+R57	WORKS_AS Arg1:T62 Arg2:T61	
+R58	WORKPLACE Arg1:T103 Arg2:T102	
+R59	ALTERNATIVE_NAME Arg1:T51 Arg2:T57	
+T4	PROFESSION 97 122	главу своей администрации
+R60	SUBORDINATE_OF Arg1:T4 Arg2:T3	
+R61	WORKS_AS Arg1:T6 Arg2:T4	
+R62	HEADQUARTERED_IN Arg1:T101 Arg2:T52	
+T72	EVENT 538 551	подписал указ
+R63	AGENT Arg1:T15 Arg2:T72	
+R64	PARTICIPANT_IN Arg1:T16 Arg2:T113	
+R65	HAS_CAUSE Arg1:T72 Arg2:T113	
+R66	WORKPLACE Arg1:T19 Arg2:T97	
+R67	TAKES_PLACE_IN Arg1:T115 Arg2:T97	
+T119	CITY 1160 1171	Московскому
+R68	HEADQUARTERED_IN Arg1:T28 Arg2:T119	
+T120	COUNTRY 1246 1252	Россию
+R69	HEADQUARTERED_IN Arg1:T29 Arg2:T120	
+T121	COUNTRY 977 983	Россия
+R70	HEADQUARTERED_IN Arg1:T25 Arg2:T121	
+R71	PART_OF Arg1:T32 Arg2:T29	
+T122	EVENT 1573 1581	отставки
+R72	HEADQUARTERED_IN Arg1:T99 Arg2:T83	
+R73	WORKPLACE Arg1:T40 Arg2:T83	
+R74	PARTICIPANT_IN Arg1:T40 Arg2:T122	
+R75	ALTERNATIVE_NAME Arg1:T113 Arg2:T122	
+T123	COUNTRY 1494 1500	России
+R76	HEADQUARTERED_IN Arg1:T37 Arg2:T123	
+R77	HEADQUARTERED_IN Arg1:T100 Arg2:T42	
+R78	HEADQUARTERED_IN Arg1:T46 Arg2:T45	
+R79	WORKPLACE Arg1:T48 Arg2:T45	
+T124	EVENT 2599 2609	назначение
+R80	PARTICIPANT_IN Arg1:T90 Arg2:T124	
+R81	POINT_IN_TIME Arg1:T124 Arg2:T54	
+R82	PARTICIPANT_IN Arg1:T88 Arg2:T124	
+T125	EVENT 736 751	занял этот пост
+R83	AGENT Arg1:T18 Arg2:T125	
+R84	TAKES_PLACE_IN Arg1:T125 Arg2:T97	
+R85	POINT_IN_TIME Arg1:T125 Arg2:T20	
+T126	EVENT 845 853	отставки
+R86	PARTICIPANT_IN Arg1:T22 Arg2:T126	
+R87	HAS_CAUSE Arg1:T126 Arg2:T115	
+T127	ORGANIZATION 1213 1230	федеральный центр
+T128	ORGANIZATION 2502 2521	федеральным центром
+N4	Reference T16 Wikidata:Q2741486	глава администрации Гонконга
+N5	Reference T18 Wikidata:Q18277186	Сагитов, Азамат Талгатович
+N8	Reference T28 Wikidata:Q1062623	Московский комсомолец
+N10	Reference T33 Wikidata:Q4203534	Исаев, Андрей Викторович
+N12	Reference T37 Wikidata:Q151469	Единая Россия
+N13	Reference T38 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N16	Reference T46 Wikidata:Q7188	правительство
+N17	Reference T47 Wikidata:Q4408512	Сарбаев, Раиль Салихович
+N20	Reference T55 Wikidata:Q484876	главный управляющий
+N22	Reference T57 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N23	Reference T59 Wikidata:Q1501800	генеральный директор
+N24	Reference T60 Wikidata:Q4247795	Курапов, Николай Андреевич
+N26	Reference T64 Wikidata:Q4247795	Курапов, Николай Андреевич
+N27	Reference T66 Wikidata:Q649	Москва
+N31	Reference T74 Wikidata:Q877955	вице-премьер
+N32	Reference T76 Wikidata:Q3555636	глава Башкортостана
+N36	Reference T84 Wikidata:Q1238570	политолог
+N38	Reference T87 Wikidata:Q911	Уфа
+N42	Reference T91 Wikidata:Q16437178	Мурзагалиев, Мухамедхафий
+N44	Reference T98 Wikidata:Q4494406	Радий Фаритович Хабиров
+N46	Reference T102 Wikidata:Q4080187	Башкирэнерго
+N50	Reference T106 Wikidata:Q159	Россия
+N51	Reference T107 Wikidata:Q30461	президент
+N52	Reference T108 Wikidata:Q218295	президент Российской Федерации
+N53	Reference T109 Wikidata:Q4476368	Управление делами Президента Российской Федерации
+N60	Reference T120 Wikidata:Q159	Россия
+N58	Reference T4 Wikidata:NULL	нет данных
+N1	Reference T9 Wikidata:NULL	Управление делами Президента Российской Федерации
+N33	Reference T77 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:NULL	нет данных
+N34	Reference T80 Wikidata:NULL	нет данных
+N43	Reference T96 Wikidata:NULL	нет данных
+N54	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N56	Reference T116 Wikidata:NULL	
+N7	Reference T27 Wikidata:Q2060629	Администрация президента России
+N61	Reference T81 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N59	Reference T119 Wikidata:Q649	Московский
+N9	Reference T30 Wikidata:Q1780189	Коммерсантъ
+N55	Reference T32 Wikidata:NULL	
+N62	Reference T35 Wikidata:Q5710	Республика Башкортостан
+N63	Reference T99 Wikidata:NULL	нет данных
+N14	Reference T40 Wikidata:NULL	нет данных
+N11	Reference T36 Wikidata:NULL	нет данных
+N35	Reference T82 Wikidata:NULL	
+N18	Reference T48 Wikidata:NULL	нет данных
+N19	Reference T49 Wikidata:NULL	
+N39	Reference T88 Wikidata:NULL	нет данных
+N40	Reference T89 Wikidata:NULL	нет данных
+N25	Reference T61 Wikidata:NULL	нет данных
+N30	Reference T73 Wikidata:Q4161207	
+N48	Reference T104 Wikidata:NULL	нет данных
+N49	Reference T105 Wikidata:NULL	нет данных
+N29	Reference T69 Wikidata:NULL	
+N37	Reference T85 Wikidata:Q911	Уфа
+N57	Reference T118 Wikidata:Q49542	русский язык
+N64	Reference T67 Wikidata:NULL	нет данных
+N28	Reference T68 Wikidata:Q85858406	
+N65	Reference T65 Wikidata:NULL	нет данных
+N47	Reference T103 Wikidata:NULL	нет данных
+N21	Reference T56 Wikidata:Q2462658	менеджер
+N45	Reference T101 Wikidata:NULL	
+N41	Reference T90 Wikidata:Q18277186	Сагитов, Азамат Талгатович
+N15	Reference T43 Wikidata:Q4494406	Радий Фаритович Хабиров
+N66	Reference T78 Wikidata:Q18277186	Сагитов, Азамат Талгатович
+N67	Reference T6 Wikidata:Q18277186	Сагитов, Азамат Талгатович
+N68	Reference T29 Wikidata:Q151469	Единая Россия
+N69	Reference T25 Wikidata:Q151469	Единая Россия
+N70	Reference T51 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N71	Reference T1 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N72	Reference T3 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N73	Reference T95 Wikidata:Q3555636	глава Башкортостана
+N74	Reference T97 Wikidata:Q911	Уфа
+N75	Reference T79 Wikidata:Q911	Уфа
+N76	Reference T114 Wikidata:Q30461	президент
+N77	Reference T70 Wikidata:Q30461	президент
+N78	Reference T2 Wikidata:Q30461	президент
+N79	Reference T121 Wikidata:Q159	Россия
+N80	Reference T123 Wikidata:Q159	Россия
+N81	Reference T34 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N82	Reference T15 Wikidata:Q983505	Муртаза Губайдуллович Рахимов
+N83	Reference T11 Wikidata:Q1780189	Коммерсантъ
+N84	Reference T44 Wikidata:Q1780189	Коммерсантъ
+N85	Reference T41 Wikidata:Q1780189	Коммерсантъ
+N86	Reference T39 Wikidata:Q1780189	Коммерсантъ
+N87	Reference T58 Wikidata:Q1780189	Коммерсантъ
+N88	Reference T53 Wikidata:Q1780189	Коммерсантъ
+N89	Reference T45 Wikidata:Q5710	Республика Башкортостан
+N90	Reference T75 Wikidata:Q5710	Республика Башкортостан
+N91	Reference T86 Wikidata:Q5710	Республика Башкортостан
+N92	Reference T42 Wikidata:Q5710	Республика Башкортостан
+N93	Reference T94 Wikidata:Q5710	Республика Башкортостан
+N94	Reference T24 Wikidata:Q5710	Республика Башкортостан
+N95	Reference T93 Wikidata:Q5710	Республика Башкортостан
+N96	Reference T83 Wikidata:Q5710	Республика Башкортостан
+N97	Reference T92 Wikidata:NULL	нет данных
+N98	Reference T100 Wikidata:NULL	нет данных
+N99	Reference T63 Wikidata:NULL	нет данных
+N100	Reference T21 Wikidata:NULL	
+N101	Reference T52 Wikidata:Q911	Уфа
+N102	Reference T62 Wikidata:Q85858406	
+N103	Reference T50 Wikidata:Q18277186	Сагитов, Азамат Талгатович
+N104	Reference T22 Wikidata:Q4494406	Радий Фаритович Хабиров
+N105	Reference T26 Wikidata:Q4494406	Радий Фаритович Хабиров
+N106	Reference T8 Wikidata:Q4494406	Радий Фаритович Хабиров
+R88	HEADQUARTERED_IN Arg1:T109 Arg2:T106	
+R89	ALTERNATIVE_NAME Arg1:T87 Arg2:T85	

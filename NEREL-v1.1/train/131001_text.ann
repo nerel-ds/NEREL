@@ -1,0 +1,94 @@
+T1	ORGANIZATION 0 21	Исламское государство
+T2	CITY 34 44	Лас-Вегасе
+T4	PERSON 53 78	Абу Абдул Барр аль-Амрики
+T5	CITY 87 97	Лас-Вегаса
+T7	ORGANIZATION 121 123	ИГ
+T8	CITY 187 197	Лас-Вегаса
+T9	PERSON 205 230	Абу Абдул Барр аль-Амрики
+T10	PERSON 232 256	Abu Abdul Barr al-Amriki
+T11	ORGANIZATION 326 328	ИГ
+T12	ORGANIZATION 400 404	Amaq
+T13	DATE 405 414	2 октября
+T14	TIME 417 432	Ночью 1 октября
+T15	DATE 425 432	октября
+T16	COUNTRY 435 447	американском
+T17	CITY 448 458	Лас-Вегасе
+T19	AGE 459 468	64-летний
+T20	PERSON 469 482	Стивен Пэддок
+T21	NUMBER 553 555	58
+T22	NUMBER 565 574	более 500
+T23	ORGANIZATION 605 607	ИГ
+T24	CITY 641 651	Лас-Вегасе
+T25	PERSON 733 739	Пэддок
+T26	PROFESSION 762 771	лидера ИГ
+T27	PERSON 772 793	Абу Бакра аль-Багдади
+T29	ORGANIZATION 890 892	ИГ
+T30	DATE 928 939	28 сентября
+T31	ORGANIZATION 941 943	ИГ
+T32	PERSON 1015 1026	аль-Багдади
+T33	ORGANIZATION 769 771	ИГ
+T28	EVENT 621 638	массовое убийство
+T18	EVENT 483 507	открыл огонь из автомата
+T34	LANGUAGE 291 299	арабском
+T35	RELIGION 359 364	ислам
+T36	ORGANIZATION 98 119	Исламское государство
+T6	ORGANIZATION 79 97	Полиция Лас-Вегаса
+T39	EVENT 23 31	стрельбу
+R1	TAKES_PLACE_IN Arg1:T39 Arg2:T2	
+R2	AGENT Arg1:T4 Arg2:T39	
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T5	
+T3	ORGANIZATION 79 86	Полиция
+R4	ABBREVIATION Arg1:T36 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R6	RELIGION_OF Arg1:T9 Arg2:T35	
+R7	MEMBER_OF Arg1:T9 Arg2:T7	
+R8	WORKS_AS Arg1:T27 Arg2:T26	
+R9	WORKPLACE Arg1:T27 Arg2:T33	
+R10	ALTERNATIVE_NAME Arg1:T27 Arg2:T32	
+R11	LOCATED_IN Arg1:T17 Arg2:T16	
+R12	AGE_IS Arg1:T20 Arg2:T19	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T20	
+R14	ALTERNATIVE_NAME Arg1:T39 Arg2:T18	
+R15	AGENT Arg1:T20 Arg2:T18	
+R16	ALTERNATIVE_NAME Arg1:T20 Arg2:T25	
+R17	ALTERNATIVE_NAME Arg1:T18 Arg2:T28	
+R18	TAKES_PLACE_IN Arg1:T28 Arg2:T24	
+R19	POINT_IN_TIME Arg1:T18 Arg2:T14	
+R20	WORKPLACE Arg1:T26 Arg2:T33	
+T37	EVENT 546 563	гибели 58 человек
+R21	SUBEVENT_OF Arg1:T37 Arg2:T18	
+T38	RELIGION 0 9	Исламское
+R22	RELIGION_OF Arg1:T1 Arg2:T38	
+R23	ORIGINS_FROM Arg1:T9 Arg2:T8	
+T40	RELIGION 98 107	Исламское
+R24	RELIGION_OF Arg1:T36 Arg2:T40	
+R25	ALTERNATIVE_NAME Arg1:T40 Arg2:T35	
+N1	Reference T1 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N2	Reference T5 Wikidata:Q23768	Лас-Вегас
+N3	Reference T12 Wikidata:Q24609008	Amaq
+N4	Reference T16 Wikidata:Q30	США
+N6	Reference T27 Wikidata:Q2821724	Абу Бакр аль-Багдади
+N7	Reference T34 Wikidata:Q13955	арабский язык
+N9	Reference T3 Wikidata:Q35535	полиция
+N8	Reference T6 Wikidata:NULL	нет данных
+N11	Reference T10 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:Q432	ислам
+N5	Reference T26 Wikidata:Q57360796	
+N12	Reference T23 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N13	Reference T31 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N14	Reference T33 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N15	Reference T7 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N16	Reference T29 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N17	Reference T11 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N18	Reference T36 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N19	Reference T8 Wikidata:Q23768	Лас-Вегас
+N20	Reference T17 Wikidata:Q23768	Лас-Вегас
+N21	Reference T24 Wikidata:Q23768	Лас-Вегас
+N22	Reference T2 Wikidata:Q23768	Лас-Вегас
+N23	Reference T32 Wikidata:Q2821724	Абу Бакр аль-Багдади
+N24	Reference T20 Wikidata:NULL	нет данных
+N25	Reference T25 Wikidata:NULL	нет данных
+N26	Reference T4 Wikidata:NULL	нет данных
+N27	Reference T9 Wikidata:NULL	нет данных
+N28	Reference T38 Wikidata:Q432	ислам
+N29	Reference T35 Wikidata:Q432	ислам

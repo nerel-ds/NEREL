@@ -1,0 +1,102 @@
+T1	PERSON 0 15	Хиллари Клинтон
+T2	PERSON 59 74	Хиллари Клинтон
+T3	FACILITY 96 105	Белый Дом
+T5	PROFESSION 124 135	первой леди
+T6	PROFESSION 150 160	Президента
+T7	PROFESSION 187 197	президента
+T8	PERSON 259 274	Хиллари Клинтон
+T10	DATE 358 367	2008 года
+T11	PERSON 422 437	Хиллари Клинтон
+T12	PERSON 588 603	Хиллари Клинтон
+T13	AGE 605 611	59 лет
+T14	PROFESSION 650 673	кандидатом в президенты
+T15	PERSON 702 717	Хиллари Клинтон
+T16	MONEY 756 777	14 миллионов долларов
+T18	PERSON 880 892	Билл Клинтон
+T19	PERSON 894 909	Хиллари Клинтон
+T20	PROFESSION 937 944	сенатор
+T22	PROFESSION 1112 1122	губернатор
+T23	STATE_OR_PROVINCE 1129 1140	Нью-Мексико
+T24	PERSON 1141 1155	Билл Ричардсон
+T25	EVENT 36 57	президентских выборах
+T26	EVENT 50 57	выборах
+T4	PROFESSION 150 164	Президента США
+T27	COUNTRY 161 164	США
+T29	EVENT 336 357	предвыборной кампании
+T31	EVENT 565 586	президентских выборах
+T32	EVENT 579 586	выборах
+T33	PROFESSION 663 673	президенты
+T34	ORGANIZATION 677 699	демократической партии
+T35	IDEOLOGY 677 692	демократической
+T36	PROFESSION 865 878	Президент США
+T37	PROFESSION 865 874	Президент
+T38	COUNTRY 875 878	США
+T39	PERSON 945 956	Барак Обама
+T40	PROFESSION 1037 1044	сенатор
+T41	PERSON 1045 1057	Джон Эдвардс
+T42	PROFESSION 1112 1140	губернатор штата Нью-Мексико
+T43	PROFESSION 36 49	президентских
+R1	PARTICIPANT_IN Arg1:T43 Arg2:T25	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T25	
+R3	WORKPLACE Arg1:T4 Arg2:T27	
+R4	WORKS_AS Arg1:T2 Arg2:T5	
+R5	LOCATED_IN Arg1:T3 Arg2:T27	
+R6	POINT_IN_TIME Arg1:T29 Arg2:T10	
+R7	ORGANIZES Arg1:T8 Arg2:T29	
+T44	PRODUCT 403 411	интернет
+T45	PROFESSION 565 578	президентских
+R8	PARTICIPANT_IN Arg1:T45 Arg2:T31	
+R9	AGE_IS Arg1:T12 Arg2:T13	
+R10	IDEOLOGY_OF Arg1:T34 Arg2:T35	
+R11	ORIGINS_FROM Arg1:T14 Arg2:T34	
+R12	WORKPLACE Arg1:T36 Arg2:T38	
+R13	WORKS_AS Arg1:T18 Arg2:T36	
+R14	WORKPLACE Arg1:T18 Arg2:T38	
+R15	WORKS_AS Arg1:T39 Arg2:T20	
+T46	PROFESSION 1009 1022	президентский
+R16	ALTERNATIVE_NAME Arg1:T45 Arg2:T33	
+R17	WORKS_AS Arg1:T41 Arg2:T40	
+R18	KNOWS Arg1:T19 Arg2:T39	
+R19	KNOWS Arg1:T39 Arg2:T41	
+R20	KNOWS Arg1:T19 Arg2:T41	
+R21	WORKPLACE Arg1:T42 Arg2:T23	
+R22	LOCATED_IN Arg1:T23 Arg2:T38	
+R23	WORKPLACE Arg1:T24 Arg2:T23	
+R24	WORKS_AS Arg1:T24 Arg2:T42	
+T47	PROFESSION 1076 1089	президентскую
+R25	OWNER_OF Arg1:T15 Arg2:T16	
+R26	IDEOLOGY_OF Arg1:T12 Arg2:T35	
+R27	SPOUSE Arg1:T15 Arg2:T18	
+N1	Reference T1 Wikidata:Q6294	Хиллари Клинтон
+N2	Reference T3 Wikidata:Q35525	Белый дом
+N3	Reference T5 Wikidata:Q203184	первая леди
+N5	Reference T18 Wikidata:Q1124	Билл Клинтон
+N7	Reference T22 Wikidata:Q132050	губернатор
+N8	Reference T23 Wikidata:Q1522	Нью-Мексико
+N9	Reference T27 Wikidata:Q30	США
+N10	Reference T34 Wikidata:Q29552	Демократическая партия
+N11	Reference T36 Wikidata:Q11696	президент США
+N12	Reference T37 Wikidata:Q30461	президент
+N13	Reference T39 Wikidata:Q76	Барак Обама
+N14	Reference T41 Wikidata:Q217314	Эдвардс, Джон
+N16	Reference T44 Wikidata:Q75	Интернет
+N4	Reference T14 Wikidata:Q2380299	
+N6	Reference T20 Wikidata:Q15686806	
+N15	Reference T42 Wikidata:Q17089908	
+N17	Reference T24 Wikidata:Q311782	
+N18	Reference T8 Wikidata:Q6294	Хиллари Клинтон
+N19	Reference T15 Wikidata:Q6294	Хиллари Клинтон
+N20	Reference T19 Wikidata:Q6294	Хиллари Клинтон
+N21	Reference T12 Wikidata:Q6294	Хиллари Клинтон
+N22	Reference T11 Wikidata:Q6294	Хиллари Клинтон
+N23	Reference T2 Wikidata:Q6294	Хиллари Клинтон
+N24	Reference T38 Wikidata:Q30	США
+N25	Reference T4 Wikidata:Q11696	президент США
+N26	Reference T46 Wikidata:Q30461	президент
+N27	Reference T45 Wikidata:Q30461	президент
+N28	Reference T33 Wikidata:Q30461	президент
+N29	Reference T7 Wikidata:Q30461	президент
+N30	Reference T47 Wikidata:Q30461	президент
+N31	Reference T43 Wikidata:Q30461	президент
+N32	Reference T6 Wikidata:Q30461	президент
+N33	Reference T40 Wikidata:Q15686806	

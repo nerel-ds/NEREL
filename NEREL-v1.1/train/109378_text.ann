@@ -1,0 +1,86 @@
+T1	PERSON 9 19	Анны Франк
+T2	MONEY 38 52	140 тысяч евро
+T3	PERSON 53 63	Анна Франк
+T4	COUNTRY 78 89	Нидерландах
+T5	PERSON 113 123	Анны Франк
+T6	NUMBER 127 133	восьми
+T7	MONEY 153 167	140 тысяч евро
+T8	DATE 198 214	мартом 1942 года
+T9	PERSON 253 257	Анне
+T11	CITY 322 332	Амстердаме
+T12	PERSON 419 437	Жаклин ван Маарсен
+T13	PERSON 483 492	Кристиане
+T14	MONEY 525 538	50 тысяч евро
+T15	PERSON 540 554	Маатье Мостарт
+T16	PROFESSION 556 586	представитель фонда Анны Франк
+T17	AGE 673 682	15-летней
+T18	PERSON 701 711	Анны Франк
+T19	PERSON 729 733	Анна
+T20	PERSON 803 807	Отто
+T21	WORK_OF_ART 871 889	Дневник Анны Франк
+T22	PERSON 879 889	Анны Франк
+T23	DATE 945 956	В 2009 году
+T24	WORK_OF_ART 958 976	Дневник Анны Франк
+T25	PERSON 966 976	Анны Франк
+T26	ORGANIZATION 1032 1038	ЮНЕСКО
+T27	EVENT 20 34	ушла с молотка
+T28	EVENT 142 149	продана
+T29	IDEOLOGY 290 298	нацистов
+T10	PERSON 413 417	Анны
+T30	PERSON 470 481	ван Маарсен
+T31	PERSON 576 586	Анны Франк
+T32	ORGANIZATION 570 586	фонда Анны Франк
+T33	NATIONALITY 683 692	еврейской
+T34	IDEOLOGY 744 754	нацистском
+T35	EVENT 934 943	Холокоста
+R1	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R2	TAKES_PLACE_IN Arg1:T28 Arg2:T4	
+R3	PLACE_RESIDES_IN Arg1:T9 Arg2:T11	
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+R5	KNOWS Arg1:T10 Arg2:T12	
+R6	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R7	SIBLING Arg1:T30 Arg2:T13	
+R8	WORKS_AS Arg1:T15 Arg2:T16	
+R9	WORKPLACE Arg1:T15 Arg2:T32	
+R10	WORKPLACE Arg1:T16 Arg2:T32	
+R11	AGE_IS Arg1:T18 Arg2:T17	
+R12	ORIGINS_FROM Arg1:T18 Arg2:T33	
+R13	PARENT_OF Arg1:T20 Arg2:T19	
+R14	PRODUCES Arg1:T22 Arg2:T21	
+R15	PRODUCES Arg1:T25 Arg2:T24	
+T36	WORK_OF_ART 0 19	Рукопись Анны Франк
+R16	PRODUCES Arg1:T1 Arg2:T36	
+T37	WORK_OF_ART 90 123	рукопись стихотворения Анны Франк
+R17	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R18	PRODUCES Arg1:T5 Arg2:T37	
+R19	PRICE_OF Arg1:T36 Arg2:T2	
+R20	PRICE_OF Arg1:T37 Arg2:T7	
+R21	DATE_OF_CREATION Arg1:T37 Arg2:T8	
+R22	INANIMATE_INVOLVED Arg1:T36 Arg2:T27	
+R23	INANIMATE_INVOLVED Arg1:T37 Arg2:T28	
+R24	ALTERNATIVE_NAME Arg1:T29 Arg2:T34	
+N1	Reference T4 Wikidata:Q55	Нидерланды
+N2	Reference T5 Wikidata:Q4583	Анна Франк
+N3	Reference T11 Wikidata:Q727	Амстердам
+N8	Reference T24 Wikidata:Q6911	Дневник Анны Франк
+N9	Reference T26 Wikidata:Q7809	ЮНЕСКО
+N14	Reference T37 Wikidata:NULL	нет данных
+N10	Reference T10 Wikidata:Q4583	Анна Франк
+N11	Reference T30 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:Q4452658	
+N6	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T33 Wikidata:Q7325	евреи
+N7	Reference T20 Wikidata:Q7336	
+N15	Reference T22 Wikidata:Q4583	Анна Франк
+N16	Reference T31 Wikidata:Q4583	Анна Франк
+N17	Reference T25 Wikidata:Q4583	Анна Франк
+N18	Reference T9 Wikidata:Q4583	Анна Франк
+N19	Reference T3 Wikidata:Q4583	Анна Франк
+N20	Reference T18 Wikidata:Q4583	Анна Франк
+N21	Reference T1 Wikidata:Q4583	Анна Франк
+N22	Reference T21 Wikidata:Q6911	Дневник Анны Франк
+N23	Reference T36 Wikidata:NULL	нет данных
+N24	Reference T19 Wikidata:Q4583	Анна Франк
+N25	Reference T12 Wikidata:NULL	нет данных

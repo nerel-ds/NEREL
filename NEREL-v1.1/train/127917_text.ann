@@ -1,0 +1,115 @@
+T1	PERSON 0 9	Липницкой
+T3	ORGANIZATION 50 61	Burger King
+T4	DATE 62 82	29 августа 2017 года
+T7	AGE 191 200	19-летней
+T8	PERSON 234 248	Юлии Липницкой
+T9	PERSON 251 265	Юлия Липницкая
+T10	ORGANIZATION 293 311	Бургер Кинг Россия
+T11	PERSON 325 342	Юлия Вячеславовна
+T12	PROFESSION 378 410	директора по продукту Чикен филе
+T13	ORGANIZATION 413 424	Бургер Кинг
+T14	PROFESSION 773 798	Директор по коммуникациям
+T15	AWARD 836 876	олимпийский чемпион по фигурному катанию
+T16	PERSON 877 893	Евгений Плющенко
+T17	AGE 949 958	19-летнюю
+T18	PERSON 1256 1265	Липницкой
+T19	PROFESSION 1299 1313	Министр спорта
+T20	PERSON 1317 1331	Павел Колобков
+T21	PERSON 1342 1351	Липницкой
+T22	ORGANIZATION 1385 1389	ТАСС
+T23	PERSON 1391 1404	Юля Липницкая
+T24	WORK_OF_ART 1515 1530	Список Шиндлера
+T25	PERSON 1805 1819	Юлия Липницкая
+T26	DATE 1893 1903	28 августа
+T27	PERSON 1917 1934	Даниела Липницкая
+T28	PERSON 2172 2176	Юлия
+T29	PRODUCT 2189 2198	ВКонтакте
+T30	PERSON 2200 2205	Ирина
+T31	NUMBER 2405 2410	37 кг
+T32	PROFESSION 1999 2010	спортсменка
+T33	PROFESSION 1773 1782	чиновника
+T34	ORGANIZATION 30 41	Бургер Кинг
+T35	ORGANIZATION 117 128	Бургер Кинг
+T36	AWARD 201 222	олимпийской чемпионке
+T37	PROFESSION 223 233	фигуристке
+T38	ORGANIZATION 266 275	Eurosport
+T39	PRODUCT 400 410	Чикен филе
+T40	DISEASE 664 674	анорексией
+T41	DISEASE 677 686	ожирением
+T42	PERSON 799 809	Шестов И В
+T43	LAW 716 718	ТК
+T44	PERSON 989 992	Юле
+T45	PROFESSION 959 969	фигуристку
+T46	COUNTRY 1314 1316	РФ
+T47	PROFESSION 1299 1316	Министр спорта РФ
+T48	PROFESSION 1367 1376	чиновницы
+T49	PROFESSION 1415 1426	спортсменка
+T50	COUNTRY 305 311	Россия
+T53	DATE 174 182	накануне
+T5	ORGANIZATION 131 142	Burger King
+R1	ALTERNATIVE_NAME Arg1:T35 Arg2:T5	
+R2	WORKS_AS Arg1:T8 Arg2:T37	
+T6	ORGANIZATION 293 304	Бургер Кинг
+R3	HEADQUARTERED_IN Arg1:T10 Arg2:T50	
+R4	AGE_IS Arg1:T8 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R6	WORKS_AS Arg1:T42 Arg2:T14	
+R7	AGE_IS Arg1:T45 Arg2:T17	
+R8	ALTERNATIVE_NAME Arg1:T11 Arg2:T44	
+R9	ALTERNATIVE_NAME Arg1:T44 Arg2:T18	
+R10	WORKPLACE Arg1:T47 Arg2:T46	
+R11	WORKS_AS Arg1:T20 Arg2:T47	
+R12	WORKPLACE Arg1:T20 Arg2:T46	
+R13	WORKS_AS Arg1:T23 Arg2:T49	
+R14	PARENT_OF Arg1:T27 Arg2:T25	
+T51	PROFESSION 378 399	директора по продукту
+R16	WORKPLACE Arg1:T12 Arg2:T13	
+R17	AWARDED_WITH Arg1:T8 Arg2:T36	
+R15	AWARDED_WITH Arg1:T16 Arg2:T15	
+T52	AWARD 836 855	олимпийский чемпион
+R18	PRODUCES Arg1:T13 Arg2:T39	
+R19	ALTERNATIVE_NAME Arg1:T34 Arg2:T3	
+N1	Reference T9 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N6	Reference T16 Wikidata:Q992223	Евгений Викторович Плющенко
+N7	Reference T20 Wikidata:Q623412	Колобков, Павел Анатольевич
+N8	Reference T22 Wikidata:Q223799	ТАСС
+N10	Reference T24 Wikidata:Q483941	Список Шиндлера
+N13	Reference T29 Wikidata:Q116933	ВКонтакте
+N15	Reference T33 Wikidata:Q382887	чиновник
+N16	Reference T34 Wikidata:Q177054	Burger King
+N17	Reference T35 Wikidata:Q177054	Burger King
+N18	Reference T36 Wikidata:Q4333889	олимпийский чемпион
+N20	Reference T38 Wikidata:Q21484379	Eurosport
+N24	Reference T46 Wikidata:Q159	Россия
+N27	Reference T50 Wikidata:Q159	Россия
+N29	Reference T52 Wikidata:Q4333889	олимпийский чемпион
+N19	Reference T37 Wikidata:Q13219587	
+N2	Reference T10 Wikidata:NULL	нет данных
+N28	Reference T51 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N21	Reference T39 Wikidata:NULL	нет данных
+N23	Reference T43 Wikidata:Q628080	
+N4	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T42 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N30	Reference T19 Wikidata:Q7579929	
+N25	Reference T47 Wikidata:NULL	нет данных
+N26	Reference T48 Wikidata:Q212238	государственный служащий
+N9	Reference T23 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N31	Reference T49 Wikidata:Q2066131	спортсмен
+N11	Reference T27 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N14	Reference T30 Wikidata:NULL	нет данных
+N32	Reference T44 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N33	Reference T8 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N34	Reference T25 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N35	Reference T11 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N36	Reference T18 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N37	Reference T1 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N38	Reference T21 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N39	Reference T3 Wikidata:Q177054	Burger King
+N40	Reference T13 Wikidata:Q177054	Burger King
+N41	Reference T6 Wikidata:Q177054	Burger King
+N42	Reference T5 Wikidata:Q177054	Burger King
+N43	Reference T45 Wikidata:Q13219587	
+N44	Reference T32 Wikidata:Q2066131	спортсмен

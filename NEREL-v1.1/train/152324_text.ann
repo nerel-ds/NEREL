@@ -1,0 +1,175 @@
+T1	PERSON 7 23	Николая Глушкова
+T2	PERSON 55 71	Николая Глушкова
+T3	FACILITY 73 86	Кларенс авеню
+T4	FACILITY 88 103	Clarence Avenue
+T6	DISTRICT 106 117	Нью-Мальден
+T9	CITY 132 138	Лондон
+T10	COUNTRY 147 161	Великобритании
+T12	COUNTRY 287 293	России
+T13	PERSON 294 310	Николая Глушкова
+T14	AGE 317 327	69-летнего
+T15	PERSON 367 375	Натальей
+T18	ORGANIZATION 459 468	Аэрофлота
+T19	PERSON 470 486	Николая Глушкова
+T20	ORGANIZATION 603 618	The Independent
+T21	ORGANIZATION 623 636	Скотланд-Ярде
+T22	PERSON 745 761	Николая Глушкова
+T23	CITY 869 876	Лондоне
+T24	PROFESSION 955 969	сотрудника ГРУ
+T25	PERSON 970 985	Сергея Скрипаля
+T26	PERSON 997 1001	Юлию
+T27	COUNTRY 1006 1012	России
+T28	PERSON 1020 1036	Николая Глушкова
+T29	DATE 1133 1153	В июне прошлого года
+T30	ORGANIZATION 1154 1176	Савеловский суд Москвы
+T32	DATE 1260 1272	восьми годам
+T33	PERSON 1295 1302	Глушков
+T34	DATE 1364 1373	В пятницу
+T35	ORGANIZATION 1394 1421	Следственный комитет России
+T36	CITY 1456 1463	Лондоне
+T37	COUNTRY 1517 1519	РФ
+T38	PERSON 1520 1533	Юлии Скрипаль
+T39	EVENT 46 54	убийства
+T40	EVENT 30 39	убийством
+T5	DISTRICT 119 129	New Malden
+T7	ORGANIZATION 139 161	Полиция Великобритании
+T8	EVENT 219 227	убийства
+T41	PERSON 254 273	Бориса Березовского
+T42	CITY 398 405	Лондона
+T43	DATE 406 424	13 марта 2018 года
+T44	PROFESSION 328 338	бизнесмена
+T16	PROFESSION 442 469	замгендиректора «Аэрофлота»
+T46	PROFESSION 536 547	Следователи
+T47	PROFESSION 693 707	судмедэксперты
+T48	COUNTRY 847 857	британской
+T49	ORGANIZATION 966 969	ГРУ
+T51	PROFESSION 920 930	бизнесмена
+T52	EVENT 911 919	убийство
+T53	CRIME 1094 1107	мошенничестве
+T54	CITY 1170 1176	Москвы
+T55	CRIME 1207 1245	мошенничестве в особо крупных размерах
+T56	PENALTY 1260 1288	восьми годам лишения свободы
+T31	COUNTRY 1415 1421	России
+T57	CRIME 1445 1453	убийстве
+T58	PERSON 1464 1480	Николая Глушкова
+T59	CRIME 1485 1506	покушении на убийство
+R1	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R2	WORKPLACE Arg1:T16 Arg2:T18	
+R3	WORKS_AS Arg1:T19 Arg2:T16	
+R4	WORKPLACE Arg1:T19 Arg2:T18	
+T60	NATIONALITY 276 293	гражданина России
+R5	ORIGINS_FROM Arg1:T60 Arg2:T12	
+R6	ORIGINS_FROM Arg1:T13 Arg2:T60	
+R7	AGE_IS Arg1:T44 Arg2:T14	
+R8	AGE_IS Arg1:T13 Arg2:T14	
+T61	CRIME 1110 1131	финансовых махинациях
+R9	CONVICTED_OF Arg1:T28 Arg2:T53	
+R10	CONVICTED_OF Arg1:T28 Arg2:T61	
+R11	WORKPLACE Arg1:T24 Arg2:T49	
+R12	WORKS_AS Arg1:T25 Arg2:T24	
+R13	WORKPLACE Arg1:T25 Arg2:T49	
+R14	PARENT_OF Arg1:T25 Arg2:T26	
+R15	HEADQUARTERED_IN Arg1:T30 Arg2:T54	
+T62	CRIME 1207 1220	мошенничестве
+T63	PENALTY 1273 1288	лишения свободы
+R16	PENALIZED_AS Arg1:T28 Arg2:T56	
+R17	CONVICTED_OF Arg1:T28 Arg2:T55	
+R18	ALTERNATIVE_NAME Arg1:T28 Arg2:T33	
+T64	ORGANIZATION 1394 1414	Следственный комитет
+R19	HEADQUARTERED_IN Arg1:T35 Arg2:T31	
+R20	TAKES_PLACE_IN Arg1:T57 Arg2:T36	
+R21	PARTICIPANT_IN Arg1:T58 Arg2:T57	
+T65	NATIONALITY 1507 1519	гражданки РФ
+R22	ORIGINS_FROM Arg1:T38 Arg2:T65	
+R23	ALTERNATIVE_NAME Arg1:T6 Arg2:T5	
+R24	LOCATED_IN Arg1:T6 Arg2:T9	
+R25	LOCATED_IN Arg1:T3 Arg2:T6	
+T66	ORGANIZATION 139 146	Полиция
+R26	HEADQUARTERED_IN Arg1:T7 Arg2:T10	
+R27	LOCATED_IN Arg1:T9 Arg2:T10	
+R28	KNOWS Arg1:T41 Arg2:T13	
+R29	PARTICIPANT_IN Arg1:T13 Arg2:T8	
+T11	EVENT 312 316;344 354	Тело обнаружено
+R30	TAKES_PLACE_IN Arg1:T11 Arg2:T42	
+R31	POINT_IN_TIME Arg1:T11 Arg2:T43	
+T45	EVENT 508 534	удушения собачьим поводком
+R32	CAUSE_OF_DEATH Arg1:T19 Arg2:T45	
+T67	EVENT 769 784	сдавливание шеи
+R33	ALTERNATIVE_NAME Arg1:T45 Arg2:T67	
+R34	CAUSE_OF_DEATH Arg1:T22 Arg2:T67	
+T68	EVENT 1177 1204	заочно признал его виновным
+R35	PARTICIPANT_IN Arg1:T28 Arg2:T68	
+R36	PARTICIPANT_IN Arg1:T30 Arg2:T68	
+R37	TAKES_PLACE_IN Arg1:T68 Arg2:T54	
+R38	POINT_IN_TIME Arg1:T68 Arg2:T29	
+R39	HAS_CAUSE Arg1:T56 Arg2:T55	
+T69	EVENT 1428 1441	возбудил дела
+R40	AGENT Arg1:T35 Arg2:T69	
+R41	HAS_CAUSE Arg1:T69 Arg2:T57	
+R42	HAS_CAUSE Arg1:T69 Arg2:T59	
+R43	PARTICIPANT_IN Arg1:T38 Arg2:T59	
+R44	ORIGINS_FROM Arg1:T65 Arg2:T37	
+R45	CAUSE_OF_DEATH Arg1:T1 Arg2:T40	
+R46	PARTICIPANT_IN Arg1:T2 Arg2:T39	
+R47	TAKES_PLACE_IN Arg1:T39 Arg2:T3	
+T70	EVENT 191 218	расследования обстоятельств
+R48	ORGANIZES Arg1:T7 Arg2:T70	
+R49	HAS_CAUSE Arg1:T70 Arg2:T8	
+R50	AGENT Arg1:T15 Arg2:T11	
+T17	EVENT 427 433	Смерть
+R51	PARTICIPANT_IN Arg1:T19 Arg2:T17	
+R52	HAS_CAUSE Arg1:T17 Arg2:T45	
+T50	EVENT 738 744	смерти
+R53	PARTICIPANT_IN Arg1:T22 Arg2:T50	
+R54	HAS_CAUSE Arg1:T50 Arg2:T67	
+R55	LOCATED_IN Arg1:T23 Arg2:T48	
+R56	PARTICIPANT_IN Arg1:T51 Arg2:T52	
+T71	EVENT 933 943	покушением
+R57	PARTICIPANT_IN Arg1:T25 Arg2:T71	
+R58	PARTICIPANT_IN Arg1:T26 Arg2:T71	
+T72	CRIME 1121 1131	махинациях
+N1	Reference T1 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N3	Reference T10 Wikidata:Q145	Великобритания
+N5	Reference T18 Wikidata:Q58707	Аэрофлот — Российские авиалинии
+N6	Reference T20 Wikidata:Q11149	Индепендент
+N7	Reference T21 Wikidata:Q184619	Скотланд-Ярд
+N9	Reference T25 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N11	Reference T27 Wikidata:Q159	Россия
+N13	Reference T35 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N14	Reference T37 Wikidata:Q159	Россия
+N16	Reference T41 Wikidata:Q311019	Борис Абрамович Березовский
+N17	Reference T42 Wikidata:Q84	Лондон
+N18	Reference T44 Wikidata:Q131524	предприниматель
+N21	Reference T47 Wikidata:Q17143199	судмедэксперт
+N23	Reference T49 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N24	Reference T54 Wikidata:Q649	Москва
+N27	Reference T66 Wikidata:Q35535	полиция
+N2	Reference T4 Wikidata:NULL	нет данных
+N15	Reference T5 Wikidata:Q3054629	
+N28	Reference T7 Wikidata:NULL	нет данных
+N25	Reference T60 Wikidata:Q492468	россияне
+N4	Reference T15 Wikidata:NULL	нет данных
+N19	Reference T16 Wikidata:NULL	нет данных
+N20	Reference T46 Wikidata:Q30093123	
+N22	Reference T48 Wikidata:Q145	Великобритания
+N8	Reference T24 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q50559234	
+N12	Reference T30 Wikidata:NULL	нет данных
+N29	Reference T64 Wikidata:NULL	нет данных
+N26	Reference T65 Wikidata:Q492468	россияне
+N30	Reference T38 Wikidata:Q50559234	
+N31	Reference T13 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N32	Reference T22 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N33	Reference T19 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N34	Reference T33 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N35	Reference T58 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N36	Reference T28 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N37	Reference T2 Wikidata:Q3400152	Глушков, Николай Алексеевич
+N38	Reference T31 Wikidata:Q159	Россия
+N39	Reference T12 Wikidata:Q159	Россия
+N40	Reference T36 Wikidata:Q84	Лондон
+N41	Reference T9 Wikidata:Q84	Лондон
+N42	Reference T23 Wikidata:Q84	Лондон
+N43	Reference T51 Wikidata:Q131524	предприниматель
+N44	Reference T3 Wikidata:NULL	нет данных
+N45	Reference T6 Wikidata:Q3054629	

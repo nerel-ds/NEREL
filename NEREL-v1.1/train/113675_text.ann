@@ -1,0 +1,105 @@
+T1	PERSON 0 11	Джейн Остин
+T2	PERSON 58 69	Джейн Остин
+T3	PERSON 94 105	Джейн Остин
+T4	AGE 106 129	в подростковом возрасте
+T5	NUMBER 140 143	две
+T6	CITY 177 186	Стивентон
+T7	STATE_OR_PROVINCE 197 204	Гэмпшир
+T8	PERSON 270 281	Джейн Остин
+T9	CITY 285 295	Стивентона
+T10	ORDINAL 299 305	первом
+T11	PERSON 329 334	Остин
+T12	PERSON 351 385	Генри Фредерика Говарда Фицуильяма
+T13	CITY 389 396	Лондона
+T14	ORDINAL 401 407	втором
+T15	PERSON 449 485	Эдмундом Артуром Уильямом Мортимером
+T16	CITY 489 498	Ливерпуля
+T17	PERSON 591 602	Джейн Остин
+T18	PERSON 654 666	Джордж Остин
+T19	PROFESSION 671 682	настоятелем
+T20	DATE 722 740	в конце XVIII века
+T21	DATE 772 791	с 1755 по 1812 годы
+T22	STATE_OR_PROVINCE 822 830	Гэмпшира
+T24	EVENT 867 890	Таинственная мисс Остин
+T25	CITY 911 921	Уинчестере
+T26	AGE 936 945	200-летия
+T27	PROFESSION 975 1014	Представитель окружного совета Гэмпшира
+T28	PERSON 1015 1027	Эндрю Гибсон
+T29	PERSON 1102 1113	Джейн Остин
+T30	PERSON 1165 1176	Джейн Остин
+T32	AGE 1204 1210	20 лет
+T34	PERSON 1245 1260	Томасом Лефроем
+T35	PERSON 1309 1314	Остин
+T36	PERSON 1336 1349	Томаса Лефроя
+T37	PERSON 1375 1384	Кассандре
+T38	PERSON 1433 1438	Остин
+T39	WORK_OF_ART 1466 1490	Гордость и предубеждение
+T40	NATIONALITY 70 80	Английская
+T41	PROFESSION 81 93	писательница
+T42	EVENT 19 35	подделала записи
+T43	EVENT 130 150	подделала две записи
+T23	DATE 922 927	в мае
+T44	STATE_OR_PROVINCE 1006 1014	Гэмпшира
+T45	ORGANIZATION 989 1014	окружного совета Гэмпшира
+R1	LOCATED_IN Arg1:T6 Arg2:T7	
+R2	ORIGINS_FROM Arg1:T3 Arg2:T40	
+R3	WORKS_AS Arg1:T3 Arg2:T41	
+R4	ORIGINS_FROM Arg1:T12 Arg2:T13	
+R5	ORIGINS_FROM Arg1:T15 Arg2:T16	
+R6	PARENT_OF Arg1:T18 Arg2:T17	
+R7	WORKS_AS Arg1:T18 Arg2:T19	
+T31	PERSON 885 890	Остин
+R8	PRODUCES Arg1:T38 Arg2:T39	
+R9	RELATIVE Arg1:T35 Arg2:T37	
+R10	KNOWS Arg1:T35 Arg2:T34	
+R11	ALTERNATIVE_NAME Arg1:T30 Arg2:T35	
+R12	WORKS_AS Arg1:T28 Arg2:T27	
+R13	WORKPLACE Arg1:T28 Arg2:T45	
+R14	HEADQUARTERED_IN Arg1:T45 Arg2:T44	
+R15	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R16	POINT_IN_TIME Arg1:T24 Arg2:T23	
+R18	PLACE_RESIDES_IN Arg1:T8 Arg2:T9	
+R19	AGE_IS Arg1:T3 Arg2:T4	
+R20	PARTICIPANT_IN Arg1:T1 Arg2:T42	
+R21	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R22	PARTICIPANT_IN Arg1:T3 Arg2:T43	
+R23	TAKES_PLACE_IN Arg1:T43 Arg2:T6	
+R24	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R17	ORIGINS_FROM Arg1:T41 Arg2:T40	
+T46	PROFESSION 960 972	писательницы
+R25	WORKS_AS Arg1:T31 Arg2:T46	
+R26	AGE_IS Arg1:T30 Arg2:T32	
+R27	KNOWS Arg1:T30 Arg2:T34	
+N3	Reference T13 Wikidata:Q84	Лондон
+N5	Reference T16 Wikidata:Q24826	Ливерпуль
+N7	Reference T22 Wikidata:Q23204	Гэмпшир
+N8	Reference T25 Wikidata:Q172157	Уинчестер
+N12	Reference T39 Wikidata:Q170583	Гордость и предубеждение
+N15	Reference T46 Wikidata:Q36180	писатель
+N13	Reference T40 Wikidata:Q42406	англичане
+N16	Reference T6 Wikidata:Q1231836	
+N1	Reference T11 Wikidata:Q36322	
+N2	Reference T12 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:NULL	нет данных
+N17	Reference T18 Wikidata:Q3101397	
+N6	Reference T19 Wikidata:Q955464	
+N9	Reference T27 Wikidata:NULL	нет данных
+N14	Reference T45 Wikidata:NULL	нет данных
+N18	Reference T28 Wikidata:NULL	нет данных
+N10	Reference T35 Wikidata:Q36322	
+N19	Reference T36 Wikidata:Q2599142	
+N11	Reference T37 Wikidata:Q2505245	
+N20	Reference T44 Wikidata:Q23204	Гэмпшир
+N21	Reference T7 Wikidata:Q23204	Гэмпшир
+N22	Reference T41 Wikidata:Q36180	писатель
+N23	Reference T9 Wikidata:Q1231836	
+N24	Reference T8 Wikidata:Q36322	
+N25	Reference T38 Wikidata:Q36322	
+N26	Reference T31 Wikidata:Q36322	
+N27	Reference T17 Wikidata:Q36322	
+N28	Reference T29 Wikidata:Q36322	
+N29	Reference T3 Wikidata:Q36322	
+N30	Reference T2 Wikidata:Q36322	
+N31	Reference T1 Wikidata:Q36322	
+N32	Reference T30 Wikidata:Q36322	
+N33	Reference T34 Wikidata:Q2599142	

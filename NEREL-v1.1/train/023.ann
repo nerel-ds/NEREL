@@ -1,0 +1,122 @@
+T1	ORGANIZATION 0 8	Facebook
+T2	PROFESSION 22 43	финансового директора
+T3	PROFESSION 44 65	Финансовым директором
+T4	ORGANIZATION 82 90	Facebook
+T5	AGE 100 109	39-летний
+T6	PERSON 110 124	Дэвид Эберсман
+T7	PERSON 126 140	David Ebersman
+T8	ORGANIZATION 152 175	The Wall Street Journal
+T9	ORGANIZATION 189 197	Facebook
+T10	DATE 208 218	в сентябре
+T11	PERSON 226 234	Эберсман
+T12	PROFESSION 239 260	финансовым директором
+T13	ORGANIZATION 289 298	Genentech
+T14	PERSON 301 309	Эберсман
+T15	ORGANIZATION 351 359	Facebook
+T16	ORGANIZATION 362 371	Genentech
+T17	NUMBER 390 393	две
+T18	ORGANIZATION 474 482	Facebook
+T19	PERCENT 491 504	70-процентное
+T20	DATE 524 535	в 2009 году
+T21	ORGANIZATION 549 558	Genentech
+T22	PERSON 559 573	Дэвид Эберсман
+T23	DATE 585 591	15 лет
+T24	PROFESSION 596 617	финансовым директором
+T25	DATE 626 637	в 2006 году
+T26	PERSON 657 665	Эберсман
+T27	DATE 677 696	до апреля 2009 года
+T28	ORGANIZATION 704 717	Roche Holding
+T29	ORGANIZATION 724 733	Genentech
+T30	ORGANIZATION 746 769	The Wall Street Journal
+T31	PROFESSION 784 805	финансового директора
+T32	NUMBER 828 830	11
+T34	PERSON 901 919	Марком Цукербергом
+T35	PERSON 921 936	Mark Zuckerberg
+T36	PROFESSION 980 1001	финансовым директором
+T37	PERSON 1015 1023	Гидеон Ю
+T38	PERSON 1025 1034	Gideon Yu
+T39	DATE 1057 1073	три месяца назад
+T40	PROFESSION 1117 1130	топ-менеджера
+T41	ORGANIZATION 1170 1178	Facebook
+T42	DATE 1226 1237	За пять лет
+T43	NUMBER 1290 1303	200 миллионов
+T47	PROFESSION 784 814	финансового директора Facebook
+T48	ORGANIZATION 806 814	Facebook
+T33	ORGANIZATION 892 900	Facebook
+T49	PROFESSION 948 971	руководителями компании
+T50	ORGANIZATION 1002 1010	Facebook
+T52	PROFESSION 980 1010	финансовым директором Facebook
+T53	LOCATION 1199 1207	западной
+R1	AGE_IS Arg1:T6 Arg2:T5	
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R3	WORKPLACE Arg1:T6 Arg2:T4	
+R4	WORKS_AS Arg1:T6 Arg2:T3	
+R5	WORKPLACE Arg1:T22 Arg2:T21	
+R6	WORKS_AS Arg1:T22 Arg2:T24	
+R7	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R8	FOUNDED_BY Arg1:T33 Arg2:T34	
+R9	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R10	WORKS_AS Arg1:T37 Arg2:T52	
+R11	WORKPLACE Arg1:T37 Arg2:T50	
+R12	WORKPLACE Arg1:T2 Arg2:T1	
+T44	EVENT 91 99	назначен
+R13	WORKPLACE Arg1:T3 Arg2:T4	
+R14	PARTICIPANT_IN Arg1:T4 Arg2:T44	
+R15	PARTICIPANT_IN Arg1:T6 Arg2:T44	
+R16	WORKPLACE Arg1:T11 Arg2:T13	
+R17	WORKS_AS Arg1:T11 Arg2:T12	
+R18	WORKPLACE Arg1:T12 Arg2:T13	
+R19	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R20	OWNER_OF Arg1:T28 Arg2:T29	
+R21	WORKPLACE Arg1:T47 Arg2:T48	
+R22	WORKPLACE Arg1:T52 Arg2:T50	
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T40	
+R24	HEADQUARTERED_IN Arg1:T41 Arg2:T53	
+T45	EVENT 718 723	купил
+R25	AGENT Arg1:T28 Arg2:T45	
+R26	PARTICIPANT_IN Arg1:T29 Arg2:T45	
+R27	WORKPLACE Arg1:T26 Arg2:T29	
+R28	POINT_IN_TIME Arg1:T45 Arg2:T27	
+R29	WORKS_AS Arg1:T34 Arg2:T49	
+R30	WORKPLACE Arg1:T49 Arg2:T33	
+T46	EVENT 1040 1056	покинул компанию
+R31	PARTICIPANT_IN Arg1:T50 Arg2:T46	
+R32	AGENT Arg1:T37 Arg2:T46	
+R33	POINT_IN_TIME Arg1:T46 Arg2:T39	
+N1	Reference T13 Wikidata:Q899140	Genentech
+N2	Reference T26 Wikidata:Q5233251	Дэвид Эберсман
+N3	Reference T30 Wikidata:Q164746	The Wall Street Journal
+N8	Reference T48 Wikidata:Q355	Facebook
+N9	Reference T49 Wikidata:Q1162163	директор
+N11	Reference T28 Wikidata:NULL	нет данных
+N7	Reference T47 Wikidata:NULL	нет данных
+N4	Reference T35 Wikidata:Q36215	Марк Цукерберг
+N5	Reference T37 Wikidata:NULL	нет данных
+N6	Reference T40 Wikidata:Q2563977	
+N10	Reference T53 Wikidata:Q679	запад
+N12	Reference T29 Wikidata:Q899140	Genentech
+N13	Reference T21 Wikidata:Q899140	Genentech
+N14	Reference T16 Wikidata:Q899140	Genentech
+N15	Reference T14 Wikidata:Q5233251	Дэвид Эберсман
+N16	Reference T11 Wikidata:Q5233251	Дэвид Эберсман
+N17	Reference T7 Wikidata:Q5233251	Дэвид Эберсман
+N18	Reference T22 Wikidata:Q5233251	Дэвид Эберсман
+N19	Reference T6 Wikidata:Q5233251	Дэвид Эберсман
+N20	Reference T8 Wikidata:Q164746	The Wall Street Journal
+N21	Reference T4 Wikidata:Q355	Facebook
+N22	Reference T9 Wikidata:Q355	Facebook
+N23	Reference T15 Wikidata:Q355	Facebook
+N24	Reference T41 Wikidata:Q355	Facebook
+N25	Reference T33 Wikidata:Q355	Facebook
+N26	Reference T18 Wikidata:Q355	Facebook
+N27	Reference T50 Wikidata:Q355	Facebook
+N28	Reference T1 Wikidata:Q355	Facebook
+N29	Reference T52 Wikidata:NULL	нет данных
+N30	Reference T34 Wikidata:Q36215	Марк Цукерберг
+N31	Reference T38 Wikidata:NULL	нет данных
+N32	Reference T36 Wikidata:Q2563977	
+N33	Reference T31 Wikidata:Q2563977	
+N34	Reference T12 Wikidata:Q2563977	
+N35	Reference T24 Wikidata:Q2563977	
+N36	Reference T3 Wikidata:Q2563977	
+N37	Reference T2 Wikidata:Q2563977	

@@ -1,0 +1,225 @@
+T1	PROFESSION 0 25	Постпредом России при ООН
+T2	PERSON 35 50	Василий Небензя
+T3	PERSON 51 66	Василий Небензя
+T4	PROFESSION 67 76	Президент
+T5	PERSON 84 98	Владимир Путин
+T6	PROFESSION 108 144	заместителя министра иностранных дел
+T7	PROFESSION 120 144	министра иностранных дел
+T8	PERSON 145 160	Василия Небензю
+T9	PROFESSION 169 209	постоянного представителя России при ООН
+T10	DATE 241 269	в четверг, 27 июля 2017 года
+T11	PERSON 300 327	Небензю Василия Алексеевича
+T12	PROFESSION 328 364	постоянным представителем РФ при ООН
+T13	CITY 367 376	Нью-Йорке
+T14	COUNTRY 378 381	США
+T15	PROFESSION 385 428	представителем РФ в Совете Безопасности ООН
+T16	ORGANIZATION 405 428	Совете Безопасности ООН
+T17	PERSON 471 476	Путин
+T18	PERSON 487 494	Небензю
+T19	PROFESSION 508 551	заместителя министра иностранных дел России
+T20	PERSON 572 579	Небензи
+T21	ORGANIZATION 591 598	Госдуме
+T22	ORGANIZATION 601 617	Совете Федерации
+T23	PERSON 647 654	Небензи
+T24	DATE 670 675	в мае
+T25	PERSON 678 685	Небензя
+T26	PROFESSION 694 699	посла
+T27	CITY 737 746	Нью-Йорке
+T28	AGE 772 781	65-м году
+T30	PERSON 790 805	Василий Небензя
+T31	DATE 814 834	26 февраля 1962 года
+T32	CITY 837 847	Волгограде
+T33	DATE 850 856	В 1983
+T34	ORGANIZATION 865 870	МГИМО
+T35	DATE 935 946	С 2013 года
+T36	PROFESSION 968 980	замглавы МИД
+T37	DATE 982 998	1 июня 2013 года
+T38	DATE 1001 1018	27 июля 2017 года
+T40	PROFESSION 1124 1154	заместителем постпреда при ООН
+T41	CITY 1157 1163	Женеве
+T42	PROFESSION 1165 1221	старшим советником постоянного представительства при ООН
+T43	CITY 1224 1233	Нью-Йорке
+T44	PERSON 1236 1243	Небензя
+T45	PROFESSION 1255 1289	Чрезвычайного и Полномочного Посла
+T46	LANGUAGE 1385 1395	английским
+T47	LANGUAGE 1398 1407	испанским
+T48	ORGANIZATION 280 286	Кремля
+T49	AWARD 1302 1357	медалью ордена «За заслуги перед Отечеством» II степени
+T50	AWARD 1360 1374	орденом Дружбы
+T39	ORGANIZATION 1055 1118	департаментом по гуманитарному сотрудничеству и правам человека
+T51	PROFESSION 1137 1146	постпреда
+T52	ORGANIZATION 1218 1221	ООН
+T53	ORGANIZATION 1151 1154	ООН
+T54	ORGANIZATION 977 980	МИД
+T55	PERSON 947 954	Небензя
+T56	DATE 747 767	20 февраля 2017 года
+T29	PERSON 700 715	Виталия Чуркина
+T57	COUNTRY 545 551	России
+T58	PROFESSION 520 551	министра иностранных дел России
+T59	ORGANIZATION 361 364	ООН
+T60	COUNTRY 354 356	РФ
+T61	COUNTRY 400 402	РФ
+T62	ORGANIZATION 425 428	ООН
+T63	LAW 211 228	Указ о назначении
+T64	COUNTRY 77 83	России
+T65	PROFESSION 67 83	Президент России
+T66	COUNTRY 195 201	России
+T67	ORGANIZATION 206 209	ООН
+T68	COUNTRY 11 17	России
+T69	ORGANIZATION 22 25	ООН
+R1	WORKPLACE Arg1:T65 Arg2:T64	
+R2	SUBORDINATE_OF Arg1:T6 Arg2:T7	
+T70	PROFESSION 120 128	министра
+R3	WORKS_AS Arg1:T8 Arg2:T6	
+R4	SUBORDINATE_OF Arg1:T8 Arg2:T7	
+R5	ORIGINS_FROM Arg1:T9 Arg2:T66	
+R6	WORKPLACE Arg1:T9 Arg2:T67	
+T71	PROFESSION 169 201	постоянного представителя России
+R7	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R8	WORKS_AS Arg1:T29 Arg2:T26	
+R9	DATE_OF_BIRTH Arg1:T30 Arg2:T31	
+R10	WORKPLACE Arg1:T30 Arg2:T32	
+R11	SCHOOLS_ATTENDED Arg1:T30 Arg2:T34	
+R12	WORKS_AS Arg1:T44 Arg2:T45	
+R13	AWARDED_WITH Arg1:T44 Arg2:T49	
+R14	AWARDED_WITH Arg1:T44 Arg2:T50	
+R15	SUBORDINATE_OF Arg1:T19 Arg2:T58	
+R16	WORKPLACE Arg1:T58 Arg2:T57	
+R17	WORKPLACE Arg1:T19 Arg2:T57	
+R18	ALTERNATIVE_NAME Arg1:T11 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T5 Arg2:T17	
+R20	PLACE_OF_DEATH Arg1:T29 Arg2:T27	
+T72	EVENT 26 34	назначен
+R21	PARTICIPANT_IN Arg1:T2 Arg2:T72	
+R22	WORKS_AS Arg1:T2 Arg2:T1	
+R23	WORKPLACE Arg1:T2 Arg2:T69	
+R24	ORIGINS_FROM Arg1:T2 Arg2:T68	
+R25	ORIGINS_FROM Arg1:T1 Arg2:T68	
+R26	WORKPLACE Arg1:T1 Arg2:T69	
+R27	WORKS_AS Arg1:T5 Arg2:T65	
+R28	WORKPLACE Arg1:T5 Arg2:T64	
+T73	EVENT 99 107	назначил
+R29	ALTERNATIVE_NAME Arg1:T72 Arg2:T73	
+R30	AGENT Arg1:T5 Arg2:T73	
+R31	PARTICIPANT_IN Arg1:T8 Arg2:T73	
+R32	POINT_IN_TIME Arg1:T73 Arg2:T10	
+R33	PRODUCES Arg1:T5 Arg2:T63	
+R34	DATE_OF_CREATION Arg1:T63 Arg2:T10	
+R35	WORKS_AS Arg1:T8 Arg2:T9	
+R36	ORIGINS_FROM Arg1:T8 Arg2:T66	
+R37	WORKPLACE Arg1:T8 Arg2:T67	
+R38	DATE_OF_DEATH Arg1:T29 Arg2:T56	
+R39	AGE_DIED_AT Arg1:T29 Arg2:T28	
+R40	WORKPLACE Arg1:T36 Arg2:T54	
+R41	ALTERNATIVE_NAME Arg1:T30 Arg2:T55	
+R42	WORKS_AS Arg1:T55 Arg2:T36	
+R43	ORIGINS_FROM Arg1:T12 Arg2:T60	
+R44	WORKPLACE Arg1:T12 Arg2:T59	
+R45	WORKS_AS Arg1:T11 Arg2:T12	
+R46	ORIGINS_FROM Arg1:T11 Arg2:T60	
+R47	WORKPLACE Arg1:T11 Arg2:T59	
+T74	PROFESSION 328 356	постоянным представителем РФ
+R48	LOCATED_IN Arg1:T13 Arg2:T14	
+T75	EVENT 477 486	освободил
+R49	AGENT Arg1:T17 Arg2:T75	
+R50	PARTICIPANT_IN Arg1:T18 Arg2:T75	
+R51	WORKS_AS Arg1:T18 Arg2:T19	
+R52	SUBORDINATE_OF Arg1:T18 Arg2:T58	
+R53	WORKPLACE Arg1:T18 Arg2:T57	
+T76	EVENT 725 734	скончался
+R54	PARTICIPANT_IN Arg1:T29 Arg2:T76	
+R55	TAKES_PLACE_IN Arg1:T76 Arg2:T27	
+R56	POINT_IN_TIME Arg1:T76 Arg2:T56	
+T77	PROFESSION 385 402	представителем РФ
+R57	WORKS_AS Arg1:T11 Arg2:T15	
+R58	ORIGINS_FROM Arg1:T15 Arg2:T61	
+R59	PART_OF Arg1:T16 Arg2:T62	
+R60	WORKPLACE Arg1:T15 Arg2:T16	
+R61	WORKS_AS Arg1:T11 Arg2:T15	
+R62	WORKPLACE Arg1:T11 Arg2:T16	
+R63	ORIGINS_FROM Arg1:T11 Arg2:T61	
+R64	WORKPLACE Arg1:T55 Arg2:T54	
+R65	PART_OF Arg1:T39 Arg2:T54	
+R66	ABBREVIATION Arg1:T55 Arg2:T39	
+T78	PROFESSION 1137 1154	постпреда при ООН
+R67	SUBORDINATE_OF Arg1:T40 Arg2:T78	
+R68	WORKPLACE Arg1:T78 Arg2:T53	
+R69	WORKPLACE Arg1:T40 Arg2:T53	
+R70	WORKS_AS Arg1:T30 Arg2:T42	
+T79	PROFESSION 1165 1213	старшим советником постоянного представительства
+R71	WORKPLACE Arg1:T42 Arg2:T52	
+R72	WORKPLACE Arg1:T30 Arg2:T52	
+R73	KNOWS Arg1:T44 Arg2:T46	
+R74	KNOWS Arg1:T44 Arg2:T47	
+N2	Reference T4 Wikidata:Q30461	президент
+N3	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T7 Wikidata:Q7330070	министр иностранных дел
+N7	Reference T14 Wikidata:Q30	США
+N9	Reference T16 Wikidata:Q37470	Совет Безопасности ООН
+N10	Reference T18 Wikidata:Q1000053	Василий Алексеевич Небензя
+N12	Reference T20 Wikidata:Q1000053	Василий Алексеевич Небензя
+N13	Reference T21 Wikidata:Q715641	Государственная дума
+N14	Reference T22 Wikidata:Q186473	Совет Федерации
+N15	Reference T26 Wikidata:Q121998	посол
+N16	Reference T27 Wikidata:Q60	Нью-Йорк
+N17	Reference T32 Wikidata:Q914	Волгоград
+N18	Reference T34 Wikidata:Q322964	МГИМО
+N21	Reference T41 Wikidata:Q71	Женева
+N23	Reference T45 Wikidata:Q121998	посол
+N24	Reference T46 Wikidata:Q1860	английский язык
+N25	Reference T48 Wikidata:Q133274	Московский Кремль
+N26	Reference T49 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N27	Reference T50 Wikidata:Q791135	орден Дружбы
+N31	Reference T55 Wikidata:Q1000053	Василий Алексеевич Небензя
+N32	Reference T29 Wikidata:Q1394102	Виталий Иванович Чуркин
+N33	Reference T58 Wikidata:Q1418873	министр иностранных дел России
+N34	Reference T59 Wikidata:Q1065	Организация Объединённых Наций
+N35	Reference T61 Wikidata:Q159	Россия
+N37	Reference T65 Wikidata:Q218295	президент Российской Федерации
+N38	Reference T68 Wikidata:Q159	Россия
+N39	Reference T70 Wikidata:Q83307	министр
+N42	Reference T78 Wikidata:Q7888495	постоянный представитель при ООН
+N1	Reference T1 Wikidata:NULL	нет данных
+N44	Reference T6 Wikidata:NULL	нет данных
+N40	Reference T71 Wikidata:NULL	нет данных
+N5	Reference T9 Wikidata:Q4374313	
+N36	Reference T63 Wikidata:NULL	нет данных
+N41	Reference T74 Wikidata:NULL	нет данных
+N6	Reference T12 Wikidata:Q4374313	
+N45	Reference T77 Wikidata:NULL	нет данных
+N8	Reference T15 Wikidata:NULL	нет данных
+N11	Reference T19 Wikidata:NULL	нет данных
+N19	Reference T36 Wikidata:NULL	нет данных
+N30	Reference T54 Wikidata:Q20901295	Министерство иностранных дел
+N28	Reference T39 Wikidata:NULL	нет данных
+N29	Reference T51 Wikidata:NULL	нет данных
+N20	Reference T40 Wikidata:NULL	нет данных
+N43	Reference T79 Wikidata:NULL	нет данных
+N22	Reference T42 Wikidata:NULL	нет данных
+N46	Reference T47 Wikidata:Q1321	испанский язык
+N47	Reference T17 Wikidata:Q7747	Владимир Владимирович Путин
+N48	Reference T11 Wikidata:Q1000053	Василий Алексеевич Небензя
+N49	Reference T8 Wikidata:Q1000053	Василий Алексеевич Небензя
+N50	Reference T23 Wikidata:Q1000053	Василий Алексеевич Небензя
+N51	Reference T13 Wikidata:Q60	Нью-Йорк
+N52	Reference T43 Wikidata:Q60	Нью-Йорк
+N53	Reference T44 Wikidata:Q1000053	Василий Алексеевич Небензя
+N54	Reference T25 Wikidata:Q1000053	Василий Алексеевич Небензя
+N55	Reference T3 Wikidata:Q1000053	Василий Алексеевич Небензя
+N56	Reference T2 Wikidata:Q1000053	Василий Алексеевич Небензя
+N57	Reference T30 Wikidata:Q1000053	Василий Алексеевич Небензя
+N58	Reference T69 Wikidata:Q1065	Организация Объединённых Наций
+N59	Reference T53 Wikidata:Q1065	Организация Объединённых Наций
+N60	Reference T62 Wikidata:Q1065	Организация Объединённых Наций
+N61	Reference T52 Wikidata:Q1065	Организация Объединённых Наций
+N62	Reference T67 Wikidata:Q1065	Организация Объединённых Наций
+N63	Reference T60 Wikidata:Q159	Россия
+N64	Reference T57 Wikidata:Q159	Россия
+N65	Reference T64 Wikidata:Q159	Россия
+N66	Reference T66 Wikidata:Q159	Россия
+T80	EVENT 806 813	родился
+R75	PARTICIPANT_IN Arg1:T30 Arg2:T80	
+R76	POINT_IN_TIME Arg1:T80 Arg2:T31	
+R77	TAKES_PLACE_IN Arg1:T80 Arg2:T32	
+T81	ORDINAL 1347 1349	II
+T82	AWARD 1318 1345	За заслуги перед Отечеством

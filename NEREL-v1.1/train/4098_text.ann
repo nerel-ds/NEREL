@@ -1,0 +1,57 @@
+T1	PRODUCT 11 20	Википедии
+T2	PERSON 64 76	Джимми Уэйлс
+T3	PRODUCT 92 101	Википедии
+T4	PERSON 351 357	Уэйлса
+T5	PERSON 469 474	Уэйлс
+T6	DATE 550 562	через неделю
+T7	PRODUCT 591 600	Википедии
+T8	PERSON 616 622	Уэйлса
+T10	ORGANIZATION 781 796	Фонда Викимедиа
+T11	PERSON 799 813	Флоранс Девуар
+T12	PERSON 844 850	Уэйлса
+T14	PRODUCT 1160 1169	Википедии
+T15	PROFESSION 1188 1197	профессор
+T16	PERSON 1255 1268	Райан Джордан
+T17	PERSON 1270 1281	Ryan Jordan
+T18	AGE 1288 1295	24 года
+T19	CITY 1320 1329	Луисвилля
+T20	CITY 1331 1341	Louisville
+T22	PROFESSION 757 796	Председатель правления «Фонда Викимедиа
+T24	PROFESSION 1188 1217	профессор Католического права
+T25	RELIGION 1198 1211	Католического
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+T23	PRODUCT 702 712	Втикипедии
+R2	ALTERNATIVE_NAME Arg1:T7 Arg2:T23	
+R3	WORKPLACE Arg1:T22 Arg2:T10	
+T9	ORGANIZATION 770 797	правления «Фонда Викимедиа»
+R4	PART_OF Arg1:T9 Arg2:T10	
+R5	WORKS_AS Arg1:T11 Arg2:T22	
+R6	WORKPLACE Arg1:T11 Arg2:T9	
+R7	RELIGION_OF Arg1:T24 Arg2:T25	
+R8	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R9	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R12	AGE_IS Arg1:T16 Arg2:T18	
+R10	ORIGINS_FROM Arg1:T16 Arg2:T19	
+R11	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+N1	Reference T1 Wikidata:Q52	Википедия
+N3	Reference T10 Wikidata:Q180	Фонд Викимедиа
+N4	Reference T11 Wikidata:Q266722	Флоранс Нибар-Девуар
+N5	Reference T15 Wikidata:Q121594	профессор
+N7	Reference T19 Wikidata:Q43668	Луисвилл
+N2	Reference T5 Wikidata:Q181	
+N11	Reference T9 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q1841	католичество
+N9	Reference T24 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:NULL	нет данных
+N12	Reference T23 Wikidata:Q52	Википедия
+N13	Reference T14 Wikidata:Q52	Википедия
+N14	Reference T7 Wikidata:Q52	Википедия
+N15	Reference T3 Wikidata:Q52	Википедия
+N16	Reference T20 Wikidata:Q43668	Луисвилл
+N17	Reference T8 Wikidata:Q181	
+N18	Reference T12 Wikidata:Q181	
+N19	Reference T4 Wikidata:Q181	
+N20	Reference T2 Wikidata:Q181	
+N21	Reference T17 Wikidata:NULL	нет данных

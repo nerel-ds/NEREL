@@ -1,0 +1,226 @@
+T1	NATIONALITY 0 9	Кубинский
+T2	CITY 25 31	Москве
+T3	CITY 68 74	Москве
+T4	PERSON 91 105	Орландо Ортега
+T5	PERSON 107 121	Orlando Ortega
+T6	CITY 169 175	Москве
+T7	ORGANIZATION 186 221	Кубинская федерация лёгкой атлетики
+T8	ORGANIZATION 223 253	Federación Cubana de Atletismo
+T9	ORGANIZATION 255 258	FCA
+T10	AGE 261 270	22-летний
+T11	EVENT 292 306	чемпионат мира
+T12	COUNTRY 309 319	российской
+T13	ORGANIZATION 432 435	FCA
+T15	CITY 484 494	лондонской
+T16	NUMBER 515 525	110 метров
+T17	PROFESSION 539 548	Президент
+T18	ORGANIZATION 590 594	ВФЛА
+T19	PERSON 596 615	Валентин Балахничев
+T21	PERSON 672 678	Ортеги
+T22	PERSON 751 761	Балахничев
+T23	ORGANIZATION 781 785	ВФЛА
+T24	NATIONALITY 796 806	кубинского
+T25	ORGANIZATION 844 846	МК
+T26	NATIONALITY 860 869	кубинский
+T28	COUNTRY 952 961	Кубинская
+T29	ORGANIZATION 962 987	федерация легкой атлетики
+T30	PERSON 1007 1013	Ортегу
+T31	DATE 1014 1024	на полгода
+T32	EVENT 1065 1084	европейском турнире
+T33	DATE 1097 1109	в конце июля
+T34	ORGANIZATION 1110 1113	FCA
+T35	PERSON 1138 1144	Ортеги
+T36	CITY 1180 1190	московский
+T37	NATIONALITY 1208 1217	Кубинские
+T39	COUNTRY 1343 1346	США
+T40	EVENT 1356 1390	отборочного турнира Олимпиады-2008
+T41	EVENT 1376 1390	Олимпиады-2008
+T43	CITY 1481 1495	Рио-де-Жанейро
+T44	EVENT 1505 1524	Панамериканских игр
+T45	PERSON 1574 1588	Орландо Ортега
+T46	DATE 1597 1614	29 июля 1991 года
+T47	COUNTRY 1618 1622	Кубе
+T48	NUMBER 1644 1650	1,89 м
+T49	NUMBER 1658 1663	75 кг
+T50	PROFESSION 10 15	бегун
+T53	EVENT 32 65	Чемпионат мира по лёгкой атлетике
+T54	NATIONALITY 75 84	Кубинский
+T55	PROFESSION 85 90	бегун
+T56	EVENT 16 22	сбежал
+T57	EVENT 123 129	сбежал
+T58	PROFESSION 271 280	спортсмен
+T60	PERSON 461 467	Ортега
+T61	AWARD 473 537	финалистом лондонской Олимпиады в беге на 110 метров с барьерами
+T66	PROFESSION 539 588	Президент Всероссийской федерации лёгкой атлетики
+T67	ORGANIZATION 549 588	Всероссийской федерации лёгкой атлетики
+T68	ORGANIZATION 629 636	Новости
+T69	PROFESSION 807 813	бегуна
+T70	PROFESSION 870 875	бегун
+T71	EVENT 899 917	мировое первенство
+T72	ORGANIZATION 952 987	Кубинская федерация легкой атлетики
+T73	ORGANIZATION 563 588	федерации лёгкой атлетики
+T74	LOCATION 1065 1076	европейском
+T75	EVENT 1180 1205	московский чемпионат мира
+T76	EVENT 1191 1205	чемпионат мира
+T78	PROFESSION 1218 1228	спортсмены
+T79	NUMBER 1296 1302	восемь
+T80	DATE 1386 1390	2008
+T81	NATIONALITY 1303 1312	кубинских
+T82	NUMBER 1449 1452	два
+T83	PROFESSION 1313 1324	футболистов
+T84	PROFESSION 1463 1470	боксёра
+T85	NATIONALITY 1453 1462	кубинских
+T86	EVENT 1326 1339	дезертировали
+T87	EVENT 1471 1478	сбежали
+T88	LOCATION 1505 1520	Панамериканских
+T89	EVENT 1546 1555	задержаны
+T90	EVENT 1558 1571	депортированы
+R1	ORIGINS_FROM Arg1:T50 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T56 Arg2:T2	
+R3	AGENT Arg1:T50 Arg2:T56	
+R5	ORIGINS_FROM Arg1:T55 Arg2:T54	
+R6	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R7	WORKS_AS Arg1:T4 Arg2:T55	
+R8	ORIGINS_FROM Arg1:T4 Arg2:T54	
+R9	AGENT Arg1:T4 Arg2:T57	
+R10	TAKES_PLACE_IN Arg1:T57 Arg2:T6	
+T51	COUNTRY 186 195	Кубинская
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R12	HEADQUARTERED_IN Arg1:T7 Arg2:T51	
+R13	ABBREVIATION Arg1:T8 Arg2:T9	
+R14	AGE_IS Arg1:T58 Arg2:T10	
+R16	LOCATED_IN Arg1:T6 Arg2:T12	
+T52	EVENT 336 351	выбыл из борьбы
+R19	PARTICIPANT_IN Arg1:T58 Arg2:T52	
+T59	EVENT 507 537	беге на 110 метров с барьерами
+T62	EVENT 32 74	Чемпионат мира по лёгкой атлетике в Москве
+R4	TAKES_PLACE_IN Arg1:T62 Arg2:T3	
+T63	EVENT 484 504	лондонской Олимпиады
+R20	TAKES_PLACE_IN Arg1:T63 Arg2:T15	
+R21	SUBEVENT_OF Arg1:T59 Arg2:T63	
+R23	PARTICIPANT_IN Arg1:T60 Arg2:T59	
+R24	AWARDED_WITH Arg1:T60 Arg2:T61	
+T64	COUNTRY 549 562	Всероссийской
+R25	ALTERNATIVE_NAME Arg1:T12 Arg2:T64	
+R26	HEADQUARTERED_IN Arg1:T67 Arg2:T64	
+R27	ABBREVIATION Arg1:T67 Arg2:T18	
+R28	WORKS_AS Arg1:T19 Arg2:T66	
+R29	WORKPLACE Arg1:T19 Arg2:T67	
+R30	ALTERNATIVE_NAME Arg1:T19 Arg2:T22	
+R31	ORIGINS_FROM Arg1:T69 Arg2:T24	
+R32	ORIGINS_FROM Arg1:T70 Arg2:T26	
+R33	PARTICIPANT_IN Arg1:T70 Arg2:T71	
+R34	HEADQUARTERED_IN Arg1:T72 Arg2:T28	
+T20	EVENT 988 1006	дисквалифицировала
+R35	AGENT Arg1:T72 Arg2:T20	
+R36	PARTICIPANT_IN Arg1:T30 Arg2:T20	
+R37	TAKES_PLACE_IN Arg1:T32 Arg2:T74	
+R38	PARTICIPANT_IN Arg1:T30 Arg2:T32	
+R39	TAKES_PLACE_IN Arg1:T75 Arg2:T36	
+R40	ALTERNATIVE_NAME Arg1:T6 Arg2:T36	
+T65	EVENT 292 327	чемпионат мира в российской столице
+R41	TAKES_PLACE_IN Arg1:T65 Arg2:T12	
+R15	PARTICIPANT_IN Arg1:T58 Arg2:T65	
+R17	SUBEVENT_OF Arg1:T52 Arg2:T65	
+R18	ALTERNATIVE_NAME Arg1:T62 Arg2:T65	
+R42	ALTERNATIVE_NAME Arg1:T65 Arg2:T75	
+R43	ALTERNATIVE_NAME Arg1:T11 Arg2:T71	
+R44	ORIGINS_FROM Arg1:T78 Arg2:T37	
+R46	ORIGINS_FROM Arg1:T83 Arg2:T81	
+T38	DATE 1284 1295	в 2008 году
+R47	POINT_IN_TIME Arg1:T86 Arg2:T38	
+R48	AGENT Arg1:T83 Arg2:T86	
+R49	TAKES_PLACE_IN Arg1:T86 Arg2:T39	
+R50	SUBEVENT_OF Arg1:T40 Arg2:T41	
+R51	POINT_IN_TIME Arg1:T41 Arg2:T80	
+R52	SUBEVENT_OF Arg1:T86 Arg2:T40	
+R53	ORIGINS_FROM Arg1:T84 Arg2:T85	
+R55	AGENT Arg1:T84 Arg2:T87	
+R56	TAKES_PLACE_IN Arg1:T87 Arg2:T43	
+R57	TAKES_PLACE_IN Arg1:T44 Arg2:T88	
+R61	DATE_OF_BIRTH Arg1:T45 Arg2:T46	
+R62	ALTERNATIVE_NAME Arg1:T85 Arg2:T47	
+R63	ALTERNATIVE_NAME Arg1:T4 Arg2:T60	
+T14	DATE 449 460	В 2012 году
+R22	POINT_IN_TIME Arg1:T63 Arg2:T14	
+T92	EVENT 495 504	Олимпиады
+T93	EVENT 32 46	Чемпионат мира
+T94	EVENT 32 41	Чемпионат
+T95	ORGANIZATION 196 221	федерация лёгкой атлетики
+T96	EVENT 292 301	чемпионат
+T97	EVENT 907 917	первенство
+R64	ALTERNATIVE_NAME Arg1:T96 Arg2:T97	
+T27	DATE 919 935	В июле 2013 года
+T98	EVENT 1077 1084	турнире
+T99	EVENT 1191 1200	чемпионат
+T100	EVENT 1356 1375	отборочного турнира
+T42	DATE 1437 1448	В 2007 году
+R54	POINT_IN_TIME Arg1:T87 Arg2:T42	
+R65	ORIGINS_FROM Arg1:T54 Arg2:T51	
+T101	COUNTRY 234 240	Cubana
+R66	ALTERNATIVE_NAME Arg1:T51 Arg2:T101	
+R67	ALTERNATIVE_NAME Arg1:T60 Arg2:T21	
+R45	SUBEVENT_OF Arg1:T87 Arg2:T44	
+R68	PARTICIPANT_IN Arg1:T84 Arg2:T89	
+R69	PARTICIPANT_IN Arg1:T84 Arg2:T90	
+R58	PLACE_OF_BIRTH Arg1:T45 Arg2:T47	
+N1	Reference T6 Wikidata:Q649	Москва
+N4	Reference T18 Wikidata:Q3092150	Всероссийская федерация лёгкой атлетики
+N6	Reference T25 Wikidata:Q1062623	Московский комсомолец
+N9	Reference T39 Wikidata:Q30	США
+N10	Reference T43 Wikidata:Q8678	Рио-де-Жанейро
+N11	Reference T47 Wikidata:Q241	Куба
+N13	Reference T58 Wikidata:Q2066131	спортсмен
+N16	Reference T68 Wikidata:Q4325631	Новости Первого канала
+N18	Reference T83 Wikidata:Q937857	футболист
+N12	Reference T50 Wikidata:Q12803959	
+N19	Reference T84 Wikidata:Q11338576	боксёр
+N22	Reference T95 Wikidata:Q98426442	
+N23	Reference T9 Wikidata:Q3091502	
+N2	Reference T15 Wikidata:Q84	Лондон
+N14	Reference T61 Wikidata:NULL	нет данных
+N21	Reference T64 Wikidata:Q159	Россия
+N15	Reference T66 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:NULL	нет данных
+N7	Reference T26 Wikidata:Q1195125	
+N8	Reference T28 Wikidata:Q241	Куба
+N17	Reference T74 Wikidata:Q46	Европа
+N24	Reference T35 Wikidata:Q3356456	
+N20	Reference T88 Wikidata:Q828	
+N3	Reference T17 Wikidata:Q140686	председатель
+N25	Reference T36 Wikidata:Q649	Москва
+N26	Reference T2 Wikidata:Q649	Москва
+N27	Reference T3 Wikidata:Q649	Москва
+N28	Reference T67 Wikidata:Q3092150	Всероссийская федерация лёгкой атлетики
+N29	Reference T23 Wikidata:Q3092150	Всероссийская федерация лёгкой атлетики
+N30	Reference T78 Wikidata:Q2066131	спортсмен
+N31	Reference T69 Wikidata:Q12803959	
+N32	Reference T70 Wikidata:Q12803959	
+N33	Reference T55 Wikidata:Q12803959	
+N34	Reference T29 Wikidata:Q98426442	
+N35	Reference T73 Wikidata:Q98426442	
+N36	Reference T13 Wikidata:Q3091502	
+N37	Reference T8 Wikidata:Q3091502	
+N38	Reference T34 Wikidata:Q3091502	
+N39	Reference T7 Wikidata:Q3091502	
+N40	Reference T72 Wikidata:Q3091502	
+N41	Reference T12 Wikidata:Q159	Россия
+N42	Reference T19 Wikidata:NULL	нет данных
+N43	Reference T85 Wikidata:Q1195125	
+N44	Reference T24 Wikidata:Q1195125	
+N45	Reference T54 Wikidata:Q1195125	
+N46	Reference T81 Wikidata:Q1195125	
+N47	Reference T37 Wikidata:Q1195125	
+N48	Reference T1 Wikidata:Q1195125	
+N49	Reference T101 Wikidata:Q241	Куба
+N50	Reference T51 Wikidata:Q241	Куба
+N51	Reference T21 Wikidata:Q3356456	
+N52	Reference T5 Wikidata:Q3356456	
+N53	Reference T4 Wikidata:Q3356456	
+N54	Reference T60 Wikidata:Q3356456	
+N55	Reference T45 Wikidata:Q3356456	
+N56	Reference T30 Wikidata:Q3356456	
+T77	EVENT 1589 1596	родился
+R59	PARTICIPANT_IN Arg1:T45 Arg2:T77	
+R60	POINT_IN_TIME Arg1:T77 Arg2:T46	
+R70	TAKES_PLACE_IN Arg1:T77 Arg2:T47	

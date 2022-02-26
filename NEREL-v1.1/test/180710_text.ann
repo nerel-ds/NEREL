@@ -1,0 +1,80 @@
+T1	PERSON 0 12	Джон Маккейн
+T2	PERSON 57 69	Джон Маккейн
+T3	DATE 70 81	в 2017 году
+T4	AGE 82 91	81-летний
+T5	COUNTRY 92 104	американский
+T6	PERSON 113 125	Джон Маккейн
+T7	COUNTRY 282 295	американского
+T8	PERSON 319 333	Джона Маккейна
+T9	COUNTRY 373 385	американской
+T10	DATE 397 412	летом 2017 года
+T11	PERSON 442 454	Джон Маккейн
+T12	ORGANIZATION 506 549	сенатском комитете по делам вооруженных сил
+T13	PERSON 552 564	Джон Маккейн
+T14	COUNTRY 612 624	американских
+T15	COUNTRY 678 684	России
+T16	DATE 687 698	В 2008 году
+T17	PROFESSION 759 767	сенатору
+T18	PERSON 778 790	Бараку Обаме
+T19	DISEASE 46 56	рака мозга
+T20	DISEASE 46 50	рака
+T21	PROFESSION 105 112	сенатор
+T22	PROFESSION 92 112	американский сенатор
+T23	DISEASE 178 198	рака головного мозга
+T24	DISEASE 178 182	рака
+T25	PROFESSION 236 244	сенатора
+T26	PROFESSION 296 304	политика
+T27	IDEOLOGY 305 318	республиканца
+T28	DISEASE 350 359	рак мозга
+T29	DISEASE 350 353	рак
+T30	PROFESSION 625 634	политиков
+T31	PROFESSION 715 728	президентской
+T32	EVENT 715 734	президентской гонке
+T33	EVENT 751 758	выборах
+T34	IDEOLOGY 768 777	демократу
+R1	MEDICAL_CONDITION Arg1:T1 Arg2:T19	
+R2	AGE_IS Arg1:T6 Arg2:T4	
+R3	WORKS_AS Arg1:T6 Arg2:T22	
+R4	MEDICAL_CONDITION Arg1:T6 Arg2:T23	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R6	MEDICAL_CONDITION Arg1:T8 Arg2:T28	
+R7	IDEOLOGY_OF Arg1:T8 Arg2:T27	
+R8	WORKS_AS Arg1:T8 Arg2:T26	
+R9	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R10	WORKPLACE Arg1:T8 Arg2:T12	
+T35	IDEOLOGY 651 684	ужесточение санкций против России
+R11	IDEOLOGY_OF Arg1:T13 Arg2:T35	
+R12	POINT_IN_TIME Arg1:T32 Arg2:T16	
+R13	PARTICIPANT_IN Arg1:T13 Arg2:T32	
+R14	IDEOLOGY_OF Arg1:T18 Arg2:T34	
+R15	WORKS_AS Arg1:T18 Arg2:T17	
+R16	POINT_IN_TIME Arg1:T33 Arg2:T16	
+R17	HAS_CAUSE Arg1:T32 Arg2:T33	
+R18	PARTICIPANT_IN Arg1:T18 Arg2:T33	
+R19	TAKES_PLACE_IN Arg1:T32 Arg2:T14	
+R20	TAKES_PLACE_IN Arg1:T33 Arg2:T14	
+R21	PARTICIPANT_IN Arg1:T13 Arg2:T33	
+R22	ORIGINS_FROM Arg1:T26 Arg2:T7	
+R23	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R24	WORKS_AS Arg1:T13 Arg2:T30	
+R25	WORKPLACE Arg1:T22 Arg2:T5	
+N1	Reference T1 Wikidata:Q10390	Джон Маккейн
+N3	Reference T15 Wikidata:Q159	Россия
+N5	Reference T18 Wikidata:Q76	Барак Обама
+N7	Reference T26 Wikidata:Q82955	политик
+N8	Reference T30 Wikidata:Q82955	политик
+N6	Reference T22 Wikidata:Q4416090	
+N10	Reference T12 Wikidata:Q508577	Комитет Сената США по вооружённым силам
+N2	Reference T14 Wikidata:Q30	США
+N9	Reference T31 Wikidata:Q30461	президент
+N4	Reference T17 Wikidata:Q4416090	
+N11	Reference T13 Wikidata:Q10390	Джон Маккейн
+N12	Reference T8 Wikidata:Q10390	Джон Маккейн
+N13	Reference T11 Wikidata:Q10390	Джон Маккейн
+N14	Reference T2 Wikidata:Q10390	Джон Маккейн
+N15	Reference T6 Wikidata:Q10390	Джон Маккейн
+N16	Reference T7 Wikidata:Q30	США
+N17	Reference T5 Wikidata:Q30	США
+N18	Reference T9 Wikidata:Q30	США
+N19	Reference T25 Wikidata:Q4416090	
+N20	Reference T21 Wikidata:Q4416090	

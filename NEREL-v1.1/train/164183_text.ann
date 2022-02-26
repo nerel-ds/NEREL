@@ -1,0 +1,124 @@
+T1	COUNTRY 2 8	Грузии
+T2	PROFESSION 15 30	премьер-министр
+T3	ORGANIZATION 67 76	Парламент
+T4	DATE 84 110	в среду, 20 июня 2018 года
+T5	PERSON 128 143	Мамуке Бахтадзе
+T6	PROFESSION 165 181	премьер-министра
+T7	PERSON 189 209	Георгия Квирикашвили
+T8	PERSON 231 246	Мамуки Бахтадзе
+T9	PROFESSION 256 272	премьер-министра
+T10	NUMBER 314 316	14
+T11	NUMBER 320 322	11
+T12	PERSON 343 351	Бахтадзе
+T13	ORGANIZATION 475 485	парламенту
+T14	NUMBER 584 586	11
+T15	DATE 588 604	Через три недели
+T16	ORGANIZATION 625 635	парламенту
+T17	PERSON 749 757	Бахтадзе
+T18	PERSON 769 777	Бахтадзе
+T19	PERSON 1108 1116	Бахтадзе
+T20	DATE 1119 1138	На сегодняшний день
+T21	COUNTRY 1141 1147	Грузии
+T22	NUMBER 1163 1164	1
+T23	DATE 1241 1260	в декабре 2017 года
+T24	AGE 1263 1272	36-летний
+T25	PERSON 1273 1288	Мамука Бахтадзе
+T26	ORGANIZATION 1297 1300	ТГУ
+T27	PROFESSION 1348 1366	министром финансов
+T28	DATE 1367 1378	в 2017 году
+T32	ORGANIZATION 67 83	Парламент Грузии
+T33	COUNTRY 77 83	Грузии
+T35	ORDINAL 212 218	Первой
+T37	PROFESSION 256 279	премьер-министра Грузии
+T38	COUNTRY 273 279	Грузии
+T39	PROFESSION 352 363	журналистам
+T40	ORDINAL 436 442	первых
+T41	NUMBER 427 432	Одной
+T42	ORGANIZATION 510 523	правительства
+T45	ORGANIZATION 724 737	правительства
+T46	NUMBER 1148 1150	13
+T47	PROFESSION 1151 1160	министров
+T48	PROFESSION 1165 1177	госминистров
+T49	ORGANIZATION 1329 1332	МГУ
+T50	PROFESSION 1348 1357	министром
+T29	NUMBER 1383 1389	четыре
+T51	ORGANIZATION 1411 1437	Грузинская железная дорога
+R1	WORKPLACE Arg1:T2 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T32 Arg2:T33	
+T31	EVENT 112 127	выразил доверие
+R3	POINT_IN_TIME Arg1:T31 Arg2:T4	
+R4	AGENT Arg1:T32 Arg2:T31	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T31	
+R6	WORKS_AS Arg1:T7 Arg2:T6	
+R7	WORKPLACE Arg1:T7 Arg2:T33	
+R8	WORKPLACE Arg1:T6 Arg2:T33	
+R9	WORKS_AS Arg1:T5 Arg2:T6	
+R10	WORKPLACE Arg1:T5 Arg2:T33	
+R11	WORKPLACE Arg1:T37 Arg2:T38	
+R12	WORKS_AS Arg1:T8 Arg2:T37	
+R13	WORKPLACE Arg1:T8 Arg2:T38	
+T34	ORGANIZATION 398 411	правительству
+T36	ORGANIZATION 304 311	кабмина
+R14	ALTERNATIVE_NAME Arg1:T36 Arg2:T34	
+R15	HEADQUARTERED_IN Arg1:T36 Arg2:T38	
+T44	ORGANIZATION 58 65	кабмина
+R16	HEADQUARTERED_IN Arg1:T44 Arg2:T1	
+R17	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+T43	ORGANIZATION 648 655	кабинет
+R18	ALTERNATIVE_NAME Arg1:T36 Arg2:T43	
+R19	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+T52	ORGANIZATION 844 852	кабинете
+R20	WORKPLACE Arg1:T47 Arg2:T21	
+R21	WORKPLACE Arg1:T48 Arg2:T21	
+R22	AGE_IS Arg1:T25 Arg2:T24	
+R23	SCHOOLS_ATTENDED Arg1:T25 Arg2:T26	
+R24	SCHOOLS_ATTENDED Arg1:T25 Arg2:T49	
+T30	COUNTRY 1411 1421	Грузинская
+R25	HEADQUARTERED_IN Arg1:T51 Arg2:T30	
+R26	WORKS_AS Arg1:T25 Arg2:T27	
+R27	WORKPLACE Arg1:T25 Arg2:T51	
+R28	ALTERNATIVE_NAME Arg1:T21 Arg2:T30	
+T53	EVENT 376 393	выражения доверия
+R29	ALTERNATIVE_NAME Arg1:T31 Arg2:T53	
+R30	PARTICIPANT_IN Arg1:T12 Arg2:T53	
+R31	PARTICIPANT_IN Arg1:T34 Arg2:T53	
+R32	FOUNDED_BY Arg1:T34 Arg2:T12	
+T54	EVENT 1337 1347	назначения
+R33	POINT_IN_TIME Arg1:T54 Arg2:T28	
+R34	PARTICIPANT_IN Arg1:T25 Arg2:T54	
+N1	Reference T3 Wikidata:Q35749	парламент
+N2	Reference T5 Wikidata:Q54982996	Мамука Бахтадзе
+N3	Reference T6 Wikidata:Q14212	премьер-министр
+N4	Reference T7 Wikidata:Q15277881	Георгий Квирикашвили
+N5	Reference T26 Wikidata:Q37008	Тбилисский государственный университет
+N6	Reference T32 Wikidata:Q1417210	Парламент Грузии
+N7	Reference T37 Wikidata:Q1975365	Список премьер-министров Грузии
+N8	Reference T39 Wikidata:Q1930187	журналист
+N9	Reference T45 Wikidata:Q7188	правительство
+N10	Reference T47 Wikidata:Q83307	министр
+N12	Reference T49 Wikidata:Q13164	Московский государственный университет
+N13	Reference T51 Wikidata:Q115880	Грузинская железная дорога
+N11	Reference T48 Wikidata:Q2632935	
+N15	Reference T27 Wikidata:Q7614320	
+N14	Reference T30 Wikidata:Q230	Грузия
+N16	Reference T13 Wikidata:Q35749	парламент
+N17	Reference T16 Wikidata:Q35749	парламент
+N18	Reference T8 Wikidata:Q54982996	Мамука Бахтадзе
+N19	Reference T12 Wikidata:Q54982996	Мамука Бахтадзе
+N20	Reference T19 Wikidata:Q54982996	Мамука Бахтадзе
+N21	Reference T17 Wikidata:Q54982996	Мамука Бахтадзе
+N22	Reference T25 Wikidata:Q54982996	Мамука Бахтадзе
+N23	Reference T18 Wikidata:Q54982996	Мамука Бахтадзе
+N24	Reference T9 Wikidata:Q14212	премьер-министр
+N25	Reference T2 Wikidata:Q14212	премьер-министр
+N26	Reference T44 Wikidata:Q7188	правительство
+N27	Reference T52 Wikidata:Q7188	правительство
+N28	Reference T34 Wikidata:Q7188	правительство
+N29	Reference T42 Wikidata:Q7188	правительство
+N30	Reference T43 Wikidata:Q7188	правительство
+N31	Reference T36 Wikidata:Q7188	правительство
+N32	Reference T50 Wikidata:Q83307	министр
+N33	Reference T38 Wikidata:Q230	Грузия
+N34	Reference T33 Wikidata:Q230	Грузия
+N35	Reference T1 Wikidata:Q230	Грузия
+N36	Reference T21 Wikidata:Q230	Грузия

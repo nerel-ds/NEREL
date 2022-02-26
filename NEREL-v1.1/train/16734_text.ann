@@ -1,0 +1,89 @@
+T1	MONEY 25 42	17,8 млн долларов
+T2	COUNTRY 57 75	Соединенных Штатах
+T5	MONEY 151 168	17,8 млн долларов
+T6	NUMBER 176 183	четверо
+T7	DATE 296 307	в 2008 году
+T8	AGE 318 327	36-летняя
+T9	PERSON 328 340	Йонгми Ли Юн
+T10	AGE 345 363	пятнадцатимесячная
+T11	PERSON 369 374	Грейс
+T12	AGE 376 386	двухлетняя
+T13	PERSON 392 397	Рэчел
+T14	AGE 400 409	59-летняя
+T16	PERSON 415 428	Сеоким Ким Ли
+T17	CITY 492 501	Сан-Диего
+T18	STATE_OR_PROVINCE 508 518	Калифорния
+T19	DATE 543 550	В среду
+T20	ORGANIZATION 663 676	Правительство
+T22	LOCATION 982 1002	побережья Калифорнии
+T23	STATE_OR_PROVINCE 992 1002	Калифорнии
+T24	PROFESSION 76 81	судья
+T3	ORGANIZATION 116 133	правительство США
+T4	COUNTRY 130 133	США
+T25	ORGANIZATION 116 129	правительство
+T26	EVENT 199 206	погибли
+T27	EVENT 279 285	авария
+T15	NUMBER 457 464	четверо
+T28	PROFESSION 551 556	судья
+T21	NUMBER 722 725	три
+T29	EVENT 730 738	процесса
+T30	PROFESSION 895 900	пилот
+T31	ORGANIZATION 966 969	ВМС
+T32	EVENT 1013 1019	аварии
+T33	PROFESSION 1058 1064	пилота
+T34	PROFESSION 76 99	судья федерального суда
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R2	AGE_IS Arg1:T9 Arg2:T8	
+R3	AGE_IS Arg1:T11 Arg2:T10	
+R4	AGE_IS Arg1:T13 Arg2:T12	
+R5	AGE_IS Arg1:T16 Arg2:T14	
+R6	LOCATED_IN Arg1:T17 Arg2:T18	
+R7	EXPENDITURE Arg1:T3 Arg2:T5	
+T35	EVENT 236 264	военный истребитель врезался
+R8	POINT_IN_TIME Arg1:T35 Arg2:T7	
+T36	EVENT 310 317	Погибли
+T37	EVENT 520 540	упал военный самолет
+R9	ABBREVIATION Arg1:T37 Arg2:T17	
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T36	
+R11	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R12	HAS_CAUSE Arg1:T36 Arg2:T35	
+R13	PARTICIPANT_IN Arg1:T11 Arg2:T36	
+R14	PARTICIPANT_IN Arg1:T13 Arg2:T36	
+R15	PARTICIPANT_IN Arg1:T16 Arg2:T36	
+R16	PARENT_OF Arg1:T9 Arg2:T11	
+R17	PARENT_OF Arg1:T9 Arg2:T13	
+R18	PARENT_OF Arg1:T16 Arg2:T9	
+R19	SIBLING Arg1:T11 Arg2:T13	
+R20	RELATIVE Arg1:T10 Arg2:T16	
+R21	RELATIVE Arg1:T13 Arg2:T16	
+R22	LOCATED_IN Arg1:T22 Arg2:T23	
+R23	PARTICIPANT_IN Arg1:T30 Arg2:T37	
+R24	ALTERNATIVE_NAME Arg1:T35 Arg2:T27	
+R25	POINT_IN_TIME Arg1:T27 Arg2:T7	
+T38	EVENT 465 472	сгорели
+R26	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R27	PLACE_RESIDES_IN Arg1:T9 Arg2:T17	
+R28	PLACE_RESIDES_IN Arg1:T11 Arg2:T17	
+R29	PLACE_RESIDES_IN Arg1:T16 Arg2:T17	
+R30	PLACE_RESIDES_IN Arg1:T13 Arg2:T17	
+R31	PLACE_RESIDES_IN Arg1:T16 Arg2:T17	
+N1	Reference T2 Wikidata:Q35657	штат США
+N6	Reference T17 Wikidata:Q16552	Сан-Диего
+N7	Reference T18 Wikidata:Q99	Калифорния
+N9	Reference T24 Wikidata:Q16533	судья
+N11	Reference T4 Wikidata:Q30	США
+N12	Reference T25 Wikidata:Q7188	правительство
+N13	Reference T30 Wikidata:Q2095549	лётчик
+N15	Reference T34 Wikidata:Q1006696	
+N10	Reference T3 Wikidata:Q48525	
+N2	Reference T9 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:NULL	нет данных
+N14	Reference T31 Wikidata:Q11220	Военно-морские силы США
+N8	Reference T22 Wikidata:NULL	нет данных
+N16	Reference T23 Wikidata:Q99	Калифорния
+N17	Reference T28 Wikidata:Q16533	судья
+N18	Reference T20 Wikidata:Q7188	правительство
+N19	Reference T33 Wikidata:Q2095549	лётчик
+R32	HAS_CAUSE Arg1:T26 Arg2:T35	

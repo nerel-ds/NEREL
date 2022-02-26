@@ -1,0 +1,95 @@
+T1	AWARD 7 18	Golden Foot
+T2	PERSON 27 42	Франческо Тотти
+T3	DATE 45 75	В понедельник, 11 октября 2010
+T4	CITY 79 90	Монте-Карло
+T7	AWARD 141 152	Golden Foot
+T8	AGE 192 205	старше 29 лет
+T9	DATE 284 295	В этом году
+T10	NATIONALITY 335 344	итальянец
+T11	PERSON 345 360	Франческо Тотти
+T13	ORGANIZATION 391 395	Ромы
+T14	AWARD 409 420	Golden Foot
+T15	DATE 435 446	с 2003 года
+T16	DATE 459 467	ежегодно
+T17	PERSON 528 541	Роберто Баджо
+T18	PERSON 550 562	Павел Недвед
+T19	PERSON 571 586	Андрей Шевченко
+T20	PERSON 595 602	Роналдо
+T21	PERSON 611 632	Алессандро дель Пьеро
+T22	DATE 634 638	2007
+T23	PERSON 641 655	Роберто Карлос
+T24	PERSON 665 675	Роналдиньо
+T25	ORGANIZATION 769 780	Golden Foot
+T26	NUMBER 855 857	50
+T27	DATE 900 911	В этом году
+T28	PERSON 915 930	Франческо Тотти
+T29	NUMBER 949 955	25 738
+T30	NUMBER 973 980	155 686
+T31	ORDINAL 1001 1007	втором
+T32	PERSON 1023 1028	Рауль
+T33	NUMBER 1031 1037	23 693
+T34	ORDINAL 1053 1060	третьем
+T35	PERSON 1074 1086	Дэвид Бекхэм
+T36	NUMBER 1098 1104	15 049
+T5	PROFESSION 182 191	футболист
+T6	DATE 543 547	2003
+T37	DATE 564 568	2004
+T38	DATE 588 592	2005
+T39	DATE 604 608	2006
+T40	DATE 657 661	2008
+T41	DATE 677 681	2009
+T42	EVENT 19 26	вручена
+T43	CITY 382 389	римской
+T45	PROFESSION 858 869	футболистов
+T12	PROFESSION 374 395	капитан римской «Ромы
+R1	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R2	AWARDED_WITH Arg1:T2 Arg2:T1	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T42	
+R4	WORKPLACE Arg1:T12 Arg2:T13	
+R5	HEADQUARTERED_IN Arg1:T13 Arg2:T43	
+R6	WORKS_AS Arg1:T11 Arg2:T12	
+R7	WORKPLACE Arg1:T11 Arg2:T13	
+T46	EVENT 98 116	церемония вручения
+R8	ALTERNATIVE_NAME Arg1:T42 Arg2:T46	
+R9	TAKES_PLACE_IN Arg1:T46 Arg2:T4	
+R10	POINT_IN_TIME Arg1:T46 Arg2:T3	
+R11	AGE_IS Arg1:T5 Arg2:T8	
+R12	WORKS_AS Arg1:T11 Arg2:T5	
+R13	AGE_IS Arg1:T11 Arg2:T8	
+R14	DATE_OF_CREATION Arg1:T14 Arg2:T15	
+R15	AWARDED_WITH Arg1:T17 Arg2:T14	
+R16	AWARDED_WITH Arg1:T18 Arg2:T14	
+R17	AWARDED_WITH Arg1:T19 Arg2:T14	
+R18	AWARDED_WITH Arg1:T19 Arg2:T14	
+R19	AWARDED_WITH Arg1:T20 Arg2:T14	
+R20	AWARDED_WITH Arg1:T21 Arg2:T14	
+R21	AWARDED_WITH Arg1:T23 Arg2:T14	
+R22	AWARDED_WITH Arg1:T24 Arg2:T14	
+R23	WORKS_AS Arg1:T28 Arg2:T45	
+R24	WORKS_AS Arg1:T32 Arg2:T45	
+R25	WORKS_AS Arg1:T35 Arg2:T45	
+R26	INANIMATE_INVOLVED Arg1:T1 Arg2:T42	
+R27	INANIMATE_INVOLVED Arg1:T7 Arg2:T46	
+N1	Reference T4 Wikidata:Q45240	Монте-Карло
+N2	Reference T7 Wikidata:Q83710	Golden Foot
+N3	Reference T10 Wikidata:Q50001	итальянцы
+N4	Reference T11 Wikidata:Q20110	Франческо Тотти
+N5	Reference T13 Wikidata:Q2739	Рома
+N6	Reference T17 Wikidata:Q67964	Роберто Баджо
+N7	Reference T18 Wikidata:Q171295	Павел Недвед
+N8	Reference T19 Wikidata:Q41244	Андрей Николаевич Шевченко
+N9	Reference T20 Wikidata:Q529207	Роналдо
+N10	Reference T21 Wikidata:Q624	Алесандро Дель Пьеро
+N11	Reference T23 Wikidata:Q429039	Роберто Карлос
+N12	Reference T24 Wikidata:Q39444	Роналдиньо
+N13	Reference T25 Wikidata:Q83710	Golden Foot
+N14	Reference T32 Wikidata:Q11576	Рауль Гонсалес
+N15	Reference T35 Wikidata:Q10520	Дэвид Бекхэм
+N16	Reference T5 Wikidata:Q937857	футболист
+N18	Reference T12 Wikidata:NULL	нет данных
+N17	Reference T43 Wikidata:Q220	Рим
+N19	Reference T14 Wikidata:Q83710	Golden Foot
+N20	Reference T1 Wikidata:Q83710	Golden Foot
+N21	Reference T28 Wikidata:Q20110	Франческо Тотти
+N22	Reference T2 Wikidata:Q20110	Франческо Тотти
+N23	Reference T45 Wikidata:Q937857	футболист

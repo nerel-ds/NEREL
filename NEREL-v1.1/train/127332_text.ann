@@ -1,0 +1,188 @@
+T1	PERSON 11 25	Юлия Липницкая
+T3	AGE 46 52	19 лет
+T4	PERSON 53 67	Юлия Липницкая
+T5	PROFESSION 77 88	президентом
+T6	PERSON 92 109	Аделина Сотникова
+T7	PERSON 112 130	Владимиром Путиным
+T8	PERSON 163 177	Юлия Липницкая
+T10	AGE 198 204	19 лет
+T12	PERSON 311 328	Даниела Липницкая
+T13	ORGANIZATION 339 384	Федерации фигурного катания на коньках России
+T14	ORGANIZATION 386 391	ФФККР
+T15	PERSON 486 490	Юлия
+T16	DATE 526 534	в апреле
+T17	LOCATION 563 569	Европы
+T18	DATE 585 597	трехмесячное
+T19	ORGANIZATION 644 653	Телеспорт
+T20	PERSON 672 676	Юлии
+T21	PROFESSION 848 863	Президент ФФККР
+T22	PERSON 864 881	Александр Горшков
+T23	PERSON 904 908	Юлия
+T24	COUNTRY 967 973	России
+T25	PERSON 1078 1082	Юлии
+T26	PROFESSION 1112 1136	Почетный президент ФФККР
+T27	PERSON 1137 1152	Валентин Писеев
+T28	PERSON 1376 1393	Евгения Медведева
+T29	PERSON 1395 1410	Елена Радионова
+T30	PERSON 1412 1426	Алина Загитова
+T31	PERSON 1444 1453	Липницкой
+T32	DATE 1463 1479	За день до этого
+T34	DATE 1489 1494	вчера
+T35	PERSON 1535 1552	Аделина Сотникова
+T36	NUMBER 1612 1615	две
+T37	COUNTRY 1699 1708	корейском
+T38	CITY 1709 1718	Пхёнчхане
+T39	PERSON 1721 1735	Юлия Липницкая
+T40	CITY 1752 1756	Сочи
+T41	DATE 1857 1861	2013
+T42	DATE 1898 1909	в 2016 году
+T43	CITY 1913 1923	московском
+T44	PROFESSION 0 10	Фигуристка
+T45	COUNTRY 89 91	РФ
+T46	PROFESSION 77 91	президентом РФ
+T48	CITY 153 157	Сочи
+T49	DATE 158 162	2014
+T47	AWARD 131 152	Олимпийская чемпионка
+T50	PROFESSION 207 217	Фигуристка
+T51	PROFESSION 299 310	спортсменки
+T11	DISEASE 269 278	анорексии
+T53	COUNTRY 378 384	России
+T54	COUNTRY 432 438	России
+T55	ORGANIZATION 424 438	сборной России
+T57	EVENT 1930 1938	Гран-при
+T58	EVENT 1848 1856	Гран-при
+T59	EVENT 1796 1823	чемпионата Европы 2014 года
+T60	DATE 1814 1823	2014 года
+T61	AWARD 1743 1756	золота в Сочи
+T62	AWARD 1763 1786	серебро чемпионата мира
+T63	AWARD 1789 1823	золото чемпионата Европы 2014 года
+T64	EVENT 1771 1786	чемпионата мира
+T65	AWARD 1833 1856	серебро финала Гран-при
+T66	EVENT 1841 1856	финала Гран-при
+T67	CITY 1643 1647	Сочи
+T68	DATE 1648 1652	2014
+T69	EVENT 1563 1594	приостановке спортивной карьеры
+T70	AWARD 1503 1524	олимпийская чемпионка
+T71	CITY 1525 1529	Сочи
+T72	DATE 1530 1534	2014
+T73	PROFESSION 1616 1626	фигуристки
+T33	ORGANIZATION 1131 1136	ФФККР
+T74	ORGANIZATION 858 863	ФФККР
+T75	DISEASE 609 618	анорексии
+T76	ORGANIZATION 951 973	сборной команды России
+R1	AGE_IS Arg1:T1 Arg2:T3	
+R2	WORKS_AS Arg1:T1 Arg2:T44	
+R4	WORKPLACE Arg1:T46 Arg2:T45	
+R6	AGE_IS Arg1:T8 Arg2:T10	
+T77	EVENT 153 162	Сочи-2014
+R7	PARTICIPANT_IN Arg1:T8 Arg2:T77	
+R8	MEDICAL_CONDITION Arg1:T8 Arg2:T11	
+R9	PARENT_OF Arg1:T12 Arg2:T51	
+R10	WORKS_AS Arg1:T8 Arg2:T51	
+R11	PARENT_OF Arg1:T12 Arg2:T8	
+R12	ABBREVIATION Arg1:T13 Arg2:T14	
+R13	HEADQUARTERED_IN Arg1:T13 Arg2:T53	
+R14	HEADQUARTERED_IN Arg1:T55 Arg2:T54	
+R15	ALTERNATIVE_NAME Arg1:T8 Arg2:T15	
+R16	MEDICAL_CONDITION Arg1:T15 Arg2:T75	
+R17	WORKS_AS Arg1:T22 Arg2:T21	
+R18	WORKPLACE Arg1:T21 Arg2:T74	
+R19	HEADQUARTERED_IN Arg1:T76 Arg2:T24	
+R20	WORKPLACE Arg1:T23 Arg2:T76	
+R21	AWARDED_WITH Arg1:T39 Arg2:T61	
+R22	AWARDED_WITH Arg1:T39 Arg2:T62	
+R23	AWARDED_WITH Arg1:T39 Arg2:T63	
+R24	AWARDED_WITH Arg1:T39 Arg2:T65	
+R25	PARTICIPANT_IN Arg1:T39 Arg2:T57	
+R26	TAKES_PLACE_IN Arg1:T57 Arg2:T43	
+R27	POINT_IN_TIME Arg1:T57 Arg2:T42	
+R28	WORKS_AS Arg1:T8 Arg2:T50	
+R31	POINT_IN_TIME Arg1:T77 Arg2:T49	
+R32	TAKES_PLACE_IN Arg1:T77 Arg2:T48	
+T52	PROFESSION 1112 1130	Почетный президент
+R33	WORKS_AS Arg1:T27 Arg2:T26	
+R34	WORKPLACE Arg1:T26 Arg2:T33	
+R35	PARTICIPANT_IN Arg1:T35 Arg2:T69	
+T78	EVENT 1525 1534	Сочи-2014
+T79	EVENT 1643 1652	Сочи-2014
+R36	TAKES_PLACE_IN Arg1:T78 Arg2:T71	
+R37	POINT_IN_TIME Arg1:T78 Arg2:T72	
+R38	PARTICIPANT_IN Arg1:T35 Arg2:T78	
+R39	POINT_IN_TIME Arg1:T69 Arg2:T32	
+R40	TAKES_PLACE_IN Arg1:T79 Arg2:T67	
+R41	POINT_IN_TIME Arg1:T79 Arg2:T68	
+T80	EVENT 1684 1696	зимних играх
+R42	TAKES_PLACE_IN Arg1:T80 Arg2:T38	
+R43	LOCATED_IN Arg1:T38 Arg2:T37	
+R44	PARTICIPANT_IN Arg1:T73 Arg2:T79	
+R45	PARTICIPANT_IN Arg1:T39 Arg2:T64	
+R46	PARTICIPANT_IN Arg1:T39 Arg2:T59	
+R47	SUBEVENT_OF Arg1:T66 Arg2:T58	
+R48	POINT_IN_TIME Arg1:T58 Arg2:T41	
+R49	POINT_IN_TIME Arg1:T66 Arg2:T41	
+T81	DISEASE 1976 1982	травмы
+R50	MEDICAL_CONDITION Arg1:T39 Arg2:T81	
+R51	ORIGINS_FROM Arg1:T61 Arg2:T40	
+R52	ORIGINS_FROM Arg1:T62 Arg2:T64	
+R53	ORIGINS_FROM Arg1:T63 Arg2:T59	
+R54	POINT_IN_TIME Arg1:T59 Arg2:T60	
+R55	ALTERNATIVE_NAME Arg1:T23 Arg2:T31	
+T2	AWARD 131 162	Олимпийская чемпионка Сочи-2014
+R3	AWARDED_WITH Arg1:T8 Arg2:T2	
+R5	ORIGINS_FROM Arg1:T65 Arg2:T66	
+R29	ORIGINS_FROM Arg1:T70 Arg2:T78	
+R30	AWARDED_WITH Arg1:T35 Arg2:T70	
+R56	ORIGINS_FROM Arg1:T2 Arg2:T77	
+N1	Reference T1 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N2	Reference T5 Wikidata:Q30461	президент
+N3	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T24 Wikidata:Q159	Россия
+N12	Reference T27 Wikidata:Q4363613	Писеев, Валентин Николаевич
+N14	Reference T29 Wikidata:Q1964157	Радионова, Елена Игоревна
+N15	Reference T30 Wikidata:Q26910816	Алина Ильназовна Загитова
+N16	Reference T35 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N17	Reference T38 Wikidata:Q188624	Пхёнчхан
+N18	Reference T40 Wikidata:Q39420	Сочи
+N21	Reference T45 Wikidata:Q159	Россия
+N22	Reference T46 Wikidata:Q218295	президент Российской Федерации
+N23	Reference T47 Wikidata:Q4333889	олимпийский чемпион
+N20	Reference T44 Wikidata:Q13219587	
+N30	Reference T2 Wikidata:NULL	нет данных
+N31	Reference T51 Wikidata:Q2066131	спортсмен
+N4	Reference T12 Wikidata:NULL	нет данных
+N24	Reference T55 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:Q46	Европа
+N6	Reference T19 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q1393578	
+N28	Reference T76 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N29	Reference T52 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N32	Reference T33 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:Q14756776	Евгения Армановна Медведева
+N33	Reference T37 Wikidata:Q884	Республика Корея
+N25	Reference T61 Wikidata:NULL	нет данных
+N34	Reference T62 Wikidata:NULL	нет данных
+N26	Reference T63 Wikidata:NULL	нет данных
+N27	Reference T65 Wikidata:NULL	нет данных
+N19	Reference T43 Wikidata:Q649	Москва
+N35	Reference T8 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N36	Reference T15 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N37	Reference T4 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N38	Reference T39 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N39	Reference T54 Wikidata:Q159	Россия
+N40	Reference T53 Wikidata:Q159	Россия
+N41	Reference T6 Wikidata:Q355113	Сотникова, Аделина Дмитриевна
+N42	Reference T71 Wikidata:Q39420	Сочи
+N43	Reference T67 Wikidata:Q39420	Сочи
+N44	Reference T48 Wikidata:Q39420	Сочи
+N45	Reference T70 Wikidata:Q4333889	олимпийский чемпион
+N46	Reference T50 Wikidata:Q13219587	
+N47	Reference T73 Wikidata:Q13219587	
+N48	Reference T31 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N49	Reference T20 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N50	Reference T23 Wikidata:Q4262660	Юлия Вячеславовна Липницкая
+N51	Reference T13 Wikidata:NULL	нет данных
+N52	Reference T14 Wikidata:NULL	нет данных
+N53	Reference T74 Wikidata:NULL	нет данных

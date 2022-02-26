@@ -1,0 +1,176 @@
+T1	PERSON 5 11	Ли Пэн
+T3	PERSON 55 61	Ли Пэн
+T5	CITY 98 104	Пекине
+T6	PERSON 110 116	Ли Пэн
+T7	PERSON 127 139	Цзян Цзэминя
+T8	PROFESSION 141 148	премьер
+T13	DATE 301 317	свыше десяти лет
+T14	COUNTRY 371 376	Китая
+T15	AGE 423 429	90 лет
+T16	ORGANIZATION 456 480	Центрального телевидения
+T17	DATE 482 489	22 июля
+T18	TIME 482 519	22 июля в 23:11 по пекинскому времени
+T19	PERSON 522 528	Ли Пэн
+T20	PERSON 674 680	Ли Пэн
+T22	ORGANIZATION 705 728	Коммунистической партии
+T23	PERSON 825 831	Ли Пэн
+T24	CITY 974 980	Пекине
+T25	DATE 1020 1036	20 мая 1989 года
+T26	DATE 1068 1090	Через несколько недель
+T27	TIME 1091 1116	в ночь с 3 на 4 июня 1989
+T28	DATE 1098 1116	с 3 на 4 июня 1989
+T30	NUMBER 1185 1199	от 200 до 1000
+T32	PERSON 1283 1289	Ли Пэн
+T33	COUNTRY 1357 1364	Австрию
+T34	COUNTRY 1470 1475	Китай
+T36	COUNTRY 1538 1553	Советском Союзе
+T37	LOCATION 1558 1574	Восточной Европе
+T38	EVENT 0 4	Умер
+T39	FACILITY 36 54	площади Тянаньмэнь
+T40	EVENT 24 54	расправы на площади Тянаньмэнь
+T41	EVENT 105 109	умер
+T43	ORGANIZATION 149 178	Государственного совета Китая
+T44	COUNTRY 173 178	Китая
+T45	PROFESSION 141 178	премьер Государственного совета Китая
+T46	ORGANIZATION 211 278	Постоянного комитета Всекитайского собрания народных представителей
+T47	PROFESSION 198 278	председатель Постоянного комитета Всекитайского собрания народных представителей
+T50	ORGANIZATION 149 172	Государственного совета
+T51	ORGANIZATION 232 278	Всекитайского собрания народных представителей
+T52	IDEOLOGY 346 363	коммунистического
+T53	PROFESSION 405 413	Чиновник
+T54	EVENT 432 441	скончался
+T55	CITY 501 511	пекинскому
+T56	DISEASE 540 567	онкологического заболевания
+T57	EVENT 602 608	смерти
+T58	PROFESSION 609 618	чиновника
+T59	DISEASE 629 636	инфаркт
+T60	ORGANIZATION 705 734	Коммунистической партии Китая
+T61	COUNTRY 729 734	Китая
+T63	IDEOLOGY 705 721	Коммунистической
+T64	IDEOLOGY 759 775	коммунистическим
+T66	PROFESSION 808 822	революционером
+T67	CITY 846 855	пекинский
+T68	IDEOLOGY 961 971	демократию
+T69	DATE 981 997	4 июня 1989 года
+T70	EVENT 937 957	массовых выступлений
+T71	EVENT 1011 1019	протесты
+T72	PERSON 1037 1043	Ли Пэн
+T29	PROFESSION 1122 1129	военные
+T74	EVENT 1139 1153	акции протеста
+T31	EVENT 1328 1337	репрессии
+T78	PERSON 1377 1383	Ли Пэн
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T38	
+R2	TAKES_PLACE_IN Arg1:T40 Arg2:T39	
+R3	ORGANIZES Arg1:T1 Arg2:T40	
+R4	TAKES_PLACE_IN Arg1:T41 Arg2:T5	
+R6	PARTICIPANT_IN Arg1:T6 Arg2:T41	
+R7	KNOWS Arg1:T6 Arg2:T7	
+R8	WORKPLACE Arg1:T45 Arg2:T44	
+R10	HEADQUARTERED_IN Arg1:T43 Arg2:T44	
+R12	WORKPLACE Arg1:T45 Arg2:T43	
+T42	COUNTRY 232 245	Всекитайского
+R13	ALTERNATIVE_NAME Arg1:T44 Arg2:T42	
+R14	PART_OF Arg1:T46 Arg2:T51	
+R18	ALTERNATIVE_NAME Arg1:T42 Arg2:T14	
+R19	IDEOLOGY_OF Arg1:T14 Arg2:T52	
+R20	PARTICIPANT_IN Arg1:T53 Arg2:T54	
+R21	POINT_IN_TIME Arg1:T54 Arg2:T18	
+R22	MEDICAL_CONDITION Arg1:T19 Arg2:T56	
+R23	AGE_DIED_AT Arg1:T53 Arg2:T15	
+R24	ALTERNATIVE_NAME Arg1:T54 Arg2:T57	
+R25	ALTERNATIVE_NAME Arg1:T41 Arg2:T54	
+R26	PARTICIPANT_IN Arg1:T58 Arg2:T57	
+R27	CAUSE_OF_DEATH Arg1:T58 Arg2:T59	
+R28	HAS_CAUSE Arg1:T57 Arg2:T59	
+R29	HEADQUARTERED_IN Arg1:T60 Arg2:T61	
+R30	IDEOLOGY_OF Arg1:T22 Arg2:T63	
+R32	MEMBER_OF Arg1:T20 Arg2:T60	
+R35	WORKS_AS Arg1:T20 Arg2:T66	
+T48	EVENT 917 936	жестоком подавлении
+R36	HAS_CAUSE Arg1:T48 Arg2:T70	
+R37	TAKES_PLACE_IN Arg1:T70 Arg2:T24	
+R38	POINT_IN_TIME Arg1:T70 Arg2:T69	
+R39	IDEOLOGY_OF Arg1:T70 Arg2:T68	
+R40	ALTERNATIVE_NAME Arg1:T67 Arg2:T24	
+R41	ORGANIZES Arg1:T23 Arg2:T48	
+T49	EVENT 1049 1066	военное положение
+R42	HAS_CAUSE Arg1:T49 Arg2:T71	
+R43	ORGANIZES Arg1:T72 Arg2:T49	
+R44	POINT_IN_TIME Arg1:T49 Arg2:T25	
+T73	EVENT 1130 1138	подавили
+R45	AGENT Arg1:T29 Arg2:T73	
+R46	HAS_CAUSE Arg1:T73 Arg2:T74	
+R47	POINT_IN_TIME Arg1:T73 Arg2:T27	
+T75	EVENT 1179 1207	убили от 200 до 1000 человек
+R48	SUBEVENT_OF Arg1:T75 Arg2:T73	
+R49	ALTERNATIVE_NAME Arg1:T48 Arg2:T73	
+R50	ALTERNATIVE_NAME Arg1:T73 Arg2:T31	
+T79	EVENT 393 402	репрессий
+R54	TAKES_PLACE_IN Arg1:T79 Arg2:T14	
+T77	DATE 1365 1376	в 1994 году
+T80	FACILITY 44 54	Тянаньмэнь
+R9	WORKS_AS Arg1:T6 Arg2:T45	
+R16	WORKS_AS Arg1:T6 Arg2:T47	
+R15	WORKPLACE Arg1:T47 Arg2:T46	
+R17	WORKPLACE Arg1:T6 Arg2:T46	
+T2	DATE 179 196	в 1988—1998 годах
+T9	DATE 279 296	в 1998—2003 годах
+R52	ORGANIZES Arg1:T32 Arg2:T31	
+T4	DATE 62 94	В понедельник, 22 июля 2019 года
+R5	POINT_IN_TIME Arg1:T41 Arg2:T4	
+R11	DATE_OF_DEATH Arg1:T6 Arg2:T4	
+R55	WORKS_AS Arg1:T6 Arg2:T53	
+R31	IDEOLOGY_OF Arg1:T20 Arg2:T63	
+R33	IDEOLOGY_OF Arg1:T6 Arg2:T52	
+R34	AGE_DIED_AT Arg1:T6 Arg2:T15	
+R56	CAUSE_OF_DEATH Arg1:T19 Arg2:T59	
+R57	ALTERNATIVE_NAME Arg1:T70 Arg2:T71	
+T10	EVENT 1347 1354	поездки
+R51	AGENT Arg1:T78 Arg2:T10	
+R53	TAKES_PLACE_IN Arg1:T10 Arg2:T33	
+R58	POINT_IN_TIME Arg1:T10 Arg2:T77	
+T11	LOCATION 1568 1574	Европе
+R59	LOCATED_IN Arg1:T37 Arg2:T11	
+R60	WORKPLACE Arg1:T6 Arg2:T43	
+R61	HEADQUARTERED_IN Arg1:T16 Arg2:T14	
+R62	CAUSE_OF_DEATH Arg1:T19 Arg2:T59	
+R63	WORKS_AS Arg1:T19 Arg2:T58	
+N1	Reference T1 Wikidata:Q18301	Ли Пэн
+N2	Reference T7 Wikidata:Q16597	Цзян Цзэминь
+N3	Reference T8 Wikidata:Q14212	премьер-министр
+N4	Reference T16 Wikidata:Q16715449	Центральное телевидение
+N5	Reference T22 Wikidata:Q233591	коммунистическая партия
+N6	Reference T24 Wikidata:Q956	Пекин
+N7	Reference T33 Wikidata:Q40	Австрия
+N8	Reference T36 Wikidata:Q15180	СССР
+N9	Reference T37 Wikidata:Q27468	Восточная Европа
+N10	Reference T39 Wikidata:Q164055	Площадь Тяньаньмэнь
+N12	Reference T46 Wikidata:Q19214	Постоянный комитет Всекитайского собрания народных представителей
+N14	Reference T51 Wikidata:Q19211	Всекитайское собрание народных представителей
+N15	Reference T53 Wikidata:Q382887	чиновник
+N16	Reference T60 Wikidata:Q17427	Коммунистическая партия Китая
+N17	Reference T66 Wikidata:Q3242115	революционер
+N18	Reference T29 Wikidata:Q47064	военнослужащий
+N20	Reference T80 Wikidata:Q164055	Площадь Тяньаньмэнь
+N11	Reference T43 Wikidata:Q59261	Государственный совет КНР
+N22	Reference T45 Wikidata:Q4122271	
+N13	Reference T50 Wikidata:Q3687335	
+N19	Reference T42 Wikidata:Q148	Китайская Народная Республика
+N23	Reference T47 Wikidata:Q3408540	
+N21	Reference T11 Wikidata:Q46	Европа
+N24	Reference T20 Wikidata:Q18301	Ли Пэн
+N25	Reference T23 Wikidata:Q18301	Ли Пэн
+N26	Reference T19 Wikidata:Q18301	Ли Пэн
+N27	Reference T32 Wikidata:Q18301	Ли Пэн
+N28	Reference T72 Wikidata:Q18301	Ли Пэн
+N29	Reference T3 Wikidata:Q18301	Ли Пэн
+N30	Reference T78 Wikidata:Q18301	Ли Пэн
+N31	Reference T6 Wikidata:Q18301	Ли Пэн
+N32	Reference T55 Wikidata:Q956	Пекин
+N33	Reference T5 Wikidata:Q956	Пекин
+N34	Reference T67 Wikidata:Q956	Пекин
+N35	Reference T58 Wikidata:Q382887	чиновник
+N36	Reference T44 Wikidata:Q148	Китайская Народная Республика
+N37	Reference T14 Wikidata:Q148	Китайская Народная Республика
+N38	Reference T34 Wikidata:Q148	Китайская Народная Республика
+N39	Reference T61 Wikidata:Q148	Китайская Народная Республика

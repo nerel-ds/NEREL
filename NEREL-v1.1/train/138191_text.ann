@@ -1,0 +1,124 @@
+T1	PROFESSION 15 32	президента Йемена
+T2	PERSON 68 85	Али Абдалла Салех
+T3	PROFESSION 93 109	президент Йемена
+T4	PERSON 110 127	Али Абдалла Салех
+T5	DATE 150 184	в понедельник, 4 декабря 2017 года
+T6	PROFESSION 311 346	лидер Всеобщего народного конгресса
+T7	PERSON 347 361	Файка аль-Саид
+T8	PERSON 382 388	Салеха
+T9	AGE 442 451	75-летний
+T10	COUNTRY 465 472	Йеменом
+T11	DATE 473 491	более тридцати лет
+T12	DATE 493 504	В 2012 году
+T13	COUNTRY 705 709	Иран
+T14	DATE 712 722	За два дня
+T15	PERSON 733 739	Салеха
+T16	DATE 771 801	В субботу, 2 декабря 2017 года
+T17	PERSON 803 808	Салех
+T18	COUNTRY 875 893	Саудовской Аравией
+T19	DATE 942 955	в понедельник
+T20	PERSON 991 996	Салех
+T21	COUNTRY 1011 1028	Саудовскую Аравию
+T22	DATE 1174 1188	три года назад
+T23	PROFESSION 1225 1242	президента страны
+T24	PERSON 1243 1265	Абду Рабу Мансура Хади
+T25	COUNTRY 1344 1362	Саудовской Аравией
+T26	PERSON 1390 1395	Салех
+T27	COUNTRY 1421 1430	йеменских
+T28	PERSON 1559 1565	Салеха
+T29	DATE 1575 1592	на прошлой неделе
+T31	CITY 1661 1665	Сане
+T32	PROFESSION 1701 1738	командира сил специального назначения
+T33	PERSON 1739 1752	Тарека Салеха
+T34	COUNTRY 26 32	Йемена
+T35	COUNTRY 103 109	Йемена
+T36	PROFESSION 238 246	политика
+T37	EVENT 132 136	убит
+T38	ORGANIZATION 317 346	Всеобщего народного конгресса
+T39	IDEOLOGY 400 404	хути
+T40	IDEOLOGY 406 414	хуситами
+T41	RELIGION 417 426	шиитскими
+T42	IDEOLOGY 427 438	повстанцами
+T43	CRIME 373 388	убийстве Салеха
+T44	IDEOLOGY 389 399	мятежников
+T45	PERSON 452 457	Салех
+T46	EVENT 512 534	отстранён от должности
+T47	IDEOLOGY 678 682	хути
+T48	IDEOLOGY 837 841	хути
+T49	IDEOLOGY 896 905	Мятежники
+T50	IDEOLOGY 1545 1549	хути
+T51	EVENT 982 990	убийства
+T30	IDEOLOGY 1611 1621	мятежников
+R1	PARTICIPANT_IN Arg1:T4 Arg2:T37	
+R2	PARTICIPANT_IN Arg1:T8 Arg2:T43	
+R3	AGE_IS Arg1:T45 Arg2:T9	
+R4	WORKPLACE Arg1:T45 Arg2:T10	
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	WORKPLACE Arg1:T7 Arg2:T38	
+R7	PARTICIPANT_IN Arg1:T45 Arg2:T46	
+R8	POINT_IN_TIME Arg1:T46 Arg2:T12	
+R9	WORKPLACE Arg1:T1 Arg2:T34	
+T52	PROFESSION 93 102	президент
+R10	WORKPLACE Arg1:T3 Arg2:T35	
+R11	WORKS_AS Arg1:T4 Arg2:T3	
+R12	WORKPLACE Arg1:T4 Arg2:T35	
+R13	WORKS_AS Arg1:T4 Arg2:T36	
+R14	WORKPLACE Arg1:T6 Arg2:T38	
+T53	CRIME 373 381	убийстве
+R15	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R16	PARTICIPANT_IN Arg1:T39 Arg2:T43	
+T54	EVENT 726 732	смерти
+R17	PARTICIPANT_IN Arg1:T15 Arg2:T54	
+R18	PARTICIPANT_IN Arg1:T20 Arg2:T51	
+R19	WORKS_AS Arg1:T24 Arg2:T23	
+R20	WORKS_AS Arg1:T33 Arg2:T32	
+R21	RELATIVE Arg1:T28 Arg2:T33	
+R22	ALTERNATIVE_NAME Arg1:T10 Arg2:T27	
+R23	TAKES_PLACE_IN Arg1:T46 Arg2:T10	
+T55	EVENT 1266 1282	бежать из страны
+R24	AGENT Arg1:T24 Arg2:T55	
+R25	POINT_IN_TIME Arg1:T55 Arg2:T22	
+R26	TAKES_PLACE_IN Arg1:T55 Arg2:T10	
+T56	PROFESSION 15 25	президента
+T57	EVENT 61 67	гибели
+R27	PARTICIPANT_IN Arg1:T1 Arg2:T57	
+R28	ALTERNATIVE_NAME Arg1:T57 Arg2:T37	
+T58	EVENT 253 258	погиб
+R29	ALTERNATIVE_NAME Arg1:T37 Arg2:T58	
+R30	PARTICIPANT_IN Arg1:T8 Arg2:T58	
+R31	ALTERNATIVE_NAME Arg1:T58 Arg2:T54	
+T59	EVENT 1046 1052	гибель
+R32	PARTICIPANT_IN Arg1:T20 Arg2:T59	
+R33	TAKES_PLACE_IN Arg1:T55 Arg2:T10	
+R34	LOCATED_IN Arg1:T31 Arg2:T10	
+N1	Reference T1 Wikidata:Q878256	президент Йемена
+N2	Reference T4 Wikidata:Q483672	Салех, Али Абдалла
+N5	Reference T13 Wikidata:Q794	Иран
+N6	Reference T18 Wikidata:Q851	Саудовская Аравия
+N10	Reference T27 Wikidata:Q805	Йемен
+N13	Reference T36 Wikidata:Q82955	политик
+N14	Reference T38 Wikidata:Q1460677	Всеобщий народный конгресс Йемена
+N15	Reference T41 Wikidata:Q9585	шиизм
+N16	Reference T56 Wikidata:Q30461	президент
+N3	Reference T6 Wikidata:NULL	Всеобщий народный конгресс Йемена
+N4	Reference T7 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:Q878256	президент Йемена
+N8	Reference T24 Wikidata:Q57480	
+N9	Reference T26 Wikidata:Q483672	Салех, Али Абдалла
+N17	Reference T31 Wikidata:Q2471	
+N12	Reference T33 Wikidata:Q22683225	
+N11	Reference T32 Wikidata:NULL	нет данных
+N18	Reference T3 Wikidata:Q878256	президент Йемена
+N19	Reference T2 Wikidata:Q483672	Салех, Али Абдалла
+N20	Reference T25 Wikidata:Q851	Саудовская Аравия
+N21	Reference T21 Wikidata:Q851	Саудовская Аравия
+N22	Reference T34 Wikidata:Q805	Йемен
+N23	Reference T10 Wikidata:Q805	Йемен
+N24	Reference T35 Wikidata:Q805	Йемен
+N25	Reference T52 Wikidata:Q30461	президент
+N26	Reference T8 Wikidata:Q483672	Салех, Али Абдалла
+N27	Reference T20 Wikidata:Q483672	Салех, Али Абдалла
+N28	Reference T15 Wikidata:Q483672	Салех, Али Абдалла
+N29	Reference T17 Wikidata:Q483672	Салех, Али Абдалла
+N30	Reference T28 Wikidata:Q483672	Салех, Али Абдалла
+N31	Reference T45 Wikidata:Q483672	Салех, Али Абдалла

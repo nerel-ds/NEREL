@@ -1,0 +1,132 @@
+T1	PROFESSION 0 10	Президенту
+T2	PERSON 20 33	Дилме Руссефф
+T3	PERSON 51 64	Дилма Руссефф
+T4	PROFESSION 67 75	Патриарх
+T5	PROFESSION 104 113	Президент
+T6	PERSON 123 136	Дилма Руссефф
+T7	ORGANIZATION 176 216	Палата депутатов Национального конгресса
+T9	DATE 217 251	в воскресенье, 17 апреля 2016 года
+T10	DATE 505 514	2014 года
+T11	AGE 517 540	Шестидесятивосьмилетняя
+T12	PROFESSION 550 559	экономист
+T13	ORGANIZATION 713 736	нижней палате Конгресса
+T14	COUNTRY 811 822	бразильской
+T15	ORGANIZATION 841 858	Folha de Sao Paul
+T16	PROFESSION 896 905	президент
+T17	COUNTRY 981 989	Бразилии
+T18	NUMBER 1074 1077	342
+T19	NUMBER 1081 1084	512
+T20	NUMBER 1097 1106	две трети
+T22	ORGANIZATION 1115 1161	Нижней палаты Национального конгресса Бразилии
+T23	ORGANIZATION 1235 1240	Сенат
+T24	ORGANIZATION 1247 1252	Сенат
+T25	PERSON 1284 1291	Руссефф
+T26	DATE 1343 1351	180 дней
+T27	PROFESSION 1355 1389	исполняющим обязанности президента
+T28	PROFESSION 1397 1411	вице-президент
+T29	PERSON 1419 1430	Мишел Темер
+T30	NUMBER 1448 1450	54
+T31	NUMBER 1454 1456	81
+T32	ORGANIZATION 1463 1469	Сената
+T33	PERSON 1496 1503	Руссефф
+T34	PROFESSION 1518 1528	президента
+T35	PERSON 1531 1542	Мишел Темер
+T36	PROFESSION 1552 1563	президентом
+T37	DATE 1564 1587	до 31 декабря 2018 года
+T38	COUNTRY 1653 1661	Бразилии
+T39	LOCATION 1702 1719	Латинской Америке
+T40	EVENT 1816 1838	летних Олимпийских игр
+T41	CITY 1841 1855	Рио-де-Жанейро
+T42	DATE 1856 1876	в августе этого года
+T43	COUNTRY 11 19	Бразилии
+T44	PROFESSION 0 19	Президенту Бразилии
+T45	PERSON 76 82	Кирилл
+T46	DATE 83 103	16 февраля 2016 года
+T47	COUNTRY 114 122	Бразилии
+T48	PROFESSION 104 122	Президент Бразилии
+T49	ORGANIZATION 193 216	Национального конгресса
+T8	PERSON 331 338	Руссефф
+T50	PERSON 541 548	Руссефф
+T51	ORGANIZATION 727 736	Конгресса
+T52	PROFESSION 737 749	лидер страны
+T53	IDEOLOGY 768 782	левых взглядов
+T54	PROFESSION 1457 1469	члена Сената
+T55	PROFESSION 1379 1389	президента
+T21	ORGANIZATION 1129 1161	Национального конгресса Бразилии
+T56	COUNTRY 1153 1161	Бразилии
+R1	ALTERNATIVE_NAME Arg1:T50 Arg2:T11	
+R2	HEADQUARTERED_IN Arg1:T15 Arg2:T14	
+T57	ORGANIZATION 1129 1152	Национального конгресса
+R3	TAKES_PLACE_IN Arg1:T40 Arg2:T41	
+R4	POINT_IN_TIME Arg1:T40 Arg2:T42	
+R5	WORKPLACE Arg1:T44 Arg2:T43	
+R6	WORKPLACE Arg1:T2 Arg2:T43	
+R7	WORKS_AS Arg1:T2 Arg2:T44	
+R8	WORKS_AS Arg1:T45 Arg2:T4	
+R9	WORKPLACE Arg1:T48 Arg2:T47	
+R10	WORKS_AS Arg1:T6 Arg2:T48	
+R11	WORKPLACE Arg1:T6 Arg2:T47	
+R12	PART_OF Arg1:T7 Arg2:T49	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+R14	WORKS_AS Arg1:T50 Arg2:T12	
+R15	IDEOLOGY_OF Arg1:T50 Arg2:T53	
+R16	PART_OF Arg1:T13 Arg2:T51	
+R17	ALTERNATIVE_NAME Arg1:T51 Arg2:T49	
+R18	ALTERNATIVE_NAME Arg1:T52 Arg2:T16	
+R19	IDEOLOGY_OF Arg1:T52 Arg2:T53	
+R20	PART_OF Arg1:T22 Arg2:T21	
+R21	HEADQUARTERED_IN Arg1:T21 Arg2:T56	
+R22	PART_OF Arg1:T23 Arg2:T21	
+R23	LOCATED_IN Arg1:T38 Arg2:T39	
+R24	WORKS_AS Arg1:T33 Arg2:T34	
+R25	WORKPLACE Arg1:T54 Arg2:T32	
+R26	WORKS_AS Arg1:T29 Arg2:T28	
+R27	WORKPLACE Arg1:T16 Arg2:T17	
+R28	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+T58	EVENT 1631 1650	политический кризис
+R29	TAKES_PLACE_IN Arg1:T58 Arg2:T38	
+R30	LOCATED_IN Arg1:T41 Arg2:T38	
+R31	WORKPLACE Arg1:T28 Arg2:T56	
+N1	Reference T3 Wikidata:Q40722	Дилма Русеф
+N2	Reference T4 Wikidata:Q171692	патриарх
+N3	Reference T12 Wikidata:Q188094	экономист
+N5	Reference T16 Wikidata:Q30461	президент
+N10	Reference T35 Wikidata:Q463533	Мишел Темер
+N11	Reference T39 Wikidata:Q12585	Латинская Америка
+N12	Reference T41 Wikidata:Q8678	Рио-де-Жанейро
+N14	Reference T48 Wikidata:Q5176750	президент Бразилии
+N15	Reference T49 Wikidata:Q949699	Национальный конгресс Бразилии
+N16	Reference T21 Wikidata:Q949699	Национальный конгресс Бразилии
+N17	Reference T56 Wikidata:Q155	Бразилия
+N13	Reference T45 Wikidata:Q44187	
+N18	Reference T7 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N19	Reference T15 Wikidata:Q1435379	
+N6	Reference T22 Wikidata:NULL	нет данных
+N7	Reference T27 Wikidata:Q3153784	
+N8	Reference T28 Wikidata:Q2978540	
+N9	Reference T32 Wikidata:Q2570643	сенат
+N20	Reference T54 Wikidata:NULL	нет данных
+N21	Reference T8 Wikidata:Q40722	Дилма Русеф
+N22	Reference T25 Wikidata:Q40722	Дилма Русеф
+N23	Reference T33 Wikidata:Q40722	Дилма Русеф
+N24	Reference T2 Wikidata:Q40722	Дилма Русеф
+N25	Reference T50 Wikidata:Q40722	Дилма Русеф
+N26	Reference T6 Wikidata:Q40722	Дилма Русеф
+N27	Reference T55 Wikidata:Q30461	президент
+N28	Reference T5 Wikidata:Q30461	президент
+N29	Reference T52 Wikidata:Q30461	президент
+N30	Reference T34 Wikidata:Q30461	президент
+N31	Reference T36 Wikidata:Q30461	президент
+N32	Reference T1 Wikidata:Q30461	президент
+N33	Reference T29 Wikidata:Q463533	Мишел Темер
+N34	Reference T44 Wikidata:Q5176750	президент Бразилии
+N35	Reference T57 Wikidata:Q949699	Национальный конгресс Бразилии
+N36	Reference T51 Wikidata:Q949699	Национальный конгресс Бразилии
+N37	Reference T38 Wikidata:Q155	Бразилия
+N38	Reference T17 Wikidata:Q155	Бразилия
+N39	Reference T14 Wikidata:Q155	Бразилия
+N40	Reference T47 Wikidata:Q155	Бразилия
+N41	Reference T43 Wikidata:Q155	Бразилия
+N42	Reference T23 Wikidata:Q2570643	сенат
+N43	Reference T24 Wikidata:Q2570643	сенат

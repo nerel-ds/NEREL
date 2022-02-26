@@ -1,0 +1,121 @@
+T1	PERSON 0 9	Порошенко
+T2	ORGANIZATION 36 46	Нацгвардию
+T3	DATE 47 58	в 2017 году
+T4	ORGANIZATION 66 86	Национальной гвардии
+T5	COUNTRY 87 94	Украины
+T6	DATE 95 122	В пятницу, 7 июня 2017 года
+T7	PROFESSION 124 133	президент
+T8	COUNTRY 134 141	Украины
+T9	PERSON 142 156	Пётр Порошенко
+T13	ORGANIZATION 247 267	Национальную гвардию
+T14	COUNTRY 268 275	Украины
+T15	DATE 276 295	в августе 2017 года
+T16	COUNTRY 349 356	Украины
+T17	AGE 462 468	20 лет
+T18	AGE 497 507	27-летнего
+T19	ORGANIZATION 604 621	Кабинет министров
+T20	COUNTRY 622 629	Украины
+T23	DATE 879 888	В феврале
+T24	PERSON 889 898	Порошенко
+T25	DATE 1001 1012	в 2017 году
+T26	DATE 1017 1037	14 октября 2013 года
+T27	PROFESSION 1038 1047	президент
+T28	COUNTRY 1048 1055	Украины
+T29	PERSON 1056 1071	Виктор Янукович
+T30	DATE 1123 1134	с 2014 года
+T31	DATE 1208 1223	В мае 2014 года
+T32	PROFESSION 1224 1239	и.о. президента
+T33	COUNTRY 1240 1247	Украины
+T34	PERSON 1248 1266	Александр Турчинов
+T35	PERSON 1280 1289	Януковича
+T39	ORGANIZATION 66 94	Национальной гвардии Украины
+T40	PROFESSION 124 141	президент Украины
+T10	LAW 220 234	указ №178/2017
+T11	ORGANIZATION 247 275	Национальную гвардию Украины
+T12	ORGANIZATION 604 629	Кабинет министров Украины
+T21	EVENT 899 932	утвердил сроки увольнения в запас
+T22	PROFESSION 1038 1055	президент Украины
+T43	PROFESSION 1224 1247	и.о. президента Украины
+T36	ORDINAL 225 229	№178
+T45	DATE 230 234	2017
+T47	EVENT 237 244	призыве
+T37	LAW 19 58	указ о призыве в Нацгвардию в 2017 году
+T48	EVENT 26 33	призыве
+T38	EVENT 10 23	подписал указ
+R1	AGENT Arg1:T1 Arg2:T38	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T48	
+R3	POINT_IN_TIME Arg1:T48 Arg2:T3	
+R4	PRODUCES Arg1:T1 Arg2:T37	
+R5	HEADQUARTERED_IN Arg1:T39 Arg2:T5	
+T49	PROFESSION 60 94	Бойцы Национальной гвардии Украины
+R6	WORKPLACE Arg1:T49 Arg2:T5	
+R7	WORKPLACE Arg1:T49 Arg2:T39	
+T46	EVENT 210 224	подписал] указ
+R8	ALTERNATIVE_NAME Arg1:T37 Arg2:T10	
+R9	ALTERNATIVE_NAME Arg1:T38 Arg2:T46	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T47	
+R11	POINT_IN_TIME Arg1:T47 Arg2:T15	
+R12	HEADQUARTERED_IN Arg1:T11 Arg2:T14	
+R13	POINT_IN_TIME Arg1:T46 Arg2:T6	
+R14	WORKPLACE Arg1:T40 Arg2:T8	
+R15	WORKPLACE Arg1:T9 Arg2:T8	
+R16	WORKS_AS Arg1:T9 Arg2:T40	
+R17	HEADQUARTERED_IN Arg1:T12 Arg2:T20	
+R18	AGENT Arg1:T24 Arg2:T21	
+R19	POINT_IN_TIME Arg1:T21 Arg2:T23	
+T41	EVENT 1072 1109	отменил всеобщую воинскую обязанность
+R20	AGENT Arg1:T29 Arg2:T41	
+R21	POINT_IN_TIME Arg1:T41 Arg2:T26	
+R22	WORKPLACE Arg1:T22 Arg2:T28	
+R23	WORKPLACE Arg1:T29 Arg2:T28	
+R24	WORKS_AS Arg1:T29 Arg2:T22	
+R25	WORKPLACE Arg1:T43 Arg2:T33	
+R26	WORKS_AS Arg1:T34 Arg2:T43	
+R27	WORKPLACE Arg1:T34 Arg2:T33	
+T42	EVENT 1267 1279	отменил указ
+R28	AGENT Arg1:T34 Arg2:T42	
+R29	POINT_IN_TIME Arg1:T42 Arg2:T31	
+R30	PARTICIPANT_IN Arg1:T35 Arg2:T42	
+R31	KNOWS Arg1:T34 Arg2:T35	
+R32	ALTERNATIVE_NAME Arg1:T29 Arg2:T35	
+R33	ALTERNATIVE_NAME Arg1:T9 Arg2:T24	
+R34	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R35	INANIMATE_INVOLVED Arg1:T10 Arg2:T46	
+R36	INANIMATE_INVOLVED Arg1:T37 Arg2:T48	
+R37	HAS_CAUSE Arg1:T38 Arg2:T48	
+R38	HAS_CAUSE Arg1:T46 Arg2:T47	
+T44	EVENT 992 1000	призывов
+R39	POINT_IN_TIME Arg1:T44 Arg2:T25	
+T50	EVENT 1296 1318	вооружённого конфликта
+R40	ABBREVIATION Arg1:T42 Arg2:T50	
+R41	TAKES_PLACE_IN Arg1:T50 Arg2:T33	
+R42	INANIMATE_INVOLVED Arg1:T10 Arg2:T46	
+N2	Reference T16 Wikidata:Q212	Украина
+N3	Reference T19 Wikidata:Q640506	кабинет министров
+N4	Reference T24 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N5	Reference T27 Wikidata:Q30461	президент
+N6	Reference T34 Wikidata:Q15850	Александр Валентинович Турчинов
+N7	Reference T35 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N8	Reference T11 Wikidata:Q4314832	Национальная гвардия Украины
+N9	Reference T12 Wikidata:Q613729	Кабинет министров Украины
+N10	Reference T22 Wikidata:Q579677	президент Украины
+N11	Reference T37 Wikidata:NULL	нет данных
+N12	Reference T49 Wikidata:NULL	нет данных
+N1	Reference T13 Wikidata:Q4314832	Национальная гвардия Украины
+N13	Reference T32 Wikidata:NULL	нет данных
+N14	Reference T43 Wikidata:NULL	нет данных
+N15	Reference T8 Wikidata:Q212	Украина
+N16	Reference T5 Wikidata:Q212	Украина
+N17	Reference T20 Wikidata:Q212	Украина
+N18	Reference T14 Wikidata:Q212	Украина
+N19	Reference T33 Wikidata:Q212	Украина
+N20	Reference T28 Wikidata:Q212	Украина
+N21	Reference T9 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N22	Reference T1 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N23	Reference T7 Wikidata:Q30461	президент
+N24	Reference T29 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N25	Reference T39 Wikidata:Q4314832	Национальная гвардия Украины
+N26	Reference T40 Wikidata:Q579677	президент Украины
+N27	Reference T10 Wikidata:NULL	нет данных
+N28	Reference T4 Wikidata:Q4314832	Национальная гвардия Украины
+N29	Reference T2 Wikidata:Q4314832	Национальная гвардия Украины

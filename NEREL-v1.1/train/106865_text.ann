@@ -1,0 +1,98 @@
+T1	PERSON 63 85	Китом Лэмонтом Скоттом
+T2	CITY 135 142	Шарлотт
+T3	STATE_OR_PROVINCE 144 161	Северная Каролина
+T4	AGE 212 221	43-летним
+T5	PERSON 238 260	Китом Лэмонтом Скоттом
+T6	DATE 313 324	20 сентября
+T7	DATE 542 551	в субботу
+T8	DATE 575 600	в течение нескольких дней
+T9	PERSON 662 667	Скотт
+T10	TIME 732 749	около трех секунд
+T11	ORDINAL 805 811	втором
+T12	PERSON 818 823	Скотт
+T15	DATE 895 905	Пятый день
+T16	DATE 1005 1018	В воскресенье
+T17	CITY 1064 1072	Шарлотте
+T18	ORGANIZATION 1119 1136	Carolina Panthers
+T19	ORGANIZATION 1139 1156	Minnesota Vikings
+T20	ORGANIZATION 1186 1203	Carolina Panthers
+T21	PERSON 1214 1224	Кэм Ньютон
+T22	PROFESSION 1276 1312	лидера движения за гражданские права
+T23	PERSON 1313 1333	Мартина Лютера Кинга
+T24	PERSON 1387 1393	Скотта
+T25	PERSON 1538 1543	Скотт
+T26	CITY 8 16	Шарлотта
+T27	ORGANIZATION 0 16	Полиция Шарлотта
+T28	ORGANIZATION 119 127	полицией
+T29	NATIONALITY 222 237	афроамериканцем
+T30	EVENT 271 281	застрелили
+T31	PROFESSION 282 300	сотрудники полиции
+T32	EVENT 343 354	беспорядков
+T13	PROFESSION 1204 1213	квотербек
+T14	PROFESSION 1408 1419	полицейские
+T33	PROFESSION 1610 1621	полицейские
+T34	IDEOLOGY 1283 1312	движения за гражданские права
+R1	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+T35	ORGANIZATION 0 7	Полиция
+R2	LOCATED_IN Arg1:T2 Arg2:T3	
+R3	AGE_IS Arg1:T5 Arg2:T4	
+R4	ORIGINS_FROM Arg1:T5 Arg2:T29	
+T36	EVENT 306 312	смерть
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T36	
+T37	PROFESSION 197 209	полицейскими
+R6	ALTERNATIVE_NAME Arg1:T37 Arg2:T31	
+R7	AGENT Arg1:T31 Arg2:T30	
+R8	HAS_CAUSE Arg1:T32 Arg2:T36	
+T38	EVENT 36 48	столкновения
+T39	PROFESSION 49 60	полицейских
+R9	PARTICIPANT_IN Arg1:T39 Arg2:T38	
+R10	PARTICIPANT_IN Arg1:T1 Arg2:T38	
+R11	SUBEVENT_OF Arg1:T30 Arg2:T38	
+R12	HEADQUARTERED_IN Arg1:T28 Arg2:T2	
+R13	TAKES_PLACE_IN Arg1:T32 Arg2:T2	
+R14	POINT_IN_TIME Arg1:T32 Arg2:T6	
+R15	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+T40	EVENT 906 943	протестов против полицейской стрельбы
+R16	ALTERNATIVE_NAME Arg1:T32 Arg2:T40	
+T41	EVENT 1087 1102	футбольный матч
+R17	PARTICIPANT_IN Arg1:T18 Arg2:T41	
+R18	PARTICIPANT_IN Arg1:T19 Arg2:T41	
+R19	WORKS_AS Arg1:T21 Arg2:T13	
+R20	WORKPLACE Arg1:T21 Arg2:T20	
+R21	TAKES_PLACE_IN Arg1:T41 Arg2:T17	
+R22	WORKS_AS Arg1:T23 Arg2:T22	
+T42	STATE_OR_PROVINCE 1186 1194	Carolina
+R23	HEADQUARTERED_IN Arg1:T20 Arg2:T42	
+T43	STATE_OR_PROVINCE 1119 1127	Carolina
+R24	HEADQUARTERED_IN Arg1:T18 Arg2:T43	
+T44	STATE_OR_PROVINCE 1139 1148	Minnesota
+R25	HEADQUARTERED_IN Arg1:T19 Arg2:T44	
+N1	Reference T3 Wikidata:Q1454	Северная Каролина
+N3	Reference T18 Wikidata:Q330120	Каролина Пантерз
+N4	Reference T19 Wikidata:Q221150	Миннесота Вайкингс
+N5	Reference T21 Wikidata:Q591678	Ньютон, Кэм
+N7	Reference T23 Wikidata:Q8027	Мартин Лютер Кинг
+N8	Reference T26 Wikidata:Q16565	Шарлотт
+N10	Reference T29 Wikidata:Q49085	афроамериканцы
+N11	Reference T13 Wikidata:Q622747	квотербек
+N13	Reference T35 Wikidata:Q35535	полиция
+N9	Reference T27 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:Q1527	Миннесота
+N14	Reference T42 Wikidata:Q330120	Каролина Пантерз
+N6	Reference T22 Wikidata:NULL	нет данных
+N12	Reference T14 Wikidata:Q384593	
+N16	Reference T20 Wikidata:Q330120	Каролина Пантерз
+N17	Reference T17 Wikidata:Q16565	Шарлотт
+N18	Reference T2 Wikidata:Q16565	Шарлотт
+N19	Reference T28 Wikidata:Q35535	полиция
+N20	Reference T5 Wikidata:NULL	нет данных
+N21	Reference T12 Wikidata:NULL	нет данных
+N22	Reference T25 Wikidata:NULL	нет данных
+N23	Reference T24 Wikidata:NULL	нет данных
+N24	Reference T1 Wikidata:NULL	нет данных
+N25	Reference T43 Wikidata:Q330120	Каролина Пантерз
+N26	Reference T31 Wikidata:Q384593	
+N27	Reference T33 Wikidata:Q384593	
+N28	Reference T39 Wikidata:Q384593	
+N29	Reference T37 Wikidata:Q384593	

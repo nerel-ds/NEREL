@@ -1,0 +1,168 @@
+T1	ORGANIZATION 1 10	Локомотив
+T2	ORDINAL 14 17	3-й
+T3	PERSON 44 54	Юрий Сёмин
+T4	DATE 55 70	5 мая 2018 года
+T5	ORGANIZATION 72 81	Локомотив
+T6	ORDINAL 150 155	29-го
+T7	ORGANIZATION 182 188	Зенита
+T8	NUMBER 200 201	1
+T9	PERSON 232 244	Эдера Маседу
+T10	CITY 256 267	московского
+T11	NUMBER 274 276	60
+T12	NUMBER 286 290	один
+T13	ORGANIZATION 339 346	Спартак
+T14	NUMBER 367 368	4
+T15	PROFESSION 376 385	Президент
+T16	PERSON 391 405	Сергей Прядкин
+T17	MONEY 458 472	368 млн рублей
+T18	MONEY 480 496	5,8 млн долларов
+T19	ORDINAL 517 523	второе
+T20	MONEY 533 540	316 млн
+T21	MONEY 548 562	5 млн долларов
+T22	ORDINAL 565 571	третье
+T23	MONEY 574 581	290 млн
+T24	MONEY 589 605	4,6 млн долларов
+T25	ORDINAL 639 648	четвёртом
+T26	MONEY 658 665	263 млн
+T27	MONEY 673 689	4,2 млн долларов
+T28	ORDINAL 692 697	пятом
+T29	MONEY 700 707	237 млн
+T30	MONEY 715 731	3,7 млн долларов
+T31	ORDINAL 734 740	шестом
+T32	MONEY 743 750	211 млн
+T33	MONEY 758 774	3,3 млн долларов
+T34	ORDINAL 782 788	третье
+T35	DATE 802 806	2002
+T36	DATE 808 812	2004
+T37	COUNTRY 836 842	России
+T38	PERSON 897 908	Юрия Сёмина
+T39	PROFESSION 911 921	Нападающий
+T40	ORGANIZATION 923 933	Локомотива
+T41	PERSON 935 939	Эдер
+T42	PERSON 1153 1163	Юрий Сёмин
+T43	AGE 1271 1277	70 лет
+T44	PERSON 1307 1320	Дику Адвокату
+T45	PROFESSION 1322 1329	тренеру
+T46	AGE 1339 1354	60 лет 164 дней
+T47	PERSON 1363 1368	Сёмин
+T49	PERSON 1399 1415	Леонидом Слуцким
+T50	COUNTRY 1431 1442	российского
+T51	PERSON 1471 1487	Валерия Газзаева
+T52	NUMBER 1489 1490	1
+T53	ORGANIZATION 1493 1500	Аланией
+T54	NUMBER 1503 1504	3
+T55	ORGANIZATION 1507 1511	ЦСКА
+T56	PERSON 1515 1530	Олега Романцева
+T57	NUMBER 1540 1541	8
+T58	ORGANIZATION 1556 1563	Спартак
+T59	AWARD 27 43	чемпионом России
+T60	COUNTRY 37 43	России
+T62	EVENT 91 115	чемпионат России 2017/18
+T63	COUNTRY 101 107	России
+T64	DATE 108 115	2017/18
+T66	NUMBER 202 203	0
+T67	PROFESSION 220 231	нападающего
+T68	EVENT 304 314	чемпионата
+T69	PROFESSION 376 390	Президент РФПЛ
+T70	ORGANIZATION 386 390	РФПЛ
+T71	PROFESSION 911 933	Нападающий «Локомотива
+T72	EVENT 965 970	матча
+T73	COUNTRY 1193 1199	России
+T74	PROFESSION 1221 1227	тренер
+T75	PROFESSION 1322 1336	тренеру Зенита
+T76	ORGANIZATION 1330 1336	Зенита
+T78	PROFESSION 1385 1398	тренером ЦСКА
+T79	PROFESSION 1385 1393	тренером
+T80	ORGANIZATION 1394 1398	ЦСКА
+R1	ORIGINS_FROM Arg1:T59 Arg2:T60	
+R2	AWARDED_WITH Arg1:T1 Arg2:T59	
+T48	EVENT 91 107	чемпионат России
+R3	POINT_IN_TIME Arg1:T62 Arg2:T64	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T62	
+R5	TAKES_PLACE_IN Arg1:T62 Arg2:T63	
+R6	WORKS_AS Arg1:T9 Arg2:T67	
+R7	WORKPLACE Arg1:T9 Arg2:T5	
+T61	EVENT 144 173	матче 29-го тура премьер-лиги
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T61	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T61	
+T65	EVENT 150 173	29-го тура премьер-лиги
+R10	SUBEVENT_OF Arg1:T61 Arg2:T65	
+T77	ORGANIZATION 161 173	премьер-лиги
+R11	MEMBER_OF Arg1:T7 Arg2:T77	
+R12	MEMBER_OF Arg1:T5 Arg2:T77	
+R13	ORGANIZES Arg1:T77 Arg2:T65	
+R14	HEADQUARTERED_IN Arg1:T5 Arg2:T10	
+R15	WORKPLACE Arg1:T69 Arg2:T70	
+R16	WORKS_AS Arg1:T16 Arg2:T69	
+R17	WORKPLACE Arg1:T16 Arg2:T70	
+R18	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R20	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R21	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R22	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R23	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+R24	WORKPLACE Arg1:T71 Arg2:T40	
+R25	WORKS_AS Arg1:T41 Arg2:T71	
+R26	WORKPLACE Arg1:T41 Arg2:T40	
+R27	WORKPLACE Arg1:T3 Arg2:T1	
+T81	EVENT 1181 1199	чемпионатов России
+R28	AGE_IS Arg1:T42 Arg2:T43	
+R29	WORKS_AS Arg1:T42 Arg2:T74	
+R30	AGE_IS Arg1:T44 Arg2:T46	
+R31	WORKPLACE Arg1:T75 Arg2:T76	
+R32	WORKS_AS Arg1:T44 Arg2:T75	
+R33	WORKPLACE Arg1:T44 Arg2:T76	
+R34	ALTERNATIVE_NAME Arg1:T42 Arg2:T47	
+T82	EVENT 1431 1453	российского чемпионата
+R35	TAKES_PLACE_IN Arg1:T82 Arg2:T50	
+R36	ALTERNATIVE_NAME Arg1:T81 Arg2:T82	
+R37	ALTERNATIVE_NAME Arg1:T73 Arg2:T50	
+R38	WORKPLACE Arg1:T56 Arg2:T58	
+R39	WORKPLACE Arg1:T51 Arg2:T53	
+R40	WORKPLACE Arg1:T51 Arg2:T55	
+R41	WORKPLACE Arg1:T78 Arg2:T80	
+R42	WORKS_AS Arg1:T49 Arg2:T78	
+R43	WORKPLACE Arg1:T49 Arg2:T80	
+T83	EVENT 439 449	чемпионата
+R44	PARTICIPANT_IN Arg1:T9 Arg2:T61	
+R45	ALTERNATIVE_NAME Arg1:T62 Arg2:T68	
+N1	Reference T5 Wikidata:Q29115	Локомотив
+N2	Reference T9 Wikidata:Q835279	Эдера
+N3	Reference T10 Wikidata:Q159261	Московский
+N5	Reference T16 Wikidata:Q4382720	Прядкин, Сергей Геннадьевич
+N7	Reference T42 Wikidata:Q554012	Юрий Павлович Сёмин
+N8	Reference T44 Wikidata:Q11949	Дик Адвокат
+N10	Reference T51 Wikidata:Q319517	Валерий Георгиевич Газзаев
+N12	Reference T56 Wikidata:Q433612	Олег Иванович Романцев
+N13	Reference T58 Wikidata:Q29112	Спартак
+N14	Reference T59 Wikidata:Q159	Россия
+N15	Reference T67 Wikidata:Q280658	нападающий
+N17	Reference T70 Wikidata:Q4398004	Российская футбольная премьер-лига
+N19	Reference T73 Wikidata:Q159	Россия
+N21	Reference T76 Wikidata:Q29108	Зенит
+N23	Reference T79 Wikidata:Q41583	тренер
+N24	Reference T80 Wikidata:Q176371	ЦСКА
+N25	Reference T77 Wikidata:Q182165	чемпионат России по футболу
+N16	Reference T69 Wikidata:NULL	нет данных
+N4	Reference T15 Wikidata:Q140686	председатель
+N18	Reference T71 Wikidata:NULL	нет данных
+N6	Reference T41 Wikidata:Q273776	
+N20	Reference T75 Wikidata:NULL	нет данных
+N22	Reference T78 Wikidata:NULL	нет данных
+N9	Reference T49 Wikidata:Q457624	Леонид Викторович Слуцкий
+N11	Reference T53 Wikidata:Q240438	Алания
+N26	Reference T40 Wikidata:Q29115	Локомотив
+N27	Reference T1 Wikidata:Q29115	Локомотив
+N28	Reference T47 Wikidata:Q554012	Юрий Павлович Сёмин
+N29	Reference T38 Wikidata:Q554012	Юрий Павлович Сёмин
+N30	Reference T3 Wikidata:Q554012	Юрий Павлович Сёмин
+N31	Reference T13 Wikidata:Q29112	Спартак
+N32	Reference T39 Wikidata:Q280658	нападающий
+N33	Reference T63 Wikidata:Q159	Россия
+N34	Reference T60 Wikidata:Q159	Россия
+N35	Reference T50 Wikidata:Q159	Россия
+N36	Reference T37 Wikidata:Q159	Россия
+N37	Reference T7 Wikidata:Q29108	Зенит
+N38	Reference T45 Wikidata:Q41583	тренер
+N39	Reference T74 Wikidata:Q41583	тренер
+N40	Reference T55 Wikidata:Q176371	ЦСКА

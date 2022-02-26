@@ -1,0 +1,151 @@
+T1	PROFESSION 0 8	Художник
+T2	PERSON 9 24	Александр Шилов
+T3	DATE 41 61	29 октября 2012 года
+T4	PERSON 79 93	Владимир Путин
+T5	PROFESSION 103 112	художника
+T6	PERSON 113 130	Александра Шилова
+T7	PERSON 139 158	Александра Невского
+T8	DATE 159 189	В субботу, 6 октября 2018 года
+T9	COUNTRY 191 200	советский
+T10	COUNTRY 203 213	российский
+T11	PERSON 242 257	Александр Шилов
+T12	AGE 271 280	75-летний
+T13	PROFESSION 363 372	президент
+T14	COUNTRY 373 392	Республики Беларусь
+T15	PERSON 393 412	Александр Лукашенко
+T16	PROFESSION 415 418	Мэр
+T17	PERSON 426 440	Сергей Собянин
+T18	PROFESSION 443 452	Президент
+T19	PERSON 464 483	Александр Лукашенко
+T20	COUNTRY 662 670	Беларуси
+T21	PERSON 851 860	Лукашенко
+T22	NUMBER 1228 1233	двумя
+T24	PERSON 1302 1319	Александра Шилова
+T25	COUNTRY 1345 1355	Белоруссии
+T26	DATE 1357 1368	В 2003 году
+T27	COUNTRY 1409 1419	Белоруссии
+T28	PERSON 1475 1489	Сергей Собянин
+T29	PERSON 1534 1549	Александр Шилов
+T30	PROFESSION 1627 1636	художника
+T31	PERSON 1656 1673	Александра Шилова
+T32	PERSON 1763 1783	Александру Максовичу
+T33	EVENT 34 40	юбилей
+T34	PROFESSION 62 78	президент России
+T35	PROFESSION 62 71	президент
+T36	PROFESSION 214 222	художник
+T37	PROFESSION 235 241	график
+T38	PROFESSION 223 232	живописец
+T39	PROFESSION 214 232	художник-живописец
+T40	PROFESSION 363 392	президент Республики Беларусь
+T41	PROFESSION 415 425	Мэр Москвы
+T42	PROFESSION 443 463	Президент Белоруссии
+T43	PROFESSION 706 715	художника
+T44	PROFESSION 910 919	художника
+T45	PROFESSION 1287 1296	художника
+T46	PROFESSION 1450 1474	Столичный градоначальник
+T47	PROFESSION 1460 1474	градоначальник
+T48	COUNTRY 72 78	России
+T49	AWARD 131 158	орденом Александра Невского
+T51	CITY 419 425	Москвы
+T52	COUNTRY 453 463	Белоруссии
+T53	ORGANIZATION 627 657	пресс-службе главы государства
+T54	PROFESSION 640 657	главы государства
+T23	AWARD 1277 1301	Народного художника СССР
+T55	COUNTRY 1297 1301	СССР
+T57	AWARD 1422 1447	орденом Франциска Скорины
+T58	PERSON 1430 1447	Франциска Скорины
+T59	PRODUCT 1511 1518	Twitter
+T60	CITY 1647 1655	москвича
+R1	WORKS_AS Arg1:T24 Arg2:T45	
+R2	WORKPLACE Arg1:T40 Arg2:T14	
+R3	WORKS_AS Arg1:T15 Arg2:T40	
+R4	WORKPLACE Arg1:T15 Arg2:T14	
+R5	AWARDED_WITH Arg1:T24 Arg2:T23	
+R6	WORKS_AS Arg1:T4 Arg2:T34	
+R7	WORKPLACE Arg1:T4 Arg2:T48	
+R8	WORKS_AS Arg1:T6 Arg2:T5	
+R9	WORKS_AS Arg1:T2 Arg2:T1	
+R10	WORKS_AS Arg1:T19 Arg2:T42	
+R11	WORKPLACE Arg1:T19 Arg2:T52	
+R12	WORKPLACE Arg1:T42 Arg2:T52	
+R13	ORIGINS_FROM Arg1:T23 Arg2:T55	
+R14	WORKS_AS Arg1:T28 Arg2:T46	
+R15	ALTERNATIVE_NAME Arg1:T41 Arg2:T46	
+R16	WORKPLACE Arg1:T41 Arg2:T51	
+R17	WORKS_AS Arg1:T17 Arg2:T41	
+R18	WORKPLACE Arg1:T17 Arg2:T51	
+R19	AWARDED_WITH Arg1:T6 Arg2:T49	
+R20	POINT_IN_TIME Arg1:T49 Arg2:T3	
+R21	AGE_IS Arg1:T11 Arg2:T12	
+R22	ORIGINS_FROM Arg1:T11 Arg2:T9	
+R23	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R24	WORKS_AS Arg1:T11 Arg2:T37	
+R25	WORKS_AS Arg1:T11 Arg2:T39	
+R26	WORKPLACE Arg1:T34 Arg2:T48	
+R27	ALTERNATIVE_NAME Arg1:T42 Arg2:T54	
+R28	ALTERNATIVE_NAME Arg1:T52 Arg2:T20	
+R29	WORKS_AS Arg1:T11 Arg2:T43	
+R30	ALTERNATIVE_NAME Arg1:T19 Arg2:T21	
+R31	ORIGINS_FROM Arg1:T57 Arg2:T27	
+R32	AWARDED_WITH Arg1:T24 Arg2:T57	
+R33	POINT_IN_TIME Arg1:T57 Arg2:T26	
+R34	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R35	PLACE_OF_BIRTH Arg1:T31 Arg2:T60	
+R36	ALTERNATIVE_NAME Arg1:T51 Arg2:T60	
+T50	EVENT 94 102	наградил
+R37	AGENT Arg1:T4 Arg2:T50	
+R38	PARTICIPANT_IN Arg1:T6 Arg2:T50	
+R39	INANIMATE_INVOLVED Arg1:T49 Arg2:T50	
+R40	WORKS_AS Arg1:T31 Arg2:T30	
+N1	Reference T1 Wikidata:Q1028181	художник
+N2	Reference T4 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T7 Wikidata:Q174044	Александр Ярославич Невский
+N6	Reference T14 Wikidata:Q184	Белоруссия
+N7	Reference T15 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N8	Reference T16 Wikidata:Q30185	мэр
+N9	Reference T17 Wikidata:Q319497	Сергей Семёнович Собянин
+N10	Reference T20 Wikidata:Q184	Белоруссия
+N11	Reference T24 Wikidata:Q4523838	Шилов Александр Максович
+N12	Reference T34 Wikidata:Q218295	президент Российской Федерации
+N13	Reference T35 Wikidata:Q30461	президент
+N14	Reference T38 Wikidata:Q1028181	художник
+N15	Reference T39 Wikidata:Q1028181	художник
+N16	Reference T40 Wikidata:Q1049659	президент Республики Беларусь
+N17	Reference T42 Wikidata:Q1049659	президент Республики Беларусь
+N20	Reference T48 Wikidata:Q159	Россия
+N21	Reference T49 Wikidata:Q612907	орден Александра Невского
+N24	Reference T55 Wikidata:Q15180	СССР
+N25	Reference T57 Wikidata:Q2446309	орден Франциска Скорины
+N26	Reference T58 Wikidata:Q435320	Франциск Скорина
+N27	Reference T59 Wikidata:Q918	Твиттер
+N4	Reference T9 Wikidata:Q15180	СССР
+N5	Reference T10 Wikidata:Q492468	россияне
+N29	Reference T37 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:NULL	нет данных
+N23	Reference T23 Wikidata:Q1444138	
+N19	Reference T47 Wikidata:Q30185	мэр
+N18	Reference T46 Wikidata:Q1837906	мэр Москвы
+N28	Reference T60 Wikidata:Q105737722	
+N30	Reference T44 Wikidata:Q1028181	художник
+N31	Reference T5 Wikidata:Q1028181	художник
+N32	Reference T43 Wikidata:Q1028181	художник
+N33	Reference T36 Wikidata:Q1028181	художник
+N34	Reference T45 Wikidata:Q1028181	художник
+N35	Reference T30 Wikidata:Q1028181	художник
+N36	Reference T19 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N37	Reference T21 Wikidata:Q2866	Александр Григорьевич Лукашенко
+N38	Reference T28 Wikidata:Q319497	Сергей Семёнович Собянин
+N39	Reference T52 Wikidata:Q184	Белоруссия
+N40	Reference T25 Wikidata:Q184	Белоруссия
+N41	Reference T27 Wikidata:Q184	Белоруссия
+N42	Reference T31 Wikidata:Q4523838	Шилов Александр Максович
+N43	Reference T29 Wikidata:Q4523838	Шилов Александр Максович
+N44	Reference T11 Wikidata:Q4523838	Шилов Александр Максович
+N45	Reference T2 Wikidata:Q4523838	Шилов Александр Максович
+N46	Reference T6 Wikidata:Q4523838	Шилов Александр Максович
+N47	Reference T32 Wikidata:Q4523838	Шилов Александр Максович
+N48	Reference T13 Wikidata:Q30461	президент
+N49	Reference T18 Wikidata:Q30461	президент
+N50	Reference T54 Wikidata:Q1049659	президент Республики Беларусь
+N51	Reference T41 Wikidata:Q1837906	мэр Москвы
+N52	Reference T51 Wikidata:Q105737722	

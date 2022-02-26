@@ -1,0 +1,139 @@
+T1	NATIONALITY 0 10	Филиппинка
+T2	PERSON 11 24	Катриона Грэй
+T3	NATIONALITY 63 73	Филиппинка
+T4	PERSON 74 87	Катриона Грэй
+T5	EVENT 120 139	Мисс Вселенная 2018
+T6	DATE 161 181	17 декабря 2018 года
+T7	CITY 184 192	Бангкоке
+T8	AGE 194 203	24-летняя
+T9	NUMBER 232 234	93
+T10	LOCATION 411 429	Юго-Восточной Азии
+T11	COUNTRY 515 527	филиппинский
+T12	PERSON 547 551	Грэй
+T13	AGE 567 573	13 лет
+T14	EVENT 623 637	Мисс Вселенная
+T15	NATIONALITY 746 756	австралиец
+T16	NATIONALITY 765 775	филиппинка
+T17	COUNTRY 808 821	австралийском
+T18	ORDINAL 831 837	Второе
+T19	PERSON 863 875	Тамарин Грин
+T20	LOCATION 879 891	Южной Африки
+T21	ORDINAL 893 899	третье
+T22	PERSON 902 918	Стефани Гутьерес
+T23	COUNTRY 922 931	Венесуэлы
+T24	DATE 933 947	В прошлом году
+T25	PERSON 971 991	Деми-Лей Нель-Петерс
+T26	COUNTRY 995 998	ЮАР
+T27	COUNTRY 1004 1014	Филиппинах
+T28	CITY 1141 1144	Оас
+T29	STATE_OR_PROVINCE 1155 1160	Албай
+T30	ORGANIZATION 1185 1222	Пресс-служба филиппинского президента
+T31	PERSON 1223 1238	Родриго Дутерте
+T32	PERSON 1266 1270	Грэй
+T33	ORDINAL 1277 1286	четвёртая
+T34	ORDINAL 1340 1345	67-го
+T35	EVENT 1356 1370	Мисс Вселенная
+T37	NUMBER 1453 1457	семь
+T38	PROFESSION 1508 1527	предпринимательницы
+T39	PROFESSION 1530 1538	дизайнер
+T40	DATE 1561 1572	почти месяц
+T41	COUNTRY 1583 1591	Таиланде
+T43	PERSON 1767 1783	Праютом Чан-Очей
+T44	AWARD 41 60	Мисс Вселенная 2018
+T45	DATE 56 60	2018
+T46	AWARD 41 55	Мисс Вселенная
+T47	DATE 135 139	2018
+T48	PERSON 204 208	Грэй
+T49	EVENT 120 134	Мисс Вселенная
+T50	EVENT 685 694	церемонии
+T51	PERSON 739 743	Грэй
+T52	CITY 822 828	Кэрнсе
+T53	AWARD 949 963	Мисс Вселенной
+T54	PERSON 1085 1089	Грэй
+T55	PROFESSION 1198 1222	филиппинского президента
+T56	PROFESSION 1212 1222	президента
+T57	COUNTRY 1198 1211	филиппинского
+T58	NATIONALITY 1287 1297	филиппинка
+T59	AWARD 1317 1331	Мисс Вселенная
+T36	PROFESSION 1742 1759	премьер-министром
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	POINT_IN_TIME Arg1:T44 Arg2:T45	
+R3	AWARDED_WITH Arg1:T2 Arg2:T44	
+R4	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T5	
+R6	POINT_IN_TIME Arg1:T5 Arg2:T47	
+R7	END_TIME Arg1:T5 Arg2:T6	
+R8	TAKES_PLACE_IN Arg1:T5 Arg2:T7	
+R9	ALTERNATIVE_NAME Arg1:T4 Arg2:T48	
+R10	AGE_IS Arg1:T48 Arg2:T8	
+R11	LOCATED_IN Arg1:T7 Arg2:T10	
+R12	LOCATED_IN Arg1:T11 Arg2:T10	
+R13	AGE_IS Arg1:T12 Arg2:T13	
+R14	PLACE_OF_BIRTH Arg1:T51 Arg2:T52	
+R15	LOCATED_IN Arg1:T52 Arg2:T17	
+R16	ORIGINS_FROM Arg1:T19 Arg2:T20	
+R17	ORIGINS_FROM Arg1:T22 Arg2:T23	
+R18	AWARDED_WITH Arg1:T25 Arg2:T53	
+R19	ORIGINS_FROM Arg1:T25 Arg2:T26	
+R20	ALTERNATIVE_NAME Arg1:T11 Arg2:T27	
+R21	WORKPLACE Arg1:T55 Arg2:T57	
+R22	ORIGINS_FROM Arg1:T32 Arg2:T58	
+R23	AWARDED_WITH Arg1:T32 Arg2:T59	
+R24	WORKS_AS Arg1:T43 Arg2:T36	
+R25	LOCATED_IN Arg1:T28 Arg2:T29	
+R26	FOUNDED_BY Arg1:T30 Arg2:T55	
+R27	WORKS_AS Arg1:T31 Arg2:T55	
+R28	WORKPLACE Arg1:T31 Arg2:T57	
+T60	LOCATION 425 429	Азии
+R29	LOCATED_IN Arg1:T10 Arg2:T60	
+R30	ALTERNATIVE_NAME Arg1:T5 Arg2:T50	
+R31	PARENT_OF Arg1:T15 Arg2:T51	
+R32	PARENT_OF Arg1:T16 Arg2:T51	
+R33	PARTICIPANT_IN Arg1:T19 Arg2:T5	
+R34	PARTICIPANT_IN Arg1:T22 Arg2:T5	
+R35	LOCATED_IN Arg1:T7 Arg2:T41	
+R36	WORKPLACE Arg1:T43 Arg2:T41	
+R37	POINT_IN_TIME Arg1:T53 Arg2:T24	
+R38	WORKPLACE Arg1:T36 Arg2:T41	
+R39	WORKPLACE Arg1:T43 Arg2:T41	
+N1	Reference T7 Wikidata:Q1861	Бангкок
+N2	Reference T10 Wikidata:Q11708	Юго-Восточная Азия
+N4	Reference T17 Wikidata:Q408	Австралия
+N6	Reference T23 Wikidata:Q717	Венесуэла
+N7	Reference T25 Wikidata:Q29043438	Деми-Лей Нель-Петерс
+N8	Reference T26 Wikidata:Q258	ЮАР
+N12	Reference T31 Wikidata:Q457786	Родриго Роа Дутерте
+N13	Reference T39 Wikidata:Q5322166	дизайнер
+N14	Reference T41 Wikidata:Q869	Таиланд
+N15	Reference T43 Wikidata:Q2108126	Прают Чан-оча
+N16	Reference T44 Wikidata:Q42964984	Мисс Вселенная 2018
+N18	Reference T52 Wikidata:Q189133	Кэрнс
+N19	Reference T53 Wikidata:Q161376	Мисс Вселенная
+N21	Reference T56 Wikidata:Q30461	президент
+N23	Reference T36 Wikidata:Q14212	премьер-министр
+N24	Reference T60 Wikidata:Q48	Азия
+N17	Reference T48 Wikidata:Q27107016	
+N3	Reference T11 Wikidata:Q928	Филиппины
+N25	Reference T15 Wikidata:Q1318423	
+N26	Reference T19 Wikidata:Q54400833	
+N5	Reference T20 Wikidata:Q27394	Южная Африка
+N27	Reference T22 Wikidata:Q42896684	
+N9	Reference T28 Wikidata:Q493246	
+N10	Reference T29 Wikidata:Q13726	Албай
+N20	Reference T55 Wikidata:Q1209571	
+N11	Reference T30 Wikidata:NULL	нет данных
+N22	Reference T58 Wikidata:Q4172847	
+N28	Reference T38 Wikidata:Q43845	
+N29	Reference T46 Wikidata:Q161376	Мисс Вселенная
+N30	Reference T59 Wikidata:Q161376	Мисс Вселенная
+N31	Reference T51 Wikidata:Q27107016	
+N32	Reference T12 Wikidata:Q27107016	
+N33	Reference T4 Wikidata:Q27107016	
+N34	Reference T54 Wikidata:Q27107016	
+N35	Reference T2 Wikidata:Q27107016	
+N36	Reference T32 Wikidata:Q27107016	
+N37	Reference T57 Wikidata:Q928	Филиппины
+N38	Reference T27 Wikidata:Q928	Филиппины
+N39	Reference T1 Wikidata:Q4172847	
+N40	Reference T3 Wikidata:Q4172847	
+N41	Reference T16 Wikidata:Q4172847	

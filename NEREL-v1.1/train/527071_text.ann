@@ -1,0 +1,134 @@
+T1	PROFESSION 4 24	президенту Пакистана
+T2	PERSON 51 66	Первез Мушарраф
+T3	ORGANIZATION 67 92	Специальный суд Пакистана
+T5	PROFESSION 120 135	военному лидеру
+T6	PERSON 143 160	Первезу Мушаррафу
+T7	NUMBER 223 227	трех
+T9	PERSON 306 314	Мушарраф
+T10	LAW 349 385	шестой статьей Конституции Пакистана
+T11	DATE 388 397	28 ноября
+T12	ORGANIZATION 462 479	Специальным судом
+T13	ORGANIZATION 533 571	Министерством внутренних дел Пакистана
+T14	DATE 643 652	19 ноября
+T15	ORGANIZATION 653 668	Специальный суд
+T16	DATE 711 723	от 2014 года
+T17	PERSON 736 745	Мушаррафа
+T18	DATE 788 797	28 ноября
+T19	AGE 822 832	76-летнего
+T20	PROFESSION 865 875	президента
+T21	DATE 876 894	с 2001 по 2008 год
+T22	DATE 994 1003	2007 году
+T23	LAW 1020 1050	Указ о национальном примирении
+T24	COUNTRY 1134 1143	Пакистана
+T25	DATE 1167 1185	с 1988 по 1999 год
+T26	PERSON 1230 1238	Мушарраф
+T27	DATE 1268 1279	в 2008 году
+T29	COUNTRY 1336 1339	ОАЭ
+T30	DATE 1371 1382	в 2016 году
+T31	COUNTRY 15 24	Пакистана
+T32	EVENT 25 50	вынесли смертный приговор
+T34	COUNTRY 83 92	Пакистана
+T36	PROFESSION 107 117	президенту
+T37	EVENT 181 200	Вердикт был вынесен
+T38	PROFESSION 228 233	судей
+T40	PROFESSION 256 275	главы Высокого суда
+T41	ORGANIZATION 262 275	Высокого суда
+T42	PERSON 285 304	Вакара Ахмада Сэтха
+T43	EVENT 315 331	признан виновным
+T44	COUNTRY 376 385	Пакистана
+T45	ORGANIZATION 398 420	Высокий суд Исламабада
+T46	CITY 410 420	Исламабада
+T47	ORGANIZATION 398 409	Высокий суд
+T49	COUNTRY 562 571	Пакистана
+T50	CRIME 726 735	госизмене
+T52	PERSON 833 842	Мушаррафа
+T53	CRIME 906 946	приостановлением им действия конституции
+T54	CRIME 949 991	введением в стране чрезвычайного положения
+T55	EVENT 1014 1024	издал Указ
+T56	PROFESSION 1112 1133	политических деятелей
+T57	DATE 1281 1298	В настоящее время
+T58	PROFESSION 1306 1323	глава государства
+R1	WORKPLACE Arg1:T42 Arg2:T41	
+R2	WORKS_AS Arg1:T42 Arg2:T40	
+T8	ORDINAL 349 355	шестой
+T59	LAW 364 385	Конституции Пакистана
+T60	LAW 364 375	Конституции
+T61	LAW 935 946	конституции
+R3	AGE_IS Arg1:T52 Arg2:T19	
+R4	WORKS_AS Arg1:T52 Arg2:T20	
+R5	WORKPLACE Arg1:T1 Arg2:T31	
+R6	PARTICIPANT_IN Arg1:T31 Arg2:T32	
+T48	PENALTY 33 50	смертный приговор
+R7	WORKS_AS Arg1:T2 Arg2:T1	
+R8	WORKPLACE Arg1:T2 Arg2:T31	
+R9	HEADQUARTERED_IN Arg1:T3 Arg2:T34	
+R10	HEADQUARTERED_IN Arg1:T45 Arg2:T46	
+R11	HEADQUARTERED_IN Arg1:T13 Arg2:T49	
+R12	PLACE_RESIDES_IN Arg1:T26 Arg2:T29	
+R13	WORKS_AS Arg1:T26 Arg2:T58	
+T35	EVENT 161 178;93 98	смертный приговор вынес
+T62	PENALTY 161 178	смертный приговор
+R14	WORKS_AS Arg1:T6 Arg2:T5	
+R15	WORKS_AS Arg1:T6 Arg2:T36	
+R16	AGENT Arg1:T3 Arg2:T35	
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R18	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R19	AGENT Arg1:T42 Arg2:T37	
+R20	WORKPLACE Arg1:T40 Arg2:T41	
+R21	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+R22	PARTICIPANT_IN Arg1:T9 Arg2:T43	
+R23	PENALIZED_AS Arg1:T2 Arg2:T48	
+R24	PENALIZED_AS Arg1:T6 Arg2:T62	
+R25	ORIGINS_FROM Arg1:T59 Arg2:T44	
+T63	ORGANIZATION 533 561	Министерством внутренних дел
+R26	CONVICTED_OF Arg1:T17 Arg2:T50	
+R27	CONVICTED_OF Arg1:T52 Arg2:T53	
+R28	CONVICTED_OF Arg1:T52 Arg2:T54	
+R29	PRODUCES Arg1:T52 Arg2:T55	
+T64	EVENT 1259 1267	отставку
+R30	PARTICIPANT_IN Arg1:T26 Arg2:T64	
+R31	POINT_IN_TIME Arg1:T64 Arg2:T27	
+R32	ORIGINS_FROM Arg1:T56 Arg2:T24	
+T33	PROFESSION 4 14	президенту
+R33	WORKPLACE Arg1:T36 Arg2:T34	
+R34	WORKPLACE Arg1:T5 Arg2:T34	
+R35	PART_OF Arg1:T10 Arg2:T59	
+R36	INANIMATE_INVOLVED Arg1:T23 Arg2:T55	
+R37	PLACE_RESIDES_IN Arg1:T58 Arg2:T29	
+R38	AGENT Arg1:T38 Arg2:T37	
+N1	Reference T1 Wikidata:Q473984	президент Пакистана
+N8	Reference T26 Wikidata:Q40495	Первез Мушарраф
+N9	Reference T29 Wikidata:Q878	Объединённые Арабские Эмираты
+N10	Reference T34 Wikidata:Q843	Пакистан
+N11	Reference T36 Wikidata:Q30461	президент
+N12	Reference T38 Wikidata:Q16533	судья
+N16	Reference T46 Wikidata:Q1362	Исламабад
+N18	Reference T56 Wikidata:Q82955	политик
+N19	Reference T58 Wikidata:Q48352	глава государства
+N20	Reference T59 Wikidata:Q2518540	Конституция Пакистана
+N21	Reference T61 Wikidata:Q7755	конституция
+N2	Reference T3 Wikidata:NULL	нет данных
+N3	Reference T5 Wikidata:NULL	нет данных
+N13	Reference T40 Wikidata:NULL	нет данных
+N14	Reference T42 Wikidata:Q56651269	
+N4	Reference T10 Wikidata:NULL	нет данных
+N17	Reference T47 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	нет данных
+N22	Reference T63 Wikidata:Q6589202	министерство внутренних дел
+N5	Reference T13 Wikidata:Q6867233	
+N6	Reference T15 Wikidata:Q10674551	
+N7	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T17 Wikidata:Q40495	Первез Мушарраф
+N24	Reference T52 Wikidata:Q40495	Первез Мушарраф
+N25	Reference T9 Wikidata:Q40495	Первез Мушарраф
+N26	Reference T2 Wikidata:Q40495	Первез Мушарраф
+N27	Reference T6 Wikidata:Q40495	Первез Мушарраф
+N28	Reference T49 Wikidata:Q843	Пакистан
+N29	Reference T31 Wikidata:Q843	Пакистан
+N30	Reference T44 Wikidata:Q843	Пакистан
+N31	Reference T24 Wikidata:Q843	Пакистан
+N32	Reference T33 Wikidata:Q30461	президент
+N33	Reference T20 Wikidata:Q30461	президент
+N34	Reference T60 Wikidata:Q7755	конституция
+N35	Reference T41 Wikidata:NULL	нет данных
+N36	Reference T12 Wikidata:Q10674551	

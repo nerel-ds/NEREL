@@ -1,0 +1,115 @@
+T1	COUNTRY 2 16	Северной Корее
+T2	PROFESSION 28 40	вице-премьер
+T3	CITY 73 77	Сеул
+T4	CITY 95 100	Сеула
+T5	COUNTRY 199 210	Южной Кореи
+T6	COUNTRY 214 218	КНДР
+T7	NUMBER 275 278	два
+T8	PROFESSION 389 402	лидера страны
+T9	PERSON 403 414	Ким Чен Ына
+T10	PROFESSION 417 467	Представитель Министерства объединения Южной Кореи
+T11	ORGANIZATION 431 467	Министерства объединения Южной Кореи
+T12	PERSON 468 479	Чонг Чун Хи
+T13	PERSON 494 505	Ким Ён Чжин
+T14	PROFESSION 508 520	вице-премьер
+T15	PERSON 571 582	Чонг Чун Хи
+T16	PROFESSION 624 650	представитель министерства
+T17	PERSON 666 677	Ким Ён Чжин
+T18	DATE 693 709	в прошлом месяце
+T19	EVENT 785 805	парламентской сессии
+T20	DATE 806 812	в июне
+T21	PERSON 814 825	Ким Ён Чжин
+T22	NUMBER 926 930	двух
+T23	AGE 1006 1015	71-летний
+T24	PERSON 1016 1028	Ким Ён Чхоль
+T25	COUNTRY 1077 1091	южнокорейского
+T26	DATE 1109 1120	в 2010 году
+T27	PERSON 1167 1179	Ким Ён Чжина
+T28	PERSON 1248 1259	Ким Чен Ына
+T29	DATE 1334 1345	в 2011 году
+T30	DATE 1348 1357	В феврале
+T31	CITY 1361 1366	Сеула
+T32	PROFESSION 1384 1435	начальника генштаба северокорейских вооруженных сил
+T33	DATE 1455 1460	в мае
+T34	EVENT 17 27	расстрелян
+T35	CRIME 126 169	«антипартийные контрреволюционные» действия
+T36	IDEOLOGY 141 159	контрреволюционные
+T37	PROFESSION 263 271	чиновник
+T38	PROFESSION 102 110	сановник
+T39	PROFESSION 950 960	сановников
+T40	COUNTRY 1404 1419	северокорейских
+T41	ORGANIZATION 1395 1435	генштаба северокорейских вооруженных сил
+T42	CRIME 852 895	«антипартийных контрреволюционных» действий
+T43	COUNTRY 456 467	Южной Кореи
+T44	ORGANIZATION 638 650	министерства
+T45	EVENT 682 692	расстрелян
+T46	EVENT 219 225	казнен
+T47	EVENT 554 560	казнен
+R1	TAKES_PLACE_IN Arg1:T34 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T34	
+R4	CONVICTED_OF Arg1:T38 Arg2:T35	
+R5	WORKS_AS Arg1:T9 Arg2:T8	
+R6	WORKPLACE Arg1:T9 Arg2:T6	
+R7	TAKES_PLACE_IN Arg1:T46 Arg2:T6	
+R8	WORKS_AS Arg1:T13 Arg2:T14	
+R9	PARTICIPANT_IN Arg1:T13 Arg2:T47	
+R10	WORKPLACE Arg1:T10 Arg2:T11	
+R11	HEADQUARTERED_IN Arg1:T11 Arg2:T43	
+R12	WORKS_AS Arg1:T12 Arg2:T10	
+R13	WORKPLACE Arg1:T12 Arg2:T11	
+R14	PARTICIPANT_IN Arg1:T17 Arg2:T45	
+R15	POINT_IN_TIME Arg1:T45 Arg2:T18	
+R16	CONVICTED_OF Arg1:T21 Arg2:T42	
+R17	AGE_DIED_AT Arg1:T24 Arg2:T23	
+R18	WORKPLACE Arg1:T32 Arg2:T41	
+R19	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+T48	EVENT 115 122	осужден
+R20	PARTICIPANT_IN Arg1:T38 Arg2:T48	
+R21	HAS_CAUSE Arg1:T48 Arg2:T35	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T38	
+R22	LOCATED_IN Arg1:T4 Arg2:T5	
+R23	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R24	PARTICIPANT_IN Arg1:T37 Arg2:T46	
+R25	WORKS_AS Arg1:T13 Arg2:T37	
+R26	WORKPLACE Arg1:T16 Arg2:T44	
+R27	PARTICIPANT_IN Arg1:T17 Arg2:T19	
+R28	POINT_IN_TIME Arg1:T19 Arg2:T20	
+T49	EVENT 1317 1333	прихода к власти
+R29	PARTICIPANT_IN Arg1:T28 Arg2:T49	
+R30	POINT_IN_TIME Arg1:T49 Arg2:T29	
+R31	ALTERNATIVE_NAME Arg1:T34 Arg2:T46	
+R32	HAS_CAUSE Arg1:T45 Arg2:T42	
+R33	WORKS_AS Arg1:T24 Arg2:T39	
+R34	ALTERNATIVE_NAME Arg1:T43 Arg2:T25	
+T50	EVENT 1160 1166	смерть
+R35	PARTICIPANT_IN Arg1:T27 Arg2:T50	
+N1	Reference T5 Wikidata:Q884	Республика Корея
+N2	Reference T6 Wikidata:Q423	КНДР
+N4	Reference T9 Wikidata:Q56226	Ким Чен Ын
+N10	Reference T27 Wikidata:Q846362	Витебск
+N11	Reference T31 Wikidata:Q8684	Сеул
+N13	Reference T37 Wikidata:Q382887	чиновник
+N14	Reference T39 Wikidata:Q382887	чиновник
+N17	Reference T44 Wikidata:Q192350	министерство
+N3	Reference T8 Wikidata:NULL	нет данных
+N6	Reference T11 Wikidata:Q276612	
+N5	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:NULL	нет данных
+N15	Reference T40 Wikidata:Q423	КНДР
+N12	Reference T32 Wikidata:NULL	нет данных
+N16	Reference T41 Wikidata:NULL	нет данных
+N18	Reference T25 Wikidata:Q884	Республика Корея
+N19	Reference T43 Wikidata:Q884	Республика Корея
+N20	Reference T1 Wikidata:Q423	КНДР
+N21	Reference T28 Wikidata:Q56226	Ким Чен Ын
+N22	Reference T13 Wikidata:Q846362	Витебск
+N23	Reference T17 Wikidata:Q846362	Витебск
+N24	Reference T21 Wikidata:Q846362	Витебск
+N25	Reference T4 Wikidata:Q8684	Сеул
+N26	Reference T3 Wikidata:Q8684	Сеул
+N27	Reference T14 Wikidata:Q382887	чиновник
+N28	Reference T2 Wikidata:Q382887	чиновник
+N29	Reference T38 Wikidata:Q382887	чиновник
+N30	Reference T12 Wikidata:NULL	нет данных

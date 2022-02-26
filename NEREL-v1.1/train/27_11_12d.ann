@@ -1,0 +1,252 @@
+T1	PROFESSION 0 36	Глава Комиссии по ценным бумагам США
+T3	PERSON 37 45	М.Шапиро
+T4	PROFESSION 65 101	Глава Комиссии по ценным бумагам США
+T5	PERSON 102 110	М.Шапиро
+T6	PERSON 131 142	Мэри Шапиро
+T7	ORGANIZATION 157 196	Комиссию США по ценным бумагам и биржам
+T8	ORGANIZATION 198 201	SEC
+T9	ORGANIZATION 258 272	New York Times
+T10	COUNTRY 339 342	США
+T11	PERSON 343 355	Барака Обамы
+T12	PROFESSION 397 411	глава Комиссии
+T13	DATE 438 445	На днях
+T14	ORGANIZATION 446 454	Комиссия
+T15	ORGANIZATION 472 481	Белый Дом
+T16	ORGANIZATION 484 496	Казначейство
+T18	PERSON 502 510	М.Шапиро
+T19	DATE 529 547	в следующем месяце
+T20	ORDINAL 570 576	первым
+T21	PERSON 598 605	Б.Обамы
+T23	PERSON 662 670	М.Шапиро
+T24	NUMBER 702 706	пяти
+T25	ORGANIZATION 714 777	комиссии по надзору за Уолл-стрит и другими финансовыми рынками
+T26	ORGANIZATION 737 747	Уолл-стрит
+T28	PERSON 810 818	М.Шапиро
+T29	PROFESSION 886 919	заместителя министра финансов США
+T30	PERSON 920 931	Мэри Миллер
+T32	ORGANIZATION 975 990	Bank of America
+T33	PERSON 991 1004	Салли Кравчек
+T34	PROFESSION 1006 1018	Директор SEC
+T35	PERSON 1030 1043	Роберт Кузами
+T36	PROFESSION 1154 1168	главы Комиссии
+T37	PROFESSION 1185 1197	Комиссар SEC
+T38	PERSON 1198 1210	Эллис Уолтер
+T39	AGE 1289 1298	57-летняя
+T41	PERSON 1299 1307	М.Шапиро
+T42	DATE 1369 1379	ноябрьских
+T44	PERSON 1404 1411	Б.Обама
+T46	PERSON 1421 1429	М.Шапиро
+T47	ORGANIZATION 1437 1440	SEC
+T48	DATE 1441 1458	четыре года назад
+T49	DATE 1559 1564	2008г
+T50	ORGANIZATION 1566 1592	Комиссию по ценным бумагам
+T51	ORGANIZATION 1650 1665	Lehman Brothers
+T52	EVENT 1768 1785	Великой депрессии
+T53	DATE 1800 1822	за несколько недель до
+T55	PERSON 1832 1840	М.Шапиро
+T57	PERSON 1877 1891	Бернард Мэдофф
+T58	PERSON 2084 2094	Харви Питт
+T59	PROFESSION 2117 2126	главы SEC
+T60	PROFESSION 2131 2141	президенте
+T61	PERSON 2142 2154	Джордже Буше
+T62	ORGANIZATION 2206 2232	Комиссия по ценным бумагам
+T64	PERSON 2305 2313	М.Шапиро
+T65	PROFESSION 2355 2369	главе Комиссии
+T66	ORGANIZATION 2473 2483	Уолл-стрит
+T67	ORGANIZATION 2498 2506	Комиссия
+T68	ORGANIZATION 2645 2648	SEC
+T69	DATE 2676 2697	за последние два года
+T70	ORGANIZATION 6 36	Комиссии по ценным бумагам США
+T71	COUNTRY 33 36	США
+T2	ORGANIZATION 71 101	Комиссии по ценным бумагам США
+T72	COUNTRY 98 101	США
+T73	ORGANIZATION 314 342	администрации президента США
+T74	PROFESSION 328 342	президента США
+T75	ORGANIZATION 403 411	Комиссии
+T17	PROFESSION 898 919	министра финансов США
+T22	COUNTRY 916 919	США
+T27	ORGANIZATION 963 972	Citigroup
+T76	ORGANIZATION 1015 1018	SEC
+T77	ORGANIZATION 1160 1168	Комиссии
+T78	ORGANIZATION 1194 1197	SEC
+T40	EVENT 1380 1401	президентских выборов
+T79	PROFESSION 1380 1393	президентских
+T43	EVENT 1539 1558	финансовым кризисом
+T45	ORGANIZATION 2123 2126	SEC
+T54	ORGANIZATION 2361 2369	Комиссии
+T56	PROFESSION 2778 2791	топ-менеджеру
+T63	ORGANIZATION 6 32	Комиссии по ценным бумагам
+R1	WORKS_AS Arg1:T3 Arg2:T1	
+R2	WORKPLACE Arg1:T3 Arg2:T70	
+T80	EVENT 46 64	покидает свой пост
+R3	AGENT Arg1:T3 Arg2:T80	
+T81	EVENT 111 129	покидает свой пост
+R4	AGENT Arg1:T5 Arg2:T81	
+R5	WORKS_AS Arg1:T5 Arg2:T4	
+T82	ORGANIZATION 71 97	Комиссии по ценным бумагам
+R6	WORKPLACE Arg1:T5 Arg2:T2	
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R8	ABBREVIATION Arg1:T7 Arg2:T8	
+T83	COUNTRY 166 169	США
+R9	WORKPLACE Arg1:T6 Arg2:T7	
+T84	EVENT 230 247	покинет свой пост
+R10	PARTICIPANT_IN Arg1:T6 Arg2:T84	
+R11	WORKS_AS Arg1:T11 Arg2:T74	
+R12	WORKPLACE Arg1:T11 Arg2:T10	
+R13	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+T85	EVENT 511 528	покинет свой пост
+R14	AGENT Arg1:T18 Arg2:T85	
+R15	POINT_IN_TIME Arg1:T85 Arg2:T19	
+R16	WORKPLACE Arg1:T18 Arg2:T14	
+R17	SUBORDINATE_OF Arg1:T18 Arg2:T21	
+R18	ALTERNATIVE_NAME Arg1:T11 Arg2:T21	
+T86	PROFESSION 949 972	топ-менеджера Citigroup
+T87	PROFESSION 949 962;975 990	топ-менеджера Bank of America
+R19	WORKPLACE Arg1:T33 Arg2:T32	
+R20	WORKS_AS Arg1:T33 Arg2:T87	
+R21	WORKPLACE Arg1:T33 Arg2:T27	
+R22	WORKS_AS Arg1:T33 Arg2:T87	
+R23	WORKS_AS Arg1:T30 Arg2:T29	
+R24	SUBORDINATE_OF Arg1:T30 Arg2:T17	
+T88	PROFESSION 1006 1029	Директор SEC по надзору
+R25	WORKS_AS Arg1:T35 Arg2:T88	
+R26	WORKPLACE Arg1:T35 Arg2:T76	
+R27	WORKS_AS Arg1:T38 Arg2:T37	
+R28	WORKPLACE Arg1:T38 Arg2:T78	
+R29	AGE_IS Arg1:T41 Arg2:T39	
+T89	PROFESSION 1430 1440	главой SEC
+T90	EVENT 209 228	финансового кризиса
+R30	WORKS_AS Arg1:T38 Arg2:T36	
+R31	WORKS_AS Arg1:T61 Arg2:T60	
+R32	WORKS_AS Arg1:T58 Arg2:T59	
+R33	WORKPLACE Arg1:T58 Arg2:T45	
+R34	POINT_IN_TIME Arg1:T43 Arg2:T49	
+T91	EVENT 1412 1420	назначил
+R35	AGENT Arg1:T44 Arg2:T91	
+R36	PARTICIPANT_IN Arg1:T46 Arg2:T91	
+R37	WORKS_AS Arg1:T46 Arg2:T89	
+R38	WORKPLACE Arg1:T46 Arg2:T47	
+R39	POINT_IN_TIME Arg1:T91 Arg2:T48	
+R40	WORKPLACE Arg1:T23 Arg2:T25	
+R41	POINT_IN_TIME Arg1:T40 Arg2:T42	
+R42	ABBREVIATION Arg1:T50 Arg2:T47	
+R43	WORKPLACE Arg1:T1 Arg2:T70	
+R44	HEADQUARTERED_IN Arg1:T70 Arg2:T71	
+R45	WORKPLACE Arg1:T4 Arg2:T2	
+R46	HEADQUARTERED_IN Arg1:T2 Arg2:T72	
+R47	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R48	HEADQUARTERED_IN Arg1:T7 Arg2:T83	
+R49	WORKPLACE Arg1:T74 Arg2:T10	
+R50	WORKPLACE Arg1:T12 Arg2:T75	
+R51	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R52	SUBORDINATE_OF Arg1:T29 Arg2:T17	
+R53	WORKPLACE Arg1:T17 Arg2:T22	
+R54	WORKPLACE Arg1:T29 Arg2:T22	
+R55	WORKPLACE Arg1:T86 Arg2:T27	
+T31	COUNTRY 983 990	America
+R56	HEADQUARTERED_IN Arg1:T32 Arg2:T31	
+T92	PROFESSION 949 962	топ-менеджера
+R57	WORKPLACE Arg1:T36 Arg2:T77	
+R58	WORKPLACE Arg1:T88 Arg2:T76	
+R59	WORKPLACE Arg1:T37 Arg2:T78	
+R60	WORKPLACE Arg1:T89 Arg2:T47	
+T93	CRIME 1906 1922	финансовой афере
+R61	CONVICTED_OF Arg1:T57 Arg2:T93	
+T94	PENALTY 1938 1953	тюремному сроку
+R62	PENALIZED_AS Arg1:T57 Arg2:T94	
+R63	HAS_CAUSE Arg1:T94 Arg2:T93	
+R64	WORKPLACE Arg1:T59 Arg2:T45	
+R65	WORKPLACE Arg1:T65 Arg2:T54	
+R66	PARTICIPANT_IN Arg1:T70 Arg2:T80	
+R67	PARTICIPANT_IN Arg1:T2 Arg2:T81	
+R68	TAKES_PLACE_IN Arg1:T80 Arg2:T71	
+R69	TAKES_PLACE_IN Arg1:T81 Arg2:T72	
+R70	PARTICIPANT_IN Arg1:T7 Arg2:T84	
+R71	TAKES_PLACE_IN Arg1:T84 Arg2:T83	
+T95	CITY 258 266	New York
+R72	HEADQUARTERED_IN Arg1:T9 Arg2:T95	
+R73	FOUNDED_BY Arg1:T73 Arg2:T74	
+R74	HEADQUARTERED_IN Arg1:T15 Arg2:T10	
+R75	HEADQUARTERED_IN Arg1:T16 Arg2:T10	
+R76	PARTICIPANT_IN Arg1:T47 Arg2:T91	
+R77	ALTERNATIVE_NAME Arg1:T62 Arg2:T54	
+T96	EVENT 144 156	возглавившая
+R78	AGENT Arg1:T6 Arg2:T96	
+R79	PARTICIPANT_IN Arg1:T7 Arg2:T96	
+R80	HEADQUARTERED_IN Arg1:T73 Arg2:T10	
+R81	TAKES_PLACE_IN Arg1:T90 Arg2:T83	
+R82	LOCATED_IN Arg1:T95 Arg2:T83	
+N1	Reference T9 Wikidata:Q9684	The New York Times
+N2	Reference T11 Wikidata:Q76	Барак Обама
+N3	Reference T15 Wikidata:Q35525	Белый дом
+N5	Reference T25 Wikidata:Q202750	Комиссия по надзору за финансовым сектором
+N6	Reference T26 Wikidata:Q11690	Уолл-стрит
+N8	Reference T32 Wikidata:Q487907	Bank of America
+N14	Reference T51 Wikidata:Q212900	Lehman Brothers
+N18	Reference T60 Wikidata:Q30461	президент
+N19	Reference T61 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N20	Reference T62 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N22	Reference T73 Wikidata:Q1355327	Исполнительный офис Президента США
+N23	Reference T74 Wikidata:Q11696	президент США
+N24	Reference T17 Wikidata:Q4215834	министр финансов США
+N25	Reference T22 Wikidata:Q30	США
+N26	Reference T27 Wikidata:Q219508	Citigroup
+N28	Reference T56 Wikidata:Q2462658	менеджер
+N33	Reference T95 Wikidata:Q2039364	Нью-Йорк, Нью-Йорк
+N34	Reference T8 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N4	Reference T16 Wikidata:Q648666	Министерство финансов США
+N7	Reference T29 Wikidata:NULL	нет данных
+N35	Reference T30 Wikidata:Q101204553	
+N9	Reference T33 Wikidata:Q531496	
+N32	Reference T31 Wikidata:Q30	США
+N30	Reference T87 Wikidata:NULL	нет данных
+N29	Reference T86 Wikidata:NULL	нет данных
+N36	Reference T76 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N11	Reference T35 Wikidata:Q7346345	
+N10	Reference T34 Wikidata:NULL	нет данных
+N31	Reference T88 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:NULL	нет данных
+N13	Reference T38 Wikidata:NULL	нет данных
+N27	Reference T79 Wikidata:Q30461	президент
+N21	Reference T65 Wikidata:NULL	нет данных
+N17	Reference T58 Wikidata:NULL	нет данных
+N37	Reference T59 Wikidata:NULL	нет данных
+N15	Reference T55 Wikidata:NULL	нет данных
+N16	Reference T57 Wikidata:Q14043	
+N38	Reference T44 Wikidata:Q76	Барак Обама
+N39	Reference T21 Wikidata:Q76	Барак Обама
+N40	Reference T66 Wikidata:Q11690	Уолл-стрит
+N41	Reference T77 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N42	Reference T75 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N43	Reference T63 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N44	Reference T67 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N45	Reference T54 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N46	Reference T82 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N47	Reference T10 Wikidata:Q30	США
+N48	Reference T72 Wikidata:Q30	США
+N49	Reference T71 Wikidata:Q30	США
+N50	Reference T83 Wikidata:Q30	США
+N51	Reference T92 Wikidata:Q2462658	менеджер
+N52	Reference T14 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N53	Reference T7 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N54	Reference T70 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N55	Reference T2 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N56	Reference T45 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N57	Reference T68 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N58	Reference T47 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N59	Reference T78 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N60	Reference T50 Wikidata:Q953944	Комиссия по ценным бумагам и биржам
+N61	Reference T4 Wikidata:NULL	нет данных
+N62	Reference T36 Wikidata:NULL	нет данных
+N63	Reference T12 Wikidata:NULL	нет данных
+N64	Reference T1 Wikidata:NULL	нет данных
+N65	Reference T89 Wikidata:NULL	нет данных
+N66	Reference T5 Wikidata:NULL	нет данных
+N67	Reference T28 Wikidata:NULL	нет данных
+N68	Reference T23 Wikidata:NULL	нет данных
+N69	Reference T46 Wikidata:NULL	нет данных
+N70	Reference T41 Wikidata:NULL	нет данных
+N71	Reference T18 Wikidata:NULL	нет данных
+N72	Reference T6 Wikidata:NULL	нет данных
+N73	Reference T64 Wikidata:NULL	нет данных
+N74	Reference T3 Wikidata:NULL	нет данных

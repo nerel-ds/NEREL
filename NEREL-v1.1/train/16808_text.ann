@@ -1,0 +1,194 @@
+T1	PROFESSION 23 33	президента
+T2	PROFESSION 63 78	Пресс-секретарь
+T3	PERSON 100 129	Кристины Фернандес де Киршнер
+T4	DATE 180 191	месяц назад
+T5	AGE 213 222	58-летняя
+T6	PROFESSION 223 232	президент
+T7	DATE 243 250	в среду
+T8	PROFESSION 375 390	пресс-секретарь
+T9	PERSON 402 422	Альфредо Скоссимарро
+T10	DATE 430 439	в субботу
+T11	CITY 694 700	Пиларе
+T12	PROFESSION 757 767	президента
+T13	PERSON 786 804	Кристина Фернандес
+T14	ORDINAL 811 817	первой
+T15	COUNTRY 828 837	Аргентины
+T16	DATE 873 892	в декабре 2007 года
+T17	DATE 915 932	в прошлом октябре
+T18	PERCENT 935 948	54 процентным
+T20	PROFESSION 1097 1106	президент
+T21	LOCATION 1109 1126	Латинской Америке
+T22	PROFESSION 1160 1169	Президент
+T23	PERSON 1179 1192	Дилма Руссефф
+T24	DATE 1261 1283	в январе прошлого года
+T25	PROFESSION 1286 1295	Президент
+T26	PERSON 1306 1315	Уго Чавес
+T27	DATE 1316 1330	в прошлом году
+T28	COUNTRY 1334 1338	Кубе
+T29	PERSON 1385 1390	Чавес
+T31	PERSON 1496 1509	Луис да Силва
+T32	DATE 1535 1549	в прошлом году
+T33	PERCENT 1600 1612	75 процентов
+T34	PROFESSION 1620 1629	президент
+T35	PERSON 1640 1649	Фернандес
+T36	PROFESSION 1684 1698	вице-президент
+T38	PERSON 1778 1787	Фернандес
+T40	PROFESSION 1824 1835	президентом
+T42	PERSON 1870 1884	Нестор Киршнер
+T43	DATE 1895 1906	в 2010 году
+T44	PROFESSION 23 43	президента Аргентины
+T45	COUNTRY 34 43	Аргентины
+T46	PROFESSION 63 99	Пресс-секретарь президента Аргентины
+T47	PROFESSION 79 99	президента Аргентины
+T48	PROFESSION 79 89	президента
+T50	PROFESSION 375 401	пресс-секретарь президента
+T51	PROFESSION 391 401	президента
+T53	PROFESSION 847 858	президентом
+T54	PROFESSION 1063 1078	Лидер Аргентины
+T55	PROFESSION 1160 1178	Президент Бразилии
+T56	PROFESSION 1286 1305	Президент Венесуэлы
+T58	PROFESSION 1477 1495	президент Бразилии
+T59	PROFESSION 1477 1486	президент
+T60	PROFESSION 1620 1639	президент Венесуэлы
+T62	PROFESSION 1732 1742	президента
+T63	COUNTRY 90 99	Аргентины
+T64	EVENT 251 289	операцию по удалению щитовидной железы
+T65	PROFESSION 307 312	врачи
+T66	DISEASE 344 347	рак
+T67	DISEASE 344 365	рак щитовидной железы
+T68	PROFESSION 511 516	Врачи
+T69	EVENT 718 726	операция
+T70	EVENT 865 872	выборов
+T71	EVENT 903 914	переизбрана
+T72	COUNTRY 1069 1078	Аргентины
+T73	DISEASE 1155 1158	рак
+T74	COUNTRY 1170 1178	Бразилии
+T75	DISEASE 1205 1209	рака
+T76	DISEASE 1205 1229	рака лимфатических узлов
+T77	DISEASE 1368 1383	раковой опухоли
+T78	DISEASE 1453 1457	рака
+T79	EVENT 1253 1260	избрана
+T80	COUNTRY 1296 1305	Венесуэлы
+T81	COUNTRY 1487 1495	Бразилии
+T82	PROFESSION 1551 1556	врачи
+T83	COUNTRY 1630 1639	Венесуэлы
+T84	PERSON 1699 1709	Амадо Будо
+T37	EVENT 1885 1894	скончался
+R1	WORKPLACE Arg1:T44 Arg2:T45	
+R2	WORKPLACE Arg1:T47 Arg2:T63	
+R3	SUBORDINATE_OF Arg1:T46 Arg2:T47	
+R4	WORKS_AS Arg1:T3 Arg2:T47	
+R5	AGE_IS Arg1:T3 Arg2:T5	
+R6	AGE_IS Arg1:T6 Arg2:T5	
+R7	WORKS_AS Arg1:T3 Arg2:T6	
+R8	PARTICIPANT_IN Arg1:T3 Arg2:T64	
+R9	POINT_IN_TIME Arg1:T64 Arg2:T7	
+R10	PARTICIPANT_IN Arg1:T6 Arg2:T64	
+R11	MEDICAL_CONDITION Arg1:T6 Arg2:T67	
+R12	MEDICAL_CONDITION Arg1:T3 Arg2:T67	
+R13	SUBORDINATE_OF Arg1:T50 Arg2:T51	
+R14	ALTERNATIVE_NAME Arg1:T47 Arg2:T51	
+R15	WORKS_AS Arg1:T9 Arg2:T50	
+R16	TAKES_PLACE_IN Arg1:T64 Arg2:T11	
+R17	ALTERNATIVE_NAME Arg1:T64 Arg2:T69	
+R18	TAKES_PLACE_IN Arg1:T69 Arg2:T11	
+R19	ALTERNATIVE_NAME Arg1:T3 Arg2:T13	
+R20	WORKS_AS Arg1:T13 Arg2:T53	
+R21	WORKPLACE Arg1:T53 Arg2:T15	
+R22	WORKPLACE Arg1:T13 Arg2:T15	
+R23	PARTICIPANT_IN Arg1:T13 Arg2:T70	
+R24	TAKES_PLACE_IN Arg1:T70 Arg2:T15	
+R25	POINT_IN_TIME Arg1:T70 Arg2:T16	
+R26	PARTICIPANT_IN Arg1:T13 Arg2:T71	
+R27	POINT_IN_TIME Arg1:T71 Arg2:T17	
+R28	WORKPLACE Arg1:T54 Arg2:T72	
+R29	ALTERNATIVE_NAME Arg1:T47 Arg2:T54	
+R30	LOCATED_IN Arg1:T72 Arg2:T21	
+R31	MEDICAL_CONDITION Arg1:T54 Arg2:T73	
+R32	WORKPLACE Arg1:T55 Arg2:T74	
+R33	WORKS_AS Arg1:T23 Arg2:T55	
+R34	WORKPLACE Arg1:T23 Arg2:T74	
+R35	MEDICAL_CONDITION Arg1:T23 Arg2:T76	
+R36	PARTICIPANT_IN Arg1:T23 Arg2:T79	
+R37	POINT_IN_TIME Arg1:T79 Arg2:T24	
+R38	TAKES_PLACE_IN Arg1:T79 Arg2:T74	
+R39	WORKPLACE Arg1:T56 Arg2:T80	
+R40	WORKS_AS Arg1:T26 Arg2:T56	
+R41	WORKPLACE Arg1:T26 Arg2:T80	
+T19	EVENT 1347 1383	операцию по удалению раковой опухоли
+R42	PARTICIPANT_IN Arg1:T26 Arg2:T19	
+R43	MEDICAL_CONDITION Arg1:T26 Arg2:T77	
+R44	TAKES_PLACE_IN Arg1:T19 Arg2:T28	
+R45	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+R46	MEDICAL_CONDITION Arg1:T29 Arg2:T78	
+R47	ALTERNATIVE_NAME Arg1:T77 Arg2:T78	
+R48	WORKPLACE Arg1:T58 Arg2:T81	
+R49	WORKS_AS Arg1:T31 Arg2:T58	
+R50	WORKPLACE Arg1:T31 Arg2:T81	
+T30	EVENT 1517 1534	курс химиотерапии
+R51	PARTICIPANT_IN Arg1:T31 Arg2:T30	
+R52	POINT_IN_TIME Arg1:T30 Arg2:T32	
+T39	DISEASE 1589 1596	опухоль
+R53	MEDICAL_CONDITION Arg1:T31 Arg2:T39	
+R54	WORKS_AS Arg1:T35 Arg2:T60	
+R55	WORKPLACE Arg1:T35 Arg2:T83	
+R56	WORKPLACE Arg1:T60 Arg2:T83	
+R57	WORKS_AS Arg1:T84 Arg2:T36	
+R58	ALTERNATIVE_NAME Arg1:T13 Arg2:T35	
+R59	SPOUSE Arg1:T38 Arg2:T42	
+R60	DATE_OF_DEATH Arg1:T42 Arg2:T43	
+R61	PARTICIPANT_IN Arg1:T42 Arg2:T37	
+R62	POINT_IN_TIME Arg1:T37 Arg2:T43	
+R63	LOCATED_IN Arg1:T74 Arg2:T21	
+T41	LOCATION 1119 1126	Америке
+R64	LOCATED_IN Arg1:T21 Arg2:T41	
+R65	LOCATED_IN Arg1:T80 Arg2:T21	
+N3	Reference T21 Wikidata:Q12585	Латинская Америка
+N4	Reference T23 Wikidata:Q40722	Дилма Русеф
+N5	Reference T26 Wikidata:Q8440	Уго Чавес
+N6	Reference T28 Wikidata:Q241	Куба
+N7	Reference T31 Wikidata:Q16300369	Да Силва, Луис
+N9	Reference T42 Wikidata:Q170899	Нестор Киршнер
+N12	Reference T58 Wikidata:Q5176750	президент Бразилии
+N13	Reference T62 Wikidata:Q30461	президент
+N14	Reference T63 Wikidata:Q414	Аргентина
+N15	Reference T65 Wikidata:Q39631	врач
+N16	Reference T81 Wikidata:Q155	Бразилия
+N17	Reference T83 Wikidata:Q717	Венесуэла
+N10	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T8 Wikidata:Q17221	
+N11	Reference T50 Wikidata:NULL	нет данных
+N1	Reference T9 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:Q1786597	Пилар
+N20	Reference T41 Wikidata:Q828	
+N21	Reference T35 Wikidata:Q40649	Кристина Фернандес де Киршнер
+N8	Reference T36 Wikidata:Q42178	вице-президент
+N18	Reference T84 Wikidata:Q452112	
+N22	Reference T29 Wikidata:Q8440	Уго Чавес
+N23	Reference T55 Wikidata:Q5176750	президент Бразилии
+N24	Reference T40 Wikidata:Q30461	президент
+N25	Reference T22 Wikidata:Q30461	президент
+N26	Reference T51 Wikidata:Q30461	президент
+N27	Reference T44 Wikidata:Q30461	президент
+N28	Reference T20 Wikidata:Q30461	президент
+N29	Reference T53 Wikidata:Q30461	президент
+N30	Reference T12 Wikidata:Q30461	президент
+N31	Reference T59 Wikidata:Q30461	президент
+N32	Reference T25 Wikidata:Q30461	президент
+N33	Reference T34 Wikidata:Q30461	президент
+N34	Reference T47 Wikidata:Q30461	президент
+N35	Reference T48 Wikidata:Q30461	президент
+N36	Reference T54 Wikidata:Q30461	президент
+N37	Reference T6 Wikidata:Q30461	президент
+N38	Reference T1 Wikidata:Q30461	президент
+N39	Reference T72 Wikidata:Q414	Аргентина
+N40	Reference T45 Wikidata:Q414	Аргентина
+N41	Reference T15 Wikidata:Q414	Аргентина
+N42	Reference T82 Wikidata:Q39631	врач
+N43	Reference T68 Wikidata:Q39631	врач
+N44	Reference T74 Wikidata:Q155	Бразилия
+N45	Reference T80 Wikidata:Q717	Венесуэла
+N46	Reference T2 Wikidata:Q17221	
+N47	Reference T13 Wikidata:Q40649	Кристина Фернандес де Киршнер
+N48	Reference T38 Wikidata:Q40649	Кристина Фернандес де Киршнер
+N49	Reference T3 Wikidata:Q40649	Кристина Фернандес де Киршнер

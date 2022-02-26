@@ -1,0 +1,214 @@
+T1	CITY 2 10	Солсбери
+T2	COUNTRY 33 39	России
+T4	FACILITY 51 74	Церковь Святого Мартина
+T5	CITY 77 85	Солсбери
+T6	FACILITY 87 106	Church of St Martin
+T7	CITY 108 117	Salisbury
+T9	COUNTRY 173 183	британском
+T10	CITY 184 192	Солсбери
+T12	PERSON 234 249	Сергей Скрипаль
+T13	PERSON 261 265	Юлия
+T14	DATE 291 311	13 октября 2018 года
+T15	FACILITY 314 336	Церкви Святого Мартина
+T16	FACILITY 338 357	Church of St Martin
+T17	CITY 359 368	Salisbury
+T18	NUMBER 372 387	трёх километрах
+T20	NUMBER 436 453	нескольких метрах
+T21	NATIONALITY 537 544	русских
+T22	PERSON 569 586	Сергей Рахманинов
+T23	PERSON 588 603	Пётр Чайковский
+T24	PERSON 606 624	Дмитрий Шостакович
+T25	PROFESSION 660 675	исполнительница
+T26	PERSON 677 688	Гилл Болтон
+T27	PERSON 690 701	Gill Bolton
+T28	DATE 748 764	более года назад
+T29	CITY 801 809	Солсбери
+T30	PERSON 866 878	Яна Флеминга
+T32	PERSON 907 920	Джеймса Бонда
+T33	COUNTRY 946 955	советским
+T34	PERSON 1167 1171	Глин
+T35	FAMILY 1198 1207	Скрипалей
+T36	COUNTRY 1210 1224	Великобритании
+T37	PRODUCT 1262 1269	Новичок
+T38	PRODUCT 1303 1313	Nina Ricci
+T39	FAMILY 1330 1339	Скрипалей
+T40	NATIONALITY 1355 1362	россиян
+T41	ORGANIZATION 1387 1390	ГРУ
+T42	PERSON 1422 1436	Руслан Боширов
+T43	PERSON 1439 1455	Александр Петров
+T44	PERSON 1485 1501	Руслане Боширове
+T45	AGE 1502 1512	39-летнего
+T46	PROFESSION 1513 1523	полковника
+T47	PERSON 1541 1570	Анатолия Владимировича Чепигу
+T48	PROFESSION 1574 1583	президент
+T49	PERSON 1591 1605	Владимир Путин
+T50	PERSON 1613 1621	Скрипаля
+T51	EVENT 21 28	концерт
+T3	EVENT 30 49	Из России с любовью
+T52	EVENT 21 49	концерт «Из России с любовью
+T53	PERSON 59 74	Святого Мартина
+T54	PERSON 97 106	St Martin
+T55	EVENT 119 126	Концерт
+T8	EVENT 142 161	Из России с любовью
+T56	COUNTRY 145 151	России
+T57	EVENT 203 212	отравлены
+T58	PROFESSION 220 233	полковник ГРУ
+T59	PROFESSION 220 229	полковник
+T60	ORGANIZATION 230 233	ГРУ
+T61	EVENT 269 280	Мероприятие
+T62	PERSON 321 336	Святого Мартина
+T63	PERSON 348 357	St Martin
+T19	PERSON 396 404	Скрипаля
+T64	EVENT 485 493	концерта
+T65	PROFESSION 494 502	пианисты
+T66	PROFESSION 545 557	композиторов
+T67	EVENT 649 657	концерта
+T68	EVENT 717 728	выступление
+T69	EVENT 786 798	отравлениями
+T70	EVENT 821 829	концерта
+T71	PROFESSION 956 963	шпионом
+T72	ORGANIZATION 903 906	MI6
+T73	PROFESSION 896 906	агента MI6
+T74	PROFESSION 1184 1196	следователей
+T75	EVENT 1225 1233	отравили
+T76	EVENT 1319 1329	отравлении
+T77	CITY 1340 1346	Лондон
+T78	PROFESSION 1374 1390	сотрудниками ГРУ
+T79	PROFESSION 1463 1473	журналисты
+T80	PROFESSION 1513 1527	полковника ГРУ
+T81	ORGANIZATION 1524 1527	ГРУ
+T82	AWARD 1528 1540	Героя России
+T83	COUNTRY 1534 1540	России
+T84	PROFESSION 1574 1590	президент России
+T85	COUNTRY 1584 1590	России
+R1	LOCATED_IN Arg1:T4 Arg2:T5	
+R2	LOCATED_IN Arg1:T10 Arg2:T9	
+R3	PARENT_OF Arg1:T12 Arg2:T13	
+R4	WORKPLACE Arg1:T58 Arg2:T60	
+R5	WORKS_AS Arg1:T12 Arg2:T58	
+R6	WORKPLACE Arg1:T12 Arg2:T60	
+R7	PARTICIPANT_IN Arg1:T12 Arg2:T57	
+R8	PARTICIPANT_IN Arg1:T13 Arg2:T57	
+R9	TAKES_PLACE_IN Arg1:T57 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R11	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R12	ORIGINS_FROM Arg1:T66 Arg2:T21	
+R13	WORKS_AS Arg1:T22 Arg2:T66	
+R14	WORKS_AS Arg1:T23 Arg2:T66	
+R15	WORKS_AS Arg1:T24 Arg2:T66	
+R16	PARTICIPANT_IN Arg1:T35 Arg2:T75	
+R17	TAKES_PLACE_IN Arg1:T75 Arg2:T36	
+R18	WORKPLACE Arg1:T84 Arg2:T85	
+R19	WORKS_AS Arg1:T49 Arg2:T84	
+R20	WORKPLACE Arg1:T49 Arg2:T85	
+R21	WORKPLACE Arg1:T80 Arg2:T81	
+R22	ORIGINS_FROM Arg1:T82 Arg2:T83	
+R23	AWARDED_WITH Arg1:T47 Arg2:T82	
+R24	WORKS_AS Arg1:T47 Arg2:T80	
+R25	WORKPLACE Arg1:T47 Arg2:T81	
+R26	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R27	ALTERNATIVE_NAME Arg1:T62 Arg2:T63	
+R28	LOCATED_IN Arg1:T6 Arg2:T7	
+R29	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R30	ORIGINS_FROM Arg1:T22 Arg2:T21	
+R31	ORIGINS_FROM Arg1:T23 Arg2:T21	
+R32	ORIGINS_FROM Arg1:T24 Arg2:T21	
+R33	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R35	WORKPLACE Arg1:T78 Arg2:T41	
+R36	MEMBER_OF Arg1:T12 Arg2:T39	
+R37	MEMBER_OF Arg1:T13 Arg2:T39	
+R38	TAKES_PLACE_IN Arg1:T52 Arg2:T1	
+R39	TAKES_PLACE_IN Arg1:T8 Arg2:T10	
+T11	EVENT 786 809	отравлениями в Солсбери
+R34	TAKES_PLACE_IN Arg1:T11 Arg2:T29	
+R40	ALTERNATIVE_NAME Arg1:T57 Arg2:T11	
+R41	ALTERNATIVE_NAME Arg1:T55 Arg2:T8	
+R42	ALTERNATIVE_NAME Arg1:T52 Arg2:T55	
+R43	ALTERNATIVE_NAME Arg1:T55 Arg2:T61	
+R44	POINT_IN_TIME Arg1:T61 Arg2:T14	
+R45	TAKES_PLACE_IN Arg1:T61 Arg2:T15	
+R46	ALTERNATIVE_NAME Arg1:T61 Arg2:T64	
+R47	PARTICIPANT_IN Arg1:T65 Arg2:T64	
+R48	ALTERNATIVE_NAME Arg1:T64 Arg2:T67	
+R50	WORKS_AS Arg1:T26 Arg2:T25	
+R49	ORGANIZES Arg1:T26 Arg2:T67	
+R51	ALTERNATIVE_NAME Arg1:T67 Arg2:T68	
+R52	WORKS_AS Arg1:T32 Arg2:T73	
+R53	WORKPLACE Arg1:T32 Arg2:T72	
+R54	LOCATED_IN Arg1:T77 Arg2:T36	
+T86	EVENT 1319 1339	отравлении Скрипалей
+R55	PARTICIPANT_IN Arg1:T39 Arg2:T86	
+R56	WORKS_AS Arg1:T42 Arg2:T78	
+R57	WORKS_AS Arg1:T43 Arg2:T78	
+R58	WORKPLACE Arg1:T42 Arg2:T41	
+R59	WORKPLACE Arg1:T43 Arg2:T41	
+R60	AGE_IS Arg1:T47 Arg2:T45	
+R61	ALTERNATIVE_NAME Arg1:T44 Arg2:T47	
+R62	LOCATED_IN Arg1:T16 Arg2:T17	
+R63	ORIGINS_FROM Arg1:T71 Arg2:T33	
+R64	ALTERNATIVE_NAME Arg1:T9 Arg2:T36	
+R65	WORKPLACE Arg1:T73 Arg2:T72	
+R66	ORIGINS_FROM Arg1:T42 Arg2:T40	
+R67	ORIGINS_FROM Arg1:T43 Arg2:T40	
+N2	Reference T10 Wikidata:Q160642	Солсбери
+N3	Reference T12 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N5	Reference T15 Wikidata:Q36873663	Церковь Святого Мартина, Солсбери
+N7	Reference T22 Wikidata:Q131861	Сергей Васильевич Рахманинов
+N8	Reference T23 Wikidata:Q7315	Пётр Ильич Чайковский
+N9	Reference T24 Wikidata:Q80135	Дмитрий Шостакович
+N10	Reference T25 Wikidata:Q713200	исполнитель
+N12	Reference T30 Wikidata:Q82104	Ян Флеминг
+N14	Reference T33 Wikidata:Q15180	СССР
+N16	Reference T36 Wikidata:Q145	Великобритания
+N17	Reference T37 Wikidata:Q826629	Новичок
+N18	Reference T38 Wikidata:Q1439858	Nina Ricci
+N19	Reference T40 Wikidata:Q492468	россияне
+N20	Reference T42 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N22	Reference T47 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N23	Reference T48 Wikidata:Q30461	президент
+N24	Reference T49 Wikidata:Q7747	Владимир Владимирович Путин
+N25	Reference T50 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N28	Reference T59 Wikidata:Q104680	полковник
+N30	Reference T65 Wikidata:Q486748	пианист
+N31	Reference T66 Wikidata:Q36834	композитор
+N32	Reference T71 Wikidata:Q2314719	разведчик
+N33	Reference T72 Wikidata:Q184560	Секретная разведывательная служба
+N36	Reference T77 Wikidata:Q84	Лондон
+N38	Reference T79 Wikidata:Q1930187	журналист
+N39	Reference T81 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N40	Reference T82 Wikidata:Q654471	Герой Российской Федерации
+N41	Reference T83 Wikidata:Q159	Россия
+N42	Reference T84 Wikidata:Q218295	президент Российской Федерации
+N1	Reference T6 Wikidata:Q36873663	Церковь Святого Мартина, Солсбери
+N27	Reference T58 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:Q50559234	
+N26	Reference T53 Wikidata:NULL	нет данных
+N29	Reference T62 Wikidata:NULL	нет данных
+N6	Reference T21 Wikidata:Q49542	русские
+N11	Reference T26 Wikidata:NULL	нет данных
+N34	Reference T73 Wikidata:NULL	нет данных
+N13	Reference T32 Wikidata:Q2009573	
+N15	Reference T34 Wikidata:NULL	нет данных
+N35	Reference T74 Wikidata:Q30093123	
+N37	Reference T78 Wikidata:NULL	нет данных
+N21	Reference T43 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N43	Reference T5 Wikidata:Q160642	Солсбери
+N44	Reference T17 Wikidata:Q160642	Солсбери
+N45	Reference T7 Wikidata:Q160642	Солсбери
+N46	Reference T29 Wikidata:Q160642	Солсбери
+N47	Reference T1 Wikidata:Q160642	Солсбери
+N48	Reference T16 Wikidata:Q36873663	Церковь Святого Мартина, Солсбери
+N49	Reference T9 Wikidata:Q145	Великобритания
+N50	Reference T44 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N51	Reference T19 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N52	Reference T46 Wikidata:Q104680	полковник
+N53	Reference T41 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N54	Reference T60 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N55	Reference T56 Wikidata:Q159	Россия
+N56	Reference T85 Wikidata:Q159	Россия
+N57	Reference T2 Wikidata:Q159	Россия
+N58	Reference T4 Wikidata:Q36873663	Церковь Святого Мартина, Солсбери
+N59	Reference T80 Wikidata:NULL	нет данных
+N60	Reference T54 Wikidata:NULL	нет данных
+N61	Reference T63 Wikidata:NULL	нет данных
+N62	Reference T27 Wikidata:NULL	нет данных

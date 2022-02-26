@@ -1,0 +1,112 @@
+T1	PROFESSION 0 8	Дизайнер
+T2	PERSON 9 24	Артемий Лебедев
+T3	PERSON 53 68	Артемий Лебедев
+T7	PERSON 196 211	Артемий Лебедев
+T8	CITY 231 241	московскую
+T9	NUMBER 264 267	№ 2
+T10	PERSON 306 314	Лебедева
+T11	AGE 337 346	38-летний
+T12	FACILITY 372 409	Клиническую инфекционную больницу № 1
+T13	FACILITY 413 432	Волоколамском шоссе
+T15	PERSON 644 651	Артемий
+T16	LOCATION 699 710	африканских
+T17	COUNTRY 718 723	Конго
+T18	COUNTRY 725 732	Камерун
+T19	COUNTRY 734 737	ЮАР
+T20	COUNTRY 745 753	Хорватии
+T22	PERSON 786 793	Лебедев
+T23	FACILITY 828 835	КИБ № 1
+T24	COUNTRY 1098 1104	России
+T25	EVENT 25 41	госпитализирован
+T26	DISEASE 44 52	малярией
+T27	FACILITY 88 113	Инфекционной больницы № 2
+T4	NUMBER 110 113	№ 2
+T28	FACILITY 143 168	Инфекционной больницы № 2
+T5	NUMBER 165 168	№ 2
+T29	PROFESSION 187 195	дизайнер
+T30	EVENT 212 228	госпитализирован
+T31	FACILITY 242 267	Инфекционную больницу № 2
+T32	DISEASE 270 278	малярией
+T33	PROFESSION 280 285	Врачи
+T34	PROFESSION 347 355	дизайнер
+T35	NUMBER 406 409	№ 1
+T14	PROFESSION 484 489	врачи
+T36	DISEASE 506 513	малярию
+T37	NUMBER 832 835	№ 1
+T38	PROFESSION 846 852	медики
+T39	DISEASE 861 868	малярию
+T40	DISEASE 1084 1092	малярией
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T25	
+R3	MEDICAL_CONDITION Arg1:T2 Arg2:T26	
+R4	HAS_CAUSE Arg1:T25 Arg2:T26	
+T41	FACILITY 69 113	Приёмное отделение Инфекционной больницы № 2
+R5	PART_OF Arg1:T41 Arg2:T27	
+T42	FACILITY 114 168	Главный боксированный корпус Инфекционной больницы № 2
+R6	PART_OF Arg1:T42 Arg2:T28	
+T6	DATE 169 186	21 июля 2013 года
+R7	WORKS_AS Arg1:T7 Arg2:T29	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T30	
+R9	POINT_IN_TIME Arg1:T30 Arg2:T6	
+T43	FACILITY 231 267	московскую Инфекционную больницу № 2
+R10	LOCATED_IN Arg1:T43 Arg2:T8	
+R11	HAS_CAUSE Arg1:T30 Arg2:T32	
+R12	MEDICAL_CONDITION Arg1:T7 Arg2:T32	
+R13	AGE_IS Arg1:T34 Arg2:T11	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R15	WORKPLACE Arg1:T33 Arg2:T43	
+R16	LOCATED_IN Arg1:T12 Arg2:T13	
+R18	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R19	LOCATED_IN Arg1:T17 Arg2:T16	
+R20	LOCATED_IN Arg1:T18 Arg2:T16	
+R21	LOCATED_IN Arg1:T19 Arg2:T16	
+T21	ORGANIZATION 769 776	Новости
+R22	ABBREVIATION Arg1:T12 Arg2:T23	
+R23	ALTERNATIVE_NAME Arg1:T14 Arg2:T38	
+R28	WORKPLACE Arg1:T38 Arg2:T23	
+T46	PROFESSION 622 627	врачи
+R29	WORKPLACE Arg1:T14 Arg2:T12	
+T47	FACILITY 914 942	первой инфекционной больнице
+R30	ALTERNATIVE_NAME Arg1:T23 Arg2:T47	
+R31	MEDICAL_CONDITION Arg1:T22 Arg2:T39	
+R32	ALTERNATIVE_NAME Arg1:T46 Arg2:T38	
+T48	EVENT 360 369	доставлен
+R33	PARTICIPANT_IN Arg1:T34 Arg2:T48	
+R17	MEDICAL_CONDITION Arg1:T34 Arg2:T36	
+R25	WORKS_AS Arg1:T10 Arg2:T34	
+R26	TAKES_PLACE_IN Arg1:T48 Arg2:T12	
+R34	ALTERNATIVE_NAME Arg1:T30 Arg2:T48	
+T44	EVENT 874 900	отправили в другую клинику
+R27	PARTICIPANT_IN Arg1:T22 Arg2:T44	
+R24	HAS_CAUSE Arg1:T44 Arg2:T39	
+N1	Reference T1 Wikidata:Q5322166	дизайнер
+N2	Reference T8 Wikidata:Q649	Москва
+N4	Reference T13 Wikidata:Q16631548	Волоколамское шоссе
+N5	Reference T17 Wikidata:Q417703	Конго
+N6	Reference T18 Wikidata:Q1009	Камерун
+N7	Reference T19 Wikidata:Q258	ЮАР
+N8	Reference T20 Wikidata:Q224	Хорватия
+N9	Reference T24 Wikidata:Q159	Россия
+N10	Reference T28 Wikidata:Q16655841	Инфекционная клиническая больница № 2
+N11	Reference T33 Wikidata:Q39631	врач
+N14	Reference T43 Wikidata:Q16655841	Инфекционная клиническая больница № 2
+N12	Reference T41 Wikidata:NULL	нет данных
+N13	Reference T42 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:Q2273039	
+N17	Reference T16 Wikidata:Q15	Африка
+N15	Reference T21 Wikidata:Q821172	РИА Новости
+N16	Reference T47 Wikidata:NULL	нет данных
+N18	Reference T34 Wikidata:Q5322166	дизайнер
+N19	Reference T29 Wikidata:Q5322166	дизайнер
+N20	Reference T31 Wikidata:Q16655841	Инфекционная клиническая больница № 2
+N21	Reference T27 Wikidata:Q16655841	Инфекционная клиническая больница № 2
+N22	Reference T46 Wikidata:Q39631	врач
+N23	Reference T14 Wikidata:Q39631	врач
+N24	Reference T38 Wikidata:Q39631	врач
+N25	Reference T22 Wikidata:Q2273039	
+N26	Reference T15 Wikidata:Q2273039	
+N27	Reference T7 Wikidata:Q2273039	
+N28	Reference T3 Wikidata:Q2273039	
+N29	Reference T2 Wikidata:Q2273039	
+N30	Reference T23 Wikidata:NULL	нет данных
+N31	Reference T12 Wikidata:NULL	нет данных

@@ -1,0 +1,107 @@
+T1	ORGANIZATION 0 13	Европарламент
+T2	ORGANIZATION 33 35	ЕС
+T3	ORGANIZATION 65 74	Википедия
+T4	DATE 99 126	В четверг, 5 июля 2018 года
+T5	ORGANIZATION 128 141	Европарламент
+T6	ORGANIZATION 161 170	Евросоюза
+T7	ORGANIZATION 337 346	Викимедиа
+T8	NUMBER 348 352	Пять
+T9	ORDINAL 481 484	278
+T10	NUMBER 499 502	318
+T11	NUMBER 519 521	31
+T13	DATE 632 642	в сентябре
+T15	LAW 709 720	13-я статьи
+T16	ORDINAL 722 726	11-я
+T17	LAW 815 826	13-я статья
+T18	COUNTRY 1276 1285	испанский
+T19	COUNTRY 1287 1298	итальянский
+T20	COUNTRY 1300 1309	латышский
+T21	COUNTRY 1311 1319	польский
+T22	COUNTRY 1322 1331	эстонский
+T23	ORGANIZATION 1340 1349	Википедии
+T24	COUNTRY 1424 1432	Немецкое
+T26	CITY 1479 1486	Берлине
+T27	LANGUAGE 1488 1495	Русские
+T29	PROFESSION 485 494	депутатов
+T14	LAW 702 706;714 720	11-я статьи
+T30	ORDINAL 709 713	13-я
+T31	ORDINAL 702 706	11-я
+T32	LAW 722 743	11-я статья директивы
+T33	ORDINAL 815 819	13-я
+T34	PRODUCT 1035 1043	интернет
+T35	EVENT 1218 1228	Забастовку
+T36	EVENT 1463 1476	уличные акции
+T38	ORGANIZATION 1496 1507	Викиновости
+T39	ORGANIZATION 1510 1519	Википедия
+T37	EVENT 1370 1398	размещали протестные баннеры
+T40	EVENT 305 317	протестовали
+T41	EVENT 427 437	забастовку
+T42	EVENT 440 458	закрыли свои сайты
+T43	EVENT 575 595	повторное обсуждение
+T44	EVENT 470 480	поддержали
+T45	EVENT 530 541	воздержался
+T12	EVENT 14 35	отклонил Директиву ЕС
+T46	LAW 23 35	Директиву ЕС
+R1	AGENT Arg1:T1 Arg2:T12	
+R2	PRODUCES Arg1:T2 Arg2:T46	
+T28	EVENT 142 160	отклонил директиву
+T47	LAW 151 265	директиву Евросоюза по ужесточению охраны авторского права и повышению требований к обороту информации в интернете
+R3	PRODUCES Arg1:T6 Arg2:T47	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T28	
+R5	POINT_IN_TIME Arg1:T28 Arg2:T4	
+R6	AGENT Arg1:T7 Arg2:T40	
+R7	SUBEVENT_OF Arg1:T41 Arg2:T40	
+R8	SUBEVENT_OF Arg1:T42 Arg2:T40	
+R9	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+R10	ABBREVIATION Arg1:T6 Arg2:T2	
+T48	ORGANIZATION 362 394	всемирной свободной энциклопедии
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T48	
+R12	PARTICIPANT_IN Arg1:T29 Arg2:T44	
+R13	PARTICIPANT_IN Arg1:T29 Arg2:T45	
+R14	DATE_DEFUNCT_IN Arg1:T43 Arg2:T13	
+R16	TAKES_PLACE_IN Arg1:T36 Arg2:T26	
+R18	PARTICIPANT_IN Arg1:T23 Arg2:T35	
+R19	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R20	HEADQUARTERED_IN Arg1:T23 Arg2:T21	
+R21	HEADQUARTERED_IN Arg1:T23 Arg2:T20	
+R22	HEADQUARTERED_IN Arg1:T23 Arg2:T19	
+R23	HEADQUARTERED_IN Arg1:T23 Arg2:T18	
+R24	SUBEVENT_OF Arg1:T37 Arg2:T40	
+R25	SUBEVENT_OF Arg1:T36 Arg2:T40	
+R26	SUBEVENT_OF Arg1:T35 Arg2:T40	
+T49	EVENT 1552 1567	акциям протеста
+T25	ORGANIZATION 1424 1452	Немецкое отделение Викимедиа
+T50	ORGANIZATION 1443 1452	Викимедиа
+R15	HEADQUARTERED_IN Arg1:T25 Arg2:T24	
+R17	PARTICIPANT_IN Arg1:T25 Arg2:T36	
+R27	PART_OF Arg1:T25 Arg2:T50	
+R28	INANIMATE_INVOLVED Arg1:T47 Arg2:T28	
+R29	ALTERNATIVE_NAME Arg1:T36 Arg2:T49	
+N1	Reference T5 Wikidata:Q8889	Европейский парламент
+N2	Reference T6 Wikidata:Q458	Европейский союз
+N4	Reference T18 Wikidata:Q8449	испанская Википедия
+N5	Reference T19 Wikidata:Q11920	итальянская Википедия
+N6	Reference T20 Wikidata:Q728945	латышская Википедия
+N7	Reference T21 Wikidata:Q1551807	польская Википедия
+N8	Reference T22 Wikidata:Q200060	эстонская Википедия
+N10	Reference T26 Wikidata:Q64	Берлин
+N11	Reference T27 Wikidata:Q7737	русский язык
+N12	Reference T29 Wikidata:Q486839	член парламента
+N15	Reference T34 Wikidata:Q75	Интернет
+N16	Reference T38 Wikidata:Q964	Викиновости
+N17	Reference T46 Wikidata:Q326124	
+N18	Reference T47 Wikidata:NULL	нет данных
+N19	Reference T48 Wikidata:Q52	Википедия
+N13	Reference T14 Wikidata:NULL	нет данных
+N3	Reference T15 Wikidata:NULL	нет данных
+N14	Reference T32 Wikidata:NULL	нет данных
+N20	Reference T25 Wikidata:Q48183	
+N9	Reference T24 Wikidata:Q188	немецкий язык
+N21	Reference T1 Wikidata:Q8889	Европейский парламент
+N22	Reference T2 Wikidata:Q458	Европейский союз
+N23	Reference T50 Wikidata:Q52	Википедия
+N24	Reference T23 Wikidata:Q52	Википедия
+N25	Reference T7 Wikidata:Q52	Википедия
+N26	Reference T3 Wikidata:Q52	Википедия
+N27	Reference T39 Wikidata:Q52	Википедия
+N28	Reference T17 Wikidata:NULL	нет данных

@@ -1,0 +1,59 @@
+T1	PERSON 0 17	Габриэль Гиффордс
+T2	DATE 34 51	Спустя две недели
+T3	PROFESSION 79 110	депутатом Палаты представителей
+T4	ORGANIZATION 89 110	Палаты представителей
+T5	PERSON 111 128	Габриэль Гиффордс
+T6	PERSON 228 236	Гиффордс
+T7	STATE_OR_PROVINCE 318 325	Аризона
+T8	PERSON 383 391	Гиффордс
+T9	DATE 447 464	в среду 26 января
+T10	CITY 546 554	Хьюстоне
+T11	STATE_OR_PROVINCE 561 566	Техас
+T12	DATE 569 587	На минувшей неделе
+T13	PERSON 588 605	Габриэль Гиффордс
+T14	PERSON 772 780	Гиффордс
+T15	DATE 910 927	несколько месяцев
+T16	AGE 1054 1073	двадцатидвухлетнему
+T17	PERSON 1074 1089	Джареду Лафнеру
+T18	PERSON 1138 1146	Гиффордс
+T19	NUMBER 1149 1153	двух
+T20	NUMBER 1234 1239	шести
+T21	PERSON 1286 1292	Лафнер
+T22	CRIME 1225 1247	убийстве шести человек
+T23	CRIME 1116 1137	покушении на убийство
+T24	PROFESSION 343 349	медики
+R1	WORKPLACE Arg1:T3 Arg2:T4	
+T25	PROFESSION 79 88	депутатом
+R2	WORKS_AS Arg1:T5 Arg2:T3	
+R3	WORKPLACE Arg1:T5 Arg2:T4	
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R5	LOCATED_IN Arg1:T8 Arg2:T10	
+R6	LOCATED_IN Arg1:T10 Arg2:T11	
+R7	AGE_IS Arg1:T17 Arg2:T16	
+R8	CONVICTED_OF Arg1:T17 Arg2:T23	
+R9	PARTICIPANT_IN Arg1:T18 Arg2:T23	
+R10	CONVICTED_OF Arg1:T17 Arg2:T22	
+T26	EVENT 277 299	встречи с избирателями
+R11	TAKES_PLACE_IN Arg1:T26 Arg2:T7	
+R12	ORGANIZES Arg1:T6 Arg2:T26	
+T27	EVENT 242 267	ранена выстрелом в голову
+R13	PARTICIPANT_IN Arg1:T6 Arg2:T27	
+R14	SUBEVENT_OF Arg1:T27 Arg2:T26	
+R15	ALTERNATIVE_NAME Arg1:T17 Arg2:T21	
+T28	CRIME 1225 1233	убийстве
+N1	Reference T1 Wikidata:Q193703	Габриэль Гиффордс
+N2	Reference T4 Wikidata:Q11701	Палата представителей США
+N3	Reference T7 Wikidata:Q816	Аризона
+N4	Reference T10 Wikidata:Q16555	Хьюстон
+N5	Reference T11 Wikidata:Q1439	Техас
+N7	Reference T24 Wikidata:Q39631	врач
+N8	Reference T25 Wikidata:Q486839	член парламента
+N9	Reference T3 Wikidata:Q13218630	
+N6	Reference T17 Wikidata:Q4267485	Лофнер, Джаред Ли
+N10	Reference T13 Wikidata:Q193703	Габриэль Гиффордс
+N11	Reference T5 Wikidata:Q193703	Габриэль Гиффордс
+N12	Reference T8 Wikidata:Q193703	Габриэль Гиффордс
+N13	Reference T14 Wikidata:Q193703	Габриэль Гиффордс
+N14	Reference T18 Wikidata:Q193703	Габриэль Гиффордс
+N15	Reference T6 Wikidata:Q193703	Габриэль Гиффордс
+N16	Reference T21 Wikidata:Q4267485	Лофнер, Джаред Ли

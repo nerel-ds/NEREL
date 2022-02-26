@@ -1,0 +1,150 @@
+T1	CITY 11 21	Роттердаме
+T2	PERSON 37 41	Моне
+T3	PERSON 43 50	Матисса
+T4	PERSON 52 59	Пикассо
+T5	PERSON 61 67	Гогена
+T6	PERSON 69 83	Мейера де Хана
+T7	PERSON 86 92	Фрейда
+T8	WORK_OF_ART 94 111	Мост Чаринг-Кросс
+T9	PERSON 113 123	Клода Моне
+T10	NUMBER 125 129	один
+T12	PERSON 161 171	Клода Моне
+T13	NUMBER 173 177	один
+T14	TIME 193 223	В ночь на 16 октября 2012 года
+T15	DATE 203 223	16 октября 2012 года
+T16	FACILITY 265 273	Кюнстхал
+T17	FACILITY 276 284	Kunsthal
+T18	NUMBER 320 324	семь
+T19	WORK_OF_ART 499 516	Мост Чаринг-Кросс
+T21	PERSON 536 546	Клода Моне
+T23	PERSON 567 579	Анри Матисса
+T25	PERSON 599 612	Пабло Пикассо
+T26	PERSON 645 656	Поля Гогена
+T27	PERSON 672 686	Мейера де Хана
+T28	PERSON 688 702	Meijer de Haan
+T29	PERSON 736 750	Люсьена Фрейда
+T30	ORGANIZATION 760 768	Кюнстхал
+T31	EVENT 879 897	выставки «Авангард
+T32	EVENT 889 897	Авангард
+T33	AGE 915 923	20-летию
+T34	EVENT 933 941	Выставка
+T35	DATE 955 964	7 октября
+T36	NUMBER 992 1001	более 150
+T37	PERSON 1033 1040	Пикассо
+T38	PERSON 1042 1046	Дали
+T39	PERSON 1048 1056	Ван Гога
+T40	PERSON 1058 1072	Пита Мондриана
+T41	PERSON 1074 1093	Василия Кандинского
+T42	PERSON 1095 1107	Поля Сезанна
+T43	ORGANIZATION 1151 1164	Фонда Тритона
+T44	ORGANIZATION 1167 1184	Triton Foundation
+T45	PERSON 1310 1320	Клода Моне
+T46	PERSON 1322 1335	Пабло Пикассо
+T47	PERSON 1338 1350	Анри Матисса
+T48	EVENT 22 28	украли
+T49	WORK_OF_ART 146 159	Мост Ватерлоо
+T11	CITY 227 240	Роттердамской
+T50	ORGANIZATION 365 372	полицию
+T51	WORK_OF_ART 521 534	Мост Ватерлоо
+T52	WORK_OF_ART 549 565	Читающая девочка
+T53	WORK_OF_ART 582 597	Голова Арлекина
+T54	WORK_OF_ART 615 643	Женщина перед открытым окном
+T55	WORK_OF_ART 659 670	Автопортрет
+T56	WORK_OF_ART 707 734	Женщина с закрытыми глазами
+T20	EVENT 879 887	выставки
+T22	PROFESSION 1117 1127	художников
+T24	ORGANIZATION 1353 1360	Полиция
+T57	EVENT 22 36	украли картины
+R1	TAKES_PLACE_IN Arg1:T57 Arg2:T1	
+R2	PRODUCES Arg1:T9 Arg2:T8	
+R3	PRODUCES Arg1:T12 Arg2:T49	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T11	
+R5	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R6	LOCATED_IN Arg1:T16 Arg2:T11	
+T58	EVENT 313 331	украли семь картин
+R7	TAKES_PLACE_IN Arg1:T58 Arg2:T16	
+R8	POINT_IN_TIME Arg1:T58 Arg2:T14	
+R9	PRODUCES Arg1:T21 Arg2:T51	
+R10	PRODUCES Arg1:T21 Arg2:T19	
+R11	PRODUCES Arg1:T23 Arg2:T52	
+T59	FACILITY 504 516	Чаринг-Кросс
+T60	LOCATION 526 534	Ватерлоо
+R12	PRODUCES Arg1:T25 Arg2:T53	
+R13	PRODUCES Arg1:T26 Arg2:T54	
+R14	PRODUCES Arg1:T27 Arg2:T55	
+R15	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R16	PRODUCES Arg1:T29 Arg2:T56	
+R17	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R18	AGE_IS Arg1:T30 Arg2:T33	
+R19	ALTERNATIVE_NAME Arg1:T32 Arg2:T34	
+R20	START_TIME Arg1:T34 Arg2:T35	
+R21	ALTERNATIVE_NAME Arg1:T43 Arg2:T44	
+R22	ALTERNATIVE_NAME Arg1:T37 Arg2:T46	
+R23	ALTERNATIVE_NAME Arg1:T2 Arg2:T21	
+R24	ALTERNATIVE_NAME Arg1:T3 Arg2:T23	
+R25	ALTERNATIVE_NAME Arg1:T4 Arg2:T25	
+R26	ALTERNATIVE_NAME Arg1:T5 Arg2:T26	
+R27	ALTERNATIVE_NAME Arg1:T7 Arg2:T29	
+T61	FACILITY 99 111	Чаринг-Кросс
+R28	INANIMATE_INVOLVED Arg1:T8 Arg2:T57	
+R29	INANIMATE_INVOLVED Arg1:T49 Arg2:T57	
+T62	EVENT 313 319	украли
+R30	INANIMATE_INVOLVED Arg1:T19 Arg2:T58	
+R31	INANIMATE_INVOLVED Arg1:T51 Arg2:T58	
+R32	INANIMATE_INVOLVED Arg1:T52 Arg2:T58	
+R33	INANIMATE_INVOLVED Arg1:T53 Arg2:T58	
+R34	INANIMATE_INVOLVED Arg1:T54 Arg2:T58	
+R35	INANIMATE_INVOLVED Arg1:T55 Arg2:T58	
+R36	INANIMATE_INVOLVED Arg1:T56 Arg2:T58	
+R37	WORKS_AS Arg1:T37 Arg2:T22	
+R38	WORKS_AS Arg1:T38 Arg2:T22	
+R39	WORKS_AS Arg1:T39 Arg2:T22	
+R40	WORKS_AS Arg1:T40 Arg2:T22	
+R41	WORKS_AS Arg1:T41 Arg2:T22	
+R42	WORKS_AS Arg1:T42 Arg2:T22	
+N1	Reference T5 Wikidata:Q37693	Гоген, Поль
+N3	Reference T9 Wikidata:Q296	Моне, Клод
+N4	Reference T16 Wikidata:Q1668856	Кюнстхал
+N5	Reference T19 Wikidata:Q5074352	Мост Чаринг-Кросс (цикл картин Моне)
+N6	Reference T25 Wikidata:Q5593	Пабло Пикассо
+N8	Reference T30 Wikidata:Q1668856	Кюнстхал
+N9	Reference T38 Wikidata:Q5577	Сальвадор Дали
+N11	Reference T40 Wikidata:Q151803	Мондриан, Пит
+N12	Reference T41 Wikidata:Q61064	Василий Васильевич Кандинский
+N13	Reference T42 Wikidata:Q35548	Поль Сезанн
+N15	Reference T46 Wikidata:Q5593	Пабло Пикассо
+N16	Reference T47 Wikidata:Q5589	Матисс, Анри
+N18	Reference T11 Wikidata:Q34370	Роттердам
+N24	Reference T22 Wikidata:Q1028181	художник
+N25	Reference T24 Wikidata:Q35535	полиция
+N27	Reference T60 Wikidata:Q179034	Ватерлоо
+N2	Reference T7 Wikidata:Q154594	
+N17	Reference T49 Wikidata:Q3795194	Мост Ватерлоо
+N14	Reference T44 Wikidata:Q2580202	
+N10	Reference T39 Wikidata:Q5582	
+N7	Reference T27 Wikidata:Q2297603	
+N22	Reference T55 Wikidata:NULL	нет данных
+N23	Reference T56 Wikidata:NULL	нет данных
+N26	Reference T59 Wikidata:Q1436185	
+N19	Reference T52 Wikidata:Q19883482	
+N20	Reference T53 Wikidata:Q64576222	
+N21	Reference T54 Wikidata:NULL	нет данных
+N28	Reference T26 Wikidata:Q37693	Гоген, Поль
+N29	Reference T12 Wikidata:Q296	Моне, Клод
+N30	Reference T2 Wikidata:Q296	Моне, Клод
+N31	Reference T45 Wikidata:Q296	Моне, Клод
+N32	Reference T21 Wikidata:Q296	Моне, Клод
+N33	Reference T17 Wikidata:Q1668856	Кюнстхал
+N34	Reference T8 Wikidata:Q5074352	Мост Чаринг-Кросс (цикл картин Моне)
+N35	Reference T4 Wikidata:Q5593	Пабло Пикассо
+N36	Reference T37 Wikidata:Q5593	Пабло Пикассо
+N37	Reference T3 Wikidata:Q5589	Матисс, Анри
+N38	Reference T23 Wikidata:Q5589	Матисс, Анри
+N39	Reference T1 Wikidata:Q34370	Роттердам
+N40	Reference T50 Wikidata:Q35535	полиция
+N41	Reference T29 Wikidata:Q154594	
+N42	Reference T51 Wikidata:Q3795194	Мост Ватерлоо
+N43	Reference T43 Wikidata:Q2580202	
+N44	Reference T28 Wikidata:Q2297603	
+N45	Reference T6 Wikidata:Q2297603	
+N46	Reference T61 Wikidata:Q1436185	

@@ -1,0 +1,86 @@
+T1	NATIONALITY 0 9	Словацкий
+T2	PERSON 17 28	Жолт Хорняк
+T3	ORGANIZATION 40 46	Бананц
+T4	CITY 49 55	Ереван
+T5	NATIONALITY 58 67	Словацкий
+T6	PERSON 75 86	Жолт Хорняк
+T7	PROFESSION 98 141	главным тренером футбольного клуба "Бананц"
+T8	ORGANIZATION 134 140	Бананц
+T9	CITY 143 149	Ереван
+T10	AGE 163 172	40 летним
+T11	PROFESSION 278 294	главного тренера
+T12	ORGANIZATION 296 303	Бананца
+T13	PERSON 305 311	Хорняк
+T14	NATIONALITY 320 331	украинского
+T15	PERSON 344 361	Владимира Пятенко
+T16	DATE 378 396	в прошедшем сезоне
+T17	PERSON 397 403	Хорняк
+T18	ORGANIZATION 416 420	Мику
+T19	PROFESSION 10 16	тренер
+T20	PROFESSION 68 74	тренер
+T21	PROFESSION 98 114	главным тренером
+T22	PROFESSION 173 181	тренером
+T23	PROFESSION 287 294	тренера
+T24	EVENT 459 477	чемпионата Армении
+T25	COUNTRY 470 477	Армении
+T26	AWARD 440 458	серебряным медалям
+R1	WORKPLACE Arg1:T2 Arg2:T3	
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R3	WORKS_AS Arg1:T2 Arg2:T19	
+R4	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R5	HEADQUARTERED_IN Arg1:T8 Arg2:T9	
+R6	WORKS_AS Arg1:T6 Arg2:T20	
+R7	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R8	WORKS_AS Arg1:T6 Arg2:T7	
+R9	AGE_IS Arg1:T22 Arg2:T10	
+R10	AGE_IS Arg1:T6 Arg2:T10	
+R11	ORIGINS_FROM Arg1:T15 Arg2:T14	
+T27	PROFESSION 332 343	специалиста
+R12	WORKS_AS Arg1:T15 Arg2:T27	
+T28	PROFESSION 106 114	тренером
+R13	WORKPLACE Arg1:T13 Arg2:T12	
+R14	WORKS_AS Arg1:T13 Arg2:T30	
+R15	WORKPLACE Arg1:T17 Arg2:T18	
+R16	AWARDED_WITH Arg1:T18 Arg2:T29	
+T29	AWARD 440 477	серебряным медалям чемпионата Армении
+R17	ORIGINS_FROM Arg1:T19 Arg2:T1	
+R18	WORKPLACE Arg1:T7 Arg2:T8	
+R19	ORIGINS_FROM Arg1:T20 Arg2:T5	
+T30	PROFESSION 278 304	главного тренера "Бананца"
+R20	WORKPLACE Arg1:T30 Arg2:T12	
+R21	WORKS_AS Arg1:T15 Arg2:T30	
+R22	WORKPLACE Arg1:T15 Arg2:T12	
+R23	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R24	ORIGINS_FROM Arg1:T29 Arg2:T24	
+T31	EVENT 29 38	возглавил
+R25	AGENT Arg1:T2 Arg2:T31	
+R26	PARTICIPANT_IN Arg1:T3 Arg2:T31	
+R27	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+R28	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+N2	Reference T6 Wikidata:Q8074815	Хорняк, Жолт
+N4	Reference T8 Wikidata:Q757253	Бананц
+N5	Reference T9 Wikidata:Q1953	Ереван
+N6	Reference T12 Wikidata:Q757253	Бананц
+N7	Reference T13 Wikidata:Q8074815	Хорняк, Жолт
+N9	Reference T15 Wikidata:Q4385787	Пятенко, Владимир Николаевич
+N11	Reference T19 Wikidata:Q41583	тренер
+N12	Reference T25 Wikidata:Q399	Армения
+N1	Reference T5 Wikidata:Q171336	
+N3	Reference T7 Wikidata:NULL	нет данных
+N17	Reference T21 Wikidata:Q3246315	
+N18	Reference T11 Wikidata:Q3246315	
+N16	Reference T30 Wikidata:NULL	нет данных
+N14	Reference T27 Wikidata:Q381160	эксперт
+N8	Reference T14 Wikidata:Q44806	украинцы
+N15	Reference T29 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:Q847956	серебряная медаль
+N10	Reference T18 Wikidata:Q584440	
+N19	Reference T2 Wikidata:Q8074815	Хорняк, Жолт
+N20	Reference T3 Wikidata:Q757253	Бананц
+N21	Reference T4 Wikidata:Q1953	Ереван
+N22	Reference T17 Wikidata:Q8074815	Хорняк, Жолт
+N23	Reference T28 Wikidata:Q41583	тренер
+N24	Reference T23 Wikidata:Q41583	тренер
+N25	Reference T20 Wikidata:Q41583	тренер
+N26	Reference T22 Wikidata:Q41583	тренер
+N27	Reference T1 Wikidata:Q171336	

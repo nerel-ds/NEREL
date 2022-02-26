@@ -1,0 +1,81 @@
+T1	PERSON 60 75	Джастина Бибера
+T2	PERSON 76 89	Джастин Бибер
+T3	PERSON 138 151	Джастин Бибер
+T4	DATE 299 315	в прошлом месяце
+T5	FACILITY 352 372	Медисон-сквер-гарден
+T6	FACILITY 374 395	Madison Square Garden
+T7	CITY 399 408	Нью-Йорке
+T8	AGE 490 500	45-летнего
+T9	PERSON 501 513	Даны Мартина
+T10	NUMBER 532 535	два
+T11	AGE 582 591	15-летней
+T12	STATE_OR_PROVINCE 602 610	Вермонте
+T13	DATE 624 635	в 2000 году
+T14	PERSON 638 644	Мартин
+T15	CITY 670 680	Лас-Крусес
+T16	STATE_OR_PROVINCE 687 698	Нью-Мексико
+T17	PERSON 717 730	Марком Стааке
+T18	NUMBER 750 757	четырех
+T19	PERSON 800 806	Бибера
+T20	PERSON 923 929	Мартин
+T21	PERSON 976 982	Бибера
+T22	PERSON 1057 1063	Мартин
+T23	PERSON 1146 1151	Бибер
+T26	PROFESSION 102 137	исполнитель подростковой поп-музыки
+T27	ORGANIZATION 244 251	полиции
+T28	EVENT 322 333	выступления
+T29	PENALTY 536 553	пожизненных срока
+T31	CRIME 557 570	изнасилование
+T32	CRIME 573 581	убийство
+T33	PERSON 828 834	Стааке
+R1	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R2	LOCATED_IN Arg1:T6 Arg2:T7	
+R3	AGE_IS Arg1:T9 Arg2:T8	
+T30	CRIME 573 599	убийство 15-летней девушки
+R4	PENALIZED_AS Arg1:T9 Arg2:T29	
+R5	CONVICTED_OF Arg1:T9 Arg2:T31	
+R6	CONVICTED_OF Arg1:T9 Arg2:T30	
+R7	TAKES_PLACE_IN Arg1:T31 Arg2:T12	
+R8	TAKES_PLACE_IN Arg1:T30 Arg2:T12	
+R9	POINT_IN_TIME Arg1:T31 Arg2:T13	
+R10	POINT_IN_TIME Arg1:T30 Arg2:T13	
+R11	LOCATED_IN Arg1:T15 Arg2:T16	
+R12	LOCATED_IN Arg1:T14 Arg2:T15	
+R13	WORKS_AS Arg1:T3 Arg2:T26	
+R14	TAKES_PLACE_IN Arg1:T28 Arg2:T5	
+R15	AGENT Arg1:T3 Arg2:T28	
+R16	POINT_IN_TIME Arg1:T28 Arg2:T4	
+T24	FACILITY 352 365	Медисон-сквер
+T25	FACILITY 374 388	Madison Square
+R17	KNOWS Arg1:T14 Arg2:T17	
+R18	KNOWS Arg1:T17 Arg2:T14	
+R19	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R20	ALTERNATIVE_NAME Arg1:T17 Arg2:T33	
+R21	LOCATED_IN Arg1:T5 Arg2:T24	
+R22	LOCATED_IN Arg1:T6 Arg2:T25	
+R23	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+R24	ALTERNATIVE_NAME Arg1:T3 Arg2:T19	
+R25	HAS_CAUSE Arg1:T29 Arg2:T31	
+R26	HAS_CAUSE Arg1:T29 Arg2:T30	
+N1	Reference T1 Wikidata:Q34086	Джастин Бибер
+N2	Reference T5 Wikidata:Q186125	Мэдисон-сквер-гарден
+N3	Reference T7 Wikidata:Q60	Нью-Йорк
+N4	Reference T12 Wikidata:Q16551	Вермонт
+N5	Reference T15 Wikidata:Q33264	Лас-Крусес
+N6	Reference T16 Wikidata:Q1522	Нью-Мексико
+N9	Reference T27 Wikidata:Q35535	полиция
+N8	Reference T26 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:NULL	нет данных
+N11	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:NULL	нет данных
+N12	Reference T23 Wikidata:Q34086	Джастин Бибер
+N13	Reference T19 Wikidata:Q34086	Джастин Бибер
+N14	Reference T3 Wikidata:Q34086	Джастин Бибер
+N15	Reference T2 Wikidata:Q34086	Джастин Бибер
+N16	Reference T21 Wikidata:Q34086	Джастин Бибер
+N17	Reference T6 Wikidata:Q186125	Мэдисон-сквер-гарден
+N18	Reference T33 Wikidata:NULL	нет данных
+N19	Reference T9 Wikidata:NULL	нет данных
+N20	Reference T14 Wikidata:NULL	нет данных
+N21	Reference T20 Wikidata:NULL	нет данных
+N22	Reference T25 Wikidata:NULL	нет данных

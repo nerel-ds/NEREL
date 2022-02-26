@@ -1,0 +1,107 @@
+T1	PERSON 0 5	Путин
+T2	COUNTRY 44 57	Южной Осетией
+T3	DATE 77 90	от 03.04.2017
+T4	LAW 91 98	№ 53-ФЗ
+T5	DATE 99 117	3 апреля 2017 года
+T6	PROFESSION 118 127	Президент
+T7	COUNTRY 128 134	России
+T8	PERSON 135 149	Владимир Путин
+T9	COUNTRY 196 203	Россией
+T11	COUNTRY 206 219	Южной Осетией
+T12	COUNTRY 239 249	российским
+T13	DATE 374 392	4 апреля 2017 года
+T14	COUNTRY 478 485	Россией
+T15	COUNTRY 488 501	Южной Осетией
+T16	COUNTRY 539 541	РФ
+T17	COUNTRY 569 572	РЮО
+T18	LOCATION 689 706	Северо-Кавказском
+T21	DISTRICT 727 731	СКФО
+T22	DATE 813 831	в течение двух лет
+T23	DATE 841 861	с 1 января 2016 года
+T24	PERCENT 864 868	18 %
+T25	DATE 926 946	с 1 апреля 2017 года
+T26	PERCENT 949 955	18,8 %
+T27	COUNTRY 1076 1078	РФ
+T28	DATE 1094 1115	на 1 января 2016 года
+T29	DISTRICT 1140 1144	СКФО
+T30	NATIONALITY 1215 1224	россиянам
+T31	COUNTRY 1239 1251	Южной Осетии
+T32	MONEY 1254 1265	7370 рублей
+T33	DATE 1315 1326	в 2016 году
+T34	MONEY 1327 1336	854 рубля
+T35	DATE 1338 1349	в 2017 году
+T36	MONEY 1352 1363	1809 рублей
+T37	DATE 1365 1376	в 2018 году
+T38	MONEY 1379 1390	2007 рублей
+T39	DATE 1393 1404	в 2019 году
+T40	MONEY 1407 1418	2318 рублей
+T41	DISTRICT 1505 1509	СКФО
+T42	COUNTRY 1538 1545	Россией
+T43	COUNTRY 1548 1561	Южной Осетией
+T44	CITY 1605 1611	Москве
+T45	DATE 1612 1628	в июне 2015 года
+R1	WORKPLACE Arg1:T8 Arg2:T7
+T46	PROFESSION 118 134	Президент России
+R10	WORKS_AS Arg1:T8 Arg2:T46	
+T10	EVENT 6 19	ратифицировал
+R2	WORKPLACE Arg1:T46 Arg2:T7	
+R9	PARTICIPANT_IN Arg1:T1 Arg2:T10	
+T47	LAW 20 41	пенсионное соглашение
+T48	EVENT 150 164	подписал закон
+R12	PARTICIPANT_IN Arg1:T8 Arg2:T48	
+R15	POINT_IN_TIME Arg1:T48 Arg2:T5	
+T49	LAW 59 98	Федеральный закон от 03.04.2017 № 53-ФЗ
+R16	DATE_OF_CREATION Arg1:T49 Arg2:T3	
+T51	LAW 1523 1589	договоре между Россией и Южной Осетией о союзничестве и интеграции
+R4	DATE_OF_CREATION Arg1:T51 Arg2:T45	
+T19	DISTRICT 689 725	Северо-Кавказском федеральном округе
+R3	ABBREVIATION Arg1:T19 Arg2:T21	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+R6	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R7	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+T20	LAW 179 295	соглашения между Россией и Южной Осетией о повышении пенсий российским гражданам, постоянно проживающим в республике
+T52	ORDINAL 93 95	53
+R17	ALTERNATIVE_NAME Arg1:T15 Arg2:T17	
+T50	LAW 404 573	Федеральному Закону «О ратификации межправительственного соглашения между Россией и Южной Осетией о выплате страховых пенсий гражданам РФ, проживающим на территории РЮО»
+R18	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+T53	EVENT 167 178	ратификации
+R8	SUBEVENT_OF Arg1:T53 Arg2:T48	
+R13	ALTERNATIVE_NAME Arg1:T10 Arg2:T53	
+R14	PRODUCES Arg1:T9 Arg2:T20	
+R19	PRODUCES Arg1:T11 Arg2:T20	
+R11	PRODUCES Arg1:T2 Arg2:T47	
+R20	PRODUCES Arg1:T14 Arg2:T50	
+R21	PRODUCES Arg1:T15 Arg2:T50	
+R22	PRODUCES Arg1:T42 Arg2:T51	
+R23	PRODUCES Arg1:T43 Arg2:T51	
+R24	LOCATED_IN Arg1:T19 Arg2:T18	
+N2	Reference T6 Wikidata:Q30461	президент
+N3	Reference T8 Wikidata:Q7747	Владимир Владимирович Путин
+N6	Reference T29 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N7	Reference T30 Wikidata:Q492468	россияне
+N8	Reference T31 Wikidata:Q23427	Южная Осетия
+N9	Reference T42 Wikidata:Q159	Россия
+N10	Reference T44 Wikidata:Q649	Москва
+N11	Reference T46 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T47 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:NULL	нет данных
+N12	Reference T49 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:Q159	Россия
+N14	Reference T20 Wikidata:NULL	нет данных
+N15	Reference T50 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q37736	Северный Кавказ
+N13	Reference T51 Wikidata:NULL	нет данных
+N17	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T41 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N19	Reference T21 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N20	Reference T19 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N21	Reference T15 Wikidata:Q23427	Южная Осетия
+N22	Reference T17 Wikidata:Q23427	Южная Осетия
+N23	Reference T11 Wikidata:Q23427	Южная Осетия
+N24	Reference T43 Wikidata:Q23427	Южная Осетия
+N25	Reference T2 Wikidata:Q23427	Южная Осетия
+N26	Reference T14 Wikidata:Q159	Россия
+N27	Reference T16 Wikidata:Q159	Россия
+N28	Reference T7 Wikidata:Q159	Россия
+N29	Reference T27 Wikidata:Q159	Россия
+N30	Reference T9 Wikidata:Q159	Россия

@@ -1,0 +1,194 @@
+T1	COUNTRY 2 7	Чехии
+T2	ORDINAL 19 25	первый
+T3	PERSON 75 86	Милош Земан
+T4	PERSON 88 105	Карел Шварценберг
+T5	DATE 107 131	12 и 13 января 2013 года
+T6	COUNTRY 134 139	Чехии
+T7	ORDINAL 147 153	первый
+T8	ORDINAL 158 164	первых
+T10	AGE 271 280	68-летний
+T11	PERSON 281 292	Милош Земан
+T13	AGE 335 344	75-летний
+T14	PERSON 345 362	Карел Шварценберг
+T15	PROFESSION 371 380	президент
+T16	PERSON 555 567	Вацлав Клаус
+T18	COUNTRY 629 634	Чехии
+T19	PROFESSION 695 707	президентами
+T20	PERSON 708 720	Вацлав Гавел
+T21	DATE 722 731	1993—2003
+T23	PERSON 765 777	Вацлав Клаус
+T24	COUNTRY 792 797	Чехию
+T25	DATE 798 828	на протяжении последних 10 лет
+T26	DATE 829 840	с 2003 года
+T27	ORDINAL 853 860	первого
+T28	NUMBER 893 895	20
+T29	ORGANIZATION 935 948	Министерством
+T30	NUMBER 954 956	11
+T31	ORDINAL 965 971	Второй
+T32	NUMBER 1041 1046	троих
+T33	DATE 1083 1093	13 декабря
+T35	COUNTRY 1122 1127	Чехии
+T36	ORGANIZATION 1150 1153	МВД
+T37	PERSON 1182 1196	Яну Бобошикову
+T38	ORDINAL 1257 1263	первом
+T39	NUMBER 1281 1282	9
+T40	PERSON 1295 1306	Милош Земан
+T41	PERSON 1308 1316	Ян Фишер
+T42	PERSON 1318 1332	Владимир Франц
+T43	PERSON 1334 1351	Карел Шварценберг
+T44	PERSON 1353 1367	Йиржи Динстбир
+T45	PERSON 1369 1384	Пшемысл Соботка
+T46	PERSON 1386 1400	Яна Бобошикова
+T47	PERSON 1402 1415	Таня Фишерова
+T48	PERSON 1418 1432	Зузана Ройтова
+T49	ORDINAL 1444 1450	первом
+T50	ORGANIZATION 1524 1529	Сенат
+T52	PERCENT 1696 1703	61,31 %
+T53	PERSON 1737 1742	Земан
+T54	PERCENT 1745 1770	более чем 24,2 процентами
+T55	ORDINAL 1799 1805	второе
+T57	PROFESSION 1845 1854	глава МИД
+T58	COUNTRY 1855 1860	Чехии
+T59	PERSON 1861 1878	Карел Шварценберг
+T60	PERCENT 1925 1935	более 50 %
+T61	ORDINAL 1947 1953	первые
+T62	ORDINAL 2023 2029	второй
+T63	DATE 2061 2083	25—26 января 2013 года
+T64	EVENT 49 56	выборов
+T65	EVENT 184 191	выборов
+T66	PROFESSION 192 209	главы государства
+T67	PROFESSION 57 74	главы государства
+T68	PROFESSION 263 270	премьер
+T70	PROFESSION 304 327	министр иностранных дел
+T71	PROFESSION 304 311	министр
+T72	PROFESSION 371 386	президент Чехии
+T73	PROFESSION 528 545	главы государства
+T74	PROFESSION 599 616	глава государства
+T75	PROFESSION 747 764	глава государства
+T76	PROFESSION 1825 1832	премьер
+T77	PROFESSION 1845 1860	глава МИД Чехии
+T12	COUNTRY 381 386	Чехии
+T80	LAW 496 545	закон о введении прямых выборов главы государства
+T81	ORGANIZATION 660 676	палат парламента
+T82	ORGANIZATION 666 676	парламента
+T22	ORGANIZATION 1094 1127	высший административный суд Чехии
+T84	EVENT 1435 1455	Выборы в первом туре
+T85	EVENT 1515 1529	выборы в Сенат
+T86	PERSON 1833 1841	Ян Фишер
+T87	ORGANIZATION 1851 1860	МИД Чехии
+T88	ORGANIZATION 1851 1854	МИД
+T9	EVENT 19 56	первый тур прямых всенародных выборов
+T56	EVENT 30 56	прямых всенародных выборов
+R1	SUBEVENT_OF Arg1:T9 Arg2:T56	
+R2	TAKES_PLACE_IN Arg1:T9 Arg2:T1	
+R3	PARTICIPANT_IN Arg1:T67 Arg2:T9	
+T89	EVENT 147 191	первый тур первых прямых всенародных выборов
+T90	EVENT 165 191	прямых всенародных выборов
+R4	ALTERNATIVE_NAME Arg1:T9 Arg2:T89	
+R5	SUBEVENT_OF Arg1:T89 Arg2:T90	
+R6	POINT_IN_TIME Arg1:T89 Arg2:T5	
+R7	TAKES_PLACE_IN Arg1:T89 Arg2:T6	
+R8	PARTICIPANT_IN Arg1:T66 Arg2:T89	
+R9	AGE_IS Arg1:T11 Arg2:T10	
+R10	WORKS_AS Arg1:T11 Arg2:T68	
+R11	PARTICIPANT_IN Arg1:T11 Arg2:T89	
+R12	AGE_IS Arg1:T14 Arg2:T13	
+R13	WORKS_AS Arg1:T14 Arg2:T70	
+R14	PARTICIPANT_IN Arg1:T14 Arg2:T89	
+R15	WORKPLACE Arg1:T72 Arg2:T12	
+T69	EVENT 546 554	подписал
+R16	PRODUCES Arg1:T16 Arg2:T80	
+R17	AGENT Arg1:T16 Arg2:T69	
+T17	DATE 568 591	в феврале прошлого года
+R18	POINT_IN_TIME Arg1:T69 Arg2:T17	
+R19	PART_OF Arg1:T81 Arg2:T82	
+R20	WORKS_AS Arg1:T20 Arg2:T19	
+R21	WORKS_AS Arg1:T23 Arg2:T75	
+R22	HEADQUARTERED_IN Arg1:T22 Arg2:T35	
+T34	EVENT 1128 1141	вынес решение
+R23	AGENT Arg1:T22 Arg2:T34	
+R24	POINT_IN_TIME Arg1:T34 Arg2:T33	
+R25	PARTICIPANT_IN Arg1:T50 Arg2:T85	
+T51	NUMBER 1673 1682	5 171 666
+R26	ALTERNATIVE_NAME Arg1:T40 Arg2:T53	
+R27	WORKS_AS Arg1:T86 Arg2:T76	
+R28	HEADQUARTERED_IN Arg1:T87 Arg2:T58	
+R29	WORKPLACE Arg1:T77 Arg2:T87	
+R30	WORKS_AS Arg1:T59 Arg2:T77	
+R31	WORKPLACE Arg1:T59 Arg2:T87	
+T78	NUMBER 1954 1957	два
+T83	EVENT 2034 2041	выборов
+T91	EVENT 2023 2041	второй тур выборов
+R32	SUBEVENT_OF Arg1:T91 Arg2:T83	
+R33	POINT_IN_TIME Arg1:T91 Arg2:T63	
+R34	INANIMATE_INVOLVED Arg1:T80 Arg2:T69	
+R35	ORIGINS_FROM Arg1:T80 Arg2:T12	
+R36	WORKPLACE Arg1:T23 Arg2:T24	
+R37	WORKPLACE Arg1:T20 Arg2:T24	
+R38	WORKPLACE Arg1:T75 Arg2:T24	
+R39	WORKPLACE Arg1:T19 Arg2:T24	
+R40	PARTICIPANT_IN Arg1:T36 Arg2:T34	
+R41	PARTICIPANT_IN Arg1:T37 Arg2:T34	
+T79	EVENT 1257 1268	первом туре
+R42	PARTICIPANT_IN Arg1:T40 Arg2:T79	
+R43	PARTICIPANT_IN Arg1:T41 Arg2:T79	
+R44	PARTICIPANT_IN Arg1:T42 Arg2:T79	
+R45	PARTICIPANT_IN Arg1:T43 Arg2:T79	
+R46	PARTICIPANT_IN Arg1:T44 Arg2:T79	
+R47	PARTICIPANT_IN Arg1:T45 Arg2:T79	
+R48	PARTICIPANT_IN Arg1:T46 Arg2:T79	
+R49	PARTICIPANT_IN Arg1:T47 Arg2:T79	
+R50	PARTICIPANT_IN Arg1:T48 Arg2:T79	
+R51	ALTERNATIVE_NAME Arg1:T79 Arg2:T84	
+T92	EVENT 1515 1521	выборы
+R52	TAKES_PLACE_IN Arg1:T91 Arg2:T58	
+N1	Reference T1 Wikidata:Q213	Чехия
+N2	Reference T15 Wikidata:Q30461	президент
+N3	Reference T16 Wikidata:Q57434	Вацлав Клаус
+N4	Reference T20 Wikidata:Q36233	Вацлав Гавел
+N5	Reference T29 Wikidata:Q192350	министерство
+N6	Reference T36 Wikidata:Q6589202	министерство внутренних дел
+N7	Reference T42 Wikidata:Q59062	Франц, Владимир
+N8	Reference T43 Wikidata:Q58195	Карел Шварценберг
+N11	Reference T46 Wikidata:Q469609	Бобошикова, Яна
+N12	Reference T47 Wikidata:Q2382175	Фишерова, Татьяна
+N13	Reference T48 Wikidata:Q231231	Ройтова, Зузана
+N15	Reference T53 Wikidata:Q29032	Милош Земан
+N17	Reference T68 Wikidata:Q14212	премьер-министр
+N18	Reference T70 Wikidata:Q7330070	министр иностранных дел
+N19	Reference T71 Wikidata:Q83307	министр
+N20	Reference T72 Wikidata:Q1819381	президент Чехии
+N21	Reference T73 Wikidata:Q48352	глава государства
+N24	Reference T82 Wikidata:Q35749	парламент
+N26	Reference T86 Wikidata:Q193675	Фишер, Ян
+N23	Reference T80 Wikidata:NULL	нет данных
+N25	Reference T22 Wikidata:Q7644797	
+N9	Reference T44 Wikidata:Q375208	
+N10	Reference T45 Wikidata:NULL	нет данных
+N14	Reference T50 Wikidata:Q2570643	сенат
+N28	Reference T88 Wikidata:Q20901295	Министерство иностранных дел
+N27	Reference T87 Wikidata:Q6867005	
+N16	Reference T57 Wikidata:Q2501396	министр иностранных дел Чехии
+N22	Reference T77 Wikidata:Q2501396	министр иностранных дел Чехии
+N29	Reference T81 Wikidata:NULL	нет данных
+N30	Reference T12 Wikidata:Q213	Чехия
+N31	Reference T24 Wikidata:Q213	Чехия
+N32	Reference T58 Wikidata:Q213	Чехия
+N33	Reference T18 Wikidata:Q213	Чехия
+N34	Reference T6 Wikidata:Q213	Чехия
+N35	Reference T35 Wikidata:Q213	Чехия
+N36	Reference T19 Wikidata:Q30461	президент
+N37	Reference T23 Wikidata:Q57434	Вацлав Клаус
+N38	Reference T4 Wikidata:Q58195	Карел Шварценберг
+N39	Reference T14 Wikidata:Q58195	Карел Шварценберг
+N40	Reference T59 Wikidata:Q58195	Карел Шварценберг
+N41	Reference T37 Wikidata:Q469609	Бобошикова, Яна
+N42	Reference T40 Wikidata:Q29032	Милош Земан
+N43	Reference T11 Wikidata:Q29032	Милош Земан
+N44	Reference T3 Wikidata:Q29032	Милош Земан
+N45	Reference T76 Wikidata:Q14212	премьер-министр
+N46	Reference T75 Wikidata:Q48352	глава государства
+N47	Reference T66 Wikidata:Q48352	глава государства
+N48	Reference T74 Wikidata:Q48352	глава государства
+N49	Reference T67 Wikidata:Q48352	глава государства
+N50	Reference T41 Wikidata:Q193675	Фишер, Ян

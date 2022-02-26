@@ -1,0 +1,87 @@
+T1	CITY 0 12	Северодвинск
+T2	PERSON 19 32	Юлию Савичеву
+T3	DATE 42 58	21 мая 2013 года
+T4	CITY 61 75	Северодвинском
+T6	NATIONALITY 143 153	российской
+T7	PERSON 165 179	Юлии Савичевой
+T8	WORK_OF_ART 240 252	Сердцебиение
+T9	PERSON 389 393	Юлии
+T10	PERSON 473 481	Савичева
+T11	ORGANIZATION 581 587	Конвой
+T12	PERSON 589 602	Макса Фадеева
+T13	PERSON 634 661	Станислав Борисович Савичев
+T14	PERSON 670 674	Юлия
+T15	AGE 719 732	четырёхлетней
+T16	PERSON 781 785	Юрий
+T17	PERSON 1073 1077	Юрия
+T18	WORK_OF_ART 1124 1128	Юлия
+T19	ORGANIZATION 1184 1195	Северяночка
+T20	DATE 1249 1252	мая
+T21	CITY 1255 1268	Северодвинске
+T22	LOCATION 1311 1318	Поморья
+T23	DATE 1343 1360	на следующий день
+T5	FACILITY 61 96	Северодвинском драматическом театре
+T24	EVENT 135 142	концерт
+T25	PROFESSION 154 164	поп-певицы
+T27	PROFESSION 1048 1054	певица
+T28	EVENT 1137 1144	концерт
+T29	PROFESSION 1361 1367	певица
+R1	LOCATED_IN Arg1:T5 Arg2:T4	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R3	WORKS_AS Arg1:T7 Arg2:T25	
+T26	PROFESSION 158 164	певицы
+R4	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T7 Arg2:T24	
+R6	POINT_IN_TIME Arg1:T24 Arg2:T3	
+R7	TAKES_PLACE_IN Arg1:T24 Arg2:T5	
+R8	PRODUCES Arg1:T7 Arg2:T8	
+T30	PROFESSION 317 323	певицы
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+T32	EVENT 433 441	концерта
+T33	EVENT 443 451	танцевал
+T34	PROFESSION 462 468	звезды
+R10	SUBEVENT_OF Arg1:T33 Arg2:T32	
+R11	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R12	OWNER_OF Arg1:T12 Arg2:T11	
+R13	PARENT_OF Arg1:T13 Arg2:T14	
+R14	KNOWS Arg1:T12 Arg2:T13	
+T35	PROFESSION 796 802	певица
+T36	PROFESSION 889 895	певицу
+R15	PRODUCES Arg1:T27 Arg2:T18	
+R16	WORKS_AS Arg1:T7 Arg2:T34	
+T37	PROFESSION 764 770	звезды
+R17	ORGANIZES Arg1:T19 Arg2:T28	
+R18	TAKES_PLACE_IN Arg1:T28 Arg2:T21	
+R19	POINT_IN_TIME Arg1:T28 Arg2:T20	
+R20	LOCATED_IN Arg1:T21 Arg2:T22	
+T38	EVENT 1379 1387	гастроли
+R21	AGENT Arg1:T29 Arg2:T38	
+R22	POINT_IN_TIME Arg1:T38 Arg2:T23	
+N1	Reference T2 Wikidata:Q466411	Юлия Станиславовна Савичева
+N5	Reference T12 Wikidata:Q2393147	Максим Фадеев
+N10	Reference T21 Wikidata:Q190499	Северодвинск
+N14	Reference T35 Wikidata:Q177220	певец
+N12	Reference T5 Wikidata:Q4412567	Северодвинский театр драмы
+N2	Reference T6 Wikidata:Q492468	россияне
+N13	Reference T25 Wikidata:Q60723829	
+N3	Reference T8 Wikidata:Q4417257	
+N4	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T14 Wikidata:Q466411	Юлия Станиславовна Савичева
+N15	Reference T37 Wikidata:Q211236	знаменитый человек
+N16	Reference T19 Wikidata:NULL	нет данных
+N11	Reference T22 Wikidata:Q2103436	
+N9	Reference T18 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N17	Reference T4 Wikidata:Q190499	Северодвинск
+N18	Reference T1 Wikidata:Q190499	Северодвинск
+N19	Reference T30 Wikidata:Q177220	певец
+N20	Reference T29 Wikidata:Q177220	певец
+N21	Reference T26 Wikidata:Q177220	певец
+N22	Reference T36 Wikidata:Q177220	певец
+N23	Reference T27 Wikidata:Q177220	певец
+N24	Reference T7 Wikidata:Q466411	Юлия Станиславовна Савичева
+N25	Reference T10 Wikidata:Q466411	Юлия Станиславовна Савичева
+N26	Reference T9 Wikidata:Q466411	Юлия Станиславовна Савичева
+N27	Reference T34 Wikidata:Q211236	знаменитый человек
+N28	Reference T17 Wikidata:NULL	нет данных

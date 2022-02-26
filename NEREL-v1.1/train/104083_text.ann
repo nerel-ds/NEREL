@@ -1,0 +1,126 @@
+T1	FACILITY 10 20	Гуантанамо
+T2	FACILITY 57 67	Гуантанамо
+T3	PERSON 111 126	Равиль Мингазов
+T4	COUNTRY 142 151	Пакистане
+T5	COUNTRY 206 209	США
+T6	PROFESSION 218 231	артист балета
+T7	COUNTRY 234 244	российский
+T8	PERSON 253 268	Равиль Мингазов
+T9	DATE 285 297	около 14 лет
+T10	COUNTRY 300 312	американской
+T11	FACILITY 320 330	Гуантанамо
+T12	COUNTRY 334 338	Кубе
+T13	ORGANIZATION 438 479	Комиссия по периодическому пересмотру дел
+T14	COUNTRY 661 664	США
+T15	PERSON 697 705	Мингазов
+T16	COUNTRY 782 788	России
+T17	FACILITY 811 821	Гуантанамо
+T18	CITY 971 981	Вашингтоне
+T19	AGE 1007 1016	48-летний
+T20	PERSON 1017 1025	Мингазов
+T21	ORGANIZATION 1044 1052	Талибана
+T22	ORGANIZATION 1060 1077	Северного альянса
+T23	COUNTRY 1080 1091	Афганистане
+T24	DATE 1120 1126	в июне
+T25	PERSON 1212 1220	Мингазов
+T26	COUNTRY 1258 1269	Узбекистане
+T27	ORGANIZATION 1304 1314	Аль-Кайдой
+T28	COUNTRY 1336 1345	Пакистане
+T29	PERSON 1369 1381	Абу Зубайдой
+T30	PROFESSION 1385 1428	координатором» террористической организации
+T31	FACILITY 1457 1467	Гуантанамо
+T32	ORGANIZATION 1491 1504	правительство
+T33	COUNTRY 1521 1531	английский
+T34	PERSON 1671 1679	Мингазов
+T35	NATIONALITY 38 47	россиянин
+T36	DATE 152 170	около 14 лет назад
+T37	PROFESSION 245 252	военный
+T38	PROFESSION 353 362	комбатант
+T39	PERSON 540 545	Обамы
+T40	ORGANIZATION 525 545	администрацией Обамы
+T41	PERSON 896 905	Мингазова
+T42	PROFESSION 887 895	Адвокаты
+T43	ORGANIZATION 1127 1135	Пентагон
+T44	IDEOLOGY 1230 1242	исламистской
+T45	PROFESSION 1474 1482	адвокаты
+T46	CITY 1532 1541	Ноттингем
+R1	OWNER_OF Arg1:T10 Arg2:T11	
+R2	LOCATED_IN Arg1:T11 Arg2:T12	
+R3	FOUNDED_BY Arg1:T13 Arg2:T40	
+R4	ALTERNATIVE_NAME Arg1:T8 Arg2:T15	
+R5	SUBORDINATE_OF Arg1:T41 Arg2:T42	
+R6	AGE_IS Arg1:T20 Arg2:T19	
+T47	NATIONALITY 770 788	гражданином России
+R7	ORIGINS_FROM Arg1:T15 Arg2:T47	
+R8	ORIGINS_FROM Arg1:T47 Arg2:T16	
+R9	PLACE_RESIDES_IN Arg1:T47 Arg2:T17	
+R10	PLACE_RESIDES_IN Arg1:T35 Arg2:T1	
+T48	PROFESSION 218 224	артист
+R11	WORKS_AS Arg1:T8 Arg2:T6	
+R12	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R13	WORKS_AS Arg1:T8 Arg2:T37	
+R14	PLACE_RESIDES_IN Arg1:T8 Arg2:T11	
+R15	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R16	IDEOLOGY_OF Arg1:T27 Arg2:T44	
+R17	LOCATED_IN Arg1:T46 Arg2:T33	
+R18	LOCATED_IN Arg1:T29 Arg2:T31	
+R19	ORIGINS_FROM Arg1:T37 Arg2:T7	
+R20	ORIGINS_FROM Arg1:T6 Arg2:T7	
+R21	HEADQUARTERED_IN Arg1:T40 Arg2:T14	
+R22	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+T49	EVENT 410 435	одобрила его освобождение
+R23	PARTICIPANT_IN Arg1:T13 Arg2:T49	
+R24	PARTICIPANT_IN Arg1:T8 Arg2:T49	
+R25	TAKES_PLACE_IN Arg1:T49 Arg2:T14	
+R26	HEADQUARTERED_IN Arg1:T21 Arg2:T23	
+R27	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+R28	WORKPLACE Arg1:T20 Arg2:T21	
+R29	IDEOLOGY_OF Arg1:T25 Arg2:T44	
+T50	EVENT 1325 1333	захвачен
+R30	TAKES_PLACE_IN Arg1:T50 Arg2:T28	
+R31	PARTICIPANT_IN Arg1:T25 Arg2:T50	
+R32	WORKS_AS Arg1:T29 Arg2:T30	
+R33	FOUNDED_BY Arg1:T40 Arg2:T39	
+N1	Reference T1 Wikidata:Q357	тюрьма в Гуантанамо
+N3	Reference T4 Wikidata:Q843	Пакистан
+N4	Reference T5 Wikidata:Q30	США
+N5	Reference T6 Wikidata:Q4070300	балерина
+N7	Reference T12 Wikidata:Q241	Куба
+N9	Reference T16 Wikidata:Q159	Россия
+N10	Reference T18 Wikidata:Q61	Вашингтон
+N11	Reference T21 Wikidata:Q42418	Талибан
+N12	Reference T22 Wikidata:Q309368	Северный альянс
+N13	Reference T23 Wikidata:Q889	Афганистан
+N14	Reference T26 Wikidata:Q265	Узбекистан
+N15	Reference T27 Wikidata:Q34490	Аль-Каида
+N17	Reference T32 Wikidata:Q7188	правительство
+N19	Reference T35 Wikidata:Q492468	россияне
+N20	Reference T37 Wikidata:Q47064	военнослужащий
+N21	Reference T38 Wikidata:Q1414937	комбатант
+N22	Reference T39 Wikidata:Q76	Барак Обама
+N25	Reference T42 Wikidata:Q40348	адвокат
+N26	Reference T43 Wikidata:Q11208	Пентагон
+N27	Reference T46 Wikidata:Q41262	Ноттингем
+N29	Reference T48 Wikidata:Q483501	деятель искусств
+N2	Reference T3 Wikidata:NULL	нет данных
+N6	Reference T7 Wikidata:Q159	Россия
+N8	Reference T13 Wikidata:NULL	нет данных
+N23	Reference T40 Wikidata:NULL	нет данных
+N28	Reference T47 Wikidata:NULL	нет данных
+N24	Reference T41 Wikidata:NULL	нет данных
+N16	Reference T29 Wikidata:NULL	нет данных
+N30	Reference T30 Wikidata:NULL	нет данных
+N18	Reference T33 Wikidata:Q21	Англия
+N31	Reference T17 Wikidata:Q357	тюрьма в Гуантанамо
+N32	Reference T31 Wikidata:Q357	тюрьма в Гуантанамо
+N33	Reference T11 Wikidata:Q357	тюрьма в Гуантанамо
+N34	Reference T2 Wikidata:Q357	тюрьма в Гуантанамо
+N35	Reference T28 Wikidata:Q843	Пакистан
+N36	Reference T14 Wikidata:Q30	США
+N37	Reference T10 Wikidata:Q30	США
+N38	Reference T45 Wikidata:Q40348	адвокат
+N39	Reference T8 Wikidata:NULL	нет данных
+N40	Reference T20 Wikidata:NULL	нет данных
+N41	Reference T15 Wikidata:NULL	нет данных
+N42	Reference T25 Wikidata:NULL	нет данных
+N43	Reference T34 Wikidata:NULL	нет данных

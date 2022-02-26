@@ -1,0 +1,115 @@
+T1	PERSON 0 18	Михаила Саакашвили
+T2	COUNTRY 26 37	украинского
+T3	PERSON 51 68	Михаил Саакашвили
+T4	DATE 69 95	В среду, 26 июля 2017 года
+T5	ORGANIZATION 97 132	Государственная миграционная служба
+T6	COUNTRY 133 140	Украины
+T7	PROFESSION 165 176	губернатора
+T8	STATE_OR_PROVINCE 177 193	Одесской области
+T9	PROFESSION 204 214	Президента
+T10	COUNTRY 215 221	Грузии
+T11	PERSON 222 240	Михаила Саакашвили
+T12	COUNTRY 241 252	украинского
+T13	PERSON 267 277	Саакашвили
+T14	COUNTRY 285 295	украинское
+T16	PERSON 486 496	Саакашвили
+T17	COUNTRY 540 547	Украине
+T18	COUNTRY 605 611	Грузии
+T19	PERSON 612 622	Саакашвили
+T20	COUNTRY 649 655	Грузии
+T21	PROFESSION 667 677	президента
+T22	ORGANIZATION 800 823	Генеральную прокуратуру
+T23	COUNTRY 824 831	Украины
+T24	PERSON 846 856	Саакашвили
+T25	PROFESSION 866 872	нардеп
+T26	PERSON 873 887	Андрей Лозовой
+T27	COUNTRY 1039 1045	Грузии
+T28	PERSON 1046 1056	Саакашвили
+T29	DATE 1067 1078	в 2015 году
+T30	COUNTRY 1103 1110	Украины
+T31	ORGANIZATION 97 140	Государственная миграционная служба Украины
+T32	EVENT 153 160;241 264	лишение украинского гражданства
+T33	PROFESSION 165 193	губернатора Одесской области
+T34	PROFESSION 204 221	Президента Грузии
+T37	EVENT 369 388	лишения гражданства
+T38	EVENT 678 712	возбуждено несколько уголовных дел
+T39	CRIME 742 750	растрате
+T40	ORGANIZATION 800 831	Генеральную прокуратуру Украины
+T41	ORGANIZATION 960 992	Комиссия по вопросам гражданства
+T42	EVENT 1027 1045;1061 1066	Гражданства Грузии лишён
+T43	ORDINAL 320 321	2
+T44	ORDINAL 326 328	19
+T45	LAW 329 351	Закона «О гражданстве»
+T36	EVENT 19 49	лишили украинского гражданства
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T36	
+R2	HEADQUARTERED_IN Arg1:T31 Arg2:T6	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R4	ALTERNATIVE_NAME Arg1:T36 Arg2:T32	
+R5	POINT_IN_TIME Arg1:T32 Arg2:T4	
+R6	PARTICIPANT_IN Arg1:T31 Arg2:T32	
+R7	PARTICIPANT_IN Arg1:T11 Arg2:T32	
+R8	WORKPLACE Arg1:T7 Arg2:T8	
+R9	LOCATED_IN Arg1:T8 Arg2:T6	
+R10	WORKPLACE Arg1:T34 Arg2:T10	
+R11	WORKPLACE Arg1:T11 Arg2:T10	
+R12	WORKPLACE Arg1:T11 Arg2:T8	
+R13	WORKS_AS Arg1:T11 Arg2:T33	
+R14	WORKS_AS Arg1:T11 Arg2:T34	
+R15	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+T35	EVENT 278 307	теряет украинское гражданство
+R16	ALTERNATIVE_NAME Arg1:T32 Arg2:T35	
+R17	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R18	TAKES_PLACE_IN Arg1:T38 Arg2:T20	
+R19	PARTICIPANT_IN Arg1:T21 Arg2:T38	
+R20	WORKPLACE Arg1:T21 Arg2:T20	
+R21	HEADQUARTERED_IN Arg1:T40 Arg2:T23	
+R22	WORKS_AS Arg1:T26 Arg2:T25	
+T46	ORGANIZATION 889 900	прокуратура
+R23	ALTERNATIVE_NAME Arg1:T22 Arg2:T46	
+R24	POINT_IN_TIME Arg1:T42 Arg2:T29	
+R25	PARTICIPANT_IN Arg1:T28 Arg2:T42	
+R26	CONVICTED_OF Arg1:T19 Arg2:T39	
+T47	PENALTY 627 643	заочно арестован
+R27	PENALIZED_AS Arg1:T19 Arg2:T47	
+R28	TAKES_PLACE_IN Arg1:T47 Arg2:T18	
+T48	LAW 322 351	ст. 19 Закона «О гражданстве»
+R30	PART_OF Arg1:T48 Arg2:T45	
+R31	ORIGINS_FROM Arg1:T45 Arg2:T14	
+R32	HEADQUARTERED_IN Arg1:T41 Arg2:T23	
+R33	WORKS_AS Arg1:T19 Arg2:T21	
+R34	PARTICIPANT_IN Arg1:T19 Arg2:T38	
+N1	Reference T5 Wikidata:Q12100330	Государственная миграционная служба Украины
+N2	Reference T7 Wikidata:Q132050	губернатор
+N3	Reference T8 Wikidata:Q171852	Одесская область
+N6	Reference T16 Wikidata:Q43330	Михаил Саакашвили
+N7	Reference T18 Wikidata:Q230	Грузия
+N8	Reference T21 Wikidata:Q30461	президент
+N10	Reference T26 Wikidata:Q17371928	Лозовой, Андрей Сергеевич
+N11	Reference T31 Wikidata:Q12100330	Государственная миграционная служба Украины
+N13	Reference T34 Wikidata:Q843405	президент Грузии
+N17	Reference T46 Wikidata:Q1092499	прокуратура
+N12	Reference T33 Wikidata:Q109301989	
+N4	Reference T14 Wikidata:Q212	Украина
+N16	Reference T45 Wikidata:Q24931435	
+N18	Reference T48 Wikidata:NULL	нет данных
+N14	Reference T40 Wikidata:Q369716	
+N9	Reference T25 Wikidata:Q12132454	народный депутат Украины
+N15	Reference T41 Wikidata:NULL	нет данных
+N19	Reference T13 Wikidata:Q43330	Михаил Саакашвили
+N20	Reference T19 Wikidata:Q43330	Михаил Саакашвили
+N21	Reference T24 Wikidata:Q43330	Михаил Саакашвили
+N22	Reference T11 Wikidata:Q43330	Михаил Саакашвили
+N23	Reference T3 Wikidata:Q43330	Михаил Саакашвили
+N24	Reference T28 Wikidata:Q43330	Михаил Саакашвили
+N25	Reference T1 Wikidata:Q43330	Михаил Саакашвили
+N26	Reference T10 Wikidata:Q230	Грузия
+N27	Reference T20 Wikidata:Q230	Грузия
+N28	Reference T27 Wikidata:Q230	Грузия
+N29	Reference T9 Wikidata:Q30461	президент
+N30	Reference T22 Wikidata:Q1092499	прокуратура
+N31	Reference T12 Wikidata:Q212	Украина
+N32	Reference T23 Wikidata:Q212	Украина
+N33	Reference T17 Wikidata:Q212	Украина
+N34	Reference T6 Wikidata:Q212	Украина
+N35	Reference T2 Wikidata:Q212	Украина
+N36	Reference T30 Wikidata:Q212	Украина

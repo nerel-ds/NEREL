@@ -1,0 +1,125 @@
+T1	AGE 30 39	21-летняя
+T2	CITY 50 63	Екатеринбурга
+T3	AGE 65 74	21-летняя
+T4	PERSON 75 88	Полина Попова
+T5	CITY 92 105	Екатеринбурга
+T7	MONEY 227 243	миллион долларов
+T8	MONEY 265 284	три миллиона рублей
+T9	COUNTRY 340 346	Россию
+T10	EVENT 351 360	Мисс Мира
+T11	EVENT 365 379	Мисс Вселенная
+T12	PERSON 383 389	Попова
+T13	DATE 394 403	шесть лет
+T15	EVENT 433 444	Мисс Россия
+T16	ORDINAL 454 460	первым
+T17	AWARD 481 490	Вице-мисс
+T18	PERSON 507 526	Ксения Александрова
+T19	ORDINAL 530 536	третье
+T20	EVENT 681 697	Церемония финала
+T21	FACILITY 723 745	Барвиха Luxury Village
+T22	PROFESSION 764 776	радио-диджей
+T23	PROFESSION 795 806	телеведущая
+T24	PERSON 807 824	Виктория Лопырёва
+T25	DATE 858 869	в 2003 году
+T26	AWARD 894 908;941 969	чемпионка мира по художественной гимнастике
+T27	PERSON 970 984	Ляйсан Утяшева
+T28	PROFESSION 986 994	дизайнер
+T29	PERSON 995 1008	Игорь Чапурин
+T30	PROFESSION 1010 1018	фотограф
+T31	PERSON 1019 1034	Джонатан Беккер
+T32	PERSON 1076 1091	Оксана Фёдорова
+T33	PERSON 1100 1114	София Никитчук
+T34	PERSON 1124 1139	Ксения Сухинова
+T35	DATE 1141 1145	2007
+T36	NUMBER 1193 1195	50
+T37	NUMBER 1300 1315	173 сантиметров
+T38	AGE 1317 1326	старше 18
+T39	AGE 1331 1344	моложе 23 лет
+T40	PROFESSION 40 46	модель
+T41	PERSON 777 792	Максим Привалов
+T42	PERSON 570 586	Альбина Ахтямова
+T43	STATE_OR_PROVINCE 561 569	Башкирии
+T44	CITY 497 506	москвичка
+T45	AWARD 7 18	Мисс Россия
+T46	AWARD 113 129	Мисс Россия-2017
+T47	DATE 125 129	2017
+T14	COUNTRY 438 444	Россия
+T48	COUNTRY 12 18	Россия
+T49	AWARD 845 856	Мисс Россия
+T50	AWARD 911 969	шестикратная чемпионка Европы по художественной гимнастике
+T51	LOCATION 934 940	Европы
+T52	DATE 1093 1097	2001
+T53	DATE 1116 1120	2015
+R1	AGE_IS Arg1:T4 Arg2:T3	
+R2	AGE_IS Arg1:T40 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+R4	PLACE_RESIDES_IN Arg1:T42 Arg2:T43	
+R5	WORKS_AS Arg1:T24 Arg2:T23	
+R6	WORKS_AS Arg1:T41 Arg2:T22	
+R7	ORIGINS_FROM Arg1:T4 Arg2:T5	
+R8	ORIGINS_FROM Arg1:T40 Arg2:T2	
+R9	WORKS_AS Arg1:T29 Arg2:T28	
+R10	WORKS_AS Arg1:T31 Arg2:T30	
+R11	TAKES_PLACE_IN Arg1:T20 Arg2:T21	
+R12	AWARDED_WITH Arg1:T4 Arg2:T46	
+R13	PARTICIPANT_IN Arg1:T12 Arg2:T15	
+R14	AWARDED_WITH Arg1:T18 Arg2:T17	
+R15	PARTICIPANT_IN Arg1:T18 Arg2:T15	
+R16	SUBEVENT_OF Arg1:T20 Arg2:T15	
+R17	AWARDED_WITH Arg1:T24 Arg2:T49	
+R18	PARTICIPANT_IN Arg1:T41 Arg2:T20	
+R19	PARTICIPANT_IN Arg1:T24 Arg2:T20	
+R20	PARTICIPANT_IN Arg1:T42 Arg2:T15	
+R21	AWARDED_WITH Arg1:T40 Arg2:T45	
+R22	ORIGINS_FROM Arg1:T45 Arg2:T48	
+R23	TAKES_PLACE_IN Arg1:T15 Arg2:T14	
+R24	POINT_IN_TIME Arg1:T46 Arg2:T47	
+R25	POINT_IN_TIME Arg1:T17 Arg2:T47	
+R26	INCOME Arg1:T4 Arg2:T7	
+R27	INCOME Arg1:T4 Arg2:T8	
+R28	WORKS_AS Arg1:T4 Arg2:T40	
+R29	ORIGINS_FROM Arg1:T17 Arg2:T15	
+T6	CITY 723 730	Барвиха
+R30	LOCATED_IN Arg1:T21 Arg2:T6	
+R31	POINT_IN_TIME Arg1:T49 Arg2:T25	
+T54	AWARD 894 908	чемпионка мира
+R32	AWARDED_WITH Arg1:T27 Arg2:T26	
+R33	AWARDED_WITH Arg1:T27 Arg2:T50	
+R34	ORIGINS_FROM Arg1:T50 Arg2:T51	
+N1	Reference T5 Wikidata:Q887	Екатеринбург
+N6	Reference T23 Wikidata:Q947873	телеведущий
+N7	Reference T24 Wikidata:Q2471592	Лопырёва, Виктория Петровна
+N8	Reference T26 Wikidata:Q8350766	Кубок мира по художественной гимнастике
+N9	Reference T27 Wikidata:Q2631542	Ляйсан Альбертовна Утяшева
+N10	Reference T28 Wikidata:Q5322166	дизайнер
+N11	Reference T29 Wikidata:Q4507313	Чапурин, Игорь Вячеславович
+N12	Reference T30 Wikidata:Q33231	фотограф
+N13	Reference T32 Wikidata:Q1623076	Оксана Геннадьевна Фёдорова
+N14	Reference T33 Wikidata:Q19871971	Никитчук, София Викторовна
+N15	Reference T34 Wikidata:Q234268	Сухинова, Ксения Владимировна
+N16	Reference T40 Wikidata:Q4610556	модель
+N19	Reference T43 Wikidata:Q5710	Республика Башкортостан
+N20	Reference T44 Wikidata:Q649	Москва
+N21	Reference T46 Wikidata:Q29441746	Мисс Россия 2017
+N22	Reference T48 Wikidata:Q159	Россия
+N23	Reference T49 Wikidata:Q1149219	Мисс Россия
+N26	Reference T6 Wikidata:Q2042212	Барвиха
+N2	Reference T12 Wikidata:Q29415519	
+N3	Reference T17 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:NULL	нет данных
+N5	Reference T21 Wikidata:NULL	нет данных
+N28	Reference T22 Wikidata:NULL	нет данных
+N17	Reference T41 Wikidata:NULL	нет данных
+N27	Reference T54 Wikidata:Q2948691	
+N25	Reference T51 Wikidata:Q46	Европа
+N24	Reference T50 Wikidata:NULL	нет данных
+N29	Reference T31 Wikidata:NULL	нет данных
+N30	Reference T2 Wikidata:Q887	Екатеринбург
+N31	Reference T14 Wikidata:Q159	Россия
+N32	Reference T9 Wikidata:Q159	Россия
+N33	Reference T45 Wikidata:Q1149219	Мисс Россия
+N34	Reference T4 Wikidata:Q29415519	
+T55	COUNTRY 118 124	Россия
+R35	ORIGINS_FROM Arg1:T46 Arg2:T55	
+R36	LOCATED_IN Arg1:T5 Arg2:T55	

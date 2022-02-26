@@ -1,0 +1,28 @@
+T2	PERSON 90 104	Владимир Дорош
+T3	LAW 154 170	Налоговый кодекс
+T4	PROFESSION 190 201	президентом
+T5	COUNTRY 202 209	Украины
+T6	DATE 213 223	На четверг
+T7	CITY 257 262	Киеве
+T8	LAW 396 414	Налогового кодекса
+T9	PERSON 505 510	Дорош
+R1	WORKPLACE Arg1:T4 Arg2:T5
+T10	FACILITY 18 39	Майдане Независимости
+T11	PROFESSION 190 209	президентом Украины
+T12	EVENT 0 14	Акция протеста
+R2	TAKES_PLACE_IN Arg1:T12 Arg2:T10	
+R3	ORGANIZES Arg1:T2 Arg2:T12	
+T13	EVENT 117 131	акция протеста
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T9	
+R5	LOCATED_IN Arg1:T10 Arg2:T5	
+R6	ORIGINS_FROM Arg1:T3 Arg2:T5	
+R7	LOCATED_IN Arg1:T7 Arg2:T5	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q212	Украина
+N3	Reference T7 Wikidata:Q1899	Киев
+N5	Reference T10 Wikidata:Q863759	Площадь Независимости
+N6	Reference T11 Wikidata:Q579677	президент Украины
+N4	Reference T8 Wikidata:Q4312688	
+N7	Reference T9 Wikidata:NULL	нет данных
+N8	Reference T3 Wikidata:Q4312688	
+N9	Reference T2 Wikidata:NULL	нет данных

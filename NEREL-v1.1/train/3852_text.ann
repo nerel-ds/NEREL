@@ -1,0 +1,158 @@
+T1	PROFESSION 12 25	Президент США
+T2	PERSON 26 51	Джеральд Форджеральд Форд
+T3	PROFESSION 61 74	Президент США
+T4	PERSON 75 88	Джеральд Форд
+T5	AGE 118 124	93 лет
+T6	DATE 127 143	В течение 24 лет
+T8	PERSON 166 179	Джеральд Форд
+T9	PROFESSION 184 193	депутатом
+T10	PERSON 247 257	Спиро Агню
+T11	PROFESSION 266 281	вице-президента
+T13	PERSON 326 339	Джеральд Форд
+T15	EVENT 365 384	Уотергейтского дела
+T16	PROFESSION 406 416	Президента
+T17	PERSON 421 436	Ричарда Никсона
+T18	LAW 447 458	Конституции
+T19	PROFESSION 464 475	Президентом
+T20	PERSON 487 500	Джеральд Форд
+T21	PERSON 502 515	Джеральд Форд
+T22	PROFESSION 534 545	Президентом
+T23	PROFESSION 584 594	Президента
+T24	PROFESSION 607 622	вице-президента
+T26	EVENT 652 659	выборах
+T27	DATE 660 669	1976 года
+T28	PERSON 670 683	Джеральд Форд
+T29	PERSON 693 707	Джимми Картеру
+T30	PERSON 710 723	Джеральд Форд
+T31	PROFESSION 748 759	Президентом
+T32	PROFESSION 792 803	Президентом
+T33	PERSON 808 814	Рейган
+T34	AGE 846 852	93 лет
+T35	EVENT 0 4	Умер
+T38	COUNTRY 22 25	США
+T42	PROFESSION 61 70	Президент
+T43	COUNTRY 71 74	США
+T44	EVENT 89 98	скончался
+T45	PROFESSION 184 229	депутатом Палаты представителей Конгресса США
+T46	ORGANIZATION 194 229	Палаты представителей Конгресса США
+T47	ORGANIZATION 216 229	Конгресса США
+T48	COUNTRY 226 229	США
+T49	PROFESSION 184 215	депутатом Палаты представителей
+T50	ORGANIZATION 194 215	Палаты представителей
+T51	PROFESSION 266 285	вице-президента США
+T54	COUNTRY 282 285	США
+T55	EVENT 397 405	отставка
+T56	EVENT 238 246	отставки
+T57	PROFESSION 406 420	Президента США
+T58	COUNTRY 417 420	США
+T59	LAW 447 462	Конституции США
+T60	COUNTRY 459 462	США
+T61	PROFESSION 534 549	Президентом США
+T62	COUNTRY 546 549	США
+T63	PROFESSION 612 622	президента
+T25	PROFESSION 748 763	Президентом США
+T64	COUNTRY 760 763	США
+T65	EVENT 824 828	умер
+R1	WORKPLACE Arg1:T1 Arg2:T38	
+R2	WORKPLACE Arg1:T2 Arg2:T38	
+R3	WORKS_AS Arg1:T2 Arg2:T1	
+R4	PARTICIPANT_IN Arg1:T2 Arg2:T35	
+R5	WORKPLACE Arg1:T3 Arg2:T43	
+R6	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R7	WORKPLACE Arg1:T4 Arg2:T43	
+R8	WORKS_AS Arg1:T4 Arg2:T3	
+R9	PARTICIPANT_IN Arg1:T4 Arg2:T44	
+R10	ALTERNATIVE_NAME Arg1:T35 Arg2:T44	
+T36	DATE 99 106	сегодня
+R11	POINT_IN_TIME Arg1:T44 Arg2:T36	
+R13	AGE_DIED_AT Arg1:T4 Arg2:T5	
+T7	DATE 145 151;160 164	с 1949 годы
+T37	DATE 152 164	по 1973 годы
+R14	HEADQUARTERED_IN Arg1:T47 Arg2:T48	
+R15	PART_OF Arg1:T46 Arg2:T47	
+R16	WORKPLACE Arg1:T45 Arg2:T46	
+R17	WORKPLACE Arg1:T8 Arg2:T46	
+R18	WORKS_AS Arg1:T8 Arg2:T45	
+R19	WORKPLACE Arg1:T51 Arg2:T54	
+R20	PARTICIPANT_IN Arg1:T10 Arg2:T56	
+R21	WORKS_AS Arg1:T10 Arg2:T51	
+R22	WORKPLACE Arg1:T10 Arg2:T54	
+T12	DATE 287 298	в 1973 году
+R23	POINT_IN_TIME Arg1:T56 Arg2:T12	
+R24	WORKS_AS Arg1:T13 Arg2:T51	
+R25	WORKPLACE Arg1:T10 Arg2:T54	
+R26	WORKPLACE Arg1:T13 Arg2:T54	
+T40	EVENT 317 325	назначен
+R27	PARTICIPANT_IN Arg1:T13 Arg2:T40	
+R28	POINT_IN_TIME Arg1:T40 Arg2:T12	
+R29	HAS_CAUSE Arg1:T40 Arg2:T56	
+T14	DATE 342 353	В 1974 году
+R30	POINT_IN_TIME Arg1:T55 Arg2:T14	
+R31	HAS_CAUSE Arg1:T55 Arg2:T15	
+R32	PARTICIPANT_IN Arg1:T17 Arg2:T55	
+R33	WORKPLACE Arg1:T17 Arg2:T58	
+R34	WORKPLACE Arg1:T57 Arg2:T58	
+R35	WORKS_AS Arg1:T17 Arg2:T57	
+R36	ORIGINS_FROM Arg1:T59 Arg2:T60	
+R37	WORKS_AS Arg1:T20 Arg2:T19	
+R38	WORKPLACE Arg1:T61 Arg2:T62	
+R39	WORKS_AS Arg1:T21 Arg2:T61	
+T41	EVENT 638 659	президентских выборах
+T52	PROFESSION 638 651	президентских
+R40	ALTERNATIVE_NAME Arg1:T23 Arg2:T52	
+R42	POINT_IN_TIME Arg1:T26 Arg2:T27	
+R46	WORKPLACE Arg1:T25 Arg2:T64	
+R47	WORKS_AS Arg1:T30 Arg2:T25	
+R48	WORKS_AS Arg1:T33 Arg2:T32	
+R49	PARTICIPANT_IN Arg1:T33 Arg2:T65	
+R50	AGE_DIED_AT Arg1:T33 Arg2:T34	
+T39	PROFESSION 12 21	Президент
+R12	DATE_OF_DEATH Arg1:T4 Arg2:T36	
+R41	PARTICIPANT_IN Arg1:T21 Arg2:T41	
+R51	PARTICIPANT_IN Arg1:T29 Arg2:T41	
+N1	Reference T1 Wikidata:Q11696	президент США
+N2	Reference T9 Wikidata:Q486839	член парламента
+N3	Reference T10 Wikidata:Q203433	Спиро Агню
+N4	Reference T17 Wikidata:Q9588	Ричард Никсон
+N5	Reference T18 Wikidata:Q7755	конституция
+N6	Reference T22 Wikidata:Q30461	президент
+N8	Reference T29 Wikidata:Q23685	Джимми Картер
+N9	Reference T30 Wikidata:Q9582	Джеральд Форд
+N10	Reference T33 Wikidata:Q9960	Рональд Рейган
+N11	Reference T42 Wikidata:Q30461	президент
+N13	Reference T47 Wikidata:Q11268	Конгресс США
+N15	Reference T51 Wikidata:Q11699	вице-президент США
+N16	Reference T59 Wikidata:Q11698	конституция США
+N17	Reference T62 Wikidata:Q30	США
+N7	Reference T24 Wikidata:Q42178	вице-президент
+N12	Reference T46 Wikidata:Q11701	Палата представителей США
+N14	Reference T50 Wikidata:Q2145277	
+N18	Reference T49 Wikidata:Q13218630	
+N19	Reference T45 Wikidata:NULL	нет данных
+N20	Reference T57 Wikidata:Q11696	президент США
+N21	Reference T25 Wikidata:Q11696	президент США
+N22	Reference T3 Wikidata:Q11696	президент США
+N23	Reference T61 Wikidata:Q11696	президент США
+N24	Reference T23 Wikidata:Q30461	президент
+N25	Reference T19 Wikidata:Q30461	президент
+N26	Reference T31 Wikidata:Q30461	президент
+N27	Reference T16 Wikidata:Q30461	президент
+N28	Reference T52 Wikidata:Q30461	президент
+N29	Reference T63 Wikidata:Q30461	президент
+N30	Reference T39 Wikidata:Q30461	президент
+N31	Reference T32 Wikidata:Q30461	президент
+N32	Reference T13 Wikidata:Q9582	Джеральд Форд
+N33	Reference T8 Wikidata:Q9582	Джеральд Форд
+N34	Reference T20 Wikidata:Q9582	Джеральд Форд
+N35	Reference T4 Wikidata:Q9582	Джеральд Форд
+N36	Reference T28 Wikidata:Q9582	Джеральд Форд
+N37	Reference T2 Wikidata:Q9582	Джеральд Форд
+N38	Reference T21 Wikidata:Q9582	Джеральд Форд
+N39	Reference T58 Wikidata:Q30	США
+N40	Reference T38 Wikidata:Q30	США
+N41	Reference T64 Wikidata:Q30	США
+N42	Reference T60 Wikidata:Q30	США
+N43	Reference T48 Wikidata:Q30	США
+N44	Reference T54 Wikidata:Q30	США
+N45	Reference T43 Wikidata:Q30	США
+N46	Reference T11 Wikidata:Q42178	вице-президент

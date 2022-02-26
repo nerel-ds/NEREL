@@ -1,0 +1,168 @@
+T1	STATE_OR_PROVINCE 0 10	Аризонский
+T2	AGE 42 51	22-летний
+T3	STATE_OR_PROVINCE 59 66	Аризоны
+T4	NUMBER 120 122	20
+T5	PROFESSION 153 172	члена Конгресса США
+T6	DATE 257 270	В понедельник
+T7	CITY 363 369	Феникс
+T8	PERSON 448 454	Лофнер
+T9	DATE 476 489	через два дня
+T10	CITY 507 513	Тусоне
+T11	NUMBER 532 537	шесть
+T12	PROFESSION 549 606	член Палаты представителей Конгресса США от штата Аризона
+T13	STATE_OR_PROVINCE 599 606	Аризона
+T14	PERSON 607 624	Гэбриэль Гиффордс
+T15	NUMBER 713 715	13
+T16	DATE 726 740	В этот же день
+T17	PROFESSION 741 750	президент
+T18	PERSON 755 766	Барак Обама
+T19	DATE 874 883	в субботу
+T20	PERSON 885 890	Обама
+T21	FACILITY 902 912	Белом доме
+T22	TIME 913 934	через несколько часов
+T23	PROFESSION 1029 1038	Президент
+T24	PROFESSION 1041 1052	первая леди
+T25	FACILITY 1080 1090	Белом доме
+T26	ORGANIZATION 1149 1176	Нью-йоркская фондовая биржа
+T27	AGE 1272 1281	40-летнюю
+T28	DATE 1517 1526	В субботу
+T30	PERSON 1634 1641	Лофнеру
+T31	NUMBER 1698 1702	Один
+T32	PROFESSION 1747 1762	члена Конгресса
+T33	NUMBER 1764 1767	два
+T34	NUMBER 1843 1846	два
+T35	ORGANIZATION 1753 1762	Конгресса
+T36	CRIME 1712 1746	покушение на политическое убийство
+T37	CRIME 1777 1836	покушение на убийство сотрудника федерального правительства
+T38	CRIME 1856 1912	покушение на убийство сотрудника федерального учреждения
+T29	PERSON 1589 1597	Гиффордс
+T39	PROFESSION 1361 1369	докторов
+T40	PERSON 1282 1290	Гиффордс
+T41	CITY 1149 1161	Нью-йоркская
+T42	COUNTRY 751 754	США
+T43	PROFESSION 741 754	президент США
+T44	PERSON 1053 1065	Мишель Обама
+T45	FACILITY 1138 1147	Капитолия
+T46	ORGANIZATION 554 589	Палаты представителей Конгресса США
+T47	ORGANIZATION 576 589	Конгресса США
+T48	COUNTRY 586 589	США
+T49	COUNTRY 169 172	США
+T50	ORGANIZATION 159 172	Конгресса США
+T52	EVENT 78 86	стрельбу
+T53	EVENT 197 202	судом
+T54	PERSON 271 284	Джаред Лофнер
+T55	PROFESSION 327 337	охранников
+T56	EVENT 470 475	судом
+T57	EVENT 496 504	стрельбы
+R1	WORKPLACE Arg1:T5 Arg2:T50	
+R2	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+R3	PLACE_RESIDES_IN Arg1:T54 Arg2:T3	
+R4	AGE_IS Arg1:T54 Arg2:T2	
+R5	TAKES_PLACE_IN Arg1:T57 Arg2:T10	
+R6	WORKPLACE Arg1:T43 Arg2:T42	
+R7	WORKS_AS Arg1:T18 Arg2:T43	
+T58	DISEASE 674 695	критическом состоянии
+R8	MEDICAL_CONDITION Arg1:T14 Arg2:T58	
+R9	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R10	WORKPLACE Arg1:T32 Arg2:T35	
+R11	CONVICTED_OF Arg1:T30 Arg2:T36	
+R12	CONVICTED_OF Arg1:T30 Arg2:T37	
+R13	CONVICTED_OF Arg1:T30 Arg2:T38	
+T59	PROFESSION 1799 1836	сотрудника федерального правительства
+T60	PROFESSION 1878 1912	сотрудника федерального учреждения
+R15	SPOUSE Arg1:T20 Arg2:T44	
+R14	WORKS_AS Arg1:T20 Arg2:T23	
+R16	SPOUSE Arg1:T23 Arg2:T44	
+R17	LOCATED_IN Arg1:T44 Arg2:T25	
+R18	LOCATED_IN Arg1:T23 Arg2:T25	
+R19	HEADQUARTERED_IN Arg1:T26 Arg2:T41	
+R20	AGE_IS Arg1:T40 Arg2:T27	
+R21	ALTERNATIVE_NAME Arg1:T14 Arg2:T40	
+R22	WORKS_AS Arg1:T14 Arg2:T12	
+R23	WORKPLACE Arg1:T12 Arg2:T46	
+R24	PART_OF Arg1:T46 Arg2:T47	
+R25	HEADQUARTERED_IN Arg1:T47 Arg2:T48	
+R26	WORKPLACE Arg1:T14 Arg2:T46	
+R27	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R28	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+T51	CRIME 218 254	совершении федерального преступления
+R29	CONVICTED_OF Arg1:T54 Arg2:T51	
+R30	AGENT Arg1:T8 Arg2:T57	
+T61	EVENT 526 545	убиты шесть человек
+R31	SUBEVENT_OF Arg1:T61 Arg2:T57	
+T62	EVENT 702 723	ранены еще 13 человек
+R32	SUBEVENT_OF Arg1:T62 Arg2:T57	
+R33	TAKES_PLACE_IN Arg1:T61 Arg2:T10	
+R34	TAKES_PLACE_IN Arg1:T62 Arg2:T10	
+T63	EVENT 109 130	пострадали 20 человек
+R35	SUBEVENT_OF Arg1:T63 Arg2:T52	
+R36	AGENT Arg1:T54 Arg2:T52	
+R37	LOCATED_IN Arg1:T54 Arg2:T7	
+T64	EVENT 973 988	минута молчания
+R38	TAKES_PLACE_IN Arg1:T64 Arg2:T42	
+R39	HAS_CAUSE Arg1:T64 Arg2:T57	
+T65	PROFESSION 1238 1243	Врачи
+T66	EVENT 1536 1558	встречи с избирателями
+R40	ORGANIZES Arg1:T29 Arg2:T66	
+R41	POINT_IN_TIME Arg1:T66 Arg2:T28	
+T67	EVENT 36 41	судом
+R42	HAS_CAUSE Arg1:T53 Arg2:T52	
+R43	PARTICIPANT_IN Arg1:T54 Arg2:T53	
+R44	PARTICIPANT_IN Arg1:T8 Arg2:T56	
+R45	POINT_IN_TIME Arg1:T56 Arg2:T9	
+R46	HAS_CAUSE Arg1:T56 Arg2:T57	
+R47	TAKES_PLACE_IN Arg1:T56 Arg2:T7	
+T68	DISEASE 634 641	ранение
+R48	MEDICAL_CONDITION Arg1:T14 Arg2:T68	
+R49	HAS_CAUSE Arg1:T68 Arg2:T57	
+T69	EVENT 891 899	выступал
+R50	AGENT Arg1:T20 Arg2:T69	
+R51	TAKES_PLACE_IN Arg1:T69 Arg2:T21	
+R52	POINT_IN_TIME Arg1:T69 Arg2:T22	
+R53	ALTERNATIVE_NAME Arg1:T65 Arg2:T39	
+T70	DISEASE 1607 1622	пулевое ранение
+R54	MEDICAL_CONDITION Arg1:T29 Arg2:T70	
+R55	ALTERNATIVE_NAME Arg1:T54 Arg2:T30	
+R56	PARTICIPANT_IN Arg1:T32 Arg2:T36	
+R57	PARTICIPANT_IN Arg1:T59 Arg2:T37	
+R58	PARTICIPANT_IN Arg1:T60 Arg2:T38	
+T71	CRIME 1777 1798	покушение на убийство
+T72	CRIME 1856 1877	покушение на убийство
+N3	Reference T8 Wikidata:Q4267485	Лофнер, Джаред Ли
+N4	Reference T10 Wikidata:Q18575	Тусон
+N5	Reference T13 Wikidata:Q816	Аризона
+N6	Reference T17 Wikidata:Q30461	президент
+N7	Reference T18 Wikidata:Q76	Барак Обама
+N8	Reference T24 Wikidata:Q203184	первая леди
+N9	Reference T25 Wikidata:Q35525	Белый дом
+N10	Reference T26 Wikidata:Q13677	Нью-Йоркская фондовая биржа
+N11	Reference T30 Wikidata:Q4267485	Лофнер, Джаред Ли
+N13	Reference T29 Wikidata:Q193703	Габриэль Гиффордс
+N15	Reference T42 Wikidata:Q30	США
+N16	Reference T43 Wikidata:Q11696	президент США
+N17	Reference T44 Wikidata:Q13133	Мишель Обама
+N18	Reference T45 Wikidata:Q54109	Капитолий
+N20	Reference T47 Wikidata:Q11268	Конгресс США
+N21	Reference T55 Wikidata:Q856887	охранник
+N22	Reference T65 Wikidata:Q39631	врач
+N1	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:Q16556	
+N23	Reference T12 Wikidata:NULL	нет данных
+N19	Reference T46 Wikidata:NULL	нет данных
+N14	Reference T41 Wikidata:Q60	Нью-Йорк
+N24	Reference T32 Wikidata:NULL	нет данных
+N12	Reference T35 Wikidata:NULL	нет данных
+N25	Reference T59 Wikidata:NULL	нет данных
+N26	Reference T60 Wikidata:NULL	нет данных
+N27	Reference T1 Wikidata:Q816	Аризона
+N28	Reference T3 Wikidata:Q816	Аризона
+N29	Reference T23 Wikidata:Q30461	президент
+N30	Reference T20 Wikidata:Q76	Барак Обама
+N31	Reference T21 Wikidata:Q35525	Белый дом
+N32	Reference T54 Wikidata:Q4267485	Лофнер, Джаред Ли
+N33	Reference T40 Wikidata:Q193703	Габриэль Гиффордс
+N34	Reference T14 Wikidata:Q193703	Габриэль Гиффордс
+N35	Reference T48 Wikidata:Q30	США
+N36	Reference T49 Wikidata:Q30	США
+N37	Reference T50 Wikidata:Q11268	Конгресс США
+N38	Reference T39 Wikidata:Q39631	врач

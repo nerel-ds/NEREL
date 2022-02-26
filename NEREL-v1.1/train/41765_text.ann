@@ -1,0 +1,76 @@
+T1	PERSON 0 14	Владимир Путин
+T2	CITY 73 79	Казани
+T3	PERSON 85 99	Владимир Путин
+T4	PROFESSION 100 109	Президент
+T5	COUNTRY 110 130	Российской Федерации
+T6	PERSON 131 145	Владимир Путин
+T8	PROFESSION 255 272	Глава государства
+T9	PERSON 302 321	Рустама Минниханова
+T10	PROFESSION 323 339	главы Татарстана
+T11	AGE 341 351	23-летнего
+T12	PERSON 352 369	Ирека Минниханова
+T13	ORGANIZATION 440 474	Правительству Российской Федерации
+T15	CITY 779 785	Москва
+T16	CITY 788 794	Казань
+T17	NUMBER 808 810	50
+T19	PROFESSION 100 130	Президент Российской Федерации
+T20	EVENT 217 234	крушения самолёта
+T7	CITY 247 253	Казани
+T21	EVENT 290 296	гибель
+T22	STATE_OR_PROVINCE 329 339	Татарстана
+T23	EVENT 399 413	авиакатастрофе
+T25	PROFESSION 414 431	глава государства
+T26	ORGANIZATION 440 453	Правительству
+T27	COUNTRY 454 474	Российской Федерации
+T28	FACILITY 689 719	международном аэропорту Казань
+T29	FACILITY 237 253	аэропорту Казани
+T30	CITY 713 719	Казань
+T31	EVENT 742 759	крушение самолёта
+T18	EVENT 796 803	Погибли
+R1	AGE_IS Arg1:T12 Arg2:T11	
+R2	WORKS_AS Arg1:T9 Arg2:T10	
+R3	WORKPLACE Arg1:T9 Arg2:T22	
+R4	PARENT_OF Arg1:T9 Arg2:T12	
+R5	PARTICIPANT_IN Arg1:T12 Arg2:T21	
+T32	EVENT 56 70	авиакатастрофе
+R6	TAKES_PLACE_IN Arg1:T32 Arg2:T2	
+R7	PARTICIPANT_IN Arg1:T12 Arg2:T20	
+R8	TAKES_PLACE_IN Arg1:T20 Arg2:T29	
+R9	WORKS_AS Arg1:T6 Arg2:T19	
+R10	WORKPLACE Arg1:T19 Arg2:T5	
+R11	WORKPLACE Arg1:T6 Arg2:T5	
+R12	ALTERNATIVE_NAME Arg1:T19 Arg2:T8	
+R14	SUBEVENT_OF Arg1:T21 Arg2:T20	
+R15	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+R16	HEADQUARTERED_IN Arg1:T13 Arg2:T27	
+R17	TAKES_PLACE_IN Arg1:T31 Arg2:T28	
+R13	ALTERNATIVE_NAME Arg1:T32 Arg2:T20	
+R18	LOCATED_IN Arg1:T29 Arg2:T7	
+R19	PARTICIPANT_IN Arg1:T9 Arg2:T21	
+R20	WORKPLACE Arg1:T10 Arg2:T22	
+R21	LOCATED_IN Arg1:T28 Arg2:T30	
+R22	ALTERNATIVE_NAME Arg1:T23 Arg2:T31	
+T14	EVENT 796 818	Погибли все 50 человек
+R23	SUBEVENT_OF Arg1:T14 Arg2:T31	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q159	Россия
+N3	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N7	Reference T13 Wikidata:Q1140115	Правительство Российской Федерации
+N8	Reference T15 Wikidata:Q649	Москва
+N9	Reference T22 Wikidata:Q5481	Татарстан
+N10	Reference T25 Wikidata:Q48352	глава государства
+N11	Reference T26 Wikidata:Q7188	правительство
+N12	Reference T28 Wikidata:Q47151	Казань
+N13	Reference T29 Wikidata:Q47151	Казань
+N14	Reference T30 Wikidata:Q900	Казань
+N4	Reference T9 Wikidata:Q983503	Рустам Нургалиевич Минниханов
+N5	Reference T10 Wikidata:Q13207321	президент Татарстана
+N6	Reference T12 Wikidata:NULL	нет данных
+N15	Reference T27 Wikidata:Q159	Россия
+N16	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T19 Wikidata:Q48352	глава государства
+N19	Reference T8 Wikidata:Q48352	глава государства
+N20	Reference T7 Wikidata:Q900	Казань
+N21	Reference T2 Wikidata:Q900	Казань
+N22	Reference T16 Wikidata:Q900	Казань

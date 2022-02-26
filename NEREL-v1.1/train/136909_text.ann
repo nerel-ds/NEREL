@@ -1,0 +1,73 @@
+T1	ORGANIZATION 2 9	Госдуме
+T2	ORGANIZATION 89 92	ФСБ
+T3	COUNTRY 93 99	России
+T4	PROFESSION 100 108	Депутаты
+T5	ORGANIZATION 109 116	Госдумы
+T6	PERSON 117 133	Адальби Шхагошев
+T7	PERSON 136 152	Александр Грибов
+T8	DATE 271 276	7 лет
+T9	LAW 329 345	Уголовный кодекс
+T10	LAW 347 352	УК РФ
+T12	LAW 745 750	УК РФ
+T13	PROFESSION 872 879	депутат
+T14	PERSON 880 896	Александр Грибов
+T18	ORGANIZATION 89 99	ФСБ России
+T19	PROFESSION 100 116	Депутаты Госдумы
+T20	CRIME 36 57	пропаганду терроризма
+T21	CRIME 201 222	пропаганду терроризма
+T22	PENALTY 271 292	7 лет лишения свободы
+T23	COUNTRY 350 352	РФ
+T24	PROFESSION 295 307	Законодатели
+T25	CRIME 433 686	деятельность по распространению материалов и информации, направленных на формирование в сознании лица идеологии терроризма, убежденности в ее привлекательности, а равно искаженного представления о допустимости осуществления террористической деятельности
+T26	ORDINAL 741 744	205
+T27	COUNTRY 748 750	РФ
+T28	LAW 734 750	статью 205 УК РФ
+T29	LAW 745 747	УК
+T15	CRIME 797 827	публичные призывы к терроризму
+T16	CRIME 832 863	публичное оправдание терроризма
+T17	PROFESSION 1129 1136	Депутат
+T30	CRIME 372 393	пропаганда терроризма
+T31	LAW 347 349	УК
+T32	IDEOLOGY 1315 1326	террористов
+R1	ABBREVIATION Arg1:T9 Arg2:T31	
+R2	WORKS_AS Arg1:T14 Arg2:T13	
+T33	IDEOLOGY 383 393	терроризма
+T34	IDEOLOGY 545 555	терроризма
+T35	IDEOLOGY 817 827	терроризму
+T36	IDEOLOGY 979 988	терроризм
+T37	IDEOLOGY 853 863	терроризма
+T38	IDEOLOGY 47 57	терроризма
+T39	IDEOLOGY 212 222	терроризма
+R3	HEADQUARTERED_IN Arg1:T18 Arg2:T3	
+R4	WORKPLACE Arg1:T19 Arg2:T5	
+R5	WORKPLACE Arg1:T6 Arg2:T5	
+R6	WORKPLACE Arg1:T7 Arg2:T5	
+R7	WORKS_AS Arg1:T6 Arg2:T19	
+R8	WORKS_AS Arg1:T7 Arg2:T19	
+R9	ALTERNATIVE_NAME Arg1:T19 Arg2:T24	
+R10	HAS_CAUSE Arg1:T22 Arg2:T21	
+R11	ORIGINS_FROM Arg1:T10 Arg2:T23	
+R12	ORIGINS_FROM Arg1:T12 Arg2:T27	
+T40	PENALTY 277 292	лишения свободы
+R13	PART_OF Arg1:T28 Arg2:T12	
+N1	Reference T2 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N2	Reference T3 Wikidata:Q159	Россия
+N3	Reference T5 Wikidata:Q715641	Государственная дума
+N4	Reference T6 Wikidata:Q55106378	Шхагошев, Адальби Люлевич
+N5	Reference T7 Wikidata:Q60368106	Грибов, Александр Сергеевич
+N6	Reference T10 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N7	Reference T13 Wikidata:Q486839	член парламента
+N8	Reference T18 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N9	Reference T24 Wikidata:Q486839	член парламента
+N10	Reference T27 Wikidata:Q159	Россия
+N11	Reference T28 Wikidata:NULL	нет данных
+N12	Reference T29 Wikidata:Q19705	уголовное законодательство
+N13	Reference T1 Wikidata:Q715641	Государственная дума
+N14	Reference T14 Wikidata:Q60368106	Грибов, Александр Сергеевич
+N15	Reference T12 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N16	Reference T17 Wikidata:Q486839	член парламента
+N17	Reference T4 Wikidata:Q486839	член парламента
+N18	Reference T19 Wikidata:Q486839	член парламента
+N19	Reference T23 Wikidata:Q159	Россия
+N20	Reference T31 Wikidata:Q19705	уголовное законодательство
+N21	Reference T9 Wikidata:Q19705	уголовное законодательство

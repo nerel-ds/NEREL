@@ -1,0 +1,100 @@
+T1	FACILITY 23 38	памятник Ленину
+T2	PERSON 32 38	Ленину
+T3	COUNTRY 41 48	Украине
+T4	PERSON 69 75	Ленину
+T5	CITY 78 97	Новгороде-Северском
+T7	CITY 125 143	Новгород-Северский
+T8	STATE_OR_PROVINCE 144 164	Черниговской области
+T9	COUNTRY 165 172	Украины
+T10	TIME 173 203	в ночь на 24 октября 2016 года
+T11	COUNTRY 241 248	Украины
+T12	PERSON 277 293	Владимиру Ленину
+T13	DATE 319 327	2,5 года
+T14	COUNTRY 508 518	украинских
+T15	ORGANIZATION 531 551	Комсомольская правда
+T16	NUMBER 704 713	4,5 тонны
+T17	LAW 740 792	Об осуждении коммунистического и нацистского режимов
+T18	COUNTRY 815 822	Украине
+T19	DATE 823 838	в мае 2015 года
+T20	CITY 1037 1042	Киеве
+T21	PERSON 1119 1135	Владимиру Ленину
+T22	DATE 1173 1182	В августе
+T23	PROFESSION 1183 1192	президент
+T24	COUNTRY 1193 1200	Украины
+T25	PERSON 1201 1215	Пётр Порошенко
+T26	NUMBER 1268 1278	более 1200
+T27	PERSON 1290 1296	Ленину
+T28	NUMBER 1313 1316	987
+R1	LOCATED_IN Arg1:T8 Arg2:T7
+R3	WORKS_AS Arg1:T25 Arg2:T30
+T29	FACILITY 60 75	памятник Ленину
+T6	DATE 180 203	на 24 октября 2016 года
+T30	PROFESSION 1183 1200	президент Украины
+T31	FACILITY 1279 1296	памятников Ленину
+T32	EVENT 0 12	Демонтирован
+R4	TAKES_PLACE_IN Arg1:T32 Arg2:T3	
+R5	LOCATED_IN Arg1:T1 Arg2:T3	
+R6	LOCATED_IN Arg1:T29 Arg2:T5	
+T33	EVENT 204 216	демонтирован
+R7	POINT_IN_TIME Arg1:T33 Arg2:T6	
+T34	FACILITY 249 293	памятник вождю пролетариата Владимиру Ленину
+R8	LOCATED_IN Arg1:T34 Arg2:T7	
+T35	IDEOLOGY 753 770	коммунистического
+T36	IDEOLOGY 773 784	нацистского
+T37	FACILITY 865 882	памятников Ленину
+T38	IDEOLOGY 1001 1009	радикалы
+R9	WORKPLACE Arg1:T25 Arg2:T24	
+T39	FACILITY 1089 1135	памятников вождю пролетариата Владимиру Ленину
+R10	DATE_OF_CREATION Arg1:T17 Arg2:T19	
+R11	INANIMATE_INVOLVED Arg1:T1 Arg2:T32	
+T40	PROFESSION 258 276	вождю пролетариата
+R12	WORKS_AS Arg1:T12 Arg2:T40	
+R2	LOCATED_IN Arg1:T8 Arg2:T9	
+R13	TAKES_PLACE_IN Arg1:T33 Arg2:T7	
+R14	INANIMATE_INVOLVED Arg1:T34 Arg2:T33	
+R15	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R16	ORIGINS_FROM Arg1:T17 Arg2:T18	
+T41	PERSON 876 882	Ленину
+R17	ALTERNATIVE_NAME Arg1:T12 Arg2:T41	
+R18	ALTERNATIVE_NAME Arg1:T34 Arg2:T37	
+R19	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+R20	ALTERNATIVE_NAME Arg1:T29 Arg2:T34	
+T42	PROFESSION 945 979	советских государственных деятелей
+T43	COUNTRY 945 954	советских
+R21	ORIGINS_FROM Arg1:T42 Arg2:T43	
+T44	PROFESSION 1100 1118	вождю пролетариата
+R22	WORKS_AS Arg1:T21 Arg2:T44	
+T45	IDEOLOGY 1145 1161	коммунистическим
+R23	WORKPLACE Arg1:T30 Arg2:T24	
+R24	LOCATED_IN Arg1:T20 Arg2:T24	
+N2	Reference T4 Wikidata:Q1394	Владимир Ильич Ленин
+N3	Reference T5 Wikidata:Q147758	Новгород-Северский
+N4	Reference T7 Wikidata:Q147758	Новгород-Северский
+N5	Reference T8 Wikidata:Q167874	Черниговская область
+N6	Reference T9 Wikidata:Q212	Украина
+N7	Reference T15 Wikidata:Q849047	Комсомольская правда
+N9	Reference T20 Wikidata:Q1899	Киев
+N10	Reference T23 Wikidata:Q30461	президент
+N11	Reference T25 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N12	Reference T30 Wikidata:Q579677	президент Украины
+N13	Reference T40 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:NULL	нет данных
+N15	Reference T42 Wikidata:NULL	нет данных
+N14	Reference T43 Wikidata:Q15180	СССР
+N8	Reference T17 Wikidata:NULL	нет данных
+N16	Reference T12 Wikidata:Q1394	Владимир Ильич Ленин
+N17	Reference T2 Wikidata:Q1394	Владимир Ильич Ленин
+N18	Reference T41 Wikidata:Q1394	Владимир Ильич Ленин
+N19	Reference T21 Wikidata:Q1394	Владимир Ильич Ленин
+N20	Reference T27 Wikidata:Q1394	Владимир Ильич Ленин
+N21	Reference T14 Wikidata:Q212	Украина
+N22	Reference T24 Wikidata:Q212	Украина
+N23	Reference T11 Wikidata:Q212	Украина
+N24	Reference T3 Wikidata:Q212	Украина
+N25	Reference T18 Wikidata:Q212	Украина
+N26	Reference T44 Wikidata:NULL	нет данных
+N27	Reference T31 Wikidata:NULL	нет данных
+N28	Reference T34 Wikidata:NULL	нет данных
+N29	Reference T29 Wikidata:NULL	нет данных
+N30	Reference T39 Wikidata:NULL	нет данных
+N31	Reference T37 Wikidata:NULL	нет данных

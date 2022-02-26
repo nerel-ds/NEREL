@@ -1,0 +1,244 @@
+T1	NATIONALITY 0 12	Израильтянка
+T2	PERSON 13 26	Наама Иссахар
+T3	FACILITY 51 75	Александровское подворье
+T4	CITY 78 88	Иерусалиме
+T5	PERSON 106 120	Владимир Путин
+T6	NATIONALITY 130 142	израильтянку
+T7	PERSON 143 156	Нааму Иссахар
+T8	FACILITY 202 208	Кремля
+T9	DATE 209 237	в среду, 29 января 2020 года
+T10	PERSON 309 323	ИССАСХАР Нааму
+T11	DATE 354 371	11 октября 2019 г
+T12	ORGANIZATION 383 398	городским судом
+T13	COUNTRY 556 563	Израиля
+T14	COUNTRY 566 569	США
+T15	AGE 570 579	25-летнюю
+T16	PERSON 580 593	Нааму Иссахар
+T17	CITY 606 616	московском
+T18	FACILITY 627 638	Шереметьево
+T19	CITY 692 696	Дели
+T20	COUNTRY 698 703	Индия
+T21	CITY 713 722	Тель-Авив
+T22	COUNTRY 724 731	Израиль
+T23	NUMBER 775 785	9,6 грамма
+T24	DATE 867 877	11 октября
+T25	PERSON 930 937	Иссахар
+T28	LAW 1007 1035	п. «в», ч. 2 ст. 229.1 УК РФ
+T29	LAW 1082 1099	ч.1 ст. 228 УК РФ
+T30	DATE 1118 1127	7,5 годам
+T32	DATE 1152 1162	19 декабря
+T33	PROFESSION 1216 1225	Президент
+T34	PERSON 1234 1247	Реувен Ривлин
+T35	PROFESSION 1250 1265	премьер-министр
+T36	PERSON 1298 1304	Путину
+T37	COUNTRY 1368 1378	российских
+T38	PERSON 1438 1445	Иссахар
+T39	DATE 1467 1477	30 декабря
+T40	COUNTRY 1485 1491	России
+T41	CITY 1519 1529	Иерусалиме
+T42	DATE 1532 1551	23 января 2020 года
+T43	COUNTRY 1570 1577	Израиль
+T44	PERSON 1622 1635	Яффой Иссахар
+T45	PERSON 1693 1700	Иссахар
+T46	PERSON 1720 1726	Путина
+T47	PROFESSION 1737 1752	пресс-секретарь
+T48	PERSON 1771 1777	Песков
+T49	PERSON 1846 1851	Путин
+T50	PERSON 1926 1931	Наама
+T51	PERSON 2004 2013	Нетаньяху
+T52	PERSON 2042 2048	Путина
+T53	PROFESSION 89 98	Президент
+T54	COUNTRY 99 105	России
+T55	PROFESSION 89 105	Президент России
+T56	DATE 324 333	1993 года
+T57	CITY 372 382	Химкинским
+T58	ORGANIZATION 372 398	Химкинским городским судом
+T59	STATE_OR_PROVINCE 399 417	Московской области
+T60	ORGANIZATION 372 417	Химкинским городским судом Московской области
+T61	EVENT 594 603	задержали
+T62	DATE 639 657	9 апреля 2019 года
+T63	ORGANIZATION 878 921	Химкинский городской суд Московской области
+T64	ORGANIZATION 889 902	городской суд
+T65	ORGANIZATION 878 902	Химкинский городской суд
+T66	CITY 878 888	Химкинский
+T67	STATE_OR_PROVINCE 903 921	Московской области
+T26	ORGANIZATION 1163 1172	Мособлсуд
+T27	COUNTRY 1226 1233	Израиля
+T31	PROFESSION 1216 1233	Президент Израиля
+T68	PERSON 1266 1284	Биньямин Нетаньяху
+T69	COUNTRY 1446 1453	Израиль
+T70	FACILITY 1492 1516	Александровское подворье
+T71	PERSON 1578 1592	Владимир Путин
+T72	PROFESSION 1753 1763	президента
+T73	PROFESSION 1753 1770	президента России
+T74	PROFESSION 1737 1770	пресс-секретарь президента России
+T75	PENALTY 1118 1149	7,5 годам колонии общего режима
+T76	PENALTY 1128 1149	колонии общего режима
+T77	LAW 1094 1099	УК РФ
+T78	COUNTRY 1097 1099	РФ
+T79	LAW 1030 1035	УК РФ
+T80	COUNTRY 1033 1035	РФ
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	LOCATED_IN Arg1:T3 Arg2:T4	
+R3	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R4	WORKS_AS Arg1:T5 Arg2:T55	
+R5	WORKPLACE Arg1:T5 Arg2:T54	
+R6	DATE_OF_BIRTH Arg1:T10 Arg2:T56	
+R7	LOCATED_IN Arg1:T57 Arg2:T59	
+T81	PENALTY 473 488	лишения свободы
+T82	NATIONALITY 546 563	Гражданку Израиля
+R8	AGE_IS Arg1:T16 Arg2:T15	
+R9	PARTICIPANT_IN Arg1:T16 Arg2:T61	
+R10	TAKES_PLACE_IN Arg1:T61 Arg2:T18	
+R11	LOCATED_IN Arg1:T18 Arg2:T17	
+R12	LOCATED_IN Arg1:T19 Arg2:T20	
+R13	LOCATED_IN Arg1:T21 Arg2:T22	
+T83	LAW 1015 1035	ч. 2 ст. 229.1 УК РФ
+T84	LAW 1020 1035	ст. 229.1 УК РФ
+R14	WORKS_AS Arg1:T34 Arg2:T31	
+R15	WORKPLACE Arg1:T34 Arg2:T27	
+R16	WORKS_AS Arg1:T68 Arg2:T35	
+R18	LOCATED_IN Arg1:T70 Arg2:T41	
+T85	EVENT 1593 1603	встретился
+R19	AGENT Arg1:T71 Arg2:T85	
+R20	AGENT Arg1:T44 Arg2:T85	
+R21	PARENT_OF Arg1:T44 Arg2:T38	
+R22	KNOWS Arg1:T51 Arg2:T52	
+R23	SUBORDINATE_OF Arg1:T48 Arg2:T49	
+R24	WORKS_AS Arg1:T48 Arg2:T74	
+R25	WORKS_AS Arg1:T49 Arg2:T73	
+T86	COUNTRY 1764 1770	России
+R26	WORKPLACE Arg1:T48 Arg2:T86	
+R27	WORKPLACE Arg1:T49 Arg2:T86	
+R28	WORKPLACE Arg1:T55 Arg2:T54	
+R29	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R30	HEADQUARTERED_IN Arg1:T58 Arg2:T57	
+R31	ORIGINS_FROM Arg1:T16 Arg2:T82	
+R32	POINT_IN_TIME Arg1:T61 Arg2:T62	
+T87	EVENT 298 308	Помиловать
+R33	AGENT Arg1:T5 Arg2:T87	
+R34	PARTICIPANT_IN Arg1:T10 Arg2:T87	
+R35	POINT_IN_TIME Arg1:T87 Arg2:T9	
+T88	EVENT 343 353	осужденную
+R36	PARTICIPANT_IN Arg1:T10 Arg2:T88	
+R37	POINT_IN_TIME Arg1:T88 Arg2:T11	
+R38	PLACE_RESIDES_IN Arg1:T16 Arg2:T21	
+T89	EVENT 922 929;938 946	признал виновной
+R39	HEADQUARTERED_IN Arg1:T65 Arg2:T66	
+R40	ALTERNATIVE_NAME Arg1:T88 Arg2:T89	
+R41	PARTICIPANT_IN Arg1:T25 Arg2:T89	
+R42	POINT_IN_TIME Arg1:T89 Arg2:T24	
+T90	CRIME 949 1005	контрабанде наркотических средств в значительном размере
+T91	CRIME 949 982	контрабанде наркотических средств
+T92	LAW 1030 1032	УК
+T93	LAW 1094 1096	УК
+R43	WORKPLACE Arg1:T31 Arg2:T27	
+R17	WORKPLACE Arg1:T35 Arg2:T27	
+T94	EVENT 1561 1567	визита
+R44	AGENT Arg1:T71 Arg2:T94	
+R45	POINT_IN_TIME Arg1:T94 Arg2:T42	
+R46	TAKES_PLACE_IN Arg1:T94 Arg2:T43	
+R47	SUBEVENT_OF Arg1:T85 Arg2:T94	
+R48	SUBORDINATE_OF Arg1:T74 Arg2:T73	
+R49	ALTERNATIVE_NAME Arg1:T71 Arg2:T46	
+R50	ALTERNATIVE_NAME Arg1:T16 Arg2:T25	
+R51	ORIGINS_FROM Arg1:T79 Arg2:T80	
+T95	ORDINAL 1018 1019	2
+T96	ORDINAL 1024 1027	229
+T97	ORDINAL 1028 1029	1
+R52	PENALIZED_AS Arg1:T25 Arg2:T75	
+R53	CONVICTED_OF Arg1:T25 Arg2:T90	
+R54	HAS_CAUSE Arg1:T75 Arg2:T90	
+T98	ORDINAL 1084 1085	1
+T99	ORDINAL 1090 1093	228
+R55	AGENT Arg1:T65 Arg2:T89	
+R56	PART_OF Arg1:T28 Arg2:T83	
+R57	PART_OF Arg1:T83 Arg2:T84	
+R58	PART_OF Arg1:T84 Arg2:T79	
+T100	LAW 1086 1099	ст. 228 УК РФ
+R59	PART_OF Arg1:T29 Arg2:T100	
+R60	PART_OF Arg1:T100 Arg2:T77	
+R61	ORIGINS_FROM Arg1:T77 Arg2:T78	
+T101	EVENT 1478 1484	отдать
+R62	AGENT Arg1:T69 Arg2:T101	
+R63	PARTICIPANT_IN Arg1:T40 Arg2:T101	
+R64	INANIMATE_INVOLVED Arg1:T70 Arg2:T101	
+R65	POINT_IN_TIME Arg1:T101 Arg2:T39	
+T102	EVENT 1425 1437	освобождение
+R66	PARTICIPANT_IN Arg1:T38 Arg2:T102	
+R67	HAS_CAUSE Arg1:T101 Arg2:T102	
+T103	CRIME 949 960	контрабанде
+R68	LOCATED_IN Arg1:T66 Arg2:T67	
+N2	Reference T8 Wikidata:Q133274	Московский Кремль
+N4	Reference T13 Wikidata:Q801	Израиль
+N5	Reference T14 Wikidata:Q30	США
+N7	Reference T17 Wikidata:Q649	Москва
+N8	Reference T18 Wikidata:Q192733	Шереметьево
+N9	Reference T19 Wikidata:Q1353	Дели
+N10	Reference T20 Wikidata:Q668	Индия
+N11	Reference T21 Wikidata:Q33935	Тель-Авив
+N14	Reference T34 Wikidata:Q455854	Реувен Ривлин
+N15	Reference T35 Wikidata:Q14212	премьер-министр
+N17	Reference T41 Wikidata:Q1218	Иерусалим
+N22	Reference T52 Wikidata:Q7747	Владимир Владимирович Путин
+N23	Reference T53 Wikidata:Q30461	президент
+N29	Reference T26 Wikidata:Q28666162	Московский областной суд
+N30	Reference T31 Wikidata:Q327948	Президент Израиля
+N31	Reference T68 Wikidata:Q43723	Биньямин Нетаньяху
+N32	Reference T70 Wikidata:Q663745	Александровское подворье в Иерусалиме
+N33	Reference T73 Wikidata:Q218295	президент Российской Федерации
+N34	Reference T74 Wikidata:Q19607392	пресс-секретарь президента России
+N35	Reference T77 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N36	Reference T78 Wikidata:Q159	Россия
+N40	Reference T86 Wikidata:Q159	Россия
+N1	Reference T2 Wikidata:Q77864630	
+N43	Reference T6 Wikidata:Q875556	Израильтяне
+N3	Reference T10 Wikidata:Q77864630	
+N24	Reference T57 Wikidata:Q197582	
+N25	Reference T59 Wikidata:Q1697	Московская область
+N37	Reference T82 Wikidata:Q875556	Израильтяне
+N6	Reference T16 Wikidata:Q77864630	
+N20	Reference T50 Wikidata:Q77864630	
+N27	Reference T64 Wikidata:Q28134890	
+N28	Reference T65 Wikidata:NULL	нет данных
+N26	Reference T63 Wikidata:NULL	нет данных
+N39	Reference T84 Wikidata:NULL	нет данных
+N38	Reference T83 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:NULL	нет данных
+N41	Reference T93 Wikidata:Q19705	уголовное законодательство
+N42	Reference T100 Wikidata:NULL	нет данных
+N13	Reference T29 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:Q159	Россия
+N18	Reference T44 Wikidata:NULL	нет данных
+N44	Reference T47 Wikidata:Q1388151	
+N19	Reference T48 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N21	Reference T51 Wikidata:Q43723	Биньямин Нетаньяху
+N45	Reference T22 Wikidata:Q801	Израиль
+N46	Reference T43 Wikidata:Q801	Израиль
+N47	Reference T27 Wikidata:Q801	Израиль
+N48	Reference T69 Wikidata:Q801	Израиль
+N49	Reference T4 Wikidata:Q1218	Иерусалим
+N50	Reference T71 Wikidata:Q7747	Владимир Владимирович Путин
+N51	Reference T49 Wikidata:Q7747	Владимир Владимирович Путин
+N52	Reference T46 Wikidata:Q7747	Владимир Владимирович Путин
+N53	Reference T36 Wikidata:Q7747	Владимир Владимирович Путин
+N54	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N55	Reference T33 Wikidata:Q30461	президент
+N56	Reference T72 Wikidata:Q30461	президент
+N57	Reference T3 Wikidata:Q663745	Александровское подворье в Иерусалиме
+N58	Reference T55 Wikidata:Q218295	президент Российской Федерации
+N59	Reference T79 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N60	Reference T80 Wikidata:Q159	Россия
+N61	Reference T40 Wikidata:Q159	Россия
+N62	Reference T54 Wikidata:Q159	Россия
+N63	Reference T1 Wikidata:Q875556	Израильтяне
+N64	Reference T7 Wikidata:Q77864630	
+N65	Reference T66 Wikidata:Q197582	
+N66	Reference T67 Wikidata:Q1697	Московская область
+N67	Reference T45 Wikidata:Q77864630	
+N68	Reference T25 Wikidata:Q77864630	
+N69	Reference T38 Wikidata:Q77864630	
+N70	Reference T12 Wikidata:Q28134890	
+N71	Reference T58 Wikidata:NULL	нет данных
+N72	Reference T60 Wikidata:NULL	нет данных
+N73	Reference T92 Wikidata:Q19705	уголовное законодательство

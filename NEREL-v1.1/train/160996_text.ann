@@ -1,0 +1,186 @@
+T1	PERSON 0 16	Александр Винник
+T2	ORGANIZATION 27 38	прокуратуре
+T3	PRODUCT 73 78	BTC-e
+T4	PRODUCT 87 92	BTC-e
+T5	COUNTRY 108 114	Греции
+T6	DATE 115 129	в прошлом году
+T7	PERSON 130 146	Александр Винник
+T8	COUNTRY 168 171	США
+T9	PRODUCT 228 233	BTC-e
+T11	ORGANIZATION 255 269	Генпрокуратуру
+T12	ORGANIZATION 288 297	Интерфакс
+T13	PERSON 360 367	Винника
+T14	DATE 385 402	в 2011-2017 годах
+T15	COUNTRY 463 465	РФ
+T16	MONEY 495 506	750 млн руб
+T17	PERSON 521 527	Винник
+T18	ORGANIZATION 768 773	BTC-e
+T19	PERSON 790 797	Винника
+T20	ORGANIZATION 833 847	Генпрокуратуры
+T21	DISTRICT 867 887	Останкинскому району
+T22	PROFESSION 934 941	Адвокат
+T23	PERSON 954 970	Илиас Спирлиадис
+T24	COUNTRY 1028 1038	российским
+T25	PROFESSION 1060 1067	адвокат
+T26	COUNTRY 1122 1124	РФ
+T27	NATIONALITY 1135 1145	россиянина
+T28	COUNTRY 1173 1183	греческого
+T29	COUNTRY 1218 1221	США
+T30	COUNTRY 1226 1229	США
+T31	COUNTRY 1321 1333	американских
+T32	PERSON 1343 1349	Винник
+T33	PRODUCT 1400 1405	BTC-e
+T34	COUNTRY 1540 1552	американских
+T35	COUNTRY 1564 1574	Российские
+T36	PERSON 1621 1628	Винника
+T37	AGE 1679 1688	38-летний
+T38	NATIONALITY 1689 1698	россиянин
+T39	COUNTRY 1715 1721	Греции
+T40	DATE 1742 1751	в октябре
+T41	CITY 1763 1771	Салоники
+T42	COUNTRY 1808 1811	США
+T43	DATE 1820 1825	в мае
+T44	COUNTRY 1874 1877	США
+T45	PERSON 1969 1976	Винника
+T46	PRODUCT 1983 1988	BTC-e
+T47	PRODUCT 2029 2035	WEX.nz
+T48	ORGANIZATION 27 41	прокуратуре РФ
+T49	COUNTRY 39 41	РФ
+T50	CRIME 174 205	отмывании крупных денежных сумм
+T10	ORGANIZATION 255 272	Генпрокуратуру РФ
+T51	COUNTRY 270 272	РФ
+T52	CRIME 540 584	отмывании денежных средств и иного имущества
+T53	CRIME 661 701	осуществлении мошеннической деятельности
+T54	ORGANIZATION 856 863	полиции
+T55	ORGANIZATION 850 894	отдел полиции по Останкинскому району Москвы
+T56	CITY 888 894	Москвы
+T57	CRIME 44 57	мошенничестве
+T58	PERSON 1230 1237	Виннику
+T59	CRIME 1262 1277	отмывании денег
+T60	CRIME 1280 1309	мошенничестве с криптовалютой
+T61	CRIME 1434 1479	незаконный обмен и отмывание денежных средств
+T62	ORGANIZATION 1540 1562	американских спецслужб
+T64	EVENT 1703 1712	арестован
+T65	DATE 1722 1738	в июле 2017 года
+T67	PERSON 1826 1842	Александр Винник
+T68	EVENT 1962 1968	ареста
+R1	CONVICTED_OF Arg1:T1 Arg2:T57	
+R2	HEADQUARTERED_IN Arg1:T48 Arg2:T49	
+R3	CONVICTED_OF Arg1:T7 Arg2:T50	
+R4	HEADQUARTERED_IN Arg1:T10 Arg2:T51	
+R5	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+T69	CRIME 410 435	мошенническими действиями
+R6	CONVICTED_OF Arg1:T13 Arg2:T69	
+R7	CONVICTED_OF Arg1:T17 Arg2:T52	
+R8	CONVICTED_OF Arg1:T17 Arg2:T53	
+R9	LOCATED_IN Arg1:T21 Arg2:T56	
+R10	HEADQUARTERED_IN Arg1:T55 Arg2:T21	
+R11	WORKS_AS Arg1:T23 Arg2:T22	
+R12	CONVICTED_OF Arg1:T58 Arg2:T59	
+R13	CONVICTED_OF Arg1:T58 Arg2:T60	
+T70	CRIME 1280 1293	мошенничестве
+R14	PRODUCES Arg1:T32 Arg2:T33	
+R15	CONVICTED_OF Arg1:T32 Arg2:T61	
+R16	AGE_IS Arg1:T38 Arg2:T37	
+R17	AGE_IS Arg1:T32 Arg2:T37	
+R18	ORIGINS_FROM Arg1:T32 Arg2:T38	
+R19	PARTICIPANT_IN Arg1:T38 Arg2:T64	
+R20	PARTICIPANT_IN Arg1:T32 Arg2:T64	
+R21	TAKES_PLACE_IN Arg1:T64 Arg2:T39	
+R22	POINT_IN_TIME Arg1:T64 Arg2:T65	
+R23	ALTERNATIVE_NAME Arg1:T64 Arg2:T68	
+R24	PARTICIPANT_IN Arg1:T45 Arg2:T68	
+R25	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+T66	EVENT 93 105	Арестованный
+R26	TAKES_PLACE_IN Arg1:T66 Arg2:T5	
+R27	POINT_IN_TIME Arg1:T66 Arg2:T6	
+R28	PARTICIPANT_IN Arg1:T7 Arg2:T66	
+R29	SUBORDINATE_OF Arg1:T23 Arg2:T19	
+T71	ORGANIZATION 1028 1046	российским властям
+R30	HEADQUARTERED_IN Arg1:T71 Arg2:T24	
+R31	ORIGINS_FROM Arg1:T19 Arg2:T27	
+R32	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+R33	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+T72	ORGANIZATION 1321 1341	американских властей
+R34	HEADQUARTERED_IN Arg1:T72 Arg2:T31	
+R35	HEADQUARTERED_IN Arg1:T62 Arg2:T34	
+T73	ORGANIZATION 1564 1581	Российские власти
+R36	HEADQUARTERED_IN Arg1:T73 Arg2:T35	
+R37	LOCATED_IN Arg1:T41 Arg2:T39	
+T63	EVENT 17 26	признался
+R38	AGENT Arg1:T1 Arg2:T63	
+R39	HAS_CAUSE Arg1:T63 Arg2:T57	
+R40	PARTICIPANT_IN Arg1:T48 Arg2:T63	
+T74	EVENT 148 158	обвиняемый
+R41	AGENT Arg1:T8 Arg2:T74	
+R42	PARTICIPANT_IN Arg1:T7 Arg2:T74	
+R43	HAS_CAUSE Arg1:T74 Arg2:T50	
+R44	INANIMATE_INVOLVED Arg1:T3 Arg2:T57	
+R45	INANIMATE_INVOLVED Arg1:T9 Arg2:T50	
+T75	EVENT 368 383	явке с повинной
+R46	AGENT Arg1:T13 Arg2:T75	
+R47	ALTERNATIVE_NAME Arg1:T63 Arg2:T75	
+T76	EVENT 528 537	признался
+R48	AGENT Arg1:T17 Arg2:T76	
+R49	ALTERNATIVE_NAME Arg1:T75 Arg2:T76	
+R50	HAS_CAUSE Arg1:T76 Arg2:T52	
+T77	EVENT 798 813	явка с повинной
+R51	AGENT Arg1:T19 Arg2:T77	
+T78	EVENT 1515 1520	арест
+R52	PARTICIPANT_IN Arg1:T32 Arg2:T78	
+R53	ORGANIZES Arg1:T62 Arg2:T78	
+R54	ORIGINS_FROM Arg1:T36 Arg2:T38	
+T79	CRIME 540 566	отмывании денежных средств
+N1	Reference T2 Wikidata:Q1092499	прокуратура
+N2	Reference T5 Wikidata:Q41	Греция
+N3	Reference T9 Wikidata:Q15637146	BTC-E
+N5	Reference T12 Wikidata:Q379271	Интерфакс
+N7	Reference T18 Wikidata:Q15637146	BTC-E
+N8	Reference T21 Wikidata:Q2704188	Останкинский район
+N9	Reference T22 Wikidata:Q40348	адвокат
+N11	Reference T26 Wikidata:Q159	Россия
+N12	Reference T27 Wikidata:Q492468	россияне
+N14	Reference T29 Wikidata:Q30	США
+N15	Reference T41 Wikidata:Q17151	Салоники
+N16	Reference T48 Wikidata:Q2387440	Прокуратура Российской Федерации
+N18	Reference T54 Wikidata:Q35535	полиция
+N20	Reference T56 Wikidata:Q649	Москва
+N4	Reference T11 Wikidata:NULL	нет данных
+N17	Reference T10 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:Q97360115	
+N19	Reference T55 Wikidata:NULL	нет данных
+N10	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T71 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:Q41	Греция
+N24	Reference T72 Wikidata:NULL	нет данных
+N21	Reference T62 Wikidata:NULL	нет данных
+N22	Reference T67 Wikidata:Q97360115	
+N25	Reference T39 Wikidata:Q41	Греция
+N26	Reference T46 Wikidata:Q15637146	BTC-E
+N27	Reference T4 Wikidata:Q15637146	BTC-E
+N28	Reference T33 Wikidata:Q15637146	BTC-E
+N29	Reference T47 Wikidata:Q15637146	BTC-E
+N30	Reference T3 Wikidata:Q15637146	BTC-E
+N31	Reference T25 Wikidata:Q40348	адвокат
+N32	Reference T51 Wikidata:Q159	Россия
+N33	Reference T15 Wikidata:Q159	Россия
+N34	Reference T24 Wikidata:Q159	Россия
+N35	Reference T49 Wikidata:Q159	Россия
+N36	Reference T35 Wikidata:Q159	Россия
+N37	Reference T38 Wikidata:Q492468	россияне
+N38	Reference T44 Wikidata:Q30	США
+N39	Reference T8 Wikidata:Q30	США
+N40	Reference T31 Wikidata:Q30	США
+N41	Reference T34 Wikidata:Q30	США
+N42	Reference T42 Wikidata:Q30	США
+N43	Reference T30 Wikidata:Q30	США
+N44	Reference T20 Wikidata:NULL	нет данных
+N45	Reference T32 Wikidata:Q97360115	
+N46	Reference T73 Wikidata:NULL	нет данных
+N47	Reference T13 Wikidata:Q97360115	
+N48	Reference T19 Wikidata:Q97360115	
+N49	Reference T7 Wikidata:Q97360115	
+N50	Reference T58 Wikidata:Q97360115	
+N51	Reference T36 Wikidata:Q97360115	
+N52	Reference T45 Wikidata:Q97360115	
+N53	Reference T1 Wikidata:Q97360115	

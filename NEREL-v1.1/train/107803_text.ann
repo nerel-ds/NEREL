@@ -1,0 +1,259 @@
+T1	PROFESSION 15 21	король
+T2	COUNTRY 22 28	Руанды
+T3	PERSON 29 37	Кигели V
+T4	PERSON 39 47	Кигели V
+T5	DATE 48 83	В воскресенье, 16 октября 2016 года
+T6	STATE_OR_PROVINCE 87 96	Вирджинии
+T7	COUNTRY 98 101	США
+T8	AGE 103 115	на 81-м году
+T9	PROFESSION 142 148	король
+T10	PROFESSION 150 155	мвами
+T11	PERSON 164 172	Кигели V
+T12	PERSON 214 222	Кигели V
+T13	DATE 241 252	в 1959 году
+T14	COUNTRY 343 355	бельгийскими
+T15	DATE 400 411	в 1961 году
+T16	COUNTRY 424 430	Руанде
+T17	PERSON 473 481	Кигели V
+T18	DATE 482 495	несколько лет
+T19	LOCATION 517 529	Южной Африки
+T20	DATE 536 547	в 1992 году
+T22	CITY 573 583	Вашингтона
+T23	COUNTRY 587 590	США
+T24	COUNTRY 669 675	Руанды
+T25	DATE 689 706	29 июня 1936 года
+T26	PERSON 707 715	Кигели V
+T28	NATIONALITY 764 769	тутси
+T29	FAMILY 771 784	'Abanyiginya'
+T30	COUNTRY 799 811	руандийскими
+T31	DATE 820 830	с XIV века
+T32	PERSON 852 866	Йюхи V Мусинги
+T34	COUNTRY 902 913	бельгийской
+T35	DATE 942 950	в 1931 г
+T36	PROFESSION 955 963	королевы
+T37	PERSON 964 980	Мусинги Мукашемы
+T38	PERSON 1026 1048	Жан-Батист Ндахиндурва
+T40	CITY 1094 1101	Астриде
+T41	COUNTRY 1104 1110	Руанде
+T43	CITY 1124 1132	Ньянгези
+T44	COUNTRY 1135 1146	Бельгийском
+T45	COUNTRY 1147 1152	Конго
+T46	COUNTRY 1180 1191	бельгийской
+T49	PERSON 1249 1269	Мутары III Рудахинвы
+T50	DATE 1271 1285	25 июля 1959 г
+T51	COUNTRY 1306 1312	Руанды
+T52	PERSON 1322 1330	Кигели V
+T53	DATE 1333 1352	28 января 1961 года
+T54	COUNTRY 1458 1470	бельгийскими
+T55	DATE 1558 1569	в 1961 году
+T56	COUNTRY 1582 1588	Руанде
+T57	DATE 1632 1638	1962 г
+T58	PROFESSION 1656 1662	король
+T59	PERSON 1663 1671	Кигели V
+T60	COUNTRY 1686 1692	Руанде
+T61	DATE 1725 1745	21 декабря 1962 года
+T62	COUNTRY 1763 1770	Бурунди
+T63	DATE 1834 1854	В 1960-х — 1980-х гг
+T64	COUNTRY 1878 1886	Танзании
+T65	COUNTRY 1888 1893	Кении
+T66	COUNTRY 1896 1902	Уганде
+T67	DATE 1905 1916	В 1992 году
+T68	COUNTRY 1948 1951	США
+T69	COUNTRY 2013 2019	Руанде
+T70	COUNTRY 2058 2064	Руанду
+T71	ORGANIZATION 2104 2142	Благотворительный фонд Короля Кигели V
+T72	PROFESSION 2127 2133	Короля
+T73	PERSON 2134 2142	Кигели V
+T74	NATIONALITY 2184 2194	руандийцам
+R1	WORKS_AS Arg1:T3 Arg2:T75
+R15	WORKS_AS Arg1:T59 Arg2:T58
+T75	PROFESSION 15 28	король Руанды
+R3	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+T76	COUNTRY 157 163	Руанды
+R4	AGE_DIED_AT Arg1:T11 Arg2:T8	
+T21	RELIGION 1006 1016	католицизм
+T77	NATIONALITY 1784 1789	тутси
+T78	RELIGION 2206 2213	католик
+R14	SIBLING Arg1:T49 Arg2:T52	
+T39	COUNTRY 1135 1152	Бельгийском Конго
+R5	DATE_OF_BIRTH Arg1:T26 Arg2:T25	
+T27	ORDINAL 36 37	V
+T42	ORDINAL 46 47	V
+T48	ORDINAL 171 172	V
+T79	ORDINAL 221 222	V
+T80	ORDINAL 480 481	V
+R2	PLACE_RESIDES_IN Arg1:T17 Arg2:T19	
+T81	ORGANIZATION 641 675	фонд для помощи беженцам из Руанды
+T82	ORDINAL 714 715	V
+T83	ORDINAL 1256 1259	III
+T33	PROFESSION 839 844	мвами
+T84	COUNTRY 845 851	Руанды
+T85	PROFESSION 839 851	мвами Руанды
+T86	ORDINAL 857 858	V
+T87	DATE 872 876	1944
+T89	EVENT 879 901	свергнутого с престола
+T90	ORGANIZATION 902 941	бельгийской колониальной администрацией
+T91	ORGANIZATION 1180 1218	бельгийской колониальной администрации
+T92	NATIONALITY 1397 1401	хуту
+T93	EVENT 1386 1396	переворота
+T94	DATE 1404 1415	Годом позже
+T95	ORGANIZATION 1458 1492	бельгийскими колониальными властям
+T96	NATIONALITY 1530 1535	тутси
+T97	ORDINAL 1670 1671	V
+T98	EVENT 1620 1631	референдума
+T99	EVENT 2003 2010	геноцид
+T100	ORDINAL 2141 2142	V
+R6	PLACE_RESIDES_IN Arg1:T17 Arg2:T22	
+T101	EVENT 1288 1305	взошёл на престол
+T102	EVENT 1353 1372	свергнут с престола
+R7	WORKPLACE Arg1:T3 Arg2:T2	
+R8	LOCATED_IN Arg1:T6 Arg2:T7	
+R9	DATE_OF_DEATH Arg1:T11 Arg2:T5	
+T47	EVENT 223 240	взошел на престол
+R10	AGENT Arg1:T12 Arg2:T47	
+R11	POINT_IN_TIME Arg1:T47 Arg2:T13	
+T103	EVENT 413 421;436 446	монархия упразднена
+R12	TAKES_PLACE_IN Arg1:T103 Arg2:T16	
+R13	POINT_IN_TIME Arg1:T103 Arg2:T15	
+R16	FOUNDED_BY Arg1:T81 Arg2:T17	
+R17	MEMBER_OF Arg1:T26 Arg2:T29	
+R18	ORIGINS_FROM Arg1:T26 Arg2:T28	
+R19	PARENT_OF Arg1:T32 Arg2:T26	
+R20	DATE_OF_DEATH Arg1:T32 Arg2:T87	
+R21	POINT_IN_TIME Arg1:T89 Arg2:T35	
+R22	WORKS_AS Arg1:T37 Arg2:T36	
+R23	PARENT_OF Arg1:T37 Arg2:T26	
+R24	RELIGION_OF Arg1:T26 Arg2:T21	
+R25	ALTERNATIVE_NAME Arg1:T26 Arg2:T38	
+R26	LOCATED_IN Arg1:T40 Arg2:T41	
+R27	LOCATED_IN Arg1:T43 Arg2:T39	
+R28	WORKPLACE Arg1:T26 Arg2:T91	
+R29	POINT_IN_TIME Arg1:T101 Arg2:T50	
+R30	AGENT Arg1:T52 Arg2:T101	
+R31	POINT_IN_TIME Arg1:T102 Arg2:T53	
+R32	POINT_IN_TIME Arg1:T98 Arg2:T57	
+R33	TAKES_PLACE_IN Arg1:T98 Arg2:T60	
+R34	FOUNDED_BY Arg1:T71 Arg2:T73	
+R35	PLACE_OF_DEATH Arg1:T11 Arg2:T6	
+R36	WORKPLACE Arg1:T11 Arg2:T76	
+R37	HEADQUARTERED_IN Arg1:T81 Arg2:T23	
+R38	PARTICIPANT_IN Arg1:T32 Arg2:T89	
+R39	PARTICIPANT_IN Arg1:T90 Arg2:T89	
+R40	WORKPLACE Arg1:T52 Arg2:T51	
+T88	EVENT 1571 1579;1594 1604	монархия упразднена
+R41	POINT_IN_TIME Arg1:T88 Arg2:T55	
+R42	TAKES_PLACE_IN Arg1:T88 Arg2:T56	
+R43	RELIGION_OF Arg1:T73 Arg2:T78	
+T104	EVENT 0 4	Умер
+R44	PARTICIPANT_IN Arg1:T3 Arg2:T104	
+R45	WORKPLACE Arg1:T75 Arg2:T2	
+T105	EVENT 122 131	скончался
+R46	ALTERNATIVE_NAME Arg1:T104 Arg2:T105	
+R47	PARTICIPANT_IN Arg1:T11 Arg2:T105	
+R48	TAKES_PLACE_IN Arg1:T105 Arg2:T6	
+R49	POINT_IN_TIME Arg1:T105 Arg2:T5	
+R50	ALTERNATIVE_NAME Arg1:T24 Arg2:T30	
+R51	WORKPLACE Arg1:T85 Arg2:T84	
+R52	ORIGINS_FROM Arg1:T90 Arg2:T34	
+R53	ORIGINS_FROM Arg1:T91 Arg2:T46	
+R54	HAS_CAUSE Arg1:T102 Arg2:T93	
+R55	ORIGINS_FROM Arg1:T95 Arg2:T54	
+R56	PLACE_RESIDES_IN Arg1:T59 Arg2:T64	
+R57	PLACE_RESIDES_IN Arg1:T59 Arg2:T65	
+R58	PLACE_RESIDES_IN Arg1:T59 Arg2:T66	
+R59	TAKES_PLACE_IN Arg1:T99 Arg2:T69	
+R60	PLACE_RESIDES_IN Arg1:T74 Arg2:T69	
+T106	ORGANIZATION 343 378	бельгийскими колониальными властями
+R61	ORIGINS_FROM Arg1:T106 Arg2:T14	
+R62	ALTERNATIVE_NAME Arg1:T106 Arg2:T90	
+R63	PARTICIPANT_IN Arg1:T52 Arg2:T102	
+T107	EVENT 1698 1722	провозглашена республика
+R64	TAKES_PLACE_IN Arg1:T107 Arg2:T60	
+R65	HAS_CAUSE Arg1:T107 Arg2:T98	
+R66	AGENT Arg1:T92 Arg2:T93	
+N1	Reference T6 Wikidata:Q1370	Виргиния
+N4	Reference T22 Wikidata:Q61	Вашингтон
+N5	Reference T26 Wikidata:Q2510218	Кигели V
+N9	Reference T40 Wikidata:Q509739	Бутаре
+N10	Reference T45 Wikidata:Q974	Демократическая Республика Конго
+N13	Reference T56 Wikidata:Q1037	Руанда
+N14	Reference T62 Wikidata:Q967	Бурунди
+N15	Reference T64 Wikidata:Q924	Танзания
+N16	Reference T65 Wikidata:Q114	Кения
+N17	Reference T66 Wikidata:Q1036	Уганда
+N18	Reference T68 Wikidata:Q30	США
+N20	Reference T74 Wikidata:Q438374	Руанда (народ)
+N22	Reference T21 Wikidata:Q1841	католичество
+N24	Reference T39 Wikidata:Q213510	Бельгийское Конго
+N27	Reference T92 Wikidata:Q192647	Хуту
+N23	Reference T78 Wikidata:Q1841	католичество
+N6	Reference T32 Wikidata:Q2713920	
+N7	Reference T36 Wikidata:Q116	монарх
+N2	Reference T10 Wikidata:Q931938	
+N21	Reference T75 Wikidata:Q27513155	
+N3	Reference T19 Wikidata:NULL	нет данных
+N26	Reference T85 Wikidata:Q27513155	
+N25	Reference T81 Wikidata:NULL	нет данных
+N30	Reference T43 Wikidata:NULL	нет данных
+N11	Reference T46 Wikidata:Q31	Бельгия
+N12	Reference T49 Wikidata:Q2203166	
+N8	Reference T37 Wikidata:NULL	нет данных
+N29	Reference T96 Wikidata:Q193092	Тутси
+N28	Reference T95 Wikidata:NULL	нет данных
+N19	Reference T71 Wikidata:NULL	нет данных
+N31	Reference T3 Wikidata:Q2510218	Кигели V
+N32	Reference T17 Wikidata:Q2510218	Кигели V
+N33	Reference T4 Wikidata:Q2510218	Кигели V
+N34	Reference T52 Wikidata:Q2510218	Кигели V
+N35	Reference T11 Wikidata:Q2510218	Кигели V
+N36	Reference T73 Wikidata:Q2510218	Кигели V
+N37	Reference T38 Wikidata:Q2510218	Кигели V
+N38	Reference T59 Wikidata:Q2510218	Кигели V
+N39	Reference T12 Wikidata:Q2510218	Кигели V
+N40	Reference T16 Wikidata:Q1037	Руанда
+N41	Reference T41 Wikidata:Q1037	Руанда
+N42	Reference T76 Wikidata:Q1037	Руанда
+N43	Reference T24 Wikidata:Q1037	Руанда
+N44	Reference T70 Wikidata:Q1037	Руанда
+N45	Reference T2 Wikidata:Q1037	Руанда
+N46	Reference T60 Wikidata:Q1037	Руанда
+N47	Reference T84 Wikidata:Q1037	Руанда
+N48	Reference T51 Wikidata:Q1037	Руанда
+N49	Reference T69 Wikidata:Q1037	Руанда
+N50	Reference T30 Wikidata:Q1037	Руанда
+N51	Reference T23 Wikidata:Q30	США
+N52	Reference T7 Wikidata:Q30	США
+N53	Reference T1 Wikidata:Q931938	
+N54	Reference T72 Wikidata:Q931938	
+N55	Reference T9 Wikidata:Q931938	
+N56	Reference T33 Wikidata:Q931938	
+N57	Reference T58 Wikidata:Q931938	
+N58	Reference T14 Wikidata:Q31	Бельгия
+N59	Reference T34 Wikidata:Q31	Бельгия
+N60	Reference T54 Wikidata:Q31	Бельгия
+N61	Reference T44 Wikidata:Q31	Бельгия
+N62	Reference T28 Wikidata:Q193092	Тутси
+N63	Reference T77 Wikidata:Q193092	Тутси
+N64	Reference T90 Wikidata:NULL	нет данных
+N65	Reference T106 Wikidata:NULL	нет данных
+N66	Reference T91 Wikidata:NULL	нет данных
+T108	EVENT 259 287	смерти своего старшего брата
+R67	HAS_CAUSE Arg1:T47 Arg2:T108	
+R68	POINT_IN_TIME Arg1:T108 Arg2:T13	
+T109	EVENT 309 324	уехал из страны
+R69	AGENT Arg1:T12 Arg2:T109	
+T110	DATE 289 300	Годом позже
+R70	POINT_IN_TIME Arg1:T109 Arg2:T110	
+R71	TAKES_PLACE_IN Arg1:T47 Arg2:T76	
+R72	TAKES_PLACE_IN Arg1:T109 Arg2:T76	
+R73	PARTICIPANT_IN Arg1:T106 Arg2:T109	
+T111	EVENT 551 561	перебрался
+R74	POINT_IN_TIME Arg1:T111 Arg2:T20	
+R75	TAKES_PLACE_IN Arg1:T111 Arg2:T22	
+R76	AGENT Arg1:T17 Arg2:T111	
+T112	EVENT 1917 1945	получил политическое убежище
+R77	POINT_IN_TIME Arg1:T112 Arg2:T67	
+R78	TAKES_PLACE_IN Arg1:T112 Arg2:T68	
+R79	PARTICIPANT_IN Arg1:T59 Arg2:T112	
+R80	PLACE_RESIDES_IN Arg1:T59 Arg2:T68	
+T113	EVENT 259 265	смерти

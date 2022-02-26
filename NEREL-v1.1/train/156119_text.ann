@@ -1,0 +1,154 @@
+T1	PERSON 0 5	Путин
+T3	PERSON 34 48	Владимир Путин
+T4	PERSON 51 69	Мигель Диас-Канель
+T5	DATE 71 79	2016 год
+T6	PROFESSION 80 89	Президент
+T7	PERSON 97 111	Владимир Путин
+T8	DATE 121 140	19 апреля 2018 года
+T9	PERSON 168 186	Мигелю Диас-Канелю
+T10	PROFESSION 215 256	председателя Государственного совета Кубы
+T11	PERSON 258 263	Путин
+T12	PERSON 290 302	Раулю Кастро
+T13	PROFESSION 352 381	Глава российского государства
+T14	PERSON 424 442	Мигеля Диас-Канеля
+T15	EVENT 507 527	Кубинской революцией
+T16	PERSON 588 593	Путин
+T17	COUNTRY 609 615	России
+T18	COUNTRY 641 646	Кубой
+T19	PROFESSION 867 876	президент
+T20	PERSON 904 916	Раулю Кастро
+T21	COUNTRY 1032 1041	российско
+T22	COUNTRY 1042 1051	кубинских
+T23	PERSON 1065 1070	Путин
+T24	PERSON 1087 1099	Рауль Кастро
+T25	COUNTRY 1150 1156	России
+T26	COUNTRY 1274 1279	Кубой
+T27	PROFESSION 1383 1392	Президент
+T28	PERSON 1438 1450	Рауля Кастро
+T29	ORGANIZATION 1460 1483	Коммунистической партии
+T30	DATE 1582 1591	19 апреля
+T31	COUNTRY 1602 1606	Кубы
+T32	PERSON 1616 1635	Мигеля Диаса-Канеля
+T33	ORGANIZATION 1643 1652	Госсовета
+T34	AGE 1667 1677	86-летнего
+T35	PERSON 1678 1690	Рауля Кастро
+T36	PROFESSION 867 883	президент России
+T37	PROFESSION 1184 1191	политик
+T38	PROFESSION 1383 1399	Президент России
+T39	COUNTRY 877 883	России
+T40	COUNTRY 1393 1399	России
+T41	ORGANIZATION 1460 1488	Коммунистической партии Кубы
+T42	COUNTRY 1484 1488	Кубы
+T43	ORGANIZATION 1592 1606	парламент Кубы
+T44	ORGANIZATION 1592 1601	парламент
+T45	PROFESSION 1636 1652	главой Госсовета
+T2	COUNTRY 29 33	Кубы
+T46	PROFESSION 23 33	главу Кубы
+R1	WORKPLACE Arg1:T46 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+T47	COUNTRY 90 96	России
+T48	PROFESSION 80 96	Президент России
+R3	WORKPLACE Arg1:T48 Arg2:T47	
+R4	WORKS_AS Arg1:T7 Arg2:T48	
+R5	WORKPLACE Arg1:T7 Arg2:T47	
+T49	COUNTRY 252 256	Кубы
+T50	ORGANIZATION 228 256	Государственного совета Кубы
+R6	WORKPLACE Arg1:T10 Arg2:T50	
+R7	HEADQUARTERED_IN Arg1:T50 Arg2:T49	
+T51	ORGANIZATION 228 251	Государственного совета
+R8	WORKS_AS Arg1:T9 Arg2:T10	
+R9	WORKPLACE Arg1:T9 Arg2:T50	
+T52	COUNTRY 358 381	российского государства
+R10	WORKPLACE Arg1:T13 Arg2:T52	
+R11	ALTERNATIVE_NAME Arg1:T47 Arg2:T52	
+T53	COUNTRY 507 516	Кубинской
+R12	ALTERNATIVE_NAME Arg1:T49 Arg2:T53	
+R13	TAKES_PLACE_IN Arg1:T15 Arg2:T53	
+R14	ALTERNATIVE_NAME Arg1:T53 Arg2:T18	
+R15	WORKPLACE Arg1:T36 Arg2:T39	
+R16	ALTERNATIVE_NAME Arg1:T39 Arg2:T21	
+R17	ALTERNATIVE_NAME Arg1:T18 Arg2:T22	
+R18	WORKS_AS Arg1:T24 Arg2:T37	
+R19	WORKPLACE Arg1:T37 Arg2:T26	
+R20	WORKPLACE Arg1:T24 Arg2:T26	
+R21	WORKPLACE Arg1:T38 Arg2:T40	
+R22	HEADQUARTERED_IN Arg1:T41 Arg2:T42	
+T54	IDEOLOGY 1460 1476	Коммунистической
+R23	IDEOLOGY_OF Arg1:T41 Arg2:T54	
+R24	WORKPLACE Arg1:T28 Arg2:T41	
+R25	HEADQUARTERED_IN Arg1:T43 Arg2:T31	
+R26	WORKPLACE Arg1:T45 Arg2:T33	
+R27	AGE_IS Arg1:T35 Arg2:T34	
+R28	WORKS_AS Arg1:T35 Arg2:T45	
+R29	WORKPLACE Arg1:T35 Arg2:T33	
+R30	WORKS_AS Arg1:T32 Arg2:T45	
+R31	WORKPLACE Arg1:T32 Arg2:T33	
+R32	HEADQUARTERED_IN Arg1:T33 Arg2:T31	
+T55	EVENT 1607 1615	утвердил
+R33	AGENT Arg1:T43 Arg2:T55	
+R34	PARTICIPANT_IN Arg1:T32 Arg2:T55	
+R35	POINT_IN_TIME Arg1:T55 Arg2:T30	
+T56	EVENT 6 15	поздравил
+R36	AGENT Arg1:T1 Arg2:T56	
+R37	PARTICIPANT_IN Arg1:T46 Arg2:T56	
+T57	EVENT 197 206	избранием
+R38	PARTICIPANT_IN Arg1:T9 Arg2:T57	
+R39	PARTICIPANT_IN Arg1:T50 Arg2:T57	
+T58	EVENT 112 120;141 167	направил поздравительную телеграмму
+R40	AGENT Arg1:T7 Arg2:T58	
+R41	PARTICIPANT_IN Arg1:T9 Arg2:T58	
+T59	EVENT 270 289	направил телеграмму
+R42	AGENT Arg1:T11 Arg2:T59	
+R43	PARTICIPANT_IN Arg1:T12 Arg2:T59	
+R44	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+T60	EVENT 884 903	направил телеграмму
+R45	AGENT Arg1:T36 Arg2:T60	
+R46	PARTICIPANT_IN Arg1:T20 Arg2:T60	
+N1	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N2	Reference T4 Wikidata:Q1932603	Мигель Диас-Канель
+N3	Reference T9 Wikidata:Q1932603	Мигель Диас-Канель
+N5	Reference T11 Wikidata:Q7747	Владимир Владимирович Путин
+N7	Reference T26 Wikidata:Q241	Куба
+N8	Reference T27 Wikidata:Q30461	президент
+N9	Reference T29 Wikidata:Q233591	коммунистическая партия
+N11	Reference T35 Wikidata:Q46809	Рауль Кастро
+N12	Reference T37 Wikidata:Q82955	политик
+N13	Reference T40 Wikidata:Q159	Россия
+N14	Reference T41 Wikidata:Q371402	Коммунистическая партия Кубы
+N15	Reference T43 Wikidata:Q720753	Национальная ассамблея народной власти
+N16	Reference T44 Wikidata:Q35749	парламент
+N19	Reference T47 Wikidata:Q159	Россия
+N20	Reference T48 Wikidata:Q218295	президент Российской Федерации
+N21	Reference T50 Wikidata:Q1516390	Государственный совет Кубы
+N22	Reference T51 Wikidata:Q1516390	Государственный совет Кубы
+N4	Reference T10 Wikidata:Q89188209	
+N18	Reference T46 Wikidata:Q89188209	
+N6	Reference T13 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T45 Wikidata:Q89188209	
+N10	Reference T33 Wikidata:Q3687335	
+N23	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N24	Reference T32 Wikidata:Q1932603	Мигель Диас-Канель
+N25	Reference T14 Wikidata:Q1932603	Мигель Диас-Канель
+N26	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N27	Reference T16 Wikidata:Q7747	Владимир Владимирович Путин
+N28	Reference T23 Wikidata:Q7747	Владимир Владимирович Путин
+N29	Reference T22 Wikidata:Q241	Куба
+N30	Reference T53 Wikidata:Q241	Куба
+N31	Reference T31 Wikidata:Q241	Куба
+N32	Reference T49 Wikidata:Q241	Куба
+N33	Reference T42 Wikidata:Q241	Куба
+N34	Reference T18 Wikidata:Q241	Куба
+N35	Reference T2 Wikidata:Q241	Куба
+N36	Reference T19 Wikidata:Q30461	президент
+N37	Reference T6 Wikidata:Q30461	президент
+N38	Reference T20 Wikidata:Q46809	Рауль Кастро
+N39	Reference T12 Wikidata:Q46809	Рауль Кастро
+N40	Reference T24 Wikidata:Q46809	Рауль Кастро
+N41	Reference T28 Wikidata:Q46809	Рауль Кастро
+N42	Reference T17 Wikidata:Q159	Россия
+N43	Reference T25 Wikidata:Q159	Россия
+N44	Reference T39 Wikidata:Q159	Россия
+N45	Reference T21 Wikidata:Q159	Россия
+N46	Reference T52 Wikidata:Q159	Россия
+N47	Reference T36 Wikidata:Q218295	президент Российской Федерации
+N48	Reference T38 Wikidata:Q218295	президент Российской Федерации

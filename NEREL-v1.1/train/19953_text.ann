@@ -1,0 +1,114 @@
+T1	COUNTRY 2 11	Венесуэле
+T2	EVENT 21 27	выборы
+T3	COUNTRY 46 55	Венесуэла
+T4	COUNTRY 56 65	Венесуэле
+T5	EVENT 95 117	Президентские выборы в
+T6	COUNTRY 118 127	Венесуэле
+T7	DATE 129 133	2012
+T8	EVENT 149 155	выборы
+T9	PERSON 270 275	Чавес
+T10	PERSON 277 280	Уго
+T11	PERSON 281 291	Уго Чавеса
+T13	PERSON 385 390	Чавес
+T14	PERSON 428 445	Каприлес Радонски
+T15	PERSON 454 470	Энрике Каприлеса
+T16	PERSON 526 531	Чавес
+T17	COUNTRY 599 608	Венесуэлы
+T18	PERSON 617 626	Каприлесу
+T19	AGE 664 673	40-летний
+T20	PERSON 742 748	Чавеса
+T21	PROFESSION 935 945	президента
+T22	DATE 958 975	больше года назад
+T23	PERSON 996 1001	Чавес
+T24	PERSON 1056 1062	Чавесу
+T25	ORDINAL 1088 1097	четвертый
+T26	AGE 1104 1113	57-летний
+T27	PROFESSION 1132 1143	президентом
+T28	DATE 1144 1156	до 2019 года
+T30	PERSON 1187 1192	Чавес
+T31	COUNTRY 1216 1234	Соединенных Штатов
+T32	COUNTRY 1305 1308	США
+T33	MONEY 1322 1340	миллиарды долларов
+T34	PERSON 1423 1431	Каприлес
+T35	ORGANIZATION 1476 1489	правительство
+T36	EVENT 21 38	выборы президента
+T37	PROFESSION 28 38	президента
+T38	PROFESSION 95 108	Президентские
+T39	PROFESSION 135 148	президентские
+T40	PROFESSION 176 186	аналитиков
+T41	PROFESSION 256 269	лидера страны
+T42	PROFESSION 674 679	юрист
+T43	PROFESSION 1114 1121	политик
+T44	DATE 66 80	7 октября 2012
+T45	EVENT 109 115	выборы
+T46	EVENT 135 155	президентские выборы
+T12	NUMBER 313 321	почти 14
+T47	PERSON 447 453	Энрике
+T48	IDEOLOGY 511 516	левых
+T49	IDEOLOGY 653 662	оппозиции
+T50	EVENT 888 895	выборов
+T51	DISEASE 987 990	рак
+T29	NUMBER 1179 1181	20
+T52	ORGANIZATION 1250 1263	правительства
+T53	EVENT 1407 1414	выборах
+R1	TAKES_PLACE_IN Arg1:T36 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T6	
+R3	POINT_IN_TIME Arg1:T5 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R5	POINT_IN_TIME Arg1:T5 Arg2:T44	
+R6	IDEOLOGY_OF Arg1:T16 Arg2:T48	
+R7	IDEOLOGY_OF Arg1:T18 Arg2:T49	
+R8	ALTERNATIVE_NAME Arg1:T14 Arg2:T18	
+R9	PARTICIPANT_IN Arg1:T13 Arg2:T5	
+R10	PARTICIPANT_IN Arg1:T14 Arg2:T5	
+R11	PARTICIPANT_IN Arg1:T15 Arg2:T5	
+R12	AGE_IS Arg1:T18 Arg2:T19	
+R13	AGE_IS Arg1:T42 Arg2:T19	
+R14	WORKS_AS Arg1:T18 Arg2:T42	
+R15	WORKS_AS Arg1:T20 Arg2:T21	
+R16	MEDICAL_CONDITION Arg1:T21 Arg2:T51	
+R17	MEDICAL_CONDITION Arg1:T20 Arg2:T51	
+R18	AGE_IS Arg1:T24 Arg2:T26	
+R19	WORKS_AS Arg1:T24 Arg2:T43	
+R20	WORKS_AS Arg1:T24 Arg2:T27	
+R21	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R22	PARTICIPANT_IN Arg1:T34 Arg2:T53	
+R23	AGE_IS Arg1:T43 Arg2:T26	
+R24	WORKS_AS Arg1:T9 Arg2:T41	
+R25	WORKPLACE Arg1:T41 Arg2:T6	
+R26	WORKPLACE Arg1:T9 Arg2:T6	
+R27	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+R28	ALTERNATIVE_NAME Arg1:T16 Arg2:T20	
+R29	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+N1	Reference T1 Wikidata:Q717	Венесуэла
+N3	Reference T11 Wikidata:Q8440	Уго Чавес
+N4	Reference T15 Wikidata:Q8781	Энрике Каприлес Радонски
+N7	Reference T35 Wikidata:Q7188	правительство
+N8	Reference T37 Wikidata:Q30461	президент
+N11	Reference T42 Wikidata:Q185351	юрист
+N12	Reference T43 Wikidata:Q82955	политик
+N9	Reference T39 Wikidata:Q30461	президент
+N14	Reference T40 Wikidata:Q485178	
+N6	Reference T31 Wikidata:Q30	США
+N2	Reference T10 Wikidata:Q8440	Уго Чавес
+N5	Reference T16 Wikidata:Q8440	Уго Чавес
+N13	Reference T47 Wikidata:Q8781	Энрике Каприлес Радонски
+N15	Reference T18 Wikidata:Q8781	Энрике Каприлес Радонски
+N10	Reference T41 Wikidata:NULL	нет данных
+N16	Reference T17 Wikidata:Q717	Венесуэла
+N17	Reference T4 Wikidata:Q717	Венесуэла
+N18	Reference T3 Wikidata:Q717	Венесуэла
+N19	Reference T6 Wikidata:Q717	Венесуэла
+N20	Reference T9 Wikidata:Q8440	Уго Чавес
+N21	Reference T52 Wikidata:Q7188	правительство
+N22	Reference T21 Wikidata:Q30461	президент
+N23	Reference T27 Wikidata:Q30461	президент
+N24	Reference T38 Wikidata:Q30461	президент
+N25	Reference T32 Wikidata:Q30	США
+N26	Reference T13 Wikidata:Q8440	Уго Чавес
+N27	Reference T20 Wikidata:Q8440	Уго Чавес
+N28	Reference T23 Wikidata:Q8440	Уго Чавес
+N29	Reference T24 Wikidata:Q8440	Уго Чавес
+N30	Reference T30 Wikidata:Q8440	Уго Чавес
+N31	Reference T34 Wikidata:Q8781	Энрике Каприлес Радонски
+N32	Reference T14 Wikidata:Q8781	Энрике Каприлес Радонски

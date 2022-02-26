@@ -1,0 +1,148 @@
+T1	PERSON 78 90	Карлос Тевес
+T3	ORGANIZATION 130 153	Шанхай Гринлэнд Шеньхуа
+T4	PERSON 155 165	Ву Цзиньсу
+T5	PERSON 203 217	Карлоса Тевеса
+T6	PERSON 242 247	Тевес
+T7	PERSON 318 323	Тевес
+T8	PERSON 391 405	Фредди Гуарина
+T9	PROFESSION 407 419	полузащитник
+T10	ORGANIZATION 421 427	Шанхая
+T11	DATE 642 662	22 августа 2017 года
+T12	ORGANIZATION 685 696	Fancy Bears
+T13	PERSON 833 838	Тевес
+T14	COUNTRY 872 881	Аргентины
+T15	PERSON 882 902	Хуан Себастьян Верон
+T16	PERSON 904 919	Габриэль Хейнце
+T17	PERSON 922 934	Диего Милито
+T18	AGE 937 946	33-летний
+T19	COUNTRY 968 977	китайский
+T20	ORGANIZATION 979 993	Шанхай Шеньхуа
+T21	DATE 995 1014	в декабре 2016 года
+T22	NATIONALITY 1026 1036	британских
+T23	MONEY 1062 1079	35 миллионов евро
+T24	DATE 1080 1085	в год
+T25	PERSON 1165 1181	Эсекьель Лавесси
+T26	COUNTRY 1185 1195	китайского
+T27	ORGANIZATION 1197 1209	Хэбэй Форчун
+T28	MONEY 1224 1236	30 миллионов
+T29	ORDINAL 1254 1260	второй
+T30	DATE 1285 1301	В текущем сезоне
+T31	PERSON 1302 1307	Тевес
+T32	NUMBER 1315 1317	12
+T33	COUNTRY 1327 1336	китайской
+T34	NUMBER 1354 1357	два
+T35	NUMBER 1371 1377	четыре
+T36	PROFESSION 25 34	футболист
+T38	STATE_OR_PROVINCE 130 136	Шанхай
+T39	EVENT 742 744	ЧМ
+T40	DATE 745 749	2010
+T41	PROFESSION 947 957	нападающий
+T42	EVENT 40 58	выведен из состава
+T43	EVENT 172 190	вывести из состава
+T44	PROFESSION 191 202	нападающего
+T45	PROFESSION 487 496	футболист
+T46	PROFESSION 719 730	футболистах
+T47	PROFESSION 1037 1048	журналистов
+T48	PROFESSION 1127 1138	футболистом
+T50	ORGANIZATION 1337 1346	Суперлиге
+R1	WORKS_AS Arg1:T5 Arg2:T44	
+T37	ORGANIZATION 864 881	сборной Аргентины
+R2	HEADQUARTERED_IN Arg1:T20 Arg2:T19	
+R3	HEADQUARTERED_IN Arg1:T3 Arg2:T38	
+T2	PROFESSION 97 153	главный тренер китайского клуба «Шанхай Гринлэнд Шеньхуа
+T51	PROFESSION 97 111	главный тренер
+R4	WORKPLACE Arg1:T2 Arg2:T38	
+R5	WORKS_AS Arg1:T4 Arg2:T2	
+R6	WORKPLACE Arg1:T4 Arg2:T3	
+R7	AGENT Arg1:T4 Arg2:T43	
+R8	PARTICIPANT_IN Arg1:T3 Arg2:T43	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T43	
+R10	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R11	PARTICIPANT_IN Arg1:T36 Arg2:T42	
+R12	WORKS_AS Arg1:T5 Arg2:T36	
+R13	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+T52	PROFESSION 407 427	полузащитник «Шанхая
+R14	WORKS_AS Arg1:T8 Arg2:T52	
+R15	WORKPLACE Arg1:T8 Arg2:T10	
+R16	WORKPLACE Arg1:T52 Arg2:T10	
+R17	POINT_IN_TIME Arg1:T39 Arg2:T40	
+R18	PARTICIPANT_IN Arg1:T46 Arg2:T39	
+R19	PARTICIPANT_IN Arg1:T13 Arg2:T39	
+R20	WORKPLACE Arg1:T13 Arg2:T37	
+R21	PARTICIPANT_IN Arg1:T37 Arg2:T39	
+R22	HEADQUARTERED_IN Arg1:T37 Arg2:T14	
+R23	WORKPLACE Arg1:T15 Arg2:T37	
+R24	WORKPLACE Arg1:T16 Arg2:T37	
+R25	WORKPLACE Arg1:T17 Arg2:T37	
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T39	
+R27	PARTICIPANT_IN Arg1:T16 Arg2:T39	
+R28	PARTICIPANT_IN Arg1:T17 Arg2:T39	
+R29	AGE_IS Arg1:T13 Arg2:T18	
+R30	WORKS_AS Arg1:T13 Arg2:T41	
+R31	ORIGINS_FROM Arg1:T47 Arg2:T22	
+R32	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R33	INCOME Arg1:T25 Arg2:T28	
+R34	INCOME Arg1:T13 Arg2:T23	
+T49	ORGANIZATION 1327 1346	китайской Суперлиге
+R35	HEADQUARTERED_IN Arg1:T49 Arg2:T33	
+R36	WORKPLACE Arg1:T25 Arg2:T27	
+R37	OWNER_OF Arg1:T48 Arg2:T23	
+R38	WORKS_AS Arg1:T13 Arg2:T48	
+T53	COUNTRY 112 122	китайского
+R39	LOCATED_IN Arg1:T38 Arg2:T53	
+T54	DISEASE 65 77	лишнего веса
+R40	HAS_CAUSE Arg1:T42 Arg2:T54	
+R41	MEDICAL_CONDITION Arg1:T36 Arg2:T54	
+T55	DISEASE 228 240	лишнего веса
+R42	HAS_CAUSE Arg1:T43 Arg2:T55	
+R43	MEDICAL_CONDITION Arg1:T5 Arg2:T55	
+T56	DISEASE 371 381	лишний вес
+R44	MEDICAL_CONDITION Arg1:T8 Arg2:T56	
+R45	AGE_IS Arg1:T41 Arg2:T18	
+T57	EVENT 958 965	перешел
+R46	PARTICIPANT_IN Arg1:T20 Arg2:T57	
+R47	POINT_IN_TIME Arg1:T57 Arg2:T21	
+R48	AGENT Arg1:T41 Arg2:T57	
+R49	AGENT Arg1:T13 Arg2:T57	
+R50	WORKPLACE Arg1:T41 Arg2:T20	
+T58	CITY 979 985	Шанхай
+R51	HEADQUARTERED_IN Arg1:T20 Arg2:T58	
+N1	Reference T1 Wikidata:Q50600	Карлос Тевес
+N2	Reference T3 Wikidata:Q725367	Шанхай Шэньхуа
+N4	Reference T8 Wikidata:Q317532	Гуарин, Фредди
+N5	Reference T9 Wikidata:Q193592	полузащитник
+N8	Reference T14 Wikidata:Q414	Аргентина
+N9	Reference T15 Wikidata:Q46502	Хуан Себастьян Верон
+N10	Reference T16 Wikidata:Q63659	Хайнце, Габриэль
+N11	Reference T17 Wikidata:Q76089	Милито, Диего
+N12	Reference T20 Wikidata:Q725367	Шанхай Шэньхуа
+N14	Reference T25 Wikidata:Q275415	Лавесси, Эсекьель
+N15	Reference T27 Wikidata:Q402038	Хэбэй Чжунцзи
+N16	Reference T38 Wikidata:Q8686	Шанхай
+N17	Reference T41 Wikidata:Q280658	нападающий
+N18	Reference T46 Wikidata:Q937857	футболист
+N19	Reference T47 Wikidata:Q1930187	журналист
+N21	Reference T37 Wikidata:Q79800	сборная Аргентины по футболу
+N22	Reference T2 Wikidata:Q8686	Шанхай
+N24	Reference T49 Wikidata:Q209318	Чемпионат Китая по футболу
+N25	Reference T58 Wikidata:Q8686	Шанхай
+N26	Reference T51 Wikidata:Q3246315	
+N27	Reference T53 Wikidata:Q29520	
+N3	Reference T4 Wikidata:Q4468233	
+N6	Reference T10 Wikidata:Q725367	Шанхай Шэньхуа
+N23	Reference T52 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:Q20757678	
+N13	Reference T22 Wikidata:Q145	Великобритания
+N20	Reference T50 Wikidata:NULL	нет данных
+N28	Reference T13 Wikidata:Q50600	Карлос Тевес
+N29	Reference T5 Wikidata:Q50600	Карлос Тевес
+N30	Reference T31 Wikidata:Q50600	Карлос Тевес
+N31	Reference T7 Wikidata:Q50600	Карлос Тевес
+N32	Reference T6 Wikidata:Q50600	Карлос Тевес
+N33	Reference T44 Wikidata:Q280658	нападающий
+N34	Reference T36 Wikidata:Q937857	футболист
+N35	Reference T48 Wikidata:Q937857	футболист
+N36	Reference T45 Wikidata:Q937857	футболист
+N37	Reference T19 Wikidata:Q29520	
+N38	Reference T33 Wikidata:Q29520	
+N39	Reference T26 Wikidata:Q29520	

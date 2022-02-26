@@ -1,0 +1,158 @@
+T1	COUNTRY 0 7	Боливия
+T2	PERSON 28 36	Сноудену
+T3	PERSON 60 71	Эво Моралес
+T4	DATE 89 105	6 июля 2013 года
+T5	PROFESSION 106 115	президент
+T6	PERSON 124 135	Эво Моралес
+T7	COUNTRY 166 175	Венесуэлы
+T8	COUNTRY 178 187	Никарагуа
+T10	COUNTRY 270 273	США
+T11	PERSON 274 290	Эдварду Сноудену
+T12	PERSON 293 300	Моралес
+T13	COUNTRY 352 359	Боливия
+T14	PERSON 378 386	Сноудена
+T15	ORGANIZATION 541 573	правительство Соединенных Штатов
+T16	COUNTRY 555 573	Соединенных Штатов
+T17	PERSON 594 601	Моралес
+T18	COUNTRY 618 625	Боливия
+T19	COUNTRY 638 641	США
+T20	LOCATION 647 658	европейских
+T21	LOCATION 730 741	европейские
+T22	PERSON 766 774	Моралеса
+T23	PERSON 785 793	Сноудена
+T24	PROFESSION 801 810	президент
+T25	COUNTRY 861 868	Боливии
+T26	AGE 913 922	30-летний
+T27	ORGANIZATION 993 1028	Агентства национальной безопасности
+T28	DATE 1038 1048	две недели
+T29	CITY 1073 1084	московского
+T30	CITY 1114 1122	Гонконга
+T31	LOCATION 1174 1192	латиноамериканскую
+T32	PERSON 1220 1227	Сноуден
+T33	COUNTRY 1246 1252	Россию
+T34	COUNTRY 1288 1301	американского
+T35	COUNTRY 1352 1364	Американские
+T36	COUNTRY 1395 1398	США
+T37	COUNTRY 1459 1469	российский
+T38	PERSON 1480 1494	Владимир Путин
+T39	PERSON 1543 1550	Сноуден
+T40	PERSON 1577 1584	Сноуден
+T41	NUMBER 1630 1638	более 20
+T42	ORGANIZATION 1816 1819	АНБ
+T43	PERSON 1942 1949	Сноуден
+T44	NATIONALITY 1964 1974	американцы
+T45	PERSON 72 86	Эдвард Сноуден
+T46	COUNTRY 116 123	Боливии
+T47	PROFESSION 106 123	президент Боливии
+T48	PROFESSION 249 273	подрядчику спецслужб США
+T49	ORGANIZATION 260 273	спецслужб США
+T50	ORGANIZATION 541 554	правительство
+T51	NATIONALITY 696 706	американцу
+T53	PROFESSION 801 818	президент Боливии
+T54	COUNTRY 811 818	Боливии
+T55	COUNTRY 869 881	американское
+T56	ORGANIZATION 869 892	американское посольство
+T57	PERSON 923 930	Сноуден
+T58	ORGANIZATION 993 1032	Агентства национальной безопасности США
+T59	COUNTRY 1029 1032	США
+T60	PROFESSION 1470 1479	президент
+T61	PROFESSION 1459 1479	российский президент
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T45	
+R2	WORKPLACE Arg1:T47 Arg2:T46	
+R3	WORKS_AS Arg1:T6 Arg2:T47	
+R5	HEADQUARTERED_IN Arg1:T49 Arg2:T10	
+R6	WORKPLACE Arg1:T48 Arg2:T49	
+R7	WORKS_AS Arg1:T11 Arg2:T48	
+R4	WORKPLACE Arg1:T6 Arg2:T46	
+R8	WORKPLACE Arg1:T11 Arg2:T49	
+R9	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R10	ALTERNATIVE_NAME Arg1:T10 Arg2:T16	
+R11	HEADQUARTERED_IN Arg1:T15 Arg2:T16	
+R12	ORIGINS_FROM Arg1:T51 Arg2:T19	
+T9	ORGANIZATION 730 748	европейские власти
+R13	HEADQUARTERED_IN Arg1:T9 Arg2:T21	
+R14	WORKPLACE Arg1:T53 Arg2:T54	
+R16	ALTERNATIVE_NAME Arg1:T19 Arg2:T55	
+R17	AGE_IS Arg1:T57 Arg2:T26	
+R18	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+T52	EVENT 940 992	раскрыл детали секретных программ электронной слежки
+R19	AGENT Arg1:T57 Arg2:T52	
+R20	PARTICIPANT_IN Arg1:T58 Arg2:T52	
+R21	LOCATED_IN Arg1:T29 Arg2:T33	
+T62	ORGANIZATION 1352 1371	Американские власти
+R22	HEADQUARTERED_IN Arg1:T62 Arg2:T35	
+R23	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+T63	CRIME 1446 1454	шпионаже
+R24	CONVICTED_OF Arg1:T39 Arg2:T63	
+R25	WORKPLACE Arg1:T61 Arg2:T37	
+R26	ALTERNATIVE_NAME Arg1:T33 Arg2:T37	
+R27	WORKS_AS Arg1:T38 Arg2:T61	
+R28	WORKPLACE Arg1:T38 Arg2:T37	
+R29	ABBREVIATION Arg1:T27 Arg2:T42	
+T64	ORGANIZATION 1996 2009	правительство
+R15	HEADQUARTERED_IN Arg1:T56 Arg2:T25	
+R30	OWNER_OF Arg1:T55 Arg2:T56	
+R31	WORKPLACE Arg1:T17 Arg2:T18	
+T65	EVENT 749 765	посадили самолёт
+R32	AGENT Arg1:T9 Arg2:T65	
+R33	PARTICIPANT_IN Arg1:T22 Arg2:T65	
+R34	PARTICIPANT_IN Arg1:T23 Arg2:T65	
+R35	LOCATED_IN Arg1:T57 Arg2:T29	
+N1	Reference T1 Wikidata:Q750	Боливия
+N2	Reference T3 Wikidata:Q42410	Эво Моралес
+N3	Reference T5 Wikidata:Q30461	президент
+N4	Reference T7 Wikidata:Q717	Венесуэла
+N5	Reference T8 Wikidata:Q811	Никарагуа
+N10	Reference T30 Wikidata:Q8646	Гонконг
+N13	Reference T38 Wikidata:Q7747	Владимир Владимирович Путин
+N16	Reference T45 Wikidata:Q13424289	Эдвард Сноуден
+N21	Reference T58 Wikidata:Q121194	Агентство национальной безопасности
+N22	Reference T59 Wikidata:Q30	США
+N23	Reference T61 Wikidata:Q218295	президент Российской Федерации
+N26	Reference T64 Wikidata:Q7188	правительство
+N27	Reference T47 Wikidata:Q373548	
+N7	Reference T16 Wikidata:Q30	США
+N6	Reference T15 Wikidata:NULL	нет данных
+N18	Reference T49 Wikidata:Q786878	
+N17	Reference T48 Wikidata:NULL	нет данных
+N8	Reference T20 Wikidata:Q46	Европа
+N24	Reference T9 Wikidata:NULL	нет данных
+N19	Reference T55 Wikidata:Q30	США
+N20	Reference T56 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:Q649	Москва
+N11	Reference T31 Wikidata:Q12585	Латинская Америка
+N25	Reference T62 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:Q159	Россия
+N14	Reference T42 Wikidata:Q121194	Агентство национальной безопасности
+N15	Reference T44 Wikidata:Q846570	
+N28	Reference T13 Wikidata:Q750	Боливия
+N29	Reference T46 Wikidata:Q750	Боливия
+N30	Reference T25 Wikidata:Q750	Боливия
+N31	Reference T54 Wikidata:Q750	Боливия
+N32	Reference T18 Wikidata:Q750	Боливия
+N33	Reference T22 Wikidata:Q42410	Эво Моралес
+N34	Reference T12 Wikidata:Q42410	Эво Моралес
+N35	Reference T17 Wikidata:Q42410	Эво Моралес
+N36	Reference T6 Wikidata:Q42410	Эво Моралес
+N37	Reference T60 Wikidata:Q30461	президент
+N38	Reference T24 Wikidata:Q30461	президент
+N39	Reference T40 Wikidata:Q13424289	Эдвард Сноуден
+N40	Reference T57 Wikidata:Q13424289	Эдвард Сноуден
+N41	Reference T23 Wikidata:Q13424289	Эдвард Сноуден
+N42	Reference T14 Wikidata:Q13424289	Эдвард Сноуден
+N43	Reference T11 Wikidata:Q13424289	Эдвард Сноуден
+N44	Reference T43 Wikidata:Q13424289	Эдвард Сноуден
+N45	Reference T39 Wikidata:Q13424289	Эдвард Сноуден
+N46	Reference T2 Wikidata:Q13424289	Эдвард Сноуден
+N47	Reference T32 Wikidata:Q13424289	Эдвард Сноуден
+N48	Reference T34 Wikidata:Q30	США
+N49	Reference T36 Wikidata:Q30	США
+N50	Reference T35 Wikidata:Q30	США
+N51	Reference T50 Wikidata:Q7188	правительство
+N52	Reference T53 Wikidata:Q373548	
+N53	Reference T10 Wikidata:Q30	США
+N54	Reference T21 Wikidata:Q46	Европа
+N55	Reference T19 Wikidata:Q30	США
+N56	Reference T33 Wikidata:Q159	Россия
+N57	Reference T27 Wikidata:Q121194	Агентство национальной безопасности
+N58	Reference T51 Wikidata:Q846570	

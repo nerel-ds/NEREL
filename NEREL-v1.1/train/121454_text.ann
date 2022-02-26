@@ -1,0 +1,68 @@
+T1	ORGANIZATION 7 10	МВД
+T2	ORGANIZATION 13 28	Верховного суда
+T3	COUNTRY 73 82	Венесуэле
+T4	COUNTRY 85 94	Венесуэле
+T5	ORGANIZATION 142 157	Верховного суда
+T6	ORGANIZATION 261 265	ОПЕК
+T7	PROFESSION 268 277	Президент
+T8	NUMBER 400 402	15
+T9	ORGANIZATION 423 426	МВД
+T10	NUMBER 481 487	четыре
+T11	PERSON 744 750	Мадуро
+T12	NUMBER 790 798	десятков
+T13	AGE 808 817	54-летний
+T14	DATE 835 871	на протяжении последних трёх месяцев
+T15	DATE 1110 1128	с апреля 2017 года
+T16	NUMBER 1193 1195	75
+T17	NUMBER 1205 1210	Сотни
+T18	IDEOLOGY 1137 1158	антиправительственных
+T19	PERSON 828 834	Мадуро
+T20	IDEOLOGY 818 827	социалист
+T21	IDEOLOGY 936 949	оппозиционные
+T23	PERSON 278 292	Николас Мадуро
+T24	EVENT 39 61	обстреляны с вертолета
+T25	COUNTRY 29 38	Венесуэлы
+T28	ORGANIZATION 108 115	полиции
+T30	EVENT 116 134	вертолет обстрелял
+T31	EVENT 690 713	террористической атакой
+R1	IDEOLOGY_OF Arg1:T19 Arg2:T20	
+R2	AGE_IS Arg1:T19 Arg2:T13	
+T32	EVENT 1137 1168	антиправительственных протестов
+R3	START_TIME Arg1:T32 Arg2:T15	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T24	
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T24	
+R6	HEADQUARTERED_IN Arg1:T2 Arg2:T25	
+R7	HEADQUARTERED_IN Arg1:T1 Arg2:T25	
+R8	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R9	TAKES_PLACE_IN Arg1:T30 Arg2:T4	
+R10	PARTICIPANT_IN Arg1:T5 Arg2:T30	
+R11	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R12	HEADQUARTERED_IN Arg1:T28 Arg2:T4	
+R13	WORKS_AS Arg1:T23 Arg2:T7	
+R14	WORKPLACE Arg1:T23 Arg2:T4	
+R15	WORKPLACE Arg1:T7 Arg2:T4	
+T22	EVENT 400 412	15 выстрелов
+T26	EVENT 473 495	брошены четыре гранаты
+R16	SUBEVENT_OF Arg1:T22 Arg2:T30	
+R17	SUBEVENT_OF Arg1:T26 Arg2:T30	
+R18	ALTERNATIVE_NAME Arg1:T23 Arg2:T11	
+R19	MEMBER_OF Arg1:T4 Arg2:T6	
+T27	IDEOLOGY 322 332	террористы
+T29	EVENT 305 310	атаку
+R20	ALTERNATIVE_NAME Arg1:T30 Arg2:T29	
+R21	PARTICIPANT_IN Arg1:T9 Arg2:T22	
+R22	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+R23	TAKES_PLACE_IN Arg1:T32 Arg2:T4	
+N1	Reference T5 Wikidata:Q190752	верховный суд
+N2	Reference T6 Wikidata:Q7795	Организация стран — экспортёров нефти
+N3	Reference T7 Wikidata:Q30461	президент
+N4	Reference T9 Wikidata:Q6589202	министерство внутренних дел
+N6	Reference T25 Wikidata:Q717	Венесуэла
+N7	Reference T28 Wikidata:Q35535	полиция
+N5	Reference T11 Wikidata:Q58132	Николас Мадуро
+N8	Reference T2 Wikidata:Q190752	верховный суд
+N9	Reference T1 Wikidata:Q6589202	министерство внутренних дел
+N10	Reference T4 Wikidata:Q717	Венесуэла
+N11	Reference T3 Wikidata:Q717	Венесуэла
+N12	Reference T19 Wikidata:Q58132	Николас Мадуро
+N13	Reference T23 Wikidata:Q58132	Николас Мадуро

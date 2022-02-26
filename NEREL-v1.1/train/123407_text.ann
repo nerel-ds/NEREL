@@ -1,0 +1,164 @@
+T1	EVENT 0 6	Теракт
+T2	CITY 9 19	Иерусалиме
+T3	NUMBER 27 31	двое
+T4	DATE 86 114	В пятницу, 14 июля 2017 года
+T5	LOCATION 118 138	Восточном Иерусалиме
+T6	FACILITY 147 161	Храмовой горой
+T7	TIME 181 186	Утром
+T8	NUMBER 187 191	трое
+T9	FACILITY 237 250	Львиных ворот
+T10	DISTRICT 251 265	Старого города
+T11	NUMBER 310 315	одной
+T12	FACILITY 330 343	Храмовой горе
+T14	NUMBER 465 469	двое
+T15	TIME 477 486	в полдень
+T16	FACILITY 520 533	Храмовую гору
+T17	TIME 580 591	После 11:30
+T18	FACILITY 648 661	Храмовой горе
+T19	NUMBER 672 676	трое
+T20	COUNTRY 685 697	израильского
+T21	CITY 715 727	Умм эль-Фахм
+T24	NUMBER 734 738	трое
+T25	PERSON 773 790	Мухаммад Джабарин
+T26	AGE 800 802	30
+T27	AGE 809 815	19 лет
+T28	PERSON 843 875	Мухаммад Ахмад Мухаммад Джабарин
+T29	PERSON 877 914	Мухаммад Хамад Абд аль-Латиф Джабарин
+T30	PERSON 917 947	Мухаммад Ахмад Мафаль Джабарин
+T31	NUMBER 950 954	Двое
+T33	DATE 990 997	13 июля
+T34	PRODUCT 1019 1027	Facebook
+T35	ORGANIZATION 1112 1145	Палестинский информационный центр
+T36	ORGANIZATION 1163 1168	ХАМАС
+T37	ORGANIZATION 1171 1176	ХАМАС
+T38	NUMBER 1241 1245	трое
+T39	ORGANIZATION 1291 1310	Исламского движения
+T40	NATIONALITY 1321 1327	евреям
+T41	FACILITY 1351 1359	Аль-Акса
+T42	FACILITY 1414 1427	Храмовую гору
+T43	PROFESSION 1464 1503	начальник полиции Иерусалимского округа
+T44	PERSON 1504 1517	Йорам Ха-Леви
+T45	FACILITY 1569 1582	Храмовую гору
+T46	DATE 1613 1622	за 17 лет
+T47	FACILITY 1634 1647	Храмовую гору
+T48	TIME 1679 1701	В ночь с 15 на 16 июля
+T49	CITY 1721 1727	Аммане
+T50	COUNTRY 1805 1813	Израилем
+T52	COUNTRY 1894 1902	Израилем
+T53	COUNTRY 1712 1720	Иордании
+T51	FACILITY 1832 1845	Храмовой горе
+T54	NATIONALITY 1847 1855	Иорданцы
+T55	IDEOLOGY 1382 1393	террористам
+T56	DISTRICT 1482 1503	Иерусалимского округа
+T57	ORGANIZATION 1474 1503	полиции Иерусалимского округа
+T58	PROFESSION 32 43	полицейских
+T59	PROFESSION 74 85	полицейские
+T60	EVENT 66 73	теракта
+T61	CITY 128 138	Иерусалиме
+T62	EVENT 172 178	теракт
+T63	PROFESSION 354 365	полицейских
+T64	PROFESSION 368 380	пограничника
+T65	FACILITY 410 428	Адаса Хар-ха-Цофим
+T13	EVENT 623 644	вооруженное нападение
+T66	IDEOLOGY 830 841	террористов
+T67	AGE 804 806	20
+T22	EVENT 982 989	теракта
+T23	EVENT 1218 1224	теракт
+R1	LOCATED_IN Arg1:T6 Arg2:T5	
+R2	LOCATED_IN Arg1:T5 Arg2:T61	
+R3	LOCATED_IN Arg1:T9 Arg2:T10	
+R4	LOCATED_IN Arg1:T10 Arg2:T5	
+R5	IDEOLOGY_OF Arg1:T28 Arg2:T66	
+R6	IDEOLOGY_OF Arg1:T29 Arg2:T66	
+R7	IDEOLOGY_OF Arg1:T30 Arg2:T66	
+T32	DATE 1686 1701	с 15 на 16 июля
+R8	LOCATED_IN Arg1:T49 Arg2:T53	
+T68	EVENT 1750 1762	демонстрации
+R9	POINT_IN_TIME Arg1:T68 Arg2:T48	
+R10	TAKES_PLACE_IN Arg1:T68 Arg2:T49	
+R11	ORIGINS_FROM Arg1:T54 Arg2:T53	
+R12	WORKPLACE Arg1:T43 Arg2:T57	
+R13	HEADQUARTERED_IN Arg1:T57 Arg2:T56	
+R14	WORKS_AS Arg1:T44 Arg2:T43	
+R15	WORKPLACE Arg1:T44 Arg2:T57	
+R16	TAKES_PLACE_IN Arg1:T13 Arg2:T18	
+T69	NATIONALITY 698 707	арабского
+R17	LOCATED_IN Arg1:T21 Arg2:T20	
+R18	OWNER_OF Arg1:T36 Arg2:T35	
+R19	MEMBER_OF Arg1:T28 Arg2:T39	
+R20	MEMBER_OF Arg1:T29 Arg2:T39	
+R21	MEMBER_OF Arg1:T30 Arg2:T39	
+R22	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+T70	EVENT 21 43	убиты двое полицейских
+R23	PARTICIPANT_IN Arg1:T58 Arg2:T70	
+R24	SUBEVENT_OF Arg1:T70 Arg2:T1	
+R25	POINT_IN_TIME Arg1:T62 Arg2:T4	
+R26	TAKES_PLACE_IN Arg1:T62 Arg2:T5	
+R27	TAKES_PLACE_IN Arg1:T62 Arg2:T6	
+T71	EVENT 381 398	госпитализировали
+R28	TAKES_PLACE_IN Arg1:T71 Arg2:T65	
+T72	EVENT 222 230	стрелять
+R29	SUBEVENT_OF Arg1:T72 Arg2:T62	
+R30	HAS_CAUSE Arg1:T71 Arg2:T72	
+R31	POINT_IN_TIME Arg1:T72 Arg2:T7	
+R32	PARTICIPANT_IN Arg1:T64 Arg2:T71	
+R33	PARTICIPANT_IN Arg1:T63 Arg2:T71	
+R34	ALTERNATIVE_NAME Arg1:T72 Arg2:T13	
+R35	PLACE_RESIDES_IN Arg1:T28 Arg2:T21	
+R36	PLACE_RESIDES_IN Arg1:T29 Arg2:T21	
+R37	PLACE_RESIDES_IN Arg1:T30 Arg2:T21	
+R38	PARTICIPANT_IN Arg1:T28 Arg2:T13	
+R39	PARTICIPANT_IN Arg1:T29 Arg2:T13	
+R40	PARTICIPANT_IN Arg1:T30 Arg2:T13	
+R41	AGE_IS Arg1:T28 Arg2:T26	
+R42	AGE_IS Arg1:T29 Arg2:T67	
+R43	AGE_IS Arg1:T30 Arg2:T27	
+R44	ALTERNATIVE_NAME Arg1:T13 Arg2:T22	
+R45	PARTICIPANT_IN Arg1:T59 Arg2:T60	
+T73	COUNTRY 1112 1124	Палестинский
+R46	HEADQUARTERED_IN Arg1:T35 Arg2:T73	
+N1	Reference T5 Wikidata:Q212938	Восточный Иерусалим
+N2	Reference T9 Wikidata:Q1450403	Львиные ворота
+N3	Reference T10 Wikidata:Q213274	Старый город
+N4	Reference T16 Wikidata:Q193163	Храмовая гора
+N5	Reference T20 Wikidata:Q19829830	Израильский
+N6	Reference T21 Wikidata:Q168245	Умм-эль-Фахм
+N11	Reference T34 Wikidata:Q355	Facebook
+N13	Reference T37 Wikidata:Q38799	ХАМАС
+N14	Reference T39 Wikidata:Q38799	ХАМАС
+N15	Reference T40 Wikidata:Q7325	евреи
+N16	Reference T41 Wikidata:Q425281	Мечеть Аль-Акса
+N18	Reference T49 Wikidata:Q3805	Амман
+N19	Reference T50 Wikidata:Q801	Израиль
+N20	Reference T53 Wikidata:Q810	Иордания
+N22	Reference T56 Wikidata:Q192232	Иерусалимский округ
+N24	Reference T61 Wikidata:Q1218	Иерусалим
+N25	Reference T64 Wikidata:Q138775	пограничные войска
+N26	Reference T65 Wikidata:Q166603	Федерация скаутов Израиля
+N28	Reference T73 Wikidata:Q219060	Государство Палестина
+N23	Reference T58 Wikidata:Q384593	
+N27	Reference T69 Wikidata:Q35323	арабы
+N7	Reference T25 Wikidata:NULL	нет данных
+N8	Reference T28 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:NULL	нет данных
+N10	Reference T30 Wikidata:NULL	нет данных
+N12	Reference T35 Wikidata:NULL	нет данных
+N29	Reference T43 Wikidata:NULL	нет данных
+N30	Reference T57 Wikidata:NULL	нет данных
+N17	Reference T44 Wikidata:NULL	нет данных
+N21	Reference T54 Wikidata:Q60723791	
+N31	Reference T51 Wikidata:Q193163	Храмовая гора
+N32	Reference T12 Wikidata:Q193163	Храмовая гора
+N33	Reference T47 Wikidata:Q193163	Храмовая гора
+N34	Reference T42 Wikidata:Q193163	Храмовая гора
+N35	Reference T18 Wikidata:Q193163	Храмовая гора
+N36	Reference T6 Wikidata:Q193163	Храмовая гора
+N37	Reference T45 Wikidata:Q193163	Храмовая гора
+N38	Reference T36 Wikidata:Q38799	ХАМАС
+N39	Reference T52 Wikidata:Q801	Израиль
+N40	Reference T2 Wikidata:Q1218	Иерусалим
+N41	Reference T63 Wikidata:Q384593	
+N42	Reference T59 Wikidata:Q384593	
+R47	PLACE_RESIDES_IN Arg1:T69 Arg2:T21	
+T74	RELIGION 1291 1301	Исламского
+R48	RELIGION_OF Arg1:T39 Arg2:T74	

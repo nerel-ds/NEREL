@@ -1,0 +1,60 @@
+T2	COUNTRY 23 29	России
+T4	COUNTRY 93 99	России
+T6	ORGANIZATION 160 183	Областное правительство
+T7	ORGANIZATION 185 215	областная федерация профсоюзов
+T8	ORGANIZATION 218 256	Союз промышленников и предпринимателей
+T9	NUMBER 267 280	трехстороннее
+T12	STATE_OR_PROVINCE 326 346	Свердловской области
+T13	DATE 349 370	С 1 октября 2007 года
+T15	MONEY 407 419	2,9 тыс. руб
+T16	MONEY 425 442	на 600 руб больше
+T17	DATE 467 485	С 1 июля 2008 года
+T18	MONEY 499 514	до 3,1 тыс. руб
+T19	DATE 518 534	с 1 октября 2008
+T20	MONEY 537 552	до 3,5 тыс. руб
+T22	ORGANIZATION 568 592	областного правительства
+T23	PERSON 593 608	Виктор Кокшаров
+T24	LAW 719 753	О минимальном размере оплаты труда
+T25	DATE 772 794	с 1 сентября 2007 года
+T27	MONEY 842 854	2,3 тыс. руб
+T29	COUNTRY 895 897	РФ
+T30	PERSON 977 985	Кокшаров
+T32	ORDINAL 1185 1191	первым
+T33	COUNTRY 1201 1207	России
+T39	DATE 1370 1385	29 августа 2007
+T40	STATE_OR_PROVINCE 1415 1435	Свердловская область
+T1	LAW 293 346	О минимальной заработной плате в Свердловской области
+T3	PROFESSION 555 592	Председатель областного правительства
+T5	LOCATION 1167 1179	Средний Урал
+R1	HEADQUARTERED_IN Arg1:T6 Arg2:T12	
+R2	HEADQUARTERED_IN Arg1:T7 Arg2:T12	
+R3	HEADQUARTERED_IN Arg1:T8 Arg2:T12	
+R4	WORKPLACE Arg1:T3 Arg2:T22	
+R5	WORKS_AS Arg1:T23 Arg2:T3	
+R6	WORKPLACE Arg1:T23 Arg2:T22	
+R7	LOCATED_IN Arg1:T5 Arg2:T33	
+R8	ORIGINS_FROM Arg1:T1 Arg2:T12	
+R9	LOCATED_IN Arg1:T12 Arg2:T4	
+T10	EVENT 257 291	подписали трехстороннее соглашение
+R10	AGENT Arg1:T8 Arg2:T10	
+R11	AGENT Arg1:T7 Arg2:T10	
+R12	AGENT Arg1:T6 Arg2:T10	
+R13	INANIMATE_INVOLVED Arg1:T1 Arg2:T10	
+R14	ABBREVIATION Arg1:T33 Arg2:T29	
+R15	ALTERNATIVE_NAME Arg1:T23 Arg2:T30	
+N3	Reference T8 Wikidata:Q1969986	Российский союз промышленников и предпринимателей
+N6	Reference T29 Wikidata:Q159	Россия
+N8	Reference T1 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:Q5462	Свердловская область
+N2	Reference T7 Wikidata:NULL	нет данных
+N1	Reference T6 Wikidata:NULL	нет данных
+N9	Reference T3 Wikidata:NULL	нет данных
+N5	Reference T24 Wikidata:NULL	нет данных
+N10	Reference T5 Wikidata:Q1921255	
+N7	Reference T30 Wikidata:Q4227514	
+N11	Reference T4 Wikidata:Q159	Россия
+N12	Reference T2 Wikidata:Q159	Россия
+N13	Reference T33 Wikidata:Q159	Россия
+N14	Reference T40 Wikidata:Q5462	Свердловская область
+N15	Reference T22 Wikidata:NULL	нет данных
+N16	Reference T23 Wikidata:Q4227514	

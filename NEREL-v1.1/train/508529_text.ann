@@ -1,0 +1,203 @@
+T2	COUNTRY 42 47	Китаю
+T3	COUNTRY 82 88	Китаем
+T4	LOCATION 104 124	Южно-Китайского моря
+T6	PROFESSION 158 173	премьер-министр
+T7	PERSON 174 190	Махатхир Мохамад
+T8	DATE 209 220	27 сентября
+T9	CITY 287 293	Пекина
+T10	PROFESSION 296 305	Президент
+T11	PERSON 315 330	Родриго Дутерте
+T12	PROFESSION 333 348	премьер-министр
+T13	PERSON 358 374	Махатхир Мохамад
+T14	DATE 376 384	2018 год
+T15	ORGANIZATION 394 403	BenarNews
+T16	AGE 421 431	94-летнего
+T17	CITY 443 452	Нью-Йорке
+T18	ORGANIZATION 464 489	Генеральной Ассамблеи ООН
+T19	PERSON 506 513	Мохамад
+T21	DATE 562 573	в 2018 году
+T22	ORGANIZATION 621 636	Пакатан Харапан
+T23	ORGANIZATION 640 654	Альянс надежды
+T24	COUNTRY 659 668	Китайские
+T25	COUNTRY 707 715	Малайзии
+T27	LOCATION 737 756	Южно-Китайском море
+T28	PERSON 789 796	Мохамад
+T29	COUNTRY 908 916	Малайзия
+T30	DISTRICT 956 965	Синьцзяне
+T31	COUNTRY 1020 1025	Китай
+T32	PROFESSION 1087 1094	премьер
+T33	PERSON 1105 1112	Мохамад
+T34	COUNTRY 1130 1137	Израиля
+T35	COUNTRY 1155 1164	Палестины
+T36	COUNTRY 1186 1195	Бангладеш
+T37	COUNTRY 1199 1205	Мьянмы
+T38	COUNTRY 1228 1237	Малайские
+T39	COUNTRY 1271 1277	Китаем
+T40	DATE 1278 1306	в течение последних 2000 лет
+T41	COUNTRY 1477 1485	Малайзия
+T42	COUNTRY 1497 1502	Китай
+T43	PERSON 1555 1562	Мохамад
+T44	COUNTRY 1565 1570	Китай
+T45	LOCATION 1605 1624	Южно-Китайское море
+T46	COUNTRY 1756 1763	Вьетнам
+T47	COUNTRY 1765 1774	Филиппины
+T48	COUNTRY 1776 1782	Бруней
+T49	COUNTRY 1785 1792	Тайвань
+T50	COUNTRY 1811 1816	Китая
+T51	COUNTRY 1827 1830	США
+T52	COUNTRY 1890 1895	Китай
+T53	NUMBER 1909 1920	около 1 млн
+T55	CITY 1970 1975	Пекин
+T56	COUNTRY 2051 2063	малайзийский
+T57	PROFESSION 2064 2088	министр по делам религии
+T58	PERSON 2089 2107	Муджахид Юсуф Рава
+T59	DISTRICT 2118 2127	Синьцзяне
+T60	COUNTRY 2178 2183	Китай
+T61	COUNTRY 2257 2265	Малайзии
+T62	COUNTRY 6 14	Малайзии
+T63	PROFESSION 0 14	Глава Малайзии
+T64	COUNTRY 48 56	Малайзия
+T65	NATIONALITY 127 136	уйгурских
+T5	RELIGION 137 146	мусульман
+T67	PROFESSION 230 249	глава правительства
+R1	WORKS_AS Arg1:T7 Arg2:T6	
+T68	COUNTRY 306 314	Филиппин
+T69	PROFESSION 296 314	Президент Филиппин
+T70	COUNTRY 349 357	Малайзии
+T71	PROFESSION 333 357	премьер-министр Малайзии
+T73	DATE 490 504	на этой неделе
+T74	PROFESSION 519 532	главой страны
+T75	RELIGION 535 548	мусульманским
+T76	EVENT 591 598	выборах
+T78	LOCATION 728 734	Борнео
+T79	LOCATION 716 734	к северу от Борнео
+T80	RELIGION 1145 1154	мусульман
+T81	RELIGION 1206 1215	мусульман
+T82	NATIONALITY 1216 1224	рохинджа
+T54	RELIGION 1921 1930	мусульман
+T84	NATIONALITY 1931 1938	уйгуров
+T85	PROFESSION 2064 2071	министр
+R2	WORKS_AS Arg1:T58 Arg2:T26	
+R3	WORKS_AS Arg1:T19 Arg2:T74	
+R5	WORKS_AS Arg1:T11 Arg2:T69	
+R6	WORKS_AS Arg1:T13 Arg2:T71	
+R7	WORKPLACE Arg1:T11 Arg2:T68	
+R8	WORKPLACE Arg1:T13 Arg2:T70	
+T86	ORGANIZATION 486 489	ООН
+R9	AGE_IS Arg1:T7 Arg2:T16	
+T87	PROFESSION 432 440	политика
+R10	AGE_IS Arg1:T87 Arg2:T16	
+R4	POINT_IN_TIME Arg1:T76 Arg2:T21	
+R11	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R12	PARTICIPANT_IN Arg1:T22 Arg2:T76	
+R13	WORKPLACE Arg1:T58 Arg2:T56	
+R14	HEADQUARTERED_IN Arg1:T86 Arg2:T17	
+R15	LOCATED_IN Arg1:T79 Arg2:T27	
+R16	ORIGINS_FROM Arg1:T5 Arg2:T65	
+R17	WORKPLACE Arg1:T7 Arg2:T64	
+R18	WORKPLACE Arg1:T63 Arg2:T62	
+R19	WORKS_AS Arg1:T7 Arg2:T67	
+R20	WORKPLACE Arg1:T69 Arg2:T68	
+R21	WORKPLACE Arg1:T71 Arg2:T70	
+R22	WORKS_AS Arg1:T13 Arg2:T87	
+T1	EVENT 410 418	интервью
+R23	ORGANIZES Arg1:T15 Arg2:T1	
+R24	PARTICIPANT_IN Arg1:T13 Arg2:T1	
+R25	PARTICIPANT_IN Arg1:T87 Arg2:T1	
+R26	TAKES_PLACE_IN Arg1:T1 Arg2:T17	
+R27	POINT_IN_TIME Arg1:T1 Arg2:T73	
+R28	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R29	LOCATED_IN Arg1:T30 Arg2:T31	
+R30	WORKS_AS Arg1:T28 Arg2:T32	
+R31	ORIGINS_FROM Arg1:T82 Arg2:T37	
+R32	ORIGINS_FROM Arg1:T81 Arg2:T37	
+R33	ORIGINS_FROM Arg1:T80 Arg2:T35	
+R34	ALTERNATIVE_NAME Arg1:T38 Arg2:T41	
+R36	RELIGION_OF Arg1:T25 Arg2:T75	
+T20	ORGANIZATION 464 485	Генеральной Ассамблеи
+R37	PART_OF Arg1:T18 Arg2:T86	
+T26	PROFESSION 2051 2088	малайзийский министр по делам религии
+T66	COUNTRY 109 119	Китайского
+R35	LOCATED_IN Arg1:T9 Arg2:T3	
+R38	WORKPLACE Arg1:T32 Arg2:T29	
+R39	ORIGINS_FROM Arg1:T81 Arg2:T82	
+R40	ORIGINS_FROM Arg1:T54 Arg2:T84	
+R41	LOCATED_IN Arg1:T55 Arg2:T52	
+T72	EVENT 2108 2115	посетил
+R42	AGENT Arg1:T58 Arg2:T72	
+R43	TAKES_PLACE_IN Arg1:T72 Arg2:T59	
+R44	LOCATED_IN Arg1:T59 Arg2:T52	
+R45	ALTERNATIVE_NAME Arg1:T56 Arg2:T41	
+N1	Reference T6 Wikidata:Q14212	премьер-министр
+N2	Reference T9 Wikidata:Q956	Пекин
+N3	Reference T10 Wikidata:Q30461	президент
+N4	Reference T11 Wikidata:Q457786	Родриго Роа Дутерте
+N5	Reference T17 Wikidata:Q60	Нью-Йорк
+N6	Reference T18 Wikidata:Q47423	Генеральная Ассамблея ООН
+N9	Reference T27 Wikidata:Q37660	Южно-Китайское море
+N10	Reference T29 Wikidata:Q833	Малайзия
+N11	Reference T30 Wikidata:Q34800	Синьцзян-Уйгурский автономный район
+N12	Reference T32 Wikidata:Q14212	премьер-министр
+N13	Reference T34 Wikidata:Q801	Израиль
+N14	Reference T35 Wikidata:Q23792	Палестина
+N15	Reference T36 Wikidata:Q902	Бангладеш
+N16	Reference T37 Wikidata:Q836	Мьянма
+N17	Reference T46 Wikidata:Q881	Вьетнам
+N18	Reference T47 Wikidata:Q928	Филиппины
+N19	Reference T48 Wikidata:Q921	Бруней
+N20	Reference T49 Wikidata:Q22502	Тайвань
+N21	Reference T51 Wikidata:Q30	США
+N22	Reference T52 Wikidata:Q148	Китайская Народная Республика
+N27	Reference T5 Wikidata:Q47740	мусульманин
+N28	Reference T67 Wikidata:Q2285706	глава правительства
+N30	Reference T71 Wikidata:Q862559	премьер-министров Малайзии
+N33	Reference T78 Wikidata:Q36117	Калимантан
+N35	Reference T82 Wikidata:Q464529	Рохинджа
+N36	Reference T84 Wikidata:Q46118	уйгуры
+N37	Reference T85 Wikidata:Q83307	министр
+N38	Reference T86 Wikidata:Q1065	Организация Объединённых Наций
+N39	Reference T87 Wikidata:Q82955	политик
+N26	Reference T65 Wikidata:Q46118	уйгуры
+N29	Reference T68 Wikidata:Q928	Филиппины
+N42	Reference T69 Wikidata:Q1209571	
+N43	Reference T15 Wikidata:NULL	нет данных
+N40	Reference T20 Wikidata:NULL	нет данных
+N7	Reference T19 Wikidata:Q181383	
+N31	Reference T74 Wikidata:NULL	нет данных
+N32	Reference T75 Wikidata:Q47740	мусульманин
+N8	Reference T22 Wikidata:Q21004257	
+N34	Reference T79 Wikidata:NULL	нет данных
+N24	Reference T58 Wikidata:Q6933305	
+N44	Reference T56 Wikidata:Q833	Малайзия
+N23	Reference T57 Wikidata:Q59344329	
+N41	Reference T26 Wikidata:NULL	нет данных
+N25	Reference T63 Wikidata:NULL	нет данных
+N45	Reference T12 Wikidata:Q14212	премьер-министр
+N46	Reference T55 Wikidata:Q956	Пекин
+N47	Reference T45 Wikidata:Q37660	Южно-Китайское море
+N48	Reference T4 Wikidata:Q37660	Южно-Китайское море
+N49	Reference T70 Wikidata:Q833	Малайзия
+N50	Reference T25 Wikidata:Q833	Малайзия
+N51	Reference T62 Wikidata:Q833	Малайзия
+N52	Reference T61 Wikidata:Q833	Малайзия
+N53	Reference T41 Wikidata:Q833	Малайзия
+N54	Reference T64 Wikidata:Q833	Малайзия
+N55	Reference T38 Wikidata:Q833	Малайзия
+N56	Reference T59 Wikidata:Q34800	Синьцзян-Уйгурский автономный район
+N57	Reference T31 Wikidata:Q148	Китайская Народная Республика
+N58	Reference T44 Wikidata:Q148	Китайская Народная Республика
+N59	Reference T60 Wikidata:Q148	Китайская Народная Республика
+N60	Reference T42 Wikidata:Q148	Китайская Народная Республика
+N61	Reference T50 Wikidata:Q148	Китайская Народная Республика
+N62	Reference T3 Wikidata:Q148	Китайская Народная Республика
+N63	Reference T2 Wikidata:Q148	Китайская Народная Республика
+N64	Reference T39 Wikidata:Q148	Китайская Народная Республика
+N65	Reference T80 Wikidata:Q47740	мусульманин
+N66	Reference T81 Wikidata:Q47740	мусульманин
+N67	Reference T54 Wikidata:Q47740	мусульманин
+N68	Reference T43 Wikidata:Q181383	
+N69	Reference T13 Wikidata:Q181383	
+N70	Reference T33 Wikidata:Q181383	
+N71	Reference T7 Wikidata:Q181383	
+N72	Reference T28 Wikidata:Q181383	
+N73	Reference T23 Wikidata:Q21004257	

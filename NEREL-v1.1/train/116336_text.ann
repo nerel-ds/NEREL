@@ -1,0 +1,159 @@
+T1	PERSON 0 5	Трамп
+T2	PROFESSION 16 26	астронавта
+T3	PERSON 27 39	Пегги Уитсон
+T4	PERSON 85 97	Пегги Уитсон
+T5	PROFESSION 98 107	Президент
+T6	PERSON 112 125	Дональд Трамп
+T7	PROFESSION 154 164	астронавту
+T8	PERSON 165 177	Пегги Уитсон
+T9	DATE 200 234	в понедельник, 24 апреля 2017 года
+T10	DATE 300 307	534 дня
+T11	COUNTRY 328 340	американский
+T12	PERSON 359 374	Дональда Трампа
+T13	PERSON 388 394	Иванки
+T14	PERSON 397 409	Пегги Уитсон
+T15	DATE 448 475	Пятьсот тридцать четыре дня
+T17	PERSON 510 515	Трамп
+T18	FACILITY 528 545	Овальном кабинете
+T19	AGE 656 665	57-летняя
+T20	COUNTRY 706 718	американских
+T21	DATE 769 779	в сентябре
+T22	DATE 820 828	666 дней
+T23	PERSON 882 894	Пегги Уитсон
+T24	TIME 1027 1044	53 часа 22 минуты
+T25	ORDINAL 1047 1053	первая
+T26	PROFESSION 1064 1080	командир экипажа
+T27	PERSON 1186 1198	Пегги Уитсон
+T28	COUNTRY 1270 1282	американский
+T29	PERSON 1293 1298	Фишер
+T30	NATIONALITY 1300 1307	француз
+T31	NATIONALITY 1316 1324	россияне
+T32	PERSON 1336 1343	Юрчихин
+T33	COUNTRY 1426 1436	российский
+T34	PERSON 1447 1463	Геннадий Падалка
+T35	DATE 1466 1474	878 дней
+T36	NUMBER 1524 1526	60
+T37	NUMBER 1542 1544	45
+T38	NATIONALITY 1554 1564	американки
+T39	PERSON 1578 1597	Валентина Терешкова
+T40	FACILITY 1623 1630	Салют-7
+T41	PERSON 1643 1660	Светлана Савицкая
+T42	ORDINAL 1670 1676	первой
+T43	COUNTRY 1716 1726	российских
+T44	PERSON 1763 1778	Елена Кондакова
+T45	DATE 1780 1784	1994
+T46	DATE 1786 1790	1997
+T47	PERSON 1794 1806	Елена Серова
+T48	NUMBER 853 856	три
+T49	EVENT 42 84	установлением рекорда пребывания в космосе
+T50	COUNTRY 108 111	США
+T51	PROFESSION 98 111	Президент США
+T52	FACILITY 194 197	МКС
+T53	EVENT 6 15	поздравил
+T54	EVENT 138 151	поздравлением
+T55	PROFESSION 341 350	астронавт
+T16	FACILITY 546 557	Белого дома
+T57	PERSON 666 672	Уитсон
+T58	PROFESSION 719 730	астронавтов
+T59	PROFESSION 1283 1292	астронавт
+T60	PERSON 1308 1313	Песке
+T61	PERSON 1325 1333	Новицкий
+T62	PROFESSION 1437 1446	космонавт
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	AGENT Arg1:T1 Arg2:T53	
+R3	PARTICIPANT_IN Arg1:T3 Arg2:T53	
+R4	WORKPLACE Arg1:T51 Arg2:T50	
+R5	WORKS_AS Arg1:T6 Arg2:T51	
+R6	WORKPLACE Arg1:T6 Arg2:T50	
+R7	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R8	AGENT Arg1:T6 Arg2:T54	
+R9	WORKS_AS Arg1:T8 Arg2:T7	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T54	
+R11	LOCATED_IN Arg1:T8 Arg2:T52	
+R12	ORIGINS_FROM Arg1:T55 Arg2:T11	
+R13	ORIGINS_FROM Arg1:T8 Arg2:T11	
+R14	ALTERNATIVE_NAME Arg1:T50 Arg2:T11	
+R15	PARENT_OF Arg1:T12 Arg2:T13	
+T63	EVENT 352 358	Беседа
+R16	AGENT Arg1:T12 Arg2:T63	
+R17	AGENT Arg1:T13 Arg2:T63	
+R18	AGENT Arg1:T14 Arg2:T63	
+R19	LOCATED_IN Arg1:T17 Arg2:T18	
+R20	PART_OF Arg1:T18 Arg2:T16	
+R21	AGE_IS Arg1:T57 Arg2:T19	
+R22	WORKS_AS Arg1:T57 Arg2:T58	
+R23	ORIGINS_FROM Arg1:T58 Arg2:T20	
+R24	ORIGINS_FROM Arg1:T57 Arg2:T20	
+R25	WORKS_AS Arg1:T23 Arg2:T26	
+R26	PARTICIPANT_IN Arg1:T3 Arg2:T49	
+T56	EVENT 236 276	установившей рекорд пребывания в космосе
+R27	PARTICIPANT_IN Arg1:T8 Arg2:T56	
+R28	ALTERNATIVE_NAME Arg1:T49 Arg2:T56	
+R29	POINT_IN_TIME Arg1:T56 Arg2:T9	
+R30	ORIGINS_FROM Arg1:T61 Arg2:T31	
+R31	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R32	ORIGINS_FROM Arg1:T60 Arg2:T30	
+R33	WORKS_AS Arg1:T29 Arg2:T59	
+R34	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R35	SUBORDINATE_OF Arg1:T29 Arg2:T27	
+R36	SUBORDINATE_OF Arg1:T60 Arg2:T27	
+R37	SUBORDINATE_OF Arg1:T61 Arg2:T27	
+R38	SUBORDINATE_OF Arg1:T32 Arg2:T27	
+R39	KNOWS Arg1:T29 Arg2:T60	
+R40	KNOWS Arg1:T29 Arg2:T61	
+R41	KNOWS Arg1:T29 Arg2:T32	
+R42	KNOWS Arg1:T60 Arg2:T61	
+R43	KNOWS Arg1:T60 Arg2:T32	
+R44	KNOWS Arg1:T61 Arg2:T32	
+R45	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R46	WORKS_AS Arg1:T34 Arg2:T62	
+R47	WORKS_AS Arg1:T39 Arg2:T62	
+R48	WORKS_AS Arg1:T41 Arg2:T62	
+R49	ORIGINS_FROM Arg1:T44 Arg2:T43	
+R50	ORIGINS_FROM Arg1:T47 Arg2:T43	
+R51	WORKS_AS Arg1:T44 Arg2:T62	
+R52	WORKS_AS Arg1:T47 Arg2:T62	
+R53	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+N1	Reference T5 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q22686	Дональд Трамп
+N3	Reference T11 Wikidata:Q16641	Американское Самоа
+N4	Reference T13 Wikidata:Q239411	Иванка Трамп
+N5	Reference T17 Wikidata:Q22686	Дональд Трамп
+N6	Reference T18 Wikidata:Q338067	Овальный кабинет
+N7	Reference T26 Wikidata:Q18758193	Экипаж
+N8	Reference T27 Wikidata:Q235523	Уитсон, Пегги
+N9	Reference T29 Wikidata:Q3157177	Фишер, Джек Дэвид
+N10	Reference T30 Wikidata:Q121842	французы
+N11	Reference T31 Wikidata:Q492468	россияне
+N12	Reference T32 Wikidata:Q347977	Фёдор Николаевич Юрчихин
+N13	Reference T34 Wikidata:Q362998	Геннадий Иванович Падалка
+N14	Reference T38 Wikidata:Q4064171	Американка
+N15	Reference T39 Wikidata:Q44371	Валентина Владимировна Терешкова
+N16	Reference T40 Wikidata:Q904503	Салют-7
+N17	Reference T41 Wikidata:Q152318	Светлана Евгеньевна Савицкая
+N18	Reference T43 Wikidata:Q2428799	Российская
+N19	Reference T44 Wikidata:Q255764	Елена Владимировна Кондакова
+N20	Reference T47 Wikidata:Q3492123	Елена Олеговна Серова
+N21	Reference T51 Wikidata:Q11696	президент США
+N22	Reference T52 Wikidata:Q25271	Международная космическая станция
+N23	Reference T16 Wikidata:Q35525	Белый дом
+N24	Reference T57 Wikidata:Q156942	Чарльз Уитстон
+N25	Reference T59 Wikidata:Q11631	космонавт
+N26	Reference T60 Wikidata:Q512266	Песке, Тома
+N27	Reference T61 Wikidata:Q963226	Олег Викторович Новицкий
+N28	Reference T62 Wikidata:Q11631	космонавт
+N29	Reference T12 Wikidata:Q22686	Дональд Трамп
+N30	Reference T50 Wikidata:Q16641	Американское Самоа
+N31	Reference T28 Wikidata:Q16641	Американское Самоа
+N32	Reference T20 Wikidata:Q16641	Американское Самоа
+N33	Reference T1 Wikidata:Q22686	Дональд Трамп
+N34	Reference T8 Wikidata:Q235523	Уитсон, Пегги
+N35	Reference T23 Wikidata:Q235523	Уитсон, Пегги
+N36	Reference T14 Wikidata:Q235523	Уитсон, Пегги
+N37	Reference T4 Wikidata:Q235523	Уитсон, Пегги
+N38	Reference T3 Wikidata:Q235523	Уитсон, Пегги
+N39	Reference T33 Wikidata:Q2428799	Российская
+N40	Reference T55 Wikidata:Q11631	космонавт
+N41	Reference T7 Wikidata:Q11631	космонавт
+N42	Reference T58 Wikidata:Q11631	космонавт
+N43	Reference T2 Wikidata:Q11631	космонавт

@@ -1,0 +1,142 @@
+T1	ORGANIZATION 40 48	AlphaBay
+T2	ORGANIZATION 81 89	AlphaBay
+T3	ORGANIZATION 135 143	AlphaBay
+T4	NUMBER 218 222	трех
+T5	DATE 252 268	5 июля 2017 года
+T6	DATE 283 287	день
+T7	ORGANIZATION 297 305	AlphaBay
+T8	ORGANIZATION 432 451	Wall Street Journal
+T9	COUNTRY 582 591	канадские
+T10	ORGANIZATION 638 664	Королевской конной полиции
+T11	NUMBER 673 676	два
+T12	CITY 694 706	Труа-Ривьере
+T13	STATE_OR_PROVINCE 718 724	Квебек
+T14	NUMBER 732 736	один
+T15	CITY 762 770	Монреале
+T16	NUMBER 905 909	трех
+T17	CITY 926 934	Бангкоке
+T18	COUNTRY 936 943	Таиланд
+T19	AGE 981 990	26-летний
+T20	PERSON 999 1014	Александр Казес
+T21	PERSON 1016 1031	Alexander Cazes
+T22	NUMBER 1068 1074	четыре
+T23	PRODUCT 1088 1099	Lamborghini
+T24	PERSON 1130 1136	Казеса
+T25	COUNTRY 1194 1197	США
+T26	COUNTRY 1253 1256	США
+T27	COUNTRY 1259 1268	Таиландом
+T28	COUNTRY 1304 1316	американские
+T29	DATE 1357 1374	12 июля 2017 года
+T30	NATIONALITY 1463 1470	канадец
+T31	ORGANIZATION 1489 1497	AlphaBay
+T32	ORGANIZATION 1593 1599	Reddit
+T33	PERSON 1603 1608	Казес
+T34	PROFESSION 1617 1650	администратором торговой площадки
+T35	ORGANIZATION 1682 1689	DeSnake
+T36	ORGANIZATION 1694 1702	AlphaBay
+T37	DATE 1802 1821	в декабре 2014 года
+T38	DATE 1824 1841	в марте 2015 года
+T39	ORGANIZATION 1873 1882	Evolution
+T40	ORGANIZATION 1948 1956	AlphaBay
+T41	NUMBER 1973 1989	порядка 400 тыс.
+T42	PROFESSION 1511 1522	поставщиком
+T43	PROFESSION 1528 1549	администратором сайта
+T44	PERSON 1375 1380	Казес
+T45	EVENT 1381 1398	найден повешенным
+T46	LAW 1280 1302	договор об экстрадиции
+T47	CRIME 1213 1235	контрабанде наркотиков
+T48	PROFESSION 850 887	сотрудники правоохранительных органов
+T49	NATIONALITY 991 998	канадец
+T51	PROFESSION 627 664	сотрудники Королевской конной полиции
+T52	ORGANIZATION 1103 1118	Местная полиция
+T53	EVENT 168 175	обысков
+T54	EVENT 230 236	Обыски
+T55	EVENT 677 683	обыска
+T56	PROFESSION 60 72	полицейскими
+R1	POINT_IN_TIME Arg1:T54 Arg2:T5	
+R2	WORKPLACE Arg1:T51 Arg2:T10	
+R3	AGENT Arg1:T10 Arg2:T55	
+R4	TAKES_PLACE_IN Arg1:T55 Arg2:T12	
+R5	LOCATED_IN Arg1:T12 Arg2:T13	
+R6	TAKES_PLACE_IN Arg1:T55 Arg2:T15	
+T57	EVENT 896 902	обыски
+R7	LOCATED_IN Arg1:T17 Arg2:T18	
+R8	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R9	AGENT Arg1:T48 Arg2:T57	
+R10	TAKES_PLACE_IN Arg1:T57 Arg2:T17	
+R11	AGE_IS Arg1:T20 Arg2:T19	
+R12	ORIGINS_FROM Arg1:T20 Arg2:T49	
+T50	EVENT 1044 1057	наложен арест
+R13	CONVICTED_OF Arg1:T24 Arg2:T47	
+T58	EVENT 1119 1129	арестовала
+R14	AGENT Arg1:T52 Arg2:T58	
+R15	PARTICIPANT_IN Arg1:T24 Arg2:T58	
+R16	ORGANIZES Arg1:T25 Arg2:T58	
+R17	ALTERNATIVE_NAME Arg1:T26 Arg2:T28	
+T59	ORGANIZATION 1304 1323	американские власти
+R18	HEADQUARTERED_IN Arg1:T59 Arg2:T28	
+T60	LAW 1150 1180	международного ордера на арест
+R19	PRODUCES Arg1:T25 Arg2:T60	
+R20	HAS_CAUSE Arg1:T58 Arg2:T60	
+R21	PRODUCES Arg1:T26 Arg2:T46	
+R22	PRODUCES Arg1:T27 Arg2:T46	
+R23	ALTERNATIVE_NAME Arg1:T33 Arg2:T35	
+R24	WORKS_AS Arg1:T33 Arg2:T34	
+R25	WORKPLACE Arg1:T34 Arg2:T31	
+R26	WORKPLACE Arg1:T33 Arg2:T31	
+R27	DATE_FOUNDED_IN Arg1:T36 Arg2:T37	
+R28	POINT_IN_TIME Arg1:T45 Arg2:T29	
+R29	PARTICIPANT_IN Arg1:T44 Arg2:T45	
+T61	EVENT 146 154	отключён
+R30	PARTICIPANT_IN Arg1:T3 Arg2:T61	
+R31	HAS_CAUSE Arg1:T61 Arg2:T53	
+R32	DATE_DEFUNCT_IN Arg1:T7 Arg2:T5	
+R33	PARTICIPANT_IN Arg1:T3 Arg2:T53	
+R34	PARTICIPANT_IN Arg1:T7 Arg2:T54	
+R35	AGE_IS Arg1:T49 Arg2:T19	
+R36	AGENT Arg1:T56 Arg2:T53	
+R37	AGENT Arg1:T56 Arg2:T61	
+T62	FACILITY 432 443	Wall Street
+R38	INANIMATE_INVOLVED Arg1:T23 Arg2:T50	
+R39	AGENT Arg1:T48 Arg2:T50	
+N2	Reference T8 Wikidata:Q164746	The Wall Street Journal
+N3	Reference T9 Wikidata:Q16	Канада
+N4	Reference T10 Wikidata:Q335175	Королевская канадская конная полиция
+N5	Reference T12 Wikidata:Q44012	Труа-Ривьер
+N6	Reference T13 Wikidata:Q176	Квебек
+N7	Reference T15 Wikidata:Q340	Монреаль
+N8	Reference T17 Wikidata:Q1861	Бангкок
+N9	Reference T18 Wikidata:Q869	Таиланд
+N13	Reference T32 Wikidata:Q1136	reddit
+N15	Reference T42 Wikidata:Q1762621	Поставщик
+N18	Reference T49 Wikidata:Q1196645	канадцы
+N24	Reference T62 Wikidata:Q2611956	Уолл-стрит
+N1	Reference T1 Wikidata:Q19891977	
+N21	Reference T56 Wikidata:Q384593	
+N19	Reference T51 Wikidata:NULL	нет данных
+N25	Reference T48 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N11	Reference T23 Wikidata:Q35886	Ламборгини
+N20	Reference T52 Wikidata:NULL	нет данных
+N26	Reference T24 Wikidata:NULL	нет данных
+N23	Reference T60 Wikidata:NULL	нет данных
+N17	Reference T46 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q30	США
+N22	Reference T59 Wikidata:NULL	нет данных
+N16	Reference T43 Wikidata:NULL	нет данных
+N27	Reference T34 Wikidata:NULL	нет данных
+N28	Reference T35 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:NULL	нет данных
+N29	Reference T27 Wikidata:Q869	Таиланд
+N30	Reference T30 Wikidata:Q1196645	канадцы
+N31	Reference T40 Wikidata:Q19891977	
+N32	Reference T31 Wikidata:Q19891977	
+N33	Reference T7 Wikidata:Q19891977	
+N34	Reference T3 Wikidata:Q19891977	
+N35	Reference T36 Wikidata:Q19891977	
+N36	Reference T2 Wikidata:Q19891977	
+N37	Reference T20 Wikidata:NULL	нет данных
+N38	Reference T33 Wikidata:NULL	нет данных
+N39	Reference T44 Wikidata:NULL	нет данных
+N40	Reference T25 Wikidata:Q30	США
+N41	Reference T26 Wikidata:Q30	США

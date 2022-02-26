@@ -1,0 +1,102 @@
+T1	PERSON 0 5	Путин
+T2	COUNTRY 37 43	России
+T3	ORGANIZATION 47 77	Международного уголовного суда
+T5	CITY 97 102	Гааге
+T6	PROFESSION 103 112	Президент
+T7	COUNTRY 113 119	России
+T8	PERSON 120 134	Владимир Путин
+T9	LAW 194 210	Римского статута
+T10	ORGANIZATION 211 241	Международного уголовного суда
+T16	ORGANIZATION 478 485	Минюста
+T17	ORGANIZATION 514 517	МИД
+T18	ORGANIZATION 560 575	Верховным судом
+T19	ORGANIZATION 577 592	Генпрокуратурой
+T20	ORGANIZATION 595 597	СК
+T21	PROFESSION 600 622	Генеральному секретарю
+T22	ORGANIZATION 623 626	ООН
+T23	COUNTRY 662 668	России
+T24	LAW 690 706	Римского статута
+T25	ORGANIZATION 707 737	Международного уголовного суда
+T26	EVENT 749 804	Дипломатической конференцией полномочных представителей
+T27	ORGANIZATION 816 819	ООН
+T28	CITY 822 826	Риме
+T29	DATE 858 886	в среду, 16 ноября 2016 года
+T30	ORGANIZATION 914 917	МИД
+T31	COUNTRY 918 924	России
+T32	ORGANIZATION 1210 1231	Генеральная ассамблея
+T33	ORGANIZATION 1234 1252	Совет Безопасности
+T34	ORGANIZATION 1253 1256	ООН
+T35	DATE 1363 1372	за 14 лет
+T36	ORGANIZATION 1380 1383	МУС
+T37	NUMBER 1396 1402	четыре
+T38	MONEY 1439 1464	более 1 млрд долларов США
+R1	WORKS_AS Arg1:T8 Arg2:T4
+T4	PROFESSION 103 119	Президент России
+T11	PROFESSION 600 626	Генеральному секретарю ООН
+T12	ORGANIZATION 914 924	МИД России
+T13	ORGANIZATION 1234 1256	Совет Безопасности ООН
+T14	FACILITY 79 102	Резиденция суда в Гааге
+R2	LOCATED_IN Arg1:T14 Arg2:T5	
+R6	WORKPLACE Arg1:T8 Arg2:T7	
+R7	HEADQUARTERED_IN Arg1:T3 Arg2:T5	
+R9	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+R10	WORKPLACE Arg1:T4 Arg2:T7	
+T39	PROFESSION 427 444	глава государства
+R12	WORKPLACE Arg1:T11 Arg2:T22	
+R13	ORGANIZES Arg1:T27 Arg2:T26	
+R14	TAKES_PLACE_IN Arg1:T26 Arg2:T28	
+R4	HEADQUARTERED_IN Arg1:T12 Arg2:T31	
+T40	COUNTRY 1461 1464	США
+R15	ABBREVIATION Arg1:T25 Arg2:T36	
+T15	EVENT 6 27	подписал распоряжение
+R3	AGENT Arg1:T1 Arg2:T15	
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T15	
+R8	PRODUCES Arg1:T10 Arg2:T9	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T39	
+R16	PRODUCES Arg1:T25 Arg2:T24	
+T41	CITY 690 698	Римского
+T42	CITY 194 202	Римского
+R17	PART_OF Arg1:T13 Arg2:T34	
+R18	PART_OF Arg1:T32 Arg2:T34	
+T43	EVENT 30 43	выходе России
+R19	HAS_CAUSE Arg1:T15 Arg2:T43	
+R20	AGENT Arg1:T2 Arg2:T43	
+T44	EVENT 135 156	подписал распоряжение
+R21	PARTICIPANT_IN Arg1:T8 Arg2:T44	
+R22	EXPENDITURE Arg1:T36 Arg2:T38	
+N1	Reference T5 Wikidata:Q7265921	Галагах
+N2	Reference T8 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T10 Wikidata:Q47488	Международный уголовный суд
+N4	Reference T16 Wikidata:Q264356	Министерство юстиции Российской Федерации
+N5	Reference T18 Wikidata:Q190752	верховный суд
+N6	Reference T19 Wikidata:Q2387440	Прокуратура Российской Федерации
+N7	Reference T20 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N8	Reference T21 Wikidata:Q6501749	генеральный секретарь
+N9	Reference T22 Wikidata:Q1065	Организация Объединённых Наций
+N11	Reference T28 Wikidata:Q220	Рим
+N13	Reference T31 Wikidata:Q159	Россия
+N14	Reference T32 Wikidata:Q47423	Генеральная Ассамблея ООН
+N15	Reference T33 Wikidata:Q37470	Совет Безопасности ООН
+N16	Reference T4 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T11 Wikidata:Q81066	генеральный секретарь ООН
+N18	Reference T12 Wikidata:Q789889	Министерство иностранных дел Российской Федерации
+N19	Reference T13 Wikidata:Q37470	Совет Безопасности ООН
+N21	Reference T39 Wikidata:Q48352	глава государства
+N22	Reference T40 Wikidata:Q30	США
+N20	Reference T14 Wikidata:NULL	нет данных
+N23	Reference T42 Wikidata:Q220	Рим
+N10	Reference T24 Wikidata:Q838958	Римский статут Международного уголовного суда
+N12	Reference T30 Wikidata:Q20901295	Министерство иностранных дел
+N24	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N25	Reference T36 Wikidata:Q47488	Международный уголовный суд
+N26	Reference T25 Wikidata:Q47488	Международный уголовный суд
+N27	Reference T3 Wikidata:Q47488	Международный уголовный суд
+N28	Reference T34 Wikidata:Q1065	Организация Объединённых Наций
+N29	Reference T27 Wikidata:Q1065	Организация Объединённых Наций
+N30	Reference T7 Wikidata:Q159	Россия
+N31	Reference T2 Wikidata:Q159	Россия
+N32	Reference T23 Wikidata:Q159	Россия
+N33	Reference T6 Wikidata:Q48352	глава государства
+N34	Reference T41 Wikidata:Q220	Рим
+N35	Reference T9 Wikidata:Q838958	Римский статут Международного уголовного суда
+N36	Reference T17 Wikidata:Q20901295	Министерство иностранных дел

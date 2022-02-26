@@ -1,0 +1,54 @@
+T1	PERSON 0 7	Манделу
+T2	PERSON 47 59	Джейкоб Зума
+T3	PERSON 92 108	Нельсона Манделы
+T4	PROFESSION 169 179	президента
+T5	PERSON 195 202	Мандела
+T6	CITY 231 239	Претории
+T7	AGE 281 290	95-летний
+T8	PERSON 291 298	Мандела
+T9	DATE 320 336	8 июня 2013 года
+T12	DATE 439 450	прошлый год
+T13	COUNTRY 21 36	Южноафриканский
+T14	PROFESSION 37 46	президент
+T15	PROFESSION 21 46	Южноафриканский президент
+T16	DISEASE 350 375	рецидив легочной инфекции
+T17	PROFESSION 386 399	президент ЮАР
+T18	PROFESSION 386 395	президент
+T19	COUNTRY 396 399	ЮАР
+T20	AWARD 410 433	Нобелевской премии мира
+T21	AWARD 410 428	Нобелевской премии
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R2	WORKPLACE Arg1:T15 Arg2:T13	
+R3	WORKPLACE Arg1:T2 Arg2:T13	
+R4	LOCATED_IN Arg1:T6 Arg2:T13	
+T22	DISEASE 240 278	в критическом, но стабильном состоянии
+R5	MEDICAL_CONDITION Arg1:T5 Arg2:T22	
+R7	AGE_IS Arg1:T8 Arg2:T7	
+T23	EVENT 303 319	госпитализирован
+R8	PARTICIPANT_IN Arg1:T8 Arg2:T23	
+R9	POINT_IN_TIME Arg1:T23 Arg2:T9	
+R10	MEDICAL_CONDITION Arg1:T8 Arg2:T16	
+R11	WORKPLACE Arg1:T17 Arg2:T19	
+R12	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R13	WORKS_AS Arg1:T8 Arg2:T17	
+R14	AWARDED_WITH Arg1:T8 Arg2:T20	
+R6	HAS_CAUSE Arg1:T23 Arg2:T16	
+R15	LOCATED_IN Arg1:T5 Arg2:T6	
+T10	PERSON 410 421	Нобелевской
+R16	PRODUCES Arg1:T10 Arg2:T21	
+N1	Reference T1 Wikidata:Q8023	Нельсон Мандела
+N2	Reference T2 Wikidata:Q57282	Джейкоб Зума
+N3	Reference T5 Wikidata:Q8023	Нельсон Мандела
+N4	Reference T6 Wikidata:Q3926	Претория
+N5	Reference T17 Wikidata:Q273884	президент Южно-Африканской республики
+N6	Reference T18 Wikidata:Q30461	президент
+N7	Reference T19 Wikidata:Q258	ЮАР
+N8	Reference T20 Wikidata:Q35637	Нобелевская премия мира
+N9	Reference T21 Wikidata:Q7191	Нобелевская премия
+N11	Reference T15 Wikidata:Q273884	президент Южно-Африканской республики
+N10	Reference T10 Wikidata:Q23810	Альфред Нобель
+N12	Reference T3 Wikidata:Q8023	Нельсон Мандела
+N13	Reference T8 Wikidata:Q8023	Нельсон Мандела
+N14	Reference T14 Wikidata:Q30461	президент
+N15	Reference T4 Wikidata:Q30461	президент
+N16	Reference T13 Wikidata:Q258	ЮАР

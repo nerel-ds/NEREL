@@ -1,0 +1,67 @@
+T1	PERSON 11 23	Нэнси Рейган
+T2	PERSON 63 68	Нэнси
+T3	PERSON 71 88	Рональда Рейганов
+T5	CITY 140 153	Лос-Анджелесе
+T6	AGE 165 172	94 года
+T8	PERSON 232 250	Нэнси Дэвис Рейган
+T9	PERSON 283 299	Рональда Рейгана
+T10	PERSON 321 326	Нэнси
+T11	FACILITY 371 382	Белого дома
+T12	PERSON 395 409	Рональд Рейган
+T13	DATE 415 426	в 2004 году
+T14	PROFESSION 495 509	президента США
+T15	ORGANIZATION 549 590	Президентской библиотеки Рональда Рейгана
+T16	STATE_OR_PROVINCE 593 603	Калифорнии
+T17	DATE 90 107	21 июня 1985 года
+T18	DATE 108 136	В субботу, 6 марта 2016 года
+T19	DISEASE 176 201	сердечной недостаточности
+T20	COUNTRY 228 231	США
+T21	PROFESSION 216 231	первая леди США
+T7	DATE 300 319	с 1981 по 1989 годы
+T22	DISEASE 458 478	болезнью Альцгеймера
+T23	COUNTRY 506 509	США
+T24	PERSON 574 590	Рональда Рейгана
+T25	EVENT 0 10	Скончалась
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T25	
+R2	SPOUSE Arg1:T2 Arg2:T3	
+T26	EVENT 202 208	умерла
+R3	ORIGINS_FROM Arg1:T8 Arg2:T20	
+R4	PARTICIPANT_IN Arg1:T8 Arg2:T26	
+R5	CAUSE_OF_DEATH Arg1:T8 Arg2:T19	
+R6	AGE_DIED_AT Arg1:T8 Arg2:T6	
+R7	DATE_OF_DEATH Arg1:T8 Arg2:T18	
+R8	WORKPLACE Arg1:T8 Arg2:T5	
+R9	TAKES_PLACE_IN Arg1:T26 Arg2:T5	
+R10	POINT_IN_TIME Arg1:T26 Arg2:T18	
+R12	SPOUSE Arg1:T9 Arg2:T10	
+R13	DATE_OF_DEATH Arg1:T12 Arg2:T13	
+R14	CAUSE_OF_DEATH Arg1:T12 Arg2:T22	
+R15	HEADQUARTERED_IN Arg1:T15 Arg2:T16	
+R11	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R16	WORKS_AS Arg1:T8 Arg2:T21	
+R17	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R18	PLACE_RESIDES_IN Arg1:T10 Arg2:T11	
+T27	PROFESSION 495 505	президента
+R19	LOCATED_IN Arg1:T16 Arg2:T23	
+N1	Reference T1 Wikidata:Q193426	Нэнси Рейган
+N2	Reference T5 Wikidata:Q65	Лос-Анджелес
+N3	Reference T10 Wikidata:Q193426	Нэнси Рейган
+N4	Reference T11 Wikidata:Q35525	Белый дом
+N5	Reference T12 Wikidata:Q9960	Рональд Рейган
+N6	Reference T14 Wikidata:Q11696	президент США
+N7	Reference T15 Wikidata:Q1432360	Президентская библиотека Рональда Рейгана
+N8	Reference T16 Wikidata:Q99	Калифорния
+N9	Reference T21 Wikidata:Q7166256	первая леди США
+N10	Reference T23 Wikidata:Q30	США
+N11	Reference T27 Wikidata:Q30461	президент
+N12	Reference T2 Wikidata:Q193426	Нэнси Рейган
+N13	Reference T8 Wikidata:Q193426	Нэнси Рейган
+N14	Reference T3 Wikidata:Q9960	Рональд Рейган
+N15	Reference T9 Wikidata:Q9960	Рональд Рейган
+N16	Reference T24 Wikidata:Q9960	Рональд Рейган
+N17	Reference T20 Wikidata:Q30	США
+T4	EVENT 410 414	умер
+R20	AGENT Arg1:T12 Arg2:T4	
+R21	POINT_IN_TIME Arg1:T4 Arg2:T13	
+R22	HAS_CAUSE Arg1:T4 Arg2:T22	
+R23	WORKPLACE Arg1:T21 Arg2:T20	

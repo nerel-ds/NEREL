@@ -1,0 +1,113 @@
+T1	PERSON 0 19	Рустам Ибрагимбеков
+T2	COUNTRY 33 44	российского
+T3	PERSON 57 76	Рустам Ибрагимбеков
+T5	PROFESSION 139 148	драматург
+T6	PERSON 149 168	Рустам Ибрагимбеков
+T7	COUNTRY 182 193	российского
+T8	PERSON 253 266	Ибрагимбекова
+T9	COUNTRY 341 352	российского
+T10	PROFESSION 364 386	кандидата в президенты
+T11	COUNTRY 415 427	Азербайджана
+T12	PROFESSION 438 447	драматург
+T13	COUNTRY 476 482	России
+T14	COUNTRY 525 537	Азербайджана
+T15	COUNTRY 587 599	Азербайджане
+T16	PROFESSION 604 614	президенты
+T17	ORGANIZATION 646 684	Национальный совет демократических сил
+T19	COUNTRY 806 818	Азербайджана
+T20	AGE 852 861	74-летний
+T21	PERSON 862 881	Рустам Ибрагимбеков
+T22	WORK_OF_ART 987 1007	Белое солнце пустыни
+T23	COUNTRY 1033 1045	Азербайджане
+T26	PERSON 1109 1121	Ильхам Алиев
+T27	ORDINAL 1158 1164	третий
+T28	LAW 1235 1246	Конституцию
+T30	PERSON 1285 1290	Алиев
+T31	PERCENT 1323 1327	89 %
+T32	PROFESSION 77 111	Кандидат в президенты Азербайджана
+T33	COUNTRY 99 111	Азербайджана
+T34	PROFESSION 88 111	президенты Азербайджана
+T35	PROFESSION 376 386	президенты
+T36	PROFESSION 88 98	президенты
+T37	PERSON 615 628	Ибрагимбекова
+T38	COUNTRY 715 727	Азербайджана
+T39	IDEOLOGY 694 707	оппозиционных
+T40	IDEOLOGY 128 137	оппозиции
+T41	IDEOLOGY 822 835	авторитаризма
+T42	IDEOLOGY 838 848	демократии
+T43	EVENT 1024 1030	выборы
+T44	PROFESSION 1092 1108	глава республики
+T45	EVENT 1263 1270	выборах
+R1	WORKPLACE Arg1:T32 Arg2:T33	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T33	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+T46	PROFESSION 230 241	журналистам
+R4	IDEOLOGY_OF Arg1:T6 Arg2:T40	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+T47	EVENT 315 323	выборами
+R6	PARTICIPANT_IN Arg1:T8 Arg2:T47	
+T48	EVENT 20 56	отказался от российского гражданства
+R7	AGENT Arg1:T1 Arg2:T48	
+T49	EVENT 169 205	отказался от российского гражданства
+R8	AGENT Arg1:T6 Arg2:T49	
+R9	HAS_CAUSE Arg1:T49 Arg2:T47	
+T18	ORGANIZATION 687 727	альянс оппозиционных партий Азербайджана
+R10	IDEOLOGY_OF Arg1:T18 Arg2:T39	
+R11	HEADQUARTERED_IN Arg1:T18 Arg2:T38	
+R12	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+T50	IDEOLOGY 665 680	демократических
+R13	IDEOLOGY_OF Arg1:T17 Arg2:T50	
+R14	MEMBER_OF Arg1:T37 Arg2:T17	
+R15	AGE_IS Arg1:T21 Arg2:T20	
+T24	DATE 1060 1078	на осень 2013 года
+T52	EVENT 1010 1030	Президентские выборы
+T53	PROFESSION 1010 1023	Президентские
+R16	PARTICIPANT_IN Arg1:T53 Arg2:T52	
+R17	TAKES_PLACE_IN Arg1:T52 Arg2:T23	
+R18	POINT_IN_TIME Arg1:T52 Arg2:T24	
+R19	WORKS_AS Arg1:T26 Arg2:T44	
+R20	ALTERNATIVE_NAME Arg1:T26 Arg2:T30	
+T29	DATE 1272 1283	в 2008 году
+R21	POINT_IN_TIME Arg1:T45 Arg2:T29	
+R22	PARTICIPANT_IN Arg1:T30 Arg2:T45	
+R23	ALTERNATIVE_NAME Arg1:T16 Arg2:T53	
+R24	ALTERNATIVE_NAME Arg1:T50 Arg2:T42	
+R25	PRODUCES Arg1:T21 Arg2:T22	
+R26	TAKES_PLACE_IN Arg1:T47 Arg2:T33	
+R27	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R28	PLACE_RESIDES_IN Arg1:T6 Arg2:T13	
+R29	TAKES_PLACE_IN Arg1:T45 Arg2:T23	
+N1	Reference T1 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N2	Reference T5 Wikidata:Q214917	драматург
+N4	Reference T13 Wikidata:Q159	Россия
+N5	Reference T16 Wikidata:Q30461	президент
+N6	Reference T19 Wikidata:Q227	Азербайджан
+N7	Reference T22 Wikidata:Q2306068	Белое солнце пустыни
+N8	Reference T26 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N9	Reference T28 Wikidata:Q7755	конституция
+N11	Reference T34 Wikidata:Q205602	президент Азербайджана
+N13	Reference T46 Wikidata:Q1930187	журналист
+N10	Reference T32 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N14	Reference T18 Wikidata:NULL	нет данных
+N12	Reference T44 Wikidata:Q205602	президент Азербайджана
+N15	Reference T8 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N16	Reference T3 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N17	Reference T6 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N18	Reference T37 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N19	Reference T21 Wikidata:Q1601636	Рустам Мамед Ибрагим оглы Ибрагимбеков
+N20	Reference T12 Wikidata:Q214917	драматург
+N21	Reference T7 Wikidata:Q159	Россия
+N22	Reference T9 Wikidata:Q159	Россия
+N23	Reference T36 Wikidata:Q30461	президент
+N24	Reference T35 Wikidata:Q30461	президент
+N25	Reference T53 Wikidata:Q30461	президент
+N26	Reference T38 Wikidata:Q227	Азербайджан
+N27	Reference T23 Wikidata:Q227	Азербайджан
+N28	Reference T15 Wikidata:Q227	Азербайджан
+N29	Reference T14 Wikidata:Q227	Азербайджан
+N30	Reference T33 Wikidata:Q227	Азербайджан
+N31	Reference T11 Wikidata:Q227	Азербайджан
+N32	Reference T2 Wikidata:Q227	Азербайджан
+N33	Reference T30 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N34	Reference T17 Wikidata:NULL	нет данных

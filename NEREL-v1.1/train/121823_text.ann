@@ -1,0 +1,100 @@
+T1	ORGANIZATION 0 12	Роскомнадзор
+T2	ORGANIZATION 23 31	Telegram
+T4	ORGANIZATION 87 95	Telegram
+T7	COUNTRY 146 152	России
+T8	PROFESSION 276 291	пресс-секретарь
+T9	ORGANIZATION 292 305	Роскомнадзора
+T10	PERSON 306 323	Вадим Ампелонский
+T11	DATE 327 344	28 июня 2017 года
+T14	PERSON 463 474	Павел Дуров
+T15	ORGANIZATION 499 512	Роскомнадзору
+T17	PERSON 591 608	Александра Жарова
+T18	COUNTRY 711 717	России
+T19	COUNTRY 777 787	российской
+T20	PERSON 809 815	Яровой
+T21	NUMBER 842 846	двух
+T22	ORGANIZATION 889 896	Госдуму
+T23	COUNTRY 897 899	РФ
+T24	PROFESSION 900 909	депутатом
+T25	ORGANIZATION 914 927	Единой России
+T26	PERSON 929 942	Ириной Яровой
+T27	PROFESSION 945 954	сенатором
+T28	PERSON 955 972	Виктором Озеровым
+T30	COUNTRY 1023 1033	российских
+T31	LAW 1069 1097	О противодействии терроризму
+T32	DATE 1138 1156	с 1 июля 2018 года
+T33	DATE 1157 1175	в течение трех лет
+T34	DATE 1374 1397	в течение шести месяцев
+R6	WORKPLACE Arg1:T26 Arg2:T25
+T3	LAW 71 84	закона Яровой
+T35	PERSON 78 84	Яровой
+T36	PROFESSION 276 305	пресс-секретарь Роскомнадзора
+T37	LAW 179 192	закона Яровой
+T38	PERSON 186 192	Яровой
+T5	PRODUCT 99 112	Windows Phone
+T12	ORGANIZATION 354 362	Telegram
+T6	ORGANIZATION 133 141	Telegram
+T39	LAW 803 815	Закон Яровой
+T40	ORGANIZATION 889 899	Госдуму РФ
+T29	DATE 973 988	в минувшем году
+T41	EVENT 369 385	включен в реестр
+R1	PRODUCES Arg1:T35 Arg2:T3	
+R2	PRODUCES Arg1:T38 Arg2:T37	
+R4	WORKPLACE Arg1:T36 Arg2:T9	
+R3	WORKPLACE Arg1:T10 Arg2:T9	
+R7	WORKS_AS Arg1:T10 Arg2:T36	
+R8	PARTICIPANT_IN Arg1:T12 Arg2:T41	
+R9	POINT_IN_TIME Arg1:T41 Arg2:T11	
+T16	PERSON 626 633	Дуровым
+R10	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R11	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R12	PRODUCES Arg1:T20 Arg2:T39	
+R13	MEMBER_OF Arg1:T24 Arg2:T25	
+R14	WORKS_AS Arg1:T26 Arg2:T24	
+R15	WORKPLACE Arg1:T26 Arg2:T40	
+R16	HEADQUARTERED_IN Arg1:T40 Arg2:T23	
+R17	WORKPLACE Arg1:T26 Arg2:T23	
+R18	ALTERNATIVE_NAME Arg1:T19 Arg2:T23	
+T44	EVENT 877 899	внесенных в Госдуму РФ
+R19	PARTICIPANT_IN Arg1:T22 Arg2:T44	
+R20	PARTICIPANT_IN Arg1:T26 Arg2:T44	
+R21	PARTICIPANT_IN Arg1:T28 Arg2:T44	
+R22	POINT_IN_TIME Arg1:T44 Arg2:T29	
+R23	WORKS_AS Arg1:T28 Arg2:T27	
+R5	FOUNDED_BY Arg1:T12 Arg2:T14	
+R24	HEADQUARTERED_IN Arg1:T1 Arg2:T7	
+R25	ABBREVIATION Arg1:T18 Arg2:T23	
+R26	ORIGINS_FROM Arg1:T31 Arg2:T30	
+N2	Reference T15 Wikidata:Q129597	Роскомнадзор
+N5	Reference T22 Wikidata:Q715641	Государственная дума
+N6	Reference T24 Wikidata:Q486839	член парламента
+N7	Reference T25 Wikidata:Q151469	Единая Россия
+N8	Reference T26 Wikidata:Q4538691	Ирина Яровая
+N10	Reference T28 Wikidata:Q19311626	Виктор Алексеевич Озеров
+N14	Reference T37 Wikidata:Q25819517	Закон Яровой
+N15	Reference T5 Wikidata:Q4885200	Windows Phone
+N16	Reference T12 Wikidata:Q15616276	Telegram
+N17	Reference T40 Wikidata:Q715641	Государственная дума
+N18	Reference T16 Wikidata:Q149067	Павел Дуров
+N19	Reference T8 Wikidata:Q17221	
+N13	Reference T36 Wikidata:NULL	нет данных
+N1	Reference T10 Wikidata:Q19507102	
+N3	Reference T17 Wikidata:Q11756298	Александр Жаров
+N4	Reference T20 Wikidata:Q4538691	Ирина Яровая
+N12	Reference T31 Wikidata:NULL	нет данных
+N11	Reference T30 Wikidata:Q159	Россия
+N9	Reference T27 Wikidata:Q15686806	
+N20	Reference T9 Wikidata:Q129597	Роскомнадзор
+N21	Reference T1 Wikidata:Q129597	Роскомнадзор
+N22	Reference T39 Wikidata:Q25819517	Закон Яровой
+N23	Reference T3 Wikidata:Q25819517	Закон Яровой
+N24	Reference T4 Wikidata:Q15616276	Telegram
+N25	Reference T6 Wikidata:Q15616276	Telegram
+N26	Reference T2 Wikidata:Q15616276	Telegram
+N27	Reference T14 Wikidata:Q149067	Павел Дуров
+N28	Reference T38 Wikidata:Q4538691	Ирина Яровая
+N29	Reference T35 Wikidata:Q4538691	Ирина Яровая
+N30	Reference T23 Wikidata:Q159	Россия
+N31	Reference T19 Wikidata:Q159	Россия
+N32	Reference T7 Wikidata:Q159	Россия
+N33	Reference T18 Wikidata:Q159	Россия

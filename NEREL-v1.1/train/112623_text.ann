@@ -1,0 +1,36 @@
+T1	ORGANIZATION 0 12	Роскомнадзор
+T2	ORGANIZATION 95 107	Роскомнадзор
+T3	ORGANIZATION 125 131	Google
+T4	ORGANIZATION 133 139	Яндекс
+T5	ORGANIZATION 141 148	Рамблер
+T6	ORGANIZATION 151 158	Mail.Ru
+T7	DATE 185 208	до 21 февраля 2017 года
+T12	ORGANIZATION 376 388	Роскомнадзор
+T13	DATE 449 462	до 21 февраля
+T14	DATE 573 593	10 февраля 2017 года
+T16	NUMBER 714 719	1 млн
+T17	DATE 734 741	в сутки
+T18	ORGANIZATION 780 792	Роскомнадзор
+T19	COUNTRY 1023 1034	российского
+T20	ORGANIZATION 1115 1128	Роскомнадзора
+T21	DATE 1131 1149	1 января 2017 года
+T22	LAW 1189 1252	Об информации, информационных технологиях и о защите информации
+T23	LAW 1258 1262	КоАП
+T24	ORGANIZATION 1449 1462	Роскомнадзора
+T25	DATE 1464 1493	до конца марта нынешнего года
+T8	EVENT 1150 1178	вступили в действие поправки
+R1	DATE_FOUNDED_IN Arg1:T8 Arg2:T21	
+R2	INANIMATE_INVOLVED Arg1:T22 Arg2:T8	
+N1	Reference T1 Wikidata:Q129597	Роскомнадзор
+N2	Reference T3 Wikidata:Q95	Google
+N3	Reference T4 Wikidata:Q5281	Яндекс
+N4	Reference T5 Wikidata:Q1758666	Рамблер
+N5	Reference T6 Wikidata:Q42232	Mail.Ru
+N6	Reference T19 Wikidata:Q159	Россия
+N8	Reference T23 Wikidata:Q4226151	
+N7	Reference T22 Wikidata:Q4481770	
+N9	Reference T20 Wikidata:Q129597	Роскомнадзор
+N10	Reference T12 Wikidata:Q129597	Роскомнадзор
+N11	Reference T24 Wikidata:Q129597	Роскомнадзор
+N12	Reference T18 Wikidata:Q129597	Роскомнадзор
+N13	Reference T2 Wikidata:Q129597	Роскомнадзор

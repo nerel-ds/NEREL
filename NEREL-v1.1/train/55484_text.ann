@@ -1,0 +1,108 @@
+T1	PERSON 0 7	Собянин
+T2	FACILITY 75 125	Московский драматический театр им. М. Н. Ермоловой
+T3	PROFESSION 126 129	Мэр
+T4	PERSON 137 151	Сергей Собянин
+T5	ORGANIZATION 204 255	Московском драматическом театре им. М. Н. Ермоловой
+T6	PROFESSION 267 302	главой департамента культуры Москвы
+T7	PERSON 303 319	Сергеем Капковым
+T8	PROFESSION 324 359	художественным руководителем театра
+T9	PERSON 360 378	Олегом Меньшиковым
+T10	PERSON 471 479	Собянина
+T11	AGE 523 533	90-летнему
+T12	DATE 560 569	2015 году
+T13	PERSON 572 586	Олег Меньшиков
+T14	PROFESSION 595 599	мэру
+T15	DATE 644 675	в конце октября — начале ноября
+T18	PROFESSION 860 887	художественный руководитель
+T20	DATE 928 939	в 2013 году
+T21	NUMBER 959 962	130
+T22	NUMBER 1112 1133	около 1500 кв. метров
+T26	WORK_OF_ART 1249 1266	Ромео и Джульетта
+T27	EVENT 25 45	открытии новой сцены
+T28	PERSON 59 74	Марии Ермоловой
+T29	ORGANIZATION 46 74	театра имени Марии Ермоловой
+T30	PERSON 110 125	М. Н. Ермоловой
+T31	CITY 130 136	Москвы
+T32	PROFESSION 126 136	Мэр Москвы
+T33	EVENT 181 201	открытии новой сцены
+T34	PERSON 240 255	М. Н. Ермоловой
+T35	ORGANIZATION 274 302	департамента культуры Москвы
+T36	CITY 296 302	Москвы
+T37	PROFESSION 324 352	художественным руководителем
+T38	PROFESSION 379 390	мэр столицы
+T39	PROFESSION 379 382	мэр
+T40	PROFESSION 450 459	артистами
+T41	EVENT 534 540	юбилею
+T42	EVENT 523 540	90-летнему юбилею
+T16	ORGANIZATION 815 827	Викиновостей
+T44	WORK_OF_ART 1209 1230	Театр Козьмы Пруткова
+T23	WORK_OF_ART 1234 1244	Адам и Ева
+T24	PERSON 1234 1238	Адам
+T25	PERSON 1241 1244	Ева
+T45	PERSON 1249 1254	Ромео
+T46	PERSON 1257 1266	Джульетта
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T27	
+R2	WORKS_AS Arg1:T4 Arg2:T32	
+R3	WORKPLACE Arg1:T4 Arg2:T31	
+R4	PARTICIPANT_IN Arg1:T4 Arg2:T33	
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	WORKPLACE Arg1:T7 Arg2:T35	
+R7	WORKS_AS Arg1:T9 Arg2:T8	
+R8	WORKPLACE Arg1:T9 Arg2:T5	
+R9	KNOWS Arg1:T13 Arg2:T14	
+R10	WORKS_AS Arg1:T10 Arg2:T14	
+R11	KNOWS Arg1:T10 Arg2:T13	
+R12	WORKS_AS Arg1:T13 Arg2:T18	
+R13	PRODUCES Arg1:T13 Arg2:T44	
+R14	PRODUCES Arg1:T13 Arg2:T23	
+R15	PRODUCES Arg1:T13 Arg2:T26	
+T19	CITY 75 85	Московский
+R16	LOCATED_IN Arg1:T2 Arg2:T19	
+R17	WORKPLACE Arg1:T32 Arg2:T31	
+R18	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R19	ORGANIZES Arg1:T29 Arg2:T27	
+R20	ORGANIZES Arg1:T5 Arg2:T33	
+T43	CITY 204 214	Московском
+R21	HEADQUARTERED_IN Arg1:T5 Arg2:T43	
+R22	WORKPLACE Arg1:T6 Arg2:T35	
+R23	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R24	ALTERNATIVE_NAME Arg1:T32 Arg2:T38	
+R25	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+T47	PERSON 1215 1230	Козьмы Пруткова
+R26	ALTERNATIVE_NAME Arg1:T31 Arg2:T43	
+N1	Reference T2 Wikidata:Q1970338	Московский драматический театр имени М. Н. Ермоловой
+N2	Reference T3 Wikidata:Q30185	мэр
+N3	Reference T5 Wikidata:Q1970338	Московский драматический театр имени М. Н. Ермоловой
+N5	Reference T7 Wikidata:Q4213035	Сергей Александрович Капков
+N6	Reference T10 Wikidata:Q319497	Сергей Семёнович Собянин
+N7	Reference T13 Wikidata:Q563895	Олег Евгеньевич Меньшиков
+N9	Reference T28 Wikidata:Q292599	Мария Николаевна Ермолова
+N10	Reference T29 Wikidata:Q1970338	Московский драматический театр имени М. Н. Ермоловой
+N11	Reference T30 Wikidata:Q292599	Мария Николаевна Ермолова
+N13	Reference T36 Wikidata:Q649	Москва
+N15	Reference T40 Wikidata:Q483501	деятель искусств
+N16	Reference T16 Wikidata:Q964	Викиновости
+N22	Reference T47 Wikidata:Q1784989	Козьма Прутков
+N12	Reference T35 Wikidata:Q4158546	
+N4	Reference T6 Wikidata:NULL	нет данных
+N23	Reference T8 Wikidata:NULL	нет данных
+N14	Reference T38 Wikidata:Q1837906	мэр Москвы
+N24	Reference T18 Wikidata:Q1797162	
+N17	Reference T44 Wikidata:NULL	нет данных
+N18	Reference T23 Wikidata:NULL	нет данных
+N25	Reference T24 Wikidata:Q347181	
+N19	Reference T25 Wikidata:Q829665	Ева / Эва
+N20	Reference T45 Wikidata:Q673361	
+N21	Reference T46 Wikidata:Q1092632	
+N8	Reference T26 Wikidata:Q83186	Ромео и Джульетта
+N26	Reference T39 Wikidata:Q30185	мэр
+N27	Reference T14 Wikidata:Q30185	мэр
+N28	Reference T4 Wikidata:Q319497	Сергей Семёнович Собянин
+N29	Reference T1 Wikidata:Q319497	Сергей Семёнович Собянин
+N30	Reference T9 Wikidata:Q563895	Олег Евгеньевич Меньшиков
+N31	Reference T34 Wikidata:Q292599	Мария Николаевна Ермолова
+N32	Reference T19 Wikidata:Q649	Москва
+N33	Reference T43 Wikidata:Q649	Москва
+N34	Reference T31 Wikidata:Q649	Москва
+N35	Reference T32 Wikidata:Q1837906	мэр Москвы
+N36	Reference T37 Wikidata:Q1797162	

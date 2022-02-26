@@ -1,0 +1,183 @@
+T1	PERSON 0 19	Сергей Постоловский
+T2	PROFESSION 29 54	и. о. министра транспорта
+T3	STATE_OR_PROVINCE 55 69	Пермского края
+T4	PERSON 94 108	Алмаза Закиева
+T5	CITY 126 133	Чусовой
+T6	STATE_OR_PROVINCE 136 149	Пермском крае
+T7	ORGANIZATION 151 183	Чусовской металлургический завод
+T8	PROFESSION 185 228	Исполняющим обязанности министра транспорта
+T9	STATE_OR_PROVINCE 229 243	Пермского края
+T10	DATE 244 266	с 27 октября 2016 года
+T11	PROFESSION 276 317	первый заместитель руководителя ведомства
+T12	PROFESSION 295 317	руководителя ведомства
+T13	PERSON 318 337	Сергей Постоловский
+T14	PROFESSION 366 398	председателем правительства Края
+T15	ORGANIZATION 380 398	правительства Края
+T16	PROFESSION 400 435	исполняющим обязанности губернатора
+T17	PROFESSION 442 455	глава региона
+T18	PERSON 467 489	Геннадием Тушнолобовым
+T19	PROFESSION 507 525	министр транспорта
+T20	STATE_OR_PROVINCE 526 540	Пермского края
+T21	PERSON 541 553	Алмаз Закиев
+T22	ORGANIZATION 580 584	УФСБ
+T23	STATE_OR_PROVINCE 588 602	Пермскому краю
+T24	PROFESSION 642 664	руководителя ведомства
+T25	ORGANIZATION 677 701	законодательном собрании
+T26	PERSON 716 722	Закиев
+T27	ORGANIZATION 735 757	экономическом комитете
+T28	PERSON 866 880	Алмаза Закиева
+T29	ORGANIZATION 904 907	ФСБ
+T30	LAW 940 962	ч. 2 ст. 285 УК России
+T31	LAW 953 962	УК России
+T32	COUNTRY 1059 1061	РФ
+T33	CITY 1242 1249	Чусовой
+T34	DATE 1252 1272	25 октября 2016 года
+T35	PERSON 1304 1311	Закиева
+T37	PROFESSION 1397 1406	чиновника
+T39	PERSON 1448 1456	Закиевым
+T40	STATE_OR_PROVINCE 1483 1500	Тюменской области
+T41	PERSON 1529 1544	Сергея Собянина
+T42	CITY 1547 1553	Москву
+T43	PROFESSION 1567 1571	мэра
+T45	ORGANIZATION 1604 1625	краевое правительство
+R1	WORKS_AS Arg1:T1 Arg2:T2
+R2	WORKS_AS Arg1:T13 Arg2:T11
+R3	WORKPLACE Arg1:T18 Arg2:T15
+R6	WORKS_AS Arg1:T41 Arg2:T43
+T46	EVENT 20 28	назначен
+R5	PARTICIPANT_IN Arg1:T1 Arg2:T46	
+R8	LOCATED_IN Arg1:T5 Arg2:T6	
+T47	PROFESSION 35 54	министра транспорта
+R9	WORKPLACE Arg1:T2 Arg2:T3	
+R10	WORKS_AS Arg1:T4 Arg2:T47	
+R11	WORKPLACE Arg1:T4 Arg2:T3	
+T48	PROFESSION 209 228	министра транспорта
+T38	STATE_OR_PROVINCE 1416 1429	Пермский край
+T36	ORGANIZATION 580 602	УФСБ по Пермскому краю
+T44	CRIME 619 628	коррупции
+T49	CITY 151 160	Чусовской
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T49	
+T50	EVENT 267 275	назначен
+R13	POINT_IN_TIME Arg1:T50 Arg2:T10	
+T51	CITY 1382 1390	Чусового
+R14	HEADQUARTERED_IN Arg1:T7 Arg2:T49	
+R16	PARTICIPANT_IN Arg1:T13 Arg2:T50	
+R17	WORKS_AS Arg1:T13 Arg2:T8	
+T52	PROFESSION 424 435	губернатора
+R4	WORKS_AS Arg1:T18 Arg2:T14	
+R18	ALTERNATIVE_NAME Arg1:T52 Arg2:T17	
+R19	WORKS_AS Arg1:T18 Arg2:T16	
+T53	PROFESSION 507 540	министр транспорта Пермского края
+T54	EVENT 558 577	доставлен на допрос
+R20	PARTICIPANT_IN Arg1:T36 Arg2:T54	
+R21	PARTICIPANT_IN Arg1:T21 Arg2:T54	
+R22	WORKS_AS Arg1:T21 Arg2:T53	
+R23	WORKPLACE Arg1:T21 Arg2:T20	
+R24	WORKPLACE Arg1:T53 Arg2:T20	
+T55	EVENT 631 641	Задержание
+R25	PARTICIPANT_IN Arg1:T36 Arg2:T55	
+R26	HEADQUARTERED_IN Arg1:T36 Arg2:T23	
+R28	TAKES_PLACE_IN Arg1:T55 Arg2:T25	
+R27	PARTICIPANT_IN Arg1:T26 Arg2:T55	
+R29	WORKS_AS Arg1:T26 Arg2:T24	
+T56	COUNTRY 956 962	России
+T57	CRIME 964 1061	Злоупотребление должностными полномочиями лицом, занимающим государственную должность субъекта РФ
+T58	CRIME 1089 1111	лоббировании интересов
+T59	PROFESSION 1273 1281	силовики
+T60	EVENT 1290 1296	обыски
+R30	AGENT Arg1:T59 Arg2:T60	
+R31	PARTICIPANT_IN Arg1:T35 Arg2:T60	
+R32	POINT_IN_TIME Arg1:T60 Arg2:T34	
+T61	FACILITY 1228 1249	обхода города Чусовой
+T62	FACILITY 1375 1390	обхода Чусового
+R33	ALTERNATIVE_NAME Arg1:T61 Arg2:T62	
+R34	WORKPLACE Arg1:T39 Arg2:T40	
+R35	KNOWS Arg1:T39 Arg2:T41	
+R36	WORKPLACE Arg1:T41 Arg2:T42	
+R37	WORKPLACE Arg1:T43 Arg2:T42	
+R38	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+T63	PROFESSION 185 243	Исполняющим обязанности министра транспорта Пермского края
+R12	WORKPLACE Arg1:T63 Arg2:T9	
+R15	WORKPLACE Arg1:T14 Arg2:T15	
+R39	ALTERNATIVE_NAME Arg1:T21 Arg2:T26	
+T64	PROFESSION 788 796	силовики
+T65	EVENT 908 933	возбуждено уголовное дело
+R40	PARTICIPANT_IN Arg1:T28 Arg2:T65	
+R41	PARTICIPANT_IN Arg1:T29 Arg2:T65	
+T66	ORDINAL 943 944	2
+T67	ORDINAL 949 952	285
+T68	LAW 953 955	УК
+R42	ORIGINS_FROM Arg1:T31 Arg2:T56	
+R43	ALTERNATIVE_NAME Arg1:T56 Arg2:T32	
+R44	CONVICTED_OF Arg1:T21 Arg2:T44	
+R45	HAS_CAUSE Arg1:T65 Arg2:T57	
+R46	CONVICTED_OF Arg1:T28 Arg2:T57	
+R47	CONVICTED_OF Arg1:T28 Arg2:T58	
+R48	SUBORDINATE_OF Arg1:T11 Arg2:T12	
+T69	PROFESSION 507 514	министр
+R49	PARTICIPANT_IN Arg1:T24 Arg2:T55	
+R50	PART_OF Arg1:T27 Arg2:T25	
+R51	PART_OF Arg1:T30 Arg2:T31	
+R52	WORKPLACE Arg1:T13 Arg2:T9	
+R53	HAS_CAUSE Arg1:T54 Arg2:T44	
+R54	HAS_CAUSE Arg1:T55 Arg2:T44	
+T70	EVENT 1338 1354	Изъяты документы
+R55	AGENT Arg1:T59 Arg2:T70	
+R56	PARTICIPANT_IN Arg1:T35 Arg2:T70	
+R57	HEADQUARTERED_IN Arg1:T45 Arg2:T38	
+N2	Reference T9 Wikidata:Q5400	Пермский край
+N8	Reference T18 Wikidata:Q28500707	Геннадий Петрович Тушнолобов
+N11	Reference T25 Wikidata:Q11204	орган законодательной власти
+N14	Reference T29 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N16	Reference T31 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N17	Reference T32 Wikidata:Q159	Россия
+N18	Reference T37 Wikidata:Q382887	чиновник
+N19	Reference T40 Wikidata:Q5824	Тюменская область
+N20	Reference T41 Wikidata:Q319497	Сергей Семёнович Собянин
+N21	Reference T42 Wikidata:Q649	Москва
+N22	Reference T43 Wikidata:Q30185	мэр
+N24	Reference T49 Wikidata:Q4518301	Чусовское
+N25	Reference T51 Wikidata:Q198143	Чусовой
+N31	Reference T69 Wikidata:Q83307	министр
+N32	Reference T47 Wikidata:Q12339722	
+N33	Reference T2 Wikidata:NULL	нет данных
+N1	Reference T7 Wikidata:Q4518305	
+N29	Reference T63 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:NULL	нет данных
+N34	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:Q132050	губернатор
+N26	Reference T53 Wikidata:NULL	нет данных
+N23	Reference T36 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T24 Wikidata:Q83307	министр
+N12	Reference T26 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:NULL	нет данных
+N15	Reference T30 Wikidata:NULL	нет данных
+N30	Reference T68 Wikidata:Q19705	уголовное законодательство
+N28	Reference T62 Wikidata:NULL	нет данных
+N27	Reference T59 Wikidata:Q1197144	
+N35	Reference T45 Wikidata:NULL	нет данных
+N36	Reference T20 Wikidata:Q5400	Пермский край
+N37	Reference T23 Wikidata:Q5400	Пермский край
+N38	Reference T38 Wikidata:Q5400	Пермский край
+N39	Reference T3 Wikidata:Q5400	Пермский край
+N40	Reference T6 Wikidata:Q5400	Пермский край
+N41	Reference T56 Wikidata:Q159	Россия
+N42	Reference T33 Wikidata:Q4518301	Чусовское
+N43	Reference T5 Wikidata:Q4518301	Чусовское
+N44	Reference T19 Wikidata:Q12339722	
+N45	Reference T48 Wikidata:Q12339722	
+N46	Reference T8 Wikidata:NULL	нет данных
+N47	Reference T1 Wikidata:NULL	нет данных
+N48	Reference T52 Wikidata:Q132050	губернатор
+N49	Reference T12 Wikidata:Q83307	министр
+N50	Reference T35 Wikidata:NULL	нет данных
+N51	Reference T4 Wikidata:NULL	нет данных
+N52	Reference T39 Wikidata:NULL	нет данных
+N53	Reference T28 Wikidata:NULL	нет данных
+N54	Reference T21 Wikidata:NULL	нет данных
+N55	Reference T61 Wikidata:NULL	нет данных
+N56	Reference T64 Wikidata:Q1197144	

@@ -1,0 +1,253 @@
+T1	PERSON 0 5	Трамп
+T2	PERSON 15 30	Джона Хантсмена
+T3	COUNTRY 40 46	России
+T4	PERSON 47 68	Джон Хантсман-младший
+T5	PERSON 122 146	Джона Хантсмана-младшего
+T6	COUNTRY 156 162	России
+T7	PERSON 174 186	Джона Теффта
+T8	COUNTRY 205 211	России
+T9	PERSON 245 266	Джон Хантсман-младший
+T10	PROFESSION 278 288	миллиардер
+T11	ORGANIZATION 365 371	Кремля
+T12	PROFESSION 394 399	посла
+T13	PROFESSION 409 429	губернатор штата Юта
+T14	PERSON 430 451	Джон Хантсмен-младший
+T15	ORDINAL 512 517	пятая
+T16	DATE 562 572	Во вторник
+T17	ORGANIZATION 573 582	Белый дом
+T18	PROFESSION 596 605	президент
+T19	PERSON 629 638	Хантсмена
+T20	PROFESSION 652 670	посла США в России
+T21	COUNTRY 664 670	России
+T22	PERSON 673 681	Хантсмен
+T23	DATE 690 708	26 марта 1960 года
+T24	PROFESSION 717 728	миллиардера
+T25	PERSON 729 753	Джона Хантсмена-старшего
+T27	ORGANIZATION 900 926	Пенсильванский университет
+T28	STATE_OR_PROVINCE 962 969	Тайване
+T29	ORGANIZATION 1050 1059	Белый дом
+T30	PROFESSION 1064 1074	президенте
+T31	AGE 1124 1130	35 лет
+T32	PROFESSION 1132 1141	президент
+T33	PERSON 1142 1160	Джордж Буш-старший
+T34	PROFESSION 1174 1192	послом в Сингапуре
+T35	COUNTRY 1183 1192	Сингапуре
+T36	PROFESSION 1213 1236	торговым представителем
+T37	DATE 1316 1327	В 2004 году
+T38	PROFESSION 1370 1381	губернатора
+T39	PERCENT 1578 1590	58 процентов
+T40	DATE 1601 1616	В мае 2009 года
+T41	PERSON 1648 1657	Хантсмена
+T42	PROFESSION 1671 1684	посла в Китае
+T43	DATE 1687 1698	В 2011 году
+T44	COUNTRY 1745 1748	США
+T45	PROFESSION 1827 1837	президента
+T46	ORGANIZATION 1845 1867	Республиканской партии
+T47	ORDINAL 1940 1948	третьего
+T48	EVENT 1971 1996	республиканских праймериз
+T49	STATE_OR_PROVINCE 1999 2011	Нью-Гэмпшире
+T50	PERSON 2025 2033	Хантсмен
+T51	DATE 2057 2075	В январе 2014 года
+T52	PERSON 2076 2084	Хантсмен
+T54	ORGANIZATION 2127 2146	Атлантический совет
+T55	PROFESSION 31 46	послом в России
+T56	EVENT 6 14	назначил
+T57	ORGANIZATION 69 98	Администрация Дональда Трампа
+T58	PERSON 83 98	Дональда Трампа
+T59	EVENT 111 121	назначение
+T60	PROFESSION 147 162	послом в России
+T61	DATE 221 242	с 1 августа 2014 года
+T62	DATE 212 220	три года
+T63	RELIGION 269 275	мормон
+T64	STATE_OR_PROVINCE 426 429	Юта
+T65	NUMBER 479 486	четырёх
+T66	PROFESSION 487 498	президентов
+T67	COUNTRY 499 502	США
+T68	PROFESSION 487 502	президентов США
+T69	DATE 2012 2023	в 2012 году
+T70	COUNTRY 1838 1841	США
+T71	PROFESSION 1827 1841	президента США
+T72	PERSON 1627 1638	Барак Обама
+T73	PROFESSION 1617 1626	президент
+T74	COUNTRY 1679 1684	Китае
+T75	PERSON 1699 1707	Хантсмен
+T76	STATE_OR_PROVINCE 1382 1385	Юты
+T77	PROFESSION 1370 1385	губернатора Юты
+T78	LAW 1406 1422	налоговый кодекс
+T79	PERSON 1075 1091	Рональде Рейгане
+T80	PERSON 1020 1028	Хантсмен
+T81	RELIGION 936 946	мормонским
+T82	RELIGION 1498 1506	мормонов
+T83	PERSON 1252 1272	Джордже Буше-младшем
+T84	FAMILY 1303 1313	Хантсменов
+T85	STATE_OR_PROVINCE 900 914	Пенсильванский
+T86	LANGUAGE 987 998	по-китайски
+T87	PROFESSION 936 958	мормонским миссионером
+T26	PERSON 606 619	Дональд Трамп
+T88	COUNTRY 658 661	США
+T89	EVENT 620 628	выдвинет
+T90	PROFESSION 1241 1251	президенте
+R1	RELIGION_OF Arg1:T9 Arg2:T63	
+T91	PROFESSION 409 419	губернатор
+R2	AGENT Arg1:T1 Arg2:T56	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T56	
+R4	WORKS_AS Arg1:T2 Arg2:T55	
+R5	WORKPLACE Arg1:T2 Arg2:T3	
+T92	PROFESSION 31 37	послом
+R6	WORKPLACE Arg1:T55 Arg2:T3	
+R7	FOUNDED_BY Arg1:T57 Arg2:T58	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T59	
+R9	WORKPLACE Arg1:T68 Arg2:T67	
+R10	WORKS_AS Arg1:T26 Arg2:T18	
+R11	WORKS_AS Arg1:T14 Arg2:T13	
+R12	WORKPLACE Arg1:T14 Arg2:T64	
+R13	WORKPLACE Arg1:T13 Arg2:T64	
+T93	PROFESSION 147 153	послом
+R14	WORKPLACE Arg1:T60 Arg2:T6	
+R15	WORKS_AS Arg1:T79 Arg2:T30	
+R16	WORKS_AS Arg1:T83 Arg2:T90	
+R17	WORKPLACE Arg1:T77 Arg2:T76	
+R18	WORKS_AS Arg1:T72 Arg2:T73	
+R19	WORKPLACE Arg1:T71 Arg2:T70	
+R20	WORKPLACE Arg1:T7 Arg2:T8	
+R21	WORKS_AS Arg1:T5 Arg2:T60	
+R22	WORKPLACE Arg1:T5 Arg2:T6	
+R23	WORKS_AS Arg1:T7 Arg2:T60	
+R24	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R25	ORIGINS_FROM Arg1:T20 Arg2:T88	
+T94	PROFESSION 652 657	посла
+R26	WORKPLACE Arg1:T20 Arg2:T21	
+R27	HEADQUARTERED_IN Arg1:T27 Arg2:T85	
+R28	WORKPLACE Arg1:T87 Arg2:T28	
+R29	PARENT_OF Arg1:T25 Arg2:T22	
+R30	SCHOOLS_ATTENDED Arg1:T22 Arg2:T27	
+R31	WORKS_AS Arg1:T22 Arg2:T87	
+R32	RELIGION_OF Arg1:T22 Arg2:T81	
+R33	ALTERNATIVE_NAME Arg1:T81 Arg2:T82	
+R34	MEMBER_OF Arg1:T75 Arg2:T46	
+T95	IDEOLOGY 1845 1860	Республиканской
+R35	IDEOLOGY_OF Arg1:T75 Arg2:T95	
+T96	PROFESSION 2090 2146	председателем аналитического центра «Атлантический совет
+R36	WORKPLACE Arg1:T96 Arg2:T54	
+R37	WORKS_AS Arg1:T52 Arg2:T96	
+R38	WORKPLACE Arg1:T52 Arg2:T54	
+R39	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R40	ALTERNATIVE_NAME Arg1:T56 Arg2:T59	
+R41	WORKPLACE Arg1:T26 Arg2:T67	
+R42	PARTICIPANT_IN Arg1:T19 Arg2:T89	
+R43	AGENT Arg1:T26 Arg2:T89	
+R44	SUBORDINATE_OF Arg1:T80 Arg2:T79	
+T53	PROFESSION 1174 1180	послом
+R45	WORKPLACE Arg1:T34 Arg2:T35	
+R46	WORKS_AS Arg1:T33 Arg2:T32	
+R47	WORKS_AS Arg1:T80 Arg2:T34	
+R48	WORKPLACE Arg1:T80 Arg2:T35	
+R49	WORKPLACE Arg1:T80 Arg2:T29	
+R50	AGE_IS Arg1:T80 Arg2:T31	
+R51	MEMBER_OF Arg1:T80 Arg2:T84	
+R52	WORKS_AS Arg1:T80 Arg2:T36	
+R53	WORKS_AS Arg1:T80 Arg2:T77	
+R54	WORKPLACE Arg1:T80 Arg2:T76	
+R55	ALTERNATIVE_NAME Arg1:T59 Arg2:T89	
+T97	EVENT 1639 1647	выдвинул
+R56	AGENT Arg1:T72 Arg2:T97	
+R57	PARTICIPANT_IN Arg1:T41 Arg2:T97	
+T98	PROFESSION 1671 1676	посла
+R58	WORKPLACE Arg1:T42 Arg2:T74	
+R59	WORKS_AS Arg1:T41 Arg2:T42	
+R60	WORKPLACE Arg1:T41 Arg2:T74	
+R61	POINT_IN_TIME Arg1:T97 Arg2:T40	
+R62	ORGANIZES Arg1:T46 Arg2:T48	
+R63	TAKES_PLACE_IN Arg1:T48 Arg2:T49	
+R64	POINT_IN_TIME Arg1:T48 Arg2:T69	
+R65	PARTICIPANT_IN Arg1:T75 Arg2:T48	
+R66	KNOWS Arg1:T22 Arg2:T86	
+T99	EVENT 1708 1725	покинул этот пост
+R67	AGENT Arg1:T75 Arg2:T99	
+R68	POINT_IN_TIME Arg1:T99 Arg2:T43	
+R69	WORKS_AS Arg1:T75 Arg2:T42	
+R70	PARTICIPANT_IN Arg1:T50 Arg2:T48	
+T100	EVENT 2085 2103	стал председателем
+R71	PARTICIPANT_IN Arg1:T52 Arg2:T100	
+R72	PARTICIPANT_IN Arg1:T54 Arg2:T100	
+R73	POINT_IN_TIME Arg1:T100 Arg2:T51	
+N1	Reference T1 Wikidata:Q22686	Дональд Трамп
+N2	Reference T5 Wikidata:Q11607	Джон Хантсман-младший
+N3	Reference T7 Wikidata:Q500486	Джон Теффт
+N4	Reference T9 Wikidata:Q11607	Джон Хантсман-младший
+N5	Reference T11 Wikidata:Q133274	Московский Кремль
+N7	Reference T14 Wikidata:Q11607	Джон Хантсман-младший
+N8	Reference T17 Wikidata:Q35525	Белый дом
+N9	Reference T20 Wikidata:Q1515730	посол США в России
+N10	Reference T21 Wikidata:Q159	Россия
+N12	Reference T25 Wikidata:Q11607	Джон Хантсман-младший
+N13	Reference T27 Wikidata:Q49117	Пенсильванский университет
+N14	Reference T28 Wikidata:Q22502	Тайвань
+N15	Reference T30 Wikidata:Q30461	президент
+N16	Reference T33 Wikidata:Q23505	Джордж Герберт Уокер Буш
+N17	Reference T35 Wikidata:Q334	Сингапур
+N19	Reference T46 Wikidata:Q29468	Республиканская партия
+N20	Reference T49 Wikidata:Q759	Нью-Гэмпшир
+N21	Reference T52 Wikidata:Q851361	Huntsman
+N22	Reference T54 Wikidata:Q756373	Атлантический Совет
+N24	Reference T64 Wikidata:Q829	Юта
+N25	Reference T67 Wikidata:Q30	США
+N26	Reference T68 Wikidata:Q11696	президент США
+N27	Reference T72 Wikidata:Q76	Барак Обама
+N28	Reference T74 Wikidata:Q148	Китайская Народная Республика
+N29	Reference T76 Wikidata:Q829	Юта
+N31	Reference T79 Wikidata:Q9960	Рональд Рейган
+N33	Reference T83 Wikidata:Q207	Джордж Уокер Буш
+N36	Reference T26 Wikidata:Q22686	Дональд Трамп
+N37	Reference T91 Wikidata:Q132050	губернатор
+N39	Reference T98 Wikidata:Q121998	посол
+N23	Reference T57 Wikidata:NULL	нет данных
+N40	Reference T60 Wikidata:Q1515730	посол США в России
+N6	Reference T13 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:Q1062083	миллиардер
+N34	Reference T85 Wikidata:Q1400	Пенсильвания
+N32	Reference T81 Wikidata:Q747802	
+N35	Reference T87 Wikidata:NULL	нет данных
+N41	Reference T86 Wikidata:Q7850	
+N42	Reference T34 Wikidata:Q1837665	
+N18	Reference T36 Wikidata:NULL	нет данных
+N43	Reference T77 Wikidata:NULL	нет данных
+N30	Reference T78 Wikidata:Q56330488	
+N44	Reference T42 Wikidata:NULL	нет данных
+N38	Reference T96 Wikidata:NULL	нет данных
+N45	Reference T2 Wikidata:Q11607	Джон Хантсман-младший
+N46	Reference T4 Wikidata:Q11607	Джон Хантсман-младший
+N47	Reference T29 Wikidata:Q35525	Белый дом
+N48	Reference T6 Wikidata:Q159	Россия
+N49	Reference T8 Wikidata:Q159	Россия
+N50	Reference T3 Wikidata:Q159	Россия
+N51	Reference T73 Wikidata:Q30461	президент
+N52	Reference T90 Wikidata:Q30461	президент
+N53	Reference T66 Wikidata:Q30461	президент
+N54	Reference T18 Wikidata:Q30461	президент
+N55	Reference T45 Wikidata:Q30461	президент
+N56	Reference T32 Wikidata:Q30461	президент
+N57	Reference T75 Wikidata:Q851361	Huntsman
+N58	Reference T22 Wikidata:Q851361	Huntsman
+N59	Reference T19 Wikidata:Q851361	Huntsman
+N60	Reference T80 Wikidata:Q851361	Huntsman
+N61	Reference T50 Wikidata:Q851361	Huntsman
+N62	Reference T41 Wikidata:Q851361	Huntsman
+N63	Reference T88 Wikidata:Q30	США
+N64	Reference T44 Wikidata:Q30	США
+N65	Reference T70 Wikidata:Q30	США
+N66	Reference T71 Wikidata:Q11696	президент США
+N67	Reference T58 Wikidata:Q22686	Дональд Трамп
+N68	Reference T38 Wikidata:Q132050	губернатор
+N69	Reference T12 Wikidata:Q121998	посол
+N70	Reference T53 Wikidata:Q121998	посол
+N71	Reference T92 Wikidata:Q121998	посол
+N72	Reference T93 Wikidata:Q121998	посол
+N73	Reference T94 Wikidata:Q121998	посол
+N74	Reference T55 Wikidata:Q1515730	посол США в России
+N75	Reference T10 Wikidata:Q1062083	миллиардер
+N76	Reference T63 Wikidata:Q747802	
+N77	Reference T82 Wikidata:Q747802	
+T101	EVENT 682 689	родился
+R74	PARTICIPANT_IN Arg1:T22 Arg2:T101	
+R75	POINT_IN_TIME Arg1:T101 Arg2:T23	

@@ -1,0 +1,31 @@
+T1	STATE_OR_PROVINCE 13 22	Каталонии
+T3	DATE 81 100	На следующей неделе
+T4	STATE_OR_PROVINCE 103 112	Каталонии
+T5	LAW 159 188	Закона об образовании Испании
+T6	COUNTRY 181 188	Испании
+T7	LANGUAGE 328 339	английского
+T9	STATE_OR_PROVINCE 434 443	Каталонии
+T10	LANGUAGE 590 600	английским
+T12	LANGUAGE 54 65	английскому
+T13	LANGUAGE 264 275	английскому
+T2	LAW 141 188	181 статья нового Закона об образовании Испании
+T8	EVENT 126 140	вступит в силу
+T11	ORDINAL 141 144	181
+T14	LOCATION 369 380	европейский
+R1	TAKES_PLACE_IN Arg1:T8 Arg2:T4	
+R2	POINT_IN_TIME Arg1:T8 Arg2:T3	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T6	
+R4	PART_OF Arg1:T2 Arg2:T5	
+R5	INANIMATE_INVOLVED Arg1:T2 Arg2:T8	
+R6	LOCATED_IN Arg1:T4 Arg2:T6	
+N1	Reference T4 Wikidata:Q5705	Каталония
+N3	Reference T6 Wikidata:Q29	Испания
+N4	Reference T13 Wikidata:Q1860	английский язык
+N2	Reference T5 Wikidata:NULL	нет данных
+N5	Reference T2 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:Q46	Европа
+N7	Reference T9 Wikidata:Q5705	Каталония
+N8	Reference T1 Wikidata:Q5705	Каталония
+N9	Reference T7 Wikidata:Q1860	английский язык
+N10	Reference T10 Wikidata:Q1860	английский язык
+N11	Reference T12 Wikidata:Q1860	английский язык

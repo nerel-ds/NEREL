@@ -1,0 +1,178 @@
+T1	ORGANIZATION 0 10	Суд Милана
+T2	PERSON 22 40	Сильвио Берлускони
+T4	PERSON 64 82	Сильвио Берлускони
+T5	PERSON 84 98	Владимир Путин
+T6	PERSON 101 119	Сильвио Берлускони
+T7	DATE 121 141	26 октября 2012 года
+T9	PERSON 185 203	Сильвио Берлускони
+T11	DATE 310 328	в течение трёх лет
+T13	DATE 420 433	в 1990-е годы
+T14	DATE 543 558	1994—1999 годах
+T15	PERSON 573 583	Берлускони
+T16	ORGANIZATION 593 602	Fininvest
+T17	MONEY 650 662	470 млн евро
+T18	COUNTRY 678 690	американских
+T19	ORGANIZATION 744 752	Mediaset
+T20	COUNTRY 843 849	Италии
+T21	PERSON 905 915	Берлускони
+T24	TIME 1074 1095	Через несколько часов
+T25	PERSON 1240 1252	Романо Проди
+T26	DATE 1253 1264	в 2006 году
+T27	PERSON 1334 1352	Сильвио Берлускони
+T29	DATE 1466 1471	вчера
+T30	AGE 1472 1481	76-летний
+T33	ORGANIZATION 1551 1564	Народ свободы
+T34	COUNTRY 1658 1664	Италии
+T35	DATE 1712 1724	19 лет назад
+T36	DATE 1887 1898	в 1994 году
+T37	PERSON 2016 2034	Сильвио Берлускони
+T39	PERSON 2091 2109	Владимиром Путиным
+T40	COUNTRY 2111 2122	Итальянская
+T41	PERSON 2194 2204	Берлускони
+T42	PERSON 2207 2212	Путин
+T43	CITY 4 10	Милана
+T3	PENALTY 43 63	четырём годам тюрьмы
+T45	PENALTY 57 63	тюрьмы
+T46	ORGANIZATION 142 152	суд Милана
+T47	CITY 146 152	Милана
+T49	PROFESSION 169 184	премьера Италии
+T50	PROFESSION 169 177	премьера
+T52	PROFESSION 383 397	премьер Италии
+T53	PROFESSION 383 390	премьер
+T55	PROFESSION 952 969	главы государства
+T56	PROFESSION 1390 1398	Адвокаты
+T57	PROFESSION 1399 1414	предпринимателя
+T58	PROFESSION 1390 1414	Адвокаты предпринимателя
+T59	PROFESSION 2077 2090	главой России
+T61	PROFESSION 1489 1511	премьер-министр Италии
+T63	PROFESSION 1489 1504	премьер-министр
+T65	PROFESSION 1514 1564	лидер главной партии правого центра «Народ свободы
+T66	COUNTRY 178 184	Италии
+T67	CRIME 225 252	уклонению от уплаты налогов
+T10	PENALTY 272 292	четырём годам тюрьмы
+T68	PENALTY 286 292	тюрьмы
+T70	COUNTRY 391 397	Италии
+T71	CRIME 460 483	ухода от уплаты налогов
+T72	ORGANIZATION 764 775	прокуратуры
+T73	ORGANIZATION 918 929	Прокуратура
+T22	PENALTY 987 1024	лишения свободы на 3 года и 8 месяцев
+T75	IDEOLOGY 1208 1224	левоцентристским
+T76	ORGANIZATION 1225 1239	правительством
+T78	COUNTRY 1505 1511	Италии
+T79	IDEOLOGY 1535 1549	правого центра
+T81	COUNTRY 2084 2090	России
+T8	EVENT 11 21	приговорил
+R1	AGENT Arg1:T1 Arg2:T8	
+R2	HEADQUARTERED_IN Arg1:T1 Arg2:T43	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T8	
+T12	DATE 43 56	четырём годам
+R4	PENALIZED_AS Arg1:T2 Arg2:T3	
+R5	KNOWS Arg1:T5 Arg2:T6	
+R6	KNOWS Arg1:T6 Arg2:T5	
+R7	HEADQUARTERED_IN Arg1:T46 Arg2:T47	
+R8	WORKPLACE Arg1:T49 Arg2:T66	
+R9	LOCATED_IN Arg1:T47 Arg2:T66	
+R10	CONVICTED_OF Arg1:T9 Arg2:T67	
+T31	DATE 272 285	четырём годам
+R11	HAS_CAUSE Arg1:T10 Arg2:T67	
+T44	EVENT 255 265	приговорил
+R12	AGENT Arg1:T46 Arg2:T44	
+R13	WORKS_AS Arg1:T9 Arg2:T49	
+R14	PARTICIPANT_IN Arg1:T9 Arg2:T44	
+R15	HAS_CAUSE Arg1:T44 Arg2:T67	
+R16	POINT_IN_TIME Arg1:T44 Arg2:T7	
+T48	PENALTY 329 373	запрещено занимать государственные должности
+R17	PENALIZED_AS Arg1:T9 Arg2:T48	
+R18	WORKPLACE Arg1:T52 Arg2:T70	
+R19	ALTERNATIVE_NAME Arg1:T67 Arg2:T71	
+R20	POINT_IN_TIME Arg1:T71 Arg2:T13	
+R21	CONVICTED_OF Arg1:T52 Arg2:T71	
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R23	OWNER_OF Arg1:T15 Arg2:T16	
+R24	EXPENDITURE Arg1:T16 Arg2:T17	
+R25	OWNER_OF Arg1:T16 Arg2:T19	
+R26	HEADQUARTERED_IN Arg1:T72 Arg2:T20	
+R27	ALTERNATIVE_NAME Arg1:T52 Arg2:T55	
+T23	DATE 1003 1024	на 3 года и 8 месяцев
+T51	PENALTY 987 1002	лишения свободы
+T54	ORGANIZATION 1225 1252	правительством Романо Проди
+R28	FOUNDED_BY Arg1:T54 Arg2:T25	
+T60	EVENT 1265 1274	амнистией
+T28	DATE 1373 1387	до одного года
+R29	POINT_IN_TIME Arg1:T60 Arg2:T26	
+R30	IDEOLOGY_OF Arg1:T25 Arg2:T75	
+R31	IDEOLOGY_OF Arg1:T54 Arg2:T75	
+R32	ORGANIZES Arg1:T54 Arg2:T60	
+R33	WORKS_AS Arg1:T27 Arg2:T57	
+R34	SUBORDINATE_OF Arg1:T58 Arg2:T27	
+R35	KNOWS Arg1:T37 Arg2:T39	
+R36	KNOWS Arg1:T39 Arg2:T37	
+R37	WORKPLACE Arg1:T59 Arg2:T81	
+R38	ALTERNATIVE_NAME Arg1:T34 Arg2:T40	
+R39	KNOWS Arg1:T41 Arg2:T42	
+R40	KNOWS Arg1:T42 Arg2:T41	
+R41	WORKS_AS Arg1:T39 Arg2:T59	
+R42	WORKPLACE Arg1:T39 Arg2:T81	
+R43	AGE_IS Arg1:T27 Arg2:T30	
+R44	WORKPLACE Arg1:T61 Arg2:T78	
+R45	AGE_IS Arg1:T61 Arg2:T30	
+R46	WORKPLACE Arg1:T65 Arg2:T33	
+R47	IDEOLOGY_OF Arg1:T65 Arg2:T79	
+R48	IDEOLOGY_OF Arg1:T33 Arg2:T79	
+R49	IDEOLOGY_OF Arg1:T27 Arg2:T79	
+R50	WORKS_AS Arg1:T27 Arg2:T65	
+R51	WORKPLACE Arg1:T27 Arg2:T33	
+R52	WORKS_AS Arg1:T27 Arg2:T61	
+R53	WORKPLACE Arg1:T27 Arg2:T78	
+R54	HEADQUARTERED_IN Arg1:T33 Arg2:T78	
+T32	EVENT 153 160;204 212	признал виновным
+R55	AGENT Arg1:T46 Arg2:T32	
+R56	PARTICIPANT_IN Arg1:T9 Arg2:T32	
+R57	HAS_CAUSE Arg1:T32 Arg2:T67	
+R58	PENALIZED_AS Arg1:T9 Arg2:T10	
+R59	ALTERNATIVE_NAME Arg1:T39 Arg2:T42	
+R60	ALTERNATIVE_NAME Arg1:T37 Arg2:T41	
+N1	Reference T15 Wikidata:Q11860	Сильвио Берлускони
+N2	Reference T16 Wikidata:Q1417245	Fininvest
+N4	Reference T19 Wikidata:Q368151	Mediaset
+N5	Reference T25 Wikidata:Q38484	Романо Проди
+N6	Reference T27 Wikidata:Q11860	Сильвио Берлускони
+N7	Reference T33 Wikidata:Q47720	Народ свободы
+N9	Reference T42 Wikidata:Q7747	Владимир Владимирович Путин
+N11	Reference T47 Wikidata:Q490	Милан
+N12	Reference T49 Wikidata:Q796897	председатель Совета министров Италии
+N14	Reference T52 Wikidata:Q796897	председатель Совета министров Италии
+N15	Reference T53 Wikidata:Q14212	премьер-министр
+N16	Reference T56 Wikidata:Q40348	адвокат
+N17	Reference T57 Wikidata:Q131524	предприниматель
+N20	Reference T61 Wikidata:Q796897	председатель Совета министров Италии
+N21	Reference T63 Wikidata:Q14212	премьер-министр
+N23	Reference T72 Wikidata:Q1092499	прокуратура
+N24	Reference T76 Wikidata:Q7188	правительство
+N25	Reference T81 Wikidata:Q159	Россия
+N13	Reference T50 Wikidata:Q14212	премьер-министр
+N3	Reference T18 Wikidata:Q30	США
+N26	Reference T54 Wikidata:NULL	нет данных
+N18	Reference T58 Wikidata:NULL	нет данных
+N22	Reference T65 Wikidata:NULL	нет данных
+N19	Reference T59 Wikidata:Q218295	президент Российской Федерации
+N8	Reference T40 Wikidata:Q38	Италия
+N10	Reference T46 Wikidata:NULL	нет данных
+N27	Reference T9 Wikidata:Q11860	Сильвио Берлускони
+N28	Reference T4 Wikidata:Q11860	Сильвио Берлускони
+N29	Reference T37 Wikidata:Q11860	Сильвио Берлускони
+N30	Reference T2 Wikidata:Q11860	Сильвио Берлускони
+N31	Reference T6 Wikidata:Q11860	Сильвио Берлускони
+N32	Reference T41 Wikidata:Q11860	Сильвио Берлускони
+N33	Reference T21 Wikidata:Q11860	Сильвио Берлускони
+N34	Reference T39 Wikidata:Q7747	Владимир Владимирович Путин
+N35	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N36	Reference T43 Wikidata:Q490	Милан
+N37	Reference T55 Wikidata:Q796897	председатель Совета министров Италии
+N38	Reference T73 Wikidata:Q1092499	прокуратура
+N39	Reference T20 Wikidata:Q38	Италия
+N40	Reference T66 Wikidata:Q38	Италия
+N41	Reference T34 Wikidata:Q38	Италия
+N42	Reference T70 Wikidata:Q38	Италия
+N43	Reference T78 Wikidata:Q38	Италия
+N44	Reference T1 Wikidata:NULL	нет данных

@@ -1,10 +1,17 @@
 # NEREL
 
-A Russian dataset with nested named entities, relations and events.
+A Russian dataset with nested named entities, relations, events and linked entities.
 
-The dataset is available as a [release](https://github.com/nerel-ds/NEREL/releases/download/1.0/NEREL-v1.0.zip).
+### Version history
 
-NEREL features 29 entity and 49 relation types.
+#### 1.1
+Added: Linked entities
+
+#### 1.0
+First version:
+* Nested named entities 
+* Events
+* Relations 
 
 ### List of entity types
 

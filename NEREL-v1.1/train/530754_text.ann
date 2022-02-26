@@ -1,0 +1,89 @@
+T1	AGE 0 9	47-летняя
+T2	PERSON 18 30	Камерон Диас
+T3	PERSON 51 63	Камерон Диас
+T4	NATIONALITY 76 88	Американская
+T5	PERSON 97 109	Кэмерон Диаз
+T6	AGE 132 138	47 лет
+T7	WORK_OF_ART 166 171	Маски
+T8	PRODUCT 202 211	Instagram
+T9	PROFESSION 233 241	музыкант
+T10	PERSON 242 255	Бенджи Мэдден
+T12	PERSON 293 300	Рэддикс
+T13	PERSON 302 315	Raddix Madden
+T14	PERSON 485 497	Кэмерон Диаз
+T15	DATE 520 533	несколько лет
+T16	PROFESSION 558 567	гитариста
+T17	ORGANIZATION 579 593	Good Charlotte
+T18	PERSON 594 608	Бенджи Мэддена
+T19	DATE 609 628	в декабре 2014 года
+T20	DATE 630 646	январе 2015 года
+T21	ORDINAL 670 676	первым
+T22	CITY 762 775	Беверли-Хиллз
+T24	CITY 777 789	Лос-Анджелес
+T25	STATE_OR_PROVINCE 791 801	Калифорния
+T26	PROFESSION 10 17	актриса
+T27	EVENT 39 50	стала мамой
+T28	DATE 66 75	2016 году
+T29	PROFESSION 89 96	актриса
+T30	EVENT 118 129	стала мамой
+T31	EVENT 142 157	рождении дочери
+T11	PROFESSION 261 269	артистки
+T32	EVENT 543 554	вышла замуж
+T33	PROFESSION 558 593	гитариста рок-группы Good Charlotte
+T34	EVENT 650 654	брак
+T35	EVENT 692 701	церемония
+T36	PROFESSION 736 743	актрисы
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T27	
+R2	WORKS_AS Arg1:T2 Arg2:T26	
+R3	AGE_IS Arg1:T2 Arg2:T1	
+R4	AGE_IS Arg1:T5 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T30	
+R6	WORKS_AS Arg1:T5 Arg2:T29	
+R7	ORIGINS_FROM Arg1:T5 Arg2:T4	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T7	
+R9	SPOUSE Arg1:T10 Arg2:T11	
+R10	WORKS_AS Arg1:T10 Arg2:T9	
+R11	WORKS_AS Arg1:T5 Arg2:T11	
+R12	SPOUSE Arg1:T5 Arg2:T10	
+T23	PROFESSION 535 542	Актриса
+R13	LOCATED_IN Arg1:T22 Arg2:T24	
+R14	LOCATED_IN Arg1:T24 Arg2:T25	
+R15	AGENT Arg1:T23 Arg2:T32	
+R16	PARTICIPANT_IN Arg1:T14 Arg2:T32	
+R17	PARTICIPANT_IN Arg1:T18 Arg2:T32	
+R18	WORKPLACE Arg1:T18 Arg2:T17	
+R19	WORKS_AS Arg1:T18 Arg2:T33	
+R20	POINT_IN_TIME Arg1:T32 Arg2:T19	
+R21	TAKES_PLACE_IN Arg1:T35 Arg2:T22	
+R22	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R23	PARENT_OF Arg1:T10 Arg2:T12	
+R24	PARENT_OF Arg1:T5 Arg2:T12	
+R25	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R26	WORKPLACE Arg1:T33 Arg2:T17	
+R27	ALTERNATIVE_NAME Arg1:T32 Arg2:T34	
+R28	ALTERNATIVE_NAME Arg1:T32 Arg2:T35	
+R29	PARTICIPANT_IN Arg1:T36 Arg2:T35	
+R30	AGENT Arg1:T14 Arg2:T32	
+N1	Reference T2 Wikidata:Q44380	Камерон Диас
+N3	Reference T5 Wikidata:Q44380	Камерон Диас
+N4	Reference T7 Wikidata:Q219421	Маска
+N5	Reference T8 Wikidata:Q209330	Instagram
+N6	Reference T9 Wikidata:Q639669	музыкант
+N8	Reference T16 Wikidata:Q855091	гитарист
+N9	Reference T17 Wikidata:Q485220	Good Charlotte
+N10	Reference T18 Wikidata:Q792976	Бенджи Мэдден
+N11	Reference T22 Wikidata:Q127856	Беверли-Хиллз
+N12	Reference T24 Wikidata:Q65	Лос-Анджелес
+N13	Reference T25 Wikidata:Q99	Калифорния
+N14	Reference T26 Wikidata:Q33999	актёр
+N2	Reference T4 Wikidata:Q846570	
+N15	Reference T11 Wikidata:Q33999	актёр
+N7	Reference T13 Wikidata:Q100887068	
+N16	Reference T33 Wikidata:NULL	нет данных
+N17	Reference T3 Wikidata:Q44380	Камерон Диас
+N18	Reference T14 Wikidata:Q44380	Камерон Диас
+N19	Reference T10 Wikidata:Q792976	Бенджи Мэдден
+N20	Reference T29 Wikidata:Q33999	актёр
+N21	Reference T23 Wikidata:Q33999	актёр
+N22	Reference T36 Wikidata:Q33999	актёр
+N23	Reference T12 Wikidata:Q100887068	

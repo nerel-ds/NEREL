@@ -1,0 +1,90 @@
+T1	STATE_OR_PROVINCE 37 44	Аризона
+T2	PERSON 101 113	Барака Обамы
+T3	AGE 215 224	28-летнюю
+T4	PERSON 225 238	Холли Соломон
+T5	ORGANIZATION 363 379	Arizona Republic
+T6	AGE 381 390	36-летний
+T7	PERSON 391 405	Дэниел Соломон
+T8	PERSON 496 503	Соломон
+T9	PERSON 606 619	Холли Соломон
+T10	PERSON 653 658	Обамы
+T11	DATE 763 772	в субботу
+T12	TIME 763 778	в субботу утром
+T13	PERSON 805 812	Соломон
+T14	PERSON 962 969	Соломон
+T15	STATE_OR_PROVINCE 994 1001	Аризоне
+T16	PERSON 1016 1032	Дэниела Соломона
+T17	IDEOLOGY 1041 1054	республиканец
+T18	PERSON 1055 1065	Митт Ромни
+T20	EVENT 83 90	выборах
+T21	IDEOLOGY 91 100	демократа
+T22	ORGANIZATION 197 204	Полиция
+T23	CITY 251 258	Феникса
+T24	LOCATION 241 258	пригороде Феникса
+T25	ORGANIZATION 514 521	полиции
+T26	EVENT 597 604	выборах
+T27	EVENT 640 652	переизбрания
+R1	IDEOLOGY_OF Arg1:T2 Arg2:T21	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T20	
+R3	AGE_IS Arg1:T4 Arg2:T3	
+R4	PLACE_RESIDES_IN Arg1:T4 Arg2:T1	
+R5	AGE_IS Arg1:T7 Arg2:T6	
+R6	PLACE_RESIDES_IN Arg1:T7 Arg2:T1	
+R7	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R8	PARTICIPANT_IN Arg1:T10 Arg2:T27	
+R9	HAS_CAUSE Arg1:T27 Arg2:T20	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R11	IDEOLOGY_OF Arg1:T18 Arg2:T17	
+T19	EVENT 115 136	переехала своего мужа
+R12	HAS_CAUSE Arg1:T19 Arg2:T20	
+R13	AGENT Arg1:T4 Arg2:T19	
+R14	SPOUSE Arg1:T4 Arg2:T7	
+T29	STATE_OR_PROVINCE 363 370	Arizona
+R15	HEADQUARTERED_IN Arg1:T5 Arg2:T29	
+T30	EVENT 205 214	задержала
+R16	AGENT Arg1:T22 Arg2:T30	
+R17	PARTICIPANT_IN Arg1:T4 Arg2:T30	
+R18	TAKES_PLACE_IN Arg1:T30 Arg2:T24	
+R19	LOCATED_IN Arg1:T24 Arg2:T23	
+T31	EVENT 285 312	гоняться за мужем на машине
+R20	AGENT Arg1:T4 Arg2:T31	
+R21	PARTICIPANT_IN Arg1:T7 Arg2:T31	
+T32	EVENT 322 339	сбила и переехала
+R22	ALTERNATIVE_NAME Arg1:T19 Arg2:T32	
+R23	AGENT Arg1:T4 Arg2:T32	
+R24	PARTICIPANT_IN Arg1:T7 Arg2:T32	
+T33	DISEASE 433 454	критическом состоянии
+R25	MEDICAL_CONDITION Arg1:T7 Arg2:T33	
+T34	EVENT 410 430	доставлен в больницу
+R26	PARTICIPANT_IN Arg1:T7 Arg2:T34	
+T35	EVENT 736 750	семейная ссора
+R27	AGENT Arg1:T9 Arg2:T35	
+R28	AGENT Arg1:T8 Arg2:T35	
+R29	POINT_IN_TIME Arg1:T35 Arg2:T12	
+R30	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+T36	EVENT 970 985	догнала и сбила
+R31	AGENT Arg1:T14 Arg2:T36	
+R32	PARTICIPANT_IN Arg1:T8 Arg2:T36	
+R33	ALTERNATIVE_NAME Arg1:T32 Arg2:T36	
+T37	EVENT 829 856	преследовала мужа на машине
+R34	AGENT Arg1:T13 Arg2:T37	
+R35	PARTICIPANT_IN Arg1:T7 Arg2:T37	
+R36	HAS_CAUSE Arg1:T34 Arg2:T33	
+N1	Reference T2 Wikidata:Q76	Барак Обама
+N2	Reference T5 Wikidata:Q1514991	The Arizona Republic
+N3	Reference T10 Wikidata:Q76	Барак Обама
+N5	Reference T15 Wikidata:Q816	Аризона
+N7	Reference T18 Wikidata:Q4496	Митт Ромни
+N8	Reference T22 Wikidata:Q35535	полиция
+N9	Reference T23 Wikidata:Q16556	
+N10	Reference T24 Wikidata:NULL	нет данных
+N11	Reference T29 Wikidata:Q816	Аризона
+N6	Reference T16 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N12	Reference T1 Wikidata:Q816	Аризона
+N13	Reference T25 Wikidata:Q35535	полиция
+N14	Reference T7 Wikidata:NULL	нет данных
+N15	Reference T8 Wikidata:NULL	нет данных
+N16	Reference T4 Wikidata:NULL	нет данных
+N17	Reference T14 Wikidata:NULL	нет данных
+N18	Reference T9 Wikidata:NULL	нет данных

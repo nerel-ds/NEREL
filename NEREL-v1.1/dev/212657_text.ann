@@ -1,0 +1,120 @@
+T1	COUNTRY 2 5	США
+T3	FACILITY 42 53	Таймс-Сквер
+T4	PERSON 66 84	Виктора Йоргенсена
+T5	EVENT 87 110	День Победы над Японией
+T6	DATE 112 132	14 августа 1945 года
+T7	FACILITY 136 147	Таймс-сквер
+T8	CITY 149 157	Нью-Йорк
+T9	COUNTRY 160 163	США
+T10	PERSON 169 184	Джордж Мендонса
+T12	FACILITY 234 245	Таймс-Сквер
+T13	EVENT 278 298	Второй мировой войны
+T14	ORGANIZATION 313 316	CBS
+T15	PERSON 318 326	Мендонса
+T16	DATE 332 352	17 февраля 2019 года
+T17	DATE 375 384	двух дней
+T18	AGE 395 403	96-летия
+T19	PERSON 415 423	Мендонсы
+T21	FACILITY 535 546	Таймс-Сквер
+T22	DATE 559 579	14 августа 1945 года
+T23	PROFESSION 596 605	президент
+T24	PERSON 610 622	Гарри Трумэн
+T25	COUNTRY 657 663	Японии
+T27	PERSON 725 745	Грету Циммер Фридман
+T28	DATE 802 808	70 лет
+T29	PERSON 810 817	Фридман
+T30	DATE 829 840	в 2016 году
+T31	AGE 852 858	92 лет
+T32	DATE 861 874	Почти полвека
+T33	PERSON 956 963	Фридман
+T34	PERSON 966 974	Мендонсы
+T35	DATE 993 1012	несколько лет назад
+T36	EVENT 6 10	умер
+T37	PROFESSION 11 16	моряк
+T2	WORK_OF_ART 31 53	Поцелуй на Таймс-Сквер
+T38	COUNTRY 103 110	Японией
+T39	EVENT 164 168	умер
+T11	WORK_OF_ART 223 245	Поцелуй на Таймс-Сквер
+T40	EVENT 327 331	умер
+T41	DISEASE 356 364	инсульта
+T42	EVENT 408 414	смерти
+T43	DISEASE 479 513	тяжёлой сердечной недостаточностью
+T20	WORK_OF_ART 524 546	Поцелуй на Таймс-Сквер
+T44	PROFESSION 596 609	президент США
+T45	COUNTRY 606 609	США
+T46	EVENT 645 656	капитуляции
+T47	PROFESSION 679 684	моряк
+T48	PERSON 685 693	Мендонса
+T49	PROFESSION 701 724	ассистентку стоматолога
+T50	PROFESSION 713 724	стоматолога
+T51	EVENT 818 828	скончалась
+T52	NUMBER 875 883	более 30
+T53	NATIONALITY 884 895	американцев
+R1	LOCATED_IN Arg1:T7 Arg2:T8	
+R2	PARTICIPANT_IN Arg1:T10 Arg2:T39	
+R3	TAKES_PLACE_IN Arg1:T39 Arg2:T9	
+R4	PARTICIPANT_IN Arg1:T37 Arg2:T36	
+R5	TAKES_PLACE_IN Arg1:T36 Arg2:T1	
+R6	MEDICAL_CONDITION Arg1:T15 Arg2:T43	
+T26	DISEASE 487 513	сердечной недостаточностью
+R7	DATE_OF_CREATION Arg1:T20 Arg2:T22	
+R8	WORKPLACE Arg1:T44 Arg2:T45	
+R9	WORKS_AS Arg1:T24 Arg2:T44	
+R10	WORKPLACE Arg1:T24 Arg2:T45	
+T54	EVENT 645 663	капитуляции Японии
+R11	PARTICIPANT_IN Arg1:T25 Arg2:T54	
+R12	WORKS_AS Arg1:T48 Arg2:T47	
+R13	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R14	PARTICIPANT_IN Arg1:T10 Arg2:T11	
+R15	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+R16	SPOUSE Arg1:T48 Arg2:T27	
+R17	PARTICIPANT_IN Arg1:T29 Arg2:T51	
+R18	POINT_IN_TIME Arg1:T51 Arg2:T30	
+R19	AGE_DIED_AT Arg1:T29 Arg2:T31	
+R20	DATE_OF_DEATH Arg1:T29 Arg2:T30	
+R21	POINT_IN_TIME Arg1:T5 Arg2:T6	
+R22	TAKES_PLACE_IN Arg1:T5 Arg2:T7	
+R23	PARTICIPANT_IN Arg1:T37 Arg2:T2	
+R24	PARTICIPANT_IN Arg1:T4 Arg2:T2	
+R25	CAUSE_OF_DEATH Arg1:T15 Arg2:T41	
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T40	
+R27	POINT_IN_TIME Arg1:T40 Arg2:T16	
+R28	DATE_OF_DEATH Arg1:T15 Arg2:T16	
+R29	AGE_IS Arg1:T15 Arg2:T18	
+R30	ALTERNATIVE_NAME Arg1:T40 Arg2:T42	
+R31	PARTICIPANT_IN Arg1:T19 Arg2:T42	
+R32	WORKS_AS Arg1:T27 Arg2:T49	
+R33	SUBORDINATE_OF Arg1:T27 Arg2:T50	
+R34	PARTICIPANT_IN Arg1:T38 Arg2:T5	
+R35	SUBORDINATE_OF Arg1:T49 Arg2:T50	
+N1	Reference T3 Wikidata:Q11259	Таймс-сквер
+N4	Reference T14 Wikidata:Q43380	CBS
+N5	Reference T23 Wikidata:Q30461	президент
+N6	Reference T24 Wikidata:Q11613	Гарри Трумэн
+N7	Reference T25 Wikidata:Q17	Япония
+N10	Reference T44 Wikidata:Q11696	президент США
+N11	Reference T45 Wikidata:Q30	США
+N12	Reference T47 Wikidata:Q45199	моряк
+N15	Reference T50 Wikidata:Q27349	стоматолог
+N3	Reference T8 Wikidata:Q60	Нью-Йорк
+N9	Reference T20 Wikidata:Q626926	
+N13	Reference T48 Wikidata:Q61762945	
+N14	Reference T49 Wikidata:Q489933	
+N16	Reference T53 Wikidata:Q846570	
+N8	Reference T33 Wikidata:Q26857910	
+N2	Reference T4 Wikidata:Q7926046	
+N17	Reference T7 Wikidata:Q11259	Таймс-сквер
+N18	Reference T21 Wikidata:Q11259	Таймс-сквер
+N19	Reference T12 Wikidata:Q11259	Таймс-сквер
+N20	Reference T38 Wikidata:Q17	Япония
+N21	Reference T9 Wikidata:Q30	США
+N22	Reference T1 Wikidata:Q30	США
+N23	Reference T37 Wikidata:Q45199	моряк
+N24	Reference T2 Wikidata:Q626926	
+N25	Reference T11 Wikidata:Q626926	
+N26	Reference T10 Wikidata:Q61762945	
+N27	Reference T15 Wikidata:Q61762945	
+N28	Reference T19 Wikidata:Q61762945	
+N29	Reference T34 Wikidata:Q61762945	
+N30	Reference T29 Wikidata:Q26857910	
+N31	Reference T27 Wikidata:Q26857910	

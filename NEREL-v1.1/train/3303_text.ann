@@ -1,0 +1,87 @@
+T1	PROFESSION 5 11	король
+T2	PERSON 18 35	Тауфаахау Тупу IV
+T3	COUNTRY 38 52	Новой Зеландии
+T4	PROFESSION 58 64	король
+T5	COUNTRY 88 93	Тонга
+T6	PERSON 97 114	Тауфаахау Тупу IV
+T7	DATE 125 138	в воскресенье
+T8	AGE 190 196	88 лет
+T9	DATE 254 271	в течение 41 года
+T10	PROFESSION 369 375	принцу
+T11	DATE 427 438	13 сентября
+T13	DATE 504 509	месяц
+T14	PERSON 561 577	Тауфаахау Тупу V
+T15	LOCATION 614 646	юго-западной части Тихого океана
+T17	NUMBER 698 711	более чем 150
+T18	NUMBER 754 769	около ста тысяч
+T19	EVENT 0 4	Умер
+T20	ORDINAL 33 35	IV
+T21	EVENT 53 57	умер
+T22	COUNTRY 12 17	Тонги
+T23	PROFESSION 5 17	король Тонги
+T24	PROFESSION 58 93	король островного государства Тонга
+T25	ORDINAL 112 114	IV
+T26	EVENT 115 124	скончался
+T27	COUNTRY 220 225	Тонги
+T28	PERSON 226 243	Тауфаахау Тупу IV
+T29	ORDINAL 241 243	IV
+T31	PERSON 376 382	Тупута
+T32	PERSON 384 391	Tupouta
+T33	EVENT 440 448	Похороны
+T34	EVENT 504 516	месяц скорби
+T35	PROFESSION 532 539	королём
+T36	ORDINAL 576 577	V
+T37	COUNTRY 580 597	Королевство Тонга
+T16	LOCATION 633 646	Тихого океана
+R1	WORKPLACE Arg1:T23 Arg2:T22	
+R2	WORKS_AS Arg1:T2 Arg2:T23	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T19	
+R4	WORKPLACE Arg1:T24 Arg2:T5	
+R5	TAKES_PLACE_IN Arg1:T21 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R7	PARTICIPANT_IN Arg1:T24 Arg2:T21	
+R8	ALTERNATIVE_NAME Arg1:T21 Arg2:T26	
+R9	POINT_IN_TIME Arg1:T26 Arg2:T7	
+R10	DATE_OF_DEATH Arg1:T6 Arg2:T7	
+R11	PARTICIPANT_IN Arg1:T6 Arg2:T26	
+R12	AGE_DIED_AT Arg1:T6 Arg2:T8	
+T39	DISEASE 145 178	тяжёлой и продолжительной болезни
+R13	MEDICAL_CONDITION Arg1:T6 Arg2:T39	
+R14	HAS_CAUSE Arg1:T26 Arg2:T39	
+R15	WORKPLACE Arg1:T28 Arg2:T27	
+R16	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R17	WORKS_AS Arg1:T31 Arg2:T10	
+T12	DATE 463 477	на 19 сентября
+R18	POINT_IN_TIME Arg1:T33 Arg2:T12	
+R19	PARENT_OF Arg1:T28 Arg2:T14	
+R20	WORKS_AS Arg1:T14 Arg2:T35	
+R21	LOCATED_IN Arg1:T37 Arg2:T15	
+R22	ALTERNATIVE_NAME Arg1:T27 Arg2:T37	
+R23	RELATIVE Arg1:T28 Arg2:T31	
+R24	INANIMATE_INVOLVED Arg1:T28 Arg2:T33	
+T30	EVENT 395 416	Тело будет доставлено
+R25	POINT_IN_TIME Arg1:T30 Arg2:T11	
+R26	TAKES_PLACE_IN Arg1:T30 Arg2:T27	
+R27	INANIMATE_INVOLVED Arg1:T28 Arg2:T30	
+R28	TAKES_PLACE_IN Arg1:T33 Arg2:T27	
+R29	TAKES_PLACE_IN Arg1:T34 Arg2:T27	
+R30	LOCATED_IN Arg1:T15 Arg2:T16	
+N1	Reference T3 Wikidata:Q664	Новая Зеландия
+N2	Reference T5 Wikidata:Q678	Тонга
+N3	Reference T6 Wikidata:Q273739	Тауфа’ахау Тупоу IV
+N4	Reference T10 Wikidata:Q2747456	принц
+N10	Reference T37 Wikidata:Q678	Тонга
+N11	Reference T16 Wikidata:Q98	Тихий океан
+N7	Reference T24 Wikidata:Q42298576	
+N8	Reference T31 Wikidata:NULL	нет данных
+N9	Reference T35 Wikidata:Q12097	король
+N5	Reference T14 Wikidata:Q227716	
+N6	Reference T15 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q273739	Тауфа’ахау Тупоу IV
+N13	Reference T2 Wikidata:Q273739	Тауфа’ахау Тупоу IV
+N14	Reference T22 Wikidata:Q678	Тонга
+N15	Reference T27 Wikidata:Q678	Тонга
+N16	Reference T23 Wikidata:Q42298576	
+N17	Reference T32 Wikidata:NULL	нет данных
+N18	Reference T4 Wikidata:Q12097	король
+N19	Reference T1 Wikidata:Q12097	король

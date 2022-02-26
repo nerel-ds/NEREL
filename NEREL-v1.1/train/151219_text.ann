@@ -1,0 +1,250 @@
+T1	ORGANIZATION 81 86	Zizzi
+T2	FACILITY 94 108	Замковой улицы
+T3	CITY 111 119	Солсбери
+T4	ORGANIZATION 192 197	Zizzi
+T5	ORGANIZATION 210 215	Zizzi
+T6	COUNTRY 218 228	британском
+T7	CITY 229 237	Солсбери
+T8	DATE 251 268	4 марта 2018 года
+T10	PERSON 299 314	Сергей Скрипаль
+T11	PERSON 326 330	Юлия
+T12	NUMBER 496 502	четыре
+T13	CITY 511 519	Солсбери
+T16	FACILITY 542 555	Bishopʼs Mill
+T17	PROFESSION 653 663	разведчика
+T19	PROFESSION 728 765	министр внутренних дел Великобритании
+T20	PERSON 766 776	Эмбер Радд
+T21	ORDINAL 785 791	второе
+T22	ORGANIZATION 827 832	Cobra
+T24	NUMBER 987 996	более 200
+T25	NUMBER 1018 1027	около 240
+T26	CITY 1078 1086	Солсбери
+T27	NUMBER 1103 1106	180
+T28	PROFESSION 1135 1152	офицеры химзащиты
+T29	ORGANIZATION 1153 1181	Королевского танкового полка
+T30	NUMBER 1183 1185	40
+T31	EVENT 1230 1237	учениях
+T32	NUMBER 1271 1273	20
+T33	ORGANIZATION 1283 1315	Королевских военно-воздушных сил
+T35	PROFESSION 1430 1443	полковник ГРУ
+T36	AGE 1444 1453	66-летний
+T37	PERSON 1454 1469	Сергей Скрипаль
+T38	AGE 1476 1485	33-летняя
+T39	PERSON 1491 1495	Юлия
+T40	CITY 1545 1553	Солсбери
+T41	CITY 1644 1652	Солсбери
+T42	PERSON 1658 1666	Скрипаль
+T43	DATE 1677 1693	в последние годы
+T44	NUMBER 1724 1726	19
+T45	PERSON 1807 1816	Ник Бейли
+T46	DATE 1909 1921	До 1999 года
+T47	PERSON 1922 1930	Скрипаль
+T48	ORGANIZATION 1941 1944	ГРУ
+T49	PROFESSION 1959 1969	полковника
+T50	ORGANIZATION 1985 1994	The Times
+T52	COUNTRY 2073 2087	Великобритании
+T53	ORGANIZATION 2088 2091	MI6
+T54	DATE 2093 2109	В течение 10 лет
+T55	COUNTRY 2121 2131	британскую
+T56	ORGANIZATION 2208 2211	ГРУ
+T57	COUNTRY 2233 2247	Великобритании
+T60	DATE 2292 2303	В 2010 году
+T61	COUNTRY 2333 2336	США
+T62	COUNTRY 2364 2371	Америке
+T63	PERSON 2400 2411	Анну Чапман
+T64	PERSON 11 19	Скрипаля
+T66	DATE 120 138	1 января 2010 года
+T67	ORGANIZATION 295 298	ГРУ
+T68	PROFESSION 285 298	сотрудник ГРУ
+T69	PERSON 526 534	Скрипаля
+T15	COUNTRY 751 765	Великобритании
+T18	ORGANIZATION 876 879	ГРУ
+T70	PROFESSION 865 879	полковника ГРУ
+T71	EVENT 932 942	отравления
+T72	DATE 1554 1561	4 марта
+T73	EVENT 1592 1634	отравления нервно-паралитическым веществом
+T74	CRIME 2216 2247	шпионаж в пользу Великобритании
+T59	PROFESSION 1750 1761	полицейский
+T75	PROFESSION 1839 1845	врачей
+T76	PROFESSION 1795 1806	полицейский
+T77	CRIME 1885 1906	покушении на убийство
+T51	PROFESSION 2041 2091	агентом службы внешней разведки Великобритании MI6
+T78	PERSON 2304 2312	Скрипаля
+T79	COUNTRY 2372 2382	российских
+T80	PROFESSION 2383 2390	шпионов
+T81	PENALTY 2266 2290	13 годам лишения свободы
+T82	EVENT 1698 1708	отравления
+T83	ORGANIZATION 1353 1420	Центра химической, биологической, радиологической и ядерной обороны
+T34	PROFESSION 1274 1315	офицеров Королевских военно-воздушных сил
+T84	PROFESSION 1186 1204	морских пехотинцев
+T58	DATE 2266 2274	13 годам
+T85	EVENT 0 10	Отравление
+R1	PARTICIPANT_IN Arg1:T64 Arg2:T85	
+R2	LOCATED_IN Arg1:T2 Arg2:T3	
+R3	LOCATED_IN Arg1:T7 Arg2:T6	
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T7	
+R5	PARENT_OF Arg1:T10 Arg2:T11	
+R6	ALTERNATIVE_NAME Arg1:T64 Arg2:T10	
+R7	WORKPLACE Arg1:T10 Arg2:T67	
+R8	WORKS_AS Arg1:T10 Arg2:T68	
+R9	WORKPLACE Arg1:T68 Arg2:T67	
+R10	WORKPLACE Arg1:T70 Arg2:T18	
+T86	FACILITY 522 534	дом Скрипаля
+R11	OWNER_OF Arg1:T69 Arg2:T86	
+R12	LOCATED_IN Arg1:T86 Arg2:T13	
+R13	LOCATED_IN Arg1:T16 Arg2:T13	
+T87	PROFESSION 728 750	министр внутренних дел
+T88	PROFESSION 728 735	министр
+R14	WORKPLACE Arg1:T19 Arg2:T15	
+T89	EVENT 21 69	следы нервно-паралитического вещества обнаружили
+R15	TAKES_PLACE_IN Arg1:T89 Arg2:T1	
+T90	EVENT 332 393	обнаружены следы нервно-паралитического отравляющего вещества
+R16	TAKES_PLACE_IN Arg1:T90 Arg2:T7	
+R17	WORKS_AS Arg1:T69 Arg2:T17	
+R18	WORKS_AS Arg1:T20 Arg2:T19	
+R19	WORKPLACE Arg1:T20 Arg2:T15	
+R20	PARENT_OF Arg1:T37 Arg2:T39	
+R21	AGE_IS Arg1:T39 Arg2:T38	
+R22	AGE_IS Arg1:T37 Arg2:T36	
+T91	PROFESSION 1274 1282	офицеров
+R23	WORKPLACE Arg1:T34 Arg2:T33	
+T92	PROFESSION 1135 1181	офицеры химзащиты Королевского танкового полка
+T93	PROFESSION 1135 1142	офицеры
+R24	WORKPLACE Arg1:T92 Arg2:T29	
+R25	ALTERNATIVE_NAME Arg1:T37 Arg2:T42	
+R26	PLACE_RESIDES_IN Arg1:T42 Arg2:T41	
+R27	HAS_CAUSE Arg1:T89 Arg2:T85	
+T94	EVENT 402 417	здание оцеплено
+R28	TAKES_PLACE_IN Arg1:T94 Arg2:T5	
+T95	EVENT 846 856	отравлении
+R29	ALTERNATIVE_NAME Arg1:T85 Arg2:T95	
+T97	EVENT 792 801	заседание
+R30	PARTICIPANT_IN Arg1:T22 Arg2:T97	
+R31	ORGANIZES Arg1:T20 Arg2:T97	
+R32	HAS_CAUSE Arg1:T97 Arg2:T95	
+R33	ALTERNATIVE_NAME Arg1:T95 Arg2:T71	
+T99	EVENT 918 942	расследование отравления
+R34	HAS_CAUSE Arg1:T99 Arg2:T71	
+R35	PARTICIPANT_IN Arg1:T92 Arg2:T99	
+R36	PARTICIPANT_IN Arg1:T84 Arg2:T99	
+R37	PARTICIPANT_IN Arg1:T34 Arg2:T99	
+T100	DISEASE 1564 1585	критическом состоянии
+R38	MEDICAL_CONDITION Arg1:T39 Arg2:T100	
+R39	MEDICAL_CONDITION Arg1:T37 Arg2:T100	
+R40	PARTICIPANT_IN Arg1:T39 Arg2:T73	
+R41	PARTICIPANT_IN Arg1:T37 Arg2:T73	
+R42	POINT_IN_TIME Arg1:T73 Arg2:T72	
+R43	TAKES_PLACE_IN Arg1:T73 Arg2:T40	
+T101	EVENT 1592 1602	отравления
+T102	EVENT 1709 1734	пострадали ещё 19 человек
+R44	HAS_CAUSE Arg1:T102 Arg2:T82	
+R45	WORKS_AS Arg1:T45 Arg2:T76	
+T103	EVENT 1856 1866	отравления
+R46	HAS_CAUSE Arg1:T77 Arg2:T103	
+R47	WORKPLACE Arg1:T47 Arg2:T48	
+R48	WORKS_AS Arg1:T47 Arg2:T49	
+R49	HEADQUARTERED_IN Arg1:T53 Arg2:T52	
+R50	WORKPLACE Arg1:T51 Arg2:T53	
+R51	ALTERNATIVE_NAME Arg1:T52 Arg2:T55	
+R52	PENALIZED_AS Arg1:T47 Arg2:T81	
+T104	PENALTY 2275 2290	лишения свободы
+R53	HAS_CAUSE Arg1:T81 Arg2:T74	
+R54	CONVICTED_OF Arg1:T47 Arg2:T74	
+T105	EVENT 2313 2323	помиловали
+R55	PARTICIPANT_IN Arg1:T78 Arg2:T105	
+R56	POINT_IN_TIME Arg1:T105 Arg2:T60	
+T106	EVENT 2326 2336	выдали США
+R57	PARTICIPANT_IN Arg1:T78 Arg2:T106	
+R58	PARTICIPANT_IN Arg1:T61 Arg2:T106	
+T107	PROFESSION 2372 2390	российских шпионов
+R59	WORKPLACE Arg1:T107 Arg2:T79	
+R60	WORKS_AS Arg1:T63 Arg2:T107	
+T9	PROFESSION 1430 1439	полковник
+T14	ORGANIZATION 1440 1443	ГРУ
+R61	WORKPLACE Arg1:T35 Arg2:T14	
+R62	WORKS_AS Arg1:T37 Arg2:T35	
+R63	WORKPLACE Arg1:T37 Arg2:T14	
+T108	PROFESSION 1194 1204	пехотинцев
+T23	EVENT 243 250	обедали
+R64	POINT_IN_TIME Arg1:T23 Arg2:T8	
+R65	TAKES_PLACE_IN Arg1:T23 Arg2:T5	
+R66	AGENT Arg1:T10 Arg2:T23	
+R67	AGENT Arg1:T11 Arg2:T23	
+R68	PARTICIPANT_IN Arg1:T70 Arg2:T95	
+T65	PROFESSION 1107 1121	военнослужащих
+T96	EVENT 1501 1519	найдены на лавочке
+R69	PARTICIPANT_IN Arg1:T39 Arg2:T96	
+R70	PARTICIPANT_IN Arg1:T37 Arg2:T96	
+R71	POINT_IN_TIME Arg1:T96 Arg2:T72	
+R72	TAKES_PLACE_IN Arg1:T96 Arg2:T40	
+R73	TAKES_PLACE_IN Arg1:T73 Arg2:T41	
+R74	WORKS_AS Arg1:T47 Arg2:T51	
+R75	WORKPLACE Arg1:T47 Arg2:T53	
+R76	PARTICIPANT_IN Arg1:T57 Arg2:T74	
+T98	CRIME 2216 2223	шпионаж
+N4	Reference T17 Wikidata:Q2314719	разведчик
+N5	Reference T19 Wikidata:Q2484309	министр внутренних дел Великобритании
+N6	Reference T20 Wikidata:Q479171	Радд, Эмбер
+N10	Reference T29 Wikidata:Q1421600	Королевский танковый полк
+N11	Reference T33 Wikidata:Q165862	Королевские военно-воздушные силы Великобритании
+N13	Reference T42 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N15	Reference T49 Wikidata:Q104680	полковник
+N16	Reference T50 Wikidata:Q50008	Таймс
+N17	Reference T53 Wikidata:Q184560	Секретная разведывательная служба
+N19	Reference T61 Wikidata:Q30	США
+N20	Reference T63 Wikidata:Q232776	Анна Васильевна Чапман
+N21	Reference T64 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N23	Reference T18 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N25	Reference T75 Wikidata:Q39631	врач
+N28	Reference T80 Wikidata:Q2314719	разведчик
+N31	Reference T84 Wikidata:Q1898583	морская пехота
+N33	Reference T88 Wikidata:Q83307	министр
+N35	Reference T93 Wikidata:Q189290	офицер
+N37	Reference T108 Wikidata:Q29171	пехота
+N38	Reference T65 Wikidata:Q47064	военнослужащий
+N1	Reference T2 Wikidata:NULL	нет данных
+N39	Reference T5 Wikidata:NULL	нет данных
+N22	Reference T68 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:Q50559234	
+N32	Reference T86 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:NULL	нет данных
+N40	Reference T87 Wikidata:NULL	нет данных
+N7	Reference T22 Wikidata:Q1790966	
+N8	Reference T26 Wikidata:Q160642	Солсбери
+N9	Reference T28 Wikidata:NULL	нет данных
+N34	Reference T92 Wikidata:NULL	нет данных
+N30	Reference T34 Wikidata:NULL	нет данных
+N29	Reference T83 Wikidata:Q5251156	
+N12	Reference T35 Wikidata:NULL	
+N24	Reference T59 Wikidata:Q384593	
+N14	Reference T45 Wikidata:NULL	нет данных
+N26	Reference T51 Wikidata:NULL	нет данных
+N18	Reference T55 Wikidata:Q145	Великобритания
+N41	Reference T62 Wikidata:Q30	США
+N27	Reference T79 Wikidata:Q159	Россия
+N36	Reference T107 Wikidata:NULL	нет данных
+N42	Reference T47 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N43	Reference T37 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N44	Reference T9 Wikidata:Q104680	полковник
+N45	Reference T69 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N46	Reference T78 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N47	Reference T10 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N48	Reference T56 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N49	Reference T14 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N50	Reference T48 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N51	Reference T67 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N52	Reference T91 Wikidata:Q189290	офицер
+N53	Reference T4 Wikidata:NULL	нет данных
+N54	Reference T1 Wikidata:NULL	нет данных
+N55	Reference T39 Wikidata:Q50559234	
+N56	Reference T13 Wikidata:Q160642	Солсбери
+N57	Reference T40 Wikidata:Q160642	Солсбери
+N58	Reference T7 Wikidata:Q160642	Солсбери
+N59	Reference T3 Wikidata:Q160642	Солсбери
+N60	Reference T41 Wikidata:Q160642	Солсбери
+N61	Reference T70 Wikidata:NULL	
+N62	Reference T76 Wikidata:Q384593	
+N63	Reference T57 Wikidata:Q145	Великобритания
+N64	Reference T15 Wikidata:Q145	Великобритания
+N65	Reference T52 Wikidata:Q145	Великобритания
+N66	Reference T6 Wikidata:Q145	Великобритания

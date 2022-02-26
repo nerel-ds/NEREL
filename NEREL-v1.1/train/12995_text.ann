@@ -1,0 +1,104 @@
+T1	NATIONALITY 0 8	Французы
+T2	COUNTRY 68 79	Французские
+T3	DATE 227 238	в 1991 году
+T4	ORGANIZATION 392 402	NEWSru.com
+T5	ORDINAL 406 412	Первый
+T6	DATE 442 453	в 1996 году
+T7	PERSON 514 526	Андре Мальро
+T8	DATE 537 548	в 1976 году
+T9	DATE 592 603	в 2005 году
+T10	PERSON 640 654	Жан-Поль Сартр
+T11	AGE 736 745	100-летию
+T12	PERSON 778 784	Сартра
+T13	DATE 906 917	В 2009 году
+T14	EVENT 921 930	фестивале
+T15	AGE 933 942	100-летию
+T16	PERSON 943 952	Жака Тати
+T17	NUMBER 1114 1118	двух
+T18	PROFESSION 1144 1153	дизайнера
+T19	PERSON 1154 1165	Коко Шанель
+T20	PROFESSION 1168 1173	поэта
+T21	PERSON 1174 1188	Сержа Генсбура
+T22	PROFESSION 1295 1318	министр здравоохранения
+T23	PERSON 1319 1328	Клод Эвин
+T24	PERSON 1397 1403	Сартра
+T25	PERSON 1406 1410	Тати
+T26	PROFESSION 1439 1481	Член парламента от Социалистической партии
+T27	ORGANIZATION 1458 1481	Социалистической партии
+T28	PERSON 1482 1493	Дидье Матус
+T29	PERSON 1739 1744	Матус
+T30	PERSON 1810 1816	Сартра
+T31	DATE 1954 1968	На этой неделе
+T32	LAW 18 66	закон, запрещающий публичные изображения курения
+T34	PROFESSION 80 93	парламентарии
+T36	LAW 123 179	закону, запрещающему любые публичные изображения курения
+T37	PROFESSION 616 639	философ-экзистенциалист
+T38	PROFESSION 505 513	писателя
+T39	NATIONALITY 604 615	французский
+T40	PROFESSION 993 1002	режиссёра
+T41	ORGANIZATION 1444 1454	парламента
+T42	IDEOLOGY 1458 1474	Социалистической
+T43	IDEOLOGY 1560 1573	тоталитарного
+T44	PROFESSION 1909 1917	философа
+T46	PROFESSION 2095 2109	парламентариев
+T49	ORGANIZATION 2153 2177	нижней палата парламента
+T50	ORGANIZATION 2167 2177	парламента
+R1	ALTERNATIVE_NAME Arg1:T32 Arg2:T36	
+R2	WORKS_AS Arg1:T7 Arg2:T38	
+R3	DATE_OF_DEATH Arg1:T7 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T10 Arg2:T12	
+R5	WORKS_AS Arg1:T19 Arg2:T18	
+R6	WORKS_AS Arg1:T21 Arg2:T20	
+R7	WORKS_AS Arg1:T30 Arg2:T44	
+R8	WORKS_AS Arg1:T10 Arg2:T37	
+R9	ORIGINS_FROM Arg1:T10 Arg2:T39	
+R10	ORIGINS_FROM Arg1:T37 Arg2:T39	
+R11	AGE_IS Arg1:T16 Arg2:T15	
+R12	WORKS_AS Arg1:T16 Arg2:T40	
+T47	PROFESSION 1295 1302	министр
+R14	WORKS_AS Arg1:T23 Arg2:T22	
+R15	ALTERNATIVE_NAME Arg1:T16 Arg2:T25	
+R16	WORKS_AS Arg1:T28 Arg2:T26	
+R17	MEMBER_OF Arg1:T28 Arg2:T27	
+R18	IDEOLOGY_OF Arg1:T28 Arg2:T42	
+R19	IDEOLOGY_OF Arg1:T27 Arg2:T42	
+R20	WORKPLACE Arg1:T26 Arg2:T41	
+R21	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R22	ORIGINS_FROM Arg1:T34 Arg2:T2	
+R13	INANIMATE_INVOLVED Arg1:T16 Arg2:T14	
+R23	POINT_IN_TIME Arg1:T14 Arg2:T13	
+R24	PART_OF Arg1:T49 Arg2:T50	
+R25	WORKPLACE Arg1:T46 Arg2:T50	
+N1	Reference T1 Wikidata:Q121842	французы
+N3	Reference T4 Wikidata:Q122544	NEWSru.com
+N4	Reference T7 Wikidata:Q151164	Андре Мальро
+N5	Reference T16 Wikidata:Q51549	Жак Тати
+N6	Reference T18 Wikidata:Q5322166	дизайнер
+N7	Reference T19 Wikidata:Q45661	Коко Шанель
+N8	Reference T20 Wikidata:Q49757	поэт
+N9	Reference T21 Wikidata:Q1698	Серж Генсбур
+N13	Reference T27 Wikidata:Q170972	Социалистическая партия
+N17	Reference T38 Wikidata:Q36180	писатель
+N19	Reference T40 Wikidata:Q3455803	режиссёр
+N20	Reference T41 Wikidata:Q35749	парламент
+N21	Reference T44 Wikidata:Q4964182	философ
+N22	Reference T46 Wikidata:Q486839	член парламента
+N23	Reference T47 Wikidata:Q83307	министр
+N2	Reference T2 Wikidata:Q142	Франция
+N15	Reference T36 Wikidata:NULL	нет данных
+N18	Reference T39 Wikidata:Q121842	французы
+N16	Reference T37 Wikidata:Q16897774	
+N24	Reference T22 Wikidata:Q3273722	
+N10	Reference T23 Wikidata:Q2978384	
+N11	Reference T24 Wikidata:Q9364	Жан-Поль Сартр
+N12	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T29 Wikidata:Q3027109	
+N25	Reference T49 Wikidata:Q375928	
+N26	Reference T25 Wikidata:Q51549	Жак Тати
+N27	Reference T50 Wikidata:Q35749	парламент
+N28	Reference T34 Wikidata:Q486839	член парламента
+N29	Reference T32 Wikidata:NULL	нет данных
+N30	Reference T30 Wikidata:Q9364	Жан-Поль Сартр
+N31	Reference T10 Wikidata:Q9364	Жан-Поль Сартр
+N32	Reference T12 Wikidata:Q9364	Жан-Поль Сартр
+N33	Reference T28 Wikidata:Q3027109	

@@ -1,0 +1,190 @@
+T1	PERSON 0 15	Уэнтуорт Миллер
+T2	CITY 28 47	санкт-петербургский
+T4	PERSON 62 77	Уэнтуорт Миллер
+T5	PROFESSION 99 108	сценарист
+T6	PERSON 109 124	Уэнтуорт Миллер
+T7	EVENT 148 195	Санкт-Петербургском международном кинофестивале
+T8	COUNTRY 325 331	России
+T10	AGE 363 372	41-летний
+T11	PERSON 420 426	Миллер
+T12	COUNTRY 515 525	российских
+T13	DATE 536 542	В июне
+T14	COUNTRY 553 559	России
+T15	PERSON 560 574	Владимир Путин
+T16	DATE 1044 1058	до двух недель
+T17	EVENT 1333 1368	зимней Олимпиады в Сочи в 2014 году
+T18	CITY 1352 1356	Сочи
+T19	PERSON 1545 1551	Миллер
+T20	PERSON 1653 1660	Миллера
+T21	WORK_OF_ART 1715 1727	Другого мира
+T22	WORK_OF_ART 1730 1740	Underworld
+T23	PERSON 1764 1779	Вентворт Миллер
+T24	COUNTRY 1814 1820	России
+T25	PROFESSION 1875 1886	телеведущая
+T26	PERSON 1887 1903	Эллен Дедженерес
+T27	PERSON 1907 1922	Вентворт Миллер
+T28	PROFESSION 1951 1956	актер
+T29	PROFESSION 1958 1966	продюсер
+T30	PERSON 1978 1996	Нейл Патрик Харрис
+T31	WORK_OF_ART 2034 2052	Доктор Дуги Хаузер
+T34	NATIONALITY 2204 2216	американский
+T35	ORGANIZATION 2237 2242	Bravo
+T36	PERSON 2243 2252	Энди Коэн
+T37	EVENT 2282 2296	Мисс Вселенная
+T39	EVENT 2313 2327	Мисс Вселенная
+T40	COUNTRY 2340 2346	России
+T41	PERSON 2351 2355	Коэн
+T42	ORGANIZATION 2393 2400	E! News
+T43	COUNTRY 2479 2485	России
+T44	PERSON 2603 2608	Коэна
+T45	COUNTRY 2677 2683	Россию
+T46	NATIONALITY 78 90	Американский
+T47	PROFESSION 91 96	актёр
+T48	CITY 148 167	Санкт-Петербургском
+T49	LAW 238 282	закона о запрете «пропаганды гомосексуализма
+T50	PROFESSION 343 362	директору фестиваля
+T51	WORK_OF_ART 388 393	Побег
+T52	WORK_OF_ART 396 408	Prison Break
+T53	ORGANIZATION 515 533	российских властей
+T54	PROFESSION 543 559	президент России
+T55	PROFESSION 543 552	президент
+T56	LAW 584 682	закон, запрещающий публичное проявление гомосексуальных отношений в присутствии несовершеннолетних
+T60	PENALTY 1017 1027	задержание
+T61	PENALTY 1030 1035	арест
+T62	PENALTY 1030 1081	арест на срок до двух недель с последующей высылкой
+T63	PENALTY 1030 1058	арест на срок до двух недель
+T67	EVENT 1414 1423	фестивале
+T68	PROFESSION 1861 1872	комедиантка
+T69	PROFESSION 1969 1977	директор
+T70	WORK_OF_ART 2079 2103	Как я встретил вашу маму
+T71	WORK_OF_ART 2106 2127	How I Met Your Mother
+T72	PROFESSION 2217 2223	шоумен
+T3	EVENT 28 61	санкт-петербургский кинофестиваль
+T73	EVENT 16 27	бойкотирует
+R1	AGENT Arg1:T1 Arg2:T73	
+R2	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R4	WORKS_AS Arg1:T6 Arg2:T47	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T46	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+R7	TAKES_PLACE_IN Arg1:T7 Arg2:T48	
+T74	EVENT 125 145	отказался от участия
+R9	AGENT Arg1:T6 Arg2:T74	
+R10	LOCATED_IN Arg1:T48 Arg2:T8	
+R11	AGE_IS Arg1:T6 Arg2:T10	
+R12	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R13	PARTICIPANT_IN Arg1:T6 Arg2:T51	
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R15	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R16	HEADQUARTERED_IN Arg1:T53 Arg2:T12	
+R17	WORKPLACE Arg1:T54 Arg2:T14	
+R18	WORKPLACE Arg1:T15 Arg2:T14	
+R19	WORKS_AS Arg1:T15 Arg2:T54	
+T75	EVENT 575 589	подписал закон
+R20	AGENT Arg1:T15 Arg2:T75	
+R21	PRODUCES Arg1:T15 Arg2:T56	
+R22	POINT_IN_TIME Arg1:T75 Arg2:T13	
+T64	PROFESSION 1296 1313	звезд шоу-бизнеса
+T76	EVENT 1325 1332	бойкоту
+R23	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+R25	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+T65	PROFESSION 1707 1713	звезды
+R26	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+R27	ALTERNATIVE_NAME Arg1:T26 Arg2:T25	
+R28	ALTERNATIVE_NAME Arg1:T26 Arg2:T68	
+R29	WORKS_AS Arg1:T30 Arg2:T69	
+R30	WORKS_AS Arg1:T30 Arg2:T29	
+R31	WORKS_AS Arg1:T30 Arg2:T28	
+T32	WORK_OF_ART 2055 2074	Doogie Howser, M.D.
+R32	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R33	PARTICIPANT_IN Arg1:T30 Arg2:T31	
+R34	PARTICIPANT_IN Arg1:T65 Arg2:T21	
+R35	PARTICIPANT_IN Arg1:T30 Arg2:T70	
+R36	ALTERNATIVE_NAME Arg1:T70 Arg2:T71	
+T33	PROFESSION 2144 2149	звезд
+R37	ORIGINS_FROM Arg1:T72 Arg2:T34	
+R38	ORIGINS_FROM Arg1:T36 Arg2:T34	
+R39	WORKS_AS Arg1:T36 Arg2:T72	
+R40	WORKPLACE Arg1:T36 Arg2:T35	
+R41	PARTICIPANT_IN Arg1:T36 Arg2:T37	
+T38	DATE 2300 2311	В этом году
+R42	POINT_IN_TIME Arg1:T39 Arg2:T38	
+R43	TAKES_PLACE_IN Arg1:T39 Arg2:T40	
+T77	EVENT 2362 2375	бойкотировать
+R44	AGENT Arg1:T41 Arg2:T77	
+R45	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+T78	EVENT 48 61	кинофестиваль
+T79	EVENT 168 195	международном кинофестивале
+T80	EVENT 182 195	кинофестивале
+T58	DATE 1357 1368	в 2014 году
+R24	POINT_IN_TIME Arg1:T17 Arg2:T58	
+T59	EVENT 1340 1356	Олимпиады в Сочи
+T66	EVENT 1340 1349	Олимпиады
+T81	CRIME 256 282	пропаганды гомосексуализма
+T57	CRIME 603 682	публичное проявление гомосексуальных отношений в присутствии несовершеннолетних
+R46	ALTERNATIVE_NAME Arg1:T64 Arg2:T65	
+R8	ALTERNATIVE_NAME Arg1:T73 Arg2:T74	
+R47	HAS_CAUSE Arg1:T74 Arg2:T49	
+R48	WORKPLACE Arg1:T50 Arg2:T7	
+R49	INANIMATE_INVOLVED Arg1:T56 Arg2:T75	
+T9	PERSON 2041 2052	Дуги Хаузер
+T82	PERSON 2055 2068	Doogie Howser
+R50	ALTERNATIVE_NAME Arg1:T9 Arg2:T82	
+R51	WORKPLACE Arg1:T72 Arg2:T35	
+R52	ALTERNATIVE_NAME Arg1:T41 Arg2:T44	
+N1	Reference T5 Wikidata:Q28389	сценарист
+N3	Reference T15 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T18 Wikidata:Q39420	Сочи
+N6	Reference T25 Wikidata:Q947873	телеведущий
+N7	Reference T26 Wikidata:Q483325	Эллен Дедженерес
+N8	Reference T27 Wikidata:Q484662	Уэнтуорт Миллер
+N15	Reference T45 Wikidata:Q159	Россия
+N17	Reference T47 Wikidata:Q33999	актёр
+N20	Reference T52 Wikidata:Q80044	Побег
+N22	Reference T54 Wikidata:Q218295	президент Российской Федерации
+N23	Reference T55 Wikidata:Q30461	президент
+N25	Reference T68 Wikidata:Q245068	комик
+N28	Reference T72 Wikidata:Q355242	шоумен
+N16	Reference T46 Wikidata:Q846570	
+N18	Reference T48 Wikidata:Q656	Санкт-Петербург
+N31	Reference T49 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:Q484662	Уэнтуорт Миллер
+N14	Reference T42 Wikidata:Q5321351	
+N13	Reference T41 Wikidata:Q2014922	
+N12	Reference T35 Wikidata:Q902771	
+N27	Reference T71 Wikidata:Q147235	
+N11	Reference T31 Wikidata:Q937913	
+N10	Reference T30 Wikidata:Q485310	
+N21	Reference T53 Wikidata:NULL	нет данных
+N24	Reference T56 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:Q164804	
+N9	Reference T29 Wikidata:Q47541952	
+N26	Reference T69 Wikidata:Q1162163	директор
+N30	Reference T82 Wikidata:NULL	нет данных
+N29	Reference T65 Wikidata:Q211236	знаменитый человек
+N32	Reference T19 Wikidata:Q484662	Уэнтуорт Миллер
+N33	Reference T23 Wikidata:Q484662	Уэнтуорт Миллер
+N34	Reference T20 Wikidata:Q484662	Уэнтуорт Миллер
+N35	Reference T40 Wikidata:Q159	Россия
+N36	Reference T8 Wikidata:Q159	Россия
+N37	Reference T12 Wikidata:Q159	Россия
+N38	Reference T14 Wikidata:Q159	Россия
+N39	Reference T24 Wikidata:Q159	Россия
+N40	Reference T43 Wikidata:Q159	Россия
+N41	Reference T28 Wikidata:Q33999	актёр
+N42	Reference T51 Wikidata:Q80044	Побег
+N43	Reference T34 Wikidata:Q846570	
+N44	Reference T2 Wikidata:Q656	Санкт-Петербург
+N45	Reference T4 Wikidata:Q484662	Уэнтуорт Миллер
+N46	Reference T6 Wikidata:Q484662	Уэнтуорт Миллер
+N47	Reference T1 Wikidata:Q484662	Уэнтуорт Миллер
+N48	Reference T36 Wikidata:Q2014922	
+N49	Reference T44 Wikidata:Q2014922	
+N50	Reference T70 Wikidata:Q147235	
+N51	Reference T32 Wikidata:Q937913	
+N52	Reference T21 Wikidata:Q164804	
+N53	Reference T9 Wikidata:NULL	нет данных
+N54	Reference T33 Wikidata:Q211236	знаменитый человек
+N55	Reference T64 Wikidata:Q211236	знаменитый человек
+R53	HAS_CAUSE Arg1:T76 Arg2:T17	

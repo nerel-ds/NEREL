@@ -1,0 +1,144 @@
+T1	FACILITY 0 7	Биг-Бен
+T2	FACILITY 23 38	Башню Елизаветы
+T3	FACILITY 39 54	Башня Елизаветы
+T4	FACILITY 56 63	Биг-Бен
+T5	DATE 66 87	12 сентября 2012 года
+T6	CITY 105 112	Лондона
+T7	FACILITY 116 123	Биг-Бен
+T8	FACILITY 126 133	Big Ben
+T10	NUMBER 137 148	96-метровая
+T11	FACILITY 163 186	Вестминстерского дворца
+T12	FACILITY 219 234	Башню Елизаветы
+T13	AGE 245 255	60-летнего
+T14	PERSON 282 294	Елизаветы II
+T15	PROFESSION 346 352	спикер
+T16	ORGANIZATION 353 365	Палаты общин
+T17	PERSON 366 377	Джон Беркау
+T18	PERSON 444 457	Ее Величество
+T21	DATE 485 505	в этот особенный год
+T22	NUMBER 518 521	три
+T23	DATE 666 678	В конце июня
+T24	ORGANIZATION 688 700	Палаты общин
+T25	PROFESSION 753 761	королевы
+T26	PERSON 762 774	Елизаветы II
+T27	ORDINAL 784 790	вторым
+T28	COUNTRY 810 824	Великобритании
+T29	AGE 837 845	60-летие
+T30	ORDINAL 865 871	первая
+T31	PROFESSION 874 882	королева
+T33	FACILITY 946 961	Башню Елизаветы
+T34	IDEOLOGY 1000 1011	консерватор
+T35	PERSON 1012 1025	Тобайас Элвуд
+T36	DATE 1061 1074	мае 1859 года
+T37	FACILITY 1104 1142	Часовой башней Вестминстерского дворца
+T38	FACILITY 1152 1159	Биг-Бен
+T39	NUMBER 1184 1189	шести
+T40	DATE 1280 1291	в 1860 году
+T41	FACILITY 1293 1305	Башню короля
+T43	FACILITY 1365 1379	Башню Виктории
+T44	PERSON 29 38	Елизаветы
+T45	PERSON 45 54	Елизаветы
+T46	NUMBER 88 92	один
+T9	DISTRICT 163 179	Вестминстерского
+T47	PERSON 225 234	Елизаветы
+T50	PROFESSION 273 281	королевы
+T51	ORDINAL 292 294	II
+T52	EVENT 311 320	церемонии
+T53	PROFESSION 346 365	спикер Палаты общин
+T19	ORGANIZATION 474 484	Парламента
+T20	PERSON 603 616	Ее Величеству
+T54	ORGANIZATION 688 715	Палаты общин Великобритании
+T55	ORGANIZATION 679 715	комиссия Палаты общин Великобритании
+T56	COUNTRY 701 715	Великобритании
+T58	ORDINAL 772 774	II
+T59	PROFESSION 791 799	монархом
+T61	EVENT 245 272	60-летнего юбилея правления
+T62	PERSON 883 891	Виктория
+T32	PERSON 952 961	Елизаветы
+T63	DISTRICT 1119 1135	Вестминстерского
+T64	FACILITY 1119 1142	Вестминстерского дворца
+T42	FACILITY 1337 1347	парламента
+T65	PERSON 1371 1379	Виктории
+T66	PROFESSION 1399 1412	правительницы
+T67	LOCATION 1322 1347	западном крыле парламента
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R4	LOCATED_IN Arg1:T7 Arg2:T6	
+R5	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R6	WORKS_AS Arg1:T14 Arg2:T50	
+R7	PARTICIPANT_IN Arg1:T14 Arg2:T61	
+R8	LOCATED_IN Arg1:T11 Arg2:T9	
+R9	PART_OF Arg1:T7 Arg2:T11	
+T68	EVENT 311 345	церемонии по поводу переименования
+R10	PARTICIPANT_IN Arg1:T17 Arg2:T68	
+R11	WORKS_AS Arg1:T17 Arg2:T53	
+R12	WORKPLACE Arg1:T17 Arg2:T16	
+R13	ALTERNATIVE_NAME Arg1:T14 Arg2:T18	
+R14	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R15	PART_OF Arg1:T55 Arg2:T54	
+R16	HEADQUARTERED_IN Arg1:T54 Arg2:T56	
+R17	WORKS_AS Arg1:T26 Arg2:T25	
+R18	WORKS_AS Arg1:T26 Arg2:T59	
+R19	WORKPLACE Arg1:T26 Arg2:T28	
+R20	WORKS_AS Arg1:T62 Arg2:T31	
+R21	IDEOLOGY_OF Arg1:T35 Arg2:T34	
+R22	DATE_FOUNDED_IN Arg1:T37 Arg2:T36	
+R23	PART_OF Arg1:T37 Arg2:T64	
+R24	LOCATED_IN Arg1:T64 Arg2:T63	
+R25	WORKS_AS Arg1:T65 Arg2:T66	
+R26	ALTERNATIVE_NAME Arg1:T41 Arg2:T43	
+R27	HAS_CAUSE Arg1:T68 Arg2:T61	
+T69	EVENT 727 752	официального дня рождения
+R28	ALTERNATIVE_NAME Arg1:T61 Arg2:T69	
+R29	PART_OF Arg1:T38 Arg2:T37	
+R30	WORKPLACE Arg1:T53 Arg2:T16	
+R31	AGE_IS Arg1:T61 Arg2:T13	
+R32	PARTICIPANT_IN Arg1:T26 Arg2:T69	
+R33	WORKPLACE Arg1:T59 Arg2:T28	
+R34	WORKPLACE Arg1:T62 Arg2:T28	
+N1	Reference T1 Wikidata:Q41225	Биг-Бен
+N2	Reference T4 Wikidata:Q41225	Биг-Бен
+N3	Reference T6 Wikidata:Q84	Лондон
+N4	Reference T8 Wikidata:Q41225	Биг-Бен
+N5	Reference T11 Wikidata:Q62408	Вестминстерский дворец
+N7	Reference T16 Wikidata:Q11005	Палата общин Великобритании
+N8	Reference T17 Wikidata:Q263147	Джон Беркоу
+N15	Reference T53 Wikidata:Q464103	спикер Палаты общин Великобритании
+N16	Reference T19 Wikidata:Q35749	парламент
+N17	Reference T54 Wikidata:Q11005	Палата общин Великобритании
+N19	Reference T56 Wikidata:Q145	Великобритания
+N20	Reference T59 Wikidata:Q116	монарх
+N22	Reference T42 Wikidata:Q35749	парламент
+N24	Reference T67 Wikidata:Q3577037	Западное крыло
+N14	Reference T9 Wikidata:Q179351	
+N25	Reference T66 Wikidata:Q1097498	правитель
+N23	Reference T65 Wikidata:Q9439	
+N6	Reference T15 Wikidata:Q1758037	спикер
+N9	Reference T18 Wikidata:Q9682	Елизавета II
+N18	Reference T55 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q16511993	
+N21	Reference T32 Wikidata:Q9682	Елизавета II
+N11	Reference T35 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:Q41225	Биг-Бен
+N13	Reference T41 Wikidata:NULL	нет данных
+N26	Reference T2 Wikidata:Q41225	Биг-Бен
+N27	Reference T3 Wikidata:Q41225	Биг-Бен
+N28	Reference T38 Wikidata:Q41225	Биг-Бен
+N29	Reference T12 Wikidata:Q41225	Биг-Бен
+N30	Reference T7 Wikidata:Q41225	Биг-Бен
+N31	Reference T33 Wikidata:Q41225	Биг-Бен
+N32	Reference T64 Wikidata:Q62408	Вестминстерский дворец
+N33	Reference T24 Wikidata:Q11005	Палата общин Великобритании
+N34	Reference T28 Wikidata:Q145	Великобритания
+N35	Reference T63 Wikidata:Q179351	
+N36	Reference T62 Wikidata:Q9439	
+N37	Reference T14 Wikidata:Q9682	Елизавета II
+N38	Reference T20 Wikidata:Q9682	Елизавета II
+N39	Reference T26 Wikidata:Q9682	Елизавета II
+N40	Reference T50 Wikidata:Q16511993	
+N41	Reference T31 Wikidata:Q16511993	
+N42	Reference T44 Wikidata:Q9682	Елизавета II
+N43	Reference T47 Wikidata:Q9682	Елизавета II
+N44	Reference T45 Wikidata:Q9682	Елизавета II
+N45	Reference T43 Wikidata:NULL	нет данных

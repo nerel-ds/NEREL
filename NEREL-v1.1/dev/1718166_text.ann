@@ -1,0 +1,113 @@
+T1	COUNTRY 2 10	Британии
+T2	AGE 11 21	100-летний
+T3	EVENT 30 44	Второй мировой
+T5	NUMBER 106 109	200
+T6	ORGANIZATION 122 157	Национальной службы здравоохранения
+T7	DISEASE 228 236	COVID-19
+T8	EVENT 245 265	Второй мировой войны
+T9	COUNTRY 269 283	Великобритании
+T10	PERSON 284 291	Том Мур
+T11	MONEY 344 374	30 миллионов фунтов стерлингов
+T12	COUNTRY 416 426	британский
+T13	DATE 466 485	30 апреля 2020 года
+T14	AGE 502 512	100-летний
+T16	PROFESSION 557 565	королева
+T17	PROFESSION 581 596	премьер-министр
+T18	PROFESSION 613 620	Капитан
+T19	NUMBER 639 648	140 тысяч
+T21	NUMBER 775 778	два
+T22	PRODUCT 792 808	Хоукер Харрикейн
+T23	PRODUCT 813 821	Спитфайр
+T24	ORGANIZATION 850 865	Королевских ВВС
+T25	EVENT 875 895	Второй мировой войны
+T27	DATE 1043 1058	В начале апреля
+T28	PROFESSION 1064 1072	капитана
+T29	PERSON 1073 1089	Ханна Ингрэм-Мур
+T30	ORGANIZATION 1162 1197	Национальной службы здравоохранения
+T31	DATE 1200 1208	9 апреля
+T32	ORGANIZATION 1318 1328	JustGiving
+T33	NUMBER 1372 1375	100
+T34	AGE 1446 1453	100 лет
+T35	NUMBER 1515 1521	2,5 км
+T4	MONEY 58 65	£30 млн
+T36	PROFESSION 70 76	врачей
+T37	ORGANIZATION 122 172	Национальной службы здравоохранения Великобритании
+T38	COUNTRY 158 172	Великобритании
+T39	WORK_OF_ART 441 464	Youʼll Never Walk Alone
+T40	PROFESSION 330 336	врачей
+T43	PROFESSION 532 540	капитана
+T44	PERSON 541 545	Тома
+T45	PERSON 566 578	Елизавета II
+T46	ORDINAL 576 578	II
+T48	PERSON 597 610	Борис Джонсон
+T49	PERSON 621 624	Том
+T20	PROFESSION 751 759	капитана
+T50	PERSON 760 764	Тома
+T51	ORGANIZATION 862 865	ВВС
+T52	PERSON 906 910	Муру
+T26	FAMILY 1209 1228	семья капитана Мура
+T53	PROFESSION 1215 1223	капитана
+T54	PERSON 1224 1228	Мура
+R1	AGE_IS Arg1:T10 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T10 Arg2:T8	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R4	HEADQUARTERED_IN Arg1:T37 Arg2:T38	
+R5	WORKS_AS Arg1:T45 Arg2:T16	
+R6	WORKS_AS Arg1:T48 Arg2:T17	
+R7	WORKS_AS Arg1:T50 Arg2:T20	
+R8	ALTERNATIVE_NAME Arg1:T50 Arg2:T52	
+R9	PARENT_OF Arg1:T52 Arg2:T29	
+R10	WORKS_AS Arg1:T52 Arg2:T28	
+R11	PARENT_OF Arg1:T28 Arg2:T29	
+R12	WORKS_AS Arg1:T54 Arg2:T53	
+R13	MEMBER_OF Arg1:T54 Arg2:T26	
+R14	ALTERNATIVE_NAME Arg1:T1 Arg2:T38	
+R15	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T4 Arg2:T11	
+R17	ALTERNATIVE_NAME Arg1:T9 Arg2:T12	
+R18	WORKS_AS Arg1:T44 Arg2:T43	
+R19	WORKPLACE Arg1:T16 Arg2:T12	
+R20	WORKPLACE Arg1:T45 Arg2:T12	
+R21	WORKPLACE Arg1:T48 Arg2:T12	
+T15	EVENT 546 556	поздравили
+R22	PARTICIPANT_IN Arg1:T44 Arg2:T15	
+R23	WORKS_AS Arg1:T49 Arg2:T18	
+R24	PARTICIPANT_IN Arg1:T45 Arg2:T15	
+R25	PARTICIPANT_IN Arg1:T48 Arg2:T15	
+R26	OWNER_OF Arg1:T24 Arg2:T23	
+R27	OWNER_OF Arg1:T24 Arg2:T22	
+T41	ORDINAL 30 36	Второй
+T42	DATE 234 236	19
+T47	ORDINAL 245 251	Второй
+T55	ORDINAL 875 881	Второй
+N1	Reference T1 Wikidata:Q145	Великобритания
+N2	Reference T10 Wikidata:Q90561312	Том Мур
+N5	Reference T17 Wikidata:Q14212	премьер-министр
+N6	Reference T18 Wikidata:Q19100	капитан
+N7	Reference T22 Wikidata:Q194251	Hawker Hurricane
+N8	Reference T23 Wikidata:Q29190	Supermarine Spitfire
+N9	Reference T24 Wikidata:Q165862	Королевские военно-воздушные силы Великобритании
+N11	Reference T30 Wikidata:Q918396	Национальная служба здравоохранения Великобритании
+N12	Reference T36 Wikidata:Q39631	врач
+N13	Reference T37 Wikidata:Q918396	Национальная служба здравоохранения Великобритании
+N14	Reference T39 Wikidata:Q728692	You’ll Never Walk Alone
+N16	Reference T45 Wikidata:Q9682	Елизавета II
+N17	Reference T48 Wikidata:Q180589	Борис Джонсон
+N19	Reference T51 Wikidata:Q61883	военно-воздушные силы
+N3	Reference T12 Wikidata:Q145	Великобритания
+N15	Reference T44 Wikidata:Q90561312	Том Мур
+N4	Reference T16 Wikidata:Q16511993	
+N18	Reference T49 Wikidata:Q90561312	Том Мур
+N10	Reference T29 Wikidata:NULL	нет данных
+N20	Reference T32 Wikidata:Q6316819	
+N21	Reference T38 Wikidata:Q145	Великобритания
+N22	Reference T20 Wikidata:Q19100	капитан
+N23	Reference T53 Wikidata:Q19100	капитан
+N24	Reference T43 Wikidata:Q19100	капитан
+N25	Reference T28 Wikidata:Q19100	капитан
+N26	Reference T6 Wikidata:Q918396	Национальная служба здравоохранения Великобритании
+N27	Reference T40 Wikidata:Q39631	врач
+N28	Reference T9 Wikidata:Q145	Великобритания
+N29	Reference T50 Wikidata:Q90561312	Том Мур
+N30	Reference T54 Wikidata:Q90561312	Том Мур
+N31	Reference T52 Wikidata:Q90561312	Том Мур

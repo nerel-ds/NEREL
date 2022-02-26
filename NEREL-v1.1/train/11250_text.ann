@@ -1,0 +1,138 @@
+T1	NUMBER 0 3	Два
+T2	NATIONALITY 17 24	киприот
+T3	AWARD 35 66	Нобелевскую премию по экономике
+T4	EVENT 90 99	присудила
+T5	DATE 132 141	2010 года
+T6	PERSON 159 175	Дэйлу Мортенсону
+T7	PERSON 178 200	Кристоферу Писсаридесу
+T8	NUMBER 320 325	троих
+T9	AGE 471 480	70-летний
+T10	PROFESSION 490 568	профессор экономического факультета Массачусетского технологического института
+T11	ORGANIZATION 526 568	Массачусетского технологического института
+T13	PROFESSION 648 659	президентом
+T15	ORGANIZATION 685 714	Федеральной резервной системы
+T16	ORGANIZATION 716 727	Центробанка
+T17	COUNTRY 729 732	США
+T18	ORGANIZATION 768 775	Сенатом
+T19	AGE 778 787	71-летний
+T20	PROFESSION 800 819	профессор экономики
+T21	ORGANIZATION 820 848	Северозападного университета
+T22	CITY 851 860	Эванстоне
+T23	STATE_OR_PROVINCE 866 874	Иллинойс
+T24	AGE 877 886	62-летний
+T25	ORGANIZATION 910 936	Лондонской школе экономики
+T26	MONEY 990 998	$1,5 млн
+T27	AWARD 1001 1020	Премия по экономике
+T29	ORGANIZATION 1076 1101	Центральным банком Швеции
+T30	PERSON 1122 1137	Альфреда Нобеля
+T31	EVENT 1174 1183	церемонии
+T32	CITY 1186 1196	Стокгольме
+T33	DATE 1232 1243	в 1896 году
+T34	NATIONALITY 4 14	американца
+T35	ORGANIZATION 67 89	Шведская Академия наук
+T36	COUNTRY 67 75	Шведская
+T37	AWARD 100 131	Нобелевскую премию по экономике
+T38	PERSON 142 157	Питеру Даймонду
+T39	PROFESSION 326 332	ученых
+T40	PERSON 481 488	Даймонд
+T41	PERSON 788 797	Мортенсон
+T42	PERSON 887 897	Писсаридис
+T43	PERSON 660 666	Обамой
+T44	STATE_OR_PROVINCE 526 541	Массачусетского
+T45	ORGANIZATION 500 568	экономического факультета Массачусетского технологического института
+T46	PROFESSION 800 848	профессор экономики Северозападного университета
+T47	COUNTRY 1095 1101	Швеции
+T48	DATE 1102 1113	в 1968 году
+T49	DATE 1197 1207	10 декабря
+T50	AWARD 35 53	Нобелевскую премию
+R4	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R5	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R6	AGE_IS Arg1:T40 Arg2:T9	
+R7	WORKS_AS Arg1:T40 Arg2:T10	
+R8	WORKPLACE Arg1:T40 Arg2:T45	
+R9	PART_OF Arg1:T45 Arg2:T11	
+R10	HEADQUARTERED_IN Arg1:T11 Arg2:T44	
+R11	WORKS_AS Arg1:T43 Arg2:T13	
+R12	ALTERNATIVE_NAME Arg1:T6 Arg2:T41	
+R13	AGE_IS Arg1:T42 Arg2:T24	
+R14	AGE_IS Arg1:T41 Arg2:T19	
+T51	CITY 910 920	Лондонской
+R15	HEADQUARTERED_IN Arg1:T25 Arg2:T51	
+R16	WORKPLACE Arg1:T42 Arg2:T25	
+R17	WORKS_AS Arg1:T41 Arg2:T46	
+R18	WORKPLACE Arg1:T46 Arg2:T21	
+R19	HEADQUARTERED_IN Arg1:T21 Arg2:T22	
+R20	LOCATED_IN Arg1:T22 Arg2:T23	
+R21	PRODUCES Arg1:T29 Arg2:T27	
+T52	ORGANIZATION 1076 1094	Центральным банком
+R22	HEADQUARTERED_IN Arg1:T29 Arg2:T47	
+R23	TAKES_PLACE_IN Arg1:T31 Arg2:T32	
+R24	POINT_IN_TIME Arg1:T31 Arg2:T49	
+R25	AGENT Arg1:T35 Arg2:T4	
+R26	PARTICIPANT_IN Arg1:T38 Arg2:T4	
+R27	PARTICIPANT_IN Arg1:T7 Arg2:T4	
+R28	ORIGINS_FROM Arg1:T38 Arg2:T34	
+R29	ORIGINS_FROM Arg1:T6 Arg2:T34	
+R30	ORIGINS_FROM Arg1:T7 Arg2:T2	
+R31	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R32	HEADQUARTERED_IN Arg1:T15 Arg2:T17	
+R33	DATE_OF_DEATH Arg1:T30 Arg2:T33	
+T12	AWARD 100 141	Нобелевскую премию по экономике 2010 года
+T14	AWARD 100 118	Нобелевскую премию
+R1	AWARDED_WITH Arg1:T38 Arg2:T12	
+R2	AWARDED_WITH Arg1:T6 Arg2:T12	
+R3	AWARDED_WITH Arg1:T7 Arg2:T12	
+R34	WORKS_AS Arg1:T38 Arg2:T39	
+R35	WORKS_AS Arg1:T6 Arg2:T39	
+R36	WORKS_AS Arg1:T7 Arg2:T39	
+R37	POINT_IN_TIME Arg1:T12 Arg2:T5	
+R38	INANIMATE_INVOLVED Arg1:T12 Arg2:T4	
+T53	PERSON 35 46	Нобелевскую
+R39	PRODUCES Arg1:T53 Arg2:T50	
+T54	PERSON 100 111	Нобелевскую
+R40	PRODUCES Arg1:T54 Arg2:T14	
+T55	AWARD 1036 1047	нобелевском
+R41	ALTERNATIVE_NAME Arg1:T54 Arg2:T30	
+R42	INANIMATE_INVOLVED Arg1:T27 Arg2:T31	
+N1	Reference T2 Wikidata:Q245794	греки-киприоты
+N2	Reference T7 Wikidata:Q109582	Кристофер Писсаридес
+N4	Reference T11 Wikidata:Q49108	Массачусетский технологический институт
+N5	Reference T13 Wikidata:Q30461	президент
+N6	Reference T15 Wikidata:Q53536	Федеральная резервная система
+N7	Reference T17 Wikidata:Q30	США
+N8	Reference T18 Wikidata:Q1788871	Правительствующий сенат
+N10	Reference T22 Wikidata:Q462799	Эванстон
+N11	Reference T23 Wikidata:Q1204	Иллинойс
+N12	Reference T25 Wikidata:Q174570	Лондонская школа экономики и политических наук
+N13	Reference T27 Wikidata:Q47170	премия Шведского национального банка по экономическим наукам памяти Альфреда Нобеля
+N14	Reference T29 Wikidata:Q564652	Центральный банк Швеции
+N15	Reference T30 Wikidata:Q23810	Альфред Нобель
+N16	Reference T32 Wikidata:Q1754	Стокгольм
+N18	Reference T35 Wikidata:Q191583	Шведская королевская академия наук
+N20	Reference T37 Wikidata:Q47170	премия Шведского национального банка по экономическим наукам памяти Альфреда Нобеля
+N21	Reference T38 Wikidata:Q109570	Питер Даймонд
+N22	Reference T39 Wikidata:Q901	учёный
+N23	Reference T41 Wikidata:Q2658909	Мортенсон, Грег
+N24	Reference T42 Wikidata:Q109582	Кристофер Писсаридес
+N25	Reference T43 Wikidata:Q76	Барак Обама
+N29	Reference T47 Wikidata:Q34	Швеция
+N30	Reference T50 Wikidata:Q7191	Нобелевская премия
+N32	Reference T52 Wikidata:Q66344	центральный банк
+N34	Reference T55 Wikidata:Q7191	Нобелевская премия
+N17	Reference T34 Wikidata:Q846570	
+N19	Reference T36 Wikidata:Q34	
+N33	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N26	Reference T44 Wikidata:Q771	Массачусетс
+N27	Reference T45 Wikidata:NULL	нет данных
+N35	Reference T20 Wikidata:Q55104588	
+N9	Reference T21 Wikidata:Q309350	Северо-Западный университет
+N28	Reference T46 Wikidata:NULL	нет данных
+N31	Reference T51 Wikidata:Q84	Лондон
+N36	Reference T16 Wikidata:Q53536	Федеральная резервная система
+N37	Reference T53 Wikidata:Q23810	Альфред Нобель
+N38	Reference T54 Wikidata:Q23810	Альфред Нобель
+N39	Reference T3 Wikidata:Q47170	премия Шведского национального банка по экономическим наукам памяти Альфреда Нобеля
+N40	Reference T40 Wikidata:Q109570	Питер Даймонд
+N41	Reference T6 Wikidata:Q2658909	Мортенсон, Грег
+N42	Reference T14 Wikidata:Q7191	Нобелевская премия

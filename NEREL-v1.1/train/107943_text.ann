@@ -1,0 +1,218 @@
+T1	ORGANIZATION 13 21	Пересвет
+T2	ORGANIZATION 69 96	Русской Православной церкви
+T3	EVENT 98 130	Российская национальная выставка
+T4	CITY 132 137	Минск
+T5	COUNTRY 139 149	Белоруссия
+T6	ORGANIZATION 151 162	Банк России
+T7	ORDINAL 206 212	первую
+T8	NUMBER 213 218	сотню
+T10	ORGANIZATION 312 320	Пересвет
+T11	ORGANIZATION 364 392	Русская православная церковь
+T12	ORGANIZATION 499 507	Пересвет
+T13	ORGANIZATION 585 590	ЦБ РФ
+T14	COUNTRY 588 590	РФ
+T15	ORGANIZATION 612 624	Банка России
+T16	DATE 625 638	от 21 10 2016
+T17	LAW 639 646	ОД 3628
+T18	DATE 744 753	семь дней
+T19	DATE 799 816	с 21 10 2016 года
+T20	ORGANIZATION 865 988	Акционерным коммерческим банком содействия благотворительности и духовному развитию Отечества ПЕРЕСВЕТ Акционерное общество
+T22	ORGANIZATION 959 967	ПЕРЕСВЕТ
+T23	DATE 996 1012	на шесть месяцев
+T26	ORGANIZATION 1094 1109	АКБ ПЕРЕСВЕТ АО
+T29	ORGANIZATION 1278 1290	Банка России
+T30	DATE 1291 1309	от 21 10 2016 года
+T31	LAW 1310 1317	ОД 3629
+T32	LAW 1336 1402	статьей 189 38 Федерального закона О несостоятельности банкротстве
+T33	ORGANIZATION 1464 1472	ПЕРЕСВЕТ
+T36	COUNTRY 1559 1579	Российской Федерации
+T37	ORGANIZATION 1691 1706	АКБ ПЕРЕСВЕТ АО
+T39	ORGANIZATION 1887 1919	Агентство по страхованию вкладов
+T40	ORGANIZATION 1920 1931	Банк России
+T41	ORGANIZATION 1994 2006	АКБ ПЕРЕСВЕТ
+T42	TIME 2086 2104	За несколько часов
+T43	ORGANIZATION 2150 2181	Standard & Poors Global Ratings
+T44	ORGANIZATION 2183 2186	S&P
+T45	ORGANIZATION 2235 2243	Пересвет
+T51	DATE 2553 2573	20 октября 2016 года
+T52	ORGANIZATION 2596 2601	Fitch
+T53	DATE 2746 2759	В тот же день
+T54	COUNTRY 2760 2770	российские
+T55	ORGANIZATION 2793 2797	RAEX
+T58	ORGANIZATION 2813 2824	Рус-Рейтинг
+T59	ORGANIZATION 2826 2835	RusRating
+T60	DATE 2897 2902	Вчера
+T61	ORGANIZATION 2904 2912	Пересвет
+T62	MONEY 2932 2952	два миллиарда рублей
+T64	DATE 3081 3094	В тот же день
+T65	ORGANIZATION 3096 3104	Пересвет
+T66	DATE 3168 3188	19 августа 2014 года
+T67	MONEY 3209 3230	100,2 миллиона рублей
+T68	ORGANIZATION 3248 3256	Пересвет
+T69	MONEY 3338 3358	два миллиарда рублей
+T70	DATE 3393 3412	В октябре 2016 года
+T71	ORGANIZATION 3461 3466	Fitch
+T72	ORGANIZATION 3505 3514	Пересвета
+T73	MONEY 3660 3680	17 миллиардов рублей
+T74	MONEY 3681 3694	12 миллиардов
+T75	ORGANIZATION 3799 3807	Пересвет
+T76	ORGANIZATION 3866 3871	Fitch
+T77	ORGANIZATION 3880 3888	Пересвет
+T78	DATE 3899 3918	с октября 1992 года
+T79	PERCENT 3920 3938	Более 49 процентов
+T80	ORGANIZATION 3957 3960	РПЦ
+T81	PERCENT 3966 3977	24 процента
+T82	ORGANIZATION 3980 4007	Торгово-промышленной палате
+T83	COUNTRY 4008 4014	России
+T84	DATE 4026 4053	первого полугодия 2016 года
+T85	ORDINAL 4068 4072	41-е
+T86	LAW 603 646	Приказом Банка России от 21 10 2016 ОД 3628
+T21	ORGANIZATION 1460 1475	АКБ ПЕРЕСВЕТ АО
+T24	ORGANIZATION 2640 2649	Пересвета
+T25	ORGANIZATION 2799 2809	Эксперт РА
+T27	ORGANIZATION 3980 4014	Торгово-промышленной палате России
+T28	ORGANIZATION 1098 1106	ПЕРЕСВЕТ
+R1	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+T47	ORGANIZATION 8 11	РПЦ
+R2	OWNER_OF Arg1:T47 Arg2:T1	
+R3	ABBREVIATION Arg1:T2 Arg2:T47	
+T48	COUNTRY 156 162	России
+T49	EVENT 23 52	ввели временную администрацию
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T49	
+T50	EVENT 163 191	ввёл временную администрация
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T50	
+R7	OWNER_OF Arg1:T11 Arg2:T10	
+R8	HEADQUARTERED_IN Arg1:T6 Arg2:T48	
+T56	RELIGION 372 384	православная
+R9	RELIGION_OF Arg1:T11 Arg2:T56	
+T87	COUNTRY 618 624	России
+R10	HEADQUARTERED_IN Arg1:T15 Arg2:T87	
+R11	DATE_OF_CREATION Arg1:T86 Arg2:T16	
+T88	EVENT 817 850	назначена временная администрация
+R12	PARTICIPANT_IN Arg1:T15 Arg2:T88	
+R13	PARTICIPANT_IN Arg1:T20 Arg2:T88	
+R14	ALTERNATIVE_NAME Arg1:T26 Arg2:T28	
+R15	OWNER_OF Arg1:T80 Arg2:T77	
+R16	OWNER_OF Arg1:T27 Arg2:T77	
+R17	DATE_FOUNDED_IN Arg1:T77 Arg2:T78	
+R18	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+R19	ALTERNATIVE_NAME Arg1:T55 Arg2:T25	
+R20	ALTERNATIVE_NAME Arg1:T43 Arg2:T44	
+T46	ORGANIZATION 2316 2325	Пересвета
+T89	ORGANIZATION 1998 2006	ПЕРЕСВЕТ
+R21	ALTERNATIVE_NAME Arg1:T41 Arg2:T89	
+T90	ORGANIZATION 1695 1703	ПЕРЕСВЕТ
+R22	ALTERNATIVE_NAME Arg1:T37 Arg2:T90	
+T91	LAW 1269 1317	Приказом Банка России от 21 10 2016 года ОД 3629
+T92	LAW 1351 1402	Федерального закона О несостоятельности банкротстве
+R23	DATE_OF_CREATION Arg1:T91 Arg2:T30	
+T93	COUNTRY 98 108	Российская
+R24	TAKES_PLACE_IN Arg1:T3 Arg2:T93	
+R25	LOCATED_IN Arg1:T4 Arg2:T5	
+T9	RELIGION 77 89	Православной
+R6	RELIGION_OF Arg1:T2 Arg2:T9	
+R26	RELIGION_OF Arg1:T11 Arg2:T56	
+T94	ORGANIZATION 572 590	пресс-службы ЦБ РФ
+R27	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+R28	ALTERNATIVE_NAME Arg1:T48 Arg2:T14	
+R29	PART_OF Arg1:T94 Arg2:T13	
+T96	ORDINAL 642 646	3628
+R30	PRODUCES Arg1:T15 Arg2:T17	
+R31	ALTERNATIVE_NAME Arg1:T50 Arg2:T88	
+R32	START_TIME Arg1:T88 Arg2:T19	
+T97	COUNTRY 1284 1290	России
+R33	HEADQUARTERED_IN Arg1:T29 Arg2:T97	
+T98	ORDINAL 1313 1317	3629
+T99	ORDINAL 1344 1350	189 38
+R34	PART_OF Arg1:T32 Arg2:T92	
+R35	ALTERNATIVE_NAME Arg1:T97 Arg2:T36	
+R36	ALTERNATIVE_NAME Arg1:T93 Arg2:T48	
+T34	LAW 1493 1579	Федеральным законом О страховании вкладов физических лиц в банках Российской Федерации
+T35	EVENT 1589 1598	моратория
+T100	EVENT 1410 1419	мораторий
+R37	PARTICIPANT_IN Arg1:T21 Arg2:T100	
+T101	PROFESSION 1719 1750	индивидуальным предпринимателям
+T102	EVENT 1672 1679	Выплаты
+R38	PARTICIPANT_IN Arg1:T37 Arg2:T102	
+R39	PARTICIPANT_IN Arg1:T101 Arg2:T102	
+T38	DATE 1760 1778	не позднее 14 дней
+R40	START_TIME Arg1:T102 Arg2:T38	
+T103	EVENT 1795 1804	моратория
+T104	COUNTRY 1925 1931	России
+R41	HEADQUARTERED_IN Arg1:T40 Arg2:T104	
+R42	ALTERNATIVE_NAME Arg1:T104 Arg2:T54	
+T105	EVENT 3106 3114	выплатил
+R43	PARTICIPANT_IN Arg1:T65 Arg2:T105	
+R44	POINT_IN_TIME Arg1:T105 Arg2:T64	
+R45	PRICE_OF Arg1:T105 Arg2:T67	
+R46	HEADQUARTERED_IN Arg1:T27 Arg2:T83	
+R47	OWNER_OF Arg1:T80 Arg2:T79	
+R48	OWNER_OF Arg1:T27 Arg2:T81	
+T63	NUMBER 3065 3066	0
+T95	NUMBER 3068 3072	ноль
+R49	ALTERNATIVE_NAME Arg1:T95 Arg2:T63	
+N1	Reference T4 Wikidata:Q2280	Минск
+N2	Reference T5 Wikidata:Q184	Белоруссия
+N3	Reference T13 Wikidata:Q806651	Центральный банк Российской Федерации
+N6	Reference T29 Wikidata:Q806651	Центральный банк Российской Федерации
+N9	Reference T36 Wikidata:Q159	Россия
+N12	Reference T44 Wikidata:Q106158	Стан­дард энд Пурс
+N13	Reference T58 Wikidata:Q195785	Рус-Рейтинг
+N15	Reference T71 Wikidata:Q871325	Fitch Ratings
+N17	Reference T83 Wikidata:Q159	Россия
+N19	Reference T25 Wikidata:Q4530592	Эксперт РА
+N20	Reference T27 Wikidata:Q871588	Торгово-промышленная палата России
+N22	Reference T47 Wikidata:Q60995	Русская православная церковь
+N23	Reference T48 Wikidata:Q159	Россия
+N24	Reference T56 Wikidata:Q35032	Православная церковь
+N28	Reference T101 Wikidata:Q2912172	индивидуальный предприниматель
+N26	Reference T94 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:Q97162135	
+N21	Reference T28 Wikidata:Q97162135	
+N10	Reference T37 Wikidata:Q97162135	
+N11	Reference T39 Wikidata:Q4056886	
+N14	Reference T65 Wikidata:Q97162135	
+N16	Reference T82 Wikidata:Q1123526	торговая палата
+N25	Reference T92 Wikidata:Q16711311	
+N7	Reference T31 Wikidata:NULL	нет данных
+N29	Reference T91 Wikidata:NULL	нет данных
+N8	Reference T32 Wikidata:NULL	нет данных
+N27	Reference T34 Wikidata:Q41806148	
+N4	Reference T17 Wikidata:NULL	нет данных
+N18	Reference T86 Wikidata:NULL	нет данных
+N30	Reference T40 Wikidata:Q806651	Центральный банк Российской Федерации
+N31	Reference T6 Wikidata:Q806651	Центральный банк Российской Федерации
+N32	Reference T15 Wikidata:Q806651	Центральный банк Российской Федерации
+N33	Reference T97 Wikidata:Q159	Россия
+N34	Reference T43 Wikidata:Q106158	Стан­дард энд Пурс
+N35	Reference T59 Wikidata:Q195785	Рус-Рейтинг
+N36	Reference T76 Wikidata:Q871325	Fitch Ratings
+N37	Reference T52 Wikidata:Q871325	Fitch Ratings
+N38	Reference T54 Wikidata:Q159	Россия
+N39	Reference T104 Wikidata:Q159	Россия
+N40	Reference T87 Wikidata:Q159	Россия
+N41	Reference T55 Wikidata:Q4530592	Эксперт РА
+N42	Reference T80 Wikidata:Q60995	Русская православная церковь
+N43	Reference T2 Wikidata:Q60995	Русская православная церковь
+N44	Reference T11 Wikidata:Q60995	Русская православная церковь
+N45	Reference T14 Wikidata:Q159	Россия
+N46	Reference T93 Wikidata:Q159	Россия
+N47	Reference T9 Wikidata:Q35032	Православная церковь
+N48	Reference T20 Wikidata:Q97162135	
+N49	Reference T26 Wikidata:Q97162135	
+N50	Reference T90 Wikidata:Q97162135	
+N51	Reference T21 Wikidata:Q97162135	
+N52	Reference T75 Wikidata:Q97162135	
+N53	Reference T41 Wikidata:Q97162135	
+N54	Reference T10 Wikidata:Q97162135	
+N55	Reference T12 Wikidata:Q97162135	
+N56	Reference T46 Wikidata:Q97162135	
+N57	Reference T24 Wikidata:Q97162135	
+N58	Reference T33 Wikidata:Q97162135	
+N59	Reference T72 Wikidata:Q97162135	
+N60	Reference T77 Wikidata:Q97162135	
+N61	Reference T89 Wikidata:Q97162135	
+N62	Reference T61 Wikidata:Q97162135	
+N63	Reference T45 Wikidata:Q97162135	
+N64	Reference T1 Wikidata:Q97162135	
+N65	Reference T68 Wikidata:Q97162135	

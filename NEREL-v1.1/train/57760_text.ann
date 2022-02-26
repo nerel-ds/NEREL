@@ -1,0 +1,173 @@
+T1	COUNTRY 2 10	Германии
+T3	COUNTRY 56 64	Германии
+T4	AGE 65 77	на 76-м году
+T6	PROFESSION 104 112	артистка
+T7	PROFESSION 119 133	оперная певица
+T8	PERSON 134 149	Елена Образцова
+T9	PERSON 152 168	Елена Васильевна
+T10	DATE 178 202	в конце ноября 2014 года
+T11	COUNTRY 246 254	Германию
+T12	DATE 352 372	11 декабря 2014 года
+T14	FACILITY 391 409	Кремлевском дворце
+T15	NATIONALITY 424 434	российская
+T16	PROFESSION 451 464	меццо-сопрано
+T17	PROFESSION 467 474	актриса
+T18	PROFESSION 494 502	артистка
+T19	AWARD 516 545	Герой Социалистического Труда
+T21	PERSON 586 612	Елена Васильевна Образцова
+T22	DATE 622 638	7 июля 1939 года
+T23	CITY 641 651	Ленинграде
+T24	AGE 668 676	пяти лет
+T26	PERSON 750 763	Марины Мнишек
+T28	DATE 800 820	17 декабря 1963 года
+T29	PERSON 829 839	Образцовой
+T30	CITY 901 910	миланский
+T31	ORGANIZATION 912 920	Ла Скала
+T32	CITY 923 935	нью-йоркскую
+T33	ORGANIZATION 937 955	Метрополитен-Опера
+T34	CITY 958 968	лондонский
+T35	ORGANIZATION 970 983	Ковент Гарден
+T36	CITY 986 993	Венскую
+T38	PERSON 1027 1043	Елены Образцовой
+T39	CITY 1054 1060	Москве
+T40	FACILITY 1074 1095	Новодевичьем кладбище
+T42	FACILITY 1111 1133	Храме Христа Спасителя
+T44	FACILITY 1148 1162	Большом театре
+T45	PERSON 22 37	Елена Образцова
+T46	PERSON 38 53	Елена Образцова
+T5	EVENT 84 94	скончалась
+T47	EVENT 11 21	скончалась
+T48	COUNTRY 113 117	СССР
+T49	AWARD 95 117	народная артистка СССР
+T50	PROFESSION 127 133	певица
+T51	PROFESSION 203 208	врачи
+T52	PROFESSION 222 236	оперной певице
+T53	PROFESSION 230 236	певице
+T13	FACILITY 375 409	Государственном Кремлевском дворце
+T55	NATIONALITY 412 421	Cоветская
+T56	PROFESSION 435 449	оперная певица
+T57	PROFESSION 443 449	певица
+T58	PROFESSION 476 483	педагог
+T59	COUNTRY 503 507	СССР
+T60	AWARD 485 507	Народная артистка СССР
+T61	DATE 509 513	1976
+T62	DATE 547 551	1990
+T63	AWARD 562 578	Ленинской премии
+T64	DATE 580 584	1976
+T25	ORGANIZATION 717 732	Большого театра
+T67	PERSON 772 783	Мусоргского
+T68	WORK_OF_ART 785 798	Борис Годунов
+T37	ORGANIZATION 986 1015	Венскую государственную оперу
+T69	EVENT 1018 1026	Похороны
+T70	EVENT 1097 1106	отпевание
+T41	EVENT 1135 1143	прощание
+R1	PARTICIPANT_IN Arg1:T45 Arg2:T47	
+R2	PLACE_OF_DEATH Arg1:T45 Arg2:T1	
+R3	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+R4	WORKS_AS Arg1:T8 Arg2:T7	
+R5	PARTICIPANT_IN Arg1:T8 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+R7	AGE_DIED_AT Arg1:T8 Arg2:T4	
+R8	PLACE_OF_DEATH Arg1:T8 Arg2:T3	
+T43	DISEASE 169 175	болела
+R10	MEDICAL_CONDITION Arg1:T9 Arg2:T43	
+R11	DATE_OF_BIRTH Arg1:T21 Arg2:T22	
+R12	PLACE_OF_BIRTH Arg1:T21 Arg2:T23	
+R13	WORKPLACE Arg1:T21 Arg2:T25	
+R14	PRODUCES Arg1:T67 Arg2:T68	
+R15	TAKES_PLACE_IN Arg1:T69 Arg2:T39	
+R16	LOCATED_IN Arg1:T40 Arg2:T39	
+R17	HEADQUARTERED_IN Arg1:T31 Arg2:T30	
+R18	HEADQUARTERED_IN Arg1:T33 Arg2:T32	
+R19	HEADQUARTERED_IN Arg1:T35 Arg2:T34	
+R20	WORKPLACE Arg1:T29 Arg2:T31	
+R21	WORKPLACE Arg1:T29 Arg2:T33	
+R22	WORKPLACE Arg1:T29 Arg2:T35	
+R23	WORKPLACE Arg1:T29 Arg2:T37	
+R24	PARTICIPANT_IN Arg1:T21 Arg2:T68	
+R25	WORKS_AS Arg1:T9 Arg2:T52	
+R26	PLACE_RESIDES_IN Arg1:T9 Arg2:T11	
+R27	ORIGINS_FROM Arg1:T9 Arg2:T55	
+R28	ORIGINS_FROM Arg1:T9 Arg2:T15	
+R29	WORKS_AS Arg1:T9 Arg2:T56	
+R30	WORKS_AS Arg1:T9 Arg2:T17	
+R31	WORKS_AS Arg1:T9 Arg2:T58	
+R32	AWARDED_WITH Arg1:T9 Arg2:T60	
+R33	AWARDED_WITH Arg1:T9 Arg2:T19	
+R34	AWARDED_WITH Arg1:T9 Arg2:T63	
+R35	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R36	ALTERNATIVE_NAME Arg1:T21 Arg2:T29	
+R37	HEADQUARTERED_IN Arg1:T37 Arg2:T36	
+R38	TAKES_PLACE_IN Arg1:T70 Arg2:T42	
+R39	TAKES_PLACE_IN Arg1:T41 Arg2:T44	
+R40	ORIGINS_FROM Arg1:T56 Arg2:T15	
+R41	ORIGINS_FROM Arg1:T56 Arg2:T55	
+R9	AWARDED_WITH Arg1:T8 Arg2:T49	
+R42	WORKS_AS Arg1:T8 Arg2:T6	
+T20	AWARD 95 112	народная артистка
+R43	ORIGINS_FROM Arg1:T49 Arg2:T48	
+T54	AWARD 485 502	Народная артистка
+R44	ORIGINS_FROM Arg1:T60 Arg2:T59	
+R45	POINT_IN_TIME Arg1:T60 Arg2:T61	
+R46	POINT_IN_TIME Arg1:T19 Arg2:T62	
+T65	PERSON 562 571	Ленинской
+R47	POINT_IN_TIME Arg1:T63 Arg2:T64	
+R48	INANIMATE_INVOLVED Arg1:T38 Arg2:T69	
+R49	INANIMATE_INVOLVED Arg1:T38 Arg2:T70	
+R50	INANIMATE_INVOLVED Arg1:T38 Arg2:T41	
+N2	Reference T11 Wikidata:Q183	Германия
+N5	Reference T16 Wikidata:Q186506	меццо-сопрано
+N6	Reference T17 Wikidata:Q33999	актёр
+N8	Reference T19 Wikidata:Q208167	Герой Социалистического Труда
+N9	Reference T21 Wikidata:Q464791	Образцова, Елена Васильевна
+N10	Reference T23 Wikidata:Q656	Санкт-Петербург
+N11	Reference T26 Wikidata:Q1140161	Мнишек, Марина Юрьевна
+N12	Reference T31 Wikidata:Q5471	Ла Скала
+N14	Reference T33 Wikidata:Q10583424	Метрополитен-опера
+N16	Reference T35 Wikidata:Q55018	Ковент-Гарден
+N18	Reference T39 Wikidata:Q649	Москва
+N19	Reference T40 Wikidata:Q208175	Новодевичье кладбище
+N20	Reference T42 Wikidata:Q194474	Храм Христа Спасителя
+N21	Reference T44 Wikidata:Q138908	Большой театр
+N22	Reference T49 Wikidata:Q403569	народный артист СССР
+N23	Reference T51 Wikidata:Q39631	врач
+N24	Reference T53 Wikidata:Q177220	певец
+N25	Reference T13 Wikidata:Q2033910	Государственный Кремлёвский дворец
+N27	Reference T56 Wikidata:Q2865819	оперный певец
+N28	Reference T58 Wikidata:Q37226	учитель
+N29	Reference T59 Wikidata:Q15180	СССР
+N30	Reference T63 Wikidata:Q51067	Ленинская премия
+N31	Reference T25 Wikidata:Q138908	Большой театр
+N32	Reference T67 Wikidata:Q132682	Модест Петрович Мусоргский
+N34	Reference T37 Wikidata:Q209937	Венская государственная опер36	Reference T65 Wikidata:Q3830185	Ленинское
+N1	Reference T9 Wikidata:Q464791	Образцова, Елена Васильевна
+N3	Reference T14 Wikidata:Q1787912	
+N26	Reference T55 Wikidata:Q15180	СССР
+N4	Reference T15 Wikidata:Q159	Россия
+N7	Reference T18 Wikidata:Q483501	деятель искусств
+N35	Reference T54 Wikidata:Q1208997	народный артист
+N36	Reference T65 Wikidata:Q1394	Владимир Ильич Ленин
+N33	Reference T68 Wikidata:Q386846	Борис Годунов
+N37	Reference T30 Wikidata:Q490	Милан
+N13	Reference T32 Wikidata:Q60	Нью-Йорк
+N15	Reference T34 Wikidata:Q84	Лондон
+N17	Reference T36 Wikidata:Q1741	Вена
+N38	Reference T3 Wikidata:Q183	Германия
+N39	Reference T1 Wikidata:Q183	Германия
+N40	Reference T29 Wikidata:Q464791	Образцова, Елена Васильевна
+N41	Reference T60 Wikidata:Q403569	народный артист СССР
+N42	Reference T50 Wikidata:Q177220	певец
+N43	Reference T57 Wikidata:Q177220	певец
+N44	Reference T52 Wikidata:Q2865819	оперный певец
+N45	Reference T7 Wikidata:Q2865819	оперный певец
+N46	Reference T48 Wikidata:Q15180	СССР
+N47	Reference T8 Wikidata:Q464791	Образцова, Елена Васильевна
+N48	Reference T46 Wikidata:Q464791	Образцова, Елена Васильевна
+N49	Reference T45 Wikidata:Q464791	Образцова, Елена Васильевна
+N50	Reference T38 Wikidata:Q464791	Образцова, Елена Васильевна
+N51	Reference T6 Wikidata:Q483501	деятель искусств
+N52	Reference T20 Wikidata:Q1208997	народный артист
+T2	EVENT 613 621	родилась
+R51	PARTICIPANT_IN Arg1:T21 Arg2:T2	
+R52	POINT_IN_TIME Arg1:T2 Arg2:T22	
+R53	TAKES_PLACE_IN Arg1:T2 Arg2:T23	

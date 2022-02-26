@@ -1,0 +1,182 @@
+T1	NUMBER 0 3	Три
+T2	CITY 26 33	Бостоне
+T3	CITY 101 108	Бостоне
+T4	NUMBER 170 173	три
+T5	COUNTRY 442 454	американские
+T6	NUMBER 460 464	двое
+T7	COUNTRY 490 493	США
+T8	COUNTRY 497 507	Казахстана
+T9	PERSON 520 536	Диа́с Кадырба́ев
+T10	PERSON 539 556	Азама́т Тажая́ков
+T11	ORGANIZATION 583 623	Университета штата Массачусетс — Дартмут
+T12	CITY 616 623	Дартмут
+T13	PERSON 693 707	Джохар Царнаев
+T14	PERSON 730 737	Царнаев
+T15	PERSON 751 762	Кадырбаевым
+T16	PERSON 765 775	Тажаяковым
+T17	ORGANIZATION 788 796	Fox News
+T18	PERSON 819 828	Кадырбаев
+T19	PERSON 831 839	Тажаяков
+T20	FACILITY 865 890	квартире Джохара Царнаева
+T21	PERSON 874 890	Джохара Царнаева
+T22	COUNTRY 987 997	Казахстана
+T23	ORDINAL 1068 1076	Третьего
+T24	PERSON 1098 1111	Робел Филипос
+T25	AGE 1113 1119	19 лет
+T26	COUNTRY 1134 1137	США
+T27	DATE 1140 1147	Сегодня
+T28	ORGANIZATION 1182 1205	федеральный суд Бостона
+T29	NUMBER 1296 1300	двух
+T30	NUMBER 1332 1336	Один
+T31	PERSON 1346 1362	Тамерлан Царнаев
+T32	PERSON 1466 1480	Джохар Царнаев
+T34	STATE_OR_PROVINCE 1540 1551	Массачусетс
+T35	ORGANIZATION 1579 1592	Boston Herald
+T36	PERSON 1605 1619	Джейсон Чеффиц
+T37	PROFESSION 1621 1683	член Комитета Палаты представителей по внутренней безопасности
+T38	PERSON 1836 1843	Чеффица
+T39	EVENT 13 23	арестованы
+T40	EVENT 57 65	терактов
+T41	EVENT 90 98	терактов
+T42	ORGANIZATION 124 153	городского управления полиции
+T43	ORGANIZATION 146 153	полиции
+T44	EVENT 155 165	арестованы
+T45	ORGANIZATION 199 217	бостонской полиции
+T46	ORGANIZATION 210 217	полиции
+T47	CITY 199 209	бостонской
+T48	PROFESSION 185 217	Представители бостонской полиции
+T49	EVENT 335 342	взрывам
+T50	PROFESSION 344 355	Следователи
+T53	ORGANIZATION 583 613	Университета штата Массачусетс
+T54	STATE_OR_PROVINCE 602 613	Массачусетс
+T55	EVENT 685 692	теракта
+T56	ORGANIZATION 798 805	полиция
+T57	EVENT 855 862	взрывов
+T58	CRIME 1020 1065	создании препятствий для проведения следствия
+T59	ORGANIZATION 1182 1197	федеральный суд
+T61	CITY 1198 1205	Бостона
+T63	EVENT 1322 1329	взрывов
+T64	EVENT 1369 1373	убит
+T65	ORGANIZATION 1390 1398	полицией
+T66	EVENT 1405 1412	взрывов
+T67	EVENT 1487 1492	ранен
+T33	PROFESSION 1593 1604	конгрессмен
+T68	ORGANIZATION 1626 1683	Комитета Палаты представителей по внутренней безопасности
+T69	ORGANIZATION 1635 1656	Палаты представителей
+T70	PROFESSION 1685 1696	следователи
+T71	PROFESSION 1875 1886	следователи
+R1	TAKES_PLACE_IN Arg1:T39 Arg2:T2	
+R2	HAS_CAUSE Arg1:T39 Arg2:T40	
+R3	TAKES_PLACE_IN Arg1:T41 Arg2:T3	
+R4	TAKES_PLACE_IN Arg1:T40 Arg2:T2	
+R5	PART_OF Arg1:T42 Arg2:T43	
+R6	HAS_CAUSE Arg1:T44 Arg2:T41	
+R7	ALTERNATIVE_NAME Arg1:T3 Arg2:T47	
+R8	PART_OF Arg1:T45 Arg2:T46	
+R9	WORKPLACE Arg1:T48 Arg2:T45	
+R10	ALTERNATIVE_NAME Arg1:T41 Arg2:T49	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R12	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R13	ORIGINS_FROM Arg1:T10 Arg2:T8	
+R14	LOCATED_IN Arg1:T12 Arg2:T54	
+R15	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R16	HEADQUARTERED_IN Arg1:T11 Arg2:T12	
+R18	SCHOOLS_ATTENDED Arg1:T13 Arg2:T11	
+R19	AGENT Arg1:T13 Arg2:T55	
+R21	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R22	KNOWS Arg1:T14 Arg2:T15	
+R23	KNOWS Arg1:T15 Arg2:T16	
+R24	KNOWS Arg1:T14 Arg2:T16	
+R25	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R26	ALTERNATIVE_NAME Arg1:T10 Arg2:T16	
+R27	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+R28	OWNER_OF Arg1:T20 Arg2:T21	
+R29	ORIGINS_FROM Arg1:T18 Arg2:T22	
+R30	ORIGINS_FROM Arg1:T19 Arg2:T22	
+R31	CONVICTED_OF Arg1:T18 Arg2:T58	
+R32	CONVICTED_OF Arg1:T19 Arg2:T58	
+R33	AGE_IS Arg1:T24 Arg2:T25	
+R34	ORIGINS_FROM Arg1:T24 Arg2:T51	
+R35	LOCATED_IN Arg1:T54 Arg2:T26	
+R36	LOCATED_IN Arg1:T47 Arg2:T54	
+R37	HEADQUARTERED_IN Arg1:T28 Arg2:T61	
+R38	LOCATED_IN Arg1:T61 Arg2:T26	
+R39	SIBLING Arg1:T31 Arg2:T32	
+R40	PARTICIPANT_IN Arg1:T31 Arg2:T64	
+R41	PARTICIPANT_IN Arg1:T65 Arg2:T64	
+R42	PARTICIPANT_IN Arg1:T32 Arg2:T67	
+T60	EVENT 1376 1387	перестрелке
+R43	SUBEVENT_OF Arg1:T64 Arg2:T60	
+R44	PARTICIPANT_IN Arg1:T31 Arg2:T60	
+R45	PARTICIPANT_IN Arg1:T65 Arg2:T60	
+R46	SUBEVENT_OF Arg1:T67 Arg2:T60	
+R47	PARTICIPANT_IN Arg1:T32 Arg2:T60	
+T62	FACILITY 1514 1551	тюремной больнице в штате Массачусетс
+R48	LOCATED_IN Arg1:T62 Arg2:T34	
+R49	LOCATED_IN Arg1:T32 Arg2:T62	
+R50	WORKS_AS Arg1:T36 Arg2:T33	
+R51	PART_OF Arg1:T68 Arg2:T69	
+R52	MEMBER_OF Arg1:T37 Arg2:T68	
+R53	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R17	SCHOOLS_ATTENDED Arg1:T9 Arg2:T11	
+R20	SCHOOLS_ATTENDED Arg1:T10 Arg2:T11	
+R54	SCHOOLS_ATTENDED Arg1:T13 Arg2:T11	
+R55	HEADQUARTERED_IN Arg1:T43 Arg2:T3	
+R56	KNOWS Arg1:T18 Arg2:T19	
+T51	NATIONALITY 1124 1137	гражданин США
+R57	ORIGINS_FROM Arg1:T51 Arg2:T26	
+T52	CITY 1579 1585	Boston
+R58	HEADQUARTERED_IN Arg1:T35 Arg2:T52	
+R59	ALTERNATIVE_NAME Arg1:T61 Arg2:T52	
+R60	WORKS_AS Arg1:T36 Arg2:T37	
+R61	WORKPLACE Arg1:T36 Arg2:T69	
+N4	Reference T17 Wikidata:Q186068	Fox News Channel
+N8	Reference T22 Wikidata:Q232	Казахстан
+N10	Reference T28 Wikidata:Q100	Бостон
+N12	Reference T34 Wikidata:Q771	Массачусетс
+N17	Reference T46 Wikidata:Q35535	полиция
+N20	Reference T59 Wikidata:Q194907	Федеральная судебная система США
+N21	Reference T61 Wikidata:Q100	Бостон
+N23	Reference T69 Wikidata:Q11701	Палата представителей США
+N15	Reference T42 Wikidata:NULL	нет данных
+N18	Reference T47 Wikidata:Q100	Бостон
+N16	Reference T45 Wikidata:Q2066929	Департамент полиции Бостона
+N19	Reference T48 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:Q30	США
+N27	Reference T53 Wikidata:Q4118040	
+N28	Reference T11 Wikidata:Q4118040	
+N2	Reference T12 Wikidata:Q1811258	
+N29	Reference T16 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N30	Reference T19 Wikidata:NULL	нет данных
+N6	Reference T20 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:NULL	нет данных
+N24	Reference T71 Wikidata:Q1971388	
+N31	Reference T35 Wikidata:Q773802	
+N32	Reference T33 Wikidata:Q14761450	
+N13	Reference T36 Wikidata:Q1683881	
+N3	Reference T13 Wikidata:Q11835959	
+N7	Reference T21 Wikidata:Q11835959	
+N26	Reference T51 Wikidata:Q15133865	Закон о гражданстве США
+N11	Reference T31 Wikidata:Q11836274	
+N25	Reference T62 Wikidata:NULL	нет данных
+N22	Reference T68 Wikidata:Q2495355	
+N14	Reference T37 Wikidata:NULL	нет данных
+N33	Reference T8 Wikidata:Q232	Казахстан
+N34	Reference T54 Wikidata:Q771	Массачусетс
+N35	Reference T65 Wikidata:Q35535	полиция
+N36	Reference T56 Wikidata:Q35535	полиция
+N37	Reference T43 Wikidata:Q35535	полиция
+N38	Reference T2 Wikidata:Q100	Бостон
+N39	Reference T52 Wikidata:Q100	Бостон
+N40	Reference T3 Wikidata:Q100	Бостон
+N41	Reference T7 Wikidata:Q30	США
+N42	Reference T26 Wikidata:Q30	США
+N43	Reference T10 Wikidata:NULL	нет данных
+N44	Reference T9 Wikidata:NULL	нет данных
+N45	Reference T15 Wikidata:NULL	нет данных
+N46	Reference T50 Wikidata:Q1971388	
+N47	Reference T70 Wikidata:Q1971388	
+N48	Reference T38 Wikidata:Q1683881	
+N49	Reference T14 Wikidata:Q11835959	
+N50	Reference T32 Wikidata:Q11835959	

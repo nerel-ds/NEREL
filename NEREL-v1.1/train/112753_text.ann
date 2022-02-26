@@ -1,0 +1,136 @@
+T1	PERSON 19 34	Дмитрия Фирташа
+T2	PERSON 36 50	Дмитрий Фирташ
+T3	ORGANIZATION 51 69	Земельный суд Вены
+T4	CITY 65 69	Вены
+T5	NATIONALITY 164 175	украинского
+T6	PROFESSION 176 186	бизнесмена
+T7	PERSON 187 202	Дмитрия Фирташа
+T8	COUNTRY 241 248	Испании
+T9	PERSON 295 302	Фирташа
+T10	DATE 391 412	в течение двух недель
+T11	PERSON 459 473	Дмитрий Фирташ
+T12	PERSON 638 645	Фирташа
+T13	COUNTRY 648 651	США
+T14	DATE 688 698	на пятницу
+T15	PERSON 701 715	Дмитрий Фирташ
+T16	CITY 732 736	Вене
+T17	DATE 737 755	12 марта 2014 года
+T18	MONEY 846 864	125 миллионов евро
+T19	COUNTRY 868 871	США
+T20	PERSON 872 886	Дмитрий Фирташ
+T22	DATE 974 994	18 февраля 2017 года
+T23	COUNTRY 1018 1025	Испании
+T24	DATE 1066 1086	21 февраля 2017 года
+T25	PERSON 1087 1093	Фирташ
+T26	ORGANIZATION 1128 1156	Высшего земельного суда Вены
+T27	CITY 1152 1156	Вены
+T28	PERSON 1182 1189	Фирташа
+T29	COUNTRY 1192 1195	США
+T30	PERSON 1234 1241	Фирташа
+T31	PROFESSION 1258 1273	министр юстиции
+T32	COUNTRY 1274 1281	Австрии
+T33	PERSON 1284 1298	Дмитрий Фирташ
+T34	NATIONALITY 1301 1311	украинский
+T35	PROFESSION 1312 1327	предприниматель
+T37	ORGANIZATION 1341 1351	'Group DF'
+T38	ORGANIZATION 1508 1518	'Group DF'
+T39	ORGANIZATION 1576 1583	Ostchem
+T40	COUNTRY 1669 1679	Украинский
+T41	ORGANIZATION 1682 1688	Forbes
+T42	PERSON 1719 1726	Фирташа
+T43	MONEY 1729 1749	251 млн долларов США
+R2	WORKS_AS Arg1:T7 Arg2:T6
+R6	ORIGINS_FROM Arg1:T33 Arg2:T34
+R8	WORKS_AS Arg1:T33 Arg2:T35
+T44	ORGANIZATION 0 8	Суд Вены
+T45	CITY 4 8	Вены
+T49	ORGANIZATION 530 547	прокуратурой Вены
+T50	CITY 543 547	Вены
+T21	LAW 234 248	ордеру Испании
+T51	ORGANIZATION 51 64	Земельный суд
+T47	ORGANIZATION 1128 1151	Высшего земельного суда
+T48	PROFESSION 1258 1281	министр юстиции Австрии
+R1	FOUNDED_BY Arg1:T37 Arg2:T33	
+T36	EVENT 720 729	арестован
+R3	POINT_IN_TIME Arg1:T36 Arg2:T17	
+R4	TAKES_PLACE_IN Arg1:T36 Arg2:T16	
+T46	EVENT 9 18	освободил
+R5	PARTICIPANT_IN Arg1:T1 Arg2:T46	
+R7	AGENT Arg1:T44 Arg2:T46	
+R9	ORIGINS_FROM Arg1:T7 Arg2:T5	
+R10	PARTICIPANT_IN Arg1:T15 Arg2:T36	
+T52	EVENT 1098 1106	задержан
+R11	PARTICIPANT_IN Arg1:T25 Arg2:T52	
+R12	POINT_IN_TIME Arg1:T52 Arg2:T24	
+R13	TAKES_PLACE_IN Arg1:T52 Arg2:T27	
+R14	OWNER_OF Arg1:T42 Arg2:T43	
+R15	OWNER_OF Arg1:T38 Arg2:T39	
+R16	HEADQUARTERED_IN Arg1:T41 Arg2:T40	
+R17	HEADQUARTERED_IN Arg1:T44 Arg2:T45	
+R18	HEADQUARTERED_IN Arg1:T3 Arg2:T4	
+R19	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R20	ORIGINS_FROM Arg1:T21 Arg2:T8	
+R21	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+T53	EVENT 285 294	освободил
+R22	PARTICIPANT_IN Arg1:T9 Arg2:T53	
+R23	ALTERNATIVE_NAME Arg1:T46 Arg2:T53	
+R24	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+T54	ORGANIZATION 530 542	прокуратурой
+R25	HEADQUARTERED_IN Arg1:T49 Arg2:T50	
+R26	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R27	EXPENDITURE Arg1:T15 Arg2:T18	
+T55	CRIME 901 972	взятке с целью получить лицензию на разработку титанового месторождения
+T56	CRIME 901 907	взятке
+R28	CONVICTED_OF Arg1:T20 Arg2:T55	
+R29	ALTERNATIVE_NAME Arg1:T20 Arg2:T25	
+R30	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+R31	WORKPLACE Arg1:T48 Arg2:T32	
+T57	PROFESSION 1258 1265	министр
+R32	ORIGINS_FROM Arg1:T35 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T33 Arg2:T42	
+T58	COUNTRY 1746 1749	США
+N1	Reference T1 Wikidata:Q906898	Дмитрий Фирташ
+N4	Reference T6 Wikidata:Q131524	предприниматель
+N5	Reference T8 Wikidata:Q29	Испания
+N6	Reference T11 Wikidata:Q906898	Дмитрий Фирташ
+N7	Reference T16 Wikidata:Q1741	Вена
+N8	Reference T25 Wikidata:Q906898	Дмитрий Фирташ
+N11	Reference T32 Wikidata:Q40	Австрия
+N12	Reference T35 Wikidata:Q131524	предприниматель
+N14	Reference T41 Wikidata:Q25161472	Форбс
+N20	Reference T54 Wikidata:Q1092499	прокуратура
+N21	Reference T57 Wikidata:Q83307	министр
+N22	Reference T58 Wikidata:Q30	США
+N3	Reference T5 Wikidata:Q44806	украинцы
+N17	Reference T21 Wikidata:NULL	нет данных
+N23	Reference T39 Wikidata:Q4046020	
+N13	Reference T40 Wikidata:Q212	Украина
+N24	Reference T37 Wikidata:Q12064326	
+N10	Reference T31 Wikidata:Q17763739	
+N25	Reference T48 Wikidata:Q1714331	
+N15	Reference T44 Wikidata:Q15825118	
+N2	Reference T3 Wikidata:Q15825118	
+N18	Reference T51 Wikidata:Q54781888	
+N16	Reference T49 Wikidata:Q15848755	
+N9	Reference T26 Wikidata:Q15837274	
+N19	Reference T47 Wikidata:NULL	нет данных
+N26	Reference T33 Wikidata:Q906898	Дмитрий Фирташ
+N27	Reference T15 Wikidata:Q906898	Дмитрий Фирташ
+N28	Reference T42 Wikidata:Q906898	Дмитрий Фирташ
+N29	Reference T2 Wikidata:Q906898	Дмитрий Фирташ
+N30	Reference T28 Wikidata:Q906898	Дмитрий Фирташ
+N31	Reference T30 Wikidata:Q906898	Дмитрий Фирташ
+N32	Reference T23 Wikidata:Q29	Испания
+N33	Reference T7 Wikidata:Q906898	Дмитрий Фирташ
+N34	Reference T9 Wikidata:Q906898	Дмитрий Фирташ
+N35	Reference T12 Wikidata:Q906898	Дмитрий Фирташ
+N36	Reference T27 Wikidata:Q1741	Вена
+N37	Reference T50 Wikidata:Q1741	Вена
+N38	Reference T4 Wikidata:Q1741	Вена
+N39	Reference T45 Wikidata:Q1741	Вена
+N40	Reference T20 Wikidata:Q906898	Дмитрий Фирташ
+N41	Reference T29 Wikidata:Q30	США
+N42	Reference T13 Wikidata:Q30	США
+N43	Reference T19 Wikidata:Q30	США
+N44	Reference T34 Wikidata:Q44806	украинцы
+N45	Reference T38 Wikidata:Q12064326	

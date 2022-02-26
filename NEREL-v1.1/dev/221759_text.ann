@@ -1,0 +1,235 @@
+T2	PERSON 49 60	Алан Гарсия
+T4	PERSON 80 91	Алан Гарсия
+T5	CITY 115 119	Лиме
+T6	DATE 183 211	в среду, 17 апреля 2019 года
+T7	AGE 214 224	69-летнего
+T8	COUNTRY 263 274	бразильской
+T9	ORGANIZATION 297 306	Odebrecht
+T10	ORDINAL 341 348	второго
+T12	CITY 441 445	Лиме
+T13	ORGANIZATION 464 473	Odebrecht
+T14	DATE 475 486	с 2004 года
+T15	MONEY 519 546	почти 30 миллионов долларов
+T17	PERSON 614 620	Гарсии
+T18	PROFESSION 791 814	Министр здравоохранения
+T19	PERSON 820 832	Зулема Томас
+T20	PERSON 851 857	Гарсии
+T21	PROFESSION 1029 1039	президента
+T23	PERSON 1079 1094	Мартин Вискарра
+T25	PERSON 1151 1163	Алана Гарсии
+T26	PERSON 1206 1217	Алан Гарсия
+T27	DATE 1226 1242	23 мая 1949 года
+T28	PROFESSION 1260 1270	президента
+T29	DATE 1285 1296	в 1985—1990
+T30	DATE 1299 1314	2006—2011 годах
+T31	DATE 1316 1334	В ноябре 2018 года
+T32	COUNTRY 1383 1390	Уругвае
+T33	ORGANIZATION 1435 1444	Odebrecht
+T34	LOCATION 1470 1487	Латинской Америки
+T35	EVENT 1551 1560	Олимпиады
+T36	CITY 1563 1566	Рио
+T38	EVENT 1585 1611	чемпионата мира по футболу
+T39	DATE 1612 1618	в 2014
+T40	DATE 1620 1637	В конце 2016 года
+T41	COUNTRY 1664 1667	США
+T42	COUNTRY 1669 1677	Бразилии
+T43	COUNTRY 1680 1689	Швейцарии
+T44	MONEY 1706 1723	3,5 млрд долларов
+T45	COUNTRY 1728 1732	Перу
+T46	NUMBER 1758 1762	пять
+T47	PROFESSION 1767 1778	президентов
+T48	PERSON 1780 1797	Альберто Фухимори
+T49	DATE 1799 1813	1990—2000 годы
+T51	PERSON 1816 1832	Алехандро Толедо
+T52	DATE 1834 1848	2001—2006 годы
+T53	PERSON 1851 1862	Алан Гарсия
+T54	DATE 1864 1873	1985—1990
+T55	DATE 1876 1890	2006—2011 годы
+T56	PERSON 1893 1906	Ольянта Умала
+T57	DATE 1908 1922	2011—2016 годы
+T59	PERSON 1926 1946	Педро Пабло Кучински
+T60	DATE 1948 1962	2016—2018 годы
+T61	PERSON 2010 2018	Фухимори
+T63	PERSON 2125 2131	Толедо
+T64	COUNTRY 2141 2144	США
+T65	COUNTRY 2153 2157	Перу
+T66	PROFESSION 7 21	президент Перу
+T67	PROFESSION 7 16	президент
+T70	PROFESSION 65 79	президент Перу
+T71	PROFESSION 65 74	президент
+T72	PROFESSION 349 363	президентского
+T73	PROFESSION 556 565	президент
+T74	PROFESSION 665 673	адвокату
+T75	PROFESSION 718 729	полицейские
+T76	PROFESSION 791 819	Министр здравоохранения Перу
+T77	PROFESSION 791 798	Министр
+T78	PROFESSION 977 991	реаниматологов
+T81	PROFESSION 1064 1078	президент Перу
+T82	PROFESSION 1064 1073	президент
+T83	PROFESSION 1140 1150	президента
+T84	PROFESSION 1260 1275	президента Перу
+T86	EVENT 22 33	застрелился
+T87	EVENT 92 101	скончался
+T88	EVENT 155 162	суицида
+T89	EVENT 172 182	задержания
+T90	EVENT 38 48	задержании
+T91	PERSON 225 231	Гарсию
+T92	CRIME 243 259	получении взяток
+T93	ORGANIZATION 592 599	полиция
+T94	COUNTRY 815 819	Перу
+T95	COUNTRY 17 21	Перу
+T96	COUNTRY 75 79	Перу
+T97	COUNTRY 1074 1078	Перу
+T98	PRODUCT 1105 1112	Twitter
+T99	EVENT 1123 1131	кончиной
+T100	COUNTRY 1271 1275	Перу
+T101	NUMBER 1276 1282	дважды
+T102	PERSON 1335 1341	Гарсия
+T103	EVENT 1551 1578	Олимпиады в Рио в 2016 году
+T104	DATE 1567 1578	в 2016 году
+T37	EVENT 1585 1618	чемпионата мира по футболу в 2014
+T105	PENALTY 1690 1695	штраф
+T50	NUMBER 1975 1979	двое
+T58	ORDINAL 1965 1974	Последние
+T62	PENALTY 2039 2053	25-летний срок
+T107	DATE 2039 2048	25-летний
+T108	CRIME 2057 2089	преступления против человечности
+T109	EVENT 2132 2138	сбежал
+R1	WORKPLACE Arg1:T66 Arg2:T95	
+R2	WORKPLACE Arg1:T70 Arg2:T96	
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T91	
+R4	AGE_IS Arg1:T91 Arg2:T7	
+R5	HEADQUARTERED_IN Arg1:T9 Arg2:T8	
+R6	WORKPLACE Arg1:T76 Arg2:T94	
+R7	WORKS_AS Arg1:T19 Arg2:T76	
+R8	WORKPLACE Arg1:T19 Arg2:T94	
+R9	WORKPLACE Arg1:T81 Arg2:T97	
+R10	WORKS_AS Arg1:T23 Arg2:T81	
+R11	WORKPLACE Arg1:T23 Arg2:T97	
+R12	WORKS_AS Arg1:T25 Arg2:T83	
+R13	DATE_OF_BIRTH Arg1:T26 Arg2:T27	
+R14	ALTERNATIVE_NAME Arg1:T26 Arg2:T102	
+R15	WORKPLACE Arg1:T84 Arg2:T100	
+T1	EVENT 1411 1432	Коррупционный скандал
+R16	PARTICIPANT_IN Arg1:T33 Arg2:T1	
+R17	POINT_IN_TIME Arg1:T37 Arg2:T39	
+R18	POINT_IN_TIME Arg1:T103 Arg2:T104	
+R19	WORKS_AS Arg1:T48 Arg2:T47	
+R20	WORKS_AS Arg1:T51 Arg2:T47	
+R21	WORKS_AS Arg1:T53 Arg2:T47	
+R22	WORKS_AS Arg1:T56 Arg2:T47	
+R23	ALTERNATIVE_NAME Arg1:T48 Arg2:T61	
+R24	CONVICTED_OF Arg1:T61 Arg2:T108	
+R25	ALTERNATIVE_NAME Arg1:T51 Arg2:T63	
+R26	PARTICIPANT_IN Arg1:T63 Arg2:T109	
+R27	TAKES_PLACE_IN Arg1:T109 Arg2:T64	
+R28	AGENT Arg1:T66 Arg2:T86	
+R29	PARTICIPANT_IN Arg1:T66 Arg2:T90	
+R30	SUBEVENT_OF Arg1:T86 Arg2:T90	
+R31	PARTICIPANT_IN Arg1:T4 Arg2:T87	
+R32	PARTICIPANT_IN Arg1:T25 Arg2:T99	
+R33	WORKS_AS Arg1:T4 Arg2:T70	
+R34	WORKPLACE Arg1:T4 Arg2:T96	
+R35	TAKES_PLACE_IN Arg1:T87 Arg2:T5	
+R36	AGENT Arg1:T4 Arg2:T88	
+R37	SUBEVENT_OF Arg1:T88 Arg2:T89	
+R38	PARTICIPANT_IN Arg1:T4 Arg2:T89	
+R39	POINT_IN_TIME Arg1:T89 Arg2:T6	
+R40	POINT_IN_TIME Arg1:T88 Arg2:T6	
+R41	POINT_IN_TIME Arg1:T87 Arg2:T6	
+R42	PLACE_OF_DEATH Arg1:T4 Arg2:T5	
+R43	DATE_OF_DEATH Arg1:T4 Arg2:T6	
+R44	WORKS_AS Arg1:T26 Arg2:T84	
+R45	WORKPLACE Arg1:T26 Arg2:T100	
+R46	CONVICTED_OF Arg1:T91 Arg2:T92	
+R47	PARTICIPANT_IN Arg1:T9 Arg2:T92	
+R48	EXPENDITURE Arg1:T13 Arg2:T15	
+R49	PARTICIPANT_IN Arg1:T26 Arg2:T1	
+R50	LOCATED_IN Arg1:T100 Arg2:T34	
+R51	TAKES_PLACE_IN Arg1:T103 Arg2:T36	
+R52	WORKPLACE Arg1:T48 Arg2:T45	
+R53	WORKPLACE Arg1:T51 Arg2:T45	
+R54	WORKPLACE Arg1:T53 Arg2:T45	
+R55	WORKPLACE Arg1:T56 Arg2:T45	
+R56	WORKPLACE Arg1:T59 Arg2:T45	
+R57	CONVICTED_OF Arg1:T61 Arg2:T108	
+R58	PENALIZED_AS Arg1:T61 Arg2:T62	
+T3	ORGANIZATION 2146 2157	власти Перу
+R59	HEADQUARTERED_IN Arg1:T3 Arg2:T65	
+T11	EVENT 491 518	заплатили в качестве взяток
+R60	START_TIME Arg1:T11 Arg2:T14	
+R61	PARTICIPANT_IN Arg1:T13 Arg2:T11	
+R62	ALTERNATIVE_NAME Arg1:T87 Arg2:T99	
+R63	PENALIZED_AS Arg1:T33 Arg2:T105	
+R64	EXPENDITURE Arg1:T33 Arg2:T44	
+R65	INCOME Arg1:T91 Arg2:T15	
+T16	LOCATION 1480 1487	Америки
+R66	LOCATED_IN Arg1:T34 Arg2:T16	
+T22	DISEASE 751 768	ранением в голову
+T24	DISEASE 751 759	ранением
+R67	MEDICAL_CONDITION Arg1:T17 Arg2:T22	
+T68	DISEASE 877 884	ранения
+R68	MEDICAL_CONDITION Arg1:T20 Arg2:T68	
+N1	Reference T5 Wikidata:Q2868	Лима
+N3	Reference T23 Wikidata:Q24030720	Мартин Вискарра
+N4	Reference T26 Wikidata:Q167211	Алан Гарсиа Перес
+N5	Reference T28 Wikidata:Q30461	президент
+N6	Reference T32 Wikidata:Q77	Уругвай
+N7	Reference T34 Wikidata:Q12585	Латинская Америка
+N9	Reference T42 Wikidata:Q155	Бразилия
+N10	Reference T43 Wikidata:Q39	Швейцария
+N11	Reference T48 Wikidata:Q133040	Альберто Фухимори
+N12	Reference T56 Wikidata:Q57254	Ольянта Умала
+N13	Reference T59 Wikidata:Q381027	Педро Пабло Кучински
+N15	Reference T64 Wikidata:Q30	США
+N17	Reference T74 Wikidata:Q40348	адвокат
+N20	Reference T77 Wikidata:Q83307	министр
+N21	Reference T81 Wikidata:Q5708511	президент Перу
+N23	Reference T93 Wikidata:Q35535	полиция
+N24	Reference T96 Wikidata:Q419	Перу
+N25	Reference T98 Wikidata:Q918	Твиттер
+N22	Reference T91 Wikidata:Q167211	Алан Гарсиа Перес
+N2	Reference T8 Wikidata:Q155	Бразилия
+N16	Reference T72 Wikidata:Q30461	президент
+N27	Reference T13 Wikidata:Q94849	
+N18	Reference T75 Wikidata:Q384593	
+N28	Reference T18 Wikidata:Q3273722	
+N19	Reference T76 Wikidata:NULL	нет данных
+N29	Reference T19 Wikidata:Q60488147	
+N30	Reference T78 Wikidata:Q2581971	
+N14	Reference T63 Wikidata:Q207426	
+N26	Reference T3 Wikidata:NULL	нет данных
+N8	Reference T36 Wikidata:Q8678	Рио-де-Жанейро
+N31	Reference T16 Wikidata:Q828	
+N32	Reference T12 Wikidata:Q2868	Лима
+N33	Reference T20 Wikidata:Q167211	Алан Гарсиа Перес
+N34	Reference T53 Wikidata:Q167211	Алан Гарсиа Перес
+N35	Reference T17 Wikidata:Q167211	Алан Гарсиа Перес
+N36	Reference T25 Wikidata:Q167211	Алан Гарсиа Перес
+N37	Reference T102 Wikidata:Q167211	Алан Гарсиа Перес
+N38	Reference T2 Wikidata:Q167211	Алан Гарсиа Перес
+N39	Reference T73 Wikidata:Q30461	президент
+N40	Reference T83 Wikidata:Q30461	президент
+N41	Reference T82 Wikidata:Q30461	президент
+N42	Reference T47 Wikidata:Q30461	президент
+N43	Reference T67 Wikidata:Q30461	президент
+N44	Reference T71 Wikidata:Q30461	президент
+N45	Reference T21 Wikidata:Q30461	президент
+N46	Reference T61 Wikidata:Q133040	Альберто Фухимори
+N47	Reference T41 Wikidata:Q30	США
+N48	Reference T70 Wikidata:Q5708511	президент Перу
+N49	Reference T84 Wikidata:Q5708511	президент Перу
+N50	Reference T66 Wikidata:Q5708511	президент Перу
+N51	Reference T100 Wikidata:Q419	Перу
+N52	Reference T65 Wikidata:Q419	Перу
+N53	Reference T95 Wikidata:Q419	Перу
+N54	Reference T97 Wikidata:Q419	Перу
+N55	Reference T94 Wikidata:Q419	Перу
+N56	Reference T45 Wikidata:Q419	Перу
+N57	Reference T4 Wikidata:Q167211	Алан Гарсиа Перес
+N58	Reference T33 Wikidata:Q94849	
+N59	Reference T9 Wikidata:Q94849	
+N60	Reference T51 Wikidata:Q207426	
+T69	EVENT 1218 1225	родился
+R69	PARTICIPANT_IN Arg1:T26 Arg2:T69	
+R70	POINT_IN_TIME Arg1:T69 Arg2:T27	

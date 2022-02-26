@@ -1,0 +1,88 @@
+T1	PERSON 0 15	Нельсон Мандела
+T2	PERSON 33 48	Нельсон Мандела
+T4	PERSON 61 72	Граса Машел
+T6	COUNTRY 92 95	ЮАР
+T7	PROFESSION 117 133	президент страны
+T8	PERSON 134 149	Нельсон Мандела
+T9	DATE 173 189	8 июня 2013 года
+T10	PERSON 363 370	Манделы
+T11	TIME 397 409	ранним утром
+T12	CITY 445 453	Претории
+T13	PERSON 482 489	Манделы
+T14	CITY 573 580	Лондона
+T15	COUNTRY 583 586	ЮАР
+T16	PERSON 616 627	Граса Машел
+T17	EVENT 666 672	форуме
+T18	EVENT 678 685	митинге
+T19	FACILITY 688 698	Гайд-парке
+T20	AGE 738 747	94-летний
+T21	PERSON 748 763	Нельсон Мандела
+T24	PERSON 912 919	Манделы
+T25	DATE 936 945	27-летним
+T27	PERSON 996 1011	Нельсон Мандела
+T31	EVENT 156 172	госпитализирован
+T32	DISEASE 192 210	лёгочной инфекцией
+T33	PROFESSION 222 230	политика
+T34	ORGANIZATION 257 278	Канцелярия президента
+T35	PROFESSION 268 278	президента
+T36	PERSON 279 292	Джейкоба Зумы
+T37	TIME 388 393	ночью
+T38	PERSON 608 615	Манделы
+T39	IDEOLOGY 788 797	Апартеида
+T40	DISEASE 851 860	пневмонии
+T41	PROFESSION 863 869	Медики
+T3	DATE 49 60	в 2000 году
+T5	DATE 73 84	в 2010 году
+T28	ORGANIZATION 85 95	Власти ЮАР
+R1	HEADQUARTERED_IN Arg1:T28 Arg2:T6	
+R2	WORKS_AS Arg1:T8 Arg2:T7	
+R3	PARTICIPANT_IN Arg1:T8 Arg2:T31	
+R4	POINT_IN_TIME Arg1:T31 Arg2:T9	
+R5	HAS_CAUSE Arg1:T31 Arg2:T32	
+R6	MEDICAL_CONDITION Arg1:T8 Arg2:T32	
+R7	WORKS_AS Arg1:T8 Arg2:T33	
+R8	WORKS_AS Arg1:T36 Arg2:T35	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R10	LOCATED_IN Arg1:T12 Arg2:T6	
+R11	SPOUSE Arg1:T38 Arg2:T16	
+R12	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R13	TAKES_PLACE_IN Arg1:T17 Arg2:T19	
+R14	AGE_IS Arg1:T21 Arg2:T20	
+T22	DATE 799 817	в апреле 2013 года
+R19	MEDICAL_CONDITION Arg1:T21 Arg2:T40	
+T44	DISEASE 886 911	респираторные заболевания
+R23	MEDICAL_CONDITION Arg1:T24 Arg2:T44	
+T45	PENALTY 936 976	27-летним пребыванием в тюремных камерах
+R24	PENALIZED_AS Arg1:T24 Arg2:T45	
+T26	DATE 979 995	В последние годы
+R25	SPOUSE Arg1:T2 Arg2:T4	
+T29	PROFESSION 117 126	президент
+T30	EVENT 594 602	вылетела
+R15	AGENT Arg1:T16 Arg2:T30	
+R16	TAKES_PLACE_IN Arg1:T30 Arg2:T15	
+R17	TAKES_PLACE_IN Arg1:T30 Arg2:T14	
+T23	DATE 825 832	10 дней
+N2	Reference T10 Wikidata:Q8023	Нельсон Мандела
+N3	Reference T12 Wikidata:Q3926	Претория
+N4	Reference T14 Wikidata:Q84	Лондон
+N5	Reference T15 Wikidata:Q258	ЮАР
+N6	Reference T16 Wikidata:Q239105	Граса Машел
+N7	Reference T19 Wikidata:Q123738	Гайд-парк
+N8	Reference T33 Wikidata:Q82955	политик
+N10	Reference T36 Wikidata:Q57282	Джейкоб Зума
+N11	Reference T41 Wikidata:Q39631	врач
+N13	Reference T29 Wikidata:Q30461	президент
+N12	Reference T28 Wikidata:NULL	нет данных
+N1	Reference T7 Wikidata:Q273884	президент Южно-Африканской республики
+N9	Reference T34 Wikidata:NULL	нет данных
+N14	Reference T13 Wikidata:Q8023	Нельсон Мандела
+N15	Reference T8 Wikidata:Q8023	Нельсон Мандела
+N16	Reference T38 Wikidata:Q8023	Нельсон Мандела
+N17	Reference T24 Wikidata:Q8023	Нельсон Мандела
+N18	Reference T2 Wikidata:Q8023	Нельсон Мандела
+N19	Reference T1 Wikidata:Q8023	Нельсон Мандела
+N20	Reference T21 Wikidata:Q8023	Нельсон Мандела
+N21	Reference T27 Wikidata:Q8023	Нельсон Мандела
+N22	Reference T6 Wikidata:Q258	ЮАР
+N23	Reference T4 Wikidata:Q239105	Граса Машел
+N24	Reference T35 Wikidata:Q30461	президент

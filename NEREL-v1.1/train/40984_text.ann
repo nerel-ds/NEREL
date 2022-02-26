@@ -1,0 +1,141 @@
+T1	PERSON 0 14	Серена Уильямс
+T2	ORDINAL 17 22	пятый
+T3	EVENT 39 46	US Open
+T4	PERSON 47 61	Серена Уильямс
+T5	PERSON 93 107	Серена Уильямс
+T6	ORDINAL 110 115	пятый
+T7	EVENT 137 172	Открытого чемпионата США по теннису
+T8	EVENT 174 181	US Open
+T9	ORDINAL 191 195	17-я
+T10	EVENT 224 238	Большого шлема
+T12	CITY 303 312	Нью-Йорке
+T13	PERSON 314 321	Уильямс
+T14	ORDINAL 345 351	вторым
+T15	NATIONALITY 360 371	белорусскую
+T16	PERSON 384 401	Викторию Азаренко
+T17	DATE 476 490	в прошлом году
+T18	PERSON 528 535	Уильямс
+T19	PERSON 538 545	Уильямс
+T21	AGE 581 588	32 года
+T23	DATE 646 657	c 1968 года
+T24	TIME 789 804	2 часа 45 минут
+T25	DATE 867 878	с 1980 года
+T26	DATE 957 970	в понедельник
+T27	ORDINAL 989 995	вторая
+T28	PERSON 1014 1028	Новак Джокович
+T29	NATIONALITY 1031 1038	испанец
+T30	PERSON 1039 1053	Рафаэль Надаль
+T32	NATIONALITY 82 92	американка
+T34	COUNTRY 158 161	США
+T35	AWARD 126 172	чемпионкой Открытого чемпионата США по теннису
+T36	EVENT 244 250	финале
+T38	PROFESSION 372 383	теннисистку
+T41	NUMBER 424 425	1
+T42	PROFESSION 431 442	спортсменки
+T43	EVENT 464 473	U.S. Open
+T44	EVENT 457 473	финале U.S. Open
+T45	EVENT 498 502	матч
+T22	EVENT 636 645	U.S. Open
+T47	PROFESSION 718 729	спортсменов
+T48	EVENT 743 747	матч
+T50	ORDINAL 980 986	первая
+T51	NATIONALITY 1009 1013	серб
+T53	AWARD 989 1008	вторая ракетки мира
+T54	AWARD 62 81	Первая ракетка мира
+T55	NUMBER 422 423	6
+T56	NUMBER 419 420	7
+T57	NUMBER 417 418	6
+T58	NUMBER 414 415	5
+T59	NUMBER 412 413	7
+R3	PARTICIPANT_IN Arg1:T1 Arg2:T3	
+T39	COUNTRY 39 41	US
+R5	AWARDED_WITH Arg1:T5 Arg2:T54	
+R6	ORIGINS_FROM Arg1:T5 Arg2:T32	
+R7	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R8	TAKES_PLACE_IN Arg1:T7 Arg2:T34	
+T33	COUNTRY 174 176	US
+R9	TAKES_PLACE_IN Arg1:T8 Arg2:T33	
+R10	ALTERNATIVE_NAME Arg1:T34 Arg2:T33	
+R11	AWARDED_WITH Arg1:T5 Arg2:T35	
+T31	EVENT 206 239	турнире из серии «Большого шлема»
+R12	SUBEVENT_OF Arg1:T31 Arg2:T10	
+R17	TAKES_PLACE_IN Arg1:T36 Arg2:T12	
+R18	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+R19	AGENT Arg1:T13 Arg2:T36	
+R20	SUBEVENT_OF Arg1:T36 Arg2:T7	
+R23	KNOWS Arg1:T13 Arg2:T16	
+R25	WORKS_AS Arg1:T16 Arg2:T38	
+R26	ORIGINS_FROM Arg1:T16 Arg2:T15	
+R27	AGENT Arg1:T42 Arg2:T44	
+R28	SUBEVENT_OF Arg1:T44 Arg2:T43	
+R29	ALTERNATIVE_NAME Arg1:T8 Arg2:T43	
+T62	COUNTRY 464 468	U.S.
+R30	TAKES_PLACE_IN Arg1:T43 Arg2:T62	
+R31	POINT_IN_TIME Arg1:T44 Arg2:T17	
+R34	AGE_IS Arg1:T19 Arg2:T21	
+T63	COUNTRY 636 640	U.S.
+R35	TAKES_PLACE_IN Arg1:T22 Arg2:T63	
+T65	DATE 732 742	Воскресный
+R39	POINT_IN_TIME Arg1:T48 Arg2:T65	
+T67	EVENT 859 866	турнира
+T49	EVENT 911 939	финальном матче среди мужчин
+T66	EVENT 830 866	финальной игры женской части турнира
+R40	SUBEVENT_OF Arg1:T66 Arg2:T67	
+R41	POINT_IN_TIME Arg1:T49 Arg2:T26	
+R43	AGENT Arg1:T28 Arg2:T49	
+R44	AGENT Arg1:T30 Arg2:T49	
+R45	KNOWS Arg1:T28 Arg2:T30	
+R46	ORIGINS_FROM Arg1:T28 Arg2:T51	
+R47	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R48	AWARDED_WITH Arg1:T30 Arg2:T53	
+T52	AWARD 980 986;996 1008	первая ракетки мира
+R49	AWARDED_WITH Arg1:T28 Arg2:T52	
+T20	DATE 555 568	в этом месяце
+R1	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+T40	EVENT 206 213	турнире
+T11	DATE 264 299	в воскресенье, 8 сентября 2013 года
+R16	POINT_IN_TIME Arg1:T36 Arg2:T11	
+T70	EVENT 457 463	финале
+T71	EVENT 830 844	финальной игры
+T73	EVENT 911 926	финальном матче
+R51	ALTERNATIVE_NAME Arg1:T71 Arg2:T73	
+R52	ALTERNATIVE_NAME Arg1:T70 Arg2:T71	
+T74	EVENT 622 645	женской части U.S. Open
+R37	SUBEVENT_OF Arg1:T74 Arg2:T22	
+R54	TAKES_PLACE_IN Arg1:T3 Arg2:T39	
+R2	ORIGINS_FROM Arg1:T35 Arg2:T7	
+R4	ORIGINS_FROM Arg1:T38 Arg2:T15	
+R13	WORKS_AS Arg1:T13 Arg2:T42	
+R14	WORKS_AS Arg1:T16 Arg2:T42	
+R15	AGENT Arg1:T16 Arg2:T43	
+R21	AGENT Arg1:T13 Arg2:T43	
+R22	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R24	PARTICIPANT_IN Arg1:T18 Arg2:T45	
+R32	ALTERNATIVE_NAME Arg1:T36 Arg2:T48	
+R33	AGENT Arg1:T16 Arg2:T36	
+N1	Reference T1 Wikidata:Q11459	Серена Уильямс
+N2	Reference T12 Wikidata:Q60	Нью-Йорк
+N4	Reference T16 Wikidata:Q10118	Виктория Азаренко
+N5	Reference T28 Wikidata:Q5812	Новак Джокович
+N6	Reference T29 Wikidata:Q160894	испанцы
+N7	Reference T30 Wikidata:Q10132	Рафаэль Надаль
+N10	Reference T38 Wikidata:Q10833314	теннисист
+N11	Reference T47 Wikidata:Q2066131	спортсмен
+N12	Reference T51 Wikidata:Q127885	сербы
+N14	Reference T54 Wikidata:Q39355674	
+N8	Reference T32 Wikidata:Q846570	
+N9	Reference T35 Wikidata:NULL	нет данных
+N3	Reference T15 Wikidata:Q483569	белорусы
+N17	Reference T52 Wikidata:Q39355674	
+N13	Reference T53 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:Q2066131	спортсмен
+N16	Reference T62 Wikidata:Q123577	Открытый чемпионат США по теннису
+N15	Reference T39 Wikidata:Q30	США
+N19	Reference T13 Wikidata:Q11459	Серена Уильямс
+N20	Reference T5 Wikidata:Q11459	Серена Уильямс
+N21	Reference T19 Wikidata:Q11459	Серена Уильямс
+N22	Reference T4 Wikidata:Q11459	Серена Уильямс
+N23	Reference T18 Wikidata:Q11459	Серена Уильямс
+N24	Reference T63 Wikidata:Q123577	Открытый чемпионат США по теннису
+N25	Reference T33 Wikidata:Q30	США
+N26	Reference T34 Wikidata:Q30	США

@@ -1,0 +1,299 @@
+T1	NATIONALITY 0 8	Британцы
+T2	COUNTRY 35 49	Великобритания
+T3	PROFESSION 66 82	премьер-министра
+T4	ORDINAL 92 98	первое
+T5	DATE 99 110	с 1940 года
+T6	ORGANIZATION 174 207	либерально-демократическая партия
+T7	COUNTRY 279 289	британским
+T9	PERSON 325 338	Дэвид Кэмерон
+T10	PERSON 370 384	Гордона Брауна
+T12	DATE 423 434	с 1997 года
+T13	EVENT 452 473	парламентских выборов
+T14	DATE 474 479	6 мая
+T15	NUMBER 494 497	251
+T16	NUMBER 564 567	326
+T17	NUMBER 636 639	292
+T18	AGE 754 763	43-летний
+T19	ORGANIZATION 866 900	Либерально-демократической партией
+T20	EVENT 923 944	парламентских выборов
+T21	ORDINAL 955 962	третьей
+T22	NUMBER 982 984	52
+T23	ORGANIZATION 1001 1009	Би-би-си
+T24	PERSON 1011 1018	Кэмерон
+T25	DATE 1059 1070	с 1812 года
+T26	AGE 1094 1103	42-летний
+T27	PERSON 1104 1124	Роберт Банкс-Джонсон
+T28	ORDINAL 1126 1129	2-й
+T29	PROFESSION 1130 1144	граф Ливерпуля
+T30	PERSON 1146 1155	Тони Блэр
+T31	FACILITY 1175 1187	квартиру №10
+T32	FACILITY 1191 1204	Даунинг-стрит
+T33	DATE 1222 1229	полгода
+T34	AGE 1219 1236	на полгода старше
+T35	PERSON 1242 1255	Дэвид Камерон
+T37	PERSON 1354 1363	Ник Клегг
+T38	PROFESSION 1377 1391	вице-премьером
+T39	NUMBER 1446 1452	четыре
+T40	COUNTRY 1468 1478	британском
+T41	PROFESSION 1495 1513	Министром финансов
+T42	PROFESSION 1515 1551	канцлером казначейства Ее Величества
+T43	PERSON 1583 1598	Дэвида Камерона
+T44	PERSON 1611 1624	Джордж Осборн
+T45	ORGANIZATION 1626 1629	МИД
+T46	ORGANIZATION 1631 1641	Форин-офис
+T47	PROFESSION 1653 1684	теневой министр иностранных дел
+T48	PERSON 1685 1696	Уильям Хэйг
+T49	PROFESSION 1700 1717	министром обороны
+T50	PERSON 1725 1734	Лиам Фокс
+T51	PERSON 1737 1744	Кэмерон
+T53	PERSON 1870 1879	Ник Клегг
+T54	DATE 1981 1991	Во вторник
+T55	EVENT 2014 2023	аудиенции
+T56	PROFESSION 2026 2034	королевы
+T58	PERSON 2096 2107	Барак Обама
+T59	PROFESSION 2157 2185	британского премьер-министра
+T60	COUNTRY 2195 2212	Соединенные Штаты
+T61	PERSON 2226 2233	Кэмерон
+T62	PERSON 2236 2241	Клегг
+T63	CITY 2285 2296	Вашингтоном
+T64	PERSON 2331 2345	Гордона Брауна
+T65	PERSON 2368 2378	Тони Блэра
+T66	PERSON 2393 2400	Кэмерон
+T67	COUNTRY 2451 2462	Афганистане
+T68	DATE 2498 2516	в течение пяти лет
+T69	DATE 2519 2529	Во вторник
+T70	PERSON 2530 2542	Гордон Браун
+T71	PROFESSION 2603 2619	премьер-министра
+T72	FACILITY 2652 2665	Даунинг-стрит
+T73	PROFESSION 2697 2724	лидера Лейбористской партии
+T74	FACILITY 2789 2808	Букингемский дворец
+T75	PROFESSION 2842 2850	королеве
+T76	PROFESSION 25 33	премьера
+T77	ORGANIZATION 111 137	коалиционное правительство
+T79	IDEOLOGY 159 173	консерваторами
+T81	IDEOLOGY 174 184	либерально
+T82	IDEOLOGY 185 200	демократическая
+T84	ORGANIZATION 258 271	правительства
+T8	IDEOLOGY 311 324	консерваторов
+T11	IDEOLOGY 394 405	лейбористов
+T85	PROFESSION 498 509	депутатское
+T86	ORGANIZATION 550 563	правительства
+T87	IDEOLOGY 570 582	Консерваторы
+T88	ORGANIZATION 699 712	правительство
+T89	PROFESSION 740 752	журналистами
+T90	IDEOLOGY 770 783	консерваторов
+T78	PROFESSION 1049 1058	премьером
+T91	CITY 1135 1144	Ливерпуля
+T92	DATE 1205 1213	в 1997-м
+T93	FACILITY 1175 1204	квартиру №10 на Даунинг-стрит
+T94	IDEOLOGY 1295 1309	консерваторами
+T95	IDEOLOGY 1312 1324	либеральными
+T96	IDEOLOGY 1325 1336	демократами
+T36	ORGANIZATION 1417 1421	тори
+T97	ORGANIZATION 1468 1492	британском правительстве
+T99	IDEOLOGY 1760 1773	консерваторов
+T52	IDEOLOGY 1847 1858	либеральных
+T100	IDEOLOGY 1859 1869	демократов
+T102	IDEOLOGY 1312 1336	либеральными демократами
+T103	PERSON 2035 2047	Елизаветы II
+T57	FACILITY 2050 2069	Букингемском дворце
+T104	PERSON 2070 2085	Дэвида Камерона
+T105	DATE 2213 2223	этим летом
+T106	PROFESSION 2636 2648	журналистами
+T107	ORGANIZATION 2704 2724	Лейбористской партии
+T108	PROFESSION 2743 2755	депутатского
+T109	PERSON 2851 2863	Елизавете II
+R1	WORKPLACE Arg1:T3 Arg2:T2	
+R2	AGE_IS Arg1:T27 Arg2:T26	
+R3	PLACE_RESIDES_IN Arg1:T30 Arg2:T93	
+T98	PROFESSION 764 783	лидер консерваторов
+R4	AGE_IS Arg1:T98 Arg2:T18	
+T110	PROFESSION 305 324	лидер консерваторов
+R5	WORKS_AS Arg1:T9 Arg2:T110	
+R6	IDEOLOGY_OF Arg1:T9 Arg2:T8	
+T111	PROFESSION 387 405	лидера лейбористов
+R7	WORKS_AS Arg1:T10 Arg2:T111	
+R8	IDEOLOGY_OF Arg1:T10 Arg2:T11	
+R9	POINT_IN_TIME Arg1:T13 Arg2:T14	
+T112	COUNTRY 1038 1048	британским
+R10	WORKS_AS Arg1:T24 Arg2:T116	
+R11	IDEOLOGY_OF Arg1:T37 Arg2:T102	
+T113	IDEOLOGY 1599 1610	консерватор
+R12	IDEOLOGY_OF Arg1:T44 Arg2:T113	
+R13	KNOWS Arg1:T43 Arg2:T44	
+R14	WORKS_AS Arg1:T44 Arg2:T41	
+R15	WORKS_AS Arg1:T44 Arg2:T42	
+R16	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R17	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R18	WORKS_AS Arg1:T50 Arg2:T49	
+R19	WORKS_AS Arg1:T48 Arg2:T47	
+T114	PROFESSION 1841 1869	лидер либеральных демократов
+R20	WORKS_AS Arg1:T53 Arg2:T114	
+R21	IDEOLOGY_OF Arg1:T53 Arg2:T52	
+R22	WORKS_AS Arg1:T109 Arg2:T75	
+R23	WORKS_AS Arg1:T70 Arg2:T71	
+R24	WORKS_AS Arg1:T70 Arg2:T73	
+R25	WORKPLACE Arg1:T70 Arg2:T107	
+T115	IDEOLOGY 2704 2717	Лейбористской
+R26	KNOWS Arg1:T61 Arg2:T62	
+R27	TAKES_PLACE_IN Arg1:T55 Arg2:T57	
+R28	WORKS_AS Arg1:T103 Arg2:T56	
+R29	AGENT Arg1:T103 Arg2:T55	
+R30	PARTICIPANT_IN Arg1:T104 Arg2:T55	
+R31	POINT_IN_TIME Arg1:T55 Arg2:T54	
+R32	HEADQUARTERED_IN Arg1:T77 Arg2:T2	
+R33	IDEOLOGY_OF Arg1:T6 Arg2:T81	
+R34	IDEOLOGY_OF Arg1:T6 Arg2:T82	
+T80	EVENT 145 156	переговоров
+R35	AGENT Arg1:T6 Arg2:T80	
+T83	PROFESSION 279 299	британским премьером
+R36	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R37	WORKPLACE Arg1:T83 Arg2:T7	
+R38	WORKS_AS Arg1:T9 Arg2:T83	
+R39	WORKPLACE Arg1:T9 Arg2:T7	
+R40	HEADQUARTERED_IN Arg1:T97 Arg2:T40	
+R41	WORKPLACE Arg1:T24 Arg2:T112	
+T116	PROFESSION 1038 1058	британским премьером
+R42	WORKPLACE Arg1:T116 Arg2:T112	
+R43	AGE_IS Arg1:T9 Arg2:T18	
+R44	PARTICIPANT_IN Arg1:T19 Arg2:T20	
+R45	WORKS_AS Arg1:T27 Arg2:T116	
+R46	WORKPLACE Arg1:T27 Arg2:T112	
+R47	WORKS_AS Arg1:T27 Arg2:T29	
+R48	ALTERNATIVE_NAME Arg1:T9 Arg2:T24	
+R49	IDEOLOGY_OF Arg1:T98 Arg2:T90	
+T117	EVENT 346 369	уходящего с этого поста
+R50	PARTICIPANT_IN Arg1:T10 Arg2:T117	
+R51	IDEOLOGY_OF Arg1:T51 Arg2:T99	
+T118	IDEOLOGY 866 876	Либерально
+T119	IDEOLOGY 877 892	демократической
+R52	IDEOLOGY_OF Arg1:T19 Arg2:T118	
+R53	IDEOLOGY_OF Arg1:T19 Arg2:T119	
+T101	EVENT 2086 2095	поздравил
+R54	AGENT Arg1:T58 Arg2:T101	
+R55	PARTICIPANT_IN Arg1:T104 Arg2:T101	
+R56	POINT_IN_TIME Arg1:T101 Arg2:T54	
+T120	TIME 1981 1999	Во вторник вечером
+T121	PROFESSION 2169 2185	премьер-министра
+T122	COUNTRY 2157 2168	британского
+R57	WORKPLACE Arg1:T59 Arg2:T122	
+R58	ALTERNATIVE_NAME Arg1:T37 Arg2:T62	
+T123	EVENT 2577 2602	сложить с себя полномочия
+R59	AGENT Arg1:T70 Arg2:T123	
+T124	EVENT 2621 2629	Выступая
+R60	AGENT Arg1:T70 Arg2:T124	
+R61	PARTICIPANT_IN Arg1:T106 Arg2:T124	
+R62	TAKES_PLACE_IN Arg1:T124 Arg2:T72	
+T125	EVENT 2682 2696	уходит с поста
+R63	AGENT Arg1:T70 Arg2:T125	
+T126	EVENT 2814 2841	вручил прошение об отставке
+R64	AGENT Arg1:T70 Arg2:T126	
+R65	PARTICIPANT_IN Arg1:T109 Arg2:T126	
+R66	AGENT Arg1:T79 Arg2:T80	
+R67	WORKPLACE Arg1:T10 Arg2:T7	
+R68	WORKS_AS Arg1:T10 Arg2:T83	
+R69	IDEOLOGY_OF Arg1:T111 Arg2:T11	
+R70	IDEOLOGY_OF Arg1:T110 Arg2:T8	
+R71	TAKES_PLACE_IN Arg1:T13 Arg2:T7	
+R72	TAKES_PLACE_IN Arg1:T80 Arg2:T2	
+R73	HEADQUARTERED_IN Arg1:T84 Arg2:T2	
+R74	FOUNDED_BY Arg1:T84 Arg2:T6	
+R76	PARTICIPANT_IN Arg1:T11 Arg2:T13	
+R77	TAKES_PLACE_IN Arg1:T13 Arg2:T7	
+R75	HEADQUARTERED_IN Arg1:T45 Arg2:T40	
+R78	WORKPLACE Arg1:T41 Arg2:T97	
+R79	WORKPLACE Arg1:T47 Arg2:T97	
+R80	WORKPLACE Arg1:T49 Arg2:T97	
+R81	PLACE_RESIDES_IN Arg1:T103 Arg2:T57	
+T127	EVENT 2119 2139	телефонном разговоре
+R82	AGENT Arg1:T58 Arg2:T127	
+R83	SUBEVENT_OF Arg1:T101 Arg2:T127	
+R84	AGENT Arg1:T104 Arg2:T127	
+R85	WORKS_AS Arg1:T104 Arg2:T59	
+R86	WORKPLACE Arg1:T104 Arg2:T122	
+R87	WORKPLACE Arg1:T58 Arg2:T60	
+R88	LOCATED_IN Arg1:T63 Arg2:T60	
+R89	PARTICIPANT_IN Arg1:T71 Arg2:T123	
+R90	PARTICIPANT_IN Arg1:T107 Arg2:T125	
+R91	PLACE_RESIDES_IN Arg1:T109 Arg2:T74	
+R92	TAKES_PLACE_IN Arg1:T126 Arg2:T74	
+N1	Reference T1 Wikidata:Q842438	британцы
+N4	Reference T9 Wikidata:Q192	Дэвид Кэмерон
+N5	Reference T23 Wikidata:Q9531	Би-би-си
+N9	Reference T35 Wikidata:Q192	Дэвид Кэмерон
+N10	Reference T37 Wikidata:Q189947	Клегг, Ник
+N11	Reference T38 Wikidata:Q877955	вице-премьер
+N12	Reference T42 Wikidata:Q531471	канцлер казначейства
+N13	Reference T44 Wikidata:Q332493	Осборн, Джордж
+N14	Reference T46 Wikidata:Q358834	Форин-офис
+N15	Reference T49 Wikidata:Q2518691	министр обороны
+N16	Reference T50 Wikidata:Q332374	Фокс, Лиам
+N18	Reference T58 Wikidata:Q76	Барак Обама
+N19	Reference T60 Wikidata:Q30	США
+N20	Reference T63 Wikidata:Q61	Вашингтон
+N21	Reference T64 Wikidata:Q10648	Гордон Браун
+N22	Reference T65 Wikidata:Q9545	Тони Блэр
+N23	Reference T67 Wikidata:Q889	Афганистан
+N24	Reference T71 Wikidata:Q14212	премьер-министр
+N25	Reference T72 Wikidata:Q192687	Даунинг-стрит
+N26	Reference T74 Wikidata:Q42182	Букингемский дворец
+N28	Reference T77 Wikidata:Q837416	коалиционное правительство
+N30	Reference T86 Wikidata:Q7188	правительство
+N31	Reference T89 Wikidata:Q1930187	журналист
+N32	Reference T78 Wikidata:Q14212	премьер-министр
+N33	Reference T91 Wikidata:Q24826	Ливерпуль
+N34	Reference T36 Wikidata:Q9626	Консервативная партия
+N36	Reference T107 Wikidata:Q9630	Лейбористская партия
+N37	Reference T109 Wikidata:Q9682	Елизавета II
+N27	Reference T76 Wikidata:Q14212	премьер-министр
+N2	Reference T6 Wikidata:Q622441	Либеральная партия
+N39	Reference T111 Wikidata:NULL	нет данных
+N41	Reference T83 Wikidata:Q14211	премьер-министр Великобритании
+N3	Reference T7 Wikidata:Q145	Великобритания
+N29	Reference T85 Wikidata:Q486839	член парламента
+N38	Reference T98 Wikidata:NULL	нет данных
+N6	Reference T27 Wikidata:Q312569	Ливерпул, Роберт Банкс Дженкинсон
+N7	Reference T29 Wikidata:NULL	нет данных
+N42	Reference T93 Wikidata:Q169101	Даунинг-стрит, 10
+N8	Reference T31 Wikidata:NULL	нет данных
+N35	Reference T97 Wikidata:Q6063	Правительство Великобритании
+N43	Reference T47 Wikidata:NULL	нет данных
+N44	Reference T48 Wikidata:Q58282	
+N40	Reference T114 Wikidata:NULL	нет данных
+N17	Reference T56 Wikidata:Q12097	король
+N45	Reference T59 Wikidata:Q14211	премьер-министр Великобритании
+N46	Reference T73 Wikidata:NULL	нет данных
+N47	Reference T51 Wikidata:Q192	Дэвид Кэмерон
+N48	Reference T61 Wikidata:Q192	Дэвид Кэмерон
+N49	Reference T24 Wikidata:Q192	Дэвид Кэмерон
+N50	Reference T66 Wikidata:Q192	Дэвид Кэмерон
+N51	Reference T43 Wikidata:Q192	Дэвид Кэмерон
+N52	Reference T104 Wikidata:Q192	Дэвид Кэмерон
+N53	Reference T62 Wikidata:Q189947	Клегг, Ник
+N54	Reference T53 Wikidata:Q189947	Клегг, Ник
+N55	Reference T41 Wikidata:Q531471	канцлер казначейства
+N56	Reference T45 Wikidata:Q358834	Форин-офис
+N57	Reference T70 Wikidata:Q10648	Гордон Браун
+N58	Reference T10 Wikidata:Q10648	Гордон Браун
+N59	Reference T30 Wikidata:Q9545	Тони Блэр
+N60	Reference T121 Wikidata:Q14212	премьер-министр
+N61	Reference T3 Wikidata:Q14212	премьер-министр
+N62	Reference T32 Wikidata:Q192687	Даунинг-стрит
+N63	Reference T57 Wikidata:Q42182	Букингемский дворец
+N64	Reference T84 Wikidata:Q7188	правительство
+N65	Reference T88 Wikidata:Q7188	правительство
+N66	Reference T106 Wikidata:Q1930187	журналист
+N67	Reference T103 Wikidata:Q9682	Елизавета II
+N68	Reference T19 Wikidata:Q622441	Либеральная партия
+N69	Reference T116 Wikidata:Q14211	премьер-министр Великобритании
+N70	Reference T40 Wikidata:Q145	Великобритания
+N71	Reference T112 Wikidata:Q145	Великобритания
+N72	Reference T2 Wikidata:Q145	Великобритания
+N73	Reference T122 Wikidata:Q145	Великобритания
+N74	Reference T108 Wikidata:Q486839	член парламента
+N75	Reference T110 Wikidata:NULL	нет данных
+N76	Reference T75 Wikidata:Q12097	король
+T128	EVENT 1166 1172	въехал
+R93	AGENT Arg1:T30 Arg2:T128	
+R94	TAKES_PLACE_IN Arg1:T128 Arg2:T93	
+R95	POINT_IN_TIME Arg1:T128 Arg2:T92	

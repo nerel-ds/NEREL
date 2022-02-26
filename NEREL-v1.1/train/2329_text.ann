@@ -1,0 +1,154 @@
+T1	COUNTRY 2 10	Малайзии
+T2	NUMBER 19 25	четыре
+T3	DATE 59 67	14 марта
+T4	COUNTRY 70 78	Малайзии
+T5	NUMBER 87 93	четыре
+T6	NUMBER 128 132	одна
+T7	NUMBER 150 157	четырёх
+T8	NUMBER 182 186	один
+T9	PROFESSION 210 221	космонавтом
+T10	COUNTRY 222 230	Малайзии
+T11	NUMBER 237 243	четыре
+T12	NUMBER 281 284	900
+T13	PROFESSION 332 342	космонавта
+T14	COUNTRY 343 351	Малайзии
+T15	NUMBER 359 366	четырёх
+T16	PROFESSION 385 400	министр обороны
+T17	PERSON 410 422	Наджиб Разак
+T18	PERSON 424 435	Najib Razak
+T19	COUNTRY 542 550	Малайзии
+T20	PERSON 560 572	Наджиб Разак
+T21	PERSON 593 617	Мохаммед Фаиз Камалуддин
+T22	PERSON 619 643	Mohammed Faiz Kamaluddin
+T23	AGE 646 653	34 года
+T24	PROFESSION 655 660	пилот
+T25	ORGANIZATION 675 693	Malaysian Airlines
+T26	PERSON 695 722	С Ванаджах Сива Субраманиам
+T27	PERSON 724 750	S Vanajah Siva Subramaniam
+T28	AGE 753 759	35 лет
+T29	PROFESSION 770 777	инженер
+T30	PERSON 778 796	Шейх Музафар Шукор
+T31	PERSON 798 821	Sheikh Muszaphar Shukor
+T32	AGE 824 831	34 года
+T33	PROFESSION 833 837	врач
+T34	PERSON 838 848	Фаиз Халид
+T35	PERSON 850 862	Faiz Khaleed
+T36	AGE 865 871	26 лет
+T37	PROFESSION 873 884	зубной врач
+T38	NUMBER 916 922	Четыре
+T39	DATE 933 946	в конце марта
+T40	DATE 951 966	в начале апреля
+T41	COUNTRY 980 986	Россию
+T42	COUNTRY 990 996	России
+T43	DATE 997 1018	в течение двух недель
+T44	ORGANIZATION 1066 1095	Центре подготовки космонавтов
+T45	NUMBER 1138 1142	один
+T46	NUMBER 1155 1159	один
+T47	DATE 1255 1265	18 месяцев
+T48	COUNTRY 1285 1296	малазийский
+T49	DATE 1327 1344	октябре 2007 года
+T50	COUNTRY 1364 1371	Россией
+T51	COUNTRY 1374 1383	Малайзией
+T52	COUNTRY 1397 1409	малазийского
+T53	NUMBER 1443 1454	миллиардной
+T54	COUNTRY 1474 1482	Малайзия
+T55	COUNTRY 1494 1500	России
+T56	PRODUCT 1517 1525	Су-30МКМ
+T57	PROFESSION 106 116	космонавты
+T58	ORDINAL 203 209	первым
+T59	ORDINAL 324 331	первого
+T60	PROFESSION 385 409	министр обороны Малайзии
+T61	PROFESSION 385 392	министр
+T62	PROFESSION 873 914	зубной врач военно-воздушных сил Малайзии
+T65	PROFESSION 1084 1095	космонавтов
+T66	PROFESSION 1143 1152	космонавт
+T67	PROFESSION 1297 1306	космонавт
+T68	PROFESSION 1410 1420	космонавта
+T69	COUNTRY 401 409	Малайзии
+T70	ORDINAL 454 460	первым
+T71	PROFESSION 461 472	астронавтом
+T72	COUNTRY 906 914	Малайзии
+T73	FACILITY 1321 1324	МКС
+T74	NUMBER 1501 1503	18
+R1	ORIGINS_FROM Arg1:T9 Arg2:T10	
+R2	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R3	WORKPLACE Arg1:T60 Arg2:T69	
+R4	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R5	WORKS_AS Arg1:T17 Arg2:T60	
+R6	ALTERNATIVE_NAME Arg1:T13 Arg2:T71	
+R7	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R8	AGE_IS Arg1:T21 Arg2:T23	
+R9	WORKS_AS Arg1:T21 Arg2:T24	
+R10	WORKPLACE Arg1:T21 Arg2:T25	
+R11	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+R12	AGE_IS Arg1:T26 Arg2:T28	
+R13	WORKS_AS Arg1:T26 Arg2:T29	
+R14	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R15	WORKS_AS Arg1:T30 Arg2:T33	
+R16	AGE_IS Arg1:T30 Arg2:T32	
+R17	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R18	AGE_IS Arg1:T34 Arg2:T36	
+T64	ORGANIZATION 885 914	военно-воздушных сил Малайзии
+T75	ORGANIZATION 885 905	военно-воздушных сил
+R19	HEADQUARTERED_IN Arg1:T64 Arg2:T72	
+R20	WORKPLACE Arg1:T62 Arg2:T64	
+R21	WORKS_AS Arg1:T34 Arg2:T62	
+R22	WORKPLACE Arg1:T34 Arg2:T64	
+R23	ORIGINS_FROM Arg1:T44 Arg2:T65	
+R24	ALTERNATIVE_NAME Arg1:T72 Arg2:T48	
+R25	ORIGINS_FROM Arg1:T67 Arg2:T48	
+R26	ORIGINS_FROM Arg1:T68 Arg2:T52	
+T63	COUNTRY 675 684	Malaysian
+R27	HEADQUARTERED_IN Arg1:T25 Arg2:T63	
+R28	ALTERNATIVE_NAME Arg1:T19 Arg2:T63	
+R29	ALTERNATIVE_NAME Arg1:T51 Arg2:T52	
+R30	PRODUCES Arg1:T55 Arg2:T56	
+N1	Reference T10 Wikidata:Q833	Малайзия
+N2	Reference T16 Wikidata:Q2518691	министр обороны
+N3	Reference T19 Wikidata:Q833	Малайзия
+N4	Reference T24 Wikidata:Q2095549	лётчик
+N5	Reference T25 Wikidata:Q308952	Malaysia Airlines
+N7	Reference T29 Wikidata:Q81096	инженер
+N8	Reference T30 Wikidata:Q313957	Шукор, Шейх Музафар
+N9	Reference T33 Wikidata:Q39631	врач
+N11	Reference T42 Wikidata:Q159	Россия
+N14	Reference T61 Wikidata:Q83307	министр
+N16	Reference T67 Wikidata:Q11631	космонавт
+N17	Reference T73 Wikidata:Q25271	Международная космическая станция
+N20	Reference T60 Wikidata:Q20449744	
+N21	Reference T18 Wikidata:Q57675	
+N22	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T26 Wikidata:NULL	нет данных
+N23	Reference T35 Wikidata:Q2632140	
+N10	Reference T37 Wikidata:Q27349	стоматолог
+N24	Reference T48 Wikidata:Q833	Малайзия
+N13	Reference T56 Wikidata:Q1756130	
+N12	Reference T44 Wikidata:Q730282	Центр подготовки космонавтов имени Ю. А. Гагарина
+N19	Reference T75 Wikidata:Q61883	военно-воздушные силы
+N18	Reference T64 Wikidata:Q224577	Королевские воздушные силы Малайзии
+N15	Reference T62 Wikidata:NULL	нет данных
+N25	Reference T69 Wikidata:Q833	Малайзия
+N26	Reference T51 Wikidata:Q833	Малайзия
+N27	Reference T14 Wikidata:Q833	Малайзия
+N28	Reference T52 Wikidata:Q833	Малайзия
+N29	Reference T4 Wikidata:Q833	Малайзия
+N30	Reference T54 Wikidata:Q833	Малайзия
+N31	Reference T1 Wikidata:Q833	Малайзия
+N32	Reference T63 Wikidata:Q833	Малайзия
+N33	Reference T31 Wikidata:Q313957	Шукор, Шейх Музафар
+N34	Reference T50 Wikidata:Q159	Россия
+N35	Reference T41 Wikidata:Q159	Россия
+N36	Reference T55 Wikidata:Q159	Россия
+N37	Reference T13 Wikidata:Q11631	космонавт
+N38	Reference T57 Wikidata:Q11631	космонавт
+N39	Reference T65 Wikidata:Q11631	космонавт
+N40	Reference T66 Wikidata:Q11631	космонавт
+N41	Reference T9 Wikidata:Q11631	космонавт
+N42	Reference T71 Wikidata:Q11631	космонавт
+N43	Reference T68 Wikidata:Q11631	космонавт
+N44	Reference T17 Wikidata:Q57675	
+N45	Reference T20 Wikidata:Q57675	
+N46	Reference T21 Wikidata:NULL	нет данных
+N47	Reference T27 Wikidata:NULL	нет данных
+N48	Reference T34 Wikidata:Q2632140	
+N49	Reference T72 Wikidata:Q833	Малайзия

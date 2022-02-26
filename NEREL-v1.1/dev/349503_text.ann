@@ -1,0 +1,128 @@
+T1	CITY 2 8	Москве
+T2	PERSON 45 60	Василия Шукшина
+T3	PERSON 61 75	Василий Шукшин
+T4	DATE 76 101	С 25 по 28 июля 2019 года
+T5	CITY 104 110	Москве
+T6	PERSON 175 189	Василий Шукшин
+T7	AGE 214 222	90-летию
+T8	DATE 289 296	25 июля
+T9	NUMBER 327 333	девяти
+T10	ORGANIZATION 362 369	Москино
+T11	FACILITY 373 378	Полёт
+T12	FACILITY 382 392	Молодёжный
+T19	PERSON 552 567	Василия Шукшина
+T21	WORK_OF_ART 670 687	Мишка, Серёга и я
+T22	PROFESSION 690 701	механизатор
+T23	PERSON 722 727	Ревун
+T24	WORK_OF_ART 741 747	Алёнка
+T26	WORK_OF_ART 806 819	Странные люди
+T27	PERSON 841 847	Шукшин
+T28	DATE 876 901	во второй половине 1950-х
+T29	PERSON 925 942	Сергея Герасимова
+T30	WORK_OF_ART 944 953	Тихий дон
+T31	ORGANIZATION 985 990	ВГИКе
+T32	CITY 1004 1014	московские
+T33	NUMBER 1072 1078	девять
+T34	WORK_OF_ART 1138 1151	Печки-лавочки
+T35	WORK_OF_ART 1155 1168	Странные люди
+T36	WORK_OF_ART 1173 1187	Ваш сын и брат
+T37	ORGANIZATION 1243 1250	Москино
+T38	PROFESSION 239 246	артиста
+T39	PROFESSION 248 256	писателя
+T40	PROFESSION 259 268	режиссёра
+T42	FACILITY 396 401	Искра
+T43	FACILITY 405 411	Вымпел
+T44	FACILITY 415 422	Спутник
+T45	FACILITY 426 430	Тула
+T46	FACILITY 434 439	Салют
+T47	FACILITY 443 449	Юность
+T13	ORGANIZATION 472 477	мэрии
+T14	ORGANIZATION 462 477	столичной мэрии
+T15	WORK_OF_ART 597 614	Мужском разговоре
+T16	PROFESSION 625 632	учитель
+T17	WORK_OF_ART 789 802	Печки-лавочки
+T18	WORK_OF_ART 824 838	Ваш сын и брат
+T20	ORDINAL 879 885	второй
+T25	PROFESSION 908 915	матроса
+T41	EVENT 31 44	показ фильмов
+T48	EVENT 130 144	показы фильмов
+R1	INANIMATE_INVOLVED Arg1:T6 Arg2:T48	
+R2	INANIMATE_INVOLVED Arg1:T2 Arg2:T41	
+R3	TAKES_PLACE_IN Arg1:T48 Arg2:T5	
+R4	POINT_IN_TIME Arg1:T48 Arg2:T4	
+R5	TAKES_PLACE_IN Arg1:T41 Arg2:T1	
+R6	AGE_IS Arg1:T6 Arg2:T7	
+R7	WORKS_AS Arg1:T6 Arg2:T38	
+R8	WORKS_AS Arg1:T6 Arg2:T39	
+R9	WORKS_AS Arg1:T6 Arg2:T40	
+R10	DATE_OF_BIRTH Arg1:T6 Arg2:T8	
+R11	PARTICIPANT_IN Arg1:T19 Arg2:T15	
+R12	PARTICIPANT_IN Arg1:T19 Arg2:T21	
+R13	WORKS_AS Arg1:T23 Arg2:T22	
+R14	PARTICIPANT_IN Arg1:T19 Arg2:T24	
+R15	PARTICIPANT_IN Arg1:T23 Arg2:T24	
+R16	PRODUCES Arg1:T19 Arg2:T17	
+R17	PRODUCES Arg1:T19 Arg2:T26	
+R18	PRODUCES Arg1:T19 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T19 Arg2:T27	
+R22	PRODUCES Arg1:T29 Arg2:T30	
+R23	WORKS_AS Arg1:T27 Arg2:T25	
+R24	PARTICIPANT_IN Arg1:T27 Arg2:T30	
+R25	SCHOOLS_ATTENDED Arg1:T27 Arg2:T31	
+R26	PARTICIPANT_IN Arg1:T27 Arg2:T34	
+R27	PARTICIPANT_IN Arg1:T27 Arg2:T35	
+R28	PARTICIPANT_IN Arg1:T27 Arg2:T36	
+R29	LOCATED_IN Arg1:T10 Arg2:T5	
+R30	LOCATED_IN Arg1:T11 Arg2:T5	
+R31	LOCATED_IN Arg1:T12 Arg2:T5	
+R32	LOCATED_IN Arg1:T42 Arg2:T5	
+R33	LOCATED_IN Arg1:T43 Arg2:T5	
+R34	LOCATED_IN Arg1:T44 Arg2:T5	
+R35	LOCATED_IN Arg1:T45 Arg2:T5	
+R36	LOCATED_IN Arg1:T46 Arg2:T5	
+R37	LOCATED_IN Arg1:T47 Arg2:T5	
+R38	HEADQUARTERED_IN Arg1:T14 Arg2:T5	
+T50	PERSON 670 675	Мишка
+T51	PERSON 677 683	Серёга
+R39	PRODUCES Arg1:T19 Arg2:T23	
+N1	Reference T5 Wikidata:Q649	Москва
+N4	Reference T21 Wikidata:Q4298457	Мишка, Серёга и я
+N7	Reference T24 Wikidata:Q4063775	Алёнка
+N8	Reference T26 Wikidata:Q4443371	Странные люди
+N9	Reference T27 Wikidata:Q316086	Василий Макарович Шукшин
+N10	Reference T29 Wikidata:Q277356	Сергей Аполлинариевич Герасимов
+N12	Reference T31 Wikidata:Q1130457	Всероссийский государственный институт кинематографии имени С. А. Герасимова
+N15	Reference T38 Wikidata:Q483501	деятель искусств
+N16	Reference T39 Wikidata:Q36180	писатель
+N17	Reference T40 Wikidata:Q3455803	режиссёр
+N24	Reference T13 Wikidata:Q543654	ратуша
+N26	Reference T15 Wikidata:Q4305894	Мужской разговор
+N27	Reference T16 Wikidata:Q37226	учитель
+N28	Reference T17 Wikidata:Q2141856	Печки-лавочки
+N29	Reference T18 Wikidata:Q3540517	Ваш сын и брат
+N30	Reference T25 Wikidata:Q707995	матрос
+N14	Reference T37 Wikidata:Q100144542	
+N13	Reference T32 Wikidata:Q649	Москва
+N11	Reference T30 Wikidata:Q673349	Тихий Дон
+N32	Reference T51 Wikidata:NULL	нет данных
+N31	Reference T50 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:Q4461829	
+N6	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T47 Wikidata:Q29471933	
+N2	Reference T11 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:NULL	нет данных
+N20	Reference T44 Wikidata:NULL	нет данных
+N21	Reference T45 Wikidata:NULL	нет данных
+N22	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T43 Wikidata:NULL	нет данных
+N25	Reference T14 Wikidata:Q3339281	Правительство Москвы
+N33	Reference T1 Wikidata:Q649	Москва
+N34	Reference T35 Wikidata:Q4443371	Странные люди
+N35	Reference T19 Wikidata:Q316086	Василий Макарович Шукшин
+N36	Reference T6 Wikidata:Q316086	Василий Макарович Шукшин
+N37	Reference T3 Wikidata:Q316086	Василий Макарович Шукшин
+N38	Reference T2 Wikidata:Q316086	Василий Макарович Шукшин
+N39	Reference T34 Wikidata:Q2141856	Печки-лавочки
+N40	Reference T36 Wikidata:Q3540517	Ваш сын и брат
+N41	Reference T10 Wikidata:Q100144542	

@@ -1,0 +1,204 @@
+T1	PERSON 0 9	Порошенко
+T2	PERSON 45 55	Афанасьева
+T3	PERSON 58 67	Солошенко
+T4	PROFESSION 69 78	Президент
+T5	COUNTRY 79 86	Украины
+T6	PERSON 87 101	Пётр Порошенко
+T7	COUNTRY 147 154	Россией
+T8	NUMBER 173 178	двоих
+T9	NATIONALITY 190 199	украинцев
+T10	PERSON 202 221	Геннадия Афанасьева
+T11	PERSON 224 238	Юрия Солошенко
+T12	COUNTRY 252 263	украинскому
+T13	ORGANIZATION 276 281	Интер
+T14	PERSON 283 292	Порошенко
+T15	NUMBER 341 343	25
+T16	NATIONALITY 352 361	украинцев
+T17	DISTRICT 384 392	Донбассе
+T18	DATE 430 439	в пятницу
+T19	COUNTRY 464 471	Украины
+T20	PERSON 506 515	Солошенко
+T21	PERSON 518 528	Афанасьева
+T22	DATE 539 555	ближайших недель
+T23	PERSON 559 577	Геннадий Афанасьев
+T24	COUNTRY 601 607	России
+T27	NATIONALITY 729 739	украинский
+T28	PERSON 749 760	Олег Сенцов
+T29	PERSON 774 793	Александр Кольченко
+T30	AGE 796 805	73-летний
+T31	PERSON 806 820	Юрий Солошенко
+T33	ORGANIZATION 874 879	Знамя
+T34	DATE 882 893	в 2015 году
+T37	COUNTRY 969 976	Украины
+T38	DATE 979 987	Со 2 мая
+T39	PERSON 1000 1009	Солошенко
+T40	CITY 1022 1032	московском
+T41	FACILITY 1039 1048	Лефортово
+T42	CITY 1115 1119	Киев
+T43	COUNTRY 1132 1142	российской
+T44	NUMBER 1181 1189	четверых
+T45	PERSON 1201 1214	Олега Сенцова
+T46	PERSON 1216 1236	Александра Кольченко
+T47	PERSON 1238 1257	Геннадия Афанасьева
+T48	PERSON 1260 1274	Юрия Солошенко
+T49	DATE 1277 1283	25 мая
+T50	COUNTRY 1315 1322	Украину
+T51	COUNTRY 1351 1357	России
+T54	NUMBER 1424 1428	двух
+T55	ORGANIZATION 1441 1446	ВГТРК
+T56	DATE 1447 1462	летом 2014 года
+T57	CITY 1467 1476	Луганском
+T58	PROFESSION 69 86	Президент Украины
+T59	PROFESSION 440 463	министр иностранных дел
+T60	PROFESSION 440 471	министр иностранных дел Украины
+T61	PERSON 472 485	Павел Климкин
+T62	DATE 578 589	с 2015 года
+T63	PENALTY 608 623	семилетний срок
+T64	DATE 608 618	семилетний
+T65	PROFESSION 740 748	режиссёр
+T66	IDEOLOGY 763 773	антифашист
+T67	STATE_OR_PROVINCE 649 657	крымских
+T68	CRIME 644 669	делу крымских террористов
+T69	COUNTRY 838 849	украинского
+T35	PENALTY 902 935	шесть лет колонии строгого режима
+T70	CRIME 951 959	шпионаже
+T71	PERSON 988 997	Афанасьев
+T72	NATIONALITY 1190 1199	украинцев
+T73	EVENT 1289 1300	освобождена
+T74	PERSON 1323 1339	Надежда Савченко
+T52	NUMBER 1372 1374	22
+T36	NUMBER 902 907	шесть
+T53	PENALTY 1372 1387	22 годам тюрьмы
+T75	CRIME 1403 1423	соучастии в убийстве
+T76	PROFESSION 1429 1440	журналистов
+T77	PROFESSION 1429 1446	журналистов ВГТРК
+T25	DATE 702 704	20
+T26	DATE 707 713	10 лет
+R1	WORKPLACE Arg1:T58 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T58	
+R3	WORKPLACE Arg1:T6 Arg2:T5	
+R4	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R5	ORIGINS_FROM Arg1:T11 Arg2:T9	
+R6	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+R7	ALTERNATIVE_NAME Arg1:T3 Arg2:T11	
+R8	HEADQUARTERED_IN Arg1:T13 Arg2:T12	
+R9	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T14	
+R11	WORKPLACE Arg1:T60 Arg2:T19	
+R12	WORKS_AS Arg1:T61 Arg2:T60	
+R13	WORKPLACE Arg1:T61 Arg2:T19	
+R14	CONVICTED_OF Arg1:T23 Arg2:T68	
+R15	IDEOLOGY_OF Arg1:T29 Arg2:T66	
+R16	AGE_IS Arg1:T31 Arg2:T30	
+R17	PLACE_RESIDES_IN Arg1:T74 Arg2:T50	
+R18	PENALIZED_AS Arg1:T74 Arg2:T53	
+T78	PENALTY 1381 1387	тюрьмы
+R19	WORKPLACE Arg1:T77 Arg2:T55	
+R20	CONVICTED_OF Arg1:T74 Arg2:T75	
+R21	PARTICIPANT_IN Arg1:T74 Arg2:T73	
+R22	POINT_IN_TIME Arg1:T73 Arg2:T49	
+R23	ORIGINS_FROM Arg1:T45 Arg2:T72	
+R24	ORIGINS_FROM Arg1:T46 Arg2:T72	
+R25	ORIGINS_FROM Arg1:T47 Arg2:T72	
+R26	ORIGINS_FROM Arg1:T48 Arg2:T72	
+R27	WORKS_AS Arg1:T28 Arg2:T65	
+R28	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R29	ALTERNATIVE_NAME Arg1:T10 Arg2:T21	
+R30	ALTERNATIVE_NAME Arg1:T11 Arg2:T20	
+R31	LOCATED_IN Arg1:T23 Arg2:T24	
+R32	PENALIZED_AS Arg1:T23 Arg2:T63	
+R33	ORIGINS_FROM Arg1:T28 Arg2:T27	
+R34	ORIGINS_FROM Arg1:T29 Arg2:T27	
+R35	CONVICTED_OF Arg1:T28 Arg2:T68	
+R36	CONVICTED_OF Arg1:T29 Arg2:T68	
+R37	PENALIZED_AS Arg1:T31 Arg2:T35	
+T79	CRIME 951 976	шпионаже в пользу Украины
+R38	CONVICTED_OF Arg1:T31 Arg2:T79	
+T80	PENALTY 912 935	колонии строгого режима
+R39	LOCATED_IN Arg1:T41 Arg2:T40	
+R40	LOCATED_IN Arg1:T39 Arg2:T41	
+R41	LOCATED_IN Arg1:T71 Arg2:T41	
+R42	HEADQUARTERED_IN Arg1:T33 Arg2:T69	
+T32	PROFESSION 829 880	директор украинского оборонного предприятия «Знамя»
+R43	WORKPLACE Arg1:T32 Arg2:T33	
+R44	WORKS_AS Arg1:T31 Arg2:T32	
+R45	WORKPLACE Arg1:T31 Arg2:T33	
+R46	LOCATED_IN Arg1:T40 Arg2:T43	
+R47	ALTERNATIVE_NAME Arg1:T24 Arg2:T43	
+R48	POINT_IN_TIME Arg1:T75 Arg2:T56	
+R49	TAKES_PLACE_IN Arg1:T75 Arg2:T57	
+R50	ORIGINS_FROM Arg1:T65 Arg2:T27	
+R51	LOCATED_IN Arg1:T42 Arg2:T50	
+T81	EVENT 22 36	договоренности
+R52	AGENT Arg1:T1 Arg2:T81	
+R53	PARTICIPANT_IN Arg1:T2 Arg2:T81	
+R54	PARTICIPANT_IN Arg1:T3 Arg2:T81	
+T82	EVENT 130 144	договоренности
+R55	AGENT Arg1:T6 Arg2:T82	
+R56	AGENT Arg1:T7 Arg2:T82	
+R57	PARTICIPANT_IN Arg1:T10 Arg2:T82	
+R58	PARTICIPANT_IN Arg1:T11 Arg2:T82	
+R59	HAS_CAUSE Arg1:T63 Arg2:T68	
+R60	HAS_CAUSE Arg1:T35 Arg2:T79	
+R61	HAS_CAUSE Arg1:T53 Arg2:T75	
+R62	PARTICIPANT_IN Arg1:T77 Arg2:T75	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N5	Reference T16 Wikidata:Q44806	украинцы
+N6	Reference T17 Wikidata:Q605714	Донбасс
+N7	Reference T24 Wikidata:Q159	Россия
+N12	Reference T42 Wikidata:Q1899	Киев
+N13	Reference T45 Wikidata:Q17128150	Сенцов, Олег Геннадьевич
+N14	Reference T46 Wikidata:Q3350312	Кольченко, Александр
+N16	Reference T55 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
+N17	Reference T57 Wikidata:Q134279	Луганск
+N18	Reference T58 Wikidata:Q579677	президент Украины
+N19	Reference T59 Wikidata:Q7330070	министр иностранных дел
+N20	Reference T61 Wikidata:Q10857432	Климкин, Павел Анатольевич
+N21	Reference T65 Wikidata:Q3455803	режиссёр
+N24	Reference T74 Wikidata:Q17318904	Надежда Викторовна Савченко
+N25	Reference T76 Wikidata:Q1930187	журналист
+N3	Reference T10 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N4	Reference T13 Wikidata:NULL	нет данных
+N28	Reference T60 Wikidata:Q6866156	
+N22	Reference T67 Wikidata:Q7835	Крымский полуостров
+N8	Reference T27 Wikidata:Q44806	украинцы
+N23	Reference T69 Wikidata:Q212	Украина
+N27	Reference T32 Wikidata:NULL	нет данных
+N9	Reference T33 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:Q649	Москва
+N11	Reference T41 Wikidata:Q1346321	
+N15	Reference T48 Wikidata:Q21600242	
+N26	Reference T77 Wikidata:NULL	нет данных
+N29	Reference T1 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N30	Reference T14 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N31	Reference T72 Wikidata:Q44806	украинцы
+N32	Reference T9 Wikidata:Q44806	украинцы
+N33	Reference T7 Wikidata:Q159	Россия
+N34	Reference T51 Wikidata:Q159	Россия
+N35	Reference T43 Wikidata:Q159	Россия
+N36	Reference T28 Wikidata:Q17128150	Сенцов, Олег Геннадьевич
+N37	Reference T29 Wikidata:Q3350312	Кольченко, Александр
+N38	Reference T23 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N39	Reference T47 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N40	Reference T2 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N41	Reference T71 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N42	Reference T21 Wikidata:Q20981474	Геннадий Сергеевич Афанасьев
+N43	Reference T5 Wikidata:Q212	Украина
+N44	Reference T12 Wikidata:Q212	Украина
+N45	Reference T19 Wikidata:Q212	Украина
+N46	Reference T50 Wikidata:Q212	Украина
+N47	Reference T37 Wikidata:Q212	Украина
+N48	Reference T20 Wikidata:Q21600242	
+N49	Reference T31 Wikidata:Q21600242	
+N50	Reference T11 Wikidata:Q21600242	
+N51	Reference T3 Wikidata:Q21600242	
+N52	Reference T39 Wikidata:Q21600242	
+T83	EVENT 1303 1312	вернулась
+R63	AGENT Arg1:T74 Arg2:T83	
+R64	TAKES_PLACE_IN Arg1:T83 Arg2:T50	
+R65	POINT_IN_TIME Arg1:T83 Arg2:T49	
+T84	EVENT 1415 1423	убийстве
+R66	HAS_CAUSE Arg1:T75 Arg2:T84	
+R67	PARTICIPANT_IN Arg1:T77 Arg2:T84	
+R68	POINT_IN_TIME Arg1:T84 Arg2:T56	

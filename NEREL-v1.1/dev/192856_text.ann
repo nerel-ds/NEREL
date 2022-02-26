@@ -1,0 +1,71 @@
+T1	STATE_OR_PROVINCE 8 16	Колорадо
+T2	STATE_OR_PROVINCE 45 53	Колорадо
+T3	COUNTRY 63 66	США
+T4	STATE_OR_PROVINCE 75 83	Колорадо
+T5	PERCENT 84 88	65 %
+T6	DATE 236 247	в 1865 году
+T8	LAW 284 295	Конституции
+T9	COUNTRY 296 299	США
+T10	DATE 383 396	В том же году
+T11	NUMBER 421 423	27
+T12	COUNTRY 497 500	США
+T13	STATE_OR_PROVINCE 534 542	Колорадо
+T16	STATE_OR_PROVINCE 640 648	Колорадо
+T17	LAW 651 675	'Colorados constitution'
+T19	STATE_OR_PROVINCE 1104 1112	Колорадо
+T20	DATE 1253 1269	ещё 2 года назад
+T7	LAW 284 299	Конституции США
+T22	LAW 261 299	Тринадцатая поправка к Конституции США
+T24	EVENT 27 43	отменили рабство
+T25	PROFESSION 89 100	избирателей
+T26	EVENT 101 139	проголосовало за полный запрет рабства
+T27	EVENT 406 420	ратифицирована
+T14	DATE 569 577	6 ноября
+T15	EVENT 508 519	референдума
+T28	LAW 622 633	Конституции
+T29	LAW 622 648	Конституции штата Колорадо
+T30	ORDINAL 684 686	26
+T31	ORDINAL 694 695	2
+T18	LAW 622 648;678 695	Конституции штата Колорадо пункт 26 статьи 2
+T32	LAW 622 648;687 695	Конституции штата Колорадо статьи 2
+T33	EVENT 1321 1331	референдум
+T34	PROFESSION 1375 1386	избирателей
+T21	DATE 1436 1461	до следующего дня выборов
+R1	TAKES_PLACE_IN Arg1:T24 Arg2:T1	
+R2	LOCATED_IN Arg1:T2 Arg2:T3	
+R3	PARTICIPANT_IN Arg1:T25 Arg2:T26	
+R4	TAKES_PLACE_IN Arg1:T26 Arg2:T4	
+T23	EVENT 253 281	принята Тринадцатая поправка
+R5	POINT_IN_TIME Arg1:T23 Arg2:T6	
+R6	POINT_IN_TIME Arg1:T27 Arg2:T10	
+T37	EVENT 446 466	вступление её в силу
+R7	TAKES_PLACE_IN Arg1:T37 Arg2:T12	
+R8	POINT_IN_TIME Arg1:T37 Arg2:T10	
+R9	TAKES_PLACE_IN Arg1:T15 Arg2:T13	
+R10	POINT_IN_TIME Arg1:T15 Arg2:T14	
+R11	ALTERNATIVE_NAME Arg1:T29 Arg2:T17	
+R12	ORIGINS_FROM Arg1:T29 Arg2:T16	
+R13	ORIGINS_FROM Arg1:T7 Arg2:T9	
+R14	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+R15	INANIMATE_INVOLVED Arg1:T22 Arg2:T23	
+R16	INANIMATE_INVOLVED Arg1:T22 Arg2:T27	
+R17	INANIMATE_INVOLVED Arg1:T22 Arg2:T37	
+N1	Reference T12 Wikidata:Q30	США
+N2	Reference T16 Wikidata:Q1261	Колорадо
+N3	Reference T7 Wikidata:Q11698	конституция США
+N4	Reference T22 Wikidata:Q175613	Тринадцатая поправка к Конституции США
+N5	Reference T28 Wikidata:Q7755	конституция
+N9	Reference T25 Wikidata:Q2540351	
+N7	Reference T18 Wikidata:NULL	нет данных
+N8	Reference T32 Wikidata:NULL	нет данных
+N6	Reference T29 Wikidata:Q5164262	
+N10	Reference T9 Wikidata:Q30	США
+N11	Reference T3 Wikidata:Q30	США
+N12	Reference T13 Wikidata:Q1261	Колорадо
+N13	Reference T19 Wikidata:Q1261	Колорадо
+N14	Reference T4 Wikidata:Q1261	Колорадо
+N15	Reference T2 Wikidata:Q1261	Колорадо
+N16	Reference T1 Wikidata:Q1261	Колорадо
+N17	Reference T8 Wikidata:Q7755	конституция
+N18	Reference T34 Wikidata:Q2540351	
+N19	Reference T17 Wikidata:Q5164262	

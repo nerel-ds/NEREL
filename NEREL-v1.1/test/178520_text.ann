@@ -1,0 +1,221 @@
+T1	CITY 17 32	Санкт-Петербург
+T2	FACILITY 34 45	Малая Невка
+T4	FACILITY 48 67	Дом В. М. Бехтерева
+T5	PERSON 52 67	В. М. Бехтерева
+T6	CITY 70 85	Санкт-Петербург
+T7	FACILITY 87 98	Малая Невка
+T10	CITY 164 180	Санкт-Петербурге
+T11	FACILITY 191 202	Малая Невка
+T12	EVENT 245 260	Последний адрес
+T14	NATIONALITY 364 375	российскому
+T15	PROFESSION 385 393	ботанику
+T16	PERSON 394 422	Феодосию Викторовичу Самбуку
+T17	ORGANIZATION 479 483	НКВД
+T18	PERSON 491 506	Феодосий Самбук
+T19	DATE 515 526	в 1900 году
+T20	CITY 531 538	Гомелем
+T21	CITY 550 561	Копаткевичи
+T23	AGE 565 571	27 лет
+T24	ORGANIZATION 580 621	Ленинградский государственный университет
+T25	ORGANIZATION 655 668	Академии наук
+T26	PROFESSION 675 684	ботаником
+T27	ORGANIZATION 706 728	Ботаническом институте
+T28	DATE 738 749	С 1931 года
+T29	ORGANIZATION 768 790	Институте оленеводства
+T30	ORGANIZATION 832 854	Ботаническом институте
+T31	PERSON 856 871	Феодосий Самбук
+T32	STATE_OR_PROVINCE 946 950	Коми
+T33	DATE 952 963	В 1931 году
+T34	PERSON 979 993	Фёдора Самбука
+T35	DATE 1062 1073	в 1934 году
+T36	DATE 1134 1145	В 1937 году
+T37	DATE 1283 1314	В том же 37-ом году 17 сентября
+T38	ORGANIZATION 1345 1349	НКВД
+T39	DATE 1476 1484	3 ноября
+T40	DATE 1527 1536	10 ноября
+T41	PERSON 1571 1599	Феодосию Викторовичу Самбуку
+T42	AGE 1605 1611	37 лет
+T43	DATE 1653 1678	в воскресенье, 12 августа
+T44	PERSON 1695 1711	Наталья Шкуренок
+T45	PROFESSION 1713 1722	журналист
+T46	PROFESSION 1724 1737	корреспондент
+T47	ORGANIZATION 1747 1763	The ArtNewspaper
+T49	PRODUCT 1818 1825	Фейсбук
+T3	FACILITY 100 106	дом 25
+T8	NUMBER 104 106	25
+T50	DATE 109 129	12 августа 2018 года
+T51	DATE 130 160	В воскресенье, 12 августа 2018
+T52	FACILITY 204 210	дом 25
+T13	PROFESSION 376 383	учёному
+T53	ORGANIZATION 479 488	НКВД СССР
+T54	COUNTRY 484 488	СССР
+T22	PROFESSION 631 643	препаратором
+T55	ORGANIZATION 655 673	Академии наук СССР
+T56	COUNTRY 669 673	СССР
+T57	ORGANIZATION 706 736	Ботаническом институте АН СССР
+T58	ORGANIZATION 729 736	АН СССР
+T59	ORGANIZATION 729 731	АН
+T60	COUNTRY 732 736	СССР
+T61	PERSON 750 756	Самбук
+T62	ORGANIZATION 768 798	Институте оленеводства ВАСХНИЛ
+T63	ORGANIZATION 791 798	ВАСХНИЛ
+T64	LOCATION 914 920	Печоры
+T65	WORK_OF_ART 1102 1130	Поемные луга бассейна Печоры
+T66	PERSON 1146 1152	Самбук
+T67	WORK_OF_ART 1174 1216	Растительность тундры и лесотундры Таймыра
+T68	PROFESSION 1315 1321	учёный
+T69	ORGANIZATION 1345 1354	НКВД СССР
+T70	COUNTRY 1350 1354	СССР
+T71	CRIME 1384 1392	шпионаже
+T72	CRIME 1394 1434	контрреволюционной агитации и пропаганде
+T73	CRIME 1436 1474	участии в террористической группировке
+T74	PERSON 1485 1500	Феодосий Самбук
+T75	PENALTY 1514 1523	расстрелу
+T76	EVENT 1617 1626	церемонии
+T77	PROFESSION 1724 1763	корреспондент газеты ''The ArtNewspaper
+T48	EVENT 1777 1794	Последнего адреса
+R1	LOCATED_IN Arg1:T4 Arg2:T2	
+R2	LOCATED_IN Arg1:T2 Arg2:T1	
+R3	LOCATED_IN Arg1:T3 Arg2:T7	
+R4	LOCATED_IN Arg1:T7 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R6	WORKS_AS Arg1:T16 Arg2:T15	
+R7	WORKS_AS Arg1:T16 Arg2:T13	
+R8	ORIGINS_FROM Arg1:T16 Arg2:T14	
+R9	DATE_OF_BIRTH Arg1:T18 Arg2:T19	
+R10	PLACE_OF_BIRTH Arg1:T18 Arg2:T21	
+R11	AGE_IS Arg1:T18 Arg2:T23	
+T78	CITY 580 593	Ленинградский
+R12	SCHOOLS_ATTENDED Arg1:T18 Arg2:T24	
+R13	HEADQUARTERED_IN Arg1:T24 Arg2:T78	
+T79	NUMBER 208 210	25
+R14	LOCATED_IN Arg1:T52 Arg2:T11	
+R15	LOCATED_IN Arg1:T11 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T10 Arg2:T78	
+R17	HEADQUARTERED_IN Arg1:T58 Arg2:T60	
+R18	OWNER_OF Arg1:T58 Arg2:T57	
+R19	HEADQUARTERED_IN Arg1:T57 Arg2:T60	
+R20	ALTERNATIVE_NAME Arg1:T16 Arg2:T18	
+R21	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R22	TAKES_PLACE_IN Arg1:T12 Arg2:T52	
+R23	POINT_IN_TIME Arg1:T12 Arg2:T51	
+T80	EVENT 273 312	церемония установки мемориального знака
+R24	SUBEVENT_OF Arg1:T80 Arg2:T12	
+R25	TAKES_PLACE_IN Arg1:T80 Arg2:T52	
+R26	POINT_IN_TIME Arg1:T80 Arg2:T51	
+R27	WORKS_AS Arg1:T18 Arg2:T22	
+R28	HEADQUARTERED_IN Arg1:T55 Arg2:T56	
+R29	WORKPLACE Arg1:T22 Arg2:T55	
+R30	WORKPLACE Arg1:T18 Arg2:T55	
+R31	WORKS_AS Arg1:T18 Arg2:T26	
+R32	WORKPLACE Arg1:T26 Arg2:T57	
+R33	WORKPLACE Arg1:T18 Arg2:T57	
+R34	ALTERNATIVE_NAME Arg1:T18 Arg2:T61	
+R35	ALTERNATIVE_NAME Arg1:T61 Arg2:T31	
+R36	WORKPLACE Arg1:T61 Arg2:T62	
+R37	OWNER_OF Arg1:T63 Arg2:T62	
+R38	WORKPLACE Arg1:T61 Arg2:T30	
+T81	LOCATION 1124 1130	Печоры
+T82	LOCATION 1209 1216	Таймыра
+T83	WORK_OF_ART 1007 1057	Методика маршрутных исследований тундровых пастбищ
+R39	PRODUCES Arg1:T34 Arg2:T83	
+R40	DATE_OF_CREATION Arg1:T83 Arg2:T33	
+R41	PRODUCES Arg1:T34 Arg2:T65	
+R42	POINT_IN_TIME Arg1:T65 Arg2:T35	
+R43	ALTERNATIVE_NAME Arg1:T34 Arg2:T66	
+R44	PRODUCES Arg1:T66 Arg2:T67	
+R45	POINT_IN_TIME Arg1:T67 Arg2:T36	
+R46	ALTERNATIVE_NAME Arg1:T66 Arg2:T68	
+T84	EVENT 1322 1331	арестован
+R47	CONVICTED_OF Arg1:T66 Arg2:T72	
+R48	CONVICTED_OF Arg1:T66 Arg2:T73	
+R49	CONVICTED_OF Arg1:T66 Arg2:T71	
+R50	PENALIZED_AS Arg1:T74 Arg2:T75	
+R51	PARTICIPANT_IN Arg1:T68 Arg2:T84	
+R52	PARTICIPANT_IN Arg1:T66 Arg2:T84	
+R53	POINT_IN_TIME Arg1:T84 Arg2:T37	
+T85	EVENT 1537 1569	приговор приводится в исполнение
+R54	POINT_IN_TIME Arg1:T85 Arg2:T40	
+R55	PARTICIPANT_IN Arg1:T74 Arg2:T85	
+R56	HAS_CAUSE Arg1:T75 Arg2:T71	
+R57	HAS_CAUSE Arg1:T75 Arg2:T72	
+R58	HAS_CAUSE Arg1:T75 Arg2:T73	
+R59	ALTERNATIVE_NAME Arg1:T74 Arg2:T41	
+R60	AGE_IS Arg1:T41 Arg2:T42	
+T86	EVENT 1617 1652	церемонии установки памятного знака
+R61	POINT_IN_TIME Arg1:T86 Arg2:T43	
+R62	PARTICIPANT_IN Arg1:T44 Arg2:T86	
+R63	PARTICIPANT_IN Arg1:T44 Arg2:T48	
+R64	SUBEVENT_OF Arg1:T86 Arg2:T48	
+R65	WORKS_AS Arg1:T44 Arg2:T77	
+R66	WORKS_AS Arg1:T44 Arg2:T45	
+R67	WORKPLACE Arg1:T44 Arg2:T47	
+R68	WORKPLACE Arg1:T77 Arg2:T47	
+R69	HEADQUARTERED_IN Arg1:T69 Arg2:T70	
+T9	PROFESSION 1332 1354	сотрудниками НКВД СССР
+R70	WORKPLACE Arg1:T9 Arg2:T69	
+R71	AGENT Arg1:T9 Arg2:T84	
+N3	Reference T6 Wikidata:Q656	Санкт-Петербург
+N4	Reference T11 Wikidata:Q4277131	Малая Невка
+N6	Reference T17 Wikidata:Q182449	Народный комиссариат внутренних дел СССР
+N7	Reference T18 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N8	Reference T20 Wikidata:Q2678	Гомель
+N9	Reference T21 Wikidata:Q2659561	Копаткевичи
+N10	Reference T24 Wikidata:Q27621	Санкт-Петербургский государственный университет
+N11	Reference T25 Wikidata:Q414147	академия наук
+N13	Reference T30 Wikidata:Q133822	Ботанический институт имени В. Л. Комарова РАН
+N14	Reference T32 Wikidata:Q2073	Республика Коми
+N16	Reference T45 Wikidata:Q1930187	журналист
+N19	Reference T49 Wikidata:Q355	Facebook
+N21	Reference T53 Wikidata:Q182449	Народный комиссариат внутренних дел СССР
+N22	Reference T55 Wikidata:Q2370801	Академия наук СССР
+N23	Reference T56 Wikidata:Q15180	СССР
+N24	Reference T57 Wikidata:Q133822	Ботанический институт имени В. Л. Комарова РАН
+N25	Reference T58 Wikidata:Q2370801	Академия наук СССР
+N28	Reference T63 Wikidata:Q472795	Всесоюзная академия сельскохозяйственных наук имени Ленина
+N33	Reference T68 Wikidata:Q901	учёный
+N34	Reference T74 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N36	Reference T82 Wikidata:Q37056	Таймыр
+N1	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q221723	
+N20	Reference T52 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:Q492468	россияне
+N39	Reference T22 Wikidata:NULL	нет данных
+N40	Reference T26 Wikidata:Q2374149	
+N26	Reference T59 Wikidata:Q414147	академия наук
+N12	Reference T29 Wikidata:NULL	нет данных
+N27	Reference T62 Wikidata:NULL	нет данных
+N29	Reference T64 Wikidata:Q8168	Печора
+N37	Reference T83 Wikidata:NULL	нет данных
+N30	Reference T65 Wikidata:NULL	нет данных
+N31	Reference T66 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N32	Reference T67 Wikidata:NULL	нет данных
+N38	Reference T9 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:NULL	нет данных
+N17	Reference T46 Wikidata:Q1155838	
+N35	Reference T77 Wikidata:NULL	нет данных
+N18	Reference T47 Wikidata:Q2331628	
+N41	Reference T10 Wikidata:Q656	Санкт-Петербург
+N42	Reference T1 Wikidata:Q656	Санкт-Петербург
+N43	Reference T78 Wikidata:Q656	Санкт-Петербург
+N44	Reference T7 Wikidata:Q4277131	Малая Невка
+N45	Reference T2 Wikidata:Q4277131	Малая Невка
+N46	Reference T38 Wikidata:Q182449	Народный комиссариат внутренних дел СССР
+N47	Reference T61 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N48	Reference T31 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N49	Reference T16 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N50	Reference T27 Wikidata:Q133822	Ботанический институт имени В. Л. Комарова РАН
+N51	Reference T69 Wikidata:Q182449	Народный комиссариат внутренних дел СССР
+N52	Reference T54 Wikidata:Q15180	СССР
+N53	Reference T60 Wikidata:Q15180	СССР
+N54	Reference T70 Wikidata:Q15180	СССР
+N55	Reference T13 Wikidata:Q901	учёный
+N56	Reference T41 Wikidata:Q4406521	Самбук, Феодосий Викторович
+N57	Reference T3 Wikidata:NULL	нет данных
+N58	Reference T15 Wikidata:Q2374149	
+N59	Reference T81 Wikidata:Q8168	Печора
+N60	Reference T34 Wikidata:Q4406521	Самбук, Феодосий Викторович
+T87	EVENT 507 514	родился
+R72	PARTICIPANT_IN Arg1:T18 Arg2:T87	
+R73	POINT_IN_TIME Arg1:T87 Arg2:T19	
+R74	TAKES_PLACE_IN Arg1:T87 Arg2:T21	

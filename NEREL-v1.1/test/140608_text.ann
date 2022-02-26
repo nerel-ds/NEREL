@@ -1,0 +1,83 @@
+T1	STATE_OR_PROVINCE 7 12	Крыма
+T2	MONEY 45 53	биткоина
+T3	STATE_OR_PROVINCE 56 61	Крыму
+T4	PERSON 111 120	Биткоином
+T5	PERSON 160 176	Биткоин Олегович
+T6	NUMBER 193 197	3 кг
+T8	CITY 248 259	Симферополя
+T9	AGE 260 269	31-летний
+T10	PERSON 270 274	Олег
+T11	PERSON 300 307	Биткоин
+T12	MONEY 440 448	биткоину
+T13	PERSON 619 623	Даша
+T14	MONEY 658 662	Dash
+T15	PERSON 769 775	Сатоши
+T16	ORGANIZATION 794 814	министерстве юстиции
+T17	STATE_OR_PROVINCE 815 820	Крыма
+T18	LAW 890 906	Семейном кодексе
+T19	LAW 909 961	федеральном законе «Об актах гражданского состояния»
+T20	DATE 1202 1213	В 2014 году
+T21	STATE_OR_PROVINCE 1228 1241	Пермском крае
+T22	PERSON 1259 1266	Люцифер
+T23	PERSON 1297 1306	Вольдемар
+T24	DATE 1308 1319	В 2002 году
+T25	CITY 1322 1328	Москве
+T28	FAMILY 1423 1431	Фроловых
+T29	DATE 1444 1461	26 июня 2002 года
+T30	PERSON 26 35	Биткоином
+T7	MONEY 758 766	биткоина
+T32	ORGANIZATION 794 820	министерстве юстиции Крыма
+T33	MONEY 1177 1184	биктоин
+T34	EVENT 1250 1258	дали имя
+T35	EVENT 1289 1296	назвали
+T36	EVENT 1337 1345	дали имя
+T26	PERSON 1346 1360	БОЧ рВФ 260602
+T27	FAMILY 1411 1420	Ворониных
+R2	AGE_IS Arg1:T10 Arg2:T9	
+R3	LOCATED_IN Arg1:T8 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T32 Arg2:T17	
+T37	EVENT 1214 1225	родившемуся
+R6	POINT_IN_TIME Arg1:T34 Arg2:T20	
+R7	TAKES_PLACE_IN Arg1:T37 Arg2:T21	
+R8	TAKES_PLACE_IN Arg1:T34 Arg2:T21	
+R9	PARTICIPANT_IN Arg1:T22 Arg2:T34	
+R5	POINT_IN_TIME Arg1:T37 Arg2:T20	
+R10	DATE_OF_BIRTH Arg1:T22 Arg2:T20	
+R11	ALTERNATIVE_NAME Arg1:T35 Arg2:T23	
+R12	DATE_OF_BIRTH Arg1:T26 Arg2:T24	
+R13	PARTICIPANT_IN Arg1:T26 Arg2:T36	
+R14	POINT_IN_TIME Arg1:T36 Arg2:T24	
+R15	TAKES_PLACE_IN Arg1:T36 Arg2:T25	
+T39	PERSON 1376 1461	Биологический объект человека рода Ворониных — Фроловых, родившийся 26 июня 2002 года
+R17	DATE_OF_BIRTH Arg1:T39 Arg2:T29	
+R18	ABBREVIATION Arg1:T39 Arg2:T26	
+R19	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R20	PLACE_OF_BIRTH Arg1:T4 Arg2:T3	
+R21	PLACE_RESIDES_IN Arg1:T10 Arg2:T8	
+R22	PLACE_OF_BIRTH Arg1:T22 Arg2:T21	
+R23	PLACE_OF_BIRTH Arg1:T23 Arg2:T21	
+R24	PLACE_OF_BIRTH Arg1:T26 Arg2:T25	
+R16	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R25	PARENT_OF Arg1:T10 Arg2:T11	
+N3	Reference T8 Wikidata:Q19566	Симферополь
+N8	Reference T16 Wikidata:Q1413677	министерство юстиции
+N9	Reference T17 Wikidata:Q7835	Крымский полуостров
+N11	Reference T21 Wikidata:Q5400	Пермский край
+N13	Reference T30 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N14	Reference T32 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:Q13382352	Сатоси Накамото
+N16	Reference T39 Wikidata:NULL	нет данных
+N15	Reference T26 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T19 Wikidata:NULL	нет данных
+N17	Reference T18 Wikidata:Q1395245	
+N18	Reference T3 Wikidata:NULL	нет данных
+N19	Reference T23 Wikidata:NULL	нет данных
+N20	Reference T2 Wikidata:NULL	нет данных
+N21	Reference T1 Wikidata:NULL	нет данных
+R1	PLACE_RESIDES_IN Arg1:T30 Arg2:T1	

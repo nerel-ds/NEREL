@@ -1,0 +1,133 @@
+T1	COUNTRY 0 11	Французские
+T3	ORGANIZATION 98 121	Социалистической партии
+T4	AGE 127 136	57-летний
+T5	PERSON 137 151	Франсуа Олланд
+T6	ORGANIZATION 162 182	Agence France-Presse
+T7	DATE 198 208	16 октября
+T8	NUMBER 226 246	почти двух миллионов
+T9	NUMBER 250 262	2,8 миллиона
+T10	PERSON 271 277	Олланд
+T11	PERCENT 301 313	56 процентов
+T12	PERSON 333 344	Мартин Обри
+T13	PERCENT 347 358	44 процента
+T14	ORDINAL 368 374	второй
+T15	ORDINAL 411 417	первом
+T16	DATE 442 451	9 октября
+T17	PERCENT 503 521	более 50 процентов
+T18	AGE 532 541	61-летняя
+T19	PERSON 542 553	Мартин Обри
+T20	ORGANIZATION 571 594	Социалистической партии
+T21	EVENT 631 640	праймериз
+T22	PERSON 664 671	Олланда
+T23	PERSON 710 724	Франсуа Олланд
+T24	DATE 748 766	с 1997 по 2008 год
+T25	PERSON 817 831	Сеголен Руаяль
+T26	ORGANIZATION 850 873	Социалистическую партию
+T27	ORDINAL 893 899	первом
+T28	ORDINAL 924 933	четвертое
+T29	DATE 957 966	2007 года
+T30	PROFESSION 985 995	президенты
+T31	PERSON 1037 1043	Олланд
+T32	PROFESSION 1123 1141	президента Франции
+T33	PERSON 1142 1156	Николя Саркози
+T34	DATE 1242 1260	в апреле 2012 года
+T35	IDEOLOGY 12 22	социалисты
+T36	PROFESSION 51 61	президенты
+T37	PROFESSION 76 94	президенты Франции
+T38	PROFESSION 76 86	президенты
+T39	COUNTRY 87 94	Франции
+T40	EVENT 379 407	внутрипартийного голосования
+T41	EVENT 368 407	второй тур внутрипартийного голосования
+T42	EVENT 409 422	В первом туре
+T43	PROFESSION 685 698	президентской
+T44	IDEOLOGY 736 747	социалистов
+T45	EVENT 893 914	первом туре праймериз
+T46	EVENT 949 966	выборах 2007 года
+T47	IDEOLOGY 999 1010	социалистов
+T48	COUNTRY 1134 1141	Франции
+T49	PROFESSION 1061 1074	президентской
+T50	PROFESSION 1206 1223	главы государства
+T51	EVENT 1199 1223	Выборы главы государства
+T52	IDEOLOGY 98 114	Социалистической
+T53	IDEOLOGY 571 587	Социалистической
+T54	IDEOLOGY 850 866	Социалистическую
+R1	ORIGINS_FROM Arg1:T35 Arg2:T1	
+R2	AGE_IS Arg1:T5 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R4	MEMBER_OF Arg1:T5 Arg2:T3	
+R5	IDEOLOGY_OF Arg1:T5 Arg2:T52	
+R6	ALTERNATIVE_NAME Arg1:T35 Arg2:T52	
+R7	WORKPLACE Arg1:T37 Arg2:T39	
+R8	AGE_IS Arg1:T19 Arg2:T18	
+R9	WORKPLACE Arg1:T19 Arg2:T20	
+R10	IDEOLOGY_OF Arg1:T19 Arg2:T53	
+R11	IDEOLOGY_OF Arg1:T3 Arg2:T52	
+R12	IDEOLOGY_OF Arg1:T20 Arg2:T53	
+R13	IDEOLOGY_OF Arg1:T23 Arg2:T44	
+R14	SPOUSE Arg1:T23 Arg2:T25	
+R15	MEMBER_OF Arg1:T25 Arg2:T26	
+R16	IDEOLOGY_OF Arg1:T26 Arg2:T54	
+R17	IDEOLOGY_OF Arg1:T25 Arg2:T54	
+T55	EVENT 1061 1080	президентской гонки
+R18	PARTICIPANT_IN Arg1:T31 Arg2:T55	
+T56	PROFESSION 1123 1133	президента
+R19	WORKPLACE Arg1:T32 Arg2:T48	
+R20	WORKS_AS Arg1:T33 Arg2:T32	
+R21	WORKPLACE Arg1:T33 Arg2:T48	
+R22	POINT_IN_TIME Arg1:T51 Arg2:T34	
+R23	TAKES_PLACE_IN Arg1:T51 Arg2:T48	
+R24	TAKES_PLACE_IN Arg1:T55 Arg2:T48	
+R25	PARTICIPANT_IN Arg1:T25 Arg2:T46	
+T57	EVENT 949 956	выборах
+R26	POINT_IN_TIME Arg1:T46 Arg2:T29	
+R27	ALTERNATIVE_NAME Arg1:T54 Arg2:T47	
+R28	PARTICIPANT_IN Arg1:T5 Arg2:T41	
+R29	PARTICIPANT_IN Arg1:T12 Arg2:T41	
+R30	PARTICIPANT_IN Arg1:T10 Arg2:T42	
+R31	PARTICIPANT_IN Arg1:T12 Arg2:T42	
+R32	POINT_IN_TIME Arg1:T42 Arg2:T16	
+R33	PARTICIPANT_IN Arg1:T19 Arg2:T21	
+R34	ALTERNATIVE_NAME Arg1:T40 Arg2:T21	
+T58	EVENT 685 707	президентской кампании
+R35	PARTICIPANT_IN Arg1:T22 Arg2:T58	
+R36	PARTICIPANT_IN Arg1:T33 Arg2:T55	
+T60	PROFESSION 63 94	Кандидатом в президенты Франции
+R37	WORKS_AS Arg1:T5 Arg2:T60	
+T61	PROFESSION 972 995	кандидатом в президенты
+T62	EVENT 905 914	праймериз
+T59	PROFESSION 38 61	кандидатом в президенты
+T2	COUNTRY 169 175	France
+R38	HEADQUARTERED_IN Arg1:T6 Arg2:T2	
+R39	SUBEVENT_OF Arg1:T41 Arg2:T40	
+R40	PARTICIPANT_IN Arg1:T22 Arg2:T21	
+R41	ALTERNATIVE_NAME Arg1:T40 Arg2:T62	
+R42	SUBEVENT_OF Arg1:T45 Arg2:T62	
+R43	PARTICIPANT_IN Arg1:T25 Arg2:T45	
+N3	Reference T19 Wikidata:Q228977	Обри, Мартин
+N4	Reference T25 Wikidata:Q81923	Сеголен Руаяль
+N5	Reference T26 Wikidata:Q170972	Социалистическая партия
+N6	Reference T30 Wikidata:Q30461	президент
+N7	Reference T33 Wikidata:Q329	Николя Саркози
+N8	Reference T37 Wikidata:Q191954	президент Франции
+N9	Reference T39 Wikidata:Q142	Франция
+N11	Reference T50 Wikidata:Q48352	глава государства
+N1	Reference T1 Wikidata:Q142	Франция
+N13	Reference T59 Wikidata:NULL	нет данных
+N12	Reference T60 Wikidata:NULL	нет данных
+N14	Reference T10 Wikidata:Q157	Франсуа Олланд
+N10	Reference T49 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q40464	Франс Пресс
+N15	Reference T12 Wikidata:Q228977	Обри, Мартин
+N16	Reference T20 Wikidata:Q170972	Социалистическая партия
+N17	Reference T3 Wikidata:Q170972	Социалистическая партия
+N18	Reference T56 Wikidata:Q30461	президент
+N19	Reference T38 Wikidata:Q30461	президент
+N20	Reference T36 Wikidata:Q30461	президент
+N21	Reference T32 Wikidata:Q191954	президент Франции
+N22	Reference T48 Wikidata:Q142	Франция
+N23	Reference T61 Wikidata:NULL	нет данных
+N24	Reference T5 Wikidata:Q157	Франсуа Олланд
+N25	Reference T23 Wikidata:Q157	Франсуа Олланд
+N26	Reference T31 Wikidata:Q157	Франсуа Олланд
+N27	Reference T22 Wikidata:Q157	Франсуа Олланд
+N28	Reference T43 Wikidata:Q30461	президент

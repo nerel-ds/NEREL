@@ -1,0 +1,71 @@
+T1	PERSON 0 5	Путин
+T3	PERSON 69 83	Владимир Путин
+T4	EVENT 87 101	военном параде
+T6	PROFESSION 151 160	Президент
+T7	COUNTRY 161 167	России
+T8	PERSON 168 182	Владимир Путин
+T11	EVENT 260 287	Великой Отечественной войне
+T12	EVENT 289 292	ВОВ
+T16	ORGANIZATION 536 549	Правительству
+T17	COUNTRY 550 552	РФ
+T18	EVENT 624 651	Великой Отечественной войны
+T2	AGE 46 60	75-й годовщины
+T20	EVENT 61 67	Победы
+T5	AGE 129 143	73-й годовщине
+T22	EVENT 144 150	Победы
+T23	PROFESSION 151 167	Президент России
+T9	EVENT 399 402	ВОВ
+T10	AGE 236 250	75-й годовщины
+T25	EVENT 251 257	Победы
+T26	PROFESSION 389 398	ветеранов
+T13	ORGANIZATION 536 552	Правительству РФ
+T14	PROFESSION 614 623	ветеранов
+T15	PROFESSION 934 943	ветеранам
+T27	EVENT 944 947	ВОВ
+T28	PROFESSION 614 651	ветеранов Великой Отечественной войны
+T29	PROFESSION 389 402	ветеранов ВОВ
+T30	PROFESSION 934 947	ветеранам ВОВ
+T19	EVENT 33 67	празднования 75-й годовщины Победы
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+R3	WORKPLACE Arg1:T23 Arg2:T7	
+R4	WORKPLACE Arg1:T8 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+T21	LAW 15 67	указ о подготовке празднования 75-й годовщины Победы
+R1	PRODUCES Arg1:T1 Arg2:T21	
+T32	EVENT 6 19	подписал указ
+R6	PARTICIPANT_IN Arg1:T1 Arg2:T32	
+R7	AGE_IS Arg1:T20 Arg2:T2	
+R8	AGE_IS Arg1:T22 Arg2:T5	
+T24	LAW 192 293	указ о подготовке и проведении празднования 75-й годовщины Победы в Великой Отечественной войне (ВОВ)
+T33	EVENT 183 196	подписал указ
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T33	
+R10	PRODUCES Arg1:T8 Arg2:T24	
+R11	AGE_IS Arg1:T25 Arg2:T10	
+R12	ABBREVIATION Arg1:T11 Arg2:T12	
+R13	SUBEVENT_OF Arg1:T25 Arg2:T11	
+R14	PARTICIPANT_IN Arg1:T29 Arg2:T9	
+R15	HEADQUARTERED_IN Arg1:T13 Arg2:T17	
+R16	ALTERNATIVE_NAME Arg1:T7 Arg2:T17	
+R17	PARTICIPANT_IN Arg1:T30 Arg2:T27	
+R18	INANIMATE_INVOLVED Arg1:T21 Arg2:T32	
+R19	HAS_CAUSE Arg1:T4 Arg2:T22	
+R20	INANIMATE_INVOLVED Arg1:T24 Arg2:T33	
+R21	PARTICIPANT_IN Arg1:T28 Arg2:T18	
+R22	ABBREVIATION Arg1:T18 Arg2:T27	
+N1	Reference T6 Wikidata:Q30461	президент
+N2	Reference T8 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T16 Wikidata:Q7188	правительство
+N4	Reference T17 Wikidata:Q159	Россия
+N5	Reference T23 Wikidata:Q218295	президент Российской Федерации
+N6	Reference T26 Wikidata:Q193891	ветеран
+N7	Reference T13 Wikidata:Q1140115	Правительство Российской Федерации
+N9	Reference T30 Wikidata:Q4109971	Ветераны Великой Отечественной войны
+N10	Reference T21 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:NULL	нет данных
+N8	Reference T28 Wikidata:Q4109971	Ветераны Великой Отечественной войны
+N12	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T3 Wikidata:Q7747	Владимир Владимирович Путин
+N14	Reference T7 Wikidata:Q159	Россия
+N15	Reference T14 Wikidata:Q193891	ветеран
+N16	Reference T15 Wikidata:Q193891	ветеран
+N17	Reference T29 Wikidata:Q4109971	Ветераны Великой Отечественной войны

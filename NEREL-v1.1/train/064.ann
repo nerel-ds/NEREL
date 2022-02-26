@@ -1,0 +1,159 @@
+T1	ORGANIZATION 1 3	КП
+T2	PROFESSION 26 51	главкома Сухопутных войск
+T4	PROFESSION 92 99	генерал
+T5	PERSON 106 123	Владимир Болдырев
+T6	ORGANIZATION 147 167	Комсомольская правда
+T7	ORGANIZATION 207 217	Минобороны
+T8	PERSON 258 267	Болдырева
+T9	DATE 321 329	5 января
+T10	AGE 345 351	61 год
+T11	ORGANIZATION 376 378	КП
+T12	PROFESSION 410 456	командующего Северо-Кавказским военным округом
+T14	PROFESSION 457 475	генерал-полковника
+T15	AGE 529 539	57-летнего
+T16	AGE 685 695	54-летнего
+T17	PROFESSION 696 745	командующего 58-й армии Северо-Кавказского округа
+T18	ORGANIZATION 709 719	58-й армии
+T19	ORGANIZATION 709 745	58-й армии Северо-Кавказского округа
+T20	PROFESSION 746 764	генерал-лейтенанта
+T21	PERSON 793 801	Болдырев
+T22	PERSON 804 813	Макаровым
+T23	EVENT 834 855	вооруженном конфликте
+T24	COUNTRY 858 865	Грузией
+T25	DATE 866 885	в августе 2008 года
+T26	CITY 899 907	Цхинвали
+T27	ORGANIZATION 921 941	Комсомольской правды
+T28	PROFESSION 954 979	главкома Сухопутных войск
+T29	PROFESSION 987 1034	командующий войсками Сибирского военного округа
+T30	PERSON 1035 1054	Александр Постников
+T31	PROFESSION 1058 1087	первый заместитель Постникова
+T32	PROFESSION 1090 1112	начальник штаба округа
+T33	PERSON 1113 1129	Александр Галкин
+T34	PROFESSION 1137 1182	командующим Северо-Кавказским военным округом
+T36	ORGANIZATION 35 51	Сухопутных войск
+T37	ORGANIZATION 71 91	Сухопутными войсками
+T3	PROFESSION 53 91	Главнокомандующий Сухопутными войсками
+T13	DISTRICT 423 456	Северо-Кавказским военным округом
+T38	PERSON 476 491	Сергея Макарова
+T39	PERSON 540 548	Макарова
+T40	NUMBER 709 711	58
+T41	DISTRICT 720 745	Северо-Кавказского округа
+T42	PERSON 765 781	Анатолия Хрулева
+T43	ORGANIZATION 963 979	Сухопутных войск
+T44	DISTRICT 1008 1034	Сибирского военного округа
+T45	PERSON 1077 1087	Постникова
+T35	DISTRICT 1149 1182	Северо-Кавказским военным округом
+T46	PROFESSION 92 105	генерал армии
+T47	EVENT 124 138	уволен в запас
+R1	PARTICIPANT_IN Arg1:T5 Arg2:T47	
+R2	WORKS_AS Arg1:T5 Arg2:T46	
+R3	WORKS_AS Arg1:T5 Arg2:T3	
+R4	WORKPLACE Arg1:T5 Arg2:T37	
+R5	AGE_IS Arg1:T5 Arg2:T10	
+R6	AGE_IS Arg1:T39 Arg2:T15	
+R7	AGE_IS Arg1:T42 Arg2:T16	
+R8	WORKS_AS Arg1:T42 Arg2:T20	
+R9	WORKS_AS Arg1:T42 Arg2:T17	
+R10	WORKPLACE Arg1:T42 Arg2:T18	
+R11	WORKS_AS Arg1:T38 Arg2:T14	
+R12	WORKS_AS Arg1:T38 Arg2:T12	
+R13	WORKPLACE Arg1:T38 Arg2:T13	
+R14	POINT_IN_TIME Arg1:T23 Arg2:T25	
+R15	PARTICIPANT_IN Arg1:T22 Arg2:T23	
+R16	PARTICIPANT_IN Arg1:T21 Arg2:T23	
+R17	PARTICIPANT_IN Arg1:T42 Arg2:T23	
+R18	PARTICIPANT_IN Arg1:T24 Arg2:T23	
+R19	WORKS_AS Arg1:T30 Arg2:T29	
+R20	WORKPLACE Arg1:T30 Arg2:T44	
+R21	WORKS_AS Arg1:T30 Arg2:T28	
+R22	WORKPLACE Arg1:T30 Arg2:T43	
+R23	WORKS_AS Arg1:T33 Arg2:T34	
+R24	WORKPLACE Arg1:T33 Arg2:T35	
+R25	WORKS_AS Arg1:T33 Arg2:T32	
+R26	SUBORDINATE_OF Arg1:T33 Arg2:T45	
+R27	WORKS_AS Arg1:T33 Arg2:T31	
+T48	EVENT 15 25	увольнении
+R28	PARTICIPANT_IN Arg1:T2 Arg2:T48	
+R29	WORKPLACE Arg1:T2 Arg2:T36	
+R30	WORKPLACE Arg1:T3 Arg2:T37	
+R31	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+R32	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T49	EVENT 247 257	увольнении
+R33	ALTERNATIVE_NAME Arg1:T47 Arg2:T49	
+R34	PARTICIPANT_IN Arg1:T8 Arg2:T49	
+T50	EVENT 391 409	увольнении в запас
+R35	PARTICIPANT_IN Arg1:T38 Arg2:T50	
+T51	LOCATION 423 440	Северо-Кавказским
+R36	WORKPLACE Arg1:T12 Arg2:T13	
+R37	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+T52	EVENT 518 528	увольнения
+R38	ALTERNATIVE_NAME Arg1:T50 Arg2:T52	
+R39	PARTICIPANT_IN Arg1:T39 Arg2:T52	
+T53	EVENT 643 666	лишится своей должности
+R40	PARTICIPANT_IN Arg1:T42 Arg2:T53	
+R41	WORKPLACE Arg1:T17 Arg2:T18	
+R42	HEADQUARTERED_IN Arg1:T19 Arg2:T41	
+T54	EVENT 891 896	ранен
+R43	TAKES_PLACE_IN Arg1:T54 Arg2:T26	
+R44	PARTICIPANT_IN Arg1:T42 Arg2:T54	
+T55	PROFESSION 954 962	главкома
+R45	WORKPLACE Arg1:T28 Arg2:T43	
+T56	PROFESSION 987 1007	командующий войсками
+R46	WORKPLACE Arg1:T29 Arg2:T44	
+R47	SUBORDINATE_OF Arg1:T31 Arg2:T45	
+R48	WORKPLACE Arg1:T34 Arg2:T35	
+T57	PROFESSION 1137 1148	командующим
+R49	ALTERNATIVE_NAME Arg1:T6 Arg2:T1	
+R50	LOCATED_IN Arg1:T13 Arg2:T51	
+T58	LOCATION 720 738	Северо-Кавказского
+R51	LOCATED_IN Arg1:T41 Arg2:T58	
+T59	LOCATION 1008 1018	Сибирского
+R52	LOCATED_IN Arg1:T44 Arg2:T59	
+T60	LOCATION 1149 1166	Северо-Кавказским
+R53	LOCATED_IN Arg1:T35 Arg2:T60	
+N2	Reference T4 Wikidata:Q83460	генерал
+N3	Reference T5 Wikidata:Q623297	Владимир Анатольевич Болдырев
+N4	Reference T7 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N7	Reference T14 Wikidata:Q155327	генерал-полковник
+N11	Reference T20 Wikidata:Q152951	генерал-лейтенант
+N13	Reference T24 Wikidata:Q230	Грузия
+N14	Reference T26 Wikidata:Q79863	Цхинвал
+N20	Reference T37 Wikidata:Q1031386	Сухопутные войска Российской Федерации
+N21	Reference T41 Wikidata:Q483599	Южный федеральный округ
+N22	Reference T42 Wikidata:Q2026709	Анатолий Николаевич Хрулёв
+N23	Reference T44 Wikidata:Q2381705	Сибирский военный округ
+N25	Reference T35 Wikidata:Q2620672	Северо-Кавказский военный округ
+N28	Reference T55 Wikidata:Q380782	главнокомандующий
+N1	Reference T2 Wikidata:NULL	нет данных
+N26	Reference T46 Wikidata:Q15730331	генерал армии
+N5	Reference T11 Wikidata:Q849047	Комсомольская правда
+N6	Reference T12 Wikidata:NULL	нет данных
+N27	Reference T51 Wikidata:Q37736	Северный Кавказ
+N8	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:Q244693	
+N10	Reference T19 Wikidata:Q244693	
+N12	Reference T22 Wikidata:Q4275403	
+N15	Reference T29 Wikidata:NULL	нет данных
+N31	Reference T59 Wikidata:Q5428	Сибирь
+N17	Reference T31 Wikidata:NULL	нет данных
+N30	Reference T57 Wikidata:Q814174	
+N29	Reference T56 Wikidata:Q814174	
+N18	Reference T32 Wikidata:NULL	
+N16	Reference T30 Wikidata:Q4374246	
+N24	Reference T45 Wikidata:Q4374246	
+N19	Reference T33 Wikidata:Q4132609	
+N32	Reference T8 Wikidata:Q623297	Владимир Анатольевич Болдырев
+N33	Reference T21 Wikidata:Q623297	Владимир Анатольевич Болдырев
+N34	Reference T43 Wikidata:Q1031386	Сухопутные войска Российской Федерации
+N35	Reference T36 Wikidata:Q1031386	Сухопутные войска Российской Федерации
+N36	Reference T13 Wikidata:Q2620672	Северо-Кавказский военный округ
+N37	Reference T28 Wikidata:NULL	нет данных
+N38	Reference T3 Wikidata:NULL	нет данных
+N39	Reference T27 Wikidata:Q849047	Комсомольская правда
+N40	Reference T1 Wikidata:Q849047	Комсомольская правда
+N41	Reference T6 Wikidata:Q849047	Комсомольская правда
+N42	Reference T34 Wikidata:NULL	нет данных
+N43	Reference T58 Wikidata:Q37736	Северный Кавказ
+N44	Reference T60 Wikidata:Q37736	Северный Кавказ
+N45	Reference T39 Wikidata:Q4275403	
+N46	Reference T38 Wikidata:Q4275403	

@@ -1,0 +1,231 @@
+T1	CITY 2 11	Нью-Йорке
+T2	PROFESSION 24 30	князем
+T3	PERSON 31 51	Владимиром Голицыным
+T4	DISTRICT 84 94	Манхэттене
+T5	FACILITY 104 135	Синодального Знаменского собора
+T6	DISTRICT 139 149	Манхэттене
+T7	COUNTRY 173 176	США
+T8	AGE 177 189	на 77-м году
+T9	PROFESSION 206 211	князь
+T10	PERSON 212 239	Владимир Кириллович Голицын
+T11	DATE 248 268	в течение многих лет
+T12	CITY 382 391	Нью-Йорке
+T13	PROFESSION 393 402	старостой
+T14	ORGANIZATION 424 451	Русском дворянском собрании
+T15	COUNTRY 454 461	Америке
+T16	PROFESSION 463 474	президентом
+T17	PERSON 497 513	Владимир Голицын
+T18	DATE 522 533	в 1942 году
+T19	CITY 536 544	Белграде
+T20	COUNTRY 561 567	России
+T21	EVENT 574 595	Октябрьской революции
+T22	PERSON 609 636	Кирилл Владимирович Голицын
+T23	PERSON 639 668	Марина Александровна Де Энден
+T24	COUNTRY 673 676	США
+T25	DATE 693 704	в 1951 году
+T26	CITY 708 717	Нью-Йорке
+T27	PROFESSION 785 821	вице-президента ''Bank of New York''
+T28	ORGANIZATION 803 819	Bank of New York
+T29	ORGANIZATION 875 902	Русской православной церкви
+T30	PERSON 911 918	Голицын
+T31	CITY 953 962	Нью-Йорке
+T32	ORGANIZATION 1028 1057	Общества помощи русским детям
+T33	ORGANIZATION 1118 1145	Русской православной церкви
+T34	ORGANIZATION 1159 1210	Русской православной церкви Московского патриархата
+T35	COUNTRY 1241 1251	российских
+T36	COUNTRY 1351 1357	России
+T37	PERSON 1365 1372	Голицын
+T38	COUNTRY 1449 1452	США
+T39	COUNTRY 1475 1481	России
+T40	DATE 1501 1512	в 1990 году
+T41	DATE 1523 1534	в 2005 году
+T42	PROFESSION 1549 1581	предводителя русского дворянства
+T43	CITY 1597 1603	Москву
+T44	PROFESSION 1625 1633	генерала
+T45	PERSON 1634 1649	Антона Деникина
+T46	PERSON 1683 1701	Владимира Голицына
+T47	DATE 1765 1778	в понедельник
+T48	FACILITY 1781 1810	Знаменском синодальном соборе
+T49	DISTRICT 1814 1824	Манхэттене
+T50	PERSON 1836 1852	Владимир Голицын
+T51	DATE 1859 1872	в тот же день
+T52	FACILITY 1876 1900	Ново-Дивеевском кладбище
+T53	CITY 1901 1910	Нью-Йорка
+T54	FACILITY 52 80	Синодальный Знаменский собор
+T55	DATE 150 165	22 февраля 2018
+T56	FACILITY 337 379	Синодального собора Знамения Божией Матери
+T57	NATIONALITY 286 293	русской
+T58	PERSON 718 725	Голицын
+T59	PROFESSION 905 910	Князь
+T60	NATIONALITY 963 970	русских
+T61	NATIONALITY 1044 1051	русским
+T62	NATIONALITY 424 431	Русском
+T63	NATIONALITY 1562 1570	русского
+T64	NATIONALITY 1308 1315	русской
+T65	PROFESSION 1359 1364	князь
+T66	LANGUAGE 1409 1416	русском
+T67	ORGANIZATION 1187 1210	Московского патриархата
+T68	CITY 1187 1198	Московского
+T69	NATIONALITY 1159 1166	Русской
+T70	NATIONALITY 1118 1125	Русской
+T71	COUNTRY 1231 1240	американo
+T72	DISEASE 1708 1734	онкологическое заболевание
+T73	EVENT 1736 1745	Отпевание
+T74	EVENT 1748 1756	прощание
+R1	WORKS_AS Arg1:T3 Arg2:T2	
+R2	LOCATED_IN Arg1:T54 Arg2:T4	
+R3	LOCATED_IN Arg1:T4 Arg2:T1	
+R4	LOCATED_IN Arg1:T5 Arg2:T6	
+T75	EVENT 196 205	скончался
+R5	WORKS_AS Arg1:T10 Arg2:T9	
+R6	ORIGINS_FROM Arg1:T10 Arg2:T57	
+R7	PARTICIPANT_IN Arg1:T10 Arg2:T75	
+R8	AGE_DIED_AT Arg1:T10 Arg2:T8	
+R9	PLACE_OF_DEATH Arg1:T10 Arg2:T7	
+R10	TAKES_PLACE_IN Arg1:T75 Arg2:T7	
+R11	POINT_IN_TIME Arg1:T75 Arg2:T55	
+R12	DATE_OF_DEATH Arg1:T10 Arg2:T55	
+R13	ALTERNATIVE_NAME Arg1:T54 Arg2:T56	
+R14	LOCATED_IN Arg1:T56 Arg2:T12	
+R15	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+R16	DATE_OF_BIRTH Arg1:T17 Arg2:T18	
+R17	PLACE_OF_BIRTH Arg1:T17 Arg2:T19	
+R18	PARENT_OF Arg1:T22 Arg2:T17	
+R19	PARENT_OF Arg1:T23 Arg2:T17	
+T76	PROFESSION 785 800	вице-президента
+R20	WORKPLACE Arg1:T27 Arg2:T28	
+R21	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+T77	EVENT 551 557	бежали
+R22	HAS_CAUSE Arg1:T77 Arg2:T21	
+R23	TAKES_PLACE_IN Arg1:T21 Arg2:T20	
+R24	PARTICIPANT_IN Arg1:T22 Arg2:T77	
+R25	PARTICIPANT_IN Arg1:T23 Arg2:T77	
+R26	ALTERNATIVE_NAME Arg1:T17 Arg2:T58	
+T78	CITY 811 819	New York
+R27	ALTERNATIVE_NAME Arg1:T26 Arg2:T78	
+R28	PLACE_RESIDES_IN Arg1:T17 Arg2:T24	
+R29	LOCATED_IN Arg1:T26 Arg2:T24	
+R30	WORKS_AS Arg1:T58 Arg2:T27	
+R31	WORKPLACE Arg1:T58 Arg2:T28	
+T79	NATIONALITY 875 882	Русской
+T80	RELIGION 883 895	православной
+R32	RELIGION_OF Arg1:T29 Arg2:T80	
+R33	WORKS_AS Arg1:T30 Arg2:T59	
+T81	RELIGION 1167 1179	православной
+R34	HEADQUARTERED_IN Arg1:T67 Arg2:T68	
+R35	RELIGION_OF Arg1:T67 Arg2:T81	
+R36	RELIGION_OF Arg1:T34 Arg2:T81	
+R37	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R38	WORKS_AS Arg1:T37 Arg2:T65	
+R39	KNOWS Arg1:T37 Arg2:T66	
+R40	ABBREVIATION Arg1:T45 Arg2:T44	
+R41	WORKS_AS Arg1:T37 Arg2:T42	
+R42	CAUSE_OF_DEATH Arg1:T46 Arg2:T72	
+R43	POINT_IN_TIME Arg1:T74 Arg2:T47	
+R44	LOCATED_IN Arg1:T48 Arg2:T49	
+R45	POINT_IN_TIME Arg1:T73 Arg2:T47	
+R46	TAKES_PLACE_IN Arg1:T74 Arg2:T48	
+R47	TAKES_PLACE_IN Arg1:T73 Arg2:T48	
+R48	LOCATED_IN Arg1:T52 Arg2:T53	
+T82	EVENT 1826 1835	Похоронен
+R49	POINT_IN_TIME Arg1:T82 Arg2:T51	
+R50	POINT_IN_TIME Arg1:T82 Arg2:T47	
+R51	ALTERNATIVE_NAME Arg1:T47 Arg2:T51	
+R52	TAKES_PLACE_IN Arg1:T82 Arg2:T52	
+T83	EVENT 311 317	смерти
+R53	PARTICIPANT_IN Arg1:T10 Arg2:T83	
+R54	WORKPLACE Arg1:T16 Arg2:T14	
+R55	WORKS_AS Arg1:T10 Arg2:T16	
+R56	WORKPLACE Arg1:T13 Arg2:T56	
+R57	WORKS_AS Arg1:T10 Arg2:T13	
+R58	WORKPLACE Arg1:T10 Arg2:T56	
+R59	WORKPLACE Arg1:T10 Arg2:T14	
+R60	TAKES_PLACE_IN Arg1:T77 Arg2:T20	
+R61	TAKES_PLACE_IN Arg1:T77 Arg2:T19	
+R62	RELIGION_OF Arg1:T58 Arg2:T80	
+T84	EVENT 1493 1500	побывал
+R63	AGENT Arg1:T37 Arg2:T84	
+R64	TAKES_PLACE_IN Arg1:T84 Arg2:T39	
+R65	POINT_IN_TIME Arg1:T84 Arg2:T40	
+T85	EVENT 1676 1682	смерти
+R66	PARTICIPANT_IN Arg1:T46 Arg2:T85	
+R67	HAS_CAUSE Arg1:T85 Arg2:T72	
+R68	INANIMATE_INVOLVED Arg1:T46 Arg2:T73	
+R69	INANIMATE_INVOLVED Arg1:T46 Arg2:T74	
+R70	INANIMATE_INVOLVED Arg1:T50 Arg2:T82	
+T86	DATE 574 585	Октябрьской
+R71	POINT_IN_TIME Arg1:T21 Arg2:T86	
+N1	Reference T10 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N4	Reference T19 Wikidata:Q3711	Белград
+N7	Reference T24 Wikidata:Q30	США
+N8	Reference T26 Wikidata:Q60	Нью-Йорк
+N10	Reference T28 Wikidata:Q806686	Bank of New York
+N12	Reference T33 Wikidata:Q912932	Русская православная церковь заграницей
+N16	Reference T43 Wikidata:Q649	Москва
+N17	Reference T44 Wikidata:Q83460	генерал
+N18	Reference T45 Wikidata:Q108314	Антон Иванович Деникин
+N19	Reference T48 Wikidata:Q9338982	Синодальный Знаменский собор
+N20	Reference T49 Wikidata:Q11299	Манхэттен
+N22	Reference T56 Wikidata:Q9338982	Синодальный Знаменский собор
+N24	Reference T65 Wikidata:Q273613	князь
+N25	Reference T66 Wikidata:Q7737	русский язык
+N26	Reference T67 Wikidata:Q752474	Украинская православная церковь (Московского патриархата)
+N30	Reference T81 Wikidata:Q35032	Православная церковь
+N31	Reference T13 Wikidata:Q3290825	
+N2	Reference T14 Wikidata:Q16932712	
+N32	Reference T15 Wikidata:Q30	США
+N3	Reference T16 Wikidata:NULL	нет данных
+N5	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:NULL	нет данных
+N29	Reference T76 Wikidata:Q42178	вице-президент
+N9	Reference T27 Wikidata:NULL	нет данных
+N11	Reference T32 Wikidata:Q7382020	
+N23	Reference T61 Wikidata:Q49542	русские
+N13	Reference T34 Wikidata:Q60995	Русская православная церковь
+N27	Reference T68 Wikidata:Q649	Москва
+N28	Reference T71 Wikidata:Q30	США
+N14	Reference T35 Wikidata:Q159	Россия
+N15	Reference T42 Wikidata:NULL	нет данных
+N21	Reference T52 Wikidata:Q16693108	
+N33	Reference T17 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N34	Reference T46 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N35	Reference T3 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N36	Reference T58 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N37	Reference T50 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N38	Reference T37 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N39	Reference T30 Wikidata:Q4141559	Голицын, Владимир Кириллович
+N40	Reference T7 Wikidata:Q30	США
+N41	Reference T38 Wikidata:Q30	США
+N42	Reference T12 Wikidata:Q60	Нью-Йорк
+N43	Reference T53 Wikidata:Q60	Нью-Йорк
+N44	Reference T31 Wikidata:Q60	Нью-Йорк
+N45	Reference T78 Wikidata:Q60	Нью-Йорк
+N46	Reference T1 Wikidata:Q60	Нью-Йорк
+N47	Reference T29 Wikidata:Q912932	Русская православная церковь заграницей
+N48	Reference T4 Wikidata:Q11299	Манхэттен
+N49	Reference T6 Wikidata:Q11299	Манхэттен
+N50	Reference T54 Wikidata:Q9338982	Синодальный Знаменский собор
+N51	Reference T5 Wikidata:Q9338982	Синодальный Знаменский собор
+N52	Reference T9 Wikidata:Q273613	князь
+N53	Reference T59 Wikidata:Q273613	князь
+N54	Reference T2 Wikidata:Q273613	князь
+N55	Reference T80 Wikidata:Q35032	Православная церковь
+N56	Reference T69 Wikidata:Q49542	русские
+N57	Reference T57 Wikidata:Q49542	русские
+N58	Reference T64 Wikidata:Q49542	русские
+N59	Reference T62 Wikidata:Q49542	русские
+N60	Reference T63 Wikidata:Q49542	русские
+N61	Reference T70 Wikidata:Q49542	русские
+N62	Reference T60 Wikidata:Q49542	русские
+N63	Reference T79 Wikidata:Q49542	русские
+N64	Reference T39 Wikidata:Q159	Россия
+N65	Reference T36 Wikidata:Q159	Россия
+N66	Reference T20 Wikidata:Q159	Россия
+T87	EVENT 514 521	родился
+R72	PARTICIPANT_IN Arg1:T17 Arg2:T87	
+R73	POINT_IN_TIME Arg1:T87 Arg2:T18	
+R74	TAKES_PLACE_IN Arg1:T87 Arg2:T19	
+T88	EVENT 683 692	переехала
+R75	POINT_IN_TIME Arg1:T88 Arg2:T25	
+R76	TAKES_PLACE_IN Arg1:T88 Arg2:T24	
+R77	PARTICIPANT_IN Arg1:T17 Arg2:T88	

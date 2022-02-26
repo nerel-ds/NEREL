@@ -1,0 +1,230 @@
+T1	PERSON 0 15	Настасья Кински
+T2	PERSON 55 66	Джон Сэвидж
+T3	PERSON 77 92	Настасья Кински
+T4	WORK_OF_ART 112 130	Возлюбленные Марии
+T5	DATE 133 137	1984
+T6	NATIONALITY 139 147	Немецкая
+T7	PERSON 156 171	Настасья Кински
+T9	EVENT 211 257	40-го Московского международного кинофестиваля
+T10	EVENT 259 263	ММКФ
+T11	DATE 282 309	с 19 по 26 апреля 2018 года
+T12	DATE 319 328	11 апреля
+T13	PERSON 364 370	Кински
+T14	NATIONALITY 384 394	российский
+T15	PERSON 404 416	Анна Меликян
+T16	NATIONALITY 418 430	американский
+T17	PERSON 437 448	Джон Сэвидж
+T18	NATIONALITY 450 459	китайский
+T19	PERSON 469 476	Лян Цяо
+T20	PROFESSION 478 496	Председателем жюри
+T21	NATIONALITY 502 513	итальянский
+T22	PERSON 523 540	Паоло Дель Брокко
+T23	PERSON 542 558	Paolo Del Brocco
+T24	PERSON 562 577	Настасья Кински
+T25	DATE 587 598	в 1961 году
+T26	PERSON 669 682	Вима Вендерса
+T27	PERSON 684 699	Романа Полански
+T28	PERSON 701 723	Фрэнсиса Форда Копполы
+T29	PERSON 725 740	Тони Ричардсона
+T30	PERSON 742 754	Пола Шредера
+T31	PERSON 756 770	Джеймса Тобэка
+T32	PERSON 772 788	Жан-Жака Бенекса
+T33	WORK_OF_ART 851 855	Тэсс
+T34	PERSON 857 865	Полански
+T35	PERSON 867 873	Кински
+T36	WORK_OF_ART 946 964	Возлюбленные Марии
+T37	PERSON 966 986	Андрея Кончаловского
+T38	WORK_OF_ART 989 1000	Вешние воды
+T39	PERSON 1002 1019	Ежи Сколимовского
+T40	PERSON 1031 1040	Тургенева
+T41	WORK_OF_ART 1043 1067	Униженные и оскорблённые
+T42	PERSON 1069 1081	Андрея Эшпая
+T43	PERSON 1092 1104	Достоевского
+T44	PERSON 1107 1113	Кински
+T45	NATIONALITY 1124 1131	русской
+T46	PERSON 1174 1186	Достоевского
+T47	NUMBER 1188 1192	Двое
+T48	NATIONALITY 1211 1218	русские
+T49	PERSON 1227 1232	Алёша
+T50	PERSON 1235 1239	Соня
+T51	PERSON 1267 1279	Достоевского
+T52	DATE 1304 1315	В 1982 году
+T53	PROFESSION 1327 1339	кинокритиком
+T54	NATIONALITY 1387 1394	поляков
+T55	NATIONALITY 1399 1406	русских
+T56	NATIONALITY 1429 1440	американцев
+T57	NATIONALITY 1516 1523	русский
+T58	NATIONALITY 1532 1539	русскую
+T59	AGE 1666 1672	21 год
+T60	COUNTRY 1676 1680	СССР
+T61	PERSON 1727 1745	Рудольфом Нуреевым
+T62	NATIONALITY 1750 1757	поляках
+T63	PERSON 1773 1781	Полански
+T64	CITY 1784 1794	Московский
+T65	DATE 1824 1835	в 1935 году
+T66	EVENT 1857 1867	40-го ММКФ
+T68	NUMBER 1887 1889	16
+T69	EVENT 29 54	Московского кинофестиваля
+T70	PROFESSION 148 155	актриса
+T71	EVENT 351 355	ММКФ
+T72	ORGANIZATION 338 355	пресс-служба ММКФ
+T8	PROFESSION 395 403	режиссёр
+T73	PROFESSION 431 436	актёр
+T74	PROFESSION 460 468	режиссёр
+T75	PROFESSION 514 522	продюсер
+T76	PROFESSION 908 917	режиссёре
+T77	EVENT 1784 1808	Московский кинофестиваль
+T67	PERSON 1340 1355	Джином Сискелом
+T78	PROFESSION 1356 1363	актриса
+T79	IDEOLOGY 1477 1488	пуританские
+T80	PROFESSION 920 927	Актриса
+T81	CITY 217 228	Московского
+T82	CITY 29 40	Московского
+R1	TAKES_PLACE_IN Arg1:T69 Arg2:T82	
+R2	DATE_OF_CREATION Arg1:T4 Arg2:T5	
+R3	WORKS_AS Arg1:T7 Arg2:T70	
+R4	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R5	ORIGINS_FROM Arg1:T70 Arg2:T6	
+R6	WORKS_AS Arg1:T15 Arg2:T8	
+R7	ORIGINS_FROM Arg1:T15 Arg2:T14	
+R8	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R10	DATE_OF_BIRTH Arg1:T24 Arg2:T25	
+R11	WORKS_AS Arg1:T22 Arg2:T75	
+R12	ORIGINS_FROM Arg1:T22 Arg2:T21	
+R13	PRODUCES Arg1:T34 Arg2:T33	
+R14	WORKS_AS Arg1:T34 Arg2:T76	
+R15	PARTICIPANT_IN Arg1:T35 Arg2:T33	
+R16	KNOWS Arg1:T34 Arg2:T35	
+R17	KNOWS Arg1:T35 Arg2:T34	
+R18	WORKS_AS Arg1:T35 Arg2:T80	
+R19	PARTICIPANT_IN Arg1:T80 Arg2:T36	
+R20	PRODUCES Arg1:T37 Arg2:T36	
+R21	PRODUCES Arg1:T39 Arg2:T38	
+R22	PARTICIPANT_IN Arg1:T80 Arg2:T38	
+R24	PARTICIPANT_IN Arg1:T35 Arg2:T36	
+R25	ORIGINS_FROM Arg1:T8 Arg2:T14	
+R26	ORIGINS_FROM Arg1:T19 Arg2:T18	
+R27	WORKS_AS Arg1:T19 Arg2:T74	
+R28	ORIGINS_FROM Arg1:T74 Arg2:T18	
+R29	WORKS_AS Arg1:T17 Arg2:T73	
+R30	ORIGINS_FROM Arg1:T17 Arg2:T16	
+R31	ORIGINS_FROM Arg1:T73 Arg2:T16	
+R32	ORIGINS_FROM Arg1:T75 Arg2:T21	
+R33	WORKS_AS Arg1:T22 Arg2:T20	
+R34	WORKPLACE Arg1:T20 Arg2:T71	
+R35	ALTERNATIVE_NAME Arg1:T69 Arg2:T9	
+R36	TAKES_PLACE_IN Arg1:T9 Arg2:T81	
+T83	EVENT 217 257	Московского международного кинофестиваля
+R37	ABBREVIATION Arg1:T9 Arg2:T10	
+R38	ORIGINS_FROM Arg1:T46 Arg2:T45	
+R39	PARENT_OF Arg1:T44 Arg2:T49	
+R40	PARENT_OF Arg1:T44 Arg2:T50	
+R41	WORKS_AS Arg1:T67 Arg2:T53	
+R42	IDEOLOGY_OF Arg1:T56 Arg2:T79	
+R43	TAKES_PLACE_IN Arg1:T77 Arg2:T64	
+R44	DATE_FOUNDED_IN Arg1:T77 Arg2:T65	
+R45	ALTERNATIVE_NAME Arg1:T77 Arg2:T66	
+R46	WORKS_AS Arg1:T44 Arg2:T78	
+R47	PRODUCES Arg1:T42 Arg2:T41	
+R48	PARTICIPANT_IN Arg1:T35 Arg2:T41	
+R23	PARTICIPANT_IN Arg1:T35 Arg2:T38	
+R49	PARTICIPANT_IN Arg1:T80 Arg2:T41	
+T84	DATE 282 286;293 309	с 19 апреля 2018 года
+T85	DATE 290 309	26 апреля 2018 года
+R50	START_TIME Arg1:T9 Arg2:T84	
+R51	END_TIME Arg1:T9 Arg2:T85	
+T86	ORGANIZATION 24 54	жюри Московского кинофестиваля
+R52	MEMBER_OF Arg1:T1 Arg2:T86	
+R53	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+R54	PARTICIPANT_IN Arg1:T2 Arg2:T4	
+R55	KNOWS Arg1:T2 Arg2:T3	
+R56	KNOWS Arg1:T3 Arg2:T2	
+T87	ORGANIZATION 187 257	жюри основного конкурса 40-го Московского международного кинофестиваля
+R57	MEMBER_OF Arg1:T7 Arg2:T87	
+R58	MEMBER_OF Arg1:T15 Arg2:T87	
+R59	MEMBER_OF Arg1:T17 Arg2:T87	
+R60	MEMBER_OF Arg1:T19 Arg2:T87	
+R61	MEMBER_OF Arg1:T22 Arg2:T87	
+R62	KNOWS Arg1:T24 Arg2:T26	
+R63	KNOWS Arg1:T24 Arg2:T27	
+R64	KNOWS Arg1:T24 Arg2:T28	
+R65	KNOWS Arg1:T24 Arg2:T29	
+R66	KNOWS Arg1:T24 Arg2:T30	
+R67	KNOWS Arg1:T24 Arg2:T31	
+R68	KNOWS Arg1:T24 Arg2:T32	
+R69	ALTERNATIVE_NAME Arg1:T27 Arg2:T34	
+R70	KNOWS Arg1:T44 Arg2:T46	
+R71	KNOWS Arg1:T44 Arg2:T61	
+R72	KNOWS Arg1:T44 Arg2:T63	
+N3	Reference T15 Wikidata:Q4289477	Анна Гагиковна Меликян
+N5	Reference T17 Wikidata:Q249865	Джон Сэвидж
+N6	Reference T19 Wikidata:Q32362100	Лян Цяо
+N9	Reference T26 Wikidata:Q55411	Вим Вендерс
+N10	Reference T27 Wikidata:Q51552	Роман Полански
+N11	Reference T28 Wikidata:Q56094	Фрэнсис Форд Коппола
+N12	Reference T29 Wikidata:Q52411	Тони Ричардсон
+N13	Reference T30 Wikidata:Q363989	Пол Шредер
+N14	Reference T31 Wikidata:Q1387412	Тобэк, Джеймс
+N15	Reference T32 Wikidata:Q505626	Бенекс, Жан-Жак
+N16	Reference T33 Wikidata:Q1326026	Тэсс
+N18	Reference T36 Wikidata:Q2706930	Возлюбленные Марии
+N19	Reference T37 Wikidata:Q55208	Андрей Сергеевич Кончаловский
+N21	Reference T39 Wikidata:Q51530	Сколимовский, Ежи
+N22	Reference T40 Wikidata:Q42831	Иван Сергеевич Тургенев
+N24	Reference T42 Wikidata:Q4533430	Андрей Андреевич Эшпай
+N26	Reference T48 Wikidata:Q7737	русский язык
+N28	Reference T50 Wikidata:Q4327105	Соня
+N29	Reference T53 Wikidata:Q4220892	кинокритик
+N31	Reference T60 Wikidata:Q15180	СССР
+N32	Reference T61 Wikidata:Q84217	Нуреев, Рудольф Хаметович
+N33	Reference T62 Wikidata:Q1026	поляки
+N35	Reference T73 Wikidata:Q33999	актёр
+N36	Reference T75 Wikidata:Q3282637	кинопродюсер
+N37	Reference T76 Wikidata:Q3455803	режиссёр
+N38	Reference T67 Wikidata:Q969105	Сискел, Джин
+N39	Reference T78 Wikidata:Q33999	актёр
+N41	Reference T86 Wikidata:NULL	нет данных
+N40	Reference T82 Wikidata:Q649	Москва
+N1	Reference T6 Wikidata:Q42884	немцы
+N42	Reference T87 Wikidata:NULL	нет данных
+N34	Reference T72 Wikidata:NULL	нет данных
+N2	Reference T14 Wikidata:Q492468	россияне
+N4	Reference T16 Wikidata:Q846570	
+N43	Reference T18 Wikidata:Q6501380	китайцы
+N44	Reference T20 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:Q50001	итальянцы
+N8	Reference T22 Wikidata:Q26972576	
+N17	Reference T35 Wikidata:Q76711	
+N20	Reference T38 Wikidata:Q2373161	Вешние воды
+N23	Reference T41 Wikidata:Q4475895	Униженные и оскорблённые
+N25	Reference T46 Wikidata:Q991	
+N27	Reference T49 Wikidata:NULL	нет данных
+N30	Reference T56 Wikidata:Q846570	
+N45	Reference T2 Wikidata:Q249865	Джон Сэвидж
+N46	Reference T34 Wikidata:Q51552	Роман Полански
+N47	Reference T63 Wikidata:Q51552	Роман Полански
+N48	Reference T4 Wikidata:Q2706930	Возлюбленные Марии
+N49	Reference T55 Wikidata:Q7737	русский язык
+N50	Reference T57 Wikidata:Q7737	русский язык
+N51	Reference T58 Wikidata:Q7737	русский язык
+N52	Reference T45 Wikidata:Q7737	русский язык
+N53	Reference T54 Wikidata:Q1026	поляки
+N54	Reference T8 Wikidata:Q3455803	режиссёр
+N55	Reference T74 Wikidata:Q3455803	режиссёр
+N56	Reference T80 Wikidata:Q33999	актёр
+N57	Reference T70 Wikidata:Q33999	актёр
+N58	Reference T81 Wikidata:Q649	Москва
+N59	Reference T64 Wikidata:Q649	Москва
+N60	Reference T23 Wikidata:Q26972576	
+N61	Reference T13 Wikidata:Q76711	
+N62	Reference T44 Wikidata:Q76711	
+N63	Reference T24 Wikidata:Q76711	
+N64	Reference T7 Wikidata:Q76711	
+N65	Reference T3 Wikidata:Q76711	
+N66	Reference T1 Wikidata:Q76711	
+N67	Reference T51 Wikidata:Q991	
+N68	Reference T43 Wikidata:Q991	
+T88	EVENT 578 586	родилась
+R73	PARTICIPANT_IN Arg1:T24 Arg2:T88	
+R74	POINT_IN_TIME Arg1:T88 Arg2:T25	

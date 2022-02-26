@@ -1,0 +1,114 @@
+T1	PERSON 0 16	Джулиана Ассанжа
+T2	ORGANIZATION 38 55	Магистратский суд
+T3	DISTRICT 75 86	Вестминстер
+T4	PERSON 128 144	Джулиана Ассанжа
+T5	PROFESSION 177 182	судья
+T6	PERSON 183 196	Говард Риддли
+T7	PERSON 227 233	Ассанж
+T8	PERSON 373 387	Джулиан Ассанж
+T9	MONEY 458 484	240 тыс. фунтов стерлингов
+T10	MONEY 486 509	почти 380 тыс. долларов
+T11	PERSON 548 554	Ассанж
+T12	COUNTRY 573 581	шведская
+T13	PERSON 620 627	Ассанжа
+T14	PROFESSION 688 695	адвокат
+T15	PERSON 717 729	Марк Стивенс
+T16	PERSON 837 843	Ассанж
+T18	TIME 882 890	48 часов
+T19	PERSON 903 909	Ассанж
+T20	COUNTRY 968 978	британской
+T21	DATE 987 996	7 декабря
+T22	DATE 1000 1013	в тот же день
+T23	ORGANIZATION 1029 1064	Вестминстерским магистратским судом
+T24	COUNTRY 1181 1190	шведскими
+T25	NUMBER 1249 1262	сотни человек
+T27	PERSON 1303 1310	Ассанжа
+T28	ORGANIZATION 1385 1398	Daily Express
+T29	COUNTRY 1401 1407	Швеция
+T30	AGE 1426 1436	39-летнего
+T31	PERSON 1482 1488	Ассанж
+T32	PERSON 1600 1607	Ассанжа
+T33	ORGANIZATION 1697 1706	WikiLeaks
+T34	EVENT 17 37	освободили под залог
+T35	EVENT 105 127	освобождении под залог
+T37	ORGANIZATION 582 593	прокуратура
+T38	ORGANIZATION 707 716	WikiLeaks
+T39	PROFESSION 743 749	юристы
+T40	DISTRICT 1029 1044	Вестминстерским
+T17	NATIONALITY 1437 1448	австралийца
+T26	CRIME 1467 1480	изнасиловании
+T41	CRIME 643 656	изнасиловании
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+T42	CITY 56 67	лондонского
+R2	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T35	
+R4	LOCATED_IN Arg1:T3 Arg2:T42	
+R5	AGENT Arg1:T2 Arg2:T35	
+R6	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+R7	WORKS_AS Arg1:T6 Arg2:T5	
+R8	WORKPLACE Arg1:T6 Arg2:T2	
+R9	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R11	CONVICTED_OF Arg1:T13 Arg2:T41	
+T36	ORGANIZATION 573 593	шведская прокуратура
+R12	HEADQUARTERED_IN Arg1:T36 Arg2:T12	
+R13	FOUNDED_BY Arg1:T38 Arg2:T11	
+R14	WORKS_AS Arg1:T15 Arg2:T14	
+R15	SUBORDINATE_OF Arg1:T15 Arg2:T11	
+T43	PENALTY 854 865	под стражей
+T44	PENALTY 920 932	в заключении
+R16	ALTERNATIVE_NAME Arg1:T43 Arg2:T44	
+R17	PENALIZED_AS Arg1:T16 Arg2:T43	
+R18	PENALIZED_AS Arg1:T19 Arg2:T44	
+R19	HAS_CAUSE Arg1:T43 Arg2:T41	
+T45	CITY 968 986	британской столице
+R20	LOCATED_IN Arg1:T45 Arg2:T20	
+T46	ORGANIZATION 1181 1199	шведскими властями
+R21	HEADQUARTERED_IN Arg1:T46 Arg2:T24	
+R22	HEADQUARTERED_IN Arg1:T23 Arg2:T40	
+R23	ALTERNATIVE_NAME Arg1:T3 Arg2:T40	
+R24	LOCATED_IN Arg1:T40 Arg2:T45	
+R25	ALTERNATIVE_NAME Arg1:T24 Arg2:T29	
+R26	ORIGINS_FROM Arg1:T27 Arg2:T17	
+R27	AGE_IS Arg1:T17 Arg2:T30	
+R28	AGE_IS Arg1:T27 Arg2:T30	
+T47	EVENT 957 965	задержан
+R29	TAKES_PLACE_IN Arg1:T47 Arg2:T45	
+R30	PARTICIPANT_IN Arg1:T19 Arg2:T47	
+R31	POINT_IN_TIME Arg1:T47 Arg2:T21	
+R32	CONVICTED_OF Arg1:T17 Arg2:T26	
+R33	CONVICTED_OF Arg1:T31 Arg2:T26	
+R34	CONVICTED_OF Arg1:T27 Arg2:T26	
+N2	Reference T5 Wikidata:Q16533	судья
+N4	Reference T14 Wikidata:Q40348	адвокат
+N9	Reference T28 Wikidata:Q610190	Daily Express
+N10	Reference T33 Wikidata:Q359	WikiLeaks
+N11	Reference T37 Wikidata:Q1092499	прокуратура
+N12	Reference T39 Wikidata:Q185351	юрист
+N13	Reference T40 Wikidata:Q5933	Вестминстерское аббатство
+N1	Reference T2 Wikidata:NULL	нет данных
+N14	Reference T42 Wikidata:Q84	Лондон
+N3	Reference T6 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N18	Reference T16 Wikidata:Q360	Джулиан Ассанж
+N6	Reference T20 Wikidata:Q145	Великобритания
+N16	Reference T45 Wikidata:Q84	Лондон
+N7	Reference T23 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:Q34	Швеция
+N17	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T17 Wikidata:Q1318423	
+N20	Reference T38 Wikidata:Q359	WikiLeaks
+N21	Reference T3 Wikidata:Q5933	Вестминстерское аббатство
+N22	Reference T13 Wikidata:Q360	Джулиан Ассанж
+N23	Reference T8 Wikidata:Q360	Джулиан Ассанж
+N24	Reference T19 Wikidata:Q360	Джулиан Ассанж
+N25	Reference T31 Wikidata:Q360	Джулиан Ассанж
+N26	Reference T32 Wikidata:Q360	Джулиан Ассанж
+N27	Reference T4 Wikidata:Q360	Джулиан Ассанж
+N28	Reference T7 Wikidata:Q360	Джулиан Ассанж
+N29	Reference T11 Wikidata:Q360	Джулиан Ассанж
+N30	Reference T1 Wikidata:Q360	Джулиан Ассанж
+N31	Reference T27 Wikidata:Q360	Джулиан Ассанж
+N32	Reference T29 Wikidata:Q34	Швеция
+N33	Reference T12 Wikidata:Q34	Швеция

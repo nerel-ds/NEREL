@@ -1,0 +1,136 @@
+T1	NATIONALITY 0 11	Итальянский
+T3	AGE 78 84	61 год
+T6	CITY 85 101	Понте-Сан-Пьетро
+T7	CITY 104 111	Бергамо
+T8	DISEASE 120 128	COVID-19
+T10	PERSON 201 216	Анджело Роттоли
+T11	PERSON 218 232	Angelo Rottoli
+T12	PERSON 263 278	Анджело Роттоли
+T13	DATE 300 311	в 1977 году
+T14	DATE 320 353	через четыре года, в декабре 1981
+T16	PERSON 355 362	Анджело
+T17	DATE 384 395	В 1983 году
+T18	PERSON 480 495	Анджело Роттоли
+T19	DATE 496 507	в 1987 году
+T20	ORGANIZATION 542 545	WBC
+T21	DATE 577 588	в 1988 году
+T22	DATE 590 601	Годом позже
+T23	PERSON 602 617	Анджело Роттоли
+T24	DATE 681 700	11 ноября 1989 года
+T25	PERSON 710 724	Анаклету Вамбе
+T26	DATE 726 744	В апреле 1990 года
+T27	NUMBER 781 783	35
+T28	PERSON 791 806	Анджело Роттоли
+T29	DATE 838 856	28 марта 2020 года
+T30	CITY 871 887	Понте-Сан-Пьетро
+T31	CITY 889 905	Ponte San Pietro
+T32	AGE 918 925	61 года
+T33	DATE 927 947	Двумя неделями ранее
+T34	PERSON 948 955	Анджело
+T37	PROFESSION 12 18	боксёр
+T38	AWARD 24 36	чемпион мира
+T39	LOCATION 39 45	Европы
+T40	AWARD 24 31;39 45	чемпион Европы
+T41	EVENT 46 50	умер
+T42	DISEASE 54 66	коронавируса
+T4	EVENT 112 116	умер
+T5	NATIONALITY 129 140	итальянский
+T43	PROFESSION 141 147	боксёр
+T44	AWARD 149 161	чемпион мира
+T46	DATE 171 180	1987 года
+T47	PROFESSION 254 262	боксёров
+T15	AWARD 408 429	титул чемпиона Италии
+T48	AWARD 513 545	межконтинентальным чемпионом WBC
+T49	AWARD 633 648	чемпиона Европы
+T50	LOCATION 642 648	Европы
+T51	NATIONALITY 701 709	французу
+T52	PERSON 745 752	Роттоли
+T53	DISEASE 820 832	коронавируса
+T54	EVENT 833 837	умер
+T55	DISEASE 1003 1015	коронавируса
+T35	DISEASE 1016 1026	SARS-CoV-2
+R1	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R2	WORKS_AS Arg1:T12 Arg2:T47	
+T36	PROFESSION 368 382	профессионалом
+R3	WORKS_AS Arg1:T16 Arg2:T36	
+R4	ORIGINS_FROM Arg1:T25 Arg2:T51	
+R5	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+T56	DISEASE 1003 1026	коронавируса SARS-CoV-2
+R6	CAUSE_OF_DEATH Arg1:T28 Arg2:T53	
+R7	DATE_OF_DEATH Arg1:T28 Arg2:T29	
+R8	PLACE_OF_DEATH Arg1:T28 Arg2:T30	
+R9	PARTICIPANT_IN Arg1:T28 Arg2:T54	
+R10	POINT_IN_TIME Arg1:T54 Arg2:T29	
+R11	AGE_DIED_AT Arg1:T28 Arg2:T32	
+T57	EVENT 956 981	потерял свою мать и брата
+R12	POINT_IN_TIME Arg1:T57 Arg2:T33	
+R13	PARTICIPANT_IN Arg1:T34 Arg2:T57	
+R14	PLACE_OF_DEATH Arg1:T10 Arg2:T7	
+R15	TAKES_PLACE_IN Arg1:T4 Arg2:T7	
+R16	PARTICIPANT_IN Arg1:T10 Arg2:T4	
+R17	CAUSE_OF_DEATH Arg1:T10 Arg2:T8	
+R18	ORIGINS_FROM Arg1:T10 Arg2:T5	
+R19	WORKS_AS Arg1:T10 Arg2:T43	
+T58	COUNTRY 423 429	Италии
+R20	AWARDED_WITH Arg1:T12 Arg2:T15	
+R21	AWARDED_WITH Arg1:T18 Arg2:T48	
+R22	AWARDED_WITH Arg1:T23 Arg2:T49	
+R23	ORIGINS_FROM Arg1:T37 Arg2:T1	
+R24	PARTICIPANT_IN Arg1:T37 Arg2:T41	
+R25	CAUSE_OF_DEATH Arg1:T37 Arg2:T42	
+R26	AGE_DIED_AT Arg1:T37 Arg2:T3	
+R27	ORIGINS_FROM Arg1:T43 Arg2:T5	
+R28	ALTERNATIVE_NAME Arg1:T12 Arg2:T16	
+R29	ALTERNATIVE_NAME Arg1:T23 Arg2:T52	
+R30	ALTERNATIVE_NAME Arg1:T28 Arg2:T34	
+T59	EVENT 956 973	потерял свою мать
+R31	HAS_CAUSE Arg1:T41 Arg2:T42	
+R32	ORIGINS_FROM Arg1:T40 Arg2:T39	
+R33	AWARDED_WITH Arg1:T37 Arg2:T38	
+R34	AWARDED_WITH Arg1:T37 Arg2:T40	
+T2	AWARD 149 156;164 170	чемпион Европы
+R35	POINT_IN_TIME Arg1:T44 Arg2:T46	
+R36	POINT_IN_TIME Arg1:T2 Arg2:T46	
+R37	AWARDED_WITH Arg1:T10 Arg2:T44	
+R38	AWARDED_WITH Arg1:T10 Arg2:T2	
+R39	PRODUCES Arg1:T20 Arg2:T48	
+T9	AWARD 513 541	межконтинентальным чемпионом
+R40	POINT_IN_TIME Arg1:T48 Arg2:T21	
+R41	POINT_IN_TIME Arg1:T49 Arg2:T22	
+R42	ORIGINS_FROM Arg1:T49 Arg2:T50	
+R43	ALTERNATIVE_NAME Arg1:T42 Arg2:T8	
+T45	DATE 126 128	19
+T60	NUMBER 1025 1027	2.
+N4	Reference T20 Wikidata:Q724450	Всемирный боксёрский совет
+N5	Reference T25 Wikidata:Q1979321	Анаклет Вамба
+N17	Reference T58 Wikidata:Q38	Италия
+N8	Reference T40 Wikidata:NULL	нет данных
+N7	Reference T39 Wikidata:Q46	Европа
+N1	Reference T7 Wikidata:Q628	Бергамо
+N9	Reference T5 Wikidata:Q50001	итальянцы
+N18	Reference T2 Wikidata:NULL	нет данных
+N20	Reference T11 Wikidata:Q88963159	
+N11	Reference T47 Wikidata:Q11338576	боксёр
+N2	Reference T16 Wikidata:Q88963159	
+N3	Reference T18 Wikidata:Q88963159	
+N21	Reference T52 Wikidata:Q88963159	
+N16	Reference T36 Wikidata:Q702269	профессионал
+N12	Reference T15 Wikidata:NULL	нет данных
+N19	Reference T9 Wikidata:NULL	нет данных
+N13	Reference T48 Wikidata:NULL	нет данных
+N14	Reference T49 Wikidata:NULL	нет данных
+N15	Reference T51 Wikidata:Q121842	французы
+N6	Reference T30 Wikidata:Q30029029	
+N10	Reference T44 Wikidata:Q2948691	
+N22	Reference T50 Wikidata:Q46	Европа
+N23	Reference T1 Wikidata:Q50001	итальянцы
+N24	Reference T10 Wikidata:Q88963159	
+N25	Reference T37 Wikidata:Q11338576	боксёр
+N26	Reference T43 Wikidata:Q11338576	боксёр
+N27	Reference T12 Wikidata:Q88963159	
+N28	Reference T34 Wikidata:Q88963159	
+N29	Reference T28 Wikidata:Q88963159	
+N30	Reference T23 Wikidata:Q88963159	
+N31	Reference T6 Wikidata:Q30029029	
+N32	Reference T31 Wikidata:Q30029029	
+N33	Reference T38 Wikidata:Q2948691	

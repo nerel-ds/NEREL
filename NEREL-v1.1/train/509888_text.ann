@@ -1,0 +1,244 @@
+T1	PROFESSION 37 52	премьер-министр
+T2	PERSON 61 75	Абий Ахмед Али
+T3	PERSON 76 90	Абий Ахмед Али
+T4	DATE 117 126	2019 году
+T5	PROFESSION 135 150	премьер-министр
+T6	PERSON 159 173	Абий Ахмед Али
+T7	TIME 185 216	в пятницу, 11 октября 2019 года
+T8	EVENT 221 230	церемонии
+T9	CITY 233 237	Осло
+T10	COUNTRY 239 247	Норвегия
+T11	PRODUCT 287 294	YouTube
+T12	COUNTRY 479 487	Эритреей
+T13	PERSON 491 505	Абий Ахмед Али
+T14	ORDINAL 508 514	первый
+T15	ORDINAL 570 576	первый
+T17	DATE 650 668	1 апреля 2018 года
+T18	COUNTRY 686 694	Эритреей
+T19	COUNTRY 697 705	Эфиопией
+T20	DATE 718 737	с 1998 по 2000 годы
+T21	NUMBER 829 842	десятки тысяч
+T24	DATE 852 863	В 2018 году
+T25	PROFESSION 890 899	президент
+T26	PERSON 908 923	Исайяс Афеверки
+T27	DATE 1028 1039	В этом году
+T29	NUMBER 1080 1089	более 200
+T30	NUMBER 1100 1102	85
+T31	PERSON 1215 1228	Ильвад Эльман
+T32	COUNTRY 1232 1238	Сомали
+T33	PERSON 1241 1253	Хаджер Шариф
+T34	COUNTRY 1257 1262	Ливии
+T35	PROFESSION 1272 1281	активиста
+T36	AGE 1294 1304	23-летнего
+T37	PERSON 1305 1315	Натана Лау
+T38	COUNTRY 1335 1341	Швеции
+T39	PERSON 1342 1355	Грету Тунберг
+T40	DATE 1358 1372	В прошлом году
+T41	PROFESSION 1393 1399	хирург
+T42	PERSON 1409 1422	Денис Муквеге
+T43	PROFESSION 1425 1439	правозащитница
+T44	COUNTRY 1450 1455	Ирака
+T45	PERSON 1456 1466	Надя Мурад
+T46	PERSON 1488 1503	Альфреда Нобеля
+T47	PERSON 1793 1808	Альфреда Нобеля
+T48	ORGANIZATION 1822 1851	Государственным банком Швеции
+T49	DATE 1852 1863	в 1968 году
+T50	DATE 1881 1891	14 октября
+T51	PERSON 1962 1977	Альфреда Нобеля
+T52	DATE 1978 1988	10 декабря
+T53	CITY 1991 2001	Стокгольме
+T54	PROFESSION 2003 2009	Король
+T55	PERSON 2010 2025	Карл XVI Густав
+T56	MONEY 2147 2166	9 млн шведских крон
+T57	MONEY 2168 2173	$0,91
+T58	MONEY 2176 2185	$1,02 млн
+T59	DATE 24 28	2019
+T60	COUNTRY 53 60	Эфиопии
+T61	PROFESSION 37 60	премьер-министр Эфиопии
+T67	DATE 196 216	11 октября 2019 года
+T68	PROFESSION 515 522	премьер
+T69	COUNTRY 523 530	Эфиопии
+T70	NATIONALITY 555 560	оромо
+T71	RELIGION 577 588	мусульманин
+T73	PROFESSION 623 649	председателя правительства
+T74	PROFESSION 864 879	премьер-министр
+T75	PROFESSION 864 887	премьер-министр Эфиопии
+T76	COUNTRY 880 887	Эфиопии
+T77	COUNTRY 900 907	Эритреи
+T78	PROFESSION 890 907	президент Эритреи
+T79	EVENT 924 948	заключили мирный договор
+T28	CITY 1285 1293	Гонконга
+T81	PROFESSION 1318 1331	экоактивистку
+T82	EVENT 1373 1392	награды удостоились
+T83	COUNTRY 1403 1408	Конго
+T84	RELIGION 1440 1446	езидки
+T86	COUNTRY 1845 1851	Швеции
+T87	DATE 1948 1961	в день смерти
+T88	EVENT 1906 1939	церемония вручения научных премий
+T89	ORDINAL 2015 2018	XVI
+T90	COUNTRY 2153 2161	шведских
+T91	PROFESSION 1204 1214	активисток
+T63	AWARD 0 18	Нобелевскую премию
+T92	AWARD 0 28	Нобелевскую премию мира 2019
+T64	AWARD 91 109	Нобелевскую премию
+T93	AWARD 91 114	Нобелевскую премию мира
+T80	AWARD 1043 1061	Нобелевскую премию
+T94	AWARD 1043 1066	Нобелевскую премию мира
+T85	AWARD 1505 1528	Нобелевская премия мира
+T95	AWARD 1505 1523	Нобелевская премия
+R1	WORKS_AS Arg1:T2 Arg2:T61	
+R2	WORKPLACE Arg1:T2 Arg2:T60	
+R3	AWARDED_WITH Arg1:T2 Arg2:T92	
+T62	COUNTRY 151 158	Эфиопии
+T65	PROFESSION 135 158	премьер-министр Эфиопии
+R4	WORKPLACE Arg1:T6 Arg2:T62	
+R5	WORKS_AS Arg1:T6 Arg2:T65	
+R6	LOCATED_IN Arg1:T9 Arg2:T10	
+R7	POINT_IN_TIME Arg1:T8 Arg2:T67	
+R8	TAKES_PLACE_IN Arg1:T8 Arg2:T9	
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T8	
+R10	AWARDED_WITH Arg1:T6 Arg2:T93	
+T66	PROFESSION 515 530	премьер Эфиопии
+R11	ORIGINS_FROM Arg1:T13 Arg2:T70	
+R12	RELIGION_OF Arg1:T13 Arg2:T71	
+R13	WORKS_AS Arg1:T13 Arg2:T66	
+R14	WORKPLACE Arg1:T13 Arg2:T69	
+T16	ORGANIZATION 636 649	правительства
+R15	WORKS_AS Arg1:T13 Arg2:T73	
+R16	AGENT Arg1:T75 Arg2:T79	
+R17	AGENT Arg1:T26 Arg2:T79	
+R18	POINT_IN_TIME Arg1:T79 Arg2:T24	
+R19	WORKS_AS Arg1:T26 Arg2:T78	
+R20	WORKPLACE Arg1:T26 Arg2:T77	
+R21	WORKS_AS Arg1:T31 Arg2:T91	
+R22	ORIGINS_FROM Arg1:T31 Arg2:T32	
+R23	ORIGINS_FROM Arg1:T33 Arg2:T34	
+R24	AGE_IS Arg1:T37 Arg2:T36	
+R25	ORIGINS_FROM Arg1:T39 Arg2:T38	
+R26	WORKS_AS Arg1:T39 Arg2:T81	
+R27	ORIGINS_FROM Arg1:T37 Arg2:T28	
+R28	WORKS_AS Arg1:T37 Arg2:T35	
+R29	WORKS_AS Arg1:T33 Arg2:T91	
+R30	ORIGINS_FROM Arg1:T45 Arg2:T44	
+R31	RELIGION_OF Arg1:T45 Arg2:T84	
+R32	WORKS_AS Arg1:T45 Arg2:T43	
+R33	POINT_IN_TIME Arg1:T82 Arg2:T40	
+R34	ORIGINS_FROM Arg1:T42 Arg2:T83	
+R35	WORKS_AS Arg1:T42 Arg2:T41	
+R36	PARTICIPANT_IN Arg1:T42 Arg2:T82	
+R37	PARTICIPANT_IN Arg1:T45 Arg2:T82	
+T22	AWARD 1766 1808	премии по экономике памяти Альфреда Нобеля
+R38	WORKS_AS Arg1:T55 Arg2:T54	
+R39	TAKES_PLACE_IN Arg1:T88 Arg2:T53	
+R40	POINT_IN_TIME Arg1:T88 Arg2:T52	
+R41	DATE_OF_CREATION Arg1:T22 Arg2:T49	
+T23	AWARD 0 23	Нобелевскую премию мира
+R42	WORKPLACE Arg1:T61 Arg2:T60	
+R43	WORKPLACE Arg1:T65 Arg2:T62	
+R44	WORKPLACE Arg1:T66 Arg2:T69	
+T72	EVENT 671 679	Конфликт
+R45	PARTICIPANT_IN Arg1:T18 Arg2:T72	
+R46	POINT_IN_TIME Arg1:T72 Arg2:T20	
+R47	PARTICIPANT_IN Arg1:T19 Arg2:T72	
+R48	WORKPLACE Arg1:T75 Arg2:T76	
+R49	WORKPLACE Arg1:T78 Arg2:T77	
+T96	LAW 934 948	мирный договор
+R50	HEADQUARTERED_IN Arg1:T48 Arg2:T86	
+T97	ORGANIZATION 1822 1844	Государственным банком
+T98	EVENT 2026 2042	вручит лауреатам
+R51	PARTICIPANT_IN Arg1:T55 Arg2:T98	
+R52	ORIGINS_FROM Arg1:T43 Arg2:T44	
+R53	ORIGINS_FROM Arg1:T41 Arg2:T83	
+R54	ALTERNATIVE_NAME Arg1:T56 Arg2:T58	
+R55	ALTERNATIVE_NAME Arg1:T56 Arg2:T57	
+R56	POINT_IN_TIME Arg1:T92 Arg2:T59	
+R57	POINT_IN_TIME Arg1:T93 Arg2:T4	
+T99	DATE 718 724	с 1998
+T100	DATE 725 737	по 2000 годы
+R58	START_TIME Arg1:T72 Arg2:T99	
+R59	END_TIME Arg1:T72 Arg2:T100	
+R60	INANIMATE_INVOLVED Arg1:T96 Arg2:T79	
+R61	POINT_IN_TIME Arg1:T94 Arg2:T27	
+R62	PRODUCES Arg1:T48 Arg2:T22	
+T101	PERSON 0 11	Нобелевскую
+R63	PRODUCES Arg1:T101 Arg2:T63	
+T102	PERSON 91 102	Нобелевскую
+R64	PRODUCES Arg1:T102 Arg2:T64	
+T103	PERSON 1043 1054	Нобелевскую
+R65	PRODUCES Arg1:T103 Arg2:T80	
+T104	PERSON 1505 1516	Нобелевская
+R66	ALTERNATIVE_NAME Arg1:T46 Arg2:T104	
+R67	PRODUCES Arg1:T104 Arg2:T95	
+N1	Reference T5 Wikidata:Q14212	премьер-министр
+N2	Reference T9 Wikidata:Q585	Осло
+N3	Reference T10 Wikidata:Q20	Норвегия
+N4	Reference T11 Wikidata:Q866	YouTube
+N5	Reference T13 Wikidata:Q50365049	Абий Ахмед Али
+N6	Reference T18 Wikidata:Q986	Эритрея
+N7	Reference T25 Wikidata:Q30461	президент
+N8	Reference T26 Wikidata:Q57348	Исайяс Афеворк
+N10	Reference T32 Wikidata:Q1045	Сомали
+N12	Reference T34 Wikidata:Q1016	Ливия
+N14	Reference T39 Wikidata:Q56434717	Грета Тунберг
+N15	Reference T41 Wikidata:Q774306	хирург
+N16	Reference T42 Wikidata:Q1187542	Муквеге, Денис
+N17	Reference T43 Wikidata:Q1476215	правозащитник
+N18	Reference T44 Wikidata:Q796	Ирак
+N19	Reference T45 Wikidata:Q22007112	Надия Мурад
+N20	Reference T48 Wikidata:Q564652	Центральный банк Швеции
+N21	Reference T53 Wikidata:Q1754	Стокгольм
+N23	Reference T55 Wikidata:Q45068	Карл XVI Густав
+N24	Reference T68 Wikidata:Q14212	премьер-министр
+N25	Reference T70 Wikidata:Q318674	Оромо
+N26	Reference T71 Wikidata:Q47740	мусульманин
+N28	Reference T78 Wikidata:Q19108193	Президент Эритреи
+N29	Reference T28 Wikidata:Q8646	Гонконг
+N30	Reference T83 Wikidata:Q974	Демократическая Республика Конго
+N31	Reference T84 Wikidata:Q200885	езиды
+N32	Reference T86 Wikidata:Q34	Швеция
+N35	Reference T95 Wikidata:Q7191	Нобелевская премия
+N36	Reference T62 Wikidata:Q115	Эфиопия
+N37	Reference T65 Wikidata:Q1788970	премьер-министр Эфиопии
+N38	Reference T66 Wikidata:Q1788970	премьер-министр Эфиопии
+N39	Reference T16 Wikidata:Q7188	правительство
+N40	Reference T22 Wikidata:Q47170	премия Шведского национального банка по экономическим наукам памяти Альфреда Нобеля
+N41	Reference T23 Wikidata:Q35637	Нобелевская премия мира
+N42	Reference T96 Wikidata:Q55437375	Мирный договор между Эфиопией и Эритреей
+N34	Reference T92 Wikidata:NULL	нет данных
+N27	Reference T73 Wikidata:Q14212	премьер-министр
+N45	Reference T91 Wikidata:Q15253558	
+N9	Reference T31 Wikidata:NULL	нет данных
+N11	Reference T33 Wikidata:NULL	нет данных
+N46	Reference T35 Wikidata:Q15253558	
+N13	Reference T37 Wikidata:Q24701019	
+N47	Reference T81 Wikidata:NULL	нет данных
+N44	Reference T104 Wikidata:Q23810	Альфред Нобель
+N43	Reference T97 Wikidata:Q2324813	
+N22	Reference T54 Wikidata:Q12097	король
+N33	Reference T90 Wikidata:Q34	Швеция
+N48	Reference T1 Wikidata:Q14212	премьер-министр
+N49	Reference T74 Wikidata:Q14212	премьер-министр
+N50	Reference T3 Wikidata:Q50365049	Абий Ахмед Али
+N51	Reference T2 Wikidata:Q50365049	Абий Ахмед Али
+N52	Reference T6 Wikidata:Q50365049	Абий Ахмед Али
+N53	Reference T12 Wikidata:Q986	Эритрея
+N54	Reference T77 Wikidata:Q986	Эритрея
+N55	Reference T38 Wikidata:Q34	Швеция
+N56	Reference T80 Wikidata:Q7191	Нобелевская премия
+N57	Reference T64 Wikidata:Q7191	Нобелевская премия
+N58	Reference T63 Wikidata:Q7191	Нобелевская премия
+N59	Reference T76 Wikidata:Q115	Эфиопия
+N60	Reference T60 Wikidata:Q115	Эфиопия
+N61	Reference T19 Wikidata:Q115	Эфиопия
+N62	Reference T69 Wikidata:Q115	Эфиопия
+N63	Reference T61 Wikidata:Q1788970	премьер-министр Эфиопии
+N64	Reference T75 Wikidata:Q1788970	премьер-министр Эфиопии
+N65	Reference T94 Wikidata:Q35637	Нобелевская премия мира
+N66	Reference T93 Wikidata:Q35637	Нобелевская премия мира
+N67	Reference T85 Wikidata:Q35637	Нобелевская премия мира
+N68	Reference T102 Wikidata:Q23810	Альфред Нобель
+N69	Reference T46 Wikidata:Q23810	Альфред Нобель
+N70	Reference T101 Wikidata:Q23810	Альфред Нобель
+N71	Reference T51 Wikidata:Q23810	Альфред Нобель
+N72	Reference T103 Wikidata:Q23810	Альфред Нобель
+N73	Reference T47 Wikidata:Q23810	Альфред Нобель

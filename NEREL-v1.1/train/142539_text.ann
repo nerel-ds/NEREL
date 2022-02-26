@@ -1,0 +1,63 @@
+T1	ORGANIZATION 0 7	Playboy
+T3	ORGANIZATION 68 75	Playboy
+T4	COUNTRY 78 90	Американская
+T5	ORGANIZATION 102 121	Playboy Enterprises
+T6	PRODUCT 174 181	Playboy
+T7	PROFESSION 252 273	Руководитель компании
+T8	PERSON 274 281	Бен Кон
+T9	PERSON 283 291	Ben Kohn
+T10	ORGANIZATION 345 352	Playboy
+T11	DATE 427 438	в 2018 году
+T12	PERCENT 646 658	35 процентов
+T14	ORGANIZATION 692 699	Playboy
+T15	PERSON 702 713	Хью Хефнера
+T16	DATE 724 744	в сентябре 2017 года
+T17	PERSON 799 805	Хефнер
+T18	DATE 820 831	28 сентября
+T19	AGE 843 850	91 года
+T20	PERSON 931 944	Мэрилин Монро
+T21	DATE 954 965	в 1953 году
+T22	ORDINAL 989 996	первого
+T23	PRODUCT 1006 1013	Playboy
+T24	LANGUAGE 1017 1024	Русская
+T25	DATE 1049 1060	с 1995 года
+T26	PROFESSION 922 930	актрисой
+T27	DISTRICT 909 921	голливудской
+R1	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R3	PRODUCES Arg1:T5 Arg2:T6	
+R4	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R5	WORKS_AS Arg1:T8 Arg2:T7	
+R6	WORKPLACE Arg1:T7 Arg2:T5	
+R7	WORKPLACE Arg1:T8 Arg2:T5	
+R8	FOUNDED_BY Arg1:T14 Arg2:T15	
+R9	DATE_OF_DEATH Arg1:T15 Arg2:T16	
+R10	ALTERNATIVE_NAME Arg1:T15 Arg2:T17	
+R11	DATE_OF_DEATH Arg1:T17 Arg2:T18	
+R12	AGE_DIED_AT Arg1:T17 Arg2:T19	
+R13	WORKS_AS Arg1:T20 Arg2:T26	
+R14	WORKPLACE Arg1:T20 Arg2:T27	
+T2	EVENT 806 819	ушел из жизни
+R15	PARTICIPANT_IN Arg1:T17 Arg2:T2	
+R16	POINT_IN_TIME Arg1:T2 Arg2:T18	
+T13	EVENT 715 723	умершего
+R17	PARTICIPANT_IN Arg1:T15 Arg2:T13	
+R18	POINT_IN_TIME Arg1:T13 Arg2:T16	
+R19	ALTERNATIVE_NAME Arg1:T13 Arg2:T2	
+N1	Reference T4 Wikidata:Q30	США
+N2	Reference T6 Wikidata:Q150820	Playboy
+N3	Reference T7 Wikidata:Q1162163	директор
+N5	Reference T10 Wikidata:Q150820	Playboy
+N6	Reference T15 Wikidata:Q194280	Хью Хефнер
+N7	Reference T20 Wikidata:Q4616	Мэрилин Монро
+N8	Reference T24 Wikidata:Q7737	русский язык
+N9	Reference T26 Wikidata:Q33999	актёр
+N10	Reference T27 Wikidata:Q380675	кинематограф США
+N4	Reference T8 Wikidata:Q106317255	
+N11	Reference T23 Wikidata:Q150820	Playboy
+N12	Reference T5 Wikidata:Q150820	Playboy
+N13	Reference T14 Wikidata:Q150820	Playboy
+N14	Reference T3 Wikidata:Q150820	Playboy
+N15	Reference T1 Wikidata:Q150820	Playboy
+N16	Reference T17 Wikidata:Q194280	Хью Хефнер
+N17	Reference T9 Wikidata:Q106317255	

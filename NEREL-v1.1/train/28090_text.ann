@@ -1,0 +1,56 @@
+T1	COUNTRY 0 9	Индонезия
+T2	NUMBER 11 14	687
+T3	DATE 82 100	1 апреля 2013 года
+T4	COUNTRY 108 117	Индонезии
+T5	NUMBER 131 134	687
+T8	COUNTRY 393 402	Индонезии
+T10	LOCATION 414 426	Новая Гвинея
+T14	DATE 467 485	15 марта 2013 года
+T15	DATE 632 645	двухнедельной
+T16	STATE_OR_PROVINCE 755 762	Гонконг
+T17	COUNTRY 775 784	Индонезии
+T18	DATE 821 832	до трёх лет
+T19	MONEY 862 887	до 15,4 тыс. долларов США
+T20	ORGANIZATION 890 928	Министерство морских дел и рыболовства
+T21	ORGANIZATION 974 998	Центр природных ресурсов
+T22	LOCATION 1028 1040	Новой Гвинее
+T26	EVENT 118 155	конфисковали 687 двухкоготных черепах
+T6	LOCATION 293 305	Новую Гвинею
+T7	LOCATION 373 402	восточной провинции Индонезии
+T9	FACILITY 453 466	Сукарно Хатта
+T11	EVENT 364 369	полёт
+T12	PENALTY 821 843	до трёх лет заключения
+T13	PENALTY 846 887	штраф в размере до 15,4 тыс. долларов США
+T27	COUNTRY 884 887	США
+T23	LAW 1118 1217	Конвенция о международной торговле видами дикой фауны и флоры, находящимися под угрозой уничтожения
+T24	DATE 1374 1411	десятки или сотни миллионов лет назад
+R1	POINT_IN_TIME Arg1:T26 Arg2:T3	
+T25	ORGANIZATION 101 117	власти Индонезии
+R2	HEADQUARTERED_IN Arg1:T25 Arg2:T4	
+R3	AGENT Arg1:T25 Arg2:T26	
+R4	LOCATED_IN Arg1:T6 Arg2:T4	
+R5	LOCATED_IN Arg1:T7 Arg2:T8	
+R6	LOCATED_IN Arg1:T10 Arg2:T7	
+R7	LOCATED_IN Arg1:T9 Arg2:T8	
+R8	TAKES_PLACE_IN Arg1:T11 Arg2:T7	
+R9	TAKES_PLACE_IN Arg1:T11 Arg2:T9	
+R10	POINT_IN_TIME Arg1:T11 Arg2:T14	
+T28	EVENT 118 130	конфисковали
+T29	PENALTY 833 843	заключения
+T30	PENALTY 846 851	штраф
+R11	HEADQUARTERED_IN Arg1:T20 Arg2:T17	
+N1	Reference T8 Wikidata:Q252	Индонезия
+N2	Reference T16 Wikidata:Q8646	Гонконг
+N5	Reference T22 Wikidata:Q40285	Новая Гвинея
+N7	Reference T9 Wikidata:Q749497	Сукарно-Хатта
+N8	Reference T27 Wikidata:Q30	США
+N9	Reference T23 Wikidata:Q191836	Конвенция о международной торговле видами дикой фауны и флоры, находящимися под угрозой уничтожения
+N10	Reference T25 Wikidata:NULL	нет данных
+N6	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T20 Wikidata:NULL	нет данных
+N4	Reference T21 Wikidata:NULL	нет данных
+N11	Reference T4 Wikidata:Q252	Индонезия
+N12	Reference T17 Wikidata:Q252	Индонезия
+N13	Reference T1 Wikidata:Q252	Индонезия
+N14	Reference T6 Wikidata:Q40285	Новая Гвинея
+N15	Reference T10 Wikidata:Q40285	Новая Гвинея

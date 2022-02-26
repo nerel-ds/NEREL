@@ -1,0 +1,106 @@
+T1	PERSON 10 25	Иван Дыховичный
+T3	COUNTRY 72 78	России
+T4	CITY 86 92	Москве
+T5	PERSON 125 140	Иван Дыховичный
+T6	DATE 142 148	Весной
+T7	PERSON 206 223	Иван Владимирович
+T8	AGE 243 251	62-летия
+T9	DATE 258 268	три недели
+T10	PERSON 271 281	Дыховичный
+T11	ORGANIZATION 313 346	Театрального училища имени Щукина
+T12	PERSON 377 393	Эльдара Рязанова
+T13	PERSON 400 419	Владимира Высоцкого
+T14	PERSON 461 467	Чехова
+T16	PERSON 510 521	Дыховичного
+T17	DATE 589 600	В 1992 году
+T18	DATE 732 749	В последнее время
+T19	NUMBER 785 789	двух
+T20	PERSON 802 822	Владимире Маяковском
+T21	PERSON 825 834	Лиле Брик
+T22	DATE 883 893	во вторник
+T23	TIME 48 61	сегодня утром
+T2	DATE 48 55	сегодня
+T24	PROFESSION 108 116	режиссёр
+T25	PROFESSION 119 124	актёр
+T26	PROFESSION 149 156	артисту
+T27	DISEASE 179 204	рак лимфатической системы
+T28	PERSON 340 346	Щукина
+T29	ORGANIZATION 293 346	актерский факультет Театрального училища имени Щукина
+T15	WORK_OF_ART 469 481	Чёрный монах
+T30	WORK_OF_ART 541 559	Музыка для декабря
+T31	WORK_OF_ART 563 575	Женская роль
+T32	WORK_OF_ART 579 586	Копейка
+T33	PERSON 601 611	Дыховичный
+T34	WORK_OF_ART 624 630	Прорва
+T35	PROFESSION 722 730	критиков
+T36	PROFESSION 865 872	артиста
+T37	EVENT 856 864	Похороны
+T38	ORGANIZATION 350 368	режиссёрские курсы
+T39	EVENT 0 9	Скончался
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T39	
+R2	WORKS_AS Arg1:T5 Arg2:T25	
+R3	WORKS_AS Arg1:T5 Arg2:T24	
+T40	EVENT 93 97	умер
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T40	
+R5	LOCATED_IN Arg1:T4 Arg2:T3	
+R6	PLACE_OF_DEATH Arg1:T5 Arg2:T4	
+R7	MEDICAL_CONDITION Arg1:T5 Arg2:T27	
+R8	MEDICAL_CONDITION Arg1:T26 Arg2:T27	
+R11	SCHOOLS_ATTENDED Arg1:T10 Arg2:T29	
+R12	KNOWS Arg1:T10 Arg2:T12	
+R13	KNOWS Arg1:T10 Arg2:T13	
+R14	PRODUCES Arg1:T14 Arg2:T15	
+T42	WORK_OF_ART 441 482	экранизации повести Чехова «Чёрный монах»
+R15	SCHOOLS_ATTENDED Arg1:T10 Arg2:T38	
+R16	PRODUCES Arg1:T10 Arg2:T42	
+R17	PRODUCES Arg1:T16 Arg2:T30	
+R18	PRODUCES Arg1:T16 Arg2:T31	
+R19	PRODUCES Arg1:T16 Arg2:T32	
+R20	PRODUCES Arg1:T33 Arg2:T34	
+R21	DATE_OF_CREATION Arg1:T34 Arg2:T17	
+R22	POINT_IN_TIME Arg1:T37 Arg2:T22	
+R23	POINT_IN_TIME Arg1:T40 Arg2:T2	
+R24	DATE_OF_DEATH Arg1:T5 Arg2:T2	
+R25	WORKS_AS Arg1:T5 Arg2:T26	
+R26	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R27	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R28	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+T43	DISEASE 179 182	рак
+T44	PROFESSION 350 362	режиссёрские
+T45	PROFESSION 293 302	актерский
+T46	PROFESSION 672 684	режиссёрском
+R29	ALTERNATIVE_NAME Arg1:T24 Arg2:T44	
+R30	ALTERNATIVE_NAME Arg1:T25 Arg2:T45	
+R31	PART_OF Arg1:T29 Arg2:T11	
+R9	INANIMATE_INVOLVED Arg1:T33 Arg2:T37	
+N1	Reference T3 Wikidata:Q159	Россия
+N2	Reference T4 Wikidata:Q649	Москва
+N3	Reference T11 Wikidata:Q4453555	Театральный институт имени Бориса Щукина
+N4	Reference T12 Wikidata:Q381944	Эльдар Александрович Рязанов
+N5	Reference T13 Wikidata:Q512	Владимир Семёнович Высоцкий
+N7	Reference T16 Wikidata:Q683399	Иван Владимирович Дыховичный
+N8	Reference T20 Wikidata:Q132964	Владимир Владимирович Маяковский
+N9	Reference T21 Wikidata:Q260537	Лиля Юрьевна Брик
+N10	Reference T26 Wikidata:Q483501	деятель искусств
+N13	Reference T15 Wikidata:Q948223	Чёрный монах
+N14	Reference T30 Wikidata:Q4306589	Музыка для декабря
+N17	Reference T34 Wikidata:Q4380903	Прорва
+N18	Reference T35 Wikidata:Q6430706	критик
+N19	Reference T38 Wikidata:Q4129798	Высшие курсы сценаристов и режиссёров
+N12	Reference T29 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:Q5685	Антон Павлович Чехов
+N21	Reference T46 Wikidata:Q3455803	режиссёр
+N16	Reference T32 Wikidata:Q4232269	Копейка
+N15	Reference T31 Wikidata:NULL	нет данных
+N20	Reference T42 Wikidata:Q28054400	Чёрный монах
+N11	Reference T28 Wikidata:Q1974718	
+N22	Reference T10 Wikidata:Q683399	Иван Владимирович Дыховичный
+N23	Reference T1 Wikidata:Q683399	Иван Владимирович Дыховичный
+N24	Reference T33 Wikidata:Q683399	Иван Владимирович Дыховичный
+N25	Reference T7 Wikidata:Q683399	Иван Владимирович Дыховичный
+N26	Reference T5 Wikidata:Q683399	Иван Владимирович Дыховичный
+N27	Reference T45 Wikidata:Q483501	деятель искусств
+N28	Reference T25 Wikidata:Q483501	деятель искусств
+N29	Reference T36 Wikidata:Q483501	деятель искусств
+N30	Reference T44 Wikidata:Q3455803	режиссёр
+N31	Reference T24 Wikidata:Q3455803	режиссёр

@@ -1,0 +1,59 @@
+T1	EVENT 30 71	„Песочные часы“: Рисунки Иосифа Бродского
+T3	PERSON 55 71	Иосифа Бродского
+T4	FACILITY 97 146	Главном здании Российской национальной библиотеки
+T5	EVENT 156 186	Года Иосифа Бродского в России
+T6	EVENT 228 268	Песочные часы»: Рисунки Иосифа Бродского
+T7	PERSON 252 268	Иосифа Бродского
+T9	PERSON 370 379	Бродского
+T10	ORGANIZATION 409 429	Отделе рукописей РНБ
+T11	ORGANIZATION 441 461	Музея Анны Ахматовой
+T12	FACILITY 464 478	Фонтанном доме
+T13	PERSON 552 568	Иосифа Бродского
+T14	PERSON 727 736	Бродского
+T15	LANGUAGE 841 848	русском
+T16	LANGUAGE 850 860	английском
+T17	PROFESSION 796 801	поэта
+T2	PERSON 161 177	Иосифа Бродского
+T18	COUNTRY 180 186	России
+T19	PROFESSION 311 316	поэта
+T20	FACILITY 84 94	зале Корфа
+T21	PERSON 89 94	Корфа
+T22	COUNTRY 112 122	Российской
+T23	ORGANIZATION 112 146	Российской национальной библиотеки
+T24	ORGANIZATION 426 429	РНБ
+T25	PERSON 447 461	Анны Ахматовой
+R1	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R2	OWNER_OF Arg1:T23 Arg2:T4	
+R3	PART_OF Arg1:T20 Arg2:T4	
+R4	WORKS_AS Arg1:T7 Arg2:T19	
+T26	AGE 286 294	70-летию
+R5	AGE_IS Arg1:T7 Arg2:T26	
+R6	SUBEVENT_OF Arg1:T6 Arg2:T5	
+R7	ABBREVIATION Arg1:T23 Arg2:T24	
+R8	PART_OF Arg1:T10 Arg2:T24	
+R9	ALTERNATIVE_NAME Arg1:T2 Arg2:T9	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R11	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R12	TAKES_PLACE_IN Arg1:T5 Arg2:T18	
+R13	WORKS_AS Arg1:T14 Arg2:T17	
+N1	Reference T3 Wikidata:Q862	Иосиф Александрович Бродский
+N4	Reference T11 Wikidata:Q2066165	Музей Анны Ахматовой в Фонтанном доме
+N5	Reference T12 Wikidata:Q11903355	Фонтанный дом
+N6	Reference T15 Wikidata:Q7737	русский язык
+N7	Reference T16 Wikidata:Q1860	английский язык
+N8	Reference T17 Wikidata:Q49757	поэт
+N9	Reference T18 Wikidata:Q159	Россия
+N11	Reference T21 Wikidata:Q329069	Корфы
+N13	Reference T23 Wikidata:Q267566	Российская национальная библиотека
+N14	Reference T25 Wikidata:Q80440	Анна Андреевна Ахматова
+N10	Reference T20 Wikidata:NULL	нет данных
+N12	Reference T22 Wikidata:Q159	Россия
+N2	Reference T4 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N15	Reference T13 Wikidata:Q862	Иосиф Александрович Бродский
+N16	Reference T14 Wikidata:Q862	Иосиф Александрович Бродский
+N17	Reference T7 Wikidata:Q862	Иосиф Александрович Бродский
+N18	Reference T9 Wikidata:Q862	Иосиф Александрович Бродский
+N19	Reference T2 Wikidata:Q862	Иосиф Александрович Бродский
+N20	Reference T19 Wikidata:Q49757	поэт
+N21	Reference T24 Wikidata:Q267566	Российская национальная библиотека

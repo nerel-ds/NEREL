@@ -1,0 +1,85 @@
+T1	CITY 0 11	Дюссельдорф
+T2	PROFESSION 29 38	курфюрста
+T3	COUNTRY 92 100	Германии
+T4	AGE 127 136	350-летие
+T5	PROFESSION 169 178	курфюрста
+T6	PERSON 179 197	Иоганна Вильгельма
+T8	PERSON 248 259	Яна Веллена
+T9	CITY 268 281	дюссельдорфцы
+T10	PERSON 318 327	Ян Веллен
+T11	ORDINAL 412 418	первой
+T12	LOCATION 447 452	Рейне
+T13	NUMBER 632 635	750
+T14	CITY 652 662	мюнхенской
+T15	DATE 683 694	20 сентября
+T16	NUMBER 757 760	150
+T17	PERSON 784 795	Яну Веллену
+T18	DATE 815 836	до 9 января 2009 года
+T19	PERSON 912 932	Петера Пауля Рубенса
+T20	CITY 992 1004	Дюссельдорфе
+T21	CITY 40 51	Дюссельдорф
+T7	DATE 199 203	1658
+T24	PROFESSION 297 302	князя
+T25	PROFESSION 465 473	курфюрст
+T26	FACILITY 663 680	Старой Пинакотеке
+T28	PROFESSION 488 502	коллекционером
+T29	FACILITY 713 732	museum kunst palast
+T30	EVENT 745 753	выставка
+T31	WORK_OF_ART 889 910	Вознесение Девы Марии
+T32	PROFESSION 943 952	художника
+T33	PROFESSION 953 962	курфюрста
+T34	PROFESSION 1033 1042	курфюрста
+T35	DISTRICT 1043 1050	Пфальца
+T36	PROFESSION 1033 1050	курфюрста Пфальца
+R1	LOCATED_IN Arg1:T21 Arg2:T3	
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+R3	DATE_OF_BIRTH Arg1:T6 Arg2:T7	
+T37	DATE 204 208	1716
+R4	DATE_OF_DEATH Arg1:T6 Arg2:T37	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+R6	WORKS_AS Arg1:T6 Arg2:T24	
+T38	CITY 437 452	города на Рейне
+R7	LOCATED_IN Arg1:T26 Arg2:T14	
+R8	START_TIME Arg1:T30 Arg2:T15	
+R9	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+R10	LOCATED_IN Arg1:T29 Arg2:T21	
+R11	PRODUCES Arg1:T19 Arg2:T31	
+R12	WORKS_AS Arg1:T19 Arg2:T32	
+R13	AGE_IS Arg1:T6 Arg2:T4	
+T27	EVENT 12 21	празднует
+T39	EVENT 115 126	праздновать
+R14	PARTICIPANT_IN Arg1:T21 Arg2:T39	
+R15	PARTICIPANT_IN Arg1:T1 Arg2:T27	
+R16	WORKS_AS Arg1:T10 Arg2:T25	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R18	ALTERNATIVE_NAME Arg1:T21 Arg2:T38	
+R19	OWNER_OF Arg1:T17 Arg2:T31	
+R20	WORKPLACE Arg1:T36 Arg2:T35	
+R21	INANIMATE_INVOLVED Arg1:T6 Arg2:T39	
+N1	Reference T3 Wikidata:Q183	Германия
+N2	Reference T5 Wikidata:Q22722	курфюрст
+N3	Reference T12 Wikidata:Q584	Рейн
+N6	Reference T19 Wikidata:Q5599	Питер Пауль Рубенс
+N7	Reference T20 Wikidata:Q1718	Дюссельдорф
+N8	Reference T24 Wikidata:Q273613	князь
+N9	Reference T26 Wikidata:Q154568	Старая пинакотека
+N12	Reference T32 Wikidata:Q1028181	художник
+N13	Reference T35 Wikidata:Q22880	Курпфальц
+N15	Reference T9 Wikidata:Q1718	Дюссельдорф
+N10	Reference T28 Wikidata:Q3243461	
+N4	Reference T14 Wikidata:Q1726	Мюнхен
+N16	Reference T29 Wikidata:Q461277	
+N5	Reference T17 Wikidata:Q64266	
+N11	Reference T31 Wikidata:NULL	нет данных
+N14	Reference T36 Wikidata:Q64266	
+N17	Reference T25 Wikidata:Q22722	курфюрст
+N18	Reference T33 Wikidata:Q22722	курфюрст
+N19	Reference T2 Wikidata:Q22722	курфюрст
+N20	Reference T34 Wikidata:Q22722	курфюрст
+N21	Reference T1 Wikidata:Q1718	Дюссельдорф
+N22	Reference T38 Wikidata:Q1718	Дюссельдорф
+N23	Reference T21 Wikidata:Q1718	Дюссельдорф
+N24	Reference T10 Wikidata:Q64266	
+N25	Reference T8 Wikidata:Q64266	
+N26	Reference T6 Wikidata:Q64266	
+R22	END_TIME Arg1:T30 Arg2:T18	

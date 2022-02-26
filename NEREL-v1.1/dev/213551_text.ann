@@ -1,0 +1,86 @@
+T1	PROFESSION 0 8	Режиссёр
+T2	PERSON 9 24	Георгий Данелия
+T3	PERSON 62 77	Георгий Данелия
+T4	CITY 80 86	Москве
+T5	PROFESSION 104 112	режиссёр
+T6	PERSON 113 128	Георгий Данелия
+T7	PERSON 166 187	Галину Юркову-Данелия
+T8	PROFESSION 233 240	артиста
+T9	AGE 334 344	88-летнего
+T10	PERSON 363 370	Данелия
+T11	PERSON 524 539	Георгий Данелия
+T12	WORK_OF_ART 598 604	Мимино
+T13	WORK_OF_ART 608 613	Афоня
+T14	WORK_OF_ART 617 629	Кин-дза-дза!
+T15	WORK_OF_ART 633 648	Осенний марафон
+T16	WORK_OF_ART 653 670	Я шагаю по Москве
+T17	NUMBER 693 710	почти два десятка
+T18	EVENT 25 41	госпитализирован
+T19	EVENT 87 103	госпитализирован
+T20	AWARD 223 245	Народного артиста СССР
+T21	COUNTRY 241 245	СССР
+T22	PROFESSION 296 301	Врачи
+T23	DISEASE 355 361	одышку
+T24	PROFESSION 384 391	медиков
+T25	PROFESSION 452 467	кинематографист
+T26	DISEASE 477 491	пневмотораксом
+T27	PROFESSION 679 687	режиссёр
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T18	
+T28	DISEASE 44 61	тяжёлом состоянии
+R3	HAS_CAUSE Arg1:T18 Arg2:T28	
+R4	MEDICAL_CONDITION Arg1:T2 Arg2:T28	
+R5	WORKS_AS Arg1:T6 Arg2:T5	
+R6	PARTICIPANT_IN Arg1:T6 Arg2:T19	
+R7	TAKES_PLACE_IN Arg1:T19 Arg2:T4	
+R8	SPOUSE Arg1:T6 Arg2:T7	
+T29	DISEASE 203 220	стабильно тяжёлое
+R9	MEDICAL_CONDITION Arg1:T6 Arg2:T29	
+R10	WORKS_AS Arg1:T6 Arg2:T8	
+R11	AWARDED_WITH Arg1:T6 Arg2:T20	
+R12	ORIGINS_FROM Arg1:T20 Arg2:T21	
+R13	AGE_IS Arg1:T6 Arg2:T9	
+T30	PROFESSION 345 354	режиссёра
+T31	EVENT 246 268	доставили в реанимацию
+R14	PARTICIPANT_IN Arg1:T8 Arg2:T31	
+R15	PARTICIPANT_IN Arg1:T6 Arg2:T31	
+R16	MEDICAL_CONDITION Arg1:T6 Arg2:T23	
+R17	MEDICAL_CONDITION Arg1:T30 Arg2:T23	
+R18	WORKS_AS Arg1:T6 Arg2:T30	
+R19	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+T32	DISEASE 401 424	почувствовал себя плохо
+R20	MEDICAL_CONDITION Arg1:T10 Arg2:T32	
+R21	WORKS_AS Arg1:T10 Arg2:T25	
+R22	MEDICAL_CONDITION Arg1:T25 Arg2:T26	
+R23	MEDICAL_CONDITION Arg1:T10 Arg2:T26	
+R24	WORKS_AS Arg1:T11 Arg2:T27	
+R25	PRODUCES Arg1:T11 Arg2:T12	
+R26	PRODUCES Arg1:T11 Arg2:T13	
+R27	PRODUCES Arg1:T11 Arg2:T14	
+R28	PRODUCES Arg1:T11 Arg2:T15	
+R29	PRODUCES Arg1:T11 Arg2:T16	
+T33	CITY 664 670	Москве
+R30	AGE_IS Arg1:T30 Arg2:T9	
+N1	Reference T4 Wikidata:Q649	Москва
+N2	Reference T5 Wikidata:Q3455803	режиссёр
+N3	Reference T8 Wikidata:Q483501	деятель искусств
+N4	Reference T10 Wikidata:Q380252	Георгий Николаевич Данелия
+N5	Reference T12 Wikidata:Q1519753	Мимино
+N6	Reference T13 Wikidata:Q1959191	Афоня
+N8	Reference T15 Wikidata:Q848825	Осенний марафон
+N9	Reference T16 Wikidata:Q244999	Я шагаю по Москве
+N10	Reference T20 Wikidata:Q403569	народный артист СССР
+N11	Reference T21 Wikidata:Q15180	СССР
+N12	Reference T22 Wikidata:Q39631	врач
+N13	Reference T24 Wikidata:Q39631	врач
+N14	Reference T7 Wikidata:Q27043242	
+N15	Reference T25 Wikidata:Q1414443	
+N7	Reference T14 Wikidata:Q1415194	
+N16	Reference T33 Wikidata:Q649	Москва
+N17	Reference T27 Wikidata:Q3455803	режиссёр
+N18	Reference T1 Wikidata:Q3455803	режиссёр
+N19	Reference T30 Wikidata:Q3455803	режиссёр
+N20	Reference T6 Wikidata:Q380252	Георгий Николаевич Данелия
+N21	Reference T11 Wikidata:Q380252	Георгий Николаевич Данелия
+N22	Reference T3 Wikidata:Q380252	Георгий Николаевич Данелия
+N23	Reference T2 Wikidata:Q380252	Георгий Николаевич Данелия

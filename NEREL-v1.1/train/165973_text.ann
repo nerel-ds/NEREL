@@ -1,0 +1,156 @@
+T1	COUNTRY 2 16	Великобритании
+T3	DATE 242 259	в марте 2018 года
+T4	AGE 262 271	44-летняя
+T5	PERSON 272 285	Дон Стерджесс
+T6	CITY 310 318	Солсбери
+T7	LOCATION 322 332	юге Англии
+T8	DATE 343 374	в воскресенье, 8 июля 2018 года
+T9	DATE 427 434	30 июня
+T10	PERSON 465 479	Чарльзом Роули
+T11	PROFESSION 525 540	Премьер-министр
+T12	PERSON 556 566	Тереза Мэй
+T13	PERSON 634 643	Стерджесс
+T14	PERSON 670 679	Стерджесс
+T15	PERSON 682 687	Роули
+T16	DATE 748 755	в марте
+T18	PERSON 793 808	Сергей Скрипаль
+T19	PERSON 820 824	Юлия
+T20	COUNTRY 852 860	Британия
+T21	PERSON 901 909	Скрипаля
+T22	COUNTRY 913 919	Россию
+T23	CITY 921 927	Москва
+T24	PERSON 980 989	Стерджесс
+T25	PERSON 992 997	Роули
+T26	PROFESSION 1071 1093	Министр внутренних дел
+T27	PERSON 1109 1122	Саджид Джавид
+T28	CITY 1149 1157	Солсбери
+T29	EVENT 33 44	отравленная
+T30	PRODUCT 45 53	Новичком
+T31	CITY 73 81	Солсбери
+T32	COUNTRY 82 92	Британская
+T33	ORGANIZATION 82 100	Британская полиция
+T34	ORGANIZATION 93 100	полиция
+T35	CRIME 119 127	убийстве
+T36	EVENT 144 158	умерла женщина
+T37	COUNTRY 225 235	российский
+T38	PROFESSION 236 241	шпион
+T39	PROFESSION 225 241	российский шпион
+T40	EVENT 286 296	скончалась
+T41	COUNTRY 326 332	Англии
+T42	ORGANIZATION 390 397	полиции
+T43	EVENT 409 426	госпитализирована
+T44	PROFESSION 525 555	Премьер-министр Великобритании
+T47	COUNTRY 541 555	Великобритании
+T48	EVENT 627 633	смерти
+T49	ORGANIZATION 646 653	Полиция
+T50	EVENT 693 702	отравлены
+T51	PRODUCT 704 712	Новичком
+T52	EVENT 760 768	отравлен
+T53	PROFESSION 776 792	российский шпион
+T54	PROFESSION 787 792	шпион
+T55	COUNTRY 776 786	российский
+T56	EVENT 890 900	отравление
+T57	ORGANIZATION 954 961	Полиция
+T58	PROFESSION 1071 1108	Министр внутренних дел Великобритании
+T59	PROFESSION 1071 1078	Министр
+T60	COUNTRY 1094 1108	Великобритании
+R1	WORKPLACE Arg1:T44 Arg2:T47	
+R2	WORKS_AS Arg1:T12 Arg2:T44	
+R3	WORKPLACE Arg1:T12 Arg2:T47	
+R4	PARTICIPANT_IN Arg1:T15 Arg2:T50	
+R5	PARTICIPANT_IN Arg1:T14 Arg2:T50	
+R6	WORKPLACE Arg1:T53 Arg2:T55	
+R7	WORKS_AS Arg1:T18 Arg2:T53	
+R8	WORKPLACE Arg1:T18 Arg2:T55	
+R9	PARENT_OF Arg1:T18 Arg2:T19	
+R10	PARTICIPANT_IN Arg1:T21 Arg2:T56	
+R11	LOCATED_IN Arg1:T23 Arg2:T22	
+R12	WORKPLACE Arg1:T58 Arg2:T60	
+R13	WORKPLACE Arg1:T27 Arg2:T60	
+R14	WORKS_AS Arg1:T27 Arg2:T58	
+R15	POINT_IN_TIME Arg1:T52 Arg2:T16	
+R16	PARTICIPANT_IN Arg1:T18 Arg2:T52	
+R17	PARTICIPANT_IN Arg1:T19 Arg2:T52	
+R18	PARTICIPANT_IN Arg1:T13 Arg2:T48	
+R19	HEADQUARTERED_IN Arg1:T33 Arg2:T32	
+R20	WORKPLACE Arg1:T39 Arg2:T37	
+R21	AGE_IS Arg1:T5 Arg2:T4	
+R22	PARTICIPANT_IN Arg1:T5 Arg2:T40	
+R23	LOCATED_IN Arg1:T7 Arg2:T41	
+R24	LOCATED_IN Arg1:T6 Arg2:T41	
+R25	TAKES_PLACE_IN Arg1:T40 Arg2:T6	
+R26	POINT_IN_TIME Arg1:T40 Arg2:T8	
+R27	PARTICIPANT_IN Arg1:T5 Arg2:T43	
+R28	POINT_IN_TIME Arg1:T43 Arg2:T9	
+T17	DISEASE 501 522	критическом состоянии
+R29	MEDICAL_CONDITION Arg1:T10 Arg2:T17	
+R30	PARTICIPANT_IN Arg1:T10 Arg2:T43	
+R31	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+R32	TAKES_PLACE_IN Arg1:T29 Arg2:T1	
+T45	EVENT 101 115	возбудила дело
+R33	AGENT Arg1:T33 Arg2:T45	
+T46	EVENT 17 31	умерла женщина
+T61	EVENT 160 171	отравленная
+R34	PARTICIPANT_IN Arg1:T5 Arg2:T61	
+R35	POINT_IN_TIME Arg1:T61 Arg2:T3	
+R36	HAS_CAUSE Arg1:T36 Arg2:T61	
+R37	PARTICIPANT_IN Arg1:T5 Arg2:T36	
+R38	HAS_CAUSE Arg1:T35 Arg2:T36	
+R39	HAS_CAUSE Arg1:T45 Arg2:T36	
+R41	ALTERNATIVE_NAME Arg1:T36 Arg2:T40	
+R42	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R43	TAKES_PLACE_IN Arg1:T46 Arg2:T1	
+R44	INANIMATE_INVOLVED Arg1:T30 Arg2:T29	
+R45	HAS_CAUSE Arg1:T46 Arg2:T29	
+R40	ALTERNATIVE_NAME Arg1:T46 Arg2:T36	
+R46	ALTERNATIVE_NAME Arg1:T29 Arg2:T61	
+R47	ALTERNATIVE_NAME Arg1:T1 Arg2:T32	
+R48	ALTERNATIVE_NAME Arg1:T40 Arg2:T48	
+R49	INANIMATE_INVOLVED Arg1:T51 Arg2:T50	
+R50	INANIMATE_INVOLVED Arg1:T51 Arg2:T52	
+R51	ALTERNATIVE_NAME Arg1:T47 Arg2:T20	
+R52	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+T2	EVENT 998 1019	подняли ампулу с ядом
+R53	AGENT Arg1:T25 Arg2:T2	
+R54	AGENT Arg1:T24 Arg2:T2	
+N2	Reference T6 Wikidata:Q160642	Солсбери
+N4	Reference T11 Wikidata:Q14212	премьер-министр
+N5	Reference T12 Wikidata:Q264766	Тереза Мэй
+N6	Reference T18 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N8	Reference T21 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N9	Reference T22 Wikidata:Q159	Россия
+N10	Reference T23 Wikidata:Q649	Москва
+N12	Reference T27 Wikidata:Q727798	Саджид Джавид
+N13	Reference T30 Wikidata:Q826629	Новичок
+N14	Reference T32 Wikidata:Q145	Великобритания
+N16	Reference T41 Wikidata:Q21	Англия
+N17	Reference T42 Wikidata:Q35535	полиция
+N18	Reference T44 Wikidata:Q14211	премьер-министр Великобритании
+N19	Reference T47 Wikidata:Q145	Великобритания
+N23	Reference T58 Wikidata:Q2484309	министр внутренних дел Великобритании
+N24	Reference T59 Wikidata:Q83307	министр
+N15	Reference T33 Wikidata:Q1527859	
+N1	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:NULL	нет данных
+N21	Reference T54 Wikidata:Q9352089	
+N22	Reference T55 Wikidata:Q159	Россия
+N20	Reference T53 Wikidata:NULL	нет данных
+N7	Reference T19 Wikidata:Q50559234	
+N11	Reference T25 Wikidata:NULL	нет данных
+N25	Reference T28 Wikidata:Q160642	Солсбери
+N26	Reference T31 Wikidata:Q160642	Солсбери
+N27	Reference T51 Wikidata:Q826629	Новичок
+N28	Reference T1 Wikidata:Q145	Великобритания
+N29	Reference T34 Wikidata:Q35535	полиция
+N30	Reference T57 Wikidata:Q35535	полиция
+N31	Reference T49 Wikidata:Q35535	полиция
+N32	Reference T60 Wikidata:Q145	Великобритания
+N33	Reference T20 Wikidata:Q145	Великобритания
+N34	Reference T13 Wikidata:NULL	нет данных
+N35	Reference T14 Wikidata:NULL	нет данных
+N36	Reference T24 Wikidata:NULL	нет данных
+N37	Reference T38 Wikidata:Q9352089	
+N38	Reference T37 Wikidata:Q159	Россия
+N39	Reference T39 Wikidata:NULL	нет данных
+N40	Reference T10 Wikidata:NULL	нет данных
+N41	Reference T15 Wikidata:NULL	нет данных

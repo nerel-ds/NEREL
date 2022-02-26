@@ -1,0 +1,114 @@
+T1	COUNTRY 19 30	Афганистане
+T2	NUMBER 44 46	10
+T3	COUNTRY 69 80	Афганистана
+T4	DATE 82 90	2011 год
+T5	COUNTRY 124 133	афганской
+T6	STATE_OR_PROVINCE 144 150	Пактия
+T7	DATE 161 180	2 декабря 2018 года
+T8	ORGANIZATION 196 203	Reuters
+T9	ORGANIZATION 272 276	Tolo
+T10	ORGANIZATION 279 286	Pajhwok
+T11	COUNTRY 339 348	афганских
+T12	NUMBER 371 377	десять
+T13	ORGANIZATION 438 445	Reuters
+T14	PERSON 490 505	Шауста Ян Ахади
+T15	PERSON 507 524	Shausta Jan Ahady
+T17	DATE 622 635	в воскресенье
+T18	PROFESSION 638 675	Представитель правительства провинции
+T19	PERSON 676 689	Абдулла Хсрат
+T20	PERSON 691 705	Abdullah Hsrat
+T21	NUMBER 750 756	четыре
+T22	ORGANIZATION 895 903	Талибана
+T23	ORGANIZATION 957 961	Tolo
+T24	ORGANIZATION 964 971	Pajhwok
+T25	NUMBER 983 990	десятки
+T26	DISTRICT 1006 1012	Зурмат
+T27	AGE 1092 1101	50-летний
+T28	NUMBER 1121 1125	двое
+T29	TIME 1149 1170	в ночь на воскресенье
+T31	PERSON 1207 1223	Абдул Вали Сахми
+T32	PERSON 1225 1241	Abdul Wali Sahmi
+T33	EVENT 116 121	убиты
+T34	EVENT 239 246	погибли
+T35	EVENT 393 398	убиты
+T36	PROFESSION 534 561	член провинциального совета
+T38	ORGANIZATION 652 675	правительства провинции
+T39	ORGANIZATION 652 665	правительства
+T40	PROFESSION 638 665	Представитель правительства
+T41	EVENT 742 749	погибли
+T42	EVENT 732 741	авиаудара
+T43	EVENT 253 262	авиаудара
+T44	EVENT 405 414	авиаудара
+T45	PROFESSION 757 764	боевика
+T46	PROFESSION 1035 1046	губернатора
+T47	EVENT 1143 1148	убиты
+T48	DATE 1159 1170	воскресенье
+T49	PROFESSION 1173 1206	Заместитель губернатора провинции
+T50	PROFESSION 1185 1206	губернатора провинции
+T51	PROFESSION 1185 1196	губернатора
+T52	EVENT 1254 1260	гибель
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R2	LOCATED_IN Arg1:T6 Arg2:T5	
+R3	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R4	TAKES_PLACE_IN Arg1:T43 Arg2:T6	
+R5	SUBORDINATE_OF Arg1:T49 Arg2:T50	
+R6	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+T16	EVENT 1254 1275	гибель мирных жителей
+R7	WORKS_AS Arg1:T31 Arg2:T49	
+R8	TAKES_PLACE_IN Arg1:T16 Arg2:T26	
+R9	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R10	WORKPLACE Arg1:T18 Arg2:T38	
+R11	WORKPLACE Arg1:T19 Arg2:T38	
+T30	EVENT 742 764	погибли четыре боевика
+R12	SUBEVENT_OF Arg1:T30 Arg2:T42	
+T53	EVENT 371 398	десять мирных жителей убиты
+R13	SUBEVENT_OF Arg1:T53 Arg2:T44	
+R14	WORKS_AS Arg1:T14 Arg2:T36	
+T37	EVENT 101 121	мирных жителей убиты
+R15	TAKES_PLACE_IN Arg1:T37 Arg2:T6	
+T54	EVENT 31 61	унесла жизни 10 мирных жителей
+R16	ALTERNATIVE_NAME Arg1:T54 Arg2:T37	
+R17	ALTERNATIVE_NAME Arg1:T37 Arg2:T34	
+R18	SUBEVENT_OF Arg1:T34 Arg2:T43	
+R19	ALTERNATIVE_NAME Arg1:T34 Arg2:T53	
+R20	ALTERNATIVE_NAME Arg1:T53 Arg2:T16	
+R21	TAKES_PLACE_IN Arg1:T54 Arg2:T1	
+R22	WORKPLACE Arg1:T36 Arg2:T6	
+R23	WORKPLACE Arg1:T14 Arg2:T6	
+T55	EVENT 1013 1027	принесли трупы
+R24	TAKES_PLACE_IN Arg1:T55 Arg2:T26	
+R25	PARTICIPANT_IN Arg1:T46 Arg2:T55	
+N2	Reference T6 Wikidata:Q182493	Пактия
+N3	Reference T13 Wikidata:Q130879	Рейтер
+N6	Reference T19 Wikidata:Q317556	Абдулла Абдулла
+N7	Reference T22 Wikidata:Q42418	Талибан
+N8	Reference T31 Wikidata:Q234063	Митисигэ, Саюми
+N9	Reference T39 Wikidata:Q7188	правительство
+N12	Reference T46 Wikidata:Q132050	губернатор
+N1	Reference T5 Wikidata:Q889	Афганистан
+N14	Reference T9 Wikidata:Q1505036	
+N4	Reference T15 Wikidata:NULL	нет данных
+N15	Reference T50 Wikidata:NULL	нет данных
+N16	Reference T36 Wikidata:NULL	нет данных
+N17	Reference T38 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N18	Reference T1 Wikidata:NULL	нет данных
+N19	Reference T24 Wikidata:Q3082692	
+N20	Reference T26 Wikidata:Q2277263	
+N13	Reference T49 Wikidata:NULL	нет данных
+N21	Reference T2 Wikidata:NULL	нет данных
+N11	Reference T45 Wikidata:NULL	нет данных
+N22	Reference T8 Wikidata:Q130879	Рейтер
+N23	Reference T20 Wikidata:Q317556	Абдулла Абдулла
+N24	Reference T32 Wikidata:Q234063	Митисигэ, Саюми
+N25	Reference T51 Wikidata:Q132050	губернатор
+N26	Reference T11 Wikidata:Q889	Афганистан
+N27	Reference T1 Wikidata:Q889	Афганистан
+N28	Reference T3 Wikidata:Q889	Афганистан
+N29	Reference T23 Wikidata:Q1505036	
+N30	Reference T14 Wikidata:NULL	нет данных
+N31	Reference T11 Wikidata:NULL	нет данных
+N32	Reference T5 Wikidata:NULL	нет данных
+N33	Reference T3 Wikidata:NULL	нет данных
+N34	Reference T10 Wikidata:Q3082692	

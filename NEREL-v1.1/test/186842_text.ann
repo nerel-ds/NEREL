@@ -1,0 +1,88 @@
+T1	NATIONALITY 0 9	Китайская
+T2	MONEY 33 41	$129 млн
+T3	PROFESSION 62 69	Актриса
+T4	PERSON 70 81	Фань Бинбин
+T5	DATE 83 91	2013 год
+T6	PERSON 110 121	Фань Бинбин
+T7	MONEY 153 169	129 млн долларов
+T8	MONEY 177 190	884 млн юаней
+T9	DATE 224 243	3 октября 2018 года
+T10	AGE 285 294	37-летняя
+T11	WORK_OF_ART 343 375	Люди Икс: Дни минувшего будущего
+T13	PRODUCT 520 525	Weibo
+T14	ORGANIZATION 717 746	Коммунистической партии Китая
+T15	ORGANIZATION 883 889	Forbes
+T16	DATE 901 915	2003—2016 годы
+T17	MONEY 935 949	1,4 млрд юаней
+T18	PROFESSION 10 17	актриса
+T19	PENALTY 27 32	штраф
+T20	PENALTY 27 41	штраф $129 млн
+T21	CRIME 45 61	неуплату налогов
+T22	NATIONALITY 92 101	Китайская
+T23	PROFESSION 102 109	актриса
+T24	PENALTY 137 142	штраф
+T25	PENALTY 137 169	штраф в размере 129 млн долларов
+T26	CRIME 195 222	уклонение от уплаты налогов
+T27	PROFESSION 295 302	актриса
+T28	ORGANIZATION 322 334	голливудском
+T12	NUMBER 403 413	более трёх
+T30	PROFESSION 485 492	актриса
+T31	CRIME 630 657	уклонении от уплаты налогов
+T32	PENALTY 682 687	штраф
+T33	PROFESSION 690 697	Актриса
+T34	ORGANIZATION 717 740	Коммунистической партии
+T35	IDEOLOGY 717 733	Коммунистической
+T36	COUNTRY 741 746	Китая
+T38	PENALTY 823 829	штрафа
+T39	PENALTY 851 871	уголовного наказания
+T40	PROFESSION 916 923	актриса
+R1	HEADQUARTERED_IN Arg1:T14 Arg2:T36	
+R2	IDEOLOGY_OF Arg1:T34 Arg2:T35	
+R3	IDEOLOGY_OF Arg1:T14 Arg2:T35	
+R4	ORIGINS_FROM Arg1:T18 Arg2:T1	
+R5	CONVICTED_OF Arg1:T18 Arg2:T21	
+R6	PENALIZED_AS Arg1:T18 Arg2:T20	
+R7	HAS_CAUSE Arg1:T20 Arg2:T21	
+R8	WORKS_AS Arg1:T4 Arg2:T3	
+R9	PENALIZED_AS Arg1:T4 Arg2:T20	
+R10	CONVICTED_OF Arg1:T4 Arg2:T21	
+R11	WORKS_AS Arg1:T6 Arg2:T23	
+R12	ORIGINS_FROM Arg1:T6 Arg2:T22	
+R13	ORIGINS_FROM Arg1:T23 Arg2:T22	
+R14	ALTERNATIVE_NAME Arg1:T20 Arg2:T25	
+R15	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R16	HAS_CAUSE Arg1:T25 Arg2:T26	
+R17	CONVICTED_OF Arg1:T6 Arg2:T26	
+R18	ALTERNATIVE_NAME Arg1:T21 Arg2:T26	
+R19	AGE_IS Arg1:T6 Arg2:T10	
+R20	AGE_IS Arg1:T27 Arg2:T10	
+R21	PARTICIPANT_IN Arg1:T27 Arg2:T11	
+R22	PARTICIPANT_IN Arg1:T6 Arg2:T11	
+R23	PRODUCES Arg1:T28 Arg2:T11	
+R24	CONVICTED_OF Arg1:T30 Arg2:T31	
+R25	PENALIZED_AS Arg1:T30 Arg2:T32	
+R26	HAS_CAUSE Arg1:T32 Arg2:T31	
+R27	INCOME Arg1:T40 Arg2:T17	
+R28	PENALIZED_AS Arg1:T33 Arg2:T38	
+R29	ORIGINS_FROM Arg1:T33 Arg2:T36	
+R30	WORKS_AS Arg1:T6 Arg2:T33	
+R31	INCOME Arg1:T6 Arg2:T17	
+R32	IDEOLOGY_OF Arg1:T33 Arg2:T35	
+N1	Reference T6 Wikidata:Q381074	Фань Бинбин
+N2	Reference T11 Wikidata:Q4985891	Люди Икс: Дни минувшего будущего
+N3	Reference T13 Wikidata:Q92526	Sina Weibo
+N4	Reference T14 Wikidata:Q17427	Коммунистическая партия Китая
+N5	Reference T15 Wikidata:Q25161472	Форбс
+N6	Reference T28 Wikidata:Q380675	кинематограф США
+N7	Reference T34 Wikidata:Q233591	коммунистическая партия
+N8	Reference T36 Wikidata:Q148	Китайская Народная Республика
+N9	Reference T40 Wikidata:Q33999	актёр
+N10	Reference T22 Wikidata:Q6501380	китайцы
+N11	Reference T4 Wikidata:Q381074	Фань Бинбин
+N12	Reference T27 Wikidata:Q33999	актёр
+N13	Reference T23 Wikidata:Q33999	актёр
+N14	Reference T33 Wikidata:Q33999	актёр
+N15	Reference T3 Wikidata:Q33999	актёр
+N16	Reference T18 Wikidata:Q33999	актёр
+N17	Reference T30 Wikidata:Q33999	актёр
+N18	Reference T1 Wikidata:Q6501380	китайцы

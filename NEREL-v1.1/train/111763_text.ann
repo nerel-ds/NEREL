@@ -1,0 +1,230 @@
+T2	EVENT 5 28	Каннского кинофестиваля
+T3	DATE 29 35	в 2017
+T4	PERSON 46 62	Педро Альмодовар
+T5	PERSON 64 80	Педро Альмодовар
+T6	NATIONALITY 81 90	Испанский
+T7	PROFESSION 91 99	режиссёр
+T8	PROFESSION 101 113	кинопродюсер
+T9	PROFESSION 115 124	сценарист
+T10	PROFESSION 127 135	писатель
+T11	PERSON 136 152	Педро Альмодовар
+T12	DATE 160 171	в 2017 году
+T13	PROFESSION 172 210	председателем жюри Каннского фестиваля
+T14	EVENT 191 210	Каннского фестиваля
+T15	AGE 213 222	67-летний
+T16	NATIONALITY 253 261	испанцем
+T17	AGE 376 384	70-летие
+T18	EVENT 385 404	Каннского фестиваля
+T20	PROFESSION 516 534	председателем жюри
+T21	PERSON 743 759	Педро Альмодовар
+T22	DATE 768 789	25 сентября 1949 года
+T23	CITY 801 822	Касальда-де-Калатрава
+T24	STATE_OR_PROVINCE 834 846	Сьюдад Реаль
+T25	COUNTRY 848 865	Кастилия-Ла-Манча
+T26	DATE 893 904	В 1967 году
+T27	PERSON 905 915	Альмодовар
+T28	CITY 944 951	Мадриде
+T30	ORGANIZATION 1094 1104	Telefonica
+T31	WORK_OF_ART 1186 1196	Сон разума
+T32	ORGANIZATION 1211 1218	El Pais
+T33	ORGANIZATION 1224 1234	'Diario 16
+T34	ORGANIZATION 1283 1296	Los Goliardos
+T35	DATE 1019 1031	До 1974 года
+T36	DATE 1373 1384	В 1980 году
+T37	ORDINAL 1395 1401	первый
+T38	WORK_OF_ART 1424 1459	Пепи, Люси, Бом и остальные девушки
+T39	NUMBER 1476 1480	двух
+T40	AWARD 1489 1494	Оскар
+T41	NUMBER 1497 1501	двух
+T42	EVENT 1509 1518	фестиваля
+T43	CITY 1521 1526	Канне
+T44	NUMBER 1536 1540	двух
+T45	AWARD 1542 1558	Золотых глобусов
+T46	PERSON 1561 1571	Альмодовар
+T47	WORK_OF_ART 1610 1627	Всё о моей матери
+T48	DATE 1632 1636	1999
+T49	WORK_OF_ART 1640 1654	Поговори с ней
+T50	DATE 1659 1663	2002
+T51	WORK_OF_ART 1667 1678	Возвращение
+T52	DATE 1683 1687	2006
+T53	WORK_OF_ART 1691 1710	Разомкнутые объятия
+T54	DATE 1715 1719	2009
+T55	EVENT 1739 1757	Каннский фестиваль
+T56	DATE 1820 1828	ежегодно
+T57	CITY 1838 1843	Канне
+T58	LOCATION 1847 1858	юге Франции
+T59	COUNTRY 1851 1858	Франции
+T61	DATE 1873 1893	в конце 1930-х годов
+T62	NATIONALITY 1908 1920	французского
+T63	PROFESSION 1921 1962	министра по делам образования и искусства
+T64	PERSON 1963 1971	Жана Зея
+T65	EVENT 1989 2016	Венецианскому кинофестивалю
+T66	EVENT 2032 2057	69-й — Каннский фестиваль
+T67	EVENT 2039 2057	Каннский фестиваль
+T68	DATE 2067 2091	с 11 по 22 мая 2016 года
+T69	NATIONALITY 2115 2128	австралийский
+T70	PROFESSION 2129 2137	режиссёр
+T71	PERSON 2138 2151	Джордж Миллер
+T72	EVENT 2154 2181	70-й Каннский кинофестиваль
+T73	DATE 2190 2209	17–28 мая 2017 года
+R3	ORIGINS_FROM Arg1:T11 Arg2:T6
+R4	WORKS_AS Arg1:T11 Arg2:T7
+R10	TAKES_PLACE_IN Arg1:T42 Arg2:T43
+R12	PRODUCES Arg1:T46 Arg2:T53
+R13	ORIGINS_FROM Arg1:T64 Arg2:T62
+R14	WORKS_AS Arg1:T64 Arg2:T63
+R16	POINT_IN_TIME Arg1:T66 Arg2:T68
+R17	POINT_IN_TIME Arg1:T67 Arg2:T68
+R18	ORIGINS_FROM Arg1:T71 Arg2:T69
+R19	WORKS_AS Arg1:T71 Arg2:T70
+R20	POINT_IN_TIME Arg1:T72 Arg2:T73
+R2	WORKS_AS Arg1:T11 Arg2:T10	
+R5	WORKS_AS Arg1:T11 Arg2:T9	
+R7	WORKS_AS Arg1:T11 Arg2:T8	
+T29	PROFESSION 223 238	кинематографист
+R1	DATE_OF_BIRTH Arg1:T21 Arg2:T22	
+R6	PLACE_OF_BIRTH Arg1:T21 Arg2:T23	
+R8	PLACE_OF_BIRTH Arg1:T21 Arg2:T24	
+R9	PLACE_OF_BIRTH Arg1:T21 Arg2:T25	
+T1	PROFESSION 966 976	официантом
+T19	PROFESSION 978 995	разносчиком пиццы
+T74	PROFESSION 997 1017	сборщиком макулатуры
+R11	PARTICIPANT_IN Arg1:T4 Arg2:T2	
+R21	POINT_IN_TIME Arg1:T2 Arg2:T3	
+R22	WORKS_AS Arg1:T11 Arg2:T13	
+R23	POINT_IN_TIME Arg1:T14 Arg2:T12	
+R24	PARTICIPANT_IN Arg1:T11 Arg2:T14	
+R25	ORIGINS_FROM Arg1:T29 Arg2:T16	
+R26	AGE_IS Arg1:T29 Arg2:T15	
+R27	AGE_IS Arg1:T18 Arg2:T17	
+R28	LOCATED_IN Arg1:T23 Arg2:T24	
+R29	LOCATED_IN Arg1:T24 Arg2:T25	
+R30	WORKS_AS Arg1:T27 Arg2:T1	
+R31	PLACE_RESIDES_IN Arg1:T27 Arg2:T28	
+R32	WORKS_AS Arg1:T27 Arg2:T19	
+R33	WORKS_AS Arg1:T27 Arg2:T74	
+R34	WORKPLACE Arg1:T27 Arg2:T30	
+R35	PRODUCES Arg1:T27 Arg2:T31	
+R36	WORKPLACE Arg1:T27 Arg2:T34	
+R37	PRODUCES Arg1:T27 Arg2:T38	
+R38	PRODUCES Arg1:T46 Arg2:T47	
+R39	AWARDED_WITH Arg1:T46 Arg2:T45	
+R40	AWARDED_WITH Arg1:T46 Arg2:T40	
+R41	PRODUCES Arg1:T46 Arg2:T51	
+R42	PRODUCES Arg1:T46 Arg2:T49	
+R43	TAKES_PLACE_IN Arg1:T55 Arg2:T57	
+R44	LOCATED_IN Arg1:T57 Arg2:T58	
+R45	DATE_FOUNDED_IN Arg1:T55 Arg2:T61	
+R15	PARTICIPANT_IN Arg1:T71 Arg2:T66	
+T60	ORDINAL 2032 2036	69-й
+T75	NUMBER 2154 2158	70-й
+T76	CITY 5 14	Каннского
+T77	CITY 191 200	Каннского
+T78	AWARD 1502 1526	наград фестиваля в Канне
+R46	AWARDED_WITH Arg1:T46 Arg2:T78	
+R47	DATE_OF_CREATION Arg1:T47 Arg2:T48	
+R48	DATE_OF_CREATION Arg1:T49 Arg2:T50	
+R49	DATE_OF_CREATION Arg1:T51 Arg2:T52	
+R50	DATE_OF_CREATION Arg1:T53 Arg2:T54	
+R51	FOUNDED_BY Arg1:T55 Arg2:T64	
+T79	PROFESSION 1921 1929	министра
+R52	TAKES_PLACE_IN Arg1:T2 Arg2:T76	
+R53	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R54	ORIGINS_FROM Arg1:T8 Arg2:T6	
+R55	ORIGINS_FROM Arg1:T9 Arg2:T6	
+R56	ORIGINS_FROM Arg1:T10 Arg2:T6	
+T80	PROFESSION 172 190	председателем жюри
+R57	WORKPLACE Arg1:T13 Arg2:T14	
+R58	TAKES_PLACE_IN Arg1:T14 Arg2:T77	
+T81	CITY 385 394	Каннского
+R59	TAKES_PLACE_IN Arg1:T18 Arg2:T81	
+T82	PERSON 1424 1428	Пепи
+T83	PERSON 1430 1434	Люси
+T84	PERSON 1436 1439	Бом
+R60	DATE_OF_CREATION Arg1:T38 Arg2:T36	
+T85	CITY 1739 1747	Каннский
+R61	TAKES_PLACE_IN Arg1:T55 Arg2:T85	
+R62	ALTERNATIVE_NAME Arg1:T85 Arg2:T57	
+R63	LOCATED_IN Arg1:T58 Arg2:T59	
+R64	ORIGINS_FROM Arg1:T79 Arg2:T62	
+T86	CITY 1989 2002	Венецианскому
+R65	TAKES_PLACE_IN Arg1:T65 Arg2:T86	
+T87	CITY 2039 2047	Каннский
+R66	TAKES_PLACE_IN Arg1:T67 Arg2:T87	
+T88	DATE 2067 2071	с 11
+T89	DATE 2072 2091	по 22 мая 2016 года
+R67	START_TIME Arg1:T66 Arg2:T88	
+R68	END_TIME Arg1:T66 Arg2:T89	
+R69	ORIGINS_FROM Arg1:T70 Arg2:T69	
+T90	EVENT 2159 2181	Каннский кинофестиваль
+T91	CITY 2159 2167	Каннский
+R70	TAKES_PLACE_IN Arg1:T90 Arg2:T91	
+R71	TAKES_PLACE_IN Arg1:T72 Arg2:T91	
+T92	DATE 2193 2209	28 мая 2017 года
+T93	DATE 2190 2192	17
+R72	START_TIME Arg1:T72 Arg2:T93	
+R73	END_TIME Arg1:T72 Arg2:T92	
+R74	ALTERNATIVE_NAME Arg1:T21 Arg2:T27	
+R75	ALTERNATIVE_NAME Arg1:T6 Arg2:T16	
+R76	ALTERNATIVE_NAME Arg1:T2 Arg2:T14	
+N1	Reference T7 Wikidata:Q3455803	режиссёр
+N2	Reference T8 Wikidata:Q3282637	кинопродюсер
+N3	Reference T9 Wikidata:Q28389	сценарист
+N4	Reference T10 Wikidata:Q36180	писатель
+N5	Reference T16 Wikidata:Q160894	испанцы
+N7	Reference T24 Wikidata:Q15093	Сьюдад-Реаль
+N8	Reference T25 Wikidata:Q5748	Кастилия — Ла-Манча
+N9	Reference T27 Wikidata:Q55171	Педро Альмодовар
+N10	Reference T28 Wikidata:Q2807	Мадрид
+N11	Reference T30 Wikidata:Q160229	Telefónica
+N13	Reference T33 Wikidata:Q506978	Diario 16
+N14	Reference T38 Wikidata:Q53669	Пепи, Люси, Бом и остальные девушки
+N16	Reference T45 Wikidata:Q1011547	Золотой глобус
+N17	Reference T47 Wikidata:Q329805	Всё о моей матери
+N18	Reference T49 Wikidata:Q478780	Поговори с ней
+N20	Reference T53 Wikidata:Q192022	Разомкнутые объятия
+N21	Reference T59 Wikidata:Q142	Франция
+N26	Reference T1 Wikidata:Q157195	официант
+N31	Reference T79 Wikidata:Q83307	министр
+N29	Reference T76 Wikidata:Q39984	Канны
+N37	Reference T20 Wikidata:NULL	нет данных
+N38	Reference T29 Wikidata:Q1414443	
+N6	Reference T23 Wikidata:Q921414	
+N28	Reference T74 Wikidata:NULL	нет данных
+N27	Reference T19 Wikidata:NULL	нет данных
+N36	Reference T13 Wikidata:Q23958341	
+N39	Reference T32 Wikidata:Q50009	
+N40	Reference T34 Wikidata:Q3259736	
+N12	Reference T31 Wikidata:NULL	нет данных
+N32	Reference T82 Wikidata:NULL	нет данных
+N33	Reference T83 Wikidata:NULL	нет данных
+N34	Reference T84 Wikidata:NULL	нет данных
+N15	Reference T40 Wikidata:Q19020	Оскар
+N19	Reference T51 Wikidata:Q209667	Возвращение
+N22	Reference T62 Wikidata:Q121842	французы
+N35	Reference T86 Wikidata:Q641	
+N24	Reference T69 Wikidata:Q1318423	
+N25	Reference T71 Wikidata:Q446960	Джордж Миллер
+N30	Reference T78 Wikidata:NULL	нет данных
+N23	Reference T64 Wikidata:Q713487	
+N41	Reference T63 Wikidata:Q356016	
+N42	Reference T58 Wikidata:NULL	нет данных
+N43	Reference T70 Wikidata:Q3455803	режиссёр
+N44	Reference T6 Wikidata:Q160894	испанцы
+N45	Reference T46 Wikidata:Q55171	Педро Альмодовар
+N46	Reference T4 Wikidata:Q55171	Педро Альмодовар
+N47	Reference T5 Wikidata:Q55171	Педро Альмодовар
+N48	Reference T21 Wikidata:Q55171	Педро Альмодовар
+N49	Reference T11 Wikidata:Q55171	Педро Альмодовар
+N50	Reference T81 Wikidata:Q39984	Канны
+N51	Reference T77 Wikidata:Q39984	Канны
+N52	Reference T85 Wikidata:Q39984	Канны
+N53	Reference T57 Wikidata:Q39984	Канны
+N54	Reference T87 Wikidata:Q39984	Канны
+N55	Reference T43 Wikidata:Q39984	Канны
+N56	Reference T91 Wikidata:Q39984	Канны
+N57	Reference T80 Wikidata:NULL	нет данных
+T94	EVENT 760 767	родился
+R77	PARTICIPANT_IN Arg1:T21 Arg2:T94	
+R78	POINT_IN_TIME Arg1:T94 Arg2:T22	
+R79	TAKES_PLACE_IN Arg1:T94 Arg2:T23	

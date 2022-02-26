@@ -1,0 +1,255 @@
+T1	PERSON 0 12	Жанна Фриске
+T2	PERSON 20 36	Дмитрию Шепелеву
+T3	PERSON 42 49	Платона
+T4	CITY 52 58	Майами
+T5	PERSON 59 71	Жанна Фриске
+T6	DATE 72 85	7 апреля 2013
+T7	CITY 103 109	Майами
+T8	AGE 110 119	38-летняя
+T9	NATIONALITY 120 130	российская
+T10	PROFESSION 140 147	актриса
+T11	PERSON 148 160	Жанна Фриске
+T12	AGE 201 210	30-летний
+T13	PROFESSION 211 231	теле- и радиоведущий
+T14	PERSON 232 247	Дмитрий Шепелев
+T15	PERSON 314 326	Жанны Фриске
+T16	DATE 356 372	Сегодня 7 апреля
+T17	PERSON 432 447	Дмитрий Шепелев
+T18	PERSON 457 463	Платон
+T19	TIME 489 493	днем
+T20	CITY 520 526	Майами
+T21	NUMBER 559 577	почти 4 килограмма
+T22	PERSON 723 729	Жанной
+T23	CITY 732 738	Майами
+T24	PERSON 762 777	Дмитрий Шепелев
+T25	CITY 822 828	Майами
+T26	COUNTRY 894 906	американское
+T27	COUNTRY 930 940	российское
+T28	ORGANIZATION 1067 1076	Блестящие
+T29	PERSON 1078 1090	Ольга Орлова
+T30	PROFESSION 1197 1208	Телеведущая
+T31	PERSON 1209 1222	Анфиса Чехова
+T32	PERSON 1252 1264	Жанна Фриске
+T33	PERSON 1308 1313	Жанну
+T34	PERSON 1392 1403	Карина Кокс
+T35	PERSON 1453 1465	Жанне Фриске
+T36	PERSON 1485 1492	Платону
+T37	PERSON 1593 1600	Дмитрий
+T41	COUNTRY 1696 1699	США
+T42	CITY 1746 1752	Майами
+T43	CITY 1907 1913	Майами
+T44	DATE 1914 1932	в начале 2013 года
+T45	DATE 1934 1954	Несколько дней назад
+T46	PERSON 1967 1982	Дмитрий Шепелев
+T47	COUNTRY 1993 1996	США
+T48	CITY 2038 2044	Майами
+T49	COUNTRY 2065 2068	США
+T50	PERSON 2127 2141	Наталья Фриске
+T51	CITY 2195 2201	Москву
+T52	DATE 2238 2255	августе 2013 года
+T53	PERSON 2258 2283	Жанна Владимировна Фриске
+T54	NATIONALITY 2286 2296	российская
+T55	ORGANIZATION 2365 2374	Блестящие
+T56	DATE 2377 2386	1996—2003
+T57	DATE 2389 2400	В 2003 году
+T58	DATE 2425 2436	В 2005 году
+T59	WORK_OF_ART 2463 2468	Жанна
+T60	PERSON 2472 2477	Жанна
+T61	WORK_OF_ART 2499 2511	Ночной дозор
+T62	WORK_OF_ART 2516 2529	Дневной дозор
+T63	WORK_OF_ART 2551 2572	О чём говорят мужчины
+T64	WORK_OF_ART 2660 2675	Последний герой
+T65	DATE 2680 2695	2011—2012 годах
+T66	WORK_OF_ART 2726 2744	Каникулы в Мексике
+T67	EVENT 13 19	родила
+T68	PROFESSION 131 137	певица
+T69	EVENT 161 176	родила первенца
+T71	PROFESSION 290 296	певицы
+T72	PROFESSION 307 313	певицы
+T73	EVENT 381 388	родился
+T75	EVENT 472 488	появился на свет
+T76	PERSON 578 583	Жанна
+T77	EVENT 637 641	Роды
+T78	PROFESSION 795 801	певицы
+T79	PROFESSION 860 866	певицы
+T80	PROFESSION 1036 1042	певицы
+T81	PERSON 1113 1125	Фриске Жанна
+T82	EVENT 1126 1137	родила сына
+T83	PRODUCT 1234 1242	Твиттере
+T84	EVENT 1273 1284	сына родила
+T85	PROFESSION 1385 1391	Певица
+T86	PERSON 1585 1590	Жанна
+T38	DISTRICT 1635 1643	Саут-Бич
+T39	EVENT 1670 1675	родов
+T40	EVENT 1688 1693	родах
+T87	PERSON 1700 1712	Жанна Фриске
+T88	PROFESSION 1955 1966	телеведущий
+T89	EVENT 2008 2013	родов
+T90	PROFESSION 2014 2025	телеведущий
+T91	PROFESSION 2055 2062	певицей
+T93	PERSON 2202 2207	Жанна
+T94	PROFESSION 2297 2313	эстрадная певица
+T95	PROFESSION 2315 2326	телеведущая
+T96	PROFESSION 2328 2339	киноактриса
+R1	AGENT Arg1:T1 Arg2:T67	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T67	
+R3	PARTICIPANT_IN Arg1:T3 Arg2:T67	
+R4	TAKES_PLACE_IN Arg1:T67 Arg2:T4	
+R5	PLACE_OF_BIRTH Arg1:T3 Arg2:T4	
+R6	SPOUSE Arg1:T1 Arg2:T2	
+R7	PARENT_OF Arg1:T2 Arg2:T3	
+R8	PARENT_OF Arg1:T1 Arg2:T3	
+R9	AGE_IS Arg1:T11 Arg2:T8	
+R10	POINT_IN_TIME Arg1:T69 Arg2:T6	
+R11	TAKES_PLACE_IN Arg1:T69 Arg2:T7	
+R12	PARTICIPANT_IN Arg1:T11 Arg2:T69	
+R13	DATE_OF_BIRTH Arg1:T3 Arg2:T6	
+R14	WORKS_AS Arg1:T11 Arg2:T10	
+R15	WORKS_AS Arg1:T11 Arg2:T68	
+R16	ORIGINS_FROM Arg1:T11 Arg2:T9	
+R17	WORKS_AS Arg1:T14 Arg2:T13	
+R18	AGE_IS Arg1:T14 Arg2:T12	
+R19	WORKS_AS Arg1:T15 Arg2:T72	
+R20	PARTICIPANT_IN Arg1:T15 Arg2:T73	
+R21	POINT_IN_TIME Arg1:T73 Arg2:T16	
+R22	ALTERNATIVE_NAME Arg1:T6 Arg2:T16	
+R23	PARTICIPANT_IN Arg1:T18 Arg2:T73	
+R24	PARTICIPANT_IN Arg1:T17 Arg2:T73	
+R25	SPOUSE Arg1:T15 Arg2:T17	
+R26	DATE_OF_BIRTH Arg1:T18 Arg2:T16	
+R27	PARENT_OF Arg1:T15 Arg2:T18	
+R28	PARENT_OF Arg1:T17 Arg2:T18	
+R29	ALTERNATIVE_NAME Arg1:T73 Arg2:T75	
+R30	TAKES_PLACE_IN Arg1:T75 Arg2:T20	
+R31	PLACE_OF_BIRTH Arg1:T18 Arg2:T20	
+R32	ALTERNATIVE_NAME Arg1:T15 Arg2:T76	
+R33	ALTERNATIVE_NAME Arg1:T75 Arg2:T77	
+R34	LOCATED_IN Arg1:T22 Arg2:T23	
+R35	LOCATED_IN Arg1:T24 Arg2:T23	
+R36	WORKS_AS Arg1:T22 Arg2:T78	
+R37	LOCATED_IN Arg1:T25 Arg2:T26	
+R38	KNOWS Arg1:T22 Arg2:T29	
+R39	MEMBER_OF Arg1:T29 Arg2:T28	
+R40	MEMBER_OF Arg1:T22 Arg2:T28	
+R41	AGENT Arg1:T81 Arg2:T82	
+R42	WORKS_AS Arg1:T31 Arg2:T30	
+R43	AGENT Arg1:T32 Arg2:T84	
+R44	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+R45	WORKS_AS Arg1:T34 Arg2:T85	
+R46	PARENT_OF Arg1:T35 Arg2:T36	
+R47	LOCATED_IN Arg1:T38 Arg2:T42	
+R48	ALTERNATIVE_NAME Arg1:T26 Arg2:T41	
+R49	TAKES_PLACE_IN Arg1:T40 Arg2:T41	
+R50	PARTICIPANT_IN Arg1:T87 Arg2:T40	
+R51	LOCATED_IN Arg1:T37 Arg2:T38	
+R52	LOCATED_IN Arg1:T86 Arg2:T38	
+R53	WORKS_AS Arg1:T46 Arg2:T88	
+R54	LOCATED_IN Arg1:T43 Arg2:T47	
+R55	LOCATED_IN Arg1:T90 Arg2:T48	
+T70	DATE 2069 2085	последние месяцы
+R56	SIBLING Arg1:T87 Arg2:T50	
+R57	ALTERNATIVE_NAME Arg1:T93 Arg2:T53	
+R58	ORIGINS_FROM Arg1:T53 Arg2:T54	
+R59	WORKS_AS Arg1:T53 Arg2:T94	
+R60	WORKS_AS Arg1:T53 Arg2:T95	
+R61	WORKS_AS Arg1:T53 Arg2:T96	
+T74	PROFESSION 2348 2374	солистка группы «Блестящие
+T92	PROFESSION 2348 2356	солистка
+R62	WORKS_AS Arg1:T53 Arg2:T74	
+R63	WORKPLACE Arg1:T53 Arg2:T55	
+R64	PRODUCES Arg1:T53 Arg2:T59	
+R65	PARTICIPANT_IN Arg1:T60 Arg2:T61	
+R66	PARTICIPANT_IN Arg1:T60 Arg2:T62	
+R67	PARTICIPANT_IN Arg1:T60 Arg2:T63	
+R68	PARTICIPANT_IN Arg1:T60 Arg2:T64	
+T97	PROFESSION 2705 2712	ведущей
+T98	PROFESSION 2705 2744	ведущей реалити-шоу «Каникулы в Мексике
+R69	WORKS_AS Arg1:T60 Arg2:T98	
+R70	PARTICIPANT_IN Arg1:T60 Arg2:T66	
+R71	PARTICIPANT_IN Arg1:T98 Arg2:T66	
+R72	PARTICIPANT_IN Arg1:T14 Arg2:T69	
+R73	POINT_IN_TIME Arg1:T75 Arg2:T19	
+R74	WORKPLACE Arg1:T80 Arg2:T28	
+R75	PARTICIPANT_IN Arg1:T37 Arg2:T39	
+R76	PARTICIPANT_IN Arg1:T86 Arg2:T39	
+R77	LOCATED_IN Arg1:T42 Arg2:T41	
+R78	PARTICIPANT_IN Arg1:T90 Arg2:T89	
+T99	PROFESSION 2307 2313	певица
+R79	WORKPLACE Arg1:T74 Arg2:T55	
+T100	COUNTRY 2737 2744	Мексике
+N1	Reference T2 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N3	Reference T10 Wikidata:Q33999	актёр
+N7	Reference T29 Wikidata:Q1048435	Ольга Орлова
+N8	Reference T30 Wikidata:Q947873	телеведущий
+N9	Reference T31 Wikidata:Q136847	Анфиса Чехова
+N11	Reference T35 Wikidata:Q241382	Жанна Владимировна Фриске
+N12	Reference T46 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N13	Reference T47 Wikidata:Q30	США
+N14	Reference T48 Wikidata:Q8652	Майами
+N16	Reference T51 Wikidata:Q649	Москва
+N17	Reference T53 Wikidata:Q241382	Жанна Владимировна Фриске
+N18	Reference T55 Wikidata:Q742400	Блестящие
+N19	Reference T59 Wikidata:Q4178113	Жанна (альбом)
+N20	Reference T61 Wikidata:Q1045388	Ночной Дозор
+N21	Reference T62 Wikidata:Q529053	Дневной Дозор
+N22	Reference T63 Wikidata:Q4328871	О чём говорят мужчины
+N23	Reference T64 Wikidata:Q16959909	Последний герой
+N26	Reference T81 Wikidata:Q241382	Жанна Владимировна Фриске
+N27	Reference T83 Wikidata:Q918	Твиттер
+N28	Reference T85 Wikidata:Q177220	певец
+N30	Reference T94 Wikidata:Q177220	певец
+N32	Reference T92 Wikidata:Q1371914	солист
+N34	Reference T98 Wikidata:Q96	Мексика
+N35	Reference T100 Wikidata:Q96	Мексика
+N2	Reference T9 Wikidata:Q492468	россияне
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q100319797	
+N25	Reference T76 Wikidata:Q241382	Жанна Владимировна Фриске
+N6	Reference T27 Wikidata:Q159	Россия
+N10	Reference T34 Wikidata:NULL	нет данных
+N36	Reference T37 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N24	Reference T66 Wikidata:NULL	нет данных
+N33	Reference T97 Wikidata:Q947873	телеведущий
+N31	Reference T74 Wikidata:NULL	нет данных
+N37	Reference T96 Wikidata:Q10800557	
+N15	Reference T50 Wikidata:NULL	нет данных
+N29	Reference T38 Wikidata:Q186106	
+N38	Reference T95 Wikidata:Q947873	телеведущий
+N39	Reference T88 Wikidata:Q947873	телеведущий
+N40	Reference T90 Wikidata:Q947873	телеведущий
+N41	Reference T5 Wikidata:Q241382	Жанна Владимировна Фриске
+N42	Reference T87 Wikidata:Q241382	Жанна Владимировна Фриске
+N43	Reference T32 Wikidata:Q241382	Жанна Владимировна Фриске
+N44	Reference T33 Wikidata:Q241382	Жанна Владимировна Фриске
+N45	Reference T11 Wikidata:Q241382	Жанна Владимировна Фриске
+N46	Reference T1 Wikidata:Q241382	Жанна Владимировна Фриске
+N47	Reference T17 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N48	Reference T24 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N49	Reference T14 Wikidata:Q4522923	Дмитрий Андреевич Шепелев
+N50	Reference T41 Wikidata:Q30	США
+N51	Reference T49 Wikidata:Q30	США
+N52	Reference T26 Wikidata:Q30	США
+N53	Reference T20 Wikidata:Q8652	Майами
+N54	Reference T23 Wikidata:Q8652	Майами
+N55	Reference T25 Wikidata:Q8652	Майами
+N56	Reference T4 Wikidata:Q8652	Майами
+N57	Reference T7 Wikidata:Q8652	Майами
+N58	Reference T42 Wikidata:Q8652	Майами
+N59	Reference T43 Wikidata:Q8652	Майами
+N60	Reference T22 Wikidata:Q241382	Жанна Владимировна Фриске
+N61	Reference T60 Wikidata:Q241382	Жанна Владимировна Фриске
+N62	Reference T93 Wikidata:Q241382	Жанна Владимировна Фриске
+N63	Reference T86 Wikidata:Q241382	Жанна Владимировна Фриске
+N64	Reference T28 Wikidata:Q742400	Блестящие
+N65	Reference T99 Wikidata:Q177220	певец
+N66	Reference T80 Wikidata:Q177220	певец
+N67	Reference T72 Wikidata:Q177220	певец
+N68	Reference T79 Wikidata:Q177220	певец
+N69	Reference T78 Wikidata:Q177220	певец
+N70	Reference T91 Wikidata:Q177220	певец
+N71	Reference T71 Wikidata:Q177220	певец
+N72	Reference T68 Wikidata:Q177220	певец
+N73	Reference T54 Wikidata:Q492468	россияне
+N74	Reference T36 Wikidata:Q100319797	
+N75	Reference T3 Wikidata:Q100319797	
+N76	Reference T15 Wikidata:Q241382	Жанна Владимировна Фриске

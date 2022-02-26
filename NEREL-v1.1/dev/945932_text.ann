@@ -1,0 +1,46 @@
+T1	CITY 8 17	Чернобыле
+T2	CITY 30 43	Чернобыльская
+T4	ORGANIZATION 65 146	общественного совета при государственном агентстве по управлению зоной отчуждения
+T5	ORGANIZATION 90 146	государственном агентстве по управлению зоной отчуждения
+T7	PERSON 147 166	Ярослав Емельяненко
+T8	PERSON 361 368	Ярослав
+T9	CITY 398 405	Припяти
+T10	NUMBER 420 435	двух километрах
+T11	FACILITY 450 459	Подлесный
+T12	FACILITY 490 507	Чернобыльской АЭС
+T13	DATE 579 592	больше недели
+T14	FACILITY 644 647	АЭС
+T15	LOCATION 663 672	Рыжий лес
+T16	AGE 742 751	27-летний
+T17	STATE_OR_PROVINCE 773 789	Киевской области
+T18	NUMBER 829 833	трёх
+T19	PERSON 969 977	Ярослава
+T6	PROFESSION 949 957	пожарных
+T21	EVENT 0 5	Пожар
+T22	EVENT 185 190	пожар
+T23	EVENT 721 728	поджога
+T24	EVENT 733 741	задержан
+R1	TAKES_PLACE_IN Arg1:T21 Arg2:T1	
+R2	MEMBER_OF Arg1:T7 Arg2:T4	
+R3	ABBREVIATION Arg1:T1 Arg2:T2	
+R4	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+T3	CITY 490 503	Чернобыльской
+R5	LOCATED_IN Arg1:T12 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T12 Arg2:T14	
+R7	OWNER_OF Arg1:T5 Arg2:T4	
+R8	HAS_CAUSE Arg1:T24 Arg2:T23	
+N3	Reference T9 Wikidata:Q170456	Припять
+N5	Reference T12 Wikidata:Q215419	Чернобыльская АЭС
+N6	Reference T15 Wikidata:Q4401729	Рыж
+N7	Reference T17 Wikidata:Q170036	Киевская область
+N9	Reference T6 Wikidata:Q107711	пожарный
+N1	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:NULL	нет данных
+N10	Reference T3 Wikidata:Q129677	
+N4	Reference T11 Wikidata:NULL	нет данных
+N11	Reference T14 Wikidata:Q215419	Чернобыльская АЭС
+N12	Reference T8 Wikidata:NULL	нет данных
+N13	Reference T7 Wikidata:NULL	нет данных
+N14	Reference T2 Wikidata:Q129677	
+N15	Reference T1 Wikidata:Q129677	

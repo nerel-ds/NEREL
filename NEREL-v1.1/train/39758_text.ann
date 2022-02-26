@@ -1,0 +1,44 @@
+T1	COUNTRY 2 5	КНР
+T2	PRODUCT 48 54	iPhone
+T3	AGE 56 65	23-летнюю
+T4	COUNTRY 77 82	Китая
+T5	DISTRICT 86 124	Синьцзян-Уйгурского автономного района
+T6	PERSON 125 135	Ма Ай Лунь
+T7	NATIONALITY 149 157	Китаянка
+T8	PRODUCT 210 216	iPhone
+T9	NATIONALITY 428 436	китаянки
+T10	ORGANIZATION 491 496	Apple
+T11	EVENT 14 25	убило током
+T12	EVENT 136 147	убило током
+T13	EVENT 158 165	погибла
+T14	ORGANIZATION 264 271	полиция
+T15	EVENT 289 295	гибель
+T16	ORGANIZATION 369 394	правоохранительные органы
+T17	EVENT 421 427	гибели
+R1	TAKES_PLACE_IN Arg1:T11 Arg2:T1	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R3	LOCATED_IN Arg1:T5 Arg2:T4	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T12	
+R5	AGE_IS Arg1:T6 Arg2:T3	
+R6	ORIGINS_FROM Arg1:T7 Arg2:T4	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T13	
+R8	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R9	ALTERNATIVE_NAME Arg1:T13 Arg2:T15	
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T17	
+R11	PRODUCES Arg1:T10 Arg2:T8	
+R12	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R13	INANIMATE_INVOLVED Arg1:T2 Arg2:T11	
+R14	PLACE_RESIDES_IN Arg1:T6 Arg2:T5	
+R15	INANIMATE_INVOLVED Arg1:T8 Arg2:T13	
+R16	HEADQUARTERED_IN Arg1:T14 Arg2:T5	
+N1	Reference T4 Wikidata:Q148	Китайская Народная Республика
+N2	Reference T5 Wikidata:Q34800	Синьцзян-Уйгурский автономный район
+N5	Reference T8 Wikidata:Q2766	iPhone
+N6	Reference T10 Wikidata:Q312	Apple
+N7	Reference T16 Wikidata:Q732717	правоохранительные органы
+N3	Reference T6 Wikidata:NULL	нет данных
+N4	Reference T7 Wikidata:Q6501380	китайцы
+N8	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N9	Reference T2 Wikidata:Q2766	iPhone
+N10	Reference T14 Wikidata:Q732717	правоохранительные органы
+N11	Reference T9 Wikidata:Q6501380	китайцы

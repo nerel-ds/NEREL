@@ -1,0 +1,132 @@
+T1	PERSON 0 9	Морриконе
+T2	PERSON 41 50	Тарантино
+T3	ORGANIZATION 52 67	Playboy Germany
+T4	PERSON 98 115	Квентин Тарантино
+T6	ORGANIZATION 147 162	Playboy Germany
+T7	PROFESSION 174 185	композитора
+T8	PERSON 186 201	Эннио Морриконе
+T9	PROFESSION 234 243	режиссере
+T10	PERSON 244 262	Квентине Тарантино
+T11	AGE 265 274	90-летний
+T12	PERSON 305 314	Тарантино
+T13	DATE 458 483	в течение нескольких дней
+T14	PERSON 723 735	Джон Хьюстон
+T15	PERSON 737 751	Альфред Хичкок
+T16	PERSON 756 769	Билли Уайлдер
+T17	PERSON 788 797	Тарантино
+T18	AWARD 921 926	Оскар
+T19	DATE 938 960	Меньше чем через сутки
+T20	DATE 1087 1097	Этим утром
+T21	PERSON 1107 1125	Джузеппе Торнаторе
+T22	PERSON 1206 1224	Квентино Тарантино
+T23	PERSON 1304 1313	Морриконе
+T24	ORGANIZATION 1397 1412	Playboy Germany
+T25	PERSON 1488 1497	Тарантино
+T26	DATE 1550 1557	30 июня
+T27	CITY 1560 1564	Риме
+T28	COUNTRY 1640 1648	немецкой
+T29	ORGANIZATION 1669 1684	Semmel Concerts
+T30	PERSON 1735 1749	Марсель Андерс
+T31	PROFESSION 1751 1772	музыкальный журналист
+T32	ORGANIZATION 1840 1856	Deutschelandfunk
+T33	WORK_OF_ART 1910 1933	Омерзительная восьмерка
+T34	DATE 1937 1948	В 2007 году
+T35	PERSON 1987 2002	Эннио Морриконе
+T36	NUMBER 2022 2035	более чем 400
+T37	LOCATION 2051 2062	европейских
+T38	DATE 116 127	На выходных
+T5	PROFESSION 275 285	композитор
+T39	PROFESSION 559 568	режиссёра
+T40	PROFESSION 973 983	композитор
+T41	PROFESSION 1245 1255	режиссеров
+T42	PROFESSION 1436 1446	композитор
+T43	PROFESSION 1763 1772	журналист
+T44	PROFESSION 1863 1880	деятели искусства
+T45	PROFESSION 1949 1959	композитор
+T47	ORGANIZATION 701 710	Голливуда
+T48	PERSON 856 865	Морриконе
+T49	NATIONALITY 961 972	итальянский
+T51	EVENT 1531 1539	интервью
+T52	PROFESSION 1626 1684	представители немецкой концертной компании Semmel Concerts
+T53	AWARD 1978 1983	Оскар
+T54	COUNTRY 2036 2048	американских
+R1	WORKS_AS Arg1:T8 Arg2:T7	
+T46	COUNTRY 60 67	Germany
+R2	HEADQUARTERED_IN Arg1:T3 Arg2:T46	
+T55	COUNTRY 155 162	Germany
+R3	HEADQUARTERED_IN Arg1:T6 Arg2:T55	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+R5	AGE_IS Arg1:T5 Arg2:T11	
+R6	AGE_IS Arg1:T8 Arg2:T11	
+R7	ALTERNATIVE_NAME Arg1:T10 Arg2:T12	
+R8	WORKS_AS Arg1:T12 Arg2:T39	
+R9	ORIGINS_FROM Arg1:T40 Arg2:T49	
+R10	WORKS_AS Arg1:T48 Arg2:T40	
+R11	KNOWS Arg1:T48 Arg2:T21	
+R12	KNOWS Arg1:T21 Arg2:T48	
+R13	WORKS_AS Arg1:T22 Arg2:T41	
+R14	KNOWS Arg1:T22 Arg2:T23	
+R15	KNOWS Arg1:T23 Arg2:T22	
+T56	COUNTRY 1405 1412	Germany
+R16	HEADQUARTERED_IN Arg1:T24 Arg2:T56	
+T50	PROFESSION 1385 1412	Руководство Playboy Germany
+R17	WORKPLACE Arg1:T50 Arg2:T24	
+R18	WORKS_AS Arg1:T23 Arg2:T42	
+R19	PARTICIPANT_IN Arg1:T23 Arg2:T51	
+R20	ORGANIZES Arg1:T24 Arg2:T51	
+R21	POINT_IN_TIME Arg1:T51 Arg2:T26	
+R22	TAKES_PLACE_IN Arg1:T51 Arg2:T27	
+R23	WORKS_AS Arg1:T30 Arg2:T31	
+R24	AWARDED_WITH Arg1:T45 Arg2:T53	
+R25	WORKS_AS Arg1:T23 Arg2:T45	
+R26	AWARDED_WITH Arg1:T23 Arg2:T53	
+R27	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R28	WORKS_AS Arg1:T10 Arg2:T9	
+R29	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+N1	Reference T10 Wikidata:Q3772	Квентин Тарантино
+N2	Reference T14 Wikidata:Q51575	Хьюстон, Джон
+N3	Reference T15 Wikidata:Q7374	Альфред Хичкок
+N4	Reference T16 Wikidata:Q51547	Уайлдер, Билли
+N5	Reference T18 Wikidata:Q19020	Оскар
+N6	Reference T21 Wikidata:Q53045	Джузеппе Торнаторе
+N7	Reference T22 Wikidata:Q3772	Квентин Тарантино
+N9	Reference T27 Wikidata:Q220	Рим
+N13	Reference T32 Wikidata:Q695328	Deutschlandfunk
+N14	Reference T33 Wikidata:Q18225084	Омерзительная восьмёрка
+N15	Reference T35 Wikidata:Q23848	Эннио Морриконе
+N17	Reference T39 Wikidata:Q3455803	режиссёр
+N18	Reference T43 Wikidata:Q1930187	журналист
+N19	Reference T44 Wikidata:Q483501	деятель искусств
+N20	Reference T45 Wikidata:Q36834	композитор
+N26	Reference T55 Wikidata:Q183	Германия
+N21	Reference T47 Wikidata:Q34006	Голливуд
+N27	Reference T48 Wikidata:Q23848	Эннио Морриконе
+N22	Reference T49 Wikidata:Q50001	итальянцы
+N24	Reference T54 Wikidata:Q30	США
+N16	Reference T37 Wikidata:Q46	Европа
+N12	Reference T30 Wikidata:NULL	нет данных
+N28	Reference T31 Wikidata:Q20669622	
+N10	Reference T28 Wikidata:Q183	Германия
+N11	Reference T29 Wikidata:Q22997804	
+N23	Reference T52 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:NULL	нет данных
+N25	Reference T50 Wikidata:NULL	нет данных
+N29	Reference T12 Wikidata:Q3772	Квентин Тарантино
+N30	Reference T17 Wikidata:Q3772	Квентин Тарантино
+N31	Reference T25 Wikidata:Q3772	Квентин Тарантино
+N32	Reference T4 Wikidata:Q3772	Квентин Тарантино
+N33	Reference T2 Wikidata:Q3772	Квентин Тарантино
+N34	Reference T53 Wikidata:Q19020	Оскар
+N35	Reference T8 Wikidata:Q23848	Эннио Морриконе
+N36	Reference T41 Wikidata:Q3455803	режиссёр
+N37	Reference T9 Wikidata:Q3455803	режиссёр
+N38	Reference T40 Wikidata:Q36834	композитор
+N39	Reference T5 Wikidata:Q36834	композитор
+N40	Reference T7 Wikidata:Q36834	композитор
+N41	Reference T42 Wikidata:Q36834	композитор
+N42	Reference T46 Wikidata:Q183	Германия
+N43	Reference T56 Wikidata:Q183	Германия
+N44	Reference T1 Wikidata:Q23848	Эннио Морриконе
+N45	Reference T23 Wikidata:Q23848	Эннио Морриконе
+N46	Reference T6 Wikidata:NULL	нет данных
+N47	Reference T3 Wikidata:NULL	нет данных

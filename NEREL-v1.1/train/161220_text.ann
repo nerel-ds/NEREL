@@ -1,0 +1,117 @@
+T1	PERSON 0 13	Сергей Шнуров
+T2	PERSON 23 36	Сергей Шнуров
+T4	ORGANIZATION 51 60	Ленинград
+T5	PERSON 72 85	Сергей Шнуров
+T6	PRODUCT 104 114	Инстаграме
+T7	PROFESSION 156 167	бизнес-леди
+T8	PERSON 179 194	Еленой Мозговой
+T9	PERSON 309 318	Матильдой
+T10	PERSON 452 460	Матильда
+T11	PERSON 480 487	Сергеем
+T12	PROFESSION 606 621	Пресс-секретарь
+T13	ORGANIZATION 630 639	Ленинград
+T14	PERSON 641 657	Дмитрий Гугучкин
+T15	ORGANIZATION 669 672	НСН
+T16	PERSON 693 707	Сергея Шнурова
+T17	PERSON 930 936	Шнуров
+T18	PERSON 952 961	Матильдой
+T19	DATE 962 973	в 2006 году
+T20	AGE 1028 1030	30
+T21	AGE 1037 1039	20
+T22	DATE 1057 1075	спустя четыре года
+T23	DATE 1077 1099	в конце июля 2010 года
+T24	ORDINAL 1109 1115	третья
+T25	PERSON 1157 1164	Шнурова
+T26	PERSON 1175 1183	Серафима
+T27	ORDINAL 1197 1204	первого
+T28	PERSON 1213 1231	Марией Исмагиловой
+T29	PERSON 1238 1245	Аполлон
+T30	ORDINAL 1261 1268	второго
+T31	PERSON 1271 1291	Светланой Костицыной
+T32	DATE 1294 1307	Несколько лет
+T33	PROFESSION 1338 1346	актрисой
+T34	PERSON 1347 1365	Оксаной Акиньшиной
+T35	AGE 1407 1413	15 лет
+T36	EVENT 14 22	развёлся
+T37	PROFESSION 37 60	Лидер группы «Ленинград
+T38	PROFESSION 63 71	музыкант
+T39	PROFESSION 142 153	танцовщицей
+T40	PERSON 168 177	Матильдой
+T41	PROFESSION 514 519	певец
+T42	PROFESSION 606 639	Пресс-секретарь группы «Ленинград
+T43	EVENT 686 692	развод
+T44	EVENT 1041 1048	Свадьбу
+T46	DATE 1188 1192	1993
+T47	DATE 1250 1254	2000
+T48	PERSON 1308 1314	Шнуров
+R1	AGENT Arg1:T1 Arg2:T36	
+R2	WORKS_AS Arg1:T5 Arg2:T38	
+R3	WORKS_AS Arg1:T5 Arg2:T37	
+R4	WORKPLACE Arg1:T5 Arg2:T4	
+T3	EVENT 123 130	разводе
+R5	ALTERNATIVE_NAME Arg1:T36 Arg2:T3	
+R6	AGENT Arg1:T5 Arg2:T3	
+R7	ALTERNATIVE_NAME Arg1:T40 Arg2:T8	
+R8	WORKS_AS Arg1:T40 Arg2:T7	
+R9	WORKS_AS Arg1:T40 Arg2:T39	
+R10	AGENT Arg1:T40 Arg2:T3	
+T45	DATE 94 101	сегодня
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R12	WORKS_AS Arg1:T11 Arg2:T41	
+R13	WORKPLACE Arg1:T42 Arg2:T13	
+R14	WORKS_AS Arg1:T14 Arg2:T42	
+R15	WORKPLACE Arg1:T14 Arg2:T13	
+R16	AGENT Arg1:T16 Arg2:T43	
+R17	AGE_IS Arg1:T17 Arg2:T20	
+R18	AGE_IS Arg1:T18 Arg2:T21	
+R19	POINT_IN_TIME Arg1:T44 Arg2:T22	
+R20	POINT_IN_TIME Arg1:T44 Arg2:T23	
+R21	AGENT Arg1:T17 Arg2:T44	
+R22	AGENT Arg1:T18 Arg2:T44	
+R23	SPOUSE Arg1:T5 Arg2:T40	
+R24	DATE_OF_DEATH Arg1:T26 Arg2:T46	
+R25	ALTERNATIVE_NAME Arg1:T11 Arg2:T17	
+R26	PARENT_OF Arg1:T25 Arg2:T26	
+R27	SPOUSE Arg1:T25 Arg2:T28	
+R28	PARENT_OF Arg1:T25 Arg2:T29	
+R29	DATE_OF_BIRTH Arg1:T29 Arg2:T47	
+R30	PARENT_OF Arg1:T31 Arg2:T29	
+R31	PARENT_OF Arg1:T28 Arg2:T26	
+R32	SPOUSE Arg1:T25 Arg2:T31	
+R33	SPOUSE Arg1:T48 Arg2:T34	
+R34	WORKS_AS Arg1:T34 Arg2:T33	
+R35	AGE_IS Arg1:T34 Arg2:T35	
+R36	WORKPLACE Arg1:T37 Arg2:T4	
+R37	KNOWS Arg1:T17 Arg2:T18	
+N1	Reference T6 Wikidata:Q209330	Instagram
+N4	Reference T13 Wikidata:Q909810	Ленинград
+N5	Reference T16 Wikidata:Q921496	Сергей Владимирович Шнуров
+N11	Reference T33 Wikidata:Q33999	актёр
+N12	Reference T34 Wikidata:Q235008	Оксана Акиньшина
+N14	Reference T38 Wikidata:Q639669	музыкант
+N15	Reference T39 Wikidata:Q5716684	танцовщик
+N16	Reference T41 Wikidata:Q177220	певец
+N18	Reference T48 Wikidata:Q921496	Сергей Владимирович Шнуров
+N13	Reference T37 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:Q1388151	
+N17	Reference T42 Wikidata:NULL	нет данных
+N20	Reference T14 Wikidata:NULL	нет данных
+N21	Reference T15 Wikidata:Q4310762	
+N6	Reference T25 Wikidata:Q921496	Сергей Владимирович Шнуров
+N7	Reference T26 Wikidata:NULL	нет данных
+N8	Reference T28 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:NULL	нет данных
+N10	Reference T31 Wikidata:NULL	
+N22	Reference T4 Wikidata:Q909810	Ленинград
+N23	Reference T5 Wikidata:Q921496	Сергей Владимирович Шнуров
+N24	Reference T17 Wikidata:Q921496	Сергей Владимирович Шнуров
+N25	Reference T11 Wikidata:Q921496	Сергей Владимирович Шнуров
+N26	Reference T2 Wikidata:Q921496	Сергей Владимирович Шнуров
+N27	Reference T1 Wikidata:Q921496	Сергей Владимирович Шнуров
+N28	Reference T40 Wikidata:NULL	нет данных
+N29	Reference T8 Wikidata:NULL	нет данных
+N30	Reference T9 Wikidata:NULL	нет данных
+N31	Reference T18 Wikidata:NULL	нет данных
+R38	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	

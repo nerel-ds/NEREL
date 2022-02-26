@@ -1,0 +1,109 @@
+T2	ORGANIZATION 144 156	пресс-служба
+T3	PROFESSION 157 166	президент
+T4	COUNTRY 167 173	России
+T5	PERSON 175 191	Дмитрий Медведев
+T6	ORGANIZATION 519 522	РБК
+T7	PERSON 580 597	Дмитрию Медведеву
+T8	LAW 612 630	статье 205.1 УК РФ
+T9	DATE 766 780	от 8 до 20 лет
+T10	LAW 1316 1331	ст. 205.1 УК РФ
+T11	DATE 1378 1392	от 5 до 10 лет
+T12	MONEY 1414 1432	до 500 тыс. рублей
+T13	DATE 1459 1472	от 4 до 8 лет
+T14	DATE 1634 1648	от 8 до 15 лет
+T15	MONEY 1670 1697	от 500 тыс. до 1 млн рублей
+T16	DATE 1719 1727	до 5 лет
+T17	MONEY 1739 1757	до 500 тыс. рублей
+T18	NUMBER 1891 1903	не менее 3/4
+T19	ORGANIZATION 1980 1988	Госдумой
+T20	DATE 1989 2008	26 ноября 2010 года
+T21	ORGANIZATION 2019 2036	Советом Федерации
+T22	DATE 2037 2056	1 декабря 2010 года
+T23	PROFESSION 157 173	президент России
+T24	COUNTRY 628 630	РФ
+T25	LAW 625 627	УК
+T26	LAW 1326 1328	УК
+T27	COUNTRY 1329 1331	РФ
+T29	EVENT 2011 2018	одобрен
+T31	LAW 625 630	УК РФ
+T32	LAW 1326 1331	УК РФ
+T1	DATE 37 43	15 лет
+T28	ORDINAL 619 624	205.1
+T33	ORDINAL 1320 1325	205.1
+T34	CRIME 3 34	публичное оправдание терроризма
+R1	WORKPLACE Arg1:T23 Arg2:T4	
+R2	WORKPLACE Arg1:T5 Arg2:T4	
+R3	WORKS_AS Arg1:T5 Arg2:T23	
+T35	IDEOLOGY 24 34	терроризма
+T36	LAW 60 128	закон об ответственности за преступления террористического характера
+T37	IDEOLOGY 101 128	террористического характера
+R4	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+T39	IDEOLOGY 241 257	террористические
+R6	ALTERNATIVE_NAME Arg1:T37 Arg2:T39	
+T38	LAW 201 270	федеральный закон об ответственности за террористические преступления
+R5	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R7	PRODUCES Arg1:T5 Arg2:T38	
+T40	IDEOLOGY 481 508	террористического характера
+T41	PENALTY 742 780	лишения свободы на срок от 8 до 20 лет
+T42	CRIME 700 734	пособничество в совершении теракта
+T43	CRIME 1274 1314	содействие террористической деятельности
+T44	IDEOLOGY 1285 1301	террористической
+T45	PENALTY 1396 1432	штрафом в размере до 500 тыс. рублей
+R8	PRICE_OF Arg1:T45 Arg2:T12	
+T46	CRIME 1494 1557	публичные призывы к осуществлению террористической деятельности
+T47	CRIME 1562 1593	публичное оправдание терроризма
+T48	IDEOLOGY 1583 1593	терроризма
+T49	IDEOLOGY 1528 1544	террористической
+T50	PENALTY 1652 1697	штрафом в размере от 500 тыс. до 1 млн рублей
+R9	PRICE_OF Arg1:T50 Arg2:T15	
+T30	EVENT 1963 1979	Закон был принят
+R10	POINT_IN_TIME Arg1:T30 Arg2:T20	
+R11	AGENT Arg1:T19 Arg2:T30	
+R12	AGENT Arg1:T21 Arg2:T29	
+R13	POINT_IN_TIME Arg1:T29 Arg2:T22	
+R14	ORIGINS_FROM Arg1:T31 Arg2:T24	
+R15	HAS_CAUSE Arg1:T41 Arg2:T42	
+R16	ORIGINS_FROM Arg1:T32 Arg2:T27	
+R17	HAS_CAUSE Arg1:T45 Arg2:T43	
+R18	HAS_CAUSE Arg1:T50 Arg2:T46	
+R19	HAS_CAUSE Arg1:T50 Arg2:T47	
+R20	PART_OF Arg1:T8 Arg2:T31	
+T51	PENALTY 742 757	лишения свободы
+R21	PART_OF Arg1:T10 Arg2:T32	
+T52	PENALTY 1353 1392	лишением свободы на срок от 5 до 10 лет
+T53	PENALTY 1353 1369	лишением свободы
+R22	HAS_CAUSE Arg1:T53 Arg2:T43	
+T54	PENALTY 1652 1659	штрафом
+T55	PENALTY 1611 1648	лишать свободы на срок от 8 до 15 лет
+R23	HAS_CAUSE Arg1:T55 Arg2:T47	
+T56	PENALTY 1611 1625	лишать свободы
+R24	HAS_CAUSE Arg1:T55 Arg2:T46	
+T57	PENALTY 1731 1757	штрафом до 500 тыс. рублей
+T58	PENALTY 1731 1738	штрафом
+R25	HAS_CAUSE Arg1:T58 Arg2:T46	
+R26	HAS_CAUSE Arg1:T58 Arg2:T47	
+T59	EVENT 192 218	подписал федеральный закон
+R27	AGENT Arg1:T5 Arg2:T59	
+R28	INANIMATE_INVOLVED Arg1:T38 Arg2:T59	
+R29	INANIMATE_INVOLVED Arg1:T38 Arg2:T30	
+R30	INANIMATE_INVOLVED Arg1:T38 Arg2:T29	
+T60	PENALTY 1396 1403	штрафом
+N2	Reference T3 Wikidata:Q30461	президент
+N3	Reference T4 Wikidata:Q159	Россия
+N4	Reference T5 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N5	Reference T6 Wikidata:Q629733	РосБизнесКонсалтинг
+N8	Reference T19 Wikidata:Q715641	Государственная дума
+N9	Reference T21 Wikidata:Q186473	Совет Федерации
+N10	Reference T23 Wikidata:Q218295	президент Российской Федерации
+N11	Reference T24 Wikidata:Q159	Россия
+N13	Reference T31 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N14	Reference T36 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:Q19705	уголовное законодательство
+N7	Reference T10 Wikidata:NULL	нет данных
+N6	Reference T8 Wikidata:NULL	нет данных
+N1	Reference T2 Wikidata:Q2108946	
+N15	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N16	Reference T27 Wikidata:Q159	Россия
+N17	Reference T32 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N18	Reference T38 Wikidata:NULL	нет данных
+N19	Reference T25 Wikidata:Q19705	уголовное законодательство

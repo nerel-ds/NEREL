@@ -1,0 +1,62 @@
+T1	PERSON 0 12	Рауль Кастро
+T2	PERSON 41 53	Рауль Кастро
+T3	PROFESSION 54 76	Председатель Госсовета
+T4	ORGANIZATION 67 76	Госсовета
+T5	ORGANIZATION 79 100	Совета министров Кубы
+T6	PERSON 101 113	Рауль Кастро
+T7	DATE 145 163	в апреле 2018 года
+T8	DATE 185 205	21 декабря 2017 года
+T9	EVENT 209 218	заседании
+T10	DATE 265 274	19 апреля
+T11	ORGANIZATION 306 344	Национальной ассамблеи народной власти
+T12	ORDINAL 361 367	второй
+T13	PROFESSION 394 427	главы государства и правительства
+T14	COUNTRY 431 435	Кубы
+T16	AGE 466 475	86-летний
+T17	PERSON 476 488	Рауль Кастро
+T18	DATE 508 519	с 2008 года
+T19	PERSON 561 567	Фидель
+T20	COUNTRY 579 584	Кубой
+T21	DATE 588 605	протяжении 50 лет
+T22	COUNTRY 96 100	Кубы
+T23	PROFESSION 54 66;79 100	Председатель Совета министров Кубы
+T24	ORGANIZATION 219 257	Национальной ассамблеи народной власти
+R1	AGE_IS Arg1:T17 Arg2:T16	
+R2	SIBLING Arg1:T17 Arg2:T19	
+R3	WORKPLACE Arg1:T19 Arg2:T20	
+R4	WORKPLACE Arg1:T6 Arg2:T22	
+R5	WORKPLACE Arg1:T6 Arg2:T5	
+R6	HEADQUARTERED_IN Arg1:T5 Arg2:T22	
+R7	HEADQUARTERED_IN Arg1:T4 Arg2:T22	
+R8	WORKPLACE Arg1:T6 Arg2:T4	
+R9	WORKS_AS Arg1:T6 Arg2:T3	
+T15	EVENT 32 40	отставки
+R10	AGENT Arg1:T1 Arg2:T15	
+T25	EVENT 127 144	покинет свой пост
+R11	AGENT Arg1:T6 Arg2:T25	
+R12	POINT_IN_TIME Arg1:T25 Arg2:T7	
+R13	ALTERNATIVE_NAME Arg1:T15 Arg2:T25	
+R14	WORKS_AS Arg1:T6 Arg2:T13	
+R15	ORGANIZES Arg1:T24 Arg2:T9	
+R16	POINT_IN_TIME Arg1:T9 Arg2:T8	
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T9	
+R18	HEADQUARTERED_IN Arg1:T24 Arg2:T22	
+T26	EVENT 527 543	с должности ушел
+R19	AGENT Arg1:T19 Arg2:T26	
+R20	TAKES_PLACE_IN Arg1:T26 Arg2:T20	
+R21	POINT_IN_TIME Arg1:T26 Arg2:T18	
+N3	Reference T5 Wikidata:Q834304	Совет министров Кубы
+N4	Reference T6 Wikidata:Q46809	Рауль Кастро
+N5	Reference T13 Wikidata:Q48352	глава государства
+N6	Reference T19 Wikidata:Q11256	Фидель Кастро
+N7	Reference T22 Wikidata:Q241	Куба
+N8	Reference T23 Wikidata:Q6502015	председатель Совета Министров Кубы
+N9	Reference T24 Wikidata:Q720753	Национальная ассамблея народной власти
+N1	Reference T3 Wikidata:Q89188209	
+N2	Reference T4 Wikidata:Q1516390	Государственный совет Кубы
+N10	Reference T17 Wikidata:Q46809	Рауль Кастро
+N11	Reference T1 Wikidata:Q46809	Рауль Кастро
+N12	Reference T2 Wikidata:Q46809	Рауль Кастро
+N13	Reference T14 Wikidata:Q241	Куба
+N14	Reference T20 Wikidata:Q241	Куба
+N15	Reference T11 Wikidata:Q720753	Национальная ассамблея народной власти

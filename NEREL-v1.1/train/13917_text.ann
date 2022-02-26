@@ -1,0 +1,141 @@
+T1	PERSON 10 22	Ратко Младич
+T2	EVENT 49 66	пресс-конференция
+T3	PROFESSION 67 77	президента
+T4	PERSON 85 98	Бориса Тадича
+T5	PROFESSION 142 175	командира армии боснийских сербов
+T6	PERSON 176 189	Ратко Младича
+T7	PERSON 192 204	Ратко Младич
+T8	AGE 207 216	69-летний
+T9	DATE 236 247	с 1995 года
+T10	ORGANIZATION 255 301	Международный трибунал ООН по бывшей Югославии
+T11	CITY 357 367	Сребренице
+T12	PERSON 381 387	Младич
+T13	COUNTRY 464 470	Боснии
+T14	PERSON 499 510	Борис Тадич
+T15	PERSON 518 531	Ратко Младича
+T16	COUNTRY 534 540	Сербии
+T17	COUNTRY 634 643	сербского
+T18	COUNTRY 715 723	сербские
+T19	PERSON 791 798	Младичу
+T20	DATE 799 811	более 15 лет
+T21	DATE 846 863	на прошлой неделе
+T22	PROFESSION 864 900	главный прокурор Гаагского трибунала
+T23	PERSON 901 914	Серж Браммерц
+T24	COUNTRY 927 933	Сербия
+T25	PERSON 990 997	Младича
+T26	PERSON 1024 1038	Горана Хаджича
+T27	CITY 1055 1063	Белграду
+T28	ORGANIZATION 1180 1194	трибуналом ООН
+T29	ORGANIZATION 1204 1213	Евросоюза
+T30	PERSON 1229 1236	Младича
+T31	COUNTRY 1273 1279	Сербии
+T32	ORGANIZATION 1314 1330	Европейский союз
+T33	EVENT 0 9	Арестован
+T34	ORGANIZATION 1191 1194	ООН
+T35	ORGANIZATION 881 900	Гаагского трибунала
+T36	CITY 881 890	Гаагского
+T37	PROFESSION 644 654	президента
+T38	EVENT 512 517	арест
+T39	DATE 471 484	в 90-ых годах
+T40	EVENT 452 461	конфликта
+T41	PERSON 217 223	Младич
+T42	ORGANIZATION 278 281	ООН
+T43	COUNTRY 292 301	Югославии
+T44	CRIME 329 336	геноцид
+T45	COUNTRY 78 84	Сербии
+T46	PROFESSION 67 84	президента Сербии
+T47	NATIONALITY 158 175	боснийских сербов
+T48	COUNTRY 158 168	боснийских
+T49	DATE 23 30	Сегодня
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T33	
+R2	WORKPLACE Arg1:T46 Arg2:T45	
+R3	WORKS_AS Arg1:T4 Arg2:T46	
+R4	WORKPLACE Arg1:T4 Arg2:T45	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T2	
+R6	POINT_IN_TIME Arg1:T2 Arg2:T49	
+R7	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T41	
+R9	AGE_IS Arg1:T41 Arg2:T8	
+R10	FOUNDED_BY Arg1:T10 Arg2:T42	
+T50	EVENT 348 367	резнёй в Сребренице
+R11	TAKES_PLACE_IN Arg1:T50 Arg2:T11	
+R12	PARTICIPANT_IN Arg1:T15 Arg2:T38	
+R13	TAKES_PLACE_IN Arg1:T38 Arg2:T16	
+T51	PROFESSION 634 654	сербского президента
+R14	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R15	WORKPLACE Arg1:T51 Arg2:T17	
+T52	ORGANIZATION 715 730	сербские власти
+R16	HEADQUARTERED_IN Arg1:T52 Arg2:T18	
+T53	PROFESSION 864 880	главный прокурор
+T54	PROFESSION 872 880	прокурор
+R17	WORKPLACE Arg1:T22 Arg2:T35	
+R18	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R19	WORKPLACE Arg1:T23 Arg2:T35	
+R20	WORKS_AS Arg1:T23 Arg2:T22	
+R21	FOUNDED_BY Arg1:T28 Arg2:T34	
+R22	ALTERNATIVE_NAME Arg1:T29 Arg2:T32	
+T55	ORGANIZATION 1197 1213	Власти Евросоюза
+R23	PART_OF Arg1:T55 Arg2:T29	
+R24	LOCATED_IN Arg1:T27 Arg2:T24	
+R25	WORKS_AS Arg1:T14 Arg2:T51	
+R26	HAS_CAUSE Arg1:T44 Arg2:T50	
+T56	EVENT 302 325	предъявил ему обвинение
+R27	AGENT Arg1:T10 Arg2:T56	
+T57	ORGANIZATION 255 281	Международный трибунал ООН
+R28	HAS_CAUSE Arg1:T56 Arg2:T44	
+R29	PARTICIPANT_IN Arg1:T41 Arg2:T56	
+T58	EVENT 452 470	конфликта в Боснии
+R30	TAKES_PLACE_IN Arg1:T58 Arg2:T13	
+R31	POINT_IN_TIME Arg1:T58 Arg2:T39	
+R32	CONVICTED_OF Arg1:T41 Arg2:T44	
+R33	PARTICIPANT_IN Arg1:T41 Arg2:T50	
+R34	PARTICIPANT_IN Arg1:T12 Arg2:T58	
+T59	EVENT 127 133	поимке
+R35	ORIGINS_FROM Arg1:T6 Arg2:T47	
+R36	WORKS_AS Arg1:T6 Arg2:T5	
+R37	PARTICIPANT_IN Arg1:T6 Arg2:T59	
+R38	HAS_CAUSE Arg1:T59 Arg2:T56	
+N1	Reference T1 Wikidata:Q93167	Ратко Младич
+N2	Reference T3 Wikidata:Q30461	президент
+N3	Reference T4 Wikidata:Q483290	Борис Тадич
+N6	Reference T11 Wikidata:Q156053	Сребреница
+N8	Reference T16 Wikidata:Q403	Сербия
+N11	Reference T26 Wikidata:Q295043	Хаджич, Горан
+N12	Reference T27 Wikidata:Q3711	Белград
+N14	Reference T29 Wikidata:Q458	Европейский союз
+N15	Reference T35 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N17	Reference T42 Wikidata:Q1065	Организация Объединённых Наций
+N18	Reference T43 Wikidata:Q36704	Югославия
+N19	Reference T46 Wikidata:Q889830	Президент Сербии
+N22	Reference T51 Wikidata:Q6594693	Президент Республики Сербской
+N23	Reference T52 Wikidata:Q39075006	Власть
+N25	Reference T54 Wikidata:Q600751	прокурор
+N4	Reference T5 Wikidata:NULL	нет данных
+N20	Reference T47 Wikidata:Q1064662	
+N21	Reference T48 Wikidata:Q225	Босния и Герцеговина
+N5	Reference T10 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N27	Reference T57 Wikidata:NULL	нет данных
+N7	Reference T13 Wikidata:Q225	Босния и Герцеговина
+N24	Reference T53 Wikidata:NULL	нет данных
+N16	Reference T36 Wikidata:Q41795540	
+N9	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T23 Wikidata:Q726255	
+N13	Reference T28 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N26	Reference T55 Wikidata:NULL	нет данных
+N28	Reference T15 Wikidata:Q93167	Ратко Младич
+N29	Reference T19 Wikidata:Q93167	Ратко Младич
+N30	Reference T12 Wikidata:Q93167	Ратко Младич
+N31	Reference T25 Wikidata:Q93167	Ратко Младич
+N32	Reference T7 Wikidata:Q93167	Ратко Младич
+N33	Reference T6 Wikidata:Q93167	Ратко Младич
+N34	Reference T41 Wikidata:Q93167	Ратко Младич
+N35	Reference T30 Wikidata:Q93167	Ратко Младич
+N36	Reference T37 Wikidata:Q30461	президент
+N37	Reference T14 Wikidata:Q483290	Борис Тадич
+N38	Reference T17 Wikidata:Q403	Сербия
+N39	Reference T31 Wikidata:Q403	Сербия
+N40	Reference T24 Wikidata:Q403	Сербия
+N41	Reference T18 Wikidata:Q403	Сербия
+N42	Reference T45 Wikidata:Q403	Сербия
+N43	Reference T32 Wikidata:Q458	Европейский союз
+N44	Reference T34 Wikidata:Q1065	Организация Объединённых Наций

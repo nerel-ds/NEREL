@@ -1,0 +1,113 @@
+T1	ORGANIZATION 0 3	ЦРУ
+T2	PERSON 31 43	Джина Хаспел
+T3	PERSON 80 92	Джину Хаспел
+T4	PROFESSION 102 111	директора
+T5	ORDINAL 128 134	первой
+T6	PROFESSION 144 157	руководителем
+T7	COUNTRY 167 170	США
+T8	PERSON 187 193	Хаспел
+T9	NUMBER 208 210	54
+T10	NUMBER 230 232	45
+T11	EVENT 321 329	терактов
+T12	DATE 330 351	11 сентября 2001 года
+T13	AGE 425 434	61-летняя
+T14	PERSON 435 447	Джина Хаспел
+T15	PROFESSION 465 474	главы ЦРУ
+T16	PERSON 475 487	Майка Помпео
+T17	PROFESSION 502 515	госсекретарем
+T18	ORGANIZATION 539 542	ЦРУ
+T19	COUNTRY 573 579	России
+T20	LOCATION 584 600	Центральной Азии
+T22	ORGANIZATION 639 642	ЦРУ
+T23	COUNTRY 645 653	Таиланде
+T24	CITY 669 677	Бангкока
+T25	FACILITY 704 716	Кошачий глаз
+T26	PERSON 719 725	Хаспел
+T27	ORGANIZATION 44 53	Сенат США
+T28	COUNTRY 50 53	США
+T29	DATE 54 70	17 мая 2018 года
+T30	PROFESSION 102 115	директора ЦРУ
+T31	ORGANIZATION 112 115	ЦРУ
+T32	PROFESSION 144 170	руководителем разведки США
+T33	ORGANIZATION 158 170	разведки США
+T34	PROFESSION 211 219	сенатора
+T35	ORGANIZATION 471 474	ЦРУ
+T36	PROFESSION 502 519	госсекретарем США
+T37	COUNTRY 516 519	США
+T21	CRIME 769 779	терроризме
+T38	ORGANIZATION 44 49	Сенат
+R1	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+R2	WORKPLACE Arg1:T30 Arg2:T31	
+R3	HEADQUARTERED_IN Arg1:T33 Arg2:T7	
+R4	WORKPLACE Arg1:T32 Arg2:T33	
+T39	EVENT 71 79;93 101	утвердил на посту
+R5	POINT_IN_TIME Arg1:T39 Arg2:T29	
+R6	AGENT Arg1:T27 Arg2:T39	
+R7	PARTICIPANT_IN Arg1:T3 Arg2:T39	
+R8	PARTICIPANT_IN Arg1:T31 Arg2:T39	
+R9	ALTERNATIVE_NAME Arg1:T31 Arg2:T33	
+R10	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R11	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+T40	EVENT 321 351	терактов 11 сентября 2001 года
+R12	POINT_IN_TIME Arg1:T40 Arg2:T12	
+R13	AGE_IS Arg1:T14 Arg2:T13	
+R14	ALTERNATIVE_NAME Arg1:T32 Arg2:T15	
+R15	WORKS_AS Arg1:T14 Arg2:T15	
+R16	WORKPLACE Arg1:T14 Arg2:T35	
+R17	WORKS_AS Arg1:T16 Arg2:T15	
+R18	WORKPLACE Arg1:T16 Arg2:T35	
+R19	WORKPLACE Arg1:T36 Arg2:T37	
+R20	WORKS_AS Arg1:T16 Arg2:T36	
+R21	WORKPLACE Arg1:T16 Arg2:T37	
+R22	OWNER_OF Arg1:T22 Arg2:T25	
+R23	LOCATED_IN Arg1:T25 Arg2:T23	
+T41	EVENT 12 30	возглавила женщина
+R24	PARTICIPANT_IN Arg1:T1 Arg2:T41	
+T42	EVENT 194 207	проголосовали
+R25	AGENT Arg1:T34 Arg2:T42	
+R26	PARTICIPANT_IN Arg1:T8 Arg2:T42	
+T43	CRIME 389 400	пытки водой
+R27	CONVICTED_OF Arg1:T8 Arg2:T43	
+T44	EVENT 448 455	сменила
+R28	AGENT Arg1:T14 Arg2:T44	
+R29	PARTICIPANT_IN Arg1:T35 Arg2:T44	
+T45	LOCATION 596 600	Азии
+R30	LOCATED_IN Arg1:T20 Arg2:T45	
+T46	ORGANIZATION 632 653	тюрьму ЦРУ в Таиланде
+R31	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+R32	FOUNDED_BY Arg1:T22 Arg2:T46	
+R33	WORKPLACE Arg1:T14 Arg2:T46	
+R34	LOCATED_IN Arg1:T24 Arg2:T23	
+T47	CRIME 389 394	пытки
+N1	Reference T3 Wikidata:Q28606502	Хаспел, Джина
+N2	Reference T4 Wikidata:Q484876	главный управляющий
+N3	Reference T6 Wikidata:Q2462658	менеджер
+N4	Reference T16 Wikidata:Q473239	Помпео, Майк
+N5	Reference T19 Wikidata:Q159	Россия
+N6	Reference T20 Wikidata:Q27275	Центральная Азия
+N7	Reference T22 Wikidata:Q37230	Центральное разведывательное управление
+N8	Reference T23 Wikidata:Q869	Таиланд
+N9	Reference T24 Wikidata:Q1861	Бангкок
+N11	Reference T27 Wikidata:Q66096	Сенат США
+N12	Reference T30 Wikidata:Q27656	директор Центрального разведывательного управления
+N14	Reference T36 Wikidata:Q14213	государственный секретарь США
+N15	Reference T37 Wikidata:Q30	США
+N17	Reference T45 Wikidata:Q48	Азия
+N16	Reference T38 Wikidata:Q2570643	сенат
+N13	Reference T34 Wikidata:Q15686806	
+N19	Reference T17 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:NULL	нет данных
+N20	Reference T8 Wikidata:Q28606502	Хаспел, Джина
+N21	Reference T14 Wikidata:Q28606502	Хаспел, Джина
+N22	Reference T26 Wikidata:Q28606502	Хаспел, Джина
+N23	Reference T2 Wikidata:Q28606502	Хаспел, Джина
+N24	Reference T31 Wikidata:Q37230	Центральное разведывательное управление
+N25	Reference T33 Wikidata:Q37230	Центральное разведывательное управление
+N26	Reference T18 Wikidata:Q37230	Центральное разведывательное управление
+N27	Reference T1 Wikidata:Q37230	Центральное разведывательное управление
+N28	Reference T35 Wikidata:Q37230	Центральное разведывательное управление
+N29	Reference T32 Wikidata:Q27656	директор Центрального разведывательного управления
+N30	Reference T15 Wikidata:Q27656	директор Центрального разведывательного управления
+N31	Reference T28 Wikidata:Q30	США
+N32	Reference T7 Wikidata:Q30	США

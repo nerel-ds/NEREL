@@ -1,0 +1,174 @@
+T1	PERSON 0 14	Серена Уильямс
+T2	PERSON 27 41	Серена Уильямс
+T3	PERSON 51 65	Алексис Оганян
+T4	PERSON 67 81	Alexis Ohanian
+T5	ORGANIZATION 101 105	SOPA
+T6	ORGANIZATION 108 112	PIPA
+T7	CITY 115 124	Нью-Йорке
+T8	AGE 137 139	35
+T9	NATIONALITY 147 159	американская
+T10	PERSON 172 186	Серена Уильямс
+T11	DATE 213 233	1 сентября 2017 года
+T12	STATE_OR_PROVINCE 261 268	Флориде
+T13	NUMBER 291 303	3090 граммов
+T14	PRODUCT 368 374	Reddit
+T15	PERSON 413 427	Алексис Оганян
+T16	PERSON 429 443	Alexis Ohanian
+T17	PERSON 456 462	Серена
+T18	DATE 475 486	в 2016 году
+T19	PERSON 526 539	Винус Уильямс
+T20	PROFESSION 542 548	тренер
+T21	PERSON 549 565	Патрик Муратоглу
+T22	PERSON 678 693	Уильямс-младшая
+T23	DATE 703 722	19 апреля 2017 года
+T24	DATE 753 760	к осени
+T25	PERSON 789 796	Уильямс
+T26	COUNTRY 808 817	Австралии
+T27	ORDINAL 823 825	23
+T28	PERSON 893 907	Серена Уильямс
+T29	DATE 1005 1023	в январе 2018 года
+T30	PERSON 1035 1041	Серены
+T31	NATIONALITY 1121 1134	австралийской
+T32	PERSON 1147 1160	Маргарет Корт
+T33	DATE 1170 1187	в 1960—1975 годах
+T34	NUMBER 1197 1199	24
+T35	PERSON 1264 1280	Алексиса Оганяна
+T36	COUNTRY 1292 1295	США
+T37	COUNTRY 1319 1325	Турции
+T38	EVENT 1339 1353	Геноцида армян
+T39	PERSON 1355 1362	Алексис
+T40	DISTRICT 1371 1379	Бруклине
+T42	AGE 1383 1390	22 года
+T43	PERSON 1414 1430	Стивом Хаффманом
+T44	ORGANIZATION 1448 1454	Reddit
+T45	DATE 1460 1469	через год
+T46	ORGANIZATION 1506 1516	Conde Nast
+T47	NUMBER 1520 1533	восьмизначную
+T49	PERSON 1572 1578	Оганян
+T50	DATE 1596 1607	в 2010 году
+T51	PERSON 1715 1722	Алексис
+T52	ORGANIZATION 1740 1754	New York Times
+T53	ORGANIZATION 1756 1771	Washington Post
+T54	ORGANIZATION 1773 1779	Forbes
+T55	ORGANIZATION 1782 1791	Economist
+T56	PERSON 1859 1866	Уильямс
+T57	DATE 1886 1897	в 2015 году
+T58	PERSON 1917 1925	Алексиса
+T59	EVENT 15 26	родила дочь
+T61	DATE 125 136	в 2012 году
+T62	PROFESSION 160 171	теннисистка
+T63	EVENT 187 198	родила дочь
+T64	NATIONALITY 375 387	американский
+T65	PROFESSION 388 412	интернет-предприниматель
+T67	PROFESSION 489 500	Теннисистку
+T68	EVENT 850 864	Большого шлема
+T69	EVENT 463 474	помолвилась
+T70	EVENT 1067 1081	Большого шлема
+T71	PROFESSION 1135 1146	теннисистке
+T72	EVENT 1219 1233	Большого шлема
+T73	DATE 1296 1315	около 100 лет назад
+T74	NATIONALITY 1348 1353	армян
+T41	PRODUCT 1928 1937	Instagram
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T59	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R4	PRODUCES Arg1:T15 Arg2:T14	
+T60	EVENT 236 240	Роды
+R5	ALTERNATIVE_NAME Arg1:T63 Arg2:T60	
+R6	AGENT Arg1:T10 Arg2:T63	
+R7	AGE_IS Arg1:T10 Arg2:T8	
+R8	WORKS_AS Arg1:T21 Arg2:T20	
+R9	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+R10	WORKS_AS Arg1:T32 Arg2:T71	
+R11	PARTICIPANT_IN Arg1:T74 Arg2:T38	
+R12	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+R13	POINT_IN_TIME Arg1:T38 Arg2:T73	
+R14	PLACE_RESIDES_IN Arg1:T39 Arg2:T40	
+R15	KNOWS Arg1:T39 Arg2:T43	
+R16	FOUNDED_BY Arg1:T44 Arg2:T43	
+R17	FOUNDED_BY Arg1:T44 Arg2:T39	
+R18	ALTERNATIVE_NAME Arg1:T35 Arg2:T39	
+R19	ALTERNATIVE_NAME Arg1:T39 Arg2:T49	
+R20	TAKES_PLACE_IN Arg1:T60 Arg2:T12	
+R21	WORKS_AS Arg1:T10 Arg2:T62	
+R22	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R23	ORIGINS_FROM Arg1:T62 Arg2:T9	
+R24	WORKS_AS Arg1:T15 Arg2:T65	
+R25	ORIGINS_FROM Arg1:T15 Arg2:T64	
+R26	SIBLING Arg1:T17 Arg2:T19	
+R27	SPOUSE Arg1:T15 Arg2:T17	
+R28	ALTERNATIVE_NAME Arg1:T17 Arg2:T22	
+R29	ORIGINS_FROM Arg1:T32 Arg2:T31	
+T48	MONEY 1520 1539	восьмизначную сумму
+R30	KNOWS Arg1:T56 Arg2:T58	
+R31	EXPENDITURE Arg1:T46 Arg2:T48	
+R32	ORIGINS_FROM Arg1:T71 Arg2:T31	
+R33	PLACE_RESIDES_IN Arg1:T35 Arg2:T36	
+R34	ORIGINS_FROM Arg1:T65 Arg2:T64	
+R35	WORKS_AS Arg1:T17 Arg2:T67	
+R36	POINT_IN_TIME Arg1:T63 Arg2:T11	
+R37	AGENT Arg1:T17 Arg2:T69	
+R38	AGENT Arg1:T15 Arg2:T69	
+R39	POINT_IN_TIME Arg1:T69 Arg2:T18	
+T66	EVENT 837 864	турнир серии Большого шлема
+R40	SUBEVENT_OF Arg1:T66 Arg2:T68	
+R41	TAKES_PLACE_IN Arg1:T66 Arg2:T26	
+R42	PARTICIPANT_IN Arg1:T25 Arg2:T66	
+R43	ALTERNATIVE_NAME Arg1:T22 Arg2:T25	
+R44	ALTERNATIVE_NAME Arg1:T25 Arg2:T28	
+R45	ALTERNATIVE_NAME Arg1:T28 Arg2:T30	
+R46	PARTICIPANT_IN Arg1:T32 Arg2:T72	
+R47	AGE_IS Arg1:T39 Arg2:T42	
+T75	CITY 1740 1748	New York
+R48	HEADQUARTERED_IN Arg1:T52 Arg2:T75	
+T76	CITY 1756 1766	Washington
+R49	HEADQUARTERED_IN Arg1:T53 Arg2:T76	
+N1	Reference T5 Wikidata:Q171322	Stop Online Piracy Act
+N2	Reference T6 Wikidata:Q715282	PROTECT IP Act
+N3	Reference T7 Wikidata:Q60	Нью-Йорк
+N4	Reference T10 Wikidata:Q11459	Серена Уильямс
+N5	Reference T12 Wikidata:Q812	Флорида
+N6	Reference T14 Wikidata:Q1136	reddit
+N7	Reference T19 Wikidata:Q11578	Винус Уильямс
+N8	Reference T20 Wikidata:Q41583	тренер
+N10	Reference T26 Wikidata:Q408	Австралия
+N12	Reference T32 Wikidata:Q202342	Маргарет Корт
+N13	Reference T36 Wikidata:Q30	США
+N14	Reference T37 Wikidata:Q43	Турция
+N15	Reference T40 Wikidata:Q18419	Бруклин
+N16	Reference T44 Wikidata:Q1136	reddit
+N17	Reference T46 Wikidata:Q605401	Condé Nast
+N18	Reference T52 Wikidata:Q9684	The New York Times
+N19	Reference T53 Wikidata:Q166032	The Washington Post
+N20	Reference T54 Wikidata:Q25161472	Форбс
+N21	Reference T55 Wikidata:Q180089	Экономист
+N24	Reference T71 Wikidata:Q10833314	теннисист
+N25	Reference T74 Wikidata:Q79797	армяне
+N26	Reference T41 Wikidata:Q209330	Instagram
+N29	Reference T4 Wikidata:Q4721504	
+N22	Reference T64 Wikidata:Q846570	
+N23	Reference T65 Wikidata:NULL	нет данных
+N30	Reference T15 Wikidata:Q4721504	
+N9	Reference T21 Wikidata:Q4721504	
+N11	Reference T31 Wikidata:Q1318423	
+N31	Reference T35 Wikidata:Q4721504	
+N32	Reference T43 Wikidata:Q7612894	
+N27	Reference T75 Wikidata:Q7612894	
+N28	Reference T76 Wikidata:Q61	Вашингтон
+N33	Reference T22 Wikidata:Q11459	Серена Уильямс
+N34	Reference T56 Wikidata:Q11459	Серена Уильямс
+N35	Reference T17 Wikidata:Q11459	Серена Уильямс
+N36	Reference T25 Wikidata:Q11459	Серена Уильямс
+N37	Reference T28 Wikidata:Q11459	Серена Уильямс
+N38	Reference T2 Wikidata:Q11459	Серена Уильямс
+N39	Reference T1 Wikidata:Q11459	Серена Уильямс
+N40	Reference T30 Wikidata:Q11459	Серена Уильямс
+N41	Reference T62 Wikidata:Q10833314	теннисист
+N42	Reference T67 Wikidata:Q10833314	теннисист
+N43	Reference T3 Wikidata:Q4721504	
+N44	Reference T9 Wikidata:Q846570	
+N45	Reference T16 Wikidata:Q4721504	
+N46	Reference T51 Wikidata:Q4721504	
+N47	Reference T49 Wikidata:Q4721504	
+N48	Reference T58 Wikidata:Q4721504	
+N49	Reference T39 Wikidata:Q4721504	

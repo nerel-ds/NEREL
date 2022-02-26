@@ -1,0 +1,104 @@
+T1	ORGANIZATION 0 12	Рособрнадзор
+T2	AGE 23 32	30-летний
+T3	ORGANIZATION 42 54	Рособрнадзор
+T4	AGE 65 74	30-летний
+T5	PROFESSION 85 107	Премьер-министр России
+T6	PERSON 108 124	Дмитрий Медведев
+T7	PROFESSION 134 205	руководителем Федеральной службы по надзору в сфере образования и науки
+T8	PROFESSION 206 226	и.о. главы ведомства
+T9	AGE 227 237	30-летнего
+T10	PERSON 238 253	Ивана Муравьева
+T12	DATE 318 333	В конце октября
+T13	PERSON 372 386	Любовь Глебова
+T14	ORGANIZATION 400 414	Рособрнадзором
+T15	DATE 415 438	в течение последних лет
+T17	STATE_OR_PROVINCE 501 519	Пензенскую область
+T18	ORGANIZATION 522 538	Совете Федерации
+T19	PERSON 553 563	Л.Глебовой
+T21	PERSON 615 625	И.Муравьев
+T22	PROFESSION 636 652	руководительница
+T23	PROFESSION 774 781	сенатор
+T24	PERSON 889 902	Иван Муравьев
+T25	COUNTRY 927 937	российским
+T26	PROFESSION 979 998	глава Рособрнадзора
+T28	ORGANIZATION 1045 1056	Минкомсвязи
+T29	PERSON 1057 1075	Николая Никифорова
+T30	PROFESSION 33 41	чиновник
+T31	PROFESSION 75 83	чиновник
+T32	COUNTRY 101 107	России
+T34	ORGANIZATION 302 315	правительства
+T35	PROFESSION 440 449	Чиновница
+T16	PROFESSION 667 678	заместителя
+T20	PROFESSION 938 948	чиновником
+T36	ORGANIZATION 985 998	Рособрнадзора
+T27	ORGANIZATION 148 205	Федеральной службы по надзору в сфере образования и науки
+R1	WORKPLACE Arg1:T30 Arg2:T1	
+R2	AGE_IS Arg1:T30 Arg2:T2	
+R3	WORKPLACE Arg1:T31 Arg2:T3	
+R4	AGE_IS Arg1:T31 Arg2:T4	
+T37	PROFESSION 85 100	Премьер-министр
+R5	WORKS_AS Arg1:T6 Arg2:T5	
+R6	WORKPLACE Arg1:T6 Arg2:T32	
+R7	WORKPLACE Arg1:T5 Arg2:T32	
+T38	EVENT 125 133	назначил
+R8	AGENT Arg1:T6 Arg2:T38	
+R9	AGE_IS Arg1:T10 Arg2:T9	
+R10	WORKS_AS Arg1:T10 Arg2:T31	
+R11	WORKS_AS Arg1:T10 Arg2:T7	
+R12	WORKPLACE Arg1:T10 Arg2:T27	
+T39	PROFESSION 211 226	главы ведомства
+R13	WORKS_AS Arg1:T10 Arg2:T8	
+R14	PARTICIPANT_IN Arg1:T10 Arg2:T38	
+R15	WORKPLACE Arg1:T13 Arg2:T14	
+R16	WORKS_AS Arg1:T13 Arg2:T35	
+R17	WORKPLACE Arg1:T13 Arg2:T18	
+R18	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R19	ALTERNATIVE_NAME Arg1:T10 Arg2:T21	
+R20	WORKS_AS Arg1:T13 Arg2:T23	
+R21	WORKS_AS Arg1:T24 Arg2:T20	
+R22	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R23	WORKS_AS Arg1:T24 Arg2:T26	
+R24	WORKPLACE Arg1:T24 Arg2:T36	
+R25	WORKPLACE Arg1:T29 Arg2:T28	
+R26	SUBORDINATE_OF Arg1:T10 Arg2:T13	
+R27	WORKPLACE Arg1:T7 Arg2:T27	
+R28	ORIGINS_FROM Arg1:T35 Arg2:T17	
+R29	PARTICIPANT_IN Arg1:T27 Arg2:T38	
+R30	HEADQUARTERED_IN Arg1:T34 Arg2:T32	
+T11	EVENT 359 371	пост покинет
+R31	AGENT Arg1:T13 Arg2:T11	
+R32	PARTICIPANT_IN Arg1:T14 Arg2:T11	
+R33	POINT_IN_TIME Arg1:T11 Arg2:T12	
+R34	ORIGINS_FROM Arg1:T20 Arg2:T25	
+R35	WORKPLACE Arg1:T26 Arg2:T36	
+N2	Reference T6 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N4	Reference T8 Wikidata:Q2367317	Главы военного ведомства СССР
+N6	Reference T13 Wikidata:Q4139623	Глебова, Любовь Николаевна
+N7	Reference T17 Wikidata:Q5545	Пензенская область
+N8	Reference T18 Wikidata:Q186473	Совет Федерации
+N10	Reference T24 Wikidata:Q4307735	Муравьёв, Иван Александрович
+N13	Reference T28 Wikidata:Q4294667	Министерство цифрового развития, связи и массовых коммуникаций Российской Федерации
+N14	Reference T29 Wikidata:Q1990761	Никифоров, Николай Анатольевич
+N15	Reference T30 Wikidata:Q382887	чиновник
+N16	Reference T32 Wikidata:Q159	Россия
+N17	Reference T34 Wikidata:Q7188	правительство
+N19	Reference T16 Wikidata:Q466454	Заместитель
+N20	Reference T36 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N21	Reference T27 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N22	Reference T37 Wikidata:Q14212	премьер-министр
+N23	Reference T39 Wikidata:Q2367317	Главы военного ведомства СССР
+N1	Reference T5 Wikidata:Q842386	председатель Правительства Российской Федерации
+N3	Reference T7 Wikidata:NULL	
+N5	Reference T10 Wikidata:Q4307735	Муравьёв, Иван Александрович
+N18	Reference T35 Wikidata:Q382887	чиновник
+N24	Reference T22 Wikidata:Q2462658	менеджер
+N9	Reference T23 Wikidata:Q15686806	
+N11	Reference T25 Wikidata:Q159	Россия
+N12	Reference T26 Wikidata:NULL	нет данных
+N25	Reference T19 Wikidata:Q4139623	Глебова, Любовь Николаевна
+N26	Reference T31 Wikidata:Q382887	чиновник
+N27	Reference T20 Wikidata:Q382887	чиновник
+N28	Reference T1 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N29	Reference T14 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N30	Reference T3 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N31	Reference T21 Wikidata:Q4307735	Муравьёв, Иван Александрович

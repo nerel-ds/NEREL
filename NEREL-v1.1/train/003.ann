@@ -1,0 +1,218 @@
+T1	NATIONALITY 62 74	американцами
+T2	CITY 82 89	Бишкеке
+T3	DATE 117 126	5 августа
+T5	ORGANIZATION 145 179	Правоохранительные органы Киргизии
+T6	COUNTRY 171 179	Киргизии
+T7	COUNTRY 221 224	США
+T8	CITY 227 234	Бишкеке
+T9	DATE 288 298	во вторник
+T10	ORGANIZATION 312 315	МВД
+T12	CITY 433 440	Ынтымак
+T13	AGE 464 474	66-летнему
+T14	COUNTRY 486 494	Киргизии
+T15	COUNTRY 519 522	США
+T16	NUMBER 545 550	шесть
+T17	NUMBER 631 633	26
+T18	NUMBER 652 667	5,56 миллиметра
+T19	NUMBER 669 672	два
+T20	PRODUCT 690 697	МОСВЕГА
+T21	NUMBER 713 719	четыре
+T22	NUMBER 758 761	два
+T23	NUMBER 788 794	четыре
+T24	NUMBER 855 860	шесть
+T26	PRODUCT 900 907	Беретта
+T27	NUMBER 909 913	одна
+T28	ORGANIZATION 949 952	МВД
+T29	NUMBER 1098 1100	10
+T30	COUNTRY 1136 1139	США
+T31	NUMBER 1372 1375	Два
+T32	NUMBER 1382 1386	2920
+T33	NUMBER 1409 1424	5,56 миллиметра
+T34	NUMBER 1426 1431	10556
+T35	NUMBER 1454 1467	9 миллиметров
+T36	NUMBER 1469 1472	два
+T37	NUMBER 1496 1510	50 миллиметров
+T38	NUMBER 1521 1524	350
+T39	NUMBER 1547 1561	12 миллиметров
+T40	NUMBER 1575 1578	478
+T41	NUMBER 1639 1643	1000
+T43	NUMBER 1650 1652	66
+T45	NUMBER 1702 1704	57
+T46	PRODUCT 1740 1747	Беретта
+T47	ORGANIZATION 1779 1795	Пресс-служба МВД
+T48	ORGANIZATION 1850 1861	прокуратура
+T49	ORGANIZATION 1939 1950	РИА Новости
+T50	COUNTRY 1979 1982	США
+T51	COUNTRY 2012 2020	Киргизии
+T52	ORGANIZATION 2055 2077	правительства Киргизии
+T53	DATE 2087 2097	во вторник
+T55	COUNTRY 2185 2193	Киргизии
+T56	COUNTRY 2216 2226	киргизских
+T57	COUNTRY 2417 2429	американское
+T58	COUNTRY 2501 2511	киргизских
+T60	COUNTRY 2631 2634	США
+T61	COUNTRY 2637 2645	Киргизия
+T62	COUNTRY 2720 2728	Киргизии
+T64	FACILITY 2812 2817	Манас
+T65	COUNTRY 2827 2835	Киргизии
+T66	COUNTRY 2889 2901	американских
+T68	ORGANIZATION 2998 3009	РИА Новости
+T69	TIME 91 107	05/08/2008 10:35
+T71	CITY 109 115	БИШКЕК
+T72	ORGANIZATION 128 142	Новости-Грузия
+T4	COUNTRY 136 142	Грузия
+T73	COUNTRY 316 324	Киргизии
+T74	ORGANIZATION 299 324	пресс-служба МВД Киргизии
+T25	NUMBER 880 893	9 миллиметров
+T75	COUNTRY 1051 1054	США
+T76	ORGANIZATION 1040 1054	посольства США
+T77	PROFESSION 1028 1054	сотрудников посольства США
+T78	PROFESSION 1101 1115	военнослужащих
+T80	PROFESSION 1166 1196	сотрудниками спецподразделения
+T44	ORGANIZATION 1792 1795	МВД
+T82	ORGANIZATION 1850 1869	прокуратура Бишкека
+T83	CITY 1862 1869	Бишкека
+T84	TIME 1871 1877	Сейчас
+T85	ORGANIZATION 1983 2020	правоохранительными органами Киргизии
+T86	COUNTRY 2069 2077	Киргизии
+T88	PROFESSION 2098 2139	представитель пресс-службы посольства США
+T87	ORGANIZATION 2125 2139	посольства США
+T89	ORGANIZATION 2112 2139	пресс-службы посольства США
+T90	PROFESSION 2268 2282	Военнослужащие
+T91	ORGANIZATION 2395 2406	министерств
+T92	ORGANIZATION 2329 2342	правительства
+T93	ORGANIZATION 2417 2455	американское дипломатическое ведомство
+T94	ORGANIZATION 2430 2455	дипломатическое ведомство
+T95	ORGANIZATION 2533 2545	пресс-служба
+T96	COUNTRY 2559 2562	США
+T97	ORGANIZATION 2548 2562	Посольство США
+T98	ORGANIZATION 2732 2770	Пресс-служба американской военной базы
+T100	ORGANIZATION 2745 2770	американской военной базы
+T102	PROFESSION 2902 2909	военных
+T103	ORGANIZATION 2970 2984	посольство США
+T11	DATE 91 101	05/08/2008
+T70	EVENT 410 417	Арсенал
+T81	COUNTRY 2136 2139	США
+R1	TAKES_PLACE_IN Arg1:T70 Arg2:T12	
+T63	NUMBER 698 711	12-го калибра
+T101	NATIONALITY 475 494	гражданину Киргизии
+R2	AGE_IS Arg1:T101 Arg2:T13	
+R3	HEADQUARTERED_IN Arg1:T72 Arg2:T4	
+T104	NATIONALITY 210 224	гражданами США
+T105	NATIONALITY 508 522	гражданами США
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+T42	ORGANIZATION 312 324	МВД Киргизии
+R5	HEADQUARTERED_IN Arg1:T42 Arg2:T73	
+R6	ORGANIZES Arg1:T5 Arg2:T70	
+R7	LOCATED_IN Arg1:T12 Arg2:T8	
+R8	LOCATED_IN Arg1:T8 Arg2:T6	
+R9	OWNER_OF Arg1:T101 Arg2:T12	
+T106	EVENT 524 543	обнаружены и изъяты
+R10	SUBEVENT_OF Arg1:T106 Arg2:T70	
+R11	HEADQUARTERED_IN Arg1:T82 Arg2:T83	
+T79	NATIONALITY 1971 1982	граждан США
+R12	WORKPLACE Arg1:T88 Arg2:T89	
+T54	ORGANIZATION 2216 2234	киргизских властей
+R13	HEADQUARTERED_IN Arg1:T54 Arg2:T56	
+R14	ALTERNATIVE_NAME Arg1:T56 Arg2:T55	
+R15	ALTERNATIVE_NAME Arg1:T87 Arg2:T93	
+R16	ALTERNATIVE_NAME Arg1:T81 Arg2:T57	
+T107	ORGANIZATION 2501 2519	киргизских властей
+R17	ALTERNATIVE_NAME Arg1:T93 Arg2:T97	
+R18	ALTERNATIVE_NAME Arg1:T57 Arg2:T96	
+T59	CITY 2819 2835	столицы Киргизии
+R19	LOCATED_IN Arg1:T64 Arg2:T59	
+R20	ORIGINS_FROM Arg1:T102 Arg2:T66	
+T108	COUNTRY 2981 2984	США
+T67	COUNTRY 2745 2757	американской
+R22	ORIGINS_FROM Arg1:T104 Arg2:T7	
+R23	ALTERNATIVE_NAME Arg1:T1 Arg2:T104	
+R24	ORIGINS_FROM Arg1:T105 Arg2:T15	
+R25	ORIGINS_FROM Arg1:T101 Arg2:T14	
+R26	WORKPLACE Arg1:T77 Arg2:T76	
+R27	PART_OF Arg1:T74 Arg2:T42	
+R29	LOCATED_IN Arg1:T59 Arg2:T65	
+R30	PART_OF Arg1:T98 Arg2:T100	
+R31	OWNER_OF Arg1:T67 Arg2:T100	
+R21	OWNER_OF Arg1:T108 Arg2:T103	
+R32	OWNER_OF Arg1:T75 Arg2:T76	
+R33	PART_OF Arg1:T47 Arg2:T44	
+R34	ORIGINS_FROM Arg1:T79 Arg2:T50	
+R35	HEADQUARTERED_IN Arg1:T93 Arg2:T57	
+R36	HEADQUARTERED_IN Arg1:T107 Arg2:T58	
+R28	OWNER_OF Arg1:T96 Arg2:T97	
+R37	HEADQUARTERED_IN Arg1:T85 Arg2:T51	
+R38	HEADQUARTERED_IN Arg1:T52 Arg2:T86	
+N1	Reference T5 Wikidata:Q813	Киргизия
+N2	Reference T10 Wikidata:Q6589202	министерство внутренних дел
+N3	Reference T12 Wikidata:Q13648730	Ынтымак
+N5	Reference T46 Wikidata:Q324782	Beretta
+N7	Reference T48 Wikidata:Q1092499	прокуратура
+N8	Reference T49 Wikidata:Q821172	РИА Новости
+N10	Reference T62 Wikidata:Q813	Киргизия
+N11	Reference T64 Wikidata:Q32997	Манас
+N12	Reference T71 Wikidata:Q9361	Бишкек
+N14	Reference T4 Wikidata:Q230	Грузия
+N16	Reference T75 Wikidata:Q30	США
+N19	Reference T78 Wikidata:Q47064	военнослужащий
+N24	Reference T91 Wikidata:Q192350	министерство
+N25	Reference T92 Wikidata:Q7188	правительство
+N29	Reference T100 Wikidata:Q245016	военная база
+N30	Reference T102 Wikidata:Q47064	военнослужащий
+N13	Reference T72 Wikidata:NULL	нет данных
+N15	Reference T74 Wikidata:NULL	
+N33	Reference T42 Wikidata:NULL	Киргизия
+N31	Reference T101 Wikidata:NULL	нет данных
+N32	Reference T105 Wikidata:Q846570	
+N4	Reference T20 Wikidata:NULL	нет данных
+N18	Reference T77 Wikidata:NULL	нет данных
+N17	Reference T76 Wikidata:NULL	нет данных
+N20	Reference T80 Wikidata:NULL	нет данных
+N6	Reference T47 Wikidata:NULL	
+N21	Reference T82 Wikidata:NULL	нет данных
+N9	Reference T52 Wikidata:NULL	нет данных
+N22	Reference T88 Wikidata:NULL	
+N23	Reference T89 Wikidata:NULL	нет данных
+N26	Reference T94 Wikidata:NULL	нет данных
+N35	Reference T107 Wikidata:NULL	нет данных
+N27	Reference T95 Wikidata:NULL	
+N28	Reference T98 Wikidata:NULL	нет данных
+N34	Reference T59 Wikidata:Q9361	Бишкек
+N36	Reference T85 Wikidata:Q813	Киргизия
+N37	Reference T44 Wikidata:Q6589202	министерство внутренних дел
+N38	Reference T28 Wikidata:Q6589202	министерство внутренних дел
+N39	Reference T26 Wikidata:Q324782	Beretta
+N40	Reference T68 Wikidata:Q821172	РИА Новости
+N41	Reference T51 Wikidata:Q813	Киргизия
+N42	Reference T61 Wikidata:Q813	Киргизия
+N43	Reference T56 Wikidata:Q813	Киргизия
+N44	Reference T14 Wikidata:Q813	Киргизия
+N45	Reference T86 Wikidata:Q813	Киргизия
+N46	Reference T65 Wikidata:Q813	Киргизия
+N47	Reference T73 Wikidata:Q813	Киргизия
+N48	Reference T55 Wikidata:Q813	Киргизия
+N49	Reference T58 Wikidata:Q813	Киргизия
+N50	Reference T6 Wikidata:Q813	Киргизия
+N51	Reference T8 Wikidata:Q9361	Бишкек
+N52	Reference T83 Wikidata:Q9361	Бишкек
+N53	Reference T2 Wikidata:Q9361	Бишкек
+N54	Reference T57 Wikidata:Q30	США
+N55	Reference T96 Wikidata:Q30	США
+N56	Reference T15 Wikidata:Q30	США
+N57	Reference T108 Wikidata:Q30	США
+N58	Reference T7 Wikidata:Q30	США
+N59	Reference T81 Wikidata:Q30	США
+N60	Reference T30 Wikidata:Q30	США
+N61	Reference T67 Wikidata:Q30	США
+N62	Reference T50 Wikidata:Q30	США
+N63	Reference T66 Wikidata:Q30	США
+N64	Reference T60 Wikidata:Q30	США
+N65	Reference T90 Wikidata:Q47064	военнослужащий
+N66	Reference T79 Wikidata:Q846570	
+N67	Reference T1 Wikidata:Q846570	
+N68	Reference T104 Wikidata:Q846570	
+N69	Reference T103 Wikidata:NULL	нет данных
+N70	Reference T87 Wikidata:NULL	нет данных
+N71	Reference T93 Wikidata:NULL	нет данных
+N72	Reference T97 Wikidata:NULL	нет данных
+N73	Reference T54 Wikidata:NULL	нет данных

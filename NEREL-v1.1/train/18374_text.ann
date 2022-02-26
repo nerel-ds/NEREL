@@ -1,0 +1,89 @@
+T1	PERSON 0 14	Виталий Кличко
+T2	PERSON 24 37	Дереку Чисоре
+T3	AGE 52 61	40-летний
+T4	NATIONALITY 62 72	украинский
+T5	PERSON 80 94	Виталий Кличко
+T6	AGE 103 113	34-летнего
+T7	NATIONALITY 114 122	британца
+T8	PERSON 123 136	Дерека Чисору
+T9	ORDINAL 140 147	восьмой
+T10	ORGANIZATION 190 219	Всемирного боксерского совета
+T11	ORGANIZATION 221 224	WBC
+T12	PERSON 228 234	Кличко
+T13	NUMBER 267 269	12
+T14	NUMBER 278 281	119
+T15	PERSON 299 305	Чисоре
+T16	NUMBER 316 319	110
+T17	NATIONALITY 357 365	британец
+T18	PERSON 426 438	Дерек Чисора
+T19	PERSON 548 554	Кличко
+T20	PERSON 635 641	Кличко
+T21	ORGANIZATION 708 734	Всемирный боксерский совет
+T22	DATE 735 748	в тот же день
+T23	PERSON 760 766	Чисору
+T24	MONEY 770 787	50 тысяч долларов
+T25	PERSON 811 825	Виталия Кличко
+T26	ORDINAL 826 830	44-й
+T27	NUMBER 833 835	46
+T28	NUMBER 876 878	40
+T30	PERSON 916 925	Д. Чисора
+T31	ORDINAL 935 941	третий
+T32	NUMBER 949 951	18
+T33	PROFESSION 73 79	боксер
+T35	AWARD 166 179	чемпиона мира
+T36	PROFESSION 573 583	Ассистенты
+T37	PROFESSION 599 607	боксеров
+T38	EVENT 749 759	оштрафовал
+R1	WORKS_AS Arg1:T5 Arg2:T33	
+R2	ORIGINS_FROM Arg1:T5 Arg2:T4	
+R3	AGE_IS Arg1:T5 Arg2:T3	
+R4	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R5	AGE_IS Arg1:T8 Arg2:T6	
+T29	AWARD 166 219	чемпиона мира по версии Всемирного боксерского совета
+R6	ABBREVIATION Arg1:T10 Arg2:T11	
+R8	ORIGINS_FROM Arg1:T33 Arg2:T4	
+R9	AGE_IS Arg1:T33 Arg2:T3	
+R10	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R12	ALTERNATIVE_NAME Arg1:T8 Arg2:T18	
+R13	AGENT Arg1:T21 Arg2:T38	
+R14	PARTICIPANT_IN Arg1:T23 Arg2:T38	
+R15	EXPENDITURE Arg1:T23 Arg2:T24	
+T39	EVENT 563 571	пощечину
+R16	PARTICIPANT_IN Arg1:T18 Arg2:T39	
+R17	PARTICIPANT_IN Arg1:T19 Arg2:T39	
+R18	POINT_IN_TIME Arg1:T38 Arg2:T22	
+R19	ALTERNATIVE_NAME Arg1:T20 Arg2:T25	
+R20	ALTERNATIVE_NAME Arg1:T23 Arg2:T30	
+R21	WORKS_AS Arg1:T18 Arg2:T37	
+R22	WORKS_AS Arg1:T19 Arg2:T37	
+T40	EVENT 591 624	развели боксеров в разные стороны
+R23	PARTICIPANT_IN Arg1:T36 Arg2:T40	
+R24	PARTICIPANT_IN Arg1:T18 Arg2:T40	
+R25	PARTICIPANT_IN Arg1:T19 Arg2:T40	
+R7	AWARDED_WITH Arg1:T5 Arg2:T29	
+R26	PRODUCES Arg1:T10 Arg2:T29	
+R27	INANIMATE_INVOLVED Arg1:T24 Arg2:T38	
+N2	Reference T5 Wikidata:Q31919	Виталий Владимирович Кличко
+N3	Reference T11 Wikidata:Q724450	Всемирный боксёрский совет
+N4	Reference T17 Wikidata:Q842438	британцы
+N5	Reference T18 Wikidata:Q1199995	Дерек Чисора
+N6	Reference T25 Wikidata:Q31919	Виталий Владимирович Кличко
+N7	Reference T30 Wikidata:Q1199995	Дерек Чисора
+N1	Reference T4 Wikidata:Q44806	украинцы
+N8	Reference T35 Wikidata:Q2948691	
+N11	Reference T29 Wikidata:NULL	нет данных
+N9	Reference T36 Wikidata:NULL	нет данных
+N10	Reference T37 Wikidata:Q11338576	боксёр
+N12	Reference T12 Wikidata:Q31919	Виталий Владимирович Кличко
+N13	Reference T21 Wikidata:Q724450	Всемирный боксёрский совет
+N14	Reference T10 Wikidata:Q724450	Всемирный боксёрский совет
+N15	Reference T7 Wikidata:Q842438	британцы
+N16	Reference T2 Wikidata:Q1199995	Дерек Чисора
+N17	Reference T8 Wikidata:Q1199995	Дерек Чисора
+N18	Reference T19 Wikidata:Q31919	Виталий Владимирович Кличко
+N19	Reference T1 Wikidata:Q31919	Виталий Владимирович Кличко
+N20	Reference T20 Wikidata:Q31919	Виталий Владимирович Кличко
+N21	Reference T15 Wikidata:Q1199995	Дерек Чисора
+N22	Reference T23 Wikidata:Q1199995	Дерек Чисора
+N23	Reference T33 Wikidata:Q11338576	боксёр

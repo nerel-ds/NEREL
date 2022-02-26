@@ -1,0 +1,61 @@
+T1	PERSON 0 5	Путин
+T2	PERSON 60 74	Владимир Путин
+T3	PROFESSION 87 96	Президент
+T4	COUNTRY 97 103	России
+T5	PERSON 104 118	Владимир Путин
+T6	COUNTRY 266 286	Российской Федерации
+T16	DATE 445 463	На минувшей неделе
+T17	ORGANIZATION 464 471	Госдума
+T18	COUNTRY 472 474	РФ
+T19	ORDINAL 486 493	третьем
+T20	MONEY 683 709	от 3 тыс. до 5 тыс. рублей
+T21	MONEY 733 761	от 30 тыс. до 50 тыс. рублей
+T22	MONEY 786 813	от 800 тыс. до 1 млн рублей
+T24	COUNTRY 1117 1137	Российской Федерации
+T26	DATE 1209 1229	с 1 января 2018 года
+T27	EVENT 6 20	одобрил штрафы
+T28	PROFESSION 87 103	Президент России
+T30	LAW 128 286	закон об ответственности за несоблюдение организаторами сервисов по обмену сообщениями обязанностей, возложенных на них законодательством Российской Федерации
+T7	LAW 248 286	законодательством Российской Федерации
+T8	PRODUCT 406 442	интернет-портале правовой информации
+T9	ORGANIZATION 464 474	Госдума РФ
+T10	EVENT 475 483	одобрила
+T11	LAW 501 597	законопроект об ответственности за неисполнение закона о регулировании деятельности мессенджеров
+T12	LAW 1110 1173	Кодекс Российской Федерации об административных правонарушениях
+T14	LAW 37 58	закона о мессенджерах
+R1	AGENT Arg1:T1 Arg2:T27	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R3	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+T15	EVENT 119 133	подписал закон
+R4	AGENT Arg1:T5 Arg2:T15	
+R5	WORKPLACE Arg1:T5 Arg2:T4	
+R6	WORKS_AS Arg1:T5 Arg2:T28	
+R7	HEADQUARTERED_IN Arg1:T9 Arg2:T18	
+R8	POINT_IN_TIME Arg1:T10 Arg2:T16	
+R9	PRODUCES Arg1:T9 Arg2:T11	
+R10	PRODUCES Arg1:T5 Arg2:T30	
+R12	ALTERNATIVE_NAME Arg1:T30 Arg2:T11	
+R13	ALTERNATIVE_NAME Arg1:T14 Arg2:T30	
+R14	HAS_CAUSE Arg1:T27 Arg2:T14	
+R15	ORIGINS_FROM Arg1:T12 Arg2:T24	
+R16	WORKPLACE Arg1:T28 Arg2:T4	
+R17	INANIMATE_INVOLVED Arg1:T30 Arg2:T15	
+R18	AGENT Arg1:T9 Arg2:T10	
+R19	INANIMATE_INVOLVED Arg1:T11 Arg2:T10	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T6 Wikidata:Q159	Россия
+N4	Reference T17 Wikidata:Q715641	Государственная дума
+N5	Reference T18 Wikidata:Q159	Россия
+N6	Reference T28 Wikidata:Q218295	президент Российской Федерации
+N8	Reference T8 Wikidata:Q4340315	Официальный интернет-портал правовой информации
+N9	Reference T9 Wikidata:Q715641	Государственная дума
+N11	Reference T12 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N7	Reference T7 Wikidata:NULL	нет данных
+N10	Reference T11 Wikidata:NULL	нет данных
+N12	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N13	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N14	Reference T4 Wikidata:Q159	Россия
+N15	Reference T24 Wikidata:Q159	Россия
+N16	Reference T14 Wikidata:NULL	нет данных
+N17	Reference T30 Wikidata:NULL	нет данных

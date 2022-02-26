@@ -1,0 +1,213 @@
+T1	LOCATION 14 21	Эверест
+T2	AGE 30 39	80-летний
+T3	DATE 59 75	23 мая 2013 года
+T4	AGE 76 94	восьмидесятилетний
+T5	PERSON 95 107	Юитиро Миура
+T6	COUNTRY 111 117	Японии
+T7	AGE 345 354	81-летний
+T8	PERSON 372 390	Мин Бахадур Шерхан
+T9	DATE 401 412	с 2008 года
+T10	DATE 465 484	на следующей неделе
+T11	PERSON 487 499	Юитиро Миура
+T12	PERSON 527 538	Ючиро Миура
+T13	TIME 566 592	в 9:05 по местному времени
+T14	NUMBER 625 636	8848 метров
+T16	NUMBER 754 769	8,5 тыс. метров
+T17	TIME 817 830	за семь часов
+T18	PERSON 849 853	Гота
+T19	PERSON 879 890	Эмили Миура
+T20	PERSON 918 929	Емили Миура
+T21	PERSON 1025 1037	Юитиро Миура
+T22	AGE 1078 1084	80 лет
+T23	AGE 1201 1207	80 лет
+T24	PERSON 1288 1293	Миура
+T25	DATE 1340 1358	в январе 2013 года
+T26	ORDINAL 1407 1416	четвёртой
+T27	DATE 1427 1438	с 2007 года
+T28	DATE 1453 1464	в 2009 году
+T29	PERSON 1515 1527	Юитиро Миура
+T30	LOCATION 1554 1561	Эверест
+T31	AGE 1564 1566	70
+T32	AGE 1569 1575	75 лет
+T33	DATE 1591 1597	в 2003
+T34	DATE 1600 1610	2008 годах
+T35	DATE 1613 1624	В 2008 году
+T36	LOCATION 1661 1668	Эверест
+T38	PERSON 1692 1710	Мин Бахадур Шерхан
+T39	AGE 1760 1766	76 лет
+T40	DATE 1774 1781	за день
+T41	PERSON 1808 1813	Миура
+T42	AGE 1843 1849	75 лет
+T43	DATE 1852 1867	В мае 2011 года
+T44	AGE 1901 1910	82-летний
+T45	PROFESSION 1915 1945	министр иностранных дел Непала
+T46	PERSON 1946 1969	Шайлендра Кумар Упадхай
+T47	PERSON 2024 2030	Шерхан
+T48	DATE 2041 2052	в этом году
+T49	AGE 2064 2070	81 год
+T50	DATE 2112 2129	На прошлой неделе
+T51	NATIONALITY 40 46	японец
+T52	LOCATION 182 189	Эверест
+T53	COUNTRY 365 371	Непала
+T54	PERSON 501 506	三浦雄一郎
+T55	LOCATION 557 565	Эвереста
+T56	PERSON 637 642	Миура
+T57	PERSON 674 678	Гото
+T59	PROFESSION 689 698	проводник
+T60	PROFESSION 770 779	скалолазы
+T58	NATIONALITY 699 704	шерпа
+T61	PERSON 833 838	Миура
+T62	PERSON 892 897	三浦恵美里
+T63	PROFESSION 939 949	спортсмена
+T64	LOCATION 1114 1122	Эвереста
+T65	PROFESSION 1252 1262	спортсмены
+T66	DISEASE 1384 1391	аритмии
+T37	COUNTRY 1685 1691	Непала
+T67	LOCATION 1740 1748	Эвереста
+T69	PROFESSION 1915 1938	министр иностранных дел
+T72	COUNTRY 1939 1945	Непала
+T73	EVENT 2000 2009	скончался
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R2	ORIGINS_FROM Arg1:T5 Arg2:T6	
+R3	ORIGINS_FROM Arg1:T51 Arg2:T6	
+R4	AGE_IS Arg1:T51 Arg2:T2	
+T75	EVENT 145 163	операции на сердце
+T74	EVENT 14 29	Эверест покорил
+T76	EVENT 165 181	поднялся на гору
+R5	ALTERNATIVE_NAME Arg1:T74 Arg2:T76	
+R6	TAKES_PLACE_IN Arg1:T74 Arg2:T1	
+R8	AGENT Arg1:T51 Arg2:T74	
+R9	TAKES_PLACE_IN Arg1:T76 Arg2:T52	
+R10	AGENT Arg1:T5 Arg2:T76	
+R11	AGE_IS Arg1:T5 Arg2:T4	
+R12	POINT_IN_TIME Arg1:T76 Arg2:T3	
+R13	ORIGINS_FROM Arg1:T8 Arg2:T53	
+R14	AGE_IS Arg1:T8 Arg2:T7	
+T77	EVENT 247 285	восхождение на высочайшую вершину мира
+R15	ALTERNATIVE_NAME Arg1:T76 Arg2:T77	
+R16	ALTERNATIVE_NAME Arg1:T11 Arg2:T54	
+R17	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R18	LOCATED_IN Arg1:T11 Arg2:T55	
+T78	EVENT 597 614	покорение вершины
+T79	EVENT 453 464	восхождение
+R19	POINT_IN_TIME Arg1:T79 Arg2:T10	
+R20	AGENT Arg1:T8 Arg2:T79	
+R21	ALTERNATIVE_NAME Arg1:T77 Arg2:T79	
+R22	ALTERNATIVE_NAME Arg1:T79 Arg2:T78	
+R23	PARTICIPANT_IN Arg1:T11 Arg2:T78	
+R24	POINT_IN_TIME Arg1:T78 Arg2:T13	
+R25	ALTERNATIVE_NAME Arg1:T12 Arg2:T56	
+R26	PARENT_OF Arg1:T56 Arg2:T57	
+R27	AGENT Arg1:T57 Arg2:T78	
+R28	AGENT Arg1:T59 Arg2:T78	
+T15	DATE 715 733	около восьми суток
+T80	EVENT 800 816	рывок до вершины
+R29	AGENT Arg1:T60 Arg2:T80	
+R30	PARENT_OF Arg1:T61 Arg2:T18	
+R31	ALTERNATIVE_NAME Arg1:T19 Arg2:T62	
+R32	ALTERNATIVE_NAME Arg1:T19 Arg2:T20	
+R33	WORKS_AS Arg1:T61 Arg2:T63	
+R34	PARENT_OF Arg1:T61 Arg2:T19	
+R35	SIBLING Arg1:T18 Arg2:T19	
+T81	EVENT 854 878	позвонили с вершины горы
+R36	SUBEVENT_OF Arg1:T81 Arg2:T78	
+R37	AGENT Arg1:T61 Arg2:T81	
+R38	AGENT Arg1:T18 Arg2:T81	
+R39	PARTICIPANT_IN Arg1:T19 Arg2:T81	
+R40	ALTERNATIVE_NAME Arg1:T61 Arg2:T21	
+R41	AGE_IS Arg1:T21 Arg2:T22	
+R42	WORKS_AS Arg1:T21 Arg2:T65	
+R43	WORKS_AS Arg1:T18 Arg2:T65	
+T82	EVENT 1303 1314	восхождение
+R44	SUBEVENT_OF Arg1:T80 Arg2:T78	
+R45	ALTERNATIVE_NAME Arg1:T78 Arg2:T82	
+R46	AGENT Arg1:T24 Arg2:T82	
+T83	EVENT 1359 1377	операцию на сердце
+T84	DATE 119 126	недавно
+R7	POINT_IN_TIME Arg1:T75 Arg2:T84	
+R47	PARTICIPANT_IN Arg1:T5 Arg2:T75	
+R48	HAS_CAUSE Arg1:T83 Arg2:T66	
+R49	POINT_IN_TIME Arg1:T83 Arg2:T25	
+R50	MEDICAL_CONDITION Arg1:T24 Arg2:T66	
+T85	EVENT 1417 1426	операцией
+T86	EVENT 1494 1506	сломал бедро
+R51	PARTICIPANT_IN Arg1:T24 Arg2:T86	
+R52	POINT_IN_TIME Arg1:T86 Arg2:T28	
+R53	PARTICIPANT_IN Arg1:T24 Arg2:T85	
+T87	EVENT 1540 1561	поднимался на Эверест
+R54	AGENT Arg1:T29 Arg2:T87	
+R55	TAKES_PLACE_IN Arg1:T87 Arg2:T30	
+R56	AGE_IS Arg1:T29 Arg2:T31	
+R57	AGE_IS Arg1:T29 Arg2:T32	
+R58	POINT_IN_TIME Arg1:T87 Arg2:T33	
+R59	POINT_IN_TIME Arg1:T87 Arg2:T34	
+R60	ORIGINS_FROM Arg1:T38 Arg2:T37	
+T88	EVENT 1650 1668	покорившим Эверест
+R61	TAKES_PLACE_IN Arg1:T88 Arg2:T36	
+R62	PARTICIPANT_IN Arg1:T38 Arg2:T88	
+R63	POINT_IN_TIME Arg1:T88 Arg2:T35	
+R64	ALTERNATIVE_NAME Arg1:T87 Arg2:T88	
+T89	EVENT 1720 1739	поднялся на вершину
+R65	PARTICIPANT_IN Arg1:T38 Arg2:T89	
+R66	AGE_IS Arg1:T38 Arg2:T39	
+R67	TAKES_PLACE_IN Arg1:T89 Arg2:T67	
+R68	ALTERNATIVE_NAME Arg1:T88 Arg2:T89	
+R69	AGE_IS Arg1:T41 Arg2:T42	
+R70	WORKPLACE Arg1:T45 Arg2:T72	
+R71	WORKS_AS Arg1:T46 Arg2:T45	
+R72	WORKPLACE Arg1:T46 Arg2:T72	
+R73	AGE_DIED_AT Arg1:T46 Arg2:T44	
+R74	PARTICIPANT_IN Arg1:T46 Arg2:T73	
+R75	POINT_IN_TIME Arg1:T73 Arg2:T43	
+R76	ALTERNATIVE_NAME Arg1:T38 Arg2:T47	
+R77	AGE_IS Arg1:T47 Arg2:T49	
+R78	DATE_OF_DEATH Arg1:T46 Arg2:T43	
+T68	EVENT 2091 2110	восхождению на гору
+R79	AGENT Arg1:T47 Arg2:T68	
+R80	ALTERNATIVE_NAME Arg1:T89 Arg2:T68	
+T70	PROFESSION 1915 1922	министр
+R81	AGENT Arg1:T56 Arg2:T78	
+R82	PARTICIPANT_IN Arg1:T24 Arg2:T83	
+N1	Reference T6 Wikidata:Q17	Япония
+N2	Reference T11 Wikidata:Q325155	Миура, Юитиро
+N4	Reference T29 Wikidata:Q325155	Миура, Юитиро
+N5	Reference T30 Wikidata:Q513	Джомолунгма
+N9	Reference T51 Wikidata:Q161652	японцы
+N12	Reference T60 Wikidata:Q3951423	скалолаз
+N14	Reference T65 Wikidata:Q2066131	спортсмен
+N15	Reference T37 Wikidata:Q837	Непал
+N16	Reference T69 Wikidata:Q7330070	министр иностранных дел
+N17	Reference T70 Wikidata:Q83307	министр
+N10	Reference T57 Wikidata:NULL	нет данных
+N13	Reference T58 Wikidata:Q200513	Шерпы
+N3	Reference T18 Wikidata:NULL	нет данных
+N18	Reference T1 Wikidata:NULL	нет данных
+N6	Reference T45 Wikidata:NULL	нет данных
+N7	Reference T46 Wikidata:Q978732	
+N8	Reference T47 Wikidata:Q17379609	
+N11	Reference T59 Wikidata:Q819677	
+N19	Reference T54 Wikidata:Q325155	Миура, Юитиро
+N20	Reference T56 Wikidata:Q325155	Миура, Юитиро
+N21	Reference T12 Wikidata:Q325155	Миура, Юитиро
+N22	Reference T5 Wikidata:Q325155	Миура, Юитиро
+N23	Reference T24 Wikidata:Q325155	Миура, Юитиро
+N24	Reference T61 Wikidata:Q325155	Миура, Юитиро
+N25	Reference T41 Wikidata:Q325155	Миура, Юитиро
+N26	Reference T21 Wikidata:Q325155	Миура, Юитиро
+N27	Reference T55 Wikidata:Q513	Джомолунгма
+N28	Reference T64 Wikidata:Q513	Джомолунгма
+N29	Reference T52 Wikidata:Q513	Джомолунгма
+N30	Reference T67 Wikidata:Q513	Джомолунгма
+N31	Reference T36 Wikidata:Q513	Джомолунгма
+N32	Reference T1 Wikidata:Q513	Джомолунгма
+N33	Reference T63 Wikidata:Q2066131	спортсмен
+N34	Reference T72 Wikidata:Q837	Непал
+N35	Reference T53 Wikidata:Q837	Непал
+N36	Reference T55 Wikidata:NULL	нет данных
+N37	Reference T64 Wikidata:NULL	нет данных
+N38	Reference T52 Wikidata:NULL	нет данных
+N39	Reference T67 Wikidata:NULL	нет данных
+N40	Reference T36 Wikidata:NULL	нет данных
+N41	Reference T30 Wikidata:NULL	нет данных
+N42	Reference T8 Wikidata:Q17379609	
+N43	Reference T38 Wikidata:Q17379609	

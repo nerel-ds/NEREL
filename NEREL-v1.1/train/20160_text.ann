@@ -1,0 +1,76 @@
+T1	CITY 2 10	Харькове
+T2	EVENT 18 45	областной кубок кикбоксинга
+T3	DATE 57 67	13 октября
+T5	EVENT 127 167	Кубок Харьковской области по кикбоксингу
+T7	NUMBER 196 208	примерно 200
+T8	CITY 224 232	Харькова
+T9	AGE 272 286	от 6 до 18 лет
+T10	PROFESSION 314 332	почётный президент
+T11	PERSON 347 361	Дмитрий Святаш
+T12	DATE 479 493	2011—2012 года
+T13	PERSON 581 586	Игорь
+T14	PERSON 589 593	Леша
+T15	ORGANIZATION 648 656	Пересвет
+T16	NUMBER 714 723	ни одного
+T17	PERCENT 798 811	сто процентов
+T18	ORGANIZATION 826 835	Пересвета
+T19	PERSON 868 882	Дмитрий Святаш
+T20	EVENT 28 45	кубок кикбоксинга
+T21	ORDINAL 80 85	25-ой
+T22	FACILITY 80 91	25-ой школы
+T24	DISTRICT 92 110	Московского района
+T25	CITY 111 119	Харькова
+T6	STATE_OR_PROVINCE 133 152	Харьковской области
+T26	PROFESSION 209 220	кикбоксеров
+T27	EVENT 301 313	соревнований
+T28	EVENT 292 313	открытии соревнований
+T29	PROFESSION 314 345	почётный президент СК «Пересвет
+T32	ORGANIZATION 337 345	Пересвет
+T33	PROFESSION 370 381	спортсменам
+T34	PROFESSION 419 430	кикбоксерам
+T35	PROFESSION 602 612	спортсмены
+T36	PROFESSION 724 734	спортсмена
+R1	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R2	LOCATED_IN Arg1:T22 Arg2:T24	
+R3	LOCATED_IN Arg1:T24 Arg2:T25	
+R4	LOCATED_IN Arg1:T25 Arg2:T6	
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T22	
+R6	POINT_IN_TIME Arg1:T5 Arg2:T3	
+R7	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R8	ORIGINS_FROM Arg1:T26 Arg2:T8	
+R9	PARTICIPANT_IN Arg1:T26 Arg2:T5	
+R10	WORKS_AS Arg1:T11 Arg2:T29	
+R11	WORKPLACE Arg1:T11 Arg2:T32	
+R12	WORKPLACE Arg1:T29 Arg2:T32	
+T4	EVENT 392 414	вручил денежные премии
+R13	PARTICIPANT_IN Arg1:T11 Arg2:T4	
+R14	PARTICIPANT_IN Arg1:T34 Arg2:T4	
+R15	SUBEVENT_OF Arg1:T28 Arg2:T27	
+R16	ALTERNATIVE_NAME Arg1:T27 Arg2:T5	
+R17	SUBEVENT_OF Arg1:T4 Arg2:T28	
+R18	WORKS_AS Arg1:T13 Arg2:T35	
+R19	WORKS_AS Arg1:T14 Arg2:T35	
+R20	MEMBER_OF Arg1:T13 Arg2:T15	
+R21	MEMBER_OF Arg1:T14 Arg2:T15	
+T23	CITY 92 103	Московского
+N2	Reference T11 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N8	Reference T25 Wikidata:Q42308	Харьков
+N9	Reference T6 Wikidata:Q170666	Харьковская область
+N12	Reference T35 Wikidata:Q2066131	спортсмен
+N13	Reference T23 Wikidata:Q649	Москва
+N7	Reference T24 Wikidata:Q4304270	Московский район
+N6	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T26 Wikidata:Q11296761	
+N1	Reference T10 Wikidata:Q1300660	
+N11	Reference T29 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N14	Reference T19 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N15	Reference T8 Wikidata:Q42308	Харьков
+N16	Reference T1 Wikidata:Q42308	Харьков
+N17	Reference T36 Wikidata:Q2066131	спортсмен
+N18	Reference T33 Wikidata:Q2066131	спортсмен
+N19	Reference T34 Wikidata:Q11296761	
+N20	Reference T32 Wikidata:NULL	нет данных
+N21	Reference T15 Wikidata:NULL	нет данных

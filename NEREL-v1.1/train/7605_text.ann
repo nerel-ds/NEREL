@@ -1,0 +1,66 @@
+T1	PERSON 26 37	Павел Смеян
+T2	DATE 38 45	11 июля
+T3	COUNTRY 79 87	Германии
+T4	AGE 88 100	на 53-м году
+T5	PROFESSION 117 123	артист
+T6	PERSON 132 143	Павел Смеян
+T7	COUNTRY 160 166	Россия
+T9	PERSON 332 337	Павел
+T10	COUNTRY 424 430	России
+T11	COUNTRY 536 544	Германии
+T12	PROFESSION 676 681	певца
+T13	PROFESSION 684 695	композитора
+T14	AGE 704 717	полугодовалый
+T15	PERSON 722 729	Макарий
+T16	PROFESSION 17 25	музыкант
+T17	ORGANIZATION 124 131	Ленкома
+T8	WORK_OF_ART 233 245	Мэри Поппинс
+T18	WORK_OF_ART 259 268	33 коровы
+T19	WORK_OF_ART 273 281	Непогода
+T20	WORK_OF_ART 285 298	Ветер перемен
+T21	PROFESSION 379 384	врачу
+R1	WORKS_AS Arg1:T1 Arg2:T16	
+T22	PROFESSION 117 131	артист Ленкома
+R2	WORKPLACE Arg1:T6 Arg2:T17	
+R3	WORKS_AS Arg1:T6 Arg2:T22	
+R4	AGE_DIED_AT Arg1:T6 Arg2:T4	
+R5	PLACE_OF_DEATH Arg1:T6 Arg2:T3	
+R6	DATE_OF_DEATH Arg1:T6 Arg2:T2	
+R7	PARTICIPANT_IN Arg1:T6 Arg2:T8	
+R8	PRODUCES Arg1:T6 Arg2:T18	
+R9	PRODUCES Arg1:T6 Arg2:T19	
+R10	PRODUCES Arg1:T6 Arg2:T20	
+T23	DISEASE 358 372	боли в желудке
+R11	MEDICAL_CONDITION Arg1:T9 Arg2:T23	
+R12	PARENT_OF Arg1:T9 Arg2:T15	
+R13	AGE_IS Arg1:T15 Arg2:T14	
+R14	PARENT_OF Arg1:T13 Arg2:T15	
+R15	WORKS_AS Arg1:T9 Arg2:T12	
+R16	WORKS_AS Arg1:T9 Arg2:T13	
+T24	EVENT 107 116	скончался
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T24	
+R18	TAKES_PLACE_IN Arg1:T24 Arg2:T3	
+R19	POINT_IN_TIME Arg1:T24 Arg2:T2	
+T25	EVENT 0 4	Умер
+R20	PARTICIPANT_IN Arg1:T1 Arg2:T25	
+R21	WORKPLACE Arg1:T22 Arg2:T17	
+R22	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+T26	NUMBER 259 261	33
+N1	Reference T5 Wikidata:Q483501	деятель искусств
+N2	Reference T6 Wikidata:Q2214877	Павел Евгеньевич Смеян
+N3	Reference T10 Wikidata:Q159	Россия
+N4	Reference T11 Wikidata:Q183	Германия
+N5	Reference T12 Wikidata:Q177220	певец
+N6	Reference T13 Wikidata:Q36834	композитор
+N7	Reference T15 Wikidata:Q2622516	Макарий
+N8	Reference T16 Wikidata:Q639669	музыкант
+N9	Reference T17 Wikidata:Q2396186	Ленком
+N10	Reference T8 Wikidata:Q3735317	Мэри Поппинс
+N11	Reference T18 Wikidata:Q11748378	корова
+N12	Reference T19 Wikidata:Q2667308	Дмитрий Непогодов
+N13	Reference T21 Wikidata:Q39631	врач
+N14	Reference T22 Wikidata:Q2396186	Ленком
+N15	Reference T9 Wikidata:Q2214877	Павел Евгеньевич Смеян
+N16	Reference T1 Wikidata:Q2214877	Павел Евгеньевич Смеян
+N17	Reference T7 Wikidata:Q159	Россия
+N18	Reference T3 Wikidata:Q183	Германия

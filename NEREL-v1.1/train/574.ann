@@ -1,0 +1,113 @@
+T1	PROFESSION 0 27	Спикер парламента Австралии
+T2	PROFESSION 61 102	Спикер нижней палаты парламента Австралии
+T3	PERSON 103 116	Питер Слиппер
+T5	PERSON 230 240	П.Слиппера
+T6	ORGANIZATION 291 299	Би-би-си
+T8	PERSON 302 312	П.Слиппера
+T10	AGE 395 405	33-летнему
+T11	PERSON 406 418	Джеймсу Эшби
+T12	PROFESSION 467 474	спикера
+T13	PROFESSION 526 532	спикер
+T14	ORGANIZATION 590 597	Twitter
+T16	PERSON 626 633	Дж.Эшби
+T17	PROFESSION 696 709	парламентарий
+T18	PROFESSION 757 775	спикера парламента
+T19	PROFESSION 858 865	спикеру
+T20	ORGANIZATION 916 934	Либеральной партии
+T22	PERSON 946 955	П.Слиппер
+T23	ORGANIZATION 987 1007	Лейбористскую партию
+T26	PERSON 1024 1033	П.Слиппер
+T27	ORGANIZATION 7 27	парламента Австралии
+T28	COUNTRY 18 27	Австралии
+T29	ORGANIZATION 68 102	нижней палаты парламента Австралии
+T30	ORGANIZATION 82 102	парламента Австралии
+T31	COUNTRY 93 102	Австралии
+T4	ORGANIZATION 765 775	парламента
+T7	ORGANIZATION 1088 1116	лейбористского правительства
+T9	ORGANIZATION 1175 1185	парламенте
+T15	IDEOLOGY 916 927	Либеральной
+T21	IDEOLOGY 987 1000	Лейбористскую
+T24	IDEOLOGY 1088 1102	лейбористского
+T25	EVENT 28 40	покинул пост
+T32	EVENT 47 59	гей-скандала
+T33	PROFESSION 0 6	Спикер
+T34	ORGANIZATION 7 17	парламента
+R1	WORKPLACE Arg1:T1 Arg2:T27	
+R2	HEADQUARTERED_IN Arg1:T27 Arg2:T28	
+R3	AGENT Arg1:T1 Arg2:T25	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T32	
+T35	ORGANIZATION 82 92	парламента
+T36	ORGANIZATION 68 81	нижней палаты
+T37	PROFESSION 61 67	Спикер
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R6	WORKS_AS Arg1:T3 Arg2:T2	
+R7	WORKPLACE Arg1:T3 Arg2:T29	
+R8	HEADQUARTERED_IN Arg1:T29 Arg2:T31	
+T38	CRIME 243 280	сексуальных домогательствах к мужчине
+T39	CRIME 243 270	сексуальных домогательствах
+R9	AGE_IS Arg1:T11 Arg2:T10	
+T40	CRIME 362 392	приставал к бывшему сотруднику
+R10	KNOWS Arg1:T8 Arg2:T11	
+T41	CRIME 486 519	злоупотреблениях служебными такси
+R11	WORKS_AS Arg1:T8 Arg2:T12	
+R12	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R14	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+T42	EVENT 731 756	сложить с себя полномочия
+R15	AGENT Arg1:T17 Arg2:T42	
+T43	EVENT 126 150	сложил с себя полномочия
+R16	ALTERNATIVE_NAME Arg1:T25 Arg2:T43	
+R17	AGENT Arg1:T3 Arg2:T43	
+T44	IDEOLOGY 902 915	оппозиционной
+R18	IDEOLOGY_OF Arg1:T20 Arg2:T15	
+R19	IDEOLOGY_OF Arg1:T20 Arg2:T44	
+R20	IDEOLOGY_OF Arg1:T23 Arg2:T21	
+R21	MEMBER_OF Arg1:T22 Arg2:T23	
+R22	IDEOLOGY_OF Arg1:T7 Arg2:T24	
+R23	WORKPLACE Arg1:T26 Arg2:T7	
+T45	ORGANIZATION 1103 1116	правительства
+R24	CONVICTED_OF Arg1:T5 Arg2:T38	
+R25	HAS_CAUSE Arg1:T43 Arg2:T38	
+R26	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R27	CONVICTED_OF Arg1:T8 Arg2:T40	
+R28	CONVICTED_OF Arg1:T8 Arg2:T41	
+R29	HAS_CAUSE Arg1:T25 Arg2:T32	
+R30	PART_OF Arg1:T29 Arg2:T30	
+R31	HEADQUARTERED_IN Arg1:T30 Arg2:T31	
+R32	CONVICTED_OF Arg1:T12 Arg2:T41	
+R33	CONVICTED_OF Arg1:T8 Arg2:T41	
+R34	PARTICIPANT_IN Arg1:T4 Arg2:T42	
+R35	WORKS_AS Arg1:T22 Arg2:T19	
+R36	IDEOLOGY_OF Arg1:T26 Arg2:T24	
+N2	Reference T6 Wikidata:Q9531	Би-би-си
+N4	Reference T14 Wikidata:Q918	Твиттер
+N6	Reference T20 Wikidata:Q622441	Либеральная партия
+N7	Reference T23 Wikidata:Q9630	Лейбористская партия
+N9	Reference T27 Wikidata:Q382118	Парламент Австралии
+N10	Reference T31 Wikidata:Q408	Австралия
+N12	Reference T9 Wikidata:Q35749	парламент
+N14	Reference T45 Wikidata:Q7188	правительство
+N1	Reference T1 Wikidata:NULL	нет данных
+N15	Reference T29 Wikidata:NULL	нет данных
+N16	Reference T36 Wikidata:NULL	нет данных
+N13	Reference T37 Wikidata:Q1758037	спикер
+N3	Reference T11 Wikidata:Q27063159	
+N5	Reference T18 Wikidata:Q1758037	спикер
+N8	Reference T26 Wikidata:Q7176978	
+N11	Reference T7 Wikidata:NULL	нет данных
+N17	Reference T30 Wikidata:Q382118	Парламент Австралии
+N18	Reference T28 Wikidata:Q408	Австралия
+N19	Reference T35 Wikidata:Q35749	парламент
+N20	Reference T34 Wikidata:Q35749	парламент
+N21	Reference T4 Wikidata:Q35749	парламент
+N22	Reference T2 Wikidata:NULL	нет данных
+N23	Reference T17 Wikidata:Q1758037	спикер
+N24	Reference T33 Wikidata:Q1758037	спикер
+N25	Reference T13 Wikidata:Q1758037	спикер
+N26	Reference T12 Wikidata:Q1758037	спикер
+N27	Reference T19 Wikidata:Q1758037	спикер
+N28	Reference T16 Wikidata:Q27063159	
+N29	Reference T5 Wikidata:Q7176978	
+N30	Reference T8 Wikidata:Q7176978	
+N31	Reference T22 Wikidata:Q7176978	
+N32	Reference T3 Wikidata:Q7176978	

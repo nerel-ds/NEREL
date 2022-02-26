@@ -1,0 +1,65 @@
+T1	COUNTRY 2 8	России
+T2	DATE 31 40	на 10 лет
+T3	COUNTRY 119 122	США
+T4	DATE 123 142	в декабре 1941 года
+T5	COUNTRY 186 189	США
+T6	DATE 203 214	в 1973 году
+T7	DATE 216 232	5 июля 2017 года
+T8	ORGANIZATION 234 241	Госдума
+T9	ORDINAL 254 260	втором
+T10	COUNTRY 308 314	России
+T11	DATE 348 368	в течение десяти лет
+T12	ORGANIZATION 489 510	Конституционного суда
+T13	DATE 642 660	течение десяти лет
+T15	LAW 904 943	О государственной гражданской службе РФ
+T16	LAW 948 975	О муниципальной службе в РФ
+T17	PROFESSION 1209 1223	первый зампред
+T18	ORGANIZATION 1224 1252	думского комитета по обороне
+T19	PERSON 1253 1266	Андрей Красов
+T20	ORGANIZATION 1269 1282	Единая Россия
+T21	DATE 1347 1358	на пять лет
+T22	PERSON 1396 1402	Красов
+T23	DATE 1428 1441	до десяти лет
+T27	PROFESSION 442 450	Депутаты
+T28	PROFESSION 601 612	госслужащим
+T14	PROFESSION 1209 1252	первый зампред думского комитета по обороне
+T26	EVENT 73 104	Медицинское освидетельствование
+R1	TAKES_PLACE_IN Arg1:T26 Arg2:T3	
+T29	PROFESSION 105 116	призывников
+R2	PARTICIPANT_IN Arg1:T29 Arg2:T26	
+R3	POINT_IN_TIME Arg1:T26 Arg2:T4	
+T25	EVENT 158 183	всеобщий воинский призыва
+R4	TAKES_PLACE_IN Arg1:T25 Arg2:T5	
+R5	POINT_IN_TIME Arg1:T25 Arg2:T6	
+T24	EVENT 242 280	одобрила во втором чтении законопроект
+R6	AGENT Arg1:T8 Arg2:T24	
+R7	POINT_IN_TIME Arg1:T24 Arg2:T7	
+T30	COUNTRY 973 975	РФ
+T31	COUNTRY 941 943	РФ
+R8	ALTERNATIVE_NAME Arg1:T10 Arg2:T31	
+R9	WORKPLACE Arg1:T14 Arg2:T18	
+R10	WORKPLACE Arg1:T19 Arg2:T18	
+R11	WORKS_AS Arg1:T19 Arg2:T14	
+R12	MEMBER_OF Arg1:T19 Arg2:T20	
+R13	ALTERNATIVE_NAME Arg1:T19 Arg2:T22	
+T32	PENALTY 41 71	запретят работать в госорганах
+T33	PENALTY 369 439	нельзя брать на работу в государственные и муниципальные органы власти
+R14	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+N1	Reference T5 Wikidata:Q30	США
+N2	Reference T8 Wikidata:Q715641	Государственная дума
+N3	Reference T12 Wikidata:Q584759	Конституционный Суд Российской Федерации
+N7	Reference T20 Wikidata:Q151469	Единая Россия
+N9	Reference T27 Wikidata:Q486839	член парламента
+N10	Reference T28 Wikidata:Q212238	государственный служащий
+N11	Reference T30 Wikidata:Q159	Россия
+N12	Reference T29 Wikidata:Q4378283	
+N4	Reference T15 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T14 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q4239752	
+N14	Reference T3 Wikidata:Q30	США
+N15	Reference T31 Wikidata:Q159	Россия
+N16	Reference T10 Wikidata:Q159	Россия
+N17	Reference T1 Wikidata:Q159	Россия
+N18	Reference T19 Wikidata:Q4239752	

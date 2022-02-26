@@ -1,0 +1,150 @@
+T1	PERSON 0 7	Эрдоган
+T2	CITY 9 21	брюссельский
+T3	COUNTRY 53 59	Турции
+T4	LOCATION 70 76	Европе
+T6	NUMBER 98 102	Один
+T7	COUNTRY 149 161	бельгийскими
+T8	COUNTRY 187 193	Турции
+T9	LOCATION 211 217	Европу
+T10	DATE 248 283	приблизительно восемь месяцев назад
+T11	DATE 293 319	в среду 23 марта 2016 года
+T13	PERSON 345 365	Реджеп Тайип Эрдоган
+T14	COUNTRY 378 387	турецкого
+T15	ORGANIZATION 400 413	правительство
+T16	COUNTRY 434 441	Бельгии
+T17	PERSON 464 481	Ибрагимом Бакрауи
+T19	FACILITY 530 544	КПП Газиантепа
+T20	COUNTRY 568 573	Сирию
+T21	DATE 587 603	в июле 2015 года
+T22	LOCATION 625 631	Европу
+T23	PERSON 758 765	Эрдоган
+T24	PERSON 801 808	Бакрауи
+T25	COUNTRY 848 854	Турции
+T26	AGE 933 943	29-летнего
+T27	COUNTRY 955 962	Бельгии
+T28	PROFESSION 975 984	Президент
+T29	PERSON 1005 1020	Ибрагим Бакрауи
+T30	COUNTRY 1040 1050	Нидерланды
+T31	PERSON 1094 1101	Эрдоган
+T32	PERSON 1136 1143	Бакрауи
+T33	COUNTRY 1161 1172	Нидерландов
+T34	COUNTRY 1175 1182	Бельгию
+T35	CITY 1215 1221	Анкаре
+T36	PERSON 1223 1230	Эрдоган
+T37	PERSON 1256 1263	Бакрауи
+T38	COUNTRY 1295 1303	турецкой
+T39	COUNTRY 1391 1397	Турции
+T40	COUNTRY 1415 1423	Бельгией
+T41	PERSON 1429 1445	Ибрагима Бакрауи
+T5	PERSON 77 97	Реджеп Тайип Эрдоган
+T42	IDEOLOGY 106 128	террористов-смертников
+T43	COUNTRY 338 344	Турции
+T12	PROFESSION 328 337	президент
+T44	PROFESSION 328 344	президент Турции
+T45	IDEOLOGY 22 31	террорист
+T46	COUNTRY 490 496	Турции
+T47	PROFESSION 378 394	турецкого лидера
+T18	COUNTRY 985 991	Турции
+T48	PROFESSION 975 991	Президент Турции
+T49	IDEOLOGY 1364 1374	террориста
+T50	PROFESSION 1200 1212	журналистами
+T51	IDEOLOGY 743 754	террористом
+R1	WORKS_AS Arg1:T13 Arg2:T44	
+R2	WORKPLACE Arg1:T13 Arg2:T43	
+T52	EVENT 497 506	задержали
+R3	PARTICIPANT_IN Arg1:T17 Arg2:T52	
+R4	TAKES_PLACE_IN Arg1:T52 Arg2:T19	
+T53	EVENT 605 618	депортировали
+R5	POINT_IN_TIME Arg1:T53 Arg2:T21	
+R6	AGENT Arg1:T17 Arg2:T53	
+R7	IDEOLOGY_OF Arg1:T17 Arg2:T51	
+R8	AGE_IS Arg1:T17 Arg2:T26	
+T54	EVENT 42 50	задержан
+R9	PARTICIPANT_IN Arg1:T45 Arg2:T54	
+R10	TAKES_PLACE_IN Arg1:T54 Arg2:T3	
+R11	ORIGINS_FROM Arg1:T45 Arg2:T2	
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+T55	EVENT 176 184	задержан
+T56	EVENT 196 208	депортирован
+T57	EVENT 227 247	отпустили на свободу
+R13	PARTICIPANT_IN Arg1:T42 Arg2:T55	
+R14	TAKES_PLACE_IN Arg1:T55 Arg2:T8	
+R15	ALTERNATIVE_NAME Arg1:T45 Arg2:T42	
+R16	PARTICIPANT_IN Arg1:T42 Arg2:T56	
+R17	TAKES_PLACE_IN Arg1:T56 Arg2:T9	
+R18	PARTICIPANT_IN Arg1:T42 Arg2:T57	
+R19	TAKES_PLACE_IN Arg1:T57 Arg2:T9	
+R20	POINT_IN_TIME Arg1:T57 Arg2:T10	
+R21	WORKPLACE Arg1:T44 Arg2:T43	
+R22	ALTERNATIVE_NAME Arg1:T44 Arg2:T47	
+R23	ALTERNATIVE_NAME Arg1:T55 Arg2:T52	
+R25	TAKES_PLACE_IN Arg1:T53 Arg2:T22	
+T58	EVENT 644 662	выпущен на свободу
+R26	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R27	PARTICIPANT_IN Arg1:T17 Arg2:T58	
+R28	TAKES_PLACE_IN Arg1:T58 Arg2:T22	
+R29	ALTERNATIVE_NAME Arg1:T17 Arg2:T24	
+R30	ALTERNATIVE_NAME Arg1:T24 Arg2:T29	
+R31	WORKPLACE Arg1:T48 Arg2:T18	
+T59	EVENT 1025 1037	депортирован
+R32	PARTICIPANT_IN Arg1:T29 Arg2:T59	
+R33	TAKES_PLACE_IN Arg1:T59 Arg2:T30	
+R34	ALTERNATIVE_NAME Arg1:T29 Arg2:T32	
+R35	WORKS_AS Arg1:T31 Arg2:T48	
+R36	ALTERNATIVE_NAME Arg1:T37 Arg2:T41	
+T60	EVENT 1185 1193	Выступая
+R37	PARTICIPANT_IN Arg1:T50 Arg2:T60	
+R38	AGENT Arg1:T36 Arg2:T60	
+R39	TAKES_PLACE_IN Arg1:T60 Arg2:T35	
+R40	IDEOLOGY_OF Arg1:T37 Arg2:T49	
+T61	ORGANIZATION 149 170	бельгийскими властями
+R41	HEADQUARTERED_IN Arg1:T61 Arg2:T7	
+R42	WORKPLACE Arg1:T47 Arg2:T14	
+R24	IDEOLOGY_OF Arg1:T17 Arg2:T42	
+T62	ORGANIZATION 483 496	власти Турции
+R43	HEADQUARTERED_IN Arg1:T62 Arg2:T46	
+R44	AGENT Arg1:T62 Arg2:T52	
+N3	Reference T7 Wikidata:Q31	Бельгия
+N4	Reference T15 Wikidata:Q7188	правительство
+N6	Reference T20 Wikidata:Q858	Сирия
+N7	Reference T22 Wikidata:Q46	Европа
+N8	Reference T27 Wikidata:Q31	Бельгия
+N9	Reference T28 Wikidata:Q30461	президент
+N10	Reference T30 Wikidata:Q55	Нидерланды
+N11	Reference T35 Wikidata:Q3640	Анкара
+N13	Reference T46 Wikidata:Q43	Турция
+N15	Reference T50 Wikidata:Q1930187	журналист
+N1	Reference T1 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N2	Reference T2 Wikidata:Q239	Брюссель
+N16	Reference T61 Wikidata:NULL	нет данных
+N17	Reference T62 Wikidata:NULL	нет данных
+N5	Reference T19 Wikidata:NULL	нет данных
+N14	Reference T47 Wikidata:Q1922067	президент Турции
+N12	Reference T38 Wikidata:Q43	Турция
+N18	Reference T37 Wikidata:NULL	нет данных
+N19	Reference T24 Wikidata:NULL	нет данных
+N20	Reference T4 Wikidata:Q46	Европа
+N21	Reference T9 Wikidata:Q46	Европа
+N22	Reference T34 Wikidata:Q31	Бельгия
+N23	Reference T40 Wikidata:Q31	Бельгия
+N24	Reference T16 Wikidata:Q31	Бельгия
+N25	Reference T12 Wikidata:Q30461	президент
+N26	Reference T33 Wikidata:Q55	Нидерланды
+N27	Reference T25 Wikidata:Q43	Турция
+N28	Reference T8 Wikidata:Q43	Турция
+N29	Reference T43 Wikidata:Q43	Турция
+N30	Reference T18 Wikidata:Q43	Турция
+N31	Reference T3 Wikidata:Q43	Турция
+N32	Reference T39 Wikidata:Q43	Турция
+N33	Reference T31 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N34	Reference T13 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N35	Reference T23 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N36	Reference T36 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N37	Reference T5 Wikidata:Q39259	Реджеп Тайип Эрдоган
+N38	Reference T44 Wikidata:Q1922067	президент Турции
+N39	Reference T48 Wikidata:Q1922067	президент Турции
+N40	Reference T14 Wikidata:Q43	Турция
+N41	Reference T41 Wikidata:NULL	нет данных
+N42	Reference T32 Wikidata:NULL	нет данных
+N43	Reference T29 Wikidata:NULL	нет данных
+N44	Reference T17 Wikidata:NULL	нет данных

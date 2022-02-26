@@ -1,0 +1,77 @@
+T1	PERSON 0 10	Билл Гейтс
+T2	COUNTRY 24 29	Китае
+T3	PERSON 174 184	Билл Гейтс
+T4	EVENT 188 196	выставке
+T5	COUNTRY 199 204	Китае
+T6	PERSON 702 714	Билла Гейтса
+T7	PERSON 729 736	Мелинды
+T8	PERSON 748 754	Гейтса
+T9	DATE 783 787	годы
+T11	MONEY 865 873	$200 млн
+T12	DATE 977 993	десять лет назад
+T13	PERSON 1087 1094	Мелинде
+T14	PERSON 1240 1245	Гейтс
+T15	PERSON 1248 1253	Гейтс
+T16	DATE 1348 1370	в середине 1970-х годы
+T17	ORGANIZATION 1389 1398	Microsoft
+T18	PERSON 1626 1640	Биллом Гейтсом
+T19	PERSON 1656 1664	Мелиндой
+T21	MONEY 1691 1699	$200 млн
+T22	AGE 1880 1891	до пяти лет
+T23	MONEY 1953 1962	$233 млрд
+T24	DATE 1963 1968	в год
+T25	PERSON 2046 2051	Гейтс
+T26	NUMBER 2160 2168	200 трлн
+T27	NUMBER 2188 2195	20 млрд
+T28	COUNTRY 2281 2293	Американский
+T29	DATE 2301 2312	в 2018 году
+T30	PERSON 2330 2336	Гейтса
+T31	MONEY 2339 2347	$90 млрд
+T32	ORDINAL 2368 2374	второе
+T33	PERSON 2426 2439	Мелинды Гейтс
+T35	ORGANIZATION 164 173	Microsoft
+T10	NUMBER 828 832	семь
+T20	NUMBER 1669 1673	семь
+T36	ORGANIZATION 2294 2300	Forbes
+T37	PROFESSION 2349 2358	Бизнесмен
+T38	PERSON 2418 2423	Билла
+T39	FAMILY 2434 2439	Гейтс
+R1	FOUNDED_BY Arg1:T35 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T5	
+R4	SPOUSE Arg1:T6 Arg2:T7	
+R5	ALTERNATIVE_NAME Arg1:T6 Arg2:T8	
+T34	ORGANIZATION 677 736	благотворительным фондом Билла Гейтса и его супруги Мелинды
+R6	EXPENDITURE Arg1:T34 Arg2:T11	
+R7	DATE_FOUNDED_IN Arg1:T17 Arg2:T16	
+R8	SPOUSE Arg1:T18 Arg2:T19	
+R9	HEADQUARTERED_IN Arg1:T36 Arg2:T28	
+R10	OWNER_OF Arg1:T30 Arg2:T31	
+R11	WORKS_AS Arg1:T30 Arg2:T37	
+R12	SPOUSE Arg1:T38 Arg2:T33	
+T40	ORGANIZATION 2413 2439	Фонд Билла и Мелинды Гейтс
+R13	ALTERNATIVE_NAME Arg1:T34 Arg2:T40	
+R14	EXPENDITURE Arg1:T18 Arg2:T21	
+N1	Reference T1 Wikidata:Q5284	Билл Гейтс
+N2	Reference T5 Wikidata:Q148	Китайская Народная Республика
+N4	Reference T33 Wikidata:Q463877	Мелинда Гейтс
+N5	Reference T35 Wikidata:Q2283	Майкрософт
+N6	Reference T36 Wikidata:Q25161472	Форбс
+N9	Reference T34 Wikidata:Q655286	Фонд Билла и Мелинды Гейтс
+N10	Reference T13 Wikidata:Q463877	Мелинда Гейтс
+N11	Reference T19 Wikidata:Q463877	Мелинда Гейтс
+N8	Reference T38 Wikidata:Q5284	Билл Гейтс
+N7	Reference T37 Wikidata:Q43845	
+N3	Reference T28 Wikidata:Q30	США
+N12	Reference T8 Wikidata:Q5284	Билл Гейтс
+N13	Reference T15 Wikidata:Q5284	Билл Гейтс
+N14	Reference T14 Wikidata:Q5284	Билл Гейтс
+N15	Reference T25 Wikidata:Q5284	Билл Гейтс
+N16	Reference T3 Wikidata:Q5284	Билл Гейтс
+N17	Reference T18 Wikidata:Q5284	Билл Гейтс
+N18	Reference T6 Wikidata:Q5284	Билл Гейтс
+N19	Reference T30 Wikidata:Q5284	Билл Гейтс
+N20	Reference T2 Wikidata:Q148	Китайская Народная Республика
+N21	Reference T17 Wikidata:Q2283	Майкрософт
+N22	Reference T40 Wikidata:Q655286	Фонд Билла и Мелинды Гейтс
+N23	Reference T7 Wikidata:Q463877	Мелинда Гейтс

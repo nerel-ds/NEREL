@@ -1,0 +1,174 @@
+T1	COUNTRY 0 10	Болгарское
+T2	COUNTRY 70 80	Болгарское
+T3	ORGANIZATION 254 261	Reuters
+T4	PROFESSION 292 307	премьер-министр
+T5	COUNTRY 308 316	Болгарии
+T6	PERSON 317 330	Бойко Борисов
+T7	PERSON 467 474	Борисов
+T8	DATE 491 517	В течение последней недели
+T9	NUMBER 686 699	Десятки тысяч
+T10	ORGANIZATION 760 769	Евросоюза
+T11	DATE 786 806	в прошедшие выходные
+T12	CITY 819 824	Софии
+T13	DATE 923 947	В понедельник 18 февраля
+T14	PROFESSION 1002 1019	министра финансов
+T15	PERSON 1020 1035	Симеона Дянкова
+T16	DATE 1039 1049	во вторник
+T17	COUNTRY 1094 1101	чешской
+T18	ORGANIZATION 1111 1114	CEZ
+T19	CITY 1219 1224	Софии
+T20	DATE 1258 1271	в понедельник
+T21	DATE 1274 1284	во вторник
+T22	NUMBER 1298 1300	28
+T24	NUMBER 1322 1326	пять
+T25	DATE 1341 1346	Вчера
+T26	PERSON 1490 1497	Борисов
+T27	CITY 1566 1571	Варна
+T28	AGE 1577 1586	36-летний
+T29	COUNTRY 1677 1685	Болгарии
+T30	NUMBER 1700 1720	более чем в два раза
+T31	DATE 1721 1739	в январе 2013 года
+T32	PERSON 1813 1826	Бойко Борисов
+T33	ORGANIZATION 1837 1850	правительство
+T34	DATE 1851 1862	в 2009 году
+T35	DATE 1902 1915	за эти 4 года
+T36	DATE 2004 2020	7 июля 2013 года
+T37	COUNTRY 2056 2067	болгарского
+T38	PROFESSION 2220 2236	премьер-министра
+T39	ORGANIZATION 0 24	Болгарское правительство
+T40	ORGANIZATION 11 24	правительство
+T42	EVENT 49 67	массовых протестов
+T43	ORGANIZATION 70 94	Болгарское правительство
+T44	ORGANIZATION 81 94	правительство
+T46	EVENT 119 137	массовых протестов
+T48	EVENT 269 277	отставке
+T49	ORGANIZATION 278 291	правительства
+T50	PROFESSION 292 316	премьер-министр Болгарии
+T52	ORGANIZATION 368 378	парламенте
+T53	PROFESSION 396 416	членом правительства
+T54	ORGANIZATION 403 416	правительства
+T55	ORGANIZATION 433 440	полиция
+T56	COUNTRY 518 526	Болгарию
+T57	EVENT 536 551	волна протестов
+T58	ORGANIZATION 655 676	правого правительства
+T59	ORGANIZATION 663 676	правительства
+T60	IDEOLOGY 655 662	правого
+T61	EVENT 808 816	Протесты
+T62	TIME 825 838	вчера вечером
+T63	DATE 825 830	вчера
+T64	ORGANIZATION 897 904	полиции
+T65	PERSON 948 955	Борисов
+T66	PROFESSION 1002 1010	министра
+T67	EVENT 1232 1244	демонстраций
+T68	EVENT 1291 1297	ранены
+T23	PROFESSION 1327 1338	полицейских
+T69	EVENT 1528 1544	протестных акций
+T72	EVENT 1607 1619	самосожжения
+T73	PROFESSION 1751 1762	пенсионерам
+T74	EVENT 1827 1850	возглавил правительство
+T77	EVENT 2049 2055	выборы
+T78	ORGANIZATION 2068 2078	парламента
+T79	ORGANIZATION 2056 2078	болгарского парламента
+T80	EVENT 2136 2159	отставкой правительства
+T81	EVENT 2136 2145	отставкой
+T82	ORGANIZATION 2146 2159	правительства
+R1	HEADQUARTERED_IN Arg1:T39 Arg2:T1	
+T41	EVENT 34 42	отставку
+R2	AGENT Arg1:T39 Arg2:T41	
+R3	TAKES_PLACE_IN Arg1:T41 Arg2:T1	
+R4	HAS_CAUSE Arg1:T41 Arg2:T42	
+T45	EVENT 104 112	отставку
+R5	HEADQUARTERED_IN Arg1:T43 Arg2:T2	
+R6	AGENT Arg1:T43 Arg2:T45	
+R7	HAS_CAUSE Arg1:T45 Arg2:T46	
+R8	TAKES_PLACE_IN Arg1:T45 Arg2:T2	
+R9	PARTICIPANT_IN Arg1:T49 Arg2:T48	
+R10	WORKPLACE Arg1:T50 Arg2:T5	
+R11	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R12	WORKPLACE Arg1:T6 Arg2:T5	
+R13	WORKS_AS Arg1:T6 Arg2:T50	
+T51	EVENT 354 365	выступления
+R14	AGENT Arg1:T6 Arg2:T51	
+R15	TAKES_PLACE_IN Arg1:T51 Arg2:T52	
+R16	MEMBER_OF Arg1:T53 Arg2:T54	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R18	POINT_IN_TIME Arg1:T57 Arg2:T8	
+R19	TAKES_PLACE_IN Arg1:T57 Arg2:T56	
+R20	IDEOLOGY_OF Arg1:T58 Arg2:T60	
+R21	TAKES_PLACE_IN Arg1:T61 Arg2:T12	
+R22	POINT_IN_TIME Arg1:T61 Arg2:T62	
+T75	EVENT 884 896	столкновения
+R23	SUBEVENT_OF Arg1:T75 Arg2:T61	
+R24	PARTICIPANT_IN Arg1:T64 Arg2:T75	
+R25	WORKS_AS Arg1:T15 Arg2:T14	
+T76	EVENT 981 987	уволив
+R26	PARTICIPANT_IN Arg1:T15 Arg2:T76	
+R27	AGENT Arg1:T65 Arg2:T76	
+R28	POINT_IN_TIME Arg1:T76 Arg2:T13	
+R29	HEADQUARTERED_IN Arg1:T18 Arg2:T17	
+R30	SUBEVENT_OF Arg1:T67 Arg2:T61	
+R31	TAKES_PLACE_IN Arg1:T67 Arg2:T19	
+R32	POINT_IN_TIME Arg1:T67 Arg2:T20	
+R33	POINT_IN_TIME Arg1:T67 Arg2:T21	
+R34	SUBEVENT_OF Arg1:T68 Arg2:T67	
+R35	PARTICIPANT_IN Arg1:T23 Arg2:T68	
+R36	MEMBER_OF Arg1:T23 Arg2:T64	
+R37	ALTERNATIVE_NAME Arg1:T61 Arg2:T69	
+R38	LOCATED_IN Arg1:T12 Arg2:T56	
+R39	SUBEVENT_OF Arg1:T72 Arg2:T69	
+R40	TAKES_PLACE_IN Arg1:T72 Arg2:T27	
+R41	LOCATED_IN Arg1:T27 Arg2:T29	
+R42	POINT_IN_TIME Arg1:T74 Arg2:T34	
+R43	AGENT Arg1:T32 Arg2:T74	
+R44	PARTICIPANT_IN Arg1:T33 Arg2:T74	
+R45	MEMBER_OF Arg1:T32 Arg2:T33	
+R46	ALTERNATIVE_NAME Arg1:T29 Arg2:T37	
+R47	PARTICIPANT_IN Arg1:T79 Arg2:T77	
+R48	POINT_IN_TIME Arg1:T77 Arg2:T36	
+R49	TAKES_PLACE_IN Arg1:T77 Arg2:T37	
+R50	PARTICIPANT_IN Arg1:T82 Arg2:T80	
+R51	AGENT Arg1:T6 Arg2:T48	
+R52	ALTERNATIVE_NAME Arg1:T46 Arg2:T57	
+R53	MEMBER_OF Arg1:T56 Arg2:T10	
+N2	Reference T3 Wikidata:Q130879	Рейтер
+N3	Reference T5 Wikidata:Q219	Болгария
+N4	Reference T10 Wikidata:Q458	Европейский союз
+N5	Reference T15 Wikidata:Q1399063	Дянков, Симеон Денчев
+N7	Reference T19 Wikidata:Q472	София
+N8	Reference T27 Wikidata:Q6506	Варна
+N9	Reference T38 Wikidata:Q14212	премьер-министр
+N13	Reference T59 Wikidata:Q7188	правительство
+N14	Reference T64 Wikidata:Q35535	полиция
+N16	Reference T66 Wikidata:Q83307	министр
+N19	Reference T78 Wikidata:Q35749	парламент
+N1	Reference T1 Wikidata:Q219	Болгария
+N10	Reference T39 Wikidata:Q2396053	
+N21	Reference T50 Wikidata:Q4404583	
+N12	Reference T58 Wikidata:NULL	нет данных
+N15	Reference T65 Wikidata:Q57775	
+N22	Reference T14 Wikidata:Q7614320	
+N6	Reference T17 Wikidata:Q213	Чехия
+N23	Reference T18 Wikidata:Q336735	
+N17	Reference T23 Wikidata:Q384593	
+N18	Reference T73 Wikidata:Q1749879	
+N20	Reference T79 Wikidata:Q639704	
+N11	Reference T53 Wikidata:NULL	нет данных
+N24	Reference T2 Wikidata:Q219	Болгария
+N25	Reference T12 Wikidata:Q472	София
+N26	Reference T4 Wikidata:Q14212	премьер-министр
+N27	Reference T40 Wikidata:Q7188	правительство
+N28	Reference T44 Wikidata:Q7188	правительство
+N29	Reference T49 Wikidata:Q7188	правительство
+N30	Reference T33 Wikidata:Q7188	правительство
+N31	Reference T54 Wikidata:Q7188	правительство
+N32	Reference T82 Wikidata:Q7188	правительство
+N33	Reference T55 Wikidata:Q35535	полиция
+N34	Reference T52 Wikidata:Q35749	парламент
+N35	Reference T29 Wikidata:Q219	Болгария
+N36	Reference T37 Wikidata:Q219	Болгария
+N37	Reference T56 Wikidata:Q219	Болгария
+N38	Reference T43 Wikidata:Q2396053	
+N39	Reference T7 Wikidata:Q57775	
+N40	Reference T26 Wikidata:Q57775	
+N41	Reference T6 Wikidata:Q57775	
+N42	Reference T32 Wikidata:Q57775	

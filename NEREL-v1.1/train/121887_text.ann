@@ -1,0 +1,109 @@
+T1	PERSON 0 5	Путин
+T4	PERSON 79 93	Владимир Путин
+T5	PERSON 96 110	Сергей Собянин
+T6	PROFESSION 111 120	Президент
+T7	COUNTRY 121 127	России
+T8	PERSON 128 142	Владимир Путин
+T20	DATE 421 441	до 15 июля 2017 года
+T21	DATE 444 463	В феврале 2017 года
+T22	PERSON 464 469	Путин
+T23	PROFESSION 478 482	мэру
+T24	CITY 483 489	Москвы
+T25	PERSON 490 505	Сергею Собянину
+T27	ORDINAL 593 600	первого
+T28	COUNTRY 895 902	Россией
+T30	DATE 1226 1231	В мае
+T31	ORGANIZATION 1417 1425	Госдумой
+T32	DATE 1426 1443	14 июня 2017 года
+T33	DATE 1446 1463	спустя две недели
+T34	DATE 1465 1472	28 июня
+T35	ORGANIZATION 1481 1498	Советом Федерации
+T36	ORGANIZATION 1501 1514	Правительство
+T37	CITY 1515 1521	Москвы
+T38	NUMBER 1545 1564	примерно 4,5 тысячи
+T39	DATE 1643 1666	в течение одного месяца
+T41	NUMBER 1809 1812	276
+T43	PERCENT 1820 1823	6 %
+T44	NUMBER 1866 1870	4079
+T46	PERCENT 1879 1883	90 %
+T47	PROFESSION 478 489	мэру Москвы
+T2	CITY 71 77	Москве
+T3	CITY 183 189	Москве
+T9	PROFESSION 111 127	Президент России
+T10	EVENT 470 477;506 523	поручил снести «хрущёвки»
+T11	LAW 882 902	Конституцией Россией
+T12	LAW 882 894	Конституцией
+T14	EVENT 1473 1480	одобрен
+T15	ORGANIZATION 1501 1521	Правительство Москвы
+T16	EVENT 1700 1711	голосование
+T17	EVENT 1522 1541	опубликовало список
+T18	PRODUCT 1623 1641	Активный гражданин
+T19	EVENT 1788 1808	проголосовали жители
+R1	KNOWS Arg1:T4 Arg2:T5	
+T26	LAW 15 77	закон о массовом сносе домов по программе «реновации» в Москве
+T29	EVENT 6 20	подписал закон
+R2	AGENT Arg1:T1 Arg2:T29	
+R3	PRODUCES Arg1:T1 Arg2:T26	
+T45	EVENT 143 157	подписал закон
+T48	LAW 152 214	закон о массовом сносе домов в Москве по программе «реновации»
+R4	WORKS_AS Arg1:T8 Arg2:T9	
+R5	WORKPLACE Arg1:T9 Arg2:T7	
+R6	WORKPLACE Arg1:T8 Arg2:T7	
+R7	PARTICIPANT_IN Arg1:T8 Arg2:T45	
+R8	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R9	POINT_IN_TIME Arg1:T10 Arg2:T21	
+R10	AGENT Arg1:T22 Arg2:T10	
+R11	PARTICIPANT_IN Arg1:T25 Arg2:T10	
+R12	SUBORDINATE_OF Arg1:T25 Arg2:T22	
+R13	WORKPLACE Arg1:T47 Arg2:T24	
+R14	WORKS_AS Arg1:T25 Arg2:T47	
+R15	WORKPLACE Arg1:T25 Arg2:T24	
+T42	EVENT 1255 1288	акций протеста против «реновации»
+R16	POINT_IN_TIME Arg1:T42 Arg2:T30	
+T13	EVENT 1410 1416	принят
+R17	AGENT Arg1:T31 Arg2:T13	
+R18	POINT_IN_TIME Arg1:T13 Arg2:T32	
+R19	AGENT Arg1:T35 Arg2:T14	
+R20	POINT_IN_TIME Arg1:T14 Arg2:T34	
+R21	ALTERNATIVE_NAME Arg1:T34 Arg2:T33	
+R22	HEADQUARTERED_IN Arg1:T15 Arg2:T37	
+R23	PARTICIPANT_IN Arg1:T15 Arg2:T17	
+T40	DATE 1667 1675	с 15 мая
+T49	DATE 1676 1686	по 15 июня
+R24	DATE_FOUNDED_IN Arg1:T16 Arg2:T40	
+R25	DATE_DEFUNCT_IN Arg1:T16 Arg2:T49	
+R26	ALTERNATIVE_NAME Arg1:T16 Arg2:T19	
+R27	ALTERNATIVE_NAME Arg1:T29 Arg2:T45	
+R28	ALTERNATIVE_NAME Arg1:T26 Arg2:T48	
+R29	INANIMATE_INVOLVED Arg1:T26 Arg2:T29	
+R30	INANIMATE_INVOLVED Arg1:T48 Arg2:T45	
+R31	ORIGINS_FROM Arg1:T11 Arg2:T28	
+R32	HAS_CAUSE Arg1:T42 Arg2:T48	
+T50	EVENT 1255 1269	акций протеста
+R33	INANIMATE_INVOLVED Arg1:T48 Arg2:T13	
+R34	INANIMATE_INVOLVED Arg1:T48 Arg2:T14	
+N1	Reference T5 Wikidata:Q319497	Сергей Семёнович Собянин
+N2	Reference T6 Wikidata:Q30461	президент
+N3	Reference T7 Wikidata:Q159	Россия
+N4	Reference T22 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T23 Wikidata:Q30185	мэр
+N6	Reference T31 Wikidata:Q715641	Государственная дума
+N7	Reference T35 Wikidata:Q186473	Совет Федерации
+N8	Reference T36 Wikidata:Q7188	правительство
+N9	Reference T47 Wikidata:Q1837906	мэр Москвы
+N10	Reference T3 Wikidata:Q649	Москва
+N11	Reference T9 Wikidata:Q218295	президент Российской Федерации
+N12	Reference T11 Wikidata:Q652062	Конституция Российской Федерации
+N13	Reference T12 Wikidata:Q7755	конституция
+N14	Reference T15 Wikidata:Q3339281	Правительство Москвы
+N15	Reference T18 Wikidata:Q21635361	Активный гражданин
+N16	Reference T48 Wikidata:NULL	нет данных
+N17	Reference T25 Wikidata:Q319497	Сергей Семёнович Собянин
+N18	Reference T28 Wikidata:Q159	Россия
+N19	Reference T4 Wikidata:Q7747	Владимир Владимирович Путин
+N20	Reference T8 Wikidata:Q7747	Владимир Владимирович Путин
+N21	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N22	Reference T2 Wikidata:Q649	Москва
+N23	Reference T37 Wikidata:Q649	Москва
+N24	Reference T24 Wikidata:Q649	Москва
+N25	Reference T26 Wikidata:NULL	нет данных

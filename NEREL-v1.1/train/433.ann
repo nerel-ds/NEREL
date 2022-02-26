@@ -1,0 +1,163 @@
+T1	ORGANIZATION 5 11	Кремль
+T3	PERSON 20 29	А.Кудрина
+T4	PROFESSION 47 55	премьера
+T5	PROFESSION 71 87	Министр финансов
+T6	PERSON 88 102	Алексей Кудрин
+T7	ORGANIZATION 128 141	правительстве
+T8	PERSON 142 159	Дмитрия Медведева
+T9	ORGANIZATION 176 182	Кремль
+T11	PERSON 213 222	А.Кудрина
+T12	PROFESSION 231 239	премьера
+T13	ORGANIZATION 277 287	Коммерсант
+T14	PERSON 296 304	А.Кудрин
+T15	PROFESSION 695 707	вице-премьер
+T16	PERSON 708 721	Виктор Зубков
+T18	PERSON 782 791	В.Зубкову
+T19	AGE 796 802	70 лет
+T20	PERSON 942 950	В.Зубков
+T21	PROFESSION 959 1001	председателем совета директоров "Газпрома"
+T22	ORGANIZATION 992 1000	Газпрома
+T23	PERSON 1112 1119	Зубкову
+T24	ORGANIZATION 1165 1173	Газпроме
+T25	ORGANIZATION 1199 1210	Коммерсанта
+T26	DATE 1224 1235	24 сентября
+T27	EVENT 1239 1252	съезде партии
+T28	ORGANIZATION 1254 1267	Единая Россия
+T30	PERSON 1269 1279	Д.Медведев
+T32	PERSON 1290 1298	В.Путину
+T33	PROFESSION 1317 1330	президенты РФ
+T34	DATE 1342 1347	2012г
+T35	ORGANIZATION 1419 1432	Единой России
+T36	EVENT 1437 1452	думских выборах
+T37	ORGANIZATION 1513 1526	правительстве
+T38	PROFESSION 1541 1560	Министр финансов РФ
+T39	PERSON 1561 1575	Алексей Кудрин
+T40	ORGANIZATION 1609 1622	правительстве
+T41	PROFESSION 1642 1659	премьер-министром
+T43	PERSON 1667 1677	Д.Медведев
+T44	ORGANIZATION 1851 1864	правительство
+T45	PROFESSION 1876 1889	глава Минфина
+T2	EVENT 62 69	выборов
+T10	EVENT 246 253	выборов
+T46	IDEOLOGY 329 335	правую
+T47	PROFESSION 455 463	премьера
+T48	PROFESSION 478 488	президенте
+T49	PROFESSION 500 509	премьером
+T50	PROFESSION 633 643	чиновником
+T51	ORGANIZATION 671 684	правительство
+T17	ORGANIZATION 838 863	кремлевской администрации
+T52	PROFESSION 828 863	Сотрудник кремлевской администрации
+T53	PROFESSION 875 890	корреспондентом
+T54	ORGANIZATION 973 1001	совета директоров "Газпрома"
+T55	PROFESSION 1010 1024	президентскому
+T56	PROFESSION 1042 1054	госчиновники
+T57	PROFESSION 1084 1094	директоров
+T29	PROFESSION 1317 1327	президенты
+T31	COUNTRY 1328 1330	РФ
+T58	EVENT 1334 1341	выборах
+T59	PROFESSION 1358 1375	глава государства
+T60	COUNTRY 1558 1560	РФ
+T42	ORGANIZATION 1703 1716	правительстве
+T61	ORGANIZATION 1882 1889	Минфина
+R1	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+T62	PROFESSION 71 78	Министр
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+T63	ORGANIZATION 128 159	правительстве Дмитрия Медведева
+R3	ALTERNATIVE_NAME Arg1:T6 Arg2:T14	
+R4	WORKS_AS Arg1:T16 Arg2:T15	
+R5	ALTERNATIVE_NAME Arg1:T16 Arg2:T18	
+R6	AGE_IS Arg1:T18 Arg2:T19	
+R7	WORKS_AS Arg1:T20 Arg2:T21	
+R8	WORKPLACE Arg1:T23 Arg2:T24	
+R9	POINT_IN_TIME Arg1:T27 Arg2:T26	
+R10	POINT_IN_TIME Arg1:T58 Arg2:T34	
+T64	PROFESSION 1541 1557	Министр финансов
+T65	PROFESSION 1541 1548	Министр
+R11	ALTERNATIVE_NAME Arg1:T38 Arg2:T45	
+R12	WORKS_AS Arg1:T39 Arg2:T38	
+R13	WORKPLACE Arg1:T39 Arg2:T60	
+R14	WORKS_AS Arg1:T39 Arg2:T45	
+R15	WORKPLACE Arg1:T39 Arg2:T61	
+R16	WORKPLACE Arg1:T12 Arg2:T7	
+R17	WORKPLACE Arg1:T20 Arg2:T54	
+R18	KNOWS Arg1:T30 Arg2:T32	
+R19	ORGANIZES Arg1:T28 Arg2:T27	
+R20	WORKPLACE Arg1:T33 Arg2:T31	
+R21	PARTICIPANT_IN Arg1:T35 Arg2:T36	
+R22	MEMBER_OF Arg1:T59 Arg2:T35	
+R23	WORKPLACE Arg1:T38 Arg2:T60	
+R24	FOUNDED_BY Arg1:T63 Arg2:T8	
+R25	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R26	WORKPLACE Arg1:T52 Arg2:T17	
+R27	WORKPLACE Arg1:T21 Arg2:T54	
+R28	PART_OF Arg1:T54 Arg2:T22	
+R29	PARTICIPANT_IN Arg1:T30 Arg2:T27	
+R30	PARTICIPANT_IN Arg1:T32 Arg2:T27	
+R31	WORKPLACE Arg1:T45 Arg2:T61	
+R32	IDEOLOGY_OF Arg1:T14 Arg2:T46	
+R33	ALTERNATIVE_NAME Arg1:T9 Arg2:T17	
+R34	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+T66	COUNTRY 1261 1267	Россия
+R35	HEADQUARTERED_IN Arg1:T28 Arg2:T66	
+R36	TAKES_PLACE_IN Arg1:T58 Arg2:T66	
+T67	COUNTRY 1426 1432	России
+R37	HEADQUARTERED_IN Arg1:T35 Arg2:T67	
+R38	HEADQUARTERED_IN Arg1:T37 Arg2:T67	
+N1	Reference T8 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N2	Reference T9 Wikidata:Q133274	Московский Кремль
+N3	Reference T13 Wikidata:Q1780189	Коммерсантъ
+N4	Reference T14 Wikidata:Q351014	Кудрин, Алексей Леонидович
+N5	Reference T15 Wikidata:Q877955	вице-премьер
+N6	Reference T18 Wikidata:Q147425	Виктор Алексеевич Зубков
+N7	Reference T20 Wikidata:Q147425	Виктор Алексеевич Зубков
+N9	Reference T24 Wikidata:Q102673	Газпром
+N10	Reference T30 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N11	Reference T32 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T33 Wikidata:Q218295	президент Российской Федерации
+N13	Reference T35 Wikidata:Q151469	Единая Россия
+N14	Reference T40 Wikidata:Q7188	правительство
+N15	Reference T41 Wikidata:Q14212	премьер-министр
+N18	Reference T49 Wikidata:Q14212	премьер-министр
+N19	Reference T50 Wikidata:Q382887	чиновник
+N20	Reference T53 Wikidata:Q1333067	Корреспондент
+N23	Reference T57 Wikidata:Q484876	главный управляющий
+N24	Reference T29 Wikidata:Q30461	президент
+N25	Reference T31 Wikidata:Q159	Россия
+N26	Reference T59 Wikidata:Q48352	глава государства
+N27	Reference T61 Wikidata:Q1958033	Министерство финансов Российской Федерации
+N29	Reference T65 Wikidata:Q83307	министр
+N30	Reference T67 Wikidata:Q159	Россия
+N31	Reference T5 Wikidata:Q7614320	
+N28	Reference T63 Wikidata:NULL	нет данных
+N17	Reference T47 Wikidata:Q14212	премьер-министр
+N32	Reference T52 Wikidata:NULL	нет данных
+N8	Reference T21 Wikidata:NULL	нет данных
+N21	Reference T54 Wikidata:NULL	нет данных
+N22	Reference T55 Wikidata:Q30461	президент
+N33	Reference T56 Wikidata:Q382887	чиновник
+N16	Reference T45 Wikidata:Q7614320	
+N34	Reference T17 Wikidata:Q133274	Московский Кремль
+N35	Reference T1 Wikidata:Q133274	Московский Кремль
+N36	Reference T25 Wikidata:Q1780189	Коммерсантъ
+N37	Reference T11 Wikidata:Q351014	Кудрин, Алексей Леонидович
+N38	Reference T39 Wikidata:Q351014	Кудрин, Алексей Леонидович
+N39	Reference T6 Wikidata:Q351014	Кудрин, Алексей Леонидович
+N40	Reference T3 Wikidata:Q351014	Кудрин, Алексей Леонидович
+N41	Reference T16 Wikidata:Q147425	Виктор Алексеевич Зубков
+N42	Reference T23 Wikidata:Q147425	Виктор Алексеевич Зубков
+N43	Reference T22 Wikidata:Q102673	Газпром
+N44	Reference T43 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N45	Reference T28 Wikidata:Q151469	Единая Россия
+N46	Reference T51 Wikidata:Q7188	правительство
+N47	Reference T37 Wikidata:Q7188	правительство
+N48	Reference T44 Wikidata:Q7188	правительство
+N49	Reference T7 Wikidata:Q7188	правительство
+N50	Reference T42 Wikidata:Q7188	правительство
+N51	Reference T48 Wikidata:Q30461	президент
+N52	Reference T60 Wikidata:Q159	Россия
+N53	Reference T62 Wikidata:Q83307	министр
+N54	Reference T66 Wikidata:Q159	Россия
+N55	Reference T64 Wikidata:Q7614320	
+N56	Reference T4 Wikidata:Q14212	премьер-министр
+N57	Reference T12 Wikidata:Q14212	премьер-министр
+N58	Reference T38 Wikidata:Q7614320	

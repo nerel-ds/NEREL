@@ -1,0 +1,120 @@
+T1	COUNTRY 64 69	Чехии
+T2	COUNTRY 72 78	Швеции
+T3	COUNTRY 91 96	Чехии
+T4	CITY 97 102	Праге
+T5	EVENT 139 190	пятого университетского чемпионата мира по флорболу
+T6	COUNTRY 277 283	Швеции
+T8	DATE 300 314	с 23 по 27 мая
+T9	NUMBER 440 441	8
+T10	NUMBER 460 461	4
+T11	ORDINAL 628 634	первой
+T12	COUNTRY 706 711	Чехии
+T13	PERSON 712 725	Милан Томашик
+T14	COUNTRY 742 750	шведский
+T15	ORGANIZATION 757 762	Дален
+T16	NUMBER 767 771	пяти
+T17	NUMBER 788 790	22
+T18	DATE 868 885	четыре года назад
+T19	ORDINAL 902 908	третье
+T20	NUMBER 946 948	23
+T21	NUMBER 1003 1005	13
+T22	NUMBER 1009 1010	5
+T23	AGE 1022 1031	19-летняя
+T24	NATIONALITY 1032 1040	шведская
+T25	PERSON 1054 1066	Эмели Виброн
+T26	COUNTRY 1085 1093	шведский
+T27	ORGANIZATION 1099 1103	ИКСУ
+T28	DATE 1105 1119	В прошлом году
+T29	EVENT 1149 1173	взрослом чемпионате мира
+T30	NUMBER 1181 1186	шести
+T31	NUMBER 1204 1206	14
+T32	AWARD 0 43	Чемпионами мира по флорболу среди студентов
+T33	AWARD 0 27	Чемпионами мира по флорболу
+T34	AWARD 0 15	Чемпионами мира
+T35	DATE 103 109	27 мая
+T36	EVENT 121 190	финальные встречи пятого университетского чемпионата мира по флорболу
+T37	ORDINAL 139 145	пятого
+T38	EVENT 163 190	чемпионата мира по флорболу
+T39	EVENT 163 178	чемпионата мира
+T40	EVENT 319 329	чемпионате
+T41	EVENT 471 480	Чемпионат
+T42	COUNTRY 595 602	чешской
+T43	PROFESSION 654 665	бомбардиром
+T44	NUMBER 792 793	9
+T45	NUMBER 794 796	13
+T46	EVENT 857 867	чемпионате
+T47	PROFESSION 923 934	бомбардиров
+T48	NUMBER 950 952	11
+T49	NUMBER 953 955	12
+T50	NUMBER 1007 1008	8
+T51	PROFESSION 1041 1053	флорболистка
+T52	NUMBER 1208 1209	7
+T53	NUMBER 1210 1211	7
+R1	LOCATED_IN Arg1:T4 Arg2:T3	
+R2	SUBEVENT_OF Arg1:T36 Arg2:T5	
+R3	END_TIME Arg1:T36 Arg2:T35	
+R4	TAKES_PLACE_IN Arg1:T36 Arg2:T4	
+T54	ORGANIZATION 587 610	мужской чешской сборной
+R5	HEADQUARTERED_IN Arg1:T54 Arg2:T42	
+R6	ORIGINS_FROM Arg1:T13 Arg2:T12	
+R7	HEADQUARTERED_IN Arg1:T15 Arg2:T14	
+R8	WORKPLACE Arg1:T13 Arg2:T15	
+R9	WORKS_AS Arg1:T25 Arg2:T51	
+R10	ORIGINS_FROM Arg1:T25 Arg2:T24	
+R11	ORIGINS_FROM Arg1:T51 Arg2:T24	
+R12	AGE_IS Arg1:T25 Arg2:T23	
+R13	HEADQUARTERED_IN Arg1:T27 Arg2:T26	
+R14	WORKPLACE Arg1:T25 Arg2:T27	
+R15	AGE_IS Arg1:T51 Arg2:T23	
+R16	PARTICIPANT_IN Arg1:T25 Arg2:T29	
+R17	POINT_IN_TIME Arg1:T29 Arg2:T28	
+R18	WORKS_AS Arg1:T13 Arg2:T43	
+T55	AWARD 647 686	Лучшим бомбардиром турнира среди мужчин
+R19	AWARDED_WITH Arg1:T13 Arg2:T55	
+T56	AWARD 647 673	Лучшим бомбардиром турнира
+R20	PARTICIPANT_IN Arg1:T13 Arg2:T5	
+R21	ALTERNATIVE_NAME Arg1:T5 Arg2:T40	
+T7	DATE 286 298	За пять дней
+T57	DATE 300 304	с 23
+T58	DATE 305 314	по 27 мая
+R22	START_TIME Arg1:T40 Arg2:T57	
+R23	END_TIME Arg1:T40 Arg2:T58	
+T59	NATIONALITY 50 69	представители Чехии
+R24	ORIGINS_FROM Arg1:T59 Arg2:T1	
+R25	AWARDED_WITH Arg1:T59 Arg2:T32	
+T60	NATIONALITY 259 283	представительницы Швеции
+R26	ORIGINS_FROM Arg1:T60 Arg2:T6	
+R27	AWARDED_WITH Arg1:T60 Arg2:T32	
+N1	Reference T4 Wikidata:Q1085	Прага
+N2	Reference T6 Wikidata:Q34	Швеция
+N3	Reference T12 Wikidata:Q213	Чехия
+N8	Reference T26 Wikidata:Q34	Швеция
+N9	Reference T27 Wikidata:Q1654001	
+N6	Reference T24 Wikidata:Q165192	
+N18	Reference T51 Wikidata:Q23868946	
+N7	Reference T25 Wikidata:Q4990429	
+N12	Reference T34 Wikidata:Q2948691	
+N11	Reference T33 Wikidata:NULL	нет данных
+N10	Reference T32 Wikidata:NULL	нет данных
+N16	Reference T59 Wikidata:Q170217	чехи
+N17	Reference T60 Wikidata:Q165192	
+N13	Reference T42 Wikidata:Q213	Чехия
+N19	Reference T54 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:Q1475543	
+N14	Reference T55 Wikidata:NULL	нет данных
+N15	Reference T56 Wikidata:NULL	нет данных
+N20	Reference T47 Wikidata:NULL	нет данных
+N21	Reference T2 Wikidata:Q34	Швеция
+N22	Reference T1 Wikidata:Q213	Чехия
+N23	Reference T3 Wikidata:Q213	Чехия
+N24	Reference T14 Wikidata:Q34	Швеция
+N25	Reference T43 Wikidata:NULL	нет данных
+T61	EVENT 342 359	групповые турниры
+T62	EVENT 368 376	плей-офф
+R28	SUBEVENT_OF Arg1:T61 Arg2:T40	
+R29	SUBEVENT_OF Arg1:T62 Arg2:T40	
+T63	EVENT 416 423	турнире
+R30	ALTERNATIVE_NAME Arg1:T40 Arg2:T63	
+R31	ALTERNATIVE_NAME Arg1:T63 Arg2:T41	
+T64	EVENT 1158 1173	чемпионате мира

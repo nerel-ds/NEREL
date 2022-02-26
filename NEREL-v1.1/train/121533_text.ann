@@ -1,0 +1,197 @@
+T1	PERSON 2 19	Криштиану Роналду
+T2	DATE 45 62	29 июня 2017 года
+T3	ORGANIZATION 75 86	Реал Мадрид
+T4	COUNTRY 98 108	Португалии
+T5	EVENT 149 168	Кубком конфедераций
+T6	PERSON 215 222	Роналду
+T7	COUNTRY 250 260	Португалии
+T8	ORDINAL 272 278	третье
+T9	EVENT 288 306	Кубке конфедераций
+T10	COUNTRY 322 332	Португалия
+T11	COUNTRY 379 383	Чили
+T12	PROFESSION 431 438	Форвард
+T13	NUMBER 565 568	два
+T14	PROFESSION 707 745	Президент Федерации футбола Португалии
+T15	PROFESSION 748 762	главный тренер
+T16	ORDINAL 911 917	первый
+T17	ORGANIZATION 924 952	Федерация футбола Португалии
+T18	ORGANIZATION 1027 1036	Федерация
+T19	PROFESSION 1047 1056	Президент
+T20	PROFESSION 1059 1073	главный тренер
+T21	EVENT 1142 1160	Кубок конфедераций
+T22	DATE 1266 1282	8 июня 2017 года
+T23	PERSON 1285 1292	Роналду
+T24	NUMBER 1302 1306	двое
+T25	LOCATION 1393 1415	западном побережье США
+T26	PERSON 1427 1444	Криштиану Роналду
+T27	DATE 1453 1469	в июне 2010 года
+T28	STATE_OR_PROVINCE 1549 1556	Флориде
+T29	NUMBER 1560 1564	двух
+T30	NATIONALITY 1585 1595	мексиканок
+T31	PROFESSION 1721 1725	няня
+T32	PERSON 1784 1788	Кати
+T33	PERSON 1800 1807	Роналду
+T34	PERSON 1959 1966	Роналда
+T35	AGE 1978 1987	60-летняя
+T36	PERSON 1996 2003	Долорес
+T37	COUNTRY 2044 2054	Португалии
+T38	PROFESSION 2064 2071	форвард
+T39	ORGANIZATION 2073 2078	Реала
+T40	AGE 2094 2103	22-летней
+T41	NATIONALITY 2104 2113	испанской
+T42	PERSON 2122 2141	Джорджиной Родригес
+T43	PERSON 2143 2161	Georgina Rodríguez
+T44	PERSON 2184 2191	Роналду
+T45	ORDINAL 2218 2227	четвёртый
+T46	ORGANIZATION 2303 2308	Gucci
+T47	ORGANIZATION 2334 2349	Dolce & Gabbana
+T48	PERSON 2369 2376	Роналду
+T50	PERSON 27 44	Криштиану Роналду
+T51	PROFESSION 63 73	нападающий
+T52	ORGANIZATION 90 108	сборной Португалии
+T53	PERSON 109 126	Криштиану Роналду
+T54	PERSON 2258 2266	Родригес
+T55	PROFESSION 2114 2121	моделью
+T57	PERSON 1703 1710	Роналду
+T58	PROFESSION 1492 1502	футболиста
+T59	PROFESSION 1355 1365	футболисту
+T60	COUNTRY 1412 1415	США
+T61	PERSON 1327 1332	Матео
+T62	PERSON 1343 1346	Ева
+T63	PROFESSION 1183 1193	спортсмена
+T64	PROFESSION 967 976	футболист
+T65	COUNTRY 942 952	Португалии
+T66	ORGANIZATION 717 745	Федерации футбола Португалии
+T67	COUNTRY 735 745	Португалии
+T68	NATIONALITY 692 704	португальцам
+T69	ORGANIZATION 439 444	Реала
+T70	PRODUCT 461 469	фейсбуке
+T71	DATE 307 311	2017
+T72	ORGANIZATION 242 260	сборную Португалии
+T73	DATE 169 173	2017
+T74	EVENT 181 196	родились двойня
+R1	POINT_IN_TIME Arg1:T5 Arg2:T73	
+R2	PARTICIPANT_IN Arg1:T53 Arg2:T74	
+R3	POINT_IN_TIME Arg1:T74 Arg2:T73	
+T49	PROFESSION 63 86	нападающий «Реал Мадрид
+R4	WORKS_AS Arg1:T53 Arg2:T49	
+R5	WORKPLACE Arg1:T49 Arg2:T3	
+R6	HEADQUARTERED_IN Arg1:T52 Arg2:T4	
+R7	WORKPLACE Arg1:T53 Arg2:T52	
+R8	ORIGINS_FROM Arg1:T53 Arg2:T4	
+R9	POINT_IN_TIME Arg1:T9 Arg2:T71	
+R10	HEADQUARTERED_IN Arg1:T72 Arg2:T7	
+R11	PARTICIPANT_IN Arg1:T72 Arg2:T9	
+T75	ORGANIZATION 371 383	сборной Чили
+R12	ALTERNATIVE_NAME Arg1:T3 Arg2:T69	
+T76	PROFESSION 431 444	Форвард Реала
+R13	ALTERNATIVE_NAME Arg1:T53 Arg2:T6	
+R14	ALTERNATIVE_NAME Arg1:T49 Arg2:T76	
+R15	WORKPLACE Arg1:T76 Arg2:T69	
+R16	HEADQUARTERED_IN Arg1:T17 Arg2:T65	
+R17	WORKPLACE Arg1:T14 Arg2:T66	
+R18	HEADQUARTERED_IN Arg1:T66 Arg2:T67	
+T77	PROFESSION 748 770	главный тренер сборной
+R19	WORKS_AS Arg1:T6 Arg2:T64	
+R20	HEADQUARTERED_IN Arg1:T75 Arg2:T11	
+R21	WORKS_AS Arg1:T6 Arg2:T63	
+T78	EVENT 1293 1316	родились двое близнецов
+R22	ALTERNATIVE_NAME Arg1:T74 Arg2:T78	
+R23	PARTICIPANT_IN Arg1:T23 Arg2:T78	
+R24	PARENT_OF Arg1:T23 Arg2:T61	
+R25	ABBREVIATION Arg1:T23 Arg2:T62	
+R26	LOCATED_IN Arg1:T25 Arg2:T60	
+R27	POINT_IN_TIME Arg1:T78 Arg2:T22	
+R28	WORKS_AS Arg1:T26 Arg2:T58	
+R29	AGE_IS Arg1:T36 Arg2:T35	
+R30	RELATIVE Arg1:T36 Arg2:T34	
+R31	PLACE_RESIDES_IN Arg1:T36 Arg2:T37	
+T79	PROFESSION 2064 2078	форвард «Реала
+R32	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R33	WORKS_AS Arg1:T42 Arg2:T55	
+R34	ORIGINS_FROM Arg1:T42 Arg2:T41	
+R35	AGE_IS Arg1:T42 Arg2:T40	
+R36	WORKPLACE Arg1:T79 Arg2:T39	
+R37	KNOWS Arg1:T79 Arg2:T42	
+R38	KNOWS Arg1:T44 Arg2:T42	
+T56	PROFESSION 2246 2257	футболистом
+R40	ALTERNATIVE_NAME Arg1:T42 Arg2:T54	
+R41	KNOWS Arg1:T54 Arg2:T56	
+R42	WORKPLACE Arg1:T54 Arg2:T46	
+R39	KNOWS Arg1:T54 Arg2:T48	
+R43	WORKS_AS Arg1:T48 Arg2:T56	
+R44	ALTERNATIVE_NAME Arg1:T55 Arg2:T41	
+R45	AGE_IS Arg1:T55 Arg2:T40	
+T80	CITY 80 86	Мадрид
+R46	HEADQUARTERED_IN Arg1:T3 Arg2:T80	
+R47	ORIGINS_FROM Arg1:T68 Arg2:T10	
+R48	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R49	WORKPLACE Arg1:T19 Arg2:T18	
+R50	WORKPLACE Arg1:T20 Arg2:T18	
+R51	PARTICIPANT_IN Arg1:T61 Arg2:T78	
+R52	PARTICIPANT_IN Arg1:T62 Arg2:T78	
+R53	WORKS_AS Arg1:T23 Arg2:T59	
+R54	PLACE_OF_BIRTH Arg1:T61 Arg2:T28	
+R55	ORIGINS_FROM Arg1:T61 Arg2:T30	
+N1	Reference T10 Wikidata:Q45	Португалия
+N2	Reference T11 Wikidata:Q298	Чили
+N7	Reference T25 Wikidata:Q12606	Западное побережье США
+N8	Reference T26 Wikidata:Q11571	Криштиану Роналду
+N9	Reference T28 Wikidata:Q812	Флорида
+N10	Reference T30 Wikidata:Q1209676	Мексиканцы
+N11	Reference T31 Wikidata:Q936969	няня
+N17	Reference T46 Wikidata:Q178516	Gucci
+N18	Reference T47 Wikidata:Q214480	Dolce & Gabbana
+N19	Reference T51 Wikidata:Q280658	нападающий
+N20	Reference T55 Wikidata:Q4610556	модель
+N21	Reference T59 Wikidata:Q937857	футболист
+N22	Reference T60 Wikidata:Q30	США
+N24	Reference T63 Wikidata:Q2066131	спортсмен
+N25	Reference T68 Wikidata:Q178630	португальцы
+N26	Reference T70 Wikidata:Q355	Facebook
+N27	Reference T72 Wikidata:Q267245	сборная Португалии по футболу
+N29	Reference T75 Wikidata:Q172025	сборная Чили по футболу
+N31	Reference T80 Wikidata:Q2807	Мадрид
+N28	Reference T49 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q280658	нападающий
+N4	Reference T14 Wikidata:NULL	нет данных
+N32	Reference T15 Wikidata:Q3246315	
+N33	Reference T77 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N6	Reference T19 Wikidata:NULL	нет данных
+N34	Reference T61 Wikidata:NULL	нет данных
+N23	Reference T62 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:NULL	нет данных
+N13	Reference T36 Wikidata:NULL	нет данных
+N30	Reference T79 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:Q8682	Реал Мадрид
+N15	Reference T41 Wikidata:Q160894	испанцы
+N16	Reference T42 Wikidata:Q33729164	
+N35	Reference T65 Wikidata:Q45	Португалия
+N36	Reference T7 Wikidata:Q45	Португалия
+N37	Reference T4 Wikidata:Q45	Португалия
+N38	Reference T67 Wikidata:Q45	Португалия
+N39	Reference T37 Wikidata:Q45	Португалия
+N40	Reference T53 Wikidata:Q11571	Криштиану Роналду
+N41	Reference T50 Wikidata:Q11571	Криштиану Роналду
+N42	Reference T6 Wikidata:Q11571	Криштиану Роналду
+N43	Reference T1 Wikidata:Q11571	Криштиану Роналду
+N44	Reference T58 Wikidata:Q937857	футболист
+N45	Reference T56 Wikidata:Q937857	футболист
+N46	Reference T64 Wikidata:Q937857	футболист
+N47	Reference T52 Wikidata:Q267245	сборная Португалии по футболу
+N48	Reference T76 Wikidata:NULL	нет данных
+N49	Reference T38 Wikidata:Q280658	нападающий
+N50	Reference T20 Wikidata:Q3246315	
+N51	Reference T17 Wikidata:NULL	нет данных
+N52	Reference T66 Wikidata:NULL	нет данных
+N53	Reference T44 Wikidata:NULL	нет данных
+N54	Reference T57 Wikidata:NULL	нет данных
+N55	Reference T23 Wikidata:NULL	нет данных
+N56	Reference T34 Wikidata:NULL	нет данных
+N57	Reference T33 Wikidata:NULL	нет данных
+N58	Reference T48 Wikidata:NULL	нет данных
+N59	Reference T69 Wikidata:Q8682	Реал Мадрид
+N60	Reference T3 Wikidata:Q8682	Реал Мадрид
+N61	Reference T54 Wikidata:Q33729164	
+N62	Reference T43 Wikidata:Q33729164	

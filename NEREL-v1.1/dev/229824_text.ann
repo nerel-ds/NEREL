@@ -1,0 +1,68 @@
+T1	PERSON 0 9	Монеточка
+T2	CITY 31 41	Петербурге
+T3	CITY 61 74	петербургском
+T4	FACILITY 81 83	A2
+T6	EVENT 139 151	дню рождения
+T7	DATE 161 167	1 июня
+T8	AGE 182 188	21 год
+T9	WORK_OF_ART 268 290	Раскраски для взрослых
+T10	DATE 303 312	год назад
+T11	PROFESSION 412 426	стендап-комика
+T12	PERSON 427 445	Данилы Поперечного
+T13	PERSON 512 523	Вити Исаева
+T14	PERSON 573 587	Игорь Журавлёв
+T15	ORGANIZATION 599 605	Альянс
+T16	PERSON 622 627	Лизой
+T17	WORK_OF_ART 635 642	На заре
+T18	ORGANIZATION 656 671	Кривого зеркала
+T19	ORGANIZATION 675 684	VRUMZSSSR
+T21	EVENT 91 98	концерт
+T22	PERSON 99 108	Монеточки
+T23	EVENT 377 384	концерт
+T24	PROFESSION 397 409	видеоблогера
+T25	PROFESSION 420 426	комика
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T20	DATE 42 58	7 июня 2019 года
+R4	AGENT Arg1:T22 Arg2:T21	
+R5	TAKES_PLACE_IN Arg1:T21 Arg2:T4	
+R6	LOCATED_IN Arg1:T4 Arg2:T3	
+R7	POINT_IN_TIME Arg1:T21 Arg2:T20	
+R8	AGE_IS Arg1:T22 Arg2:T8	
+T5	EVENT 110 121	Выступление
+R10	PARTICIPANT_IN Arg1:T22 Arg2:T6	
+R11	PRODUCES Arg1:T22 Arg2:T9	
+R12	WORKS_AS Arg1:T12 Arg2:T11	
+R13	WORKS_AS Arg1:T12 Arg2:T24	
+R9	AGENT Arg1:T22 Arg2:T5	
+T27	EVENT 385 396	выступление
+R14	AGENT Arg1:T12 Arg2:T27	
+R15	SUBEVENT_OF Arg1:T27 Arg2:T23	
+T28	EVENT 476 487	выступления
+R16	SUBEVENT_OF Arg1:T28 Arg2:T23	
+R17	AGENT Arg1:T13 Arg2:T28	
+R18	WORKPLACE Arg1:T14 Arg2:T15	
+R19	ALTERNATIVE_NAME Arg1:T22 Arg2:T16	
+R20	PRODUCES Arg1:T16 Arg2:T17	
+R21	PRODUCES Arg1:T14 Arg2:T17	
+R22	PARTICIPANT_IN Arg1:T14 Arg2:T23	
+R23	PARTICIPANT_IN Arg1:T18 Arg2:T23	
+R24	PARTICIPANT_IN Arg1:T19 Arg2:T23	
+R1	ALTERNATIVE_NAME Arg1:T21 Arg2:T5	
+R2	ALTERNATIVE_NAME Arg1:T5 Arg2:T23	
+N1	Reference T2 Wikidata:Q656	Санкт-Петербург
+N4	Reference T12 Wikidata:Q42323952	Данила Поперечный
+N7	Reference T15 Wikidata:Q4063699	Альянс
+N8	Reference T17 Wikidata:Q4310945	На заре
+N9	Reference T18 Wikidata:Q4240756	Кривое зеркало
+N10	Reference T22 Wikidata:Q32361743	Монеточка
+N11	Reference T24 Wikidata:Q4110598	видеоблогер
+N12	Reference T25 Wikidata:Q245068	комик
+N2	Reference T4 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:Q60525279	
+N13	Reference T11 Wikidata:Q18545066	
+N5	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N14	Reference T19 Wikidata:NULL	нет данных
+N15	Reference T3 Wikidata:Q656	Санкт-Петербург
+N16	Reference T1 Wikidata:Q32361743	Монеточка
+N17	Reference T16 Wikidata:Q32361743	Монеточка

@@ -1,0 +1,95 @@
+T1	DATE 49 69	19 октября 2012 года
+T2	CITY 72 80	Харькове
+T3	EVENT 90 113	День Московского района
+T4	AGE 136 142	75 лет
+T5	EVENT 145 153	Праздник
+T6	DISTRICT 166 174	Салтовки
+T7	ORGANIZATION 194 202	Пересвет
+T9	EVENT 291 300	ДС-Фактор
+T11	EVENT 759 768	ДС-Фактор
+T12	PERSON 786 803	Дмитрием Святашем
+T14	ORDINAL 829 835	первый
+T15	DATE 861 891	с сентября 2011 по апрель 2012
+T16	DATE 913 938	в сентябре — октябре 2012
+T17	NUMBER 1038 1044	одному
+T18	NUMBER 1144 1148	трёх
+T19	PROFESSION 1422 1432	вокалистка
+T20	PERSON 1433 1452	Вероника Карнаухова
+T21	NUMBER 1480 1482	11
+T22	DISTRICT 1555 1563	Салтовки
+T23	PERSON 1580 1594	Дмитрий Святаш
+T24	ORGANIZATION 1633 1641	Пересвет
+T25	PROFESSION 1897 1904	депутат
+T26	DATE 2018 2026	в 2 года
+T27	CITY 0 10	Харьковчан
+T29	ORGANIZATION 218 250	администрации Московского района
+T30	DISTRICT 232 250	Московского района
+T28	DISTRICT 95 113	Московского района
+T31	EVENT 253 262	Торжества
+T8	DISTRICT 332 341	салтовчан
+T32	EVENT 657 682	Торжественное мероприятие
+T33	EVENT 694 703	концертом
+T10	EVENT 804 811	конкурс
+T36	ORGANIZATION 1600 1621	местной администрации
+T37	EVENT 1907 1914	Конкурс
+T39	NUMBER 2014 2017	раз
+T40	EVENT 2040 2048	праздник
+R1	ORIGINS_FROM Arg1:T27 Arg2:T2	
+R2	AGE_IS Arg1:T28 Arg2:T4	
+R3	LOCATED_IN Arg1:T28 Arg2:T2	
+R4	HEADQUARTERED_IN Arg1:T29 Arg2:T30	
+R5	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R6	ORGANIZES Arg1:T7 Arg2:T5	
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T31	
+T41	EVENT 281 300	конкурса «ДС-Фактор
+T42	EVENT 274 300	финала конкурса «ДС-Фактор
+R8	SUBEVENT_OF Arg1:T42 Arg2:T41	
+R9	SUBEVENT_OF Arg1:T42 Arg2:T31	
+R10	TAKES_PLACE_IN Arg1:T3 Arg2:T2	
+R11	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R12	SUBEVENT_OF Arg1:T33 Arg2:T32	
+T43	EVENT 740 768	конкурса талантов «ДС-Фактор
+R13	ALTERNATIVE_NAME Arg1:T43 Arg2:T10	
+R14	ALTERNATIVE_NAME Arg1:T41 Arg2:T43	
+R15	ORGANIZES Arg1:T12 Arg2:T10	
+T34	AWARD 1404 1412	Гран-при
+R16	WORKS_AS Arg1:T20 Arg2:T19	
+R17	AWARDED_WITH Arg1:T20 Arg2:T34	
+R18	ORIGINS_FROM Arg1:T34 Arg2:T43	
+R19	ALTERNATIVE_NAME Arg1:T36 Arg2:T29	
+T13	DATE 819 827	два года
+T35	EVENT 836 851	отборочный этап
+T44	EVENT 893 902	полуфинал
+T45	EVENT 905 910	финал
+R20	POINT_IN_TIME Arg1:T45 Arg2:T16	
+R21	POINT_IN_TIME Arg1:T44 Arg2:T16	
+T46	DATE 861 876	с сентября 2011
+T47	DATE 877 891	по апрель 2012
+R22	SUBEVENT_OF Arg1:T44 Arg2:T10	
+R23	SUBEVENT_OF Arg1:T45 Arg2:T10	
+R24	SUBEVENT_OF Arg1:T35 Arg2:T10	
+R25	START_TIME Arg1:T35 Arg2:T46	
+R26	END_TIME Arg1:T35 Arg2:T47	
+R27	ALTERNATIVE_NAME Arg1:T32 Arg2:T40	
+T48	EVENT 2062 2073	фейерверком
+R28	SUBEVENT_OF Arg1:T48 Arg2:T40	
+T49	CITY 95 106	Московского
+R29	POINT_IN_TIME Arg1:T35 Arg2:T15	
+N1	Reference T2 Wikidata:Q42308	Харьков
+N2	Reference T12 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N3	Reference T19 Wikidata:Q2643890	вокалист
+N7	Reference T25 Wikidata:Q486839	член парламента
+N9	Reference T28 Wikidata:Q4304270	Московский район
+N10	Reference T36 Wikidata:Q6501447	орган местного самоуправления
+N8	Reference T27 Wikidata:Q42308	Харьков
+N13	Reference T8 Wikidata:Q7406153	
+N5	Reference T22 Wikidata:Q7406153	
+N6	Reference T24 Wikidata:NULL	нет данных
+N4	Reference T20 Wikidata:NULL	нет данных
+N11	Reference T34 Wikidata:NULL	нет данных
+N12	Reference T49 Wikidata:Q649	Москва
+N14	Reference T23 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N15	Reference T30 Wikidata:Q4304270	Московский район
+N16	Reference T29 Wikidata:Q6501447	орган местного самоуправления
+N17	Reference T6 Wikidata:Q7406153	
+N18	Reference T7 Wikidata:NULL	нет данных

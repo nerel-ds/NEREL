@@ -1,0 +1,66 @@
+T1	COUNTRY 7 19	французского
+T2	CITY 27 32	Шартр
+T3	FACILITY 90 105	Башня Монпарнас
+T4	DATE 106 120	8 августа 2016
+T5	COUNTRY 133 145	французского
+T6	CITY 153 158	Шартр
+T8	DATE 172 182	двум годам
+T9	AGE 235 244	31-летний
+T10	DATE 269 280	в 2009 году
+T11	COUNTRY 392 403	Французская
+T12	ORGANIZATION 411 428	L'Est Republicain
+T13	ORGANIZATION 592 609	L’Est Republicain
+T14	PRODUCT 659 667	Facebook
+T15	FACILITY 695 704	Монпарнас
+T16	DATE 957 973	в июне 2016 года
+T17	NUMBER 988 989	2
+T19	ORDINAL 1062 1068	первое
+T20	COUNTRY 1079 1091	французского
+T21	AGE 1136 1145	16-летнюю
+T22	PRODUCT 1187 1195	Telegram
+T23	CRIME 49 89	посещение сайтов с радикальной тематикой
+T24	CRIME 1166 1184	призывы к терактам
+T18	PENALTY 988 1002	2 годам тюрьмы
+T25	LAW 916 945	Закон по борьбе с терроризмом
+T26	RELIGION 774 779	Аллах
+T27	RELIGION 281 286	ислам
+T28	IDEOLOGY 316 327	радикальной
+T29	IDEOLOGY 68 79	радикальной
+R1	LOCATED_IN Arg1:T2 Arg2:T1	
+T30	PENALTY 172 189	двум годам тюрьмы
+T31	PENALTY 183 189	тюрьмы
+T32	CRIME 193 232	регулярное посещение сайтов террористов
+R2	HAS_CAUSE Arg1:T30 Arg2:T32	
+R3	LOCATED_IN Arg1:T6 Arg2:T5	
+R4	HEADQUARTERED_IN Arg1:T12 Arg2:T11	
+R5	DATE_OF_CREATION Arg1:T25 Arg2:T16	
+T33	PENALTY 996 1002	тюрьмы
+T34	PENALTY 369 389	заключили под стражу
+T7	EVENT 159 169	приговорён
+R6	TAKES_PLACE_IN Arg1:T7 Arg2:T6	
+R7	POINT_IN_TIME Arg1:T7 Arg2:T4	
+T35	IDEOLOGY 221 232	террористов
+R8	HAS_CAUSE Arg1:T7 Arg2:T32	
+R9	HAS_CAUSE Arg1:T34 Arg2:T7	
+T36	IDEOLOGY 934 945	терроризмом
+R10	ORIGINS_FROM Arg1:T25 Arg2:T11	
+T37	EVENT 33 45	получил срок
+R11	ALTERNATIVE_NAME Arg1:T37 Arg2:T7	
+R12	TAKES_PLACE_IN Arg1:T37 Arg2:T2	
+R13	HAS_CAUSE Arg1:T37 Arg2:T23	
+R14	INANIMATE_INVOLVED Arg1:T22 Arg2:T24	
+N1	Reference T3 Wikidata:Q323767	Башня Монпарнас
+N2	Reference T6 Wikidata:Q130272	Шартр
+N5	Reference T14 Wikidata:Q355	Facebook
+N6	Reference T15 Wikidata:Q211604	Монпарнас
+N7	Reference T20 Wikidata:Q142	Франция
+N8	Reference T22 Wikidata:Q15616276	Telegram
+N10	Reference T26 Wikidata:Q234801	Аллах
+N11	Reference T27 Wikidata:Q432	ислам
+N3	Reference T12 Wikidata:Q3052319	
+N4	Reference T13 Wikidata:Q3052319	
+N9	Reference T25 Wikidata:NULL	нет данных
+N12	Reference T2 Wikidata:Q130272	Шартр
+N13	Reference T11 Wikidata:Q142	Франция
+N14	Reference T5 Wikidata:Q142	Франция
+N15	Reference T1 Wikidata:Q142	Франция

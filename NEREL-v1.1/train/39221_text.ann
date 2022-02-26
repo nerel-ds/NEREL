@@ -1,0 +1,141 @@
+T2	CITY 17 23	Москве
+T3	CITY 33 43	московских
+T4	PERSON 53 67	Юлия Навальная
+T5	PERSON 69 86	Алексей Навальный
+T6	PERSON 89 98	Илья Яшин
+T7	CITY 119 125	Москве
+T8	DATE 126 143	12 июня 2013 года
+T11	ORGANIZATION 204 225	столичного главка МВД
+T14	ORGANIZATION 247 261	Мосгоризбирком
+T15	PROFESSION 353 369	кандидата в мэры
+T16	CITY 370 376	Москвы
+T17	PERSON 377 395	Алексея Навального
+T18	ORGANIZATION 444 463	избирательном штабе
+T19	PERSON 464 474	Навального
+T20	FACILITY 541 556	Трубной площади
+T21	TIME 557 564	в 16:00
+T22	PERSON 660 670	Навального
+T23	LAW 698 719	О выборах мэра Москвы
+T25	CITY 792 798	Москвы
+T26	DATE 855 865	за 40 дней
+T27	LAW 884 901	статье 49 кодекса
+T28	ORGANIZATION 1021 1034	РИА «Новости»
+T31	ORGANIZATION 1074 1093	ГУ МВД по г. Москве
+T35	ORGANIZATION 1146 1161	Мосгоризбиркома
+T36	CITY 1230 1236	Москве
+T37	DATE 1288 1302	в прошлом веке
+T38	DATE 1318 1329	в 2003 году
+T40	CITY 1368 1374	Москвы
+T41	LAW 1399 1414	8 главе кодекса
+T34	ORGANIZATION 3 6	МВД
+T1	ORGANIZATION 0 23	ГУ МВД по городу Москве
+T42	EVENT 102 116	марше протеста
+T9	ORGANIZATION 163 176	РИА «Новости»
+T10	ORGANIZATION 222 225	МВД
+T13	CRIME 281 340	незаконного распространения агитационной печатной продукции
+T44	PROFESSION 353 376	кандидата в мэры Москвы
+T46	EVENT 574 593	согласованный пикет
+T24	LAW 763 798	Избирательном кодексе города Москвы
+T47	EVENT 873 880	выборов
+T48	ORDINAL 891 893	49
+T29	ORGANIZATION 1061 1093	пресс-службы ГУ МВД по г. Москве
+T50	CITY 1087 1093	Москве
+T32	PERSON 1094 1126	Галиакберову Андрею Анатольевичу
+T33	ORGANIZATION 1077 1080	МВД
+T52	PROFESSION 1193 1204	журналистам
+T39	LAW 1345 1374	избирательного кодекса Москвы
+T55	ORDINAL 1399 1400	8
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T42 Arg2:T7	
+R3	POINT_IN_TIME Arg1:T42 Arg2:T8	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T42	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T42	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T42	
+T49	ORGANIZATION 191 225	пресс-службу столичного главка МВД
+R7	WORKPLACE Arg1:T44 Arg2:T16	
+R8	WORKS_AS Arg1:T17 Arg2:T44	
+R9	WORKPLACE Arg1:T17 Arg2:T16	
+T56	ORGANIZATION 444 474	избирательном штабе Навального
+R10	WORKPLACE Arg1:T19 Arg2:T56	
+R11	TAKES_PLACE_IN Arg1:T46 Arg2:T20	
+T57	CITY 713 719	Москвы
+T58	PROFESSION 708 712	мэра
+R12	WORKPLACE Arg1:T58 Arg2:T57	
+R13	DATE_FOUNDED_IN Arg1:T47 Arg2:T26	
+R14	HEADQUARTERED_IN Arg1:T31 Arg2:T50	
+T43	PROFESSION 1050 1093	начальнику пресс-службы ГУ МВД по г. Москве
+R15	WORKS_AS Arg1:T32 Arg2:T43	
+R16	WORKPLACE Arg1:T32 Arg2:T31	
+R17	WORKPLACE Arg1:T32 Arg2:T50	
+R18	ORIGINS_FROM Arg1:T39 Arg2:T40	
+R20	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R21	PART_OF Arg1:T29 Arg2:T31	
+R22	PART_OF Arg1:T49 Arg2:T11	
+R23	PART_OF Arg1:T11 Arg2:T10	
+R24	PART_OF Arg1:T1 Arg2:T34	
+R25	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+R26	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+T12	ORGANIZATION 227 244	столичная полиция
+R27	HEADQUARTERED_IN Arg1:T14 Arg2:T7	
+R28	HEADQUARTERED_IN Arg1:T12 Arg2:T7	
+R29	LOCATED_IN Arg1:T20 Arg2:T7	
+T30	EVENT 613 647	раздавалась агитационная продукция
+R30	SUBEVENT_OF Arg1:T30 Arg2:T46	
+R31	PARTICIPANT_IN Arg1:T22 Arg2:T30	
+R32	PART_OF Arg1:T27 Arg2:T24	
+T45	LAW 763 784	Избирательном кодексе
+R19	PART_OF Arg1:T41 Arg2:T24	
+T51	PROFESSION 708 719	мэра Москвы
+N1	Reference T5 Wikidata:Q155979	Алексей Анатольевич Навальный
+N2	Reference T6 Wikidata:Q1658622	Илья Валерьевич Яшин
+N4	Reference T15 Wikidata:Q500672	Кандидат
+N5	Reference T16 Wikidata:Q649	Москва
+N7	Reference T20 Wikidata:Q4464224	Трубная площадь
+N8	Reference T22 Wikidata:Q155979	Алексей Анатольевич Навальный
+N11	Reference T31 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N13	Reference T1 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N14	Reference T9 Wikidata:Q821172	РИА Новости
+N15	Reference T10 Wikidata:Q6589202	министерство внутренних дел
+N16	Reference T44 Wikidata:Q649	Москва
+N17	Reference T24 Wikidata:Q649	Москва
+N18	Reference T29 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N20	Reference T52 Wikidata:Q1930187	журналист
+N24	Reference T58 Wikidata:Q30185	мэр
+N28	Reference T4 Wikidata:Q53520997	
+N26	Reference T12 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N3	Reference T11 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N22	Reference T49 Wikidata:NULL	нет данных
+N23	Reference T56 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q4198314	
+N10	Reference T27 Wikidata:NULL	нет данных
+N30	Reference T3 Wikidata:Q1837906	мэр Москвы
+N27	Reference T45 Wikidata:Q1810004	
+N9	Reference T23 Wikidata:NULL	нет данных
+N25	Reference T43 Wikidata:NULL	нет данных
+N19	Reference T32 Wikidata:NULL	нет данных
+N32	Reference T35 Wikidata:NULL	нет данных
+N33	Reference T8 Wikidata:Q1810004	
+N21	Reference T39 Wikidata:NULL	нет данных
+N12	Reference T41 Wikidata:NULL	нет данных
+N34	Reference T17 Wikidata:Q155979	Алексей Анатольевич Навальный
+N35	Reference T40 Wikidata:Q649	Москва
+N36	Reference T57 Wikidata:Q649	Москва
+N37	Reference T25 Wikidata:Q649	Москва
+N38	Reference T7 Wikidata:Q649	Москва
+N39	Reference T3 Wikidata:Q649	Москва
+N40	Reference T50 Wikidata:Q649	Москва
+N41	Reference T36 Wikidata:Q649	Москва
+N42	Reference T2 Wikidata:Q649	Москва
+N43	Reference T19 Wikidata:Q155979	Алексей Анатольевич Навальный
+N44	Reference T28 Wikidata:Q821172	РИА Новости
+N45	Reference T34 Wikidata:Q6589202	министерство внутренних дел
+N46	Reference T33 Wikidata:Q6589202	министерство внутренних дел
+N47	Reference T40 Wikidata:Q1837906	мэр Москвы
+N48	Reference T57 Wikidata:Q1837906	мэр Москвы
+N49	Reference T25 Wikidata:Q1837906	мэр Москвы
+N50	Reference T16 Wikidata:Q1837906	мэр Москвы
+N51	Reference T7 Wikidata:Q1837906	мэр Москвы
+N52	Reference T50 Wikidata:Q1837906	мэр Москвы
+N53	Reference T36 Wikidata:Q1837906	мэр Москвы
+N54	Reference T2 Wikidata:Q1837906	мэр Москвы
+N55	Reference T14 Wikidata:NULL	нет данных

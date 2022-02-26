@@ -1,0 +1,232 @@
+T1	FACILITY 33 50	Матросской тишины
+T3	DATE 53 71	7 апреля 2013 года
+T4	AGE 94 103	32-летний
+T5	CITY 113 117	Сочи
+T6	FACILITY 152 169	Матросской тишины
+T8	PROFESSION 206 246	Представитель столичного управления ФСИН
+T9	PERSON 247 262	Сергей Цыганков
+T10	PERSON 290 297	Топалов
+T11	PROFESSION 444 452	Чиновник
+T13	PERSON 487 496	О.Топалов
+T14	PERSON 610 617	Топалов
+T15	PERSON 689 697	Топалова
+T16	TIME 751 757	в 5:15
+T17	NUMBER 801 805	семь
+T18	AGE 914 923	32-летний
+T19	CITY 931 935	Сочи
+T20	PERSON 936 948	Олег Топалов
+T21	ORGANIZATION 974 998	Пресненского суда Москвы
+T22	DATE 999 1019	17 октября 2011 года
+T23	FACILITY 1108 1125	Матросской тишины
+T25	DATE 1140 1166	около двенадцати лет назад
+T26	TIME 1168 1196	Около 01:20 5 июня 1995 года
+T27	DATE 1180 1196	5 июня 1995 года
+T28	PERSON 1235 1252	Александр Солоник
+T29	ORDINAL 1331 1338	третьем
+T30	PROFESSION 1375 1390	младший сержант
+T31	PERSON 1459 1467	Солоника
+T32	PERSON 1588 1595	Солоник
+T33	NUMBER 1708 1711	№ 9
+T34	NUMBER 1784 1799	около 20 метров
+T35	FACILITY 1829 1846	Матросская тишина
+T36	PERSON 1915 1931	Сергей Меньшиков
+T37	PERSON 2020 2029	Меньшиков
+T38	PERSON 2037 2045	Солонику
+T39	PERSON 2090 2099	Солонника
+T40	COUNTRY 2102 2108	России
+T41	DATE 2125 2144	в августе 1995 года
+T42	CITY 2164 2170	Афинах
+T43	DATE 2172 2192	два последующих года
+T44	DATE 2218 2236	в начале 1997 года
+T45	ORGANIZATION 2304 2313	RED STARS
+T46	EVENT 2346 2360	Мисс Россия-96
+T47	AGE 2362 2371	22-летней
+T48	PERSON 2372 2389	Светланой Котовой
+T49	COUNTRY 2397 2403	Греции
+T50	PERSON 2415 2431	Владимира Кесова
+T51	DATE 2434 2453	2 февраля 1997 года
+T52	CITY 2508 2512	Афин
+T53	CRIME 13 21	убийстве
+T2	CRIME 85 93	убийстве
+T54	PERSON 118 130	Олег Топалов
+T7	ORGANIZATION 242 246	ФСИН
+T56	ORGANIZATION 220 246	столичного управления ФСИН
+T57	EVENT 307 312	побег
+T58	EVENT 22 28	сбежал
+T12	EVENT 549 555	побегу
+T60	PROFESSION 714 750	сотрудниками следственного изолятора
+T61	ORGANIZATION 727 750	следственного изолятора
+T62	EVENT 859 865	побега
+T63	ORGANIZATION 878 885	полиция
+T64	ORGANIZATION 868 885	Столичная полиция
+T65	EVENT 953 962	арестован
+T66	ORGANIZATION 974 991	Пресненского суда
+T67	CITY 992 998	Москвы
+T68	CRIME 1035 1043	убийстве
+T69	CRIME 1046 1071	незаконном обороте оружия
+T24	EVENT 1098 1103	побег
+T70	FACILITY 1200 1204	СИЗО
+T71	ORGANIZATION 1283 1287	СИЗО
+T72	PROFESSION 1272 1287	сотрудники СИЗО
+T73	ORDINAL 1345 1353	девятого
+T74	PROFESSION 1375 1398	младший сержант милиции
+T77	PROFESSION 1492 1503	милиционера
+T78	PROFESSION 1506 1513	бандита
+T79	ORGANIZATION 1528 1532	СИЗО
+T80	PROFESSION 1574 1586	оперативники
+T81	PROFESSION 1598 1608	милиционер
+T82	PERSON 2145 2152	Солоник
+T83	PROFESSION 2256 2267	фотомоделью
+T84	PROFESSION 2269 2281	манекенщицей
+T85	CITY 2282 2293	московского
+T86	AWARD 2316 2360	финалисткой конкурса красоты «Мисс Россия-96
+T87	PERSON 2471 2479	Солоника
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T58	
+R2	PLACE_OF_BIRTH Arg1:T54 Arg2:T5	
+R3	AGE_IS Arg1:T54 Arg2:T4	
+T88	EVENT 131 137	сбежал
+R4	AGENT Arg1:T54 Arg2:T88	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T88	
+R6	CONVICTED_OF Arg1:T54 Arg2:T2	
+R7	POINT_IN_TIME Arg1:T88 Arg2:T3	
+R8	PART_OF Arg1:T56 Arg2:T7	
+R9	WORKPLACE Arg1:T8 Arg2:T56	
+R10	WORKS_AS Arg1:T9 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T54 Arg2:T10	
+R12	ALTERNATIVE_NAME Arg1:T88 Arg2:T57	
+R13	AGENT Arg1:T10 Arg2:T57	
+R14	WORKS_AS Arg1:T9 Arg2:T11	
+R15	ALTERNATIVE_NAME Arg1:T10 Arg2:T13	
+T55	EVENT 681 688	Пропажа
+R16	PARTICIPANT_IN Arg1:T15 Arg2:T55	
+R17	WORKPLACE Arg1:T60 Arg2:T61	
+T89	EVENT 897 903	розыск
+R18	AGENT Arg1:T64 Arg2:T89	
+R19	AGE_IS Arg1:T20 Arg2:T18	
+R20	ORIGINS_FROM Arg1:T20 Arg2:T19	
+R21	PARTICIPANT_IN Arg1:T20 Arg2:T65	
+R22	HEADQUARTERED_IN Arg1:T21 Arg2:T67	
+R23	POINT_IN_TIME Arg1:T65 Arg2:T22	
+R24	HAS_CAUSE Arg1:T65 Arg2:T68	
+R25	CONVICTED_OF Arg1:T20 Arg2:T68	
+R26	HAS_CAUSE Arg1:T65 Arg2:T69	
+R27	CONVICTED_OF Arg1:T20 Arg2:T69	
+R28	POINT_IN_TIME Arg1:T24 Arg2:T25	
+R29	PARTICIPANT_IN Arg1:T23 Arg2:T24	
+R30	ALTERNATIVE_NAME Arg1:T61 Arg2:T70	
+T90	EVENT 1205 1211	сбежал
+R31	ALTERNATIVE_NAME Arg1:T24 Arg2:T90	
+R32	AGENT Arg1:T28 Arg2:T90	
+R33	PARTICIPANT_IN Arg1:T70 Arg2:T90	
+R34	POINT_IN_TIME Arg1:T90 Arg2:T26	
+T91	PROFESSION 1212 1234	криминальный авторитет
+R35	WORKS_AS Arg1:T28 Arg2:T91	
+R36	WORKPLACE Arg1:T72 Arg2:T71	
+T75	ORGANIZATION 1391 1398	милиции
+R37	WORKPLACE Arg1:T74 Arg2:T75	
+R38	ALTERNATIVE_NAME Arg1:T28 Arg2:T31	
+R39	WORKS_AS Arg1:T31 Arg2:T78	
+R40	WORKPLACE Arg1:T77 Arg2:T75	
+T76	PROFESSION 1903 1914	надзиратель
+R41	WORKS_AS Arg1:T36 Arg2:T76	
+R42	WORKS_AS Arg1:T36 Arg2:T81	
+R43	WORKS_AS Arg1:T36 Arg2:T74	
+R44	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R45	KNOWS Arg1:T37 Arg2:T38	
+R46	HEADQUARTERED_IN Arg1:T45 Arg2:T85	
+R47	AGE_IS Arg1:T48 Arg2:T47	
+R48	AWARDED_WITH Arg1:T48 Arg2:T86	
+R49	PARTICIPANT_IN Arg1:T48 Arg2:T46	
+T92	COUNTRY 2351 2357	Россия
+R50	TAKES_PLACE_IN Arg1:T46 Arg2:T92	
+R51	ALTERNATIVE_NAME Arg1:T82 Arg2:T50	
+T94	EVENT 2485 2495	обнаружено
+R53	INANIMATE_INVOLVED Arg1:T87 Arg2:T94	
+T95	LOCATION 2496 2512	недалеко от Афин
+R54	TAKES_PLACE_IN Arg1:T94 Arg2:T95	
+R55	POINT_IN_TIME Arg1:T94 Arg2:T51	
+R56	LOCATED_IN Arg1:T42 Arg2:T49	
+R57	WORKS_AS Arg1:T48 Arg2:T83	
+R58	WORKS_AS Arg1:T48 Arg2:T84	
+T96	EVENT 2153 2161	появился
+R59	AGENT Arg1:T82 Arg2:T96	
+R60	TAKES_PLACE_IN Arg1:T96 Arg2:T42	
+R61	POINT_IN_TIME Arg1:T96 Arg2:T41	
+R62	WORKPLACE Arg1:T84 Arg2:T45	
+R63	WORKPLACE Arg1:T48 Arg2:T45	
+T59	DISEASE 506 529	психическим отклонением
+R52	MEDICAL_CONDITION Arg1:T13 Arg2:T59	
+R64	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R65	AGENT Arg1:T13 Arg2:T12	
+R66	ALTERNATIVE_NAME Arg1:T12 Arg2:T55	
+R67	HAS_CAUSE Arg1:T89 Arg2:T62	
+R68	KNOWS Arg1:T32 Arg2:T81	
+T93	FACILITY 1700 1711	корпуса № 9
+R69	PART_OF Arg1:T93 Arg2:T35	
+R70	LOCATED_IN Arg1:T23 Arg2:T67	
+T97	DATE 2358 2360	96
+R71	POINT_IN_TIME Arg1:T46 Arg2:T97	
+R72	POINT_IN_TIME Arg1:T86 Arg2:T97	
+R73	PLACE_RESIDES_IN Arg1:T82 Arg2:T49	
+R74	PLACE_RESIDES_IN Arg1:T50 Arg2:T49	
+R75	SPOUSE Arg1:T82 Arg2:T48	
+N1	Reference T5 Wikidata:Q39420	Сочи
+N5	Reference T11 Wikidata:Q382887	чиновник
+N12	Reference T42 Wikidata:Q1524	Афины
+N15	Reference T49 Wikidata:Q41	Греция
+N16	Reference T7 Wikidata:Q4481678	Федеральная служба исполнения наказаний
+N19	Reference T61 Wikidata:Q4354932	Следственный изолятор
+N20	Reference T63 Wikidata:Q35535	полиция
+N23	Reference T67 Wikidata:Q649	Москва
+N29	Reference T83 Wikidata:Q4610556	модель
+N30	Reference T84 Wikidata:Q4610556	модель
+N35	Reference T75 Wikidata:Q1058330	Милиция
+N36	Reference T76 Wikidata:Q311396	тюремный надзиратель
+N37	Reference T92 Wikidata:Q159	Россия
+N3	Reference T9 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N17	Reference T56 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	нет данных
+N18	Reference T60 Wikidata:NULL	нет данных
+N21	Reference T64 Wikidata:NULL	нет данных
+N22	Reference T66 Wikidata:Q4304065	Московский городской суд
+N6	Reference T21 Wikidata:Q4304065	Московский городской суд
+N24	Reference T70 Wikidata:Q2945301	следственный изолятор
+N26	Reference T72 Wikidata:NULL	нет данных
+N7	Reference T30 Wikidata:Q4298666	
+N40	Reference T74 Wikidata:NULL	нет данных
+N8	Reference T31 Wikidata:Q4428359	
+N11	Reference T39 Wikidata:Q4428359	
+N33	Reference T87 Wikidata:Q4428359	
+N38	Reference T95 Wikidata:NULL	нет данных
+N10	Reference T37 Wikidata:NULL	нет данных
+N34	Reference T91 Wikidata:Q59650479	
+N25	Reference T71 Wikidata:Q2945301	следственный изолятор
+N27	Reference T78 Wikidata:Q20650523	
+N41	Reference T80 Wikidata:Q4335344	
+N28	Reference T81 Wikidata:Q60032090	
+N39	Reference T93 Wikidata:NULL	нет данных
+N9	Reference T35 Wikidata:Q4473122	
+N31	Reference T85 Wikidata:Q649	Москва
+N13	Reference T45 Wikidata:NULL	нет данных
+N32	Reference T86 Wikidata:NULL	нет данных
+N14	Reference T48 Wikidata:NULL	нет данных
+N42	Reference T19 Wikidata:Q39420	Сочи
+N43	Reference T52 Wikidata:Q1524	Афины
+N44	Reference T40 Wikidata:Q159	Россия
+N45	Reference T13 Wikidata:NULL	нет данных
+N46	Reference T20 Wikidata:NULL	нет данных
+N47	Reference T15 Wikidata:NULL	нет данных
+N48	Reference T14 Wikidata:NULL	нет данных
+N49	Reference T54 Wikidata:NULL	нет данных
+N50	Reference T28 Wikidata:Q4428359	
+N51	Reference T38 Wikidata:Q4428359	
+N52	Reference T50 Wikidata:Q4428359	
+N53	Reference T82 Wikidata:Q4428359	
+N54	Reference T32 Wikidata:Q4428359	
+N55	Reference T36 Wikidata:NULL	нет данных
+N56	Reference T79 Wikidata:Q2945301	следственный изолятор
+N57	Reference T77 Wikidata:Q60032090	
+N58	Reference T6 Wikidata:Q4473122	
+N59	Reference T1 Wikidata:Q4473122	
+N60	Reference T23 Wikidata:Q4473122	

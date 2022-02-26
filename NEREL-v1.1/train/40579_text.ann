@@ -1,0 +1,127 @@
+T1	COUNTRY 2 8	Египте
+T3	ORGANIZATION 26 43	Братьев-мусульман
+T4	PERSON 45 58	Мухаммед Бади
+T5	PERSON 60 74	Mohammed Badie
+T6	COUNTRY 76 86	Египетские
+T8	ORGANIZATION 126 143	Братья-мусульмане
+T9	PERSON 145 158	Мухаммед Бади
+T10	PERSON 160 174	Mohammed Badie
+T12	COUNTRY 248 254	Египта
+T13	AGE 257 266	70-летний
+T14	PERSON 267 271	Бади
+T16	DISTRICT 317 326	Наср-Сити
+T17	LOCATION 330 350	северо-востоке Каира
+T18	ORGANIZATION 520 523	МВД
+T19	PRODUCT 533 541	Facebook
+T20	PERSON 566 570	Бади
+T21	PROFESSION 583 607	лидер «Братьев-мусульман
+T22	ORGANIZATION 590 607	Братьев-мусульман
+T23	NUMBER 660 665	двумя
+T24	COUNTRY 745 748	США
+T25	COUNTRY 758 764	Египет
+T26	ORGANIZATION 779 796	Братьев-мусульман
+T28	AGE 811 820	85-летней
+T29	DATE 913 935	С 14 августа 2013 года
+T30	ORGANIZATION 979 996	Братьев-мусульман
+T31	CITY 1000 1005	Каире
+T32	NUMBER 1027 1036	около 900
+T35	EVENT 9 18	арестован
+T36	PROFESSION 19 43	лидер «Братьев-мусульман
+T37	EVENT 98 108	арестовали
+T38	EVENT 276 284	задержан
+T15	CITY 345 350	Каира
+T39	EVENT 354 364	Задержание
+T41	ORGANIZATION 520 530	МВД Египта
+T42	COUNTRY 524 530	Египта
+T43	EVENT 737 742	арест
+T33	PROFESSION 1068 1082	военнослужащих
+T44	PROFESSION 1085 1096	полицейских
+T34	NUMBER 1058 1067	более 100
+R1	WORKPLACE Arg1:T36 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T35 Arg2:T1	
+R4	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T35	
+R5	WORKPLACE Arg1:T4 Arg2:T3	
+R6	WORKS_AS Arg1:T4 Arg2:T36	
+T7	PROFESSION 109 144	лидера движения «Братья-мусульмане»
+R9	WORKPLACE Arg1:T7 Arg2:T8	
+R10	WORKS_AS Arg1:T9 Arg2:T7	
+R11	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R12	WORKPLACE Arg1:T9 Arg2:T8	
+R13	ALTERNATIVE_NAME Arg1:T36 Arg2:T7	
+R14	PARTICIPANT_IN Arg1:T9 Arg2:T37	
+T2	ORGANIZATION 76 97	Египетские спецслужбы
+R7	HEADQUARTERED_IN Arg1:T2 Arg2:T6	
+R8	AGENT Arg1:T2 Arg2:T37	
+R15	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R16	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R17	AGE_IS Arg1:T14 Arg2:T13	
+R18	PARTICIPANT_IN Arg1:T14 Arg2:T38	
+R19	ALTERNATIVE_NAME Arg1:T37 Arg2:T38	
+R20	LOCATED_IN Arg1:T16 Arg2:T17	
+R21	LOCATED_IN Arg1:T16 Arg2:T15	
+R22	TAKES_PLACE_IN Arg1:T38 Arg2:T16	
+R23	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R24	HEADQUARTERED_IN Arg1:T41 Arg2:T42	
+R25	WORKPLACE Arg1:T21 Arg2:T22	
+R26	WORKS_AS Arg1:T20 Arg2:T21	
+R27	WORKPLACE Arg1:T20 Arg2:T22	
+R28	ALTERNATIVE_NAME Arg1:T39 Arg2:T43	
+T45	EVENT 950 977	разогнали палаточные лагеря
+R29	START_TIME Arg1:T45 Arg2:T29	
+R30	TAKES_PLACE_IN Arg1:T45 Arg2:T31	
+R31	PARTICIPANT_IN Arg1:T30 Arg2:T45	
+T27	EVENT 1021 1044	убиты около 900 человек
+R32	START_TIME Arg1:T27 Arg2:T29	
+R33	PARTICIPANT_IN Arg1:T33 Arg2:T27	
+R34	PARTICIPANT_IN Arg1:T44 Arg2:T27	
+T11	DATE 185 217	во вторник, 20 августа 2013 года
+R38	LOCATED_IN Arg1:T17 Arg2:T15	
+R35	AGE_IS Arg1:T26 Arg2:T28	
+T40	RELIGION 34 43	мусульман
+R36	RELIGION_OF Arg1:T4 Arg2:T40	
+R37	RELIGION_OF Arg1:T3 Arg2:T40	
+T46	RELIGION 133 143	мусульмане
+R39	RELIGION_OF Arg1:T9 Arg2:T46	
+T47	RELIGION 598 607	мусульман
+R40	RELIGION_OF Arg1:T22 Arg2:T47	
+T48	RELIGION 786 796	-мусульман
+R41	RELIGION_OF Arg1:T26 Arg2:T48	
+T49	RELIGION 987 996	мусульман
+R42	RELIGION_OF Arg1:T30 Arg2:T49	
+T50	EVENT 1021 1026	убиты
+N1	Reference T1 Wikidata:Q79	Египет
+N2	Reference T3 Wikidata:Q133207	Братья-мусульмане
+N5	Reference T18 Wikidata:Q6589202	министерство внутренних дел
+N6	Reference T19 Wikidata:Q355	Facebook
+N7	Reference T24 Wikidata:Q30	США
+N9	Reference T15 Wikidata:Q85	Каир
+N11	Reference T33 Wikidata:Q47064	военнослужащий
+N8	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T5 Wikidata:Q1951842	
+N17	Reference T10 Wikidata:Q1951842	
+N13	Reference T2 Wikidata:Q630014	Служба общей разведки
+N4	Reference T17 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:Q1309979	
+N10	Reference T41 Wikidata:Q2607694	
+N14	Reference T48 Wikidata:Q432	ислам
+N15	Reference T49 Wikidata:Q432	ислам
+N12	Reference T44 Wikidata:Q384593	
+N18	Reference T12 Wikidata:Q79	Египет
+N19	Reference T25 Wikidata:Q79	Египет
+N20	Reference T42 Wikidata:Q79	Египет
+N21	Reference T6 Wikidata:Q79	Египет
+N22	Reference T22 Wikidata:Q133207	Братья-мусульмане
+N23	Reference T8 Wikidata:Q133207	Братья-мусульмане
+N24	Reference T26 Wikidata:Q133207	Братья-мусульмане
+N25	Reference T30 Wikidata:Q133207	Братья-мусульмане
+N26	Reference T31 Wikidata:Q85	Каир
+N27	Reference T7 Wikidata:NULL	нет данных
+N28	Reference T21 Wikidata:NULL	нет данных
+N29	Reference T4 Wikidata:Q1951842	
+N30	Reference T14 Wikidata:Q1951842	
+N31	Reference T9 Wikidata:Q1951842	
+N32	Reference T20 Wikidata:Q1951842	
+N33	Reference T40 Wikidata:Q432	ислам
+N34	Reference T47 Wikidata:Q432	ислам
+N35	Reference T46 Wikidata:Q432	ислам

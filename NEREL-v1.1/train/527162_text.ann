@@ -1,0 +1,122 @@
+T1	ORGANIZATION 20 23	ФСБ
+T2	PERSON 30 45	Евгений Манюров
+T3	ORGANIZATION 60 63	ФСБ
+T4	ORGANIZATION 92 95	ФСБ
+T5	CITY 98 104	Москве
+T7	DATE 107 136	четверг, 19 декабря 2019 года
+T9	PERSON 144 159	Евгений Манюров
+T10	ORGANIZATION 170 181	Пятый канал
+T11	ORGANIZATION 184 190	РЕН ТВ
+T12	AGE 211 220	39-летний
+T13	STATE_OR_PROVINCE 230 248	Московской области
+T14	PERSON 249 264	Евгений Манюров
+T15	PROFESSION 286 301	предприниматель
+T16	CITY 305 314	Подольска
+T17	DATE 361 372	в 2015 году
+T18	DATE 394 410	Две недели назад
+T19	DATE 412 434	27-28 ноября 2019 года
+T20	PERSON 436 451	Евгений Манюров
+T21	ORDINAL 458 464	третье
+T22	ORGANIZATION 532 582	Московского городского стрелково-спортивного клуба
+T23	PRODUCT 591 595	Baza
+T24	TIME 730 769	Вечером в четверг, 19 декабря 2019 года
+T25	DATE 740 769	четверг, 19 декабря 2019 года
+T27	ORGANIZATION 780 783	ФСБ
+T28	CITY 786 792	Москве
+T29	NUMBER 839 845	одного
+T30	NUMBER 855 862	четырёх
+T31	NUMBER 894 900	одного
+T32	ORGANIZATION 955 958	ФСБ
+T33	EVENT 971 1027	День работника органов безопасности Российской Федерации
+T34	PROFESSION 1029 1038	Президент
+T35	PERSON 1046 1060	Владимир Путин
+T36	EVENT 1080 1087	концерт
+T37	FACILITY 1090 1096	Кремле
+T38	COUNTRY 64 70	России
+T39	ORGANIZATION 60 70	ФСБ России
+T40	TIME 71 76	ночью
+T6	DATE 266 273	1980 г.
+T8	EVENT 378 391	ликвидирована
+T41	DATE 394 434	Две недели назад, 27-28 ноября 2019 года
+T26	EVENT 803 811	стрельба
+T43	EVENT 833 838	убить
+T44	EVENT 848 884	ранить четырёх сотрудников спецслужб
+T45	PROFESSION 863 884	сотрудников спецслужб
+T46	EVENT 927 939	ликвидирован
+T47	EVENT 942 958	Нападение на ФСБ
+T48	PROFESSION 976 1006	работника органов безопасности
+T49	PROFESSION 976 1027	работника органов безопасности Российской Федерации
+T50	COUNTRY 1007 1027	Российской Федерации
+T51	PROFESSION 1029 1045	Президент России
+T42	FACILITY 46 70	Штаб-квартира ФСБ России
+R1	DATE_OF_BIRTH Arg1:T14 Arg2:T6	
+R2	AGE_IS Arg1:T14 Arg2:T12	
+T52	FACILITY 773 783	здания ФСБ
+R3	LOCATED_IN Arg1:T52 Arg2:T28	
+R4	TAKES_PLACE_IN Arg1:T26 Arg2:T28	
+R5	POINT_IN_TIME Arg1:T26 Arg2:T25	
+R6	WORKS_AS Arg1:T14 Arg2:T15	
+R7	PLACE_OF_BIRTH Arg1:T14 Arg2:T13	
+R8	PLACE_RESIDES_IN Arg1:T14 Arg2:T16	
+T53	EVENT 77 95	Нападавшего на ФСБ
+R9	AGENT Arg1:T9 Arg2:T53	
+R10	TAKES_PLACE_IN Arg1:T53 Arg2:T5	
+R11	POINT_IN_TIME Arg1:T53 Arg2:T7	
+T54	EVENT 5 23	Нападавшего на ФСБ
+R12	AGENT Arg1:T2 Arg2:T54	
+R13	ALTERNATIVE_NAME Arg1:T53 Arg2:T47	
+T55	COUNTRY 1039 1045	России
+R14	WORKPLACE Arg1:T51 Arg2:T55	
+R15	WORKPLACE Arg1:T35 Arg2:T55	
+R16	WORKS_AS Arg1:T35 Arg2:T51	
+R17	LOCATED_IN Arg1:T35 Arg2:T37	
+T56	ORDINAL 170 175	Пятый
+R18	PARTICIPANT_IN Arg1:T1 Arg2:T54	
+R19	HEADQUARTERED_IN Arg1:T39 Arg2:T38	
+R20	OWNER_OF Arg1:T39 Arg2:T42	
+T57	EVENT 473 511	соревнованиях по практической стрельбе
+T58	CITY 532 543	Московского
+R21	HEADQUARTERED_IN Arg1:T22 Arg2:T58	
+R22	PARTICIPANT_IN Arg1:T20 Arg2:T57	
+R23	POINT_IN_TIME Arg1:T57 Arg2:T41	
+R24	OWNER_OF Arg1:T27 Arg2:T52	
+R25	PARTICIPANT_IN Arg1:T32 Arg2:T47	
+R26	PARTICIPANT_IN Arg1:T35 Arg2:T36	
+R27	TAKES_PLACE_IN Arg1:T36 Arg2:T37	
+R28	AGENT Arg1:T20 Arg2:T44	
+R29	PARTICIPANT_IN Arg1:T20 Arg2:T46	
+T59	EVENT 833 845;863 884	убить одного сотрудников спецслужб
+R30	HAS_CAUSE Arg1:T46 Arg2:T44	
+R31	HAS_CAUSE Arg1:T46 Arg2:T43	
+N1	Reference T3 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N2	Reference T5 Wikidata:Q649	Москва
+N3	Reference T10 Wikidata:Q7220288	Пятый канал
+N4	Reference T11 Wikidata:Q1479649	РЕН ТВ
+N6	Reference T15 Wikidata:Q131524	предприниматель
+N7	Reference T16 Wikidata:Q19520	Подольск
+N10	Reference T34 Wikidata:Q30461	президент
+N11	Reference T35 Wikidata:Q7747	Владимир Владимирович Путин
+N12	Reference T37 Wikidata:Q133274	Московский Кремль
+N13	Reference T38 Wikidata:Q159	Россия
+N14	Reference T39 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N18	Reference T50 Wikidata:Q159	Россия
+N19	Reference T51 Wikidata:Q218295	президент Российской Федерации
+N20	Reference T42 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:Q1697	Московская область
+N8	Reference T20 Wikidata:Q105044278	
+N22	Reference T58 Wikidata:Q649	Москва
+N9	Reference T22 Wikidata:NULL	нет данных
+N23	Reference T23 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	нет данных
+N16	Reference T48 Wikidata:NULL	нет данных
+N17	Reference T49 Wikidata:NULL	нет данных
+N21	Reference T52 Wikidata:Q646334	
+N24	Reference T4 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N25	Reference T32 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N26	Reference T27 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N27	Reference T1 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N28	Reference T28 Wikidata:Q649	Москва
+N29	Reference T55 Wikidata:Q159	Россия
+N30	Reference T2 Wikidata:Q105044278	
+N31	Reference T9 Wikidata:Q105044278	
+N32	Reference T14 Wikidata:Q105044278	

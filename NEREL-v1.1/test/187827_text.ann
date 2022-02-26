@@ -1,0 +1,186 @@
+T1	ORGANIZATION 0 10	Bellingcat
+T2	ORGANIZATION 13 24	The Insider
+T3	PERSON 26 42	Александр Петров
+T4	PROFESSION 45 57	военный врач
+T5	PERSON 62 78	Александр Мишкин
+T6	PERSON 142 148	Сергей
+T7	PERSON 151 164	Юлия Скрипаль
+T8	ORGANIZATION 182 193	The Insider
+T9	PERSON 284 300	Александр Петров
+T10	COUNTRY 312 322	британские
+T11	CITY 359 367	Солсбери
+T12	PERSON 379 394	Сергея Скрипаля
+T13	PERSON 408 412	Юлии
+T14	PROFESSION 425 437	военный врач
+T15	PERSON 442 458	Александр Мишкин
+T16	ORGANIZATION 518 528	Bellingcat
+T17	ORGANIZATION 531 542	The Insider
+T18	ORDINAL 555 562	первого
+T19	PERSON 627 641	Руслан Боширов
+T20	AGE 654 663	39-летний
+T21	PROFESSION 664 673	полковник
+T22	PERSON 691 706	Анатолий Чепига
+T23	PERSON 797 803	Мишкин
+T24	DATE 812 829	13 июля 1979 года
+T25	CITY 837 842	Лойга
+T26	STATE_OR_PROVINCE 845 866	Архангельской области
+T27	ORGANIZATION 985 988	ГРУ
+T28	DATE 991 1002	В 2010 году
+T29	PROFESSION 1003 1015	военный врач
+T30	PERSON 1020 1036	Александр Мишкин
+T31	CITY 1048 1054	Москву
+T32	PERSON 1073 1089	Александр Петров
+T33	DATE 1234 1262	До начала сентября 2014 года
+T34	PERSON 1291 1298	Мишкина
+T35	CITY 1301 1307	Москве
+T36	FACILITY 1321 1338	Хорошёвское шоссе
+T37	ORGANIZATION 1377 1380	ГРУ
+T38	PERSON 1383 1389	Мишкин
+T39	COUNTRY 1427 1440	Приднестровье
+T40	COUNTRY 1443 1450	Украину
+T41	DATE 1453 1469	Осенью 2014 года
+T42	PERSON 1479 1485	Чепига
+T43	PERSON 1599 1606	Мишкина
+T44	FAMILY 1654 1663	Скрипалей
+T45	PROFESSION 1704 1714	полковника
+T46	DATE 1776 1785	9 октября
+T47	TIME 1776 1793	9 октября в 13:00
+T48	TIME 1815 1826	в 15:00 мск
+T49	PROFESSION 45 61	военный врач ГРУ
+T50	ORGANIZATION 58 61	ГРУ
+R1	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R2	WORKPLACE Arg1:T49 Arg2:T50	
+R3	WORKS_AS Arg1:T5 Arg2:T49	
+R4	WORKPLACE Arg1:T5 Arg2:T50	
+T51	ORGANIZATION 165 175	Bellingcat
+T52	EVENT 346 367	отравлении в Солсбери
+T53	EVENT 346 356	отравлении
+R5	PARENT_OF Arg1:T12 Arg2:T13	
+T54	PROFESSION 425 441	военный врач ГРУ
+T55	ORGANIZATION 438 441	ГРУ
+R6	WORKS_AS Arg1:T15 Arg2:T54	
+R7	WORKPLACE Arg1:T15 Arg2:T55	
+T56	EVENT 580 600	отравлении Скрипалей
+R8	TAKES_PLACE_IN Arg1:T52 Arg2:T11	
+T57	FAMILY 591 600	Скрипалей
+R9	MEMBER_OF Arg1:T12 Arg2:T57	
+R10	MEMBER_OF Arg1:T13 Arg2:T57	
+R11	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+T58	EVENT 580 590	отравлении
+R12	WORKPLACE Arg1:T54 Arg2:T55	
+R13	PARTICIPANT_IN Arg1:T57 Arg2:T56	
+T59	AWARD 678 690	Герой России
+T60	COUNTRY 684 690	России
+R14	ORIGINS_FROM Arg1:T59 Arg2:T60	
+R15	AWARDED_WITH Arg1:T22 Arg2:T59	
+R16	ORIGINS_FROM Arg1:T22 Arg2:T60	
+T61	PROFESSION 664 677	полковник ГРУ
+T62	ORGANIZATION 674 677	ГРУ
+R17	WORKPLACE Arg1:T61 Arg2:T62	
+R18	AGE_IS Arg1:T22 Arg2:T20	
+R19	WORKS_AS Arg1:T22 Arg2:T61	
+R20	WORKPLACE Arg1:T22 Arg2:T62	
+R21	ALTERNATIVE_NAME Arg1:T19 Arg2:T22	
+R22	ALTERNATIVE_NAME Arg1:T9 Arg2:T15	
+R23	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R24	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R25	ALTERNATIVE_NAME Arg1:T15 Arg2:T23	
+R26	LOCATED_IN Arg1:T25 Arg2:T26	
+R27	DATE_OF_BIRTH Arg1:T23 Arg2:T24	
+R28	PLACE_OF_BIRTH Arg1:T23 Arg2:T25	
+T63	PERSON 1121 1128	Петрове
+T64	PERSON 1164 1171	Мишкина
+T65	PERSON 1470 1476	Мишкин
+T66	FACILITY 1340 1347	дом 76Б
+R29	LOCATED_IN Arg1:T66 Arg2:T36	
+R30	LOCATED_IN Arg1:T36 Arg2:T35	
+R31	HEADQUARTERED_IN Arg1:T37 Arg2:T66	
+T67	PROFESSION 1003 1019	военный врач ГРУ
+T68	ORGANIZATION 1016 1019	ГРУ
+R32	WORKPLACE Arg1:T67 Arg2:T68	
+R33	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R34	PLACE_RESIDES_IN Arg1:T30 Arg2:T31	
+R35	WORKS_AS Arg1:T30 Arg2:T67	
+R36	WORKPLACE Arg1:T30 Arg2:T68	
+R37	PLACE_RESIDES_IN Arg1:T34 Arg2:T35	
+R38	PLACE_RESIDES_IN Arg1:T34 Arg2:T66	
+T69	EVENT 1643 1663	отравления Скрипалей
+R39	PARTICIPANT_IN Arg1:T44 Arg2:T69	
+R40	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+T70	PROFESSION 1684 1697	подполковника
+T71	EVENT 1643 1653	отравления
+R41	ALTERNATIVE_NAME Arg1:T32 Arg2:T63	
+R42	ALTERNATIVE_NAME Arg1:T30 Arg2:T64	
+T72	PROFESSION 53 57	врач
+T73	PROFESSION 433 437	врач
+T74	PROFESSION 1011 1015	врач
+T75	PROFESSION 323 334	следователи
+R43	ORIGINS_FROM Arg1:T75 Arg2:T10	
+T76	EVENT 1037 1045	переехал
+R44	AGENT Arg1:T30 Arg2:T76	
+R45	TAKES_PLACE_IN Arg1:T76 Arg2:T31	
+R46	POINT_IN_TIME Arg1:T76 Arg2:T28	
+T77	PROFESSION 1744 1754	журналисты
+N1	Reference T5 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N3	Reference T10 Wikidata:Q145	Великобритания
+N4	Reference T11 Wikidata:Q160642	Солсбери
+N6	Reference T15 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N7	Reference T16 Wikidata:Q22938621	Bellingcat
+N8	Reference T17 Wikidata:Q48940439	The Insider
+N9	Reference T22 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N10	Reference T25 Wikidata:Q4265684	Лойга
+N11	Reference T26 Wikidata:Q1875	Архангельская область
+N12	Reference T29 Wikidata:Q1201260	военный врач
+N13	Reference T35 Wikidata:Q649	Москва
+N14	Reference T36 Wikidata:Q4500192	Хорошёвское шоссе
+N15	Reference T39 Wikidata:Q3537754	Приднестровье
+N16	Reference T40 Wikidata:Q212	Украина
+N17	Reference T42 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N18	Reference T45 Wikidata:Q104680	полковник
+N20	Reference T59 Wikidata:Q654471	Герой Российской Федерации
+N21	Reference T60 Wikidata:Q159	Россия
+N23	Reference T62 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N25	Reference T70 Wikidata:Q13099720	подполковник
+N26	Reference T73 Wikidata:Q39631	врач
+N28	Reference T77 Wikidata:Q1930187	журналист
+N29	Reference T65 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N24	Reference T66 Wikidata:NULL	нет данных
+N22	Reference T61 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:Q50559234	
+N27	Reference T75 Wikidata:Q1971388	
+N2	Reference T6 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N19	Reference T49 Wikidata:NULL	нет данных
+N30	Reference T3 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N31	Reference T9 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N32	Reference T23 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N33	Reference T1 Wikidata:Q22938621	Bellingcat
+N34	Reference T51 Wikidata:Q22938621	Bellingcat
+N35	Reference T2 Wikidata:Q48940439	The Insider
+N36	Reference T8 Wikidata:Q48940439	The Insider
+N37	Reference T19 Wikidata:Q56753726	Анатолий Владимирович Чепига
+N38	Reference T4 Wikidata:Q1201260	военный врач
+N39	Reference T14 Wikidata:Q1201260	военный врач
+N40	Reference T31 Wikidata:Q649	Москва
+N41	Reference T21 Wikidata:Q104680	полковник
+N42	Reference T55 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N43	Reference T50 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N44	Reference T37 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N45	Reference T68 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N46	Reference T27 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N47	Reference T72 Wikidata:Q39631	врач
+N48	Reference T74 Wikidata:Q39631	врач
+N49	Reference T38 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N50	Reference T64 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N51	Reference T34 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N52	Reference T63 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N53	Reference T43 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N54	Reference T32 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N55	Reference T30 Wikidata:Q57083945	Александр Евгеньевич Мишкин
+N56	Reference T7 Wikidata:Q50559234	
+N57	Reference T12 Wikidata:Q3742411	Сергей Викторович Скрипаль
+N58	Reference T54 Wikidata:NULL	нет данных
+N59	Reference T67 Wikidata:NULL	нет данных
+T78	EVENT 804 811	родился
+R47	PARTICIPANT_IN Arg1:T23 Arg2:T78	
+R48	POINT_IN_TIME Arg1:T78 Arg2:T24	
+R49	TAKES_PLACE_IN Arg1:T78 Arg2:T25	

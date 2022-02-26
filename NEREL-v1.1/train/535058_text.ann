@@ -1,0 +1,109 @@
+T1	PROFESSION 0 15	Премьер-министр
+T2	PERSON 25 37	Марьян Шарец
+T3	PERSON 55 67	Марьян Шарец
+T4	DATE 68 102	В понедельник, 27 января 2020 года
+T5	PROFESSION 104 119	премьер-министр
+T6	PERSON 129 141	Марьян Шарец
+T7	ORGANIZATION 227 237	парламенте
+T8	ORGANIZATION 374 398	Государственное собрание
+T9	PROFESSION 467 484	министра финансов
+T10	PERSON 485 502	Андрей Бертончель
+T11	PROFESSION 551 564	главы Минфина
+T12	ORGANIZATION 643 656	Правительство
+T13	PERSON 668 684	Марьяном Шарецом
+T15	ORGANIZATION 713 716	LMŠ
+T16	PERSON 725 739	Марьяна Шареца
+T17	COUNTRY 742 752	словенский
+T18	DATE 772 792	в сентябре 2018 года
+T20	AGE 845 854	42-летний
+T21	PERSON 855 867	Марьян Шарец
+T22	PROFESSION 876 881	мэром
+T23	CITY 889 895	Камник
+T24	NUMBER 906 910	двух
+T25	PERSON 919 924	Шарец
+T26	PROFESSION 958 975	премьер-министром
+T27	COUNTRY 16 24	Словении
+T28	PROFESSION 0 24	Премьер-министр Словении
+T29	EVENT 38 54	подал в отставку
+T30	COUNTRY 120 128	Словении
+T31	PROFESSION 104 128	премьер-министр Словении
+T32	EVENT 142 158	подал в отставку
+T36	EVENT 450 466	в отставку подал
+T37	EVENT 542 550	отставки
+T38	ORGANIZATION 557 564	Минфина
+T39	LAW 604 640	законопроекта о страховании здоровья
+T14	PROFESSION 686 716	лидером собственной партии LMŠ
+T41	ORGANIZATION 753 762	парламент
+T42	PROFESSION 831 836	актёр
+T43	PROFESSION 839 844	комик
+T44	PROFESSION 876 895	мэром города Камник
+T45	COUNTRY 976 984	Словении
+T46	PROFESSION 958 984	премьер-министром Словении
+R1	AGENT Arg1:T2 Arg2:T29	
+R2	WORKS_AS Arg1:T2 Arg2:T28	
+R3	WORKPLACE Arg1:T2 Arg2:T27	
+R4	AGENT Arg1:T6 Arg2:T32	
+R5	WORKS_AS Arg1:T6 Arg2:T31	
+R6	WORKPLACE Arg1:T6 Arg2:T30	
+R7	POINT_IN_TIME Arg1:T32 Arg2:T4	
+R8	WORKS_AS Arg1:T10 Arg2:T9	
+T33	PROFESSION 467 475	министра
+R9	AGENT Arg1:T10 Arg2:T36	
+R10	WORKPLACE Arg1:T13 Arg2:T12	
+T34	ORGANIZATION 742 762	словенский парламент
+R11	WORKS_AS Arg1:T13 Arg2:T14	
+R12	FOUNDED_BY Arg1:T15 Arg2:T13	
+R13	AGE_IS Arg1:T21 Arg2:T20	
+R14	WORKS_AS Arg1:T21 Arg2:T43	
+R15	WORKS_AS Arg1:T21 Arg2:T42	
+R16	WORKS_AS Arg1:T21 Arg2:T44	
+R17	WORKPLACE Arg1:T21 Arg2:T23	
+R18	WORKS_AS Arg1:T25 Arg2:T46	
+R19	WORKPLACE Arg1:T25 Arg2:T45	
+R20	WORKPLACE Arg1:T28 Arg2:T27	
+R21	TAKES_PLACE_IN Arg1:T29 Arg2:T27	
+R22	TAKES_PLACE_IN Arg1:T32 Arg2:T30	
+R23	TAKES_PLACE_IN Arg1:T36 Arg2:T30	
+R24	WORKPLACE Arg1:T11 Arg2:T38	
+R25	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R26	HEADQUARTERED_IN Arg1:T34 Arg2:T17	
+R27	WORKPLACE Arg1:T44 Arg2:T23	
+R28	WORKPLACE Arg1:T46 Arg2:T45	
+R29	AGENT Arg1:T11 Arg2:T37	
+R30	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R31	WORKPLACE Arg1:T31 Arg2:T30	
+N1	Reference T3 Wikidata:Q12795878	Марьян Шарец
+N2	Reference T5 Wikidata:Q14212	премьер-министр
+N6	Reference T12 Wikidata:Q7188	правительство
+N7	Reference T16 Wikidata:Q12795878	Марьян Шарец
+N9	Reference T22 Wikidata:Q30185	мэр
+N10	Reference T23 Wikidata:Q15883	Камник
+N11	Reference T25 Wikidata:Q12795878	Марьян Шарец
+N12	Reference T27 Wikidata:Q215	Словения
+N15	Reference T41 Wikidata:Q35749	парламент
+N16	Reference T42 Wikidata:Q33999	актёр
+N17	Reference T43 Wikidata:Q245068	комик
+N20	Reference T33 Wikidata:Q83307	министр
+N21	Reference T34 Wikidata:Q1288169	Парламент Словении
+N3	Reference T8 Wikidata:Q1568676	Государственное собрание Словении
+N4	Reference T10 Wikidata:Q60763794	
+N13	Reference T38 Wikidata:Q15711797	
+N5	Reference T11 Wikidata:NULL	нет данных
+N14	Reference T39 Wikidata:NULL	нет данных
+N22	Reference T15 Wikidata:Q53678274	
+N23	Reference T14 Wikidata:NULL	нет данных
+N8	Reference T17 Wikidata:Q215	Словения
+N18	Reference T44 Wikidata:NULL	нет данных
+N19	Reference T46 Wikidata:Q45758	
+N24	Reference T13 Wikidata:Q12795878	Марьян Шарец
+N25	Reference T21 Wikidata:Q12795878	Марьян Шарец
+N26	Reference T2 Wikidata:Q12795878	Марьян Шарец
+N27	Reference T6 Wikidata:Q12795878	Марьян Шарец
+N28	Reference T26 Wikidata:Q14212	премьер-министр
+N29	Reference T1 Wikidata:Q14212	премьер-министр
+N30	Reference T45 Wikidata:Q215	Словения
+N31	Reference T30 Wikidata:Q215	Словения
+N32	Reference T7 Wikidata:Q35749	парламент
+N33	Reference T9 Wikidata:NULL	нет данных
+N34	Reference T28 Wikidata:Q45758	
+N35	Reference T31 Wikidata:Q45758	

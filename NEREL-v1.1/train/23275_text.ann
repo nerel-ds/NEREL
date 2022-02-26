@@ -1,0 +1,139 @@
+T1	PERSON 0 13	Бриджит Бардо
+T2	COUNTRY 35 41	Россию
+T3	COUNTRY 54 61	Францию
+T4	PERSON 72 84	Брижит Бардо
+T5	PERSON 98 110	Брижит Бардо
+T6	DATE 111 122	в 2002 году
+T8	PERSON 150 162	Брижит Бардо
+T9	PERSON 194 209	Жерара Депардьё
+T10	COUNTRY 227 233	Россию
+T11	NUMBER 248 252	двух
+T12	PERSON 307 312	Бардо
+T14	COUNTRY 403 413	российское
+T15	COUNTRY 439 446	Франции
+T16	PERSON 499 503	Бэби
+T17	PERSON 506 511	Непал
+T18	DATE 643 659	В прошлом месяце
+T21	PERSON 759 777	Жильбер Эдельштайн
+T22	PERSON 844 849	Бардо
+T23	PERSON 996 1001	Непал
+T24	COUNTRY 1020 1031	российского
+T25	PROFESSION 1140 1147	актриса
+T26	ORGANIZATION 1175 1185	Nice Matin
+T27	PERSON 1186 1199	Бриджит Бардо
+T28	COUNTRY 1266 1272	Россию
+T29	COUNTRY 1330 1336	России
+T30	COUNTRY 1378 1389	французские
+T31	PERSON 1525 1532	Бриджит
+T32	NATIONALITY 1643 1654	француженка
+T33	PROFESSION 1683 1693	Президенту
+T34	PERSON 1701 1717	Владимиру Путину
+T35	PROFESSION 1928 1938	президенты
+T36	EVENT 1983 1997	Курбан-Байрама
+T38	DATE 2015 2026	в 2011 году
+T39	PERSON 2027 2032	Бардо
+T40	PROFESSION 2042 2050	премьеру
+T41	PERSON 2058 2064	Путину
+T42	COUNTRY 2114 2120	России
+T43	AGE 2198 2207	77-летняя
+T44	PERSON 2208 2213	Бардо
+T45	PERSON 2235 2243	Депардьё
+T46	COUNTRY 2262 2274	французскими
+T47	DATE 85 96	в 1968 году
+T48	NATIONALITY 132 144	французского
+T49	DISEASE 261 273	туберкулёзом
+T50	IDEOLOGY 347 371	борьбы за права животных
+T51	DISEASE 562 574	туберкулезом
+T52	CITY 622 631	лионского
+T19	PROFESSION 744 758	директор цирка
+T56	PERSON 989 993	Бэби
+T57	PROFESSION 1369 1376	актрисы
+T58	PROFESSION 1683 1700	Президенту России
+T59	COUNTRY 1694 1700	России
+T37	PROFESSION 2042 2057	премьеру России
+T60	COUNTRY 2051 2057	России
+T61	PROFESSION 2167 2178	президентом
+T64	PROFESSION 2303 2308	актер
+R1	ORIGINS_FROM Arg1:T8 Arg2:T48	
+R3	ALTERNATIVE_NAME Arg1:T10 Arg2:T14	
+R4	MEDICAL_CONDITION Arg1:T17 Arg2:T51	
+R5	MEDICAL_CONDITION Arg1:T16 Arg2:T51	
+R6	LOCATED_IN Arg1:T52 Arg2:T15	
+R7	WORKS_AS Arg1:T21 Arg2:T19	
+R2	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R8	IDEOLOGY_OF Arg1:T12 Arg2:T50	
+R9	WORKS_AS Arg1:T22 Arg2:T25	
+T13	ORGANIZATION 1378 1396	французские власти
+R12	HEADQUARTERED_IN Arg1:T13 Arg2:T30	
+R13	ALTERNATIVE_NAME Arg1:T27 Arg2:T31	
+R14	ORIGINS_FROM Arg1:T32 Arg2:T30	
+R15	ORIGINS_FROM Arg1:T31 Arg2:T32	
+R16	WORKPLACE Arg1:T58 Arg2:T59	
+R17	WORKS_AS Arg1:T34 Arg2:T58	
+R19	WORKPLACE Arg1:T37 Arg2:T60	
+R20	WORKS_AS Arg1:T41 Arg2:T37	
+T53	EVENT 2033 2041	написала
+R21	PARTICIPANT_IN Arg1:T39 Arg2:T53	
+R22	ALTERNATIVE_NAME Arg1:T34 Arg2:T41	
+R23	PARTICIPANT_IN Arg1:T41 Arg2:T53	
+R24	POINT_IN_TIME Arg1:T53 Arg2:T38	
+R25	AGE_IS Arg1:T44 Arg2:T43	
+T54	ORGANIZATION 2262 2283	французскими властями
+R26	HEADQUARTERED_IN Arg1:T54 Arg2:T46	
+R27	ALTERNATIVE_NAME Arg1:T9 Arg2:T45	
+R28	WORKS_AS Arg1:T45 Arg2:T64	
+T55	EVENT 2222 2234	поддерживала
+R29	PARTICIPANT_IN Arg1:T44 Arg2:T55	
+R30	PARTICIPANT_IN Arg1:T45 Arg2:T55	
+T62	EVENT 2250 2259	конфликте
+R31	HAS_CAUSE Arg1:T55 Arg2:T62	
+R32	PARTICIPANT_IN Arg1:T45 Arg2:T62	
+R33	PARTICIPANT_IN Arg1:T54 Arg2:T62	
+N1	Reference T5 Wikidata:Q36268	Брижит Бардо
+N2	Reference T9 Wikidata:Q106508	Жерар Депардьё
+N3	Reference T15 Wikidata:Q142	Франция
+N6	Reference T26 Wikidata:Q692822	Le Matin
+N7	Reference T27 Wikidata:Q36268	Брижит Бардо
+N9	Reference T32 Wikidata:Q121842	французы
+N10	Reference T35 Wikidata:Q30461	президент
+N12	Reference T41 Wikidata:Q7747	Владимир Владимирович Путин
+N17	Reference T57 Wikidata:Q33999	актёр
+N18	Reference T58 Wikidata:Q218295	президент Российской Федерации
+N19	Reference T59 Wikidata:Q159	Россия
+N20	Reference T37 Wikidata:Q842386	председатель Правительства Российской Федерации
+N21	Reference T64 Wikidata:Q33999	актёр
+N13	Reference T48 Wikidata:Q121842	французы
+N4	Reference T17 Wikidata:NULL	нет данных
+N14	Reference T52 Wikidata:Q456	
+N15	Reference T19 Wikidata:Q21061372	
+N5	Reference T21 Wikidata:Q41673254	
+N16	Reference T56 Wikidata:NULL	нет данных
+N8	Reference T30 Wikidata:Q142	Франция
+N22	Reference T13 Wikidata:NULL	нет данных
+N11	Reference T40 Wikidata:Q14212	премьер-министр
+N23	Reference T22 Wikidata:Q36268	Брижит Бардо
+N24	Reference T44 Wikidata:Q36268	Брижит Бардо
+N25	Reference T8 Wikidata:Q36268	Брижит Бардо
+N26	Reference T12 Wikidata:Q36268	Брижит Бардо
+N27	Reference T4 Wikidata:Q36268	Брижит Бардо
+N28	Reference T39 Wikidata:Q36268	Брижит Бардо
+N29	Reference T45 Wikidata:Q106508	Жерар Депардьё
+N30	Reference T3 Wikidata:Q142	Франция
+N31	Reference T31 Wikidata:Q36268	Брижит Бардо
+N32	Reference T1 Wikidata:Q36268	Брижит Бардо
+N33	Reference T33 Wikidata:Q30461	президент
+N34	Reference T61 Wikidata:Q30461	президент
+N35	Reference T34 Wikidata:Q7747	Владимир Владимирович Путин
+N36	Reference T25 Wikidata:Q33999	актёр
+N37	Reference T10 Wikidata:Q159	Россия
+N38	Reference T14 Wikidata:Q159	Россия
+N39	Reference T24 Wikidata:Q159	Россия
+N40	Reference T60 Wikidata:Q159	Россия
+N41	Reference T29 Wikidata:Q159	Россия
+N42	Reference T42 Wikidata:Q159	Россия
+N43	Reference T28 Wikidata:Q159	Россия
+N44	Reference T2 Wikidata:Q159	Россия
+N45	Reference T23 Wikidata:NULL	нет данных
+N46	Reference T16 Wikidata:NULL	нет данных
+N47	Reference T46 Wikidata:Q142	Франция
+N48	Reference T54 Wikidata:NULL	нет данных

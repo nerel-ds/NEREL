@@ -1,0 +1,144 @@
+T1	RELIGION 11 22	баптистской
+T2	STATE_OR_PROVINCE 32 38	Техасе
+T3	NUMBER 40 42	27
+T5	CITY 75 92	Сазерленд-Спрингс
+T8	STATE_OR_PROVINCE 94 99	Техас
+T9	NUMBER 123 125	27
+T10	DATE 178 211	в воскресенье, 5 ноября 2017 года
+T11	CITY 246 263	Сазерленд-Спрингс
+T12	CITY 265 283	Sutherland Springs
+T13	CITY 305 316	Сан-Антонио
+T15	STATE_OR_PROVINCE 352 357	Техас
+T16	TIME 397 424	в 11:30 по местному времени
+T17	CITY 427 445	Саутерленд-Спрингс
+T19	NUMBER 464 481	около 400 человек
+T20	NUMBER 562 572	50 человек
+T21	TIME 658 678	незадолго до полудня
+T23	CITY 710 727	Сазерленд Спрингс
+T25	NUMBER 759 775	Более 27 человек
+T27	NUMBER 785 793	более 30
+T28	AGE 819 828	14-летняя
+T29	PROFESSION 834 841	пастора
+T30	PERSON 842 856	Фрэнка Помероя
+T31	PERSON 858 871	Frank Pomeroy
+T32	CITY 970 979	Гваделупе
+T33	STATE_OR_PROVINCE 987 992	Техас
+T34	ORGANIZATION 1125 1128	ФБР
+T35	ORGANIZATION 1131 1251	Управления по контролю за оборотом алкогольных напитков, табачных изделий, огнестрельного оружия и взрывчатых материалов
+T40	PROFESSION 1378 1387	президент
+T41	COUNTRY 1457 1463	Японии
+T42	PROFESSION 1517 1532	прокурор Техаса
+T43	PERSON 1533 1544	Кен Пэкстон
+T44	COUNTRY 1547 1559	американский
+T45	PROFESSION 1560 1567	сенатор
+T46	PERSON 1568 1579	Джон Корнин
+T47	STATE_OR_PROVINCE 1583 1589	Техаса
+T48	CITY 1598 1615	Сазерленд Спрингс
+T50	NUMBER 1629 1642	48 километрах
+T51	CITY 1652 1663	Сан-Антонио
+T52	CITY 1677 1694	Сазерленд-Спрингс
+T54	COUNTRY 1749 1752	США
+T55	CITY 1775 1785	Чарльстоне
+T49	EVENT 1666 1674	Стрельба
+T53	EVENT 0 8	Стрельба
+T4	DATE 101 105	1936
+T6	EVENT 155 163	стрельбы
+T7	RELIGION 224 235	баптистских
+T57	COUNTRY 332 345	американского
+T58	EVENT 377 386	Нападение
+T18	RELIGION 681 692	Баптистскую
+T24	PROFESSION 875 886	Полицейские
+T26	PROFESSION 1110 1121	Следователи
+T36	CITY 1337 1354	Сазерленд Спрингс
+T37	STATE_OR_PROVINCE 1526 1532	Техаса
+T38	PRODUCT 1369 1377	Твиттере
+T39	PERSON 1388 1401	Дональд Трамп
+R1	POINT_IN_TIME Arg1:T6 Arg2:T10	
+R2	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R3	LOCATED_IN Arg1:T5 Arg2:T8	
+R4	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R5	WORKS_AS Arg1:T30 Arg2:T29	
+R6	WORKS_AS Arg1:T39 Arg2:T40	
+T22	PROFESSION 1517 1525	прокурор
+R7	TAKES_PLACE_IN Arg1:T49 Arg2:T52	
+R8	LOCATED_IN Arg1:T52 Arg2:T54	
+R9	LOCATED_IN Arg1:T55 Arg2:T54	
+R10	WORKS_AS Arg1:T46 Arg2:T45	
+R11	WORKS_AS Arg1:T43 Arg2:T42	
+R12	WORKPLACE Arg1:T43 Arg2:T37	
+R13	ORIGINS_FROM Arg1:T46 Arg2:T47	
+R14	ORIGINS_FROM Arg1:T46 Arg2:T44	
+R15	ORIGINS_FROM Arg1:T45 Arg2:T44	
+R16	LOCATED_IN Arg1:T39 Arg2:T41	
+R17	WORKPLACE Arg1:T26 Arg2:T34	
+R18	WORKPLACE Arg1:T26 Arg2:T35	
+R19	WORKPLACE Arg1:T42 Arg2:T37	
+R20	TAKES_PLACE_IN Arg1:T53 Arg2:T2	
+R21	LOCATED_IN Arg1:T11 Arg2:T2	
+R22	LOCATED_IN Arg1:T15 Arg2:T57	
+R23	LOCATED_IN Arg1:T11 Arg2:T15	
+R24	ALTERNATIVE_NAME Arg1:T53 Arg2:T58	
+R25	POINT_IN_TIME Arg1:T58 Arg2:T16	
+R26	TAKES_PLACE_IN Arg1:T58 Arg2:T17	
+T14	EVENT 759 783	Более 27 человек погибли
+T56	EVENT 123 141	27 человек погибло
+R27	SUBEVENT_OF Arg1:T56 Arg2:T6	
+R28	TAKES_PLACE_IN Arg1:T6 Arg2:T11	
+R29	POINT_IN_TIME Arg1:T56 Arg2:T10	
+R30	TAKES_PLACE_IN Arg1:T56 Arg2:T11	
+R31	ALTERNATIVE_NAME Arg1:T56 Arg2:T14	
+T59	EVENT 744 756	открыл огонь
+R32	LOCATED_IN Arg1:T32 Arg2:T33	
+R33	RELIGION_OF Arg1:T30 Arg2:T18	
+R34	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+T60	FACILITY 681 700	Баптистскую церковь
+R35	RELIGION_OF Arg1:T60 Arg2:T18	
+R36	TAKES_PLACE_IN Arg1:T59 Arg2:T60	
+R37	ABBREVIATION Arg1:T60 Arg2:T23	
+R38	POINT_IN_TIME Arg1:T59 Arg2:T21	
+T61	EVENT 785 801	более 30 раненых
+T62	EVENT 954 960	погони
+R39	TAKES_PLACE_IN Arg1:T62 Arg2:T32	
+R40	HAS_CAUSE Arg1:T62 Arg2:T59	
+R41	AGENT Arg1:T24 Arg2:T62	
+N1	Reference T13 Wikidata:Q975	Сан-Антонио
+N3	Reference T29 Wikidata:Q152002	пастор
+N6	Reference T34 Wikidata:Q8333	Федеральное бюро расследований
+N8	Reference T40 Wikidata:Q30461	президент
+N9	Reference T41 Wikidata:Q17	Япония
+N13	Reference T46 Wikidata:Q719568	Корнин, Джон
+N14	Reference T54 Wikidata:Q30	США
+N15	Reference T55 Wikidata:Q47716	Чарлстон
+N16	Reference T57 Wikidata:Q30	США
+N17	Reference T18 Wikidata:Q93191	баптизм
+N19	Reference T26 Wikidata:Q4423239	Следователь
+N20	Reference T37 Wikidata:Q1439	Техас
+N21	Reference T38 Wikidata:Q918	Твиттер
+N22	Reference T39 Wikidata:Q22686	Дональд Трамп
+N23	Reference T22 Wikidata:Q600751	прокурор
+N24	Reference T60 Wikidata:Q19835194	баптистская церковь
+N25	Reference T11 Wikidata:Q14711346	
+N7	Reference T35 Wikidata:NULL	нет данных
+N2	Reference T17 Wikidata:Q14711346	
+N4	Reference T30 Wikidata:NULL	нет данных
+N18	Reference T24 Wikidata:Q384593	
+N5	Reference T32 Wikidata:Q26610	
+N26	Reference T48 Wikidata:Q14711346	
+N12	Reference T45 Wikidata:Q15686806	
+N11	Reference T43 Wikidata:Q6388290	
+N10	Reference T42 Wikidata:NULL	нет данных
+N27	Reference T51 Wikidata:Q975	Сан-Антонио
+N28	Reference T44 Wikidata:Q30	США
+N29	Reference T7 Wikidata:Q93191	баптизм
+N30	Reference T1 Wikidata:Q93191	баптизм
+N31	Reference T8 Wikidata:Q1439	Техас
+N32	Reference T15 Wikidata:Q1439	Техас
+N33	Reference T33 Wikidata:Q1439	Техас
+N34	Reference T47 Wikidata:Q1439	Техас
+N35	Reference T2 Wikidata:Q1439	Техас
+N36	Reference T52 Wikidata:Q14711346	
+N37	Reference T5 Wikidata:Q14711346	
+N38	Reference T12 Wikidata:Q14711346	
+N39	Reference T31 Wikidata:NULL	нет данных
+N40	Reference T36 Wikidata:Q14711346	
+N41	Reference T23 Wikidata:Q14711346	

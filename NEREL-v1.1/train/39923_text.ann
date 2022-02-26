@@ -1,0 +1,249 @@
+T1	PROFESSION 2 8	принца
+T2	PERSON 19 32	Кейт Миддлтон
+T3	PROFESSION 45 50	Принц
+T4	PERSON 60 73	Кейт Миддлтон
+T5	PERSON 84 96	Святой Марии
+T6	PERSON 98 105	St Mary
+T7	CITY 120 127	Лондоне
+T8	DATE 156 173	22 июля 2013 года
+T9	PROFESSION 176 183	герцога
+T10	PROFESSION 227 236	герцогини
+T11	PERSON 250 263	Кейт Миддлтон
+T12	ORDINAL 278 284	третий
+T13	COUNTRY 310 321	британского
+T14	PERSON 373 380	Уильяма
+T15	PERSON 421 433	Святой Марии
+T16	ORGANIZATION 435 453	St Mary's Hospital
+T17	CITY 457 464	Лондоне
+T18	PERSON 519 524	Гарри
+T19	MONEY 560 585	10 тыс. фунтов стерлингов
+T20	PERSON 594 606	Кейт Мидлтон
+T21	PERSON 696 700	Кейт
+T22	FACILITY 808 827	Букингемский дворец
+T24	NUMBER 1041 1056	3,79 килограмма
+T25	NUMBER 1058 1074	8 фунтов 6 унций
+T28	PERSON 1078 1082	Кейт
+T30	PERSON 1255 1267	Кларенс-Хаус
+T31	PROFESSION 1295 1304	герцогиня
+T33	NUMBER 1378 1394	8 фунтов 6 унций
+T34	NUMBER 1396 1408	около 3800 г
+T35	PROFESSION 1535 1540	принц
+T37	DATE 1642 1658	в течение недели
+T38	NUMBER 1724 1726	62
+T40	FACILITY 1736 1742	Тауэра
+T41	NUMBER 1745 1749	41-м
+T42	FACILITY 1752 1762	Грин-парке
+T45	PERSON 1792 1796	Кейт
+T46	AGE 1816 1823	31 году
+T47	DATE 1832 1843	с 2011 года
+T48	DATE 1925 1944	в декабре 2012 года
+T49	PERSON 9 16	Уильяма
+T50	EVENT 33 44	родился сын
+T51	PERSON 51 57	Уильям
+T52	PROFESSION 176 197	герцога Кембриджского
+T53	CITY 184 197	Кембриджского
+T54	PROFESSION 198 204	принца
+T55	PERSON 205 212	Уильяма
+T56	PROFESSION 227 249	герцогини Кембриджской
+T57	CITY 237 249	Кембриджской
+T58	EVENT 264 275	родился сын
+T59	PROFESSION 349 355	принца
+T60	PERSON 356 363	Чарльза
+T61	EVENT 391 408	появилась на свет
+T62	ORGANIZATION 411 433	госпитале Святой Марии
+T63	ORGANIZATION 74 96	Госпиталь Святой Марии
+T64	ORGANIZATION 98 116	St Mary's Hospital
+T65	PERSON 435 442	St Mary
+T66	LOCATION 483 488	Линдо
+T67	EVENT 494 502	родились
+T68	PROFESSION 503 509	принцы
+T69	PERSON 510 516	Уильям
+T70	EVENT 529 537	рождение
+T71	EVENT 587 591	Роды
+T72	PROFESSION 624 631	акушеры
+T73	COUNTRY 632 656	Соединенного Королевства
+T74	PROFESSION 665 670	принц
+T75	PERSON 671 677	Уильям
+T76	EVENT 709 717	рождения
+T77	PROFESSION 738 745	врачами
+T78	ORGANIZATION 782 789	полиции
+T79	DISTRICT 808 820	Букингемский
+T80	FAMILY 854 864	Миддлтонов
+T81	EVENT 917 925	рождении
+T82	EVENT 957 965	рождения
+T26	EVENT 1203 1211	рождении
+T27	PRODUCT 1246 1254	твиттере
+T29	PROFESSION 1269 1317	Её королевское высочество герцогиня Кембриджская
+T83	PROFESSION 1295 1317	герцогиня Кембриджская
+T84	CITY 1305 1317	Кембриджская
+T85	EVENT 1331 1342	родила сына
+T86	PROFESSION 1410 1435	Её Королевское Высочество
+T87	CITY 1541 1553	Кембриджский
+T88	PROFESSION 1535 1553	принц Кембриджский
+T36	PROFESSION 1581 1607	Его Королевское Высочество
+T89	DATE 1661 1667	Завтра
+T90	EVENT 1714 1721	салютом
+T39	PERSON 1771 1777	Уильям
+T43	PROFESSION 1765 1770	Принц
+T44	ORDINAL 1846 1853	впервые
+T91	EVENT 1854 1870	стали родителями
+T92	PROFESSION 1887 1909	герцогини Кембриджской
+T93	CITY 1897 1909	Кембриджской
+T94	PROFESSION 1887 1896	герцогини
+R1	WORKS_AS Arg1:T49 Arg2:T1	
+R2	SPOUSE Arg1:T49 Arg2:T2	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T50	
+R4	PARTICIPANT_IN Arg1:T49 Arg2:T50	
+R5	WORKS_AS Arg1:T51 Arg2:T3	
+R6	SPOUSE Arg1:T51 Arg2:T4	
+R7	ALTERNATIVE_NAME Arg1:T63 Arg2:T64	
+R8	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R9	LOCATED_IN Arg1:T63 Arg2:T7	
+R10	WORKS_AS Arg1:T55 Arg2:T54	
+R11	WORKS_AS Arg1:T11 Arg2:T56	
+R12	WORKS_AS Arg1:T55 Arg2:T52	
+R13	POINT_IN_TIME Arg1:T58 Arg2:T8	
+R14	WORKPLACE Arg1:T52 Arg2:T53	
+R15	WORKPLACE Arg1:T56 Arg2:T57	
+R16	SPOUSE Arg1:T55 Arg2:T11	
+R17	WORKS_AS Arg1:T60 Arg2:T59	
+R18	PARENT_OF Arg1:T60 Arg2:T14	
+R19	ALTERNATIVE_NAME Arg1:T58 Arg2:T61	
+R20	ALTERNATIVE_NAME Arg1:T62 Arg2:T16	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T65	
+R22	LOCATED_IN Arg1:T62 Arg2:T17	
+R23	LOCATED_IN Arg1:T7 Arg2:T13	
+R24	LOCATED_IN Arg1:T66 Arg2:T62	
+R25	TAKES_PLACE_IN Arg1:T61 Arg2:T66	
+R26	TAKES_PLACE_IN Arg1:T61 Arg2:T62	
+R27	TAKES_PLACE_IN Arg1:T67 Arg2:T66	
+R28	WORKS_AS Arg1:T69 Arg2:T68	
+R29	WORKS_AS Arg1:T18 Arg2:T68	
+R30	SIBLING Arg1:T69 Arg2:T18	
+R31	ALTERNATIVE_NAME Arg1:T61 Arg2:T70	
+R32	ALTERNATIVE_NAME Arg1:T70 Arg2:T71	
+R33	PARTICIPANT_IN Arg1:T20 Arg2:T71	
+R34	PARTICIPANT_IN Arg1:T72 Arg2:T71	
+R35	ORIGINS_FROM Arg1:T72 Arg2:T73	
+R36	ALTERNATIVE_NAME Arg1:T13 Arg2:T73	
+R37	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R38	WORKS_AS Arg1:T75 Arg2:T74	
+R39	MEMBER_OF Arg1:T21 Arg2:T80	
+T95	FAMILY 828 845	королевской семье
+T97	PROFESSION 926 944	престолонаследника
+T98	PROFESSION 300 330	наследник британского престола
+R45	ALTERNATIVE_NAME Arg1:T98 Arg2:T97	
+T99	EVENT 991 998	родился
+R46	ALTERNATIVE_NAME Arg1:T82 Arg2:T99	
+T23	TIME 999 1006	в 16:24
+T100	TIME 1008 1017	19:24 МСК
+R47	POINT_IN_TIME Arg1:T99 Arg2:T23	
+R48	ALTERNATIVE_NAME Arg1:T23 Arg2:T100	
+R49	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+T101	PROFESSION 1212 1222	наследника
+R50	PARTICIPANT_IN Arg1:T101 Arg2:T26	
+R51	ALTERNATIVE_NAME Arg1:T97 Arg2:T101	
+R52	OWNER_OF Arg1:T30 Arg2:T27	
+T102	PROFESSION 1269 1294	Её королевское высочество
+R53	WORKPLACE Arg1:T83 Arg2:T84	
+T32	TIME 1343 1350	в 16:24
+T103	TIME 1352 1361	19:24 мск
+R54	ALTERNATIVE_NAME Arg1:T32 Arg2:T103	
+R55	AGENT Arg1:T29 Arg2:T85	
+R56	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R57	WORKPLACE Arg1:T88 Arg2:T87	
+T104	EVENT 1699 1721	артиллерийским салютом
+R58	POINT_IN_TIME Arg1:T104 Arg2:T89	
+R59	TAKES_PLACE_IN Arg1:T104 Arg2:T40	
+R60	TAKES_PLACE_IN Arg1:T104 Arg2:T42	
+R61	WORKS_AS Arg1:T39 Arg2:T43	
+R62	SPOUSE Arg1:T39 Arg2:T45	
+R63	AGE_IS Arg1:T45 Arg2:T46	
+R64	AGE_IS Arg1:T39 Arg2:T46	
+T105	EVENT 1825 1831	женаты
+R65	START_TIME Arg1:T105 Arg2:T47	
+R66	PARTICIPANT_IN Arg1:T45 Arg2:T105	
+R67	PARTICIPANT_IN Arg1:T39 Arg2:T105	
+R68	WORKPLACE Arg1:T92 Arg2:T93	
+R69	PARTICIPANT_IN Arg1:T45 Arg2:T91	
+R70	PARTICIPANT_IN Arg1:T39 Arg2:T91	
+R71	SPOUSE Arg1:T75 Arg2:T21	
+T106	EVENT 139 155	появился ребёнок
+R72	TAKES_PLACE_IN Arg1:T106 Arg2:T63	
+R73	ALTERNATIVE_NAME Arg1:T50 Arg2:T106	
+R74	PARTICIPANT_IN Arg1:T69 Arg2:T67	
+R75	PARTICIPANT_IN Arg1:T18 Arg2:T67	
+R76	LOCATED_IN Arg1:T22 Arg2:T79	
+R40	PLACE_RESIDES_IN Arg1:T95 Arg2:T79	
+R41	PLACE_RESIDES_IN Arg1:T80 Arg2:T79	
+R42	ALTERNATIVE_NAME Arg1:T71 Arg2:T81	
+R43	PARTICIPANT_IN Arg1:T97 Arg2:T81	
+R44	POINT_IN_TIME Arg1:T85 Arg2:T32	
+R77	HAS_CAUSE Arg1:T104 Arg2:T26	
+N2	Reference T9 Wikidata:Q166886	герцог
+N4	Reference T13 Wikidata:Q145	Великобритания
+N5	Reference T17 Wikidata:Q84	Лондон
+N6	Reference T18 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N7	Reference T22 Wikidata:Q42182	Букингемский дворец
+N8	Reference T30 Wikidata:Q565521	Кларенс-хаус
+N9	Reference T40 Wikidata:Q62378	Тауэр
+N10	Reference T42 Wikidata:Q119892	Грин-парк
+N14	Reference T59 Wikidata:Q2747456	принц
+N19	Reference T72 Wikidata:Q185196	акушерка
+N20	Reference T77 Wikidata:Q39631	врач
+N21	Reference T78 Wikidata:Q35535	полиция
+N23	Reference T27 Wikidata:Q918	Твиттер
+N30	Reference T94 Wikidata:Q166886	герцог
+N16	Reference T62 Wikidata:Q3495342	
+N18	Reference T65 Wikidata:Q345	Дева Мария
+N1	Reference T5 Wikidata:Q345	Дева Мария
+N17	Reference T64 Wikidata:Q3495342	
+N12	Reference T52 Wikidata:Q836810	
+N13	Reference T55 Wikidata:Q36812	Уильям, герцог Кембриджский
+N3	Reference T11 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N31	Reference T98 Wikidata:NULL	нет данных
+N15	Reference T60 Wikidata:Q43274	Чарльз, принц Уэльский
+N32	Reference T66 Wikidata:NULL	нет данных
+N25	Reference T83 Wikidata:Q3040810	
+N24	Reference T29 Wikidata:Q3040810	
+N26	Reference T86 Wikidata:Q1252328	Королевское высочество
+N27	Reference T87 Wikidata:Q350	Кембридж
+N28	Reference T88 Wikidata:NULL	нет данных
+N29	Reference T36 Wikidata:Q1252328	Королевское высочество
+N11	Reference T45 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N22	Reference T79 Wikidata:Q2736244	
+N33	Reference T73 Wikidata:Q145	Великобритания
+N34	Reference T7 Wikidata:Q84	Лондон
+N35	Reference T35 Wikidata:Q2747456	принц
+N36	Reference T74 Wikidata:Q2747456	принц
+N37	Reference T3 Wikidata:Q2747456	принц
+N38	Reference T54 Wikidata:Q2747456	принц
+N39	Reference T43 Wikidata:Q2747456	принц
+N40	Reference T1 Wikidata:Q2747456	принц
+N41	Reference T68 Wikidata:Q2747456	принц
+N42	Reference T10 Wikidata:Q166886	герцог
+N43	Reference T31 Wikidata:Q166886	герцог
+N44	Reference T16 Wikidata:Q3495342	
+N45	Reference T15 Wikidata:Q345	Дева Мария
+N46	Reference T6 Wikidata:Q345	Дева Мария
+N47	Reference T63 Wikidata:Q3495342	
+N48	Reference T75 Wikidata:Q36812	Уильям, герцог Кембриджский
+N49	Reference T69 Wikidata:Q36812	Уильям, герцог Кембриджский
+N50	Reference T51 Wikidata:Q36812	Уильям, герцог Кембриджский
+N51	Reference T14 Wikidata:Q36812	Уильям, герцог Кембриджский
+N52	Reference T49 Wikidata:Q36812	Уильям, герцог Кембриджский
+N53	Reference T39 Wikidata:Q36812	Уильям, герцог Кембриджский
+N54	Reference T4 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N55	Reference T2 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N56	Reference T97 Wikidata:NULL	нет данных
+N57	Reference T101 Wikidata:NULL	нет данных
+N58	Reference T56 Wikidata:Q3040810	
+N59	Reference T92 Wikidata:Q3040810	
+N60	Reference T102 Wikidata:Q1252328	Королевское высочество
+N61	Reference T57 Wikidata:Q350	Кембридж
+N62	Reference T53 Wikidata:Q350	Кембридж
+N63	Reference T84 Wikidata:Q350	Кембридж
+N64	Reference T93 Wikidata:Q350	Кембридж
+N65	Reference T28 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N66	Reference T20 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская
+N67	Reference T21 Wikidata:Q10479	Кэтрин, герцогиня Кембриджская

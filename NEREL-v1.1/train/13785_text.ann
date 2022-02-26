@@ -1,0 +1,79 @@
+T1	DISTRICT 8 14	Негева
+T2	DATE 68 86	7 апреля 2011 года
+T3	STATE_OR_PROVINCE 103 115	Сектора Газа
+T4	COUNTRY 151 158	Израиля
+T5	FACILITY 272 288	перекрестка Саар
+T6	NUMBER 292 307	двух километрах
+T8	STATE_OR_PROVINCE 311 323	Сектора Газа
+T9	PROFESSION 663 678	Министр обороны
+T10	PERSON 687 697	Эхуд Барак
+T11	DATE 746 755	17 апреля
+T12	AGE 780 789	16-летний
+T13	PERSON 791 805	Даниэль Вифлих
+T14	CITY 908 918	Бейт-Шемеш
+T17	PERSON 920 927	Даниэль
+T18	ORGANIZATION 950 964	Гейхал ха-Тора
+T19	CITY 972 983	Бейт-Шемеша
+T22	DATE 986 996	в тот день
+T23	EVENT 0 7	Обстрел
+T24	EVENT 61 66	атаки
+T25	IDEOLOGY 87 99	террористами
+T26	DISTRICT 229 242	Шаар ха-Негев
+T7	DISEASE 326 341	Тяжелое ранение
+T27	EVENT 429 445	госпитализирован
+T28	COUNTRY 679 686	Израиля
+T29	PROFESSION 663 686	Министр обороны Израиля
+T30	IDEOLOGY 732 743	террористам
+T31	DISEASE 838 872	черепно-мозговой осколочной травмы
+R1	WORKPLACE Arg1:T29 Arg2:T28	
+R2	WORKS_AS Arg1:T10 Arg2:T29	
+R3	WORKPLACE Arg1:T10 Arg2:T28	
+R4	AGE_DIED_AT Arg1:T13 Arg2:T12	
+R5	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+R6	SCHOOLS_ATTENDED Arg1:T17 Arg2:T18	
+T15	EVENT 807 816	скончался
+R7	PARTICIPANT_IN Arg1:T13 Arg2:T15	
+R8	POINT_IN_TIME Arg1:T15 Arg2:T11	
+R9	HAS_CAUSE Arg1:T15 Arg2:T31	
+R10	CAUSE_OF_DEATH Arg1:T13 Arg2:T31	
+R11	LOCATED_IN Arg1:T18 Arg2:T19	
+T20	DISEASE 32 44	тяжело ранен
+T21	EVENT 121 136	запущена ракета
+R14	LOCATED_IN Arg1:T1 Arg2:T4	
+R15	POINT_IN_TIME Arg1:T21 Arg2:T2	
+R16	ORIGINS_FROM Arg1:T25 Arg2:T3	
+R17	PARTICIPANT_IN Arg1:T25 Arg2:T21	
+R18	TAKES_PLACE_IN Arg1:T21 Arg2:T4	
+R19	MEDICAL_CONDITION Arg1:T13 Arg2:T7	
+R20	PARTICIPANT_IN Arg1:T13 Arg2:T27	
+R21	HAS_CAUSE Arg1:T27 Arg2:T7	
+R22	HAS_CAUSE Arg1:T27 Arg2:T21	
+T32	EVENT 160 192	Ракета попала в школьный автобус
+R23	SUBEVENT_OF Arg1:T32 Arg2:T21	
+R24	TAKES_PLACE_IN Arg1:T32 Arg2:T4	
+R25	POINT_IN_TIME Arg1:T32 Arg2:T2	
+R12	TAKES_PLACE_IN Arg1:T23 Arg2:T1	
+R13	HAS_CAUSE Arg1:T20 Arg2:T23	
+R26	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R27	ALTERNATIVE_NAME Arg1:T24 Arg2:T21	
+R28	ALTERNATIVE_NAME Arg1:T1 Arg2:T26	
+R29	LOCATED_IN Arg1:T5 Arg2:T26	
+R30	TAKES_PLACE_IN Arg1:T32 Arg2:T26	
+T16	DISEASE 855 872	осколочной травмы
+N1	Reference T4 Wikidata:Q801	Израиль
+N3	Reference T8 Wikidata:Q39760	сектор Газа
+N4	Reference T9 Wikidata:Q2518691	министр обороны
+N5	Reference T10 Wikidata:Q125731	Эхуд Барак
+N7	Reference T14 Wikidata:Q152449	Бейт-Шемеш
+N9	Reference T19 Wikidata:Q152449	Бейт-Шемеш
+N10	Reference T26 Wikidata:Q5426900	Шаар-ха-Негев
+N11	Reference T29 Wikidata:Q13222899	Министры обороны Израиля
+N2	Reference T5 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q801	Израиль
+N13	Reference T3 Wikidata:Q39760	сектор Газа
+N14	Reference T1 Wikidata:Q5426900	Шаар-ха-Негев
+N15	Reference T17 Wikidata:NULL	нет данных
+T33	DISEASE 39 44	ранен
+T34	DISEASE 334 341	ранение

@@ -1,0 +1,228 @@
+T1	ORGANIZATION 2 12	Минобороны
+T2	AGE 55 64	61-летний
+T3	PROFESSION 65 78	генерал армии
+T4	PERSON 79 96	Владимир Болдырев
+T5	PROFESSION 111 153	главнокомандующего сухопутными войсками РФ
+T6	PROFESSION 258 284	главкомом сухопутных войск
+T7	PROFESSION 294 341	командующий войсками Сибирского военного округа
+T8	PROFESSION 342 359	генерал-полковник
+T9	PROFESSION 382 458	Начальником Главного оперативного управления ГОУ Генштаба Вооруженных сил РФ
+T10	PROFESSION 468 485	генерал-лейтенант
+T11	PROFESSION 533 546	генерал-майор
+T12	PROFESSION 569 624	начальником штаба Приволжско-Уральского военного округа
+T13	DISTRICT 587 624	Приволжско-Уральского военного округа
+T14	PROFESSION 633 680	командующим войсками Сибирского военного округа
+T15	PROFESSION 690 707	генерал-лейтенант
+T16	PROFESSION 790 845	командующий войсками Северо-Кавказского военного округа
+T18	PROFESSION 846 863	генерал-полковник
+T19	PROFESSION 892 909	генерал-лейтенант
+T20	DISTRICT 956 984	Ленинградском военном округе
+T23	PROFESSION 986 1008	Начальник штаба округа
+T24	PROFESSION 1032 1090	начальника Главного оперативного управления Генштаба ВС РФ
+T25	PROFESSION 1092 1109	Начальником штаба
+T26	PROFESSION 1112 1184	первым заместителем командующего войсками Ленинградского военного округа
+T27	DISTRICT 1154 1184	Ленинградского военного округа
+T28	PROFESSION 1194 1207	генерал-майор
+T30	PERSON 1248 1258	А.Третьяка
+T31	PROFESSION 1270 1286	начальника штаба
+T32	DISTRICT 1291 1326	Приволжско-Уральском военном округе
+T33	PROFESSION 1357 1370	генерал-майор
+T34	PERSON 1371 1387	Сергей Суровикин
+T35	ORGANIZATION 2 19	Минобороны России
+T36	COUNTRY 13 19	России
+T37	COUNTRY 151 153	РФ
+T38	ORGANIZATION 229 249	оборонного ведомства
+T39	ORGANIZATION 216 249	пресс-службе оборонного ведомства
+T40	DISTRICT 315 341	Сибирского военного округа
+T41	PERSON 360 379	Александр Постников
+T42	PERSON 486 500	Андрей Третьяк
+T43	ORGANIZATION 394 458	Главного оперативного управления ГОУ Генштаба Вооруженных сил РФ
+T44	COUNTRY 456 458	РФ
+T45	ORGANIZATION 431 458	Генштаба Вооруженных сил РФ
+T46	ORGANIZATION 394 430	Главного оперативного управления ГОУ
+T47	PERSON 547 563	Сергей Суровикин
+T48	DISTRICT 654 680	Сибирского военного округа
+T49	PERSON 708 723	Владимир Чиркин
+T17	DISTRICT 811 845	Северо-Кавказского военного округа
+T50	PERSON 864 878	Сергей Макаров
+T51	PERSON 910 926	Александр Галкин
+T21	ORGANIZATION 1043 1090	Главного оперативного управления Генштаба ВС РФ
+T22	ORGANIZATION 1043 1075	Главного оперативного управления
+T52	ORGANIZATION 1076 1090	Генштаба ВС РФ
+T53	COUNTRY 1088 1090	РФ
+T55	PERSON 1208 1222	Иван Бувальцев
+R1	WORKS_AS Arg1:T4 Arg2:T3	
+R2	AGE_IS Arg1:T4 Arg2:T2	
+R3	WORKS_AS Arg1:T4 Arg2:T5	
+T29	ORGANIZATION 130 153	сухопутными войсками РФ
+R4	WORKPLACE Arg1:T4 Arg2:T29	
+T54	ORGANIZATION 268 284	сухопутных войск
+R5	WORKS_AS Arg1:T41 Arg2:T7	
+R6	WORKS_AS Arg1:T41 Arg2:T8	
+R7	WORKPLACE Arg1:T41 Arg2:T40	
+R8	WORKS_AS Arg1:T41 Arg2:T6	
+R9	WORKPLACE Arg1:T41 Arg2:T54	
+R10	WORKS_AS Arg1:T42 Arg2:T9	
+R11	WORKPLACE Arg1:T42 Arg2:T43	
+R12	WORKS_AS Arg1:T47 Arg2:T12	
+R13	WORKPLACE Arg1:T47 Arg2:T13	
+R14	WORKS_AS Arg1:T47 Arg2:T11	
+T56	ORGANIZATION 306 341	войсками Сибирского военного округа
+T57	ORGANIZATION 645 680	войсками Сибирского военного округа
+R15	WORKS_AS Arg1:T49 Arg2:T15	
+R16	WORKS_AS Arg1:T49 Arg2:T14	
+R17	WORKPLACE Arg1:T49 Arg2:T57	
+R18	WORKS_AS Arg1:T50 Arg2:T18	
+R19	WORKS_AS Arg1:T50 Arg2:T16	
+T58	ORGANIZATION 802 845	войсками Северо-Кавказского военного округа
+R20	WORKPLACE Arg1:T50 Arg2:T58	
+R21	WORKS_AS Arg1:T51 Arg2:T19	
+R22	WORKS_AS Arg1:T55 Arg2:T28	
+R23	WORKS_AS Arg1:T55 Arg2:T26	
+T59	ORGANIZATION 1145 1184	войсками Ленинградского военного округа
+R24	WORKPLACE Arg1:T55 Arg2:T59	
+R25	WORKS_AS Arg1:T30 Arg2:T26	
+R26	WORKPLACE Arg1:T30 Arg2:T59	
+R27	WORKS_AS Arg1:T34 Arg2:T33	
+R28	WORKPLACE Arg1:T34 Arg2:T32	
+R29	WORKS_AS Arg1:T34 Arg2:T31	
+R30	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R31	ALTERNATIVE_NAME Arg1:T1 Arg2:T38	
+T60	EVENT 97 110	покидает пост
+R32	AGENT Arg1:T4 Arg2:T60	
+R33	WORKPLACE Arg1:T5 Arg2:T29	
+T61	PROFESSION 111 129	главнокомандующего
+T62	PROFESSION 258 267	главкомом
+R34	WORKPLACE Arg1:T6 Arg2:T54	
+T63	PROFESSION 294 305	командующий
+R35	WORKPLACE Arg1:T7 Arg2:T56	
+R36	HEADQUARTERED_IN Arg1:T56 Arg2:T40	
+T64	EVENT 285 293	назначен
+R37	PARTICIPANT_IN Arg1:T41 Arg2:T64	
+R38	PARTICIPANT_IN Arg1:T56 Arg2:T64	
+T65	EVENT 459 467	назначен
+R39	PARTICIPANT_IN Arg1:T42 Arg2:T65	
+T66	ORGANIZATION 440 458	Вооруженных сил РФ
+R40	PARTICIPANT_IN Arg1:T66 Arg2:T65	
+T67	EVENT 681 689	назначен
+R41	PARTICIPANT_IN Arg1:T49 Arg2:T67	
+R42	PARTICIPANT_IN Arg1:T57 Arg2:T67	
+R43	WORKPLACE Arg1:T9 Arg2:T46	
+R44	WORKS_AS Arg1:T42 Arg2:T10	
+R45	HEADQUARTERED_IN Arg1:T66 Arg2:T44	
+R46	WORKPLACE Arg1:T12 Arg2:T13	
+R47	WORKPLACE Arg1:T14 Arg2:T57	
+R48	HEADQUARTERED_IN Arg1:T57 Arg2:T48	
+T68	EVENT 775 789	уволен в запас
+R49	PARTICIPANT_IN Arg1:T50 Arg2:T68	
+R50	WORKPLACE Arg1:T16 Arg2:T58	
+R51	HEADQUARTERED_IN Arg1:T58 Arg2:T17	
+T69	EVENT 1009 1031	переведен на должность
+T70	PROFESSION 986 1001	Начальник штаба
+R52	PARTICIPANT_IN Arg1:T23 Arg2:T69	
+R53	WORKPLACE Arg1:T24 Arg2:T21	
+R54	HEADQUARTERED_IN Arg1:T52 Arg2:T53	
+R55	WORKS_AS Arg1:T55 Arg2:T25	
+R56	WORKPLACE Arg1:T26 Arg2:T59	
+R57	HEADQUARTERED_IN Arg1:T59 Arg2:T27	
+R58	WORKPLACE Arg1:T25 Arg2:T27	
+R59	WORKPLACE Arg1:T31 Arg2:T32	
+R60	PARTICIPANT_IN Arg1:T29 Arg2:T60	
+R61	PART_OF Arg1:T39 Arg2:T38	
+R62	PARTICIPANT_IN Arg1:T54 Arg2:T64	
+R63	PARTICIPANT_IN Arg1:T43 Arg2:T65	
+R64	PARTICIPANT_IN Arg1:T58 Arg2:T68	
+R65	WORKPLACE Arg1:T23 Arg2:T20	
+R66	PARTICIPANT_IN Arg1:T21 Arg2:T69	
+R67	TAKES_PLACE_IN Arg1:T69 Arg2:T20	
+T71	EVENT 1185 1193	назначен
+R68	PARTICIPANT_IN Arg1:T55 Arg2:T71	
+R69	PARTICIPANT_IN Arg1:T59 Arg2:T71	
+R70	TAKES_PLACE_IN Arg1:T71 Arg2:T27	
+T72	EVENT 1348 1356	назначен
+R71	PARTICIPANT_IN Arg1:T34 Arg2:T72	
+R72	TAKES_PLACE_IN Arg1:T72 Arg2:T32	
+T73	LOCATION 315 325	Сибирского
+R73	LOCATED_IN Arg1:T40 Arg2:T73	
+T74	LOCATION 598 608	Уральского
+T75	LOCATION 587 597	Приволжско
+R74	LOCATED_IN Arg1:T13 Arg2:T75	
+R75	LOCATED_IN Arg1:T13 Arg2:T74	
+T76	LOCATION 654 664	Сибирского
+R76	LOCATED_IN Arg1:T48 Arg2:T76	
+T77	LOCATION 811 829	Северо-Кавказского
+R77	LOCATED_IN Arg1:T17 Arg2:T77	
+T78	LOCATION 1291 1301	Приволжско
+T79	LOCATION 1302 1311	Уральском
+R78	LOCATED_IN Arg1:T32 Arg2:T78	
+R79	LOCATED_IN Arg1:T32 Arg2:T79	
+N3	Reference T4 Wikidata:Q623297	Владимир Анатольевич Болдырев
+N8	Reference T11 Wikidata:Q157148	генерал-майор
+N10	Reference T13 Wikidata:Q2625636	Приволжско-Уральский военный округ
+N11	Reference T15 Wikidata:Q152951	генерал-лейтенант
+N13	Reference T18 Wikidata:Q155327	генерал-полковник
+N18	Reference T27 Wikidata:Q2621975	Ленинградский военный округ
+N20	Reference T32 Wikidata:Q2625636	Приволжско-Уральский военный округ
+N21	Reference T35 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N22	Reference T36 Wikidata:Q159	Россия
+N23	Reference T37 Wikidata:Q159	Россия
+N25	Reference T40 Wikidata:Q2381705	Сибирский военный округ
+N27	Reference T42 Wikidata:Q4462667	Третьяк, Андрей Витальевич
+N31	Reference T47 Wikidata:Q4446583	Суровикин, Сергей Владимирович
+N32	Reference T49 Wikidata:Q7938298	Чиркин, Владимир Валентинович
+N33	Reference T17 Wikidata:Q2620672	Северо-Кавказский военный округ
+N39	Reference T55 Wikidata:Q15064724	Бувальцев, Иван Александрович
+N40	Reference T29 Wikidata:Q1031386	Сухопутные войска Российской Федерации
+N41	Reference T54 Wikidata:Q1031386	Сухопутные войска Российской Федерации
+N45	Reference T61 Wikidata:Q380782	главнокомандующий
+N46	Reference T62 Wikidata:Q380782	главнокомандующий
+N48	Reference T66 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N49	Reference T73 Wikidata:Q953712	Сибирский
+N52	Reference T77 Wikidata:Q485161	Северо-Кавказский федеральный округ
+N1	Reference T1 Wikidata:Q1788820	
+N2	Reference T3 Wikidata:Q15730331	генерал армии
+N4	Reference T5 Wikidata:Q4139172	
+N24	Reference T39 Wikidata:NULL	нет данных
+N5	Reference T6 Wikidata:Q4139172	
+N47	Reference T63 Wikidata:Q814174	
+N42	Reference T56 Wikidata:NULL	нет данных
+N6	Reference T7 Wikidata:NULL	нет данных
+N26	Reference T41 Wikidata:Q4374246	
+N28	Reference T43 Wikidata:Q21637952	
+N30	Reference T46 Wikidata:NULL	нет данных
+N7	Reference T9 Wikidata:NULL	нет данных
+N29	Reference T45 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N9	Reference T12 Wikidata:NULL	нет данных
+N51	Reference T75 Wikidata:Q202317	Приволжский федеральный округ
+N50	Reference T74 Wikidata:Q41964	
+N43	Reference T58 Wikidata:NULL	нет данных
+N12	Reference T16 Wikidata:NULL	нет данных
+N34	Reference T50 Wikidata:Q4275403	
+N35	Reference T51 Wikidata:NULL	нет данных
+N14	Reference T23 Wikidata:NULL	нет данных
+N37	Reference T22 Wikidata:NULL	нет данных
+N38	Reference T52 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N36	Reference T21 Wikidata:Q21637952	
+N15	Reference T24 Wikidata:NULL	нет данных
+N16	Reference T25 Wikidata:Q707492	
+N44	Reference T59 Wikidata:NULL	нет данных
+N17	Reference T26 Wikidata:NULL	нет данных
+N19	Reference T30 Wikidata:Q4462667	Третьяк, Андрей Витальевич
+N53	Reference T28 Wikidata:Q157148	генерал-майор
+N54	Reference T33 Wikidata:Q157148	генерал-майор
+N55	Reference T10 Wikidata:Q152951	генерал-лейтенант
+N56	Reference T19 Wikidata:Q152951	генерал-лейтенант
+N57	Reference T8 Wikidata:Q155327	генерал-полковник
+N58	Reference T20 Wikidata:Q2621975	Ленинградский военный округ
+N59	Reference T44 Wikidata:Q159	Россия
+N60	Reference T53 Wikidata:Q159	Россия
+N61	Reference T48 Wikidata:Q2381705	Сибирский военный округ
+N62	Reference T34 Wikidata:Q4446583	Суровикин, Сергей Владимирович
+N63	Reference T76 Wikidata:Q953712	Сибирский
+N64	Reference T38 Wikidata:Q1788820	
+N65	Reference T57 Wikidata:NULL	нет данных
+N66	Reference T14 Wikidata:NULL	нет данных
+N67	Reference T78 Wikidata:Q202317	Приволжский федеральный округ
+N68	Reference T79 Wikidata:Q41964	
+N69	Reference T31 Wikidata:Q707492	
+N70	Reference T70 Wikidata:Q707492	

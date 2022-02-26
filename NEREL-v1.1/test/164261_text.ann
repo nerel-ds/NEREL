@@ -1,0 +1,61 @@
+T1	CITY 2 14	Светлогорске
+T2	CITY 133 145	Светлогорске
+T3	STATE_OR_PROVINCE 147 170	Калининградская область
+T4	CITY 290 304	Светлогорского
+T6	DATE 342 360	1 января 2018 года
+T8	CITY 369 380	Пионерского
+T10	DATE 644 661	22 июня 2018 года
+T11	PROFESSION 30 39	Дед Мороз
+T12	PROFESSION 93 102	Дед Мороз
+T5	ORGANIZATION 290 320	Светлогорского городского суда
+T13	EVENT 323 331	Инцидент
+T14	LAW 605 607	УК
+T15	COUNTRY 608 610	РФ
+T16	LAW 605 610	УК РФ
+T9	LAW 585 610	п. «з» ч. 2 ст. 112 УК РФ
+T18	ORDINAL 595 596	2
+T19	ORDINAL 601 604	112
+T7	PROFESSION 391 402	Деда Мороза
+T20	EVENT 500 519	ударил того посохом
+T21	EVENT 530 548	сломал ему челюсть
+T24	EVENT 556 581	возбуждено уголовное дело
+T25	EVENT 612 630	Судебное заседание
+R1	LOCATED_IN Arg1:T2 Arg2:T3	
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R3	POINT_IN_TIME Arg1:T13 Arg2:T6	
+R6	SUBEVENT_OF Arg1:T20 Arg2:T13	
+R7	SUBEVENT_OF Arg1:T21 Arg2:T13	
+R9	POINT_IN_TIME Arg1:T25 Arg2:T10	
+T17	CRIME 711 739	преступления против личности
+R10	ORIGINS_FROM Arg1:T16 Arg2:T15	
+R11	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+T26	EVENT 41 68	сломавший подростку челюсть
+R12	AGENT Arg1:T11 Arg2:T26	
+T27	EVENT 202 226	сломал прохожему челюсть
+R4	ALTERNATIVE_NAME Arg1:T26 Arg2:T13	
+R5	ALTERNATIVE_NAME Arg1:T27 Arg2:T21	
+R8	TAKES_PLACE_IN Arg1:T26 Arg2:T1	
+R13	TAKES_PLACE_IN Arg1:T27 Arg2:T2	
+R14	TAKES_PLACE_IN Arg1:T24 Arg2:T4	
+T22	LAW 592 610	ч. 2 ст. 112 УК РФ
+R15	PART_OF Arg1:T9 Arg2:T22	
+T23	LAW 597 610	ст. 112 УК РФ
+R16	PART_OF Arg1:T22 Arg2:T23	
+R17	PART_OF Arg1:T23 Arg2:T16	
+R18	HAS_CAUSE Arg1:T24 Arg2:T20	
+R19	HAS_CAUSE Arg1:T25 Arg2:T20	
+N1	Reference T2 Wikidata:Q193595	Светлогорск
+N2	Reference T3 Wikidata:Q1749	Калининградская область
+N4	Reference T11 Wikidata:Q488159	Дед Мороз
+N7	Reference T15 Wikidata:Q159	Россия
+N8	Reference T16 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N5	Reference T5 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q179439	Пионерский
+N6	Reference T14 Wikidata:Q19705	уголовное законодательство
+N11	Reference T23 Wikidata:NULL	нет данных
+N10	Reference T22 Wikidata:NULL	нет данных
+N9	Reference T9 Wikidata:NULL	нет данных
+N12	Reference T4 Wikidata:Q193595	Светлогорск
+N13	Reference T1 Wikidata:Q193595	Светлогорск
+N14	Reference T7 Wikidata:Q488159	Дед Мороз
+N15	Reference T12 Wikidata:Q488159	Дед Мороз

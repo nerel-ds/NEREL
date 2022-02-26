@@ -1,0 +1,132 @@
+T1	COUNTRY 0 11	Израильская
+T2	PROFESSION 30 47	премьер-министром
+T3	PERSON 49 59	Ципи Ливни
+T4	PROFESSION 61 84	министр иностранных дел
+T6	ORGANIZATION 151 157	Кадима
+T7	PROFESSION 190 207	премьер-министром
+T8	DATE 233 250	в течение 42 дней
+T10	ORDINAL 370 376	второй
+T11	COUNTRY 388 395	Израиле
+T12	ORDINAL 427 433	Первой
+T13	PROFESSION 444 461	премьер-министром
+T14	DATE 476 493	в 1969-1974 годах
+T15	PERSON 494 504	Голда Меир
+T16	PERSON 542 552	Ципи Ливни
+T17	COUNTRY 564 575	белорусском
+T18	CITY 583 589	Гродно
+T19	PERSON 593 603	Голда Меир
+T20	COUNTRY 614 624	Белоруссии
+T21	PERSON 640 650	Ципи Ливни
+T22	AGE 658 664	50 лет
+T23	PERSON 718 731	Ариэля Шарона
+T24	PERSON 754 759	Ливни
+T25	DATE 760 778	в течение ряда лет
+T26	LOCATION 781 792	европейском
+T27	ORGANIZATION 825 831	Моссад
+T28	PERSON 835 845	Ципи Ливни
+T30	COUNTRY 1026 1033	Израиля
+T31	PERSON 1042 1052	Ципи Ливни
+T32	CITY 1183 1193	Иерусалиме
+T33	PERSON 1195 1205	Ципи Ливни
+T34	PROFESSION 1212 1229	премьер-министром
+T35	PROFESSION 1238 1247	Премьером
+T36	PROFESSION 1263 1273	разведчица
+T37	PERSON 1274 1284	Ципи Ливни
+T38	COUNTRY 85 92	Израиля
+T39	PROFESSION 61 92	министр иностранных дел Израиля
+T40	EVENT 106 113	выборах
+T42	PROFESSION 121 158	председателя правящей партии "Кадима"
+T43	COUNTRY 208 215	Израиля
+T44	PROFESSION 190 215	премьер-министром Израиля
+T45	PROFESSION 285 294	министров
+T46	ORGANIZATION 264 294	коалиционный кабинет министров
+T47	PROFESSION 444 469	премьер-министром Израиля
+T48	COUNTRY 462 469	Израиля
+T49	COUNTRY 803 814	израильской
+T50	ORGANIZATION 865 902	администрацией Палестинской автономии
+T51	COUNTRY 880 902	Палестинской автономии
+T52	COUNTRY 1230 1237	Израиля
+T53	PROFESSION 1212 1237	премьер-министром Израиля
+T54	PROFESSION 1238 1255	Премьером Израиля
+T55	COUNTRY 1248 1255	Израиля
+T56	PROFESSION 12 22	разведчица
+R1	ORIGINS_FROM Arg1:T56 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T40	
+R3	WORKPLACE Arg1:T3 Arg2:T38	
+R4	WORKS_AS Arg1:T3 Arg2:T39	
+R5	ORGANIZES Arg1:T6 Arg2:T40	
+R6	WORKS_AS Arg1:T3 Arg2:T42	
+R7	WORKS_AS Arg1:T15 Arg2:T47	
+R8	WORKPLACE Arg1:T15 Arg2:T48	
+R9	PLACE_RESIDES_IN Arg1:T19 Arg2:T20	
+R10	PLACE_OF_BIRTH Arg1:T16 Arg2:T18	
+R11	LOCATED_IN Arg1:T18 Arg2:T17	
+R12	AGE_IS Arg1:T21 Arg2:T22	
+R13	KNOWS Arg1:T21 Arg2:T23	
+T5	PROFESSION 1005 1033	политические деятели Израиля
+R14	WORKPLACE Arg1:T39 Arg2:T38	
+R15	WORKPLACE Arg1:T42 Arg2:T6	
+R16	WORKPLACE Arg1:T44 Arg2:T43	
+R17	ALTERNATIVE_NAME Arg1:T1 Arg2:T38	
+R18	WORKPLACE Arg1:T47 Arg2:T48	
+R19	ALTERNATIVE_NAME Arg1:T17 Arg2:T20	
+R20	ALTERNATIVE_NAME Arg1:T21 Arg2:T24	
+R21	HEADQUARTERED_IN Arg1:T27 Arg2:T49	
+R22	WORKPLACE Arg1:T24 Arg2:T27	
+T29	EVENT 852 862	переговоры
+R23	AGENT Arg1:T28 Arg2:T29	
+R24	AGENT Arg1:T50 Arg2:T29	
+R25	WORKPLACE Arg1:T5 Arg2:T30	
+R26	WORKPLACE Arg1:T53 Arg2:T52	
+R27	WORKPLACE Arg1:T54 Arg2:T55	
+R28	WORKS_AS Arg1:T37 Arg2:T36	
+R29	HEADQUARTERED_IN Arg1:T46 Arg2:T43	
+R30	HEADQUARTERED_IN Arg1:T50 Arg2:T51	
+R31	ALTERNATIVE_NAME Arg1:T24 Arg2:T28	
+R32	HEADQUARTERED_IN Arg1:T6 Arg2:T38	
+R33	MEMBER_OF Arg1:T3 Arg2:T6	
+N1	Reference T4 Wikidata:Q7330070	министр иностранных дел
+N2	Reference T6 Wikidata:Q39655	Кадима
+N3	Reference T7 Wikidata:Q14212	премьер-министр
+N4	Reference T15 Wikidata:Q42992	Голда Меир
+N5	Reference T16 Wikidata:Q151796	Ливни, Ципи
+N7	Reference T18 Wikidata:Q181376	Гродно
+N8	Reference T23 Wikidata:Q60206	Ариель Шарон
+N10	Reference T27 Wikidata:Q34216	Моссад
+N11	Reference T32 Wikidata:Q1218	Иерусалим
+N12	Reference T35 Wikidata:Q14212	премьер-министр
+N14	Reference T45 Wikidata:Q83307	министр
+N16	Reference T47 Wikidata:Q208487	премьер-министр Израиля
+N17	Reference T48 Wikidata:Q801	Израиль
+N20	Reference T54 Wikidata:Q208487	премьер-министр Израиля
+N21	Reference T5 Wikidata:NULL	нет данных
+N13	Reference T42 Wikidata:NULL	нет данных
+N15	Reference T46 Wikidata:Q837416	коалиционное правительство
+N18	Reference T50 Wikidata:Q42620	Палестинская национальная администрация
+N19	Reference T51 Wikidata:Q219060	Государство Палестина
+N9	Reference T26 Wikidata:Q46	Европа
+N6	Reference T17 Wikidata:Q184	Белоруссия
+N22	Reference T56 Wikidata:Q9352089	
+N23	Reference T34 Wikidata:Q14212	премьер-министр
+N24	Reference T2 Wikidata:Q14212	премьер-министр
+N25	Reference T13 Wikidata:Q14212	премьер-министр
+N26	Reference T19 Wikidata:Q42992	Голда Меир
+N27	Reference T31 Wikidata:Q151796	Ливни, Ципи
+N28	Reference T37 Wikidata:Q151796	Ливни, Ципи
+N30	Reference T33 Wikidata:Q151796	Ливни, Ципи
+N31	Reference T21 Wikidata:Q151796	Ливни, Ципи
+N32	Reference T3 Wikidata:Q151796	Ливни, Ципи
+N33	Reference T28 Wikidata:Q151796	Ливни, Ципи
+N34	Reference T24 Wikidata:Q151796	Ливни, Ципи
+N35	Reference T53 Wikidata:Q208487	премьер-министр Израиля
+N36	Reference T44 Wikidata:Q208487	премьер-министр Израиля
+N37	Reference T30 Wikidata:Q801	Израиль
+N38	Reference T49 Wikidata:Q801	Израиль
+N39	Reference T43 Wikidata:Q801	Израиль
+N40	Reference T55 Wikidata:Q801	Израиль
+N41	Reference T52 Wikidata:Q801	Израиль
+N42	Reference T11 Wikidata:Q801	Израиль
+N43	Reference T1 Wikidata:Q801	Израиль
+N44	Reference T38 Wikidata:Q801	Израиль
+N45	Reference T20 Wikidata:Q184	Белоруссия
+N46	Reference T36 Wikidata:Q9352089	

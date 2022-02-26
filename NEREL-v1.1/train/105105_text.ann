@@ -1,0 +1,187 @@
+T1	PERSON 9 21	Юлия Ефимова
+T2	COUNTRY 55 58	США
+T3	PERSON 68 80	Юлия Ефимова
+T4	DATE 81 92	в 2008 году
+T5	PERSON 113 125	Юлия Ефимова
+T6	COUNTRY 173 176	США
+T7	DATE 188 215	Вчера, 16 августа 2016 года
+T8	COUNTRY 217 227	российские
+T9	COUNTRY 337 340	США
+T10	CITY 384 395	Los Angeles
+T11	AGE 406 417	24-year-old
+T12	COUNTRY 435 437	US
+T13	DATE 438 461	for the last five years
+T14	PERSON 464 471	Ефимова
+T16	CITY 505 518	Лос-Анджелесе
+T17	AGE 520 529	24-летняя
+T18	COUNTRY 550 553	США
+T19	DATE 554 572	последние пять лет
+T20	PERSON 587 591	Юлия
+T21	COUNTRY 609 612	США
+T22	COUNTRY 634 640	России
+T23	COUNTRY 644 651	Америке
+T24	COUNTRY 714 720	России
+T25	NATIONALITY 820 832	американцами
+T26	PERSON 866 870	Юлия
+T27	COUNTRY 944 954	российские
+T28	COUNTRY 1037 1055	Соединённых Штатов
+T29	DATE 1069 1076	полгода
+T30	COUNTRY 1142 1149	Русские
+T31	ORGANIZATION 1191 1194	CNN
+T32	COUNTRY 1221 1224	США
+T33	DATE 1291 1301	на полгода
+T34	COUNTRY 1425 1431	России
+T35	LOCATION 1433 1439	Европе
+T36	COUNTRY 1441 1444	США
+T37	PERSON 1480 1492	Юлия Ефимова
+T38	COUNTRY 1502 1505	США
+T39	DATE 1506 1523	в марте 2011 года
+T40	PROFESSION 1532 1540	тренером
+T41	NATIONALITY 1546 1556	американец
+T42	PERSON 1557 1567	Дэвид Сало
+T43	COUNTRY 1594 1600	России
+T44	DATE 1623 1635	месяц в году
+T46	COUNTRY 1666 1668	РФ
+T47	PERSON 1669 1686	Сергей Колмогоров
+T48	PERSON 1701 1705	Юлия
+T49	COUNTRY 1724 1730	Россию
+T50	EVENT 1789 1798	Олимпиаде
+T51	COUNTRY 1801 1809	Бразилии
+T52	NUMBER 1828 1831	две
+T53	NUMBER 1864 1869	100 м
+T54	NUMBER 1872 1877	200 м
+T55	DATE 1943 1947	2012
+T56	EVENT 2036 2053	чемпионате Европы
+T57	PROFESSION 0 8	Пловчиха
+T58	NATIONALITY 93 103	Российская
+T59	PROFESSION 104 112	пловчиха
+T60	PERSON 265 271	Ефимов
+T61	ORGANIZATION 272 275	CNN
+T62	PERSON 353 360	Efimova
+T15	PROFESSION 530 541	спортсменка
+T63	EVENT 1356 1366	Кубка мира
+T64	ORGANIZATION 1658 1668	сборной РФ
+T65	PROFESSION 1643 1668	главный тренер сборной РФ
+T45	PERSON 1810 1817	Ефимова
+T66	AWARD 1832 1849	серебряные медали
+T67	EVENT 1927 1947	Олимпийских Игр-2012
+T68	AWARD 1908 1947	бронзовым призёром Олимпийских Игр-2012
+T69	AWARD 1949 1979	четырёхкратной чемпионкой мира
+T70	AWARD 1981 2010	трёхкратной чемпионкой Европы
+T71	LOCATION 2004 2010	Европы
+T72	LOCATION 2047 2053	Европы
+T73	PROFESSION 1887 1898	Спортсменка
+R1	WORKS_AS Arg1:T1 Arg2:T57	
+R2	WORKS_AS Arg1:T5 Arg2:T59	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T58	
+R4	ALTERNATIVE_NAME Arg1:T5 Arg2:T60	
+R5	ALTERNATIVE_NAME Arg1:T60 Arg2:T62	
+R6	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+R7	PLACE_RESIDES_IN Arg1:T62 Arg2:T10	
+R8	ALTERNATIVE_NAME Arg1:T60 Arg2:T14	
+R9	PLACE_RESIDES_IN Arg1:T14 Arg2:T16	
+R11	AGE_IS Arg1:T15 Arg2:T17	
+R10	AGE_IS Arg1:T14 Arg2:T17	
+R12	PLACE_RESIDES_IN Arg1:T15 Arg2:T18	
+R13	LOCATED_IN Arg1:T16 Arg2:T18	
+R14	ALTERNATIVE_NAME Arg1:T14 Arg2:T20	
+R15	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+R16	ALTERNATIVE_NAME Arg1:T8 Arg2:T22	
+R17	ORIGINS_FROM Arg1:T25 Arg2:T23	
+R18	ALTERNATIVE_NAME Arg1:T23 Arg2:T28	
+R19	PLACE_RESIDES_IN Arg1:T26 Arg2:T28	
+R20	ALTERNATIVE_NAME Arg1:T27 Arg2:T30	
+R21	PLACE_RESIDES_IN Arg1:T37 Arg2:T38	
+R22	WORKS_AS Arg1:T42 Arg2:T40	
+R23	ORIGINS_FROM Arg1:T42 Arg2:T41	
+T74	PROFESSION 1643 1657	главный тренер
+T75	PROFESSION 1651 1657	тренер
+R24	WORKPLACE Arg1:T65 Arg2:T64	
+R25	HEADQUARTERED_IN Arg1:T64 Arg2:T46	
+R26	WORKS_AS Arg1:T47 Arg2:T65	
+R27	WORKPLACE Arg1:T47 Arg2:T64	
+R28	PARTICIPANT_IN Arg1:T45 Arg2:T50	
+R29	TAKES_PLACE_IN Arg1:T50 Arg2:T51	
+R30	AWARDED_WITH Arg1:T45 Arg2:T66	
+R31	ORIGINS_FROM Arg1:T66 Arg2:T50	
+R32	WORKS_AS Arg1:T45 Arg2:T73	
+R33	POINT_IN_TIME Arg1:T67 Arg2:T55	
+T76	EVENT 1927 1942	Олимпийских Игр
+R34	TAKES_PLACE_IN Arg1:T56 Arg2:T72	
+R35	PARTICIPANT_IN Arg1:T45 Arg2:T56	
+R36	AWARDED_WITH Arg1:T45 Arg2:T69	
+R37	AWARDED_WITH Arg1:T45 Arg2:T70	
+R38	ORIGINS_FROM Arg1:T70 Arg2:T71	
+R39	ORIGINS_FROM Arg1:T59 Arg2:T58	
+R40	PLACE_RESIDES_IN Arg1:T60 Arg2:T9	
+R41	LOCATED_IN Arg1:T10 Arg2:T6	
+R42	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R43	ORIGINS_FROM Arg1:T66 Arg2:T50	
+R44	ORIGINS_FROM Arg1:T68 Arg2:T67	
+T77	AWARD 1908 1926	бронзовым призёром
+R45	AWARDED_WITH Arg1:T73 Arg2:T68	
+R46	AWARDED_WITH Arg1:T45 Arg2:T68	
+N3	Reference T16 Wikidata:Q65	Лос-Анджелес
+N4	Reference T18 Wikidata:Q30	США
+N8	Reference T46 Wikidata:Q159	Россия
+N10	Reference T49 Wikidata:Q159	Россия
+N11	Reference T51 Wikidata:Q155	Бразилия
+N13	Reference T59 Wikidata:Q10843402	пловец
+N14	Reference T61 Wikidata:Q48340	CNN
+N16	Reference T65 Wikidata:Q159	Россия
+N22	Reference T75 Wikidata:Q41583	тренер
+N12	Reference T58 Wikidata:Q492468	россияне
+N24	Reference T62 Wikidata:Q238685	
+N1	Reference T10 Wikidata:Q65	Лос-Анджелес
+N2	Reference T12 Wikidata:Q30	США
+N25	Reference T15 Wikidata:Q2066131	спортсмен
+N5	Reference T27 Wikidata:Q159	Россия
+N6	Reference T41 Wikidata:Q846570	
+N7	Reference T42 Wikidata:NULL	нет данных
+N26	Reference T74 Wikidata:Q3246315	
+N15	Reference T64 Wikidata:NULL	нет данных
+N9	Reference T47 Wikidata:NULL	нет данных
+N17	Reference T66 Wikidata:Q15889641	
+N23	Reference T77 Wikidata:Q15889643	
+N18	Reference T68 Wikidata:NULL	нет данных
+N19	Reference T69 Wikidata:NULL	нет данных
+N20	Reference T70 Wikidata:NULL	нет данных
+N21	Reference T71 Wikidata:Q46	Европа
+N27	Reference T36 Wikidata:Q30	США
+N28	Reference T38 Wikidata:Q30	США
+N29	Reference T23 Wikidata:Q30	США
+N30	Reference T28 Wikidata:Q30	США
+N31	Reference T2 Wikidata:Q30	США
+N32	Reference T32 Wikidata:Q30	США
+N33	Reference T21 Wikidata:Q30	США
+N34	Reference T22 Wikidata:Q159	Россия
+N35	Reference T8 Wikidata:Q159	Россия
+N36	Reference T24 Wikidata:Q159	Россия
+N37	Reference T34 Wikidata:Q159	Россия
+N38	Reference T43 Wikidata:Q159	Россия
+N39	Reference T57 Wikidata:Q10843402	пловец
+N40	Reference T31 Wikidata:Q48340	CNN
+N41	Reference T40 Wikidata:Q41583	тренер
+N42	Reference T5 Wikidata:Q238685	
+N43	Reference T20 Wikidata:Q238685	
+N44	Reference T14 Wikidata:Q238685	
+N45	Reference T37 Wikidata:Q238685	
+N46	Reference T48 Wikidata:Q238685	
+N47	Reference T60 Wikidata:Q238685	
+N48	Reference T3 Wikidata:Q238685	
+N49	Reference T26 Wikidata:Q238685	
+N50	Reference T45 Wikidata:Q238685	
+N51	Reference T1 Wikidata:Q238685	
+N52	Reference T6 Wikidata:Q30	США
+N53	Reference T9 Wikidata:Q30	США
+N54	Reference T73 Wikidata:Q2066131	спортсмен
+N55	Reference T30 Wikidata:Q159	Россия
+N56	Reference T25 Wikidata:Q846570	
+N57	Reference T72 Wikidata:Q46	Европа
+N58	Reference T35 Wikidata:Q46	Европа
+T78	EVENT 1493 1499	уехала
+R47	AGENT Arg1:T37 Arg2:T78	
+R48	TAKES_PLACE_IN Arg1:T78 Arg2:T38	
+R49	POINT_IN_TIME Arg1:T78 Arg2:T39	
+R50	KNOWS Arg1:T37 Arg2:T42	
+T79	AWARD 1964 1979	чемпионкой мира

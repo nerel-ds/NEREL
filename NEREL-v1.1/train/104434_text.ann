@@ -1,0 +1,91 @@
+T1	NATIONALITY 0 10	Американец
+T2	STATE_OR_PROVINCE 14 31	Северной Каролины
+T3	ORGANIZATION 61 65	ИГИЛ
+T4	ORGANIZATION 71 75	ИГИЛ
+T5	ORGANIZATION 149 169	министерство юстиции
+T6	NATIONALITY 175 185	американец
+T7	STATE_OR_PROVINCE 195 212	Северная Каролина
+T8	DATE 227 236	в четверг
+T9	ORGANIZATION 331 352	Исламское государство
+T10	AGE 356 365	36-летний
+T11	PERSON 366 379	Эрик Хендрикс
+T12	COUNTRY 455 473	Соединенных Штатах
+T13	ORGANIZATION 483 487	ИГИЛ
+T14	DATE 511 522	в 2015 году
+T15	COUNTRY 815 833	Соединенных Штатах
+T16	PERSON 902 912	Хендриксом
+T17	EVENT 966 1000	конкурс «Нарисуй пророка Мухаммада
+T18	PERSON 1023 1031	Хендрикс
+T19	PERSON 1055 1072	Элтоном Симпсоном
+T20	DATE 1082 1100	в апреле 2015 года
+T21	CITY 1190 1198	Гарленде
+T22	STATE_OR_PROVINCE 1205 1210	Техас
+T23	PERSON 1218 1226	Хендрикс
+T24	DATE 1262 1271	до 15 лет
+T26	CRIME 94 133	попытка вербовки и обучения террористов
+T27	COUNTRY 170 173	США
+T28	ORGANIZATION 149 173	министерство юстиции США
+T29	CRIME 252 329	заговоре с целью оказания материальной поддержки террористической организации
+T30	PERSON 523 531	Хендрикс
+T31	CRIME 393 452	попытке вербовки людей для подготовки и проведения терактов
+T32	PROFESSION 918 932	военнослужащие
+T33	PERSON 991 1000	Мухаммада
+T25	PENALTY 1262 1287	до 15 лет лишения свободы
+R1	ORIGINS_FROM Arg1:T1 Arg2:T2	
+T34	CRIME 45 65	оказании помощи ИГИЛ
+R2	CONVICTED_OF Arg1:T1 Arg2:T34	
+R3	CONVICTED_OF Arg1:T1 Arg2:T26	
+R4	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+T35	EVENT 217 226	арестован
+R5	ORIGINS_FROM Arg1:T6 Arg2:T7	
+R6	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R7	POINT_IN_TIME Arg1:T35 Arg2:T8	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R9	CONVICTED_OF Arg1:T6 Arg2:T29	
+R10	AGE_IS Arg1:T11 Arg2:T10	
+R11	ALTERNATIVE_NAME Arg1:T34 Arg2:T29	
+R12	ALTERNATIVE_NAME Arg1:T27 Arg2:T12	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R14	ALTERNATIVE_NAME Arg1:T11 Arg2:T30	
+R15	CONVICTED_OF Arg1:T11 Arg2:T31	
+R16	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+R17	KNOWS Arg1:T18 Arg2:T19	
+T36	PENALTY 1272 1287	лишения свободы
+T37	EVENT 1143 1172	нападения на место проведения
+R19	PARTICIPANT_IN Arg1:T19 Arg2:T37	
+R20	HAS_CAUSE Arg1:T37 Arg2:T17	
+R21	POINT_IN_TIME Arg1:T37 Arg2:T20	
+R22	TAKES_PLACE_IN Arg1:T37 Arg2:T21	
+R23	LOCATED_IN Arg1:T21 Arg2:T22	
+R24	PARTICIPANT_IN Arg1:T3 Arg2:T34	
+R25	HAS_CAUSE Arg1:T35 Arg2:T29	
+R26	PARTICIPANT_IN Arg1:T9 Arg2:T29	
+R27	TAKES_PLACE_IN Arg1:T31 Arg2:T12	
+R28	PARTICIPANT_IN Arg1:T13 Arg2:T31	
+T38	EVENT 1179 1187	конкурса
+T39	EVENT 966 973	конкурс
+T40	EVENT 975 1000	Нарисуй пророка Мухаммада
+R18	ALTERNATIVE_NAME Arg1:T17 Arg2:T38	
+N1	Reference T3 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N2	Reference T5 Wikidata:Q1413677	министерство юстиции
+N4	Reference T7 Wikidata:Q1454	Северная Каролина
+N8	Reference T22 Wikidata:Q1439	Техас
+N9	Reference T27 Wikidata:Q30	США
+N10	Reference T28 Wikidata:Q1553390	Министерство юстиции США
+N11	Reference T32 Wikidata:Q47064	военнослужащий
+N3	Reference T6 Wikidata:Q846570	
+N5	Reference T16 Wikidata:NULL	нет данных
+N12	Reference T33 Wikidata:Q9458	Мухаммед
+N6	Reference T19 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:Q49274	Гарленд
+N13	Reference T13 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N14	Reference T4 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N15	Reference T9 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N16	Reference T2 Wikidata:Q1454	Северная Каролина
+N17	Reference T12 Wikidata:Q30	США
+N18	Reference T15 Wikidata:Q30	США
+N19	Reference T1 Wikidata:Q846570	
+N20	Reference T23 Wikidata:NULL	нет данных
+N21	Reference T11 Wikidata:NULL	нет данных
+N22	Reference T18 Wikidata:NULL	нет данных
+N23	Reference T30 Wikidata:NULL	нет данных

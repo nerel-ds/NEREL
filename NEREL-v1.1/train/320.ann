@@ -1,0 +1,112 @@
+T1	PROFESSION 0 7	Генерал
+T2	PERSON 8 17	Д.Петреус
+T3	PROFESSION 35 44	главы ЦРУ
+T4	PROFESSION 47 54	Генерал
+T5	PERSON 55 68	Дэвид Петреус
+T6	PROFESSION 86 133	главы Центрального разведывательного управления
+T7	ORGANIZATION 135 138	ЦРУ
+T8	DATE 155 162	сегодня
+T9	ORGANIZATION 170 179	Сенат США
+T10	ORGANIZATION 190 197	Reuters
+T12	PERSON 216 225	Д.Петреус
+T13	PROFESSION 233 243	главой ЦРУ
+T14	ORGANIZATION 276 282	Сената
+T15	PROFESSION 299 306	генерал
+T16	PERSON 329 342	Леона Панетту
+T17	PROFESSION 373 394	министром обороны США
+T18	PERSON 422 436	Роберта Гейтса
+T20	PERSON 438 447	Д.Петреус
+T21	DATE 490 506	в сентябре 2011г
+T22	AGE 536 545	58-летний
+T24	PERSON 546 555	Д.Петреус
+T25	ORGANIZATION 580 584	НАТО
+T26	COUNTRY 587 598	Афганистане
+T27	PROFESSION 642 659	генерал-лейтенант
+T28	PERSON 660 670	Джон Аллен
+T29	ORGANIZATION 41 44	ЦРУ
+T30	ORGANIZATION 92 133	Центрального разведывательного управления
+T31	COUNTRY 176 179	США
+T11	ORGANIZATION 240 243	ЦРУ
+T32	COUNTRY 391 394	США
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+T19	EVENT 18 26	назначен
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T19	
+R3	WORKS_AS Arg1:T2 Arg2:T3	
+R4	WORKPLACE Arg1:T2 Arg2:T29	
+R5	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R6	WORKS_AS Arg1:T5 Arg2:T4	
+T23	EVENT 69 77	назначен
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T23	
+R8	ABBREVIATION Arg1:T30 Arg2:T7	
+R9	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R10	WORKS_AS Arg1:T5 Arg2:T6	
+R11	WORKPLACE Arg1:T5 Arg2:T30	
+R12	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+T33	EVENT 226 232	избран
+R13	ALTERNATIVE_NAME Arg1:T23 Arg2:T33	
+R14	PARTICIPANT_IN Arg1:T14 Arg2:T33	
+R15	PARTICIPANT_IN Arg1:T12 Arg2:T33	
+R16	WORKS_AS Arg1:T12 Arg2:T13	
+R17	WORKPLACE Arg1:T12 Arg2:T11	
+R18	WORKS_AS Arg1:T12 Arg2:T15	
+R19	WORKS_AS Arg1:T16 Arg2:T13	
+R20	WORKPLACE Arg1:T16 Arg2:T11	
+T34	EVENT 364 372	назначен
+R21	PARTICIPANT_IN Arg1:T16 Arg2:T34	
+R22	WORKS_AS Arg1:T16 Arg2:T17	
+T35	PROFESSION 373 390	министром обороны
+T36	PROFESSION 373 382	министром
+T37	EVENT 413 421	отставку
+R23	PARTICIPANT_IN Arg1:T18 Arg2:T37	
+R24	WORKS_AS Arg1:T18 Arg2:T17	
+R25	WORKPLACE Arg1:T18 Arg2:T32	
+R26	AGE_IS Arg1:T24 Arg2:T22	
+T38	ORGANIZATION 567 598	контингентом НАТО в Афганистане
+R27	WORKPLACE Arg1:T24 Arg2:T38	
+R28	HEADQUARTERED_IN Arg1:T38 Arg2:T26	
+R29	WORKS_AS Arg1:T28 Arg2:T27	
+R30	WORKPLACE Arg1:T3 Arg2:T29	
+R31	WORKPLACE Arg1:T6 Arg2:T30	
+R32	HEADQUARTERED_IN Arg1:T9 Arg2:T31	
+R33	WORKPLACE Arg1:T13 Arg2:T11	
+R34	WORKPLACE Arg1:T17 Arg2:T32	
+R35	PART_OF Arg1:T38 Arg2:T25	
+R36	PARTICIPANT_IN Arg1:T29 Arg2:T19	
+R37	PARTICIPANT_IN Arg1:T30 Arg2:T23	
+T39	ORGANIZATION 170 175	Сенат
+R38	PARTICIPANT_IN Arg1:T11 Arg2:T33	
+R39	TAKES_PLACE_IN Arg1:T34 Arg2:T32	
+R40	HEADQUARTERED_IN Arg1:T14 Arg2:T32	
+R41	WORKPLACE Arg1:T28 Arg2:T38	
+R42	TAKES_PLACE_IN Arg1:T37 Arg2:T32	
+N1	Reference T5 Wikidata:Q28591	Петрэус, Дэвид
+N2	Reference T9 Wikidata:Q66096	Сенат США
+N3	Reference T10 Wikidata:Q130879	Рейтер
+N5	Reference T15 Wikidata:Q83460	генерал
+N6	Reference T16 Wikidata:Q244631	Леон Панетта
+N7	Reference T17 Wikidata:Q735015	министр обороны США
+N8	Reference T18 Wikidata:Q212979	Роберт Гейтс
+N9	Reference T25 Wikidata:Q7184	Организация Североатлантического договора
+N10	Reference T26 Wikidata:Q889	Афганистан
+N11	Reference T27 Wikidata:Q152951	генерал-лейтенант
+N13	Reference T29 Wikidata:Q37230	Центральное разведывательное управление
+N14	Reference T31 Wikidata:Q30	США
+N15	Reference T35 Wikidata:Q2518691	министр обороны
+N16	Reference T36 Wikidata:Q83307	министр
+N18	Reference T39 Wikidata:Q637846	
+N4	Reference T13 Wikidata:Q27656	директор Центрального разведывательного управления
+N17	Reference T38 Wikidata:NULL	нет данных
+N12	Reference T28 Wikidata:Q615356	
+N19	Reference T20 Wikidata:Q28591	Петрэус, Дэвид
+N20	Reference T12 Wikidata:Q28591	Петрэус, Дэвид
+N21	Reference T24 Wikidata:Q28591	Петрэус, Дэвид
+N22	Reference T2 Wikidata:Q28591	Петрэус, Дэвид
+N23	Reference T4 Wikidata:Q83460	генерал
+N24	Reference T1 Wikidata:Q83460	генерал
+N25	Reference T30 Wikidata:Q37230	Центральное разведывательное управление
+N26	Reference T7 Wikidata:Q37230	Центральное разведывательное управление
+N27	Reference T11 Wikidata:Q37230	Центральное разведывательное управление
+N28	Reference T32 Wikidata:Q30	США
+N29	Reference T14 Wikidata:Q637846	
+N30	Reference T6 Wikidata:Q27656	директор Центрального разведывательного управления
+N31	Reference T3 Wikidata:Q27656	директор Центрального разведывательного управления

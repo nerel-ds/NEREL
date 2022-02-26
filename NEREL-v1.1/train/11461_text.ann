@@ -1,0 +1,69 @@
+T1	COUNTRY 2 8	России
+T2	COUNTRY 60 66	России
+T4	NUMBER 134 140	20 тыс
+T5	PROFESSION 174 181	адмирал
+T6	PERSON 182 196	Виктор Гладких
+T7	PROFESSION 257 264	адмирал
+T8	PERSON 265 279	Виктор Гладких
+T9	DATE 306 320	в будущем году
+T11	DATE 566 585	в течение 2011 года
+T13	ORGANIZATION 715 730	вооружённых сил
+T14	ORGANIZATION 930 938	Infox.ru
+T15	ORGANIZATION 952 962	Минобороны
+T16	LAW 1041 1071	Уголовно-процессуальный кодекс
+T17	LAW 1073 1115	Кодекс об административных правонарушениях
+T18	ORGANIZATION 1137 1152	вооружённых сил
+T19	ORGANIZATION 1182 1202	Министерстве обороны
+T20	ORGANIZATION 1271 1288	вооружённых силах
+T21	DATE 1516 1535	в течение 2011 года
+T22	ORGANIZATION 1662 1677	вооружённых сил
+T10	ORGANIZATION 24 39	военная полиция
+R2	HEADQUARTERED_IN Arg1:T10 Arg2:T1	
+T23	ORGANIZATION 89 104	военной полиции
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+T24	ORGANIZATION 212 227	военной полиции
+R4	WORKS_AS Arg1:T8 Arg2:T7	
+T25	ORGANIZATION 611 626	военной полиции
+T26	ORGANIZATION 342 371	военного полицейского корпуса
+R5	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+T27	ORGANIZATION 519 534	военной полиции
+R6	ALTERNATIVE_NAME Arg1:T26 Arg2:T27	
+T28	LAW 1130 1152	уставы вооружённых сил
+T29	ORGANIZATION 1297 1312	военной полиции
+T31	ORGANIZATION 939 962	пресс-службу Минобороны
+R8	ALTERNATIVE_NAME Arg1:T15 Arg2:T19	
+T32	PROFESSION 1553 1580	сотрудников военной полиции
+T33	ORGANIZATION 1565 1580	военной полиции
+R9	WORKPLACE Arg1:T32 Arg2:T33	
+T34	PROFESSION 1604 1618	военнослужащих
+R1	HEADQUARTERED_IN Arg1:T23 Arg2:T2	
+R10	PART_OF Arg1:T31 Arg2:T15	
+R7	PART_OF Arg1:T29 Arg2:T20	
+R11	ORIGINS_FROM Arg1:T28 Arg2:T18	
+N1	Reference T1 Wikidata:Q159	Россия
+N2	Reference T5 Wikidata:Q132851	адмирал
+N5	Reference T15 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N8	Reference T22 Wikidata:Q772547	вооружённые силы
+N11	Reference T34 Wikidata:Q47064	военнослужащий
+N3	Reference T6 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q4469058	
+N7	Reference T17 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N9	Reference T28 Wikidata:NULL	нет данных
+N10	Reference T31 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T2 Wikidata:Q159	Россия
+N15	Reference T7 Wikidata:Q132851	адмирал
+N16	Reference T19 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N17	Reference T13 Wikidata:Q772547	вооружённые силы
+N18	Reference T18 Wikidata:Q772547	вооружённые силы
+N19	Reference T20 Wikidata:Q772547	вооружённые силы
+N20	Reference T8 Wikidata:NULL	нет данных
+N21	Reference T10 Wikidata:NULL	нет данных
+N22	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T25 Wikidata:NULL	нет данных
+N24	Reference T24 Wikidata:NULL	нет данных
+N25	Reference T33 Wikidata:NULL	нет данных
+N26	Reference T29 Wikidata:NULL	нет данных
+N27	Reference T27 Wikidata:NULL	нет данных

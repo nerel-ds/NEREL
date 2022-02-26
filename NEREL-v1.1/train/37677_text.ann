@@ -1,0 +1,83 @@
+T1	PERSON 0 14	Владимир Путин
+T2	ORGANIZATION 67 79	Банка России
+T3	PROFESSION 80 89	Президент
+T4	COUNTRY 90 92	РФ
+T5	PERSON 93 107	Владимир Путин
+T6	ORGANIZATION 143 156	правительства
+T7	COUNTRY 157 163	России
+T8	ORDINAL 557 565	220666-6
+T9	LAW 592 610	О правительстве РФ
+T10	ORGANIZATION 640 648	Госдумой
+T11	ORGANIZATION 651 668	Советом Федерации
+T12	COUNTRY 873 875	РФ
+T13	ORDINAL 909 917	220675-6
+T14	PERSON 1056 1070	Владимир Путин
+T15	ORGANIZATION 1085 1092	Госдуму
+T16	DATE 1093 1112	в феврале 2013 года
+T17	ORGANIZATION 1126 1132	Кремле
+T18	COUNTRY 73 79	России
+T19	PROFESSION 80 92	Президент РФ
+T20	EVENT 108 122	подписал закон
+T21	ORGANIZATION 143 163	правительства России
+T22	ORGANIZATION 233 246	правительства
+T23	COUNTRY 608 610	РФ
+T24	EVENT 632 639	одобрен
+T25	LAW 524 539	конституционный
+T26	LAW 512 565	федеральный конституционный закон за номером 220666-6
+T27	LAW 885 917	законопроект за номером 220675-6
+T28	PROFESSION 934 943	президент
+T29	LAW 973 1028	Законопроект о запрете на владение зарубежными активами
+T30	EVENT 1076 1082	внесен
+T31	PROFESSION 24 34	чиновникам
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T18	
+R2	WORKPLACE Arg1:T19 Arg2:T4	
+R3	WORKPLACE Arg1:T5 Arg2:T4	
+R4	WORKS_AS Arg1:T5 Arg2:T19	
+R5	AGENT Arg1:T5 Arg2:T20	
+R6	HEADQUARTERED_IN Arg1:T21 Arg2:T7	
+T32	PROFESSION 136 163	членам правительства России
+R7	WORKPLACE Arg1:T32 Arg2:T7	
+R8	ALTERNATIVE_NAME Arg1:T18 Arg2:T4	
+T33	PROFESSION 226 246	Членам правительства
+R9	WORKPLACE Arg1:T33 Arg2:T22	
+R10	AGENT Arg1:T10 Arg2:T24	
+R11	AGENT Arg1:T11 Arg2:T24	
+R12	POINT_IN_TIME Arg1:T30 Arg2:T16	
+R13	PARTICIPANT_IN Arg1:T15 Arg2:T30	
+R14	AGENT Arg1:T14 Arg2:T30	
+R15	PRODUCES Arg1:T14 Arg2:T29	
+T34	EVENT 15 23	запретил
+R16	AGENT Arg1:T1 Arg2:T34	
+R17	PARTICIPANT_IN Arg1:T31 Arg2:T34	
+R18	PARTICIPANT_IN Arg1:T32 Arg2:T20	
+R19	ORIGINS_FROM Arg1:T9 Arg2:T23	
+R20	INANIMATE_INVOLVED Arg1:T26 Arg2:T20	
+R21	INANIMATE_INVOLVED Arg1:T26 Arg2:T24	
+R22	INANIMATE_INVOLVED Arg1:T29 Arg2:T30	
+N1	Reference T2 Wikidata:Q806651	Центральный банк Российской Федерации
+N2	Reference T3 Wikidata:Q30461	президент
+N3	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T11 Wikidata:Q186473	Совет Федерации
+N6	Reference T15 Wikidata:Q715641	Государственная дума
+N7	Reference T17 Wikidata:Q133274	Московский Кремль
+N8	Reference T18 Wikidata:Q159	Россия
+N9	Reference T19 Wikidata:Q218295	президент Российской Федерации
+N10	Reference T21 Wikidata:Q1140115	Правительство Российской Федерации
+N11	Reference T22 Wikidata:Q7188	правительство
+N15	Reference T31 Wikidata:Q382887	чиновник
+N16	Reference T32 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:NULL	нет данных
+N18	Reference T26 Wikidata:NULL	нет данных
+N12	Reference T25 Wikidata:Q7755	конституция
+N13	Reference T27 Wikidata:NULL	нет данных
+N14	Reference T29 Wikidata:NULL	нет данных
+N17	Reference T33 Wikidata:NULL	нет данных
+N19	Reference T28 Wikidata:Q30461	президент
+N20	Reference T14 Wikidata:Q7747	Владимир Владимирович Путин
+N21	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N22	Reference T10 Wikidata:Q715641	Государственная дума
+N23	Reference T12 Wikidata:Q159	Россия
+N24	Reference T23 Wikidata:Q159	Россия
+N25	Reference T7 Wikidata:Q159	Россия
+N26	Reference T4 Wikidata:Q159	Россия
+N27	Reference T6 Wikidata:Q7188	правительство

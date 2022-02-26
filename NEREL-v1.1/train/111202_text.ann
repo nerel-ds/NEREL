@@ -1,0 +1,73 @@
+T1	STATE_OR_PROVINCE 2 11	Каталонии
+T2	ORGANIZATION 23 26	ФБР
+T3	NATIONALITY 36 46	российский
+T4	FACILITY 59 70	Чёртов мост
+T5	CITY 73 82	Мартореле
+T6	DATE 83 102	13 января 2016 года
+T7	ORGANIZATION 114 117	ФБР
+T8	COUNTRY 120 127	Испании
+T9	NATIONALITY 141 151	российский
+T10	AGE 222 231	31-летний
+T11	PERSON 232 247	Станислав Лисов
+T12	ORGANIZATION 413 416	ФБР
+T13	ORGANIZATION 419 428	Интерпола
+T14	PERSON 497 512	Станислав Лисов
+T15	FACILITY 534 540	Brians
+T16	STATE_OR_PROVINCE 545 556	каталонском
+T17	CITY 557 566	Мартореле
+T18	CITY 597 606	Таганроге
+T19	PROFESSION 47 58	программист
+T20	EVENT 27 35	задержан
+T21	PROFESSION 152 163	программист
+T22	CRIME 188 204	хакерских атаках
+T23	CITY 328 337	Барселоны
+T24	PROFESSION 626 638	программиста
+R1	ORIGINS_FROM Arg1:T19 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T20 Arg2:T1	
+R3	ORGANIZES Arg1:T2 Arg2:T20	
+R4	PARTICIPANT_IN Arg1:T19 Arg2:T20	
+R5	ORIGINS_FROM Arg1:T21 Arg2:T9	
+R6	AGE_IS Arg1:T11 Arg2:T10	
+R7	LOCATED_IN Arg1:T14 Arg2:T15	
+R8	LOCATED_IN Arg1:T17 Arg2:T16	
+R9	LOCATED_IN Arg1:T15 Arg2:T17	
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T16	
+R11	PLACE_RESIDES_IN Arg1:T11 Arg2:T18	
+T26	FACILITY 318 337	аэропорту Барселоны
+T27	EVENT 295 305	задержания
+T25	EVENT 132 140	задержан
+R12	LOCATED_IN Arg1:T1 Arg2:T8	
+R13	ALTERNATIVE_NAME Arg1:T20 Arg2:T25	
+R14	ORGANIZES Arg1:T7 Arg2:T25	
+R15	ORGANIZES Arg1:T13 Arg2:T25	
+R16	PARTICIPANT_IN Arg1:T21 Arg2:T25	
+R17	WORKS_AS Arg1:T11 Arg2:T21	
+R18	ORIGINS_FROM Arg1:T11 Arg2:T9	
+R19	ALTERNATIVE_NAME Arg1:T25 Arg2:T27	
+R20	TAKES_PLACE_IN Arg1:T27 Arg2:T26	
+R21	LOCATED_IN Arg1:T26 Arg2:T23	
+R22	LOCATED_IN Arg1:T23 Arg2:T1	
+R23	CONVICTED_OF Arg1:T21 Arg2:T22	
+R24	PARTICIPANT_IN Arg1:T11 Arg2:T25	
+N2	Reference T5 Wikidata:Q15623	Марторель
+N3	Reference T8 Wikidata:Q29	Испания
+N6	Reference T12 Wikidata:Q8333	Федеральное бюро расследований
+N7	Reference T13 Wikidata:Q8475	Интерпол
+N9	Reference T18 Wikidata:Q170513	Таганрог
+N10	Reference T23 Wikidata:Q1492	Барселона
+N11	Reference T24 Wikidata:Q5482740	программист
+N1	Reference T4 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q492468	россияне
+N5	Reference T11 Wikidata:NULL	нет данных
+N12	Reference T26 Wikidata:NULL	нет данных
+N13	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:Q5705	Каталония
+N14	Reference T17 Wikidata:Q15623	Марторель
+N15	Reference T7 Wikidata:Q8333	Федеральное бюро расследований
+N16	Reference T2 Wikidata:Q8333	Федеральное бюро расследований
+N17	Reference T19 Wikidata:Q5482740	программист
+N18	Reference T21 Wikidata:Q5482740	программист
+N19	Reference T3 Wikidata:Q492468	россияне
+N20	Reference T14 Wikidata:NULL	нет данных
+N21	Reference T1 Wikidata:Q5705	Каталония
+R25	ORGANIZES Arg1:T12 Arg2:T27	

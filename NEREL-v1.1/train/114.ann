@@ -1,0 +1,111 @@
+T1	PROFESSION 0 18	Президент ABC News
+T2	PERSON 48 60	Дэвид Уэстин
+T3	PERSON 62 74	David Westin
+T4	DATE 77 93	в течение 13 лет
+T5	PROFESSION 110 120	президента
+T6	ORGANIZATION 134 142	ABC News
+T7	ORGANIZATION 182 198	Associated Press
+T8	PERSON 230 236	Уэстин
+T9	DATE 267 292	в понедельник, 6 сентября
+T10	DATE 315 331	в начале августа
+T11	PERSON 398 404	Уэстин
+T12	PERSON 467 473	Уэстин
+T13	DATE 601 618	несколько месяцев
+T14	AGE 624 633	58-летний
+T15	PERSON 634 646	Дэвид Уэстин
+T16	ORGANIZATION 682 690	ABC News
+T17	PROFESSION 711 716	Юрист
+T18	PERSON 717 729	Дэвид Уэстин
+T19	PROFESSION 791 810	президента ABC News
+T21	DATE 811 822	в 1997 году
+T22	PERSON 841 848	Уэстина
+T23	ORGANIZATION 852 860	ABC News
+T24	DATE 908 924	за несколько лет
+T25	NUMBER 955 963	четверть
+T26	DATE 965 976	В 2009 году
+T27	ORGANIZATION 1022 1030	ABC News
+T28	WORK_OF_ART 1037 1047	World News
+T29	WORK_OF_ART 1051 1071	Good Morning America
+T30	WORK_OF_ART 1076 1085	This Week
+T31	WORK_OF_ART 1116 1125	This Week
+T32	PROFESSION 1133 1144	журналистка
+T33	PERSON 1145 1162	Кристиана Аманпур
+T34	PERSON 1164 1183	Christiane Amanpour
+T35	DATE 1186 1197	многие годы
+T36	ORGANIZATION 1229 1232	CNN
+T37	ORGANIZATION 10 18	ABC News
+T38	PROFESSION 246 266	сотрудникам компании
+T39	ORGANIZATION 802 810	ABC News
+T40	PERSON 977 983	Уэстин
+R1	WORKS_AS Arg1:T18 Arg2:T17	
+R2	AGE_IS Arg1:T15 Arg2:T14	
+R3	WORKS_AS Arg1:T18 Arg2:T19	
+R4	WORKPLACE Arg1:T18 Arg2:T39	
+R5	WORKPLACE Arg1:T22 Arg2:T23	
+R6	PRODUCES Arg1:T27 Arg2:T28	
+R7	PRODUCES Arg1:T27 Arg2:T29	
+R8	PRODUCES Arg1:T27 Arg2:T30	
+T20	PROFESSION 1107 1126	ведущей "This Week"
+R9	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R10	WORKS_AS Arg1:T33 Arg2:T32	
+R11	WORKS_AS Arg1:T33 Arg2:T20	
+R12	WORKPLACE Arg1:T33 Arg2:T27	
+R13	WORKPLACE Arg1:T33 Arg2:T36	
+T41	EVENT 30 46	уходе в отставку
+R14	AGENT Arg1:T1 Arg2:T41	
+R15	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T42	PROFESSION 110 142	президента телекомпании ABC News
+R16	WORKS_AS Arg1:T2 Arg2:T42	
+R17	WORKPLACE Arg1:T2 Arg2:T6	
+T43	EVENT 155 171	уходе в отставку
+R18	AGENT Arg1:T2 Arg2:T43	
+R19	WORKPLACE Arg1:T1 Arg2:T37	
+R20	WORKPLACE Arg1:T42 Arg2:T6	
+T44	PROFESSION 0 9	Президент
+R21	ALTERNATIVE_NAME Arg1:T1 Arg2:T42	
+R22	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+R23	WORKPLACE Arg1:T38 Arg2:T6	
+R24	WORKPLACE Arg1:T15 Arg2:T16	
+T45	PROFESSION 791 801	президента
+R25	WORKPLACE Arg1:T19 Arg2:T39	
+T46	EVENT 876 905	массовое сокращение персонала
+R26	ORGANIZES Arg1:T22 Arg2:T46	
+R27	TAKES_PLACE_IN Arg1:T46 Arg2:T23	
+T47	PROFESSION 1107 1114	ведущей
+R28	PARTICIPANT_IN Arg1:T20 Arg2:T31	
+R29	PARTICIPANT_IN Arg1:T37 Arg2:T41	
+R30	PARTICIPANT_IN Arg1:T6 Arg2:T43	
+N2	Reference T7 Wikidata:Q743137	The Associates
+N3	Reference T17 Wikidata:Q185351	юрист
+N4	Reference T28 Wikidata:Q700417	Мировые новости
+N5	Reference T29 Wikidata:Q825946	Good Morning America
+N7	Reference T32 Wikidata:Q1930187	журналист
+N8	Reference T36 Wikidata:Q48340	CNN
+N1	Reference T5 Wikidata:Q1255921	
+N11	Reference T42 Wikidata:NULL	нет данных
+N13	Reference T38 Wikidata:NULL	нет данных
+N14	Reference T16 Wikidata:Q287171	
+N9	Reference T40 Wikidata:Q5240985	
+N12	Reference T47 Wikidata:Q947873	телеведущий
+N10	Reference T20 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:Q236939	
+N6	Reference T30 Wikidata:Q3130024	
+N16	Reference T44 Wikidata:Q1255921	
+N17	Reference T45 Wikidata:Q1255921	
+N18	Reference T1 Wikidata:NULL	нет данных
+N19	Reference T19 Wikidata:NULL	нет данных
+N20	Reference T37 Wikidata:Q287171	
+N21	Reference T23 Wikidata:Q287171	
+N22	Reference T39 Wikidata:Q287171	
+N23	Reference T27 Wikidata:Q287171	
+N24	Reference T6 Wikidata:Q287171	
+N25	Reference T11 Wikidata:Q5240985	
+N26	Reference T15 Wikidata:Q5240985	
+N27	Reference T8 Wikidata:Q5240985	
+N28	Reference T18 Wikidata:Q5240985	
+N29	Reference T12 Wikidata:Q5240985	
+N30	Reference T22 Wikidata:Q5240985	
+N31	Reference T3 Wikidata:Q5240985	
+N32	Reference T2 Wikidata:Q5240985	
+N33	Reference T33 Wikidata:Q236939	
+N34	Reference T31 Wikidata:Q3130024	

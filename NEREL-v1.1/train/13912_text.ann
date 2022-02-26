@@ -1,0 +1,219 @@
+T1	NATIONALITY 8 18	российская
+T2	ORGANIZATION 41 44	НХЛ
+T3	PROFESSION 54 64	нападающий
+T4	COUNTRY 73 79	России
+T5	PERSON 90 108	Владимир Тарасенко
+T6	DATE 116 133	во вторник 24 мая
+T7	ORGANIZATION 179 182	НХЛ
+T8	ORGANIZATION 184 198	Сент-Луис Блюз
+T9	ORGANIZATION 201 218	Saint Louis Blues
+T10	DATE 220 238	в следующем сезоне
+T11	AGE 240 258	Девятнадцатилетний
+T12	DATE 295 303	один год
+T13	ORGANIZATION 312 342	Континентальной хоккейной лиги
+T14	ORGANIZATION 344 350	Сибирь
+T15	CITY 353 364	Новосибирск
+T16	DATE 395 421	на протяжении трех сезонов
+T17	PERSON 434 443	Тарасенко
+T18	CITY 455 467	Новосибирске
+T19	PROFESSION 566 589	спортивный обозреватель
+T20	PERSON 596 612	Дмитрий Чесноков
+T21	PERSON 625 634	Тарасенко
+T22	ORDINAL 651 653	16
+T23	ORGANIZATION 670 684	Сент-Луис Блюз
+T24	DATE 686 697	в 2010 году
+T25	ORGANIZATION 764 791	Национальной хоккейной лиги
+T26	PERSON 823 832	Тарасенко
+T27	NUMBER 844 846	15
+T28	ORGANIZATION 880 886	Сибирь
+T29	DATE 888 914	на протяжении трех сезонов
+T30	PERSON 916 925	Тарасенко
+T31	NUMBER 955 957	30
+T32	NUMBER 971 973	24
+T33	NUMBER 993 996	122
+T34	DATE 1016 1039	В январе нынешнего года
+T35	COUNTRY 1068 1074	России
+T36	EVENT 1078 1114	молодежном чемпионате мира по хоккею
+T37	COUNTRY 1117 1120	США
+T38	NATIONALITY 1170 1178	канадцев
+T39	DATE 1204 1221	Спустя три месяца
+T40	COUNTRY 1238 1241	США
+T41	EVENT 1311 1325	чемпионат мира
+T42	COUNTRY 1328 1336	Словакию
+T43	PERSON 1342 1351	Тарасенко
+T44	NUMBER 1370 1374	одну
+T45	COUNTRY 1390 1397	чешской
+T46	ORGANIZATION 1441 1455	Сент-Луис Блюз
+T47	PERSON 1465 1474	Тарасенко
+T48	PROFESSION 1517 1546	генеральный менеджер «Сибири»
+T49	ORGANIZATION 1539 1545	Сибири
+T50	PERSON 1547 1564	Кирилл Фастовский
+T51	PERSON 1653 1662	Тарасенко
+T52	ORDINAL 1721 1727	первом
+T53	ORDINAL 1728 1734	втором
+T54	PERSON 1795 1806	Фастовского
+T55	ORGANIZATION 1808 1823	Советский спорт
+T56	ORGANIZATION 1900 1903	НХЛ
+T57	ORGANIZATION 2125 2152	Американскую хоккейную лигу
+T58	ORGANIZATION 2207 2210	НХЛ
+T59	PROFESSION 2312 2339	генеральный менеджер «Блюз»
+T60	ORGANIZATION 2334 2338	Блюз
+T61	PERSON 2340 2353	Даг Армстронг
+T62	ORGANIZATION 2397 2400	НХЛ
+T63	PERSON 2611 2621	Армстронга
+T64	CITY 2637 2647	Сент-Луиса
+T65	ORGANIZATION 2648 2671	St. Louis Post-Dispatch
+T66	PERSON 1040 1049	Тарасенко
+T67	PROFESSION 1299 1307	форварда
+T68	CITY 2648 2657	St. Louis
+T70	PROFESSION 1860 1867	игрокам
+T71	COUNTRY 2125 2137	Американскую
+T72	AWARD 1187 1193	золото
+T73	ORGANIZATION 1060 1074	сборную России
+T74	ORGANIZATION 665 668	НХЛ
+T75	PROFESSION 854 864	хоккеистов
+T76	PROFESSION 546 555	хоккеиста
+T77	ORGANIZATION 590 595	Yahoo
+T78	ORGANIZATION 65 79	сборной России
+T80	PROFESSION 259 266	форвард
+R1	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R2	HEADQUARTERED_IN Arg1:T14 Arg2:T15	
+R3	MEMBER_OF Arg1:T14 Arg2:T13	
+R4	MEMBER_OF Arg1:T8 Arg2:T7	
+R5	MEMBER_OF Arg1:T23 Arg2:T74	
+R6	AGE_IS Arg1:T80 Arg2:T11	
+R7	AGE_IS Arg1:T5 Arg2:T11	
+R8	WORKS_AS Arg1:T5 Arg2:T80	
+R9	WORKPLACE Arg1:T80 Arg2:T14	
+R10	ALTERNATIVE_NAME Arg1:T5 Arg2:T17	
+R11	WORKPLACE Arg1:T30 Arg2:T28	
+T79	PROFESSION 1517 1537	генеральный менеджер
+R12	WORKPLACE Arg1:T48 Arg2:T49	
+R13	WORKS_AS Arg1:T50 Arg2:T48	
+R14	WORKPLACE Arg1:T50 Arg2:T49	
+R15	ALTERNATIVE_NAME Arg1:T50 Arg2:T54	
+R16	HEADQUARTERED_IN Arg1:T57 Arg2:T71	
+T81	PROFESSION 2312 2332	генеральный менеджер
+R17	WORKPLACE Arg1:T59 Arg2:T60	
+R18	WORKS_AS Arg1:T61 Arg2:T59	
+R19	ALTERNATIVE_NAME Arg1:T64 Arg2:T68	
+R20	HEADQUARTERED_IN Arg1:T65 Arg2:T68	
+R21	ALTERNATIVE_NAME Arg1:T17 Arg2:T76	
+T82	PROFESSION 566 595	спортивный обозреватель Yahoo
+R22	WORKPLACE Arg1:T82 Arg2:T77	
+R23	WORKS_AS Arg1:T20 Arg2:T82	
+R24	WORKPLACE Arg1:T20 Arg2:T77	
+R25	ALTERNATIVE_NAME Arg1:T74 Arg2:T25	
+R26	WORKS_AS Arg1:T26 Arg2:T75	
+R27	HEADQUARTERED_IN Arg1:T73 Arg2:T35	
+R28	WORKS_AS Arg1:T43 Arg2:T67	
+T83	ORGANIZATION 1390 1405	чешской сборной
+R29	HEADQUARTERED_IN Arg1:T83 Arg2:T45	
+R30	TAKES_PLACE_IN Arg1:T36 Arg2:T37	
+R31	POINT_IN_TIME Arg1:T36 Arg2:T34	
+T84	ORGANIZATION 65 89	сборной России по хоккею
+T85	PROFESSION 54 89	нападающий сборной России по хоккею
+R32	WORKS_AS Arg1:T5 Arg2:T85	
+R33	WORKPLACE Arg1:T5 Arg2:T84	
+R34	HEADQUARTERED_IN Arg1:T84 Arg2:T4	
+R35	HEADQUARTERED_IN Arg1:T78 Arg2:T4	
+R36	ORIGINS_FROM Arg1:T5 Arg2:T1	
+R37	ALTERNATIVE_NAME Arg1:T3 Arg2:T80	
+R38	WORKPLACE Arg1:T66 Arg2:T73	
+R39	PARTICIPANT_IN Arg1:T66 Arg2:T36	
+R40	PARTICIPANT_IN Arg1:T73 Arg2:T36	
+R41	ALTERNATIVE_NAME Arg1:T61 Arg2:T63	
+R42	ORIGINS_FROM Arg1:T72 Arg2:T36	
+R43	AWARDED_WITH Arg1:T73 Arg2:T72	
+R44	AWARDED_WITH Arg1:T66 Arg2:T72	
+R46	PARTICIPANT_IN Arg1:T67 Arg2:T41	
+R45	PARTICIPANT_IN Arg1:T83 Arg2:T41	
+R47	PARTICIPANT_IN Arg1:T43 Arg2:T41	
+R48	TAKES_PLACE_IN Arg1:T41 Arg2:T42	
+T69	CITY 184 193	Сент-Луис
+R49	HEADQUARTERED_IN Arg1:T8 Arg2:T69	
+T86	CITY 201 212	Saint Louis
+R50	HEADQUARTERED_IN Arg1:T9 Arg2:T86	
+T87	EVENT 639 650	задрафтован
+R51	PARTICIPANT_IN Arg1:T21 Arg2:T87	
+R52	POINT_IN_TIME Arg1:T87 Arg2:T24	
+T88	CITY 670 679	Сент-Луис
+R53	HEADQUARTERED_IN Arg1:T23 Arg2:T88	
+T89	EVENT 1078 1104	молодежном чемпионате мира
+T90	EVENT 1145 1151	финале
+R54	SUBEVENT_OF Arg1:T90 Arg2:T36	
+R55	PARTICIPANT_IN Arg1:T38 Arg2:T90	
+T91	CITY 1441 1450	Сент-Луис
+R56	HEADQUARTERED_IN Arg1:T46 Arg2:T91	
+T92	EVENT 1050 1059	возглавил
+R57	AGENT Arg1:T66 Arg2:T92	
+R58	PARTICIPANT_IN Arg1:T73 Arg2:T92	
+N3	Reference T13 Wikidata:Q190001	Континентальная хоккейная лига
+N4	Reference T18 Wikidata:Q883	Новосибирск
+N6	Reference T35 Wikidata:Q159	Россия
+N7	Reference T37 Wikidata:Q30	США
+N8	Reference T38 Wikidata:Q1196645	канадцы
+N9	Reference T42 Wikidata:Q214	Словакия
+N11	Reference T46 Wikidata:Q207735	Сент-Луис Блюз
+N15	Reference T55 Wikidata:Q2097006	Советский спорт
+N16	Reference T57 Wikidata:Q464995	Американская хоккейная лига
+N20	Reference T62 Wikidata:Q1215892	Национальная хоккейная лига
+N22	Reference T68 Wikidata:Q38022	Сент-Луис
+N27	Reference T77 Wikidata:Q37093	Yahoo!
+N31	Reference T84 Wikidata:Q845895	сборная России по хоккею с шайбой
+N33	Reference T69 Wikidata:Q38022	Сент-Луис
+N1	Reference T1 Wikidata:Q492468	россияне
+N2	Reference T3 Wikidata:Q543457	нападающий
+N32	Reference T85 Wikidata:NULL	нет данных
+N28	Reference T78 Wikidata:Q845895	сборная России по хоккею с шайбой
+N34	Reference T86 Wikidata:Q38022	Сент-Луис
+N26	Reference T76 Wikidata:Q11774891	
+N35	Reference T19 Wikidata:Q13219447	
+N29	Reference T82 Wikidata:NULL	нет данных
+N5	Reference T20 Wikidata:MULL	
+N36	Reference T26 Wikidata:Q715587	
+N25	Reference T72 Wikidata:Q406039	золотая медаль
+N10	Reference T45 Wikidata:Q213	Чехия
+N30	Reference T83 Wikidata:Q754410	
+N13	Reference T49 Wikidata:Q190001	Континентальная хоккейная лига
+N12	Reference T48 Wikidata:NULL	нет данных
+N14	Reference T50 Wikidata:NULL	нет данных
+N23	Reference T70 Wikidata:Q11774891	
+N24	Reference T71 Wikidata:Q30	США
+N18	Reference T60 Wikidata:Q207735	Сент-Луис Блюз
+N37	Reference T81 Wikidata:Q1210069	
+N17	Reference T59 Wikidata:NULL	нет данных
+N19	Reference T61 Wikidata:Q5300254	
+N21	Reference T65 Wikidata:Q3495288	
+N38	Reference T15 Wikidata:Q883	Новосибирск
+N39	Reference T4 Wikidata:Q159	Россия
+N40	Reference T40 Wikidata:Q30	США
+N41	Reference T8 Wikidata:Q207735	Сент-Луис Блюз
+N42	Reference T23 Wikidata:Q207735	Сент-Луис Блюз
+N43	Reference T9 Wikidata:Q207735	Сент-Луис Блюз
+N44	Reference T56 Wikidata:Q1215892	Национальная хоккейная лига
+N45	Reference T25 Wikidata:Q1215892	Национальная хоккейная лига
+N46	Reference T7 Wikidata:Q1215892	Национальная хоккейная лига
+N47	Reference T74 Wikidata:Q1215892	Национальная хоккейная лига
+N48	Reference T58 Wikidata:Q1215892	Национальная хоккейная лига
+N49	Reference T2 Wikidata:Q1215892	Национальная хоккейная лига
+N50	Reference T64 Wikidata:Q38022	Сент-Луис
+N51	Reference T91 Wikidata:Q38022	Сент-Луис
+N52	Reference T88 Wikidata:Q38022	Сент-Луис
+N53	Reference T67 Wikidata:Q543457	нападающий
+N54	Reference T80 Wikidata:Q543457	нападающий
+N55	Reference T73 Wikidata:Q845895	сборная России по хоккею с шайбой
+N56	Reference T75 Wikidata:Q11774891	
+N57	Reference T5 Wikidata:Q715587	
+N58	Reference T51 Wikidata:Q715587	
+N59	Reference T17 Wikidata:Q715587	
+N60	Reference T66 Wikidata:Q715587	
+N61	Reference T43 Wikidata:Q715587	
+N62	Reference T47 Wikidata:Q715587	
+N63	Reference T21 Wikidata:Q715587	
+N64	Reference T30 Wikidata:Q715587	
+N65	Reference T28 Wikidata:Q190001	Континентальная хоккейная лига
+N66	Reference T14 Wikidata:Q190001	Континентальная хоккейная лига
+N67	Reference T54 Wikidata:NULL	нет данных
+N68	Reference T79 Wikidata:Q1210069	
+N69	Reference T63 Wikidata:Q5300254	

@@ -1,0 +1,110 @@
+T1	PERSON 0 15	Анджелина Джоли
+T2	PERSON 43 58	Анджелина Джоли
+T3	AGE 123 132	37-летняя
+T4	PROFESSION 155 163	режиссёр
+T5	PROFESSION 189 206	посол доброй воли
+T6	PERSON 213 228	Анджелина Джоли
+T7	COUNTRY 242 255	американского
+T8	ORGANIZATION 264 282	The New York Times
+T9	PERCENT 485 489	87 %
+T10	PERCENT 554 558	50 %
+T11	DATE 614 633	27 апреля 2013 года
+T13	AGE 683 689	56 лет
+T14	NUMBER 720 735	почти 10-летней
+T15	PERSON 881 890	Анджелина
+T16	DATE 1093 1103	Каждый год
+T17	NUMBER 1136 1143	458 000
+T18	PERSON 1210 1214	Брэд
+T19	PERCENT 1634 1637	87%
+T20	PERSON 1764 1769	Джоли
+T22	PERSON 2144 2153	Брэд Питт
+T23	PERSON 59 74	Анджелина Джоли
+T24	DATE 75 91	14 мая 2013 года
+T25	NATIONALITY 133 145	американская
+T26	PROFESSION 146 153	актриса
+T27	PROFESSION 166 175	сценарист
+T28	PROFESSION 177 187	фотомодель
+T29	PROFESSION 189 210	посол доброй воли ООН
+T30	ORGANIZATION 207 210	ООН
+T31	PROFESSION 189 194	посол
+T32	PROFESSION 408 431	Медицинские специалисты
+T33	DISEASE 511 544	онкологического заболевания груди
+T34	DISEASE 561 574	рака яичников
+T35	PROFESSION 635 642	Актриса
+T12	DISEASE 693 697	рака
+T36	EVENT 698 712	умерла её мать
+T37	DISEASE 1107 1127	рака молочной железы
+T38	DISEASE 1556 1576	рака молочной железы
+T39	DISEASE 1579 1592	рака яичников
+T40	DISEASE 1579 1583	рака
+T41	DISEASE 1556 1560	рака
+T42	DISEASE 1107 1111	рака
+T43	DISEASE 561 565	рака
+T44	PROFESSION 1598 1603	врачи
+T46	DISEASE 1908 1912	рака
+T21	PROFESSION 2223 2228	врачи
+T48	PERSON 2256 2265	Анджелине
+T49	EVENT 340 351	мастэктомии
+T50	DATE 299 306	недавно
+R1	ORIGINS_FROM Arg1:T6 Arg2:T25	
+R2	AGE_IS Arg1:T6 Arg2:T3	
+R3	WORKS_AS Arg1:T6 Arg2:T26	
+R4	WORKS_AS Arg1:T6 Arg2:T4	
+R5	WORKS_AS Arg1:T6 Arg2:T27	
+R6	WORKS_AS Arg1:T6 Arg2:T28	
+R7	WORKS_AS Arg1:T6 Arg2:T29	
+R8	WORKPLACE Arg1:T29 Arg2:T30	
+R9	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R10	PARTICIPANT_IN Arg1:T6 Arg2:T49	
+R11	POINT_IN_TIME Arg1:T49 Arg2:T50	
+R12	HAS_CAUSE Arg1:T49 Arg2:T33	
+R13	HAS_CAUSE Arg1:T49 Arg2:T34	
+T51	EVENT 577 601	Профилактическа операция
+R14	ALTERNATIVE_NAME Arg1:T49 Arg2:T51	
+R15	POINT_IN_TIME Arg1:T51 Arg2:T11	
+R16	HAS_CAUSE Arg1:T36 Arg2:T12	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T15	
+R18	ALTERNATIVE_NAME Arg1:T15 Arg2:T20	
+R19	ALTERNATIVE_NAME Arg1:T32 Arg2:T44	
+T45	DISEASE 1659 1692	онкологического заболевания груди
+T52	DISEASE 1659 1686	онкологического заболевания
+R20	ALTERNATIVE_NAME Arg1:T41 Arg2:T52	
+R21	ALTERNATIVE_NAME Arg1:T38 Arg2:T45	
+T47	DATE 2050 2068	около трёх месяцев
+R22	ALTERNATIVE_NAME Arg1:T20 Arg2:T48	
+T53	EVENT 2214 2222	операции
+R23	AGENT Arg1:T21 Arg2:T53	
+R24	PARTICIPANT_IN Arg1:T48 Arg2:T53	
+R25	ALTERNATIVE_NAME Arg1:T18 Arg2:T22	
+R26	SPOUSE Arg1:T22 Arg2:T48	
+T54	EVENT 16 33	удалила обе груди
+R27	AGENT Arg1:T1 Arg2:T54	
+R28	ALTERNATIVE_NAME Arg1:T54 Arg2:T49	
+T55	EVENT 2229 2255	реконструировали обе груди
+R29	PARTICIPANT_IN Arg1:T48 Arg2:T55	
+R30	AGENT Arg1:T21 Arg2:T55	
+R31	HAS_CAUSE Arg1:T55 Arg2:T53	
+N1	Reference T4 Wikidata:Q3455803	режиссёр
+N2	Reference T5 Wikidata:Q5583669	посол доброй воли
+N4	Reference T8 Wikidata:Q9684	The New York Times
+N5	Reference T18 Wikidata:Q35332	Брэд Питт
+N7	Reference T26 Wikidata:Q33999	актёр
+N8	Reference T27 Wikidata:Q28389	сценарист
+N9	Reference T28 Wikidata:Q4610556	модель
+N11	Reference T30 Wikidata:Q1065	Организация Объединённых Наций
+N12	Reference T31 Wikidata:Q121998	посол
+N13	Reference T44 Wikidata:Q39631	врач
+N6	Reference T25 Wikidata:Q846570	
+N14	Reference T48 Wikidata:Q13909	Анджелина Джоли
+N3	Reference T7 Wikidata:Q30	США
+N10	Reference T29 Wikidata:Q19969187	
+N15	Reference T22 Wikidata:Q35332	Брэд Питт
+N16	Reference T35 Wikidata:Q33999	актёр
+N17	Reference T32 Wikidata:Q39631	врач
+N18	Reference T21 Wikidata:Q39631	врач
+N19	Reference T20 Wikidata:Q13909	Анджелина Джоли
+N20	Reference T15 Wikidata:Q13909	Анджелина Джоли
+N21	Reference T23 Wikidata:Q13909	Анджелина Джоли
+N22	Reference T6 Wikidata:Q13909	Анджелина Джоли
+N23	Reference T2 Wikidata:Q13909	Анджелина Джоли
+N24	Reference T1 Wikidata:Q13909	Анджелина Джоли

@@ -1,0 +1,102 @@
+T1	PERSON 0 13	Дональд Трамп
+T2	PERSON 24 34	Джо Арпайо
+T3	PERSON 35 48	Джозеф Арпайо
+T4	EVENT 52 59	митинге
+T6	PERSON 95 110	Дональда Трампа
+T7	PROFESSION 111 120	Президент
+T8	PERSON 121 134	Дональд Трамп
+T9	PERSON 145 155	Джо Арпайо
+T10	PERSON 243 249	Арпайо
+T12	DISTRICT 282 290	Марикопа
+T13	STATE_OR_PROVINCE 297 304	Аризона
+T14	PROFESSION 504 514	президента
+T16	AGE 555 564	85-летний
+T17	PERSON 565 571	Арпайо
+T18	PERSON 605 620	Дональда Трампа
+T19	PERSON 632 638	Арпайо
+T20	PERSON 713 718	Трамп
+T21	PERSON 729 735	Арпайо
+T22	DATE 747 758	через месяц
+T23	COUNTRY 993 1000	Мексики
+T24	COUNTRY 1028 1031	США
+T25	TIME 1083 1090	9 часов
+T26	PERSON 1168 1174	Арпайо
+T27	PERSON 1176 1182	Арпайо
+T28	DATE 1249 1261	на 6 месяцев
+T29	ORDINAL 1268 1274	первое
+T30	PROFESSION 1300 1311	президентом
+T31	EVENT 14 23	помиловал
+T5	EVENT 135 144	помиловал
+T32	COUNTRY 232 239	Америки
+T33	PROFESSION 224 231	шерифом
+T34	PERSON 515 520	Обамы
+T15	EVENT 719 728	помиловал
+T35	PROFESSION 838 844	шерифа
+T36	PENALTY 1226 1261	лишению свободы сроком на 6 месяцев
+T37	PERSON 1312 1329	Дональдом Трампом
+T38	EVENT 1275 1286	помилование
+T11	PROFESSION 267 290	шерифом округа Марикопа
+T39	PROFESSION 267 274	шерифом
+R1	AGENT Arg1:T1 Arg2:T31	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T31	
+R3	PARTICIPANT_IN Arg1:T3 Arg2:T4	
+T40	EVENT 72 94	избирательной кампании
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T40	
+R5	SUBEVENT_OF Arg1:T4 Arg2:T40	
+R6	WORKS_AS Arg1:T8 Arg2:T7	
+R7	AGENT Arg1:T8 Arg2:T5	
+R8	PARTICIPANT_IN Arg1:T9 Arg2:T5	
+R9	WORKS_AS Arg1:T9 Arg2:T33	
+R10	WORKPLACE Arg1:T33 Arg2:T32	
+R11	WORKPLACE Arg1:T7 Arg2:T32	
+R12	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R13	WORKPLACE Arg1:T11 Arg2:T12	
+R14	WORKS_AS Arg1:T10 Arg2:T11	
+R15	WORKPLACE Arg1:T10 Arg2:T12	
+R16	LOCATED_IN Arg1:T12 Arg2:T13	
+R17	WORKS_AS Arg1:T34 Arg2:T14	
+R18	AGE_IS Arg1:T17 Arg2:T16	
+R19	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R20	AGENT Arg1:T20 Arg2:T15	
+R21	PARTICIPANT_IN Arg1:T21 Arg2:T15	
+R22	WORKS_AS Arg1:T21 Arg2:T35	
+T41	NATIONALITY 982 1000	гражданина Мексики
+T42	CRIME 803 822	расовом профайлинге
+R23	CONVICTED_OF Arg1:T21 Arg2:T42	
+T43	PENALTY 1071 1082	за решёткой
+R24	PENALIZED_AS Arg1:T41 Arg2:T43	
+T44	PENALTY 1226 1241	лишению свободы
+R25	PENALIZED_AS Arg1:T27 Arg2:T36	
+R26	WORKS_AS Arg1:T37 Arg2:T30	
+R27	AGENT Arg1:T37 Arg2:T38	
+R28	ALTERNATIVE_NAME Arg1:T15 Arg2:T38	
+R29	ORIGINS_FROM Arg1:T41 Arg2:T23	
+N1	Reference T1 Wikidata:Q22686	Дональд Трамп
+N2	Reference T3 Wikidata:Q1372167	Арпайо, Джозеф
+N3	Reference T12 Wikidata:Q58691	Марикопа
+N4	Reference T13 Wikidata:Q816	Аризона
+N5	Reference T23 Wikidata:Q96	Мексика
+N6	Reference T24 Wikidata:Q30	США
+N7	Reference T26 Wikidata:Q1372167	Арпайо, Джозеф
+N8	Reference T30 Wikidata:Q30461	президент
+N9	Reference T34 Wikidata:Q76	Барак Обама
+N10	Reference T35 Wikidata:Q578478	шериф
+N13	Reference T32 Wikidata:Q30	США
+N11	Reference T11 Wikidata:NULL	нет данных
+N12	Reference T41 Wikidata:Q1209676	Мексиканцы
+N14	Reference T8 Wikidata:Q22686	Дональд Трамп
+N15	Reference T20 Wikidata:Q22686	Дональд Трамп
+N16	Reference T18 Wikidata:Q22686	Дональд Трамп
+N17	Reference T6 Wikidata:Q22686	Дональд Трамп
+N18	Reference T37 Wikidata:Q22686	Дональд Трамп
+N19	Reference T10 Wikidata:Q1372167	Арпайо, Джозеф
+N20	Reference T19 Wikidata:Q1372167	Арпайо, Джозеф
+N21	Reference T17 Wikidata:Q1372167	Арпайо, Джозеф
+N22	Reference T9 Wikidata:Q1372167	Арпайо, Джозеф
+N23	Reference T2 Wikidata:Q1372167	Арпайо, Джозеф
+N24	Reference T21 Wikidata:Q1372167	Арпайо, Джозеф
+N25	Reference T27 Wikidata:Q1372167	Арпайо, Джозеф
+N26	Reference T7 Wikidata:Q30461	президент
+N27	Reference T14 Wikidata:Q30461	президент
+N28	Reference T39 Wikidata:Q578478	шериф
+N29	Reference T33 Wikidata:Q578478	шериф

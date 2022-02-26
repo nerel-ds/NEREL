@@ -1,0 +1,111 @@
+T1	PERSON 0 14	Муамар Каддафи
+T3	ORGANIZATION 108 146	Переходного Национального Совета Ливии
+T4	PERSON 147 163	Абделем Маджидом
+T5	PERSON 165 179	Муамар Каддафи
+T6	CITY 210 214	Сирт
+T8	CITY 256 264	Мисурата
+T9	CITY 298 303	Сирта
+T10	ORGANIZATION 386 390	НАТО
+T11	PROFESSION 393 402	полковник
+T12	ORGANIZATION 447 450	ПНС
+T13	PERSON 480 495	Муамара Каддафи
+T14	COUNTRY 537 542	Ливии
+T15	COUNTRY 576 585	Ливийский
+T16	ORGANIZATION 695 699	НАТО
+T17	PERSON 739 754	Муамара Каддафи
+T18	ORGANIZATION 807 818	Франс Пресс
+T19	ORGANIZATION 840 848	Al Libya
+T20	DATE 920 929	в четверг
+T21	ORGANIZATION 944 947	ПНС
+T22	CITY 994 1000	Сиртом
+T23	AGE 1109 1118	18-летним
+T24	ORGANIZATION 1126 1158	Переходного Национального Совета
+T25	EVENT 15 24	скончался
+T2	COUNTRY 141 146	Ливии
+T26	EVENT 180 189	скончался
+T7	EVENT 291 297	штурма
+T27	EVENT 291 303	штурма Сирта
+T28	PERSON 304 311	Каддафи
+T29	EVENT 430 439	арестован
+T31	PERSON 619 626	Каддафи
+T32	PROFESSION 865 874	полковник
+T33	PERSON 1017 1024	Каддафи
+T34	PERSON 1048 1055	Каддафи
+T35	EVENT 1041 1047	Гибель
+T36	EVENT 1104 1108	убит
+T38	PROFESSION 1119 1158	бойцом Переходного Национального Совета
+T39	DISEASE 28 35	ранений
+R1	CAUSE_OF_DEATH Arg1:T1 Arg2:T39	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T25	
+R3	HAS_CAUSE Arg1:T25 Arg2:T39	
+R4	TAKES_PLACE_IN Arg1:T27 Arg2:T9	
+T40	EVENT 377 385	авиаудар
+R5	ORGANIZES Arg1:T10 Arg2:T40	
+R6	WORKS_AS Arg1:T28 Arg2:T11	
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T28	
+T41	ORGANIZATION 108 140	Переходного Национального Совета
+R8	HEADQUARTERED_IN Arg1:T3 Arg2:T2	
+T42	PROFESSION 81 146	официальным представителем Переходного Национального Совета Ливии
+T43	PROFESSION 81 140	официальным представителем Переходного Национального Совета
+R9	WORKS_AS Arg1:T4 Arg2:T42	
+R10	LOCATED_IN Arg1:T6 Arg2:T2	
+R11	LOCATED_IN Arg1:T8 Arg2:T2	
+R12	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+R13	AGENT Arg1:T12 Arg2:T29	
+R14	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R15	ALTERNATIVE_NAME Arg1:T31 Arg2:T17	
+T44	COUNTRY 843 848	Libya
+R16	HEADQUARTERED_IN Arg1:T19 Arg2:T44	
+R17	OWNER_OF Arg1:T31 Arg2:T19	
+R18	ABBREVIATION Arg1:T3 Arg2:T12	
+T45	PROFESSION 930 947	представители ПНС
+R19	PLACE_OF_BIRTH Arg1:T33 Arg2:T22	
+R20	PARTICIPANT_IN Arg1:T34 Arg2:T35	
+R21	HAS_CAUSE Arg1:T35 Arg2:T36	
+R22	WORKPLACE Arg1:T38 Arg2:T24	
+R23	AGE_IS Arg1:T38 Arg2:T23	
+R24	AGENT Arg1:T38 Arg2:T36	
+T37	DISEASE 193 200	ранений
+R25	PARTICIPANT_IN Arg1:T5 Arg2:T26	
+R26	HAS_CAUSE Arg1:T26 Arg2:T37	
+R27	CAUSE_OF_DEATH Arg1:T5 Arg2:T37	
+R28	PLACE_OF_DEATH Arg1:T5 Arg2:T6	
+R29	SUBEVENT_OF Arg1:T40 Arg2:T27	
+T46	DISEASE 411 418	ранения
+R30	MEDICAL_CONDITION Arg1:T28 Arg2:T46	
+R31	WORKS_AS Arg1:T17 Arg2:T32	
+R32	WORKPLACE Arg1:T45 Arg2:T21	
+R33	ALTERNATIVE_NAME Arg1:T26 Arg2:T35	
+R34	MEDICAL_CONDITION Arg1:T11 Arg2:T46	
+N1	Reference T1 Wikidata:Q19878	Муаммар Каддафи
+N2	Reference T3 Wikidata:Q32835	Переходный национальный совет Ливийской республики
+N3	Reference T4 Wikidata:Q307283	Каабар, Абдель Маджид
+N4	Reference T5 Wikidata:Q19878	Муаммар Каддафи
+N5	Reference T6 Wikidata:Q162413	Сирт
+N6	Reference T8 Wikidata:Q131323	Мисурата
+N7	Reference T11 Wikidata:Q104680	полковник
+N9	Reference T16 Wikidata:Q7184	Организация Североатлантического договора
+N10	Reference T18 Wikidata:Q40464	Франс Пресс
+N12	Reference T22 Wikidata:Q162413	Сирт
+N13	Reference T24 Wikidata:Q32835	Переходный национальный совет Ливийской республики
+N17	Reference T44 Wikidata:Q137439	(1268) Ливия
+N16	Reference T43 Wikidata:NULL	нет данных
+N15	Reference T42 Wikidata:NULL	нет данных
+N8	Reference T15 Wikidata:Q1016	Ливия
+N11	Reference T19 Wikidata:NULL	нет данных
+N18	Reference T45 Wikidata:NULL	нет данных
+N14	Reference T38 Wikidata:NULL	нет данных
+N19	Reference T13 Wikidata:Q19878	Муаммар Каддафи
+N20	Reference T17 Wikidata:Q19878	Муаммар Каддафи
+N21	Reference T31 Wikidata:Q19878	Муаммар Каддафи
+N22	Reference T34 Wikidata:Q19878	Муаммар Каддафи
+N23	Reference T33 Wikidata:Q19878	Муаммар Каддафи
+N24	Reference T21 Wikidata:Q32835	Переходный национальный совет Ливийской республики
+N25	Reference T12 Wikidata:Q32835	Переходный национальный совет Ливийской республики
+N26	Reference T28 Wikidata:Q19878	Муаммар Каддафи
+N27	Reference T32 Wikidata:Q104680	полковник
+N28	Reference T10 Wikidata:Q7184	Организация Североатлантического договора
+N29	Reference T9 Wikidata:Q162413	Сирт
+N30	Reference T41 Wikidata:Q32835	Переходный национальный совет Ливийской республики
+N31	Reference T2 Wikidata:Q1016	Ливия
+N32	Reference T14 Wikidata:Q1016	Ливия

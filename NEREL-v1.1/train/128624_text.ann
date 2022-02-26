@@ -1,0 +1,214 @@
+T1	CITY 29 34	Киеве
+T2	ORGANIZATION 53 57	Dior
+T3	DISEASE 232 245	оторвало ногу
+T4	DATE 113 140	вчера, 8 сентября 2017 года
+T5	FACILITY 151 171	Бессарабской площади
+T6	CITY 174 179	Киеве
+T7	ORGANIZATION 198 212	Christian Dior
+T8	PERSON 213 227	Наталья Кошель
+T9	PERSON 316 331	Оксана Лазебник
+T10	ORGANIZATION 443 447	Dior
+T11	PROFESSION 529 583	Заведующий отделением политравм киевской больницы № 17
+T12	NUMBER 631 634	три
+T13	PROFESSION 766 770	врач
+T14	AGE 809 820	шестилетним
+T15	PERSON 840 845	Антон
+T16	COUNTRY 995 1001	Грузии
+T17	PERSON 1056 1069	Тимур Махаури
+T18	DATE 1091 1100	в пятницу
+T19	FACILITY 1119 1132	ул. Бассейной
+T20	FACILITY 1135 1156	Большой Васильковской
+T21	PRODUCT 1183 1195	Тойота Камри
+T22	PROFESSION 1219 1265	Директор департамента коммуникации МВД Украины
+T23	PERSON 1266 1280	Артём Шевченко
+T24	DATE 1294 1301	Сегодня
+T25	NUMBER 1351 1354	три
+T26	PERSON 1546 1554	Шевченко
+T27	DATE 1556 1567	в 2017 году
+T28	STATE_OR_PROVINCE 1675 1685	чеченскими
+T29	LAW 1842 1918	ст. 115 ч. 2 «Умышленное убийство, совершенное общественно опасным способом»
+T30	ORGANIZATION 1998 2005	Полиция
+T31	ORGANIZATION 2008 2018	Нацгвардия
+T33	FACILITY 2079 2089	Бессарабке
+T34	PROFESSION 46 52	модель
+T35	PROFESSION 191 197	модель
+T36	DISEASE 266 277	травмы глаз
+T37	PROFESSION 406 412	модель
+T38	FACILITY 495 508	17-й больницы
+T39	COUNTRY 509 519	украинской
+T40	CITY 561 569	киевской
+T41	FACILITY 570 583	больницы № 17
+T42	PERSON 584 600	Дмитрий Мясников
+T43	PROFESSION 643 651	хирургов
+T44	DISEASE 672 690	термическая травма
+T45	DISEASE 692 697	ожоги
+T46	DISEASE 699 716	поражения органов
+T47	DISEASE 718 731	травма костей
+T48	DISEASE 734 754	травма мягких тканей
+T49	PROFESSION 773 779	Модель
+T50	TIME 1091 1112	в пятницу около 18:00
+T51	PROFESSION 1002 1047	боец чеченского батальона имени шейха Мансура
+T52	ORGANIZATION 1018 1047	батальона имени шейха Мансура
+T53	STATE_OR_PROVINCE 1007 1017	чеченского
+T54	NATIONALITY 1048 1055	чеченец
+T55	PROFESSION 1034 1039	шейха
+T56	PERSON 1040 1047	Мансура
+T57	ORGANIZATION 1228 1265	департамента коммуникации МВД Украины
+T58	ORGANIZATION 1254 1265	МВД Украины
+T59	COUNTRY 1258 1265	Украины
+T60	PERSON 1568 1575	Махаури
+T61	CRIME 1712 1738	незаконное хранение оружия
+T62	PENALTY 1789 1802	условный срок
+T63	CITY 2049 2054	Киева
+T32	EVENT 2069 2075	взрыва
+T64	EVENT 1312 1317	взрыв
+T65	EVENT 928 934	взрыва
+T66	EVENT 1072 1080	Инцидент
+T67	EVENT 9 15	взрыва
+T68	EVENT 103 112	взорвался
+T69	ORGANIZATION 66 80	Christian Dior
+T70	PROFESSION 46 57	модель Dior
+R1	WORKPLACE Arg1:T70 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+T71	PROFESSION 191 212	модель Christian Dior
+R3	WORKPLACE Arg1:T71 Arg2:T7	
+R4	WORKS_AS Arg1:T8 Arg2:T71	
+R5	WORKPLACE Arg1:T8 Arg2:T7	
+T72	EVENT 9 26	взрыва автомобиля
+R6	ALTERNATIVE_NAME Arg1:T72 Arg2:T68	
+R7	ALTERNATIVE_NAME Arg1:T68 Arg2:T4	
+R8	TAKES_PLACE_IN Arg1:T68 Arg2:T5	
+R9	LOCATED_IN Arg1:T5 Arg2:T6	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T68	
+R11	MEDICAL_CONDITION Arg1:T8 Arg2:T3	
+R12	MEDICAL_CONDITION Arg1:T8 Arg2:T36	
+R13	KNOWS Arg1:T8 Arg2:T9	
+R14	WORKPLACE Arg1:T37 Arg2:T10	
+T73	CITY 509 527	украинской столицы
+R15	LOCATED_IN Arg1:T73 Arg2:T39	
+R16	LOCATED_IN Arg1:T38 Arg2:T73	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T73	
+R18	LOCATED_IN Arg1:T41 Arg2:T40	
+R19	AGE_IS Arg1:T15 Arg2:T14	
+R20	TAKES_PLACE_IN Arg1:T72 Arg2:T1	
+R21	PARTICIPANT_IN Arg1:T70 Arg2:T72	
+R22	WORKPLACE Arg1:T11 Arg2:T41	
+R23	WORKS_AS Arg1:T42 Arg2:T11	
+T74	PROFESSION 529 550	Заведующий отделением
+R24	WORKPLACE Arg1:T42 Arg2:T41	
+R25	WORKPLACE Arg1:T43 Arg2:T41	
+R26	KNOWS Arg1:T49 Arg2:T15	
+T75	NATIONALITY 985 1001	гражданин Грузии
+R27	ORIGINS_FROM Arg1:T17 Arg2:T54	
+R28	WORKS_AS Arg1:T17 Arg2:T51	
+R29	WORKPLACE Arg1:T51 Arg2:T52	
+R30	WORKPLACE Arg1:T17 Arg2:T52	
+R31	HEADQUARTERED_IN Arg1:T52 Arg2:T53	
+R32	ORIGINS_FROM Arg1:T17 Arg2:T75	
+T76	EVENT 957 962	погиб
+R33	HAS_CAUSE Arg1:T76 Arg2:T65	
+R34	PARTICIPANT_IN Arg1:T17 Arg2:T76	
+R35	ALTERNATIVE_NAME Arg1:T65 Arg2:T66	
+R36	POINT_IN_TIME Arg1:T65 Arg2:T50	
+T77	EVENT 1312 1328	взрыв автомобиля
+R37	POINT_IN_TIME Arg1:T77 Arg2:T24	
+R38	ALTERNATIVE_NAME Arg1:T17 Arg2:T60	
+R39	ALTERNATIVE_NAME Arg1:T23 Arg2:T26	
+R40	CONVICTED_OF Arg1:T60 Arg2:T61	
+R41	PENALIZED_AS Arg1:T60 Arg2:T62	
+R42	LOCATED_IN Arg1:T33 Arg2:T63	
+R43	HAS_CAUSE Arg1:T62 Arg2:T61	
+T78	EVENT 1805 1838	Возбуждено уголовное производство
+R44	HAS_CAUSE Arg1:T78 Arg2:T77	
+T79	CRIME 1856 1917	Умышленное убийство, совершенное общественно опасным способом
+R45	ORIGINS_FROM Arg1:T75 Arg2:T16	
+T80	EVENT 359 365	взрыва
+R46	ALTERNATIVE_NAME Arg1:T68 Arg2:T80	
+R47	PARTICIPANT_IN Arg1:T37 Arg2:T80	
+T81	EVENT 621 630	оперируют
+R48	AGENT Arg1:T43 Arg2:T81	
+R49	PARTICIPANT_IN Arg1:T8 Arg2:T81	
+R50	TAKES_PLACE_IN Arg1:T81 Arg2:T41	
+T82	EVENT 855 881	доставили в ожоговый центр
+R51	PARTICIPANT_IN Arg1:T15 Arg2:T82	
+R52	INANIMATE_INVOLVED Arg1:T21 Arg2:T66	
+R53	WORKS_AS Arg1:T23 Arg2:T22	
+R54	WORKPLACE Arg1:T23 Arg2:T57	
+T83	ORGANIZATION 1254 1257	МВД
+R55	PART_OF Arg1:T57 Arg2:T58	
+R56	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+T84	EVENT 1758 1778	сделку со следствием
+R57	AGENT Arg1:T60 Arg2:T84	
+R58	HAS_CAUSE Arg1:T62 Arg2:T84	
+T85	EVENT 2027 2041	патрулирование
+R59	AGENT Arg1:T31 Arg2:T85	
+R60	AGENT Arg1:T30 Arg2:T85	
+R61	HAS_CAUSE Arg1:T85 Arg2:T32	
+R62	TAKES_PLACE_IN Arg1:T32 Arg2:T33	
+R63	TAKES_PLACE_IN Arg1:T85 Arg2:T63	
+T86	EVENT 1966 1995	сработало взрывное устройство
+R64	ALTERNATIVE_NAME Arg1:T77 Arg2:T86	
+T87	EVENT 1700 1708	задержан
+R65	PARTICIPANT_IN Arg1:T60 Arg2:T87	
+R66	HAS_CAUSE Arg1:T87 Arg2:T61	
+R67	POINT_IN_TIME Arg1:T87 Arg2:T27	
+T88	ORGANIZATION 1183 1189	Тойота
+R68	PRODUCES Arg1:T88 Arg2:T21	
+R69	MEDICAL_CONDITION Arg1:T8 Arg2:T44	
+R70	MEDICAL_CONDITION Arg1:T8 Arg2:T45	
+R71	MEDICAL_CONDITION Arg1:T8 Arg2:T46	
+R72	MEDICAL_CONDITION Arg1:T8 Arg2:T47	
+R73	MEDICAL_CONDITION Arg1:T8 Arg2:T48	
+N1	Reference T5 Wikidata:Q2667365	Бессарабская площадь
+N4	Reference T13 Wikidata:Q39631	врач
+N5	Reference T16 Wikidata:Q230	Грузия
+N8	Reference T20 Wikidata:Q3406831	Большая Васильковская улица
+N9	Reference T21 Wikidata:Q500035	Toyota Camry
+N11	Reference T26 Wikidata:Q539698	Шевченко
+N12	Reference T30 Wikidata:Q35535	полиция
+N13	Reference T33 Wikidata:Q809787	Бессарабка
+N19	Reference T43 Wikidata:Q774306	хирург
+N20	Reference T49 Wikidata:Q4610556	модель
+N24	Reference T54 Wikidata:Q31230	чеченцы
+N25	Reference T55 Wikidata:Q185166	шейх
+N28	Reference T58 Wikidata:Q2445140	Министерство внутренних дел Украины
+N29	Reference T59 Wikidata:Q212	Украина
+N30	Reference T63 Wikidata:Q1899	Киев
+N33	Reference T83 Wikidata:Q6589202	министерство внутренних дел
+N34	Reference T88 Wikidata:Q61979	Тойота
+N35	Reference T70 Wikidata:NULL	нет данных
+N31	Reference T71 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	
+N3	Reference T9 Wikidata:NULL	нет данных
+N36	Reference T10 Wikidata:Q542767	Christian Dior
+N14	Reference T38 Wikidata:NULL	нет данных
+N15	Reference T39 Wikidata:Q212	Украина
+N37	Reference T74 Wikidata:Q98311077	
+N38	Reference T11 Wikidata:NULL	нет данных
+N16	Reference T40 Wikidata:Q1899	Киев
+N17	Reference T41 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:NULL	нет данных
+N39	Reference T15 Wikidata:NULL	нет данных
+N32	Reference T75 Wikidata:Q100789867	
+N21	Reference T51 Wikidata:NULL	нет данных
+N23	Reference T53 Wikidata:Q5187	Чечня
+N22	Reference T52 Wikidata:Q19907858	
+N26	Reference T56 Wikidata:Q19907858	
+N6	Reference T17 Wikidata:NULL	нет данных
+N7	Reference T19 Wikidata:Q4079156	Бассейная улица
+N10	Reference T22 Wikidata:NULL	нет данных
+N27	Reference T57 Wikidata:NULL	нет данных
+N40	Reference T29 Wikidata:NULL	нет данных
+N41	Reference T31 Wikidata:Q23848732	Войска национальной гвардии России
+N42	Reference T23 Wikidata:Q539698	Шевченко
+N43	Reference T34 Wikidata:Q4610556	модель
+N44	Reference T37 Wikidata:Q4610556	модель
+N45	Reference T35 Wikidata:Q4610556	модель
+N46	Reference T6 Wikidata:Q1899	Киев
+N47	Reference T73 Wikidata:Q1899	Киев
+N48	Reference T1 Wikidata:Q1899	Киев
+N49	Reference T7 Wikidata:Q542767	Christian Dior
+N50	Reference T69 Wikidata:Q542767	Christian Dior
+N51	Reference T2 Wikidata:Q542767	Christian Dior
+N52	Reference T28 Wikidata:Q5187	Чечня
+N53	Reference T60 Wikidata:NULL	нет данных

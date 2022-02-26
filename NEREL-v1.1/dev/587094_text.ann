@@ -1,0 +1,101 @@
+T1	AGE 0 9	71-летний
+T2	COUNTRY 106 117	британского
+T3	AGE 174 180	71 год
+T4	ORGANIZATION 183 195	The Guardian
+T5	COUNTRY 256 266	британской
+T6	COUNTRY 399 408	Шотландии
+T7	DATE 565 591	в течение последних недель
+T8	PROFESSION 761 770	герцогиня
+T9	PROFESSION 898 910	князь Монако
+T11	AGE 963 972	59-летний
+T12	PROFESSION 973 982	эрцгерцог
+T13	COUNTRY 1022 1036	Великобритании
+T14	NUMBER 1056 1071	около 8,1 тысяч
+T15	NUMBER 1091 1094	423
+T18	NUMBER 1116 1119	140
+T19	PROFESSION 10 15	принц
+T20	PERSON 16 22	Чарльз
+T21	DISEASE 33 46	коронавирусом
+T22	PERSON 53 59	Чарльз
+T23	PROFESSION 47 52	Принц
+T24	DATE 60 74	в прошлом году
+T25	DISEASE 94 105	коронавирус
+T26	PROFESSION 118 124	принца
+T27	PROFESSION 106 124	британского принца
+T28	PERSON 125 132	Чарльза
+T29	ORGANIZATION 205 273	пресс-службу вестминстерской резиденции наследника британской короны
+T30	FACILITY 218 273	вестминстерской резиденции наследника британской короны
+T31	PROFESSION 342 347	принц
+T32	PROFESSION 350 359	герцогиня
+T33	DISEASE 453 460	вирусом
+T35	PROFESSION 658 664	принца
+T36	PERSON 761 783	герцогиня Корнуольская
+T37	FAMILY 771 783	Корнуольская
+T38	DISEASE 874 885	коронавирус
+T39	PROFESSION 898 903	князь
+T40	COUNTRY 904 910	Монако
+T41	PERSON 911 920	Альбер II
+T10	PROFESSION 951 961	императора
+T42	PROFESSION 938 961	австрийского императора
+T43	COUNTRY 938 950	австрийского
+T44	PERSON 983 1009	Карл Габсбург-Лотарингский
+T16	DISEASE 1105 1113	COVID-19
+R1	WORKS_AS Arg1:T20 Arg2:T19	
+R2	AGE_IS Arg1:T20 Arg2:T1	
+R3	MEDICAL_CONDITION Arg1:T20 Arg2:T21	
+R4	WORKS_AS Arg1:T22 Arg2:T23	
+R5	WORKPLACE Arg1:T28 Arg2:T2	
+R6	WORKS_AS Arg1:T28 Arg2:T27	
+R7	MEDICAL_CONDITION Arg1:T28 Arg2:T25	
+R8	AGE_IS Arg1:T28 Arg2:T3	
+R9	PLACE_RESIDES_IN Arg1:T28 Arg2:T6	
+T17	PROFESSION 437 442	принц
+R10	MEDICAL_CONDITION Arg1:T17 Arg2:T33	
+R11	SPOUSE Arg1:T28 Arg2:T36	
+R12	PLACE_RESIDES_IN Arg1:T36 Arg2:T6	
+R13	WORKS_AS Arg1:T41 Arg2:T9	
+R14	WORKPLACE Arg1:T41 Arg2:T40	
+R15	MEDICAL_CONDITION Arg1:T41 Arg2:T38	
+R16	WORKS_AS Arg1:T44 Arg2:T12	
+R17	AGE_IS Arg1:T44 Arg2:T11	
+R18	RELATIVE Arg1:T44 Arg2:T42	
+R19	WORKPLACE Arg1:T27 Arg2:T2	
+T45	PERSON 245 273	наследника британской короны
+R20	ALTERNATIVE_NAME Arg1:T28 Arg2:T45	
+R21	WORKS_AS Arg1:T28 Arg2:T31	
+R22	WORKPLACE Arg1:T9 Arg2:T40	
+R23	WORKPLACE Arg1:T42 Arg2:T43	
+R24	AGE_IS Arg1:T19 Arg2:T1	
+R25	OWNER_OF Arg1:T45 Arg2:T30	
+R26	WORKPLACE Arg1:T45 Arg2:T5	
+T34	DATE 1111 1113	19
+N1	Reference T4 Wikidata:Q11148	The Guardian
+N3	Reference T6 Wikidata:Q22	Шотландия
+N4	Reference T8 Wikidata:Q166886	герцог
+N5	Reference T9 Wikidata:Q2457774	Князь Монако
+N6	Reference T12 Wikidata:Q154615	эрцгерцог
+N7	Reference T13 Wikidata:Q145	Великобритания
+N8	Reference T22 Wikidata:Q43274	Чарльз, принц Уэльский
+N9	Reference T26 Wikidata:Q2747456	принц
+N13	Reference T36 Wikidata:Q152239	Камилла, герцогиня Корнуольская
+N14	Reference T39 Wikidata:Q273613	князь
+N15	Reference T40 Wikidata:Q235	Монако
+N16	Reference T41 Wikidata:Q3910	Альбер II
+N18	Reference T43 Wikidata:Q40	Австрия
+N19	Reference T44 Wikidata:Q78515	Карл фон Габсбург
+N10	Reference T27 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q145	Великобритания
+N12	Reference T30 Wikidata:NULL	нет данных
+N11	Reference T29 Wikidata:NULL	нет данных
+N17	Reference T10 Wikidata:Q39018	император
+N20	Reference T42 Wikidata:Q166877	
+N21	Reference T32 Wikidata:Q166886	герцог
+N22	Reference T28 Wikidata:Q43274	Чарльз, принц Уэльский
+N23	Reference T45 Wikidata:Q43274	Чарльз, принц Уэльский
+N24	Reference T20 Wikidata:Q43274	Чарльз, принц Уэльский
+N25	Reference T31 Wikidata:Q2747456	принц
+N26	Reference T17 Wikidata:Q2747456	принц
+N27	Reference T19 Wikidata:Q2747456	принц
+N28	Reference T35 Wikidata:Q2747456	принц
+N29	Reference T23 Wikidata:Q2747456	принц
+N30	Reference T2 Wikidata:Q145	Великобритания

@@ -1,0 +1,67 @@
+T3	CITY 50 59	Будапеште
+T4	COUNTRY 61 68	Венгрия
+T5	NATIONALITY 111 121	венгерский
+T6	AGE 122 131	86-летний
+T7	PERSON 141 152	Имре Кертес
+T8	AGE 157 163	15 лет
+T9	FACILITY 179 187	Освенцим
+T10	FACILITY 202 212	Бухенвальд
+T11	COUNTRY 335 343	немецких
+T12	DATE 371 382	В 2002 году
+T2	PERSON 5 16	Имре Кертес
+T14	PERSON 17 28	Имре Кертес
+T15	DATE 29 47	30 марта 2016 года
+T16	PROFESSION 132 140	писатель
+R1	WORKS_AS Arg1:T7 Arg2:T16	
+T17	PERSON 164 170	Кертес
+T13	PERSON 383 394	Имре Кертес
+T19	PROFESSION 559 567	писателя
+T20	WORK_OF_ART 570 580	Без судьбы
+T21	WORK_OF_ART 584 613	Кадиш по нерожденному ребенку
+T22	AWARD 405 438	Нобелевской премией по литературе
+T23	AWARD 405 424	Нобелевской премией
+R3	ORIGINS_FROM Arg1:T7 Arg2:T5	
+R4	LOCATED_IN Arg1:T3 Arg2:T4	
+R5	DATE_OF_DEATH Arg1:T7 Arg2:T15	
+R6	PLACE_OF_DEATH Arg1:T7 Arg2:T3	
+R7	AWARDED_WITH Arg1:T13 Arg2:T22	
+R8	PRODUCES Arg1:T19 Arg2:T20	
+R9	PRODUCES Arg1:T19 Arg2:T21	
+R10	WORKS_AS Arg1:T13 Arg2:T19	
+R11	PRODUCES Arg1:T13 Arg2:T20	
+R12	PRODUCES Arg1:T13 Arg2:T21	
+R13	AGE_IS Arg1:T17 Arg2:T8	
+T18	EVENT 0 4	Умер
+R14	PARTICIPANT_IN Arg1:T2 Arg2:T18	
+T24	EVENT 101 110	скончался
+R15	ALTERNATIVE_NAME Arg1:T18 Arg2:T24	
+R16	PARTICIPANT_IN Arg1:T7 Arg2:T24	
+R17	POINT_IN_TIME Arg1:T24 Arg2:T15	
+R18	TAKES_PLACE_IN Arg1:T24 Arg2:T3	
+R19	LOCATED_IN Arg1:T17 Arg2:T9	
+R20	LOCATED_IN Arg1:T17 Arg2:T10	
+R21	ALTERNATIVE_NAME Arg1:T7 Arg2:T17	
+R22	ALTERNATIVE_NAME Arg1:T17 Arg2:T13	
+R23	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R2	AGE_DIED_AT Arg1:T7 Arg2:T6	
+R24	ORIGINS_FROM Arg1:T16 Arg2:T5	
+T1	PERSON 405 416	Нобелевской
+R25	POINT_IN_TIME Arg1:T22 Arg2:T12	
+N1	Reference T3 Wikidata:Q1781	Будапешт
+N2	Reference T4 Wikidata:Q28	Венгрия
+N4	Reference T9 Wikidata:Q7341	Освенцим
+N5	Reference T10 Wikidata:Q152802	Бухенвальд
+N7	Reference T14 Wikidata:Q47755	Имре Кертес
+N8	Reference T16 Wikidata:Q36180	писатель
+N10	Reference T22 Wikidata:Q37922	Нобелевская премия по литературе
+N11	Reference T23 Wikidata:Q7191	Нобелевская премия
+N3	Reference T5 Wikidata:Q133032	венгры
+N6	Reference T11 Wikidata:Q183	Германия
+N12	Reference T1 Wikidata:Q23810	Альфред Нобель
+N9	Reference T20 Wikidata:Q655701	Без судьбы
+N13	Reference T21 Wikidata:Q1563950	
+N14	Reference T17 Wikidata:Q47755	Имре Кертес
+N15	Reference T13 Wikidata:Q47755	Имре Кертес
+N16	Reference T7 Wikidata:Q47755	Имре Кертес
+N17	Reference T2 Wikidata:Q47755	Имре Кертес
+N18	Reference T19 Wikidata:Q36180	писатель

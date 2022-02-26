@@ -1,0 +1,140 @@
+T1	ORGANIZATION 11 14	ФСБ
+T2	CITY 17 23	Москве
+T3	NUMBER 25 29	Один
+T4	NUMBER 36 45	несколько
+T6	ORGANIZATION 61 64	ФСБ
+T7	DATE 65 105	вечером в новогодние праздники 2018 года
+T8	DATE 114 145	в четверг, 19 декабря 2019 года
+T10	ORGANIZATION 156 159	ФСБ
+T11	CITY 162 168	Москве
+T12	NUMBER 252 258	одного
+T13	NUMBER 268 277	несколько
+T14	FACILITY 409 424	Олонецого парка
+T15	LOCATION 428 441	севере Москвы
+T16	TIME 442 459	через четыре часа
+T17	PRODUCT 479 483	Baza
+T18	PROFESSION 511 525	сотрудника ФСБ
+T19	ORGANIZATION 522 525	ФСБ
+T20	AGE 528 537	35-летний
+T21	PERSON 539 560	Константин Однолепков
+T22	NUMBER 649 653	один
+T23	PERSON 673 687	Павел Анисимов
+T24	ORGANIZATION 811 814	ФСБ
+T25	PRODUCT 856 860	Baza
+T26	TIME 1007 1028	около 18:00 по Москве
+T27	TIME 1042 1052	около часа
+T28	COUNTRY 1132 1138	России
+T30	ORGANIZATION 1182 1185	ФСБ
+T31	ORGANIZATION 1188 1191	МВД
+T32	ORGANIZATION 1224 1244	Следственный комитет
+T33	DATE 1342 1349	Сегодня
+T34	PROFESSION 1350 1359	президент
+T35	PERSON 1367 1381	Владимир Путин
+T36	NUMBER 1395 1399	двух
+T37	EVENT 1415 1442	ежегодной пресс-конференции
+T38	EVENT 1445 1513	праздновании Дня работника органов безопасности Российской Федерации
+T40	FACILITY 1516 1522	Кремле
+T41	PERSON 1539 1544	Путин
+T42	EVENT 1616 1623	концерт
+T43	PROFESSION 1641 1650	президент
+T44	EVENT 0 8	Стрельба
+T45	EVENT 30 34	убит
+T5	TIME 65 72	вечером
+T46	TIME 106 145	Вечером в четверг, 19 декабря 2019 года
+T9	EVENT 179 224	нападение с применением огнестрельного оружия
+T47	EVENT 246 251	убить
+T48	EVENT 261 267	ранить
+T49	PROFESSION 278 299	сотрудников спецслужб
+T50	EVENT 320 324	убит
+T51	ORGANIZATION 399 406	полиции
+T52	CITY 435 441	Москвы
+T53	EVENT 466 478	происшествия
+T54	CITY 1022 1028	Москве
+T55	EVENT 1067 1079	происшествия
+T29	COUNTRY 1245 1251	России
+T57	ORGANIZATION 1224 1251	Следственный комитет России
+T58	EVENT 1252 1265	возбудил дело
+T59	LAW 1269 1339	статье о посягательстве на жизнь сотрудника правоохранительных органов
+T60	COUNTRY 1360 1366	России
+T61	PROFESSION 1350 1366	президент России
+T39	COUNTRY 1493 1513	Российской Федерации
+T62	PROFESSION 1462 1492	работника органов безопасности
+T63	EVENT 1533 1538	атаки
+T64	EVENT 1570 1578	концерте
+T65	EVENT 1595 1607	происшествии
+T66	EVENT 1726 1738	происшествии
+T67	CRIME 1278 1339	посягательстве на жизнь сотрудника правоохранительных органов
+R1	AGE_IS Arg1:T21 Arg2:T20	
+R2	ORGANIZES Arg1:T57 Arg2:T58	
+R3	WORKS_AS Arg1:T35 Arg2:T61	
+R4	WORKPLACE Arg1:T35 Arg2:T60	
+R5	TAKES_PLACE_IN Arg1:T9 Arg2:T11	
+R6	TAKES_PLACE_IN Arg1:T44 Arg2:T1	
+R7	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+R8	POINT_IN_TIME Arg1:T9 Arg2:T8	
+T68	FACILITY 149 159	здания ФСБ
+T69	FACILITY 54 64	Здание ФСБ
+R9	LOCATED_IN Arg1:T14 Arg2:T15	
+R10	WORKS_AS Arg1:T21 Arg2:T18	
+R11	WORKPLACE Arg1:T21 Arg2:T19	
+R12	PARTICIPANT_IN Arg1:T21 Arg2:T53	
+R13	PARTICIPANT_IN Arg1:T23 Arg2:T53	
+T70	EVENT 989 997	Стрельба
+R14	POINT_IN_TIME Arg1:T37 Arg2:T33	
+R15	PARTICIPANT_IN Arg1:T35 Arg2:T37	
+R16	PARTICIPANT_IN Arg1:T35 Arg2:T38	
+R17	TAKES_PLACE_IN Arg1:T38 Arg2:T40	
+R18	POINT_IN_TIME Arg1:T38 Arg2:T33	
+T56	EVENT 1558 1578	праздничном концерте
+R19	HEADQUARTERED_IN Arg1:T57 Arg2:T29	
+R20	PARTICIPANT_IN Arg1:T41 Arg2:T56	
+R21	ALTERNATIVE_NAME Arg1:T38 Arg2:T56	
+R22	OWNER_OF Arg1:T6 Arg2:T69	
+R23	POINT_IN_TIME Arg1:T70 Arg2:T26	
+R24	HAS_CAUSE Arg1:T58 Arg2:T59	
+R25	WORKPLACE Arg1:T61 Arg2:T60	
+R26	ALTERNATIVE_NAME Arg1:T44 Arg2:T9	
+T71	EVENT 246 258;278 299	убить одного сотрудников спецслужб
+T72	EVENT 261 299	ранить несколько сотрудников спецслужб
+R27	PARTICIPANT_IN Arg1:T49 Arg2:T72	
+R28	PARTICIPANT_IN Arg1:T49 Arg2:T47	
+R29	SUBEVENT_OF Arg1:T47 Arg2:T9	
+R30	WORKPLACE Arg1:T18 Arg2:T19	
+T73	DISEASE 708 720	ранение ноги
+R31	MEDICAL_CONDITION Arg1:T23 Arg2:T73	
+N1	Reference T1 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N2	Reference T11 Wikidata:Q649	Москва
+N7	Reference T31 Wikidata:Q6589202	министерство внутренних дел
+N8	Reference T35 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T40 Wikidata:Q133274	Московский Кремль
+N10	Reference T41 Wikidata:Q7747	Владимир Владимирович Путин
+N11	Reference T43 Wikidata:Q30461	президент
+N13	Reference T51 Wikidata:Q35535	полиция
+N14	Reference T57 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N15	Reference T60 Wikidata:Q159	Россия
+N16	Reference T61 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T39 Wikidata:Q159	Россия
+N19	Reference T68 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N18	Reference T62 Wikidata:NULL	нет данных
+N20	Reference T59 Wikidata:NULL	нет данных
+N21	Reference T32 Wikidata:NULL	нет данных
+N22	Reference T25 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T21 Wikidata:Q105044571	
+N3	Reference T14 Wikidata:Q19856500	
+N4	Reference T15 Wikidata:NULL	нет данных
+N12	Reference T49 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q105044610	
+N24	Reference T10 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N25	Reference T19 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N26	Reference T30 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N27	Reference T6 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N28	Reference T24 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N29	Reference T2 Wikidata:Q649	Москва
+N30	Reference T52 Wikidata:Q649	Москва
+N31	Reference T54 Wikidata:Q649	Москва
+N32	Reference T34 Wikidata:Q30461	президент
+N33	Reference T29 Wikidata:Q159	Россия
+N34	Reference T28 Wikidata:Q159	Россия
+N35	Reference T69 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N36	Reference T17 Wikidata:NULL	нет данных

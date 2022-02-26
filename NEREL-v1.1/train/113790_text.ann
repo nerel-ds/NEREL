@@ -1,0 +1,161 @@
+T1	PERSON 0 18	Дениса Вороненкова
+T2	AGE 29 38	28-летний
+T3	PERSON 39 51	Павел Паршов
+T4	FACILITY 66 79	Премьер-палас
+T5	PERSON 124 142	Дениса Вороненкова
+T6	AGE 148 157	28-летний
+T7	COUNTRY 168 175	Украины
+T8	PERSON 176 202	Павел Александрович Паршов
+T9	DATE 209 219	28.07.1988
+T11	ORGANIZATION 224 235	МВД Украины
+T12	DATE 265 286	С 25 ноября 2011 года
+T13	LAW 357 386	статьями 205 и 209 УК Украины
+T14	ORGANIZATION 538 549	МВД Украины
+T15	NUMBER 565 566	1
+T16	ORGANIZATION 586 597	МВД Украины
+T17	PERSON 599 611	Денис Паршов
+T18	CITY 622 637	Днепропетровске
+T19	CITY 652 657	Днепр
+T20	STATE_OR_PROVINCE 709 713	Крым
+T21	PERSON 725 730	Павел
+T22	DATE 731 751	до августа 2016 года
+T23	ORGANIZATION 778 788	Нацгвардии
+T24	PROFESSION 932 948	депутата Госдумы
+T25	ORGANIZATION 941 948	Госдумы
+T26	PERSON 949 967	Дениса Вороненкова
+T27	DATE 983 991	23 марта
+T28	TIME 1007 1018	около 11:25
+T29	TIME 1020 1029	12:25 мск
+T30	FACILITY 1044 1057	Премьер-палас
+T31	FACILITY 1074 1098	бульвара Тараса Шевченко
+T32	FACILITY 1101 1117	Пушкинской улицы
+T33	PROFESSION 1147 1167	российского депутата
+T34	COUNTRY 1147 1158	российского
+T35	PRODUCT 1195 1197	ТТ
+T36	PROFESSION 1209 1219	охранником
+T37	CITY 1243 1251	Киевскую
+T38	NUMBER 1375 1377	16
+T39	NUMBER 1396 1402	четыре
+T40	EVENT 19 28	застрелил
+T41	EVENT 107 115	убийство
+T10	COUNTRY 228 235	Украины
+T42	PERSON 287 293	Паршов
+T43	COUNTRY 379 386	Украины
+T44	LAW 376 386	УК Украины
+T45	COUNTRY 590 597	Украины
+T46	CRIME 388 417	фиктивное предпринимательство
+T47	CRIME 420 468	легализация доходов, полученных преступным путём
+T48	COUNTRY 542 549	Украины
+T49	NUMBER 568 569	2
+T50	NUMBER 571 572	3
+T51	DATE 752 768	около 13 месяцев
+T52	PROFESSION 1120 1126	Киллер
+T53	COUNTRY 920 931	российского
+T54	EVENT 903 911	Убийство
+T55	CITY 1001 1006	Киева
+T57	PERSON 1101 1111	Пушкинской
+T58	DISEASE 1289 1316	пулевые ранения конечностей
+T59	DISEASE 1460 1479	остановилось сердце
+T60	PROFESSION 1378 1386	хирургов
+T61	DISEASE 1323 1351	пуля насквозь пробила голову
+T62	PERSON 1083 1098	Тараса Шевченко
+T63	ORDINAL 366 369	205
+T64	ORDINAL 372 375	209
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T40	
+R2	AGENT Arg1:T3 Arg2:T40	
+R3	AGE_IS Arg1:T3 Arg2:T2	
+R4	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R5	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R6	DATE_OF_BIRTH Arg1:T8 Arg2:T9	
+T65	ORGANIZATION 538 541	МВД
+R7	HEADQUARTERED_IN Arg1:T14 Arg2:T48	
+T66	ORGANIZATION 224 227	МВД
+R8	HEADQUARTERED_IN Arg1:T11 Arg2:T10	
+R9	ALTERNATIVE_NAME Arg1:T8 Arg2:T42	
+R10	CONVICTED_OF Arg1:T42 Arg2:T46	
+R11	CONVICTED_OF Arg1:T42 Arg2:T47	
+T67	ORGANIZATION 586 589	МВД
+R12	HEADQUARTERED_IN Arg1:T16 Arg2:T45	
+R13	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R14	PLACE_OF_BIRTH Arg1:T17 Arg2:T18	
+R15	PLACE_OF_BIRTH Arg1:T17 Arg2:T20	
+R16	WORKPLACE Arg1:T21 Arg2:T23	
+R17	LOCATED_IN Arg1:T31 Arg2:T55	
+R18	LOCATED_IN Arg1:T32 Arg2:T55	
+R19	LOCATED_IN Arg1:T30 Arg2:T55	
+T68	LAW 376 378	УК
+R20	ORIGINS_FROM Arg1:T44 Arg2:T43	
+R21	ALTERNATIVE_NAME Arg1:T55 Arg2:T37	
+R22	CAUSE_OF_DEATH Arg1:T21 Arg2:T59	
+R23	MEDICAL_CONDITION Arg1:T21 Arg2:T58	
+R24	MEDICAL_CONDITION Arg1:T21 Arg2:T61	
+T69	NATIONALITY 158 175	гражданин Украины
+R25	ORIGINS_FROM Arg1:T8 Arg2:T69	
+R26	AGE_IS Arg1:T8 Arg2:T6	
+R27	ORIGINS_FROM Arg1:T26 Arg2:T53	
+R28	WORKS_AS Arg1:T26 Arg2:T24	
+R29	WORKPLACE Arg1:T24 Arg2:T25	
+R30	HEADQUARTERED_IN Arg1:T25 Arg2:T53	
+R31	PARTICIPANT_IN Arg1:T26 Arg2:T54	
+R32	POINT_IN_TIME Arg1:T54 Arg2:T27	
+R33	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R34	POINT_IN_TIME Arg1:T54 Arg2:T28	
+R35	TAKES_PLACE_IN Arg1:T54 Arg2:T55	
+R36	ALTERNATIVE_NAME Arg1:T41 Arg2:T54	
+T56	EVENT 1127 1136	выстрелил
+R37	HAS_CAUSE Arg1:T54 Arg2:T56	
+R38	AGENT Arg1:T52 Arg2:T56	
+R39	ORIGINS_FROM Arg1:T33 Arg2:T34	
+T70	PROFESSION 932 940	депутата
+T71	PROFESSION 1159 1167	депутата
+R40	ORIGINS_FROM Arg1:T69 Arg2:T7	
+R41	HEADQUARTERED_IN Arg1:T23 Arg2:T45	
+R42	PART_OF Arg1:T13 Arg2:T44	
+R43	PARTICIPANT_IN Arg1:T33 Arg2:T56	
+R44	INANIMATE_INVOLVED Arg1:T35 Arg2:T56	
+N1	Reference T11 Wikidata:Q2445140	Министерство внутренних дел Украины
+N4	Reference T18 Wikidata:Q48256	Днепр
+N5	Reference T20 Wikidata:Q7835	Крымский полуостров
+N7	Reference T25 Wikidata:Q715641	Государственная дума
+N8	Reference T26 Wikidata:Q19817635	Денис Николаевич Вороненков
+N10	Reference T31 Wikidata:Q3406815	Бульвар Тараса Шевченко
+N13	Reference T35 Wikidata:Q494249	ТТ
+N14	Reference T36 Wikidata:Q856887	охранник
+N18	Reference T48 Wikidata:Q212	Украина
+N19	Reference T52 Wikidata:Q378770	наёмный убийца
+N22	Reference T60 Wikidata:Q774306	хирург
+N23	Reference T62 Wikidata:Q134958	Тарас Григорьевич Шевченко
+N24	Reference T65 Wikidata:Q6589202	министерство внутренних дел
+N27	Reference T71 Wikidata:Q486839	член парламента
+N26	Reference T69 Wikidata:Q44806	украинцы
+N16	Reference T42 Wikidata:Q105080789	
+N17	Reference T44 Wikidata:Q5761127	
+N2	Reference T13 Wikidata:NULL	нет данных
+N25	Reference T68 Wikidata:Q19705	уголовное законодательство
+N3	Reference T17 Wikidata:Q105080789	
+N6	Reference T21 Wikidata:Q105080789	
+N28	Reference T23 Wikidata:NULL	нет данных
+N20	Reference T53 Wikidata:Q159	Россия
+N29	Reference T24 Wikidata:Q17276321	
+N9	Reference T30 Wikidata:NULL	нет данных
+N21	Reference T57 Wikidata:Q7200	Александр Сергеевич Пушкин
+N11	Reference T32 Wikidata:Q13635658	Пушкинская улица
+N12	Reference T33 Wikidata:NULL	нет данных
+N15	Reference T37 Wikidata:Q1899	Киев
+N30	Reference T14 Wikidata:Q2445140	Министерство внутренних дел Украины
+N31	Reference T16 Wikidata:Q2445140	Министерство внутренних дел Украины
+N32	Reference T19 Wikidata:Q48256	Днепр
+N33	Reference T5 Wikidata:Q19817635	Денис Николаевич Вороненков
+N34	Reference T1 Wikidata:Q19817635	Денис Николаевич Вороненков
+N35	Reference T10 Wikidata:Q212	Украина
+N36	Reference T7 Wikidata:Q212	Украина
+N37	Reference T43 Wikidata:Q212	Украина
+N38	Reference T45 Wikidata:Q212	Украина
+N39	Reference T67 Wikidata:Q6589202	министерство внутренних дел
+N40	Reference T66 Wikidata:Q6589202	министерство внутренних дел
+N41	Reference T70 Wikidata:Q486839	член парламента
+N42	Reference T8 Wikidata:Q105080789	
+N43	Reference T3 Wikidata:Q105080789	
+N44	Reference T34 Wikidata:Q159	Россия
+N45	Reference T4 Wikidata:NULL	нет данных
+N46	Reference T55 Wikidata:Q1899	Киев

@@ -1,0 +1,85 @@
+T1	COUNTRY 0 10	Британский
+T2	PROFESSION 45 60	Министр обороны
+T3	PERSON 76 86	Лайам Фокс
+T4	ORGANIZATION 147 192	Министерства обороны Соединенного Королевства
+T6	PERSON 201 207	Л.Фокс
+T8	PERSON 434 440	Л.Фокс
+T9	PROFESSION 509 524	премьер-министр
+T10	PERSON 525 538	Дэвид Кэмерон
+T12	PERSON 570 576	Л.Фокс
+T13	PROFESSION 684 700	министра обороны
+T14	COUNTRY 748 758	британская
+T16	PERSON 767 773	Л.Фокс
+T17	PROFESSION 883 892	бизнесмен
+T18	PERSON 893 905	Адам Уэррити
+T19	PROFESSION 921 937	министра обороны
+T20	COUNTRY 970 980	британской
+T22	AGE 1200 1209	34-летний
+T24	PERSON 1210 1219	А.Уэррити
+T26	PERSON 1232 1239	Л.Фокса
+T27	NUMBER 1242 1244	18
+T29	PERSON 1297 1306	А.Уэррити
+T31	PROFESSION 11 26	министр обороны
+T32	PROFESSION 45 75	Министр обороны Великобритании
+T33	COUNTRY 61 75	Великобритании
+T34	COUNTRY 168 192	Соединенного Королевства
+T5	PERSON 1036 1043	Л.Фокса
+T7	PERSON 1375 1382	Л.Фокса
+T11	EVENT 27 43	подал в отставку
+T15	PROFESSION 0 26	Британский министр обороны
+R1	AGENT Arg1:T15 Arg2:T11	
+R2	WORKPLACE Arg1:T15 Arg2:T1	
+T21	EVENT 87 103	подал в отставку
+R3	AGENT Arg1:T3 Arg2:T21	
+R4	WORKS_AS Arg1:T3 Arg2:T32	
+R5	WORKPLACE Arg1:T32 Arg2:T33	
+R6	WORKPLACE Arg1:T3 Arg2:T33	
+R7	HEADQUARTERED_IN Arg1:T4 Arg2:T34	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R9	ALTERNATIVE_NAME Arg1:T1 Arg2:T33	
+R10	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R11	WORKS_AS Arg1:T10 Arg2:T9	
+R12	WORKS_AS Arg1:T18 Arg2:T17	
+R13	AGE_IS Arg1:T24 Arg2:T22	
+R14	KNOWS Arg1:T24 Arg2:T26	
+R15	ALTERNATIVE_NAME Arg1:T18 Arg2:T24	
+T23	EVENT 796 804	отставку
+R16	PARTICIPANT_IN Arg1:T16 Arg2:T23	
+R17	KNOWS Arg1:T16 Arg2:T18	
+R18	WORKS_AS Arg1:T16 Arg2:T19	
+T25	PROFESSION 1014 1023	советника
+R19	WORKS_AS Arg1:T18 Arg2:T25	
+R20	SUBORDINATE_OF Arg1:T29 Arg2:T7	
+T28	PROFESSION 1364 1382	советником Л.Фокса
+R21	WORKS_AS Arg1:T29 Arg2:T28	
+R22	ALTERNATIVE_NAME Arg1:T34 Arg2:T14	
+R23	SUBORDINATE_OF Arg1:T28 Arg2:T7	
+T35	EVENT 459 467	отставке
+R24	AGENT Arg1:T8 Arg2:T35	
+R25	TAKES_PLACE_IN Arg1:T11 Arg2:T1	
+R26	TAKES_PLACE_IN Arg1:T23 Arg2:T14	
+N1	Reference T4 Wikidata:Q739941	Британская монархия
+N2	Reference T9 Wikidata:Q14212	премьер-министр
+N3	Reference T10 Wikidata:Q192	Дэвид Кэмерон
+N4	Reference T13 Wikidata:Q2518691	министр обороны
+N5	Reference T14 Wikidata:Q38272	Британские острова
+N6	Reference T16 Wikidata:Q11582	литр
+N7	Reference T17 Wikidata:Q131524	предприниматель
+N8	Reference T32 Wikidata:Q3387159	министр обороны Великобритании
+N9	Reference T5 Wikidata:Q11582	литр
+N10	Reference T15 Wikidata:Q2518691	министр обороны
+N11	Reference T25 Wikidata:Q3061599	Советник
+N12	Reference T28 Wikidata:Q11582	литр
+N13	Reference T31 Wikidata:Q2518691	министр обороны
+N14	Reference T2 Wikidata:Q2518691	министр обороны
+N15	Reference T19 Wikidata:Q2518691	министр обороны
+N16	Reference T33 Wikidata:Q38272	Британские острова
+N17	Reference T20 Wikidata:Q38272	Британские острова
+N18	Reference T34 Wikidata:Q38272	Британские острова
+N19	Reference T1 Wikidata:Q38272	Британские острова
+N20	Reference T8 Wikidata:Q11582	литр
+N21	Reference T12 Wikidata:Q11582	литр
+N22	Reference T6 Wikidata:Q11582	литр
+N23	Reference T3 Wikidata:Q11582	литр
+N24	Reference T7 Wikidata:Q11582	литр
+N25	Reference T26 Wikidata:Q11582	литр

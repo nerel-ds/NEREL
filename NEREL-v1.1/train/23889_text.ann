@@ -1,0 +1,136 @@
+T1	PERSON 0 16	Оксана Акиньшина
+T2	ORDINAL 17 23	второй
+T3	PERSON 40 56	Оксана Акиньшина
+T4	DATE 57 68	в 2007 году
+T5	DATE 98 106	накануне
+T6	DATE 109 128	15 января 2013 года
+T7	CITY 140 150	московских
+T8	PROFESSION 176 183	актриса
+T9	PERSON 184 200	Оксана Акиньшина
+T10	TIME 243 266	около пяти часов вечера
+T11	NUMBER 285 292	3 400 г
+T12	NUMBER 300 305	53 см
+T13	ORDINAL 311 317	первый
+T14	PERSON 337 343	Оксаны
+T15	AGE 362 372	37-летнего
+T16	PROFESSION 373 386	кинопродюсера
+T17	PERSON 387 402	Арчила Геловани
+T18	PERSON 407 414	Арчилом
+T19	WORK_OF_ART 455 472	Любовь с акцентом
+T20	PERSON 478 484	Оксаны
+T21	AGE 494 504	трёхлетний
+T22	PERSON 509 515	Филипп
+T23	ORDINAL 519 526	первого
+T24	PROFESSION 535 557	генеральным директором
+T25	ORGANIZATION 581 595	Планета Информ
+T26	PERSON 597 616	Дмитрием Литвиновым
+T27	PERSON 633 639	Оксана
+T28	DATE 662 680	в ноябре 2012 года
+T29	PERSON 885 901	Оксана Акиньшина
+T30	DATE 911 930	19 апреля 1987 года
+T31	CITY 933 943	Ленинграде
+T32	PERSON 985 999	Сергея Бодрова
+T33	WORK_OF_ART 1001 1007	Сёстры
+T34	AGE 1020 1026	13 лет
+T35	PERSON 1053 1066	Катей Гориной
+T36	AWARD 1123 1128	Дебют
+T38	EVENT 1148 1156	Кинотавр
+T39	DATE 1158 1167	2001 года
+T40	CITY 1170 1174	Сочи
+T42	EVENT 1195 1204	Созвездие
+T43	EVENT 1216 1259	Всероссийском фестивале визуальных искусств
+T44	PERSON 1292 1298	Оксана
+T45	EVENT 28 39	стала мамой
+T46	EVENT 201 216	родила мальчика
+T47	EVENT 226 242	появился на свет
+T48	PERSON 415 421	Оксана
+T49	PROFESSION 535 595	генеральным директором продюсерской компании «Планета Информ
+T52	ORDINAL 619 628	Последний
+T53	AWARD 718 730	Актриса года
+T54	EVENT 826 831	родов
+T55	PERSON 832 838	Оксана
+T56	AWARD 1085 1109	За лучший актёрский дуэт
+T59	AWARD 1264 1283	Лучшую женскую роль
+T60	PROFESSION 1340 1350	режиссёров
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T45	
+R2	WORKS_AS Arg1:T9 Arg2:T8	
+R3	PARTICIPANT_IN Arg1:T9 Arg2:T46	
+R4	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R5	POINT_IN_TIME Arg1:T46 Arg2:T6	
+R6	ALTERNATIVE_NAME Arg1:T46 Arg2:T47	
+R7	POINT_IN_TIME Arg1:T47 Arg2:T10	
+R8	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R9	WORKS_AS Arg1:T17 Arg2:T16	
+R10	AGE_IS Arg1:T17 Arg2:T15	
+R11	SPOUSE Arg1:T14 Arg2:T17	
+R12	ALTERNATIVE_NAME Arg1:T17 Arg2:T18	
+R13	PARTICIPANT_IN Arg1:T48 Arg2:T19	
+R14	PARTICIPANT_IN Arg1:T18 Arg2:T19	
+R15	AGE_IS Arg1:T22 Arg2:T21	
+R16	PARENT_OF Arg1:T20 Arg2:T22	
+R17	WORKPLACE Arg1:T49 Arg2:T25	
+R18	PARENT_OF Arg1:T26 Arg2:T22	
+R19	SPOUSE Arg1:T20 Arg2:T26	
+R20	WORKS_AS Arg1:T26 Arg2:T49	
+R21	WORKPLACE Arg1:T26 Arg2:T25	
+R22	AWARDED_WITH Arg1:T27 Arg2:T53	
+R23	ALTERNATIVE_NAME Arg1:T47 Arg2:T54	
+R24	PARTICIPANT_IN Arg1:T55 Arg2:T54	
+R28	DATE_OF_BIRTH Arg1:T29 Arg2:T30	
+R29	PLACE_OF_DEATH Arg1:T29 Arg2:T31	
+R30	PRODUCES Arg1:T32 Arg2:T33	
+R31	PARTICIPANT_IN Arg1:T29 Arg2:T33	
+R32	AWARDED_WITH Arg1:T29 Arg2:T56	
+R33	AWARDED_WITH Arg1:T35 Arg2:T56	
+R34	KNOWS Arg1:T29 Arg2:T35	
+R35	PART_OF Arg1:T56 Arg2:T36	
+T37	EVENT 1148 1167	Кинотавр» 2001 года
+R37	POINT_IN_TIME Arg1:T37 Arg2:T39	
+R38	TAKES_PLACE_IN Arg1:T37 Arg2:T40	
+R39	PARTICIPANT_IN Arg1:T29 Arg2:T37	
+R40	PARTICIPANT_IN Arg1:T35 Arg2:T37	
+T41	COUNTRY 1216 1229	Всероссийском
+R41	TAKES_PLACE_IN Arg1:T43 Arg2:T41	
+R42	AWARDED_WITH Arg1:T29 Arg2:T59	
+R43	ORIGINS_FROM Arg1:T43 Arg2:T59	
+R36	ORIGINS_FROM Arg1:T38 Arg2:T36	
+R44	TAKES_PLACE_IN Arg1:T46 Arg2:T7	
+R45	KNOWS Arg1:T18 Arg2:T48	
+R46	KNOWS Arg1:T48 Arg2:T18	
+R25	AGE_IS Arg1:T29 Arg2:T34	
+N1	Reference T7 Wikidata:Q649	Москва
+N2	Reference T8 Wikidata:Q33999	актёр
+N3	Reference T16 Wikidata:Q3282637	кинопродюсер
+N5	Reference T19 Wikidata:Q17582636	Любовь с акцентом
+N6	Reference T22 Wikidata:Q621087	Филиппи, Филиппо
+N7	Reference T24 Wikidata:Q1501800	генеральный директор
+N10	Reference T31 Wikidata:Q656	Санкт-Петербург
+N11	Reference T32 Wikidata:Q508904	Сергей Сергеевич Бодров
+N12	Reference T33 Wikidata:Q83594	Сёстры
+N15	Reference T40 Wikidata:Q39420	Сочи
+N20	Reference T60 Wikidata:Q3455803	режиссёр
+N4	Reference T18 Wikidata:Q4135048	
+N16	Reference T48 Wikidata:Q235008	Оксана Акиньшина
+N21	Reference T41 Wikidata:Q159	Россия
+N13	Reference T35 Wikidata:Q4144175	
+N19	Reference T59 Wikidata:NULL	нет данных
+N8	Reference T25 Wikidata:NULL	нет данных
+N9	Reference T26 Wikidata:Q44155602	
+N17	Reference T49 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:NULL	нет данных
+N14	Reference T36 Wikidata:NULL	нет данных
+N18	Reference T56 Wikidata:NULL	нет данных
+N23	Reference T17 Wikidata:Q4135048	
+N24	Reference T55 Wikidata:Q235008	Оксана Акиньшина
+N25	Reference T44 Wikidata:Q235008	Оксана Акиньшина
+N26	Reference T20 Wikidata:Q235008	Оксана Акиньшина
+N27	Reference T14 Wikidata:Q235008	Оксана Акиньшина
+N28	Reference T29 Wikidata:Q235008	Оксана Акиньшина
+N29	Reference T9 Wikidata:Q235008	Оксана Акиньшина
+N30	Reference T3 Wikidata:Q235008	Оксана Акиньшина
+N31	Reference T1 Wikidata:Q235008	Оксана Акиньшина
+N32	Reference T27 Wikidata:Q235008	Оксана Акиньшина
+T50	EVENT 902 910	родилась
+R26	PARTICIPANT_IN Arg1:T29 Arg2:T50	
+R27	POINT_IN_TIME Arg1:T50 Arg2:T30	
+R47	TAKES_PLACE_IN Arg1:T50 Arg2:T31	

@@ -1,0 +1,122 @@
+T1	COUNTRY 0 3	США
+T2	COUNTRY 13 17	Иран
+T3	COUNTRY 46 51	Йемен
+T4	LOCATION 53 68	Аравийское море
+T5	COUNTRY 69 72	США
+T6	COUNTRY 82 86	Иран
+T7	COUNTRY 115 120	Йемен
+T8	ORGANIZATION 163 183	Советом Безопасности
+T9	ORGANIZATION 184 187	ООН
+T10	PROFESSION 190 205	Пресс-секретарь
+T11	ORGANIZATION 206 221	Госдепартамента
+T12	COUNTRY 222 225	США
+T13	PERSON 226 241	Виктория Нуланд
+T14	LOCATION 333 348	Аравийском море
+T15	DATE 349 368	23 января 2013 года
+T16	COUNTRY 386 391	Ирана
+T17	COUNTRY 394 399	Йемен
+T18	ORGANIZATION 442 445	ВМС
+T19	COUNTRY 446 449	США
+T20	ORGANIZATION 452 468	береговой охраны
+T21	COUNTRY 469 475	Йемена
+T22	COUNTRY 595 601	Йемена
+T23	COUNTRY 693 701	иранских
+T25	COUNTRY 787 793	Йемена
+T26	ORGANIZATION 808 823	Госдепартамента
+T27	COUNTRY 824 827	США
+T28	COUNTRY 877 881	Иран
+T29	ORGANIZATION 901 920	Совета Безопасности
+T32	CITY 951 959	Тегерану
+T33	ORGANIZATION 163 187	Советом Безопасности ООН
+T35	ORGANIZATION 206 225	Госдепартамента США
+T36	PROFESSION 190 225	Пресс-секретарь Госдепартамента США
+T37	EVENT 317 330	перехваченное
+T38	EVENT 73 81	обвинили
+T39	EVENT 370 382	направлялось
+T40	ORGANIZATION 442 449	ВМС США
+T41	ORGANIZATION 452 475	береговой охраны Йемена
+T42	EVENT 481 510	обнаружен большой груз оружия
+T24	LOCATION 780 793	севере Йемена
+T43	ORGANIZATION 808 827	Госдепартамента США
+T30	ORGANIZATION 921 924	ООН
+T44	ORGANIZATION 901 924	Совета Безопасности ООН
+T31	ORDINAL 925 931	№ 1747
+T45	LAW 891 931	резолюцию Совета Безопасности ООН № 1747
+T34	EVENT 4 12	обвинили
+T46	EVENT 20 43	тайных поставках оружия
+R1	AGENT Arg1:T1 Arg2:T34	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T34	
+R3	AGENT Arg1:T2 Arg2:T46	
+R4	TAKES_PLACE_IN Arg1:T46 Arg2:T3	
+T47	EVENT 89 112	тайных поставках оружия
+R5	AGENT Arg1:T5 Arg2:T38	
+R6	PARTICIPANT_IN Arg1:T6 Arg2:T38	
+R7	PARTICIPANT_IN Arg1:T6 Arg2:T47	
+R8	TAKES_PLACE_IN Arg1:T47 Arg2:T7	
+R9	HEADQUARTERED_IN Arg1:T35 Arg2:T12	
+R10	WORKPLACE Arg1:T13 Arg2:T12	
+R11	WORKS_AS Arg1:T13 Arg2:T36	
+R12	WORKPLACE Arg1:T36 Arg2:T35	
+R13	POINT_IN_TIME Arg1:T37 Arg2:T15	
+R14	TAKES_PLACE_IN Arg1:T39 Arg2:T16	
+R15	TAKES_PLACE_IN Arg1:T39 Arg2:T17	
+T48	EVENT 420 434	перехваченного
+R16	AGENT Arg1:T40 Arg2:T48	
+R17	HEADQUARTERED_IN Arg1:T40 Arg2:T19	
+R18	HEADQUARTERED_IN Arg1:T41 Arg2:T21	
+R19	AGENT Arg1:T41 Arg2:T48	
+R20	AGENT Arg1:T40 Arg2:T42	
+R21	AGENT Arg1:T41 Arg2:T42	
+T49	ORGANIZATION 588 601	Власти Йемена
+R22	HEADQUARTERED_IN Arg1:T49 Arg2:T22	
+R23	LOCATED_IN Arg1:T24 Arg2:T25	
+R24	HEADQUARTERED_IN Arg1:T43 Arg2:T27	
+T50	EVENT 849 857	инцидент
+R25	LOCATED_IN Arg1:T32 Arg2:T28	
+R26	PART_OF Arg1:T33 Arg2:T9	
+R27	PART_OF Arg1:T44 Arg2:T30	
+R28	PRODUCES Arg1:T44 Arg2:T45	
+T51	PENALTY 140 147	санкций
+R29	PARTICIPANT_IN Arg1:T33 Arg2:T51	
+R30	TAKES_PLACE_IN Arg1:T37 Arg2:T14	
+R31	PENALIZED_AS Arg1:T6 Arg2:T51	
+R32	ALTERNATIVE_NAME Arg1:T37 Arg2:T48	
+N1	Reference T1 Wikidata:Q30	США
+N2	Reference T4 Wikidata:Q58705	Аравийское море
+N3	Reference T11 Wikidata:Q789915	Государственный департамент США
+N4	Reference T13 Wikidata:Q1188501	Виктория Нуланд
+N5	Reference T16 Wikidata:Q794	Иран
+N7	Reference T20 Wikidata:Q1353040	Береговая охрана
+N8	Reference T22 Wikidata:Q805	Йемен
+N9	Reference T29 Wikidata:Q37470	Совет Безопасности ООН
+N10	Reference T32 Wikidata:Q3616	Тегеран
+N11	Reference T35 Wikidata:Q789915	Государственный департамент США
+N16	Reference T30 Wikidata:Q1065	Организация Объединённых Наций
+N17	Reference T44 Wikidata:Q37470	Совет Безопасности ООН
+N19	Reference T10 Wikidata:Q1388151	
+N12	Reference T36 Wikidata:NULL	нет данных
+N18	Reference T49 Wikidata:NULL	нет данных
+N20	Reference T23 Wikidata:Q794	Иран
+N15	Reference T24 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q4508	военно-морской флот
+N13	Reference T40 Wikidata:Q11220	Военно-морские силы США
+N14	Reference T41 Wikidata:NULL	нет данных
+N21	Reference T45 Wikidata:Q2145803	
+N22	Reference T5 Wikidata:Q30	США
+N23	Reference T12 Wikidata:Q30	США
+N24	Reference T19 Wikidata:Q30	США
+N25	Reference T27 Wikidata:Q30	США
+N26	Reference T14 Wikidata:Q58705	Аравийское море
+N27	Reference T26 Wikidata:Q789915	Государственный департамент США
+N28	Reference T28 Wikidata:Q794	Иран
+N29	Reference T6 Wikidata:Q794	Иран
+N30	Reference T2 Wikidata:Q794	Иран
+N31	Reference T17 Wikidata:Q805	Йемен
+N32	Reference T25 Wikidata:Q805	Йемен
+N33	Reference T7 Wikidata:Q805	Йемен
+N34	Reference T3 Wikidata:Q805	Йемен
+N35	Reference T21 Wikidata:Q805	Йемен
+N36	Reference T8 Wikidata:Q37470	Совет Безопасности ООН
+N37	Reference T43 Wikidata:Q789915	Государственный департамент США
+N38	Reference T9 Wikidata:Q1065	Организация Объединённых Наций
+N39	Reference T33 Wikidata:Q37470	Совет Безопасности ООН

@@ -1,0 +1,154 @@
+T1	PERSON 0 8	Медведев
+T3	PERSON 26 33	Якунина
+T4	PERSON 45 53	Мишарина
+T5	PERSON 57 72	Владимир Якунин
+T6	PERSON 73 90	Александр Мишарин
+T7	PROFESSION 149 158	главы РЖД
+T8	PERSON 159 176	Владимира Якунина
+T9	PERSON 195 214	Александра Мишарина
+T10	PERSON 232 238	Якунин
+T12	AGE 311 319	65-летие
+T13	DATE 331 348	30 июня 2013 года
+T14	PERSON 351 366	Владимир Якунин
+T15	PROFESSION 380 390	президента
+T17	PERSON 446 463	Александр Мишарин
+T18	PROFESSION 502 525	первого вице-президента
+T19	PROFESSION 547 559	губернатором
+T20	STATE_OR_PROVINCE 560 580	Свердловской области
+T23	COUNTRY 669 675	России
+T24	COUNTRY 756 767	российскими
+T25	ORGANIZATION 817 855	пресс-служба кабинета министров России
+T26	ORGANIZATION 911 940	пресс-служба Правительства РФ
+T27	PROFESSION 995 1004	главы РЖД
+T28	PERSON 1005 1012	Якунина
+T29	PROFESSION 16 25	главу РЖД
+T30	ORGANIZATION 22 25	РЖД
+T31	DATE 91 108	19 июня 2013 года
+T32	PERSON 109 125	Дмитрий Медведев
+T2	ORGANIZATION 155 158	РЖД
+T34	AGE 284 304	пенсионного возраста
+T35	PROFESSION 380 422	президента ОАО «Российские железные дороги
+T37	ORGANIZATION 396 422	Российские железные дороги
+T38	DATE 464 483	с декабря 2012 года
+T39	PROFESSION 502 529	первого вице-президента РЖД
+T40	PROFESSION 510 529	вице-президента РЖД
+T41	ORGANIZATION 526 529	РЖД
+T44	PROFESSION 547 580	губернатором Свердловской области
+T45	PROFESSION 582 622	начальником Свердловской железной дороги
+T46	LOCATION 594 606	Свердловской
+T47	ORGANIZATION 594 622	Свердловской железной дороги
+T48	PROFESSION 624 675	первым заместителем министра путей сообщения России
+T49	PROFESSION 631 675	заместителем министра путей сообщения России
+T52	ORGANIZATION 830 855	кабинета министров России
+T53	PROFESSION 839 848	министров
+T54	ORGANIZATION 830 848	кабинета министров
+T55	COUNTRY 849 855	России
+T56	ORGANIZATION 924 940	Правительства РФ
+T57	COUNTRY 938 940	РФ
+T58	ORGANIZATION 1001 1004	РЖД
+T59	ORGANIZATION 1029 1040	Викиновости
+T60	EVENT 9 15	уволил
+R1	WORKS_AS Arg1:T3 Arg2:T29	
+T61	EVENT 36 44	назначил
+R2	AGENT Arg1:T1 Arg2:T60	
+R3	AGENT Arg1:T1 Arg2:T61	
+R4	PARTICIPANT_IN Arg1:T4 Arg2:T61	
+R5	PARTICIPANT_IN Arg1:T3 Arg2:T60	
+R6	WORKPLACE Arg1:T29 Arg2:T30	
+R7	WORKPLACE Arg1:T3 Arg2:T30	
+R8	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R9	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T32	
+T62	EVENT 126 148	освободил от должности
+R11	ALTERNATIVE_NAME Arg1:T60 Arg2:T62	
+R12	POINT_IN_TIME Arg1:T62 Arg2:T31	
+R13	AGENT Arg1:T32 Arg2:T62	
+R14	PARTICIPANT_IN Arg1:T8 Arg2:T62	
+R15	WORKPLACE Arg1:T7 Arg2:T2	
+R16	WORKS_AS Arg1:T8 Arg2:T7	
+R17	WORKPLACE Arg1:T8 Arg2:T2	
+T63	EVENT 179 187	назначил
+R18	PARTICIPANT_IN Arg1:T9 Arg2:T63	
+R19	AGENT Arg1:T32 Arg2:T63	
+R20	POINT_IN_TIME Arg1:T63 Arg2:T31	
+T64	EVENT 239 245	уволен
+R21	PARTICIPANT_IN Arg1:T10 Arg2:T64	
+T11	DATE 246 269	менее чем за две недели
+R22	AGE_IS Arg1:T10 Arg2:T12	
+R23	WORKPLACE Arg1:T35 Arg2:T37	
+T16	DATE 424 443	с 14 июня 2005 года
+R24	WORKS_AS Arg1:T14 Arg2:T35	
+R25	WORKPLACE Arg1:T14 Arg2:T37	
+R26	ABBREVIATION Arg1:T37 Arg2:T2	
+T33	COUNTRY 396 406	Российские
+R27	HEADQUARTERED_IN Arg1:T37 Arg2:T33	
+R28	WORKPLACE Arg1:T39 Arg2:T41	
+R29	WORKS_AS Arg1:T17 Arg2:T39	
+R30	WORKPLACE Arg1:T17 Arg2:T41	
+R31	WORKPLACE Arg1:T44 Arg2:T20	
+R32	HEADQUARTERED_IN Arg1:T47 Arg2:T46	
+R33	WORKPLACE Arg1:T45 Arg2:T47	
+R34	WORKS_AS Arg1:T17 Arg2:T44	
+R35	WORKS_AS Arg1:T17 Arg2:T45	
+R36	ALTERNATIVE_NAME Arg1:T33 Arg2:T23	
+R37	LOCATED_IN Arg1:T20 Arg2:T23	
+R38	WORKS_AS Arg1:T17 Arg2:T48	
+R39	PART_OF Arg1:T25 Arg2:T52	
+R40	HEADQUARTERED_IN Arg1:T52 Arg2:T55	
+R41	WORKPLACE Arg1:T53 Arg2:T54	
+R42	HEADQUARTERED_IN Arg1:T56 Arg2:T57	
+R43	PART_OF Arg1:T26 Arg2:T56	
+R44	WORKS_AS Arg1:T28 Arg2:T27	
+R45	WORKPLACE Arg1:T28 Arg2:T58	
+R46	WORKPLACE Arg1:T27 Arg2:T58	
+T21	PROFESSION 1044 1052	Эксперты
+R47	ABBREVIATION Arg1:T55 Arg2:T57	
+R48	ALTERNATIVE_NAME Arg1:T52 Arg2:T56	
+R49	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R50	ALTERNATIVE_NAME Arg1:T24 Arg2:T55	
+N6	Reference T19 Wikidata:Q132050	губернатор
+N7	Reference T20 Wikidata:Q5462	Свердловская область
+N8	Reference T23 Wikidata:Q159	Россия
+N17	Reference T46 Wikidata:Q5462	Свердловская область
+N18	Reference T47 Wikidata:Q2095427	Свердловская железная дорога
+N21	Reference T53 Wikidata:Q83307	министр
+N22	Reference T54 Wikidata:Q640506	кабинет министров
+N23	Reference T56 Wikidata:Q1140115	Правительство Российской Федерации
+N24	Reference T58 Wikidata:Q660770	Российские железные дороги
+N25	Reference T59 Wikidata:Q964	Викиновости
+N26	Reference T21 Wikidata:Q381160	эксперт
+N1	Reference T1 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N2	Reference T10 Wikidata:Q699696	
+N3	Reference T15 Wikidata:Q140686	председатель
+N12	Reference T35 Wikidata:NULL	нет данных
+N4	Reference T17 Wikidata:Q2603210	Мишарин, Александр Сергеевич
+N14	Reference T40 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:NULL	нет данных
+N13	Reference T39 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:Q4151343	Губернатор Свердловской области
+N16	Reference T45 Wikidata:NULL	нет данных
+N20	Reference T49 Wikidata:NULL	нет данных
+N19	Reference T48 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:Q159	Россия
+N10	Reference T26 Wikidata:NULL	нет данных
+N11	Reference T27 Wikidata:NULL	нет данных
+N27	Reference T33 Wikidata:Q159	Россия
+N28	Reference T52 Wikidata:Q1140115	Правительство Российской Федерации
+N29	Reference T37 Wikidata:Q660770	Российские железные дороги
+N30	Reference T2 Wikidata:Q660770	Российские железные дороги
+N31	Reference T41 Wikidata:Q660770	Российские железные дороги
+N32	Reference T30 Wikidata:Q660770	Российские железные дороги
+N33	Reference T32 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N34	Reference T8 Wikidata:Q699696	
+N35	Reference T5 Wikidata:Q699696	
+N36	Reference T14 Wikidata:Q699696	
+N37	Reference T3 Wikidata:Q699696	
+N38	Reference T28 Wikidata:Q699696	
+N39	Reference T6 Wikidata:Q2603210	Мишарин, Александр Сергеевич
+N40	Reference T9 Wikidata:Q2603210	Мишарин, Александр Сергеевич
+N41	Reference T4 Wikidata:Q2603210	Мишарин, Александр Сергеевич
+N42	Reference T55 Wikidata:Q159	Россия
+N43	Reference T57 Wikidata:Q159	Россия
+N44	Reference T25 Wikidata:NULL	нет данных
+N45	Reference T7 Wikidata:NULL	нет данных
+N46	Reference T29 Wikidata:NULL	нет данных

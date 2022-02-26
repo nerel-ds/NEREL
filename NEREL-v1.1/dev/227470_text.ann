@@ -1,0 +1,192 @@
+T1	PERSON 0 15	Валерий Гергиев
+T2	PERSON 18 33	Даниил Трифонов
+T3	CITY 45 54	Нью-Йорке
+T4	DATE 68 84	18 мая 2019 года
+T5	PROFESSION 109 116	дирижёр
+T6	PROFESSION 135 142	пианист
+T7	PERSON 167 182	Даниил Трифонов
+T8	CITY 198 210	нью-йоркском
+T10	FACILITY 211 224	Карнеги-холле
+T11	PROFESSION 242 254	пресс-атташе
+T12	PERSON 274 287	Анна Яковлева
+T13	ORGANIZATION 324 366	Симфоническим оркестром Метрополитен-оперы
+T14	DATE 368 374	18 мая
+T15	ORGANIZATION 402 444	Симфоническим оркестром Метрополитен-оперы
+T16	CITY 454 467	нью-йоркского
+T18	FACILITY 468 481	Карнеги-холла
+T19	EVENT 496 504	концерте
+T20	ORDINAL 548 551	XIV
+T21	PERSON 600 615	Даниил Трифонов
+T22	EVENT 618 625	Концерт
+T24	FACILITY 663 676	Карнеги-холле
+T27	PERSON 745 759	Роберта Шумана
+T28	ORDINAL 769 776	Девятая
+T30	PERSON 796 804	Яковлева
+T31	PERSON 839 848	Трифонова
+T32	DATE 905 912;922 931	30 июня 2019 года
+T33	DATE 915 931	1 июля 2019 года
+T35	EVENT 984 1002	Звёзды белых ночей
+T36	ORDINAL 1007 1013	первый
+T37	ORGANIZATION 1070 1088	Мариинского театра
+T38	PERSON 1105 1113	Гергиева
+T39	ORDINAL 1117 1123	второе
+T40	PERSON 1168 1177	Георгиева
+T41	PERSON 1180 1189	Трифонова
+T42	DATE 1212 1223	в 2011 году
+T43	AGE 1224 1238	двадцатилетний
+T44	PROFESSION 1253 1260	пианист
+T45	PROFESSION 1276 1283	маэстро
+T46	PERSON 1393 1401	Гергиева
+T47	FACILITY 55 67	Карнеги-холл
+T48	AWARD 85 107	народный артист России
+T49	COUNTRY 101 107	России
+T50	PROFESSION 94 100	артист
+T51	PROFESSION 242 273	пресс-атташе Мариинского театра
+T52	PERSON 117 132	Валерий Гергиев
+T53	AWARD 153 166	премии Grammy
+T54	AWARD 160 166	Grammy
+T9	ORGANIZATION 255 273	Мариинского театра
+T55	ORGANIZATION 348 366	Метрополитен-оперы
+T56	PERSON 375 390	Валерий Гергиев
+T57	ORGANIZATION 426 444	Метрополитен-оперы
+T17	AWARD 529 535	Grammy
+T58	EVENT 548 599	XIV Международного конкурса имени Петра Чайковского
+T59	EVENT 552 599	Международного конкурса имени Петра Чайковского
+T60	PERSON 582 599	Петра Чайковского
+T25	WORK_OF_ART 769 785	Девятая симфония
+T29	PERSON 786 793	Шуберта
+T23	WORK_OF_ART 710 744	Концерт для фортепиано с оркестром
+T26	FACILITY 851 885	Концертном зале Мариинского театра
+T61	ORGANIZATION 867 885	Мариинского театра
+T62	EVENT 954 1002	XXVII Музыкальному фестивалю «Звёзды белых ночей
+T63	ORDINAL 954 959	XXVII
+T64	DATE 1005 1019	В первый вечер
+T65	PERSON 1020 1028	Трифонов
+T66	AWARD 1284 1319	Гран-при Конкурса имени Чайковского
+T67	EVENT 1293 1319	Конкурса имени Чайковского
+T68	PERSON 1308 1319	Чайковского
+R1	LOCATED_IN Arg1:T10 Arg2:T8	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R3	WORKS_AS Arg1:T52 Arg2:T5	
+R4	AWARDED_WITH Arg1:T52 Arg2:T48	
+R5	AWARDED_WITH Arg1:T7 Arg2:T53	
+R6	WORKS_AS Arg1:T7 Arg2:T6	
+T69	EVENT 188 195	концерт
+R7	POINT_IN_TIME Arg1:T69 Arg2:T4	
+R8	AGENT Arg1:T52 Arg2:T69	
+R9	AGENT Arg1:T7 Arg2:T69	
+R10	TAKES_PLACE_IN Arg1:T69 Arg2:T10	
+R11	ORIGINS_FROM Arg1:T53 Arg2:T54	
+R12	ORIGINS_FROM Arg1:T48 Arg2:T49	
+T70	PERSON 255 266	Мариинского
+R13	ORIGINS_FROM Arg1:T9 Arg2:T70	
+R14	WORKPLACE Arg1:T51 Arg2:T9	
+R15	WORKPLACE Arg1:T12 Arg2:T9	
+R16	WORKS_AS Arg1:T12 Arg2:T51	
+R17	PART_OF Arg1:T13 Arg2:T55	
+R18	PART_OF Arg1:T15 Arg2:T57	
+T71	EVENT 391 399	выступит
+R19	AGENT Arg1:T56 Arg2:T71	
+R20	PARTICIPANT_IN Arg1:T15 Arg2:T71	
+R21	POINT_IN_TIME Arg1:T71 Arg2:T14	
+R22	TAKES_PLACE_IN Arg1:T71 Arg2:T18	
+R23	LOCATED_IN Arg1:T18 Arg2:T16	
+T72	AWARD 522 535	премии Grammy
+R24	ORIGINS_FROM Arg1:T72 Arg2:T17	
+T73	AWARD 537 599	победитель XIV Международного конкурса имени Петра Чайковского
+R25	ORIGINS_FROM Arg1:T59 Arg2:T60	
+R26	AWARDED_WITH Arg1:T21 Arg2:T73	
+R27	AWARDED_WITH Arg1:T21 Arg2:T72	
+R28	PARTICIPANT_IN Arg1:T21 Arg2:T58	
+R29	SUBEVENT_OF Arg1:T58 Arg2:T59	
+R30	PARTICIPANT_IN Arg1:T21 Arg2:T19	
+R31	ORIGINS_FROM Arg1:T73 Arg2:T58	
+R32	TAKES_PLACE_IN Arg1:T22 Arg2:T24	
+R33	PRODUCES Arg1:T27 Arg2:T23	
+R34	PRODUCES Arg1:T29 Arg2:T25	
+T74	EVENT 690 696	вечера
+R35	ALTERNATIVE_NAME Arg1:T22 Arg2:T74	
+R36	INANIMATE_INVOLVED Arg1:T23 Arg2:T74	
+R37	INANIMATE_INVOLVED Arg1:T25 Arg2:T74	
+R38	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R39	ALTERNATIVE_NAME Arg1:T21 Arg2:T31	
+T75	PERSON 867 878	Мариинского
+R40	ORIGINS_FROM Arg1:T61 Arg2:T75	
+R41	PART_OF Arg1:T26 Arg2:T61	
+T76	EVENT 827 838	выступления
+R42	AGENT Arg1:T31 Arg2:T76	
+R43	TAKES_PLACE_IN Arg1:T76 Arg2:T26	
+R44	POINT_IN_TIME Arg1:T76 Arg2:T32	
+R45	POINT_IN_TIME Arg1:T76 Arg2:T32	
+R46	SUBEVENT_OF Arg1:T62 Arg2:T35	
+T34	PERSON 1070 1081	Мариинского
+R47	ORIGINS_FROM Arg1:T37 Arg2:T34	
+R48	ALTERNATIVE_NAME Arg1:T56 Arg2:T38	
+R49	KNOWS Arg1:T40 Arg2:T41	
+R50	WORKS_AS Arg1:T41 Arg2:T44	
+R51	AGE_IS Arg1:T44 Arg2:T43	
+R52	WORKS_AS Arg1:T40 Arg2:T45	
+R53	ALTERNATIVE_NAME Arg1:T60 Arg2:T68	
+R54	ORIGINS_FROM Arg1:T67 Arg2:T68	
+R55	AWARDED_WITH Arg1:T41 Arg2:T66	
+R56	ORIGINS_FROM Arg1:T66 Arg2:T67	
+R57	ALTERNATIVE_NAME Arg1:T4 Arg2:T14	
+R58	ALTERNATIVE_NAME Arg1:T71 Arg2:T19	
+R59	SUBEVENT_OF Arg1:T76 Arg2:T62	
+T77	EVENT 1035 1044	выступать
+R60	AGENT Arg1:T65 Arg2:T77	
+R61	POINT_IN_TIME Arg1:T77 Arg2:T64	
+R63	WORKPLACE Arg1:T38 Arg2:T37	
+N1	Reference T5 Wikidata:Q158852	дирижёр
+N2	Reference T6 Wikidata:Q486748	пианист
+N6	Reference T27 Wikidata:Q7351	Роберт Шуман
+N8	Reference T37 Wikidata:Q207028	Мариинский театр
+N11	Reference T47 Wikidata:Q200959	Карнеги-холл
+N12	Reference T48 Wikidata:Q1857712	Народный артист Российской Федерации
+N13	Reference T49 Wikidata:Q159	Россия
+N14	Reference T50 Wikidata:Q483501	деятель искусств
+N16	Reference T52 Wikidata:Q165693	Валерий Абисалович Гергиев
+N17	Reference T53 Wikidata:Q41254	«Грэмми»
+N18	Reference T55 Wikidata:Q10583424	Метрополитен-опера
+N19	Reference T17 Wikidata:Q41254	«Грэмми»
+N20	Reference T25 Wikidata:Q511538	Симфония № 9
+N21	Reference T29 Wikidata:Q7312	Франц Шуберт
+N23	Reference T26 Wikidata:Q4231897	Концертный зал Мариинского театра
+N25	Reference T68 Wikidata:Q7315	Пётр Ильич Чайковский
+N3	Reference T11 Wikidata:Q2358549	
+N15	Reference T51 Wikidata:NULL	нет данных
+N9	Reference T40 Wikidata:Q165693	Валерий Абисалович Гергиев
+N10	Reference T45 Wikidata:Q1836630	
+N24	Reference T66 Wikidata:NULL	нет данных
+N28	Reference T65 Wikidata:Q2635946	
+N7	Reference T30 Wikidata:NULL	нет данных
+N27	Reference T75 Wikidata:Q155585	
+N22	Reference T23 Wikidata:Q999104	Концерт для фортепиано с оркестром
+N26	Reference T73 Wikidata:NULL	нет данных
+N5	Reference T16 Wikidata:Q60	Нью-Йорк
+N4	Reference T13 Wikidata:NULL	нет данных
+N29	Reference T44 Wikidata:Q486748	пианист
+N30	Reference T61 Wikidata:Q207028	Мариинский театр
+N31	Reference T9 Wikidata:Q207028	Мариинский театр
+N32	Reference T18 Wikidata:Q200959	Карнеги-холл
+N33	Reference T24 Wikidata:Q200959	Карнеги-холл
+N34	Reference T10 Wikidata:Q200959	Карнеги-холл
+N35	Reference T56 Wikidata:Q165693	Валерий Абисалович Гергиев
+N36	Reference T38 Wikidata:Q165693	Валерий Абисалович Гергиев
+N37	Reference T46 Wikidata:Q165693	Валерий Абисалович Гергиев
+N38	Reference T1 Wikidata:Q165693	Валерий Абисалович Гергиев
+N39	Reference T72 Wikidata:Q41254	«Грэмми»
+N40	Reference T57 Wikidata:Q10583424	Метрополитен-опера
+N41	Reference T54 Wikidata:Q41254	«Грэмми»
+N42	Reference T60 Wikidata:Q7315	Пётр Ильич Чайковский
+N43	Reference T31 Wikidata:Q2635946	
+N44	Reference T7 Wikidata:Q2635946	
+N45	Reference T2 Wikidata:Q2635946	
+N46	Reference T41 Wikidata:Q2635946	
+N47	Reference T21 Wikidata:Q2635946	
+N48	Reference T12 Wikidata:NULL	нет данных
+N49	Reference T70 Wikidata:Q155585	
+N50	Reference T34 Wikidata:Q155585	
+N51	Reference T8 Wikidata:Q60	Нью-Йорк
+N52	Reference T3 Wikidata:Q60	Нью-Йорк
+N53	Reference T15 Wikidata:NULL	нет данных

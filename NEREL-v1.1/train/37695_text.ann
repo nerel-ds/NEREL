@@ -1,0 +1,811 @@
+T1	PERSON 0 6	Сурков
+T2	PERSON 24 40	Владислав Сурков
+T4	DATE 41 56	8 мая 2013 года
+T5	PROFESSION 57 66	Президент
+T6	PERSON 74 88	Владимир Путин
+T7	LAW 98 119	Указ «О Суркове В. Ю.
+T8	LAW 104 119	О Суркове В. Ю.
+T9	LAW 179 231	пунктом д статьи 83 Конституции Российской Федерации
+T11	PERSON 243 270	Суркова Владислава Юрьевича
+T12	PROFESSION 284 343	Заместителя Председателя Правительства Российской Федерации
+T13	COUNTRY 380 400	Российской Федерации
+T14	PROFESSION 427 442	Пресс-секретарь
+T15	PERSON 482 488	Сурков
+T16	ORGANIZATION 742 752	Белом доме
+T17	PERSON 854 860	Сурков
+T18	PROFESSION 907 916	Президент
+T19	PERSON 938 945	Суркова
+T20	PERSON 1027 1042	Владимир Маркин
+T21	PROFESSION 1053 1068	пресс-секретаря
+T22	PERSON 1140 1160	Владиславом Сурковым
+T24	PERSON 1207 1224	Владимира Маркина
+T25	DATE 1285 1305	Несколько дней назад
+T26	EVENT 1313 1324	выступления
+T28	ORGANIZATION 1327 1353	Лондонской школе экономики
+T30	ORGANIZATION 1506 1514	Сколково
+T31	ORGANIZATION 1517 1519	СК
+T32	ORGANIZATION 1581 1589	Сколково
+T33	PERSON 1665 1680	Владимир Маркин
+T34	ORGANIZATION 1703 1712	Известиях
+T35	CITY 1739 1746	Лондона
+T36	PERSON 1792 1799	Суркову
+T37	PROFESSION 1904 1920	вице-губернатора
+T38	ORGANIZATION 2004 2026	Следственного комитета
+T39	ORGANIZATION 2032 2046	Счетной палаты
+T40	ORGANIZATION 2131 2134	BBC
+T41	ORGANIZATION 2156 2177	Amnesty International
+T42	CITY 2273 2284	московского
+T43	CITY 2299 2306	Лондоне
+T44	PERSON 2398 2414	Владислав Сурков
+T45	PERSON 2436 2442	Сурков
+T46	PERSON 2479 2486	Маркина
+T47	PERSON 2544 2553	Владислав
+T48	PRODUCT 2583 2590	Твиттер
+T49	PERSON 2648 2654	Маркин
+T50	PERSON 2751 2765	Дмитрий Песков
+T51	PERSON 2773 2779	Песков
+T52	DATE 2826 2848	Вчера, 7 мая 2013 года
+T53	PERSON 2850 2864	Владимир Путин
+T54	PERSON 3058 3075	Владимиром Путины
+T55	PROFESSION 3109 3120	президентом
+T56	PERSON 3186 3192	Путина
+T57	ORGANIZATION 3198 3211	правительство
+T58	ORGANIZATION 3224 3249	администрацией президента
+T59	PERSON 3320 3336	Владислав Сурков
+T60	DATE 3381 3400	26 апреля 2013 года
+T61	PROFESSION 3529 3544	пресс-секретарь
+T62	PERSON 3554 3570	Наталья Тимакова
+T63	PERSON 3585 3601	Дмитрий Медведев
+T64	PERSON 3635 3652	Аркадий Дворкович
+T65	PERSON 3695 3702	Суркова
+T66	PERSON 3793 3811	Владислава Суркова
+T67	PROFESSION 3852 3865	вице-премьера
+T70	PERSON 3981 3995	В. Ю. Сурковым
+T73	PERSON 4011 4026	А. В. Дворкович
+T74	PERSON 4059 4066	Суркова
+T75	PERSON 4080 4096	Владислав Сурков
+T76	PERSON 4099 4115	Дмитрий Медведев
+T77	PROFESSION 4120 4127	депутат
+T78	ORGANIZATION 4140 4159	Справедливой России
+T79	PERSON 4161 4175	Илья Пономарёв
+T80	PERSON 4250 4257	Суркова
+T81	ORGANIZATION 4284 4297	правительству
+T82	PERSON 4333 4349	Владимира Путина
+T83	PERSON 4362 4369	Суркова
+T84	PERSON 4378 4384	Сурков
+T85	PERSON 4411 4428	Дмитрия Медведева
+T86	PERSON 4431 4447	Владислав Сурков
+T87	PERSON 4448 4464	Владислав Сурков
+T88	EVENT 4468 4474	съезде
+T89	PERSON 4483 4499	Владислав Сурков
+T90	PERSON 4501 4516	Дмитрий Рогозин
+T91	PERSON 4519 4536	Аркадий Дворкович
+T92	PERSON 4632 4656	Владислав Юрьевич Сурков
+T93	DATE 4665 4686	21 сентября 1964 года
+T94	PERSON 4732 4760	Дудаев Асламбек Андарбекович
+T95	PERSON 4790 4808	Владислава Суркова
+T96	PERSON 4856 4872	Владислав Сурков
+T97	CITY 4888 4896	Солнцеве
+T98	STATE_OR_PROVINCE 4897 4913	Липецкой области
+T99	CITY 4941 4949	Дуба-Юрт
+T100	STATE_OR_PROVINCE 4950 4988	Чечено-Ингушской Автономной Республики
+T102	PERSON 4996 5014	Владислава Суркова
+T103	PERSON 5017 5046	Дудаев Андарбек Данильбекович
+T104	PERSON 5055 5059	Юрий
+T105	PERSON 5096 5117	Суркова Зоя Антоновна
+T106	CITY 5137 5149	дуба-юртской
+T108	AGE 5193 5201	пяти лет
+T109	CITY 5239 5245	Скопин
+T111	ORGANIZATION 5275 5311	Московском институте стали и сплавов
+T112	ORGANIZATION 5313 5318	МИСиС
+T113	DATE 5320 5337	в 1982—1983 годах
+T114	DATE 5340 5348	три года
+T115	ORGANIZATION 5353 5382	Московском институте культуры
+T116	ORGANIZATION 5386 5446	факультете режиссуры массовых театрализованных представлений
+T117	DATE 5473 5484	В 1987 году
+T118	ORGANIZATION 5511 5559	Центра межотраслевых научно-технических программ
+T120	PERSON 5578 5597	Михаил Ходорковский
+T121	ORGANIZATION 5601 5628	Фонда молодёжной инициативы
+T122	ORGANIZATION 5633 5652	Фрунзенском райкоме
+T123	ORGANIZATION 5653 5658	ВЛКСМ
+T124	PROFESSION 5691 5704	телохранителя
+T125	DATE 5721 5732	В 1988 году
+T126	ORGANIZATION 5777 5786	Метапресс
+T127	DATE 5790 5810	В конце 1990-х годов
+T128	ORGANIZATION 5819 5844	Международный университет
+T129	CITY 5847 5853	Москве
+T130	DATE 5856 5867	В 1992 году
+T131	PROFESSION 5870 5879	президент
+T132	PROFESSION 5881 5895	вице-президент
+T133	DATE 5935 5952	В 1991—1996 годах
+T136	ORGANIZATION 6030 6037	Менатеп
+T137	PERSON 6070 6089	Михаил Ходорковский
+T138	ORGANIZATION 6114 6121	Менатеп
+T139	DATE 6124 6141	В 1996—1997 годах
+T143	ORGANIZATION 6314 6324	Альфа-Банк
+T144	DATE 6327 6344	В 1998—1999 годах
+T145	PROFESSION 6347 6365	первый заместитель
+T146	PROFESSION 6390 6426	директор по связям с общественностью
+T147	ORGANIZATION 6432 6467	Общественное российское телевидение
+T148	DATE 6471 6482	Долгие годы
+T149	PERSON 6483 6489	Сурков
+T150	COUNTRY 6527 6537	российских
+T151	DATE 6550 6561	В 1999 году
+T153	DATE 6633 6652	С августа 1999 года
+T155	ORGANIZATION 6777 6790	Единая Россия
+T156	ORGANIZATION 6812 6821	Интерфакс
+T157	DATE 6822 6837	27 декабря 2011
+T159	PROFESSION 6955 6965	президенту
+T160	PROFESSION 7034 7044	президенту
+T161	DATE 7092 7109	С марта 2004 года
+T164	ORGANIZATION 7259 7272	Идущие вместе
+T165	DATE 7275 7279	2000
+T166	ORGANIZATION 7293 7297	Наши
+T167	DATE 7300 7308	2005 год
+T168	DATE 7311 7329	С 15 мая 2008 года
+T170	DATE 7411 7422	С 2010 года
+T173	DATE 7471 7491	27 декабря 2011 года
+T174	PROFESSION 7503 7517	вице-премьером
+T3	PROFESSION 57 73	Президент России
+T175	COUNTRY 67 73	России
+T176	PROFESSION 139 148	чиновника
+T177	EVENT 15 23	отставку
+T178	EVENT 151 159	отставку
+T10	COUNTRY 211 231	Российской Федерации
+T179	LAW 199 231	Конституции Российской Федерации
+T180	LAW 199 210	Конституции
+T181	LAW 189 231	статьи 83 Конституции Российской Федерации
+T183	ORGANIZATION 309 343	Правительства Российской Федерации
+T184	COUNTRY 323 343	Российской Федерации
+T185	PROFESSION 344 400	Руководителя Аппарата Правительства Российской Федерации
+T186	ORGANIZATION 357 400	Аппарата Правительства Российской Федерации
+T187	ORGANIZATION 366 400	Правительства Российской Федерации
+T188	PROFESSION 427 453	Пресс-секретарь президента
+T189	PROFESSION 443 453	президента
+T190	PERSON 454 468	Дмитрий Песков
+T191	EVENT 497 505	отставку
+T192	PROFESSION 524 542	главой государства
+T193	PROFESSION 581 591	президента
+T194	PROFESSION 685 695	президента
+T195	EVENT 949 959	увольнении
+T196	EVENT 1124 1133	конфликта
+T197	PROFESSION 1163 1206	представителя Следственного комитета России
+T198	ORGANIZATION 1177 1206	Следственного комитета России
+T199	COUNTRY 1200 1206	России
+T200	PROFESSION 1253 1263	журналисты
+T201	EVENT 1274 1282	отставку
+T27	CITY 1327 1337	Лондонской
+T202	PROFESSION 1354 1389	руководитель аппарата Правительства
+T203	ORGANIZATION 1367 1389	аппарата Правительства
+T204	ORGANIZATION 1376 1389	Правительства
+T205	ORGANIZATION 1452 1472	следственных органов
+T206	CRIME 1481 1490	коррупции
+T207	PROFESSION 1592 1603	следователи
+T208	PROFESSION 1842 1852	менеджеров
+T212	PROFESSION 2204 2212	кураторы
+T213	PROFESSION 2231 2241	менеджеров
+T215	PERSON 2415 2429	Владимир Путин
+T216	DATE 2430 2435	Вчера
+T217	PROFESSION 2495 2506	журналистам
+T219	EVENT 2815 2823	отставки
+T220	EVENT 2872 2881	совещание
+T221	ORGANIZATION 2892 2905	правительства
+T222	PROFESSION 2884 2905	членами правительства
+T223	PROFESSION 2932 2942	чиновников
+T224	PERSON 3035 3041	Сурков
+T225	EVENT 3025 3034	заседании
+T226	EVENT 3161 3170	совещания
+T227	PERSON 3171 3177	Сурков
+T228	PROFESSION 3239 3249	президента
+T229	EVENT 3362 3370	отставке
+T230	PROFESSION 3529 3553	пресс-секретарь премьера
+T231	EVENT 3624 3632	отставки
+T232	ORGANIZATION 3749 3767	кабинета министров
+T234	PERSON 3866 3884	Аркадия Дворковича
+T68	EVENT 4050 4058	отставку
+T69	PROFESSION 4120 4135	депутат Госдумы
+T71	ORGANIZATION 4128 4135	Госдумы
+T235	ORGANIZATION 4476 4481	Наших
+T236	PROFESSION 4537 4593	Руководитель аппарата Правительства Российской Федерации
+T238	ORGANIZATION 4550 4593	аппарата Правительства Российской Федерации
+T239	ORGANIZATION 4559 4593	Правительства Российской Федерации
+T240	COUNTRY 4573 4593	Российской Федерации
+T241	IDEOLOGY 4610 4631	суверенной демократии
+T243	PROFESSION 4837 4854	президента России
+T244	PROFESSION 4837 4847	президента
+T245	COUNTRY 4848 4854	России
+T246	STATE_OR_PROVINCE 5246 5263	Рязанской области
+T101	PROFESSION 5126 5134	учителем
+T247	EVENT 5164 5171	развода
+T107	CITY 5275 5285	Московском
+T248	CITY 5353 5363	Московском
+T119	ORGANIZATION 5633 5658	Фрунзенском райкоме ВЛКСМ
+T249	PERSON 5705 5718	Ходорковского
+T250	PROFESSION 5691 5718	телохранителя Ходорковского
+T252	PROFESSION 5881 5932	вице-президент Российской ассоциации рекламодателей
+T254	ORGANIZATION 5896 5932	Российской ассоциации рекламодателей
+T255	ORGANIZATION 6183 6236	Департамента по связям с общественностью ЗАО «Роспром
+T256	ORGANIZATION 6229 6236	Роспром
+T257	PROFESSION 6170 6236	руководитель Департамента по связям с общественностью ЗАО «Роспром
+T258	ORDINAL 6239 6245	первый
+T261	PROFESSION 6239 6324	первый заместитель председателя Совета Коммерческого инновационного банка «Альфа-Банк
+T264	PROFESSION 6347 6388	первый заместитель генерального директора
+T267	PROFESSION 6390 6467	директор по связям с общественностью ОАО «Общественное российское телевидение
+T269	PROFESSION 6538 6547	политиков
+T270	PROFESSION 6564 6631	помощник руководителя Администрации Президента Российской Федерации
+T274	PROFESSION 6655 6725	заместитель руководителя Администрации Президента Российской Федерации
+T276	ORGANIZATION 6271 6324	Совета Коммерческого инновационного банка «Альфа-Банк
+T277	ORDINAL 6347 6353	первый
+T279	ORGANIZATION 6586 6631	Администрации Президента Российской Федерации
+T280	ORGANIZATION 6586 6610	Администрации Президента
+T281	PROFESSION 6600 6610	Президента
+T282	PROFESSION 6600 6631	Президента Российской Федерации
+T283	COUNTRY 6611 6631	Российской Федерации
+T284	ORGANIZATION 6680 6725	Администрации Президента Российской Федерации
+T285	ORGANIZATION 6680 6704	Администрации Президента
+T286	PROFESSION 6694 6725	Президента Российской Федерации
+T287	PROFESSION 6694 6704	Президента
+T288	COUNTRY 6705 6725	Российской Федерации
+T289	EVENT 6842 6850	отставке
+T290	PROFESSION 6859 6899	замглавы Администрации Президента России
+T291	ORGANIZATION 6868 6899	Администрации Президента России
+T292	ORGANIZATION 6868 6892	Администрации Президента
+T293	PROFESSION 6882 6899	Президента России
+T294	PROFESSION 6882 6892	Президента
+T295	COUNTRY 6893 6899	России
+T296	PERSON 6900 6906	Сурков
+T297	PERSON 6966 6973	Ельцину
+T298	PERSON 7045 7051	Путину
+T299	PROFESSION 7112 7182	заместитель руководителя Администрации Президента Российской Федерации
+T302	PROFESSION 7185 7225	помощник Президента Российской Федерации
+T303	PROFESSION 7194 7225	Президента Российской Федерации
+T304	PROFESSION 7194 7204	Президента
+T305	PROFESSION 7151 7182	Президента Российской Федерации
+T306	PROFESSION 7151 7161	Президента
+T307	PROFESSION 7332 7409	первый заместитель руководителя администрации Президента Российской Федерации
+T310	PROFESSION 7378 7409	Президента Российской Федерации
+T311	PROFESSION 7378 7388	Президента
+T314	PROFESSION 7425 7468	член попечительского совета Фонда «Сколково
+T315	PROFESSION 7503 7534	вице-премьером Правительства РФ
+T318	ORGANIZATION 7137 7182	Администрации Президента Российской Федерации
+T319	ORGANIZATION 7137 7161	Администрации Президента
+T320	COUNTRY 7162 7182	Российской Федерации
+T321	COUNTRY 7205 7225	Российской Федерации
+T322	ORDINAL 7332 7338	первый
+T323	ORGANIZATION 7364 7409	администрации Президента Российской Федерации
+T324	ORGANIZATION 7364 7388	администрации Президента
+T326	ORGANIZATION 7460 7468	Сколково
+T327	ORGANIZATION 7518 7534	Правительства РФ
+T328	COUNTRY 7389 7409	Российской Федерации
+T329	COUNTRY 7532 7534	РФ
+T172	PROFESSION 6144 6168;6183 6237	заместитель руководителя Департамента по связям с общественностью ЗАО «Роспром»
+T330	PROFESSION 6239 6257	первый заместитель
+T171	ORGANIZATION 7430 7468	попечительского совета Фонда «Сколково
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	AGENT Arg1:T1 Arg2:T177	
+R3	WORKPLACE Arg1:T3 Arg2:T175	
+T110	PERSON 106 119	Суркове В. Ю.
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T110	
+R5	WORKS_AS Arg1:T6 Arg2:T3	
+T218	EVENT 89 102	подписал Указ
+R6	POINT_IN_TIME Arg1:T218 Arg2:T4	
+R7	AGENT Arg1:T6 Arg2:T218	
+R8	PRODUCES Arg1:T6 Arg2:T7	
+R9	WORKPLACE Arg1:T6 Arg2:T175	
+R10	WORKS_AS Arg1:T110 Arg2:T176	
+R11	PARTICIPANT_IN Arg1:T110 Arg2:T178	
+R12	AGENT Arg1:T6 Arg2:T178	
+R13	HAS_CAUSE Arg1:T178 Arg2:T218	
+R14	ORIGINS_FROM Arg1:T179 Arg2:T10	
+R15	ALTERNATIVE_NAME Arg1:T175 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T110 Arg2:T11	
+T333	ORDINAL 196 198	83
+T334	LAW 189 231	статьи 83 Конституции Российской Федерации
+R17	HEADQUARTERED_IN Arg1:T183 Arg2:T184	
+R18	WORKPLACE Arg1:T12 Arg2:T183	
+R19	PART_OF Arg1:T186 Arg2:T187	
+R20	HEADQUARTERED_IN Arg1:T187 Arg2:T13	
+R21	WORKS_AS Arg1:T11 Arg2:T12	
+R22	WORKS_AS Arg1:T11 Arg2:T185	
+R23	SUBORDINATE_OF Arg1:T188 Arg2:T189	
+R24	WORKS_AS Arg1:T190 Arg2:T188	
+R25	AGENT Arg1:T15 Arg2:T191	
+R26	ALTERNATIVE_NAME Arg1:T189 Arg2:T192	
+T332	DATE 557 564	майских
+T335	DATE 670 677	майских
+T336	EVENT 861 881	ушёл со своего поста
+R27	ALTERNATIVE_NAME Arg1:T191 Arg2:T336	
+R28	ALTERNATIVE_NAME Arg1:T336 Arg2:T195	
+R29	AGENT Arg1:T17 Arg2:T336	
+R30	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+R31	AGENT Arg1:T18 Arg2:T195	
+R32	PARTICIPANT_IN Arg1:T19 Arg2:T195	
+R33	AGENT Arg1:T22 Arg2:T196	
+R34	AGENT Arg1:T24 Arg2:T196	
+R35	HEADQUARTERED_IN Arg1:T198 Arg2:T199	
+R36	WORKPLACE Arg1:T24 Arg2:T198	
+R37	WORKPLACE Arg1:T197 Arg2:T198	
+R38	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+R39	WORKPLACE Arg1:T202 Arg2:T203	
+R40	TAKES_PLACE_IN Arg1:T26 Arg2:T28	
+R41	PARTICIPANT_IN Arg1:T202 Arg2:T26	
+T23	ORGANIZATION 1177 1199	Следственного комитета
+R42	PART_OF Arg1:T23 Arg2:T205	
+R43	ABBREVIATION Arg1:T23 Arg2:T31	
+T29	CRIME 1493 1502	растратах
+R44	TAKES_PLACE_IN Arg1:T29 Arg2:T30	
+R45	TAKES_PLACE_IN Arg1:T206 Arg2:T30	
+T337	CRIME 1560 1576	злоупотреблениях
+R46	TAKES_PLACE_IN Arg1:T337 Arg2:T32	
+T338	WORK_OF_ART 1730 1746	Глядя из Лондона
+R47	PRODUCES Arg1:T33 Arg2:T338	
+R48	ORIGINS_FROM Arg1:T338 Arg2:T34	
+R50	ORIGINS_FROM Arg1:T33 Arg2:T42	
+R51	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R52	ALTERNATIVE_NAME Arg1:T33 Arg2:T46	
+R53	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+R54	ALTERNATIVE_NAME Arg1:T50 Arg2:T51	
+R55	ORGANIZES Arg1:T53 Arg2:T220	
+R56	POINT_IN_TIME Arg1:T220 Arg2:T52	
+R57	PARTICIPANT_IN Arg1:T222 Arg2:T220	
+R58	MEMBER_OF Arg1:T222 Arg2:T221	
+R59	PARTICIPANT_IN Arg1:T224 Arg2:T225	
+R60	ALTERNATIVE_NAME Arg1:T220 Arg2:T225	
+R61	ALTERNATIVE_NAME Arg1:T54 Arg2:T56	
+R62	ALTERNATIVE_NAME Arg1:T225 Arg2:T226	
+R63	FOUNDED_BY Arg1:T228 Arg2:T58	
+R64	ALTERNATIVE_NAME Arg1:T227 Arg2:T59	
+R65	AGENT Arg1:T59 Arg2:T229	
+T209	PROFESSION 3545 3553	премьера
+R66	SUBORDINATE_OF Arg1:T230 Arg2:T209	
+R67	WORKS_AS Arg1:T62 Arg2:T230	
+R68	WORKS_AS Arg1:T63 Arg2:T209	
+R69	WORKS_AS Arg1:T234 Arg2:T67	
+R70	MEMBER_OF Arg1:T234 Arg2:T232	
+R71	MEMBER_OF Arg1:T63 Arg2:T232	
+R72	ALTERNATIVE_NAME Arg1:T234 Arg2:T73	
+R73	ALTERNATIVE_NAME Arg1:T66 Arg2:T70	
+R74	ALTERNATIVE_NAME Arg1:T70 Arg2:T74	
+R75	PARTICIPANT_IN Arg1:T74 Arg2:T68	
+T211	PERSON 4220 4237	Дмитрия Медведева
+T214	ORGANIZATION 4206 4237	правительству Дмитрия Медведева
+R76	WORKPLACE Arg1:T211 Arg2:T214	
+R77	WORKPLACE Arg1:T69 Arg2:T71	
+R78	ORIGINS_FROM Arg1:T69 Arg2:T78	
+R79	MEMBER_OF Arg1:T79 Arg2:T78	
+R80	WORKS_AS Arg1:T79 Arg2:T69	
+R81	WORKPLACE Arg1:T79 Arg2:T71	
+T233	PERSON 4298 4307	Медведева
+T339	ORGANIZATION 4206 4219	правительству
+T340	ORGANIZATION 4284 4307	правительству Медведева
+R82	WORKPLACE Arg1:T233 Arg2:T340	
+R83	MEMBER_OF Arg1:T80 Arg2:T340	
+R84	ALTERNATIVE_NAME Arg1:T211 Arg2:T233	
+R86	SUBORDINATE_OF Arg1:T234 Arg2:T63	
+R85	SUBORDINATE_OF Arg1:T80 Arg2:T233	
+R87	PARTICIPANT_IN Arg1:T87 Arg2:T88	
+R88	ORGANIZES Arg1:T235 Arg2:T88	
+R89	KNOWS Arg1:T89 Arg2:T90	
+R90	KNOWS Arg1:T90 Arg2:T91	
+R91	KNOWS Arg1:T89 Arg2:T91	
+R92	HEADQUARTERED_IN Arg1:T239 Arg2:T240	
+R93	PART_OF Arg1:T238 Arg2:T239	
+T237	ORGANIZATION 4550 4572	аппарата Правительства
+T341	PROFESSION 4537 4572	Руководитель аппарата Правительства
+R94	WORKPLACE Arg1:T236 Arg2:T238	
+R95	DATE_OF_BIRTH Arg1:T92 Arg2:T93	
+R98	IDEOLOGY_OF Arg1:T92 Arg2:T241	
+R99	ALTERNATIVE_NAME Arg1:T92 Arg2:T94	
+R100	WORKPLACE Arg1:T243 Arg2:T245	
+R101	ALTERNATIVE_NAME Arg1:T240 Arg2:T245	
+R102	LOCATED_IN Arg1:T97 Arg2:T98	
+R106	LOCATED_IN Arg1:T99 Arg2:T100	
+R107	ALTERNATIVE_NAME Arg1:T103 Arg2:T104	
+R108	PARENT_OF Arg1:T103 Arg2:T102	
+R109	PARENT_OF Arg1:T105 Arg2:T102	
+R110	SPOUSE Arg1:T103 Arg2:T105	
+R111	WORKS_AS Arg1:T103 Arg2:T101	
+R112	ALTERNATIVE_NAME Arg1:T99 Arg2:T106	
+R113	LOCATED_IN Arg1:T103 Arg2:T106	
+R114	PARTICIPANT_IN Arg1:T103 Arg2:T247	
+R115	PARTICIPANT_IN Arg1:T105 Arg2:T247	
+R116	LOCATED_IN Arg1:T109 Arg2:T246	
+R117	HEADQUARTERED_IN Arg1:T111 Arg2:T107	
+R118	ABBREVIATION Arg1:T111 Arg2:T112	
+R119	HEADQUARTERED_IN Arg1:T115 Arg2:T248	
+R120	PART_OF Arg1:T116 Arg2:T115	
+R121	WORKPLACE Arg1:T120 Arg2:T118	
+R122	SCHOOLS_ATTENDED Arg1:T102 Arg2:T111	
+R123	SCHOOLS_ATTENDED Arg1:T102 Arg2:T115	
+R124	SCHOOLS_ATTENDED Arg1:T102 Arg2:T116	
+R125	WORKPLACE Arg1:T102 Arg2:T118	
+R126	PART_OF Arg1:T118 Arg2:T121	
+R127	PART_OF Arg1:T119 Arg2:T123	
+T343	CITY 5633 5644	Фрунзенском
+R128	HEADQUARTERED_IN Arg1:T119 Arg2:T343	
+R129	SUBORDINATE_OF Arg1:T250 Arg2:T249	
+R130	PART_OF Arg1:T121 Arg2:T119	
+R131	WORKS_AS Arg1:T102 Arg2:T250	
+R132	ALTERNATIVE_NAME Arg1:T248 Arg2:T129	
+R133	HEADQUARTERED_IN Arg1:T128 Arg2:T129	
+R134	SCHOOLS_ATTENDED Arg1:T102 Arg2:T128	
+T251	COUNTRY 5896 5906	Российской
+R135	HEADQUARTERED_IN Arg1:T254 Arg2:T251	
+R136	LOCATED_IN Arg1:T129 Arg2:T251	
+R137	WORKPLACE Arg1:T252 Arg2:T254	
+R138	WORKPLACE Arg1:T252 Arg2:T251	
+T253	PROFESSION 5870 5879;5896 5932	президент Российской ассоциации рекламодателей
+R139	WORKPLACE Arg1:T253 Arg2:T254	
+R140	WORKPLACE Arg1:T253 Arg2:T251	
+R141	WORKPLACE Arg1:T137 Arg2:T136	
+R142	WORKS_AS Arg1:T102 Arg2:T253	
+R143	WORKS_AS Arg1:T102 Arg2:T252	
+R144	WORKPLACE Arg1:T102 Arg2:T254	
+R145	WORKPLACE Arg1:T102 Arg2:T136	
+R146	ALTERNATIVE_NAME Arg1:T249 Arg2:T137	
+R147	WORKPLACE Arg1:T257 Arg2:T255	
+R148	WORKPLACE Arg1:T172 Arg2:T255	
+R149	PART_OF Arg1:T255 Arg2:T256	
+T134	PROFESSION 6239 6270	первый заместитель председателя
+R150	PART_OF Arg1:T276 Arg2:T143	
+R152	WORKPLACE Arg1:T261 Arg2:T276	
+R151	WORKS_AS Arg1:T102 Arg2:T172	
+R153	WORKS_AS Arg1:T102 Arg2:T257	
+R154	WORKS_AS Arg1:T102 Arg2:T261	
+R155	WORKPLACE Arg1:T102 Arg2:T276	
+R156	WORKPLACE Arg1:T102 Arg2:T255	
+R157	LOCATED_IN Arg1:T98 Arg2:T245	
+R158	LOCATED_IN Arg1:T100 Arg2:T245	
+T135	COUNTRY 6445 6455	российское
+T141	PROFESSION 7185 7204	помощник Президента
+R159	SUBORDINATE_OF Arg1:T141 Arg2:T304	
+R161	SUBORDINATE_OF Arg1:T302 Arg2:T303	
+T142	PROFESSION 6366 6388	генерального директора
+R162	SUBORDINATE_OF Arg1:T145 Arg2:T142	
+R163	WORKPLACE Arg1:T267 Arg2:T147	
+R164	HEADQUARTERED_IN Arg1:T147 Arg2:T135	
+T152	PROFESSION 6347 6388;6432 6467	первый заместитель генерального директора Общественное российское телевидение
+R165	WORKPLACE Arg1:T152 Arg2:T147	
+R166	WORKS_AS Arg1:T149 Arg2:T152	
+R167	WORKS_AS Arg1:T149 Arg2:T267	
+R168	WORKPLACE Arg1:T149 Arg2:T147	
+R169	ORIGINS_FROM Arg1:T269 Arg2:T150	
+R170	WORKS_AS Arg1:T149 Arg2:T269	
+R171	FOUNDED_BY Arg1:T282 Arg2:T279	
+R172	WORKPLACE Arg1:T282 Arg2:T283	
+R173	ALTERNATIVE_NAME Arg1:T150 Arg2:T283	
+R174	FOUNDED_BY Arg1:T281 Arg2:T280	
+R175	WORKS_AS Arg1:T149 Arg2:T270	
+R176	WORKPLACE Arg1:T149 Arg2:T279	
+R177	WORKS_AS Arg1:T149 Arg2:T274	
+R178	FOUNDED_BY Arg1:T287 Arg2:T285	
+R179	WORKPLACE Arg1:T286 Arg2:T288	
+R180	FOUNDED_BY Arg1:T155 Arg2:T149	
+R184	FOUNDED_BY Arg1:T294 Arg2:T292	
+R185	FOUNDED_BY Arg1:T293 Arg2:T292	
+R186	WORKPLACE Arg1:T293 Arg2:T295	
+R187	WORKS_AS Arg1:T296 Arg2:T290	
+R188	PARTICIPANT_IN Arg1:T296 Arg2:T289	
+R189	WORKS_AS Arg1:T297 Arg2:T159	
+R190	KNOWS Arg1:T296 Arg2:T297	
+R191	WORKS_AS Arg1:T298 Arg2:T160	
+R192	KNOWS Arg1:T296 Arg2:T298	
+R193	HEADQUARTERED_IN Arg1:T327 Arg2:T329	
+R194	ABBREVIATION Arg1:T328 Arg2:T329	
+R195	WORKPLACE Arg1:T315 Arg2:T327	
+R196	MEMBER_OF Arg1:T314 Arg2:T171	
+R197	PART_OF Arg1:T171 Arg2:T326	
+R198	FOUNDED_BY Arg1:T310 Arg2:T323	
+R199	FOUNDED_BY Arg1:T311 Arg2:T324	
+R200	WORKPLACE Arg1:T310 Arg2:T328	
+R201	FOUNDED_BY Arg1:T306 Arg2:T319	
+R202	WORKPLACE Arg1:T305 Arg2:T320	
+R203	FOUNDED_BY Arg1:T305 Arg2:T318	
+R204	SUBORDINATE_OF Arg1:T141 Arg2:T304	
+R205	SUBORDINATE_OF Arg1:T302 Arg2:T303	
+R160	WORKPLACE Arg1:T303 Arg2:T321	
+R206	DATE_FOUNDED_IN Arg1:T164 Arg2:T165	
+R207	DATE_FOUNDED_IN Arg1:T166 Arg2:T167	
+R208	WORKPLACE Arg1:T296 Arg2:T318	
+R209	WORKS_AS Arg1:T296 Arg2:T299	
+R210	WORKS_AS Arg1:T296 Arg2:T302	
+R211	FOUNDED_BY Arg1:T164 Arg2:T296	
+R212	FOUNDED_BY Arg1:T166 Arg2:T296	
+T154	PROFESSION 7351 7409	руководителя администрации Президента Российской Федерации
+R213	SUBORDINATE_OF Arg1:T307 Arg2:T154	
+R214	WORKS_AS Arg1:T296 Arg2:T307	
+R215	WORKS_AS Arg1:T296 Arg2:T314	
+R216	MEMBER_OF Arg1:T296 Arg2:T171	
+R217	WORKS_AS Arg1:T296 Arg2:T315	
+T158	EVENT 7494 7502	назначен
+R218	POINT_IN_TIME Arg1:T158 Arg2:T173	
+R219	PARTICIPANT_IN Arg1:T315 Arg2:T158	
+R220	PARTICIPANT_IN Arg1:T296 Arg2:T158	
+R221	ABBREVIATION Arg1:T328 Arg2:T329	
+T162	PROFESSION 284 322	Заместителя Председателя Правительства
+T163	PROFESSION 296 343	Председателя Правительства Российской Федерации
+T169	PROFESSION 296 322	Председателя Правительства
+R222	SUBORDINATE_OF Arg1:T162 Arg2:T169	
+R223	SUBORDINATE_OF Arg1:T12 Arg2:T163	
+R224	INANIMATE_INVOLVED Arg1:T7 Arg2:T218	
+R225	ALTERNATIVE_NAME Arg1:T192 Arg2:T193	
+R226	AGENT Arg1:T22 Arg2:T26	
+R227	WORKS_AS Arg1:T22 Arg2:T202	
+R49	WORKS_AS Arg1:T54 Arg2:T55	
+R228	PARTICIPANT_IN Arg1:T227 Arg2:T226	
+R229	PARTICIPANT_IN Arg1:T56 Arg2:T226	
+R230	ALTERNATIVE_NAME Arg1:T65 Arg2:T66	
+T72	COUNTRY 4153 4159	России
+R231	HEADQUARTERED_IN Arg1:T78 Arg2:T72	
+R96	ALTERNATIVE_NAME Arg1:T92 Arg2:T95	
+R97	PLACE_OF_BIRTH Arg1:T96 Arg2:T97	
+R103	PLACE_OF_BIRTH Arg1:T96 Arg2:T99	
+R104	PLACE_RESIDES_IN Arg1:T96 Arg2:T109	
+R105	WORKPLACE Arg1:T102 Arg2:T126	
+R181	PARTICIPANT_IN Arg1:T291 Arg2:T289	
+N4	Reference T12 Wikidata:Q14805701	заместитель председателя Правительства Российской Федерации
+N5	Reference T16 Wikidata:Q35525	Белый дом
+N6	Reference T28 Wikidata:Q174570	Лондонская школа экономики и политических наук
+N7	Reference T30 Wikidata:Q1091186	Сколково
+N8	Reference T34 Wikidata:Q753932	Известия
+N9	Reference T35 Wikidata:Q84	Лондон
+N11	Reference T39 Wikidata:Q1968051	Счётная палата Российской Федерации
+N12	Reference T40 Wikidata:Q191472	BBC One
+N13	Reference T41 Wikidata:Q42970	Эмнести интернэшенел
+N16	Reference T48 Wikidata:Q918	Твиттер
+N17	Reference T56 Wikidata:Q7747	Владимир Владимирович Путин
+N18	Reference T58 Wikidata:Q2060629	Администрация президента России
+N19	Reference T59 Wikidata:Q548164	Владислав Юрьевич Сурков
+N20	Reference T62 Wikidata:Q4457316	Тимакова, Наталья Александровна
+N21	Reference T67 Wikidata:Q877955	вице-премьер
+N22	Reference T77 Wikidata:Q486839	член парламента
+N23	Reference T78 Wikidata:Q210692	Справедливая Россия
+N25	Reference T85 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N26	Reference T87 Wikidata:Q548164	Владислав Юрьевич Сурков
+N27	Reference T90 Wikidata:Q737463	Дмитрий Олегович Рогозин
+N28	Reference T98 Wikidata:Q3510	Липецкая область
+N29	Reference T99 Wikidata:Q4169056	Дуба-Юрт
+N30	Reference T100 Wikidata:Q1148929	Чечено-Ингушская АССР
+N33	Reference T109 Wikidata:Q194670	Скопин
+N34	Reference T112 Wikidata:Q4315005	Национальный исследовательский технологический университет «МИСиС»
+N35	Reference T115 Wikidata:Q4304098	Московский государственный институт культуры
+N38	Reference T120 Wikidata:Q152503	Михаил Борисович Ходорковский
+N41	Reference T123 Wikidata:Q166073	Всесоюзный ленинский коммунистический союз молодёжи
+N43	Reference T128 Wikidata:Q4288589	Московский международный университет
+N45	Reference T143 Wikidata:Q1377835	Альфа-банк
+N46	Reference T147 Wikidata:Q330067	Первый канал
+N47	Reference T155 Wikidata:Q151469	Единая Россия
+N48	Reference T156 Wikidata:Q379271	Интерфакс
+N49	Reference T164 Wikidata:Q821571	Идущие вместе
+N50	Reference T176 Wikidata:Q382887	чиновник
+N51	Reference T10 Wikidata:Q159	Россия
+N52	Reference T179 Wikidata:Q652062	Конституция Российской Федерации
+N53	Reference T180 Wikidata:Q7755	конституция
+N57	Reference T188 Wikidata:Q19607392	пресс-секретарь президента России
+N58	Reference T190 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N60	Reference T198 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N64	Reference T208 Wikidata:Q2462658	менеджер
+N65	Reference T212 Wikidata:Q674426	куратор
+N66	Reference T217 Wikidata:Q1930187	журналист
+N68	Reference T232 Wikidata:Q640506	кабинет министров
+N69	Reference T234 Wikidata:Q1430324	Аркадий Владимирович Дворкович
+N70	Reference T71 Wikidata:Q715641	Государственная дума
+N71	Reference T235 Wikidata:Q866632	Наши
+N72	Reference T239 Wikidata:Q1140115	Правительство Российской Федерации
+N73	Reference T246 Wikidata:Q2753	Рязанская область
+N74	Reference T101 Wikidata:Q37226	учитель
+N80	Reference T269 Wikidata:Q82955	политик
+N83	Reference T279 Wikidata:Q2060629	Администрация президента России
+N84	Reference T281 Wikidata:Q30461	президент
+N85	Reference T282 Wikidata:Q218295	президент Российской Федерации
+N86	Reference T283 Wikidata:Q159	Россия
+N88	Reference T291 Wikidata:Q2060629	Администрация президента России
+N89	Reference T293 Wikidata:Q218295	президент Российской Федерации
+N90	Reference T295 Wikidata:Q159	Россия
+N96	Reference T315 Wikidata:Q14805701	заместитель председателя Правительства Российской Федерации
+N97	Reference T321 Wikidata:Q159	Россия
+N98	Reference T327 Wikidata:Q1140115	Правительство Российской Федерации
+N103	Reference T339 Wikidata:Q7188	правительство
+N104	Reference T340 Wikidata:Q2348089	Правительство Медведева
+N109	Reference T142 Wikidata:Q1501800	генеральный директор
+N112	Reference T162 Wikidata:Q877955	вице-премьер
+N113	Reference T163 Wikidata:Q842386	председатель Правительства Российской Федерации
+N115	Reference T1 Wikidata:Q548164	Владислав Юрьевич Сурков
+N15	Reference T47 Wikidata:Q548164	Владислав Юрьевич Сурков
+N116	Reference T65 Wikidata:Q548164	Владислав Юрьевич Сурков
+N2	Reference T8 Wikidata:NULL	нет данных
+N1	Reference T7 Wikidata:NULL	нет данных
+N54	Reference T181 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:NULL	нет данных
+N114	Reference T169 Wikidata:Q14212	премьер-министр
+N56	Reference T186 Wikidata:Q4068147	
+N55	Reference T185 Wikidata:NULL	нет данных
+N117	Reference T21 Wikidata:Q17221	
+N118	Reference T23 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N59	Reference T197 Wikidata:NULL	нет данных
+N61	Reference T27 Wikidata:Q84	Лондон
+N62	Reference T205 Wikidata:NULL	нет данных
+N63	Reference T207 Wikidata:Q1971388	
+N100	Reference T338 Wikidata:NULL	нет данных
+N10	Reference T37 Wikidata:Q66716743	
+N14	Reference T42 Wikidata:Q649	Москва
+N119	Reference T46 Wikidata:Q4281950	
+N67	Reference T222 Wikidata:NULL	нет данных
+N101	Reference T209 Wikidata:Q14212	премьер-министр
+N120	Reference T230 Wikidata:NULL	нет данных
+N121	Reference T69 Wikidata:Q17276321	
+N24	Reference T79 Wikidata:Q4371978	Илья Владимирович Пономарёв
+N102	Reference T214 Wikidata:Q2348089	Правительство Медведева
+N105	Reference T237 Wikidata:Q4068147	
+N106	Reference T341 Wikidata:NULL	нет данных
+N122	Reference T97 Wikidata:Q23667396	
+N31	Reference T103 Wikidata:NULL	нет данных
+N32	Reference T105 Wikidata:NULL	нет данных
+N36	Reference T116 Wikidata:NULL	нет данных
+N37	Reference T118 Wikidata:NULL	нет данных
+N39	Reference T121 Wikidata:NULL	нет данных
+N107	Reference T343 Wikidata:Q21645023	
+N40	Reference T122 Wikidata:NULL	нет данных
+N75	Reference T119 Wikidata:NULL	нет данных
+N42	Reference T124 Wikidata:Q851436	телохранитель
+N76	Reference T250 Wikidata:NULL	нет данных
+N123	Reference T126 Wikidata:NULL	нет данных
+N99	Reference T171 Wikidata:NULL	нет данных
+N95	Reference T314 Wikidata:NULL	нет данных
+N111	Reference T154 Wikidata:Q4488944	
+N94	Reference T307 Wikidata:NULL	нет данных
+N92	Reference T299 Wikidata:NULL	нет данных
+N93	Reference T302 Wikidata:Q4371765	
+N124	Reference T141 Wikidata:Q4371765	
+N91	Reference T297 Wikidata:Q34453	Борис Николаевич Ельцин
+N87	Reference T290 Wikidata:NULL	нет данных
+N81	Reference T270 Wikidata:NULL	нет данных
+N110	Reference T152 Wikidata:NULL	нет данных
+N79	Reference T264 Wikidata:NULL	нет данных
+N125	Reference T146 Wikidata:Q5280566	
+N126	Reference T267 Wikidata:NULL	нет данных
+N82	Reference T276 Wikidata:NULL	нет данных
+N127	Reference T261 Wikidata:NULL	нет данных
+N128	Reference T330 Wikidata:Q21814496	
+N129	Reference T134 Wikidata:NULL	нет данных
+N130	Reference T172 Wikidata:NULL	нет данных
+N131	Reference T256 Wikidata:Q4481724	
+N132	Reference T255 Wikidata:NULL	нет данных
+N133	Reference T257 Wikidata:NULL	нет данных
+N134	Reference T138 Wikidata:Q3305747	
+N108	Reference T253 Wikidata:NULL	нет данных
+N78	Reference T254 Wikidata:NULL	нет данных
+N77	Reference T252 Wikidata:NULL	нет данных
+N44	Reference T132 Wikidata:Q42178	вице-президент
+N135	Reference T32 Wikidata:Q1091186	Сколково
+N136	Reference T326 Wikidata:Q1091186	Сколково
+N137	Reference T43 Wikidata:Q84	Лондон
+N138	Reference T53 Wikidata:Q7747	Владимир Владимирович Путин
+N139	Reference T298 Wikidata:Q7747	Владимир Владимирович Путин
+N140	Reference T54 Wikidata:Q7747	Владимир Владимирович Путин
+N141	Reference T215 Wikidata:Q7747	Владимир Владимирович Путин
+N142	Reference T82 Wikidata:Q7747	Владимир Владимирович Путин
+N143	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N144	Reference T292 Wikidata:Q2060629	Администрация президента России
+N145	Reference T324 Wikidata:Q2060629	Администрация президента России
+N146	Reference T285 Wikidata:Q2060629	Администрация президента России
+N147	Reference T319 Wikidata:Q2060629	Администрация президента России
+N148	Reference T280 Wikidata:Q2060629	Администрация президента России
+N149	Reference T227 Wikidata:Q548164	Владислав Юрьевич Сурков
+N150	Reference T174 Wikidata:Q877955	вице-премьер
+N151	Reference T211 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N152	Reference T63 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N153	Reference T233 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N154	Reference T76 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N155	Reference T75 Wikidata:Q548164	Владислав Юрьевич Сурков
+N156	Reference T22 Wikidata:Q548164	Владислав Юрьевич Сурков
+N157	Reference T96 Wikidata:Q548164	Владислав Юрьевич Сурков
+N158	Reference T102 Wikidata:Q548164	Владислав Юрьевич Сурков
+N159	Reference T95 Wikidata:Q548164	Владислав Юрьевич Сурков
+N160	Reference T92 Wikidata:Q548164	Владислав Юрьевич Сурков
+N161	Reference T89 Wikidata:Q548164	Владислав Юрьевич Сурков
+N162	Reference T94 Wikidata:Q548164	Владислав Юрьевич Сурков
+N163	Reference T86 Wikidata:Q548164	Владислав Юрьевич Сурков
+N164	Reference T106 Wikidata:Q4169056	Дуба-Юрт
+N165	Reference T111 Wikidata:Q4315005	Национальный исследовательский технологический университет «МИСиС»
+N166	Reference T137 Wikidata:Q152503	Михаил Борисович Ходорковский
+N167	Reference T249 Wikidata:Q152503	Михаил Борисович Ходорковский
+N168	Reference T223 Wikidata:Q382887	чиновник
+N169	Reference T175 Wikidata:Q159	Россия
+N170	Reference T50 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N171	Reference T51 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N172	Reference T213 Wikidata:Q2462658	менеджер
+N173	Reference T200 Wikidata:Q1930187	журналист
+N174	Reference T91 Wikidata:Q1430324	Аркадий Владимирович Дворкович
+N175	Reference T64 Wikidata:Q1430324	Аркадий Владимирович Дворкович
+N176	Reference T73 Wikidata:Q1430324	Аркадий Владимирович Дворкович
+N177	Reference T166 Wikidata:Q866632	Наши
+N178	Reference T183 Wikidata:Q1140115	Правительство Российской Федерации
+N179	Reference T187 Wikidata:Q1140115	Правительство Российской Федерации
+N180	Reference T318 Wikidata:Q2060629	Администрация президента России
+N181	Reference T284 Wikidata:Q2060629	Администрация президента России
+N182	Reference T323 Wikidata:Q2060629	Администрация президента России
+N183	Reference T55 Wikidata:Q30461	президент
+N184	Reference T5 Wikidata:Q30461	президент
+N185	Reference T287 Wikidata:Q30461	президент
+N186	Reference T304 Wikidata:Q30461	президент
+N187	Reference T193 Wikidata:Q30461	президент
+N188	Reference T228 Wikidata:Q30461	президент
+N189	Reference T194 Wikidata:Q30461	президент
+N190	Reference T160 Wikidata:Q30461	президент
+N191	Reference T189 Wikidata:Q30461	президент
+N192	Reference T159 Wikidata:Q30461	президент
+N193	Reference T131 Wikidata:Q30461	президент
+N194	Reference T244 Wikidata:Q30461	президент
+N195	Reference T192 Wikidata:Q30461	президент
+N196	Reference T306 Wikidata:Q30461	президент
+N197	Reference T294 Wikidata:Q30461	президент
+N198	Reference T18 Wikidata:Q30461	президент
+N199	Reference T311 Wikidata:Q30461	президент
+N200	Reference T286 Wikidata:Q218295	президент Российской Федерации
+N201	Reference T310 Wikidata:Q218295	президент Российской Федерации
+N202	Reference T305 Wikidata:Q218295	президент Российской Федерации
+N203	Reference T303 Wikidata:Q218295	президент Российской Федерации
+N204	Reference T135 Wikidata:Q159	Россия
+N205	Reference T150 Wikidata:Q159	Россия
+N206	Reference T251 Wikidata:Q159	Россия
+N207	Reference T3 Wikidata:Q218295	президент Российской Федерации
+N208	Reference T243 Wikidata:Q218295	президент Российской Федерации
+N209	Reference T245 Wikidata:Q159	Россия
+N210	Reference T72 Wikidata:Q159	Россия
+N211	Reference T240 Wikidata:Q159	Россия
+N212	Reference T199 Wikidata:Q159	Россия
+N213	Reference T13 Wikidata:Q159	Россия
+N214	Reference T184 Wikidata:Q159	Россия
+N215	Reference T320 Wikidata:Q159	Россия
+N216	Reference T329 Wikidata:Q159	Россия
+N217	Reference T288 Wikidata:Q159	Россия
+N218	Reference T328 Wikidata:Q159	Россия
+N219	Reference T221 Wikidata:Q7188	правительство
+N220	Reference T204 Wikidata:Q7188	правительство
+N221	Reference T57 Wikidata:Q7188	правительство
+N222	Reference T81 Wikidata:Q7188	правительство
+N223	Reference T15 Wikidata:Q548164	Владислав Юрьевич Сурков
+N224	Reference T11 Wikidata:Q548164	Владислав Юрьевич Сурков
+N225	Reference T110 Wikidata:Q548164	Владислав Юрьевич Сурков
+N226	Reference T2 Wikidata:Q548164	Владислав Юрьевич Сурков
+N227	Reference T44 Wikidata:Q548164	Владислав Юрьевич Сурков
+N228	Reference T45 Wikidata:Q548164	Владислав Юрьевич Сурков
+N229	Reference T149 Wikidata:Q548164	Владислав Юрьевич Сурков
+N230	Reference T19 Wikidata:Q548164	Владислав Юрьевич Сурков
+N231	Reference T17 Wikidata:Q548164	Владислав Юрьевич Сурков
+N232	Reference T83 Wikidata:Q548164	Владислав Юрьевич Сурков
+N233	Reference T84 Wikidata:Q548164	Владислав Юрьевич Сурков
+N234	Reference T66 Wikidata:Q548164	Владислав Юрьевич Сурков
+N235	Reference T80 Wikidata:Q548164	Владислав Юрьевич Сурков
+N236	Reference T70 Wikidata:Q548164	Владислав Юрьевич Сурков
+N237	Reference T74 Wikidata:Q548164	Владислав Юрьевич Сурков
+N238	Reference T296 Wikidata:Q548164	Владислав Юрьевич Сурков
+N239	Reference T36 Wikidata:Q548164	Владислав Юрьевич Сурков
+N240	Reference T224 Wikidata:Q548164	Владислав Юрьевич Сурков
+N241	Reference T334 Wikidata:NULL	нет данных
+N242	Reference T238 Wikidata:Q4068147	
+N243	Reference T236 Wikidata:NULL	нет данных
+N244	Reference T61 Wikidata:Q17221	
+N245	Reference T14 Wikidata:Q17221	
+N246	Reference T31 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N247	Reference T38 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N248	Reference T107 Wikidata:Q649	Москва
+N249	Reference T129 Wikidata:Q649	Москва
+N250	Reference T248 Wikidata:Q649	Москва
+N251	Reference T20 Wikidata:Q4281950	
+N252	Reference T24 Wikidata:Q4281950	
+N253	Reference T49 Wikidata:Q4281950	
+N254	Reference T33 Wikidata:Q4281950	
+N255	Reference T203 Wikidata:Q4068147	
+N256	Reference T202 Wikidata:NULL	нет данных
+N257	Reference T104 Wikidata:NULL	нет данных
+N258	Reference T274 Wikidata:NULL	нет данных
+N259	Reference T145 Wikidata:Q21814496	
+N260	Reference T136 Wikidata:Q3305747	
+T140	EVENT 4657 4664	родился
+R182	AGENT Arg1:T92 Arg2:T140	
+R183	POINT_IN_TIME Arg1:T140 Arg2:T93	
+T182	EVENT 4873 4880	родился
+R232	AGENT Arg1:T96 Arg2:T182	
+R233	TAKES_PLACE_IN Arg1:T182 Arg2:T97	

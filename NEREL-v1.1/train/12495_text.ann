@@ -1,0 +1,49 @@
+T1	LAW 11 13	ГК
+T2	DATE 48 68	20 декабря 2010 года
+T3	EVENT 69 78	заседании
+T5	COUNTRY 101 103	РФ
+T6	LAW 202 222	Гражданскому кодексу
+T7	COUNTRY 223 225	РФ
+T8	ORGANIZATION 240 262	Центром частного права
+T9	DATE 321 335	до нового года
+T10	ORGANIZATION 355 378	Частному корреспонденту
+T13	ORGANIZATION 417 439	Центром частного права
+T15	LAW 484 486	ГК
+T4	ORGANIZATION 79 103	совета при президенте РФ
+T16	PROFESSION 90 100	президенте
+T17	PROFESSION 90 103	президенте РФ
+T19	LAW 202 225	Гражданскому кодексу РФ
+T11	ORGANIZATION 382 401	секретариате совета
+T14	ORDINAL 474 477	4-й
+T21	LAW 474 486	4-й части ГК
+R1	WORKPLACE Arg1:T17 Arg2:T5	
+R2	PARTICIPANT_IN Arg1:T4 Arg2:T3	
+R3	POINT_IN_TIME Arg1:T3 Arg2:T2	
+T18	EVENT 182 199	одобрены поправки
+R4	SUBEVENT_OF Arg1:T18 Arg2:T3	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T18	
+R6	POINT_IN_TIME Arg1:T18 Arg2:T2	
+R7	HEADQUARTERED_IN Arg1:T4 Arg2:T5	
+R8	WORKPLACE Arg1:T17 Arg2:T4	
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T18	
+T20	ORGANIZATION 79 85	совета
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R11	ORIGINS_FROM Arg1:T6 Arg2:T7	
+R12	INANIMATE_INVOLVED Arg1:T6 Arg2:T18	
+R13	PART_OF Arg1:T11 Arg2:T4	
+R14	PART_OF Arg1:T21 Arg2:T15	
+N1	Reference T5 Wikidata:Q159	Россия
+N2	Reference T6 Wikidata:Q1923776	Гражданский кодекс
+N3	Reference T10 Wikidata:Q2065130	Частный Корреспондент
+N6	Reference T16 Wikidata:Q30461	президент
+N7	Reference T17 Wikidata:Q218295	президент Российской Федерации
+N5	Reference T4 Wikidata:NULL	нет данных
+N11	Reference T20 Wikidata:Q211201	
+N8	Reference T19 Wikidata:Q206851	
+N9	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N12	Reference T7 Wikidata:Q159	Россия
+N13	Reference T1 Wikidata:Q1923776	Гражданский кодекс
+N14	Reference T15 Wikidata:Q1923776	Гражданский кодекс
+N15	Reference T8 Wikidata:NULL	нет данных

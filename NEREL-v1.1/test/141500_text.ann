@@ -1,0 +1,28 @@
+T1	COUNTRY 2 8	России
+T2	PERCENT 37 44	до 37,5
+T3	COUNTRY 54 60	России
+T4	PERCENT 120 136	до 37,5 процента
+T5	DATE 162 180	с 1 июля 2018 года
+T8	PERCENT 407 413	38–56%
+T9	COUNTRY 463 469	России
+T11	ORGANIZATION 543 598	Центра исследований федерального и регионального рынков
+T12	PERSON 599 611	Вадим Дробиз
+T13	CITY 858 864	Москвы
+T14	PERCENT 884 889	в 40%
+T16	LAW 237 241	ГОСТ
+T6	LAW 254 313	О госрегулировании производства и оборота этилового спирта…
+T7	PROFESSION 537 598	глава Центра исследований федерального и регионального рынков
+R2	WORKPLACE Arg1:T7 Arg2:T11	
+R3	WORKPLACE Arg1:T12 Arg2:T11	
+R4	WORKS_AS Arg1:T12 Arg2:T7	
+R5	LOCATED_IN Arg1:T13 Arg2:T9	
+R1	DATE_OF_CREATION Arg1:T6 Arg2:T5	
+N1	Reference T9 Wikidata:Q159	Россия
+N4	Reference T13 Wikidata:Q649	Москва
+N5	Reference T16 Wikidata:Q1349015	межгосударственный стандарт
+N6	Reference T6 Wikidata:NULL	нет данных
+N2	Reference T11 Wikidata:NULL	нет данных
+N7	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N8	Reference T1 Wikidata:Q159	Россия
+N9	Reference T3 Wikidata:Q159	Россия

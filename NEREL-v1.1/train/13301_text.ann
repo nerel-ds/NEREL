@@ -1,0 +1,25 @@
+T1	DATE 56 66	двухлетнюю
+T2	ORGANIZATION 95 156	Департамент жилищно-коммунального хозяйства и благоустройства
+T3	DATE 250 261	на 2011 год
+T4	CITY 348 358	московских
+T5	ORGANIZATION 375 378	РБК
+T6	DATE 409 420	с 2011 года
+T8	PRODUCT 1121 1128	ГЛОНАСС
+T9	DATE 1165 1182	не менее двух лет
+T10	PROFESSION 0 10	Строителей
+T11	LAW 198 261	Об установлении заданий по ремонту и разметке дорог на 2011 год
+T7	TIME 932 946	в ночное время
+T12	DATE 897 911	круглосуточном
+R1	DATE_OF_CREATION Arg1:T11 Arg2:T3	
+T13	ORGANIZATION 95 164	Департамент жилищно-коммунального хозяйства и благоустройства столицы
+T14	CITY 157 164	столицы
+R2	ALTERNATIVE_NAME Arg1:T14 Arg2:T4	
+R3	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+N3	Reference T5 Wikidata:Q629733	РосБизнесКонсалтинг
+N4	Reference T8 Wikidata:Q486250	ГЛОНАСС
+N5	Reference T10 Wikidata:NULL	нет данных
+N1	Reference T2 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T11 Wikidata:NULL	нет данных
+N2	Reference T4 Wikidata:Q649	Москва
+N8	Reference T14 Wikidata:Q649	Москва

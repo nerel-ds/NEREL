@@ -1,0 +1,160 @@
+T1	PERSON 5 21	Владимир Зельдин
+T2	AGE 22 35	на 102-м году
+T3	PERSON 43 59	Владимир Зельдин
+T4	DATE 60 80	31 октября 2016 года
+T5	AGE 81 94	на 102-м году
+T6	PROFESSION 111 130	актёр театра и кино
+T7	PERSON 131 147	Владимир Зельдин
+T9	ORGANIZATION 160 182	НИИ им. Склифосовского
+T10	PERSON 168 182	Склифосовского
+T11	CITY 185 191	Москве
+T12	TIME 297 315	За несколько часов
+T13	PROFESSION 385 421	Представитель НИИ им. Склифосовского
+T14	ORGANIZATION 399 421	НИИ им. Склифосовского
+T15	PERSON 407 421	Склифосовского
+T16	PERSON 432 447	Иветта Зельдина
+T17	DATE 471 484	два дня назад
+T18	PERSON 510 518	Зельдина
+T19	PERSON 586 602	Владимир Зельдин
+T20	DATE 611 631	10 февраля 1915 года
+T21	CITY 634 641	Козлове
+T22	STATE_OR_PROVINCE 643 662	Тамбовской губернии
+T23	COUNTRY 664 682	Российская империя
+T24	DATE 684 695	В 1935 году
+T25	ORGANIZATION 704 739	театрально-производственное училище
+T26	ORGANIZATION 744 762	Театре имени МГСПС
+T27	ORGANIZATION 764 783	театр им. Моссовета
+T28	DATE 787 798	В 1975 году
+T29	PERSON 799 815	Владимир Зельдин
+T30	AWARD 831 853	Народного артиста СССР
+T31	COUNTRY 849 853	СССР
+T32	AWARD 875 902	За заслуги перед Отечеством
+T33	ORDINAL 904 906	IV
+T34	DATE 916 920	2000
+T35	AWARD 925 952	За заслуги перед Отечеством
+T36	ORDINAL 954 957	III
+T38	DATE 967 971	2005
+T39	PERSON 975 991	Владимир Зельдин
+T40	ORGANIZATION 1002 1051	Центральном Академическом театре Российской Армии
+T41	COUNTRY 1035 1045	Российской
+T42	ORGANIZATION 1035 1051	Российской Армии
+T43	CITY 1054 1060	Москве
+T45	DATE 1178 1189	В 2013 году
+T46	EVENT 1209 1235	эстафете олимпийского огня
+T48	WORK_OF_ART 1276 1293	Свинарка и пастух
+T49	DATE 1296 1305	1941 года
+T50	WORK_OF_ART 1309 1326	Карнавальная ночь
+T51	WORK_OF_ART 1330 1339	Дядя Ваня
+T52	WORK_OF_ART 1343 1350	31 июня
+T53	WORK_OF_ART 1354 1369	Десять негритят
+R1	AGE_DIED_AT Arg1:T7 Arg2:T5
+R6	ALTERNATIVE_NAME Arg1:T26 Arg2:T27
+R8	WORKPLACE Arg1:T39 Arg2:T40
+T54	DISEASE 226 240	эндотоксикозов
+R3	DATE_OF_BIRTH Arg1:T19 Arg2:T20	
+R11	PLACE_OF_BIRTH Arg1:T19 Arg2:T21	
+R12	AGE_DIED_AT Arg1:T1 Arg2:T2	
+R13	WORKS_AS Arg1:T7 Arg2:T6	
+T8	PROFESSION 454 460	актёра
+T44	PROFESSION 111 116	актёр
+T47	ORGANIZATION 774 783	Моссовета
+T55	ORGANIZATION 757 762	МГСПС
+T56	AWARD 875 914	За заслуги перед Отечеством» IV степени
+T57	AWARD 925 965	За заслуги перед Отечеством» III степени
+T58	PERSON 1335 1339	Ваня
+R2	DATE_OF_DEATH Arg1:T7 Arg2:T4	
+T37	DISEASE 278 295	тяжёлом состоянии
+R4	MEDICAL_CONDITION Arg1:T7 Arg2:T37	
+R7	HEADQUARTERED_IN Arg1:T9 Arg2:T11	
+R10	LOCATED_IN Arg1:T21 Arg2:T22	
+R14	LOCATED_IN Arg1:T22 Arg2:T23	
+R15	LOCATED_IN Arg1:T21 Arg2:T23	
+T59	ORGANIZATION 704 762	театрально-производственное училище при Театре имени МГСПС
+R16	SCHOOLS_ATTENDED Arg1:T19 Arg2:T25	
+R18	HEADQUARTERED_IN Arg1:T40 Arg2:T43	
+R19	PARTICIPANT_IN Arg1:T39 Arg2:T46	
+R20	POINT_IN_TIME Arg1:T46 Arg2:T45	
+R9	SPOUSE Arg1:T16 Arg2:T8	
+T60	PROFESSION 562 569	актёром
+R21	AWARDED_WITH Arg1:T29 Arg2:T30	
+R22	AWARDED_WITH Arg1:T29 Arg2:T56	
+R23	AWARDED_WITH Arg1:T29 Arg2:T57	
+T61	PROFESSION 1103 1110	актёров
+R17	WORKS_AS Arg1:T39 Arg2:T61	
+R24	PARTICIPANT_IN Arg1:T39 Arg2:T48	
+R25	PARTICIPANT_IN Arg1:T39 Arg2:T50	
+R26	PARTICIPANT_IN Arg1:T39 Arg2:T51	
+R27	PARTICIPANT_IN Arg1:T39 Arg2:T52	
+R28	PARTICIPANT_IN Arg1:T39 Arg2:T53	
+R29	DATE_OF_CREATION Arg1:T48 Arg2:T49	
+R30	SPOUSE Arg1:T7 Arg2:T16	
+R31	ALTERNATIVE_NAME Arg1:T7 Arg2:T18	
+T62	EVENT 0 4	Умер
+R32	PARTICIPANT_IN Arg1:T1 Arg2:T62	
+T63	EVENT 101 110	скончался
+R33	ALTERNATIVE_NAME Arg1:T62 Arg2:T63	
+R34	PARTICIPANT_IN Arg1:T7 Arg2:T63	
+R35	POINT_IN_TIME Arg1:T63 Arg2:T4	
+R36	TAKES_PLACE_IN Arg1:T63 Arg2:T9	
+R37	WORKPLACE Arg1:T13 Arg2:T14	
+R38	WORKS_AS Arg1:T7 Arg2:T8	
+R39	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R5	OWNER_OF Arg1:T26 Arg2:T25	
+R40	ORIGINS_FROM Arg1:T30 Arg2:T31	
+R41	OWNER_OF Arg1:T42 Arg2:T40	
+R42	HEADQUARTERED_IN Arg1:T42 Arg2:T41	
+R43	POINT_IN_TIME Arg1:T56 Arg2:T34	
+R44	POINT_IN_TIME Arg1:T57 Arg2:T38	
+T64	EVENT 259 275	госпитализирован
+R45	PARTICIPANT_IN Arg1:T7 Arg2:T64	
+R46	TAKES_PLACE_IN Arg1:T64 Arg2:T9	
+R47	HAS_CAUSE Arg1:T64 Arg2:T37	
+R48	LOCATED_IN Arg1:T43 Arg2:T41	
+N1	Reference T1 Wikidata:Q472024	Владимир Михайлович Зельдин
+N3	Reference T11 Wikidata:Q649	Москва
+N7	Reference T21 Wikidata:Q159124	Мичуринск
+N9	Reference T23 Wikidata:Q34266	Российская империя
+N12	Reference T30 Wikidata:Q403569	народный артист СССР
+N13	Reference T31 Wikidata:Q15180	СССР
+N14	Reference T32 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N15	Reference T40 Wikidata:Q1958711	Центральный академический театр Российской армии
+N17	Reference T42 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N18	Reference T48 Wikidata:Q4410719	Свинарка и пастух
+N19	Reference T50 Wikidata:Q2368678	Карнавальная ночь
+N21	Reference T52 Wikidata:Q4030858	31 июня
+N25	Reference T56 Wikidata:Q18080423	орден «За заслуги перед Отечеством» IV степени
+N26	Reference T57 Wikidata:Q18080427	орден «За заслуги перед Отечеством» III степени
+N29	Reference T61 Wikidata:Q33999	актёр
+N30	Reference T6 Wikidata:Q33999	актёр
+N2	Reference T9 Wikidata:Q4304061	Московский городской научно-исследовательский институт скорой помощи имени Н. В. Склифосовского
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:Q728726	
+N6	Reference T16 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q1540306	Тамбовская губерния
+N16	Reference T41 Wikidata:Q159	Россия
+N27	Reference T58 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:Q1775194	Десять негритят
+N20	Reference T51 Wikidata:Q1549483	Дядя Ваня
+N23	Reference T47 Wikidata:Q4304066	
+N24	Reference T55 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:Q571291	Театр имени Моссовета
+N28	Reference T59 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q23005231	
+N31	Reference T3 Wikidata:Q472024	Владимир Михайлович Зельдин
+N32	Reference T18 Wikidata:Q472024	Владимир Михайлович Зельдин
+N33	Reference T29 Wikidata:Q472024	Владимир Михайлович Зельдин
+N34	Reference T19 Wikidata:Q472024	Владимир Михайлович Зельдин
+N35	Reference T7 Wikidata:Q472024	Владимир Михайлович Зельдин
+N36	Reference T39 Wikidata:Q472024	Владимир Михайлович Зельдин
+N37	Reference T43 Wikidata:Q649	Москва
+N38	Reference T35 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N39	Reference T44 Wikidata:Q33999	актёр
+N40	Reference T60 Wikidata:Q33999	актёр
+N41	Reference T8 Wikidata:Q33999	актёр
+N42	Reference T14 Wikidata:Q4304061	Московский городской научно-исследовательский институт скорой помощи имени Н. В. Склифосовского
+N43	Reference T10 Wikidata:Q728726	
+N44	Reference T27 Wikidata:Q571291	Театр имени Моссовета
+T65	EVENT 603 610	родился
+R49	PARTICIPANT_IN Arg1:T19 Arg2:T65	
+R50	POINT_IN_TIME Arg1:T65 Arg2:T20	
+R51	TAKES_PLACE_IN Arg1:T65 Arg2:T21	

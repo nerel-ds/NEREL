@@ -1,0 +1,132 @@
+T1	PERSON 0 9	Уго Чавес
+T2	EVENT 21 42	президентских выборах
+T3	COUNTRY 45 54	Венесуэле
+T4	PERSON 55 64	Уго Чавес
+T5	EVENT 86 104	выборах президента
+T6	ORDINAL 118 127	четвертый
+T8	PERSON 180 189	Уго Чавес
+T9	PERCENT 217 224	54,42 %
+T10	PROFESSION 277 330	лидера оппозиционного Блока демократического единства
+T11	ORGANIZATION 299 330	Блока демократического единства
+T12	PERSON 331 355	Энрике Каприлес Радонски
+T13	PERCENT 363 370	44,97 %
+T14	PERCENT 421 425	80 %
+T15	NUMBER 538 553	Около 100 тысяч
+T17	NUMBER 620 630	две тысячи
+T18	COUNTRY 659 673	Великобритании
+T19	COUNTRY 676 684	Ирландии
+T20	ORDINAL 695 701	третий
+T21	AGE 736 746	58-летнего
+T22	PERSON 747 757	Уго Чавеса
+T23	DATE 758 767	за 14 лет
+T24	COUNTRY 818 827	Венесуэле
+T25	DATE 828 839	в 1998 году
+T26	DATE 877 898	в следующие шесть лет
+T27	COUNTRY 973 982	Венесуэле
+T28	COUNTRY 994 1003	Венесуэла
+T29	DATE 1045 1055	в XXI веке
+T30	PERSON 1058 1074	Энрике Каприлеса
+T31	NUMBER 1088 1090	30
+T32	PERSON 1192 1198	Чавеса
+T33	PERSON 1280 1290	Уго Чавеса
+T34	PROFESSION 1311 1320	Президент
+T35	PERSON 1328 1342	Владимир Путин
+T37	PROFESSION 21 34	президентских
+T38	EVENT 35 42	выборах
+T41	EVENT 267 274	выборах
+T42	EVENT 389 410	президентских выборах
+T43	EVENT 403 410	выборах
+T44	COUNTRY 105 114	Венесуэлы
+T45	PROFESSION 128 141	президентский
+T46	PROFESSION 94 104	президента
+T47	PROFESSION 170 179	президент
+T49	IDEOLOGY 284 298	оппозиционного
+T50	IDEOLOGY 305 321	демократического
+T51	PROFESSION 389 402	президентских
+T16	COUNTRY 590 599	Венесуэлы
+T52	NATIONALITY 631 643	венесуэльцев
+T53	PROFESSION 702 715	президентский
+T54	DISEASE 730 735	раком
+T55	PROFESSION 899 913	президентского
+T56	EVENT 935 956	боливарскую революцию
+T57	IDEOLOGY 983 992	социализм
+T58	IDEOLOGY 1034 1044	социализму
+T60	IDEOLOGY 1091 1104	оппозиционных
+T62	PERSON 1173 1181	Каприлес
+T63	ORDINAL 1256 1262	первых
+T64	NUMBER 1247 1252	Одним
+T65	PROFESSION 1311 1327	Президент России
+T66	COUNTRY 1321 1327	России
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T2 Arg2:T3	
+R3	TAKES_PLACE_IN Arg1:T5 Arg2:T44	
+R4	WORKS_AS Arg1:T8 Arg2:T47	
+R5	WORKPLACE Arg1:T8 Arg2:T44	
+T7	PROFESSION 94 114	президента Венесуэлы
+R6	WORKPLACE Arg1:T7 Arg2:T44	
+R7	PARTICIPANT_IN Arg1:T12 Arg2:T41	
+R8	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T41	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T5	
+R11	WORKPLACE Arg1:T10 Arg2:T11	
+R12	WORKS_AS Arg1:T12 Arg2:T10	
+R13	WORKPLACE Arg1:T12 Arg2:T11	
+R14	IDEOLOGY_OF Arg1:T12 Arg2:T49	
+R15	IDEOLOGY_OF Arg1:T12 Arg2:T50	
+R16	IDEOLOGY_OF Arg1:T11 Arg2:T50	
+R17	IDEOLOGY_OF Arg1:T11 Arg2:T49	
+R18	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R19	ORIGINS_FROM Arg1:T52 Arg2:T16	
+R20	PLACE_RESIDES_IN Arg1:T52 Arg2:T18	
+R21	PLACE_RESIDES_IN Arg1:T52 Arg2:T19	
+R22	AGE_IS Arg1:T22 Arg2:T21	
+R23	MEDICAL_CONDITION Arg1:T22 Arg2:T54	
+R24	WORKS_AS Arg1:T22 Arg2:T53	
+R25	WORKPLACE Arg1:T22 Arg2:T24	
+R26	IDEOLOGY_OF Arg1:T22 Arg2:T57	
+R27	IDEOLOGY_OF Arg1:T28 Arg2:T58	
+R28	IDEOLOGY_OF Arg1:T27 Arg2:T57	
+R29	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R30	IDEOLOGY_OF Arg1:T30 Arg2:T60	
+R31	WORKPLACE Arg1:T65 Arg2:T66	
+R32	WORKS_AS Arg1:T35 Arg2:T65	
+R33	WORKPLACE Arg1:T35 Arg2:T66	
+R34	TAKES_PLACE_IN Arg1:T56 Arg2:T27	
+R35	ALTERNATIVE_NAME Arg1:T30 Arg2:T62	
+R36	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+T36	EVENT 1301 1310	поздравил
+R37	AGENT Arg1:T35 Arg2:T36	
+R38	PARTICIPANT_IN Arg1:T33 Arg2:T36	
+T39	EVENT 86 93	выборах
+N1	Reference T1 Wikidata:Q8440	Уго Чавес
+N4	Reference T18 Wikidata:Q145	Великобритания
+N5	Reference T19 Wikidata:Q27	Ирландия
+N6	Reference T30 Wikidata:Q8781	Энрике Каприлес Радонски
+N7	Reference T35 Wikidata:Q7747	Владимир Владимирович Путин
+N9	Reference T47 Wikidata:Q30461	президент
+N10	Reference T16 Wikidata:Q717	Венесуэла
+N11	Reference T52 Wikidata:Q2996826	венесуэльцы
+N12	Reference T65 Wikidata:Q218295	президент Российской Федерации
+N13	Reference T66 Wikidata:Q159	Россия
+N8	Reference T37 Wikidata:Q30461	президент
+N14	Reference T7 Wikidata:Q11942698	
+N2	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q1629486	
+N15	Reference T22 Wikidata:Q8440	Уго Чавес
+N16	Reference T8 Wikidata:Q8440	Уго Чавес
+N17	Reference T32 Wikidata:Q8440	Уго Чавес
+N18	Reference T4 Wikidata:Q8440	Уго Чавес
+N19	Reference T33 Wikidata:Q8440	Уго Чавес
+N20	Reference T12 Wikidata:Q8781	Энрике Каприлес Радонски
+N21	Reference T62 Wikidata:Q8781	Энрике Каприлес Радонски
+N22	Reference T34 Wikidata:Q30461	президент
+N23	Reference T46 Wikidata:Q30461	президент
+N24	Reference T44 Wikidata:Q717	Венесуэла
+N25	Reference T24 Wikidata:Q717	Венесуэла
+N26	Reference T3 Wikidata:Q717	Венесуэла
+N27	Reference T28 Wikidata:Q717	Венесуэла
+N28	Reference T27 Wikidata:Q717	Венесуэла
+N29	Reference T55 Wikidata:Q30461	президент
+N30	Reference T51 Wikidata:Q30461	президент
+N31	Reference T53 Wikidata:Q30461	президент
+N32	Reference T45 Wikidata:Q30461	президент

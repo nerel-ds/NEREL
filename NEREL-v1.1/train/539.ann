@@ -1,0 +1,184 @@
+T1	PROFESSION 12 21	главы ФСБ
+T2	ORGANIZATION 48 60	Зарубежнефти
+T3	PROFESSION 83 99	руководителя ФСБ
+T4	PERSON 100 117	Николая Патрушева
+T5	PERSON 120 126	Андрей
+T6	PROFESSION 146 193	первого заместителя гендиректора "Вьетсовпетро"
+T7	ORGANIZATION 180 192	Вьетсовпетро
+T8	ORGANIZATION 214 226	Зарубежнефти
+T9	COUNTRY 231 239	Вьетнаме
+T10	ORGANIZATION 256 267	Коммерсантъ
+T11	PERSON 349 357	Патрушев
+T12	PROFESSION 373 397	соруководителем компании
+T13	PROFESSION 453 463	-главы ФСБ
+T14	PROFESSION 481 507	руководителя "Вьетсовпетро
+T15	ORGANIZATION 495 507	Вьетсовпетро
+T16	ORGANIZATION 513 525	Зарубежнефть
+T17	DATE 537 553	осенью 2011 года
+T18	COUNTRY 590 601	вьетнамское
+T19	ORGANIZATION 617 629	Вьетсовпетро
+T20	DATE 644 655	в 1981 году
+T21	ORGANIZATION 683 695	Зарубежнефти
+T22	PERCENT 709 721	49 процентов
+T23	COUNTRY 725 736	вьетнамской
+T24	ORGANIZATION 753 765	PetroVietnam
+T25	PERCENT 768 778	51 процент
+T32	DATE 873 890	В конце 2010 года
+T33	NUMBER 923 927	двух
+T35	DATE 961 973	до 2030 года
+T36	DATE 976 987	С 2006 года
+T37	PERSON 988 1003	Андрей Патрушев
+T38	PROFESSION 1017 1050	советника председателя "Роснефти"
+T39	ORGANIZATION 1041 1049	Роснефти
+T40	PROFESSION 1086 1098	вице-премьер
+T41	ORGANIZATION 1165 1168	ФСБ
+T42	PROFESSION 1177 1224	заместителем начальника 9-го управления "П" ФСБ
+T44	ORGANIZATION 1227 1241	Промышленность
+T45	PERSON 1263 1279	Андрею Патрушеву
+T46	AGE 1280 1286	30 лет
+T47	PROFESSION 1309 1325	руководителя ФСБ
+T48	PERSON 1328 1335	Дмитрий
+T49	DATE 1369 1380	В 2010 году
+T50	PROFESSION 1389 1428	председателем правления Россельхозбанка
+T51	ORGANIZATION 1413 1428	Россельхозбанка
+T52	ORDINAL 1447 1453	первую
+T53	PERSON 1508 1524	Дмитрий Патрушев
+T54	ORGANIZATION 1541 1544	ВТБ
+T55	DATE 1547 1558	в 2004 году
+T56	DATE 1582 1590	в 2007-м
+T57	PROFESSION 1596 1620	старшим вице-президентом
+T58	ORGANIZATION 18 21	ФСБ
+T59	ORGANIZATION 96 99	ФСБ
+T61	ORGANIZATION 460 463	ФСБ
+T26	LOCATION 820 830	Белый Тигр
+T27	LOCATION 832 838	Дракон
+T28	LOCATION 840 871	Южный Дракон - Морская Черепаха
+T29	PROFESSION 1027 1050	председателя "Роснефти"
+T30	PERSON 1099 1110	Игорь Сечин
+T31	PROFESSION 1190 1224	начальника 9-го управления "П" ФСБ
+T34	ORGANIZATION 1201 1224	9-го управления "П" ФСБ
+T43	ORGANIZATION 1221 1224	ФСБ
+T62	ORGANIZATION 1322 1325	ФСБ
+T63	ORGANIZATION 1403 1428	правления Россельхозбанка
+T64	COUNTRY 1462 1472	российских
+T65	PROFESSION 1604 1620	вице-президентом
+R1	PARENT_OF Arg1:T4 Arg2:T5	
+R2	WORKPLACE Arg1:T3 Arg2:T59	
+R3	WORKS_AS Arg1:T4 Arg2:T3	
+R4	WORKPLACE Arg1:T4 Arg2:T59	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R6	WORKPLACE Arg1:T5 Arg2:T2	
+R7	WORKS_AS Arg1:T5 Arg2:T6	
+T67	PROFESSION 166 193	гендиректора "Вьетсовпетро"
+R8	WORKPLACE Arg1:T6 Arg2:T7	
+T60	PROFESSION 166 178	гендиректора
+R9	SUBORDINATE_OF Arg1:T6 Arg2:T67	
+R10	SUBORDINATE_OF Arg1:T5 Arg2:T67	
+R11	WORKPLACE Arg1:T5 Arg2:T7	
+R12	OWNER_OF Arg1:T8 Arg2:T7	
+R13	HEADQUARTERED_IN Arg1:T7 Arg2:T9	
+R14	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R15	WORKS_AS Arg1:T11 Arg2:T12	
+R18	DATE_FOUNDED_IN Arg1:T19 Arg2:T20	
+R19	HEADQUARTERED_IN Arg1:T24 Arg2:T23	
+R20	OWNER_OF Arg1:T21 Arg2:T19	
+R21	OWNER_OF Arg1:T24 Arg2:T19	
+T69	LAW 891 922	межправительственное соглашение
+R23	WORKS_AS Arg1:T30 Arg2:T40	
+R24	WORKPLACE Arg1:T30 Arg2:T39	
+R25	WORKS_AS Arg1:T37 Arg2:T38	
+R26	WORKS_AS Arg1:T30 Arg2:T29	
+R27	SUBORDINATE_OF Arg1:T37 Arg2:T29	
+R28	SUBORDINATE_OF Arg1:T37 Arg2:T30	
+R29	WORKPLACE Arg1:T37 Arg2:T39	
+T70	PROFESSION 1144 1168	кадровым сотрудником ФСБ
+R30	ABBREVIATION Arg1:T37 Arg2:T70	
+R31	WORKPLACE Arg1:T37 Arg2:T41	
+R32	AGE_IS Arg1:T45 Arg2:T46	
+R33	ALTERNATIVE_NAME Arg1:T48 Arg2:T53	
+R34	WORKPLACE Arg1:T53 Arg2:T54	
+R35	WORKS_AS Arg1:T53 Arg2:T57	
+R36	WORKS_AS Arg1:T48 Arg2:T50	
+R37	WORKPLACE Arg1:T48 Arg2:T63	
+R38	WORKPLACE Arg1:T50 Arg2:T63	
+R39	PARENT_OF Arg1:T47 Arg2:T48	
+R40	PARENT_OF Arg1:T4 Arg2:T48	
+R41	WORKPLACE Arg1:T1 Arg2:T58	
+R42	WORKPLACE Arg1:T13 Arg2:T61	
+R43	WORKPLACE Arg1:T14 Arg2:T15	
+R44	SUBORDINATE_OF Arg1:T38 Arg2:T29	
+R45	WORKPLACE Arg1:T29 Arg2:T39	
+R46	WORKPLACE Arg1:T38 Arg2:T39	
+R47	WORKPLACE Arg1:T70 Arg2:T41	
+R48	SUBORDINATE_OF Arg1:T42 Arg2:T31	
+R49	WORKPLACE Arg1:T31 Arg2:T34	
+R50	WORKPLACE Arg1:T42 Arg2:T34	
+T71	ORGANIZATION 1201 1220	9-го управления "П"
+R51	PART_OF Arg1:T34 Arg2:T43	
+R52	ALTERNATIVE_NAME Arg1:T34 Arg2:T44	
+R53	WORKPLACE Arg1:T47 Arg2:T62	
+R54	PART_OF Arg1:T63 Arg2:T51	
+R55	WORKPLACE Arg1:T57 Arg2:T54	
+T68	EVENT 129 137	назначен
+R16	PARTICIPANT_IN Arg1:T5 Arg2:T68	
+R17	ABBREVIATION Arg1:T7 Arg2:T68	
+R22	WORKPLACE Arg1:T12 Arg2:T7	
+R56	ALTERNATIVE_NAME Arg1:T9 Arg2:T18	
+R57	HEADQUARTERED_IN Arg1:T51 Arg2:T64	
+R58	WORKPLACE Arg1:T57 Arg2:T51	
+N1	Reference T4 Wikidata:Q446865	Николай Платонович Патрушев
+N4	Reference T10 Wikidata:Q1780189	Коммерсантъ
+N8	Reference T16 Wikidata:Q4187558	Зарубежнефть
+N10	Reference T19 Wikidata:Q4130084	Вьетсовпетро
+N11	Reference T24 Wikidata:Q2089536	PetroVietnam
+N14	Reference T39 Wikidata:Q1141123	Роснефть
+N15	Reference T40 Wikidata:Q877955	вице-премьер
+N20	Reference T51 Wikidata:Q3920226	Россельхозбанк
+N21	Reference T53 Wikidata:Q18043712	Дмитрий Николаевич Патрушев
+N22	Reference T54 Wikidata:Q1549389	Банк ВТБ
+N24	Reference T58 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N29	Reference T30 Wikidata:Q525666	Сечин, Игорь Иванович
+N36	Reference T60 Wikidata:Q1501800	генеральный директор
+N2	Reference T5 Wikidata:NULL	нет данных
+N35	Reference T67 Wikidata:NULL	нет данных
+N3	Reference T6 Wikidata:NULL	нет данных
+N5	Reference T12 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T14 Wikidata:NULL	нет данных
+N25	Reference T26 Wikidata:NULL	нет данных
+N26	Reference T27 Wikidata:NULL	нет данных
+N27	Reference T28 Wikidata:NULL	нет данных
+N37	Reference T69 Wikidata:NULL	нет данных
+N28	Reference T29 Wikidata:NULL	нет данных
+N13	Reference T38 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:NULL	нет данных
+N38	Reference T70 Wikidata:Q105044610	
+N16	Reference T42 Wikidata:NULL	нет данных
+N30	Reference T31 Wikidata:NULL	нет данных
+N17	Reference T44 Wikidata:NULL	нет данных
+N39	Reference T71 Wikidata:NULL	нет данных
+N18	Reference T47 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:NULL	нет данных
+N31	Reference T63 Wikidata:NULL	нет данных
+N32	Reference T64 Wikidata:Q159	Россия
+N33	Reference T65 Wikidata:Q42178	вице-президент
+N23	Reference T57 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:Q881	Вьетнам
+N40	Reference T8 Wikidata:Q4187558	Зарубежнефть
+N41	Reference T21 Wikidata:Q4187558	Зарубежнефть
+N42	Reference T2 Wikidata:Q4187558	Зарубежнефть
+N43	Reference T15 Wikidata:Q4130084	Вьетсовпетро
+N44	Reference T7 Wikidata:Q4130084	Вьетсовпетро
+N45	Reference T48 Wikidata:Q18043712	Дмитрий Николаевич Патрушев
+N46	Reference T61 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N47	Reference T43 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N48	Reference T62 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N49	Reference T41 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N50	Reference T59 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N51	Reference T11 Wikidata:NULL	нет данных
+N52	Reference T45 Wikidata:NULL	нет данных
+N53	Reference T34 Wikidata:NULL	нет данных
+N54	Reference T1 Wikidata:NULL	нет данных
+N55	Reference T3 Wikidata:NULL	нет данных
+N56	Reference T23 Wikidata:Q881	Вьетнам
+N57	Reference T9 Wikidata:Q881	Вьетнам

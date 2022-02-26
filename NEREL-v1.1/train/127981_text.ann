@@ -1,0 +1,183 @@
+T1	ORGANIZATION 0 9	Страна.ua
+T2	PERSON 13 22	Януковича
+T3	COUNTRY 25 31	России
+T4	ORDINAL 40 46	третий
+T5	PERSON 51 66	Виктор Янукович
+T6	PROFESSION 77 95	президента Украины
+T7	PERSON 96 113	Виктора Януковича
+T8	COUNTRY 128 134	России
+T9	ORGANIZATION 163 172	Страна.ua
+T10	DATE 200 216	около трёх назад
+T11	PERSON 234 242	Янукович
+T12	COUNTRY 252 259	Украины
+T13	COUNTRY 262 268	Россию
+T14	ORGANIZATION 293 302	Страна.ua
+T16	PROFESSION 377 384	кухарки
+T17	PERSON 385 399	Любовь Полежай
+T18	DATE 402 421	В феврале 2017 года
+T19	COUNTRY 452 460	немецкой
+T20	ORGANIZATION 468 479	Der Spiegel
+T21	PERSON 524 532	Людмилой
+T22	DATE 540 552	около 45 лет
+T23	PERSON 619 634	Любовью Полежай
+T24	NATIONALITY 711 721	германские
+T25	PERSON 768 777	Януковича
+T26	PERSON 802 810	Людмилой
+T27	NUMBER 820 823	два
+T28	PERSON 830 839	Александр
+T29	PERSON 842 848	Виктор
+T30	PERSON 862 877	Виктор Янукович
+T31	DATE 884 895	в 2015 году
+T32	STATE_OR_PROVINCE 926 933	Байкале
+T34	STATE_OR_PROVINCE 997 1002	Крыму
+T35	ORGANIZATION 1015 1024	Страна.ua
+T36	AGE 1028 1037	42-летней
+T37	PERSON 1060 1068	Садыкова
+T38	AGE 1077 1086	15-летняя
+T39	PERSON 1092 1097	Мария
+T40	ORDINAL 1101 1108	первого
+T41	FACILITY 1146 1164	особняке Януковича
+T42	CITY 1169 1175	Киевом
+T43	CITY 1178 1187	Межигорье
+T44	CITY 1206 1212	Ростов
+T45	PERSON 1223 1237	Любовь Полежай
+T46	CITY 1240 1248	Енакиево
+T47	STATE_OR_PROVINCE 1250 1266	Донецкая область
+T48	LOCATION 1271 1279	Донбассе
+T49	PERSON 1304 1312	Янукович
+T50	COUNTRY 1327 1334	Украины
+T51	ORGANIZATION 1368 1379	Crystal Spa
+T52	ORGANIZATION 1421 1436	Дорога будущего
+T53	EVENT 32 50	родился третий сын
+T54	COUNTRY 88 95	Украины
+T55	EVENT 141 152	родился сын
+T56	DATE 269 280	в 2014 году
+T15	PERSON 422 438	Виктор Фёдорович
+T57	PERSON 662 671	Януковича
+T58	PROFESSION 722 732	журналисты
+T59	PERSON 950 959	Януковича
+T33	PERSON 960 967	Людмила
+T60	PERSON 1038 1045	Полежай
+T62	PERSON 1155 1164	Януковича
+T63	PERSON 1335 1341	Любовь
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T53	
+T64	PROFESSION 77 87	президента
+R4	WORKS_AS Arg1:T7 Arg2:T6	
+R5	WORKPLACE Arg1:T7 Arg2:T54	
+R6	WORKPLACE Arg1:T6 Arg2:T54	
+R7	ALTERNATIVE_NAME Arg1:T53 Arg2:T55	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T55	
+R9	TAKES_PLACE_IN Arg1:T55 Arg2:T8	
+T65	EVENT 243 248	бежал
+R10	AGENT Arg1:T11 Arg2:T65	
+R11	TAKES_PLACE_IN Arg1:T65 Arg2:T12	
+R12	TAKES_PLACE_IN Arg1:T65 Arg2:T13	
+R13	POINT_IN_TIME Arg1:T65 Arg2:T56	
+R15	HEADQUARTERED_IN Arg1:T20 Arg2:T19	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T11	
+R16	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+R17	SPOUSE Arg1:T15 Arg2:T23	
+R18	SPOUSE Arg1:T15 Arg2:T21	
+R19	ORIGINS_FROM Arg1:T58 Arg2:T24	
+R20	ALTERNATIVE_NAME Arg1:T15 Arg2:T57	
+R21	SPOUSE Arg1:T25 Arg2:T26	
+R22	SIBLING Arg1:T28 Arg2:T29	
+R23	PARENT_OF Arg1:T26 Arg2:T28	
+R24	PARENT_OF Arg1:T25 Arg2:T28	
+R25	PARENT_OF Arg1:T25 Arg2:T29	
+R26	PARENT_OF Arg1:T26 Arg2:T29	
+R27	SPOUSE Arg1:T59 Arg2:T33	
+R28	PLACE_RESIDES_IN Arg1:T33 Arg2:T34	
+R29	AGE_IS Arg1:T60 Arg2:T36	
+R30	ALTERNATIVE_NAME Arg1:T60 Arg2:T37	
+R31	PARENT_OF Arg1:T60 Arg2:T39	
+R32	AGE_IS Arg1:T39 Arg2:T38	
+R33	LOCATED_IN Arg1:T46 Arg2:T47	
+R34	PLACE_OF_BIRTH Arg1:T45 Arg2:T46	
+R35	LOCATED_IN Arg1:T47 Arg2:T48	
+R36	PLACE_OF_BIRTH Arg1:T49 Arg2:T46	
+R37	OWNER_OF Arg1:T63 Arg2:T51	
+R38	HEADQUARTERED_IN Arg1:T51 Arg2:T50	
+R39	ALTERNATIVE_NAME Arg1:T45 Arg2:T63	
+R40	WORKPLACE Arg1:T63 Arg2:T52	
+R41	HEADQUARTERED_IN Arg1:T52 Arg2:T50	
+R42	ALTERNATIVE_NAME Arg1:T60 Arg2:T45	
+R43	PLACE_RESIDES_IN Arg1:T39 Arg2:T44	
+R44	OWNER_OF Arg1:T62 Arg2:T41	
+R45	LOCATED_IN Arg1:T62 Arg2:T43	
+R46	PLACE_RESIDES_IN Arg1:T39 Arg2:T41	
+R1	TAKES_PLACE_IN Arg1:T53 Arg2:T3	
+T61	EVENT 175 199	Ребёнок появился на свет
+R3	ALTERNATIVE_NAME Arg1:T55 Arg2:T61	
+R47	POINT_IN_TIME Arg1:T61 Arg2:T10	
+R48	PARTICIPANT_IN Arg1:T11 Arg2:T61	
+R49	AGENT Arg1:T17 Arg2:T61	
+R50	SPOUSE Arg1:T11 Arg2:T17	
+T66	EVENT 506 515	расстался
+R51	AGENT Arg1:T15 Arg2:T66	
+R52	AGENT Arg1:T21 Arg2:T66	
+T67	EVENT 878 883	погиб
+R53	PARENT_OF Arg1:T25 Arg2:T30	
+R54	PARTICIPANT_IN Arg1:T30 Arg2:T67	
+R55	POINT_IN_TIME Arg1:T67 Arg2:T31	
+R56	TAKES_PLACE_IN Arg1:T67 Arg2:T32	
+T68	EVENT 1317 1324	бегства
+R57	AGENT Arg1:T63 Arg2:T68	
+R58	TAKES_PLACE_IN Arg1:T68 Arg2:T50	
+N1	Reference T6 Wikidata:Q579677	президент Украины
+N2	Reference T13 Wikidata:Q159	Россия
+N4	Reference T19 Wikidata:Q183	Германия
+N5	Reference T20 Wikidata:Q131478	Шпигель
+N7	Reference T26 Wikidata:Q4538301	Людмила Александровна Янукович
+N8	Reference T28 Wikidata:Q3209269	Александр Викторович Янукович
+N10	Reference T32 Wikidata:Q5513	Байкал
+N11	Reference T34 Wikidata:Q7835	Крымский полуостров
+N14	Reference T42 Wikidata:Q1899	Киев
+N15	Reference T43 Wikidata:Q4288751	Межигорье (резиденция)
+N16	Reference T44 Wikidata:Q908	Ростов-на-Дону
+N18	Reference T46 Wikidata:Q1686835	Енакиево
+N19	Reference T47 Wikidata:Q2012050	Донецкая область
+N20	Reference T48 Wikidata:Q605714	Донбасс
+N21	Reference T50 Wikidata:Q212	Украина
+N24	Reference T58 Wikidata:Q1930187	журналист
+N25	Reference T59 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N26	Reference T64 Wikidata:Q30461	президент
+N3	Reference T16 Wikidata:Q156839	
+N6	Reference T24 Wikidata:Q42884	немцы
+N9	Reference T29 Wikidata:Q3460875	Виктор Викторович Янукович
+N12	Reference T35 Wikidata:Q30889269	
+N27	Reference T39 Wikidata:NULL	нет данных
+N13	Reference T41 Wikidata:NULL	нет данных
+N17	Reference T45 Wikidata:Q98544537	
+N22	Reference T51 Wikidata:NULL	нет данных
+N23	Reference T52 Wikidata:NULL	нет данных
+N28	Reference T8 Wikidata:Q159	Россия
+N29	Reference T3 Wikidata:Q159	Россия
+N30	Reference T33 Wikidata:Q4538301	Людмила Александровна Янукович
+N31	Reference T21 Wikidata:Q4538301	Людмила Александровна Янукович
+N32	Reference T54 Wikidata:Q212	Украина
+N33	Reference T12 Wikidata:Q212	Украина
+N34	Reference T5 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N35	Reference T57 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N36	Reference T15 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N37	Reference T25 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N38	Reference T62 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N39	Reference T49 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N40	Reference T7 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N41	Reference T11 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N42	Reference T2 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N43	Reference T30 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N44	Reference T14 Wikidata:Q30889269	
+N45	Reference T9 Wikidata:Q30889269	
+N46	Reference T1 Wikidata:Q30889269	
+N47	Reference T23 Wikidata:Q98544537	
+N48	Reference T17 Wikidata:Q98544537	
+N49	Reference T63 Wikidata:Q98544537	
+N50	Reference T60 Wikidata:Q98544537	
+N51	Reference T37 Wikidata:Q98544537	
+T69	EVENT 905 922	ледовых автогонок
+R59	TAKES_PLACE_IN Arg1:T69 Arg2:T32	
+R60	HAS_CAUSE Arg1:T67 Arg2:T69	
+R61	PARTICIPANT_IN Arg1:T30 Arg2:T69	
+T70	EVENT 913 922	автогонок
+R62	PLACE_OF_DEATH Arg1:T30 Arg2:T32	

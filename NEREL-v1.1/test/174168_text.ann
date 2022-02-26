@@ -1,0 +1,138 @@
+T1	PERSON 28 37	Денис Тен
+T2	COUNTRY 46 56	Казахстане
+T3	PERSON 57 66	Денис Тен
+T4	EVENT 91 106	Олимпийских игр
+T5	CITY 109 113	Сочи
+T6	NATIONALITY 115 128	казахстанский
+T7	PERSON 138 147	Денис Тен
+T8	CITY 156 164	Алма-Ате
+T9	COUNTRY 166 175	Казахстан
+T10	DATE 200 228	в четверг, 19 июля 2018 года
+T11	TIME 231 265	Около 15 часов по местному времени
+T12	TIME 267 282	12 часов по мск
+T13	FACILITY 307 317	Курмангазы
+T14	FACILITY 320 331	Байсеитовой
+T15	NUMBER 351 355	двое
+T16	FACILITY 514 556	Центральную городскую клиническую больницу
+T17	ORGANIZATION 706 734	Министерство здравоохранения
+T18	ORGANIZATION 771 784	Радио Свобода
+T19	NUMBER 810 827	около трёх литров
+T20	PERSON 844 850	Дениса
+T21	AGE 864 873	25-летний
+T22	PERSON 874 883	Денис Тен
+T23	NATIONALITY 886 899	казахстанский
+T25	COUNTRY 957 966	Казахстан
+T27	DATE 1001 1010	2014 года
+T28	DATE 1034 1038	2013
+T29	DATE 1050 1054	2015
+T30	NUMBER 1115 1119	пять
+T31	PROFESSION 19 27	фигурист
+T32	EVENT 38 43	погиб
+T33	EVENT 84 106	зимних Олимпийских игр
+T34	PROFESSION 129 137	фигурист
+T35	EVENT 148 153	погиб
+T36	PERSON 332 337	Денис
+T37	ORGANIZATION 706 745	Министерство здравоохранения Казахстана
+T38	COUNTRY 735 745	Казахстана
+T39	PROFESSION 791 800	спортсмен
+T40	PROFESSION 900 908	фигурист
+T41	PROFESSION 900 918	фигурист-одиночник
+T24	AWARD 920 966	заслуженный мастер спорта Республики Казахстан
+T42	AWARD 920 945	заслуженный мастер спорта
+T43	AWARD 968 1010	бронзовый призер Олимпийских игр 2014 года
+T26	EVENT 985 1010	Олимпийских игр 2014 года
+T45	EVENT 985 1000	Олимпийских игр
+T46	EVENT 1056 1072	чемпионатов мира
+T47	AWARD 0 18	Олимпийский призёр
+R1	WORKS_AS Arg1:T1 Arg2:T31	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T32	
+R3	AWARDED_WITH Arg1:T1 Arg2:T47	
+R4	TAKES_PLACE_IN Arg1:T32 Arg2:T2	
+T48	EVENT 0 11	Олимпийский
+R5	ORIGINS_FROM Arg1:T47 Arg2:T48	
+R6	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R7	WORKS_AS Arg1:T7 Arg2:T34	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T35	
+R9	TAKES_PLACE_IN Arg1:T35 Arg2:T8	
+R10	LOCATED_IN Arg1:T8 Arg2:T9	
+T49	EVENT 183 199	ножевого ранения
+R11	POINT_IN_TIME Arg1:T49 Arg2:T10	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T49	
+R13	TAKES_PLACE_IN Arg1:T49 Arg2:T8	
+R14	ORIGINS_FROM Arg1:T34 Arg2:T6	
+T50	AWARD 67 83	Бронзовый призёр
+R15	AWARDED_WITH Arg1:T7 Arg2:T50	
+R16	TAKES_PLACE_IN Arg1:T33 Arg2:T5	
+R17	ORIGINS_FROM Arg1:T50 Arg2:T33	
+R18	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R19	LOCATED_IN Arg1:T13 Arg2:T8	
+R20	LOCATED_IN Arg1:T14 Arg2:T8	
+R21	ALTERNATIVE_NAME Arg1:T7 Arg2:T36	
+R22	LOCATED_IN Arg1:T16 Arg2:T8	
+T51	EVENT 434 443	потасовки
+R23	PARTICIPANT_IN Arg1:T36 Arg2:T51	
+R24	POINT_IN_TIME Arg1:T51 Arg2:T11	
+R25	TAKES_PLACE_IN Arg1:T51 Arg2:T8	
+R26	HEADQUARTERED_IN Arg1:T37 Arg2:T38	
+T52	DISEASE 605 648	ножевое ранение верхней трети правого бедра
+T53	DISEASE 650 679	повреждение бедренных сосудов
+T54	DISEASE 682 703	наружное кровотечение
+R27	MEDICAL_CONDITION Arg1:T36 Arg2:T52	
+R28	MEDICAL_CONDITION Arg1:T36 Arg2:T53	
+R29	MEDICAL_CONDITION Arg1:T36 Arg2:T54	
+R30	WORKS_AS Arg1:T36 Arg2:T39	
+R31	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+R32	AGE_IS Arg1:T22 Arg2:T21	
+R33	WORKS_AS Arg1:T22 Arg2:T41	
+R34	ORIGINS_FROM Arg1:T22 Arg2:T23	
+R35	ORIGINS_FROM Arg1:T41 Arg2:T23	
+R37	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R38	POINT_IN_TIME Arg1:T26 Arg2:T27	
+T44	AWARD 968 984	бронзовый призер
+R39	ORIGINS_FROM Arg1:T43 Arg2:T26	
+R36	AWARDED_WITH Arg1:T22 Arg2:T24	
+R40	AWARDED_WITH Arg1:T22 Arg2:T43	
+T55	EVENT 1056 1093	чемпионатов мира по фигурному катанию
+R41	POINT_IN_TIME Arg1:T55 Arg2:T28	
+R42	POINT_IN_TIME Arg1:T55 Arg2:T29	
+T56	AWARD 1025 1032	серебро
+T57	AWARD 1042 1048	бронза
+R43	AWARDED_WITH Arg1:T22 Arg2:T56	
+R44	POINT_IN_TIME Arg1:T56 Arg2:T28	
+R45	AWARDED_WITH Arg1:T22 Arg2:T57	
+R46	POINT_IN_TIME Arg1:T57 Arg2:T29	
+R47	ORIGINS_FROM Arg1:T56 Arg2:T55	
+R48	HAS_CAUSE Arg1:T35 Arg2:T49	
+N1	Reference T5 Wikidata:Q39420	Сочи
+N8	Reference T18 Wikidata:Q485500	радио «Свобода»
+N9	Reference T22 Wikidata:Q981074	Тен, Денис Юрьевич
+N10	Reference T25 Wikidata:Q232	Казахстан
+N11	Reference T37 Wikidata:Q19405533	Министерство здравоохранения и социального развития Республики Казахстан
+N12	Reference T39 Wikidata:Q2066131	спортсмен
+N15	Reference T24 Wikidata:Q4188021	заслуженный мастер спорта Республики Казахстан
+N18	Reference T47 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:Q232	Казахстан
+N3	Reference T8 Wikidata:Q35493	Алма-Ата
+N4	Reference T13 Wikidata:Q12577060	
+N5	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T36 Wikidata:Q981074	Тен, Денис Юрьевич
+N6	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:Q1519799	
+N13	Reference T40 Wikidata:Q13219587	
+N14	Reference T41 Wikidata:NULL	нет данных
+N16	Reference T42 Wikidata:Q4188021	заслуженный мастер спорта Республики Казахстан
+N17	Reference T43 Wikidata:NULL	нет данных
+N20	Reference T56 Wikidata:Q15889641	
+N21	Reference T57 Wikidata:Q15889643	
+N23	Reference T1 Wikidata:Q981074	Тен, Денис Юрьевич
+N24	Reference T3 Wikidata:Q981074	Тен, Денис Юрьевич
+N25	Reference T20 Wikidata:Q981074	Тен, Денис Юрьевич
+N26	Reference T9 Wikidata:Q232	Казахстан
+N27	Reference T2 Wikidata:Q232	Казахстан
+N28	Reference T38 Wikidata:Q232	Казахстан
+N29	Reference T44 Wikidata:NULL	нет данных
+N30	Reference T23 Wikidata:Q232	Казахстан
+N31	Reference T7 Wikidata:Q981074	Тен, Денис Юрьевич
+N32	Reference T34 Wikidata:Q13219587	
+N33	Reference T31 Wikidata:Q13219587	

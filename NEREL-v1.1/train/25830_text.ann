@@ -1,0 +1,161 @@
+T2	COUNTRY 61 67	Швеции
+T3	PERSON 68 78	Пол Хансен
+T5	ORGANIZATION 258 286	Военно-воздушных сил Израиля
+T6	COUNTRY 290 302	Палестинским
+T7	COUNTRY 360 367	Израиля
+T8	NUMBER 396 400	двух
+T9	STATE_OR_PROVINCE 474 486	Секторе газа
+T11	PERSON 520 530	Пол Хансен
+T13	DATE 594 614	15 февраля 2013 года
+T14	COUNTRY 625 636	Нидерландов
+T15	CITY 644 654	Амстердаме
+T16	PERSON 689 703	Самуэль Аранда
+T17	PERSON 705 718	Samuel Aranda
+T18	EVENT 871 883	демонстрации
+T19	PROFESSION 901 911	президента
+T20	CITY 940 944	Сана
+T21	COUNTRY 946 951	Йемен
+T22	DATE 953 973	15 октября 2011 года
+T23	DATE 976 987	В 2011 году
+T24	PROFESSION 1012 1020	фотограф
+T25	PERSON 1021 1032	Джоди Бибер
+T26	PERSON 1034 1045	Jodi Bieber
+T27	COUNTRY 1050 1053	ЮАР
+T28	AGE 1068 1077	18-летней
+T29	PERSON 1095 1104	Биби Айша
+T30	STATE_OR_PROVINCE 1118 1125	Орузган
+T31	LOCATION 1128 1151	центральном Афганистане
+T32	TIME 1264 1269	ночей
+T34	ORGANIZATION 1522 1552	Женщины для женщин Афганистана
+T35	PERSON 1593 1602	Айше Биби
+T36	COUNTRY 1622 1625	США
+T37	COUNTRY 1685 1703	Соединённых Штатах
+T38	ORGANIZATION 1756 1773	World Press Photo
+T39	DATE 1813 1824	в 1955 году
+T40	ORGANIZATION 1932 1949	World Press Photo
+T42	EVENT 2347 2369	Joop Swart Masterclass
+T1	ORGANIZATION 25 42	World Press Photo
+T43	PROFESSION 44 57	Фотожурналист
+T44	AWARD 94 119	премии «World Press Photo
+T45	ORGANIZATION 102 119	World Press Photo
+T46	AWARD 134 149	фотография года
+T47	EVENT 210 232	погребальная процессия
+T48	COUNTRY 279 286	Израиля
+T49	LOCATION 290 314	Палестинским территориям
+T51	EVENT 422 430	погибших
+T10	ORGANIZATION 560 577	World Press Photo
+T12	PERSON 912 930	Али Абдуллы Салеха
+T52	COUNTRY 1140 1151	Афганистане
+T54	ORGANIZATION 1270 1276	талибы
+T55	PROFESSION 1346 1363	командира талибов
+T57	COUNTRY 1541 1552	Афганистана
+R1	WORKS_AS Arg1:T3 Arg2:T43	
+R2	ORIGINS_FROM Arg1:T3 Arg2:T2	
+R5	AWARDED_WITH Arg1:T3 Arg2:T44	
+R6	HEADQUARTERED_IN Arg1:T5 Arg2:T48	
+T4	EVENT 252 257	удара
+R7	HAS_CAUSE Arg1:T47 Arg2:T4	
+R8	AGENT Arg1:T5 Arg2:T4	
+T41	EVENT 340 348	обстрелы
+R9	TAKES_PLACE_IN Arg1:T41 Arg2:T7	
+R10	TAKES_PLACE_IN Arg1:T4 Arg2:T49	
+R11	HAS_CAUSE Arg1:T51 Arg2:T4	
+R12	TAKES_PLACE_IN Arg1:T51 Arg2:T9	
+R13	LOCATED_IN Arg1:T9 Arg2:T49	
+R15	LOCATED_IN Arg1:T15 Arg2:T14	
+R16	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R17	LOCATED_IN Arg1:T20 Arg2:T21	
+R18	WORKS_AS Arg1:T12 Arg2:T19	
+R19	TAKES_PLACE_IN Arg1:T18 Arg2:T20	
+R20	POINT_IN_TIME Arg1:T18 Arg2:T22	
+R21	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R22	WORKS_AS Arg1:T25 Arg2:T24	
+R23	ORIGINS_FROM Arg1:T25 Arg2:T27	
+T50	AWARD 988 1002	главную премию
+R24	AWARDED_WITH Arg1:T25 Arg2:T50	
+R25	POINT_IN_TIME Arg1:T50 Arg2:T23	
+R26	AGE_IS Arg1:T29 Arg2:T28	
+R27	ORIGINS_FROM Arg1:T29 Arg2:T30	
+R28	LOCATED_IN Arg1:T30 Arg2:T31	
+R29	LOCATED_IN Arg1:T31 Arg2:T52	
+R30	HEADQUARTERED_IN Arg1:T34 Arg2:T57	
+T53	ORGANIZATION 1356 1363	талибов
+R31	WORKPLACE Arg1:T55 Arg2:T53	
+R32	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+T56	AWARD 17 42	премии «World Press Photo
+R33	PRODUCES Arg1:T1 Arg2:T56	
+R3	PRODUCES Arg1:T45 Arg2:T44	
+R4	PRODUCES Arg1:T45 Arg2:T46	
+T58	AWARD 544 578	главного приза «World Press Photo»
+R14	PRODUCES Arg1:T10 Arg2:T58	
+R34	AWARDED_WITH Arg1:T11 Arg2:T58	
+R35	AWARDED_WITH Arg1:T3 Arg2:T46	
+R36	HAS_CAUSE Arg1:T4 Arg2:T41	
+R37	POINT_IN_TIME Arg1:T58 Arg2:T13	
+R38	ALTERNATIVE_NAME Arg1:T29 Arg2:T35	
+R39	ORGANIZES Arg1:T40 Arg2:T42	
+R40	DATE_FOUNDED_IN Arg1:T38 Arg2:T39	
+R41	PLACE_RESIDES_IN Arg1:T35 Arg2:T36	
+R42	PRODUCES Arg1:T10 Arg2:T50	
+N1	Reference T2 Wikidata:Q34	Швеция
+N2	Reference T5 Wikidata:Q462211	Военно-воздушные силы Израиля
+N3	Reference T6 Wikidata:Q219060	Государство Палестина
+N5	Reference T14 Wikidata:Q55	Нидерланды
+N6	Reference T15 Wikidata:Q727	Амстердам
+N8	Reference T19 Wikidata:Q30461	президент
+N9	Reference T21 Wikidata:Q805	Йемен
+N10	Reference T24 Wikidata:Q33231	фотограф
+N11	Reference T27 Wikidata:Q258	ЮАР
+N17	Reference T40 Wikidata:Q551947	World Press Photo
+N18	Reference T43 Wikidata:Q957729	фотокорреспондент
+N19	Reference T48 Wikidata:Q801	Израиль
+N21	Reference T12 Wikidata:Q483672	Салех, Али Абдалла
+N23	Reference T57 Wikidata:Q889	Афганистан
+N24	Reference T53 Wikidata:Q42418	Талибан
+N25	Reference T56 Wikidata:Q1935928	
+N16	Reference T37 Wikidata:Q30	США
+N15	Reference T35 Wikidata:Q3701635	
+N14	Reference T34 Wikidata:NULL	нет данных
+N22	Reference T55 Wikidata:NULL	нет данных
+N13	Reference T31 Wikidata:NULL	нет данных
+N12	Reference T30 Wikidata:Q183028	
+N27	Reference T26 Wikidata:Q436652	
+N7	Reference T16 Wikidata:Q1889923	
+N28	Reference T20 Wikidata:Q2471	
+N29	Reference T11 Wikidata:Q5357323	
+N4	Reference T9 Wikidata:Q39760	сектор Газа
+N20	Reference T49 Wikidata:Q407199	
+N30	Reference T46 Wikidata:Q1935928	
+N26	Reference T58 Wikidata:Q1935928	
+N31	Reference T50 Wikidata:Q1935928	
+N32	Reference T10 Wikidata:Q551947	World Press Photo
+N33	Reference T38 Wikidata:Q551947	World Press Photo
+N34	Reference T45 Wikidata:Q551947	World Press Photo
+N35	Reference T1 Wikidata:Q551947	World Press Photo
+N36	Reference T7 Wikidata:Q801	Израиль
+N37	Reference T52 Wikidata:Q889	Афганистан
+N38	Reference T54 Wikidata:Q42418	Талибан
+N39	Reference T44 Wikidata:Q1935928	
+N40	Reference T36 Wikidata:Q30	США
+N41	Reference T29 Wikidata:Q3701635	
+N42	Reference T25 Wikidata:Q436652	
+N43	Reference T17 Wikidata:Q1889923	
+N44	Reference T3 Wikidata:Q5357323	
+T33	EVENT 1642 1681	восстановительную пластическую операцию
+R43	PARTICIPANT_IN Arg1:T35 Arg2:T33	
+R44	TAKES_PLACE_IN Arg1:T33 Arg2:T36	
+T59	EVENT 1157 1177	сбежала из дома мужа
+R45	AGENT Arg1:T29 Arg2:T59	
+R46	TAKES_PLACE_IN Arg1:T59 Arg2:T30	
+T60	EVENT 1277 1292	ворвались в дом
+R47	AGENT Arg1:T54 Arg2:T60	
+R48	PARTICIPANT_IN Arg1:T29 Arg2:T60	
+R49	TAKES_PLACE_IN Arg1:T60 Arg2:T30	
+T61	EVENT 1180 1211	вернулась в дом своих родителей
+R50	AGENT Arg1:T29 Arg2:T61	
+R51	TAKES_PLACE_IN Arg1:T61 Arg2:T30	
+R52	HAS_CAUSE Arg1:T60 Arg2:T61	
+T62	EVENT 1611 1619	приехать
+R53	AGENT Arg1:T35 Arg2:T62	
+R54	TAKES_PLACE_IN Arg1:T62 Arg2:T36	
+T63	EVENT 1660 1681	пластическую операцию

@@ -1,0 +1,131 @@
+T1	PERSON 0 16	Константин Сомов
+T2	DATE 34 41	полвека
+T3	PERSON 42 58	Константин Сомов
+T4	FACILITY 83 112	Государственный Русский музей
+T5	CITY 114 129	Санкт-Петербург
+T6	CITY 132 148	Санкт-Петербурге
+T7	DATE 222 245	первой половины XX века
+T8	PERSON 246 264	Константина Сомова
+T9	FACILITY 301 320	Михайловского замка
+T10	AGE 335 346	150-летнему
+T11	DATE 379 390	до 4 ноября
+T12	CITY 429 445	Санкт-Петербурге
+T14	ORGANIZATION 608 640	Императорским фарфоровым заводом
+T15	ORGANIZATION 677 690	Мир искусства
+T16	CITY 811 821	Ленинграде
+T17	DATE 822 835	полвека назад
+T18	ORGANIZATION 947 960	Русский музей
+T20	FACILITY 989 1007	Михайловский замок
+T21	NUMBER 1029 1038	более ста
+T22	PERSON 1045 1051	Сомова
+T23	ORGANIZATION 1067 1081	Русского музея
+T24	ORGANIZATION 1129 1150	Третьяковской галереи
+T25	ORGANIZATION 1171 1179	Петергоф
+T27	PERSON 1398 1417	Анны Карловны Бенуа
+T29	PERSON 1442 1459	А. П. Остроумовой
+T32	WORK_OF_ART 1518 1523	Каток
+T33	DATE 149 158	8 августа
+T34	ORGANIZATION 491 499	Эрмитажа
+T35	PROFESSION 480 499	хранителем Эрмитажа
+T36	AGE 885 893	столетие
+T19	WORK_OF_ART 1390 1417	Портрет Анны Карловны Бенуа
+T26	WORK_OF_ART 1421 1430	В боскете
+T37	WORK_OF_ART 1434 1459	Портрет А. П. Остроумовой
+T30	WORK_OF_ART 1463 1480	Осмеянный поцелуй
+T38	WORK_OF_ART 1484 1498	Арлекин и дама
+T39	WORK_OF_ART 1502 1508	В лесу
+T40	WORK_OF_ART 1512 1516	Зима
+T31	WORK_OF_ART 1527 1543	Язычок Коломбины
+T41	PERSON 1534 1543	Коломбины
+T42	EVENT 169 177	выставка
+T43	EVENT 18 26	выставка
+T44	EVENT 266 274	Выставка
+T46	EVENT 771 779	выставка
+T47	EVENT 916 926	экспозиции
+T48	EVENT 1228 1236	выставки
+R1	FOUNDED_BY Arg1:T47 Arg2:T18	
+R3	TAKES_PLACE_IN Arg1:T42 Arg2:T6	
+R4	TAKES_PLACE_IN Arg1:T44 Arg2:T9	
+R5	END_TIME Arg1:T44 Arg2:T11	
+R6	POINT_IN_TIME Arg1:T42 Arg2:T33	
+R7	TAKES_PLACE_IN Arg1:T46 Arg2:T16	
+R8	POINT_IN_TIME Arg1:T46 Arg2:T17	
+R9	OWNER_OF Arg1:T18 Arg2:T20	
+T49	PROFESSION 354 363	живописца
+R10	AGE_IS Arg1:T49 Arg2:T10	
+R11	LOCATED_IN Arg1:T9 Arg2:T6	
+T50	PROFESSION 211 221	художников
+T51	NATIONALITY 203 210	русских
+R12	ORIGINS_FROM Arg1:T8 Arg2:T51	
+R13	WORKS_AS Arg1:T8 Arg2:T50	
+R14	WORKS_AS Arg1:T8 Arg2:T49	
+R2	PLACE_OF_BIRTH Arg1:T8 Arg2:T12	
+R15	WORKPLACE Arg1:T8 Arg2:T14	
+R16	FOUNDED_BY Arg1:T15 Arg2:T8	
+T45	PROFESSION 894 903	живописца
+R17	AGE_IS Arg1:T45 Arg2:T36	
+R18	PRODUCES Arg1:T22 Arg2:T19	
+R19	PRODUCES Arg1:T22 Arg2:T26	
+R20	PRODUCES Arg1:T22 Arg2:T37	
+R21	PRODUCES Arg1:T22 Arg2:T30	
+R22	PRODUCES Arg1:T22 Arg2:T38	
+R23	PRODUCES Arg1:T22 Arg2:T39	
+R24	PRODUCES Arg1:T22 Arg2:T40	
+R25	PRODUCES Arg1:T22 Arg2:T32	
+T28	PROFESSION 1357 1364	мастера
+R26	PRODUCES Arg1:T28 Arg2:T19	
+R27	PRODUCES Arg1:T28 Arg2:T26	
+R28	PRODUCES Arg1:T28 Arg2:T37	
+R29	PRODUCES Arg1:T28 Arg2:T30	
+R30	PRODUCES Arg1:T28 Arg2:T38	
+R31	PRODUCES Arg1:T28 Arg2:T39	
+R32	PRODUCES Arg1:T28 Arg2:T40	
+R33	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+R34	LOCATED_IN Arg1:T4 Arg2:T5	
+T52	NATIONALITY 99 106	Русский
+R35	INANIMATE_INVOLVED Arg1:T8 Arg2:T42	
+R36	WORKPLACE Arg1:T35 Arg2:T34	
+T13	NATIONALITY 947 954	Русский
+R37	ALTERNATIVE_NAME Arg1:T8 Arg2:T22	
+T53	NATIONALITY 1067 1075	Русского
+T54	PERSON 1484 1491	Арлекин
+N1	Reference T4 Wikidata:Q211043	Государственный Русский музей
+N2	Reference T5 Wikidata:Q656	Санкт-Петербург
+N3	Reference T9 Wikidata:Q2000542	Михайловский замок
+N4	Reference T14 Wikidata:Q1303887	Императорский фарфоровый завод
+N5	Reference T15 Wikidata:Q1425138	Мир искусства
+N6	Reference T16 Wikidata:Q656	Санкт-Петербург
+N7	Reference T18 Wikidata:Q211043	Государственный Русский музей
+N9	Reference T24 Wikidata:Q183334	Государственная Третьяковская галерея
+N11	Reference T27 Wikidata:Q50510615	Бенуа, Анна Карловна
+N12	Reference T29 Wikidata:Q562945	Остроумова-Лебедева, Анна Петровна
+N14	Reference T34 Wikidata:Q132783	Государственный Эрмитаж
+N24	Reference T41 Wikidata:Q17302	Коломбина
+N25	Reference T49 Wikidata:Q1028181	художник
+N26	Reference T50 Wikidata:Q1028181	художник
+N29	Reference T54 Wikidata:Q17298	Арлекин
+N13	Reference T32 Wikidata:NULL	нет данных
+N23	Reference T31 Wikidata:NULL	нет данных
+N15	Reference T35 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q433067	
+N10	Reference T25 Wikidata:Q4360238	
+N16	Reference T19 Wikidata:NULL	нет данных
+N17	Reference T26 Wikidata:NULL	нет данных
+N18	Reference T37 Wikidata:NULL	нет данных
+N19	Reference T30 Wikidata:NULL	нет данных
+N20	Reference T38 Wikidata:NULL	нет данных
+N21	Reference T39 Wikidata:NULL	нет данных
+N27	Reference T51 Wikidata:Q49542	русские
+N28	Reference T28 Wikidata:Q1294787	ремесленник
+N22	Reference T40 Wikidata:NULL	нет данных
+N30	Reference T6 Wikidata:Q656	Санкт-Петербург
+N31	Reference T12 Wikidata:Q656	Санкт-Петербург
+N32	Reference T20 Wikidata:Q2000542	Михайловский замок
+N33	Reference T23 Wikidata:Q211043	Государственный Русский музей
+N34	Reference T45 Wikidata:Q1028181	художник
+N35	Reference T8 Wikidata:Q433067	
+N36	Reference T1 Wikidata:Q433067	
+N37	Reference T3 Wikidata:Q433067	
+N38	Reference T53 Wikidata:Q49542	русские
+N39	Reference T52 Wikidata:Q49542	русские
+N40	Reference T13 Wikidata:Q49542	русские

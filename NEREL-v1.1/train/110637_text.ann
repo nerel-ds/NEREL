@@ -1,0 +1,135 @@
+T2	FAMILY 27 41	дома Романовых
+T3	PROFESSION 42 47	князь
+T4	PERSON 48 65	Дмитрий Романович
+T5	PERSON 67 84	Дмитрий Романович
+T6	PERSON 88 106	Владимиром Путиным
+T7	AWARD 128 155	Орденом Александра Невского
+T8	DATE 156 176	31 декабря 2016 года
+T9	CITY 179 190	Копенгагене
+T10	COUNTRY 192 197	Дания
+T13	PROFESSION 241 246	князь
+T14	PERSON 247 264	Дмитрий Романович
+T15	PERSON 285 300	Дорит Ревентлов
+T16	PERSON 303 320	Дмитрий Романович
+T17	PROFESSION 335 340	князя
+T18	PERSON 341 357	Романа Петровича
+T19	PROFESSION 360 367	графини
+T21	PERSON 368 400	Прасковьи Дмитриевны Шереметевой
+T22	PERSON 413 422	Николая I
+T25	PROFESSION 526 536	императора
+T26	PERSON 537 546	Николая I
+T27	PERSON 572 593	Владимира Кирилловича
+T30	PERSON 628 645	Дмитрий Романович
+T31	DATE 654 670	17 мая 1926 года
+T33	PROFESSION 692 706	великого князя
+T34	PERSON 707 724	Петра Николаевича
+T35	CITY 727 733	Антибе
+T37	COUNTRY 742 749	Франции
+T38	DATE 752 763	В 1959 году
+T39	COUNTRY 775 780	Данию
+T40	PROFESSION 943 953	кронпринца
+T41	PERSON 954 963	Фредерика
+T42	PROFESSION 966 979	кронпринцессы
+T43	DATE 985 996	в 2004 году
+R3	WORKS_AS Arg1:T4 Arg2:T3
+R7	WORKS_AS Arg1:T14 Arg2:T13
+R9	PARENT_OF Arg1:T21 Arg2:T16
+R11	WORKS_AS Arg1:T26 Arg2:T25
+R16	WORKS_AS Arg1:T34 Arg2:T33
+R17	WORKS_AS Arg1:T41 Arg2:T40
+T12	PERSON 980 984	Мэри
+T23	PERSON 883 890	Романов
+T24	PERSON 231 240	Романовых
+R4	PARENT_OF Arg1:T18 Arg2:T16	
+R6	WORKS_AS Arg1:T18 Arg2:T17	
+R8	WORKS_AS Arg1:T21 Arg2:T19	
+T20	FAMILY 470 482	Николаевичей
+T28	FAMILY 484 498	рода Романовых
+T29	PROFESSION 604 625	Главой Дома Романовых
+T44	PERSON 616 625	Романовых
+R10	SPOUSE Arg1:T15 Arg2:T14	
+T45	COUNTRY 876 881	Дании
+T46	PROFESSION 809 815	князей
+R13	WORKS_AS Arg1:T12 Arg2:T42	
+T47	PERSON 136 155	Александра Невского
+R12	RELATIVE Arg1:T30 Arg2:T34	
+T48	PROFESSION 809 835	князей императорской крови
+R15	SPOUSE Arg1:T41 Arg2:T12	
+R18	SPOUSE Arg1:T18 Arg2:T21	
+R2	AWARDED_WITH Arg1:T5 Arg2:T7	
+R19	LOCATED_IN Arg1:T9 Arg2:T10	
+R20	DATE_OF_DEATH Arg1:T14 Arg2:T8	
+R21	PLACE_OF_DEATH Arg1:T14 Arg2:T9	
+R22	RELATIVE Arg1:T16 Arg2:T22	
+R23	DATE_OF_BIRTH Arg1:T30 Arg2:T31	
+R14	LOCATED_IN Arg1:T35 Arg2:T37	
+R24	PLACE_OF_BIRTH Arg1:T30 Arg2:T35	
+T36	EVENT 935 942	свадьбу
+R25	AGENT Arg1:T41 Arg2:T36	
+R26	AGENT Arg1:T12 Arg2:T36	
+R27	POINT_IN_TIME Arg1:T36 Arg2:T43	
+R28	PARTICIPANT_IN Arg1:T23 Arg2:T36	
+R29	KNOWS Arg1:T5 Arg2:T6	
+T49	FAMILY 857 881	королевской семьей Дании
+T50	FAMILY 226 240	дома Романовых
+T51	FAMILY 611 625	Дома Романовых
+R1	MEMBER_OF Arg1:T4 Arg2:T2	
+R5	MEMBER_OF Arg1:T14 Arg2:T50	
+T1	PERSON 489 498	Романовых
+T11	PERSON 32 41	Романовых
+T32	EVENT 0 4	Умер
+R30	PARTICIPANT_IN Arg1:T4 Arg2:T32	
+T52	EVENT 199 203	умер
+R31	PARTICIPANT_IN Arg1:T14 Arg2:T52	
+R32	TAKES_PLACE_IN Arg1:T52 Arg2:T9	
+R33	POINT_IN_TIME Arg1:T52 Arg2:T8	
+R34	PLACE_RESIDES_IN Arg1:T30 Arg2:T39	
+R35	ALTERNATIVE_NAME Arg1:T2 Arg2:T50	
+R36	ALTERNATIVE_NAME Arg1:T28 Arg2:T51	
+N1	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N2	Reference T7 Wikidata:Q612907	орден Александра Невского
+N3	Reference T9 Wikidata:Q1748	Копенгаген
+N4	Reference T13 Wikidata:Q273613	князь
+N6	Reference T16 Wikidata:Q2657659	Димитрий Романович Романов
+N7	Reference T18 Wikidata:Q512800	Романов, Роман Петрович
+N10	Reference T22 Wikidata:Q130734	Николай I
+N12	Reference T27 Wikidata:Q382226	Владимир Кириллович Романов
+N14	Reference T34 Wikidata:Q446676	Пётр Николаевич
+N15	Reference T35 Wikidata:Q126898	Антиб
+N16	Reference T37 Wikidata:Q142	Франция
+N17	Reference T39 Wikidata:Q35	Дания
+N18	Reference T40 Wikidata:Q207293	кронпринц
+N21	Reference T12 Wikidata:Q208615	Мэри
+N24	Reference T47 Wikidata:Q174044	Александр Ярославич Невский
+N25	Reference T48 Wikidata:Q4225011	Князь императорской крови
+N26	Reference T1 Wikidata:Q112707	Романовы
+N5	Reference T15 Wikidata:Q20985690	
+N8	Reference T19 Wikidata:Q3519259	
+N9	Reference T21 Wikidata:Q61637775	
+N11	Reference T25 Wikidata:Q39018	император
+N13	Reference T33 Wikidata:Q205706	
+N22	Reference T23 Wikidata:Q2657659	Димитрий Романович Романов
+N20	Reference T42 Wikidata:Q207293	кронпринц
+N23	Reference T29 Wikidata:NULL	нет данных
+N19	Reference T41 Wikidata:Q1004037	
+N27	Reference T3 Wikidata:Q273613	князь
+N28	Reference T46 Wikidata:Q273613	князь
+N29	Reference T17 Wikidata:Q273613	князь
+N30	Reference T14 Wikidata:Q2657659	Димитрий Романович Романов
+N31	Reference T4 Wikidata:Q2657659	Димитрий Романович Романов
+N32	Reference T5 Wikidata:Q2657659	Димитрий Романович Романов
+N33	Reference T30 Wikidata:Q2657659	Димитрий Романович Романов
+N34	Reference T26 Wikidata:Q130734	Николай I
+N35	Reference T10 Wikidata:Q35	Дания
+N36	Reference T45 Wikidata:Q35	Дания
+N37	Reference T11 Wikidata:Q112707	Романовы
+N38	Reference T44 Wikidata:Q112707	Романовы
+N39	Reference T24 Wikidata:Q112707	Романовы
+T53	EVENT 646 653	родился
+R37	PARTICIPANT_IN Arg1:T30 Arg2:T53	
+R38	POINT_IN_TIME Arg1:T53 Arg2:T31	
+R39	TAKES_PLACE_IN Arg1:T53 Arg2:T35	
+T54	EVENT 764 772	переехал
+R40	TAKES_PLACE_IN Arg1:T54 Arg2:T39	
+R41	PARTICIPANT_IN Arg1:T30 Arg2:T54	
+R42	POINT_IN_TIME Arg1:T54 Arg2:T38	

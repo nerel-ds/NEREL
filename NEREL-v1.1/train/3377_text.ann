@@ -1,0 +1,89 @@
+T2	PRODUCT 58 66	Атлантис
+T3	PROFESSION 109 118	астронавт
+T4	PERSON 119 147	Хайдемария Стефанишин-Пайпер
+T5	PERSON 172 189	Стефанишин-Пайпер
+T6	AGE 191 198	43 года
+T7	NUMBER 234 239	250-ю
+T8	FACILITY 264 282	Космическом центре
+T9	CITY 285 293	Хьюстоне
+T10	STATE_OR_PROVINCE 295 300	Техас
+T11	ORGANIZATION 365 380	Хьюстон Кроникл
+T12	ORGANIZATION 383 400	Houston Chronicle
+T13	DATE 402 411	в пятницу
+T14	DATE 423 437	12-и суточного
+T15	PERSON 454 471	Стефанишин-Пайпер
+T16	TIME 537 566	более шести с половиной часов
+T17	PERSON 569 575	Пайпер
+T18	ORDINAL 586 595	четвёртой
+T19	NUMBER 599 604	шести
+T20	PERSON 766 772	Пайпер
+T21	TIME 810 822	через минуту
+T22	ORGANIZATION 948 952	НАСА
+T25	DATE 1028 1041	12-и суточной
+T26	NUMBER 148 154	дважды
+T28	NUMBER 472 478	дважды
+T29	PROFESSION 605 616	астронавтов
+T30	PROFESSION 884 889	врача
+T31	PROFESSION 942 947	Врачи
+T32	PROFESSION 942 952	Врачи НАСА
+T1	DATE 21 31	Через день
+T24	EVENT 38 49	приземления
+R1	WORKS_AS Arg1:T4 Arg2:T3	
+R2	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R3	AGE_IS Arg1:T5 Arg2:T6	
+R4	LOCATED_IN Arg1:T8 Arg2:T9	
+R5	LOCATED_IN Arg1:T9 Arg2:T10	
+T33	DISEASE 324 338	теряя сознание
+T35	CITY 365 372	Хьюстон
+T36	CITY 383 390	Houston
+R7	ALTERNATIVE_NAME Arg1:T35 Arg2:T36	
+R8	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R9	HEADQUARTERED_IN Arg1:T11 Arg2:T35	
+R10	HEADQUARTERED_IN Arg1:T12 Arg2:T36	
+R12	ALTERNATIVE_NAME Arg1:T15 Arg2:T17	
+T27	EVENT 576 585	выступала
+R13	AGENT Arg1:T17 Arg2:T27	
+T37	EVENT 216 227	выступления
+R14	ALTERNATIVE_NAME Arg1:T37 Arg2:T27	
+R16	TAKES_PLACE_IN Arg1:T37 Arg2:T8	
+T38	EVENT 87 107	торжественных встреч
+R18	PARTICIPANT_IN Arg1:T4 Arg2:T38	
+R19	SUBEVENT_OF Arg1:T37 Arg2:T38	
+R20	POINT_IN_TIME Arg1:T38 Arg2:T1	
+T39	EVENT 438 453	полёта в космос
+R21	PARTICIPANT_IN Arg1:T15 Arg2:T39	
+T40	EVENT 479 505	выходила в открытый космос
+R22	AGENT Arg1:T15 Arg2:T40	
+R23	SUBEVENT_OF Arg1:T40 Arg2:T39	
+T41	EVENT 517 524	выходов
+R24	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+T42	DISEASE 829 846	потеряла сознание
+T43	EVENT 716 734	подогнулись колени
+R26	PARTICIPANT_IN Arg1:T17 Arg2:T43	
+R27	WORKPLACE Arg1:T32 Arg2:T22	
+R29	SUBEVENT_OF Arg1:T43 Arg2:T27	
+T23	DISEASE 155 170	теряла сознание
+R6	MEDICAL_CONDITION Arg1:T4 Arg2:T23	
+R11	MEDICAL_CONDITION Arg1:T5 Arg2:T33	
+R15	MEDICAL_CONDITION Arg1:T20 Arg2:T42	
+R17	INANIMATE_INVOLVED Arg1:T2 Arg2:T24	
+R25	WORKS_AS Arg1:T17 Arg2:T29	
+N1	Reference T2 Wikidata:Q54381	Атлантис
+N2	Reference T5 Wikidata:Q51773	Стефанишин-Пайпер, Хайдемари Марта
+N4	Reference T10 Wikidata:Q1439	Техас
+N6	Reference T15 Wikidata:Q51773	Стефанишин-Пайпер, Хайдемари Марта
+N7	Reference T22 Wikidata:Q23548	НАСА
+N8	Reference T29 Wikidata:Q11631	космонавт
+N9	Reference T30 Wikidata:Q39631	врач
+N11	Reference T35 Wikidata:Q16555	Хьюстон
+N3	Reference T8 Wikidata:Q208371	
+N5	Reference T11 Wikidata:Q595564	
+N10	Reference T32 Wikidata:NULL	нет данных
+N12	Reference T4 Wikidata:Q51773	Стефанишин-Пайпер, Хайдемари Марта
+N13	Reference T17 Wikidata:Q51773	Стефанишин-Пайпер, Хайдемари Марта
+N14	Reference T20 Wikidata:Q51773	Стефанишин-Пайпер, Хайдемари Марта
+N15	Reference T3 Wikidata:Q11631	космонавт
+N16	Reference T31 Wikidata:Q39631	врач
+N17	Reference T36 Wikidata:Q16555	Хьюстон
+N18	Reference T9 Wikidata:Q16555	Хьюстон
+N19	Reference T12 Wikidata:Q595564	

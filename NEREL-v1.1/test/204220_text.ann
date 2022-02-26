@@ -1,0 +1,200 @@
+T1	COUNTRY 2 7	Китае
+T2	PROFESSION 53 60	заммэра
+T3	EVENT 61 84	19-й Всекитайский съезд
+T4	DATE 102 110	2017 год
+T5	COUNTRY 149 154	Китае
+T6	AGE 172 183	средних лет
+T7	PROFESSION 211 228	заместителем мэра
+T8	AGE 335 344	28-летняя
+T9	PERSON 345 353	Юань Лин
+T10	DATE 359 379	25 декабря 2018 года
+T12	CITY 415 420	Фуцин
+T13	NUMBER 434 441	1,4 млн
+T15	EVENT 491 500	заседании
+T16	PERSON 595 603	Юань Лин
+T17	PROFESSION 613 655	кандидат в доктора наук в области финансов
+T18	CITY 668 678	Пекинского
+T19	PROFESSION 693 711	магистр статистики
+T20	CITY 733 741	Хьюстоне
+T21	STATE_OR_PROVINCE 748 753	Техас
+T22	DATE 780 791	в 2013 году
+T23	PERSON 793 797	Юань
+T24	COUNTRY 810 815	Китай
+T25	ORGANIZATION 837 856	Zhengren Investment
+T26	CITY 859 868	Тяньцзине
+T27	DATE 870 881	в 2015 году
+T28	CITY 894 899	Пекин
+T29	COUNTRY 928 937	китайских
+T31	MONEY 1207 1223	12 млрд долларов
+T32	PROFESSION 1225 1234	Профессор
+T33	ORGANIZATION 1235 1268	Китайского народного университета
+T34	COUNTRY 1525 1530	Китае
+T35	ORGANIZATION 1585 1594	Политбюро
+T36	NUMBER 1605 1607	25
+T37	NUMBER 1623 1627	одна
+T38	NUMBER 1640 1652	более чем 30
+T39	NUMBER 1698 1706	ни одной
+T40	PERSON 1754 1762	Юань Лин
+T42	ORDINAL 2027 2033	первый
+T43	COUNTRY 2105 2110	Китая
+T44	ORDINAL 2146 2153	второго
+T45	ORDINAL 2156 2164	третьего
+T46	CITY 2183 2189	Фучжоу
+T47	CITY 2308 2313	Пекин
+T48	CITY 2315 2321	Шанхай
+T49	CITY 2324 2332	Гуанчжоу
+T50	CITY 2345 2351	Яньтай
+T51	STATE_OR_PROVINCE 2362 2369	Шаньдун
+T52	MONEY 2393 2408	380 тысяч юаней
+T53	MONEY 2410 2427	55 тысяч долларов
+T54	ORDINAL 61 65	19-й
+T55	EVENT 61 100	19-й Всекитайский съезд Компартии Китая
+T56	ORGANIZATION 85 100	Компартии Китая
+T57	ORGANIZATION 85 94	Компартии
+T58	PROFESSION 224 228	мэра
+T59	PERSON 355 357	袁琳
+T60	PROFESSION 390 420	заместителем мэра города Фуцин
+T61	PROFESSION 403 420	мэра города Фуцин
+T62	PROFESSION 403 407	мэра
+T63	PROFESSION 613 636	кандидат в доктора наук
+T65	PROFESSION 693 730	магистр статистики Университета Райса
+T66	PROFESSION 693 700	магистр
+T67	PROFESSION 771 779	магистра
+T68	COUNTRY 229 239	китайского
+T69	AGE 195 202	молодой
+T70	STATE_OR_PROVINCE 454 461	Фуцзянь
+T73	ORGANIZATION 501 553	комитета городского собрания народных представителей
+T74	ORGANIZATION 510 553	городского собрания народных представителей
+T75	ORGANIZATION 712 730	Университета Райса
+T76	PERSON 725 730	Райса
+T30	NUMBER 1005 1008	два
+T78	PROFESSION 1225 1268	Профессор Китайского народного университета
+T79	COUNTRY 1235 1245	Китайского
+T81	AGE 1559 1576	среднего возраста
+T82	ORGANIZATION 1585 1601	Политбюро ЦК КПК
+T83	ORGANIZATION 1598 1601	КПК
+T84	PROFESSION 1653 1676	партийных руководителей
+T85	PROFESSION 1653 1693	партийных руководителей уровня провинций
+T88	PROFESSION 1790 1796	стажёр
+T41	NUMBER 1807 1809	10
+T89	PROFESSION 1832 1843	госслужащим
+T94	AGE 2445 2452	молодых
+R1	PARTICIPANT_IN Arg1:T73 Arg2:T15	
+T11	COUNTRY 95 100	Китая
+R3	LOCATED_IN Arg1:T50 Arg2:T51	
+R4	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+R5	LOCATED_IN Arg1:T46 Arg2:T43	
+R6	LOCATED_IN Arg1:T47 Arg2:T43	
+R7	LOCATED_IN Arg1:T48 Arg2:T43	
+R8	LOCATED_IN Arg1:T49 Arg2:T43	
+R9	LOCATED_IN Arg1:T51 Arg2:T43	
+R10	PLACE_RESIDES_IN Arg1:T23 Arg2:T24	
+R11	WORKPLACE Arg1:T23 Arg2:T25	
+R12	PLACE_RESIDES_IN Arg1:T23 Arg2:T28	
+R13	HEADQUARTERED_IN Arg1:T25 Arg2:T26	
+R14	LOCATED_IN Arg1:T26 Arg2:T24	
+R15	LOCATED_IN Arg1:T28 Arg2:T24	
+R16	LOCATED_IN Arg1:T20 Arg2:T21	
+R17	HEADQUARTERED_IN Arg1:T75 Arg2:T20	
+T14	ORGANIZATION 668 691	Пекинского университета
+R18	HEADQUARTERED_IN Arg1:T14 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T9 Arg2:T59	
+R20	PARTICIPANT_IN Arg1:T9 Arg2:T15	
+R21	AGE_IS Arg1:T9 Arg2:T8	
+T72	EVENT 380 389	назначена
+R22	ALTERNATIVE_NAME Arg1:T18 Arg2:T28	
+R23	PARTICIPANT_IN Arg1:T9 Arg2:T72	
+R24	LOCATED_IN Arg1:T12 Arg2:T70	
+R25	SCHOOLS_ATTENDED Arg1:T16 Arg2:T14	
+R26	SCHOOLS_ATTENDED Arg1:T16 Arg2:T75	
+R27	HEADQUARTERED_IN Arg1:T56 Arg2:T11	
+R28	ORGANIZES Arg1:T56 Arg2:T55	
+R29	ALTERNATIVE_NAME Arg1:T5 Arg2:T68	
+R30	AGE_IS Arg1:T9 Arg2:T69	
+R31	SUBORDINATE_OF Arg1:T60 Arg2:T61	
+R32	WORKS_AS Arg1:T9 Arg2:T60	
+R33	WORKPLACE Arg1:T61 Arg2:T12	
+R34	LOCATED_IN Arg1:T70 Arg2:T68	
+R35	WORKPLACE Arg1:T78 Arg2:T33	
+R36	HEADQUARTERED_IN Arg1:T33 Arg2:T79	
+R37	ALTERNATIVE_NAME Arg1:T79 Arg2:T34	
+T71	ORGANIZATION 1595 1601	ЦК КПК
+R2	PART_OF Arg1:T71 Arg2:T83	
+R38	PART_OF Arg1:T82 Arg2:T71	
+R39	SUBORDINATE_OF Arg1:T7 Arg2:T58	
+R40	WORKS_AS Arg1:T16 Arg2:T17	
+R41	ORIGINS_FROM Arg1:T17 Arg2:T14	
+R42	WORKS_AS Arg1:T16 Arg2:T65	
+R43	ORIGINS_FROM Arg1:T65 Arg2:T75	
+R44	WORKS_AS Arg1:T23 Arg2:T67	
+R45	WORKPLACE Arg1:T85 Arg2:T83	
+R46	HEADQUARTERED_IN Arg1:T83 Arg2:T34	
+R47	POINT_IN_TIME Arg1:T55 Arg2:T4	
+R48	POINT_IN_TIME Arg1:T72 Arg2:T10	
+R49	WORKPLACE Arg1:T9 Arg2:T12	
+N1	Reference T1 Wikidata:Q148	Китайская Народная Республика
+N5	Reference T20 Wikidata:Q16555	Хьюстон
+N6	Reference T21 Wikidata:Q1439	Техас
+N8	Reference T26 Wikidata:Q11736	Тяньцзинь
+N9	Reference T32 Wikidata:Q121594	профессор
+N10	Reference T33 Wikidata:Q1074117	Китайский народный университет
+N12	Reference T46 Wikidata:Q68481	Фучжоу
+N13	Reference T47 Wikidata:Q956	Пекин
+N14	Reference T48 Wikidata:Q8686	Шанхай
+N15	Reference T49 Wikidata:Q16572	Гуанчжоу
+N16	Reference T50 Wikidata:Q210493	Яньтай
+N17	Reference T51 Wikidata:Q43407	Шаньдун
+N19	Reference T57 Wikidata:Q233591	коммунистическая партия
+N20	Reference T58 Wikidata:Q30185	мэр
+N25	Reference T67 Wikidata:Q183816	магистр
+N26	Reference T70 Wikidata:Q41705	Фуцзянь
+N28	Reference T74 Wikidata:Q19211	Всекитайское собрание народных представителей
+N29	Reference T75 Wikidata:Q842909	Университет Райса
+N32	Reference T82 Wikidata:Q1076970	Политбюро ЦК КПК
+N33	Reference T83 Wikidata:Q17427	Коммунистическая партия Китая
+N36	Reference T88 Wikidata:Q4439148	стажёр
+N37	Reference T89 Wikidata:Q212238	государственный служащий
+N38	Reference T14 Wikidata:Q16952	Пекинский университет
+N35	Reference T85 Wikidata:NULL	нет данных
+N34	Reference T84 Wikidata:Q1553195	
+N39	Reference T71 Wikidata:Q50963	Центральный комитет КПК
+N11	Reference T35 Wikidata:Q309118	
+N31	Reference T78 Wikidata:NULL	нет данных
+N40	Reference T2 Wikidata:Q581817	
+N18	Reference T56 Wikidata:Q17427	Коммунистическая партия Китая
+N41	Reference T7 Wikidata:Q581817	
+N42	Reference T68 Wikidata:Q148	Китайская Народная Республика
+N2	Reference T12 Wikidata:Q262208	
+N43	Reference T59 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:NULL	нет данных
+N23	Reference T63 Wikidata:NULL	нет данных
+N3	Reference T17 Wikidata:NULL	нет данных
+N4	Reference T19 Wikidata:NULL	нет данных
+N30	Reference T76 Wikidata:Q8015150	
+N24	Reference T65 Wikidata:NULL	нет данных
+N44	Reference T25 Wikidata:NULL	нет данных
+N22	Reference T61 Wikidata:NULL	нет данных
+N21	Reference T60 Wikidata:NULL	нет данных
+N27	Reference T73 Wikidata:NULL	нет данных
+N45	Reference T24 Wikidata:Q148	Китайская Народная Республика
+N46	Reference T34 Wikidata:Q148	Китайская Народная Республика
+N47	Reference T29 Wikidata:Q148	Китайская Народная Республика
+N48	Reference T11 Wikidata:Q148	Китайская Народная Республика
+N49	Reference T79 Wikidata:Q148	Китайская Народная Республика
+N50	Reference T43 Wikidata:Q148	Китайская Народная Республика
+N51	Reference T28 Wikidata:Q956	Пекин
+N52	Reference T18 Wikidata:Q956	Пекин
+N53	Reference T62 Wikidata:Q30185	мэр
+N54	Reference T66 Wikidata:Q183816	магистр
+N55	Reference T5 Wikidata:Q148	Китайская Народная Республика
+N56	Reference T40 Wikidata:NULL	нет данных
+N57	Reference T9 Wikidata:NULL	нет данных
+N58	Reference T16 Wikidata:NULL	нет данных
+T64	EVENT 798 807	вернулась
+R50	AGENT Arg1:T23 Arg2:T64	
+R51	TAKES_PLACE_IN Arg1:T64 Arg2:T24	
+R52	POINT_IN_TIME Arg1:T64 Arg2:T22	
+T77	EVENT 882 891	переехала
+R53	POINT_IN_TIME Arg1:T77 Arg2:T27	
+R54	TAKES_PLACE_IN Arg1:T77 Arg2:T28	
+R55	AGENT Arg1:T23 Arg2:T77	

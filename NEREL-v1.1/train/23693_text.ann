@@ -1,0 +1,77 @@
+T1	LOCATION 1 11	Кавказские
+T2	PROFESSION 27 37	журналиста
+T3	ORGANIZATION 39 50	Коммерсанта
+T4	PERSON 52 67	Григорий Ревзин
+T5	ORDINAL 71 74	2-м
+T6	EVENT 71 108	2-м Московском урбанистическом форуме
+T7	DATE 109 128	5 декабря 2012 года
+T8	LOCATION 144 153	кавказкой
+T9	PROFESSION 173 200	специального корреспондента
+T10	ORGANIZATION 202 213	Коммерсантъ
+T11	PERSON 215 231	Григория Ревзина
+T13	DATE 272 291	13 января 2013 года
+T14	PERSON 307 313	Ревзин
+T15	PRODUCT 351 359	Facebook
+T17	FACILITY 368 392	Харитоньевскому переулку
+T19	PERSON 746 752	Ревзин
+T20	CITY 883 889	Москве
+T21	LOCATION 894 904	кавказские
+T22	LOCATION 1129 1139	кавказские
+T23	PROFESSION 27 50	журналиста «Коммерсанта
+T24	EVENT 75 108	Московском урбанистическом форуме
+T25	CITY 75 85	Московском
+T26	PROFESSION 173 213	специального корреспондента «Коммерсантъ
+T28	PROFESSION 186 200	корреспондента
+T29	PROFESSION 805 814	Журналист
+T30	LOCATION 234 247	центре Москвы
+T31	CITY 241 247	Москвы
+T32	TIME 249 291	в ночь на воскресенье, 13 января 2013 года
+T12	EVENT 166 172	избили
+T33	EVENT 20 26	избили
+T18	PROFESSION 845 858	гастарбайтеры
+T34	EVENT 945 953	избиение
+T35	ORGANIZATION 1224 1231	полицию
+R1	WORKPLACE Arg1:T23 Arg2:T3	
+R2	PARTICIPANT_IN Arg1:T23 Arg2:T33	
+R3	POINT_IN_TIME Arg1:T6 Arg2:T7	
+R4	PARTICIPANT_IN Arg1:T4 Arg2:T6	
+R5	WORKPLACE Arg1:T26 Arg2:T10	
+R7	WORKS_AS Arg1:T11 Arg2:T26	
+R8	WORKPLACE Arg1:T11 Arg2:T10	
+R6	PARTICIPANT_IN Arg1:T11 Arg2:T12	
+R9	TAKES_PLACE_IN Arg1:T12 Arg2:T31	
+R10	ALTERNATIVE_NAME Arg1:T25 Arg2:T31	
+R11	POINT_IN_TIME Arg1:T12 Arg2:T32	
+R12	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+T16	DATE 534 540	лет 30
+R13	WORKS_AS Arg1:T19 Arg2:T29	
+R14	ALTERNATIVE_NAME Arg1:T12 Arg2:T34	
+R15	WORKS_AS Arg1:T4 Arg2:T23	
+R16	WORKPLACE Arg1:T4 Arg2:T3	
+R17	TAKES_PLACE_IN Arg1:T6 Arg2:T25	
+R18	LOCATED_IN Arg1:T30 Arg2:T31	
+R19	LOCATED_IN Arg1:T17 Arg2:T30	
+N1	Reference T3 Wikidata:Q1780189	Коммерсантъ
+N2	Reference T9 Wikidata:Q42909	репортёр
+N3	Reference T10 Wikidata:Q1780189	Коммерсантъ
+N4	Reference T11 Wikidata:Q4391675	Ревзин, Григорий Исаакович
+N5	Reference T15 Wikidata:Q355	Facebook
+N7	Reference T20 Wikidata:Q649	Москва
+N12	Reference T29 Wikidata:Q1930187	журналист
+N13	Reference T30 Wikidata:Q190412	Центральный административный округ Москвы
+N15	Reference T35 Wikidata:Q35535	полиция
+N9	Reference T23 Wikidata:NULL	нет данных
+N16	Reference T8 Wikidata:Q18869	Кавказ
+N11	Reference T28 Wikidata:Q1155838	
+N10	Reference T26 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q18869	Кавказ
+N6	Reference T17 Wikidata:NULL	нет данных
+N14	Reference T18 Wikidata:NULL	нет данных
+N17	Reference T19 Wikidata:Q4391675	Ревзин, Григорий Исаакович
+N18	Reference T4 Wikidata:Q4391675	Ревзин, Григорий Исаакович
+N19	Reference T14 Wikidata:Q4391675	Ревзин, Григорий Исаакович
+N20	Reference T31 Wikidata:Q649	Москва
+N21	Reference T25 Wikidata:Q649	Москва
+N22	Reference T2 Wikidata:Q1930187	журналист
+N23	Reference T1 Wikidata:Q18869	Кавказ
+N24	Reference T21 Wikidata:Q18869	Кавказ

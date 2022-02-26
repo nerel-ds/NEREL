@@ -1,0 +1,199 @@
+T1	STATE_OR_PROVINCE 2 13	Подмосковье
+T2	PROFESSION 19 22	мэр
+T3	CITY 23 38	Сергиева Посада
+T4	DATE 39 49	22 августа
+T5	TIME 39 69	22 августа, утром, около 07:30
+T6	AGE 94 104	35-летнего
+T7	PROFESSION 105 140	главу администрации Сергиева Посада
+T9	PERSON 141 154	Евгения Душко
+T10	ORGANIZATION 278 281	РБК
+T11	LAW 334 360	ст. 105 («Убийство») УК РФ
+T13	LAW 355 360	УК РФ
+T14	PROFESSION 521 525	мэра
+T15	DATE 526 544	с апреля 2011 года
+T16	PROFESSION 626 669	представитель администрации Сергиева Посада
+T18	PERSON 670 686	Ольга Солнышкина
+T20	DATE 794 813	29 апреля 1976 года
+T21	CITY 816 824	Загорске
+T22	STATE_OR_PROVINCE 825 843	Московской области
+T23	DATE 845 862	В 1994—1999 годах
+T24	DATE 947 958	В 2002 году
+T25	PROFESSION 1059 1128	экспертом департамента организационного развития ЗАО «ПКФ „Свой Дом“»
+T26	ORGANIZATION 1117 1126	„Свой Дом
+T27	PROFESSION 1130 1139	экспертом
+T28	PROFESSION 1142 1207	замначальника отдела кадрового консалтинга группы компаний «АРНИ»
+T30	ORGANIZATION 1202 1206	АРНИ
+T31	PROFESSION 1209 1219	социологом
+T32	ORGANIZATION 1227 1284	Центр развития общественных отношений „Свобода и прогресс
+T33	PROFESSION 1294 1313	менеджером проектов
+T34	ORGANIZATION 1321 1364	Институт прикладных социальных исследований
+T35	DATE 1367 1384	В 2006—2009 годах
+T36	PROFESSION 1398 1471	заместителя главы администрации Сергиево-Посадского муниципального района
+T37	DISTRICT 1430 1471	Сергиево-Посадского муниципального района
+T38	PROFESSION 1484 1511	депутатом городского совета
+T39	DATE 1513 1531	В апреле 2011 года
+T40	PROFESSION 1549 1553	мэра
+T41	PERSON 1625 1633	Е. Душко
+T43	PROFESSION 19 38	мэр Сергиева Посада
+T44	EVENT 14 18	убит
+T45	EVENT 83 93	расстрелял
+T8	ORGANIZATION 111 140	администрации Сергиева Посада
+T46	CITY 125 140	Сергиева Посада
+T12	COUNTRY 358 360	РФ
+T47	EVENT 387 395	убийство
+T48	EVENT 428 436	Расстрел
+T49	PROFESSION 437 441	мэра
+T50	PROFESSION 499 507	чиновник
+T51	ORGANIZATION 640 669	администрации Сергиева Посада
+T52	CITY 654 669	Сергиева Посада
+T17	PROFESSION 727 742	градоначальника
+T53	ORGANIZATION 900 903	МГУ
+T54	ORGANIZATION 873 903	социологическом факультете МГУ
+T55	ORGANIZATION 909 945	экономическом факультете МГТУ «МАМИ»
+T56	ORGANIZATION 934 945	МГТУ «МАМИ»
+T57	ORGANIZATION 967 1034	аспирантуру политологического отделения философского факультета МГУ
+T58	ORGANIZATION 979 1034	политологического отделения философского факультета МГУ
+T59	ORGANIZATION 1007 1034	философского факультета МГУ
+T60	ORGANIZATION 1031 1034	МГУ
+T61	ORGANIZATION 1069 1128	департамента организационного развития ЗАО «ПКФ „Свой Дом“»
+T62	ORGANIZATION 1156 1207	отдела кадрового консалтинга группы компаний «АРНИ»
+T29	PROFESSION 1410 1471	главы администрации Сергиево-Посадского муниципального района
+T63	ORGANIZATION 1416 1471	администрации Сергиево-Посадского муниципального района
+T64	ORGANIZATION 1494 1511	городского совета
+T65	PERSON 1532 1537	Душко
+R1	WORKPLACE Arg1:T43 Arg2:T3	
+R2	TAKES_PLACE_IN Arg1:T44 Arg2:T1	
+R3	PARTICIPANT_IN Arg1:T43 Arg2:T44	
+R4	WORKPLACE Arg1:T7 Arg2:T8	
+R5	HEADQUARTERED_IN Arg1:T8 Arg2:T46	
+R6	WORKS_AS Arg1:T9 Arg2:T7	
+R7	ORIGINS_FROM Arg1:T13 Arg2:T12	
+T19	CRIME 344 352	Убийство
+T66	EVENT 305 330	возбуждено уголовное дело
+R8	HAS_CAUSE Arg1:T66 Arg2:T45	
+R9	AGE_DIED_AT Arg1:T9 Arg2:T6	
+R10	POINT_IN_TIME Arg1:T45 Arg2:T5	
+R11	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R12	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+R13	PART_OF Arg1:T54 Arg2:T53	
+R14	PART_OF Arg1:T55 Arg2:T56	
+T67	PERSON 772 785	Евгений Душко
+R15	PART_OF Arg1:T57 Arg2:T58	
+R16	PART_OF Arg1:T58 Arg2:T59	
+R17	PART_OF Arg1:T59 Arg2:T60	
+R18	SCHOOLS_ATTENDED Arg1:T67 Arg2:T57	
+R19	DATE_OF_BIRTH Arg1:T67 Arg2:T20	
+R20	PLACE_OF_BIRTH Arg1:T67 Arg2:T21	
+R21	WORKPLACE Arg1:T16 Arg2:T51	
+R22	HEADQUARTERED_IN Arg1:T51 Arg2:T52	
+R23	WORKS_AS Arg1:T18 Arg2:T16	
+R24	WORKPLACE Arg1:T18 Arg2:T51	
+R25	WORKS_AS Arg1:T65 Arg2:T40	
+R26	ALTERNATIVE_NAME Arg1:T65 Arg2:T41	
+R27	SUBORDINATE_OF Arg1:T36 Arg2:T29	
+R28	WORKPLACE Arg1:T29 Arg2:T63	
+R29	WORKPLACE Arg1:T36 Arg2:T63	
+R30	HEADQUARTERED_IN Arg1:T63 Arg2:T37	
+R31	LOCATED_IN Arg1:T21 Arg2:T22	
+R32	SCHOOLS_ATTENDED Arg1:T67 Arg2:T54	
+R33	SCHOOLS_ATTENDED Arg1:T67 Arg2:T55	
+R34	WORKS_AS Arg1:T67 Arg2:T25	
+R35	WORKPLACE Arg1:T67 Arg2:T61	
+R36	WORKPLACE Arg1:T25 Arg2:T61	
+R37	PART_OF Arg1:T61 Arg2:T26	
+R38	WORKS_AS Arg1:T67 Arg2:T28	
+R39	PART_OF Arg1:T62 Arg2:T30	
+R40	WORKPLACE Arg1:T28 Arg2:T62	
+R41	WORKPLACE Arg1:T33 Arg2:T34	
+T68	ORGANIZATION 1266 1284	Свобода и прогресс
+R42	ALTERNATIVE_NAME Arg1:T32 Arg2:T68	
+R43	WORKPLACE Arg1:T31 Arg2:T32	
+R44	WORKS_AS Arg1:T67 Arg2:T31	
+R45	WORKPLACE Arg1:T67 Arg2:T32	
+R46	ALTERNATIVE_NAME Arg1:T67 Arg2:T65	
+T69	CRIME 1645 1671	подкупе местных чиновников
+R47	WORKPLACE Arg1:T38 Arg2:T64	
+R48	HEADQUARTERED_IN Arg1:T64 Arg2:T37	
+T70	CRIME 1674 1687	мошенничестве
+R49	CONVICTED_OF Arg1:T41 Arg2:T69	
+R50	CONVICTED_OF Arg1:T41 Arg2:T70	
+T71	EVENT 232 241	скончался
+R51	PARTICIPANT_IN Arg1:T9 Arg2:T71	
+R52	DATE_OF_DEATH Arg1:T9 Arg2:T4	
+R53	PLACE_OF_DEATH Arg1:T9 Arg2:T46	
+R54	WORKS_AS Arg1:T9 Arg2:T49	
+R55	PARTICIPANT_IN Arg1:T49 Arg2:T48	
+R56	HAS_CAUSE Arg1:T71 Arg2:T45	
+R57	CAUSE_OF_DEATH Arg1:T9 Arg2:T45	
+T72	DISEASE 256 263	ранений
+R58	MEDICAL_CONDITION Arg1:T9 Arg2:T72	
+R59	ALTERNATIVE_NAME Arg1:T49 Arg2:T17	
+R60	WORKS_AS Arg1:T67 Arg2:T33	
+R61	WORKPLACE Arg1:T67 Arg2:T34	
+R62	WORKS_AS Arg1:T67 Arg2:T36	
+R63	WORKS_AS Arg1:T67 Arg2:T38	
+R64	WORKPLACE Arg1:T67 Arg2:T63	
+R65	WORKPLACE Arg1:T67 Arg2:T64	
+R66	PART_OF Arg1:T11 Arg2:T13	
+T42	LAW 355 357	УК
+T73	PROFESSION 373 385	следователей
+R67	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+T74	CRIME 1645 1652	подкупе
+N1	Reference T1 Wikidata:Q1697	Московская область
+N3	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N5	Reference T13 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N8	Reference T21 Wikidata:Q193722	Сергиев Посад
+N12	Reference T27 Wikidata:Q381160	эксперт
+N15	Reference T31 Wikidata:Q2306091	социолог
+N19	Reference T40 Wikidata:Q30185	мэр
+N21	Reference T46 Wikidata:Q193722	Сергиев Посад
+N22	Reference T12 Wikidata:Q159	Россия
+N23	Reference T50 Wikidata:Q382887	чиновник
+N25	Reference T53 Wikidata:Q13164	Московский государственный университет
+N26	Reference T54 Wikidata:Q4430312	Социологический факультет МГУ
+N28	Reference T56 Wikidata:Q4304083	Московский политехнический университет
+N31	Reference T59 Wikidata:Q3064305	философский факультет МГУ
+N36	Reference T64 Wikidata:Q3154693	городской совет
+N20	Reference T43 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N38	Reference T42 Wikidata:Q19705	уголовное законодательство
+N4	Reference T11 Wikidata:NULL	
+N39	Reference T73 Wikidata:Q30093123	
+N6	Reference T16 Wikidata:NULL	нет данных
+N24	Reference T51 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:Q1697	Московская область
+N27	Reference T55 Wikidata:NULL	нет данных
+N30	Reference T58 Wikidata:NULL	нет данных
+N29	Reference T57 Wikidata:NULL	нет данных
+N32	Reference T61 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:NULL	нет данных
+N33	Reference T62 Wikidata:NULL	нет данных
+N14	Reference T30 Wikidata:NULL	нет данных
+N37	Reference T68 Wikidata:NULL	нет данных
+N40	Reference T33 Wikidata:Q816432	
+N16	Reference T34 Wikidata:NULL	нет данных
+N35	Reference T63 Wikidata:NULL	нет данных
+N34	Reference T29 Wikidata:NULL	нет данных
+N41	Reference T36 Wikidata:NULL	нет данных
+N17	Reference T37 Wikidata:Q432620	Сергиево-Посадский район
+N18	Reference T38 Wikidata:NULL	нет данных
+N42	Reference T65 Wikidata:NULL	нет данных
+N43	Reference T17 Wikidata:Q30185	мэр
+N44	Reference T14 Wikidata:Q30185	мэр
+N45	Reference T49 Wikidata:Q30185	мэр
+N46	Reference T2 Wikidata:Q30185	мэр
+N47	Reference T3 Wikidata:Q193722	Сергиев Посад
+N48	Reference T52 Wikidata:Q193722	Сергиев Посад
+N49	Reference T60 Wikidata:Q13164	Московский государственный университет
+N50	Reference T8 Wikidata:NULL	нет данных
+N51	Reference T32 Wikidata:NULL	нет данных
+N52	Reference T9 Wikidata:NULL	нет данных
+N53	Reference T41 Wikidata:NULL	нет данных
+N54	Reference T67 Wikidata:NULL	нет данных
+T75	EVENT 786 793	родился
+R68	PARTICIPANT_IN Arg1:T67 Arg2:T75	
+R69	POINT_IN_TIME Arg1:T75 Arg2:T20	
+R70	TAKES_PLACE_IN Arg1:T75 Arg2:T21	

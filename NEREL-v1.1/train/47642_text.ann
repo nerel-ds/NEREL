@@ -1,0 +1,55 @@
+T1	PERSON 0 14	Ярослав Песков
+T2	LOCATION 51 57	Енисей
+T3	CITY 67 78	Красноярска
+T4	CITY 107 116	Балаклавы
+T5	PERSON 117 131	Ярослав Песков
+T6	LOCATION 161 167	Енисей
+T7	ORGANIZATION 287 309	Книги рекордов Гиннеса
+T8	PERSON 334 348	Ярослав Песков
+T9	AGE 356 362	29 лет
+T10	CITY 461 470	Балаклаве
+T11	NUMBER 497 507	100 метров
+T12	NUMBER 583 598	на полкилометра
+T13	DATE 600 619	В августе 2013 года
+T14	PERSON 620 635	Ярослав Плесков
+T15	LOCATION 645 650	Днепр
+T16	CITY 667 689	Переяслав-Хмельницкого
+T17	NUMBER 716 728	5 километров
+T18	TIME 751 766	за полтора часа
+T19	LOCATION 785 791	Енисея
+T20	PERSON 800 806	Песков
+T21	LOCATION 848 852	Неву
+T22	LOCATION 854 860	Днестр
+T23	LOCATION 863 870	Ла-Манш
+R1	PLACE_RESIDES_IN Arg1:T5 Arg2:T4	
+R2	AGE_IS Arg1:T8 Arg2:T9	
+T24	EVENT 636 644	переплыл
+R3	AGENT Arg1:T14 Arg2:T24	
+R4	TAKES_PLACE_IN Arg1:T24 Arg2:T15	
+R5	POINT_IN_TIME Arg1:T24 Arg2:T13	
+R6	TAKES_PLACE_IN Arg1:T24 Arg2:T16	
+T25	PROFESSION 79 103	Работник трубного завода
+R7	WORKS_AS Arg1:T5 Arg2:T25	
+T26	EVENT 489 496	проплыл
+R8	AGENT Arg1:T8 Arg2:T26	
+R9	TAKES_PLACE_IN Arg1:T26 Arg2:T10	
+R10	PLACE_RESIDES_IN Arg1:T25 Arg2:T4	
+R11	ALTERNATIVE_NAME Arg1:T14 Arg2:T20	
+N1	Reference T3 Wikidata:Q919	Красноярск
+N3	Reference T6 Wikidata:Q78707	Енисей
+N5	Reference T10 Wikidata:Q748363	Балаклава
+N7	Reference T15 Wikidata:Q40855	Днепр
+N8	Reference T16 Wikidata:Q639839	Переяслав
+N10	Reference T21 Wikidata:Q645	Нева
+N11	Reference T22 Wikidata:Q131210	Днестр
+N12	Reference T23 Wikidata:Q34640	Ла-Манш
+N13	Reference T25 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T7 Wikidata:Q41675	Книга рекордов Гиннесса
+N9	Reference T20 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N14	Reference T2 Wikidata:Q78707	Енисей
+N15	Reference T19 Wikidata:Q78707	Енисей
+N16	Reference T4 Wikidata:Q748363	Балаклава
+N17	Reference T1 Wikidata:NULL	нет данных
+N18	Reference T8 Wikidata:NULL	нет данных

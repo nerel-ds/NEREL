@@ -1,0 +1,164 @@
+T1	COUNTRY 0 11	Бельгийский
+T2	PERSON 22 33	Пьер Делинь
+T5	DATE 157 168	в этом году
+T7	COUNTRY 187 199	бельгийскому
+T8	PERSON 211 223	Пьеру Делиню
+T9	PERSON 367 378	Пьер Делинь
+T10	DATE 379 390	в 1974 году
+T11	PERSON 606 617	Пьер Делинь
+T12	DATE 709 717	20 марта
+T13	PERSON 728 748	Уильям Тимоти Гауэрс
+T14	ORGANIZATION 752 778	Кэмбриджского университета
+T15	PERSON 818 830	Пьера Делиня
+T16	DATE 872 891	последних 40-50 лет
+T18	DATE 933 949	21 мая 2013 года
+T20	PROFESSION 1054 1060	король
+T21	PERSON 1070 1079	Харальд V
+T22	ORGANIZATION 1110 1124	правительством
+T23	DATE 1134 1152	1 января 2002 года
+T24	AGE 1169 1178	200-летия
+T25	PERSON 1202 1222	Нильса Хенрика Абеля
+T26	DATE 1265 1276	с 2003 года
+T27	MONEY 1419 1446	6 миллионов норвежских крон
+T28	MONEY 1448 1468	около 800 тысяч евро
+T29	PROFESSION 12 21	математик
+T3	AWARD 49 76	Абелевской премии 2013 года
+T31	AWARD 49 66	Абелевской премии
+T32	DATE 67 76	2013 года
+T33	DATE 77 95	20 марта 2013 года
+T34	ORGANIZATION 96 133	Норвежская академия наук и литературы
+T35	COUNTRY 96 106	Норвежская
+T36	ORGANIZATION 107 133	академия наук и литературы
+T6	AWARD 169 186	Абелевской премии
+T37	PROFESSION 200 210	математику
+T38	ORDINAL 399 408	четвёртое
+T39	PERSON 432 438	Римана
+T40	PERSON 486 492	Римана
+T41	PROFESSION 718 727	математик
+T42	CITY 752 765	Кэмбриджского
+T43	EVENT 806 817	награждению
+T44	EVENT 894 915	Церемония награждения
+T45	FACILITY 964 1013	Атриуме юридического факультета Университета Осло
+T46	ORGANIZATION 972 1013	юридического факультета Университета Осло
+T47	ORGANIZATION 996 1013	Университета Осло
+T48	CITY 1009 1013	Осло
+T49	EVENT 1027 1042	вручение премии
+T50	PROFESSION 1054 1069	король Норвегии
+T51	COUNTRY 1061 1069	Норвегии
+T52	ORDINAL 1078 1079	V
+T53	AWARD 1082 1099	Абелевская премия
+T54	ORGANIZATION 1110 1133	правительством Норвегии
+T55	PROFESSION 1191 1201	математика
+T56	ORGANIZATION 1277 1314	Норвежская академия наук и литературы
+T57	ORGANIZATION 1288 1314	академия наук и литературы
+T58	COUNTRY 1277 1287	Норвежская
+T59	DATE 1315 1323	ежегодно
+T60	PROFESSION 1358 1369	математикам
+T61	COUNTRY 1431 1441	норвежских
+T62	AWARD 1488 1505	Абелевская премия
+T63	AWARD 1588 1606	Нобелевской премии
+T64	AWARD 1588 1620	Нобелевской премии по математике
+R1	WORKS_AS Arg1:T2 Arg2:T29	
+R2	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R3	AWARDED_WITH Arg1:T2 Arg2:T3	
+R4	HEADQUARTERED_IN Arg1:T34 Arg2:T35	
+T66	EVENT 134 156	объявила о присуждении
+R5	AGENT Arg1:T34 Arg2:T66	
+R6	POINT_IN_TIME Arg1:T66 Arg2:T33	
+R7	WORKS_AS Arg1:T8 Arg2:T37	
+R8	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R9	AWARDED_WITH Arg1:T8 Arg2:T6	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T66	
+R11	WORKS_AS Arg1:T13 Arg2:T41	
+R12	HEADQUARTERED_IN Arg1:T14 Arg2:T42	
+R13	WORKPLACE Arg1:T13 Arg2:T14	
+T67	EVENT 781 792	выступлении
+R15	AGENT Arg1:T13 Arg2:T67	
+R16	HAS_CAUSE Arg1:T67 Arg2:T43	
+R17	PARTICIPANT_IN Arg1:T15 Arg2:T43	
+R18	POINT_IN_TIME Arg1:T67 Arg2:T12	
+R19	POINT_IN_TIME Arg1:T44 Arg2:T18	
+R20	HEADQUARTERED_IN Arg1:T47 Arg2:T48	
+R21	LOCATED_IN Arg1:T48 Arg2:T51	
+R22	PART_OF Arg1:T46 Arg2:T47	
+R23	PART_OF Arg1:T45 Arg2:T46	
+R24	TAKES_PLACE_IN Arg1:T44 Arg2:T45	
+R25	ALTERNATIVE_NAME Arg1:T44 Arg2:T49	
+R26	AGENT Arg1:T21 Arg2:T49	
+R27	WORKS_AS Arg1:T21 Arg2:T50	
+R28	WORKPLACE Arg1:T21 Arg2:T51	
+R29	WORKPLACE Arg1:T50 Arg2:T51	
+T19	COUNTRY 1125 1133	Норвегии
+R30	HEADQUARTERED_IN Arg1:T54 Arg2:T19	
+R31	PRODUCES Arg1:T54 Arg2:T53	
+R32	DATE_OF_CREATION Arg1:T53 Arg2:T23	
+R33	AGE_IS Arg1:T25 Arg2:T24	
+T68	PERSON 1082 1092	Абелевская
+R34	ALTERNATIVE_NAME Arg1:T68 Arg2:T25	
+T69	PERSON 49 59	Абелевской
+R36	ORIGINS_FROM Arg1:T31 Arg2:T69	
+T70	PERSON 169 179	Абелевской
+R37	ORIGINS_FROM Arg1:T6 Arg2:T70	
+R38	WORKS_AS Arg1:T25 Arg2:T55	
+T71	EVENT 1100 1109	учреждена
+R41	ALTERNATIVE_NAME Arg1:T19 Arg2:T58	
+R42	HEADQUARTERED_IN Arg1:T56 Arg2:T58	
+R43	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+T72	PERSON 1588 1599	Нобелевской
+T73	PERSON 1488 1498	Абелевская
+R44	ORIGINS_FROM Arg1:T62 Arg2:T73	
+R45	ORIGINS_FROM Arg1:T63 Arg2:T72	
+R46	ALTERNATIVE_NAME Arg1:T62 Arg2:T64	
+R47	POINT_IN_TIME Arg1:T31 Arg2:T32	
+R14	INANIMATE_INVOLVED Arg1:T68 Arg2:T71	
+R35	AGENT Arg1:T54 Arg2:T71	
+R39	POINT_IN_TIME Arg1:T71 Arg2:T23	
+R40	INANIMATE_INVOLVED Arg1:T6 Arg2:T66	
+N1	Reference T7 Wikidata:Q31	Бельгия
+N2	Reference T9 Wikidata:Q334045	Пьер Делинь
+N3	Reference T13 Wikidata:Q220402	Уильям Тимоти Гауэрс
+N4	Reference T14 Wikidata:Q35794	Кембриджский университет
+N6	Reference T21 Wikidata:Q57287	Харальд V
+N7	Reference T22 Wikidata:Q7188	правительство
+N9	Reference T37 Wikidata:Q395	математика
+N11	Reference T41 Wikidata:Q170790	математик
+N15	Reference T47 Wikidata:Q486156	Университет Осло
+N16	Reference T48 Wikidata:Q585	Осло
+N18	Reference T56 Wikidata:Q1423356	Норвежская академия наук
+N20	Reference T62 Wikidata:Q188184	Абелевская премия
+N21	Reference T63 Wikidata:Q7191	Нобелевская премия
+N23	Reference T73 Wikidata:Q124115	
+N22	Reference T72 Wikidata:Q23810	Альфред Нобель
+N19	Reference T58 Wikidata:Q20	Норвегия
+N24	Reference T57 Wikidata:NULL	нет данных
+N25	Reference T54 Wikidata:Q1770849	
+N5	Reference T20 Wikidata:Q12097	король
+N17	Reference T50 Wikidata:Q1294765	
+N14	Reference T46 Wikidata:Q1771806	
+N13	Reference T45 Wikidata:NULL	нет данных
+N12	Reference T42 Wikidata:Q350	Кембридж
+N10	Reference T39 Wikidata:Q42299	
+N8	Reference T3 Wikidata:NULL	нет данных
+N26	Reference T1 Wikidata:Q31	Бельгия
+N27	Reference T8 Wikidata:Q334045	Пьер Делинь
+N28	Reference T15 Wikidata:Q334045	Пьер Делинь
+N29	Reference T11 Wikidata:Q334045	Пьер Делинь
+N30	Reference T2 Wikidata:Q334045	Пьер Делинь
+N31	Reference T55 Wikidata:Q170790	математик
+N32	Reference T60 Wikidata:Q170790	математик
+N33	Reference T29 Wikidata:Q170790	математик
+N34	Reference T34 Wikidata:Q1423356	Норвежская академия наук
+N35	Reference T53 Wikidata:Q188184	Абелевская премия
+N36	Reference T31 Wikidata:Q188184	Абелевская премия
+N37	Reference T64 Wikidata:Q188184	Абелевская премия
+N38	Reference T6 Wikidata:Q188184	Абелевская премия
+N39	Reference T69 Wikidata:Q124115	
+N40	Reference T25 Wikidata:Q124115	
+N41	Reference T70 Wikidata:Q124115	
+N42	Reference T68 Wikidata:Q124115	
+N43	Reference T51 Wikidata:Q20	Норвегия
+N44	Reference T19 Wikidata:Q20	Норвегия
+N45	Reference T61 Wikidata:Q20	Норвегия
+N46	Reference T35 Wikidata:Q20	Норвегия
+N47	Reference T36 Wikidata:NULL	нет данных
+N48	Reference T40 Wikidata:Q42299	

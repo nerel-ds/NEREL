@@ -1,0 +1,94 @@
+T1	EVENT 0 41	Международный фестиваль кукольных театров
+T2	CITY 52 62	Волгограде
+T3	DATE 79 98	С 22 по 27 сентября
+T4	CITY 101 111	Волгограде
+T5	EVENT 122 161	V международный фестиваль театров кукол
+T6	EVENT 163 179	Серебряный осетр
+T8	DATE 314 323	В эти дни
+T9	PERSON 393 406	А. С. Пушкина
+T11	PERSON 408 423	Г. Х. Андерсена
+T13	PERSON 425 438	К. Чуковского
+T15	PERSON 440 449	Г. Горина
+T16	NUMBER 481 483	16
+T17	STATE_OR_PROVINCE 509 530	Волгоградскую область
+T18	ORGANIZATION 563 598	Волгоградский областной театр кукол
+T19	DATE 609 620	в этом году
+T20	AGE 633 639	75 лет
+T22	ORGANIZATION 662 669	Колобок
+T24	NUMBER 730 734	двух
+T26	AWARD 894 907	Золотая маска
+T27	DATE 909 918	2010 года
+T28	PROFESSION 920 929	президент
+T29	PERSON 964 982	Станислав Железкин
+T30	PROFESSION 984 993	театровед
+T31	PERSON 994 1014	Наталия Райтаровская
+T32	PROFESSION 1016 1034	театральный критик
+T33	PROFESSION 1036 1132	заведующий литературно-драматургической частью Татарского государственного академического театра
+T35	PERSON 1133 1145	Нияз Игламов
+T36	ORDINAL 122 123	V
+T37	EVENT 122 179	V международный фестиваль театров кукол «Серебряный осетр
+T7	NUMBER 207 213	десять
+T38	COUNTRY 305 311	России
+T39	CITY 324 335	волгоградцы
+T10	EVENT 534 543	фестивале
+T12	CITY 563 576	Волгоградский
+T14	EVENT 713 718	форум
+T40	AWARD 861 907	Национальной театральной премии «Золотая маска
+T41	PROFESSION 920 963	президент Ассоциации театров кукол XXI века
+T42	ORGANIZATION 930 963	Ассоциации театров кукол XXI века
+T43	ORDINAL 955 958	XXI
+T44	PROFESSION 1028 1034	критик
+T46	ORGANIZATION 1047 1132	литературно-драматургической частью Татарского государственного академического театра
+T47	ORGANIZATION 1083 1132	Татарского государственного академического театра
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T37 Arg2:T6	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T37	
+R4	TAKES_PLACE_IN Arg1:T37 Arg2:T4	
+R5	POINT_IN_TIME Arg1:T37 Arg2:T3	
+R6	LOCATED_IN Arg1:T4 Arg2:T38	
+R7	HEADQUARTERED_IN Arg1:T18 Arg2:T12	
+R8	PARTICIPANT_IN Arg1:T18 Arg2:T10	
+R9	AGE_IS Arg1:T18 Arg2:T20	
+R10	PARTICIPANT_IN Arg1:T22 Arg2:T10	
+R11	HEADQUARTERED_IN Arg1:T22 Arg2:T17	
+R12	LOCATED_IN Arg1:T12 Arg2:T17	
+R13	ALTERNATIVE_NAME Arg1:T37 Arg2:T14	
+R14	WORKS_AS Arg1:T31 Arg2:T30	
+R15	PART_OF Arg1:T46 Arg2:T47	
+R16	WORKPLACE Arg1:T33 Arg2:T46	
+R17	WORKS_AS Arg1:T35 Arg2:T33	
+R18	WORKPLACE Arg1:T35 Arg2:T46	
+R19	WORKS_AS Arg1:T35 Arg2:T32	
+R20	WORKPLACE Arg1:T41 Arg2:T42	
+R21	WORKPLACE Arg1:T29 Arg2:T42	
+R22	WORKS_AS Arg1:T29 Arg2:T41	
+T21	AWARD 861 918	Национальной театральной премии «Золотая маска» 2010 года
+R23	POINT_IN_TIME Arg1:T21 Arg2:T27	
+R24	AWARDED_WITH Arg1:T29 Arg2:T21	
+N1	Reference T4 Wikidata:Q914	Волгоград
+N2	Reference T9 Wikidata:Q7200	Александр Сергеевич Пушкин
+N4	Reference T13 Wikidata:Q347685	Корней Иванович Чуковский
+N5	Reference T15 Wikidata:Q1960014	Григорий Израилевич Горин
+N6	Reference T17 Wikidata:Q3819	Волгоградская область
+N7	Reference T18 Wikidata:Q16631354	Волгоградский областной театр кукол
+N9	Reference T26 Wikidata:Q1271569	Золотая маска
+N11	Reference T29 Wikidata:Q41200052	Железкин, Станислав Фёдорович
+N12	Reference T30 Wikidata:Q10379007	театровед
+N14	Reference T32 Wikidata:Q17337766	театральный критик
+N17	Reference T38 Wikidata:Q159	Россия
+N22	Reference T44 Wikidata:Q6430706	критик
+N24	Reference T47 Wikidata:Q4452511	Татарский академический театр имени Галиаскара Камала
+N26	Reference T39 Wikidata:Q914	Волгоград
+N3	Reference T11 Wikidata:Q5673	
+N18	Reference T12 Wikidata:Q914	Волгоград
+N8	Reference T22 Wikidata:NULL	нет данных
+N19	Reference T40 Wikidata:Q1271569	Золотая маска
+N25	Reference T21 Wikidata:NULL	нет данных
+N21	Reference T42 Wikidata:NULL	нет данных
+N20	Reference T41 Wikidata:NULL	нет данных
+N10	Reference T28 Wikidata:Q140686	председатель
+N13	Reference T31 Wikidata:NULL	нет данных
+N16	Reference T35 Wikidata:NULL	нет данных
+N23	Reference T46 Wikidata:NULL	нет данных
+N15	Reference T33 Wikidata:NULL	нет данных
+N27	Reference T2 Wikidata:Q914	Волгоград

@@ -1,0 +1,75 @@
+T1	ORDINAL 12 20	восьмого
+T2	PERSON 42 55	Стивен Моффат
+T3	CITY 59 68	San Diego
+T6	ORGANIZATION 111 119	Би-би-си
+T7	ORDINAL 230 238	восьмого
+T8	DATE 269 278	на август
+T9	PERSON 303 310	Доктора
+T10	ORDINAL 325 336	Двенадцатое
+T11	NATIONALITY 355 366	шотландский
+T12	STATE_OR_PROVINCE 386 398	шотландского
+T13	PROFESSION 428 433	актёр
+T14	PERSON 434 448	Питер Капальди
+T15	ORDINAL 467 479	Одиннадцатым
+T16	PROFESSION 571 577	Доктор
+T17	PERSON 578 593	Питера Капальди
+T18	PERSON 657 670	Клару Освальд
+T19	ORDINAL 732 739	Первого
+T20	AGE 812 818	55 лет
+T21	ORGANIZATION 916 919	BBC
+T22	WORK_OF_ART 958 969	Доктора Кто
+T23	ORGANIZATION 1085 1093	Би-би-си
+T24	PROFESSION 1163 1169	Доктор
+T25	COUNTRY 1343 1357	Великобритании
+R1	WORKS_AS Arg1:T14 Arg2:T13	
+T26	WORK_OF_ART 29 40	Доктора Кто
+T27	WORK_OF_ART 183 193	Доктор Кто
+T28	DATE 120 136	23 мая 2014 года
+R2	ORIGINS_FROM Arg1:T14 Arg2:T11	
+R3	WORKS_AS Arg1:T17 Arg2:T16	
+T29	WORK_OF_ART 1007 1017	Doctor Who
+T30	WORK_OF_ART 994 1004	Доктор Кто
+T31	PROFESSION 790 797	актёров
+R4	AGE_IS Arg1:T31 Arg2:T20	
+T32	PROFESSION 467 488	Одиннадцатым Доктором
+T33	DATE 93 110	18 июля 2013 года
+T34	PROFESSION 732 747	Первого Доктора
+T35	PROFESSION 864 870	Доктор
+R5	AGE_IS Arg1:T17 Arg2:T20	
+R6	KNOWS Arg1:T17 Arg2:T18	
+R7	PRODUCES Arg1:T21 Arg2:T22	
+R8	ALTERNATIVE_NAME Arg1:T30 Arg2:T29	
+R9	PRODUCES Arg1:T23 Arg2:T30	
+R10	PRODUCES Arg1:T6 Arg2:T27	
+T4	EVENT 59 92	San Diego Comic-Con International
+R11	POINT_IN_TIME Arg1:T4 Arg2:T33	
+R12	TAKES_PLACE_IN Arg1:T4 Arg2:T3	
+R13	PARTICIPANT_IN Arg1:T2 Arg2:T4	
+R14	ORIGINS_FROM Arg1:T11 Arg2:T12	
+R15	ORIGINS_FROM Arg1:T14 Arg2:T12	
+R16	PRODUCES Arg1:T14 Arg2:T9	
+R17	HEADQUARTERED_IN Arg1:T23 Arg2:T25	
+N1	Reference T2 Wikidata:Q461003	Стивен Моффат
+N2	Reference T6 Wikidata:Q9531	Би-би-си
+N6	Reference T13 Wikidata:Q33999	актёр
+N7	Reference T17 Wikidata:Q732661	Питер Капальди
+N8	Reference T18 Wikidata:Q1765307	Клара Освальд
+N10	Reference T25 Wikidata:Q145	Великобритания
+N11	Reference T26 Wikidata:Q34316	Доктор Кто
+N12	Reference T32 Wikidata:Q2667397	Одиннадцатый Доктор
+N13	Reference T34 Wikidata:Q2989412	Первый Доктор
+N15	Reference T3 Wikidata:Q16552	Сан-Диего
+N3	Reference T9 Wikidata:Q34358	
+N5	Reference T12 Wikidata:Q22	Шотландия
+N4	Reference T11 Wikidata:Q181634	шотландцы
+N14	Reference T35 Wikidata:Q34358	
+N9	Reference T21 Wikidata:Q9531	Би-би-си
+N16	Reference T23 Wikidata:Q9531	Би-би-си
+N17	Reference T31 Wikidata:Q33999	актёр
+N18	Reference T14 Wikidata:Q732661	Питер Капальди
+N19	Reference T29 Wikidata:Q34316	Доктор Кто
+N20	Reference T22 Wikidata:Q34316	Доктор Кто
+N21	Reference T27 Wikidata:Q34316	Доктор Кто
+N22	Reference T30 Wikidata:Q34316	Доктор Кто
+N23	Reference T24 Wikidata:Q34358	
+N24	Reference T16 Wikidata:Q34358	

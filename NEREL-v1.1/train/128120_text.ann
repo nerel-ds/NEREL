@@ -1,0 +1,147 @@
+T1	PERSON 62 74	Мако Акисино
+T2	PERSON 85 97	Мако Акисино
+T3	PROFESSION 106 116	императора
+T4	PERSON 124 131	Акихито
+T5	AGE 195 204	25-летняя
+T6	ORDINAL 217 223	первая
+T7	PROFESSION 252 263	императрицы
+T8	PERSON 264 270	Митико
+T9	PROFESSION 302 311	принцессы
+T10	PERSON 321 325	Кико
+T11	AGE 341 350	25-летней
+T12	PERSON 378 388	Кей Комуро
+T13	PROFESSION 390 417	сотрудник юридической фирмы
+T14	DATE 447 461	пять лет назад
+T15	ORGANIZATION 464 503	Международном христианском университете
+T17	CITY 543 548	Токио
+T19	COUNTRY 804 812	Японское
+T20	DATE 1331 1346	в мае 2017 года
+T21	COUNTRY 1390 1398	японском
+T22	NUMBER 1586 1591	шесть
+T23	PROFESSION 7 17	императора
+T24	COUNTRY 18 24	Японии
+T25	PROFESSION 7 24	императора Японии
+T26	EVENT 25 51	обручилась с простолюдином
+T27	PROFESSION 52 61	Принцесса
+T28	PROFESSION 75 84	Принцесса
+T29	COUNTRY 117 123	Японии
+T30	PROFESSION 106 123	императора Японии
+T31	PROFESSION 205 214	принцесса
+T32	PROFESSION 231 241	императора
+T33	PERSON 242 249	Акихито
+T34	PROFESSION 285 291	принца
+T35	PERSON 292 299	Акисино
+T36	PERSON 312 319	Акисино
+T38	PROFESSION 351 360	принцессы
+T40	RELIGION 478 490	христианском
+T41	RELIGION 519 528	Christian
+T43	PROFESSION 644 653	принцессы
+T44	PERSON 654 658	Мако
+T45	PROFESSION 729 740	императором
+T46	PROFESSION 778 787	принцессы
+T47	PROFESSION 1026 1035	принцесса
+T48	PROFESSION 1060 1070	императору
+T49	EVENT 1360 1368	помолвке
+T50	PROFESSION 1369 1378	принцессы
+T51	PROFESSION 1452 1460	принцесс
+T52	PROFESSION 1532 1541	принцессы
+T53	PERSON 1542 1546	Мако
+T54	PROFESSION 1603 1611	принцесс
+T55	PROFESSION 1696 1701	принц
+T56	PERSON 1702 1710	Хисахито
+T57	PROFESSION 1725 1734	принцессы
+T58	PERSON 1735 1739	Мако
+R1	AGE_IS Arg1:T31 Arg2:T5	
+R2	ALTERNATIVE_NAME Arg1:T36 Arg2:T10	
+T16	ORGANIZATION 505 539	International Christian University
+R3	RELIGION_OF Arg1:T15 Arg2:T40	
+R4	RELIGION_OF Arg1:T16 Arg2:T41	
+R5	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R6	WORKS_AS Arg1:T44 Arg2:T43	
+R7	WORKS_AS Arg1:T33 Arg2:T32	
+R8	WORKS_AS Arg1:T8 Arg2:T7	
+R9	WORKS_AS Arg1:T36 Arg2:T9	
+R10	WORKS_AS Arg1:T35 Arg2:T34	
+R11	WORKPLACE Arg1:T30 Arg2:T29	
+R12	WORKS_AS Arg1:T4 Arg2:T30	
+R13	WORKPLACE Arg1:T4 Arg2:T29	
+R14	AGE_IS Arg1:T38 Arg2:T11	
+R15	WORKS_AS Arg1:T12 Arg2:T13	
+R16	HEADQUARTERED_IN Arg1:T15 Arg2:T17	
+R17	WORKS_AS Arg1:T53 Arg2:T52	
+R18	WORKS_AS Arg1:T56 Arg2:T55	
+R19	WORKS_AS Arg1:T58 Arg2:T57	
+R20	WORKPLACE Arg1:T25 Arg2:T24	
+R22	WORKS_AS Arg1:T1 Arg2:T27	
+R23	WORKS_AS Arg1:T2 Arg2:T28	
+R24	RELATIVE Arg1:T2 Arg2:T4	
+R25	AGE_IS Arg1:T2 Arg2:T5	
+R26	RELATIVE Arg1:T31 Arg2:T33	
+R27	SPOUSE Arg1:T33 Arg2:T8	
+R28	RELATIVE Arg1:T31 Arg2:T8	
+R29	RELATIVE Arg1:T2 Arg2:T8	
+R30	TAKES_PLACE_IN Arg1:T26 Arg2:T24	
+R31	PARENT_OF Arg1:T35 Arg2:T2	
+R32	SPOUSE Arg1:T35 Arg2:T36	
+R33	PARENT_OF Arg1:T36 Arg2:T2	
+R34	KNOWS Arg1:T38 Arg2:T12	
+R35	WORKS_AS Arg1:T4 Arg2:T38	
+R36	RELATIVE Arg1:T33 Arg2:T2	
+R37	RELATIVE Arg1:T8 Arg2:T2	
+R38	ALTERNATIVE_NAME Arg1:T2 Arg2:T44	
+R39	SIBLING Arg1:T56 Arg2:T58	
+R21	PARTICIPANT_IN Arg1:T1 Arg2:T26	
+R40	PARTICIPANT_IN Arg1:T12 Arg2:T26	
+T37	EVENT 155 163	помолвке
+R41	ALTERNATIVE_NAME Arg1:T26 Arg2:T37	
+R42	PARTICIPANT_IN Arg1:T2 Arg2:T37	
+T18	EVENT 615 632	пресс-конференции
+R43	AGENT Arg1:T12 Arg2:T18	
+R44	AGENT Arg1:T2 Arg2:T18	
+R45	PARTICIPANT_IN Arg1:T50 Arg2:T49	
+N1	Reference T1 Wikidata:Q509565	Принцесса Мако Акисино
+N3	Reference T4 Wikidata:Q37979	Акихито
+N4	Reference T7 Wikidata:Q39018	император
+N5	Reference T8 Wikidata:Q87610	Митико
+N6	Reference T9 Wikidata:Q2747456	принц
+N9	Reference T17 Wikidata:Q1490	Токио
+N11	Reference T24 Wikidata:Q17	Япония
+N12	Reference T30 Wikidata:Q208233	император Японии
+N13	Reference T34 Wikidata:Q311174	Акисино-но-Мия Фумихито-Синно
+N14	Reference T35 Wikidata:Q311174	Акисино-но-Мия Фумихито-Синно
+N15	Reference T40 Wikidata:Q5043	христианство
+N16	Reference T56 Wikidata:Q844333	Хисахито
+N2	Reference T3 Wikidata:Q39018	император
+N7	Reference T12 Wikidata:NULL	нет данных
+N8	Reference T13 Wikidata:NULL	нет данных
+N18	Reference T15 Wikidata:Q1141728	
+N17	Reference T16 Wikidata:Q1141728	
+N10	Reference T19 Wikidata:Q17	Япония
+N19	Reference T44 Wikidata:Q509565	Принцесса Мако Акисино
+N20	Reference T53 Wikidata:Q509565	Принцесса Мако Акисино
+N21	Reference T58 Wikidata:Q509565	Принцесса Мако Акисино
+N22	Reference T2 Wikidata:Q509565	Принцесса Мако Акисино
+N23	Reference T33 Wikidata:Q37979	Акихито
+N24	Reference T51 Wikidata:Q2747456	принц
+N25	Reference T57 Wikidata:Q2747456	принц
+N26	Reference T38 Wikidata:Q2747456	принц
+N27	Reference T31 Wikidata:Q2747456	принц
+N28	Reference T46 Wikidata:Q2747456	принц
+N29	Reference T52 Wikidata:Q2747456	принц
+N30	Reference T47 Wikidata:Q2747456	принц
+N31	Reference T54 Wikidata:Q2747456	принц
+N32	Reference T43 Wikidata:Q2747456	принц
+N33	Reference T50 Wikidata:Q2747456	принц
+N34	Reference T28 Wikidata:Q2747456	принц
+N35	Reference T27 Wikidata:Q2747456	принц
+N36	Reference T29 Wikidata:Q17	Япония
+N37	Reference T25 Wikidata:Q208233	император Японии
+N38	Reference T55 Wikidata:Q311174	Акисино-но-Мия Фумихито-Синно
+N39	Reference T36 Wikidata:Q311174	Акисино-но-Мия Фумихито-Синно
+N40	Reference T10 Wikidata:Q311174	Акисино-но-Мия Фумихито-Синно
+N41	Reference T41 Wikidata:Q5043	христианство
+N42	Reference T23 Wikidata:Q39018	император
+N43	Reference T48 Wikidata:Q39018	император
+N44	Reference T45 Wikidata:Q39018	император
+N45	Reference T32 Wikidata:Q39018	император
+N46	Reference T21 Wikidata:Q17	Япония

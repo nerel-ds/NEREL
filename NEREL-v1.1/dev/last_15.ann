@@ -1,0 +1,195 @@
+T1	PROFESSION 0 20	Главой Рособрнадзора
+T2	PERSON 30 44	Сергей Кравцов
+T3	ORGANIZATION 72 142	департаментом управления программами и конкурсных процедур Минобрнауки
+T4	ORGANIZATION 131 142	Минобрнауки
+T5	PROFESSION 152 167	глава ведомства
+T6	PERSON 168 181	Иван Муравьев
+T7	EVENT 244 247	ЕГЭ
+T8	PROFESSION 256 283	руководителем Рособрнадзора
+T9	PERSON 316 331	Ивана Муравьева
+T10	PROFESSION 337 370	директор департамента Минобрнауки
+T11	ORGANIZATION 359 370	Минобрнауки
+T12	PERSON 371 385	Сергей Кравцов
+T13	DATE 437 446	8 августа
+T14	DATE 457 466	в пятницу
+T15	PERSON 490 498	Кравцову
+T16	AGE 499 505	39 лет
+T17	DATE 507 529	последние полтора года
+T18	ORGANIZATION 543 613	департаментом управления программами и конкурсных процедур Минобрнауки
+T19	ORGANIZATION 602 613	Минобрнауки
+T20	PERSON 617 641	Сергей Сергеевич Кравцов
+T21	DATE 650 668	17 марта 1974 года
+T22	CITY 671 677	Москве
+T23	DATE 679 690	В 1996 году
+T24	ORGANIZATION 713 775	Московский государственный открытый педагогический университет
+T25	ORGANIZATION 777 782	МГОПУ
+T26	DATE 837 848	в 2000 году
+T27	ORGANIZATION 851 910	Московский государственный институт международных отношений
+T28	ORGANIZATION 912 917	МГИМО
+T29	DATE 1012 1023	С 2002 года
+T30	ORGANIZATION 1054 1078	министерстве образования
+T31	ORGANIZATION 1081 1094	Рособрнадзоре
+T32	ORGANIZATION 1106 1119	Рособрнадзоре
+T33	AGE 1167 1176	31-летний
+T34	PERSON 1177 1190	Иван Муравьев
+T35	EVENT 1204 1207	ЕГЭ
+T36	EVENT 1350 1358	ЕГЭ-2013
+T37	DATE 1354 1358	2013
+T38	EVENT 1489 1497	ЕГЭ-2013
+T39	DATE 1493 1497	2013
+T40	PROFESSION 1558 1604	Вице-президент Российской академии образования
+T41	PERSON 1605 1619	Виктор Болотов
+T42	DATE 1788 1799	в этом году
+T43	DATE 1992 2003	в этом году
+T44	NUMBER 2053 2059	одного
+T45	PROFESSION 2096 2113	Глава Минобрнауки
+T46	PERSON 2114 2129	Дмитрий Ливанов
+T47	DATE 2137 2150	в начале июня
+T48	ORGANIZATION 2352 2363	РИА Новости
+T49	PERSON 2364 2378	Сергей Петухов
+T50	ORDINAL 2410 2416	Первый
+T51	ORDINAL 2488 2494	Второй
+T52	ORDINAL 2619 2625	третий
+T53	EVENT 2691 2694	ЕГЭ
+T54	ORGANIZATION 7 20	Рособрнадзора
+T55	PERSON 47 61	Сергей Кравцов
+T56	ORGANIZATION 270 283	Рособрнадзора
+T57	PROFESSION 802 834	учитель математики и информатики
+T58	PROFESSION 749 763	педагогический
+T59	PERSON 1158 1166	Кравцова
+T60	ORGANIZATION 1573 1604	Российской академии образования
+T61	EVENT 2060 2063	ЕГЭ
+T62	EVENT 2238 2241	ЕГЭ
+T63	EVENT 2334 2337	ЕГЭ
+T64	NUMBER 2396 2399	три
+T65	EVENT 2461 2464	ЕГЭ
+T66	EVENT 2496 2499	ЕГЭ
+T67	COUNTRY 1573 1583	Российской
+T68	CITY 851 861	Московский
+T69	CITY 713 723	Московский
+T70	ORGANIZATION 417 430	правительства
+T71	EVENT 21 29	назначен
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T71	
+R2	WORKS_AS Arg1:T2 Arg2:T1	
+R3	WORKPLACE Arg1:T2 Arg2:T54	
+R4	WORKPLACE Arg1:T1 Arg2:T54	
+R5	WORKPLACE Arg1:T55 Arg2:T3	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R7	WORKS_AS Arg1:T6 Arg2:T5	
+T72	EVENT 198 206	отставку
+R8	PARTICIPANT_IN Arg1:T6 Arg2:T72	
+T73	CRIME 219 247	нарушений при проведении ЕГЭ
+T74	ORGANIZATION 346 370	департамента Минобрнауки
+R9	WORKS_AS Arg1:T12 Arg2:T10	
+R10	WORKPLACE Arg1:T12 Arg2:T74	
+R11	WORKPLACE Arg1:T10 Arg2:T74	
+R12	WORKS_AS Arg1:T12 Arg2:T8	
+R13	WORKPLACE Arg1:T12 Arg2:T56	
+T75	LAW 404 430	распоряжение правительства
+T76	ORGANIZATION 480 487	кабмина
+R14	ALTERNATIVE_NAME Arg1:T70 Arg2:T76	
+R15	DATE_OF_CREATION Arg1:T75 Arg2:T13	
+R16	AGE_IS Arg1:T15 Arg2:T16	
+R17	WORKPLACE Arg1:T15 Arg2:T18	
+R18	ALTERNATIVE_NAME Arg1:T74 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T12 Arg2:T15	
+R20	ALTERNATIVE_NAME Arg1:T15 Arg2:T20	
+R21	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R22	PLACE_OF_BIRTH Arg1:T20 Arg2:T22	
+R23	HEADQUARTERED_IN Arg1:T24 Arg2:T69	
+R24	ABBREVIATION Arg1:T24 Arg2:T25	
+R25	SCHOOLS_ATTENDED Arg1:T20 Arg2:T24	
+R26	SCHOOLS_ATTENDED Arg1:T20 Arg2:T27	
+R27	HEADQUARTERED_IN Arg1:T27 Arg2:T68	
+R28	ABBREVIATION Arg1:T27 Arg2:T28	
+R29	WORKPLACE Arg1:T20 Arg2:T30	
+R30	WORKPLACE Arg1:T20 Arg2:T31	
+R31	AGE_IS Arg1:T34 Arg2:T33	
+T77	EVENT 1217 1233	снят с должности
+R32	PARTICIPANT_IN Arg1:T34 Arg2:T77	
+T78	EVENT 1120 1141	сменилось руководство
+R33	TAKES_PLACE_IN Arg1:T78 Arg2:T32	
+R34	POINT_IN_TIME Arg1:T36 Arg2:T37	
+T79	CRIME 1416 1447	публикацией ответов в интернете
+R35	POINT_IN_TIME Arg1:T38 Arg2:T39	
+T80	PROFESSION 1558 1572	Вице-президент
+R36	HEADQUARTERED_IN Arg1:T60 Arg2:T67	
+R37	WORKS_AS Arg1:T41 Arg2:T40	
+R38	WORKPLACE Arg1:T41 Arg2:T60	
+R39	POINT_IN_TIME Arg1:T61 Arg2:T43	
+T81	ORGANIZATION 2102 2113	Минобрнауки
+R40	WORKPLACE Arg1:T45 Arg2:T81	
+R41	WORKS_AS Arg1:T46 Arg2:T45	
+R42	WORKPLACE Arg1:T46 Arg2:T81	
+T82	PROFESSION 2339 2351	Обозреватель
+T83	PROFESSION 2339 2363	Обозреватель РИА Новости
+R43	WORKS_AS Arg1:T49 Arg2:T83	
+R44	WORKPLACE Arg1:T49 Arg2:T48	
+R45	WORKPLACE Arg1:T83 Arg2:T48	
+T84	EVENT 1967 1991	Экзаменационная кампания
+R46	POINT_IN_TIME Arg1:T84 Arg2:T43	
+R47	PART_OF Arg1:T3 Arg2:T4	
+R48	WORKPLACE Arg1:T8 Arg2:T56	
+R49	PART_OF Arg1:T74 Arg2:T11	
+R50	PRODUCES Arg1:T70 Arg2:T75	
+R51	PART_OF Arg1:T18 Arg2:T19	
+R52	PARTICIPANT_IN Arg1:T54 Arg2:T71	
+R53	HAS_CAUSE Arg1:T72 Arg2:T73	
+R54	CONVICTED_OF Arg1:T6 Arg2:T73	
+T85	EVENT 307 315	отставку
+R55	PARTICIPANT_IN Arg1:T9 Arg2:T85	
+N2	Reference T6 Wikidata:Q4307735	Муравьёв, Иван Александрович
+N6	Reference T11 Wikidata:Q2625105	Министерство образования и науки Российской Федерации
+N8	Reference T22 Wikidata:Q649	Москва
+N9	Reference T24 Wikidata:Q4304073	Московский государственный гуманитарный университет имени М. А. Шолохова
+N10	Reference T27 Wikidata:Q322964	МГИМО
+N11	Reference T30 Wikidata:Q2625105	Министерство образования и науки Российской Федерации
+N12	Reference T32 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N14	Reference T41 Wikidata:Q4090974	Болотов, Виктор Александрович
+N16	Reference T46 Wikidata:Q4260940	Дмитрий Викторович Ливанов
+N17	Reference T48 Wikidata:Q821172	РИА Новости
+N22	Reference T60 Wikidata:Q4397941	Российская академия образования
+N25	Reference T75 Wikidata:Q2703920	распоряжение
+N1	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q4307735	Муравьёв, Иван Александрович
+N5	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:NULL	нет данных
+N26	Reference T76 Wikidata:Q7188	правительство
+N7	Reference T18 Wikidata:NULL	нет данных
+N20	Reference T58 Wikidata:Q1231865	педагог
+N24	Reference T68 Wikidata:Q649	Москва
+N28	Reference T83 Wikidata:NULL	
+N18	Reference T49 Wikidata:NULL	нет данных
+N15	Reference T45 Wikidata:NULL	нет данных
+N13	Reference T40 Wikidata:NULL	
+N23	Reference T67 Wikidata:Q159	Россия
+N27	Reference T80 Wikidata:Q42178	вице-президент
+N21	Reference T59 Wikidata:Q55653685	
+N19	Reference T57 Wikidata:NULL	нет данных
+N29	Reference T34 Wikidata:Q4307735	Муравьёв, Иван Александрович
+N30	Reference T4 Wikidata:Q2625105	Министерство образования и науки Российской Федерации
+N31	Reference T81 Wikidata:Q2625105	Министерство образования и науки Российской Федерации
+N32	Reference T19 Wikidata:Q2625105	Министерство образования и науки Российской Федерации
+N33	Reference T25 Wikidata:Q4304073	Московский государственный гуманитарный университет имени М. А. Шолохова
+N34	Reference T28 Wikidata:Q322964	МГИМО
+N35	Reference T31 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N36	Reference T56 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N37	Reference T54 Wikidata:Q4481685	Федеральная служба по надзору в сфере образования и науки
+N38	Reference T1 Wikidata:NULL	нет данных
+N39	Reference T70 Wikidata:Q7188	правительство
+N40	Reference T3 Wikidata:NULL	нет данных
+N41	Reference T74 Wikidata:NULL	нет данных
+N42	Reference T69 Wikidata:Q649	Москва
+N43	Reference T15 Wikidata:Q55653685	
+N44	Reference T20 Wikidata:Q55653685	
+N45	Reference T12 Wikidata:Q55653685	
+N46	Reference T55 Wikidata:Q55653685	
+N47	Reference T2 Wikidata:Q55653685	
+T86	EVENT 642 649	родился
+R56	PARTICIPANT_IN Arg1:T20 Arg2:T86	
+R57	POINT_IN_TIME Arg1:T86 Arg2:T21	
+R58	TAKES_PLACE_IN Arg1:T86 Arg2:T22	
+R59	HAS_CAUSE Arg1:T77 Arg2:T35	
+T87	EVENT 1393 1402	скандалов
+R60	HAS_CAUSE Arg1:T87 Arg2:T79	
+R61	HAS_CAUSE Arg1:T87 Arg2:T36	

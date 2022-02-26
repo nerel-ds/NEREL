@@ -1,0 +1,171 @@
+T1	PERSON 0 8	Тед Круз
+T3	PROFESSION 99 106	сенатор
+T4	PERSON 179 189	Теду Крузу
+T5	AGE 190 197	44 года
+T6	ORGANIZATION 211 216	Сенат
+T7	ORDINAL 232 238	первым
+T8	PERSON 432 436	Круз
+T9	PRODUCT 458 466	Твиттере
+T10	DATE 484 502	в ближайшие недели
+T11	PERSON 574 578	Круз
+T12	PROFESSION 588 597	сенатором
+T13	DATE 598 609	в 2013 году
+T14	ORGANIZATION 648 665	Движения чаепития
+T15	PROFESSION 817 827	президента
+T16	ORGANIZATION 887 907	Налоговое управление
+T17	ORGANIZATION 909 912	IRS
+T18	ORGANIZATION 916 940	Министерство образования
+T20	PERSON 1053 1061	Джеб Буш
+T21	PROFESSION 1063 1084	губернатор Висконсина
+T22	PERSON 1085 1102	Скотт Кевин Уокер
+T23	PROFESSION 1104 1114	губернатор
+T24	PERSON 1122 1131	Рик Перри
+T25	PROFESSION 1141 1149	сенаторы
+T26	PERSON 1150 1158	Рэнд Пол
+T27	STATE_OR_PROVINCE 1162 1170	Кентукки
+T28	PERSON 1173 1184	Марко Рубио
+T29	STATE_OR_PROVINCE 1188 1195	Флориды
+T30	PERSON 1198 1202	Круз
+T31	NATIONALITY 1222 1232	американка
+T32	COUNTRY 1252 1256	Кубы
+T33	ORDINAL 1274 1280	первым
+T34	PROFESSION 1281 1296	президентом США
+T35	PERSON 1337 1341	Круз
+T36	COUNTRY 1352 1358	Канаде
+T37	NUMBER 1360 1364	двое
+T38	PROFESSION 1411 1422	президентов
+T39	ORGANIZATION 1441 1455	Верховном суде
+T40	ORGANIZATION 1487 1505	Harvard Law Review
+T41	PERSON 1511 1515	Круз
+T42	PROFESSION 1584 1606	кандидату в президенты
+T43	DATE 53 62	2016 года
+T44	PROFESSION 1365 1372	юристов
+T45	LAW 1544 1556	конституцией
+T46	COUNTRY 1293 1296	США
+T47	IDEOLOGY 966 980	республиканцев
+T48	PROFESSION 956 965	политиков
+T49	STATE_OR_PROVINCE 1045 1052	Флориды
+T50	STATE_OR_PROVINCE 1074 1084	Висконсина
+T51	STATE_OR_PROVINCE 1115 1121	Техаса
+T52	PROFESSION 1104 1121	губернатор Техаса
+T53	IDEOLOGY 551 565	республиканцев
+T54	IDEOLOGY 631 646	консервативного
+T55	PERSON 828 833	Обамы
+T56	LAW 834 866	закона о реформе здравоохранения
+T58	IDEOLOGY 269 283	республиканцем
+T60	DATE 64 97	В понедельник, 23 марта 2015 года
+T61	STATE_OR_PROVINCE 110 116	Техаса
+T62	PROFESSION 1596 1606	президенты
+T63	NATIONALITY 1297 1330	латиноамериканского происхождения
+T64	PROFESSION 159 177	президентский пост
+T65	EVENT 30 52	президентской кампании
+T66	PROFESSION 30 43	президентской
+T67	PROFESSION 99 116	сенатор от Техаса
+R3	WORKS_AS Arg1:T1 Arg2:T67	
+R4	WORKPLACE Arg1:T1 Arg2:T61	
+R5	AGE_IS Arg1:T4 Arg2:T5	
+R6	MEMBER_OF Arg1:T4 Arg2:T6	
+R7	IDEOLOGY_OF Arg1:T4 Arg2:T58	
+R8	IDEOLOGY_OF Arg1:T11 Arg2:T54	
+R9	WORKS_AS Arg1:T11 Arg2:T12	
+R10	MEMBER_OF Arg1:T11 Arg2:T14	
+R11	WORKS_AS Arg1:T55 Arg2:T15	
+R12	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R13	WORKPLACE Arg1:T20 Arg2:T49	
+T57	PROFESSION 1063 1073	губернатор
+T68	PROFESSION 1034 1052	губернатор Флориды
+T69	PROFESSION 1034 1044	губернатор
+R14	IDEOLOGY_OF Arg1:T14 Arg2:T54	
+R15	IDEOLOGY_OF Arg1:T20 Arg2:T47	
+R16	WORKS_AS Arg1:T20 Arg2:T48	
+R17	WORKS_AS Arg1:T20 Arg2:T68	
+R18	WORKS_AS Arg1:T22 Arg2:T21	
+R19	WORKPLACE Arg1:T22 Arg2:T50	
+R20	WORKS_AS Arg1:T22 Arg2:T48	
+R21	IDEOLOGY_OF Arg1:T22 Arg2:T47	
+R22	ORIGINS_FROM Arg1:T28 Arg2:T29	
+R23	ORIGINS_FROM Arg1:T26 Arg2:T27	
+R24	WORKS_AS Arg1:T26 Arg2:T25	
+R25	WORKS_AS Arg1:T28 Arg2:T25	
+R26	WORKS_AS Arg1:T24 Arg2:T52	
+R27	WORKPLACE Arg1:T24 Arg2:T51	
+R28	ORIGINS_FROM Arg1:T30 Arg2:T31	
+R29	ORIGINS_FROM Arg1:T30 Arg2:T32	
+R30	PLACE_OF_BIRTH Arg1:T35 Arg2:T36	
+R31	IDEOLOGY_OF Arg1:T24 Arg2:T47	
+R32	IDEOLOGY_OF Arg1:T26 Arg2:T47	
+R33	IDEOLOGY_OF Arg1:T28 Arg2:T47	
+R34	WORKS_AS Arg1:T24 Arg2:T48	
+R35	WORKS_AS Arg1:T26 Arg2:T48	
+R36	WORKS_AS Arg1:T28 Arg2:T48	
+R37	ORIGINS_FROM Arg1:T67 Arg2:T61	
+T70	EVENT 149 177	борьбу за президентский пост
+R38	ALTERNATIVE_NAME Arg1:T65 Arg2:T70	
+R39	ALTERNATIVE_NAME Arg1:T4 Arg2:T8	
+T59	EVENT 505 526	предвыборную кампанию
+R40	ALTERNATIVE_NAME Arg1:T70 Arg2:T59	
+T71	EVENT 744 763	президентскую гонку
+R41	ALTERNATIVE_NAME Arg1:T59 Arg2:T71	
+R42	WORKPLACE Arg1:T68 Arg2:T49	
+R43	WORKPLACE Arg1:T21 Arg2:T50	
+R44	WORKPLACE Arg1:T52 Arg2:T51	
+T72	PROFESSION 1281 1292	президентом
+R45	WORKPLACE Arg1:T34 Arg2:T46	
+R46	ORIGINS_FROM Arg1:T30 Arg2:T63	
+T73	EVENT 30 62	президентской кампании 2016 года
+R1	POINT_IN_TIME Arg1:T65 Arg2:T43	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T65	
+N2	Reference T6 Wikidata:Q1788871	Правительствующий сенат
+N3	Reference T9 Wikidata:Q918	Твиттер
+N4	Reference T14 Wikidata:Q19042	Движение чаепития
+N5	Reference T15 Wikidata:Q30461	президент
+N6	Reference T16 Wikidata:Q973587	Служба внутренних доходов
+N7	Reference T18 Wikidata:Q861556	Министерство образования США
+N8	Reference T20 Wikidata:Q221997	Джеб Буш
+N9	Reference T22 Wikidata:Q553254	Скотт Кевин Уокер
+N10	Reference T23 Wikidata:Q132050	губернатор
+N11	Reference T24 Wikidata:Q215057	Перри, Рик
+N12	Reference T26 Wikidata:Q463557	Рэнд Пол
+N13	Reference T27 Wikidata:Q1603	Кентукки
+N14	Reference T28 Wikidata:Q324546	Марко Рубио
+N16	Reference T32 Wikidata:Q241	Куба
+N17	Reference T34 Wikidata:Q11696	президент США
+N19	Reference T36 Wikidata:Q16	Канада
+N20	Reference T39 Wikidata:Q190752	верховный суд
+N23	Reference T44 Wikidata:Q185351	юрист
+N24	Reference T45 Wikidata:Q7755	конституция
+N25	Reference T46 Wikidata:Q30	США
+N26	Reference T48 Wikidata:Q82955	политик
+N27	Reference T49 Wikidata:Q812	Флорида
+N28	Reference T50 Wikidata:Q1537	Висконсин
+N29	Reference T55 Wikidata:Q76	Барак Обама
+N31	Reference T61 Wikidata:Q1439	Техас
+N33	Reference T64 Wikidata:Q44602	пост
+N34	Reference T66 Wikidata:Q30461	президент
+N35	Reference T67 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q15686806	
+N30	Reference T56 Wikidata:Q1414593	Реформа здравоохранения и защиты пациентов в США
+N36	Reference T68 Wikidata:Q20198851	
+N37	Reference T21 Wikidata:Q3112727	
+N38	Reference T52 Wikidata:Q5589725	
+N15	Reference T31 Wikidata:Q5589725	
+N32	Reference T63 Wikidata:Q1464994	
+N18	Reference T35 Wikidata:Q2036942	
+N21	Reference T40 Wikidata:Q1365125	
+N22	Reference T42 Wikidata:NULL	нет данных
+N39	Reference T62 Wikidata:Q30461	президент
+N40	Reference T38 Wikidata:Q30461	президент
+N41	Reference T72 Wikidata:Q30461	президент
+N42	Reference T17 Wikidata:Q973587	Служба внутренних доходов
+N43	Reference T69 Wikidata:Q132050	губернатор
+N44	Reference T57 Wikidata:Q132050	губернатор
+N45	Reference T29 Wikidata:Q812	Флорида
+N46	Reference T51 Wikidata:Q1439	Техас
+N47	Reference T25 Wikidata:Q15686806	
+N48	Reference T12 Wikidata:Q15686806	
+N49	Reference T8 Wikidata:Q2036942	
+N50	Reference T4 Wikidata:Q2036942	
+N51	Reference T1 Wikidata:Q2036942	
+N52	Reference T41 Wikidata:Q2036942	
+N53	Reference T11 Wikidata:Q2036942	
+N54	Reference T30 Wikidata:Q2036942	

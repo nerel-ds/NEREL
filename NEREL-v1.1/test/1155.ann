@@ -1,0 +1,206 @@
+T1	PERSON 1 11	Кевин Радд
+T2	PROFESSION 25 42	премьер-министром
+T3	PROFESSION 58 75	премьер Австралии
+T4	PERSON 76 86	Кевин Радд
+T5	ORGANIZATION 97 110	правительство
+T6	ORGANIZATION 142 172	Лейбористской партии Австралии
+T7	PROFESSION 192 199	премьер
+T8	PERSON 207 217	Кевин Радд
+T9	ORGANIZATION 232 245	правительство
+T10	ORGANIZATION 273 279	Рейтер
+T11	PERSON 313 318	Радда
+T12	NUMBER 330 332	57
+T13	NUMBER 349 351	45
+T14	PROFESSION 382 398	премьер-министра
+T15	PERSON 399 413	Джулию Гиллард
+T16	PERSON 429 439	Кевин Радд
+T17	DATE 441 452	В 1972 году
+T18	AGE 464 470	15 лет
+T19	PERSON 471 481	Кевин Радд
+T20	ORGANIZATION 492 526	Австралийскую лейбористскую партию
+T21	DATE 528 545	В 1981-1988 годах
+T22	COUNTRY 585 591	Швеции
+T23	COUNTRY 594 599	Китае
+T24	STATE_OR_PROVINCE 634 643	Квинсленд
+T25	DATE 645 662	В 2006-2010 годах
+T26	ORGANIZATION 673 703	Лейбористскую партию Австралии
+T27	PROFESSION 728 752	министра иностранных дел
+T28	DATE 754 773	В феврале 2012 года
+T29	PROFESSION 774 807	министр иностранных дел Австралии
+T30	PERSON 808 818	Кевин Радд
+T31	PROFESSION 908 916	премьера
+T32	PERSON 917 931	Джулию Гиллард
+T34	ORGANIZATION 948 968	Лейбористской партии
+T35	PROFESSION 1044 1068	министра иностранных дел
+T36	PROFESSION 1096 1111	премьер-министр
+T37	PROFESSION 1127 1146	глава МИД Австралии
+T38	PROFESSION 1181 1200	глава МИД Австралии
+T39	PERSON 1210 1226	Джулиана Ассанжа
+T40	COUNTRY 1283 1295	американских
+T41	COUNTRY 1324 1327	США
+T42	ORGANIZATION 1343 1352	WikiLeaks
+T44	PERSON 1370 1386	Джулиане Ассанже
+T45	PROFESSION 1395 1428	министр иностранных дел Австралии
+T46	PERSON 1429 1439	Кевин Радд
+T47	NUMBER 1514 1523	250 тысяч
+T48	COUNTRY 1571 1574	США
+T49	NATIONALITY 1596 1606	американцы
+T50	PROFESSION 1622 1630	дипломат
+T51	PROFESSION 25 52	премьер-министром Австралии
+T52	COUNTRY 43 52	Австралии
+T53	COUNTRY 66 75	Австралии
+T54	COUNTRY 163 172	Австралии
+T55	COUNTRY 492 505	Австралийскую
+T57	COUNTRY 694 703	Австралии
+T58	COUNTRY 798 807	Австралии
+T33	ORGANIZATION 1133 1146	МИД Австралии
+T59	COUNTRY 1137 1146	Австралии
+T60	ORGANIZATION 1187 1200	МИД Австралии
+T61	COUNTRY 1191 1200	Австралии
+T43	COUNTRY 1419 1428	Австралии
+T62	PERSON 1451 1457	Ассанж
+R1	WORKS_AS Arg1:T1 Arg2:T51	
+R2	WORKPLACE Arg1:T1 Arg2:T52	
+T63	ORGANIZATION 97 117	правительство страны
+R3	WORKPLACE Arg1:T4 Arg2:T53	
+R4	WORKS_AS Arg1:T4 Arg2:T3	
+R5	WORKPLACE Arg1:T4 Arg2:T63	
+T64	IDEOLOGY 142 155	Лейбористской
+R6	WORKS_AS Arg1:T8 Arg2:T7	
+R7	WORKPLACE Arg1:T8 Arg2:T6	
+R8	WORKPLACE Arg1:T8 Arg2:T54	
+T65	EVENT 181 187	избран
+R9	PARTICIPANT_IN Arg1:T8 Arg2:T65	
+T66	DATE 173 180	в среду
+R10	POINT_IN_TIME Arg1:T65 Arg2:T66	
+R11	WORKS_AS Arg1:T15 Arg2:T14	
+T67	IDEOLOGY 506 519	лейбористскую
+R12	AGE_IS Arg1:T19 Arg2:T18	
+R13	MEMBER_OF Arg1:T19 Arg2:T20	
+R14	IDEOLOGY_OF Arg1:T19 Arg2:T67	
+R15	WORKPLACE Arg1:T19 Arg2:T24	
+T56	IDEOLOGY 673 686	Лейбористскую
+R16	WORKPLACE Arg1:T19 Arg2:T26	
+T68	PERSON 710 714	Радд
+R17	WORKS_AS Arg1:T68 Arg2:T27	
+R18	WORKS_AS Arg1:T30 Arg2:T29	
+R19	WORKPLACE Arg1:T30 Arg2:T58	
+T69	PROFESSION 774 781	министр
+T70	EVENT 819 834	ушел в отставку
+R20	WORKS_AS Arg1:T32 Arg2:T31	
+T71	IDEOLOGY 948 961	Лейбористской
+R21	IDEOLOGY_OF Arg1:T30 Arg2:T71	
+R22	IDEOLOGY_OF Arg1:T32 Arg2:T71	
+R23	AGENT Arg1:T30 Arg2:T70	
+R24	POINT_IN_TIME Arg1:T70 Arg2:T28	
+R25	TAKES_PLACE_IN Arg1:T70 Arg2:T58	
+R26	TAKES_PLACE_IN Arg1:T65 Arg2:T54	
+T72	PROFESSION 1296 1306	дипломатов
+R27	FOUNDED_BY Arg1:T42 Arg2:T44	
+T73	PROFESSION 1395 1402	министр
+R28	WORKS_AS Arg1:T46 Arg2:T45	
+R29	WORKPLACE Arg1:T46 Arg2:T43	
+R30	MEMBER_OF Arg1:T32 Arg2:T34	
+R31	MEMBER_OF Arg1:T30 Arg2:T34	
+T74	EVENT 715 727	ушел с поста
+R32	AGENT Arg1:T68 Arg2:T74	
+R33	WORKPLACE Arg1:T51 Arg2:T52	
+R34	HEADQUARTERED_IN Arg1:T63 Arg2:T53	
+R35	IDEOLOGY_OF Arg1:T6 Arg2:T64	
+R36	HEADQUARTERED_IN Arg1:T6 Arg2:T54	
+R37	IDEOLOGY_OF Arg1:T8 Arg2:T64	
+T75	ORGANIZATION 232 252	правительство страны
+R38	WORKPLACE Arg1:T8 Arg2:T75	
+R39	HEADQUARTERED_IN Arg1:T75 Arg2:T54	
+R40	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+T76	PROFESSION 333 347	парламентариев
+R41	IDEOLOGY_OF Arg1:T20 Arg2:T67	
+R42	HEADQUARTERED_IN Arg1:T20 Arg2:T55	
+R43	WORKPLACE Arg1:T19 Arg2:T22	
+R44	WORKPLACE Arg1:T19 Arg2:T23	
+R45	IDEOLOGY_OF Arg1:T26 Arg2:T56	
+R46	HEADQUARTERED_IN Arg1:T26 Arg2:T57	
+R47	ALTERNATIVE_NAME Arg1:T20 Arg2:T26	
+R48	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+R49	WORKPLACE Arg1:T27 Arg2:T57	
+R50	WORKPLACE Arg1:T29 Arg2:T58	
+R51	IDEOLOGY_OF Arg1:T34 Arg2:T71	
+R52	WORKPLACE Arg1:T31 Arg2:T58	
+R53	WORKPLACE Arg1:T32 Arg2:T58	
+R54	WORKPLACE Arg1:T37 Arg2:T33	
+R55	HEADQUARTERED_IN Arg1:T33 Arg2:T59	
+R56	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R57	WORKPLACE Arg1:T38 Arg2:T60	
+R58	WORKPLACE Arg1:T38 Arg2:T61	
+R59	WORKPLACE Arg1:T45 Arg2:T43	
+R60	WORKPLACE Arg1:T72 Arg2:T40	
+R61	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R62	ALTERNATIVE_NAME Arg1:T44 Arg2:T62	
+R63	WORKS_AS Arg1:T46 Arg2:T50	
+R64	WORKPLACE Arg1:T3 Arg2:T53	
+R65	WORKPLACE Arg1:T15 Arg2:T54	
+R66	WORKPLACE Arg1:T14 Arg2:T54	
+R67	TAKES_PLACE_IN Arg1:T74 Arg2:T57	
+T77	EVENT 87 96	возглавит
+R68	AGENT Arg1:T4 Arg2:T77	
+R69	PARTICIPANT_IN Arg1:T63 Arg2:T77	
+T78	EVENT 222 231	возглавит
+R70	AGENT Arg1:T8 Arg2:T78	
+R71	PARTICIPANT_IN Arg1:T75 Arg2:T78	
+N1	Reference T3 Wikidata:Q319145	премьер-министр Австралии
+N2	Reference T5 Wikidata:Q7188	правительство
+N3	Reference T7 Wikidata:Q14212	премьер-министр
+N4	Reference T10 Wikidata:Q130879	Рейтер
+N5	Reference T15 Wikidata:Q41563	Джулия Гиллард
+N6	Reference T16 Wikidata:Q43135	Радд, Кевин
+N7	Reference T22 Wikidata:Q34	Швеция
+N8	Reference T23 Wikidata:Q148	Китайская Народная Республика
+N9	Reference T24 Wikidata:Q36074	Квинсленд
+N10	Reference T26 Wikidata:Q216082	Австралийская лейбористская партия
+N12	Reference T34 Wikidata:Q9630	Лейбористская партия
+N13	Reference T36 Wikidata:Q14212	премьер-министр
+N15	Reference T41 Wikidata:Q30	США
+N16	Reference T42 Wikidata:Q359	WikiLeaks
+N17	Reference T45 Wikidata:Q2660943	министр иностранных дел Австралии
+N18	Reference T49 Wikidata:Q498438	Американцы
+N19	Reference T50 Wikidata:Q193391	дипломат
+N20	Reference T51 Wikidata:Q319145	премьер-министр Австралии
+N21	Reference T60 Wikidata:Q408	Австралия
+N22	Reference T61 Wikidata:Q408	Австралия
+N23	Reference T73 Wikidata:Q83307	министр
+N24	Reference T76 Wikidata:Q486839	член парламента
+N25	Reference T63 Wikidata:Q7188	правительство
+N11	Reference T31 Wikidata:Q14212	премьер-министр
+N14	Reference T37 Wikidata:Q2660943	министр иностранных дел Австралии
+N26	Reference T9 Wikidata:Q7188	правительство
+N27	Reference T32 Wikidata:Q41563	Джулия Гиллард
+N28	Reference T4 Wikidata:Q43135	Радд, Кевин
+N29	Reference T68 Wikidata:Q43135	Радд, Кевин
+N30	Reference T11 Wikidata:Q43135	Радд, Кевин
+N31	Reference T46 Wikidata:Q43135	Радд, Кевин
+N32	Reference T30 Wikidata:Q43135	Радд, Кевин
+N33	Reference T8 Wikidata:Q43135	Радд, Кевин
+N34	Reference T19 Wikidata:Q43135	Радд, Кевин
+N35	Reference T1 Wikidata:Q43135	Радд, Кевин
+N36	Reference T20 Wikidata:Q216082	Австралийская лейбористская партия
+N37	Reference T6 Wikidata:Q216082	Австралийская лейбористская партия
+N38	Reference T14 Wikidata:Q14212	премьер-министр
+N39	Reference T2 Wikidata:Q14212	премьер-министр
+N40	Reference T40 Wikidata:Q30	США
+N41	Reference T48 Wikidata:Q30	США
+N42	Reference T29 Wikidata:Q2660943	министр иностранных дел Австралии
+N43	Reference T72 Wikidata:Q193391	дипломат
+N44	Reference T33 Wikidata:Q408	Австралия
+N45	Reference T43 Wikidata:Q408	Австралия
+N46	Reference T57 Wikidata:Q408	Австралия
+N47	Reference T59 Wikidata:Q408	Австралия
+N48	Reference T54 Wikidata:Q408	Австралия
+N49	Reference T55 Wikidata:Q408	Австралия
+N50	Reference T58 Wikidata:Q408	Австралия
+N51	Reference T52 Wikidata:Q408	Австралия
+N52	Reference T53 Wikidata:Q408	Австралия
+N53	Reference T69 Wikidata:Q83307	министр
+N54	Reference T75 Wikidata:Q7188	правительство
+N55	Reference T35 Wikidata:Q2660943	министр иностранных дел Австралии
+N56	Reference T38 Wikidata:Q2660943	министр иностранных дел Австралии
+N57	Reference T27 Wikidata:Q2660943	министр иностранных дел Австралии

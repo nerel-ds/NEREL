@@ -1,0 +1,195 @@
+T1	PERSON 0 8	Янукович
+T2	PROFESSION 25 44	начальника Генштаба
+T3	PROFESSION 45 62	Президент Украины
+T4	PERSON 63 78	Виктор Янукович
+T5	PROFESSION 88 142	начальником Генерального штаба вооруженных сил Украины
+T6	COUNTRY 135 142	Украины
+T7	PROFESSION 143 161	генерал-лейтенанта
+T8	PERSON 162 179	Григория Педченко
+T9	ORGANIZATION 200 207	Сегодня
+T10	PERSON 231 239	Педченко
+T11	PROFESSION 258 285	первого замминистра обороны
+T12	DATE 302 325	несколько месяцев назад
+T13	PROFESSION 352 367	министр обороны
+T14	PERSON 368 380	Михаил Ежель
+T15	PERSON 383 391	Педченко
+T16	DATE 400 418	3 января 1955 года
+T17	STATE_OR_PROVINCE 436 452	Киевской области
+T18	DATE 454 465	в 1979 году
+T19	ORGANIZATION 474 523	Московское высшее общевойсковое командное училище
+T20	ORGANIZATION 525 552	нацакадемию обороны Украины
+T21	ORGANIZATION 556 571	Советской Армии
+T22	PROFESSION 607 624	командира бригады
+T23	COUNTRY 628 638	украинской
+T24	PROFESSION 675 720	командующего Южного оперативного командования
+T26	COUNTRY 730 741	российского
+T27	DATE 761 772	В 2005 году
+T28	PERSON 797 811	Виктора Ющенко
+T29	PROFESSION 823 838	министр обороны
+T30	PERSON 839 856	Анатолий Гриценко
+T31	PERSON 961 969	Педченко
+T32	CITY 980 988	одесском
+T33	PERSON 1008 1025	Виктора Януковича
+T34	PROFESSION 1051 1060	президент
+T36	PROFESSION 1156 1175	начальника Генштаба
+T37	AGE 1186 1195	49-летний
+T38	PROFESSION 1196 1228	командующий Сухопутными войсками
+T39	PROFESSION 1229 1246	генерал-полковник
+T40	PERSON 1247 1264	Геннадий Воробьев
+T41	PERSON 1342 1357	Юлией Тимошенко
+T42	EVENT 1394 1406	праздновании
+T43	PERSON 1489 1499	Иван Свида
+T44	PERSON 1517 1532	Виктором Ющенко
+T45	ORGANIZATION 36 44	Генштаба
+T46	ORGANIZATION 100 142	Генерального штаба вооруженных сил Украины
+T47	CITY 426 435	Дорогинка
+T48	CITY 474 484	Московское
+T49	COUNTRY 545 552	Украины
+T50	PROFESSION 594 603	комвзвода
+T51	ORGANIZATION 628 644	украинской армии
+T25	DISTRICT 688 720	Южного оперативного командования
+T52	ORGANIZATION 980 1025	одесском предвыборном штабе Виктора Януковича
+T53	ORGANIZATION 1208 1228	Сухопутными войсками
+T54	ORGANIZATION 1411 1427	Сухопутных войск
+T55	PERSON 1429 1437	Педченко
+T56	COUNTRY 55 62	Украины
+R1	WORKS_AS Arg1:T4 Arg2:T3	
+R2	WORKPLACE Arg1:T4 Arg2:T56	
+R3	WORKS_AS Arg1:T8 Arg2:T7	
+R4	WORKS_AS Arg1:T8 Arg2:T5	
+T35	ORGANIZATION 100 118	Генерального штаба
+R5	WORKPLACE Arg1:T8 Arg2:T46	
+R6	WORKS_AS Arg1:T10 Arg2:T11	
+T57	PROFESSION 266 285	замминистра обороны
+R7	WORKS_AS Arg1:T14 Arg2:T13	
+R8	DATE_OF_BIRTH Arg1:T15 Arg2:T16	
+R9	PLACE_OF_BIRTH Arg1:T15 Arg2:T47	
+R10	LOCATED_IN Arg1:T47 Arg2:T17	
+R11	SCHOOLS_ATTENDED Arg1:T15 Arg2:T19	
+R12	SCHOOLS_ATTENDED Arg1:T15 Arg2:T20	
+R13	WORKPLACE Arg1:T15 Arg2:T21	
+R14	WORKS_AS Arg1:T15 Arg2:T50	
+R15	WORKS_AS Arg1:T15 Arg2:T22	
+R16	WORKPLACE Arg1:T15 Arg2:T51	
+R17	WORKS_AS Arg1:T15 Arg2:T24	
+R18	WORKPLACE Arg1:T15 Arg2:T25	
+R19	WORKS_AS Arg1:T30 Arg2:T29	
+T58	CRIME 909 918	коррупции
+R20	AGE_IS Arg1:T40 Arg2:T37	
+R21	WORKS_AS Arg1:T40 Arg2:T38	
+R22	WORKS_AS Arg1:T40 Arg2:T39	
+R23	WORKPLACE Arg1:T40 Arg2:T53	
+R24	PARTICIPANT_IN Arg1:T41 Arg2:T42	
+R25	SUBORDINATE_OF Arg1:T31 Arg2:T33	
+R26	WORKPLACE Arg1:T31 Arg2:T52	
+T59	EVENT 9 17	назначил
+R27	HEADQUARTERED_IN Arg1:T19 Arg2:T48	
+R28	HEADQUARTERED_IN Arg1:T20 Arg2:T49	
+R29	AGENT Arg1:T1 Arg2:T59	
+R30	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+T60	EVENT 79 87	назначил
+T61	PROFESSION 45 54	Президент
+R31	WORKPLACE Arg1:T3 Arg2:T56	
+R32	AGENT Arg1:T4 Arg2:T60	
+R33	WORKPLACE Arg1:T5 Arg2:T46	
+T62	ORGANIZATION 119 142	вооруженных сил Украины
+R34	HEADQUARTERED_IN Arg1:T62 Arg2:T6	
+R35	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R36	SUBORDINATE_OF Arg1:T10 Arg2:T14	
+R38	WORKPLACE Arg1:T50 Arg2:T21	
+R39	WORKPLACE Arg1:T22 Arg2:T21	
+R40	ALTERNATIVE_NAME Arg1:T49 Arg2:T23	
+R41	WORKPLACE Arg1:T24 Arg2:T25	
+T63	EVENT 780 796	прихода к власти
+R42	AGENT Arg1:T28 Arg2:T63	
+R43	POINT_IN_TIME Arg1:T63 Arg2:T27	
+T64	EVENT 857 897	отстранил его от исполнения обязанностей
+R44	AGENT Arg1:T30 Arg2:T64	
+R45	PARTICIPANT_IN Arg1:T15 Arg2:T64	
+R46	HEADQUARTERED_IN Arg1:T52 Arg2:T32	
+R47	WORKS_AS Arg1:T33 Arg2:T34	
+R48	WORKPLACE Arg1:T38 Arg2:T53	
+R49	KNOWS Arg1:T40 Arg2:T41	
+R50	ORGANIZES Arg1:T54 Arg2:T42	
+R51	PART_OF Arg1:T46 Arg2:T62	
+R52	PARTICIPANT_IN Arg1:T45 Arg2:T59	
+R53	PARTICIPANT_IN Arg1:T46 Arg2:T60	
+R54	PARTICIPANT_IN Arg1:T8 Arg2:T60	
+T65	EVENT 326 342	вызвал из запаса
+R55	POINT_IN_TIME Arg1:T65 Arg2:T12	
+R37	SUBORDINATE_OF Arg1:T11 Arg2:T13	
+R56	AGENT Arg1:T14 Arg2:T65	
+R57	PARTICIPANT_IN Arg1:T10 Arg2:T65	
+T66	COUNTRY 556 565	Советской
+R58	HEADQUARTERED_IN Arg1:T21 Arg2:T66	
+R59	HEADQUARTERED_IN Arg1:T51 Arg2:T23	
+R60	TAKES_PLACE_IN Arg1:T63 Arg2:T23	
+R61	WORKPLACE Arg1:T29 Arg2:T23	
+R62	CONVICTED_OF Arg1:T15 Arg2:T58	
+R63	HAS_CAUSE Arg1:T64 Arg2:T58	
+R64	FOUNDED_BY Arg1:T52 Arg2:T33	
+T67	EVENT 1442 1463	назначен на должность
+T68	EVENT 1501 1512	назначенный
+R65	AGENT Arg1:T44 Arg2:T68	
+R66	PARTICIPANT_IN Arg1:T43 Arg2:T68	
+R67	PARTICIPANT_IN Arg1:T55 Arg2:T67	
+R68	WORKS_AS Arg1:T43 Arg2:T36	
+R69	WORKS_AS Arg1:T55 Arg2:T36	
+N1	Reference T3 Wikidata:Q579677	президент Украины
+N2	Reference T4 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N4	Reference T7 Wikidata:Q152951	генерал-лейтенант
+N6	Reference T10 Wikidata:Q7218197	Педченко, Григорий Николаевич
+N8	Reference T13 Wikidata:Q2518691	министр обороны
+N9	Reference T14 Wikidata:Q2560404	Ежель, Михаил Брониславович
+N10	Reference T17 Wikidata:Q170036	Киевская область
+N11	Reference T19 Wikidata:Q4304386	Московское высшее военное командное училище
+N13	Reference T21 Wikidata:Q43456	Советская армия
+N17	Reference T30 Wikidata:Q488211	Анатолий Степанович Гриценко
+N21	Reference T39 Wikidata:Q155327	генерал-полковник
+N23	Reference T41 Wikidata:Q48283	Юлия Владимировна Тимошенко
+N24	Reference T43 Wikidata:Q4410642	Свида, Иван Юрьевич
+N25	Reference T44 Wikidata:Q1459699	Виктор Андреевич Ющенко
+N26	Reference T45 Wikidata:Q495430	Генеральный штаб
+N27	Reference T46 Wikidata:Q5532210	Генеральный штаб Вооружённых сил Украины
+N30	Reference T51 Wikidata:Q936105	Вооружённые Силы Украины
+N31	Reference T25 Wikidata:Q130375	Южное оперативное командование
+N34	Reference T35 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N35	Reference T61 Wikidata:Q30461	президент
+N36	Reference T62 Wikidata:Q936105	Вооружённые Силы Украины
+N3	Reference T5 Wikidata:NULL	нет данных
+N5	Reference T9 Wikidata:NULL	нет данных
+N7	Reference T11 Wikidata:NULL	нет данных
+N38	Reference T57 Wikidata:NULL	нет данных
+N28	Reference T47 Wikidata:Q4166790	Дорогинка
+N29	Reference T48 Wikidata:Q649	Москва
+N12	Reference T20 Wikidata:NULL	нет данных
+N37	Reference T66 Wikidata:Q15180	СССР
+N39	Reference T50 Wikidata:NULL	нет данных
+N40	Reference T22 Wikidata:NULL	нет данных
+N14	Reference T23 Wikidata:Q212	Украина
+N15	Reference T24 Wikidata:NULL	нет данных
+N16	Reference T26 Wikidata:Q159	Россия
+N32	Reference T52 Wikidata:NULL	нет данных
+N18	Reference T32 Wikidata:Q1874	Одесса
+N19	Reference T36 Wikidata:Q4863703	
+N22	Reference T40 Wikidata:Q12090619	
+N33	Reference T53 Wikidata:Q37726	сухопутные войска
+N20	Reference T38 Wikidata:NULL	нет данных
+N41	Reference T1 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N42	Reference T33 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N43	Reference T15 Wikidata:Q7218197	Педченко, Григорий Николаевич
+N44	Reference T31 Wikidata:Q7218197	Педченко, Григорий Николаевич
+N45	Reference T8 Wikidata:Q7218197	Педченко, Григорий Николаевич
+N46	Reference T55 Wikidata:Q7218197	Педченко, Григорий Николаевич
+N47	Reference T29 Wikidata:Q2518691	министр обороны
+N48	Reference T28 Wikidata:Q1459699	Виктор Андреевич Ющенко
+N49	Reference T34 Wikidata:Q30461	президент
+N50	Reference T49 Wikidata:Q212	Украина
+N51	Reference T56 Wikidata:Q212	Украина
+N52	Reference T6 Wikidata:Q212	Украина
+N53	Reference T2 Wikidata:Q4863703	
+N54	Reference T54 Wikidata:Q37726	сухопутные войска
+T69	EVENT 392 399	родился
+R70	PARTICIPANT_IN Arg1:T15 Arg2:T69	
+R71	POINT_IN_TIME Arg1:T69 Arg2:T16	
+R72	TAKES_PLACE_IN Arg1:T69 Arg2:T47	

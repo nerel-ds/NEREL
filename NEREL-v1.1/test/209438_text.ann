@@ -1,0 +1,202 @@
+T1	COUNTRY 0 13	Индонезийский
+T3	CITY 42 51	Нью-Йорке
+T4	PERSON 52 64	Пэрис Хилтон
+T5	PERSON 83 94	Эзра Уильям
+T6	PRODUCT 109 119	Инстаграма
+T7	COUNTRY 160 169	Индонезии
+T8	CITY 182 191	Нью-Йорке
+T10	ORGANIZATION 218 242	South China Morning Post
+T11	AGE 332 341	29-летний
+T12	PERSON 342 353	Эзра Уильям
+T13	PERSON 355 370	Ezra J. William
+T14	CITY 402 411	Нью-Йорка
+T15	ORGANIZATION 428 433	Wayan
+T16	COUNTRY 460 473	индонезийской
+T17	PERSON 496 502	Седрик
+T18	PERSON 505 520	Очи Вонгерихтен
+T20	PROFESSION 548 558	шеф-повара
+T21	PERSON 559 582	Жана-Жоржа Вонгерихтена
+T22	PERSON 584 609	Jean-Georges Vongerichten
+T23	DATE 642 668	в начале февраля 2019 года
+T24	EVENT 678 689	Недели моды
+T25	CITY 692 701	Нью-Йорке
+T27	PERSON 748 755	Уильяма
+T28	NATIONALITY 786 792	китаец
+T30	PERSON 867 873	Уильям
+T31	CITY 884 892	Джакарте
+T32	ORGANIZATION 903 928	Нью-Йоркском университете
+T34	DISTRICT 952 964	Вест-Виллидж
+T36	DISTRICT 967 977	Манхэттене
+T37	PERSON 989 996	Уильяма
+T38	MONEY 1182 1200	740 тысяч долларов
+T39	NUMBER 1202 1217	примерно в 2600
+T40	COUNTRY 1254 1263	Индонезии
+T41	CITY 1300 1312	нью-йоркской
+T42	PERSON 1347 1360	Тиффани Трамп
+T43	COUNTRY 1367 1380	американского
+T44	ORDINAL 1405 1411	второй
+T45	PERSON 1417 1429	Марлы Мейплз
+T46	PROFESSION 1526 1536	фотомодель
+T47	PERSON 1549 1561	Андреа Пежич
+T48	PERSON 1570 1582	Пэрис Хилтон
+T49	PERSON 1585 1606	Никки Хилтон-Ротшильд
+T50	PERSON 1615 1626	Хилари Рода
+T51	PROFESSION 1628 1635	актриса
+T52	PERSON 1636 1647	Эшли Бенсон
+T53	COUNTRY 1681 1688	Америки
+T54	PERSON 1689 1706	Саманта Перельман
+T55	PERSON 1715 1730	Виктория Бекхэм
+T56	COUNTRY 1735 1740	Китае
+T57	ORDINAL 1949 1955	втором
+T58	MONEY 2035 2046	сотни тысяч
+T60	MONEY 2075 2090	30 млн долларов
+T61	PRODUCT 2150 2161	Apple Watch
+T62	PROFESSION 2163 2174	глава Китая
+T63	PERSON 2175 2186	Си Цзиньпин
+T64	PROFESSION 14 20	блогер
+T2	PROFESSION 102 108	блогер
+T9	DISTRICT 412 418	Нолита
+T66	EVENT 613 631	Открытие ресторана
+T67	EVENT 714 736	китайского Нового года
+T68	EVENT 725 736	Нового года
+T26	EVENT 855 864	Новый год
+T29	CITY 903 915	Нью-Йоркском
+T35	PROFESSION 1381 1391	президента
+T69	PROFESSION 1367 1391	американского президента
+T70	PERSON 1392 1398	Трампа
+T71	PRODUCT 1440 1450	инстаграме
+T72	PROFESSION 1608 1614	модель
+T73	PROFESSION 1708 1714	модель
+T59	TIME 2047 2054	за ночь
+T75	EVENT 2064 2071	свадьба
+T33	COUNTRY 2169 2174	Китая
+R1	AGE_IS Arg1:T12 Arg2:T11	
+R2	LOCATED_IN Arg1:T34 Arg2:T36	
+R3	HEADQUARTERED_IN Arg1:T32 Arg2:T29	
+R4	PLACE_OF_BIRTH Arg1:T30 Arg2:T31	
+R5	SCHOOLS_ATTENDED Arg1:T30 Arg2:T32	
+T74	LOCATION 218 229	South China
+T76	LOCATION 224 229	China
+R6	HEADQUARTERED_IN Arg1:T10 Arg2:T74	
+R7	LOCATED_IN Arg1:T74 Arg2:T76	
+R8	KNOWS Arg1:T4 Arg2:T5	
+R9	KNOWS Arg1:T5 Arg2:T4	
+R10	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R11	WORKPLACE Arg1:T69 Arg2:T43	
+R12	WORKS_AS Arg1:T70 Arg2:T35	
+R13	WORKPLACE Arg1:T70 Arg2:T43	
+R14	SPOUSE Arg1:T70 Arg2:T45	
+R15	PARENT_OF Arg1:T70 Arg2:T42	
+R16	PARENT_OF Arg1:T45 Arg2:T42	
+R17	SIBLING Arg1:T48 Arg2:T49	
+R18	WORKS_AS Arg1:T55 Arg2:T73	
+T77	COUNTRY 714 724	китайского
+R19	TAKES_PLACE_IN Arg1:T24 Arg2:T25	
+R20	WORKS_AS Arg1:T52 Arg2:T51	
+T78	ORGANIZATION 2150 2155	Apple
+R21	WORKS_AS Arg1:T63 Arg2:T62	
+R22	WORKPLACE Arg1:T63 Arg2:T33	
+R23	WORKPLACE Arg1:T62 Arg2:T33	
+R24	PLACE_RESIDES_IN Arg1:T30 Arg2:T34	
+R25	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R26	WORKS_AS Arg1:T21 Arg2:T20	
+R27	PRICE_OF Arg1:T75 Arg2:T60	
+R28	SIBLING Arg1:T49 Arg2:T48	
+R29	WORKS_AS Arg1:T50 Arg2:T72	
+R30	ORIGINS_FROM Arg1:T64 Arg2:T1	
+R31	LOCATED_IN Arg1:T9 Arg2:T14	
+R32	HEADQUARTERED_IN Arg1:T15 Arg2:T9	
+R34	ORIGINS_FROM Arg1:T12 Arg2:T7	
+R35	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R36	PARENT_OF Arg1:T21 Arg2:T17	
+R37	RELATIVE Arg1:T21 Arg2:T18	
+R38	SPOUSE Arg1:T17 Arg2:T18	
+R39	KNOWS Arg1:T12 Arg2:T17	
+R40	KNOWS Arg1:T12 Arg2:T18	
+R33	FOUNDED_BY Arg1:T15 Arg2:T12	
+R41	POINT_IN_TIME Arg1:T66 Arg2:T23	
+R42	TAKES_PLACE_IN Arg1:T66 Arg2:T15	
+R43	ORIGINS_FROM Arg1:T67 Arg2:T77	
+R44	ORGANIZES Arg1:T12 Arg2:T66	
+R45	ALTERNATIVE_NAME Arg1:T12 Arg2:T27	
+R46	SUBEVENT_OF Arg1:T66 Arg2:T24	
+T19	PROFESSION 102 119	блогер Инстаграма
+R47	WORKS_AS Arg1:T12 Arg2:T19	
+R48	ORIGINS_FROM Arg1:T27 Arg2:T28	
+R49	ORIGINS_FROM Arg1:T12 Arg2:T1	
+R50	ALTERNATIVE_NAME Arg1:T25 Arg2:T41	
+R51	WORKS_AS Arg1:T47 Arg2:T46	
+T65	EVENT 21 39	открывает ресторан
+R52	AGENT Arg1:T64 Arg2:T65	
+R53	TAKES_PLACE_IN Arg1:T65 Arg2:T3	
+T79	EVENT 170 179;197 205	открывает ресторан
+R54	ALTERNATIVE_NAME Arg1:T65 Arg2:T79	
+R55	ALTERNATIVE_NAME Arg1:T79 Arg2:T66	
+R56	ORIGINS_FROM Arg1:T54 Arg2:T53	
+R57	PRODUCES Arg1:T78 Arg2:T61	
+R58	AGENT Arg1:T19 Arg2:T79	
+N2	Reference T10 Wikidata:Q1198574	South China Morning Post
+N8	Reference T31 Wikidata:Q3630	Джакарта
+N9	Reference T32 Wikidata:Q49210	Нью-Йоркский университет
+N10	Reference T34 Wikidata:Q1191048	Вест-Виллидж
+N11	Reference T36 Wikidata:Q11299	Манхэттен
+N12	Reference T42 Wikidata:Q12071552	Тиффани Трамп
+N14	Reference T45 Wikidata:Q2597050	Марла Мейплз
+N16	Reference T47 Wikidata:Q503007	Андреа Пежич
+N17	Reference T48 Wikidata:Q47899	Пэрис Хилтон
+N19	Reference T50 Wikidata:Q256362	Рода, Хилари
+N20	Reference T51 Wikidata:Q33999	актёр
+N21	Reference T52 Wikidata:Q230609	Эшли Бенсон
+N23	Reference T55 Wikidata:Q19810	Виктория Бекхэм
+N24	Reference T56 Wikidata:Q148	Китайская Народная Республика
+N25	Reference T61 Wikidata:Q18010946	Apple Watch
+N27	Reference T63 Wikidata:Q15031	Си Цзиньпин
+N29	Reference T9 Wikidata:Q568572	Нолита
+N30	Reference T35 Wikidata:Q30461	президент
+N32	Reference T70 Wikidata:Q22686	Дональд Трамп
+N33	Reference T71 Wikidata:Q209330	Instagram
+N34	Reference T72 Wikidata:Q4610556	модель
+N37	Reference T78 Wikidata:Q312	Apple
+N26	Reference T62 Wikidata:Q655407	
+N39	Reference T53 Wikidata:Q30	США
+N22	Reference T54 Wikidata:Q61043836	
+N15	Reference T46 Wikidata:Q3357567	фотомодель
+N18	Reference T49 Wikidata:Q216298	
+N13	Reference T43 Wikidata:Q30	США
+N31	Reference T69 Wikidata:Q11696	президент США
+N7	Reference T28 Wikidata:Q6501380	китайцы
+N40	Reference T27 Wikidata:Q60195298	
+N41	Reference T77 Wikidata:Q148	Китайская Народная Республика
+N6	Reference T22 Wikidata:Q2622346	
+N42	Reference T20 Wikidata:Q3499072	
+N28	Reference T64 Wikidata:Q8246794	
+N38	Reference T19 Wikidata:NULL	нет данных
+N1	Reference T8 Wikidata:Q60	Нью-Йорк
+N36	Reference T76 Wikidata:Q29520	
+N35	Reference T74 Wikidata:Q1038564	
+N3	Reference T16 Wikidata:Q252	Индонезия
+N5	Reference T18 Wikidata:NULL	нет данных
+N4	Reference T17 Wikidata:NULL	нет данных
+N43	Reference T15 Wikidata:NULL	нет данных
+N44	Reference T4 Wikidata:Q47899	Пэрис Хилтон
+N45	Reference T33 Wikidata:Q148	Китайская Народная Республика
+N46	Reference T6 Wikidata:Q209330	Instagram
+N47	Reference T73 Wikidata:Q4610556	модель
+N48	Reference T13 Wikidata:Q60195298	
+N49	Reference T5 Wikidata:Q60195298	
+N50	Reference T12 Wikidata:Q60195298	
+N51	Reference T37 Wikidata:Q60195298	
+N52	Reference T30 Wikidata:Q60195298	
+N53	Reference T21 Wikidata:Q2622346	
+N54	Reference T2 Wikidata:Q8246794	
+N55	Reference T14 Wikidata:Q60	Нью-Йорк
+N56	Reference T25 Wikidata:Q60	Нью-Йорк
+N57	Reference T29 Wikidata:Q60	Нью-Йорк
+N58	Reference T3 Wikidata:Q60	Нью-Йорк
+N59	Reference T41 Wikidata:Q60	Нью-Йорк
+N60	Reference T7 Wikidata:Q252	Индонезия
+N61	Reference T40 Wikidata:Q252	Индонезия
+N62	Reference T1 Wikidata:Q252	Индонезия
+T80	EVENT 874 881	родился
+R59	PARTICIPANT_IN Arg1:T30 Arg2:T80	
+R60	TAKES_PLACE_IN Arg1:T80 Arg2:T31	

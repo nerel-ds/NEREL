@@ -1,0 +1,109 @@
+T2	PERSON 0 8	У.Баффет
+T3	ORDINAL 35 42	второго
+T4	NATIONALITY 70 82	Американский
+T5	PERSON 94 107	Уоррен Баффет
+T6	ORGANIZATION 150 168	Berkshire Hathaway
+T7	ORDINAL 194 201	второго
+T8	AGE 238 247	50-летний
+T9	PERSON 248 258	Тед Вешлер
+T10	PROFESSION 260 317	управляющий партнер хедж-фонда Peninsula Capital Advisors
+T11	ORGANIZATION 291 317	Peninsula Capital Advisors
+T13	PERSON 319 327	Т.Вешлер
+T14	DATE 374 388	в начале 2012г
+T15	ORGANIZATION 412 421	Berkshire
+T16	DATE 489 496	В 2007г
+T17	ORGANIZATION 498 516	Berkshire Hathaway
+T19	PERSON 619 628	У.Баффету
+T21	PERSON 679 688	У.Баффету
+T22	AGE 689 695	81 год
+T23	ORGANIZATION 760 769	Berkshire
+T25	PERSON 786 795	У.Баффета
+T26	AGE 801 810	40-летний
+T27	PERSON 811 821	Тодд Комбс
+T28	ORGANIZATION 838 847	Berkshire
+T30	PERSON 894 902	У.Баффет
+T31	PROFESSION 912 927	главой холдинга
+T33	PERSON 929 937	Т.Комбсу
+T35	PERSON 940 949	Т.Вешлеру
+T37	PERSON 1021 1029	У.Баффет
+T38	ORGANIZATION 1052 1061	Berkshire
+T39	NUMBER 1063 1066	два
+T40	ORDINAL 1161 1167	третий
+T41	ORGANIZATION 1206 1224	Berkshire Hathaway
+T42	PROFESSION 202 226	менеджера по инвестициям
+T12	DATE 848 855	в 2010г
+T18	PROFESSION 1067 1076	менеджера
+T20	PROFESSION 1168 1181	соуправляющий
+T24	PROFESSION 541 576	специалистов по управлению активами
+T29	PROFESSION 43 67	менеджера по инвестициям
+T1	PROFESSION 83 93	миллиардер
+R1	ORIGINS_FROM Arg1:T5 Arg2:T4	
+R2	WORKPLACE Arg1:T5 Arg2:T6	
+T32	PROFESSION 43 52	менеджера
+T34	PROFESSION 202 211	менеджера
+R3	AGE_IS Arg1:T9 Arg2:T8	
+R4	WORKPLACE Arg1:T9 Arg2:T11	
+T36	PROFESSION 640 670	управляющего деньгами компании
+R5	WORKS_AS Arg1:T19 Arg2:T36	
+R6	WORKPLACE Arg1:T36 Arg2:T17	
+R7	WORKPLACE Arg1:T19 Arg2:T17	
+R8	AGE_IS Arg1:T21 Arg2:T22	
+R9	WORKPLACE Arg1:T21 Arg2:T23	
+R10	AGE_IS Arg1:T27 Arg2:T26	
+R11	WORKPLACE Arg1:T27 Arg2:T28	
+R12	WORKS_AS Arg1:T30 Arg2:T31	
+R13	WORKPLACE Arg1:T25 Arg2:T28	
+R14	WORKPLACE Arg1:T35 Arg2:T28	
+R15	WORKS_AS Arg1:T33 Arg2:T18	
+R16	WORKS_AS Arg1:T35 Arg2:T18	
+R17	WORKPLACE Arg1:T18 Arg2:T38	
+R18	WORKPLACE Arg1:T20 Arg2:T38	
+R19	WORKPLACE Arg1:T42 Arg2:T6	
+R20	WORKS_AS Arg1:T9 Arg2:T10	
+T43	PROFESSION 260 279	управляющий партнер
+R21	WORKPLACE Arg1:T13 Arg2:T15	
+R22	WORKPLACE Arg1:T24 Arg2:T17	
+R23	ALTERNATIVE_NAME Arg1:T34 Arg2:T24	
+R24	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R25	ORIGINS_FROM Arg1:T1 Arg2:T4	
+R26	WORKPLACE Arg1:T10 Arg2:T11	
+R27	ALTERNATIVE_NAME Arg1:T9 Arg2:T13	
+R28	ALTERNATIVE_NAME Arg1:T27 Arg2:T33	
+R29	ALTERNATIVE_NAME Arg1:T38 Arg2:T41	
+R30	WORKPLACE Arg1:T20 Arg2:T41	
+R31	ALTERNATIVE_NAME Arg1:T17 Arg2:T23	
+R32	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R33	ALTERNATIVE_NAME Arg1:T38 Arg2:T41	
+N2	Reference T5 Wikidata:Q47213	Уоррен Баффетт
+N5	Reference T17 Wikidata:Q217583	Berkshire Hathaway
+N7	Reference T30 Wikidata:Q47213	Уоррен Баффетт
+N9	Reference T35 Wikidata:Q191118	тонна
+N12	Reference T32 Wikidata:Q2462658	менеджер
+N10	Reference T42 Wikidata:NULL	нет данных
+N13	Reference T36 Wikidata:NULL	нет данных
+N15	Reference T20 Wikidata:NULL	нет данных
+N8	Reference T31 Wikidata:NULL	нет данных
+N6	Reference T27 Wikidata:Q7812320	
+N16	Reference T15 Wikidata:Q217583	Berkshire Hathaway
+N4	Reference T11 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N14	Reference T43 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:Q846570	
+N11	Reference T1 Wikidata:NULL	нет данных
+N17	Reference T2 Wikidata:Q47213	Уоррен Баффетт
+N18	Reference T23 Wikidata:Q217583	Berkshire Hathaway
+N19	Reference T37 Wikidata:Q47213	Уоррен Баффетт
+N20	Reference T25 Wikidata:Q47213	Уоррен Баффетт
+N21	Reference T19 Wikidata:Q47213	Уоррен Баффетт
+N22	Reference T21 Wikidata:Q47213	Уоррен Баффетт
+N23	Reference T9 Wikidata:Q191118	тонна
+N24	Reference T13 Wikidata:Q191118	тонна
+N25	Reference T34 Wikidata:Q2462658	менеджер
+N26	Reference T18 Wikidata:Q2462658	менеджер
+N27	Reference T24 Wikidata:Q2462658	менеджер
+N28	Reference T29 Wikidata:NULL	нет данных
+N29	Reference T33 Wikidata:Q7812320	
+N30	Reference T28 Wikidata:Q217583	Berkshire Hathaway
+N31	Reference T41 Wikidata:Q217583	Berkshire Hathaway
+N32	Reference T38 Wikidata:Q217583	Berkshire Hathaway
+N33	Reference T6 Wikidata:Q217583	Berkshire Hathaway

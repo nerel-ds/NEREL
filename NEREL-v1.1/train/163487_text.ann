@@ -1,0 +1,152 @@
+T1	PROFESSION 0 15	Премьер-министр
+T2	PERSON 40 60	Георгий Квирикашвили
+T3	DATE 61 87	В среду, 13 июня 2018 года
+T4	PROFESSION 89 104	премьер-министр
+T5	PERSON 112 132	Георгий Квирикашвили
+T6	PERSON 177 189	Квирикашвили
+T7	ORGANIZATION 201 214	правительство
+T8	DATE 222 241	с декабря 2015 года
+T9	DATE 323 330	сегодня
+T10	PERSON 362 374	Квирикашвили
+T11	DATE 402 409	12 июня
+T12	EVENT 421 428	встреча
+T13	ORGANIZATION 459 500	Грузинская мечта — демократическая Грузия
+T16	PERSON 564 582	Бидзина Иванишвили
+T17	PROFESSION 585 604	глава правительства
+T18	PERSON 605 617	Квирикашвили
+T20	ORGANIZATION 744 757	правительстве
+T22	PERSON 803 820	Арчила Талаквадзе
+T23	ORGANIZATION 905 923	Детского фонда ООН
+T24	ORGANIZATION 925 931	UNICEF
+T25	COUNTRY 958 964	Грузии
+T26	DATE 998 1004	31 мая
+T27	CITY 1007 1014	Тбилиси
+T28	PERSON 1065 1079	Заза Саралидзе
+T29	AGE 1130 1140	16-летнего
+T30	ORGANIZATION 1168 1179	прокуратура
+T31	NUMBER 1238 1244	одного
+T33	DATE 1305 1316	В конце мая
+T34	NUMBER 1330 1336	одного
+T35	ORDINAL 1354 1361	второму
+T36	ORGANIZATION 1405 1432	Министерство внутренних дел
+T37	NUMBER 1510 1514	двух
+T39	ORGANIZATION 1555 1574	Главной прокуратуры
+T40	PERSON 1575 1590	Мирзу Субелиани
+T41	DATE 1662 1674	после 6 июня
+T42	DATE 1693 1700	10 июня
+T43	DATE 1715 1722	11 июня
+T44	PROFESSION 0 22	Премьер-министр Грузии
+T45	PROFESSION 89 111	премьер-министр Грузии
+T46	COUNTRY 16 22	Грузии
+T47	EVENT 23 39	подал в отставку
+T48	COUNTRY 105 111	Грузии
+T49	ORGANIZATION 201 221	правительство Грузии
+T50	COUNTRY 215 221	Грузии
+T51	EVENT 391 399	брифинге
+T52	PROFESSION 429 438	депутатов
+T53	COUNTRY 459 469	Грузинская
+T54	COUNTRY 494 500	Грузия
+T55	IDEOLOGY 478 493	демократическая
+T15	PROFESSION 532 551	председатель партии
+T56	ORGANIZATION 591 604	правительства
+T57	PROFESSION 634 642	депутаты
+T19	PROFESSION 769 802	лидера парламентского большинства
+T58	ORGANIZATION 920 923	ООН
+T59	EVENT 1024 1038	акции протеста
+T60	CITY 1110 1117	Тбилиси
+T61	LOCATION 1103 1117	центре Тбилиси
+T32	EVENT 1395 1404	протестов
+T62	PROFESSION 1544 1574	сотрудника Главной прокуратуры
+T63	EVENT 1640 1648	Протесты
+T64	PROFESSION 1730 1741	полицейские
+T65	PROFESSION 1803 1812	политиков
+T66	IDEOLOGY 1789 1802	оппозиционных
+R1	WORKPLACE Arg1:T44 Arg2:T46	
+R2	AGENT Arg1:T44 Arg2:T47	
+R3	WORKPLACE Arg1:T45 Arg2:T48	
+R4	WORKS_AS Arg1:T5 Arg2:T45	
+R5	WORKPLACE Arg1:T5 Arg2:T48	
+R6	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R7	HEADQUARTERED_IN Arg1:T49 Arg2:T50	
+R8	WORKPLACE Arg1:T6 Arg2:T49	
+R9	PARTICIPANT_IN Arg1:T10 Arg2:T51	
+R10	POINT_IN_TIME Arg1:T51 Arg2:T3	
+R11	ALTERNATIVE_NAME Arg1:T53 Arg2:T54	
+R12	HEADQUARTERED_IN Arg1:T13 Arg2:T54	
+T38	EVENT 421 438	встреча депутатов
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T38	
+R14	POINT_IN_TIME Arg1:T38 Arg2:T11	
+T67	PROFESSION 429 500	депутатов от правящей партии «Грузинская мечта — демократическая Грузия
+R15	MEMBER_OF Arg1:T67 Arg2:T13	
+R16	WORKS_AS Arg1:T22 Arg2:T19	
+R17	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R18	TAKES_PLACE_IN Arg1:T59 Arg2:T27	
+R19	START_TIME Arg1:T59 Arg2:T26	
+R20	WORKS_AS Arg1:T16 Arg2:T15	
+R21	WORKS_AS Arg1:T18 Arg2:T17	
+R22	WORKPLACE Arg1:T18 Arg2:T56	
+T14	EVENT 506 513	встрече
+R23	ALTERNATIVE_NAME Arg1:T38 Arg2:T14	
+R24	PARTICIPANT_IN Arg1:T16 Arg2:T14	
+R25	PARTICIPANT_IN Arg1:T18 Arg2:T14	
+R26	FOUNDED_BY Arg1:T23 Arg2:T58	
+R27	ORGANIZES Arg1:T28 Arg2:T59	
+R28	WORKPLACE Arg1:T62 Arg2:T39	
+R29	WORKS_AS Arg1:T40 Arg2:T62	
+R30	WORKPLACE Arg1:T40 Arg2:T39	
+R31	IDEOLOGY_OF Arg1:T65 Arg2:T66	
+R32	ALTERNATIVE_NAME Arg1:T59 Arg2:T32	
+R33	END_TIME Arg1:T63 Arg2:T43	
+R34	ALTERNATIVE_NAME Arg1:T32 Arg2:T63	
+R35	LOCATED_IN Arg1:T61 Arg2:T60	
+R36	LOCATED_IN Arg1:T27 Arg2:T25	
+R37	WORKPLACE Arg1:T6 Arg2:T50	
+R38	PARTICIPANT_IN Arg1:T67 Arg2:T38	
+R39	WORKPLACE Arg1:T17 Arg2:T56	
+T21	EVENT 1457 1475	расследованию дела
+R40	AGENT Arg1:T36 Arg2:T21	
+T68	EVENT 1120 1129	потасовке
+R41	TAKES_PLACE_IN Arg1:T68 Arg2:T61	
+R42	HAS_CAUSE Arg1:T21 Arg2:T68	
+N1	Reference T4 Wikidata:Q14212	премьер-министр
+N2	Reference T10 Wikidata:Q15277881	Георгий Квирикашвили
+N3	Reference T13 Wikidata:Q46516	Грузинская мечта — Демократическая Грузия
+N4	Reference T16 Wikidata:Q57794	Иванишвили, Бидзина Григорьевич
+N5	Reference T17 Wikidata:Q2285706	глава правительства
+N6	Reference T20 Wikidata:Q7188	правительство
+N7	Reference T22 Wikidata:Q64827520	Арчил Талаквадзе
+N9	Reference T27 Wikidata:Q994	Тбилиси
+N11	Reference T30 Wikidata:Q1092499	прокуратура
+N12	Reference T36 Wikidata:Q3649223	Министерство внутренних дел Грузии
+N16	Reference T48 Wikidata:Q230	Грузия
+N17	Reference T49 Wikidata:Q2613132	Кабинет министров Грузии
+N18	Reference T57 Wikidata:Q486839	член парламента
+N20	Reference T58 Wikidata:Q1065	Организация Объединённых Наций
+N23	Reference T65 Wikidata:Q82955	политик
+N15	Reference T44 Wikidata:NULL	нет данных
+N24	Reference T67 Wikidata:NULL	нет данных
+N25	Reference T15 Wikidata:Q2746259	
+N19	Reference T19 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:Q740308	
+N10	Reference T28 Wikidata:NULL	нет данных
+N21	Reference T61 Wikidata:NULL	нет данных
+N26	Reference T62 Wikidata:NULL	нет данных
+N13	Reference T39 Wikidata:NULL	нет данных
+N14	Reference T40 Wikidata:NULL	нет данных
+N22	Reference T64 Wikidata:Q384593	
+N27	Reference T1 Wikidata:Q14212	премьер-министр
+N28	Reference T5 Wikidata:Q15277881	Георгий Квирикашвили
+N29	Reference T2 Wikidata:Q15277881	Георгий Квирикашвили
+N30	Reference T18 Wikidata:Q15277881	Георгий Квирикашвили
+N31	Reference T6 Wikidata:Q15277881	Георгий Квирикашвили
+N32	Reference T7 Wikidata:Q7188	правительство
+N33	Reference T56 Wikidata:Q7188	правительство
+N34	Reference T60 Wikidata:Q994	Тбилиси
+N35	Reference T53 Wikidata:Q230	Грузия
+N36	Reference T46 Wikidata:Q230	Грузия
+N37	Reference T25 Wikidata:Q230	Грузия
+N38	Reference T54 Wikidata:Q230	Грузия
+N39	Reference T50 Wikidata:Q230	Грузия
+N40	Reference T52 Wikidata:Q486839	член парламента
+N41	Reference T45 Wikidata:NULL	нет данных
+N42	Reference T23 Wikidata:Q740308	

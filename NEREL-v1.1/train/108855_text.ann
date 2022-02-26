@@ -1,0 +1,182 @@
+T1	PERSON 5 17	Леонард Коэн
+T2	PERSON 19 31	Леонард Коэн
+T3	DATE 32 51	10 ноября 2016 года
+T4	AGE 63 69	82 лет
+T5	CITY 72 85	Лос-Анджелесе
+T6	NATIONALITY 96 105	канадский
+T7	PROFESSION 106 114	музыкант
+T8	PROFESSION 116 121	певец
+T9	PROFESSION 123 133	композитор
+T10	PROFESSION 136 147	автор песен
+T11	PERSON 148 160	Леонард Коэн
+T13	CITY 263 276	Лос-Анджелесе
+T14	PERSON 333 338	Коэна
+T15	DATE 351 371	21 октября 2016 года
+T16	ORDINAL 387 391	14-й
+T17	WORK_OF_ART 401 419	You Want It Darker
+T18	ORGANIZATION 530 544	The New Yorker
+T19	PROFESSION 547 554	главред
+T20	PERSON 563 575	Дэвид Ремник
+T21	PERSON 597 601	Коэн
+T22	PERSON 614 621	Ремнику
+T23	CITY 741 754	Лос-Анджелесе
+T24	PERSON 782 786	Коэн
+T25	DATE 945 964	10 января 2016 года
+T26	PROFESSION 994 1002	музыкант
+T27	PERSON 1003 1013	Дэвид Боуи
+T28	PERSON 1031 1035	Коэн
+T29	DATE 1037 1054	за несколько дней
+T30	WORK_OF_ART 1087 1096	Blackstar
+T31	ORGANIZATION 1107 1121	'Rolling Stone
+T32	PERSON 1132 1137	Коэна
+T33	PERSON 1207 1220	Бобом Диланом
+T35	DATE 1265 1274	2016 года
+T36	PERSON 1277 1289	Леонард Коэн
+T37	DATE 1298 1309	в 1934 году
+T38	CITY 1312 1320	Монреале
+T39	COUNTRY 1322 1328	Канада
+T40	DATE 1330 1341	В 1951 году
+T41	PERSON 1342 1346	Коэн
+T42	ORGANIZATION 1358 1378	университет Макгилла
+T43	DATE 1470 1488	В конце 60-х годов
+T44	PERSON 1489 1496	Леонард
+T45	ORDINAL 1528 1534	первый
+T46	DATE 1548 1559	в 1967 году
+T47	DATE 1561 1572	В 1996 году
+T48	PROFESSION 1601 1608	монахом
+T49	PROFESSION 1610 1615	Певец
+T50	COUNTRY 1623 1636	американского
+T51	ORGANIZATION 1637 1659	Зала славы рок-н-ролла
+T52	COUNTRY 1714 1720	Канаде
+T53	COUNTRY 1749 1755	Канады
+T54	NUMBER 1775 1777	14
+T55	WORK_OF_ART 1817 1824	Suzanne
+T56	WORK_OF_ART 1830 1840	Hallelujah
+T58	WORK_OF_ART 1846 1858	I’m Your Man
+T59	PERSON 1863 1867	Коэн
+R2	WORKS_AS Arg1:T11 Arg2:T7
+R3	WORKS_AS Arg1:T11 Arg2:T8
+R4	WORKS_AS Arg1:T11 Arg2:T10
+R5	WORKS_AS Arg1:T20 Arg2:T19
+R6	WORKS_AS Arg1:T27 Arg2:T26
+R8	DATE_OF_BIRTH Arg1:T36 Arg2:T37
+R9	PLACE_OF_BIRTH Arg1:T36 Arg2:T38
+T12	PROFESSION 372 377	певец
+T60	PROFESSION 433 453	музыкальных критиков
+T61	WORK_OF_ART 660 678	You Want It Darker
+T63	RELIGION 1584 1593	буддизмом
+R1	AGE_DIED_AT Arg1:T11 Arg2:T4	
+T57	PROFESSION 239 244	Певец
+T62	EVENT 729 738	вечеринке
+T34	AWARD 1232 1274	Нобелевской премии по литературе 2016 года
+T64	AWARD 1730 1755	Компаньоном Ордена Канады
+R7	PLACE_OF_DEATH Arg1:T11 Arg2:T5	
+R10	DATE_OF_DEATH Arg1:T11 Arg2:T3	
+R11	PRODUCES Arg1:T14 Arg2:T17	
+R12	WORKPLACE Arg1:T20 Arg2:T18	
+R13	KNOWS Arg1:T21 Arg2:T22	
+R14	DATE_OF_DEATH Arg1:T27 Arg2:T25	
+R15	PRODUCES Arg1:T27 Arg2:T30	
+R16	AWARDED_WITH Arg1:T33 Arg2:T34	
+R17	LOCATED_IN Arg1:T38 Arg2:T39	
+R18	SCHOOLS_ATTENDED Arg1:T41 Arg2:T42	
+R19	RELIGION_OF Arg1:T44 Arg2:T63	
+R20	PRODUCES Arg1:T59 Arg2:T55	
+R21	PRODUCES Arg1:T59 Arg2:T56	
+R22	PRODUCES Arg1:T59 Arg2:T58	
+T65	AWARD 1742 1755	Ордена Канады
+R23	WORKS_AS Arg1:T44 Arg2:T48	
+R24	WORKS_AS Arg1:T44 Arg2:T49	
+R25	ORIGINS_FROM Arg1:T11 Arg2:T6	
+R26	PRODUCES Arg1:T12 Arg2:T17	
+R27	PRODUCES Arg1:T21 Arg2:T61	
+R28	TAKES_PLACE_IN Arg1:T62 Arg2:T23	
+R29	PARTICIPANT_IN Arg1:T24 Arg2:T62	
+R30	AWARDED_WITH Arg1:T49 Arg2:T65	
+R31	DATE_OF_CREATION Arg1:T17 Arg2:T15	
+R32	MEMBER_OF Arg1:T49 Arg2:T51	
+R33	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R34	WORKS_AS Arg1:T14 Arg2:T12	
+R35	ALTERNATIVE_NAME Arg1:T20 Arg2:T22	
+T66	EVENT 0 4	Умер
+R36	PARTICIPANT_IN Arg1:T1 Arg2:T66	
+R37	ORIGINS_FROM Arg1:T7 Arg2:T6	
+R38	ORIGINS_FROM Arg1:T8 Arg2:T6	
+R39	ORIGINS_FROM Arg1:T9 Arg2:T6	
+R40	ORIGINS_FROM Arg1:T10 Arg2:T6	
+T67	EVENT 86 95	скончался
+R41	ALTERNATIVE_NAME Arg1:T66 Arg2:T67	
+R42	PARTICIPANT_IN Arg1:T11 Arg2:T67	
+R43	TAKES_PLACE_IN Arg1:T67 Arg2:T5	
+R44	POINT_IN_TIME Arg1:T67 Arg2:T3	
+R45	WORKS_AS Arg1:T14 Arg2:T12	
+R46	WORKPLACE Arg1:T19 Arg2:T18	
+T68	EVENT 965 974	скончался
+R47	PARTICIPANT_IN Arg1:T27 Arg2:T68	
+R48	POINT_IN_TIME Arg1:T68 Arg2:T25	
+R50	ALTERNATIVE_NAME Arg1:T32 Arg2:T36	
+R51	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+R52	ALTERNATIVE_NAME Arg1:T41 Arg2:T44	
+R53	ORIGINS_FROM Arg1:T65 Arg2:T53	
+R54	HEADQUARTERED_IN Arg1:T51 Arg2:T50	
+T69	AWARD 1232 1264	Нобелевской премии по литературе
+T70	AWARD 1232 1250	Нобелевской премии
+R49	POINT_IN_TIME Arg1:T34 Arg2:T35	
+T71	PERSON 1232 1243	Нобелевской
+R55	PRODUCES Arg1:T71 Arg2:T70	
+N1	Reference T5 Wikidata:Q65	Лос-Анджелес
+N3	Reference T9 Wikidata:Q36834	композитор
+N4	Reference T10 Wikidata:Q753110	автор песен
+N5	Reference T11 Wikidata:Q1276	Леонард Коэн
+N6	Reference T18 Wikidata:Q217305	The New Yorker
+N7	Reference T19 Wikidata:Q589298	главный редактор
+N8	Reference T22 Wikidata:Q1176307	Дэвид Ремник
+N9	Reference T26 Wikidata:Q639669	музыкант
+N10	Reference T27 Wikidata:Q5383	Дэвид Боуи
+N11	Reference T30 Wikidata:Q21450442	Blackstar
+N13	Reference T33 Wikidata:Q392	Боб Дилан
+N14	Reference T38 Wikidata:Q340	Монреаль
+N15	Reference T39 Wikidata:Q16	Канада
+N16	Reference T42 Wikidata:Q201492	Университет Макгилла
+N17	Reference T48 Wikidata:Q733786	монах
+N18	Reference T49 Wikidata:Q177220	певец
+N20	Reference T51 Wikidata:Q179191	Зал славы рок-н-ролла
+N22	Reference T56 Wikidata:Q969635	Hallelujah
+N25	Reference T60 Wikidata:Q1350157	музыкальный критик
+N26	Reference T61 Wikidata:Q26271668	You Want It Darker
+N27	Reference T63 Wikidata:Q748	буддизм
+N29	Reference T65 Wikidata:Q99700	орден Канады
+N30	Reference T69 Wikidata:Q37922	Нобелевская премия по литературе
+N31	Reference T70 Wikidata:Q7191	Нобелевская премия
+N2	Reference T6 Wikidata:Q1196645	канадцы
+N12	Reference T31 Wikidata:Q33511	Роллинг Стоун
+N32	Reference T71 Wikidata:Q23810	Альфред Нобель
+N28	Reference T34 Wikidata:NULL	нет данных
+N19	Reference T50 Wikidata:Q30	США
+N24	Reference T59 Wikidata:Q1276	Леонард Коэн
+N33	Reference T64 Wikidata:Q15278107	
+N21	Reference T55 Wikidata:Q1796940	Suzanne
+N23	Reference T58 Wikidata:Q48771195	
+N34	Reference T23 Wikidata:Q65	Лос-Анджелес
+N35	Reference T13 Wikidata:Q65	Лос-Анджелес
+N36	Reference T14 Wikidata:Q1276	Леонард Коэн
+N37	Reference T20 Wikidata:Q1176307	Дэвид Ремник
+N38	Reference T7 Wikidata:Q639669	музыкант
+N39	Reference T53 Wikidata:Q16	Канада
+N40	Reference T52 Wikidata:Q16	Канада
+N41	Reference T57 Wikidata:Q177220	певец
+N42	Reference T8 Wikidata:Q177220	певец
+N43	Reference T12 Wikidata:Q177220	певец
+N44	Reference T17 Wikidata:Q26271668	You Want It Darker
+N45	Reference T1 Wikidata:Q1276	Леонард Коэн
+N46	Reference T44 Wikidata:Q1276	Леонард Коэн
+N47	Reference T36 Wikidata:Q1276	Леонард Коэн
+N48	Reference T21 Wikidata:Q1276	Леонард Коэн
+N49	Reference T32 Wikidata:Q1276	Леонард Коэн
+N50	Reference T41 Wikidata:Q1276	Леонард Коэн
+N51	Reference T2 Wikidata:Q1276	Леонард Коэн
+N52	Reference T24 Wikidata:Q1276	Леонард Коэн
+N53	Reference T28 Wikidata:Q1276	Леонард Коэн
+T72	EVENT 1290 1297	родился
+R56	PARTICIPANT_IN Arg1:T36 Arg2:T72	
+R57	TAKES_PLACE_IN Arg1:T72 Arg2:T38	

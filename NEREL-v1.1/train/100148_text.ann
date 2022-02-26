@@ -1,0 +1,69 @@
+T1	NATIONALITY 0 10	Российский
+T2	PERSON 58 73	Михаил Гуцериев
+T3	PERSON 101 116	Михаил Гуцериев
+T4	PERSON 138 143	Саиду
+T5	CITY 256 262	Москве
+T6	MONEY 286 309	1 миллиард долларов США
+T7	PERSON 347 362	Дженнифер Лопес
+T8	PERSON 364 379	Энрике Иглесиас
+T9	PERSON 382 387	Стинг
+T10	PERSON 398 412	Хадижа Ужахова
+T11	AGE 414 423	20-летняя
+T12	PERSON 490 499	Elie Saab
+T13	ORGANIZATION 539 551	Wedding word
+T14	MONEY 624 640	480 000 долларов
+T15	MONEY 713 728	57 000 долларов
+T16	NUMBER 797 806	около 600
+T17	LOCATION 974 985	европейской
+T18	NUMBER 1011 1025	восьмиярусного
+T19	ORGANIZATION 1052 1058	Forbes
+T20	PERSON 1070 1079	Гуцериева
+T21	MONEY 1094 1117	8,13 миллиарда долларов
+T22	PROFESSION 11 17	магнат
+T23	PROFESSION 85 100	предприниматель
+T24	NATIONALITY 74 84	Российский
+T25	PROFESSION 424 433	студентка
+T26	COUNTRY 306 309	США
+T27	EVENT 40 47	свадьбу
+T28	EVENT 144 151	свадьбу
+R3	EXPENDITURE Arg1:T3 Arg2:T6	
+R4	PARENT_OF Arg1:T3 Arg2:T4	
+T29	EVENT 263 274	празднество
+R5	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R6	PRICE_OF Arg1:T29 Arg2:T6	
+R7	ORGANIZES Arg1:T3 Arg2:T28	
+R8	PARTICIPANT_IN Arg1:T4 Arg2:T28	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T28	
+R10	PARTICIPANT_IN Arg1:T8 Arg2:T28	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T28	
+R12	SPOUSE Arg1:T4 Arg2:T10	
+R13	AGE_IS Arg1:T10 Arg2:T11	
+R14	EXPENDITURE Arg1:T3 Arg2:T14	
+R15	ALTERNATIVE_NAME Arg1:T3 Arg2:T20	
+R16	ORIGINS_FROM Arg1:T3 Arg2:T24	
+R17	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R18	ORIGINS_FROM Arg1:T22 Arg2:T1	
+R19	ORGANIZES Arg1:T22 Arg2:T27	
+R20	TAKES_PLACE_IN Arg1:T29 Arg2:T5	
+R21	PARTICIPANT_IN Arg1:T10 Arg2:T28	
+R22	ORIGINS_FROM Arg1:T23 Arg2:T24	
+R1	OWNER_OF Arg1:T20 Arg2:T21	
+N1	Reference T4 Wikidata:Q65151988	Гуцериев, Саид Михайлович
+N2	Reference T5 Wikidata:Q649	Москва
+N3	Reference T7 Wikidata:Q40715	Дженнифер Лопес
+N4	Reference T8 Wikidata:Q47122	Энрике Иглесиас
+N5	Reference T9 Wikidata:Q483203	Стинг
+N8	Reference T19 Wikidata:Q25161472	Форбс
+N9	Reference T20 Wikidata:Q1346607	Михаил Сафарбекович Гуцериев
+N10	Reference T22 Wikidata:Q903810	магнат
+N13	Reference T26 Wikidata:Q30	США
+N6	Reference T10 Wikidata:NULL	нет данных
+N12	Reference T25 Wikidata:Q48282	учащийся
+N14	Reference T12 Wikidata:Q456638	
+N15	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:Q46	Европа
+N11	Reference T24 Wikidata:Q49542	русские
+N16	Reference T2 Wikidata:Q1346607	Михаил Сафарбекович Гуцериев
+N17	Reference T3 Wikidata:Q1346607	Михаил Сафарбекович Гуцериев
+N18	Reference T23 Wikidata:Q903810	магнат
+N19	Reference T1 Wikidata:Q49542	русские

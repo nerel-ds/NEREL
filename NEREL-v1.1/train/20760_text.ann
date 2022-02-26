@@ -1,0 +1,137 @@
+T1	PERSON 0 5	Путин
+T2	PROFESSION 15 37	временным губернатором
+T4	PERSON 68 84	Андрея Воробьёва
+T5	PERSON 85 99	Владимир Путин
+T6	PERSON 102 117	Андрей Воробьёв
+T7	DATE 119 137	8 ноября 2012 года
+T9	ORGANIZATION 208 221	Единая Россия
+T10	ORGANIZATION 225 245	Государственной Думе
+T11	PERSON 246 261	Андрей Воробьёв
+T12	PROFESSION 284 320	исполняющего обязанности губернатора
+T14	PROFESSION 350 359	Президент
+T15	PROFESSION 375 383	депутату
+T16	FACILITY 410 416	Кремле
+T17	PROFESSION 554 590	исполняющего обязанности губернатора
+T19	PERSON 664 685	Владимир Владимирович
+T20	PERSON 881 893	Сергея Шойгу
+T21	PERSON 971 986	Андрей Воробьёв
+T22	DATE 1078 1098	в сентябре 2013 года
+T23	AGE 1123 1132	42-летний
+T24	PERSON 1133 1148	Андрей Воробьёв
+T26	ORGANIZATION 1212 1250	Министерства по чрезвычайным ситуациям
+T27	PERSON 1258 1272	Юрия Воробьёва
+T28	DATE 1274 1285	В 2012 году
+T29	ORGANIZATION 1306 1311	Дождь
+T30	PERSON 1313 1328	Андрей Воробьёв
+T31	PERSON 1337 1349	Сергея Шойгу
+T32	PROFESSION 15 56	временным губернатором Московской области
+T34	PROFESSION 25 37	губернатором
+T35	PROFESSION 186 221	руководитель фракции «Единая Россия
+T36	PROFESSION 186 245	руководитель фракции «Единая Россия» в Государственной Думе
+T37	PROFESSION 284 339	исполняющего обязанности губернатора Московской области
+T39	PROFESSION 309 320	губернатора
+T40	PROFESSION 554 609	исполняющего обязанности губернатора Московской области
+T42	PROFESSION 579 590	губернатора
+T43	PROFESSION 1015 1028	главы региона
+T44	PROFESSION 1047 1058	губернатора
+T3	STATE_OR_PROVINCE 38 56	Московской области
+T13	PERSON 138 152	Владимир Путин
+T18	STATE_OR_PROVINCE 321 339	Московской области
+T46	PROFESSION 350 366	Президент России
+T47	COUNTRY 360 366	России
+T48	STATE_OR_PROVINCE 591 609	Московской области
+T49	EVENT 1039 1046	выборов
+T50	EVENT 1039 1058	выборов губернатора
+T51	PERSON 1176 1188	Сергея Шойгу
+T25	ORGANIZATION 1212 1257	Министерства по чрезвычайным ситуациям России
+T52	COUNTRY 1251 1257	России
+R1	WORKPLACE Arg1:T32 Arg2:T3	
+T33	IDEOLOGY 57 67	единоросса
+R2	IDEOLOGY_OF Arg1:T4 Arg2:T33	
+R3	WORKS_AS Arg1:T4 Arg2:T32	
+R4	WORKPLACE Arg1:T4 Arg2:T3	
+T53	EVENT 6 14	назначил
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R6	AGENT Arg1:T1 Arg2:T53	
+R7	PARTICIPANT_IN Arg1:T4 Arg2:T53	
+T54	EVENT 262 283	назначен на должность
+R8	IDEOLOGY_OF Arg1:T9 Arg2:T33	
+R9	WORKPLACE Arg1:T35 Arg2:T9	
+R10	WORKPLACE Arg1:T35 Arg2:T10	
+R11	PARTICIPANT_IN Arg1:T11 Arg2:T54	
+R12	AGENT Arg1:T13 Arg2:T54	
+R13	POINT_IN_TIME Arg1:T54 Arg2:T7	
+R14	HEADQUARTERED_IN Arg1:T25 Arg2:T52	
+R15	FOUNDED_BY Arg1:T25 Arg2:T27	
+R16	KNOWS Arg1:T51 Arg2:T27	
+R17	KNOWS Arg1:T27 Arg2:T51	
+R18	AGE_IS Arg1:T24 Arg2:T23	
+R19	PARENT_OF Arg1:T27 Arg2:T24	
+R20	KNOWS Arg1:T30 Arg2:T31	
+R21	WORKPLACE Arg1:T46 Arg2:T47	
+R22	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R23	ALTERNATIVE_NAME Arg1:T32 Arg2:T37	
+R25	WORKS_AS Arg1:T11 Arg2:T37	
+R26	WORKPLACE Arg1:T37 Arg2:T18	
+R27	MEMBER_OF Arg1:T11 Arg2:T9	
+R28	WORKPLACE Arg1:T11 Arg2:T10	
+R29	WORKS_AS Arg1:T11 Arg2:T36	
+R30	WORKS_AS Arg1:T13 Arg2:T46	
+R31	WORKPLACE Arg1:T13 Arg2:T47	
+R32	WORKS_AS Arg1:T11 Arg2:T15	
+T8	EVENT 393 407	личной встречи
+R33	TAKES_PLACE_IN Arg1:T8 Arg2:T16	
+R34	AGENT Arg1:T15 Arg2:T8	
+R35	PARTICIPANT_IN Arg1:T46 Arg2:T8	
+R36	AGENT Arg1:T11 Arg2:T8	
+R37	AGENT Arg1:T13 Arg2:T8	
+R38	WORKPLACE Arg1:T40 Arg2:T48	
+R24	WORKS_AS Arg1:T21 Arg2:T43	
+R39	TAKES_PLACE_IN Arg1:T50 Arg2:T48	
+R40	POINT_IN_TIME Arg1:T50 Arg2:T22	
+T38	EVENT 153 166	подписал указ
+R41	AGENT Arg1:T13 Arg2:T38	
+R42	POINT_IN_TIME Arg1:T38 Arg2:T7	
+R43	HAS_CAUSE Arg1:T38 Arg2:T54	
+R44	PARTICIPANT_IN Arg1:T11 Arg2:T38	
+N2	Reference T4 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N3	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T9 Wikidata:Q151469	Единая Россия
+N5	Reference T10 Wikidata:Q715641	Государственная дума
+N6	Reference T14 Wikidata:Q30461	президент
+N7	Reference T15 Wikidata:Q486839	член парламента
+N8	Reference T16 Wikidata:Q133274	Московский Кремль
+N9	Reference T24 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N11	Reference T27 Wikidata:Q4125213	Воробьёв, Юрий Леонидович
+N12	Reference T29 Wikidata:Q155172	Дождь
+N13	Reference T31 Wikidata:Q32024	Сергей Кужугетович Шойгу
+N17	Reference T42 Wikidata:Q132050	губернатор
+N19	Reference T13 Wikidata:Q7747	Владимир Владимирович Путин
+N20	Reference T18 Wikidata:Q1697	Московская область
+N21	Reference T46 Wikidata:Q218295	президент Российской Федерации
+N22	Reference T47 Wikidata:Q159	Россия
+N23	Reference T25 Wikidata:Q2624171	МЧС России
+N1	Reference T2 Wikidata:Q90406286	
+N14	Reference T35 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:NULL	нет данных
+N24	Reference T12 Wikidata:NULL	нет данных
+N16	Reference T40 Wikidata:NULL	нет данных
+N18	Reference T43 Wikidata:Q1540324	высшее должностное лицо субъекта Российской Федерации
+N10	Reference T26 Wikidata:NULL	нет данных
+N25	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N26	Reference T11 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N27	Reference T6 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N28	Reference T21 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N29	Reference T30 Wikidata:Q502185	Андрей Юрьевич Воробьёв
+N30	Reference T51 Wikidata:Q32024	Сергей Кужугетович Шойгу
+N31	Reference T20 Wikidata:Q32024	Сергей Кужугетович Шойгу
+N32	Reference T39 Wikidata:Q132050	губернатор
+N33	Reference T44 Wikidata:Q132050	губернатор
+N34	Reference T34 Wikidata:Q132050	губернатор
+N35	Reference T19 Wikidata:Q7747	Владимир Владимирович Путин
+N36	Reference T48 Wikidata:Q1697	Московская область
+N37	Reference T3 Wikidata:Q1697	Московская область
+N38	Reference T52 Wikidata:Q159	Россия
+N39	Reference T17 Wikidata:NULL	нет данных
+N40	Reference T37 Wikidata:NULL	нет данных
+N41	Reference T32 Wikidata:NULL	нет данных

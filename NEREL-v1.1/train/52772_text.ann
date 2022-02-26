@@ -1,0 +1,177 @@
+T1	NUMBER 0 3	Две
+T2	COUNTRY 35 41	России
+T3	COUNTRY 89 98	Аргентине
+T4	DATE 99 105	В день
+T5	COUNTRY 156 165	Аргентине
+T6	DATE 168 185	15 июля 2014 года
+T7	CITY 189 202	Буэнос-Айресе
+T8	NATIONALITY 207 217	российские
+T9	PERSON 230 245	Марина Миронова
+T10	PERSON 248 264	Оксана Тимофеева
+T11	AGE 280 291	16-летноего
+T12	ORGANIZATION 385 388	EFE
+T13	ORGANIZATION 403 468	Федерацию лесбиянок, геев, бисексуалов и транссексуалов Аргентины
+T16	ORGANIZATION 470 476	FALGBT
+T17	DATE 480 497	Через четыре года
+T18	COUNTRY 541 550	Аргентине
+T19	NUMBER 552 555	две
+T20	NATIONALITY 556 563	русские
+T21	CITY 583 596	Буэнос-Айресе
+T22	DATE 598 615	15 июля 2014 года
+T23	COUNTRY 696 705	Аргентину
+T24	PROFESSION 814 828	Вице-президент
+T25	PERSON 836 859	Клаудия Кастросин Верду
+T26	COUNTRY 927 939	аргентинской
+T27	COUNTRY 995 1001	России
+T28	DATE 1014 1031	в конце 2012 года
+T29	AGE 1129 1138	16-летний
+T30	PERSON 1177 1192	Кастросин Верду
+T31	COUNTRY 1237 1243	России
+T32	AGE 1287 1293	36 лет
+T33	COUNTRY 1305 1314	Аргентину
+T34	COUNTRY 1472 1478	России
+T35	COUNTRY 1481 1490	Аргентину
+T36	LANGUAGE 1533 1543	испанского
+T37	PERSON 1552 1567	Марина Миронова
+T38	AGE 1574 1584	16-летнего
+T39	ORGANIZATION 1615 1620	Télam
+T40	COUNTRY 1628 1634	России
+T41	PROFESSION 1648 1656	учителем
+T42	DATE 1737 1754	С конца 2012 года
+T43	COUNTRY 1764 1770	России
+T44	COUNTRY 1937 1948	российского
+T45	DATE 2094 2114	В сентябре 2013 года
+T46	PROFESSION 2115 2122	депутат
+T47	ORGANIZATION 2123 2130	Госдумы
+T48	ORGANIZATION 2137 2150	Единой России
+T50	ORGANIZATION 2186 2192	Родина
+T51	PERSON 2194 2210	Алексей Журавлёв
+T52	PROFESSION 2317 2346	Докладчик ПАСЕ по правам ЛГБТ
+T55	PERSON 2347 2356	Х. Хаугли
+T56	COUNTRY 2463 2469	России
+T57	EVENT 4 13;42 52	лесбиянки поженились
+T58	EVENT 119 134	принятия закона
+T59	LAW 128 153	закона об однополом браке
+T60	NUMBER 203 206	две
+T61	EVENT 298 308	поженились
+T14	EVENT 504 538	принятия закона об однополом браке
+T15	LAW 513 538	закона об однополом браке
+T62	EVENT 572 580	женились
+T63	PROFESSION 814 835	Вице-президент FALGBT
+T64	ORGANIZATION 829 835	FALGBT
+T65	EVENT 883 890	свадьбе
+T68	LAW 1048 1116	закона о запрете пропаганды гомосексуализма среди несовершеннолетних
+T69	DATE 1315 1326	месяц назад
+T70	LANGUAGE 1518 1529	английского
+T71	EVENT 1775 1801	принят «антигейский» закон
+T72	LAW 1783 1801	антигейский» закон
+T76	ORGANIZATION 2123 2133	Госдумы РФ
+T77	PROFESSION 2115 2133	депутат Госдумы РФ
+T78	PROFESSION 2152 2193	председатель политической партии «Родина»
+T79	LAW 2232 2315	законопроекта о лишении родительских прав лиц нетрадиционной сексуальной ориентации
+T80	ORGANIZATION 2327 2331	ПАСЕ
+R1	SPOUSE Arg1:T9 Arg2:T10	
+R2	ABBREVIATION Arg1:T13 Arg2:T16	
+R3	POINT_IN_TIME Arg1:T62 Arg2:T22	
+R4	TAKES_PLACE_IN Arg1:T62 Arg2:T21	
+R5	WORKS_AS Arg1:T25 Arg2:T63	
+R6	WORKPLACE Arg1:T25 Arg2:T64	
+R7	TAKES_PLACE_IN Arg1:T61 Arg2:T7	
+R8	AGENT Arg1:T9 Arg2:T61	
+R9	AGENT Arg1:T10 Arg2:T61	
+R10	PARTICIPANT_IN Arg1:T25 Arg2:T65	
+R11	WORKS_AS Arg1:T37 Arg2:T41	
+R12	ORIGINS_FROM Arg1:T37 Arg2:T40	
+R13	WORKPLACE Arg1:T55 Arg2:T80	
+R14	WORKS_AS Arg1:T55 Arg2:T52	
+R15	WORKS_AS Arg1:T51 Arg2:T78	
+R16	WORKPLACE Arg1:T51 Arg2:T50	
+R17	WORKS_AS Arg1:T51 Arg2:T77	
+R18	WORKPLACE Arg1:T51 Arg2:T76	
+T49	CRIME 1065 1116	пропаганды гомосексуализма среди несовершеннолетних
+T53	PROFESSION 1929 1960	Дикторы российского телевидения
+R19	WORKPLACE Arg1:T52 Arg2:T80	
+R20	WORKPLACE Arg1:T77 Arg2:T76	
+R21	MEMBER_OF Arg1:T51 Arg2:T48	
+R22	WORKPLACE Arg1:T78 Arg2:T50	
+R23	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R24	ORIGINS_FROM Arg1:T10 Arg2:T8	
+R25	TAKES_PLACE_IN Arg1:T58 Arg2:T5	
+R26	POINT_IN_TIME Arg1:T58 Arg2:T6	
+R27	TAKES_PLACE_IN Arg1:T14 Arg2:T18	
+R28	WORKPLACE Arg1:T63 Arg2:T64	
+R29	ALTERNATIVE_NAME Arg1:T8 Arg2:T27	
+R30	ALTERNATIVE_NAME Arg1:T25 Arg2:T30	
+T54	COUNTRY 459 468	Аргентины
+R31	HEADQUARTERED_IN Arg1:T13 Arg2:T54	
+R32	AGENT Arg1:T20 Arg2:T62	
+T66	AGE 1282 1284	38
+R33	WORKPLACE Arg1:T53 Arg2:T44	
+R34	MEMBER_OF Arg1:T77 Arg2:T48	
+R35	TAKES_PLACE_IN Arg1:T57 Arg2:T3	
+R36	TAKES_PLACE_IN Arg1:T71 Arg2:T43	
+R37	POINT_IN_TIME Arg1:T71 Arg2:T42	
+T67	AGE 106 118	четырёхлетия
+R38	DATE_OF_CREATION Arg1:T59 Arg2:T6	
+R39	AGE_IS Arg1:T59 Arg2:T67	
+T73	EVENT 311 343	пропросили политического убежища
+R40	LOCATED_IN Arg1:T7 Arg2:T5	
+R41	AGENT Arg1:T9 Arg2:T73	
+R42	AGENT Arg1:T10 Arg2:T73	
+R43	TAKES_PLACE_IN Arg1:T73 Arg2:T7	
+R44	POINT_IN_TIME Arg1:T73 Arg2:T6	
+N1	Reference T7 Wikidata:Q1486	Буэнос-Айрес
+N2	Reference T8 Wikidata:Q2428799	Российская
+N3	Reference T10 Wikidata:Q21145943	Тимофеева, Оксана Викторовна
+N4	Reference T12 Wikidata:Q1274521	EFE
+N7	Reference T26 Wikidata:Q414	Аргентина
+N10	Reference T39 Wikidata:Q830515	Télam
+N11	Reference T40 Wikidata:Q159	Россия
+N12	Reference T41 Wikidata:Q37226	учитель
+N14	Reference T46 Wikidata:Q486839	член парламента
+N15	Reference T47 Wikidata:Q715641	Государственная дума
+N16	Reference T48 Wikidata:Q151469	Единая Россия
+N17	Reference T50 Wikidata:Q1190255	Родина
+N20	Reference T59 Wikidata:Q17422	однополый брак
+N22	Reference T70 Wikidata:Q1860	английский язык
+N24	Reference T76 Wikidata:Q715641	Государственная дума
+N28	Reference T80 Wikidata:Q939743	Парламентская ассамблея Совета Европы
+N5	Reference T20 Wikidata:Q49542	русские
+N30	Reference T64 Wikidata:Q5857047	
+N6	Reference T24 Wikidata:Q42178	вице-президент
+N21	Reference T63 Wikidata:NULL	нет данных
+N31	Reference T68 Wikidata:NULL	нет данных
+N8	Reference T30 Wikidata:NULL	нет данных
+N32	Reference T36 Wikidata:Q1321	испанский язык
+N33	Reference T35 Wikidata:Q414	Аргентина
+N9	Reference T37 Wikidata:NULL	нет данных
+N23	Reference T72 Wikidata:NULL	нет данных
+N13	Reference T44 Wikidata:Q159	Россия
+N29	Reference T53 Wikidata:NULL	нет данных
+N25	Reference T77 Wikidata:NULL	нет данных
+N26	Reference T78 Wikidata:NULL	нет данных
+N18	Reference T51 Wikidata:Q4181748	Алексей Александрович Журавлёв
+N27	Reference T79 Wikidata:NULL	нет данных
+N34	Reference T52 Wikidata:NULL	нет данных
+N19	Reference T55 Wikidata:NULL	нет данных
+N35	Reference T21 Wikidata:Q1486	Буэнос-Айрес
+N36	Reference T31 Wikidata:Q159	Россия
+N37	Reference T43 Wikidata:Q159	Россия
+N38	Reference T56 Wikidata:Q159	Россия
+N39	Reference T2 Wikidata:Q159	Россия
+N40	Reference T34 Wikidata:Q159	Россия
+N41	Reference T27 Wikidata:Q159	Россия
+N42	Reference T15 Wikidata:Q17422	однополый брак
+N43	Reference T13 Wikidata:Q5857047	
+N44	Reference T16 Wikidata:Q5857047	
+N45	Reference T25 Wikidata:NULL	нет данных
+N46	Reference T18 Wikidata:Q414	Аргентина
+N47	Reference T33 Wikidata:Q414	Аргентина
+N48	Reference T54 Wikidata:Q414	Аргентина
+N49	Reference T3 Wikidata:Q414	Аргентина
+N50	Reference T23 Wikidata:Q414	Аргентина
+N51	Reference T5 Wikidata:Q414	Аргентина
+N52	Reference T9 Wikidata:NULL	нет данных
+R45	INANIMATE_INVOLVED Arg1:T59 Arg2:T58	
+T74	PROFESSION 2152 2184	председатель политической партии
+N53	Reference T74 Wikidata:NULL	нет данных

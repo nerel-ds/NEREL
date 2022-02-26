@@ -1,0 +1,209 @@
+T1	PERSON 0 6	Байден
+T2	PROFESSION 19 30	президентом
+T3	PERSON 42 50	Сноудене
+T4	PERSON 53 63	Джо Байден
+T5	PERSON 95 109	Рафаэль Корреа
+T6	PERSON 110 124	Эдвард Сноуден
+T7	PROFESSION 127 141	Вице-президент
+T8	PERSON 146 156	Джо Байден
+T9	PROFESSION 171 182	президентом
+T10	PERSON 192 207	Рафаэлем Корреа
+T11	PERSON 218 234	Эдварда Сноудена
+T12	PERSON 236 242	Байден
+T13	PERSON 259 267	Сноудену
+T14	PERSON 302 309	Сноуден
+T15	PERSON 344 350	Корреа
+T16	PERSON 378 386	Сноудена
+T17	COUNTRY 399 409	российских
+T18	PERSON 432 440	Байденом
+T19	PERSON 455 461	Корреа
+T20	NATIONALITY 497 507	эквадорцам
+T21	DATE 544 551	пятницу
+T22	ORGANIZATION 554 563	Белый дом
+T23	PERSON 594 602	Сноудене
+T24	COUNTRY 679 687	Эквадора
+T25	PERSON 754 762	Сноудену
+T26	PERSON 838 852	Эдвард Сноуден
+T27	COUNTRY 891 903	американских
+T28	CITY 980 991	московского
+T29	FACILITY 1002 1013	Шереметьево
+T30	STATE_OR_PROVINCE 1035 1043	Гонконга
+T31	COUNTRY 1070 1078	Эквадора
+T32	COUNTRY 1085 1089	Кубу
+T33	COUNTRY 1095 1107	американский
+T34	COUNTRY 1131 1134	США
+T35	PERSON 1153 1161	Сноудена
+T36	COUNTRY 1170 1177	Эквадор
+T38	PERSON 1219 1235	Джулиану Ассанжу
+T39	ORGANIZATION 1256 1275	посольстве Эквадора
+T40	CITY 1278 1285	Лондоне
+T41	PROFESSION 1288 1297	Президент
+T42	COUNTRY 1318 1321	США
+T43	PERSON 1339 1347	Сноудена
+T44	NATIONALITY 1469 1480	американцев
+T45	PROFESSION 1494 1503	президент
+T46	PERSON 1533 1541	Сноудена
+T47	COUNTRY 1554 1564	российских
+T48	COUNTRY 1586 1598	американские
+T49	PERSON 1681 1690	Сноуденом
+T50	COUNTRY 1701 1709	Эквадоре
+T51	ORGANIZATION 1744 1760	Associated Press
+T52	COUNTRY 1769 1777	Эквадора
+T53	PERSON 1840 1848	Сноудена
+T54	PERSON 1955 1970	Джино Дескальси
+T55	DATE 2032 2048	на ближайший год
+T56	AGE 2090 2100	29 летнего
+T57	NUMBER 2236 2244	50 тысяч
+T60	ORDINAL 2314 2323	четвёртая
+T61	PROFESSION 19 39	президентом Эквадора
+T62	COUNTRY 31 39	Эквадора
+T63	PROFESSION 76 94	военнослужащих США
+T64	PROFESSION 76 90	военнослужащих
+T65	COUNTRY 91 94	США
+T66	PROFESSION 127 145	Вице-президент США
+T69	COUNTRY 142 145	США
+T70	PROFESSION 171 191	президентом Эквадора
+T71	COUNTRY 183 191	Эквадора
+T73	CRIME 927 938	терроризмом
+T75	ORGANIZATION 1209 1218	WikiLeaks
+T76	COUNTRY 1267 1275	Эквадора
+T77	PERSON 1298 1304	Корреа
+T78	PROFESSION 1494 1512	президент Эквадора
+T79	COUNTRY 1504 1512	Эквадора
+T80	COUNTRY 1849 1861	американское
+T81	PROFESSION 2101 2107	хакера
+R1	WORKPLACE Arg1:T61 Arg2:T62	
+R2	WORKPLACE Arg1:T63 Arg2:T65	
+R3	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R4	WORKPLACE Arg1:T66 Arg2:T69	
+R5	WORKPLACE Arg1:T8 Arg2:T69	
+R6	WORKS_AS Arg1:T8 Arg2:T66	
+R7	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+R8	WORKPLACE Arg1:T70 Arg2:T71	
+R9	WORKS_AS Arg1:T10 Arg2:T70	
+R10	WORKPLACE Arg1:T10 Arg2:T71	
+R11	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+T58	DATE 471 484	еженедельного
+T59	EVENT 420 429	разговоре
+T67	EVENT 524 530	беседа
+R12	ALTERNATIVE_NAME Arg1:T59 Arg2:T67	
+R13	POINT_IN_TIME Arg1:T67 Arg2:T21	
+T68	EVENT 7 16	беседовал
+R14	AGENT Arg1:T1 Arg2:T68	
+R15	AGENT Arg1:T61 Arg2:T68	
+R16	PARTICIPANT_IN Arg1:T3 Arg2:T68	
+T72	EVENT 157 168	побеседовал
+R17	ALTERNATIVE_NAME Arg1:T68 Arg2:T72	
+R18	AGENT Arg1:T8 Arg2:T72	
+R19	AGENT Arg1:T10 Arg2:T72	
+R20	PARTICIPANT_IN Arg1:T11 Arg2:T72	
+R21	ALTERNATIVE_NAME Arg1:T72 Arg2:T59	
+R22	AGENT Arg1:T18 Arg2:T59	
+R23	AGENT Arg1:T19 Arg2:T59	
+R24	ORIGINS_FROM Arg1:T20 Arg2:T71	
+R25	LOCATED_IN Arg1:T22 Arg2:T69	
+T82	EVENT 582 591	разговора
+R26	PARTICIPANT_IN Arg1:T22 Arg2:T82	
+R27	PARTICIPANT_IN Arg1:T23 Arg2:T82	
+R28	ALTERNATIVE_NAME Arg1:T67 Arg2:T82	
+T83	ORGANIZATION 672 687	Власти Эквадора
+R29	HEADQUARTERED_IN Arg1:T83 Arg2:T24	
+R30	ALTERNATIVE_NAME Arg1:T69 Arg2:T27	
+R31	LOCATED_IN Arg1:T29 Arg2:T28	
+R32	LOCATED_IN Arg1:T26 Arg2:T29	
+R33	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R34	WORKS_AS Arg1:T77 Arg2:T41	
+R35	ORIGINS_FROM Arg1:T44 Arg2:T42	
+R37	HEADQUARTERED_IN Arg1:T39 Arg2:T40	
+R40	LOCATED_IN Arg1:T38 Arg2:T39	
+R41	WORKPLACE Arg1:T78 Arg2:T79	
+T37	ORGANIZATION 1849 1875	американское правительство
+R42	HEADQUARTERED_IN Arg1:T37 Arg2:T80	
+R44	ORIGINS_FROM Arg1:T54 Arg2:T52	
+R45	AGE_IS Arg1:T81 Arg2:T56	
+T85	PROFESSION 2186 2192	хакеру
+R38	FOUNDED_BY Arg1:T75 Arg2:T38	
+R36	OWNER_OF Arg1:T76 Arg2:T39	
+R39	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R43	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R46	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+T74	EVENT 1108 1128	паспорт аннулирован,
+R47	AGENT Arg1:T34 Arg2:T74	
+R48	PARTICIPANT_IN Arg1:T35 Arg2:T74	
+T84	EVENT 1178 1197	предоставил убежище
+R49	AGENT Arg1:T36 Arg2:T84	
+R50	PARTICIPANT_IN Arg1:T38 Arg2:T84	
+R51	WORKPLACE Arg1:T77 Arg2:T36	
+R52	WORKS_AS Arg1:T53 Arg2:T81	
+R53	AGE_IS Arg1:T53 Arg2:T56	
+N1	Reference T4 Wikidata:Q6279	Джо Байден
+N2	Reference T6 Wikidata:Q13424289	Эдвард Сноуден
+N4	Reference T10 Wikidata:Q19581	Рафаэль Корреа
+N5	Reference T22 Wikidata:Q35525	Белый дом
+N6	Reference T26 Wikidata:Q13424289	Эдвард Сноуден
+N9	Reference T29 Wikidata:Q192733	Шереметьево
+N10	Reference T30 Wikidata:Q8646	Гонконг
+N11	Reference T32 Wikidata:Q241	Куба
+N12	Reference T38 Wikidata:Q360	Джулиан Ассанж
+N14	Reference T40 Wikidata:Q84	Лондон
+N15	Reference T41 Wikidata:Q30461	президент
+N17	Reference T47 Wikidata:Q159	Россия
+N20	Reference T61 Wikidata:Q732562	президент Эквадора
+N21	Reference T62 Wikidata:Q736	Эквадор
+N23	Reference T64 Wikidata:Q47064	военнослужащий
+N24	Reference T65 Wikidata:Q30	США
+N25	Reference T66 Wikidata:Q11699	вице-президент США
+N26	Reference T75 Wikidata:Q359	WikiLeaks
+N22	Reference T63 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:Q42178	вице-президент
+N30	Reference T18 Wikidata:Q6279	Джо Байден
+N31	Reference T20 Wikidata:Q43296435	
+N27	Reference T83 Wikidata:NULL	нет данных
+N7	Reference T27 Wikidata:Q30	США
+N8	Reference T28 Wikidata:Q649	Москва
+N13	Reference T39 Wikidata:Q1803773	
+N16	Reference T44 Wikidata:Q846570	
+N18	Reference T51 Wikidata:Q40469	Ассошиэйтед Пресс
+N28	Reference T37 Wikidata:NULL	нет данных
+N19	Reference T54 Wikidata:NULL	нет данных
+N29	Reference T85 Wikidata:Q2798820	
+N32	Reference T1 Wikidata:Q6279	Джо Байден
+N33	Reference T3 Wikidata:Q13424289	Эдвард Сноуден
+N34	Reference T5 Wikidata:Q19581	Рафаэль Корреа
+N35	Reference T15 Wikidata:Q19581	Рафаэль Корреа
+N36	Reference T19 Wikidata:Q19581	Рафаэль Корреа
+N37	Reference T77 Wikidata:Q19581	Рафаэль Корреа
+N38	Reference T13 Wikidata:Q13424289	Эдвард Сноуден
+N39	Reference T53 Wikidata:Q13424289	Эдвард Сноуден
+N40	Reference T23 Wikidata:Q13424289	Эдвард Сноуден
+N41	Reference T14 Wikidata:Q13424289	Эдвард Сноуден
+N42	Reference T46 Wikidata:Q13424289	Эдвард Сноуден
+N43	Reference T25 Wikidata:Q13424289	Эдвард Сноуден
+N44	Reference T16 Wikidata:Q13424289	Эдвард Сноуден
+N45	Reference T49 Wikidata:Q13424289	Эдвард Сноуден
+N46	Reference T43 Wikidata:Q13424289	Эдвард Сноуден
+N47	Reference T11 Wikidata:Q13424289	Эдвард Сноуден
+N48	Reference T35 Wikidata:Q13424289	Эдвард Сноуден
+N49	Reference T2 Wikidata:Q30461	президент
+N50	Reference T9 Wikidata:Q30461	президент
+N51	Reference T45 Wikidata:Q30461	президент
+N52	Reference T17 Wikidata:Q159	Россия
+N53	Reference T70 Wikidata:Q732562	президент Эквадора
+N54	Reference T78 Wikidata:Q732562	президент Эквадора
+N55	Reference T31 Wikidata:Q736	Эквадор
+N56	Reference T24 Wikidata:Q736	Эквадор
+N57	Reference T52 Wikidata:Q736	Эквадор
+N58	Reference T79 Wikidata:Q736	Эквадор
+N59	Reference T50 Wikidata:Q736	Эквадор
+N60	Reference T36 Wikidata:Q736	Эквадор
+N61	Reference T71 Wikidata:Q736	Эквадор
+N62	Reference T76 Wikidata:Q736	Эквадор
+N63	Reference T34 Wikidata:Q30	США
+N64	Reference T80 Wikidata:Q30	США
+N65	Reference T33 Wikidata:Q30	США
+N66	Reference T48 Wikidata:Q30	США
+N67	Reference T42 Wikidata:Q30	США
+N68	Reference T8 Wikidata:Q6279	Джо Байден
+N69	Reference T12 Wikidata:Q6279	Джо Байден
+N70	Reference T69 Wikidata:Q30	США
+N71	Reference T81 Wikidata:Q2798820	

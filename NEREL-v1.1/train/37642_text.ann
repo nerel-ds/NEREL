@@ -1,0 +1,179 @@
+T2	PERSON 26 40	Робел Филлипос
+T3	DATE 59 78	15 апреля 2013 года
+T4	EVENT 133 152	Бостонском марафоне
+T6	PERSON 173 187	Робел Филлипос
+T7	PERSON 199 215	Джохара Царнаева
+T8	MONEY 242 260	100 тысяч долларов
+T9	DATE 351 370	15 апреля 2013 года
+T10	PERSON 431 439	Филлипос
+T11	DATE 554 571	На прошлой неделе
+T12	AGE 572 582	19-летнему
+T13	PERSON 611 620	Царнаевым
+T14	ORGANIZATION 630 655	Университете Массачусетса
+T16	NUMBER 839 845	восьми
+T17	PROFESSION 872 880	директор
+T18	CITY 905 912	Вустера
+T19	PERSON 989 1005	Джохара Царнаева
+T20	PERSON 1007 1016	Тамерлана
+T22	PERSON 1103 1117	Питера Стефана
+T23	PERSON 1227 1233	Стефан
+T24	CITY 1273 1282	Кембриджа
+T25	DATE 1314 1334	последние десять лет
+T26	PERSON 1362 1371	Тамерлана
+T27	PROFESSION 1407 1428	городской управляющий
+T28	PERSON 1439 1450	Роберт Хили
+T29	PERSON 1466 1474	Царнаева
+T30	CITY 1648 1657	Кембриджа
+T31	DATE 1685 1698	В понедельник
+T32	STATE_OR_PROVINCE 1750 1762	Массачусетса
+T33	COUNTRY 1788 1794	Россия
+T34	PERSON 1819 1828	Тамерлана
+T35	COUNTRY 1836 1842	Россия
+T36	CITY 1897 1905	Кембридж
+T37	PERSON 1915 1924	Таня Марш
+T38	PROFESSION 1927 1936	профессор
+T39	PROFESSION 1964 1971	эксперт
+T42	STATE_OR_PROVINCE 2045 2056	Массачусетс
+T43	PERSON 9 25	Джохара Царнаева
+T5	CRIME 280 301	даче ложных показаний
+T44	PROFESSION 302 321	федеральным агентам
+T45	EVENT 122 129	взрывах
+T46	EVENT 343 350	взрывах
+T47	PERSON 583 592	Филлипосу
+T48	PROFESSION 705 717	следователям
+T49	PERSON 747 755	Царнаева
+T51	EVENT 788 795	взрывов
+T52	PENALTY 836 856	до восьми лет тюрьмы
+T53	PROFESSION 872 912	директор похоронного бюро города Вустера
+T54	ORGANIZATION 881 912	похоронного бюро города Вустера
+T55	EVENT 1030 1034	убит
+T57	EVENT 1058 1065	взрывов
+T58	EVENT 1068 1079	перестрелке
+T59	ORGANIZATION 1082 1090	полицией
+T60	STATE_OR_PROVINCE 1137 1149	Массачусетса
+T61	EVENT 1205 1224	бостонского теракта
+T62	CITY 1205 1216	бостонского
+T63	ORGANIZATION 1258 1282	властям города Кембриджа
+T65	PERSON 1295 1303	Царнаевы
+T67	PROFESSION 1407 1438	городской управляющий Кембриджа
+T68	CITY 1429 1438	Кембриджа
+T71	PERSON 1699 1705	Стефан
+T72	STATE_OR_PROVINCE 643 655	Массачусетса
+T73	PROFESSION 1927 1961	профессор Университета Уэйк Форест
+T74	ORGANIZATION 1937 1961	Университета Уэйк Форест
+T76	COUNTRY 1975 1988	американскому
+T77	LAW 2033 2056	Закон штата Массачусетс
+R1	KNOWS Arg1:T43 Arg2:T2	
+T1	CITY 133 143	Бостонском
+T79	EVENT 144 152	марафоне
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T1	
+R3	KNOWS Arg1:T6 Arg2:T7	
+T80	EVENT 222 239	выпущен под залог
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T80	
+R5	PRICE_OF Arg1:T80 Arg2:T8	
+T81	EVENT 41 58	выпущен под залог
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T81	
+R7	POINT_IN_TIME Arg1:T46 Arg2:T9	
+R8	SUBEVENT_OF Arg1:T45 Arg2:T4	
+R9	CONVICTED_OF Arg1:T6 Arg2:T5	
+T82	EVENT 373 395	Освобождение под залог
+R10	ALTERNATIVE_NAME Arg1:T80 Arg2:T82	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R12	AGE_IS Arg1:T47 Arg2:T12	
+R13	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R14	SCHOOLS_ATTENDED Arg1:T13 Arg2:T14	
+R15	SCHOOLS_ATTENDED Arg1:T47 Arg2:T14	
+R16	HEADQUARTERED_IN Arg1:T14 Arg2:T72	
+T50	DATE 768 781	через три дня
+R17	PENALIZED_AS Arg1:T47 Arg2:T52	
+R18	HEADQUARTERED_IN Arg1:T54 Arg2:T18	
+R19	WORKPLACE Arg1:T53 Arg2:T54	
+R20	SIBLING Arg1:T19 Arg2:T20	
+R21	PARTICIPANT_IN Arg1:T20 Arg2:T55	
+T56	DATE 1035 1051	через четыре дня
+R22	HAS_CAUSE Arg1:T55 Arg2:T58	
+R23	PARTICIPANT_IN Arg1:T59 Arg2:T58	
+R24	PARTICIPANT_IN Arg1:T20 Arg2:T58	
+R25	POINT_IN_TIME Arg1:T55 Arg2:T56	
+R26	TAKES_PLACE_IN Arg1:T61 Arg2:T62	
+R27	PARTICIPANT_IN Arg1:T20 Arg2:T61	
+R28	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R29	HEADQUARTERED_IN Arg1:T63 Arg2:T24	
+R31	LOCATED_IN Arg1:T62 Arg2:T60	
+R30	WORKPLACE Arg1:T67 Arg2:T68	
+R32	WORKS_AS Arg1:T28 Arg2:T67	
+R33	WORKPLACE Arg1:T28 Arg2:T68	
+R34	WORKPLACE Arg1:T73 Arg2:T74	
+R35	WORKS_AS Arg1:T37 Arg2:T73	
+R36	WORKPLACE Arg1:T37 Arg2:T74	
+R37	ORIGINS_FROM Arg1:T77 Arg2:T42	
+R38	LOCATED_IN Arg1:T42 Arg2:T76	
+T40	PROFESSION 1964 2030	эксперт по американскому законодательству в сфере похоронного дела
+T41	FAMILY 1288 1303	братья Царнаевы
+R39	MEMBER_OF Arg1:T65 Arg2:T41	
+T64	FAMILY 1459 1474	родных Царнаева
+R40	RELATIVE Arg1:T29 Arg2:T64	
+T66	EVENT 153 170	выпущен под залог
+T75	PENALTY 461 477	домашним арестом
+T78	PENALTY 480 506	носить электронный браслет
+R41	PENALIZED_AS Arg1:T10 Arg2:T75	
+R42	PENALIZED_AS Arg1:T10 Arg2:T78	
+R43	KNOWS Arg1:T47 Arg2:T13	
+T83	CRIME 698 717	солгал следователям
+R44	PARTICIPANT_IN Arg1:T48 Arg2:T83	
+R45	CONVICTED_OF Arg1:T47 Arg2:T83	
+R46	PARTICIPANT_IN Arg1:T44 Arg2:T5	
+R47	ALTERNATIVE_NAME Arg1:T5 Arg2:T83	
+R48	WORKS_AS Arg1:T22 Arg2:T53	
+R49	WORKPLACE Arg1:T22 Arg2:T54	
+R50	MEMBER_OF Arg1:T26 Arg2:T41	
+R51	PLACE_RESIDES_IN Arg1:T65 Arg2:T24	
+N2	Reference T17 Wikidata:Q484876	главный управляющий
+N5	Reference T27 Wikidata:Q194572	Городской стадион
+N6	Reference T35 Wikidata:Q159	Россия
+N8	Reference T38 Wikidata:Q121594	профессор
+N9	Reference T39 Wikidata:Q381160	эксперт
+N10	Reference T42 Wikidata:Q771	Массачусетс
+N11	Reference T44 Wikidata:Q392651	специальный агент
+N17	Reference T59 Wikidata:Q35535	полиция
+N24	Reference T74 Wikidata:Q392667	Университет Уэйк-Форест
+N26	Reference T77 Wikidata:NULL	нет данных
+N7	Reference T37 Wikidata:NULL	нет данных
+N12	Reference T47 Wikidata:NULL	нет данных
+N1	Reference T13 Wikidata:Q11835959	
+N28	Reference T14 Wikidata:Q4118040	
+N13	Reference T48 Wikidata:Q1971388	
+N14	Reference T49 Wikidata:Q11835959	
+N3	Reference T18 Wikidata:Q49179	Вустер
+N16	Reference T54 Wikidata:NULL	нет данных
+N15	Reference T53 Wikidata:NULL	нет данных
+N18	Reference T62 Wikidata:Q100	Бостон
+N19	Reference T63 Wikidata:NULL	нет данных
+N4	Reference T26 Wikidata:Q11836274	
+N21	Reference T68 Wikidata:Q49111	Кембридж
+N29	Reference T28 Wikidata:NULL	нет данных
+N20	Reference T67 Wikidata:NULL	нет данных
+N22	Reference T71 Wikidata:NULL	нет данных
+N23	Reference T73 Wikidata:NULL	нет данных
+N25	Reference T76 Wikidata:Q30	США
+N27	Reference T40 Wikidata:NULL	нет данных
+N30	Reference T33 Wikidata:Q159	Россия
+N31	Reference T72 Wikidata:Q771	Массачусетс
+N32	Reference T32 Wikidata:Q771	Массачусетс
+N33	Reference T60 Wikidata:Q771	Массачусетс
+N34	Reference T6 Wikidata:NULL	нет данных
+N35	Reference T2 Wikidata:NULL	нет данных
+N36	Reference T10 Wikidata:NULL	нет данных
+N37	Reference T7 Wikidata:Q11835959	
+N38	Reference T43 Wikidata:Q11835959	
+N39	Reference T19 Wikidata:Q11835959	
+N40	Reference T29 Wikidata:Q11835959	
+N41	Reference T65 Wikidata:Q11835959	
+N42	Reference T1 Wikidata:Q100	Бостон
+N43	Reference T34 Wikidata:Q11836274	
+N44	Reference T20 Wikidata:Q11836274	
+N45	Reference T36 Wikidata:Q49111	Кембридж
+N46	Reference T24 Wikidata:Q49111	Кембридж
+N47	Reference T30 Wikidata:Q49111	Кембридж
+N48	Reference T22 Wikidata:NULL	нет данных
+N49	Reference T23 Wikidata:NULL	нет данных

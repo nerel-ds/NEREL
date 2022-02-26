@@ -1,0 +1,108 @@
+T1	PROFESSION 75 80	имама
+T2	CITY 83 92	Нью-Йорке
+T3	AGE 99 108	55-летний
+T4	PROFESSION 120 128	помощник
+T5	MONEY 235 250	10 000 долларов
+T6	PROFESSION 315 324	помощника
+T7	CITY 327 336	Нью-Йорке
+T8	AGE 339 348	55-летний
+T9	PROFESSION 349 353	имам
+T10	PERSON 354 370	Маулама Аконджио
+T11	AGE 373 382	64-летний
+T12	PERSON 383 394	Тхара Уддин
+T13	ORGANIZATION 461 500	Совет по американо-исламским отношениям
+T14	DATE 513 526	в понедельник
+T15	PROFESSION 583 626	Национальный исполнительный директор Совета
+T16	EVENT 1048 1060	демонстрацию
+T17	FACILITY 1063 1086	мечети Аль-Фуркан Джами
+T18	FACILITY 1089 1099	Озон-парке
+T19	DISTRICT 1102 1108	Квинсе
+T20	PERSON 1167 1180	Кобир Чоудури
+T21	FACILITY 1196 1211	мечеть Аль-Аман
+T22	DISTRICT 1214 1222	Бруклине
+T24	DATE 1433 1442	В субботу
+T25	NUMBER 1471 1480	около 100
+T26	RELIGION 0 13	Мусульманская
+T27	PROFESSION 109 113	имам
+T28	DISTRICT 93 98	Куинс
+T29	RELIGION 188 201	Мусульманская
+T30	PROFESSION 296 308	проповедника
+T31	RELIGION 281 295	мусульманского
+T32	DATE 433 442	субботней
+T33	DATE 160 169	субботней
+T34	COUNTRY 470 479	американо
+T35	RELIGION 480 489	исламским
+T36	ORGANIZATION 620 626	Совета
+T37	PERSON 627 637	Нихад Авад
+T38	PROFESSION 1126 1131	имама
+T39	NATIONALITY 1313 1326	бангладешской
+T23	ORGANIZATION 880 887	Полиция
+T40	EVENT 66 74	убийства
+T41	EVENT 134 144	застрелены
+T42	EVENT 273 280	убийств
+T43	EVENT 1371 1379	убийство
+T44	EVENT 1452 1460	убийства
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T40	
+R2	TAKES_PLACE_IN Arg1:T40 Arg2:T2	
+R3	AGE_IS Arg1:T27 Arg2:T3	
+R4	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+R5	POINT_IN_TIME Arg1:T41 Arg2:T33	
+R6	AGE_IS Arg1:T10 Arg2:T8	
+R7	WORKS_AS Arg1:T10 Arg2:T9	
+R8	AGE_IS Arg1:T12 Arg2:T11	
+T45	EVENT 400 410	застрелены
+R9	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R10	ALTERNATIVE_NAME Arg1:T42 Arg2:T45	
+R11	WORKS_AS Arg1:T37 Arg2:T15	
+R12	LOCATED_IN Arg1:T21 Arg2:T22	
+R13	WORKPLACE Arg1:T20 Arg2:T21	
+R14	RELIGION_OF Arg1:T13 Arg2:T35	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T36	
+R16	WORKPLACE Arg1:T15 Arg2:T36	
+R17	TAKES_PLACE_IN Arg1:T16 Arg2:T17	
+R18	TAKES_PLACE_IN Arg1:T16 Arg2:T18	
+R19	LOCATED_IN Arg1:T18 Arg2:T19	
+R20	SUBORDINATE_OF Arg1:T4 Arg2:T27	
+R21	EXPENDITURE Arg1:T13 Arg2:T5	
+R22	RELIGION_OF Arg1:T30 Arg2:T31	
+R23	SUBORDINATE_OF Arg1:T6 Arg2:T30	
+R24	TAKES_PLACE_IN Arg1:T42 Arg2:T7	
+R25	PARTICIPANT_IN Arg1:T30 Arg2:T42	
+R26	PARTICIPANT_IN Arg1:T6 Arg2:T42	
+R27	PARTICIPANT_IN Arg1:T12 Arg2:T45	
+R28	PARTICIPANT_IN Arg1:T10 Arg2:T45	
+R29	POINT_IN_TIME Arg1:T45 Arg2:T32	
+T46	CRIME 1400 1431	преступление на почве ненависти
+T47	EVENT 1117 1131	убийство имама
+R30	PARTICIPANT_IN Arg1:T38 Arg2:T47	
+R31	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+R32	ALTERNATIVE_NAME Arg1:T47 Arg2:T43	
+N2	Reference T7 Wikidata:Q60	Нью-Йорк
+N7	Reference T18 Wikidata:Q2522439	Озон-парк – Леффертс-бульвар
+N8	Reference T19 Wikidata:Q18424	Куинс
+N11	Reference T22 Wikidata:Q18419	Бруклин
+N13	Reference T27 Wikidata:Q125482	имам
+N14	Reference T28 Wikidata:Q18424	Куинс
+N20	Reference T23 Wikidata:Q35535	полиция
+N12	Reference T26 Wikidata:Q432	ислам
+N15	Reference T30 Wikidata:Q432386	
+N1	Reference T6 Wikidata:Q23835475	
+N21	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N16	Reference T34 Wikidata:Q30	США
+N17	Reference T35 Wikidata:Q432	ислам
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N18	Reference T37 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T20 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N19	Reference T39 Wikidata:Q4855428	
+N22	Reference T2 Wikidata:Q60	Нью-Йорк
+N23	Reference T9 Wikidata:Q125482	имам
+N24	Reference T1 Wikidata:Q125482	имам
+N25	Reference T38 Wikidata:Q125482	имам
+N26	Reference T31 Wikidata:Q432	ислам
+N27	Reference T29 Wikidata:Q432	ислам
+N28	Reference T4 Wikidata:Q23835475	
+N29	Reference T36 Wikidata:NULL	нет данных

@@ -1,0 +1,132 @@
+T1	PERSON 0 7	Кокорин
+T2	PERSON 10 16	Мамаев
+T3	DATE 26 41	на полтора года
+T4	DATE 54 59	8 мая
+T5	PERSON 93 110	Александр Кокорин
+T6	PERSON 113 125	Павел Мамаев
+T12	NUMBER 359 362	1,5
+T13	NUMBER 398 401	2,4
+T14	NUMBER 427 430	4,5
+T15	ORGANIZATION 433 448	Пресненский суд
+T16	ORDINAL 599 603	№213
+T17	ORDINAL 606 610	№115
+T18	LAW 611 616	УК РФ
+T19	PERSON 713 732	Александра Кокорина
+T21	LAW 770 775	УК РФ
+T23	PERSON 805 812	Кокорин
+T24	PERSON 815 821	Мамаев
+T25	DATE 832 849	несколько месяцев
+T26	ORGANIZATION 852 856	СИЗО
+T27	DATE 893 909	до шести месяцев
+T28	ORGANIZATION 1077 1081	СИЗО
+T29	DATE 1087 1096	один день
+T30	DATE 1125 1133	1,5 дням
+T31	DATE 1152 1170	на 1 год 5 месяцев
+T32	PERSON 1179 1202	Александр Протасовицкий
+T33	PROFESSION 1308 1315	Адвокат
+T34	PERSON 1316 1335	Александра Кокорина
+T35	PERSON 1336 1350	Андрей Ромашов
+T11	DATE 188 206	За последний месяц
+T39	PROFESSION 230 239	букмекеры
+T40	EVENT 240 256	принимали ставки
+T41	PROFESSION 283 293	футболисты
+T42	PROFESSION 309 318	футболист
+T43	PENALTY 328 341	тюремный срок
+T44	CRIME 85 91	побоях
+T46	PROFESSION 483 493	футболисты
+T47	LAW 591 616	статьям №213 и №115 УК РФ
+T48	COUNTRY 614 616	РФ
+T49	LAW 611 613	УК
+T50	CRIME 618 676	хулиганство и умышленное причинение лёгкого вреда здоровью
+T22	LAW 777 782	побои
+T51	COUNTRY 773 775	РФ
+T52	LAW 770 772	УК
+T20	ORDINAL 766 769	116
+T53	LAW 759 775	статье 116 УК РФ
+T54	EVENT 738 755	признана виновной
+T55	PENALTY 861 871	заключение
+T56	PENALTY 923 943	пребывания в колонии
+T57	PENALTY 513 534	колонию общего режима
+T58	PROFESSION 1224 1232	прокурор
+T59	EVENT 48 53	драки
+T7	DATE 152 167	1 год 6 месяцев
+T8	DATE 170 185	1 год 5 месяцев
+R7	AGENT Arg1:T39 Arg2:T40	
+R8	POINT_IN_TIME Arg1:T40 Arg2:T11	
+T9	PENALTY 364 382	Условное осуждение
+T10	EVENT 449 463	вынес приговор
+R9	PARTICIPANT_IN Arg1:T15 Arg2:T10	
+T45	DISTRICT 433 444	Пресненский
+R10	HEADQUARTERED_IN Arg1:T15 Arg2:T45	
+R11	PARTICIPANT_IN Arg1:T46 Arg2:T10	
+R12	LOCATED_IN Arg1:T24 Arg2:T26	
+R13	LOCATED_IN Arg1:T23 Arg2:T26	
+T61	PENALTY 1152 1178	на 1 год 5 месяцев осуждён
+R1	WORKS_AS Arg1:T35 Arg2:T33	
+R15	SUBORDINATE_OF Arg1:T34 Arg2:T35	
+R16	KNOWS Arg1:T1 Arg2:T2	
+R17	KNOWS Arg1:T5 Arg2:T6	
+T62	PENALTY 17 41	осуждены на полтора года
+T36	EVENT 71 74	суд
+R2	END_TIME Arg1:T36 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+T37	PENALTY 152 185	1 год 6 месяцев и 1 год 5 месяцев
+T38	EVENT 210 229	вынесения приговора
+T60	EVENT 17 25	осуждены
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T60	
+R6	PARTICIPANT_IN Arg1:T1 Arg2:T60	
+T63	EVENT 1171 1178	осуждён
+R14	PARTICIPANT_IN Arg1:T32 Arg2:T63	
+R18	PENALIZED_AS Arg1:T2 Arg2:T62	
+R19	PENALIZED_AS Arg1:T1 Arg2:T62	
+R20	PARTICIPANT_IN Arg1:T5 Arg2:T36	
+R21	PARTICIPANT_IN Arg1:T6 Arg2:T36	
+R22	ALTERNATIVE_NAME Arg1:T38 Arg2:T10	
+R23	PENALIZED_AS Arg1:T46 Arg2:T57	
+R24	ORIGINS_FROM Arg1:T18 Arg2:T48	
+R25	ORIGINS_FROM Arg1:T21 Arg2:T51	
+R26	PENALIZED_AS Arg1:T24 Arg2:T55	
+R27	PENALIZED_AS Arg1:T23 Arg2:T55	
+R28	PENALIZED_AS Arg1:T23 Arg2:T56	
+R29	PENALIZED_AS Arg1:T24 Arg2:T56	
+R30	PENALIZED_AS Arg1:T32 Arg2:T61	
+R31	PARTICIPANT_IN Arg1:T5 Arg2:T44	
+R32	PARTICIPANT_IN Arg1:T6 Arg2:T44	
+R33	SUBEVENT_OF Arg1:T38 Arg2:T36	
+R34	WORKS_AS Arg1:T5 Arg2:T41	
+R35	WORKS_AS Arg1:T6 Arg2:T41	
+R36	PART_OF Arg1:T47 Arg2:T18	
+R37	PENALIZED_AS Arg1:T6 Arg2:T37	
+R38	PENALIZED_AS Arg1:T5 Arg2:T37	
+R39	PART_OF Arg1:T53 Arg2:T21	
+N3	Reference T18 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N7	Reference T33 Wikidata:Q40348	адвокат
+N9	Reference T39 Wikidata:Q664702	букмекер
+N10	Reference T42 Wikidata:Q937857	футболист
+N12	Reference T48 Wikidata:Q159	Россия
+N17	Reference T58 Wikidata:Q600751	прокурор
+N18	Reference T45 Wikidata:Q2320761	Пресненский район
+N1	Reference T1 Wikidata:Q39233	
+N4	Reference T24 Wikidata:Q1332571	
+N6	Reference T32 Wikidata:NULL	нет данных
+N8	Reference T35 Wikidata:NULL	нет данных
+N5	Reference T26 Wikidata:Q2945301	следственный изолятор
+N13	Reference T49 Wikidata:Q19705	уголовное законодательство
+N11	Reference T47 Wikidata:NULL	нет данных
+N16	Reference T53 Wikidata:NULL	нет данных
+N14	Reference T50 Wikidata:NULL	нет данных
+N15	Reference T22 Wikidata:Q1796687	
+N2	Reference T15 Wikidata:NULL	нет данных
+N19	Reference T21 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N20	Reference T46 Wikidata:Q937857	футболист
+N21	Reference T41 Wikidata:Q937857	футболист
+N22	Reference T51 Wikidata:Q159	Россия
+N23	Reference T5 Wikidata:Q39233	
+N24	Reference T23 Wikidata:Q39233	
+N25	Reference T19 Wikidata:Q39233	
+N26	Reference T34 Wikidata:Q39233	
+N27	Reference T6 Wikidata:Q1332571	
+N28	Reference T2 Wikidata:Q1332571	
+N29	Reference T28 Wikidata:Q2945301	следственный изолятор
+N30	Reference T52 Wikidata:Q19705	уголовное законодательство

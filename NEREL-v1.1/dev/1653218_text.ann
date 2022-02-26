@@ -1,0 +1,217 @@
+T1	PERSON 0 5	Трамп
+T2	PERSON 8 13	Путин
+T3	AGE 45 53	75-летию
+T4	PROFESSION 72 81	Президент
+T5	PERSON 86 99	Дональд Трамп
+T6	PROFESSION 102 111	президент
+T7	PERSON 119 133	Владимир Путин
+T8	AGE 165 173	75-летию
+T9	EVENT 187 194	встречи
+T10	COUNTRY 210 219	советских
+T11	EVENT 234 254	Второй мировой войны
+T12	LOCATION 263 268	Эльба
+T13	COUNTRY 271 279	Германии
+T14	DATE 349 358	в субботу
+T15	ORGANIZATION 359 370	Белым домом
+T16	EVENT 374 390	Встреча на Эльбе
+T17	LOCATION 385 390	Эльбе
+T18	DATE 527 536	1942 года
+T19	PERSON 718 723	Трамп
+T20	PERSON 726 731	Путин
+T21	EVENT 1241 1248	Встреча
+T22	EVENT 1267 1287	Второй мировой войны
+T23	DATE 1295 1314	25 апреля 1945 года
+T24	CITY 1334 1340	Торгау
+T25	LOCATION 1349 1354	Эльба
+T26	COUNTRY 1357 1365	Германии
+T27	ORGANIZATION 1373 1401	1-го Украинского фронта СССР
+T28	ORGANIZATION 1425 1438	1-й армии США
+T29	COUNTRY 1435 1438	США
+T30	NUMBER 1537 1540	две
+T31	AGE 1578 1593	75-й годовщиной
+T32	COUNTRY 1610 1618	Германии
+T33	COUNTRY 1620 1626	России
+T34	COUNTRY 1629 1632	США
+T35	CITY 1733 1740	Берлине
+T36	CITY 1743 1749	Москве
+T37	EVENT 1751 1794	историческая реконструкция встречи на Эльбе
+T38	LOCATION 1789 1794	Эльбе
+T39	CITY 1797 1803	Торгау
+T40	EVENT 1806 1815	церемония
+T41	FACILITY 1819 1841	Арлингтонском кладбище
+T42	CITY 1844 1854	Вашингтоне
+T44	NATIONALITY 2053 2065	американцами
+T45	NATIONALITY 2067 2078	европейцами
+T46	COUNTRY 2089 2099	советскими
+T47	PROFESSION 2131 2140	генералов
+T48	ORGANIZATION 2192 2200	The Hill
+T50	PERSON 2303 2313	Питер Цвак
+T51	COUNTRY 2455 2467	американских
+T52	COUNTRY 2470 2479	советских
+T53	EVENT 2524 2531	встрече
+T54	LOCATION 2535 2540	Эльбе
+T55	DATE 2541 2557	в апреле 1945-го
+T56	EVENT 54 70	встречи на Эльбе
+T57	LOCATION 65 70	Эльбе
+T58	PROFESSION 72 85	Президент США
+T59	PROFESSION 102 118	президент России
+T60	COUNTRY 82 85	США
+T61	COUNTRY 112 118	России
+T62	COUNTRY 195 207	американских
+T64	EVENT 54 61	встречи
+T65	IDEOLOGY 306 317	нацистского
+T66	EVENT 326 348	Заявление опубликовано
+T67	EVENT 374 381	Встреча
+T68	ORGANIZATION 496 526	Организации Объединенных Наций
+T69	LAW 485 536	декларации Организации Объединенных Наций 1942 года
+T70	NUMBER 593 602	миллионов
+T71	PROFESSION 603 609	солдат
+T72	PROFESSION 611 618	моряков
+T73	NUMBER 780 789	миллионов
+T74	LOCATION 1053 1058	Эльбы
+T75	EVENT 1241 1257	Встреча на Эльбе
+T76	LOCATION 1252 1257	Эльбе
+T77	ORDINAL 1373 1377	1-го
+T79	COUNTRY 1397 1401	СССР
+T78	ORGANIZATION 1373 1396	1-го Украинского фронта
+T80	ORDINAL 1425 1428	1-й
+T81	EVENT 1453 1466	встречи войск
+T82	IDEOLOGY 1501 1512	нацистского
+T85	EVENT 1719 1730	конференции
+T86	EVENT 1778 1794	встречи на Эльбе
+T43	DISEASE 1888 1896	COVID-19
+T88	EVENT 1878 1896	пандемией COVID-19
+T89	EVENT 1955 1966	Конференции
+T90	EVENT 2253 2269	встречи на Эльбе
+T91	EVENT 2253 2260	встречи
+T92	EVENT 2233 2269	празднования юбилея встречи на Эльбе
+T93	LOCATION 2264 2269	Эльбе
+T94	PROFESSION 2281 2302	бригадный генерал США
+T95	PROFESSION 2291 2302	генерал США
+T96	PROFESSION 2281 2298	бригадный генерал
+T97	PROFESSION 2291 2298	генерал
+T98	EVENT 2332 2340	пандемии
+T99	EVENT 2524 2540	встрече на Эльбе
+R1	TAKES_PLACE_IN Arg1:T56 Arg2:T57	
+R2	AGE_IS Arg1:T56 Arg2:T3	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R5	WORKPLACE Arg1:T58 Arg2:T60	
+R6	WORKS_AS Arg1:T5 Arg2:T58	
+R7	WORKPLACE Arg1:T5 Arg2:T60	
+R8	WORKPLACE Arg1:T59 Arg2:T61	
+R9	WORKS_AS Arg1:T7 Arg2:T59	
+R10	WORKPLACE Arg1:T7 Arg2:T61	
+T63	EVENT 187 225	встречи американских и советских войск
+R11	AGE_IS Arg1:T63 Arg2:T8	
+R12	ALTERNATIVE_NAME Arg1:T56 Arg2:T63	
+R13	PARTICIPANT_IN Arg1:T62 Arg2:T63	
+R14	PARTICIPANT_IN Arg1:T10 Arg2:T63	
+R15	SUBEVENT_OF Arg1:T63 Arg2:T11	
+R16	TAKES_PLACE_IN Arg1:T63 Arg2:T12	
+R17	LOCATED_IN Arg1:T12 Arg2:T13	
+R18	TAKES_PLACE_IN Arg1:T16 Arg2:T17	
+R19	PRODUCES Arg1:T68 Arg2:T69	
+R20	DATE_OF_CREATION Arg1:T69 Arg2:T18	
+R21	TAKES_PLACE_IN Arg1:T75 Arg2:T76	
+R22	SUBEVENT_OF Arg1:T75 Arg2:T22	
+R23	POINT_IN_TIME Arg1:T75 Arg2:T23	
+R24	LOCATED_IN Arg1:T25 Arg2:T26	
+R25	LOCATED_IN Arg1:T24 Arg2:T26	
+R26	HEADQUARTERED_IN Arg1:T27 Arg2:T79	
+R27	PARTICIPANT_IN Arg1:T27 Arg2:T75	
+R28	PARTICIPANT_IN Arg1:T28 Arg2:T75	
+R29	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R30	TAKES_PLACE_IN Arg1:T85 Arg2:T35	
+R31	TAKES_PLACE_IN Arg1:T85 Arg2:T36	
+R32	HAS_CAUSE Arg1:T37 Arg2:T86	
+R34	TAKES_PLACE_IN Arg1:T40 Arg2:T41	
+R35	TAKES_PLACE_IN Arg1:T37 Arg2:T39	
+R33	TAKES_PLACE_IN Arg1:T86 Arg2:T38	
+R36	LOCATED_IN Arg1:T41 Arg2:T42	
+R37	TAKES_PLACE_IN Arg1:T90 Arg2:T93	
+T49	COUNTRY 2299 2302	США
+R38	WORKPLACE Arg1:T95 Arg2:T49	
+R39	WORKPLACE Arg1:T94 Arg2:T49	
+R40	WORKS_AS Arg1:T50 Arg2:T94	
+R41	WORKPLACE Arg1:T50 Arg2:T49	
+R42	TAKES_PLACE_IN Arg1:T99 Arg2:T54	
+R43	POINT_IN_TIME Arg1:T99 Arg2:T55	
+R44	PARTICIPANT_IN Arg1:T50 Arg2:T92	
+T83	EVENT 22 42	совместное заявление
+R45	HAS_CAUSE Arg1:T83 Arg2:T56	
+R46	AGENT Arg1:T2 Arg2:T83	
+R47	AGENT Arg1:T1 Arg2:T83	
+T84	EVENT 142 162	совместное заявление
+R48	AGENT Arg1:T7 Arg2:T84	
+R49	AGENT Arg1:T5 Arg2:T84	
+R50	HAS_CAUSE Arg1:T84 Arg2:T63	
+R51	ALTERNATIVE_NAME Arg1:T84 Arg2:T66	
+R52	POINT_IN_TIME Arg1:T66 Arg2:T14	
+R53	HEADQUARTERED_IN Arg1:T15 Arg2:T60	
+R54	AGENT Arg1:T15 Arg2:T66	
+R55	ALTERNATIVE_NAME Arg1:T75 Arg2:T81	
+T100	COUNTRY 1501 1518	нацистского рейха
+R56	IDEOLOGY_OF Arg1:T100 Arg2:T82	
+R57	AGE_IS Arg1:T81 Arg2:T31	
+R58	HAS_CAUSE Arg1:T88 Arg2:T43	
+R59	HAS_CAUSE Arg1:T85 Arg2:T81	
+T101	DATE 1894 1896	19
+N1	Reference T5 Wikidata:Q22686	Дональд Трамп
+N2	Reference T6 Wikidata:Q30461	президент
+N3	Reference T15 Wikidata:Q35525	Белый дом
+N4	Reference T20 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T24 Wikidata:Q12062	Торгау
+N6	Reference T26 Wikidata:Q183	Германия
+N10	Reference T36 Wikidata:Q649	Москва
+N11	Reference T41 Wikidata:Q216344	Арлингтонское национальное кладбище
+N12	Reference T42 Wikidata:Q61	Вашингтон
+N14	Reference T45 Wikidata:Q394067	европейцы
+N16	Reference T47 Wikidata:Q83460	генерал
+N19	Reference T58 Wikidata:Q11696	президент США
+N20	Reference T59 Wikidata:Q218295	президент Российской Федерации
+N21	Reference T61 Wikidata:Q159	Россия
+N23	Reference T68 Wikidata:Q1065	Организация Объединённых Наций
+N26	Reference T72 Wikidata:Q45199	моряк
+N27	Reference T74 Wikidata:Q1644	Эльба
+N28	Reference T79 Wikidata:Q15180	СССР
+N31	Reference T95 Wikidata:Q3100539	генерал армий США
+N32	Reference T96 Wikidata:Q152956	бригадный генерал
+N33	Reference T49 Wikidata:Q30	США
+N34	Reference T100 Wikidata:Q7318	Третий рейх
+N22	Reference T62 Wikidata:Q30	США
+N24	Reference T69 Wikidata:NULL	нет данных
+N25	Reference T71 Wikidata:Q47064	военнослужащий
+N29	Reference T78 Wikidata:Q277985	
+N7	Reference T27 Wikidata:Q277985	
+N8	Reference T28 Wikidata:NULL	нет данных
+N9	Reference T35 Wikidata:Q64	Берлин
+N15	Reference T46 Wikidata:Q15180	СССР
+N13	Reference T44 Wikidata:Q846570	
+N17	Reference T48 Wikidata:Q7739683	
+N30	Reference T94 Wikidata:Q4967196	
+N18	Reference T50 Wikidata:NULL	нет данных
+N35	Reference T19 Wikidata:Q22686	Дональд Трамп
+N36	Reference T1 Wikidata:Q22686	Дональд Трамп
+N37	Reference T4 Wikidata:Q30461	президент
+N38	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N39	Reference T2 Wikidata:Q7747	Владимир Владимирович Путин
+N40	Reference T39 Wikidata:Q12062	Торгау
+N41	Reference T13 Wikidata:Q183	Германия
+N42	Reference T32 Wikidata:Q183	Германия
+N43	Reference T97 Wikidata:Q83460	генерал
+N44	Reference T33 Wikidata:Q159	Россия
+N45	Reference T57 Wikidata:Q1644	Эльба
+N46	Reference T12 Wikidata:Q1644	Эльба
+N47	Reference T38 Wikidata:Q1644	Эльба
+N48	Reference T17 Wikidata:Q1644	Эльба
+N49	Reference T25 Wikidata:Q1644	Эльба
+N50	Reference T54 Wikidata:Q1644	Эльба
+N51	Reference T93 Wikidata:Q1644	Эльба
+N52	Reference T76 Wikidata:Q1644	Эльба
+N53	Reference T34 Wikidata:Q30	США
+N54	Reference T60 Wikidata:Q30	США
+N55	Reference T29 Wikidata:Q30	США
+N56	Reference T51 Wikidata:Q30	США
+N57	Reference T10 Wikidata:Q15180	СССР
+N58	Reference T52 Wikidata:Q15180	СССР

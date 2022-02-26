@@ -1,0 +1,208 @@
+T1	COUNTRY 16 27	Афганистане
+T2	COUNTRY 49 61	Американские
+T3	STATE_OR_PROVINCE 82 88	Бадгис
+T4	COUNTRY 90 100	Афганистан
+T5	DATE 102 110	2011 год
+T6	COUNTRY 175 186	Афганистане
+T7	DATE 196 205	18 января
+T8	ORGANIZATION 215 235	Министерство обороны
+T9	AGE 242 251	26-летний
+T10	PERSON 260 274	Кэмерон Мэддок
+T11	PERSON 276 294	Cameron A. Meddock
+T12	CITY 299 307	Спирмена
+T13	STATE_OR_PROVINCE 314 319	Техас
+T14	DATE 331 340	17 января
+T16	COUNTRY 374 382	Германии
+T17	DATE 439 448	13 января
+T18	DISTRICT 458 465	Джаванд
+T19	STATE_OR_PROVINCE 486 492	Бадгис
+T20	ORDINAL 567 571	75-м
+T22	DATE 638 649	в 2014 году
+T23	COUNTRY 653 664	Афганистане
+T24	ORDINAL 669 675	второй
+T25	COUNTRY 795 804	Афганское
+T26	ORGANIZATION 815 827	Khaama Press
+T27	DATE 837 846	13 января
+T28	ORGANIZATION 905 927	Исламского государства
+T29	LOCATION 929 936	Хорасан
+T30	NUMBER 955 957	10
+T31	ORGANIZATION 967 969	ИГ
+T32	NUMBER 978 980	16
+T34	ORGANIZATION 1040 1047	Талибан
+T35	DATE 1057 1066	13 января
+T36	COUNTRY 1072 1084	американские
+T37	COUNTRY 1087 1096	афганские
+T38	ORGANIZATION 1165 1167	ИГ
+T39	PROFESSION 1169 1184	Пресс-секретарь
+T40	PERSON 1193 1204	Юсеф Ахмади
+T41	NUMBER 1229 1233	двух
+T42	DISTRICT 1265 1274	Пандж Буз
+T43	NUMBER 1288 1290	40
+T44	COUNTRY 1331 1334	США
+T45	ORGANIZATION 1366 1368	ИГ
+T46	COUNTRY 1371 1382	Афганистане
+T47	EVENT 0 4	Умер
+T48	PROFESSION 28 48	американский военный
+T49	PROFESSION 41 48	военный
+T50	COUNTRY 28 40	американский
+T51	PROFESSION 62 69	военные
+T52	PROFESSION 49 69	Американские военные
+T53	PROFESSION 111 131	Американский военный
+T54	PROFESSION 124 131	военный
+T55	PROFESSION 252 259	сержант
+T57	PROFESSION 898 927	бойцов Исламского государства
+T60	PROFESSION 1169 1192	Пресс-секретарь талибов
+T63	PROFESSION 1242 1252	охранников
+T65	COUNTRY 111 123	Американский
+T66	EVENT 132 136	умер
+T67	EVENT 169 172	боя
+T68	ORGANIZATION 215 239	Министерство обороны США
+T69	COUNTRY 236 239	США
+T71	EVENT 321 330	скончался
+T15	CITY 362 371	Ландштуля
+T72	EVENT 388 394	ранили
+T73	EVENT 423 438	боевых действий
+T75	COUNTRY 466 475	афганской
+T21	AWARD 701 717	Пурпурное сердце
+T76	AWARD 722 742	Медаль за достижения
+T77	EVENT 874 882	операции
+T79	EVENT 993 1003	арестованы
+T33	ORGANIZATION 1087 1103	афганские войска
+T80	ORGANIZATION 1072 1103	американские и афганские войска
+T81	EVENT 1104 1110	напали
+T82	ORGANIZATION 1135 1141	талибы
+T83	PROFESSION 1158 1167	бойцов ИГ
+T84	ORGANIZATION 1185 1192	талибов
+T86	ORGANIZATION 1234 1241	талибов
+R1	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R2	LOCATED_IN Arg1:T19 Arg2:T75	
+R3	WORKS_AS Arg1:T10 Arg2:T55	
+R4	LOCATED_IN Arg1:T18 Arg2:T19	
+T64	ORGANIZATION 567 614	75-м рейнджерском полку специального назначения
+R5	LOCATED_IN Arg1:T3 Arg2:T4	
+R6	HEADQUARTERED_IN Arg1:T68 Arg2:T69	
+R7	AGE_IS Arg1:T10 Arg2:T9	
+R8	ORIGINS_FROM Arg1:T52 Arg2:T2	
+R9	ORIGINS_FROM Arg1:T53 Arg2:T65	
+R10	ORIGINS_FROM Arg1:T11 Arg2:T12	
+R11	LOCATED_IN Arg1:T12 Arg2:T13	
+R12	LOCATED_IN Arg1:T13 Arg2:T69	
+R13	LOCATED_IN Arg1:T15 Arg2:T16	
+R14	POINT_IN_TIME Arg1:T71 Arg2:T14	
+R15	TAKES_PLACE_IN Arg1:T71 Arg2:T15	
+R16	PARTICIPANT_IN Arg1:T10 Arg2:T71	
+R17	DATE_OF_DEATH Arg1:T10 Arg2:T14	
+R18	PLACE_OF_DEATH Arg1:T10 Arg2:T15	
+R19	PARTICIPANT_IN Arg1:T53 Arg2:T66	
+R20	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+R21	PARTICIPANT_IN Arg1:T48 Arg2:T47	
+R22	LOCATED_IN Arg1:T52 Arg2:T3	
+R23	TAKES_PLACE_IN Arg1:T67 Arg2:T6	
+R24	PARTICIPANT_IN Arg1:T53 Arg2:T67	
+R25	HAS_CAUSE Arg1:T66 Arg2:T67	
+T70	DISEASE 140 147	ранений
+R26	CAUSE_OF_DEATH Arg1:T53 Arg2:T70	
+R27	HAS_CAUSE Arg1:T66 Arg2:T70	
+R28	ALTERNATIVE_NAME Arg1:T67 Arg2:T73	
+R29	POINT_IN_TIME Arg1:T73 Arg2:T17	
+R30	TAKES_PLACE_IN Arg1:T73 Arg2:T18	
+R31	PARTICIPANT_IN Arg1:T10 Arg2:T73	
+R32	PARTICIPANT_IN Arg1:T10 Arg2:T72	
+R33	SUBEVENT_OF Arg1:T72 Arg2:T73	
+R34	POINT_IN_TIME Arg1:T72 Arg2:T17	
+R35	TAKES_PLACE_IN Arg1:T72 Arg2:T18	
+R36	WORKPLACE Arg1:T10 Arg2:T64	
+R37	AWARDED_WITH Arg1:T10 Arg2:T21	
+R38	AWARDED_WITH Arg1:T10 Arg2:T76	
+R39	HEADQUARTERED_IN Arg1:T26 Arg2:T25	
+R40	ABBREVIATION Arg1:T28 Arg2:T31	
+R41	ALTERNATIVE_NAME Arg1:T57 Arg2:T83	
+T61	PROFESSION 958 969	боевиков ИГ
+R42	WORKPLACE Arg1:T57 Arg2:T28	
+R43	WORKPLACE Arg1:T61 Arg2:T31	
+R44	WORKPLACE Arg1:T83 Arg2:T38	
+R45	WORKPLACE Arg1:T60 Arg2:T84	
+R46	WORKS_AS Arg1:T40 Arg2:T60	
+R47	WORKPLACE Arg1:T40 Arg2:T84	
+R48	ALTERNATIVE_NAME Arg1:T34 Arg2:T84	
+R49	ALTERNATIVE_NAME Arg1:T34 Arg2:T82	
+R50	HEADQUARTERED_IN Arg1:T80 Arg2:T36	
+R51	HEADQUARTERED_IN Arg1:T33 Arg2:T37	
+R52	ALTERNATIVE_NAME Arg1:T23 Arg2:T37	
+R53	AGENT Arg1:T80 Arg2:T81	
+T62	EVENT 1223 1228	убили
+R54	TAKES_PLACE_IN Arg1:T62 Arg2:T42	
+R55	ALTERNATIVE_NAME Arg1:T36 Arg2:T44	
+T74	EVENT 1277 1302	освободили 40 заключённых
+R56	PARTICIPANT_IN Arg1:T80 Arg2:T62	
+R57	PARTICIPANT_IN Arg1:T80 Arg2:T74	
+R58	POINT_IN_TIME Arg1:T77 Arg2:T27	
+R59	PARTICIPANT_IN Arg1:T57 Arg2:T77	
+T87	EVENT 970 975	убиты
+T88	EVENT 978 1003	16 иностранцев арестованы
+R60	SUBEVENT_OF Arg1:T87 Arg2:T77	
+R61	SUBEVENT_OF Arg1:T88 Arg2:T77	
+R62	ORIGINS_FROM Arg1:T48 Arg2:T50	
+T89	RELIGION 905 915	Исламского
+R63	RELIGION_OF Arg1:T28 Arg2:T89	
+R64	RELIGION_OF Arg1:T57 Arg2:T89	
+R65	PARTICIPANT_IN Arg1:T61 Arg2:T87	
+R66	PARTICIPANT_IN Arg1:T82 Arg2:T81	
+R67	PARTICIPANT_IN Arg1:T86 Arg2:T62	
+R68	PARTICIPANT_IN Arg1:T63 Arg2:T62	
+N4	Reference T13 Wikidata:Q1439	Техас
+N5	Reference T16 Wikidata:Q183	Германия
+N6	Reference T19 Wikidata:Q172052	Бадгис
+N7	Reference T28 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N8	Reference T29 Wikidata:Q6178890	Хорасан
+N12	Reference T49 Wikidata:Q47064	военнослужащий
+N15	Reference T55 Wikidata:Q157696	сержант
+N17	Reference T63 Wikidata:Q856887	охранник
+N18	Reference T68 Wikidata:Q11209	Министерство обороны США
+N19	Reference T21 Wikidata:Q145752	Пурпурное сердце
+N20	Reference T76 Wikidata:Q4286956	Медаль «За исключительные достижения»
+N24	Reference T86 Wikidata:Q42418	Талибан
+N13	Reference T50 Wikidata:Q30	США
+N14	Reference T53 Wikidata:NULL	нет данных
+N1	Reference T8 Wikidata:Q1788820	
+N2	Reference T11 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q649075	
+N28	Reference T15 Wikidata:Q22950	Ландштуль
+N29	Reference T18 Wikidata:Q2429284	
+N25	Reference T64 Wikidata:Q495203	75-й полк рейнджеров
+N30	Reference T26 Wikidata:Q6398758	
+N27	Reference T89 Wikidata:Q432	ислам
+N31	Reference T39 Wikidata:Q17221	
+N16	Reference T60 Wikidata:NULL	нет данных
+N10	Reference T40 Wikidata:Q8059026	
+N26	Reference T61 Wikidata:Q18344912	
+N23	Reference T83 Wikidata:Q18344912	
+N9	Reference T37 Wikidata:Q889	Афганистан
+N21	Reference T33 Wikidata:Q11062919	
+N22	Reference T80 Wikidata:NULL	нет данных
+N11	Reference T42 Wikidata:NULL	нет данных
+N32	Reference T3 Wikidata:Q172052	Бадгис
+N33	Reference T45 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N34	Reference T31 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N35	Reference T38 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N36	Reference T51 Wikidata:Q47064	военнослужащий
+N37	Reference T54 Wikidata:Q47064	военнослужащий
+N38	Reference T34 Wikidata:Q42418	Талибан
+N39	Reference T82 Wikidata:Q42418	Талибан
+N40	Reference T84 Wikidata:Q42418	Талибан
+N41	Reference T44 Wikidata:Q30	США
+N42	Reference T69 Wikidata:Q30	США
+N43	Reference T65 Wikidata:Q30	США
+N44	Reference T36 Wikidata:Q30	США
+N45	Reference T2 Wikidata:Q30	США
+N46	Reference T52 Wikidata:NULL	нет данных
+N47	Reference T48 Wikidata:NULL	нет данных
+N48	Reference T10 Wikidata:NULL	нет данных
+N49	Reference T57 Wikidata:Q18344912	
+N50	Reference T75 Wikidata:Q889	Афганистан
+N51	Reference T23 Wikidata:Q889	Афганистан
+N52	Reference T46 Wikidata:Q889	Афганистан
+N53	Reference T25 Wikidata:Q889	Афганистан
+N54	Reference T4 Wikidata:Q889	Афганистан
+N55	Reference T6 Wikidata:Q889	Афганистан
+N56	Reference T1 Wikidata:Q889	Афганистан

@@ -1,0 +1,108 @@
+T1	COUNTRY 0 6	Польша
+T2	ORGANIZATION 33 37	ЕСПЧ
+T3	CITY 41 47	Катыни
+T4	CITY 89 96	Катынью
+T6	ORGANIZATION 159 195	Европейского суда по правам человека
+T7	COUNTRY 230 240	российских
+T8	DATE 267 276	16 апреля
+T9	ORGANIZATION 288 299	РИА-новости
+T10	DATE 324 337	в понедельник
+T11	ORGANIZATION 346 365	Страсбургского суда
+T12	COUNTRY 385 393	польских
+T13	CITY 426 433	Катынью
+T14	ORGANIZATION 465 469	ЕСПЧ
+T15	COUNTRY 486 492	Россия
+T17	LAW 511 550	Европейской конвенции о правах человека
+T18	COUNTRY 618 628	российская
+T19	ORGANIZATION 714 718	ЕСПЧ
+T20	ORDINAL 773 779	второй
+T21	COUNTRY 847 853	Россия
+T22	ORGANIZATION 1018 1022	ЕСПЧ
+T23	COUNTRY 1159 1169	российские
+T24	PROFESSION 1338 1346	адвоката
+T25	PERSON 1358 1380	Бартоломея Соханьского
+T26	ORGANIZATION 1461 1480	Большую палату ЕСПЧ
+T27	LAW 1530 1553	второй статье конвенции
+T5	PROFESSION 49 56	Адвокат
+T28	PROFESSION 97 110	военнопленных
+T29	EVENT 367 384	массовый расстрел
+T30	PROFESSION 394 408	военнослужащих
+T31	CRIME 442 463	военным преступлением
+T16	LAW 502 550	статью 3 Европейской конвенции о правах человека
+T32	ORDINAL 509 510	3
+T33	LAW 773 796	второй статьи конвенции
+T34	LAW 798 821	о защите права на жизнь
+T35	LAW 1051 1060	Конвенции
+T36	ORGANIZATION 1476 1480	ЕСПЧ
+T37	LOCATION 85 96	под Катынью
+T38	EVENT 71 84	расстрелянных
+R1	TAKES_PLACE_IN Arg1:T38 Arg2:T37	
+R2	PARTICIPANT_IN Arg1:T28 Arg2:T38	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+T39	CITY 346 360	Страсбургского
+R4	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+T40	LOCATION 159 171	Европейского
+R5	HEADQUARTERED_IN Arg1:T6 Arg2:T40	
+R6	HEADQUARTERED_IN Arg1:T11 Arg2:T39	
+R7	PARTICIPANT_IN Arg1:T30 Arg2:T29	
+T41	LOCATION 422 433	под Катынью
+R8	TAKES_PLACE_IN Arg1:T29 Arg2:T41	
+R9	ORIGINS_FROM Arg1:T30 Arg2:T12	
+T42	ORGANIZATION 230 248	российских властей
+R10	HEADQUARTERED_IN Arg1:T42 Arg2:T7	
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T15	
+R12	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R13	ALTERNATIVE_NAME Arg1:T17 Arg2:T35	
+T43	ORGANIZATION 1159 1176	российские власти
+R14	HEADQUARTERED_IN Arg1:T43 Arg2:T23	
+R15	WORKS_AS Arg1:T25 Arg2:T24	
+T44	LOCATION 511 522	Европейской
+R16	ALTERNATIVE_NAME Arg1:T38 Arg2:T29	
+R17	PART_OF Arg1:T26 Arg2:T36	
+R18	ALTERNATIVE_NAME Arg1:T1 Arg2:T12	
+T45	PROFESSION 411 421	чиновников
+R19	ORIGINS_FROM Arg1:T45 Arg2:T12	
+R20	PARTICIPANT_IN Arg1:T45 Arg2:T29	
+R21	PART_OF Arg1:T16 Arg2:T17	
+R22	ORIGINS_FROM Arg1:T17 Arg2:T44	
+R23	ABBREVIATION Arg1:T6 Arg2:T14	
+R24	ALTERNATIVE_NAME Arg1:T15 Arg2:T18	
+R25	PART_OF Arg1:T33 Arg2:T17	
+N1	Reference T3 Wikidata:Q321107	Катынь
+N2	Reference T9 Wikidata:Q821172	РИА Новости
+N4	Reference T13 Wikidata:Q321107	Катынь
+N6	Reference T19 Wikidata:Q122880	Европейский суд по правам человека
+N10	Reference T5 Wikidata:Q40348	адвокат
+N11	Reference T28 Wikidata:Q179637	военнопленный
+N12	Reference T30 Wikidata:Q47064	военнослужащий
+N14	Reference T35 Wikidata:Q367293	конвенция
+N19	Reference T45 Wikidata:Q382887	чиновник
+N15	Reference T37 Wikidata:NULL	нет данных
+N17	Reference T40 Wikidata:Q46	Европа
+N18	Reference T42 Wikidata:NULL	нет данных
+N16	Reference T39 Wikidata:Q565624	
+N3	Reference T12 Wikidata:Q36	Польша
+N13	Reference T16 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q159	Россия
+N7	Reference T25 Wikidata:NULL	нет данных
+N8	Reference T26 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:NULL	нет данных
+N20	Reference T4 Wikidata:Q321107	Катынь
+N21	Reference T22 Wikidata:Q122880	Европейский суд по правам человека
+N22	Reference T14 Wikidata:Q122880	Европейский суд по правам человека
+N23	Reference T11 Wikidata:Q122880	Европейский суд по правам человека
+N24	Reference T2 Wikidata:Q122880	Европейский суд по правам человека
+N25	Reference T36 Wikidata:Q122880	Европейский суд по правам человека
+N26	Reference T6 Wikidata:Q122880	Европейский суд по правам человека
+N27	Reference T24 Wikidata:Q40348	адвокат
+N28	Reference T17 Wikidata:Q367293	конвенция
+N29	Reference T41 Wikidata:NULL	нет данных
+N30	Reference T44 Wikidata:Q46	Европа
+N31	Reference T43 Wikidata:NULL	нет данных
+N32	Reference T1 Wikidata:Q36	Польша
+N33	Reference T15 Wikidata:Q159	Россия
+N34	Reference T23 Wikidata:Q159	Россия
+N35	Reference T7 Wikidata:Q159	Россия
+N36	Reference T21 Wikidata:Q159	Россия
+N37	Reference T34 Wikidata:NULL	нет данных
+N38	Reference T33 Wikidata:NULL	нет данных

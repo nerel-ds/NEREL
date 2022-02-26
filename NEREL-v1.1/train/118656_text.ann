@@ -1,0 +1,127 @@
+T1	ORGANIZATION 9 22	Гоголь-Центре
+T2	PERSON 27 49	Кирилла Серебренникова
+T3	PERSON 103 123	Кирилл Серебренников
+T4	AWARD 144 164	Хрустальная турандот
+T5	DATE 166 177	в 2004 году
+T6	DATE 178 206	Во вторник, 23 мая 2017 года
+T7	PROFESSION 215 224	режиссёра
+T8	PERSON 239 261	Кирилла Серебренникова
+T9	CITY 288 298	московском
+T10	ORGANIZATION 300 313	Гоголь-центре
+T11	ORGANIZATION 350 372	Следственного комитета
+T12	ORGANIZATION 374 377	СКР
+T13	ORGANIZATION 394 404	ФСБ России
+T14	COUNTRY 398 404	России
+T15	ORGANIZATION 416 419	РБК
+T16	LAW 505 520	ч. 4 ст. 159 УК
+T17	MONEY 559 593	чуть больше одного миллиона рублей
+T18	ORGANIZATION 613 616	СКР
+T19	ORGANIZATION 688 698	Интерфакса
+T20	DATE 761 772	в 2015 году
+T21	ORGANIZATION 839 867	департамента культуры Москвы
+T22	CITY 861 867	Москвы
+T23	PERSON 870 890	Кирилл Серебренников
+T24	PROFESSION 893 936	художественный руководитель «Гоголь-центра»
+T25	ORGANIZATION 922 935	Гоголь-центра
+T26	AWARD 949 960	премии ТЭФИ
+T27	EVENT 985 993	Кинотавр
+T28	WORK_OF_ART 1023 1039	Изображая жертву
+T29	WORK_OF_ART 1043 1049	Ученик
+T30	WORK_OF_ART 1054 1064	Юрьев день
+T31	PERSON 1068 1081	Серебренников
+T32	COUNTRY 1151 1161	российских
+R2	ABBREVIATION Arg1:T11 Arg2:T12
+R3	HEADQUARTERED_IN Arg1:T13 Arg2:T14
+R5	WORKS_AS Arg1:T23 Arg2:T24
+R6	WORKPLACE Arg1:T23 Arg2:T25
+T33	CRIME 68 101	хищении «в особо крупном размере»
+T34	EVENT 0 6	Обыски
+T35	EVENT 127 142	вручении премии
+R8	POINT_IN_TIME Arg1:T35 Arg2:T5	
+R9	PARTICIPANT_IN Arg1:T3 Arg2:T35	
+R10	PARTICIPANT_IN Arg1:T2 Arg2:T34	
+R11	TAKES_PLACE_IN Arg1:T34 Arg2:T1	
+R12	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+T36	EVENT 324 330	обыски
+T37	ORGANIZATION 394 397	ФСБ
+T38	PROFESSION 338 372	сотрудников Следственного комитета
+R1	PARTICIPANT_IN Arg1:T38 Arg2:T36	
+R13	TAKES_PLACE_IN Arg1:T36 Arg2:T10	
+T39	PROFESSION 215 238	режиссёра театра и кино
+R14	WORKS_AS Arg1:T8 Arg2:T39	
+T41	EVENT 421 442	следственные действия
+T42	CRIME 470 503	хищении «в особо крупном размере»
+T43	PROFESSION 637 646	режиссёра
+T44	LAW 518 520	УК
+T45	EVENT 712 718	обыски
+T46	CRIME 783 809	хищений финансовых средств
+R4	HEADQUARTERED_IN Arg1:T21 Arg2:T22	
+T47	ORGANIZATION 839 860	департамента культуры
+T49	PROFESSION 893 920	художественный руководитель
+R7	AWARDED_WITH Arg1:T23 Arg2:T26	
+T50	ORGANIZATION 956 960	ТЭФИ
+R16	PRODUCES Arg1:T50 Arg2:T26	
+T51	AWARD 963 994	наград кинофестиваля «Кинотавр»
+R17	AWARDED_WITH Arg1:T23 Arg2:T51	
+R18	PRODUCES Arg1:T23 Arg2:T28	
+R19	PRODUCES Arg1:T23 Arg2:T29	
+R20	PRODUCES Arg1:T23 Arg2:T30	
+T52	PERSON 1054 1059	Юрьев
+R22	POINT_IN_TIME Arg1:T36 Arg2:T6	
+T54	ORDINAL 508 509	4
+T55	ORDINAL 514 517	159
+T48	PROFESSION 827 867	чиновниками департамента культуры Москвы
+R23	WORKPLACE Arg1:T48 Arg2:T22	
+R24	ALTERNATIVE_NAME Arg1:T23 Arg2:T31	
+R25	WORKPLACE Arg1:T24 Arg2:T25	
+R15	HAS_CAUSE Arg1:T34 Arg2:T33	
+R26	HAS_CAUSE Arg1:T41 Arg2:T42	
+R27	WORKPLACE Arg1:T8 Arg2:T10	
+R28	HAS_CAUSE Arg1:T45 Arg2:T46	
+R29	POINT_IN_TIME Arg1:T4 Arg2:T5	
+R30	ORIGINS_FROM Arg1:T51 Arg2:T27	
+T40	ORGANIZATION 1151 1169	российских властей
+R31	HEADQUARTERED_IN Arg1:T40 Arg2:T32	
+T56	CRIME 783 790	хищений
+T57	CRIME 470 477	хищении
+T58	CRIME 68 75	хищении
+R32	INANIMATE_INVOLVED Arg1:T4 Arg2:T35	
+N2	Reference T8 Wikidata:Q1974774	Кирилл Серебренников
+N3	Reference T9 Wikidata:Q649	Москва
+N4	Reference T13 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N5	Reference T14 Wikidata:Q159	Россия
+N6	Reference T15 Wikidata:Q629733	РосБизнесКонсалтинг
+N9	Reference T19 Wikidata:Q379271	Интерфакс
+N11	Reference T22 Wikidata:Q649	Москва
+N13	Reference T25 Wikidata:Q4141054	Гоголь-центр
+N14	Reference T26 Wikidata:Q1961504	ТЭФИ
+N15	Reference T28 Wikidata:Q1654430	Изображая жертву
+N16	Reference T29 Wikidata:Q23925050	Ученик
+N17	Reference T30 Wikidata:Q4535249	Юрьев день
+N20	Reference T37 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N22	Reference T43 Wikidata:Q3455803	режиссёр
+N24	Reference T50 Wikidata:Q1961504	ТЭФИ
+N1	Reference T4 Wikidata:Q2423484	
+N29	Reference T39 Wikidata:Q3455803	режиссёр
+N18	Reference T31 Wikidata:Q1974774	Кирилл Серебренников
+N19	Reference T32 Wikidata:Q159	Россия
+N28	Reference T40 Wikidata:NULL	нет данных
+N26	Reference T52 Wikidata:Q48438	Георгий Победоносец
+N30	Reference T49 Wikidata:Q1797162	
+N12	Reference T24 Wikidata:NULL	нет данных
+N25	Reference T51 Wikidata:NULL	нет данных
+N31	Reference T47 Wikidata:Q4158546	
+N10	Reference T21 Wikidata:Q4158546	
+N27	Reference T48 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N21	Reference T38 Wikidata:NULL	нет данных
+N23	Reference T44 Wikidata:Q19705	уголовное законодательство
+N7	Reference T16 Wikidata:NULL	нет данных
+N32	Reference T2 Wikidata:Q1974774	Кирилл Серебренников
+N33	Reference T10 Wikidata:Q4141054	Гоголь-центр
+N34	Reference T1 Wikidata:Q4141054	Гоголь-центр
+N35	Reference T7 Wikidata:Q3455803	режиссёр
+N36	Reference T3 Wikidata:Q1974774	Кирилл Серебренников
+N37	Reference T23 Wikidata:Q1974774	Кирилл Серебренников
+N38	Reference T11 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N39	Reference T12 Wikidata:Q2577002	Следственный комитет Российской Федерации

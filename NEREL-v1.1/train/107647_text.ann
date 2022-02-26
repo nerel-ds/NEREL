@@ -1,0 +1,205 @@
+T1	AWARD 0 37	Нобелевскую премию по литературе-2016
+T2	PROFESSION 48 53	певцу
+T3	PERSON 54 65	Бобу Дилану
+T4	PERSON 67 76	Боб Дилан
+T5	EVENT 80 93	рок-фестивале
+T6	CITY 96 111	Витории-Гастейс
+T7	DATE 112 123	в 2010 году
+T8	DATE 124 144	13 октября 2016 года
+T9	NATIONALITY 145 158	американскому
+T10	PROFESSION 159 177	автору-исполнителю
+T11	PROFESSION 180 188	писателю
+T12	PERSON 189 200	Бобу Дилану
+T17	AWARD 281 313	Нобелевская премия по литературе
+T18	DATE 314 325	за 2016 год
+T19	NATIONALITY 398 410	американской
+T20	PROFESSION 459 468	секретарь
+T21	COUNTRY 469 477	Шведской
+T22	ORGANIZATION 469 486	Шведской академии
+T23	PERSON 487 498	Сара Даниус
+T24	DATE 549 559	10 декабря
+T25	CITY 562 572	Стокгольме
+T26	DATE 608 619	в этом году
+T27	NATIONALITY 636 644	японский
+T28	PROFESSION 645 653	писатель
+T29	PERSON 654 669	Харуки Мураками
+T30	NATIONALITY 671 680	кенийский
+T31	PROFESSION 681 689	писатель
+T32	PERSON 690 705	Нгуи Ва Тхионго
+T33	NATIONALITY 707 717	норвежский
+T34	PROFESSION 718 727	драматург
+T35	PERSON 728 736	Юн Фоссе
+T36	NATIONALITY 738 750	американский
+T37	PROFESSION 751 758	классик
+T38	PERSON 759 769	Филипп Рот
+T39	NATIONALITY 779 788	сирийский
+T40	PROFESSION 789 793	поэт
+T41	PERSON 794 800	Адонис
+T42	NATIONALITY 803 815	американский
+T43	PROFESSION 816 823	прозаик
+T44	PERSON 824 834	Дон Делило
+T45	PERSON 837 846	Боб Дилан
+T46	PERSON 863 885	Роберт Аллен Циммерман
+T47	DATE 894 905	24 мая 1941
+T48	CITY 907 912	Дулут
+T49	STATE_OR_PROVINCE 914 923	Миннесота
+T50	NATIONALITY 927 939	американский
+T51	WORK_OF_ART 1052 1071	Blowin' in the Wind
+T53	WORK_OF_ART 1078 1106	The Times They Are a-Changin
+T54	COUNTRY 1179 1182	США
+T55	ORGANIZATION 1210 1224	'Rolling Stone
+T56	ORDINAL 1237 1243	вторым
+T57	ORGANIZATION 1253 1264	The Beatles
+T58	AGE 1322 1332	75-летнего
+T59	NUMBER 1345 1353	более 50
+T60	WORK_OF_ART 1393 1406	Fallen Angels
+T61	DATE 1415 1430	в мае 2016 года
+T62	NUMBER 1434 1440	девять
+T63	AWARD 1449 1455	Грэмми
+T64	DATE 1458 1469	в 1988 году
+T65	AWARD 1481 1502	Зал славы рок-н-ролла
+T66	COUNTRY 1531 1543	американскую
+T67	DATE 1553 1564	в 2008 году
+T68	AWARD 1582 1603	Пулитцеровскую премию
+R1	PARTICIPANT_IN Arg1:T4 Arg2:T5
+R2	TAKES_PLACE_IN Arg1:T5 Arg2:T6
+R4	WORKS_AS Arg1:T23 Arg2:T14
+R5	HEADQUARTERED_IN Arg1:T22 Arg2:T21
+R6	ORIGINS_FROM Arg1:T32 Arg2:T30
+R7	WORKS_AS Arg1:T32 Arg2:T31
+R8	ORIGINS_FROM Arg1:T35 Arg2:T33
+R9	ORIGINS_FROM Arg1:T38 Arg2:T36
+R10	ORIGINS_FROM Arg1:T41 Arg2:T39
+R11	WORKS_AS Arg1:T41 Arg2:T40
+R12	ORIGINS_FROM Arg1:T44 Arg2:T42
+R13	ALTERNATIVE_NAME Arg1:T46 Arg2:T45
+T69	AWARD 0 18	Нобелевскую премию
+T13	AWARD 281 299	Нобелевская премия
+T14	PROFESSION 459 486	секретарь Шведской академии
+R3	WORKS_AS Arg1:T29 Arg2:T28	
+R15	ORIGINS_FROM Arg1:T29 Arg2:T27	
+R16	WORKS_AS Arg1:T35 Arg2:T34	
+R17	WORKS_AS Arg1:T38 Arg2:T37	
+R18	WORKS_AS Arg1:T44 Arg2:T43	
+R19	DATE_OF_BIRTH Arg1:T45 Arg2:T47	
+R20	AWARDED_WITH Arg1:T3 Arg2:T1	
+R21	WORKS_AS Arg1:T3 Arg2:T2	
+R22	POINT_IN_TIME Arg1:T5 Arg2:T7	
+R23	WORKS_AS Arg1:T12 Arg2:T11	
+R24	WORKS_AS Arg1:T12 Arg2:T10	
+R25	AWARDED_WITH Arg1:T12 Arg2:T17	
+R26	ORIGINS_FROM Arg1:T12 Arg2:T9	
+R27	WORKPLACE Arg1:T23 Arg2:T22	
+T15	EVENT 524 540	вручения награды
+R28	POINT_IN_TIME Arg1:T15 Arg2:T24	
+R29	TAKES_PLACE_IN Arg1:T15 Arg2:T25	
+R30	PARTICIPANT_IN Arg1:T12 Arg2:T15	
+R31	LOCATED_IN Arg1:T48 Arg2:T49	
+R33	PRODUCES Arg1:T45 Arg2:T51	
+R35	PRODUCES Arg1:T45 Arg2:T53	
+T16	PROFESSION 1333 1344	исполнителя
+T70	PROFESSION 1565 1573	музыкант
+T71	PROFESSION 1282 1294	исполнителем
+T72	PROFESSION 940 957	автор-исполнитель
+T73	PROFESSION 959 967	художник
+T74	PROFESSION 969 977	писатель
+T75	PROFESSION 980 989	киноактёр
+R36	PLACE_OF_BIRTH Arg1:T45 Arg2:T48	
+R37	WORKS_AS Arg1:T45 Arg2:T72	
+R38	WORKS_AS Arg1:T45 Arg2:T73	
+R39	WORKS_AS Arg1:T45 Arg2:T74	
+R40	WORKS_AS Arg1:T45 Arg2:T75	
+R41	ORIGINS_FROM Arg1:T45 Arg2:T50	
+R42	AGE_IS Arg1:T16 Arg2:T58	
+R43	PRODUCES Arg1:T16 Arg2:T60	
+R44	DATE_OF_CREATION Arg1:T60 Arg2:T61	
+R45	AWARDED_WITH Arg1:T16 Arg2:T63	
+R46	AWARDED_WITH Arg1:T70 Arg2:T68	
+R47	PRODUCES Arg1:T45 Arg2:T60	
+T76	DATE 33 37	2016
+R49	LOCATED_IN Arg1:T4 Arg2:T6	
+R50	ORIGINS_FROM Arg1:T10 Arg2:T9	
+R51	ORIGINS_FROM Arg1:T11 Arg2:T9	
+R48	ORIGINS_FROM Arg1:T28 Arg2:T27	
+R52	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R53	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R54	ORIGINS_FROM Arg1:T37 Arg2:T36	
+R55	ORIGINS_FROM Arg1:T40 Arg2:T39	
+R56	ORIGINS_FROM Arg1:T43 Arg2:T42	
+R57	ORIGINS_FROM Arg1:T72 Arg2:T50	
+R58	ORIGINS_FROM Arg1:T73 Arg2:T50	
+R59	ORIGINS_FROM Arg1:T74 Arg2:T50	
+R60	ORIGINS_FROM Arg1:T75 Arg2:T50	
+R61	AWARDED_WITH Arg1:T45 Arg2:T63	
+R62	AWARDED_WITH Arg1:T45 Arg2:T68	
+R63	WORKS_AS Arg1:T45 Arg2:T70	
+R14	POINT_IN_TIME Arg1:T1 Arg2:T76	
+R32	POINT_IN_TIME Arg1:T68 Arg2:T67	
+T77	PERSON 0 11	Нобелевскую
+T78	PERSON 281 292	Нобелевская
+N1	Reference T1 Wikidata:Q37922	Нобелевская премия по литературе
+N2	Reference T2 Wikidata:Q177220	певец
+N3	Reference T6 Wikidata:Q14318	Витория-Гастейс
+N4	Reference T10 Wikidata:Q488205	автор-исполнитель
+N5	Reference T11 Wikidata:Q36180	писатель
+N6	Reference T17 Wikidata:Q37922	Нобелевская премия по литературе
+N10	Reference T22 Wikidata:Q207360	Шведская академия
+N11	Reference T23 Wikidata:Q4944209	Даниус, Сара
+N12	Reference T25 Wikidata:Q1754	Стокгольм
+N14	Reference T29 Wikidata:Q134798	Харуки Мураками
+N16	Reference T32 Wikidata:Q302910	Нгуги Ва Тхионго
+N18	Reference T34 Wikidata:Q214917	драматург
+N19	Reference T35 Wikidata:Q443868	Фоссе, Юн
+N22	Reference T40 Wikidata:Q49757	поэт
+N23	Reference T41 Wikidata:Q380787	Адонис
+N25	Reference T43 Wikidata:Q12144794	прозаик
+N26	Reference T45 Wikidata:Q392	Боб Дилан
+N27	Reference T48 Wikidata:Q485708	Дулут
+N28	Reference T49 Wikidata:Q1527	Миннесота
+N31	Reference T53 Wikidata:Q2006225	The Times They Are a-Changin’
+N32	Reference T54 Wikidata:Q30	США
+N34	Reference T57 Wikidata:Q1299	The Beatles
+N35	Reference T60 Wikidata:Q23759295	Fallen Angels
+N36	Reference T63 Wikidata:Q41254	«Грэмми»
+N37	Reference T65 Wikidata:Q179191	Зал славы рок-н-ролла
+N38	Reference T68 Wikidata:Q46525	Пулитцеровская премия
+N39	Reference T13 Wikidata:Q7191	Нобелевская премия
+N41	Reference T70 Wikidata:Q639669	музыкант
+N42	Reference T71 Wikidata:Q713200	исполнитель
+N43	Reference T72 Wikidata:Q488205	автор-исполнитель
+N44	Reference T73 Wikidata:Q1028181	художник
+N45	Reference T78 Wikidata:Q23810	Альфред Нобель
+N9	Reference T21 Wikidata:Q34	Швеция
+N40	Reference T14 Wikidata:NULL	нет данных
+N8	Reference T20 Wikidata:Q319544	
+N13	Reference T27 Wikidata:Q161652	японцы
+N15	Reference T30 Wikidata:Q2348287	
+N17	Reference T33 Wikidata:Q188779	норвежцы
+N46	Reference T38 Wikidata:Q187019	
+N47	Reference T44 Wikidata:Q310048	
+N20	Reference T37 Wikidata:Q2976603	
+N21	Reference T39 Wikidata:Q878607	сирийцы
+N24	Reference T42 Wikidata:Q846570	
+N33	Reference T55 Wikidata:Q33511	Роллинг Стоун
+N29	Reference T3 Wikidata:Q640529	
+N48	Reference T28 Wikidata:Q36180	писатель
+N49	Reference T31 Wikidata:Q36180	писатель
+N50	Reference T74 Wikidata:Q36180	писатель
+N51	Reference T3 Wikidata:Q392	Боб Дилан
+N52	Reference T46 Wikidata:Q392	Боб Дилан
+N53	Reference T4 Wikidata:Q392	Боб Дилан
+N54	Reference T12 Wikidata:Q392	Боб Дилан
+N55	Reference T69 Wikidata:Q7191	Нобелевская премия
+N56	Reference T16 Wikidata:Q713200	исполнитель
+N57	Reference T77 Wikidata:Q23810	Альфред Нобель
+N58	Reference T66 Wikidata:Q30	США
+N59	Reference T50 Wikidata:Q846570	
+N60	Reference T9 Wikidata:Q846570	
+N61	Reference T36 Wikidata:Q846570	
+N62	Reference T46 Wikidata:Q640529	
+N63	Reference T4 Wikidata:Q640529	
+N64	Reference T45 Wikidata:Q640529	
+N65	Reference T12 Wikidata:Q640529	
+N7	Reference T19 Wikidata:Q846570	
+R34	ORIGINS_FROM Arg1:T50 Arg2:T54	
+R64	AWARDED_WITH Arg1:T45 Arg2:T65	

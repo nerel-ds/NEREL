@@ -1,0 +1,118 @@
+T1	COUNTRY 2 8	Италии
+T2	ORGANIZATION 75 86	Коза Ностры
+T3	COUNTRY 153 159	Италии
+T4	NUMBER 230 234	трех
+T5	PROFESSION 288 293	Судья
+T6	CITY 296 302	Милане
+T7	ORGANIZATION 363 374	Коза Ностры
+T8	AGE 377 387	78-летнего
+T9	PERSON 388 404	Франческо Бонура
+T10	DATE 422 431	23-летний
+T11	PERSON 459 465	Бонуры
+T12	ORGANIZATION 559 576	Российская газета
+T13	AGE 632 642	65-летнего
+T14	PERSON 643 661	Винченцино Яннаццо
+T15	AGE 664 674	72-летнего
+T16	PERSON 675 696	Рокко Санто Филиппоне
+T17	ORGANIZATION 733 742	Ндрангеты
+T18	PERSON 816 825	Филиппоне
+T19	PERSON 908 920	Лео Бенедучи
+T20	PROFESSION 922 950	генерального секретаря Osapp
+T21	COUNTRY 1012 1018	Италии
+T22	NUMBER 1047 1061	около 12 тысяч
+T23	COUNTRY 1313 1324	итальянских
+T24	NUMBER 1343 1345	74
+T25	AGE 1358 1371	старше 70 лет
+T26	DISEASE 15 27	коронавируса
+T27	PROFESSION 47 59	боссов мафии
+T28	PROFESSION 96 112	мафиозных боссов
+T29	DISEASE 182 195	коронавирусом
+T30	PROFESSION 1346 1357	босса мафии
+T31	ORGANIZATION 945 950	Osapp
+T32	PROFESSION 1062 1090	членов мафиозных организаций
+T33	DISEASE 765 788	коронавирусная инфекция
+T34	DISEASE 863 895	сердечно-сосудистого заболевания
+T35	PROFESSION 726 742	боссов Ндрангеты
+T36	PROFESSION 245 253	бандитов
+T37	PROFESSION 744 749	Судьи
+T38	PROFESSION 580 585	Судьи
+T39	PROFESSION 197 202	Судьи
+T40	NUMBER 88 95	Десятки
+T41	PROFESSION 355 375	боссов «Коза Ностры»
+R1	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R2	ALTERNATIVE_NAME Arg1:T28 Arg2:T36	
+R3	WORKPLACE Arg1:T41 Arg2:T7	
+R4	AGE_IS Arg1:T9 Arg2:T8	
+R5	WORKS_AS Arg1:T9 Arg2:T41	
+R6	WORKPLACE Arg1:T9 Arg2:T7	
+T42	PENALTY 414 436	отбывал 23-летний срок
+R7	PENALIZED_AS Arg1:T9 Arg2:T42	
+R8	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R9	AGE_IS Arg1:T14 Arg2:T13	
+R10	AGE_IS Arg1:T16 Arg2:T15	
+R11	WORKPLACE Arg1:T35 Arg2:T17	
+R12	WORKPLACE Arg1:T16 Arg2:T17	
+R13	WORKPLACE Arg1:T14 Arg2:T17	
+R14	ALTERNATIVE_NAME Arg1:T16 Arg2:T18	
+R15	MEDICAL_CONDITION Arg1:T18 Arg2:T34	
+R16	WORKPLACE Arg1:T20 Arg2:T31	
+T43	PROFESSION 974 1018	сотрудников исправительных учреждений Италии
+R17	MEMBER_OF Arg1:T43 Arg2:T31	
+R18	ORIGINS_FROM Arg1:T43 Arg2:T21	
+R19	WORKS_AS Arg1:T19 Arg2:T20	
+R20	WORKPLACE Arg1:T19 Arg2:T31	
+T44	PROFESSION 922 944	генерального секретаря
+R21	ALTERNATIVE_NAME Arg1:T21 Arg2:T23	
+T45	EVENT 28 46	из тюрем выпускают
+R22	PARTICIPANT_IN Arg1:T27 Arg2:T45	
+R23	TAKES_PLACE_IN Arg1:T45 Arg2:T1	
+T46	EVENT 207 217	освободили
+R24	ALTERNATIVE_NAME Arg1:T45 Arg2:T46	
+R25	AGENT Arg1:T39 Arg2:T46	
+R26	PARTICIPANT_IN Arg1:T36 Arg2:T46	
+T47	EVENT 316 326	освободить
+R27	AGENT Arg1:T5 Arg2:T47	
+R28	TAKES_PLACE_IN Arg1:T47 Arg2:T6	
+R29	PARTICIPANT_IN Arg1:T9 Arg2:T47	
+T48	PENALTY 470 484	домашний арест
+R30	PENALIZED_AS Arg1:T11 Arg2:T48	
+R31	HAS_CAUSE Arg1:T45 Arg2:T26	
+R32	TAKES_PLACE_IN Arg1:T46 Arg2:T3	
+T49	COUNTRY 558 569	«Российская
+R33	HEADQUARTERED_IN Arg1:T12 Arg2:T49	
+T50	EVENT 609 631	освобождении из тюрьмы
+R34	AGENT Arg1:T38 Arg2:T50	
+R35	PARTICIPANT_IN Arg1:T14 Arg2:T50	
+R36	PARTICIPANT_IN Arg1:T16 Arg2:T50	
+R37	AGE_IS Arg1:T30 Arg2:T25	
+N1	Reference T1 Wikidata:Q38	Италия
+N2	Reference T6 Wikidata:Q490	Милан
+N3	Reference T7 Wikidata:Q1458155	Коза Ностра
+N5	Reference T12 Wikidata:Q1853433	Российская газета
+N6	Reference T17 Wikidata:Q425698	Ндрангета
+N10	Reference T27 Wikidata:Q1034774	босс боссов
+N12	Reference T37 Wikidata:Q16533	судья
+N15	Reference T44 Wikidata:Q6501749	генеральный секретарь
+N13	Reference T41 Wikidata:Q1034774	босс боссов
+N4	Reference T11 Wikidata:NULL	нет данных
+N16	Reference T49 Wikidata:Q159	Россия
+N17	Reference T14 Wikidata:NULL	нет данных
+N11	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:NULL	нет данных
+N9	Reference T20 Wikidata:NULL	нет данных
+N14	Reference T43 Wikidata:NULL	нет данных
+N19	Reference T32 Wikidata:NULL	нет данных
+N20	Reference T3 Wikidata:Q38	Италия
+N21	Reference T21 Wikidata:Q38	Италия
+N22	Reference T23 Wikidata:Q38	Италия
+N23	Reference T2 Wikidata:Q1458155	Коза Ностра
+N24	Reference T28 Wikidata:Q1034774	босс боссов
+N25	Reference T36 Wikidata:Q1034774	босс боссов
+N26	Reference T30 Wikidata:Q1034774	босс боссов
+N27	Reference T39 Wikidata:Q16533	судья
+N28	Reference T5 Wikidata:Q16533	судья
+N29	Reference T38 Wikidata:Q16533	судья
+N30	Reference T9 Wikidata:NULL	нет данных
+N31	Reference T16 Wikidata:NULL	нет данных

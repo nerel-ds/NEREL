@@ -1,0 +1,108 @@
+T1	PERSON 2 7	Бооса
+T2	PERSON 21 33	Георгий Боос
+T4	STATE_OR_PROVINCE 50 73	Калининградской области
+T5	PERSON 74 87	Георгия Бооса
+T6	ORDINAL 96 103	седьмой
+T7	PROFESSION 134 149	пресс-секретарь
+T8	PERSON 150 169	Светлана Оболенцева
+T9	PERSON 182 190	Светланы
+T11	PERSON 340 353	Георгия Бооса
+T12	NUMBER 363 368	шесть
+T13	NUMBER 380 384	трёх
+T14	PERSON 393 402	Екатерина
+T15	DATE 404 410	1986 г
+T17	PERSON 417 422	Елена
+T18	DATE 424 430	1996 г
+T20	PERSON 437 444	Надежда
+T21	DATE 446 452	2002 г
+T22	PERSON 459 464	Мария
+T23	DATE 466 472	2004 г
+T25	PERSON 479 485	Любовь
+T27	PERSON 501 505	Вера
+T28	DATE 507 513	2009 г
+T30	PERSON 521 533	Георгий Боос
+T31	PROFESSION 547 559	губернатором
+T32	STATE_OR_PROVINCE 560 583	Калининградской области
+T33	DATE 584 604	с сентября 2005 года
+T34	PERSON 628 632	Боос
+T35	ORGANIZATION 663 681	Боос Лайтинг групп
+R1	WORKPLACE Arg1:T5 Arg2:T4
+R3	PARENT_OF Arg1:T11 Arg2:T27
+R5	WORKS_AS Arg1:T30 Arg2:T39
+R6	WORKPLACE Arg1:T30 Arg2:T32
+R7	OWNER_OF Arg1:T34 Arg2:T35
+T10	DATE 208 238	в пятницу, 7 октября 2016 года
+T16	DATE 487 493	2006 г
+R4	PARENT_OF Arg1:T11 Arg2:T14	
+R8	PARENT_OF Arg1:T11 Arg2:T17	
+R9	PARENT_OF Arg1:T11 Arg2:T20	
+R10	PARENT_OF Arg1:T11 Arg2:T22	
+R11	PARENT_OF Arg1:T11 Arg2:T25	
+R12	DATE_OF_BIRTH Arg1:T25 Arg2:T16	
+R13	DATE_OF_BIRTH Arg1:T27 Arg2:T28	
+R14	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R15	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R16	DATE_OF_BIRTH Arg1:T17 Arg2:T18	
+R17	DATE_OF_BIRTH Arg1:T14 Arg2:T15	
+T38	PROFESSION 44 73	главы Калининградской области
+R18	WORKS_AS Arg1:T5 Arg2:T38	
+R2	WORKS_AS Arg1:T8 Arg2:T7	
+T39	PROFESSION 547 583	губернатором Калининградской области
+R19	SUBORDINATE_OF Arg1:T8 Arg2:T5	
+R20	SIBLING Arg1:T14 Arg2:T17	
+R21	SIBLING Arg1:T14 Arg2:T20	
+R22	SIBLING Arg1:T25 Arg2:T27	
+R23	SIBLING Arg1:T22 Arg2:T27	
+R24	SIBLING Arg1:T22 Arg2:T25	
+R25	SIBLING Arg1:T20 Arg2:T22	
+R27	SIBLING Arg1:T20 Arg2:T25	
+R28	SIBLING Arg1:T17 Arg2:T20	
+R29	SIBLING Arg1:T17 Arg2:T22	
+R26	SIBLING Arg1:T14 Arg2:T22	
+R30	SIBLING Arg1:T14 Arg2:T25	
+R31	SIBLING Arg1:T14 Arg2:T27	
+R32	SIBLING Arg1:T17 Arg2:T25	
+R33	SIBLING Arg1:T17 Arg2:T27	
+R34	SIBLING Arg1:T20 Arg2:T27	
+T3	EVENT 88 111	родился седьмой ребёнок
+R35	PARTICIPANT_IN Arg1:T5 Arg2:T3	
+T19	EVENT 192 207	ребенок родился
+R36	POINT_IN_TIME Arg1:T19 Arg2:T10	
+T24	EVENT 538 546	назначен
+R37	PARTICIPANT_IN Arg1:T30 Arg2:T24	
+R38	POINT_IN_TIME Arg1:T24 Arg2:T33	
+T26	DATE 605 619	по август 2010
+R39	DATE_DEFUNCT_IN Arg1:T24 Arg2:T26	
+T29	EVENT 8 19	родился сын
+R40	PARTICIPANT_IN Arg1:T1 Arg2:T29	
+R41	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R42	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R43	WORKPLACE Arg1:T38 Arg2:T4	
+R44	WORKPLACE Arg1:T8 Arg2:T4	
+R45	WORKPLACE Arg1:T7 Arg2:T4	
+R47	ALTERNATIVE_NAME Arg1:T30 Arg2:T34	
+R48	WORKPLACE Arg1:T39 Arg2:T32	
+R49	ALTERNATIVE_NAME Arg1:T29 Arg2:T3	
+R46	ALTERNATIVE_NAME Arg1:T3 Arg2:T19	
+R50	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+N1	Reference T4 Wikidata:Q1749	Калининградская область
+N2	Reference T5 Wikidata:Q708130	Георгий Валентинович Боос
+N8	Reference T30 Wikidata:Q708130	Георгий Валентинович Боос
+N9	Reference T31 Wikidata:Q132050	губернатор
+N12	Reference T39 Wikidata:Q16839806	Губернатор Калининградской области
+N13	Reference T7 Wikidata:Q1388151	
+N3	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N6	Reference T20 Wikidata:NULL	нет данных
+N14	Reference T22 Wikidata:NULL	нет данных
+N7	Reference T25 Wikidata:NULL	нет данных
+N15	Reference T27 Wikidata:NULL	нет данных
+N10	Reference T35 Wikidata:NULL	нет данных
+N11	Reference T38 Wikidata:Q16839806	Губернатор Калининградской области
+N16	Reference T32 Wikidata:Q1749	Калининградская область
+N17	Reference T11 Wikidata:Q708130	Георгий Валентинович Боос
+N18	Reference T2 Wikidata:Q708130	Георгий Валентинович Боос
+N19	Reference T1 Wikidata:Q708130	Георгий Валентинович Боос
+N20	Reference T34 Wikidata:Q708130	Георгий Валентинович Боос
+N21	Reference T9 Wikidata:NULL	нет данных

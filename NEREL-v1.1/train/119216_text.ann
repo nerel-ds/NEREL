@@ -1,0 +1,118 @@
+T1	ORGANIZATION 1 8	Арсенал
+T2	PROFESSION 29 37	тренером
+T4	ORGANIZATION 80 87	Арсенал
+T5	PROFESSION 125 133	тренером
+T6	PERSON 134 150	Арсеном Венгером
+T7	DATE 155 166	на два года
+T8	AGE 252 261	67-летним
+T9	ORGANIZATION 303 311	Арсенала
+T10	DATE 331 338	2016/17
+T11	ORDINAL 350 355	пятое
+T12	ORDINAL 407 409	13
+T14	ORGANIZATION 415 422	Арсенал
+T15	ORGANIZATION 465 470	Челси
+T16	NATIONALITY 474 481	Француз
+T17	PERSON 482 494	Арсен Венгер
+T19	ORGANIZATION 527 535	Арсенала
+T20	DATE 537 548	с 1996 года
+T21	NUMBER 611 615	семь
+T22	NUMBER 645 650	шесть
+T23	EVENT 665 682	Суперкубок Англии
+T24	DATE 684 695	В 2006 году
+T25	ORGANIZATION 712 721	Арсеналом
+T26	NUMBER 763 764	1
+T27	ORGANIZATION 777 786	Барселоне
+T28	DATE 790 807	В марте 2017 года
+T29	ORGANIZATION 861 868	Арсенал
+T30	CITY 879 889	мюнхенской
+T31	ORGANIZATION 891 898	Баварии
+T32	NUMBER 910 911	1
+T33	PROFESSION 988 995	тренера
+T34	EVENT 10 26	продлил контракт
+T35	PERSON 38 54	Арсеном Венгером
+T36	PROFESSION 937 947	футболисты
+T37	PERSON 996 1003	Венгера
+T38	PERSON 696 702	Венгер
+T39	PERSON 55 67	Арсен Венгер
+T40	CITY 68 78	Лондонский
+T41	EVENT 89 122	договорился о продлении контракта
+T42	CITY 208 219	лондонского
+T43	PERSON 262 270	Венгером
+T44	AWARD 433 445	Кубок Англии
+T45	EVENT 449 455	финале
+T13	EVENT 631 643	Кубке страны
+T46	COUNTRY 676 682	Англии
+T47	COUNTRY 603 609	Англии
+T48	EVENT 726 747	финала Лиги чемпионов
+T49	EVENT 733 747	Лиги чемпионов
+T50	EVENT 834 859	1/8 финала Лиги чемпионов
+T51	EVENT 845 859	Лиги чемпионов
+R1	WORKS_AS Arg1:T35 Arg2:T2	
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T40	
+R4	ALTERNATIVE_NAME Arg1:T6 Arg2:T43	
+R5	AGE_IS Arg1:T43 Arg2:T8	
+R6	WORKPLACE Arg1:T35 Arg2:T1	
+R7	WORKPLACE Arg1:T43 Arg2:T9	
+R8	AWARDED_WITH Arg1:T14 Arg2:T44	
+R9	ORIGINS_FROM Arg1:T17 Arg2:T16	
+R10	HEADQUARTERED_IN Arg1:T31 Arg2:T30	
+T18	PROFESSION 509 535	главного тренера «Арсенала
+R11	WORKS_AS Arg1:T17 Arg2:T18	
+R12	WORKPLACE Arg1:T17 Arg2:T19	
+R13	WORKPLACE Arg1:T18 Arg2:T19	
+R14	WORKS_AS Arg1:T37 Arg2:T33	
+R15	ALTERNATIVE_NAME Arg1:T34 Arg2:T41	
+R16	AGENT Arg1:T1 Arg2:T34	
+R17	PARTICIPANT_IN Arg1:T35 Arg2:T34	
+R18	AGENT Arg1:T4 Arg2:T41	
+R19	PARTICIPANT_IN Arg1:T6 Arg2:T41	
+R20	TAKES_PLACE_IN Arg1:T13 Arg2:T47	
+T52	COUNTRY 439 445	Англии
+R21	PARTICIPANT_IN Arg1:T14 Arg2:T45	
+R22	PARTICIPANT_IN Arg1:T15 Arg2:T45	
+R23	PARTICIPANT_IN Arg1:T14 Arg2:T13	
+R24	TAKES_PLACE_IN Arg1:T23 Arg2:T46	
+R25	PARTICIPANT_IN Arg1:T19 Arg2:T23	
+R26	WORKPLACE Arg1:T38 Arg2:T25	
+R27	SUBEVENT_OF Arg1:T48 Arg2:T49	
+R28	PARTICIPANT_IN Arg1:T25 Arg2:T48	
+R29	PARTICIPANT_IN Arg1:T27 Arg2:T48	
+R30	POINT_IN_TIME Arg1:T49 Arg2:T24	
+R31	SUBEVENT_OF Arg1:T50 Arg2:T51	
+R32	PARTICIPANT_IN Arg1:T29 Arg2:T50	
+R33	PARTICIPANT_IN Arg1:T31 Arg2:T50	
+R34	POINT_IN_TIME Arg1:T50 Arg2:T28	
+R35	ORIGINS_FROM Arg1:T44 Arg2:T52	
+T3	NUMBER 765 766	2
+T53	NUMBER 912 913	5
+N1	Reference T5 Wikidata:Q41583	тренер
+N2	Reference T9 Wikidata:Q9617	Арсенал
+N3	Reference T15 Wikidata:Q9616	Челси
+N4	Reference T16 Wikidata:Q121842	французы
+N5	Reference T27 Wikidata:Q7156	Барселона
+N7	Reference T31 Wikidata:Q15789	Бавария
+N8	Reference T35 Wikidata:Q47576	Арсен Венгер
+N9	Reference T36 Wikidata:Q937857	футболист
+N10	Reference T39 Wikidata:Q47576	Арсен Венгер
+N12	Reference T44 Wikidata:Q11151	Кубок Англии по футболу
+N11	Reference T42 Wikidata:Q84	Лондон
+N14	Reference T18 Wikidata:NULL	нет данных
+N13	Reference T47 Wikidata:Q21	Англия
+N6	Reference T30 Wikidata:Q1726	Мюнхен
+N15	Reference T37 Wikidata:Q47576	Арсен Венгер
+N16	Reference T33 Wikidata:Q41583	тренер
+N17	Reference T2 Wikidata:Q41583	тренер
+N18	Reference T19 Wikidata:Q9617	Арсенал
+N19	Reference T14 Wikidata:Q9617	Арсенал
+N20	Reference T25 Wikidata:Q9617	Арсенал
+N21	Reference T4 Wikidata:Q9617	Арсенал
+N22	Reference T29 Wikidata:Q9617	Арсенал
+N23	Reference T1 Wikidata:Q9617	Арсенал
+N24	Reference T6 Wikidata:Q47576	Арсен Венгер
+N25	Reference T43 Wikidata:Q47576	Арсен Венгер
+N26	Reference T17 Wikidata:Q47576	Арсен Венгер
+N27	Reference T40 Wikidata:Q84	Лондон
+N28	Reference T46 Wikidata:Q21	Англия
+N29	Reference T52 Wikidata:Q21	Англия
+N30	Reference T38 Wikidata:Q47576	Арсен Венгер

@@ -1,0 +1,178 @@
+T2	COUNTRY 18 21	США
+T3	NATIONALITY 26 37	российского
+T4	PERSON 53 64	Здоровенина
+T5	DATE 66 84	4 января 2013 года
+T6	ORGANIZATION 85 124	Федеральный суд Южного округа Нью-Йорка
+T9	NATIONALITY 136 146	россиянина
+T10	PERSON 147 168	Владимира Здоровенина
+T13	PERSON 250 260	Здоровенин
+T14	DATE 274 291	в марте 2011 года
+T15	COUNTRY 294 303	Швейцарии
+T16	COUNTRY 328 331	США
+T17	COUNTRY 343 355	американских
+T18	DATE 365 376	в 2004 году
+T19	COUNTRY 389 395	России
+T20	PERSON 410 416	Кирилл
+T21	COUNTRY 609 615	России
+T22	COUNTRY 620 626	Латвии
+T23	COUNTRY 670 673	США
+T24	MONEY 698 728	несколько сотен тысяч долларов
+T25	PERSON 763 773	Здоровенин
+T26	PROFESSION 937 957	федеральный прокурор
+T27	PERSON 985 995	Здоровенин
+T28	NATIONALITY 1094 1104	американцы
+T29	PROFESSION 1234 1242	прокурор
+T30	PERSON 1258 1269	Здоровенину
+T31	DATE 1389 1408	в феврале 2012 года
+T32	PERSON 1409 1428	Владимир Здоровенин
+T33	NUMBER 1445 1449	двум
+T34	NUMBER 1453 1459	девяти
+T36	AGE 1560 1570	55-летнего
+T37	PROFESSION 1614 1619	судью
+T39	PERSON 1803 1809	Кирилл
+T40	PROFESSION 1899 1904	Судья
+T41	PERSON 1905 1916	Пол Гардефи
+T42	PERSON 2009 2019	Здоровенин
+T43	PERSON 2140 2151	Здоровенину
+T44	COUNTRY 2185 2197	американской
+T45	DATE 2205 2227	с января прошлого года
+T47	COUNTRY 2324 2330	Россию
+T48	PERSON 2353 2364	Здоровенина
+T49	MONEY 2400 2421	один миллион долларов
+T50	PERSON 2506 2523	Кирилл Здоровенин
+T51	PROFESSION 38 52	кибермошенника
+T52	PENALTY 0 15	Три года тюрьмы
+T8	CITY 115 124	Нью-Йорка
+T12	PENALTY 171 197	трем годам лишения свободы
+T54	CRIME 201 219	кибермошенничество
+T55	CRIME 222 247	кражу персональных данных
+T56	EVENT 265 273	задержан
+T57	EVENT 312 325	экстрадирован
+T58	ORGANIZATION 343 363	американских властей
+T60	CRIME 795 831	мошенничеством на рынке ценных бумаг
+T61	CRIME 795 809	мошенничеством
+T62	PROFESSION 949 957	прокурор
+T63	PERSON 958 970	Прит Бхарара
+T64	EVENT 1370 1388	судебного процесса
+T35	PENALTY 1535 1555	4-5 годах заключения
+T38	PENALTY 1641 1660	двумя годами тюрьмы
+T67	PENALTY 2309 2321	депортирован
+T68	PENALTY 2367 2388	конфискации имущества
+T69	PENALTY 2424 2455	выплате компенсаций потерпевшим
+T71	PENALTY 2367 2421	конфискации имущества на сумму в один миллион долларов
+T1	DATE 0 8	Три года
+R1	WORKS_AS Arg1:T4 Arg2:T51	
+R2	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R3	PENALIZED_AS Arg1:T4 Arg2:T52	
+T7	DISTRICT 101 114	Южного округа
+R4	LOCATED_IN Arg1:T7 Arg2:T8	
+R5	HEADQUARTERED_IN Arg1:T6 Arg2:T7	
+T53	EVENT 125 135	приговорил
+R6	POINT_IN_TIME Arg1:T53 Arg2:T5	
+R7	AGENT Arg1:T6 Arg2:T53	
+R8	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R9	ORIGINS_FROM Arg1:T10 Arg2:T9	
+T11	DATE 171 181	трем годам
+R10	PENALIZED_AS Arg1:T10 Arg2:T12	
+R11	ALTERNATIVE_NAME Arg1:T52 Arg2:T12	
+R12	HAS_CAUSE Arg1:T12 Arg2:T54	
+R13	HAS_CAUSE Arg1:T12 Arg2:T55	
+R14	PARTICIPANT_IN Arg1:T10 Arg2:T53	
+R15	CONVICTED_OF Arg1:T10 Arg2:T54	
+R16	CONVICTED_OF Arg1:T10 Arg2:T55	
+R17	ORIGINS_FROM Arg1:T9 Arg2:T3	
+R18	PARTICIPANT_IN Arg1:T13 Arg2:T56	
+R19	POINT_IN_TIME Arg1:T56 Arg2:T14	
+R20	TAKES_PLACE_IN Arg1:T56 Arg2:T15	
+R21	TAKES_PLACE_IN Arg1:T57 Arg2:T16	
+R22	PARTICIPANT_IN Arg1:T13 Arg2:T57	
+R23	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R24	PLACE_RESIDES_IN Arg1:T13 Arg2:T15	
+R25	ALTERNATIVE_NAME Arg1:T3 Arg2:T19	
+R26	PARENT_OF Arg1:T13 Arg2:T20	
+T59	CRIME 468 521	хищением личной информации владельцев банковских карт
+R27	CONVICTED_OF Arg1:T20 Arg2:T59	
+R28	CONVICTED_OF Arg1:T13 Arg2:T59	
+T72	PRODUCT 542 550	интернет
+R29	CONVICTED_OF Arg1:T25 Arg2:T60	
+R30	CONVICTED_OF Arg1:T20 Arg2:T60	
+R31	WORKS_AS Arg1:T63 Arg2:T26	
+R32	ORIGINS_FROM Arg1:T28 Arg2:T23	
+R33	PARTICIPANT_IN Arg1:T32 Arg2:T64	
+R34	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R35	POINT_IN_TIME Arg1:T64 Arg2:T31	
+T65	DATE 1535 1544	4-5 годах
+R36	AGE_IS Arg1:T32 Arg2:T36	
+R37	PENALIZED_AS Arg1:T32 Arg2:T35	
+T66	DATE 1641 1653	двумя годами
+R38	PENALIZED_AS Arg1:T32 Arg2:T38	
+T73	PROFESSION 1591 1605	сторона защиты
+R39	SUBORDINATE_OF Arg1:T73 Arg2:T32	
+T74	PROFESSION 1720 1726	Защита
+R40	ALTERNATIVE_NAME Arg1:T73 Arg2:T74	
+R41	PARENT_OF Arg1:T32 Arg2:T39	
+R42	WORKS_AS Arg1:T41 Arg2:T40	
+T46	DATE 2279 2287	два года
+R43	TAKES_PLACE_IN Arg1:T67 Arg2:T47	
+R44	PENALIZED_AS Arg1:T43 Arg2:T67	
+R45	PENALIZED_AS Arg1:T48 Arg2:T71	
+R46	PENALIZED_AS Arg1:T48 Arg2:T69	
+T70	PROFESSION 2464 2470	защита
+R47	SUBORDINATE_OF Arg1:T70 Arg2:T48	
+R48	PARENT_OF Arg1:T48 Arg2:T50	
+R49	ALTERNATIVE_NAME Arg1:T39 Arg2:T50	
+R50	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+T75	NATIONALITY 661 673	граждане США
+R51	ORIGINS_FROM Arg1:T75 Arg2:T23	
+R52	EXPENDITURE Arg1:T75 Arg2:T24	
+R53	HEADQUARTERED_IN Arg1:T58 Arg2:T17	
+T76	CRIME 468 494	хищением личной информации
+T77	PENALTY 9 15	тюрьмы
+T78	PENALTY 182 197	лишения свободы
+T79	PENALTY 1545 1555	заключения
+T80	PENALTY 1654 1660	тюрьмы
+T81	PENALTY 2263 2274	под стражей
+R54	PENALIZED_AS Arg1:T43 Arg2:T81	
+N1	Reference T9 Wikidata:Q492468	россияне
+N3	Reference T15 Wikidata:Q39	Швейцария
+N4	Reference T16 Wikidata:Q30	США
+N5	Reference T22 Wikidata:Q211	Латвия
+N6	Reference T26 Wikidata:Q2094335	Федеральный прокурор США
+N8	Reference T37 Wikidata:Q16533	судья
+N11	Reference T47 Wikidata:Q159	Россия
+N12	Reference T8 Wikidata:Q60	Нью-Йорк
+N14	Reference T62 Wikidata:Q600751	прокурор
+N17	Reference T72 Wikidata:Q75	Интернет
+N2	Reference T10 Wikidata:NULL	нет данных
+N16	Reference T7 Wikidata:NULL	нет данных
+N20	Reference T6 Wikidata:Q49669	
+N19	Reference T75 Wikidata:Q846570	
+N13	Reference T58 Wikidata:NULL	нет данных
+N7	Reference T28 Wikidata:Q846570	
+N15	Reference T63 Wikidata:Q7239755	
+N18	Reference T74 Wikidata:Q512345	Защитник в уголовном процессе
+N9	Reference T39 Wikidata:NULL	нет данных
+N10	Reference T41 Wikidata:NULL	нет данных
+N21	Reference T48 Wikidata:NULL	нет данных
+N22	Reference T51 Wikidata:NULL	нет данных
+N23	Reference T3 Wikidata:Q492468	россияне
+N24	Reference T44 Wikidata:Q30	США
+N25	Reference T23 Wikidata:Q30	США
+N26	Reference T17 Wikidata:Q30	США
+N27	Reference T2 Wikidata:Q30	США
+N28	Reference T40 Wikidata:Q16533	судья
+N29	Reference T19 Wikidata:Q159	Россия
+N30	Reference T21 Wikidata:Q159	Россия
+N31	Reference T29 Wikidata:Q600751	прокурор
+N32	Reference T4 Wikidata:NULL	нет данных
+N33	Reference T70 Wikidata:Q512345	Защитник в уголовном процессе
+N34	Reference T73 Wikidata:Q512345	Защитник в уголовном процессе
+N35	Reference T20 Wikidata:NULL	нет данных
+N36	Reference T50 Wikidata:NULL	нет данных
+N37	Reference T13 Wikidata:NULL	нет данных
+N38	Reference T30 Wikidata:NULL	нет данных
+N39	Reference T25 Wikidata:NULL	нет данных
+N40	Reference T42 Wikidata:NULL	нет данных
+N41	Reference T43 Wikidata:NULL	нет данных
+N42	Reference T32 Wikidata:NULL	нет данных
+N43	Reference T27 Wikidata:NULL	нет данных

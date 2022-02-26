@@ -1,0 +1,203 @@
+T1	PROFESSION 6 14	генсеком
+T2	ORGANIZATION 15 18	ООН
+T3	NATIONALITY 26 36	португалец
+T4	PERSON 37 45	Гутерреш
+T5	PERSON 47 63	Антониу Гутерриш
+T6	DATE 64 75	в 2012 году
+T7	ORGANIZATION 84 87	ООН
+T8	DATE 88 107	6 октября 2016 года
+T9	ORGANIZATION 108 126	Совет Безопасности
+T10	ORGANIZATION 127 130	ООН
+T12	COUNTRY 201 211	Португалии
+T13	PERSON 212 229	Антониу Гутерреша
+T14	PROFESSION 238 245	генсека
+T15	ORGANIZATION 246 249	ООН
+T16	PROFESSION 265 273	постпред
+T17	COUNTRY 274 280	России
+T18	ORGANIZATION 285 288	ООН
+T19	PERSON 289 303	Виталий Чуркин
+T20	ORGANIZATION 366 387	Генеральную Ассамблею
+T21	ORGANIZATION 388 391	ООН
+T22	ORGANIZATION 530 532	СБ
+T23	ORGANIZATION 582 585	ООН
+T24	DATE 587 598	в 1950 году
+T25	ORGANIZATION 599 611	Генассамблея
+T26	ORGANIZATION 625 632	Совбеза
+T28	PROFESSION 666 673	генсека
+T29	ORGANIZATION 674 677	ООН
+T30	NATIONALITY 678 686	норвежца
+T31	PERSON 687 696	Трюгве Ли
+T32	PROFESSION 706 727	генеральный секретарь
+T33	ORGANIZATION 728 731	ООН
+T34	DATE 759 777	1 января 2017 года
+T35	PROFESSION 788 794	генсек
+T36	PERSON 795 805	Пан Ги Мун
+T37	DATE 824 844	31 декабря 2016 года
+T38	DATE 852 874	двух пятилетних сроков
+T39	PERSON 877 912	Антониу Мануэл ди Оливейра Гутерреш
+T42	PERSON 920 955	António Manuel de Oliveira Guterres
+T44	DATE 962 976	30 апреля 1949
+T45	CITY 979 988	Лиссабоне
+T46	NATIONALITY 992 1005	португальский
+T47	PROFESSION 1006 1013	политик
+T48	DATE 1015 1026	в 1992—2002
+T49	PROFESSION 1029 1050	генеральный секретарь
+T50	ORGANIZATION 1051 1085	Социалистической партии Португалии
+T51	DATE 1092 1103	с 1974 года
+T52	DATE 1106 1120	в 1995—2002 гг
+T53	PROFESSION 1124 1139	премьер-министр
+T54	COUNTRY 1140 1164	Португальской республики
+T55	DATE 1166 1180	в 1999—2005 гг
+T56	PROFESSION 1184 1196	председатель
+T57	ORGANIZATION 1197 1207	Социнтерна
+T58	DATE 1209 1220	с 2005 года
+T59	PROFESSION 1223 1241	Верховный комиссар
+T60	ORGANIZATION 1242 1245	ООН
+T63	DATE 1265 1285	С 7 апреля 2016 года
+T64	PROFESSION 1288 1312	государственный советник
+T65	COUNTRY 1313 1323	Португалии
+R1	WORKPLACE Arg1:T4 Arg2:T2
+R4	WORKPLACE Arg1:T13 Arg2:T12
+R5	WORKS_AS Arg1:T13 Arg2:T14
+R6	WORKPLACE Arg1:T13 Arg2:T15
+R7	WORKS_AS Arg1:T19 Arg2:T76
+R11	WORKPLACE Arg1:T31 Arg2:T29
+T66	PROFESSION 6 18	генсеком ООН
+T67	ORGANIZATION 108 130	Совет Безопасности ООН
+T68	PROFESSION 184 200	премьер-министра
+T69	PROFESSION 238 249	генсека ООН
+T70	ORGANIZATION 366 391	Генеральную Ассамблею ООН
+T40	PROFESSION 706 731	генеральный секретарь ООН
+T41	PROFESSION 1288 1323	государственный советник Португалии
+T71	PROFESSION 1223 1263	Верховный комиссар ООН по делам беженцев
+T61	PROFESSION 1184 1207	председатель Социнтерна
+T62	PROFESSION 1124 1164	премьер-министр Португальской республики
+T72	COUNTRY 1140 1153	Португальской
+T73	COUNTRY 1075 1085	Португалии
+T74	ORGANIZATION 1051 1074	Социалистической партии
+R14	DATE_OF_BIRTH Arg1:T39 Arg2:T44	
+R15	PLACE_OF_BIRTH Arg1:T39 Arg2:T45	
+T27	ORDINAL 658 665	первого
+T43	PROFESSION 666 677	генсека ООН
+T75	PROFESSION 184 211	премьер-министра Португалии
+R9	WORKS_AS Arg1:T4 Arg2:T66	
+R10	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R3	WORKS_AS Arg1:T13 Arg2:T75	
+T76	PROFESSION 265 288	постпред России при ООН
+R12	WORKPLACE Arg1:T19 Arg2:T18	
+R16	ORIGINS_FROM Arg1:T19 Arg2:T17	
+R17	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R18	WORKS_AS Arg1:T31 Arg2:T43	
+R13	WORKS_AS Arg1:T36 Arg2:T35	
+R19	ALTERNATIVE_NAME Arg1:T39 Arg2:T42	
+R20	ORIGINS_FROM Arg1:T39 Arg2:T46	
+R21	WORKS_AS Arg1:T39 Arg2:T47	
+T77	PROFESSION 1029 1085	генеральный секретарь Социалистической партии Португалии
+R22	WORKS_AS Arg1:T39 Arg2:T77	
+R23	WORKPLACE Arg1:T39 Arg2:T50	
+R24	WORKS_AS Arg1:T39 Arg2:T62	
+T78	EVENT 732 758	заступит на свою должность
+R27	POINT_IN_TIME Arg1:T78 Arg2:T34	
+T79	EVENT 806 823	сложит полномочия
+R28	POINT_IN_TIME Arg1:T79 Arg2:T37	
+R29	AGENT Arg1:T36 Arg2:T79	
+R25	WORKS_AS Arg1:T39 Arg2:T61	
+R26	WORKPLACE Arg1:T39 Arg2:T57	
+R30	WORKS_AS Arg1:T39 Arg2:T71	
+R31	WORKPLACE Arg1:T39 Arg2:T60	
+R32	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R33	ALTERNATIVE_NAME Arg1:T13 Arg2:T39	
+R34	WORKPLACE Arg1:T66 Arg2:T2	
+R35	WORKPLACE Arg1:T75 Arg2:T12	
+R36	WORKPLACE Arg1:T69 Arg2:T15	
+R37	ORIGINS_FROM Arg1:T76 Arg2:T17	
+R38	WORKPLACE Arg1:T76 Arg2:T18	
+R8	PART_OF Arg1:T70 Arg2:T21	
+R39	ABBREVIATION Arg1:T67 Arg2:T22	
+R40	ALTERNATIVE_NAME Arg1:T70 Arg2:T25	
+R41	ALTERNATIVE_NAME Arg1:T67 Arg2:T26	
+R42	WORKPLACE Arg1:T43 Arg2:T29	
+R43	ALTERNATIVE_NAME Arg1:T43 Arg2:T40	
+R44	WORKPLACE Arg1:T40 Arg2:T33	
+R45	AGENT Arg1:T40 Arg2:T78	
+R46	WORKPLACE Arg1:T36 Arg2:T33	
+R47	WORKPLACE Arg1:T35 Arg2:T33	
+R48	ORIGINS_FROM Arg1:T47 Arg2:T46	
+R49	WORKPLACE Arg1:T77 Arg2:T50	
+T80	IDEOLOGY 1051 1067	Социалистической
+R50	IDEOLOGY_OF Arg1:T50 Arg2:T80	
+R51	HEADQUARTERED_IN Arg1:T50 Arg2:T73	
+R52	WORKPLACE Arg1:T61 Arg2:T57	
+R53	WORKPLACE Arg1:T71 Arg2:T60	
+R54	WORKPLACE Arg1:T41 Arg2:T65	
+R55	IDEOLOGY_OF Arg1:T57 Arg2:T80	
+R56	WORKPLACE Arg1:T62 Arg2:T54	
+R57	WORKS_AS Arg1:T39 Arg2:T41	
+R58	WORKPLACE Arg1:T39 Arg2:T65	
+R59	PART_OF Arg1:T26 Arg2:T25	
+R60	PART_OF Arg1:T22 Arg2:T23	
+R61	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+R62	ALTERNATIVE_NAME Arg1:T73 Arg2:T54	
+N1	Reference T3 Wikidata:Q178630	португальцы
+N2	Reference T9 Wikidata:Q37470	Совет Безопасности ООН
+N3	Reference T10 Wikidata:Q1065	Организация Объединённых Наций
+N5	Reference T17 Wikidata:Q159	Россия
+N6	Reference T19 Wikidata:Q1394102	Виталий Иванович Чуркин
+N7	Reference T20 Wikidata:Q47423	Генеральная Ассамблея ООН
+N10	Reference T30 Wikidata:Q188779	норвежцы
+N11	Reference T31 Wikidata:Q1271	Трюгве Ли
+N12	Reference T32 Wikidata:Q6501749	генеральный секретарь
+N13	Reference T36 Wikidata:Q1253	Пан Ги Мун
+N15	Reference T45 Wikidata:Q597	Лиссабон
+N16	Reference T46 Wikidata:Q922399	европейский вариант португальского языка
+N17	Reference T47 Wikidata:Q82955	политик
+N18	Reference T50 Wikidata:Q847263	Социалистическая партия
+N19	Reference T56 Wikidata:Q140686	председатель
+N20	Reference T57 Wikidata:Q159454	Социалистический интернационал
+N22	Reference T65 Wikidata:Q45	Португалия
+N23	Reference T66 Wikidata:Q81066	генеральный секретарь ООН
+N24	Reference T68 Wikidata:Q14212	премьер-министр
+N8	Reference T22 Wikidata:Q37470	Совет Безопасности ООН
+N32	Reference T25 Wikidata:Q47423	Генеральная Ассамблея ООН
+N9	Reference T28 Wikidata:Q6501749	генеральный секретарь
+N33	Reference T75 Wikidata:Q1723031	
+N14	Reference T42 Wikidata:Q311440	Антониу Гутерриш
+N28	Reference T62 Wikidata:Q1723031	
+N29	Reference T72 Wikidata:Q45	Португалия
+N26	Reference T71 Wikidata:Q27832358	
+N35	Reference T59 Wikidata:Q123695	
+N27	Reference T61 Wikidata:Q27104951	
+N34	Reference T77 Wikidata:Q27134289	
+N4	Reference T16 Wikidata:Q19356884	
+N31	Reference T76 Wikidata:Q4374313	
+N21	Reference T64 Wikidata:NULL	нет данных
+N25	Reference T41 Wikidata:NULL	нет данных
+N30	Reference T74 Wikidata:NULL	нет данных
+N36	Reference T18 Wikidata:Q1065	Организация Объединённых Наций
+N37	Reference T29 Wikidata:Q1065	Организация Объединённых Наций
+N38	Reference T33 Wikidata:Q1065	Организация Объединённых Наций
+N39	Reference T7 Wikidata:Q1065	Организация Объединённых Наций
+N40	Reference T15 Wikidata:Q1065	Организация Объединённых Наций
+N41	Reference T21 Wikidata:Q1065	Организация Объединённых Наций
+N42	Reference T2 Wikidata:Q1065	Организация Объединённых Наций
+N43	Reference T60 Wikidata:Q1065	Организация Объединённых Наций
+N44	Reference T23 Wikidata:Q1065	Организация Объединённых Наций
+N45	Reference T49 Wikidata:Q6501749	генеральный секретарь
+N46	Reference T54 Wikidata:Q45	Португалия
+N47	Reference T73 Wikidata:Q45	Португалия
+N48	Reference T12 Wikidata:Q45	Португалия
+N49	Reference T40 Wikidata:Q81066	генеральный секретарь ООН
+N50	Reference T43 Wikidata:Q81066	генеральный секретарь ООН
+N51	Reference T69 Wikidata:Q81066	генеральный секретарь ООН
+N52	Reference T53 Wikidata:Q14212	премьер-министр
+N53	Reference T26 Wikidata:Q37470	Совет Безопасности ООН
+N54	Reference T67 Wikidata:Q37470	Совет Безопасности ООН
+N55	Reference T70 Wikidata:Q47423	Генеральная Ассамблея ООН
+N56	Reference T35 Wikidata:Q6501749	генеральный секретарь
+N57	Reference T1 Wikidata:Q6501749	генеральный секретарь
+N58	Reference T14 Wikidata:Q6501749	генеральный секретарь
+N59	Reference T4 Wikidata:Q311440	Антониу Гутерриш
+N60	Reference T5 Wikidata:Q311440	Антониу Гутерриш
+N61	Reference T13 Wikidata:Q311440	Антониу Гутерриш
+N62	Reference T39 Wikidata:Q311440	Антониу Гутерриш
+R2	PART_OF Arg1:T67 Arg2:T10	

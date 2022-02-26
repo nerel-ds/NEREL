@@ -1,0 +1,95 @@
+T1	PROFESSION 0 7	Премьер
+T2	PROFESSION 59 74	Премьер-министр
+T3	PERSON 90 103	Борис Джонсон
+T4	DISEASE 154 162	Covid-19
+T5	DATE 164 175	С 27 апреля
+T6	PERSON 247 254	Джонсон
+T7	DATE 292 302	две недели
+T8	FACILITY 373 379	Чекерс
+T9	STATE_OR_PROVINCE 391 402	Бакингемшир
+T10	ORGANIZATION 410 424	Deutsche Welle
+T11	DATE 427 439	На 27 апреля
+T12	DATE 556 570	на этой неделе
+T13	DATE 606 611	7 мая
+T14	DATE 677 690	В конце марта
+T15	AGE 691 700	55-летний
+T16	DATE 845 853	5 апреля
+T17	DATE 877 894	На следующий день
+T18	PERSON 990 997	Джонсон
+T19	DATE 1094 1102	9 апреля
+T20	COUNTRY 1152 1160	Британии
+T21	NUMBER 1174 1189	более 154 тысяч
+T22	NUMBER 1199 1214	около 21 тысячи
+T23	COUNTRY 8 16	Британии
+T24	COUNTRY 75 89	Великобритании
+T25	PROFESSION 0 16	Премьер Британии
+T26	PROFESSION 59 89	Премьер-министр Великобритании
+T27	PROFESSION 176 195	глава правительства
+T28	PROFESSION 442 450	премьера
+T29	EVENT 460 469	заседание
+T30	PROFESSION 470 488	министров кабинета
+T31	DISEASE 530 542	коронавируса
+T32	PROFESSION 1103 1110	премьер
+T33	PROFESSION 789 796	Политик
+T34	PROFESSION 712 719	премьер
+T35	COUNTRY 701 711	британский
+T36	DISEASE 733 744	коронавирус
+T37	PROFESSION 544 551	Премьер
+R1	WORKPLACE Arg1:T25 Arg2:T23	
+R2	ALTERNATIVE_NAME Arg1:T25 Arg2:T26	
+R3	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R4	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R5	WORKS_AS Arg1:T3 Arg2:T26	
+R6	WORKS_AS Arg1:T3 Arg2:T27	
+R7	LOCATED_IN Arg1:T8 Arg2:T9	
+T38	PROFESSION 701 719	британский премьер
+R8	WORKPLACE Arg1:T38 Arg2:T35	
+R9	AGE_IS Arg1:T38 Arg2:T15	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T6	
+R11	ALTERNATIVE_NAME Arg1:T27 Arg2:T28	
+R12	WORKS_AS Arg1:T6 Arg2:T38	
+R13	PLACE_RESIDES_IN Arg1:T6 Arg2:T8	
+R14	POINT_IN_TIME Arg1:T29 Arg2:T11	
+R15	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+T39	EVENT 666 674	локдауна
+R16	WORKS_AS Arg1:T6 Arg2:T38	
+R17	WORKS_AS Arg1:T6 Arg2:T33	
+R18	ALTERNATIVE_NAME Arg1:T26 Arg2:T38	
+R19	WORKS_AS Arg1:T18 Arg2:T32	
+R20	AGE_IS Arg1:T6 Arg2:T15	
+R21	MEDICAL_CONDITION Arg1:T3 Arg2:T4	
+R22	PARTICIPANT_IN Arg1:T30 Arg2:T29	
+R23	TAKES_PLACE_IN Arg1:T39 Arg2:T24	
+R24	HAS_CAUSE Arg1:T39 Arg2:T31	
+R25	MEDICAL_CONDITION Arg1:T38 Arg2:T36	
+T40	EVENT 797 813	самоизолировался
+R26	AGENT Arg1:T33 Arg2:T40	
+T41	EVENT 859 875	госпитализирован
+R27	PARTICIPANT_IN Arg1:T33 Arg2:T41	
+R28	POINT_IN_TIME Arg1:T41 Arg2:T16	
+T42	DATE 160 162	19
+N2	Reference T9 Wikidata:Q23229	Бакингемшир
+N3	Reference T10 Wikidata:Q646679	Neue Deutsche Welle
+N5	Reference T24 Wikidata:Q145	Великобритания
+N6	Reference T26 Wikidata:Q14211	премьер-министр Великобритании
+N7	Reference T27 Wikidata:Q2285706	глава правительства
+N9	Reference T33 Wikidata:Q82955	политик
+N11	Reference T37 Wikidata:Q14212	премьер-министр
+N1	Reference T8 Wikidata:Q1070192	
+N8	Reference T30 Wikidata:Q83307	министр
+N10	Reference T35 Wikidata:Q145	Великобритания
+N4	Reference T18 Wikidata:Q180589	Борис Джонсон
+N12	Reference T20 Wikidata:Q145	Великобритания
+N13	Reference T23 Wikidata:Q145	Великобритания
+N14	Reference T25 Wikidata:Q14211	премьер-министр Великобритании
+N15	Reference T38 Wikidata:Q14211	премьер-министр Великобритании
+N16	Reference T28 Wikidata:Q2285706	глава правительства
+N17	Reference T32 Wikidata:Q14212	премьер-министр
+N18	Reference T34 Wikidata:Q14212	премьер-министр
+N19	Reference T2 Wikidata:Q14212	премьер-министр
+N20	Reference T1 Wikidata:Q14212	премьер-министр
+N21	Reference T6 Wikidata:Q180589	Борис Джонсон
+N22	Reference T3 Wikidata:Q180589	Борис Джонсон
+T43	EVENT 944 984	перевели в отделение интенсивной терапии
+R29	PARTICIPANT_IN Arg1:T18 Arg2:T43	
+R30	POINT_IN_TIME Arg1:T43 Arg2:T17	

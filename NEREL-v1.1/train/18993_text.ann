@@ -1,0 +1,44 @@
+T1	PERSON 17 32	Сальвадора Дали
+T2	PERSON 33 47	Сальвадор Дали
+T3	COUNTRY 56 82	Соединённых Штатов Америки
+T5	CITY 120 132	нью-йоркской
+T6	PERSON 159 174	Сальвадора Дали
+T7	MONEY 190 212	150 тысяч долларов США
+T8	DATE 215 243	Во вторник 20 июня 2012 года
+T9	AGE 264 275	средних лет
+T10	FACILITY 293 313	Venus Over Manhattan
+T11	WORK_OF_ART 511 527	Дон Хуан Тенорио
+T12	DATE 543 554	в 1949 году
+T13	EVENT 0 8	Похищена
+T14	ORGANIZATION 48 82	Полиция Соединённых Штатов Америки
+T15	ORGANIZATION 48 55	Полиция
+T4	COUNTRY 209 212	США
+T16	ORGANIZATION 398 405	полиции
+R1	HEADQUARTERED_IN Arg1:T14 Arg2:T3	
+R2	LOCATED_IN Arg1:T10 Arg2:T5	
+R3	LOCATED_IN Arg1:T5 Arg2:T3	
+R4	DATE_OF_CREATION Arg1:T11 Arg2:T12	
+R5	PRODUCES Arg1:T1 Arg2:T11	
+R6	LOCATED_IN Arg1:T11 Arg2:T10	
+T17	EVENT 105 116;151 174	похитившего полотно Сальвадора Дали
+R7	PRICE_OF Arg1:T11 Arg2:T7	
+R8	TAKES_PLACE_IN Arg1:T17 Arg2:T10	
+T18	EVENT 0 16	Похищена картина
+T19	EVENT 83 103	разыскивает человека
+R9	AGENT Arg1:T14 Arg2:T19	
+R10	HAS_CAUSE Arg1:T19 Arg2:T17	
+T20	DISTRICT 304 313	Manhattan
+R11	LOCATED_IN Arg1:T10 Arg2:T20	
+R12	INANIMATE_INVOLVED Arg1:T11 Arg2:T17	
+N1	Reference T3 Wikidata:Q30	США
+N3	Reference T6 Wikidata:Q5577	Сальвадор Дали
+N7	Reference T4 Wikidata:Q30	США
+N8	Reference T16 Wikidata:Q35535	полиция
+N6	Reference T14 Wikidata:Q1365622	
+N2	Reference T5 Wikidata:Q60	Нью-Йорк
+N9	Reference T20 Wikidata:Q11299	Манхэттен
+N4	Reference T10 Wikidata:Q28403424	
+N5	Reference T11 Wikidata:Q5047078	
+N10	Reference T1 Wikidata:Q5577	Сальвадор Дали
+N11	Reference T2 Wikidata:Q5577	Сальвадор Дали
+N12	Reference T15 Wikidata:Q35535	полиция

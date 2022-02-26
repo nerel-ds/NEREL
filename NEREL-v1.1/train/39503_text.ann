@@ -1,0 +1,138 @@
+T1	PROFESSION 0 22	Временный руководитель
+T2	PERSON 30 41	Адли Мансур
+T3	ORGANIZATION 52 77	верхнюю палату парламента
+T4	DATE 79 95	5 июля 2013 года
+T6	PERSON 126 137	Адли Мансур
+T7	ORGANIZATION 148 180	верхнюю палату парламента страны
+T8	ORGANIZATION 183 193	Совет Шура
+T9	ORGANIZATION 195 216	Консультативный совет
+T10	ORGANIZATION 218 231	Shura Council
+T12	ORGANIZATION 309 342	Высший конституционный суд Египта
+T13	ORGANIZATION 369 390	Консультативный совет
+T14	LAW 416 427	Конституции
+T15	PROFESSION 449 490	исполняющий обязанности главы государства
+T16	ORGANIZATION 515 543	Службе общей разведки Египта
+T17	PROFESSION 566 573	генерал
+T19	PROFESSION 622 648	советником по безопасности
+T20	AGE 664 673	68-летний
+T21	PROFESSION 674 708	глава Конституционного суда Египта
+T22	ORGANIZATION 680 701	Конституционного суда
+T23	COUNTRY 702 708	Египта
+T24	PERSON 709 720	Адли Мансур
+T25	DATE 721 737	4 июля 2013 года
+T27	PROFESSION 0 29	Временный руководитель Египта
+T30	COUNTRY 23 29	Египта
+T31	ORGANIZATION 67 77	парламента
+T32	PROFESSION 96 125	временный руководитель Египта
+T33	COUNTRY 119 125	Египта
+T34	PROFESSION 106 125	руководитель Египта
+T35	ORGANIZATION 148 173	верхнюю палату парламента
+T36	ORGANIZATION 163 180	парламента страны
+T37	ORGANIZATION 163 173	парламента
+T40	COUNTRY 336 342	Египта
+T41	LAW 351 390	закон о выборах в Консультативный совет
+T42	EVENT 359 366	выборах
+T43	PROFESSION 473 490	главы государства
+T44	ORGANIZATION 515 536	Службе общей разведки
+T45	COUNTRY 537 543	Египта
+T46	PERSON 574 592	Мухаммед ат-Тахами
+T49	PERSON 649 661	Адли Мансура
+T50	PROFESSION 674 701	глава Конституционного суда
+T51	ORGANIZATION 680 708	Конституционного суда Египта
+T52	EVENT 745 752	присягу
+T53	PROFESSION 775 787	главы страны
+T54	EVENT 817 836	военного переворота
+T55	DATE 808 816	накануне
+R1	WORKPLACE Arg1:T27 Arg2:T30	
+T11	DATE 285 308	в начале июня 2013 года
+R2	HEADQUARTERED_IN Arg1:T16 Arg2:T45	
+R3	WORKS_AS Arg1:T2 Arg2:T27	
+R4	PART_OF Arg1:T3 Arg2:T31	
+T28	EVENT 42 51	распустил
+R5	AGENT Arg1:T2 Arg2:T28	
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T28	
+R7	WORKPLACE Arg1:T32 Arg2:T33	
+R8	WORKS_AS Arg1:T6 Arg2:T32	
+R9	WORKPLACE Arg1:T6 Arg2:T33	
+T5	EVENT 138 147	распустил
+R10	POINT_IN_TIME Arg1:T5 Arg2:T4	
+R11	AGENT Arg1:T6 Arg2:T5	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T5	
+R13	PART_OF Arg1:T7 Arg2:T36	
+R14	PART_OF Arg1:T35 Arg2:T37	
+R15	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+T29	ORGANIZATION 309 335	Высший конституционный суд
+R17	HEADQUARTERED_IN Arg1:T12 Arg2:T40	
+R18	PARTICIPANT_IN Arg1:T13 Arg2:T42	
+T38	LAW 416 434	Конституции страны
+T39	EVENT 343 356	признал закон
+R19	AGENT Arg1:T12 Arg2:T39	
+R20	POINT_IN_TIME Arg1:T42 Arg2:T11	
+R21	HAS_CAUSE Arg1:T5 Arg2:T42	
+R22	WORKS_AS Arg1:T46 Arg2:T17	
+R23	SUBORDINATE_OF Arg1:T19 Arg2:T49	
+R24	AGE_IS Arg1:T24 Arg2:T20	
+R25	WORKPLACE Arg1:T21 Arg2:T51	
+R26	HEADQUARTERED_IN Arg1:T51 Arg2:T23	
+R27	WORKPLACE Arg1:T24 Arg2:T51	
+R28	WORKS_AS Arg1:T24 Arg2:T21	
+R29	WORKPLACE Arg1:T24 Arg2:T23	
+R30	WORKPLACE Arg1:T21 Arg2:T23	
+R31	POINT_IN_TIME Arg1:T52 Arg2:T25	
+R32	AGENT Arg1:T24 Arg2:T52	
+R34	POINT_IN_TIME Arg1:T54 Arg2:T55	
+R35	HAS_CAUSE Arg1:T52 Arg2:T54	
+R33	WORKS_AS Arg1:T24 Arg2:T53	
+R36	TAKES_PLACE_IN Arg1:T28 Arg2:T30	
+R37	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R38	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R39	TAKES_PLACE_IN Arg1:T5 Arg2:T33	
+T18	EVENT 491 512	произвёл перестановки
+R40	AGENT Arg1:T15 Arg2:T18	
+R41	PARTICIPANT_IN Arg1:T16 Arg2:T18	
+R42	TAKES_PLACE_IN Arg1:T18 Arg2:T45	
+R43	WORKPLACE Arg1:T46 Arg2:T16	
+R44	WORKPLACE Arg1:T17 Arg2:T16	
+R45	TAKES_PLACE_IN Arg1:T52 Arg2:T23	
+R46	TAKES_PLACE_IN Arg1:T54 Arg2:T23	
+N3	Reference T12 Wikidata:Q2156821	Высший конституционный суд Египта
+N4	Reference T14 Wikidata:Q7755	конституция
+N7	Reference T17 Wikidata:Q83460	генерал
+N10	Reference T22 Wikidata:Q32766	Конституционный суд
+N12	Reference T34 Wikidata:Q2462658	менеджер
+N13	Reference T37 Wikidata:Q35749	парламент
+N15	Reference T43 Wikidata:Q48352	глава государства
+N16	Reference T44 Wikidata:Q285381	Служба общей разведки
+N17	Reference T45 Wikidata:Q79	Египет
+N19	Reference T49 Wikidata:Q13593432	Адли Мансур
+N21	Reference T51 Wikidata:Q2156821	Высший конституционный суд Египта
+N24	Reference T38 Wikidata:Q7755	конституция
+N1	Reference T1 Wikidata:NULL	нет данных
+N11	Reference T27 Wikidata:NULL	нет данных
+N25	Reference T36 Wikidata:Q2584535	
+N26	Reference T35 Wikidata:Q637846	
+N2	Reference T10 Wikidata:Q679245	
+N23	Reference T29 Wikidata:NULL	нет данных
+N14	Reference T41 Wikidata:NULL	нет данных
+N5	Reference T15 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q630014	Служба общей разведки
+N18	Reference T46 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q91947388	
+N20	Reference T50 Wikidata:NULL	нет данных
+N9	Reference T21 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:Q15618993	президент Египта
+N27	Reference T31 Wikidata:Q35749	парламент
+N28	Reference T40 Wikidata:Q79	Египет
+N29	Reference T23 Wikidata:Q79	Египет
+N30	Reference T33 Wikidata:Q79	Египет
+N31	Reference T30 Wikidata:Q79	Египет
+N32	Reference T6 Wikidata:Q13593432	Адли Мансур
+N33	Reference T24 Wikidata:Q13593432	Адли Мансур
+N34	Reference T2 Wikidata:Q13593432	Адли Мансур
+N35	Reference T32 Wikidata:NULL	нет данных
+N36	Reference T3 Wikidata:Q637846	
+N37	Reference T13 Wikidata:Q679245	
+N38	Reference T8 Wikidata:Q679245	
+N39	Reference T7 Wikidata:Q679245	
+N40	Reference T9 Wikidata:Q679245	

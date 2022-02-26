@@ -1,0 +1,97 @@
+T1	PERSON 0 9	Хань Гоюй
+T3	COUNTRY 54 61	Тайваня
+T4	COUNTRY 65 72	Тайване
+T5	ORGANIZATION 80 89	Гоминьдан
+T6	EVENT 113 120	выборах
+T7	DATE 151 169	в январе 2020 года
+T8	PERSON 179 188	Хань Гоюй
+T9	PROFESSION 190 193	мэр
+T10	CITY 201 207	Гаосюн
+T11	EVENT 229 238	праймериз
+T12	NUMBER 239 246	четырёх
+T13	COUNTRY 306 313	Тайваня
+T14	PERSON 326 335	Терри Гоу
+T15	PERSON 337 346	Хань Гоюй
+T16	COUNTRY 465 472	Тайваня
+T17	PERSON 500 509	Хань Гоюй
+T18	DATE 522 530	2019 год
+T19	COUNTRY 569 576	Тайвань
+T20	COUNTRY 650 655	Китай
+T21	ORGANIZATION 681 691	Гоминьдану
+T22	AGE 726 735	62-летний
+T23	PERSON 753 762	Хань Гоюй
+T24	PROFESSION 786 805	президентом острова
+T25	PERSON 806 816	Цай Инвэнь
+T26	ORGANIZATION 820 856	Демократической прогрессивной партии
+T27	DATE 906 917	в 2016 году
+T28	CITY 928 934	Тайбэя
+T29	CITY 937 943	Пекина
+T30	COUNTRY 963 968	Китай
+T31	STATE_OR_PROVINCE 977 984	Тайвань
+T32	ORGANIZATION 26 36	Гоминьдана
+T33	EVENT 113 131	выборах президента
+R1	AGE_IS Arg1:T23 Arg2:T22	
+R2	MEMBER_OF Arg1:T1 Arg2:T32	
+R3	POINT_IN_TIME Arg1:T33 Arg2:T7	
+R4	ORIGINS_FROM Arg1:T14 Arg2:T13	
+T2	ORGANIZATION 265 275	Гоминьдана
+T35	PROFESSION 190 207	мэр города Гаосюн
+R5	WORKS_AS Arg1:T8 Arg2:T35	
+R6	MEMBER_OF Arg1:T14 Arg2:T2	
+T36	EVENT 359 379	президентские выборы
+T38	PROFESSION 48 61	главы Тайваня
+T39	EVENT 40 47	выборах
+T40	EVENT 40 53	выборах главы
+R7	WORKS_AS Arg1:T25 Arg2:T24	
+R8	MEMBER_OF Arg1:T25 Arg2:T26	
+T41	PROFESSION 736 743	политик
+R9	WORKS_AS Arg1:T23 Arg2:T41	
+T42	IDEOLOGY 744 752	популист
+R10	PARTICIPANT_IN Arg1:T1 Arg2:T40	
+R11	PLACE_RESIDES_IN Arg1:T1 Arg2:T3	
+R12	TAKES_PLACE_IN Arg1:T33 Arg2:T4	
+R13	PARTICIPANT_IN Arg1:T5 Arg2:T33	
+R14	WORKPLACE Arg1:T8 Arg2:T10	
+R15	PARTICIPANT_IN Arg1:T8 Arg2:T11	
+R16	PARTICIPANT_IN Arg1:T14 Arg2:T11	
+R17	HEADQUARTERED_IN Arg1:T5 Arg2:T4	
+R18	TAKES_PLACE_IN Arg1:T36 Arg2:T16	
+R19	IDEOLOGY_OF Arg1:T23 Arg2:T42	
+R20	TAKES_PLACE_IN Arg1:T40 Arg2:T3	
+R21	WORKPLACE Arg1:T35 Arg2:T10	
+T34	EVENT 373 379	выборы
+T37	IDEOLOGY 820 835	Демократической
+R22	IDEOLOGY_OF Arg1:T26 Arg2:T37	
+R23	IDEOLOGY_OF Arg1:T25 Arg2:T37	
+R24	IDEOLOGY_OF Arg1:T41 Arg2:T42	
+R25	WORKPLACE Arg1:T38 Arg2:T3	
+R26	ALTERNATIVE_NAME Arg1:T40 Arg2:T33	
+R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T36	
+N1	Reference T1 Wikidata:Q8274095	Хань Гоюй
+N2	Reference T3 Wikidata:Q865	Китайская Республика
+N3	Reference T5 Wikidata:Q31113	Гоминьдан
+N4	Reference T9 Wikidata:Q30185	мэр
+N5	Reference T10 Wikidata:Q181557	Гаосюн
+N6	Reference T14 Wikidata:Q716830	Терри Гоу
+N8	Reference T25 Wikidata:Q233984	Цай Инвэнь
+N9	Reference T26 Wikidata:Q903822	Демократическая прогрессивная партия
+N10	Reference T28 Wikidata:Q1867	Тайбэй
+N11	Reference T29 Wikidata:Q956	Пекин
+N12	Reference T30 Wikidata:Q148	Китайская Народная Республика
+N13	Reference T31 Wikidata:Q865	Китайская Республика
+N16	Reference T41 Wikidata:Q82955	политик
+N15	Reference T38 Wikidata:Q887003	
+N14	Reference T35 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:Q887003	
+N17	Reference T8 Wikidata:Q8274095	Хань Гоюй
+N18	Reference T17 Wikidata:Q8274095	Хань Гоюй
+N19	Reference T15 Wikidata:Q8274095	Хань Гоюй
+N20	Reference T23 Wikidata:Q8274095	Хань Гоюй
+N21	Reference T4 Wikidata:Q865	Китайская Республика
+N22	Reference T19 Wikidata:Q865	Китайская Республика
+N23	Reference T13 Wikidata:Q865	Китайская Республика
+N24	Reference T16 Wikidata:Q865	Китайская Республика
+N25	Reference T32 Wikidata:Q31113	Гоминьдан
+N26	Reference T2 Wikidata:Q31113	Гоминьдан
+N27	Reference T21 Wikidata:Q31113	Гоминьдан
+N28	Reference T20 Wikidata:Q148	Китайская Народная Республика

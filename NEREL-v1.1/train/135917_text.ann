@@ -1,0 +1,217 @@
+T1	PERSON 0 12	Ратко Младич
+T2	PERSON 50 62	Ратко Младич
+T3	DATE 70 100	В четверг, 22 ноября 2017 года
+T4	ORGANIZATION 102 153	Гаагский Международный трибунал по бывшей Югославии
+T5	PROFESSION 173 191	военного командира
+T6	AGE 210 220	74-летнего
+T7	PROFESSION 221 229	генерала
+T8	PERSON 230 243	Ратко Младича
+T9	COUNTRY 312 322	Боснийской
+T10	EVENT 312 328	Боснийской войны
+T11	PROFESSION 351 356	судья
+T12	PERSON 357 368	Альфонс Ори
+T13	PERSON 397 405	Младичем
+T14	PERSON 482 488	Младич
+T15	CITY 515 520	Гааге
+T16	PERSON 566 572	Младич
+T17	ORGANIZATION 584 608	армией боснийских сербов
+T18	DATE 646 656	1995 годов
+T19	COUNTRY 659 679	Боснии и Герцеговине
+T20	DATE 763 779	в июле 1995 года
+T21	DATE 782 793	В 1996 году
+T22	COUNTRY 833 852	Республики Сербской
+T23	ORGANIZATION 865 898	Гаагским Международным трибуналом
+T24	CITY 997 1007	Сребренице
+T25	PERSON 1010 1017	Младича
+T26	COUNTRY 1119 1125	Сербии
+T27	ORGANIZATION 1128 1144	Европейский союз
+T28	MONEY 1203 1214	10 млн евро
+T29	DATE 1331 1342	В 2011 году
+T30	CITY 1388 1393	Гаагу
+T31	EVENT 1396 1416	Процесс над Младичем
+T32	PERSON 1408 1416	Младичем
+T33	DATE 1425 1441	16 мая 2012 года
+T34	NUMBER 1484 1486	11
+T35	CITY 1609 1616	Сараево
+T36	NUMBER 1674 1692	более восьми тысяч
+T37	CITY 1728 1738	Сребренице
+T38	LOCATION 1764 1770	Европе
+T39	EVENT 1777 1797	Второй мировой войны
+T40	ORGANIZATION 1838 1841	ООН
+T41	DATE 1842 1853	в 1995 году
+T42	PERSON 1856 1862	Младич
+T43	DATE 1903 1911	530 дней
+T44	NUMBER 1930 1939	более 160
+T45	NUMBER 1963 1972	свыше 200
+T46	PERSON 2105 2112	Младича
+T47	PROFESSION 2226 2233	Генерал
+T48	PENALTY 26 49	пожизненному заключению
+T49	CITY 102 110	Гаагский
+T50	COUNTRY 144 153	Югославии
+T51	NATIONALITY 192 209	боснийских сербов
+T52	PENALTY 246 269	пожизненному заключению
+T53	CRIME 294 302	геноциде
+T54	NATIONALITY 591 608	боснийских сербов
+T55	COUNTRY 591 601	боснийских
+T56	COUNTRY 192 202	боснийских
+T57	EVENT 618 640	вооруженного конфликта
+T58	PERSON 794 800	Младич
+T59	CITY 865 873	Гаагским
+T60	CRIME 912 932	военных преступлений
+T61	CRIME 935 943	геноциде
+T62	CITY 961 968	Сараева
+T63	EVENT 988 994	резнёй
+T64	COUNTRY 1319 1328	Югославии
+T65	COUNTRY 1343 1351	сербские
+T66	CRIME 1504 1511	геноцид
+T67	CRIME 1513 1533	военные преступления
+T68	CRIME 1536 1568	преступления против человечности
+T69	EVENT 1583 1606	снайперскими обстрелами
+T70	RELIGION 1693 1706	мусульманских
+T71	CRIME 1818 1841	захвате сотрудников ООН
+T72	PROFESSION 2149 2157	адвокаты
+R1	WORKS_AS Arg1:T8 Arg2:T7	
+R2	AGE_IS Arg1:T8 Arg2:T6	
+R3	ORIGINS_FROM Arg1:T8 Arg2:T51	
+R4	CONVICTED_OF Arg1:T8 Arg2:T53	
+R5	TAKES_PLACE_IN Arg1:T10 Arg2:T9	
+R6	PARTICIPANT_IN Arg1:T8 Arg2:T10	
+R7	WORKS_AS Arg1:T12 Arg2:T11	
+R8	PLACE_RESIDES_IN Arg1:T51 Arg2:T56	
+R9	HEADQUARTERED_IN Arg1:T4 Arg2:T49	
+R10	PLACE_RESIDES_IN Arg1:T54 Arg2:T55	
+R11	HEADQUARTERED_IN Arg1:T23 Arg2:T59	
+T73	EVENT 954 968	осадой Сараева
+T74	EVENT 988 1007	резнёй в Сребренице
+R12	TAKES_PLACE_IN Arg1:T74 Arg2:T24	
+R13	CONVICTED_OF Arg1:T32 Arg2:T66	
+R14	CONVICTED_OF Arg1:T32 Arg2:T67	
+R15	CONVICTED_OF Arg1:T32 Arg2:T68	
+T75	PROFESSION 1826 1841	сотрудников ООН
+R16	WORKPLACE Arg1:T75 Arg2:T40	
+R17	PARTICIPANT_IN Arg1:T75 Arg2:T71	
+R18	POINT_IN_TIME Arg1:T71 Arg2:T41	
+T76	DISEASE 2089 2104	слабом здоровье
+R19	MEDICAL_CONDITION Arg1:T46 Arg2:T76	
+R20	WORKS_AS Arg1:T46 Arg2:T47	
+T77	EVENT 13 23	приговорён
+R21	PARTICIPANT_IN Arg1:T1 Arg2:T77	
+R22	PENALIZED_AS Arg1:T1 Arg2:T48	
+T78	EVENT 154 164	приговорил
+R23	ALTERNATIVE_NAME Arg1:T77 Arg2:T78	
+R24	AGENT Arg1:T4 Arg2:T78	
+R25	POINT_IN_TIME Arg1:T78 Arg2:T3	
+R26	TAKES_PLACE_IN Arg1:T78 Arg2:T49	
+T79	PROFESSION 173 209	военного командира боснийских сербов
+R27	WORKS_AS Arg1:T8 Arg2:T5	
+R28	PARTICIPANT_IN Arg1:T8 Arg2:T78	
+R29	PENALIZED_AS Arg1:T8 Arg2:T52	
+R30	HAS_CAUSE Arg1:T53 Arg2:T10	
+R31	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+R32	WORKPLACE Arg1:T16 Arg2:T17	
+R33	ABBREVIATION Arg1:T17 Arg2:T54	
+T80	EVENT 618 656	вооруженного конфликта 1992-1995 годов
+T81	DATE 641 645	1992
+R34	START_TIME Arg1:T80 Arg2:T81	
+R35	END_TIME Arg1:T80 Arg2:T18	
+R36	TAKES_PLACE_IN Arg1:T80 Arg2:T19	
+R37	PARTICIPANT_IN Arg1:T16 Arg2:T80	
+R38	PARTICIPANT_IN Arg1:T17 Arg2:T80	
+R40	CONVICTED_OF Arg1:T58 Arg2:T60	
+R41	CONVICTED_OF Arg1:T58 Arg2:T61	
+R42	TAKES_PLACE_IN Arg1:T73 Arg2:T62	
+R43	HAS_CAUSE Arg1:T60 Arg2:T73	
+R44	HAS_CAUSE Arg1:T61 Arg2:T73	
+T82	EVENT 857 864	обвинён
+T83	PROFESSION 818 852	руководителями Республики Сербской
+R39	WORKS_AS Arg1:T58 Arg2:T83	
+R45	WORKPLACE Arg1:T83 Arg2:T22	
+R46	POINT_IN_TIME Arg1:T82 Arg2:T21	
+R47	CONVICTED_OF Arg1:T83 Arg2:T60	
+R48	CONVICTED_OF Arg1:T83 Arg2:T61	
+R49	HAS_CAUSE Arg1:T60 Arg2:T74	
+R50	HAS_CAUSE Arg1:T61 Arg2:T74	
+R51	PARTICIPANT_IN Arg1:T58 Arg2:T74	
+T84	EVENT 1018 1049	объявили в международный розыск
+R52	PARTICIPANT_IN Arg1:T25 Arg2:T84	
+T86	ORGANIZATION 1343 1358	сербские власти
+T87	EVENT 1359 1369	арестовали
+R53	AGENT Arg1:T86 Arg2:T87	
+R54	POINT_IN_TIME Arg1:T87 Arg2:T29	
+R55	START_TIME Arg1:T31 Arg2:T33	
+R56	PARTICIPANT_IN Arg1:T32 Arg2:T31	
+T88	EVENT 1583 1616	снайперскими обстрелами в Сараево
+R57	TAKES_PLACE_IN Arg1:T88 Arg2:T35	
+R58	HAS_CAUSE Arg1:T68 Arg2:T88	
+R59	HAS_CAUSE Arg1:T67 Arg2:T88	
+R60	HAS_CAUSE Arg1:T66 Arg2:T88	
+R61	PARTICIPANT_IN Arg1:T32 Arg2:T88	
+T89	CRIME 1664 1673	убийством
+R62	TAKES_PLACE_IN Arg1:T89 Arg2:T37	
+R63	LOCATED_IN Arg1:T37 Arg2:T38	
+R64	PARTICIPANT_IN Arg1:T70 Arg2:T89	
+R65	MEMBER_OF Arg1:T12 Arg2:T4	
+R66	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R67	MEMBER_OF Arg1:T26 Arg2:T27	
+T85	LOCATION 1128 1139	Европейский
+R68	HEADQUARTERED_IN Arg1:T27 Arg2:T85	
+T90	EVENT 1183 1200	назначена награда
+R69	PARTICIPANT_IN Arg1:T25 Arg2:T90	
+R70	INANIMATE_INVOLVED Arg1:T28 Arg2:T90	
+R71	PARTICIPANT_IN Arg1:T25 Arg2:T87	
+T91	EVENT 1376 1385	доставили
+R72	PARTICIPANT_IN Arg1:T25 Arg2:T91	
+R73	POINT_IN_TIME Arg1:T91 Arg2:T29	
+R74	HEADQUARTERED_IN Arg1:T86 Arg2:T65	
+R75	AGENT Arg1:T86 Arg2:T91	
+R76	TAKES_PLACE_IN Arg1:T91 Arg2:T30	
+R77	CONVICTED_OF Arg1:T32 Arg2:T71	
+R78	CONVICTED_OF Arg1:T32 Arg2:T89	
+N1	Reference T4 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N2	Reference T11 Wikidata:Q16533	судья
+N4	Reference T16 Wikidata:Q93167	Ратко Младич
+N6	Reference T19 Wikidata:Q225	Босния и Герцеговина
+N7	Reference T22 Wikidata:Q11196	Республика Сербская
+N8	Reference T23 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N9	Reference T26 Wikidata:Q403	Сербия
+N10	Reference T27 Wikidata:Q458	Европейский союз
+N11	Reference T30 Wikidata:Q7265921	Галагах
+N12	Reference T35 Wikidata:Q11194	Сараево
+N13	Reference T37 Wikidata:Q156053	Сребреница
+N14	Reference T38 Wikidata:Q176626	Европа, Европа
+N15	Reference T40 Wikidata:Q1065	Организация Объединённых Наций
+N16	Reference T47 Wikidata:Q83460	генерал
+N20	Reference T62 Wikidata:Q11194	Сараево
+N21	Reference T64 Wikidata:Q36704	Югославия
+N24	Reference T72 Wikidata:Q40348	адвокат
+N17	Reference T49 Wikidata:Q36600	Гаага
+N29	Reference T5 Wikidata:Q11545923	
+N30	Reference T79 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N18	Reference T54 Wikidata:Q1064662	
+N19	Reference T55 Wikidata:Q225	Босния и Герцеговина
+N26	Reference T83 Wikidata:NULL	нет данных
+N28	Reference T85 Wikidata:Q46	Европа
+N27	Reference T86 Wikidata:NULL	нет данных
+N22	Reference T65 Wikidata:Q403	Сербия
+N23	Reference T70 Wikidata:Q432	ислам
+N25	Reference T75 Wikidata:NULL	нет данных
+N31	Reference T13 Wikidata:Q93167	Ратко Младич
+N32	Reference T8 Wikidata:Q93167	Ратко Младич
+N33	Reference T14 Wikidata:Q93167	Ратко Младич
+N34	Reference T46 Wikidata:Q93167	Ратко Младич
+N35	Reference T25 Wikidata:Q93167	Ратко Младич
+N36	Reference T32 Wikidata:Q93167	Ратко Младич
+N37	Reference T42 Wikidata:Q93167	Ратко Младич
+N38	Reference T58 Wikidata:Q93167	Ратко Младич
+N39	Reference T2 Wikidata:Q93167	Ратко Младич
+N40	Reference T1 Wikidata:Q93167	Ратко Младич
+N41	Reference T15 Wikidata:Q7265921	Галагах
+N42	Reference T24 Wikidata:Q156053	Сребреница
+N43	Reference T7 Wikidata:Q83460	генерал
+N44	Reference T50 Wikidata:Q36704	Югославия
+N45	Reference T59 Wikidata:Q36600	Гаага
+N46	Reference T51 Wikidata:Q1064662	
+N47	Reference T9 Wikidata:Q225	Босния и Герцеговина
+N48	Reference T56 Wikidata:Q225	Босния и Герцеговина

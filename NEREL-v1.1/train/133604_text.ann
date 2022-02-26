@@ -1,0 +1,122 @@
+T1	ORGANIZATION 12 21	Freixenet
+T2	STATE_OR_PROVINCE 64 73	Каталонии
+T3	ORGANIZATION 75 84	Freixenet
+T5	ORGANIZATION 103 114	'Freixenet'
+T9	CITY 239 248	Барселона
+T10	STATE_OR_PROVINCE 250 259	Каталония
+T11	ORGANIZATION 333 346	''Freixenet''
+T12	PERSON 368 383	Хосе Луис Бонет
+T13	PERSON 385 402	Josep Lluís Bonet
+T15	COUNTRY 412 421	испанской
+T16	ORGANIZATION 422 437	торговой палаты
+T17	ORGANIZATION 568 594	центральным правительством
+T18	LAW 595 614	ст. 155 Конституции
+T19	ORGANIZATION 626 639	правительства
+T20	STATE_OR_PROVINCE 640 649	Каталонии
+T21	PERSON 650 655	Bonet
+T23	ORGANIZATION 710 721	'Freixenet'
+T24	DATE 732 750	в последние месяцы
+T25	STATE_OR_PROVINCE 785 794	Каталонии
+T26	ORGANIZATION 997 1007	'Freixenet
+T27	STATE_OR_PROVINCE 1021 1030	Каталонии
+T28	ORGANIZATION 1156 1180	Colegio de Registradores
+T29	STATE_OR_PROVINCE 1218 1227	Каталонии
+T30	NUMBER 1242 1244	63
+T31	NUMBER 1290 1294	1883
+T32	DATE 1325 1334	1 октября
+T33	ORGANIZATION 1338 1347	Freixenet
+T34	ORGANIZATION 1457 1461	IWSR
+T35	CITY 1513 1521	Пенедесе
+T38	CITY 1560 1569	Барселоны
+T39	STATE_OR_PROVINCE 1572 1581	Каталонии
+T40	CITY 1592 1612	Сант-Садурни-д’Анойя
+T4	ORGANIZATION 85 114	Совет директоров ''Freixenet'
+T6	CITY 216 235	Сан-Садурни-д’Анойя
+T7	ORGANIZATION 412 437	испанской торговой палаты
+T8	ORDINAL 599 602	155
+T14	LAW 603 614	Конституции
+T41	ORGANIZATION 626 649	правительства Каталонии
+T22	EVENT 795 817	понес серьезные убытки
+T42	ORGANIZATION 1132 1154	коллегия регистраторов
+T43	EVENT 1313 1324	референдума
+T45	PRODUCT 1373 1377	КАВЫ
+T46	PRODUCT 1482 1486	Кавы
+T47	ORGANIZATION 1487 1495	Фрешенет
+R1	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+R2	LOCATED_IN Arg1:T6 Arg2:T9	
+R3	LOCATED_IN Arg1:T9 Arg2:T10	
+R4	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R5	WORKPLACE Arg1:T12 Arg2:T11	
+R6	HEADQUARTERED_IN Arg1:T7 Arg2:T15	
+T36	PROFESSION 406 437	лидер испанской торговой палаты
+R7	WORKPLACE Arg1:T36 Arg2:T15	
+R8	WORKS_AS Arg1:T13 Arg2:T36	
+R9	WORKPLACE Arg1:T13 Arg2:T7	
+R10	WORKPLACE Arg1:T13 Arg2:T15	
+R11	HEADQUARTERED_IN Arg1:T41 Arg2:T20	
+R12	WORKPLACE Arg1:T21 Arg2:T20	
+R13	ALTERNATIVE_NAME Arg1:T13 Arg2:T21	
+R14	WORKPLACE Arg1:T21 Arg2:T41	
+T37	EVENT 761 782	политическим кризисом
+R15	TAKES_PLACE_IN Arg1:T37 Arg2:T25	
+R16	POINT_IN_TIME Arg1:T22 Arg2:T24	
+R17	PARTICIPANT_IN Arg1:T23 Arg2:T22	
+R18	POINT_IN_TIME Arg1:T37 Arg2:T24	
+R19	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+R20	ALTERNATIVE_NAME Arg1:T42 Arg2:T28	
+R21	POINT_IN_TIME Arg1:T43 Arg2:T32	
+T44	EVENT 1270 1285	регион покинули
+T48	EVENT 1201 1214;1228 1237	штаб-квартиры перенесли
+R22	TAKES_PLACE_IN Arg1:T48 Arg2:T29	
+R23	PRODUCES Arg1:T33 Arg2:T45	
+R24	ALTERNATIVE_NAME Arg1:T33 Arg2:T47	
+T50	LOCATION 1550 1569	Западу от Барселоны
+R27	LOCATED_IN Arg1:T38 Arg2:T39	
+R28	LOCATED_IN Arg1:T40 Arg2:T50	
+R29	LOCATED_IN Arg1:T10 Arg2:T15	
+R30	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R31	ALTERNATIVE_NAME Arg1:T48 Arg2:T44	
+R32	HAS_CAUSE Arg1:T44 Arg2:T43	
+R33	TAKES_PLACE_IN Arg1:T43 Arg2:T29	
+R25	PRODUCES Arg1:T47 Arg2:T46	
+R26	ORIGINS_FROM Arg1:T46 Arg2:T35	
+R34	LOCATED_IN Arg1:T40 Arg2:T39	
+N1	Reference T5 Wikidata:Q1427663	Freixenet
+N3	Reference T10 Wikidata:Q5705	Каталония
+N4	Reference T11 Wikidata:Q1427663	Freixenet
+N5	Reference T15 Wikidata:Q29	Испания
+N9	Reference T19 Wikidata:Q7188	правительство
+N10	Reference T26 Wikidata:Q1427663	Freixenet
+N11	Reference T40 Wikidata:Q984508	Сант-Садурни-д’Анойя
+N13	Reference T6 Wikidata:Q984508	Сант-Садурни-д’Анойя
+N15	Reference T14 Wikidata:Q7755	конституция
+N16	Reference T41 Wikidata:Q8022	Правительство Каталонии
+N12	Reference T4 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:Q1492	Барселона
+N22	Reference T13 Wikidata:Q19300247	
+N20	Reference T36 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q1123526	торговая палата
+N14	Reference T7 Wikidata:NULL	нет данных
+N7	Reference T17 Wikidata:Q1194749	
+N8	Reference T18 Wikidata:NULL	нет данных
+N17	Reference T42 Wikidata:Q16550286	
+N23	Reference T34 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T47 Wikidata:Q1427663	Freixenet
+N24	Reference T35 Wikidata:Q2841161	
+N21	Reference T50 Wikidata:NULL	нет данных
+N25	Reference T23 Wikidata:Q1427663	Freixenet
+N26	Reference T20 Wikidata:Q5705	Каталония
+N27	Reference T25 Wikidata:Q5705	Каталония
+N28	Reference T29 Wikidata:Q5705	Каталония
+N29	Reference T39 Wikidata:Q5705	Каталония
+N30	Reference T2 Wikidata:Q5705	Каталония
+N31	Reference T27 Wikidata:Q5705	Каталония
+N32	Reference T38 Wikidata:Q1492	Барселона
+N33	Reference T21 Wikidata:Q19300247	
+N34	Reference T12 Wikidata:Q19300247	
+N35	Reference T28 Wikidata:Q16550286	
+N36	Reference T45 Wikidata:NULL	нет данных
+N37	Reference T33 Wikidata:Q1427663	Freixenet
+N38	Reference T1 Wikidata:Q1427663	Freixenet
+N39	Reference T3 Wikidata:Q1427663	Freixenet

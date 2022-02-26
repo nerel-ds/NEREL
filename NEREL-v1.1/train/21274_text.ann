@@ -1,0 +1,206 @@
+T1	PERSON 0 13	Расул Мирзаев
+T2	CITY 33 44	московского
+T3	PERSON 78 91	Расул Мирзаев
+T4	ORGANIZATION 93 118	Замоскворецкий суд Москвы
+T6	PERSON 196 211	Расула Мирзаева
+T7	AGE 259 269	19-летнему
+T8	PERSON 279 294	Ивану Агафонову
+T10	PERSON 438 446	Мирзаева
+T11	DATE 473 492	с августа 2011 года
+T12	NUMBER 503 506	два
+T13	PERSON 571 580	Агафонова
+T14	DATE 617 626	15 ноября
+T15	PROFESSION 628 636	прокурор
+T16	LAW 692 708	статьи 111 УК РФ
+T18	LAW 766 778	ст.109 УК РФ
+T19	DATE 819 827	до 2 лет
+T20	PERSON 839 847	Мирзаеву
+T21	PROFESSION 887 894	Адвокат
+T22	PERSON 904 922	Алексей Гребенской
+T23	PROFESSION 933 946	гособвинителя
+T25	PROFESSION 1014 1023	прокурора
+T26	PROFESSION 1025 1032	Адвокат
+T27	PERSON 1048 1060	Матвей Цзена
+T28	PROFESSION 1075 1083	прокурор
+T29	PROFESSION 1165 1171	судьёй
+T30	PERSON 1172 1187	Андреем Фединым
+T32	ORGANIZATION 1291 1298	Русские
+T33	IDEOLOGY 1301 1312	националист
+T34	PERSON 1313 1329	Дмитрий Дёмушкин
+T35	LOCATION 1412 1422	кавказские
+T36	NUMBER 1457 1462	двоих
+T37	NUMBER 1484 1490	одного
+T38	PROFESSION 1713 1722	адвокатов
+T39	PERSON 1738 1754	Оксана Михалкина
+T40	ORGANIZATION 1798 1809	прокуратуры
+T41	ORGANIZATION 1854 1890	Европейского суда по правам человека
+T42	DATE 1978 2006	в середине августа 2011 года
+T43	FACILITY 2040 2045	Гараж
+T44	PERSON 2047 2054	Мирзаев
+T45	PERSON 2062 2071	Агафонова
+T46	DATE 2116 2136	через несколько дней
+T47	EVENT 26 32	гибели
+T49	EVENT 55 77	освобождён в зале суда
+T51	CITY 112 118	Москвы
+T52	STATE_OR_PROVINCE 136 145	Дагестана
+T5	AWARD 147 195	чемпиона мира по самбо и смешанным единоборствам
+T53	AWARD 147 169	чемпиона мира по самбо
+T55	CRIME 223 258	причинении смерти по неосторожности
+T54	CITY 270 278	москвичу
+T56	PENALTY 321 351	двум годам ограничения свободы
+T57	EVENT 381 393	Освобождение
+T58	EVENT 296 306	приговорил
+T59	EVENT 356 378	освободили в зале суда
+T60	DATE 423 426	год
+T61	ORGANIZATION 449 471	следственном изоляторе
+T62	PROFESSION 555 561	врачей
+T63	EVENT 564 570	смерти
+T64	EVENT 590 605	судебных прений
+T65	PERSON 637 651	Андрей Сергеев
+T66	LAW 703 708	УК РФ
+T67	LAW 703 705	УК
+T68	COUNTRY 706 708	РФ
+T69	CRIME 728 763	причинение смерти по неосторожности
+T17	LAW 773 778	УК РФ
+T70	LAW 773 775	УК
+T71	COUNTRY 776 778	РФ
+T72	PENALTY 795 827	лишение свободы на срок до 2 лет
+T73	PERSON 895 903	Мирзаева
+T74	PROFESSION 887 903	Адвокат Мирзаева
+T24	PERSON 953 968	Ивана Агафонова
+T75	PROFESSION 1025 1045	Адвокат потерпевшего
+T76	PROFESSION 1274 1298	лидера движения «Русские
+T77	EVENT 1264 1273	задержали
+T79	ORGANIZATION 1439 1446	полиция
+T80	PROFESSION 1507 1522	Ивана Агафонова
+T81	PROFESSION 1713 1735	адвокатов потерпевшего
+T82	LOCATION 1854 1866	Европейского
+T83	LOCATION 2009 2022	центре Москвы
+T84	CITY 2016 2022	Москвы
+T85	EVENT 2097 2113	госпитализирован
+T86	EVENT 2055 2061	ударил
+T87	EVENT 2137 2146	скончался
+T50	ORGANIZATION 93 111	Замоскворецкий суд
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T51	
+T88	ORDINAL 699 702	111
+T89	ORDINAL 769 772	109
+R2	AWARDED_WITH Arg1:T6 Arg2:T5	
+R3	PLACE_OF_BIRTH Arg1:T6 Arg2:T52	
+R4	WORKS_AS Arg1:T65 Arg2:T15	
+R5	WORKS_AS Arg1:T30 Arg2:T29	
+R6	HEADQUARTERED_IN Arg1:T41 Arg2:T82	
+R7	LOCATED_IN Arg1:T83 Arg2:T84	
+T78	EVENT 1935 1944	конфликта
+R8	POINT_IN_TIME Arg1:T78 Arg2:T42	
+R9	TAKES_PLACE_IN Arg1:T78 Arg2:T83	
+R10	LOCATED_IN Arg1:T43 Arg2:T83	
+R11	PARTICIPANT_IN Arg1:T44 Arg2:T78	
+R12	SUBEVENT_OF Arg1:T86 Arg2:T78	
+R13	PARTICIPANT_IN Arg1:T45 Arg2:T78	
+R14	AGENT Arg1:T44 Arg2:T86	
+R15	PARTICIPANT_IN Arg1:T45 Arg2:T86	
+R16	PARTICIPANT_IN Arg1:T45 Arg2:T85	
+R17	HAS_CAUSE Arg1:T85 Arg2:T86	
+T90	DISEASE 2148 2169	не приходя в сознание
+R18	MEDICAL_CONDITION Arg1:T45 Arg2:T90	
+R19	PARTICIPANT_IN Arg1:T45 Arg2:T87	
+R20	POINT_IN_TIME Arg1:T87 Arg2:T46	
+R21	LOCATED_IN Arg1:T10 Arg2:T61	
+R22	PARTICIPANT_IN Arg1:T1 Arg2:T49	
+T48	EVENT 26 53	гибели московского студента
+R23	AGENT Arg1:T1 Arg2:T48	
+R24	CONVICTED_OF Arg1:T6 Arg2:T55	
+R25	PLACE_RESIDES_IN Arg1:T8 Arg2:T54	
+R26	AGE_IS Arg1:T8 Arg2:T7	
+R27	PARTICIPANT_IN Arg1:T6 Arg2:T59	
+R28	PARTICIPANT_IN Arg1:T4 Arg2:T59	
+R29	PENALIZED_AS Arg1:T6 Arg2:T56	
+T91	PENALTY 332 351	ограничения свободы
+T9	DATE 321 331	двум годам
+R30	PARTICIPANT_IN Arg1:T8 Arg2:T55	
+R31	ALTERNATIVE_NAME Arg1:T59 Arg2:T57	
+R32	PARTICIPANT_IN Arg1:T13 Arg2:T63	
+R33	AGENT Arg1:T4 Arg2:T58	
+R34	PARTICIPANT_IN Arg1:T6 Arg2:T58	
+R35	PARTICIPANT_IN Arg1:T4 Arg2:T59	
+R36	PARTICIPANT_IN Arg1:T10 Arg2:T57	
+R37	PARTICIPANT_IN Arg1:T4 Arg2:T64	
+R38	POINT_IN_TIME Arg1:T64 Arg2:T14	
+R39	PARTICIPANT_IN Arg1:T65 Arg2:T64	
+R40	PART_OF Arg1:T16 Arg2:T66	
+R41	PART_OF Arg1:T66 Arg2:T67	
+R42	ORIGINS_FROM Arg1:T66 Arg2:T68	
+T92	PENALTY 795 810	лишение свободы
+R43	PART_OF Arg1:T18 Arg2:T17	
+R44	ORIGINS_FROM Arg1:T17 Arg2:T71	
+R45	ALTERNATIVE_NAME Arg1:T15 Arg2:T23	
+R46	SUBORDINATE_OF Arg1:T22 Arg2:T73	
+R47	WORKS_AS Arg1:T22 Arg2:T74	
+R48	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R49	WORKS_AS Arg1:T27 Arg2:T75	
+R50	SUBORDINATE_OF Arg1:T74 Arg2:T73	
+R51	WORKPLACE Arg1:T76 Arg2:T32	
+R52	IDEOLOGY_OF Arg1:T34 Arg2:T33	
+R53	IDEOLOGY_OF Arg1:T32 Arg2:T33	
+R54	WORKS_AS Arg1:T34 Arg2:T76	
+R55	PARTICIPANT_IN Arg1:T34 Arg2:T77	
+T31	EVENT 1447 1470	задержала двоих человек
+R56	AGENT Arg1:T79 Arg2:T31	
+R57	WORKS_AS Arg1:T39 Arg2:T81	
+N1	Reference T1 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N3	Reference T10 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N5	Reference T15 Wikidata:Q600751	прокурор
+N9	Reference T26 Wikidata:Q40348	адвокат
+N11	Reference T29 Wikidata:Q16533	судья
+N14	Reference T34 Wikidata:Q4172618	Дёмушкин, Дмитрий Николаевич
+N17	Reference T40 Wikidata:Q1092499	прокуратура
+N18	Reference T41 Wikidata:Q122880	Европейский суд по правам человека
+N20	Reference T44 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N21	Reference T52 Wikidata:Q5118	Дагестан
+N25	Reference T61 Wikidata:Q4354932	Следственный изолятор
+N26	Reference T62 Wikidata:Q39631	врач
+N29	Reference T68 Wikidata:Q159	Россия
+N30	Reference T17 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N33	Reference T76 Wikidaиция
+N38	Reference T83 Wikidata:Q190412	Центральный административный округ Москвы
+N39	Reference T84 Wikidata:Q649	Москва
+N2	Reference T2 Wikidata:Q649	Москва
+N23	Reference T53 Wikidata:NULL	нет данных
+N22	Reference T5 Wikidata:NULL	нет данных
+N24	Reference T54 Wikidata:Q649	Москва
+N4	Reference T13 Wikidata:NULL	нет данных
+N34	Reference T81 Wikidata:NULL	нет данных
+N16	Reference T39 Wikidata:NULL	нет данных
+N36	Reference T82 Wikidata:Q46	Европа
+N35	Reference T80 Wikidata:NULL	нет данных
+N37	Reference T79 Wikidata:Q35535	полиция
+N13	Reference T32 Wikidata:Q4400566	
+N15	Reference T35 Wikidata:Q18869	Кавказ
+N12	Reference T30 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N32	Reference T24 Wikidata:NULL	нет данных
+N31	Reference T74 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:NULL	нет данных
+N27	Reference T65 Wikidata:NULL	нет данных
+N28	Reference T67 Wikidata:Q19705	уголовное законодательство
+N6	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N40	Reference T50 Wikidata:Q21281377	
+N41	Reference T4 Wikidata:Q21281377	
+N19	Reference T43 Wikidata:NULL	нет данных
+N42	Reference T3 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N43	Reference T6 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N44	Reference T73 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N45	Reference T20 Wikidata:Q17943518	Расул Рабаданович Мирзаев
+N46	Reference T28 Wikidata:Q600751	прокурор
+N47	Reference T25 Wikidata:Q600751	прокурор
+N48	Reference T23 Wikidata:Q600751	прокурор
+N49	Reference T38 Wikidata:Q40348	адвокат
+N50	Reference T21 Wikidata:Q40348	адвокат
+N51	Reference T71 Wikidata:Q159	Россия
+N52	Reference T66 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N53	Reference T51 Wikidata:Q649	Москва
+N54	Reference T45 Wikidata:NULL	нет данных
+N55	Reference T75 Wikidata:NULL	нет данных
+N56	Reference T8 Wikidata:NULL	нет данных
+N57	Reference T70 Wikidata:Q19705	уголовное законодательство

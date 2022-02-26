@@ -1,0 +1,120 @@
+T1	NATIONALITY 0 10	Российский
+T2	PERSON 18 31	Дмитрий Ицков
+T3	DATE 199 207	1569 год
+T4	PERSON 235 248	Дмитрий Ицков
+T5	DATE 333 344	к 2045 году
+T6	EVENT 363 381	Глобальное будущее
+T8	CITY 423 432	Нью-Йорке
+T9	AGE 434 443	32-летний
+T10	PROFESSION 526 548	пионером робототехники
+T11	PERSON 549 565	Дэвидом Хэнсоном
+T12	PERSON 568 573	Ицков
+T15	PRODUCT 839 847	Facebook
+T16	NUMBER 864 868	2000
+T17	PERSON 879 884	Ицков
+T18	DATE 967 986	к середине столетия
+T19	NUMBER 1032 1034	36
+T20	PERSON 1102 1107	Ицков
+T21	PERSON 1209 1215	Ицкова
+T22	ORGANIZATION 1241 1249	Гарварда
+T23	ORGANIZATION 1251 1293	Массачусетского технологического института
+T25	CITY 1326 1332	Беркли
+T26	EVENT 1416 1434	Глобальное будущее
+T27	PROFESSION 1552 1589	глава инженерного департамента Google
+T28	PROFESSION 1602 1614	изобретатель
+T29	PROFESSION 1617 1626	футуролог
+T30	PERSON 1627 1639	Рэй Курцвейл
+T31	PROFESSION 1641 1650	профессор
+T32	PERSON 1681 1694	Теодор Бергер
+T33	PROFESSION 1697 1716	глава фонда X Prize
+T34	ORGANIZATION 1709 1716	X Prize
+T35	PERSON 1717 1732	Питер Диамандис
+T36	PROFESSION 11 17	магнат
+T37	WORK_OF_ART 120 161	Humani Victus Instrumenta: Ars Coquinaria
+T38	NATIONALITY 208 218	Российский
+T39	PROFESSION 444 450	магнат
+T40	ORGANIZATION 1558 1589	инженерного департамента Google
+T41	ORGANIZATION 1583 1589	Google
+T42	PROFESSION 1641 1680	профессор Университета Южной Калифорнии
+T43	ORGANIZATION 1651 1680	Университета Южной Калифорнии
+T44	STATE_OR_PROVINCE 1670 1680	Калифорнии
+T45	LOCATION 1664 1680	Южной Калифорнии
+R1	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R2	WORKS_AS Arg1:T2 Arg2:T36	
+R3	DATE_OF_CREATION Arg1:T37 Arg2:T3	
+T46	PROFESSION 219 234	мультимиллионер
+R4	ALTERNATIVE_NAME Arg1:T36 Arg2:T46	
+R5	ORIGINS_FROM Arg1:T4 Arg2:T38	
+T7	DATE 400 420	в ближайшие выходные
+R6	POINT_IN_TIME Arg1:T6 Arg2:T7	
+R7	TAKES_PLACE_IN Arg1:T6 Arg2:T8	
+R8	AGE_IS Arg1:T39 Arg2:T9	
+R9	WORKS_AS Arg1:T11 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+T13	PRODUCT 604 619	Инициатива 2045
+T47	DATE 615 619	2045
+R11	PRODUCES Arg1:T12 Arg2:T13	
+T14	DATE 790 814	на несколько тысячелетий
+T48	PROFESSION 1231 1237	ученых
+R12	WORKPLACE Arg1:T48 Arg2:T22	
+R13	WORKPLACE Arg1:T48 Arg2:T23	
+T49	STATE_OR_PROVINCE 1295 1310	Калифорнийского
+T24	ORGANIZATION 1295 1323	Калифорнийского университета
+R14	HEADQUARTERED_IN Arg1:T24 Arg2:T49	
+R15	HEADQUARTERED_IN Arg1:T24 Arg2:T25	
+T50	STATE_OR_PROVINCE 1251 1266	Массачусетского
+R16	HEADQUARTERED_IN Arg1:T23 Arg2:T50	
+R17	LOCATED_IN Arg1:T25 Arg2:T49	
+R18	PART_OF Arg1:T40 Arg2:T41	
+R19	WORKPLACE Arg1:T27 Arg2:T40	
+R20	WORKS_AS Arg1:T30 Arg2:T29	
+R21	WORKS_AS Arg1:T30 Arg2:T28	
+R22	WORKS_AS Arg1:T30 Arg2:T27	
+R23	HEADQUARTERED_IN Arg1:T43 Arg2:T45	
+R24	LOCATED_IN Arg1:T45 Arg2:T44	
+R25	WORKS_AS Arg1:T32 Arg2:T42	
+R26	WORKPLACE Arg1:T42 Arg2:T43	
+R27	WORKPLACE Arg1:T33 Arg2:T34	
+R28	WORKPLACE Arg1:T35 Arg2:T34	
+R29	WORKS_AS Arg1:T35 Arg2:T33	
+R30	PARTICIPANT_IN Arg1:T4 Arg2:T6	
+R31	AGE_IS Arg1:T4 Arg2:T9	
+N2	Reference T4 Wikidata:Q16728595	Дмитрий Ицков
+N3	Reference T8 Wikidata:Q60	Нью-Йорк
+N4	Reference T10 Wikidata:Q170978	робототехника
+N5	Reference T15 Wikidata:Q355	Facebook
+N7	Reference T22 Wikidata:Q13371	Гарвардский университет
+N8	Reference T23 Wikidata:Q49108	Массачусетский технологический институт
+N9	Reference T25 Wikidata:Q484678	Беркли
+N11	Reference T28 Wikidata:Q205375	изобретатель
+N12	Reference T30 Wikidata:Q298341	Курцвейл, Рэймонд
+N13	Reference T31 Wikidata:Q121594	профессор
+N15	Reference T33 Wikidata:Q1574778	X Prize
+N16	Reference T34 Wikidata:Q1574778	X Prize
+N17	Reference T35 Wikidata:Q562799	Диамандис, Питер
+N21	Reference T42 Wikidata:Q4614	Университет Южной Калифорнии
+N22	Reference T43 Wikidata:Q4614	Университет Южной Калифорнии
+N23	Reference T44 Wikidata:Q99	Калифорния
+N24	Reference T45 Wikidata:Q844837	Южная Калифорния
+N25	Reference T13 Wikidata:Q4398281	Россия 2045
+N26	Reference T48 Wikidata:Q901	учёный
+N28	Reference T24 Wikidata:Q184478	Калифорнийский университет
+N1	Reference T1 Wikidata:Q492468	россияне
+N18	Reference T37 Wikidata:NULL	нет данных
+N30	Reference T46 Wikidata:Q2192875	
+N31	Reference T11 Wikidata:Q5234710	
+N6	Reference T21 Wikidata:Q16728595	Дмитрий Ицков
+N29	Reference T50 Wikidata:Q771	Массачусетс
+N27	Reference T49 Wikidata:Q99	Калифорния
+N20	Reference T41 Wikidata:Q95	Google
+N19	Reference T40 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N32	Reference T29 Wikidata:Q846430	
+N14	Reference T32 Wikidata:NULL	нет данных
+N33	Reference T20 Wikidata:Q16728595	Дмитрий Ицков
+N34	Reference T12 Wikidata:Q16728595	Дмитрий Ицков
+N35	Reference T17 Wikidata:Q16728595	Дмитрий Ицков
+N36	Reference T2 Wikidata:Q16728595	Дмитрий Ицков
+N37	Reference T38 Wikidata:Q492468	россияне
+N38	Reference T39 Wikidata:Q2192875	
+N39	Reference T36 Wikidata:Q2192875	

@@ -1,0 +1,116 @@
+T1	STATE_OR_PROVINCE 37 47	Калифорнии
+T2	PERSON 64 80	Кристофер Дорнер
+T3	STATE_OR_PROVINCE 124 134	Калифорнии
+T4	PERSON 168 184	Кристофер Дорнер
+T6	MONEY 237 251	1 млн долларов
+T7	AGE 254 263	33-летний
+T8	PERSON 264 280	Кристофер Дорнер
+T9	DATE 410 420	10 февраля
+T10	MONEY 477 498	один миллион долларов
+T11	PERSON 514 521	Дорнера
+T12	DATE 541 551	во вторник
+T13	LOCATION 573 580	Биг-Бэр
+T17	ORGANIZATION 620 627	Полиция
+T18	COUNTRY 628 631	США
+T19	NUMBER 692 696	один
+T20	PERSON 760 766	Дорнер
+T21	NUMBER 788 793	одном
+T22	NUMBER 919 922	два
+T23	PROFESSION 923 946	помощника шерифа округа
+T24	NUMBER 948 952	один
+T27	ORGANIZATION 0 11	Спецназ США
+T28	ORGANIZATION 81 92	Спецназ США
+T29	ORGANIZATION 0 7	Спецназ
+T30	ORGANIZATION 81 88	Спецназ
+T31	EVENT 12 20	штурмует
+T32	EVENT 102 107	штурм
+T33	PROFESSION 204 216	полицейского
+T35	CRIME 297 305	убийстве
+T36	PROFESSION 306 318	полицейского
+T38	EVENT 501 513	Столкновения
+T39	ORGANIZATION 524 531	полиции
+T40	LOCATION 554 580	окрестностях озера Биг-Бэр
+T14	DISTRICT 583 604	округе Сан-Бернардино
+T16	ORGANIZATION 620 631	Полиция США
+T41	COUNTRY 8 11	США
+T42	COUNTRY 89 92	США
+T43	EVENT 886 892	штурме
+T44	EVENT 895 906	перестрелке
+T45	PROFESSION 933 946	шерифа округа
+T46	PROFESSION 933 939	шерифа
+T47	EVENT 968 977	скончался
+T48	EVENT 912 918	ранены
+T49	PROFESSION 1016 1023	офицера
+T51	PROFESSION 1016 1031	офицера полиции
+T52	ORGANIZATION 1024 1031	полиции
+R1	HEADQUARTERED_IN Arg1:T27 Arg2:T41	
+R2	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R3	LOCATED_IN Arg1:T2 Arg2:T1	
+R4	AGENT Arg1:T27 Arg2:T31	
+R5	LOCATED_IN Arg1:T1 Arg2:T41	
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T31	
+R7	TAKES_PLACE_IN Arg1:T31 Arg2:T1	
+R8	LOCATED_IN Arg1:T3 Arg2:T42	
+R9	PARTICIPANT_IN Arg1:T4 Arg2:T32	
+R10	AGENT Arg1:T28 Arg2:T32	
+R11	HEADQUARTERED_IN Arg1:T28 Arg2:T42	
+R12	AGE_IS Arg1:T8 Arg2:T7	
+R13	PARTICIPANT_IN Arg1:T36 Arg2:T35	
+R14	CONVICTED_OF Arg1:T8 Arg2:T35	
+R15	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R17	MEMBER_OF Arg1:T36 Arg2:T39	
+R18	PARTICIPANT_IN Arg1:T11 Arg2:T38	
+R19	PARTICIPANT_IN Arg1:T39 Arg2:T38	
+R20	START_TIME Arg1:T38 Arg2:T12	
+R21	TAKES_PLACE_IN Arg1:T38 Arg2:T40	
+R22	LOCATED_IN Arg1:T40 Arg2:T14	
+R23	LOCATED_IN Arg1:T14 Arg2:T3	
+R24	HEADQUARTERED_IN Arg1:T16 Arg2:T18	
+T5	EVENT 767 785	забаррикадировался
+R25	AGENT Arg1:T20 Arg2:T5	
+R26	SUBEVENT_OF Arg1:T44 Arg2:T43	
+R27	HAS_CAUSE Arg1:T48 Arg2:T44	
+R28	HAS_CAUSE Arg1:T47 Arg2:T44	
+R29	PARTICIPANT_IN Arg1:T23 Arg2:T48	
+R30	PARTICIPANT_IN Arg1:T23 Arg2:T47	
+T15	DATE 1044 1051	6 суток
+T25	EVENT 1001 1007	Поиски
+R31	WORKPLACE Arg1:T51 Arg2:T52	
+R32	PARTICIPANT_IN Arg1:T51 Arg2:T25	
+T26	EVENT 639 652	выйти на след
+R33	AGENT Arg1:T16 Arg2:T26	
+R34	PARTICIPANT_IN Arg1:T11 Arg2:T26	
+R35	TAKES_PLACE_IN Arg1:T5 Arg2:T14	
+R36	SUBORDINATE_OF Arg1:T23 Arg2:T45	
+T34	DISEASE 992 999	ранений
+R37	MEDICAL_CONDITION Arg1:T23 Arg2:T34	
+R38	HAS_CAUSE Arg1:T47 Arg2:T34	
+N1	Reference T1 Wikidata:Q99	Калифорния
+N2	Reference T13 Wikidata:Q14681604	Биг-Бэр
+N4	Reference T27 Wikidata:Q482421	Силы специального назначения Армии США
+N5	Reference T29 Wikidata:Q234497	формирования специального назначения
+N7	Reference T39 Wikidata:Q35535	полиция
+N11	Reference T42 Wikidata:Q30	США
+N13	Reference T46 Wikidata:Q578478	шериф
+N14	Reference T49 Wikidata:Q189290	офицер
+N6	Reference T36 Wikidata:Q384593	
+N15	Reference T11 Wikidata:Q4419912	
+N16	Reference T20 Wikidata:Q4419912	
+N8	Reference T40 Wikidata:NULL	нет данных
+N9	Reference T14 Wikidata:Q108053	Сан-Бернардино
+N10	Reference T16 Wikidata:Q1365622	
+N12	Reference T45 Wikidata:Q2278288	
+N3	Reference T23 Wikidata:Q22570035	
+N17	Reference T51 Wikidata:Q361593	
+N18	Reference T3 Wikidata:Q99	Калифорния
+N19	Reference T28 Wikidata:Q482421	Силы специального назначения Армии США
+N20	Reference T30 Wikidata:Q234497	формирования специального назначения
+N21	Reference T17 Wikidata:Q35535	полиция
+N22	Reference T52 Wikidata:Q35535	полиция
+N23	Reference T18 Wikidata:Q30	США
+N24	Reference T41 Wikidata:Q30	США
+N25	Reference T33 Wikidata:Q384593	
+N26	Reference T4 Wikidata:Q4419912	
+N27	Reference T2 Wikidata:Q4419912	
+N28	Reference T8 Wikidata:Q4419912	

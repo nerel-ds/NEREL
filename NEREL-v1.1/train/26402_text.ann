@@ -1,0 +1,135 @@
+T1	AGE 0 10	114-летнюю
+T2	FACILITY 74 93	башня замка в Осаке
+T3	CITY 88 93	Осаке
+T4	DATE 134 154	27 февраля 2013 года
+T5	COUNTRY 165 171	Японии
+T6	PERSON 172 183	Мисао Окава
+T7	PERSON 185 196	Misao Okawa
+T8	AWARD 214 236	Книгу рекордов Гиннеса
+T9	PERSON 276 281	Окава
+T10	AGE 321 339	114 лет и 359 дней
+T12	CITY 379 384	Осака
+T13	ORGANIZATION 437 463	Gerontology Research Group
+T14	DATE 468 487	в январе этого года
+T15	AGE 515 522	115 лет
+T16	COUNTRY 576 582	Японии
+T17	PERSON 586 596	Кото Окубо
+T18	NATIONALITY 599 605	Японка
+T19	DATE 703 720	5 марта 2013 года
+T20	AGE 738 745	115 лет
+T21	PERSON 948 959	Мисао Окава
+T22	DATE 969 986	5 марта 1898 года
+T23	CITY 996 1001	Осака
+T24	PROFESSION 1010 1040	мастера по изготовлению кимоно
+T25	DATE 1054 1065	в 1919 году
+T26	NUMBER 1073 1077	трое
+T27	NUMBER 1085 1089	двое
+T28	AGE 1132 1141	90-летний
+T29	NUMBER 1150 1157	четверо
+T30	NUMBER 1167 1172	шесть
+T31	COUNTRY 1198 1206	японских
+T32	PERSON 1212 1217	Окава
+T33	DATE 1281 1295	за прошлый год
+T34	COUNTRY 1299 1305	Японии
+T35	NUMBER 1316 1332	не менее 50 тыс.
+T36	AGE 1352 1365	более 100 лет
+T37	ORDINAL 1370 1376	первом
+T38	COUNTRY 1413 1416	США
+T39	NUMBER 1432 1446	около 53 тысяч
+T40	AGE 1506 1516	115-летний
+T41	PERSON 1524 1540	Дзироэмон Кимура
+T42	CITY 1551 1558	Кётанго
+T43	STATE_OR_PROVINCE 1572 1577	Киото
+T44	NATIONALITY 1647 1658	француженка
+T45	PERSON 1659 1678	Жанна Луиза Кальман
+T46	DATE 1693 1704	в 1997 году
+T47	AGE 1716 1734	122 лет и 164 дней
+T49	NATIONALITY 11 17	японку
+T50	FACILITY 80 93	замка в Осаке
+T51	PERSON 229 236	Гиннеса
+T11	PERSON 417 422	Окава
+T52	EVENT 523 533	скончалась
+T53	EVENT 688 701	день рождения
+T54	PERSON 721 726	Окаве
+T55	PROFESSION 767 778	журналистам
+T56	EVENT 1042 1053	Вышла замуж
+T57	EVENT 1132 1148	90-летний юбилей
+T58	EVENT 1142 1148	юбилей
+T59	LOCATION 1491 1496	Земли
+T60	NATIONALITY 1517 1523	японец
+R1	AGE_IS Arg1:T49 Arg2:T1	
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R3	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+R4	ORIGINS_FROM Arg1:T49 Arg2:T5	
+R5	PLACE_RESIDES_IN Arg1:T6 Arg2:T5	
+R6	AGE_IS Arg1:T9 Arg2:T10	
+R7	PLACE_RESIDES_IN Arg1:T9 Arg2:T12	
+R8	LOCATED_IN Arg1:T12 Arg2:T5	
+R11	LOCATED_IN Arg1:T50 Arg2:T3	
+R12	PART_OF Arg1:T2 Arg2:T50	
+R15	PARTICIPANT_IN Arg1:T17 Arg2:T52	
+R16	PLACE_OF_DEATH Arg1:T17 Arg2:T16	
+R17	AGE_DIED_AT Arg1:T17 Arg2:T15	
+R18	AGE_IS Arg1:T54 Arg2:T20	
+R21	DATE_OF_BIRTH Arg1:T21 Arg2:T22	
+R22	PLACE_OF_BIRTH Arg1:T21 Arg2:T23	
+R23	LOCATED_IN Arg1:T23 Arg2:T16	
+R24	ORIGINS_FROM Arg1:T18 Arg2:T16	
+R25	ALTERNATIVE_NAME Arg1:T54 Arg2:T21	
+R26	PARTICIPANT_IN Arg1:T21 Arg2:T56	
+R28	POINT_IN_TIME Arg1:T56 Arg2:T25	
+R29	AGE_IS Arg1:T57 Arg2:T28	
+R30	ALTERNATIVE_NAME Arg1:T31 Arg2:T34	
+R31	ORIGINS_FROM Arg1:T41 Arg2:T60	
+R32	AGE_IS Arg1:T41 Arg2:T40	
+R34	ORIGINS_FROM Arg1:T41 Arg2:T42	
+R35	LOCATED_IN Arg1:T42 Arg2:T43	
+R36	ORIGINS_FROM Arg1:T45 Arg2:T44	
+T65	EVENT 1680 1692	скончавшаяся
+R37	PARTICIPANT_IN Arg1:T45 Arg2:T65	
+R38	DATE_OF_DEATH Arg1:T45 Arg2:T46	
+R39	AGE_DIED_AT Arg1:T45 Arg2:T47	
+R40	POINT_IN_TIME Arg1:T65 Arg2:T46	
+R13	PRODUCES Arg1:T51 Arg2:T8	
+R9	AWARDED_WITH Arg1:T6 Arg2:T8	
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T53	
+R14	ORIGINS_FROM Arg1:T21 Arg2:T24	
+R19	ORIGINS_FROM Arg1:T32 Arg2:T31	
+R20	LOCATED_IN Arg1:T43 Arg2:T34	
+R27	ORIGINS_FROM Arg1:T60 Arg2:T34	
+N2	Reference T3 Wikidata:Q35765	Осака
+N3	Reference T5 Wikidata:Q17	Япония
+N4	Reference T6 Wikidata:Q3818116	Окава, Мисао
+N5	Reference T8 Wikidata:Q41675	Книга рекордов Гиннесса
+N7	Reference T17 Wikidata:Q2964449	Окубо, Кото
+N9	Reference T38 Wikidata:Q30	США
+N10	Reference T41 Wikidata:Q550149	Дзироэмон Кимура
+N11	Reference T42 Wikidata:Q513897	Кётанго
+N12	Reference T43 Wikidata:Q34600	Киото
+N13	Reference T44 Wikidata:Q121842	французы
+N14	Reference T45 Wikidata:Q182260	Жанна Кальман
+N15	Reference T49 Wikidata:Q161652	японцы
+N16	Reference T50 Wikidata:Q321242	Замок в Осаке
+N17	Reference T51 Wikidata:Q194297	Гиннесс
+N19	Reference T55 Wikidata:Q1930187	журналист
+N20	Reference T59 Wikidata:Q2	Земля
+N21	Reference T60 Wikidata:Q161652	японцы
+N1	Reference T2 Wikidata:NULL	нет данных
+N18	Reference T11 Wikidata:Q3818116	Окава, Мисао
+N6	Reference T13 Wikidata:Q2339252	
+N8	Reference T24 Wikidata:NULL	нет данных
+N22	Reference T23 Wikidata:Q35765	Осака
+N23	Reference T12 Wikidata:Q35765	Осака
+N24	Reference T34 Wikidata:Q17	Япония
+N25	Reference T31 Wikidata:Q17	Япония
+N26	Reference T16 Wikidata:Q17	Япония
+N27	Reference T7 Wikidata:Q3818116	Окава, Мисао
+N28	Reference T9 Wikidata:Q3818116	Окава, Мисао
+N29	Reference T18 Wikidata:Q161652	японцы
+N30	Reference T32 Wikidata:Q3818116	Окава, Мисао
+N31	Reference T54 Wikidata:Q3818116	Окава, Мисао
+N32	Reference T21 Wikidata:Q3818116	Окава, Мисао
+T48	EVENT 960 968	родилась
+R33	PARTICIPANT_IN Arg1:T21 Arg2:T48	
+R41	POINT_IN_TIME Arg1:T48 Arg2:T22	
+R42	TAKES_PLACE_IN Arg1:T48 Arg2:T23	

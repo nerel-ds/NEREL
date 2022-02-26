@@ -1,0 +1,138 @@
+T1	ORGANIZATION 0 18	Исторический музей
+T2	FACILITY 66 100	Государственный исторический музей
+T3	FACILITY 102 117	Красная площадь
+T4	DATE 119 128	июнь 2010
+T5	CITY 130 136	Москва
+T6	DATE 138 158	28 октября 2019 года
+T7	ORGANIZATION 159 193	Государственный исторический музей
+T8	ORGANIZATION 195 198	ГИМ
+T9	EVENT 209 228	Дилетантские чтения
+T10	DATE 275 285	30 октября
+T11	PROFESSION 404 413	журналист
+T12	PROFESSION 432 440	спикером
+T14	PERSON 470 484	Олег Будницкий
+T15	ORGANIZATION 486 504	Исторический музей
+T16	EVENT 561 583	Дня народного единения
+T17	AGE 586 594	75-летия
+T18	EVENT 595 605	Дня победы
+T19	NUMBER 667 675	менее 30
+T20	MONEY 698 708	700 рублей
+T21	DATE 721 731	26 октября
+T22	CITY 733 743	московский
+T23	ORGANIZATION 761 776	Молодая гвардия
+T24	WORK_OF_ART 813 821	Дилетант
+T25	PERSON 871 890	Клиффорда Берримена
+T26	DATE 894 911	октября 1939 года
+T27	PERSON 926 940	Иосифа Сталина
+T28	PERSON 943 958	Адольфа Гитлера
+T29	LAW 1211 1308	КоАП РФ ст. 20.3 «Пропаганда либо публичное демонстрирование нацистской атрибутики или символики»
+T32	ORGANIZATION 1342 1358	ИА Красная Весна
+T33	DATE 1381 1391	ноябрьском
+T34	DATE 1466 1476	30 октября
+T35	ORGANIZATION 1508 1518	Эхо Москвы
+T36	PERSON 1520 1538	Алексей Венедиктов
+T37	CITY 1702 1708	Москве
+T38	CITY 1756 1762	Москве
+T39	CITY 1771 1777	Москве
+T40	EVENT 1803 1822	Дилетантские чтения
+T41	CITY 1951 1957	Москве
+T45	PERSON 414 428	Сергей Бунтман
+T46	PROFESSION 443 450	историк
+T47	PROFESSION 452 461	профессор
+T48	ORGANIZATION 462 469	НИУ ВШЭ
+T49	PROFESSION 452 469	профессор НИУ ВШЭ
+T51	LAW 1169 1209	закона о пропаганде нацистской символики
+T30	LAW 1229 1307	Пропаганда либо публичное демонстрирование нацистской атрибутики или символики
+T31	ORGANIZATION 1326 1329	ГИМ
+T52	PROFESSION 1330 1341	журналистам
+T53	TIME 1458 1476	Вечером 30 октября
+T54	PROFESSION 1485 1493	редактор
+T55	PROFESSION 1477 1493	главный редактор
+T56	PRODUCT 1555 1563	твиттере
+T57	DATE 1709 1721	до 22 ноября
+T58	LAW 1826 1831	пакту
+T61	ORGANIZATION 1313 1329	пресс-службе ГИМ
+T62	LAW 319 344	Пакт Молотова-Риббентропа
+T42	LAW 39 65	пакте Молотова-Риббентропа
+T59	PERSON 45 53	Молотова
+T63	PERSON 324 332	Молотова
+T64	PERSON 333 344	Риббентропа
+T65	PERSON 54 65	Риббентропа
+R1	WORKS_AS Arg1:T14 Arg2:T49	
+R2	WORKPLACE Arg1:T14 Arg2:T48	
+R3	WORKS_AS Arg1:T14 Arg2:T46	
+R4	WORKS_AS Arg1:T14 Arg2:T12	
+R5	WORKS_AS Arg1:T45 Arg2:T11	
+R6	HEADQUARTERED_IN Arg1:T23 Arg2:T22	
+R7	WORKPLACE Arg1:T36 Arg2:T35	
+R8	AGE_IS Arg1:T18 Arg2:T17	
+T13	LAW 1211 1218	КоАП РФ
+R9	ABBREVIATION Arg1:T7 Arg2:T8	
+R10	WORKPLACE Arg1:T52 Arg2:T32	
+R11	WORKS_AS Arg1:T36 Arg2:T60	
+R12	LOCATED_IN Arg1:T2 Arg2:T3	
+R13	LOCATED_IN Arg1:T3 Arg2:T5	
+R14	WORKPLACE Arg1:T49 Arg2:T48	
+T43	CRIME 1178 1209	пропаганде нацистской символики
+T44	COUNTRY 1216 1218	РФ
+T50	LAW 1211 1215	КоАП
+T60	PROFESSION 1477 1519	главный редактор радиостанции «Эхо Москвы»
+R15	WORKPLACE Arg1:T60 Arg2:T35	
+R16	PRODUCES Arg1:T65 Arg2:T42	
+R17	PRODUCES Arg1:T59 Arg2:T42	
+R18	PRODUCES Arg1:T63 Arg2:T62	
+R19	PRODUCES Arg1:T64 Arg2:T62	
+R20	ORIGINS_FROM Arg1:T13 Arg2:T44	
+T66	ORDINAL 1223 1225	20
+T67	ORDINAL 1226 1227	3
+R21	PART_OF Arg1:T61 Arg2:T31	
+R22	WORKPLACE Arg1:T60 Arg2:T35	
+R23	PART_OF Arg1:T29 Arg2:T13	
+N1	Reference T2 Wikidata:Q1140429	Государственный исторический музей
+N2	Reference T3 Wikidata:Q41116	Красная площадь
+N3	Reference T5 Wikidata:Q649	Москва
+N4	Reference T7 Wikidata:Q1140429	Государственный исторический музей
+N5	Reference T11 Wikidata:Q1930187	журналист
+N6	Reference T12 Wikidata:Q12859263	оратор
+N7	Reference T14 Wikidata:Q4098155	Олег Витальевич Будницкий
+N8	Reference T15 Wikidata:Q1140429	Государственный исторический музей
+N12	Reference T25 Wikidata:Q5132985	Клиффорд Берримен
+N13	Reference T27 Wikidata:Q855	Иосиф Виссарионович Сталин
+N14	Reference T28 Wikidata:Q352	Адольф Гитлер
+N17	Reference T35 Wikidata:Q749928	Эхо Москвы
+N18	Reference T36 Wikidata:Q2389338	Венедиктов, Алексей Алексеевич
+N19	Reference T45 Wikidata:Q3479716	Сергей Александрович Бунтман
+N20	Reference T46 Wikidata:Q201788	историк
+N21	Reference T47 Wikidata:Q121594	профессор
+N22	Reference T48 Wikidata:Q1959511	Высшая школа экономики
+N25	Reference T54 Wikidata:Q876864	редактор
+N26	Reference T55 Wikidata:Q589298	главный редактор
+N27	Reference T56 Wikidata:Q918	Твиттер
+N30	Reference T42 Wikidata:Q130796	Договор о ненападении между Германией и Советским Союзом
+N32	Reference T65 Wikidata:Q101886	Иоахим фон Риббентроп
+N33	Reference T13 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N34	Reference T44 Wikidata:Q159	Россия
+N31	Reference T59 Wikidata:Q132899	
+N23	Reference T49 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:Q649	Москва
+N10	Reference T23 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:Q4161596	
+N36	Reference T51 Wikidata:NULL	нет данных
+N37	Reference T50 Wikidata:NULL	нет данных
+N24	Reference T30 Wikidata:NULL	нет данных
+N15	Reference T29 Wikidata:NULL	нет данных
+N29	Reference T61 Wikidata:NULL	нет данных
+N16	Reference T32 Wikidata:NULL	нет данных
+N35	Reference T60 Wikidata:NULL	нет данных
+N28	Reference T58 Wikidata:Q1127126	
+N38	Reference T41 Wikidata:Q649	Москва
+N39	Reference T37 Wikidata:Q649	Москва
+N40	Reference T38 Wikidata:Q649	Москва
+N41	Reference T39 Wikidata:Q649	Москва
+N42	Reference T8 Wikidata:Q1140429	Государственный исторический музей
+N43	Reference T31 Wikidata:Q1140429	Государственный исторический музей
+N44	Reference T52 Wikidata:Q1930187	журналист
+N45	Reference T1 Wikidata:Q1140429	Государственный исторический музей
+N46	Reference T62 Wikidata:Q130796	Договор о ненападении между Германией и Советским Союзом
+N47	Reference T64 Wikidata:Q101886	Иоахим фон Риббентроп
+N48	Reference T63 Wikidata:Q132899	

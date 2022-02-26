@@ -1,0 +1,146 @@
+T1	NUMBER 0 1	5
+T2	COUNTRY 54 63	армянском
+T3	CITY 64 70	Гаваре
+T4	NUMBER 91 92	5
+T6	EVENT 111 122	перестрелке
+T7	COUNTRY 125 134	армянском
+T8	CITY 135 141	Гаваре
+T9	DATE 164 173	28 апреля
+T10	NUMBER 174 175	2
+T11	NUMBER 201 208	четверо
+T14	COUNTRY 268 270	РА
+T15	DATE 294 303	28 апреля
+T17	ORGANIZATION 330 352	Следственного комитета
+T18	COUNTRY 353 360	Армении
+T26	NUMBER 883 887	двое
+T29	ORGANIZATION 1046 1068	Следственного комитета
+T30	COUNTRY 1069 1076	Армении
+T32	LAW 1168 1186	части 1 статьи 185
+T34	NUMBER 1274 1278	двух
+T35	NUMBER 1370 1371	5
+T5	EVENT 0 19	5 человек задержаны
+T36	EVENT 30 51	вооруженном инциденте
+T37	EVENT 81 100	задержала 5 человек
+T38	EVENT 174 195	2 человека были убиты
+T39	EVENT 201 228	четверо - госпитализированы
+T13	ORGANIZATION 260 270	полиции РА
+T12	ORGANIZATION 247 270	пресс-служба полиции РА
+T19	STATE_OR_PROVINCE 364 386	Гегаркуникской области
+T20	ORGANIZATION 330 360	Следственного комитета Армении
+T16	ORGANIZATION 306 386	Следственном управлении Следственного комитета Армении по Гегаркуникской области
+T40	EVENT 387 412	возбуждено уголовное дело
+T41	EVENT 284 293	инцидента
+T42	ORDINAL 423 424	6
+T43	ORDINAL 431 432	2
+T44	ORDINAL 440 443	104
+T21	LAW 416 443	пункту 6 части 2 статьи 104
+T22	CRIME 445 453	убийство
+T23	LAW 457 475	части 1 статьи 235
+T45	ORDINAL 463 464	1
+T46	ORDINAL 472 475	235
+T24	CRIME 477 602	незаконное приобретение, сбыт, хранение, перевозка или ношение оружия, боеприпасов, взрывчатых веществ или взрывных устройств
+T47	CRIME 692 776	массовых беспорядков, сопровождавшихся насилием и уничтожением имущества группой лиц
+T48	EVENT 801 813	перестрелкой
+T25	EVENT 846 855	ворвалась
+T49	EVENT 917 925	вендетты
+T50	EVENT 935 948	нанесла ущерб
+T51	EVENT 822 833	перестрелки
+T28	ORGANIZATION 1046 1076	Следственного комитета Армении
+T52	ORGANIZATION 997 1076	Гегаркуникском областном следственном управлении Следственного комитета Армении
+T53	EVENT 1082 1107	возбуждены уголовные дела
+T31	CRIME 1188 1236	умышленное уничтожение или повреждение имущества
+T33	CRIME 1148 1164	попытка убийства
+T54	ORDINAL 1174 1175	1
+T55	ORDINAL 1183 1186	185
+T56	LAW 1111 1146	пунктам 1 и 7 части 2 статьи 34-104
+T57	ORDINAL 1119 1120	1
+T58	ORDINAL 1123 1124	7
+T59	ORDINAL 1131 1132	2
+T60	ORDINAL 1140 1146	34-104
+T61	CRIME 1312 1342	участии в массовых беспорядках
+T62	EVENT 1360 1379	задержаны 5 человек
+T63	EVENT 1433 1454	следственные действия
+T64	EVENT 1457 1489	оперативно-розыскные мероприятия
+R1	LOCATED_IN Arg1:T3 Arg2:T2	
+R2	TAKES_PLACE_IN Arg1:T36 Arg2:T3	
+R3	LOCATED_IN Arg1:T8 Arg2:T7	
+T65	ORGANIZATION 73 80	Полиция
+R4	PARTICIPANT_IN Arg1:T65 Arg2:T37	
+R5	TAKES_PLACE_IN Arg1:T6 Arg2:T8	
+R8	ALTERNATIVE_NAME Arg1:T36 Arg2:T6	
+R9	POINT_IN_TIME Arg1:T38 Arg2:T9	
+R10	POINT_IN_TIME Arg1:T39 Arg2:T9	
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R12	HEADQUARTERED_IN Arg1:T13 Arg2:T14	
+R13	ALTERNATIVE_NAME Arg1:T65 Arg2:T13	
+R14	POINT_IN_TIME Arg1:T41 Arg2:T15	
+R15	ALTERNATIVE_NAME Arg1:T14 Arg2:T18	
+R16	LOCATED_IN Arg1:T19 Arg2:T18	
+R17	HEADQUARTERED_IN Arg1:T16 Arg2:T19	
+R18	HEADQUARTERED_IN Arg1:T20 Arg2:T18	
+R19	PARTICIPANT_IN Arg1:T16 Arg2:T40	
+T66	EVENT 692 712	массовых беспорядков
+R22	SUBEVENT_OF Arg1:T25 Arg2:T66	
+T27	STATE_OR_PROVINCE 997 1011	Гегаркуникском
+R25	HEADQUARTERED_IN Arg1:T52 Arg2:T27	
+R26	HEADQUARTERED_IN Arg1:T28 Arg2:T30	
+R27	LOCATED_IN Arg1:T27 Arg2:T30	
+R28	PARTICIPANT_IN Arg1:T52 Arg2:T53	
+T67	EVENT 1523 1532	инцидента
+R31	ALTERNATIVE_NAME Arg1:T51 Arg2:T67	
+R6	SUBEVENT_OF Arg1:T38 Arg2:T6	
+R7	SUBEVENT_OF Arg1:T38 Arg2:T36	
+R32	SUBEVENT_OF Arg1:T39 Arg2:T36	
+R23	SUBEVENT_OF Arg1:T49 Arg2:T66	
+R24	SUBEVENT_OF Arg1:T50 Arg2:T66	
+R33	HAS_CAUSE Arg1:T5 Arg2:T36	
+R34	ALTERNATIVE_NAME Arg1:T36 Arg2:T6	
+R35	PART_OF Arg1:T12 Arg2:T13	
+R36	PART_OF Arg1:T16 Arg2:T20	
+R37	PART_OF Arg1:T52 Arg2:T28	
+R38	HAS_CAUSE Arg1:T37 Arg2:T6	
+R39	ALTERNATIVE_NAME Arg1:T6 Arg2:T41	
+T68	LAW 425 443	части 2 статьи 104
+T69	LAW 433 443	статьи 104
+R40	PART_OF Arg1:T21 Arg2:T68	
+R41	PART_OF Arg1:T68 Arg2:T69	
+T70	LAW 465 475	статьи 235
+R42	PART_OF Arg1:T23 Arg2:T70	
+T71	EVENT 640 665	Уголовное дело возбуждено
+R43	HAS_CAUSE Arg1:T71 Arg2:T66	
+T72	LAW 1125 1146	части 2 статьи 34-104
+T73	LAW 1133 1146	статьи 34-104
+R44	HAS_CAUSE Arg1:T62 Arg2:T61	
+R45	HAS_CAUSE Arg1:T64 Arg2:T67	
+R46	HAS_CAUSE Arg1:T63 Arg2:T67	
+N1	Reference T8 Wikidata:Q39565	Гавар
+N4	Reference T19 Wikidata:Q199905	Гехаркуникская область
+N11	Reference T65 Wikidata:Q35535	полиция
+N12	Reference T27 Wikidata:Q199905	Гехаркуникская область
+N3	Reference T12 Wikidata:NULL	нет данных
+N2	Reference T14 Wikidata:Q399	Армения
+N5	Reference T16 Wikidata:NULL	нет данных
+N6	Reference T22 Wikidata:Q132821	убийство
+N14	Reference T69 Wikidata:NULL	нет данных
+N13	Reference T68 Wikidata:NULL	нет данных
+N15	Reference T70 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:NULL	нет данных
+N9	Reference T52 Wikidata:NULL	нет данных
+N18	Reference T29 Wikidata:NULL	нет данных
+N8	Reference T28 Wikidata:NULL	нет данных
+N17	Reference T73 Wikidata:NULL	нет данных
+N16	Reference T72 Wikidata:NULL	нет данных
+N19	Reference T56 Wikidata:NULL	нет данных
+N10	Reference T31 Wikidata:NULL	нет данных
+N20	Reference T3 Wikidata:Q39565	Гавар
+N21	Reference T13 Wikidata:Q35535	полиция
+N22	Reference T7 Wikidata:Q399	Армения
+N23	Reference T18 Wikidata:Q399	Армения
+N24	Reference T2 Wikidata:Q399	Армения
+N25	Reference T30 Wikidata:Q399	Армения
+N26	Reference T21 Wikidata:Q132821	убийство
+N27	Reference T23 Wikidata:NULL	нет данных
+N28	Reference T17 Wikidata:NULL	нет данных
+N29	Reference T20 Wikidata:NULL	нет данных
+N30	Reference T33 Wikidata:NULL	нет данных
+N31	Reference T32 Wikidata:NULL	нет данных

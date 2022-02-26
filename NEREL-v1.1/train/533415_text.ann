@@ -1,0 +1,152 @@
+T1	PROFESSION 21 29	гитарист
+T3	ORGANIZATION 53 68	Ляпис Трубецкой
+T5	TIME 100 149	В 6 часов утра в воскресенье, 19 января 2020 года
+T6	DATE 115 149	в воскресенье, 19 января 2020 года
+T7	CITY 153 159	Минске
+T8	PROFESSION 165 173	гитарист
+T10	ORGANIZATION 197 212	Ляпис Трубецкой
+T11	PERSON 214 228	Руслан Владыко
+T12	PERSON 231 234	Пан
+T13	AGE 247 253	45 лет
+T14	DATE 282 298	с лета 2019 года
+T15	DATE 301 317	6 июня 2019 года
+T17	CITY 371 377	Минске
+T18	TIME 638 655	в 11:30 21 января
+T19	DATE 646 655	21 января
+T20	CITY 666 676	Привольный
+T21	FACILITY 679 704	церкви Николая Чудотворца
+T22	TIME 723 744	в 13:00 в тот же день
+T24	CITY 755 760	Обчак
+T25	NUMBER 763 767	Трое
+T26	DATE 843 852	20 января
+T27	PERSON 901 908	Владыко
+T28	ORGANIZATION 919 934	Ляпис Трубецкой
+T29	DATE 949 955	с 1989
+T30	NUMBER 1003 1005	13
+T31	PERSON 1068 1078	Ильи Ильфа
+T32	PERSON 1081 1096	Евгения Петрова
+T33	DATE 1120 1140	1 сентября 2014 года
+T34	ORGANIZATION 1149 1164	Ляпис Трубецкой
+T35	PERSON 1192 1206	Сергей Михалок
+T36	ORGANIZATION 1230 1236	Brutto
+T37	PERSON 1240 1254	Руслан Владыко
+T38	ORDINAL 1265 1271	вторым
+T39	PROFESSION 1272 1282	вокалистом
+T40	PERSON 1283 1302	Павлом Булатниковым
+T41	PROFESSION 1305 1317	барабанщиком
+T42	PERSON 1318 1340	Александром Сторожуком
+T43	ORGANIZATION 1357 1367	Trubetskoy
+T44	EVENT 0 4	Умер
+T45	DISEASE 16 20	комы
+T46	PERSON 70 84	Руслан Владыко
+T47	PERSON 85 99	Руслан Владыко
+T48	EVENT 160 164	умер
+T49	DISEASE 277 281	коме
+T50	PERSON 318 325	Владыко
+T16	FACILITY 355 368	улице Солтыса
+T51	PROFESSION 456 465	музыканта
+T52	DISEASE 476 499	черепно-мозговую травму
+T53	PERSON 531 538	Владыко
+T54	DISEASE 551 555	коме
+T55	EVENT 618 627	Отпевание
+T57	PERSON 686 704	Николая Чудотворца
+T58	EVENT 706 714	Похороны
+T59	DATE 731 744	в тот же день
+T60	PROFESSION 983 992	музыканты
+T61	PROFESSION 1041 1046	поэта
+T62	WORK_OF_ART 1098 1116	Двенадцать стульев
+T63	PROFESSION 256 264	Музыкант
+T64	PROFESSION 431 437	Медики
+R1	WORKS_AS Arg1:T46 Arg2:T1	
+R2	FOUNDED_BY Arg1:T3 Arg2:T46	
+R3	WORKPLACE Arg1:T46 Arg2:T3	
+R4	PARTICIPANT_IN Arg1:T46 Arg2:T44	
+R5	MEDICAL_CONDITION Arg1:T46 Arg2:T45	
+R6	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R7	TAKES_PLACE_IN Arg1:T48 Arg2:T7	
+R8	WORKPLACE Arg1:T11 Arg2:T10	
+R9	FOUNDED_BY Arg1:T10 Arg2:T11	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T48	
+R11	WORKS_AS Arg1:T11 Arg2:T8	
+R12	AGE_DIED_AT Arg1:T11 Arg2:T13	
+R13	MEDICAL_CONDITION Arg1:T63 Arg2:T49	
+T2	DISEASE 332 344	без сознания
+T9	PERSON 361 368	Солтыса
+R14	LOCATED_IN Arg1:T16 Arg2:T17	
+R15	MEDICAL_CONDITION Arg1:T50 Arg2:T2	
+R16	WORKS_AS Arg1:T53 Arg2:T51	
+R17	MEDICAL_CONDITION Arg1:T51 Arg2:T52	
+R18	MEDICAL_CONDITION Arg1:T53 Arg2:T54	
+R19	MEDICAL_CONDITION Arg1:T53 Arg2:T52	
+R20	POINT_IN_TIME Arg1:T55 Arg2:T19	
+R21	TAKES_PLACE_IN Arg1:T55 Arg2:T21	
+R22	LOCATED_IN Arg1:T21 Arg2:T20	
+R23	POINT_IN_TIME Arg1:T58 Arg2:T59	
+R24	TAKES_PLACE_IN Arg1:T58 Arg2:T24	
+T23	EVENT 892 900	избиении
+T56	DATE 956 969	до 2014 года.
+R25	DATE_FOUNDED_IN Arg1:T28 Arg2:T29	
+R26	DATE_DEFUNCT_IN Arg1:T28 Arg2:T56	
+R27	PRODUCES Arg1:T32 Arg2:T62	
+R28	KNOWS Arg1:T31 Arg2:T32	
+R29	PRODUCES Arg1:T31 Arg2:T62	
+R30	DATE_DEFUNCT_IN Arg1:T34 Arg2:T33	
+R31	FOUNDED_BY Arg1:T36 Arg2:T35	
+R32	KNOWS Arg1:T35 Arg2:T37	
+R33	KNOWS Arg1:T37 Arg2:T40	
+R34	WORKS_AS Arg1:T40 Arg2:T39	
+R35	WORKS_AS Arg1:T42 Arg2:T41	
+R36	KNOWS Arg1:T40 Arg2:T42	
+R37	KNOWS Arg1:T37 Arg2:T42	
+R38	FOUNDED_BY Arg1:T43 Arg2:T42	
+R39	FOUNDED_BY Arg1:T43 Arg2:T40	
+R40	FOUNDED_BY Arg1:T43 Arg2:T37	
+R41	PARTICIPANT_IN Arg1:T27 Arg2:T23	
+T65	CRIME 784 793	нападении
+T66	EVENT 326 344	нашли без сознания
+R42	PARTICIPANT_IN Arg1:T50 Arg2:T66	
+R43	TAKES_PLACE_IN Arg1:T66 Arg2:T16	
+R44	POINT_IN_TIME Arg1:T66 Arg2:T15	
+R45	POINT_IN_TIME Arg1:T48 Arg2:T5	
+R46	DATE_OF_DEATH Arg1:T11 Arg2:T6	
+R47	WORKS_AS Arg1:T11 Arg2:T63	
+R48	ALTERNATIVE_NAME Arg1:T11 Arg2:T50	
+R49	INANIMATE_INVOLVED Arg1:T53 Arg2:T55	
+R50	INANIMATE_INVOLVED Arg1:T53 Arg2:T58	
+N1	Reference T8 Wikidata:Q855091	гитарист
+N2	Reference T10 Wikidata:Q32826	Ляпис Трубецкой
+N3	Reference T17 Wikidata:Q2280	Минск
+N7	Reference T31 Wikidata:Q471443	Илья Арнольдович Ильф
+N9	Reference T35 Wikidata:Q2459921	Сергей Владимирович Михалок
+N10	Reference T36 Wikidata:Q18016298	Brutto
+N11	Reference T39 Wikidata:Q2643890	вокалист
+N12	Reference T40 Wikidata:Q4098769	Павел Олегович Булатников
+N13	Reference T41 Wikidata:Q386854	барабанщик
+N15	Reference T43 Wikidata:Q17850858	Trubetskoy
+N17	Reference T57 Wikidata:Q44269	Николай Чудотворец
+N18	Reference T60 Wikidata:Q639669	музыкант
+N19	Reference T61 Wikidata:Q49757	поэт
+N20	Reference T62 Wikidata:Q245194	Двенадцать стульев
+N21	Reference T64 Wikidata:Q39631	врач
+N22	Reference T9 Wikidata:Q4428509	
+N16	Reference T16 Wikidata:Q13029362	
+N23	Reference T53 Wikidata:Q83155165	
+N4	Reference T20 Wikidata:Q4377991	Привольный
+N5	Reference T21 Wikidata:NULL	нет данных
+N6	Reference T24 Wikidata:Q6460631	
+N8	Reference T32 Wikidata:Q714739	
+N14	Reference T42 Wikidata:NULL	нет данных
+N24	Reference T1 Wikidata:Q855091	гитарист
+N25	Reference T3 Wikidata:Q32826	Ляпис Трубецкой
+N26	Reference T34 Wikidata:Q32826	Ляпис Трубецкой
+N27	Reference T28 Wikidata:Q32826	Ляпис Трубецкой
+N28	Reference T7 Wikidata:Q2280	Минск
+N29	Reference T51 Wikidata:Q639669	музыкант
+N30	Reference T63 Wikidata:Q639669	музыкант
+N31	Reference T46 Wikidata:Q83155165	
+N32	Reference T37 Wikidata:Q83155165	
+N33	Reference T50 Wikidata:Q83155165	
+N34	Reference T12 Wikidata:Q83155165	
+N35	Reference T11 Wikidata:Q83155165	
+N36	Reference T47 Wikidata:Q83155165	
+N37	Reference T27 Wikidata:Q83155165	

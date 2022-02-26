@@ -1,0 +1,146 @@
+T1	PROFESSION 0 4	Эмир
+T2	PROFESSION 52 56	Эмир
+T3	PERSON 69 93	Хамад бен Халиф Аль Тани
+T4	DATE 105 118	в понедельник
+T5	PROFESSION 248 265	наследному принцу
+T6	ORGANIZATION 299 305	Рейтер
+T7	COUNTRY 320 329	катарский
+T8	ORGANIZATION 341 352	Аль-Джазира
+T9	ORGANIZATION 357 368	Аль-Джазира
+T10	COUNTRY 421 427	Катаре
+T11	DATE 472 485	в этом месяце
+T12	PROFESSION 532 536	эмир
+T13	AGE 561 567	61 год
+T14	AGE 611 621	33-летнему
+T15	PROFESSION 726 741	премьер-министр
+T17	PERSON 780 805	Хамад бен Джасем Аль Тани
+T18	ORGANIZATION 989 993	Элаф
+T19	COUNTRY 1040 1046	Катара
+T20	DATE 1067 1079	в конце июня
+T21	ORGANIZATION 1112 1123	Франс Пресс
+T22	PERSON 1125 1149	Тамим бен Хамад Аль Тани
+T23	DATE 1158 1169	в 1980 году
+T24	ORDINAL 1181 1187	вторым
+T25	PROFESSION 1194 1199	эмира
+T26	ORDINAL 1206 1212	второй
+T27	PERSON 1218 1234	Мозы бинт Нассер
+T28	PROFESSION 1246 1251	принц
+T29	PROFESSION 1313 1341	главой Олимпийского комитета
+T30	PROFESSION 0 11	Эмир Катара
+T31	COUNTRY 5 11	Катара
+T32	PROFESSION 33 44	королевской
+T33	PROFESSION 52 63	Эмир Катара
+T34	COUNTRY 57 63	Катара
+T35	PROFESSION 64 68	шейх
+T36	PROFESSION 129 140	королевской
+T37	PROFESSION 169 180	чиновниками
+T38	PROFESSION 259 265	принцу
+T39	PROFESSION 266 271	шейху
+T40	COUNTRY 537 543	Катара
+T41	PROFESSION 532 543	эмир Катара
+T42	PROFESSION 633 639	принцу
+T43	PROFESSION 622 639	наследному принцу
+T44	PROFESSION 744 774	министр иностранных дел Катара
+T45	PROFESSION 744 767	министр иностранных дел
+T46	PROFESSION 744 751	министр
+T47	COUNTRY 768 774	Катара
+T16	PROFESSION 775 779	шейх
+T48	PROFESSION 829 838	дипломаты
+T49	LOCATION 839 847	западных
+T50	LOCATION 850 864	арабских стран
+T51	PROFESSION 953 963	правителей
+T52	PROFESSION 1236 1251	Наследный принц
+T53	ORGANIZATION 1279 1294	катарской армии
+T54	COUNTRY 1279 1288	катарской
+T55	ORGANIZATION 1320 1341	Олимпийского комитета
+T56	FAMILY 33 50	королевской семьи
+R1	WORKS_AS Arg1:T3 Arg2:T35	
+T57	FAMILY 129 146	королевской семьи
+T58	EVENT 94 104	встретится
+R2	WORKS_AS Arg1:T3 Arg2:T33	
+R3	WORKPLACE Arg1:T3 Arg2:T34	
+R4	PARTICIPANT_IN Arg1:T3 Arg2:T58	
+T59	PERSON 272 278	Тамиму
+R5	PARENT_OF Arg1:T3 Arg2:T59	
+R6	WORKS_AS Arg1:T59 Arg2:T39	
+R7	WORKS_AS Arg1:T59 Arg2:T38	
+R8	AGE_IS Arg1:T41 Arg2:T13	
+R9	AGE_IS Arg1:T3 Arg2:T13	
+R10	AGE_IS Arg1:T43 Arg2:T14	
+R11	AGE_IS Arg1:T59 Arg2:T14	
+R12	WORKS_AS Arg1:T17 Arg2:T16	
+R13	WORKS_AS Arg1:T17 Arg2:T44	
+R14	WORKS_AS Arg1:T17 Arg2:T15	
+R15	DATE_OF_BIRTH Arg1:T22 Arg2:T23	
+R16	SPOUSE Arg1:T25 Arg2:T27	
+R17	PARENT_OF Arg1:T25 Arg2:T22	
+R18	WORKPLACE Arg1:T52 Arg2:T53	
+R19	WORKS_AS Arg1:T22 Arg2:T52	
+R20	WORKPLACE Arg1:T22 Arg2:T53	
+R21	WORKS_AS Arg1:T22 Arg2:T29	
+R22	WORKPLACE Arg1:T30 Arg2:T31	
+R23	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R24	ABBREVIATION Arg1:T33 Arg2:T34	
+R25	POINT_IN_TIME Arg1:T58 Arg2:T4	
+R26	ALTERNATIVE_NAME Arg1:T34 Arg2:T7	
+R27	WORKPLACE Arg1:T41 Arg2:T40	
+R28	WORKPLACE Arg1:T15 Arg2:T47	
+R29	WORKPLACE Arg1:T44 Arg2:T47	
+R30	WORKPLACE Arg1:T17 Arg2:T47	
+R31	ORIGINS_FROM Arg1:T48 Arg2:T49	
+R32	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R33	WORKPLACE Arg1:T29 Arg2:T55	
+R34	PLACE_RESIDES_IN Arg1:T57 Arg2:T34	
+R35	ORIGINS_FROM Arg1:T48 Arg2:T50	
+R36	PARENT_OF Arg1:T3 Arg2:T22	
+N1	Reference T3 Wikidata:Q57360	Хамад бин Халифа Аль Тани
+N3	Reference T6 Wikidata:Q130879	Рейтер
+N4	Reference T8 Wikidata:Q13477	Аль-Джазира
+N5	Reference T10 Wikidata:Q846	Катар
+N6	Reference T15 Wikidata:Q14212	премьер-министр
+N7	Reference T21 Wikidata:Q40464	Франс Пресс
+N8	Reference T25 Wikidata:Q166382	эмир
+N9	Reference T27 Wikidata:Q238774	Моза бинт Насер аль Миснед
+N10	Reference T28 Wikidata:Q2747456	принц
+N14	Reference T35 Wikidata:Q185166	шейх
+N15	Reference T37 Wikidata:Q382887	чиновник
+N17	Reference T45 Wikidata:Q7330070	министр иностранных дел
+N18	Reference T46 Wikidata:Q83307	министр
+N19	Reference T48 Wikidata:Q193391	дипломат
+N22	Reference T51 Wikidata:Q1097498	правитель
+N12	Reference T30 Wikidata:Q25711499	
+N13	Reference T32 Wikidata:Q12097	король
+N2	Reference T5 Wikidata:NULL	нет данных
+N25	Reference T59 Wikidata:Q1855372	Тамим бин Хамад Аль Тани
+N16	Reference T44 Wikidata:NULL	нет данных
+N26	Reference T17 Wikidata:NULL	нет данных
+N20	Reference T49 Wikidata:Q160381	Западный мир
+N21	Reference T50 Wikidata:NULL	нет данных
+N27	Reference T18 Wikidata:NULL	нет данных
+N28	Reference T22 Wikidata:NULL	нет данных
+N23	Reference T53 Wikidata:Q897697	
+N24	Reference T55 Wikidata:Q1045494	
+N11	Reference T29 Wikidata:NULL	нет данных
+N29	Reference T9 Wikidata:Q13477	Аль-Джазира
+N30	Reference T40 Wikidata:Q846	Катар
+N31	Reference T47 Wikidata:Q846	Катар
+N32	Reference T7 Wikidata:Q846	Катар
+N33	Reference T31 Wikidata:Q846	Катар
+N34	Reference T34 Wikidata:Q846	Катар
+N35	Reference T54 Wikidata:Q846	Катар
+N36	Reference T19 Wikidata:Q846	Катар
+N37	Reference T12 Wikidata:Q166382	эмир
+N38	Reference T2 Wikidata:Q166382	эмир
+N39	Reference T1 Wikidata:Q166382	эмир
+N40	Reference T42 Wikidata:Q2747456	принц
+N41	Reference T38 Wikidata:Q2747456	принц
+N42	Reference T39 Wikidata:Q185166	шейх
+N43	Reference T16 Wikidata:Q185166	шейх
+N44	Reference T41 Wikidata:Q25711499	
+N45	Reference T33 Wikidata:Q25711499	
+N46	Reference T36 Wikidata:Q12097	король
+N47	Reference T43 Wikidata:NULL	нет данных
+N48	Reference T52 Wikidata:NULL	нет данных
+T60	EVENT 1150 1157	родился
+R37	PARTICIPANT_IN Arg1:T22 Arg2:T60	
+R38	POINT_IN_TIME Arg1:T60 Arg2:T23	

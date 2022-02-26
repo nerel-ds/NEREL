@@ -1,0 +1,118 @@
+T1	CITY 4 13	Алма-Атой
+T4	DATE 64 83	29 января 2013 года
+T9	CITY 326 334	Алма-Аты
+T10	NUMBER 385 393	более 20
+T11	NUMBER 532 534	15
+T12	NUMBER 548 549	5
+T13	NUMBER 612 614	22
+T14	PRODUCT 689 706	Bombardier CRJ200
+T15	PRODUCT 708 740	Bombardier Canadair Regional Jet
+T16	ORGANIZATION 767 780	Scat Airlines
+T17	ORGANIZATION 783 787	Скат
+T19	LAW 955 973	Уголовного кодекса
+T20	COUNTRY 974 984	Казахстана
+T21	NUMBER 1071 1075	двух
+T22	ORDINAL 1133 1139	вторая
+T23	COUNTRY 1151 1161	Казахстане
+T24	DATE 1162 1192	за последний месяц с небольшим
+T25	DATE 1194 1218	25 декабря прошлого года
+T26	PRODUCT 1235 1240	Ан-72
+T28	COUNTRY 1273 1283	Казахстана
+T29	NUMBER 1297 1299	27
+T31	ORGANIZATION 1376 1404	республиканской погранслужбы
+T32	PERSON 1405 1424	Турганбек Стамбеков
+T2	PRODUCT 45 63	Bombardier CRJ 200
+T3	ORDINAL 101 106	№ 760
+T5	CITY 107 115	Кокчетав
+T6	CITY 116 124	Алма-Ата
+T7	EVENT 133 152	столкнулся с землёй
+T8	EVENT 286 293	погибли
+T33	EVENT 295 303	Трагедия
+T34	LOCATION 316 334	пригороде Алма-Аты
+T35	EVENT 365 375	катастрофы
+T36	PROFESSION 394 404	спасателей
+T37	PROFESSION 407 415	пожарных
+T38	PROFESSION 535 545	пассажирах
+T39	EVENT 656 666	катастрофу
+T40	EVENT 879 889	катастрофы
+T41	EVENT 907 932	Возбуждено уголовное дело
+T42	LAW 955 984	Уголовного кодекса Казахстана
+T18	LAW 944 984	статьи 295 Уголовного кодекса Казахстана
+T43	LAW 936 984	части 3 статьи 295 Уголовного кодекса Казахстана
+T44	CRIME 987 1087	Нарушение правил безопасности, движения и эксплуатации транспорта, повлекшее смерть двух и более лиц
+T45	ORDINAL 942 943	3
+T46	ORDINAL 951 954	295
+T47	EVENT 1114 1128	авиакатастрофа
+T48	EVENT 1241 1256	рухнул на землю
+T49	EVENT 1259 1265	сгорел
+T27	LOCATION 1269 1283	юге Казахстана
+T50	EVENT 1285 1292	Погибли
+T30	EVENT 14 43	разбился пассажирский самолёт
+T51	LOCATION 0 13	Под Алма-Атой
+R1	TAKES_PLACE_IN Arg1:T30 Arg2:T51	
+R2	POINT_IN_TIME Arg1:T7 Arg2:T4	
+R3	POINT_IN_TIME Arg1:T8 Arg2:T4	
+R4	TAKES_PLACE_IN Arg1:T33 Arg2:T34	
+T52	PROFESSION 550 564	членах экипажа
+R5	PARTICIPANT_IN Arg1:T38 Arg2:T8	
+R6	PARTICIPANT_IN Arg1:T52 Arg2:T8	
+R7	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R8	OWNER_OF Arg1:T16 Arg2:T14	
+R9	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R10	LOCATED_IN Arg1:T5 Arg2:T20	
+R11	LOCATED_IN Arg1:T6 Arg2:T20	
+R12	ALTERNATIVE_NAME Arg1:T51 Arg2:T34	
+R13	LOCATED_IN Arg1:T1 Arg2:T20	
+R14	TAKES_PLACE_IN Arg1:T47 Arg2:T23	
+R15	POINT_IN_TIME Arg1:T47 Arg2:T24	
+R16	POINT_IN_TIME Arg1:T48 Arg2:T25	
+R17	POINT_IN_TIME Arg1:T49 Arg2:T25	
+R18	TAKES_PLACE_IN Arg1:T48 Arg2:T27	
+R19	TAKES_PLACE_IN Arg1:T49 Arg2:T27	
+R20	POINT_IN_TIME Arg1:T50 Arg2:T25	
+T53	PROFESSION 1346 1404	исполнявший обязанности главы республиканской погранслужбы
+R21	WORKPLACE Arg1:T53 Arg2:T31	
+R22	WORKPLACE Arg1:T32 Arg2:T31	
+R23	WORKS_AS Arg1:T32 Arg2:T53	
+R24	ALTERNATIVE_NAME Arg1:T30 Arg2:T7	
+R25	ALTERNATIVE_NAME Arg1:T7 Arg2:T39	
+R26	INANIMATE_INVOLVED Arg1:T14 Arg2:T39	
+R27	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R28	HAS_CAUSE Arg1:T41 Arg2:T39	
+R29	PART_OF Arg1:T43 Arg2:T18	
+R30	PART_OF Arg1:T18 Arg2:T42	
+R31	ORIGINS_FROM Arg1:T42 Arg2:T20	
+R32	INANIMATE_INVOLVED Arg1:T43 Arg2:T41	
+R33	INANIMATE_INVOLVED Arg1:T26 Arg2:T48	
+R34	PARTICIPANT_IN Arg1:T32 Arg2:T50	
+N1	Reference T15 Wikidata:Q8109781	Bombardier CRJ
+N2	Reference T16 Wikidata:Q650170	SCAT
+N4	Reference T26 Wikidata:Q572590	Ан-72
+N5	Reference T28 Wikidata:Q232	Казахстан
+N9	Reference T5 Wikidata:Q490643	Кокшетау
+N10	Reference T6 Wikidata:Q35493	Алма-Ата
+N13	Reference T37 Wikidata:Q107711	пожарный
+N8	Reference T2 Wikidata:Q891786	Bombardier CRJ200
+N11	Reference T34 Wikidata:NULL	нет данных
+N12	Reference T36 Wikidata:Q259327	
+N14	Reference T38 Wikidata:Q319604	пассажир
+N21	Reference T52 Wikidata:Q5184855	
+N3	Reference T19 Wikidata:Q19705	уголовное законодательство
+N19	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T18 Wikidata:NULL	нет данных
+N17	Reference T43 Wikidata:NULL	нет данных
+N18	Reference T44 Wikidata:NULL	нет данных
+N7	Reference T32 Wikidata:NULL	нет данных
+N20	Reference T53 Wikidata:NULL	нет данных
+N15	Reference T42 Wikidata:Q4469067	
+N6	Reference T31 Wikidata:Q138775	пограничные войска
+N22	Reference T14 Wikidata:Q8109781	Bombardier CRJ
+N23	Reference T17 Wikidata:Q650170	SCAT
+N24	Reference T20 Wikidata:Q232	Казахстан
+N25	Reference T23 Wikidata:Q232	Казахстан
+N26	Reference T1 Wikidata:Q35493	Алма-Ата
+N27	Reference T9 Wikidata:Q35493	Алма-Ата
+N28	Reference T51 Wikidata:NULL	нет данных
+T54	NUMBER 60 63	200
+R35	INANIMATE_INVOLVED Arg1:T2 Arg2:T30	
+T55	NUMBER 1238 1240	72

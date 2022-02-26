@@ -1,0 +1,225 @@
+T1	PROFESSION 5 31	представитель России в ООН
+T2	COUNTRY 19 25	России
+T3	ORGANIZATION 28 31	ООН
+T4	PERSON 32 46	Виталий Чуркин
+T5	PERSON 48 62	Виталий Чуркин
+T6	DATE 63 98	В понедельник, 20 февраля 2017 года
+T7	CITY 102 111	Нью-Йорке
+T8	PROFESSION 117 197	постоянный представитель Российской Федерации при Организации Объединённых Наций
+T9	COUNTRY 142 162	Российской Федерации
+T12	ORGANIZATION 222 225	ООН
+T13	PERSON 226 240	Виталий Чуркин
+T14	ORGANIZATION 263 280	The New York Post
+T15	TIME 310 329	утром в понедельник
+T16	PERSON 330 336	Чуркин
+T19	DISTRICT 376 386	Манхэттена
+T20	PERSON 428 434	Чуркин
+T21	TIME 478 502	в половине десятого утра
+T22	FACILITY 515 551	здании российского представительства
+T23	COUNTRY 522 533	российского
+T25	FACILITY 601 627	Пресвитерианский госпиталь
+T26	CITY 628 637	Нью-Йорка
+T27	PROFESSION 704 713	дипломата
+T28	PROFESSION 722 738	президент России
+T29	COUNTRY 732 738	России
+T30	PERSON 739 753	Владимир Путин
+T31	PERSON 806 821	Виталия Чуркина
+T32	PERSON 895 902	Чуркина
+T33	PROFESSION 915 941	пресс-секретарь президента
+T34	PROFESSION 931 941	президента
+T35	PERSON 942 956	Дмитрий Песков
+T36	ORGANIZATION 961 964	ООН
+T37	COUNTRY 1008 1019	российского
+T38	PROFESSION 1020 1029	дипломата
+T39	ORGANIZATION 1081 1088	Reuters
+T40	PROFESSION 1095 1120	представителя генсека ООН
+T41	PROFESSION 1109 1120	генсека ООН
+T42	ORGANIZATION 1117 1120	ООН
+T43	PERSON 1121 1138	Антониу Гутерриша
+T44	ORGANIZATION 1143 1162	постпредстве России
+T45	COUNTRY 1156 1162	России
+T46	CITY 1165 1174	Нью-Йорке
+T47	AGE 1243 1251	65-летия
+T48	PERSON 1254 1268	Виталий Чуркин
+T49	DATE 1277 1297	21 февраля 1952 года
+T50	CITY 1300 1306	Москве
+T51	PROFESSION 1317 1339	представителя РФ в ООН
+T52	COUNTRY 1331 1333	РФ
+T53	ORGANIZATION 1336 1339	ООН
+T54	DATE 1340 1351	с 2006 года
+T55	PERSON 1379 1393	Виталий Чуркин
+T56	DATE 1404 1415	с 1974 года
+T57	PROFESSION 1445 1481	представителем России и СССР при ООН
+T58	COUNTRY 1460 1466	России
+T59	COUNTRY 1469 1473	СССР
+T60	ORGANIZATION 1478 1481	ООН
+T61	PERSON 1486 1502	Андрей Вышинский
+T62	CITY 1519 1528	Нью-Йорке
+T63	DATE 1529 1548	22 ноября 1954 года
+R6	WORKS_AS Arg1:T35 Arg2:T33
+R8	SUBORDINATE_OF Arg1:T40 Arg2:T41
+R10	WORKS_AS Arg1:T43 Arg2:T41
+R11	WORKPLACE Arg1:T43 Arg2:T42
+R13	DATE_OF_BIRTH Arg1:T48 Arg2:T49
+T10	ORGANIZATION 167 197	Организации Объединённых Наций
+T11	ORGANIZATION 202 225	Совете Безопасности ООН
+T17	DISEASE 389 409	проблемами с сердцем
+T65	DISEASE 461 477	потерял сознание
+T24	PROFESSION 757 766	Президент
+T66	PROFESSION 823 840	Глава государства
+T67	PROFESSION 1206 1214	Дипломат
+R1	WORKS_AS Arg1:T4 Arg2:T1	
+R2	WORKPLACE Arg1:T4 Arg2:T3	
+R3	ORIGINS_FROM Arg1:T4 Arg2:T2	
+R4	DATE_OF_BIRTH Arg1:T13 Arg2:T6	
+T69	DATE 316 329	в понедельник
+R5	PLACE_OF_DEATH Arg1:T13 Arg2:T7	
+R7	WORKS_AS Arg1:T13 Arg2:T8	
+R9	WORKPLACE Arg1:T13 Arg2:T10	
+R12	MEDICAL_CONDITION Arg1:T16 Arg2:T17	
+R14	MEDICAL_CONDITION Arg1:T20 Arg2:T65	
+T70	ORGANIZATION 522 551	российского представительства
+R15	LOCATED_IN Arg1:T25 Arg2:T26	
+R16	WORKS_AS Arg1:T30 Arg2:T28	
+R17	SUBORDINATE_OF Arg1:T35 Arg2:T34	
+R18	HEADQUARTERED_IN Arg1:T44 Arg2:T46	
+R19	PLACE_OF_BIRTH Arg1:T48 Arg2:T50	
+R20	WORKS_AS Arg1:T48 Arg2:T51	
+R21	WORKPLACE Arg1:T48 Arg2:T53	
+R22	PLACE_OF_DEATH Arg1:T61 Arg2:T62	
+R23	DATE_OF_DEATH Arg1:T61 Arg2:T63	
+R24	WORKS_AS Arg1:T61 Arg2:T57	
+R25	WORKPLACE Arg1:T61 Arg2:T60	
+T64	ORGANIZATION 202 221	Совете Безопасности
+R26	PLACE_OF_DEATH Arg1:T20 Arg2:T25	
+R27	WORKPLACE Arg1:T30 Arg2:T29	
+R28	WORKS_AS Arg1:T20 Arg2:T27	
+T68	PROFESSION 915 930	пресс-секретарь
+R29	ORIGINS_FROM Arg1:T38 Arg2:T37	
+T71	EVENT 0 4	Умер
+R30	PARTICIPANT_IN Arg1:T4 Arg2:T71	
+R31	ORIGINS_FROM Arg1:T1 Arg2:T2	
+R32	WORKPLACE Arg1:T1 Arg2:T3	
+R33	PART_OF Arg1:T11 Arg2:T12	
+R34	ORIGINS_FROM Arg1:T8 Arg2:T9	
+R35	WORKPLACE Arg1:T8 Arg2:T10	
+T18	EVENT 348 375	доставлен в одну из больниц
+R36	PARTICIPANT_IN Arg1:T16 Arg2:T18	
+R37	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R38	POINT_IN_TIME Arg1:T18 Arg2:T69	
+T72	DISEASE 435 458	почувствовал себя плохо
+R39	MEDICAL_CONDITION Arg1:T20 Arg2:T72	
+R40	OWNER_OF Arg1:T70 Arg2:T22	
+R41	HEADQUARTERED_IN Arg1:T70 Arg2:T23	
+R42	WORKPLACE Arg1:T28 Arg2:T29	
+T73	PROFESSION 722 731	президент
+R43	ALTERNATIVE_NAME Arg1:T13 Arg2:T16	
+R44	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R45	ALTERNATIVE_NAME Arg1:T24 Arg2:T66	
+R46	WORKS_AS Arg1:T30 Arg2:T66	
+R47	SUBORDINATE_OF Arg1:T33 Arg2:T34	
+R48	WORKS_AS Arg1:T31 Arg2:T38	
+R49	WORKPLACE Arg1:T40 Arg2:T42	
+R50	WORKPLACE Arg1:T41 Arg2:T42	
+R51	HEADQUARTERED_IN Arg1:T44 Arg2:T45	
+R52	ORIGINS_FROM Arg1:T51 Arg2:T52	
+R53	WORKPLACE Arg1:T51 Arg2:T53	
+R54	ORIGINS_FROM Arg1:T48 Arg2:T52	
+R55	ORIGINS_FROM Arg1:T57 Arg2:T58	
+R56	ORIGINS_FROM Arg1:T57 Arg2:T59	
+R57	WORKPLACE Arg1:T57 Arg2:T60	
+R58	ORIGINS_FROM Arg1:T61 Arg2:T58	
+R59	ORIGINS_FROM Arg1:T61 Arg2:T59	
+R60	LOCATED_IN Arg1:T19 Arg2:T26	
+R61	WORKS_AS Arg1:T32 Arg2:T67	
+R62	AGE_IS Arg1:T67 Arg2:T47	
+R63	AGE_IS Arg1:T32 Arg2:T47	
+R64	ALTERNATIVE_NAME Arg1:T3 Arg2:T10	
+R65	ALTERNATIVE_NAME Arg1:T2 Arg2:T9	
+R66	ALTERNATIVE_NAME Arg1:T52 Arg2:T58	
+R67	ALTERNATIVE_NAME Arg1:T9 Arg2:T23	
+R68	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+T74	EVENT 112 116	умер
+R69	PARTICIPANT_IN Arg1:T13 Arg2:T74	
+R70	POINT_IN_TIME Arg1:T74 Arg2:T6	
+R71	TAKES_PLACE_IN Arg1:T74 Arg2:T7	
+R72	ABBREVIATION Arg1:T10 Arg2:T12	
+R73	HAS_CAUSE Arg1:T18 Arg2:T17	
+T75	EVENT 589 598	доставлен
+R74	ALTERNATIVE_NAME Arg1:T18 Arg2:T75	
+R75	TAKES_PLACE_IN Arg1:T75 Arg2:T25	
+T76	EVENT 695 703	кончиной
+R76	PARTICIPANT_IN Arg1:T27 Arg2:T76	
+T77	CITY 267 275	New York
+R77	HEADQUARTERED_IN Arg1:T14 Arg2:T77	
+R78	ALTERNATIVE_NAME Arg1:T74 Arg2:T76	
+R79	ALTERNATIVE_NAME Arg1:T23 Arg2:T29	
+R80	ABBREVIATION Arg1:T45 Arg2:T52	
+T78	EVENT 1507 1516	скончался
+R81	PARTICIPANT_IN Arg1:T61 Arg2:T78	
+R82	TAKES_PLACE_IN Arg1:T78 Arg2:T62	
+R83	POINT_IN_TIME Arg1:T78 Arg2:T63	
+N2	Reference T13 Wikidata:Q1394102	Виталий Иванович Чуркин
+N3	Reference T14 Wikidata:Q211374	New York Post
+N4	Reference T19 Wikidata:Q11299	Манхэттен
+N7	Reference T27 Wikidata:Q193391	дипломат
+N8	Reference T28 Wikidata:Q218295	президент Российской Федерации
+N9	Reference T29 Wikidata:Q159	Россия
+N10	Reference T30 Wikidata:Q7747	Владимир Владимирович Путин
+N11	Reference T33 Wikidata:Q19607392	пресс-секретарь президента России
+N13	Reference T39 Wikidata:Q130879	Рейтер
+N15	Reference T41 Wikidata:Q81066	генеральный секретарь ООН
+N16	Reference T42 Wikidata:Q1065	Организация Объединённых Наций
+N17	Reference T43 Wikidata:Q311440	Антониу Гутерриш
+N19	Reference T46 Wikidata:Q60	Нью-Йорк
+N20	Reference T48 Wikidata:Q1394102	Виталий Иванович Чуркин
+N21	Reference T50 Wikidata:Q649	Москва
+N23	Reference T58 Wikidata:Q159	Россия
+N24	Reference T59 Wikidata:Q15180	СССР
+N25	Reference T61 Wikidata:Q155860	Андрей Януарьевич Вышинский
+N26	Reference T11 Wikidata:Q37470	Совет Безопасности ООН
+N27	Reference T24 Wikidata:Q30461	президент
+N29	Reference T64 Wikidata:NULL	нет данных
+N30	Reference T77 Wikidata:Q60	Нью-Йорк
+N31	Reference T68 Wikidata:Q1388151	
+N14	Reference T40 Wikidata:NULL	нет данных
+N1	Reference T8 Wikidata:Q4374313	
+N28	Reference T70 Wikidata:Q56326903	
+N5	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T25 Wikidata:Q975653	
+N12	Reference T35 Wikidata:Q4359688	Дмитрий Сергеевич Песков
+N18	Reference T44 Wikidata:Q56326903	
+N32	Reference T51 Wikidata:Q4374313	
+N22	Reference T57 Wikidata:Q4374313	
+N33	Reference T16 Wikidata:Q1394102	Виталий Иванович Чуркин
+N34	Reference T38 Wikidata:Q193391	дипломат
+N35	Reference T67 Wikidata:Q193391	дипломат
+N36	Reference T37 Wikidata:Q159	Россия
+N37	Reference T9 Wikidata:Q159	Россия
+N38	Reference T2 Wikidata:Q159	Россия
+N39	Reference T23 Wikidata:Q159	Россия
+N40	Reference T3 Wikidata:Q1065	Организация Объединённых Наций
+N41	Reference T36 Wikidata:Q1065	Организация Объединённых Наций
+N42	Reference T10 Wikidata:Q1065	Организация Объединённых Наций
+N43	Reference T60 Wikidata:Q1065	Организация Объединённых Наций
+N44	Reference T53 Wikidata:Q1065	Организация Объединённых Наций
+N45	Reference T12 Wikidata:Q1065	Организация Объединённых Наций
+N46	Reference T7 Wikidata:Q60	Нью-Йорк
+N47	Reference T26 Wikidata:Q60	Нью-Йорк
+N48	Reference T62 Wikidata:Q60	Нью-Йорк
+N49	Reference T55 Wikidata:Q1394102	Виталий Иванович Чуркин
+N50	Reference T20 Wikidata:Q1394102	Виталий Иванович Чуркин
+N51	Reference T4 Wikidata:Q1394102	Виталий Иванович Чуркин
+N52	Reference T5 Wikidata:Q1394102	Виталий Иванович Чуркин
+N53	Reference T31 Wikidata:Q1394102	Виталий Иванович Чуркин
+N54	Reference T32 Wikidata:Q1394102	Виталий Иванович Чуркин
+N55	Reference T45 Wikidata:Q159	Россия
+N56	Reference T52 Wikidata:Q159	Россия
+N57	Reference T34 Wikidata:Q30461	президент
+N58	Reference T66 Wikidata:Q30461	президент
+N59	Reference T73 Wikidata:Q30461	президент
+N60	Reference T1 Wikidata:Q4374313	
+T79	EVENT 1269 1276	родился
+R84	PARTICIPANT_IN Arg1:T48 Arg2:T79	
+R85	POINT_IN_TIME Arg1:T79 Arg2:T49	
+R86	TAKES_PLACE_IN Arg1:T79 Arg2:T50	

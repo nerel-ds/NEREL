@@ -1,0 +1,159 @@
+T1	ORDINAL 0 5	Пятый
+T2	AGE 44 53	58-летний
+T3	PROFESSION 54 65	программист
+T4	PROFESSION 68 78	миллиардер
+T5	PERSON 112 125	Чарльз Симони
+T6	NATIONALITY 127 137	американец
+T7	NATIONALITY 138 149	венгерского
+T8	ORGANIZATION 195 205	Майкрософт
+T9	PRODUCT 257 261	Word
+T10	DATE 301 308	9 марта
+T11	PRODUCT 321 332	Союз ТМА-10
+T12	PERSON 335 341	Симони
+T13	FACILITY 356 389	Международную космическую станцию
+T14	ORDINAL 399 403	15-м
+T15	PERSON 418 435	Фёдором Юрчихиным
+T16	PERSON 438 452	Олегом Котовым
+T17	ORDINAL 484 488	14-о
+T18	PERSON 501 524	Майклом Лопесом-Алегрия
+T19	PERSON 527 543	Михаилом Тюриным
+T20	PERSON 546 552	Симони
+T21	ORDINAL 575 581	первым
+T22	PERSON 617 623	Симони
+T23	ORGANIZATION 644 660	Space Adventures
+T24	NUMBER 736 744	четверых
+T25	PERSON 775 781	Симони
+T28	FACILITY 830 833	МКС
+T30	PERSON 869 876	Симонии
+T31	NUMBER 877 880	160
+T32	NUMBER 912 936	6,5 миллионов километров
+T33	NUMBER 947 950	три
+T34	PERSON 965 971	Симони
+T35	ORDINAL 1019 1025	вторая
+T36	PERSON 1129 1135	Симони
+T37	PERSON 1212 1219	Симонии
+T38	FACILITY 1269 1272	МКС
+T39	PERSON 1314 1331	Роберта Хайнлайна
+T41	WORK_OF_ART 1333 1353	Луна-суровая хозяйка
+T42	WORK_OF_ART 1358 1363	Фауст
+T43	DATE 1372 1394	Следующие пять месяцев
+T44	CITY 1413 1429	Звёздном городке
+T45	FACILITY 1435 1444	Байконуре
+T46	PERSON 1503 1509	Симони
+T47	PROFESSION 1569 1576	лётчика
+T48	TIME 1618 1634	более 2000 часов
+T49	PROFESSION 1644 1650	Доктор
+T50	LANGUAGE 1689 1696	русский
+T51	PRODUCT 1721 1725	Союз
+T52	PERSON 1796 1802	Симони
+T53	PRODUCT 264 269	Excel
+T54	FACILITY 413 416	МКС
+T55	LOCATION 468 473	Землю
+T56	FACILITY 497 500	МКС
+T58	PROFESSION 745 756	космонавтов
+T29	LOCATION 893 898	Землю
+T61	FACILITY 1067 1070	МКС
+T62	ORDINAL 1072 1078	третья
+T63	PRODUCT 1148 1156	Интернет
+T64	ORDINAL 1274 1280	Первым
+T40	PERSON 1365 1369	Гёте
+T66	PERSON 1395 1401	Симони
+T67	PROFESSION 1569 1597	лётчика реактивного самолёта
+T69	PERSON 1651 1657	Симони
+R2	WORKS_AS Arg1:T5 Arg2:T3	
+R3	WORKS_AS Arg1:T5 Arg2:T4	
+R4	AGE_IS Arg1:T5 Arg2:T2	
+R5	ORIGINS_FROM Arg1:T5 Arg2:T6	
+R6	ORIGINS_FROM Arg1:T5 Arg2:T7	
+R7	WORKPLACE Arg1:T5 Arg2:T8	
+R8	PRODUCES Arg1:T8 Arg2:T9	
+R9	PRODUCES Arg1:T8 Arg2:T53	
+R10	PRODUCES Arg1:T5 Arg2:T9	
+R11	PRODUCES Arg1:T5 Arg2:T53	
+R12	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R13	ALTERNATIVE_NAME Arg1:T13 Arg2:T54	
+T26	DATE 801 809	10 суток
+T27	DATE 811 821	двое суток
+T59	DATE 836 843	8 суток
+R16	PRODUCES Arg1:T39 Arg2:T41	
+R20	PRODUCES Arg1:T40 Arg2:T42	
+R21	LOCATED_IN Arg1:T66 Arg2:T44	
+R22	LOCATED_IN Arg1:T66 Arg2:T45	
+T60	PROFESSION 1569 1576;1600 1609	лётчика вертолёта
+R23	WORKS_AS Arg1:T46 Arg2:T67	
+R24	WORKS_AS Arg1:T46 Arg2:T60	
+R25	WORKS_AS Arg1:T69 Arg2:T49	
+R26	ALTERNATIVE_NAME Arg1:T11 Arg2:T51	
+T65	EVENT 281 300	стартовать в космос
+R27	PARTICIPANT_IN Arg1:T5 Arg2:T65	
+R28	POINT_IN_TIME Arg1:T65 Arg2:T10	
+T68	ORGANIZATION 399 416	15-м экипажем МКС
+R1	MEMBER_OF Arg1:T15 Arg2:T68	
+R14	MEMBER_OF Arg1:T16 Arg2:T68	
+R15	HEADQUARTERED_IN Arg1:T68 Arg2:T54	
+T71	ORGANIZATION 484 500	14-о экипажа МКС
+R17	HEADQUARTERED_IN Arg1:T71 Arg2:T56	
+R18	MEMBER_OF Arg1:T18 Arg2:T71	
+R19	MEMBER_OF Arg1:T19 Arg2:T71	
+R29	INANIMATE_INVOLVED Arg1:T11 Arg2:T65	
+T70	NUMBER 330 332	10
+T57	EVENT 91 110	космическому полёту
+R30	PARTICIPANT_IN Arg1:T4 Arg2:T57	
+R31	PARTICIPANT_IN Arg1:T3 Arg2:T57	
+R32	START_TIME Arg1:T57 Arg2:T10	
+R33	SUBEVENT_OF Arg1:T65 Arg2:T57	
+R34	INANIMATE_INVOLVED Arg1:T11 Arg2:T57	
+T72	EVENT 611 616	Полёт
+R35	PARTICIPANT_IN Arg1:T22 Arg2:T72	
+R36	ORGANIZES Arg1:T23 Arg2:T72	
+R37	ALTERNATIVE_NAME Arg1:T57 Arg2:T72	
+N1	Reference T3 Wikidata:Q5482740	программист
+N5	Reference T8 Wikidata:Q2283	Майкрософт
+N6	Reference T11 Wikidata:Q507375	Союз ТМА-10
+N7	Reference T15 Wikidata:Q347977	Фёдор Николаевич Юрчихин
+N9	Reference T18 Wikidata:Q375202	Лопес-Алегриа, Майкл Эладио
+N10	Reference T19 Wikidata:Q362180	Тюрин, Михаил Владиславович
+N11	Reference T23 Wikidata:Q81133	Space Adventures
+N13	Reference T39 Wikidata:Q123078	Роберт Хайнлайн
+N14	Reference T41 Wikidata:Q1410482	Луна — суровая хозяйка
+N15	Reference T42 Wikidata:Q29478	Фауст
+N16	Reference T44 Wikidata:Q335565	Звёздный городок
+N17	Reference T45 Wikidata:Q177477	Байконур
+N18	Reference T47 Wikidata:Q2095549	лётчик
+N20	Reference T50 Wikidata:Q7737	русский язык
+N22	Reference T53 Wikidata:Q11272	Microsoft Excel
+N23	Reference T56 Wikidata:Q25271	Международная космическая станция
+N24	Reference T58 Wikidata:Q11631	космонавт
+N25	Reference T29 Wikidata:Q2	Земля
+N26	Reference T63 Wikidata:Q75	Интернет
+N27	Reference T40 Wikidata:Q5879	Иоганн Вольфганг фон Гёте
+N2	Reference T4 Wikidata:Q1062083	миллиардер
+N4	Reference T7 Wikidata:Q133032	венгры
+N3	Reference T6 Wikidata:Q846570	
+N32	Reference T9 Wikidata:Q11261	Microsoft Word
+N30	Reference T68 Wikidata:Q17202	
+N8	Reference T16 Wikidata:Q342338	
+N31	Reference T71 Wikidata:Q17198	
+N12	Reference T37 Wikidata:Q49819	
+N29	Reference T60 Wikidata:Q20726593	
+N28	Reference T67 Wikidata:NULL	нет данных
+N21	Reference T52 Wikidata:Q49819	
+N19	Reference T49 Wikidata:Q849697	
+N33	Reference T51 Wikidata:Q507375	Союз ТМА-10
+N34	Reference T13 Wikidata:Q25271	Международная космическая станция
+N35	Reference T38 Wikidata:Q25271	Международная космическая станция
+N36	Reference T54 Wikidata:Q25271	Международная космическая станция
+N37	Reference T28 Wikidata:Q25271	Международная космическая станция
+N38	Reference T61 Wikidata:Q25271	Международная космическая станция
+N39	Reference T55 Wikidata:Q2	Земля
+N40	Reference T30 Wikidata:Q49819	
+N41	Reference T22 Wikidata:Q49819	
+N42	Reference T69 Wikidata:Q49819	
+N43	Reference T5 Wikidata:Q49819	
+N44	Reference T20 Wikidata:Q49819	
+N45	Reference T12 Wikidata:Q49819	
+N46	Reference T46 Wikidata:Q49819	
+N47	Reference T25 Wikidata:Q49819	
+N48	Reference T66 Wikidata:Q49819	
+N49	Reference T34 Wikidata:Q49819	
+N50	Reference T36 Wikidata:Q49819	

@@ -1,0 +1,114 @@
+T1	STATE_OR_PROVINCE 30 39	Дагестане
+T2	NUMBER 46 52	семеро
+T3	DISTRICT 64 83	Унцукульском районе
+T4	STATE_OR_PROVINCE 84 93	Дагестана
+T5	TIME 121 136	около часа ночи
+T6	CITY 197 202	Гимры
+T7	CITY 205 213	Унцукуль
+T8	NUMBER 244 248	семь
+T10	ORGANIZATION 386 399	РИА «Новости»
+T12	NUMBER 435 450	двух километрах
+T13	CITY 462 467	Гимры
+T14	NUMBER 489 494	двоих
+T16	CITY 583 591	Унцукуль
+T17	NUMBER 716 719	три
+T19	DATE 750 759	2008 года
+T20	NUMBER 774 778	двое
+T21	PRODUCT 870 875	Сайга
+T22	NUMBER 885 892	7,62 мм
+T23	DISTRICT 927 946	Унцукульском районе
+T24	LAW 974 979	УК РФ
+T25	LAW 982 1000	части 1 статьи 105
+T26	LAW 1013 1031	частью 3 статьи 30
+T27	LAW 1033 1052	частью 2 статьи 105
+T28	NUMBER 1082 1086	двух
+T30	LAW 1113 1118	УК РФ
+T31	EVENT 13 27	массовой драки
+T32	EVENT 40 60	убиты семеро жителей
+T33	EVENT 147 173	массовая вооружённая драка
+T34	EVENT 236 256	погибли семь человек
+T35	EVENT 312 332	оказались в больнице
+T11	EVENT 634 639	драка
+T15	EVENT 684 703	массового конфликта
+T18	EVENT 792 802	скончались
+T36	COUNTRY 977 979	РФ
+T37	ORDINAL 988 989	1
+T38	ORDINAL 997 1000	105
+T39	CRIME 1002 1010	убийство
+T40	LAW 974 976	УК
+T42	ORDINAL 1020 1021	3
+T43	ORDINAL 1029 1031	30
+T45	ORDINAL 1040 1041	2
+T46	ORDINAL 1049 1052	105
+T48	CRIME 1054 1090	покушение на убийство более двух лиц
+T49	CRIME 1120 1144	незаконный оборот оружия
+T50	ORDINAL 1100 1101	2
+T51	ORDINAL 1109 1112	222
+T52	COUNTRY 1116 1118	РФ
+T53	LAW 1102 1112	статьи 222
+T54	LAW 1113 1115	УК
+T55	LAW 1094 1118	части 2 статьи 222 УК РФ
+T56	LAW 1102 1118	статьи 222 УК РФ
+T57	EVENT 895 909;947 957	Уголовное дело возбуждено
+T58	NUMBER 961 965	трём
+T59	EVENT 1155 1168	расследование
+R1	SUBEVENT_OF Arg1:T32 Arg2:T31	
+R2	TAKES_PLACE_IN Arg1:T31 Arg2:T1	
+R3	LOCATED_IN Arg1:T3 Arg2:T4	
+R4	LOCATED_IN Arg1:T6 Arg2:T3	
+R5	LOCATED_IN Arg1:T7 Arg2:T3	
+R6	TAKES_PLACE_IN Arg1:T33 Arg2:T3	
+T9	AGE 270 280	трёхлетний
+R7	SUBEVENT_OF Arg1:T34 Arg2:T33	
+R8	SUBEVENT_OF Arg1:T35 Arg2:T33	
+T29	LOCATION 433 467	в двух километрах от селения Гимры
+T41	EVENT 473 488	обнаружены тела
+R9	TAKES_PLACE_IN Arg1:T41 Arg2:T29	
+R10	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+T44	EVENT 704 728	погибли ещё три человека
+R11	SUBEVENT_OF Arg1:T44 Arg2:T15	
+R12	TAKES_PLACE_IN Arg1:T11 Arg2:T16	
+T47	EVENT 919 924	драки
+R13	TAKES_PLACE_IN Arg1:T47 Arg2:T23	
+T60	EVENT 1225 1234	инцидента
+R17	ALTERNATIVE_NAME Arg1:T47 Arg2:T60	
+T61	EVENT 40 45	убиты
+R18	ALTERNATIVE_NAME Arg1:T31 Arg2:T33	
+T62	EVENT 236 243	погибли
+R19	HAS_CAUSE Arg1:T32 Arg2:T34	
+T63	EVENT 704 711	погибли
+R20	ORIGINS_FROM Arg1:T24 Arg2:T36	
+R21	PART_OF Arg1:T25 Arg2:T24	
+R22	PART_OF Arg1:T26 Arg2:T24	
+R23	PART_OF Arg1:T27 Arg2:T24	
+R24	PART_OF Arg1:T55 Arg2:T56	
+R25	PART_OF Arg1:T56 Arg2:T30	
+R26	ORIGINS_FROM Arg1:T30 Arg2:T52	
+R27	HAS_CAUSE Arg1:T59 Arg2:T60	
+R28	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+N1	Reference T3 Wikidata:Q1438983	Унцукульский район
+N2	Reference T4 Wikidata:Q5118	Дагестан
+N3	Reference T10 Wikidata:Q821172	РИА Новости
+N4	Reference T13 Wikidata:Q2476794	Гимры
+N5	Reference T16 Wikidata:Q2043683	Унцукуль
+N6	Reference T21 Wikidata:Q1186743	Сайга
+N7	Reference T24 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N10	Reference T36 Wikidata:Q159	Россия
+N15	Reference T29 Wikidata:NULL	нет данных
+N12	Reference T40 Wikidata:Q19705	уголовное законодательство
+N11	Reference T39 Wikidata:Q132821	убийство
+N8	Reference T26 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:NULL	нет данных
+N13	Reference T53 Wikidata:NULL	нет данных
+N14	Reference T56 Wikidata:NULL	нет данных
+N16	Reference T49 Wikidata:NULL	нет данных
+N17	Reference T23 Wikidata:Q1438983	Унцукульский район
+N18	Reference T1 Wikidata:Q5118	Дагестан
+N19	Reference T6 Wikidata:Q2476794	Гимры
+N20	Reference T7 Wikidata:Q2043683	Унцукуль
+N21	Reference T30 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N22	Reference T52 Wikidata:Q159	Россия
+N23	Reference T54 Wikidata:Q19705	уголовное законодательство
+N24	Reference T25 Wikidata:Q132821	убийство
+N25	Reference T48 Wikidata:NULL	нет данных
+N26	Reference T55 Wikidata:NULL	нет данных

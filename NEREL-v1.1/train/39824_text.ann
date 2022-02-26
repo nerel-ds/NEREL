@@ -1,0 +1,111 @@
+T1	ORGANIZATION 7 20	Rolling Stone
+T2	PERSON 47 55	Царнаева
+T3	ORGANIZATION 63 76	Rolling Stone
+T4	PERSON 91 107	Джохара Царнаева
+T5	DATE 344 373	в пятницу — 19 июля 2013 года
+T6	PERSON 401 408	Царнаев
+T7	AGE 444 454	19-летнего
+T8	DATE 502 526	чуть больше недели назад
+T9	EVENT 581 600	Бостонском марафоне
+T10	PROFESSION 707 710	мэр
+T11	PROFESSION 720 730	губернатор
+T12	DATE 772 782	апрельских
+T13	NUMBER 809 813	пять
+T16	PROFESSION 1054 1062	издателю
+T17	ORGANIZATION 1063 1076	Rolling Stone
+T18	PERSON 1077 1089	Янну Веннеру
+T19	PROFESSION 1090 1093	мэр
+T20	PERSON 1102 1114	Томас Менино
+T21	PERSON 1141 1149	Царнаеву
+T22	PROFESSION 1182 1186	мэра
+T23	PROFESSION 1377 1380	Мэр
+T24	CITY 1487 1494	Бостоне
+T25	ORGANIZATION 1555 1568	Rolling Stone
+T26	PERSON 1600 1606	Менино
+T27	AGE 1750 1759	30-летний
+T28	STATE_OR_PROVINCE 1773 1784	Массачусетс
+T29	PERSON 1785 1800	Джеймс Костелло
+T30	NUMBER 1975 1979	Трое
+T31	DATE 1999 2009	в тот день
+T32	EVENT 570 577	взрывов
+T33	CITY 581 591	Бостонском
+T34	CITY 711 718	Бостона
+T35	PROFESSION 707 718	мэр Бостона
+T36	STATE_OR_PROVINCE 731 743	Массачусетса
+T37	PROFESSION 720 743	губернатор Массачусетса
+T38	EVENT 783 790	взрывов
+T14	STATE_OR_PROVINCE 867 879	Новой Англии
+T15	RELIGION 1036 1042	исламу
+T39	RELIGION 1023 1042	радикальному исламу
+T40	PROFESSION 1054 1076	издателю Rolling Stone
+T41	CITY 1094 1101	Бостона
+T42	PROFESSION 1090 1101	мэр Бостона
+T43	EVENT 1479 1484	атаки
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R2	AGE_IS Arg1:T6 Arg2:T7	
+R3	TAKES_PLACE_IN Arg1:T9 Arg2:T33	
+T45	EVENT 592 600	марафоне
+R4	SUBEVENT_OF Arg1:T32 Arg2:T9	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T32	
+R6	WORKPLACE Arg1:T35 Arg2:T34	
+R7	WORKPLACE Arg1:T37 Arg2:T36	
+R8	POINT_IN_TIME Arg1:T38 Arg2:T12	
+R9	WORKPLACE Arg1:T40 Arg2:T17	
+R10	WORKS_AS Arg1:T18 Arg2:T40	
+R11	WORKPLACE Arg1:T18 Arg2:T17	
+R12	WORKPLACE Arg1:T42 Arg2:T41	
+R13	WORKS_AS Arg1:T20 Arg2:T42	
+R14	WORKPLACE Arg1:T20 Arg2:T41	
+R15	TAKES_PLACE_IN Arg1:T43 Arg2:T24	
+R16	ALTERNATIVE_NAME Arg1:T38 Arg2:T43	
+R17	ALTERNATIVE_NAME Arg1:T20 Arg2:T26	
+R18	ORIGINS_FROM Arg1:T29 Arg2:T28	
+T46	EVENT 1817 1824	взрывов
+R19	PARTICIPANT_IN Arg1:T29 Arg2:T46	
+T47	EVENT 1839 1853	пересадка кожи
+T49	EVENT 2010 2023	потеряли ноги
+R22	POINT_IN_TIME Arg1:T49 Arg2:T31	
+R23	HAS_CAUSE Arg1:T49 Arg2:T46	
+T44	EVENT 2053 2058	ожоги
+T50	EVENT 2061 2068	ранения
+R24	HAS_CAUSE Arg1:T44 Arg2:T46	
+R25	HAS_CAUSE Arg1:T50 Arg2:T46	
+T48	EVENT 1900 1917	ранения шрапнелью
+R20	HAS_CAUSE Arg1:T48 Arg2:T46	
+R21	HAS_CAUSE Arg1:T47 Arg2:T48	
+R26	AGE_IS Arg1:T29 Arg2:T27	
+R27	PARTICIPANT_IN Arg1:T29 Arg2:T47	
+R28	PARTICIPANT_IN Arg1:T29 Arg2:T48	
+R29	ALTERNATIVE_NAME Arg1:T32 Arg2:T38	
+R30	RELIGION_OF Arg1:T6 Arg2:T39	
+N1	Reference T4 Wikidata:Q11643847	братья Царнаевы
+N2	Reference T11 Wikidata:Q132050	губернатор
+N3	Reference T16 Wikidata:Q2516866	издатель
+N5	Reference T22 Wikidata:Q30185	мэр
+N6	Reference T24 Wikidata:Q100	Бостон
+N7	Reference T25 Wikidata:Q33511	Роллинг Стоун
+N11	Reference T36 Wikidata:Q771	Массачусетс
+N12	Reference T37 Wikidata:Q887117	губернатор Массачусетса
+N13	Reference T14 Wikidata:Q18389	Новая Англия
+N14	Reference T15 Wikidata:Q432	ислам
+N18	Reference T6 Wikidata:Q11643847	братья Царнаевы
+N10	Reference T33 Wikidata:Q100	Бостон
+N15	Reference T39 Wikidata:Q189746	
+N16	Reference T40 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:Q519143	
+N17	Reference T42 Wikidata:Q1837807	
+N8	Reference T26 Wikidata:Q941404	
+N9	Reference T29 Wikidata:NULL	нет данных
+N19	Reference T2 Wikidata:Q11643847	братья Царнаевы
+N20	Reference T21 Wikidata:Q11643847	братья Царнаевы
+N21	Reference T19 Wikidata:Q30185	мэр
+N22	Reference T10 Wikidata:Q30185	мэр
+N23	Reference T23 Wikidata:Q30185	мэр
+N24	Reference T34 Wikidata:Q100	Бостон
+N25	Reference T41 Wikidata:Q100	Бостон
+N26	Reference T17 Wikidata:Q33511	Роллинг Стоун
+N27	Reference T1 Wikidata:Q33511	Роллинг Стоун
+N28	Reference T3 Wikidata:Q33511	Роллинг Стоун
+N29	Reference T28 Wikidata:Q771	Массачусетс
+N30	Reference T35 Wikidata:Q1837807	
+N31	Reference T20 Wikidata:Q941404	

@@ -1,0 +1,178 @@
+T2	DATE 42 60	22 марта 2015 года
+T3	CITY 63 73	московской
+T5	PROFESSION 107 123	писатель-сатирик
+T6	PERSON 124 139	Аркадий Арканов
+T7	AGE 160 169	81-летний
+T8	ORDINAL 286 292	Первый
+T9	DATE 318 336	13 марта 2015 году
+T10	PERSON 430 438	Арканова
+T12	DATE 470 497	На следующий день в субботу
+T13	PERSON 532 540	Арканова
+T14	FACILITY 543 575	Центральную клиническую больницу
+T15	DATE 584 596	через неделю
+T16	PERSON 616 624	Арканова
+T18	PERSON 699 715	Владимир Винокур
+T19	PROFESSION 895 911	Писатель-сатирик
+T20	PERSON 912 925	Лион Измайлов
+T21	PERSON 976 983	Аркадий
+T22	PERSON 1079 1087	Аркадием
+T23	PERSON 1138 1153	Аркадий Арканов
+T24	DATE 1162 1178	7 июня 1933 года
+T25	CITY 1181 1186	Киеве
+T26	DATE 1189 1215	В начале войны в 1941 году
+T28	CITY 1262 1272	Красноярск
+T29	DATE 1299 1317	в апреле 1943 года
+T30	CITY 1337 1343	Москву
+T31	PROFESSION 1400 1408	писатель
+T32	DATE 1409 1420	в 1963 году
+T33	ORGANIZATION 1432 1438	Юность
+T34	DATE 1442 1453	С 1968 года
+T35	PERSON 1454 1462	Арканова
+T36	ORGANIZATION 1473 1497	Союз советских писателей
+T37	PROFESSION 1500 1516	Писатель-сатирик
+T39	PROFESSION 1519 1528	драматург
+T40	NUMBER 1537 1560	около полутора десятков
+T42	ORGANIZATION 1596 1609	Театра сатиры
+T43	CITY 1612 1618	Москве
+T44	NATIONALITY 1751 1760	советские
+T45	NATIONALITY 1763 1773	российские
+T46	PERSON 1796 1803	Арканов
+T47	WORK_OF_ART 1834 1846	Вокруг смеха
+T50	PERSON 10 25	Аркадий Арканов
+T51	PERSON 26 41	Аркадий Арканов
+T52	PROFESSION 170 178	писатель
+T53	DATE 142 159	В последнее время
+T54	DISEASE 201 228	онкологического заболевания
+T55	PROFESSION 297 305	писателю
+T11	PROFESSION 519 524	врачи
+T56	STATE_OR_PROVINCE 693 698	РСФСР
+T17	AWARD 677 698	Народный артист РСФСР
+T27	DATE 1361 1381	в течение всей войны
+T57	COUNTRY 1478 1487	советских
+T58	PROFESSION 1488 1497	писателей
+T48	WORK_OF_ART 1851 1864	Белый попугай
+T49	PROFESSION 1774 1782	юмористы
+T38	DISEASE 246 260	боли в грудине
+T41	DISEASE 263 283	затруднённое дыхание
+T59	DISEASE 306 317	стало плохо
+T60	DISEASE 179 191	тяжело болел
+T61	FACILITY 63 82	московской больнице
+T62	AGE 83 95	на 82-м году
+T4	PROFESSION 107 115	писатель
+T63	PROFESSION 116 123	сатирик
+R1	WORKS_AS Arg1:T6 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T52	
+R3	AGE_IS Arg1:T6 Arg2:T7	
+T64	EVENT 0 9	Скончался
+R4	PARTICIPANT_IN Arg1:T50 Arg2:T64	
+R5	AGE_IS Arg1:T6 Arg2:T62	
+R6	MEDICAL_CONDITION Arg1:T52 Arg2:T60	
+R7	MEDICAL_CONDITION Arg1:T6 Arg2:T38	
+R8	MEDICAL_CONDITION Arg1:T6 Arg2:T54	
+R9	MEDICAL_CONDITION Arg1:T6 Arg2:T60	
+R10	MEDICAL_CONDITION Arg1:T6 Arg2:T41	
+T65	EVENT 102 106	умер
+R11	PARTICIPANT_IN Arg1:T6 Arg2:T65	
+R12	TAKES_PLACE_IN Arg1:T65 Arg2:T61	
+R13	POINT_IN_TIME Arg1:T65 Arg2:T2	
+R14	DATE_OF_BIRTH Arg1:T23 Arg2:T24	
+R15	PLACE_OF_BIRTH Arg1:T23 Arg2:T25	
+R16	PLACE_RESIDES_IN Arg1:T23 Arg2:T28	
+R17	PLACE_RESIDES_IN Arg1:T23 Arg2:T30	
+R18	WORKPLACE Arg1:T23 Arg2:T33	
+R19	WORKS_AS Arg1:T23 Arg2:T31	
+R20	MEMBER_OF Arg1:T35 Arg2:T36	
+R21	HEADQUARTERED_IN Arg1:T42 Arg2:T43	
+R22	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R23	PARTICIPANT_IN Arg1:T46 Arg2:T48	
+R24	ORIGINS_FROM Arg1:T49 Arg2:T45	
+R25	ORIGINS_FROM Arg1:T49 Arg2:T44	
+R26	WORKS_AS Arg1:T35 Arg2:T37	
+R27	WORKS_AS Arg1:T35 Arg2:T39	
+R28	WORKS_AS Arg1:T20 Arg2:T19	
+R29	KNOWS Arg1:T20 Arg2:T21	
+R30	KNOWS Arg1:T16 Arg2:T18	
+T66	EVENT 525 531	увезли
+R31	PARTICIPANT_IN Arg1:T11 Arg2:T66	
+R32	PARTICIPANT_IN Arg1:T13 Arg2:T66	
+R33	TAKES_PLACE_IN Arg1:T66 Arg2:T14	
+R34	POINT_IN_TIME Arg1:T66 Arg2:T12	
+T67	EVENT 597 606	скончался
+R35	PARTICIPANT_IN Arg1:T13 Arg2:T67	
+R36	POINT_IN_TIME Arg1:T67 Arg2:T15	
+R37	PLACE_OF_DEATH Arg1:T13 Arg2:T14	
+R38	DATE_OF_DEATH Arg1:T13 Arg2:T15	
+R39	MEDICAL_CONDITION Arg1:T55 Arg2:T59	
+R40	MEDICAL_CONDITION Arg1:T6 Arg2:T59	
+R41	LOCATED_IN Arg1:T61 Arg2:T3	
+R42	DATE_OF_DEATH Arg1:T6 Arg2:T2	
+R43	AGE_IS Arg1:T52 Arg2:T7	
+R44	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R45	AWARDED_WITH Arg1:T18 Arg2:T17	
+R46	ALTERNATIVE_NAME Arg1:T23 Arg2:T35	
+R47	WORKPLACE Arg1:T35 Arg2:T42	
+R48	HEADQUARTERED_IN Arg1:T36 Arg2:T57	
+R49	MEMBER_OF Arg1:T58 Arg2:T36	
+T1	PROFESSION 686 692	артист
+R50	ORIGINS_FROM Arg1:T17 Arg2:T56	
+R51	WORKS_AS Arg1:T18 Arg2:T1	
+R52	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+N1	Reference T3 Wikidata:Q649	Москва
+N2	Reference T14 Wikidata:Q5060576	Центральная клиническая больница с поликлиникой
+N3	Reference T18 Wikidata:Q2452298	Владимир Натанович Винокур
+N4	Reference T20 Wikidata:Q4198604	Лион Измайлов
+N6	Reference T25 Wikidata:Q1899	Киев
+N7	Reference T28 Wikidata:Q919	Красноярск
+N8	Reference T30 Wikidata:Q649	Москва
+N10	Reference T36 Wikidata:Q1425328	Союз писателей СССР
+N12	Reference T39 Wikidata:Q214917	драматург
+N13	Reference T42 Wikidata:Q4304032	Театр сатиры (Москва)
+N16	Reference T46 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N17	Reference T47 Wikidata:Q4122858	Вокруг смеха
+N18	Reference T52 Wikidata:Q36180	писатель
+N19	Reference T11 Wikidata:Q39631	врач
+N20	Reference T56 Wikidata:Q2184	РСФСР
+N21	Reference T17 Wikidata:Q47024	Народный артист РСФСР
+N23	Reference T48 Wikidata:Q4083148	Клуб «Белый попугай»
+N24	Reference T49 Wikidata:Q12406482	юморист
+N26	Reference T63 Wikidata:Q9334029	сатирик
+N27	Reference T1 Wikidata:Q483501	деятель искусств
+N25	Reference T61 Wikidata:NULL	
+N28	Reference T10 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N5	Reference T22 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N9	Reference T33 Wikidata:Q3178120	
+N29	Reference T35 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N22	Reference T57 Wikidata:Q15180	СССР
+N11	Reference T37 Wikidata:NULL	
+N15	Reference T45 Wikidata:Q492468	россияне
+N14	Reference T44 Wikidata:Q1633149	
+N30	Reference T43 Wikidata:Q649	Москва
+N31	Reference T31 Wikidata:Q36180	писатель
+N32	Reference T58 Wikidata:Q36180	писатель
+N33	Reference T4 Wikidata:Q36180	писатель
+N34	Reference T55 Wikidata:Q36180	писатель
+N35	Reference T6 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N36	Reference T21 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N37	Reference T51 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N38	Reference T13 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N39	Reference T50 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N40	Reference T23 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N41	Reference T16 Wikidata:Q2861548	Аркадий Михайлович Арканов
+N42	Reference T19 Wikidata:NULL	
+N43	Reference T5 Wikidata:NULL	
+R53	ALTERNATIVE_NAME Arg1:T64 Arg2:T65	
+T68	EVENT 1154 1161	родился
+R54	PARTICIPANT_IN Arg1:T23 Arg2:T68	
+R55	POINT_IN_TIME Arg1:T68 Arg2:T24	
+R56	TAKES_PLACE_IN Arg1:T68 Arg2:T25	
+T69	EVENT 1248 1259	эвакуирован
+R57	PARTICIPANT_IN Arg1:T23 Arg2:T69	
+R58	TAKES_PLACE_IN Arg1:T69 Arg2:T28	
+R59	POINT_IN_TIME Arg1:T69 Arg2:T26	
+T70	EVENT 1318 1327	переехали
+R60	PARTICIPANT_IN Arg1:T23 Arg2:T70	
+R61	POINT_IN_TIME Arg1:T70 Arg2:T29	
+R62	TAKES_PLACE_IN Arg1:T70 Arg2:T30	
+T71	PROFESSION 895 903	Писатель
+T72	PROFESSION 1500 1508	Писатель
+R63	WORKS_AS Arg1:T46 Arg2:T49	

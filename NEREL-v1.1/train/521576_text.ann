@@ -1,0 +1,55 @@
+T1	PERSON 0 11	Ларри Пейдж
+T2	PERSON 14 25	Сергей Брин
+T3	ORGANIZATION 48 54	Google
+T4	ORGANIZATION 65 71	Google
+T5	PERSON 72 83	Ларри Пейдж
+T6	PERSON 86 97	Сергей Брин
+T7	ORGANIZATION 141 149	Alphabet
+T8	PROFESSION 151 173	Генеральным директором
+T9	PROFESSION 190 201	гендиректор
+T10	PERSON 209 221	Сундар Пичаи
+T11	NUMBER 247 250	два
+T14	AGE 398 405	21 года
+T19	ORGANIZATION 174 182	Alphabet
+T20	ORGANIZATION 202 208	Google
+T21	PROFESSION 190 208	гендиректор Google
+T22	PROFESSION 163 173	директором
+T23	PROFESSION 151 182	Генеральным директором Alphabet
+T24	DATE 305 325	Сегодня, в 2019 году
+R1	WORKPLACE Arg1:T10 Arg2:T20	
+R2	WORKS_AS Arg1:T10 Arg2:T21	
+R3	WORKPLACE Arg1:T10 Arg2:T19	
+R4	OWNER_OF Arg1:T19 Arg2:T20	
+T12	EVENT 98 117	покинули свои места
+T13	EVENT 26 47	перестали возглавлять
+R5	AGENT Arg1:T2 Arg2:T13	
+R6	AGENT Arg1:T1 Arg2:T13	
+R7	PARTICIPANT_IN Arg1:T3 Arg2:T13	
+R8	FOUNDED_BY Arg1:T4 Arg2:T5	
+R9	FOUNDED_BY Arg1:T4 Arg2:T6	
+R10	AGENT Arg1:T6 Arg2:T12	
+R11	AGENT Arg1:T5 Arg2:T12	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T12	
+R13	OWNER_OF Arg1:T4 Arg2:T7	
+R14	ALTERNATIVE_NAME Arg1:T13 Arg2:T12	
+R15	WORKPLACE Arg1:T23 Arg2:T19	
+R16	WORKPLACE Arg1:T21 Arg2:T20	
+R17	KNOWS Arg1:T1 Arg2:T2	
+N1	Reference T5 Wikidata:Q4934	Ларри Пейдж
+N2	Reference T6 Wikidata:Q92764	Сергей Брин
+N3	Reference T8 Wikidata:Q1501800	генеральный директор
+N4	Reference T9 Wikidata:Q1501800	генеральный директор
+N5	Reference T10 Wikidata:Q3503829	Сундар Пичаи
+N6	Reference T19 Wikidata:Q20800404	Alphabet
+N9	Reference T22 Wikidata:Q484876	главный управляющий
+N10	Reference T23 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:Q95	Google
+N8	Reference T21 Wikidata:NULL	нет данных
+N11	Reference T1 Wikidata:Q4934	Ларри Пейдж
+N12	Reference T16 Wikidata:Q4934	Ларри Пейдж
+N13	Reference T2 Wikidata:Q92764	Сергей Брин
+N14	Reference T17 Wikidata:Q92764	Сергей Брин
+N15	Reference T7 Wikidata:Q20800404	Alphabet
+N16	Reference T3 Wikidata:Q95	Google
+N17	Reference T15 Wikidata:Q95	Google
+N18	Reference T4 Wikidata:Q95	Google

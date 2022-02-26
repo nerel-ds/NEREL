@@ -1,0 +1,103 @@
+T1	PROFESSION 4 24	губернатор Миннесоты
+T2	PROFESSION 33 43	президенты
+T3	PERSON 49 61	Барака Обамы
+T4	EVENT 104 111	выборах
+T5	COUNTRY 123 141	Соединённых штатов
+T7	STATE_OR_PROVINCE 169 178	Миннесота
+T8	ORGANIZATION 184 210	Республиканской партии США
+T9	PERSON 211 222	Тим Поленти
+T10	ORGANIZATION 296 318	Республиканскую партию
+T11	COUNTRY 353 356	США
+T12	PROFESSION 464 474	президента
+T13	PERSON 671 682	Тим Поленти
+T14	PERSON 685 692	Поленти
+T15	AGE 693 699	50 лет
+T16	DATE 701 729	в период с 2003 по 2011 годы
+T17	PROFESSION 746 767	губернатора Миннесоты
+T18	PERSON 861 868	Поленти
+T19	ORGANIZATION 911 933	Республиканской партии
+T20	PERSON 994 1004	Митт Ромни
+T21	PERSON 1032 1039	Поленти
+T22	ORGANIZATION 1067 1070	NBC
+T23	WORK_OF_ART 1084 1091	Сегодня
+T24	COUNTRY 207 210	США
+T25	PROFESSION 342 356	президента США
+T26	STATE_OR_PROVINCE 15 24	Миннесоты
+T27	PROFESSION 112 141	президента Соединённых штатов
+T29	EVENT 334 341	выборах
+T30	PERSON 475 480	Обамы
+T31	NATIONALITY 520 531	американцам
+T32	STATE_OR_PROVINCE 758 767	Миннесоты
+T33	EVENT 104 122	выборах президента
+R1	WORKPLACE Arg1:T27 Arg2:T5	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T33	
+T6	PROFESSION 152 178	губернатор штата Миннесота
+T28	PROFESSION 152 178	губернатор штата Миннесота
+R3	WORKS_AS Arg1:T9 Arg2:T6	
+R4	WORKPLACE Arg1:T28 Arg2:T7	
+T34	PROFESSION 152 162	губернатор
+R5	MEMBER_OF Arg1:T9 Arg2:T8	
+R6	HEADQUARTERED_IN Arg1:T8 Arg2:T24	
+T35	IDEOLOGY 184 199	Республиканской
+R7	IDEOLOGY_OF Arg1:T8 Arg2:T35	
+R8	IDEOLOGY_OF Arg1:T9 Arg2:T35	
+R9	WORKPLACE Arg1:T9 Arg2:T7	
+T36	IDEOLOGY 296 311	Республиканскую
+R10	IDEOLOGY_OF Arg1:T10 Arg2:T36	
+T37	EVENT 334 352	выборах президента
+R11	ALTERNATIVE_NAME Arg1:T33 Arg2:T37	
+R12	PARTICIPANT_IN Arg1:T9 Arg2:T37	
+R13	WORKPLACE Arg1:T25 Arg2:T11	
+R14	ALTERNATIVE_NAME Arg1:T27 Arg2:T25	
+R15	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R16	WORKS_AS Arg1:T30 Arg2:T12	
+R17	WORKPLACE Arg1:T30 Arg2:T11	
+R18	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R19	AGE_IS Arg1:T14 Arg2:T15	
+T38	PROFESSION 746 757	губернатора
+R20	WORKPLACE Arg1:T17 Arg2:T32	
+R21	WORKS_AS Arg1:T14 Arg2:T17	
+R22	WORKPLACE Arg1:T14 Arg2:T32	
+T39	IDEOLOGY 911 926	Республиканской
+R23	IDEOLOGY_OF Arg1:T19 Arg2:T39	
+R24	MEMBER_OF Arg1:T18 Arg2:T19	
+R25	IDEOLOGY_OF Arg1:T18 Arg2:T39	
+R26	MEMBER_OF Arg1:T20 Arg2:T19	
+R27	IDEOLOGY_OF Arg1:T20 Arg2:T39	
+R28	PRODUCES Arg1:T22 Arg2:T23	
+R29	WORKPLACE Arg1:T1 Arg2:T26	
+T40	PROFESSION 4 14	губернатор
+R30	TAKES_PLACE_IN Arg1:T33 Arg2:T5	
+R31	PARTICIPANT_IN Arg1:T21 Arg2:T23	
+R32	TAKES_PLACE_IN Arg1:T37 Arg2:T11	
+N1	Reference T3 Wikidata:Q76	Барак Обама
+N2	Reference T7 Wikidata:Q1527	Миннесота
+N3	Reference T8 Wikidata:Q29468	Республиканская партия
+N4	Reference T9 Wikidata:Q160181	Поленти, Тим
+N5	Reference T10 Wikidata:Q29468	Республиканская партия
+N6	Reference T12 Wikidata:Q30461	президент
+N7	Reference T20 Wikidata:Q4496	Митт Ромни
+N8	Reference T22 Wikidata:Q13974	NBC
+N10	Reference T24 Wikidata:Q30	США
+N11	Reference T26 Wikidata:Q1527	Миннесота
+N13	Reference T30 Wikidata:Q76	Барак Обама
+N14	Reference T31 Wikidata:Q498438	Американцы
+N12	Reference T27 Wikidata:Q11696	президент США
+N16	Reference T40 Wikidata:Q889821	
+N15	Reference T28 Wikidata:NULL	нет данных
+N17	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T23 Wikidata:NULL	нет данных
+N18	Reference T13 Wikidata:Q160181	Поленти, Тим
+N19	Reference T14 Wikidata:Q160181	Поленти, Тим
+N20	Reference T18 Wikidata:Q160181	Поленти, Тим
+N21	Reference T21 Wikidata:Q160181	Поленти, Тим
+N22	Reference T19 Wikidata:Q29468	Республиканская партия
+N23	Reference T2 Wikidata:Q30461	президент
+N24	Reference T5 Wikidata:Q30	США
+N25	Reference T11 Wikidata:Q30	США
+N26	Reference T32 Wikidata:Q1527	Миннесота
+N27	Reference T25 Wikidata:Q11696	президент США
+N28	Reference T34 Wikidata:Q889821	
+N29	Reference T38 Wikidata:Q889821	
+N30	Reference T6 Wikidata:NULL	нет данных
+N31	Reference T1 Wikidata:NULL	нет данных

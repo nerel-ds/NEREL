@@ -1,0 +1,99 @@
+T1	PERSON 0 9	Назарбаев
+T3	ORGANIZATION 96 104	Нур Отан
+T4	DATE 106 135	в среду, 11 февраля 2015 года
+T5	PROFESSION 147 157	президента
+T6	DATE 210 220	пятилетний
+T7	EVENT 229 249	внеочередных выборах
+T8	DATE 263 285	на 26 апреля 2015 года
+T10	COUNTRY 348 357	Казахский
+T11	PERSON 367 385	Кенжегали Сагадиев
+T12	CITY 442 448	Астане
+T13	PERSON 485 516	Нурсултана Абишевича Назарбаева
+T14	ORGANIZATION 536 544	Нур Отан
+T15	AGE 580 589	74-летний
+T16	PROFESSION 608 617	металлург
+T17	LOCATION 655 674	центральноазиатской
+T18	DATE 683 694	с 1989 года
+T19	ORGANIZATION 715 735	Компартию Казахстана
+T20	PROFESSION 745 767	член политбюро ЦК КПСС
+T21	PERSON 769 778	Назарбаев
+T22	PERCENT 787 799	96 процентов
+T23	DATE 819 828	2011 года
+T24	DATE 878 895	в конце 2016 года
+T25	PERSON 898 907	Назарбаев
+T26	DATE 972 981	26 апреля
+T27	COUNTRY 84 94	Казахстана
+T2	PERSON 158 179	Нурсултана Назарбаева
+T28	PROFESSION 358 366	академик
+T29	PROFESSION 393 402	делегатам
+T9	PERSON 590 599	Назарбаев
+T30	COUNTRY 725 735	Казахстана
+T31	ORGANIZATION 763 767	КПСС
+T32	ORGANIZATION 760 767	ЦК КПСС
+T33	ORGANIZATION 750 767	политбюро ЦК КПСС
+T34	EVENT 288 300	Съезд партии
+T35	EVENT 242 249	выборах
+R1	POINT_IN_TIME Arg1:T7 Arg2:T8	
+R2	WORKS_AS Arg1:T2 Arg2:T5	
+R3	ORIGINS_FROM Arg1:T2 Arg2:T27	
+T36	EVENT 403 409	съезда
+R4	TAKES_PLACE_IN Arg1:T36 Arg2:T12	
+R5	MEMBER_OF Arg1:T2 Arg2:T3	
+R6	MEMBER_OF Arg1:T13 Arg2:T14	
+R7	AGE_IS Arg1:T9 Arg2:T15	
+R8	WORKPLACE Arg1:T9 Arg2:T19	
+R9	WORKS_AS Arg1:T11 Arg2:T28	
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R11	HEADQUARTERED_IN Arg1:T3 Arg2:T27	
+T37	EVENT 35 66	досрочных президентских выборах
+T38	EVENT 45 66	президентских выборах
+T39	EVENT 59 66	выборах
+R12	ALTERNATIVE_NAME Arg1:T37 Arg2:T7	
+R13	PARTICIPANT_IN Arg1:T1 Arg2:T37	
+R14	ORGANIZES Arg1:T3 Arg2:T34	
+R15	ORIGINS_FROM Arg1:T11 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T34 Arg2:T36	
+T40	EVENT 288 293	Съезд
+R17	ALTERNATIVE_NAME Arg1:T2 Arg2:T13	
+R18	WORKS_AS Arg1:T9 Arg2:T16	
+R19	WORKPLACE Arg1:T20 Arg2:T33	
+R20	MEMBER_OF Arg1:T21 Arg2:T31	
+T41	EVENT 811 828	выборах 2011 года
+R21	PARTICIPANT_IN Arg1:T21 Arg2:T41	
+R22	POINT_IN_TIME Arg1:T41 Arg2:T23	
+R23	ALTERNATIVE_NAME Arg1:T13 Arg2:T9	
+R24	HEADQUARTERED_IN Arg1:T19 Arg2:T30	
+R25	PARTICIPANT_IN Arg1:T29 Arg2:T36	
+R26	LOCATED_IN Arg1:T30 Arg2:T17	
+R27	PART_OF Arg1:T32 Arg2:T31	
+T42	EVENT 935 955	внеочередных выборах
+R28	PARTICIPANT_IN Arg1:T25 Arg2:T42	
+R29	POINT_IN_TIME Arg1:T42 Arg2:T26	
+R30	TAKES_PLACE_IN Arg1:T42 Arg2:T30	
+T43	EVENT 811 818	выборах
+R31	WORKPLACE Arg1:T5 Arg2:T27	
+R32	TAKES_PLACE_IN Arg1:T7 Arg2:T27	
+R33	LOCATED_IN Arg1:T12 Arg2:T10	
+R34	TAKES_PLACE_IN Arg1:T41 Arg2:T30	
+N1	Reference T5 Wikidata:Q30461	президент
+N3	Reference T11 Wikidata:Q4404372	Сагадиев, Кенжегали Абенович
+N4	Reference T12 Wikidata:Q1520	Нур-Султан
+N5	Reference T14 Wikidata:Q1195092	Нур Отан
+N10	Reference T27 Wikidata:Q232	Казахстан
+N11	Reference T9 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N12	Reference T31 Wikidata:Q79854	Коммунистическая партия Советского Союза
+N13	Reference T32 Wikidata:Q1971373	Центральный комитет КПСС
+N14	Reference T33 Wikidata:Q842008	Политбюро ЦК КПСС
+N2	Reference T10 Wikidata:Q232	Казахстан
+N15	Reference T29 Wikidata:Q994779	
+N6	Reference T16 Wikidata:Q18576582	
+N7	Reference T17 Wikidata:Q27275	Центральная Азия
+N8	Reference T19 Wikidata:Q1780608	Казахстан
+N9	Reference T20 Wikidata:NULL	нет данных
+N16	Reference T3 Wikidata:Q1195092	Нур Отан
+N17	Reference T30 Wikidata:Q232	Казахстан
+N18	Reference T25 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N19	Reference T13 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N20	Reference T21 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N21	Reference T2 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N22	Reference T1 Wikidata:Q57394	Нурсултан Абишевич Назарбаев

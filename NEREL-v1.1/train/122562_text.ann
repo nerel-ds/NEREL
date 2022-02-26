@@ -1,0 +1,51 @@
+T2	ORGANIZATION 30 53	Фантастической четверки
+T3	PERSON 55 63	Стэна Ли
+T5	DATE 105 111	69 лет
+T6	PERSON 112 119	Стэн Ли
+T7	AGE 120 133	На 96-ом году
+T9	PERSON 152 160	Стэна Ли
+T11	ORGANIZATION 190 213	Фантастической четверки
+T12	PERSON 216 224	Джоан Ли
+T13	DATE 253 265	почти 70 лет
+T14	DATE 307 324	на прошлой недели
+T15	CITY 341 354	Лос-Анджелесе
+T16	PERSON 433 438	Бетти
+T17	PERSON 739 744	Бетти
+T18	LANGUAGE 882 892	английский
+T19	LANGUAGE 911 922	английского
+T1	WORK_OF_ART 12 26	Человека-паука
+T4	WORK_OF_ART 172 186	Человека-паука
+T8	DISEASE 297 306	инсультом
+T10	PERSON 356 363	Стэн Ли
+T20	EVENT 64 75	умерла жена
+T21	EVENT 277 294	госпитализирована
+T22	EVENT 328 338	скончалась
+R1	PRODUCES Arg1:T3 Arg2:T1	
+R2	PRODUCES Arg1:T3 Arg2:T2	
+R3	PRODUCES Arg1:T9 Arg2:T4	
+R4	PRODUCES Arg1:T9 Arg2:T11	
+R5	SPOUSE Arg1:T3 Arg2:T12	
+T23	EVENT 140 151	умерла жена
+R6	PARTICIPANT_IN Arg1:T12 Arg2:T23	
+R7	AGE_IS Arg1:T12 Arg2:T7	
+R8	PARTICIPANT_IN Arg1:T12 Arg2:T21	
+R9	POINT_IN_TIME Arg1:T21 Arg2:T14	
+R10	MEDICAL_CONDITION Arg1:T12 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T23 Arg2:T22	
+R12	TAKES_PLACE_IN Arg1:T22 Arg2:T15	
+R13	TAKES_PLACE_IN Arg1:T21 Arg2:T15	
+R14	HAS_CAUSE Arg1:T22 Arg2:T8	
+N1	Reference T11 Wikidata:Q152098	Фантастическая четвёрка
+N2	Reference T15 Wikidata:Q65	Лос-Анджелес
+N4	Reference T18 Wikidata:Q1860	английский язык
+N5	Reference T4 Wikidata:Q79037	Человек-паук
+N6	Reference T10 Wikidata:Q181900	Стэн Ли
+N7	Reference T12 Wikidata:NULL	нет данных
+N3	Reference T16 Wikidata:NULL	нет данных
+N8	Reference T2 Wikidata:Q152098	Фантастическая четвёрка
+N9	Reference T19 Wikidata:Q1860	английский язык
+N10	Reference T1 Wikidata:Q79037	Человек-паук
+N11	Reference T6 Wikidata:Q181900	Стэн Ли
+N12	Reference T9 Wikidata:Q181900	Стэн Ли
+N13	Reference T3 Wikidata:Q181900	Стэн Ли
+N14	Reference T17 Wikidata:NULL	нет данных

@@ -1,0 +1,130 @@
+T1	MONEY 40 47	$55 млн
+T2	PERSON 77 88	Эрин Эндрюс
+T4	STATE_OR_PROVINCE 106 114	Теннесси
+T6	DATE 115 147	в понедельник, 7 марта 2016 года
+T7	ORGANIZATION 163 181	Nashville Marriott
+T8	PERSON 185 206	Майкла Дэвида Баретта
+T9	MONEY 239 264	55 миллионов долларов США
+T10	PERSON 288 299	Эрин Эндрюс
+T11	PERSON 363 374	Эрин Эндрюс
+T12	FACILITY 383 401	Nashville Marriott
+T13	NUMBER 417 418	1
+T14	NUMBER 420 421	2
+T17	MONEY 520 541	75 миллионов долларов
+T18	PERSON 568 590	Майкла Дэвида Барретта
+T19	DATE 646 657	в 2009 году
+T20	COUNTRY 688 701	американского
+T21	ORGANIZATION 732 736	ESPN
+T22	ORGANIZATION 768 771	Fox
+T23	AGE 773 782	48-летний
+T24	PERSON 783 801	Майкл Дэвид Баретт
+T25	DATE 813 833	в сентябре 2008 года
+T26	CITY 836 844	Нэшвилле
+T27	STATE_OR_PROVINCE 846 853	Тенесси
+T28	PERSON 887 891	Эрин
+T29	PERSON 987 993	Баррет
+T30	PERSON 1050 1061	Эрин Эндрюс
+T31	PERSON 1246 1254	Барретта
+T32	PERSON 1311 1317	Эндрюс
+T33	DATE 1340 1353	двухнедельных
+T34	PERSON 1471 1477	Эндрюс
+T35	MONEY 1520 1527	$28 млн
+T36	MONEY 1573 1580	$27 млн
+T37	PERSON 1612 1620	Барретта
+T38	DATE 1641 1651	30 месяцам
+T39	PERSON 1686 1692	Эндрюс
+T40	PRODUCT 1705 1713	Твиттере
+T41	PROFESSION 0 22	Спортивная журналистка
+T5	COUNTRY 261 264	США
+T42	PROFESSION 265 287	спортивной журналистке
+T43	PRODUCT 441 449	интернет
+T45	PROFESSION 634 645	журналистки
+T46	PROFESSION 676 687	журналистки
+T47	PROFESSION 962 973	журналистки
+T48	PROFESSION 1087 1099	журналисткой
+T49	PROFESSION 1159 1167	Адвокаты
+T50	PERSON 1168 1174	Эндрюс
+T51	PRODUCT 1388 1397	Интернете
+T52	PROFESSION 1545 1556	журналистке
+T53	PENALTY 1641 1658	30 месяцам тюрьмы
+T54	PROFESSION 745 756	журналистка
+T3	PRODUCT 1108 1116	Интернет
+T55	PENALTY 217 228	компенсацию
+T56	PENALTY 217 264	компенсацию в размере 55 миллионов долларов США
+R1	WORKS_AS Arg1:T10 Arg2:T42	
+R2	WORKPLACE Arg1:T54 Arg2:T22	
+T15	PERSON 460 471	Эрин Эндрюс
+T16	PERSON 473 484	Erin Andrew
+R3	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R4	AGE_IS Arg1:T24 Arg2:T23	
+R5	LOCATED_IN Arg1:T26 Arg2:T27	
+R6	WORKS_AS Arg1:T28 Arg2:T47	
+T44	PROFESSION 452 459	Ведущая
+R7	WORKS_AS Arg1:T15 Arg2:T44	
+R8	SUBORDINATE_OF Arg1:T49 Arg2:T50	
+T57	PROFESSION 11 22	журналистка
+T58	PROFESSION 276 287	журналистке
+R9	ALTERNATIVE_NAME Arg1:T24 Arg2:T29	
+R10	ALTERNATIVE_NAME Arg1:T28 Arg2:T30	
+R11	HEADQUARTERED_IN Arg1:T21 Arg2:T20	
+R12	WORKPLACE Arg1:T46 Arg2:T21	
+R13	WORKPLACE Arg1:T15 Arg2:T21	
+R14	PENALIZED_AS Arg1:T8 Arg2:T56	
+R15	PENALIZED_AS Arg1:T7 Arg2:T56	
+R16	INCOME Arg1:T41 Arg2:T1	
+R17	PENALIZED_AS Arg1:T37 Arg2:T53	
+R18	INCOME Arg1:T52 Arg2:T35	
+R19	EXPENDITURE Arg1:T24 Arg2:T35	
+T59	CITY 163 172	Nashville
+R20	HEADQUARTERED_IN Arg1:T7 Arg2:T59	
+R21	EXPENDITURE Arg1:T7 Arg2:T36	
+T60	PENALTY 1652 1658	тюрьмы
+R22	ALTERNATIVE_NAME Arg1:T18 Arg2:T24	
+R23	ALTERNATIVE_NAME Arg1:T59 Arg2:T26	
+R24	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+R25	ALTERNATIVE_NAME Arg1:T5 Arg2:T20	
+R26	ALTERNATIVE_NAME Arg1:T30 Arg2:T50	
+R27	ALTERNATIVE_NAME Arg1:T29 Arg2:T31	
+N1	Reference T4 Wikidata:Q1509	Теннесси
+N3	Reference T10 Wikidata:Q2743544	Эндрюс, Эрин
+N7	Reference T21 Wikidata:Q217776	ESPN
+N8	Reference T22 Wikidata:Q166419	Fox Broadcasting Company
+N11	Reference T27 Wikidata:Q1509	Теннесси
+N14	Reference T40 Wikidata:Q918	Твиттер
+N15	Reference T5 Wikidata:Q30	США
+N17	Reference T43 Wikidata:Q75	Интернет
+N18	Reference T49 Wikidata:Q40348	адвокат
+N19	Reference T15 Wikidata:Q2743544	Эндрюс, Эрин
+N20	Reference T44 Wikidata:Q2421902	преобладающая рука
+N21	Reference T58 Wikidata:Q1930187	журналист
+N22	Reference T59 Wikidata:Q23197	
+N2	Reference T7 Wikidata:Q7312435	Nashville Skyline
+N16	Reference T42 Wikidata:NULL	
+N10	Reference T26 Wikidata:Q23197	
+N13	Reference T39 Wikidata:Q2743544	Эндрюс, Эрин
+N4	Reference T12 Wikidata:Q7312435	
+N5	Reference T18 Wikidata:NULL	нет данных
+N9	Reference T24 Wikidata:NULL	нет данных
+N6	Reference T20 Wikidata:Q30	США
+N12	Reference T37 Wikidata:NULL	нет данных
+N23	Reference T11 Wikidata:Q2743544	Эндрюс, Эрин
+N24	Reference T2 Wikidata:Q2743544	Эндрюс, Эрин
+N25	Reference T28 Wikidata:Q2743544	Эндрюс, Эрин
+N26	Reference T30 Wikidata:Q2743544	Эндрюс, Эрин
+N27	Reference T3 Wikidata:Q75	Интернет
+N28	Reference T51 Wikidata:Q75	Интернет
+N29	Reference T16 Wikidata:Q2743544	Эндрюс, Эрин
+N30	Reference T46 Wikidata:Q1930187	журналист
+N31	Reference T57 Wikidata:Q1930187	журналист
+N32	Reference T45 Wikidata:Q1930187	журналист
+N33	Reference T52 Wikidata:Q1930187	журналист
+N34	Reference T54 Wikidata:Q1930187	журналист
+N35	Reference T47 Wikidata:Q1930187	журналист
+N36	Reference T48 Wikidata:Q1930187	журналист
+N37	Reference T41 Wikidata:NULL	
+N38	Reference T32 Wikidata:Q2743544	Эндрюс, Эрин
+N39	Reference T34 Wikidata:Q2743544	Эндрюс, Эрин
+N40	Reference T50 Wikidata:Q2743544	Эндрюс, Эрин
+N41	Reference T29 Wikidata:NULL	нет данных
+N42	Reference T8 Wikidata:NULL	нет данных
+N43	Reference T31 Wikidata:NULL	нет данных

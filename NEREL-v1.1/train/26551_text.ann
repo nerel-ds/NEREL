@@ -1,0 +1,157 @@
+T1	PERSON 0 13	Ричард Бёртон
+T2	FACILITY 37 48	Аллее славы
+T3	DISTRICT 51 60	Голливуде
+T4	PERSON 61 74	Ричард Бёртон
+T5	PERSON 100 113	Ричард Бёртон
+T6	FACILITY 137 148	Аллее славы
+T7	CITY 151 160	Голливуде
+T8	PERSON 170 185	Элизабет Тейлор
+T9	EVENT 220 229	церемонии
+T10	PERSON 254 259	Мария
+T12	PERSON 281 290	Майкл Шин
+T13	PERSON 293 306	Ричард Бёртон
+T14	PERSON 308 322	Richard Burton
+T15	NATIONALITY 326 336	британский
+T16	ORDINAL 344 355	семикратный
+T17	AWARD 376 381	Оскар
+T18	AWARD 416 422	Грэмми
+T21	PERSON 444 457	Ричард Бёртон
+T22	DATE 466 485	10 ноября 1925 года
+T23	CITY 496 507	Понтридифен
+T26	STATE_OR_PROVINCE 543 548	Уэльс
+T27	NUMBER 560 562	11
+T28	PERSON 573 579	Тейлор
+T29	PERSON 612 629	Джозефа Манкевича
+T30	WORK_OF_ART 631 640	Клеопатра
+T31	PERSON 647 653	Бартон
+T32	PERSON 666 679	Марка Антония
+T34	PERSON 762 775	Майка Николса
+T35	DATE 807 818	1960-е годы
+T36	PERSON 819 825	Бёртон
+T37	ORDINAL 949 955	второй
+T38	PERSON 965 980	Элизабет Тейлор
+T39	PERSON 1043 1049	Бартон
+T40	DATE 1057 1076	5 августа 1984 года
+T41	AGE 1088 1094	58 лет
+T42	DISTRICT 1149 1156	Селиньи
+T43	CITY 1158 1164	Женева
+T44	COUNTRY 1166 1175	Швейцарии
+T45	PROFESSION 94 99	актер
+T46	NUMBER 208 214	дважды
+T11	PERSON 267 274	Бартона
+T47	PROFESSION 275 280	актер
+T48	PROFESSION 337 342	актёр
+T49	AWARD 356 381	номинант на премию «Оскар
+T50	AWARD 396 412	Золотого глобуса
+T51	AWARD 426 430	Тони
+T52	AWARD 435 440	BAFTA
+T19	WORK_OF_ART 734 760	Кто боится Вирджинии Вульф
+T20	PROFESSION 869 876	актёров
+T33	DISTRICT 877 886	Голливуда
+T53	DISEASE 1098 1118	кровоизлияния в мозг
+R1	LOCATED_IN Arg1:T2 Arg2:T3	
+R2	WORKS_AS Arg1:T5 Arg2:T45	
+R3	LOCATED_IN Arg1:T6 Arg2:T7	
+R4	SPOUSE Arg1:T5 Arg2:T8	
+R9	PARENT_OF Arg1:T5 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R11	WORKS_AS Arg1:T12 Arg2:T47	
+R12	KNOWS Arg1:T5 Arg2:T12	
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T9	
+R14	PARTICIPANT_IN Arg1:T12 Arg2:T9	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R16	WORKS_AS Arg1:T13 Arg2:T48	
+R17	ORIGINS_FROM Arg1:T13 Arg2:T15	
+R18	AWARDED_WITH Arg1:T13 Arg2:T49	
+R19	AWARDED_WITH Arg1:T13 Arg2:T50	
+R20	AWARDED_WITH Arg1:T13 Arg2:T18	
+R21	AWARDED_WITH Arg1:T13 Arg2:T51	
+R22	AWARDED_WITH Arg1:T13 Arg2:T52	
+R23	ORIGINS_FROM Arg1:T49 Arg2:T17	
+R26	DATE_OF_DEATH Arg1:T21 Arg2:T22	
+R27	PLACE_OF_BIRTH Arg1:T21 Arg2:T23	
+T24	STATE_OR_PROVINCE 523 540	Нит — Порт-Толбот
+R29	LOCATED_IN Arg1:T23 Arg2:T24	
+R30	LOCATED_IN Arg1:T24 Arg2:T26	
+R32	ALTERNATIVE_NAME Arg1:T8 Arg2:T28	
+R33	PRODUCES Arg1:T29 Arg2:T30	
+R34	PARTICIPANT_IN Arg1:T28 Arg2:T30	
+R35	ALTERNATIVE_NAME Arg1:T21 Arg2:T31	
+R36	PARTICIPANT_IN Arg1:T31 Arg2:T30	
+R37	PARTICIPANT_IN Arg1:T32 Arg2:T30	
+R38	PARTICIPANT_IN Arg1:T28 Arg2:T19	
+R39	PARTICIPANT_IN Arg1:T31 Arg2:T19	
+R40	PRODUCES Arg1:T34 Arg2:T19	
+T25	PERSON 745 760	Вирджинии Вульф
+R41	ALTERNATIVE_NAME Arg1:T31 Arg2:T36	
+R42	WORKS_AS Arg1:T36 Arg2:T20	
+R43	WORKPLACE Arg1:T20 Arg2:T33	
+R44	WORKPLACE Arg1:T36 Arg2:T33	
+T57	EVENT 1050 1054	умер
+R45	PARTICIPANT_IN Arg1:T39 Arg2:T57	
+R46	POINT_IN_TIME Arg1:T57 Arg2:T40	
+R47	CAUSE_OF_DEATH Arg1:T39 Arg2:T53	
+R48	AGE_DIED_AT Arg1:T39 Arg2:T41	
+R49	DATE_OF_DEATH Arg1:T39 Arg2:T40	
+R50	LOCATED_IN Arg1:T42 Arg2:T43	
+R51	LOCATED_IN Arg1:T43 Arg2:T44	
+R52	PLACE_OF_DEATH Arg1:T39 Arg2:T42	
+R53	TAKES_PLACE_IN Arg1:T57 Arg2:T42	
+T54	AWARD 27 33	звезду
+R5	ORIGINS_FROM Arg1:T54 Arg2:T2	
+R7	AWARDED_WITH Arg1:T1 Arg2:T54	
+T55	AWARD 127 133	звезду
+R6	AWARDED_WITH Arg1:T5 Arg2:T55	
+R8	ORIGINS_FROM Arg1:T55 Arg2:T6	
+R54	PARTICIPANT_IN Arg1:T5 Arg2:T9	
+R55	INANIMATE_INVOLVED Arg1:T55 Arg2:T9	
+R56	TAKES_PLACE_IN Arg1:T9 Arg2:T6	
+R57	ORIGINS_FROM Arg1:T48 Arg2:T15	
+R24	PRODUCES Arg1:T31 Arg2:T32	
+R25	SPOUSE Arg1:T36 Arg2:T38	
+R28	HAS_CAUSE Arg1:T57 Arg2:T53	
+N1	Reference T1 Wikidata:Q151973	Ричард Бёртон
+N2	Reference T5 Wikidata:Q151973	Ричард Бёртон
+N3	Reference T6 Wikidata:Q71719	Голливудская «Аллея славы»
+N4	Reference T7 Wikidata:Q34006	Голливуд
+N5	Reference T8 Wikidata:Q34851	Элизабет Тейлор
+N6	Reference T12 Wikidata:Q298276	Майкл Шин
+N7	Reference T13 Wikidata:Q151973	Ричард Бёртон
+N10	Reference T18 Wikidata:Q41254	«Грэмми»
+N11	Reference T26 Wikidata:Q25	Уэльс
+N12	Reference T29 Wikidata:Q51583	Манкевич, Джозеф Лео
+N14	Reference T32 Wikidata:Q51673	Марк Антоний
+N15	Reference T34 Wikidata:Q51537	Майк Николс
+N16	Reference T43 Wikidata:Q71	Женева
+N17	Reference T44 Wikidata:Q39	Швейцария
+N18	Reference T47 Wikidata:Q33999	актёр
+N20	Reference T50 Wikidata:Q1011547	Золотой глобус
+N23	Reference T19 Wikidata:Q325643	Кто боится Вирджинии Вулф?
+N24	Reference T33 Wikidata:Q34006	Голливуд
+N25	Reference T24 Wikidata:Q748078	Нит-Порт-Толбот
+N26	Reference T25 Wikidata:Q40909	Вирджиния Вулф
+N27	Reference T54 Wikidata:Q4189854	Звёзды, звёзды
+N28	Reference T10 Wikidata:NULL	нет данных
+N8	Reference T15 Wikidata:Q842438	британцы
+N29	Reference T42 Wikidata:Q69410	
+N13	Reference T30 Wikidata:Q4430	Клеопатра
+N30	Reference T23 Wikidata:Q3072939	
+N21	Reference T51 Wikidata:Q191874	Тони
+N22	Reference T52 Wikidata:Q732997	
+N9	Reference T17 Wikidata:Q19020	Оскар
+N19	Reference T49 Wikidata:NULL	нет данных
+N31	Reference T31 Wikidata:Q151973	Ричард Бёртон
+N32	Reference T4 Wikidata:Q151973	Ричард Бёртон
+N33	Reference T39 Wikidata:Q151973	Ричард Бёртон
+N34	Reference T36 Wikidata:Q151973	Ричард Бёртон
+N35	Reference T21 Wikidata:Q151973	Ричард Бёртон
+N36	Reference T11 Wikidata:Q151973	Ричард Бёртон
+N37	Reference T2 Wikidata:Q71719	Голливудская «Аллея славы»
+N38	Reference T28 Wikidata:Q34851	Элизабет Тейлор
+N39	Reference T38 Wikidata:Q34851	Элизабет Тейлор
+N40	Reference T14 Wikidata:Q151973	Ричард Бёртон
+N41	Reference T45 Wikidata:Q33999	актёр
+N42	Reference T20 Wikidata:Q33999	актёр
+N43	Reference T48 Wikidata:Q33999	актёр
+N44	Reference T3 Wikidata:Q34006	Голливуд
+N45	Reference T55 Wikidata:Q4189854	Звёзды, звёзды

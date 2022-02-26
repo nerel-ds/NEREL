@@ -1,0 +1,67 @@
+T1	PROFESSION 0 9	Президент
+T2	PERSON 58 71	Ислам Каримов
+T3	DATE 72 92	29 августа 2016 года
+T4	PROFESSION 98 108	президента
+T5	PERSON 121 136	Ислама Каримова
+T6	PERSON 137 151	Лолла Каримова
+T7	PERSON 207 211	Лола
+T8	DATE 373 392	в минувшие выходные
+T9	DATE 448 457	в субботу
+T10	ORGANIZATION 889 924	пресс-служба президента государства
+T11	PERSON 951 957	Ислама
+T12	PERSON 1126 1139	Ислам Каримов
+T13	DATE 1140 1151	с 1991 года
+T14	PROFESSION 1152 1161	президент
+T15	COUNTRY 1162 1173	Узбекистана
+T16	AGE 1197 1203	78 лет
+T17	COUNTRY 10 21	Узбекистана
+T18	PROFESSION 0 21	Президент Узбекистана
+T19	DISEASE 47 56	инсультом
+T20	COUNTRY 109 120	Узбекистана
+T21	PROFESSION 98 120	президента Узбекистана
+T22	DISEASE 195 204	инсультом
+T23	DISEASE 405 428	мозгового кровоизлияния
+T24	EVENT 467 483	госпитализирован
+T25	PROFESSION 902 924	президента государства
+T26	EVENT 936 950	госпитализации
+T27	TIME 958 968	вчера днём
+T28	DATE 958 963	вчера
+T29	EVENT 996 1010	госпитализации
+T30	PROFESSION 1152 1173	президент Узбекистана
+R1	WORKPLACE Arg1:T18 Arg2:T17	
+R2	MEDICAL_CONDITION Arg1:T18 Arg2:T19	
+R3	WORKPLACE Arg1:T21 Arg2:T20	
+R4	WORKS_AS Arg1:T5 Arg2:T21	
+R5	WORKPLACE Arg1:T5 Arg2:T20	
+R6	PARENT_OF Arg1:T5 Arg2:T6	
+R7	MEDICAL_CONDITION Arg1:T5 Arg2:T22	
+R8	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T24	
+R10	POINT_IN_TIME Arg1:T24 Arg2:T8	
+R11	MEDICAL_CONDITION Arg1:T5 Arg2:T23	
+R12	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+R13	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R14	WORKS_AS Arg1:T11 Arg2:T25	
+R15	WORKPLACE Arg1:T30 Arg2:T15	
+R16	WORKS_AS Arg1:T12 Arg2:T30	
+R17	WORKPLACE Arg1:T12 Arg2:T15	
+R18	AGE_IS Arg1:T12 Arg2:T16	
+R19	FOUNDED_BY Arg1:T10 Arg2:T25	
+R20	PARTICIPANT_IN Arg1:T11 Arg2:T26	
+N1	Reference T4 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q57558	Ислам Абдуганиевич Каримов
+N3	Reference T6 Wikidata:Q58336	Лола Исламовна Каримова-Тилляева
+N5	Reference T12 Wikidata:Q57558	Ислам Абдуганиевич Каримов
+N6	Reference T15 Wikidata:Q265	Узбекистан
+N7	Reference T18 Wikidata:Q7466263	президент Узбекистана
+N8	Reference T25 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N9	Reference T14 Wikidata:Q30461	президент
+N10	Reference T1 Wikidata:Q30461	президент
+N11	Reference T11 Wikidata:Q57558	Ислам Абдуганиевич Каримов
+N12	Reference T7 Wikidata:Q58336	Лола Исламовна Каримова-Тилляева
+N13	Reference T2 Wikidata:Q57558	Ислам Абдуганиевич Каримов
+N14	Reference T17 Wikidata:Q265	Узбекистан
+N15	Reference T20 Wikidata:Q265	Узбекистан
+N16	Reference T21 Wikidata:Q7466263	президент Узбекистана
+N17	Reference T30 Wikidata:Q7466263	президент Узбекистана

@@ -1,0 +1,189 @@
+T1	PERSON 0 10	Берлускони
+T2	PERSON 26 44	Сильвио Берлускони
+T3	ORGANIZATION 45 65	Надзорный суд Милана
+T5	PERSON 127 145	Сильвио Берлускони
+T6	DATE 155 166	в 2013 году
+T7	ORGANIZATION 182 210	Верховным кассационным судом
+T9	ORGANIZATION 322 330	Mediaset
+T10	ORGANIZATION 360 379	Corriere della Sera
+T11	COUNTRY 439 450	итальянских
+T12	AGE 486 495	81-летний
+T13	DATE 504 523	в течение шести лет
+T14	ORGANIZATION 749 775	Верховный кассационный суд
+T15	DATE 783 802	1 августа 2013 года
+T16	PERSON 853 863	Берлускони
+T17	ORGANIZATION 864 890	Апелляционным судом Милана
+T18	ORGANIZATION 899 907	Mediaset
+T23	DATE 1100 1109	2006 года
+T24	PERSON 1148 1158	Берлускони
+T26	PERSON 1405 1415	Берлускони
+T27	ORGANIZATION 1460 1474	Вперёд, Италия
+T28	DATE 1477 1484	4 марта
+T29	COUNTRY 1487 1493	Италии
+T30	EVENT 1501 1521	парламентские выборы
+T31	ORGANIZATION 1680 1699	Движения пяти звёзд
+T32	ORGANIZATION 1711 1715	Лига
+T33	PERSON 1718 1728	Берлускони
+T34	DATE 1938 1956	в ближайшие месяцы
+T35	PERSON 2010 2020	Берлускони
+T36	EVENT 11 25	реабилитирован
+T37	CITY 59 65	Милана
+T38	EVENT 82 94	реабилитации
+T39	PROFESSION 103 126	премьер-министра Италии
+T40	PROFESSION 103 119	премьер-министра
+T41	PROFESSION 496 503	политик
+T42	PROFESSION 913 920	премьер
+T43	PROFESSION 1256 1264	премьера
+T44	PROFESSION 1646 1699	лидеры общественно-политического «Движения пяти звёзд
+T47	PROFESSION 1779 1788	министров
+T48	COUNTRY 120 126	Италии
+T49	EVENT 171 181	приговорен
+T50	ORGANIZATION 182 217	Верховным кассационным судом Италии
+T51	COUNTRY 211 217	Италии
+T52	PENALTY 220 249	четырём годам лишения свободы
+T53	CRIME 273 294	финансовых махинациях
+T54	CITY 343 352	миланской
+T55	ORGANIZATION 674 693	прокуратурой Милана
+T56	ORGANIZATION 674 686	прокуратурой
+T57	CITY 687 693	Милана
+T58	ORGANIZATION 749 782	Верховный кассационный суд Италии
+T59	COUNTRY 776 782	Италии
+T60	ORGANIZATION 864 883	Апелляционным судом
+T61	CITY 884 890	Милана
+T62	EVENT 925 935	приговорен
+T21	PENALTY 938 967	четырём годам лишения свободы
+T63	CRIME 971 991	финансовые махинации
+T22	DATE 1052 1066	до одного года
+T65	LAW 1076 1109	закону о помиловании от 2006 года
+T66	LAW 1076 1096	закону о помиловании
+T67	PENALTY 1159 1172	тюремный срок
+T68	PENALTY 1192 1209	социальные работы
+T69	ORGANIZATION 1341 1363	надзорного суда Милана
+T70	CITY 1357 1363	Милана
+T71	EVENT 1515 1521	выборы
+T72	DATE 1563 1578	настоящее время
+T74	ORGANIZATION 1612 1639	национального правительства
+T75	ORGANIZATION 1626 1639	правительства
+T76	ORGANIZATION 1770 1788	кабинета министров
+T77	ORGANIZATION 1865 1878	правительство
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T36	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R3	WORKPLACE Arg1:T39 Arg2:T48	
+R4	WORKS_AS Arg1:T5 Arg2:T39	
+R5	WORKPLACE Arg1:T5 Arg2:T48	
+R6	HEADQUARTERED_IN Arg1:T50 Arg2:T51	
+T4	DATE 220 233	четырём годам
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T38	
+R8	PARTICIPANT_IN Arg1:T5 Arg2:T49	
+R9	AGENT Arg1:T50 Arg2:T49	
+T8	ORGANIZATION 45 58	Надзорный суд
+R10	OWNER_OF Arg1:T5 Arg2:T9	
+R11	HEADQUARTERED_IN Arg1:T10 Arg2:T54	
+R12	HEADQUARTERED_IN Arg1:T3 Arg2:T37	
+R13	AGENT Arg1:T3 Arg2:T38	
+R14	POINT_IN_TIME Arg1:T49 Arg2:T6	
+R15	HAS_CAUSE Arg1:T38 Arg2:T49	
+R16	PENALIZED_AS Arg1:T5 Arg2:T52	
+T19	PENALTY 234 249	лишения свободы
+R17	CONVICTED_OF Arg1:T5 Arg2:T53	
+R18	HAS_CAUSE Arg1:T52 Arg2:T53	
+R19	TAKES_PLACE_IN Arg1:T53 Arg2:T9	
+R20	WORKS_AS Arg1:T5 Arg2:T41	
+R21	AGE_IS Arg1:T41 Arg2:T12	
+R22	AGE_IS Arg1:T5 Arg2:T12	
+R23	ALTERNATIVE_NAME Arg1:T37 Arg2:T54	
+R24	HEADQUARTERED_IN Arg1:T55 Arg2:T57	
+R25	HEADQUARTERED_IN Arg1:T58 Arg2:T59	
+R26	DATE_OF_CREATION Arg1:T65 Arg2:T23	
+R27	HEADQUARTERED_IN Arg1:T17 Arg2:T61	
+R28	WORKS_AS Arg1:T16 Arg2:T42	
+R29	PARTICIPANT_IN Arg1:T16 Arg2:T62	
+R30	PARTICIPANT_IN Arg1:T42 Arg2:T62	
+T20	DATE 938 951	четырём годам
+R31	PENALIZED_AS Arg1:T16 Arg2:T21	
+T64	PENALTY 550 591	не мог занимать государственные должности
+R32	PENALIZED_AS Arg1:T41 Arg2:T64	
+R33	PENALIZED_AS Arg1:T5 Arg2:T64	
+T80	PENALTY 952 967	лишения свободы
+R34	HAS_CAUSE Arg1:T21 Arg2:T63	
+R35	CONVICTED_OF Arg1:T16 Arg2:T63	
+R36	ALTERNATIVE_NAME Arg1:T80 Arg2:T67	
+R37	PENALIZED_AS Arg1:T24 Arg2:T67	
+R38	PENALIZED_AS Arg1:T24 Arg2:T68	
+R39	WORKS_AS Arg1:T24 Arg2:T43	
+T25	PENALTY 1241 1247;1265 1302	запрет на занятие государственных должностей
+R40	PENALIZED_AS Arg1:T43 Arg2:T25	
+R41	PENALIZED_AS Arg1:T24 Arg2:T25	
+T81	ORGANIZATION 1341 1356	надзорного суда
+R42	HEADQUARTERED_IN Arg1:T69 Arg2:T70	
+R43	WORKPLACE Arg1:T26 Arg2:T27	
+R44	TAKES_PLACE_IN Arg1:T30 Arg2:T29	
+R45	POINT_IN_TIME Arg1:T30 Arg2:T28	
+R46	WORKPLACE Arg1:T44 Arg2:T31	
+T45	EVENT 1579 1589	переговоры
+R47	POINT_IN_TIME Arg1:T45 Arg2:T72	
+R48	PARTICIPANT_IN Arg1:T44 Arg2:T45	
+R49	PARTICIPANT_IN Arg1:T31 Arg2:T45	
+R50	PARTICIPANT_IN Arg1:T32 Arg2:T45	
+R51	ALTERNATIVE_NAME Arg1:T75 Arg2:T76	
+T46	IDEOLOGY 1835 1844	оппозиции
+T82	EVENT 803 822	подтвердил приговор
+R52	AGENT Arg1:T58 Arg2:T82	
+R53	PARTICIPANT_IN Arg1:T16 Arg2:T82	
+R54	PARTICIPANT_IN Arg1:T18 Arg2:T82	
+T83	COUNTRY 1468 1474	Италия
+R55	HEADQUARTERED_IN Arg1:T27 Arg2:T83	
+R56	TAKES_PLACE_IN Arg1:T45 Arg2:T29	
+R57	IDEOLOGY_OF Arg1:T33 Arg2:T46	
+T73	CRIME 284 294	махинациях
+T78	CRIME 982 991	махинации
+N2	Reference T10 Wikidata:Q309135	Коррьере делла сера
+N5	Reference T18 Wikidata:Q368151	Mediaset
+N6	Reference T26 Wikidata:Q11860	Сильвио Берлускони
+N7	Reference T27 Wikidata:Q14924303	Вперёд, Италия
+N8	Reference T31 Wikidata:Q47817	Движение пяти звёзд
+N9	Reference T32 Wikidata:Q47750	Лига Севера
+N10	Reference T37 Wikidata:Q490	Милан
+N11	Reference T39 Wikidata:Q796897	председатель Совета министров Италии
+N12	Reference T40 Wikidata:Q14212	премьер-министр
+N13	Reference T41 Wikidata:Q82955	политик
+N14	Reference T42 Wikidata:Q14212	премьер-министр
+N15	Reference T43 Wikidata:Q1504568	Премьера
+N16	Reference T44 Wikidata:Q47817	Движение пяти звёзд
+N17	Reference T47 Wikidata:Q83307	министр
+N19	Reference T56 Wikidata:Q1092499	прокуратура
+N21	Reference T59 Wikidata:Q38	Италия
+N22	Reference T60 Wikidata:Q4959031	Суд апелляционной инстанции
+N27	Reference T75 Wikidata:Q7188	правительство
+N1	Reference T7 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:Q38	Италия
+N18	Reference T55 Wikidata:NULL	нет данных
+N20	Reference T58 Wikidata:NULL	нет данных
+N4	Reference T17 Wikidata:NULL	нет данных
+N23	Reference T65 Wikidata:NULL	
+N24	Reference T66 Wikidata:NULL	нет данных
+N28	Reference T81 Wikidata:NULL	нет данных
+N25	Reference T69 Wikidata:NULL	нет данных
+N26	Reference T74 Wikidata:NULL	нет данных
+N29	Reference T9 Wikidata:Q368151	Mediaset
+N30	Reference T5 Wikidata:Q11860	Сильвио Берлускони
+N31	Reference T24 Wikidata:Q11860	Сильвио Берлускони
+N32	Reference T16 Wikidata:Q11860	Сильвио Берлускони
+N33	Reference T33 Wikidata:Q11860	Сильвио Берлускони
+N34	Reference T2 Wikidata:Q11860	Сильвио Берлускони
+N35	Reference T1 Wikidata:Q11860	Сильвио Берлускони
+N36	Reference T35 Wikidata:Q11860	Сильвио Берлускони
+N37	Reference T57 Wikidata:Q490	Милан
+N38	Reference T70 Wikidata:Q490	Милан
+N39	Reference T54 Wikidata:Q490	Милан
+N40	Reference T61 Wikidata:Q490	Милан
+N41	Reference T51 Wikidata:Q38	Италия
+N42	Reference T83 Wikidata:Q38	Италия
+N43	Reference T29 Wikidata:Q38	Италия
+N44	Reference T48 Wikidata:Q38	Италия
+N45	Reference T77 Wikidata:Q7188	правительство
+N46	Reference T76 Wikidata:Q7188	правительство
+N47	Reference T14 Wikidata:NULL	нет данных
+N48	Reference T50 Wikidata:NULL	нет данных
+N49	Reference T8 Wikidata:NULL	нет данных
+N50	Reference T3 Wikidata:NULL	нет данных

@@ -1,0 +1,124 @@
+T1	PERSON 56 69	Джоуи Честнат
+T2	PERSON 71 84	Joey Chestnut
+T3	PERSON 86 96	Соня Томас
+T4	PERSON 98 110	Sonya Thomas
+T5	PERSON 112 125	Джоуи Честнат
+T6	PERSON 127 140	Joey Chestnut
+T8	CITY 280 289	Нью-Йорке
+T9	EVENT 292 310	День независимости
+T10	PERSON 323 333	Соня Томас
+T11	PERSON 335 347	Sonya Thomas
+T12	PERSON 426 431	Джоуи
+T13	NUMBER 473 477	один
+T15	DATE 563 572	в прошлом
+T16	MONEY 631 652	10 тысяч долларов США
+T17	CITY 660 668	Сан-Хосе
+T18	STATE_OR_PROVINCE 670 680	Калифорния
+T19	AGE 789 798	45-летней
+T20	NUMBER 879 887	почти 37
+T21	ORDINAL 951 957	Первый
+T22	PERSON 962 967	Томас
+T25	NUMBER 1110 1112	45
+T26	ORDINAL 1128 1134	втором
+T27	PERSON 1163 1173	Мэт Стоуни
+T28	NUMBER 1187 1189	51
+T29	ORDINAL 1208 1215	седьмую
+T30	PERSON 1224 1231	Честнат
+T31	PERSON 1266 1280	Такеру Кобаяши
+T32	COUNTRY 1284 1290	Японии
+T33	ORDINAL 1304 1316	шестикратным
+T35	MONEY 1421 1441	5 тысяч долларов США
+T36	PERSON 1451 1456	Томас
+T37	PERSON 1482 1492	Джулиет Ли
+T38	NUMBER 1501 1513	три четверти
+T39	NUMBER 1541 1545	36 ¾
+T40	PERSON 1571 1573	Ли
+T41	NUMBER 1582 1584	36
+T42	AWARD 0 30	Чемпионы по поеданию хот-догов
+T43	NUMBER 212 214	69
+T44	EVENT 251 264	соревнованиях
+T45	AWARD 364 381	чемпионский титул
+T48	AWARD 602 618	чемпионский пояс
+T49	AWARD 586 618	горчично-желтый чемпионский пояс
+T51	COUNTRY 649 652	США
+T52	PERSON 799 804	Томас
+T54	AWARD 1085 1103	чемпионское звание
+T55	PERSON 1340 1347	Кобаяши
+T57	EVENT 1374 1399	соревнованиях по поеданию
+T59	COUNTRY 1438 1441	США
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+T7	TIME 200 211	за 10 минут
+R4	TAKES_PLACE_IN Arg1:T44 Arg2:T8	
+T60	EVENT 385 398	соревнованиях
+R5	ALTERNATIVE_NAME Arg1:T10 Arg2:T11	
+R8	SUBEVENT_OF Arg1:T44 Arg2:T9	
+R10	AWARDED_WITH Arg1:T10 Arg2:T45	
+R11	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+T14	DATE 536 547	в 2009 году
+R12	LOCATED_IN Arg1:T17 Arg2:T18	
+R13	ORIGINS_FROM Arg1:T12 Arg2:T17	
+T46	AWARD 621 652	награду в 10 тысяч долларов США
+R14	AWARDED_WITH Arg1:T12 Arg2:T49	
+R15	AWARDED_WITH Arg1:T12 Arg2:T46	
+R16	PRICE_OF Arg1:T46 Arg2:T16	
+R17	ALTERNATIVE_NAME Arg1:T10 Arg2:T52	
+R18	AGE_IS Arg1:T52 Arg2:T19	
+T23	DATE 987 998	в 2011 году
+T53	EVENT 1022 1035	соревновались
+R21	POINT_IN_TIME Arg1:T53 Arg2:T23	
+T61	EVENT 385 411	соревнованиях среди женщин
+R9	PARTICIPANT_IN Arg1:T10 Arg2:T61	
+R23	ALTERNATIVE_NAME Arg1:T60 Arg2:T53	
+T24	DATE 1056 1070	В прошлом году
+R24	AWARDED_WITH Arg1:T22 Arg2:T54	
+T34	DATE 1328 1339	В этом году
+R25	ORIGINS_FROM Arg1:T31 Arg2:T32	
+T62	AWARD 1317 1326	чемпионом
+T63	AWARD 1304 1326	шестикратным чемпионом
+R26	AWARDED_WITH Arg1:T31 Arg2:T63	
+R27	ALTERNATIVE_NAME Arg1:T45 Arg2:T54	
+R28	ALTERNATIVE_NAME Arg1:T54 Arg2:T62	
+R29	ALTERNATIVE_NAME Arg1:T12 Arg2:T30	
+R30	ALTERNATIVE_NAME Arg1:T31 Arg2:T55	
+R31	PARTICIPANT_IN Arg1:T55 Arg2:T57	
+R32	POINT_IN_TIME Arg1:T57 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T37 Arg2:T40	
+T58	AWARD 1414 1441	приз в 5 тысяч долларов США
+R6	AWARDED_WITH Arg1:T36 Arg2:T58	
+R7	ALTERNATIVE_NAME Arg1:T53 Arg2:T57	
+R19	ALTERNATIVE_NAME Arg1:T44 Arg2:T60	
+N4	Reference T8 Wikidata:Q60	Нью-Йорк
+N5	Reference T10 Wikidata:Q465225	Томас, Соня
+N7	Reference T18 Wikidata:Q99	Калифорния
+N10	Reference T32 Wikidata:Q17	Япония
+N15	Reference T51 Wikidata:Q30	США
+N12	Reference T42 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:Q1341956	
+N3	Reference T5 Wikidata:Q1341956	
+N2	Reference T4 Wikidata:Q465225	Томас, Соня
+N13	Reference T48 Wikidata:NULL	нет данных
+N14	Reference T49 Wikidata:NULL	нет данных
+N16	Reference T46 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:Q16553	Сан-Хосе
+N8	Reference T27 Wikidata:Q16235060	
+N9	Reference T31 Wikidata:Q716816	
+N17	Reference T62 Wikidata:Q852061	
+N18	Reference T63 Wikidata:NULL	нет данных
+N19	Reference T58 Wikidata:NULL	нет данных
+N11	Reference T37 Wikidata:Q8997111	
+N20	Reference T22 Wikidata:Q465225	Томас, Соня
+N21	Reference T52 Wikidata:Q465225	Томас, Соня
+N22	Reference T11 Wikidata:Q465225	Томас, Соня
+N23	Reference T36 Wikidata:Q465225	Томас, Соня
+N24	Reference T59 Wikidata:Q30	США
+N25	Reference T2 Wikidata:Q1341956	
+N26	Reference T6 Wikidata:Q1341956	
+N27	Reference T30 Wikidata:Q1341956	
+N28	Reference T12 Wikidata:Q1341956	
+N29	Reference T3 Wikidata:Q465225	Томас, Соня
+N30	Reference T55 Wikidata:Q716816	
+N31	Reference T45 Wikidata:Q852061	
+N32	Reference T54 Wikidata:Q852061	
+N33	Reference T40 Wikidata:Q8997111	

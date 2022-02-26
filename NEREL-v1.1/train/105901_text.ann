@@ -1,0 +1,86 @@
+T1	PERSON 0 13	Павел Астахов
+T2	PROFESSION 47 80	Уполномоченного по правам ребенка
+T3	PERSON 81 94	Павел Астахов
+T4	DATE 95 115	9 сентября 2016 года
+T5	COUNTRY 126 132	России
+T6	PERSON 171 185	Павла Астахова
+T7	PROFESSION 199 232	Уполномоченного по правам ребенка
+T8	LAW 237 242	Указе
+T9	PERSON 259 266	Астахов
+T10	PROFESSION 308 334	пресс-секретарь президента
+T11	PERSON 432 439	Астахов
+T12	PERSON 548 555	Астахов
+T13	DATE 567 574	сегодня
+T14	PERSON 599 607	Астахова
+T15	DATE 673 681	июньской
+T16	STATE_OR_PROVINCE 693 700	Карелии
+T17	NUMBER 720 722	14
+T18	PROFESSION 736 744	омудсмен
+T19	PERSON 800 813	Павел Астахов
+T20	DATE 835 852	на следующий день
+T21	DATE 871 876	Вчера
+T22	AGE 893 899	50 лет
+T23	PERSON 901 914	Павел Астахов
+T24	DATE 923 943	8 сентября 1966 года
+T25	CITY 946 952	Москве
+T26	PERSON 133 147	Владимир Путин
+T27	PROFESSION 116 132	президент России
+T28	EVENT 26 34	отставку
+T29	PROFESSION 116 125	президент
+T30	PERSON 335 349	Дмитрий Песков
+T31	PROFESSION 324 334	президента
+T32	PROFESSION 386 396	омбудсмена
+T34	LAW 154 160	Указом
+T35	EVENT 161 170;186 198	освободил от должности
+R1	WORKS_AS Arg1:T1 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T1 Arg2:T28	
+R3	WORKPLACE Arg1:T27 Arg2:T5	
+R4	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R5	AGENT Arg1:T26 Arg2:T35	
+R6	WORKS_AS Arg1:T6 Arg2:T7	
+R7	WORKS_AS Arg1:T26 Arg2:T27	
+R8	POINT_IN_TIME Arg1:T35 Arg2:T4	
+R9	ALTERNATIVE_NAME Arg1:T6 Arg2:T9	
+T36	EVENT 267 298	уволен по «собственному желанию
+R10	PARTICIPANT_IN Arg1:T9 Arg2:T36	
+R11	SUBORDINATE_OF Arg1:T10 Arg2:T31	
+T37	PROFESSION 308 323	пресс-секретарь
+R12	SUBORDINATE_OF Arg1:T30 Arg2:T31	
+R13	WORKS_AS Arg1:T30 Arg2:T10	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T32	
+R17	AGE_IS Arg1:T23 Arg2:T22	
+R18	PLACE_OF_BIRTH Arg1:T23 Arg2:T25	
+R19	DATE_OF_DEATH Arg1:T23 Arg2:T24	
+T38	EVENT 712 728	утонуло 14 детей
+R15	TAKES_PLACE_IN Arg1:T38 Arg2:T16	
+R16	POINT_IN_TIME Arg1:T38 Arg2:T15	
+R20	WORKS_AS Arg1:T14 Arg2:T18	
+R21	PARTICIPANT_IN Arg1:T2 Arg2:T28	
+T33	EVENT 826 834	отставку
+R22	PARTICIPANT_IN Arg1:T19 Arg2:T33	
+R23	POINT_IN_TIME Arg1:T33 Arg2:T20	
+N1	Reference T5 Wikidata:Q159	Россия
+N5	Reference T10 Wikidata:Q19607392	пресс-секретарь президента России
+N6	Reference T16 Wikidata:Q1914	Карелия
+N7	Reference T18 Wikidata:Q169180	омбудсмен
+N8	Reference T25 Wikidata:Q649	Москва
+N9	Reference T26 Wikidata:Q7747	Владимир Владимирович Путин
+N10	Reference T27 Wikidata:Q218295	президент Российской Федерации
+N11	Reference T29 Wikidata:Q30461	президент
+N12	Reference T30 Wikidata:Q4359679	Песков, Дмитрий
+N2	Reference T7 Wikidata:Q4476324	Уполномоченный при президенте Российской Федерации по правам ребёнка
+N3	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q4071605	
+N13	Reference T37 Wikidata:Q17221	
+N14	Reference T31 Wikidata:Q30461	президент
+N15	Reference T2 Wikidata:Q4476324	Уполномоченный при президенте Российской Федерации по правам ребёнка
+N16	Reference T32 Wikidata:Q4476324	Уполномоченный при президенте Российской Федерации по правам ребёнка
+N17	Reference T34 Wikidata:NULL	нет данных
+N18	Reference T12 Wikidata:Q4071605	
+N19	Reference T19 Wikidata:Q4071605	
+N20	Reference T23 Wikidata:Q4071605	
+N21	Reference T14 Wikidata:Q4071605	
+N22	Reference T11 Wikidata:Q4071605	
+N23	Reference T3 Wikidata:Q4071605	
+N24	Reference T6 Wikidata:Q4071605	
+N25	Reference T1 Wikidata:Q4071605	

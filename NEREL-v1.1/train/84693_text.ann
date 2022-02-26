@@ -1,0 +1,150 @@
+T2	DATE 30 50	20 августа 2015 года
+T3	CITY 53 59	Москве
+T4	AWARD 97 117	народный артист СССР
+T5	PERSON 118 127	Лев Дуров
+T6	AGE 138 145	84 года
+T7	AWARD 165 182	народного артиста
+T8	PERSON 183 200	Екатерины Дуровой
+T9	DATE 216 229	20-го августа
+T10	TIME 242 272	в 00:50 по московскому времени
+T12	PERSON 294 314	Льву Константиновичу
+T13	PERSON 409 425	Сергей Голомазов
+T14	PROFESSION 427 478	художественный руководитель театра на Малой Бронной
+T15	DATE 564 577	в понедельник
+T18	PERSON 706 715	Лев Дуров
+T19	DATE 737 756	7 августа 2015 года
+T20	PERSON 827 851	Лев Константинович Дуров
+T21	DATE 860 880	23 декабря 1931 года
+T22	CITY 883 889	Москве
+T23	DATE 891 902	В 1954 году
+T24	ORGANIZATION 911 928	школу-студию МХАТ
+T25	DATE 930 941	С 1967 года
+T26	ORGANIZATION 952 1000	Московском драматическом театре на Малой Бронной
+T27	NUMBER 1024 1027	160
+T32	PERSON 20 29	Лев Дуров
+T33	PERSON 10 19	Лев Дуров
+T34	COUNTRY 113 117	СССР
+T35	FACILITY 465 478	Малой Бронной
+T36	ORGANIZATION 455 478	театра на Малой Бронной
+T11	DISEASE 763 771	инсульта
+T16	DISEASE 815 824	пневмония
+T17	EVENT 720 736	госпитализирован
+T37	PROFESSION 779 786	артисту
+T38	FACILITY 987 1000	Малой Бронной
+T39	WORK_OF_ART 1073 1091	17 мгновений весны
+T28	WORK_OF_ART 1102 1139	Бриллианты для диктатуры пролетариата
+T29	WORK_OF_ART 1150 1167	Хождение по мукам
+T30	WORK_OF_ART 1178 1204	Д’Артаньян и три мушкетёра
+T31	PERSON 1178 1188	Д’Артаньян
+T40	WORK_OF_ART 1215 1238	Вооружён и очень опасен
+T41	WORK_OF_ART 1249 1277	Человек с бульвара Капуцинов
+T42	FACILITY 1259 1277	бульвара Капуцинов
+T43	DATE 1280 1284	1987
+T44	DATE 1241 1245	1986
+T45	DATE 1094 1098	1973
+T46	DATE 1142 1146	1975
+T47	DATE 1170 1174	1977
+T48	DATE 1207 1211	1978
+T49	PROFESSION 1195 1204	мушкетёра
+T50	NUMBER 1073 1075	17
+R1	PARENT_OF Arg1:T5 Arg2:T8	
+R3	DATE_OF_DEATH Arg1:T5 Arg2:T2	
+R4	PLACE_OF_DEATH Arg1:T5 Arg2:T3	
+R5	AGE_DIED_AT Arg1:T5 Arg2:T6	
+T51	DISEASE 360 380	медикаментозную кому
+R6	MEDICAL_CONDITION Arg1:T12 Arg2:T51	
+T52	DATE 275 293	За сутки до смерти
+T53	EVENT 331 339	операцию
+R7	POINT_IN_TIME Arg1:T53 Arg2:T52	
+R8	PARTICIPANT_IN Arg1:T12 Arg2:T53	
+T54	PROFESSION 505 513	артистом
+T55	EVENT 494 502	прощания
+R9	WORKS_AS Arg1:T13 Arg2:T14	
+T56	PROFESSION 427 454	художественный руководитель
+R10	WORKPLACE Arg1:T13 Arg2:T36	
+R11	MEDICAL_CONDITION Arg1:T18 Arg2:T11	
+R12	MEDICAL_CONDITION Arg1:T37 Arg2:T16	
+R13	WORKS_AS Arg1:T18 Arg2:T37	
+R14	PARTICIPANT_IN Arg1:T18 Arg2:T17	
+R15	POINT_IN_TIME Arg1:T17 Arg2:T19	
+R16	MEDICAL_CONDITION Arg1:T18 Arg2:T16	
+R17	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R18	PLACE_OF_BIRTH Arg1:T20 Arg2:T22	
+T57	ORGANIZATION 924 928	МХАТ
+R19	SCHOOLS_ATTENDED Arg1:T20 Arg2:T24	
+R20	WORKPLACE Arg1:T20 Arg2:T26	
+R21	DATE_OF_CREATION Arg1:T39 Arg2:T45	
+R22	DATE_OF_CREATION Arg1:T28 Arg2:T46	
+R23	DATE_OF_CREATION Arg1:T29 Arg2:T47	
+R24	DATE_OF_CREATION Arg1:T30 Arg2:T48	
+R25	DATE_OF_CREATION Arg1:T40 Arg2:T44	
+R26	DATE_OF_CREATION Arg1:T41 Arg2:T43	
+R27	PARTICIPANT_IN Arg1:T20 Arg2:T39	
+R28	PARTICIPANT_IN Arg1:T20 Arg2:T28	
+R29	PARTICIPANT_IN Arg1:T20 Arg2:T29	
+R30	PARTICIPANT_IN Arg1:T20 Arg2:T30	
+R31	PARTICIPANT_IN Arg1:T20 Arg2:T40	
+R32	PARTICIPANT_IN Arg1:T20 Arg2:T41	
+T58	EVENT 0 9	Скончался
+R33	PARTICIPANT_IN Arg1:T33 Arg2:T58	
+T59	EVENT 92 96	умер
+R34	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+R35	PARTICIPANT_IN Arg1:T5 Arg2:T59	
+R36	POINT_IN_TIME Arg1:T59 Arg2:T2	
+R37	TAKES_PLACE_IN Arg1:T59 Arg2:T3	
+R38	ALTERNATIVE_NAME Arg1:T2 Arg2:T9	
+R39	LOCATED_IN Arg1:T36 Arg2:T35	
+R40	WORKPLACE Arg1:T14 Arg2:T36	
+R41	HEADQUARTERED_IN Arg1:T26 Arg2:T38	
+T60	AWARD 97 112	народный артист
+R2	ORIGINS_FROM Arg1:T4 Arg2:T34	
+R42	AWARDED_WITH Arg1:T5 Arg2:T4	
+T61	PROFESSION 106 112	артист
+R43	WORKS_AS Arg1:T5 Arg2:T61	
+T62	PROFESSION 175 182	артиста
+R44	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R45	INANIMATE_INVOLVED Arg1:T12 Arg2:T55	
+R46	WORKS_AS Arg1:T12 Arg2:T54	
+R47	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R48	ALTERNATIVE_NAME Arg1:T36 Arg2:T26	
+N1	Reference T4 Wikidata:Q403569	народный артист СССР
+N2	Reference T5 Wikidata:Q2632355	Лев Константинович Дуров
+N3	Reference T7 Wikidata:Q1208997	народный артист
+N4	Reference T8 Wikidata:Q4171115	Екатерина Львовна Дурова
+N5	Reference T13 Wikidata:Q4142113	Сергей Анатольевич Голомазов
+N7	Reference T20 Wikidata:Q2632355	Лев Константинович Дуров
+N8	Reference T22 Wikidata:Q649	Москва
+N9	Reference T24 Wikidata:Q3577654	Школа-студия МХАТ
+N10	Reference T26 Wikidata:Q4304134	Театр на Малой Бронной
+N11	Reference T34 Wikidata:Q15180	СССР
+N13	Reference T36 Wikidata:Q4304134	Театр на Малой Бронной
+N14	Reference T37 Wikidata:Q483501	деятель искусств
+N16	Reference T28 Wikidata:Q4096524	Бриллианты для диктатуры пролетариата
+N18	Reference T30 Wikidata:Q862538	Д’Артаньян и три мушкетёра
+N19	Reference T31 Wikidata:Q744183	д’Артаньян
+N20	Reference T40 Wikidata:Q1266866	Вооружён и очень опасен
+N21	Reference T41 Wikidata:Q1195685	Человек с бульвара Капуцинов
+N23	Reference T49 Wikidata:Q721960	Мушкетёры
+N24	Reference T57 Wikidata:Q840812	Московский Художественный театр
+N25	Reference T56 Wikidata:NULL	нет данных
+N6	Reference T14 Wikidata:NULL	нет данных
+N12	Reference T35 Wikidata:Q4276745	
+N15	Reference T39 Wikidata:Q472018	Семнадцать мгновений весны
+N17	Reference T29 Wikidata:Q4498856	
+N22	Reference T42 Wikidata:Q590441	
+N26	Reference T18 Wikidata:Q2632355	Лев Константинович Дуров
+N27	Reference T33 Wikidata:Q2632355	Лев Константинович Дуров
+N28	Reference T12 Wikidata:Q2632355	Лев Константинович Дуров
+N29	Reference T32 Wikidata:Q2632355	Лев Константинович Дуров
+N30	Reference T60 Wikidata:Q1208997	народный артист
+N31	Reference T3 Wikidata:Q649	Москва
+N32	Reference T61 Wikidata:Q483501	деятель искусств
+N33	Reference T62 Wikidata:Q483501	деятель искусств
+N34	Reference T54 Wikidata:Q483501	деятель искусств
+N35	Reference T38 Wikidata:Q4276745	
+R49	PARENT_OF Arg1:T62 Arg2:T8	
+R50	PARTICIPANT_IN Arg1:T54 Arg2:T55	
+T1	EVENT 852 859	родился
+R51	PARTICIPANT_IN Arg1:T20 Arg2:T1	
+R52	POINT_IN_TIME Arg1:T1 Arg2:T21	
+R53	TAKES_PLACE_IN Arg1:T1 Arg2:T22	

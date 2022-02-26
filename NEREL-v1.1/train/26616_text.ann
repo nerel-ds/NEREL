@@ -1,0 +1,115 @@
+T1	PERSON 16 29	Марию Алёхину
+T2	PERSON 40 53	Мария Алёхина
+T3	ORGANIZATION 121 131	Pussy Riot
+T4	PERSON 132 146	Марии Алёхиной
+T5	ORGANIZATION 331 336	Война
+T6	PERSON 412 426	Марии Алёхиной
+T7	PROFESSION 474 482	Прокурор
+T8	CITY 510 520	Березниках
+T9	PROFESSION 690 698	прокурор
+T10	ORGANIZATION 711 728	Хамовнический суд
+T11	PROFESSION 807 815	Прокурор
+T12	EVENT 874 878	суде
+T13	CITY 881 886	Перми
+T14	PERSON 969 976	Алехина
+T15	PROFESSION 1214 1221	Адвокат
+T16	PERSON 1231 1244	Оксана Дарова
+T17	PERSON 1302 1306	Маша
+T18	AGE 1402 1410	5-летний
+T19	PERSON 1411 1417	Филипп
+T20	DATE 1695 1714	8 февраля 2013 года
+T21	AGE 1737 1748	пятилетнего
+T23	PERSON 1871 1891	Александр Подрабинёк
+T24	PERSON 1894 1901	Алёхина
+T25	PERSON 2091 2104	Мария Алёхина
+T26	PROFESSION 2160 2170	президента
+T27	PERSON 2174 2190	Владимира Путина
+T28	ORGANIZATION 54 74	Пермский краевой суд
+T30	CITY 54 62	Пермский
+T31	ORGANIZATION 182 208	городского суда Березников
+T34	CITY 198 208	Березников
+T35	ORGANIZATION 371 389	горсуда Березников
+T37	CITY 379 389	Березников
+T38	DISTRICT 711 724	Хамовнический
+T39	PERSON 1085 1093	Алёхиной
+T40	PERSON 1222 1230	Алёхиной
+T41	PERSON 1749 1756	Филиппа
+T44	PERSON 1862 1870	Алёхиной
+T45	PROFESSION 2160 2173	президента РФ
+T46	COUNTRY 2171 2173	РФ
+R1	HEADQUARTERED_IN Arg1:T28 Arg2:T30	
+R2	MEMBER_OF Arg1:T4 Arg2:T3	
+R3	HEADQUARTERED_IN Arg1:T31 Arg2:T34	
+R4	HEADQUARTERED_IN Arg1:T35 Arg2:T37	
+R5	ALTERNATIVE_NAME Arg1:T31 Arg2:T35	
+T29	ORGANIZATION 503 520	суда в Березниках
+R6	HEADQUARTERED_IN Arg1:T29 Arg2:T8	
+R7	ALTERNATIVE_NAME Arg1:T35 Arg2:T29	
+R8	HEADQUARTERED_IN Arg1:T10 Arg2:T38	
+R9	TAKES_PLACE_IN Arg1:T12 Arg2:T13	
+R10	ALTERNATIVE_NAME Arg1:T6 Arg2:T14	
+T32	PROFESSION 1075 1084	Защитники
+R12	SUBORDINATE_OF Arg1:T32 Arg2:T39	
+R13	WORKS_AS Arg1:T16 Arg2:T15	
+R14	SUBORDINATE_OF Arg1:T16 Arg2:T40	
+R15	ALTERNATIVE_NAME Arg1:T40 Arg2:T17	
+R16	AGE_IS Arg1:T19 Arg2:T18	
+R17	PARENT_OF Arg1:T17 Arg2:T19	
+T33	PROFESSION 1550 1556	Защита
+R19	AGE_IS Arg1:T41 Arg2:T21	
+R20	ALTERNATIVE_NAME Arg1:T18 Arg2:T21	
+T36	PROFESSION 1840 1861	общественный защитник
+R21	WORKS_AS Arg1:T23 Arg2:T36	
+R22	SUBORDINATE_OF Arg1:T23 Arg2:T44	
+R11	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+R18	ALTERNATIVE_NAME Arg1:T24 Arg2:T25	
+R23	WORKPLACE Arg1:T45 Arg2:T46	
+R24	WORKPLACE Arg1:T27 Arg2:T46	
+R25	WORKS_AS Arg1:T27 Arg2:T45	
+R26	LOCATED_IN Arg1:T13 Arg2:T46	
+R27	LOCATED_IN Arg1:T38 Arg2:T46	
+R28	LOCATED_IN Arg1:T8 Arg2:T46	
+R29	ALTERNATIVE_NAME Arg1:T30 Arg2:T13	
+T22	PENALTY 464 471	колонии
+R30	PENALIZED_AS Arg1:T6 Arg2:T22	
+R31	PARTICIPANT_IN Arg1:T14 Arg2:T12	
+R32	ALTERNATIVE_NAME Arg1:T14 Arg2:T39	
+N1	Reference T1 Wikidata:Q6760992	Мария Владимировна Алёхина
+N2	Reference T3 Wikidata:Q7551	Pussy Riot
+N4	Reference T8 Wikidata:Q105002	Березники
+N6	Reference T11 Wikidata:Q600751	прокурор
+N7	Reference T13 Wikidata:Q915	Пермь
+N8	Reference T15 Wikidata:Q40348	адвокат
+N11	Reference T23 Wikidata:Q625810	Подрабинек, Александр Пинхосович
+N12	Reference T26 Wikidata:Q30461	президент
+N13	Reference T27 Wikidata:Q7747	Владимир Владимирович Путин
+N19	Reference T45 Wikidata:Q218295	президент Российской Федерации
+N20	Reference T46 Wikidata:Q159	Россия
+N23	Reference T39 Wikidata:Q6760992	Мария Владимировна Алёхина
+N10	Reference T17 Wikidata:Q6760992	Мария Владимировна Алёхина
+N14	Reference T28 Wikidata:Q4351546	
+N3	Reference T5 Wikidata:Q723527	Война
+N16	Reference T37 Wikidata:Q105002	Березники
+N15	Reference T35 Wikidata:NULL	нет данных
+N17	Reference T38 Wikidata:Q862100	Хамовники
+N5	Reference T10 Wikidata:NULL	нет данных
+N9	Reference T16 Wikidata:NULL	нет данных
+N18	Reference T41 Wikidata:NULL	нет данных
+N21	Reference T33 Wikidata:Q512345	Защитник в уголовном процессе
+N22	Reference T36 Wikidata:Q512345	Защитник в уголовном процессе
+N24	Reference T44 Wikidata:Q6760992	Мария Владимировна Алёхина
+N25	Reference T25 Wikidata:Q6760992	Мария Владимировна Алёхина
+N26	Reference T24 Wikidata:Q6760992	Мария Владимировна Алёхина
+N27	Reference T4 Wikidata:Q6760992	Мария Владимировна Алёхина
+N28	Reference T2 Wikidata:Q6760992	Мария Владимировна Алёхина
+N29	Reference T7 Wikidata:Q600751	прокурор
+N30	Reference T9 Wikidata:Q600751	прокурор
+N31	Reference T30 Wikidata:Q915	Пермь
+N32	Reference T6 Wikidata:Q6760992	Мария Владимировна Алёхина
+N33	Reference T14 Wikidata:Q6760992	Мария Владимировна Алёхина
+N34	Reference T40 Wikidata:Q6760992	Мария Владимировна Алёхина
+N35	Reference T34 Wikidata:Q105002	Березники
+N36	Reference T31 Wikidata:NULL	нет данных
+N37	Reference T29 Wikidata:NULL	нет данных
+N38	Reference T19 Wikidata:NULL	нет данных
+N39	Reference T32 Wikidata:Q512345	Защитник в уголовном процессе

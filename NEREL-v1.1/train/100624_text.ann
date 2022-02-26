@@ -1,0 +1,119 @@
+T1	PERSON 0 5	Путин
+T2	PERSON 15 23	Грызлова
+T3	ORGANIZATION 27 46	Совета Безопасности
+T4	PERSON 47 60	Борис Грызлов
+T5	PROFESSION 61 70	Президент
+T6	PERSON 78 92	Владимир Путин
+T7	PERSON 102 117	Бориса Грызлова
+T8	ORGANIZATION 129 155	Совета Безопасности России
+T9	DATE 190 197	сегодня
+T10	ORGANIZATION 267 307	Совета Безопасности Российской Федерации
+T12	DATE 364 380	25 мая 2012 года
+T13	PERSON 410 439	Грызлова Бориса Вячеславовича
+T14	AGE 490 499	65-летний
+T15	PERSON 500 513	Борис Грызлов
+T16	PERSON 538 544	Путина
+T17	COUNTRY 576 582	России
+T18	PROFESSION 585 607	Министр внутренних дел
+T19	DATE 609 613	2001
+T20	PROFESSION 621 682	Председатель Государственной думы четвёртого и пятого созывов
+T21	DATE 684 688	2003
+T22	DATE 689 693	2011
+T23	PROFESSION 696 745	Председатель Высшего совета партии «Единая Россия
+T24	ORGANIZATION 732 745	Единая Россия
+T25	DATE 748 759	c 2002 года
+T26	PROFESSION 762 794	Полномочный представитель России
+T27	ORGANIZATION 797 867	Контактной группе по урегулированию ситуации в восточной части Украины
+T28	COUNTRY 71 77	России
+T29	PROFESSION 61 77	Президент России
+T30	COUNTRY 149 155	России
+T11	COUNTRY 287 307	Российской Федерации
+T31	ORGANIZATION 129 148	Совета Безопасности
+T32	ORGANIZATION 267 286	Совета Безопасности
+T33	COUNTRY 340 360	Российской Федерации
+T34	PROFESSION 329 360	президента Российской Федерации
+T35	PROFESSION 329 339	президента
+T36	PROFESSION 516 524	чиновник
+T37	ORGANIZATION 634 682	Государственной думы четвёртого и пятого созывов
+T39	COUNTRY 788 794	России
+T40	COUNTRY 860 867	Украины
+T42	DATE 614 618	2003
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R2	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+T43	EVENT 6 14	исключил
+R3	AGENT Arg1:T1 Arg2:T43	
+R4	PARTICIPANT_IN Arg1:T2 Arg2:T43	
+R5	WORKPLACE Arg1:T29 Arg2:T28	
+R6	WORKS_AS Arg1:T6 Arg2:T29	
+R7	WORKPLACE Arg1:T6 Arg2:T28	
+T44	EVENT 93 101	исключил
+R8	AGENT Arg1:T6 Arg2:T44	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T44	
+R10	HEADQUARTERED_IN Arg1:T8 Arg2:T30	
+R11	WORKPLACE Arg1:T7 Arg2:T8	
+T45	LAW 322 380	указом президента Российской Федерации от 25 мая 2012 года
+R12	DATE_OF_CREATION Arg1:T45 Arg2:T12	
+R13	HEADQUARTERED_IN Arg1:T10 Arg2:T11	
+R14	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R15	ALTERNATIVE_NAME Arg1:T13 Arg2:T15	
+R16	AGE_IS Arg1:T15 Arg2:T14	
+R17	KNOWS Arg1:T15 Arg2:T16	
+R18	ORIGINS_FROM Arg1:T15 Arg2:T17	
+T46	PROFESSION 585 592	Министр
+R19	WORKS_AS Arg1:T15 Arg2:T18	
+R20	WORKS_AS Arg1:T15 Arg2:T20	
+R21	WORKPLACE Arg1:T15 Arg2:T37	
+R22	WORKPLACE Arg1:T20 Arg2:T37	
+T38	ORGANIZATION 709 745	Высшего совета партии «Единая Россия
+R23	WORKPLACE Arg1:T23 Arg2:T38	
+R24	PART_OF Arg1:T38 Arg2:T24	
+R25	WORKS_AS Arg1:T15 Arg2:T23	
+R26	WORKPLACE Arg1:T15 Arg2:T38	
+R27	MEMBER_OF Arg1:T15 Arg2:T24	
+R28	WORKS_AS Arg1:T15 Arg2:T26	
+R29	WORKPLACE Arg1:T15 Arg2:T27	
+T41	LOCATION 844 867	восточной части Украины
+R30	LOCATED_IN Arg1:T41 Arg2:T40	
+R31	PARTICIPANT_IN Arg1:T3 Arg2:T43	
+R32	WORKPLACE Arg1:T2 Arg2:T3	
+R33	PRODUCES Arg1:T34 Arg2:T45	
+R34	WORKS_AS Arg1:T15 Arg2:T36	
+R35	WORKPLACE Arg1:T18 Arg2:T17	
+R36	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+R37	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+N1	Reference T4 Wikidata:Q188296	Борис Вячеславович Грызлов
+N2	Reference T5 Wikidata:Q30461	президент
+N3	Reference T8 Wikidata:Q672108	Совет безопасности Российской Федерации
+N4	Reference T10 Wikidata:Q672108	Совет безопасности Российской Федерации
+N5	Reference T13 Wikidata:Q188296	Борис Вячеславович Грызлов
+N6	Reference T16 Wikidata:Q7747	Владимир Владимирович Путин
+N8	Reference T20 Wikidata:Q4376663	председатель Государственной думы
+N10	Reference T24 Wikidata:Q151469	Единая Россия
+N12	Reference T29 Wikidata:Q218295	президент Российской Федерации
+N13	Reference T30 Wikidata:Q159	Россия
+N14	Reference T11 Wikidata:Q159	Россия
+N16	Reference T34 Wikidata:Q218295	президент Российской Федерации
+N17	Reference T36 Wikidata:Q382887	чиновник
+N18	Reference T37 Wikidata:Q4146585	Государственная дума Федерального собрания Российской Федерации IV созыва
+N19	Reference T40 Wikidata:Q212	Украина
+N21	Reference T46 Wikidata:Q83307	министр
+N15	Reference T32 Wikidata:NULL	нет данных
+N20	Reference T45 Wikidata:NULL	нет данных
+N23	Reference T41 Wikidata:NULL	нет данных
+N11	Reference T26 Wikidata:NULL	нет данных
+N22	Reference T38 Wikidata:NULL	нет данных
+N9	Reference T23 Wikidata:NULL	нет данных
+N24	Reference T27 Wikidata:Q18208069	
+N7	Reference T18 Wikidata:NULL	нет данных
+N25	Reference T2 Wikidata:Q188296	Борис Вячеславович Грызлов
+N26	Reference T35 Wikidata:Q30461	президент
+N27	Reference T7 Wikidata:Q188296	Борис Вячеславович Грызлов
+N28	Reference T15 Wikidata:Q188296	Борис Вячеславович Грызлов
+N29	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N30	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N31	Reference T39 Wikidata:Q159	Россия
+N32	Reference T17 Wikidata:Q159	Россия
+N33	Reference T28 Wikidata:Q159	Россия
+N34	Reference T33 Wikidata:Q159	Россия
+N35	Reference T31 Wikidata:NULL	нет данных
+N36	Reference T3 Wikidata:NULL	нет данных

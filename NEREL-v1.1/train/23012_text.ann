@@ -1,0 +1,108 @@
+T1	PERSON 0 5	Путин
+T4	PROFESSION 41 50	Президент
+T5	COUNTRY 51 57	России
+T6	PERSON 58 72	Владимир Путин
+T9	ORGANIZATION 188 205	Советом Федерации
+T10	DATE 219 239	в четверг 27 декабря
+T11	PERSON 240 254	Владимир Путин
+T17	PROFESSION 629 638	президент
+T18	COUNTRY 639 641	РФ
+T19	EVENT 645 654	заседании
+T20	ORGANIZATION 655 664	Госсовета
+T21	PERSON 667 673	Путина
+T22	COUNTRY 699 711	американские
+T23	COUNTRY 753 763	Российский
+T24	PROFESSION 753 773	Российский Президент
+T25	COUNTRY 859 869	российских
+T26	ORGANIZATION 949 957	Госдумой
+T27	PERSON 965 978	Димы Яковлева
+T28	NATIONALITY 1006 1017	американцам
+T29	COUNTRY 1038 1044	России
+T30	ORGANIZATION 1054 1071	Советом Федерации
+T31	COUNTRY 1122 1132	российских
+T32	ORGANIZATION 1167 1177	Конгрессом
+T33	COUNTRY 1178 1181	США
+T34	COUNTRY 1224 1231	Россией
+T35	LAW 1265 1282	закон Магнитского
+T36	PROFESSION 41 57	Президент России
+T2	LAW 16 36	закона Димы Яковлева
+T3	PERSON 23 36	Димы Яковлева
+T7	LAW 95 115	закона Димы Яковлева
+T8	PERSON 102 115	Димы Яковлева
+T12	LAW 467 486	закон Димы Яковлева
+T13	PERSON 473 486	Димы Яковлева
+T14	LAW 325 442	О мерах воздействия на лиц, причастных к нарушениям основополагающих прав и свобод человека, прав и свобод граждан РФ
+T15	COUNTRY 440 442	РФ
+T16	PROFESSION 629 641	президент РФ
+T37	LAW 959 978	закон Димы Яковлева
+T38	ORGANIZATION 1167 1181	Конгрессом США
+T39	LAW 1182 1231	Закон о нормализации торговых отношений с Россией
+R1	WORKPLACE Arg1:T6 Arg2:T5	
+R2	WORKS_AS Arg1:T6 Arg2:T36	
+R3	ALTERNATIVE_NAME Arg1:T14 Arg2:T12	
+R4	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+R5	ORGANIZES Arg1:T20 Arg2:T19	
+R6	WORKPLACE Arg1:T16 Arg2:T18	
+R7	PARTICIPANT_IN Arg1:T16 Arg2:T19	
+T40	ORGANIZATION 699 718	американские власти
+R8	HEADQUARTERED_IN Arg1:T40 Arg2:T22	
+R9	WORKPLACE Arg1:T24 Arg2:T23	
+R10	PRODUCES Arg1:T26 Arg2:T37	
+R11	PRODUCES Arg1:T30 Arg2:T37	
+T41	PROFESSION 1133 1146	законодателей
+R12	WORKPLACE Arg1:T41 Arg2:T31	
+R13	HEADQUARTERED_IN Arg1:T38 Arg2:T33	
+R14	PRODUCES Arg1:T38 Arg2:T39	
+T42	PERSON 1271 1282	Магнитского
+R15	ALTERNATIVE_NAME Arg1:T31 Arg2:T34	
+R16	ALTERNATIVE_NAME Arg1:T5 Arg2:T15	
+R17	ALTERNATIVE_NAME Arg1:T25 Arg2:T29	
+R18	ALTERNATIVE_NAME Arg1:T22 Arg2:T33	
+R19	ALTERNATIVE_NAME Arg1:T36 Arg2:T16	
+R20	WORKPLACE Arg1:T36 Arg2:T5	
+R21	ALTERNATIVE_NAME Arg1:T11 Arg2:T21	
+T43	PROFESSION 764 773	Президент
+R22	ALTERNATIVE_NAME Arg1:T16 Arg2:T24	
+R23	ALTERNATIVE_NAME Arg1:T23 Arg2:T29	
+R24	ABBREVIATION Arg1:T29 Arg2:T18	
+N1	Reference T5 Wikidata:Q159	Россия
+N2	Reference T11 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T17 Wikidata:Q30461	президент
+N4	Reference T18 Wikidata:Q159	Россия
+N8	Reference T24 Wikidata:Q218295	президент Российской Федерации
+N9	Reference T26 Wikidata:Q715641	Государственная дума
+N10	Reference T28 Wikidata:Q498438	Американцы
+N11	Reference T30 Wikidata:Q186473	Совет Федерации
+N15	Reference T14 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N16	Reference T38 Wikidata:Q11268	Конгресс США
+N19	Reference T41 Wikidata:Q486839	член парламента
+N14	Reference T3 Wikidata:NULL	нет данных
+N18	Reference T40 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:Q159	Россия
+N6	Reference T22 Wikidata:Q30	США
+N5	Reference T20 Wikidata:Q1995515	Государственный совет Российской Федерации
+N20	Reference T42 Wikidata:Q247917	Сергей Леонидович Магнитский
+N13	Reference T35 Wikidata:Q630717	Закон Магнитского
+N17	Reference T39 Wikidata:NULL	нет данных
+N12	Reference T32 Wikidata:Q11268	Конгресс США
+N21	Reference T15 Wikidata:Q159	Россия
+N22	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N23	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N24	Reference T21 Wikidata:Q7747	Владимир Владимирович Путин
+N25	Reference T4 Wikidata:Q30461	президент
+N26	Reference T43 Wikidata:Q30461	президент
+N27	Reference T29 Wikidata:Q159	Россия
+N28	Reference T25 Wikidata:Q159	Россия
+N29	Reference T36 Wikidata:Q218295	президент Российской Федерации
+N30	Reference T16 Wikidata:Q218295	президент Российской Федерации
+N31	Reference T9 Wikidata:Q186473	Совет Федерации
+N32	Reference T12 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N33	Reference T7 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N34	Reference T2 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N35	Reference T37 Wikidata:Q1963876	Федеральный закон от 28 декабря 2012 года № 272-ФЗ
+N36	Reference T13 Wikidata:NULL	нет данных
+N37	Reference T8 Wikidata:NULL	нет данных
+N38	Reference T27 Wikidata:NULL	нет данных
+N39	Reference T34 Wikidata:Q159	Россия
+N40	Reference T31 Wikidata:Q159	Россия
+N41	Reference T33 Wikidata:Q30	США

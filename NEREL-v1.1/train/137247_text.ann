@@ -1,0 +1,67 @@
+T1	NATIONALITY 0 11	Итальянский
+T2	ORGANIZATION 33 35	ИГ
+T3	COUNTRY 93 99	Италии
+T4	AGE 100 109	15-летний
+T5	PRODUCT 209 217	Telegram
+T6	ORGANIZATION 232 254	Исламского государства
+T7	ORGANIZATION 256 258	ИГ
+T8	CITY 306 312	Милане
+T9	COUNTRY 323 334	итальянские
+T10	DATE 339 353	в конце ноября
+T11	COUNTRY 390 396	Италии
+T12	CITY 417 421	Лоди
+T13	COUNTRY 443 449	Италию
+T14	COUNTRY 453 460	Марокко
+T15	STATE_OR_PROVINCE 498 505	Сицилии
+T16	PERSON 573 587	Момо аль-Итали
+T17	PERSON 589 602	Momo al Italy
+T18	ORGANIZATION 654 656	ИГ
+T19	ORGANIZATION 701 703	ИГ
+T20	COUNTRY 706 717	Итальянские
+T21	PERSON 784 788	Момо
+T22	CITY 861 865	Лоди
+T23	PERSON 995 1007	Lone Mujahid
+T24	PERSON 1009 1017	Муджахид
+T25	DATE 1057 1076	с января этого года
+T26	RELIGION 548 559	мусульманин
+T27	DATE 461 472	в 1992 году
+R1	ABBREVIATION Arg1:T6 Arg2:T7	
+R2	LOCATED_IN Arg1:T8 Arg2:T3	
+T28	PENALTY 295 303	в тюрьме
+R3	ALTERNATIVE_NAME Arg1:T16 Arg2:T17	
+R4	RELIGION_OF Arg1:T16 Arg2:T26	
+R5	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+R6	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R7	LOCATED_IN Arg1:T12 Arg2:T11	
+R8	AGE_IS Arg1:T16 Arg2:T4	
+R9	PENALIZED_AS Arg1:T16 Arg2:T28	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R11	LOCATED_IN Arg1:T15 Arg2:T13	
+R12	PLACE_OF_BIRTH Arg1:T16 Arg2:T15	
+R13	ORIGINS_FROM Arg1:T1 Arg2:T3	
+T29	EVENT 272 281	арестован
+R14	PARTICIPANT_IN Arg1:T16 Arg2:T29	
+R15	TAKES_PLACE_IN Arg1:T29 Arg2:T8	
+N2	Reference T5 Wikidata:Q15616276	Telegram
+N3	Reference T8 Wikidata:Q490	Милан
+N5	Reference T14 Wikidata:Q1028	Марокко
+N6	Reference T15 Wikidata:Q1460	Сицилия
+N8	Reference T19 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N10	Reference T24 Wikidata:Q42759	муджахид
+N11	Reference T26 Wikidata:Q47740	мусульманин
+N4	Reference T9 Wikidata:Q38	Италия
+N7	Reference T16 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:Q6244	Лоди
+N1	Reference T1 Wikidata:Q50001	итальянцы
+N12	Reference T7 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N13	Reference T2 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N14	Reference T18 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N15	Reference T6 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N16	Reference T23 Wikidata:Q42759	муджахид
+N17	Reference T13 Wikidata:Q38	Италия
+N18	Reference T20 Wikidata:Q38	Италия
+N19	Reference T11 Wikidata:Q38	Италия
+N20	Reference T3 Wikidata:Q38	Италия
+N21	Reference T17 Wikidata:NULL	нет данных
+N22	Reference T21 Wikidata:NULL	нет данных
+N23	Reference T12 Wikidata:Q6244	Лоди

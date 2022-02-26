@@ -1,0 +1,220 @@
+T1	PERSON 0 13	Ксения Собчак
+T2	PERSON 29 46	Максима Виторгана
+T3	PERSON 47 60	Ксения Собчак
+T4	PERSON 61 76	Максим Виторган
+T5	DATE 86 105	1 февраля 2013 года
+T6	WORK_OF_ART 126 132	Фитиль
+T7	PROFESSION 154 165	телеведущая
+T8	PERSON 166 179	Ксения Собчак
+T9	PROFESSION 182 187	актёр
+T10	PERSON 188 203	Максим Виторган
+T11	PERSON 273 279	Ксения
+T12	PERSON 282 288	Максим
+T13	FACILITY 321 340	Ленинском проспекте
+T14	CITY 343 349	Москве
+T15	PROFESSION 495 500	актёр
+T16	PERSON 501 518	Эммануил Виторган
+T17	PERSON 535 551	Людмила Нарусова
+T18	PERSON 578 593	Алексей Кортнев
+T19	TIME 604 618	Поздно вечером
+T20	PERSON 665 671	Собчак
+T21	PERSON 748 764	Людмила Нарусова
+T22	DATE 780 791	месяц назад
+T23	PERSON 945 964	Эммануила Виторгана
+T24	PERSON 1006 1019	Ксению Собчак
+T25	PERSON 1109 1115	Ксении
+T26	PERSON 1118 1125	Максима
+T27	EVENT 1189 1198	вечеринке
+T28	PROFESSION 1201 1219	главного редактора
+T29	ORGANIZATION 1234 1244	Эхо Москвы
+T30	PERSON 1246 1265	Алексея Венедиктова
+T31	PERSON 1274 1287	Ксения Собчак
+T32	DATE 1379 1393	Пять лет назад
+T33	COUNTRY 1431 1443	американским
+T34	PERSON 1456 1480	Александром Шустеровичем
+T35	PERSON 1547 1553	Собчак
+T36	PROFESSION 1563 1578	предпринимателя
+T37	PERSON 1579 1596	Михаила Прохорова
+T38	PROFESSION 1599 1648	главу департамента культуры Москвы Сергея Капкова
+T39	PERSON 1634 1648	Сергея Капкова
+T40	PERSON 1669 1675	Ксения
+T41	PERSON 1690 1702	Ильёй Яшиным
+T42	EVENT 1740 1748	митингах
+T43	CITY 1751 1757	Москве
+T44	PERSON 1803 1811	Максимом
+T45	PERSON 1876 1889	Ксения Собчак
+T46	ORDINAL 1896 1903	третьей
+T47	AGE 1910 1920	40-летнего
+T48	PERSON 1921 1938	Максима Виторгана
+T49	NUMBER 1960 1963	два
+T50	ORDINAL 1990 1996	первых
+T51	DATE 2010 2021	В молодости
+T52	PERSON 2022 2030	Виторган
+T53	PROFESSION 2044 2051	актрисе
+T54	ORGANIZATION 2052 2056	ТЮЗа
+T55	PERSON 2057 2074	Викториий Верберг
+T56	PERSON 2100 2107	Даниила
+T57	ORDINAL 2112 2119	второго
+T58	PROFESSION 2130 2142	маркетологом
+T59	PERSON 2166 2172	Полина
+T60	EVENT 14 25	вышла замуж
+T61	EVENT 109 117	премьере
+T62	EVENT 210 220	поженились
+T63	EVENT 289 299	обручились
+T64	EVENT 402 409	Свадьбу
+T65	PROFESSION 553 559	певица
+T66	PERSON 560 567	Глюкоза
+T67	PROFESSION 569 577	музыкант
+T68	PERSON 741 747	Ксении
+T69	PROFESSION 938 944	актера
+T70	EVENT 988 1002	бракосочетания
+T71	PROFESSION 1201 1244	главного редактора радиостанции «Эхо Москвы
+T74	PROFESSION 1365 1376	телеведущей
+T75	PROFESSION 1417 1428	телеведущей
+T76	PROFESSION 1444 1455	бизнесменом
+T78	DATE 1504 1511	за день
+T79	ORGANIZATION 1605 1633	департамента культуры Москвы
+T80	CITY 1627 1633	Москвы
+T81	DATE 1651 1668	В последнее время
+T82	PROFESSION 1714 1725	телеведущая
+T83	IDEOLOGY 1847 1860	оппозиционную
+T84	NUMBER 1997 2001	двух
+T86	PERSON 2143 2151	Натальей
+R1	INANIMATE_INVOLVED Arg1:T6 Arg2:T61	
+R2	POINT_IN_TIME Arg1:T61 Arg2:T5	
+R3	AGENT Arg1:T1 Arg2:T60	
+R4	AGENT Arg1:T2 Arg2:T60	
+R5	WORKS_AS Arg1:T8 Arg2:T7	
+R6	WORKS_AS Arg1:T10 Arg2:T9	
+R7	AGENT Arg1:T10 Arg2:T62	
+R8	AGENT Arg1:T8 Arg2:T62	
+R9	SPOUSE Arg1:T1 Arg2:T2	
+R10	SPOUSE Arg1:T8 Arg2:T10	
+R11	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+R12	ALTERNATIVE_NAME Arg1:T10 Arg2:T12	
+R13	AGENT Arg1:T12 Arg2:T63	
+R14	AGENT Arg1:T11 Arg2:T63	
+R15	ALTERNATIVE_NAME Arg1:T62 Arg2:T63	
+R16	LOCATED_IN Arg1:T13 Arg2:T14	
+R17	TAKES_PLACE_IN Arg1:T63 Arg2:T13	
+R18	WORKS_AS Arg1:T16 Arg2:T15	
+R19	PARENT_OF Arg1:T16 Arg2:T12	
+R20	PARENT_OF Arg1:T17 Arg2:T11	
+R21	WORKS_AS Arg1:T66 Arg2:T65	
+R22	WORKS_AS Arg1:T18 Arg2:T67	
+R23	KNOWS Arg1:T12 Arg2:T18	
+R24	KNOWS Arg1:T12 Arg2:T66	
+R25	KNOWS Arg1:T11 Arg2:T66	
+R26	KNOWS Arg1:T11 Arg2:T18	
+R27	ALTERNATIVE_NAME Arg1:T11 Arg2:T20	
+R28	PARENT_OF Arg1:T21 Arg2:T68	
+R29	WORKS_AS Arg1:T23 Arg2:T69	
+R30	WORKPLACE Arg1:T71 Arg2:T29	
+R31	WORKPLACE Arg1:T30 Arg2:T29	
+R32	WORKS_AS Arg1:T30 Arg2:T71	
+R33	PARTICIPANT_IN Arg1:T26 Arg2:T27	
+R34	PARTICIPANT_IN Arg1:T25 Arg2:T27	
+R35	ORGANIZES Arg1:T30 Arg2:T27	
+R36	WORKS_AS Arg1:T31 Arg2:T74	
+R37	WORKS_AS Arg1:T34 Arg2:T76	
+R38	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R39	KNOWS Arg1:T31 Arg2:T34	
+R40	WORKS_AS Arg1:T37 Arg2:T36	
+R41	WORKS_AS Arg1:T39 Arg2:T38	
+R42	WORKPLACE Arg1:T39 Arg2:T79	
+R43	WORKPLACE Arg1:T38 Arg2:T79	
+R44	HEADQUARTERED_IN Arg1:T79 Arg2:T80	
+R45	KNOWS Arg1:T40 Arg2:T41	
+R46	WORKS_AS Arg1:T40 Arg2:T82	
+R47	PARTICIPANT_IN Arg1:T40 Arg2:T42	
+R48	PARTICIPANT_IN Arg1:T41 Arg2:T42	
+R49	TAKES_PLACE_IN Arg1:T42 Arg2:T43	
+R50	IDEOLOGY_OF Arg1:T44 Arg2:T83	
+R51	AGE_IS Arg1:T48 Arg2:T47	
+R52	SPOUSE Arg1:T45 Arg2:T48	
+T72	PROFESSION 2044 2056	актрисе ТЮЗа
+R53	WORKPLACE Arg1:T72 Arg2:T54	
+R54	WORKS_AS Arg1:T55 Arg2:T72	
+R55	WORKPLACE Arg1:T55 Arg2:T54	
+R57	PARENT_OF Arg1:T55 Arg2:T56	
+R59	PARENT_OF Arg1:T52 Arg2:T56	
+R60	SPOUSE Arg1:T52 Arg2:T55	
+R61	WORKS_AS Arg1:T86 Arg2:T58	
+R64	PARENT_OF Arg1:T86 Arg2:T59	
+R65	PARENT_OF Arg1:T52 Arg2:T59	
+R66	AGENT Arg1:T11 Arg2:T64	
+R67	AGENT Arg1:T12 Arg2:T64	
+R68	PARTICIPANT_IN Arg1:T16 Arg2:T64	
+R69	PARTICIPANT_IN Arg1:T17 Arg2:T64	
+R70	PARTICIPANT_IN Arg1:T66 Arg2:T64	
+R71	PARTICIPANT_IN Arg1:T18 Arg2:T64	
+R72	AGENT Arg1:T24 Arg2:T70	
+R73	ALTERNATIVE_NAME Arg1:T62 Arg2:T70	
+R74	KNOWS Arg1:T35 Arg2:T37	
+R75	KNOWS Arg1:T35 Arg2:T39	
+R76	POINT_IN_TIME Arg1:T42 Arg2:T81	
+R77	PARTICIPANT_IN Arg1:T44 Arg2:T42	
+R56	SPOUSE Arg1:T52 Arg2:T86	
+R58	ALTERNATIVE_NAME Arg1:T48 Arg2:T52	
+R62	ALTERNATIVE_NAME Arg1:T44 Arg2:T48	
+N1	Reference T6 Wikidata:Q4485081	Фитиль
+N2	Reference T10 Wikidata:Q4112450	Максим Эммануилович Виторган
+N3	Reference T13 Wikidata:Q2622445	Ленинский проспект
+N4	Reference T15 Wikidata:Q33999	актёр
+N5	Reference T16 Wikidata:Q4112451	Эммануил Гедеонович Виторган
+N6	Reference T17 Wikidata:Q2107072	Людмила Борисовна Нарусова
+N7	Reference T18 Wikidata:Q4234388	Алексей Кортнев
+N9	Reference T28 Wikidata:Q589298	главный редактор
+N10	Reference T29 Wikidata:Q749928	Эхо Москвы
+N11	Reference T30 Wikidata:Q2389338	Венедиктов, Алексей Алексеевич
+N13	Reference T35 Wikidata:Q287099	Ксения Анатольевна Собчак
+N14	Reference T36 Wikidata:Q131524	предприниматель
+N18	Reference T41 Wikidata:Q1658622	Илья Валерьевич Яшин
+N19	Reference T43 Wikidata:Q649	Москва
+N20	Reference T53 Wikidata:Q33999	актёр
+N25	Reference T65 Wikidata:Q177220	певец
+N26	Reference T66 Wikidata:Q35385	Глюк’oZa
+N27	Reference T67 Wikidata:Q639669	музыкант
+N29	Reference T74 Wikidata:Q947873	телеведущий
+N30	Reference T76 Wikidata:Q131524	предприниматель
+N34	Reference T58 Wikidata:Q56369519	
+N32	Reference T86 Wikidata:NULL	нет данных
+N24	Reference T59 Wikidata:Q39206702	
+N21	Reference T54 Wikidata:Q4304294	Московский театр юного зрителя
+N33	Reference T72 Wikidata:NULL	нет данных
+N22	Reference T55 Wikidata:Q39204896	
+N23	Reference T56 Wikidata:NULL	нет данных
+N15	Reference T37 Wikidata:Q233581	Михаил Дмитриевич Прохоров
+N31	Reference T79 Wikidata:Q4158546	
+N16	Reference T38 Wikidata:NULL	нет данных
+N17	Reference T39 Wikidata:NULL	нет данных
+N12	Reference T33 Wikidata:Q30	США
+N35	Reference T34 Wikidata:NULL	нет данных
+N8	Reference T26 Wikidata:Q4112450	Максим Эммануилович Виторган
+N28	Reference T71 Wikidata:NULL	нет данных
+N36	Reference T12 Wikidata:Q4112450	Максим Эммануилович Виторган
+N37	Reference T69 Wikidata:Q33999	актёр
+N38	Reference T9 Wikidata:Q33999	актёр
+N39	Reference T23 Wikidata:Q4112451	Эммануил Гедеонович Виторган
+N40	Reference T21 Wikidata:Q2107072	Людмила Борисовна Нарусова
+N41	Reference T40 Wikidata:Q287099	Ксения Анатольевна Собчак
+N42	Reference T8 Wikidata:Q287099	Ксения Анатольевна Собчак
+N43	Reference T20 Wikidata:Q287099	Ксения Анатольевна Собчак
+N44	Reference T31 Wikidata:Q287099	Ксения Анатольевна Собчак
+N45	Reference T24 Wikidata:Q287099	Ксения Анатольевна Собчак
+N46	Reference T25 Wikidata:Q287099	Ксения Анатольевна Собчак
+N47	Reference T11 Wikidata:Q287099	Ксения Анатольевна Собчак
+N48	Reference T3 Wikidata:Q287099	Ксения Анатольевна Собчак
+N49	Reference T45 Wikidata:Q287099	Ксения Анатольевна Собчак
+N50	Reference T1 Wikidata:Q287099	Ксения Анатольевна Собчак
+N51	Reference T68 Wikidata:Q287099	Ксения Анатольевна Собчак
+N52	Reference T80 Wikidata:Q649	Москва
+N53	Reference T14 Wikidata:Q649	Москва
+N54	Reference T7 Wikidata:Q947873	телеведущий
+N55	Reference T82 Wikidata:Q947873	телеведущий
+N56	Reference T75 Wikidata:Q947873	телеведущий
+N57	Reference T44 Wikidata:Q4112450	Максим Эммануилович Виторган
+N58	Reference T52 Wikidata:Q4112450	Максим Эммануилович Виторган
+N59	Reference T4 Wikidata:Q4112450	Максим Эммануилович Виторган
+N60	Reference T48 Wikidata:Q4112450	Максим Эммануилович Виторган
+N61	Reference T2 Wikidata:Q4112450	Максим Эммануилович Виторган

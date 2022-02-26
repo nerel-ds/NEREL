@@ -1,0 +1,68 @@
+T1	EVENT 21 38	За честные выборы
+T3	CITY 72 78	Москвы
+T6	DATE 138 147	4 февраля
+T7	CITY 150 156	Москве
+T8	ORGANIZATION 260 270	Интерфаксу
+T9	PROFESSION 272 305	координатор движения «Левый фронт
+T10	ORGANIZATION 294 305	Левый фронт
+T11	PERSON 307 322	Сергей Удальцов
+T12	PERSON 350 359	Анастасии
+T14	PERSON 456 464	Удальцов
+T15	DATE 465 478	в понедельник
+T16	ORGANIZATION 480 490	Интерфаксу
+T18	PERSON 625 644	Анастасия Удальцова
+T19	ORGANIZATION 655 665	Интерфаксу
+T22	LAW 832 836	КоАП
+T2	ORGANIZATION 64 78	Полиция Москвы
+T4	EVENT 108 125	За честные выборы
+T5	CRIME 188 249	нарушением законодательства о проведении массовых мероприятий
+T13	ORGANIZATION 378 386	Якиманка
+T23	DATE 429 438	субботней
+T21	LAW 797 830	организация массового мероприятия
+T20	LAW 784 795;832 836	статье 20.2 КоАП
+T25	ORDINAL 791 795	20.2
+T26	ORGANIZATION 55 62	полиции
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T3	
+R2	POINT_IN_TIME Arg1:T4 Arg2:T6	
+R3	TAKES_PLACE_IN Arg1:T4 Arg2:T7	
+T27	LAW 199 249	законодательства о проведении массовых мероприятий
+R4	WORKPLACE Arg1:T9 Arg2:T10	
+R5	WORKPLACE Arg1:T11 Arg2:T10	
+R6	WORKS_AS Arg1:T11 Arg2:T9	
+R7	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+T17	FACILITY 588 604	Большая Якиманка
+R8	ALTERNATIVE_NAME Arg1:T12 Arg2:T18	
+T24	ORGANIZATION 692 699	полиции
+R9	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+T28	EVENT 848 855	шествие
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T28	
+T29	EVENT 79 106	приглашает заявителей акции
+R11	AGENT Arg1:T2 Arg2:T29	
+R12	HAS_CAUSE Arg1:T29 Arg2:T4	
+R13	HAS_CAUSE Arg1:T29 Arg2:T5	
+T30	EVENT 404 428	вызывают всех заявителей
+R15	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R16	PARTICIPANT_IN Arg1:T12 Arg2:T30	
+R17	TAKES_PLACE_IN Arg1:T4 Arg2:T17	
+R18	LOCATED_IN Arg1:T17 Arg2:T7	
+R14	ORGANIZES Arg1:T12 Arg2:T4	
+R19	PART_OF Arg1:T20 Arg2:T22	
+N1	Reference T3 Wikidata:Q649	Москва
+N3	Reference T10 Wikidata:Q2256403	Левый фронт
+N4	Reference T11 Wikidata:Q713923	Сергей Станиславович Удальцов
+N5	Reference T16 Wikidata:Q379271	Интерфакс
+N7	Reference T2 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N8	Reference T13 Wikidata:Q2704875	Якиманка
+N9	Reference T26 Wikidata:Q35535	полиция
+N10	Reference T17 Wikidata:Q4471499	Улица Большая Якиманка
+N2	Reference T9 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:Q65768417	
+N11	Reference T22 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N12	Reference T21 Wikidata:NULL	нет данных
+N13	Reference T7 Wikidata:Q649	Москва
+N14	Reference T14 Wikidata:Q713923	Сергей Станиславович Удальцов
+N15	Reference T19 Wikidata:Q379271	Интерфакс
+N16	Reference T8 Wikidata:Q379271	Интерфакс
+N17	Reference T24 Wikidata:Q35535	полиция
+N18	Reference T12 Wikidata:Q65768417	
+N19	Reference T20 Wikidata:NULL	нет данных

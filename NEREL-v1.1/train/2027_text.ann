@@ -1,0 +1,94 @@
+T1	PERSON 0 14	Виталий Кличко
+T2	PROFESSION 27 32	мэром
+T3	PERSON 84 98	Виталий Кличко
+T4	PROFESSION 137 141	мэра
+T5	COUNTRY 150 157	Украины
+T6	CITY 158 163	Киева
+T7	PROFESSION 179 184	мэром
+T8	AGE 334 344	34-хлетний
+T9	EVENT 355 372	пресс-конференции
+T10	DATE 373 382	в четверг
+T11	PERSON 385 399	Виталий Кличко
+T13	ORGANIZATION 429 432	WBC
+T14	DATE 466 484	в ноябре 2005 года
+T15	ORGANIZATION 626 630	Пора
+T16	PERSON 650 656	Кличко
+T17	CITY 725 730	Киева
+T18	DATE 733 751	В ноябре 2004 года
+T19	PERSON 778 786	Владимир
+T20	PROFESSION 822 832	Президента
+T21	PROFESSION 27 38	мэром Киева
+T22	PROFESSION 137 163	мэра столицы Украины Киева
+T23	PROFESSION 179 190	мэром Киева
+T24	PROFESSION 502 512	боксёрскую
+T25	PROFESSION 532 536	мэра
+T26	CITY 33 38	Киева
+T27	AWARD 47 83	чемпион мира по боксу в тяжёлом весе
+T28	AWARD 47 68	чемпион мира по боксу
+T29	AWARD 47 59	чемпион мира
+T30	DATE 99 106	в марте
+T31	CITY 185 190	Киева
+T32	PERSON 345 351	Кличко
+T12	AWARD 404 418	чемпионом мира
+T33	AWARD 404 432	чемпионом мира по версии WBC
+T34	EVENT 525 536	выборы мэра
+T35	EVENT 525 531	выборы
+T36	PERSON 537 543	Кличко
+T37	IDEOLOGY 558 574	демократического
+T38	CRIME 676 686	коррупцией
+T39	PERSON 752 766	Виталий Кличко
+T40	PERSON 833 847	Виктора Ющенко
+T41	EVENT 799 818	оранжевую революцию
+R1	WORKPLACE Arg1:T21 Arg2:T26	
+R2	AWARDED_WITH Arg1:T3 Arg2:T27	
+R3	LOCATED_IN Arg1:T6 Arg2:T5	
+R4	WORKPLACE Arg1:T22 Arg2:T6	
+R5	WORKPLACE Arg1:T23 Arg2:T31	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T32	
+R7	AGE_IS Arg1:T32 Arg2:T8	
+R8	PARTICIPANT_IN Arg1:T32 Arg2:T9	
+R9	POINT_IN_TIME Arg1:T9 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T32 Arg2:T11	
+R11	AWARDED_WITH Arg1:T11 Arg2:T33	
+R12	PRODUCES Arg1:T13 Arg2:T33	
+R13	IDEOLOGY_OF Arg1:T36 Arg2:T37	
+R14	IDEOLOGY_OF Arg1:T15 Arg2:T37	
+R15	ALTERNATIVE_NAME Arg1:T16 Arg2:T39	
+R16	SIBLING Arg1:T39 Arg2:T19	
+R17	WORKS_AS Arg1:T40 Arg2:T20	
+R18	WORKS_AS Arg1:T11 Arg2:T24	
+R19	TAKES_PLACE_IN Arg1:T41 Arg2:T5	
+R20	WORKPLACE Arg1:T40 Arg2:T5	
+R21	POINT_IN_TIME Arg1:T41 Arg2:T18	
+R22	PARTICIPANT_IN Arg1:T36 Arg2:T34	
+R23	TAKES_PLACE_IN Arg1:T34 Arg2:T17	
+N1	Reference T5 Wikidata:Q212	Украина
+N2	Reference T11 Wikidata:Q31919	Виталий Владимирович Кличко
+N3	Reference T13 Wikidata:Q724450	Всемирный боксёрский совет
+N4	Reference T15 Wikidata:Q2104371	Пора!
+N6	Reference T17 Wikidata:Q1899	Киев
+N8	Reference T20 Wikidata:Q30461	президент
+N9	Reference T21 Wikidata:Q11812508	Киевский городской голова
+N10	Reference T22 Wikidata:Q11812508	Киевский городской голова
+N12	Reference T25 Wikidata:Q30185	мэр
+N17	Reference T40 Wikidata:Q1459699	Виктор Андреевич Ющенко
+N15	Reference T29 Wikidata:Q2948691	
+N7	Reference T19 Wikidata:Q18797	
+N5	Reference T16 Wikidata:Q31919	Виталий Владимирович Кличко
+N11	Reference T24 Wikidata:Q11338576	боксёр
+N14	Reference T28 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T33 Wikidata:NULL	нет данных
+N18	Reference T32 Wikidata:Q31919	Виталий Владимирович Кличко
+N19	Reference T3 Wikidata:Q31919	Виталий Владимирович Кличко
+N20	Reference T6 Wikidata:Q1899	Киев
+N21	Reference T31 Wikidata:Q1899	Киев
+N22	Reference T26 Wikidata:Q1899	Киев
+N23	Reference T23 Wikidata:Q11812508	Киевский городской голова
+N24	Reference T7 Wikidata:Q30185	мэр
+N25	Reference T4 Wikidata:Q30185	мэр
+N26	Reference T2 Wikidata:Q30185	мэр
+N27	Reference T12 Wikidata:Q2948691	
+N28	Reference T39 Wikidata:Q31919	Виталий Владимирович Кличко
+N29	Reference T36 Wikidata:Q31919	Виталий Владимирович Кличко
+N30	Reference T1 Wikidata:Q31919	Виталий Владимирович Кличко

@@ -1,0 +1,108 @@
+T1	COUNTRY 23 29	Канаде
+T2	NUMBER 39 41	16
+T3	STATE_OR_PROVINCE 50 65	Новая Шотландия
+T4	TIME 127 161	в ночь с 18 на 19 апреля 2020 года
+T5	DATE 152 161	2020 года
+T6	CITY 164 173	Портапике
+T7	CITY 176 183	Энфилде
+T8	CITY 189 198	Галифакса
+T9	COUNTRY 201 210	канадской
+T10	STATE_OR_PROVINCE 221 236	Новая Шотландия
+T11	NUMBER 247 249	16
+T12	NUMBER 278 284	десяти
+T13	COUNTRY 353 359	Канады
+T14	DATE 362 371	18 апреля
+T15	CITY 465 473	Портапик
+T16	STATE_OR_PROVINCE 671 686	Новой Шотландии
+T17	TIME 721 739	в течение 12 часов
+T18	AGE 762 771	23-летняя
+T19	CITY 856 865	Портапике
+T20	COUNTRY 907 913	Канады
+T21	AGE 968 977	51-летний
+T22	PERSON 978 993	Габриэл Уортман
+T23	PERSON 1028 1035	Габриэл
+T24	PERSON 1109 1116	Габриэл
+T25	PERSON 1149 1157	Уортмане
+T26	PROFESSION 1261 1276	Премьер-министр
+T27	PERSON 1284 1297	Джастин Трюдо
+T28	COUNTRY 1277 1283	Канады
+T29	PROFESSION 1261 1283	Премьер-министр Канады
+T30	PROFESSION 1201 1212	полицейским
+T31	ORGANIZATION 1094 1101	полиция
+T32	EVENT 12 20	стрельбы
+T33	EVENT 81 89	стрельба
+T34	EVENT 118 126	стрельбы
+T35	EVENT 293 301	стрельбы
+T36	ORGANIZATION 372 379	полиция
+T37	EVENT 408 416	стрельбе
+T38	PROFESSION 498 516	сотрудники полиции
+T39	ORGANIZATION 509 516	полиции
+T40	ORGANIZATION 688 695	полиция
+T41	PROFESSION 801 812	полицейский
+T42	PROFESSION 772 790	сотрудница полиции
+T43	ORGANIZATION 783 790	полиции
+T44	EVENT 845 853	Стрельба
+T45	EVENT 1231 1239	стрельбы
+R1	WORKPLACE Arg1:T38 Arg2:T39	
+R2	WORKPLACE Arg1:T42 Arg2:T43	
+R3	TAKES_PLACE_IN Arg1:T37 Arg2:T15	
+R4	TAKES_PLACE_IN Arg1:T32 Arg2:T1	
+R5	ALTERNATIVE_NAME Arg1:T1 Arg2:T9	
+R6	LOCATED_IN Arg1:T10 Arg2:T9	
+R7	TAKES_PLACE_IN Arg1:T33 Arg2:T3	
+R8	POINT_IN_TIME Arg1:T34 Arg2:T4	
+R9	TAKES_PLACE_IN Arg1:T34 Arg2:T6	
+R10	TAKES_PLACE_IN Arg1:T34 Arg2:T7	
+R11	LOCATED_IN Arg1:T8 Arg2:T10	
+R12	LOCATED_IN Arg1:T7 Arg2:T10	
+R13	LOCATED_IN Arg1:T6 Arg2:T10	
+R14	TAKES_PLACE_IN Arg1:T44 Arg2:T19	
+R15	LOCATED_IN Arg1:T19 Arg2:T20	
+T46	EVENT 878 896	массовым убийством
+R16	ALTERNATIVE_NAME Arg1:T44 Arg2:T46	
+R17	AGE_IS Arg1:T22 Arg2:T21	
+R18	AGENT Arg1:T22 Arg2:T44	
+R19	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R20	ALTERNATIVE_NAME Arg1:T22 Arg2:T25	
+R21	WORKPLACE Arg1:T29 Arg2:T28	
+R22	WORKS_AS Arg1:T27 Arg2:T29	
+R23	WORKPLACE Arg1:T29 Arg2:T28	
+T47	EVENT 1083 1093	застрелила
+R24	AGENT Arg1:T31 Arg2:T47	
+R25	PARTICIPANT_IN Arg1:T23 Arg2:T47	
+R26	HAS_CAUSE Arg1:T47 Arg2:T44	
+T48	EVENT 313 330	массовое убийство
+R27	TAKES_PLACE_IN Arg1:T48 Arg2:T13	
+R28	ALTERNATIVE_NAME Arg1:T35 Arg2:T48	
+R29	ALTERNATIVE_NAME Arg1:T34 Arg2:T35	
+R30	LOCATED_IN Arg1:T15 Arg2:T13	
+R31	TAKES_PLACE_IN Arg1:T46 Arg2:T20	
+N1	Reference T7 Wikidata:Q45671	Энфилд
+N2	Reference T8 Wikidata:Q2141	Галифакс
+N3	Reference T9 Wikidata:Q16	Канада
+N4	Reference T15 Wikidata:Q7231517	Портапик
+N5	Reference T16 Wikidata:Q1952	Новая Шотландия
+N6	Reference T26 Wikidata:Q14212	премьер-министр
+N7	Reference T27 Wikidata:Q3099714	Джастин Трюдо
+N8	Reference T29 Wikidata:Q839078	премьер-министр Канады
+N10	Reference T40 Wikidata:Q35535	полиция
+N12	Reference T38 Wikidata:Q384593	
+N11	Reference T42 Wikidata:Q384593	
+N13	Reference T22 Wikidata:NULL	нет данных
+N9	Reference T30 Wikidata:Q384593	
+N14	Reference T13 Wikidata:Q16	Канада
+N15	Reference T20 Wikidata:Q16	Канада
+N16	Reference T28 Wikidata:Q16	Канада
+N17	Reference T1 Wikidata:Q16	Канада
+N18	Reference T19 Wikidata:Q7231517	Портапик
+N19	Reference T6 Wikidata:Q7231517	Портапик
+N20	Reference T10 Wikidata:Q1952	Новая Шотландия
+N21	Reference T3 Wikidata:Q1952	Новая Шотландия
+N22	Reference T31 Wikidata:Q35535	полиция
+N23	Reference T43 Wikidata:Q35535	полиция
+N24	Reference T39 Wikidata:Q35535	полиция
+N25	Reference T36 Wikidata:Q35535	полиция
+N26	Reference T25 Wikidata:NULL	нет данных
+N27	Reference T23 Wikidata:NULL	нет данных
+N28	Reference T24 Wikidata:NULL	нет данных
+N29	Reference T41 Wikidata:Q384593	

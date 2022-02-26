@@ -1,0 +1,270 @@
+T1	AGE 0 8	90-летие
+T2	PERSON 9 24	Василия Шукшина
+T4	EVENT 69 93	Шукшинским дням на Алтае
+T5	EVENT 166 208	XXI Всероссийский Шукшинский кинофестиваль
+T6	DATE 222 229	23 июля
+T7	CITY 232 240	Барнауле
+T8	EVENT 266 315	Всероссийского фестиваля «Шукшинские дни на Алтае
+T9	EVENT 292 315	Шукшинские дни на Алтае
+T10	CITY 319 327	Барнауле
+T11	PERSON 368 383	Василию Шукшину
+T12	PROFESSION 491 501	губернатор
+T13	PERSON 518 532	Виктор Томенко
+T14	COUNTRY 640 650	российское
+T15	NUMBER 765 771	десять
+T17	PERSON 982 995	Мария Шукшина
+T18	PERSON 1004 1020	Андрей Мерзликин
+T19	PERSON 1023 1041	Алиса Гребенщикова
+T20	PERSON 1072 1085	Олег Тактаров
+T21	PROFESSION 1087 1095	продюсер
+T22	PERSON 1104 1117	Игорь Жижикин
+T23	PROFESSION 1127 1137	настоятель
+T24	CITY 1212 1224	Новосибирске
+T25	PROFESSION 1226 1235	сценарист
+T26	PERSON 1251 1270	Александр Новопашин
+T27	EVENT 1313 1337	Шукшинских дней на Алтае
+T28	CITY 1341 1348	Барнаул
+T29	PERSON 1405 1420	Павел Басинский
+T30	PERSON 1423 1436	Михаил Павлов
+T31	CITY 1440 1446	Москвы
+T32	PERSON 1448 1463	Василий Авченко
+T33	CITY 1467 1479	Владивостока
+T34	PERSON 1481 1498	Михаил Тарковский
+T35	STATE_OR_PROVINCE 1502 1520	Красноярского края
+T37	DATE 1562 1572	этого года
+T38	PERSON 1573 1588	Игорь Корниенко
+T39	CITY 1592 1600	Ангарска
+T40	EVENT 1606 1628	открытии кинофестиваля
+T41	PERSON 1661 1678	Алексея Петрухина
+T43	AWARD 1756 1786	Шукшинской литературной премии
+T44	DATE 1795 1802	27 июля
+T45	CITY 1810 1817	Сростки
+T47	PERSON 1843 1857	Василий Шукшин
+T48	DATE 1867 1874	24 июля
+T49	FACILITY 1885 1935	Алтайского краевого театра драмы им. В. М. Шукшина
+T50	WORK_OF_ART 1964 1978	Калина красная
+T53	PERSON 2093 2106	Мария Шукшина
+T54	PERSON 2109 2125	Андрей Мерзликин
+T55	PERSON 2160 2176	Сергей Никоненко
+T56	PERSON 2179 2194	Наталья Егорова
+T57	STATE_OR_PROVINCE 88 93	Алтае
+T58	EVENT 170 208	Всероссийский Шукшинский кинофестиваль
+T59	ORDINAL 166 169	XXI
+T60	EVENT 257 265	открытие
+T61	STATE_OR_PROVINCE 310 315	Алтае
+T62	FACILITY 358 383	памятника Василию Шукшину
+T63	PROFESSION 491 517	губернатор Алтайского края
+T64	STATE_OR_PROVINCE 502 517	Алтайского края
+T65	EVENT 548 557	фестиваля
+T66	EVENT 844 852	открытия
+T67	EVENT 903 919	автограф-сессией
+T68	PROFESSION 953 961	писателя
+T69	PROFESSION 963 969	актера
+T16	PROFESSION 972 981	режиссера
+T70	PROFESSION 997 1003	актёры
+T71	PROFESSION 1054 1063	спортсмен
+T72	PROFESSION 1066 1071	актёр
+T73	PROFESSION 1098 1103	актер
+T74	PROFESSION 1127 1144	настоятель собора
+T75	PROFESSION 1127 1209	настоятель собора во имя святого благоверного и великого князя Александра Невского
+T76	FACILITY 1138 1209	собора во имя святого благоверного и великого князя Александра Невского
+T77	PERSON 1190 1209	Александра Невского
+T78	PROFESSION 1184 1189	князя
+T79	PROFESSION 1238 1250	кинорежиссер
+T80	STATE_OR_PROVINCE 1332 1337	Алтае
+T81	PROFESSION 1369 1377	писатели
+T82	PROFESSION 1380 1387	критики
+T84	AWARD 1531 1561	Шукшинской литературной премии
+T85	EVENT 1615 1628	кинофестиваля
+T86	PROFESSION 1651 1660	режиссёра
+T87	WORK_OF_ART 1680 1699	Последнее испытание
+T90	AWARD 1721 1753	премии за лучшую ленту фестиваля
+T92	PERSON 1756 1766	Шукшинской
+T93	PERSON 1531 1541	Шукшинской
+T94	EVENT 1835 1842	родился
+T95	PERSON 1922 1935	В. М. Шукшина
+T96	STATE_OR_PROVINCE 1885 1895	Алтайского
+T97	EVENT 1953 1962	спектакль
+T51	ORGANIZATION 1993 2066	Московского государственного музыкального театра фольклора «Русская песня
+T98	CITY 1993 2004	Московского
+T99	EVENT 2135 2144	спектакле
+R1	AGE_IS Arg1:T2 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T4 Arg2:T57	
+T100	PERSON 184 194	Шукшинский
+T101	PERSON 69 79	Шукшинским
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T101	
+T102	COUNTRY 170 183	Всероссийский
+T103	COUNTRY 266 280	Всероссийского
+R4	ALTERNATIVE_NAME Arg1:T103 Arg2:T14	
+T104	PERSON 292 302	Шукшинские
+R5	ORIGINS_FROM Arg1:T4 Arg2:T101	
+R6	ORIGINS_FROM Arg1:T9 Arg2:T104	
+R7	TAKES_PLACE_IN Arg1:T9 Arg2:T61	
+R8	ALTERNATIVE_NAME Arg1:T61 Arg2:T64	
+R9	TAKES_PLACE_IN Arg1:T5 Arg2:T102	
+R10	START_TIME Arg1:T5 Arg2:T6	
+R11	TAKES_PLACE_IN Arg1:T5 Arg2:T7	
+R12	LOCATED_IN Arg1:T10 Arg2:T61	
+R13	LOCATED_IN Arg1:T61 Arg2:T103	
+R14	SUBEVENT_OF Arg1:T60 Arg2:T8	
+R15	ORIGINS_FROM Arg1:T62 Arg2:T11	
+R16	TAKES_PLACE_IN Arg1:T60 Arg2:T62	
+R17	WORKPLACE Arg1:T63 Arg2:T64	
+R18	WORKPLACE Arg1:T13 Arg2:T64	
+R19	WORKS_AS Arg1:T13 Arg2:T63	
+R20	PARTICIPANT_IN Arg1:T13 Arg2:T65	
+R21	SUBEVENT_OF Arg1:T67 Arg2:T66	
+R22	PARENT_OF Arg1:T11 Arg2:T17	
+R23	WORKS_AS Arg1:T18 Arg2:T70	
+R24	WORKS_AS Arg1:T19 Arg2:T70	
+R25	WORKS_AS Arg1:T20 Arg2:T72	
+R26	WORKS_AS Arg1:T22 Arg2:T73	
+R27	WORKS_AS Arg1:T22 Arg2:T21	
+R28	WORKS_AS Arg1:T77 Arg2:T78	
+R29	LOCATED_IN Arg1:T76 Arg2:T24	
+R30	WORKPLACE Arg1:T75 Arg2:T24	
+R31	WORKPLACE Arg1:T75 Arg2:T76	
+R32	WORKS_AS Arg1:T26 Arg2:T79	
+R33	WORKS_AS Arg1:T26 Arg2:T25	
+R34	WORKS_AS Arg1:T26 Arg2:T75	
+T106	PERSON 1313 1323	Шукшинских
+R36	TAKES_PLACE_IN Arg1:T27 Arg2:T80	
+R37	ORIGINS_FROM Arg1:T27 Arg2:T106	
+T107	EVENT 1286 1338	литературных мероприятиях «Шукшинских дней на Алтае»
+R38	SUBEVENT_OF Arg1:T107 Arg2:T27	
+R39	WORKS_AS Arg1:T29 Arg2:T81	
+R40	WORKS_AS Arg1:T29 Arg2:T82	
+R41	TAKES_PLACE_IN Arg1:T107 Arg2:T28	
+R42	PARTICIPANT_IN Arg1:T29 Arg2:T107	
+R43	ORIGINS_FROM Arg1:T29 Arg2:T31	
+R44	ORIGINS_FROM Arg1:T30 Arg2:T31	
+R45	WORKS_AS Arg1:T30 Arg2:T81	
+R46	WORKS_AS Arg1:T30 Arg2:T82	
+R47	PARTICIPANT_IN Arg1:T30 Arg2:T107	
+R48	ORIGINS_FROM Arg1:T32 Arg2:T33	
+R49	WORKS_AS Arg1:T32 Arg2:T81	
+R50	WORKS_AS Arg1:T32 Arg2:T82	
+R51	PARTICIPANT_IN Arg1:T32 Arg2:T107	
+R52	ORIGINS_FROM Arg1:T34 Arg2:T35	
+R53	WORKS_AS Arg1:T34 Arg2:T81	
+R54	WORKS_AS Arg1:T34 Arg2:T82	
+R55	PARTICIPANT_IN Arg1:T34 Arg2:T107	
+R56	ORIGINS_FROM Arg1:T38 Arg2:T39	
+R57	PARTICIPANT_IN Arg1:T38 Arg2:T107	
+R58	WORKS_AS Arg1:T38 Arg2:T81	
+R59	WORKS_AS Arg1:T38 Arg2:T82	
+R60	ORIGINS_FROM Arg1:T84 Arg2:T93	
+R63	AWARDED_WITH Arg1:T38 Arg2:T84	
+R64	SUBEVENT_OF Arg1:T40 Arg2:T85	
+R65	WORKS_AS Arg1:T41 Arg2:T86	
+R66	PRODUCES Arg1:T41 Arg2:T87	
+R67	PARTICIPANT_IN Arg1:T87 Arg2:T40	
+R68	ORIGINS_FROM Arg1:T43 Arg2:T92	
+R75	PARTICIPANT_IN Arg1:T47 Arg2:T94	
+R76	TAKES_PLACE_IN Arg1:T94 Arg2:T45	
+R77	ORIGINS_FROM Arg1:T49 Arg2:T95	
+R78	ALTERNATIVE_NAME Arg1:T47 Arg2:T95	
+R79	LOCATED_IN Arg1:T49 Arg2:T96	
+R80	POINT_IN_TIME Arg1:T97 Arg2:T48	
+R81	HEADQUARTERED_IN Arg1:T51 Arg2:T98	
+R82	ALTERNATIVE_NAME Arg1:T80 Arg2:T96	
+R83	ALTERNATIVE_NAME Arg1:T31 Arg2:T98	
+R84	PARTICIPANT_IN Arg1:T54 Arg2:T99	
+R85	PARTICIPANT_IN Arg1:T53 Arg2:T99	
+R86	PARTICIPANT_IN Arg1:T55 Arg2:T99	
+R87	PARTICIPANT_IN Arg1:T56 Arg2:T99	
+T83	EVENT 184 208	Шукшинский кинофестиваль
+T88	EVENT 195 208	кинофестиваль
+T91	EVENT 1286 1311	литературных мероприятиях
+T108	AWARD 1531 1572	Шукшинской литературной премии этого года
+T109	EVENT 1702 1720	Церемония вручения
+T46	DATE 1823 1829	в 1929
+R61	POINT_IN_TIME Arg1:T94 Arg2:T46	
+R73	DATE_OF_BIRTH Arg1:T47 Arg2:T46	
+R35	WORKS_AS Arg1:T20 Arg2:T71	
+R74	ALTERNATIVE_NAME Arg1:T60 Arg2:T66	
+R88	WORKS_AS Arg1:T11 Arg2:T68	
+R89	WORKS_AS Arg1:T11 Arg2:T69	
+R90	WORKS_AS Arg1:T11 Arg2:T16	
+T3	EVENT 1633 1644	презентован
+R91	SUBEVENT_OF Arg1:T3 Arg2:T40	
+R92	INANIMATE_INVOLVED Arg1:T87 Arg2:T3	
+R62	INANIMATE_INVOLVED Arg1:T90 Arg2:T109	
+R69	INANIMATE_INVOLVED Arg1:T43 Arg2:T109	
+R70	POINT_IN_TIME Arg1:T109 Arg2:T44	
+R71	TAKES_PLACE_IN Arg1:T109 Arg2:T45	
+N1	Reference T10 Wikidata:Q6014	Барнаул
+N2	Reference T12 Wikidata:Q132050	губернатор
+N3	Reference T13 Wikidata:Q54972564	Виктор Петрович Томенко
+N4	Reference T18 Wikidata:Q502070	Андрей Ильич Мерзликин
+N5	Reference T19 Wikidata:Q4148281	Алиса Борисовна Гребенщикова
+N6	Reference T20 Wikidata:Q714669	Олег Николаевич Тактаров
+N8	Reference T22 Wikidata:Q1383160	Игорь Витальевич Жижикин
+N10	Reference T24 Wikidata:Q883	Новосибирск
+N11	Reference T25 Wikidata:Q28389	сценарист
+N12	Reference T26 Wikidata:Q60830384	Александр Владимирович Новопашин
+N13	Reference T29 Wikidata:Q4079004	Павел Валерьевич Басинский
+N15	Reference T32 Wikidata:Q4056482	Василий Олегович Авченко
+N16	Reference T33 Wikidata:Q959	Владивосток
+N17	Reference T34 Wikidata:Q4452021	Михаил Александрович Тарковский
+N18	Reference T35 Wikidata:Q6563	Красноярский край
+N20	Reference T39 Wikidata:Q103565	Ангарск
+N21	Reference T41 Wikidata:Q21148877	Алексей Алексеевич Петрухин
+N22	Reference T45 Wikidata:Q4438854	Сростки
+N23	Reference T47 Wikidata:Q316086	Василий Макарович Шукшин
+N24	Reference T49 Wikidata:Q4062940	Алтайский краевой театр драмы имени В. М. Шукшина
+N25	Reference T50 Wikidata:Q1330689	Калина красная
+N26	Reference T53 Wikidata:Q4527472	Мария Васильевна Шукшина
+N27	Reference T55 Wikidata:Q2376215	Сергей Петрович Никоненко
+N28	Reference T56 Wikidata:Q4173799	Егорова Наталья Сергеевна
+N29	Reference T57 Wikidata:Q5971	Республика Алтай
+N32	Reference T64 Wikidata:Q5942	Алтайский край
+N33	Reference T68 Wikidata:Q36180	писатель
+N34	Reference T69 Wikidata:Q33999	актёр
+N35	Reference T71 Wikidata:Q2066131	спортсмен
+N39	Reference T77 Wikidata:Q174044	Александр Ярославич Невский
+N40	Reference T78 Wikidata:Q273613	князь
+N41	Reference T79 Wikidata:Q2526255	кинорежиссёр
+N44	Reference T86 Wikidata:Q3455803	режиссёр
+N49	Reference T102 Wikidata:Q159	Россия
+N50	Reference T104 Wikidata:Q316086	Василий Макарович Шукшин
+N30	Reference T62 Wikidata:NULL	нет данных
+N31	Reference T63 Wikidata:Q55657700	
+N9	Reference T23 Wikidata:Q955464	
+N48	Reference T98 Wikidata:Q649	Москва
+N42	Reference T82 Wikidata:Q6430706	критик
+N36	Reference T74 Wikidata:NULL	нет данных
+N47	Reference T51 Wikidata:Q24935138	
+N46	Reference T90 Wikidata:NULL	нет данных
+N45	Reference T87 Wikidata:NULL	нет данных
+N19	Reference T38 Wikidata:NULL	нет данных
+N43	Reference T84 Wikidata:NULL	нет данных
+N51	Reference T108 Wikidata:NULL	нет данных
+N14	Reference T30 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:Q47541952	
+N38	Reference T76 Wikidata:Q603289	
+N37	Reference T75 Wikidata:NULL	нет данных
+N52	Reference T28 Wikidata:Q6014	Барнаул
+N53	Reference T7 Wikidata:Q6014	Барнаул
+N54	Reference T54 Wikidata:Q502070	Андрей Ильич Мерзликин
+N55	Reference T95 Wikidata:Q316086	Василий Макарович Шукшин
+N56	Reference T11 Wikidata:Q316086	Василий Макарович Шукшин
+N57	Reference T17 Wikidata:Q4527472	Мария Васильевна Шукшина
+N58	Reference T80 Wikidata:Q5971	Республика Алтай
+N59	Reference T96 Wikidata:Q5971	Республика Алтай
+N60	Reference T61 Wikidata:Q5942	Алтайский край
+N61	Reference T81 Wikidata:Q36180	писатель
+N62	Reference T70 Wikidata:Q33999	актёр
+N63	Reference T72 Wikidata:Q33999	актёр
+N64	Reference T73 Wikidata:Q33999	актёр
+N65	Reference T16 Wikidata:Q3455803	режиссёр
+N66	Reference T103 Wikidata:Q159	Россия
+N67	Reference T14 Wikidata:Q159	Россия
+N68	Reference T100 Wikidata:Q316086	Василий Макарович Шукшин
+N69	Reference T101 Wikidata:Q316086	Василий Макарович Шукшин
+N70	Reference T106 Wikidata:Q316086	Василий Макарович Шукшин
+N71	Reference T92 Wikidata:Q316086	Василий Макарович Шукшин
+N72	Reference T93 Wikidata:Q316086	Василий Макарович Шукшин
+N73	Reference T2 Wikidata:Q316086	Василий Макарович Шукшин
+N74	Reference T31 Wikidata:Q649	Москва
+N75	Reference T43 Wikidata:NULL	нет данных

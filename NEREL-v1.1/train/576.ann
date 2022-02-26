@@ -1,0 +1,133 @@
+T2	PROFESSION 60 108	Гендиректор производителя оружия Lockheed Martin
+T3	ORGANIZATION 93 108	Lockheed Martin
+T4	PERSON 109 120	Боб Стивенс
+T5	PERSON 122 133	Bob Stevens
+T6	DATE 166 184	1 января 2013 года
+T7	PROFESSION 237 250	гендиректором
+T8	PROFESSION 267 276	президент
+T9	PERSON 317 334	Кристофер Кубасик
+T10	PERSON 336 355	Christopher Kubasik
+T11	PERSON 358 366	Кубасика
+T12	PERSON 387 401	Мэрилин Хьюсон
+T13	PERSON 403 421	Marillyn A. Hewson
+T14	PROFESSION 459 509	исполнительным вице-президентом Electronic Systems
+T15	ORGANIZATION 525 540	Lockheed Martin
+T16	AGE 543 552	60-летний
+T17	PROFESSION 574 586	гендиректора
+T18	DATE 587 598	с 2004 года
+T19	ORGANIZATION 609 624	Lockheed Martin
+T20	DATE 634 645	в 1996 году
+T21	ORGANIZATION 679 706	Loral Systems Manufacturing
+T22	PERSON 708 715	Стивенс
+T23	DATE 746 757	с 1987 года
+T24	PROFESSION 791 803	гендиректора
+T25	DATE 848 875	за первый квартал 2012 года
+T26	DATE 877 895	За отчетный период
+T27	DATE 926 952	с январем-мартом 2011 года
+T28	MONEY 961 1006	с 10,63 миллиарда до 11.29 миллиарда долларов
+T30	PERCENT 1031 1043	20 процентов
+T31	MONEY 1047 1069	668 миллионов долларов
+T32	ORGANIZATION 1115 1130	Lockheed Martin
+T33	COUNTRY 1146 1149	США
+T34	ORGANIZATION 1182 1190	Пентагон
+T35	DATE 1191 1209	в середине февраля
+T36	DATE 1216 1227	в 2013 году
+T37	NUMBER 1238 1240	13
+T38	PRODUCT 1254 1258	F-35
+T39	MONEY 1350 1372	1,6 миллиарда долларов
+T40	PRODUCT 1410 1414	F-35
+T41	NUMBER 1433 1436	179
+T42	MONEY 1455 1478	15,1 миллиарда долларов
+T1	PROFESSION 279 316	операционный директор Lockheed Martin
+T43	ORGANIZATION 301 316	Lockheed Martin
+T44	PROFESSION 474 490	вице-президентом
+T45	ORGANIZATION 491 509	Electronic Systems
+T46	PERSON 553 560	Стивенс
+T29	ORGANIZATION 1306 1325	оборонное ведомство
+T47	PROFESSION 60 71	Гендиректор
+R1	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+T48	EVENT 152 165	оставить пост
+R2	WORKPLACE Arg1:T2 Arg2:T3	
+R3	WORKS_AS Arg1:T4 Arg2:T2	
+R4	WORKPLACE Arg1:T4 Arg2:T3	
+R5	AGENT Arg1:T4 Arg2:T48	
+R6	POINT_IN_TIME Arg1:T48 Arg2:T6	
+R7	PARTICIPANT_IN Arg1:T3 Arg2:T48	
+R8	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R9	AGE_IS Arg1:T46 Arg2:T16	
+R10	ALTERNATIVE_NAME Arg1:T9 Arg2:T10	
+R11	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R12	WORKS_AS Arg1:T46 Arg2:T17	
+R13	WORKPLACE Arg1:T46 Arg2:T19	
+R14	OWNER_OF Arg1:T19 Arg2:T21	
+R15	WORKPLACE Arg1:T22 Arg2:T21	
+T49	EVENT 782 790	отставке
+R16	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+R17	ALTERNATIVE_NAME Arg1:T34 Arg2:T29	
+T50	EVENT 1228 1234	купить
+R18	PARTICIPANT_IN Arg1:T34 Arg2:T50	
+R19	POINT_IN_TIME Arg1:T50 Arg2:T36	
+R20	HEADQUARTERED_IN Arg1:T34 Arg2:T33	
+R21	WORKS_AS Arg1:T12 Arg2:T14	
+R22	WORKPLACE Arg1:T14 Arg2:T45	
+T51	PROFESSION 0 38	Глава крупнейшего производителя оружия
+T52	EVENT 50 58	отставке
+R23	ALTERNATIVE_NAME Arg1:T52 Arg2:T48	
+R24	ALTERNATIVE_NAME Arg1:T51 Arg2:T2	
+R25	WORKPLACE Arg1:T8 Arg2:T43	
+R26	WORKPLACE Arg1:T1 Arg2:T43	
+T53	PROFESSION 279 300	операционный директор
+R27	WORKS_AS Arg1:T9 Arg2:T7	
+R28	AGENT Arg1:T51 Arg2:T52	
+R29	PARTICIPANT_IN Arg1:T3 Arg2:T48	
+R30	WORKPLACE Arg1:T12 Arg2:T45	
+R31	PART_OF Arg1:T45 Arg2:T15	
+T54	EVENT 673 678	купил
+R32	AGENT Arg1:T19 Arg2:T54	
+R33	PARTICIPANT_IN Arg1:T21 Arg2:T54	
+R34	POINT_IN_TIME Arg1:T54 Arg2:T20	
+R35	AGENT Arg1:T24 Arg2:T49	
+R36	INCOME Arg1:T19 Arg2:T28	
+R37	INCOME Arg1:T19 Arg2:T31	
+R38	HEADQUARTERED_IN Arg1:T32 Arg2:T33	
+R39	INANIMATE_INVOLVED Arg1:T38 Arg2:T50	
+R40	PRODUCES Arg1:T32 Arg2:T38	
+T55	NUMBER 1256 1258	35
+T56	NUMBER 1412 1414	35
+N6	Reference T17 Wikidata:Q1501800	генеральный директор
+N7	Reference T19 Wikidata:Q7240	Lockheed Martin
+N8	Reference T21 Wikidata:Q149947	Midway Games
+N9	Reference T33 Wikidata:Q30	США
+N11	Reference T38 Wikidata:Q29261	F-35
+N14	Reference T45 Wikidata:Q691126	Electronic Data Systems
+N16	Reference T53 Wikidata:Q623279	операционный директор
+N1	Reference T2 Wikidata:NULL	нет данных
+N17	Reference T5 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:Q1255921	
+N12	Reference T1 Wikidata:NULL	нет данных
+N18	Reference T3 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N13	Reference T44 Wikidata:Q42178	вице-президент
+N15	Reference T46 Wikidata:NULL	нет данных
+N10	Reference T34 Wikidata:Q11209	Министерство обороны США
+N19	Reference T47 Wikidata:Q1501800	генеральный директор
+N20	Reference T7 Wikidata:Q1501800	генеральный директор
+N21	Reference T24 Wikidata:Q1501800	генеральный директор
+N22	Reference T15 Wikidata:Q7240	Lockheed Martin
+N23	Reference T32 Wikidata:Q7240	Lockheed Martin
+N24	Reference T43 Wikidata:Q7240	Lockheed Martin
+N25	Reference T3 Wikidata:Q7240	Lockheed Martin
+N26	Reference T40 Wikidata:Q29261	F-35
+N27	Reference T51 Wikidata:NULL	нет данных
+N28	Reference T4 Wikidata:NULL	нет данных
+N29	Reference T15 Wikidata:NULL	нет данных
+N30	Reference T32 Wikidata:NULL	нет данных
+N31	Reference T19 Wikidata:NULL	нет данных
+N32	Reference T43 Wikidata:NULL	нет данных
+N33	Reference T9 Wikidata:NULL	нет данных
+N34	Reference T10 Wikidata:NULL	нет данных
+N35	Reference T12 Wikidata:NULL	нет данных
+N36	Reference T22 Wikidata:NULL	нет данных
+N37	Reference T29 Wikidata:Q11209	Министерство обороны США

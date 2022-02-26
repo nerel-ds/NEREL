@@ -1,0 +1,168 @@
+T1	PERSON 0 7	Мандела
+T2	PERSON 54 59	Обама
+T3	COUNTRY 90 93	ЮАР
+T4	PROFESSION 95 104	Президент
+T5	PERSON 129 145	Нельсона Манделы
+T6	AGE 178 188	94-летнего
+T7	PERSON 198 210	Грасой Машел
+T8	PROFESSION 269 279	президента
+T9	PROFESSION 286 295	Президент
+T10	PERSON 300 311	Барак Обама
+T11	COUNTRY 337 340	ЮАР
+T12	DATE 353 362	в субботу
+T13	CITY 365 378	Йоханнесбурге
+T14	PROFESSION 396 406	президента
+T15	PERSON 411 427	Нельсона Манделы
+T16	ORGANIZATION 437 446	Белый дом
+T17	PERSON 462 467	Обамы
+T18	PERSON 541 553	Грасой Машел
+T19	AGE 604 614	94-летнего
+T20	PERSON 625 632	Мандела
+T21	PERSON 670 675	Обама
+T22	PROFESSION 752 762	президента
+T23	PERSON 789 796	Манделе
+T25	PERSON 1030 1035	Обама
+T26	DATE 1038 1051	В начале июня
+T27	PERSON 1052 1059	Мандела
+T28	CITY 1080 1088	Претории
+T29	DATE 1120 1140	Несколько дней назад
+T30	DATE 1203 1212	В субботу
+T31	COUNTRY 1223 1226	ЮАР
+T32	PERSON 1227 1239	Джейкоб Зума
+T33	PERSON 1253 1260	Мандела
+T34	PERSON 62 67	Обама
+T35	PROFESSION 95 108	Президент США
+T36	COUNTRY 105 108	США
+T37	PROFESSION 189 197	политика
+T38	PROFESSION 269 283	президента ЮАР
+T39	COUNTRY 280 283	ЮАР
+T40	PROFESSION 286 299	Президент США
+T41	COUNTRY 296 299	США
+T42	PROFESSION 396 410	президента ЮАР
+T43	PERSON 498 505	Манделы
+T44	PROFESSION 615 623	политика
+T45	PROFESSION 752 766	президента США
+T46	COUNTRY 763 766	США
+T24	COUNTRY 915 927	Южной Африки
+T47	PERSON 855 862	Манделы
+T48	DISEASE 1101 1118	легочной инфекции
+T49	DISEASE 1110 1118	инфекции
+T50	DISEASE 1091 1118	рецидивом легочной инфекции
+T51	PROFESSION 1213 1226	президент ЮАР
+T52	PROFESSION 1213 1222	президент
+R1	AGE_IS Arg1:T5 Arg2:T6	
+R2	AGE_IS Arg1:T37 Arg2:T6	
+R3	SPOUSE Arg1:T1 Arg2:T7	
+R4	SPOUSE Arg1:T37 Arg2:T7	
+R5	WORKS_AS Arg1:T34 Arg2:T35	
+R6	WORKPLACE Arg1:T34 Arg2:T36	
+T53	FAMILY 122 145	семьей Нельсона Манделы
+R7	WORKS_AS Arg1:T10 Arg2:T40	
+T54	FAMILY 492 505	семьи Манделы
+T55	EVENT 342 352	встретился
+R8	WORKS_AS Arg1:T15 Arg2:T42	
+T56	COUNTRY 407 410	ЮАР
+R9	WORKPLACE Arg1:T15 Arg2:T56	
+R10	WORKS_AS Arg1:T32 Arg2:T51	
+R11	WORKPLACE Arg1:T32 Arg2:T31	
+T57	EVENT 109 119	встретился
+R12	AGENT Arg1:T35 Arg2:T57	
+R13	PARTICIPANT_IN Arg1:T34 Arg2:T57	
+R15	AGENT Arg1:T10 Arg2:T55	
+R16	WORKPLACE Arg1:T10 Arg2:T41	
+R17	POINT_IN_TIME Arg1:T55 Arg2:T12	
+R18	TAKES_PLACE_IN Arg1:T55 Arg2:T13	
+R19	SPOUSE Arg1:T43 Arg2:T18	
+R20	MEDICAL_CONDITION Arg1:T27 Arg2:T50	
+T58	DISEASE 1285 1306	критическом состоянии
+R21	MEDICAL_CONDITION Arg1:T33 Arg2:T58	
+T59	EVENT 1060 1077	попал в госпиталь
+R22	POINT_IN_TIME Arg1:T59 Arg2:T26	
+R23	PARTICIPANT_IN Arg1:T27 Arg2:T59	
+R24	TAKES_PLACE_IN Arg1:T59 Arg2:T28	
+T60	EVENT 80 87	визитом
+R25	AGENT Arg1:T34 Arg2:T60	
+R26	TAKES_PLACE_IN Arg1:T60 Arg2:T3	
+R27	WORKPLACE Arg1:T35 Arg2:T36	
+R28	SUBEVENT_OF Arg1:T57 Arg2:T60	
+R29	WORKPLACE Arg1:T38 Arg2:T39	
+R30	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+T61	EVENT 327 334	визитом
+R31	LOCATED_IN Arg1:T34 Arg2:T3	
+R32	AGENT Arg1:T10 Arg2:T61	
+R33	TAKES_PLACE_IN Arg1:T61 Arg2:T11	
+R34	LOCATED_IN Arg1:T10 Arg2:T11	
+R35	SUBEVENT_OF Arg1:T55 Arg2:T61	
+R36	WORKPLACE Arg1:T42 Arg2:T56	
+R37	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+R38	AGE_IS Arg1:T44 Arg2:T19	
+R40	AGE_IS Arg1:T15 Arg2:T19	
+R39	WORKS_AS Arg1:T43 Arg2:T44	
+T62	DISEASE 645 666	критическом состоянии
+R41	MEDICAL_CONDITION Arg1:T20 Arg2:T62	
+R42	WORKPLACE Arg1:T45 Arg2:T46	
+R43	WORKS_AS Arg1:T21 Arg2:T45	
+R44	WORKPLACE Arg1:T51 Arg2:T31	
+R45	MEMBER_OF Arg1:T5 Arg2:T53	
+R46	PARTICIPANT_IN Arg1:T53 Arg2:T57	
+T63	EVENT 148 169	поговорил по телефону
+R14	AGENT Arg1:T35 Arg2:T63	
+R47	AGENT Arg1:T7 Arg2:T63	
+R48	WORKPLACE Arg1:T40 Arg2:T41	
+R49	HEADQUARTERED_IN Arg1:T16 Arg2:T41	
+R50	MEMBER_OF Arg1:T43 Arg2:T54	
+R51	AGENT Arg1:T54 Arg2:T55	
+T64	EVENT 508 528	связался по телефону
+R52	AGENT Arg1:T10 Arg2:T64	
+R53	AGENT Arg1:T18 Arg2:T64	
+R54	ALTERNATIVE_NAME Arg1:T43 Arg2:T20	
+R55	ALTERNATIVE_NAME Arg1:T20 Arg2:T23	
+T65	LOCATION 921 927	Африки
+R56	LOCATED_IN Arg1:T24 Arg2:T65	
+R57	WORKPLACE Arg1:T47 Arg2:T24	
+R58	HAS_CAUSE Arg1:T59 Arg2:T50	
+N1	Reference T5 Wikidata:Q8023	Нельсон Мандела
+N2	Reference T10 Wikidata:Q76	Барак Обама
+N3	Reference T13 Wikidata:Q34647	Йоханнесбург
+N4	Reference T16 Wikidata:Q35525	Белый дом
+N5	Reference T18 Wikidata:Q239105	Граса Машел
+N6	Reference T22 Wikidata:Q30461	президент
+N7	Reference T27 Wikidata:Q8023	Нельсон Мандела
+N8	Reference T28 Wikidata:Q3926	Претория
+N9	Reference T32 Wikidata:Q57282	Джейкоб Зума
+N10	Reference T35 Wikidata:Q11696	президент США
+N11	Reference T37 Wikidata:Q82955	политик
+N12	Reference T42 Wikidata:Q273884	президент Южно-Африканской республики
+N13	Reference T46 Wikidata:Q30	США
+N14	Reference T24 Wikidata:Q258	ЮАР
+N15	Reference T56 Wikidata:Q258	ЮАР
+N16	Reference T65 Wikidata:Q15	Африка
+N17	Reference T15 Wikidata:Q8023	Нельсон Мандела
+N18	Reference T1 Wikidata:Q8023	Нельсон Мандела
+N19	Reference T17 Wikidata:Q76	Барак Обама
+N20	Reference T34 Wikidata:Q76	Барак Обама
+N21	Reference T25 Wikidata:Q76	Барак Обама
+N22	Reference T21 Wikidata:Q76	Барак Обама
+N23	Reference T2 Wikidata:Q76	Барак Обама
+N24	Reference T7 Wikidata:Q239105	Граса Машел
+N25	Reference T4 Wikidata:Q30461	президент
+N26	Reference T9 Wikidata:Q30461	президент
+N27	Reference T14 Wikidata:Q30461	президент
+N28	Reference T8 Wikidata:Q30461	президент
+N29	Reference T52 Wikidata:Q30461	президент
+N30	Reference T47 Wikidata:Q8023	Нельсон Мандела
+N31	Reference T23 Wikidata:Q8023	Нельсон Мандела
+N32	Reference T33 Wikidata:Q8023	Нельсон Мандела
+N33	Reference T20 Wikidata:Q8023	Нельсон Мандела
+N34	Reference T43 Wikidata:Q8023	Нельсон Мандела
+N35	Reference T40 Wikidata:Q11696	президент США
+N36	Reference T45 Wikidata:Q11696	президент США
+N37	Reference T44 Wikidata:Q82955	политик
+N38	Reference T51 Wikidata:Q273884	президент Южно-Африканской республики
+N39	Reference T38 Wikidata:Q273884	президент Южно-Африканской республики
+N40	Reference T41 Wikidata:Q30	США
+N41	Reference T36 Wikidata:Q30	США
+N42	Reference T11 Wikidata:Q258	ЮАР
+N43	Reference T31 Wikidata:Q258	ЮАР
+N44	Reference T39 Wikidata:Q258	ЮАР
+N45	Reference T3 Wikidata:Q258	ЮАР

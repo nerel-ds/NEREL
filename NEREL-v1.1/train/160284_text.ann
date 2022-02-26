@@ -1,0 +1,197 @@
+T1	NUMBER 16 18	10
+T3	STATE_OR_PROVINCE 63 69	Техасе
+T4	CITY 70 78	Санта-Фе
+T5	NUMBER 95 97	10
+T6	NUMBER 108 109	9
+T7	PROFESSION 123 130	учитель
+T8	CITY 177 185	Санта-Фе
+T9	STATE_OR_PROVINCE 187 192	Техас
+T11	FACILITY 194 214	Santa Fe High School
+T12	AGE 245 255	17-летнего
+T13	PERSON 266 287	Димитриоса Пагуртзиса
+T14	PERSON 289 309	Dimitrios Pagourtzis
+T15	PROFESSION 407 413	шерифа
+T16	DISTRICT 421 427	Харрис
+T17	PERSON 428 441	Эда Гонзалеса
+T18	NUMBER 533 558	порядка восьми или десяти
+T19	ORGANIZATION 686 715	Управление образования округа
+T20	PROFESSION 820 825	судья
+T21	PERSON 843 853	Марк Хенри
+T22	PROFESSION 878 884	офицер
+T23	TIME 1104 1116	около 8 утра
+T24	PROFESSION 1263 1276	Глава полиции
+T25	PERSON 1284 1296	Уолтер Браун
+T26	AGE 1450 1459	17-летний
+T27	CITY 1467 1475	Санта-Фе
+T28	PERSON 1476 1495	Димитриос Пагуртзис
+T29	DATE 1600 1620	В феврале этого года
+T30	CITY 1686 1694	Санта-Фе
+T31	CITY 1827 1835	Санта-Фе
+T32	DISTRICT 1869 1875	Харрис
+T34	PROFESSION 2084 2093	президент
+T35	PERSON 2098 2111	Дональд Трамп
+T36	STATE_OR_PROVINCE 2128 2134	Техасе
+T37	PROFESSION 2236 2245	президент
+T38	FACILITY 2275 2285	Белом доме
+T39	PERSON 2453 2458	Трамп
+T40	EVENT 27 34	погибли
+T41	EVENT 44 52	стрельбы
+T42	EVENT 131 138	погибли
+T43	EVENT 145 153	стрельбы
+T10	ORGANIZATION 218 225	Полиция
+T45	EVENT 226 243	задержала стрелка
+T46	EVENT 312 348	Задержан также ещё один ученик школы
+T47	NUMBER 331 335	один
+T48	PROFESSION 407 427	шерифа округа Харрис
+T50	EVENT 526 531	убито
+T51	ORGANIZATION 625 632	полиция
+T52	PROFESSION 820 842	судья округа Галвестон
+T53	PROFESSION 878 892	офицер полиции
+T54	PROFESSION 936 942	шерифа
+T56	PROFESSION 1855 1861	шерифа
+T57	PROFESSION 1855 1875	шерифа округа Харрис
+T58	PROFESSION 1889 1895	шерифа
+T59	PROFESSION 2084 2097	президент США
+T60	DISTRICT 833 842	Галвестон
+T61	ORGANIZATION 885 892	полиции
+T62	ORGANIZATION 988 995	Полиция
+T63	EVENT 1002 1012	арестовала
+T64	NUMBER 1017 1023	одного
+T65	CRIME 1049 1072	причастности к стрельбе
+T66	EVENT 1083 1095	открыл огонь
+T67	ORGANIZATION 1269 1276	полиции
+T68	ORGANIZATION 1510 1517	полиция
+T69	EVENT 1518 1527	задержала
+T70	ORGANIZATION 1623 1630	полицию
+T55	PRODUCT 1880 1888	Tвиттере
+T33	PERSON 1903 1916	Эда Гонсалеса
+T71	DATE 1917 1926	в пятницу
+T72	TIME 1917 1932	в пятницу утром
+T73	ORGANIZATION 1990 1997	полиции
+T74	COUNTRY 2094 2097	США
+T75	PRODUCT 2190 2198	Твиттере
+T76	CITY 194 202	Santa Fe
+R1	LOCATED_IN Arg1:T11 Arg2:T76	
+R2	ALTERNATIVE_NAME Arg1:T8 Arg2:T76	
+R3	LOCATED_IN Arg1:T8 Arg2:T9	
+R4	WORKPLACE Arg1:T48 Arg2:T16	
+R5	WORKS_AS Arg1:T17 Arg2:T48	
+R6	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R7	AGE_IS Arg1:T13 Arg2:T12	
+R8	WORKPLACE Arg1:T52 Arg2:T60	
+R9	WORKPLACE Arg1:T53 Arg2:T61	
+R10	WORKS_AS Arg1:T21 Arg2:T52	
+R11	WORKPLACE Arg1:T21 Arg2:T60	
+R12	AGENT Arg1:T62 Arg2:T63	
+R13	HAS_CAUSE Arg1:T63 Arg2:T65	
+R14	PLACE_RESIDES_IN Arg1:T28 Arg2:T27	
+R15	AGE_IS Arg1:T28 Arg2:T26	
+R16	WORKPLACE Arg1:T59 Arg2:T74	
+R17	WORKS_AS Arg1:T35 Arg2:T59	
+R18	WORKPLACE Arg1:T35 Arg2:T74	
+T44	EVENT 2115 2123	Стрельба
+T77	PROFESSION 2288 2326	сотрудниками пенитенциарных учреждений
+R19	WORKS_AS Arg1:T35 Arg2:T37	
+R20	ALTERNATIVE_NAME Arg1:T35 Arg2:T39	
+R21	HEADQUARTERED_IN Arg1:T19 Arg2:T16	
+R22	WORKPLACE Arg1:T24 Arg2:T67	
+R23	WORKS_AS Arg1:T25 Arg2:T24	
+R24	WORKPLACE Arg1:T57 Arg2:T32	
+T2	PROFESSION 1889 1902	шерифа округа
+R25	WORKS_AS Arg1:T33 Arg2:T2	
+T78	EVENT 2265 2272	встречи
+R26	PARTICIPANT_IN Arg1:T37 Arg2:T78	
+R27	TAKES_PLACE_IN Arg1:T78 Arg2:T38	
+R28	PARTICIPANT_IN Arg1:T77 Arg2:T78	
+T79	EVENT 44 60	стрельбы в школе
+R29	TAKES_PLACE_IN Arg1:T79 Arg2:T3	
+T80	EVENT 16 34	10 человек погибли
+R30	SUBEVENT_OF Arg1:T80 Arg2:T79	
+R31	TAKES_PLACE_IN Arg1:T43 Arg2:T11	
+T81	EVENT 108 138	9 школьников и учитель погибли
+R32	SUBEVENT_OF Arg1:T81 Arg2:T43	
+R33	PARTICIPANT_IN Arg1:T13 Arg2:T45	
+R34	AGENT Arg1:T10 Arg2:T45	
+R35	PARTICIPANT_IN Arg1:T13 Arg2:T43	
+T82	EVENT 226 235	задержала
+T83	EVENT 312 320	Задержан
+T84	EVENT 525 566	(убито) порядка восьми или десяти человек
+R36	ALTERNATIVE_NAME Arg1:T81 Arg2:T84	
+R37	START_TIME Arg1:T66 Arg2:T23	
+R38	ALTERNATIVE_NAME Arg1:T43 Arg2:T66	
+R39	WORKPLACE Arg1:T33 Arg2:T32	
+T85	EVENT 1518 1546	задержала еще одного ученика
+R40	AGENT Arg1:T68 Arg2:T85	
+T86	EVENT 1358 1397	найдены самодельные взрывные устройства
+R41	PARTICIPANT_IN Arg1:T67 Arg2:T86	
+R42	TAKES_PLACE_IN Arg1:T86 Arg2:T11	
+R43	TAKES_PLACE_IN Arg1:T80 Arg2:T3	
+R44	HAS_CAUSE Arg1:T45 Arg2:T43	
+R45	HAS_CAUSE Arg1:T46 Arg2:T43	
+T49	EVENT 1229 1241	открыл огонь
+R46	ALTERNATIVE_NAME Arg1:T66 Arg2:T49	
+R47	AGENT Arg1:T28 Arg2:T49	
+R48	HAS_CAUSE Arg1:T85 Arg2:T49	
+T87	EVENT 1763 1789	Расследование происшествия
+T88	ORGANIZATION 1796 1835	полицейский департамент города Санта-Фе
+R49	HEADQUARTERED_IN Arg1:T88 Arg2:T31	
+R50	AGENT Arg1:T88 Arg2:T87	
+R51	AGENT Arg1:T57 Arg2:T87	
+R52	HAS_CAUSE Arg1:T87 Arg2:T49	
+R53	TAKES_PLACE_IN Arg1:T44 Arg2:T36	
+N1	Reference T7 Wikidata:Q37226	учитель
+N3	Reference T16 Wikidata:Q26676	Харрис
+N6	Reference T20 Wikidata:Q16533	судья
+N8	Reference T22 Wikidata:Q189290	офицер
+N11	Reference T35 Wikidata:Q22686	Дональд Трамп
+N12	Reference T36 Wikidata:Q1439	Техас
+N13	Reference T37 Wikidata:Q30461	президент
+N14	Reference T38 Wikidata:Q35525	Белый дом
+N17	Reference T58 Wikidata:Q578478	шериф
+N18	Reference T59 Wikidata:Q11696	президент США
+N19	Reference T60 Wikidata:Q135744	Галвестон
+N20	Reference T62 Wikidata:Q35535	полиция
+N21	Reference T55 Wikidata:Q918	Твиттер
+N23	Reference T74 Wikidata:Q30	США
+N24	Reference T75 Wikidata:Q918	Твиттер
+N25	Reference T76 Wikidata:Q38555	Санта-Фе
+N2	Reference T11 Wikidata:NULL	нет данных
+N28	Reference T13 Wikidata:Q62911864	
+N15	Reference T48 Wikidata:NULL	
+N4	Reference T17 Wikidata:Q106638284	
+N5	Reference T19 Wikidata:NULL	нет данных
+N16	Reference T52 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:NULL	нет данных
+N29	Reference T53 Wikidata:Q384593	
+N9	Reference T24 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:NULL	нет данных
+N27	Reference T88 Wikidata:NULL	нет данных
+N26	Reference T2 Wikidata:NULL	нет данных
+N22	Reference T33 Wikidata:Q106638284	
+N30	Reference T77 Wikidata:Q311396	тюремный надзиратель
+N31	Reference T32 Wikidata:Q26676	Харрис
+N32	Reference T39 Wikidata:Q22686	Дональд Трамп
+N33	Reference T9 Wikidata:Q1439	Техас
+N34	Reference T3 Wikidata:Q1439	Техас
+N35	Reference T34 Wikidata:Q30461	президент
+N36	Reference T54 Wikidata:Q578478	шериф
+N37	Reference T15 Wikidata:Q578478	шериф
+N38	Reference T56 Wikidata:Q578478	шериф
+N39	Reference T10 Wikidata:Q35535	полиция
+N40	Reference T73 Wikidata:Q35535	полиция
+N41	Reference T51 Wikidata:Q35535	полиция
+N42	Reference T70 Wikidata:Q35535	полиция
+N43	Reference T67 Wikidata:Q35535	полиция
+N44	Reference T61 Wikidata:Q35535	полиция
+N45	Reference T68 Wikidata:Q35535	полиция
+N46	Reference T27 Wikidata:Q38555	Санта-Фе
+N47	Reference T8 Wikidata:Q38555	Санта-Фе
+N48	Reference T31 Wikidata:Q38555	Санта-Фе
+N49	Reference T4 Wikidata:Q38555	Санта-Фе
+N50	Reference T30 Wikidata:Q38555	Санта-Фе
+N51	Reference T28 Wikidata:Q62911864	
+N52	Reference T14 Wikidata:Q62911864	
+N53	Reference T57 Wikidata:NULL	
+T89	EVENT 2335 2344	нападение
+R54	ABBREVIATION Arg1:T78 Arg2:T89	
+R55	ALTERNATIVE_NAME Arg1:T44 Arg2:T89	

@@ -1,0 +1,155 @@
+T1	PROFESSION 0 7	Сенатор
+T2	PERSON 8 23	Вадим Тюльпанов
+T3	PERSON 38 53	Вадим Тюльпанов
+T4	CITY 56 72	Санкт-Петербурге
+T6	ORGANIZATION 92 128	городского Законодательного собрания
+T10	COUNTRY 164 170	России
+T11	PERSON 171 186	Вадим Тюльпанов
+T14	AGE 229 238	52-летний
+T15	PERSON 239 256	Вадим Альбертович
+T19	CITY 503 513	Петербурга
+T20	PERSON 514 530	Вячеслав Макаров
+T21	DATE 592 607	8 мая 1964 года
+T22	CITY 610 620	Ленинграде
+T23	PERSON 621 636	Вадим Тюльпанов
+T27	COUNTRY 687 707	Российской Федерации
+T37	CITY 923 939	Санкт-Петербурга
+T45	ORDINAL 1066 1072	пятого
+R1	WORKS_AS Arg1:T2 Arg2:T1
+T5	PROFESSION 86 128	глава городского Законодательного собрания
+T7	DATE 130 134	2003
+T48	DATE 135 139	2011
+T38	DATE 941 945	2003
+T49	DATE 946 950	2011
+T47	DATE 1081 1085	2011
+T50	DATE 1086 1090	2014
+T12	TIME 189 227	Вечером во вторник, 4 апреля 2017 года
+T13	DISTRICT 301 318	Кировского района
+T16	ORGANIZATION 477 513	Законодательного собрания Петербурга
+T17	PROFESSION 470 513	спикер Законодательного собрания Петербурга
+T8	ORGANIZATION 147 170	Совета Федерации России
+T9	PROFESSION 142 170	член Совета Федерации России
+T18	ORGANIZATION 665 707	Федерального Собрания Российской Федерации
+T24	ORGANIZATION 648 707	Совета Федерации Федерального Собрания Российской Федерации
+T25	PROFESSION 641 707	членом Совета Федерации Федерального Собрания Российской Федерации
+T26	STATE_OR_PROVINCE 757 785	Ненецкого автономного округа
+T29	ORGANIZATION 711 785	исполнительного органа государственной власти Ненецкого автономного округа
+T30	ORGANIZATION 865 881	Совета Федерации
+T31	ORGANIZATION 801 881	Комитета по Регламенту и организации парламентской деятельности Совета Федерации
+T32	PROFESSION 787 881	председателем Комитета по Регламенту и организации парламентской деятельности Совета Федерации
+T33	ORGANIZATION 897 939	Законодательного Собрания Санкт-Петербурга
+T34	PROFESSION 883 939	председателем Законодательного Собрания Санкт-Петербурга
+T35	CITY 1049 1065	Санкт-Петербурга
+T36	ORGANIZATION 1023 1079	Законодательного Собрания Санкт-Петербурга пятого созыва
+T39	COUNTRY 999 1019	Российской Федерации
+T40	ORGANIZATION 977 1019	Федерального Собрания Российской Федерации
+T41	ORGANIZATION 960 1019	Совета Федерации Федерального Собрания Российской Федерации
+T42	PROFESSION 953 1019	членом Совета Федерации Федерального Собрания Российской Федерации
+R2	WORKS_AS Arg1:T11 Arg2:T9	
+R3	WORKS_AS Arg1:T23 Arg2:T25	
+R4	WORKS_AS Arg1:T23 Arg2:T32	
+R5	WORKS_AS Arg1:T23 Arg2:T34	
+R6	WORKS_AS Arg1:T23 Arg2:T42	
+R7	PLACE_OF_DEATH Arg1:T11 Arg2:T4	
+R8	WORKS_AS Arg1:T11 Arg2:T5	
+R9	WORKPLACE Arg1:T11 Arg2:T6	
+T43	DATE 197 227	во вторник, 4 апреля 2017 года
+R10	AGE_IS Arg1:T15 Arg2:T14	
+T44	EVENT 266 279	поскользнулся
+R11	TAKES_PLACE_IN Arg1:T44 Arg2:T13	
+R12	PARTICIPANT_IN Arg1:T15 Arg2:T44	
+R13	POINT_IN_TIME Arg1:T44 Arg2:T43	
+R14	WORKPLACE Arg1:T20 Arg2:T16	
+R15	WORKS_AS Arg1:T20 Arg2:T17	
+R16	DATE_OF_BIRTH Arg1:T23 Arg2:T21	
+R17	PLACE_OF_BIRTH Arg1:T23 Arg2:T22	
+R18	WORKPLACE Arg1:T23 Arg2:T24	
+T46	ORGANIZATION 147 163	Совета Федерации
+T51	ORGANIZATION 477 502	Законодательного собрания
+T52	ORGANIZATION 648 664	Совета Федерации
+T53	EVENT 24 36	погиб в бане
+R19	PARTICIPANT_IN Arg1:T2 Arg2:T53	
+T54	EVENT 73 78	погиб
+R20	TAKES_PLACE_IN Arg1:T54 Arg2:T4	
+R21	PARTICIPANT_IN Arg1:T11 Arg2:T54	
+R22	POINT_IN_TIME Arg1:T54 Arg2:T43	
+R23	WORKPLACE Arg1:T5 Arg2:T6	
+R24	WORKPLACE Arg1:T9 Arg2:T8	
+R25	HEADQUARTERED_IN Arg1:T8 Arg2:T10	
+R26	HAS_CAUSE Arg1:T54 Arg2:T44	
+R27	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+R28	WORKPLACE Arg1:T17 Arg2:T16	
+R29	HEADQUARTERED_IN Arg1:T16 Arg2:T19	
+T55	PROFESSION 470 476	спикер
+R30	ALTERNATIVE_NAME Arg1:T15 Arg2:T23	
+R31	PART_OF Arg1:T24 Arg2:T18	
+R32	HEADQUARTERED_IN Arg1:T18 Arg2:T27	
+R33	HEADQUARTERED_IN Arg1:T29 Arg2:T26	
+R34	WORKPLACE Arg1:T32 Arg2:T31	
+R35	PART_OF Arg1:T31 Arg2:T30	
+R36	WORKPLACE Arg1:T34 Arg2:T33	
+R37	HEADQUARTERED_IN Arg1:T33 Arg2:T37	
+R38	WORKPLACE Arg1:T42 Arg2:T41	
+R39	PART_OF Arg1:T41 Arg2:T40	
+R40	HEADQUARTERED_IN Arg1:T40 Arg2:T39	
+T56	ORGANIZATION 1023 1065	Законодательного Собрания Санкт-Петербурга
+R41	HEADQUARTERED_IN Arg1:T36 Arg2:T35	
+R42	ALTERNATIVE_NAME Arg1:T9 Arg2:T25	
+R43	ALTERNATIVE_NAME Arg1:T4 Arg2:T19	
+R44	ALTERNATIVE_NAME Arg1:T19 Arg2:T22	
+R45	LOCATED_IN Arg1:T13 Arg2:T4	
+T28	ORGANIZATION 897 922	Законодательного Собрания
+T57	ORGANIZATION 1023 1048	Законодательного Собрания
+T58	ORGANIZATION 960 976	Совета Федерации
+N2	Reference T3 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N3	Reference T6 Wikidata:Q2390550	Законодательное собрание Санкт-Петербурга
+N4	Reference T10 Wikidata:Q159	Россия
+N5	Reference T20 Wikidata:Q4275360	Макаров, Вячеслав Серафимович
+N6	Reference T27 Wikidata:Q159	Россия
+N7	Reference T37 Wikidata:Q656	Санкт-Петербург
+N9	Reference T13 Wikidata:Q219745	Кировский район
+N10	Reference T16 Wikidata:Q2390550	Законодательное собрание Санкт-Петербурга
+N12	Reference T8 Wikidata:Q186473	Совет Федерации
+N13	Reference T18 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N14	Reference T24 Wikidata:Q186473	Совет Федерации
+N15	Reference T26 Wikidata:Q2164	Ненецкий автономный округ
+N23	Reference T46 Wikidata:Q186473	Совет Федерации
+N24	Reference T51 Wikidata:Q11204	орган законодательной власти
+N26	Reference T56 Wikidata:Q2390550	Законодательное собрание Санкт-Петербурга
+N8	Reference T5 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:Q15686806	
+N25	Reference T55 Wikidata:Q1758037	спикер
+N11	Reference T17 Wikidata:NULL	нет данных
+N17	Reference T29 Wikidata:NULL	нет данных
+N20	Reference T34 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T32 Wikidata:NULL	нет данных
+N21	Reference T36 Wikidata:NULL	нет данных
+N22	Reference T42 Wikidata:NULL	нет данных
+N16	Reference T2 Wikidata:Q186473	Совет Федерации
+N27	Reference T4 Wikidata:Q11204	
+N28	Reference T15 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N29	Reference T11 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N30	Reference T2 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N31	Reference T23 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N32	Reference T39 Wikidata:Q159	Россия
+N33	Reference T35 Wikidata:Q656	Санкт-Петербург
+N34	Reference T19 Wikidata:Q656	Санкт-Петербург
+N35	Reference T4 Wikidata:Q656	Санкт-Петербург
+N36	Reference T22 Wikidata:Q656	Санкт-Петербург
+N37	Reference T40 Wikidata:Q457869	Федеральное Собрание Российской Федерации
+N38	Reference T41 Wikidata:Q186473	Совет Федерации
+N39	Reference T52 Wikidata:Q186473	Совет Федерации
+N40	Reference T30 Wikidata:Q186473	Совет Федерации
+N41	Reference T33 Wikidata:Q2390550	Законодательное собрание Санкт-Петербурга
+N42	Reference T25 Wikidata:NULL	нет данных
+N43	Reference T9 Wikidata:NULL	нет данных
+N44	Reference T3 Wikidata:Q186473	Совет Федерации
+N45	Reference T15 Wikidata:Q186473	Совет Федерации
+N46	Reference T11 Wikidata:Q186473	Совет Федерации
+N47	Reference T23 Wikidata:Q186473	Совет Федерации
+N48	Reference T35 Wikidata:Q11204	
+N49	Reference T37 Wikidata:Q11204	
+N50	Reference T19 Wikidata:Q11204	
+N51	Reference T22 Wikidata:Q11204	
+T59	EVENT 0 29	Сенатор Вадим Тюльпанов погиб

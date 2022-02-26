@@ -1,0 +1,106 @@
+T1	ORGANIZATION 0 15	Полиция Бельгии
+T2	COUNTRY 8 15	Бельгии
+T3	NUMBER 27 31	двух
+T4	DATE 146 155	в субботу
+T5	ORGANIZATION 170 193	федеральная прокуратура
+T6	COUNTRY 194 201	Бельгии
+T7	COUNTRY 203 214	бельгийская
+T8	ORGANIZATION 203 222	бельгийская полиция
+T9	NUMBER 234 238	двух
+T10	PERSON 311 322	Нуреддин Х.
+T11	PERSON 334 342	Хамза Х.
+T12	DATE 359 368	в пятницу
+T13	CITY 405 410	Монсе
+T14	CITY 413 418	Льеже
+T15	COUNTRY 546 553	Бельгии
+T17	EVENT 805 824	мартовских терактов
+T18	CITY 827 835	Брюсселе
+T19	ORGANIZATION 879 900	Исламское государство
+T20	EVENT 917 925	терактов
+T21	COUNTRY 929 936	Франции
+T22	COUNTRY 939 947	Германии
+T23	COUNTRY 951 958	Бельгии
+T24	COUNTRY 1015 1026	бельгийской
+T25	ORGANIZATION 1061 1070	Евросоюза
+T26	ORGANIZATION 1073 1077	НАТО
+R3	SIBLING Arg1:T11 Arg2:T10
+R4	TAKES_PLACE_IN Arg1:T17 Arg2:T18
+R5	TAKES_PLACE_IN Arg1:T20 Arg2:T21
+R6	TAKES_PLACE_IN Arg1:T20 Arg2:T22
+T16	CITY 1015 1034	бельгийской столице
+R1	HEADQUARTERED_IN Arg1:T25 Arg2:T16	
+R2	HEADQUARTERED_IN Arg1:T26 Arg2:T16	
+T29	PROFESSION 676 682	судьей
+T31	ORGANIZATION 170 201	федеральная прокуратура Бельгии
+T32	EVENT 16 26	арестовала
+T33	EVENT 223 233	арестовала
+T35	DATE 805 815	мартовских
+R7	AGENT Arg1:T1 Arg2:T32	
+R9	PARTICIPANT_IN Arg1:T10 Arg2:T33	
+R10	PARTICIPANT_IN Arg1:T11 Arg2:T33	
+R8	AGENT Arg1:T8 Arg2:T33	
+R11	ORGANIZES Arg1:T19 Arg2:T17	
+T27	PENALTY 348 358	арестованы
+R12	PARTICIPANT_IN Arg1:T11 Arg2:T27	
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T27	
+T28	EVENT 382 389	обысков
+R14	TAKES_PLACE_IN Arg1:T28 Arg2:T13	
+R15	TAKES_PLACE_IN Arg1:T28 Arg2:T14	
+T30	EVENT 588 594	обыске
+R16	POINT_IN_TIME Arg1:T27 Arg2:T12	
+R17	POINT_IN_TIME Arg1:T17 Arg2:T35	
+T34	FAMILY 109 118	братьев Х
+T36	CRIME 56 74	подготовке теракта
+T37	CRIME 263 281	подготовке теракта
+T38	FAMILY 649 657	братья Х
+T39	CRIME 503 531	планировали совершить теракт
+R18	HAS_CAUSE Arg1:T32 Arg2:T36	
+R19	PARTICIPANT_IN Arg1:T34 Arg2:T32	
+R20	HEADQUARTERED_IN Arg1:T31 Arg2:T6	
+R21	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R22	HAS_CAUSE Arg1:T33 Arg2:T37	
+R23	MEMBER_OF Arg1:T10 Arg2:T34	
+R24	MEMBER_OF Arg1:T11 Arg2:T34	
+R25	HAS_CAUSE Arg1:T27 Arg2:T28	
+R26	PENALIZED_AS Arg1:T10 Arg2:T27	
+R27	CONVICTED_OF Arg1:T11 Arg2:T39	
+R28	CONVICTED_OF Arg1:T10 Arg2:T39	
+R29	TAKES_PLACE_IN Arg1:T39 Arg2:T15	
+T40	PENALTY 741 763	содержания под стражей
+R30	PENALIZED_AS Arg1:T38 Arg2:T40	
+R31	LOCATED_IN Arg1:T16 Arg2:T24	
+R32	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R33	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R34	HEADQUARTERED_IN Arg1:T1 Arg2:T2	
+T41	ORGANIZATION 0 7	Полиция
+T42	ORGANIZATION 215 222	полиция
+R35	MEMBER_OF Arg1:T24 Arg2:T26	
+R36	ALTERNATIVE_NAME Arg1:T18 Arg2:T16	
+R37	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+T43	RELIGION 879 888	Исламское
+R38	RELIGION_OF Arg1:T19 Arg2:T43	
+N1	Reference T5 Wikidata:Q1092499	прокуратура
+N2	Reference T6 Wikidata:Q31	Бельгия
+N6	Reference T13 Wikidata:Q83407	Монс
+N7	Reference T14 Wikidata:Q3992	Льеж
+N8	Reference T18 Wikidata:Q239	Брюссель
+N9	Reference T19 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N10	Reference T21 Wikidata:Q142	Франция
+N11	Reference T22 Wikidata:Q183	Германия
+N13	Reference T25 Wikidata:Q458	Европейский союз
+N14	Reference T26 Wikidata:Q7184	Организация Североатлантического договора
+N15	Reference T29 Wikidata:Q16533	судья
+N17	Reference T42 Wikidata:Q35535	полиция
+N4	Reference T10 Wikidata:NULL	
+N5	Reference T11 Wikidata:NULL	
+N12	Reference T24 Wikidata:Q31	Бельгия
+N18	Reference T43 Wikidata:Q432	ислам
+N3	Reference T8 Wikidata:Q2776042	
+N16	Reference T31 Wikidata:Q2928497	
+N19	Reference T7 Wikidata:Q31	Бельгия
+N20	Reference T16 Wikidata:Q239	Брюссель
+N21	Reference T41 Wikidata:Q35535	полиция
+N22	Reference T2 Wikidata:Q31	Бельгия
+N23	Reference T15 Wikidata:Q31	Бельгия
+N24	Reference T23 Wikidata:Q31	Бельгия
+N25	Reference T1 Wikidata:Q2776042	

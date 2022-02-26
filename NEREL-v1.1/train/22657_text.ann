@@ -1,0 +1,245 @@
+T1	PERSON 0 5	Обама
+T2	PROFESSION 15 23	сенатора
+T3	PROFESSION 38 50	госсекретаря
+T4	PERSON 55 65	Джон Керри
+T5	PROFESSION 67 76	Президент
+T6	PERSON 81 92	Барак Обама
+T7	PROFESSION 135 143	сенатора
+T8	PERSON 154 165	Джона Керри
+T9	PROFESSION 174 200	государственного секретаря
+T10	PERSON 303 308	Керри
+T11	ORGANIZATION 321 363	комитет Сената по международным отношениям
+T12	ORGANIZATION 329 335	Сената
+T13	PERSON 383 388	Керри
+T14	ORGANIZATION 397 402	Сенат
+T15	PROFESSION 423 435	госсекретаря
+T16	DATE 498 520	в начале будущего года
+T17	EVENT 534 543	церемонии
+T18	ORGANIZATION 546 556	Белом доме
+T19	PERSON 558 563	Обама
+T20	PERSON 571 576	Керри
+T21	COUNTRY 632 644	американскую
+T22	DATE 656 674	в предстоящие годы
+T23	PROFESSION 680 689	Президент
+T24	PERSON 727 732	Керри
+T25	ORGANIZATION 757 764	Сенатом
+T26	PERSON 798 803	Керри
+T27	PROFESSION 993 1002	президент
+T28	PERSON 1005 1010	Керри
+T29	PERSON 1061 1066	Керри
+T30	ORGANIZATION 1086 1092	Сенате
+T31	PROFESSION 1139 1149	президента
+T32	DATE 1150 1161	в 2004 году
+T33	DATE 1177 1193	с прошлой недели
+T35	PERSON 1225 1236	Сьюзан Райс
+T36	PROFESSION 1247 1257	президента
+T37	PERSON 1287 1291	Райс
+T38	ORGANIZATION 1347 1356	Конгрессе
+T39	COUNTRY 1439 1448	ливийском
+T40	CITY 1456 1463	Бенгази
+T41	PERSON 1466 1471	Обама
+T42	PERSON 1498 1502	Райс
+T44	PROFESSION 1632 1641	президент
+T45	PROFESSION 1662 1674	госсекретаря
+T46	AGE 1677 1686	69-летний
+T47	PERSON 1687 1692	Керри
+T48	PROFESSION 1797 1807	президента
+T49	PERSON 1820 1833	Хамида Карзая
+T50	ORDINAL 1849 1855	второй
+T51	DATE 1868 1879	в 2009 году
+T52	PROFESSION 1924 1935	президентом
+T53	PERSON 1942 1956	Башаром Асадом
+T54	PERSON 2026 2031	Керри
+T55	COUNTRY 2106 2109	США
+T56	COUNTRY 2112 2121	Вьетнамом
+T57	PROFESSION 2124 2131	Сенатор
+T58	EVENT 2253 2272	национальном съезде
+T59	DATE 2307 2327	в августе этого года
+T60	PERSON 2341 2357	Усаму бин Ладена
+T61	DATE 2392 2409	четыре года назад
+T62	PERSON 2448 2453	Керри
+T63	COUNTRY 2476 2484	Вьетнаме
+T64	COUNTRY 2586 2589	США
+T65	PERSON 24 29	Керри
+T66	PROFESSION 38 54	госсекретаря США
+T67	COUNTRY 51 54	США
+T68	PROFESSION 67 80	Президент США
+T69	COUNTRY 77 80	США
+T70	DATE 93 102	в пятницу
+T71	IDEOLOGY 144 153	демократа
+T73	PERSON 436 451	Хиллари Клинтон
+T74	EVENT 1014 1023	церемонии
+T75	STATE_OR_PROVINCE 1099 1110	Массачусетс
+T76	PROFESSION 1201 1224	представитель США в ООН
+T77	COUNTRY 1215 1218	США
+T78	ORGANIZATION 1221 1224	ООН
+T79	PERSON 1258 1263	Обаму
+T80	IDEOLOGY 1330 1344	республиканцев
+T81	COUNTRY 1412 1424	американское
+T82	ORGANIZATION 1412 1436	американское консульство
+T43	PROFESSION 1578 1586	сенаторы
+T83	IDEOLOGY 1562 1577	республиканские
+T84	PERSON 1760 1765	Обамы
+T85	PROFESSION 1797 1819	президента Афганистана
+T86	COUNTRY 1808 1819	Афганистана
+T87	EVENT 1860 1867	выборов
+T88	PROFESSION 1924 1941	президентом Сирии
+T89	COUNTRY 1936 1941	Сирии
+T90	IDEOLOGY 1999 2008	оппозиции
+T91	PERSON 2185 2190	Обамы
+T92	PROFESSION 2156 2190	представителей администрации Обамы
+T93	ORGANIZATION 2171 2190	администрации Обамы
+T94	ORGANIZATION 1746 1765	администрации Обамы
+T95	ORGANIZATION 2273 2295	Демократической партии
+T96	IDEOLOGY 2273 2288	Демократической
+T97	EVENT 2467 2484	войне во Вьетнаме
+T98	EVENT 2467 2472	войне
+T99	EVENT 2562 2567	войну
+R1	ALTERNATIVE_NAME Arg1:T65 Arg2:T4	
+R2	WORKS_AS Arg1:T65 Arg2:T2	
+R3	WORKPLACE Arg1:T66 Arg2:T67	
+R4	WORKS_AS Arg1:T65 Arg2:T66	
+R5	SUBORDINATE_OF Arg1:T65 Arg2:T1	
+R6	WORKS_AS Arg1:T6 Arg2:T68	
+R7	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+T100	EVENT 114 134	выдвинул кандидатуру
+T101	EVENT 6 14	назначил
+R8	AGENT Arg1:T1 Arg2:T101	
+R9	PARTICIPANT_IN Arg1:T65 Arg2:T101	
+R10	PARTICIPANT_IN Arg1:T66 Arg2:T101	
+R11	POINT_IN_TIME Arg1:T100 Arg2:T70	
+R12	WORKPLACE Arg1:T68 Arg2:T69	
+R13	AGENT Arg1:T6 Arg2:T100	
+R14	WORKS_AS Arg1:T8 Arg2:T7	
+R15	IDEOLOGY_OF Arg1:T8 Arg2:T71	
+R16	PARTICIPANT_IN Arg1:T8 Arg2:T100	
+R17	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R18	WORKS_AS Arg1:T8 Arg2:T9	
+R19	PARTICIPANT_IN Arg1:T9 Arg2:T100	
+R20	ALTERNATIVE_NAME Arg1:T8 Arg2:T10	
+R21	PART_OF Arg1:T11 Arg2:T12	
+R22	WORKPLACE Arg1:T10 Arg2:T11	
+R23	WORKS_AS Arg1:T73 Arg2:T15	
+R24	PARTICIPANT_IN Arg1:T19 Arg2:T17	
+R25	TAKES_PLACE_IN Arg1:T17 Arg2:T18	
+R26	ALTERNATIVE_NAME Arg1:T69 Arg2:T21	
+R27	WORKS_AS Arg1:T19 Arg2:T23	
+R28	ORIGINS_FROM Arg1:T29 Arg2:T75	
+R29	MEMBER_OF Arg1:T29 Arg2:T30	
+R30	WORKPLACE Arg1:T76 Arg2:T78	
+R31	ORIGINS_FROM Arg1:T76 Arg2:T77	
+R32	WORKS_AS Arg1:T35 Arg2:T76	
+R33	WORKPLACE Arg1:T35 Arg2:T78	
+R34	WORKS_AS Arg1:T79 Arg2:T36	
+R35	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R36	OWNER_OF Arg1:T81 Arg2:T82	
+R37	HEADQUARTERED_IN Arg1:T82 Arg2:T40	
+R38	LOCATED_IN Arg1:T40 Arg2:T39	
+R39	KNOWS Arg1:T41 Arg2:T42	
+R40	IDEOLOGY_OF Arg1:T43 Arg2:T83	
+R41	ALTERNATIVE_NAME Arg1:T80 Arg2:T83	
+R42	AGE_IS Arg1:T47 Arg2:T46	
+R43	PRODUCES Arg1:T84 Arg2:T94	
+R44	WORKPLACE Arg1:T85 Arg2:T86	
+R45	WORKS_AS Arg1:T49 Arg2:T85	
+T34	EVENT 1849 1867	второй тур выборов
+R46	SUBEVENT_OF Arg1:T34 Arg2:T87	
+R47	POINT_IN_TIME Arg1:T34 Arg2:T51	
+R48	PARTICIPANT_IN Arg1:T49 Arg2:T34	
+R49	WORKPLACE Arg1:T88 Arg2:T89	
+R50	WORKS_AS Arg1:T53 Arg2:T88	
+T72	EVENT 2059 2099	восстановлении дипломатических отношений
+R51	PARTICIPANT_IN Arg1:T54 Arg2:T72	
+R52	PARTICIPANT_IN Arg1:T55 Arg2:T72	
+R53	PARTICIPANT_IN Arg1:T56 Arg2:T72	
+T102	EVENT 1911 1921	переговоры
+R54	PARTICIPANT_IN Arg1:T47 Arg2:T102	
+R55	PARTICIPANT_IN Arg1:T53 Arg2:T102	
+R58	MEMBER_OF Arg1:T92 Arg2:T93	
+R59	PRODUCES Arg1:T91 Arg2:T93	
+R60	ORGANIZES Arg1:T95 Arg2:T58	
+R61	IDEOLOGY_OF Arg1:T95 Arg2:T96	
+R62	POINT_IN_TIME Arg1:T58 Arg2:T59	
+R63	WORKS_AS Arg1:T54 Arg2:T57	
+R64	PARTICIPANT_IN Arg1:T57 Arg2:T58	
+R65	TAKES_PLACE_IN Arg1:T97 Arg2:T63	
+R66	PARTICIPANT_IN Arg1:T62 Arg2:T97	
+T104	EVENT 1113 1149	номинировавшегося на пост президента
+R67	AGENT Arg1:T29 Arg2:T104	
+R68	POINT_IN_TIME Arg1:T104 Arg2:T32	
+R69	HEADQUARTERED_IN Arg1:T38 Arg2:T81	
+N1	Reference T1 Wikidata:Q76	Барак Обама
+N2	Reference T5 Wikidata:Q30461	президент
+N3	Reference T11 Wikidata:Q1806257	Комитет Сената США по международным отношениям
+N4	Reference T18 Wikidata:Q35525	Белый дом
+N10	Reference T40 Wikidata:Q40816	Бенгази
+N11	Reference T49 Wikidata:Q43944	Хамид Карзай
+N12	Reference T53 Wikidata:Q44329	Башар Асад
+N13	Reference T56 Wikidata:Q881	Вьетнам
+N17	Reference T67 Wikidata:Q30	США
+N18	Reference T68 Wikidata:Q11696	президент США
+N19	Reference T73 Wikidata:Q6294	Хиллари Клинтон
+N20	Reference T75 Wikidata:Q771	Массачусетс
+N22	Reference T78 Wikidata:Q1065	Организация Объединённых Наций
+N25	Reference T85 Wikidata:Q1140706	президент Афганистана
+N26	Reference T86 Wikidata:Q889	Афганистан
+N27	Reference T88 Wikidata:Q648464	Президент Сирии
+N28	Reference T89 Wikidata:Q858	Сирия
+N31	Reference T95 Wikidata:Q29552	Демократическая партия
+N14	Reference T60 Wikidata:Q1317	Усама бен Ладен
+N15	Reference T65 Wikidata:Q22316	Джон Керри
+N32	Reference T3 Wikidata:NULL	нет данных
+N16	Reference T66 Wikidata:Q14213	государственный секретарь США
+N5	Reference T26 Wikidata:Q22316	Джон Керри
+N6	Reference T30 Wikidata:Q2570643	сенат
+N21	Reference T76 Wikidata:Q1785225	
+N7	Reference T37 Wikidata:Q50612	
+N8	Reference T38 Wikidata:Q11268	Конгресс США
+N9	Reference T39 Wikidata:Q1016	Ливия
+N24	Reference T43 Wikidata:Q15686806	
+N29	Reference T92 Wikidata:NULL	нет данных
+N30	Reference T93 Wikidata:Q4206667	
+N23	Reference T82 Wikidata:NULL	нет данных
+N33	Reference T19 Wikidata:Q76	Барак Обама
+N34	Reference T84 Wikidata:Q76	Барак Обама
+N35	Reference T79 Wikidata:Q76	Барак Обама
+N36	Reference T91 Wikidata:Q76	Барак Обама
+N37	Reference T6 Wikidata:Q76	Барак Обама
+N38	Reference T41 Wikidata:Q76	Барак Обама
+N39	Reference T44 Wikidata:Q30461	президент
+N40	Reference T23 Wikidata:Q30461	президент
+N41	Reference T31 Wikidata:Q30461	президент
+N42	Reference T52 Wikidata:Q30461	президент
+N43	Reference T48 Wikidata:Q30461	президент
+N44	Reference T36 Wikidata:Q30461	президент
+N45	Reference T27 Wikidata:Q30461	президент
+N46	Reference T63 Wikidata:Q881	Вьетнам
+N47	Reference T55 Wikidata:Q30	США
+N48	Reference T69 Wikidata:Q30	США
+N49	Reference T64 Wikidata:Q30	США
+N50	Reference T77 Wikidata:Q30	США
+N51	Reference T81 Wikidata:Q30	США
+N52	Reference T21 Wikidata:Q30	США
+N53	Reference T4 Wikidata:Q22316	Джон Керри
+N54	Reference T45 Wikidata:NULL	нет данных
+N55	Reference T9 Wikidata:NULL	нет данных
+N56	Reference T15 Wikidata:NULL	нет данных
+N57	Reference T13 Wikidata:Q22316	Джон Керри
+N58	Reference T10 Wikidata:Q22316	Джон Керри
+N59	Reference T8 Wikidata:Q22316	Джон Керри
+N60	Reference T20 Wikidata:Q22316	Джон Керри
+N61	Reference T62 Wikidata:Q22316	Джон Керри
+N62	Reference T24 Wikidata:Q22316	Джон Керри
+N63	Reference T29 Wikidata:Q22316	Джон Керри
+N64	Reference T47 Wikidata:Q22316	Джон Керри
+N65	Reference T54 Wikidata:Q22316	Джон Керри
+N66	Reference T28 Wikidata:Q22316	Джон Керри
+N67	Reference T14 Wikidata:Q2570643	сенат
+N68	Reference T12 Wikidata:Q2570643	сенат
+N69	Reference T25 Wikidata:Q2570643	сенат
+N70	Reference T42 Wikidata:Q50612	
+N71	Reference T35 Wikidata:Q50612	
+N72	Reference T7 Wikidata:Q15686806	
+N73	Reference T2 Wikidata:Q15686806	
+N74	Reference T57 Wikidata:Q15686806	
+N75	Reference T94 Wikidata:Q4206667	

@@ -1,0 +1,252 @@
+T1	PROFESSION 0 4	Папа
+T2	PROFESSION 44 48	Папа
+T3	PROFESSION 93 97	Папа
+T4	NUMBER 128 133	шесть
+T5	LOCATION 168 174	Европы
+T6	COUNTRY 216 224	Колумбии
+T7	COUNTRY 226 231	Индии
+T8	COUNTRY 233 239	Ливана
+T9	COUNTRY 241 248	Нигерии
+T10	COUNTRY 250 258	Филиппин
+T11	COUNTRY 261 264	США
+T12	ORGANIZATION 439 452	Римской курии
+T13	PROFESSION 454 461	префект
+T14	PROFESSION 476 487	архиепископ
+T15	PERSON 488 506	Джеймс Майкл Харви
+T16	COUNTRY 508 511	США
+T17	PERSON 535 555	Бeшара Бутрос ар-Раи
+T18	COUNTRY 557 562	Ливан
+T20	COUNTRY 635 640	Индия
+T21	PROFESSION 643 654	архиепископ
+T22	COUNTRY 688 695	Нигерия
+T23	PROFESSION 698 709	архиепископ
+T24	PERSON 717 742	Хесус Рубен Салазар Гомес
+T25	COUNTRY 744 752	Колумбия
+T26	PROFESSION 756 767	архиепископ
+T27	PERSON 775 793	Луис Антонио Тагле
+T28	COUNTRY 795 804	Филиппины
+T29	DATE 825 834	в субботу
+T30	ORGANIZATION 877 896	Католической церкви
+T31	LOCATION 1187 1193	Европу
+T32	ORGANIZATION 1203 1222	Коллегию кардиналов
+T33	NUMBER 1247 1249	66
+T34	NUMBER 1267 1270	116
+T35	AGE 1290 1300	80-летнего
+T36	AGE 1363 1375	85-ти летний
+T37	NUMBER 1390 1392	22
+T38	DATE 1404 1413	в феврале
+T39	LOCATION 1452 1463	европейские
+T40	NUMBER 1655 1658	120
+T41	NUMBER 1672 1674	62
+T42	LOCATION 1688 1694	Европу
+T43	PERSON 5 17	Бенедикт XVI
+T44	ORDINAL 14 17	XVI
+T45	PROFESSION 33 43	кардиналов
+T46	PROFESSION 44 56	Папа Римский
+T47	PROFESSION 81 91	кардиналов
+T48	PROFESSION 93 105	Папа Римский
+T49	PROFESSION 140 150	кардиналов
+T50	PROFESSION 176 189	кардинальские
+T52	PROFESSION 286 299	князей Церкви
+T53	PROFESSION 387 400	кардинальские
+T56	PROFESSION 454 475	префект Папского дома
+T57	PROFESSION 514 534	маронитский патриарх
+T58	PROFESSION 565 594	сиро-маланкарский архиепископ
+T59	PROFESSION 845 849	Папа
+T60	PROFESSION 1031 1043	членов Курии
+T61	PROFESSION 1126 1136	кардиналов
+T62	PROFESSION 1168 1172	Папу
+T63	PROFESSION 1212 1222	кардиналов
+T64	PROFESSION 1340 1344	Папу
+T65	PROFESSION 1376 1380	Папа
+T66	PROFESSION 1393 1403	кардиналов
+T67	PROFESSION 1464 1476	архиепископы
+T68	PROFESSION 1518 1527	Кардиналы
+T69	PROFESSION 1550 1554	Папы
+T70	PROFESSION 1620 1629	Понтифика
+T71	PROFESSION 1659 1669	кардиналов
+T72	PERSON 57 69	Бенедикт XVI
+T73	ORDINAL 66 69	XVI
+T74	PERSON 106 118	Бенедикт XVI
+T75	ORDINAL 115 118	XVI
+T76	PROFESSION 205 212	иерархи
+T77	ORGANIZATION 293 299	Церкви
+T78	ORGANIZATION 462 475	Папского дома
+T79	ORGANIZATION 514 525	маронитский
+T80	ORGANIZATION 565 582	сиро-маланкарский
+T81	PROFESSION 583 594	архиепископ
+T82	PROFESSION 526 534	патриарх
+T83	PERSON 595 633	Тривандрума Базелиос Клеемис Тоттункал
+T84	PERSON 655 686	Абуджи Джон Олорунфеми Онайекан
+T85	CITY 710 716	Боготы
+T86	PROFESSION 698 716	архиепископ Боготы
+T87	CITY 768 774	Манилы
+T88	PROFESSION 756 774	архиепископ Манилы
+T89	EVENT 835 844	церемонии
+T90	RELIGION 877 889	Католической
+T91	PERSON 1003 1010	Господа
+T92	ORGANIZATION 1038 1043	Курии
+T93	PROFESSION 1452 1476	европейские архиепископы
+T94	COUNTRY 1493 1504	ватиканской
+T97	CITY 49 56	Римский
+R1	WORKS_AS Arg1:T43 Arg2:T1	
+R2	WORKPLACE Arg1:T46 Arg2:T97	
+R3	WORKS_AS Arg1:T74 Arg2:T48	
+R4	ALTERNATIVE_NAME Arg1:T49 Arg2:T50	
+R5	WORKPLACE Arg1:T52 Arg2:T77	
+R6	ALTERNATIVE_NAME Arg1:T49 Arg2:T52	
+R7	ORIGINS_FROM Arg1:T15 Arg2:T16	
+R8	ORIGINS_FROM Arg1:T17 Arg2:T18	
+R9	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R10	ORIGINS_FROM Arg1:T27 Arg2:T28	
+R11	RELIGION_OF Arg1:T30 Arg2:T90	
+R12	AGE_IS Arg1:T65 Arg2:T36	
+R13	ALTERNATIVE_NAME Arg1:T69 Arg2:T70	
+R14	LOCATED_IN Arg1:T85 Arg2:T25	
+R15	WORKS_AS Arg1:T84 Arg2:T21	
+R16	ORIGINS_FROM Arg1:T83 Arg2:T20	
+R17	LOCATED_IN Arg1:T87 Arg2:T28	
+R18	WORKS_AS Arg1:T15 Arg2:T14	
+R19	WORKS_AS Arg1:T15 Arg2:T56	
+R20	WORKPLACE Arg1:T88 Arg2:T87	
+R21	WORKS_AS Arg1:T27 Arg2:T88	
+R22	WORKPLACE Arg1:T27 Arg2:T87	
+T51	CITY 98 105	Римский
+R23	ALTERNATIVE_NAME Arg1:T1 Arg2:T46	
+R24	WORKPLACE Arg1:T56 Arg2:T78	
+R25	WORKPLACE Arg1:T15 Arg2:T78	
+R26	ORIGINS_FROM Arg1:T84 Arg2:T22	
+T98	EVENT 18 26	назначил
+R27	AGENT Arg1:T43 Arg2:T98	
+R28	WORKS_AS Arg1:T72 Arg2:T46	
+T99	EVENT 119 127	назначил
+R29	ALTERNATIVE_NAME Arg1:T98 Arg2:T99	
+R30	AGENT Arg1:T74 Arg2:T99	
+R31	ORIGINS_FROM Arg1:T76 Arg2:T6	
+R32	ORIGINS_FROM Arg1:T76 Arg2:T7	
+R33	ORIGINS_FROM Arg1:T76 Arg2:T8	
+R34	ORIGINS_FROM Arg1:T76 Arg2:T9	
+R35	ORIGINS_FROM Arg1:T76 Arg2:T10	
+R36	ORIGINS_FROM Arg1:T76 Arg2:T11	
+T100	CITY 439 446	Римской
+R37	WORKPLACE Arg1:T15 Arg2:T12	
+R38	HEADQUARTERED_IN Arg1:T12 Arg2:T100	
+R39	PARTICIPANT_IN Arg1:T15 Arg2:T99	
+R40	PARTICIPANT_IN Arg1:T57 Arg2:T99	
+R41	WORKS_AS Arg1:T17 Arg2:T57	
+R42	WORKPLACE Arg1:T57 Arg2:T79	
+R43	WORKPLACE Arg1:T17 Arg2:T79	
+R44	WORKPLACE Arg1:T58 Arg2:T80	
+R45	WORKS_AS Arg1:T83 Arg2:T58	
+R46	WORKPLACE Arg1:T83 Arg2:T80	
+R47	PARTICIPANT_IN Arg1:T83 Arg2:T99	
+R48	PARTICIPANT_IN Arg1:T84 Arg2:T99	
+R49	WORKPLACE Arg1:T86 Arg2:T85	
+R50	WORKS_AS Arg1:T24 Arg2:T86	
+R51	WORKPLACE Arg1:T24 Arg2:T85	
+R52	PARTICIPANT_IN Arg1:T24 Arg2:T99	
+R53	WORKS_AS Arg1:T27 Arg2:T76	
+R54	RELIGION_OF Arg1:T59 Arg2:T90	
+R55	WORKPLACE Arg1:T59 Arg2:T30	
+R56	MEMBER_OF Arg1:T63 Arg2:T32	
+R57	RELIGION_OF Arg1:T15 Arg2:T90	
+R58	RELIGION_OF Arg1:T17 Arg2:T90	
+R59	RELIGION_OF Arg1:T83 Arg2:T90	
+R60	RELIGION_OF Arg1:T84 Arg2:T90	
+R61	RELIGION_OF Arg1:T24 Arg2:T90	
+R62	RELIGION_OF Arg1:T27 Arg2:T90	
+R63	POINT_IN_TIME Arg1:T89 Arg2:T29	
+R64	PARTICIPANT_IN Arg1:T59 Arg2:T89	
+R65	WORKS_AS Arg1:T15 Arg2:T49	
+R66	WORKS_AS Arg1:T17 Arg2:T49	
+R67	WORKS_AS Arg1:T83 Arg2:T49	
+R68	WORKS_AS Arg1:T84 Arg2:T49	
+R69	WORKS_AS Arg1:T24 Arg2:T49	
+R70	WORKS_AS Arg1:T27 Arg2:T49	
+T19	EVENT 1381 1389	назначил
+R71	AGENT Arg1:T65 Arg2:T19	
+R72	POINT_IN_TIME Arg1:T19 Arg2:T38	
+R73	WORKPLACE Arg1:T93 Arg2:T39	
+R74	WORKPLACE Arg1:T48 Arg2:T51	
+R75	PARTICIPANT_IN Arg1:T45 Arg2:T98	
+R76	PARTICIPANT_IN Arg1:T49 Arg2:T99	
+R77	PARTICIPANT_IN Arg1:T66 Arg2:T19	
+N1	Reference T7 Wikidata:Q668	Индия
+N2	Reference T8 Wikidata:Q822	Ливан
+N3	Reference T10 Wikidata:Q928	Филиппины
+N4	Reference T11 Wikidata:Q30	США
+N5	Reference T12 Wikidata:Q108169	Римская курия
+N7	Reference T15 Wikidata:Q26912	Харви, Джеймс Майкл
+N8	Reference T17 Wikidata:Q469828	Раи, Бешар Бутрос
+N9	Reference T18 Wikidata:Q822	Ливан
+N10	Reference T22 Wikidata:Q1033	Нигерия
+N11	Reference T24 Wikidata:Q26639	Саласар Гомес, Хесус Рубен
+N12	Reference T25 Wikidata:Q739	Колумбия
+N13	Reference T27 Wikidata:Q26901	Гоким Тагле, Луис Антонио
+N14	Reference T28 Wikidata:Q928	Филиппины
+N15	Reference T30 Wikidata:Q9592	католическая церковь
+N16	Reference T32 Wikidata:Q852242	Коллегия кардиналов
+N19	Reference T45 Wikidata:Q45722	кардинал
+N20	Reference T46 Wikidata:Q19546	Папа Римский
+N25	Reference T74 Wikidata:Q2494	Бенедикт XVI
+N26	Reference T76 Wikidata:Q2259532	клирик
+N27	Reference T77 Wikidata:Q34651	христианская церковь
+N28	Reference T78 Wikidata:Q2114739	Префектура Папского Дома
+N29	Reference T79 Wikidata:Q64900	Маронитская католическая церковь
+N30	Reference T80 Wikidata:Q256178	Сиро-маланкарская католическая церковь
+N31	Reference T81 Wikidata:Q49476	архиепископ
+N32	Reference T82 Wikidata:Q171692	патриарх
+N33	Reference T83 Wikidata:Q27180	Тоттункал, Баселиос Клеемис
+N34	Reference T84 Wikidata:Q716749	Онаийекан, Джон Олорунфеми
+N35	Reference T85 Wikidata:Q2841	Богота
+N37	Reference T87 Wikidata:Q1461	Манила
+N40	Reference T92 Wikidata:Q108169	Римская курия
+N18	Reference T42 Wikidata:Q46	Европа
+N17	Reference T39 Wikidata:Q46	Европа
+N41	Reference T93 Wikidata:NULL	нет данных
+N42	Reference T94 Wikidata:Q237	Ватикан
+N24	Reference T60 Wikidata:NULL	нет данных
+N44	Reference T91 Wikidata:Q825	
+N39	Reference T90 Wikidata:Q1841	католичество
+N36	Reference T86 Wikidata:Q104662967	
+N38	Reference T88 Wikidata:Q45844511	
+N43	Reference T100 Wikidata:Q220	Рим
+N45	Reference T3 Wikidata:Q19546	Папа Римский
+N23	Reference T58 Wikidata:NULL	нет данных
+N22	Reference T57 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:Q104290473	
+N21	Reference T56 Wikidata:NULL	нет данных
+N46	Reference T20 Wikidata:Q668	Индия
+N47	Reference T16 Wikidata:Q30	США
+N48	Reference T9 Wikidata:Q1033	Нигерия
+N49	Reference T6 Wikidata:Q739	Колумбия
+N50	Reference T71 Wikidata:Q45722	кардинал
+N51	Reference T53 Wikidata:Q45722	кардинал
+N52	Reference T49 Wikidata:Q45722	кардинал
+N53	Reference T52 Wikidata:Q45722	кардинал
+N54	Reference T66 Wikidata:Q45722	кардинал
+N55	Reference T63 Wikidata:Q45722	кардинал
+N56	Reference T47 Wikidata:Q45722	кардинал
+N57	Reference T50 Wikidata:Q45722	кардинал
+N58	Reference T61 Wikidata:Q45722	кардинал
+N59	Reference T68 Wikidata:Q45722	кардинал
+N60	Reference T48 Wikidata:Q19546	Папа Римский
+N61	Reference T1 Wikidata:Q19546	Папа Римский
+N62	Reference T72 Wikidata:Q2494	Бенедикт XVI
+N63	Reference T43 Wikidata:Q2494	Бенедикт XVI
+N64	Reference T23 Wikidata:Q49476	архиепископ
+N65	Reference T14 Wikidata:Q49476	архиепископ
+N66	Reference T67 Wikidata:Q49476	архиепископ
+N67	Reference T26 Wikidata:Q49476	архиепископ
+N68	Reference T21 Wikidata:Q49476	архиепископ
+N69	Reference T31 Wikidata:Q46	Европа
+N70	Reference T5 Wikidata:Q46	Европа
+N71	Reference T97 Wikidata:Q220	Рим
+N72	Reference T51 Wikidata:Q220	Рим
+N73	Reference T69 Wikidata:Q19546	Папа Римский
+N74	Reference T59 Wikidata:Q19546	Папа Римский
+N75	Reference T65 Wikidata:Q19546	Папа Римский
+N76	Reference T62 Wikidata:Q19546	Папа Римский
+N77	Reference T64 Wikidata:Q19546	Папа Римский
+N78	Reference T70 Wikidata:Q19546	Папа Римский
+N79	Reference T2 Wikidata:Q19546	Папа Римский

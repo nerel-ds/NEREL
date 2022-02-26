@@ -1,0 +1,159 @@
+T1	ORGANIZATION 2 12	Минобороны
+T2	PROFESSION 34 48	начальника ГРУ
+T4	PERSON 75 91	Игорь Конашенков
+T5	PROFESSION 108 149	начальник ГРУ Генштаба Вооруженных сил РФ
+T6	PROFESSION 150 167	генерал-полковник
+T7	PERSON 168 187	Александр Шляхтуров
+T8	ORGANIZATION 227 262	Главное разведывательное управление
+T9	PROFESSION 273 286	генерал-майор
+T10	ORGANIZATION 319 328	Интерфакс
+T11	PERSON 332 342	Конашенков
+T12	PERSON 355 364	Шляхтуров
+T13	PERSON 492 502	Шляхтурова
+T14	DATE 515 525	24 декабря
+T15	ORGANIZATION 527 538	Коммерсантъ
+T16	AGE 559 568	64-летний
+T17	ORGANIZATION 597 634	совет директоров ОАО "Корпорация МИТ"
+T18	PRODUCT 658 664	Булава
+T19	PROFESSION 720 729	главы ГРУ
+T20	ORGANIZATION 731 742	Коммерсантъ
+T21	DATE 762 780	в апреле 2011 года
+T22	PROFESSION 781 797	президент России
+T23	PERSON 798 814	Дмитрий Медведев
+T24	ORGANIZATION 922 930	Генштабе
+T25	PERSON 953 962	Шляхтуров
+T26	PROFESSION 995 1011	министра обороны
+T27	PERSON 1012 1030	Анатолия Сердюкова
+T28	ORGANIZATION 1048 1051	МИТ
+T29	TIME 1156 1161	Утром
+T30	DATE 1162 1187	в понедельник, 26 декабря
+T31	PROFESSION 1211 1220	главы ГРУ
+T32	ORGANIZATION 1233 1250	Российская газета
+T33	PERSON 1275 1294	Александр Шляхтуров
+T34	ORGANIZATION 1325 1360	Главное разведывательное управление
+T35	COUNTRY 1403 1413	российской
+T36	ORGANIZATION 45 48	ГРУ
+T3	ORGANIZATION 64 74	Минобороны
+T37	ORGANIZATION 118 149	ГРУ Генштаба Вооруженных сил РФ
+T38	ORGANIZATION 122 149	Генштаба Вооруженных сил РФ
+T39	COUNTRY 147 149	РФ
+T40	PERSON 287 299	Игорь Сергун
+T41	PERSON 569 578	Шляхтуров
+T42	ORGANIZATION 619 633	Корпорация МИТ
+T43	ORGANIZATION 726 729	ГРУ
+T44	COUNTRY 791 797	России
+T45	PROFESSION 823 833	чиновникам
+T46	ORGANIZATION 1217 1220	ГРУ
+T47	ORGANIZATION 1403 1419	российской армии
+T48	EVENT 25 33	отставку
+R1	WORKPLACE Arg1:T4 Arg2:T3	
+R2	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T5	
+R4	WORKPLACE Arg1:T2 Arg2:T36	
+R5	PARTICIPANT_IN Arg1:T2 Arg2:T48	
+T49	EVENT 188 211	уволен с военной службы
+T50	EVENT 188 194	уволен
+R6	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+R7	PARTICIPANT_IN Arg1:T7 Arg2:T49	
+R8	WORKS_AS Arg1:T7 Arg2:T6	
+R9	WORKS_AS Arg1:T7 Arg2:T5	
+R10	WORKPLACE Arg1:T7 Arg2:T37	
+R11	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+R12	WORKPLACE Arg1:T5 Arg2:T37	
+T51	ORGANIZATION 118 121	ГРУ
+R13	ABBREVIATION Arg1:T8 Arg2:T51	
+R14	WORKS_AS Arg1:T40 Arg2:T9	
+R15	WORKPLACE Arg1:T40 Arg2:T8	
+R16	WORKS_AS Arg1:T40 Arg2:T5	
+R17	ALTERNATIVE_NAME Arg1:T4 Arg2:T11	
+R18	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+T52	EVENT 365 388	освобожден от должности
+R19	ALTERNATIVE_NAME Arg1:T49 Arg2:T52	
+R20	PARTICIPANT_IN Arg1:T12 Arg2:T52	
+T53	EVENT 483 491	отставке
+R21	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+R22	AGE_IS Arg1:T41 Arg2:T16	
+T54	PROFESSION 603 613	директоров
+R23	WORKPLACE Arg1:T41 Arg2:T17	
+R24	PRODUCES Arg1:T42 Arg2:T18	
+R25	WORKS_AS Arg1:T41 Arg2:T19	
+R26	WORKPLACE Arg1:T41 Arg2:T43	
+T55	EVENT 711 719	Отставку
+R27	WORKS_AS Arg1:T23 Arg2:T22	
+R28	WORKPLACE Arg1:T23 Arg2:T44	
+R29	WORKPLACE Arg1:T22 Arg2:T44	
+R30	WORKPLACE Arg1:T19 Arg2:T43	
+R31	WORKPLACE Arg1:T31 Arg2:T46	
+T56	EVENT 1202 1210	отставке
+R32	PARTICIPANT_IN Arg1:T31 Arg2:T56	
+R33	ALTERNATIVE_NAME Arg1:T25 Arg2:T33	
+R34	WORKS_AS Arg1:T27 Arg2:T26	
+T57	PROFESSION 995 1003	министра
+R35	KNOWS Arg1:T25 Arg2:T27	
+R36	ABBREVIATION Arg1:T42 Arg2:T28	
+T58	ORGANIZATION 630 633	МИТ
+R37	ABBREVIATION Arg1:T42 Arg2:T58	
+R38	WORKS_AS Arg1:T33 Arg2:T31	
+R39	WORKPLACE Arg1:T33 Arg2:T46	
+R40	ABBREVIATION Arg1:T34 Arg2:T31	
+R41	HEADQUARTERED_IN Arg1:T47 Arg2:T35	
+R42	PART_OF Arg1:T17 Arg2:T42	
+R43	PARTICIPANT_IN Arg1:T13 Arg2:T53	
+R44	ABBREVIATION Arg1:T34 Arg2:T46	
+R45	PARTICIPANT_IN Arg1:T36 Arg2:T48	
+R46	PARTICIPANT_IN Arg1:T37 Arg2:T49	
+R47	PARTICIPANT_IN Arg1:T19 Arg2:T55	
+R48	PARTICIPANT_IN Arg1:T43 Arg2:T55	
+T59	COUNTRY 1233 1243	Российская
+R49	HEADQUARTERED_IN Arg1:T32 Arg2:T59	
+R50	PART_OF Arg1:T34 Arg2:T47	
+T60	EVENT 263 272	возглавит
+R51	AGENT Arg1:T40 Arg2:T60	
+R52	PARTICIPANT_IN Arg1:T8 Arg2:T60	
+N1	Reference T1 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N3	Reference T6 Wikidata:Q155327	генерал-полковник
+N4	Reference T9 Wikidata:Q157148	генерал-майор
+N5	Reference T10 Wikidata:Q379271	Интерфакс
+N6	Reference T12 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N7	Reference T13 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N8	Reference T15 Wikidata:Q1780189	Коммерсантъ
+N10	Reference T18 Wikidata:Q587835	Булава
+N11	Reference T22 Wikidata:Q218295	президент Российской Федерации
+N12	Reference T23 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N13	Reference T24 Wikidata:Q495430	Генеральный штаб
+N14	Reference T26 Wikidata:Q2518691	министр обороны
+N17	Reference T32 Wikidata:Q1853433	Российская газета
+N20	Reference T39 Wikidata:Q159	Россия
+N21	Reference T40 Wikidata:Q4417188	Сергун, Игорь Дмитриевич
+N22	Reference T41 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N23	Reference T42 Wikidata:Q167037	корпорация
+N24	Reference T44 Wikidata:Q159	Россия
+N25	Reference T45 Wikidata:Q382887	чиновник
+N26	Reference T46 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N27	Reference T47 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N28	Reference T51 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N29	Reference T54 Wikidata:Q484876	главный управляющий
+N30	Reference T57 Wikidata:Q83307	министр
+N18	Reference T37 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N2	Reference T5 Wikidata:NULL	нет данных
+N19	Reference T38 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N32	Reference T11 Wikidata:Q18243880	
+N9	Reference T17 Wikidata:NULL	нет данных
+N15	Reference T27 Wikidata:Q316583	
+N31	Reference T59 Wikidata:Q159	Россия
+N16	Reference T31 Wikidata:NULL	нет данных
+N33	Reference T3 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N34	Reference T7 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N35	Reference T20 Wikidata:Q1780189	Коммерсантъ
+N36	Reference T25 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N37	Reference T33 Wikidata:Q2066106	Шляхтуров, Александр Васильевич
+N38	Reference T58 Wikidata:Q167037	корпорация
+N39	Reference T28 Wikidata:Q167037	корпорация
+N40	Reference T34 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N41	Reference T43 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N42	Reference T8 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N43	Reference T36 Wikidata:Q115782	Главное разведывательное управление ВС РФ
+N44	Reference T2 Wikidata:NULL	нет данных
+N45	Reference T4 Wikidata:Q18243880	
+N46	Reference T35 Wikidata:Q159	Россия
+N47	Reference T19 Wikidata:NULL	нет данных

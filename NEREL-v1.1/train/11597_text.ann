@@ -1,0 +1,99 @@
+T1	COUNTRY 0 9	Аргентина
+T2	PROFESSION 27 37	президента
+T3	DATE 39 49	27 октября
+T4	PROFESSION 155 174	президент Аргентины
+T5	PERSON 175 189	Нестор Киршнер
+T6	TIME 205 215	рано утром
+T7	CITY 225 237	Эль-Калафате
+T8	CITY 239 250	El Calafate
+T10	STATE_OR_PROVINCE 263 273	Санта-Крус
+T11	ORGANIZATION 338 344	Кларин
+T12	ORGANIZATION 347 353	Clarin
+T13	PROFESSION 370 380	президента
+T14	AGE 420 429	60-летний
+T15	PERSON 430 444	Нестор Киршнер
+T16	DATE 457 468	За этот год
+T17	COUNTRY 487 507	Республики Аргентина
+T18	NUMBER 512 515	два
+T19	DATE 620 631	11 сентября
+T20	PERSON 639 655	Нестору Киршнеру
+T21	PERSON 698 712	Нестор Киршнер
+T22	PROFESSION 717 728	президентом
+T23	DATE 739 757	с 2003 по 2007 год
+T24	PROFESSION 772 782	президента
+T25	PERSON 799 818	Кристина де Киршнер
+T26	PROFESSION 839 850	президентом
+T27	PERSON 892 906	Нестор Киршнер
+T28	EVENT 946 964	выборах президента
+T29	DATE 965 976	в 2011 году
+T30	DISEASE 101 117	потерял сознание
+T31	EVENT 131 147	госпитализирован
+T32	COUNTRY 165 174	Аргентины
+T33	PROFESSION 282 289	медиков
+T35	DISEASE 381 400	остановилось сердце
+T36	COUNTRY 851 871	Республики Аргентина
+T37	PROFESSION 839 871	президентом Республики Аргентина
+T38	PROFESSION 954 964	президента
+T39	COUNTRY 729 738	Аргентины
+T40	PROFESSION 717 738	президентом Аргентины
+T41	DISEASE 568 582	болезни сердца
+T42	PROFESSION 477 507	президент Республики Аргентина
+T43	TIME 39 55	27 октября утром
+R1	WORKS_AS Arg1:T5 Arg2:T4	
+R2	WORKPLACE Arg1:T5 Arg2:T32	
+R3	WORKPLACE Arg1:T4 Arg2:T32	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T31	
+R5	ALTERNATIVE_NAME Arg1:T11 Arg2:T12	
+R7	AGE_DIED_AT Arg1:T15 Arg2:T14	
+R8	MEDICAL_CONDITION Arg1:T5 Arg2:T30	
+R9	POINT_IN_TIME Arg1:T31 Arg2:T43	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R11	WORKS_AS Arg1:T21 Arg2:T40	
+R12	WORKPLACE Arg1:T40 Arg2:T39	
+R13	SPOUSE Arg1:T21 Arg2:T25	
+R14	WORKS_AS Arg1:T25 Arg2:T37	
+R15	WORKPLACE Arg1:T25 Arg2:T36	
+R16	WORKPLACE Arg1:T37 Arg2:T36	
+R17	WORKPLACE Arg1:T42 Arg2:T17	
+R6	CAUSE_OF_DEATH Arg1:T15 Arg2:T35	
+R18	MEDICAL_CONDITION Arg1:T42 Arg2:T41	
+R19	LOCATED_IN Arg1:T8 Arg2:T10	
+R20	WORKPLACE Arg1:T21 Arg2:T39	
+R21	TAKES_PLACE_IN Arg1:T31 Arg2:T7	
+R22	POINT_IN_TIME Arg1:T28 Arg2:T29	
+T9	EVENT 664 695	шунтирование коронарной артерии
+R23	PARTICIPANT_IN Arg1:T20 Arg2:T9	
+R24	POINT_IN_TIME Arg1:T9 Arg2:T19	
+R25	WORKS_AS Arg1:T15 Arg2:T13	
+R26	LOCATED_IN Arg1:T10 Arg2:T1	
+T34	EVENT 445 454	скончался
+R27	PARTICIPANT_IN Arg1:T15 Arg2:T34	
+R28	HAS_CAUSE Arg1:T34 Arg2:T35	
+R29	WORKS_AS Arg1:T25 Arg2:T24	
+N1	Reference T5 Wikidata:Q170899	Нестор Киршнер
+N2	Reference T7 Wikidata:Q81561	Эль-Калафате
+N3	Reference T10 Wikidata:Q44821	Санта-Крус
+N5	Reference T20 Wikidata:Q170899	Нестор Киршнер
+N6	Reference T22 Wikidata:Q30461	президент
+N7	Reference T25 Wikidata:Q40649	Кристина Фернандес де Киршнер
+N8	Reference T32 Wikidata:Q414	Аргентина
+N9	Reference T33 Wikidata:Q39631	врач
+N10	Reference T36 Wikidata:Q414	Аргентина
+N12	Reference T4 Wikidata:Q12969145	
+N4	Reference T11 Wikidata:Q87810	
+N11	Reference T42 Wikidata:Q12969145	
+N13	Reference T27 Wikidata:Q170899	Нестор Киршнер
+N14	Reference T21 Wikidata:Q170899	Нестор Киршнер
+N15	Reference T15 Wikidata:Q170899	Нестор Киршнер
+N16	Reference T8 Wikidata:Q81561	Эль-Калафате
+N17	Reference T13 Wikidata:Q30461	президент
+N18	Reference T38 Wikidata:Q30461	президент
+N19	Reference T24 Wikidata:Q30461	президент
+N20	Reference T26 Wikidata:Q30461	президент
+N21	Reference T2 Wikidata:Q30461	президент
+N22	Reference T39 Wikidata:Q414	Аргентина
+N23	Reference T1 Wikidata:Q414	Аргентина
+N24	Reference T17 Wikidata:Q414	Аргентина
+N25	Reference T40 Wikidata:Q12969145	
+N26	Reference T12 Wikidata:Q87810	
+N27	Reference T37 Wikidata:Q12969145	

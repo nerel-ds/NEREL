@@ -1,0 +1,162 @@
+T1	NATIONALITY 0 11	Российскому
+T2	COUNTRY 43 50	Украину
+T3	ORGANIZATION 58 77	Служба безопасности
+T4	COUNTRY 78 85	Украины
+T5	NATIONALITY 96 107	российскому
+T6	PERSON 115 120	Басте
+T7	PERSON 122 139	Василий Вакуленко
+T8	DATE 175 186	до трёх лет
+T9	LAW 199 274	ст.13 Закона Украины „О правовом статусе иностранцев и лиц без гражданства“
+T10	ORGANIZATION 275 295	Службой безопасности
+T11	COUNTRY 296 303	Украины
+T12	COUNTRY 388 395	Украину
+T13	COUNTRY 432 434	РФ
+T15	ORGANIZATION 468 471	СБУ
+T16	ORGANIZATION 497 501	ТАСС
+T17	ORGANIZATION 503 506	СБУ
+T18	PERSON 545 550	Баста
+T19	COUNTRY 591 598	Россией
+T20	STATE_OR_PROVINCE 599 604	Крыму
+T21	EVENT 617 624	концерт
+T22	PERSON 625 630	Басты
+T23	CITY 633 638	Киеве
+T24	DATE 649 666	17 июня 2017 года
+T25	DATE 695 717	на 1 декабря 2017 года
+T26	DATE 736 756	на 19 июня 2017 года
+T27	CITY 773 779	Одессе
+T28	ORGANIZATION 799 804	Ибица
+T29	ORGANIZATION 902 920	Интерфакса-Украина
+T30	CITY 1022 1028	Одессе
+T31	COUNTRY 1081 1087	России
+T32	STATE_OR_PROVINCE 1090 1095	Крыму
+T33	COUNTRY 1125 1127	РФ
+T34	COUNTRY 1136 1143	Украина
+T35	NUMBER 1169 1178	более 140
+T36	COUNTRY 1179 1189	российским
+T37	PERSON 1210 1229	Александр Розенбаум
+T38	PERSON 1231 1249	Николай Расторгуев
+T39	PERSON 1251 1263	Олег Табаков
+T40	PERSON 1265 1276	Лев Лещенко
+T41	PERSON 1278 1290	Иосиф Кобзон
+R3	OWNER_OF Arg1:T19 Arg2:T20
+T42	PERSON 19 24	Басте
+T43	PROFESSION 12 18	рэперу
+T44	PERSON 52 57	Баста
+T46	ORGANIZATION 58 85	Служба безопасности Украины
+T47	EVENT 86 95	запретила
+T48	PROFESSION 108 114	рэперу
+T49	EVENT 141 167	въезд на территорию страны
+T50	ORDINAL 202 204	13
+T51	COUNTRY 212 219	Украины
+T52	ORGANIZATION 275 303	Службой безопасности Украины
+T14	DATE 442 453	на три года
+T54	LAW 205 274	Закона Украины „О правовом статусе иностранцев и лиц без гражданства“
+T55	EVENT 562 572	концертами
+T56	EVENT 757 764	концерт
+T57	PERSON 765 770	Басты
+T58	COUNTRY 913 920	Украина
+T60	PROFESSION 1039 1047	артистов
+T61	EVENT 1029 1038	концертов
+T63	PROFESSION 1190 1198	артистам
+R1	ORIGINS_FROM Arg1:T43 Arg2:T1	
+R5	ORIGINS_FROM Arg1:T42 Arg2:T1	
+R6	WORKS_AS Arg1:T42 Arg2:T43	
+R7	HEADQUARTERED_IN Arg1:T46 Arg2:T4	
+T62	EVENT 25 40	запретили въезд
+R8	PARTICIPANT_IN Arg1:T42 Arg2:T62	
+R9	ORIGINS_FROM Arg1:T48 Arg2:T5	
+R10	WORKS_AS Arg1:T6 Arg2:T48	
+R11	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R12	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R14	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R15	PARTICIPANT_IN Arg1:T6 Arg2:T47	
+R16	PARTICIPANT_IN Arg1:T6 Arg2:T49	
+R13	HEADQUARTERED_IN Arg1:T52 Arg2:T11	
+R17	ALTERNATIVE_NAME Arg1:T5 Arg2:T13	
+T65	EVENT 371 385	запрете въезда
+R20	TAKES_PLACE_IN Arg1:T65 Arg2:T12	
+R21	POINT_IN_TIME Arg1:T47 Arg2:T8	
+R23	ABBREVIATION Arg1:T52 Arg2:T15	
+R24	AGENT Arg1:T18 Arg2:T55	
+R25	TAKES_PLACE_IN Arg1:T21 Arg2:T23	
+R26	POINT_IN_TIME Arg1:T21 Arg2:T24	
+R27	AGENT Arg1:T22 Arg2:T21	
+R28	LOCATED_IN Arg1:T23 Arg2:T12	
+R29	LOCATED_IN Arg1:T27 Arg2:T12	
+R30	TAKES_PLACE_IN Arg1:T56 Arg2:T27	
+R31	PARTICIPANT_IN Arg1:T57 Arg2:T56	
+R32	POINT_IN_TIME Arg1:T56 Arg2:T26	
+R33	HEADQUARTERED_IN Arg1:T29 Arg2:T58	
+R34	ALTERNATIVE_NAME Arg1:T13 Arg2:T19	
+R35	TAKES_PLACE_IN Arg1:T61 Arg2:T30	
+R36	PARTICIPANT_IN Arg1:T60 Arg2:T61	
+T59	EVENT 1144 1153	запретила
+R37	PARTICIPANT_IN Arg1:T34 Arg2:T59	
+T64	EVENT 1154 1168	въезд в страну
+R38	ALTERNATIVE_NAME Arg1:T65 Arg2:T64	
+R40	WORKPLACE Arg1:T63 Arg2:T36	
+R41	PARTICIPANT_IN Arg1:T63 Arg2:T64	
+R42	PARTICIPANT_IN Arg1:T63 Arg2:T59	
+R43	WORKS_AS Arg1:T37 Arg2:T63	
+R44	WORKS_AS Arg1:T38 Arg2:T63	
+R45	WORKS_AS Arg1:T39 Arg2:T63	
+R46	WORKS_AS Arg1:T40 Arg2:T63	
+R47	WORKS_AS Arg1:T41 Arg2:T63	
+R48	WORKPLACE Arg1:T37 Arg2:T36	
+R49	WORKPLACE Arg1:T38 Arg2:T36	
+R50	WORKPLACE Arg1:T39 Arg2:T36	
+R51	WORKPLACE Arg1:T39 Arg2:T36	
+R52	WORKPLACE Arg1:T41 Arg2:T36	
+R2	TAKES_PLACE_IN Arg1:T62 Arg2:T2	
+R4	ALTERNATIVE_NAME Arg1:T62 Arg2:T47	
+R53	PART_OF Arg1:T9 Arg2:T54	
+R54	ORIGINS_FROM Arg1:T54 Arg2:T51	
+R18	ALTERNATIVE_NAME Arg1:T47 Arg2:T65	
+R19	TAKES_PLACE_IN Arg1:T55 Arg2:T20	
+R22	HAS_CAUSE Arg1:T65 Arg2:T55	
+N2	Reference T5 Wikidata:Q159	Россия
+N4	Reference T13 Wikidata:Q159	Россия
+N5	Reference T16 Wikidata:Q223799	ТАСС
+N6	Reference T20 Wikidata:Q7835	Крымский полуостров
+N7	Reference T23 Wikidata:Q1899	Киев
+N8	Reference T27 Wikidata:Q1874	Одесса
+N10	Reference T29 Wikidata:Q2448686	Интерфакс-Украина
+N12	Reference T37 Wikidata:Q663116	Александр Яковлевич Розенбаум
+N13	Reference T38 Wikidata:Q4390600	Николай Вячеславович Расторгуев
+N14	Reference T39 Wikidata:Q466139	Олег Павлович Табаков
+N15	Reference T40 Wikidata:Q2622339	Лев Валерьянович Лещенко
+N16	Reference T41 Wikidata:Q1980296	Иосиф Давыдович Кобзон
+N18	Reference T46 Wikidata:Q615811	Служба безопасности Украины
+N19	Reference T48 Wikidata:Q2252262	рэпер
+N21	Reference T58 Wikidata:Q212	Украина
+N22	Reference T63 Wikidata:Q483501	деятель искусств
+N17	Reference T42 Wikidata:Q3986754	
+N1	Reference T3 Wikidata:Q3238445	
+N3	Reference T9 Wikidata:NULL	нет данных
+N20	Reference T54 Wikidata:NULL	нет данных
+N9	Reference T28 Wikidata:NULL	нет данных
+N11	Reference T36 Wikidata:Q159	Россия
+N23	Reference T1 Wikidata:Q159	Россия
+N24	Reference T31 Wikidata:Q159	Россия
+N25	Reference T33 Wikidata:Q159	Россия
+N26	Reference T19 Wikidata:Q159	Россия
+N27	Reference T32 Wikidata:Q7835	Крымский полуостров
+N28	Reference T30 Wikidata:Q1874	Одесса
+N29	Reference T17 Wikidata:Q615811	Служба безопасности Украины
+N30	Reference T52 Wikidata:Q615811	Служба безопасности Украины
+N31	Reference T15 Wikidata:Q615811	Служба безопасности Украины
+N32	Reference T43 Wikidata:Q2252262	рэпер
+N33	Reference T51 Wikidata:Q212	Украина
+N34	Reference T12 Wikidata:Q212	Украина
+N35	Reference T34 Wikidata:Q212	Украина
+N36	Reference T4 Wikidata:Q212	Украина
+N37	Reference T11 Wikidata:Q212	Украина
+N38	Reference T2 Wikidata:Q212	Украина
+N39	Reference T60 Wikidata:Q483501	деятель искусств
+N40	Reference T44 Wikidata:Q3986754	
+N41	Reference T22 Wikidata:Q3986754	
+N42	Reference T57 Wikidata:Q3986754	
+N43	Reference T7 Wikidata:Q3986754	
+N44	Reference T18 Wikidata:Q3986754	
+N45	Reference T6 Wikidata:Q3986754	
+N46	Reference T10 Wikidata:Q3238445	

@@ -1,0 +1,183 @@
+T1	PERSON 0 13	Лионель Месси
+T2	PERSON 23 36	Лионель Месси
+T3	COUNTRY 44 53	испанской
+T4	ORGANIZATION 55 64	Барселоны
+T5	NATIONALITY 67 79	аргентинский
+T6	PROFESSION 80 89	футболист
+T7	PERSON 90 103	Лионель Месси
+T8	PERSON 147 165	Антонеллой Рокуццо
+T9	CITY 188 195	Росарио
+T11	COUNTRY 216 225	Аргентины
+T12	FACILITY 272 284	'City Center
+T13	COUNTRY 304 316	аргентинская
+T14	EVENT 339 352	свадьбой века
+T15	NUMBER 384 387	260
+T16	PERSON 493 498	Месси
+T17	ORGANIZATION 503 512	Барселоне
+T18	PERSON 515 528	Луиса Суареса
+T19	PERSON 530 537	Неймара
+T20	PERSON 540 551	Жерара Пике
+T21	PROFESSION 565 574	поп-дивой
+T22	PERSON 575 582	Шакирой
+T23	PERSON 632 639	Рокуццо
+T25	NATIONALITY 646 655	испанский
+T26	PROFESSION 656 664	дизайнер
+T27	PERSON 665 675	Роза Клара
+T28	PROFESSION 714 721	актриса
+T29	PERSON 722 734	Ева Лонгория
+T30	COUNTRY 747 756	испанская
+T31	PROFESSION 757 765	королева
+T32	PERSON 766 773	Летисия
+T33	PERSON 776 789	Лионель Месси
+T34	PERSON 805 823	Антонеллой Рокуццо
+T35	AGE 846 854	пять лет
+T36	PERSON 932 937	Месси
+T37	PROFESSION 939 949	футболисту
+T38	PERSON 950 964	Лукасу Скаглии
+T39	AGE 971 977	13 лет
+T40	PERSON 978 983	Месси
+T41	COUNTRY 992 999	Испанию
+T42	ORGANIZATION 1003 1012	Барселона
+T43	PERSON 1080 1085	Месси
+T44	DATE 1096 1102	в июне
+T45	AGE 1115 1117	30
+T46	NUMBER 1170 1174	двое
+T47	CITY 1204 1213	Барселоне
+T48	PERSON 1230 1235	Месси
+T49	COUNTRY 1247 1254	Испанию
+T50	NUMBER 1278 1282	пять
+T51	ORGANIZATION 1297 1301	ФИФА
+T52	DATE 1304 1319	В мае 2017 года
+T53	ORGANIZATION 1320 1333	Верховный суд
+T54	COUNTRY 1334 1341	Испании
+T55	DATE 1366 1375	21 месяцу
+T56	PERSON 1427 1433	Мессии
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T3
+R2	ORIGINS_FROM Arg1:T7 Arg2:T5
+R3	WORKS_AS Arg1:T7 Arg2:T6
+R4	SPOUSE Arg1:T7 Arg2:T8
+R7	SPOUSE Arg1:T20 Arg2:T22
+R9	WORKS_AS Arg1:T27 Arg2:T26
+R10	WORKS_AS Arg1:T29 Arg2:T28
+R11	WORKS_AS Arg1:T32 Arg2:T31
+R14	AGE_IS Arg1:T40 Arg2:T39
+R15	PLACE_RESIDES_IN Arg1:T48 Arg2:T49
+R8	ORIGINS_FROM Arg1:T27 Arg2:T25	
+T24	ORGANIZATION 1320 1341	Верховный суд Испании
+R12	WORKS_AS Arg1:T38 Arg2:T37	
+R13	KNOWS Arg1:T16 Arg2:T18	
+R16	KNOWS Arg1:T16 Arg2:T19	
+R17	KNOWS Arg1:T20 Arg2:T19	
+R18	KNOWS Arg1:T19 Arg2:T18	
+T57	EVENT 104 120	сочетался браком
+T10	AWARD 1283 1296	Золотых мячей
+T58	AWARD 1283 1301	Золотых мячей ФИФА
+R5	RELATIVE Arg1:T38 Arg2:T34	
+R6	AGENT Arg1:T8 Arg2:T57	
+T59	EVENT 14 21	женился
+R19	AGENT Arg1:T1 Arg2:T59	
+R20	AGENT Arg1:T7 Arg2:T57	
+R21	TAKES_PLACE_IN Arg1:T57 Arg2:T9	
+R22	LOCATED_IN Arg1:T9 Arg2:T11	
+R23	KNOWS Arg1:T27 Arg2:T23	
+R24	KNOWS Arg1:T29 Arg2:T27	
+R25	KNOWS Arg1:T33 Arg2:T34	
+R26	KNOWS Arg1:T32 Arg2:T27	
+R27	AGE_IS Arg1:T33 Arg2:T35	
+R28	KNOWS Arg1:T36 Arg2:T38	
+R29	AGE_IS Arg1:T43 Arg2:T45	
+R30	PLACE_RESIDES_IN Arg1:T43 Arg2:T47	
+R31	AWARDED_WITH Arg1:T48 Arg2:T58	
+T60	EVENT 1342 1352	приговорил
+T61	PROFESSION 1353 1363	футболиста
+R32	WORKS_AS Arg1:T48 Arg2:T61	
+R33	PARTICIPANT_IN Arg1:T48 Arg2:T60	
+R34	AGENT Arg1:T24 Arg2:T60	
+R35	POINT_IN_TIME Arg1:T60 Arg2:T52	
+R36	TAKES_PLACE_IN Arg1:T60 Arg2:T54	
+R37	WORKPLACE Arg1:T7 Arg2:T4	
+R38	TAKES_PLACE_IN Arg1:T14 Arg2:T12	
+R39	LOCATED_IN Arg1:T12 Arg2:T9	
+R40	KNOWS Arg1:T16 Arg2:T20	
+R41	KNOWS Arg1:T18 Arg2:T20	
+R42	WORKS_AS Arg1:T22 Arg2:T21	
+R43	WORKPLACE Arg1:T32 Arg2:T30	
+T62	PROFESSION 876 886	футболиста
+R44	WORKS_AS Arg1:T36 Arg2:T62	
+R45	HEADQUARTERED_IN Arg1:T42 Arg2:T41	
+R46	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R47	ALTERNATIVE_NAME Arg1:T59 Arg2:T57	
+R48	ALTERNATIVE_NAME Arg1:T57 Arg2:T14	
+R49	WORKPLACE Arg1:T16 Arg2:T17	
+R50	WORKPLACE Arg1:T18 Arg2:T17	
+R51	WORKPLACE Arg1:T19 Arg2:T17	
+R52	WORKPLACE Arg1:T20 Arg2:T17	
+R53	ALTERNATIVE_NAME Arg1:T7 Arg2:T16	
+R54	ORIGINS_FROM Arg1:T26 Arg2:T25	
+R55	ALTERNATIVE_NAME Arg1:T8 Arg2:T23	
+R56	ORIGINS_FROM Arg1:T31 Arg2:T30	
+R57	ALTERNATIVE_NAME Arg1:T33 Arg2:T36	
+R58	PRODUCES Arg1:T51 Arg2:T58	
+T63	CRIME 1395 1422	уклонения от уплаты налогов
+T64	PENALTY 1376 1391	лишения свободы
+T65	PENALTY 1366 1391	21 месяцу лишения свободы
+R59	HEADQUARTERED_IN Arg1:T24 Arg2:T54	
+R60	PENALIZED_AS Arg1:T61 Arg2:T65	
+R61	CONVICTED_OF Arg1:T61 Arg2:T63	
+T66	PENALTY 1512 1518	штрафа
+T67	DISEASE 1045 1069	недостатка гормона роста
+R62	MEDICAL_CONDITION Arg1:T40 Arg2:T67	
+T68	PENALTY 1457 1468	за решеткой
+R63	ALTERNATIVE_NAME Arg1:T64 Arg2:T68	
+R64	PARTICIPANT_IN Arg1:T61 Arg2:T60	
+R65	ALTERNATIVE_NAME Arg1:T11 Arg2:T13	
+R66	HAS_CAUSE Arg1:T64 Arg2:T63	
+N3	Reference T9 Wikidata:Q52535	Росарио
+N4	Reference T11 Wikidata:Q414	Аргентина
+N6	Reference T16 Wikidata:Q615	Лионель Месси
+N8	Reference T19 Wikidata:Q142794	Неймар
+N9	Reference T20 Wikidata:Q17507	Жерар Пике
+N11	Reference T22 Wikidata:Q34424	Шакира
+N12	Reference T26 Wikidata:Q5322166	дизайнер
+N14	Reference T28 Wikidata:Q33999	актёр
+N15	Reference T29 Wikidata:Q163263	Ева Лонгория
+N17	Reference T37 Wikidata:Q937857	футболист
+N19	Reference T42 Wikidata:Q7156	Барселона
+N20	Reference T47 Wikidata:Q1492	Барселона
+N21	Reference T48 Wikidata:Q615	Лионель Месси
+N22	Reference T49 Wikidata:Q29	Испания
+N23	Reference T51 Wikidata:Q253414	ФИФА
+N24	Reference T53 Wikidata:Q190752	верховный суд
+N26	Reference T24 Wikidata:Q19746	Верховный суд Испании
+N27	Reference T10 Wikidata:Q166177	Золотой мяч
+N28	Reference T58 Wikidata:Q2291862	Золотой мяч ФИФА
+N2	Reference T8 Wikidata:NULL	
+N5	Reference T12 Wikidata:Q5407738	
+N29	Reference T30 Wikidata:Q29	Испания
+N16	Reference T31 Wikidata:Q116	монарх
+N30	Reference T32 Wikidata:Q201589	Летисия
+N25	Reference T56 Wikidata:Q615	Лионель Месси
+N18	Reference T38 Wikidata:Q18359605	
+N13	Reference T27 Wikidata:Q29359401	
+N1	Reference T5 Wikidata:Q2365041	Аргентинцы
+N31	Reference T25 Wikidata:Q160894	испанцы
+N7	Reference T18 Wikidata:Q26517	Луис Альберто Суарес
+N10	Reference T21 Wikidata:Q867132	
+N32	Reference T13 Wikidata:Q414	Аргентина
+N33	Reference T7 Wikidata:Q615	Лионель Месси
+N34	Reference T61 Wikidata:Q937857	футболист
+N35	Reference T6 Wikidata:Q937857	футболист
+N36	Reference T62 Wikidata:Q937857	футболист
+N37	Reference T4 Wikidata:Q7156	Барселона
+N38	Reference T17 Wikidata:Q7156	Барселона
+N39	Reference T1 Wikidata:Q615	Лионель Месси
+N40	Reference T36 Wikidata:Q615	Лионель Месси
+N41	Reference T33 Wikidata:Q615	Лионель Месси
+N42	Reference T40 Wikidata:Q615	Лионель Месси
+N43	Reference T2 Wikidata:Q615	Лионель Месси
+N44	Reference T43 Wikidata:Q615	Лионель Месси
+N45	Reference T41 Wikidata:Q29	Испания
+N46	Reference T54 Wikidata:Q29	Испания
+N47	Reference T23 Wikidata:NULL	
+N48	Reference T34 Wikidata:NULL	
+N49	Reference T3 Wikidata:Q29	Испания

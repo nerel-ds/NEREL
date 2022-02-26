@@ -1,0 +1,160 @@
+T1	PROFESSION 0 15	Вице-губернатор
+T2	EVENT 44 47	ДТП
+T3	DATE 48 67	30 ноября 2012 года
+T4	PROFESSION 68 83	вице-губернатор
+T5	PERSON 104 119	Николай Доронин
+T6	EVENT 128 131	ДТП
+T8	FACILITY 196 240	73-м километре автодороги Работки — Порецкое
+T9	FACILITY 211 240	автодороги Работки — Порецкое
+T11	FACILITY 250 266	автодороги Волга
+T12	AGE 270 279	55-летний
+T14	CITY 330 345	Нижний Новгород
+T15	PROFESSION 374 399	полномочный представитель
+T17	PERSON 451 463	Михаил Бабич
+T18	PRODUCT 515 523	ГАЗ-3307
+T19	PROFESSION 552 560	водитель
+T20	PERSON 593 609	Иван Солдатенков
+T21	PRODUCT 660 672	Toyota Camry
+T22	PRODUCT 783 791	ГАЗ-3307
+T23	PERSON 878 894	Николая Доронина
+T24	STATE_OR_PROVINCE 897 916	Ульяновской области
+T25	PROFESSION 980 991	губернатора
+T26	PROFESSION 1066 1076	Губернатор
+T27	ORGANIZATION 1079 1092	Правительство
+T28	PROFESSION 0 35	Вице-губернатор Ульяновской области
+T31	PROFESSION 68 103	вице-губернатор Ульяновской области
+T34	PROFESSION 280 315	вице-губернатор Ульяновской области
+T36	PROFESSION 280 295	вице-губернатор
+T37	PROFESSION 374 417	полномочный представитель Президента России
+T40	PROFESSION 581 590	чиновника
+T41	PROFESSION 715 724	чиновника
+T42	PROFESSION 1010 1064	членов регионального правительства Ульяновской области
+T43	EVENT 36 41	погиб
+T44	EVENT 120 125	погиб
+T45	EVENT 134 140	Авария
+T46	STATE_OR_PROVINCE 16 35	Ульяновской области
+T47	STATE_OR_PROVINCE 84 103	Ульяновской области
+T7	DISTRICT 153 170	Сергачском районе
+T48	STATE_OR_PROVINCE 171 192	Нижегородской области
+T10	ORDINAL 196 200	73-м
+T49	STATE_OR_PROVINCE 296 315	Ульяновской области
+T50	PROFESSION 400 417	Президента России
+T51	COUNTRY 411 417	России
+T16	PROFESSION 374 450	полномочный представитель Президента России в Приволжском федеральном округе
+T53	DISTRICT 420 450	Приволжском федеральном округе
+T54	NUMBER 490 493	два
+T55	EVENT 503 512	совещания
+T56	PRODUCT 814 820	Toyota
+T57	EVENT 841 848	погибли
+T58	EVENT 870 877	гибелью
+T59	PERSON 992 1007	Сергея Морозова
+T60	ORGANIZATION 1017 1064	регионального правительства Ульяновской области
+T61	ORGANIZATION 1031 1064	правительства Ульяновской области
+T62	STATE_OR_PROVINCE 1045 1064	Ульяновской области
+T63	ORGANIZATION 1079 1112	Правительство Ульяновской области
+T64	STATE_OR_PROVINCE 1093 1112	Ульяновской области
+T65	ORGANIZATION 1031 1044	правительства
+R1	WORKPLACE Arg1:T28 Arg2:T46	
+R2	PARTICIPANT_IN Arg1:T28 Arg2:T43	
+R3	PARTICIPANT_IN Arg1:T28 Arg2:T2	
+R4	SUBEVENT_OF Arg1:T43 Arg2:T2	
+R5	POINT_IN_TIME Arg1:T44 Arg2:T3	
+R6	POINT_IN_TIME Arg1:T6 Arg2:T3	
+R7	SUBEVENT_OF Arg1:T44 Arg2:T6	
+R8	WORKPLACE Arg1:T31 Arg2:T47	
+R9	PARTICIPANT_IN Arg1:T5 Arg2:T44	
+R10	PARTICIPANT_IN Arg1:T5 Arg2:T6	
+R11	WORKS_AS Arg1:T5 Arg2:T31	
+R12	WORKPLACE Arg1:T5 Arg2:T47	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T45	
+R14	TAKES_PLACE_IN Arg1:T45 Arg2:T7	
+R15	LOCATED_IN Arg1:T7 Arg2:T48	
+T13	CITY 222 229	Работки
+T29	CITY 232 240	Порецкое
+T30	LOCATION 261 266	Волга
+R16	AGE_IS Arg1:T5 Arg2:T12	
+R17	WORKPLACE Arg1:T34 Arg2:T49	
+R18	AGE_IS Arg1:T34 Arg2:T12	
+T32	EVENT 494 512	окружных совещания
+T33	NUMBER 787 791	3307
+R19	WORKS_AS Arg1:T59 Arg2:T25	
+R20	WORKPLACE Arg1:T26 Arg2:T64	
+R21	HEADQUARTERED_IN Arg1:T63 Arg2:T64	
+R22	PART_OF Arg1:T9 Arg2:T8	
+R23	PART_OF Arg1:T9 Arg2:T11	
+R24	TAKES_PLACE_IN Arg1:T45 Arg2:T8	
+R25	ORGANIZES Arg1:T17 Arg2:T32	
+R26	TAKES_PLACE_IN Arg1:T32 Arg2:T14	
+R27	WORKPLACE Arg1:T16 Arg2:T53	
+T35	LOCATION 420 431	Приволжском
+R28	LOCATED_IN Arg1:T53 Arg2:T35	
+R29	SUBORDINATE_OF Arg1:T16 Arg2:T50	
+R30	WORKPLACE Arg1:T50 Arg2:T51	
+R31	WORKS_AS Arg1:T17 Arg2:T16	
+R32	WORKPLACE Arg1:T17 Arg2:T53	
+R33	SUBORDINATE_OF Arg1:T17 Arg2:T50	
+R34	WORKS_AS Arg1:T20 Arg2:T19	
+R35	WORKS_AS Arg1:T5 Arg2:T40	
+T38	EVENT 725 752	вылетел на встречную полосу
+T39	EVENT 758 782	столкнулась с грузовиком
+R36	ALTERNATIVE_NAME Arg1:T21 Arg2:T56	
+R37	PARTICIPANT_IN Arg1:T20 Arg2:T57	
+R38	PARTICIPANT_IN Arg1:T23 Arg2:T58	
+R39	WORKPLACE Arg1:T25 Arg2:T24	
+R40	WORKPLACE Arg1:T59 Arg2:T24	
+R41	HEADQUARTERED_IN Arg1:T60 Arg2:T62	
+R42	WORKPLACE Arg1:T42 Arg2:T60	
+R43	SUBEVENT_OF Arg1:T38 Arg2:T45	
+R44	SUBEVENT_OF Arg1:T39 Arg2:T45	
+T52	NUMBER 519 523	3307
+R45	INANIMATE_INVOLVED Arg1:T22 Arg2:T39	
+R46	INANIMATE_INVOLVED Arg1:T21 Arg2:T38	
+R47	INANIMATE_INVOLVED Arg1:T21 Arg2:T39	
+N4	Reference T11 Wikidata:Q1752836	М-7 «Волга»
+N5	Reference T14 Wikidata:Q891	Нижний Новгород
+N7	Reference T18 Wikidata:Q4130618	ГАЗ-3307
+N8	Reference T19 Wikidata:Q216541	водитель
+N10	Reference T26 Wikidata:Q132050	губернатор
+N13	Reference T41 Wikidata:Q382887	чиновник
+N15	Reference T7 Wikidata:Q1654853	Сергачский район
+N16	Reference T48 Wikidata:Q2246	Нижегородская область
+N17	Reference T50 Wikidata:Q218295	президент Российской Федерации
+N18	Reference T51 Wikidata:Q159	Россия
+N19	Reference T16 Wikidata:Q218295	президент Российской Федерации
+N20	Reference T53 Wikidata:Q202317	Приволжский федеральный округ
+N21	Reference T56 Wikidata:Q53268	Toyota
+N25	Reference T62 Wikidata:Q5634	Ульяновская область
+N26	Reference T65 Wikidata:Q7188	правительство
+N27	Reference T13 Wikidata:Q4386773	Работки
+N28	Reference T29 Wikidata:Q2371612	Порецкое
+N9	Reference T20 Wikidata:NULL	нет данных
+N22	Reference T59 Wikidata:Q4303016	
+N24	Reference T61 Wikidata:NULL	нет данных
+N23	Reference T60 Wikidata:NULL	нет данных
+N14	Reference T42 Wikidata:NULL	нет данных
+N6	Reference T17 Wikidata:NULL	нет данных
+N12	Reference T36 Wikidata:Q66716743	
+N1	Reference T5 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:NULL	нет данных
+N29	Reference T30 Wikidata:Q1752836	М-7 «Волга»
+N3	Reference T9 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	нет данных
+N30	Reference T35 Wikidata:NULL	нет данных
+N31	Reference T15 Wikidata:Q15217354	
+N32	Reference T37 Wikidata:Q4370371	
+N33	Reference T22 Wikidata:Q4130618	ГАЗ-3307
+N34	Reference T25 Wikidata:Q132050	губернатор
+N35	Reference T40 Wikidata:Q382887	чиновник
+N36	Reference T21 Wikidata:Q53268	Toyota
+N37	Reference T46 Wikidata:Q5634	Ульяновская область
+N38	Reference T64 Wikidata:Q5634	Ульяновская область
+N39	Reference T24 Wikidata:Q5634	Ульяновская область
+N40	Reference T49 Wikidata:Q5634	Ульяновская область
+N41	Reference T47 Wikidata:Q5634	Ульяновская область
+N42	Reference T27 Wikidata:Q7188	правительство
+N43	Reference T63 Wikidata:NULL	нет данных
+N44	Reference T1 Wikidata:Q66716743	
+N45	Reference T4 Wikidata:Q66716743	
+N46	Reference T23 Wikidata:NULL	нет данных
+N47	Reference T34 Wikidata:NULL	нет данных
+N48	Reference T28 Wikidata:NULL	нет данных

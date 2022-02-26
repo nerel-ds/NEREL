@@ -1,0 +1,132 @@
+T1	COUNTRY 2 6	Чили
+T3	DATE 61 79	8 апреля 2013 года
+T4	DATE 114 132	почти 40 лет назад
+T5	COUNTRY 145 155	чилийского
+T6	PERSON 162 174	Пабло Неруды
+T8	PROFESSION 302 311	диктатора
+T9	PERSON 312 328	Аугусто Пиночета
+T10	PERSON 331 337	Неруда
+T11	DATE 427 448	23 сентября 1973 года
+T12	PERSON 469 482	Мануэля Арайи
+T14	FACILITY 655 676	больнице Святой Марии
+T16	CITY 679 687	Сантьяго
+T17	PERSON 761 767	Неруда
+T18	PERSON 778 785	Пиночет
+T19	PERSON 818 824	Неруду
+T20	PERSON 837 842	Арайя
+T22	PERSON 903 915	Пабло Неруда
+T23	PROFESSION 937 958	президента-социалиста
+T24	PERSON 959 977	Сальвадора Альенде
+T25	DATE 1020 1041	11 сентября 1973 года
+T26	PERSON 1043 1055	Пабло Неруда
+T27	DATE 1061 1077	через две недели
+T28	AGE 1090 1096	69 лет
+T29	PERSON 1099 1105	Неруда
+T32	ORDINAL 1188 1195	третьей
+T33	PERSON 1201 1217	Матильды Уррутии
+T34	PERSON 35 47	Пабло Неруды
+T35	EVENT 19 34	вскрытие могилы
+T36	PERSON 48 60	Пабло Неруда
+T37	EVENT 85 98	эксгумировано
+T38	PROFESSION 156 161	поэта
+T39	PROFESSION 226 232	шофёра
+T40	AWARD 258 269	нобелевский
+T41	IDEOLOGY 356 376	прокоммунистическими
+T42	EVENT 405 409	умер
+T43	DISEASE 413 426	рака простаты
+T44	DISEASE 413 417	рака
+T45	PROFESSION 507 515	писателя
+T46	PERSON 553 561	Пиночета
+T47	PROFESSION 546 552	агенты
+T48	PROFESSION 546 561	агенты Пиночета
+T49	PERSON 587 593	Неруды
+T15	PERSON 664 676	Святой Марии
+T50	EVENT 772 776	убит
+T51	PROFESSION 937 947	президента
+T52	IDEOLOGY 948 958	социалиста
+T53	EVENT 987 992	погиб
+T54	EVENT 1000 1019	военного переворота
+T55	EVENT 1056 1060	умер
+T56	PROFESSION 1079 1084	Поэту
+T30	CITY 1156 1166	Исла-Негра
+R1	INANIMATE_INVOLVED Arg1:T34 Arg2:T35	
+R2	TAKES_PLACE_IN Arg1:T35 Arg2:T1	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+R4	WORKS_AS Arg1:T6 Arg2:T38	
+R5	ORIGINS_FROM Arg1:T6 Arg2:T5	
+R6	ALTERNATIVE_NAME Arg1:T35 Arg2:T37	
+R7	POINT_IN_TIME Arg1:T37 Arg2:T3	
+R8	DATE_OF_DEATH Arg1:T6 Arg2:T4	
+R9	AWARDED_WITH Arg1:T6 Arg2:T40	
+R10	WORKS_AS Arg1:T9 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T6 Arg2:T10	
+R12	IDEOLOGY_OF Arg1:T10 Arg2:T41	
+R13	CAUSE_OF_DEATH Arg1:T10 Arg2:T43	
+R14	HAS_CAUSE Arg1:T42 Arg2:T43	
+R15	DATE_OF_DEATH Arg1:T10 Arg2:T11	
+R16	POINT_IN_TIME Arg1:T42 Arg2:T11	
+R17	PARTICIPANT_IN Arg1:T10 Arg2:T42	
+R18	WORKS_AS Arg1:T12 Arg2:T39	
+R19	KNOWS Arg1:T10 Arg2:T12	
+R20	WORKS_AS Arg1:T10 Arg2:T45	
+T7	DATE 516 534	в последние месяцы
+R21	ORIGINS_FROM Arg1:T14 Arg2:T15	
+R22	LOCATED_IN Arg1:T14 Arg2:T16	
+R23	LOCATED_IN Arg1:T16 Arg2:T5	
+R24	PARTICIPANT_IN Arg1:T17 Arg2:T50	
+R25	ALTERNATIVE_NAME Arg1:T9 Arg2:T18	
+T13	DATE 882 900	в ближайшие месяцы
+R26	ALTERNATIVE_NAME Arg1:T12 Arg2:T20	
+R27	IDEOLOGY_OF Arg1:T23 Arg2:T52	
+R28	WORKS_AS Arg1:T24 Arg2:T23	
+R29	PARTICIPANT_IN Arg1:T24 Arg2:T53	
+R30	HAS_CAUSE Arg1:T53 Arg2:T54	
+R31	POINT_IN_TIME Arg1:T54 Arg2:T25	
+R32	PARTICIPANT_IN Arg1:T26 Arg2:T55	
+R33	AGE_DIED_AT Arg1:T26 Arg2:T28	
+R34	DATE_OF_DEATH Arg1:T26 Arg2:T27	
+R35	POINT_IN_TIME Arg1:T55 Arg2:T27	
+R36	ALTERNATIVE_NAME Arg1:T26 Arg2:T56	
+R37	ALTERNATIVE_NAME Arg1:T26 Arg2:T29	
+R38	SPOUSE Arg1:T29 Arg2:T33	
+R39	LOCATED_IN Arg1:T30 Arg2:T5	
+R40	SUBORDINATE_OF Arg1:T48 Arg2:T46	
+R41	INANIMATE_INVOLVED Arg1:T6 Arg2:T37	
+R42	ALTERNATIVE_NAME Arg1:T10 Arg2:T49	
+R43	LOCATED_IN Arg1:T49 Arg2:T14	
+R44	DATE_OF_DEATH Arg1:T24 Arg2:T25	
+R45	AGE_IS Arg1:T56 Arg2:T28	
+R46	LOCATED_IN Arg1:T29 Arg2:T30	
+N2	Reference T8 Wikidata:Q183318	диктатор
+N5	Reference T16 Wikidata:Q2887	Сантьяго
+N6	Reference T18 Wikidata:Q368	Аугусто Пиночет
+N7	Reference T24 Wikidata:Q440	Сальвадор Альенде
+N8	Reference T26 Wikidata:Q34189	Пабло Неруда
+N10	Reference T39 Wikidata:Q216541	водитель
+N11	Reference T40 Wikidata:Q7191	Нобелевская премия
+N12	Reference T45 Wikidata:Q36180	писатель
+N13	Reference T47 Wikidata:Q392651	специальный агент
+N17	Reference T51 Wikidata:Q30461	президент
+N18	Reference T56 Wikidata:Q49757	поэт
+N1	Reference T5 Wikidata:Q298	Чили
+N19	Reference T30 Wikidata:Q6081486	
+N9	Reference T33 Wikidata:Q3851877	
+N20	Reference T23 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N15	Reference T49 Wikidata:Q34189	Пабло Неруда
+N14	Reference T48 Wikidata:NULL	нет данных
+N4	Reference T14 Wikidata:Q30274443	
+N16	Reference T15 Wikidata:Q345	Дева Мария
+N21	Reference T46 Wikidata:Q368	Аугусто Пиночет
+N22	Reference T9 Wikidata:Q368	Аугусто Пиночет
+N23	Reference T22 Wikidata:Q34189	Пабло Неруда
+N24	Reference T19 Wikidata:Q34189	Пабло Неруда
+N25	Reference T17 Wikidata:Q34189	Пабло Неруда
+N26	Reference T34 Wikidata:Q34189	Пабло Неруда
+N27	Reference T29 Wikidata:Q34189	Пабло Неруда
+N28	Reference T36 Wikidata:Q34189	Пабло Неруда
+N29	Reference T38 Wikidata:Q49757	поэт
+N30	Reference T1 Wikidata:Q298	Чили
+N31	Reference T20 Wikidata:NULL	нет данных
+N32	Reference T6 Wikidata:Q34189	Пабло Неруда
+N33	Reference T10 Wikidata:Q34189	Пабло Неруда

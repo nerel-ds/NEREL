@@ -1,0 +1,159 @@
+T1	CITY 0 6	Бостон
+T2	PERSON 16 24;34 42	Тамерлан Царнаевы
+T4	LOCATION 46 63	Северного Кавказа
+T5	EVENT 115 137	спецоперация по поимке
+T6	AGE 138 148	19-летнего
+T7	PERSON 149 165	Джохара Царнаева
+T9	EVENT 195 214	Бостонском марафоне
+T10	DATE 215 224	15 апреля
+T11	ORGANIZATION 273 315	Массачусетского технологического института
+T12	DATE 316 325	18 апреля
+T13	ORDINAL 328 334	Второй
+T14	AGE 360 369	26-летний
+T15	PERSON 370 386	Тамерлан Царнаев
+T16	EVENT 400 411	перестрелке
+T17	CITY 414 424	Уотертауне
+T18	CITY 457 466	Уотертаун
+T19	CITY 714 721	Бостоне
+T20	ORGANIZATION 842 850	Гарварде
+T21	ORGANIZATION 852 892	Массачусетском технологическом институте
+T22	ORGANIZATION 894 915	Университете Саффолка
+T23	ORGANIZATION 917 940	Бостонском университете
+T24	ORGANIZATION 979 982	ФБР
+T25	AGE 1026 1035	19-летний
+T26	ORGANIZATION 1044 1074	Университета штата Массачусетс
+T27	PERSON 1075 1089	Джохар Царнаев
+T28	CITY 1115 1124	Махачкалы
+T30	CITY 1157 1164	Бостона
+T31	PROFESSION 1208 1227	Секретарь директора
+T33	PERSON 1248 1263	Ирина Бандурина
+T34	ORGANIZATION 1277 1287	Эху Москвы
+T35	PERSON 1294 1308	Джохар Царнаев
+T36	ORDINAL 1372 1378	первый
+T38	COUNTRY 1413 1416	США
+T39	DATE 1437 1448	в 2002 году
+T40	DATE 1476 1487	в 2004 году
+T42	EVENT 1537 1544	теракта
+T43	EVENT 1548 1567	Бостонском марафоне
+T44	NUMBER 1598 1601	два
+T45	NUMBER 1628 1631	три
+T46	NUMBER 1642 1651	более 180
+T47	EVENT 7 15	взорвали
+T49	DATE 65 79	19 апреля 2013
+T50	CITY 97 104	Бостона
+T8	CRIME 184 191	теракте
+T52	CRIME 229 261	смертельном ранении полицейского
+T53	STATE_OR_PROVINCE 273 288	Массачусетского
+T54	EVENT 392 397	ранен
+T55	EVENT 434 443	скончался
+T57	STATE_OR_PROVINCE 1063 1074	Массачусетс
+T58	DISTRICT 1140 1149	Кембриджа
+T59	DISTRICT 1196 1205	Кембриджа
+T60	CITY 1238 1247	Махачкалы
+T3	PERSON 27 42	Джохар Царнаевы
+T48	FAMILY 16 42	Тамерлан и Джохар Царнаевы
+R1	SIBLING Arg1:T2 Arg2:T3	
+R2	AGENT Arg1:T48 Arg2:T47	
+R3	TAKES_PLACE_IN Arg1:T47 Arg2:T1	
+R4	ORIGINS_FROM Arg1:T48 Arg2:T4	
+R5	AGE_IS Arg1:T7 Arg2:T6	
+T65	LOCATION 87 104	пригороде Бостона
+R6	TAKES_PLACE_IN Arg1:T5 Arg2:T65	
+R7	POINT_IN_TIME Arg1:T5 Arg2:T49	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T5	
+R10	POINT_IN_TIME Arg1:T9 Arg2:T10	
+R12	CONVICTED_OF Arg1:T7 Arg2:T52	
+R13	HEADQUARTERED_IN Arg1:T11 Arg2:T53	
+R14	LOCATED_IN Arg1:T50 Arg2:T53	
+R15	POINT_IN_TIME Arg1:T52 Arg2:T12	
+R9	CONVICTED_OF Arg1:T7 Arg2:T8	
+R11	POINT_IN_TIME Arg1:T8 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T15 Arg2:T14	
+R17	PARTICIPANT_IN Arg1:T15 Arg2:T54	
+R18	SUBEVENT_OF Arg1:T54 Arg2:T16	
+R19	TAKES_PLACE_IN Arg1:T16 Arg2:T17	
+R20	PARTICIPANT_IN Arg1:T15 Arg2:T55	
+R21	HAS_CAUSE Arg1:T55 Arg2:T54	
+T51	STATE_OR_PROVINCE 852 866	Массачусетском
+R22	HEADQUARTERED_IN Arg1:T21 Arg2:T51	
+T66	CITY 907 915	Саффолка
+R23	HEADQUARTERED_IN Arg1:T22 Arg2:T66	
+T67	CITY 917 927	Бостонском
+R24	HEADQUARTERED_IN Arg1:T23 Arg2:T67	
+R25	ALTERNATIVE_NAME Arg1:T19 Arg2:T67	
+R26	LOCATED_IN Arg1:T19 Arg2:T51	
+R27	HEADQUARTERED_IN Arg1:T26 Arg2:T57	
+R28	AGE_IS Arg1:T27 Arg2:T25	
+R29	SCHOOLS_ATTENDED Arg1:T27 Arg2:T26	
+R30	ORIGINS_FROM Arg1:T27 Arg2:T28	
+R31	LOCATED_IN Arg1:T58 Arg2:T30	
+T29	AWARD 1183 1195	стипендиатов
+T56	AWARD 1183 1205	стипендиатов Кембриджа
+R32	ORIGINS_FROM Arg1:T56 Arg2:T59	
+R33	AWARDED_WITH Arg1:T27 Arg2:T56	
+T61	PROFESSION 1208 1247	Секретарь директора школы № 1 Махачкалы
+R37	WORKS_AS Arg1:T33 Arg2:T61	
+T32	ORGANIZATION 1228 1247	школы № 1 Махачкалы
+R34	HEADQUARTERED_IN Arg1:T32 Arg2:T60	
+R35	WORKPLACE Arg1:T61 Arg2:T32	
+R36	WORKPLACE Arg1:T33 Arg2:T32	
+R38	SCHOOLS_ATTENDED Arg1:T35 Arg2:T32	
+R39	LOCATED_IN Arg1:T57 Arg2:T38	
+R40	ALTERNATIVE_NAME Arg1:T66 Arg2:T38	
+R41	ALTERNATIVE_NAME Arg1:T18 Arg2:T38	
+T37	EVENT 1661 1668	ранения
+T41	EVENT 1613 1627	жертвами стали
+T62	EVENT 1602 1608	взрыва
+R42	HAS_CAUSE Arg1:T41 Arg2:T62	
+R43	HAS_CAUSE Arg1:T37 Arg2:T62	
+T63	CITY 1548 1558	Бостонском
+T64	EVENT 1559 1567	марафоне
+R44	TAKES_PLACE_IN Arg1:T43 Arg2:T63	
+R45	SUBEVENT_OF Arg1:T42 Arg2:T43	
+R46	ALTERNATIVE_NAME Arg1:T42 Arg2:T62	
+T68	LOCATION 56 63	Кавказа
+R47	LOCATED_IN Arg1:T4 Arg2:T68	
+T69	CITY 195 205	Бостонском
+R48	TAKES_PLACE_IN Arg1:T9 Arg2:T69	
+R49	ALTERNATIVE_NAME Arg1:T1 Arg2:T69	
+N2	Reference T4 Wikidata:Q37736	Северный Кавказ
+N3	Reference T11 Wikidata:Q49108	Массачусетский технологический институт
+N4	Reference T18 Wikidata:Q54172	Уотертаун
+N5	Reference T20 Wikidata:Q13371	Гарвардский университет
+N7	Reference T23 Wikidata:Q49110	Бостонский университет
+N8	Reference T24 Wikidata:Q8333	Федеральное бюро расследований
+N11	Reference T34 Wikidata:Q749928	Эхо Москвы
+N12	Reference T38 Wikidata:Q30	США
+N13	Reference T50 Wikidata:Q100	Бостон
+N14	Reference T57 Wikidata:Q771	Массачусетс
+N16	Reference T60 Wikidata:Q5168	Махачкала
+N25	Reference T68 Wikidata:Q18869	Кавказ
+N1	Reference T2 Wikidata:Q11836274	
+N17	Reference T3 Wikidata:Q11835959	
+N18	Reference T65 Wikidata:NULL	нет данных
+N26	Reference T69 Wikidata:Q100	Бостон
+N27	Reference T15 Wikidata:Q11836274	
+N19	Reference T51 Wikidata:Q771	Массачусетс
+N6	Reference T22 Wikidata:Q1056123	
+N20	Reference T66 Wikidata:Q54072	Саффолк
+N28	Reference T26 Wikidata:Q1061122	
+N29	Reference T27 Wikidata:Q11835959	
+N15	Reference T58 Wikidata:Q49111	Кембридж
+N22	Reference T56 Wikidata:NULL	нет данных
+N24	Reference T32 Wikidata:NULL	нет данных
+N9	Reference T31 Wikidata:NULL	нет данных
+N23	Reference T61 Wikidata:NULL	нет данных
+N10	Reference T33 Wikidata:NULL	нет данных
+N21	Reference T29 Wikidata:Q20013419	
+N30	Reference T21 Wikidata:Q49108	Массачусетский технологический институт
+N31	Reference T17 Wikidata:Q54172	Уотертаун
+N32	Reference T19 Wikidata:Q100	Бостон
+N33	Reference T63 Wikidata:Q100	Бостон
+N34	Reference T67 Wikidata:Q100	Бостон
+N35	Reference T30 Wikidata:Q100	Бостон
+N36	Reference T28 Wikidata:Q5168	Махачкала
+N37	Reference T7 Wikidata:Q11835959	
+N38	Reference T1 Wikidata:Q100	Бостон
+N39	Reference T53 Wikidata:Q771	Массачусетс
+N40	Reference T35 Wikidata:Q11835959	
+N41	Reference T59 Wikidata:Q49111	Кембридж

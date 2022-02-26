@@ -1,0 +1,81 @@
+T1	PERSON 0 13	Челси Мэннинг
+T2	DATE 49 54	7 лет
+T3	PERSON 55 68	Челси Мэннинг
+T4	PERSON 98 111	Челси Мэннинг
+T5	PERSON 119 133	Брэдли Мэннинг
+T6	COUNTRY 137 149	американская
+T7	DATE 166 177	в 2010 году
+T8	ORGANIZATION 251 260	WikiLeaks
+T9	TIME 270 301	утром в среду, 17 мая 2017 года
+T10	DATE 276 301	в среду, 17 мая 2017 года
+T11	DATE 330 335	7 лет
+T12	PERSON 351 358	Мэннинг
+T14	DATE 378 388	35-летнему
+T15	PERSON 431 438	Мэннинг
+T16	ORGANIZATION 441 450	WikiLeaks
+T17	COUNTRY 488 493	Ираке
+T18	COUNTRY 496 507	Афганистане
+T19	ORGANIZATION 528 543	Госдепартамента
+T20	ORGANIZATION 573 582	WikiLeaks
+T21	PERSON 648 655	Мэннинг
+T22	COUNTRY 804 816	американским
+T23	DATE 863 871	В январе
+T24	PROFESSION 913 923	президента
+T25	PERSON 965 972	Мэннинг
+T26	DATE 990 1004	в среду 17 мая
+T27	EVENT 14 30	вышла на свободу
+T28	PERSON 69 83	Брэдли Мэннинг
+T29	PROFESSION 150 164	военнослужащая
+T30	EVENT 264 269;303 312	вышла из тюрьмы
+T31	PENALTY 378 399	35-летнему заключению
+T13	COUNTRY 924 927	США
+T32	PROFESSION 817 824	военным
+T33	PERSON 872 883	Барак Обама
+T34	PENALTY 42 48	тюрьме
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T27	
+T35	PENALTY 42 54	тюрьме 7 лет
+R2	PENALIZED_AS Arg1:T1 Arg2:T35	
+R3	ALTERNATIVE_NAME Arg1:T1 Arg2:T28	
+R4	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+T36	PROFESSION 913 927	президента США
+R5	WORKPLACE Arg1:T36 Arg2:T13	
+R6	WORKS_AS Arg1:T33 Arg2:T36	
+R7	WORKPLACE Arg1:T33 Arg2:T13	
+R8	PENALIZED_AS Arg1:T12 Arg2:T31	
+R9	PARTICIPANT_IN Arg1:T4 Arg2:T30	
+R10	POINT_IN_TIME Arg1:T30 Arg2:T9	
+R11	ORIGINS_FROM Arg1:T4 Arg2:T6	
+R12	WORKS_AS Arg1:T4 Arg2:T29	
+T37	PENALTY 944 964	тюремного заключения
+R13	PENALIZED_AS Arg1:T25 Arg2:T37	
+R14	ORIGINS_FROM Arg1:T29 Arg2:T6	
+R15	ORIGINS_FROM Arg1:T32 Arg2:T22	
+R16	ALTERNATIVE_NAME Arg1:T4 Arg2:T12	
+T38	EVENT 178 240	выдавшая более  секретных военных и дипломатических документов
+R17	AGENT Arg1:T4 Arg2:T38	
+R18	PARTICIPANT_IN Arg1:T8 Arg2:T38	
+R19	POINT_IN_TIME Arg1:T38 Arg2:T7	
+R20	HAS_CAUSE Arg1:T35 Arg2:T38	
+N1	Reference T1 Wikidata:Q298423	Челси Мэннинг
+N2	Reference T5 Wikidata:Q298423	Челси Мэннинг
+N3	Reference T16 Wikidata:Q359	WikiLeaks
+N4	Reference T17 Wikidata:Q796	Ирак
+N5	Reference T18 Wikidata:Q889	Афганистан
+N6	Reference T19 Wikidata:Q789915	Государственный департамент США
+N8	Reference T24 Wikidata:Q30461	президент
+N9	Reference T29 Wikidata:Q47064	военнослужащий
+N10	Reference T13 Wikidata:Q30	США
+N11	Reference T32 Wikidata:Q47064	военнослужащий
+N12	Reference T33 Wikidata:Q76	Барак Обама
+N13	Reference T36 Wikidata:Q11696	президент США
+N7	Reference T22 Wikidata:Q30	США
+N14	Reference T28 Wikidata:Q298423	Челси Мэннинг
+N15	Reference T12 Wikidata:Q298423	Челси Мэннинг
+N16	Reference T15 Wikidata:Q298423	Челси Мэннинг
+N17	Reference T25 Wikidata:Q298423	Челси Мэннинг
+N18	Reference T4 Wikidata:Q298423	Челси Мэннинг
+N19	Reference T3 Wikidata:Q298423	Челси Мэннинг
+N20	Reference T21 Wikidata:Q298423	Челси Мэннинг
+N21	Reference T20 Wikidata:Q359	WikiLeaks
+N22	Reference T8 Wikidata:Q359	WikiLeaks
+N23	Reference T6 Wikidata:Q30	США

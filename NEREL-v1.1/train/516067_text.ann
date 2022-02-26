@@ -1,0 +1,123 @@
+T1	PERSON 19 32	Азат Мифтахов
+T2	PERSON 83 96	Азат Мифтахов
+T4	ORGANIZATION 158 171	Единой России
+T5	PERSON 186 199	Азат Мифтахов
+T6	PRODUCT 340 349	arXiv.org
+T7	DATE 350 359	18 ноября
+T8	PROFESSION 387 398	математиком
+T9	PERSON 399 416	Сергеем Березиным
+T10	PROFESSION 418 437	научным сотрудником
+T11	DATE 737 748	в 2016 году
+T12	PERSON 751 766	Азата Мифтахова
+T13	DATE 777 786	1 февраля
+T14	LAW 857 881	части 1 статьи 223 УК РФ
+T15	AGE 893 903	25-летнего
+T16	DATE 987 996	7 февраля
+T18	ORGANIZATION 1074 1087	Единой России
+T19	DISTRICT 1091 1098	Ховрино
+T20	LAW 1126 1137	213.2 УК РФ
+T21	ORGANIZATION 14 18	СИЗО
+T3	ORGANIZATION 182 185	МГУ
+T22	PROFESSION 173 181	аспирант
+T23	ORGANIZATION 222 226	СИЗО
+T24	WORK_OF_ART 263 294	О барицентрах вероятностных мер
+T25	ORGANIZATION 469 580	Математического института лаборатории прикладных вероятностных и алгоритмических методов им. В. А. Стеклова РАН
+T26	PERSON 562 576	В. А. Стеклова
+T27	ORGANIZATION 577 580	РАН
+T28	ORGANIZATION 438 580	Санкт-Петербургского отделения Математического института лаборатории прикладных вероятностных и алгоритмических методов им. В. А. Стеклова РАН
+T29	CITY 438 458	Санкт-Петербургского
+T30	WORK_OF_ART 602 702	On weak convergence of finite-dimensional and infinite-dimensional distributions of random processes
+T31	EVENT 767 776	задержали
+T32	PROFESSION 904 913	аспиранта
+T33	ORGANIZATION 914 917	МГУ
+T34	ORGANIZATION 982 985	ОНК
+T35	PROFESSION 997 1007	математика
+T17	DATE 1099 1117	в январе 2018 года
+R1	PARTICIPANT_IN Arg1:T12 Arg2:T31	
+R2	POINT_IN_TIME Arg1:T31 Arg2:T13	
+T36	LAW 1132 1137	УК РФ
+T37	COUNTRY 1135 1137	РФ
+T38	LAW 865 881	статьи 223 УК РФ
+T39	LAW 876 881	УК РФ
+T40	COUNTRY 879 881	РФ
+T41	CRIME 814 856	незаконном изготовлении взрывчатых веществ
+R3	SCHOOLS_ATTENDED Arg1:T5 Arg2:T3	
+T42	EVENT 129 149	броске дымовой шашки
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T42	
+R5	WORKPLACE Arg1:T9 Arg2:T28	
+R6	WORKS_AS Arg1:T9 Arg2:T10	
+R7	WORKS_AS Arg1:T9 Arg2:T8	
+T43	EVENT 1060 1066	поджог
+T44	CRIME 1047 1058	хулиганстве
+R8	TAKES_PLACE_IN Arg1:T43 Arg2:T19	
+R9	POINT_IN_TIME Arg1:T43 Arg2:T17	
+R10	LOCATED_IN Arg1:T1 Arg2:T21	
+R11	LOCATED_IN Arg1:T5 Arg2:T23	
+T45	FACILITY 152 172	офис «Единой России»
+R12	TAKES_PLACE_IN Arg1:T42 Arg2:T45	
+R13	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R14	DATE_OF_CREATION Arg1:T30 Arg2:T11	
+R15	SCHOOLS_ATTENDED Arg1:T32 Arg2:T33	
+R16	AGE_IS Arg1:T32 Arg2:T15	
+R17	AGE_IS Arg1:T12 Arg2:T15	
+T46	LAW 1132 1134	УК
+R18	PARTICIPANT_IN Arg1:T12 Arg2:T43	
+T47	FACILITY 1067 1088	офиса «Единой России»
+R19	TAKES_PLACE_IN Arg1:T43 Arg2:T47	
+R20	WORKS_AS Arg1:T12 Arg2:T35	
+R21	OWNER_OF Arg1:T4 Arg2:T45	
+R22	PART_OF Arg1:T28 Arg2:T25	
+R23	OWNER_OF Arg1:T27 Arg2:T25	
+R24	PRODUCES Arg1:T5 Arg2:T24	
+R25	CONVICTED_OF Arg1:T12 Arg2:T41	
+T48	ORDINAL 863 864	1
+T49	ORDINAL 872 875	223
+R26	ORIGINS_FROM Arg1:T39 Arg2:T40	
+R27	CONVICTED_OF Arg1:T12 Arg2:T44	
+T50	EVENT 1022 1031	задержали
+R28	PARTICIPANT_IN Arg1:T12 Arg2:T50	
+R29	PARTICIPANT_IN Arg1:T35 Arg2:T50	
+R30	POINT_IN_TIME Arg1:T50 Arg2:T16	
+R31	ORIGINS_FROM Arg1:T36 Arg2:T37	
+T51	ORDINAL 1126 1129	213
+T52	ORDINAL 1130 1131	2
+R32	PRODUCES Arg1:T5 Arg2:T30	
+R33	HAS_CAUSE Arg1:T50 Arg2:T44	
+R34	HAS_CAUSE Arg1:T44 Arg2:T43	
+R35	PART_OF Arg1:T20 Arg2:T36	
+N2	Reference T6 Wikidata:Q118398	arXiv.org
+N4	Reference T10 Wikidata:Q1706722	научный сотрудник
+N6	Reference T18 Wikidata:Q151469	Единая Россия
+N7	Reference T19 Wikidata:Q2626866	Ховрино
+N12	Reference T25 Wikidata:Q611420	Математический институт РАН
+N14	Reference T27 Wikidata:Q83172	Российская академия наук
+N17	Reference T33 Wikidata:Q13164	Московский государственный университет
+N19	Reference T37 Wikidata:Q159	Россия
+N21	Reference T39 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N9	Reference T21 Wikidata:Q2945301	следственный изолятор
+N10	Reference T22 Wikidata:Q141212	
+N1	Reference T5 Wikidata:Q69997210	
+N11	Reference T24 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:NULL	нет данных
+N16	Reference T29 Wikidata:Q656	Санкт-Петербург
+N13	Reference T26 Wikidata:Q559188	
+N15	Reference T28 Wikidata:NULL	нет данных
+N24	Reference T30 Wikidata:NULL	нет данных
+N20	Reference T38 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N25	Reference T34 Wikidata:Q18406517	
+N18	Reference T35 Wikidata:Q170790	математик
+N23	Reference T47 Wikidata:NULL	нет данных
+N22	Reference T46 Wikidata:Q19705	уголовное законодательство
+N8	Reference T20 Wikidata:NULL	нет данных
+N26	Reference T4 Wikidata:Q151469	Единая Россия
+N27	Reference T3 Wikidata:Q13164	Московский государственный университет
+N28	Reference T40 Wikidata:Q159	Россия
+N29	Reference T36 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N30	Reference T23 Wikidata:Q2945301	следственный изолятор
+N31	Reference T32 Wikidata:Q141212	
+N32	Reference T2 Wikidata:Q69997210	
+N33	Reference T1 Wikidata:Q69997210	
+N34	Reference T12 Wikidata:Q69997210	
+N35	Reference T8 Wikidata:Q170790	математик
+N36	Reference T45 Wikidata:NULL	нет данных

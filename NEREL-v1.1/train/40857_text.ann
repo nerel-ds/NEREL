@@ -1,0 +1,119 @@
+T1	PERSON 0 16	Сулейман Керимов
+T2	PERSON 50 66	Сулейман Керимов
+T3	DATE 67 87	2 сентября 2013 года
+T4	ORGANIZATION 88 108	Следственный комитет
+T5	COUNTRY 109 119	Белоруссии
+T7	PERSON 164 182	Сулеймана Керимова
+T9	ORGANIZATION 290 293	БКК
+T10	ORGANIZATION 427 436	Интерпола
+T11	ORGANIZATION 462 471	Уралкалия
+T12	LAW 549 558	п.4 ст.16
+T13	LAW 561 594	ч.3 ст.424 УК Республики Беларусь
+T14	DATE 615 624	до 10 лет
+T15	COUNTRY 678 689	белорусских
+T16	COUNTRY 718 728	Белоруссии
+T17	PERSON 730 737	Керимов
+T18	COUNTRY 768 774	России
+T19	ORGANIZATION 790 792	СК
+T20	ORGANIZATION 832 855	Генеральную прокуратуру
+T21	COUNTRY 856 876	Российской Федерации
+T22	AGE 879 888	47 летний
+T23	PERSON 889 917	Сулейман Абусаидович Керимов
+T24	COUNTRY 920 930	российский
+T25	PROFESSION 931 946	предприниматель
+T27	ORGANIZATION 953 969	Совета Федерации
+T28	STATE_OR_PROVINCE 973 982	Дагестана
+T29	ORGANIZATION 1028 1040	Нафта Москва
+T30	ORGANIZATION 1070 1074	Анжи
+T31	EVENT 17 48	объявлен в международный розыск
+T32	ORGANIZATION 88 119	Следственный комитет Белоруссии
+T6	ORGANIZATION 153 162	Уралкалий
+T8	ORGANIZATION 258 287	Белорусская калийная компания
+T33	EVENT 298 317	вынес постановления
+T34	EVENT 120 127;183 205	привлек в качестве обвиняемого
+T35	PENALTY 361 382	заключения под стражу
+T36	PENALTY 615 665	до 10 лет лишения свободы с конфискацией имущества
+T37	CRIME 485 546	организации злоупотребления властью и служебными полномочиями
+T38	COUNTRY 575 594	Республики Беларусь
+T39	LAW 572 574	УК
+T40	LAW 572 594	УК Республики Беларусь
+T41	ORDINAL 551 552	4
+T42	ORDINAL 556 558	16
+T43	ORDINAL 563 564	3
+T44	ORDINAL 568 571	424
+T45	LAW 565 594	ст.424 УК Республики Беларусь
+T46	ORGANIZATION 832 876	Генеральную прокуратуру Российской Федерации
+T26	CITY 1034 1040	Москва
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T31	
+R2	OWNER_OF Arg1:T7 Arg2:T6	
+R5	HEADQUARTERED_IN Arg1:T32 Arg2:T5	
+R6	POINT_IN_TIME Arg1:T34 Arg2:T3	
+T48	COUNTRY 258 269	Белорусская
+R7	ABBREVIATION Arg1:T8 Arg2:T9	
+R8	HEADQUARTERED_IN Arg1:T8 Arg2:T48	
+R9	PARTICIPANT_IN Arg1:T32 Arg2:T33	
+R10	PARTICIPANT_IN Arg1:T32 Arg2:T34	
+T50	PROFESSION 690 702	следователей
+R11	WORKPLACE Arg1:T50 Arg2:T15	
+R4	HEADQUARTERED_IN Arg1:T46 Arg2:T21	
+R12	AGE_IS Arg1:T23 Arg2:T22	
+R13	WORKPLACE Arg1:T25 Arg2:T24	
+R14	WORKS_AS Arg1:T23 Arg2:T25	
+T51	PROFESSION 948 969	член Совета Федерации
+R15	WORKPLACE Arg1:T51 Arg2:T27	
+R17	ORIGINS_FROM Arg1:T51 Arg2:T28	
+R18	HEADQUARTERED_IN Arg1:T29 Arg2:T26	
+R19	OWNER_OF Arg1:T23 Arg2:T29	
+R20	OWNER_OF Arg1:T23 Arg2:T30	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R3	CONVICTED_OF Arg1:T7 Arg2:T37	
+R22	ORIGINS_FROM Arg1:T40 Arg2:T38	
+R23	ALTERNATIVE_NAME Arg1:T7 Arg2:T17	
+R24	PARTICIPANT_IN Arg1:T32 Arg2:T34	
+R25	PARTICIPANT_IN Arg1:T7 Arg2:T34	
+R26	PARTICIPANT_IN Arg1:T7 Arg2:T33	
+R27	ABBREVIATION Arg1:T32 Arg2:T19	
+T47	PENALTY 385 404	объявлении в розыск
+R28	PENALIZED_AS Arg1:T7 Arg2:T47	
+R29	PART_OF Arg1:T13 Arg2:T45	
+R30	PART_OF Arg1:T45 Arg2:T40	
+T49	PENALTY 625 640	лишения свободы
+T52	PENALTY 643 665	конфискацией имущества
+N1	Reference T1 Wikidata:Q447250	Сулейман Абусаидович Керимов
+N2	Reference T5 Wikidata:Q184	Белоруссия
+N3	Reference T10 Wikidata:Q8475	Интерпол
+N4	Reference T11 Wikidata:Q904594	Уралкалий
+N8	Reference T18 Wikidata:Q159	Россия
+N10	Reference T20 Wikidata:Q2387440	Прокуратура Российской Федерации
+N11	Reference T21 Wikidata:Q159	Россия
+N12	Reference T23 Wikidata:Q447250	Сулейман Абусаидович Керимов
+N14	Reference T25 Wikidata:Q131524	предприниматель
+N15	Reference T27 Wikidata:Q186473	Совет Федерации
+N16	Reference T28 Wikidata:Q5118	Дагестан
+N18	Reference T30 Wikidata:Q19353	Анжи
+N19	Reference T8 Wikidata:Q4082705	Белорусская калийная компания
+N20	Reference T38 Wikidata:Q184	Белоруссия
+N24	Reference T46 Wikidata:Q2387440	Прокуратура Российской Федерации
+N25	Reference T26 Wikidata:Q649	Москва
+N27	Reference T2 Wikidata:Q18400825	
+N22	Reference T40 Wikidata:Q3917299	
+N23	Reference T45 Wikidata:NULL	нет данных
+N5	Reference T12 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:NULL	нет данных
+N21	Reference T39 Wikidata:Q19705	уголовное законодательство
+N26	Reference T50 Wikidata:Q1971388	
+N7	Reference T17 Wikidata:Q447250	Сулейман Абусаидович Керимов
+N9	Reference T19 Wikidata:Q18400825	
+N28	Reference T4 Wikidata:Q18400825	
+N13	Reference T24 Wikidata:Q159	Россия
+N17	Reference T29 Wikidata:Q4314635	
+N29	Reference T2 Wikidata:Q447250	Сулейман Абусаидович Керимов
+N30	Reference T48 Wikidata:Q184	Белоруссия
+N31	Reference T16 Wikidata:Q184	Белоруссия
+N32	Reference T15 Wikidata:Q184	Белоруссия
+N33	Reference T6 Wikidata:Q904594	Уралкалий
+N34	Reference T51 Wikidata:Q131524	предприниматель
+N35	Reference T9 Wikidata:Q4082705	Белорусская калийная компания
+N36	Reference T1 Wikidata:Q18400825	
+N37	Reference T7 Wikidata:Q447250	Сулейман Абусаидович Керимов
+N38	Reference T32 Wikidata:Q18400825	

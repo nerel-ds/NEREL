@@ -1,0 +1,177 @@
+T1	ORGANIZATION 0 13	Верховный суд
+T2	PERSON 31 41	Навальному
+T3	ORGANIZATION 51 60	Кировлеса
+T4	CITY 74 80	Москве
+T6	ORGANIZATION 133 142	Кировлеса
+T7	DATE 143 171	В среду, 16 ноября 2016 года
+T8	ORGANIZATION 173 186	Верховный суд
+T9	COUNTRY 187 193	России
+T10	ORGANIZATION 195 197	ВС
+T11	PERSON 216 234	Алексею Навальному
+T12	PERSON 237 252	Петру Офицерову
+T13	ORGANIZATION 262 271	Кировлеса
+T14	ORGANIZATION 312 334	Ленинский районный суд
+T15	CITY 335 341	Кирова
+T17	DATE 378 384	в июне
+T18	ORGANIZATION 393 429	Европейского суда по правам человека
+T19	ORGANIZATION 431 435	ЕСПЧ
+T20	PROFESSION 467 477	президента
+T21	COUNTRY 478 480	РФ
+T22	PERSON 481 497	Владимира Путина
+T23	PERSON 499 516	Алексей Навальный
+T24	DATE 517 528	в 2013 году
+T25	DATE 638 657	В феврале 2016 года
+T27	ORGANIZATION 664 668	ЕСПЧ
+T28	ORGANIZATION 695 704	Кировлеса
+T29	COUNTRY 742 748	Россия
+T30	PERSON 764 774	Навального
+T31	PERSON 777 792	Петра Офицерова
+T32	LAW 826 872	ст. 6 Европейской конвенции по правам человека
+T33	LAW 832 872	Европейской конвенции по правам человека
+T34	LAW 929 934	ст. 7
+T35	ORGANIZATION 1013 1017	ЕСПЧ
+T36	PERSON 1054 1064	Навального
+T37	PERSON 1067 1076	Офицерова
+T40	PERSON 1112 1129	Вячеслава Опалёва
+T42	CITY 1326 1336	Страсбурге
+T43	IDEOLOGY 1346 1359	оппозиционеру
+T44	PERSON 1360 1378	Алексею Навальному
+T45	PROFESSION 1381 1391	бизнесмену
+T46	PERSON 1392 1407	Петру Офицерову
+T47	MONEY 1423 1432	8000 евро
+T48	PROFESSION 1478 1493	председатель ВС
+T49	ORGANIZATION 1491 1493	ВС
+T50	PERSON 1494 1510	Вячеслав Лебедев
+T52	PERSON 1579 1596	Алексей Навальный
+R1	ALTERNATIVE_NAME Arg1:T10 Arg2:T8
+R4	ABBREVIATION Arg1:T18 Arg2:T19
+R5	WORKS_AS Arg1:T22 Arg2:T53
+R10	WORKS_AS Arg1:T46 Arg2:T45
+R11	WORKPLACE Arg1:T50 Arg2:T49
+T26	ORGANIZATION 173 193	Верховный суд России
+T53	PROFESSION 467 480	президента РФ
+T54	ORGANIZATION 1102 1110	Кировлес
+T41	PROFESSION 658 663	судьи
+T51	LAW 46 60	Делу Кировлеса
+T55	LAW 690 704	Дело Кировлеса
+T16	EVENT 14 30	отменил приговор
+R2	AGENT Arg1:T1 Arg2:T16	
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T16	
+T56	EVENT 63 71	Протесты
+R12	TAKES_PLACE_IN Arg1:T56 Arg2:T4	
+R13	HEADQUARTERED_IN Arg1:T26 Arg2:T9	
+T57	EVENT 199 215	отменил приговор
+R14	PARTICIPANT_IN Arg1:T11 Arg2:T57	
+R15	PARTICIPANT_IN Arg1:T12 Arg2:T57	
+R16	AGENT Arg1:T26 Arg2:T57	
+R17	POINT_IN_TIME Arg1:T57 Arg2:T7	
+T58	EVENT 533 549	признан виновным
+R18	WORKPLACE Arg1:T22 Arg2:T21	
+R19	WORKPLACE Arg1:T53 Arg2:T21	
+R20	POINT_IN_TIME Arg1:T58 Arg2:T24	
+R21	PARTICIPANT_IN Arg1:T23 Arg2:T58	
+T59	PROFESSION 658 668	судьи ЕСПЧ
+T60	LOCATION 832 843	Европейской
+T61	CRIME 552 560	хищениях
+R23	KNOWS Arg1:T36 Arg2:T37	
+R24	KNOWS Arg1:T30 Arg2:T31	
+R25	WORKS_AS Arg1:T50 Arg2:T48	
+T62	EVENT 1337 1345	присудил
+T63	ORGANIZATION 1320 1336	суд в Страсбурге
+R26	ALTERNATIVE_NAME Arg1:T27 Arg2:T63	
+R27	AGENT Arg1:T63 Arg2:T62	
+R9	IDEOLOGY_OF Arg1:T44 Arg2:T43	
+R28	PARTICIPANT_IN Arg1:T44 Arg2:T62	
+R29	PARTICIPANT_IN Arg1:T46 Arg2:T62	
+T64	LOCATION 393 405	Европейского
+T65	PERSON 312 321	Ленинский
+T66	LAW 128 142	Делу Кировлеса
+T67	LAW 257 272	Делу Кировлеса»
+T68	ORGANIZATION 312 341	Ленинский районный суд Кирова
+R3	HEADQUARTERED_IN Arg1:T68 Arg2:T15	
+R30	ALTERNATIVE_NAME Arg1:T9 Arg2:T21	
+R31	WORKPLACE Arg1:T59 Arg2:T27	
+R32	ALTERNATIVE_NAME Arg1:T23 Arg2:T30	
+R33	KNOWS Arg1:T11 Arg2:T12	
+T69	ORDINAL 830 831	6
+R34	HEADQUARTERED_IN Arg1:T18 Arg2:T64	
+R35	ORIGINS_FROM Arg1:T33 Arg2:T60	
+T70	ORDINAL 933 934	7
+R36	ALTERNATIVE_NAME Arg1:T31 Arg2:T37	
+T38	PROFESSION 1089 1111	главы КОГУП «Кировлес»
+R7	WORKPLACE Arg1:T38 Arg2:T54	
+R8	WORKPLACE Arg1:T40 Arg2:T54	
+R22	WORKS_AS Arg1:T40 Arg2:T38	
+R37	HEADQUARTERED_IN Arg1:T63 Arg2:T42	
+R38	WORKPLACE Arg1:T48 Arg2:T49	
+R39	KNOWS Arg1:T36 Arg2:T40	
+R40	KNOWS Arg1:T37 Arg2:T40	
+R41	ABBREVIATION Arg1:T8 Arg2:T49	
+T39	EVENT 114 124;88 94	под стражу взятия
+T5	PERSON 95 113	Алексея Навального
+R42	PARTICIPANT_IN Arg1:T5 Arg2:T39	
+R43	HAS_CAUSE Arg1:T56 Arg2:T39	
+R44	HAS_CAUSE Arg1:T58 Arg2:T61	
+R45	HAS_CAUSE Arg1:T56 Arg2:T39	
+R46	HAS_CAUSE Arg1:T39 Arg2:T66	
+R47	HAS_CAUSE Arg1:T57 Arg2:T67	
+R48	CONVICTED_OF Arg1:T23 Arg2:T61	
+R49	PART_OF Arg1:T32 Arg2:T33	
+R50	PART_OF Arg1:T34 Arg2:T33	
+R51	INCOME Arg1:T44 Arg2:T47	
+R52	INCOME Arg1:T45 Arg2:T47	
+N1	Reference T4 Wikidata:Q649	Москва
+N4	Reference T18 Wikidata:Q122880	Европейский суд по правам человека
+N5	Reference T20 Wikidata:Q30461	президент
+N6	Reference T22 Wikidata:Q7747	Владимир Владимирович Путин
+N7	Reference T27 Wikidata:Q122880	Европейский суд по правам человека
+N8	Reference T29 Wikidata:Q159	Россия
+N10	Reference T33 Wikidata:Q183191	Европейская конвенция о защите прав человека и основных свобод
+N13	Reference T42 Wikidata:Q6602	Страсбург
+N14	Reference T45 Wikidata:Q131524	предприниматель
+N15	Reference T46 Wikidata:Q14202636	Пётр Офицеров
+N19	Reference T52 Wikidata:Q155979	Алексей Анатольевич Навальный
+N20	Reference T26 Wikidata:Q2622450	Верховный Суд Российской Федерации
+N21	Reference T53 Wikidata:Q218295	президент Российской Федерации
+N22	Reference T41 Wikidata:Q16533	судья
+N30	Reference T3 Wikidata:NULL	нет данных
+N27	Reference T67 Wikidata:Q14551271	
+N3	Reference T15 Wikidata:Q5384	Киров
+N26	Reference T65 Wikidata:Q1394	Владимир Ильич Ленин
+N2	Reference T14 Wikidata:NULL	нет данных
+N28	Reference T68 Wikidata:NULL	нет данных
+N25	Reference T64 Wikidata:Q46	Европа
+N24	Reference T59 Wikidata:Q64682634	
+N23	Reference T55 Wikidata:Q14551271	
+N9	Reference T32 Wikidata:NULL	нет данных
+N11	Reference T34 Wikidata:NULL	нет данных
+N29	Reference T38 Wikidata:NULL	нет данных
+N12	Reference T40 Wikidata:NULL	нет данных
+N16	Reference T48 Wikidata:NULL	нет данных
+N17	Reference T49 Wikidata:Q2622450	Верховный Суд Российской Федерации
+N18	Reference T50 Wikidata:Q13632114	Вячеслав Михайлович Лебедев
+N31	Reference T19 Wikidata:Q122880	Европейский суд по правам человека
+N32	Reference T63 Wikidata:Q122880	Европейский суд по правам человека
+N33	Reference T35 Wikidata:Q122880	Европейский суд по правам человека
+N34	Reference T9 Wikidata:Q159	Россия
+N35	Reference T21 Wikidata:Q159	Россия
+N36	Reference T31 Wikidata:Q14202636	Пётр Офицеров
+N37	Reference T37 Wikidata:Q14202636	Пётр Офицеров
+N38	Reference T12 Wikidata:Q14202636	Пётр Офицеров
+N39	Reference T44 Wikidata:Q155979	Алексей Анатольевич Навальный
+N40	Reference T5 Wikidata:Q155979	Алексей Анатольевич Навальный
+N41	Reference T23 Wikidata:Q155979	Алексей Анатольевич Навальный
+N42	Reference T11 Wikidata:Q155979	Алексей Анатольевич Навальный
+N43	Reference T36 Wikidata:Q155979	Алексей Анатольевич Навальный
+N44	Reference T2 Wikidata:Q155979	Алексей Анатольевич Навальный
+N45	Reference T30 Wikidata:Q155979	Алексей Анатольевич Навальный
+N46	Reference T13 Wikidata:NULL	нет данных
+N47	Reference T54 Wikidata:NULL	нет данных
+N48	Reference T28 Wikidata:NULL	нет данных
+N49	Reference T6 Wikidata:NULL	нет данных
+N50	Reference T60 Wikidata:Q46	Европа
+N51	Reference T51 Wikidata:Q14551271	
+N52	Reference T66 Wikidata:Q14551271	
+N53	Reference T8 Wikidata:Q2622450	Верховный Суд Российской Федерации
+N54	Reference T10 Wikidata:Q2622450	Верховный Суд Российской Федерации
+N55	Reference T1 Wikidata:Q2622450	Верховный Суд Российской Федерации

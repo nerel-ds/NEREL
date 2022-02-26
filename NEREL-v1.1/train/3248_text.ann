@@ -1,0 +1,117 @@
+T2	PERSON 51 61	Стив Ирвин
+T3	PERSON 64 75	Steve Irwin
+T4	NATIONALITY 89 102	австралийский
+T5	STATE_OR_PROVINCE 222 231	Квинсленд
+T6	LOCATION 241 265	Большого Барьерного рифа
+T7	PERSON 267 273	Ирвину
+T8	AGE 279 286	44 года
+T9	PERSON 289 294	Ирвин
+T10	WORK_OF_ART 353 374	Охотник на крокодилов
+T11	COUNTRY 402 415	австралийской
+T12	PROFESSION 433 441	Менеджер
+T13	PERSON 449 462	Джон Стэйнтон
+T14	PERSON 464 477	John Stainton
+T15	ORGANIZATION 486 494	Би-Би-Си
+T16	PERSON 531 536	Ирвин
+T17	TIME 618 644	в течение нескольких минут
+T18	PERSON 706 714	Стэйнтон
+T19	COUNTRY 717 730	Австралийский
+T21	PERSON 747 758	Джон Говард
+T22	PERSON 760 771	John Howard
+T23	PERSON 800 806	Ирвина
+T24	PERSON 917 929	Стива Ирвина
+T25	PERSON 939 945	Говард
+T26	COUNTRY 975 984	Австралии
+T27	NUMBER 1418 1422	один
+T28	CITY 1433 1442	Мельбурне
+T29	DATE 1443 1454	в 1945 году
+T30	EVENT 0 5	Погиб
+T31	PROFESSION 6 27	охотник на крокодилов
+T32	PERSON 28 38	Стив Ирвин
+T33	PROFESSION 6 13	охотник
+T34	PERSON 39 49	Стив Ирвин
+T35	PROFESSION 103 113	натуралист
+T36	PROFESSION 116 137	телевизионный ведущий
+T37	PROFESSION 130 137	ведущий
+T38	EVENT 138 143	погиб
+T39	EVENT 195 203	Инцидент
+T40	PROFESSION 433 448	Менеджер Ирвина
+T41	PERSON 442 448	Ирвина
+T42	PROFESSION 669 678	спасатели
+T43	PROFESSION 731 746	Премьер-министр
+T44	EVENT 909 916	смертью
+T45	NUMBER 1091 1100	миллионам
+T46	EVENT 1456 1480	гибели человека от ската
+R1	PARTICIPANT_IN Arg1:T32 Arg2:T30	
+R2	WORKS_AS Arg1:T32 Arg2:T31	
+R3	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+R4	ORIGINS_FROM Arg1:T2 Arg2:T4	
+R5	WORKS_AS Arg1:T2 Arg2:T35	
+R6	WORKS_AS Arg1:T2 Arg2:T36	
+R7	PARTICIPANT_IN Arg1:T2 Arg2:T38	
+T47	EVENT 147 167	укола жалящего ската
+T48	EVENT 177 193	подводных съёмок
+R8	HAS_CAUSE Arg1:T38 Arg2:T47	
+R9	SUBEVENT_OF Arg1:T47 Arg2:T48	
+R10	PARTICIPANT_IN Arg1:T2 Arg2:T47	
+R11	PARTICIPANT_IN Arg1:T2 Arg2:T48	
+R12	TAKES_PLACE_IN Arg1:T39 Arg2:T5	
+R13	TAKES_PLACE_IN Arg1:T39 Arg2:T6	
+R14	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R15	ALTERNATIVE_NAME Arg1:T38 Arg2:T39	
+R16	AGE_DIED_AT Arg1:T7 Arg2:T8	
+R17	PRODUCES Arg1:T9 Arg2:T10	
+T49	PROFESSION 353 360	Охотник
+R18	SUBORDINATE_OF Arg1:T40 Arg2:T41	
+R19	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R20	WORKS_AS Arg1:T13 Arg2:T40	
+R21	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R22	KNOWS Arg1:T21 Arg2:T23	
+T20	PROFESSION 717 746	Австралийский Премьер-министр
+R23	WORKPLACE Arg1:T20 Arg2:T19	
+R24	WORKS_AS Arg1:T21 Arg2:T20	
+R25	ALTERNATIVE_NAME Arg1:T39 Arg2:T44	
+R26	PARTICIPANT_IN Arg1:T24 Arg2:T44	
+R27	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R28	ALTERNATIVE_NAME Arg1:T21 Arg2:T25	
+R29	ALTERNATIVE_NAME Arg1:T19 Arg2:T26	
+R30	POINT_IN_TIME Arg1:T46 Arg2:T29	
+R31	TAKES_PLACE_IN Arg1:T46 Arg2:T28	
+R32	CAUSE_OF_DEATH Arg1:T2 Arg2:T47	
+R33	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+N2	Reference T5 Wikidata:Q36074	Квинсленд
+N3	Reference T6 Wikidata:Q7343	Большой Барьерный риф
+N6	Reference T12 Wikidata:Q2462658	менеджер
+N7	Reference T15 Wikidata:Q9531	Би-би-си
+N11	Reference T26 Wikidata:Q408	Австралия
+N12	Reference T28 Wikidata:Q3141	Мельбурн
+N14	Reference T35 Wikidata:Q18805	естествоиспытатель
+N15	Reference T36 Wikidata:Q947873	телеведущий
+N16	Reference T37 Wikidata:Q947873	телеведущий
+N19	Reference T43 Wikidata:Q14212	премьер-министр
+N20	Reference T49 Wikidata:Q1714828	охотник
+N4	Reference T9 Wikidata:Q126513	Ирвин, Стив
+N8	Reference T16 Wikidata:Q126513	Ирвин, Стив
+N13	Reference T31 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:Q1318423	
+N17	Reference T40 Wikidata:NULL	нет данных
+N21	Reference T13 Wikidata:Q3182498	
+N18	Reference T42 Wikidata:Q17126809	спасатель
+N9	Reference T18 Wikidata:Q3182498	
+N22	Reference T20 Wikidata:Q319145	премьер-министр Австралии
+N10	Reference T22 Wikidata:Q51330	
+N5	Reference T10 Wikidata:Q2448134	
+N23	Reference T19 Wikidata:Q408	Австралия
+N24	Reference T11 Wikidata:Q408	Австралия
+N25	Reference T33 Wikidata:Q1714828	охотник
+N26	Reference T7 Wikidata:Q126513	Ирвин, Стив
+N27	Reference T2 Wikidata:Q126513	Ирвин, Стив
+N28	Reference T3 Wikidata:Q126513	Ирвин, Стив
+N29	Reference T23 Wikidata:Q126513	Ирвин, Стив
+N30	Reference T24 Wikidata:Q126513	Ирвин, Стив
+N31	Reference T34 Wikidata:Q126513	Ирвин, Стив
+N32	Reference T41 Wikidata:Q126513	Ирвин, Стив
+N33	Reference T32 Wikidata:Q126513	Ирвин, Стив
+N34	Reference T14 Wikidata:Q3182498	
+N35	Reference T25 Wikidata:Q51330	
+N36	Reference T21 Wikidata:Q51330	

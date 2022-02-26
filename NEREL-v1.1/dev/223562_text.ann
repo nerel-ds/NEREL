@@ -1,0 +1,154 @@
+T1	PROFESSION 0 9	Император
+T2	PERSON 17 24	Акихито
+T3	PROFESSION 56 65	Император
+T4	COUNTRY 84 90	Японии
+T5	PERSON 91 98	Акихито
+T6	DATE 121 128	Сегодня
+T7	COUNTRY 334 340	Японии
+T8	PERSON 449 457	Нарухито
+T9	NUMBER 469 471	11
+T10	DATE 495 503	11 марта
+T11	COUNTRY 545 551	Японии
+T12	FACILITY 553 575	главный храм Аматэрасу
+T13	CITY 578 581	Исе
+T14	FACILITY 584 613	мавзолей своего отца Хирохито
+T15	PERSON 605 613	Хирохито
+T16	CITY 616 621	Токио
+T17	PERSON 624 631	Акихито
+T18	PROFESSION 645 655	Императора
+T19	DATE 663 683	с 7 января 1989 года
+T20	COUNTRY 700 708	японским
+T21	DATE 720 740	за последние 200 лет
+T22	AGE 848 854	85 лет
+T23	PERSON 879 886	Акихито
+T24	COUNTRY 906 914	японским
+T25	PROFESSION 0 16	Император Японии
+T26	PROFESSION 74 90	Император Японии
+T27	PROFESSION 74 83	Император
+T28	PROFESSION 230 237	монарху
+T29	PROFESSION 361 370	император
+T31	PROFESSION 411 421	императора
+T32	PROFESSION 645 662	Императора Японии
+T33	PROFESSION 709 719	правителем
+T34	PROFESSION 700 719	японским правителем
+T35	PROFESSION 857 867	Императора
+T36	PROFESSION 1086 1096	императора
+T37	COUNTRY 10 16	Японии
+T38	EVENT 34 55	отречение от престола
+T39	PERSON 66 73	Акихито
+T40	EVENT 99 118	отрёкся от престола
+T42	EVENT 169 188	отречением престола
+T43	PERSON 286 295	Аматэрасу
+T44	EVENT 472 480	ритуалов
+T45	PERSON 481 488	Акихито
+T46	PERSON 566 575	Аматэрасу
+T47	FACILITY 269 295	святилище богини Аматэрасу
+T48	COUNTRY 656 662	Японии
+T49	ORDINAL 693 699	первым
+T50	PERSON 783 789	Кокаку
+T51	PROFESSION 772 782	императора
+T52	EVENT 802 811	отречения
+T53	PERSON 887 895	Нарухито
+T54	ORGANIZATION 906 926	японским парламентом
+T55	ORGANIZATION 915 926	парламентом
+T56	LAW 934 1004	закон, разрешающий прижизненную передачу передачи Хризантемового трона
+T57	FACILITY 984 1004	Хризантемового трона
+T59	DATE 1120 1131	эпоха Рэйва
+R1	LOCATED_IN Arg1:T12 Arg2:T13	
+R2	LOCATED_IN Arg1:T14 Arg2:T16	
+R3	LOCATED_IN Arg1:T15 Arg2:T14	
+R4	WORKS_AS Arg1:T17 Arg2:T32	
+R5	WORKPLACE Arg1:T32 Arg2:T48	
+R6	ALTERNATIVE_NAME Arg1:T48 Arg2:T20	
+R7	WORKPLACE Arg1:T34 Arg2:T20	
+R8	ALTERNATIVE_NAME Arg1:T32 Arg2:T34	
+R9	WORKS_AS Arg1:T50 Arg2:T51	
+R10	WORKS_AS Arg1:T2 Arg2:T25	
+R11	WORKPLACE Arg1:T2 Arg2:T37	
+R12	AGENT Arg1:T2 Arg2:T38	
+R13	WORKS_AS Arg1:T39 Arg2:T3	
+R14	WORKS_AS Arg1:T5 Arg2:T26	
+R15	WORKPLACE Arg1:T5 Arg2:T4	
+R16	AGENT Arg1:T5 Arg2:T40	
+R17	ALTERNATIVE_NAME Arg1:T38 Arg2:T40	
+R18	LOCATED_IN Arg1:T47 Arg2:T7	
+T30	EVENT 239 246	посетил
+R19	PARTICIPANT_IN Arg1:T5 Arg2:T30	
+R20	TAKES_PLACE_IN Arg1:T30 Arg2:T47	
+R21	SUBEVENT_OF Arg1:T30 Arg2:T58	
+R22	PARENT_OF Arg1:T5 Arg2:T8	
+R23	WORKS_AS Arg1:T5 Arg2:T28	
+R24	AGENT Arg1:T28 Arg2:T30	
+R25	RELATIVE Arg1:T5 Arg2:T43	
+T61	EVENT 397 421	уходе с поста императора
+R26	ALTERNATIVE_NAME Arg1:T40 Arg2:T42	
+R27	ALTERNATIVE_NAME Arg1:T42 Arg2:T61	
+R28	POINT_IN_TIME Arg1:T30 Arg2:T6	
+T41	EVENT 742 764	отрёкшимся от престола
+R29	AGENT Arg1:T34 Arg2:T41	
+R30	AGE_IS Arg1:T17 Arg2:T22	
+R31	ALTERNATIVE_NAME Arg1:T41 Arg2:T52	
+R32	WORKS_AS Arg1:T23 Arg2:T35	
+R33	PARENT_OF Arg1:T23 Arg2:T53	
+R34	HEADQUARTERED_IN Arg1:T54 Arg2:T24	
+T58	EVENT 141 155	серию ритуалов
+R35	SUBEVENT_OF Arg1:T58 Arg2:T42	
+T60	EVENT 460 480	Серию из 11 ритуалов
+R36	ALTERNATIVE_NAME Arg1:T58 Arg2:T60	
+R37	AGENT Arg1:T45 Arg2:T60	
+R38	POINT_IN_TIME Arg1:T60 Arg2:T10	
+T62	EVENT 147 155	ритуалов
+T63	EVENT 518 525	посетил
+R39	SUBEVENT_OF Arg1:T63 Arg2:T60	
+R40	PARTICIPANT_IN Arg1:T45 Arg2:T63	
+R41	END_TIME Arg1:T58 Arg2:T6	
+R42	LOCATED_IN Arg1:T13 Arg2:T11	
+R43	LOCATED_IN Arg1:T16 Arg2:T11	
+R44	TAKES_PLACE_IN Arg1:T63 Arg2:T12	
+R45	TAKES_PLACE_IN Arg1:T63 Arg2:T14	
+R46	WORKPLACE Arg1:T25 Arg2:T37	
+R47	PRODUCES Arg1:T54 Arg2:T56	
+R48	WORKPLACE Arg1:T26 Arg2:T4	
+N2	Reference T13 Wikidata:Q328067	Исэ
+N4	Reference T15 Wikidata:Q34479	Хирохито
+N5	Reference T16 Wikidata:Q1490	Токио
+N6	Reference T26 Wikidata:Q208233	император Японии
+N7	Reference T28 Wikidata:Q116	монарх
+N8	Reference T33 Wikidata:Q1097498	правитель
+N10	Reference T45 Wikidata:Q37979	Акихито
+N11	Reference T46 Wikidata:Q455602	Аматэрасу
+N13	Reference T48 Wikidata:Q17	Япония
+N14	Reference T50 Wikidata:Q313806	Император Кокаку
+N15	Reference T53 Wikidata:Q217096	Нарухито
+N16	Reference T54 Wikidata:Q202384	Парламент Японии
+N17	Reference T55 Wikidata:Q35749	парламент
+N12	Reference T47 Wikidata:Q11635085	
+N1	Reference T12 Wikidata:Q687168	
+N3	Reference T14 Wikidata:NULL	нет данных
+N9	Reference T35 Wikidata:Q39018	император
+N19	Reference T57 Wikidata:Q1981690	
+N18	Reference T56 Wikidata:NULL	нет данных
+N20	Reference T34 Wikidata:Q208233	император Японии
+N21	Reference T32 Wikidata:Q208233	император Японии
+N22	Reference T25 Wikidata:Q208233	император Японии
+N23	Reference T5 Wikidata:Q37979	Акихито
+N24	Reference T23 Wikidata:Q37979	Акихито
+N25	Reference T17 Wikidata:Q37979	Акихито
+N26	Reference T39 Wikidata:Q37979	Акихито
+N27	Reference T2 Wikidata:Q37979	Акихито
+N28	Reference T43 Wikidata:Q455602	Аматэрасу
+N29	Reference T20 Wikidata:Q17	Япония
+N30	Reference T24 Wikidata:Q17	Япония
+N31	Reference T4 Wikidata:Q17	Япония
+N32	Reference T7 Wikidata:Q17	Япония
+N33	Reference T11 Wikidata:Q17	Япония
+N34	Reference T37 Wikidata:Q17	Япония
+N35	Reference T8 Wikidata:Q217096	Нарухито
+N36	Reference T36 Wikidata:Q39018	император
+N37	Reference T51 Wikidata:Q39018	император
+N38	Reference T31 Wikidata:Q39018	император
+N39	Reference T29 Wikidata:Q39018	император
+N40	Reference T3 Wikidata:Q39018	император
+N41	Reference T18 Wikidata:Q39018	император
+N42	Reference T1 Wikidata:Q39018	император
+N43	Reference T27 Wikidata:Q39018	император

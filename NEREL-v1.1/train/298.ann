@@ -1,0 +1,171 @@
+T1	PROFESSION 6 22	президентом Перу
+T2	IDEOLOGY 34 45	националист
+T3	PERSON 46 53	О.Умала
+T4	COUNTRY 57 61	Перу
+T5	PERSON 112 125	Ольянта Умала
+T6	AGE 127 136	48-летний
+T7	NUMBER 170 184	более половины
+T8	ORGANIZATION 234 244	Al Jazeera
+T9	PERCENT 300 305	52,6%
+T11	AGE 383 392	36-летняя
+T12	PERSON 393 407	Кейко Фухимори
+T13	PERCENT 424 429	47,4%
+T14	COUNTRY 481 485	Перу
+T15	PERSON 527 534	О.Умала
+T16	PROFESSION 544 586	председателем ультралевой индейской партии
+T17	COUNTRY 587 591	Перу
+T18	PERSON 598 605	О.Умалы
+T19	DATE 606 620	1 января 2005г
+T20	CITY 652 665	г.Андауйаласа
+T21	DATE 668 682	несколько дней
+T22	PROFESSION 746 756	президенты
+T23	COUNTRY 800 810	перуанской
+T24	COUNTRY 880 884	Перу
+T25	COUNTRY 887 895	Эквадора
+T26	DATE 905 912	В 2000г
+T27	PROFESSION 944 954	президента
+T29	PERSON 975 982	О.Умала
+T30	ORDINAL 1018 1024	второй
+T31	DATE 1030 1037	В 2006г
+T32	PROFESSION 1055 1065	президента
+T33	ORDINAL 1109 1115	второй
+T35	PERSON 1121 1128	О.Умалу
+T37	PERSON 1248 1258	К.Фухимори
+T38	PROFESSION 1270 1285	президента Перу
+T39	PERSON 1286 1296	А.Фухимори
+T40	PROFESSION 1298 1305	депутат
+T41	ORGANIZATION 1313 1322	Сила 2011
+T42	COUNTRY 1348 1351	США
+T44	PERSON 1357 1367	А.Фухимори
+T45	NUMBER 1686 1697	не менее 25
+T46	DATE 1706 1722	в начале 90-х гг
+T47	COUNTRY 18 22	Перу
+T48	PROFESSION 73 83	президента
+T49	IDEOLOGY 94 111	левый националист
+T50	IDEOLOGY 94 99	левый
+T51	IDEOLOGY 100 111	националист
+T52	PROFESSION 144 160	кадровый военный
+T53	PROFESSION 153 160	военный
+T54	IDEOLOGY 354 375	правой консервативной
+T55	IDEOLOGY 354 360	правой
+T56	IDEOLOGY 361 375	консервативной
+T57	IDEOLOGY 558 569	ультралевой
+T58	NATIONALITY 570 579	индейской
+T59	PROFESSION 827 840	подполковника
+T60	ORGANIZATION 811 816	армии
+T61	DATE 896 903	в 1995г
+T62	PERSON 955 972	Альберто Фухимори
+T28	PROFESSION 995 1008	президентской
+T63	PERSON 1066 1078	Алану Гарсии
+T34	PROFESSION 1270 1280	президента
+T36	COUNTRY 1281 1285	Перу
+T43	IDEOLOGY 1747 1753	левого
+R1	IDEOLOGY_OF Arg1:T3 Arg2:T2	
+T64	PROFESSION 6 17	президентом
+R2	WORKS_AS Arg1:T3 Arg2:T1	
+R3	WORKPLACE Arg1:T3 Arg2:T47	
+T65	EVENT 65 83	выборах президента
+R4	IDEOLOGY_OF Arg1:T5 Arg2:T49	
+R5	PARTICIPANT_IN Arg1:T5 Arg2:T65	
+T66	EVENT 65 72	выборах
+R6	WORKPLACE Arg1:T5 Arg2:T4	
+R7	TAKES_PLACE_IN Arg1:T65 Arg2:T4	
+R8	AGE_IS Arg1:T5 Arg2:T6	
+R9	WORKS_AS Arg1:T5 Arg2:T52	
+R10	AGE_IS Arg1:T12 Arg2:T11	
+R11	PARTICIPANT_IN Arg1:T12 Arg2:T65	
+R12	IDEOLOGY_OF Arg1:T12 Arg2:T54	
+R13	ALTERNATIVE_NAME Arg1:T5 Arg2:T15	
+R14	IDEOLOGY_OF Arg1:T15 Arg2:T57	
+R15	ORIGINS_FROM Arg1:T15 Arg2:T58	
+R16	WORKS_AS Arg1:T15 Arg2:T16	
+T10	PERSON 593 605	Брат О.Умалы
+T67	EVENT 629 649	мятеж против властей
+R17	ORGANIZES Arg1:T10 Arg2:T67	
+R18	TAKES_PLACE_IN Arg1:T67 Arg2:T20	
+T68	PROFESSION 735 756	кандидат в президенты
+R19	WORKS_AS Arg1:T15 Arg2:T59	
+T69	ORGANIZATION 800 816	перуанской армии
+T70	EVENT 858 879	вооруженном конфликте
+R20	POINT_IN_TIME Arg1:T70 Arg2:T61	
+R21	AGENT Arg1:T24 Arg2:T70	
+R22	AGENT Arg1:T25 Arg2:T70	
+R23	PARTICIPANT_IN Arg1:T15 Arg2:T70	
+R24	WORKS_AS Arg1:T62 Arg2:T27	
+T71	EVENT 995 1014	президентской гонке
+R25	PARTICIPANT_IN Arg1:T29 Arg2:T71	
+R26	PARTICIPANT_IN Arg1:T63 Arg2:T71	
+R27	WORKPLACE Arg1:T68 Arg2:T69	
+R28	WORKPLACE Arg1:T15 Arg2:T69	
+T72	EVENT 931 936	мятеж
+R29	ORGANIZES Arg1:T15 Arg2:T72	
+R30	PARENT_OF Arg1:T39 Arg2:T37	
+R31	WORKS_AS Arg1:T39 Arg2:T38	
+T73	PROFESSION 1298 1323	депутат блока "Сила 2011"
+R32	WORKS_AS Arg1:T37 Arg2:T73	
+T74	CRIME 1405 1433	злоупотребление полномочиями
+R33	WORKPLACE Arg1:T1 Arg2:T47	
+R34	HEADQUARTERED_IN Arg1:T69 Arg2:T23	
+R35	MEMBER_OF Arg1:T37 Arg2:T41	
+R36	CONVICTED_OF Arg1:T44 Arg2:T74	
+T75	PENALTY 1395 1401	тюрьме
+R37	PENALIZED_AS Arg1:T44 Arg2:T75	
+R38	HAS_CAUSE Arg1:T75 Arg2:T74	
+R39	ALTERNATIVE_NAME Arg1:T3 Arg2:T5	
+R40	SIBLING Arg1:T10 Arg2:T18	
+R41	WORKS_AS Arg1:T63 Arg2:T32	
+R42	TAKES_PLACE_IN Arg1:T71 Arg2:T36	
+R43	WORKPLACE Arg1:T39 Arg2:T36	
+R44	WORKPLACE Arg1:T73 Arg2:T41	
+T76	DATE 1318 1322	2011
+T77	CRIME 1485 1516	организации "эскадронов смерти"
+R45	CONVICTED_OF Arg1:T44 Arg2:T77	
+T78	EVENT 629 634	мятеж
+N1	Reference T1 Wikidata:Q5708511	президент Перу
+N2	Reference T4 Wikidata:Q419	Перу
+N3	Reference T8 Wikidata:Q4296040	Al Jazeera English
+N4	Reference T12 Wikidata:Q235137	Кейко Фухимори
+N9	Reference T25 Wikidata:Q736	Эквадор
+N12	Reference T39 Wikidata:Q133040	Альберто Фухимори
+N13	Reference T40 Wikidata:Q486839	член парламента
+N15	Reference T42 Wikidata:Q30	США
+N16	Reference T48 Wikidata:Q30461	президент
+N17	Reference T53 Wikidata:Q47064	военнослужащий
+N18	Reference T58 Wikidata:Q36747	индейцы
+N19	Reference T59 Wikidata:Q13099720	подполковник
+N21	Reference T62 Wikidata:Q133040	Альберто Фухимори
+N27	Reference T52 Wikidata:NULL	
+N5	Reference T16 Wikidata:NULL	нет данных
+N23	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:Q489660	
+N24	Reference T68 Wikidata:NULL	нет данных
+N8	Reference T23 Wikidata:Q419	Перу
+N20	Reference T60 Wikidata:Q8473	армия
+N25	Reference T69 Wikidata:Q532871	
+N22	Reference T28 Wikidata:Q30461	президент
+N6	Reference T18 Wikidata:Q57254	Ольянта Умала
+N10	Reference T35 Wikidata:Q57254	Ольянта Умала
+N26	Reference T73 Wikidata:NULL	нет данных
+N11	Reference T37 Wikidata:Q235137	Кейко Фухимори
+N14	Reference T41 Wikidata:Q1472820	
+N28	Reference T38 Wikidata:Q5708511	президент Перу
+N29	Reference T17 Wikidata:Q419	Перу
+N30	Reference T14 Wikidata:Q419	Перу
+N31	Reference T36 Wikidata:Q419	Перу
+N32	Reference T47 Wikidata:Q419	Перу
+N33	Reference T24 Wikidata:Q419	Перу
+N34	Reference T44 Wikidata:Q133040	Альберто Фухимори
+N35	Reference T34 Wikidata:Q30461	президент
+N36	Reference T32 Wikidata:Q30461	президент
+N37	Reference T27 Wikidata:Q30461	президент
+N38	Reference T22 Wikidata:Q30461	президент
+N39	Reference T64 Wikidata:Q30461	президент
+N40	Reference T5 Wikidata:Q57254	Ольянта Умала
+N41	Reference T15 Wikidata:Q57254	Ольянта Умала
+N42	Reference T29 Wikidata:Q57254	Ольянта Умала
+N43	Reference T3 Wikidata:Q57254	Ольянта Умала
+R46	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R47	LOCATED_IN Arg1:T20 Arg2:T17	
+R48	PARTICIPANT_IN Arg1:T62 Arg2:T72	
+R49	ALTERNATIVE_NAME Arg1:T29 Arg2:T35	
+R50	PLACE_RESIDES_IN Arg1:T37 Arg2:T42	

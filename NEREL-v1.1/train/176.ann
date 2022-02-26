@@ -1,0 +1,190 @@
+T2	PERSON 0 10	Д.Медведев
+T3	PERSON 20 32	А.Бастрыкина
+T4	PROFESSION 33 45	главой СК РФ
+T5	ORGANIZATION 40 45	СК РФ
+T6	PROFESSION 47 63	Президент России
+T7	PERSON 64 80	Дмитрий Медведев
+T8	PERSON 103 124	Александра Бастрыкина
+T9	PROFESSION 125 164	председателем Следственного комитета РФ
+T10	ORGANIZATION 139 164	Следственного комитета РФ
+T11	ORGANIZATION 183 195	пресс-служба
+T13	PERSON 234 245	А.Бастрыкин
+T14	PROFESSION 250 305	исполняющим обязанности главы Следственного комитета РФ
+T15	ORGANIZATION 280 305	Следственного комитета РФ
+T16	ORGANIZATION 408 449	Следственного комитета при прокуратуре РФ
+T17	PERSON 450 461	А.Бастрыкин
+T18	PROFESSION 470 483	председателем
+T19	PERSON 486 497	А.Бастрыкин
+T20	DATE 506 522	27 августа 1953г
+T21	CITY 526 532	Пскове
+T22	DATE 534 541	В 1975г
+T23	ORGANIZATION 670 678	МВД СССР
+T24	DATE 681 686	1975г
+T25	NUMBER 749 753	двух
+T27	LAW 769 813	О Следственном комитете Российской Федерации
+T29	PERSON 828 840	Д.Медведевым
+T30	DATE 841 857	28 декабря 2010г
+T31	DATE 875 891	с 15 января 2010
+T32	ORGANIZATION 893 898	СК РФ
+T33	ORGANIZATION 929 970	Следственного комитета при прокуратуре РФ
+T34	ORGANIZATION 972 975	СКП
+T35	PROFESSION 1018 1023;1037 1042	глава СК РФ
+T36	ORGANIZATION 1037 1042	СК РФ
+T37	PROFESSION 1061 1075	президентом РФ
+T38	ORGANIZATION 1223 1225	СК
+T39	ORGANIZATION 1430 1432	СК
+T40	AGE 1463 1479	не моложе 25 лет
+T41	DATE 1509 1519	трехлетний
+T42	ORGANIZATION 1563 1565	СК
+T43	ORGANIZATION 1567 1578	прокуратуре
+T44	DATE 1651 1665	не более 5 лет
+T45	PROFESSION 1775 1798	генеральный прокурор РФ
+T46	ORGANIZATION 1857 1879	Следственного комитета
+T1	COUNTRY 43 45	РФ
+T47	COUNTRY 57 63	России
+T48	COUNTRY 162 164	РФ
+T49	COUNTRY 202 213	Российского
+T12	PROFESSION 274 305	главы Следственного комитета РФ
+T50	COUNTRY 303 305	РФ
+T51	COUNTRY 447 449	РФ
+T52	PERSON 621 628	Жданова
+T53	ORGANIZATION 573 628	Ленинградского государственного университета им.Жданова
+T54	ORGANIZATION 551 628	юридический факультет Ленинградского государственного университета им.Жданова
+T55	COUNTRY 674 678	СССР
+T56	PROFESSION 703 720	преподавательской
+T26	COUNTRY 968 970	РФ
+T28	PROFESSION 1061 1072	президентом
+T57	COUNTRY 1073 1075	РФ
+T58	COUNTRY 1796 1798	РФ
+T59	PROFESSION 1817 1826	прокуроры
+T60	EVENT 11 19	назначил
+R1	AGENT Arg1:T2 Arg2:T60	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T60	
+R3	WORKS_AS Arg1:T3 Arg2:T4	
+R4	WORKPLACE Arg1:T3 Arg2:T5	
+R5	WORKS_AS Arg1:T7 Arg2:T6	
+R6	WORKPLACE Arg1:T7 Arg2:T47	
+T61	EVENT 94 102	назначил
+R7	AGENT Arg1:T7 Arg2:T61	
+R8	PARTICIPANT_IN Arg1:T8 Arg2:T61	
+R9	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R10	WORKS_AS Arg1:T8 Arg2:T9	
+R11	WORKPLACE Arg1:T8 Arg2:T10	
+T62	PROFESSION 196 225	главы Российского государства
+R12	ALTERNATIVE_NAME Arg1:T6 Arg2:T62	
+R13	WORKS_AS Arg1:T13 Arg2:T14	
+R14	WORKPLACE Arg1:T13 Arg2:T15	
+T63	ORGANIZATION 435 449	прокуратуре РФ
+R15	WORKS_AS Arg1:T17 Arg2:T18	
+R16	WORKPLACE Arg1:T17 Arg2:T16	
+R17	DATE_OF_BIRTH Arg1:T19 Arg2:T20	
+R18	PLACE_OF_BIRTH Arg1:T19 Arg2:T21	
+R19	SCHOOLS_ATTENDED Arg1:T19 Arg2:T54	
+R20	WORKPLACE Arg1:T19 Arg2:T23	
+T64	ORGANIZATION 771 813	Следственном комитете Российской Федерации
+T65	COUNTRY 793 813	Российской Федерации
+R21	PRODUCES Arg1:T29 Arg2:T27	
+R22	DATE_OF_CREATION Arg1:T27 Arg2:T30	
+R23	ALTERNATIVE_NAME Arg1:T64 Arg2:T32	
+R24	ABBREVIATION Arg1:T33 Arg2:T34	
+T66	ORGANIZATION 956 970	прокуратуре РФ
+T67	COUNTRY 1040 1042	РФ
+R25	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+T68	PROFESSION 1775 1795	генеральный прокурор
+R26	WORKPLACE Arg1:T4 Arg2:T5	
+R27	HEADQUARTERED_IN Arg1:T5 Arg2:T1	
+R28	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R29	WORKPLACE Arg1:T6 Arg2:T47	
+T69	PROFESSION 47 56	Президент
+R30	WORKPLACE Arg1:T9 Arg2:T10	
+R31	HEADQUARTERED_IN Arg1:T10 Arg2:T48	
+R32	WORKPLACE Arg1:T62 Arg2:T49	
+R33	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+R34	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R35	WORKPLACE Arg1:T14 Arg2:T15	
+R36	HEADQUARTERED_IN Arg1:T15 Arg2:T50	
+R37	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R38	HEADQUARTERED_IN Arg1:T23 Arg2:T55	
+T70	ORGANIZATION 670 673	МВД
+R39	HEADQUARTERED_IN Arg1:T64 Arg2:T65	
+T71	COUNTRY 896 898	РФ
+R40	HEADQUARTERED_IN Arg1:T32 Arg2:T71	
+R41	WORKPLACE Arg1:T45 Arg2:T58	
+R42	WORKPLACE Arg1:T37 Arg2:T57	
+R43	WORKPLACE Arg1:T35 Arg2:T36	
+R44	HEADQUARTERED_IN Arg1:T36 Arg2:T67	
+R45	PARTICIPANT_IN Arg1:T5 Arg2:T60	
+R46	HEADQUARTERED_IN Arg1:T63 Arg2:T51	
+R47	HEADQUARTERED_IN Arg1:T63 Arg2:T51	
+R48	FOUNDED_BY Arg1:T16 Arg2:T63	
+R49	WORKS_AS Arg1:T19 Arg2:T56	
+T72	EVENT 860 874	вступил в силу
+R50	INANIMATE_INVOLVED Arg1:T27 Arg2:T72	
+R51	POINT_IN_TIME Arg1:T72 Arg2:T31	
+R52	HEADQUARTERED_IN Arg1:T66 Arg2:T26	
+R53	HEADQUARTERED_IN Arg1:T33 Arg2:T26	
+R54	FOUNDED_BY Arg1:T33 Arg2:T66	
+R55	HEADQUARTERED_IN Arg1:T46 Arg2:T58	
+N2	Reference T5 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N3	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N8	Reference T18 Wikidata:Q140686	председатель
+N9	Reference T19 Wikidata:Q1485118	Александр Иванович Бастрыкин
+N10	Reference T21 Wikidata:Q2214	Псков
+N11	Reference T23 Wikidata:Q2032561	Министерство внутренних дел СССР
+N15	Reference T37 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T43 Wikidata:Q1092499	прокуратура
+N17	Reference T45 Wikidata:Q1970542	Генеральный прокурор Российской Федерации
+N18	Reference T47 Wikidata:Q159	Россия
+N20	Reference T50 Wikidata:Q159	Россия
+N22	Reference T53 Wikidata:Q4258144	Ленинградский государственный университет имени А. С. Пушкина
+N23	Reference T54 Wikidata:Q4534839	юридический факультет СПбГУ
+N24	Reference T55 Wikidata:Q15180	СССР
+N25	Reference T28 Wikidata:Q30461	президент
+N26	Reference T59 Wikidata:Q600751	прокурор
+N28	Reference T64 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N29	Reference T65 Wikidata:Q159	Россия
+N30	Reference T66 Wikidata:Q2387440	Прокуратура Российской Федерации
+N31	Reference T70 Wikidata:Q6589202	министерство внутренних дел
+N1	Reference T4 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:Q2108946	
+N27	Reference T62 Wikidata:Q218295	президент Российской Федерации
+N6	Reference T14 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:NULL	нет данных
+N7	Reference T16 Wikidata:Q13424759	
+N21	Reference T52 Wikidata:Q207879	
+N32	Reference T56 Wikidata:Q37226	учитель
+N12	Reference T27 Wikidata:NULL	нет данных
+N13	Reference T34 Wikidata:Q13424759	
+N14	Reference T35 Wikidata:NULL	нет данных
+N33	Reference T68 Wikidata:Q3368517	
+N34	Reference T36 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N35	Reference T42 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N36	Reference T39 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N37	Reference T38 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N38	Reference T29 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N39	Reference T2 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N40	Reference T17 Wikidata:Q1485118	Александр Иванович Бастрыкин
+N41	Reference T13 Wikidata:Q1485118	Александр Иванович Бастрыкин
+N42	Reference T8 Wikidata:Q1485118	Александр Иванович Бастрыкин
+N43	Reference T3 Wikidata:Q1485118	Александр Иванович Бастрыкин
+N44	Reference T51 Wikidata:Q159	Россия
+N45	Reference T57 Wikidata:Q159	Россия
+N46	Reference T49 Wikidata:Q159	Россия
+N47	Reference T67 Wikidata:Q159	Россия
+N48	Reference T48 Wikidata:Q159	Россия
+N49	Reference T58 Wikidata:Q159	Россия
+N50	Reference T1 Wikidata:Q159	Россия
+N51	Reference T71 Wikidata:Q159	Россия
+N52	Reference T26 Wikidata:Q159	Россия
+N53	Reference T69 Wikidata:Q30461	президент
+N54	Reference T32 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N55	Reference T63 Wikidata:Q2387440	Прокуратура Российской Федерации
+N56	Reference T6 Wikidata:Q218295	президент Российской Федерации
+N57	Reference T15 Wikidata:Q13424759	
+N58	Reference T10 Wikidata:Q13424759	
+N59	Reference T33 Wikidata:Q13424759	
+T73	EVENT 498 505	родился
+R56	AGENT Arg1:T19 Arg2:T73	
+R57	POINT_IN_TIME Arg1:T73 Arg2:T20	
+R58	TAKES_PLACE_IN Arg1:T73 Arg2:T21	

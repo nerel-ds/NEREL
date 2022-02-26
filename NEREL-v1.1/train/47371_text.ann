@@ -1,0 +1,169 @@
+T1	PROFESSION 0 3	Мэр
+T2	PERSON 13 28	Геннадий Кернес
+T3	PERSON 42 57	Геннадий Кернес
+T4	PROFESSION 58 61	Мэр
+T5	PERSON 71 86	Геннадий Кернес
+T6	PROFESSION 193 208	пресс-секретарь
+T7	PERSON 225 243	Татьяна Грузинская
+T8	CITY 259 271	Харьковского
+T9	TIME 298 338	утром в понедельник, 28 апреля 2014 года
+T10	DATE 304 338	в понедельник, 28 апреля 2014 года
+T11	PERSON 346 352	Кернес
+T12	FACILITY 387 406	Белгородскому шоссе
+T13	TIME 617 628	В 12:30 мск
+T15	PERSON 696 703	Кернеса
+T16	PERSON 797 803	Кернес
+T17	COUNTRY 970 977	Украины
+T18	PERSON 1026 1033	Кернеса
+T19	DATE 1111 1128	на следующий день
+T20	LOCATION 1152 1167	центре Харькова
+T21	TIME 1169 1211	Вечером в воскресенье, 27 апреля 2014 года
+T22	DATE 1177 1211	в воскресенье, 27 апреля 2014 года
+T23	ORGANIZATION 1248 1257	Металлист
+T24	ORGANIZATION 1262 1267	Днепр
+T25	NUMBER 1400 1402	14
+T26	LOCATION 1435 1450	центре Харькова
+T27	NUMBER 1478 1480	13
+T29	ORGANIZATION 1506 1521	Партии регионов
+T30	AGE 1522 1531	54-летний
+T31	PERSON 1532 1547	Геннадий Кернес
+T32	PROFESSION 1553 1558	мэром
+T33	DATE 1576 1585	2010 году
+T34	PERSON 1625 1640	Михаила Добкина
+T35	COUNTRY 1660 1667	Украины
+T36	PERSON 1668 1685	Виктора Януковича
+T37	ORGANIZATION 1716 1734	Украинского фронта
+T38	COUNTRY 1840 1847	Украину
+T39	DATE 1852 1873	спустя несколько дней
+T40	CITY 1885 1892	Харьков
+T41	PERSON 1938 1945	Курнеса
+T42	PERSON 2023 2030	Кернеса
+T43	PERSON 2101 2108	Кернеса
+T44	CITY 4 12	Харькова
+T45	PROFESSION 0 12	Мэр Харькова
+R1	WORKS_AS Arg1:T2 Arg2:T45	
+R2	WORKPLACE Arg1:T2 Arg2:T44	
+T46	CITY 62 70	Харькова
+T47	PROFESSION 58 70	Мэр Харькова
+R3	WORKS_AS Arg1:T5 Arg2:T47	
+R4	WORKPLACE Arg1:T5 Arg2:T46	
+T48	PROFESSION 209 224	градоначальника
+T49	PROFESSION 193 224	пресс-секретарь градоначальника
+R5	WORKS_AS Arg1:T7 Arg2:T49	
+T50	PROFESSION 259 287	Харьковского градоначальника
+T51	PROFESSION 442 457	градоначальника
+T14	PROFESSION 629 632	мэр
+T52	CITY 1159 1167	Харькова
+T53	CITY 1442 1450	Харькова
+R6	AGE_IS Arg1:T31 Arg2:T30	
+R7	MEMBER_OF Arg1:T31 Arg2:T29	
+T28	CITY 1559 1567	Харькова
+R8	KNOWS Arg1:T31 Arg2:T34	
+T54	PROFESSION 1553 1567	мэром Харькова
+R9	WORKS_AS Arg1:T31 Arg2:T54	
+R10	WORKPLACE Arg1:T31 Arg2:T28	
+T55	PERSON 1686 1692	Кернес
+R11	MEMBER_OF Arg1:T55 Arg2:T37	
+T56	PERSON 1825 1831	Кернес
+T57	PROFESSION 466 473	снайпер
+T58	EVENT 138 155	выстрелил в спину
+R12	PARTICIPANT_IN Arg1:T5 Arg2:T58	
+R13	SUBORDINATE_OF Arg1:T7 Arg2:T5	
+T59	EVENT 246 255	Покушение
+T60	CITY 387 400	Белгородскому
+R15	POINT_IN_TIME Arg1:T59 Arg2:T10	
+R14	WORKS_AS Arg1:T11 Arg2:T50	
+R16	WORKPLACE Arg1:T11 Arg2:T8	
+R17	PARTICIPANT_IN Arg1:T11 Arg2:T59	
+R18	TAKES_PLACE_IN Arg1:T59 Arg2:T12	
+T61	EVENT 458 465	стрелял
+R19	AGENT Arg1:T57 Arg2:T61	
+R20	PARTICIPANT_IN Arg1:T51 Arg2:T61	
+T62	DISEASE 720 727	тяжелое
+R21	MEDICAL_CONDITION Arg1:T15 Arg2:T62	
+T63	EVENT 1135 1149	массовой драки
+R22	TAKES_PLACE_IN Arg1:T63 Arg2:T20	
+R23	POINT_IN_TIME Arg1:T63 Arg2:T19	
+T64	EVENT 1421 1432	беспорядков
+R24	TAKES_PLACE_IN Arg1:T64 Arg2:T26	
+T65	EVENT 1649 1656	бегства
+R25	AGENT Arg1:T36 Arg2:T65	
+T66	DISEASE 29 41	тяжело ранен
+T67	DISEASE 36 41	ранен
+R26	MEDICAL_CONDITION Arg1:T2 Arg2:T66	
+R27	WORKPLACE Arg1:T45 Arg2:T44	
+R28	WORKPLACE Arg1:T47 Arg2:T46	
+R29	SUBORDINATE_OF Arg1:T7 Arg2:T48	
+R30	SUBORDINATE_OF Arg1:T49 Arg2:T48	
+R31	ALTERNATIVE_NAME Arg1:T46 Arg2:T8	
+R32	WORKS_AS Arg1:T11 Arg2:T51	
+T68	EVENT 637 657	доставлен в больницу
+R33	WORKS_AS Arg1:T11 Arg2:T14	
+R34	WORKPLACE Arg1:T14 Arg2:T68	
+R35	WORKS_AS Arg1:T15 Arg2:T14	
+T69	PROFESSION 876 892	градоначальником
+R36	WORKS_AS Arg1:T16 Arg2:T69	
+T70	EVENT 1269 1309	столкнулась с пророссийскими активистами
+R37	POINT_IN_TIME Arg1:T70 Arg2:T22	
+R38	WORKPLACE Arg1:T54 Arg2:T28	
+R39	WORKS_AS Arg1:T34 Arg2:T54	
+R40	WORKPLACE Arg1:T34 Arg2:T28	
+R41	TAKES_PLACE_IN Arg1:T65 Arg2:T35	
+R42	LOCATED_IN Arg1:T26 Arg2:T53	
+R43	LOCATED_IN Arg1:T20 Arg2:T52	
+R44	ALTERNATIVE_NAME Arg1:T14 Arg2:T69	
+R45	WORKPLACE Arg1:T50 Arg2:T8	
+R46	ALTERNATIVE_NAME Arg1:T70 Arg2:T64	
+T71	EVENT 1324 1329	драки
+R47	SUBEVENT_OF Arg1:T71 Arg2:T70	
+R48	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R49	ALTERNATIVE_NAME Arg1:T47 Arg2:T50	
+R50	ALTERNATIVE_NAME Arg1:T11 Arg2:T15	
+N1	Reference T5 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N3	Reference T11 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N5	Reference T18 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N6	Reference T23 Wikidata:Q207462	Металлист
+N7	Reference T24 Wikidata:Q175687	Днепр
+N8	Reference T26 Wikidata:Q42308	Харьков
+N9	Reference T29 Wikidata:Q4266	Партия регионов
+N10	Reference T34 Wikidata:Q4163369	Михаил Маркович Добкин
+N11	Reference T35 Wikidata:Q212	Украина
+N12	Reference T36 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N13	Reference T37 Wikidata:Q744261	Украинский фронт
+N14	Reference T40 Wikidata:Q42308	Харьков
+N19	Reference T57 Wikidata:Q201948	снайпер
+N16	Reference T47 Wikidata:NULL	нет данных
+N2	Reference T7 Wikidata:NULL	нет данных
+N17	Reference T48 Wikidata:NULL	нет данных
+N21	Reference T6 Wikidata:Q1388151	
+N22	Reference T49 Wikidata:NULL	нет данных
+N18	Reference T50 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N20	Reference T60 Wikidata:NULL	нет данных
+N15	Reference T41 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N23	Reference T3 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N24	Reference T2 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N25	Reference T31 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N26	Reference T56 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N27	Reference T55 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N28	Reference T16 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N29	Reference T42 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N30	Reference T43 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N31	Reference T15 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N32	Reference T20 Wikidata:Q42308	Харьков
+N33	Reference T38 Wikidata:Q212	Украина
+N34	Reference T17 Wikidata:Q212	Украина
+N35	Reference T8 Wikidata:Q42308	Харьков
+N36	Reference T46 Wikidata:Q42308	Харьков
+N37	Reference T53 Wikidata:Q42308	Харьков
+N38	Reference T52 Wikidata:Q42308	Харьков
+N39	Reference T44 Wikidata:Q42308	Харьков
+N40	Reference T28 Wikidata:Q42308	Харьков
+N41	Reference T45 Wikidata:NULL	нет данных
+N42	Reference T54 Wikidata:NULL	нет данных
+N43	Reference T14 Wikidata:NULL	нет данных
+N44	Reference T4 Wikidata:NULL	нет данных
+N45	Reference T51 Wikidata:NULL	нет данных
+N46	Reference T32 Wikidata:NULL	нет данных
+N47	Reference T69 Wikidata:NULL	нет данных
+N48	Reference T1 Wikidata:NULL	нет данных

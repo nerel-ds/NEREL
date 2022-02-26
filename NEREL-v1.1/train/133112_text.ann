@@ -1,0 +1,114 @@
+T1	ORGANIZATION 0 7	Netflix
+T2	WORK_OF_ART 26 41	Карточный домик
+T3	PERSON 62 76	Кевином Спейси
+T4	PERSON 77 89	Кевин Спейси
+T6	WORK_OF_ART 110 127	Карточного домика
+T7	PROFESSION 129 151	губернатором Мэриленда
+T8	PERSON 152 168	Мартином О’Мэлли
+T9	ORGANIZATION 180 191	Netflix Inc
+T10	WORK_OF_ART 253 268	Карточный домик
+T11	ORDINAL 299 305	шестой
+T12	ORGANIZATION 345 352	Netflix
+T13	DATE 409 420	сутки назад
+T14	WORK_OF_ART 468 484	Карточном домике
+T15	PERSON 486 499	Кевина Спейси
+T16	PERSON 507 518	Энтони Рэпп
+T17	WORK_OF_ART 531 544	Звёздный путь
+T18	DATE 606 624	тридцать лет назад
+T19	DATE 627 638	в 1986 году
+T20	AGE 655 661	14 лет
+T21	PERSON 663 669	Спейси
+T22	PERSON 710 715	Рэппа
+T23	PERSON 754 760	Спейси
+T24	PERSON 800 805	Рэппа
+T25	PERSON 821 827	Спейси
+T26	PERSON 974 979	Рэппу
+T27	PERSON 1067 1073	Спейси
+T28	PRODUCT 1101 1108	Twitter
+T29	DATE 1357 1375	более 30 лет назад
+T30	WORK_OF_ART 1644 1659	Карточный домик
+T31	DATE 1687 1698	с 2013 года
+T32	COUNTRY 1763 1775	американской
+T33	PERSON 1854 1860	Спейси
+T34	AWARD 1893 1898	Оскар
+T35	WORK_OF_ART 1919 1938	Подозрительные лица
+T36	WORK_OF_ART 1943 1965	Красота по-американски
+T37	WORK_OF_ART 2004 2025	Секреты Лос-Анджелеса
+T38	WORK_OF_ART 2029 2044	Планета Ка-Пэкс
+T39	CITY 2012 2025	Лос-Анджелеса
+T5	STATE_OR_PROVINCE 142 151	Мэриленда
+T40	EVENT 8 24	закрывает сериал
+T42	PROFESSION 501 506	Актёр
+T43	CRIME 579 605	сексуальном домогательстве
+T44	PROFESSION 1496 1501	Актёр
+T45	EVENT 51 59	скандала
+R1	WORKPLACE Arg1:T7 Arg2:T5	
+R2	WORKS_AS Arg1:T8 Arg2:T7	
+R3	WORKPLACE Arg1:T8 Arg2:T5	
+R4	PRODUCES Arg1:T1 Arg2:T2	
+R5	PARTICIPANT_IN Arg1:T3 Arg2:T45	
+R6	PARTICIPANT_IN Arg1:T3 Arg2:T2	
+R7	PARTICIPANT_IN Arg1:T1 Arg2:T40	
+R8	HAS_CAUSE Arg1:T40 Arg2:T45	
+R9	PRODUCES Arg1:T9 Arg2:T10	
+R10	PARTICIPANT_IN Arg1:T15 Arg2:T14	
+R11	PRODUCES Arg1:T12 Arg2:T14	
+R12	WORKS_AS Arg1:T16 Arg2:T42	
+R13	PARTICIPANT_IN Arg1:T16 Arg2:T17	
+T41	EVENT 546 553	обвинил
+R14	AGENT Arg1:T16 Arg2:T41	
+R15	PARTICIPANT_IN Arg1:T15 Arg2:T41	
+R16	CONVICTED_OF Arg1:T15 Arg2:T43	
+R17	HAS_CAUSE Arg1:T41 Arg2:T43	
+R18	POINT_IN_TIME Arg1:T41 Arg2:T18	
+R19	POINT_IN_TIME Arg1:T41 Arg2:T19	
+R20	AGE_IS Arg1:T16 Arg2:T20	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T21	
+R22	ALTERNATIVE_NAME Arg1:T16 Arg2:T22	
+R23	START_TIME Arg1:T30 Arg2:T31	
+R24	AWARDED_WITH Arg1:T33 Arg2:T34	
+R25	AWARDED_WITH Arg1:T35 Arg2:T34	
+R26	AWARDED_WITH Arg1:T36 Arg2:T34	
+R27	PARTICIPANT_IN Arg1:T33 Arg2:T37	
+R28	PARTICIPANT_IN Arg1:T33 Arg2:T38	
+R29	PARTICIPANT_IN Arg1:T33 Arg2:T35	
+R30	PARTICIPANT_IN Arg1:T33 Arg2:T36	
+R31	HAS_CAUSE Arg1:T45 Arg2:T41	
+R32	INANIMATE_INVOLVED Arg1:T2 Arg2:T40	
+R33	ALTERNATIVE_NAME Arg1:T22 Arg2:T24	
+R34	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+N1	Reference T8 Wikidata:Q120260	О’Мэлли, Мартин
+N2	Reference T9 Wikidata:Q907311	Netflix
+N3	Reference T10 Wikidata:Q3330940	Карточный домик
+N4	Reference T12 Wikidata:Q907311	Netflix
+N5	Reference T17 Wikidata:Q1092	Звёздный путь
+N6	Reference T22 Wikidata:Q39983	Энтони Рэпп
+N7	Reference T27 Wikidata:Q25144	Кевин Спейси
+N8	Reference T28 Wikidata:Q918	Твиттер
+N11	Reference T35 Wikidata:Q132351	Подозрительные лица
+N12	Reference T36 Wikidata:Q25139	Красота по-американски
+N13	Reference T37 Wikidata:Q339876	Секреты Лос-Анджелеса
+N14	Reference T38 Wikidata:Q315664	Планета Ка-Пэкс
+N15	Reference T39 Wikidata:Q65	Лос-Анджелес
+N16	Reference T5 Wikidata:Q1391	Мэриленд
+N17	Reference T42 Wikidata:Q33999	актёр
+N18	Reference T7 Wikidata:Q693032	
+N9	Reference T32 Wikidata:Q30	США
+N10	Reference T34 Wikidata:Q19020	Оскар
+N19	Reference T14 Wikidata:Q3330940	Карточный домик
+N20	Reference T2 Wikidata:Q3330940	Карточный домик
+N21	Reference T6 Wikidata:Q3330940	Карточный домик
+N22	Reference T30 Wikidata:Q3330940	Карточный домик
+N23	Reference T1 Wikidata:Q907311	Netflix
+N24	Reference T24 Wikidata:Q39983	Энтони Рэпп
+N25	Reference T16 Wikidata:Q39983	Энтони Рэпп
+N26	Reference T26 Wikidata:Q39983	Энтони Рэпп
+N27	Reference T23 Wikidata:Q25144	Кевин Спейси
+N28	Reference T15 Wikidata:Q25144	Кевин Спейси
+N29	Reference T25 Wikidata:Q25144	Кевин Спейси
+N30	Reference T4 Wikidata:Q25144	Кевин Спейси
+N31	Reference T33 Wikidata:Q25144	Кевин Спейси
+N32	Reference T3 Wikidata:Q25144	Кевин Спейси
+N33	Reference T21 Wikidata:Q25144	Кевин Спейси
+N34	Reference T44 Wikidata:Q33999	актёр
+T46	LOCATION 2037 2044	Ка-Пэкс

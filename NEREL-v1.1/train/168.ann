@@ -1,0 +1,160 @@
+T1	PROFESSION 0 50	Временно исполняющим обязанности президента Туниса
+T2	PROFESSION 56 62	спикер
+T3	ORGANIZATION 73 101	Конституционный совет Туниса
+T4	PROFESSION 226 243	спикер парламента
+T5	PERSON 244 255	Фуад Мбазаа
+T6	PROFESSION 263 278	премьер-министр
+T7	PERSON 279 294	Мохамед Ганнучи
+T8	ORGANIZATION 297 302	Совет
+T9	COUNTRY 341 347	Тунисе
+T10	DATE 359 386	в течение ближайших 60 дней
+T11	ORGANIZATION 390 411	Конституционный совет
+T12	LAW 445 467	57 статьей Конституции
+T13	PROFESSION 548 565	спикер парламента
+T14	DATE 616 636	в течение 45-60 дней
+T15	PROFESSION 649 668	председатель совета
+T16	PERSON 669 687	Фатхи Абд Эннатхер
+T17	ORGANIZATION 779 802	Конституционного совета
+T18	PROFESSION 827 850	временного главы Туниса
+T19	PROFESSION 853 862	премьером
+T20	PROFESSION 927 937	президента
+T21	PROFESSION 947 954	Премьер
+T22	PROFESSION 1077 1086	президент
+T23	PERSON 1087 1109	Зин эль-Абидин Бен Али
+T24	NUMBER 1180 1184	один
+T25	DATE 1210 1225	14 января 2011г
+T26	COUNTRY 1229 1235	Тунисе
+T27	PROFESSION 1273 1282	Президент
+T28	AGE 1291 1300	74-летний
+T29	PERSON 1301 1323	Зин эль-Абидин Бен-Али
+T30	COUNTRY 1342 1359	Саудовскую Аравию
+T32	PERSON 1496 1505	М.Ганнучи
+T33	PROFESSION 33 43	президента
+T34	PROFESSION 33 50	президента Туниса
+T35	COUNTRY 44 50	Туниса
+T36	PERSON 63 71	Ф.Мбазаа
+T37	COUNTRY 95 101	Туниса
+T38	PROFESSION 202 219	главы государства
+T39	ORGANIZATION 233 243	парламента
+T40	PROFESSION 474 484	президента
+T41	ORGANIZATION 555 565	парламента
+T42	PROFESSION 576 593	главы государства
+T43	COUNTRY 713 723	тунисского
+T44	COUNTRY 748 757	тунисских
+T45	PROFESSION 758 768	аналитиков
+T46	COUNTRY 844 850	Туниса
+T47	PERSON 863 872	М.Ганнучи
+T48	ORGANIZATION 1425 1438	правительство
+T49	EVENT 1459 1476	досрочных выборах
+T50	ORGANIZATION 1479 1488	парламент
+R1	WORKS_AS Arg1:T36 Arg2:T2	
+T31	PROFESSION 0 32	Временно исполняющим обязанности
+R2	WORKS_AS Arg1:T36 Arg2:T1	
+T51	EVENT 117 142	государственный переворот
+R3	TAKES_PLACE_IN Arg1:T51 Arg2:T37	
+R4	WORKS_AS Arg1:T7 Arg2:T6	
+T52	EVENT 321 338	выборы президента
+R5	TAKES_PLACE_IN Arg1:T52 Arg2:T9	
+R6	POINT_IN_TIME Arg1:T52 Arg2:T10	
+R7	WORKS_AS Arg1:T5 Arg2:T38	
+R8	WORKS_AS Arg1:T5 Arg2:T4	
+R9	WORKPLACE Arg1:T5 Arg2:T39	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T8 Arg2:T11	
+T53	LAW 456 467	Конституции
+R12	WORKS_AS Arg1:T16 Arg2:T15	
+R13	ORIGINS_FROM Arg1:T45 Arg2:T44	
+R14	WORKS_AS Arg1:T47 Arg2:T19	
+R15	WORKS_AS Arg1:T23 Arg2:T22	
+T54	EVENT 1246 1271	государственный переворот
+R16	AGE_IS Arg1:T29 Arg2:T28	
+T55	EVENT 1324 1339	бежал из страны
+R17	SUBEVENT_OF Arg1:T55 Arg2:T54	
+R18	AGENT Arg1:T29 Arg2:T55	
+T56	PROFESSION 1273 1289	Президент Туниса
+T57	COUNTRY 1283 1289	Туниса
+R19	WORKPLACE Arg1:T29 Arg2:T57	
+T58	EVENT 1414 1438	распустить правительство
+R20	TAKES_PLACE_IN Arg1:T54 Arg2:T26	
+R21	ORGANIZES Arg1:T29 Arg2:T58	
+R22	SUBEVENT_OF Arg1:T58 Arg2:T54	
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T5	
+R24	ALTERNATIVE_NAME Arg1:T7 Arg2:T47	
+R25	POINT_IN_TIME Arg1:T54 Arg2:T25	
+R26	WORKPLACE Arg1:T4 Arg2:T39	
+R27	WORKPLACE Arg1:T34 Arg2:T35	
+R28	HEADQUARTERED_IN Arg1:T3 Arg2:T37	
+R29	HEADQUARTERED_IN Arg1:T39 Arg2:T37	
+T59	PROFESSION 328 338	президента
+R30	ORIGINS_FROM Arg1:T53 Arg2:T9	
+R31	WORKPLACE Arg1:T13 Arg2:T41	
+T60	EVENT 569 593	выборы главы государства
+R32	ALTERNATIVE_NAME Arg1:T52 Arg2:T60	
+R33	POINT_IN_TIME Arg1:T60 Arg2:T14	
+R34	WORKPLACE Arg1:T15 Arg2:T11	
+R35	WORKPLACE Arg1:T56 Arg2:T57	
+R36	ALTERNATIVE_NAME Arg1:T44 Arg2:T46	
+R37	WORKPLACE Arg1:T18 Arg2:T46	
+T61	PROFESSION 1188 1197	экспертов
+T62	EVENT 1557 1577	взял власть в стране
+R38	AGENT Arg1:T32 Arg2:T62	
+R39	TAKES_PLACE_IN Arg1:T62 Arg2:T57	
+R40	SUBEVENT_OF Arg1:T62 Arg2:T54	
+T63	ORDINAL 445 447	57
+R41	PART_OF Arg1:T12 Arg2:T53	
+R42	WORKPLACE Arg1:T1 Arg2:T35	
+R43	WORKPLACE Arg1:T6 Arg2:T37	
+R44	ORIGINS_FROM Arg1:T53 Arg2:T9	
+R45	WORKPLACE Arg1:T47 Arg2:T46	
+R46	WORKPLACE Arg1:T19 Arg2:T46	
+R47	TAKES_PLACE_IN Arg1:T55 Arg2:T30	
+R48	TAKES_PLACE_IN Arg1:T55 Arg2:T57	
+N3	Reference T5 Wikidata:Q152369	Мебаза, Фуад
+N4	Reference T6 Wikidata:Q14212	премьер-министр
+N11	Reference T19 Wikidata:Q14212	премьер-министр
+N12	Reference T23 Wikidata:Q204487	Зин эль-Абидин Бен Али
+N13	Reference T29 Wikidata:Q204487	Зин эль-Абидин Бен Али
+N14	Reference T30 Wikidata:Q851	Саудовская Аравия
+N15	Reference T35 Wikidata:Q948	Тунис
+N16	Reference T39 Wikidata:Q35749	парламент
+N17	Reference T40 Wikidata:Q30461	президент
+N18	Reference T42 Wikidata:Q48352	глава государства
+N20	Reference T48 Wikidata:Q7188	правительство
+N22	Reference T53 Wikidata:Q7755	конституция
+N23	Reference T56 Wikidata:Q14911897	президент Туниса
+N24	Reference T61 Wikidata:Q381160	эксперт
+N21	Reference T31 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:NULL	нет данных
+N2	Reference T2 Wikidata:Q1758037	спикер
+N5	Reference T12 Wikidata:NULL	
+N6	Reference T13 Wikidata:Q1758037	спикер
+N7	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N25	Reference T45 Wikidata:Q485178	
+N10	Reference T18 Wikidata:NULL	нет данных
+N9	Reference T17 Wikidata:NULL	нет данных
+N19	Reference T47 Wikidata:Q431515	
+N26	Reference T36 Wikidata:Q152369	Мебаза, Фуад
+N27	Reference T21 Wikidata:Q14212	премьер-министр
+N28	Reference T9 Wikidata:Q948	Тунис
+N29	Reference T37 Wikidata:Q948	Тунис
+N30	Reference T57 Wikidata:Q948	Тунис
+N31	Reference T44 Wikidata:Q948	Тунис
+N32	Reference T46 Wikidata:Q948	Тунис
+N33	Reference T43 Wikidata:Q948	Тунис
+N34	Reference T26 Wikidata:Q948	Тунис
+N35	Reference T50 Wikidata:Q35749	парламент
+N36	Reference T41 Wikidata:Q35749	парламент
+N37	Reference T59 Wikidata:Q30461	президент
+N38	Reference T33 Wikidata:Q30461	президент
+N39	Reference T20 Wikidata:Q30461	президент
+N40	Reference T27 Wikidata:Q30461	президент
+N41	Reference T22 Wikidata:Q30461	президент
+N42	Reference T38 Wikidata:Q48352	глава государства
+N43	Reference T34 Wikidata:Q14911897	президент Туниса
+N44	Reference T4 Wikidata:Q1758037	спикер
+N45	Reference T8 Wikidata:NULL	нет данных
+N46	Reference T11 Wikidata:NULL	нет данных
+N47	Reference T3 Wikidata:NULL	нет данных
+N48	Reference T7 Wikidata:Q431515	
+N49	Reference T32 Wikidata:Q431515	

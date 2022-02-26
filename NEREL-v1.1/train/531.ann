@@ -1,0 +1,285 @@
+T1	PERSON 0 8	Медведев
+T2	PERSON 16 29	Суходольского
+T3	PROFESSION 42 65	главы ГУ МВД Петербурга
+T4	PROFESSION 67 83	Президент России
+T5	PERSON 84 100	Дмитрий Медведев
+T6	PROFESSION 111 137	генерал-полковника полиции
+T7	PERSON 138 159	Михаила Суходольского
+T8	PROFESSION 173 258	начальника Главного управления МВД России по Санкт-Петербургу и Ленинградской области
+T9	STATE_OR_PROVINCE 237 258	Ленинградской области
+T10	PERSON 299 311	Суходольский
+T11	DATE 342 358	в июне 2011 года
+T12	PROFESSION 380 402	заместителем главы МВД
+T13	PERSON 403 420	Рашида Нургалиева
+T14	ORGANIZATION 474 485	РИА Новости
+T15	PROFESSION 487 546	исполняющим обязанности главы петербургского управления МВД
+T17	PROFESSION 589 610	генерал-майор полиции
+T18	PERSON 611 623	Сергей Умнов
+T19	PERSON 632 637	Умнов
+T20	PERSON 659 672	Суходольского
+T21	PROFESSION 682 710	начальника ГУ МВД Петербурга
+T22	PROFESSION 767 790	руководитель управления
+T23	PERSON 791 812	Владислав Пиотровский
+T24	PERSON 818 829	Пиотровский
+T25	DATE 830 845	летом 2011 года
+T26	DATE 917 930	В начале года
+T27	CITY 1076 1086	питерского
+T28	AGE 1100 1109	15-летний
+T29	PERSON 1110 1125	Никита Леонтьев
+T30	DATE 1139 1148	22 января
+T31	PERSON 1161 1173	Денис Иванов
+T32	PROFESSION 1176 1219	заместители начальника 75-го отдела полиции
+T33	PERSON 1220 1235	Олег Прохоренко
+T34	PERSON 1238 1251	Алексей Малых
+T35	PERSON 1301 1307	Иванов
+T36	PERSON 1365 1374	Леонтьеву
+T37	PERSON 1432 1439	Иванова
+T38	PERSON 1497 1507	Прохоренко
+T39	PERSON 1509 1514	Малых
+T40	PROFESSION 1517 1550	начальник УМВД по Невскому району
+T42	PERSON 1551 1573	Валерий Белоцерковский
+T43	DATE 1575 1584	7 февраля
+T44	PERSON 1632 1651	Рашидом Нургалиевым
+T45	PERSON 1663 1675	Суходольский
+T46	PERSON 2026 2038	Суходольский
+T47	EVENT 2077 2094	итоговой коллегии
+T48	ORGANIZATION 2095 2101	МВД РФ
+T49	CITY 2104 2110	Москве
+T50	PROFESSION 2140 2149	главе МВД
+T51	PERSON 2150 2167	Рашиду Нургалиеву
+T52	ORGANIZATION 48 65	ГУ МВД Петербурга
+T53	ORGANIZATION 51 65	МВД Петербурга
+T54	CITY 55 65	Петербурга
+T55	COUNTRY 77 83	России
+T56	ORGANIZATION 184 258	Главного управления МВД России по Санкт-Петербургу и Ленинградской области
+T57	CITY 218 234	Санкт-Петербургу
+T58	ORGANIZATION 204 214	МВД России
+T59	COUNTRY 208 214	России
+T60	ORGANIZATION 277 296	пресс-служба Кремля
+T61	ORGANIZATION 290 296	Кремля
+T62	PROFESSION 393 402	главы МВД
+T63	ORGANIZATION 399 402	МВД
+T64	PROFESSION 511 546	главы петербургского управления МВД
+T65	CITY 517 531	петербургского
+T66	ORGANIZATION 543 546	МВД
+T67	ORGANIZATION 517 546	петербургского управления МВД
+T68	PERSON 575 588	Суходольского
+T69	ORGANIZATION 693 710	ГУ МВД Петербурга
+T70	ORGANIZATION 696 699	МВД
+T71	CITY 700 710	Петербурга
+T72	PERSON 931 950	Михаил Суходольский
+T73	PROFESSION 1013 1025	полицейскими
+T74	PROFESSION 1188 1219	начальника 75-го отдела полиции
+T75	ORGANIZATION 1199 1219	75-го отдела полиции
+T76	ORGANIZATION 1527 1531	УМВД
+T41	DISTRICT 1535 1550	Невскому району
+T77	COUNTRY 2099 2101	РФ
+T78	ORGANIZATION 2146 2149	МВД
+T79	EVENT 9 15	уволил
+R1	AGENT Arg1:T1 Arg2:T79	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T79	
+R3	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+R4	WORKS_AS Arg1:T2 Arg2:T3	
+R5	WORKPLACE Arg1:T2 Arg2:T52	
+T80	ORGANIZATION 51 54	МВД
+T81	PROFESSION 67 76	Президент
+R6	WORKS_AS Arg1:T5 Arg2:T4	
+R7	WORKPLACE Arg1:T4 Arg2:T55	
+R8	WORKPLACE Arg1:T5 Arg2:T55	
+R9	WORKS_AS Arg1:T7 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R11	ALTERNATIVE_NAME Arg1:T1 Arg2:T5	
+T82	EVENT 101 110;160 172	освободил от должности
+R12	ALTERNATIVE_NAME Arg1:T79 Arg2:T82	
+R13	WORKS_AS Arg1:T7 Arg2:T8	
+T83	ORGANIZATION 204 207	МВД
+R14	WORKPLACE Arg1:T7 Arg2:T56	
+R15	WORKPLACE Arg1:T8 Arg2:T56	
+R16	WORKS_AS Arg1:T10 Arg2:T12	
+R17	SUBORDINATE_OF Arg1:T10 Arg2:T13	
+R18	SUBORDINATE_OF Arg1:T12 Arg2:T62	
+R19	WORKPLACE Arg1:T12 Arg2:T63	
+R20	WORKPLACE Arg1:T62 Arg2:T63	
+R21	SUBORDINATE_OF Arg1:T18 Arg2:T68	
+T84	PROFESSION 589 602	генерал-майор
+R22	WORKS_AS Arg1:T18 Arg2:T17	
+T16	ORGANIZATION 603 610	полиции
+R23	WORKPLACE Arg1:T17 Arg2:T16	
+R24	ALTERNATIVE_NAME Arg1:T8 Arg2:T64	
+R25	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R26	WORKS_AS Arg1:T23 Arg2:T22	
+T85	EVENT 846 870	подал рапорт об отставке
+R27	PARTICIPANT_IN Arg1:T24 Arg2:T85	
+R28	POINT_IN_TIME Arg1:T85 Arg2:T25	
+T86	CRIME 992 1035	гибелью задержанного полицейскими подростка
+T87	EVENT 1130 1138	задержан
+T88	EVENT 969 977	скандала
+R29	AGE_IS Arg1:T29 Arg2:T28	
+R30	TAKES_PLACE_IN Arg1:T47 Arg2:T49	
+R31	HEADQUARTERED_IN Arg1:T48 Arg2:T77	
+R32	ORGANIZES Arg1:T48 Arg2:T47	
+T89	EVENT 2039 2057	ушел на больничный
+R33	AGENT Arg1:T46 Arg2:T89	
+R34	WORKPLACE Arg1:T50 Arg2:T78	
+R35	WORKPLACE Arg1:T51 Arg2:T78	
+R36	WORKS_AS Arg1:T51 Arg2:T50	
+R37	SUBORDINATE_OF Arg1:T46 Arg2:T51	
+T90	EVENT 547 555	назначен
+R38	PARTICIPANT_IN Arg1:T18 Arg2:T90	
+R39	WORKS_AS Arg1:T18 Arg2:T15	
+R40	HEADQUARTERED_IN Arg1:T67 Arg2:T65	
+R41	PARTICIPANT_IN Arg1:T64 Arg2:T90	
+R42	WORKPLACE Arg1:T21 Arg2:T69	
+R43	HEADQUARTERED_IN Arg1:T69 Arg2:T71	
+R44	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+T91	EVENT 890 914	не прошел переаттестацию
+R45	PARTICIPANT_IN Arg1:T24 Arg2:T91	
+R46	POINT_IN_TIME Arg1:T91 Arg2:T25	
+R47	PARTICIPANT_IN Arg1:T72 Arg2:T88	
+R48	POINT_IN_TIME Arg1:T88 Arg2:T26	
+T92	ORGANIZATION 1076 1097	питерского управления
+R49	HEADQUARTERED_IN Arg1:T92 Arg2:T27	
+R50	ALTERNATIVE_NAME Arg1:T71 Arg2:T27	
+R51	ALTERNATIVE_NAME Arg1:T65 Arg2:T71	
+R52	ALTERNATIVE_NAME Arg1:T69 Arg2:T92	
+R53	TAKES_PLACE_IN Arg1:T88 Arg2:T27	
+R54	PARTICIPANT_IN Arg1:T29 Arg2:T87	
+R55	POINT_IN_TIME Arg1:T87 Arg2:T30	
+T93	CRIME 1270 1288	попытке ограблении
+R56	ALTERNATIVE_NAME Arg1:T31 Arg2:T35	
+T94	PROFESSION 1150 1160	Участковый
+R57	WORKS_AS Arg1:T31 Arg2:T94	
+R58	ALTERNATIVE_NAME Arg1:T29 Arg2:T36	
+T95	EVENT 1489 1496	уволены
+T96	EVENT 1440 1447	уволили
+R59	PARTICIPANT_IN Arg1:T37 Arg2:T96	
+T97	EVENT 1607 1615	проверка
+R60	ORGANIZES Arg1:T44 Arg2:T97	
+R61	KNOWS Arg1:T33 Arg2:T34	
+R62	WORKS_AS Arg1:T33 Arg2:T32	
+R63	WORKS_AS Arg1:T34 Arg2:T32	
+R64	SUBORDINATE_OF Arg1:T32 Arg2:T74	
+R65	WORKPLACE Arg1:T74 Arg2:T75	
+R66	ABBREVIATION Arg1:T32 Arg2:T75	
+R67	WORKPLACE Arg1:T33 Arg2:T75	
+R68	WORKPLACE Arg1:T34 Arg2:T75	
+T98	EVENT 1337 1342	избил
+R69	AGENT Arg1:T35 Arg2:T98	
+R70	PARTICIPANT_IN Arg1:T29 Arg2:T98	
+T99	EVENT 1356 1364	избиения
+R71	ALTERNATIVE_NAME Arg1:T98 Arg2:T99	
+R72	PARTICIPANT_IN Arg1:T36 Arg2:T99	
+T100	EVENT 1375 1396	вызвали скорую помощь
+T101	EVENT 1404 1408	умер
+R73	PARTICIPANT_IN Arg1:T36 Arg2:T100	
+R74	PARTICIPANT_IN Arg1:T36 Arg2:T101	
+T102	EVENT 1450 1470	предъявили обвинения
+R75	PARTICIPANT_IN Arg1:T37 Arg2:T102	
+R76	POINT_IN_TIME Arg1:T97 Arg2:T43	
+R77	PARTICIPANT_IN Arg1:T92 Arg2:T97	
+R78	PARTICIPANT_IN Arg1:T38 Arg2:T95	
+R79	PARTICIPANT_IN Arg1:T39 Arg2:T95	
+R80	WORKS_AS Arg1:T42 Arg2:T40	
+R81	WORKPLACE Arg1:T42 Arg2:T76	
+R82	WORKPLACE Arg1:T40 Arg2:T76	
+R83	HEADQUARTERED_IN Arg1:T76 Arg2:T41	
+R84	HAS_CAUSE Arg1:T88 Arg2:T86	
+R85	CONVICTED_OF Arg1:T29 Arg2:T93	
+R86	HAS_CAUSE Arg1:T98 Arg2:T93	
+R87	PARTICIPANT_IN Arg1:T52 Arg2:T79	
+R88	LOCATED_IN Arg1:T54 Arg2:T55	
+R89	AGENT Arg1:T5 Arg2:T82	
+R90	PARTICIPANT_IN Arg1:T7 Arg2:T82	
+R91	PARTICIPANT_IN Arg1:T56 Arg2:T82	
+R92	LOCATED_IN Arg1:T9 Arg2:T59	
+R93	LOCATED_IN Arg1:T57 Arg2:T59	
+R94	PART_OF Arg1:T60 Arg2:T61	
+R95	HEADQUARTERED_IN Arg1:T61 Arg2:T59	
+T103	EVENT 316 324	назначен
+R96	PARTICIPANT_IN Arg1:T10 Arg2:T103	
+R97	POINT_IN_TIME Arg1:T103 Arg2:T11	
+R98	PARTICIPANT_IN Arg1:T56 Arg2:T103	
+R99	PARTICIPANT_IN Arg1:T67 Arg2:T90	
+R100	WORKPLACE Arg1:T23 Arg2:T69	
+R101	PARTICIPANT_IN Arg1:T69 Arg2:T85	
+R102	PARTICIPANT_IN Arg1:T73 Arg2:T86	
+R103	HAS_CAUSE Arg1:T96 Arg2:T99	
+R104	HAS_CAUSE Arg1:T95 Arg2:T99	
+R105	PARTICIPANT_IN Arg1:T42 Arg2:T95	
+N2	Reference T4 Wikidata:Q218295	президент Российской Федерации
+N3	Reference T5 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N4	Reference T6 Wikidata:Q4135293	генерал-полковник полиции
+N5	Reference T9 Wikidata:Q2191	Ленинградская область
+N9	Reference T14 Wikidata:Q821172	РИА Новости
+N21	Reference T48 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N22	Reference T49 Wikidata:Q649	Москва
+N25	Reference T57 Wikidata:Q656	Санкт-Петербург
+N26	Reference T58 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N27	Reference T59 Wikidata:Q159	Россия
+N34	Reference T71 Wikidata:Q656	Санкт-Петербург
+N37	Reference T41 Wikidata:Q1193156	Невский район
+N38	Reference T77 Wikidata:Q159	Россия
+N39	Reference T78 Wikidata:Q6589202	министерство внутренних дел
+N40	Reference T81 Wikidata:Q30461	президент
+N41	Reference T84 Wikidata:Q157148	генерал-майор
+N42	Reference T16 Wikidata:Q35535	полиция
+N43	Reference T94 Wikidata:Q4479299	Участковый уполномоченный полиции
+N1	Reference T3 Wikidata:NULL	нет данных
+N23	Reference T53 Wikidata:NULL	нет данных
+N24	Reference T56 Wikidata:NULL	нет данных
+N28	Reference T60 Wikidata:NULL	нет данных
+N30	Reference T62 Wikidata:NULL	нет данных
+N7	Reference T12 Wikidata:NULL	министерство внутренних дел
+N8	Reference T13 Wikidata:Q357321	Рашид Гумарович Нургалиев
+N6	Reference T10 Wikidata:Q4447216	
+N10	Reference T15 Wikidata:NULL	нет данных
+N31	Reference T64 Wikidata:NULL	нет данных
+N32	Reference T67 Wikidata:NULL	нет данных
+N11	Reference T17 Wikidata:NULL	нет данных
+N44	Reference T18 Wikidata:Q4475530	Умнов, Сергей Павлович
+N12	Reference T21 Wikidata:NULL	нет данных
+N33	Reference T69 Wikidata:NULL	нет данных
+N45	Reference T22 Wikidata:NULL	нет данных
+N46	Reference T24 Wikidata:Q4363200	
+N35	Reference T73 Wikidata:Q384593	
+N47	Reference T32 Wikidata:NULL	нет данных
+N48	Reference T74 Wikidata:NULL	нет данных
+N36	Reference T75 Wikidata:NULL	нет данных
+N13	Reference T33 Wikidata:NULL	нет данных
+N14	Reference T34 Wikidata:NULL	нет данных
+N15	Reference T36 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:NULL	нет данных
+N17	Reference T38 Wikidata:NULL	нет данных
+N18	Reference T39 Wikidata:NULL	нет данных
+N49	Reference T76 Wikidata:NULL	нет данных
+N19	Reference T40 Wikidata:NULL	нет данных
+N20	Reference T42 Wikidata:NULL	нет данных
+N29	Reference T61 Wikidata:Q2060629	Администрация президента России
+N50	Reference T1 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N51	Reference T55 Wikidata:Q159	Россия
+N52	Reference T27 Wikidata:Q656	Санкт-Петербург
+N53	Reference T65 Wikidata:Q656	Санкт-Петербург
+N54	Reference T54 Wikidata:Q656	Санкт-Петербург
+N55	Reference T63 Wikidata:Q6589202	министерство внутренних дел
+N56	Reference T70 Wikidata:Q6589202	министерство внутренних дел
+N57	Reference T80 Wikidata:Q6589202	министерство внутренних дел
+N58	Reference T66 Wikidata:Q6589202	министерство внутренних дел
+N59	Reference T83 Wikidata:Q6589202	министерство внутренних дел
+N60	Reference T50 Wikidata:NULL	нет данных
+N61	Reference T51 Wikidata:Q357321	Рашид Гумарович Нургалиев
+N62	Reference T44 Wikidata:Q357321	Рашид Гумарович Нургалиев
+N63	Reference T45 Wikidata:Q4447216	
+N64	Reference T68 Wikidata:Q4447216	
+N65	Reference T46 Wikidata:Q4447216	
+N66	Reference T7 Wikidata:Q4447216	
+N67	Reference T20 Wikidata:Q4447216	
+N68	Reference T72 Wikidata:Q4447216	
+N69	Reference T2 Wikidata:Q4447216	
+N70	Reference T8 Wikidata:NULL	нет данных
+N71	Reference T19 Wikidata:Q4475530	Умнов, Сергей Павлович
+N72	Reference T52 Wikidata:NULL	нет данных
+N73	Reference T92 Wikidata:NULL	нет данных
+N74	Reference T23 Wikidata:Q4363200	
+N75	Reference T29 Wikidata:NULL	нет данных
+N76	Reference T35 Wikidata:NULL	нет данных
+N77	Reference T31 Wikidata:NULL	нет данных

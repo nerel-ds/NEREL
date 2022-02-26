@@ -1,0 +1,147 @@
+T1	PERSON 0 5	Путин
+T2	PROFESSION 15 24	режиссёра
+T3	PERSON 25 40	Эмира Кустурицу
+T4	PROFESSION 56 65	Президент
+T5	PERSON 73 87	Владимир Путин
+T6	PERSON 90 104	Эмир Кустурица
+T7	EVENT 108 120	праздновании
+T8	AGE 121 129	10-летия
+T11	PROFESSION 178 187	Президент
+T12	PERSON 195 209	Владимир Путин
+T13	NATIONALITY 238 247	сербского
+T14	PERSON 258 273	Эмира Кустурицы
+T15	PERSON 483 492	Кустурицы
+T16	COUNTRY 536 539	США
+T18	ORGANIZATION 562 572	Лерман ЛЛС
+T19	PERSON 574 596	Сьюзан Элизабет Лерман
+T21	PERSON 653 662	Чэню Пина
+T22	DATE 691 702	в 1994 году
+T23	COUNTRY 708 717	советский
+T24	PROFESSION 785 793	артистка
+T25	PROFESSION 811 821	митрополит
+T26	PROFESSION 831 838	юморист
+T27	PROFESSION 857 864	актриса
+T28	PERSON 865 879	Ольга Дроздова
+T29	PROFESSION 881 892	спортсменка
+T30	PERSON 893 906	Алина Кабаева
+T31	AWARD 41 55	орденом Дружбы
+T32	EVENT 6 14	наградил
+T33	COUNTRY 66 72	России
+T34	COUNTRY 188 194	России
+T35	PROFESSION 56 72	Президент России
+T36	PROFESSION 178 194	Президент России
+T37	LAW 219 237	указ о награждении
+T38	PROFESSION 248 257	режиссёра
+T39	AWARD 274 288	орденом Дружбы
+T40	AWARD 735 755	орден Дружбы народов
+T41	AWARD 665 677	Орден Дружбы
+T42	LANGUAGE 437 445	русского
+T43	ORGANIZATION 609 652	Китайского государственного Большого театра
+T44	COUNTRY 609 619	Китайского
+T45	PROFESSION 599 652	директору Китайского государственного Большого театра
+T46	PERSON 794 809	Надежда Бабкина
+T47	PERSON 822 829	Варнава
+T48	PERSON 839 855	Владимир Винокур
+T49	ORGANIZATION 158 162	RTTV
+T50	EVENT 516 525	вручается
+T9	ORGANIZATION 165 177	Russia Today
+R1	ABBREVIATION Arg1:T9 Arg2:T49	
+T10	PROFESSION 541 572	президенту компании «Лерман ЛЛС
+R2	WORKS_AS Arg1:T30 Arg2:T29	
+R3	WORKS_AS Arg1:T28 Arg2:T27	
+R4	WORKS_AS Arg1:T48 Arg2:T26	
+R5	WORKS_AS Arg1:T47 Arg2:T25	
+R6	WORKS_AS Arg1:T46 Arg2:T24	
+R7	AGENT Arg1:T1 Arg2:T32	
+R8	WORKS_AS Arg1:T3 Arg2:T2	
+R9	PARTICIPANT_IN Arg1:T3 Arg2:T32	
+R10	AWARDED_WITH Arg1:T3 Arg2:T31	
+R11	WORKPLACE Arg1:T35 Arg2:T33	
+R12	WORKPLACE Arg1:T36 Arg2:T34	
+R13	WORKS_AS Arg1:T5 Arg2:T35	
+R14	WORKS_AS Arg1:T12 Arg2:T36	
+R15	WORKPLACE Arg1:T12 Arg2:T34	
+R16	WORKPLACE Arg1:T5 Arg2:T33	
+R17	PARTICIPANT_IN Arg1:T6 Arg2:T7	
+R18	PARTICIPANT_IN Arg1:T5 Arg2:T7	
+R19	ORGANIZES Arg1:T49 Arg2:T7	
+R20	ORIGINS_FROM Arg1:T40 Arg2:T23	
+R21	WORKPLACE Arg1:T10 Arg2:T18	
+T17	PROFESSION 541 560	президенту компании
+R22	WORKS_AS Arg1:T19 Arg2:T10	
+R23	WORKPLACE Arg1:T19 Arg2:T18	
+R24	WORKPLACE Arg1:T45 Arg2:T43	
+R25	HEADQUARTERED_IN Arg1:T43 Arg2:T44	
+R26	WORKS_AS Arg1:T21 Arg2:T45	
+R27	WORKPLACE Arg1:T21 Arg2:T43	
+T20	NATIONALITY 526 539	гражданке США
+R28	ORIGINS_FROM Arg1:T19 Arg2:T20	
+R29	AWARDED_WITH Arg1:T14 Arg2:T39	
+R30	DATE_OF_CREATION Arg1:T41 Arg2:T22	
+R31	AWARDED_WITH Arg1:T46 Arg2:T41	
+R32	AWARDED_WITH Arg1:T47 Arg2:T41	
+R33	AWARDED_WITH Arg1:T48 Arg2:T41	
+R34	AWARDED_WITH Arg1:T28 Arg2:T41	
+R35	AWARDED_WITH Arg1:T30 Arg2:T41	
+R36	AWARDED_WITH Arg1:T19 Arg2:T39	
+R37	AWARDED_WITH Arg1:T21 Arg2:T39	
+R38	WORKS_AS Arg1:T14 Arg2:T38	
+R39	ORIGINS_FROM Arg1:T14 Arg2:T13	
+R40	ORIGINS_FROM Arg1:T38 Arg2:T13	
+R41	AGE_IS Arg1:T49 Arg2:T8	
+T51	EVENT 210 223	подписал указ
+R42	PARTICIPANT_IN Arg1:T12 Arg2:T51	
+R43	INANIMATE_INVOLVED Arg1:T31 Arg2:T32	
+T52	COUNTRY 165 171	Russia
+R44	HEADQUARTERED_IN Arg1:T9 Arg2:T52	
+R45	INANIMATE_INVOLVED Arg1:T37 Arg2:T51	
+R46	PARTICIPANT_IN Arg1:T14 Arg2:T51	
+R47	INANIMATE_INVOLVED Arg1:T39 Arg2:T51	
+R48	PARTICIPANT_IN Arg1:T19 Arg2:T50	
+R49	PARTICIPANT_IN Arg1:T21 Arg2:T50	
+N1	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N2	Reference T2 Wikidata:Q3455803	режиссёр
+N3	Reference T5 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T6 Wikidata:Q94882	Эмир Кустурица
+N5	Reference T11 Wikidata:Q30461	президент
+N7	Reference T15 Wikidata:Q94882	Эмир Кустурица
+N8	Reference T16 Wikidata:Q30	США
+N14	Reference T25 Wikidata:Q189854	митрополит
+N15	Reference T26 Wikidata:Q12406482	юморист
+N16	Reference T27 Wikidata:Q33999	актёр
+N17	Reference T28 Wikidata:Q4168456	Ольга Борисовна Дроздова
+N18	Reference T30 Wikidata:Q254220	Кабаева, Алина Маратовна
+N19	Reference T34 Wikidata:Q159	Россия
+N20	Reference T35 Wikidata:Q218295	президент Российской Федерации
+N21	Reference T39 Wikidata:Q791135	орден Дружбы
+N22	Reference T40 Wikidata:Q583881	орден Дружбы народов
+N23	Reference T42 Wikidata:Q7737	русский язык
+N25	Reference T44 Wikidata:Q148	Китайская Народная Республика
+N27	Reference T46 Wikidata:Q4074462	Надежда Георгиевна Бабкина
+N28	Reference T47 Wikidata:Q185856	Варнава
+N29	Reference T48 Wikidata:Q2452298	Владимир Натанович Винокур
+N33	Reference T49 Wikidata:Q22868	RT
+N32	Reference T52 Wikidata:Q159	Россия
+N34	Reference T37 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:Q127885	сербы
+N31	Reference T20 Wikidata:Q846570	
+N35	Reference T17 Wikidata:Q1255921	
+N30	Reference T10 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:NULL	нет данных
+N10	Reference T19 Wikidata:NULL	нет данных
+N26	Reference T45 Wikidata:NULL	нет данных
+N24	Reference T43 Wikidata:NULL	нет данных
+N11	Reference T21 Wikidata:NULL	нет данных
+N12	Reference T23 Wikidata:Q15180	СССР
+N13	Reference T24 Wikidata:Q483501	деятель искусств
+N36	Reference T29 Wikidata:Q2066131	спортсмен
+N37	Reference T38 Wikidata:Q3455803	режиссёр
+N38	Reference T12 Wikidata:Q7747	Владимир Владимирович Путин
+N39	Reference T14 Wikidata:Q94882	Эмир Кустурица
+N40	Reference T3 Wikidata:Q94882	Эмир Кустурица
+N41	Reference T4 Wikidata:Q30461	президент
+N42	Reference T33 Wikidata:Q159	Россия
+N43	Reference T36 Wikidata:Q218295	президент Российской Федерации
+N44	Reference T31 Wikidata:Q791135	орден Дружбы
+N45	Reference T41 Wikidata:Q791135	орден Дружбы
+N46	Reference T9 Wikidata:Q22868	RT

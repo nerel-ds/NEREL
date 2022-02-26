@@ -1,0 +1,88 @@
+T1	PERSON 0 12	Бенедикт XVI
+T2	PROFESSION 36 48	Папа Римский
+T3	PERSON 49 61	Бенедикт XVI
+T4	COUNTRY 103 111	Ватикане
+T5	PERSON 165 177	Бенедикт XVI
+T6	DATE 179 200	некоторое время назад
+T7	PROFESSION 361 396	глава пресс-службы Святого престола
+T8	PROFESSION 397 405	кардинал
+T9	PERSON 406 423	Федерико Ломбарди
+T10	DATE 426 442	Ранее во вторник
+T11	ORGANIZATION 462 476	Il Sole 24 Ore
+T12	DATE 523 553	в течение десяти последних лет
+T13	DATE 557 581	около трёх месяцев назад
+T14	PERSON 660 672	Бенедикт XVI
+T15	DATE 709 719	28 февраля
+T16	AGE 734 743	85-летний
+T17	DATE 908 919	в этом году
+T18	DATE 934 942	31 марта
+T19	ORDINAL 9 12	XVI
+T20	ORDINAL 58 61	XVI
+T21	PROFESSION 152 164	Папа Римский
+T22	ORDINAL 174 177	XVI
+T23	ORGANIZATION 367 396	пресс-службы Святого престола
+T24	ORGANIZATION 380 396	Святого престола
+T25	PROFESSION 491 499	понтифик
+T26	ORDINAL 669 672	XVI
+T27	PROFESSION 744 752	понтифик
+T28	ORGANIZATION 839 846	Конклав
+T29	PROFESSION 872 876	папу
+T30	EVENT 880 898	католической Пасхи
+T31	EVENT 893 898	Пасхи
+T32	RELIGION 880 892	католической
+T33	CITY 41 48	Римский
+R1	WORKPLACE Arg1:T2 Arg2:T33	
+R2	WORKS_AS Arg1:T3 Arg2:T2	
+T34	PROFESSION 36 40	Папа
+T35	CITY 157 164	Римский
+T36	PROFESSION 152 156	Папа
+R3	WORKPLACE Arg1:T21 Arg2:T35	
+R4	LOCATED_IN Arg1:T4 Arg2:T35	
+R5	WORKS_AS Arg1:T5 Arg2:T21	
+R6	PART_OF Arg1:T23 Arg2:T24	
+R7	WORKS_AS Arg1:T9 Arg2:T8	
+R8	WORKPLACE Arg1:T9 Arg2:T23	
+R9	WORKPLACE Arg1:T7 Arg2:T23	
+R10	WORKS_AS Arg1:T9 Arg2:T7	
+T37	COUNTRY 443 454	итальянская
+R11	LOCATED_IN Arg1:T35 Arg2:T37	
+R12	HEADQUARTERED_IN Arg1:T11 Arg2:T37	
+R13	ALTERNATIVE_NAME Arg1:T36 Arg2:T25	
+T38	PROFESSION 693 700	папский
+R14	ALTERNATIVE_NAME Arg1:T38 Arg2:T29	
+R15	AGE_IS Arg1:T27 Arg2:T16	
+R16	WORKS_AS Arg1:T14 Arg2:T27	
+R17	POINT_IN_TIME Arg1:T30 Arg2:T18	
+T39	EVENT 857 864	избрать
+R18	PARTICIPANT_IN Arg1:T29 Arg2:T39	
+R19	RELIGION_OF Arg1:T30 Arg2:T32	
+T40	EVENT 685 708	покинет папский престол
+R20	AGENT Arg1:T14 Arg2:T40	
+R21	PARTICIPANT_IN Arg1:T38 Arg2:T40	
+R22	POINT_IN_TIME Arg1:T40 Arg2:T15	
+R23	AGE_IS Arg1:T14 Arg2:T16	
+R24	AGENT Arg1:T28 Arg2:T39	
+N1	Reference T4 Wikidata:Q237	Ватикан
+N2	Reference T5 Wikidata:Q2494	Бенедикт XVI
+N4	Reference T8 Wikidata:Q45722	кардинал
+N5	Reference T9 Wikidata:Q725753	Федерико Ломбарди
+N6	Reference T21 Wikidata:Q19546	Папа Римский
+N7	Reference T23 Wikidata:Q1891442	Пресс-служба Святого Престола
+N8	Reference T24 Wikidata:Q159583	Святой Престол
+N10	Reference T28 Wikidata:Q186431	Конклав
+N14	Reference T34 Wikidata:Q19546	Папа Римский
+N9	Reference T27 Wikidata:Q19546	Папа Римский
+N12	Reference T35 Wikidata:Q220	Рим
+N3	Reference T7 Wikidata:NULL	нет данных
+N13	Reference T37 Wikidata:Q38	Италия
+N15	Reference T11 Wikidata:Q1658262	
+N11	Reference T32 Wikidata:Q1841	католичество
+N16	Reference T14 Wikidata:Q2494	Бенедикт XVI
+N17	Reference T1 Wikidata:Q2494	Бенедикт XVI
+N18	Reference T3 Wikidata:Q2494	Бенедикт XVI
+N19	Reference T2 Wikidata:Q19546	Папа Римский
+N20	Reference T29 Wikidata:Q19546	Папа Римский
+N21	Reference T38 Wikidata:Q19546	Папа Римский
+N22	Reference T36 Wikidata:Q19546	Папа Римский
+N23	Reference T25 Wikidata:Q19546	Папа Римский
+N24	Reference T33 Wikidata:Q220	Рим

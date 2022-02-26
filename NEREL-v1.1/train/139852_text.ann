@@ -1,0 +1,124 @@
+T1	NATIONALITY 0 10	Американка
+T2	MONEY 22 30	биткоины
+T3	ORGANIZATION 31 53	Исламскому государству
+T4	COUNTRY 62 65	США
+T5	AGE 77 86	27-летнюю
+T6	CITY 98 107	Нью-Йорка
+T7	ORGANIZATION 138 160	Исламского государства
+T8	ORGANIZATION 162 164	ИГ
+T9	ORGANIZATION 242 244	ИГ
+T10	ORGANIZATION 247 267	Министерство юстиции
+T11	COUNTRY 305 308	США
+T12	PERSON 309 321	Зубия Шахназ
+T13	PERSON 323 337	Zoobia Shahnaz
+T14	MONEY 417 440	около 85 тысяч долларов
+T15	MONEY 468 476	биткоины
+T16	ORGANIZATION 536 538	ИГ
+T17	ORGANIZATION 583 604	American Express Bank
+T18	ORGANIZATION 606 616	Chase Bank
+T19	ORGANIZATION 618 631	Discover Bank
+T20	COUNTRY 658 661	США
+T21	COUNTRY 664 672	Пакистан
+T22	DATE 692 698	в июле
+T24	FACILITY 701 724	аэропорту Джона Кеннеди
+T25	CITY 727 736	Нью-Йорке
+T26	COUNTRY 783 789	Турцию
+T27	COUNTRY 792 797	Сирию
+T28	ORGANIZATION 822 824	ИГ
+T29	MONEY 878 901	около 70 тысяч долларов
+T30	DATE 910 921	В 2016 году
+T31	COUNTRY 936 944	Иордании
+T32	ORGANIZATION 967 1011	Сирийско-американского медицинского общества
+T33	COUNTRY 1051 1060	сирийским
+T34	ORGANIZATION 1090 1092	ИГ
+T35	ORGANIZATION 1171 1173	ИГ
+T36	ORGANIZATION 1176 1179	ФБР
+T37	PERSON 1201 1207	Шахназ
+T38	DATE 1222 1233	с 2015 года
+T39	ORGANIZATION 1279 1281	ИГ
+T40	ORGANIZATION 1317 1319	ИГ
+T41	COUNTRY 1370 1373	США
+T42	EVENT 66 76	арестовали
+T45	MONEY 166 176	биткоинами
+T46	COUNTRY 583 591	American
+T47	DISTRICT 854 864	Манхэттена
+T23	PERSON 711 724	Джона Кеннеди
+T48	PERSON 922 928	Шахназ
+T49	COUNTRY 967 975	Сирийско
+T50	COUNTRY 976 989	американского
+R1	ABBREVIATION Arg1:T7 Arg2:T8	
+R2	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R3	HEADQUARTERED_IN Arg1:T17 Arg2:T46	
+R4	LOCATED_IN Arg1:T24 Arg2:T25	
+T43	NATIONALITY 295 308	гражданка США
+R5	ORIGINS_FROM Arg1:T43 Arg2:T11	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T43	
+R7	ORIGINS_FROM Arg1:T12 Arg2:T43	
+R8	LOCATED_IN Arg1:T47 Arg2:T25	
+R9	LOCATED_IN Arg1:T48 Arg2:T31	
+T44	ORGANIZATION 55 65	Власти США
+R10	AGENT Arg1:T44 Arg2:T42	
+R11	AGE_IS Arg1:T12 Arg2:T5	
+R12	PLACE_RESIDES_IN Arg1:T12 Arg2:T6	
+T51	CRIME 123 160	финансировании Исламского государства
+R13	CONVICTED_OF Arg1:T12 Arg2:T51	
+R14	PARTICIPANT_IN Arg1:T12 Arg2:T42	
+R15	HAS_CAUSE Arg1:T42 Arg2:T51	
+T52	EVENT 682 691	задержана
+R16	POINT_IN_TIME Arg1:T52 Arg2:T22	
+R17	TAKES_PLACE_IN Arg1:T52 Arg2:T24	
+R18	ALTERNATIVE_NAME Arg1:T42 Arg2:T52	
+R19	WORKPLACE Arg1:T48 Arg2:T32	
+T53	PROFESSION 956 1011	волонтёра «Сирийско-американского медицинского общества
+R20	ALTERNATIVE_NAME Arg1:T12 Arg2:T48	
+R21	WORKS_AS Arg1:T48 Arg2:T53	
+R22	HEADQUARTERED_IN Arg1:T44 Arg2:T4	
+R23	INCOME Arg1:T12 Arg2:T29	
+R24	WORKPLACE Arg1:T53 Arg2:T32	
+R25	INCOME Arg1:T12 Arg2:T14	
+R26	PARTICIPANT_IN Arg1:T7 Arg2:T51	
+N1	Reference T10 Wikidata:Q1413677	министерство юстиции
+N2	Reference T11 Wikidata:Q30	США
+N6	Reference T21 Wikidata:Q843	Пакистан
+N7	Reference T24 Wikidata:Q8685	Международный аэропорт имени Джона Кеннеди
+N9	Reference T26 Wikidata:Q43	Турция
+N10	Reference T27 Wikidata:Q858	Сирия
+N11	Reference T31 Wikidata:Q810	Иордания
+N14	Reference T35 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N15	Reference T36 Wikidata:Q8333	Федеральное бюро расследований
+N17	Reference T47 Wikidata:Q11299	Манхэттен
+N21	Reference T43 Wikidata:Q846570	
+N23	Reference T44 Wikidata:Q48525	
+N24	Reference T46 Wikidata:Q30	США
+N3	Reference T17 Wikidata:Q194360	Tinkoff
+N4	Reference T18 Wikidata:Q524629	JPMorgan Chase
+N5	Reference T19 Wikidata:Q5281775	Discover Financial Services
+N18	Reference T23 Wikidata:Q9696	Джон Фицджеральд Кеннеди
+N8	Reference T25 Wikidata:Q60	Нью-Йорк
+N12	Reference T32 Wikidata:Q23808410	Лондонское королевское общество
+N22	Reference T53 Wikidata:NULL	
+N19	Reference T49 Wikidata:Q858	Сирия
+N20	Reference T50 Wikidata:Q30	США
+N16	Reference T37 Wikidata:NULL	Шахназ Пехлеви
+N13	Reference T33 Wikidata:Q858	Сирия
+N25	Reference T41 Wikidata:Q30	США
+N26	Reference T4 Wikidata:Q30	США
+N27	Reference T20 Wikidata:Q30	США
+N28	Reference T40 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N29	Reference T8 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N30	Reference T16 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N31	Reference T34 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N32	Reference T7 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N33	Reference T9 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N34	Reference T3 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N35	Reference T39 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N36	Reference T28 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N37	Reference T1 Wikidata:Q846570	
+N38	Reference T6 Wikidata:Q60	Нью-Йорк
+N39	Reference T13 Wikidata:NULL	Шахназ Пехлеви
+N40	Reference T12 Wikidata:NULL	Шахназ Пехлеви
+N41	Reference T48 Wikidata:NULL	Шахназ Пехлеви
+T54	RELIGION 31 41	Исламскому
+R27	RELIGION_OF Arg1:T3 Arg2:T54	
+T55	RELIGION 138 148	Исламского
+R28	RELIGION_OF Arg1:T7 Arg2:T55	

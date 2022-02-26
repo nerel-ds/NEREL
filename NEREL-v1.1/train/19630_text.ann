@@ -1,0 +1,255 @@
+T1	CITY 2 9	Иваново
+T2	ORGANIZATION 21 24	РПЦ
+T3	EVENT 48 75	Великой Отечественной войны
+T4	PRODUCT 77 98	Георгиевская ленточка
+T5	DATE 101 122	11 сентября 2012 года
+T6	ORGANIZATION 140 146	РПЦ МП
+T7	EVENT 215 242	Великой Отечественной войны
+T8	EVENT 273 292	Победы над фашизмом
+T9	FACILITY 297 320	Площади 40-летия Победы
+T10	DATE 324 339	В мае 1985 года
+T11	FACILITY 343 366	площади Михаила Багаева
+T12	CITY 369 376	Иваново
+T13	AGE 407 415	40-летия
+T14	EVENT 416 422	Победы
+T15	EVENT 425 452	Великой Отечественной войне
+T16	FACILITY 514 537	Площадь 40-летия Победы
+T17	DATE 541 552	В 2007 году
+T20	NUMBER 728 736	более 10
+T21	FACILITY 770 784	площади Победы
+T22	CITY 787 794	Иванове
+T23	AGE 855 863	40-летию
+T24	EVENT 864 876	Победы в ВОВ
+T25	EVENT 882 891	совещании
+T27	FACILITY 922 937	40-летия Победы
+T28	PROFESSION 977 997	Главы города Иванова
+T29	PERSON 998 1017	Вячеслава Сверчкова
+T31	PERSON 1087 1104	Ольга Хасбулатова
+T32	PROFESSION 1106 1140	глава администрации города Иванова
+T33	PERSON 1141 1160	Александр Кузьмичев
+T34	PROFESSION 1162 1169	епископ
+T39	CITY 1235 1242	Иванова
+T40	DATE 1264 1280	в июле 2012 года
+T41	FACILITY 1311 1325	Площадь Победы
+T42	DATE 1330 1357	в начале сентября 2012 года
+T43	DATE 1506 1516	7 сентября
+T44	DATE 1701 1710	через год
+T45	DATE 1734 1745	через 5 лет
+T46	EVENT 1800 1827	Великая Отечественная Война
+T47	PROFESSION 1876 1903	Глава администрации Иваново
+T48	ORGANIZATION 1920 1923	РПЦ
+T49	NUMBER 2207 2212	одной
+T50	TIME 2278 2314	в ночь с 11 на 12 сентября 2012 года
+T51	DATE 2285 2314	с 11 на 12 сентября 2012 года
+T52	DATE 2353 2374	12 сентября 2012 года
+T53	ORGANIZATION 2384 2405	Ивановской митрополии
+T54	ORGANIZATION 2446 2486	пресс-службы Главы Ивановской митрополии
+T55	FACILITY 2572 2582	школы № 38
+T56	CITY 2590 2597	Иваново
+T57	FACILITY 2599 2637	Феодоровская общеобразовательная школа
+T58	FACILITY 32 75	памятник героям Великой Отечественной войны
+T59	ORGANIZATION 157 185	администрации города Иваново
+T60	CITY 178 185	Иваново
+T61	FACILITY 199 242	памятник героям Великой Отечественной войны
+T64	AGE 305 313	40-летия
+T65	PERSON 351 366	Михаила Багаева
+T66	FACILITY 390 452	памятник в честь 40-летия Победы в Великой Отечественной войне
+T67	EVENT 416 452	Победы в Великой Отечественной войне
+T69	AGE 522 530	40-летия
+T18	PERSON 635 654	Георгия Победоносца
+T19	EVENT 873 876	ВОВ
+T26	CITY 990 997	Иванова
+T70	PROFESSION 1037 1086	зам председателя правительства Ивановской области
+T71	PROFESSION 1041 1086	председателя правительства Ивановской области
+T72	ORGANIZATION 1054 1086	правительства Ивановской области
+T73	STATE_OR_PROVINCE 1068 1086	Ивановской области
+T74	ORDINAL 1030 1036	первый
+T75	ORGANIZATION 1112 1140	администрации города Иванова
+T76	CITY 1133 1140	Иванова
+T35	CITY 1170 1177	Иваново
+T36	CITY 1178 1190	Вознесенский
+T37	CITY 1193 1202	Вичугский
+T38	PROFESSION 1162 1202	епископ Иваново-Вознесенский и Вичугский
+T77	PERSON 1203 1208	Иосиф
+T78	EVENT 1254 1263	совещания
+T79	FACILITY 1375 1384	Памятника
+T80	CITY 1394 1401	Иваново
+T81	ORGANIZATION 1517 1527	коммунисты
+T82	ORGANIZATION 1627 1636	Единоросы
+T83	ORGANIZATION 1882 1903	администрации Иваново
+T84	CITY 1896 1903	Иваново
+T85	PROFESSION 1906 1923	представители РПЦ
+T86	PROFESSION 2032 2041	депутатов
+T87	PROFESSION 2032 2067	депутатов Ивановской городской думы
+T88	PROFESSION 2459 2486	Главы Ивановской митрополии
+T89	PROFESSION 2661 2688	Главы Ивановской митрополии
+T90	ORGANIZATION 2042 2067	Ивановской городской думы
+T91	ORGANIZATION 2053 2067	городской думы
+T92	CITY 2042 2052	Ивановской
+T93	EVENT 2128 2155	Великой Отечественной войны
+T94	EVENT 2338 2350	демонтирован
+T95	CITY 2384 2394	Ивановской
+T96	ORGANIZATION 2465 2486	Ивановской митрополии
+T97	CITY 2465 2475	Ивановской
+T98	NUMBER 2578 2582	№ 38
+T99	PERSON 2599 2611	Феодоровская
+T100	ORGANIZATION 2648 2688	пресс-службы Главы Ивановской митрополии
+T101	ORGANIZATION 2667 2688	Ивановской митрополии
+T102	CITY 2667 2677	Ивановской
+R1	HEADQUARTERED_IN Arg1:T59 Arg2:T60	
+R2	LOCATED_IN Arg1:T58 Arg2:T1	
+R3	LOCATED_IN Arg1:T11 Arg2:T12	
+R4	WORKPLACE Arg1:T28 Arg2:T26	
+R5	WORKS_AS Arg1:T29 Arg2:T28	
+R6	WORKPLACE Arg1:T29 Arg2:T26	
+R7	LOCATED_IN Arg1:T27 Arg2:T26	
+R8	HEADQUARTERED_IN Arg1:T53 Arg2:T95	
+R9	WORKPLACE Arg1:T85 Arg2:T48	
+R10	WORKPLACE Arg1:T47 Arg2:T83	
+R11	HEADQUARTERED_IN Arg1:T83 Arg2:T84	
+R12	LOCATED_IN Arg1:T66 Arg2:T11	
+R13	DATE_FOUNDED_IN Arg1:T66 Arg2:T10	
+R14	ALTERNATIVE_NAME Arg1:T11 Arg2:T16	
+R15	ALTERNATIVE_NAME Arg1:T16 Arg2:T21	
+R16	LOCATED_IN Arg1:T21 Arg2:T22	
+T103	FACILITY 845 876	памятник «40-летию Победы в ВОВ
+R17	ALTERNATIVE_NAME Arg1:T61 Arg2:T66	
+R18	ALTERNATIVE_NAME Arg1:T66 Arg2:T103	
+R19	WORKPLACE Arg1:T32 Arg2:T75	
+R20	HEADQUARTERED_IN Arg1:T75 Arg2:T76	
+R21	POINT_IN_TIME Arg1:T94 Arg2:T50	
+R22	HEADQUARTERED_IN Arg1:T96 Arg2:T97	
+R23	HEADQUARTERED_IN Arg1:T90 Arg2:T92	
+R24	WORKPLACE Arg1:T87 Arg2:T90	
+R25	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+R26	LOCATED_IN Arg1:T57 Arg2:T56	
+R27	HEADQUARTERED_IN Arg1:T101 Arg2:T102	
+R28	WORKPLACE Arg1:T89 Arg2:T101	
+R29	FOUNDED_BY Arg1:T100 Arg2:T89	
+T62	EVENT 25 40	снесли памятник
+R30	TAKES_PLACE_IN Arg1:T62 Arg2:T1	
+R31	ORGANIZES Arg1:T2 Arg2:T62	
+T104	EVENT 190 207	разрушен памятник
+R32	ALTERNATIVE_NAME Arg1:T62 Arg2:T104	
+R33	POINT_IN_TIME Arg1:T104 Arg2:T5	
+R34	ORGANIZES Arg1:T59 Arg2:T104	
+R35	ORGANIZES Arg1:T6 Arg2:T104	
+R36	LOCATED_IN Arg1:T61 Arg2:T9	
+R37	LOCATED_IN Arg1:T9 Arg2:T60	
+R38	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R39	SUBEVENT_OF Arg1:T14 Arg2:T15	
+R40	AGE_IS Arg1:T15 Arg2:T13	
+R41	ALTERNATIVE_NAME Arg1:T8 Arg2:T15	
+R42	PARTICIPANT_IN Arg1:T29 Arg2:T25	
+R43	TAKES_PLACE_IN Arg1:T25 Arg2:T26	
+R44	ALTERNATIVE_NAME Arg1:T21 Arg2:T27	
+R45	PARTICIPANT_IN Arg1:T31 Arg2:T25	
+R46	PARTICIPANT_IN Arg1:T33 Arg2:T25	
+R47	PARTICIPANT_IN Arg1:T77 Arg2:T25	
+T63	EVENT 1366 1384	демонтаж Памятника
+R48	ALTERNATIVE_NAME Arg1:T104 Arg2:T63	
+R49	START_TIME Arg1:T63 Arg2:T42	
+T68	EVENT 1538 1557	одиночными пикетами
+R50	POINT_IN_TIME Arg1:T68 Arg2:T43	
+R51	PARTICIPANT_IN Arg1:T81 Arg2:T68	
+R52	HAS_CAUSE Arg1:T68 Arg2:T63	
+T105	PROFESSION 1030 1086	первый зам председателя правительства Ивановской области
+R53	WORKS_AS Arg1:T31 Arg2:T105	
+R54	SUBORDINATE_OF Arg1:T105 Arg2:T71	
+R55	SUBORDINATE_OF Arg1:T31 Arg2:T71	
+R56	HEADQUARTERED_IN Arg1:T72 Arg2:T73	
+R57	LOCATED_IN Arg1:T76 Arg2:T73	
+R58	WORKPLACE Arg1:T71 Arg2:T72	
+R59	WORKPLACE Arg1:T105 Arg2:T72	
+R60	WORKPLACE Arg1:T70 Arg2:T72	
+R61	WORKPLACE Arg1:T31 Arg2:T72	
+R62	WORKS_AS Arg1:T33 Arg2:T32	
+R63	WORKPLACE Arg1:T33 Arg2:T76	
+T30	EVENT 531 537	Победы
+R64	ALTERNATIVE_NAME Arg1:T14 Arg2:T30	
+R65	AGE_IS Arg1:T30 Arg2:T69	
+T106	EVENT 314 320	Победы
+R66	AGE_IS Arg1:T106 Arg2:T64	
+R67	AGE_IS Arg1:T24 Arg2:T23	
+R68	WORKS_AS Arg1:T77 Arg2:T38	
+T107	EVENT 1319 1325	Победы
+T108	EVENT 1950 1965	сносе памятника
+R69	ALTERNATIVE_NAME Arg1:T63 Arg2:T108	
+R70	ALTERNATIVE_NAME Arg1:T108 Arg2:T94	
+R71	WORKPLACE Arg1:T88 Arg2:T96	
+R72	FOUNDED_BY Arg1:T54 Arg2:T88	
+R73	INANIMATE_INVOLVED Arg1:T58 Arg2:T62	
+R74	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R75	INANIMATE_INVOLVED Arg1:T61 Arg2:T104	
+R76	ABBREVIATION Arg1:T15 Arg2:T19	
+R77	WORKS_AS Arg1:T77 Arg2:T34	
+R78	WORKPLACE Arg1:T77 Arg2:T37	
+R79	WORKPLACE Arg1:T77 Arg2:T35	
+N7	Reference T34 Wikidata:Q29182	епископ
+N10	Reference T48 Wikidata:Q60995	Русская православная церковь
+N11	Reference T53 Wikidata:Q4196605	Ивановская митрополия
+N15	Reference T18 Wikidata:Q48438	Георгий Победоносец
+N20	Reference T35 Wikidata:Q2630	Иваново
+N24	Reference T77 Wikidata:Q128267	Иосиф Обручник
+N26	Reference T81 Wikidata:Q233591	коммунистическая партия
+N27	Reference T82 Wikidata:Q151469	Единая Россия
+N30	Reference T86 Wikidata:Q486839	член парламента
+N34	Reference T91 Wikidata:Q3154693	городской совет
+N12	Reference T57 Wikidata:NULL	нет данных
+N13	Reference T59 Wikidata:NULL	нет данных
+N14	Reference T65 Wikidata:Q107208140	
+N2	Reference T16 Wikidata:Q4365704	
+N38	Reference T103 Wikidata:NULL	нет данных
+N3	Reference T28 Wikidata:NULL	нет данных
+N4	Reference T29 Wikidata:Q4410221	
+N40	Reference T73 Wikidata:Q2654	
+N18	Reference T72 Wikidata:Q60851783	
+N39	Reference T105 Wikidata:NULL	нет данных
+N17	Reference T71 Wikidata:NULL	нет данных
+N16	Reference T70 Wikidata:NULL	нет данных
+N5	Reference T31 Wikidata:NULL	нет данных
+N19	Reference T75 Wikidata:NULL	нет данных
+N41	Reference T32 Wikidata:NULL	нет данных
+N6	Reference T33 Wikidata:Q15070717	Кузьмичёв, Александр Станиславович
+N21	Reference T36 Wikidata:NULL	нет данных
+N22	Reference T37 Wikidata:Q133102	
+N23	Reference T38 Wikidata:NULL	нет данных
+N8	Reference T39 Wikidata:Q2630	Иваново
+N25	Reference T79 Wikidata:NULL	нет данных
+N28	Reference T83 Wikidata:NULL	нет данных
+N9	Reference T47 Wikidata:NULL	нет данных
+N29	Reference T85 Wikidata:NULL	нет данных
+N33	Reference T90 Wikidata:NULL	нет данных
+N31	Reference T87 Wikidata:NULL	нет данных
+N37	Reference T102 Wikidata:Q2630	Иваново
+N32	Reference T89 Wikidata:NULL	нет данных
+N36	Reference T100 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:Q1790496	
+N35	Reference T99 Wikidata:Q2661742	
+N42	Reference T6 Wikidata:Q60995	Русская православная церковь
+N43	Reference T2 Wikidata:Q60995	Русская православная церковь
+N44	Reference T96 Wikidata:Q4196605	Ивановская митрополия
+N45	Reference T101 Wikidata:Q4196605	Ивановская митрополия
+N46	Reference T56 Wikidata:Q2630	Иваново
+N47	Reference T12 Wikidata:Q2630	Иваново
+N48	Reference T84 Wikidata:Q2630	Иваново
+N49	Reference T80 Wikidata:Q2630	Иваново
+N50	Reference T60 Wikidata:Q2630	Иваново
+N51	Reference T1 Wikidata:Q2630	Иваново
+N52	Reference T55 Wikidata:NULL	нет данных
+N53	Reference T11 Wikidata:Q4365704	
+N54	Reference T9 Wikidata:Q4365704	
+N55	Reference T41 Wikidata:Q4365704	
+N56	Reference T21 Wikidata:Q4365704	
+N57	Reference T27 Wikidata:Q4365704	
+N58	Reference T61 Wikidata:NULL	нет данных
+N59	Reference T66 Wikidata:NULL	нет данных
+N60	Reference T58 Wikidata:NULL	нет данных
+N61	Reference T22 Wikidata:Q2630	Иваново
+N62	Reference T76 Wikidata:Q2630	Иваново
+N63	Reference T26 Wikidata:Q2630	Иваново
+N64	Reference T95 Wikidata:Q2630	Иваново
+N65	Reference T92 Wikidata:Q2630	Иваново
+N66	Reference T97 Wikidata:Q2630	Иваново
+N67	Reference T88 Wikidata:NULL	нет данных
+N68	Reference T54 Wikidata:NULL	нет данных

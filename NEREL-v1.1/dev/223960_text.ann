@@ -1,0 +1,63 @@
+T1	CITY 2 18	Нижнем Новгороде
+T5	CITY 172 189	Нижнего Новгорода
+T7	PROFESSION 298 307	журналист
+T8	PERSON 308 322	Александр Дейч
+T9	PRODUCT 354 362	Фейсбуке
+T10	COUNTRY 423 428	Китае
+T19	COUNTRY 794 796	РФ
+T21	ORGANIZATION 866 920	Главное управление МВД России по Нижегородской области
+T22	DATE 940 945	2 мая
+T23	PERSON 946 960	Александр Дейч
+T25	ORGANIZATION 1154 1157	МВД
+T2	DISTRICT 153 171	Сормовского района
+T3	EVENT 121 131	Дня Победы
+T4	DATE 108 120	В преддверии
+T13	LAW 799 861	публичное демонстрирование нацистской атрибутики или символики
+T14	LAW 789 793	КОАП
+T15	LAW 777 796	статье 20.3 КОАП РФ
+T16	LAW 789 796	КОАП РФ
+T17	ORDINAL 784 788	20.3
+T18	COUNTRY 889 895	России
+T20	STATE_OR_PROVINCE 899 920	Нижегородской области
+T27	ORGANIZATION 885 888	МВД
+T28	ORGANIZATION 885 895	МВД России
+T24	ORGANIZATION 987 1001	Говорит Москва
+T29	EVENT 1017 1036	контрольную закупку
+T30	EVENT 1081 1088	скандал
+T31	EVENT 1091 1097	дракой
+T32	ORGANIZATION 1151 1157	ГУ МВД
+R1	LOCATED_IN Arg1:T2 Arg2:T5	
+R2	WORKS_AS Arg1:T8 Arg2:T7	
+R3	HEADQUARTERED_IN Arg1:T21 Arg2:T20	
+R4	HEADQUARTERED_IN Arg1:T28 Arg2:T18	
+R5	POINT_IN_TIME Arg1:T29 Arg2:T22	
+R6	WORKPLACE Arg1:T23 Arg2:T24	
+R7	ORIGINS_FROM Arg1:T16 Arg2:T19	
+R8	PART_OF Arg1:T21 Arg2:T28	
+R9	PART_OF Arg1:T15 Arg2:T16	
+R10	AGENT Arg1:T23 Arg2:T29	
+R11	AGENT Arg1:T24 Arg2:T29	
+R12	TAKES_PLACE_IN Arg1:T29 Arg2:T5	
+R13	PART_OF Arg1:T32 Arg2:T25	
+R14	HEADQUARTERED_IN Arg1:T25 Arg2:T20	
+N1	Reference T5 Wikidata:Q891	Нижний Новгород
+N2	Reference T7 Wikidata:Q1930187	журналист
+N4	Reference T9 Wikidata:Q355	Facebook
+N5	Reference T10 Wikidata:Q148	Китайская Народная Республика
+N6	Reference T19 Wikidata:Q159	Россия
+N8	Reference T2 Wikidata:Q1977749	Сормовский район
+N11	Reference T18 Wikidata:Q159	Россия
+N12	Reference T20 Wikidata:Q2246	Нижегородская область
+N13	Reference T27 Wikidata:Q6589202	министерство внутренних дел
+N14	Reference T28 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N3	Reference T8 Wikidata:NULL	нет данных
+N17	Reference T14 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N10	Reference T16 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N9	Reference T15 Wikidata:NULL	нет данных
+N18	Reference T13 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:Q99889477	
+N16	Reference T32 Wikidata:Q99889477	
+N15	Reference T24 Wikidata:NULL	нет данных
+N19	Reference T1 Wikidata:Q891	Нижний Новгород
+N20	Reference T25 Wikidata:Q6589202	министерство внутренних дел
+N21	Reference T23 Wikidata:NULL	нет данных

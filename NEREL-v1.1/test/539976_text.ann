@@ -1,0 +1,123 @@
+T1	NATIONALITY 0 7	Тайский
+T2	NUMBER 21 23	26
+T3	NUMBER 100 102	26
+T4	NUMBER 114 116	57
+T5	CITY 127 142	Накхонратчасиме
+T6	PROFESSION 193 208	премьер-министр
+T7	PERSON 218 231	Прают Чан-Оча
+T8	PROFESSION 275 284	командира
+T10	DATE 411 441	в субботу, 8 февраля 2020 года
+T11	FACILITY 459 473	Surathampithak
+T12	AGE 474 483	32-летний
+T13	PROFESSION 526 535	командира
+T14	NUMBER 570 574	двух
+T15	NUMBER 583 589	одного
+T16	AGE 601 610	63-летнюю
+T17	PRODUCT 664 671	Type 11
+T18	NUMBER 691 694	700
+T19	PRODUCT 793 798	HMMWV
+T20	PERSON 833 838	Тэмма
+T21	NUMBER 948 957	несколько
+T22	FACILITY 1030 1041	Терминал 21
+T24	PERSON 1172 1176	Тома
+T25	NUMBER 1244 1252	около 16
+T26	ORDINAL 1315 1316	4
+T27	PRODUCT 1403 1411	Facebook
+T29	PERSON 1573 1578	Томма
+T30	NUMBER 1657 1662	троих
+T31	PERSON 1694 1699	Томма
+T32	TIME 1717 1743	в течение нескольких часов
+T34	DATE 1882 1891	9 февраля
+T35	COUNTRY 1904 1911	тайская
+T36	EVENT 16 31	убил 26 человек
+T37	PROFESSION 83 90	Военный
+T38	CITY 67 82	Накхонратчасимы
+T39	COUNTRY 209 217	Таиланда
+T40	EVENT 303 307	убил
+T41	ORDINAL 308 314	первым
+T42	TIME 379 441	Около 15:30 по местному времени в субботу, 8 февраля 2020 года
+T43	PROFESSION 484 491	сержант
+T44	PERSON 492 508	Джакрапант Томма
+T45	EVENT 509 518	застрелил
+T46	PROFESSION 536 546	полковника
+T47	PERSON 547 563	Анантарота Красе
+T48	PROFESSION 590 598	военного
+T49	EVENT 881 889	стрельбу
+T50	EVENT 929 943	убито и ранено
+T51	EVENT 1080 1092	открыл огонь
+T23	EVENT 1223 1243	захватил в заложники
+T52	PRODUCT 1496 1500	Сети
+T53	PROFESSION 1503 1514	Полицейские
+T54	PROFESSION 1517 1524	солдаты
+T28	ORGANIZATION 1664 1671	Полиция
+T55	EVENT 1679 1691	штурм здания
+T56	TIME 1850 1891	В 9:22 утра по местному времени 9 февраля
+T57	ORGANIZATION 1912 1919	полиция
+T59	ORGANIZATION 1892 1919	королевская тайская полиция
+T60	EVENT 1934 1956	застрелили преступника
+R1	WORKS_AS Arg1:T7 Arg2:T6	
+R2	WORKPLACE Arg1:T7 Arg2:T39	
+R3	PARTICIPANT_IN Arg1:T8 Arg2:T40	
+R4	WORKS_AS Arg1:T44 Arg2:T43	
+R5	AGE_IS Arg1:T44 Arg2:T12	
+R6	PARTICIPANT_IN Arg1:T47 Arg2:T45	
+R7	WORKS_AS Arg1:T47 Arg2:T46	
+R8	WORKS_AS Arg1:T47 Arg2:T13	
+R9	SUBORDINATE_OF Arg1:T44 Arg2:T47	
+R10	PARTICIPANT_IN Arg1:T48 Arg2:T45	
+T9	EVENT 867 889	беспорядочную стрельбу
+R11	SUBEVENT_OF Arg1:T50 Arg2:T9	
+R12	AGENT Arg1:T20 Arg2:T9	
+R13	AGENT Arg1:T24 Arg2:T23	
+R14	TAKES_PLACE_IN Arg1:T23 Arg2:T22	
+R15	AGENT Arg1:T28 Arg2:T55	
+R16	AGENT Arg1:T59 Arg2:T60	
+R17	POINT_IN_TIME Arg1:T60 Arg2:T56	
+T33	EVENT 92 102	убивший 26
+R18	ALTERNATIVE_NAME Arg1:T36 Arg2:T33	
+R19	PARTICIPANT_IN Arg1:T37 Arg2:T33	
+T61	PROFESSION 193 217	премьер-министр Таиланда
+R20	WORKPLACE Arg1:T61 Arg2:T39	
+R21	TAKES_PLACE_IN Arg1:T33 Arg2:T5	
+R22	ALTERNATIVE_NAME Arg1:T33 Arg2:T45	
+R23	TAKES_PLACE_IN Arg1:T45 Arg2:T11	
+R24	AGE_IS Arg1:T43 Arg2:T12	
+R25	ORIGINS_FROM Arg1:T44 Arg2:T1	
+R26	ALTERNATIVE_NAME Arg1:T36 Arg2:T33	
+R27	AGENT Arg1:T44 Arg2:T45	
+R28	POINT_IN_TIME Arg1:T45 Arg2:T42	
+R29	AGENT Arg1:T20 Arg2:T51	
+R30	HAS_CAUSE Arg1:T55 Arg2:T23	
+T62	EVENT 1934 1944	застрелили
+R31	HEADQUARTERED_IN Arg1:T59 Arg2:T35	
+N2	Reference T5 Wikidata:Q633036	Накхонратчасима
+N3	Reference T6 Wikidata:Q14212	премьер-министр
+N4	Reference T7 Wikidata:Q2108126	Прают Чан-оча
+N6	Reference T19 Wikidata:Q217046	HMMWV
+N9	Reference T27 Wikidata:Q355	Facebook
+N12	Reference T37 Wikidata:Q47064	военнослужащий
+N13	Reference T39 Wikidata:Q869	Таиланд
+N14	Reference T43 Wikidata:Q157696	сержант
+N16	Reference T46 Wikidata:Q104680	полковник
+N21	Reference T57 Wikidata:Q35535	полиция
+N23	Reference T61 Wikidata:Q12376089	премьер-министр Таиланда
+N1	Reference T1 Wikidata:Q472834	
+N24	Reference T11 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:NULL	нет данных
+N25	Reference T13 Wikidata:Q11247470	
+N17	Reference T47 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N26	Reference T20 Wikidata:NULL	нет данных
+N7	Reference T22 Wikidata:Q20577281	
+N8	Reference T24 Wikidata:NULL	нет данных
+N18	Reference T52 Wikidata:Q75	Интернет
+N19	Reference T53 Wikidata:Q384593	
+N20	Reference T54 Wikidata:Q4991371	солдат
+N10	Reference T31 Wikidata:NULL	нет данных
+N11	Reference T35 Wikidata:Q869	Таиланд
+N22	Reference T59 Wikidata:Q1831399	
+N27	Reference T38 Wikidata:Q633036	Накхонратчасима
+N28	Reference T48 Wikidata:Q47064	военнослужащий
+N29	Reference T28 Wikidata:Q35535	полиция
+N30	Reference T8 Wikidata:Q11247470	
+N31	Reference T29 Wikidata:NULL	нет данных

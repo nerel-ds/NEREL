@@ -1,0 +1,121 @@
+T2	PROFESSION 54 65	наркобарона
+T3	PERSON 66 84	Энрике Пенья Ньето
+T4	PERSON 149 162	Хоакин Гусман
+T5	PERSON 176 184	Эль-Чапо
+T6	MONEY 215 237	100 миллионов долларов
+T8	PERSON 265 283	Энрике Пенья Ньето
+T10	PERSON 325 340	Алекс Сифуэнтес
+T11	PERSON 383 390	Гусмана
+T12	PROFESSION 476 485	адвокатов
+T13	PERSON 495 512	Джеффри Лихтманом
+T14	ORGANIZATION 516 532	федеральном суде
+T15	DATE 586 597	в 2016 году
+T16	PERSON 603 609	Гусман
+T17	PERSON 624 633	Сифуэнтес
+T18	PERSON 658 669	Пенья Ньето
+T19	AGE 703 712	61-летний
+T20	COUNTRY 736 739	США
+T21	DATE 740 751	в 2017 году
+T22	ORGANIZATION 875 882	Синалоа
+T23	PERSON 898 907	Сифуэнтес
+T24	DATE 962 981	в октябре 2012 года
+T25	PERSON 989 1000	Пенья Ньето
+T27	PROFESSION 4 22	президента Мексики
+T28	PROFESSION 4 14	президента
+T29	PROFESSION 138 148	наркобарон
+T30	PROFESSION 246 256	президенту
+T32	PROFESSION 246 264	президенту Мексики
+T35	PROFESSION 370 390	правой рукой Гусмана
+T36	PROFESSION 919 929	прокурорам
+T37	COUNTRY 15 22	Мексики
+T38	CRIME 34 50	получении взятки
+T39	ORGANIZATION 93 100	Синалоа
+T40	NATIONALITY 125 137	Мексиканский
+T41	COUNTRY 257 264	Мексики
+T42	PERSON 315 322	Гусмана
+T43	PERSON 486 493	Гусмана
+T44	ORGANIZATION 516 541	федеральном суде Бруклина
+T45	DISTRICT 533 541	Бруклина
+T47	PERSON 713 719	Гусман
+T48	EVENT 720 733	экстрадирован
+T49	CRIME 790 838	контрабанде кокаина, героина и других наркотиков
+T50	CRIME 790 801	контрабанде
+T51	PROFESSION 859 882	лидера картеля «Синалоа
+T52	EVENT 935 950	передача взятки
+R1	WORKPLACE Arg1:T27 Arg2:T37	
+R2	CONVICTED_OF Arg1:T27 Arg2:T38	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T38	
+R4	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R5	ALTERNATIVE_NAME Arg1:T4 Arg2:T42	
+R6	WORKPLACE Arg1:T32 Arg2:T41	
+R7	WORKS_AS Arg1:T8 Arg2:T32	
+R8	WORKPLACE Arg1:T8 Arg2:T41	
+R9	WORKS_AS Arg1:T10 Arg2:T35	
+R10	SUBORDINATE_OF Arg1:T10 Arg2:T11	
+R11	HEADQUARTERED_IN Arg1:T44 Arg2:T45	
+R12	ALTERNATIVE_NAME Arg1:T10 Arg2:T17	
+R13	AGE_IS Arg1:T47 Arg2:T19	
+R14	PARTICIPANT_IN Arg1:T47 Arg2:T48	
+R15	TAKES_PLACE_IN Arg1:T48 Arg2:T20	
+R16	POINT_IN_TIME Arg1:T48 Arg2:T21	
+R17	CONVICTED_OF Arg1:T47 Arg2:T49	
+R18	WORKPLACE Arg1:T51 Arg2:T22	
+R19	WORKS_AS Arg1:T47 Arg2:T51	
+R20	WORKPLACE Arg1:T47 Arg2:T22	
+R21	POINT_IN_TIME Arg1:T52 Arg2:T24	
+R22	PARTICIPANT_IN Arg1:T25 Arg2:T52	
+T1	EVENT 610 622	давал взятку
+R23	AGENT Arg1:T16 Arg2:T1	
+R24	ALTERNATIVE_NAME Arg1:T8 Arg2:T18	
+T7	PROFESSION 476 493	адвокатов Гусмана
+T9	EVENT 432 453	перекрёстного допроса
+R25	PARTICIPANT_IN Arg1:T10 Arg2:T9	
+R26	ORGANIZES Arg1:T13 Arg2:T9	
+R27	SUBORDINATE_OF Arg1:T13 Arg2:T43	
+R28	WORKS_AS Arg1:T13 Arg2:T7	
+R29	TAKES_PLACE_IN Arg1:T9 Arg2:T44	
+T26	EVENT 194 204	дал взятку
+R30	ORIGINS_FROM Arg1:T4 Arg2:T40	
+R31	WORKS_AS Arg1:T4 Arg2:T29	
+R32	AGENT Arg1:T4 Arg2:T26	
+R33	PARTICIPANT_IN Arg1:T8 Arg2:T26	
+R34	ALTERNATIVE_NAME Arg1:T26 Arg2:T52	
+R35	INCOME Arg1:T8 Arg2:T6	
+R36	EXPENDITURE Arg1:T4 Arg2:T6	
+R37	SUBORDINATE_OF Arg1:T35 Arg2:T11	
+R38	SUBORDINATE_OF Arg1:T7 Arg2:T43	
+N3	Reference T12 Wikidata:Q40348	адвокат
+N5	Reference T14 Wikidata:Q194907	Федеральная судебная система США
+N7	Reference T18 Wikidata:Q296741	Энрике Пенья Ньето
+N8	Reference T20 Wikidata:Q30	США
+N9	Reference T27 Wikidata:Q628004	президент Мексики
+N10	Reference T28 Wikidata:Q30461	президент
+N12	Reference T36 Wikidata:Q600751	прокурор
+N13	Reference T37 Wikidata:Q96	Мексика
+N14	Reference T39 Wikidata:Q1586503	Картель Синалоа
+N17	Reference T45 Wikidata:Q18419	Бруклин
+N1	Reference T2 Wikidata:Q2543769	
+N18	Reference T51 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:Q456321	
+N19	Reference T7 Wikidata:NULL	нет данных
+N11	Reference T35 Wikidata:NULL	нет данных
+N2	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:Q6176129	
+N16	Reference T44 Wikidata:NULL	нет данных
+N15	Reference T40 Wikidata:Q1209676	Мексиканцы
+N20	Reference T8 Wikidata:Q296741	Энрике Пенья Ньето
+N21	Reference T25 Wikidata:Q296741	Энрике Пенья Ньето
+N22	Reference T3 Wikidata:Q296741	Энрике Пенья Ньето
+N23	Reference T32 Wikidata:Q628004	президент Мексики
+N24	Reference T30 Wikidata:Q30461	президент
+N25	Reference T41 Wikidata:Q96	Мексика
+N26	Reference T22 Wikidata:Q1586503	Картель Синалоа
+N27	Reference T29 Wikidata:Q2543769	
+N28	Reference T5 Wikidata:Q456321	
+N29	Reference T4 Wikidata:Q456321	
+N30	Reference T11 Wikidata:Q456321	
+N31	Reference T47 Wikidata:Q456321	
+N32	Reference T42 Wikidata:Q456321	
+N33	Reference T43 Wikidata:Q456321	
+N34	Reference T17 Wikidata:NULL	нет данных
+N35	Reference T23 Wikidata:NULL	нет данных

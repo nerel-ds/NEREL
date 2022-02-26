@@ -1,0 +1,166 @@
+T1	PROFESSION 0 3	Мэр
+T3	PERSON 69 83	Павел Адамович
+T4	DATE 84 118	В понедельник, 14 января 2019 года
+T5	PROFESSION 120 123	мэр
+T6	PERSON 133 147	Павел Адамович
+T8	AGE 257 264	53 года
+T9	COUNTRY 323 329	Польше
+T10	DATE 449 473	В воскресенье, 13 января
+T11	TIME 510 546	Примерно в 20:00 по местному времени
+T12	TIME 548 557	22:00 мск
+T13	PERSON 599 607	Адамович
+T14	PROFESSION 647 651	мэра
+T15	PERSON 755 761	Стефан
+T16	ORGANIZATION 888 909	Гражданская платформа
+T17	PROFESSION 944 947	мэр
+T18	PERSON 970 978	Адамович
+T19	DATE 1106 1117	в 2013 году
+T20	AGE 1118 1127	27-летний
+T21	CITY 1135 1143	Гданьска
+T22	DATE 1161 1170	5,5 годам
+T24	PERSON 1228 1237	Адамовичу
+T25	PERSON 1465 1474	Адамовича
+T26	PROFESSION 1486 1489	мэр
+T27	PROFESSION 1577 1592	премьер-министр
+T28	PERSON 1600 1617	Матеуш Моравецкий
+T29	PERSON 1620 1634	Павел Адамович
+T30	PROFESSION 1643 1648	мэром
+T31	DATE 1658 1669	с 1998 года
+T32	DATE 1728 1745	В 2017—2018 годах
+T34	ORGANIZATION 1791 1801	Эха Москвы
+T35	PROFESSION 0 12	Мэр Гданьска
+T36	CITY 4 12	Гданьска
+T37	EVENT 13 18	погиб
+T38	EVENT 60 68	концерте
+T39	PROFESSION 120 132	мэр Гданьска
+T40	CITY 124 132	Гданьска
+T41	EVENT 148 157	скончался
+T42	EVENT 25 38	ножевой атаки
+T43	EVENT 202 216	напали с ножом
+T44	DATE 185 193	накануне
+T45	EVENT 220 246	благотворительном концерте
+T2	EVENT 268 302	Большой оркестр праздничной помощи
+T7	DATE 330 338	ежегодно
+T46	EVENT 438 447	концертом
+T47	EVENT 672 681	задержали
+T48	PROFESSION 1094 1104	журналисты
+T49	EVENT 1148 1158	приговорён
+T23	PENALTY 1161 1181	5,5 годам заключения
+T50	PROFESSION 1346 1351	Врачи
+T51	ORGANIZATION 1352 1397	Университетского клинического центра Гданьска
+T52	ORGANIZATION 1352 1388	Университетского клинического центра
+T53	CITY 1389 1397	Гданьска
+T55	PROFESSION 1422 1430	политика
+T56	PROFESSION 1577 1599	премьер-министр Польши
+T59	COUNTRY 1593 1599	Польши
+T60	PROFESSION 1643 1657	мэром Гданьска
+T61	CITY 1649 1657	Гданьска
+T62	PERSON 1746 1754	Адамович
+T33	LANGUAGE 1767 1774	русском
+R1	PARTICIPANT_IN Arg1:T6 Arg2:T41	
+R2	WORKPLACE Arg1:T35 Arg2:T36	
+R3	PARTICIPANT_IN Arg1:T35 Arg2:T37	
+R4	HAS_CAUSE Arg1:T37 Arg2:T42	
+T63	EVENT 42 68	благотворительном концерте
+R5	SUBEVENT_OF Arg1:T42 Arg2:T63	
+R6	WORKPLACE Arg1:T39 Arg2:T40	
+R7	WORKS_AS Arg1:T6 Arg2:T39	
+R8	WORKPLACE Arg1:T6 Arg2:T40	
+R9	ALTERNATIVE_NAME Arg1:T42 Arg2:T43	
+R10	AGE_IS Arg1:T6 Arg2:T8	
+R11	LOCATED_IN Arg1:T40 Arg2:T9	
+R12	SUBEVENT_OF Arg1:T43 Arg2:T45	
+R13	ALTERNATIVE_NAME Arg1:T37 Arg2:T41	
+R14	HAS_CAUSE Arg1:T41 Arg2:T43	
+R15	POINT_IN_TIME Arg1:T41 Arg2:T4	
+R16	TAKES_PLACE_IN Arg1:T2 Arg2:T9	
+R17	ALTERNATIVE_NAME Arg1:T45 Arg2:T2	
+R18	WORKS_AS Arg1:T13 Arg2:T14	
+T64	EVENT 640 657	ударил мэра ножом
+R19	ALTERNATIVE_NAME Arg1:T43 Arg2:T64	
+R20	POINT_IN_TIME Arg1:T64 Arg2:T11	
+R21	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+T65	CRIME 1185 1203	нападения на банки
+T66	DISEASE 1281 1298	тяжёлом состоянии
+R22	MEDICAL_CONDITION Arg1:T24 Arg2:T66	
+R23	WORKS_AS Arg1:T24 Arg2:T55	
+T67	DISEASE 1498 1541	ранения сердца, диафрагмы и брюшной полости
+R24	MEDICAL_CONDITION Arg1:T25 Arg2:T67	
+R25	WORKS_AS Arg1:T25 Arg2:T26	
+R26	KNOWS Arg1:T62 Arg2:T33	
+R27	WORKPLACE Arg1:T62 Arg2:T34	
+R28	ALTERNATIVE_NAME Arg1:T29 Arg2:T62	
+R29	WORKPLACE Arg1:T60 Arg2:T61	
+R30	WORKS_AS Arg1:T29 Arg2:T60	
+R31	WORKPLACE Arg1:T29 Arg2:T61	
+R32	WORKPLACE Arg1:T56 Arg2:T59	
+R33	WORKS_AS Arg1:T28 Arg2:T56	
+R34	WORKPLACE Arg1:T28 Arg2:T59	
+R35	HEADQUARTERED_IN Arg1:T51 Arg2:T53	
+R36	WORKPLACE Arg1:T50 Arg2:T51	
+R37	WORKS_AS Arg1:T25 Arg2:T55	
+R38	PLACE_RESIDES_IN Arg1:T15 Arg2:T21	
+R39	PARTICIPANT_IN Arg1:T15 Arg2:T49	
+R40	AGE_IS Arg1:T15 Arg2:T20	
+R41	PARTICIPANT_IN Arg1:T15 Arg2:T49	
+R42	POINT_IN_TIME Arg1:T49 Arg2:T19	
+R43	HAS_CAUSE Arg1:T49 Arg2:T65	
+R44	PENALIZED_AS Arg1:T15 Arg2:T23	
+R45	HAS_CAUSE Arg1:T23 Arg2:T65	
+R46	PARTICIPANT_IN Arg1:T35 Arg2:T42	
+R47	PARTICIPANT_IN Arg1:T35 Arg2:T63	
+R48	PARTICIPANT_IN Arg1:T6 Arg2:T43	
+R49	PARTICIPANT_IN Arg1:T6 Arg2:T45	
+R50	POINT_IN_TIME Arg1:T45 Arg2:T10	
+R51	POINT_IN_TIME Arg1:T43 Arg2:T10	
+R52	PARTICIPANT_IN Arg1:T13 Arg2:T64	
+R53	AGENT Arg1:T15 Arg2:T64	
+R54	PARTICIPANT_IN Arg1:T15 Arg2:T47	
+R55	MEMBER_OF Arg1:T17 Arg2:T16	
+R56	WORKS_AS Arg1:T18 Arg2:T17	
+R57	MEMBER_OF Arg1:T18 Arg2:T16	
+T54	EVENT 1214 1225	освободился
+T57	CITY 1795 1801	Москвы
+R58	HEADQUARTERED_IN Arg1:T34 Arg2:T57	
+R59	PARTICIPANT_IN Arg1:T15 Arg2:T54	
+T58	EVENT 1299 1317	забрали в больницу
+R60	HAS_CAUSE Arg1:T58 Arg2:T66	
+R61	PARTICIPANT_IN Arg1:T24 Arg2:T58	
+T68	PENALTY 1171 1181	заключения
+N3	Reference T16 Wikidata:Q156868	Гражданская платформа
+N4	Reference T26 Wikidata:Q30185	мэр
+N5	Reference T27 Wikidata:Q14212	премьер-министр
+N6	Reference T28 Wikidata:Q11771436	Матеуш Моравецкий
+N7	Reference T34 Wikidata:Q749928	Эхо Москвы
+N9	Reference T40 Wikidata:Q1792	Гданьск
+N10	Reference T48 Wikidata:Q1930187	журналист
+N11	Reference T50 Wikidata:Q39631	врач
+N12	Reference T55 Wikidata:Q82955	политик
+N13	Reference T59 Wikidata:Q36	Польша
+N15	Reference T33 Wikidata:Q7737	русский язык
+N16	Reference T57 Wikidata:Q649	Москва
+N8	Reference T35 Wikidata:NULL	нет данных
+N1	Reference T13 Wikidata:Q2065090	
+N2	Reference T15 Wikidata:NULL	нет данных
+N17	Reference T51 Wikidata:Q9366804	
+N18	Reference T52 Wikidata:NULL	нет данных
+N19	Reference T56 Wikidata:Q3259469	
+N14	Reference T62 Wikidata:Q2065090	
+N20	Reference T5 Wikidata:Q30185	мэр
+N21	Reference T17 Wikidata:Q30185	мэр
+N22	Reference T14 Wikidata:Q30185	мэр
+N23	Reference T1 Wikidata:Q30185	мэр
+N24	Reference T30 Wikidata:Q30185	мэр
+N25	Reference T53 Wikidata:Q1792	Гданьск
+N26	Reference T36 Wikidata:Q1792	Гданьск
+N27	Reference T61 Wikidata:Q1792	Гданьск
+N28	Reference T21 Wikidata:Q1792	Гданьск
+N29	Reference T9 Wikidata:Q36	Польша
+N30	Reference T39 Wikidata:NULL	нет данных
+N31	Reference T60 Wikidata:NULL	нет данных
+N32	Reference T6 Wikidata:Q2065090	
+N33	Reference T25 Wikidata:Q2065090	
+N34	Reference T24 Wikidata:Q2065090	
+N35	Reference T29 Wikidata:Q2065090	
+N36	Reference T3 Wikidata:Q2065090	
+N37	Reference T18 Wikidata:Q2065090	

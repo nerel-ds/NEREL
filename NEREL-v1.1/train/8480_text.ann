@@ -1,0 +1,115 @@
+T2	PERSON 13 28	Михаила Сеспеля
+T3	ORGANIZATION 32 68	Чебоксарском кооперативном институте
+T5	EVENT 99 112	Стальная вера
+T6	AGE 127 136	110-летию
+T7	PERSON 170 185	Михаила Сеспеля
+T8	PROFESSION 217 266	заслуженный деятель искусств Чувашской Республики
+T9	PROFESSION 268 289	народный поэт Чувашии
+T10	PERSON 290 305	Николай Исмуков
+T11	AWARD 307 339	заслуженный работник культуры ЧР
+T12	PROFESSION 341 345	поэт
+T13	PERSON 346 361	Анатолий Смолин
+T15	PROFESSION 385 394	писателей
+T16	PROFESSION 397 408	журналистов
+T17	PERSON 416 442	Владислав Пастухов-Анаткас
+T19	PROFESSION 444 494	руководитель литературно-творческого клуба «Парус»
+T20	ORGANIZATION 488 493	Парус
+T21	PROFESSION 496 502	доцент
+T22	PERSON 674 681	Сеспелю
+T23	LANGUAGE 729 738	чувашском
+T24	LANGUAGE 740 747	русском
+T25	LANGUAGE 749 758	марийском
+T26	LANGUAGE 760 769	татарском
+T27	LANGUAGE 771 781	английском
+T28	LANGUAGE 783 791	немецком
+T29	LANGUAGE 794 805	французском
+T1	CITY 32 44	Чебоксарском
+T4	NATIONALITY 153 163	чувашского
+T30	PROFESSION 164 169	поэта
+T31	PROFESSION 203 208	поэта
+T32	STATE_OR_PROVINCE 246 266	Чувашской Республики
+T33	STATE_OR_PROVINCE 282 289	Чувашии
+T34	STATE_OR_PROVINCE 337 339	ЧР
+T35	COUNTRY 409 415	России
+T36	ORGANIZATION 379 415	Союза писателей и журналистов России
+T18	PROFESSION 363 372	журналист
+T37	PERSON 503 525	Василий Кошкин-Кервень
+T38	PROFESSION 635 640	поэта
+T39	PROFESSION 873 878	поэта
+T40	PROFESSION 820 828	студенты
+T41	PROFESSION 696 705	студентов
+T42	NATIONALITY 604 613	чувашской
+T43	EVENT 0 12	Вечер памяти
+R1	TAKES_PLACE_IN Arg1:T5 Arg2:T3	
+R2	WORKS_AS Arg1:T7 Arg2:T30	
+R3	ORIGINS_FROM Arg1:T7 Arg2:T4	
+R4	AGE_IS Arg1:T7 Arg2:T6	
+R5	WORKS_AS Arg1:T10 Arg2:T8	
+T44	PROFESSION 217 245	заслуженный деятель искусств
+R6	WORKS_AS Arg1:T10 Arg2:T9	
+R7	ORIGINS_FROM Arg1:T10 Arg2:T33	
+R8	ORIGINS_FROM Arg1:T10 Arg2:T32	
+T45	AWARD 307 336	заслуженный работник культуры
+R9	WORKS_AS Arg1:T37 Arg2:T21	
+T46	PROFESSION 444 456	руководитель
+R10	WORKPLACE Arg1:T37 Arg2:T20	
+R12	WORKS_AS Arg1:T13 Arg2:T12	
+R13	AWARDED_WITH Arg1:T13 Arg2:T11	
+R14	MEMBER_OF Arg1:T17 Arg2:T36	
+R15	WORKS_AS Arg1:T17 Arg2:T18	
+R17	HEADQUARTERED_IN Arg1:T3 Arg2:T1	
+R18	ORIGINS_FROM Arg1:T9 Arg2:T33	
+T47	PROFESSION 268 281	народный поэт
+R19	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R20	ORIGINS_FROM Arg1:T8 Arg2:T32	
+R21	HEADQUARTERED_IN Arg1:T36 Arg2:T35	
+R22	ALTERNATIVE_NAME Arg1:T7 Arg2:T22	
+R23	WORKS_AS Arg1:T22 Arg2:T39	
+R24	WORKS_AS Arg1:T22 Arg2:T38	
+R16	MEMBER_OF Arg1:T17 Arg2:T36	
+R25	INANIMATE_INVOLVED Arg1:T2 Arg2:T43	
+R26	ORIGINS_FROM Arg1:T11 Arg2:T34	
+R11	WORKS_AS Arg1:T37 Arg2:T19	
+R27	ALTERNATIVE_NAME Arg1:T32 Arg2:T33	
+N2	Reference T8 Wikidata:Q13418138	заслуженный деятель искусств РСФСР
+N7	Reference T15 Wikidata:Q36180	писатель
+N11	Reference T21 Wikidata:Q462390	доцент
+N13	Reference T23 Wikidata:Q33348	чувашский язык
+N14	Reference T24 Wikidata:Q7737	русский язык
+N17	Reference T27 Wikidata:Q1860	английский язык
+N18	Reference T28 Wikidata:Q188	немецкий язык
+N19	Reference T29 Wikidata:Q150	французский язык
+N21	Reference T30 Wikidata:Q49757	поэт
+N22	Reference T32 Wikidata:Q5466	Чувашия
+N24	Reference T35 Wikidata:Q159	Россия
+N26	Reference T18 Wikidata:Q1930187	журналист
+N30	Reference T44 Wikidata:Q13418138	заслуженный деятель искусств РСФСР
+N31	Reference T45 Wikidata:Q4188063	Заслуженный работник культуры Российской Федерации
+N20	Reference T1 Wikidata:Q5470	Чебоксары
+N1	Reference T3 Wikidata:NULL	нет данных
+N3	Reference T9 Wikidata:Q15910733	
+N16	Reference T26 Wikidata:Q25285	
+N15	Reference T25 Wikidata:Q973685	
+N28	Reference T41 Wikidata:Q315247	
+N29	Reference T42 Wikidata:Q253410	
+N12	Reference T22 Wikidata:Q2571430	
+N27	Reference T37 Wikidata:NULL	нет данных
+N10	Reference T20 Wikidata:NULL	нет данных
+N9	Reference T19 Wikidata:NULL	нет данных
+N8	Reference T17 Wikidata:NULL	нет данных
+N25	Reference T36 Wikidata:NULL	нет данных
+N6	Reference T13 Wikidata:Q13210767	
+N23	Reference T34 Wikidata:Q5466	Чувашия
+N32	Reference T47 Wikidata:NULL	нет данных
+N4	Reference T10 Wikidata:NULL	нет данных
+N5	Reference T11 Wikidata:Q21639668	
+N33	Reference T31 Wikidata:Q49757	поэт
+N34	Reference T12 Wikidata:Q49757	поэт
+N35	Reference T38 Wikidata:Q49757	поэт
+N36	Reference T39 Wikidata:Q49757	поэт
+N37	Reference T16 Wikidata:Q1930187	журналист
+N38	Reference T40 Wikidata:Q315247	
+N39	Reference T4 Wikidata:Q253410	
+N40	Reference T2 Wikidata:Q2571430	
+N41	Reference T7 Wikidata:Q2571430	
+N42	Reference T33 Wikidata:Q5466	Чувашия

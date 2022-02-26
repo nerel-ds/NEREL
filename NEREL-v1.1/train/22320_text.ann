@@ -1,0 +1,151 @@
+T1	PERSON 0 9	Уго Чавес
+T2	PERSON 40 49	Уго Чавес
+T3	PROFESSION 51 60	Президент
+T4	PERSON 71 80	Уго Чавес
+T6	PROFESSION 199 225	министр науки и технологий
+T7	PERSON 233 246	Хорхе Арреаза
+T9	COUNTRY 379 392	венесуэльский
+T10	COUNTRY 424 428	Кубе
+T11	ORDINAL 459 466	третьей
+T12	COUNTRY 508 512	Кубе
+T13	AGE 566 576	58-летнего
+T14	PROFESSION 712 722	президента
+T15	DATE 786 802	считанные месяцы
+T16	DATE 807 824	октябре 2012 года
+T17	PERSON 903 919	Энрике Каприлеса
+T18	DATE 931 942	шестилетний
+T19	DATE 982 1001	10 января 2013 года
+T20	PERSON 1008 1013	Чавес
+T21	DATE 1097 1114	в течение 30 дней
+T22	COUNTRY 1134 1138	Кубу
+T23	NATIONALITY 1189 1201	венесуэльцев
+T24	PROFESSION 1240 1255	вице-президента
+T25	PROFESSION 1318 1328	президента
+T26	ORGANIZATION 1446 1476	Единой социалистической партии
+T27	NUMBER 1495 1497	20
+T28	NUMBER 1501 1503	23
+T29	PERCENT 1539 1549	всего 53 %
+T31	NUMBER 1555 1568	на треть ниже
+T32	EVENT 1577 1595	выборах президента
+T33	DATE 1608 1626	октябре этого года
+T34	STATE_OR_PROVINCE 1708 1713	Сулия
+T35	PROFESSION 51 70	Президент Венесуэлы
+T36	PROFESSION 164 181	главы государства
+T37	PROFESSION 199 232	министр науки и технологий страны
+T38	PROFESSION 295 312	глава государства
+T39	PROFESSION 330 340	министрами
+T40	PROFESSION 379 398	венесуэльский лидер
+T41	PROFESSION 712 732	президента Венесуэлы
+T42	PROFESSION 864 877	президентских
+T43	PROFESSION 943 956	президентский
+T45	PROFESSION 1318 1338	президента Венесуэлы
+T47	PROFESSION 1585 1595	президента
+T48	PROFESSION 1585 1605	президента Венесуэлы
+T49	COUNTRY 61 70	Венесуэлы
+T50	DISEASE 114 129	раковой опухоли
+T5	PERSON 272 278	Чавеса
+T8	EVENT 440 448	операция
+T51	EVENT 93 129	операцию по удалению раковой опухоли
+T52	NUMBER 477 480	две
+T53	ORGANIZATION 520 533	правительство
+T54	EVENT 555 563	операции
+T55	PERSON 577 583	Чавеса
+T56	DISEASE 594 617	внутреннее кровотечение
+T57	COUNTRY 723 732	Венесуэлы
+T58	DISEASE 750 765	рабдомиосаркомы
+T59	PERSON 825 834	Уго Чавес
+T60	EVENT 864 885	президентских выборах
+T61	EVENT 878 885	выборах
+T64	EVENT 1416 1438	губернаторских выборах
+T65	EVENT 1431 1438	выборах
+T66	EVENT 1577 1605	выборах президента Венесуэлы
+T67	EVENT 1577 1584	выборах
+T69	PERSON 1139 1144	Чавес
+T70	PERSON 1256 1271	Николаса Мадуро
+T71	COUNTRY 1329 1338	Венесуэлы
+T30	COUNTRY 1596 1605	Венесуэлы
+R1	RELATIVE Arg1:T4 Arg2:T7	
+R2	WORKPLACE Arg1:T40 Arg2:T9	
+R3	WORKPLACE Arg1:T41 Arg2:T57	
+R4	WORKS_AS Arg1:T70 Arg2:T24	
+R5	WORKPLACE Arg1:T45 Arg2:T71	
+R6	LOCATED_IN Arg1:T34 Arg2:T30	
+R7	WORKPLACE Arg1:T35 Arg2:T49	
+R8	WORKS_AS Arg1:T4 Arg2:T35	
+R9	WORKPLACE Arg1:T4 Arg2:T49	
+R10	WORKS_AS Arg1:T7 Arg2:T37	
+R11	MEDICAL_CONDITION Arg1:T4 Arg2:T50	
+R12	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T35 Arg2:T40	
+R14	LOCATED_IN Arg1:T40 Arg2:T10	
+R15	LOCATED_IN Arg1:T4 Arg2:T10	
+R16	AGE_IS Arg1:T55 Arg2:T13	
+R17	PARTICIPANT_IN Arg1:T59 Arg2:T60	
+R18	PARTICIPANT_IN Arg1:T17 Arg2:T60	
+R19	POINT_IN_TIME Arg1:T60 Arg2:T16	
+R20	WORKPLACE Arg1:T48 Arg2:T30	
+R21	TAKES_PLACE_IN Arg1:T66 Arg2:T30	
+R22	POINT_IN_TIME Arg1:T66 Arg2:T33	
+R23	PARTICIPANT_IN Arg1:T4 Arg2:T51	
+R24	WORKPLACE Arg1:T37 Arg2:T49	
+R25	ALTERNATIVE_NAME Arg1:T51 Arg2:T8	
+R26	TAKES_PLACE_IN Arg1:T8 Arg2:T12	
+R27	HEADQUARTERED_IN Arg1:T53 Arg2:T9	
+R28	WORKPLACE Arg1:T39 Arg2:T49	
+R29	MEDICAL_CONDITION Arg1:T55 Arg2:T56	
+R30	WORKS_AS Arg1:T55 Arg2:T41	
+R31	MEDICAL_CONDITION Arg1:T55 Arg2:T58	
+R32	WORKPLACE Arg1:T70 Arg2:T57	
+R33	TAKES_PLACE_IN Arg1:T64 Arg2:T71	
+R34	PARTICIPANT_IN Arg1:T26 Arg2:T64	
+R35	HEADQUARTERED_IN Arg1:T26 Arg2:T71	
+T44	IDEOLOGY 1453 1469	социалистической
+R36	IDEOLOGY_OF Arg1:T26 Arg2:T44	
+R37	IDEOLOGY_OF Arg1:T70 Arg2:T44	
+R38	IDEOLOGY_OF Arg1:T69 Arg2:T44	
+R39	HAS_CAUSE Arg1:T51 Arg2:T50	
+R40	RELATIVE Arg1:T7 Arg2:T5	
+R41	PARTICIPANT_IN Arg1:T55 Arg2:T54	
+R42	ALTERNATIVE_NAME Arg1:T8 Arg2:T54	
+R43	MEDICAL_CONDITION Arg1:T41 Arg2:T58	
+R44	ORIGINS_FROM Arg1:T23 Arg2:T71	
+N1	Reference T3 Wikidata:Q30461	президент
+N3	Reference T17 Wikidata:Q8781	Энрике Каприлес Радонски
+N4	Reference T22 Wikidata:Q241	Куба
+N5	Reference T23 Wikidata:Q2996826	венесуэльцы
+N8	Reference T34 Wikidata:Q43269	Сулия
+N9	Reference T36 Wikidata:Q48352	глава государства
+N10	Reference T39 Wikidata:Q83307	министр
+N12	Reference T49 Wikidata:Q717	Венесуэла
+N13	Reference T53 Wikidata:Q7188	правительство
+N14	Reference T59 Wikidata:Q8440	Уго Чавес
+N15	Reference T70 Wikidata:Q58132	Николас Мадуро
+N16	Reference T35 Wikidata:Q11942698	
+N17	Reference T7 Wikidata:Q6623799	
+N2	Reference T9 Wikidata:Q717	Венесуэла
+N11	Reference T42 Wikidata:Q30461	президент
+N6	Reference T24 Wikidata:Q42178	вице-президент
+N7	Reference T26 Wikidata:Q197864	Единая социалистическая партия Венесуэлы
+N18	Reference T6 Wikidata:NULL	нет данных
+N19	Reference T37 Wikidata:NULL	нет данных
+N20	Reference T14 Wikidata:Q30461	президент
+N21	Reference T47 Wikidata:Q30461	президент
+N22	Reference T25 Wikidata:Q30461	президент
+N23	Reference T10 Wikidata:Q241	Куба
+N24	Reference T12 Wikidata:Q241	Куба
+N25	Reference T38 Wikidata:Q48352	глава государства
+N26	Reference T71 Wikidata:Q717	Венесуэла
+N27	Reference T57 Wikidata:Q717	Венесуэла
+N28	Reference T30 Wikidata:Q717	Венесуэла
+N29	Reference T55 Wikidata:Q8440	Уго Чавес
+N30	Reference T69 Wikidata:Q8440	Уго Чавес
+N31	Reference T5 Wikidata:Q8440	Уго Чавес
+N32	Reference T20 Wikidata:Q8440	Уго Чавес
+N33	Reference T4 Wikidata:Q8440	Уго Чавес
+N34	Reference T2 Wikidata:Q8440	Уго Чавес
+N35	Reference T1 Wikidata:Q8440	Уго Чавес
+N36	Reference T40 Wikidata:Q11942698	
+N37	Reference T48 Wikidata:Q11942698	
+N38	Reference T45 Wikidata:Q11942698	
+N39	Reference T41 Wikidata:Q11942698	
+N40	Reference T43 Wikidata:Q30461	президент

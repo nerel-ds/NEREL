@@ -1,0 +1,108 @@
+T1	EVENT 0 5	Взрыв
+T2	CITY 8 21	петербургском
+T4	FACILITY 80 91	Перекрёсток
+T5	DATE 121 141	30 декабря 2017 года
+T7	FACILITY 156 185	проспекте Народного Ополчения
+T10	CITY 210 226	Санкт-Петербурга
+T12	ORGANIZATION 238 241	ФСБ
+T13	ORGANIZATION 307 318	Перекрёсток
+T14	AGE 333 342	35-летний
+T16	PERSON 355 373	Дмитрий Лукьяненко
+T17	DATE 376 386	27 декабря
+T18	ORGANIZATION 534 538	ДЭИР
+T19	ORGANIZATION 540 583	''Дальнейшее Энерго-Информационное Развитие
+T22	NUMBER 622 637	пятистах метрах
+T23	FACILITY 661 673	улица Жукова
+T26	AGE 836 846	35-летнего
+T28	PERSON 859 877	Дмитрия Лукьяненко
+T30	AGE 900 906	19 лет
+T32	PRODUCT 1050 1059	ВКонтакте
+T33	STATE_OR_PROVINCE 1192 1200	Донбасса
+T34	ORGANIZATION 1301 1305	ДЭИР
+T35	DATE 1379 1389	31 декабря
+T36	ORGANIZATION 1390 1410	Следственный комитет
+T38	LAW 1494 1499	УК РФ
+T39	DATE 1502 1515	В тот же день
+T40	ORGANIZATION 1516 1540	Калининский районный суд
+T41	PERSON 1551 1569	Дмитрия Лукьяненко
+T43	DATE 1585 1608	до 28 февраля 2018 года
+T3	DISTRICT 188 209	Красносельском районе
+T6	EVENT 242 266	задержали подозреваемого
+T8	EVENT 397 413	осмотра магазина
+T9	EVENT 454 471	обнаружена флешка
+T11	PROFESSION 795 803	силовики
+T20	CRIME 968 1005	нанесение легких телесных повреждений
+T21	CRIME 1011 1030	хранение наркотиков
+T29	ORDINAL 1490 1493	205
+T31	COUNTRY 1497 1499	РФ
+T44	LAW 1494 1496	УК
+T45	CRIME 1463 1481	совершении теракта
+T46	EVENT 1451 1460	обвинение
+T47	EVENT 1541 1550	арестовал
+T42	DATE 1570 1583	на два месяца
+T37	LAW 1483 1499	статья 205 УК РФ
+T48	EVENT 114 120	теракт
+R1	TAKES_PLACE_IN Arg1:T1 Arg2:T2	
+R3	TAKES_PLACE_IN Arg1:T48 Arg2:T4	
+R4	LOCATED_IN Arg1:T7 Arg2:T3	
+R5	LOCATED_IN Arg1:T3 Arg2:T10	
+R6	ALTERNATIVE_NAME Arg1:T2 Arg2:T10	
+R7	AGENT Arg1:T12 Arg2:T6	
+T49	EVENT 284 290	взрыву
+R8	TAKES_PLACE_IN Arg1:T49 Arg2:T13	
+R9	POINT_IN_TIME Arg1:T6 Arg2:T5	
+R10	TAKES_PLACE_IN Arg1:T6 Arg2:T7	
+R11	AGE_IS Arg1:T16 Arg2:T14	
+R12	POINT_IN_TIME Arg1:T8 Arg2:T17	
+T50	EVENT 420 426	взрыва
+R13	SUBEVENT_OF Arg1:T9 Arg2:T8	
+R14	ABBREVIATION Arg1:T19 Arg2:T18	
+T24	FACILITY 675 679	д. 2
+T51	EVENT 716 742	найдена аналогичная флешка
+R15	AGE_IS Arg1:T28 Arg2:T26	
+R16	POINT_IN_TIME Arg1:T46 Arg2:T35	
+R17	PARTICIPANT_IN Arg1:T36 Arg2:T46	
+T25	DISTRICT 1516 1527	Калининский
+R18	HEADQUARTERED_IN Arg1:T40 Arg2:T25	
+R19	PARTICIPANT_IN Arg1:T41 Arg2:T47	
+R20	AGENT Arg1:T40 Arg2:T47	
+R21	POINT_IN_TIME Arg1:T47 Arg2:T39	
+R22	ALTERNATIVE_NAME Arg1:T35 Arg2:T39	
+R23	END_TIME Arg1:T47 Arg2:T43	
+R24	LOCATED_IN Arg1:T4 Arg2:T2	
+R25	HAS_CAUSE Arg1:T6 Arg2:T49	
+R2	ALTERNATIVE_NAME Arg1:T1 Arg2:T48	
+R26	PARTICIPANT_IN Arg1:T16 Arg2:T6	
+R27	CONVICTED_OF Arg1:T28 Arg2:T20	
+R28	CONVICTED_OF Arg1:T28 Arg2:T21	
+R29	ORIGINS_FROM Arg1:T38 Arg2:T31	
+R30	CONVICTED_OF Arg1:T28 Arg2:T45	
+R31	PARTICIPANT_IN Arg1:T16 Arg2:T49	
+R32	TAKES_PLACE_IN Arg1:T8 Arg2:T4	
+R33	HAS_CAUSE Arg1:T8 Arg2:T50	
+R34	PART_OF Arg1:T37 Arg2:T38	
+R35	HAS_CAUSE Arg1:T46 Arg2:T45	
+R36	PARTICIPANT_IN Arg1:T28 Arg2:T46	
+N1	Reference T4 Wikidata:Q1684639	Перекрёсток
+N2	Reference T7 Wikidata:Q4381277	Проспект Народного Ополчения
+N3	Reference T10 Wikidata:Q656	Санкт-Петербург
+N4	Reference T13 Wikidata:Q1684639	Перекрёсток
+N6	Reference T18 Wikidata:Q4153476	ДЭИР
+N9	Reference T32 Wikidata:Q116933	ВКонтакте
+N10	Reference T33 Wikidata:Q16150196	Донецкая Народная Республика
+N11	Reference T34 Wikidata:Q4153476	ДЭИР
+N12	Reference T36 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N13	Reference T38 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N16	Reference T31 Wikidata:Q159	Россия
+N5	Reference T16 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:Q4472209	
+N19	Reference T24 Wikidata:NULL	нет данных
+N15	Reference T11 Wikidata:Q1197144	
+N8	Reference T28 Wikidata:NULL	нет данных
+N17	Reference T44 Wikidata:Q19705	уголовное законодательство
+N18	Reference T37 Wikidata:NULL	нет данных
+N14	Reference T41 Wikidata:NULL	нет данных
+N20	Reference T2 Wikidata:Q4381277	Проспект Народного Ополчения
+N21	Reference T3 Wikidata:Q656	Санкт-Петербург
+N22	Reference T40 Wikidata:Q16150196	Донецкая Народная Республика
+N23	Reference T20 Wikidata:Q1197144	

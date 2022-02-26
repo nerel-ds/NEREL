@@ -1,0 +1,184 @@
+T1	COUNTRY 2 5	США
+T2	COUNTRY 17 25	иранскую
+T3	PERSON 38 51	Марзие Хашеми
+T4	DATE 53 61	2012 год
+T5	PROFESSION 91 102	телеведущей
+T6	COUNTRY 103 112	иранского
+T7	ORGANIZATION 131 139	Press TV
+T8	PERSON 140 153	Марзие Хашеми
+T9	ORGANIZATION 168 188	Министерства юстиции
+T10	CITY 190 197	Тегеран
+T11	AGE 254 263	59-летнюю
+T12	DATE 276 295	13 января 2019 года
+T13	ORGANIZATION 307 310	ФБР
+T14	CITY 344 353	Сент-Луис
+T15	STATE_OR_PROVINCE 360 367	Миссури
+T16	PERSON 403 409	Хашеми
+T17	PROFESSION 457 464	адвокат
+T18	PERSON 519 525	Хашеми
+T19	ORGANIZATION 562 575	правительство
+T20	COUNTRY 741 744	США
+T21	COUNTRY 864 867	США
+T22	COUNTRY 870 876	Ираном
+T23	ORGANIZATION 878 881	ФБР
+T24	ORGANIZATION 884 890	Минюст
+T25	ORGANIZATION 975 982	Reuters
+T26	ORGANIZATION 1057 1065	Press TV
+T27	ORGANIZATION 1129 1149	Министерстве юстиции
+T28	ORGANIZATION 1195 1203	Press TV
+T29	NATIONALITY 1217 1231	афроамериканка
+T30	PERSON 1232 1245	Марзие Хашеми
+T31	COUNTRY 1257 1260	США
+T32	PERSON 1287 1302	Мелани Франклин
+T33	ORGANIZATION 1377 1381	ISNA
+T34	PERSON 1383 1389	Хашеми
+T35	COUNTRY 1399 1407	иранское
+T36	NATIONALITY 1451 1457	иранца
+T37	COUNTRY 1477 1480	США
+T38	COUNTRY 1554 1558	Иран
+T39	PERSON 1595 1601	Хашеми
+T40	PROFESSION 1603 1638	Официальный представитель МИД Ирана
+T41	COUNTRY 1633 1638	Ирана
+T42	PERSON 1639 1652	Бахрам Касеми
+T43	COUNTRY 1700 1703	США
+T44	ORGANIZATION 1750 1756	Tasnim
+T45	PROFESSION 1772 1783	журналистки
+T46	EVENT 6 16	арестовали
+T47	PROFESSION 26 37	журналистку
+T48	PROFESSION 91 139	телеведущей иранского новостного канала Press TV
+T49	PROFESSION 264 275	журналистку
+T50	PROFESSION 673 682	присяжных
+T51	PROFESSION 1007 1016	присяжных
+T52	COUNTRY 66 69	США
+T53	ORGANIZATION 62 69	Суд США
+T54	EVENT 85 90	арест
+T55	EVENT 205 210	арест
+T56	EVENT 296 306	арестовало
+T57	FACILITY 327 353	аэропорту города Сент-Луис
+T59	EVENT 381 386	арест
+T60	EVENT 410 420	арестована
+T61	NUMBER 530 536	дважды
+T62	ORGANIZATION 562 579	правительство США
+T63	COUNTRY 576 579	США
+T64	ORGANIZATION 656 682	федеральным жюри присяжных
+T65	EVENT 759 764	арест
+T66	ORGANIZATION 931 956	федеральном правительстве
+T67	ORGANIZATION 1002 1016	жюри присяжных
+T68	ORGANIZATION 668 682	жюри присяжных
+T69	IDEOLOGY 1068 1084	пропагандистским
+T71	RELIGION 1347 1352	ислам
+T73	DISEASE 1546 1551	раком
+T75	ORGANIZATION 1629 1638	МИД Ирана
+T76	ORGANIZATION 1629 1632	МИД
+T77	EVENT 1660 1665	арест
+R1	AGENT Arg1:T13 Arg2:T56	
+R2	AGE_IS Arg1:T49 Arg2:T11	
+R3	LOCATED_IN Arg1:T57 Arg2:T14	
+R4	LOCATED_IN Arg1:T14 Arg2:T15	
+R5	POINT_IN_TIME Arg1:T56 Arg2:T12	
+R6	HEADQUARTERED_IN Arg1:T13 Arg2:T52	
+R7	ALTERNATIVE_NAME Arg1:T56 Arg2:T60	
+R8	PARTICIPANT_IN Arg1:T16 Arg2:T60	
+R9	HEADQUARTERED_IN Arg1:T62 Arg2:T63	
+R10	ALTERNATIVE_NAME Arg1:T8 Arg2:T16	
+R11	TAKES_PLACE_IN Arg1:T46 Arg2:T1	
+R12	PARTICIPANT_IN Arg1:T47 Arg2:T46	
+R13	ORIGINS_FROM Arg1:T47 Arg2:T2	
+R14	HEADQUARTERED_IN Arg1:T53 Arg2:T52	
+R15	LOCATED_IN Arg1:T10 Arg2:T6	
+R16	HEADQUARTERED_IN Arg1:T75 Arg2:T41	
+T58	PROFESSION 1603 1628	Официальный представитель
+R17	WORKPLACE Arg1:T40 Arg2:T75	
+R18	WORKS_AS Arg1:T42 Arg2:T40	
+R19	WORKPLACE Arg1:T42 Arg2:T75	
+R20	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R21	RELIGION_OF Arg1:T30 Arg2:T71	
+R22	PLACE_OF_BIRTH Arg1:T30 Arg2:T31	
+R23	ORIGINS_FROM Arg1:T30 Arg2:T29	
+R24	WORKPLACE Arg1:T8 Arg2:T7	
+R25	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R26	WORKPLACE Arg1:T48 Arg2:T7	
+R27	PARTICIPANT_IN Arg1:T8 Arg2:T54	
+R28	PARTICIPANT_IN Arg1:T53 Arg2:T54	
+R29	ORGANIZES Arg1:T9 Arg2:T54	
+R30	ALTERNATIVE_NAME Arg1:T46 Arg2:T54	
+R31	WORKS_AS Arg1:T8 Arg2:T49	
+R32	ALTERNATIVE_NAME Arg1:T54 Arg2:T55	
+R33	ALTERNATIVE_NAME Arg1:T55 Arg2:T56	
+R34	TAKES_PLACE_IN Arg1:T56 Arg2:T57	
+R35	AGE_IS Arg1:T8 Arg2:T11	
+R36	HEADQUARTERED_IN Arg1:T64 Arg2:T63	
+R37	ALTERNATIVE_NAME Arg1:T30 Arg2:T34	
+R38	ORIGINS_FROM Arg1:T34 Arg2:T35	
+R39	ORIGINS_FROM Arg1:T36 Arg2:T35	
+R40	PARTICIPANT_IN Arg1:T39 Arg2:T77	
+R41	WORKS_AS Arg1:T8 Arg2:T47	
+R42	HEADQUARTERED_IN Arg1:T9 Arg2:T52	
+T70	EVENT 70 81	выдал ордер
+R43	AGENT Arg1:T53 Arg2:T70	
+R44	HAS_CAUSE Arg1:T70 Arg2:T54	
+R45	ALTERNATIVE_NAME Arg1:T59 Arg2:T60	
+R46	HEADQUARTERED_IN Arg1:T23 Arg2:T21	
+R47	HEADQUARTERED_IN Arg1:T24 Arg2:T21	
+R48	ABBREVIATION Arg1:T27 Arg2:T24	
+R49	HEADQUARTERED_IN Arg1:T66 Arg2:T21	
+N1	Reference T1 Wikidata:Q30	США
+N2	Reference T5 Wikidata:Q947873	телеведущий
+N3	Reference T10 Wikidata:Q3616	Тегеран
+N4	Reference T13 Wikidata:Q8333	Федеральное бюро расследований
+N5	Reference T14 Wikidata:Q38022	Сент-Луис
+N6	Reference T15 Wikidata:Q1581	Миссури
+N8	Reference T17 Wikidata:Q40348	адвокат
+N9	Reference T19 Wikidata:Q7188	правительство
+N10	Reference T22 Wikidata:Q794	Иран
+N11	Reference T25 Wikidata:Q130879	Рейтер
+N12	Reference T26 Wikidata:Q912429	Press TV
+N13	Reference T27 Wikidata:Q1413677	министерство юстиции
+N16	Reference T47 Wikidata:Q1930187	журналист
+N18	Reference T53 Wikidata:Q11201	Верховный суд США
+N22	Reference T71 Wikidata:Q432	ислам
+N26	Reference T48 Wikidata:NULL	нет данных
+N19	Reference T57 Wikidata:Q7578005	
+N7	Reference T16 Wikidata:Q5735970	
+N27	Reference T30 Wikidata:Q5735970	
+N28	Reference T44 Wikidata:Q17070845	
+N29	Reference T42 Wikidata:Q25426370	
+N24	Reference T76 Wikidata:Q20901295	Министерство иностранных дел
+N23	Reference T75 Wikidata:Q2565708	
+N15	Reference T40 Wikidata:NULL	нет данных
+N25	Reference T58 Wikidata:NULL	нет данных
+N30	Reference T33 Wikidata:Q1672387	
+N31	Reference T35 Wikidata:Q794	Иран
+N14	Reference T36 Wikidata:NULL	нет данных
+N32	Reference T29 Wikidata:Q49085	афроамериканцы
+N17	Reference T51 Wikidata:Q837675	
+N21	Reference T66 Wikidata:Q1006644	
+N20	Reference T62 Wikidata:Q48525	
+N33	Reference T68 Wikidata:NULL	нет данных
+N34	Reference T64 Wikidata:Q1323789	
+N35	Reference T20 Wikidata:Q30	США
+N36	Reference T31 Wikidata:Q30	США
+N37	Reference T52 Wikidata:Q30	США
+N38	Reference T63 Wikidata:Q30	США
+N39	Reference T43 Wikidata:Q30	США
+N40	Reference T37 Wikidata:Q30	США
+N41	Reference T21 Wikidata:Q30	США
+N42	Reference T23 Wikidata:Q8333	Федеральное бюро расследований
+N43	Reference T41 Wikidata:Q794	Иран
+N44	Reference T38 Wikidata:Q794	Иран
+N45	Reference T28 Wikidata:Q912429	Press TV
+N46	Reference T7 Wikidata:Q912429	Press TV
+N47	Reference T24 Wikidata:Q1413677	министерство юстиции
+N48	Reference T9 Wikidata:Q1413677	министерство юстиции
+N49	Reference T49 Wikidata:Q1930187	журналист
+N50	Reference T45 Wikidata:Q1930187	журналист
+N51	Reference T8 Wikidata:Q5735970	
+N52	Reference T34 Wikidata:Q5735970	
+N53	Reference T3 Wikidata:Q5735970	
+N54	Reference T39 Wikidata:Q5735970	
+N55	Reference T18 Wikidata:Q5735970	
+N56	Reference T32 Wikidata:Q5735970	
+N57	Reference T6 Wikidata:Q794	Иран
+N58	Reference T2 Wikidata:Q794	Иран
+N59	Reference T50 Wikidata:Q837675	
+N60	Reference T67 Wikidata:NULL	нет данных

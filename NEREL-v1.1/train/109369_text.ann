@@ -1,0 +1,104 @@
+T1	PERSON 0 5	Путин
+T2	PROFESSION 15 23	ведущего
+T3	WORK_OF_ART 24 27	КВН
+T4	PERSON 28 37	Маслякова
+T6	AWARD 47 74	За заслуги перед Отечеством
+T7	PERSON 77 91	Владимир Путин
+T8	PERSON 93 107	Сергей Собянин
+T9	PERSON 110 128	Александр Масляков
+T10	PROFESSION 129 138	Президент
+T11	COUNTRY 139 145	России
+T12	PERSON 146 160	Владимир Путин
+T13	WORK_OF_ART 198 201	КВН
+T14	PERSON 202 222	Александра Маслякова
+T15	DATE 233 240	сегодня
+T16	AGE 253 259	75 лет
+T17	AWARD 270 297	За заслуги перед Отечеством
+T18	ORDINAL 299 301	II
+T20	COUNTRY 390 400	Советского
+T21	COUNTRY 403 414	российского
+T22	PROFESSION 415 427	телеведущего
+T23	AWARD 429 458	заслуженного деятеля искусств
+T24	COUNTRY 459 465	России
+T25	ORGANIZATION 530 534	АМиК
+T26	WORK_OF_ART 581 584	КВН
+R1	WORKS_AS Arg1:T12 Arg2:T5
+R2	PARTICIPANT_IN Arg1:T14 Arg2:T13
+R3	ORIGINS_FROM Arg1:T20 Arg2:T22
+R7	ORIGINS_FROM Arg1:T22 Arg2:T21
+T27	PROFESSION 15 27	ведущего КВН
+T5	PROFESSION 129 145	Президент России
+T28	PROFESSION 189 197	ведущего
+T29	PROFESSION 189 201	ведущего КВН
+T30	AWARD 270 309	За заслуги перед Отечеством» II степени
+T19	AWARD 429 465	заслуженного деятеля искусств России
+T31	PROFESSION 442 458	деятеля искусств
+T35	PROFESSION 552 584	ведущего популярной передачи КВН
+T36	PROFESSION 552 560	ведущего
+R4	AWARDED_WITH Arg1:T4 Arg2:T6	
+T38	EVENT 6 14	наградил
+R5	AGENT Arg1:T1 Arg2:T38	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T38	
+R8	WORKS_AS Arg1:T4 Arg2:T27	
+R10	ALTERNATIVE_NAME Arg1:T1 Arg2:T12	
+R11	WORKPLACE Arg1:T5 Arg2:T11	
+R12	WORKPLACE Arg1:T12 Arg2:T11	
+T39	EVENT 161 174	подписал указ
+R13	WORKS_AS Arg1:T14 Arg2:T29	
+R14	AGENT Arg1:T12 Arg2:T39	
+R15	PARTICIPANT_IN Arg1:T29 Arg2:T13	
+R16	AGE_IS Arg1:T14 Arg2:T16	
+R17	AWARDED_WITH Arg1:T14 Arg2:T30	
+R18	ORIGINS_FROM Arg1:T14 Arg2:T20	
+R19	ORIGINS_FROM Arg1:T14 Arg2:T21	
+R20	WORKS_AS Arg1:T14 Arg2:T22	
+R21	FOUNDED_BY Arg1:T25 Arg2:T14	
+R25	OWNER_OF Arg1:T14 Arg2:T25	
+R26	WORKS_AS Arg1:T14 Arg2:T35	
+R27	ALTERNATIVE_NAME Arg1:T1 Arg2:T7	
+R28	ALTERNATIVE_NAME Arg1:T4 Arg2:T9	
+R29	WORKPLACE Arg1:T5 Arg2:T11	
+R30	ALTERNATIVE_NAME Arg1:T21 Arg2:T24	
+R9	PARTICIPANT_IN Arg1:T4 Arg2:T3	
+R31	PARTICIPANT_IN Arg1:T27 Arg2:T3	
+R22	PRODUCES Arg1:T14 Arg2:T26	
+R32	PARTICIPANT_IN Arg1:T35 Arg2:T26	
+R33	WORKS_AS Arg1:T14 Arg2:T31	
+R23	ORIGINS_FROM Arg1:T19 Arg2:T24	
+R24	AWARDED_WITH Arg1:T14 Arg2:T19	
+R34	INANIMATE_INVOLVED Arg1:T6 Arg2:T38	
+T32	EVENT 177 188	награждении
+R35	HAS_CAUSE Arg1:T39 Arg2:T32	
+R36	AGENT Arg1:T12 Arg2:T32	
+R37	PARTICIPANT_IN Arg1:T14 Arg2:T32	
+R38	INANIMATE_INVOLVED Arg1:T30 Arg2:T32	
+N1	Reference T6 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N2	Reference T7 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T8 Wikidata:Q319497	Сергей Семёнович Собянин
+N4	Reference T9 Wikidata:Q4284105	Масляков, Александр
+N5	Reference T10 Wikidata:Q30461	президент
+N6	Reference T14 Wikidata:Q4284105	Масляков, Александр
+N8	Reference T22 Wikidata:Q947873	телеведущий
+N10	Reference T24 Wikidata:Q159	Россия
+N12	Reference T26 Wikidata:Q54969	Клуб весёлых и находчивых
+N14	Reference T5 Wikidata:Q218295	президент Российской Федерации
+N16	Reference T30 Wikidata:Q18080429	орден «За заслуги перед Отечеством» II степени
+N17	Reference T19 Wikidata:Q4187990	Заслуженный деятель искусств Российской Федерации
+N18	Reference T31 Wikidata:Q483501	деятель искусств
+N13	Reference T27 Wikidata:NULL	нет данных
+N15	Reference T28 Wikidata:Q947873	телеведущий
+N19	Reference T35 Wikidata:NULL	нет данных
+N11	Reference T25 Wikidata:NULL	нет данных
+N7	Reference T20 Wikidata:Q15180	СССР
+N9	Reference T23 Wikidata:Q4187990	Заслуженный деятель искусств Российской Федерации
+N20	Reference T17 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N21	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N22	Reference T12 Wikidata:Q7747	Владимир Владимирович Путин
+N23	Reference T4 Wikidata:Q4284105	Масляков, Александр
+N24	Reference T11 Wikidata:Q159	Россия
+N25	Reference T21 Wikidata:Q159	Россия
+N26	Reference T13 Wikidata:Q54969	Клуб весёлых и находчивых
+N27	Reference T3 Wikidata:Q54969	Клуб весёлых и находчивых
+N28	Reference T29 Wikidata:NULL	нет данных
+N29	Reference T2 Wikidata:Q947873	телеведущий
+N30	Reference T36 Wikidata:Q947873	телеведущий

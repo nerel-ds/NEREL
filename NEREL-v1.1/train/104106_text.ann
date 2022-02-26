@@ -1,0 +1,322 @@
+T1	PERSON 0 16	Владимир Булавин
+T2	PROFESSION 47 56	глава ФТС
+T3	PERSON 57 73	Владимир Булавин
+T4	DATE 74 91	28 июля 2016 года
+T5	PERSON 92 108	Владимир Булавин
+T6	PROFESSION 118 157	главой Федеральной таможенной службы РФ
+T7	ORGANIZATION 159 162	ФТС
+T8	PROFESSION 210 247	полномочного представителя президента
+T11	DISTRICT 250 284	Северо-Западном федеральном округе
+T12	PROFESSION 310 325	глава ведомства
+T13	PROFESSION 339 356	премьер-министром
+T14	PERSON 360 379	Дмитрием Медведевым
+T15	PERSON 381 389	Медведев
+T16	ORGANIZATION 405 408	ФТС
+T17	PROFESSION 453 468	Премьер-министр
+T18	PERSON 489 496	Булавин
+T19	COUNTRY 514 516	РФ
+T20	PERSON 601 609	Медведев
+T21	DATE 644 661	за последние годы
+T22	COUNTRY 924 944	Российской Федерации
+T23	LAW 1073 1092	Таможенного кодекса
+T24	PERSON 1095 1102	Булавин
+T25	DATE 1198 1215	28 июля 2016 года
+T26	AGE 1216 1225	59-летний
+T27	PERSON 1226 1243	Андрей Бельянинов
+T28	PROFESSION 1269 1278	главы ФТС
+T29	DATE 1279 1285	с 2006
+T30	DATE 1317 1334	26 июля 2016 года
+T31	PERSON 1363 1374	Бельянинова
+T33	PERSON 1394 1410	Руслана Давыдова
+T34	PERSON 1413 1428	Андрея Струкова
+T35	LAW 1463 1481	статье 200.2 УК РФ
+T36	PERSON 1522 1528	Андрея
+T37	MONEY 1578 1597	60 миллионов рублей
+T38	PERSON 1599 1609	Бельянинов
+T39	PERSON 1651 1667	Владимир Булавин
+T40	DATE 1676 1687	в 1953 году
+T41	STATE_OR_PROVINCE 1690 1706	Липецкой области
+T42	DATE 1708 1719	В 1975 году
+T43	ORGANIZATION 1728 1785	Московский институт инженеров железнодорожного транспорта
+T44	DATE 1787 1801	С 1975 по 1977
+T45	PROFESSION 1810 1833	инженером-конструктором
+T46	ORGANIZATION 1874 1880	Восход
+T47	DATE 1883 1894	С 1977 года
+T48	DATE 1943 1954	в 1979 году
+T49	ORGANIZATION 1963 2000	Высшую Краснознаменную школу КГБ СССР
+T50	ORGANIZATION 2002 2017	академия ФСБ РФ
+T51	STATE_OR_PROVINCE 2038 2059	Нижегородской области
+T52	DATE 2061 2072	С 1992 года
+T53	PROFESSION 2075 2126	начальник УМБ-УФСК-УФСБ РФ по Нижегородской области
+T54	STATE_OR_PROVINCE 2105 2126	Нижегородской области
+T55	DATE 2128 2139	С 2001 года
+T56	PROFESSION 2142 2225	председатель совета начальников органов ФСБ России в Приволжском федеральном округе
+T57	DISTRICT 2195 2225	Приволжском федеральном округе
+T58	DATE 2227 2238	В 2006 году
+T59	PROFESSION 2248 2271	замдиректора ФСБ России
+T60	PROFESSION 2274 2341	руководителем аппарата Национального антитеррористического комитета
+T61	ORGANIZATION 2297 2341	Национального антитеррористического комитета
+T62	DATE 2343 2354	С 2008 года
+T63	PROFESSION 2357 2399	первый замсекретаря Совета Безопасности РФ
+T64	DATE 2401 2419	11 марта 2013 года
+T65	PROFESSION 2427 2437	президента
+T66	PROFESSION 2460 2479	полпреда президента
+T69	DISTRICT 2482 2516	Северо-Западном федеральном округе
+T70	PROFESSION 2518 2535	Генерал-полковник
+T71	PROFESSION 2537 2562	Кандидат юридических наук
+T72	PERSON 2564 2571	Булавин
+T74	ORGANIZATION 53 56	ФТС
+T75	ORGANIZATION 125 154	Федеральной таможенной службы
+T76	ORGANIZATION 125 157	Федеральной таможенной службы РФ
+T77	COUNTRY 155 157	РФ
+T78	COUNTRY 163 165	РФ
+T79	ORGANIZATION 159 165	ФТС РФ
+T81	PROFESSION 176 185	главу ФТС
+T82	ORGANIZATION 182 185	ФТС
+T83	PROFESSION 237 247	президента
+T84	COUNTRY 357 359	РФ
+T85	PROFESSION 339 359	премьер-министром РФ
+T86	ORGANIZATION 1275 1278	ФТС
+T87	EVENT 1287 1315	ушёл по собственному желанию
+T88	EVENT 1355 1360	обыск
+T89	PROFESSION 1335 1346	следователи
+T90	LAW 1476 1481	УК РФ
+T91	COUNTRY 1479 1481	РФ
+T92	CITY 1728 1738	Московский
+T93	CITY 1834 1845	Павловского
+T95	ORGANIZATION 1992 2000	КГБ СССР
+T96	COUNTRY 1996 2000	СССР
+T97	ORGANIZATION 2011 2017	ФСБ РФ
+T98	COUNTRY 2015 2017	РФ
+T100	ORGANIZATION 2085 2126	УМБ-УФСК-УФСБ РФ по Нижегородской области
+T101	COUNTRY 2099 2101	РФ
+T102	ORGANIZATION 2155 2225	совета начальников органов ФСБ России в Приволжском федеральном округе
+T103	PROFESSION 2162 2192	начальников органов ФСБ России
+T104	ORGANIZATION 2182 2192	ФСБ России
+T105	COUNTRY 2186 2192	России
+T106	ORGANIZATION 2261 2271	ФСБ России
+T107	COUNTRY 2265 2271	России
+T108	ORGANIZATION 2377 2399	Совета Безопасности РФ
+T109	COUNTRY 2397 2399	РФ
+T110	ORDINAL 2357 2363	первый
+T111	PROFESSION 2469 2479	президента
+T67	AWARD 2592 2619	За заслуги перед Отечеством
+T68	ORDINAL 2621 2623	IV
+T73	AWARD 2634 2652	За военные заслуги
+T112	AWARD 2664 2696	Почетный сотрудник контрразведки
+T113	AWARD 2700 2736	За службу в контрразведке II степени
+T114	ORDINAL 2726 2728	II
+T115	EVENT 2438 2459	назначен на должность
+T80	EVENT 17 44	назначен на новую должность
+R1	WORKS_AS Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T2 Arg2:T74	
+R3	PARTICIPANT_IN Arg1:T74 Arg2:T80	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T80	
+T117	EVENT 109 117	назначен
+R5	POINT_IN_TIME Arg1:T117 Arg2:T4	
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T117	
+R7	ABBREVIATION Arg1:T75 Arg2:T7	
+R8	ABBREVIATION Arg1:T76 Arg2:T79	
+R9	PARTICIPANT_IN Arg1:T6 Arg2:T117	
+R10	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R11	WORKS_AS Arg1:T5 Arg2:T6	
+R12	WORKPLACE Arg1:T5 Arg2:T75	
+R13	ALTERNATIVE_NAME Arg1:T6 Arg2:T81	
+T118	EVENT 17 25	назначен
+R14	WORKPLACE Arg1:T81 Arg2:T82	
+R15	WORKPLACE Arg1:T85 Arg2:T84	
+R16	WORKS_AS Arg1:T14 Arg2:T85	
+R17	WORKPLACE Arg1:T14 Arg2:T84	
+R18	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R19	ABBREVIATION Arg1:T22 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T5 Arg2:T18	
+T9	EVENT 186 209	освободили от должности
+R21	PARTICIPANT_IN Arg1:T5 Arg2:T9	
+R22	PARTICIPANT_IN Arg1:T81 Arg2:T9	
+T10	PROFESSION 210 284	полномочного представителя президента в Северо-Западном федеральном округе
+R23	WORKPLACE Arg1:T10 Arg2:T11	
+R24	SUBORDINATE_OF Arg1:T10 Arg2:T83	
+R25	SUBORDINATE_OF Arg1:T81 Arg2:T83	
+R26	ALTERNATIVE_NAME Arg1:T81 Arg2:T12	
+R27	WORKPLACE Arg1:T28 Arg2:T86	
+R28	WORKS_AS Arg1:T27 Arg2:T28	
+R29	WORKPLACE Arg1:T27 Arg2:T86	
+R30	AGENT Arg1:T27 Arg2:T87	
+R31	PARTICIPANT_IN Arg1:T86 Arg2:T87	
+R32	AGE_IS Arg1:T27 Arg2:T26	
+R33	POINT_IN_TIME Arg1:T87 Arg2:T25	
+R34	AGENT Arg1:T89 Arg2:T88	
+R35	PARTICIPANT_IN Arg1:T31 Arg2:T88	
+R36	POINT_IN_TIME Arg1:T88 Arg2:T30	
+R37	SUBORDINATE_OF Arg1:T33 Arg2:T31	
+R38	SUBORDINATE_OF Arg1:T34 Arg2:T31	
+R39	PARTICIPANT_IN Arg1:T33 Arg2:T88	
+R40	PARTICIPANT_IN Arg1:T34 Arg2:T88	
+R41	ORIGINS_FROM Arg1:T90 Arg2:T91	
+R42	ALTERNATIVE_NAME Arg1:T34 Arg2:T36	
+R43	OWNER_OF Arg1:T36 Arg2:T37	
+R44	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R45	DATE_OF_BIRTH Arg1:T39 Arg2:T40	
+R46	PLACE_OF_BIRTH Arg1:T39 Arg2:T41	
+R47	HEADQUARTERED_IN Arg1:T43 Arg2:T92	
+R48	SCHOOLS_ATTENDED Arg1:T39 Arg2:T43	
+R49	HEADQUARTERED_IN Arg1:T46 Arg2:T93	
+R50	WORKS_AS Arg1:T39 Arg2:T45	
+R51	WORKPLACE Arg1:T39 Arg2:T46	
+R52	WORKPLACE Arg1:T45 Arg2:T46	
+R53	SCHOOLS_ATTENDED Arg1:T39 Arg2:T49	
+T32	ORGANIZATION 1963 1991	Высшую Краснознаменную школу
+R54	ALTERNATIVE_NAME Arg1:T49 Arg2:T50	
+T94	ORGANIZATION 1992 1995	КГБ
+R55	HEADQUARTERED_IN Arg1:T95 Arg2:T96	
+R56	HEADQUARTERED_IN Arg1:T97 Arg2:T98	
+R57	WORKS_AS Arg1:T39 Arg2:T53	
+R58	HEADQUARTERED_IN Arg1:T100 Arg2:T54	
+R59	WORKPLACE Arg1:T53 Arg2:T100	
+R60	WORKPLACE Arg1:T39 Arg2:T100	
+R61	WORKS_AS Arg1:T39 Arg2:T56	
+R62	WORKPLACE Arg1:T56 Arg2:T102	
+R63	LOCATED_IN Arg1:T57 Arg2:T105	
+R64	LOCATED_IN Arg1:T54 Arg2:T101	
+R65	WORKPLACE Arg1:T60 Arg2:T61	
+R66	WORKPLACE Arg1:T59 Arg2:T106	
+R67	HEADQUARTERED_IN Arg1:T106 Arg2:T107	
+T99	AWARD 2592 2631	За заслуги перед Отечеством» IV степени
+T116	AWARD 2700 2725	За службу в контрразведке
+R68	AWARDED_WITH Arg1:T72 Arg2:T99	
+R69	AWARDED_WITH Arg1:T72 Arg2:T73	
+R70	AWARDED_WITH Arg1:T72 Arg2:T112	
+R71	AWARDED_WITH Arg1:T72 Arg2:T113	
+T119	PROFESSION 2460 2516	полпреда президента в Северо-Западном федеральном округе
+R72	WORKPLACE Arg1:T119 Arg2:T69	
+R73	WORKS_AS Arg1:T15 Arg2:T17	
+R74	WORKS_AS Arg1:T39 Arg2:T119	
+R75	WORKPLACE Arg1:T39 Arg2:T69	
+R76	WORKS_AS Arg1:T39 Arg2:T59	
+R78	WORKPLACE Arg1:T63 Arg2:T108	
+R79	HEADQUARTERED_IN Arg1:T108 Arg2:T109	
+T120	ORGANIZATION 2377 2396	Совета Безопасности
+R80	WORKS_AS Arg1:T39 Arg2:T63	
+T121	ORGANIZATION 2261 2264	ФСБ
+R82	POINT_IN_TIME Arg1:T115 Arg2:T64	
+R83	SUBORDINATE_OF Arg1:T119 Arg2:T111	
+R84	WORKPLACE Arg1:T39 Arg2:T108	
+R77	PARTICIPANT_IN Arg1:T39 Arg2:T115	
+R81	WORKS_AS Arg1:T72 Arg2:T70	
+R85	WORKS_AS Arg1:T72 Arg2:T71	
+T122	ORDINAL 1470 1475	200.2
+R86	PARTICIPANT_IN Arg1:T83 Arg2:T9	
+T123	EVENT 326 336	встретился
+R87	AGENT Arg1:T14 Arg2:T123	
+R88	AGENT Arg1:T12 Arg2:T123	
+R89	AGENT Arg1:T5 Arg2:T123	
+R90	ORIGINS_FROM Arg1:T23 Arg2:T22	
+T124	LAW 1476 1478	УК
+R91	PART_OF Arg1:T35 Arg2:T90	
+R92	PART_OF Arg1:T61 Arg2:T106	
+R93	WORKS_AS Arg1:T39 Arg2:T60	
+R94	WORKPLACE Arg1:T39 Arg2:T61	
+R95	AGENT Arg1:T65 Arg2:T115	
+R96	PARTICIPANT_IN Arg1:T119 Arg2:T115	
+T125	LOCATION 2195 2206	Приволжском
+R97	LOCATED_IN Arg1:T57 Arg2:T125	
+N1	Reference T1 Wikidata:Q4098679	Владимир Иванович Булавин
+N2	Reference T11 Wikidata:Q383093	Северо-Западный федеральный округ
+N4	Reference T17 Wikidata:Q14212	премьер-министр
+N6	Reference T27 Wikidata:Q4083373	Бельянинов, Андрей Юрьевич
+N7	Reference T31 Wikidata:Q4083373	Бельянинов, Андрей Юрьевич
+N11	Reference T41 Wikidata:Q3510	Липецкая область
+N12	Reference T43 Wikidata:Q1477512	Российский университет транспорта
+N13	Reference T45 Wikidata:Q28129958	инженер-конструктор
+N15	Reference T49 Wikidata:Q2387574	Академия Федеральной службы безопасности России
+N17	Reference T54 Wikidata:Q2246	Нижегородская область
+N19	Reference T57 Wikidata:Q202317	Приволжский федеральный округ
+N20	Reference T59 Wikidata:Q159	Россия
+N21	Reference T60 Wikidata:Q1077702	Северный модерн
+N22	Reference T61 Wikidata:Q1077702	Северный модерн
+N24	Reference T65 Wikidata:Q30461	президент
+N26	Reference T70 Wikidata:Q155327	генерал-полковник
+N27	Reference T71 Wikidata:Q19610320	кандидат юридических наук
+N29	Reference T76 Wikidata:Q2896007	Федеральная таможенная служба
+N31	Reference T85 Wikidata:Q842386	председатель Правительства Российской Федерации
+N33	Reference T90 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N36	Reference T95 Wikidata:Q80919	Комитет государственной безопасности СССР
+N37	Reference T96 Wikidata:Q15180	СССР
+N38	Reference T97 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N40	Reference T101 Wikidata:Q159	Россия
+N43	Reference T104 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N44	Reference T107 Wikidata:Q159	Россия
+N46	Reference T67 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N47	Reference T73 Wikidata:Q94136	орден «За военные заслуги»
+N51	Reference T94 Wikidata:Q80919	Комитет государственной безопасности СССР
+N53	Reference T116 Wikidata:Q4287000	медаль «За отличие в службе»
+N55	Reference T120 Wikidata:Q37470	Совет Безопасности ООН
+N56	Reference T121 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N28	Reference T75 Wikidata:NULL	нет данных
+N30	Reference T81 Wikidata:NULL	нет данных
+N59	Reference T8 Wikidata:Q15217354	
+N49	Reference T10 Wikidata:NULL	нет данных
+N3	Reference T15 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N5	Reference T23 Wikidata:Q4450947	
+N32	Reference T89 Wikidata:Q30093123	
+N8	Reference T33 Wikidata:NULL	нет данных
+N9	Reference T35 Wikidata:NULL	нет данных
+N57	Reference T124 Wikidata:Q19705	уголовное законодательство
+N10	Reference T36 Wikidata:Q4083373	Бельянинов, Андрей Юрьевич
+N34	Reference T92 Wikidata:Q649	Москва
+N35	Reference T93 Wikidata:Q177888	
+N14	Reference T46 Wikidata:NULL	нет данных
+N50	Reference T32 Wikidata:NULL	нет данных
+N16	Reference T53 Wikidata:NULL	нет данных
+N39	Reference T100 Wikidata:NULL	нет данных
+N18	Reference T56 Wikidata:NULL	нет данных
+N42	Reference T103 Wikidata:NULL	нет данных
+N41	Reference T102 Wikidata:NULL	нет данных
+N58	Reference T125 Wikidata:NULL	нет данных
+N45	Reference T108 Wikidata:NULL	нет данных
+N23	Reference T63 Wikidata:NULL	нет данных
+N25	Reference T66 Wikidata:Q15217354	
+N54	Reference T119 Wikidata:NULL	нет данных
+N52	Reference T99 Wikidata:NULL	нет данных
+N60	Reference T112 Wikidata:Q4375624	
+N48	Reference T113 Wikidata:NULL	нет данных
+N61	Reference T5 Wikidata:Q4098679	Владимир Иванович Булавин
+N62	Reference T24 Wikidata:Q4098679	Владимир Иванович Булавин
+N63	Reference T72 Wikidata:Q4098679	Владимир Иванович Булавин
+N64	Reference T3 Wikidata:Q4098679	Владимир Иванович Булавин
+N65	Reference T39 Wikidata:Q4098679	Владимир Иванович Булавин
+N66	Reference T18 Wikidata:Q4098679	Владимир Иванович Булавин
+N67	Reference T69 Wikidata:Q383093	Северо-Западный федеральный округ
+N68	Reference T13 Wikidata:Q14212	премьер-министр
+N69	Reference T50 Wikidata:Q2387574	Академия Федеральной службы безопасности России
+N70	Reference T51 Wikidata:Q2246	Нижегородская область
+N71	Reference T111 Wikidata:Q30461	президент
+N72	Reference T83 Wikidata:Q30461	президент
+N73	Reference T79 Wikidata:Q2896007	Федеральная таможенная служба
+N74	Reference T22 Wikidata:Q159	Россия
+N75	Reference T19 Wikidata:Q159	Россия
+N76	Reference T109 Wikidata:Q159	Россия
+N77	Reference T84 Wikidata:Q159	Россия
+N78	Reference T77 Wikidata:Q159	Россия
+N79	Reference T78 Wikidata:Q159	Россия
+N80	Reference T91 Wikidata:Q159	Россия
+N81	Reference T98 Wikidata:Q159	Россия
+N82	Reference T106 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N83	Reference T105 Wikidata:Q159	Россия
+N84	Reference T16 Wikidata:NULL	нет данных
+N85	Reference T7 Wikidata:NULL	нет данных
+N86	Reference T74 Wikidata:NULL	нет данных
+N87	Reference T82 Wikidata:NULL	нет данных
+N88	Reference T86 Wikidata:NULL	нет данных
+N89	Reference T12 Wikidata:NULL	нет данных
+N90	Reference T2 Wikidata:NULL	нет данных
+N91	Reference T28 Wikidata:NULL	нет данных
+N92	Reference T6 Wikidata:NULL	нет данных
+N93	Reference T14 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N94	Reference T20 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N95	Reference T34 Wikidata:Q4083373	Бельянинов, Андрей Юрьевич
+N96	Reference T38 Wikidata:Q4083373	Бельянинов, Андрей Юрьевич
+T126	EVENT 1668 1675	родился
+R98	PARTICIPANT_IN Arg1:T39 Arg2:T126	
+R99	POINT_IN_TIME Arg1:T126 Arg2:T40	
+R100	TAKES_PLACE_IN Arg1:T126 Arg2:T41	

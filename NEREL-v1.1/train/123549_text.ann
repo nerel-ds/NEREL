@@ -1,0 +1,96 @@
+T1	CITY 21 27	Тюмени
+T2	NUMBER 45 51	восьми
+T3	PRODUCT 67 71	Asus
+T4	AGE 122 132	36-летнего
+T5	PERSON 149 163	Андрея Кандыбы
+T6	LAW 203 220	ч.1 ст. 273 УК РФ
+T7	DATE 458 477	в августе 2016 года
+T8	NUMBER 486 492	восемь
+T9	NUMBER 504 509	одном
+T10	PERSON 517 524	Кандыба
+T11	NUMBER 604 608	трёх
+T12	ORGANIZATION 718 751	РУФСБ России по Тюменской области
+T15	MONEY 857 870	6 тыс. рублей
+T16	PRODUCT 905 909	Asus
+T19	NUMBER 1040 1045	троих
+T20	PROFESSION 12 17	хакер
+T21	CRIME 39 58	взлом восьми сайтов
+T22	EVENT 28 35	осуждён
+T23	ORGANIZATION 72 94	Тюменский районный суд
+T24	CITY 72 81	Тюменский
+T25	LAW 215 220	УК РФ
+T26	COUNTRY 218 220	РФ
+T27	EVENT 173 189	признан виновным
+T28	CITY 400 407	тюменец
+T29	PRODUCT 417 426	интернете
+T30	PROFESSION 683 689	хакера
+T31	COUNTRY 724 730	России
+T32	STATE_OR_PROVINCE 734 751	Тюменской области
+T13	PENALTY 778 837	1 году лишения свободы условно с испытательным сроком 1 год
+T14	PENALTY 840 870	штрафу в размере 6 тыс. рублей
+T17	PROFESSION 874 880	хакера
+R1	HEADQUARTERED_IN Arg1:T23 Arg2:T24	
+R2	AGE_IS Arg1:T5 Arg2:T4	
+R3	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+T18	ORGANIZATION 718 723	РУФСБ
+R4	HEADQUARTERED_IN Arg1:T12 Arg2:T32	
+R5	LOCATED_IN Arg1:T32 Arg2:T31	
+T33	PENALTY 840 846	штрафу
+T34	PENALTY 785 808	лишения свободы условно
+T35	ORDINAL 205 206	1
+T36	ORDINAL 211 214	273
+R6	ORIGINS_FROM Arg1:T25 Arg2:T26	
+T37	LAW 207 220	ст. 273 УК РФ
+R7	PART_OF Arg1:T6 Arg2:T37	
+R8	PART_OF Arg1:T37 Arg2:T25	
+T38	LAW 215 217	УК
+T39	EVENT 95 109	вынес приговор
+R9	ALTERNATIVE_NAME Arg1:T22 Arg2:T39	
+R10	CONVICTED_OF Arg1:T5 Arg2:T21	
+R11	ORIGINS_FROM Arg1:T20 Arg2:T1	
+R12	PARTICIPANT_IN Arg1:T20 Arg2:T22	
+R13	ALTERNATIVE_NAME Arg1:T1 Arg2:T24	
+R14	WORKS_AS Arg1:T5 Arg2:T20	
+R15	ORIGINS_FROM Arg1:T5 Arg2:T1	
+R16	PARTICIPANT_IN Arg1:T5 Arg2:T22	
+R17	ALTERNATIVE_NAME Arg1:T39 Arg2:T27	
+R18	HAS_CAUSE Arg1:T27 Arg2:T6	
+T40	EVENT 478 499	взломал восемь сайтов
+R19	PARTICIPANT_IN Arg1:T5 Arg2:T40	
+R20	POINT_IN_TIME Arg1:T40 Arg2:T7	
+R21	PENALIZED_AS Arg1:T10 Arg2:T34	
+R22	PENALIZED_AS Arg1:T10 Arg2:T14	
+T41	PENALTY 885 904	конфискован ноутбук
+R23	PENALIZED_AS Arg1:T17 Arg2:T41	
+R24	WORKS_AS Arg1:T10 Arg2:T30	
+R25	WORKS_AS Arg1:T10 Arg2:T17	
+R26	HAS_CAUSE Arg1:T13 Arg2:T40	
+R27	HAS_CAUSE Arg1:T14 Arg2:T40	
+R28	HAS_CAUSE Arg1:T41 Arg2:T40	
+R29	HAS_CAUSE Arg1:T22 Arg2:T21	
+R30	PARTICIPANT_IN Arg1:T5 Arg2:T39	
+R31	INANIMATE_INVOLVED Arg1:T16 Arg2:T41	
+R32	CONVICTED_OF Arg1:T20 Arg2:T21	
+R33	AGENT Arg1:T23 Arg2:T39	
+R34	HAS_CAUSE Arg1:T39 Arg2:T21	
+N1	Reference T5 Wikidata:Q4212355	Кандыба, Андрей Фёдорович
+N4	Reference T16 Wikidata:Q152864	ASUS
+N7	Reference T25 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N8	Reference T26 Wikidata:Q159	Россия
+N10	Reference T29 Wikidata:Q75	Интернет
+N11	Reference T30 Wikidata:Q1487	хакер
+N12	Reference T31 Wikidata:Q159	Россия
+N13	Reference T32 Wikidata:Q5824	Тюменская область
+N6	Reference T24 Wikidata:Q5815	
+N5	Reference T23 Wikidata:NULL	нет данных
+N2	Reference T6 Wikidata:NULL	нет данных
+N14	Reference T37 Wikidata:NULL	нет данных
+N15	Reference T38 Wikidata:Q19705	уголовное законодательство
+N9	Reference T28 Wikidata:Q5815	
+N16	Reference T18 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N17	Reference T10 Wikidata:Q4212355	Кандыба, Андрей Фёдорович
+N18	Reference T3 Wikidata:Q152864	ASUS
+N19	Reference T17 Wikidata:Q1487	хакер
+N20	Reference T20 Wikidata:Q1487	хакер
+N21	Reference T1 Wikidata:Q5815	

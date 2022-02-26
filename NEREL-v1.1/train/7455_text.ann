@@ -1,0 +1,227 @@
+T2	AGE 64 72	80-летия
+T3	DATE 74 78	2009
+T4	CITY 81 87	Москве
+T5	AGE 88 100	на 81-м году
+T7	PERSON 141 155	Людмила Зыкина
+T8	DATE 158 172	Совсем недавно
+T9	DATE 174 181	10 июня
+T10	AGE 213 219	80 лет
+T11	PROFESSION 240 255	пресс-секретарь
+T12	PROFESSION 275 284	президент
+T13	PERSON 311 318	Зыкиной
+T14	PROFESSION 369 378	Президент
+T15	ORDINAL 468 474	первой
+T16	DATE 486 506	Несколько дней назад
+T17	ORGANIZATION 601 615	Первого канала
+T18	DATE 632 639	в среду
+T19	ORGANIZATION 667 677	Интерфаксу
+T20	PERSON 807 832	Людмила Георгиевна Зыкина
+T21	DATE 842 856	10 июня 1929 г
+T22	CITY 860 866	Москве
+T24	STATE_OR_PROVINCE 1000 1012	подмосковном
+T25	PERSON 1088 1094	Зыкина
+T26	DATE 1102 1110	в 1947 г
+T27	EVENT 1125 1168	Всероссийском конкурсе молодых исполнителей
+T28	ORGANIZATION 1198 1263	Государственный академический русский народный хор им. Пятницкого
+T29	DATE 1295 1308	в 1960-е годы
+T30	ORGANIZATION 1325 1367	Музыкальное училище им. Ипполитова-Иванова
+T32	ORGANIZATION 1379 1400	институт им. Гнесиных
+T33	PERSON 1444 1451	Зыкиной
+T35	CITY 1575 1585	Волгограде
+T36	PERSON 1597 1611	Людмила Зыкина
+T37	AWARD 1676 1705	Герой Социалистического Труда
+T38	AWARD 1714 1737	Народная артистка РСФСР
+T40	DATE 1832 1844	12 июня 2004
+T42	ORDINAL 1967 1968	I
+T1	PERSON 7 21	Людмила Зыкина
+T43	PERSON 26 40	Людмила Зыкина
+T44	COUNTRY 136 140	СССР
+T45	AWARD 439 466	За заслуги перед Отечеством
+T46	PERSON 285 301	Дмитрий Медведев
+T47	PROFESSION 256 273	главы государства
+T48	PROFESSION 240 273	пресс-секретарь главы государства
+T49	PROFESSION 194 200	певице
+T6	PROFESSION 387 393	певице
+T50	PERSON 507 525	Людмила Георгиевна
+T51	DISEASE 536 543	инфаркт
+T52	PROFESSION 717 723	певица
+T53	PROFESSION 901 908	токарем
+T54	PERSON 953 971	Серго Орджоникидзе
+T55	CITY 912 922	Московском
+T23	ORGANIZATION 912 971	Московском станкостроительном заводе им. Серго Орджоникидзе
+T56	PROFESSION 987 997	санитаркой
+T57	PERSON 1063 1070	Кащенко
+T58	ORGANIZATION 1048 1070	больнице имени Кащенко
+T59	PERSON 1253 1263	Пятницкого
+T60	NATIONALITY 1228 1235	русский
+T61	PROFESSION 1286 1293	певицей
+T31	PERSON 1349 1367	Ипполитова-Иванова
+T62	PERSON 1392 1400	Гнесиных
+T63	WORK_OF_ART 1456 1472	Течет река Волга
+T64	WORK_OF_ART 1476 1491	На побывку едет
+T65	WORK_OF_ART 1495 1523	Поклонимся великим тем годам
+T66	WORK_OF_ART 1527 1545	Я лечу над Россией
+T34	WORK_OF_ART 1549 1562	Калина во ржи
+T67	WORK_OF_ART 1566 1593	Растёт в Волгограде берёзка
+T68	DATE 1669 1673	1970
+T69	DATE 1707 1711	1987
+T70	DATE 1739 1743	1968
+T71	DATE 1770 1774	1973
+T72	AWARD 1651 1667	Ленинская премия
+T73	STATE_OR_PROVINCE 1732 1737	РСФСР
+T39	COUNTRY 1764 1768	СССР
+T74	AWARD 1746 1768	Народная артистка СССР
+T75	AWARD 118 140	народная артистка СССР
+T76	AWARD 1794 1830	Орденом Святого Андрея Первозванного
+T41	AWARD 1938 1965	За заслуги перед Отечеством
+T77	PROFESSION 1040 1045	швеёй
+T78	ORGANIZATION 912 948	Московском станкостроительном заводе
+T79	DISEASE 738 754	остановки сердца
+R1	AGE_IS Arg1:T43 Arg2:T2	
+R2	PLACE_OF_DEATH Arg1:T7 Arg2:T4	
+R3	AGE_DIED_AT Arg1:T7 Arg2:T5	
+R4	WORKS_AS Arg1:T46 Arg2:T12	
+T80	AWARD 438 482	«За заслуги перед Отечеством» первой степени
+R5	AWARDED_WITH Arg1:T13 Arg2:T80	
+T81	DISEASE 555 574	остановилось сердце
+R6	CAUSE_OF_DEATH Arg1:T50 Arg2:T81	
+R7	MEDICAL_CONDITION Arg1:T50 Arg2:T51	
+R8	CAUSE_OF_DEATH Arg1:T52 Arg2:T79	
+R9	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R10	PLACE_OF_BIRTH Arg1:T20 Arg2:T22	
+R11	WORKS_AS Arg1:T20 Arg2:T53	
+R12	WORKPLACE Arg1:T20 Arg2:T23	
+R13	WORKPLACE Arg1:T20 Arg2:T58	
+R14	WORKS_AS Arg1:T20 Arg2:T77	
+R15	WORKS_AS Arg1:T20 Arg2:T56	
+R16	PARTICIPANT_IN Arg1:T25 Arg2:T27	
+R17	WORKPLACE Arg1:T25 Arg2:T28	
+R18	SCHOOLS_ATTENDED Arg1:T25 Arg2:T30	
+R19	SCHOOLS_ATTENDED Arg1:T25 Arg2:T32	
+R20	AWARDED_WITH Arg1:T36 Arg2:T72	
+R21	AWARDED_WITH Arg1:T36 Arg2:T76	
+R22	AWARDED_WITH Arg1:T36 Arg2:T41	
+T82	COUNTRY 1538 1545	Россией
+R23	PRODUCES Arg1:T33 Arg2:T63	
+R24	PRODUCES Arg1:T33 Arg2:T64	
+R25	PRODUCES Arg1:T33 Arg2:T65	
+R26	PRODUCES Arg1:T33 Arg2:T66	
+R27	PRODUCES Arg1:T33 Arg2:T34	
+R28	PRODUCES Arg1:T33 Arg2:T67	
+R29	AWARDED_WITH Arg1:T36 Arg2:T37	
+R30	AWARDED_WITH Arg1:T36 Arg2:T38	
+R31	AWARDED_WITH Arg1:T36 Arg2:T74	
+T83	EVENT 107 117	скончалась
+R32	PARTICIPANT_IN Arg1:T7 Arg2:T83	
+R33	TAKES_PLACE_IN Arg1:T83 Arg2:T4	
+T84	EVENT 302 310	позвонил
+R34	AGENT Arg1:T46 Arg2:T84	
+R35	PARTICIPANT_IN Arg1:T13 Arg2:T84	
+R36	SUBORDINATE_OF Arg1:T48 Arg2:T46	
+T85	EVENT 0 6	Умерла
+R37	PARTICIPANT_IN Arg1:T1 Arg2:T85	
+R38	ALTERNATIVE_NAME Arg1:T85 Arg2:T83	
+R39	AWARDED_WITH Arg1:T7 Arg2:T75	
+R40	WORKS_AS Arg1:T7 Arg2:T49	
+R41	AGE_IS Arg1:T7 Arg2:T10	
+R42	AGE_IS Arg1:T49 Arg2:T10	
+R43	SUBORDINATE_OF Arg1:T48 Arg2:T47	
+R44	SUBORDINATE_OF Arg1:T48 Arg2:T46	
+R45	WORKS_AS Arg1:T46 Arg2:T14	
+R46	WORKS_AS Arg1:T13 Arg2:T6	
+R47	ALTERNATIVE_NAME Arg1:T13 Arg2:T50	
+R48	ALTERNATIVE_NAME Arg1:T81 Arg2:T79	
+R49	ALTERNATIVE_NAME Arg1:T50 Arg2:T20	
+R50	HEADQUARTERED_IN Arg1:T23 Arg2:T55	
+T86	PERSON 1810 1830	Андрея Первозванного
+R51	ORIGINS_FROM Arg1:T75 Arg2:T44	
+T87	PERSON 1651 1660	Ленинская
+R52	POINT_IN_TIME Arg1:T72 Arg2:T68	
+R53	POINT_IN_TIME Arg1:T37 Arg2:T69	
+R54	POINT_IN_TIME Arg1:T38 Arg2:T70	
+R55	POINT_IN_TIME Arg1:T74 Arg2:T71	
+R56	ORIGINS_FROM Arg1:T38 Arg2:T73	
+R57	ORIGINS_FROM Arg1:T74 Arg2:T39	
+R58	POINT_IN_TIME Arg1:T76 Arg2:T40	
+T88	EVENT 399 412	подписал указ
+R59	AGENT Arg1:T14 Arg2:T88	
+R60	PARTICIPANT_IN Arg1:T13 Arg2:T88	
+R61	AGENT Arg1:T46 Arg2:T88	
+R62	INANIMATE_INVOLVED Arg1:T80 Arg2:T88	
+R63	AWARDED_WITH Arg1:T6 Arg2:T80	
+T89	PROFESSION 127 135	артистка
+R64	WORKS_AS Arg1:T7 Arg2:T89	
+T90	ORDINAL 601 608	Первого
+R65	WORKPLACE Arg1:T77 Arg2:T58	
+N1	Reference T12 Wikidata:Q30461	президент
+N3	Reference T17 Wikidata:Q330067	Первый канал
+N4	Reference T19 Wikidata:Q379271	Интерфакс
+N5	Reference T22 Wikidata:Q649	Москва
+N7	Reference T28 Wikidata:Q4146749	Государственный академический русский народный хор им. М. Е. Пятницкого
+N8	Reference T30 Wikidata:Q4146899	Государственный музыкально-педагогический институт имени М. М. Ипполитова-Иванова
+N9	Reference T32 Wikidata:Q372040	Российская академия музыки имени Гнесиных
+N10	Reference T35 Wikidata:Q914	Волгоград
+N11	Reference T37 Wikidata:Q208167	Герой Социалистического Труда
+N12	Reference T38 Wikidata:Q47024	Народный артист РСФСР
+N13	Reference T43 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N14	Reference T44 Wikidata:Q15180	СССР
+N15	Reference T46 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N16	Reference T47 Wikidata:Q48352	глава государства
+N17	Reference T49 Wikidata:Q177220	певец
+N18	Reference T53 Wikidata:Q196721	токарь
+N19	Reference T54 Wikidata:Q259843	Григорий Константинович Орджоникидзе
+N22	Reference T56 Wikidata:Q1078096	Санитар
+N26	Reference T31 Wikidata:Q346815	Михаил Михайлович Ипполитов-Иванов
+N28	Reference T63 Wikidata:Q4456953	Течёт река Волга
+N34	Reference T72 Wikidata:Q51067	Ленинская премия
+N35	Reference T73 Wikidata:Q2184	РСФСР
+N36	Reference T74 Wikidata:Q403569	народный артист СССР
+N37	Reference T76 Wikidata:Q1026769	орден Святого апостола Андрея Первозванного
+N38	Reference T41 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N39	Reference T77 Wikidata:Q242468	портной
+N42	Reference T82 Wikidata:Q159	Россия
+N43	Reference T86 Wikidata:Q43399	Андрей Первозванный
+N2	Reference T13 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N44	Reference T87 Wikidata:Q1394	Владимир Ильич Ленин
+N29	Reference T64 Wikidata:NULL	нет данных
+N30	Reference T65 Wikidata:NULL	нет данных
+N31	Reference T66 Wikidata:NULL	нет данных
+N32	Reference T34 Wikidata:NULL	нет данных
+N33	Reference T67 Wikidata:NULL	нет данных
+N27	Reference T62 Wikidata:Q4448754	сёстры Гнесины
+N24	Reference T59 Wikidata:Q1967825	
+N25	Reference T60 Wikidata:Q49542	русские
+N23	Reference T58 Wikidata:Q21178083	
+N46	Reference T57 Wikidata:Q4218339	
+N6	Reference T24 Wikidata:Q1697	Московская область
+N20	Reference T55 Wikidata:Q649	Москва
+N40	Reference T78 Wikidata:NULL	нет данных
+N21	Reference T23 Wikidata:NULL	нет данных
+N41	Reference T80 Wikidata:NULL	нет данных
+N45	Reference T89 Wikidata:Q483501	деятель искусств
+N47	Reference T11 Wikidata:Q17221	
+N48	Reference T48 Wikidata:NULL	нет данных
+N49	Reference T14 Wikidata:Q30461	президент
+N50	Reference T4 Wikidata:Q649	Москва
+N51	Reference T36 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N52	Reference T1 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N53	Reference T7 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N54	Reference T39 Wikidata:Q15180	СССР
+N55	Reference T61 Wikidata:Q177220	певец
+N56	Reference T52 Wikidata:Q177220	певец
+N57	Reference T6 Wikidata:Q177220	певец
+N58	Reference T75 Wikidata:Q403569	народный артист СССР
+N59	Reference T45 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N60	Reference T25 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N61	Reference T33 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N62	Reference T50 Wikidata:Q466546	Людмила Георгиевна Зыкина
+N63	Reference T20 Wikidata:Q466546	Людмила Георгиевна Зыкина
+T91	EVENT 833 841	родилась
+R66	PARTICIPANT_IN Arg1:T20 Arg2:T91	
+R67	POINT_IN_TIME Arg1:T91 Arg2:T21	
+R68	TAKES_PLACE_IN Arg1:T91 Arg2:T22	
+R69	WORKPLACE Arg1:T53 Arg2:T23	
+T92	PROFESSION 1723 1731	артистка
+R70	WORKS_AS Arg1:T36 Arg2:T92	
+T93	LOCATION 1467 1472	Волга
+T94	PROFESSION 1755 1763	артистка

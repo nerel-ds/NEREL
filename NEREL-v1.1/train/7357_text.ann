@@ -1,0 +1,55 @@
+T2	PERSON 13 23	Мии Фэрроу
+T3	COUNTRY 53 63	Британский
+T4	ORGANIZATION 71 79	BBC News
+T5	PROFESSION 133 139	Артист
+T6	PERSON 140 153	Патрик Фэрроу
+T7	AGE 179 189	66-летнего
+T8	PERSON 190 204	Патрика Фэрроу
+T10	CITY 244 252	Каслтоне
+T11	STATE_OR_PROVINCE 259 266	Вермонт
+T12	ORGANIZATION 323 334	полиции США
+T13	PROFESSION 448 456	Менеджер
+T14	PERSON 457 467	Мии Фэрроу
+T15	PERSON 635 648	Патрик Фэрроу
+T16	PROFESSION 5 12	актрисы
+T17	DATE 123 131	накануне
+T9	TIME 267 286	в понедельник ночью
+T18	DATE 267 280	в понедельник
+T19	COUNTRY 331 334	США
+T20	ORGANIZATION 349 357	полицией
+T21	EVENT 24 52	покончил жизнь самоубийством
+R1	WORKS_AS Arg1:T2 Arg2:T16	
+R2	WORKS_AS Arg1:T6 Arg2:T5	
+R3	AGE_DIED_AT Arg1:T8 Arg2:T7	
+R4	LOCATED_IN Arg1:T10 Arg2:T11	
+R6	SIBLING Arg1:T2 Arg2:T6	
+R5	AGENT Arg1:T6 Arg2:T21	
+R7	SUBORDINATE_OF Arg1:T13 Arg2:T14	
+T22	EVENT 294 300	смерть
+R8	PARTICIPANT_IN Arg1:T8 Arg2:T22	
+R9	TAKES_PLACE_IN Arg1:T22 Arg2:T10	
+R10	PLACE_OF_DEATH Arg1:T8 Arg2:T10	
+R11	HEADQUARTERED_IN Arg1:T4 Arg2:T3	
+T23	EVENT 158 172	найден мертвым
+R12	TAKES_PLACE_IN Arg1:T23 Arg2:T10	
+R13	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R14	HEADQUARTERED_IN Arg1:T12 Arg2:T19	
+T24	ORGANIZATION 323 330	полиции
+R15	INANIMATE_INVOLVED Arg1:T6 Arg2:T23	
+T1	EVENT 433 445	самоубийстве
+N2	Reference T2 Wikidata:Q202725	Миа Фэрроу
+N5	Reference T5 Wikidata:Q483501	деятель искусств
+N7	Reference T11 Wikidata:Q16551	Вермонт
+N9	Reference T13 Wikidata:Q2462658	менеджер
+N11	Reference T16 Wikidata:Q33999	актёр
+N12	Reference T19 Wikidata:Q30	США
+N13	Reference T24 Wikidata:Q35535	полиция
+N3	Reference T3 Wikidata:Q145	Великобритания
+N4	Reference T4 Wikidata:Q1160945	
+N6	Reference T10 Wikidata:Q1049714	
+N8	Reference T12 Wikidata:Q1365622	
+N10	Reference T15 Wikidata:Q18387067	
+N14	Reference T14 Wikidata:Q202725	Миа Фэрроу
+N15	Reference T20 Wikidata:Q35535	полиция
+N16	Reference T8 Wikidata:Q18387067	
+N17	Reference T6 Wikidata:Q18387067	

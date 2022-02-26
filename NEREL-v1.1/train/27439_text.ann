@@ -1,0 +1,170 @@
+T2	PERSON 28 35	Норьеги
+T3	LOCATION 58 64	Боедик
+T4	LOCATION 66 72	Boëdic
+T5	COUNTRY 74 85	Французский
+T6	PERSON 94 108	Оливье Метцнер
+T8	PERSON 186 201	Мануэль Норьега
+T10	PERSON 223 241	Доминик де Вильпен
+T11	COUNTRY 244 254	российский
+T12	PERSON 263 278	Роман Абрамович
+T13	PERSON 300 308	Метцнеру
+T14	AGE 314 321	63 года
+T15	LOCATION 416 422	Боедик
+T16	LOCATION 424 430	Boëdic
+T17	STATE_OR_PROVINCE 442 449	Бретани
+T18	PERSON 610 617	Метцнер
+T19	ORGANIZATION 885 905	Continental Airlines
+T20	PRODUCT 935 943	Concorde
+T21	DATE 944 955	в 2000 году
+T23	PERSON 1101 1108	Метцнер
+T24	PERSON 1130 1147	Романа Абрамовича
+T25	FACILITY 1218 1222	Кроэ
+T26	LOCATION 1226 1241	Лазурном берегу
+T27	PROFESSION 1244 1251	Адвокат
+T29	PROFESSION 1307 1315	премьера
+T30	PERSON 1316 1336	Доминика де Вильпена
+T31	PROFESSION 1387 1397	президента
+T32	PERSON 1415 1422	Метцнер
+T33	PROFESSION 7 14	адвокат
+T35	PROFESSION 7 25	адвокат Абрамовича
+T36	PERSON 15 25	Абрамовича
+T37	PROFESSION 86 93	адвокат
+T39	PROFESSION 170 185	диктатор Панамы
+T40	PROFESSION 170 178	диктатор
+T41	COUNTRY 179 185	Панамы
+T43	PROFESSION 207 222	премьер Франции
+T44	PROFESSION 207 214	премьер
+T45	COUNTRY 215 222	Франции
+T46	ORGANIZATION 324 331	Полиция
+T47	EVENT 520 526	смерти
+T48	PROFESSION 555 566	полицейские
+T49	EVENT 594 607	самоубийством
+T50	CRIME 844 869	непреднамеренном убийстве
+T51	CRIME 861 869	убийстве
+T52	EVENT 916 926	катастрофе
+T53	PROFESSION 1008 1028	панамского диктатора
+T54	PROFESSION 1019 1028	диктатора
+T55	COUNTRY 1008 1018	панамского
+T56	PERSON 1029 1036	Норьеги
+T58	CRIME 1083 1098	отмывании денег
+T59	CRIME 1058 1080	контрабанде наркотиков
+T60	ORGANIZATION 1155 1162	полиция
+T62	PROFESSION 1294 1315	французского премьера
+T63	COUNTRY 1294 1306	французского
+T64	CRIME 1359 1397	попытке опорочить репутацию президента
+T65	PERSON 1398 1412	Николя Саркози
+R1	ALTERNATIVE_NAME Arg1:T36 Arg2:T12	
+T1	EVENT 36 50	найден мёртвым
+R2	SUBORDINATE_OF Arg1:T35 Arg2:T36	
+R3	SUBORDINATE_OF Arg1:T35 Arg2:T2	
+R4	PARTICIPANT_IN Arg1:T35 Arg2:T1	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R7	ORIGINS_FROM Arg1:T37 Arg2:T5	
+R8	WORKS_AS Arg1:T6 Arg2:T37	
+R9	WORKPLACE Arg1:T39 Arg2:T41	
+R10	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+R11	WORKS_AS Arg1:T8 Arg2:T39	
+R12	WORKPLACE Arg1:T8 Arg2:T41	
+R13	WORKPLACE Arg1:T43 Arg2:T45	
+R14	ORIGINS_FROM Arg1:T12 Arg2:T11	
+T7	PROFESSION 255 262	олигарх
+R15	WORKS_AS Arg1:T12 Arg2:T7	
+R16	WORKS_AS Arg1:T10 Arg2:T43	
+R17	WORKPLACE Arg1:T10 Arg2:T45	
+R18	ALTERNATIVE_NAME Arg1:T5 Arg2:T45	
+T9	EVENT 284 298	найден мёртвым
+R19	PARTICIPANT_IN Arg1:T10 Arg2:T9	
+R5	ALTERNATIVE_NAME Arg1:T9 Arg2:T47	
+R20	ALTERNATIVE_NAME Arg1:T10 Arg2:T13	
+R21	AGE_DIED_AT Arg1:T13 Arg2:T14	
+R22	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R23	LOCATED_IN Arg1:T15 Arg2:T17	
+R24	LOCATED_IN Arg1:T17 Arg2:T45	
+R25	MEMBER_OF Arg1:T48 Arg2:T46	
+R26	PARTICIPANT_IN Arg1:T18 Arg2:T49	
+T22	PROFESSION 629 640	адвокатскую
+R27	WORKS_AS Arg1:T18 Arg2:T22	
+R28	ALTERNATIVE_NAME Arg1:T37 Arg2:T22	
+R29	CONVICTED_OF Arg1:T19 Arg2:T50	
+R30	POINT_IN_TIME Arg1:T52 Arg2:T21	
+R31	WORKS_AS Arg1:T56 Arg2:T53	
+R32	WORKPLACE Arg1:T53 Arg2:T55	
+R33	WORKPLACE Arg1:T56 Arg2:T55	
+R34	CONVICTED_OF Arg1:T56 Arg2:T59	
+R35	CONVICTED_OF Arg1:T56 Arg2:T58	
+T28	EVENT 989 999	оправдания
+R36	PARTICIPANT_IN Arg1:T18 Arg2:T28	
+R37	PARTICIPANT_IN Arg1:T56 Arg2:T28	
+T34	EVENT 825 841	снятия обвинений
+R38	AGENT Arg1:T18 Arg2:T34	
+R39	PARTICIPANT_IN Arg1:T19 Arg2:T34	
+R40	HAS_CAUSE Arg1:T34 Arg2:T52	
+R41	HAS_CAUSE Arg1:T34 Arg2:T50	
+R42	HAS_CAUSE Arg1:T50 Arg2:T52	
+R43	SUBORDINATE_OF Arg1:T23 Arg2:T24	
+R44	LOCATED_IN Arg1:T25 Arg2:T26	
+R45	OWNER_OF Arg1:T24 Arg2:T25	
+R46	WORKS_AS Arg1:T23 Arg2:T27	
+R47	WORKS_AS Arg1:T30 Arg2:T62	
+R48	SUBORDINATE_OF Arg1:T27 Arg2:T30	
+R49	WORKPLACE Arg1:T30 Arg2:T63	
+R50	WORKPLACE Arg1:T62 Arg2:T63	
+R51	WORKS_AS Arg1:T65 Arg2:T31	
+R52	CONVICTED_OF Arg1:T30 Arg2:T64	
+R53	PARTICIPANT_IN Arg1:T6 Arg2:T9	
+R54	SUBORDINATE_OF Arg1:T6 Arg2:T8	
+R55	SUBORDINATE_OF Arg1:T6 Arg2:T10	
+R56	SUBORDINATE_OF Arg1:T6 Arg2:T12	
+T38	EVENT 350 367	тело было найдено
+R57	ALTERNATIVE_NAME Arg1:T1 Arg2:T38	
+R58	TAKES_PLACE_IN Arg1:T38 Arg2:T15	
+R59	INANIMATE_INVOLVED Arg1:T20 Arg2:T52	
+R60	PARTICIPANT_IN Arg1:T19 Arg2:T52	
+R61	PARTICIPANT_IN Arg1:T65 Arg2:T64	
+N2	Reference T6 Wikidata:Q3351217	Метцнер, Оливье
+N5	Reference T17 Wikidata:Q12130	Бретань
+N6	Reference T19 Wikidata:Q216486	Continental Airlines
+N7	Reference T24 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N8	Reference T26 Wikidata:Q182822	Лазурный берег
+N10	Reference T30 Wikidata:Q131660	Доминик де Вильпен
+N11	Reference T31 Wikidata:Q30461	президент
+N12	Reference T37 Wikidata:Q40348	адвокат
+N14	Reference T40 Wikidata:Q183318	диктатор
+N15	Reference T41 Wikidata:Q804	Панама
+N16	Reference T44 Wikidata:Q14212	премьер-министр
+N17	Reference T46 Wikidata:Q35535	полиция
+N20	Reference T55 Wikidata:Q804	Панама
+N22	Reference T65 Wikidata:Q329	Николя Саркози
+N24	Reference T35 Wikidata:NULL	нет данных
+N25	Reference T4 Wikidata:Q2923079	
+N1	Reference T5 Wikidata:Q142	Франция
+N13	Reference T39 Wikidata:NULL	нет данных
+N26	Reference T43 Wikidata:Q1587677	
+N23	Reference T7 Wikidata:Q2006045	
+N3	Reference T11 Wikidata:Q159	Россия
+N4	Reference T15 Wikidata:Q2923079	
+N18	Reference T48 Wikidata:Q384593	
+N27	Reference T18 Wikidata:Q3351217	Метцнер, Оливье
+N28	Reference T20 Wikidata:Q6505	Конкорд
+N19	Reference T53 Wikidata:NULL	нет данных
+N29	Reference T56 Wikidata:Q192667	
+N30	Reference T25 Wikidata:Q2971213	
+N9	Reference T29 Wikidata:Q14212	премьер-министр
+N21	Reference T62 Wikidata:Q1587677	
+N31	Reference T36 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N32	Reference T12 Wikidata:Q171428	Роман Аркадьевич Абрамович
+N33	Reference T13 Wikidata:Q131660	Доминик де Вильпен
+N34	Reference T10 Wikidata:Q131660	Доминик де Вильпен
+N35	Reference T33 Wikidata:Q40348	адвокат
+N36	Reference T22 Wikidata:Q40348	адвокат
+N37	Reference T27 Wikidata:Q40348	адвокат
+N38	Reference T54 Wikidata:Q183318	диктатор
+N39	Reference T60 Wikidata:Q35535	полиция
+N40	Reference T3 Wikidata:Q2923079	
+N41	Reference T63 Wikidata:Q142	Франция
+N42	Reference T45 Wikidata:Q142	Франция
+N43	Reference T16 Wikidata:Q2923079	
+N44	Reference T32 Wikidata:Q3351217	Метцнер, Оливье
+N45	Reference T23 Wikidata:Q3351217	Метцнер, Оливье
+N46	Reference T2 Wikidata:Q192667	
+N47	Reference T8 Wikidata:Q192667	

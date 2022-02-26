@@ -1,0 +1,113 @@
+T1	ORGANIZATION 0 8	Госстрой
+T3	PERSON 19 28	В.Токарев
+T4	PROFESSION 52 73	руководителя Госстроя
+T5	ORGANIZATION 65 73	Госстроя
+T6	PERSON 74 90	Владимира Когана
+T7	PROFESSION 121 164	заместитель министра регионального развития
+T8	PERSON 165 181	Владимир Токарев
+T9	ORGANIZATION 208 216	Известия
+T10	ORGANIZATION 350 358	Известий
+T11	PROFESSION 378 392	главы Госстроя
+T12	PERSON 393 403	В.Токарева
+T13	PERSON 439 452	Игорь Слюняев
+T14	PROFESSION 601 622	руководителя Госстроя
+T15	PERSON 632 653	Александра Бравермана
+T16	DATE 655 662	в 1999г
+T17	PROFESSION 779 798	первый вице-премьер
+T18	PROFESSION 826 840	глава Госстроя
+T19	PERSON 841 855	Владимир Коган
+T20	DATE 873 884	месяц назад
+T21	PROFESSION 886 903	И.о. руководителя
+T22	CITY 917 930	нижегородский
+T23	PERSON 941 953	Игорь Донато
+T24	DATE 993 1009	несколько недель
+T25	PERSON 1046 1064	Владимиру Токареву
+T26	AGE 1065 1071	35 лет
+T27	DATE 1073 1091	В апреле-мае 2012г
+T2	PROFESSION 133 164	министра регионального развития
+T28	COUNTRY 319 321	РФ
+T29	ORGANIZATION 384 392	Госстроя
+T30	ORGANIZATION 614 622	Госстроя
+T31	PROFESSION 689 707	главы Минимущества
+T32	ORGANIZATION 695 707	Минимущества
+T33	PROFESSION 727 736	чиновника
+T34	PROFESSION 786 798	вице-премьер
+T35	PERSON 799 812	Игорь Шувалов
+T36	ORGANIZATION 832 840	Госстроя
+T37	PROFESSION 1117 1140	главы Минрегионразвития
+T38	ORGANIZATION 1123 1140	Минрегионразвития
+R1	WORKS_AS Arg1:T6 Arg2:T4	
+R2	WORKPLACE Arg1:T6 Arg2:T5	
+T39	PROFESSION 133 141	министра
+R3	WORKS_AS Arg1:T8 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R5	ALTERNATIVE_NAME Arg1:T4 Arg2:T11	
+R6	ALTERNATIVE_NAME Arg1:T8 Arg2:T12	
+R7	SUBORDINATE_OF Arg1:T12 Arg2:T13	
+R8	WORKS_AS Arg1:T15 Arg2:T31	
+R9	WORKPLACE Arg1:T15 Arg2:T32	
+R10	WORKS_AS Arg1:T15 Arg2:T33	
+R11	WORKS_AS Arg1:T35 Arg2:T17	
+T40	EVENT 856 872	подал в отставку
+R12	WORKS_AS Arg1:T19 Arg2:T18	
+R13	WORKPLACE Arg1:T19 Arg2:T36	
+R14	AGENT Arg1:T19 Arg2:T40	
+R15	POINT_IN_TIME Arg1:T40 Arg2:T20	
+T41	IDEOLOGY 931 940	единоросс
+R16	AGE_IS Arg1:T25 Arg2:T26	
+R17	WORKS_AS Arg1:T25 Arg2:T37	
+R18	ABBREVIATION Arg1:T25 Arg2:T38	
+R20	WORKPLACE Arg1:T21 Arg2:T36	
+R21	IDEOLOGY_OF Arg1:T23 Arg2:T41	
+R22	ORIGINS_FROM Arg1:T23 Arg2:T22	
+R23	WORKS_AS Arg1:T23 Arg2:T21	
+R24	WORKPLACE Arg1:T23 Arg2:T36	
+R25	WORKPLACE Arg1:T4 Arg2:T5	
+R26	SUBORDINATE_OF Arg1:T8 Arg2:T2	
+R27	SUBORDINATE_OF Arg1:T7 Arg2:T2	
+R28	WORKPLACE Arg1:T11 Arg2:T29	
+R29	ALTERNATIVE_NAME Arg1:T4 Arg2:T11	
+R30	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R31	WORKPLACE Arg1:T14 Arg2:T30	
+R32	WORKPLACE Arg1:T31 Arg2:T32	
+R19	WORKPLACE Arg1:T18 Arg2:T36	
+R33	WORKPLACE Arg1:T3 Arg2:T1	
+R34	HEADQUARTERED_IN Arg1:T5 Arg2:T28	
+R35	WORKPLACE Arg1:T37 Arg2:T38	
+T42	EVENT 9 18	возглавит
+R36	AGENT Arg1:T3 Arg2:T42	
+R37	PARTICIPANT_IN Arg1:T1 Arg2:T42	
+N1	Reference T5 Wikidata:Q7369930	Федеральное агентство по строительству и жилищно-коммунальному хозяйству
+N2	Reference T6 Wikidata:Q4225980	Коган, Владимир Игоревич
+N3	Reference T10 Wikidata:Q753932	Известия
+N5	Reference T13 Wikidata:Q4424147	Албин, Игорь Николаевич
+N6	Reference T15 Wikidata:Q4095597	Браверман, Александр Арнольдович
+N10	Reference T28 Wikidata:Q159	Россия
+N12	Reference T33 Wikidata:Q382887	чиновник
+N13	Reference T34 Wikidata:Q877955	вице-премьер
+N14	Reference T35 Wikidata:Q1396860	Игорь Иванович Шувалов
+N17	Reference T39 Wikidata:Q83307	министр
+N18	Reference T2 Wikidata:NULL	нет данных
+N19	Reference T7 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:Q4459465	
+N11	Reference T31 Wikidata:NULL	нет данных
+N20	Reference T32 Wikidata:Q1659060	Федеральное агентство по управлению государственным имуществом
+N21	Reference T17 Wikidata:NULL	нет данных
+N7	Reference T18 Wikidata:NULL	нет данных
+N22	Reference T21 Wikidata:NULL	нет данных
+N9	Reference T23 Wikidata:NULL	нет данных
+N8	Reference T22 Wikidata:Q891	Нижний Новгород
+N16	Reference T38 Wikidata:Q1961573	Министерство регионального развития Российской Федерации
+N15	Reference T37 Wikidata:NULL	нет данных
+N23	Reference T36 Wikidata:Q7369930	Федеральное агентство по строительству и жилищно-коммунальному хозяйству
+N24	Reference T30 Wikidata:Q7369930	Федеральное агентство по строительству и жилищно-коммунальному хозяйству
+N25	Reference T29 Wikidata:Q7369930	Федеральное агентство по строительству и жилищно-коммунальному хозяйству
+N26	Reference T1 Wikidata:Q7369930	Федеральное агентство по строительству и жилищно-коммунальному хозяйству
+N27	Reference T19 Wikidata:Q4225980	Коган, Владимир Игоревич
+N28	Reference T9 Wikidata:Q753932	Известия
+N29	Reference T8 Wikidata:Q4459465	
+N30	Reference T3 Wikidata:Q4459465	
+N31	Reference T25 Wikidata:Q4459465	
+N32	Reference T4 Wikidata:NULL	нет данных
+N33	Reference T14 Wikidata:NULL	нет данных
+N34	Reference T11 Wikidata:NULL	нет данных

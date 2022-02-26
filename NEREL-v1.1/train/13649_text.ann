@@ -1,0 +1,179 @@
+T1	ORGANIZATION 21 24	НБА
+T2	PERSON 33 44	Деррик Роуз
+T3	PERSON 59 70	Деррик Роуз
+T4	ORGANIZATION 82 95	Chicago Bulls
+T5	ORGANIZATION 125 162	Национальной баскетбольной ассоциации
+T6	ORGANIZATION 164 167	НБА
+T7	DATE 186 200	2010—2011 года
+T8	AGE 203 212	22-летний
+T9	PERSON 213 217	Роуз
+T10	ORGANIZATION 245 248	НБА
+T11	ORDINAL 286 292	первым
+T12	ORGANIZATION 301 314	Chicago Bulls
+T13	DATE 355 366	в 1998 году
+T14	PERSON 379 392	Майкл Джордан
+T15	ORDINAL 421 426	пятый
+T17	PERSON 445 449	Роуз
+T18	CITY 456 465	чикагскую
+T19	NUMBER 500 502	62
+T20	NUMBER 512 514	82
+T21	ORGANIZATION 550 553	НБА
+T22	NUMBER 576 584	25 очков
+T23	NUMBER 601 604	7,7
+T24	ORGANIZATION 716 719	НБА
+T25	NUMBER 722 725	113
+T26	PERSON 858 863	Роуза
+T27	ORDINAL 867 873	первое
+T28	ORDINAL 884 890	втором
+T29	PERSON 906 918	Дуайт Ховард
+T30	ORGANIZATION 930 943	Orlando Magic
+T31	PERSON 945 958	Леброн Джеймс
+T32	ORGANIZATION 962 972	Miami Heat
+T33	DATE 1009 1034	в двух предыдущих сезонах
+T34	ORDINAL 1045 1051	третье
+T35	ORDINAL 1059 1068	Четвертым
+T36	PERSON 1074 1086	Коби Брайант
+T38	ORGANIZATION 1090 1108	Los Angeles Lakers
+T39	PERSON 1122 1127	Роуза
+T40	DATE 1160 1180	через несколько дней
+T41	PROFESSION 1197 1225	главный тренер Chicago Bulls
+T42	ORGANIZATION 1212 1225	Chicago Bulls
+T43	PERSON 1226 1236	Том Тибодо
+T44	AWARD 1249 1262	тренером года
+T45	DATE 1265 1272	В среду
+T46	ORGANIZATION 1273 1286	Chicago Bulls
+T47	ORGANIZATION 1318 1331	Atlanta Hawks
+T48	NUMBER 1359 1366	четырех
+T49	ORGANIZATION 1373 1398	Восточной конференции НБА
+T50	NUMBER 1444 1445	1
+T52	ORGANIZATION 1457 1470	Atlanta Hawks
+T51	ORGANIZATION 1395 1398	НБА
+T53	AWARD 1128 1148	самым ценным игроком
+T54	CITY 1090 1101	Los Angeles
+T37	AWARD 988 1008	самым ценным игроком
+T55	PROFESSION 726 748	спортивных журналистов
+T56	PROFESSION 46 58	Баскетболист
+T57	AWARD 104 124	самым ценным игроком
+T16	PROFESSION 13 24	игроком НБА
+R1	WORKS_AS Arg1:T2 Arg2:T16	
+R2	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R3	WORKS_AS Arg1:T3 Arg2:T56	
+R4	AGE_IS Arg1:T9 Arg2:T8	
+R5	WORKPLACE Arg1:T9 Arg2:T10	
+R6	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R7	WORKPLACE Arg1:T16 Arg2:T1	
+R8	WORKPLACE Arg1:T29 Arg2:T30	
+R9	HEADQUARTERED_IN Arg1:T38 Arg2:T54	
+R10	WORKPLACE Arg1:T36 Arg2:T38	
+R11	WORKPLACE Arg1:T31 Arg2:T32	
+R12	WORKPLACE Arg1:T3 Arg2:T4	
+R13	WORKPLACE Arg1:T9 Arg2:T12	
+R14	WORKPLACE Arg1:T14 Arg2:T12	
+T58	CITY 82 89	Chicago
+R15	HEADQUARTERED_IN Arg1:T4 Arg2:T58	
+R16	WORKPLACE Arg1:T14 Arg2:T12	
+T59	CITY 301 308	Chicago
+R17	HEADQUARTERED_IN Arg1:T12 Arg2:T59	
+T60	ORGANIZATION 456 473	чикагскую команду
+R18	HEADQUARTERED_IN Arg1:T60 Arg2:T18	
+R19	ALTERNATIVE_NAME Arg1:T12 Arg2:T60	
+R20	WORKPLACE Arg1:T17 Arg2:T60	
+T61	PROFESSION 1197 1211	главный тренер
+T62	PROFESSION 1205 1211	тренер
+R21	WORKPLACE Arg1:T41 Arg2:T42	
+R22	WORKS_AS Arg1:T43 Arg2:T41	
+R23	WORKPLACE Arg1:T43 Arg2:T42	
+T63	CITY 1212 1219	Chicago
+R24	HEADQUARTERED_IN Arg1:T42 Arg2:T63	
+R25	AWARDED_WITH Arg1:T43 Arg2:T44	
+T64	CITY 1318 1325	Atlanta
+R26	HEADQUARTERED_IN Arg1:T47 Arg2:T64	
+T65	CITY 1273 1280	Chicago
+R27	HEADQUARTERED_IN Arg1:T46 Arg2:T65	
+T66	CITY 1457 1464	Atlanta
+R28	HEADQUARTERED_IN Arg1:T52 Arg2:T66	
+T67	AWARD 0 24	Самым ценным игроком НБА
+R30	AWARDED_WITH Arg1:T2 Arg2:T67	
+R31	WORKPLACE Arg1:T56 Arg2:T4	
+T68	AWARD 104 162	самым ценным игроком Национальной баскетбольной ассоциации
+R32	AWARDED_WITH Arg1:T3 Arg2:T68	
+T69	PROFESSION 237 248	игроком НБА
+R33	WORKS_AS Arg1:T9 Arg2:T69	
+R34	AWARDED_WITH Arg1:T14 Arg2:T68	
+R35	MEMBER_OF Arg1:T4 Arg2:T5	
+R36	MEMBER_OF Arg1:T60 Arg2:T21	
+T70	PROFESSION 708 719	игроком НБА
+T71	AWARD 701 719	ценным игроком НБА
+R37	AWARDED_WITH Arg1:T31 Arg2:T37	
+R38	AWARDED_WITH Arg1:T39 Arg2:T53	
+R39	MEMBER_OF Arg1:T47 Arg2:T51	
+R40	MEMBER_OF Arg1:T46 Arg2:T51	
+R41	WORKPLACE Arg1:T69 Arg2:T10	
+R42	PRODUCES Arg1:T5 Arg2:T68	
+R43	POINT_IN_TIME Arg1:T68 Arg2:T7	
+R44	ABBREVIATION Arg1:T70 Arg2:T24	
+R45	ALTERNATIVE_NAME Arg1:T17 Arg2:T26	
+T72	CITY 962 967	Miami
+R46	HEADQUARTERED_IN Arg1:T32 Arg2:T72	
+T73	EVENT 1344 1349	матче
+R47	PARTICIPANT_IN Arg1:T46 Arg2:T73	
+R48	PARTICIPANT_IN Arg1:T47 Arg2:T73	
+R50	POINT_IN_TIME Arg1:T73 Arg2:T45	
+R29	PART_OF Arg1:T49 Arg2:T51	
+T74	ORGANIZATION 1373 1394	Восточной конференции
+R49	ORGANIZES Arg1:T49 Arg2:T73	
+T75	NUMBER 1446 1447	0
+N1	Reference T14 Wikidata:Q41421	Майкл Джордан
+N3	Reference T29 Wikidata:Q25278	Ховард, Дуайт
+N4	Reference T30 Wikidata:Q161337	Орландо Мэджик
+N5	Reference T31 Wikidata:Q36159	Леброн Джеймс
+N6	Reference T32 Wikidata:Q169138	Майами Хит
+N7	Reference T36 Wikidata:Q25369	Коби Брайант
+N8	Reference T38 Wikidata:Q121783	Лос-Анджелес Лейкерс
+N10	Reference T42 Wikidata:Q128109	Чикаго Буллз
+N11	Reference T43 Wikidata:Q586579	Тибодо, Том
+N12	Reference T44 Wikidata:Q918054	Тренер года НБА
+N13	Reference T47 Wikidata:Q159893	Атланта Хокс
+N15	Reference T51 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N17	Reference T37 Wikidata:Q222047	Самый ценный игрок НБА
+N18	Reference T62 Wikidata:Q41583	тренер
+N21	Reference T67 Wikidata:Q222047	Самый ценный игрок НБА
+N22	Reference T68 Wikidata:Q222047	Самый ценный игрок НБА
+N24	Reference T71 Wikidata:Q222047	Самый ценный игрок НБА
+N27	Reference T56 Wikidata:Q3665646	
+N28	Reference T9 Wikidata:Q205326	
+N23	Reference T69 Wikidata:NULL	нет данных
+N2	Reference T18 Wikidata:Q1297	Чикаго
+N29	Reference T55 Wikidata:Q13219447	
+N30	Reference T26 Wikidata:Q205326	
+N25	Reference T72 Wikidata:Q8652	Майами
+N16	Reference T54 Wikidata:Q65	Лос-Анджелес
+N31	Reference T61 Wikidata:Q3246315	
+N9	Reference T41 Wikidata:NULL	нет данных
+N20	Reference T65 Wikidata:Q1297	Чикаго
+N19	Reference T64 Wikidata:Q23556	Атланта
+N14	Reference T49 Wikidata:Q238240	Восточная конференция
+N26	Reference T74 Wikidata:Q238240	Восточная конференция
+N32	Reference T12 Wikidata:Q128109	Чикаго Буллз
+N33	Reference T46 Wikidata:Q128109	Чикаго Буллз
+N34	Reference T4 Wikidata:Q128109	Чикаго Буллз
+N35	Reference T60 Wikidata:Q128109	Чикаго Буллз
+N36	Reference T52 Wikidata:Q159893	Атланта Хокс
+N37	Reference T10 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N38	Reference T5 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N39	Reference T24 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N40	Reference T6 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N41	Reference T1 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N42	Reference T21 Wikidata:Q155223	Национальная баскетбольная ассоциация
+N43	Reference T57 Wikidata:Q222047	Самый ценный игрок НБА
+N44	Reference T53 Wikidata:Q222047	Самый ценный игрок НБА
+N45	Reference T2 Wikidata:Q205326	
+N46	Reference T3 Wikidata:Q205326	
+N47	Reference T70 Wikidata:NULL	нет данных
+N48	Reference T16 Wikidata:NULL	нет данных
+N49	Reference T39 Wikidata:Q205326	
+N50	Reference T17 Wikidata:Q205326	
+N51	Reference T63 Wikidata:Q1297	Чикаго
+N52	Reference T59 Wikidata:Q1297	Чикаго
+N53	Reference T58 Wikidata:Q1297	Чикаго
+N54	Reference T66 Wikidata:Q23556	Атланта

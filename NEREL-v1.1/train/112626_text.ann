@@ -1,0 +1,239 @@
+T1	PROFESSION 0 22	Президент Азербайджана
+T2	COUNTRY 10 22	Азербайджана
+T3	PERSON 23 35	Ильхам Алиев
+T4	PERSON 55 63	Мехрибан
+T5	PROFESSION 64 87	первым вице-президентом
+T6	PERSON 89 104	Мехрибан Алиева
+T7	PROFESSION 105 127	Президент Азербайджана
+T8	COUNTRY 115 127	Азербайджана
+T9	PERSON 128 140	Ильхам Алиев
+T10	PERSON 163 178	Мехрибан Алиеву
+T11	PROFESSION 186 202	вице-президентом
+T13	LAW 283 294	конституции
+T14	COUNTRY 295 307	Азербайджана
+T15	PROFESSION 309 330	первый вице-президент
+T16	DATE 425 445	В сентябре 2016 года
+T17	COUNTRY 448 460	Азербайджане
+T18	LAW 501 512	конституцию
+T19	PROFESSION 555 565	президента
+T20	DATE 577 583	с пяти
+T21	DATE 584 595	до семи лет
+T22	PROFESSION 617 633	вице-президентов
+T23	AGE 683 696	моложе 35 лет
+T24	PERSON 707 713	Алиева
+T25	PROFESSION 800 823	первого вице-президента
+T26	PERSON 838 845	Алиевой
+T27	PERSON 861 876	Мехрибан Алиева
+T28	DATE 886 906	26 августа 1964 года
+T29	CITY 909 913	Баку
+T30	DATE 916 927	В 1982 году
+T32	CITY 963 967	Баку
+T33	DATE 970 981	В 1988 году
+T34	ORDINAL 1011 1017	Первый
+T35	ORGANIZATION 1011 1040	Первый московский мединститут
+T36	PERSON 1072 1086	Ильхама Алиева
+T37	DATE 1087 1107	22 декабря 1983 года
+T38	DATE 1140 1158	с 1988 по 1992 год
+T39	ORGANIZATION 1170 1232	Московском научно-исследовательском институте глазных болезней
+T40	PROFESSION 1250 1259	академика
+T42	PERSON 1260 1274	М. М. Краснова
+T43	DATE 1277 1288	В 1995 году
+T44	ORGANIZATION 1335 1363	Друзья культуры Азербайджана
+T45	DATE 1366 1382	В следующем году
+T46	ORGANIZATION 1423 1444	Наследие Азербайджана
+T47	LANGUAGE 1460 1475	азербайджанском
+T48	LANGUAGE 1477 1484	русском
+T49	LANGUAGE 1487 1497	английском
+T50	DATE 1531 1542	С 2005 года
+T51	PROFESSION 1543 1550	депутат
+T52	ORGANIZATION 1551 1565	Милли Меджлиса
+T53	COUNTRY 1566 1592	Азербайджанской Республики
+T54	ORGANIZATION 1604 1621	Новый Азербайджан
+T56	NUMBER 1646 1649	две
+T57	AGE 1658 1667	32-летняя
+T58	PERSON 1668 1673	Лейла
+T59	AGE 1676 1685	30-летняя
+T60	PERSON 1686 1690	Арзу
+T61	AGE 1694 1703	20-летний
+T62	PERSON 1708 1714	Гейдар
+T63	PERSON 1717 1729	Ильхам Алиев
+T64	DATE 1746 1757	в 2003 году
+T65	PERSON 1787 1801	Гейдара Алиева
+T66	COUNTRY 1826 1838	Азербайджана
+T67	PROFESSION 1851 1866	лидер Компартии
+T68	ORGANIZATION 1857 1866	Компартии
+T69	DATE 1872 1892	постсоветский период
+T70	PROFESSION 1899 1919	президент республики
+R2	WORKS_AS Arg1:T4 Arg2:T5
+R3	WORKS_AS Arg1:T9 Arg2:T7
+R4	WORKS_AS Arg1:T10 Arg2:T81
+R16	SIBLING Arg1:T58 Arg2:T62
+R17	AGE_IS Arg1:T60 Arg2:T59
+R19	AGE_IS Arg1:T62 Arg2:T61
+R20	PARENT_OF Arg1:T65 Arg2:T63
+R22	WORKS_AS Arg1:T65 Arg2:T67
+R1	SPOUSE Arg1:T3 Arg2:T4	
+R23	SPOUSE Arg1:T9 Arg2:T10	
+T71	PROFESSION 356 373	главы государства
+T72	EVENT 468 478	референдум
+T73	PROFESSION 637 655	главой государства
+R5	DATE_OF_BIRTH Arg1:T27 Arg2:T28	
+T41	PROFESSION 1518 1528	редактором
+R6	AGE_IS Arg1:T58 Arg2:T57	
+R7	SIBLING Arg1:T58 Arg2:T60	
+R8	SIBLING Arg1:T60 Arg2:T62	
+R9	WORKS_AS Arg1:T65 Arg2:T70	
+T55	LAW 283 307	конституции Азербайджана
+T31	COUNTRY 1351 1363	Азербайджана
+T75	COUNTRY 1432 1444	Азербайджана
+T76	COUNTRY 1610 1621	Азербайджан
+T77	COUNTRY 243 271	азербайджанского государства
+T78	PROFESSION 71 87	вице-президентом
+T79	PROFESSION 0 9	Президент
+T80	PROFESSION 105 114	Президент
+T81	PROFESSION 179 213	первым вице-президентом республики
+T82	PROFESSION 179 202	первым вице-президентом
+R10	WORKS_AS Arg1:T26 Arg2:T25	
+R11	PLACE_OF_BIRTH Arg1:T27 Arg2:T29	
+T84	PROFESSION 1899 1908	президент
+T85	PROFESSION 237 271	главы азербайджанского государства
+T86	PROFESSION 316 330	вице-президент
+T87	EVENT 36 44	назначил
+R12	AGENT Arg1:T3 Arg2:T87	
+R13	PARTICIPANT_IN Arg1:T4 Arg2:T87	
+R14	WORKS_AS Arg1:T3 Arg2:T1	
+T88	EVENT 141 149	назначил
+R15	AGENT Arg1:T9 Arg2:T88	
+R18	PARTICIPANT_IN Arg1:T10 Arg2:T88	
+R21	TAKES_PLACE_IN Arg1:T72 Arg2:T17	
+R24	POINT_IN_TIME Arg1:T72 Arg2:T16	
+R25	SCHOOLS_ATTENDED Arg1:T27 Arg2:T35	
+R26	WORKS_AS Arg1:T42 Arg2:T40	
+R27	WORKPLACE Arg1:T42 Arg2:T39	
+R28	MEMBER_OF Arg1:T65 Arg2:T68	
+R29	WORKPLACE Arg1:T3 Arg2:T2	
+R30	WORKPLACE Arg1:T9 Arg2:T8	
+R31	PLACE_RESIDES_IN Arg1:T27 Arg2:T32	
+R32	WORKPLACE Arg1:T27 Arg2:T39	
+R33	FOUNDED_BY Arg1:T44 Arg2:T27	
+R34	WORKPLACE Arg1:T1 Arg2:T2	
+R35	ALTERNATIVE_NAME Arg1:T4 Arg2:T6	
+R36	WORKPLACE Arg1:T7 Arg2:T8	
+R37	WORKPLACE Arg1:T81 Arg2:T8	
+R38	WORKPLACE Arg1:T85 Arg2:T77	
+R39	ALTERNATIVE_NAME Arg1:T77 Arg2:T8	
+R40	ORIGINS_FROM Arg1:T55 Arg2:T14	
+R41	ORIGINS_FROM Arg1:T18 Arg2:T17	
+R42	ALTERNATIVE_NAME Arg1:T9 Arg2:T24	
+R43	ALTERNATIVE_NAME Arg1:T10 Arg2:T26	
+T12	AWARD 939 954	золотой медалью
+R44	AWARDED_WITH Arg1:T27 Arg2:T12	
+T74	CITY 1170 1180	Московском
+R45	HEADQUARTERED_IN Arg1:T39 Arg2:T74	
+R46	FOUNDED_BY Arg1:T46 Arg2:T27	
+R47	WORKPLACE Arg1:T41 Arg2:T46	
+R48	WORKS_AS Arg1:T27 Arg2:T41	
+R49	HEADQUARTERED_IN Arg1:T54 Arg2:T76	
+R50	WORKPLACE Arg1:T65 Arg2:T66	
+R51	WORKPLACE Arg1:T67 Arg2:T68	
+R52	WORKS_AS Arg1:T63 Arg2:T70	
+R53	WORKPLACE Arg1:T63 Arg2:T66	
+R54	ALTERNATIVE_NAME Arg1:T53 Arg2:T76	
+T83	ORGANIZATION 1551 1592	Милли Меджлиса Азербайджанской Республики
+R55	HEADQUARTERED_IN Arg1:T83 Arg2:T53	
+T89	PROFESSION 1543 1592	депутат Милли Меджлиса Азербайджанской Республики
+R56	WORKPLACE Arg1:T89 Arg2:T83	
+R57	PARENT_OF Arg1:T63 Arg2:T58	
+R58	PARENT_OF Arg1:T63 Arg2:T60	
+R59	PARENT_OF Arg1:T63 Arg2:T62	
+R60	PARENT_OF Arg1:T27 Arg2:T58	
+R61	PARENT_OF Arg1:T27 Arg2:T60	
+R62	PARENT_OF Arg1:T27 Arg2:T62	
+R63	WORKS_AS Arg1:T27 Arg2:T89	
+R64	WORKPLACE Arg1:T27 Arg2:T83	
+R65	HEADQUARTERED_IN Arg1:T44 Arg2:T31	
+R66	HEADQUARTERED_IN Arg1:T46 Arg2:T75	
+R67	INANIMATE_INVOLVED Arg1:T18 Arg2:T72	
+T90	CITY 1018 1028	московский
+R68	HEADQUARTERED_IN Arg1:T35 Arg2:T90	
+N1	Reference T6 Wikidata:Q671930	Мехрибан Ариф кызы Алиева
+N2	Reference T7 Wikidata:Q205602	президент Азербайджана
+N3	Reference T8 Wikidata:Q227	Азербайджан
+N4	Reference T9 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N5	Reference T18 Wikidata:Q7755	конституция
+N9	Reference T29 Wikidata:Q9248	Баку
+N10	Reference T35 Wikidata:Q1962613	Первый Московский государственный медицинский университет имени И. М. Сеченова
+N11	Reference T39 Wikidata:Q19908572	Московский научно-исследовательский институт глазных болезней имени Гельмгольца
+N15	Reference T47 Wikidata:Q9292	азербайджанский язык
+N16	Reference T48 Wikidata:Q7737	русский язык
+N17	Reference T49 Wikidata:Q1860	английский язык
+N18	Reference T51 Wikidata:Q486839	член парламента
+N19	Reference T52 Wikidata:Q330600	Национальное собрание Азербайджана
+N20	Reference T54 Wikidata:Q876402	Новый Азербайджан
+N22	Reference T65 Wikidata:Q157451	Гейдар Алирза оглы Алиев
+N24	Reference T68 Wikidata:Q233591	коммунистическая партия
+N25	Reference T71 Wikidata:Q48352	глава государства
+N26	Reference T41 Wikidata:Q876864	редактор
+N27	Reference T55 Wikidata:Q724228	Конституция Азербайджанской Республики
+N28	Reference T75 Wikidata:Q227	Азербайджан
+N29	Reference T84 Wikidata:Q30461	президент
+N31	Reference T12 Wikidata:Q1971214	школьная медаль
+N6	Reference T22 Wikidata:Q42178	вице-президент
+N8	Reference T26 Wikidata:Q671930	Мехрибан Ариф кызы Алиева
+N32	Reference T74 Wikidata:Q649	Москва
+N34	Reference T40 Wikidata:Q414528	академик
+N12	Reference T42 Wikidata:Q15070428	
+N21	Reference T58 Wikidata:Q298532	
+N35	Reference T60 Wikidata:Q23683242	
+N36	Reference T62 Wikidata:Q106103307	
+N37	Reference T81 Wikidata:Q28812422	
+N30	Reference T85 Wikidata:Q205602	президент Азербайджана
+N7	Reference T25 Wikidata:Q28812422	
+N13	Reference T44 Wikidata:Q15410395	
+N33	Reference T83 Wikidata:Q330600	Национальное собрание Азербайджана
+N38	Reference T89 Wikidata:NULL	нет данных
+N14	Reference T46 Wikidata:NULL	нет данных
+N39	Reference T70 Wikidata:Q30461	президент
+N23	Reference T67 Wikidata:NULL	нет данных
+N40	Reference T4 Wikidata:Q671930	Мехрибан Ариф кызы Алиева
+N41	Reference T1 Wikidata:Q205602	президент Азербайджана
+N42	Reference T77 Wikidata:Q227	Азербайджан
+N43	Reference T3 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N44	Reference T36 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N45	Reference T63 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N46	Reference T24 Wikidata:Q57371	Ильхам Гейдар оглы Алиев
+N47	Reference T13 Wikidata:Q7755	конституция
+N48	Reference T32 Wikidata:Q9248	Баку
+N49	Reference T73 Wikidata:Q48352	глава государства
+N50	Reference T14 Wikidata:Q227	Азербайджан
+N51	Reference T66 Wikidata:Q227	Азербайджан
+N52	Reference T31 Wikidata:Q227	Азербайджан
+N53	Reference T2 Wikidata:Q227	Азербайджан
+N54	Reference T76 Wikidata:Q227	Азербайджан
+N55	Reference T53 Wikidata:Q227	Азербайджан
+N56	Reference T17 Wikidata:Q227	Азербайджан
+N57	Reference T80 Wikidata:Q30461	президент
+N58	Reference T79 Wikidata:Q30461	президент
+N59	Reference T19 Wikidata:Q30461	президент
+N60	Reference T11 Wikidata:Q42178	вице-президент
+N61	Reference T78 Wikidata:Q42178	вице-президент
+N62	Reference T86 Wikidata:Q42178	вице-президент
+N63	Reference T27 Wikidata:Q671930	Мехрибан Ариф кызы Алиева
+N64	Reference T10 Wikidata:Q671930	Мехрибан Ариф кызы Алиева
+N65	Reference T90 Wikidata:Q649	Москва
+N66	Reference T82 Wikidata:Q28812422	
+N67	Reference T5 Wikidata:Q28812422	
+N68	Reference T15 Wikidata:Q28812422	
+T91	EVENT 877 885	родилась
+R69	PARTICIPANT_IN Arg1:T27 Arg2:T91	
+R70	POINT_IN_TIME Arg1:T91 Arg2:T28	
+R71	TAKES_PLACE_IN Arg1:T91 Arg2:T29	
+R72	SPOUSE Arg1:T27 Arg2:T36	
+T92	EVENT 1057 1068	вышла замуж
+R73	AGENT Arg1:T36 Arg2:T92	
+R74	POINT_IN_TIME Arg1:T92 Arg2:T37	
+R75	AGENT Arg1:T27 Arg2:T92	
+T93	EVENT 1730 1745	пришёл к власти
+R76	AGENT Arg1:T63 Arg2:T93	
+R77	POINT_IN_TIME Arg1:T93 Arg2:T64	
+R78	TAKES_PLACE_IN Arg1:T93 Arg2:T66	

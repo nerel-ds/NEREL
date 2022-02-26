@@ -1,0 +1,194 @@
+T1	CITY 2 8	Москве
+T2	AGE 38 46	99-летию
+T3	EVENT 57 77	Первой мировой войны
+T4	DATE 78 97	11 ноября 2017 года
+T5	FACILITY 120 150	Московского Братского кладбища
+T6	DATE 180 204	В этот день 99 лет назад
+T7	EVENT 219 239	Первая мировая война
+T8	DATE 241 267	В эти же дни 100 лет назад
+T9	CITY 270 276	Москве
+T10	FACILITY 313 330	Братском кладбище
+T11	NUMBER 347 361	около 18 тысяч
+T12	EVENT 369 383	Первой мировой
+T13	NUMBER 386 388	37
+T14	CITY 400 411	московского
+T15	ORGANIZATION 520 533	Красной армии
+T16	FACILITY 559 576	Мемориальный парк
+T17	ORGANIZATION 628 710	Общественный совет по увековечению памяти воинов, погребённых на Братском кладбище
+T18	FACILITY 693 710	Братском кладбище
+T19	FACILITY 729 762	храма Всех Святых во Всехсвятском
+T20	CITY 823 834	московского
+T21	FACILITY 892 909	Мемориальный парк
+T22	FACILITY 918 935	Братское кладбище
+T23	PERSON 987 1002	Сергея Шлихтера
+T24	ORGANIZATION 1056 1067	Юнкера МХПИ
+T25	ORGANIZATION 1103 1125	Добровольческий корпус
+T26	ORGANIZATION 1128 1155	Монархическая партия России
+T27	PROFESSION 1188 1197	священник
+T28	PROFESSION 1241 1275	представитель Министерства обороны
+T29	PERSON 1276 1289	Игорь Миронов
+T30	PROFESSION 1291 1326	общественный и политический деятель
+T32	ORGANIZATION 1378 1405	Монархической партии России
+T33	PERSON 1406 1419	Игорь Соболев
+T34	DATE 1467 1480	в тот же день
+T35	EVENT 1516 1536	Первой мировой войны
+T36	FACILITY 1553 1570	Братском кладбище
+T37	ORGANIZATION 1634 1649	Советской армии
+T38	DATE 1769 1779	ХХ-го века
+T39	PROFESSION 1781 1790	генералам
+T40	PERSON 1791 1799	П. Плеве
+T41	PERSON 1801 1814	Г. Мансурадзе
+T42	ORGANIZATION 1715 1728	Русской армии
+T44	EVENT 158 178	траурные мероприятия
+T45	CITY 120 131	Московского
+T46	EVENT 287 308	вооружённое восстание
+T47	ORGANIZATION 454 466	большевиками
+T48	FACILITY 580 597	храма Всех Святых
+T49	EVENT 712 717	Акция
+T52	PROFESSION 796 803	юнкерах
+T53	ORGANIZATION 1255 1275	Министерства обороны
+T54	FACILITY 1198 1215	храма Всех Святых
+T55	PROFESSION 1188 1215	священник храма Всех Святых
+T56	EVENT 1006 1011	акции
+T57	PROFESSION 978 986	студента
+T58	PERSON 1327 1341	Сергей Бабурин
+T59	IDEOLOGY 1378 1391	Монархической
+T60	COUNTRY 1399 1405	России
+T61	PROFESSION 1364 1374	президенты
+T63	PROFESSION 1572 1583	священникам
+T64	PROFESSION 1585 1592	юнкерам
+T65	ORGANIZATION 1610 1625	Белого движения
+T66	PROFESSION 1603 1625	воинам Белого движения
+T67	PROFESSION 1594 1600;1610 1625	вождям Белого движения
+T68	PROFESSION 1627 1649	бойцам Советской армии
+T69	COUNTRY 1634 1643	Советской
+T70	PROFESSION 1652 1662	военспецам
+T71	PROFESSION 1664 1672	солдатам
+T72	PROFESSION 1674 1682	матросам
+T73	PROFESSION 1684 1692	офицерам
+T74	PROFESSION 1694 1703	генералам
+T75	PROFESSION 1705 1714	адмиралам
+T76	ORGANIZATION 1731 1736	Флота
+T77	PROFESSION 1056 1062	Юнкера
+R1	END_TIME Arg1:T7 Arg2:T6	
+R2	ALTERNATIVE_NAME Arg1:T7 Arg2:T12	
+R3	LOCATED_IN Arg1:T5 Arg2:T45	
+R4	TAKES_PLACE_IN Arg1:T46 Arg2:T9	
+R5	POINT_IN_TIME Arg1:T46 Arg2:T8	
+R6	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+T43	EVENT 400 434	московского вооружённого восстания
+R7	TAKES_PLACE_IN Arg1:T43 Arg2:T14	
+T78	PROFESSION 513 533	бойцов Красной армии
+R8	WORKPLACE Arg1:T78 Arg2:T15	
+R9	TAKES_PLACE_IN Arg1:T44 Arg2:T5	
+R10	POINT_IN_TIME Arg1:T44 Arg2:T4	
+R11	ORGANIZES Arg1:T17 Arg2:T44	
+T50	EVENT 823 857	московского вооружённого восстания
+R12	TAKES_PLACE_IN Arg1:T50 Arg2:T20	
+R13	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+T51	COUNTRY 1149 1155	России
+T79	IDEOLOGY 1128 1141	Монархическая
+R14	IDEOLOGY_OF Arg1:T26 Arg2:T79	
+R15	HEADQUARTERED_IN Arg1:T26 Arg2:T51	
+R16	WORKPLACE Arg1:T55 Arg2:T54	
+R17	WORKPLACE Arg1:T28 Arg2:T53	
+R18	WORKS_AS Arg1:T58 Arg2:T30	
+T80	PROFESSION 1306 1326	политический деятель
+R19	MEMBER_OF Arg1:T33 Arg2:T32	
+R20	HEADQUARTERED_IN Arg1:T32 Arg2:T60	
+R21	IDEOLOGY_OF Arg1:T32 Arg2:T59	
+R22	IDEOLOGY_OF Arg1:T33 Arg2:T59	
+R23	WORKS_AS Arg1:T40 Arg2:T39	
+R24	WORKS_AS Arg1:T41 Arg2:T39	
+T31	COUNTRY 1715 1722	Русской
+R25	HEADQUARTERED_IN Arg1:T42 Arg2:T31	
+R26	HEADQUARTERED_IN Arg1:T37 Arg2:T69	
+R27	WORKPLACE Arg1:T68 Arg2:T37	
+R28	WORKS_AS Arg1:T29 Arg2:T28	
+R29	WORKPLACE Arg1:T29 Arg2:T53	
+R30	ALTERNATIVE_NAME Arg1:T1 Arg2:T45	
+R31	HAS_CAUSE Arg1:T44 Arg2:T3	
+T62	PROFESSION 670 676	воинов
+R32	PARTICIPANT_IN Arg1:T52 Arg2:T50	
+R33	PARTICIPANT_IN Arg1:T47 Arg2:T43	
+T81	EVENT 16 21	акция
+R34	TAKES_PLACE_IN Arg1:T81 Arg2:T1	
+R35	HAS_CAUSE Arg1:T81 Arg2:T3	
+R36	ALTERNATIVE_NAME Arg1:T81 Arg2:T44	
+T82	EVENT 546 551	акции
+R37	ALTERNATIVE_NAME Arg1:T44 Arg2:T82	
+R38	TAKES_PLACE_IN Arg1:T82 Arg2:T16	
+R39	TAKES_PLACE_IN Arg1:T82 Arg2:T48	
+R40	LOCATED_IN Arg1:T19 Arg2:T20	
+R41	ALTERNATIVE_NAME Arg1:T82 Arg2:T49	
+R42	TAKES_PLACE_IN Arg1:T49 Arg2:T21	
+R43	ALTERNATIVE_NAME Arg1:T49 Arg2:T56	
+R44	PARTICIPANT_IN Arg1:T24 Arg2:T56	
+R45	PARTICIPANT_IN Arg1:T25 Arg2:T56	
+R46	PARTICIPANT_IN Arg1:T26 Arg2:T56	
+T83	EVENT 1179 1187	панихиду
+R47	SUBEVENT_OF Arg1:T83 Arg2:T56	
+R48	PARTICIPANT_IN Arg1:T55 Arg2:T83	
+R49	PARTICIPANT_IN Arg1:T28 Arg2:T56	
+R50	PARTICIPANT_IN Arg1:T58 Arg2:T56	
+R51	PARTICIPANT_IN Arg1:T33 Arg2:T56	
+N1	Reference T1 Wikidata:Q649	Москва
+N2	Reference T5 Wikidata:Q4290201	Мемориально-парковый комплекс героев Первой мировой войны
+N3	Reference T15 Wikidata:Q251395	Рабоче-крестьянская Красная армия
+N6	Reference T19 Wikidata:Q4500775	Храм Всех Святых во Всехсвятском
+N8	Reference T23 Wikidata:Q15061033	Шлихтер, Сергей Александрович
+N11	Reference T26 Wikidata:Q1771140	Монархическая партия России
+N12	Reference T27 Wikidata:Q42603	священник
+N15	Reference T30 Wikidata:Q662729	общественный деятель
+N17	Reference T37 Wikidata:Q43456	Советская армия
+N20	Reference T42 Wikidata:Q1078222	Русская императорская армия
+N23	Reference T53 Wikidata:Q1146492	Министерство обороны Российской Федерации
+N25	Reference T57 Wikidata:Q3205563	Студент
+N26	Reference T58 Wikidata:Q4074526	Бабурин, Сергей
+N27	Reference T60 Wikidata:Q159	Россия
+N28	Reference T61 Wikidata:Q30461	президент
+N30	Reference T65 Wikidata:Q104309	Белое движение
+N35	Reference T71 Wikidata:Q4427668	Солдаты
+N36	Reference T72 Wikidata:Q707995	матрос
+N37	Reference T73 Wikidata:Q189290	офицер
+N38	Reference T74 Wikidata:Q83460	генерал
+N39	Reference T75 Wikidata:Q132851	адмирал
+N42	Reference T80 Wikidata:Q82955	политик
+N21	Reference T47 Wikidata:Q83372	большевики
+N41	Reference T78 Wikidata:NULL	нет данных
+N4	Reference T16 Wikidata:NULL	нет данных
+N22	Reference T48 Wikidata:Q4500775	Храм Всех Святых во Всехсвятском
+N5	Reference T17 Wikidata:NULL	нет данных
+N44	Reference T62 Wikidata:Q47064	военнослужащий
+N7	Reference T20 Wikidata:Q649	Москва
+N9	Reference T24 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:NULL	нет данных
+N24	Reference T55 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:NULL	нет данных
+N14	Reference T29 Wikidata:NULL	нет данных
+N16	Reference T33 Wikidata:NULL	нет данных
+N29	Reference T64 Wikidata:Q9016673	
+N32	Reference T67 Wikidata:NULL	нет данных
+N31	Reference T66 Wikidata:NULL	нет данных
+N33	Reference T68 Wikidata:NULL	нет данных
+N34	Reference T69 Wikidata:(Q15180	
+N45	Reference T70 Wikidata:NULL	нет данных
+N43	Reference T31 Wikidata:Q159	Россия
+N18	Reference T40 Wikidata:Q1858607	
+N19	Reference T41 Wikidata:NULL	нет данных
+N40	Reference T76 Wikidata:Q583941	
+N46	Reference T45 Wikidata:Q649	Москва
+N47	Reference T32 Wikidata:Q1771140	Монархическая партия России
+N48	Reference T63 Wikidata:Q42603	священник
+N49	Reference T51 Wikidata:Q159	Россия
+N50	Reference T39 Wikidata:Q83460	генерал
+N51	Reference T22 Wikidata:NULL	нет данных
+N52	Reference T10 Wikidata:NULL	нет данных
+N53	Reference T36 Wikidata:NULL	нет данных
+N54	Reference T18 Wikidata:NULL	нет данных
+N55	Reference T21 Wikidata:NULL	нет данных
+N56	Reference T54 Wikidata:Q4500775	Храм Всех Святых во Всехсвятском
+N57	Reference T14 Wikidata:Q649	Москва
+N58	Reference T9 Wikidata:Q649	Москва
+N59	Reference T77 Wikidata:Q9016673	
+N60	Reference T52 Wikidata:Q9016673	

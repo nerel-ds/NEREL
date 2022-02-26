@@ -1,0 +1,163 @@
+T1	DATE 0 23	Первый день Нового года
+T2	CITY 26 31	Киеве
+T3	PERSON 67 74	Бандеры
+T4	PERSON 75 89	Степан Бандера
+T5	EVENT 90 96	Митинг
+T6	PERSON 118 133	Степана Бандеры
+T7	DATE 134 152	1 января 2009 года
+T8	DATE 153 171	1 января 2014 года
+T9	CITY 174 179	Киеве
+T10	NUMBER 186 194	15 тысяч
+T11	EVENT 221 228	шествии
+T12	PERSON 240 255	Степане Бандере
+T13	AGE 272 287	105-й годовщине
+T15	COUNTRY 310 321	украинского
+T16	CITY 415 423	киевской
+T17	DATE 450 457	в среду
+T18	COUNTRY 489 496	Украина
+T19	PERSON 516 523	Бандера
+T20	ORGANIZATION 592 622	Украинской повстанческой армии
+T21	ORGANIZATION 624 627	УПА
+T22	PERSON 656 663	Бандеры
+T23	IDEOLOGY 710 720	нацистской
+T24	COUNTRY 721 730	Германией
+T25	COUNTRY 757 764	Украины
+T27	ORGANIZATION 783 819	Организации украинских националистов
+T28	ORGANIZATION 821 824	ОУН
+T29	DATE 833 845	через 55 лет
+T32	PERSON 865 872	Бандера
+T33	COUNTRY 1002 1018	Советского Союза
+T34	COUNTRY 1023 1033	украинское
+T35	PERSON 1077 1085	Бандерой
+T36	DATE 1086 1127	в тридцатых-сороковых годах прошлого века
+T37	ORGANIZATION 1137 1167	Украинская повстанческая армия
+T38	PERSON 1180 1187	Бандеры
+T39	COUNTRY 1244 1253	советской
+T40	PERSON 1292 1298	Гитлер
+T41	COUNTRY 1306 1313	Украине
+T42	DATE 1330 1348	В январе 2010 года
+T43	DATE 1350 1368	менее чем за месяц
+T44	PROFESSION 1406 1415	президент
+T45	PERSON 1424 1437	Виктор Ющенко
+T46	PERSON 1457 1464	Бандере
+T47	NATIONALITY 1545 1552	русских
+T48	DATE 1597 1615	в январе 2011 года
+T49	DATE 1622 1634	более месяца
+T50	CITY 1637 1642	Киеве
+T51	PROFESSION 1736 1746	президента
+T52	ORGANIZATION 1813 1815	ЕС
+T53	COUNTRY 1845 1852	Россией
+T54	PERSON 1886 1893	Бандеры
+T55	EVENT 1941 1952	Евромайдана
+T56	ORGANIZATION 1990 1997	Свобода
+R2	AGE_IS Arg1:T12 Arg2:T13	
+R3	TAKES_PLACE_IN Arg1:T11 Arg2:T9	
+R4	POINT_IN_TIME Arg1:T5 Arg2:T7	
+R5	ABBREVIATION Arg1:T27 Arg2:T28	
+T14	COUNTRY 795 805	украинских
+T26	COUNTRY 592 602	Украинской
+R6	MEMBER_OF Arg1:T22 Arg2:T27	
+T30	COUNTRY 1137 1147	Украинская
+R7	PARTICIPANT_IN Arg1:T56 Arg2:T55	
+T31	PERSON 1747 1764	Виктора Януковича
+T57	NATIONALITY 1533 1542	еврейских
+T58	COUNTRY 1416 1423	Украины
+T59	PROFESSION 1406 1423	президент Украины
+R8	WORKS_AS Arg1:T45 Arg2:T59	
+T60	AWARD 1472 1485	Героя Украины
+R9	AWARDED_WITH Arg1:T46 Arg2:T60	
+T61	COUNTRY 1478 1485	Украины
+R10	ORIGINS_FROM Arg1:T12 Arg2:T15	
+T62	EVENT 424 429	акции
+R11	TAKES_PLACE_IN Arg1:T62 Arg2:T16	
+R12	POINT_IN_TIME Arg1:T62 Arg2:T17	
+T63	ORGANIZATION 1244 1259	советской армии
+R13	WORKS_AS Arg1:T31 Arg2:T51	
+T64	EVENT 1869 1876	шествия
+R14	ORGANIZES Arg1:T56 Arg2:T64	
+T65	EVENT 40 66	празднованием дня рождения
+R15	TAKES_PLACE_IN Arg1:T65 Arg2:T2	
+R16	POINT_IN_TIME Arg1:T65 Arg2:T1	
+R17	POINT_IN_TIME Arg1:T11 Arg2:T8	
+T66	IDEOLOGY 322 341	националистического
+R18	IDEOLOGY_OF Arg1:T12 Arg2:T66	
+T67	ORGANIZATION 1023 1061	украинское националистическое движение
+R1	MEMBER_OF Arg1:T35 Arg2:T67	
+T68	EVENT 1448 1456;1465 1471	присвоил звание
+R19	WORKPLACE Arg1:T45 Arg2:T58	
+R20	PARTICIPANT_IN Arg1:T45 Arg2:T68	
+R21	POINT_IN_TIME Arg1:T68 Arg2:T42	
+T69	EVENT 1652 1675	массовые акции протеста
+R22	TAKES_PLACE_IN Arg1:T69 Arg2:T50	
+R23	IDEOLOGY_OF Arg1:T24 Arg2:T23	
+R24	ABBREVIATION Arg1:T20 Arg2:T21	
+R25	HEADQUARTERED_IN Arg1:T20 Arg2:T26	
+R26	ALTERNATIVE_NAME Arg1:T18 Arg2:T26	
+R27	ALTERNATIVE_NAME Arg1:T3 Arg2:T4	
+R28	ALTERNATIVE_NAME Arg1:T12 Arg2:T19	
+R29	HEADQUARTERED_IN Arg1:T27 Arg2:T14	
+R30	HEADQUARTERED_IN Arg1:T67 Arg2:T34	
+R31	ALTERNATIVE_NAME Arg1:T27 Arg2:T67	
+R32	HEADQUARTERED_IN Arg1:T37 Arg2:T30	
+T70	IDEOLOGY 1218 1227	нацистами
+R33	ALTERNATIVE_NAME Arg1:T23 Arg2:T70	
+R34	HEADQUARTERED_IN Arg1:T63 Arg2:T39	
+R35	IDEOLOGY_OF Arg1:T40 Arg2:T70	
+R36	WORKPLACE Arg1:T59 Arg2:T58	
+T71	IDEOLOGY 1688 1702	евроинтеграции
+R37	ORIGINS_FROM Arg1:T60 Arg2:T61	
+R38	INANIMATE_INVOLVED Arg1:T3 Arg2:T65	
+R39	INANIMATE_INVOLVED Arg1:T6 Arg2:T5	
+R40	INANIMATE_INVOLVED Arg1:T12 Arg2:T11	
+R41	INANIMATE_INVOLVED Arg1:T46 Arg2:T68	
+R42	AGENT Arg1:T45 Arg2:T68	
+R43	IDEOLOGY_OF Arg1:T69 Arg2:T71	
+R44	INANIMATE_INVOLVED Arg1:T54 Arg2:T64	
+T72	EVENT 40 53	празднованием
+N1	Reference T4 Wikidata:Q157280	Степан Бандера
+N3	Reference T24 Wikidata:Q183	Германия
+N4	Reference T27 Wikidata:Q844787	Организация украинских националистов
+N5	Reference T33 Wikidata:Q15180	СССР
+N7	Reference T37 Wikidata:Q737212	Украинская повстанческая армия
+N9	Reference T40 Wikidata:Q352	Адольф Гитлер
+N10	Reference T44 Wikidata:Q30461	президент
+N11	Reference T45 Wikidata:Q1459699	Виктор Андреевич Ющенко
+N12	Reference T46 Wikidata:Q108367	Бандьера
+N14	Reference T50 Wikidata:Q1899	Киев
+N15	Reference T52 Wikidata:Q458	Европейский союз
+N16	Reference T53 Wikidata:Q159	Россия
+N19	Reference T31 Wikidata:Q1459658	Виктор Фёдорович Янукович
+N21	Reference T59 Wikidata:Q579677	президент Украины
+N22	Reference T60 Wikidata:Q1358055	Герой Украины
+N23	Reference T63 Wikidata:Q43456	Советская армия
+N2	Reference T16 Wikidata:Q1899	Киев
+N6	Reference T35 Wikidata:Q157280	Степан Бандера
+N17	Reference T56 Wikidata:Q4396	Всеукраинское объединение «Свобода»
+N20	Reference T57 Wikidata:Q7325	евреи
+N13	Reference T47 Wikidata:Q49542	русские
+N8	Reference T39 Wikidata:Q15180	СССР
+N18	Reference T30 Wikidata:Q212	Украина
+N24	Reference T3 Wikidata:Q157280	Степан Бандера
+N25	Reference T67 Wikidata:Q844787	Организация украинских националистов
+N26	Reference T28 Wikidata:Q844787	Организация украинских националистов
+N27	Reference T21 Wikidata:Q737212	Украинская повстанческая армия
+N28	Reference T20 Wikidata:Q737212	Украинская повстанческая армия
+N29	Reference T51 Wikidata:Q30461	президент
+N30	Reference T22 Wikidata:Q108367	Бандьера
+N31	Reference T38 Wikidata:Q108367	Бандьера
+N32	Reference T19 Wikidata:Q108367	Бандьера
+N33	Reference T54 Wikidata:Q108367	Бандьера
+N34	Reference T12 Wikidata:Q108367	Бандьера
+N35	Reference T32 Wikidata:Q108367	Бандьера
+N36	Reference T6 Wikidata:Q108367	Бандьера
+N37	Reference T2 Wikidata:Q1899	Киев
+N38	Reference T9 Wikidata:Q1899	Киев
+N39	Reference T25 Wikidata:Q212	Украина
+N40	Reference T14 Wikidata:Q212	Украина
+N41	Reference T61 Wikidata:Q212	Украина
+N42	Reference T58 Wikidata:Q212	Украина
+N43	Reference T41 Wikidata:Q212	Украина
+N44	Reference T18 Wikidata:Q212	Украина
+N45	Reference T26 Wikidata:Q212	Украина
+N46	Reference T15 Wikidata:Q212	Украина
+N47	Reference T34 Wikidata:Q212	Украина

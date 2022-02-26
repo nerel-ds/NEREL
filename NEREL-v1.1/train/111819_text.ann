@@ -1,0 +1,39 @@
+T1	ORGANIZATION 2 18	Роспотребнадзоре
+T2	NATIONALITY 36 43	россиян
+T3	ORGANIZATION 128 144	Роспотребнадзоре
+T4	NATIONALITY 167 174	россиян
+T5	LAW 259 268	Кодекс РФ
+T6	COUNTRY 266 268	РФ
+T8	LAW 308 390	статью о реализации, хранении и транспортировании запрещённых к ввозу в РФ товаров
+T9	COUNTRY 380 382	РФ
+T10	MONEY 452 468	100 тысяч рублей
+T11	MONEY 604 623	от 3 до 5 тыс. руб.
+T12	MONEY 677 703	от 30 тыс. до 50 тыс. руб.
+T13	MONEY 723 749	от 70 тыс. до 100 тыс. руб
+T14	LAW 259 304	Кодекс РФ об административных правонарушениях
+T7	CRIME 47 89	хранение и перевозку санкционных продуктов
+T15	CRIME 178 220	хранение и перевозку санкционных продуктов
+T16	PENALTY 804 837	конфискации санкционной продукции
+R1	ORIGINS_FROM Arg1:T5 Arg2:T6	
+T17	PENALTY 435 468	штрафа в размере 100 тысяч рублей
+R2	PRICE_OF Arg1:T17 Arg2:T10	
+T18	PENALTY 584 622	штрафовать на суммы от 3 до 5 тыс. руб
+R3	PRICE_OF Arg1:T18 Arg2:T11	
+T19	PENALTY 25 35	штрафовать
+R4	HAS_CAUSE Arg1:T19 Arg2:T7	
+T20	PENALTY 156 166	штрафовать
+R5	HAS_CAUSE Arg1:T20 Arg2:T15	
+R6	PENALIZED_AS Arg1:T2 Arg2:T19	
+R7	PENALIZED_AS Arg1:T4 Arg2:T20	
+T21	PENALTY 435 441	штрафа
+T22	PENALTY 584 594	штрафовать
+T23	PENALTY 804 815	конфискации
+N1	Reference T1 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N2	Reference T4 Wikidata:Q492468	россияне
+N4	Reference T6 Wikidata:Q159	Россия
+N6	Reference T14 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N5	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T5 Wikidata:NULL	нет данных
+N7	Reference T3 Wikidata:Q4736878	Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+N8	Reference T2 Wikidata:Q492468	россияне
+N9	Reference T9 Wikidata:Q159	Россия

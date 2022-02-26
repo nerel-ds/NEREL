@@ -1,0 +1,88 @@
+T1	PERSON 17 28	Стросс-Кана
+T2	PERSON 69 89	Доминика Стросс-Кана
+T3	PROFESSION 105 114	горничная
+T4	FACILITY 136 144	'Sofitel
+T5	PERSON 147 164	Нафиссатоу Диалло
+T7	AGE 315 324	32-летняя
+T8	COUNTRY 339 345	Гвинеи
+T9	COUNTRY 365 368	США
+T10	ORGANIZATION 569 577	Лента.ру
+T11	PERSON 749 766	Нафиссатоу Диалло
+T12	PERSON 816 828	Стросс-Каном
+T13	PROFESSION 909 918	главы МВФ
+T15	DATE 1279 1286	сегодня
+T16	ORGANIZATION 1287 1315	Верховный суд штата Нью-Йорк
+T17	STATE_OR_PROVINCE 1307 1315	Нью-Йорк
+T18	PERSON 1371 1382	Стросс-Кана
+T19	PERSON 1522 1532	Стросс-Кан
+T20	CITY 115 128	нью-йоркского
+T21	ORGANIZATION 194 197	МВФ
+T22	PROFESSION 188 197	глава МВФ
+T23	PROFESSION 604 613	горничную
+T24	ORGANIZATION 915 918	МВФ
+T25	CRIME 986 1019	хранение крупной партии марихуаны
+T26	PERSON 1164 1175	Стросс-Кана
+T27	PROFESSION 1153 1163	адвокатами
+T28	ORGANIZATION 1272 1275	МВФ
+T29	PROFESSION 1266 1275	главы МВФ
+R1	ALTERNATIVE_NAME Arg1:T1 Arg2:T2	
+R2	WORKPLACE Arg1:T22 Arg2:T21	
+R3	WORKS_AS Arg1:T5 Arg2:T3	
+R4	WORKPLACE Arg1:T5 Arg2:T4	
+R5	WORKPLACE Arg1:T3 Arg2:T4	
+R6	LOCATED_IN Arg1:T4 Arg2:T20	
+R7	AGE_IS Arg1:T5 Arg2:T7	
+R8	WORKPLACE Arg1:T5 Arg2:T8	
+R9	WORKS_AS Arg1:T2 Arg2:T22	
+R10	WORKPLACE Arg1:T2 Arg2:T21	
+T6	CRIME 616 635	связях с криминалом
+T30	CRIME 653 683	незаконному обороту наркотиков
+T31	CRIME 686 701	отмыванию денег
+R11	CONVICTED_OF Arg1:T23 Arg2:T6	
+T32	PROFESSION 580 591	следователи
+R12	CONVICTED_OF Arg1:T23 Arg2:T30	
+R13	CONVICTED_OF Arg1:T23 Arg2:T31	
+R14	WORKS_AS Arg1:T5 Arg2:T23	
+R15	KNOWS Arg1:T2 Arg2:T5	
+R16	WORKPLACE Arg1:T13 Arg2:T24	
+R17	WORKS_AS Arg1:T12 Arg2:T13	
+R18	WORKPLACE Arg1:T12 Arg2:T24	
+R19	SUBORDINATE_OF Arg1:T27 Arg2:T26	
+R20	WORKPLACE Arg1:T29 Arg2:T28	
+T14	PENALTY 1354 1370	домашнего ареста
+R21	PENALIZED_AS Arg1:T18 Arg2:T14	
+R22	HEADQUARTERED_IN Arg1:T16 Arg2:T17	
+R23	WORKS_AS Arg1:T11 Arg2:T23	
+T33	EVENT 973 982	арестован
+R24	HAS_CAUSE Arg1:T33 Arg2:T25	
+R25	WORKS_AS Arg1:T26 Arg2:T29	
+R26	WORKPLACE Arg1:T26 Arg2:T28	
+T34	EVENT 1406 1415	заседания
+R27	ORGANIZES Arg1:T16 Arg2:T34	
+R28	POINT_IN_TIME Arg1:T34 Arg2:T15	
+R29	PARTICIPANT_IN Arg1:T18 Arg2:T34	
+N1	Reference T3 Wikidata:Q833860	горничная
+N3	Reference T8 Wikidata:Q1006	Гвинея
+N4	Reference T9 Wikidata:Q30	США
+N5	Reference T10 Wikidata:Q658909	Lenta.ru
+N7	Reference T17 Wikidata:Q860479	Нью-Йорк, Нью-Йорк
+N10	Reference T26 Wikidata:Q385437	Доминик Стросс-Кан
+N11	Reference T27 Wikidata:Q40348	адвокат
+N12	Reference T28 Wikidata:Q7804	Международный валютный фонд
+N13	Reference T32 Wikidata:Q4423239	Следователь
+N8	Reference T20 Wikidata:Q60	Нью-Йорк
+N14	Reference T4 Wikidata:Q3488860	
+N2	Reference T5 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T16 Wikidata:NULL	нет данных
+N15	Reference T23 Wikidata:Q833860	горничная
+N16	Reference T12 Wikidata:Q385437	Доминик Стросс-Кан
+N17	Reference T19 Wikidata:Q385437	Доминик Стросс-Кан
+N18	Reference T18 Wikidata:Q385437	Доминик Стросс-Кан
+N19	Reference T2 Wikidata:Q385437	Доминик Стросс-Кан
+N20	Reference T1 Wikidata:Q385437	Доминик Стросс-Кан
+N21	Reference T24 Wikidata:Q7804	Международный валютный фонд
+N22	Reference T21 Wikidata:Q7804	Международный валютный фонд
+N23	Reference T11 Wikidata:NULL	нет данных
+N24	Reference T13 Wikidata:NULL	нет данных
+N25	Reference T29 Wikidata:NULL	нет данных

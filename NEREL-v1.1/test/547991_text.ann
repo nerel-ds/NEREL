@@ -1,0 +1,76 @@
+T2	PERSON 27 45	Дженезис Пи-Орридж
+T3	PERSON 46 64	Дженезис Пи-Орридж
+T4	DATE 67 94	субботу, 14 марта 2020 года
+T5	PERSON 101 119	Дженезис Пи-Орридж
+T6	NATIONALITY 122 132	британский
+T7	PERSON 250 259	Пи-Орридж
+T8	CITY 284 293	Нью-Йорке
+T9	AGE 325 331	70 лет
+T10	DATE 360 371	в 2017 году
+T11	ORGANIZATION 409 426	Throbbing Gristle
+T12	ORGANIZATION 428 438	Psychic TV
+T13	ORGANIZATION 441 453	Thee Majesty
+T14	PERSON 456 472	Нил Эндрю Мэгсон
+T15	DATE 481 501	22 февраля 1950 года
+T16	CITY 504 514	Манчестере
+T17	COUNTRY 516 522	Англия
+T18	PERSON 535 553	Дженезис Пи-Орридж
+T19	EVENT 0 4	Умер
+T1	EVENT 96 100	умер
+T20	PROFESSION 133 141	музыкант
+T21	PROFESSION 143 147	поэт
+T22	PROFESSION 149 167	перформанс-деятель
+T23	RELIGION 170 180	оккультист
+T26	DISEASE 268 276	лейкемии
+R1	PARTICIPANT_IN Arg1:T2 Arg2:T19	
+R2	ORIGINS_FROM Arg1:T5 Arg2:T6	
+R3	WORKS_AS Arg1:T5 Arg2:T20	
+R4	WORKS_AS Arg1:T5 Arg2:T21	
+R5	WORKS_AS Arg1:T5 Arg2:T22	
+R6	RELIGION_OF Arg1:T5 Arg2:T23	
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T1	
+R8	DATE_OF_DEATH Arg1:T5 Arg2:T4	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R10	CAUSE_OF_DEATH Arg1:T5 Arg2:T26	
+R11	PLACE_OF_DEATH Arg1:T5 Arg2:T8	
+R13	PLACE_RESIDES_IN Arg1:T5 Arg2:T8	
+R12	PLACE_OF_DEATH Arg1:T7 Arg2:T8	
+R14	AGE_DIED_AT Arg1:T7 Arg2:T9	
+R15	WORKPLACE Arg1:T7 Arg2:T11	
+R16	WORKPLACE Arg1:T7 Arg2:T12	
+R17	WORKPLACE Arg1:T7 Arg2:T13	
+R18	ALTERNATIVE_NAME Arg1:T14 Arg2:T18	
+R19	DATE_OF_BIRTH Arg1:T14 Arg2:T15	
+R20	PLACE_OF_BIRTH Arg1:T14 Arg2:T16	
+R21	LOCATED_IN Arg1:T16 Arg2:T17	
+R22	POINT_IN_TIME Arg1:T1 Arg2:T4	
+R23	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R24	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+T24	EVENT 260 264	умер
+R25	PARTICIPANT_IN Arg1:T7 Arg2:T24	
+R26	HAS_CAUSE Arg1:T24 Arg2:T26	
+R27	TAKES_PLACE_IN Arg1:T24 Arg2:T8	
+N1	Reference T5 Wikidata:Q740036	Дженезис Пи-Орридж
+N3	Reference T8 Wikidata:Q60	Нью-Йорк
+N4	Reference T11 Wikidata:Q1165655	Throbbing Gristle
+N5	Reference T12 Wikidata:Q2115954	Psychic TV
+N7	Reference T16 Wikidata:Q18125	Манчестер
+N8	Reference T17 Wikidata:Q21	Англия
+N9	Reference T20 Wikidata:Q639669	музыкант
+N10	Reference T21 Wikidata:Q49757	поэт
+N2	Reference T6 Wikidata:Q842438	британцы
+N11	Reference T22 Wikidata:Q10774753	
+N12	Reference T23 Wikidata:Q12797895	
+N6	Reference T13 Wikidata:Q7777707	
+N13	Reference T14 Wikidata:Q740036	Дженезис Пи-Орридж
+N14	Reference T18 Wikidata:Q740036	Дженезис Пи-Орридж
+N15	Reference T7 Wikidata:Q740036	Дженезис Пи-Орридж
+N16	Reference T3 Wikidata:Q740036	Дженезис Пи-Орридж
+N17	Reference T2 Wikidata:Q740036	Дженезис Пи-Орридж
+T25	EVENT 473 480	родился
+R28	PARTICIPANT_IN Arg1:T14 Arg2:T25	
+R29	POINT_IN_TIME Arg1:T25 Arg2:T15	
+R30	TAKES_PLACE_IN Arg1:T25 Arg2:T16	
+R31	ORIGINS_FROM Arg1:T20 Arg2:T6	
+R32	ORIGINS_FROM Arg1:T21 Arg2:T6	
+R33	ORIGINS_FROM Arg1:T22 Arg2:T6	

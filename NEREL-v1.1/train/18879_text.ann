@@ -1,0 +1,218 @@
+T1	CITY 2 7	Гааге
+T2	EVENT 16 23	процесс
+T3	PERSON 28 42	Ратко Младичем
+T4	EVENT 47 64	судебном процессе
+T5	DATE 77 93	в минувшую среду
+T6	CITY 96 101	Гааге
+T7	ORGANIZATION 104 153	Международном трибунале по делам бывшей Югославии
+T8	ORGANIZATION 155 159	МТБЮ
+T10	PERSON 216 229	Ратко Младичу
+T11	NUMBER 242 244	11
+T12	EVENT 340 346	Митинг
+T13	PROFESSION 359 367	генерала
+T14	PERSON 368 381	Ратко Младича
+T15	CITY 384 393	Баня-Луке
+T16	AGE 395 404	70-летний
+T17	PERSON 405 411	Младич
+T18	DATE 434 445	в 1995 году
+T19	NUMBER 487 500	около 8 тысяч
+T21	CITY 543 553	Сребренице
+T22	CITY 574 581	Сараево
+T23	PERSON 610 616	Младич
+T24	ORGANIZATION 637 680	военной академии Югославской народной армии
+T25	ORGANIZATION 654 680	Югославской народной армии
+T26	CITY 683 691	Белграде
+T27	COUNTRY 723 732	Югославии
+T28	PERSON 734 740	Радичу
+T29	PROFESSION 763 781	генерал-полковника
+T30	COUNTRY 823 833	боснийских
+T31	COUNTRY 897 917	Боснии и Герцеговины
+T32	CITY 972 982	Сребренице
+T33	DATE 993 1004	в 1995 году
+T34	ORGANIZATION 1100 1103	ООН
+T36	NUMBER 1159 1166	8 тысяч
+T37	PERSON 1266 1272	Младич
+T38	CITY 1284 1291	Белград
+T39	PROFESSION 1349 1365	президент Сербии
+T40	PERSON 1366 1384	Слободан Милошевич
+T41	PERSON 1406 1416	Милошевича
+T42	ORGANIZATION 1446 1463	Гаагский трибунал
+T44	COUNTRY 1544 1550	Сербии
+T45	PERSON 1646 1652	Младич
+T46	COUNTRY 1684 1692	сербских
+T47	ORGANIZATION 1715 1719	МТБЮ
+T48	PERSON 1751 1758	Младича
+T50	PERSON 1843 1861	Радована Караджича
+T51	COUNTRY 144 153	Югославии
+T52	PROFESSION 170 206	командующему армии боснийских сербов
+T53	ORGANIZATION 183 206	армии боснийских сербов
+T54	NATIONALITY 200 206	сербов
+T55	PROFESSION 207 215	генералу
+T56	CRIME 268 275	геноцид
+T57	CRIME 277 297	военные преступления
+T58	CRIME 300 332	преступления против человечества
+T20	NATIONALITY 501 510	боснийцев
+T60	PROFESSION 584 608	Профессиональный военный
+T61	COUNTRY 654 665	Югославской
+T65	COUNTRY 189 199	боснийских
+T66	NATIONALITY 834 840	сербов
+T67	NATIONALITY 928 936	сербскую
+T68	EVENT 964 969	резня
+T69	RELIGION 1034 1043	мусульман
+T70	COUNTRY 1126 1136	боснийских
+T71	NATIONALITY 1137 1143	сербов
+T35	NATIONALITY 1167 1176	боснийцев
+T72	EVENT 1260 1265	войны
+T73	PROFESSION 1349 1358	президент
+T74	COUNTRY 1359 1365	Сербии
+T76	DATE 1417 1428	в 2001 году
+T77	CITY 1446 1454	Гаагский
+T78	PERSON 1464 1470	Младич
+T43	NUMBER 1519 1521	16
+T79	EVENT 1532 1541	арестован
+T80	DATE 1551 1570	в мае прошлого года
+T81	PROFESSION 1693 1700	военных
+T82	PROFESSION 1804 1842	политического лидера боснийских сербов
+T83	COUNTRY 1825 1835	боснийских
+T84	NATIONALITY 1836 1842	сербов
+R1	ALTERNATIVE_NAME Arg1:T2 Arg2:T4	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T2	
+R3	TAKES_PLACE_IN Arg1:T2 Arg2:T1	
+R4	ABBREVIATION Arg1:T7 Arg2:T8	
+R5	START_TIME Arg1:T4 Arg2:T5	
+R6	CONVICTED_OF Arg1:T10 Arg2:T56	
+R7	CONVICTED_OF Arg1:T10 Arg2:T57	
+R8	CONVICTED_OF Arg1:T10 Arg2:T58	
+R9	WORKS_AS Arg1:T14 Arg2:T13	
+R10	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+R11	TAKES_PLACE_IN Arg1:T12 Arg2:T15	
+R12	AGE_IS Arg1:T17 Arg2:T16	
+T9	EVENT 568 581	осаде Сараево
+R13	TAKES_PLACE_IN Arg1:T9 Arg2:T22	
+R14	WORKS_AS Arg1:T23 Arg2:T60	
+T49	EVENT 964 982	резня в Сребренице
+R15	TAKES_PLACE_IN Arg1:T49 Arg2:T32	
+R16	POINT_IN_TIME Arg1:T49 Arg2:T33	
+R17	WORKPLACE Arg1:T39 Arg2:T74	
+R18	WORKS_AS Arg1:T40 Arg2:T39	
+R19	WORKPLACE Arg1:T40 Arg2:T74	
+R20	ALTERNATIVE_NAME Arg1:T40 Arg2:T41	
+T85	EVENT 1399 1405	ареста
+R21	PARTICIPANT_IN Arg1:T41 Arg2:T85	
+R22	ALTERNATIVE_NAME Arg1:T85 Arg2:T76	
+R23	HEADQUARTERED_IN Arg1:T42 Arg2:T77	
+R24	PARTICIPANT_IN Arg1:T78 Arg2:T79	
+R25	TAKES_PLACE_IN Arg1:T79 Arg2:T44	
+R26	POINT_IN_TIME Arg1:T79 Arg2:T80	
+R27	WORKS_AS Arg1:T50 Arg2:T82	
+T86	PROFESSION 1804 1824	политического лидера
+R28	ORIGINS_FROM Arg1:T50 Arg2:T92	
+R30	ALTERNATIVE_NAME Arg1:T44 Arg2:T46	
+R31	PARTICIPANT_IN Arg1:T7 Arg2:T4	
+R32	WORKS_AS Arg1:T10 Arg2:T55	
+T87	NATIONALITY 189 206	боснийских сербов
+R33	PLACE_RESIDES_IN Arg1:T87 Arg2:T65	
+T88	PROFESSION 170 182	командующему
+R34	WORKS_AS Arg1:T10 Arg2:T52	
+R35	WORKPLACE Arg1:T10 Arg2:T53	
+R36	ORIGINS_FROM Arg1:T10 Arg2:T87	
+T89	EVENT 478 486	убийстве
+R37	PARTICIPANT_IN Arg1:T20 Arg2:T89	
+R38	TAKES_PLACE_IN Arg1:T89 Arg2:T21	
+R39	ORGANIZES Arg1:T17 Arg2:T89	
+R40	HAS_CAUSE Arg1:T56 Arg2:T89	
+R41	HAS_CAUSE Arg1:T57 Arg2:T89	
+R42	HAS_CAUSE Arg1:T58 Arg2:T89	
+R43	ORGANIZES Arg1:T17 Arg2:T9	
+R44	SCHOOLS_ATTENDED Arg1:T23 Arg2:T24	
+R45	HEADQUARTERED_IN Arg1:T24 Arg2:T26	
+R46	LOCATED_IN Arg1:T26 Arg2:T61	
+R47	ALTERNATIVE_NAME Arg1:T61 Arg2:T27	
+T64	EVENT 715 732	распада Югославии
+R48	PARTICIPANT_IN Arg1:T27 Arg2:T64	
+T90	NATIONALITY 823 840	боснийских сербов
+R49	PLACE_RESIDES_IN Arg1:T90 Arg2:T30	
+R50	WORKS_AS Arg1:T28 Arg2:T29	
+T62	NATIONALITY 1126 1143	боснийских сербов
+R51	PLACE_RESIDES_IN Arg1:T62 Arg2:T70	
+T63	EVENT 1144 1154	уничтожили
+R52	PARTICIPANT_IN Arg1:T35 Arg2:T63	
+R53	RELIGION_OF Arg1:T35 Arg2:T69	
+R54	ALTERNATIVE_NAME Arg1:T49 Arg2:T63	
+R55	PLACE_RESIDES_IN Arg1:T37 Arg2:T38	
+R56	LOCATED_IN Arg1:T38 Arg2:T74	
+T91	PROFESSION 1684 1700	сербских военных
+R57	ORIGINS_FROM Arg1:T91 Arg2:T46	
+T92	NATIONALITY 1825 1842	боснийских сербов
+R29	PLACE_RESIDES_IN Arg1:T92 Arg2:T83	
+N1	Reference T6 Wikidata:Q36600	Гаага
+N2	Reference T13 Wikidata:Q83460	генерал
+N3	Reference T15 Wikidata:Q131127	Баня-Лука
+N4	Reference T21 Wikidata:Q156053	Сребреница
+N5	Reference T22 Wikidata:Q11194	Сараево
+N7	Reference T25 Wikidata:Q272110	Югославская народная армия
+N8	Reference T26 Wikidata:Q3711	Белград
+N10	Reference T29 Wikidata:Q155327	генерал-полковник
+N11	Reference T31 Wikidata:Q225	Босния и Герцеговина
+N12	Reference T34 Wikidata:Q1065	Организация Объединённых Наций
+N13	Reference T39 Wikidata:Q889830	Президент Сербии
+N15	Reference T42 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N16	Reference T47 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N17	Reference T48 Wikidata:Q93167	Ратко Младич
+N18	Reference T50 Wikidata:Q123923	Караджич, Радован
+N19	Reference T51 Wikidata:Q36704	Югославия
+N24	Reference T69 Wikidata:Q47740	мусульманин
+N25	Reference T71 Wikidata:Q127885	сербы
+N26	Reference T35 Wikidata:Q165235	боснийцы
+N27	Reference T73 Wikidata:Q30461	президент
+N28	Reference T74 Wikidata:Q403	Сербия
+N30	Reference T81 Wikidata:Q47064	военнослужащий
+N34	Reference T88 Wikidata:Q814174	
+N21	Reference T53 Wikidata:Q1125372	
+N20	Reference T52 Wikidata:NULL	нет данных
+N22	Reference T60 Wikidata:NULL	нет данных
+N6	Reference T24 Wikidata:Q2075436	
+N33	Reference T86 Wikidata:Q3430775	
+N32	Reference T83 Wikidata:Q225	Босния и Герцеговина
+N31	Reference T82 Wikidata:NULL	нет данных
+N36	Reference T91 Wikidata:NULL	нет данных
+N29	Reference T77 Wikidata:Q36600	Гаага
+N14	Reference T41 Wikidata:Q47139	
+N35	Reference T62 Wikidata:Q1064662	
+N23	Reference T67 Wikidata:Q127885	сербы
+N9	Reference T28 Wikidata:Q93167	Ратко Младич
+N37	Reference T1 Wikidata:Q36600	Гаага
+N38	Reference T55 Wikidata:Q83460	генерал
+N39	Reference T32 Wikidata:Q156053	Сребреница
+N40	Reference T38 Wikidata:Q3711	Белград
+N41	Reference T7 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N42	Reference T8 Wikidata:Q183219	Международный трибунал по бывшей Югославии
+N43	Reference T10 Wikidata:Q93167	Ратко Младич
+N44	Reference T23 Wikidata:Q93167	Ратко Младич
+N45	Reference T17 Wikidata:Q93167	Ратко Младич
+N46	Reference T14 Wikidata:Q93167	Ратко Младич
+N47	Reference T37 Wikidata:Q93167	Ратко Младич
+N48	Reference T3 Wikidata:Q93167	Ратко Младич
+N49	Reference T78 Wikidata:Q93167	Ратко Младич
+N50	Reference T45 Wikidata:Q93167	Ратко Младич
+N51	Reference T61 Wikidata:Q36704	Югославия
+N52	Reference T27 Wikidata:Q36704	Югославия
+N53	Reference T84 Wikidata:Q127885	сербы
+N54	Reference T54 Wikidata:Q127885	сербы
+N55	Reference T66 Wikidata:Q127885	сербы
+N56	Reference T20 Wikidata:Q165235	боснийцы
+N57	Reference T44 Wikidata:Q403	Сербия
+N58	Reference T46 Wikidata:Q403	Сербия
+N59	Reference T70 Wikidata:Q225	Босния и Герцеговина
+N60	Reference T65 Wikidata:Q225	Босния и Герцеговина
+N61	Reference T30 Wikidata:Q225	Босния и Герцеговина
+N62	Reference T40 Wikidata:Q47139	
+N63	Reference T87 Wikidata:Q1064662	
+N64	Reference T90 Wikidata:Q1064662	
+N65	Reference T92 Wikidata:Q1064662	
+R58	TAKES_PLACE_IN Arg1:T4 Arg2:T6	
+T59	EVENT 1273 1281	вернулся
+R59	AGENT Arg1:T37 Arg2:T59	
+R60	TAKES_PLACE_IN Arg1:T59 Arg2:T38	
+R61	LOCATED_IN Arg1:T38 Arg2:T74	
+R62	ALTERNATIVE_NAME Arg1:T45 Arg2:T48	

@@ -1,0 +1,110 @@
+T1	MONEY 19 27	долларах
+T2	PERSON 28 42	Гарриет Табмен
+T3	MONEY 52 67	20 долларов США
+T4	DATE 68 77	2004 года
+T5	DISTRICT 137 144	Ричмонд
+T6	DATE 146 155	1862 года
+T7	MONEY 170 185	20 долларов США
+T8	PERSON 231 245	Гарриет Табмен
+T9	NUMBER 266 281	несколько сотен
+T10	PROFESSION 328 338	президента
+T11	COUNTRY 400 403	США
+T12	STATE_OR_PROVINCE 410 417	Флорида
+T13	PROFESSION 474 490	Министр финансов
+T14	PERSON 495 503	Джек Лью
+T15	DATE 515 543	в среду, 20 апреля 2016 года
+T16	PERSON 548 554	Табмен
+T17	ORDINAL 562 568	первой
+T18	COUNTRY 614 626	американской
+T19	ORDINAL 637 643	первой
+T20	MONEY 679 687	долларах
+T21	DATE 688 708	более чем за 100 лет
+T22	PERSON 719 722	Лью
+T23	PROFESSION 777 786	Президент
+T24	MONEY 818 831	20-долларовой
+T25	LAW 865 906	Закон о переселении индейцев от 1830 года
+T26	DATE 894 906	от 1830 года
+T27	NUMBER 1033 1039	тысячи
+T28	PERSON 1050 1056	Табмен
+T29	PERSON 1069 1082	Араминта Росс
+T30	STATE_OR_PROVINCE 1108 1117	Мэриленде
+T31	AGE 1165 1170	6 лет
+T32	AGE 1248 1254	12 лет
+T33	PERSON 1399 1410	Джон Табмен
+T34	PERSON 1544 1550	Табмен
+T35	STATE_OR_PROVINCE 1566 1574	Мэриленд
+T36	NUMBER 1635 1643	около 20
+T37	MONEY 78 94	100 долларов КША
+T38	NATIONALITY 203 219	афроамериканской
+T39	PROFESSION 220 230	активистки
+T40	PROFESSION 1763 1771	Историки
+T41	DISEASE 1327 1334	судорог
+T42	NATIONALITY 569 584	афроамериканкой
+T43	PERSON 787 800	Эндрю Джексон
+T44	NATIONALITY 885 893	индейцев
+T45	NATIONALITY 987 1007	коренных американцев
+T46	PERSON 339 353	Эндрю Джексона
+T47	NATIONALITY 421 435	индейцы чероки
+T48	COUNTRY 64 67	США
+T49	COUNTRY 182 185	США
+T50	COUNTRY 491 494	США
+R1	WORKS_AS Arg1:T8 Arg2:T39	
+R2	ORIGINS_FROM Arg1:T8 Arg2:T38	
+R3	ORIGINS_FROM Arg1:T39 Arg2:T38	
+R4	WORKS_AS Arg1:T46 Arg2:T10	
+R5	WORKPLACE Arg1:T46 Arg2:T11	
+R6	WORKPLACE Arg1:T10 Arg2:T11	
+R7	LOCATED_IN Arg1:T12 Arg2:T11	
+T51	PROFESSION 474 494	Министр финансов США
+R8	WORKPLACE Arg1:T51 Arg2:T50	
+R9	WORKPLACE Arg1:T14 Arg2:T50	
+R10	WORKS_AS Arg1:T14 Arg2:T51	
+T52	PROFESSION 474 481	Министр
+R11	ALTERNATIVE_NAME Arg1:T8 Arg2:T16	
+R12	ALTERNATIVE_NAME Arg1:T38 Arg2:T42	
+R13	ORIGINS_FROM Arg1:T16 Arg2:T42	
+R14	ALTERNATIVE_NAME Arg1:T14 Arg2:T22	
+R15	WORKS_AS Arg1:T43 Arg2:T23	
+R16	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R17	PLACE_OF_BIRTH Arg1:T28 Arg2:T30	
+R18	AGE_IS Arg1:T28 Arg2:T31	
+R19	MEDICAL_CONDITION Arg1:T28 Arg2:T41	
+R20	AGE_IS Arg1:T28 Arg2:T32	
+R21	SPOUSE Arg1:T28 Arg2:T33	
+R22	ALTERNATIVE_NAME Arg1:T44 Arg2:T45	
+R23	DATE_OF_CREATION Arg1:T25 Arg2:T26	
+T53	LAW 865 893	Закон о переселении индейцев
+N1	Reference T5 Wikidata:Q43421	Ричмонд
+N2	Reference T10 Wikidata:Q30461	президент
+N3	Reference T11 Wikidata:Q30	США
+N4	Reference T12 Wikidata:Q812	Флорида
+N5	Reference T16 Wikidata:Q102870	Табмен, Гарриет
+N8	Reference T25 Wikidata:Q786008	Закон о переселении индейцев
+N9	Reference T30 Wikidata:Q1391	Мэриленд
+N11	Reference T34 Wikidata:Q102870	Табмен, Гарриет
+N12	Reference T40 Wikidata:Q201788	историк
+N13	Reference T44 Wikidata:Q36747	индейцы
+N14	Reference T46 Wikidata:Q11817	Эндрю Джексон
+N15	Reference T47 Wikidata:Q105405	чероки
+N16	Reference T51 Wikidata:Q4215834	министр финансов США
+N17	Reference T52 Wikidata:Q83307	министр
+N18	Reference T53 Wikidata:Q786008	Закон о переселении индейцев
+N19	Reference T39 Wikidata:Q15253558	
+N20	Reference T13 Wikidata:Q7614320	
+N21	Reference T42 Wikidata:Q49085	афроамериканцы
+N6	Reference T18 Wikidata:Q30	США
+N7	Reference T22 Wikidata:NULL	нет данных
+N10	Reference T33 Wikidata:NULL	нет данных
+N22	Reference T23 Wikidata:Q30461	президент
+N23	Reference T50 Wikidata:Q30	США
+N24	Reference T49 Wikidata:Q30	США
+N25	Reference T48 Wikidata:Q30	США
+N26	Reference T2 Wikidata:Q102870	Табмен, Гарриет
+N27	Reference T8 Wikidata:Q102870	Табмен, Гарриет
+N28	Reference T35 Wikidata:Q1391	Мэриленд
+N29	Reference T28 Wikidata:Q102870	Табмен, Гарриет
+N30	Reference T29 Wikidata:Q102870	Табмен, Гарриет
+N31	Reference T45 Wikidata:Q36747	индейцы
+N32	Reference T43 Wikidata:Q11817	Эндрю Джексон
+N33	Reference T38 Wikidata:Q49085	афроамериканцы
+N34	Reference T14 Wikidata:NULL	нет данных

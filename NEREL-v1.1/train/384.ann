@@ -1,0 +1,141 @@
+T1	PERSON 0 10	Стив Джобс
+T2	PROFESSION 24 42	гендиректора Apple
+T3	PERSON 44 54	Стив Джобс
+T5	ORGANIZATION 80 85	Apple
+T6	PROFESSION 116 138	генерального директора
+T7	ORGANIZATION 157 173	Associated Press
+T9	PERSON 221 228	С.Джобс
+T11	PROFESSION 380 394	главы компании
+T12	PROFESSION 486 508	генерального директора
+T13	PERSON 526 533	Тим Кук
+T15	PERSON 541 548	С.Джобс
+T16	ORGANIZATION 568 573	Apple
+T17	PROFESSION 587 617	председателя совета директоров
+T18	DATE 620 637	С середины января
+T19	AGE 638 647	56-летний
+T20	DATE 721 735	семь лет назад
+T22	PERSON 738 746	С.Джобса
+T23	PERCENT 812 815	96%
+T25	DATE 850 868	в течение пяти лет
+T26	PROFESSION 880 891	главы Apple
+T27	DATE 977 984	В 2009г
+T28	COUNTRY 1040 1049	Швейцарии
+T29	ORGANIZATION 1052 1057	Apple
+T30	DATE 1072 1079	в 1976г
+T31	PERSON 1104 1119	Стивом Возняком
+T33	DATE 1166 1177	в 1985 году
+T35	PERSON 1179 1186	С.Джобс
+T36	ORGANIZATION 1195 1200	Apple
+T37	ORGANIZATION 1233 1237	NeXT
+T38	DATE 1314 1321	в 1997г
+T39	ORGANIZATION 1337 1342	Apple
+T40	PROFESSION 1349 1384	временным исполнительным директором
+T41	ORGANIZATION 1413 1417	NeXT
+T42	ORGANIZATION 1462 1467	Apple
+T43	DATE 1478 1501	в последнюю десятилетку
+T44	PRODUCT 1571 1575	iPod
+T45	PRODUCT 1588 1594	iPhone
+T46	PRODUCT 1607 1611	iPad
+T47	ORGANIZATION 1702 1707	Apple
+T48	ORGANIZATION 37 42	Apple
+T4	ORGANIZATION 600 617	совета директоров
+T8	PERSON 648 655	С.Джобс
+T10	DISEASE 766 790	рак поджелудочной железы
+T14	EVENT 997 1013	пересадку печени
+T21	PERSON 1081 1090	С.Джобсом
+T24	PROFESSION 24 36	гендиректора
+T34	EVENT 11 23	ушел с поста
+T49	EVENT 102 115	уходе с поста
+T50	ORGANIZATION 509 514	Apple
+T51	PROFESSION 486 514	генерального директора Apple
+T52	ORGANIZATION 886 891	Apple
+T53	PROFESSION 1359 1384	исполнительным директором
+R1	AGENT Arg1:T1 Arg2:T34	
+R2	WORKS_AS Arg1:T1 Arg2:T2	
+R3	WORKPLACE Arg1:T1 Arg2:T48	
+R4	WORKPLACE Arg1:T3 Arg2:T5	
+R5	WORKS_AS Arg1:T3 Arg2:T6	
+R6	WORKPLACE Arg1:T6 Arg2:T5	
+R7	AGENT Arg1:T3 Arg2:T49	
+R8	ALTERNATIVE_NAME Arg1:T34 Arg2:T49	
+R9	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R11	WORKS_AS Arg1:T9 Arg2:T11	
+R12	WORKS_AS Arg1:T13 Arg2:T51	
+R13	WORKPLACE Arg1:T51 Arg2:T50	
+R14	WORKPLACE Arg1:T2 Arg2:T48	
+R15	AGE_IS Arg1:T8 Arg2:T19	
+R16	MEDICAL_CONDITION Arg1:T22 Arg2:T10	
+T54	DISEASE 908 932	редкая форма заболевания
+R17	ALTERNATIVE_NAME Arg1:T10 Arg2:T54	
+R18	WORKS_AS Arg1:T22 Arg2:T26	
+R19	WORKPLACE Arg1:T22 Arg2:T52	
+R20	PARTICIPANT_IN Arg1:T22 Arg2:T14	
+R21	TAKES_PLACE_IN Arg1:T14 Arg2:T28	
+R22	POINT_IN_TIME Arg1:T14 Arg2:T27	
+R23	DATE_FOUNDED_IN Arg1:T29 Arg2:T30	
+R24	FOUNDED_BY Arg1:T29 Arg2:T21	
+R25	FOUNDED_BY Arg1:T29 Arg2:T31	
+R26	FOUNDED_BY Arg1:T37 Arg2:T35	
+T55	EVENT 1187 1191	ушел
+R27	AGENT Arg1:T35 Arg2:T55	
+R28	PARTICIPANT_IN Arg1:T36 Arg2:T55	
+R29	POINT_IN_TIME Arg1:T55 Arg2:T33	
+R30	WORKS_AS Arg1:T35 Arg2:T40	
+R31	WORKPLACE Arg1:T35 Arg2:T39	
+R32	WORKPLACE Arg1:T2 Arg2:T48	
+R33	WORKPLACE Arg1:T51 Arg2:T50	
+R34	WORKPLACE Arg1:T15 Arg2:T16	
+R35	WORKS_AS Arg1:T15 Arg2:T17	
+R36	WORKPLACE Arg1:T17 Arg2:T4	
+R37	PART_OF Arg1:T4 Arg2:T16	
+R38	WORKPLACE Arg1:T26 Arg2:T52	
+R39	WORKPLACE Arg1:T40 Arg2:T39	
+R40	PARTICIPANT_IN Arg1:T5 Arg2:T49	
+T32	DISEASE 766 769	рак
+R41	MEDICAL_CONDITION Arg1:T26 Arg2:T54	
+R42	ALTERNATIVE_NAME Arg1:T21 Arg2:T35	
+R43	PRODUCES Arg1:T42 Arg2:T44	
+R44	PRODUCES Arg1:T42 Arg2:T45	
+R45	PRODUCES Arg1:T42 Arg2:T46	
+T56	EVENT 1388 1397	объединил
+R46	AGENT Arg1:T35 Arg2:T56	
+R47	PARTICIPANT_IN Arg1:T39 Arg2:T56	
+R48	PARTICIPANT_IN Arg1:T41 Arg2:T56	
+N1	Reference T7 Wikidata:Q743137	The Associates
+N2	Reference T9 Wikidata:Q19837	Стив Джобс
+N3	Reference T12 Wikidata:Q1501800	генеральный директор
+N4	Reference T13 Wikidata:Q265852	Тим Кук
+N7	Reference T28 Wikidata:Q39	Швейцария
+N8	Reference T31 Wikidata:Q483382	Стив Возняк
+N9	Reference T35 Wikidata:Q19837	Стив Джобс
+N10	Reference T37 Wikidata:Q308993	NeXT Computer
+N12	Reference T44 Wikidata:Q9479	iPod
+N13	Reference T45 Wikidata:Q2766	iPhone
+N14	Reference T46 Wikidata:Q2796	iPad
+N15	Reference T48 Wikidata:Q312	Apple
+N16	Reference T4 Wikidata:Q188628	совет директоров
+N17	Reference T24 Wikidata:Q1501800	генеральный директор
+N19	Reference T53 Wikidata:Q267936	исполнительный директор
+N20	Reference T11 Wikidata:NULL	нет данных
+N18	Reference T51 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N6	Reference T26 Wikidata:NULL	нет данных
+N11	Reference T40 Wikidata:NULL	нет данных
+N21	Reference T1 Wikidata:Q19837	Стив Джобс
+N22	Reference T3 Wikidata:Q19837	Стив Джобс
+N23	Reference T6 Wikidata:Q1501800	генеральный директор
+N24	Reference T2 Wikidata:Q1501800	генеральный директор
+N25	Reference T15 Wikidata:Q19837	Стив Джобс
+N26	Reference T8 Wikidata:Q19837	Стив Джобс
+N27	Reference T22 Wikidata:Q19837	Стив Джобс
+N28	Reference T21 Wikidata:Q19837	Стив Джобс
+N29	Reference T41 Wikidata:Q308993	NeXT Computer
+N30	Reference T5 Wikidata:Q312	Apple
+N31	Reference T16 Wikidata:Q312	Apple
+N32	Reference T36 Wikidata:Q312	Apple
+N33	Reference T47 Wikidata:Q312	Apple
+N34	Reference T42 Wikidata:Q312	Apple
+N35	Reference T39 Wikidata:Q312	Apple
+N36	Reference T50 Wikidata:Q312	Apple
+N37	Reference T29 Wikidata:Q312	Apple

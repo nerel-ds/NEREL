@@ -1,0 +1,140 @@
+T1	DATE 122 131	2014 года
+T2	CITY 144 154	Стокгольме
+T3	PERSON 166 179	Исаму Акасаки
+T4	PERSON 181 193	Хироси Амано
+T5	PERSON 196 210	Сюдзи Накамура
+T6	DATE 392 428	в конце 1980-х — начале 1990-х годов
+T7	DATE 439 471	в течение нескольких десятилетий
+T8	ORGANIZATION 533 542	Bell Labs
+T9	ORGANIZATION 549 557	Phillips
+T10	PERSON 1016 1029	Исаму Акасаки
+T11	AGE 1035 1041	85 лет
+T12	PROFESSION 1074 1084	профессора
+T13	ORGANIZATION 1087 1106	Университете Мейджо
+T14	AWARD 1118 1141	заслуженным профессором
+T15	PERSON 1167 1179	Хироси Амано
+T16	DATE 1192 1203	в 1960 году
+T17	PROFESSION 1231 1241	профессора
+T18	DATE 1267 1288	В начале 1990-х годов
+T19	PROFESSION 1296 1306	аспирантом
+T20	PERSON 1316 1330	Сюдзи Накамура
+T21	DATE 1339 1350	в 1954 году
+T22	NUMBER 1366 1369	два
+T23	NATIONALITY 1393 1401	японские
+T24	COUNTRY 1430 1433	США
+T25	PROFESSION 1447 1456	профессор
+T26	CITY 1488 1501	Санта-Барбаре
+T27	AGE 1504 1513	85-летний
+T28	PERSON 1514 1527	Исаму Акасаки
+T29	AGE 1530 1539	54-летний
+T30	PERSON 1540 1552	Хироси Амано
+T31	ORGANIZATION 1591 1605	Институте Наго
+T32	AGE 1607 1616	60-летний
+T33	PERSON 1617 1631	Сюдзи Накамура
+T34	ORGANIZATION 1647 1673	Nichia Chemical Industries
+T35	MONEY 1695 1716	около 1 миллиона евро
+T36	PERSON 1752 1760	Накамура
+T37	NUMBER 1772 1780	половина
+T38	PERSON 1784 1791	Акасаки
+T39	PERSON 1794 1799	Амано
+T40	NUMBER 1808 1825	по одной четверти
+T41	AWARD 0 19	Нобелевской премией
+T42	AWARD 0 29	Нобелевской премией по физике
+T43	AWARD 93 131	Нобелевской премии по физике 2014 года
+T44	AWARD 93 121	Нобелевской премии по физике
+T45	AWARD 93 111	Нобелевской премии
+T46	EVENT 212 226	Премия вручена
+T47	PROFESSION 384 391	учёными
+T48	ORGANIZATION 1142 1165	Нагойского университета
+T49	AWARD 1118 1165	заслуженным профессором Нагойского университета
+T50	ORGANIZATION 1242 1265	Нагойского университета
+T51	PROFESSION 1231 1265	профессора Нагойского университета
+T52	PERSON 1307 1314	Акасаки
+T53	ORGANIZATION 1457 1485	Калифорнийского университета
+T54	PROFESSION 1447 1485	профессор Калифорнийского университета
+R1	AWARDED_WITH Arg1:T3 Arg2:T43	
+R2	AWARDED_WITH Arg1:T4 Arg2:T44	
+R3	AWARDED_WITH Arg1:T5 Arg2:T44	
+R4	AGE_IS Arg1:T10 Arg2:T11	
+R5	WORKS_AS Arg1:T10 Arg2:T12	
+R6	WORKPLACE Arg1:T10 Arg2:T13	
+R7	AWARDED_WITH Arg1:T10 Arg2:T49	
+R8	DATE_OF_BIRTH Arg1:T15 Arg2:T16	
+R9	WORKS_AS Arg1:T15 Arg2:T51	
+R10	WORKPLACE Arg1:T15 Arg2:T50	
+R11	KNOWS Arg1:T15 Arg2:T52	
+R12	DATE_OF_BIRTH Arg1:T20 Arg2:T21	
+R13	ORIGINS_FROM Arg1:T20 Arg2:T23	
+R14	PLACE_RESIDES_IN Arg1:T20 Arg2:T24	
+R15	WORKS_AS Arg1:T20 Arg2:T54	
+R16	WORKPLACE Arg1:T20 Arg2:T53	
+R17	HEADQUARTERED_IN Arg1:T53 Arg2:T26	
+R18	AGE_IS Arg1:T28 Arg2:T27	
+R19	AGE_IS Arg1:T30 Arg2:T29	
+R20	WORKPLACE Arg1:T28 Arg2:T31	
+R21	WORKPLACE Arg1:T30 Arg2:T31	
+R22	AGE_IS Arg1:T33 Arg2:T32	
+R23	WORKPLACE Arg1:T33 Arg2:T34	
+R24	POINT_IN_TIME Arg1:T46 Arg2:T1	
+R25	TAKES_PLACE_IN Arg1:T46 Arg2:T2	
+R26	PARTICIPANT_IN Arg1:T3 Arg2:T46	
+R27	PARTICIPANT_IN Arg1:T4 Arg2:T46	
+R28	PARTICIPANT_IN Arg1:T5 Arg2:T46	
+R29	WORKS_AS Arg1:T3 Arg2:T47	
+R30	WORKS_AS Arg1:T4 Arg2:T47	
+R31	WORKS_AS Arg1:T5 Arg2:T47	
+R32	WORKPLACE Arg1:T12 Arg2:T13	
+R33	WORKPLACE Arg1:T51 Arg2:T50	
+T55	STATE_OR_PROVINCE 1457 1472	Калифорнийского
+R34	WORKPLACE Arg1:T54 Arg2:T53	
+R35	POINT_IN_TIME Arg1:T44 Arg2:T1	
+R36	ORIGINS_FROM Arg1:T49 Arg2:T48	
+T56	PERSON 0 11	Нобелевской
+R37	PRODUCES Arg1:T56 Arg2:T41	
+T57	PERSON 93 104	Нобелевской
+R38	PRODUCES Arg1:T57 Arg2:T45	
+N1	Reference T2 Wikidata:Q1754	Стокгольм
+N2	Reference T5 Wikidata:Q730065	Накамура, Сюдзи
+N3	Reference T8 Wikidata:Q217365	Bell Labs
+N5	Reference T10 Wikidata:Q1673706	Исаму Акасаки
+N10	Reference T24 Wikidata:Q30	США
+N11	Reference T25 Wikidata:Q121594	профессор
+N12	Reference T26 Wikidata:Q159288	Санта-Барбара
+N13	Reference T30 Wikidata:Q11443689	Амано, Хироси
+N16	Reference T41 Wikidata:Q7191	Нобелевская премия
+N17	Reference T42 Wikidata:Q38104	Нобелевская премия по физике
+N19	Reference T47 Wikidata:Q901	учёный
+N20	Reference T48 Wikidata:Q1191132	Нагойский университет
+N21	Reference T49 Wikidata:Q4311688	Нагорское
+N23	Reference T53 Wikidata:Q184478	Калифорнийский университет
+N26	Reference T56 Wikidata:Q23810	Альфред Нобель
+N18	Reference T43 Wikidata:NULL	нет данных
+N4	Reference T9 Wikidata:Q170416	
+N6	Reference T13 Wikidata:Q847117	
+N7	Reference T14 Wikidata:NULL	нет данных
+N22	Reference T51 Wikidata:NULL	нет данных
+N8	Reference T19 Wikidata:Q18245166	
+N27	Reference T52 Wikidata:Q1673706	Исаму Акасаки
+N9	Reference T23 Wikidata:Q161652	японцы
+N25	Reference T55 Wikidata:Q99	Калифорния
+N24	Reference T54 Wikidata:NULL	нет данных
+N14	Reference T31 Wikidata:Q1149777	
+N15	Reference T34 Wikidata:Q1926489	
+N28	Reference T36 Wikidata:Q730065	Накамура, Сюдзи
+N29	Reference T39 Wikidata:Q11443689	Амано, Хироси
+N30	Reference T33 Wikidata:Q730065	Накамура, Сюдзи
+N31	Reference T20 Wikidata:Q730065	Накамура, Сюдзи
+N32	Reference T3 Wikidata:Q1673706	Исаму Акасаки
+N33	Reference T28 Wikidata:Q1673706	Исаму Акасаки
+N34	Reference T17 Wikidata:Q121594	профессор
+N35	Reference T12 Wikidata:Q121594	профессор
+N36	Reference T4 Wikidata:Q11443689	Амано, Хироси
+N37	Reference T15 Wikidata:Q11443689	Амано, Хироси
+N38	Reference T45 Wikidata:Q7191	Нобелевская премия
+N39	Reference T44 Wikidata:Q38104	Нобелевская премия по физике
+N40	Reference T50 Wikidata:Q1191132	Нагойский университет
+N41	Reference T57 Wikidata:Q23810	Альфред Нобель
+N42	Reference T38 Wikidata:Q1673706	Исаму Акасаки
+T58	EVENT 1331 1338	родился
+R39	PARTICIPANT_IN Arg1:T20 Arg2:T58	
+R40	POINT_IN_TIME Arg1:T58 Arg2:T21	

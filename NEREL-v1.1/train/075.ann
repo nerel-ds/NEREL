@@ -1,0 +1,133 @@
+T1	PERSON 0 9	Нургалиев
+T2	PROFESSION 17 47	начальника УВД Томской области
+T3	PROFESSION 48 77	Начальник УВД Томской области
+T5	PERSON 78 92	Виктор Гречман
+T6	ORGANIZATION 143 152	Интерфакс
+T7	ORGANIZATION 168 184	пресс-службу МВД
+T9	PERSON 221 236	Рашид Нургалиев
+T10	PROFESSION 250 260	президента
+T11	PERSON 264 281	Дмитрия Медведева
+T12	PERSON 293 301	Гречмана
+T13	PERSON 369 387	Константина Попова
+T14	DATE 416 434	В начале 2010 года
+T16	AGE 495 504	26-летний
+T17	PERSON 505 519	Алексей Митаев
+T18	PERSON 521 527	Попова
+T19	DATE 569 578	20 января
+T20	PERSON 630 636	Митаев
+T21	PERSON 778 785	Митаеву
+T22	STATE_OR_PROVINCE 32 47	Томской области
+T23	ORGANIZATION 28 31	УВД
+T24	ORGANIZATION 58 77	УВД Томской области
+T25	ORGANIZATION 58 61	УВД
+T26	STATE_OR_PROVINCE 62 77	Томской области
+T4	COUNTRY 261 263	РФ
+T27	ORGANIZATION 181 184	МВД
+T28	PROFESSION 205 220	глава ведомства
+T29	PROFESSION 250 263	президента РФ
+T30	PROFESSION 322 332	журналисты
+T31	PROFESSION 402 414	милиционером
+T32	AGE 435 445	47-летнего
+T33	PROFESSION 446 456	журналиста
+T35	EVENT 339 357	жестокого избиения
+T37	PROFESSION 703 713	журналиста
+T38	EVENT 694 702	избиение
+T8	DISEASE 595 627	тяжелых травм внутренних органов
+T15	EVENT 489 494	избил
+T36	ORGANIZATION 28 47	УВД Томской области
+T39	EVENT 10 16	уволил
+R1	AGENT Arg1:T1 Arg2:T39	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T39	
+R3	WORKS_AS Arg1:T5 Arg2:T3	
+R4	WORKPLACE Arg1:T5 Arg2:T24	
+R5	WORKS_AS Arg1:T9 Arg2:T28	
+R6	WORKS_AS Arg1:T11 Arg2:T29	
+R7	WORKPLACE Arg1:T11 Arg2:T4	
+T40	CITY 314 321	томские
+R8	PARTICIPANT_IN Arg1:T13 Arg2:T35	
+R9	AGENT Arg1:T31 Arg2:T35	
+R10	AGE_IS Arg1:T17 Arg2:T16	
+R11	AGENT Arg1:T17 Arg2:T15	
+R12	POINT_IN_TIME Arg1:T15 Arg2:T14	
+R13	AGE_IS Arg1:T33 Arg2:T32	
+R14	WORKS_AS Arg1:T13 Arg2:T33	
+T34	EVENT 457 479	забрали в вытрезвитель
+R15	PARTICIPANT_IN Arg1:T33 Arg2:T34	
+R16	POINT_IN_TIME Arg1:T34 Arg2:T14	
+R17	DATE_OF_DEATH Arg1:T18 Arg2:T19	
+R18	CAUSE_OF_DEATH Arg1:T18 Arg2:T8	
+T41	EVENT 641 650	арестован
+R19	PARTICIPANT_IN Arg1:T20 Arg2:T41	
+R20	PARTICIPANT_IN Arg1:T37 Arg2:T38	
+R21	PARTICIPANT_IN Arg1:T20 Arg2:T38	
+T42	CRIME 815 859	умышленном причинении тяжкого вреда здоровью
+T43	CRIME 862 895	превышении должностных полномочий
+T44	CRIME 980 1000	тяжкого преступления
+T45	EVENT 93 127	освобожден от занимаемой должности
+R22	ALTERNATIVE_NAME Arg1:T39 Arg2:T45	
+R23	WORKPLACE Arg1:T2 Arg2:T36	
+R24	HEADQUARTERED_IN Arg1:T36 Arg2:T22	
+R25	WORKPLACE Arg1:T3 Arg2:T24	
+R26	HEADQUARTERED_IN Arg1:T24 Arg2:T26	
+R27	PARTICIPANT_IN Arg1:T5 Arg2:T45	
+R28	ALTERNATIVE_NAME Arg1:T1 Arg2:T9	
+R29	WORKPLACE Arg1:T29 Arg2:T4	
+R30	ALTERNATIVE_NAME Arg1:T5 Arg2:T12	
+R31	ORIGINS_FROM Arg1:T30 Arg2:T40	
+R34	AGE_IS Arg1:T13 Arg2:T32	
+R35	ALTERNATIVE_NAME Arg1:T35 Arg2:T15	
+R32	WORKS_AS Arg1:T17 Arg2:T31	
+T46	EVENT 582 591	скончался
+R33	PARTICIPANT_IN Arg1:T18 Arg2:T46	
+R36	POINT_IN_TIME Arg1:T46 Arg2:T19	
+R37	ALTERNATIVE_NAME Arg1:T17 Arg2:T20	
+R38	ALTERNATIVE_NAME Arg1:T15 Arg2:T38	
+R39	PART_OF Arg1:T7 Arg2:T27	
+T47	EVENT 284 292	Отставки
+R40	PARTICIPANT_IN Arg1:T12 Arg2:T47	
+R41	ALTERNATIVE_NAME Arg1:T45 Arg2:T47	
+R42	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+T48	EVENT 528 548	доставили в больницу
+R43	PARTICIPANT_IN Arg1:T18 Arg2:T48	
+R44	HAS_CAUSE Arg1:T48 Arg2:T15	
+T49	EVENT 550 564	прооперировали
+R45	PARTICIPANT_IN Arg1:T18 Arg2:T49	
+R46	HAS_CAUSE Arg1:T49 Arg2:T15	
+R47	HAS_CAUSE Arg1:T46 Arg2:T8	
+T50	EVENT 655 682	дал признательные показания
+R48	AGENT Arg1:T20 Arg2:T50	
+R49	HAS_CAUSE Arg1:T50 Arg2:T38	
+R50	CONVICTED_OF Arg1:T21 Arg2:T42	
+R51	CONVICTED_OF Arg1:T21 Arg2:T43	
+T51	EVENT 913 933	смертью потерпевшего
+R52	ALTERNATIVE_NAME Arg1:T46 Arg2:T51	
+N3	Reference T6 Wikidata:Q379271	Интерфакс
+N5	Reference T9 Wikidata:Q357321	Рашид Гумарович Нургалиев
+N6	Reference T10 Wikidata:Q30461	президент
+N7	Reference T11 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N14	Reference T4 Wikidata:Q159	Россия
+N15	Reference T27 Wikidata:Q6589202	министерство внутренних дел
+N17	Reference T29 Wikidata:Q218295	президент Российской Федерации
+N19	Reference T37 Wikidata:Q1930187	журналист
+N11	Reference T22 Wikidata:Q5884	
+N12	Reference T23 Wikidata:NULL	нет данных
+N1	Reference T2 Wikidata:NULL	нет данных
+N13	Reference T24 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:NULL	нет данных
+N4	Reference T7 Wikidata:NULL	нет данных
+N16	Reference T28 Wikidata:NULL	нет данных
+N8	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T18 Wikidata:NULL	нет данных
+N10	Reference T21 Wikidata:NULL	нет данных
+N20	Reference T40 Wikidata:Q976	
+N18	Reference T31 Wikidata:Q60032090	
+N21	Reference T1 Wikidata:Q357321	Рашид Гумарович Нургалиев
+N22	Reference T30 Wikidata:Q1930187	журналист
+N23	Reference T33 Wikidata:Q1930187	журналист
+N24	Reference T26 Wikidata:Q5884	
+N25	Reference T25 Wikidata:NULL	нет данных
+N26	Reference T3 Wikidata:NULL	нет данных
+N27	Reference T36 Wikidata:NULL	нет данных
+N28	Reference T12 Wikidata:NULL	нет данных
+N29	Reference T20 Wikidata:NULL	нет данных
+N30	Reference T13 Wikidata:NULL	нет данных

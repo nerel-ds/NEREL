@@ -1,0 +1,124 @@
+T2	DATE 35 65	Во вторник, 17 марта 2020 года
+T3	PERSON 72 86	Эдуард Лимонов
+T4	AGE 97 103	77 лет
+T5	PROFESSION 122 129	депутат
+T6	PERSON 138 153	Сергей Шаргунов
+T7	PRODUCT 162 177	Telegram-канале
+T8	ORGANIZATION 180 184	Mash
+T9	DATE 196 209	два дня назад
+T10	DATE 212 220	15 марта
+T11	PERSON 221 237	Эдуарда Лимонова
+T13	LOCATION 284 297	центре Москвы
+T14	PERSON 335 342	Лимонов
+T15	PERSON 488 496	Лимонова
+T16	DATE 571 587	4 июня 2018 года
+T17	PROFESSION 601 637	лидер Национал-большевистской партии
+T18	ORGANIZATION 607 637	Национал-большевистской партии
+T19	PERSON 638 652	Эдуард Лимонов
+T20	PRODUCT 663 670	Twitter
+T21	COUNTRY 722 728	Россию
+T22	COUNTRY 757 764	Украины
+T23	CITY 775 783	Харькова
+T24	PERSON 803 813	Назарбаева
+T25	COUNTRY 833 842	Казахстан
+T26	COUNTRY 861 866	Китаю
+T27	LOCATION 875 881	Каспию
+T28	COUNTRY 932 942	Казахстана
+T29	NATIONALITY 949 957	китайцам
+T30	PRODUCT 997 1005	Facebook
+T31	DATE 1006 1035	в пятницу, 13 марта 2020 года
+T32	PERSON 1037 1043	Эдуард
+T33	DATE 1258 1263	вчера
+T34	ORGANIZATION 1289 1293	Базы
+T35	PERSON 1311 1327	Эдуарда Лимонова
+T38	PERSON 1425 1431	Эдичка
+T39	EVENT 0 4	Умер
+T40	PERSON 5 19	Эдуард Лимонов
+T41	PERSON 20 34	Эдуард Лимонов
+T42	EVENT 67 71	умер
+T43	ORGANIZATION 130 137	Госдумы
+T44	PROFESSION 122 137	депутат Госдумы
+T45	EVENT 248 265	госпитализировали
+T12	CITY 291 297	Москвы
+T46	DISEASE 363 373	онкологией
+T47	DISEASE 392 404	кровотечение
+T48	DATE 446 453	Сегодня
+T49	DISEASE 558 568	воспаление
+T51	COUNTRY 826 832	Китаем
+T52	LAW 895 921	пакта Молотова Риббентропа
+T53	PERSON 901 909	Молотова
+T54	PERSON 910 921	Риббентропа
+T55	LOCATION 958 964	восток
+T56	WORK_OF_ART 1103 1122	Старик путешествует
+T36	WORK_OF_ART 1340 1359	Старик путешествует
+R1	PARTICIPANT_IN Arg1:T40 Arg2:T39	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T42	
+R3	POINT_IN_TIME Arg1:T42 Arg2:T2	
+R4	AGE_DIED_AT Arg1:T3 Arg2:T4	
+R5	DATE_OF_DEATH Arg1:T3 Arg2:T2	
+R6	WORKS_AS Arg1:T6 Arg2:T44	
+R7	WORKPLACE Arg1:T6 Arg2:T43	
+R8	PARTICIPANT_IN Arg1:T11 Arg2:T45	
+R9	POINT_IN_TIME Arg1:T45 Arg2:T10	
+R10	MEDICAL_CONDITION Arg1:T14 Arg2:T46	
+R11	MEDICAL_CONDITION Arg1:T14 Arg2:T47	
+R12	MEDICAL_CONDITION Arg1:T14 Arg2:T49	
+R13	LOCATED_IN Arg1:T23 Arg2:T22	
+R14	FOUNDED_BY Arg1:T18 Arg2:T19	
+R15	WORKS_AS Arg1:T19 Arg2:T17	
+R16	PRODUCES Arg1:T32 Arg2:T56	
+R17	PRODUCES Arg1:T35 Arg2:T36	
+R18	WORKPLACE Arg1:T44 Arg2:T43	
+R19	PLACE_RESIDES_IN Arg1:T11 Arg2:T13	
+R20	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+T37	DISEASE 527 544	проблемы с горлом
+R21	MEDICAL_CONDITION Arg1:T15 Arg2:T37	
+R22	ABBREVIATION Arg1:T17 Arg2:T18	
+R23	ORIGINS_FROM Arg1:T24 Arg2:T25	
+R24	PRODUCES Arg1:T53 Arg2:T52	
+R25	PRODUCES Arg1:T54 Arg2:T52	
+T50	IDEOLOGY 607 630	Национал-большевистской
+R26	IDEOLOGY_OF Arg1:T18 Arg2:T50	
+R27	IDEOLOGY_OF Arg1:T19 Arg2:T50	
+T57	LANGUAGE 733 748	русскоговорящие
+R28	LOCATED_IN Arg1:T13 Arg2:T12	
+N1	Reference T5 Wikidata:Q486839	член парламента
+N2	Reference T6 Wikidata:Q2272536	Сергей Александрович Шаргунов
+N6	Reference T18 Wikidata:Q321022	Национал-большевистская партия
+N7	Reference T20 Wikidata:Q918	Твиттер
+N8	Reference T21 Wikidata:Q159	Россия
+N9	Reference T22 Wikidata:Q212	Украина
+N10	Reference T23 Wikidata:Q42308	Харьков
+N11	Reference T24 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N12	Reference T25 Wikidata:Q232	Казахстан
+N13	Reference T26 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T27 Wikidata:Q5484	Каспийское море
+N16	Reference T30 Wikidata:Q355	Facebook
+N18	Reference T35 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N19	Reference T38 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N20	Reference T43 Wikidata:Q715641	Государственная дума
+N21	Reference T12 Wikidata:Q649	Москва
+N22	Reference T52 Wikidata:Q130796	Договор о ненападении между Германией и Советским Союзом
+N24	Reference T54 Wikidata:Q101886	Иоахим фон Риббентроп
+N27	Reference T44 Wikidata:Q17276321	
+N28	Reference T8 Wikidata:Q48954641	Mash
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N29	Reference T57 Wikidata:Q2622713	
+N23	Reference T53 Wikidata:Q132899	
+N15	Reference T29 Wikidata:Q6501380	китайцы
+N25	Reference T55 Wikidata:Q205653	
+N30	Reference T32 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N26	Reference T56 Wikidata:NULL	нет данных
+N17	Reference T34 Wikidata:NULL	нет данных
+N3	Reference T7 Wikidata:Q87410555	
+N31	Reference T28 Wikidata:Q232	Казахстан
+N32	Reference T51 Wikidata:Q148	Китайская Народная Республика
+N33	Reference T14 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N34	Reference T41 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N35	Reference T19 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N36	Reference T11 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N37	Reference T15 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N38	Reference T3 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N39	Reference T40 Wikidata:Q295537	Эдуард Вениаминович Лимонов
+N40	Reference T36 Wikidata:NULL	нет данных

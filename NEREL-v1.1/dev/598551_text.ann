@@ -1,0 +1,130 @@
+T1	COUNTRY 2 10	Британии
+T2	AGE 32 44	13-ти летний
+T4	FACILITY 63 79	Пикадилли-сёркус
+T5	FACILITY 81 98	Piccadilly Circus
+T6	AGE 148 157	13-летний
+T7	COUNTRY 217 225	Британии
+T9	DATE 243 276	в понедельник, 30 марта 2020 года
+T10	DATE 279 296	В прошлую пятницу
+T12	ORGANIZATION 347 376	Королевского колледжа Лондона
+T13	ORGANIZATION 378 399	King’s College London
+T14	ORGANIZATION 401 404	KCL
+T15	AGE 412 422	13-летнего
+T16	PERSON 423 451	Исмаила Мохамеда Абдулвахаба
+T17	DISTRICT 455 464	Брикстона
+T18	DISEASE 523 533	SARS-CoV-2
+T19	PROFESSION 551 568	представитель NHS
+T20	ORGANIZATION 570 620	Национальная служба здравоохранения Великобритании
+T21	ORGANIZATION 623 644	Public Health England
+T23	TIME 648 669	На 17:00 понедельника
+T24	COUNTRY 672 680	Британии
+T25	COUNTRY 772 780	Британии
+T26	PERCENT 802 806	27 %
+T27	PROFESSION 809 824	Премьер-министр
+T28	PERSON 840 853	Борис Джонсон
+T29	DATE 854 874	во вторник, 31 марта
+T30	PROFESSION 952 975	Министр здравоохранения
+T31	PERSON 976 987	Мэтт Хэнкок
+T32	PERSON 1016 1029	Борис Джонсон
+T33	DATE 1125 1135	во вторник
+T34	ORGANIZATION 1136 1164	министерство здравоохранения
+T35	COUNTRY 1177 1185	Британии
+T36	TIME 1186 1207	на 17:00 понедельника
+T37	NUMBER 1237 1241	1789
+T38	DATE 1343 1356	в воскресенье
+T39	COUNTRY 1369 1377	Британии
+T40	NUMBER 1385 1388	367
+T42	DISEASE 1454 1462	COVID-19
+T3	EVENT 11 31	умер от коронавируса
+T43	DISEASE 19 31	коронавируса
+T44	CITY 130 141	лондонского
+T45	TIME 237 276	утром в понедельник, 30 марта 2020 года
+T46	EVENT 321 335	госпитализации
+T47	CITY 369 376	Лондона
+T48	LOCATION 468 479	юге Лондона
+T49	CITY 472 479	Лондона
+T50	DISEASE 511 533	коронавирус SARS-CoV-2
+T51	COUNTRY 606 620	Великобритании
+T52	ORGANIZATION 565 568	NHS
+T22	DATE 657 669	понедельника
+T53	DISEASE 698 711	коронавирусом
+T55	DISEASE 757 769	коронавируса
+T56	COUNTRY 825 839	Великобритании
+T57	PROFESSION 809 839	Премьер-министр Великобритании
+T58	PROFESSION 952 959	Министр
+T60	DISEASE 1002 1009	вирусом
+T61	DATE 1037 1047	во вторник
+T62	DATE 1195 1207	понедельника
+T64	DISEASE 1280 1291	коронавирус
+R1	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R2	LOCATED_IN Arg1:T4 Arg2:T44	
+R3	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R4	ALTERNATIVE_NAME Arg1:T12 Arg2:T14	
+T41	CITY 393 399	London
+R5	AGE_IS Arg1:T16 Arg2:T15	
+R6	PLACE_RESIDES_IN Arg1:T16 Arg2:T17	
+R7	LOCATED_IN Arg1:T17 Arg2:T48	
+R8	MEDICAL_CONDITION Arg1:T16 Arg2:T50	
+R9	WORKS_AS Arg1:T28 Arg2:T57	
+R10	WORKPLACE Arg1:T28 Arg2:T56	
+R11	WORKS_AS Arg1:T31 Arg2:T30	
+R12	MEDICAL_CONDITION Arg1:T31 Arg2:T60	
+R13	MEDICAL_CONDITION Arg1:T32 Arg2:T60	
+T54	COUNTRY 637 644	England
+R14	ALTERNATIVE_NAME Arg1:T52 Arg2:T20	
+R15	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R16	PARTICIPANT_IN Arg1:T16 Arg2:T46	
+T11	FACILITY 338 376	больницу Королевского колледжа Лондона
+T59	EVENT 205 214	скончался
+R17	POINT_IN_TIME Arg1:T59 Arg2:T9	
+R18	PARTICIPANT_IN Arg1:T16 Arg2:T59	
+R19	TAKES_PLACE_IN Arg1:T3 Arg2:T1	
+R20	TAKES_PLACE_IN Arg1:T59 Arg2:T7	
+R21	ALTERNATIVE_NAME Arg1:T3 Arg2:T59	
+R22	HEADQUARTERED_IN Arg1:T12 Arg2:T47	
+R23	ALTERNATIVE_NAME Arg1:T47 Arg2:T41	
+R24	HEADQUARTERED_IN Arg1:T13 Arg2:T41	
+R25	HEADQUARTERED_IN Arg1:T20 Arg2:T51	
+R26	ALTERNATIVE_NAME Arg1:T51 Arg2:T54	
+R27	ALTERNATIVE_NAME Arg1:T51 Arg2:T24	
+R28	WORKPLACE Arg1:T57 Arg2:T56	
+R29	HEADQUARTERED_IN Arg1:T34 Arg2:T35	
+T8	EVENT 1444 1462	эпидемией COVID-19
+T63	DATE 1460 1462	19
+N4	Reference T17 Wikidata:Q146690	Брикстон
+N7	Reference T27 Wikidata:Q14212	премьер-министр
+N8	Reference T31 Wikidata:Q478161	Мэттью Хэнкок
+N9	Reference T32 Wikidata:Q180589	Борис Джонсон
+N11	Reference T35 Wikidata:Q145	Великобритания
+N12	Reference T44 Wikidata:Q2012691	Лондонская
+N14	Reference T49 Wikidata:Q84	Лондон
+N15	Reference T57 Wikidata:Q14211	премьер-министр Великобритании
+N16	Reference T58 Wikidata:Q83307	министр
+N1	Reference T5 Wikidata:Q26448	
+N17	Reference T11 Wikidata:NULL	нет данных
+N2	Reference T13 Wikidata:Q245247	Королевский колледж Лондона
+N3	Reference T16 Wikidata:NULL	нет данных
+N13	Reference T48 Wikidata:Q1394500	
+N6	Reference T21 Wikidata:Q7257402	
+N5	Reference T19 Wikidata:NULL	нет данных
+N18	Reference T30 Wikidata:Q3273722	
+N10	Reference T34 Wikidata:Q1519799	
+N19	Reference T28 Wikidata:Q180589	Борис Джонсон
+N20	Reference T25 Wikidata:Q145	Великобритания
+N21	Reference T51 Wikidata:Q145	Великобритания
+N22	Reference T56 Wikidata:Q145	Великобритания
+N23	Reference T54 Wikidata:Q145	Великобритания
+N24	Reference T7 Wikidata:Q145	Великобритания
+N25	Reference T1 Wikidata:Q145	Великобритания
+N26	Reference T39 Wikidata:Q145	Великобритания
+N27	Reference T24 Wikidata:Q145	Великобритания
+N28	Reference T47 Wikidata:Q84	Лондон
+N29	Reference T41 Wikidata:Q84	Лондон
+N30	Reference T4 Wikidata:Q26448	
+N31	Reference T12 Wikidata:Q245247	Королевский колледж Лондона
+N32	Reference T14 Wikidata:Q245247	Королевский колледж Лондона
+N33	Reference T52 Wikidata:Q7257402	
+N34	Reference T20 Wikidata:Q7257402	
+R30	HAS_CAUSE Arg1:T8 Arg2:T42	
+R31	POINT_IN_TIME Arg1:T8 Arg2:T63	
+R32	WORKPLACE Arg1:T31 Arg2:T56	

@@ -1,0 +1,192 @@
+T1	ORGANIZATION 1 8	Спартак
+T3	DATE 57 76	5 августа 2016 года
+T4	ORGANIZATION 81 88	Спартак
+T5	PROFESSION 110 126	главного тренера
+T6	PERSON 135 152	Дмитрия Аленичева
+T7	DATE 217 226	5 августа
+T8	ORGANIZATION 243 251	Спартака
+T9	PERSON 253 269	Дмитрий Аленичев
+T10	ORGANIZATION 308 316	Спартаке
+T11	DATE 319 326	Сегодня
+T13	ORGANIZATION 351 365	Спартак-Москва
+T14	PERSON 388 408	Дмитрия Анатольевича
+T15	PROFESSION 459 475	главного тренера
+T16	PERSON 516 531	Массимо Каррера
+T17	ORGANIZATION 550 564	Спартак-Москва
+T18	PERSON 577 594	Дмитрия Аленичева
+T19	AGE 665 674	43-летний
+T20	PERSON 675 683	Аленчиев
+T21	PROFESSION 692 700	тренером
+T22	ORGANIZATION 701 709	Спартака
+T23	DATE 710 729	с 10 июня 2015 года
+T24	DATE 733 747	прошлом сезоне
+T25	ORDINAL 790 796	пятого
+T26	DATE 804 815	Новый сезон
+T27	CITY 849 857	тульским
+T28	ORGANIZATION 859 868	Арсеналом
+T29	NUMBER 880 881	4
+T30	COUNTRY 910 919	кипрскому
+T31	ORGANIZATION 920 923	АЕК
+T32	NUMBER 929 930	1
+T34	NUMBER 944 948	двум
+T35	ORDINAL 973 976	3-й
+T36	PERSON 1037 1065	Дмитрий Анатольевич Аленичев
+T37	COUNTRY 1068 1077	советский
+T38	COUNTRY 1080 1090	российский
+T39	AWARD 1116 1141	Заслуженный мастер спорта
+T40	COUNTRY 1170 1180	российский
+T41	DATE 1224 1235	в 2003 году
+T42	EVENT 1251 1270	Лиги чемпионов УЕФА
+T43	DATE 1272 1283	в 2004 году
+T44	NUMBER 1329 1333	Один
+T45	NUMBER 1337 1344	четырёх
+T46	NUMBER 1376 1380	двух
+T47	PERSON 1424 1429	Куман
+T48	PERSON 1431 1438	Роналдо
+T49	PERSON 1440 1448	Джеррард
+T50	DATE 1476 1487	в 2010 году
+T51	AGE 1520 1526	18 лет
+T54	PROFESSION 227 241	главный тренер
+T56	PROFESSION 692 709	тренером Спартака
+T57	PROFESSION 1345 1356	футболистов
+T58	PROFESSION 1181 1190	футболист
+T59	AWARD 1212 1222	Кубка УЕФА
+T60	ORGANIZATION 1218 1222	УЕФА
+T61	AWARD 1239 1270	победителем Лиги чемпионов УЕФА
+T62	ORGANIZATION 1266 1270	УЕФА
+T63	COUNTRY 1142 1148	России
+T64	DATE 1150 1154	2003
+T65	AWARD 1116 1148	Заслуженный мастер спорта России
+T66	PROFESSION 1091 1100	футболист
+T67	PROFESSION 1102 1114	полузащитник
+T68	EVENT 994 1005	Лиги Европы
+T69	NUMBER 924 925	0
+T70	EVENT 776 787	Лигу Европы
+T71	EVENT 101 109	отставке
+T72	EVENT 21 29	отставку
+R3	AGENT Arg1:T1 Arg2:T72	
+R4	WORKS_AS Arg1:T6 Arg2:T5	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T71	
+R6	POINT_IN_TIME Arg1:T71 Arg2:T3	
+R7	AGENT Arg1:T4 Arg2:T71	
+R8	WORKPLACE Arg1:T6 Arg2:T4	
+R9	WORKPLACE Arg1:T5 Arg2:T4	
+T55	PROFESSION 227 251	главный тренер «Спартака
+R10	WORKPLACE Arg1:T55 Arg2:T8	
+R11	WORKS_AS Arg1:T9 Arg2:T55	
+R12	WORKPLACE Arg1:T9 Arg2:T8	
+T12	ORGANIZATION 330 365	совет директоров ФК «Спартак-Москва
+R13	PART_OF Arg1:T12 Arg2:T13	
+R14	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+T73	CITY 359 365	Москва
+R15	HEADQUARTERED_IN Arg1:T13 Arg2:T73	
+R16	WORKPLACE Arg1:T15 Arg2:T13	
+R17	WORKS_AS Arg1:T16 Arg2:T15	
+R18	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+R19	WORKPLACE Arg1:T16 Arg2:T13	
+R20	WORKPLACE Arg1:T18 Arg2:T17	
+T74	CITY 557 564	-Москва
+R21	HEADQUARTERED_IN Arg1:T17 Arg2:T74	
+R22	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R23	AGE_IS Arg1:T20 Arg2:T19	
+R24	WORKPLACE Arg1:T56 Arg2:T22	
+R25	WORKS_AS Arg1:T20 Arg2:T56	
+R26	WORKPLACE Arg1:T20 Arg2:T22	
+R27	PARTICIPANT_IN Arg1:T22 Arg2:T70	
+R28	POINT_IN_TIME Arg1:T70 Arg2:T24	
+R29	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+R30	HEADQUARTERED_IN Arg1:T31 Arg2:T30	
+T75	LOCATION 999 1005	Европы
+R31	TAKES_PLACE_IN Arg1:T68 Arg2:T75	
+T76	LOCATION 781 787	Европы
+R32	TAKES_PLACE_IN Arg1:T70 Arg2:T76	
+R33	ALTERNATIVE_NAME Arg1:T18 Arg2:T36	
+R34	WORKS_AS Arg1:T36 Arg2:T66	
+R35	WORKS_AS Arg1:T36 Arg2:T67	
+R36	ORIGINS_FROM Arg1:T36 Arg2:T37	
+R37	ORIGINS_FROM Arg1:T36 Arg2:T38	
+R38	ORIGINS_FROM Arg1:T66 Arg2:T38	
+R39	ORIGINS_FROM Arg1:T66 Arg2:T37	
+R40	ORIGINS_FROM Arg1:T67 Arg2:T38	
+R41	ORIGINS_FROM Arg1:T67 Arg2:T37	
+R42	WORKS_AS Arg1:T47 Arg2:T57	
+R43	WORKS_AS Arg1:T48 Arg2:T57	
+R44	WORKS_AS Arg1:T49 Arg2:T57	
+R45	ORIGINS_FROM Arg1:T58 Arg2:T40	
+R46	ORGANIZES Arg1:T62 Arg2:T42	
+R47	PRODUCES Arg1:T60 Arg2:T59	
+R48	AWARDED_WITH Arg1:T36 Arg2:T59	
+R49	PARTICIPANT_IN Arg1:T36 Arg2:T42	
+R50	AWARDED_WITH Arg1:T58 Arg2:T59	
+R51	PARTICIPANT_IN Arg1:T58 Arg2:T42	
+T52	PERSON 30 39	Аленичева
+T53	PERSON 40 56	Дмитрий Аленичев
+R1	ALTERNATIVE_NAME Arg1:T52 Arg2:T53	
+R2	PARTICIPANT_IN Arg1:T52 Arg2:T72	
+T2	CITY 188 199	московского
+R52	HEADQUARTERED_IN Arg1:T4 Arg2:T2	
+R53	WORKPLACE Arg1:T9 Arg2:T10	
+R54	ALTERNATIVE_NAME Arg1:T2 Arg2:T73	
+T77	ORGANIZATION 816 828	красно-белые
+R55	ALTERNATIVE_NAME Arg1:T22 Arg2:T77	
+T33	ORGANIZATION 891 899	москвичи
+R56	ALTERNATIVE_NAME Arg1:T77 Arg2:T33	
+R57	ORIGINS_FROM Arg1:T65 Arg2:T63	
+R58	POINT_IN_TIME Arg1:T65 Arg2:T64	
+R59	AWARDED_WITH Arg1:T36 Arg2:T65	
+R60	AWARDED_WITH Arg1:T58 Arg2:T61	
+R61	ORIGINS_FROM Arg1:T61 Arg2:T42	
+T78	NUMBER 926 927	1
+T79	NUMBER 931 932	2
+T80	NUMBER 882 883	0
+N1	Reference T9 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N2	Reference T10 Wikidata:Q29112	Спартак
+N3	Reference T16 Wikidata:Q980189	Массимо Каррера
+N4	Reference T17 Wikidata:Q29112	Спартак
+N5	Reference T18 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N6	Reference T21 Wikidata:Q41583	тренер
+N10	Reference T31 Wikidata:Q201584	АЕК
+N15	Reference T48 Wikidata:Q529207	Роналдо
+N17	Reference T58 Wikidata:Q937857	футболист
+N18	Reference T59 Wikidata:Q40241	Кубок обладателей кубков УЕФА
+N19	Reference T61 Wikidata:Q18756	Лига чемпионов УЕФА
+N20	Reference T62 Wikidata:Q35572	УЕФА
+N21	Reference T63 Wikidata:Q159	Россия
+N22	Reference T65 Wikidata:Q32164	заслуженный мастер спорта России
+N23	Reference T67 Wikidata:Q193592	полузащитник
+N26	Reference T73 Wikidata:Q649	Москва
+N27	Reference T74 Wikidata:Q649	Москва
+N29	Reference T53 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N30	Reference T5 Wikidata:Q3246315	
+N31	Reference T54 Wikidata:Q3246315	
+N24	Reference T55 Wikidata:NULL	нет данных
+N25	Reference T12 Wikidata:NULL	нет данных
+N16	Reference T56 Wikidata:NULL	нет данных
+N7	Reference T27 Wikidata:Q2770	Тула
+N8	Reference T28 Wikidata:Q2817362	Арсенал
+N9	Reference T30 Wikidata:Q229	Кипр
+N28	Reference T75 Wikidata:Q18760	
+N11	Reference T37 Wikidata:Q15180	СССР
+N12	Reference T38 Wikidata:Q159	Россия
+N13	Reference T39 Wikidata:NULL	нет данных
+N14	Reference T47 Wikidata:Q192635	
+N32	Reference T49 Wikidata:Q459830	
+N33	Reference T14 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N34	Reference T22 Wikidata:Q29112	Спартак
+N35	Reference T4 Wikidata:Q29112	Спартак
+N36	Reference T33 Wikidata:Q29112	Спартак
+N37	Reference T77 Wikidata:Q29112	Спартак
+N38	Reference T1 Wikidata:Q29112	Спартак
+N39	Reference T13 Wikidata:Q29112	Спартак
+N40	Reference T8 Wikidata:Q29112	Спартак
+N41	Reference T6 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N42	Reference T36 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N43	Reference T20 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N44	Reference T66 Wikidata:Q937857	футболист
+N45	Reference T57 Wikidata:Q937857	футболист
+N46	Reference T60 Wikidata:Q35572	УЕФА
+N47	Reference T2 Wikidata:Q649	Москва
+N48	Reference T52 Wikidata:Q526233	Дмитрий Анатольевич Аленичев
+N49	Reference T15 Wikidata:Q3246315	
+N50	Reference T76 Wikidata:Q18760	
+N51	Reference T40 Wikidata:Q159	Россия

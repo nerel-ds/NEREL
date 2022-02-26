@@ -1,0 +1,66 @@
+T1	PERSON 0 9	Цукерберг
+T2	MONEY 17 24	$3 млрд
+T3	PERSON 57 70	Присцилла Чан
+T4	PERSON 73 87	Марк Цукерберг
+T6	ORGANIZATION 115 123	Facebook
+T7	PERSON 124 138	Марк Цукерберг
+T8	PERSON 150 163	Присцилла Чан
+T9	DATE 173 203	в течение ближайших десяти лет
+T10	MONEY 218 225	$3 млрд
+T11	DATE 327 348	21 сентября 2016 года
+T12	EVENT 362 384	мероприятии для прессы
+T13	CITY 387 400	Сан-Франциско
+T14	STATE_OR_PROVINCE 407 417	Калифорния
+T15	MONEY 609 617	$600 млн
+T16	CITY 764 777	Сан-Франциско
+T18	PERSON 1237 1246	Цукерберг
+T22	ORGANIZATION 1496 1504	Facebook
+T23	DATE 1569 1594	к концу текущего столетия
+T24	DATE 1597 1608	В 2015 году
+T25	PERSON 1609 1618	Цукерберг
+T26	PERSON 1621 1624	Чан
+T27	ORGANIZATION 1676 1684	Facebook
+R1	SPOUSE Arg1:T3 Arg2:T4
+R4	SPOUSE Arg1:T7 Arg2:T8
+R5	TAKES_PLACE_IN Arg1:T12 Arg2:T13
+R7	OWNER_OF Arg1:T25 Arg2:T27
+R8	OWNER_OF Arg1:T26 Arg2:T27
+T17	PROFESSION 1490 1504	Глава Facebook
+R6	SPOUSE Arg1:T25 Arg2:T26	
+T20	DISEASE 46 55	болезнями
+T28	DISEASE 287 300	заболеваниями
+T29	DISEASE 542 555	заболеваниями
+T30	DISEASE 723 731	болезней
+T31	DISEASE 983 1007	инфекционные заболевания
+T33	DISEASE 1351 1378	инфекционными заболеваниями
+T35	DISEASE 1471 1476	Эбола
+T36	DISEASE 1478 1482	Зика
+T37	DISEASE 1485 1488	ВИЧ
+T38	PROFESSION 813 825	биоинженеров
+R9	EXPENDITURE Arg1:T7 Arg2:T10	
+R10	LOCATED_IN Arg1:T13 Arg2:T14	
+R11	POINT_IN_TIME Arg1:T12 Arg2:T11	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T12	
+R3	FOUNDED_BY Arg1:T6 Arg2:T7	
+R2	EXPENDITURE Arg1:T1 Arg2:T2	
+R13	ALTERNATIVE_NAME Arg1:T7 Arg2:T18	
+R14	ALTERNATIVE_NAME Arg1:T8 Arg2:T26	
+R15	WORKPLACE Arg1:T17 Arg2:T22	
+R16	WORKS_AS Arg1:T18 Arg2:T17	
+R17	WORKPLACE Arg1:T18 Arg2:T22	
+N1	Reference T1 Wikidata:Q36215	Марк Цукерберг
+N2	Reference T13 Wikidata:Q62	Сан-Франциско
+N3	Reference T14 Wikidata:Q99	Калифорния
+N5	Reference T27 Wikidata:Q355	Facebook
+N4	Reference T26 Wikidata:Q20900227	
+N6	Reference T17 Wikidata:NULL	нет данных
+N7	Reference T38 Wikidata:Q26848923	
+N8	Reference T18 Wikidata:Q36215	Марк Цукерберг
+N9	Reference T4 Wikidata:Q36215	Марк Цукерберг
+N10	Reference T7 Wikidata:Q36215	Марк Цукерберг
+N11	Reference T25 Wikidata:Q36215	Марк Цукерберг
+N12	Reference T16 Wikidata:Q62	Сан-Франциско
+N13	Reference T22 Wikidata:Q355	Facebook
+N14	Reference T6 Wikidata:Q355	Facebook
+N15	Reference T8 Wikidata:Q20900227	
+N16	Reference T3 Wikidata:Q20900227	

@@ -1,0 +1,142 @@
+T1	PERSON 5 20	Фазиль Искандер
+T2	PERSON 22 37	Фазиль Искандер
+T4	TIME 38 65	В ночь на 31 июля 2016 года
+T5	AGE 71 80	87-летний
+T6	PROFESSION 81 89	писатель
+T7	PERSON 90 105	Фазиль Искандер
+T8	ORGANIZATION 114 118	Life
+T9	PERSON 131 139	Искандер
+T10	PERSON 216 231	Фазиль Искандер
+T11	DATE 240 257	6 марта 1929 года
+T12	CITY 260 266	Сухуми
+T13	COUNTRY 268 272	СССР
+T14	DATE 274 285	В 1954 году
+T15	ORGANIZATION 294 333	Литературный институт им. А.М. Горького
+T16	AWARD 358 385	За заслуги перед Отечеством
+T17	ORDINAL 387 389	II
+T18	ORDINAL 391 394	III
+T19	ORDINAL 397 399	IV
+T21	AWARD 410 437	Государственная премия СССР
+T22	ORGANIZATION 446 466	правительства России
+T23	COUNTRY 460 466	России
+T25	COUNTRY 491 511	Российской Федерации
+T26	WORK_OF_ART 534 553	Созвездие Козлотура
+T28	WORK_OF_ART 557 573	Сандро из Чегема
+T29	CITY 567 573	Чегема
+T30	WORK_OF_ART 577 592	Кролики и удавы
+T31	WORK_OF_ART 596 603	Софичка
+T32	WORK_OF_ART 607 619	Детство Чика
+T34	WORK_OF_ART 623 649	Тринадцатый подвиг Геракла
+T35	PERSON 642 649	Геракла
+T36	WORK_OF_ART 688 701	Воры в законе
+T37	DATE 704 712	1988 год
+T38	WORK_OF_ART 716 735	Созвездие Козлотура
+T39	DATE 738 746	1989 год
+T40	WORK_OF_ART 750 786	Пиры Валтасара, или Ночь со Сталиным
+T41	DATE 789 797	1989 год
+T42	WORK_OF_ART 801 808	Софичка
+T43	DATE 821 829	2016 год
+T44	DATE 832 843	В 2009 году
+T45	ORGANIZATION 844 856	Банк Абхазии
+T46	AGE 865 873	80-летия
+T47	MONEY 916 926	10 аспаров
+R3	DATE_OF_BIRTH Arg1:T10 Arg2:T11
+R1	WORKS_AS Arg1:T7 Arg2:T6	
+T3	COUNTRY 433 437	СССР
+R2	PLACE_OF_BIRTH Arg1:T10 Arg2:T12	
+T20	PERSON 320 333	А.М. Горького
+T27	PROFESSION 874 882	писателя
+R4	AGE_DIED_AT Arg1:T7 Arg2:T5	
+T33	AWARD 439 466	Премия правительства России
+T48	AWARD 468 511	Государственная премия Российской Федерации
+T49	PERSON 615 619	Чика
+T50	COUNTRY 849 856	Абхазии
+T51	ORGANIZATION 294 315	Литературный институт
+T24	AWARD 468 490	Государственная премия
+T52	AWARD 410 432	Государственная премия
+T54	DATE 45 65	на 31 июля 2016 года
+T55	PERSON 778 786	Сталиным
+T58	DISEASE 164 180	потерял сознание
+T59	DISEASE 140 161	чувствовал себя плохо
+R5	DATE_OF_DEATH Arg1:T7 Arg2:T54	
+R6	MEDICAL_CONDITION Arg1:T9 Arg2:T59	
+R7	MEDICAL_CONDITION Arg1:T9 Arg2:T58	
+R8	SCHOOLS_ATTENDED Arg1:T10 Arg2:T15	
+T60	PERSON 755 764	Валтасара
+T61	PERSON 557 563	Сандро
+R9	AWARDED_WITH Arg1:T10 Arg2:T16	
+R10	AWARDED_WITH Arg1:T10 Arg2:T21	
+R11	AWARDED_WITH Arg1:T10 Arg2:T33	
+R12	AWARDED_WITH Arg1:T10 Arg2:T48	
+R13	PRODUCES Arg1:T10 Arg2:T26	
+R14	PRODUCES Arg1:T10 Arg2:T28	
+R15	PRODUCES Arg1:T10 Arg2:T30	
+R16	PRODUCES Arg1:T10 Arg2:T31	
+R17	LOCATED_IN Arg1:T12 Arg2:T13	
+R18	PRODUCES Arg1:T10 Arg2:T32	
+R19	PRODUCES Arg1:T10 Arg2:T34	
+R20	DATE_OF_CREATION Arg1:T36 Arg2:T37	
+R21	DATE_OF_CREATION Arg1:T38 Arg2:T39	
+R22	DATE_OF_CREATION Arg1:T40 Arg2:T41	
+R23	DATE_OF_CREATION Arg1:T42 Arg2:T43	
+R24	AGE_IS Arg1:T27 Arg2:T46	
+T53	EVENT 883 905	отчеканил новую монету
+R25	POINT_IN_TIME Arg1:T53 Arg2:T44	
+R26	AGENT Arg1:T45 Arg2:T53	
+T62	EVENT 0 4	Умер
+R27	PARTICIPANT_IN Arg1:T1 Arg2:T62	
+T63	EVENT 66 70	умер
+R28	PARTICIPANT_IN Arg1:T7 Arg2:T63	
+R29	POINT_IN_TIME Arg1:T63 Arg2:T54	
+R30	ALTERNATIVE_NAME Arg1:T2 Arg2:T9	
+R31	ORIGINS_FROM Arg1:T21 Arg2:T3	
+R32	ORIGINS_FROM Arg1:T33 Arg2:T22	
+R33	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+R34	ALTERNATIVE_NAME Arg1:T23 Arg2:T25	
+R35	ORIGINS_FROM Arg1:T48 Arg2:T25	
+R36	HEADQUARTERED_IN Arg1:T45 Arg2:T50	
+N2	Reference T10 Wikidata:Q181573	Фазиль Абдулович Искандер
+N3	Reference T12 Wikidata:Q40811	Сухум
+N4	Reference T13 Wikidata:Q15180	СССР
+N5	Reference T15 Wikidata:Q1250779	Литературный институт
+N6	Reference T16 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N7	Reference T21 Wikidata:Q758861	Государственная премия СССР
+N8	Reference T22 Wikidata:Q1140115	Правительство Российской Федерации
+N9	Reference T23 Wikidata:Q159	Россия
+N11	Reference T28 Wikidata:Q16503507	Сандро из Чегема
+N12	Reference T29 Wikidata:Q197890	Чегем
+N15	Reference T34 Wikidata:Q4463097	Тринадцатый подвиг Геракла
+N16	Reference T35 Wikidata:Q122248	Геракл
+N17	Reference T36 Wikidata:Q4126061	Воры в законе
+N18	Reference T40 Wikidata:Q4363504	Пиры Валтасара, или Ночь со Сталиным
+N19	Reference T42 Wikidata:Q46957647	Софичка
+N20	Reference T45 Wikidata:Q2001669	Национальный банк Республики Абхазия
+N22	Reference T27 Wikidata:Q36180	писатель
+N23	Reference T33 Wikidata:Q56465787	премия Правительства Российской Федерации
+N24	Reference T48 Wikidata:Q4146631	государственная премия Российской Федерации
+N26	Reference T50 Wikidata:Q23334	Абхазия
+N27	Reference T51 Wikidata:Q1250779	Литературный институт
+N28	Reference T24 Wikidata:Q4146631	государственная премия Российской Федерации
+N29	Reference T55 Wikidata:Q855	Иосиф Виссарионович Сталин
+N30	Reference T60 Wikidata:Q225198	Валтасар
+N1	Reference T8 Wikidata:Q4042868	лайф
+N21	Reference T20 Wikidata:Q12706	
+N10	Reference T26 Wikidata:Q62033030	
+N25	Reference T61 Wikidata:NULL	нет данных
+N13	Reference T30 Wikidata:Q16272103	
+N14	Reference T32 Wikidata:NULL	нет данных
+N31	Reference T49 Wikidata:NULL	нет данных
+N32	Reference T1 Wikidata:Q181573	Фазиль Абдулович Искандер
+N33	Reference T9 Wikidata:Q181573	Фазиль Абдулович Искандер
+N34	Reference T7 Wikidata:Q181573	Фазиль Абдулович Искандер
+N35	Reference T2 Wikidata:Q181573	Фазиль Абдулович Искандер
+N36	Reference T3 Wikidata:Q15180	СССР
+N37	Reference T25 Wikidata:Q159	Россия
+N38	Reference T31 Wikidata:Q46957647	Софичка
+N39	Reference T6 Wikidata:Q36180	писатель
+N40	Reference T52 Wikidata:Q4146631	государственная премия Российской Федерации
+N41	Reference T38 Wikidata:Q62033030	
+T56	EVENT 232 239	родился
+R37	PARTICIPANT_IN Arg1:T10 Arg2:T56	
+R38	POINT_IN_TIME Arg1:T56 Arg2:T11	
+R39	TAKES_PLACE_IN Arg1:T56 Arg2:T12	

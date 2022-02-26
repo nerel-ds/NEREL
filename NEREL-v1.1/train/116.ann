@@ -1,0 +1,152 @@
+T2	LOCATION 24 30	Европы
+T3	PROFESSION 38 71	министром торговли Великобритании
+T4	PERSON 73 84	Стивен Грин
+T5	PROFESSION 86 127	председатель совета директоров банка HSBC
+T6	ORGANIZATION 123 127	HSBC
+T7	PROFESSION 144 162	министром торговли
+T8	ORGANIZATION 212 219	Reuters
+T9	PERSON 259 264	Грина
+T10	DATE 288 298	во вторник
+T11	AGE 301 310	62-летний
+T12	PERSON 311 315	Грин
+T13	ORGANIZATION 333 337	HSBC
+T14	DATE 351 362	В 2003 году
+T15	PROFESSION 387 399	гендиректора
+T16	DATE 409 420	в 2006 году
+T17	PROFESSION 423 453	председателя совета директоров
+T18	PERSON 474 479	Грина
+T19	ORGANIZATION 491 495	HSBC
+T20	DATE 515 531	До мая 2010 года
+T21	PROFESSION 537 569	министра торговли Великобритании
+T22	ORGANIZATION 572 597	правительстве лейбористов
+T23	PERSON 606 618	Мервин Дэвис
+T24	PROFESSION 627 681	председатель совета директоров Standard Chartered bank
+T25	ORGANIZATION 658 681	Standard Chartered bank
+T26	ORGANIZATION 683 709	Коалиционное правительство
+T28	PERSON 819 825	Дэвису
+T29	ORGANIZATION 907 911	HSBC
+T30	LOCATION 931 937	Европе
+T31	COUNTRY 970 980	британских
+T32	ORGANIZATION 1082 1104	Royal Bank of Scotland
+T33	ORGANIZATION 1107 1116	Lloyd TSB
+T1	COUNTRY 57 71	Великобритании
+T34	ORGANIZATION 99 127	совета директоров банка HSBC
+T35	ORGANIZATION 165 193	правительстве Великобритании
+T36	COUNTRY 179 193	Великобритании
+T37	DATE 338 349	в 1992 году
+T38	PROFESSION 363 375	топ-менеджер
+T40	COUNTRY 555 569	Великобритании
+T41	IDEOLOGY 586 597	лейбористов
+T42	ORGANIZATION 640 681	совета директоров Standard Chartered bank
+T44	COUNTRY 710 720	британских
+T45	IDEOLOGY 721 734	консерваторов
+T46	IDEOLOGY 737 748	либеральных
+T27	IDEOLOGY 749 759	демократов
+T47	IDEOLOGY 737 759	либеральных демократов
+T48	IDEOLOGY 771 782	лейбористов
+T49	PROFESSION 837 847	бизнесмены
+R1	WORKS_AS Arg1:T4 Arg2:T5	
+T51	PROFESSION 86 116	председатель совета директоров
+R2	WORKS_AS Arg1:T4 Arg2:T7	
+R3	WORKPLACE Arg1:T4 Arg2:T35	
+T52	PROFESSION 144 153	министром
+R4	WORKPLACE Arg1:T4 Arg2:T6	
+R5	AGE_IS Arg1:T12 Arg2:T11	
+R6	WORKPLACE Arg1:T12 Arg2:T13	
+R7	WORKS_AS Arg1:T12 Arg2:T38	
+T53	PROFESSION 387 405	гендиректора банка
+R8	WORKS_AS Arg1:T12 Arg2:T53	
+R9	WORKS_AS Arg1:T12 Arg2:T17	
+T54	PROFESSION 537 554	министра торговли
+R10	WORKS_AS Arg1:T23 Arg2:T21	
+R11	WORKPLACE Arg1:T23 Arg2:T40	
+R12	WORKPLACE Arg1:T23 Arg2:T22	
+R13	WORKS_AS Arg1:T23 Arg2:T24	
+T43	PROFESSION 627 657	председатель совета директоров
+R14	MEMBER_OF Arg1:T23 Arg2:T42	
+R15	WORKPLACE Arg1:T23 Arg2:T25	
+R16	IDEOLOGY_OF Arg1:T23 Arg2:T41	
+R17	HEADQUARTERED_IN Arg1:T29 Arg2:T30	
+R18	ALTERNATIVE_NAME Arg1:T4 Arg2:T9	
+R19	WORKPLACE Arg1:T18 Arg2:T19	
+R20	ALTERNATIVE_NAME Arg1:T23 Arg2:T28	
+T55	ORGANIZATION 165 178	правительстве
+R21	HEADQUARTERED_IN Arg1:T35 Arg2:T36	
+R22	WORKPLACE Arg1:T7 Arg2:T35	
+T56	PROFESSION 38 56	министром торговли
+R23	WORKPLACE Arg1:T3 Arg2:T1	
+T57	PROFESSION 0 30	Глава крупнейшего банка Европы
+R24	ALTERNATIVE_NAME Arg1:T57 Arg2:T5	
+R25	WORKPLACE Arg1:T5 Arg2:T34	
+T58	EVENT 135 143	назначен
+R26	PARTICIPANT_IN Arg1:T4 Arg2:T58	
+T59	EVENT 250 258	отставке
+R27	PARTICIPANT_IN Arg1:T9 Arg2:T59	
+R28	POINT_IN_TIME Arg1:T59 Arg2:T10	
+R30	IDEOLOGY_OF Arg1:T22 Arg2:T41	
+R31	WORKPLACE Arg1:T21 Arg2:T40	
+T60	PROFESSION 537 545	министра
+T61	ORGANIZATION 572 585	правительстве
+R32	WORKPLACE Arg1:T21 Arg2:T40	
+R33	WORKPLACE Arg1:T24 Arg2:T42	
+R34	ALTERNATIVE_NAME Arg1:T40 Arg2:T44	
+T62	STATE_OR_PROVINCE 1096 1104	Scotland
+R35	HEADQUARTERED_IN Arg1:T32 Arg2:T62	
+R36	HEADQUARTERED_IN Arg1:T26 Arg2:T44	
+T63	PROFESSION 38 47	министром
+R37	PART_OF Arg1:T34 Arg2:T6	
+R38	PARTICIPANT_IN Arg1:T35 Arg2:T58	
+R39	PARTICIPANT_IN Arg1:T6 Arg2:T59	
+R40	WORKPLACE Arg1:T38 Arg2:T13	
+R41	WORKPLACE Arg1:T53 Arg2:T13	
+R29	WORKPLACE Arg1:T17 Arg2:T13	
+R42	PART_OF Arg1:T42 Arg2:T25	
+R43	LOCATED_IN Arg1:T31 Arg2:T30	
+R44	LOCATED_IN Arg1:T62 Arg2:T31	
+N2	Reference T8 Wikidata:Q130879	Рейтер
+N3	Reference T13 Wikidata:Q190464	HSBC
+N4	Reference T15 Wikidata:Q1501800	генеральный директор
+N9	Reference T25 Wikidata:Q996550	Standard Chartered Bank
+N10	Reference T26 Wikidata:Q837416	коалиционное правительство
+N12	Reference T30 Wikidata:Q176626	Европа, Европа
+N13	Reference T32 Wikidata:Q160126	Королевский банк Шотландии
+N14	Reference T1 Wikidata:Q145	Великобритания
+N16	Reference T35 Wikidata:Q6063	Правительство Великобритании
+N19	Reference T49 Wikidata:Q131524	предприниматель
+N23	Reference T55 Wikidata:Q7188	правительство
+N25	Reference T60 Wikidata:Q83307	министр
+N24	Reference T56 Wikidata:Q55374811	
+N1	Reference T5 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:NULL	нет данных
+N21	Reference T51 Wikidata:NULL	нет данных
+N22	Reference T53 Wikidata:NULL	нет данных
+N17	Reference T38 Wikidata:Q10501288	
+N5	Reference T18 Wikidata:Q335910	
+N6	Reference T21 Wikidata:NULL	нет данных
+N18	Reference T42 Wikidata:NULL	нет данных
+N8	Reference T24 Wikidata:NULL	нет данных
+N7	Reference T22 Wikidata:NULL	нет данных
+N11	Reference T28 Wikidata:Q1906053	
+N26	Reference T62 Wikidata:Q22	Шотландия
+N27	Reference T33 Wikidata:Q1152764	
+N28	Reference T29 Wikidata:Q190464	HSBC
+N29	Reference T6 Wikidata:Q190464	HSBC
+N30	Reference T19 Wikidata:Q190464	HSBC
+N31	Reference T2 Wikidata:Q176626	Европа, Европа
+N32	Reference T40 Wikidata:Q145	Великобритания
+N33	Reference T36 Wikidata:Q145	Великобритания
+N34	Reference T44 Wikidata:Q145	Великобритания
+N35	Reference T31 Wikidata:Q145	Великобритания
+N36	Reference T61 Wikidata:Q7188	правительство
+N37	Reference T52 Wikidata:Q83307	министр
+N38	Reference T63 Wikidata:Q83307	министр
+N39	Reference T7 Wikidata:Q55374811	
+N40	Reference T54 Wikidata:Q55374811	
+N41	Reference T57 Wikidata:NULL	нет данных
+N42	Reference T43 Wikidata:NULL	нет данных
+N43	Reference T17 Wikidata:NULL	нет данных
+N44	Reference T4 Wikidata:Q335910	
+N45	Reference T9 Wikidata:Q335910	
+N46	Reference T12 Wikidata:Q335910	
+N47	Reference T3 Wikidata:NULL	нет данных
+N48	Reference T23 Wikidata:Q1906053	

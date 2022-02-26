@@ -1,0 +1,84 @@
+T1	ORGANIZATION 0 7	Полиция
+T2	STATE_OR_PROVINCE 68 75	Алабама
+T3	LOCATION 79 86	юге США
+T4	AGE 131 140	65-летний
+T5	AGE 169 178	5-летнего
+T6	PROFESSION 225 233	водитель
+T7	PERSON 247 262	Джимми Ли Дайкс
+T8	PERSON 273 278	Дайкс
+T9	PROFESSION 328 336	водителя
+T10	DATE 364 382	почти целую неделю
+T12	CITY 484 489	Мобил
+T13	STATE_OR_PROVINCE 496 503	Алабама
+T14	DATE 629 642	В понедельник
+T15	DATE 911 920	6 февраля
+T16	ORGANIZATION 0 11	Полиция США
+T17	EVENT 12 42	освободила похищенного ребёнка
+T18	COUNTRY 83 86	США
+T19	PROFESSION 87 98	полицейские
+T20	PROFESSION 225 246	водитель-дальнобойщик
+T21	PROFESSION 234 246	дальнобойщик
+T22	EVENT 279 294	похитил ребенка
+T23	PROFESSION 385 395	Агенты ФБР
+T24	ORGANIZATION 392 395	ФБР
+T25	CITY 43 48	Мобил
+T26	PROFESSION 563 577	сотрудники ФБР
+T27	ORGANIZATION 574 577	ФБР
+T28	PROFESSION 643 654	полицейские
+T29	EVENT 678 696	освободили ребенка
+T30	EVENT 896 908	дня рождения
+T31	COUNTRY 8 11	США
+R1	HEADQUARTERED_IN Arg1:T16 Arg2:T31	
+R2	AGENT Arg1:T16 Arg2:T17	
+R3	LOCATED_IN Arg1:T2 Arg2:T3	
+T32	EVENT 99 106	штурмом
+R4	AGENT Arg1:T19 Arg2:T32	
+R5	WORKS_AS Arg1:T7 Arg2:T20	
+R6	PARTICIPANT_IN Arg1:T7 Arg2:T32	
+R7	AGE_DIED_AT Arg1:T7 Arg2:T4	
+R8	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R9	AGENT Arg1:T8 Arg2:T22	
+T33	EVENT 318 327	застрелив
+R10	AGENT Arg1:T8 Arg2:T33	
+R11	PARTICIPANT_IN Arg1:T9 Arg2:T33	
+R12	WORKPLACE Arg1:T23 Arg2:T24	
+R13	LOCATED_IN Arg1:T12 Arg2:T13	
+R14	WORKPLACE Arg1:T26 Arg2:T27	
+T34	EVENT 655 662	штурмом
+R15	AGENT Arg1:T28 Arg2:T34	
+R16	POINT_IN_TIME Arg1:T34 Arg2:T14	
+R17	HAS_CAUSE Arg1:T29 Arg2:T34	
+R18	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+R19	POINT_IN_TIME Arg1:T29 Arg2:T14	
+T35	EVENT 851 872	освобождение мальчика
+R20	ALTERNATIVE_NAME Arg1:T29 Arg2:T35	
+R21	POINT_IN_TIME Arg1:T35 Arg2:T15	
+R22	LOCATED_IN Arg1:T3 Arg2:T18	
+T36	EVENT 191 210	освободили пленника
+R23	ALTERNATIVE_NAME Arg1:T17 Arg2:T36	
+R24	SUBEVENT_OF Arg1:T36 Arg2:T32	
+R25	PARTICIPANT_IN Arg1:T7 Arg2:T32	
+R26	PARTICIPANT_IN Arg1:T7 Arg2:T36	
+R27	ALTERNATIVE_NAME Arg1:T23 Arg2:T26	
+R28	ALTERNATIVE_NAME Arg1:T36 Arg2:T29	
+N1	Reference T1 Wikidata:Q35535	полиция
+N2	Reference T3 Wikidata:Q49042	Юг США
+N4	Reference T9 Wikidata:Q216541	водитель
+N5	Reference T13 Wikidata:Q173	Алабама
+N7	Reference T18 Wikidata:Q30	США
+N9	Reference T20 Wikidata:Q508846	дальнобойщик
+N10	Reference T21 Wikidata:Q508846	дальнобойщик
+N11	Reference T24 Wikidata:Q8333	Федеральное бюро расследований
+N12	Reference T25 Wikidata:Q79875	Мобил
+N6	Reference T16 Wikidata:Q1365622	
+N8	Reference T19 Wikidata:Q384593	
+N3	Reference T7 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:NULL	нет данных
+N14	Reference T6 Wikidata:Q216541	водитель
+N15	Reference T2 Wikidata:Q173	Алабама
+N16	Reference T31 Wikidata:Q30	США
+N17	Reference T27 Wikidata:Q8333	Федеральное бюро расследований
+N18	Reference T12 Wikidata:Q79875	Мобил
+N19	Reference T28 Wikidata:Q384593	
+N20	Reference T8 Wikidata:NULL	нет данных
+N21	Reference T23 Wikidata:NULL	нет данных

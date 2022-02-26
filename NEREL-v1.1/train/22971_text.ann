@@ -1,0 +1,111 @@
+T2	TIME 41 79	В ночь на четверг 27 декабря 2012 года
+T3	DATE 48 79	на четверг 27 декабря 2012 года
+T4	CITY 92 104	Владикавказа
+T6	AGE 154 163	38-летний
+T7	PERSON 164 179	Ибрагим Дударов
+T8	ORGANIZATION 191 194	СКР
+T9	PERSON 215 223	Дударова
+T10	COUNTRY 627 637	российских
+T11	STATE_OR_PROVINCE 645 660	Северной Осетии
+T14	NUMBER 671 688	четверть миллиона
+T15	NUMBER 723 725	25
+T16	LOCATION 883 899	Северном Кавказе
+T17	DATE 910 929	в феврале 2012 года
+T18	CITY 939 949	Пятигорске
+T20	PERSON 1013 1030	Курмана Исмаилова
+T21	PERSON 1036 1044	Исмаилов
+T22	EVENT 0 4	Убит
+T24	STATE_OR_PROVINCE 24 39	Северной Осетии
+T25	EVENT 109 118	застрелен
+T27	PROFESSION 119 153	заместитель муфтия Северной Осетии
+T28	PROFESSION 5 39	заместитель муфтия Северной Осетии
+T29	PROFESSION 288 301	следователями
+T30	PROFESSION 445 462	священнослужитель
+T31	PROFESSION 861 879	священнослужителей
+T32	PROFESSION 973 1012	заместителя муфтия Ставропольского края
+T34	STATE_OR_PROVINCE 138 153	Северной Осетии
+T35	RELIGION 431 444	мусульманский
+T36	LOCATION 532 548	северокавказской
+T37	RELIGION 605 614	христиане
+T12	RELIGION 689 698	мусульман
+T13	IDEOLOGY 797 807	исламистов
+T38	IDEOLOGY 785 807	радикальных исламистов
+T39	RELIGION 847 860	мусульманских
+T41	STATE_OR_PROVINCE 992 1012	Ставропольского края
+T42	EVENT 1045 1050	погиб
+T43	NUMBER 324 342	девять миллиметров
+R1	WORKPLACE Arg1:T28 Arg2:T24	
+T1	PROFESSION 5 23	заместитель муфтия
+R2	PARTICIPANT_IN Arg1:T28 Arg2:T22	
+R3	LOCATED_IN Arg1:T4 Arg2:T34	
+R4	ALTERNATIVE_NAME Arg1:T22 Arg2:T25	
+R5	POINT_IN_TIME Arg1:T25 Arg2:T2	
+R6	TAKES_PLACE_IN Arg1:T25 Arg2:T4	
+T5	PROFESSION 119 137	заместитель муфтия
+R7	AGE_DIED_AT Arg1:T7 Arg2:T6	
+R8	PARTICIPANT_IN Arg1:T7 Arg2:T25	
+R9	WORKPLACE Arg1:T27 Arg2:T34	
+R10	WORKS_AS Arg1:T7 Arg2:T27	
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+T19	PROFESSION 431 462	мусульманский священнослужитель
+R12	WORKS_AS Arg1:T7 Arg2:T19	
+R13	RELIGION_OF Arg1:T19 Arg2:T35	
+T23	EVENT 472 476	убит
+R14	PARTICIPANT_IN Arg1:T19 Arg2:T23	
+R15	LOCATED_IN Arg1:T34 Arg2:T36	
+R16	LOCATED_IN Arg1:T36 Arg2:T10	
+R17	LOCATED_IN Arg1:T11 Arg2:T10	
+R18	ALTERNATIVE_NAME Arg1:T35 Arg2:T12	
+T26	PROFESSION 847 879	мусульманских священнослужителей
+R19	ALTERNATIVE_NAME Arg1:T36 Arg2:T16	
+R20	RELIGION_OF Arg1:T26 Arg2:T39	
+T44	EVENT 834 843	нападение
+R21	PARTICIPANT_IN Arg1:T26 Arg2:T44	
+R22	TAKES_PLACE_IN Arg1:T44 Arg2:T16	
+R23	POINT_IN_TIME Arg1:T44 Arg2:T17	
+T33	EVENT 954 972	взорван автомобиль
+R24	LOCATED_IN Arg1:T18 Arg2:T41	
+R25	LOCATED_IN Arg1:T41 Arg2:T16	
+R26	WORKPLACE Arg1:T32 Arg2:T41	
+R27	WORKS_AS Arg1:T20 Arg2:T32	
+T40	PROFESSION 973 991	заместителя муфтия
+R28	PARTICIPANT_IN Arg1:T20 Arg2:T33	
+R29	TAKES_PLACE_IN Arg1:T33 Arg2:T18	
+R30	POINT_IN_TIME Arg1:T33 Arg2:T17	
+R31	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R32	PARTICIPANT_IN Arg1:T21 Arg2:T42	
+R33	HAS_CAUSE Arg1:T42 Arg2:T33	
+R34	WORKPLACE Arg1:T29 Arg2:T8	
+T45	LOCATION 892 899	Кавказе
+R35	LOCATED_IN Arg1:T16 Arg2:T45	
+R36	ALTERNATIVE_NAME Arg1:T44 Arg2:T33	
+N1	Reference T4 Wikidata:Q5239	Владикавказ
+N5	Reference T16 Wikidata:Q37736	Северный Кавказ
+N6	Reference T18 Wikidata:Q41970	Пятигорск
+N8	Reference T24 Wikidata:Q5237	Республика Северная Осетия-Алания
+N9	Reference T27 Wikidata:Q5237	Республика Северная Осетия-Алания
+N11	Reference T30 Wikidata:Q42603	священник
+N15	Reference T41 Wikidata:Q5207	Ставропольский край
+N18	Reference T45 Wikidata:Q18869	Кавказ
+N2	Reference T7 Wikidata:NULL	нет данных
+N10	Reference T29 Wikidata:Q1971388	
+N13	Reference T35 Wikidata:Q432	ислам
+N14	Reference T37 Wikidata:Q5043	христианство
+N4	Reference T10 Wikidata:Q159	Россия
+N16	Reference T26 Wikidata:Q188942	мулла
+N12	Reference T32 Wikidata:NULL	нет данных
+N17	Reference T40 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:NULL	нет данных
+N3	Reference T8 Wikidata:Q2577002	Следственный комитет Российской Федерации
+N19	Reference T36 Wikidata:Q37736	Северный Кавказ
+N20	Reference T34 Wikidata:Q5237	Республика Северная Осетия-Алания
+N21	Reference T11 Wikidata:Q5237	Республика Северная Осетия-Алания
+N22	Reference T28 Wikidata:Q5237	Республика Северная Осетия-Алания
+N23	Reference T31 Wikidata:Q42603	священник
+N24	Reference T9 Wikidata:NULL	нет данных
+N25	Reference T39 Wikidata:Q432	ислам
+N26	Reference T12 Wikidata:Q432	ислам
+N27	Reference T19 Wikidata:Q188942	мулла
+N28	Reference T5 Wikidata:NULL	нет данных
+N29	Reference T1 Wikidata:NULL	нет данных
+N30	Reference T20 Wikidata:NULL	нет данных

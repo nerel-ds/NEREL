@@ -1,0 +1,108 @@
+T1	PROFESSION 6 19	премьер Дании
+T2	PROFESSION 74 95	премьер-министр Дании
+T3	PERSON 96 115	Хелле Торнинг-Шмитт
+T4	NUMBER 202 206	трех
+T5	ORGANIZATION 284 301	Ассошиэйтед Пресс
+T6	COUNTRY 313 321	датского
+T7	ORGANIZATION 322 335	правительства
+T8	AGE 365 374	44-летняя
+T9	PERSON 375 394	Хелле Торнинг-Шмитт
+T10	DATE 429 439	в сентябре
+T13	COUNTRY 620 625	Данию
+T14	PERSON 645 658	Торнинг-Шмитт
+T15	DATE 726 739	в понедельник
+T16	PROFESSION 769 783	королеве Дании
+T17	PERSON 784 796	Маргарете II
+T18	ORGANIZATION 819 831	Красный блок
+T19	DATE 833 844	15 сентября
+T20	IDEOLOGY 863 872	либералом
+T21	PERSON 873 897	Ларсом Лёкке Расмуссеном
+T22	PERSON 930 939	Расмуссен
+T23	PERSON 1018 1027	Расмуссен
+T24	PROFESSION 1056 1081	главы правительства Дании
+T25	COUNTRY 1076 1081	Дании
+T26	DATE 1082 1103	до четвертого октября
+T27	COUNTRY 14 19	Дании
+T28	ORGANIZATION 40 66	коалиционное правительство
+T29	COUNTRY 90 95	Дании
+T30	DATE 116 129	в воскресенье
+T31	ORGANIZATION 164 190	коалиционное правительство
+T32	EVENT 256 263	выборах
+T34	COUNTRY 465 470	Дании
+T12	IDEOLOGY 482 500	социал-демократами
+T35	EVENT 520 551	досрочных парламентских выборах
+T36	ORGANIZATION 682 709	коалиционного правительства
+T37	PROFESSION 769 777	королеве
+T38	COUNTRY 778 783	Дании
+T39	PROFESSION 6 13	премьер
+T40	PROFESSION 74 89	премьер-министр
+T41	PROFESSION 912 921	премьером
+T42	ORGANIZATION 1062 1081	правительства Дании
+T43	ORGANIZATION 988 1001	правительству
+R1	WORKPLACE Arg1:T1 Arg2:T27	
+R2	WORKPLACE Arg1:T2 Arg2:T29	
+R3	WORKS_AS Arg1:T3 Arg2:T2	
+R4	WORKPLACE Arg1:T3 Arg2:T29	
+T33	ORGANIZATION 313 335	датского правительства
+R5	HEADQUARTERED_IN Arg1:T33 Arg2:T6	
+R6	AGE_IS Arg1:T9 Arg2:T8	
+T44	EVENT 530 551	парламентских выборах
+T11	IDEOLOGY 449 455	левыми
+R7	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R8	WORKPLACE Arg1:T16 Arg2:T38	
+R9	WORKS_AS Arg1:T17 Arg2:T16	
+R10	WORKPLACE Arg1:T17 Arg2:T38	
+T45	PROFESSION 912 928	премьером страны
+R13	IDEOLOGY_OF Arg1:T21 Arg2:T20	
+R14	WORKS_AS Arg1:T21 Arg2:T45	
+R16	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R17	WORKS_AS Arg1:T23 Arg2:T24	
+R18	WORKPLACE Arg1:T23 Arg2:T42	
+R19	WORKPLACE Arg1:T24 Arg2:T42	
+R20	HEADQUARTERED_IN Arg1:T42 Arg2:T25	
+R21	PRODUCES Arg1:T1 Arg2:T28	
+R22	PRODUCES Arg1:T3 Arg2:T31	
+T48	IDEOLOGY 410 419	оппозицию
+R24	IDEOLOGY_OF Arg1:T9 Arg2:T48	
+R25	HEADQUARTERED_IN Arg1:T28 Arg2:T27	
+R26	HEADQUARTERED_IN Arg1:T31 Arg2:T29	
+R27	TAKES_PLACE_IN Arg1:T32 Arg2:T29	
+R28	ALTERNATIVE_NAME Arg1:T29 Arg2:T6	
+R23	PARTICIPANT_IN Arg1:T9 Arg2:T35	
+R29	PARTICIPANT_IN Arg1:T12 Arg2:T35	
+R30	HEADQUARTERED_IN Arg1:T36 Arg2:T13	
+R31	WORKPLACE Arg1:T45 Arg2:T38	
+R32	WORKPLACE Arg1:T21 Arg2:T38	
+R11	PARTICIPANT_IN Arg1:T18 Arg2:T35	
+N1	Reference T1 Wikidata:Q795477	премьер-министр Дании
+N2	Reference T2 Wikidata:Q795477	премьер-министр Дании
+N3	Reference T5 Wikidata:Q40469	Ассошиэйтед Пресс
+N4	Reference T7 Wikidata:Q7188	правительство
+N5	Reference T9 Wikidata:Q57652	Торнинг-Шмитт, Хелле
+N11	Reference T29 Wikidata:Q35	Дания
+N12	Reference T36 Wikidata:Q837416	коалиционное правительство
+N14	Reference T39 Wikidata:Q14212	премьер-министр
+N15	Reference T40 Wikidata:Q14212	премьер-министр
+N17	Reference T45 Wikidata:Q14212	премьер-министр
+N16	Reference T33 Wikidata:Q1503072	
+N7	Reference T17 Wikidata:Q102139	
+N18	Reference T42 Wikidata:Q1503072	
+N10	Reference T24 Wikidata:Q795477	премьер-министр Дании
+N9	Reference T22 Wikidata:Q182397	
+N6	Reference T16 Wikidata:Q66428194	
+N13	Reference T37 Wikidata:Q18341329	
+N8	Reference T18 Wikidata:Q25785	
+N19	Reference T43 Wikidata:Q7188	правительство
+N20	Reference T14 Wikidata:Q57652	Торнинг-Шмитт, Хелле
+N21	Reference T3 Wikidata:Q57652	Торнинг-Шмитт, Хелле
+N22	Reference T13 Wikidata:Q35	Дания
+N23	Reference T34 Wikidata:Q35	Дания
+N24	Reference T25 Wikidata:Q35	Дания
+N25	Reference T38 Wikidata:Q35	Дания
+N26	Reference T27 Wikidata:Q35	Дания
+N27	Reference T6 Wikidata:Q35	Дания
+N28	Reference T31 Wikidata:Q837416	коалиционное правительство
+N29	Reference T28 Wikidata:Q837416	коалиционное правительство
+N30	Reference T41 Wikidata:Q14212	премьер-министр
+N31	Reference T23 Wikidata:Q182397	
+N32	Reference T21 Wikidata:Q182397	

@@ -1,0 +1,154 @@
+T1	CITY 0 10	Московская
+T3	ORGANIZATION 118 122	ВАДА
+T4	CITY 144 154	московскую
+T5	ORGANIZATION 307 311	ВАДА
+T6	CITY 364 375	московского
+T7	DATE 419 438	10 ноября 2015 года
+T8	PROFESSION 452 472	директор лаборатории
+T9	PERSON 473 491	Григорий Родченков
+T10	DATE 510 526	В начале 2016 г.
+T11	PERSON 527 545	Григорий Родченков
+T13	PERSON 564 583	Тимофей Соболевский
+T14	COUNTRY 599 602	США
+T15	PROFESSION 606 620	министр спорта
+T16	PERSON 628 641	Виталий Мутко
+T17	DATE 700 722	В ноябре прошлого года
+T18	ORGANIZATION 744 780	Всемирного антидопингового агентства
+T19	COUNTRY 790 796	Россию
+T20	ORGANIZATION 901 939	Российского антидопиногового агентства
+T21	ORGANIZATION 941 947	РУСАДА
+T22	DATE 969 983	В феврале 2016
+T23	NUMBER 1009 1012	два
+T24	PROFESSION 1020 1039	руководителя РУСАДА
+T25	PERSON 1041 1067	Вячеслав Геннадьевич Синев
+T26	DATE 1079 1093	3 февраля 2016
+T27	PROFESSION 1152 1194	председатель исполнительного Совета РУСАДА
+T28	DATE 1196 1202	с 2008
+T29	DATE 1222 1234	до 2010 года
+T30	PROFESSION 1237 1260	исполнительный директор
+T31	PERSON 1269 1291	Никита Олегович Камаев
+T32	DATE 1293 1313	14 февраля 2016 года
+T33	AGE 1315 1322	52 года
+T34	PROFESSION 1363 1386	исполнительный директор
+T35	DATE 1394 1424	с 1 марта 2011 по декабрь 2015
+T36	DATE 1428 1447	13 апреля 2016 года
+T37	ORGANIZATION 82 116	Всемирное антидопинговое агентство
+T38	COUNTRY 621 627	России
+T39	PROFESSION 606 627	министр спорта России
+T40	ORGANIZATION 860 864	ВАДА
+T41	ORGANIZATION 852 864	комитет ВАДА
+T43	ORGANIZATION 1033 1039	РУСАДА
+T44	ORGANIZATION 1188 1194	РУСАДА
+T45	ORGANIZATION 1165 1194	исполнительного Совета РУСАДА
+T46	ORGANIZATION 1261 1267	РУСАДА
+T47	PROFESSION 1237 1267	исполнительный директор РУСАДА
+T48	DISEASE 1352 1359	инфаркт
+T49	ORGANIZATION 1387 1393	РУСАДА
+T50	PROFESSION 1363 1393	исполнительный директор РУСАДА
+T51	ORGANIZATION 1448 1452	ВАДА
+T52	PRODUCT 1490 1499	мельдония
+T53	PRODUCT 72 81	Мельдоний
+T54	ORGANIZATION 0 37	Московская антидопинговая лаборатория
+R1	HEADQUARTERED_IN Arg1:T54 Arg2:T1	
+T55	EVENT 38 71	лишена международной аккредитации
+R2	PARTICIPANT_IN Arg1:T54 Arg2:T55	
+R3	ABBREVIATION Arg1:T37 Arg2:T3	
+T56	ORGANIZATION 144 181	московскую антидопинговую лабораторию
+R4	HEADQUARTERED_IN Arg1:T56 Arg2:T4	
+T57	EVENT 124 143	лишило аккредитации
+R5	AGENT Arg1:T37 Arg2:T57	
+R6	PARTICIPANT_IN Arg1:T56 Arg2:T57	
+R7	ALTERNATIVE_NAME Arg1:T55 Arg2:T57	
+T58	ORGANIZATION 364 398	московского антидопингового центра
+R8	HEADQUARTERED_IN Arg1:T58 Arg2:T6	
+R9	WORKPLACE Arg1:T39 Arg2:T38	
+R10	WORKS_AS Arg1:T16 Arg2:T39	
+R11	WORKPLACE Arg1:T16 Arg2:T38	
+T59	PROFESSION 606 613	министр
+R12	WORKPLACE Arg1:T9 Arg2:T58	
+R13	WORKS_AS Arg1:T9 Arg2:T8	
+R14	WORKPLACE Arg1:T8 Arg2:T58	
+R15	SUBORDINATE_OF Arg1:T13 Arg2:T11	
+R17	WORKPLACE Arg1:T13 Arg2:T58	
+T60	EVENT 584 596	эмигрировали
+R18	AGENT Arg1:T11 Arg2:T60	
+R19	AGENT Arg1:T13 Arg2:T60	
+R20	PART_OF Arg1:T41 Arg2:T40	
+T42	COUNTRY 901 912	Российского
+R21	HEADQUARTERED_IN Arg1:T20 Arg2:T42	
+R22	ABBREVIATION Arg1:T20 Arg2:T21	
+R23	WORKPLACE Arg1:T47 Arg2:T46	
+R24	AGE_IS Arg1:T31 Arg2:T33	
+R25	DATE_OF_DEATH Arg1:T25 Arg2:T26	
+R26	WORKS_AS Arg1:T25 Arg2:T24	
+R27	WORKPLACE Arg1:T24 Arg2:T43	
+R28	CAUSE_OF_DEATH Arg1:T31 Arg2:T48	
+T61	EVENT 998 1008	скончались
+R29	POINT_IN_TIME Arg1:T61 Arg2:T22	
+R30	PARTICIPANT_IN Arg1:T25 Arg2:T61	
+R31	PARTICIPANT_IN Arg1:T31 Arg2:T61	
+R32	WORKPLACE Arg1:T27 Arg2:T45	
+R33	PART_OF Arg1:T45 Arg2:T44	
+R34	WORKPLACE Arg1:T50 Arg2:T49	
+R35	WORKS_AS Arg1:T31 Arg2:T50	
+R36	WORKS_AS Arg1:T25 Arg2:T27	
+R37	WORKS_AS Arg1:T25 Arg2:T47	
+R38	PLACE_RESIDES_IN Arg1:T11 Arg2:T14	
+R39	PLACE_RESIDES_IN Arg1:T13 Arg2:T14	
+T62	CRIME 799 831	нарушениях антидопинговых правил
+T63	EVENT 781 789	обвинила
+R40	AGENT Arg1:T18 Arg2:T63	
+R41	PARTICIPANT_IN Arg1:T19 Arg2:T63	
+R42	POINT_IN_TIME Arg1:T63 Arg2:T17	
+R43	DATE_DEFUNCT_IN Arg1:T58 Arg2:T7	
+T64	EVENT 492 508	подал в отставку
+R44	AGENT Arg1:T9 Arg2:T64	
+R16	TAKES_PLACE_IN Arg1:T60 Arg2:T14	
+R45	CONVICTED_OF Arg1:T19 Arg2:T62	
+T12	CRIME 188 227	несоответствия международным стандартам
+R46	CONVICTED_OF Arg1:T56 Arg2:T12	
+R47	HAS_CAUSE Arg1:T57 Arg2:T12	
+R48	DATE_OF_DEATH Arg1:T31 Arg2:T32	
+R49	POINT_IN_TIME Arg1:T60 Arg2:T10	
+N3	Reference T11 Wikidata:Q24351146	Родченков, Григорий Михайлович
+N5	Reference T14 Wikidata:Q30	США
+N6	Reference T16 Wikidata:Q1320362	Виталий Леонтьевич Мутко
+N7	Reference T19 Wikidata:Q159	Россия
+N11	Reference T30 Wikidata:Q267936	исполнительный директор
+N14	Reference T41 Wikidata:Q749394	Всемирное антидопинговое агентство
+N15	Reference T44 Wikidata:Q4386621	РУСАДА
+N18	Reference T51 Wikidata:Q749394	Всемирное антидопинговое агентство
+N19	Reference T52 Wikidata:Q4289752	Мельдоний
+N20	Reference T53 Wikidata:Q4289752	Мельдоний
+N23	Reference T59 Wikidata:Q83307	министр
+N22	Reference T58 Wikidata:NULL	нет данных
+N2	Reference T8 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N25	Reference T15 Wikidata:Q7579929	
+N13	Reference T39 Wikidata:NULL	нет данных
+N24	Reference T42 Wikidata:Q159	Россия
+N8	Reference T24 Wikidata:NULL	нет данных
+N9	Reference T25 Wikidata:NULL	нет данных
+N16	Reference T45 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N17	Reference T47 Wikidata:NULL	нет данных
+N12	Reference T31 Wikidata:NULL	нет данных
+N1	Reference T4 Wikidata:Q649	Москва
+N21	Reference T56 Wikidata:NULL	нет данных
+N26	Reference T9 Wikidata:Q24351146	Родченков, Григорий Михайлович
+N27	Reference T38 Wikidata:Q159	Россия
+N28	Reference T34 Wikidata:Q267936	исполнительный директор
+N29	Reference T20 Wikidata:Q4386621	РУСАДА
+N30	Reference T46 Wikidata:Q4386621	РУСАДА
+N31	Reference T49 Wikidata:Q4386621	РУСАДА
+N32	Reference T43 Wikidata:Q4386621	РУСАДА
+N33	Reference T21 Wikidata:Q4386621	РУСАДА
+N34	Reference T40 Wikidata:Q749394	Всемирное антидопинговое агентство
+N35	Reference T5 Wikidata:Q749394	Всемирное антидопинговое агентство
+N36	Reference T3 Wikidata:Q749394	Всемирное антидопинговое агентство
+N37	Reference T18 Wikidata:Q749394	Всемирное антидопинговое агентство
+N38	Reference T37 Wikidata:Q749394	Всемирное антидопинговое агентство
+N39	Reference T50 Wikidata:NULL	нет данных
+N40	Reference T6 Wikidata:Q649	Москва
+N41	Reference T1 Wikidata:Q649	Москва
+N42	Reference T54 Wikidata:NULL	нет данных

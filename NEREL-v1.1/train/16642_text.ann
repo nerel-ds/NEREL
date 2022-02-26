@@ -1,0 +1,453 @@
+T1	PROFESSION 6 14	спикером
+T3	PERSON 64 79	Сергей Нарышкин
+T4	ORGANIZATION 96 109	Единой России
+T6	PERSON 148 163	Сергей Нарышкин
+T7	PROFESSION 171 179	спикером
+T8	ORGANIZATION 257 259	ЕР
+T9	NUMBER 262 265	238
+T11	EVENT 351 371	пленарного заседания
+T12	DATE 395 413	в среду 21 декабря
+T13	PERSON 416 424	Нарышкин
+T14	EVENT 700 719	Пленарное заседание
+T16	DATE 750 759	1924 года
+T17	PROFESSION 770 777	депутат
+T18	PERSON 787 802	Владимир Долгих
+T21	ORGANIZATION 855 868	Единой России
+T22	DATE 895 906	декабрьских
+T23	ORGANIZATION 927 930	МВД
+T24	NUMBER 1024 1028	2091
+T25	CITY 1112 1118	Москве
+T26	STATE_OR_PROVINCE 1126 1145	Ставропольском крае
+T27	NUMBER 1147 1149	96
+T28	STATE_OR_PROVINCE 1152 1161	Самарской
+T29	STATE_OR_PROVINCE 1168 1180	Свердловской
+T30	STATE_OR_PROVINCE 1188 1201	Новосибирской
+T31	NUMBER 1203 1205	64
+T33	NUMBER 1259 1261	53
+T34	NUMBER 1279 1281	27
+T35	COUNTRY 1292 1312	Российской Федерации
+T36	DATE 1330 1337	в среду
+T37	PROFESSION 1362 1369	спикера
+T38	ORGANIZATION 1376 1383	Госдумы
+T39	NUMBER 1390 1396	восемь
+T40	NUMBER 1422 1425	два
+T43	ORGANIZATION 1559 1572	Единая Россия
+T44	PERSON 1577 1595	Иваном Мельниковым
+T45	ORGANIZATION 1597 1601	КПРФ
+T46	ORGANIZATION 1636 1643	Госдуме
+T47	NUMBER 1665 1667	29
+T48	NUMBER 1679 1681	15
+T49	ORGANIZATION 1714 1727	Единой России
+T50	NUMBER 1730 1731	6
+T51	ORGANIZATION 1734 1738	КПРФ
+T52	NUMBER 1744 1745	4
+T53	ORGANIZATION 1748 1752	ЛДПР
+T54	ORGANIZATION 1756 1775	Справедливой России
+T55	PERCENT 1880 1892	45 процентов
+T56	DATE 1930 1938	на 5 лет
+T57	ORGANIZATION 1943 1953	парламенте
+T58	PERSON 2043 2055	Иосиф Кобзон
+T59	PROFESSION 2057 2065	режиссер
+T60	PERSON 2066 2085	Станислав Говорухин
+T61	AWARD 2105 2127	народный артист России
+T62	PROFESSION 2129 2138	сценарист
+T63	PERSON 2154 2169	Владимир Бортко
+T64	PERSON 2199 2216	Мария Кожевникова
+T66	PERSON 2312 2326	Николай Валуев
+T67	PERSON 2357 2368	Марат Сафин
+T68	ORGANIZATION 2381 2388	Госдуме
+T69	PERSON 2440 2453	Алина Кабаева
+T70	PERSON 2496 2513	Александр Карелин
+T72	PERSON 2558 2575	Владислав Третьяк
+T73	ORGANIZATION 2637 2667	Русской службы «Голоса Америки
+T74	ORGANIZATION 2653 2667	Голоса Америки
+T75	COUNTRY 2727 2733	России
+T76	ORGANIZATION 2758 2762	Думы
+T77	PROFESSION 2765 2779	Сопредседатель
+T78	ORGANIZATION 2788 2798	Экозащита!
+T79	PERSON 2800 2815	Владимир Сливяк
+T80	ORGANIZATION 2840 2844	Думы
+T81	FACILITY 3390 3402	Охотном ряду
+T83	ORGANIZATION 3530 3561	Федерации автовладельцев России
+T84	ORGANIZATION 3563 3566	ФАР
+T85	PERSON 3568 3581	Сергей Канаев
+T86	ORGANIZATION 3642 3644	ЕР
+T87	ORGANIZATION 3658 3662	Думе
+T88	PERSON 3985 3991	Канаев
+T89	PROFESSION 4157 4179	Председатель правления
+T90	PERSON 4273 4289	Андрей Столбунов
+T91	ORGANIZATION 4321 4325	Думы
+T92	PERSON 4702 4711	Столбунов
+T93	ORGANIZATION 4798 4805	Госдумы
+T94	ORGANIZATION 5103 5110	Госдумы
+T95	ORGANIZATION 5193 5208	Голосом Америки
+T96	PERSON 5304 5319	Владимир Сливяк
+T97	ORGANIZATION 5342 5346	Думу
+T98	DATE 5401 5424	за истекшее десятилетие
+T99	DATE 5503 5514	в 2011 году
+T100	ORGANIZATION 5699 5708	Госдумами
+T102	ORGANIZATION 6010 6014	Думы
+T104	ORGANIZATION 6051 6061	Экозащита!
+T105	PERSON 6064 6077	Сергей Канаев
+T106	ORGANIZATION 6091 6094	ФАР
+T108	ORGANIZATION 6151 6158	Госдуму
+T109	COUNTRY 6248 6254	России
+T110	LOCATION 6359 6367	западных
+T111	ORGANIZATION 6408 6411	ФАР
+T112	ORGANIZATION 6653 6661	Госдумой
+T113	ORGANIZATION 6718 6737	Справедливой России
+T114	PERSON 6784 6790	Канаев
+T115	PERSON 6793 6809	Андрей Столбунов
+T116	COUNTRY 6881 6883	РФ
+T117	PERSON 7105 7114	Столбунов
+T118	PROFESSION 7809 7831	Председатель правления
+T119	ORGANIZATION 7909 7923	Справедливость
+T120	DATE 8096 8105	13 января
+T122	ORGANIZATION 8140 8147	Госдумы
+T123	PERSON 8148 8163	Сергей Нарышкин
+T124	PROFESSION 6 22	спикером Госдумы
+T126	PROFESSION 32 63	глава кремлевской администрации
+T128	PROFESSION 116 147	глава кремлевской администрации
+T129	PROFESSION 171 202	спикером Госдумы шестого созыва
+T131	PROFESSION 243 252	депутатов
+T133	PROFESSION 812 829	секретарь ЦК КПСС
+T134	PROFESSION 1362 1383	спикера новой Госдумы
+T135	PROFESSION 1397 1409	заместителей
+T136	PROFESSION 1433 1445	вице-спикера
+T137	PROFESSION 1522 1536	вице-премьером
+T139	PROFESSION 1786 1798	депутатского
+T140	PROFESSION 1835 1850	корреспондентов
+T141	PROFESSION 1894 1902	Депутаты
+T142	PROFESSION 2114 2120	артист
+T143	PROFESSION 2141 2153	кинорежиссер
+T144	PROFESSION 2522 2529	вратарь
+T145	PROFESSION 2623 2636	Корреспондент
+T146	PROFESSION 2623 2667	Корреспондент Русской службы «Голоса Америки
+T147	PROFESSION 2765 2798	Сопредседатель группы «Экозащита!
+T148	PROFESSION 3155 3163	экологов
+T149	PROFESSION 3502 3561	Лидер московского отделения Федерации автовладельцев России
+T150	PROFESSION 6028 6061	сопредседатель группы «Экозащита!
+T151	PROFESSION 8133 8147	спикер Госдумы
+T152	PROFESSION 8133 8139	спикер
+T154	ORGANIZATION 15 22	Госдумы
+T155	ORGANIZATION 38 63	кремлевской администрации
+T156	ORGANIZATION 38 49	кремлевской
+T157	ORGANIZATION 122 147	кремлевской администрации
+T158	ORGANIZATION 122 133	кремлевской
+T159	ORGANIZATION 180 187	Госдумы
+T160	ORGANIZATION 180 202	Госдумы шестого созыва
+T161	ORDINAL 188 195	шестого
+T10	EVENT 351 382	пленарного заседания парламента
+T15	ORGANIZATION 822 829	ЦК КПСС
+T162	ORGANIZATION 822 824	ЦК
+T163	ORGANIZATION 825 829	КПСС
+T20	EVENT 907 914	выборов
+T164	ORGANIZATION 927 937	МВД России
+T165	COUNTRY 931 937	России
+T166	NUMBER 1120 1123	462
+T167	NUMBER 1163 1165	88
+T168	NUMBER 1182 1184	80
+T32	ORGANIZATION 1338 1357	пресс-служба Кремля
+T169	ORGANIZATION 1351 1357	Кремля
+T170	ORDINAL 1426 1432	первых
+T171	PERSON 1537 1556	Александром Жуковым
+T172	ORDINAL 1644 1651	шестого
+T173	ORGANIZATION 1636 1658	Госдуме шестого созыва
+T174	ORDINAL 1914 1921	впервые
+T176	PROFESSION 2037 2042	певец
+T177	COUNTRY 2121 2127	России
+T178	PROFESSION 2219 2230	Депутатский
+T179	ORDINAL 2238 2245	впервые
+T65	PROFESSION 2347 2356	теннисист
+T180	PROFESSION 2328 2341	Законодателем
+T181	AWARD 2389 2410	олимпийская чемпионка
+T183	AWARD 2258 2265	чемпион
+T184	AWARD 2401 2410	чемпионка
+T185	PROFESSION 2489 2495	борцов
+T186	ORGANIZATION 2984 2988	Дума
+T187	ORGANIZATION 3119 3128	парламент
+T188	PROFESSION 3325 3335	депутатами
+T189	CITY 3508 3519	московского
+T190	ORGANIZATION 4257 4271	Справедливость
+T192	ORGANIZATION 4401 4410	парламент
+T193	ORGANIZATION 4836 4845	парламент
+T194	PROFESSION 4994 5003	депутатов
+T195	PROFESSION 5286 5301	парламентариями
+T196	LAW 5515 5559	закон об обращении с радиоактивными отходами
+T101	LAW 6840 6883	законопроекта об общественном контроле в РФ
+T197	PROFESSION 7086 7098	адвокатского
+T199	PROFESSION 7470 7479	депутатах
+T200	EVENT 8069 8085	заседание палаты
+T201	PROFESSION 8115 8126	журналистам
+R1	WORKPLACE Arg1:T124 Arg2:T154	
+R2	WORKS_AS Arg1:T3 Arg2:T126	
+R3	WORKPLACE Arg1:T3 Arg2:T155	
+R4	WORKPLACE Arg1:T126 Arg2:T155	
+R5	WORKS_AS Arg1:T3 Arg2:T124	
+R6	WORKPLACE Arg1:T3 Arg2:T154	
+R7	MEMBER_OF Arg1:T6 Arg2:T4	
+R8	WORKS_AS Arg1:T6 Arg2:T128	
+R9	WORKPLACE Arg1:T6 Arg2:T157	
+R10	WORKS_AS Arg1:T6 Arg2:T129	
+R11	WORKPLACE Arg1:T129 Arg2:T160	
+R12	ABBREVIATION Arg1:T4 Arg2:T8	
+R13	POINT_IN_TIME Arg1:T10 Arg2:T12	
+R14	ORGANIZES Arg1:T160 Arg2:T10	
+R15	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+T2	PROFESSION 243 259	депутатов от «ЕР
+R16	MEMBER_OF Arg1:T2 Arg2:T8	
+R17	WORKPLACE Arg1:T2 Arg2:T160	
+R18	DATE_OF_BIRTH Arg1:T18 Arg2:T16	
+R19	WORKPLACE Arg1:T133 Arg2:T15	
+R20	WORKS_AS Arg1:T18 Arg2:T133	
+R21	WORKPLACE Arg1:T18 Arg2:T15	
+R22	WORKS_AS Arg1:T18 Arg2:T17	
+R23	MEMBER_OF Arg1:T18 Arg2:T21	
+R24	PARTICIPANT_IN Arg1:T18 Arg2:T14	
+R25	HEADQUARTERED_IN Arg1:T164 Arg2:T165	
+R26	ALTERNATIVE_NAME Arg1:T165 Arg2:T35	
+R27	LOCATED_IN Arg1:T25 Arg2:T35	
+R28	LOCATED_IN Arg1:T26 Arg2:T35	
+R29	LOCATED_IN Arg1:T28 Arg2:T35	
+R30	LOCATED_IN Arg1:T29 Arg2:T35	
+R31	LOCATED_IN Arg1:T30 Arg2:T35	
+R32	WORKPLACE Arg1:T134 Arg2:T38	
+R33	MEMBER_OF Arg1:T171 Arg2:T43	
+R34	MEMBER_OF Arg1:T44 Arg2:T45	
+R35	WORKS_AS Arg1:T58 Arg2:T176	
+R36	WORKS_AS Arg1:T60 Arg2:T59	
+R37	WORKS_AS Arg1:T63 Arg2:T143	
+R38	WORKS_AS Arg1:T63 Arg2:T62	
+R39	WORKS_AS Arg1:T63 Arg2:T142	
+R40	AWARDED_WITH Arg1:T63 Arg2:T61	
+R41	ORIGINS_FROM Arg1:T61 Arg2:T177	
+R42	WORKS_AS Arg1:T67 Arg2:T65	
+R43	WORKPLACE Arg1:T151 Arg2:T122	
+R44	WORKS_AS Arg1:T123 Arg2:T151	
+R45	WORKPLACE Arg1:T123 Arg2:T122	
+R46	ALTERNATIVE_NAME Arg1:T115 Arg2:T117	
+R47	ALTERNATIVE_NAME Arg1:T105 Arg2:T114	
+R48	ABBREVIATION Arg1:T83 Arg2:T84	
+T5	ORGANIZATION 3508 3561	московского отделения Федерации автовладельцев России
+R49	PART_OF Arg1:T5 Arg2:T83	
+R50	HEADQUARTERED_IN Arg1:T5 Arg2:T189	
+R51	WORKPLACE Arg1:T149 Arg2:T5	
+R52	WORKS_AS Arg1:T85 Arg2:T149	
+R53	WORKPLACE Arg1:T85 Arg2:T5	
+R54	WORKS_AS Arg1:T70 Arg2:T185	
+T19	AWARD 2389 2439	олимпийская чемпионка по художественной гимнастике
+R55	PART_OF Arg1:T73 Arg2:T74	
+R56	WORKPLACE Arg1:T146 Arg2:T73	
+T42	AWARD 2258 2274	чемпион по боксу
+T71	AWARD 2258 2295	чемпион по боксу среди профессионалов
+R57	AWARDED_WITH Arg1:T66 Arg2:T42	
+T82	PROFESSION 2297 2311	супертяжеловес
+R58	WORKS_AS Arg1:T66 Arg2:T82	
+R59	WORKS_AS Arg1:T72 Arg2:T144	
+R60	WORKPLACE Arg1:T147 Arg2:T78	
+R61	WORKS_AS Arg1:T79 Arg2:T147	
+R62	WORKPLACE Arg1:T79 Arg2:T78	
+R63	WORKPLACE Arg1:T90 Arg2:T190	
+R64	ALTERNATIVE_NAME Arg1:T91 Arg2:T93	
+T103	DATE 6099 6113	до Нового года
+R65	WORKS_AS Arg1:T117 Arg2:T197	
+T107	EVENT 164 170	избран
+R66	PARTICIPANT_IN Arg1:T6 Arg2:T107	
+R67	AGENT Arg1:T160 Arg2:T107	
+T121	COUNTRY 862 868	России
+R68	HEADQUARTERED_IN Arg1:T21 Arg2:T121	
+T125	COUNTRY 103 109	России
+R69	HEADQUARTERED_IN Arg1:T4 Arg2:T125	
+R70	POINT_IN_TIME Arg1:T20 Arg2:T22	
+R71	TAKES_PLACE_IN Arg1:T20 Arg2:T121	
+R72	PART_OF Arg1:T32 Arg2:T169	
+T41	COUNTRY 1566 1572	Россия
+R73	HEADQUARTERED_IN Arg1:T43 Arg2:T41	
+R74	WORKS_AS Arg1:T171 Arg2:T137	
+R75	WORKPLACE Arg1:T137 Arg2:T43	
+T127	COUNTRY 1721 1727	России
+R76	HEADQUARTERED_IN Arg1:T49 Arg2:T127	
+T130	COUNTRY 1769 1775	России
+R77	HEADQUARTERED_IN Arg1:T54 Arg2:T130	
+R78	ALTERNATIVE_NAME Arg1:T173 Arg2:T57	
+R79	WORKS_AS Arg1:T58 Arg2:T141	
+R80	WORKS_AS Arg1:T60 Arg2:T141	
+R81	WORKS_AS Arg1:T66 Arg2:T178	
+R82	ALTERNATIVE_NAME Arg1:T178 Arg2:T180	
+R83	WORKS_AS Arg1:T67 Arg2:T180	
+R84	AWARDED_WITH Arg1:T69 Arg2:T19	
+R85	WORKPLACE Arg1:T69 Arg2:T68	
+R86	WORKPLACE Arg1:T70 Arg2:T68	
+R87	WORKPLACE Arg1:T72 Arg2:T68	
+R88	ALTERNATIVE_NAME Arg1:T68 Arg2:T76	
+T132	COUNTRY 2660 2667	Америки
+R89	HEADQUARTERED_IN Arg1:T74 Arg2:T132	
+T138	COUNTRY 5201 5208	Америки
+R90	HEADQUARTERED_IN Arg1:T95 Arg2:T138	
+R91	DATE_OF_CREATION Arg1:T196 Arg2:T99	
+R92	WORKPLACE Arg1:T150 Arg2:T104	
+R93	ORIGINS_FROM Arg1:T101 Arg2:T116	
+R94	WORKPLACE Arg1:T118 Arg2:T119	
+R95	POINT_IN_TIME Arg1:T200 Arg2:T120	
+R96	ORGANIZES Arg1:T122 Arg2:T200	
+R97	PARTICIPANT_IN Arg1:T123 Arg2:T200	
+N1	Reference T18 Wikidata:Q2544308	Владимир Иванович Долгих
+N2	Reference T23 Wikidata:Q6589202	министерство внутренних дел
+N3	Reference T25 Wikidata:Q649	Москва
+N4	Reference T26 Wikidata:Q5207	Ставропольский край
+N8	Reference T35 Wikidata:Q159	Россия
+N9	Reference T44 Wikidata:Q4289876	Иван Иванович Мельников
+N10	Reference T45 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N11	Reference T53 Wikidata:Q212115	ЛДПР
+N12	Reference T54 Wikidata:Q210692	Справедливая Россия
+N13	Reference T57 Wikidata:Q35749	парламент
+N14	Reference T58 Wikidata:Q1980296	Иосиф Давыдович Кобзон
+N15	Reference T59 Wikidata:Q3455803	режиссёр
+N16	Reference T60 Wikidata:Q1377159	Станислав Сергеевич Говорухин
+N17	Reference T61 Wikidata:Q1857712	Народный артист Российской Федерации
+N18	Reference T62 Wikidata:Q28389	сценарист
+N19	Reference T63 Wikidata:Q984154	Владимир Бортко
+N20	Reference T64 Wikidata:Q3148435	Мария Кожевникова
+N21	Reference T66 Wikidata:Q508929	Николай Сергеевич Валуев
+N22	Reference T67 Wikidata:Q133318	Марат Мубинович Сафин
+N23	Reference T68 Wikidata:Q715641	Государственная дума
+N24	Reference T69 Wikidata:Q254220	Кабаева, Алина Маратовна
+N25	Reference T70 Wikidata:Q187247	Александр Александрович Карелин
+N26	Reference T72 Wikidata:Q316864	Третьяк, Владислав Александрович
+N30	Reference T86 Wikidata:Q151469	Единая Россия
+N31	Reference T95 Wikidata:Q228389	Голос Америки
+N33	Reference T105 Wikidata:Q18243125	Канаев, Сергей Владимирович
+N36	Reference T116 Wikidata:Q159	Россия
+N37	Reference T118 Wikidata:Q140686	председатель
+N38	Reference T122 Wikidata:Q715641	Государственная дума
+N39	Reference T123 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N42	Reference T133 Wikidata:Q1851579	Секретариат ЦК КПСС
+N43	Reference T134 Wikidata:Q4376663	председатель Государственной думы
+N46	Reference T137 Wikidata:Q877955	вице-премьер
+N48	Reference T141 Wikidata:Q486839	член парламента
+N49	Reference T142 Wikidata:Q483501	деятель искусств
+N50	Reference T143 Wikidata:Q2526255	кинорежиссёр
+N55	Reference T151 Wikidata:Q4376663	председатель Государственной думы
+N59	Reference T15 Wikidata:Q1971373	Центральный комитет КПСС
+N60	Reference T162 Wikidata:Q190652	центральный комитет
+N61	Reference T163 Wikidata:Q79854	Коммунистическая партия Советского Союза
+N62	Reference T164 Wikidata:Q1192838	Министерство внутренних дел Российской Федерации
+N65	Reference T171 Wikidata:Q57735	Александр Дмитриевич Жуков
+N66	Reference T176 Wikidata:Q177220	певец
+N68	Reference T65 Wikidata:Q10833314	теннисист
+N69	Reference T181 Wikidata:Q4333889	олимпийский чемпион
+N72	Reference T185 Wikidata:Q155904	Борец
+N75	Reference T195 Wikidata:Q486839	член парламента
+N79	Reference T201 Wikidata:Q1930187	журналист
+N57	Reference T155 Wikidata:Q2060629	Администрация президента России
+N58	Reference T158 Wikidata:Q218295	президент Российской Федерации
+N40	Reference T128 Wikidata:Q4488944	
+N41	Reference T129 Wikidata:NULL	нет данных
+N80	Reference T2 Wikidata:NULL	нет данных
+N5	Reference T28 Wikidata:Q1727	
+N6	Reference T29 Wikidata:Q5462	Свердловская область
+N7	Reference T30 Wikidata:Q5851	Новосибирская область
+N64	Reference T169 Wikidata:Q2060629	Администрация президента России
+N63	Reference T32 Wikidata:NULL	нет данных
+N44	Reference T135 Wikidata:NULL	нет данных
+N45	Reference T136 Wikidata:NULL	нет данных
+N47	Reference T140 Wikidata:Q1155838	
+N67	Reference T178 Wikidata:Q486839	член парламента
+N70	Reference T183 Wikidata:NULL	нет данных
+N83	Reference T42 Wikidata:NULL	нет данных
+N84	Reference T71 Wikidata:NULL	нет данных
+N85	Reference T82 Wikidata:NULL	нет данных
+N71	Reference T184 Wikidata:NULL	нет данных
+N82	Reference T19 Wikidata:NULL	нет данных
+N51	Reference T144 Wikidata:Q1317534	
+N86	Reference T132 Wikidata:Q30	США
+N52	Reference T146 Wikidata:NULL	нет данных
+N27	Reference T73 Wikidata:NULL	нет данных
+N87	Reference T77 Wikidata:Q108656933	
+N53	Reference T147 Wikidata:NULL	нет данных
+N88	Reference T148 Wikidata:Q108656933	
+N28	Reference T81 Wikidata:Q715641	Государственная дума
+N54	Reference T149 Wikidata:NULL	нет данных
+N73	Reference T189 Wikidata:Q649	Москва
+N81	Reference T5 Wikidata:NULL	нет данных
+N29	Reference T83 Wikidata:NULL	нет данных
+N74	Reference T190 Wikidata:NULL	нет данных
+N32	Reference T96 Wikidata:NULL	нет данных
+N76	Reference T196 Wikidata:NULL	нет данных
+N89	Reference T104 Wikidata:NULL	нет данных
+N34	Reference T110 Wikidata:Q160381	Западный мир
+N35	Reference T115 Wikidata:NULL	нет данных
+N77	Reference T101 Wikidata:NULL	нет данных
+N78	Reference T197 Wikidata:Q40348	адвокат
+N56	Reference T152 Wikidata:Q1758037	спикер
+N90	Reference T165 Wikidata:Q159	Россия
+N91	Reference T75 Wikidata:Q159	Россия
+N92	Reference T127 Wikidata:Q159	Россия
+N93	Reference T109 Wikidata:Q159	Россия
+N94	Reference T121 Wikidata:Q159	Россия
+N95	Reference T177 Wikidata:Q159	Россия
+N96	Reference T130 Wikidata:Q159	Россия
+N97	Reference T41 Wikidata:Q159	Россия
+N98	Reference T125 Wikidata:Q159	Россия
+N99	Reference T51 Wikidata:Q192187	Коммунистическая партия Российской Федерации
+N100	Reference T113 Wikidata:Q210692	Справедливая Россия
+N101	Reference T193 Wikidata:Q35749	парламент
+N102	Reference T160 Wikidata:Q35749	парламент
+N103	Reference T173 Wikidata:Q35749	парламент
+N104	Reference T187 Wikidata:Q35749	парламент
+N105	Reference T192 Wikidata:Q35749	парламент
+N106	Reference T76 Wikidata:Q715641	Государственная дума
+N107	Reference T8 Wikidata:Q151469	Единая Россия
+N108	Reference T49 Wikidata:Q151469	Единая Россия
+N109	Reference T4 Wikidata:Q151469	Единая Россия
+N110	Reference T43 Wikidata:Q151469	Единая Россия
+N111	Reference T21 Wikidata:Q151469	Единая Россия
+N112	Reference T74 Wikidata:Q228389	Голос Америки
+N113	Reference T114 Wikidata:Q18243125	Канаев, Сергей Владимирович
+N114	Reference T85 Wikidata:Q18243125	Канаев, Сергей Владимирович
+N115	Reference T88 Wikidata:Q18243125	Канаев, Сергей Владимирович
+N116	Reference T89 Wikidata:Q140686	председатель
+N117	Reference T100 Wikidata:Q715641	Государственная дума
+N118	Reference T154 Wikidata:Q715641	Государственная дума
+N119	Reference T87 Wikidata:Q715641	Государственная дума
+N120	Reference T186 Wikidata:Q715641	Государственная дума
+N121	Reference T94 Wikidata:Q715641	Государственная дума
+N122	Reference T38 Wikidata:Q715641	Государственная дума
+N123	Reference T46 Wikidata:Q715641	Государственная дума
+N124	Reference T112 Wikidata:Q715641	Государственная дума
+N125	Reference T102 Wikidata:Q715641	Государственная дума
+N126	Reference T159 Wikidata:Q715641	Государственная дума
+N127	Reference T97 Wikidata:Q715641	Государственная дума
+N128	Reference T80 Wikidata:Q715641	Государственная дума
+N129	Reference T93 Wikidata:Q715641	Государственная дума
+N130	Reference T91 Wikidata:Q715641	Государственная дума
+N131	Reference T108 Wikidata:Q715641	Государственная дума
+N132	Reference T13 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N133	Reference T6 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N134	Reference T3 Wikidata:Q983654	Сергей Евгеньевич Нарышкин
+N135	Reference T194 Wikidata:Q486839	член парламента
+N136	Reference T17 Wikidata:Q486839	член парламента
+N137	Reference T131 Wikidata:Q486839	член парламента
+N138	Reference T199 Wikidata:Q486839	член парламента
+N139	Reference T188 Wikidata:Q486839	член парламента
+N140	Reference T124 Wikidata:Q4376663	председатель Государственной думы
+N141	Reference T157 Wikidata:Q2060629	Администрация президента России
+N142	Reference T156 Wikidata:Q218295	президент Российской Федерации
+N143	Reference T126 Wikidata:Q4488944	
+N144	Reference T145 Wikidata:Q1155838	
+N145	Reference T180 Wikidata:Q486839	член парламента
+N146	Reference T139 Wikidata:Q486839	член парламента
+N147	Reference T138 Wikidata:Q30	США
+N148	Reference T150 Wikidata:NULL	нет данных
+N149	Reference T111 Wikidata:NULL	нет данных
+N150	Reference T106 Wikidata:NULL	нет данных
+N151	Reference T84 Wikidata:NULL	нет данных
+N152	Reference T119 Wikidata:NULL	нет данных
+N153	Reference T79 Wikidata:NULL	нет данных
+N154	Reference T78 Wikidata:NULL	нет данных
+N155	Reference T117 Wikidata:NULL	нет данных
+N156	Reference T92 Wikidata:NULL	нет данных
+N157	Reference T90 Wikidata:NULL	нет данных
+N158	Reference T7 Wikidata:Q1758037	спикер
+N159	Reference T37 Wikidata:Q1758037	спикер
+N160	Reference T1 Wikidata:Q1758037	спикер

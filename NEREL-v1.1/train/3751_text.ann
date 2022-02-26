@@ -1,0 +1,34 @@
+T1	NATIONALITY 25 34	Румынский
+T2	PERSON 129 138	Лаурентий
+T3	CITY 154 161	Фоксаны
+T4	DATE 179 201	в течение трёх месяцев
+T5	DATE 230 254	Несколько месяцев спустя
+T6	AGE 295 301	45 лет
+T7	ORGANIZATION 319 324	7Плюс
+T8	PERSON 427 438	Лаурентий Д
+T9	NUMBER 774 778	двух
+T10	EVENT 8 23	женился на тёще
+T12	AGE 140 142	27
+T14	EVENT 221 227	развод
+T16	EVENT 258 265	женился
+T17	EVENT 343 352	церемонию
+T18	EVENT 383 398	бракосочетанием
+T20	EVENT 512 526	бракосочетание
+T21	ORGANIZATION 577 584	полицию
+R1	AGE_IS Arg1:T2 Arg2:T12	
+R2	ORIGINS_FROM Arg1:T2 Arg2:T1	
+R3	ORIGINS_FROM Arg1:T2 Arg2:T3	
+R5	AGENT Arg1:T2 Arg2:T14	
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T16	
+R7	POINT_IN_TIME Arg1:T16 Arg2:T5	
+R8	ALTERNATIVE_NAME Arg1:T16 Arg2:T18	
+R9	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+T11	EVENT 85 103	развестись с женой
+R4	ALTERNATIVE_NAME Arg1:T11 Arg2:T14	
+R10	ALTERNATIVE_NAME Arg1:T10 Arg2:T16	
+N2	Reference T3 Wikidata:Q192265	Фокшаны
+N4	Reference T21 Wikidata:Q35535	полиция
+N1	Reference T1 Wikidata:Q485150	
+N5	Reference T7 Wikidata:Q12736440	
+N3	Reference T8 Wikidata:NULL	нет данных
+N6	Reference T2 Wikidata:NULL	нет данных

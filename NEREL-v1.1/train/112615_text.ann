@@ -1,0 +1,80 @@
+T1	ORGANIZATION 0 10	Центробанк
+T2	CITY 30 41	московского
+T3	ORGANIZATION 49 60	ГПБ-Ипотека
+T4	FACILITY 63 82	Здание Банка России
+T5	ORGANIZATION 70 82	Банка России
+T6	CITY 85 91	Москве
+T7	ORGANIZATION 101 122	Центрального банка РФ
+T8	LAW 123 131	№ 456-ОД
+T9	DATE 132 155	от 21 февраля 2017 года
+T17	ORGANIZATION 277 288	ГПБ-Ипотека
+T18	CITY 412 423	московского
+T19	ORGANIZATION 431 442	ГПБ-Ипотека
+T20	ORGANIZATION 491 502	Газпромбанк
+T21	ORGANIZATION 547 552	ЦБ РФ
+T22	LAW 612 678	статьи 23 Федерального закона «О банках и банковской деятельности»
+T23	DATE 811 833	на 1 февраля 2017 года
+T24	ORGANIZATION 860 871	ГПБ-Ипотека
+T25	ORDINAL 881 886	292-е
+T26	COUNTRY 914 916	РФ
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T2
+R6	HEADQUARTERED_IN Arg1:T19 Arg2:T18
+T10	COUNTRY 120 122	РФ
+T11	COUNTRY 550 552	РФ
+T12	LAW 622 678	Федерального закона «О банках и банковской деятельности»
+T14	EVENT 11 27	отозвал лицензию
+R5	AGENT Arg1:T1 Arg2:T14	
+R8	PARTICIPANT_IN Arg1:T3 Arg2:T14	
+T15	COUNTRY 76 82	России
+R2	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R3	OWNER_OF Arg1:T4 Arg2:T5	
+T16	ORGANIZATION 101 119	Центрального банка
+T27	LAW 92 131	Приказом Центрального банка РФ № 456-ОД
+R4	DATE_OF_CREATION Arg1:T27 Arg2:T9	
+T28	LAW 235 335	Об аннулировании у кредитной организации «ГПБ-Ипотека» лицензии на осуществление банковских операций
+R9	OWNER_OF Arg1:T20 Arg2:T19	
+T29	ORGANIZATION 547 549	ЦБ
+R7	HEADQUARTERED_IN Arg1:T24 Arg2:T26	
+R10	LOCATED_IN Arg1:T4 Arg2:T6	
+R11	HEADQUARTERED_IN Arg1:T5 Arg2:T15	
+R12	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R13	ALTERNATIVE_NAME Arg1:T15 Arg2:T10	
+R14	LOCATED_IN Arg1:T6 Arg2:T15	
+R15	HEADQUARTERED_IN Arg1:T7 Arg2:T10	
+R16	ALTERNATIVE_NAME Arg1:T1 Arg2:T16	
+T30	ORDINAL 125 128	456
+R17	HEADQUARTERED_IN Arg1:T21 Arg2:T11	
+R18	ABBREVIATION Arg1:T16 Arg2:T29	
+T31	ORDINAL 619 621	23
+T13	EVENT 357 372	отзыве лицензии
+R19	ALTERNATIVE_NAME Arg1:T14 Arg2:T13	
+R20	AGENT Arg1:T7 Arg2:T13	
+R21	PARTICIPANT_IN Arg1:T19 Arg2:T13	
+T32	EVENT 577 598	лицензия аннулирована
+R22	ALTERNATIVE_NAME Arg1:T13 Arg2:T32	
+R23	PART_OF Arg1:T22 Arg2:T12	
+R24	HAS_CAUSE Arg1:T32 Arg2:T22	
+N2	Reference T5 Wikidata:Q806651	Центральный банк Российской Федерации
+N3	Reference T7 Wikidata:Q806651	Центральный банк Российской Федерации
+N4	Reference T8 Wikidata:Q178985	ода
+N6	Reference T18 Wikidata:Q159261	Московский
+N7	Reference T20 Wikidata:Q1924338	Газпромбанк
+N8	Reference T21 Wikidata:Q806651	Центральный банк Российской Федерации
+N10	Reference T11 Wikidata:Q159	Россия
+N14	Reference T29 Wikidata:Q806651	Центральный банк Российской Федерации
+N1	Reference T4 Wikidata:NULL	нет данных
+N12	Reference T27 Wikidata:NULL	нет данных
+N13	Reference T28 Wikidata:NULL	нет данных
+N5	Reference T17 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:NULL	нет данных
+N11	Reference T12 Wikidata:NULL	нет данных
+N15	Reference T6 Wikidata:Q159261	Московский
+N16	Reference T2 Wikidata:Q159261	Московский
+N17	Reference T26 Wikidata:Q159	Россия
+N18	Reference T15 Wikidata:Q159	Россия
+N19	Reference T10 Wikidata:Q159	Россия
+N20	Reference T1 Wikidata:Q806651	Центральный банк Российской Федерации
+N21	Reference T16 Wikidata:Q806651	Центральный банк Российской Федерации
+N22	Reference T19 Wikidata:NULL	нет данных
+N23	Reference T24 Wikidata:NULL	нет данных
+N24	Reference T3 Wikidata:NULL	нет данных

@@ -1,0 +1,310 @@
+T1	PROFESSION 11 30	президенты Парагвая
+T2	PERSON 60 71	Лино Овьедо
+T3	PERSON 73 84	Lino Oviedo
+T4	CITY 118 126	Асунсьон
+T5	DATE 128 147	2 февраля 2013 года
+T7	PERSON 179 190	Лино Овьедо
+T8	PERSON 192 203	Lino Oviedo
+T9	COUNTRY 242 250	Парагвая
+T10	DATE 260 271	трёхдневный
+T11	PRODUCT 318 329	Robinson 44
+T12	PERSON 349 360	Лино Овьедо
+T13	TIME 368 385	вечером в субботу
+T14	CITY 445 455	Консепсьон
+T15	TIME 480 494	спустя 22 часа
+T16	PERSON 505 511	Овьедо
+T17	PROFESSION 522 535	телохранитель
+T18	PERSON 536 550	Дерлис Галеано
+T19	PERSON 552 566	Derlis Galeano
+T20	PROFESSION 570 575	пилот
+T21	PERSON 586 603	Рамон Пико Делмас
+T22	PERSON 605 623	Ramón Picco Delmás
+T24	NUMBER 655 669	500 километрах
+T26	CITY 688 696	Асунсьон
+T27	STATE_OR_PROVINCE 707 722	Пуэрто Антекера
+T29	ORGANIZATION 1008 1045	Национального союза этических граждан
+T30	ORGANIZATION 1048 1083	Unión Nacional de Ciudadanos Éticos
+T31	PERSON 1085 1096	Сесар Дуран
+T32	PERSON 1105 1116	Лино Овьедо
+T33	COUNTRY 1148 1161	парагвайского
+T34	PROFESSION 1162 1171	диктатора
+T35	PERSON 1172 1191	Альфредо Стресснера
+T36	DATE 1208 1219	с 1954 года
+T37	PROFESSION 1233 1242	генералом
+T38	DATE 1261 1280	3 февраля 1989 года
+T39	PERSON 1282 1293	Лино Овьедо
+T40	PERSON 1471 1477	Овьедо
+T41	AGE 1483 1489	69 лет
+T42	PROFESSION 1498 1505	военным
+T44	COUNTRY 1538 1550	парагвайскую
+T45	DATE 1558 1569	В 1998 году
+T47	DATE 1646 1657	в 1996 году
+T48	DATE 1661 1670	1999 году
+T49	PROFESSION 1687 1701	вице-президент
+T51	PERSON 1742 1760	Луис Мария Арганья
+T52	PERSON 1762 1768	Овьедо
+T53	COUNTRY 1784 1792	Парагвая
+T54	DATE 1805 1816	в 2004 году
+T55	PERSON 1842 1848	Овьедо
+T56	DATE 1866 1877	в 2007 году
+T57	DATE 1902 1913	В 2008 году
+T58	ORGANIZATION 1956 1991	Национальный союз этических граждан
+T59	ORDINAL 2012 2018	третье
+T60	COUNTRY 2055 2063	Парагвае
+T61	DATE 2072 2091	21 апреля 2013 года
+T62	ORDINAL 2101 2105	6-ми
+T63	PERSON 2156 2175	Альфредо Стресснера
+T64	DATE 2176 2195	в феврале 1989 года
+T65	ORGANIZATION 2301 2309	Меркосур
+T66	PROFESSION 2336 2346	президента
+T67	PERSON 2347 2360	Фернандо Луго
+T68	DATE 2395 2404	2008 года
+T69	PROFESSION 2440 2449	президент
+T70	PROFESSION 2451 2465	вице-президент
+T71	PROFESSION 2467 2475	сенаторы
+T72	PROFESSION 2477 2489	конгрессмены
+T73	PROFESSION 2492 2503	губернаторы
+T74	PROFESSION 11 21	президенты
+T75	COUNTRY 22 30	Парагвая
+T76	EVENT 31 36	погиб
+T77	EVENT 41 49	крушении
+T78	PROFESSION 0 30	Кандидат в президенты Парагвая
+T80	PROFESSION 148 178	кандидат в президенты Парагвая
+T82	PROFESSION 159 169	президенты
+T83	PROFESSION 159 178	президенты Парагвая
+T84	PROFESSION 296 304	политика
+T85	PROFESSION 392 399	политик
+T86	PROFESSION 981 1045	официальный представитель «Национального союза этических граждан
+T89	PROFESSION 1687 1708	вице-президент страны
+T91	PROFESSION 1934 1944	президенты
+T93	PROFESSION 2492 2517	губернаторы департаментов
+T94	EVENT 205 210	погиб
+T95	EVENT 215 223	крушении
+T98	EVENT 288 295	гибелью
+T99	DATE 376 385	в субботу
+T100	EVENT 428 435	митинга
+T101	EVENT 414 435	предвыборного митинга
+T102	ORGANIZATION 457 464	Полиция
+T103	EVENT 512 517	погиб
+T104	EVENT 635 643	разбился
+T25	EVENT 768 776	крушения
+T105	ORGANIZATION 848 861	правительство
+T106	EVENT 927 937	катастрофы
+T28	EVENT 1098 1104	смерть
+T109	PERSON 1243 1253	Родригесом
+T110	EVENT 1333 1343	перевороте
+T112	ORGANIZATION 1551 1556	армию
+T113	ORGANIZATION 1538 1556	парагвайскую армию
+T114	PERSON 1570 1576	Овьедо
+T115	CRIME 1610 1645	попытке государственного переворота
+T116	DATE 1588 1594	10 лет
+T117	EVENT 1682 1686	убит
+T50	PROFESSION 1733 1741	военного
+T118	EVENT 1831 1840	арестован
+T119	EVENT 1849 1865	вышел на свободу
+T120	EVENT 2004 2011	выборах
+T121	EVENT 2046 2052	выборы
+T122	EVENT 2106 2128	национальными выборами
+T123	EVENT 2120 2128	выборами
+T124	ORDINAL 2214 2221	первыми
+T125	EVENT 2222 2230	выборами
+T126	EVENT 2324 2335	импичментом
+T127	EVENT 2387 2394	выборах
+T128	EVENT 2418 2425	выборах
+T6	EVENT 41 59	крушении вертолёта
+R1	WORKPLACE Arg1:T78 Arg2:T75	
+R2	PARTICIPANT_IN Arg1:T78 Arg2:T76	
+R3	HAS_CAUSE Arg1:T76 Arg2:T6	
+R4	ALTERNATIVE_NAME Arg1:T2 Arg2:T3	
+T79	COUNTRY 170 178	Парагвая
+R5	WORKPLACE Arg1:T80 Arg2:T79	
+R6	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+T81	EVENT 215 233	крушении вертолёта
+R7	HAS_CAUSE Arg1:T94 Arg2:T81	
+R8	PARTICIPANT_IN Arg1:T78 Arg2:T6	
+R9	PARTICIPANT_IN Arg1:T7 Arg2:T94	
+R10	PARTICIPANT_IN Arg1:T7 Arg2:T81	
+R11	POINT_IN_TIME Arg1:T94 Arg2:T5	
+R12	POINT_IN_TIME Arg1:T81 Arg2:T5	
+R13	WORKS_AS Arg1:T7 Arg2:T80	
+R14	WORKPLACE Arg1:T7 Arg2:T79	
+R15	ALTERNATIVE_NAME Arg1:T94 Arg2:T98	
+R16	PARTICIPANT_IN Arg1:T84 Arg2:T98	
+R17	WORKS_AS Arg1:T7 Arg2:T84	
+T92	ORGANIZATION 235 250	Власти Парагвая
+R18	HEADQUARTERED_IN Arg1:T92 Arg2:T9	
+R19	WORKS_AS Arg1:T12 Arg2:T85	
+R20	PARTICIPANT_IN Arg1:T12 Arg2:T101	
+R21	TAKES_PLACE_IN Arg1:T101 Arg2:T14	
+R22	LOCATED_IN Arg1:T14 Arg2:T9	
+R23	ALTERNATIVE_NAME Arg1:T12 Arg2:T16	
+R24	PARTICIPANT_IN Arg1:T16 Arg2:T103	
+R25	ALTERNATIVE_NAME Arg1:T18 Arg2:T19	
+R26	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R27	WORKS_AS Arg1:T21 Arg2:T20	
+R28	WORKS_AS Arg1:T18 Arg2:T17	
+R29	PARTICIPANT_IN Arg1:T18 Arg2:T103	
+R30	PARTICIPANT_IN Arg1:T21 Arg2:T103	
+R31	ALTERNATIVE_NAME Arg1:T104 Arg2:T25	
+T96	EVENT 626 643	Вертолёт разбился
+T97	EVENT 768 786	крушения вертолета
+R32	ALTERNATIVE_NAME Arg1:T96 Arg2:T97	
+R34	LOCATED_IN Arg1:T27 Arg2:T9	
+R35	LOCATED_IN Arg1:T26 Arg2:T9	
+R36	TAKES_PLACE_IN Arg1:T96 Arg2:T27	
+T129	EVENT 910 916	аварии
+R37	ALTERNATIVE_NAME Arg1:T129 Arg2:T106	
+R38	ALTERNATIVE_NAME Arg1:T25 Arg2:T129	
+R39	WORKPLACE Arg1:T86 Arg2:T29	
+R40	ALTERNATIVE_NAME Arg1:T29 Arg2:T30	
+R41	WORKS_AS Arg1:T31 Arg2:T86	
+R42	MEMBER_OF Arg1:T31 Arg2:T29	
+R43	PARTICIPANT_IN Arg1:T32 Arg2:T28	
+T87	EVENT 1138 1147	свержения
+T107	EVENT 1127 1147	годовщиной свержения
+R44	HAS_CAUSE Arg1:T107 Arg2:T87	
+R45	WORKS_AS Arg1:T35 Arg2:T34	
+R46	ORIGINS_FROM Arg1:T35 Arg2:T33	
+R47	PARTICIPANT_IN Arg1:T35 Arg2:T87	
+R48	ALTERNATIVE_NAME Arg1:T44 Arg2:T53	
+R49	WORKS_AS Arg1:T109 Arg2:T37	
+R50	PARTICIPANT_IN Arg1:T39 Arg2:T110	
+T108	EVENT 1226 1232	смещён
+R51	ALTERNATIVE_NAME Arg1:T87 Arg2:T108	
+R52	ALTERNATIVE_NAME Arg1:T108 Arg2:T110	
+R53	AGENT Arg1:T109 Arg2:T108	
+R54	PARTICIPANT_IN Arg1:T35 Arg2:T108	
+R55	POINT_IN_TIME Arg1:T108 Arg2:T38	
+R56	AGE_DIED_AT Arg1:T40 Arg2:T41	
+R57	ALTERNATIVE_NAME Arg1:T39 Arg2:T40	
+R58	WORKS_AS Arg1:T40 Arg2:T42	
+R59	HEADQUARTERED_IN Arg1:T113 Arg2:T44	
+T43	DATE 1515 1526	по 1996 год
+T111	DATE 1508 1514;1523 1526	с 1993 год
+R60	WORKPLACE Arg1:T40 Arg2:T113	
+R64	CONVICTED_OF Arg1:T114 Arg2:T115	
+T46	PENALTY 1577 1594	осудили на 10 лет
+R65	HAS_CAUSE Arg1:T46 Arg2:T115	
+R66	PENALIZED_AS Arg1:T114 Arg2:T46	
+R67	POINT_IN_TIME Arg1:T46 Arg2:T45	
+R61	POINT_IN_TIME Arg1:T115 Arg2:T47	
+R62	WORKS_AS Arg1:T51 Arg2:T89	
+R63	PARTICIPANT_IN Arg1:T51 Arg2:T117	
+R68	WORKS_AS Arg1:T52 Arg2:T50	
+T88	EVENT 1774 1780	бежать
+R69	AGENT Arg1:T52 Arg2:T88	
+R70	HAS_CAUSE Arg1:T88 Arg2:T117	
+R71	POINT_IN_TIME Arg1:T118 Arg2:T54	
+R72	PARTICIPANT_IN Arg1:T52 Arg2:T118	
+R73	POINT_IN_TIME Arg1:T119 Arg2:T56	
+R74	AGENT Arg1:T55 Arg2:T119	
+T90	EVENT 1917 1931	баллотировался
+R75	POINT_IN_TIME Arg1:T90 Arg2:T57	
+R76	PARTICIPANT_IN Arg1:T91 Arg2:T90	
+R77	PARTICIPANT_IN Arg1:T58 Arg2:T90	
+R78	MEMBER_OF Arg1:T55 Arg2:T58	
+R79	SUBEVENT_OF Arg1:T90 Arg2:T120	
+R80	TAKES_PLACE_IN Arg1:T121 Arg2:T60	
+R81	POINT_IN_TIME Arg1:T121 Arg2:T61	
+R82	PARTICIPANT_IN Arg1:T67 Arg2:T126	
+R83	WORKS_AS Arg1:T67 Arg2:T66	
+R84	POINT_IN_TIME Arg1:T127 Arg2:T68	
+R85	PARTICIPANT_IN Arg1:T67 Arg2:T127	
+R86	PARTICIPANT_IN Arg1:T69 Arg2:T128	
+R87	PARTICIPANT_IN Arg1:T70 Arg2:T128	
+R88	PARTICIPANT_IN Arg1:T71 Arg2:T128	
+R89	PARTICIPANT_IN Arg1:T72 Arg2:T128	
+R90	PARTICIPANT_IN Arg1:T93 Arg2:T128	
+T130	EVENT 260 277	трёхдневный траур
+R91	ORGANIZES Arg1:T92 Arg2:T130	
+R92	HAS_CAUSE Arg1:T130 Arg2:T98	
+T131	NUMBER 327 329	44
+R93	INANIMATE_INVOLVED Arg1:T11 Arg2:T81	
+T132	EVENT 465 475	обнаружила
+R94	AGENT Arg1:T102 Arg2:T132	
+R95	INANIMATE_INVOLVED Arg1:T11 Arg2:T132	
+R96	ABBREVIATION Arg1:T132 Arg2:T15	
+R97	ALTERNATIVE_NAME Arg1:T81 Arg2:T104	
+R33	WORKPLACE Arg1:T40 Arg2:T113	
+R98	TAKES_PLACE_IN Arg1:T88 Arg2:T53	
+T23	EVENT 1794 1804	Вернувшись
+R99	AGENT Arg1:T52 Arg2:T23	
+R100	POINT_IN_TIME Arg1:T23 Arg2:T54	
+R101	TAKES_PLACE_IN Arg1:T23 Arg2:T53	
+R102	AGENT Arg1:T55 Arg2:T90	
+T133	LOCATION 2272 2288	южноамериканской
+R103	LOCATED_IN Arg1:T60 Arg2:T133	
+R104	TAKES_PLACE_IN Arg1:T128 Arg2:T60	
+T134	EVENT 2135 2155	завершения диктатуры
+R105	PARTICIPANT_IN Arg1:T63 Arg2:T134	
+R106	POINT_IN_TIME Arg1:T134 Arg2:T64	
+R107	TAKES_PLACE_IN Arg1:T134 Arg2:T60	
+N1	Reference T2 Wikidata:Q1121964	Овьедо, Лино
+N2	Reference T7 Wikidata:Q1121964	Овьедо, Лино
+N7	Reference T20 Wikidata:Q2095549	лётчик
+N8	Reference T26 Wikidata:Q2933	Асунсьон
+N10	Reference T29 Wikidata:Q2496554	Национальный союз этических граждан
+N12	Reference T34 Wikidata:Q183318	диктатор
+N13	Reference T35 Wikidata:Q152534	Альфредо Стресснер
+N14	Reference T37 Wikidata:Q83460	генерал
+N15	Reference T42 Wikidata:Q47064	военнослужащий
+N19	Reference T65 Wikidata:Q4264	Меркосур
+N20	Reference T67 Wikidata:Q151879	Фернандо Луго
+N22	Reference T73 Wikidata:Q132050	губернатор
+N24	Reference T84 Wikidata:Q82955	политик
+N25	Reference T85 Wikidata:Q82955	политик
+N28	Reference T91 Wikidata:Q30461	президент
+N30	Reference T102 Wikidata:Q35535	полиция
+N31	Reference T105 Wikidata:Q7188	правительство
+N32	Reference T109 Wikidata:Q440837	Андрес Родригес
+N35	Reference T79 Wikidata:Q733	Парагвай
+N23	Reference T78 Wikidata:NULL	нет данных
+N38	Reference T83 Wikidata:Q34071	
+N36	Reference T92 Wikidata:NULL	нет данных
+N39	Reference T11 Wikidata:Q39675	
+N3	Reference T14 Wikidata:Q840962	Консепсьон
+N4	Reference T16 Wikidata:Q1121964	Овьедо, Лино
+N5	Reference T17 Wikidata:Q851436	телохранитель
+N6	Reference T18 Wikidata:NULL	нет данных
+N40	Reference T22 Wikidata:NULL	нет данных
+N9	Reference T27 Wikidata:Q2397118	
+N26	Reference T86 Wikidata:NULL	нет данных
+N11	Reference T31 Wikidata:NULL	нет данных
+N33	Reference T112 Wikidata:Q8473	армия
+N34	Reference T113 Wikidata:Q1074800	
+N16	Reference T49 Wikidata:Q42178	вице-президент
+N27	Reference T89 Wikidata:Q26353	
+N18	Reference T52 Wikidata:Q1121964	Овьедо, Лино
+N17	Reference T51 Wikidata:Q873568	
+N37	Reference T133 Wikidata:Q18	Южная Америка
+N21	Reference T71 Wikidata:Q15686806	
+N41	Reference T72 Wikidata:Q14761450	
+N29	Reference T93 Wikidata:NULL	нет данных
+N42	Reference T3 Wikidata:Q1121964	Овьедо, Лино
+N43	Reference T8 Wikidata:Q1121964	Овьедо, Лино
+N44	Reference T4 Wikidata:Q2933	Асунсьон
+N45	Reference T58 Wikidata:Q2496554	Национальный союз этических граждан
+N46	Reference T30 Wikidata:Q2496554	Национальный союз этических граждан
+N47	Reference T63 Wikidata:Q152534	Альфредо Стресснер
+N48	Reference T50 Wikidata:Q47064	военнослужащий
+N49	Reference T69 Wikidata:Q30461	президент
+N50	Reference T66 Wikidata:Q30461	президент
+N51	Reference T82 Wikidata:Q30461	президент
+N52	Reference T74 Wikidata:Q30461	президент
+N53	Reference T75 Wikidata:Q733	Парагвай
+N54	Reference T44 Wikidata:Q733	Парагвай
+N55	Reference T53 Wikidata:Q733	Парагвай
+N56	Reference T33 Wikidata:Q733	Парагвай
+N57	Reference T60 Wikidata:Q733	Парагвай
+N58	Reference T9 Wikidata:Q733	Парагвай
+N59	Reference T80 Wikidata:NULL	нет данных
+N60	Reference T1 Wikidata:Q34071	
+N61	Reference T12 Wikidata:Q1121964	Овьедо, Лино
+N62	Reference T19 Wikidata:NULL	нет данных
+N63	Reference T21 Wikidata:NULL	нет данных
+N64	Reference T70 Wikidata:Q42178	вице-президент
+N65	Reference T55 Wikidata:Q1121964	Овьедо, Лино
+N66	Reference T40 Wikidata:Q1121964	Овьедо, Лино
+N67	Reference T114 Wikidata:Q1121964	Овьедо, Лино
+N68	Reference T39 Wikidata:Q1121964	Овьедо, Лино
+N69	Reference T32 Wikidata:Q1121964	Овьедо, Лино

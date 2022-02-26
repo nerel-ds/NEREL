@@ -1,0 +1,321 @@
+T1	WORK_OF_ART 1 8	Квадрат
+T3	EVENT 44 67	Каннского кинофестиваля
+T4	PERSON 73 86	Рубен Эстлунд
+T6	EVENT 113 136	Каннского кинофестиваля
+T7	DATE 137 141	2017
+T8	NATIONALITY 162 171	шведского
+T9	PERSON 182 197	Рубена Эстлунда
+T10	WORK_OF_ART 199 206	Квадрат
+T11	PERSON 210 223	Робен Кампийо
+T12	NATIONALITY 255 263	француза
+T13	PERSON 264 278	Робена Кампийо
+T14	WORK_OF_ART 280 299	120 ударов в минуту
+T15	NUMBER 302 305	120
+T17	PERSON 326 342	Андрей Звягинцев
+T18	WORK_OF_ART 352 360	Нелюбовь
+T19	NATIONALITY 362 373	российского
+T20	PERSON 384 401	Андрея Звягинцева
+T21	NATIONALITY 482 492	американка
+T22	WORK_OF_ART 517 534	Роковое искушение
+T23	NATIONALITY 566 570	грек
+T24	PERSON 571 586	Йоргос Лантимос
+T25	WORK_OF_ART 588 613	Убийство священного оленя
+T27	PERSON 628 646	Эфтимисом Филиппоу
+T28	NATIONALITY 650 659	шотландка
+T29	PERSON 660 670	Линн Рэмси
+T30	PERSON 708 723	Джонатана Эймса
+T31	PERSON 726 739	Jonathan Ames
+T32	NATIONALITY 743 755	Американский
+T33	PERSON 762 775	Хоакин Феникс
+T34	WORK_OF_ART 797 820	Ты никогда здесь не был
+T35	NATIONALITY 883 888	немка
+T36	PERSON 889 901	Диана Крюгер
+T37	PERSON 919 931	Фатиха Акина
+T38	WORK_OF_ART 933 944	Из ниоткуда
+T39	AGE 970 980	70-летнего
+T40	EVENT 988 1007	Каннского фестиваля
+T41	NATIONALITY 1017 1030	австралийская
+T42	PROFESSION 1041 1049	продюсер
+T43	PERSON 1050 1063	Николь Кидман
+T44	NUMBER 1083 1087	трёх
+T45	WORK_OF_ART 1122 1129	Теснота
+T46	NATIONALITY 1131 1141	россиянина
+T47	STATE_OR_PROVINCE 1145 1163	Кабардино-Балкарии
+T48	PERSON 1164 1182	Кантемира Балагова
+T49	ORGANIZATION 1197 1205	ФИПРЕССИ
+T50	EVENT 1218 1231	Особый взгляд
+T51	EVENT 1235 1276	70-й Каннский международный кинофестиваль
+T52	DATE 1286 1290;1297 1310	с 17 мая 2017 года
+T53	NUMBER 1349 1351	19
+T54	NATIONALITY 1395 1404	испанский
+T55	PROFESSION 1420 1429	сценарист
+T56	PERSON 1430 1446	Педро Альмодовар
+T57	PERSON 1487 1503	Джессика Честейн
+T58	COUNTRY 1505 1508	США
+T59	PERSON 1511 1520	Марен Аде
+T60	COUNTRY 1522 1530	Германия
+T61	PERSON 1533 1544	Фань Бинбин
+T62	COUNTRY 1546 1551	Китай
+T63	PERSON 1554 1564	Аньес Жауи
+T64	COUNTRY 1566 1573	Франция
+T65	PERSON 1576 1587	Пак Чхан Ук
+T66	COUNTRY 1589 1605	Республика Корея
+T67	PERSON 1608 1617	Уилл Смит
+T68	COUNTRY 1619 1622	США
+T69	PERSON 1625 1641	Паоло Соррентино
+T70	COUNTRY 1643 1649	Италия
+T71	PERSON 1652 1665	Габриэль Яред
+T72	COUNTRY 1667 1674	Франция
+T73	EVENT 1687 1700	Особый взгляд
+T74	PERSON 1713 1723	Ума Турман
+T75	COUNTRY 1725 1728	США
+T76	EVENT 1731 1744	Синефондасьон
+T77	EVENT 1747 1779	конкурс короткометражных фильмов
+T78	PERSON 1782 1798	Кристиан Мунджиу
+T79	COUNTRY 1800 1807	Румыния
+T80	EVENT 1811 1825	Золотая камера
+T81	PERSON 1829 1845	Сандрин Киберлен
+T82	COUNTRY 1847 1854	Франция
+T85	NATIONALITY 1902 1913	итальянская
+T86	PERSON 1922 1937	Моника Беллуччи
+T87	WORK_OF_ART 1979 1995	Призраки Исмаэля
+T88	NATIONALITY 1997 2009	французского
+T89	PERSON 2024 2038	Арно Деплешена
+T2	AWARD 19 42	Золотую пальмовую ветвь
+T90	DATE 68 72	2017
+T5	AWARD 88 111	Золотую пальмовую ветвь
+T92	PROFESSION 172 181	режиссёра
+T93	AWARD 224 237	Гран-при жюри
+T16	WORK_OF_ART 302 322	120 Beats per Minute
+T95	PROFESSION 374 383	режиссёра
+T96	ORDINAL 423 425	70
+T97	EVENT 423 445	70 Каннского фестиваля
+T98	AWARD 412 422	приза жюри
+T99	AWARD 448 472	Приз за лучшую режиссуру
+T100	PERSON 493 506	София Коппола
+T101	AWARD 539 555	Приз за сценарий
+T26	WORK_OF_ART 672 695	Ты никогда здесь не был
+T102	PERSON 708 739	Джонатана Эймса — Jonathan Ames
+T103	PROFESSION 756 761	актёр
+T104	AWARD 831 858	приз за лучшую мужскую роль
+T105	AWARD 861 876	Лучшей актрисой
+T106	AWARD 1192 1205	приз ФИПРЕССИ
+T107	PROFESSION 1031 1038	актриса
+T108	AWARD 948 961	Спецприз жюри
+T109	CITY 1240 1248	Каннский
+T110	CITY 44 53	Каннского
+T111	CITY 113 122	Каннского
+T112	CITY 426 435	Каннского
+T113	PROFESSION 1405 1417	кинорежиссёр
+T114	PROFESSION 1914 1921	актриса
+T115	PROFESSION 1858 1895	Ведущей церемоний открытия и закрытия
+T116	PROFESSION 2010 2023	кинорежиссёра
+R1	PRODUCES Arg1:T9 Arg2:T10	
+R2	PRODUCES Arg1:T9 Arg2:T92	
+R3	ORIGINS_FROM Arg1:T9 Arg2:T8	
+R4	TAKES_PLACE_IN Arg1:T3 Arg2:T110	
+R5	POINT_IN_TIME Arg1:T3 Arg2:T90	
+R6	AWARDED_WITH Arg1:T1 Arg2:T2	
+R8	PRODUCES Arg1:T20 Arg2:T18	
+R9	ORIGINS_FROM Arg1:T29 Arg2:T28	
+R10	TAKES_PLACE_IN Arg1:T97 Arg2:T112	
+R11	PRODUCES Arg1:T29 Arg2:T26	
+R12	WORKS_AS Arg1:T89 Arg2:T116	
+R13	ORIGINS_FROM Arg1:T89 Arg2:T88	
+R14	PRODUCES Arg1:T89 Arg2:T87	
+R15	ORIGINS_FROM Arg1:T57 Arg2:T58	
+R16	ORIGINS_FROM Arg1:T59 Arg2:T60	
+R17	ORIGINS_FROM Arg1:T61 Arg2:T62	
+R18	ORIGINS_FROM Arg1:T63 Arg2:T64	
+R19	ORIGINS_FROM Arg1:T65 Arg2:T66	
+R20	ORIGINS_FROM Arg1:T67 Arg2:T68	
+R21	ORIGINS_FROM Arg1:T69 Arg2:T70	
+R22	ORIGINS_FROM Arg1:T71 Arg2:T72	
+R23	ORIGINS_FROM Arg1:T74 Arg2:T75	
+R24	ORIGINS_FROM Arg1:T78 Arg2:T79	
+R25	ORIGINS_FROM Arg1:T81 Arg2:T82	
+R26	WORKS_AS Arg1:T86 Arg2:T114	
+R27	ORIGINS_FROM Arg1:T86 Arg2:T85	
+R28	ORIGINS_FROM Arg1:T114 Arg2:T85	
+R29	ORIGINS_FROM Arg1:T13 Arg2:T12	
+T91	NUMBER 280 283	120
+R30	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R31	PRODUCES Arg1:T13 Arg2:T14	
+R32	TAKES_PLACE_IN Arg1:T6 Arg2:T111	
+R33	POINT_IN_TIME Arg1:T6 Arg2:T7	
+R7	ORIGINS_FROM Arg1:T2 Arg2:T3	
+R34	ORIGINS_FROM Arg1:T5 Arg2:T6	
+R35	AWARDED_WITH Arg1:T10 Arg2:T5	
+R36	ORIGINS_FROM Arg1:T92 Arg2:T8	
+R38	ORIGINS_FROM Arg1:T98 Arg2:T97	
+R39	WORKS_AS Arg1:T20 Arg2:T95	
+R40	ORIGINS_FROM Arg1:T20 Arg2:T19	
+R41	ORIGINS_FROM Arg1:T95 Arg2:T19	
+R42	AWARDED_WITH Arg1:T18 Arg2:T98	
+R43	AWARDED_WITH Arg1:T20 Arg2:T98	
+R44	AWARDED_WITH Arg1:T9 Arg2:T5	
+R37	AWARDED_WITH Arg1:T13 Arg2:T93	
+R45	AWARDED_WITH Arg1:T14 Arg2:T93	
+R46	AWARDED_WITH Arg1:T100 Arg2:T99	
+R47	ORIGINS_FROM Arg1:T93 Arg2:T6	
+R48	ORIGINS_FROM Arg1:T99 Arg2:T97	
+R49	ORIGINS_FROM Arg1:T100 Arg2:T21	
+R50	PRODUCES Arg1:T100 Arg2:T22	
+R51	AWARDED_WITH Arg1:T22 Arg2:T99	
+R52	ORIGINS_FROM Arg1:T101 Arg2:T97	
+R53	ORIGINS_FROM Arg1:T24 Arg2:T23	
+R54	PRODUCES Arg1:T24 Arg2:T25	
+R55	PRODUCES Arg1:T27 Arg2:T25	
+R56	AWARDED_WITH Arg1:T25 Arg2:T101	
+R57	AWARDED_WITH Arg1:T24 Arg2:T101	
+R58	AWARDED_WITH Arg1:T29 Arg2:T101	
+R59	WORKS_AS Arg1:T33 Arg2:T103	
+R60	ORIGINS_FROM Arg1:T33 Arg2:T32	
+R61	PARTICIPANT_IN Arg1:T33 Arg2:T34	
+R62	AWARDED_WITH Arg1:T33 Arg2:T104	
+R63	PRODUCES Arg1:T37 Arg2:T38	
+R64	ORIGINS_FROM Arg1:T36 Arg2:T35	
+R65	PARTICIPANT_IN Arg1:T36 Arg2:T38	
+R66	AWARDED_WITH Arg1:T36 Arg2:T105	
+R67	WORKS_AS Arg1:T43 Arg2:T42	
+R68	WORKS_AS Arg1:T43 Arg2:T107	
+R69	ORIGINS_FROM Arg1:T43 Arg2:T41	
+R70	ORIGINS_FROM Arg1:T107 Arg2:T41	
+R71	ORIGINS_FROM Arg1:T42 Arg2:T41	
+R72	AWARDED_WITH Arg1:T43 Arg2:T108	
+R73	ORIGINS_FROM Arg1:T108 Arg2:T40	
+T94	CITY 988 997	Каннского
+R74	TAKES_PLACE_IN Arg1:T40 Arg2:T94	
+R75	AGE_IS Arg1:T40 Arg2:T39	
+R76	ORIGINS_FROM Arg1:T103 Arg2:T32	
+R77	TAKES_PLACE_IN Arg1:T51 Arg2:T109	
+T117	DATE 1294 1310	28 мая 2017 года
+R78	START_TIME Arg1:T51 Arg2:T52	
+R79	END_TIME Arg1:T51 Arg2:T117	
+R80	ORIGINS_FROM Arg1:T113 Arg2:T54	
+R81	WORKS_AS Arg1:T56 Arg2:T55	
+R82	WORKS_AS Arg1:T56 Arg2:T113	
+R83	ORIGINS_FROM Arg1:T55 Arg2:T54	
+R84	ORIGINS_FROM Arg1:T56 Arg2:T54	
+R85	WORKPLACE Arg1:T74 Arg2:T73	
+R86	SUBEVENT_OF Arg1:T73 Arg2:T51	
+R87	SUBEVENT_OF Arg1:T76 Arg2:T51	
+R88	WORKPLACE Arg1:T78 Arg2:T76	
+R89	WORKPLACE Arg1:T78 Arg2:T77	
+R90	SUBEVENT_OF Arg1:T77 Arg2:T51	
+R91	WORKPLACE Arg1:T81 Arg2:T80	
+R92	SUBEVENT_OF Arg1:T80 Arg2:T51	
+R93	ORIGINS_FROM Arg1:T116 Arg2:T88	
+R94	WORKS_AS Arg1:T86 Arg2:T115	
+R95	PRODUCES Arg1:T48 Arg2:T45	
+R96	ORIGINS_FROM Arg1:T48 Arg2:T46	
+R97	ORIGINS_FROM Arg1:T48 Arg2:T47	
+R98	AWARDED_WITH Arg1:T45 Arg2:T106	
+R99	AWARDED_WITH Arg1:T48 Arg2:T106	
+R100	PRODUCES Arg1:T49 Arg2:T106	
+R101	PARTICIPANT_IN Arg1:T45 Arg2:T50	
+R102	PARTICIPANT_IN Arg1:T56 Arg2:T51	
+R103	PARTICIPANT_IN Arg1:T57 Arg2:T51	
+R104	PARTICIPANT_IN Arg1:T59 Arg2:T51	
+R105	PARTICIPANT_IN Arg1:T61 Arg2:T51	
+R106	PARTICIPANT_IN Arg1:T63 Arg2:T51	
+R107	PARTICIPANT_IN Arg1:T65 Arg2:T51	
+R108	PARTICIPANT_IN Arg1:T67 Arg2:T51	
+R109	PARTICIPANT_IN Arg1:T69 Arg2:T51	
+R110	PARTICIPANT_IN Arg1:T71 Arg2:T51	
+R111	POINT_IN_TIME Arg1:T2 Arg2:T90	
+N2	Reference T9 Wikidata:Q211228	Рубен Эстлунд
+N3	Reference T10 Wikidata:Q27237522	Квадрат
+N4	Reference T11 Wikidata:Q3437047	Робен Кампийо
+N6	Reference T17 Wikidata:Q18990831	Звягинцев, Андрей
+N7	Reference T18 Wikidata:Q27049581	Нелюбовь
+N10	Reference T22 Wikidata:Q27684970	Обманутый
+N12	Reference T24 Wikidata:Q975410	Йоргос Лантимос
+N13	Reference T25 Wikidata:Q27492140	Убийство священного оленя
+N14	Reference T27 Wikidata:Q16239615	Кулурис, Эфтимис
+N16	Reference T29 Wikidata:Q3269591	Линн Рэмси
+N19	Reference T33 Wikidata:Q185140	Хоакин Феникс
+N21	Reference T36 Wikidata:Q57118	Диана Крюгер
+N22	Reference T37 Wikidata:Q77061	Фатих Акин
+N23	Reference T38 Wikidata:Q28999157	На пределе
+N25	Reference T42 Wikidata:Q3282637	кинопродюсер
+N26	Reference T43 Wikidata:Q37459	Николь Кидман
+N27	Reference T45 Wikidata:Q29413154	Теснота
+N28	Reference T46 Wikidata:Q492468	россияне
+N29	Reference T47 Wikidata:Q5267	Кабардино-Балкария
+N30	Reference T48 Wikidata:Q30346628	Кантемир Балагов
+N31	Reference T49 Wikidata:Q253988	Международная федерация кинопрессы
+N33	Reference T55 Wikidata:Q28389	сценарист
+N34	Reference T56 Wikidata:Q55171	Педро Альмодовар
+N35	Reference T57 Wikidata:Q229313	Джессика Честейн
+N36	Reference T59 Wikidata:Q91508	Марен Аде
+N37	Reference T60 Wikidata:Q183	Германия
+N38	Reference T61 Wikidata:Q381074	Фань Бинбин
+N39	Reference T62 Wikidata:Q148	Китайская Народная Республика
+N40	Reference T63 Wikidata:Q240521	Жауи, Аньес
+N41	Reference T64 Wikidata:Q142	Франция
+N42	Reference T65 Wikidata:Q315484	Пак Чхан Ук
+N43	Reference T66 Wikidata:Q884	Республика Корея
+N44	Reference T67 Wikidata:Q40096	Уилл Смит
+N45	Reference T68 Wikidata:Q30	США
+N46	Reference T69 Wikidata:Q374678	Паоло Соррентино
+N47	Reference T70 Wikidata:Q38	Италия
+N48	Reference T71 Wikidata:Q502957	Габриэль Яред
+N49	Reference T74 Wikidata:Q125017	Ума Турман
+N50	Reference T78 Wikidata:Q314353	Кристиан Мунджиу
+N51	Reference T79 Wikidata:Q218	Румыния
+N52	Reference T81 Wikidata:Q262822	Сандрин Киберлэн
+N54	Reference T86 Wikidata:Q81819	Моника Беллуччи
+N55	Reference T87 Wikidata:Q27959627	Призраки Исмаэля
+N57	Reference T89 Wikidata:Q691335	Арно Деплешен
+N58	Reference T5 Wikidata:Q179808	Золотая пальмовая ветвь
+N60	Reference T16 Wikidata:Q2564612	Minute by Minute
+N61	Reference T95 Wikidata:Q3455803	режиссёр
+N62	Reference T98 Wikidata:Q2503453	Приз экуменического жюри
+N63	Reference T99 Wikidata:Q510175	приз за лучшую режиссуру
+N64	Reference T100 Wikidata:Q193628	София Коппола
+N65	Reference T26 Wikidata:Q27703176	Тебя никогда здесь не было
+N67	Reference T103 Wikidata:Q33999	актёр
+N69	Reference T105 Wikidata:Q840286	Приз Каннского кинофестиваля за лучшую женскую роль
+N70	Reference T106 Wikidata:Q1377683	приз ФИПРЕССИ Европейской киноакадемии
+N71	Reference T107 Wikidata:Q33999	актёр
+N74	Reference T116 Wikidata:Q2526255	кинорежиссёр
+N1	Reference T8 Wikidata:Q165192	
+N59	Reference T93 Wikidata:Q664212	
+N5	Reference T12 Wikidata:Q121842	французы
+N8	Reference T19 Wikidata:Q49542	русские
+N72	Reference T112 Wikidata:Q39984	Канны
+N9	Reference T21 Wikidata:Q846570	
+N11	Reference T23 Wikidata:Q539051	греки
+N15	Reference T28 Wikidata:Q181634	шотландцы
+N76	Reference T30 Wikidata:Q2390663	
+N66	Reference T102 Wikidata:Q2390663	
+N17	Reference T31 Wikidata:Q2390663	
+N18	Reference T32 Wikidata:Q846570	
+N75	Reference T101 Wikidata:Q978420	
+N68	Reference T104 Wikidata:Q586140	
+N20	Reference T35 Wikidata:Q42884	немцы
+N77	Reference T108 Wikidata:Q20001886	
+N24	Reference T41 Wikidata:Q1318423	
+N32	Reference T54 Wikidata:Q160894	испанцы
+N73	Reference T115 Wikidata:NULL	нет данных
+N53	Reference T85 Wikidata:Q50001	итальянцы
+N56	Reference T88 Wikidata:Q121842	французы
+N78	Reference T4 Wikidata:Q211228	Рубен Эстлунд
+N79	Reference T1 Wikidata:Q27237522	Квадрат
+N80	Reference T13 Wikidata:Q3437047	Робен Кампийо
+N81	Reference T20 Wikidata:Q18990831	Звягинцев, Андрей
+N82	Reference T82 Wikidata:Q142	Франция
+N83	Reference T72 Wikidata:Q142	Франция
+N84	Reference T75 Wikidata:Q30	США
+N85	Reference T58 Wikidata:Q30	США
+N86	Reference T2 Wikidata:Q179808	Золотая пальмовая ветвь
+N87	Reference T14 Wikidata:Q2564612	Minute by Minute
+N88	Reference T92 Wikidata:Q3455803	режиссёр
+N89	Reference T34 Wikidata:Q27703176	Тебя никогда здесь не было
+N90	Reference T114 Wikidata:Q33999	актёр
+N91	Reference T113 Wikidata:Q2526255	кинорежиссёр
+N92	Reference T94 Wikidata:Q39984	Канны
+N93	Reference T110 Wikidata:Q39984	Канны
+N94	Reference T109 Wikidata:Q39984	Канны
+N95	Reference T111 Wikidata:Q39984	Канны

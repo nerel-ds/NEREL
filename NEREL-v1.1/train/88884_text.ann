@@ -1,0 +1,80 @@
+T1	ORDINAL 0 6	Первое
+T2	PERSON 17 31	Серены Уильямс
+T3	EVENT 41 56	Australian Open
+T4	PERSON 57 71	Серена Уильямс
+T5	EVENT 101 131	Открытого чемпионата Австралии
+T6	PERSON 163 177	Серена Уильямс
+T7	NATIONALITY 188 193	немке
+T8	PERSON 194 209	Ангелике Кербер
+T9	TIME 245 280	в течении двух часов и восьми минут
+T10	ORDINAL 287 293	первый
+T12	AGE 322 331	28-летней
+T13	PERSON 340 346	Серена
+T14	NUMBER 402 407	шесть
+T16	DATE 562 574	Открытая эра
+T17	DATE 588 599	с 1968 года
+T18	EVENT 652 667	Australian Open
+T19	PERSON 694 707	Маргарет Корт
+T20	NUMBER 721 723	11
+T21	NUMBER 733 737	семь
+T22	DATE 742 757	до Открытой эры
+T23	NUMBER 760 761	4
+T24	PERSON 788 794	Кербер
+T26	DATE 870 881	с 1999 года
+T27	DATE 72 91	30 января 2016 года
+T28	COUNTRY 122 131	Австралии
+T29	AWARD 132 151	первая ракетка мира
+T30	ORDINAL 132 138	первая
+T31	NATIONALITY 152 162	американка
+T32	NUMBER 220 221	6
+T33	NUMBER 225 226	3
+T34	NUMBER 230 231	6
+T11	NATIONALITY 332 337	немки
+T15	DATE 533 545	Открытую эру
+T35	NATIONALITY 802 807	немка
+T36	ORDINAL 795 801	первая
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T25	
+R3	ORIGINS_FROM Arg1:T6 Arg2:T31	
+R4	ORIGINS_FROM Arg1:T8 Arg2:T7	
+R6	AWARDED_WITH Arg1:T6 Arg2:T29	
+T37	COUNTRY 41 51	Australian
+T39	EVENT 294 317	турнир «Большого шлема»
+R12	AGE_IS Arg1:T8 Arg2:T12	
+T40	COUNTRY 652 662	Australian
+R13	PARTICIPANT_IN Arg1:T19 Arg2:T18	
+T41	EVENT 826 849	турнир «Большого шлема»
+R14	ORIGINS_FROM Arg1:T24 Arg2:T35	
+R15	PARTICIPANT_IN Arg1:T24 Arg2:T41	
+R18	TAKES_PLACE_IN Arg1:T3 Arg2:T37	
+R20	ALTERNATIVE_NAME Arg1:T5 Arg2:T39	
+R21	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+R22	TAKES_PLACE_IN Arg1:T18 Arg2:T40	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T24	
+T25	EVENT 34 56	финале Australian Open
+T43	EVENT 94 131	финале Открытого чемпионата Австралии
+R1	SUBEVENT_OF Arg1:T43 Arg2:T5	
+R10	AGE_IS Arg1:T11 Arg2:T12	
+R19	POINT_IN_TIME Arg1:T43 Arg2:T27	
+R24	END_TIME Arg1:T5 Arg2:T27	
+R5	TAKES_PLACE_IN Arg1:T5 Arg2:T28	
+R7	TAKES_PLACE_IN Arg1:T43 Arg2:T28	
+R8	PARTICIPANT_IN Arg1:T6 Arg2:T43	
+T38	NUMBER 222 223	4
+T44	NUMBER 227 228	6
+T45	NUMBER 232 233	4
+R9	PARTICIPANT_IN Arg1:T11 Arg2:T39	
+N2	Reference T19 Wikidata:Q202342	Маргарет Корт
+N4	Reference T28 Wikidata:Q408	Австралия
+N7	Reference T11 Wikidata:Q42884	немцы
+N5	Reference T29 Wikidata:NULL	
+N6	Reference T31 Wikidata:Q846570	
+N1	Reference T13 Wikidata:Q11459	Серена Уильямс
+N8	Reference T40 Wikidata:Q408	Австралия
+N3	Reference T24 Wikidata:Q77178	
+N9	Reference T35 Wikidata:Q42884	немцы
+N10	Reference T7 Wikidata:Q42884	немцы
+N11	Reference T2 Wikidata:Q11459	Серена Уильямс
+N12	Reference T4 Wikidata:Q11459	Серена Уильямс
+N13	Reference T6 Wikidata:Q11459	Серена Уильямс
+N14	Reference T37 Wikidata:Q408	Австралия
+N15	Reference T8 Wikidata:Q77178	

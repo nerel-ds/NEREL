@@ -1,0 +1,172 @@
+T1	COUNTRY 0 4	Иран
+T2	ORGANIZATION 34 36	ИГ
+T3	PERSON 59 75	Мохсена Ходжаджи
+T4	DATE 89 108	25 сентября 2017 г.
+T5	CITY 111 118	Тегеран
+T6	COUNTRY 142 151	иранского
+T7	ORGANIZATION 185 207	Исламским государством
+T8	ORGANIZATION 209 211	ИГ
+T9	COUNTRY 226 231	Иране
+T10	PERSON 256 272	Мохсена Ходжаджи
+T11	COUNTRY 287 295	иранской
+T12	DATE 304 325	25 сентября 2017 года
+T13	PROFESSION 401 453	командиры Корпуса стражей Исламской революции (КСИР)
+T14	ORGANIZATION 411 446	Корпуса стражей Исламской революции
+T16	ORGANIZATION 448 452	КСИР
+T17	PROFESSION 508 515	аятолла
+T18	PROFESSION 530 537	генерал
+T19	AGE 556 565	25-летний
+T20	PERSON 566 581	Мохсен Ходжаджи
+T21	ORGANIZATION 611 613	ИГ
+T22	COUNTRY 616 624	сирийско
+T23	COUNTRY 625 634	ливанской
+T24	DATE 643 652	7 августа
+T25	FACILITY 797 818	мавзолей Саиды Зайнаб
+T26	PERSON 806 818	Саиды Зайнаб
+T27	CITY 838 845	Дамаске
+T28	COUNTRY 848 857	Ливанская
+T29	ORGANIZATION 871 879	Хезболла
+T30	DATE 881 891	31 августа
+T31	ORGANIZATION 917 919	ИГ
+T32	ORGANIZATION 962 964	ИГ
+T33	COUNTRY 978 983	Сирии
+T34	COUNTRY 985 989	Иран
+T35	ORGANIZATION 993 1001	Хезболла
+T36	PROFESSION 1034 1044	президента
+T37	CITY 1100 1108	Тегеране
+T38	PERSON 1069 1077	Ходжаджи
+T39	EVENT 1060 1068	Похороны
+T40	DATE 1109 1119	2 сентября
+T41	PERSON 1045 1057	Башара Асада
+T42	PERSON 906 914	Ходжаджи
+T43	PROFESSION 955 961	бойцов
+T44	RELIGION 778 786	шиитской
+T45	COUNTRY 717 722	Иране
+T46	RELIGION 708 716	шиитском
+T47	PERSON 723 731	Ходжаджи
+T48	ORGANIZATION 590 594	КСИР
+T49	PERSON 516 527	Али Хаменеи
+T50	PERSON 538 553	Касем Сулеймани
+T51	FACILITY 340 348	Мехрабад
+T52	RELIGION 427 436	Исламской
+T53	PROFESSION 152 159	солдата
+T55	EVENT 173 184	обезглавлен
+T56	PROFESSION 37 44	солдата
+T57	EVENT 5 17	получил тело
+T58	EVENT 119 141	прибыл самолёт с телом
+T60	EVENT 666 677	обезглавлен
+T61	EVENT 683 688	казнь
+R1	ORIGINS_FROM Arg1:T53 Arg2:T6	
+R2	ABBREVIATION Arg1:T7 Arg2:T8	
+R3	RELIGION_OF Arg1:T14 Arg2:T52	
+R4	ABBREVIATION Arg1:T14 Arg2:T16	
+R5	WORKS_AS Arg1:T50 Arg2:T18	
+R6	WORKS_AS Arg1:T49 Arg2:T17	
+R7	WORKPLACE Arg1:T13 Arg2:T14	
+T15	CITY 287 303	иранской столице
+R8	LOCATED_IN Arg1:T15 Arg2:T11	
+R9	PARTICIPANT_IN Arg1:T53 Arg2:T55	
+R10	PARTICIPANT_IN Arg1:T7 Arg2:T55	
+R11	WORKS_AS Arg1:T10 Arg2:T53	
+R12	ORIGINS_FROM Arg1:T10 Arg2:T6	
+R13	ALTERNATIVE_NAME Arg1:T20 Arg2:T19	
+R14	WORKPLACE Arg1:T20 Arg2:T48	
+R15	PARTICIPANT_IN Arg1:T20 Arg2:T60	
+R16	AGENT Arg1:T21 Arg2:T60	
+R17	RELIGION_OF Arg1:T45 Arg2:T46	
+R18	ALTERNATIVE_NAME Arg1:T60 Arg2:T61	
+R19	LOCATED_IN Arg1:T25 Arg2:T27	
+R20	RELIGION_OF Arg1:T25 Arg2:T44	
+R21	HEADQUARTERED_IN Arg1:T29 Arg2:T28	
+T54	PROFESSION 955 964	бойцов ИГ
+R22	WORKPLACE Arg1:T54 Arg2:T32	
+R23	WORKS_AS Arg1:T41 Arg2:T36	
+T62	COUNTRY 1018 1027	сирийской
+R24	ALTERNATIVE_NAME Arg1:T33 Arg2:T62	
+R25	LOCATED_IN Arg1:T5 Arg2:T1	
+T63	EVENT 18 33	обезглавленного
+R26	AGENT Arg1:T2 Arg2:T63	
+R27	PARTICIPANT_IN Arg1:T56 Arg2:T63	
+R28	ALTERNATIVE_NAME Arg1:T63 Arg2:T55	
+R29	WORKS_AS Arg1:T3 Arg2:T56	
+T64	EVENT 892 905	обменяла тело
+R30	ORGANIZES Arg1:T29 Arg2:T64	
+R31	POINT_IN_TIME Arg1:T64 Arg2:T30	
+R32	TAKES_PLACE_IN Arg1:T64 Arg2:T33	
+R33	PARTICIPANT_IN Arg1:T31 Arg2:T64	
+R34	PARTICIPANT_IN Arg1:T1 Arg2:T57	
+R35	ALTERNATIVE_NAME Arg1:T57 Arg2:T58	
+R36	TAKES_PLACE_IN Arg1:T58 Arg2:T5	
+R37	POINT_IN_TIME Arg1:T58 Arg2:T12	
+R38	INANIMATE_INVOLVED Arg1:T3 Arg2:T57	
+T59	EVENT 273 284	приземлился
+R39	ALTERNATIVE_NAME Arg1:T58 Arg2:T59	
+R40	INANIMATE_INVOLVED Arg1:T10 Arg2:T59	
+R41	TAKES_PLACE_IN Arg1:T59 Arg2:T15	
+R42	POINT_IN_TIME Arg1:T59 Arg2:T12	
+R43	LOCATED_IN Arg1:T51 Arg2:T15	
+T65	EVENT 353 362	встречали
+R44	TAKES_PLACE_IN Arg1:T65 Arg2:T51	
+R45	AGENT Arg1:T13 Arg2:T65	
+R46	AGENT Arg1:T17 Arg2:T65	
+R47	AGENT Arg1:T50 Arg2:T65	
+T66	EVENT 596 608	попал в плен
+R48	PARTICIPANT_IN Arg1:T20 Arg2:T66	
+R49	AGENT Arg1:T21 Arg2:T66	
+R50	POINT_IN_TIME Arg1:T66 Arg2:T24	
+R51	ALTERNATIVE_NAME Arg1:T20 Arg2:T47	
+R52	INANIMATE_INVOLVED Arg1:T42 Arg2:T64	
+R53	WORKPLACE Arg1:T41 Arg2:T62	
+R54	INANIMATE_INVOLVED Arg1:T38 Arg2:T39	
+T67	RELIGION 185 194	Исламским
+R55	RELIGION_OF Arg1:T7 Arg2:T67	
+N1	Reference T8 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N3	Reference T16 Wikidata:Q271110	Корпус стражей Исламской революции
+N4	Reference T17 Wikidata:Q184402	аятолла
+N5	Reference T18 Wikidata:Q83460	генерал
+N8	Reference T27 Wikidata:Q3766	Дамаск
+N9	Reference T28 Wikidata:Q822	Ливан
+N10	Reference T35 Wikidata:Q41053	Хезболла
+N11	Reference T36 Wikidata:Q30461	президент
+N12	Reference T37 Wikidata:Q3616	Тегеран
+N13	Reference T41 Wikidata:Q44329	Башар Асад
+N14	Reference T45 Wikidata:Q794	Иран
+N15	Reference T46 Wikidata:Q9585	шиизм
+N16	Reference T49 Wikidata:Q57336	Али Хаменеи
+N17	Reference T50 Wikidata:Q892014	Солеймани, Касем
+N18	Reference T51 Wikidata:Q513684	Мехрабад
+N19	Reference T56 Wikidata:Q4991371	солдат
+N23	Reference T67 Wikidata:Q432	ислам
+N24	Reference T10 Wikidata:Q35690938	
+N25	Reference T11 Wikidata:Q794	Иран
+N20	Reference T15 Wikidata:Q3616	Тегеран
+N2	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T22 Wikidata:Q858	Сирия
+N26	Reference T47 Wikidata:Q35690938	
+N27	Reference T25 Wikidata:Q4120581	
+N7	Reference T26 Wikidata:NULL	нет данных
+N28	Reference T43 Wikidata:Q1250916	воин
+N21	Reference T54 Wikidata:NULL	нет данных
+N22	Reference T62 Wikidata:Q858	Сирия
+N29	Reference T31 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N30	Reference T7 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N31	Reference T2 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N32	Reference T32 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N33	Reference T21 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N34	Reference T14 Wikidata:Q271110	Корпус стражей Исламской революции
+N35	Reference T48 Wikidata:Q271110	Корпус стражей Исламской революции
+N36	Reference T23 Wikidata:Q822	Ливан
+N37	Reference T29 Wikidata:Q41053	Хезболла
+N38	Reference T5 Wikidata:Q3616	Тегеран
+N39	Reference T34 Wikidata:Q794	Иран
+N40	Reference T9 Wikidata:Q794	Иран
+N41	Reference T1 Wikidata:Q794	Иран
+N42	Reference T44 Wikidata:Q9585	шиизм
+N43	Reference T53 Wikidata:Q4991371	солдат
+N44	Reference T52 Wikidata:Q432	ислам
+N45	Reference T3 Wikidata:Q35690938	
+N46	Reference T6 Wikidata:Q794	Иран
+N47	Reference T20 Wikidata:Q35690938	
+N48	Reference T42 Wikidata:Q35690938	
+N49	Reference T38 Wikidata:Q35690938	
+N50	Reference T33 Wikidata:Q858	Сирия

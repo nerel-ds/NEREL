@@ -1,0 +1,164 @@
+T1	PERSON 6 17	Ким Чен Ына
+T2	CITY 54 66	Куала-Лумпур
+T3	ORGANIZATION 67 74	Полиция
+T4	COUNTRY 75 83	Малайзии
+T5	PERSON 118 130	Ким Чон Нама
+T7	COUNTRY 145 149	КНДР
+T8	PERSON 150 161	Ким Чен Ына
+T9	AGE 190 205	примерно 45 лет
+T10	PERSON 264 276	Ким Чон Наму
+T12	CITY 316 329	Куала-Лумпура
+T13	COUNTRY 402 418	северокорейского
+T15	PERSON 542 553	Ким Чон Нам
+T16	TIME 580 639	около 8 часов утра 14 февраля 2017 года по местному времени
+T17	DATE 660 670	13 февраля
+T18	PERSON 673 684	Ким Чон Нам
+T19	STATE_OR_PROVINCE 711 716	Макао
+T20	COUNTRY 753 758	Китая
+T21	PROFESSION 814 857	Сотрудник отделения скорой помощи госпиталя
+T22	ORGANIZATION 824 847	отделения скорой помощи
+T23	ORGANIZATION 848 857	госпиталя
+T24	CITY 860 869	Путраджае
+T25	DATE 920 931	в 1970 году
+T26	PERSON 944 947	Ким
+T27	PERSON 962 974	Ким Чон Нама
+T28	COUNTRY 992 1005	южнокорейские
+T30	COUNTRY 1050 1061	Южной Кореи
+T31	ORGANIZATION 1073 1079	Chosun
+T32	COUNTRY 1099 1115	северокорейского
+T34	NUMBER 1129 1132	две
+T36	COUNTRY 1206 1210	КНДР
+T37	PERSON 1213 1224	Ким Чон Нам
+T39	PERSON 1240 1251	Ким Чен Ына
+T40	PROFESSION 1276 1297	лидера Северной Кореи
+T41	COUNTRY 1283 1297	Северной Кореи
+T42	PERSON 1298 1309	Ким Чен Ира
+T43	DATE 1320 1331	в 2011 году
+T44	COUNTRY 1375 1380	Китае
+T45	COUNTRY 1425 1429	КНДР
+T46	PERSON 1446 1457	Ким Чон Нам
+T47	PERSON 1483 1496	Чан Сон Тхэку
+T48	ORDINAL 1531 1537	втором
+T49	DATE 1618 1629	в 2011 году
+T50	PERSON 1631 1642	Ким Чон Нам
+R1	SIBLING Arg1:T8 Arg2:T5
+R2	WORKS_AS Arg1:T8 Arg2:T57
+R7	HEADQUARTERED_IN Arg1:T23 Arg2:T24
+R11	SIBLING Arg1:T39 Arg2:T37
+R12	WORKPLACE Arg1:T42 Arg2:T41
+R14	RELATIVE Arg1:T47 Arg2:T46
+R4	WORKPLACE Arg1:T8 Arg2:T7	
+R3	LOCATED_IN Arg1:T19 Arg2:T20	
+R5	PARENT_OF Arg1:T42 Arg2:T37	
+T54	PROFESSION 1600 1617	главы государства
+T55	ORDINAL 975 982	первыми
+T56	ORGANIZATION 67 83	Полиция Малайзии
+T57	PROFESSION 138 149	лидера КНДР
+T58	ORGANIZATION 1036 1061	правительстве Южной Кореи
+T59	PROFESSION 1099 1122	северокорейского лидера
+T60	PROFESSION 402 425	северокорейского лидера
+T61	ORGANIZATION 824 857	отделения скорой помощи госпиталя
+T62	ORGANIZATION 1196 1210	спецслужб КНДР
+T63	FACILITY 291 329	международного аэропорта Куала-Лумпура
+T64	FACILITY 45 66	Аэропорт Куала-Лумпур
+T65	EVENT 18 23	убили
+T66	EVENT 109 117	убийстве
+R8	TAKES_PLACE_IN Arg1:T66 Arg2:T2	
+R13	AGE_IS Arg1:T5 Arg2:T9	
+T53	DATE 599 619	14 февраля 2017 года
+R15	DATE_OF_BIRTH Arg1:T18 Arg2:T25	
+T51	EVENT 953 961	убийстве
+R16	PARTICIPANT_IN Arg1:T27 Arg2:T51	
+T29	EVENT 1123 1128	убили
+R10	WORKS_AS Arg1:T42 Arg2:T40	
+R17	DATE_OF_DEATH Arg1:T42 Arg2:T43	
+R18	PLACE_RESIDES_IN Arg1:T37 Arg2:T44	
+T38	EVENT 1578 1588	казнённому
+R19	PARTICIPANT_IN Arg1:T47 Arg2:T38	
+R20	POINT_IN_TIME Arg1:T38 Arg2:T49	
+T52	PERSON 0 17	Брата Ким Чен Ына
+R21	PARTICIPANT_IN Arg1:T52 Arg2:T65	
+R22	PARTICIPANT_IN Arg1:T5 Arg2:T66	
+R23	DATE_OF_BIRTH Arg1:T26 Arg2:T25	
+T67	PERSON 1093 1122	брата северокорейского лидера
+R24	PARTICIPANT_IN Arg1:T67 Arg2:T29	
+R6	HEADQUARTERED_IN Arg1:T62 Arg2:T36	
+R9	LOCATED_IN Arg1:T64 Arg2:T2	
+R25	HEADQUARTERED_IN Arg1:T56 Arg2:T4	
+R26	WORKPLACE Arg1:T57 Arg2:T7	
+R27	LOCATED_IN Arg1:T63 Arg2:T12	
+R28	WORKPLACE Arg1:T60 Arg2:T13	
+R30	ALTERNATIVE_NAME Arg1:T65 Arg2:T66	
+R31	HEADQUARTERED_IN Arg1:T58 Arg2:T30	
+T6	ORGANIZATION 1036 1049	правительстве
+R32	SIBLING Arg1:T67 Arg2:T59	
+R33	WORKPLACE Arg1:T59 Arg2:T32	
+R34	ALTERNATIVE_NAME Arg1:T32 Arg2:T36	
+R35	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+R36	WORKPLACE Arg1:T40 Arg2:T41	
+T11	EVENT 554 558	умер
+R37	PARTICIPANT_IN Arg1:T15 Arg2:T11	
+T14	EVENT 561 569	Убийство
+R38	POINT_IN_TIME Arg1:T14 Arg2:T16	
+R39	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R40	SIBLING Arg1:T52 Arg2:T1	
+R29	ALTERNATIVE_NAME Arg1:T60 Arg2:T57	
+R41	ALTERNATIVE_NAME Arg1:T5 Arg2:T10	
+R42	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R43	WORKPLACE Arg1:T21 Arg2:T61	
+R44	ALTERNATIVE_NAME Arg1:T30 Arg2:T28	
+R45	ALTERNATIVE_NAME Arg1:T18 Arg2:T26	
+R46	ALTERNATIVE_NAME Arg1:T2 Arg2:T12	
+R47	ALTERNATIVE_NAME Arg1:T59 Arg2:T40	
+R48	ORGANIZES Arg1:T54 Arg2:T38	
+N1	Reference T3 Wikidata:Q35535	полиция
+N2	Reference T4 Wikidata:Q833	Малайзия
+N3	Reference T5 Wikidata:Q317824	Ким Чен Нам
+N4	Reference T12 Wikidata:Q1865	Куала-Лумпур
+N6	Reference T19 Wikidata:Q14773	Макао
+N8	Reference T23 Wikidata:Q2387974	Госпиталь
+N9	Reference T24 Wikidata:Q182378	Путраджая
+N11	Reference T30 Wikidata:Q884	Республика Корея
+N13	Reference T39 Wikidata:Q56226	Ким Чен Ын
+N14	Reference T42 Wikidata:Q10665	Ким Чен Ир
+N15	Reference T44 Wikidata:Q148	Китайская Народная Республика
+N16	Reference T47 Wikidata:Q496004	Чан Сон Тхэк
+N17	Reference T54 Wikidata:Q48352	глава государства
+N23	Reference T63 Wikidata:Q500253	Куала-Лумпур
+N24	Reference T64 Wikidata:Q500253	Куала-Лумпур
+N27	Reference T6 Wikidata:Q7188	правительство
+N18	Reference T56 Wikidata:Q1664804	
+N25	Reference T52 Wikidata:Q317824	Ким Чен Нам
+N5	Reference T13 Wikidata:Q423	КНДР
+N19	Reference T57 Wikidata:Q56876342	
+N28	Reference T58 Wikidata:Q626814	
+N29	Reference T31 Wikidata:Q486605	
+N20	Reference T59 Wikidata:Q56876342	
+N12	Reference T32 Wikidata:Q423	КНДР
+N22	Reference T62 Wikidata:Q858054	
+N7	Reference T22 Wikidata:Q1295316	
+N21	Reference T61 Wikidata:NULL	нет данных
+N30	Reference T21 Wikidata:Q336641	
+N10	Reference T26 Wikidata:NULL	нет данных
+N26	Reference T67 Wikidata:Q317824	Ким Чен Нам
+N31	Reference T27 Wikidata:Q317824	Ким Чен Нам
+N32	Reference T10 Wikidata:Q317824	Ким Чен Нам
+N33	Reference T15 Wikidata:Q317824	Ким Чен Нам
+N34	Reference T2 Wikidata:Q1865	Куала-Лумпур
+N35	Reference T28 Wikidata:Q884	Республика Корея
+N36	Reference T8 Wikidata:Q56226	Ким Чен Ын
+N37	Reference T1 Wikidata:Q56226	Ким Чен Ын
+N38	Reference T20 Wikidata:Q148	Китайская Народная Республика
+N39	Reference T7 Wikidata:Q423	КНДР
+N40	Reference T60 Wikidata:Q56876342	
+N41	Reference T40 Wikidata:Q56876342	
+N42	Reference T41 Wikidata:Q423	КНДР
+N43	Reference T45 Wikidata:Q423	КНДР
+N44	Reference T36 Wikidata:Q423	КНДР
+N45	Reference T50 Wikidata:NULL	нет данных
+N46	Reference T37 Wikidata:NULL	нет данных
+N47	Reference T18 Wikidata:NULL	нет данных
+N48	Reference T46 Wikidata:NULL	нет данных
+T33	EVENT 912 919	родился
+R49	PARTICIPANT_IN Arg1:T18 Arg2:T33	
+R50	POINT_IN_TIME Arg1:T33 Arg2:T25	

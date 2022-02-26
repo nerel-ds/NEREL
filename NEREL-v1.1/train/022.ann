@@ -1,0 +1,244 @@
+T1	COUNTRY 0 10	Российские
+T2	ORGANIZATION 59 72	Правительство
+T3	PROFESSION 108 130	генерального секретаря
+T4	ORGANIZATION 164 168	ФСЭГ
+T5	PRODUCT 241 251	Коммерсант
+T6	COUNTRY 301 307	России
+T7	COUNTRY 357 363	Россия
+T8	EVENT 375 381	саммит
+T9	CITY 389 393	Дохе
+T10	ORGANIZATION 418 428	Коммерсант
+T11	PROFESSION 444 466	генеральным секретарем
+T12	NATIONALITY 496 505	россиянин
+T13	DATE 570 589	в декабре 2008 года
+T14	CITY 592 598	Москве
+T15	COUNTRY 606 612	Россия
+T16	ORGANIZATION 655 659	ФСЭГ
+T17	CITY 662 666	Дохе
+T18	COUNTRY 668 678	Российское
+T20	CITY 735 751	Санкт-Петербурге
+T21	CITY 795 799	Доха
+T22	COUNTRY 815 821	России
+T23	PROFESSION 864 871	генсека
+T24	PROFESSION 895 914	министра энергетики
+T25	PERSON 915 928	Игоря Юсуфова
+T26	PROFESSION 949 1027	спецпредставителем президента по международному энергетическому сотрудничеству
+T27	PROFESSION 1039 1060	директоров "Газпрома"
+T28	ORGANIZATION 1051 1059	Газпрома
+T29	ORGANIZATION 1073 1084	Коммерсанта
+T30	PERSON 1087 1093	Юсуфов
+T31	PROFESSION 1194 1261	начальника департамента внешнеэкономической деятельности "Газпрома"
+T32	ORGANIZATION 1252 1260	Газпрома
+T33	PERSON 1262 1282	Станислава Цыганкова
+T34	PROFESSION 1293 1312	главы "Газэкспорта"
+T35	PERSON 1313 1326	Юрия Комарова
+T36	ORGANIZATION 1364 1368	ФСЭГ
+T37	ORGANIZATION 1387 1391	ФСЭГ
+T38	PROFESSION 1393 1414	генеральный секретарь
+T40	DATE 1467 1476	15-летний
+T41	AGE 1506 1522	не младше 45 лет
+T42	ORGANIZATION 1536 1547	Коммерсанта
+T44	CITY 1562 1566	Дохе
+T45	PROFESSION 1602 1624	генерального секретаря
+T46	COUNTRY 1707 1712	Иране
+T47	PROFESSION 1726 1734	генсеком
+T48	PROFESSION 1747 1761	вице-президент
+T49	PERSON 1801 1822	Ходжатолла Ганимифард
+T50	ORGANIZATION 1834 1838	ФСЭГ
+T51	ORGANIZATION 1970 1974	ОПЕК
+T52	ORGANIZATION 1976 2014	Организацией стран - экспортеров нефти
+T53	ORGANIZATION 2026 2030	ФСЭГ
+T54	DATE 2099 2115	в последние годы
+T55	DATE 2156 2175	В декабре 2008 года
+T56	ORGANIZATION 2184 2188	ФСЭГ
+T57	CITY 2225 2241	Санкт-Петербурге
+T58	COUNTRY 2244 2250	Россия
+T59	COUNTRY 2363 2369	России
+T60	ORGANIZATION 2373 2377	ФСЭГ
+T61	COUNTRY 2391 2396	Алжир
+T62	COUNTRY 2398 2405	Боливия
+T63	COUNTRY 2407 2413	Бруней
+T64	COUNTRY 2415 2424	Венесуэла
+T65	COUNTRY 2426 2432	Египет
+T66	COUNTRY 2434 2443	Индонезия
+T67	COUNTRY 2445 2449	Иран
+T68	COUNTRY 2451 2456	Катар
+T69	COUNTRY 2458 2463	Ливия
+T70	COUNTRY 2465 2473	Малайзия
+T71	COUNTRY 2475 2482	Нигерия
+T72	COUNTRY 2484 2487	ОАЭ
+T73	COUNTRY 2489 2493	Оман
+T74	COUNTRY 2495 2512	Тринидад и Тобаго
+T75	COUNTRY 2515 2536	Экваториальная Гвинея
+T76	PROFESSION 11 20	менеджеры
+T77	ORGANIZATION 53 57	ОПЕК
+T78	COUNTRY 73 79	России
+T79	ORGANIZATION 59 79	Правительство России
+T80	ORGANIZATION 131 162	Форума стран - экспортеров газа
+T81	PROFESSION 108 162	генерального секретаря Форума стран - экспортеров газа
+T82	ORGANIZATION 212 216	ОПЕК
+T84	ORGANIZATION 382 386	ФСЭГ
+T85	ORGANIZATION 668 692	Российское правительство
+T86	ORGANIZATION 679 692	правительство
+T87	ORGANIZATION 881 885	ОПЕК
+T88	PROFESSION 968 978	президента
+T89	PROFESSION 1039 1049	директоров
+T90	PROFESSION 1153 1162	чиновники
+T91	NUMBER 1177 1180	две
+T92	ORGANIZATION 1300 1311	Газэкспорта
+T93	LANGUAGE 1442 1452	английским
+T39	PROFESSION 1747 1800	вице-президент Иранской национальной газовой компании
+T43	ORGANIZATION 1762 1800	Иранской национальной газовой компании
+T94	COUNTRY 1762 1770	Иранской
+T95	PROFESSION 1194 1217	начальника департамента
+T96	ORGANIZATION 45 57	газовую ОПЕК
+R1	ALTERNATIVE_NAME Arg1:T80 Arg2:T4	
+T97	ORGANIZATION 204 216	газовой ОПЕК
+R2	ALTERNATIVE_NAME Arg1:T80 Arg2:T97	
+R3	TAKES_PLACE_IN Arg1:T8 Arg2:T9	
+R4	HEADQUARTERED_IN Arg1:T16 Arg2:T17	
+T83	ORGANIZATION 873 885	газовой ОПЕК
+R5	WORKS_AS Arg1:T25 Arg2:T24	
+R6	WORKS_AS Arg1:T25 Arg2:T27	
+R7	WORKPLACE Arg1:T25 Arg2:T28	
+R8	WORKS_AS Arg1:T25 Arg2:T88	
+R9	WORKPLACE Arg1:T33 Arg2:T32	
+R10	WORKS_AS Arg1:T33 Arg2:T95	
+R11	WORKS_AS Arg1:T35 Arg2:T34	
+R12	WORKPLACE Arg1:T35 Arg2:T92	
+T98	COUNTRY 1567 1573	Россия
+R13	WORKS_AS Arg1:T49 Arg2:T39	
+R14	WORKPLACE Arg1:T49 Arg2:T43	
+T99	EVENT 2176 2183	встреча
+R16	ORGANIZES Arg1:T56 Arg2:T99	
+R17	TAKES_PLACE_IN Arg1:T99 Arg2:T57	
+R18	POINT_IN_TIME Arg1:T99 Arg2:T55	
+R19	ORIGINS_FROM Arg1:T76 Arg2:T1	
+R20	HEADQUARTERED_IN Arg1:T79 Arg2:T78	
+R21	WORKPLACE Arg1:T81 Arg2:T80	
+R22	PARTICIPANT_IN Arg1:T7 Arg2:T8	
+R23	HEADQUARTERED_IN Arg1:T85 Arg2:T18	
+T100	PROFESSION 864 886	генсека "газовой ОПЕК"
+R24	WORKPLACE Arg1:T100 Arg2:T83	
+R25	WORKPLACE Arg1:T27 Arg2:T28	
+R26	ALTERNATIVE_NAME Arg1:T25 Arg2:T30	
+R27	WORKPLACE Arg1:T31 Arg2:T32	
+R28	WORKPLACE Arg1:T38 Arg2:T37	
+R29	WORKPLACE Arg1:T39 Arg2:T43	
+R30	HEADQUARTERED_IN Arg1:T43 Arg2:T94	
+R15	ABBREVIATION Arg1:T52 Arg2:T51	
+R31	ALTERNATIVE_NAME Arg1:T1 Arg2:T78	
+R32	ORGANIZES Arg1:T84 Arg2:T8	
+R33	WORKPLACE Arg1:T11 Arg2:T16	
+R34	LOCATED_IN Arg1:T14 Arg2:T15	
+R35	LOCATED_IN Arg1:T20 Arg2:T18	
+R36	WORKPLACE Arg1:T34 Arg2:T92	
+R37	KNOWS Arg1:T38 Arg2:T93	
+R38	AGE_IS Arg1:T38 Arg2:T41	
+R39	MEMBER_OF Arg1:T59 Arg2:T60	
+R40	MEMBER_OF Arg1:T61 Arg2:T60	
+R41	MEMBER_OF Arg1:T62 Arg2:T60	
+R42	MEMBER_OF Arg1:T63 Arg2:T60	
+R43	MEMBER_OF Arg1:T64 Arg2:T60	
+R44	MEMBER_OF Arg1:T65 Arg2:T60	
+R45	MEMBER_OF Arg1:T66 Arg2:T60	
+R46	ABBREVIATION Arg1:T67 Arg2:T60	
+R47	MEMBER_OF Arg1:T68 Arg2:T60	
+R48	MEMBER_OF Arg1:T69 Arg2:T60	
+R49	MEMBER_OF Arg1:T70 Arg2:T60	
+R50	MEMBER_OF Arg1:T71 Arg2:T60	
+R51	MEMBER_OF Arg1:T72 Arg2:T60	
+R52	MEMBER_OF Arg1:T73 Arg2:T60	
+R53	MEMBER_OF Arg1:T74 Arg2:T60	
+R54	MEMBER_OF Arg1:T75 Arg2:T60	
+N1	Reference T3 Wikidata:Q6501749	генеральный секретарь
+N2	Reference T5 Wikidata:Q1780189	Коммерсантъ
+N3	Reference T12 Wikidata:Q492468	россияне
+N4	Reference T14 Wikidata:Q649	Москва
+N5	Reference T16 Wikidata:Q1031255	Форум стран-экспортёров газа
+N6	Reference T17 Wikidata:Q3861	Доха
+N11	Reference T30 Wikidata:Q4535427	Юсуфов, Игорь Ханукович
+N13	Reference T32 Wikidata:Q102673	Газпром
+N15	Reference T42 Wikidata:Q1780189	Коммерсантъ
+N16	Reference T46 Wikidata:Q794	Иран
+N18	Reference T52 Wikidata:Q7795	Организация стран — экспортёров нефти
+N19	Reference T57 Wikidata:Q656	Санкт-Петербург
+N20	Reference T59 Wikidata:Q159	Россия
+N21	Reference T61 Wikidata:Q262	Алжир
+N22	Reference T62 Wikidata:Q750	Боливия
+N23	Reference T63 Wikidata:Q921	Бруней
+N24	Reference T64 Wikidata:Q717	Венесуэла
+N25	Reference T65 Wikidata:Q79	Египет
+N26	Reference T66 Wikidata:Q252	Индонезия
+N27	Reference T68 Wikidata:Q846	Катар
+N28	Reference T69 Wikidata:Q1016	Ливия
+N29	Reference T70 Wikidata:Q833	Малайзия
+N30	Reference T71 Wikidata:Q1033	Нигерия
+N31	Reference T72 Wikidata:Q878	Объединённые Арабские Эмираты
+N32	Reference T73 Wikidata:Q842	Оман
+N33	Reference T74 Wikidata:Q754	Тринидад и Тобаго
+N34	Reference T75 Wikidata:Q983	Экваториальная Гвинея
+N35	Reference T76 Wikidata:Q2462658	менеджер
+N36	Reference T79 Wikidata:Q1140115	Правительство Российской Федерации
+N38	Reference T85 Wikidata:Q1140115	Правительство Российской Федерации
+N39	Reference T86 Wikidata:Q7188	правительство
+N40	Reference T88 Wikidata:Q30461	президент
+N42	Reference T90 Wikidata:Q382887	чиновник
+N43	Reference T93 Wikidata:Q1860	английский язык
+N37	Reference T81 Wikidata:NULL	нет данных
+N45	Reference T100 Wikidata:NULL	нет данных
+N7	Reference T23 Wikidata:Q6501749	генеральный секретарь
+N8	Reference T24 Wikidata:Q1126271	
+N9	Reference T26 Wikidata:NULL	нет данных
+N41	Reference T89 Wikidata:Q1162163	директор
+N10	Reference T27 Wikidata:NULL	нет данных
+N12	Reference T31 Wikidata:NULL	нет данных
+N44	Reference T95 Wikidata:NULL	нет данных
+N14	Reference T33 Wikidata:NULL	нет данных
+N46	Reference T34 Wikidata:NULL	нет данных
+N47	Reference T92 Wikidata:Q1496687	
+N48	Reference T35 Wikidata:NULL	нет данных
+N17	Reference T48 Wikidata:Q42178	вице-президент
+N49	Reference T94 Wikidata:Q794	Иран
+N50	Reference T43 Wikidata:NULL	нет данных
+N51	Reference T39 Wikidata:NULL	нет данных
+N52	Reference T49 Wikidata:NULL	нет данных
+N53	Reference T45 Wikidata:Q6501749	генеральный секретарь
+N54	Reference T38 Wikidata:Q6501749	генеральный секретарь
+N55	Reference T11 Wikidata:Q6501749	генеральный секретарь
+N56	Reference T4 Wikidata:Q1031255	Форум стран-экспортёров газа
+N57	Reference T56 Wikidata:Q1031255	Форум стран-экспортёров газа
+N58	Reference T37 Wikidata:Q1031255	Форум стран-экспортёров газа
+N59	Reference T96 Wikidata:Q1031255	Форум стран-экспортёров газа
+N60	Reference T84 Wikidata:Q1031255	Форум стран-экспортёров газа
+N61	Reference T36 Wikidata:Q1031255	Форум стран-экспортёров газа
+N62	Reference T80 Wikidata:Q1031255	Форум стран-экспортёров газа
+N63	Reference T50 Wikidata:Q1031255	Форум стран-экспортёров газа
+N64	Reference T60 Wikidata:Q1031255	Форум стран-экспортёров газа
+N65	Reference T97 Wikidata:Q1031255	Форум стран-экспортёров газа
+N66	Reference T53 Wikidata:Q1031255	Форум стран-экспортёров газа
+N67	Reference T83 Wikidata:Q1031255	Форум стран-экспортёров газа
+N68	Reference T44 Wikidata:Q3861	Доха
+N69	Reference T9 Wikidata:Q3861	Доха
+N70	Reference T21 Wikidata:Q3861	Доха
+N71	Reference T25 Wikidata:Q4535427	Юсуфов, Игорь Ханукович
+N72	Reference T28 Wikidata:Q102673	Газпром
+N73	Reference T10 Wikidata:Q1780189	Коммерсантъ
+N74	Reference T29 Wikidata:Q1780189	Коммерсантъ
+N75	Reference T67 Wikidata:Q794	Иран
+N76	Reference T51 Wikidata:Q7795	Организация стран — экспортёров нефти
+N77	Reference T77 Wikidata:Q7795	Организация стран — экспортёров нефти
+N78	Reference T87 Wikidata:Q7795	Организация стран — экспортёров нефти
+N79	Reference T82 Wikidata:Q7795	Организация стран — экспортёров нефти
+N80	Reference T20 Wikidata:Q656	Санкт-Петербург
+N81	Reference T22 Wikidata:Q159	Россия
+N82	Reference T98 Wikidata:Q159	Россия
+N83	Reference T15 Wikidata:Q159	Россия
+N84	Reference T7 Wikidata:Q159	Россия
+N85	Reference T78 Wikidata:Q159	Россия
+N86	Reference T18 Wikidata:Q159	Россия
+N87	Reference T58 Wikidata:Q159	Россия
+N88	Reference T1 Wikidata:Q159	Россия
+N89	Reference T6 Wikidata:Q159	Россия
+N90	Reference T2 Wikidata:Q7188	правительство
+N91	Reference T47 Wikidata:Q6501749	генеральный секретарь

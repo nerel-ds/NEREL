@@ -1,0 +1,123 @@
+T1	COUNTRY 2 11	Швейцарии
+T3	PERSON 56 68	Дмитрий Гаев
+T4	PERSON 69 80	Юрий Лужков
+T5	PERSON 82 94	Дмитрий Гаев
+T6	PERSON 97 111	Владимир Путин
+T7	DATE 113 133	27 октября 2012 года
+T8	COUNTRY 145 156	Швейцарских
+T9	AGE 205 214	62-м году
+T12	PERSON 277 289	Дмитрий Гаев
+T13	PERSON 292 304	Дмитрий Гаев
+T15	DATE 364 383	с 1995 по 2011 годы
+T16	ORGANIZATION 419 433	Генпрокуратура
+T17	PERSON 444 459	Сергея Собянина
+T19	PROFESSION 584 591	Адвокат
+T20	PERSON 598 613	Александр Аснис
+T21	PERSON 782 787	Гаева
+T22	PROFESSION 869 893	адвокат экс-руководителя
+T23	PERSON 896 911	Рубен Маркарьян
+T24	PERSON 948 961	Дмитрия Гаева
+T25	PERSON 977 992	Александр Аснис
+T26	PERSON 994 1009	Рубен Маркарьян
+T27	PERSON 1011 1026	Яков Мастинский
+T28	PERSON 1186 1198	Дмитрий Гаев
+T29	EVENT 12 16	умер
+T30	PROFESSION 24 55	глава Московского метрополитена
+T32	PROFESSION 238 276	руководитель Московского метрополитена
+T34	PROFESSION 320 362	руководителем ГУП «Московский метрополитен
+T36	PROFESSION 484 508	начальника Метрополитена
+T37	PROFESSION 484 494	начальника
+T38	PROFESSION 869 876	адвокат
+T41	ORGANIZATION 30 55	Московского метрополитена
+T10	EVENT 221 230	скончался
+T42	ORGANIZATION 251 276	Московского метрополитена
+T43	CITY 251 262	Московского
+T44	CITY 30 41	Московского
+T46	ORGANIZATION 339 362	Московский метрополитен
+T47	CITY 339 349	Московский
+T48	ORGANIZATION 495 508	Метрополитена
+T49	PERSON 592 597	Гаева
+T50	EVENT 658 664	смерти
+T51	PERSON 673 678	Гаева
+T52	EVENT 939 947	кончиной
+T53	PROFESSION 584 597	Адвокат Гаева
+R1	HEADQUARTERED_IN Arg1:T41 Arg2:T44	
+R2	WORKPLACE Arg1:T30 Arg2:T41	
+R3	WORKS_AS Arg1:T3 Arg2:T30	
+R4	WORKPLACE Arg1:T3 Arg2:T41	
+R5	PARTICIPANT_IN Arg1:T3 Arg2:T29	
+R6	TAKES_PLACE_IN Arg1:T29 Arg2:T1	
+T2	DISEASE 170 201	тяжёлой продолжительной болезни
+R7	ALTERNATIVE_NAME Arg1:T29 Arg2:T10	
+R8	ALTERNATIVE_NAME Arg1:T30 Arg2:T32	
+R9	WORKS_AS Arg1:T12 Arg2:T32	
+R10	WORKPLACE Arg1:T12 Arg2:T42	
+R11	WORKPLACE Arg1:T32 Arg2:T42	
+R12	HEADQUARTERED_IN Arg1:T42 Arg2:T43	
+R13	CAUSE_OF_DEATH Arg1:T12 Arg2:T2	
+R14	PARTICIPANT_IN Arg1:T12 Arg2:T10	
+R15	AGE_DIED_AT Arg1:T12 Arg2:T9	
+R16	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+R17	DATE_OF_DEATH Arg1:T12 Arg2:T7	
+R18	POINT_IN_TIME Arg1:T10 Arg2:T7	
+R19	WORKS_AS Arg1:T13 Arg2:T34	
+R20	ALTERNATIVE_NAME Arg1:T32 Arg2:T34	
+R21	WORKPLACE Arg1:T34 Arg2:T46	
+R22	HEADQUARTERED_IN Arg1:T46 Arg2:T47	
+R23	WORKPLACE Arg1:T13 Arg2:T46	
+R24	ALTERNATIVE_NAME Arg1:T34 Arg2:T36	
+R25	WORKPLACE Arg1:T36 Arg2:T48	
+R26	ALTERNATIVE_NAME Arg1:T13 Arg2:T49	
+R27	WORKS_AS Arg1:T20 Arg2:T53	
+R28	SUBORDINATE_OF Arg1:T20 Arg2:T49	
+R29	SUBORDINATE_OF Arg1:T53 Arg2:T49	
+R30	ALTERNATIVE_NAME Arg1:T10 Arg2:T50	
+R31	ALTERNATIVE_NAME Arg1:T50 Arg2:T52	
+R32	PARTICIPANT_IN Arg1:T24 Arg2:T52	
+R33	WORKS_AS Arg1:T23 Arg2:T22	
+R34	SUBORDINATE_OF Arg1:T23 Arg2:T51	
+R35	SUBORDINATE_OF Arg1:T38 Arg2:T22	
+R36	SUBORDINATE_OF Arg1:T25 Arg2:T24	
+R37	SUBORDINATE_OF Arg1:T26 Arg2:T24	
+R38	SUBORDINATE_OF Arg1:T27 Arg2:T24	
+T11	EVENT 386 402	подал в отставку
+R39	AGENT Arg1:T13 Arg2:T11	
+R40	PARTICIPANT_IN Arg1:T46 Arg2:T11	
+T14	EVENT 514 539	возбуждено уголовное дело
+R41	PARTICIPANT_IN Arg1:T36 Arg2:T14	
+N1	Reference T4 Wikidata:Q156379	Юрий Михайлович Лужков
+N2	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N3	Reference T8 Wikidata:Q39	Швейцария
+N4	Reference T16 Wikidata:Q2387440	Прокуратура Российской Федерации
+N5	Reference T17 Wikidata:Q319497	Сергей Семёнович Собянин
+N6	Reference T19 Wikidata:Q40348	адвокат
+N11	Reference T30 Wikidata:Q4304696	Мостовское
+N13	Reference T42 Wikidata:Q5499	Московский метрополитен
+N16	Reference T51 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N8	Reference T25 Wikidata:NULL	нет данных
+N9	Reference T26 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:NULL	нет данных
+N7	Reference T22 Wikidata:NULL	нет данных
+N17	Reference T53 Wikidata:NULL	нет данных
+N12	Reference T37 Wikidata:Q59260362	
+N15	Reference T48 Wikidata:Q5499	Московский метрополитен
+N14	Reference T47 Wikidata:Q649	Москва
+N18	Reference T1 Wikidata:Q39	Швейцария
+N19	Reference T38 Wikidata:Q40348	адвокат
+N20	Reference T34 Wikidata:Q4304696	Мостовское
+N21	Reference T36 Wikidata:Q4304696	Мостовское
+N22	Reference T32 Wikidata:Q4304696	Мостовское
+N23	Reference T46 Wikidata:Q5499	Московский метрополитен
+N24	Reference T41 Wikidata:Q5499	Московский метрополитен
+N25	Reference T13 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N26	Reference T5 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N27	Reference T12 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N28	Reference T24 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N29	Reference T49 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N30	Reference T3 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N31	Reference T28 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N32	Reference T21 Wikidata:Q2629823	Дмитрий Владимирович Гаев
+N33	Reference T20 Wikidata:NULL	нет данных
+N34	Reference T23 Wikidata:NULL	нет данных
+N35	Reference T44 Wikidata:Q649	Москва
+N36	Reference T43 Wikidata:Q649	Москва

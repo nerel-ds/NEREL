@@ -1,0 +1,138 @@
+T1	PROFESSION 0 11	Президентом
+T2	ORGANIZATION 43 52	Парламент
+T3	DATE 60 88	в среду, 22 января 2020 года
+T4	PROFESSION 122 133	президентом
+T5	PERSON 143 166	Екатерина Сакелларопулу
+T6	ORDINAL 173 177	13-м
+T7	PROFESSION 178 189	президентом
+T8	PERSON 208 231	Екатерина Сакелларопулу
+T9	AGE 336 345	63-летней
+T10	NUMBER 399 402	261
+T11	PROFESSION 421 426	глава
+T12	PERSON 438 453	Костас Тассулас
+T13	NUMBER 455 457	33
+T14	NUMBER 492 495	294
+T15	NUMBER 543 546	200
+T16	PERSON 558 581	Екатерина Сакелларопулу
+T17	PROFESSION 595 606	президентом
+T18	PERSON 630 638	Тассулас
+T20	ORGANIZATION 675 705	Верховный административный суд
+T21	ORGANIZATION 715 736	Государственный совет
+T22	PERSON 738 746	Тассулас
+T23	PERSON 760 768	Катерина
+T24	DATE 795 803	13 марта
+T25	PERSON 834 855	Прокописа Павлопулоса
+T27	DATE 891 902	на пять лет
+T28	ORGANIZATION 912 921	парламент
+T29	PROFESSION 939 955	премьер-министра
+T30	ORGANIZATION 957 964	Фракции
+T31	PROFESSION 1011 1021	президента
+T32	PROFESSION 1118 1134	премьер-министру
+T33	PERSON 1162 1180	Кириакос Мицотакис
+T34	COUNTRY 12 18	Греции
+T35	PROFESSION 0 18	Президентом Греции
+T36	COUNTRY 53 59	Греции
+T37	ORGANIZATION 43 59	Парламент Греции
+T38	COUNTRY 190 196	Греции
+T39	PROFESSION 178 196	президентом Греции
+T40	PROFESSION 256 262	судьей
+T41	PERSON 346 359	Сакелларопулу
+T42	PROFESSION 403 411	депутата
+T43	ORGANIZATION 427 437	парламента
+T44	PROFESSION 421 437	глава парламента
+T45	PROFESSION 496 509	парламентария
+T46	EVENT 587 594	избрана
+T47	EVENT 27 42	избрана женщина
+T48	EVENT 115 121;134 141	избрал женщину
+T49	EVENT 515 523	избрания
+T50	PROFESSION 595 617	президентом Республики
+T19	PROFESSION 653 662	президент
+T51	COUNTRY 706 712	Греции
+T52	ORGANIZATION 675 712	Верховный административный суд Греции
+T53	EVENT 775 794	приведена к присяге
+T54	COUNTRY 873 879	Греция
+T55	PROFESSION 880 890	президента
+T56	COUNTRY 1022 1028	Греции
+T57	PROFESSION 1011 1028	президента Греции
+R1	AGENT Arg1:T37 Arg2:T48	
+R2	POINT_IN_TIME Arg1:T48 Arg2:T3	
+R3	WORKS_AS Arg1:T5 Arg2:T39	
+R4	WORKPLACE Arg1:T5 Arg2:T38	
+R5	WORKS_AS Arg1:T8 Arg2:T40	
+R6	AGE_IS Arg1:T41 Arg2:T9	
+R7	WORKS_AS Arg1:T12 Arg2:T44	
+R8	WORKPLACE Arg1:T12 Arg2:T43	
+R9	PARTICIPANT_IN Arg1:T16 Arg2:T46	
+R10	WORKS_AS Arg1:T16 Arg2:T50	
+R11	PARTICIPANT_IN Arg1:T23 Arg2:T53	
+R12	POINT_IN_TIME Arg1:T53 Arg2:T24	
+T58	LAW 861 872	Конституции
+R13	WORKS_AS Arg1:T33 Arg2:T32	
+R14	WORKS_AS Arg1:T25 Arg2:T50	
+R15	WORKPLACE Arg1:T35 Arg2:T34	
+R16	PARTICIPANT_IN Arg1:T35 Arg2:T47	
+R17	TAKES_PLACE_IN Arg1:T47 Arg2:T34	
+R18	HEADQUARTERED_IN Arg1:T37 Arg2:T36	
+R19	ALTERNATIVE_NAME Arg1:T47 Arg2:T48	
+R20	PARTICIPANT_IN Arg1:T5 Arg2:T48	
+R21	WORKPLACE Arg1:T39 Arg2:T38	
+R23	ALTERNATIVE_NAME Arg1:T8 Arg2:T41	
+R22	WORKPLACE Arg1:T44 Arg2:T43	
+R24	MEMBER_OF Arg1:T42 Arg2:T43	
+R25	ALTERNATIVE_NAME Arg1:T42 Arg2:T45	
+R26	ALTERNATIVE_NAME Arg1:T49 Arg2:T46	
+R27	ALTERNATIVE_NAME Arg1:T48 Arg2:T49	
+R28	ALTERNATIVE_NAME Arg1:T12 Arg2:T18	
+R29	WORKPLACE Arg1:T16 Arg2:T52	
+R30	HEADQUARTERED_IN Arg1:T52 Arg2:T51	
+R31	WORKPLACE Arg1:T16 Arg2:T21	
+R32	WORKS_AS Arg1:T16 Arg2:T19	
+R33	ALTERNATIVE_NAME Arg1:T16 Arg2:T23	
+R34	ORIGINS_FROM Arg1:T58 Arg2:T54	
+R35	WORKPLACE Arg1:T55 Arg2:T54	
+R36	HEADQUARTERED_IN Arg1:T28 Arg2:T54	
+R37	WORKPLACE Arg1:T29 Arg2:T54	
+R38	WORKPLACE Arg1:T57 Arg2:T56	
+N4	Reference T20 Wikidata:Q2984911	Государственный совет Греции
+N6	Reference T25 Wikidata:Q3407316	Прокопис Павлопулос
+N7	Reference T29 Wikidata:Q14212	премьер-министр
+N8	Reference T30 Wikidata:Q848197	парламентская фракция
+N9	Reference T33 Wikidata:Q552751	Кириакос Мицотакис
+N10	Reference T35 Wikidata:Q3409203	президент Греции
+N11	Reference T37 Wikidata:Q477089	Парламент Греции
+N12	Reference T40 Wikidata:Q16533	судья
+N13	Reference T42 Wikidata:Q486839	член парламента
+N14	Reference T43 Wikidata:Q35749	парламент
+N16	Reference T51 Wikidata:Q41	Греция
+N17	Reference T52 Wikidata:Q2984911	Государственный совет Греции
+N18	Reference T58 Wikidata:Q7755	конституция
+N1	Reference T5 Wikidata:Q57415743	
+N19	Reference T41 Wikidata:Q57415743	
+N2	Reference T11 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:NULL	нет данных
+N3	Reference T17 Wikidata:Q30461	президент
+N21	Reference T18 Wikidata:NULL	нет данных
+N5	Reference T21 Wikidata:Q3687335	
+N20	Reference T50 Wikidata:Q3409203	президент Греции
+N22	Reference T32 Wikidata:Q14212	премьер-министр
+N23	Reference T57 Wikidata:Q3409203	президент Греции
+N24	Reference T39 Wikidata:Q3409203	президент Греции
+N25	Reference T45 Wikidata:Q486839	член парламента
+N26	Reference T2 Wikidata:Q35749	парламент
+N27	Reference T28 Wikidata:Q35749	парламент
+N28	Reference T36 Wikidata:Q41	Греция
+N29	Reference T56 Wikidata:Q41	Греция
+N30	Reference T54 Wikidata:Q41	Греция
+N31	Reference T34 Wikidata:Q41	Греция
+N32	Reference T38 Wikidata:Q41	Греция
+N33	Reference T23 Wikidata:Q57415743	
+N34	Reference T16 Wikidata:Q57415743	
+N35	Reference T8 Wikidata:Q57415743	
+N36	Reference T31 Wikidata:Q30461	президент
+N37	Reference T4 Wikidata:Q30461	президент
+N38	Reference T55 Wikidata:Q30461	президент
+N39	Reference T19 Wikidata:Q30461	президент
+N40	Reference T7 Wikidata:Q30461	президент
+N41	Reference T1 Wikidata:Q30461	президент
+N42	Reference T22 Wikidata:NULL	нет данных
+N43	Reference T12 Wikidata:NULL	нет данных

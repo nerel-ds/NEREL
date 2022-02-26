@@ -1,0 +1,115 @@
+T1	PROFESSION 7 23	глава Роскосмоса
+T2	PERSON 24 41	Анатолий Перминов
+T3	PROFESSION 43 84	Глава Федерального космического агентства
+T4	ORGANIZATION 49 84	Федерального космического агентства
+T5	PERSON 85 102	Анатолий Перминов
+T6	ORGANIZATION 145 156	РИА Новости
+T7	ORGANIZATION 171 204	пресс-службу правительства России
+T8	PROFESSION 213 237	руководителем Роскосмоса
+T9	PERSON 247 264	Владимир Поповкин
+T10	PROFESSION 302 338	первого заместителя министра обороны
+T11	PERSON 341 349	Перминов
+T12	DATE 360 371	в этом году
+T13	AGE 384 390	65 лет
+T14	PROFESSION 405 421	главы Роскосмоса
+T15	DATE 422 439	с марта 2004 года
+T16	NUMBER 587 591	трех
+T17	PRODUCT 603 612	Глонасс-М
+T18	DATE 614 633	5 декабря 2010 года
+T19	DATE 636 653	В марте 2011 года
+T20	DATE 806 814	В апреле
+T21	PERSON 828 841	Сергей Иванов
+T22	PROFESSION 884 900	главы Роскосмоса
+T23	PERSON 915 924	Перминову
+T24	AGE 941 947	65 лет
+T25	COUNTRY 961 972	российскому
+T26	ORGANIZATION 13 23	Роскосмоса
+T27	ORGANIZATION 184 204	правительства России
+T28	COUNTRY 198 204	России
+T29	ORGANIZATION 227 237	Роскосмоса
+T30	PROFESSION 322 338	министра обороны
+T31	ORGANIZATION 411 421	Роскосмоса
+T32	PERSON 467 476	Перминова
+T33	PERSON 654 662	Перминов
+T34	ORGANIZATION 890 900	Роскосмоса
+T35	PROFESSION 991 999	чиновник
+T36	EVENT 0 6	Уволен
+R1	WORKS_AS Arg1:T2 Arg2:T1	
+R2	WORKPLACE Arg1:T2 Arg2:T26	
+R3	PARTICIPANT_IN Arg1:T2 Arg2:T36	
+T37	EVENT 103 126	освобожден от должности
+R4	ALTERNATIVE_NAME Arg1:T36 Arg2:T37	
+R5	ABBREVIATION Arg1:T4 Arg2:T26	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T3	
+R7	PARTICIPANT_IN Arg1:T5 Arg2:T37	
+R8	WORKS_AS Arg1:T5 Arg2:T3	
+R9	WORKPLACE Arg1:T5 Arg2:T4	
+R10	ALTERNATIVE_NAME Arg1:T3 Arg2:T8	
+R11	WORKS_AS Arg1:T9 Arg2:T8	
+R12	WORKPLACE Arg1:T9 Arg2:T29	
+T38	EVENT 238 246	назначен
+T39	EVENT 287 301	уволен с поста
+R13	PARTICIPANT_IN Arg1:T9 Arg2:T38	
+R14	PARTICIPANT_IN Arg1:T9 Arg2:T39	
+R15	WORKS_AS Arg1:T9 Arg2:T10	
+R16	AGE_IS Arg1:T11 Arg2:T13	
+R17	WORKS_AS Arg1:T11 Arg2:T14	
+R18	WORKPLACE Arg1:T11 Arg2:T31	
+T40	EVENT 568 586	аварийного запуска
+R19	POINT_IN_TIME Arg1:T40 Arg2:T18	
+T42	PROFESSION 815 827	вице-премьер
+R21	WORKS_AS Arg1:T21 Arg2:T42	
+R22	WORKS_AS Arg1:T23 Arg2:T22	
+R23	WORKPLACE Arg1:T23 Arg2:T34	
+R24	WORKS_AS Arg1:T23 Arg2:T35	
+R25	ALTERNATIVE_NAME Arg1:T8 Arg2:T14	
+R26	ALTERNATIVE_NAME Arg1:T9 Arg2:T11	
+R27	WORKPLACE Arg1:T1 Arg2:T26	
+R28	WORKPLACE Arg1:T3 Arg2:T4	
+R31	HEADQUARTERED_IN Arg1:T7 Arg2:T28	
+R32	WORKPLACE Arg1:T8 Arg2:T29	
+R33	SUBORDINATE_OF Arg1:T9 Arg2:T30	
+R34	SUBORDINATE_OF Arg1:T10 Arg2:T30	
+R35	WORKPLACE Arg1:T14 Arg2:T31	
+R36	WORKPLACE Arg1:T22 Arg2:T34	
+R37	AGE_IS Arg1:T23 Arg2:T24	
+R38	PARTICIPANT_IN Arg1:T26 Arg2:T36	
+R39	PARTICIPANT_IN Arg1:T4 Arg2:T37	
+R29	FOUNDED_BY Arg1:T7 Arg2:T27	
+R30	PARTICIPANT_IN Arg1:T29 Arg2:T38	
+R20	PARTICIPANT_IN Arg1:T32 Arg2:T40	
+R40	INANIMATE_INVOLVED Arg1:T17 Arg2:T40	
+R41	AGENT Arg1:T31 Arg2:T40	
+T41	EVENT 873 883	увольнении
+R42	PARTICIPANT_IN Arg1:T23 Arg2:T41	
+R43	PARTICIPANT_IN Arg1:T34 Arg2:T41	
+R44	HEADQUARTERED_IN Arg1:T34 Arg2:T25	
+R45	WORKPLACE Arg1:T42 Arg2:T25	
+N2	Reference T4 Wikidata:Q190795	Роскосмос
+N3	Reference T5 Wikidata:Q487968	Анатолий Николаевич Перминов
+N4	Reference T6 Wikidata:Q821172	РИА Новости
+N6	Reference T9 Wikidata:Q2121574	Поповкин, Владимир Александрович
+N8	Reference T17 Wikidata:Q4139977	Глонасс-М
+N9	Reference T21 Wikidata:Q204027	Сергей Борисович Иванов
+N11	Reference T27 Wikidata:Q1140115	Правительство Российской Федерации
+N12	Reference T28 Wikidata:Q159	Россия
+N13	Reference T30 Wikidata:Q2518691	министр обороны
+N14	Reference T35 Wikidata:Q382887	чиновник
+N15	Reference T42 Wikidata:Q877955	вице-премьер
+N1	Reference T1 Wikidata:NULL	нет данных
+N5	Reference T7 Wikidata:NULL	нет данных
+N7	Reference T10 Wikidata:NULL	нет данных
+N10	Reference T25 Wikidata:Q159	Россия
+N16	Reference T31 Wikidata:Q190795	Роскосмос
+N17	Reference T34 Wikidata:Q190795	Роскосмос
+N18	Reference T29 Wikidata:Q190795	Роскосмос
+N19	Reference T26 Wikidata:Q190795	Роскосмос
+N20	Reference T2 Wikidata:Q487968	Анатолий Николаевич Перминов
+N21	Reference T11 Wikidata:Q2121574	Поповкин, Владимир Александрович
+N22	Reference T23 Wikidata:Q2121574	Поповкин, Владимир Александрович
+N23	Reference T33 Wikidata:Q2121574	Поповкин, Владимир Александрович
+N24	Reference T32 Wikidata:Q2121574	Поповкин, Владимир Александрович
+N25	Reference T14 Wikidata:NULL	нет данных
+N26	Reference T8 Wikidata:NULL	нет данных
+N27	Reference T22 Wikidata:NULL	нет данных
+N28	Reference T3 Wikidata:NULL	нет данных

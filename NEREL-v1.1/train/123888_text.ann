@@ -1,0 +1,73 @@
+T1	PERSON 4 19	Сальвадора Дали
+T2	DATE 42 60	через почти 30 лет
+T3	PERSON 74 88	Сальвадор Дали
+T5	PERSON 139 154	Сальвадора Дали
+T6	DATE 177 195	через почти 30 лет
+T7	NATIONALITY 279 289	испанского
+T8	NUMBER 331 347	десять из десяти
+T9	PERSON 430 434	Дали
+T10	CITY 481 488	Фигерас
+T11	LOCATION 492 514	северо-востоке Испании
+T12	STATE_OR_PROVINCE 517 526	Каталонии
+T13	CITY 583 589	Жироны
+T14	AGE 590 599	61-летней
+T15	CITY 723 729	Мадрид
+T16	PERSON 840 845	Абель
+T17	PERSON 848 852	Дали
+T18	PERSON 855 859	Дали
+T19	COUNTRY 941 949	Испанией
+T20	MONEY 965 983	325 миллионов евро
+T21	DATE 993 1004	в 1989 году
+T22	AGE 1016 1022	84 лет
+T23	DATE 123 134	в 1965 году
+T4	PROFESSION 290 299	художника
+T24	PROFESSION 221 249	судебно-медицинские эксперты
+T25	COUNTRY 507 514	Испании
+T26	DATE 449 457	накануне
+T27	PERSON 600 611	Пилар Абель
+T28	PROFESSION 680 689	художника
+T29	PROFESSION 915 924	художника
+T30	PROFESSION 1024 1033	Живописец
+T31	EVENT 263 273	эксгумацию
+T32	EVENT 435 448	эксгумировали
+R1	WORKS_AS Arg1:T5 Arg2:T4	
+R2	ORIGINS_FROM Arg1:T4 Arg2:T7	
+R3	ORIGINS_FROM Arg1:T5 Arg2:T7	
+R4	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R5	POINT_IN_TIME Arg1:T32 Arg2:T26	
+R6	TAKES_PLACE_IN Arg1:T32 Arg2:T10	
+R7	PLACE_OF_BIRTH Arg1:T9 Arg2:T10	
+R8	LOCATED_IN Arg1:T11 Arg2:T25	
+R9	LOCATED_IN Arg1:T10 Arg2:T11	
+R10	LOCATED_IN Arg1:T10 Arg2:T12	
+R11	LOCATED_IN Arg1:T12 Arg2:T11	
+R12	AGE_IS Arg1:T27 Arg2:T14	
+R13	WORKPLACE Arg1:T27 Arg2:T13	
+R14	WORKS_AS Arg1:T9 Arg2:T28	
+R15	WORKS_AS Arg1:T18 Arg2:T29	
+R16	DATE_OF_DEATH Arg1:T18 Arg2:T21	
+R17	AGE_DIED_AT Arg1:T18 Arg2:T22	
+R18	WORKS_AS Arg1:T18 Arg2:T30	
+R19	AGENT Arg1:T24 Arg2:T31	
+R20	INANIMATE_INVOLVED Arg1:T9 Arg2:T32	
+N1	Reference T5 Wikidata:Q5577	Сальвадор Дали
+N3	Reference T10 Wikidata:Q6839	Фигерес
+N5	Reference T12 Wikidata:Q5705	Каталония
+N6	Reference T13 Wikidata:Q7038	Жирона
+N7	Reference T15 Wikidata:Q2807	Мадрид
+N10	Reference T19 Wikidata:Q29	Испания
+N11	Reference T4 Wikidata:Q1028181	художник
+N12	Reference T24 Wikidata:Q495304	судебная наука
+N14	Reference T30 Wikidata:Q1028181	художник
+N2	Reference T7 Wikidata:Q160894	испанцы
+N4	Reference T11 Wikidata:NULL	нет данных
+N13	Reference T27 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N9	Reference T17 Wikidata:Q5577	Сальвадор Дали
+N15	Reference T1 Wikidata:Q5577	Сальвадор Дали
+N16	Reference T3 Wikidata:Q5577	Сальвадор Дали
+N17	Reference T25 Wikidata:Q29	Испания
+N18	Reference T28 Wikidata:Q1028181	художник
+N19	Reference T29 Wikidata:Q1028181	художник
+N20	Reference T18 Wikidata:Q5577	Сальвадор Дали
+N21	Reference T9 Wikidata:Q5577	Сальвадор Дали

@@ -1,0 +1,179 @@
+T1	PERSON 0 20	Анастасия Заворотнюк
+T2	PERSON 49 69	Анастасия Заворотнюк
+T3	PERSON 78 98	Анастасия Заворотнюк
+T4	CITY 131 141	московских
+T5	COUNTRY 210 220	российских
+T6	AGE 272 281	48-летней
+T7	PERSON 364 376	Жанны Фриске
+T8	DATE 386 403	четыре года назад
+T9	PERSON 406 416	Заворотнюк
+T10	COUNTRY 456 466	российской
+T11	DATE 495 519	больше двух недель назад
+T12	COUNTRY 523 529	Польши
+T13	PERSON 648 661	Пётр Чернышёв
+T14	PERSON 693 702	Анастасии
+T15	PERSON 745 749	Милы
+T16	DATE 777 802	в конце октября 2018 года
+T17	ORGANIZATION 873 893	Комсомольской правды
+T18	PROFESSION 983 991	Директор
+T19	PERSON 1000 1015	Марина Потапова
+T20	PERSON 1070 1079	Анастасии
+T21	PROFESSION 1081 1100	Концертный директор
+T22	PERSON 1109 1121	Стас Христов
+T23	PRODUCT 1130 1133	РБК
+T24	PERSON 1179 1199	Анастасия Заворотнюк
+T25	NUMBER 1317 1331	около тридцати
+T26	PERSON 1345 1355	Заворотнюк
+T27	EVENT 1381 1402	президентских выборов
+T28	DATE 1403 1412	2018 года
+T29	PERSON 1413 1433	Анастасия Заворотнюк
+T30	ORGANIZATION 1458 1468	Putin Team
+T31	PERSON 1495 1511	Владимира Путина
+T32	PRODUCT 1515 1519	Mash
+T33	PERSON 1569 1589	Анастасии Заворотнюк
+T34	PERSON 1745 1755	Заворотнюк
+T35	PROFESSION 1991 2010	Концертный директор
+T36	PERSON 2019 2031	Стас Христов
+T37	ORGANIZATION 2051 2057	Москва
+T38	PERSON 2155 2160	Стаса
+T39	DISEASE 36 48	отёком мозга
+T40	PROFESSION 70 77	Актриса
+T41	DISEASE 172 184	отёком мозга
+T42	PROFESSION 282 289	актрисы
+T43	DISEASE 322 335	опухоли мозга
+T44	EVENT 378 385	умершей
+T45	PROFESSION 605 613	актрисой
+T46	PROFESSION 639 647	фигурист
+R1	SPOUSE Arg1:T9 Arg2:T13	
+R2	PARENT_OF Arg1:T14 Arg2:T15	
+T48	EVENT 759 776	появилась на свет
+R3	POINT_IN_TIME Arg1:T48 Arg2:T16	
+T49	PROFESSION 811 818	актриса
+T50	PROFESSION 857 871	корреспондента
+T51	PROFESSION 857 894	корреспондента «Комсомольской правды»
+T52	PROFESSION 896 905	Журналист
+T53	PROFESSION 925 933	артистки
+T54	PROFESSION 983 999	Директор актрисы
+T55	PROFESSION 1092 1100	директор
+T56	WORK_OF_ART 1259 1278	Моя прекрасная няня
+T57	DATE 1281 1290	2004—2009
+T58	PROFESSION 1528 1540	Нейрохирурги
+T59	PROFESSION 1603 1610	актрисы
+T60	PROFESSION 1661 1666	врачи
+T61	DISEASE 1791 1798	опухоль
+T62	DATE 1821 1844	В самое ближайшее время
+T63	EVENT 1860 1869	консилиум
+T64	PROFESSION 1933 1940	актриса
+T65	PROFESSION 2002 2010	директор
+T66	PROFESSION 2011 2018	актрисы
+T67	PROFESSION 2162 2169	актриса
+T69	DISEASE 2273 2285	отёком мозга
+R4	MEDICAL_CONDITION Arg1:T1 Arg2:T39	
+R5	WORKS_AS Arg1:T3 Arg2:T40	
+R6	MEDICAL_CONDITION Arg1:T3 Arg2:T41	
+R7	AGE_IS Arg1:T42 Arg2:T6	
+R8	MEDICAL_CONDITION Arg1:T42 Arg2:T43	
+R9	MEDICAL_CONDITION Arg1:T7 Arg2:T43	
+R10	WORKS_AS Arg1:T13 Arg2:T46	
+R11	WORKS_AS Arg1:T36 Arg2:T35	
+R12	MEDICAL_CONDITION Arg1:T67 Arg2:T69	
+R13	POINT_IN_TIME Arg1:T63 Arg2:T62	
+R14	POINT_IN_TIME Arg1:T27 Arg2:T28	
+R15	PARTICIPANT_IN Arg1:T7 Arg2:T44	
+R16	POINT_IN_TIME Arg1:T44 Arg2:T8	
+R17	WORKS_AS Arg1:T9 Arg2:T45	
+R18	SPOUSE Arg1:T45 Arg2:T13	
+R19	PARTICIPANT_IN Arg1:T15 Arg2:T48	
+R20	PARTICIPANT_IN Arg1:T14 Arg2:T48	
+R21	WORKS_AS Arg1:T3 Arg2:T42	
+R22	ALTERNATIVE_NAME Arg1:T3 Arg2:T9	
+R23	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+R24	WORKPLACE Arg1:T51 Arg2:T17	
+R25	WORKS_AS Arg1:T14 Arg2:T49	
+R26	ALTERNATIVE_NAME Arg1:T49 Arg2:T53	
+R27	PARTICIPANT_IN Arg1:T24 Arg2:T56	
+R28	ALTERNATIVE_NAME Arg1:T24 Arg2:T26	
+R29	MEMBER_OF Arg1:T29 Arg2:T30	
+T47	PERSON 1458 1463	Putin
+R30	ALTERNATIVE_NAME Arg1:T47 Arg2:T31	
+R31	WORKS_AS Arg1:T33 Arg2:T59	
+R32	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R33	ALTERNATIVE_NAME Arg1:T36 Arg2:T38	
+R34	SUBORDINATE_OF Arg1:T36 Arg2:T66	
+R35	SUBORDINATE_OF Arg1:T35 Arg2:T66	
+R36	SUBORDINATE_OF Arg1:T36 Arg2:T34	
+R37	WORKS_AS Arg1:T34 Arg2:T64	
+R38	WORKS_AS Arg1:T19 Arg2:T54	
+T68	PROFESSION 992 999	актрисы
+R39	SUBORDINATE_OF Arg1:T54 Arg2:T68	
+R40	SUBORDINATE_OF Arg1:T19 Arg2:T68	
+R41	SUBORDINATE_OF Arg1:T19 Arg2:T14	
+T70	PROFESSION 1101 1108	актрисы
+T71	PROFESSION 1081 1108	Концертный директор актрисы
+R42	WORKS_AS Arg1:T22 Arg2:T71	
+R43	SUBORDINATE_OF Arg1:T22 Arg2:T70	
+R44	SUBORDINATE_OF Arg1:T71 Arg2:T70	
+R45	DATE_OF_DEATH Arg1:T7 Arg2:T8	
+R46	POINT_IN_TIME Arg1:T56 Arg2:T57	
+T72	DATE 1281 1285	2004
+R47	START_TIME Arg1:T56 Arg2:T72	
+T73	DATE 1286 1290	2009
+R48	END_TIME Arg1:T56 Arg2:T73	
+R49	MEDICAL_CONDITION Arg1:T34 Arg2:T61	
+T74	DISEASE 1804 1820	метастазы в мозг
+R50	MEDICAL_CONDITION Arg1:T34 Arg2:T74	
+R51	PARTICIPANT_IN Arg1:T34 Arg2:T63	
+N1	Reference T1 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N4	Reference T7 Wikidata:Q241382	Жанна Владимировна Фриске
+N5	Reference T12 Wikidata:Q36	Польша
+N6	Reference T13 Wikidata:Q2032797	Пётр Чернышёв
+N9	Reference T17 Wikidata:Q849047	Комсомольская правда
+N12	Reference T23 Wikidata:Q629733	РосБизнесКонсалтинг
+N13	Reference T24 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N20	Reference T52 Wikidata:Q1930187	журналист
+N22	Reference T56 Wikidata:Q600931	Моя прекрасная няня
+N23	Reference T58 Wikidata:Q9385011	нейрохирург
+N24	Reference T59 Wikidata:Q33999	актёр
+N25	Reference T60 Wikidata:Q39631	врач
+N26	Reference T65 Wikidata:Q484876	главный управляющий
+N2	Reference T4 Wikidata:Q649	Москва
+N3	Reference T5 Wikidata:Q159	Россия
+N17	Reference T46 Wikidata:Q13219587	
+N7	Reference T14 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N8	Reference T15 Wikidata:NULL	нет данных
+N18	Reference T50 Wikidata:Q1155838	
+N19	Reference T51 Wikidata:NULL	нет данных
+N21	Reference T54 Wikidata:NULL	нет данных
+N10	Reference T19 Wikidata:NULL	нет данных
+N27	Reference T71 Wikidata:NULL	нет данных
+N11	Reference T22 Wikidata:NULL	нет данных
+N28	Reference T47 Wikidata:Q7747	Владимир Владимирович Путин
+N14	Reference T30 Wikidata:Q43722321	
+N29	Reference T32 Wikidata:Q48954641	Mash
+N15	Reference T35 Wikidata:NULL	нет данных
+N16	Reference T37 Wikidata:Q94952743	
+N30	Reference T29 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N31	Reference T33 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N32	Reference T2 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N33	Reference T34 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N34	Reference T26 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N35	Reference T70 Wikidata:Q33999	актёр
+N36	Reference T66 Wikidata:Q33999	актёр
+N37	Reference T49 Wikidata:Q33999	актёр
+N38	Reference T68 Wikidata:Q33999	актёр
+N39	Reference T45 Wikidata:Q33999	актёр
+N40	Reference T53 Wikidata:Q33999	актёр
+N41	Reference T42 Wikidata:Q33999	актёр
+N42	Reference T67 Wikidata:Q33999	актёр
+N43	Reference T40 Wikidata:Q33999	актёр
+N44	Reference T64 Wikidata:Q33999	актёр
+N45	Reference T18 Wikidata:Q484876	главный управляющий
+N46	Reference T55 Wikidata:Q484876	главный управляющий
+N47	Reference T10 Wikidata:Q159	Россия
+N48	Reference T20 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N49	Reference T9 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N50	Reference T3 Wikidata:Q2626768	Анастасия Юрьевна Заворотнюк
+N51	Reference T36 Wikidata:NULL	нет данных
+N52	Reference T38 Wikidata:NULL	нет данных
+N53	Reference T31 Wikidata:Q7747	Владимир Владимирович Путин
+N54	Reference T21 Wikidata:NULL	нет данных

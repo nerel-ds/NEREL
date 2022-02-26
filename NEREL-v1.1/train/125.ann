@@ -1,0 +1,105 @@
+T1	PROFESSION 0 49	Руководитель московского департамента потребрынка
+T2	ORGANIZATION 13 49	московского департамента потребрынка
+T3	PROFESSION 81 92	мэра Москвы
+T4	PERSON 93 108	Сергея Собянина
+T5	PROFESSION 130 197	руководитель столичного департамента потребительского рынка и услуг
+T6	ORGANIZATION 143 197	столичного департамента потребительского рынка и услуг
+T7	PERSON 198 215	Владимир Малышков
+T8	DATE 225 248	в понедельник, 1 ноября
+T9	ORGANIZATION 259 270	РИА Новости
+T10	PERSON 322 330	Малышков
+T11	AGE 341 347	69 лет
+T12	ORGANIZATION 359 384	департаментом потребрынка
+T13	DATE 385 396	с 1993 года
+T14	PERSON 437 446	Малышкова
+T15	PERSON 454 466	Михаил Орлов
+T16	PROFESSION 614 713	руководителем Комплекса потребительского рынка и услуг Центрального административного округа Москвы
+T19	ORGANIZATION 716 727	РИА Новости
+T20	PERSON 742 750	Малышков
+T21	PROFESSION 775 779	мэра
+T22	PERSON 799 811	Юрия Лужкова
+T23	CITY 13 24	московского
+T24	CITY 86 92	Москвы
+T25	ORGANIZATION 296 319	городской администрации
+T26	ORGANIZATION 488 545	московский комитет по связям с религиозными организациями
+T27	CITY 488 498	московский
+T28	PROFESSION 557 565	чиновник
+T29	ORGANIZATION 583 607	управу Басманного района
+T30	DISTRICT 590 607	Басманного района
+T31	ORGANIZATION 628 713	Комплекса потребительского рынка и услуг Центрального административного округа Москвы
+T17	DISTRICT 669 713	Центрального административного округа Москвы
+T18	CITY 707 713	Москвы
+T32	COUNTRY 780 790	российской
+T33	PROFESSION 81 85	мэра
+T34	EVENT 62 70	отставку
+T35	EVENT 121 129	отставку
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T34	
+R2	WORKS_AS Arg1:T4 Arg2:T3	
+R3	WORKPLACE Arg1:T4 Arg2:T24	
+R4	AGENT Arg1:T4 Arg2:T35	
+R5	WORKS_AS Arg1:T7 Arg2:T5	
+R6	WORKPLACE Arg1:T7 Arg2:T6	
+R7	AGE_IS Arg1:T10 Arg2:T11	
+R8	WORKPLACE Arg1:T10 Arg2:T12	
+R9	WORKPLACE Arg1:T15 Arg2:T26	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T10	
+R11	WORKS_AS Arg1:T15 Arg2:T28	
+R12	WORKPLACE Arg1:T15 Arg2:T29	
+R13	WORKS_AS Arg1:T15 Arg2:T16	
+R14	WORKPLACE Arg1:T15 Arg2:T31	
+T36	CITY 780 798	российской столицы
+T37	PROFESSION 775 798	мэра российской столицы
+R15	WORKS_AS Arg1:T22 Arg2:T37	
+R16	KNOWS Arg1:T20 Arg2:T22	
+R17	HEADQUARTERED_IN Arg1:T2 Arg2:T23	
+R18	WORKPLACE Arg1:T1 Arg2:T2	
+R19	ALTERNATIVE_NAME Arg1:T23 Arg2:T24	
+R20	WORKPLACE Arg1:T3 Arg2:T24	
+R21	PARTICIPANT_IN Arg1:T7 Arg2:T35	
+R22	WORKPLACE Arg1:T5 Arg2:T6	
+R23	ALTERNATIVE_NAME Arg1:T6 Arg2:T12	
+R24	HEADQUARTERED_IN Arg1:T26 Arg2:T27	
+R25	HEADQUARTERED_IN Arg1:T29 Arg2:T30	
+R26	WORKPLACE Arg1:T16 Arg2:T31	
+R27	HEADQUARTERED_IN Arg1:T31 Arg2:T17	
+R28	LOCATED_IN Arg1:T17 Arg2:T18	
+R29	WORKPLACE Arg1:T37 Arg2:T36	
+R30	LOCATED_IN Arg1:T36 Arg2:T32	
+R31	ALTERNATIVE_NAME Arg1:T36 Arg2:T18	
+R32	ALTERNATIVE_NAME Arg1:T27 Arg2:T18	
+R33	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R34	HEADQUARTERED_IN Arg1:T6 Arg2:T24	
+R35	HEADQUARTERED_IN Arg1:T25 Arg2:T24	
+R36	ALTERNATIVE_NAME Arg1:T10 Arg2:T14	
+N2	Reference T2 Wikidata:Q4158549	Департамент образования города Москвы
+N3	Reference T3 Wikidata:Q1837906	мэр Москвы
+N4	Reference T4 Wikidata:Q319497	Сергей Семёнович Собянин
+N9	Reference T19 Wikidata:Q821172	РИА Новости
+N10	Reference T21 Wikidata:Q30185	мэр
+N11	Reference T22 Wikidata:Q156379	Юрий Михайлович Лужков
+N15	Reference T28 Wikidata:Q382887	чиновник
+N17	Reference T30 Wikidata:Q1669860	Басманный район
+N19	Reference T17 Wikidata:Q190412	Центральный административный округ Москвы
+N20	Reference T18 Wikidata:Q649	Москва
+N12	Reference T23 Wikidata:Q649	Москва
+N5	Reference T5 Wikidata:NULL	нет данных
+N1	Reference T1 Wikidata:NULL	нет данных
+N13	Reference T25 Wikidata:Q3339281	Правительство Москвы
+N6	Reference T12 Wikidata:NULL	нет данных
+N14	Reference T26 Wikidata:NULL	нет данных
+N16	Reference T29 Wikidata:NULL	нет данных
+N8	Reference T16 Wikidata:NULL	нет данных
+N18	Reference T31 Wikidata:NULL	нет данных
+N21	Reference T32 Wikidata:Q159	Россия
+N22	Reference T37 Wikidata:Q1837906	мэр Москвы
+N23	Reference T10 Wikidata:NULL	нет данных
+N7	Reference T15 Wikidata:NULL	нет данных
+N24	Reference T9 Wikidata:Q821172	РИА Новости
+N25	Reference T33 Wikidata:Q30185	мэр
+N26	Reference T36 Wikidata:Q649	Москва
+N27	Reference T27 Wikidata:Q649	Москва
+N28	Reference T24 Wikidata:Q649	Москва
+N29	Reference T6 Wikidata:NULL	нет данных
+N30	Reference T20 Wikidata:NULL	нет данных
+N31	Reference T7 Wikidata:NULL	нет данных
+N32	Reference T14 Wikidata:NULL	нет данных

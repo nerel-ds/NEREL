@@ -1,0 +1,227 @@
+T1	NATIONALITY 7 15	немецкой
+T2	COUNTRY 28 33	Ираке
+T3	DATE 34 54	В пятницу, 25 ноября
+T4	LOCATION 59 71	севере Ирака
+T5	STATE_OR_PROVINCE 85 91	Нинава
+T6	STATE_OR_PROVINCE 93 99	Ninawa
+T7	COUNTRY 150 158	Германии
+T8	PERSON 159 174	Сюзанна Остхофф
+T9	PERSON 176 191	Susanne Osthoff
+T10	NATIONALITY 229 237	иракский
+T12	ORGANIZATION 321 324	АРД
+T13	ORGANIZATION 326 329	ARD
+T14	DATE 331 344	в понедельник
+T15	DATE 354 363	28 ноября
+T16	ORGANIZATION 408 421	правительство
+T17	COUNTRY 465 473	иракским
+T18	NUMBER 551 555	один
+T19	ORGANIZATION 611 614	АРД
+T20	PERSON 617 632	Сюзанна Остхофф
+T21	COUNTRY 644 649	Ираке
+T22	DATE 650 661	с 1991 года
+T23	NATIONALITY 735 744	иорданцем
+T24	COUNTRY 748 753	Ираке
+T25	COUNTRY 881 886	Ирака
+T26	PERSON 888 903	Сюзанна Остхофф
+T27	COUNTRY 946 952	Турции
+T28	COUNTRY 956 961	Сирии
+T29	COUNTRY 965 973	Иордании
+T30	COUNTRY 977 982	Ираке
+T31	COUNTRY 987 993	Йемене
+T32	DATE 1000 1015	летом 2005 года
+T33	CITY 1110 1115	Мосул
+T34	CITY 1117 1123	Mossul
+T35	FACILITY 1152 1179	культурного центра Германии
+T36	COUNTRY 1171 1179	Германии
+T37	CITY 1184 1190	Мосула
+T38	CITY 1204 1210	Багдад
+T39	COUNTRY 1227 1239	американских
+T40	DATE 1248 1257	В октябре
+T41	COUNTRY 1307 1315	Немецкое
+T42	CITY 1329 1336	Багдаде
+T43	COUNTRY 1360 1364	Ирак
+T44	PERSON 1366 1381	Сюзанна Остхофф
+T45	COUNTRY 1442 1447	Ираке
+T46	COUNTRY 1541 1546	Ираке
+T47	COUNTRY 1593 1598	Ираке
+T48	DATE 1662 1700	С мая 2003 года по 27 ноября 2005 года
+T49	COUNTRY 1703 1708	Ираке
+T50	NUMBER 1724 1727	242
+T51	NUMBER 1759 1761	43
+T52	NUMBER 1785 1787	73
+T53	COUNTRY 1812 1820	Германия
+T54	COUNTRY 1863 1868	Ираке
+T55	COUNTRY 1888 1893	Ираке
+T56	COUNTRY 1899 1907	Германия
+T57	COUNTRY 1926 1934	иранских
+T58	ORGANIZATION 1968 1996	Министерство иностранных дел
+T59	PERSON 2080 2095	Сюзанны Остхофф
+T61	PERSON 2352 2367	Сюзанна Остхофф
+T62	PERSON 2369 2384	Susanne Osthoff
+T63	DATE 2401 2405	1962
+T64	CITY 2407 2413	Мюнхен
+T65	COUNTRY 66 71	Ирака
+T66	EVENT 107 116	захвачена
+T67	EVENT 119 139	объявлена заложником
+T68	EVENT 211 219	захвачен
+T69	PROFESSION 238 243	шофёр
+T11	TIME 346 363	вечером 28 ноября
+T70	ORGANIZATION 408 430	правительство Германии
+T71	COUNTRY 422 430	Германии
+T72	ORGANIZATION 465 488	иракским правительством
+T73	ORGANIZATION 474 488	правительством
+T74	LANGUAGE 687 695	арабском
+T75	RELIGION 711 716	ислам
+T76	PERSON 754 768	Сюзанна Остхоф
+T77	PERSON 1016 1031	Сюзанна Остхофф
+T78	PROFESSION 1227 1246	американских солдат
+T79	PROFESSION 1240 1246	солдат
+T80	PERSON 1258 1273	Сюзанна Остхофф
+T81	ORGANIZATION 1307 1326	Немецкое посольство
+T82	EVENT 1714 1723	захвачено
+T83	EVENT 1767 1772	убиты
+T84	COUNTRY 1857 1860	США
+T85	PROFESSION 1935 1946	полицейских
+T86	PROFESSION 1926 1946	иранских полицейских
+T87	PROFESSION 2110 2161	Представитель министерства иностранных дел Германии
+T88	PROFESSION 2101 2107	шофёра
+T89	PROFESSION 2465 2473	археолог
+T90	ORGANIZATION 1968 2005	Министерство иностранных дел Германии
+T91	COUNTRY 1997 2005	Германии
+T60	ORGANIZATION 2124 2161	министерства иностранных дел Германии
+T92	ORGANIZATION 2124 2152	министерства иностранных дел
+T93	COUNTRY 2153 2161	Германии
+T94	LANGUAGE 2437 2446	семитские
+R1	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R2	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R3	ALTERNATIVE_NAME Arg1:T12 Arg2:T13	
+R4	HEADQUARTERED_IN Arg1:T72 Arg2:T17	
+R5	HEADQUARTERED_IN Arg1:T70 Arg2:T71	
+R6	KNOWS Arg1:T20 Arg2:T74	
+R7	RELIGION_OF Arg1:T20 Arg2:T75	
+R8	ALTERNATIVE_NAME Arg1:T33 Arg2:T34	
+R9	HEADQUARTERED_IN Arg1:T90 Arg2:T91	
+R10	WORKPLACE Arg1:T87 Arg2:T60	
+R11	ALTERNATIVE_NAME Arg1:T61 Arg2:T62	
+R12	HEADQUARTERED_IN Arg1:T60 Arg2:T93	
+R13	KNOWS Arg1:T61 Arg2:T94	
+R14	DATE_OF_BIRTH Arg1:T61 Arg2:T63	
+R15	PLACE_OF_BIRTH Arg1:T61 Arg2:T64	
+R16	WORKS_AS Arg1:T61 Arg2:T89	
+T95	EVENT 0 25	Захват немецкой заложницы
+R17	TAKES_PLACE_IN Arg1:T95 Arg2:T2	
+R18	LOCATED_IN Arg1:T4 Arg2:T65	
+R19	LOCATED_IN Arg1:T5 Arg2:T4	
+T96	NATIONALITY 140 158	гражданка Германии
+R20	ORIGINS_FROM Arg1:T96 Arg2:T7	
+R21	ORIGINS_FROM Arg1:T8 Arg2:T96	
+R22	PARTICIPANT_IN Arg1:T8 Arg2:T66	
+R23	PARTICIPANT_IN Arg1:T8 Arg2:T67	
+R24	TAKES_PLACE_IN Arg1:T66 Arg2:T5	
+R25	ALTERNATIVE_NAME Arg1:T95 Arg2:T66	
+R26	ORIGINS_FROM Arg1:T66 Arg2:T3	
+R27	ORIGINS_FROM Arg1:T69 Arg2:T10	
+R28	PARTICIPANT_IN Arg1:T69 Arg2:T68	
+R29	TAKES_PLACE_IN Arg1:T68 Arg2:T5	
+R30	ORIGINS_FROM Arg1:T10 Arg2:T65	
+R31	POINT_IN_TIME Arg1:T68 Arg2:T3	
+T97	PROFESSION 278 324	сотруднику немецкого телевизионного канала АРД
+R32	WORKPLACE Arg1:T97 Arg2:T12	
+T98	COUNTRY 289 298	немецкого
+R33	ALTERNATIVE_NAME Arg1:T7 Arg2:T98	
+R34	HEADQUARTERED_IN Arg1:T12 Arg2:T98	
+R35	WORKPLACE Arg1:T20 Arg2:T21	
+R36	PLACE_RESIDES_IN Arg1:T76 Arg2:T24	
+R37	HEADQUARTERED_IN Arg1:T81 Arg2:T42	
+R38	OWNER_OF Arg1:T41 Arg2:T81	
+T99	CRIME 2312 2326	вымогательства
+R39	ORIGINS_FROM Arg1:T78 Arg2:T39	
+R40	OWNER_OF Arg1:T36 Arg2:T35	
+R41	PARTICIPANT_IN Arg1:T1 Arg2:T95	
+R42	WORKPLACE Arg1:T26 Arg2:T27	
+R43	WORKPLACE Arg1:T26 Arg2:T28	
+R44	WORKPLACE Arg1:T26 Arg2:T29	
+R45	WORKPLACE Arg1:T26 Arg2:T30	
+R46	WORKPLACE Arg1:T26 Arg2:T31	
+R47	LOCATED_IN Arg1:T33 Arg2:T24	
+R48	WORKPLACE Arg1:T86 Arg2:T57	
+N6	Reference T13 Wikidata:Q49653	ARD
+N7	Reference T16 Wikidata:Q7188	правительство
+N11	Reference T27 Wikidata:Q43	Турция
+N12	Reference T28 Wikidata:Q858	Сирия
+N13	Reference T29 Wikidata:Q810	Иордания
+N14	Reference T31 Wikidata:Q805	Йемен
+N16	Reference T37 Wikidata:Q83317	Мосул
+N18	Reference T42 Wikidata:Q1530	Багдад
+N19	Reference T45 Wikidata:Q796	Ирак
+N20	Reference T58 Wikidata:Q20901295	Министерство иностранных дел
+N21	Reference T64 Wikidata:Q1726	Мюнхен
+N22	Reference T69 Wikidata:Q216541	водитель
+N25	Reference T74 Wikidata:Q13955	арабский язык
+N26	Reference T75 Wikidata:Q432	ислам
+N29	Reference T79 Wikidata:Q4427668	Солдаты
+N31	Reference T84 Wikidata:Q30	США
+N35	Reference T89 Wikidata:Q3621491	археолог
+N36	Reference T90 Wikidata:Q56034	Министерство иностранных дел Германии
+N37	Reference T91 Wikidata:Q183	Германия
+N38	Reference T94 Wikidata:Q34049	семитские языки
+N1	Reference T1 Wikidata:Q42884	немцы
+N2	Reference T4 Wikidata:NULL	нет данных
+N3	Reference T5 Wikidata:Q189352	
+N39	Reference T96 Wikidata:Q42884	немцы
+N4	Reference T8 Wikidata:Q96823	
+N5	Reference T10 Wikidata:Q1567862	
+N40	Reference T97 Wikidata:NULL	нет данных
+N23	Reference T70 Wikidata:Q313827	Федеральное правительство Германии
+N8	Reference T17 Wikidata:Q796	Ирак
+N24	Reference T72 Wikidata:Q4118391	
+N9	Reference T23 Wikidata:Q4202824	
+N27	Reference T76 Wikidata:Q96823	
+N10	Reference T26 Wikidata:Q96823	
+N15	Reference T35 Wikidata:NULL	нет данных
+N17	Reference T39 Wikidata:Q30	США
+N28	Reference T78 Wikidata:NULL	нет данных
+N30	Reference T81 Wikidata:Q58644340	
+N41	Reference T57 Wikidata:Q794	Иран
+N32	Reference T85 Wikidata:Q384593	
+N33	Reference T86 Wikidata:NULL	нет данных
+N34	Reference T87 Wikidata:NULL	нет данных
+N42	Reference T12 Wikidata:Q49653	ARD
+N43	Reference T19 Wikidata:Q49653	ARD
+N44	Reference T73 Wikidata:Q7188	правительство
+N45	Reference T34 Wikidata:Q83317	Мосул
+N46	Reference T33 Wikidata:Q83317	Мосул
+N47	Reference T38 Wikidata:Q1530	Багдад
+N48	Reference T55 Wikidata:Q796	Ирак
+N49	Reference T46 Wikidata:Q796	Ирак
+N50	Reference T24 Wikidata:Q796	Ирак
+N51	Reference T25 Wikidata:Q796	Ирак
+N52	Reference T49 Wikidata:Q796	Ирак
+N53	Reference T65 Wikidata:Q796	Ирак
+N54	Reference T47 Wikidata:Q796	Ирак
+N55	Reference T54 Wikidata:Q796	Ирак
+N56	Reference T43 Wikidata:Q796	Ирак
+N57	Reference T2 Wikidata:Q796	Ирак
+N58	Reference T21 Wikidata:Q796	Ирак
+N59	Reference T30 Wikidata:Q796	Ирак
+N60	Reference T92 Wikidata:Q20901295	Министерство иностранных дел
+N61	Reference T88 Wikidata:Q216541	водитель
+N62	Reference T60 Wikidata:Q56034	Министерство иностранных дел Германии
+N63	Reference T41 Wikidata:Q183	Германия
+N64	Reference T36 Wikidata:Q183	Германия
+N65	Reference T56 Wikidata:Q183	Германия
+N66	Reference T53 Wikidata:Q183	Германия
+N67	Reference T7 Wikidata:Q183	Германия
+N68	Reference T93 Wikidata:Q183	Германия
+N69	Reference T98 Wikidata:Q183	Германия
+N70	Reference T71 Wikidata:Q183	Германия
+N71	Reference T6 Wikidata:Q189352	
+N72	Reference T9 Wikidata:Q96823	
+N73	Reference T44 Wikidata:Q96823	
+N74	Reference T20 Wikidata:Q96823	
+N75	Reference T59 Wikidata:Q96823	
+N76	Reference T62 Wikidata:Q96823	
+N77	Reference T80 Wikidata:Q96823	
+N78	Reference T77 Wikidata:Q96823	
+N79	Reference T61 Wikidata:Q96823	
+R49	RELATIVE Arg1:T20 Arg2:T23	

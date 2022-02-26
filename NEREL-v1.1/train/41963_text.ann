@@ -1,0 +1,86 @@
+T1	PERSON 0 14	Владимир Путин
+T2	PERSON 25 42	Владимира Машкова
+T3	AGE 45 54	50-летним
+T4	PERSON 63 78	Владимир Машков
+T5	EVENT 89 125	Одесском международном кинофестивале
+T6	PERSON 126 140	Владимир Путин
+T7	PERSON 151 168	Владимира Машкова
+T8	AGE 171 180	50-летним
+T9	PROFESSION 220 230	Президента
+T10	PERSON 569 586	Владимира Машкова
+T12	PERSON 609 621	Олег Табаков
+T13	PERSON 768 791	Владимир Львович Машков
+T14	NATIONALITY 794 803	советский
+T15	NATIONALITY 806 816	российский
+T16	AWARD 838 856	Заслуженный артист
+T17	AWARD 891 906	Народный артист
+T19	ORGANIZATION 1005 1018	Единая Россия
+T21	EVENT 1029 1046	XII Съезда Партии
+R1	PARTICIPANT_IN Arg1:T4 Arg2:T5	
+R2	KNOWS Arg1:T1 Arg2:T2	
+R3	AGE_IS Arg1:T2 Arg2:T3	
+R4	AGE_IS Arg1:T7 Arg2:T8	
+R5	KNOWS Arg1:T6 Arg2:T7	
+R6	KNOWS Arg1:T10 Arg2:T12	
+T22	PROFESSION 817 836	актёр театра и кино
+T23	PROFESSION 817 822	актёр
+T24	COUNTRY 857 877	Российской Федерации
+T25	COUNTRY 907 927	Российской Федерации
+R7	MEMBER_OF Arg1:T13 Arg2:T19	
+R8	ORIGINS_FROM Arg1:T13 Arg2:T14	
+R9	ORIGINS_FROM Arg1:T13 Arg2:T15	
+R10	WORKS_AS Arg1:T13 Arg2:T22	
+T18	AWARD 838 877	Заслуженный артист Российской Федерации
+T26	DATE 878 889	c 1996 года
+T27	DATE 928 939	c 2010 года
+T28	AWARD 891 927	Народный артист Российской Федерации
+R11	PARTICIPANT_IN Arg1:T13 Arg2:T21	
+T11	ORDINAL 82 88	Первом
+T20	CITY 89 97	Одесском
+R12	TAKES_PLACE_IN Arg1:T5 Arg2:T20	
+R13	WORKS_AS Arg1:T6 Arg2:T9	
+R14	ORGANIZES Arg1:T19 Arg2:T21	
+R15	LOCATED_IN Arg1:T4 Arg2:T20	
+R16	ALTERNATIVE_NAME Arg1:T10 Arg2:T13	
+R17	ORIGINS_FROM Arg1:T22 Arg2:T15	
+R18	ORIGINS_FROM Arg1:T22 Arg2:T14	
+R19	ORIGINS_FROM Arg1:T18 Arg2:T24	
+R20	AWARDED_WITH Arg1:T13 Arg2:T18	
+R21	ORIGINS_FROM Arg1:T28 Arg2:T25	
+R22	AWARDED_WITH Arg1:T13 Arg2:T18	
+R23	AWARDED_WITH Arg1:T13 Arg2:T28	
+R24	POINT_IN_TIME Arg1:T18 Arg2:T26	
+R25	POINT_IN_TIME Arg1:T28 Arg2:T27	
+T29	EVENT 15 24	поздравил
+R26	AGENT Arg1:T1 Arg2:T29	
+R27	PARTICIPANT_IN Arg1:T2 Arg2:T29	
+T30	EVENT 141 150	поздравил
+R28	PARTICIPANT_IN Arg1:T6 Arg2:T30	
+R29	PARTICIPANT_IN Arg1:T7 Arg2:T30	
+T31	PROFESSION 850 856	артист
+R30	WORKS_AS Arg1:T13 Arg2:T31	
+T32	COUNTRY 1012 1018	Россия
+R31	HEADQUARTERED_IN Arg1:T19 Arg2:T32	
+N1	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N2	Reference T9 Wikidata:Q30461	президент
+N3	Reference T10 Wikidata:Q1081714	Владимир Львович Машков
+N4	Reference T12 Wikidata:Q466139	Олег Павлович Табаков
+N7	Reference T16 Wikidata:Q4187924	Заслуженный артист
+N8	Reference T17 Wikidata:Q1208997	народный артист
+N9	Reference T19 Wikidata:Q151469	Единая Россия
+N10	Reference T23 Wikidata:Q33999	актёр
+N11	Reference T24 Wikidata:Q159	Россия
+N12	Reference T18 Wikidata:Q458903	Заслуженный артист Российской Федерации
+N13	Reference T28 Wikidata:Q1857712	Народный артист Российской Федерации
+N15	Reference T31 Wikidata:Q483501	деятель искусств
+N16	Reference T32 Wikidata:Q159	Россия
+N14	Reference T20 Wikidata:Q1874	Одесса
+N17	Reference T22 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q492468	россияне
+N5	Reference T14 Wikidata:Q1633149	
+N18	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N19	Reference T4 Wikidata:Q1081714	Владимир Львович Машков
+N20	Reference T13 Wikidata:Q1081714	Владимир Львович Машков
+N21	Reference T7 Wikidata:Q1081714	Владимир Львович Машков
+N22	Reference T2 Wikidata:Q1081714	Владимир Львович Машков
+N23	Reference T25 Wikidata:Q159	Россия

@@ -1,0 +1,78 @@
+T1	ORGANIZATION 0 7	Госдума
+T3	DATE 83 100	7 марта 2019 года
+T4	ORGANIZATION 110 117	Госдумы
+T5	ORDINAL 128 135	третьем
+T6	LAW 143 168	закон о фейковых новостях
+T7	NUMBER 170 173	322
+T8	NUMBER 182 184	78
+T9	ORGANIZATION 203 215	Роскомнадзор
+T11	ORDINAL 555 560	13.15
+T12	CRIME 562 606	Злоупотребление свободой массовой информации
+T13	LAW 620 634	частью 13.15.9
+T14	PERSON 658 671	Андрей Клишас
+T16	ORGANIZATION 679 760	комитета Совета Федерации по конституционному законодательству и госстроительству
+T17	PERSON 762 776	Людмила Бокова
+T21	PROFESSION 806 813	депутат
+T22	PERSON 814 828	Дмитрий Вяткин
+T23	PRODUCT 55 64	интернете
+T24	LAW 16 64	закон о блокировке фейковых новостей в интернете
+T2	PROFESSION 101 109	депутаты
+T26	PROFESSION 101 117	депутаты Госдумы
+T28	PRODUCT 225 233	Интернет
+T29	PRODUCT 323 331	интернет
+T10	LAW 547 560	КоАП РФ 13.15
+T30	LAW 547 551	КоАП
+T31	COUNTRY 552 554	РФ
+T32	ORDINAL 627 634	13.15.9
+T15	ORGANIZATION 688 704	Совета Федерации
+T19	PERSON 797 804	Клишасa
+T20	LAW 547 554	КоАП РФ
+R2	PRODUCES Arg1:T1 Arg2:T24	
+R3	WORKPLACE Arg1:T26 Arg2:T4	
+R5	PRODUCES Arg1:T26 Arg2:T6	
+R6	ALTERNATIVE_NAME Arg1:T24 Arg2:T6	
+T33	PROFESSION 673 760	глава комитета Совета Федерации по конституционному законодательству и госстроительству
+R7	WORKPLACE Arg1:T33 Arg2:T16	
+R8	WORKS_AS Arg1:T14 Arg2:T33	
+R9	WORKPLACE Arg1:T14 Arg2:T16	
+T34	PROFESSION 778 804	первый заместитель Клишасa
+R10	SUBORDINATE_OF Arg1:T17 Arg2:T19	
+R11	WORKS_AS Arg1:T17 Arg2:T34	
+R12	WORKS_AS Arg1:T22 Arg2:T21	
+T25	EVENT 8 21	приняла закон
+R1	AGENT Arg1:T1 Arg2:T25	
+T27	EVENT 118 142	приняли в третьем чтении
+R4	POINT_IN_TIME Arg1:T27 Arg2:T3	
+R13	PARTICIPANT_IN Arg1:T26 Arg2:T27	
+R14	ALTERNATIVE_NAME Arg1:T6 Arg2:T13	
+R15	ORIGINS_FROM Arg1:T20 Arg2:T31	
+R16	PART_OF Arg1:T16 Arg2:T15	
+R17	INANIMATE_INVOLVED Arg1:T24 Arg2:T25	
+R18	INANIMATE_INVOLVED Arg1:T6 Arg2:T27	
+R19	PART_OF Arg1:T10 Arg2:T20	
+R20	SUBORDINATE_OF Arg1:T34 Arg2:T19	
+N1	Reference T4 Wikidata:Q715641	Государственная дума
+N2	Reference T9 Wikidata:Q129597	Роскомнадзор
+N5	Reference T14 Wikidata:Q4223993	Клишас, Андрей Александрович
+N6	Reference T17 Wikidata:Q18337942	Бокова, Людмила Николаевна
+N7	Reference T21 Wikidata:Q486839	член парламента
+N8	Reference T22 Wikidata:Q28497318	Дмитрий Фёдорович Вяткин
+N9	Reference T23 Wikidata:Q75	Интернет
+N11	Reference T31 Wikidata:Q159	Россия
+N12	Reference T15 Wikidata:Q186473	Совет Федерации
+N13	Reference T19 Wikidata:Q4223993	Клишас, Андрей Александрович
+N16	Reference T26 Wikidata:NULL	нет данных
+N17	Reference T30 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N14	Reference T20 Wikidata:Q4226135	Кодекс Российской Федерации об административных правонарушениях
+N10	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T13 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:NULL	нет данных
+N18	Reference T16 Wikidata:NULL	нет данных
+N19	Reference T33 Wikidata:NULL	нет данных
+N15	Reference T34 Wikidata:NULL	нет данных
+N20	Reference T1 Wikidata:Q715641	Государственная дума
+N21	Reference T2 Wikidata:Q486839	член парламента
+N22	Reference T28 Wikidata:Q75	Интернет
+N23	Reference T29 Wikidata:Q75	Интернет
+N24	Reference T6 Wikidata:NULL	нет данных
+N25	Reference T24 Wikidata:NULL	нет данных

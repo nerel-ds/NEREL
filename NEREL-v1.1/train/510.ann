@@ -1,0 +1,237 @@
+T2	PERSON 0 10	Д.Медведев
+T3	PROFESSION 28 51	замсекретаря Совбеза РФ
+T5	PERSON 52 65	Ю.Балуевского
+T6	PROFESSION 67 83	Президент России
+T7	PERSON 84 100	Дмитрий Медведев
+T8	PERSON 111 127	Юрия Балуевского
+T9	PROFESSION 141 180	замсекретаря Совета безопасности России
+T10	DATE 302 310	9 января
+T11	DATE 319 330	в этот день
+T13	PERSON 331 344	Ю.Балуевскому
+T14	AGE 357 363	65 лет
+T15	COUNTRY 375 386	российскому
+T16	AGE 476 482	60 лет
+T17	AGE 517 523	65 лет
+T20	DATE 608 622	9 января 1947г
+T21	CITY 633 642	Трускавец
+T22	STATE_OR_PROVINCE 643 660	Львовской области
+T23	COUNTRY 661 668	Украины
+T24	DATE 670 677	В 1970г
+T25	ORGANIZATION 687 722	Ленинградское общевойсковое училище
+T26	DATE 724 731	в 1980г
+T27	ORGANIZATION 735 764	Военную академию имени Фрунзе
+T28	DATE 766 773	в 1990г
+T29	ORGANIZATION 777 823	Военную академию генштаба Вооруженных сил СССР
+T30	DATE 826 839	19 июля 2004г
+T31	PROFESSION 848 858	президента
+T32	PERSON 859 871	Ю.Балуевский
+T33	PROFESSION 885 934	начальником Генерального штаба Вооруженных сил РФ
+T34	COUNTRY 932 934	РФ
+T35	PROFESSION 937 973	первым заместителем Министра обороны
+T36	DATE 976 988	3 июня 2008г
+T37	PROFESSION 1014 1043	начальника Генерального штаба
+T38	PROFESSION 1055 1118	заместителем секретаря Совета безопасности Российской Федерации
+T39	PROFESSION 1140 1153	генерал армии
+T40	PERSON 1154 1163	Н.Макаров
+T41	DATE 1166 1182	С сентября 2004г
+T42	DATE 1184 1197	по июнь 2008г
+T43	PROFESSION 1216 1263	членом Совета безопасности Российской Федерации
+T44	AWARD 1413 1440	За заслуги перед Отечеством
+T45	COUNTRY 1505 1507	РФ
+T47	COUNTRY 1693 1695	РФ
+T50	PERSON 1797 1812	Юрий Балуевский
+T51	NUMBER 1826 1830	двух
+T1	ORGANIZATION 41 51	Совбеза РФ
+T52	COUNTRY 49 51	РФ
+T4	COUNTRY 77 83	России
+T53	ORGANIZATION 154 180	Совета безопасности России
+T54	COUNTRY 174 180	России
+T55	PROFESSION 275 292	глава государства
+T12	PERSON 587 599	Ю.Балуевский
+T18	CITY 687 700	Ленинградское
+T19	PERSON 758 764	Фрунзе
+T56	ORGANIZATION 794 823	генштаба Вооруженных сил СССР
+T57	COUNTRY 819 823	СССР
+T58	ORGANIZATION 897 934	Генерального штаба Вооруженных сил РФ
+T59	ORGANIZATION 916 934	Вооруженных сил РФ
+T60	PROFESSION 957 973	Министра обороны
+T61	ORGANIZATION 1025 1043	Генерального штаба
+T62	PROFESSION 1068 1118	секретаря Совета безопасности Российской Федерации
+T63	ORGANIZATION 1078 1118	Совета безопасности Российской Федерации
+T64	COUNTRY 1098 1118	Российской Федерации
+T65	ORGANIZATION 1223 1263	Совета безопасности Российской Федерации
+T66	COUNTRY 1243 1263	Российской Федерации
+T67	AWARD 1288 1315	За заслуги перед Отечеством
+T46	AWARD 1552 1579	За заслуги перед Отечеством
+T68	AWARD 1600 1618	За военные заслуги
+T69	AWARD 1621 1633	орден Почета
+T48	AWARD 1740 1781	За службу Родине в Вооруженных Силах СССР
+T49	COUNTRY 1777 1781	СССР
+T70	EVENT 11 27	снял с должности
+R1	AGENT Arg1:T2 Arg2:T70	
+R2	WORKS_AS Arg1:T5 Arg2:T3	
+R3	WORKPLACE Arg1:T5 Arg2:T1	
+R4	WORKPLACE Arg1:T3 Arg2:T1	
+R5	HEADQUARTERED_IN Arg1:T1 Arg2:T52	
+R6	PARTICIPANT_IN Arg1:T5 Arg2:T70	
+T71	PROFESSION 67 76	Президент
+R7	WORKPLACE Arg1:T6 Arg2:T4	
+R8	WORKS_AS Arg1:T7 Arg2:T6	
+R9	WORKPLACE Arg1:T7 Arg2:T4	
+R10	ALTERNATIVE_NAME Arg1:T5 Arg2:T8	
+R11	ALTERNATIVE_NAME Arg1:T2 Arg2:T7	
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T53	
+T72	ORGANIZATION 41 48	Совбеза
+T73	ORGANIZATION 154 173	Совета безопасности
+R13	HEADQUARTERED_IN Arg1:T53 Arg2:T54	
+T74	EVENT 101 110	освободил
+R14	ABBREVIATION Arg1:T4 Arg2:T52	
+R15	WORKS_AS Arg1:T8 Arg2:T9	
+R16	WORKPLACE Arg1:T8 Arg2:T53	
+R17	ALTERNATIVE_NAME Arg1:T6 Arg2:T55	
+R18	AGE_IS Arg1:T13 Arg2:T14	
+R19	ALTERNATIVE_NAME Arg1:T8 Arg2:T13	
+T75	EVENT 270 274;293 301	Указ подписал
+R20	AGENT Arg1:T55 Arg2:T75	
+R21	POINT_IN_TIME Arg1:T75 Arg2:T10	
+R22	DATE_OF_BIRTH Arg1:T12 Arg2:T20	
+R23	PLACE_OF_BIRTH Arg1:T12 Arg2:T21	
+R24	LOCATED_IN Arg1:T21 Arg2:T22	
+R25	LOCATED_IN Arg1:T22 Arg2:T23	
+R26	SCHOOLS_ATTENDED Arg1:T12 Arg2:T27	
+R27	HEADQUARTERED_IN Arg1:T25 Arg2:T18	
+R28	SCHOOLS_ATTENDED Arg1:T12 Arg2:T29	
+T76	ORGANIZATION 803 818	Вооруженных сил
+R29	HEADQUARTERED_IN Arg1:T29 Arg2:T57	
+T77	EVENT 876 884	назначен
+R30	PARTICIPANT_IN Arg1:T32 Arg2:T77	
+R31	WORKS_AS Arg1:T32 Arg2:T33	
+R32	POINT_IN_TIME Arg1:T77 Arg2:T30	
+R33	WORKPLACE Arg1:T33 Arg2:T58	
+R34	WORKPLACE Arg1:T32 Arg2:T58	
+R35	WORKS_AS Arg1:T32 Arg2:T35	
+R36	SUBORDINATE_OF Arg1:T32 Arg2:T60	
+R37	SUBORDINATE_OF Arg1:T35 Arg2:T60	
+T78	AWARD 1287 1327	"За заслуги перед Отечеством" II степени
+R38	AWARDED_WITH Arg1:T32 Arg2:T78	
+T79	AWARD 1412 1453	"За заслуги перед Отечеством" III степени
+R39	AWARDED_WITH Arg1:T32 Arg2:T79	
+R40	AWARDED_WITH Arg1:T32 Arg2:T68	
+T80	AWARD 1551 1591	"За заслуги перед Отечеством" IV степени
+T81	ORGANIZATION 1759 1781	Вооруженных Силах СССР
+T82	ORGANIZATION 1759 1776	Вооруженных Силах
+T83	AWARD 1739 1794	"За службу Родине в Вооруженных Силах СССР" III степени
+R41	AWARDED_WITH Arg1:T32 Arg2:T83	
+R42	AWARDED_WITH Arg1:T13 Arg2:T80	
+R43	WORKS_AS Arg1:T40 Arg2:T39	
+T84	PROFESSION 1140 1147	генерал
+R44	AWARDED_WITH Arg1:T32 Arg2:T69	
+T85	EVENT 990 1013	освобожден от должности
+R45	PARTICIPANT_IN Arg1:T32 Arg2:T85	
+R46	WORKS_AS Arg1:T32 Arg2:T37	
+R47	WORKPLACE Arg1:T32 Arg2:T61	
+T86	EVENT 1046 1054	назначен
+R48	POINT_IN_TIME Arg1:T85 Arg2:T36	
+R49	POINT_IN_TIME Arg1:T86 Arg2:T36	
+R50	PARTICIPANT_IN Arg1:T32 Arg2:T86	
+R51	WORKS_AS Arg1:T32 Arg2:T38	
+R52	WORKPLACE Arg1:T32 Arg2:T63	
+R53	SUBORDINATE_OF Arg1:T38 Arg2:T62	
+T87	ORGANIZATION 1078 1097	Совета безопасности
+R54	WORKS_AS Arg1:T32 Arg2:T43	
+R55	WORKPLACE Arg1:T32 Arg2:T65	
+T88	ORGANIZATION 1223 1242	Совета безопасности
+R56	HEADQUARTERED_IN Arg1:T65 Arg2:T66	
+R57	WORKPLACE Arg1:T43 Arg2:T65	
+R58	WORKPLACE Arg1:T38 Arg2:T63	
+R59	WORKPLACE Arg1:T62 Arg2:T63	
+R60	HEADQUARTERED_IN Arg1:T63 Arg2:T64	
+R61	PARTICIPANT_IN Arg1:T1 Arg2:T70	
+R62	AGENT Arg1:T7 Arg2:T74	
+R63	ALTERNATIVE_NAME Arg1:T70 Arg2:T74	
+R64	PARTICIPANT_IN Arg1:T8 Arg2:T74	
+R65	PARTICIPANT_IN Arg1:T53 Arg2:T74	
+R66	HAS_CAUSE Arg1:T75 Arg2:T74	
+R67	ALTERNATIVE_NAME Arg1:T4 Arg2:T15	
+R68	SCHOOLS_ATTENDED Arg1:T12 Arg2:T25	
+R69	PARTICIPANT_IN Arg1:T58 Arg2:T77	
+R70	PARTICIPANT_IN Arg1:T61 Arg2:T85	
+R71	PARTICIPANT_IN Arg1:T63 Arg2:T86	
+R72	WORKS_AS Arg1:T40 Arg2:T37	
+R73	WORKPLACE Arg1:T40 Arg2:T61	
+R74	HEADQUARTERED_IN Arg1:T61 Arg2:T64	
+R75	ORIGINS_FROM Arg1:T79 Arg2:T45	
+R76	ORIGINS_FROM Arg1:T68 Arg2:T47	
+R77	ORIGINS_FROM Arg1:T69 Arg2:T47	
+R78	ORIGINS_FROM Arg1:T83 Arg2:T49	
+N3	Reference T7 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N4	Reference T9 Wikidata:Q159	Россия
+N5	Reference T21 Wikidata:Q157440	Трускавец
+N6	Reference T22 Wikidata:Q164193	Львовская область
+N7	Reference T23 Wikidata:Q212	Украина
+N8	Reference T25 Wikidata:Q4407751	Санкт-Петербургское высшее общевойсковое командное училище
+N9	Reference T27 Wikidata:Q14404494	Военная академия имени М. В. Фрунзе
+N10	Reference T29 Wikidata:Q1934911	Военная академия Генерального штаба Вооружённых сил Российской Федерации
+N11	Reference T33 Wikidata:Q4315169	Начальник Генерального штаба Вооружённых Сил Российской Федерации
+N13	Reference T37 Wikidata:Q1568142	Начальник Генерального штаба
+N14	Reference T39 Wikidata:Q2604857	генерал армии
+N16	Reference T52 Wikidata:Q159	Россия
+N18	Reference T55 Wikidata:Q48352	глава государства
+N20	Reference T19 Wikidata:Q191882	Михаил Васильевич Фрунзе
+N23	Reference T59 Wikidata:Q193159	Вооружённые силы Российской Федерации
+N24	Reference T60 Wikidata:Q2518691	министр обороны
+N25	Reference T61 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N26	Reference T64 Wikidata:Q159	Россия
+N27	Reference T65 Wikidata:Q672108	Совет безопасности Российской Федерации
+N28	Reference T46 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N29	Reference T68 Wikidata:Q94136	орден «За военные заслуги»
+N30	Reference T69 Wikidata:Q2268261	орден Почёта
+N31	Reference T48 Wikidata:Q655396	орден «За службу Родине в Вооружённых Силах СССР»
+N32	Reference T49 Wikidata:Q15180	СССР
+N33	Reference T71 Wikidata:Q30461	президент
+N36	Reference T78 Wikidata:Q18080429	орден «За заслуги перед Отечеством» II степени
+N37	Reference T79 Wikidata:Q18080427	орден «За заслуги перед Отечеством» III степени
+N38	Reference T80 Wikidata:Q18080423	орден «За заслуги перед Отечеством» IV степени
+N39	Reference T81 Wikidata:Q7915590	Вооружённые Силы СССР
+N40	Reference T82 Wikidata:Q772547	вооружённые силы
+N41	Reference T84 Wikidata:Q83460	генерал
+N1	Reference T3 Wikidata:NULL	нет данных
+N2	Reference T5 Wikidata:Q1423289	
+N35	Reference T73 Wikidata:Q672108	Совет безопасности Российской Федерации
+N17	Reference T53 Wikidata:Q672108	Совет безопасности Российской Федерации
+N34	Reference T72 Wikidata:Q672108	Совет безопасности Российской Федерации
+N19	Reference T18 Wikidata:Q656	Санкт-Петербург
+N22	Reference T58 Wikidata:Q2914820	Генеральный штаб Вооружённых сил Российской Федерации
+N12	Reference T35 Wikidata:NULL	нет данных
+N21	Reference T56 Wikidata:Q18405370	
+N42	Reference T38 Wikidata:NULL	нет данных
+N43	Reference T62 Wikidata:NULL	нет данных
+N15	Reference T40 Wikidata:Q581931	
+N44	Reference T43 Wikidata:NULL	нет данных
+N45	Reference T83 Wikidata:NULL	нет данных
+N46	Reference T2 Wikidata:Q23530	Дмитрий Анатольевич Медведев
+N47	Reference T4 Wikidata:Q159	Россия
+N48	Reference T45 Wikidata:Q159	Россия
+N49	Reference T47 Wikidata:Q159	Россия
+N50	Reference T15 Wikidata:Q159	Россия
+N51	Reference T34 Wikidata:Q159	Россия
+N52	Reference T54 Wikidata:Q159	Россия
+N53	Reference T6 Wikidata:Q48352	глава государства
+N54	Reference T66 Wikidata:Q159	Россия
+N55	Reference T63 Wikidata:Q672108	Совет безопасности Российской Федерации
+N56	Reference T67 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N57	Reference T44 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N58	Reference T57 Wikidata:Q15180	СССР
+N59	Reference T31 Wikidata:Q30461	президент
+N60	Reference T76 Wikidata:Q772547	вооружённые силы
+N61	Reference T13 Wikidata:Q1423289	
+N62	Reference T8 Wikidata:Q1423289	
+N63	Reference T12 Wikidata:Q1423289	
+N64	Reference T32 Wikidata:Q1423289	
+N65	Reference T50 Wikidata:Q1423289	
+N66	Reference T87 Wikidata:Q672108	Совет безопасности Российской Федерации
+N67	Reference T88 Wikidata:Q672108	Совет безопасности Российской Федерации
+N68	Reference T1 Wikidata:Q672108	Совет безопасности Российской Федерации
+T89	EVENT 600 607	родился
+R79	PARTICIPANT_IN Arg1:T12 Arg2:T89	
+R80	POINT_IN_TIME Arg1:T89 Arg2:T20	

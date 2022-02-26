@@ -1,0 +1,252 @@
+T1	COUNTRY 0 5	Литва
+T2	AGE 16 25	100-летие
+T3	COUNTRY 46 51	Литвы
+T4	DATE 52 83	В пятницу, 16 февраля 2018 года
+T5	COUNTRY 85 90	Литва
+T6	AGE 101 110	100-летие
+T7	PROFESSION 358 368	президента
+T8	COUNTRY 369 374	Литвы
+T9	PERSON 375 392	Дали Грибаускайте
+T10	COUNTRY 471 476	Литвы
+T11	PROFESSION 501 510	президент
+T12	COUNTRY 511 519	Германии
+T13	PERSON 520 544	Франк-Вальтер Штайнмайер
+T14	PROFESSION 546 555	президент
+T15	COUNTRY 556 562	Латвии
+T16	PERSON 563 578	Раймонд Вейонис
+T17	PROFESSION 580 589	президент
+T18	COUNTRY 590 597	Эстонии
+T19	PERSON 598 614	Керсти Кальюлайд
+T20	PROFESSION 616 625	президент
+T21	COUNTRY 626 634	Исландии
+T22	PERSON 635 654	Гвюдни Йоуханнессон
+T23	PROFESSION 656 665	президент
+T24	COUNTRY 666 673	Украины
+T25	PERSON 674 688	Пётр Порошенко
+T26	PROFESSION 690 699	президент
+T27	COUNTRY 700 706	Грузии
+T28	PERSON 707 728	Георгий Маргвелашвили
+T29	PROFESSION 730 742	председатель
+T30	ORGANIZATION 743 762	Европейского совета
+T31	PERSON 763 775	Дональд Туск
+T32	PROFESSION 777 789	председатель
+T33	ORGANIZATION 790 810	Европейской комиссии
+T34	PERSON 811 825	Жан-Клод Юнкер
+T36	COUNTRY 867 873	Швеции
+T37	COUNTRY 876 881	Дании
+T38	COUNTRY 904 909	Литвы
+T39	DATE 910 930	16 февраля 1918 года
+T40	CITY 933 939	Вильно
+T41	COUNTRY 940 949	Литовская
+T42	ORGANIZATION 950 956	Тариба
+T44	COUNTRY 964 969	Литвы
+T45	PERSON 993 1012	Йонаса Басанавичюса
+T46	COUNTRY 1064 1080	Советской России
+T47	COUNTRY 1112 1117	Литвы
+T48	NUMBER 1147 1149	20
+T50	DATE 1167 1177	16 февраля
+T51	COUNTRY 1249 1254	Литвы
+T53	DATE 1268 1276	8 января
+T54	EVENT 1293 1316	Вильнюсской конференции
+T55	COUNTRY 1339 1344	Литвы
+T56	DATE 1345 1357	от 1918 года
+T57	DATE 1383 1394	в 1990 году
+T58	COUNTRY 1455 1459	СССР
+T59	COUNTRY 1468 1473	Литвы
+T60	DATE 1565 1584	с 1918 по 1940 года
+T61	EVENT 91 100	празднует
+T62	EVENT 6 15	празднует
+T63	EVENT 163 172	торжества
+T64	EVENT 174 181	шествия
+T65	EVENT 183 190	гуляния
+T67	DATE 238 246	со среды
+T68	DATE 248 255	Сегодня
+T69	EVENT 323 346	официальные мероприятия
+T70	PROFESSION 358 374	президента Литвы
+T71	AGE 424 434	столетнего
+T72	PROFESSION 501 519	президент Германии
+T73	EVENT 477 484	прибыли
+T74	PROFESSION 546 562	президент Латвии
+T75	PROFESSION 580 597	президент Эстонии
+T76	PROFESSION 616 634	президент Исландии
+T77	PROFESSION 656 673	президент Украины
+T78	PROFESSION 690 706	президент Грузии
+T79	PROFESSION 730 762	председатель Европейского совета
+T80	PROFESSION 777 810	председатель Европейской комиссии
+T35	ORGANIZATION 940 956	Литовская Тариба
+T43	ORGANIZATION 958 969	Совет Литвы
+T81	ORGANIZATION 958 963	Совет
+T82	EVENT 1013 1040	провозгласила независимость
+T83	LAW 884 909	Акт о независимости Литвы
+T84	LAW 1092 1117	Акт о независимости Литвы
+T85	EVENT 1132 1140	подписан
+T49	LAW 1163 1177	Акт 16 февраля
+T52	LAW 1264 1276	Акт 8 января
+T87	LAW 1319 1344	Акт о независимости Литвы
+T88	EVENT 1401 1444	провозглашения восстановления независимости
+T89	LAW 1588 1607	Акт о независимости
+T90	CITY 1293 1304	Вильнюсской
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T62	
+T91	EVENT 111 145	обретения независимости республики
+R2	AGE_IS Arg1:T91 Arg2:T6	
+R3	PARTICIPANT_IN Arg1:T5 Arg2:T61	
+R4	PARTICIPANT_IN Arg1:T5 Arg2:T91	
+R5	POINT_IN_TIME Arg1:T61 Arg2:T4	
+R6	SUBEVENT_OF Arg1:T63 Arg2:T61	
+R7	SUBEVENT_OF Arg1:T64 Arg2:T61	
+R8	SUBEVENT_OF Arg1:T65 Arg2:T61	
+R9	DATE_FOUNDED_IN Arg1:T63 Arg2:T67	
+R10	DATE_FOUNDED_IN Arg1:T64 Arg2:T67	
+R11	DATE_FOUNDED_IN Arg1:T65 Arg2:T67	
+T66	EVENT 289 301	празднования
+R13	POINT_IN_TIME Arg1:T69 Arg2:T68	
+R12	SUBEVENT_OF Arg1:T69 Arg2:T66	
+R14	PARTICIPANT_IN Arg1:T9 Arg2:T69	
+R15	WORKPLACE Arg1:T70 Arg2:T8	
+R16	WORKPLACE Arg1:T9 Arg2:T8	
+R17	WORKS_AS Arg1:T9 Arg2:T70	
+T92	EVENT 411 423	празднование
+T93	EVENT 435 476	юбилея восстановления независимости Литвы
+R18	AGE_IS Arg1:T93 Arg2:T71	
+R19	PARTICIPANT_IN Arg1:T10 Arg2:T93	
+R20	SUBEVENT_OF Arg1:T73 Arg2:T92	
+R21	WORKPLACE Arg1:T72 Arg2:T12	
+R22	WORKPLACE Arg1:T13 Arg2:T12	
+R23	WORKS_AS Arg1:T13 Arg2:T72	
+R24	WORKPLACE Arg1:T74 Arg2:T15	
+R25	WORKPLACE Arg1:T16 Arg2:T15	
+R26	WORKS_AS Arg1:T16 Arg2:T74	
+R27	WORKPLACE Arg1:T75 Arg2:T18	
+R28	WORKPLACE Arg1:T19 Arg2:T18	
+R29	WORKS_AS Arg1:T19 Arg2:T75	
+R30	WORKPLACE Arg1:T76 Arg2:T21	
+R31	WORKPLACE Arg1:T22 Arg2:T21	
+R32	WORKS_AS Arg1:T22 Arg2:T76	
+R33	WORKPLACE Arg1:T77 Arg2:T24	
+R34	WORKPLACE Arg1:T25 Arg2:T24	
+R35	WORKS_AS Arg1:T25 Arg2:T77	
+R36	WORKPLACE Arg1:T78 Arg2:T27	
+R37	WORKS_AS Arg1:T28 Arg2:T78	
+R38	WORKPLACE Arg1:T28 Arg2:T27	
+R39	WORKPLACE Arg1:T79 Arg2:T30	
+R40	WORKPLACE Arg1:T31 Arg2:T30	
+R41	WORKS_AS Arg1:T31 Arg2:T79	
+T94	LOCATION 743 755	Европейского
+R42	HEADQUARTERED_IN Arg1:T30 Arg2:T94	
+T95	LOCATION 790 801	Европейской
+R43	LOCATED_IN Arg1:T33 Arg2:T95	
+R44	WORKS_AS Arg1:T34 Arg2:T80	
+R45	WORKPLACE Arg1:T34 Arg2:T33	
+R46	ALTERNATIVE_NAME Arg1:T91 Arg2:T93	
+R47	ALTERNATIVE_NAME Arg1:T38 Arg2:T41	
+R48	LOCATED_IN Arg1:T40 Arg2:T38	
+R49	POINT_IN_TIME Arg1:T82 Arg2:T39	
+R50	TAKES_PLACE_IN Arg1:T82 Arg2:T40	
+R51	AGENT Arg1:T35 Arg2:T82	
+R52	ALTERNATIVE_NAME Arg1:T35 Arg2:T43	
+R53	HEADQUARTERED_IN Arg1:T35 Arg2:T41	
+R54	HEADQUARTERED_IN Arg1:T43 Arg2:T44	
+R55	WORKPLACE Arg1:T45 Arg2:T43	
+R56	WORKPLACE Arg1:T45 Arg2:T44	
+T86	EVENT 1083 1091	подписав
+R57	POINT_IN_TIME Arg1:T86 Arg2:T39	
+R58	TAKES_PLACE_IN Arg1:T86 Arg2:T40	
+R59	AGENT Arg1:T35 Arg2:T86	
+T96	PROFESSION 1150 1160	делегатами
+R60	AGENT Arg1:T96 Arg2:T85	
+R61	DATE_OF_CREATION Arg1:T49 Arg2:T50	
+R62	DATE_OF_CREATION Arg1:T52 Arg2:T53	
+R63	TAKES_PLACE_IN Arg1:T54 Arg2:T90	
+R64	DATE_OF_CREATION Arg1:T87 Arg2:T56	
+R65	POINT_IN_TIME Arg1:T88 Arg2:T57	
+R66	PARTICIPANT_IN Arg1:T58 Arg2:T88	
+R67	PARTICIPANT_IN Arg1:T46 Arg2:T82	
+T97	ORGANIZATION 1461 1473	Власти Литвы
+R68	HEADQUARTERED_IN Arg1:T97 Arg2:T59	
+R69	HAS_CAUSE Arg1:T61 Arg2:T91	
+R70	AGENT Arg1:T13 Arg2:T73	
+R71	AGENT Arg1:T16 Arg2:T73	
+R72	AGENT Arg1:T19 Arg2:T73	
+R73	AGENT Arg1:T22 Arg2:T73	
+R74	AGENT Arg1:T25 Arg2:T73	
+R75	AGENT Arg1:T28 Arg2:T73	
+R76	AGENT Arg1:T31 Arg2:T73	
+R77	AGENT Arg1:T34 Arg2:T73	
+R78	INANIMATE_INVOLVED Arg1:T84 Arg2:T85	
+R79	ORIGINS_FROM Arg1:T49 Arg2:T51	
+R80	ORIGINS_FROM Arg1:T52 Arg2:T51	
+R81	ORIGINS_FROM Arg1:T87 Arg2:T55	
+R82	AGENT Arg1:T55 Arg2:T88	
+R83	ALTERNATIVE_NAME Arg1:T89 Arg2:T59	
+R84	INANIMATE_INVOLVED Arg1:T84 Arg2:T86	
+R85	ORIGINS_FROM Arg1:T84 Arg2:T47	
+R86	ALTERNATIVE_NAME Arg1:T86 Arg2:T85	
+R87	MEMBER_OF Arg1:T96 Arg2:T43	
+N1	Reference T1 Wikidata:Q37	Литва
+N2	Reference T9 Wikidata:Q57379	Даля Грибаускайте
+N3	Reference T12 Wikidata:Q183	Германия
+N4	Reference T13 Wikidata:Q76658	Франк Вальтер Штайнмайер
+N5	Reference T15 Wikidata:Q211	Латвия
+N6	Reference T16 Wikidata:Q2416022	Раймондс Вейонис
+N7	Reference T17 Wikidata:Q30461	президент
+N8	Reference T18 Wikidata:Q191	Эстония
+N9	Reference T19 Wikidata:Q12366816	Керсти Кальюлайд
+N10	Reference T21 Wikidata:Q189	Исландия
+N11	Reference T22 Wikidata:Q292994	Олафур Йоханнессон
+N12	Reference T24 Wikidata:Q212	Украина
+N13	Reference T25 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N14	Reference T27 Wikidata:Q230	Грузия
+N15	Reference T28 Wikidata:Q13107337	Георгий Маргвелашвили
+N16	Reference T29 Wikidata:Q140686	председатель
+N17	Reference T30 Wikidata:Q8886	Европейский совет
+N18	Reference T31 Wikidata:Q946	Дональд Туск
+N19	Reference T33 Wikidata:Q8880	Европейская комиссия
+N20	Reference T34 Wikidata:Q57661	Жан-Клод Юнкер
+N21	Reference T36 Wikidata:Q34	Швеция
+N22	Reference T37 Wikidata:Q35	Дания
+N23	Reference T40 Wikidata:Q216	Вильнюс
+N24	Reference T45 Wikidata:Q363949	Йонас Басанавичюс
+N25	Reference T46 Wikidata:Q2305208	РСФСР
+N26	Reference T58 Wikidata:Q15180	СССР
+N27	Reference T70 Wikidata:Q878222	президент Литовской Республики
+N28	Reference T72 Wikidata:Q25223	федеральный президент Германии
+N29	Reference T74 Wikidata:Q218014	Президенты Латвии
+N30	Reference T75 Wikidata:Q890005	президент Эстонской Республики
+N31	Reference T76 Wikidata:Q19188924	президент Исландии
+N32	Reference T77 Wikidata:Q579677	президент Украины
+N33	Reference T78 Wikidata:Q843405	президент Грузии
+N34	Reference T79 Wikidata:Q735587	председатель Европейского совета
+N35	Reference T80 Wikidata:Q8882	председатель Европейской комиссии
+N38	Reference T83 Wikidata:Q166981	Акт о независимости Литвы
+N41	Reference T89 Wikidata:Q166981	Акт о независимости Литвы
+N43	Reference T94 Wikidata:Q46	Европа
+N36	Reference T35 Wikidata:Q1515658	
+N45	Reference T42 Wikidata:Q1515658	
+N37	Reference T81 Wikidata:Q211201	
+N46	Reference T96 Wikidata:NULL	нет данных
+N39	Reference T49 Wikidata:Q166981	Акт о независимости Литвы
+N40	Reference T52 Wikidata:NULL	нет данных
+N42	Reference T90 Wikidata:Q216	Вильнюс
+N44	Reference T97 Wikidata:NULL	нет данных
+N47	Reference T55 Wikidata:Q37	Литва
+N48	Reference T44 Wikidata:Q37	Литва
+N49	Reference T10 Wikidata:Q37	Литва
+N50	Reference T5 Wikidata:Q37	Литва
+N51	Reference T51 Wikidata:Q37	Литва
+N52	Reference T38 Wikidata:Q37	Литва
+N53	Reference T8 Wikidata:Q37	Литва
+N54	Reference T59 Wikidata:Q37	Литва
+N55	Reference T47 Wikidata:Q37	Литва
+N56	Reference T3 Wikidata:Q37	Литва
+N57	Reference T41 Wikidata:Q37	Литва
+N58	Reference T20 Wikidata:Q30461	президент
+N59	Reference T23 Wikidata:Q30461	президент
+N60	Reference T14 Wikidata:Q30461	президент
+N61	Reference T7 Wikidata:Q30461	президент
+N62	Reference T11 Wikidata:Q30461	президент
+N63	Reference T26 Wikidata:Q30461	президент
+N64	Reference T32 Wikidata:Q140686	председатель
+N65	Reference T87 Wikidata:Q166981	Акт о независимости Литвы
+N66	Reference T84 Wikidata:Q166981	Акт о независимости Литвы
+N67	Reference T95 Wikidata:Q46	Европа
+N68	Reference T43 Wikidata:Q1515658	

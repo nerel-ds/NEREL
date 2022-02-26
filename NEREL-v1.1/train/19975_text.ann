@@ -1,0 +1,136 @@
+T1	PROFESSION 0 7	Депутат
+T2	DATE 58 77	8 октября 2012 года
+T3	CITY 80 91	Харьковском
+T4	FACILITY 80 140	Харьковском национальном академическом театре оперы и балета
+T6	EVENT 151 158	концерт
+T7	EVENT 172 183	Дню учителя
+T8	EVENT 185 192	Концерт
+T9	ORGANIZATION 213 221	Пересвет
+T10	DISTRICT 247 265	Московского района
+T11	NUMBER 300 320	около полутора тысяч
+T12	DATE 329 338	5 октября
+T13	PROFESSION 414 430	городской голова
+T14	PERSON 431 446	Геннадий Кернес
+T15	PROFESSION 449 465	народный депутат
+T16	PERSON 474 488	Дмитрий Святаш
+T17	PROFESSION 507 519	глава города
+T18	DISTRICT 570 588	Московского района
+T19	ORGANIZATION 609 623	Минобразования
+T20	ORGANIZATION 967 975	Пересвет
+T21	PERSON 1036 1050	Ильи  Ноябрева
+T22	PERSON 1140 1155	Дмитрия Святаша
+T23	PROFESSION 1178 1185	Депутат
+T24	ORGANIZATION 1335 1346	KievBigBand
+T25	PRODUCT 1502 1509	YouTube
+T26	EVENT 1515 1527	День учителя
+T27	COUNTRY 1589 1596	Украине
+T28	PERSON 1693 1707	Дмитрий Святаш
+T29	EVENT 1818 1830	День учителя
+T30	DATE 2049 2058	22 апреля
+T31	DATE 2062 2076	следующем году
+T33	DATE 2157 2167	каждый год
+T34	PROFESSION 0 23	Депутат Партии регионов
+T35	ORGANIZATION 8 23	Партии регионов
+T36	PERSON 24 30	Святаш
+T5	PROFESSION 227 241	преподавателей
+T37	PROFESSION 394 402	учителей
+T38	PROFESSION 449 473	народный депутат Украины
+T40	PROFESSION 458 465	депутат
+T41	COUNTRY 466 473	Украины
+T42	PROFESSION 491 504	Парламентарий
+T43	PROFESSION 729 738	гимнастов
+T44	PROFESSION 719 738	воздушных гимнастов
+T45	PROFESSION 740 750	вокалистов
+T46	PROFESSION 804 813	артистами
+T47	PROFESSION 820 830	педагогами
+T48	EVENT 1000 1009	праздника
+T49	EVENT 1169 1176	концерт
+T51	EVENT 1455 1463	концерта
+T52	PROFESSION 1655 1663	учителем
+T53	PROFESSION 1713 1720	Учителя
+T54	PROFESSION 1874 1882	учителям
+T55	ORGANIZATION 1977 1993	среднюю школу №1
+T56	NUMBER 1991 1993	№1
+T32	NUMBER 2083 2085	25
+T57	PROFESSION 2135 2144	учителями
+R1	TAKES_PLACE_IN Arg1:T6 Arg2:T4	
+R2	HAS_CAUSE Arg1:T6 Arg2:T7	
+R3	LOCATED_IN Arg1:T4 Arg2:T3	
+R4	POINT_IN_TIME Arg1:T6 Arg2:T2	
+R5	ORGANIZES Arg1:T9 Arg2:T8	
+R6	LOCATED_IN Arg1:T10 Arg2:T3	
+R7	MEMBER_OF Arg1:T36 Arg2:T35	
+R8	WORKS_AS Arg1:T36 Arg2:T34	
+R9	WORKS_AS Arg1:T14 Arg2:T13	
+R10	WORKPLACE Arg1:T14 Arg2:T3	
+R11	WORKS_AS Arg1:T16 Arg2:T38	
+R12	ORIGINS_FROM Arg1:T16 Arg2:T41	
+R13	WORKS_AS Arg1:T16 Arg2:T42	
+R14	ALTERNATIVE_NAME Arg1:T13 Arg2:T17	
+R15	WORKS_AS Arg1:T14 Arg2:T17	
+T39	AWARD 589 623	почетными грамотами Минобразования
+R16	PRODUCES Arg1:T19 Arg2:T39	
+R17	PARTICIPANT_IN Arg1:T22 Arg2:T49	
+T50	AWARD 589 608	почетными грамотами
+R18	WORKPLACE Arg1:T38 Arg2:T41	
+T58	PROFESSION 227 246	преподавателей школ
+T59	EVENT 681 694	лазерному шоу
+R19	SUBEVENT_OF Arg1:T59 Arg2:T8	
+R20	PARTICIPANT_IN Arg1:T44 Arg2:T8	
+R21	PARTICIPANT_IN Arg1:T45 Arg2:T8	
+R22	PARTICIPANT_IN Arg1:T21 Arg2:T8	
+R23	WORKS_AS Arg1:T22 Arg2:T23	
+R24	SCHOOLS_ATTENDED Arg1:T28 Arg2:T55	
+T60	DATE 2038 2048	каждый год
+R25	MEMBER_OF Arg1:T34 Arg2:T35	
+R26	WORKPLACE Arg1:T58 Arg2:T10	
+T61	CITY 247 258	Московского
+R27	PARTICIPANT_IN Arg1:T58 Arg2:T8	
+T62	CITY 570 581	Московского
+T63	EVENT 1119 1139	джазовое выступление
+R28	AGENT Arg1:T22 Arg2:T63	
+R29	SUBEVENT_OF Arg1:T63 Arg2:T49	
+N2	Reference T4 Wikidata:Q4496333	Харьковский национальный академический театр оперы и балета имени Н. В. Лысенко
+N4	Reference T13 Wikidata:Q4145633	городской голова
+N5	Reference T14 Wikidata:Q4219653	Геннадий Адольфович Кернес
+N6	Reference T16 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N9	Reference T21 Wikidata:Q4327855	Илья Ноябрёв
+N10	Reference T22 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N11	Reference T25 Wikidata:Q866	YouTube
+N12	Reference T27 Wikidata:Q212	Украина
+N14	Reference T35 Wikidata:Q4266	Партия регионов
+N15	Reference T36 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N16	Reference T5 Wikidata:Q37226	учитель
+N17	Reference T38 Wikidata:Q12132454	народный депутат Украины
+N18	Reference T40 Wikidata:Q486839	член парламента
+N19	Reference T42 Wikidata:Q486839	член парламента
+N20	Reference T45 Wikidata:Q2643890	вокалист
+N21	Reference T46 Wikidata:Q483501	деятель искусств
+N22	Reference T47 Wikidata:Q37226	учитель
+N23	Reference T52 Wikidata:Q37226	учитель
+N13	Reference T34 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:Q42308	Харьков
+N3	Reference T9 Wikidata:NULL	нет данных
+N28	Reference T58 Wikidata:Q37226	учитель
+N29	Reference T15 Wikidata:Q1055894	
+N27	Reference T62 Wikidata:Q649	Москва
+N7	Reference T18 Wikidata:Q4304270	Московский район
+N8	Reference T19 Wikidata:Q4294532	
+N26	Reference T50 Wikidata:Q39355398	
+N25	Reference T39 Wikidata:Q12142982	
+N30	Reference T43 Wikidata:Q16947675	
+N31	Reference T44 Wikidata:Q4688043	
+N32	Reference T24 Wikidata:NULL	нет данных
+N24	Reference T55 Wikidata:NULL	нет данных
+N33	Reference T17 Wikidata:Q4145633	городской голова
+N34	Reference T28 Wikidata:Q4411301	Дмитрий Владимирович Святаш
+N35	Reference T41 Wikidata:Q212	Украина
+N36	Reference T1 Wikidata:Q486839	член парламента
+N37	Reference T23 Wikidata:Q486839	член парламента
+N38	Reference T57 Wikidata:Q37226	учитель
+N39	Reference T53 Wikidata:Q37226	учитель
+N40	Reference T54 Wikidata:Q37226	учитель
+N41	Reference T37 Wikidata:Q37226	учитель
+N42	Reference T20 Wikidata:NULL	нет данных
+N43	Reference T61 Wikidata:Q649	Москва
+N44	Reference T10 Wikidata:Q4304270	Московский район

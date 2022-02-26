@@ -1,0 +1,57 @@
+T1	PERSON 0 10	Элтон Джон
+T2	PERSON 41 51	Элтон Джон
+T3	NATIONALITY 63 73	британский
+T4	PERSON 80 90	Элтон Джон
+T5	LOCATION 187 193	Европе
+T6	COUNTRY 207 217	британской
+T7	ORGANIZATION 225 228	Sun
+T8	DATE 245 272	в среду — 10 июля 2013 года
+T9	AGE 274 283	66-летний
+T10	DATE 619 629	Во вторник
+T11	CITY 653 663	лондонском
+T12	FACILITY 664 674	Гайд-парке
+T13	DATE 843 869	ближайшие несколько недель
+T14	PROFESSION 74 79	певец
+T15	DISEASE 134 145	аппендицита
+T16	EVENT 178 183	турне
+T17	PROFESSION 284 292	музыкант
+T18	PROFESSION 563 571	Музыкант
+T19	PERSON 630 634	Джон
+T21	DISEASE 772 780	абсцесса
+R1	ORIGINS_FROM Arg1:T14 Arg2:T3	
+R2	WORKS_AS Arg1:T4 Arg2:T14	
+R3	MEDICAL_CONDITION Arg1:T4 Arg2:T15	
+T22	EVENT 165 183	гастрольного турне
+R4	PARTICIPANT_IN Arg1:T4 Arg2:T22	
+R5	TAKES_PLACE_IN Arg1:T22 Arg2:T5	
+R6	HEADQUARTERED_IN Arg1:T7 Arg2:T6	
+R7	AGE_IS Arg1:T17 Arg2:T9	
+R8	ALTERNATIVE_NAME Arg1:T14 Arg2:T17	
+T23	EVENT 313 322	концертов
+R9	ALTERNATIVE_NAME Arg1:T22 Arg2:T23	
+R10	PARTICIPANT_IN Arg1:T17 Arg2:T23	
+T24	DISEASE 350 373	болью в брюшной полости
+R11	MEDICAL_CONDITION Arg1:T17 Arg2:T24	
+T25	DISEASE 404 423	пищевым отравлением
+R12	MEDICAL_CONDITION Arg1:T17 Arg2:T25	
+R14	ALTERNATIVE_NAME Arg1:T4 Arg2:T19	
+R15	LOCATED_IN Arg1:T12 Arg2:T11	
+T28	DATE 684 690	летние
+T29	DISEASE 744 769	воспалившегося аппендикса
+R22	MEDICAL_CONDITION Arg1:T19 Arg2:T21	
+T20	DISEASE 350 355	болью
+T26	DISEASE 412 423	отравлением
+N1	Reference T2 Wikidata:Q2808	Элтон Джон
+N3	Reference T5 Wikidata:Q46	Европа
+N7	Reference T12 Wikidata:Q123738	Гайд-парк
+N8	Reference T18 Wikidata:Q639669	музыкант
+N2	Reference T3 Wikidata:Q842438	британцы
+N4	Reference T6 Wikidata:Q145	Великобритания
+N5	Reference T7 Wikidata:Q208875	The Sun
+N6	Reference T11 Wikidata:Q84	Лондон
+N9	Reference T19 Wikidata:Q2808	Элтон Джон
+N10	Reference T4 Wikidata:Q2808	Элтон Джон
+N11	Reference T1 Wikidata:Q2808	Элтон Джон
+N12	Reference T14 Wikidata:Q639669	музыкант
+N13	Reference T17 Wikidata:Q639669	музыкант
+R13	MEDICAL_CONDITION Arg1:T19 Arg2:T29	

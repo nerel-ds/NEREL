@@ -1,0 +1,224 @@
+T1	COUNTRY 0 12	Американский
+T2	COUNTRY 41 52	Афганистане
+T3	STATE_OR_PROVINCE 86 92	Пактия
+T4	DATE 94 102	2009 год
+T5	COUNTRY 103 115	Американский
+T6	COUNTRY 152 161	афганской
+T7	STATE_OR_PROVINCE 172 178	Пактия
+T8	DATE 245 262	12 июля 2018 года
+T9	ORGANIZATION 275 292	пресс-служба НАТО
+T10	ORGANIZATION 288 292	НАТО
+T11	COUNTRY 307 316	афганский
+T12	COUNTRY 364 373	афганские
+T13	DISTRICT 447 453	Зурмат
+T14	DISTRICT 456 465	Ахмадабад
+T15	NUMBER 488 495	десятки
+T16	DATE 508 528	Спустя день, 13 июля
+T18	ORGANIZATION 530 550	Министерство обороны
+T19	AGE 579 588	32-летний
+T20	PERSON 597 612	Кристофер Селиз
+T21	PERSON 614 634	Christopher A. Celiz
+T22	STATE_OR_PROVINCE 639 653	Южной Каролины
+T23	DISTRICT 740 746	Зурмат
+T24	STATE_OR_PROVINCE 757 763	Пактия
+T25	DATE 851 862	с 2007 года
+T26	COUNTRY 885 890	Ираке
+T27	DATE 892 903	С 2013 года
+T28	ORDINAL 913 917	75-м
+T32	PERSON 1111 1128	Забиулла Муджахид
+T33	DATE 1129 1136	12 июля
+T34	NUMBER 1165 1173	более 80
+T35	STATE_OR_PROVINCE 1199 1205	Кундуз
+T36	STATE_OR_PROVINCE 1208 1214	Пактия
+T37	ORGANIZATION 1217 1224	Талибан
+T38	COUNTRY 1252 1261	афганских
+T39	NUMBER 1273 1281	десятках
+T40	STATE_OR_PROVINCE 1305 1311	Пактии
+T41	DATE 1314 1321	13 июля
+T42	DISTRICT 1369 1375	Зурмат
+T43	COUNTRY 1377 1389	американские
+T44	NUMBER 1423 1431	более 40
+T45	NUMBER 1476 1478	15
+T46	DATE 1591 1598	14 июля
+T47	ORGANIZATION 1607 1615	Талибана
+T48	PRODUCT 1627 1635	твиттере
+T49	NATIONALITY 1651 1661	американца
+T50	DISTRICT 1711 1717	Зурмат
+T51	NUMBER 1727 1735	более 20
+T52	ORDINAL 1846 1855	четвёртый
+T53	COUNTRY 1870 1882	американских
+T54	COUNTRY 1893 1904	Афганистане
+T55	DATE 1905 1918	с начала года
+T56	EVENT 1951 1963	саммита НАТО
+T57	PROFESSION 13 21	рейнджер
+T58	PROFESSION 0 21	Американский рейнджер
+T60	PROFESSION 53 73	Американские солдаты
+T61	PROFESSION 66 73	солдаты
+T62	COUNTRY 53 65	Американские
+T63	PROFESSION 103 122	Американский солдат
+T64	PROFESSION 116 122	солдат
+T65	EVENT 144 149	погиб
+T67	EVENT 301 306	погиб
+T68	PROFESSION 307 323	афганский солдат
+T69	PROFESSION 317 323	солдат
+T70	PROFESSION 496 504	боевиков
+T71	PROFESSION 589 596	сержант
+T72	EVENT 347 353	ранены
+T17	ORGANIZATION 530 554	Министерство обороны США
+T73	COUNTRY 551 554	США
+T75	EVENT 877 890	войне в Ираке
+T76	PROFESSION 924 934	рейнджеров
+T29	AWARD 1022 1042	За похвальную службу
+T30	AWARD 1046 1063	Бронзовой звездой
+T77	AWARD 1068 1085	Пурпурным сердцем
+T31	ORGANIZATION 1103 1110	талибов
+T78	PRODUCT 1147 1155	твиттере
+T79	EVENT 1158 1164	гибели
+T80	IDEOLOGY 1291 1301	муджахидах
+T81	LANGUAGE 1322 1334	англоязычный
+T82	ORGANIZATION 1340 1347	талибов
+T83	EVENT 1417 1422	убили
+T84	PROFESSION 1599 1615	спикер «Талибана
+T85	PROFESSION 1599 1605	спикер
+T86	PROFESSION 1883 1890	военных
+T87	PROFESSION 1870 1890	американских военных
+T88	EVENT 1951 1958	саммита
+T89	ORGANIZATION 1959 1963	НАТО
+R1	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
+R2	ORIGINS_FROM Arg1:T20 Arg2:T22	
+R3	LOCATED_IN Arg1:T23 Arg2:T24	
+R4	TAKES_PLACE_IN Arg1:T75 Arg2:T26	
+R5	ORIGINS_FROM Arg1:T63 Arg2:T5	
+R6	ORIGINS_FROM Arg1:T58 Arg2:T1	
+T90	EVENT 22 31	скончался
+R7	PARTICIPANT_IN Arg1:T58 Arg2:T90	
+R8	TAKES_PLACE_IN Arg1:T90 Arg2:T2	
+R9	ORIGINS_FROM Arg1:T60 Arg2:T62	
+R10	LOCATED_IN Arg1:T60 Arg2:T3	
+R11	LOCATED_IN Arg1:T7 Arg2:T6	
+R12	PARTICIPANT_IN Arg1:T63 Arg2:T65	
+R13	TAKES_PLACE_IN Arg1:T65 Arg2:T7	
+T91	DISEASE 35 38	ран
+R14	CAUSE_OF_DEATH Arg1:T58 Arg2:T91	
+R15	PLACE_OF_DEATH Arg1:T58 Arg2:T2	
+T92	DISEASE 193 196	ран
+R16	CAUSE_OF_DEATH Arg1:T63 Arg2:T92	
+R17	ALTERNATIVE_NAME Arg1:T58 Arg2:T63	
+R18	PLACE_OF_DEATH Arg1:T63 Arg2:T7	
+T93	EVENT 222 228	Смерть
+R19	ALTERNATIVE_NAME Arg1:T90 Arg2:T65	
+R20	ALTERNATIVE_NAME Arg1:T65 Arg2:T93	
+R21	PART_OF Arg1:T9 Arg2:T10	
+R22	ORIGINS_FROM Arg1:T68 Arg2:T11	
+T94	PROFESSION 229 244	военнослужащего
+R23	PARTICIPANT_IN Arg1:T94 Arg2:T93	
+T95	ORGANIZATION 364 380	афганские власти
+R24	HEADQUARTERED_IN Arg1:T95 Arg2:T12	
+R25	LOCATED_IN Arg1:T13 Arg2:T7	
+R26	LOCATED_IN Arg1:T14 Arg2:T7	
+T96	EVENT 481 486	убиты
+R27	ALTERNATIVE_NAME Arg1:T2 Arg2:T6	
+R28	WORKS_AS Arg1:T20 Arg2:T71	
+R29	AGE_IS Arg1:T20 Arg2:T19	
+R30	HEADQUARTERED_IN Arg1:T17 Arg2:T73	
+R31	PARTICIPANT_IN Arg1:T20 Arg2:T75	
+R32	AWARDED_WITH Arg1:T20 Arg2:T29	
+R33	AWARDED_WITH Arg1:T20 Arg2:T30	
+R34	AWARDED_WITH Arg1:T20 Arg2:T77	
+R35	WORKPLACE Arg1:T84 Arg2:T47	
+R36	ORGANIZES Arg1:T89 Arg2:T56	
+R37	ORIGINS_FROM Arg1:T87 Arg2:T53	
+T97	EVENT 1417 1446	убили более 40 мирных жителей
+T98	PROFESSION 1089 1110	Представитель талибов
+R38	WORKS_AS Arg1:T32 Arg2:T98	
+R39	WORKPLACE Arg1:T32 Arg2:T31	
+R40	ALTERNATIVE_NAME Arg1:T31 Arg2:T37	
+T99	EVENT 204 220	военной операции
+R41	TAKES_PLACE_IN Arg1:T99 Arg2:T7	
+R42	SUBEVENT_OF Arg1:T65 Arg2:T99	
+T100	EVENT 407 436	воздушных и наземных операций
+R43	ALTERNATIVE_NAME Arg1:T99 Arg2:T100	
+R44	TAKES_PLACE_IN Arg1:T100 Arg2:T13	
+R45	TAKES_PLACE_IN Arg1:T100 Arg2:T14	
+R46	PARTICIPANT_IN Arg1:T70 Arg2:T96	
+R47	SUBEVENT_OF Arg1:T96 Arg2:T100	
+R48	PARTICIPANT_IN Arg1:T20 Arg2:T93	
+T101	ORGANIZATION 913 934	75-м полку рейнджеров
+R49	WORKPLACE Arg1:T20 Arg2:T101	
+T102	EVENT 1158 1185	гибели более 80 противников
+R50	TAKES_PLACE_IN Arg1:T102 Arg2:T35	
+R51	TAKES_PLACE_IN Arg1:T102 Arg2:T36	
+T103	EVENT 1863 1869	гибели
+R52	TAKES_PLACE_IN Arg1:T103 Arg2:T54	
+T104	ORGANIZATION 1252 1269	афганских властей
+R53	HEADQUARTERED_IN Arg1:T104 Arg2:T38	
+R54	TAKES_PLACE_IN Arg1:T97 Arg2:T42	
+R55	PARTICIPANT_IN Arg1:T43 Arg2:T97	
+R56	HAS_CAUSE Arg1:T90 Arg2:T91	
+R57	HAS_CAUSE Arg1:T65 Arg2:T92	
+R58	PARTICIPANT_IN Arg1:T68 Arg2:T67	
+R59	START_TIME Arg1:T103 Arg2:T55	
+N7	Reference T22 Wikidata:Q1456	Южная Каролина
+N8	Reference T24 Wikidata:Q182493	Пактия
+N9	Reference T26 Wikidata:Q796	Ирак
+N10	Reference T35 Wikidata:Q186418	Кундуз
+N11	Reference T40 Wikidata:Q182493	Пактия
+N12	Reference T47 Wikidata:Q42418	Талибан
+N18	Reference T71 Wikidata:Q157696	сержант
+N19	Reference T17 Wikidata:Q11209	Министерство обороны США
+N20	Reference T73 Wikidata:Q30	США
+N22	Reference T29 Wikidata:Q1760530	медаль «За похвальную службу»
+N23	Reference T30 Wikidata:Q928314	Бронзовая звезда
+N24	Reference T77 Wikidata:Q145752	Пурпурное сердце
+N25	Reference T78 Wikidata:Q918	Твиттер
+N26	Reference T81 Wikidata:Q541576	Англосфера
+N29	Reference T86 Wikidata:Q47064	военнослужащий
+N31	Reference T89 Wikidata:Q7184	Организация Североатлантического договора
+N32	Reference T94 Wikidata:Q47064	военнослужащий
+N35	Reference T101 Wikidata:Q495203	75-й полк рейнджеров
+N14	Reference T58 Wikidata:Q1501784	
+N1	Reference T5 Wikidata:Q30	США
+N15	Reference T64 Wikidata:Q4991371	солдат
+N2	Reference T9 Wikidata:NULL	нет данных
+N16	Reference T68 Wikidata:NULL	нет данных
+N3	Reference T12 Wikidata:Q889	Афганистан
+N33	Reference T95 Wikidata:Q603838	
+N4	Reference T14 Wikidata:Q3918406	
+N17	Reference T70 Wikidata:NULL	нет данных
+N5	Reference T18 Wikidata:Q1788820	
+N6	Reference T21 Wikidata:NULL	нет данных
+N21	Reference T76 Wikidata:Q1501784	
+N34	Reference T98 Wikidata:NULL	нет данных
+N36	Reference T32 Wikidata:Q8063518	
+N37	Reference T42 Wikidata:Q2277263	
+N28	Reference T85 Wikidata:Q1758037	спикер
+N27	Reference T84 Wikidata:NULL	нет данных
+N13	Reference T49 Wikidata:Q846570	
+N30	Reference T87 Wikidata:NULL	нет данных
+N38	Reference T7 Wikidata:Q182493	Пактия
+N39	Reference T36 Wikidata:Q182493	Пактия
+N40	Reference T3 Wikidata:Q182493	Пактия
+N41	Reference T31 Wikidata:Q42418	Талибан
+N42	Reference T37 Wikidata:Q42418	Талибан
+N43	Reference T82 Wikidata:Q42418	Талибан
+N44	Reference T48 Wikidata:Q918	Твиттер
+N45	Reference T10 Wikidata:Q7184	Организация Североатлантического договора
+N46	Reference T63 Wikidata:Q1501784	
+N47	Reference T60 Wikidata:Q1501784	
+N48	Reference T53 Wikidata:Q30	США
+N49	Reference T62 Wikidata:Q30	США
+N50	Reference T43 Wikidata:Q30	США
+N51	Reference T1 Wikidata:Q30	США
+N52	Reference T69 Wikidata:Q4991371	солдат
+N53	Reference T61 Wikidata:Q4991371	солдат
+N54	Reference T38 Wikidata:Q889	Афганистан
+N55	Reference T11 Wikidata:Q889	Афганистан
+N56	Reference T54 Wikidata:Q889	Афганистан
+N57	Reference T2 Wikidata:Q889	Афганистан
+N58	Reference T6 Wikidata:Q889	Афганистан
+N59	Reference T104 Wikidata:Q603838	
+N60	Reference T20 Wikidata:NULL	нет данных
+N61	Reference T57 Wikidata:Q1501784	
+N62	Reference T13 Wikidata:Q2277263	
+N63	Reference T50 Wikidata:Q2277263	
+N64	Reference T23 Wikidata:Q2277263	

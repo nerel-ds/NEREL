@@ -1,0 +1,113 @@
+T1	STATE_OR_PROVINCE 2 7	Крыму
+T2	DATE 17 28	трёхдневный
+T3	CITY 71 76	Керчь
+T4	PROFESSION 94 115	Глава Республики Крым
+T5	PERSON 116 130	Сергей Аксёнов
+T6	DATE 139 150	трёхдневный
+T7	CITY 209 220	Керченского
+T8	ORGANIZATION 209 246	Керченского политехнического колледжа
+T9	CITY 338 348	Керченском
+T10	ORGANIZATION 338 373	Керченском политехническом колледже
+T11	NUMBER 469 471	10
+T12	NUMBER 485 487	50
+T13	STATE_OR_PROVINCE 518 523	Крыму
+T14	DATE 557 568	трёхдневный
+T15	ORGANIZATION 688 726	Керченского технологического техникума
+T16	TIME 777 801	приблизительно в полдень
+T17	NUMBER 813 816	два
+T18	CITY 879 890	Керченского
+T19	ORGANIZATION 879 917	Керченского технологического техникума
+T20	NUMBER 948 950	13
+T21	NUMBER 960 962	40
+T22	CITY 996 1001	Керчи
+T23	AGE 1221 1230	20–25 лет
+T24	PRODUCT 1299 1307	Telegram
+T25	PERSON 1367 1385	Владислав Росляков
+T26	DATE 1386 1395	2000 года
+T27	ORDINAL 1430 1436	втором
+T28	NUMBER 1521 1525	один
+T29	EVENT 29 34	траур
+T30	EVENT 51 59	убийства
+T31	STATE_OR_PROVINCE 100 115	Республики Крым
+T33	EVENT 151 156	траур
+T34	EVENT 176 185	убийством
+T35	PROFESSION 197 246	сотрудников Керченского политехнического колледжа
+T36	EVENT 329 335	взрыве
+T38	EVENT 461 468	погибло
+T39	EVENT 474 484	пострадало
+T41	EVENT 569 574	траур
+T42	STATE_OR_PROVINCE 641 645	Крым
+T43	COUNTRY 646 652	Россия
+T44	CITY 688 699	Керченского
+T45	DATE 727 734	в среду
+T46	TIME 727 746	в среду около 11:45
+T47	EVENT 817 823	взрыва
+T48	EVENT 847 855	расстрел
+T49	PROFESSION 867 917	сотрудников Керченского технологического техникума
+T51	NUMBER 1169 1175	одного
+T52	CRIME 1349 1357	убийстве
+T53	EVENT 41 59	массового убийства
+T54	EVENT 167 194	массовым убийством учащихся
+R1	HEADQUARTERED_IN Arg1:T10 Arg2:T9	
+T55	EVENT 474 495	пострадало 50 человек
+R2	HEADQUARTERED_IN Arg1:T15 Arg2:T44	
+R3	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+T50	CRIME 1340 1357	массовом убийстве
+R4	DATE_OF_BIRTH Arg1:T25 Arg2:T26	
+R5	WORKPLACE Arg1:T49 Arg2:T19	
+R6	HEADQUARTERED_IN Arg1:T19 Arg2:T18	
+R7	CONVICTED_OF Arg1:T25 Arg2:T50	
+R8	AGE_IS Arg1:T25 Arg2:T23	
+T56	EVENT 1405 1426	найден застрелившимся
+R9	PARTICIPANT_IN Arg1:T25 Arg2:T56	
+R10	TAKES_PLACE_IN Arg1:T56 Arg2:T19	
+T57	EVENT 17 34	трёхдневный траур
+R11	TAKES_PLACE_IN Arg1:T57 Arg2:T1	
+R12	HAS_CAUSE Arg1:T57 Arg2:T53	
+R13	LOCATED_IN Arg1:T3 Arg2:T1	
+R14	WORKS_AS Arg1:T5 Arg2:T4	
+R15	WORKPLACE Arg1:T5 Arg2:T31	
+R16	ALTERNATIVE_NAME Arg1:T1 Arg2:T31	
+T32	EVENT 139 156	трёхдневный траур
+R17	ORGANIZES Arg1:T5 Arg2:T32	
+R18	HAS_CAUSE Arg1:T32 Arg2:T54	
+R19	TAKES_PLACE_IN Arg1:T54 Arg2:T8	
+R20	ALTERNATIVE_NAME Arg1:T3 Arg2:T7	
+R21	PARTICIPANT_IN Arg1:T35 Arg2:T54	
+R22	TAKES_PLACE_IN Arg1:T36 Arg2:T10	
+T37	EVENT 461 471	погибло 10
+T40	EVENT 557 574	трёхдневный траур
+R23	LOCATED_IN Arg1:T42 Arg2:T43	
+R24	SUBEVENT_OF Arg1:T37 Arg2:T36	
+R25	SUBEVENT_OF Arg1:T55 Arg2:T36	
+T58	EVENT 760 768	выстрелы
+R26	POINT_IN_TIME Arg1:T58 Arg2:T46	
+R27	TAKES_PLACE_IN Arg1:T58 Arg2:T15	
+R28	POINT_IN_TIME Arg1:T47 Arg2:T16	
+R29	TAKES_PLACE_IN Arg1:T47 Arg2:T15	
+T59	EVENT 847 864	расстрел учащихся
+R30	ALTERNATIVE_NAME Arg1:T54 Arg2:T59	
+R31	TAKES_PLACE_IN Arg1:T59 Arg2:T19	
+R32	PARTICIPANT_IN Arg1:T49 Arg2:T59	
+R33	TAKES_PLACE_IN Arg1:T53 Arg2:T1	
+N1	Reference T4 Wikidata:Q17562769	глава Республики Крым
+N2	Reference T5 Wikidata:Q15838823	Сергей Валерьевич Аксёнов
+N5	Reference T24 Wikidata:Q15616276	Telegram
+N8	Reference T43 Wikidata:Q159	Россия
+N10	Reference T35 Wikidata:NULL	нет данных
+N11	Reference T10 Wikidata:Q57420477	
+N7	Reference T42 Wikidata:Q15966495	Республика Крым
+N3	Reference T15 Wikidata:NULL	нет данных
+N9	Reference T49 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:Q157065	Керчь
+N6	Reference T25 Wikidata:Q58860743	
+N12	Reference T8 Wikidata:Q57420477	
+N13	Reference T13 Wikidata:Q15966495	Республика Крым
+N14	Reference T31 Wikidata:Q15966495	Республика Крым
+N15	Reference T1 Wikidata:Q15966495	Республика Крым
+N16	Reference T19 Wikidata:NULL	нет данных
+N17	Reference T44 Wikidata:Q157065	Керчь
+N18	Reference T22 Wikidata:Q157065	Керчь
+N19	Reference T7 Wikidata:Q157065	Керчь
+N20	Reference T9 Wikidata:Q157065	Керчь
+N21	Reference T3 Wikidata:Q157065	Керчь

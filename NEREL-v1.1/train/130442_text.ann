@@ -1,0 +1,216 @@
+T1	FACILITY 70 92	Арлингтонском кладбище
+T2	COUNTRY 95 98	США
+T3	DATE 100 104	2013
+T4	NATIONALITY 108 120	Сингапурский
+T5	ORGANIZATION 126 148	Исламского государства
+T6	ORGANIZATION 150 152	ИГ
+T7	COUNTRY 161 172	британского
+T8	DATE 254 265	23 сентября
+T9	LANGUAGE 280 290	английском
+T10	PERSON 361 371	Абу Укайль
+T11	COUNTRY 375 384	Сингапура
+T12	CITY 427 434	Лондоне
+T13	COUNTRY 453 461	Сингапур
+T14	PRODUCT 622 627	Апачи
+T15	COUNTRY 707 717	британской
+T16	PRODUCT 746 752	Apache
+T17	COUNTRY 755 766	Афганистане
+T18	ORGANIZATION 904 906	ИГ
+T19	TIME 954 976	три с половиной минуты
+T20	ORGANIZATION 1031 1033	ИГ
+T21	ORGANIZATION 1034 1042	Al-Hayat
+T22	ORGANIZATION 1064 1066	ИГ
+T23	COUNTRY 1070 1080	Филиппинах
+T24	DATE 1082 1086	2017
+T25	PERSON 1090 1100	Абу Укайль
+T26	COUNTRY 1180 1185	Сирии
+T27	COUNTRY 1187 1198	Афганистане
+T28	COUNTRY 1200 1206	Йемене
+T29	LOCATION 1208 1223	Западной Африке
+T30	LOCATION 1225 1239	Восточной Азии
+T31	COUNTRY 1242 1247	Ливии
+T32	LOCATION 1277 1291	Восточной Азии
+T33	PROFESSION 1300 1307	оратора
+T34	NUMBER 1321 1324	два
+T35	PERSON 1391 1401	Абу Укайль
+T36	ORGANIZATION 1576 1578	ИГ
+T37	COUNTRY 1602 1612	Филиппинах
+T38	COUNTRY 1631 1637	Италии
+T39	ORGANIZATION 1656 1693	Министерство внутренних дел Сингапура
+T40	AGE 1739 1748	39-летний
+T41	PERSON 1760 1788	Мегат Шахдан бин Абдул Самад
+T42	PERSON 1790 1819	Megat Shahdan bin Abdul Samad
+T43	DATE 1845 1856	в 2014 году
+T44	COUNTRY 1875 1880	Сирию
+T45	COUNTRY 1883 1895	Сингапурское
+T46	ORGANIZATION 1904 1921	The Straits Times
+T47	LOCATION 1942 1960	Юго-Восточной Азии
+T48	ORGANIZATION 1964 1966	ИГ
+T49	NUMBER 1987 1999	более тысячи
+T50	NUMBER 2021 2034	не менее двух
+T51	COUNTRY 2056 2065	Сингапуре
+T52	ORGANIZATION 2107 2109	ИГ
+T53	COUNTRY 1684 1693	Сингапура
+T54	IDEOLOGY 1588 1598	повстанцев
+T55	PROFESSION 1640 1653	папе Римскому
+T56	CITY 1645 1653	Римскому
+T57	WORK_OF_ART 1463 1478	Внутри халифата
+T58	WORK_OF_ART 1508 1545	Держите позиции и сохраняйте терпение
+T59	PROFESSION 1325 1330	бойца
+T60	RELIGION 1111 1120	мусульман
+T61	IDEOLOGY 1164 1176	крестоносцев
+T63	NATIONALITY 1749 1759	сингапурец
+T64	COUNTRY 2041 2052	сингапурцев
+T65	IDEOLOGY 801 820	Внутри халифата — 4
+T66	WORK_OF_ART 834 855	Послание тагуту Гарри
+T69	PERSON 692 697	Гарри
+T70	PROFESSION 686 691	принц
+T71	RELIGION 659 664	Аллах
+T72	PROFESSION 408 414	принца
+T73	DATE 462 479	в июне этого года
+T74	PRODUCT 244 253	интернете
+T76	PROFESSION 173 179	принца
+T77	PERSON 180 185	Гарри
+T78	STATE_OR_PROVINCE 186 195	Уэльского
+T79	PERSON 61 66	Гарри
+T80	PROFESSION 55 60	Принц
+T81	PROFESSION 0 7	Боец ИГ
+T82	ORGANIZATION 5 7	ИГ
+T83	PROFESSION 22 28	принца
+T84	PERSON 29 34	Гарри
+T88	PROFESSION 1267 1273	бойцов
+T89	PROFESSION 121 148	боец Исламского государства
+R1	WORKS_AS Arg1:T84 Arg2:T83	
+T90	ORGANIZATION 707 723	британской армии
+R2	HEADQUARTERED_IN Arg1:T90 Arg2:T15	
+R3	WORKS_AS Arg1:T79 Arg2:T80	
+R4	LOCATED_IN Arg1:T79 Arg2:T1	
+R5	LOCATED_IN Arg1:T1 Arg2:T2	
+R6	ALTERNATIVE_NAME Arg1:T5 Arg2:T6	
+R7	ORIGINS_FROM Arg1:T10 Arg2:T11	
+R8	WORKS_AS Arg1:T69 Arg2:T70	
+R9	WORKPLACE Arg1:T69 Arg2:T90	
+T75	ORGANIZATION 1656 1683	Министерство внутренних дел
+R10	ALTERNATIVE_NAME Arg1:T41 Arg2:T42	
+R11	ORIGINS_FROM Arg1:T41 Arg2:T63	
+R12	AGE_IS Arg1:T41 Arg2:T40	
+R13	AGE_IS Arg1:T63 Arg2:T40	
+R14	WORKPLACE Arg1:T81 Arg2:T82	
+R15	ORIGINS_FROM Arg1:T89 Arg2:T4	
+R16	WORKS_AS Arg1:T77 Arg2:T76	
+R17	WORKPLACE Arg1:T77 Arg2:T7	
+R18	ORIGINS_FROM Arg1:T76 Arg2:T7	
+R19	ALTERNATIVE_NAME Arg1:T81 Arg2:T89	
+R20	HEADQUARTERED_IN Arg1:T39 Arg2:T53	
+T62	WORK_OF_ART 858 887	A Message to The Taghut Harry
+R21	ALTERNATIVE_NAME Arg1:T66 Arg2:T62	
+R22	PART_OF Arg1:T21 Arg2:T20	
+R23	ORIGINS_FROM Arg1:T64 Arg2:T45	
+R24	HEADQUARTERED_IN Arg1:T46 Arg2:T45	
+R25	PLACE_RESIDES_IN Arg1:T55 Arg2:T56	
+T67	EVENT 417 434	теракте в Лондоне
+R26	TAKES_PLACE_IN Arg1:T67 Arg2:T12	
+R27	ALTERNATIVE_NAME Arg1:T14 Arg2:T16	
+R28	WORKS_AS Arg1:T10 Arg2:T89	
+R29	WORKPLACE Arg1:T10 Arg2:T5	
+R30	ORIGINS_FROM Arg1:T76 Arg2:T78	
+R31	ALTERNATIVE_NAME Arg1:T45 Arg2:T51	
+T68	PERSON 850 855	Гарри
+T85	PERSON 882 887	Harry
+R32	ALTERNATIVE_NAME Arg1:T68 Arg2:T85	
+T86	EVENT 1044 1047	Бои
+R33	TAKES_PLACE_IN Arg1:T86 Arg2:T23	
+R34	POINT_IN_TIME Arg1:T86 Arg2:T24	
+R35	PARTICIPANT_IN Arg1:T22 Arg2:T86	
+R36	RELIGION_OF Arg1:T25 Arg2:T60	
+T87	LOCATION 1217 1223	Африке
+R37	LOCATED_IN Arg1:T29 Arg2:T87	
+T91	LOCATION 1235 1239	Азии
+R38	LOCATED_IN Arg1:T30 Arg2:T91	
+T92	LOCATION 1287 1291	Азии
+R39	LOCATED_IN Arg1:T32 Arg2:T92	
+R40	ORIGINS_FROM Arg1:T54 Arg2:T37	
+T93	LOCATION 1956 1960	Азии
+R41	LOCATED_IN Arg1:T47 Arg2:T93	
+T94	RELIGION 126 136	Исламского
+R42	RELIGION_OF Arg1:T5 Arg2:T94	
+R43	RELIGION_OF Arg1:T89 Arg2:T94	
+N1	Reference T1 Wikidata:Q216344	Арлингтонское национальное кладбище
+N2	Reference T2 Wikidata:Q30	США
+N4	Reference T5 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N5	Reference T9 Wikidata:Q1860	английский язык
+N6	Reference T12 Wikidata:Q84	Лондон
+N11	Reference T26 Wikidata:Q858	Сирия
+N12	Reference T27 Wikidata:Q889	Афганистан
+N13	Reference T28 Wikidata:Q805	Йемен
+N14	Reference T29 Wikidata:Q4412	Западная Африка
+N15	Reference T30 Wikidata:Q27231	Восточная Азия
+N16	Reference T31 Wikidata:Q1016	Ливия
+N17	Reference T33 Wikidata:Q12859263	оратор
+N18	Reference T37 Wikidata:Q928	Филиппины
+N19	Reference T38 Wikidata:Q38	Италия
+N20	Reference T39 Wikidata:Q4294312	Министерство внутренних дел Сингапура
+N23	Reference T47 Wikidata:Q11708	Юго-Восточная Азия
+N24	Reference T55 Wikidata:Q19546	Папа Римский
+N28	Reference T59 Wikidata:Q1250916	воин
+N29	Reference T60 Wikidata:Q47740	мусульманин
+N30	Reference T71 Wikidata:Q234801	Аллах
+N31	Reference T74 Wikidata:Q75	Интернет
+N32	Reference T76 Wikidata:Q2747456	принц
+N34	Reference T79 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N39	Reference T87 Wikidata:Q15	Африка
+N40	Reference T93 Wikidata:Q48	Азия
+N36	Reference T81 Wikidata:NULL	нет данных
+N3	Reference T4 Wikidata:Q19840821	
+N41	Reference T94 Wikidata:Q432	ислам
+N33	Reference T78 Wikidata:Q25	Уэльс
+N7	Reference T15 Wikidata:Q145	Великобритания
+N42	Reference T90 Wikidata:Q222595	Британская армия
+N8	Reference T16 Wikidata:Q171468	
+N38	Reference T62 Wikidata:NULL	нет данных
+N9	Reference T21 Wikidata:Q285738	
+N10	Reference T25 Wikidata:NULL	нет данных
+N26	Reference T57 Wikidata:NULL	нет данных
+N27	Reference T58 Wikidata:NULL	нет данных
+N25	Reference T56 Wikidata:Q220	Рим
+N37	Reference T75 Wikidata:Q6589202	министерство внутренних дел
+N43	Reference T63 Wikidata:Q19840821	
+N44	Reference T42 Wikidata:NULL	нет данных
+N21	Reference T45 Wikidata:Q334	Сингапур
+N22	Reference T46 Wikidata:Q498921	
+N45	Reference T64 Wikidata:Q19840821	
+N46	Reference T22 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N47	Reference T36 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N48	Reference T20 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N49	Reference T52 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N50	Reference T82 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N51	Reference T48 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N52	Reference T18 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N53	Reference T6 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N54	Reference T44 Wikidata:Q858	Сирия
+N55	Reference T17 Wikidata:Q889	Афганистан
+N56	Reference T32 Wikidata:Q27231	Восточная Азия
+N57	Reference T23 Wikidata:Q928	Филиппины
+N58	Reference T88 Wikidata:Q1250916	воин
+N59	Reference T83 Wikidata:Q2747456	принц
+N60	Reference T80 Wikidata:Q2747456	принц
+N61	Reference T72 Wikidata:Q2747456	принц
+N62	Reference T70 Wikidata:Q2747456	принц
+N63	Reference T69 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N64	Reference T85 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N65	Reference T84 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N66	Reference T77 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N67	Reference T68 Wikidata:Q152316	Гарри Чарльз Альберт Дэвид
+N68	Reference T91 Wikidata:Q48	Азия
+N69	Reference T92 Wikidata:Q48	Азия
+N70	Reference T89 Wikidata:NULL	нет данных
+N71	Reference T7 Wikidata:Q145	Великобритания
+N72	Reference T14 Wikidata:Q171468	
+N73	Reference T66 Wikidata:NULL	нет данных
+N74	Reference T10 Wikidata:NULL	нет данных
+N75	Reference T35 Wikidata:NULL	нет данных
+N76	Reference T41 Wikidata:NULL	нет данных
+N77	Reference T13 Wikidata:Q334	Сингапур
+N78	Reference T51 Wikidata:Q334	Сингапур
+N79	Reference T53 Wikidata:Q334	Сингапур
+N80	Reference T11 Wikidata:Q334	Сингапур

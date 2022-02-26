@@ -1,0 +1,141 @@
+T2	COUNTRY 6 13	Кувейте
+T4	PROFESSION 74 79	эмира
+T5	PRODUCT 82 89	Twitter
+T6	PERSON 90 125	Сабах аль-Ахмед аль-Джабер ас-Сабах
+T8	COUNTRY 141 151	Кувейтский
+T9	AGE 192 202	26-летнего
+T10	PERSON 203 226	Рашида Салеха аль-Энези
+T12	PROFESSION 262 267	эмира
+T13	PERSON 268 307	Сабаха аль-Ахмеда аль-Джабера ас-Сабаха
+T14	PRODUCT 327 334	Twitter
+T15	NUMBER 373 383	5,7 тысячи
+T16	DATE 393 412	в октябре 2012 года
+T17	PROFESSION 486 491	эмира
+T18	PERSON 493 509	Сабаха ас-Сабаха
+T19	PERSON 512 533	Рашид Салех аль-Энези
+T20	DATE 903 923	В июне прошлого года
+T21	COUNTRY 930 937	Кувейте
+T24	PRODUCT 1022 1029	Twitter
+T25	COUNTRY 1057 1074	Саудовской Аравии
+T26	COUNTRY 1077 1085	Бахрейна
+T1	IDEOLOGY 25 38	оппозиционера
+T3	PENALTY 41 58	двум годам тюрьмы
+T28	CRIME 62 79	оскорбление эмира
+T7	COUNTRY 132 139	Кувейта
+T29	ORGANIZATION 141 155	Кувейтский суд
+T31	IDEOLOGY 167 181	оппозиционного
+T32	PROFESSION 167 191	оппозиционного активиста
+T34	PENALTY 229 246	двум годам тюрьмы
+T35	CRIME 250 267	оскорбление эмира
+T36	PROFESSION 348 355	блоггер
+T37	IDEOLOGY 656 669	оппозиционера
+T39	IDEOLOGY 745 758	оппозиционной
+T40	EVENT 799 820	парламентских выборов
+T41	EVENT 813 820	выборов
+T43	CRIME 871 900	оскорблении главы государства
+T44	PROFESSION 883 900	главы государства
+T45	ORGANIZATION 924 937	суд в Кувейте
+T23	PENALTY 951 975	10 годам лишения свободы
+T46	CRIME 1008 1085	оскорблении в Twitter пророка Мухаммеда, лидеров Саудовской Аравии и Бахрейна
+T48	PROFESSION 1049 1074	лидеров Саудовской Аравии
+T27	DATE 41 51	двум годам
+T30	EVENT 14 24	приговорил
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T30	
+R2	HAS_CAUSE Arg1:T30 Arg2:T28	
+R3	PARTICIPANT_IN Arg1:T4 Arg2:T28	
+R4	PARTICIPANT_IN Arg1:T1 Arg2:T28	
+R5	HAS_CAUSE Arg1:T3 Arg2:T28	
+R6	HEADQUARTERED_IN Arg1:T29 Arg2:T8	
+R7	AGE_IS Arg1:T10 Arg2:T9	
+T11	DATE 229 239	двум годам
+R8	PENALIZED_AS Arg1:T10 Arg2:T34	
+R9	ALTERNATIVE_NAME Arg1:T28 Arg2:T35	
+R10	CONVICTED_OF Arg1:T10 Arg2:T35	
+R11	IDEOLOGY_OF Arg1:T32 Arg2:T31	
+R12	ALTERNATIVE_NAME Arg1:T1 Arg2:T31	
+R13	WORKS_AS Arg1:T10 Arg2:T32	
+T33	EVENT 156 166	приговорил
+R14	PARTICIPANT_IN Arg1:T10 Arg2:T33	
+R15	AGENT Arg1:T29 Arg2:T33	
+R16	WORKS_AS Arg1:T13 Arg2:T12	
+R17	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R18	WORKS_AS Arg1:T18 Arg2:T17	
+T49	EVENT 413 429	разместил «твит»
+R19	WORKS_AS Arg1:T19 Arg2:T36	
+R20	PARTICIPANT_IN Arg1:T36 Arg2:T49	
+R21	POINT_IN_TIME Arg1:T49 Arg2:T16	
+R22	HAS_CAUSE Arg1:T33 Arg2:T49	
+R23	HAS_CAUSE Arg1:T34 Arg2:T49	
+T50	DATE 594 602	Накануне
+T51	EVENT 615 623	приговор
+R24	POINT_IN_TIME Arg1:T51 Arg2:T50	
+R25	PARTICIPANT_IN Arg1:T37 Arg2:T51	
+T38	ORGANIZATION 799 812	парламентских
+T52	DATE 772 780	накануне
+R27	ALTERNATIVE_NAME Arg1:T37 Arg2:T39	
+T42	EVENT 845 859	оправдан судом
+T53	PROFESSION 685 695	активистов
+T54	PROFESSION 832 840	активист
+R28	PARTICIPANT_IN Arg1:T54 Arg2:T42	
+R29	CONVICTED_OF Arg1:T54 Arg2:T43	
+R30	PARTICIPANT_IN Arg1:T44 Arg2:T43	
+R31	HAS_CAUSE Arg1:T42 Arg2:T43	
+T22	DATE 951 959	10 годам
+T55	EVENT 938 948	приговорил
+R32	WORKPLACE Arg1:T48 Arg2:T25	
+T56	PROFESSION 1049 1056;1077 1085	лидеров Бахрейна
+R33	WORKPLACE Arg1:T56 Arg2:T26	
+R34	HAS_CAUSE Arg1:T23 Arg2:T46	
+R35	HAS_CAUSE Arg1:T55 Arg2:T46	
+T47	PERSON 1038 1047	Мухаммеда
+T57	PROFESSION 1030 1037	пророка
+R36	WORKS_AS Arg1:T47 Arg2:T57	
+R37	PARTICIPANT_IN Arg1:T47 Arg2:T46	
+R38	PARTICIPANT_IN Arg1:T48 Arg2:T46	
+R39	PARTICIPANT_IN Arg1:T56 Arg2:T46	
+R40	POINT_IN_TIME Arg1:T55 Arg2:T20	
+R41	HEADQUARTERED_IN Arg1:T45 Arg2:T21	
+R42	AGENT Arg1:T45 Arg2:T55	
+T58	ORGANIZATION 0 13	Суд в Кувейте
+R43	HEADQUARTERED_IN Arg1:T58 Arg2:T2	
+R44	ALTERNATIVE_NAME Arg1:T7 Arg2:T8	
+R45	ALTERNATIVE_NAME Arg1:T58 Arg2:T29	
+R46	AGENT Arg1:T58 Arg2:T30	
+R47	TAKES_PLACE_IN Arg1:T30 Arg2:T2	
+R48	TAKES_PLACE_IN Arg1:T33 Arg2:T8	
+R49	TAKES_PLACE_IN Arg1:T55 Arg2:T21	
+T59	PENALTY 240 246	тюрьмы
+T60	PENALTY 960 975	лишения свободы
+R50	INANIMATE_INVOLVED Arg1:T5 Arg2:T28	
+R51	PARTICIPANT_IN Arg1:T13 Arg2:T35	
+T61	PENALTY 52 58	тюрьмы
+N1	Reference T5 Wikidata:Q918	Твиттер
+N2	Reference T6 Wikidata:Q57555	Сабах аль-Ахмед аль-Джабер ас-Сабах
+N4	Reference T17 Wikidata:Q166382	эмир
+N5	Reference T18 Wikidata:Q57555	Сабах аль-Ахмед аль-Джабер ас-Сабах
+N6	Reference T25 Wikidata:Q851	Саудовская Аравия
+N7	Reference T26 Wikidata:Q398	Бахрейн
+N8	Reference T7 Wikidata:Q817	Кувейт
+N10	Reference T44 Wikidata:Q48352	глава государства
+N14	Reference T47 Wikidata:Q9458	Мухаммед
+N15	Reference T57 Wikidata:Q42857	пророк
+N17	Reference T32 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N9	Reference T36 Wikidata:Q8246794	
+N18	Reference T53 Wikidata:Q15253558	
+N12	Reference T38 Wikidata:Q35749	парламент
+N13	Reference T56 Wikidata:NULL	нет данных
+N11	Reference T48 Wikidata:NULL	нет данных
+N16	Reference T58 Wikidata:NULL	нет данных
+N19	Reference T14 Wikidata:Q918	Твиттер
+N20	Reference T24 Wikidata:Q918	Твиттер
+N21	Reference T4 Wikidata:Q166382	эмир
+N22	Reference T12 Wikidata:Q166382	эмир
+N23	Reference T13 Wikidata:Q57555	Сабах аль-Ахмед аль-Джабер ас-Сабах
+N24	Reference T2 Wikidata:Q817	Кувейт
+N25	Reference T8 Wikidata:Q817	Кувейт
+N26	Reference T21 Wikidata:Q817	Кувейт
+N27	Reference T19 Wikidata:NULL	нет данных
+N28	Reference T54 Wikidata:Q15253558	
+N29	Reference T45 Wikidata:NULL	нет данных
+N30	Reference T29 Wikidata:NULL	нет данных

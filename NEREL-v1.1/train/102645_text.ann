@@ -1,0 +1,175 @@
+T1	PROFESSION 0 9	Дизайнеру
+T2	COUNTRY 39 44	Индии
+T3	ORGANIZATION 50 54	ИГИЛ
+T4	ORGANIZATION 55 97	Национальное агентство расследований Индии
+T5	PERSON 137 152	Мохамеду Насеру
+T8	AGE 262 269	23 года
+T9	STATE_OR_PROVINCE 298 306	Тамилнад
+T10	DATE 308 319	В 2014 году
+T11	CITY 334 339	Дубай
+T12	PROFESSION 353 370	веб-разработчиком
+T13	DATE 372 390	В начале 2015 года
+T14	ORGANIZATION 416 420	ИГИЛ
+T15	ORGANIZATION 432 446	Times of India
+T16	DATE 448 463	с этого времени
+T17	PERSON 464 469	Насер
+T18	DATE 545 561	Осенью 2015 года
+T19	COUNTRY 605 610	Сирию
+T20	COUNTRY 633 638	Ливию
+T21	COUNTRY 646 652	Судане
+T22	DATE 710 729	в декабре 2015 года
+T23	COUNTRY 746 751	Индию
+T24	PERSON 780 786	Насера
+T25	PRODUCT 993 1001	Telegram
+T26	PRODUCT 1004 1012	WhatsApp
+T27	PERSON 1015 1020	Насер
+T28	ORDINAL 1026 1032	вторым
+T29	COUNTRY 1045 1050	Индии
+T30	ORGANIZATION 1111 1115	ИГИЛ
+T31	ORGANIZATION 1263 1267	ИГИЛ
+T32	DATE 1287 1298	с 2006 года
+T33	COUNTRY 1325 1330	Ирака
+T34	COUNTRY 1333 1338	Сирии
+T35	LOCATION 1389 1404	Северной Африке
+T36	PERSON 1455 1475	Абу Мусаб аз-Заркауи
+T37	PROFESSION 1477 1491	духовный лидер
+T38	PERSON 1513 1529	Усамы бен Ладена
+T39	COUNTRY 1578 1583	Сирии
+T40	CITY 1593 1601	Эр-Ракка
+T41	DATE 1603 1614	С 2014 года
+T42	ORGANIZATION 1716 1720	ИГИЛ
+T43	NUMBER 1742 1775	до 90 тысяч квадратных километров
+T44	NUMBER 1844 1855	от 50 тысяч
+T45	NUMBER 1856 1868	до 200 тысяч
+T48	COUNTRY 1889 1898	сирийских
+T49	ORGANIZATION 1924 1928	ИГИЛ
+T50	COUNTRY 1938 1943	Сирии
+T51	NUMBER 1950 1964	около 70 тысяч
+T52	NUMBER 1995 2004	5-7 тысяч
+T53	COUNTRY 2018 2024	России
+T54	ORGANIZATION 2033 2036	СНГ
+T55	ORGANIZATION 10 14	ИГИЛ
+T56	PROFESSION 0 14	Дизайнеру ИГИЛ
+T57	COUNTRY 92 97	Индии
+T59	PROFESSION 897 908	следователи
+T60	NATIONALITY 1033 1050	гражданином Индии
+T61	CRIME 1084 1115	намерении присоединиться к ИГИЛ
+T62	CRIME 1147 1200	вербовка молодежи в ряды террористической группировки
+T63	CRIME 1203 1248	ведение войны против иностранного государства
+T64	ORGANIZATION 1615 1619	ИГИЛ
+T65	IDEOLOGY 1798 1812	экстремистской
+T46	PROFESSION 1977 1986	наемников
+T47	PROFESSION 1869 1877	боевиков
+T66	ORGANIZATION 55 91	Национальное агентство расследований
+R1	HEADQUARTERED_IN Arg1:T4 Arg2:T57	
+T67	EVENT 98 118	предъявило обвинения
+R2	AGENT Arg1:T4 Arg2:T67	
+R3	PARTICIPANT_IN Arg1:T5 Arg2:T67	
+R4	AGE_IS Arg1:T5 Arg2:T8	
+R5	PLACE_OF_BIRTH Arg1:T5 Arg2:T9	
+R6	WORKS_AS Arg1:T5 Arg2:T12	
+R7	ALTERNATIVE_NAME Arg1:T5 Arg2:T17	
+R8	ORIGINS_FROM Arg1:T60 Arg2:T29	
+R9	CONVICTED_OF Arg1:T27 Arg2:T61	
+R10	CONVICTED_OF Arg1:T27 Arg2:T62	
+R11	CONVICTED_OF Arg1:T27 Arg2:T63	
+R12	DATE_FOUNDED_IN Arg1:T31 Arg2:T32	
+R13	FOUNDED_BY Arg1:T31 Arg2:T36	
+R14	WORKS_AS Arg1:T36 Arg2:T37	
+R15	KNOWS Arg1:T36 Arg2:T38	
+R16	HEADQUARTERED_IN Arg1:T31 Arg2:T40	
+R17	LOCATED_IN Arg1:T40 Arg2:T39	
+T68	EVENT 15 36	предъявлены обвинения
+R18	TAKES_PLACE_IN Arg1:T68 Arg2:T2	
+R19	WORKPLACE Arg1:T56 Arg2:T55	
+R20	PARTICIPANT_IN Arg1:T56 Arg2:T68	
+R21	ORIGINS_FROM Arg1:T5 Arg2:T57	
+T6	ORGANIZATION 202 223	Исламское государство
+T7	ORGANIZATION 226 230	ИГИЛ
+R22	ABBREVIATION Arg1:T6 Arg2:T7	
+T58	CRIME 178 223	вербовке в группировку «Исламское государство
+R23	CONVICTED_OF Arg1:T5 Arg2:T58	
+R24	LOCATED_IN Arg1:T9 Arg2:T57	
+R25	ORIGINS_FROM Arg1:T27 Arg2:T60	
+R26	LOCATED_IN Arg1:T31 Arg2:T33	
+R27	LOCATED_IN Arg1:T31 Arg2:T34	
+R28	ORIGINS_FROM Arg1:T46 Arg2:T53	
+R29	ORIGINS_FROM Arg1:T46 Arg2:T54	
+T69	PROFESSION 1915 1928	боевиков ИГИЛ
+R30	MEMBER_OF Arg1:T69 Arg2:T42	
+R31	ALTERNATIVE_NAME Arg1:T48 Arg2:T50	
+R32	MEMBER_OF Arg1:T46 Arg2:T42	
+R33	PLACE_RESIDES_IN Arg1:T5 Arg2:T11	
+T70	EVENT 395 405	завербовал
+R34	AGENT Arg1:T14 Arg2:T70	
+R35	PARTICIPANT_IN Arg1:T5 Arg2:T70	
+R36	POINT_IN_TIME Arg1:T70 Arg2:T13	
+R37	TAKES_PLACE_IN Arg1:T70 Arg2:T11	
+T71	EVENT 696 706	арестовали
+T72	EVENT 730 743	депортировали
+R38	POINT_IN_TIME Arg1:T72 Arg2:T22	
+R39	TAKES_PLACE_IN Arg1:T71 Arg2:T21	
+R40	PARTICIPANT_IN Arg1:T17 Arg2:T71	
+R41	LOCATED_IN Arg1:T17 Arg2:T21	
+R42	POINT_IN_TIME Arg1:T71 Arg2:T18	
+R43	PARTICIPANT_IN Arg1:T17 Arg2:T72	
+R44	TAKES_PLACE_IN Arg1:T72 Arg2:T23	
+R45	PARTICIPANT_IN Arg1:T6 Arg2:T58	
+R46	PARTICIPANT_IN Arg1:T30 Arg2:T61	
+T73	LOCATION 1398 1404	Африке
+R47	LOCATED_IN Arg1:T35 Arg2:T73	
+R48	IDEOLOGY_OF Arg1:T42 Arg2:T65	
+N1	Reference T1 Wikidata:Q5322166	дизайнер
+N4	Reference T9 Wikidata:Q1445	Тамилнад
+N5	Reference T11 Wikidata:Q612	Дубай
+N7	Reference T20 Wikidata:Q1016	Ливия
+N8	Reference T21 Wikidata:Q1049	Судан
+N10	Reference T25 Wikidata:Q15616276	Telegram
+N11	Reference T26 Wikidata:Q1049511	WhatsApp
+N12	Reference T29 Wikidata:Q668	Индия
+N13	Reference T30 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N14	Reference T33 Wikidata:Q796	Ирак
+N15	Reference T35 Wikidata:Q27381	Северная Африка
+N16	Reference T36 Wikidata:Q181049	Абу Мусаб аз-Заркави
+N18	Reference T38 Wikidata:Q1317	Усама бен Ладен
+N19	Reference T40 Wikidata:Q283368	Эр-Ракка
+N21	Reference T53 Wikidata:Q159	Россия
+N22	Reference T54 Wikidata:Q7779	Содружество Независимых Государств
+N26	Reference T46 Wikidata:Q178197	наёмник
+N30	Reference T73 Wikidata:Q15	Африка
+N23	Reference T56 Wikidata:NULL	нет данных
+N28	Reference T66 Wikidata:NULL	нет данных
+N2	Reference T4 Wikidata:NULL	нет данных
+N3	Reference T5 Wikidata:NULL	нет данных
+N31	Reference T12 Wikidata:Q6859454	
+N6	Reference T15 Wikidata:Q46807	
+N9	Reference T24 Wikidata:NULL	нет данных
+N24	Reference T59 Wikidata:Q30093123	
+N25	Reference T60 Wikidata:NULL	нет данных
+N17	Reference T37 Wikidata:Q20956402	
+N27	Reference T47 Wikidata:Q208187	штурмовик
+N20	Reference T48 Wikidata:Q858	Сирия
+N29	Reference T69 Wikidata:NULL	нет данных
+N32	Reference T2 Wikidata:Q668	Индия
+N33	Reference T57 Wikidata:Q668	Индия
+N34	Reference T23 Wikidata:Q668	Индия
+N35	Reference T55 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N36	Reference T31 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N37	Reference T14 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N38	Reference T64 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N39	Reference T49 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N40	Reference T7 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N41	Reference T42 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N42	Reference T3 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N43	Reference T6 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N44	Reference T17 Wikidata:NULL	нет данных
+N45	Reference T27 Wikidata:NULL	нет данных
+N46	Reference T50 Wikidata:Q858	Сирия
+N47	Reference T19 Wikidata:Q858	Сирия
+N48	Reference T34 Wikidata:Q858	Сирия
+N49	Reference T39 Wikidata:Q858	Сирия
+R49	WORKPLACE Arg1:T69 Arg2:T49	
+T74	EVENT 323 331	переехал
+R50	POINT_IN_TIME Arg1:T74 Arg2:T10	
+R51	TAKES_PLACE_IN Arg1:T74 Arg2:T11	
+R52	AGENT Arg1:T5 Arg2:T74	

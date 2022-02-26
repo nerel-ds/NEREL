@@ -1,0 +1,162 @@
+T1	PERSON 0 5	Путин
+T2	NUMBER 13 17	двух
+T3	PERSON 44 52	Голунова
+T4	DATE 92 108	8 июня 2019 года
+T5	PROFESSION 109 118	Президент
+T6	PERSON 126 140	Владимир Путин
+T7	DATE 148 165	13 июня 2019 года
+T8	NUMBER 166 170	двух
+T9	PROFESSION 218 228	журналиста
+T10	PERSON 244 258	Ивана Голунова
+T11	DATE 427 439	Неделю назад
+T12	AGE 440 449	36-летний
+T13	PERSON 450 462	Иван Голунов
+T14	TIME 517 535	в течение 12 часов
+T15	DATE 645 655	во вторник
+T16	PROFESSION 656 665	глава МВД
+T17	ORGANIZATION 662 665	МВД
+T18	PERSON 666 686	Владимир Колокольцев
+T19	PROFESSION 760 771	президентом
+T20	NUMBER 786 790	двух
+T21	DATE 811 820	В четверг
+T24	PERSON 1030 1044	Андрея Пучкова
+T29	PROFESSION 18 35	генералов полиции
+T30	PROFESSION 18 27	генералов
+T31	PROFESSION 109 125	Президент России
+T32	PROFESSION 171 188	генералов полиции
+T33	PROFESSION 171 180	генералов
+T34	PROFESSION 218 243	журналиста-расследователя
+T35	PROFESSION 414 424	журналиста
+T36	PROFESSION 508 516	адвокату
+T37	PROFESSION 599 609	журналиста
+T38	PROFESSION 720 730	журналиста
+T39	PROFESSION 791 800	генералов
+T40	PROFESSION 791 808	генералов полиции
+T41	PROFESSION 850 940	начальника Управления по контролю за оборотом наркотиков Главного управления МВД по Москве
+T42	PROFESSION 958 1029	начальника управления полиции Западного административного округа Москвы
+T46	ORGANIZATION 28 35	полиции
+T47	PERSON 53 65	Иван Голунов
+T48	ORGANIZATION 73 90	Никитинского суда
+T49	COUNTRY 119 125	России
+T50	EVENT 6 12	уволил
+T51	EVENT 141 147	уволил
+T52	ORGANIZATION 181 188	полиции
+T55	EVENT 484 489	избит
+T56	EVENT 543 553	задержания
+T57	EVENT 580 590	Задержание
+T58	EVENT 593 598	арест
+T59	ORGANIZATION 801 808	полиции
+T60	ORGANIZATION 821 827	Кремль
+T61	ORGANIZATION 861 940	Управления по контролю за оборотом наркотиков Главного управления МВД по Москве
+T62	ORGANIZATION 907 940	Главного управления МВД по Москве
+T64	ORGANIZATION 927 930	МВД
+T65	ORGANIZATION 969 1029	управления полиции Западного административного округа Москвы
+T66	ORGANIZATION 980 1029	полиции Западного административного округа Москвы
+T67	CITY 934 940	Москве
+T68	PERSON 941 955	Юрия Девяткина
+T69	ORGANIZATION 980 987	полиции
+T71	CITY 1023 1029	Москвы
+R1	WORKPLACE Arg1:T29 Arg2:T46	
+R2	AGENT Arg1:T1 Arg2:T50	
+R3	PARTICIPANT_IN Arg1:T29 Arg2:T50	
+R4	ALTERNATIVE_NAME Arg1:T3 Arg2:T47	
+R5	WORKPLACE Arg1:T31 Arg2:T49	
+R6	ALTERNATIVE_NAME Arg1:T1 Arg2:T6	
+R7	WORKS_AS Arg1:T6 Arg2:T31	
+R8	AGENT Arg1:T6 Arg2:T51	
+R9	POINT_IN_TIME Arg1:T51 Arg2:T7	
+R10	WORKPLACE Arg1:T32 Arg2:T52	
+R11	PARTICIPANT_IN Arg1:T32 Arg2:T51	
+R12	WORKS_AS Arg1:T10 Arg2:T34	
+T53	EVENT 211 217	аресте
+R13	PARTICIPANT_IN Arg1:T10 Arg2:T53	
+R14	PARTICIPANT_IN Arg1:T32 Arg2:T53	
+R15	HAS_CAUSE Arg1:T51 Arg2:T53	
+R16	WORKS_AS Arg1:T10 Arg2:T35	
+R17	AGE_IS Arg1:T13 Arg2:T12	
+R18	POINT_IN_TIME Arg1:T55 Arg2:T11	
+R19	PARTICIPANT_IN Arg1:T13 Arg2:T55	
+R20	SUBORDINATE_OF Arg1:T36 Arg2:T13	
+R21	PARTICIPANT_IN Arg1:T13 Arg2:T56	
+R22	PARTICIPANT_IN Arg1:T37 Arg2:T58	
+R23	PARTICIPANT_IN Arg1:T37 Arg2:T57	
+R24	WORKS_AS Arg1:T13 Arg2:T37	
+R25	WORKPLACE Arg1:T16 Arg2:T17	
+R26	WORKPLACE Arg1:T18 Arg2:T17	
+R27	WORKS_AS Arg1:T18 Arg2:T16	
+T74	EVENT 775 785	увольнении
+R28	WORKPLACE Arg1:T40 Arg2:T59	
+R29	PARTICIPANT_IN Arg1:T40 Arg2:T74	
+R30	ALTERNATIVE_NAME Arg1:T51 Arg2:T74	
+T75	EVENT 839 849	увольнении
+R31	AGENT Arg1:T60 Arg2:T75	
+R32	HEADQUARTERED_IN Arg1:T62 Arg2:T67	
+R33	PART_OF Arg1:T62 Arg2:T64	
+R34	PART_OF Arg1:T61 Arg2:T62	
+R35	WORKPLACE Arg1:T41 Arg2:T61	
+R36	WORKS_AS Arg1:T68 Arg2:T41	
+R37	WORKPLACE Arg1:T68 Arg2:T61	
+T22	DISTRICT 988 1022	Западного административного округа
+R38	LOCATED_IN Arg1:T22 Arg2:T71	
+R39	PART_OF Arg1:T65 Arg2:T66	
+R40	WORKPLACE Arg1:T24 Arg2:T65	
+R41	WORKS_AS Arg1:T24 Arg2:T42	
+T23	PROFESSION 958 986	начальника управления полици
+R42	WORKPLACE Arg1:T42 Arg2:T65	
+R43	PARTICIPANT_IN Arg1:T68 Arg2:T75	
+R44	PARTICIPANT_IN Arg1:T24 Arg2:T75	
+R49	LOCATED_IN Arg1:T47 Arg2:T48	
+T43	CRIME 274 302	покушении на сбыт наркотиков
+R50	CONVICTED_OF Arg1:T10 Arg2:T43	
+N1	Reference T5 Wikidata:Q30461	президент
+N2	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
+N4	Reference T18 Wikidata:Q1344473	Владимир Александрович Колокольцев
+N6	Reference T26 Wikidata:Q4384584	Пучков, Андрей Юрьевич
+N7	Reference T27 Wikidata:Q83460	генерал
+N8	Reference T30 Wikidata:Q83460	генерал
+N9	Reference T31 Wikidata:Q218295	президент Российской Федерации
+N11	Reference T36 Wikidata:Q40348	адвокат
+N12	Reference T37 Wikidata:Q1930187	журналист
+N16	Reference T44 Wikidata:Q157148	генерал-майор
+N17	Reference T47 Wikidata:Q64485147	Иван Валентинович Голунов
+N19	Reference T49 Wikidata:Q159	Россия
+N20	Reference T59 Wikidata:Q35535	полиция
+N21	Reference T60 Wikidata:Q133274	Московский Кремль
+N23	Reference T62 Wikidata:Q2895468	Главное управление МВД России по городу Москве
+N24	Reference T64 Wikidata:Q6589202	министерство внутренних дел
+N28	Reference T71 Wikidata:Q649	Москва
+N29	Reference T22 Wikidata:Q462475	Западный административный округ
+N10	Reference T34 Wikidata:Q15931838	
+N3	Reference T16 Wikidata:Q4399968	
+N13	Reference T40 Wikidata:Q4135316	
+N27	Reference T68 Wikidata:NULL	нет данных
+N18	Reference T48 Wikidata:NULL	нет данных
+N22	Reference T61 Wikidata:Q24232917	Главное управление по контролю за оборотом наркотиков МВД России
+N14	Reference T41 Wikidata:NULL	нет данных
+N26	Reference T66 Wikidata:NULL	нет данных
+N25	Reference T65 Wikidata:NULL	нет данных
+N30	Reference T23 Wikidata:NULL	нет данных
+N15	Reference T42 Wikidata:NULL	нет данных
+N5	Reference T24 Wikidata:NULL	нет данных
+N31	Reference T19 Wikidata:Q30461	президент
+N32	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
+N33	Reference T28 Wikidata:Q4384584	Пучков, Андрей Юрьевич
+N34	Reference T25 Wikidata:Q83460	генерал
+N35	Reference T39 Wikidata:Q83460	генерал
+N36	Reference T33 Wikidata:Q83460	генерал
+N37	Reference T38 Wikidata:Q1930187	журналист
+N38	Reference T9 Wikidata:Q1930187	журналист
+N39	Reference T35 Wikidata:Q1930187	журналист
+N40	Reference T45 Wikidata:Q157148	генерал-майор
+N41	Reference T13 Wikidata:Q64485147	Иван Валентинович Голунов
+N42	Reference T3 Wikidata:Q64485147	Иван Валентинович Голунов
+N43	Reference T10 Wikidata:Q64485147	Иван Валентинович Голунов
+N44	Reference T69 Wikidata:Q35535	полиция
+N45	Reference T73 Wikidata:Q35535	полиция
+N46	Reference T46 Wikidata:Q35535	полиция
+N47	Reference T52 Wikidata:Q35535	полиция
+N48	Reference T72 Wikidata:Q35535	полиция
+N49	Reference T17 Wikidata:Q6589202	министерство внутренних дел
+N50	Reference T67 Wikidata:Q649	Москва
+N51	Reference T29 Wikidata:Q4135316	
+N52	Reference T32 Wikidata:Q4135316	

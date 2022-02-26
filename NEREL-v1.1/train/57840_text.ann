@@ -1,0 +1,148 @@
+T1	CITY 12 19	Иванова
+T2	PRODUCT 68 77	Интернета
+T3	ORDINAL 107 117	четвёртого
+T5	PERSON 144 160	Ярослав Минников
+T6	EVENT 185 244	XIV всероссийской детской конференции «Первые шаги в науке»
+T7	EVENT 224 243	Первые шаги в науке
+T8	WORK_OF_ART 254 289	Влияние киберкультуры на школьников
+T9	PROFESSION 292 312	научный руководитель
+T10	PROFESSION 315 331	учитель биологии
+T11	EVENT 347 374	Детская научная конференция
+T12	ORGANIZATION 391 499	Национальной системой развития научной, творческой и инновационной деятельности молодежи России «ИНТЕГРАЦИЯ»
+T13	ORGANIZATION 488 498	ИНТЕГРАЦИЯ
+T14	DATE 512 531	в декабре 2014 года
+T15	STATE_OR_PROVINCE 534 546	подмосковном
+T16	FACILITY 568 576	Непецино
+T17	ORGANIZATION 578 609	Управления делами Президента РФ
+T18	NUMBER 615 620	1 500
+T19	NUMBER 688 691	358
+T20	AGE 711 725	от 7 до 14 лет
+T21	COUNTRY 734 740	России
+T22	PRODUCT 764 776	Ivanovo News
+T23	PRODUCT 942 947	Wi-Fi
+T24	PERSON 995 1011	Ярослав Минников
+T25	ORDINAL 1043 1049	пятого
+T26	ORGANIZATION 1241 1285	Всероссийского проекта «Безопасный интернет»
+T27	PERSON 1354 1361	Ярослав
+T28	PERSON 1539 1547	Минников
+T29	PERSON 1745 1752	Ярослав
+T30	PERSON 1972 1988	Ярослав Минников
+T31	PERSON 2203 2211	Ярослава
+T32	PERSON 2309 2317	Минников
+T33	PROFESSION 0 8	Школьник
+T34	AWARD 29 42	Золотой крест
+T35	PROFESSION 78 87	Школьники
+T4	ORGANIZATION 125 135	лицея № 21
+T36	CITY 136 143	Иваново
+T37	PROFESSION 315 322	учитель
+T38	PROFESSION 315 343	учитель биологии 21-го лицея
+T39	ORGANIZATION 332 343	21-го лицея
+T40	COUNTRY 480 486	России
+T41	PROFESSION 596 606	Президента
+T42	PROFESSION 596 609	Президента РФ
+T43	COUNTRY 607 609	РФ
+T44	WORK_OF_ART 891 970	Влияние планшетного компьютера и беспроводной сети Wi-Fi на здоровье школьников
+T45	PROFESSION 960 970	школьников
+T46	PROFESSION 1050 1059	школьника
+T47	PROFESSION 814 820	ученые
+T48	PROFESSION 1157 1164	учёного
+T49	PROFESSION 1208 1218	школьников
+T50	ORGANIZATION 1265 1284	Безопасный интернет
+T51	PROFESSION 1438 1448	школьников
+T52	PROFESSION 1593 1603	школьников
+T53	PRODUCT 1840 1849	интернете
+T54	PRODUCT 1581 1590	интернета
+T55	PRODUCT 1105 1115	интернетом
+T56	WORK_OF_ART 1939 1955	Принц и Интернет
+T57	AWARD 2057 2103	Золотой крест „Первые шаги в науке. За победу“
+T58	WORK_OF_ART 2251 2271	Лучшие в образовании
+T59	WORK_OF_ART 2284 2306	Им принадлежит будущее
+T60	AWARD 2337 2354	Одарённый ребенок
+R1	ORIGINS_FROM Arg1:T33 Arg2:T1	
+R2	HEADQUARTERED_IN Arg1:T4 Arg2:T36	
+R3	SCHOOLS_ATTENDED Arg1:T5 Arg2:T4	
+R4	POINT_IN_TIME Arg1:T11 Arg2:T14	
+R5	OWNER_OF Arg1:T17 Arg2:T16	
+R6	LOCATED_IN Arg1:T16 Arg2:T15	
+R7	TAKES_PLACE_IN Arg1:T11 Arg2:T16	
+R8	AWARDED_WITH Arg1:T32 Arg2:T60	
+R9	AWARDED_WITH Arg1:T5 Arg2:T34	
+R10	PRODUCES Arg1:T29 Arg2:T56	
+R11	AWARDED_WITH Arg1:T30 Arg2:T57	
+R12	AWARDED_WITH Arg1:T33 Arg2:T34	
+R13	ORIGINS_FROM Arg1:T5 Arg2:T36	
+R14	PARTICIPANT_IN Arg1:T5 Arg2:T6	
+R15	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+R16	ORGANIZES Arg1:T12 Arg2:T11	
+R17	ALTERNATIVE_NAME Arg1:T24 Arg2:T27	
+R18	ALTERNATIVE_NAME Arg1:T24 Arg2:T28	
+R19	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R20	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+R21	ALTERNATIVE_NAME Arg1:T31 Arg2:T32	
+R22	WORKPLACE Arg1:T38 Arg2:T39	
+R23	ALTERNATIVE_NAME Arg1:T4 Arg2:T39	
+R24	WORKPLACE Arg1:T42 Arg2:T43	
+R25	PRODUCES Arg1:T5 Arg2:T8	
+R26	HEADQUARTERED_IN Arg1:T12 Arg2:T40	
+R27	ABBREVIATION Arg1:T21 Arg2:T43	
+T61	CITY 821 831	московских
+T62	COUNTRY 1241 1255	Всероссийского
+R28	ALTERNATIVE_NAME Arg1:T40 Arg2:T62	
+T63	ORDINAL 332 337	21-го
+T64	ORDINAL 133 135	21
+R29	ALTERNATIVE_NAME Arg1:T64 Arg2:T63	
+N8	Reference T17 Wikidata:Q4476368	Управление делами Президента Российской Федерации
+N9	Reference T21 Wikidata:Q159	Россия
+N11	Reference T23 Wikidata:Q29643	Wi-Fi
+N14	Reference T30 Wikidata:Q741	Ярослав
+N15	Reference T35 Wikidata:Q48942	ученик
+N16	Reference T36 Wikidata:Q2630	Иваново
+N17	Reference T37 Wikidata:Q37226	учитель
+N20	Reference T40 Wikidata:Q159	Россия
+N21	Reference T41 Wikidata:Q30461	президент
+N22	Reference T42 Wikidata:Q218295	президент Российской Федерации
+N24	Reference T47 Wikidata:Q901	учёный
+N25	Reference T50 Wikidata:Q4261128	Лига безопасного интернета
+N26	Reference T53 Wikidata:Q75	Интернет
+N27	Reference T56 Wikidata:Q7542	Принс
+N28	Reference T58 Wikidata:Q2061869	Лучшие
+N29	Reference T59 Wikidata:Q730052	Они
+N30	Reference T60 Wikidata:Q205178	одарённые дети
+N1	Reference T1 Wikidata:Q2630	Иваново
+N2	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:Q104828277	
+N19	Reference T39 Wikidata:NULL	нет данных
+N18	Reference T38 Wikidata:NULL	нет данных
+N4	Reference T12 Wikidata:NULL	нет данных
+N5	Reference T13 Wikidata:NULL	нет данных
+N6	Reference T15 Wikidata:Q1697	Московская область
+N7	Reference T16 Wikidata:NULL	нет данных
+N10	Reference T22 Wikidata:NULL	нет данных
+N31	Reference T61 Wikidata:Q649	Москва
+N23	Reference T44 Wikidata:NULL	нет данных
+N12	Reference T24 Wikidata:NULL	нет данных
+N13	Reference T26 Wikidata:NULL	нет данных
+N32	Reference T9 Wikidata:NULL	нет данных
+N33	Reference T43 Wikidata:Q159	Россия
+N34	Reference T32 Wikidata:Q741	Ярослав
+N35	Reference T5 Wikidata:Q741	Ярослав
+N36	Reference T31 Wikidata:Q741	Ярослав
+N37	Reference T49 Wikidata:Q48942	ученик
+N38	Reference T46 Wikidata:Q48942	ученик
+N39	Reference T51 Wikidata:Q48942	ученик
+N40	Reference T45 Wikidata:Q48942	ученик
+N41	Reference T52 Wikidata:Q48942	ученик
+N42	Reference T33 Wikidata:Q48942	ученик
+N43	Reference T62 Wikidata:Q159	Россия
+N44	Reference T48 Wikidata:Q901	учёный
+N45	Reference T2 Wikidata:Q75	Интернет
+N46	Reference T54 Wikidata:Q75	Интернет
+N47	Reference T55 Wikidata:Q75	Интернет
+N48	Reference T4 Wikidata:NULL	нет данных
+N49	Reference T29 Wikidata:NULL	нет данных
+N50	Reference T27 Wikidata:NULL	нет данных
+N51	Reference T28 Wikidata:NULL	нет данных
+T65	CITY 764 771	Ivanovo
+R30	LOCATED_IN Arg1:T22 Arg2:T65	
+R31	WORKPLACE Arg1:T47 Arg2:T61	
+R32	HEADQUARTERED_IN Arg1:T26 Arg2:T62	

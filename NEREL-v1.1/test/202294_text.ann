@@ -1,0 +1,116 @@
+T1	ORGANIZATION 12 34	Исламского государства
+T2	COUNTRY 61 68	Марокко
+T3	AGE 70 79	24-летняя
+T4	PERSON 80 106	Луиза Вестерагер Йесперсен
+T5	AGE 109 118	28-летняя
+T6	PERSON 119 131	Марен Уеланд
+T7	COUNTRY 153 160	Марокко
+T8	ORGANIZATION 175 197	Исламского государства
+T9	LOCATION 262 269	Тубкаль
+T10	CITY 292 298	Имлиль
+T11	COUNTRY 332 337	Дании
+T12	COUNTRY 348 356	Норвегии
+T13	NATIONALITY 359 370	Скандинавки
+T14	COUNTRY 382 389	Марокко
+T16	COUNTRY 528 535	Марокко
+T17	COUNTRY 680 685	Сирию
+T18	NUMBER 1109 1114	одном
+T19	NUMBER 1247 1254	четверо
+T20	CITY 1267 1276	Марракеша
+T21	AGE 1288 1303	от 25 до 33 лет
+T22	COUNTRY 1367 1373	России
+T23	ORGANIZATION 1404 1425	Исламское государство
+T24	ORGANIZATION 1460 1462	ИГ
+T25	PROFESSION 1570 1585	Пресс-секретарь
+T26	COUNTRY 1597 1605	Норвегии
+T27	PERSON 1606 1615	Ане Лунде
+T28	EVENT 44 58	убили туристок
+T29	EVENT 145 150	убиты
+T30	DATE 390 398	на месяц
+T31	ORGANIZATION 507 535	Пресс-служба полиции Марокко
+T32	ORGANIZATION 520 535	полиции Марокко
+T33	ORGANIZATION 520 527	полиции
+T34	PRODUCT 552 561	интернете
+T35	EVENT 576 584	убийства
+T36	EVENT 611 616	казни
+T37	ORGANIZATION 1157 1164	полиции
+T38	PROFESSION 1305 1320	правоохранители
+T39	PROFESSION 1570 1605	Пресс-секретарь главы МИДа Норвегии
+T40	PROFESSION 1586 1605	главы МИДа Норвегии
+T43	ORGANIZATION 1592 1605	МИДа Норвегии
+T44	ORGANIZATION 1592 1596	МИДа
+T45	PROFESSION 1625 1636	журналистам
+R1	TAKES_PLACE_IN Arg1:T28 Arg2:T2	
+R2	AGE_IS Arg1:T4 Arg2:T3	
+R3	AGE_IS Arg1:T6 Arg2:T5	
+R4	ALTERNATIVE_NAME Arg1:T28 Arg2:T29	
+R5	PARTICIPANT_IN Arg1:T6 Arg2:T29	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T29	
+R7	TAKES_PLACE_IN Arg1:T29 Arg2:T7	
+R8	ORIGINS_FROM Arg1:T4 Arg2:T11	
+R9	ORIGINS_FROM Arg1:T6 Arg2:T12	
+T15	EVENT 200 204;235 245	Тела обнаружены
+R10	HAS_CAUSE Arg1:T15 Arg2:T29	
+R11	LOCATED_IN Arg1:T9 Arg2:T7	
+R12	LOCATED_IN Arg1:T10 Arg2:T7	
+R13	PART_OF Arg1:T31 Arg2:T32	
+R14	HEADQUARTERED_IN Arg1:T32 Arg2:T16	
+R15	ALTERNATIVE_NAME Arg1:T29 Arg2:T35	
+R16	ABBREVIATION Arg1:T23 Arg2:T24	
+R17	SUBORDINATE_OF Arg1:T39 Arg2:T40	
+R18	WORKPLACE Arg1:T39 Arg2:T44	
+R19	WORKPLACE Arg1:T40 Arg2:T43	
+R20	WORKPLACE Arg1:T27 Arg2:T43	
+R21	ORIGINS_FROM Arg1:T27 Arg2:T26	
+R22	WORKS_AS Arg1:T27 Arg2:T39	
+T41	EVENT 618 637	девушку обезглавили
+R23	ALTERNATIVE_NAME Arg1:T36 Arg2:T41	
+R24	ORIGINS_FROM Arg1:T4 Arg2:T13	
+R25	ORIGINS_FROM Arg1:T6 Arg2:T13	
+R26	PLACE_OF_DEATH Arg1:T6 Arg2:T7	
+R27	PLACE_OF_DEATH Arg1:T4 Arg2:T7	
+R28	KNOWS Arg1:T4 Arg2:T6	
+R29	KNOWS Arg1:T6 Arg2:T4	
+T42	RELIGION 12 22	Исламского
+R30	RELIGION_OF Arg1:T1 Arg2:T42	
+T46	RELIGION 175 185	Исламского
+R31	RELIGION_OF Arg1:T8 Arg2:T46	
+R32	AGENT Arg1:T1 Arg2:T28	
+T47	EVENT 44 49	убили
+T48	RELIGION 1404 1413	Исламское
+R33	RELIGION_OF Arg1:T23 Arg2:T48	
+N4	Reference T11 Wikidata:Q35	Дания
+N5	Reference T16 Wikidata:Q1028	Марокко
+N6	Reference T17 Wikidata:Q858	Сирия
+N7	Reference T20 Wikidata:Q101625	Марракеш
+N8	Reference T22 Wikidata:Q159	Россия
+N9	Reference T24 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N10	Reference T26 Wikidata:Q20	Норвегия
+N14	Reference T34 Wikidata:Q75	Интернет
+N15	Reference T37 Wikidata:Q35535	полиция
+N20	Reference T45 Wikidata:Q1930187	журналист
+N21	Reference T42 Wikidata:Q432	ислам
+N1	Reference T4 Wikidata:Q61161822	
+N2	Reference T6 Wikidata:Q61161836	
+N3	Reference T9 Wikidata:Q503433	
+N22	Reference T10 Wikidata:Q6004235	
+N23	Reference T13 Wikidata:Q7429989	
+N13	Reference T32 Wikidata:NULL	нет данных
+N12	Reference T31 Wikidata:NULL	нет данных
+N24	Reference T38 Wikidata:Q732717	правоохранительные органы
+N25	Reference T25 Wikidata:Q17221	
+N19	Reference T44 Wikidata:Q20901295	Министерство иностранных дел
+N18	Reference T43 Wikidata:Q2982622	
+N17	Reference T40 Wikidata:Q18018541	
+N11	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T39 Wikidata:NULL	нет данных
+N26	Reference T7 Wikidata:Q1028	Марокко
+N27	Reference T2 Wikidata:Q1028	Марокко
+N28	Reference T14 Wikidata:Q1028	Марокко
+N29	Reference T8 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N30	Reference T1 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N31	Reference T23 Wikidata:Q2429253	Исламское государство Ирака и Леванта
+N32	Reference T12 Wikidata:Q20	Норвегия
+N33	Reference T33 Wikidata:Q35535	полиция
+N34	Reference T46 Wikidata:Q432	ислам
+N35	Reference T48 Wikidata:Q432	ислам

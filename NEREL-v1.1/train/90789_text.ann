@@ -1,0 +1,105 @@
+T1	PERSON 33 46	Рэй Томлинсон
+T3	NATIONALITY 82 94	американский
+T4	AGE 95 104	74-летний
+T5	PERSON 116 129	Рэй Томлинсон
+T6	DATE 218 229	В 1971 году
+T7	ORDINAL 249 255	первое
+T8	PRODUCT 290 297	ARPANET
+T9	PERSON 404 413	Томлинсон
+T10	ORDINAL 434 440	первых
+T11	ORDINAL 542 548	первое
+T13	PRODUCT 622 629	Twitter
+T14	PERSON 639 642	Рэя
+T15	PERSON 653 666	Рэй Томлинсон
+T16	PERSON 720 733	Рэй Томлинсон
+T17	DATE 742 753	в 1941 году
+T18	CITY 756 765	Нью-Йорке
+T19	DATE 767 778	В 1971 году
+T21	ORGANIZATION 802 826	Bolt, Beranek and Newman
+T22	ORGANIZATION 828 831	BBN
+T23	PRODUCT 855 862	Arpanet
+T24	ORDINAL 872 878	первых
+T25	PRODUCT 988 993	TENEX
+T26	PRODUCT 1092 1098	CPYNET
+T27	DATE 1166 1177	В 2009 году
+T28	DATE 1266 1277	В 2012 году
+T29	AWARD 1316 1335	Зал славы Интернета
+T30	AWARD 1188 1215	премией принца Астурийского
+T31	PRODUCT 1326 1335	Интернета
+T32	PERSON 1196 1215	принца Астурийского
+T33	STATE_OR_PROVINCE 1203 1215	Астурийского
+T34	PRODUCT 886 895	интернета
+T20	PERSON 779 782	Рэй
+T12	ORGANIZATION 596 608	Google Gmail
+T35	ORGANIZATION 596 602	Google
+T36	DATE 47 58	в 2004 году
+T37	DATE 59 76	5 марта 2016 года
+T38	PROFESSION 105 115	програмист
+T39	DISEASE 178 194	Инфаркт миокарда
+T40	EVENT 77 81	умер
+R1	POINT_IN_TIME Arg1:T40 Arg2:T37	
+R2	WORKS_AS Arg1:T5 Arg2:T38	
+R3	AGE_DIED_AT Arg1:T5 Arg2:T4	
+R4	ORIGINS_FROM Arg1:T5 Arg2:T3	
+R5	CAUSE_OF_DEATH Arg1:T5 Arg2:T39	
+R6	DATE_OF_BIRTH Arg1:T16 Arg2:T17	
+R7	PLACE_OF_BIRTH Arg1:T16 Arg2:T18	
+R8	WORKPLACE Arg1:T20 Arg2:T21	
+R9	ABBREVIATION Arg1:T21 Arg2:T22	
+R10	PRODUCES Arg1:T22 Arg2:T23	
+R11	PRODUCES Arg1:T20 Arg2:T25	
+R12	PRODUCES Arg1:T20 Arg2:T26	
+R13	AWARDED_WITH Arg1:T20 Arg2:T30	
+R14	AWARDED_WITH Arg1:T20 Arg2:T29	
+T41	PERSON 802 806	Bolt
+T42	PERSON 808 815	Beranek
+T43	PERSON 820 826	Newman
+R15	PARTICIPANT_IN Arg1:T5 Arg2:T40	
+T44	PERSON 230 239	Томлинсон
+R16	ALTERNATIVE_NAME Arg1:T5 Arg2:T44	
+R17	ALTERNATIVE_NAME Arg1:T9 Arg2:T14	
+T45	EVENT 632 638	смерти
+R18	PARTICIPANT_IN Arg1:T14 Arg2:T45	
+R19	ALTERNATIVE_NAME Arg1:T14 Arg2:T15	
+R20	ALTERNATIVE_NAME Arg1:T16 Arg2:T20	
+T46	EVENT 671 700	изобретение электронной почты
+R21	AGENT Arg1:T15 Arg2:T46	
+R22	AGE_IS Arg1:T38 Arg2:T4	
+R23	ORIGINS_FROM Arg1:T38 Arg2:T40	
+R24	PRODUCES Arg1:T32 Arg2:T30	
+R25	PART_OF Arg1:T12 Arg2:T35	
+N2	Reference T5 Wikidata:Q92631	Томлинсон, Рэй
+N3	Reference T8 Wikidata:Q177524	ARPANET
+N4	Reference T13 Wikidata:Q918	Твиттер
+N5	Reference T15 Wikidata:Q92631	Томлинсон, Рэй
+N6	Reference T16 Wikidata:Q92631	Томлинсон, Рэй
+N7	Reference T18 Wikidata:Q60	Нью-Йорк
+N10	Reference T29 Wikidata:Q6055547	Зал славы Интернета
+N12	Reference T31 Wikidata:Q75	Интернет
+N14	Reference T33 Wikidata:Q3934	Астурия
+N16	Reference T35 Wikidata:Q95	Google
+N17	Reference T38 Wikidata:Q5482740	программист
+N19	Reference T43 Wikidata:Q1231633	Ньюман, Эдуард
+N1	Reference T3 Wikidata:Q846570	
+N15	Reference T12 Wikidata:Q9334	Gmail
+N20	Reference T26 Wikidata:NULL	
+N9	Reference T25 Wikidata:Q2992529	
+N13	Reference T32 Wikidata:Q835706	Изабелла Астурийская
+N11	Reference T30 Wikidata:Q329157	
+N21	Reference T42 Wikidata:Q1344028	
+N18	Reference T41 Wikidata:Q4014752	
+N8	Reference T22 Wikidata:Q891612	
+N22	Reference T44 Wikidata:Q92631	Томлинсон, Рэй
+N23	Reference T23 Wikidata:Q177524	ARPANET
+N24	Reference T9 Wikidata:Q92631	Томлинсон, Рэй
+N25	Reference T14 Wikidata:Q92631	Томлинсон, Рэй
+N26	Reference T20 Wikidata:Q92631	Томлинсон, Рэй
+N27	Reference T1 Wikidata:Q92631	Томлинсон, Рэй
+N28	Reference T34 Wikidata:Q75	Интернет
+N29	Reference T21 Wikidata:Q891612	
+R26	POINT_IN_TIME Arg1:T30 Arg2:T27	
+T2	EVENT 734 741	родился
+R27	AGENT Arg1:T16 Arg2:T2	
+R28	POINT_IN_TIME Arg1:T2 Arg2:T17	
+R29	TAKES_PLACE_IN Arg1:T2 Arg2:T18	
+R30	POINT_IN_TIME Arg1:T29 Arg2:T28	

@@ -1,0 +1,204 @@
+T1	FACILITY 18 36	Никитском бульваре
+T3	PERSON 71 83	Юрия Башмета
+T4	FACILITY 84 101	Никитский бульвар
+T5	CITY 103 109	Москва
+T6	DATE 110 144	В понедельник, 4 февраля 2019 года
+T7	FACILITY 149 167	Никитском бульваре
+T8	CITY 175 181	Москве
+T10	PERSON 209 222	Ксении Башмет
+T11	PROFESSION 241 248	артиста
+T12	PERSON 254 266	Юрия Башмета
+T13	NUMBER 323 327	двух
+T14	NUMBER 368 372	семь
+T15	PERSON 387 393	Ксения
+T16	AGE 403 412	12-летним
+T17	DATE 471 480	1912 года
+T18	DATE 482 486	1915
+T19	TIME 508 522	около 1:00 мск
+T20	NUMBER 562 587	от 1 тыс. до 2 тыс. кв. м
+T21	ORGANIZATION 609 612	РБК
+T22	ORDINAL 678 683	пятом
+T23	LAW 811 826	ч. 3 ст. 109 УК
+T24	NUMBER 864 868	двум
+T25	ORGANIZATION 899 905	Москва
+T26	MONEY 962 982	ста миллионов рублей
+T27	PROFESSION 1009 1017	художник
+T28	PERSON 1018 1032	Никас Сафронов
+T29	PROFESSION 1034 1040	певица
+T31	PROFESSION 1063 1070	актриса
+T32	PERSON 1071 1091	Ингеборга Дапкунайте
+T33	PERSON 1093 1107	Никас Сафронов
+T36	NUMBER 1153 1178	километрах в четырех-пяти
+T37	LOCATION 1202 1210	Тверской
+T38	ORGANIZATION 1214 1218	Mash
+T39	PERSON 1255 1272	Вадим Сыроватский
+T40	PERSON 1281 1300	Наталья Сыроватская
+T41	PERSON 1309 1316	Шакуров
+T42	DATE 1327 1331	2013
+T43	PERSON 1334 1349	Галина Шакурова
+T44	PERSON 1358 1372	Елена Шакурова
+T45	PERSON 1381 1394	Алла Нагорная
+T46	PERSON 1403 1422	Елизавета Первякова
+T47	ORDINAL 1463 1469	шестом
+T48	ORGANIZATION 1514 1518	Mash
+T49	ORGANIZATION 1570 1573	ТСЖ
+T51	DATE 1629 1642	Больше 10 лет
+T52	PERSON 1667 1679	Юрия Башмета
+T53	NATIONALITY 1715 1725	американец
+T54	NUMBER 1939 1944	одной
+T55	NUMBER 2086 2089	125
+T56	NUMBER 2106 2110	пять
+T57	PERSON 2147 2164	Александр Орешкин
+T58	NUMBER 2227 2231	пять
+T59	NUMBER 2256 2260	двух
+T60	DATE 2331 2337	в 2013
+T61	ORGANIZATION 2400 2403	ТСЖ
+T62	PERSON 2450 2463	Ксения Башмет
+T63	ORGANIZATION 2502 2538	аспирантуру Московской консерватории
+T64	ORGANIZATION 2514 2538	Московской консерватории
+T65	EVENT 47 63	сгорела квартира
+T9	AWARD 231 253	народного артиста СССР
+T66	COUNTRY 249 253	СССР
+T67	EVENT 268 273	Пожар
+T68	EVENT 360 367	погибли
+T69	EVENT 456 461	Пожар
+T71	EVENT 661 666	пожар
+T73	LAW 816 826	ст. 109 УК
+T74	LAW 824 826	УК
+T76	PERSON 1041 1060	Любовь Казарновская
+T30	DATE 1274 1278	1994
+T34	DATE 1302 1306	1974
+T35	DATE 1351 1355	1982
+T77	DATE 1374 1378	1962
+T78	DATE 1396 1400	1936
+T50	NUMBER 1626 1628	44
+T80	PROFESSION 1658 1666	дирижера
+T81	PERSON 1680 1686	Ксения
+T82	PERSON 1726 1733	Джеффри
+T83	PERSON 1813 1819	Ксения
+T84	EVENT 1869 1874	пожар
+T85	FAMILY 2133 2142	Башметами
+T86	PROFESSION 2165 2207	глава московского ГБУ Автомобильные дороги
+T87	ORGANIZATION 2171 2207	московского ГБУ Автомобильные дороги
+T88	ORGANIZATION 2183 2207	ГБУ Автомобильные дороги
+T89	ORGANIZATION 2187 2207	Автомобильные дороги
+T90	CITY 2171 2182	московского
+T91	PROFESSION 2466 2475	пианистка
+T2	FACILITY 168 172	д.12
+T92	NUMBER 169 172	.12
+R2	WORKS_AS Arg1:T12 Arg2:T11	
+R3	AWARDED_WITH Arg1:T12 Arg2:T9	
+R4	ORIGINS_FROM Arg1:T9 Arg2:T66	
+T93	EVENT 192 208	сгорела квартира
+R5	ALTERNATIVE_NAME Arg1:T65 Arg2:T93	
+R6	TAKES_PLACE_IN Arg1:T65 Arg2:T1	
+R1	PARENT_OF Arg1:T12 Arg2:T10	
+R7	LOCATED_IN Arg1:T2 Arg2:T7	
+R8	LOCATED_IN Arg1:T4 Arg2:T5	
+R9	LOCATED_IN Arg1:T7 Arg2:T8	
+R10	TAKES_PLACE_IN Arg1:T93 Arg2:T2	
+R11	POINT_IN_TIME Arg1:T93 Arg2:T6	
+R12	ALTERNATIVE_NAME Arg1:T10 Arg2:T15	
+R13	DATE_FOUNDED_IN Arg1:T2 Arg2:T17	
+R14	WORKS_AS Arg1:T28 Arg2:T27	
+R15	DATE_OF_BIRTH Arg1:T39 Arg2:T30	
+R16	DATE_OF_BIRTH Arg1:T40 Arg2:T34	
+R17	DATE_OF_BIRTH Arg1:T41 Arg2:T42	
+R18	DATE_OF_BIRTH Arg1:T43 Arg2:T35	
+R19	DATE_OF_BIRTH Arg1:T44 Arg2:T77	
+R20	DATE_OF_BIRTH Arg1:T45 Arg2:T78	
+R21	ALTERNATIVE_NAME Arg1:T93 Arg2:T67	
+T70	EVENT 360 380	погибли семь человек
+R22	HAS_CAUSE Arg1:T70 Arg2:T67	
+R23	PART_OF Arg1:T23 Arg2:T73	
+R24	PART_OF Arg1:T73 Arg2:T74	
+R25	WORKS_AS Arg1:T76 Arg2:T29	
+R26	WORKS_AS Arg1:T32 Arg2:T31	
+R27	PLACE_RESIDES_IN Arg1:T28 Arg2:T2	
+R28	PLACE_RESIDES_IN Arg1:T76 Arg2:T2	
+T72	FACILITY 1611 1628	квартире номер 44
+R29	LOCATED_IN Arg1:T32 Arg2:T2	
+R30	WORKS_AS Arg1:T62 Arg2:T91	
+R31	SCHOOLS_ATTENDED Arg1:T62 Arg2:T63	
+R32	PART_OF Arg1:T63 Arg2:T64	
+T75	CITY 2514 2524	Московской
+R33	HEADQUARTERED_IN Arg1:T64 Arg2:T75	
+R34	WORKS_AS Arg1:T57 Arg2:T86	
+R35	WORKPLACE Arg1:T57 Arg2:T87	
+R36	PART_OF Arg1:T87 Arg2:T88	
+R37	MEMBER_OF Arg1:T62 Arg2:T85	
+R39	PARENT_OF Arg1:T52 Arg2:T81	
+R40	ORIGINS_FROM Arg1:T82 Arg2:T53	
+R41	PLACE_RESIDES_IN Arg1:T81 Arg2:T72	
+R42	PART_OF Arg1:T72 Arg2:T2	
+R43	PLACE_RESIDES_IN Arg1:T57 Arg2:T2	
+R44	PARTICIPANT_IN Arg1:T10 Arg2:T93	
+T79	EVENT 47 54	сгорела
+T94	EVENT 192 199	сгорела
+R45	START_TIME Arg1:T69 Arg2:T19	
+T95	EVENT 783 807	возбудили уголовное дело
+R46	HAS_CAUSE Arg1:T95 Arg2:T69	
+R47	WORKS_AS Arg1:T52 Arg2:T80	
+R48	MEMBER_OF Arg1:T83 Arg2:T85	
+N1	Reference T5 Wikidata:Q649	Москва
+N2	Reference T7 Wikidata:Q2921895	Никитский бульвар
+N3	Reference T11 Wikidata:Q483501	деятель искусств
+N4	Reference T12 Wikidata:Q156546	Юрий Абрамович Башмет
+N5	Reference T21 Wikidata:Q629733	РосБизнесКонсалтинг
+N8	Reference T27 Wikidata:Q1028181	художник
+N9	Reference T29 Wikidata:Q177220	певец
+N10	Reference T31 Wikidata:Q33999	актёр
+N11	Reference T32 Wikidata:Q435437	Ингеборга Дапкунайте
+N12	Reference T33 Wikidata:Q4409343	Сафронов Никас Степанович
+N25	Reference T64 Wikidata:Q215539	Московская консерватория
+N26	Reference T9 Wikidata:Q403569	народный артист СССР
+N27	Reference T66 Wikidata:Q15180	СССР
+N30	Reference T76 Wikidata:Q525770	Любовь Казарновская
+N31	Reference T80 Wikidata:Q158852	дирижёр
+N37	Reference T91 Wikidata:Q486748	пианист
+N38	Reference T2 Wikidata:NULL	нет данных
+N29	Reference T74 Wikidata:Q19705	уголовное законодательство
+N28	Reference T73 Wikidata:NULL	нет данных
+N6	Reference T23 Wikidata:NULL	нет данных
+N13	Reference T37 Wikidata:Q1644209	
+N14	Reference T39 Wikidata:NULL	нет данных
+N15	Reference T40 Wikidata:NULL	нет данных
+N16	Reference T41 Wikidata:NULL	нет данных
+N17	Reference T43 Wikidata:NULL	нет данных
+N18	Reference T44 Wikidata:NULL	нет данных
+N19	Reference T45 Wikidata:NULL	нет данных
+N20	Reference T46 Wikidata:NULL	нет данных
+N23	Reference T62 Wikidata:NULL	нет данных
+N40	Reference T75 Wikidata:Q649	Москва
+N24	Reference T63 Wikidata:NULL	нет данных
+N35	Reference T88 Wikidata:NULL	нет данных
+N33	Reference T86 Wikidata:NULL	нет данных
+N34	Reference T87 Wikidata:NULL	нет данных
+N36	Reference T89 Wikidata:NULL	нет данных
+N22	Reference T57 Wikidata:NULL	нет данных
+N41	Reference T49 Wikidata:Q706636	
+N39	Reference T72 Wikidata:NULL	нет данных
+N21	Reference T53 Wikidata:Q846570	
+N32	Reference T82 Wikidata:NULL	нет данных
+N42	Reference T48 Wikidata:Q48954641	Mash
+N7	Reference T25 Wikidata:Q94952743	
+N43	Reference T8 Wikidata:Q649	Москва
+N44	Reference T1 Wikidata:Q2921895	Никитский бульвар
+N45	Reference T4 Wikidata:Q2921895	Никитский бульвар
+N46	Reference T52 Wikidata:Q156546	Юрий Абрамович Башмет
+N47	Reference T3 Wikidata:Q156546	Юрий Абрамович Башмет
+N48	Reference T28 Wikidata:Q4409343	Сафронов Никас Степанович
+N49	Reference T10 Wikidata:NULL	нет данных
+N50	Reference T15 Wikidata:NULL	нет данных
+N51	Reference T83 Wikidata:NULL	нет данных
+N52	Reference T81 Wikidata:NULL	нет данных
+N53	Reference T90 Wikidata:Q649	Москва
+N54	Reference T61 Wikidata:Q706636	
+N55	Reference T38 Wikidata:Q48954641	Mash
+T96	EVENT 283 304	обрушению конструкций
+R38	HAS_CAUSE Arg1:T96 Arg2:T67	
+T97	EVENT 1559 1565	пожара
+T98	EVENT 2239 2253	затопило водой
+T99	EVENT 2261 2280	рухнули перегородки
+R49	HAS_CAUSE Arg1:T98 Arg2:T84	
+R50	HAS_CAUSE Arg1:T99 Arg2:T84	

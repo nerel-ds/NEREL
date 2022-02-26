@@ -1,0 +1,118 @@
+T1	COUNTRY 0 10	Британские
+T3	LAW 100 126	О следственных полномочиях
+T4	PROFESSION 138 164	государственному секретарю
+T6	LAW 322 348	разделе (4) (с) статьи 217
+T8	COUNTRY 956 970	Великобритании
+T9	DATE 1100 1108	один год
+T10	COUNTRY 1225 1239	Великобритании
+T11	COUNTRY 1557 1571	Великобритании
+T12	DATE 1574 1592	В ноябре 2016 года
+T13	COUNTRY 1593 1607	Великобритания
+T14	LAW 1707 1721	пакетом Яровой
+T15	COUNTRY 1735 1741	России
+T16	DATE 1742 1753	в июле 2016
+T17	DATE 1793 1807	в течение года
+T18	COUNTRY 1944 1954	британской
+T19	DATE 1999 2015	с июня 2016 года
+T20	PROFESSION 2021 2037	премьер-министра
+T21	COUNTRY 2038 2052	Великобритании
+T22	PERSON 2053 2063	Тереза Мэй
+T23	LAW 2231 2257	О следственных полномочиях
+T24	COUNTRY 2262 2272	российской
+T25	ORGANIZATION 2408 2428	Государственной думе
+T26	ORGANIZATION 2502 2533	Институт исследования интернета
+T27	ORGANIZATION 2535 2538	ИИИ
+T28	COUNTRY 2624 2634	российской
+T30	ORGANIZATION 2661 2664	ИИИ
+T31	PERSON 2665 2677	Ирина Леовая
+R1	ABBREVIATION Arg1:T27 Arg2:T26
+T2	PROFESSION 2021 2052	премьер-министра Великобритании
+T7	PERSON 2114 2120	Яровая
+T32	PRODUCT 2170 2179	Интернете
+T33	PERSON 2340 2346	Яровой
+T34	LAW 2332 2346	пакетом Яровой
+T35	PRODUCT 2395 2405	Интернетом
+T38	PERSON 1715 1721	Яровой
+R4	PRODUCES Arg1:T38 Arg2:T14	
+R5	ORIGINS_FROM Arg1:T15 Arg2:T14	
+R6	DATE_OF_CREATION Arg1:T14 Arg2:T16	
+T39	PROFESSION 1944 1963	британской королевы
+T40	PROFESSION 1955 1963	королевы
+R7	WORKPLACE Arg1:T22 Arg2:T21	
+R8	WORKS_AS Arg1:T22 Arg2:T2	
+R9	WORKPLACE Arg1:T2 Arg2:T21	
+T41	COUNTRY 2103 2113	британская
+T42	PERSON 2103 2120	британская Яровая
+R10	ALTERNATIVE_NAME Arg1:T22 Arg2:T42	
+R11	PRODUCES Arg1:T33 Arg2:T34	
+T43	PROFESSION 2429 2437	политики
+R12	WORKPLACE Arg1:T31 Arg2:T30	
+T44	PROFESSION 2651 2660	экспертов
+T45	PROFESSION 2651 2664	экспертов ИИИ
+R13	WORKS_AS Arg1:T31 Arg2:T45	
+R14	WORKPLACE Arg1:T45 Arg2:T30	
+T46	LAW 1616 1644	закон о слежке за абонентами
+T47	ORGANIZATION 0 17	Британские власти
+R15	HEADQUARTERED_IN Arg1:T47 Arg2:T1	
+T48	ORDINAL 331 332	4
+T49	ORDINAL 345 348	217
+T50	PROFESSION 646 684	сотрудников правоохранительных органов
+R16	ALTERNATIVE_NAME Arg1:T1 Arg2:T8	
+T37	EVENT 1608 1621	приняла закон
+R2	PARTICIPANT_IN Arg1:T13 Arg2:T37	
+R3	POINT_IN_TIME Arg1:T37 Arg2:T12	
+R17	PRODUCES Arg1:T13 Arg2:T46	
+R18	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R19	WORKPLACE Arg1:T39 Arg2:T18	
+R21	ALTERNATIVE_NAME Arg1:T15 Arg2:T24	
+R22	WORKPLACE Arg1:T43 Arg2:T25	
+T36	PRODUCT 2524 2533	интернета
+T29	PRODUCT 977 985	интернет
+T51	PRODUCT 1069 1077	интернет
+R20	PART_OF Arg1:T6 Arg2:T3	
+T5	PROFESSION 525 550	правительственным агентам
+R23	INANIMATE_INVOLVED Arg1:T46 Arg2:T37	
+R24	ORIGINS_FROM Arg1:T42 Arg2:T41	
+N4	Reference T8 Wikidata:Q145	Великобритания
+N6	Reference T20 Wikidata:Q14212	премьер-министр
+N8	Reference T25 Wikidata:Q715641	Государственная дума
+N10	Reference T2 Wikidata:Q14211	премьер-министр Великобритании
+N14	Reference T35 Wikidata:Q75	Интернет
+N17	Reference T42 Wikidata:Q198990	Яровое
+N18	Reference T43 Wikidata:Q82955	политик
+N19	Reference T44 Wikidata:Q381160	эксперт
+N23	Reference T5 Wikidata:Q392651	специальный агент
+N22	Reference T47 Wikidata:NULL	нет данных
+N1	Reference T3 Wikidata:NULL	нет данных
+N2	Reference T4 Wikidata:Q14214	
+N3	Reference T6 Wikidata:NULL	нет данных
+N24	Reference T50 Wikidata:Q6503343	
+N21	Reference T46 Wikidata:NULL	нет данных
+N20	Reference T45 Wikidata:NULL	нет данных
+N9	Reference T31 Wikidata:NULL	нет данных
+N25	Reference T27 Wikidata:NULL	нет данных
+N7	Reference T24 Wikidata:Q159	Россия
+N12	Reference T33 Wikidata:Q4538691	Ирина Яровая
+N13	Reference T34 Wikidata:Q25819517	Закон Яровой
+N11	Reference T7 Wikidata:Q4538691	Ирина Яровая
+N5	Reference T18 Wikidata:Q145	Великобритания
+N15	Reference T39 Wikidata:Q739941	Британская монархия
+N16	Reference T40 Wikidata:Q19643	
+N26	Reference T1 Wikidata:Q145	Великобритания
+N27	Reference T51 Wikidata:Q75	Интернет
+N28	Reference T29 Wikidata:Q75	Интернет
+N29	Reference T36 Wikidata:Q75	Интернет
+N30	Reference T32 Wikidata:Q75	Интернет
+N31	Reference T22 Wikidata:Q198990	Яровое
+N32	Reference T23 Wikidata:NULL	нет данных
+N33	Reference T26 Wikidata:NULL	нет данных
+N34	Reference T30 Wikidata:NULL	нет данных
+N35	Reference T28 Wikidata:Q159	Россия
+N36	Reference T15 Wikidata:Q159	Россия
+N37	Reference T38 Wikidata:Q4538691	Ирина Яровая
+N38	Reference T14 Wikidata:Q25819517	Закон Яровой
+N39	Reference T13 Wikidata:Q145	Великобритания
+N40	Reference T10 Wikidata:Q145	Великобритания
+N41	Reference T11 Wikidata:Q145	Великобритания
+N42	Reference T41 Wikidata:Q145	Великобритания
+N43	Reference T21 Wikidata:Q145	Великобритания

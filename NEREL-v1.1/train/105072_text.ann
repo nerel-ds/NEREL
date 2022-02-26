@@ -1,0 +1,106 @@
+T1	ORGANIZATION 0 3	ФСБ
+T2	PERSON 67 79	Ирина Яровая
+T3	ORGANIZATION 80 111	Федеральная служба безопасности
+T4	COUNTRY 112 114	РФ
+T5	DATE 230 246	7 июля 2016 года
+T6	PROFESSION 248 257	президент
+T7	COUNTRY 258 264	России
+T8	PERSON 265 279	Владимир Путин
+T9	ORGANIZATION 288 291	ФСБ
+T10	COUNTRY 474 476	РФ
+T11	DATE 479 499	12 августа 2016 года
+T12	ORGANIZATION 500 503	ФСБ
+T13	ORDINAL 543 548	№ 432
+T15	DATE 552 562	19.07.2016
+T17	ORGANIZATION 698 729	Федеральную службу безопасности
+T18	COUNTRY 730 750	Российской Федерации
+T19	PRODUCT 933 941	Интернет
+T20	ORGANIZATION 1543 1546	ФСБ
+T22	ORGANIZATION 1655 1658	ФСБ
+T23	COUNTRY 1659 1661	РФ
+T25	MONEY 1806 1818	1 млн рублей
+T26	ORGANIZATION 1869 1872	ФСБ
+T29	ORGANIZATION 80 114	Федеральная служба безопасности РФ
+T30	PROFESSION 248 264	президент России
+R6	WORKS_AS Arg1:T8 Arg2:T30	
+T16	ORGANIZATION 698 750	Федеральную службу безопасности Российской Федерации
+T31	ORGANIZATION 1589 1661	Организационно-аналитическое управление Научно-технической службы ФСБ РФ
+T32	ORGANIZATION 1629 1661	Научно-технической службы ФСБ РФ
+T33	ORGANIZATION 1589 1628	Организационно-аналитическое управление
+T34	ORGANIZATION 1655 1661	ФСБ РФ
+T21	ORGANIZATION 1629 1654	Научно-технической службы
+T24	PERSON 1861 1867	Яровой
+T27	LAW 1854 1867	пакета Яровой
+T28	PRODUCT 367 371	Сети
+T35	PRODUCT 686 694	Интернет
+R3	HEADQUARTERED_IN Arg1:T9 Arg2:T7	
+R1	HEADQUARTERED_IN Arg1:T29 Arg2:T4	
+T38	LAW 215 228	пакета Яровой
+T39	PERSON 222 228	Яровой
+R5	PRODUCES Arg1:T39 Arg2:T38	
+R7	PRODUCES Arg1:T24 Arg2:T27	
+T40	PRODUCT 1128 1136	Интернет
+R8	ALTERNATIVE_NAME Arg1:T4 Arg2:T7	
+T41	EVENT 202 213	подписанием
+R9	POINT_IN_TIME Arg1:T41 Arg2:T5	
+R10	WORKPLACE Arg1:T30 Arg2:T7	
+R12	PARTICIPANT_IN Arg1:T8 Arg2:T41	
+R13	ABBREVIATION Arg1:T3 Arg2:T1	
+T42	PRODUCT 164 172	интернет
+R14	ALTERNATIVE_NAME Arg1:T42 Arg2:T28	
+T14	LAW 564 694	Об утверждении Порядка представления организаторами распространения информации в информационно-телекоммуникационной сети «Интернет
+R15	DATE_OF_CREATION Arg1:T14 Arg2:T15	
+R4	HEADQUARTERED_IN Arg1:T16 Arg2:T18	
+R16	ABBREVIATION Arg1:T18 Arg2:T10	
+R17	HEADQUARTERED_IN Arg1:T22 Arg2:T23	
+R18	PART_OF Arg1:T31 Arg2:T32	
+R19	PART_OF Arg1:T32 Arg2:T34	
+T36	PENALTY 1790 1818	штраф в размере 1 млн рублей
+R20	PRICE_OF Arg1:T36 Arg2:T25	
+R21	ALTERNATIVE_NAME Arg1:T2 Arg2:T39	
+R22	ABBREVIATION Arg1:T3 Arg2:T12	
+R23	ABBREVIATION Arg1:T16 Arg2:T34	
+T37	CRIME 1673 1713	отказа предоставить ключ для расшифровки
+R24	HAS_CAUSE Arg1:T36 Arg2:T37	
+R2	WORKPLACE Arg1:T8 Arg2:T7	
+T43	LAW 536 548	приказ № 432
+R11	DATE_OF_CREATION Arg1:T43 Arg2:T15	
+R25	ALTERNATIVE_NAME Arg1:T43 Arg2:T14	
+R26	PRODUCES Arg1:T12 Arg2:T43	
+R27	INANIMATE_INVOLVED Arg1:T38 Arg2:T41	
+T44	PENALTY 1790 1795	штраф
+N1	Reference T3 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N2	Reference T6 Wikidata:Q30461	президент
+N3	Reference T7 Wikidata:Q159	Россия
+N4	Reference T8 Wikidata:Q7747	Владимир Владимирович Путин
+N5	Reference T18 Wikidata:Q159	Россия
+N6	Reference T29 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N7	Reference T30 Wikidata:Q218295	президент Российской Федерации
+N8	Reference T16 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N14	Reference T27 Wikidata:Q25819517	Закон Яровой
+N15	Reference T35 Wikidata:Q75	Интернет
+N16	Reference T42 Wikidata:Q75	Интернет
+N13	Reference T24 Wikidata:Q4538691	Ирина Яровая
+N17	Reference T43 Wikidata:NULL	
+N11	Reference T33 Wikidata:NULL	нет данных
+N9	Reference T31 Wikidata:NULL	нет данных
+N12	Reference T21 Wikidata:NULL	нет данных
+N10	Reference T32 Wikidata:NULL	нет данных
+N18	Reference T22 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N19	Reference T20 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N20	Reference T12 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N21	Reference T17 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N22	Reference T9 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N23	Reference T26 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N24	Reference T1 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N25	Reference T4 Wikidata:Q159	Россия
+N26	Reference T10 Wikidata:Q159	Россия
+N27	Reference T23 Wikidata:Q159	Россия
+N28	Reference T34 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+N29	Reference T38 Wikidata:Q25819517	Закон Яровой
+N30	Reference T19 Wikidata:Q75	Интернет
+N31	Reference T28 Wikidata:Q75	Интернет
+N32	Reference T40 Wikidata:Q75	Интернет
+N33	Reference T39 Wikidata:Q4538691	Ирина Яровая
+N34	Reference T2 Wikidata:Q4538691	Ирина Яровая
+N35	Reference T14 Wikidata:NULL	

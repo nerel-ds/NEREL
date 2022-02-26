@@ -1,0 +1,220 @@
+T2	PERSON 36 51	Дэвид Рокфеллер
+T3	PERSON 53 68	Дэвид Рокфеллер
+T4	DATE 69 89	24 октября 1953 года
+T5	COUNTRY 92 95	США
+T6	AGE 107 115	101 года
+T7	NATIONALITY 126 138	американский
+T8	PERSON 150 165	Дэвид Рокфеллер
+T9	PROFESSION 197 222	официальный представитель
+T10	PERSON 239 252	Фрейзер Сетел
+T12	PERSON 258 273	Дэвид Рокфеллер
+T13	DATE 279 312	в понедельник, 20 марта 2017 года
+T14	CITY 385 400	Покантико-Хиллз
+T15	STATE_OR_PROVINCE 409 417	Нью-Йорк
+T16	COUNTRY 500 518	Соединённых Штатах
+T17	DATE 532 549	12 июня 1915 года
+T18	NATIONALITY 550 562	американский
+T19	PROFESSION 571 594	государственный деятель
+T20	IDEOLOGY 596 605	глобалист
+T23	PERSON 631 654	Дэвид Рокфеллер старший
+T24	PROFESSION 665 682	нефтяного магната
+T25	ORDINAL 685 692	первого
+T26	PROFESSION 715 726	миллиардера
+T27	PERSON 727 752	Джона Дэвисона Рокфеллера
+T29	ORGANIZATION 765 777	Стандарт Ойл
+T30	ORDINAL 792 797	41-го
+T31	PROFESSION 798 817	вице-президента США
+T32	COUNTRY 814 817	США
+T33	PERSON 818 837	Нельсона Рокфеллера
+T34	PROFESSION 846 867	губернатора Арканзаса
+T35	PERSON 868 890	Уинтропа О. Рокфеллера
+T36	ORDINAL 892 898	Первый
+T37	AGE 933 941	столетия
+T38	COUNTRY 1030 1036	Китаем
+T39	COUNTRY 1039 1043	СССР
+T40	EVENT 1056 1070	холодной войны
+T41	ORGANIZATION 1073 1095	Трёхсторонняя комиссия
+T42	PERSON 1108 1119	Рокфеллером
+T43	DATE 1120 1131	в 1973 году
+T44	LOCATION 1161 1178	Северной Америкой
+T45	COUNTRY 1180 1187	Японией
+T46	LOCATION 1190 1206	Западной Европой
+T48	DATE 1362 1373	В 1979 году
+T49	PERSON 1374 1383	Рокфеллер
+T50	PERSON 1463 1481	Генри Киссинджером
+T51	PROFESSION 1496 1506	президента
+T52	PERSON 1507 1521	Джимми Картера
+T53	COUNTRY 1532 1541	иранскому
+T54	COUNTRY 1558 1561	США
+T55	COUNTRY 1648 1653	Иране
+T56	DATE 1673 1691	20 марта 2017 года
+T57	ORGANIZATION 1716 1722	Forbes
+T58	PERSON 1725 1734	Рокфеллер
+T59	ORDINAL 1741 1746	581-е
+T60	MONEY 1766 1775	$3,3 млрд
+T61	MONEY 1871 1901	почти 2 миллиарда долларов США
+T62	PERSON 1904 1913	Рокфеллер
+T63	ORGANIZATION 1985 2001	Americas Society
+T64	ORGANIZATION 2015 2037	Трёхстороннюю комиссию
+T65	CITY 2091 2101	ньюйоркцам
+T66	ORGANIZATION 2102 2127	New York City Partnership
+T67	PERSON 2130 2139	Рокфеллер
+T68	PERSON 2222 2233	Марка Ротко
+T69	DATE 2255 2266	в 1960 году
+T71	DATE 2293 2308	в мае 2007 года
+T72	MONEY 2338 2358	72 миллиона долларов
+R17	WORKS_AS Arg1:T52 Arg2:T51
+T75	PROFESSION 563 569	банкир
+T22	ORDINAL 840 845	37-го
+T28	STATE_OR_PROVINCE 858 867	Арканзаса
+T76	IDEOLOGY 1253 1265	ультраправых
+T77	IDEOLOGY 1268 1281	конспирологов
+T47	IDEOLOGY 946 958	правой среде
+T78	PROFESSION 1532 1546	иранскому шаху
+T80	EVENT 1403 1425	международном скандале
+T82	LOCATION 1803 1808	Земле
+T21	FAMILY 619 630	Рокфеллеров
+T83	PROFESSION 846 857	губернатора
+R2	FOUNDED_BY Arg1:T41 Arg2:T42	
+R3	KNOWS Arg1:T49 Arg2:T50	
+T84	PROFESSION 1542 1546	шаху
+T1	PERSON 150 173	Дэвид Рокфеллер старший
+R4	ORIGINS_FROM Arg1:T1 Arg2:T7	
+R5	AGE_DIED_AT Arg1:T1 Arg2:T6	
+R6	FOUNDED_BY Arg1:T29 Arg2:T27	
+T73	EVENT 1626 1645	захватом заложников
+R8	FOUNDED_BY Arg1:T63 Arg2:T62	
+R9	FOUNDED_BY Arg1:T64 Arg2:T62	
+R10	FOUNDED_BY Arg1:T66 Arg2:T62	
+T85	PROFESSION 18 28	миллиардер
+T86	PROFESSION 139 149	миллиардер
+R11	WORKS_AS Arg1:T10 Arg2:T9	
+T87	PROFESSION 1701 1713	миллиардеров
+T88	PROFESSION 1809 1821	миллиардером
+R12	KNOWS Arg1:T49 Arg2:T52	
+R13	KNOWS Arg1:T50 Arg2:T52	
+R15	POINT_IN_TIME Arg1:T80 Arg2:T48	
+R18	PLACE_OF_DEATH Arg1:T1 Arg2:T5	
+T11	DISEASE 324 359	застойной сердечной недостаточности
+T70	DISEASE 334 359	сердечной недостаточности
+R14	DATE_OF_DEATH Arg1:T12 Arg2:T13	
+R16	CAUSE_OF_DEATH Arg1:T12 Arg2:T11	
+R19	LOCATED_IN Arg1:T14 Arg2:T15	
+R20	PLACE_OF_DEATH Arg1:T12 Arg2:T14	
+R21	DATE_FOUNDED_IN Arg1:T41 Arg2:T43	
+R22	DATE_OF_BIRTH Arg1:T23 Arg2:T17	
+R1	IDEOLOGY_OF Arg1:T23 Arg2:T20	
+R7	WORKS_AS Arg1:T23 Arg2:T19	
+R23	WORKS_AS Arg1:T23 Arg2:T75	
+R24	RELATIVE Arg1:T23 Arg2:T27	
+R25	SIBLING Arg1:T23 Arg2:T33	
+R26	SIBLING Arg1:T23 Arg2:T35	
+R27	WORKPLACE Arg1:T33 Arg2:T32	
+R28	WORKS_AS Arg1:T33 Arg2:T31	
+R29	WORKPLACE Arg1:T35 Arg2:T28	
+R30	WORKS_AS Arg1:T35 Arg2:T34	
+T74	CITY 2102 2115	New York City
+T89	PROFESSION 798 813	вице-президента
+T90	EVENT 0 4	Умер
+R32	PARTICIPANT_IN Arg1:T2 Arg2:T90	
+T91	EVENT 116 125	скончался
+R33	ALTERNATIVE_NAME Arg1:T90 Arg2:T91	
+R34	ORIGINS_FROM Arg1:T86 Arg2:T7	
+R35	PARTICIPANT_IN Arg1:T8 Arg2:T91	
+R36	TAKES_PLACE_IN Arg1:T91 Arg2:T5	
+T92	EVENT 274 278	умер
+R37	ALTERNATIVE_NAME Arg1:T91 Arg2:T92	
+R38	PARTICIPANT_IN Arg1:T12 Arg2:T92	
+R39	POINT_IN_TIME Arg1:T92 Arg2:T13	
+R40	TAKES_PLACE_IN Arg1:T92 Arg2:T14	
+R41	ALTERNATIVE_NAME Arg1:T5 Arg2:T7	
+R42	ORIGINS_FROM Arg1:T75 Arg2:T18	
+R43	ORIGINS_FROM Arg1:T19 Arg2:T18	
+R44	ALTERNATIVE_NAME Arg1:T12 Arg2:T23	
+R45	RELATIVE Arg1:T23 Arg2:T24	
+R46	WORKPLACE Arg1:T31 Arg2:T32	
+R47	WORKPLACE Arg1:T34 Arg2:T28	
+R48	ALTERNATIVE_NAME Arg1:T23 Arg2:T49	
+R49	PARTICIPANT_IN Arg1:T49 Arg2:T80	
+R50	PARTICIPANT_IN Arg1:T50 Arg2:T80	
+R51	WORKPLACE Arg1:T52 Arg2:T54	
+R52	WORKPLACE Arg1:T51 Arg2:T54	
+R53	WORKPLACE Arg1:T78 Arg2:T53	
+R54	OWNER_OF Arg1:T58 Arg2:T60	
+R55	PLACE_RESIDES_IN Arg1:T88 Arg2:T82	
+R56	PLACE_RESIDES_IN Arg1:T58 Arg2:T82	
+T79	DISEASE 1576 1583	лимфомы
+R31	MEDICAL_CONDITION Arg1:T78 Arg2:T79	
+R57	TAKES_PLACE_IN Arg1:T73 Arg2:T55	
+R58	ALTERNATIVE_NAME Arg1:T5 Arg2:T16	
+R59	ALTERNATIVE_NAME Arg1:T16 Arg2:T32	
+R60	ALTERNATIVE_NAME Arg1:T53 Arg2:T55	
+T94	COUNTRY 1898 1901	США
+R61	EXPENDITURE Arg1:T58 Arg2:T61	
+R62	HEADQUARTERED_IN Arg1:T66 Arg2:T74	
+N5	Reference T16 Wikidata:Q35657	штат США
+N7	Reference T24 Wikidata:Q903810	магнат
+N8	Reference T27 Wikidata:Q160278	Джон Дэвисон Рокфеллер
+N9	Reference T29 Wikidata:Q375791	Standard Oil
+N10	Reference T31 Wikidata:Q11699	вице-президент США
+N11	Reference T33 Wikidata:Q11237	Нельсон Олдрич Рокфеллер
+N13	Reference T38 Wikidata:Q148	Китайская Народная Республика
+N14	Reference T39 Wikidata:Q15180	СССР
+N15	Reference T44 Wikidata:Q49	Северная Америка
+N16	Reference T45 Wikidata:Q17	Япония
+N17	Reference T46 Wikidata:Q27496	Западная Европа
+N18	Reference T50 Wikidata:Q66107	Генри Киссинджер
+N19	Reference T51 Wikidata:Q30461	президент
+N20	Reference T52 Wikidata:Q23685	Джимми Картер
+N21	Reference T57 Wikidata:Q25161472	Форбс
+N24	Reference T64 Wikidata:Q218868	Трёхсторонняя комиссия
+N26	Reference T68 Wikidata:Q160149	Марк Ротко
+N27	Reference T75 Wikidata:Q806798	банкир
+N28	Reference T28 Wikidata:Q1612	Арканзас
+N30	Reference T82 Wikidata:Q2	Земля
+N31	Reference T83 Wikidata:Q132050	губернатор
+N33	Reference T85 Wikidata:Q1062083	миллиардер
+N3	Reference T14 Wikidata:Q7206281	
+N4	Reference T15 Wikidata:Q1384	Нью-Йорк
+N1	Reference T9 Wikidata:Q17221	
+N2	Reference T10 Wikidata:Q5493653	
+N6	Reference T18 Wikidata:Q30	США
+N36	Reference T19 Wikidata:Q372436	
+N35	Reference T89 Wikidata:Q42178	вице-президент
+N12	Reference T35 Wikidata:Q878708	
+N37	Reference T34 Wikidata:Q1540336	
+N38	Reference T53 Wikidata:Q794	Иран
+N32	Reference T84 Wikidata:Q184299	шах
+N29	Reference T78 Wikidata:Q184299	шах
+N22	Reference T62 Wikidata:Q11239	
+N34	Reference T74 Wikidata:Q60	Нью-Йорк
+N39	Reference T65 Wikidata:Q60	Нью-Йорк
+N25	Reference T66 Wikidata:Q4046506	
+N23	Reference T63 Wikidata:Q4745666	
+N40	Reference T94 Wikidata:Q35657	штат США
+N41	Reference T5 Wikidata:Q35657	штат США
+N42	Reference T32 Wikidata:Q35657	штат США
+N43	Reference T54 Wikidata:Q35657	штат США
+N44	Reference T41 Wikidata:Q218868	Трёхсторонняя комиссия
+N45	Reference T88 Wikidata:Q1062083	миллиардер
+N46	Reference T86 Wikidata:Q1062083	миллиардер
+N47	Reference T26 Wikidata:Q1062083	миллиардер
+N48	Reference T87 Wikidata:Q1062083	миллиардер
+N49	Reference T7 Wikidata:Q30	США
+N50	Reference T55 Wikidata:Q794	Иран
+N51	Reference T1 Wikidata:Q11239	
+N52	Reference T3 Wikidata:Q11239	
+N53	Reference T8 Wikidata:Q11239	
+N54	Reference T49 Wikidata:Q11239	
+N55	Reference T58 Wikidata:Q11239	
+N56	Reference T42 Wikidata:Q11239	
+N57	Reference T2 Wikidata:Q11239	
+N58	Reference T67 Wikidata:Q11239	
+N59	Reference T23 Wikidata:Q11239	
+N60	Reference T12 Wikidata:Q11239	
+R63	MEMBER_OF Arg1:T23 Arg2:T21	
+T81	LOCATION 1199 1206	Европой
+R64	LOCATED_IN Arg1:T46 Arg2:T81	
+T93	EVENT 2309 2323	ушла с молотка
+R65	PRICE_OF Arg1:T93 Arg2:T72	
+R66	POINT_IN_TIME Arg1:T93 Arg2:T71	

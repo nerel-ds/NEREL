@@ -1,0 +1,182 @@
+T2	PERSON 28 44	Айдар Губайдулин
+T3	COUNTRY 53 59	Россию
+T5	PERSON 108 124	Айдар Губайдулин
+T6	COUNTRY 133 139	Россию
+T7	PROFESSION 184 191	адвокат
+T8	PERSON 192 205	Максим Пашков
+T9	PERSON 282 292	Губайдулин
+T10	PERSON 295 311	Айдар Губайдулин
+T11	PRODUCT 340 348	Facebook
+T12	DATE 393 407	последних дней
+T13	DATE 453 467	ближайшие годы
+T14	CITY 506 512	Москву
+T15	COUNTRY 515 521	Россию
+T16	COUNTRY 648 654	Россия
+T17	AGE 724 734	26-летнего
+T18	LAW 781 799	ч. 2 ст. 212 УК РФ
+T19	DATE 812 819	27 июля
+T20	CITY 840 846	Москве
+T21	LAW 935 966	ч. 3 ст. 30, ч. 1 ст. 318 УК РФ
+T22	DATE 968 979	С 9 августа
+T23	DATE 1007 1018	через месяц
+T24	DATE 1020 1031	18 сентября
+T25	ORGANIZATION 1033 1055	Мещанский районный суд
+T27	ORGANIZATION 1074 1085	прокуратуру
+T28	PERSON 1089 1100	Губайдулина
+T29	ORGANIZATION 1137 1145	Мемориал
+T30	PERSON 1155 1166	Губайдулина
+T31	DATE 1194 1204	15 октября
+T32	LAW 1256 1341	части 1 статьи 318 УК РФ «угроза применения насилия в отношении представителя власти»
+T33	PERSON 1370 1380	Губайдулин
+T34	PERSON 1447 1472	Айдар Наилевич Губайдулин
+T35	DATE 1481 1502	10 сентября 1993 года
+T36	CITY 1505 1508	Уфе
+T37	DATE 1512 1521	2011 году
+T38	ORGANIZATION 1533 1537	МФТИ
+T39	CITY 1551 1563	Долгопрудный
+T40	DATE 1567 1576	2018 году
+T41	ORGANIZATION 1613 1617	ФУПМ
+T42	PROFESSION 1648 1661	программистом
+T43	CITY 1699 1705	Москве
+T44	EVENT 10 26	московского дела
+T1	EVENT 90 106	московского дела
+T4	PRODUCT 226 234	телеграм
+T45	PROFESSION 735 747	программиста
+T46	PERSON 980 985	Айдар
+T47	ORGANIZATION 998 1002	СИЗО
+R1	WORKS_AS Arg1:T8 Arg2:T7	
+R2	WORKS_AS Arg1:T10 Arg2:T45	
+T51	CRIME 759 779	массовых беспорядках
+R3	AGE_IS Arg1:T10 Arg2:T17	
+R4	DATE_OF_BIRTH Arg1:T34 Arg2:T35	
+R5	PLACE_OF_BIRTH Arg1:T34 Arg2:T36	
+R6	SCHOOLS_ATTENDED Arg1:T34 Arg2:T38	
+R7	SCHOOLS_ATTENDED Arg1:T34 Arg2:T41	
+R8	WORKS_AS Arg1:T34 Arg2:T42	
+R9	PLACE_RESIDES_IN Arg1:T34 Arg2:T39	
+T26	LAW 1275 1277	УК
+R10	PARTICIPANT_IN Arg1:T2 Arg2:T44	
+R11	PARTICIPANT_IN Arg1:T5 Arg2:T1	
+T48	PENALTY 158 178	подпиской о невыезде
+R12	SUBORDINATE_OF Arg1:T8 Arg2:T5	
+R13	ALTERNATIVE_NAME Arg1:T5 Arg2:T9	
+T49	PENALTY 1115 1134	подписку о невыезде
+R14	PLACE_RESIDES_IN Arg1:T34 Arg2:T43	
+T50	LAW 794 799	УК РФ
+T52	LAW 794 796	УК
+T53	COUNTRY 797 799	РФ
+R15	LOCATED_IN Arg1:T46 Arg2:T47	
+T54	LAW 961 966	УК РФ
+T55	EVENT 823 837	акции протеста
+R16	TAKES_PLACE_IN Arg1:T55 Arg2:T20	
+R17	POINT_IN_TIME Arg1:T55 Arg2:T19	
+R18	PARTICIPANT_IN Arg1:T45 Arg2:T55	
+R19	PARTICIPANT_IN Arg1:T46 Arg2:T55	
+T56	COUNTRY 964 966	РФ
+T57	LAW 961 963	УК
+T58	LAW 1275 1280	УК РФ
+T59	COUNTRY 1278 1280	РФ
+R20	PLACE_RESIDES_IN Arg1:T2 Arg2:T3	
+R21	PLACE_RESIDES_IN Arg1:T5 Arg2:T6	
+R22	PENALIZED_AS Arg1:T5 Arg2:T48	
+R23	CONVICTED_OF Arg1:T10 Arg2:T51	
+T60	ORDINAL 784 785	2
+T61	ORDINAL 790 793	212
+R24	ORIGINS_FROM Arg1:T50 Arg2:T53	
+T62	ORDINAL 938 939	3
+T63	ORDINAL 944 946	30
+T64	ORDINAL 957 960	318
+R25	ORIGINS_FROM Arg1:T54 Arg2:T56	
+R26	PENALIZED_AS Arg1:T28 Arg2:T49	
+T65	ORDINAL 1262 1263	1
+T66	ORDINAL 1271 1274	318
+T67	EVENT 1209 1235	предъявили новое обвинение
+R27	PARTICIPANT_IN Arg1:T30 Arg2:T67	
+R28	POINT_IN_TIME Arg1:T67 Arg2:T31	
+R29	ORIGINS_FROM Arg1:T26 Arg2:T59	
+T68	CRIME 1282 1340	угроза применения насилия в отношении представителя власти
+R30	CONVICTED_OF Arg1:T28 Arg2:T68	
+R31	HEADQUARTERED_IN Arg1:T38 Arg2:T39	
+R32	PART_OF Arg1:T41 Arg2:T38	
+R33	PART_OF Arg1:T18 Arg2:T50	
+R34	PART_OF Arg1:T21 Arg2:T54	
+T69	LAW 1256 1280	части 1 статьи 318 УК РФ
+R35	PART_OF Arg1:T69 Arg2:T58	
+T70	EVENT 45 52	покинул
+R36	AGENT Arg1:T2 Arg2:T70	
+R37	TAKES_PLACE_IN Arg1:T70 Arg2:T3	
+T71	EVENT 125 132	покинул
+R38	AGENT Arg1:T5 Arg2:T71	
+R39	TAKES_PLACE_IN Arg1:T71 Arg2:T6	
+R40	LOCATED_IN Arg1:T14 Arg2:T15	
+R41	CONVICTED_OF Arg1:T45 Arg2:T51	
+R42	AGE_IS Arg1:T45 Arg2:T17	
+T72	EVENT 850 876	бросил пластиковую бутылку
+R43	HAS_CAUSE Arg1:T51 Arg2:T72	
+R44	SUBEVENT_OF Arg1:T72 Arg2:T55	
+R45	TAKES_PLACE_IN Arg1:T72 Arg2:T20	
+R46	POINT_IN_TIME Arg1:T72 Arg2:T19	
+T73	DISTRICT 1033 1042	Мещанский
+R47	HEADQUARTERED_IN Arg1:T25 Arg2:T73	
+T74	EVENT 1101 1134	отпустили под подписку о невыезде
+R48	PARTICIPANT_IN Arg1:T28 Arg2:T74	
+R49	HAS_CAUSE Arg1:T67 Arg2:T32	
+T75	CITY 10 21	московского
+R50	TAKES_PLACE_IN Arg1:T44 Arg2:T75	
+T76	CITY 90 101	московского
+R51	TAKES_PLACE_IN Arg1:T1 Arg2:T76	
+R52	ALTERNATIVE_NAME Arg1:T76 Arg2:T14	
+R53	LOCATED_IN Arg1:T73 Arg2:T20	
+N1	Reference T7 Wikidata:Q40348	адвокат
+N4	Reference T11 Wikidata:Q355	Facebook
+N5	Reference T15 Wikidata:Q159	Россия
+N9	Reference T27 Wikidata:Q1092499	прокуратура
+N10	Reference T29 Wikidata:Q851563	Мемориал
+N13	Reference T36 Wikidata:Q911	Уфа
+N14	Reference T38 Wikidata:Q1367256	МФТИ
+N15	Reference T39 Wikidata:Q135394	Долгопрудный
+N16	Reference T42 Wikidata:Q5482740	программист
+N17	Reference T4 Wikidata:Q15616276	Telegram
+N21	Reference T53 Wikidata:Q159	Россия
+N22	Reference T58 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N24	Reference T73 Wikidata:Q2626320	Мещанский район
+N25	Reference T75 Wikidata:Q649	Москва
+N2	Reference T8 Wikidata:NULL	нет данных
+N3	Reference T10 Wikidata:NULL	нет данных
+N6	Reference T18 Wikidata:NULL	нет данных
+N7	Reference T21 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:NULL	нет данных
+N19	Reference T47 Wikidata:Q2945301	следственный изолятор
+N8	Reference T25 Wikidata:NULL	нет данных
+N20	Reference T26 Wikidata:Q19705	уголовное законодательство
+N23	Reference T69 Wikidata:NULL	нет данных
+N11	Reference T32 Wikidata:NULL	нет данных
+N12	Reference T34 Wikidata:NULL	нет данных
+N26	Reference T41 Wikidata:Q42952392	
+N27	Reference T3 Wikidata:Q159	Россия
+N28	Reference T16 Wikidata:Q159	Россия
+N29	Reference T6 Wikidata:Q159	Россия
+N30	Reference T45 Wikidata:Q5482740	программист
+N31	Reference T56 Wikidata:Q159	Россия
+N32	Reference T59 Wikidata:Q159	Россия
+N33	Reference T50 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N34	Reference T54 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N35	Reference T14 Wikidata:Q649	Москва
+N36	Reference T43 Wikidata:Q649	Москва
+N37	Reference T20 Wikidata:Q649	Москва
+N38	Reference T76 Wikidata:Q649	Москва
+N39	Reference T5 Wikidata:NULL	нет данных
+N40	Reference T9 Wikidata:NULL	нет данных
+N41	Reference T33 Wikidata:NULL	нет данных
+N42	Reference T2 Wikidata:NULL	нет данных
+N43	Reference T28 Wikidata:NULL	нет данных
+N44	Reference T30 Wikidata:NULL	нет данных
+N45	Reference T52 Wikidata:Q19705	уголовное законодательство
+N46	Reference T57 Wikidata:Q19705	уголовное законодательство
+T77	EVENT 1473 1480	родился
+R54	PARTICIPANT_IN Arg1:T34 Arg2:T77	
+R55	POINT_IN_TIME Arg1:T77 Arg2:T35	
+R56	TAKES_PLACE_IN Arg1:T77 Arg2:T36	
+T78	EVENT 1540 1548	переехал
+R57	AGENT Arg1:T34 Arg2:T78	
+R58	TAKES_PLACE_IN Arg1:T78 Arg2:T39	

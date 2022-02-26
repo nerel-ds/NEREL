@@ -1,0 +1,107 @@
+T1	ORDINAL 0 9	Четвёртый
+T2	AGE 31 52	Тридцатичетырёхлетний
+T3	NATIONALITY 53 61	японский
+T4	PERSON 78 93	Дайсуке Эномото
+T5	PERSON 95 110	Daisuke Enomoto
+T6	ORDINAL 118 127	четвёртым
+T7	COUNTRY 167 179	американская
+T8	ORGANIZATION 187 203	Спейс адвентчерс
+T9	ORGANIZATION 206 222	Space Adventures
+T10	CITY 227 237	Арлингтона
+T11	STATE_OR_PROVINCE 244 253	Вирджиния
+T12	ORGANIZATION 262 278	Спейс адвентчерс
+T13	PERSON 338 345	Эномото
+T14	ORGANIZATION 490 522	Российском космическом агентстве
+T15	PERSON 620 627	Эномото
+T16	ORDINAL 635 641	первым
+T17	FACILITY 673 706	Международную космическую станцию
+T20	PERSON 726 733	Эномото
+T21	DATE 754 785	в сентябре текущего (2006) года
+T23	PRODUCT 798 809	Союз ТМА-9»
+T24	MONEY 863 879	20 млн. долларов
+T25	PERSON 893 908	Дайсуке Эномото
+T26	ORDINAL 933 940	седьмым
+T27	ORDINAL 978 984	вторым
+T28	COUNTRY 1034 1042	советско
+T29	COUNTRY 1043 1053	российском
+T30	PRODUCT 1063 1067	Союз
+T31	ORDINAL 1070 1076	Первым
+T32	COUNTRY 1077 1085	японским
+T33	PERSON 1103 1118	Тойехиро Акияма
+T34	DATE 1128 1147	в декабре 1990 года
+T35	DATE 1157 1171	восьмисуточный
+T36	PRODUCT 1190 1200	Союз ТМ-11
+T37	FACILITY 1214 1217	Мир
+T38	PROFESSION 62 77	предприниматель
+T39	COUNTRY 490 500	Российском
+T40	NATIONALITY 642 649	японцем
+T18	COUNTRY 941 949	японским
+T19	PROFESSION 950 961	космонавтом
+T22	PROFESSION 994 1005	космонавтом
+T41	PROFESSION 1086 1097	космонавтом
+R1	ALTERNATIVE_NAME Arg1:T4 Arg2:T5	
+R2	WORKS_AS Arg1:T4 Arg2:T38	
+R3	ORIGINS_FROM Arg1:T4 Arg2:T3	
+R4	AGE_IS Arg1:T4 Arg2:T2	
+R5	ALTERNATIVE_NAME Arg1:T8 Arg2:T9	
+R6	HEADQUARTERED_IN Arg1:T8 Arg2:T10	
+R7	LOCATED_IN Arg1:T10 Arg2:T11	
+R8	LOCATED_IN Arg1:T11 Arg2:T7	
+R9	HEADQUARTERED_IN Arg1:T8 Arg2:T7	
+R10	ALTERNATIVE_NAME Arg1:T4 Arg2:T13	
+R11	HEADQUARTERED_IN Arg1:T14 Arg2:T39	
+R12	ORIGINS_FROM Arg1:T15 Arg2:T40	
+R14	ORIGINS_FROM Arg1:T19 Arg2:T18	
+R13	ORIGINS_FROM Arg1:T40 Arg2:T18	
+R15	WORKS_AS Arg1:T25 Arg2:T19	
+T42	COUNTRY 985 993	японским
+R16	ORIGINS_FROM Arg1:T22 Arg2:T42	
+R17	PRODUCES Arg1:T29 Arg2:T30	
+R18	PRODUCES Arg1:T28 Arg2:T30	
+R19	ORIGINS_FROM Arg1:T41 Arg2:T32	
+R20	WORKS_AS Arg1:T33 Arg2:T41	
+T43	EVENT 1172 1177	полёт
+R21	PARTICIPANT_IN Arg1:T33 Arg2:T43	
+R22	POINT_IN_TIME Arg1:T43 Arg2:T34	
+R23	INANIMATE_INVOLVED Arg1:T37 Arg2:T43	
+R24	EXPENDITURE Arg1:T20 Arg2:T24	
+R25	ORIGINS_FROM Arg1:T38 Arg2:T3	
+T44	EVENT 734 753	отправится в космос
+R26	AGENT Arg1:T20 Arg2:T44	
+T45	NUMBER 807 808	9
+R27	INANIMATE_INVOLVED Arg1:T23 Arg2:T44	
+R28	POINT_IN_TIME Arg1:T44 Arg2:T21	
+R29	ALTERNATIVE_NAME Arg1:T23 Arg2:T30	
+R30	INANIMATE_INVOLVED Arg1:T36 Arg2:T43	
+R31	ALTERNATIVE_NAME Arg1:T17 Arg2:T37	
+N3	Reference T10 Wikidata:Q107126	Арлингтон
+N4	Reference T11 Wikidata:Q1370	Виргиния
+N6	Reference T14 Wikidata:Q190795	Роскосмос
+N8	Reference T30 Wikidata:Q579421	Союз
+N9	Reference T33 Wikidata:Q285944	Тоёхиро Акияма
+N10	Reference T36 Wikidata:Q577280	Союз ТМ-11
+N12	Reference T38 Wikidata:Q131524	предприниматель
+N16	Reference T22 Wikidata:Q11631	космонавт
+N1	Reference T3 Wikidata:Q58893412	
+N17	Reference T5 Wikidata:Q1157671	
+N2	Reference T7 Wikidata:Q30	США
+N5	Reference T12 Wikidata:Q81133	Space Adventures
+N13	Reference T39 Wikidata:Q159	Россия
+N14	Reference T40 Wikidata:Q58893412	
+N15	Reference T18 Wikidata:Q17	Япония
+N7	Reference T28 Wikidata:Q15180	СССР
+N11	Reference T37 Wikidata:Q48604	Мир
+N18	Reference T23 Wikidata:Q579421	Союз
+N19	Reference T19 Wikidata:Q11631	космонавт
+N20	Reference T41 Wikidata:Q11631	космонавт
+N21	Reference T13 Wikidata:Q1157671	
+N22	Reference T20 Wikidata:Q1157671	
+N23	Reference T15 Wikidata:Q1157671	
+N24	Reference T25 Wikidata:Q1157671	
+N25	Reference T4 Wikidata:Q1157671	
+N26	Reference T9 Wikidata:Q81133	Space Adventures
+N27	Reference T8 Wikidata:Q81133	Space Adventures
+N28	Reference T29 Wikidata:Q159	Россия
+N29	Reference T32 Wikidata:Q17	Япония
+N30	Reference T42 Wikidata:Q17	Япония
+N31	Reference T17 Wikidata:Q48604	Мир

@@ -1,0 +1,130 @@
+T1	PERSON 0 11	Дэвид Мойес
+T2	PROFESSION 19 27	тренером
+T3	ORGANIZATION 29 46	Манчестер Юнайтед
+T4	PERSON 48 59	Дэвид Мойес
+T5	PERSON 61 75	Алекс Фергюсон
+T6	DATE 77 92	9 мая 2013 года
+T7	ORGANIZATION 115 132	Манчестер Юнайтед
+T8	PROFESSION 159 183	главным тренером команды
+T9	AGE 191 200	50-летний
+T10	PERSON 201 212	Дэвид Мойес
+T11	PROFESSION 238 249	наставником
+T12	ORGANIZATION 251 259	Эвертона
+T13	NATIONALITY 272 281	шотландца
+T14	ORGANIZATION 285 303	красными дьяволами
+T16	DATE 345 363	с 1 июня 2013 года
+T17	PROFESSION 370 373	Сэр
+T19	PERSON 408 421	Дэвида Мойеса
+T20	PERSON 480 488	Фергюсон
+T21	PERSON 614 627	Дэвиде Мойесе
+T22	PERSON 629 634	Дэвид
+T23	DATE 781 792	В 1998 году
+T24	PROFESSION 838 856	ассистента тренера
+T25	ORGANIZATION 860 862	МЮ
+T26	ORGANIZATION 977 985	Эвертоне
+T27	PERSON 1020 1025	Мойес
+T28	PROFESSION 1070 1077	тренера
+T29	ORGANIZATION 1079 1081	МЮ
+T30	PERSON 1093 1098	Мойес
+T31	PROFESSION 1103 1114	наставником
+T32	ORGANIZATION 1116 1122	ирисок
+T33	DATE 1124 1135	с 2002 года
+T34	PROFESSION 1151 1159	тренером
+T35	ORGANIZATION 1178 1190	премьер-лиге
+T36	DATE 1201 1208	2002/03
+T37	DATE 1210 1217	2004/05
+T38	DATE 1220 1229	2008/2009
+T39	PROFESSION 19 46	тренером «Манчестер Юнайтед
+T42	PROFESSION 238 259	наставником «Эвертона
+T15	NUMBER 318 319	6
+T47	PROFESSION 1070 1081	тренера «МЮ
+T49	AWARD 1151 1164	тренером года
+T50	COUNTRY 1167 1177	английской
+T51	CITY 29 38	Манчестер
+R1	HEADQUARTERED_IN Arg1:T3 Arg2:T51	
+R2	WORKS_AS Arg1:T1 Arg2:T39	
+R3	WORKPLACE Arg1:T1 Arg2:T3	
+R4	WORKPLACE Arg1:T39 Arg2:T3	
+T52	CITY 115 124	Манчестер
+R5	HEADQUARTERED_IN Arg1:T7 Arg2:T52	
+T40	PROFESSION 159 175	главным тренером
+R6	AGE_IS Arg1:T10 Arg2:T9	
+R7	WORKS_AS Arg1:T10 Arg2:T8	
+R8	WORKPLACE Arg1:T42 Arg2:T12	
+R9	WORKS_AS Arg1:T10 Arg2:T42	
+R10	WORKPLACE Arg1:T10 Arg2:T12	
+R11	ALTERNATIVE_NAME Arg1:T7 Arg2:T14	
+T18	PERSON 374 388	Алекс Фергюсон
+R12	WORKS_AS Arg1:T18 Arg2:T17	
+R13	KNOWS Arg1:T18 Arg2:T19	
+R14	ALTERNATIVE_NAME Arg1:T18 Arg2:T20	
+R15	ALTERNATIVE_NAME Arg1:T21 Arg2:T22	
+R16	ABBREVIATION Arg1:T7 Arg2:T25	
+R18	WORKPLACE Arg1:T47 Arg2:T29	
+R19	ALTERNATIVE_NAME Arg1:T39 Arg2:T47	
+R22	WORKPLACE Arg1:T30 Arg2:T32	
+R23	ALTERNATIVE_NAME Arg1:T22 Arg2:T27	
+R24	ALTERNATIVE_NAME Arg1:T26 Arg2:T32	
+R25	AWARDED_WITH Arg1:T30 Arg2:T49	
+T44	ORGANIZATION 1167 1190	английской премьер-лиге
+R26	HEADQUARTERED_IN Arg1:T44 Arg2:T50	
+R27	PART_OF Arg1:T29 Arg2:T44	
+R28	PART_OF Arg1:T26 Arg2:T44	
+R29	WORKPLACE Arg1:T30 Arg2:T44	
+R30	ALTERNATIVE_NAME Arg1:T31 Arg2:T34	
+R32	LOCATED_IN Arg1:T52 Arg2:T50	
+T45	PROFESSION 849 856	тренера
+R31	SUBORDINATE_OF Arg1:T24 Arg2:T45	
+T41	PROFESSION 838 862	ассистента тренера в «МЮ
+R17	WORKPLACE Arg1:T41 Arg2:T25	
+T43	PROFESSION 1103 1122	наставником «ирисок
+R20	WORKPLACE Arg1:T43 Arg2:T32	
+R21	WORKS_AS Arg1:T30 Arg2:T43	
+R33	WORKPLACE Arg1:T8 Arg2:T7	
+R34	WORKPLACE Arg1:T10 Arg2:T7	
+R35	ORIGINS_FROM Arg1:T10 Arg2:T13	
+R36	PRODUCES Arg1:T44 Arg2:T49	
+R37	POINT_IN_TIME Arg1:T49 Arg2:T36	
+R38	POINT_IN_TIME Arg1:T49 Arg2:T37	
+R39	POINT_IN_TIME Arg1:T49 Arg2:T38	
+N1	Reference T10 Wikidata:Q297252	Мойес, Дэвид
+N2	Reference T12 Wikidata:Q5794	Эвертон
+N4	Reference T17 Wikidata:Q209690	сэр
+N6	Reference T26 Wikidata:Q5794	Эвертон
+N7	Reference T29 Wikidata:Q18656	Манчестер Юнайтед
+N14	Reference T51 Wikidata:Q18125	Манчестер
+N15	Reference T18 Wikidata:Q44980	Алекс Фергюсон
+N16	Reference T44 Wikidata:Q9448	Английская Премьер-лига
+N19	Reference T40 Wikidata:Q3246315	
+N20	Reference T8 Wikidata:Q3246315	
+N10	Reference T42 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:Q181634	шотландцы
+N5	Reference T24 Wikidata:Q11703711	
+N17	Reference T41 Wikidata:NULL	нет данных
+N11	Reference T47 Wikidata:NULL	нет данных
+N8	Reference T31 Wikidata:Q41583	тренер
+N18	Reference T43 Wikidata:NULL	нет данных
+N13	Reference T50 Wikidata:Q145	Великобритания
+N9	Reference T35 Wikidata:Q9448	Английская Премьер-лига
+N12	Reference T49 Wikidata:Q2448217	
+N21	Reference T27 Wikidata:Q297252	Мойес, Дэвид
+N22	Reference T22 Wikidata:Q297252	Мойес, Дэвид
+N23	Reference T19 Wikidata:Q297252	Мойес, Дэвид
+N24	Reference T4 Wikidata:Q297252	Мойес, Дэвид
+N25	Reference T1 Wikidata:Q297252	Мойес, Дэвид
+N26	Reference T21 Wikidata:Q297252	Мойес, Дэвид
+N27	Reference T30 Wikidata:Q297252	Мойес, Дэвид
+N28	Reference T32 Wikidata:Q5794	Эвертон
+N29	Reference T14 Wikidata:Q18656	Манчестер Юнайтед
+N30	Reference T25 Wikidata:Q18656	Манчестер Юнайтед
+N31	Reference T7 Wikidata:Q18656	Манчестер Юнайтед
+N32	Reference T3 Wikidata:Q18656	Манчестер Юнайтед
+N33	Reference T52 Wikidata:Q18125	Манчестер
+N34	Reference T5 Wikidata:Q44980	Алекс Фергюсон
+N35	Reference T20 Wikidata:Q44980	Алекс Фергюсон
+N36	Reference T39 Wikidata:NULL	нет данных
+N37	Reference T34 Wikidata:Q41583	тренер
+N38	Reference T11 Wikidata:Q41583	тренер
+N39	Reference T28 Wikidata:Q41583	тренер
+N40	Reference T2 Wikidata:Q41583	тренер
+N41	Reference T45 Wikidata:Q41583	тренер

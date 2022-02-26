@@ -1,0 +1,88 @@
+T1	COUNTRY 0 10	Украинские
+T2	PERSON 50 64	Пётр Порошенко
+T3	PROFESSION 65 74	Президент
+T4	COUNTRY 75 82	Украины
+T5	PERSON 83 97	Пётр Порошенко
+T6	ORGANIZATION 122 164	Совета национальной безопасности и обороны
+T7	ORGANIZATION 166 170	СНБО
+T8	DATE 264 284	29 декабря 2016 года
+T11	ORGANIZATION 421 439	Кабинету министров
+T12	COUNTRY 440 447	Украины
+T13	DATE 459 471	трёхмесячный
+T14	ORGANIZATION 500 514	Верховной Рады
+T15	DATE 612 635	от 7 сентября 2005 года
+T16	LAW 636 645	№ 2824-IV
+T17	DATE 1011 1021	до 90 дней
+T18	DATE 1051 1059	до 3 лет
+T19	ORGANIZATION 1068 1081	правительство
+T20	ORGANIZATION 1538 1557	Службе безопасности
+T21	COUNTRY 1558 1565	Украины
+T23	ORGANIZATION 1593 1653	Государственной службы специальной связи и защиты информации
+T24	DATE 1663 1682	в течение 2017 года
+T25	COUNTRY 1792 1798	России
+T26	PROFESSION 1807 1816	президент
+T27	ORGANIZATION 1825 1832	Кабмину
+R2	WORKPLACE Arg1:T5 Arg2:T4
+R3	ABBREVIATION Arg1:T7 Arg2:T6
+T28	PROFESSION 65 82	Президент Украины
+R1	WORKS_AS Arg1:T5 Arg2:T28	
+T9	ORGANIZATION 421 447	Кабинету министров Украины
+T10	ORGANIZATION 1538 1565	Службе безопасности Украины
+T30	ORGANIZATION 1578 1653	Администрацией Государственной службы специальной связи и защиты информации
+T31	LAW 173 252	Об угрозах кибербезопасности государства и неотложных мерах по их нейтрализации
+T32	LAW 556 585	Конвенции о киберпреступности
+T33	LAW 35 47	пакет Яровой
+T34	PERSON 41 47	Яровой
+R7	PRODUCES Arg1:T34 Arg2:T33	
+R8	WORKPLACE Arg1:T28 Arg2:T4	
+T35	EVENT 98 113	ввёл в действие
+R9	AGENT Arg1:T5 Arg2:T35	
+R10	PARTICIPANT_IN Arg1:T6 Arg2:T35	
+R11	DATE_OF_CREATION Arg1:T31 Arg2:T8	
+R4	HEADQUARTERED_IN Arg1:T9 Arg2:T12	
+T36	LAW 604 645	законом от 7 сентября 2005 года № 2824-IV
+R12	DATE_OF_CREATION Arg1:T36 Arg2:T15	
+R13	ALTERNATIVE_NAME Arg1:T9 Arg2:T19	
+R5	HEADQUARTERED_IN Arg1:T10 Arg2:T21	
+R6	ALTERNATIVE_NAME Arg1:T19 Arg2:T27	
+R14	ALTERNATIVE_NAME Arg1:T28 Arg2:T26	
+R15	ALTERNATIVE_NAME Arg1:T1 Arg2:T4	
+T22	PROFESSION 381 398	главы государства
+R16	ALTERNATIVE_NAME Arg1:T28 Arg2:T22	
+T29	ORDINAL 638 645	2824-IV
+T37	ORGANIZATION 0 17	Украинские власти
+R17	HEADQUARTERED_IN Arg1:T37 Arg2:T1	
+R18	INANIMATE_INVOLVED Arg1:T31 Arg2:T35	
+R19	HEADQUARTERED_IN Arg1:T14 Arg2:T12	
+R21	ORIGINS_FROM Arg1:T36 Arg2:T12	
+R20	PART_OF Arg1:T30 Arg2:T23	
+R22	HEADQUARTERED_IN Arg1:T23 Arg2:T21	
+N1	Reference T3 Wikidata:Q30461	президент
+N2	Reference T5 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N3	Reference T6 Wikidata:Q1563383	Совет национальной безопасности и обороны Украины
+N4	Reference T11 Wikidata:Q640506	кабинет министров
+N5	Reference T14 Wikidata:Q176296	Верховная Рада Украины
+N7	Reference T21 Wikidata:Q212	Украина
+N8	Reference T23 Wikidata:Q1968146	Государственная служба специальной связи и защиты информации Украины
+N9	Reference T25 Wikidata:Q159	Россия
+N11	Reference T10 Wikidata:Q615811	Служба безопасности Украины
+N17	Reference T37 Wikidata:NULL	нет данных
+N15	Reference T33 Wikidata:Q25819517	Закон Яровой
+N16	Reference T34 Wikidata:Q4538691	Ирина Яровая
+N13	Reference T31 Wikidata:NULL	нет данных
+N18	Reference T36 Wikidata:NULL	нет данных
+N19	Reference T16 Wikidata:NULL	нет данных
+N14	Reference T32 Wikidata:NULL	нет данных
+N12	Reference T30 Wikidata:NULL	нет данных
+N10	Reference T27 Wikidata:Q640506	кабинет министров
+N6	Reference T20 Wikidata:Q3238445	
+N20	Reference T28 Wikidata:Q30461	президент
+N21	Reference T22 Wikidata:Q30461	президент
+N22	Reference T26 Wikidata:Q30461	президент
+N23	Reference T2 Wikidata:Q58077	Пётр Алексеевич Порошенко
+N24	Reference T7 Wikidata:Q1563383	Совет национальной безопасности и обороны Украины
+N25	Reference T4 Wikidata:Q212	Украина
+N26	Reference T1 Wikidata:Q212	Украина
+N27	Reference T12 Wikidata:Q212	Украина
+N28	Reference T19 Wikidata:Q640506	кабинет министров
+N29	Reference T9 Wikidata:Q640506	кабинет министров

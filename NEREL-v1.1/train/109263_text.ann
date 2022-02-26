@@ -1,0 +1,133 @@
+T1	PERSON 25 40	Дональда Трампа
+T2	COUNTRY 77 85	Германии
+T3	PROFESSION 126 140	президента США
+T4	PERSON 141 156	Дональда Трампа
+T5	PERSON 274 291	Фридрихом Трумпом
+T6	DATE 292 303	в 1905 году
+T7	DATE 329 343	на этой неделе
+T8	COUNTRY 344 352	немецким
+T9	ORGANIZATION 364 368	Bild
+T10	PROFESSION 383 397	принцу-регенту
+T11	PERSON 441 447	Трампу
+T12	COUNTRY 459 467	Германии
+T13	PERSON 470 483	Фридрих Трумп
+T14	AGE 510 516	16 лет
+T15	COUNTRY 543 546	США
+T16	ORGANIZATION 567 586	The Washington Post
+T18	EVENT 701 718	Золотой лихорадки
+T19	STATE_OR_PROVINCE 733 737	Юкон
+T20	NUMBER 754 758	один
+T21	PERSON 833 839	Трумпа
+T22	FACILITY 855 862	Арктика
+T23	FACILITY 934 941	Арктика
+T24	PROFESSION 977 986	журналист
+T25	ORGANIZATION 996 1005	Yukon Sun
+T26	COUNTRY 1224 1232	Германии
+T27	PERSON 1234 1239	Трумп
+T28	COUNTRY 1333 1341	Германию
+T29	DATE 1342 1363	в начале 1900-х годов
+T31	COUNTRY 1480 1488	Германию
+T32	COUNTRY 1528 1540	Американский
+T33	PROFESSION 1553 1562	пенсионер
+T34	CITY 1610 1620	Кальштадте
+T35	STATE_OR_PROVINCE 1670 1677	Баварию
+T36	DATE 1757 1777	от февраля 1905 года
+T37	ORGANIZATION 1789 1803	Немецкая волна
+T38	PERSON 1829 1835	Трумпа
+T39	PROFESSION 1836 1850	принцу-регенту
+T40	COUNTRY 137 140	США
+T41	PERSON 1563 1576	Фридрих Трумп
+T30	LAW 1248 1289	закон об обязательной воинской повинности
+T42	PROFESSION 795 811	золотодобытчиков
+T44	EVENT 0 19	Опубликовано письмо
+T45	COUNTRY 192 200	Германии
+T46	LOCATION 186 200	южной Германии
+T47	STATE_OR_PROVINCE 398 408	Баварскому
+T48	PROFESSION 383 408	принцу-регенту Баварскому
+T49	PERSON 409 419	Луитпольду
+T50	PROFESSION 126 136	президента
+R1	WORKPLACE Arg1:T3 Arg2:T40	
+R2	WORKS_AS Arg1:T4 Arg2:T3	
+R3	LOCATED_IN Arg1:T46 Arg2:T45	
+R4	RELATIVE Arg1:T5 Arg2:T4	
+R5	HEADQUARTERED_IN Arg1:T9 Arg2:T8	
+R6	WORKPLACE Arg1:T48 Arg2:T47	
+R7	WORKS_AS Arg1:T49 Arg2:T48	
+R8	WORKPLACE Arg1:T49 Arg2:T47	
+R9	ALTERNATIVE_NAME Arg1:T5 Arg2:T11	
+R10	ALTERNATIVE_NAME Arg1:T13 Arg2:T21	
+R11	WORKPLACE Arg1:T24 Arg2:T25	
+R12	PLACE_RESIDES_IN Arg1:T41 Arg2:T34	
+T51	NATIONALITY 1528 1550	Американский гражданин
+R13	ORIGINS_FROM Arg1:T41 Arg2:T51	
+T52	CRIME 225 252	уклонение от военной службы
+R14	CONVICTED_OF Arg1:T4 Arg2:T52	
+R15	PLACE_RESIDES_IN Arg1:T13 Arg2:T15	
+R16	PARTICIPANT_IN Arg1:T13 Arg2:T18	
+R17	TAKES_PLACE_IN Arg1:T18 Arg2:T19	
+R18	OWNER_OF Arg1:T21 Arg2:T22	
+R19	LOCATED_IN Arg1:T34 Arg2:T35	
+T17	PENALTY 1714 1724	депортации
+T53	CRIME 1240 1289	нарушил закон об обязательной воинской повинности
+R20	PLACE_RESIDES_IN Arg1:T4 Arg2:T45	
+T54	PENALTY 204 217	депортировать
+R21	PENALIZED_AS Arg1:T4 Arg2:T54	
+R22	HAS_CAUSE Arg1:T54 Arg2:T52	
+R23	CONVICTED_OF Arg1:T27 Arg2:T53	
+R24	AGE_IS Arg1:T13 Arg2:T14	
+R25	ORIGINS_FROM Arg1:T51 Arg2:T32	
+R26	PLACE_RESIDES_IN Arg1:T11 Arg2:T12	
+R27	LOCATED_IN Arg1:T47 Arg2:T12	
+T43	CITY 571 581	Washington
+R28	HEADQUARTERED_IN Arg1:T16 Arg2:T43	
+R29	LOCATED_IN Arg1:T19 Arg2:T15	
+T55	STATE_OR_PROVINCE 996 1001	Yukon
+R30	HEADQUARTERED_IN Arg1:T25 Arg2:T55	
+R31	LOCATED_IN Arg1:T35 Arg2:T31	
+T56	COUNTRY 1789 1797	Немецкая
+R32	HEADQUARTERED_IN Arg1:T37 Arg2:T56	
+R33	ALTERNATIVE_NAME Arg1:T31 Arg2:T56	
+N1	Reference T3 Wikidata:Q11696	президент США
+N2	Reference T4 Wikidata:Q22686	Дональд Трамп
+N4	Reference T9 Wikidata:Q445723	Computer Bild
+N6	Reference T15 Wikidata:Q30	США
+N7	Reference T16 Wikidata:Q166032	The Washington Post
+N8	Reference T19 Wikidata:Q2009	Юкон
+N10	Reference T24 Wikidata:Q1930187	журналист
+N12	Reference T26 Wikidata:Q183	Германия
+N16	Reference T34 Wikidata:Q22537	Кальштадт
+N17	Reference T35 Wikidata:Q154195	Королевство Бавария
+N18	Reference T37 Wikidata:Q153770	Deutsche Welle
+N20	Reference T46 Wikidata:Q46519	Южная Германия
+N22	Reference T49 Wikidata:Q44785	Луитпольд Баварский
+N23	Reference T50 Wikidata:Q30461	президент
+N3	Reference T5 Wikidata:NULL	нет данных
+N26	Reference T48 Wikidata:NULL	нет данных
+N21	Reference T47 Wikidata:Q980	Бавария
+N5	Reference T13 Wikidata:NULL	нет данных
+N25	Reference T43 Wikidata:Q61	Вашингтон
+N27	Reference T42 Wikidata:NULL	нет данных
+N9	Reference T22 Wikidata:NULL	нет данных
+N11	Reference T25 Wikidata:Q100287778	
+N28	Reference T55 Wikidata:Q2073642	
+N13	Reference T27 Wikidata:NULL	нет данных
+N19	Reference T30 Wikidata:NULL	нет данных
+N24	Reference T51 Wikidata:Q846570	
+N14	Reference T32 Wikidata:Q30	США
+N15	Reference T33 Wikidata:Q1749879	
+N29	Reference T39 Wikidata:NULL	нет данных
+N30	Reference T1 Wikidata:Q22686	Дональд Трамп
+N31	Reference T40 Wikidata:Q30	США
+N32	Reference T8 Wikidata:Q183	Германия
+N33	Reference T56 Wikidata:Q183	Германия
+N34	Reference T12 Wikidata:Q183	Германия
+N35	Reference T31 Wikidata:Q183	Германия
+N36	Reference T28 Wikidata:Q183	Германия
+N37	Reference T2 Wikidata:Q183	Германия
+N38	Reference T45 Wikidata:Q183	Германия
+N39	Reference T11 Wikidata:NULL	нет данных
+N40	Reference T38 Wikidata:NULL	нет данных
+N41	Reference T41 Wikidata:NULL	нет данных
+N42	Reference T21 Wikidata:NULL	нет данных
+N43	Reference T23 Wikidata:NULL	нет данных
+N44	Reference T10 Wikidata:NULL	нет данных

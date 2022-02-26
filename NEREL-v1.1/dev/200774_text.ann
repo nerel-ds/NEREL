@@ -1,0 +1,47 @@
+T1	CITY 38 49	московского
+T3	CITY 79 90	московского
+T6	NUMBER 118 122	двое
+T7	FACILITY 173 188	Улица 1905 года
+T9	MONEY 371 392	более 45 тысяч рублей
+T11	LAW 577 607	части 2 статьи 214 «Вандализм»
+T12	DATE 777 788	до трёх лет
+T2	FACILITY 38 55	московского метро
+T13	FACILITY 79 96	московского метро
+T4	TIME 97 117	В ночь на 19 декабря
+T5	DATE 107 117	19 декабря
+T14	EVENT 130 147	проникли на крышу
+T8	EVENT 262 279	оторвали от опоры
+T10	DATE 493 511	В настоящий момент
+T15	EVENT 512 537	злоумышленников задержали
+T16	CRIME 611 695	'Вандализм, то есть осквернение зданий или иных сооружений, совершённые группой лиц'
+T17	ORDINAL 592 595	214
+T18	LAW 585 607	статьи 214 «Вандализм»
+T19	CRIME 597 606	Вандализм
+T20	ORDINAL 583 584	2
+T21	PENALTY 761 788	лишение свободы до трёх лет
+R1	LOCATED_IN Arg1:T2 Arg2:T1	
+R2	LOCATED_IN Arg1:T13 Arg2:T3	
+R3	POINT_IN_TIME Arg1:T14 Arg2:T5	
+R4	TAKES_PLACE_IN Arg1:T14 Arg2:T7	
+R5	POINT_IN_TIME Arg1:T8 Arg2:T5	
+R6	TAKES_PLACE_IN Arg1:T8 Arg2:T7	
+R7	POINT_IN_TIME Arg1:T15 Arg2:T10	
+T22	EVENT 0 17	Букву «М» сломали
+R9	TAKES_PLACE_IN Arg1:T22 Arg2:T2	
+R10	PART_OF Arg1:T7 Arg2:T2	
+R11	ALTERNATIVE_NAME Arg1:T22 Arg2:T8	
+R12	HAS_CAUSE Arg1:T15 Arg2:T8	
+R13	PART_OF Arg1:T11 Arg2:T18	
+T23	PENALTY 761 776	лишение свободы
+R14	HAS_CAUSE Arg1:T15 Arg2:T8	
+N2	Reference T7 Wikidata:Q2721708	Улица 1905 года
+N4	Reference T13 Wikidata:Q5499	Московский метрополитен
+N6	Reference T19 Wikidata:Q6160	вандализм
+N1	Reference T3 Wikidata:Q649	Москва
+N5	Reference T18 Wikidata:NULL	нет данных
+N3	Reference T11 Wikidata:NULL	нет данных
+N7	Reference T2 Wikidata:Q5499	Московский метрополитен
+N8	Reference T1 Wikidata:Q649	Москва
+N9	Reference T16 Wikidata:NULL	нет данных
+T24	DATE 179 188	1905 года
+R8	ALTERNATIVE_NAME Arg1:T19 Arg2:T16	

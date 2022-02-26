@@ -1,0 +1,52 @@
+T1	ORGANIZATION 0 11	Фольксваген
+T2	ORGANIZATION 39 44	Порше
+T3	ORGANIZATION 52 62	Volkswagen
+T4	CITY 65 76	Вольфсбурге
+T5	COUNTRY 78 86	Германия
+T6	DATE 87 119	Во вторник, 23 октября 2007 года
+T7	ORGANIZATION 121 134	Верховный суд
+T8	ORGANIZATION 135 144	Евросоюза
+T9	LOCATION 168 180	европейскому
+T10	COUNTRY 198 206	немецкий
+T11	LAW 214 228	О Фольксвагене
+T12	ORGANIZATION 248 259	Фольксваген
+T13	ORGANIZATION 316 327	Фольксваген
+T15	PERCENT 421 433	20 процентов
+T16	ORGANIZATION 457 462	Порше
+T17	PERCENT 476 493	около 31 процента
+T18	ORGANIZATION 501 513	Фольксвагена
+T19	ORGANIZATION 609 614	Порше
+T20	NUMBER 691 708	четырехпроцентным
+T21	ORGANIZATION 733 738	Порше
+R4	OWNER_OF Arg1:T16 Arg2:T18
+T22	FACILITY 46 62	Завод Volkswagen
+R2	LOCATED_IN Arg1:T4 Arg2:T5	
+T14	ORGANIZATION 121 144	Верховный суд Евросоюза
+T23	EVENT 145 197	признал противоречащим европейскому законодательству
+T24	PROFESSION 526 535	экспертов
+R1	LOCATED_IN Arg1:T22 Arg2:T4	
+R3	POINT_IN_TIME Arg1:T23 Arg2:T6	
+R5	PARTICIPANT_IN Arg1:T14 Arg2:T23	
+R7	OWNER_OF Arg1:T3 Arg2:T22	
+T26	ORGANIZATION 216 228	Фольксвагене
+R8	PART_OF Arg1:T14 Arg2:T8	
+N1	Reference T1 Wikidata:Q156578	Volkswagen
+N2	Reference T3 Wikidata:Q156578	Volkswagen
+N3	Reference T4 Wikidata:Q3014	Вольфсбург
+N4	Reference T5 Wikidata:Q183	Германия
+N5	Reference T7 Wikidata:Q190752	верховный суд
+N6	Reference T8 Wikidata:Q458	Европейский союз
+N10	Reference T16 Wikidata:Q2104551	Porsche Automobil Holding SE
+N12	Reference T24 Wikidata:Q381160	эксперт
+N13	Reference T22 Wikidata:NULL	нет данных
+N11	Reference T14 Wikidata:Q1518827	Европейский суд (Европейский союз)
+N7	Reference T9 Wikidata:Q458	Европейский союз
+N8	Reference T10 Wikidata:Q183	Германия
+N9	Reference T11 Wikidata:Q1605349	
+N14	Reference T13 Wikidata:Q156578	Volkswagen
+N15	Reference T12 Wikidata:Q156578	Volkswagen
+N16	Reference T26 Wikidata:Q156578	Volkswagen
+N17	Reference T18 Wikidata:Q156578	Volkswagen
+N18	Reference T19 Wikidata:Q2104551	Porsche Automobil Holding SE
+N19	Reference T2 Wikidata:Q2104551	Porsche Automobil Holding SE
+N20	Reference T21 Wikidata:Q2104551	Porsche Automobil Holding SE

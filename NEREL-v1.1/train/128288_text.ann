@@ -1,0 +1,187 @@
+T1	CITY 0 10	Московский
+T2	ORGANIZATION 28 34	Арарат
+T3	PERSON 48 66	Александр Григорян
+T4	ORGANIZATION 95 101	Арарат
+T5	ORGANIZATION 142 152	ПФЛ России
+T6	PROFESSION 200 214	главный тренер
+T7	PERSON 223 241	Александр Григорян
+T8	ORGANIZATION 256 271	Спорт Экспрессу
+T9	PERSON 273 281	Григорян
+T10	ORGANIZATION 310 316	Арарат
+T11	ORGANIZATION 371 377	Рязани
+T12	DATE 404 424	31 августа 2017 года
+T13	PROFESSION 445 460	президент клуба
+T14	PERSON 461 477	Валерий Оганесян
+T15	COUNTRY 550 556	Грузию
+T16	MONEY 626 645	20 миллионов рублей
+T17	ORGANIZATION 746 752	Арарат
+T18	DATE 765 788	в конце марта 2017 года
+T19	ORGANIZATION 803 839	Ассоциации армянской молодёжи Москвы
+T20	CITY 883 894	ереванского
+T21	DATE 947 956	2017 года
+T23	DATE 1056 1072	30 мая 2017 года
+T24	ORGANIZATION 1095 1098	РФС
+T25	DATE 1156 1165	2017—2018
+T26	DATE 1167 1180	в тот же день
+T27	PROFESSION 1217 1242	нападающий сборной России
+T28	COUNTRY 1236 1242	России
+T29	PERSON 1243 1259	Роман Павлюченко
+T30	DATE 1261 1267	7 июня
+T31	COUNTRY 1338 1344	России
+T32	PERSON 1347 1360	Алексея Ребко
+T33	AGE 1362 1371	31-летний
+T34	CITY 1408 1419	московского
+T35	ORGANIZATION 1421 1429	Спартака
+T36	DATE 1435 1441	9 июня
+T37	PERSON 1444 1460	Марата Измайлова
+T38	PROFESSION 1463 1479	Главным тренером
+T39	AGE 1501 1510	45-летний
+T40	PERSON 1522 1536	Сергей Булатов
+T41	DATE 1570 1578	на 1 год
+T42	DATE 1588 1605	30 июля 2017 года
+T43	PROFESSION 1686 1726	Исполняющим обязанности главного тренера
+T44	AGE 1736 1745	31-летний
+T45	PERSON 1746 1761	Аркадий Имреков
+T46	PERSON 1796 1804	Булатова
+T47	DATE 1806 1816	16 августа
+T48	PROFESSION 1822 1838	главного тренера
+T49	PERSON 1845 1863	Александр Григорян
+T50	DATE 1879 1888	2017/2018
+T51	ORGANIZATION 1936 1939	ФНЛ
+T52	FACILITY 1983 2030	главной арене стадиона имени Эдуарда Стрельцова
+T53	FACILITY 1997 2030	стадиона имени Эдуарда Стрельцова
+T54	PERSON 2012 2030	Эдуарда Стрельцова
+T55	ORGANIZATION 1875 1878	ПФЛ
+T56	PROFESSION 1710 1726	главного тренера
+T57	EVENT 1609 1626	покинул свой пост
+T58	PROFESSION 1372 1384	полузащитник
+T59	ORGANIZATION 1228 1242	сборной России
+T60	PERSON 1037 1053	Н. П. Старостина
+T61	CITY 939 945	Москва
+T62	CITY 833 839	Москвы
+T63	NATIONALITY 814 823	армянской
+T64	CITY 67 77	Московский
+T65	COUNTRY 146 152	России
+T66	EVENT 36 47	закрывается
+T67	EVENT 155 183	прекратит свое существование
+T68	EVENT 318 329	закрывается
+R1	HEADQUARTERED_IN Arg1:T2 Arg2:T1	
+R2	PARTICIPANT_IN Arg1:T2 Arg2:T66	
+R3	HEADQUARTERED_IN Arg1:T4 Arg2:T64	
+R4	HEADQUARTERED_IN Arg1:T5 Arg2:T65	
+T69	ORGANIZATION 142 145	ПФЛ
+R5	ALTERNATIVE_NAME Arg1:T66 Arg2:T67	
+R6	PARTICIPANT_IN Arg1:T4 Arg2:T67	
+R7	WORKS_AS Arg1:T7 Arg2:T6	
+R8	WORKPLACE Arg1:T7 Arg2:T4	
+R9	WORKPLACE Arg1:T6 Arg2:T4	
+R10	ALTERNATIVE_NAME Arg1:T7 Arg2:T9	
+R11	ALTERNATIVE_NAME Arg1:T67 Arg2:T68	
+R12	PARTICIPANT_IN Arg1:T10 Arg2:T68	
+R13	WORKS_AS Arg1:T14 Arg2:T13	
+R14	DATE_FOUNDED_IN Arg1:T17 Arg2:T18	
+R15	HEADQUARTERED_IN Arg1:T19 Arg2:T62	
+T22	FACILITY 1018 1053	Спартаковец» имени Н. П. Старостина
+R16	HEADQUARTERED_IN Arg1:T17 Arg2:T22	
+R17	WORKS_AS Arg1:T29 Arg2:T27	
+R18	WORKPLACE Arg1:T27 Arg2:T59	
+R19	HEADQUARTERED_IN Arg1:T59 Arg2:T28	
+T70	ORGANIZATION 1330 1344	сборную России
+R20	HEADQUARTERED_IN Arg1:T70 Arg2:T31	
+R21	WORKPLACE Arg1:T32 Arg2:T70	
+R22	WORKS_AS Arg1:T32 Arg2:T58	
+R23	AGE_IS Arg1:T32 Arg2:T33	
+R24	AGE_IS Arg1:T58 Arg2:T33	
+R25	HEADQUARTERED_IN Arg1:T35 Arg2:T34	
+R26	AGE_IS Arg1:T40 Arg2:T39	
+R27	WORKS_AS Arg1:T40 Arg2:T38	
+R28	POINT_IN_TIME Arg1:T57 Arg2:T42	
+R29	AGENT Arg1:T40 Arg2:T57	
+R30	AGE_IS Arg1:T45 Arg2:T44	
+R31	WORKS_AS Arg1:T45 Arg2:T43	
+R32	PART_OF Arg1:T52 Arg2:T53	
+T71	EVENT 478 516	написал заявление об уходе с должности
+R33	AGENT Arg1:T14 Arg2:T71	
+R34	POINT_IN_TIME Arg1:T71 Arg2:T12	
+R35	WORKPLACE Arg1:T13 Arg2:T10	
+R36	WORKPLACE Arg1:T14 Arg2:T10	
+R37	WORKPLACE Arg1:T29 Arg2:T10	
+R38	WORKPLACE Arg1:T32 Arg2:T10	
+R39	WORKPLACE Arg1:T37 Arg2:T17	
+R40	WORKS_AS Arg1:T49 Arg2:T48	
+R41	WORKPLACE Arg1:T49 Arg2:T17	
+T72	EVENT 606 625	снял со счёта клуба
+R42	INANIMATE_INVOLVED Arg1:T16 Arg2:T72	
+R43	AGENT Arg1:T14 Arg2:T72	
+T73	EVENT 703 726	доследственная проверка
+R44	PARTICIPANT_IN Arg1:T10 Arg2:T72	
+R45	HAS_CAUSE Arg1:T73 Arg2:T72	
+T74	EVENT 1078 1094	получил лицензию
+R46	AGENT Arg1:T24 Arg2:T74	
+R47	PARTICIPANT_IN Arg1:T17 Arg2:T74	
+T75	EVENT 1181 1209	контракт с командой подписал
+R48	AGENT Arg1:T29 Arg2:T75	
+R49	AGENT Arg1:T17 Arg2:T75	
+T76	EVENT 1273 1299	подписал ещё одного игрока
+R50	POINT_IN_TIME Arg1:T76 Arg2:T30	
+R51	AGENT Arg1:T32 Arg2:T76	
+R52	AGENT Arg1:T17 Arg2:T76	
+T77	EVENT 1492 1500	назначен
+R53	PARTICIPANT_IN Arg1:T40 Arg2:T77	
+R54	PARTICIPANT_IN Arg1:T17 Arg2:T77	
+R55	PARTICIPANT_IN Arg1:T17 Arg2:T77	
+R56	PARTICIPANT_IN Arg1:T17 Arg2:T57	
+T78	EVENT 1727 1735	назначен
+R57	ALTERNATIVE_NAME Arg1:T40 Arg2:T46	
+R58	PARTICIPANT_IN Arg1:T45 Arg2:T78	
+R59	PARTICIPANT_IN Arg1:T17 Arg2:T78	
+N1	Reference T5 Wikidata:Q1610798	Профессиональная футбольная лига
+N2	Reference T8 Wikidata:Q974931	Спорт-Экспресс
+N3	Reference T11 Wikidata:Q951435	Рязань
+N6	Reference T15 Wikidata:Q230	Грузия
+N7	Reference T17 Wikidata:Q332702	Арарат
+N8	Reference T19 Wikidata:Q3005600	Ассоциация армянской молодёжи Москвы
+N10	Reference T24 Wikidata:Q318386	Российский футбольный союз
+N12	Reference T29 Wikidata:Q168029	Павлюченко, Роман Анатольевич
+N13	Reference T32 Wikidata:Q509879	Ребко, Алексей Васильевич
+N14	Reference T35 Wikidata:Q29112	Спартак
+N15	Reference T37 Wikidata:Q309826	Марат Наилевич Измайлов
+N19	Reference T49 Wikidata:Q4149411	Александр Григорян
+N20	Reference T51 Wikidata:Q4493674	Футбольная национальная лига
+N22	Reference T53 Wikidata:Q1287840	Стадион имени Эдуарда Стрельцова
+N24	Reference T58 Wikidata:Q193592	полузащитник
+N25	Reference T59 Wikidata:Q726080	сборная России по футболу
+N26	Reference T60 Wikidata:Q922771	Старостин, Николай Петрович
+N27	Reference T62 Wikidata:Q649	Москва
+N29	Reference T64 Wikidata:Q649	Москва
+N30	Reference T65 Wikidata:Q159	Россия
+N32	Reference T22 Wikidata:Q4430719	Спартаковец
+N31	Reference T69 Wikidata:NULL	нет данных
+N33	Reference T6 Wikidata:Q3246315	
+N4	Reference T13 Wikidata:NULL	нет данных
+N5	Reference T14 Wikidata:NULL	нет данных
+N28	Reference T63 Wikidata:Q79797	армяне
+N9	Reference T20 Wikidata:Q1953	Ереван
+N11	Reference T27 Wikidata:NULL	нет данных
+N16	Reference T43 Wikidata:NULL	нет данных
+N34	Reference T56 Wikidata:Q3246315	
+N17	Reference T45 Wikidata:NULL	нет данных
+N18	Reference T46 Wikidata:Q4098786	
+N23	Reference T54 Wikidata:Q369974	
+N21	Reference T52 Wikidata:NULL	нет данных
+N35	Reference T2 Wikidata:Q332702	Арарат
+N36	Reference T10 Wikidata:Q332702	Арарат
+N37	Reference T4 Wikidata:Q332702	Арарат
+N38	Reference T7 Wikidata:Q4149411	Александр Григорян
+N39	Reference T9 Wikidata:Q4149411	Александр Григорян
+N40	Reference T3 Wikidata:Q4149411	Александр Григорян
+N41	Reference T70 Wikidata:Q726080	сборная России по футболу
+N42	Reference T61 Wikidata:Q649	Москва
+N43	Reference T34 Wikidata:Q649	Москва
+N44	Reference T1 Wikidata:Q649	Москва
+N45	Reference T28 Wikidata:Q159	Россия
+N46	Reference T31 Wikidata:Q159	Россия
+N47	Reference T55 Wikidata:NULL	нет данных
+N48	Reference T38 Wikidata:Q3246315	
+N49	Reference T48 Wikidata:Q3246315	
+N50	Reference T40 Wikidata:Q4098786	

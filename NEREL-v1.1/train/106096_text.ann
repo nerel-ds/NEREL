@@ -1,0 +1,74 @@
+T1	DATE 9 21	35 лет назад
+T2	PROFESSION 35 45	президента
+T3	PERSON 114 121	Рейгана
+T4	PERSON 122 141	Джон-Хинкли-младший
+T5	DATE 143 155	35 лет назад
+T6	PROFESSION 187 197	президента
+T7	DATE 216 248	в субботу, 10 сентября 2016 года
+T9	CITY 286 296	Вашингтоне
+T10	PERSON 322 334	Джона Хинкли
+T11	DATE 364 370	в июле
+T12	PERSON 428 434	Хинкли
+T13	PERSON 487 493	Хинкли
+T14	AGE 514 523	90-летней
+T15	CITY 568 579	Вильямсбург
+T16	STATE_OR_PROVINCE 581 595	штат Вирджиния
+T17	NUMBER 616 622	250 км
+T19	NUMBER 700 721	несколькими десятками
+T20	DATE 732 758	В течение трех десятилетий
+T21	AGE 786 792	61 год
+T24	PROFESSION 956 966	президента
+T25	NUMBER 981 985	трёх
+T26	PERSON 46 53	Рейгана
+T27	EVENT 101 110	Покушение
+T28	PERSON 198 214	Рональда Рейгана
+T29	EVENT 168 186	покушение на жизнь
+T18	PERSON 759 773	Хинкли-младший
+T22	FACILITY 827 840	Сент-Элизабет
+T23	PERSON 967 974	Рейгана
+R1	WORKS_AS Arg1:T26 Arg2:T2	
+R2	PARTICIPANT_IN Arg1:T3 Arg2:T27	
+R3	POINT_IN_TIME Arg1:T27 Arg2:T1	
+R4	ALTERNATIVE_NAME Arg1:T27 Arg2:T29	
+R5	PARTICIPANT_IN Arg1:T4 Arg2:T29	
+R6	PARTICIPANT_IN Arg1:T28 Arg2:T29	
+R7	WORKS_AS Arg1:T28 Arg2:T6	
+R8	POINT_IN_TIME Arg1:T29 Arg2:T5	
+R9	ALTERNATIVE_NAME Arg1:T4 Arg2:T10	
+R10	ALTERNATIVE_NAME Arg1:T10 Arg2:T12	
+R11	PLACE_RESIDES_IN Arg1:T13 Arg2:T15	
+R12	LOCATED_IN Arg1:T15 Arg2:T16	
+R13	ALTERNATIVE_NAME Arg1:T13 Arg2:T18	
+R14	AGE_IS Arg1:T18 Arg2:T21	
+R15	PLACE_RESIDES_IN Arg1:T18 Arg2:T22	
+R16	WORKS_AS Arg1:T23 Arg2:T24	
+R17	ALTERNATIVE_NAME Arg1:T3 Arg2:T28	
+T8	PROFESSION 371 388	федеральный судья
+T30	EVENT 22 32	стрелявший
+R18	PARTICIPANT_IN Arg1:T26 Arg2:T30	
+R19	ALTERNATIVE_NAME Arg1:T30 Arg2:T27	
+T31	EVENT 55 89	выходит из психиатрической клиники
+T32	EVENT 250 283	вышел из психиатрической больницы
+R20	AGENT Arg1:T4 Arg2:T32	
+R21	TAKES_PLACE_IN Arg1:T32 Arg2:T9	
+R22	POINT_IN_TIME Arg1:T32 Arg2:T7	
+T33	EVENT 946 953	стрелял
+R23	AGENT Arg1:T18 Arg2:T33	
+R24	PARTICIPANT_IN Arg1:T23 Arg2:T33	
+R25	ALTERNATIVE_NAME Arg1:T29 Arg2:T33	
+N1	Reference T9 Wikidata:Q61	Вашингтон
+N2	Reference T10 Wikidata:Q343960	Джон Хинкли мл.
+N3	Reference T16 Wikidata:Q1370	Виргиния
+N4	Reference T24 Wikidata:Q30461	президент
+N7	Reference T8 Wikidata:Q1400102	Федеральный судья
+N5	Reference T26 Wikidata:Q9960	Рональд Рейган
+N6	Reference T18 Wikidata:Q343960	Джон Хинкли мл.
+N8	Reference T22 Wikidata:NULL	нет данных
+N9	Reference T4 Wikidata:Q343960	Джон Хинкли мл.
+N10	Reference T12 Wikidata:Q343960	Джон Хинкли мл.
+N11	Reference T6 Wikidata:Q30461	президент
+N12	Reference T2 Wikidata:Q30461	президент
+N13	Reference T28 Wikidata:Q9960	Рональд Рейган
+N14	Reference T3 Wikidata:Q9960	Рональд Рейган
+N15	Reference T23 Wikidata:Q9960	Рональд Рейган
+N16	Reference T13 Wikidata:Q343960	Джон Хинкли мл.

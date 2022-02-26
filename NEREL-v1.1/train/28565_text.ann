@@ -1,0 +1,158 @@
+T1	ORGANIZATION 0 3	BBC
+T3	PERSON 74 80	Тэтчер
+T4	PERSON 110 126	Рональда Рейгана
+T5	DATE 127 144	11 июня 2004 года
+T6	PERSON 186 206	Лаймена Фрэнка Баума
+T7	WORK_OF_ART 208 238	Железный Дровосек из Страны Оз
+T10	DATE 240 269	В пятницу 12 апреля 2013 года
+T11	PROFESSION 270 290	генеральный директор
+T12	ORGANIZATION 314 317	BBC
+T13	PERSON 318 327	Тони Холл
+T14	PERSON 329 338	Tony Hall
+T18	WORK_OF_ART 457 476	Волшебник страны Оз
+T19	DATE 478 487	1939 года
+T21	PERSON 533 548	Маргарет Тэтчер
+T22	COUNTRY 663 677	Великобритании
+T23	PERSON 766 775	Тони Холл
+T24	NUMBER 1056 1058	40
+T25	DATE 1093 1107	текущей недели
+T27	NUMBER 1165 1172	десятку
+T28	ORGANIZATION 1182 1185	BBC
+T29	PRODUCT 1214 1220	iTunes
+T30	PRODUCT 1222 1228	Amazon
+T31	WORK_OF_ART 1345 1368	Дин-дон, ведьма умерла!
+T32	COUNTRY 1406 1420	Великобритании
+T33	PRODUCT 1441 1449	Facebook
+T34	COUNTRY 1518 1532	Великобритании
+T36	PERSON 1656 1662	Тэтчер
+T37	PROFESSION 1708 1716	фронтмен
+T38	PERSON 1729 1740	Джон Лайдон
+T39	ORGANIZATION 1752 1766	The Daily Mail
+T40	PERSON 2082 2097	Маргарет Тэтчер
+T41	DATE 2109 2127	8 апреля 2013 года
+T42	AGE 2139 2145	87 лет
+T43	COUNTRY 2212 2222	британское
+T44	ORGANIZATION 2223 2236	правительство
+T46	PERSON 81 96	Маргарет Тэтчер
+T47	EVENT 100 109	похоронах
+T48	WORK_OF_ART 157 176	Злая ведьма Востока
+T49	LOCATION 169 176	Востока
+T9	PROFESSION 270 317	генеральный директор вещательной корпорации BBC
+T2	WORK_OF_ART 30 53	Дин-дон, ведьма умерла!
+T15	WORK_OF_ART 390 413	Дин-дон, ведьма умерла!
+T16	WORK_OF_ART 416 444	Ding-Dong! The Witch Is Dead
+T17	PROFESSION 516 532	премьер-министра
+T52	EVENT 578 585	кончины
+T53	PROFESSION 1131 1139	премьера
+T54	IDEOLOGY 1389 1394	левым
+T55	IDEOLOGY 1463 1468	левых
+T56	ORGANIZATION 1620 1628	полицией
+T57	IDEOLOGY 1686 1691	левых
+T58	PROFESSION 1708 1728	фронтмен Sex Pistols
+T59	ORGANIZATION 1717 1728	Sex Pistols
+T60	EVENT 2098 2108	скончалась
+T61	DISEASE 2174 2181	инсульт
+T62	PERSON 2185 2198	Железная леди
+T63	IDEOLOGY 2257 2271	Неолиберальная
+T64	PERSON 2295 2301	Тэтчер
+T65	ORGANIZATION 2281 2301	правительства Тэтчер
+R1	PARTICIPANT_IN Arg1:T46 Arg2:T47	
+R2	PARTICIPANT_IN Arg1:T4 Arg2:T47	
+R3	POINT_IN_TIME Arg1:T47 Arg2:T5	
+R4	ALTERNATIVE_NAME Arg1:T3 Arg2:T46	
+R5	PRODUCES Arg1:T6 Arg2:T7	
+R6	PART_OF Arg1:T48 Arg2:T7	
+R7	WORKPLACE Arg1:T9 Arg2:T12	
+R8	WORKS_AS Arg1:T13 Arg2:T9	
+R9	WORKPLACE Arg1:T13 Arg2:T12	
+R10	ALTERNATIVE_NAME Arg1:T13 Arg2:T14	
+R11	ALTERNATIVE_NAME Arg1:T15 Arg2:T16	
+R12	PART_OF Arg1:T15 Arg2:T18	
+R13	DATE_OF_CREATION Arg1:T18 Arg2:T19	
+R14	WORKS_AS Arg1:T21 Arg2:T17	
+T8	PROFESSION 586 595	баронессы
+R15	WORKS_AS Arg1:T21 Arg2:T8	
+R16	PARTICIPANT_IN Arg1:T21 Arg2:T52	
+R17	ALTERNATIVE_NAME Arg1:T17 Arg2:T53	
+T20	DATE 1533 1549	в течение недели
+T26	EVENT 1556 1562	смерти
+T35	PROFESSION 1563 1572	баронессы
+R18	PARTICIPANT_IN Arg1:T35 Arg2:T26	
+R19	ALTERNATIVE_NAME Arg1:T52 Arg2:T26	
+T50	EVENT 1486 1509	праздничные мероприятия
+R20	PARTICIPANT_IN Arg1:T55 Arg2:T50	
+R21	HAS_CAUSE Arg1:T50 Arg2:T26	
+T51	EVENT 1609 1617	стычками
+R22	PARTICIPANT_IN Arg1:T56 Arg2:T51	
+R23	PARTICIPANT_IN Arg1:T55 Arg2:T51	
+R24	SUBEVENT_OF Arg1:T51 Arg2:T50	
+R25	WORKPLACE Arg1:T58 Arg2:T59	
+R26	WORKS_AS Arg1:T38 Arg2:T58	
+R27	WORKPLACE Arg1:T38 Arg2:T59	
+T67	EVENT 1924 1946	праздничных вечеринках
+R30	ALTERNATIVE_NAME Arg1:T50 Arg2:T67	
+R31	ALTERNATIVE_NAME Arg1:T26 Arg2:T60	
+R32	PARTICIPANT_IN Arg1:T40 Arg2:T60	
+R33	AGE_DIED_AT Arg1:T40 Arg2:T42	
+R34	DATE_OF_DEATH Arg1:T40 Arg2:T41	
+R35	POINT_IN_TIME Arg1:T60 Arg2:T41	
+R36	CAUSE_OF_DEATH Arg1:T40 Arg2:T61	
+R37	HAS_CAUSE Arg1:T60 Arg2:T61	
+R38	ALTERNATIVE_NAME Arg1:T40 Arg2:T62	
+T45	DATE 2237 2243;2252 2255	с 1979 год
+T68	DATE 2244 2255	по 1990 год
+T69	ORGANIZATION 2212 2236	британское правительство
+R39	HEADQUARTERED_IN Arg1:T69 Arg2:T43	
+R40	WORKPLACE Arg1:T62 Arg2:T43	
+R41	WORKPLACE Arg1:T62 Arg2:T69	
+R42	FOUNDED_BY Arg1:T65 Arg2:T64	
+R43	IDEOLOGY_OF Arg1:T65 Arg2:T63	
+R44	ALTERNATIVE_NAME Arg1:T34 Arg2:T43	
+R45	WORKPLACE Arg1:T17 Arg2:T22	
+R46	WORKPLACE Arg1:T21 Arg2:T22	
+R28	HEADQUARTERED_IN Arg1:T65 Arg2:T43	
+N1	Reference T4 Wikidata:Q9960	Рональд Рейган
+N2	Reference T6 Wikidata:Q207544	Лаймен Фрэнк Баум
+N4	Reference T11 Wikidata:Q1501800	генеральный директор
+N5	Reference T12 Wikidata:Q191472	BBC One
+N6	Reference T18 Wikidata:Q193695	Волшебник страны Оз
+N7	Reference T22 Wikidata:Q145	Великобритания
+N8	Reference T29 Wikidata:Q9589	iTunes
+N9	Reference T30 Wikidata:Q3884	Amazon
+N10	Reference T33 Wikidata:Q355	Facebook
+N11	Reference T38 Wikidata:Q106662	Джон Лайдон
+N12	Reference T39 Wikidata:Q210534	Daily Mail
+N13	Reference T44 Wikidata:Q7188	правительство
+N14	Reference T46 Wikidata:Q7416	Маргарет Тэтчер
+N20	Reference T56 Wikidata:Q35535	полиция
+N22	Reference T59 Wikidata:Q82545	Sex Pistols
+N23	Reference T62 Wikidata:Q7416	Маргарет Тэтчер
+N24	Reference T35 Wikidata:Q165503	барон
+N16	Reference T49 Wikidata:Q684	восток
+N15	Reference T48 Wikidata:Q3822977	
+N3	Reference T7 Wikidata:Q7769442	
+N26	Reference T65 Wikidata:NULL	нет данных
+N25	Reference T69 Wikidata:Q6063	Правительство Великобритании
+N27	Reference T37 Wikidata:Q1045845	
+N21	Reference T58 Wikidata:NULL	нет данных
+N19	Reference T53 Wikidata:Q14212	премьер-министр
+N18	Reference T15 Wikidata:Q5278115	
+N28	Reference T13 Wikidata:Q80390	
+N17	Reference T9 Wikidata:NULL	нет данных
+N29	Reference T28 Wikidata:Q191472	BBC One
+N30	Reference T1 Wikidata:Q191472	BBC One
+N31	Reference T34 Wikidata:Q145	Великобритания
+N32	Reference T32 Wikidata:Q145	Великобритания
+N33	Reference T43 Wikidata:Q145	Великобритания
+N34	Reference T36 Wikidata:Q7416	Маргарет Тэтчер
+N35	Reference T64 Wikidata:Q7416	Маргарет Тэтчер
+N36	Reference T3 Wikidata:Q7416	Маргарет Тэтчер
+N37	Reference T40 Wikidata:Q7416	Маргарет Тэтчер
+N38	Reference T21 Wikidata:Q7416	Маргарет Тэтчер
+N39	Reference T8 Wikidata:Q165503	барон
+N40	Reference T17 Wikidata:Q14212	премьер-министр
+N41	Reference T31 Wikidata:Q5278115	
+N42	Reference T2 Wikidata:Q5278115	
+N43	Reference T16 Wikidata:Q5278115	
+N44	Reference T14 Wikidata:Q80390	
+N45	Reference T23 Wikidata:Q80390	

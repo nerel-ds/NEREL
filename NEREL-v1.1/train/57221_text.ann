@@ -1,0 +1,115 @@
+T1	CITY 2 9	Бостоне
+T2	AGE 18 28	220-летнюю
+T3	COUNTRY 65 68	США
+T4	DATE 116 133	28 июня 1776 года
+T5	DATE 215 228	220 лет назад
+T6	COUNTRY 249 252	США
+T7	PERSON 253 269	Сэмюэлем Адамсом
+T8	PERSON 272 285	Полом Ревиром
+T9	DATE 313 343	во вторник, 6 января 2015 года
+T10	CITY 346 353	Бостоне
+T11	PROFESSION 412 433	представитель властей
+T12	PERSON 434 447	Уильям Гэлвин
+T13	COUNTRY 541 555	Великобритании
+T14	DATE 643 652	XVII века
+T15	COUNTRY 689 699	британским
+T16	PROFESSION 738 748	президента
+T17	PERSON 857 864	Гэлвина
+T18	STATE_OR_PROVINCE 922 933	Массачусетс
+T19	FACILITY 967 989	Музее изящных искусств
+T20	DATE 1115 1127	в XVIII веке
+T21	CITY 1141 1148	Бостоне
+T22	PERSON 1192 1197	Ревир
+T23	DATE 1199 1215	4 июля 1795 года
+T24	EVENT 1217 1226	Церемония
+T26	AGE 1252 1266	20-й годовщины
+T28	COUNTRY 1297 1300	США
+T29	PERSON 1333 1346	Сэмюэль Адамс
+T30	PROFESSION 1351 1363	губернатором
+T31	PERSON 1373 1378	Ревир
+T32	COUNTRY 1461 1471	британских
+T33	CITY 1496 1507	Лексингтоне
+T34	CITY 1510 1518	Конкорде
+T36	DATE 1559 1574	1775—1783 годов
+T37	CITY 1593 1604	Лексингтоне
+T38	CITY 1607 1615	Конкорде
+T39	COUNTRY 92 95	США
+T40	LAW 80 95	конституции США
+T41	STATE_OR_PROVINCE 165 176	Массачусетс
+T42	COUNTRY 504 511	Америки
+T44	MONEY 635 642	шиллинг
+T45	MONEY 635 652	шиллинг XVII века
+T46	PERSON 749 767	Джорджа Вашингтона
+T47	PERSON 837 844	Ревиром
+T48	FACILITY 906 915	Капитолия
+T49	FACILITY 906 933	Капитолия штата Массачусетс
+T51	CITY 990 997	Бостона
+T52	FACILITY 1128 1138	Капитолием
+T25	EVENT 1274 1300	войны на независимость США
+T53	PROFESSION 1351 1369	губернатором штата
+T35	EVENT 1580 1615	Сражения при Лексингтоне и Конкорде
+T54	EVENT 1553 1574	войны 1775—1783 годов
+T55	EVENT 1485 1518	сражений в Лексингтоне и Конкорде
+R1	FOUNDED_BY Arg1:T6 Arg2:T7	
+R2	FOUNDED_BY Arg1:T6 Arg2:T8	
+R3	WORKS_AS Arg1:T12 Arg2:T11	
+R4	WORKS_AS Arg1:T46 Arg2:T16	
+R5	LOCATED_IN Arg1:T19 Arg2:T51	
+R6	LOCATED_IN Arg1:T52 Arg2:T21	
+R7	DATE_FOUNDED_IN Arg1:T52 Arg2:T20	
+R8	AGE_IS Arg1:T25 Arg2:T26	
+R9	WORKS_AS Arg1:T29 Arg2:T53	
+T27	EVENT 10 46	вскрыли 220-летнюю временную капсулу
+R10	TAKES_PLACE_IN Arg1:T27 Arg2:T1	
+T43	EVENT 177 202	вскрыли временную капсулу
+T50	PROFESSION 134 176	Власти северо-восточного штата Массачусетс
+R11	PARTICIPANT_IN Arg1:T50 Arg2:T43	
+R12	POINT_IN_TIME Arg1:T43 Arg2:T9	
+R13	TAKES_PLACE_IN Arg1:T43 Arg2:T10	
+R14	ORIGINS_FROM Arg1:T40 Arg2:T39	
+R15	WORKPLACE Arg1:T50 Arg2:T41	
+R16	ALTERNATIVE_NAME Arg1:T6 Arg2:T42	
+R17	LOCATED_IN Arg1:T49 Arg2:T18	
+R18	ALTERNATIVE_NAME Arg1:T55 Arg2:T35	
+R19	TAKES_PLACE_IN Arg1:T55 Arg2:T33	
+R20	TAKES_PLACE_IN Arg1:T35 Arg2:T37	
+R21	TAKES_PLACE_IN Arg1:T35 Arg2:T38	
+R22	TAKES_PLACE_IN Arg1:T55 Arg2:T34	
+R23	SUBEVENT_OF Arg1:T55 Arg2:T54	
+N1	Reference T7 Wikidata:Q212963	Сэмюэл Адамс
+N2	Reference T8 Wikidata:Q327071	Ревир, Пол
+N3	Reference T10 Wikidata:Q100	Бостон
+N5	Reference T13 Wikidata:Q145	Великобритания
+N7	Reference T16 Wikidata:Q30461	президент
+N8	Reference T18 Wikidata:Q771	Массачусетс
+N10	Reference T30 Wikidata:Q132050	губернатор
+N11	Reference T34 Wikidata:Q523240	Конкорд
+N12	Reference T37 Wikidata:Q929667	Лексингтон
+N13	Reference T40 Wikidata:Q11698	конституция США
+N15	Reference T46 Wikidata:Q23	Джордж Вашингтон
+N17	Reference T49 Wikidata:Q1150259	Капитолий штата Массачусетс
+N18	Reference T50 Wikidata:NULL	нет данных
+N4	Reference T11 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:Q8008791	
+N20	Reference T17 Wikidata:Q8008791	
+N21	Reference T53 Wikidata:Q889821	
+N16	Reference T48 Wikidata:Q3284499	
+N9	Reference T19 Wikidata:Q49133	
+N6	Reference T15 Wikidata:Q145	Великобритания
+N22	Reference T47 Wikidata:Q327071	Ревир, Пол
+N14	Reference T42 Wikidata:Q179997	Тринадцать колоний
+N23	Reference T29 Wikidata:Q212963	Сэмюэл Адамс
+N24	Reference T1 Wikidata:Q100	Бостон
+N25	Reference T21 Wikidata:Q100	Бостон
+N26	Reference T51 Wikidata:Q100	Бостон
+N27	Reference T41 Wikidata:Q771	Массачусетс
+N28	Reference T38 Wikidata:Q523240	Конкорд
+N29	Reference T33 Wikidata:Q929667	Лексингтон
+N30	Reference T52 Wikidata:Q3284499	
+N31	Reference T32 Wikidata:Q145	Великобритания
+N32	Reference T22 Wikidata:Q327071	Ревир, Пол
+N33	Reference T31 Wikidata:Q327071	Ревир, Пол
+N34	Reference T3 Wikidata:Q179997	Тринадцать колоний
+N35	Reference T28 Wikidata:Q179997	Тринадцать колоний
+N36	Reference T6 Wikidata:Q179997	Тринадцать колоний
+N37	Reference T39 Wikidata:Q179997	Тринадцать колоний

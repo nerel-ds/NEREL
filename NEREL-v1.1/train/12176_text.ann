@@ -1,0 +1,215 @@
+T2	COUNTRY 66 74	Словакии
+T3	COUNTRY 112 123	российскими
+T5	ORGANIZATION 187 194	Спартак
+T6	CITY 197 203	Москва
+T7	ORGANIZATION 208 214	Жилина
+T8	CITY 217 223	Жилина
+T9	COUNTRY 225 233	Словакия
+T10	ORGANIZATION 245 248	РБК
+T14	ORGANIZATION 488 496	Спартака
+T17	ORGANIZATION 580 588	Спартака
+T19	ORGANIZATION 707 715	Спартака
+T20	PERSON 717 732	Егора Свиридова
+T21	DATE 798 807	7 декабря
+T22	FACILITY 849 873	Ленинградскому проспекту
+T23	CITY 876 882	Москве
+T24	CITY 925 941	Санкт-Петербурге
+T25	PERSON 966 981	Егоре Свиридове
+T26	DATE 1058 1068	11 декабря
+T27	ORGANIZATION 1099 1106	Спартак
+T28	FACILITY 1214 1228	Водный стадион
+T30	PERSON 1278 1286	Свиридов
+T31	DATE 1298 1317	6 декабря 2010 года
+T33	FACILITY 1360 1369	дома № 37
+T34	FACILITY 1373 1395	Кронштадтском бульваре
+T37	CITY 1417 1423	Москвы
+T39	STATE_OR_PROVINCE 1466 1484	Кабардино-Балкарии
+T40	PERSON 1485 1499	Аслан Черкесов
+T41	PERSON 1512 1527	Егора Свиридова
+T43	CITY 1600 1611	московского
+T44	ORGANIZATION 1631 1638	Спартак
+T45	PERSON 1640 1653	Егор Свиридов
+T47	LAW 1733 1738	УК РФ
+T48	LAW 1741 1749	Убийство
+R10	ORIGINS_FROM Arg1:T40 Arg2:T39
+T15	NUMBER 566 567	1
+T16	NUMBER 568 569	2
+T11	TIME 279 298	на четвёртой минуте
+T1	EVENT 48 62	Лиги чемпионов
+T4	EVENT 155 169	Лиги чемпионов
+T12	PROFESSION 602 610	блогеров
+T13	FACILITY 985 1002	площади Восстания
+T32	TIME 1298 1329	6 декабря 2010 года около 00:30
+T18	DISTRICT 1398 1416	Головинском районе
+T35	EVENT 827 845	перекрыла движение
+T36	EVENT 949 963	акция в память
+T38	EVENT 1135 1149	акцию в память
+T42	EVENT 1273 1277	убит
+T51	EVENT 1435 1440	драка
+T52	EVENT 1500 1509	выстрелил
+T53	EVENT 1654 1663	скончался
+T54	DISEASE 1582 1589	ранений
+T55	EVENT 1691 1716	возбуждено уголовное дело
+T56	EVENT 88 99	беспорядков
+T63	EVENT 540 544	Матч
+T65	EVENT 6 15	бесчинств
+T66	EVENT 911 919	убийстве
+T67	EVENT 616 633	хулиганская акция
+T68	ORDINAL 1723 1724	1
+T69	ORDINAL 1729 1732	105
+T70	EVENT 685 694	убийством
+T72	ORDINAL 1365 1369	№ 37
+T29	COUNTRY 1736 1738	РФ
+T46	LAW 1733 1735	УК
+T73	LAW 1720 1738	ч. 1 ст. 105 УК РФ
+T64	EVENT 43 62	матч Лиги чемпионов
+R1	SUBEVENT_OF Arg1:T64 Arg2:T1	
+R2	TAKES_PLACE_IN Arg1:T56 Arg2:T2	
+T74	PROFESSION 112 136	российскими болельщиками
+R4	ORIGINS_FROM Arg1:T74 Arg2:T3	
+R6	PARTICIPANT_IN Arg1:T74 Arg2:T56	
+T57	EVENT 150 169	матч Лиги чемпионов
+R7	SUBEVENT_OF Arg1:T57 Arg2:T4	
+R3	HEADQUARTERED_IN Arg1:T5 Arg2:T6	
+R8	HEADQUARTERED_IN Arg1:T7 Arg2:T8	
+R9	LOCATED_IN Arg1:T8 Arg2:T9	
+R11	PARTICIPANT_IN Arg1:T5 Arg2:T4	
+R12	PARTICIPANT_IN Arg1:T7 Arg2:T4	
+R13	LOCATED_IN Arg1:T6 Arg2:T3	
+T75	PROFESSION 16 27	болельщиков
+R14	AGENT Arg1:T75 Arg2:T65	
+T58	PROFESSION 250 263	Главный судья
+T76	EVENT 264 278	остановил игру
+T77	EVENT 32 47	остановлен матч
+T78	EVENT 142 154	прерван матч
+R15	ALTERNATIVE_NAME Arg1:T77 Arg2:T78	
+R16	TAKES_PLACE_IN Arg1:T78 Arg2:T2	
+R17	PARTICIPANT_IN Arg1:T58 Arg2:T76	
+T59	PROFESSION 315 321	фанаты
+T79	PROFESSION 124 136	болельщиками
+R18	ALTERNATIVE_NAME Arg1:T79 Arg2:T59	
+T80	PROFESSION 398 416	судейского корпуса
+T71	PROFESSION 475 486	болельщиков
+T62	ORGANIZATION 531 538	полиции
+T81	EVENT 503 530	стянуты дополнительные силы
+T82	EVENT 449 453	игру
+R21	ALTERNATIVE_NAME Arg1:T82 Arg2:T63	
+R22	AGENT Arg1:T58 Arg2:T76	
+T84	EVENT 329 345	жечь пиротехнику
+R23	PARTICIPANT_IN Arg1:T59 Arg2:T84	
+T85	EVENT 357 373	выбежать на поле
+R24	PARTICIPANT_IN Arg1:T59 Arg2:T85	
+R25	ALTERNATIVE_NAME Arg1:T65 Arg2:T56	
+R26	SUBEVENT_OF Arg1:T84 Arg2:T56	
+R27	SUBEVENT_OF Arg1:T85 Arg2:T56	
+R28	PARTICIPANT_IN Arg1:T62 Arg2:T81	
+R29	ALTERNATIVE_NAME Arg1:T56 Arg2:T67	
+R30	WORKPLACE Arg1:T71 Arg2:T14	
+T86	PROFESSION 695 716	болельщика «Спартака»
+R5	WORKS_AS Arg1:T20 Arg2:T86	
+T87	PROFESSION 695 705	болельщика
+R31	WORKPLACE Arg1:T86 Arg2:T19	
+T88	PROFESSION 753 759	фанаты
+R32	ALTERNATIVE_NAME Arg1:T87 Arg2:T88	
+T89	PROFESSION 815 826	болельщиков
+R33	PARTICIPANT_IN Arg1:T89 Arg2:T35	
+R34	POINT_IN_TIME Arg1:T35 Arg2:T21	
+R35	TAKES_PLACE_IN Arg1:T35 Arg2:T22	
+R36	LOCATED_IN Arg1:T22 Arg2:T23	
+R37	TAKES_PLACE_IN Arg1:T36 Arg2:T24	
+R38	PARTICIPANT_IN Arg1:T25 Arg2:T36	
+R39	TAKES_PLACE_IN Arg1:T36 Arg2:T13	
+R40	LOCATED_IN Arg1:T13 Arg2:T24	
+R41	POINT_IN_TIME Arg1:T36 Arg2:T21	
+T90	PROFESSION 1069 1107	болельщики футбольного клуба «Спартак»
+T91	PROFESSION 1069 1079	болельщики
+R42	WORKPLACE Arg1:T90 Arg2:T27	
+R43	POINT_IN_TIME Arg1:T38 Arg2:T26	
+R44	PARTICIPANT_IN Arg1:T90 Arg2:T38	
+R45	PARTICIPANT_IN Arg1:T30 Arg2:T42	
+R46	PARTICIPANT_IN Arg1:T20 Arg2:T70	
+R47	ALTERNATIVE_NAME Arg1:T66 Arg2:T42	
+R48	POINT_IN_TIME Arg1:T51 Arg2:T31	
+R49	LOCATED_IN Arg1:T33 Arg2:T34	
+R50	LOCATED_IN Arg1:T34 Arg2:T18	
+R51	LOCATED_IN Arg1:T18 Arg2:T37	
+T49	LOCATION 1354 1369	около дома № 37
+R52	TAKES_PLACE_IN Arg1:T51 Arg2:T49	
+R53	AGENT Arg1:T40 Arg2:T52	
+R54	PARTICIPANT_IN Arg1:T41 Arg2:T52	
+R55	SUBEVENT_OF Arg1:T52 Arg2:T51	
+R56	MEDICAL_CONDITION Arg1:T45 Arg2:T54	
+R57	PARTICIPANT_IN Arg1:T45 Arg2:T53	
+T50	PROFESSION 1590 1639	болельщик московского футбольного клуба «Спартак»
+T92	PROFESSION 1590 1599	болельщик
+R58	HEADQUARTERED_IN Arg1:T44 Arg2:T43	
+R59	WORKS_AS Arg1:T45 Arg2:T50	
+R60	WORKPLACE Arg1:T45 Arg2:T44	
+R61	ALTERNATIVE_NAME Arg1:T37 Arg2:T43	
+R62	ALTERNATIVE_NAME Arg1:T3 Arg2:T29	
+R63	ALTERNATIVE_NAME Arg1:T73 Arg2:T48	
+R19	HAS_CAUSE Arg1:T77 Arg2:T65	
+R20	PARTICIPANT_IN Arg1:T17 Arg2:T63	
+R64	PART_OF Arg1:T73 Arg2:T47	
+R65	ORIGINS_FROM Arg1:T47 Arg2:T29	
+R66	HAS_CAUSE Arg1:T53 Arg2:T54	
+R67	CAUSE_OF_DEATH Arg1:T45 Arg2:T54	
+R68	TAKES_PLACE_IN Arg1:T52 Arg2:T49	
+R69	HAS_CAUSE Arg1:T55 Arg2:T53	
+R70	LOCATED_IN Arg1:T28 Arg2:T23	
+R71	HAS_CAUSE Arg1:T67 Arg2:T70	
+R72	HAS_CAUSE Arg1:T76 Arg2:T84	
+R73	ALTERNATIVE_NAME Arg1:T57 Arg2:T82	
+N2	Reference T5 Wikidata:Q29112	Спартак
+N3	Reference T7 Wikidata:Q209640	Жилина
+N4	Reference T8 Wikidata:Q25797	Жилина
+N5	Reference T9 Wikidata:Q214	Словакия
+N6	Reference T10 Wikidata:Q629733	РосБизнесКонсалтинг
+N7	Reference T22 Wikidata:Q2995182	Ленинградский проспект
+N8	Reference T24 Wikidata:Q656	Санкт-Петербург
+N9	Reference T28 Wikidata:Q2721157	Водный стадион
+N11	Reference T34 Wikidata:Q4241663	Кронштадтский бульвар
+N12	Reference T37 Wikidata:Q649	Москва
+N13	Reference T39 Wikidata:Q5267	Кабардино-Балкария
+N17	Reference T47 Wikidata:Q747110	Уголовный кодекс Российской Федерации
+N20	Reference T13 Wikidata:Q2378841	площадь Восстания
+N21	Reference T18 Wikidata:Q1017756	Головинский район
+N26	Reference T62 Wikidata:Q35535	полиция
+N1	Reference T3 Wikidata:Q159	Россия
+N23	Reference T74 Wikidata:NULL	нет данных
+N32	Reference T58 Wikidata:NULL	нет данных
+N24	Reference T59 Wikidata:Q193432	
+N25	Reference T80 Wikidata:NULL	нет данных
+N19	Reference T12 Wikidata:Q8246794	
+N27	Reference T86 Wikidata:NULL	нет данных
+N28	Reference T89 Wikidata:Q16678266	
+N29	Reference T90 Wikidata:NULL	нет данных
+N10	Reference T30 Wikidata:Q4468585	
+N33	Reference T33 Wikidata:NULL	нет данных
+N30	Reference T49 Wikidata:NULL	нет данных
+N14	Reference T40 Wikidata:Q4468585	
+N15	Reference T41 Wikidata:Q4468585	
+N31	Reference T50 Wikidata:NULL	нет данных
+N16	Reference T45 Wikidata:Q4468585	
+N22	Reference T46 Wikidata:Q19705	уголовное законодательство
+N18	Reference T48 Wikidata:Q132821	убийство
+N34	Reference T44 Wikidata:Q29112	Спартак
+N35	Reference T19 Wikidata:Q29112	Спартак
+N36	Reference T17 Wikidata:Q29112	Спартак
+N37	Reference T14 Wikidata:Q29112	Спартак
+N38	Reference T27 Wikidata:Q29112	Спартак
+N39	Reference T2 Wikidata:Q214	Словакия
+N40	Reference T6 Wikidata:Q649	Москва
+N41	Reference T23 Wikidata:Q649	Москва
+N42	Reference T43 Wikidata:Q649	Москва
+N43	Reference T29 Wikidata:Q159	Россия
+N44	Reference T79 Wikidata:Q193432	
+N45	Reference T75 Wikidata:Q16678266	
+N46	Reference T87 Wikidata:Q16678266	
+N47	Reference T92 Wikidata:Q16678266	
+N48	Reference T88 Wikidata:Q16678266	
+N49	Reference T91 Wikidata:Q16678266	
+N50	Reference T71 Wikidata:Q16678266	
+N51	Reference T25 Wikidata:Q4468585	
+N52	Reference T20 Wikidata:Q4468585	
+N53	Reference T73 Wikidata:Q132821	убийство

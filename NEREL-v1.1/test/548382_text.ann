@@ -1,0 +1,95 @@
+T1	PERSON 10 17	Кузя УО
+T2	CITY 21 37	Санкт-Петербурге
+T3	AGE 49 55	55 лет
+T4	PROFESSION 61 69	музыкант
+T5	PROFESSION 72 76	поэт
+T6	PERSON 77 95	Константин Рябинов
+T7	PERSON 111 118	Кузя УО
+T8	ORGANIZATION 161 180	Гражданская оборона
+T9	ORGANIZATION 236 247	Фонтанка.ру
+T10	PERSON 274 290	Ксению Кислицыну
+T11	PERSON 293 324	Константин Валентинович Рябинов
+T12	DATE 333 353	20 октября 1964 года
+T13	CITY 356 361	Омске
+T14	PERSON 364 374	Егор Летов
+T15	PERSON 376 390	Андрей Бабенко
+T16	PERSON 393 411	Константин Рябинов
+T17	ORGANIZATION 422 441	Гражданскую оборону
+T18	DATE 443 454	в 1984 году
+T19	PERSON 456 463	Кузя УО
+T20	DATE 540 551	В 1985 году
+T21	ORGANIZATION 649 666	Кузьма & ВиртУОзы
+T22	DATE 669 680	В 1999 году
+T23	ORGANIZATION 690 709	Гражданскую оборону
+T24	PERSON 743 750	Летовым
+T25	DATE 794 805	в 2004 году
+T27	AGE 809 817	20-летии
+T28	CITY 827 833	Москве
+T29	CITY 836 846	Петербурге
+T30	EVENT 0 9	Скончался
+T31	EVENT 56 60	умер
+T32	ORGANIZATION 567 572	армию
+T33	EVENT 762 769	концерт
+R1	PARTICIPANT_IN Arg1:T1 Arg2:T30	
+R2	ALTERNATIVE_NAME Arg1:T6 Arg2:T7	
+R3	WORKS_AS Arg1:T6 Arg2:T5	
+R4	WORKS_AS Arg1:T6 Arg2:T4	
+R5	AGE_DIED_AT Arg1:T6 Arg2:T3	
+R6	PLACE_OF_DEATH Arg1:T6 Arg2:T2	
+R7	FOUNDED_BY Arg1:T8 Arg2:T6	
+R8	TAKES_PLACE_IN Arg1:T31 Arg2:T2	
+R9	KNOWS Arg1:T6 Arg2:T10	
+R10	DATE_OF_BIRTH Arg1:T11 Arg2:T12	
+R11	PLACE_OF_BIRTH Arg1:T11 Arg2:T13	
+R12	KNOWS Arg1:T14 Arg2:T15	
+R13	KNOWS Arg1:T15 Arg2:T16	
+R14	KNOWS Arg1:T14 Arg2:T16	
+R15	FOUNDED_BY Arg1:T17 Arg2:T16	
+R16	FOUNDED_BY Arg1:T17 Arg2:T15	
+R17	FOUNDED_BY Arg1:T17 Arg2:T14	
+R18	DATE_FOUNDED_IN Arg1:T17 Arg2:T18	
+T34	DISEASE 598 626	серьёзные проблемы с сердцем
+R19	MEDICAL_CONDITION Arg1:T19 Arg2:T34	
+R20	FOUNDED_BY Arg1:T21 Arg2:T14	
+R21	TAKES_PLACE_IN Arg1:T33 Arg2:T28	
+R22	TAKES_PLACE_IN Arg1:T33 Arg2:T29	
+R23	AGE_IS Arg1:T17 Arg2:T27	
+R24	PARTICIPANT_IN Arg1:T19 Arg2:T33	
+T26	EVENT 191 205	найден мёртвым
+R25	ALTERNATIVE_NAME Arg1:T6 Arg2:T11	
+T35	PERSON 649 655	Кузьма
+R26	POINT_IN_TIME Arg1:T33 Arg2:T25	
+R27	TAKES_PLACE_IN Arg1:T26 Arg2:T2	
+T36	DISEASE 608 626	проблемы с сердцем
+R28	PARTICIPANT_IN Arg1:T6 Arg2:T31	
+R29	INANIMATE_INVOLVED Arg1:T6 Arg2:T26	
+T37	LOCATION 236 244	Фонтанка
+N1	Reference T2 Wikidata:Q656	Санкт-Петербург
+N2	Reference T4 Wikidata:Q639669	музыкант
+N3	Reference T5 Wikidata:Q49757	поэт
+N6	Reference T13 Wikidata:Q898	Омск
+N7	Reference T14 Wikidata:Q363371	Егор Летов
+N8	Reference T16 Wikidata:Q4402361	Константин Валентинович Рябинов
+N9	Reference T17 Wikidata:Q912340	Гражданская оборона
+N12	Reference T28 Wikidata:Q649	Москва
+N13	Reference T29 Wikidata:Q656	Санкт-Петербург
+N16	Reference T37 Wikidata:Q590237	Фонтанка
+N4	Reference T9 Wikidata:Q4491769	
+N5	Reference T10 Wikidata:NULL	нет данных
+N17	Reference T15 Wikidata:NULL	нет данных
+N14	Reference T32 Wikidata:Q8473	армия
+N15	Reference T35 Wikidata:Q4402361	Константин Валентинович Рябинов
+N10	Reference T21 Wikidata:NULL	нет данных
+N11	Reference T24 Wikidata:Q363371	Егор Летов
+N18	Reference T19 Wikidata:Q4402361	Константин Валентинович Рябинов
+N19	Reference T11 Wikidata:Q4402361	Константин Валентинович Рябинов
+N20	Reference T7 Wikidata:Q4402361	Константин Валентинович Рябинов
+N21	Reference T1 Wikidata:Q4402361	Константин Валентинович Рябинов
+N22	Reference T6 Wikidata:Q4402361	Константин Валентинович Рябинов
+N23	Reference T23 Wikidata:Q912340	Гражданская оборона
+N24	Reference T8 Wikidata:Q912340	Гражданская оборона
+R30	ALTERNATIVE_NAME Arg1:T30 Arg2:T31	
+T38	EVENT 325 332	родился
+R31	PARTICIPANT_IN Arg1:T11 Arg2:T38	
+R32	POINT_IN_TIME Arg1:T38 Arg2:T12	
+R33	TAKES_PLACE_IN Arg1:T38 Arg2:T13	

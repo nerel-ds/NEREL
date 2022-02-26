@@ -1,0 +1,123 @@
+T1	PERSON 0 10	Билл Гейтс
+T2	ORGANIZATION 19 45	совет директоров Microsoft
+T3	PERSON 46 56	Билл Гейтс
+T4	DATE 57 75	8 ноября 2019 года
+T6	AGE 99 108	64-летний
+T7	PERSON 109 119	Билл Гейтс
+T8	ORGANIZATION 129 145	совет директоров
+T9	PROFESSION 198 255	советника генерального директора Microsoft по технологиям
+T11	ORGANIZATION 257 266	Microsoft
+T12	DATE 284 313	в субботу, 14 марта 2020 года
+T13	PERSON 316 321	Гейтс
+T14	ORGANIZATION 338 346	LinkedIn
+T15	ORGANIZATION 361 419	совета директоров инвестиционного фонда Berkshire Hathaway
+T16	ORGANIZATION 401 419	Berkshire Hathaway
+T17	PERSON 420 435	Уоррена Баффета
+T18	PERSON 453 459	Гейтса
+T19	ORGANIZATION 463 472	Microsoft
+T20	ORGANIZATION 536 563	Фонда Билла и Мелинды Гейтс
+T21	PERSON 565 570	Гейтс
+T22	COUNTRY 838 841	США
+T23	MONEY 866 882	50 млрд долларов
+T24	PERSON 885 890	Гейтс
+T25	ORDINAL 900 906	вторую
+T26	MONEY 992 1009	103 млрд долларов
+T27	DATE 1012 1023	В 1975 году
+T28	PERSON 1033 1046	Полом Алленом
+T29	ORGANIZATION 1067 1076	Microsoft
+T32	PERSON 1204 1217	Уоррен Баффет
+T33	NUMBER 1326 1341	больше половины
+T34	DATE 1377 1393	С июня 2008 года
+T35	ORGANIZATION 1442 1451	Microsoft
+T36	PERCENT 1478 1487	около 1 %
+T37	PERSON 1517 1523	Гейтса
+T38	ORGANIZATION 1527 1554	совете директоров Microsoft
+T39	NUMBER 1565 1567	12
+T40	PERSON 1597 1610	Сатья Наделла
+T41	ORGANIZATION 36 45	Microsoft
+T42	ORGANIZATION 89 98	Microsoft
+T43	ORGANIZATION 231 240	Microsoft
+T10	PROFESSION 221 255	директора Microsoft по технологиям
+T44	PROFESSION 208 255	генерального директора Microsoft по технологиям
+T45	PERSON 542 547	Билла
+T46	PERSON 550 563	Мелинды Гейтс
+T47	FAMILY 739 746	Гейтсев
+T48	ORGANIZATION 716 746	Благотворительный фонд Гейтсев
+T49	PERSON 1185 1190	Гейтс
+T31	ORGANIZATION 1239 1253	Клятва дарения
+T50	PERSON 1394 1399	Гейтс
+T51	ORGANIZATION 1545 1554	Microsoft
+R1	AGE_IS Arg1:T7 Arg2:T6	
+R2	FOUNDED_BY Arg1:T42 Arg2:T7	
+T5	EVENT 11 18	покинул
+R3	AGENT Arg1:T1 Arg2:T5	
+T52	EVENT 120 128	покидает
+R4	AGENT Arg1:T7 Arg2:T52	
+R5	PARTICIPANT_IN Arg1:T8 Arg2:T52	
+R6	PARTICIPANT_IN Arg1:T2 Arg2:T5	
+R7	WORKS_AS Arg1:T7 Arg2:T9	
+R8	FOUNDED_BY Arg1:T16 Arg2:T17	
+R9	FOUNDED_BY Arg1:T20 Arg2:T18	
+R10	HEADQUARTERED_IN Arg1:T48 Arg2:T22	
+R11	OWNER_OF Arg1:T48 Arg2:T23	
+R12	OWNER_OF Arg1:T24 Arg2:T26	
+R13	FOUNDED_BY Arg1:T29 Arg2:T24	
+R14	FOUNDED_BY Arg1:T29 Arg2:T28	
+R15	DATE_FOUNDED_IN Arg1:T29 Arg2:T27	
+R16	FOUNDED_BY Arg1:T31 Arg2:T32	
+R17	FOUNDED_BY Arg1:T31 Arg2:T49	
+R19	WORKPLACE Arg1:T50 Arg2:T35	
+R20	WORKPLACE Arg1:T40 Arg2:T51	
+R21	SPOUSE Arg1:T45 Arg2:T46	
+R22	WORKPLACE Arg1:T1 Arg2:T2	
+R23	ALTERNATIVE_NAME Arg1:T2 Arg2:T8	
+R24	WORKPLACE Arg1:T7 Arg2:T43	
+R25	SUBORDINATE_OF Arg1:T9 Arg2:T44	
+R26	WORKPLACE Arg1:T44 Arg2:T43	
+R27	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
+R28	WORKPLACE Arg1:T13 Arg2:T15	
+R29	WORKPLACE Arg1:T18 Arg2:T19	
+R30	MEMBER_OF Arg1:T18 Arg2:T47	
+R31	WORKPLACE Arg1:T37 Arg2:T38	
+R32	PART_OF Arg1:T2 Arg2:T41	
+R33	PART_OF Arg1:T8 Arg2:T42	
+R34	PART_OF Arg1:T15 Arg2:T16	
+R35	ALTERNATIVE_NAME Arg1:T18 Arg2:T45	
+R36	PART_OF Arg1:T38 Arg2:T51	
+N1	Reference T8 Wikidata:Q188628	совет директоров
+N4	Reference T14 Wikidata:Q213660	LinkedIn
+N6	Reference T16 Wikidata:Q217583	Berkshire Hathaway
+N7	Reference T17 Wikidata:Q47213	Уоррен Баффетт
+N9	Reference T20 Wikidata:Q655286	Фонд Билла и Мелинды Гейтс
+N10	Reference T22 Wikidata:Q30	США
+N11	Reference T28 Wikidata:Q162005	Пол Аллен
+N12	Reference T35 Wikidata:Q2283	Майкрософт
+N13	Reference T40 Wikidata:Q7426870	Сатья Наделла
+N16	Reference T46 Wikidata:Q463877	Мелинда Гейтс
+N18	Reference T31 Wikidata:Q203807	Клятва дарения
+N14	Reference T10 Wikidata:NULL	нет данных
+N15	Reference T44 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:NULL	нет данных
+N3	Reference T13 Wikidata:Q5284	Билл Гейтс
+N5	Reference T15 Wikidata:NULL	нет данных
+N8	Reference T18 Wikidata:Q5284	Билл Гейтс
+N17	Reference T48 Wikidata:Q655286	Фонд Билла и Мелинды Гейтс
+N19	Reference T2 Wikidata:Q188628	совет директоров
+N20	Reference T38 Wikidata:Q188628	совет директоров
+N21	Reference T32 Wikidata:Q47213	Уоррен Баффетт
+N22	Reference T29 Wikidata:Q2283	Майкрософт
+N23	Reference T41 Wikidata:Q2283	Майкрософт
+N24	Reference T43 Wikidata:Q2283	Майкрософт
+N25	Reference T51 Wikidata:Q2283	Майкрософт
+N26	Reference T19 Wikidata:Q2283	Майкрософт
+N27	Reference T42 Wikidata:Q2283	Майкрософт
+N28	Reference T11 Wikidata:Q2283	Майкрософт
+N29	Reference T3 Wikidata:Q5284	Билл Гейтс
+N30	Reference T1 Wikidata:Q5284	Билл Гейтс
+N31	Reference T7 Wikidata:Q5284	Билл Гейтс
+N32	Reference T49 Wikidata:Q5284	Билл Гейтс
+N33	Reference T37 Wikidata:Q5284	Билл Гейтс
+N34	Reference T45 Wikidata:Q5284	Билл Гейтс
+N35	Reference T50 Wikidata:Q5284	Билл Гейтс
+N36	Reference T21 Wikidata:Q5284	Билл Гейтс
+N37	Reference T24 Wikidata:Q5284	Билл Гейтс
