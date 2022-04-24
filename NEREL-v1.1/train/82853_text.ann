@@ -53,3 +53,29 @@ R17	CONVICTED_OF Arg1:T2 Arg2:T31
 R18	CONVICTED_OF Arg1:T6 Arg2:T32	
 R19	HEADQUARTERED_IN Arg1:T7 Arg2:T4	
 R20	CONVICTED_OF Arg1:T8 Arg2:T34	
+N1	Reference T3 Wikidata:Q17276321	
+N2	Reference T27 Wikidata:Q715641	Государственная дума
+N3	Reference T9 Wikidata:Q715641	Государственная дума
+N4	Reference T1 Wikidata:Q28500608	
+N5	Reference T5 Wikidata:Q28500608	
+N6	Reference T2 Wikidata:Q396	
+N7	Reference T6 Wikidata:Q396	
+N8	Reference T22 Wikidata:Q396	
+N9	Reference T4 Wikidata:Q159	Россия
+N10	Reference T10 Wikidata:Q28500608	
+N11	Reference T21 Wikidata:Q28500608	
+N12	Reference T8 Wikidata:Q312	Apple
+N13	Reference T11 Wikidata:Q312	Apple
+N14	Reference T26 Wikidata:Q312	Apple
+N15	Reference T7 Wikidata:Q2387440	Прокуратура Российской Федерации
+N16	Reference T28 Wikidata:Q212115	ЛДПР
+N17	Reference T12 Wikidata:Q396	
+N18	Reference T29 Wikidata:Q14037150	
+N19	Reference T14 Wikidata:Q9589	iTunes
+N20	Reference T16 Wikidata:Q386854	барабанщик
+N21	Reference T17 Wikidata:Q814065	
+N22	Reference T19 Wikidata:NULL	нет данных
+N23	Reference T20 Wikidata:Q4140847	
+N24	Reference T23 Wikidata:Q753932	Известия
+N25	Reference T24 Wikidata:Q380075	
+N26	Reference T25 Wikidata:NULL	нет данных

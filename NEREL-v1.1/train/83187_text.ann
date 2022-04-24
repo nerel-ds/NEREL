@@ -74,3 +74,29 @@ R30	POINT_IN_TIME Arg1:T17 Arg2:T16
 R31	PLACE_RESIDES_IN Arg1:T11 Arg2:T19	
 R32	INANIMATE_INVOLVED Arg1:T6 Arg2:T32	
 R33	AGE_IS Arg1:T21 Arg2:T29	
+N1	Reference T10 Wikidata:NULL	нет данных
+N2	Reference T43 Wikidata:Q1134614	коронер
+N3	Reference T1 Wikidata:Q188969	
+N4	Reference T2 Wikidata:Q188969	
+N5	Reference T6 Wikidata:Q188969	
+N6	Reference T11 Wikidata:Q188969	
+N7	Reference T21 Wikidata:Q188969	
+N8	Reference T31 Wikidata:NULL	нет данных
+N9	Reference T39 Wikidata:NULL	нет данных
+N10	Reference T3 Wikidata:Q676171	Лас-Вегас
+N11	Reference T5 Wikidata:Q380075	
+N12	Reference T9 Wikidata:Q380075	
+N13	Reference T34 Wikidata:Q639669	музыкант
+T44	EVENT 327 333	Смерть
+R34	PARTICIPANT_IN Arg1:T34 Arg2:T44	
+R35	ALTERNATIVE_NAME Arg1:T42 Arg2:T44	
+N14	Reference T15 Wikidata:Q41254	«Грэмми»
+N15	Reference T18 Wikidata:Q1297	Чикаго
+N16	Reference T19 Wikidata:Q676171	Лас-Вегас
+N17	Reference T22 Wikidata:Q48187	
+N18	Reference T23 Wikidata:Q711197	
+N19	Reference T24 Wikidata:Q314208	
+N20	Reference T25 Wikidata:Q104695973	
+N21	Reference T26 Wikidata:Q316282	
+N22	Reference T27 Wikidata:Q189599	
+N23	Reference T33 Wikidata:NULL	нет данных

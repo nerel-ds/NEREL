@@ -62,7 +62,6 @@ T52	PROFESSION 426 433	артиста
 T54	PROFESSION 164 181	кинематографистов
 T55	DISEASE 224 240	остановка сердца
 T56	DISEASE 318 325	инсульт
-T57	DISEASE 268 276	болезнью
 T58	DISEASE 343 354	парализован
 T59	DISEASE 407 414	приступ
 T60	CITY 680 684	Сочи
@@ -148,3 +147,17 @@ N28	Reference T39 Wikidata:NULL	нет данных
 N29	Reference T27 Wikidata:Q649	
 N30	Reference T10 Wikidata:Q159	
 N31	Reference T9 Wikidata:Q4430502	
+N32	Reference T51 Wikidata:NULL	нет данных
+N33	Reference T29 Wikidata:Q33999	актёр
+N34	Reference T5 Wikidata:NULL	нет данных
+N35	Reference T63 Wikidata:Q33999	актёр
+R54	WORKS_AS Arg1:T14 Arg2:T52	
+N36	Reference T16 Wikidata:NULL	нет данных
+N37	Reference T45 Wikidata:Q4315363	
+N38	Reference T17 Wikidata:Q1697	Московская область
+N39	Reference T30 Wikidata:Q840812	Московский Художественный театр
+N40	Reference T43 Wikidata:Q33999	актёр
+N41	Reference T52 Wikidata:Q33999	актёр
+N42	Reference T41 Wikidata:Q30093123	
+N43	Reference T54 Wikidata:Q222344	оператор-постановщик
+N44	Reference T49 Wikidata:Q4430502	

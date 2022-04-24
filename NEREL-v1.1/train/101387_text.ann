@@ -25,7 +25,7 @@ T24	AGE 673 682	14-летняя
 T25	PERSON 683 687	Саша
 T26	PERSON 689 695	Наташа
 T27	EVENT 717 722	ужине
-T28	ORGANIZATION 745 755	Белом доме
+T28	FACILITY 745 755	Белом доме
 T29	CITY 826 836	Вашингтоне
 T30	DATE 874 890	в следующем году
 T31	PERSON 898 902	Саша
@@ -67,4 +67,33 @@ R28	PARENT_OF Arg1:T38 Arg2:T31
 R29	PARTICIPANT_IN Arg1:T38 Arg2:T27	
 T39	PROFESSION 727 742	корреспондентов
 R30	PARTICIPANT_IN Arg1:T39 Arg2:T27	
-R31	HEADQUARTERED_IN Arg1:T28 Arg2:T29	
+R31	LOCATED_IN Arg1:T28 Arg2:T29	
+N1	Reference T12 Wikidata:Q1355327	Исполнительный офис Президента США
+N2	Reference T28 Wikidata:Q35525	Белый дом
+N3	Reference T1 Wikidata:Q76	Барак Обама
+N4	Reference T33 Wikidata:Q76	Барак Обама
+N5	Reference T38 Wikidata:Q76	Барак Обама
+N6	Reference T2 Wikidata:Q13371	Гарвардский университет
+N7	Reference T11 Wikidata:Q13371	Гарвардский университет
+N8	Reference T17 Wikidata:Q13371	Гарвардский университет
+N9	Reference T3 Wikidata:Q15070044	
+N10	Reference T34 Wikidata:Q15070044	
+N11	Reference T16 Wikidata:Q15070044	
+N12	Reference T19 Wikidata:Q15070044	
+N13	Reference T36 Wikidata:Q15070044	
+N14	Reference T5 Wikidata:Q76	Барак Обама
+N15	Reference T4 Wikidata:Q13133	Мишель Обама
+N16	Reference T15 Wikidata:Q13133	Мишель Обама
+N17	Reference T6 Wikidata:Q15070048	
+N18	Reference T7 Wikidata:Q15070048	
+N19	Reference T25 Wikidata:Q15070048	
+N20	Reference T26 Wikidata:Q15070048	
+N21	Reference T31 Wikidata:Q15070048	
+N22	Reference T8 Wikidata:Q30461	президент
+N23	Reference T14 Wikidata:Q30461	президент
+N24	Reference T22 Wikidata:Q61	Вашингтон
+N25	Reference T23 Wikidata:Q3439758	
+N26	Reference T39 Wikidata:Q1155838	
+N27	Reference T37 Wikidata:Q30461	президент
+N28	Reference T29 Wikidata:Q61	Вашингтон
+R32	ALTERNATIVE_NAME Arg1:T22 Arg2:T29	

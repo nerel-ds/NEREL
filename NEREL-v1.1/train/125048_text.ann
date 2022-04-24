@@ -49,3 +49,26 @@ R16	ALTERNATIVE_NAME Arg1:T31 Arg2:T32
 R17	PARTICIPANT_IN Arg1:T17 Arg2:T31	
 R18	POINT_IN_TIME Arg1:T31 Arg2:T21	
 R19	PRICE_OF Arg1:T31 Arg2:T19	
+N1	Reference T8 Wikidata:Q223320	
+N2	Reference T14 Wikidata:Q223320	
+N3	Reference T1 Wikidata:Q46	Европа
+N4	Reference T26 Wikidata:Q259327	
+N5	Reference T22 Wikidata:Q387047	
+N6	Reference T2 Wikidata:Q83325	
+N8	Reference T4 Wikidata:Q42884	немцы
+N9	Reference T6 Wikidata:Q46	Европа
+N10	Reference T7 Wikidata:Q83325	
+N11	Reference T27 Wikidata:Q259327	
+N12	Reference T23 Wikidata:Q387047	
+N15	Reference T11 Wikidata:Q65	Лос-Анджелес
+N16	Reference T12 Wikidata:Q30	США
+N17	Reference T13 Wikidata:Q83325	
+N18	Reference T29 Wikidata:Q259327	
+N19	Reference T28 Wikidata:Q387047	
+N20	Reference T24 Wikidata:Q387047	
+N21	Reference T25 Wikidata:Q259327	
+N22	Reference T16 Wikidata:Q183	Германия
+N7	Reference T5 Wikidata:Q41249446	
+N13	Reference T9 Wikidata:Q41249446	
+N14	Reference T10 Wikidata:Q1303805	
+N23	Reference T17 Wikidata:Q41249446	

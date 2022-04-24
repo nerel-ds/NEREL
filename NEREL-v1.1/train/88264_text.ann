@@ -77,3 +77,34 @@ R35	PRODUCES Arg1:T8 Arg2:T18
 R36	ORIGINS_FROM Arg1:T18 Arg2:T19	
 R37	ALTERNATIVE_NAME Arg1:T20 Arg2:T21	
 R38	ALTERNATIVE_NAME Arg1:T8 Arg2:T22	
+N3	Reference T1 Wikidata:Q106481	
+N4	Reference T5 Wikidata:Q106481	
+N5	Reference T8 Wikidata:Q106481	
+N6	Reference T22 Wikidata:Q106481	
+N7	Reference T23 Wikidata:Q106481	
+N8	Reference T37 Wikidata:Q33999	актёр
+N9	Reference T28 Wikidata:Q33999	актёр
+N10	Reference T4 Wikidata:Q42406	англичане
+N11	Reference T7 Wikidata:Q84	Лондон
+N12	Reference T29 Wikidata:Q105598	
+N14	Reference T12 Wikidata:Q145	Великобритания
+N15	Reference T41 Wikidata:Q159661	BAFTA
+N17	Reference T31 Wikidata:Q41262	Ноттингем
+N18	Reference T36 Wikidata:Q2712262	
+N19	Reference T14 Wikidata:Q578478	шериф
+N20	Reference T32 Wikidata:Q122634	
+N23	Reference T17 Wikidata:Q272518	
+N24	Reference T20 Wikidata:Q34660	
+N25	Reference T21 Wikidata:Q34660	
+N26	Reference T19 Wikidata:Q216930	
+R39	ORIGINS_FROM Arg1:T19 Arg2:T20	
+N27	Reference T18 Wikidata:Q176772	
+N28	Reference T34 Wikidata:Q121594	профессор
+N29	Reference T24 Wikidata:Q145	Великобритания
+N30	Reference T33 Wikidata:Q33999	актёр
+N13	Reference T11 Wikidata:Q18545687	
+N16	Reference T13 Wikidata:Q732997	
+N21	Reference T15 Wikidata:Q486822	
+N22	Reference T30 Wikidata:Q2164431	
+N1	Reference T27 Wikidata:Q1895526	
+N2	Reference T25 Wikidata:Q195154	

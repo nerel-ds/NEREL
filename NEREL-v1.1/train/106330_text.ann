@@ -62,3 +62,31 @@ R27	ALTERNATIVE_NAME Arg1:T33 Arg2:T34
 R28	ALTERNATIVE_NAME Arg1:T20 Arg2:T6	
 R29	ALTERNATIVE_NAME Arg1:T6 Arg2:T16	
 R30	ALTERNATIVE_NAME Arg1:T16 Arg2:T19	
+N1	Reference T3 Wikidata:NULL	нет данных
+N2	Reference T9 Wikidata:Q2269913	
+N3	Reference T10 Wikidata:NULL	нет данных
+N4	Reference T22 Wikidata:Q2269913	
+N5	Reference T23 Wikidata:Q2995409	
+N6	Reference T26 Wikidata:NULL	нет данных
+N7	Reference T4 Wikidata:Q232	Казахстан
+N8	Reference T28 Wikidata:Q2570643	сенат
+N9	Reference T29 Wikidata:Q30461	президент
+N10	Reference T21 Wikidata:Q2570643	сенат
+N11	Reference T27 Wikidata:NULL	нет данных
+N12	Reference T20 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N13	Reference T6 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N14	Reference T16 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N15	Reference T19 Wikidata:Q57394	Нурсултан Абишевич Назарбаев
+N16	Reference T1 Wikidata:Q1758037	спикер
+N17	Reference T7 Wikidata:Q1758037	спикер
+N18	Reference T2 Wikidata:Q30461	президент
+N19	Reference T5 Wikidata:Q30461	президент
+N20	Reference T30 Wikidata:Q30461	президент
+N21	Reference T25 Wikidata:Q376532	Дарига Нурсултановна Назарбаева
+N22	Reference T8 Wikidata:NULL	нет данных
+N23	Reference T12 Wikidata:Q376532	Дарига Нурсултановна Назарбаева
+N24	Reference T31 Wikidata:Q376532	Дарига Нурсултановна Назарбаева
+N25	Reference T14 Wikidata:Q2570643	сенат
+R31	WORKPLACE Arg1:T31 Arg2:T14	
+N26	Reference T18 Wikidata:Q2570643	сенат
+N27	Reference T15 Wikidata:Q877955	вице-премьер

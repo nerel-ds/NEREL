@@ -69,3 +69,50 @@ R22	HEADQUARTERED_IN Arg1:T8 Arg2:T28
 R23	LOCATED_IN Arg1:T13 Arg2:T40	
 T47	NATIONALITY 677 686	Татарский
 R24	HEADQUARTERED_IN Arg1:T39 Arg2:T17	
+N1	Reference T15 Wikidata:NULL	нет данных
+N2	Reference T1 Wikidata:Q649	Москва
+N3	Reference T32 Wikidata:Q649	Москва
+N4	Reference T28 Wikidata:Q649	Москва
+N5	Reference T13 Wikidata:Q649	Москва
+R25	HEADQUARTERED_IN Arg1:T14 Arg2:T13	
+N6	Reference T17 Wikidata:Q649	Москва
+N7	Reference T18 Wikidata:Q649	Москва
+N8	Reference T5 Wikidata:Q315279	Габдулла Тукай
+N9	Reference T27 Wikidata:Q315279	Габдулла Тукай
+N10	Reference T20 Wikidata:Q315279	Габдулла Тукай
+N11	Reference T31 Wikidata:Q35565	
+N12	Reference T41 Wikidata:Q35565	
+R26	PLACE_RESIDES_IN Arg1:T41 Arg2:T9	
+R27	PLACE_RESIDES_IN Arg1:T42 Arg2:T40	
+N13	Reference T42 Wikidata:Q35565	
+N14	Reference T47 Wikidata:Q35565	
+N15	Reference T38 Wikidata:Q35565	
+N16	Reference T33 Wikidata:Q35565	
+R28	ORIGINS_FROM Arg1:T34 Arg2:T33	
+R29	ALTERNATIVE_NAME Arg1:T43 Arg2:T45	
+N18	Reference T30 Wikidata:Q49757	поэт
+N19	Reference T34 Wikidata:Q49757	поэт
+N17	Reference T43 Wikidata:Q16271032	
+N20	Reference T45 Wikidata:Q16271032	
+N21	Reference T44 Wikidata:Q16271032	
+N22	Reference T6 Wikidata:Q4324317	
+N23	Reference T4 Wikidata:Q156379	Юрий Михайлович Лужков
+N24	Reference T3 Wikidata:Q30185	мэр
+N25	Reference T29 Wikidata:Q1837906	мэр Москвы
+N26	Reference T9 Wikidata:Q649	Москва
+N27	Reference T8 Wikidata:NULL	нет данных
+N28	Reference T10 Wikidata:Q1281618	скульптор
+N30	Reference T12 Wikidata:Q315279	Габдулла Тукай
+N31	Reference T40 Wikidata:Q159	Россия
+R30	ORIGINS_FROM Arg1:T39 Arg2:T47	
+N32	Reference T39 Wikidata:NULL	нет данных
+N33	Reference T16 Wikidata:Q1640068	
+N34	Reference T19 Wikidata:Q1977770	REGNUM
+N35	Reference T25 Wikidata:Q1993710	
+N36	Reference T21 Wikidata:Q4263842	
+N37	Reference T22 Wikidata:Q6051619	
+N38	Reference T35 Wikidata:Q6051619	
+N39	Reference T2 Wikidata:Q315279	Габдулла Тукай
+N40	Reference T37 Wikidata:Q35565	
+N41	Reference T14 Wikidata:NULL	нет данных
+N29	Reference T11 Wikidata:Q15060901	
