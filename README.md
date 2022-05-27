@@ -109,4 +109,25 @@ The encoders used with SpanBERT and OpenNRE are multilingual BERT and RuBERT.
 |OpenNRE, mBERT | 35.7 | 51.2 | 42.1
 |OpenNRE, RuBERT | **52.1** | **51.3** | **51.7**
 
+### Citing & Authors
 
+If you find this repository helpful, feel free to cite our papers:
+
+[1] Loukachevitch N., Artemova E., Batura T., Braslavski P., Denisov I., Ivanov V., Manandhar S., Pugachev A., Tutubalina E. [NEREL: A Russian Dataset with Nested Named Entities, Relations and Events](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.100.pdf). Proceedings of RANLP. 2021. pp. 880–889.
+
+    @inproceedings{loukachevitch2021nerel,
+      title={{NEREL: A Russian} Dataset with Nested Named Entities, Relations and Events},
+      author={Loukachevitch, Natalia and Artemova, Ekaterina and Batura, Tatiana and Braslavski, Pavel and Denisov, Ilia and Ivanov, Vladimir and Manandhar, Suresh and Pugachev, Alexander and Tutubalina, Elena},
+      booktitle={Proceedings of RANLP},
+      pages={876--885},
+      year={2021}
+    }
+
+[2] Loukachevitch N., Braslavski P., Ivanov V., Batura T., Manandhar S., Shelmanov A., Tutubalina E. Entity Linking over Nested Named Entities for Russian. Proceedings of LREC. 2022.
+
+    @inproceedings{nerel-el-nne, 
+      title={{Entity Linking over Nested Named Entities for Russian}},
+      author={Loukachevitch, Natalia and Braslavski, Pavel and Ivanov, Vladimir and Batura, Tatiana and Manandhar, Suresh and Shelmanov, Artem and Tutubalina, Elena},
+      booktitle={Proceedings of LREC},
+      year={2022},
+    }
