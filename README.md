@@ -2,6 +2,8 @@
 
 A Russian dataset with nested named entities, relations, events and linked entities.
 
+![alt text](https://github.com/nerel-ds/NEREL/blob/master/resources/el_example_1.jpg?raw=true)
+
 ### Version history
 
 #### 1.1
