@@ -53,7 +53,7 @@ T58	PERSON 3096 3108	Лоренс Брэгг
 T59	DATE 3144 3155	в 1915 году
 T60	DATE 3172 3183	в 2007 году
 T61	PROFESSION 3191 3200	экономист
-T62	PERSON 3208 3214	Гурвич
+T62	PERSON 3201 3214	Леонид Гурвич
 T63	AGE 3237 3239	90
 T64	NUMBER 3246 3252	четыре
 T65	PERSON 3303 3325	Мария Склодовская-Кюри
@@ -287,3 +287,6 @@ N76	Reference T109 Wikidata:Q23810	Альфред Нобель
 N77	Reference T112 Wikidata:Q23810	Альфред Нобель
 N78	Reference T114 Wikidata:Q23810	Альфред Нобель
 N79	Reference T40 Wikidata:Q1781959	
+N80	Reference T106 Wikidata:NULL	нет данных
+N81	Reference T107 Wikidata:NULL	нет данных
+N82	Reference T62 Wikidata:(Q157262	

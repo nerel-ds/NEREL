@@ -104,7 +104,6 @@ T67	COUNTRY 1426 1432	России
 R37	HEADQUARTERED_IN Arg1:T35 Arg2:T67	
 R38	HEADQUARTERED_IN Arg1:T37 Arg2:T67	
 N1	Reference T8 Wikidata:Q23530	Дмитрий Анатольевич Медведев
-N2	Reference T9 Wikidata:Q133274	Московский Кремль
 N3	Reference T13 Wikidata:Q1780189	Коммерсантъ
 N4	Reference T14 Wikidata:Q351014	Кудрин, Алексей Леонидович
 N5	Reference T15 Wikidata:Q877955	вице-премьер
@@ -137,7 +136,6 @@ N22	Reference T55 Wikidata:Q30461	президент
 N33	Reference T56 Wikidata:Q382887	чиновник
 N16	Reference T45 Wikidata:Q7614320	
 N34	Reference T17 Wikidata:Q133274	Московский Кремль
-N35	Reference T1 Wikidata:Q133274	Московский Кремль
 N36	Reference T25 Wikidata:Q1780189	Коммерсантъ
 N37	Reference T11 Wikidata:Q351014	Кудрин, Алексей Леонидович
 N38	Reference T39 Wikidata:Q351014	Кудрин, Алексей Леонидович
@@ -161,3 +159,5 @@ N55	Reference T64 Wikidata:Q7614320
 N56	Reference T4 Wikidata:Q14212	премьер-министр
 N57	Reference T12 Wikidata:Q14212	премьер-министр
 N58	Reference T38 Wikidata:Q7614320	
+N35	Reference T1 Wikidata:Q2060629	Администрация президента России
+N2	Reference T9 Wikidata:Q2060629	Администрация президента России

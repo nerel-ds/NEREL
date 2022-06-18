@@ -167,8 +167,6 @@ N18	Reference T34 Wikidata:Q322964	МГИМО
 N21	Reference T41 Wikidata:Q71	Женева
 N23	Reference T45 Wikidata:Q121998	посол
 N24	Reference T46 Wikidata:Q1860	английский язык
-N25	Reference T48 Wikidata:Q133274	Московский Кремль
-N26	Reference T49 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
 N27	Reference T50 Wikidata:Q791135	орден Дружбы
 N31	Reference T55 Wikidata:Q1000053	Василий Алексеевич Небензя
 N32	Reference T29 Wikidata:Q1394102	Виталий Иванович Чуркин
@@ -223,3 +221,6 @@ R76	POINT_IN_TIME Arg1:T80 Arg2:T31
 R77	TAKES_PLACE_IN Arg1:T80 Arg2:T32	
 T81	ORDINAL 1347 1349	II
 T82	AWARD 1318 1345	За заслуги перед Отечеством
+N25	Reference T48 Wikidata:Q2060629	Администрация президента России
+N67	Reference T82 Wikidata:Q1630643	орден «За заслуги перед Отечеством»
+N26	Reference T49 Wikidata:NULL	нет данных

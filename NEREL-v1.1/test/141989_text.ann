@@ -57,7 +57,7 @@ R12	POINT_IN_TIME Arg1:T8 Arg2:T17
 T50	EVENT 420 426	взрыва
 R13	SUBEVENT_OF Arg1:T9 Arg2:T8	
 R14	ABBREVIATION Arg1:T19 Arg2:T18	
-T24	FACILITY 675 679	д. 2
+T24	FACILITY 675 680	д. 23
 T51	EVENT 716 742	найдена аналогичная флешка
 R15	AGE_IS Arg1:T28 Arg2:T26	
 R16	POINT_IN_TIME Arg1:T46 Arg2:T35	
@@ -104,5 +104,12 @@ N18	Reference T37 Wikidata:NULL	нет данных
 N14	Reference T41 Wikidata:NULL	нет данных
 N20	Reference T2 Wikidata:Q4381277	Проспект Народного Ополчения
 N21	Reference T3 Wikidata:Q656	Санкт-Петербург
-N22	Reference T40 Wikidata:Q16150196	Донецкая Народная Республика
 N23	Reference T20 Wikidata:Q1197144	
+N22	Reference T40 Wikidata:NULL	нет данных
+R37	PART_OF Arg1:T24 Arg2:T23	
+R38	TAKES_PLACE_IN Arg1:T51 Arg2:T24	
+N24	Reference T12 Wikidata:Q58792	Федеральная служба безопасности Российской Федерации
+T15	PROFESSION 227 241	сотрудники ФСБ
+N25	Reference T15 Wikidata:NULL	нет данных
+N26	Reference T19 Wikidata:Q4153476	ДЭИР
+N27	Reference T25 Wikidata:Q1267403	

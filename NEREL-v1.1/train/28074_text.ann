@@ -89,7 +89,6 @@ R10	LOCATED_IN Arg1:T40 Arg2:T42
 N1	Reference T6 Wikidata:Q4051211	The New Times
 N3	Reference T12 Wikidata:Q33935	Тель-Авив
 N4	Reference T17 Wikidata:Q7747	Владимир Владимирович Путин
-N9	Reference T29 Wikidata:Q133274	Московский Кремль
 N10	Reference T30 Wikidata:Q649	Москва
 N12	Reference T34 Wikidata:Q221986	The Sunday Times
 N13	Reference T35 Wikidata:Q311019	Борис Абрамович Березовский
@@ -126,3 +125,4 @@ N37	Reference T32 Wikidata:Q311019	Борис Абрамович Березов�
 N38	Reference T4 Wikidata:NULL	нет данных
 N39	Reference T14 Wikidata:NULL	нет данных
 N40	Reference T23 Wikidata:NULL	нет данных
+N9	Reference T29 Wikidata:Q2060629	Администрация президента России

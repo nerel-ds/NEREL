@@ -123,3 +123,7 @@ N34	Reference T4 Wikidata:Q29415519
 T55	COUNTRY 118 124	Россия
 R35	ORIGINS_FROM Arg1:T46 Arg2:T55	
 R36	LOCATED_IN Arg1:T5 Arg2:T55	
+T56	COUNTRY 850 856	Россия
+R37	ORIGINS_FROM Arg1:T49 Arg2:T56	
+N35	Reference T56 Wikidata:Q159	Россия
+N36	Reference T55 Wikidata:Q159	Россия

@@ -217,3 +217,6 @@ N57	Reference T60 Wikidata:NULL	нет данных
 N58	Reference T11 Wikidata:NULL	нет данных
 N59	Reference T43 Wikidata:NULL	нет данных
 N60	Reference T77 Wikidata:Q1322976	Уральский
+T86	EVENT 0 9	Витамин Б
+R75	TAKES_PLACE_IN Arg1:T86 Arg2:T2	
+R76	ORGANIZES Arg1:T4 Arg2:T86	

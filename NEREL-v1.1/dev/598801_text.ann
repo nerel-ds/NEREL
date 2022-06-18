@@ -28,7 +28,6 @@ T27	NUMBER 1670 1673	Три
 T29	CRIME 137 168	нарушение «режима самоизоляции»
 T30	PROFESSION 300 329	Глава Республике Башкортостан
 T31	STATE_OR_PROVINCE 306 329	Республике Башкортостан
-T32	STATE_OR_PROVINCE 317 329	Башкортостан
 T33	ORGANIZATION 514 521	полиции
 T34	PROFESSION 503 521	сотрудники полиции
 T35	FACILITY 558 572	улице Лётчиков
@@ -68,7 +67,6 @@ N1	Reference T6 Wikidata:Q4494406	Радий Фаритович Хабиров
 N3	Reference T16 Wikidata:Q4080107	Башинформ
 N6	Reference T30 Wikidata:Q3555636	глава Башкортостана
 N7	Reference T31 Wikidata:Q5710	Республика Башкортостан
-N8	Reference T32 Wikidata:Q5710	Республика Башкортостан
 N9	Reference T33 Wikidata:Q35535	полиция
 N10	Reference T34 Wikidata:Q1188211	Полиция России
 N13	Reference T49 Wikidata:Q2095549	лётчик

@@ -204,3 +204,7 @@ N54	Reference T75 Wikidata:Q7188	правительство
 N55	Reference T35 Wikidata:Q2660943	министр иностранных дел Австралии
 N56	Reference T38 Wikidata:Q2660943	министр иностранных дел Австралии
 N57	Reference T27 Wikidata:Q2660943	министр иностранных дел Австралии
+N58	Reference T39 Wikidata:Q360	Джулиан Ассанж
+N59	Reference T62 Wikidata:Q360	Джулиан Ассанж
+N60	Reference T44 Wikidata:Q360	Джулиан Ассанж
+R72	ALTERNATIVE_NAME Arg1:T39 Arg2:T44	

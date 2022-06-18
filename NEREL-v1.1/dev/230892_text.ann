@@ -111,17 +111,13 @@ R50	CONVICTED_OF Arg1:T10 Arg2:T43
 N1	Reference T5 Wikidata:Q30461	президент
 N2	Reference T6 Wikidata:Q7747	Владимир Владимирович Путин
 N4	Reference T18 Wikidata:Q1344473	Владимир Александрович Колокольцев
-N6	Reference T26 Wikidata:Q4384584	Пучков, Андрей Юрьевич
-N7	Reference T27 Wikidata:Q83460	генерал
 N8	Reference T30 Wikidata:Q83460	генерал
 N9	Reference T31 Wikidata:Q218295	президент Российской Федерации
 N11	Reference T36 Wikidata:Q40348	адвокат
 N12	Reference T37 Wikidata:Q1930187	журналист
-N16	Reference T44 Wikidata:Q157148	генерал-майор
 N17	Reference T47 Wikidata:Q64485147	Иван Валентинович Голунов
 N19	Reference T49 Wikidata:Q159	Россия
 N20	Reference T59 Wikidata:Q35535	полиция
-N21	Reference T60 Wikidata:Q133274	Московский Кремль
 N23	Reference T62 Wikidata:Q2895468	Главное управление МВД России по городу Москве
 N24	Reference T64 Wikidata:Q6589202	министерство внутренних дел
 N28	Reference T71 Wikidata:Q649	Москва
@@ -140,23 +136,20 @@ N15	Reference T42 Wikidata:NULL	нет данных
 N5	Reference T24 Wikidata:NULL	нет данных
 N31	Reference T19 Wikidata:Q30461	президент
 N32	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
-N33	Reference T28 Wikidata:Q4384584	Пучков, Андрей Юрьевич
-N34	Reference T25 Wikidata:Q83460	генерал
 N35	Reference T39 Wikidata:Q83460	генерал
 N36	Reference T33 Wikidata:Q83460	генерал
 N37	Reference T38 Wikidata:Q1930187	журналист
 N38	Reference T9 Wikidata:Q1930187	журналист
 N39	Reference T35 Wikidata:Q1930187	журналист
-N40	Reference T45 Wikidata:Q157148	генерал-майор
 N41	Reference T13 Wikidata:Q64485147	Иван Валентинович Голунов
 N42	Reference T3 Wikidata:Q64485147	Иван Валентинович Голунов
 N43	Reference T10 Wikidata:Q64485147	Иван Валентинович Голунов
 N44	Reference T69 Wikidata:Q35535	полиция
-N45	Reference T73 Wikidata:Q35535	полиция
 N46	Reference T46 Wikidata:Q35535	полиция
 N47	Reference T52 Wikidata:Q35535	полиция
-N48	Reference T72 Wikidata:Q35535	полиция
 N49	Reference T17 Wikidata:Q6589202	министерство внутренних дел
 N50	Reference T67 Wikidata:Q649	Москва
 N51	Reference T29 Wikidata:Q4135316	
 N52	Reference T32 Wikidata:Q4135316	
+N21	Reference T60 Wikidata:Q2060629	Администрация президента России
+R45	POINT_IN_TIME Arg1:T75 Arg2:T21	

@@ -46,7 +46,7 @@ T46	PROFESSION 118 134	Президент России
 R2	WORKS_AS Arg1:T6 Arg2:T46	
 T47	ORGANIZATION 300 305	ВГТРК
 T48	AWARD 332 359	За заслуги перед Отечеством
-T49	AWARD 332 371	За заслуги перед Отечеством» IV степени
+T49	AWARD 331 371	«За заслуги перед Отечеством» IV степени
 T50	PROFESSION 275 305	заместителя гендиректора ВГТРК
 R3	SUBORDINATE_OF Arg1:T50 Arg2:T10	
 R4	WORKPLACE Arg1:T11 Arg2:T47	
@@ -90,7 +90,7 @@ T63	PROFESSION 1242 1259	президенту России
 T64	COUNTRY 1253 1259	России
 T65	PROFESSION 1242 1252	президенту
 T66	PERSON 1569 1580	сталинского
-T67	ORGANIZATION 1678 1689	кремлёвский
+T67	FACILITY 1678 1689	кремлёвский
 T68	PROFESSION 1678 1695	кремлёвский лидер
 T69	PROFESSION 190 202	гендиректора
 T70	PROFESSION 287 299	гендиректора
@@ -181,3 +181,5 @@ N57	Reference T24 Wikidata:Q159	Россия
 N58	Reference T34 Wikidata:Q855	Иосиф Виссарионович Сталин
 N59	Reference T35 Wikidata:Q855	Иосиф Виссарионович Сталин
 R48	INANIMATE_INVOLVED Arg1:T3 Arg2:T59	
+R49	WORKPLACE Arg1:T35 Arg2:T56	
+R50	WORKS_AS Arg1:T35 Arg2:T68	

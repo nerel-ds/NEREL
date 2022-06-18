@@ -55,7 +55,6 @@ N1	Reference T6 Wikidata:Q50008	Таймс
 N3	Reference T10 Wikidata:Q14212	премьер-министр
 N6	Reference T14 Wikidata:Q35749	парламент
 N7	Reference T18 Wikidata:Q145	Великобритания
-N8	Reference T20 Wikidata:Q145	Великобритания
 N9	Reference T25 Wikidata:Q3397406	министр здравоохранения Великобритании
 N11	Reference T1 Wikidata:Q180589	Борис Джонсон
 N12	Reference T26 Wikidata:Q83307	министр
@@ -70,3 +69,5 @@ N16	Reference T21 Wikidata:Q145	Великобритания
 N17	Reference T2 Wikidata:Q258586	
 N18	Reference T4 Wikidata:Q258586	
 N19	Reference T15 Wikidata:Q145	Великобритания
+N20	Reference T23 Wikidata:NULL	нет данных
+N8	Reference T20 Wikidata:NULL	нет данных

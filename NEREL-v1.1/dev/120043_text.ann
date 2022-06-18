@@ -87,9 +87,12 @@ N8	Reference T13 Wikidata:Q35749	парламент
 N19	Reference T37 Wikidata:Q548911	
 N10	Reference T16 Wikidata:Q39018	император
 N12	Reference T20 Wikidata:Q39018	император
-N20	Reference T38 Wikidata:Q17	Япония
-N21	Reference T1 Wikidata:Q208233	император Японии
 N22	Reference T32 Wikidata:Q208233	император Японии
-N23	Reference T42 Wikidata:Q208233	император Японии
-N24	Reference T2 Wikidata:Q208233	император Японии
 N25	Reference T23 Wikidata:Q548911	
+N24	Reference T2 Wikidata:Q17	Япония
+N21	Reference T1 Wikidata:Q39018	император
+N26	Reference T8 Wikidata:Q20645466	
+N27	Reference T12 Wikidata:Q637846	
+N20	Reference T38 Wikidata:Q202384	Парламент Японии
+N28	Reference T31 Wikidata:Q17	Япония
+N29	Reference T36 Wikidata:Q12969145	

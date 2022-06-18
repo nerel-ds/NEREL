@@ -145,7 +145,6 @@ N16	Reference T28 Wikidata:Q7747	Владимир Владимирович Пу�
 N17	Reference T34 Wikidata:Q649	Москва
 N18	Reference T35 Wikidata:Q4110593	Видео Интернешнл
 N19	Reference T36 Wikidata:Q22868	RT
-N20	Reference T38 Wikidata:Q159	Россия
 N22	Reference T47 Wikidata:Q4259359	Лесин, Михаил Юрьевич
 N23	Reference T48 Wikidata:Q159	Россия
 N24	Reference T49 Wikidata:Q2537294	Всероссийская государственная телевизионная и радиовещательная компания
@@ -186,3 +185,6 @@ T71	EVENT 1257 1264	родился
 R63	PARTICIPANT_IN Arg1:T32 Arg2:T71	
 R64	POINT_IN_TIME Arg1:T71 Arg2:T33	
 R65	TAKES_PLACE_IN Arg1:T71 Arg2:T34	
+N53	Reference T53 Wikidata:NULL	нет данных
+N20	Reference T38 Wikidata:NULL	нет данных
+N54	Reference T63 Wikidata:NULL	нет данных

@@ -201,3 +201,6 @@ N70	Reference T33 Wikidata:Q181383
 N71	Reference T7 Wikidata:Q181383	
 N72	Reference T28 Wikidata:Q181383	
 N73	Reference T23 Wikidata:Q21004257	
+N74	Reference T66 Wikidata:Q148	Китайская Народная Республика
+R46	ALTERNATIVE_NAME Arg1:T3 Arg2:T66	
+N75	Reference T24 Wikidata:Q148	Китайская Народная Республика

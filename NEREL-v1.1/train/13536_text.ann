@@ -112,3 +112,5 @@ N35	Reference T15 Wikidata:NULL	нет данных
 T47	EVENT 1344 1353	переехала
 R33	AGENT Arg1:T26 Arg2:T47	
 R34	TAKES_PLACE_IN Arg1:T47 Arg2:T30	
+N23	Reference T8 Wikidata:Q2233518	
+N30	Reference T9 Wikidata:Q2233518	

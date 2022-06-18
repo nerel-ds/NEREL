@@ -5,7 +5,7 @@ T4	CITY 78 88	Иерусалиме
 T5	PERSON 106 120	Владимир Путин
 T6	NATIONALITY 130 142	израильтянку
 T7	PERSON 143 156	Нааму Иссахар
-T8	FACILITY 202 208	Кремля
+T8	ORGANIZATION 202 208	Кремля
 T9	DATE 209 237	в среду, 29 января 2020 года
 T10	PERSON 309 323	ИССАСХАР Нааму
 T11	DATE 354 371	11 октября 2019 г
@@ -169,7 +169,6 @@ R66	PARTICIPANT_IN Arg1:T38 Arg2:T102
 R67	HAS_CAUSE Arg1:T101 Arg2:T102	
 T103	CRIME 949 960	контрабанде
 R68	LOCATED_IN Arg1:T66 Arg2:T67	
-N2	Reference T8 Wikidata:Q133274	Московский Кремль
 N4	Reference T13 Wikidata:Q801	Израиль
 N5	Reference T14 Wikidata:Q30	США
 N7	Reference T17 Wikidata:Q649	Москва
@@ -242,3 +241,4 @@ N70	Reference T12 Wikidata:Q28134890
 N71	Reference T58 Wikidata:NULL	нет данных
 N72	Reference T60 Wikidata:NULL	нет данных
 N73	Reference T92 Wikidata:Q19705	уголовное законодательство
+N2	Reference T8 Wikidata:Q2060629	Администрация президента России

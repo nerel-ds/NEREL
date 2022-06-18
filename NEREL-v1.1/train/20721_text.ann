@@ -71,3 +71,5 @@ N21	Reference T23 Wikidata:NULL	нет данных
 N22	Reference T3 Wikidata:Q121842	французы
 N23	Reference T27 Wikidata:Q220	Рим
 N24	Reference T16 Wikidata:Q3227125	
+R20	ORIGINS_FROM Arg1:T29 Arg2:T3	
+R21	ORIGINS_FROM Arg1:T8 Arg2:T11	

@@ -246,7 +246,6 @@ N46	Reference T96 Wikidata:Q29	Испания
 N48	Reference T99 Wikidata:Q937857	футболист
 N49	Reference T100 Wikidata:Q267245	сборная Португалии по футболу
 N50	Reference T101 Wikidata:Q11571	Криштиану Роналду
-N52	Reference T49 Wikidata:Q5439269	fc
 N54	Reference T85 Wikidata:Q182529	Игрок года ФИФА
 N56	Reference T108 Wikidata:Q41583	тренер
 N58	Reference T112 Wikidata:Q937857	футболист
@@ -308,3 +307,7 @@ N91	Reference T51 Wikidata:Q15917626
 N92	Reference T55 Wikidata:Q12035682	
 N93	Reference T54 Wikidata:Q12035682	
 N94	Reference T114 Wikidata:Q142	Франция
+N95	Reference T95 Wikidata:NULL	нет данных
+N52	Reference T49 Wikidata:NULL	нет данных
+R100	WORKPLACE Arg1:T49 Arg2:T117	
+N96	Reference T117 Wikidata:Q847499	Словацко

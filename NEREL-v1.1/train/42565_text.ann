@@ -66,7 +66,6 @@ N3	Reference T9 Wikidata:Q1286	Альпы
 N5	Reference T15 Wikidata:Q171329	Бенеттон
 N6	Reference T16 Wikidata:Q169898	Феррари
 N8	Reference T29 Wikidata:Q2066131	спортсмен
-N12	Reference T33 Wikidata:Q4508866	Чемпион мира
 N13	Reference T1 Wikidata:Q9671	Михаэль Шумахер
 N9	Reference T30 Wikidata:NULL	нет данных
 N10	Reference T31 Wikidata:Q378622	
@@ -78,3 +77,5 @@ N15	Reference T6 Wikidata:Q9671	Михаэль Шумахер
 N16	Reference T2 Wikidata:Q9671	Михаэль Шумахер
 N17	Reference T23 Wikidata:Q9671	Михаэль Шумахер
 N18	Reference T8 Wikidata:Q9671	Михаэль Шумахер
+T34	NUMBER 95 96	1
+N12	Reference T33 Wikidata:Q2948691	

@@ -231,3 +231,6 @@ R78	ALTERNATIVE_NAME Arg1:T16 Arg2:T23
 T89	ORGANIZATION 361 371	Эхо Москвы
 R79	PART_OF Arg1:T13 Arg2:T89	
 R80	HEADQUARTERED_IN Arg1:T89 Arg2:T4	
+N65	Reference T86 Wikidata:NULL	нет данных
+N66	Reference T89 Wikidata:Q749928	Эхо Москвы
+N67	Reference T88 Wikidata:Q312	Apple

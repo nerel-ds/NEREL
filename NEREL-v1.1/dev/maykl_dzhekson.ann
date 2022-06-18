@@ -143,7 +143,6 @@ N23	Reference T65 Wikidata:Q177220	певец
 N25	Reference T69 Wikidata:Q2831	Майкл Джексон
 N26	Reference T71 Wikidata:Q35535	полиция
 N3	Reference T67 Wikidata:NULL	нет данных
-N6	Reference T22 Wikidata:NULL	нет данных
 N7	Reference T26 Wikidata:NULL	нет данных
 N22	Reference T64 Wikidata:Q39631	врач
 N11	Reference T35 Wikidata:Q238402	Кэтрин Джексон
@@ -158,11 +157,9 @@ N31	Reference T43 Wikidata:Q2831	Майкл Джексон
 N32	Reference T33 Wikidata:Q816	Аризона
 N33	Reference T8 Wikidata:Q40469	Ассошиэйтед Пресс
 N34	Reference T19 Wikidata:Q99	Калифорния
-N35	Reference T60 Wikidata:Q2831	Майкл Джексон
 N36	Reference T59 Wikidata:Q177220	певец
 N37	Reference T70 Wikidata:Q177220	певец
 N38	Reference T68 Wikidata:Q35535	полиция
-N39	Reference T39 Wikidata:NULL	нет данных
 N40	Reference T27 Wikidata:NULL	нет данных
 N41	Reference T9 Wikidata:Q238402	Кэтрин Джексон
 N42	Reference T44 Wikidata:Q238402	Кэтрин Джексон
@@ -173,3 +170,12 @@ N46	Reference T38 Wikidata:Q238402	Кэтрин Джексон
 N47	Reference T48 Wikidata:Q238402	Кэтрин Джексон
 N48	Reference T54 Wikidata:Q238402	Кэтрин Джексон
 N49	Reference T14 Wikidata:NULL	
+N50	Reference T13 Wikidata:NULL	нет данных
+N51	Reference T23 Wikidata:Q7137312	Пэрис Джексон
+N52	Reference T21 Wikidata:Q16240598	
+N6	Reference T22 Wikidata:Q7244161	
+N53	Reference T40 Wikidata:Q7137312	Пэрис Джексон
+N54	Reference T41 Wikidata:Q16240598	
+N39	Reference T39 Wikidata:Q7244161	
+N35	Reference T60 Wikidata:Q60723829	
+N55	Reference T61 Wikidata:Q60723829	

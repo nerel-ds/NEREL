@@ -65,7 +65,6 @@ T39	DATE 485 487	19
 T40	DATE 163 165	19
 N1	Reference T2 Wikidata:Q180589	Борис Джонсон
 N2	Reference T3 Wikidata:Q21812812	референдум о членстве Великобритании в Европейском союзе
-N3	Reference T8 Wikidata:Q6063	Правительство Великобритании
 N4	Reference T18 Wikidata:Q7330070	министр иностранных дел
 N5	Reference T20 Wikidata:Q14212	премьер-министр
 N8	Reference T28 Wikidata:Q268584	Рааб, Доминик
@@ -80,3 +79,4 @@ N14	Reference T1 Wikidata:Q180589	Борис Джонсон
 N15	Reference T12 Wikidata:Q180589	Борис Джонсон
 N16	Reference T13 Wikidata:Q7188	правительство
 N17	Reference T25 Wikidata:Q14212	премьер-министр
+N3	Reference T8 Wikidata:Q96758600	

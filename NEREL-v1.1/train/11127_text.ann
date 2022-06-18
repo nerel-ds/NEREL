@@ -114,3 +114,6 @@ N27	Reference T33 Wikidata:Q7191	Нобелевская премия
 N28	Reference T47 Wikidata:Q7191	Нобелевская премия
 N29	Reference T51 Wikidata:Q7191	Нобелевская премия
 R36	IDEOLOGY_OF Arg1:T22 Arg2:T41	
+N30	Reference T40 Wikidata:Q15253558	
+R37	PLACE_RESIDES_IN Arg1:T40 Arg2:T16	
+N31	Reference T15 Wikidata:Q15253558	

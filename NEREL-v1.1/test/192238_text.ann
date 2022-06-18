@@ -129,7 +129,6 @@ N10	Reference T41 Wikidata:Q159	Россия
 N11	Reference T42 Wikidata:Q3052772	Эмманюэль Макрон
 N12	Reference T43 Wikidata:Q649	Москва
 N13	Reference T44 Wikidata:Q61	Вашингтон
-N15	Reference T47 Wikidata:Q188190	Елисейский дворец
 N16	Reference T52 Wikidata:Q11696	президент США
 N17	Reference T53 Wikidata:Q218295	президент Российской Федерации
 N18	Reference T54 Wikidata:Q1930187	журналист
@@ -153,7 +152,6 @@ N33	Reference T69 Wikidata:Q159	Россия
 N34	Reference T14 Wikidata:Q159	Россия
 N35	Reference T17 Wikidata:Q159	Россия
 N36	Reference T32 Wikidata:Q3052772	Эмманюэль Макрон
-N37	Reference T36 Wikidata:Q188190	Елисейский дворец
 N38	Reference T55 Wikidata:Q218295	президент Российской Федерации
 N39	Reference T60 Wikidata:Q218295	президент Российской Федерации
 N40	Reference T10 Wikidata:Q30461	президент
@@ -169,3 +167,7 @@ N49	Reference T23 Wikidata:Q90	Париж
 N50	Reference T7 Wikidata:Q90	Париж
 N51	Reference T39 Wikidata:Q90	Париж
 N52	Reference T27 Wikidata:Q90	Париж
+R46	HEADQUARTERED_IN Arg1:T36 Arg2:T39	
+R47	HEADQUARTERED_IN Arg1:T47 Arg2:T45	
+N15	Reference T47 Wikidata:Q2932392	
+N37	Reference T36 Wikidata:Q2932392	

@@ -17,7 +17,7 @@ T16	COUNTRY 579 593	Великобритания
 T17	DATE 674 696	три десятилетия спустя
 T18	EVENT 753 760	встречи
 T19	PERSON 763 772	Ли Куан Ю
-T20	ORGANIZATION 775 785	Белом доме
+T20	FACILITY 775 785	Белом доме
 T21	DATE 786 797	в 2009 году
 T22	PROFESSION 798 811	президент США
 T23	COUNTRY 808 811	США
@@ -92,9 +92,9 @@ N17	Reference T3 Wikidata:Q131248	Ли Куан Ю
 N18	Reference T2 Wikidata:Q131248	Ли Куан Ю
 N19	Reference T6 Wikidata:Q131248	Ли Куан Ю
 N20	Reference T34 Wikidata:Q866756	Премьер-министр Сингапура
-N21	Reference T28 Wikidata:Q35525	Белый дом
 N22	Reference T29 Wikidata:Q48	Азия
 N23	Reference T4 Wikidata:Q334	Сингапур
 N24	Reference T33 Wikidata:Q334	Сингапур
 N25	Reference T36 Wikidata:Q334	Сингапур
 N26	Reference T5 Wikidata:Q334	Сингапур
+N21	Reference T28 Wikidata:Q1355327	Исполнительный офис Президента США

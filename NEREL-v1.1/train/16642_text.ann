@@ -269,7 +269,6 @@ T127	COUNTRY 1721 1727	России
 R76	HEADQUARTERED_IN Arg1:T49 Arg2:T127	
 T130	COUNTRY 1769 1775	России
 R77	HEADQUARTERED_IN Arg1:T54 Arg2:T130	
-R78	ALTERNATIVE_NAME Arg1:T173 Arg2:T57	
 R79	WORKS_AS Arg1:T58 Arg2:T141	
 R80	WORKS_AS Arg1:T60 Arg2:T141	
 R81	WORKS_AS Arg1:T66 Arg2:T178	
@@ -392,8 +391,6 @@ N98	Reference T125 Wikidata:Q159	Россия
 N99	Reference T51 Wikidata:Q192187	Коммунистическая партия Российской Федерации
 N100	Reference T113 Wikidata:Q210692	Справедливая Россия
 N101	Reference T193 Wikidata:Q35749	парламент
-N102	Reference T160 Wikidata:Q35749	парламент
-N103	Reference T173 Wikidata:Q35749	парламент
 N104	Reference T187 Wikidata:Q35749	парламент
 N105	Reference T192 Wikidata:Q35749	парламент
 N106	Reference T76 Wikidata:Q715641	Государственная дума
@@ -451,3 +448,5 @@ N157	Reference T90 Wikidata:NULL	нет данных
 N158	Reference T7 Wikidata:Q1758037	спикер
 N159	Reference T37 Wikidata:Q1758037	спикер
 N160	Reference T1 Wikidata:Q1758037	спикер
+N102	Reference T160 Wikidata:Q4146582	
+N103	Reference T173 Wikidata:Q4146582	

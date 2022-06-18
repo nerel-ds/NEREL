@@ -73,12 +73,15 @@ N11	Reference T20 Wikidata:Q320	Мишель Бачелет
 N12	Reference T12 Wikidata:Q320	Мишель Бачелет
 N13	Reference T17 Wikidata:Q320	Мишель Бачелет
 N14	Reference T24 Wikidata:Q320	Мишель Бачелет
-N15	Reference T3 Wikidata:Q320	Мишель Бачелет
 N16	Reference T21 Wikidata:Q83460	генерал
 N17	Reference T28 Wikidata:Q466956	президент Чили
-N18	Reference T29 Wikidata:Q466956	президент Чили
 N19	Reference T41 Wikidata:Q368	Аугусто Пиночет
 R1	AGENT Arg1:T20 Arg2:T44	
 R2	TAKES_PLACE_IN Arg1:T44 Arg2:T23	
 R3	PARTICIPANT_IN Arg1:T20 Arg2:T40	
 R5	CONVICTED_OF Arg1:T41 Arg2:T40	
+N20	Reference T1 Wikidata:Q30461	президент
+N21	Reference T19 Wikidata:Q30461	президент
+N22	Reference T9 Wikidata:Q298	Чили
+N23	Reference T14 Wikidata:Q298	Чили
+N24	Reference T34 Wikidata:Q298	Чили

@@ -182,3 +182,18 @@ N52	Reference T38 Wikidata:Q35572	УЕФА
 N53	Reference T9 Wikidata:Q30461	президент
 N54	Reference T72 Wikidata:Q30461	президент
 N55	Reference T2 Wikidata:NULL	
+T77	PROFESSION 1364 1374	президента
+T78	PROFESSION 1396 1405	президент
+T79	PROFESSION 1160 1182	генеральным секретарем
+T80	EVENT 1151 1159	назначен
+R54	POINT_IN_TIME Arg1:T80 Arg2:T40	
+R55	PARTICIPANT_IN Arg1:T61 Arg2:T80	
+R56	PARTICIPANT_IN Arg1:T36 Arg2:T80	
+T81	EVENT 1430 1439	отстранён
+R57	HAS_CAUSE Arg1:T81 Arg2:T75	
+R58	PARTICIPANT_IN Arg1:T47 Arg2:T75	
+R59	PARTICIPANT_IN Arg1:T47 Arg2:T81	
+N56	Reference T77 Wikidata:Q1255921	
+N57	Reference T78 Wikidata:Q1255921	
+N58	Reference T41 Wikidata:NULL	нет данных
+N59	Reference T79 Wikidata:Q6501749	генеральный секретарь

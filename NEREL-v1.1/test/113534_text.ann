@@ -152,7 +152,6 @@ R60	ALTERNATIVE_NAME Arg1:T53 Arg2:T55
 T94	COUNTRY 1898 1901	США
 R61	EXPENDITURE Arg1:T58 Arg2:T61	
 R62	HEADQUARTERED_IN Arg1:T66 Arg2:T74	
-N5	Reference T16 Wikidata:Q35657	штат США
 N7	Reference T24 Wikidata:Q903810	магнат
 N8	Reference T27 Wikidata:Q160278	Джон Дэвисон Рокфеллер
 N9	Reference T29 Wikidata:Q375791	Standard Oil
@@ -178,7 +177,6 @@ N3	Reference T14 Wikidata:Q7206281
 N4	Reference T15 Wikidata:Q1384	Нью-Йорк
 N1	Reference T9 Wikidata:Q17221	
 N2	Reference T10 Wikidata:Q5493653	
-N6	Reference T18 Wikidata:Q30	США
 N36	Reference T19 Wikidata:Q372436	
 N35	Reference T89 Wikidata:Q42178	вице-президент
 N12	Reference T35 Wikidata:Q878708	
@@ -192,15 +190,11 @@ N39	Reference T65 Wikidata:Q60	Нью-Йорк
 N25	Reference T66 Wikidata:Q4046506	
 N23	Reference T63 Wikidata:Q4745666	
 N40	Reference T94 Wikidata:Q35657	штат США
-N41	Reference T5 Wikidata:Q35657	штат США
-N42	Reference T32 Wikidata:Q35657	штат США
-N43	Reference T54 Wikidata:Q35657	штат США
 N44	Reference T41 Wikidata:Q218868	Трёхсторонняя комиссия
 N45	Reference T88 Wikidata:Q1062083	миллиардер
 N46	Reference T86 Wikidata:Q1062083	миллиардер
 N47	Reference T26 Wikidata:Q1062083	миллиардер
 N48	Reference T87 Wikidata:Q1062083	миллиардер
-N49	Reference T7 Wikidata:Q30	США
 N50	Reference T55 Wikidata:Q794	Иран
 N51	Reference T1 Wikidata:Q11239	
 N52	Reference T3 Wikidata:Q11239	
@@ -218,3 +212,10 @@ R64	LOCATED_IN Arg1:T46 Arg2:T81
 T93	EVENT 2309 2323	ушла с молотка
 R65	PRICE_OF Arg1:T93 Arg2:T72	
 R66	POINT_IN_TIME Arg1:T93 Arg2:T71	
+N61	Reference T81 Wikidata:Q46	Европа
+N41	Reference T5 Wikidata:Q30	США
+N49	Reference T7 Wikidata:Q846570	
+N5	Reference T16 Wikidata:Q30	США
+N6	Reference T18 Wikidata:Q846570	
+N42	Reference T32 Wikidata:Q30	США
+N43	Reference T54 Wikidata:Q30	США

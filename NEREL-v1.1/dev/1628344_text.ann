@@ -58,7 +58,6 @@ R21	EXPENDITURE Arg1:T4 Arg2:T3
 R22	EXPENDITURE Arg1:T12 Arg2:T15	
 R23	ALTERNATIVE_NAME Arg1:T7 Arg2:T13	
 N1	Reference T5 Wikidata:Q9617	Арсенал
-N3	Reference T10 Wikidata:Q5015387	METRO
 N4	Reference T14 Wikidata:Q79797	армяне
 N6	Reference T18 Wikidata:Q50001	итальянцы
 N9	Reference T33 Wikidata:Q193592	полузащитник
@@ -79,3 +78,4 @@ N19	Reference T2 Wikidata:Q196219	Генрих Мхитарян
 N20	Reference T4 Wikidata:Q2739	Рома
 N21	Reference T31 Wikidata:Q84	Лондон
 N22	Reference T12 Wikidata:Q2739	Рома
+N3	Reference T10 Wikidata:Q3307433	

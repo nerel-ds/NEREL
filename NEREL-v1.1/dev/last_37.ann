@@ -170,7 +170,7 @@ R26	WORKPLACE Arg1:T40 Arg2:T41
 R27	ALTERNATIVE_NAME Arg1:T120 Arg2:T40	
 R28	WORKS_AS Arg1:T120 Arg2:T34	
 R29	WORKPLACE Arg1:T120 Arg2:T119	
-R30	WORKPLACE Arg1:T34 Arg2:T119	
+R30	WORKPLACE Arg1:T34 Arg2:T178	
 T145	PROFESSION 1635 1643	спикером
 R31	WORKPLACE Arg1:T37 Arg2:T121	
 R32	SCHOOLS_ATTENDED Arg1:T120 Arg2:T39	
@@ -305,7 +305,6 @@ N2	Reference T18 Wikidata:Q43937	Азавад
 N5	Reference T25 Wikidata:Q650100	Кидаль
 N6	Reference T28 Wikidata:Q81066	генеральный секретарь ООН
 N7	Reference T29 Wikidata:Q1253	Пан Ги Мун
-N8	Reference T34 Wikidata:Q2285706	глава правительства
 N10	Reference T39 Wikidata:Q209842	Парижский университет
 N12	Reference T50 Wikidata:Q142	Франция
 N15	Reference T55 Wikidata:Q7330070	министр иностранных дел
@@ -416,3 +415,13 @@ N113	Reference T75 Wikidata:Q3491740
 N114	Reference T81 Wikidata:Q3491740	Джибриль Сиссе
 N115	Reference T72 Wikidata:Q971440	
 N116	Reference T70 Wikidata:Q971440	
+N117	Reference T112 Wikidata:NULL	нет данных
+T177	PROFESSION 1183 1189	генсек
+N118	Reference T177 Wikidata:Q6501749	генеральный секретарь
+N119	Reference T176 Wikidata:Q2285706	глава правительства
+T178	ORGANIZATION 1560 1578	правительства Мали
+R127	HEADQUARTERED_IN Arg1:T178 Arg2:T175	
+N120	Reference T178 Wikidata:NULL	нет данных
+N8	Reference T34 Wikidata:NULL	нет данных
+N121	Reference T175 Wikidata:Q912	Мали
+N122	Reference T164 Wikidata:NULL	нет данных

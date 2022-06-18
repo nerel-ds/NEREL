@@ -245,7 +245,6 @@ N34	Reference T116 Wikidata:Q636207
 N4	Reference T11 Wikidata:Q236421	Рино, Джэнет Вуд
 N5	Reference T18 Wikidata:NULL	нет данных
 N42	Reference T26 Wikidata:Q1501926	
-N3	Reference T9 Wikidata:NULL	нет данных
 N8	Reference T33 Wikidata:NULL	нет данных
 N16	Reference T56 Wikidata:Q846570	
 N20	Reference T65 Wikidata:Q236421	Рино, Джэнет Вуд
@@ -279,8 +278,6 @@ N63	Reference T32 Wikidata:Q1501926
 N64	Reference T85 Wikidata:Q1501926	
 N65	Reference T128 Wikidata:Q1501926	
 N66	Reference T100 Wikidata:Q1501926	
-N67	Reference T45 Wikidata:NULL	нет данных
-N68	Reference T29 Wikidata:NULL	нет данных
 N69	Reference T88 Wikidata:Q236421	Рино, Джэнет Вуд
 N70	Reference T19 Wikidata:Q236421	Рино, Джэнет Вуд
 N71	Reference T61 Wikidata:Q236421	Рино, Джэнет Вуд
@@ -302,3 +299,10 @@ R82	POINT_IN_TIME Arg1:T137 Arg2:T66
 T138	EVENT 1809 1818	вернулась
 R83	AGENT Arg1:T61 Arg2:T138	
 R84	TAKES_PLACE_IN Arg1:T138 Arg2:T62	
+N67	Reference T45 Wikidata:Q28464553	
+N3	Reference T9 Wikidata:Q28464553	
+N68	Reference T29 Wikidata:Q28464553	
+T139	PERSON 4385 4390	Дьюка
+R85	FOUNDED_BY Arg1:T110 Arg2:T139	
+N83	Reference T139 Wikidata:Q2916122	
+N84	Reference T63 Wikidata:Q889821	

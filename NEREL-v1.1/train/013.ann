@@ -50,7 +50,6 @@ T52	CITY 2526 2534	уфимской
 T53	ORGANIZATION 2542 2543	Ъ
 T54	DATE 2559 2564	вчера
 T55	PROFESSION 2618 2637	управляющего делами
-T56	PROFESSION 2683 2688	главы
 T57	PERSON 2709 2724	Муртаза Рахимов
 T58	ORGANIZATION 2803 2804	Ъ
 T59	PROFESSION 2868 2879	гендиректор
@@ -274,7 +273,6 @@ N64	Reference T67 Wikidata:NULL	нет данных
 N28	Reference T68 Wikidata:Q85858406	
 N65	Reference T65 Wikidata:NULL	нет данных
 N47	Reference T103 Wikidata:NULL	нет данных
-N21	Reference T56 Wikidata:Q2462658	менеджер
 N45	Reference T101 Wikidata:NULL	
 N41	Reference T90 Wikidata:Q18277186	Сагитов, Азамат Талгатович
 N15	Reference T43 Wikidata:Q4494406	Радий Фаритович Хабиров
@@ -321,3 +319,4 @@ N105	Reference T26 Wikidata:Q4494406	Радий Фаритович Хабиро�
 N106	Reference T8 Wikidata:Q4494406	Радий Фаритович Хабиров
 R88	HEADQUARTERED_IN Arg1:T109 Arg2:T106	
 R89	ALTERNATIVE_NAME Arg1:T87 Arg2:T85	
+N21	Reference T128 Wikidata:Q2060629	Администрация президента России

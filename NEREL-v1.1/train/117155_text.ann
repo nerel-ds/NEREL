@@ -95,7 +95,6 @@ N3	Reference T17 Wikidata:Q3334835	Птушкина, Надежда Михайл
 N4	Reference T18 Wikidata:Q649	Москва
 N5	Reference T26 Wikidata:Q2545982	Владимир Абрамович Этуш
 N6	Reference T27 Wikidata:Q30461	президент
-N7	Reference T29 Wikidata:Q133274	Московский Кремль
 N10	Reference T34 Wikidata:Q2371262	12 стульев
 N11	Reference T35 Wikidata:Q1953944	Кавказская пленница, или Новые приключения Шурика
 N12	Reference T36 Wikidata:Q777739	Иван Васильевич меняет профессию
@@ -134,3 +133,5 @@ R38	ORIGINS_FROM Arg1:T47 Arg2:T33
 R39	ORIGINS_FROM Arg1:T47 Arg2:T32	
 T55	NUMBER 1433 1435	12
 T56	LOCATION 1447 1457	Кавказская
+N7	Reference T29 Wikidata:Q2060629	Администрация президента России
+N42	Reference T56 Wikidata:Q18869	Кавказ

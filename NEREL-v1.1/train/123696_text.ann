@@ -175,9 +175,7 @@ N1	Reference T1 Wikidata:Q22686	Дональд Трамп
 N2	Reference T5 Wikidata:Q11607	Джон Хантсман-младший
 N3	Reference T7 Wikidata:Q500486	Джон Теффт
 N4	Reference T9 Wikidata:Q11607	Джон Хантсман-младший
-N5	Reference T11 Wikidata:Q133274	Московский Кремль
 N7	Reference T14 Wikidata:Q11607	Джон Хантсман-младший
-N8	Reference T17 Wikidata:Q35525	Белый дом
 N9	Reference T20 Wikidata:Q1515730	посол США в России
 N10	Reference T21 Wikidata:Q159	Россия
 N12	Reference T25 Wikidata:Q11607	Джон Хантсман-младший
@@ -217,7 +215,6 @@ N44	Reference T42 Wikidata:NULL	нет данных
 N38	Reference T96 Wikidata:NULL	нет данных
 N45	Reference T2 Wikidata:Q11607	Джон Хантсман-младший
 N46	Reference T4 Wikidata:Q11607	Джон Хантсман-младший
-N47	Reference T29 Wikidata:Q35525	Белый дом
 N48	Reference T6 Wikidata:Q159	Россия
 N49	Reference T8 Wikidata:Q159	Россия
 N50	Reference T3 Wikidata:Q159	Россия
@@ -251,3 +248,6 @@ N77	Reference T82 Wikidata:Q747802
 T101	EVENT 682 689	родился
 R74	PARTICIPANT_IN Arg1:T22 Arg2:T101	
 R75	POINT_IN_TIME Arg1:T101 Arg2:T23	
+N5	Reference T11 Wikidata:Q2060629	Администрация президента России
+N8	Reference T17 Wikidata:Q1355327	Исполнительный офис Президента США
+N47	Reference T29 Wikidata:Q1355327	Исполнительный офис Президента США

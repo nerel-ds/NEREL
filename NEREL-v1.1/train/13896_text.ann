@@ -151,7 +151,6 @@ N9	Reference T22 Wikidata:Q7804	Международный валютный фо
 N10	Reference T23 Wikidata:Q458	Европейский союз
 N11	Reference T24 Wikidata:Q577157	Монигалл
 N13	Reference T38 Wikidata:Q61	Вашингтон
-N19	Reference T49 Wikidata:Q35525	Белый дом
 N21	Reference T52 Wikidata:Q145	Великобритания
 N23	Reference T55 Wikidata:Q37143	Большая восьмёрка
 N24	Reference T56 Wikidata:Q142	Франция
@@ -211,3 +210,9 @@ N66	Reference T7 Wikidata:Q27	Ирландия
 N67	Reference T18 Wikidata:Q27	Ирландия
 N68	Reference T2 Wikidata:Q27	Ирландия
 N69	Reference T45 Wikidata:Q27	Ирландия
+N19	Reference T49 Wikidata:Q1355327	Исполнительный офис Президента США
+T88	PROFESSION 1773 1810	Официальные представители Белого дома
+T89	PROFESSION 1773 1798	Официальные представители
+R58	WORKPLACE Arg1:T88 Arg2:T49	
+N70	Reference T88 Wikidata:NULL	нет данных
+N71	Reference T89 Wikidata:NULL	нет данных

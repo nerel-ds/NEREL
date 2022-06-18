@@ -133,3 +133,5 @@ T52	FACILITY 1009 1024	Галатская башня
 T53	TIME 1034 1038	ночь
 T54	NATIONALITY 422 429	русских
 R45	ORIGINS_FROM Arg1:T10 Arg2:T54	
+N37	Reference T52 Wikidata:Q91274	Галатская башня
+N38	Reference T54 Wikidata:Q49542	русские

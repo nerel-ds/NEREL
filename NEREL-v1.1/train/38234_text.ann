@@ -211,3 +211,10 @@ N40	Reference T36 Wikidata:NULL	нет данных
 N41	Reference T30 Wikidata:NULL	нет данных
 N42	Reference T8 Wikidata:Q17379609	
 N43	Reference T38 Wikidata:Q17379609	
+N44	Reference T19 Wikidata:NULL	нет данных
+N45	Reference T62 Wikidata:NULL	нет данных
+N46	Reference T20 Wikidata:NULL	нет данных
+T71	NATIONALITY 355 371	гражданин Непала
+R83	ORIGINS_FROM Arg1:T71 Arg2:T53	
+T90	NATIONALITY 1675 1691	гражданин Непала
+R84	ORIGINS_FROM Arg1:T90 Arg2:T37	

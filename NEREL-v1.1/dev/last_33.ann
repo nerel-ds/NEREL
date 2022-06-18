@@ -229,3 +229,8 @@ N70	Reference T75 Wikidata:NULL
 T100	EVENT 805 813	переехал
 R60	AGENT Arg1:T22 Arg2:T100	
 R61	TAKES_PLACE_IN Arg1:T100 Arg2:T23	
+N71	Reference T18 Wikidata:NULL	нет данных
+T101	PROFESSION 604 612	инженера
+N72	Reference T101 Wikidata:Q81096	инженер
+T102	PROFESSION 613 622	технолога
+N73	Reference T102 Wikidata:Q12376667	

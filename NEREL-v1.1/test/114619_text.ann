@@ -126,7 +126,7 @@ R52	INANIMATE_INVOLVED Arg1:T22 Arg2:T73
 R53	WORKPLACE Arg1:T51 Arg2:T52	
 T74	COUNTRY 1647 1656	Советский
 R54	HEADQUARTERED_IN Arg1:T52 Arg2:T74	
-T75	LOCATION 1238 1249	Кремлёвский
+T75	FACILITY 1238 1249	Кремлёвский
 R55	LOCATED_IN Arg1:T38 Arg2:T75	
 N1	Reference T1 Wikidata:Q297736	Евгений Александрович Евтушенко
 N2	Reference T8 Wikidata:Q4302422	Михаил Зиновьевич Моргулис
@@ -191,3 +191,4 @@ R62	POINT_IN_TIME Arg1:T77 Arg2:T60
 R63	AGENT Arg1:T51 Arg2:T77	
 T78	COUNTRY 1861 1873	американском
 R64	ALTERNATIVE_NAME Arg1:T62 Arg2:T78	
+N52	Reference T78 Wikidata:Q30	США

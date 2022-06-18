@@ -139,7 +139,6 @@ R53	AGE_IS Arg1:T53 Arg2:T56
 N1	Reference T4 Wikidata:Q6279	Джо Байден
 N2	Reference T6 Wikidata:Q13424289	Эдвард Сноуден
 N4	Reference T10 Wikidata:Q19581	Рафаэль Корреа
-N5	Reference T22 Wikidata:Q35525	Белый дом
 N6	Reference T26 Wikidata:Q13424289	Эдвард Сноуден
 N9	Reference T29 Wikidata:Q192733	Шереметьево
 N10	Reference T30 Wikidata:Q8646	Гонконг
@@ -207,3 +206,4 @@ N68	Reference T8 Wikidata:Q6279	Джо Байден
 N69	Reference T12 Wikidata:Q6279	Джо Байден
 N70	Reference T69 Wikidata:Q30	США
 N71	Reference T81 Wikidata:Q2798820	
+N5	Reference T22 Wikidata:Q1355327	Исполнительный офис Президента США

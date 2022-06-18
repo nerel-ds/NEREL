@@ -188,3 +188,4 @@ T73	EVENT 498 505	родился
 R56	AGENT Arg1:T19 Arg2:T73	
 R57	POINT_IN_TIME Arg1:T73 Arg2:T20	
 R58	TAKES_PLACE_IN Arg1:T73 Arg2:T21	
+N60	Reference T46 Wikidata:Q2577002	Следственный комитет Российской Федерации

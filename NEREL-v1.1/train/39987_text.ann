@@ -146,7 +146,6 @@ N5	Reference T14 Wikidata:Q31230	чеченцы
 N7	Reference T19 Wikidata:Q2622450	Верховный Суд Российской Федерации
 N8	Reference T22 Wikidata:Q649	Москва
 N9	Reference T25 Wikidata:Q5187	Чечня
-N10	Reference T26 Wikidata:Q133274	Московский Кремль
 N11	Reference T28 Wikidata:Q30461	президент
 N12	Reference T29 Wikidata:Q7747	Владимир Владимирович Путин
 N13	Reference T31 Wikidata:Q170135	Новая газета
@@ -173,17 +172,21 @@ N30	Reference T67 Wikidata:Q485178
 N31	Reference T2 Wikidata:Q131240	Анна Степановна Политковская
 N32	Reference T18 Wikidata:Q649	Москва
 N33	Reference T4 Wikidata:Q649	Москва
-N34	Reference T44 Wikidata:Q133274	Московский Кремль
-N35	Reference T75 Wikidata:Q119702	Анна
-N36	Reference T13 Wikidata:Q119702	Анна
-N37	Reference T5 Wikidata:Q119702	Анна
-N38	Reference T20 Wikidata:Q119702	Анна
-N39	Reference T38 Wikidata:Q119702	Анна
-N40	Reference T45 Wikidata:Q119702	Анна
-N41	Reference T32 Wikidata:Q119702	Анна
-N42	Reference T27 Wikidata:Q119702	Анна
 N43	Reference T43 Wikidata:Q15077448	Павлюченков, Дмитрий Викторович
 N44	Reference T47 Wikidata:Q1930187	журналист
 N45	Reference T60 Wikidata:Q1930187	журналист
 N46	Reference T24 Wikidata:Q159	Россия
 N47	Reference T73 Wikidata:Q6503343	
+N34	Reference T44 Wikidata:Q2060629	Администрация президента России
+N10	Reference T26 Wikidata:Q2060629	Администрация президента России
+N48	Reference T33 Wikidata:NULL	нет данных
+N49	Reference T36 Wikidata:NULL	нет данных
+N50	Reference T37 Wikidata:NULL	нет данных
+N37	Reference T5 Wikidata:Q131240	Анна Степановна Политковская
+N36	Reference T13 Wikidata:Q131240	Анна Степановна Политковская
+N38	Reference T20 Wikidata:Q131240	Анна Степановна Политковская
+N42	Reference T27 Wikidata:Q131240	Анна Степановна Политковская
+N41	Reference T32 Wikidata:Q131240	Анна Степановна Политковская
+N39	Reference T38 Wikidata:Q131240	Анна Степановна Политковская
+N35	Reference T75 Wikidata:Q131240	Анна Степановна Политковская
+N40	Reference T45 Wikidata:Q131240	Анна Степановна Политковская

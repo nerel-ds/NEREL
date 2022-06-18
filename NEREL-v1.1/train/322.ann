@@ -120,3 +120,10 @@ N31	Reference T3 Wikidata:NULL	нет данных
 N32	Reference T23 Wikidata:NULL	нет данных
 N33	Reference T39 Wikidata:NULL	нет данных
 N34	Reference T19 Wikidata:NULL	нет данных
+N35	Reference T12 Wikidata:Q7614320	
+N36	Reference T35 Wikidata:Q7614320	
+T50	PROFESSION 1052 1060	министра
+N37	Reference T50 Wikidata:Q83307	министр
+T51	PROFESSION 531 540	горничной
+R40	PARTICIPANT_IN Arg1:T51 Arg2:T45	
+N38	Reference T51 Wikidata:Q833860	горничная

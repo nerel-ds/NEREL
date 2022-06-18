@@ -63,3 +63,9 @@ N15	Reference T31 Wikidata:Q159	Россия
 N16	Reference T10 Wikidata:Q159	Россия
 N17	Reference T1 Wikidata:Q159	Россия
 N18	Reference T19 Wikidata:Q4239752	
+R15	ORIGINS_FROM Arg1:T15 Arg2:T31	
+R16	ORIGINS_FROM Arg1:T16 Arg2:T30	
+N19	Reference T18 Wikidata:NULL	нет данных
+T34	COUNTRY 1276 1282	Россия
+R17	HEADQUARTERED_IN Arg1:T20 Arg2:T34	
+N20	Reference T34 Wikidata:Q159	Россия

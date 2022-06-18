@@ -105,13 +105,11 @@ T63	PROFESSION 841 848	тренера
 T64	PROFESSION 849 862	преподавателя
 T65	ORGANIZATION 863 874	СДЮСШОР № 6
 N3	Reference T17 Wikidata:Q37226	учитель
-N4	Reference T18 Wikidata:Q573766	детско-юношеская спортивная школа
 N6	Reference T20 Wikidata:Q5466	Чувашия
 N8	Reference T28 Wikidata:Q84	Лондон
 N9	Reference T31 Wikidata:Q4333889	олимпийский чемпион
 N10	Reference T33 Wikidata:Q4508866	Чемпион мира
 N14	Reference T39 Wikidata:Q2066131	спортсмен
-N15	Reference T40 Wikidata:Q573766	детско-юношеская спортивная школа
 N18	Reference T56 Wikidata:Q873364	бронзовая медаль
 N20	Reference T32 Wikidata:Q221956	олимпиада
 N12	Reference T1 Wikidata:Q159	Россия
@@ -147,3 +145,10 @@ N44	Reference T15 Wikidata:NULL	нет данных
 N45	Reference T36 Wikidata:Q5470	Чебоксары
 N46	Reference T55 Wikidata:Q5470	Чебоксары
 N40	Reference T8 Wikidata:NULL	нет данных
+N2	Reference T63 Wikidata:Q41583	тренер
+N24	Reference T64 Wikidata:Q37226	учитель
+T66	ORDINAL 873 874	6
+N15	Reference T40 Wikidata:NULL	нет данных
+N4	Reference T18 Wikidata:NULL	нет данных
+N43	Reference T13 Wikidata:NULL	нет данных
+N47	Reference T65 Wikidata:NULL	нет данных

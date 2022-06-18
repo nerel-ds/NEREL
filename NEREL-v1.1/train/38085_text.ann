@@ -47,7 +47,6 @@ T53	CITY 2439 2452	Беверли-Хиллз
 T54	STATE_OR_PROVINCE 2459 2469	Калифорния
 T55	COUNTRY 83 89	Англии
 T56	ORGANIZATION 75 89	сборной Англии
-T57	ORGANIZATION 75 82	сборной
 T58	PROFESSION 101 110	футболист
 T59	PROFESSION 388 397	футболист
 T60	ORGANIZATION 811 825	сборной Англии
@@ -188,7 +187,6 @@ N34	Reference T83 Wikidata:Q2807	Мадрид
 N35	Reference T84 Wikidata:Q65	Лос-Анджелес
 N36	Reference T86 Wikidata:Q184090	Престон
 N37	Reference T88 Wikidata:Q145	Великобритания
-N22	Reference T57 Wikidata:Q1194951	
 N2	Reference T9 Wikidata:Q10520	Дэвид Бекхэм
 N28	Reference T27 Wikidata:Q10520	Дэвид Бекхэм
 N4	Reference T11 Wikidata:Q142	Франция

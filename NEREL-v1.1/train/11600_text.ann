@@ -41,7 +41,6 @@ R15	WORKPLACE Arg1:T25 Arg2:T26
 R16	PART_OF Arg1:T13 Arg2:T5	
 R17	INANIMATE_INVOLVED Arg1:T3 Arg2:T23	
 R18	INANIMATE_INVOLVED Arg1:T10 Arg2:T24	
-N1	Reference T5 Wikidata:Q133274	Московский Кремль
 N2	Reference T7 Wikidata:Q159	Россия
 N3	Reference T8 Wikidata:Q23530	Дмитрий Анатольевич Медведев
 N5	Reference T14 Wikidata:Q715641	Государственная дума
@@ -63,3 +62,4 @@ N19	Reference T3 Wikidata:Q4481769
 N20	Reference T19 Wikidata:NULL	нет данных
 N21	Reference T20 Wikidata:NULL	нет данных
 N22	Reference T15 Wikidata:NULL	нет данных
+N1	Reference T5 Wikidata:Q2060629	Администрация президента России

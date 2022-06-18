@@ -138,7 +138,6 @@ N10	Reference T51 Wikidata:Q331401	Тиллерсон, Рекс
 N12	Reference T56 Wikidata:Q61	Вашингтон
 N13	Reference T62 Wikidata:Q76	Барак Обама
 N14	Reference T64 Wikidata:Q1297	Чикаго
-N15	Reference T68 Wikidata:Q35525	Белый дом
 N16	Reference T1 Wikidata:Q76	Барак Обама
 N17	Reference T6 Wikidata:Q11696	президент США
 N23	Reference T46 Wikidata:Q30461	президент
@@ -171,7 +170,6 @@ N41	Reference T58 Wikidata:Q76	Барак Обама
 N42	Reference T10 Wikidata:Q76	Барак Обама
 N43	Reference T67 Wikidata:Q76	Барак Обама
 N44	Reference T59 Wikidata:Q76	Барак Обама
-N45	Reference T44 Wikidata:Q35525	Белый дом
 N46	Reference T2 Wikidata:Q76	Барак Обама
 N47	Reference T45 Wikidata:Q11696	президент США
 N48	Reference T14 Wikidata:Q30461	президент
@@ -179,3 +177,12 @@ N49	Reference T61 Wikidata:Q30461	президент
 N50	Reference T40 Wikidata:Q30461	президент
 N51	Reference T53 Wikidata:Q30461	президент
 N52	Reference T28 Wikidata:Q12060942	
+N53	Reference T8 Wikidata:NULL	нет данных
+N45	Reference T44 Wikidata:Q1355327	Исполнительный офис Президента США
+N15	Reference T68 Wikidata:Q1355327	Исполнительный офис Президента США
+N54	Reference T29 Wikidata:Q193391	дипломат
+N55	Reference T60 Wikidata:Q11986654	
+R61	PLACE_RESIDES_IN Arg1:T29 Arg2:T19	
+R62	PLACE_RESIDES_IN Arg1:T60 Arg2:T19	
+N56	Reference T63 Wikidata:Q82955	политик
+R63	PLACE_RESIDES_IN Arg1:T63 Arg2:T19	

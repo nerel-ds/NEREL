@@ -225,3 +225,6 @@ T92	PROFESSION 1723 1731	артистка
 R70	WORKS_AS Arg1:T36 Arg2:T92	
 T93	LOCATION 1467 1472	Волга
 T94	PROFESSION 1755 1763	артистка
+N64	Reference T92 Wikidata:Q33999	актёр
+N65	Reference T94 Wikidata:Q33999	актёр
+N66	Reference T93 Wikidata:Q626	Волга

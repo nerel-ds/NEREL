@@ -544,7 +544,6 @@ R104	PLACE_RESIDES_IN Arg1:T96 Arg2:T109
 R105	WORKPLACE Arg1:T102 Arg2:T126	
 R181	PARTICIPANT_IN Arg1:T291 Arg2:T289	
 N4	Reference T12 Wikidata:Q14805701	заместитель председателя Правительства Российской Федерации
-N5	Reference T16 Wikidata:Q35525	Белый дом
 N6	Reference T28 Wikidata:Q174570	Лондонская школа экономики и политических наук
 N7	Reference T30 Wikidata:Q1091186	Сколково
 N8	Reference T34 Wikidata:Q753932	Известия
@@ -809,3 +808,7 @@ R183	POINT_IN_TIME Arg1:T140 Arg2:T93
 T182	EVENT 4873 4880	родился
 R232	AGENT Arg1:T96 Arg2:T182	
 R233	TAKES_PLACE_IN Arg1:T182 Arg2:T97	
+N5	Reference T16 Wikidata:Q844124	Дом правительства РФ
+T210	LAW 670 695	майских указов президента
+R234	PRODUCES Arg1:T194 Arg2:T210	
+N261	Reference T210 Wikidata:Q16673368	

@@ -353,7 +353,7 @@ T373	PROFESSION 7562 7571	Президент
 T144	PERSON 7862 7868	Земана
 T374	ORGANIZATION 7907 7920	правительства
 T153	PERSON 8148 8153	Земан
-T375	NATIONALITY 8207 8221	чехословацкого
+T375	COUNTRY 8207 8221	чехословацкого
 T376	PROFESSION 8222 8232	космонавта
 T377	COUNTRY 8355 8360	Чехии
 T378	ORGANIZATION 8432 8466	Гражданской демократической партии
@@ -408,7 +408,7 @@ R9	PLACE_RESIDES_IN Arg1:T27 Arg2:T29
 R10	IDEOLOGY_OF Arg1:T282 Arg2:T280	
 R11	WORKS_AS Arg1:T52 Arg2:T51	
 R12	WORKPLACE Arg1:T52 Arg2:T308	
-R13	DATE_OF_DEATH Arg1:T52 Arg2:T53	
+R13	DATE_OF_BIRTH Arg1:T52 Arg2:T53	
 T429	NATIONALITY 3313 3328	чешских граждан
 T430	COUNTRY 12678 12686	чешского
 T431	ORGANIZATION 12678 12697	чешского парламента
@@ -669,7 +669,6 @@ N37	Reference T155 Wikidata:Q1780	Братислава
 N38	Reference T156 Wikidata:Q159	Россия
 N39	Reference T157 Wikidata:Q254985	Ремек, Владимир
 N40	Reference T159 Wikidata:Q486839	член парламента
-N41	Reference T161 Wikidata:Q740126	председатель Европейского парламента
 N42	Reference T162 Wikidata:Q214	Словакия
 N48	Reference T187 Wikidata:Q457066	Мирослава Немцова
 N49	Reference T191 Wikidata:Q12025475	Руснок, Иржи
@@ -758,7 +757,6 @@ N114	Reference T208 Wikidata:NULL	нет данных
 N101	Reference T393 Wikidata:NULL	нет данных
 N56	Reference T225 Wikidata:Q27496	Западная Европа
 N93	Reference T441 Wikidata:Q170217	чехи
-N58	Reference T257 Wikidata:NULL	нет данных
 N115	Reference T246 Wikidata:Q1784683	
 N116	Reference T17 Wikidata:Q341148	Чешская социал-демократическая партия
 N117	Reference T242 Wikidata:Q341148	Чешская социал-демократическая партия
@@ -893,9 +891,6 @@ N245	Reference T186 Wikidata:Q14212	премьер-министр
 N246	Reference T397 Wikidata:Q14212	премьер-министр
 N247	Reference T84 Wikidata:Q14212	премьер-министр
 N248	Reference T103 Wikidata:Q12025475	Руснок, Иржи
-N249	Reference T414 Wikidata:Q320265	Палата депутатов Парламента Чешской Республики
-N250	Reference T263 Wikidata:Q320265	Палата депутатов Парламента Чешской Республики
-N251	Reference T431 Wikidata:Q320265	Палата депутатов Парламента Чешской Республики
 N252	Reference T427 Wikidata:Q486839	член парламента
 N253	Reference T389 Wikidata:Q486839	член парламента
 N254	Reference T388 Wikidata:Q486839	член парламента
@@ -950,5 +945,50 @@ N302	Reference T429 Wikidata:Q170217	чехи
 N303	Reference T247 Wikidata:Q170217	чехи
 N304	Reference T181 Wikidata:Q170217	чехи
 N305	Reference T66 Wikidata:Q170217	чехи
-N306	Reference T413 Wikidata:NULL	нет данных
 N307	Reference T245 Wikidata:Q1784683	
+N308	Reference T76 Wikidata:Q7614320	
+N309	Reference T323 Wikidata:Q29032	Милош Земан
+N310	Reference T85 Wikidata:Q29032	Милош Земан
+N311	Reference T101 Wikidata:Q29032	Милош Земан
+T451	PROFESSION 5568 5576	министра
+N312	Reference T451 Wikidata:Q83307	министр
+N313	Reference T126 Wikidata:Q29032	Милош Земан
+N314	Reference T130 Wikidata:Q29032	Милош Земан
+N315	Reference T133 Wikidata:Q29032	Милош Земан
+N316	Reference T144 Wikidata:Q29032	Милош Земан
+N317	Reference T149 Wikidata:Q29032	Милош Земан
+N318	Reference T153 Wikidata:Q29032	Милош Земан
+N319	Reference T163 Wikidata:Q29032	Милош Земан
+N320	Reference T399 Wikidata:Q29032	Милош Земан
+N321	Reference T192 Wikidata:Q29032	Милош Земан
+N322	Reference T27 Wikidata:Q29032	Милош Земан
+N323	Reference T30 Wikidata:Q29032	Милош Земан
+N324	Reference T298 Wikidata:Q29032	Милош Земан
+N325	Reference T42 Wikidata:Q29032	Милош Земан
+N326	Reference T317 Wikidata:Q29032	Милош Земан
+N327	Reference T73 Wikidata:Q29032	Милош Земан
+N328	Reference T92 Wikidata:Q29032	Милош Земан
+N329	Reference T95 Wikidata:Q29032	Милош Земан
+N330	Reference T211 Wikidata:Q29032	Милош Земан
+N331	Reference T249 Wikidata:Q29032	Милош Земан
+N332	Reference T228 Wikidata:Q29032	Милош Земан
+N333	Reference T252 Wikidata:Q29032	Милош Земан
+R198	IDEOLOGY_OF Arg1:T254 Arg2:T253	
+N334	Reference T236 Wikidata:Q29032	Милош Земан
+R199	WORKPLACE Arg1:T389 Arg2:T257	
+R200	MEMBER_OF Arg1:T389 Arg2:T239	
+N335	Reference T105 Wikidata:Q17578116	
+N336	Reference T5 Wikidata:Q29032	Милош Земан
+R201	MEMBER_OF Arg1:T157 Arg2:T361	
+N41	Reference T161 Wikidata:Q8889	Европейский парламент
+N249	Reference T414 Wikidata:Q2347172	
+N306	Reference T413 Wikidata:Q320265	Палата депутатов Парламента Чешской Республики
+N58	Reference T257 Wikidata:Q320265	Палата депутатов Парламента Чешской Республики
+R202	HEADQUARTERED_IN Arg1:T239 Arg2:T430	
+N251	Reference T431 Wikidata:Q2347172	
+N250	Reference T263 Wikidata:Q2347172	
+T452	COUNTRY 708 713	Чехии
+N337	Reference T452 Wikidata:Q213	Чехия
+R203	WORKPLACE Arg1:T236 Arg2:T235	
+R204	HEADQUARTERED_IN Arg1:T242 Arg2:T430	
+R205	HEADQUARTERED_IN Arg1:T243 Arg2:T430	

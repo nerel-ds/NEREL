@@ -51,7 +51,6 @@ R7	ORIGINS_FROM Arg1:T10 Arg2:T33
 R8	ORIGINS_FROM Arg1:T10 Arg2:T32	
 T45	AWARD 307 336	заслуженный работник культуры
 R9	WORKS_AS Arg1:T37 Arg2:T21	
-T46	PROFESSION 444 456	руководитель
 R10	WORKPLACE Arg1:T37 Arg2:T20	
 R12	WORKS_AS Arg1:T13 Arg2:T12	
 R13	AWARDED_WITH Arg1:T13 Arg2:T11	
@@ -113,3 +112,4 @@ N39	Reference T4 Wikidata:Q253410
 N40	Reference T2 Wikidata:Q2571430	
 N41	Reference T7 Wikidata:Q2571430	
 N42	Reference T33 Wikidata:Q5466	Чувашия
+R28	WORKPLACE Arg1:T19 Arg2:T20	

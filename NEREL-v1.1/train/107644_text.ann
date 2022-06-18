@@ -216,7 +216,8 @@ N54	Reference T75 Wikidata:Q7191	Нобелевская премия
 N55	Reference T17 Wikidata:Q7191	Нобелевская премия
 N56	Reference T4 Wikidata:Q37922	Нобелевская премия по литературе
 N57	Reference T52 Wikidata:Q37922	Нобелевская премия по литературе
-N58	Reference T84 Wikidata:Q37922	Нобелевская премия по литературе
 N59	Reference T14 Wikidata:Q50001	итальянцы
 N60	Reference T87 Wikidata:Q23810	Альфред Нобель
 N61	Reference T86 Wikidata:Q23810	Альфред Нобель
+N58	Reference T84 Wikidata:NULL	нет данных
+T90	DATE 1835 1839	9/11

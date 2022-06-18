@@ -50,7 +50,6 @@ R15	INANIMATE_INVOLVED Arg1:T28 Arg2:T6
 N1	Reference T1 Wikidata:Q7747	Владимир Владимирович Путин
 N2	Reference T10 Wikidata:Q159	Россия
 N3	Reference T11 Wikidata:Q7747	Владимир Владимирович Путин
-N4	Reference T17 Wikidata:Q133274	Московский Кремль
 N5	Reference T18 Wikidata:Q4042868	лайф
 N7	Reference T20 Wikidata:Q30461	президент
 N11	Reference T15 Wikidata:Q218295	президент Российской Федерации
@@ -63,7 +62,6 @@ N15	Reference T5 Wikidata:NULL	нет данных
 N8	Reference T24 Wikidata:Q4223645	
 N9	Reference T26 Wikidata:Q159	Россия
 N16	Reference T13 Wikidata:Q159	Россия
-N17	Reference T3 Wikidata:Q133274	Московский Кремль
 N18	Reference T9 Wikidata:Q30461	президент
 N19	Reference T4 Wikidata:NULL	нет данных
 N20	Reference T12 Wikidata:NULL	нет данных
@@ -76,3 +74,5 @@ N26	Reference T21 Wikidata:Q4223645
 N27	Reference T27 Wikidata:Q159	Россия
 N28	Reference T22 Wikidata:Q159	Россия
 N29	Reference T16 Wikidata:Q159	Россия
+N17	Reference T3 Wikidata:Q2060629	Администрация президента России
+N4	Reference T17 Wikidata:Q2060629	Администрация президента России

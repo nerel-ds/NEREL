@@ -176,3 +176,5 @@ R62	TAKES_PLACE_IN Arg1:T70 Arg2:T30
 T71	PROFESSION 895 903	Писатель
 T72	PROFESSION 1500 1508	Писатель
 R63	WORKS_AS Arg1:T46 Arg2:T49	
+N44	Reference T71 Wikidata:Q36180	писатель
+N45	Reference T72 Wikidata:Q36180	писатель

@@ -141,7 +141,6 @@ R34	WORKPLACE Arg1:T23 Arg2:T67
 R36	WORKPLACE Arg1:T22 Arg2:T24	
 N1	Reference T1 Wikidata:Q58132	Николас Мадуро
 N4	Reference T13 Wikidata:Q8781	Энрике Каприлес Радонски
-N5	Reference T21 Wikidata:Q133274	Московский Кремль
 N6	Reference T22 Wikidata:Q7747	Владимир Владимирович Путин
 N7	Reference T24 Wikidata:Q159	Россия
 N8	Reference T26 Wikidata:Q717	Венесуэла
@@ -199,3 +198,4 @@ N57	Reference T44 Wikidata:Q8440	Уго Чавес
 N58	Reference T76 Wikidata:Q8440	Уго Чавес
 N59	Reference T14 Wikidata:Q8440	Уго Чавес
 N60	Reference T9 Wikidata:Q8440	Уго Чавес
+N5	Reference T21 Wikidata:Q2060629	Администрация президента России

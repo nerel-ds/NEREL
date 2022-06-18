@@ -122,3 +122,5 @@ T54	RELIGION 31 41	Исламскому
 R27	RELIGION_OF Arg1:T3 Arg2:T54	
 T55	RELIGION 138 148	Исламского
 R28	RELIGION_OF Arg1:T7 Arg2:T55	
+N42	Reference T54 Wikidata:Q432	ислам
+N43	Reference T55 Wikidata:Q432	ислам

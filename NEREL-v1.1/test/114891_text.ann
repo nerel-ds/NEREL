@@ -125,12 +125,9 @@ N20	Reference T34 Wikidata:NULL	нет данных
 N18	Reference T31 Wikidata:NULL	нет данных
 N19	Reference T32 Wikidata:NULL	нет данных
 N21	Reference T36 Wikidata:NULL	нет данных
-N22	Reference T42 Wikidata:NULL	нет данных
-N16	Reference T2 Wikidata:Q186473	Совет Федерации
 N27	Reference T4 Wikidata:Q11204	
 N28	Reference T15 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
 N29	Reference T11 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
-N30	Reference T2 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
 N31	Reference T23 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
 N32	Reference T39 Wikidata:Q159	Россия
 N33	Reference T35 Wikidata:Q656	Санкт-Петербург
@@ -142,8 +139,6 @@ N38	Reference T41 Wikidata:Q186473	Совет Федерации
 N39	Reference T52 Wikidata:Q186473	Совет Федерации
 N40	Reference T30 Wikidata:Q186473	Совет Федерации
 N41	Reference T33 Wikidata:Q2390550	Законодательное собрание Санкт-Петербурга
-N42	Reference T25 Wikidata:NULL	нет данных
-N43	Reference T9 Wikidata:NULL	нет данных
 N44	Reference T3 Wikidata:Q186473	Совет Федерации
 N45	Reference T15 Wikidata:Q186473	Совет Федерации
 N46	Reference T11 Wikidata:Q186473	Совет Федерации
@@ -153,3 +148,14 @@ N49	Reference T37 Wikidata:Q11204
 N50	Reference T19 Wikidata:Q11204	
 N51	Reference T22 Wikidata:Q11204	
 T59	EVENT 0 29	Сенатор Вадим Тюльпанов погиб
+N52	Reference T28 Wikidata:Q11204	орган законодательной власти
+N53	Reference T57 Wikidata:Q11204	орган законодательной власти
+R46	DATE_FOUNDED_IN Arg1:T36 Arg2:T47	
+R47	DATE_DEFUNCT_IN Arg1:T36 Arg2:T50	
+R48	DATE_FOUNDED_IN Arg1:T33 Arg2:T38	
+R49	ABBREVIATION Arg1:T33 Arg2:T49	
+N54	Reference T58 Wikidata:Q186473	Совет Федерации
+N16	Reference T2 Wikidata:Q4467454	Вадим Альбертович Тюльпанов
+N22	Reference T42 Wikidata:Q19399742	
+N30	Reference T9 Wikidata:Q19399742	
+N42	Reference T25 Wikidata:Q19399742	
