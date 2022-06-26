@@ -86,7 +86,7 @@ R25	POINT_IN_TIME Arg1:T52 Arg2:T40
 T59	ORGANIZATION 11 45	штаб Любови Соболь и Ивана Жданова
 R26	WORKPLACE Arg1:T2 Arg2:T59	
 R27	WORKPLACE Arg1:T3 Arg2:T59	
-T66	ORGANIZATION 108 141	штаб Любови Соболь и Ивана Жданов
+T66	ORGANIZATION 108 142	штаб Любови Соболь и Ивана Жданова
 R28	WORKPLACE Arg1:T5 Arg2:T66	
 R29	WORKPLACE Arg1:T6 Arg2:T66	
 R30	HEADQUARTERED_IN Arg1:T66 Arg2:T4	
