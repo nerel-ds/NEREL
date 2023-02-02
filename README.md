@@ -112,7 +112,7 @@ The encoders used with SpanBERT and OpenNRE are multilingual BERT and RuBERT.
 |OpenNRE, RuBERT | **52.1** | **51.3** | **51.7**
 
 ### NEREL-BIO
-[NEREL-BIO] (https://github.com/nerel-ds/NEREL-BIO) is an extension of the NEREL dataset, introducing biomedical entity types in addition to the general-domain entities. 
+[NEREL-BIO](https://github.com/nerel-ds/NEREL-BIO) is an extension of the NEREL dataset, introducing biomedical entity types in addition to the general-domain entities. 
 
 ### Citing & Authors
 
