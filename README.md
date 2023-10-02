@@ -118,7 +118,20 @@ The encoders used with SpanBERT and OpenNRE are multilingual BERT and RuBERT.
 
 If you find this repository helpful, feel free to cite our papers:
 
-[1] Loukachevitch N., Artemova E., Batura T., Braslavski P., Denisov I., Ivanov V., Manandhar S., Pugachev A., Tutubalina E. [NEREL: A Russian Dataset with Nested Named Entities, Relations and Events](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.100.pdf). Proceedings of RANLP. 2021. pp. 880–889.
+[1] Loukachevitch N. et al. [NEREL: a Russian information extraction dataset with rich annotation for nested entities, relations, and wikidata entity links](https://link.springer.com/article/10.1007/s10579-023-09674-z). Lang Resources & Evaluation (2023). https://doi.org/10.1007/s10579-023-09674-z
+
+
+    @article{loukachevitch2023nerel,
+      title={NEREL: a Russian information extraction dataset with rich annotation for nested entities, relations, and wikidata entity links},
+      author={Loukachevitch, Natalia and Artemova, Ekaterina and Batura, Tatiana and Braslavski, Pavel and Ivanov, Vladimir and Manandhar, Suresh and Pugachev, Alexander and Rozhkov, Igor and Shelmanov, Artem and Tutubalina, Elena and others},
+      journal={Language Resources and Evaluation},
+      pages={1--37},
+      year={2023},
+      publisher={Springer}
+    }
+
+
+[2] Loukachevitch N., Artemova E., Batura T., Braslavski P., Denisov I., Ivanov V., Manandhar S., Pugachev A., Tutubalina E. [NEREL: A Russian Dataset with Nested Named Entities, Relations and Events](https://acl-bg.org/proceedings/2021/RANLP%202021/pdf/2021.ranlp-1.100.pdf). Proceedings of RANLP. 2021. pp. 880–889.
 
     @inproceedings{loukachevitch2021nerel,
       title={{NEREL: A Russian} Dataset with Nested Named Entities, Relations and Events},
@@ -128,7 +141,7 @@ If you find this repository helpful, feel free to cite our papers:
       year={2021}
     }
 
-[2] Loukachevitch N., Braslavski P., Ivanov V., Batura T., Manandhar S., Shelmanov A., Tutubalina E. Entity Linking over Nested Named Entities for Russian. Proceedings of LREC. 2022.
+[3] Loukachevitch N., Braslavski P., Ivanov V., Batura T., Manandhar S., Shelmanov A., Tutubalina E. Entity Linking over Nested Named Entities for Russian. Proceedings of LREC. 2022.
 
     @inproceedings{nerel-el-nne, 
       title={{Entity Linking over Nested Named Entities for Russian}},
