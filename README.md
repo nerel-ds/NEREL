@@ -4,7 +4,7 @@ A Russian dataset with nested named entities, relations, events and linked entit
 
 ![alt text](https://github.com/nerel-ds/NEREL/blob/master/resources/el_example_1.jpg?raw=true)
 
-### Version history
+## Version history
 
 #### 1.1
 Added: Linked entities
@@ -15,6 +15,7 @@ First version:
 * Events
 * Relations 
 
+## Entities
 ### List of entity types
 
 |No. | Entity type | No. | Entity type | No. | Entity type
@@ -53,6 +54,7 @@ For more details, please see [here](https://github.com/nerel-ds/nested-ner-bench
 |MRC | **85.04** | **84.95** | **84.99**
 
 
+## Relations
 ### List of relation types
 
 |No. | Relation type | No. | Relation type | No. | Relation type
@@ -111,14 +113,21 @@ The encoders used with SpanBERT and OpenNRE are multilingual BERT and RuBERT.
 |OpenNRE, mBERT | 35.7 | 51.2 | 42.1
 |OpenNRE, RuBERT | **52.1** | **51.3** | **51.7**
 
-### NEREL-BIO
+## Useful links
+[![](https://img.shields.io/badge/AREkit--ss_Compatible-0.23.1-purple.svg)](https://github.com/nicolay-r/arekit-ss#usage)
+
+> 📓 **Update 1 November 2023**: this collection **is now available in [arekit-ss](https://github.com/nicolay-r/arekit-ss)**
+> for a [quick sampling](https://github.com/nicolay-r/arekit-ss#usage) of contexts with most subject-object relation mentions with just **single script into
+> `JSONL/CSV/SqLite`** including (optional) language transfering 🔥 [[Learn more ...]](https://github.com/nicolay-r/arekit-ss#usage)
+
+## NEREL-BIO
 [NEREL-BIO](https://github.com/nerel-ds/NEREL-BIO) is an extension of the NEREL dataset, introducing biomedical entity types in addition to the general-domain entities. 
 
-### Citing & Authors
+## Citing & Authors
 
 If you find this repository helpful, feel free to cite our papers:
 
-[1] Loukachevitch N. et al. [NEREL: a Russian information extraction dataset with rich annotation for nested entities, relations, and wikidata entity links](https://link.springer.com/article/10.1007/s10579-023-09674-z). Lang Resources & Evaluation (2023). https://doi.org/10.1007/s10579-023-09674-z
+[1] Loukachevitch N. et al. [NEREL: a Russian information extraction dataset with rich annotation for nested entities, relations, and wikidata entity links](https://link.springer.com/article/10.1007/s10579-023-09674-z). Language Resources and Evaluation (2023). https://doi.org/10.1007/s10579-023-09674-z
 
 
     @article{loukachevitch2023nerel,
@@ -141,7 +150,7 @@ If you find this repository helpful, feel free to cite our papers:
       year={2021}
     }
 
-[3] Loukachevitch N., Braslavski P., Ivanov V., Batura T., Manandhar S., Shelmanov A., Tutubalina E. Entity Linking over Nested Named Entities for Russian. Proceedings of LREC. 2022.
+[3] Loukachevitch N., Braslavski P., Ivanov V., Batura T., Manandhar S., Shelmanov A., Tutubalina E. [Entity Linking over Nested Named Entities for Russian](https://aclanthology.org/2022.lrec-1.474.pdf). Proceedings of LREC. 2022. pp. 4458–4466.
 
     @inproceedings{nerel-el-nne, 
       title={{Entity Linking over Nested Named Entities for Russian}},
